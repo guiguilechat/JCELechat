@@ -1,37 +1,61 @@
 items:
   Dread Guristas Ion Field Projection Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27864
     name: Dread Guristas Ion Field Projection Battery Blueprint
+    volume: 0.01
   Dread Guristas Phase Inversion Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27863
     name: Dread Guristas Phase Inversion Battery Blueprint
+    volume: 0.01
   Dread Guristas Spatial Destabilization Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27865
     name: Dread Guristas Spatial Destabilization Battery Blueprint
+    volume: 0.01
   Dread Guristas White Noise Generation Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27866
     name: Dread Guristas White Noise Generation Battery Blueprint
+    volume: 0.01
   Guristas Ion Field Projection Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27859
     name: Guristas Ion Field Projection Battery Blueprint
+    volume: 0.01
   Guristas Phase Inversion Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27862
     name: Guristas Phase Inversion Battery Blueprint
+    volume: 0.01
   Guristas Spatial Destabilization Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27861
     name: Guristas Spatial Destabilization Battery Blueprint
+    volume: 0.01
   Guristas White Noise Generation Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27860
     name: Guristas White Noise Generation Battery Blueprint
+    volume: 0.01
   Ion Field Projection Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2792
     name: Ion Field Projection Battery Blueprint
+    volume: 0.01
   Phase Inversion Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2794
     name: Phase Inversion Battery Blueprint
+    volume: 0.01
   Spatial Destabilization Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2796
     name: Spatial Destabilization Battery Blueprint
+    volume: 0.01
   White Noise Generation Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2798
     name: White Noise Generation Battery Blueprint
+    volume: 0.01

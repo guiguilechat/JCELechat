@@ -77,6 +77,12 @@ public class ItemsTranslater {
 				Field nameField = item.getClass().getField("name");
 				nameField.setAccessible(true);
 				nameField.set(item, type.enName());
+				Field idField = item.getClass().getField("id");
+				idField.setAccessible(true);
+				idField.set(item, e.getKey());
+				Field volumeField = item.getClass().getField("volume");
+				volumeField.setAccessible(true);
+				volumeField.set(item, type.volume);
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}

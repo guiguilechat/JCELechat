@@ -9,7 +9,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 32262
     name: Black Eagle Drone Link Augmentor
+    volume: 25.0
   Drone Link Augmentor I:
     DroneRangeBonus: 20000
     Hp: 40
@@ -17,7 +19,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 23527
     name: Drone Link Augmentor I
+    volume: 25.0
   Drone Link Augmentor II:
     DroneRangeBonus: 24000
     Hp: 40
@@ -26,7 +30,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 5
     TechLevel: 2
+    id: 24427
     name: Drone Link Augmentor II
+    volume: 25.0
   Unit D-34343's Modified Drone Link Augmentor:
     Cpu: 40.0
     DroneRangeBonus: 27000
@@ -37,7 +43,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 32927
     name: Unit D-34343's Modified Drone Link Augmentor
+    volume: 25.0
   Unit F-435454's Modified Drone Link Augmentor:
     Cpu: 44.0
     DroneRangeBonus: 28000
@@ -48,7 +56,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 32929
     name: Unit F-435454's Modified Drone Link Augmentor
+    volume: 25.0
   Unit P-343554's Modified Drone Link Augmentor:
     Cpu: 48.0
     DroneRangeBonus: 29000
@@ -59,7 +69,9 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 32931
     name: Unit P-343554's Modified Drone Link Augmentor
+    volume: 25.0
   Unit W-634's Modified Drone Link Augmentor:
     Cpu: 51.0
     DroneRangeBonus: 30000
@@ -70,4 +82,6 @@ items:
     RequiredSkill1: 3437
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 32933
     name: Unit W-634's Modified Drone Link Augmentor
+    volume: 25.0

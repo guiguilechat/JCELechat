@@ -9,7 +9,9 @@ items:
     WarfareBuff1Multiplier: 18
     WarfareBuff2ID: 19
     WarfareBuff2Multiplier: -9
+    id: 42837
     name: Electronic Hardening Charge
+    volume: 0.01
   Electronic Superiority Charge:
     LauncherGroup: 1770
     RequiredSkill1: 20495
@@ -18,7 +20,9 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 17
     WarfareBuff1Multiplier: 9
+    id: 42836
     name: Electronic Superiority Charge
+    volume: 0.01
   Sensor Optimization Charge:
     LauncherGroup: 1770
     RequiredSkill1: 20495
@@ -29,4 +33,6 @@ items:
     WarfareBuff1Multiplier: 9
     WarfareBuff2ID: 26
     WarfareBuff2Multiplier: 18
+    id: 42835
     name: Sensor Optimization Charge
+    volume: 0.01

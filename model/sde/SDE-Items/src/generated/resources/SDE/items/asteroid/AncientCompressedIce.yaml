@@ -2,48 +2,72 @@ items:
   Ancient Compressed Blue Ice:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29113
     name: Ancient Compressed Blue Ice
+    volume: 100.0
   Ancient Compressed Clear Icicle:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29115
     name: Ancient Compressed Clear Icicle
+    volume: 100.0
   Ancient Compressed Dark Glitter:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29117
     name: Ancient Compressed Dark Glitter
+    volume: 100.0
   Ancient Compressed Enriched Clear Icicle:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29119
     name: Ancient Compressed Enriched Clear Icicle
+    volume: 100.0
   Ancient Compressed Gelidus:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29121
     name: Ancient Compressed Gelidus
+    volume: 100.0
   Ancient Compressed Glacial Mass:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29123
     name: Ancient Compressed Glacial Mass
+    volume: 100.0
   Ancient Compressed Glare Crust:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29125
     name: Ancient Compressed Glare Crust
+    volume: 100.0
   Ancient Compressed Krystallos:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29127
     name: Ancient Compressed Krystallos
+    volume: 100.0
   Ancient Compressed Pristine White Glaze:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29129
     name: Ancient Compressed Pristine White Glaze
+    volume: 100.0
   Ancient Compressed Smooth Glacial Mass:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29131
     name: Ancient Compressed Smooth Glacial Mass
+    volume: 100.0
   Ancient Compressed Thick Blue Ice:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29133
     name: Ancient Compressed Thick Blue Ice
+    volume: 100.0
   Ancient Compressed White Glaze:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 29135
     name: Ancient Compressed White Glaze
+    volume: 100.0

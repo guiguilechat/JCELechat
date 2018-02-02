@@ -1,13 +1,25 @@
 items:
   Sansha's Behemoth:
+    id: 23388
     name: Sansha's Behemoth
+    volume: 100100.0
   Sansha's Daemon:
+    id: 23387
     name: Sansha's Daemon
+    volume: 100100.0
   Sansha's Devil:
+    id: 23386
     name: Sansha's Devil
+    volume: 100100.0
   Sansha's Phantasm:
+    id: 23383
     name: Sansha's Phantasm
+    volume: 100100.0
   Sansha's Specter:
+    id: 23384
     name: Sansha's Specter
+    volume: 100100.0
   Sansha's Wraith:
+    id: 23385
     name: Sansha's Wraith
+    volume: 100100.0

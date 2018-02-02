@@ -75,7 +75,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 2836
     name: Adrestia
+    volume: 112000.0
   Cerberus:
     Agility: 0.46299999952316284
     ArmorEmDamageResonance: 0.5
@@ -153,7 +155,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11993
     name: Cerberus
+    volume: 92000.0
   Deimos:
     Agility: 0.4749999940395355
     ArmorEmDamageResonance: 0.5
@@ -230,7 +234,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12023
     name: Deimos
+    volume: 112000.0
   Eagle:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
@@ -307,7 +313,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12011
     name: Eagle
+    volume: 101000.0
   Ishtar:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
@@ -386,7 +394,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12005
     name: Ishtar
+    volume: 115000.0
   Mimir:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.10000000149011612
@@ -466,7 +476,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 32209
     name: Mimir
+    volume: 96000.0
   Muninn:
     Agility: 0.5709999799728394
     ArmorEmDamageResonance: 0.10000000149011612
@@ -546,7 +558,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12015
     name: Muninn
+    volume: 96000.0
   Sacrilege:
     Agility: 0.5669999718666077
     ArmorEmDamageResonance: 0.5
@@ -625,7 +639,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12019
     name: Sacrilege
+    volume: 118000.0
   Vagabond:
     Agility: 0.5040000081062317
     ArmorEmDamageResonance: 0.10000000149011612
@@ -704,7 +720,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11999
     name: Vagabond
+    volume: 80000.0
   Vangel:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.5
@@ -784,7 +802,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 3518
     name: Vangel
+    volume: 118000.0
   Zealot:
     Agility: 0.5529999732971191
     ArmorEmDamageResonance: 0.5
@@ -860,7 +880,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12003
     name: Zealot
+    volume: 118000.0
   伊什塔级YC117年特别版:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
@@ -939,7 +961,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 34479
     name: 伊什塔级YC117年特别版
+    volume: 115000.0
   银鹰级YC117年特别版:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
@@ -1016,4 +1040,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 34477
     name: 银鹰级YC117年特别版
+    volume: 101000.0

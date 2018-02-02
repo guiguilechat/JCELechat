@@ -84,7 +84,9 @@ items:
     VelocityPenaltyReduction: 1
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
+    id: 37135
     name: Endurance
+    volume: 50000.0
   Prospect:
     AffectedByIndustrialInvulnModule: 1
     Agility: 3.0
@@ -166,4 +168,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
+    id: 33697
     name: Prospect
+    volume: 50000.0

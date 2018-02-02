@@ -1,11 +1,21 @@
 items:
   Generic Fuel Block:
+    id: 36945
     name: Generic Fuel Block
+    volume: 5.0
   Helium Fuel Block:
+    id: 4247
     name: Helium Fuel Block
+    volume: 5.0
   Hydrogen Fuel Block:
+    id: 4246
     name: Hydrogen Fuel Block
+    volume: 5.0
   Nitrogen Fuel Block:
+    id: 4051
     name: Nitrogen Fuel Block
+    volume: 5.0
   Oxygen Fuel Block:
+    id: 4312
     name: Oxygen Fuel Block
+    volume: 5.0

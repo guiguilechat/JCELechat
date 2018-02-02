@@ -7,7 +7,9 @@ items:
     StructureRigBonus2: 5.199999809265137
     TechLevel: 1
     UpgradeCost: 100
+    id: 37196
     name: Large Module, Consumable, Drone Research I
+    volume: 20.0
   Large Module, Consumable, Drone Research II:
     CanFitShipGroup01: 1657
     Hp: 40
@@ -16,4 +18,6 @@ items:
     StructureRigBonus2: 6.400000095367432
     TechLevel: 2
     UpgradeCost: 150
+    id: 37197
     name: Large Module, Consumable, Drone Research II
+    volume: 20.0

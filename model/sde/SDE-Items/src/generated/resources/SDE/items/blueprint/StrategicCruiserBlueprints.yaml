@@ -2,16 +2,24 @@ items:
   Legion Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3
+    id: 29987
     name: Legion Blueprint
+    volume: 0.01
   Loki Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3
+    id: 29991
     name: Loki Blueprint
+    volume: 0.01
   Proteus Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3
+    id: 29989
     name: Proteus Blueprint
+    volume: 0.01
   Tengu Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 3
+    id: 29985
     name: Tengu Blueprint
+    volume: 0.01

@@ -1,25 +1,49 @@
 items:
   Corpior Cleric:
+    id: 23983
     name: Corpior Cleric
+    volume: 28600.0
   Corpior Converter:
+    id: 23979
     name: Corpior Converter
+    volume: 28600.0
   Corpior Devoter:
+    id: 23981
     name: Corpior Devoter
+    volume: 28600.0
   Corpior Friar:
+    id: 23982
     name: Corpior Friar
+    volume: 28600.0
   Corpior Templar:
+    id: 23980
     name: Corpior Templar
+    volume: 28600.0
   Corpior Visionary:
+    id: 23970
     name: Corpior Visionary
+    volume: 28600.0
   Dark Corpior Cleric:
+    id: 24228
     name: Dark Corpior Cleric
+    volume: 28600.0
   Dark Corpior Converter:
+    id: 24224
     name: Dark Corpior Converter
+    volume: 28600.0
   Dark Corpior Devoter:
+    id: 24226
     name: Dark Corpior Devoter
+    volume: 28600.0
   Dark Corpior Friar:
+    id: 24227
     name: Dark Corpior Friar
+    volume: 28600.0
   Dark Corpior Templar:
+    id: 24225
     name: Dark Corpior Templar
+    volume: 28600.0
   Dark Corpior Visioner:
+    id: 24223
     name: Dark Corpior Visioner
+    volume: 28600.0

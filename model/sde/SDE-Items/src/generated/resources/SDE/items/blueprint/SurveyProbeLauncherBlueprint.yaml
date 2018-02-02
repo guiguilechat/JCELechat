@@ -2,8 +2,12 @@ items:
   Survey Probe Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 33271
     name: Survey Probe Launcher I Blueprint
+    volume: 0.01
   Survey Probe Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 33273
     name: Survey Probe Launcher II Blueprint
+    volume: 0.01

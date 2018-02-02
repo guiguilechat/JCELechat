@@ -1,49 +1,97 @@
 items:
   Antikythera Element:
+    id: 34575
     name: Antikythera Element
+    volume: 0.1
   Barbican Element:
+    id: 34557
     name: Barbican Element
+    volume: 0.1
   Barbican Index:
+    id: 34552
     name: Barbican Index
+    volume: 0.1
   Barbican Sequence 0:
+    id: 34542
     name: Barbican Sequence 0
+    volume: 0.1
   Barbican Sequence 1:
+    id: 34543
     name: Barbican Sequence 1
+    volume: 0.1
   Coalesced Element:
+    id: 36902
     name: Coalesced Element
+    volume: 0.1
   Conflux Element:
+    id: 34559
     name: Conflux Element
+    volume: 0.1
   Conflux Index:
+    id: 34554
     name: Conflux Index
+    volume: 0.1
   Conflux Sequence 0:
+    id: 34546
     name: Conflux Sequence 0
+    volume: 0.1
   Conflux Sequence 1:
+    id: 34547
     name: Conflux Sequence 1
+    volume: 0.1
   Jovian DNA Strand:
+    id: 40541
     name: Jovian DNA Strand
+    volume: 0.1
   Redoubt Element:
+    id: 34560
     name: Redoubt Element
+    volume: 0.1
   Redoubt Index:
+    id: 34555
     name: Redoubt Index
+    volume: 0.1
   Redoubt Sequence 0:
+    id: 34548
     name: Redoubt Sequence 0
+    volume: 0.1
   Redoubt Sequence 1:
+    id: 34549
     name: Redoubt Sequence 1
+    volume: 0.1
   Sentinel Element:
+    id: 34556
     name: Sentinel Element
+    volume: 0.1
   Sentinel Index:
+    id: 34551
     name: Sentinel Index
+    volume: 0.1
   Sentinel Sequence 0:
+    id: 34540
     name: Sentinel Sequence 0
+    volume: 0.1
   Sentinel Sequence 1:
+    id: 34541
     name: Sentinel Sequence 1
+    volume: 0.1
   Unknown Sequence:
+    id: 42640
     name: Unknown Sequence
+    volume: 0.1
   Vidette Element:
+    id: 34558
     name: Vidette Element
+    volume: 0.1
   Vidette Index:
+    id: 34553
     name: Vidette Index
+    volume: 0.1
   Vidette Sequence 0:
+    id: 34544
     name: Vidette Sequence 0
+    volume: 0.1
   Vidette Sequence 1:
+    id: 34545
     name: Vidette Sequence 1
+    volume: 0.1

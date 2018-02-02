@@ -6,7 +6,9 @@ items:
     StructureRigBonus1: 32
     TechLevel: 1
     UpgradeCost: 100
+    id: 37204
     name: Large Tech I Capital Component Research I
+    volume: 20.0
   Large Tech I Capital Component Research II:
     CanFitShipGroup01: 1657
     Hp: 40
@@ -14,4 +16,6 @@ items:
     StructureRigBonus1: 40
     TechLevel: 2
     UpgradeCost: 150
+    id: 37205
     name: Large Tech I Capital Component Research II
+    volume: 20.0

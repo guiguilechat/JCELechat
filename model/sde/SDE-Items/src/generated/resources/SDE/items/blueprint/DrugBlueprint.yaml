@@ -1,4 +1,6 @@
 items:
   Modified Augumene Antidote Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29204
     name: Modified Augumene Antidote Blueprint
+    volume: 0.01

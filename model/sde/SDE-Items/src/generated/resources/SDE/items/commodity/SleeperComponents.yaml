@@ -1,9 +1,17 @@
 items:
   Ancient Coordinates Database:
+    id: 30746
     name: Ancient Coordinates Database
+    volume: 0.1
   Neural Network Analyzer:
+    id: 30744
     name: Neural Network Analyzer
+    volume: 0.1
   Sleeper Data Library:
+    id: 30745
     name: Sleeper Data Library
+    volume: 0.1
   Sleeper Drone AI Nexus:
+    id: 30747
     name: Sleeper Drone AI Nexus
+    volume: 0.1

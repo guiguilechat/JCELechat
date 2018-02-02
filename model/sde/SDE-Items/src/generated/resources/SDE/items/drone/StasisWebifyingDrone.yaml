@@ -50,7 +50,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 23536
     name: Berserker SW-900
+    volume: 25.0
   Valkyrie SW-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -102,7 +104,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 23729
     name: Valkyrie SW-600
+    volume: 10.0
   Warrior SW-300:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -154,4 +158,6 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 23731
     name: Warrior SW-300
+    volume: 5.0

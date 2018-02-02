@@ -1,13 +1,25 @@
 items:
   Amarr Empire Starbase Charter:
+    id: 24592
     name: Amarr Empire Starbase Charter
+    volume: 0.1
   Ammatar Mandate Starbase Charter:
+    id: 24597
     name: Ammatar Mandate Starbase Charter
+    volume: 0.1
   Caldari State Starbase Charter:
+    id: 24593
     name: Caldari State Starbase Charter
+    volume: 0.1
   Gallente Federation Starbase Charter:
+    id: 24594
     name: Gallente Federation Starbase Charter
+    volume: 0.1
   Khanid Kingdom Starbase Charter:
+    id: 24596
     name: Khanid Kingdom Starbase Charter
+    volume: 0.1
   Minmatar Republic Starbase Charter:
+    id: 24595
     name: Minmatar Republic Starbase Charter
+    volume: 0.1

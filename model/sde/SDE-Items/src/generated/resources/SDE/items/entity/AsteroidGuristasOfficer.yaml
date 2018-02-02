@@ -1,9 +1,17 @@
 items:
   Estamel Tharchon:
+    id: 13603
     name: Estamel Tharchon
+    volume: 2.2E7
   Kaikka Peunato:
+    id: 13589
     name: Kaikka Peunato
+    volume: 1040000.0
   Thon Eney:
+    id: 13584
     name: Thon Eney
+    volume: 1080000.0
   Vepas Minimala:
+    id: 13580
     name: Vepas Minimala
+    volume: 1040000.0

@@ -19,7 +19,9 @@ items:
     Speed: 5600
     TechLevel: 1
     TypeColorScheme: 11321
+    id: 28377
     name: Caldari Navy Heavy Assault Missile Launcher
+    volume: 10.0
   Domination Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -40,7 +42,9 @@ items:
     Speed: 6200
     TechLevel: 1
     TypeColorScheme: 11318
+    id: 28379
     name: Domination Heavy Assault Missile Launcher
+    volume: 10.0
   Dread Guristas Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -61,7 +65,9 @@ items:
     Speed: 5600
     TechLevel: 1
     TypeColorScheme: 11335
+    id: 28381
     name: Dread Guristas Heavy Assault Missile Launcher
+    volume: 10.0
   Experimental XT-2800 Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -81,7 +87,9 @@ items:
     Speed: 6800
     TechLevel: 1
     TypeColorScheme: 20116
+    id: 25713
     name: Experimental XT-2800 Heavy Assault Missile Launcher I
+    volume: 10.0
   Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -100,7 +108,9 @@ items:
     Speed: 8000
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 20138
     name: Heavy Assault Missile Launcher I
+    volume: 10.0
   Heavy Assault Missile Launcher II:
     ChargeGroup1: 772
     ChargeGroup2: 654
@@ -121,7 +131,9 @@ items:
     Speed: 6400
     TechLevel: 2
     TypeColorScheme: 11325
+    id: 25715
     name: Heavy Assault Missile Launcher II
+    volume: 10.0
   Khanid Navy Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -142,7 +154,9 @@ items:
     Speed: 5600
     TechLevel: 1
     TypeColorScheme: 11337
+    id: 28565
     name: Khanid Navy Heavy Assault Missile Launcher
+    volume: 10.0
   Limited 'Limos' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -162,7 +176,9 @@ items:
     Speed: 7200
     TechLevel: 1
     TypeColorScheme: 20115
+    id: 25711
     name: Limited 'Limos' Heavy Assault Missile Launcher I
+    volume: 10.0
   Polarized Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeGroup2: 654
@@ -186,7 +202,9 @@ items:
     Speed: 5120
     TechLevel: 2
     TypeColorScheme: 11461
+    id: 34292
     name: Polarized Heavy Assault Missile Launcher
+    volume: 10.0
   Prototype 'Arbalest' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -206,7 +224,9 @@ items:
     Speed: 6400
     TechLevel: 1
     TypeColorScheme: 20113
+    id: 25707
     name: Prototype 'Arbalest' Heavy Assault Missile Launcher I
+    volume: 10.0
   Republic Fleet Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -227,7 +247,9 @@ items:
     Speed: 6200
     TechLevel: 1
     TypeColorScheme: 11339
+    id: 28375
     name: Republic Fleet Heavy Assault Missile Launcher
+    volume: 10.0
   True Sansha Heavy Assault Missile Launcher:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -248,7 +270,9 @@ items:
     Speed: 6200
     TechLevel: 1
     TypeColorScheme: 11349
+    id: 28383
     name: True Sansha Heavy Assault Missile Launcher
+    volume: 10.0
   Upgraded 'Malkuth' Heavy Assault Missile Launcher I:
     ChargeGroup1: 772
     ChargeRate: 1
@@ -268,4 +292,6 @@ items:
     Speed: 7600
     TechLevel: 1
     TypeColorScheme: 20123
+    id: 25709
     name: Upgraded 'Malkuth' Heavy Assault Missile Launcher I
+    volume: 10.0

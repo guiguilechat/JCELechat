@@ -2,22 +2,34 @@ items:
   '''Distributor'' Guidance Disruptor Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22932
     name: '''Distributor'' Guidance Disruptor Blueprint'
+    volume: 0.01
   '''Investor'' Tracking Disruptor I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22934
     name: '''Investor'' Tracking Disruptor I Blueprint'
+    volume: 0.01
   Guidance Disruptor I Blueprint:
     TechLevel: 1
+    id: 40338
     name: Guidance Disruptor I Blueprint
+    volume: 0.01
   Guidance Disruptor II Blueprint:
     TechLevel: 2
+    id: 40339
     name: Guidance Disruptor II Blueprint
+    volume: 0.01
   Tracking Disruptor I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 11614
     name: Tracking Disruptor I Blueprint
+    volume: 0.01
   Tracking Disruptor II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 11844
     name: Tracking Disruptor II Blueprint
+    volume: 0.01

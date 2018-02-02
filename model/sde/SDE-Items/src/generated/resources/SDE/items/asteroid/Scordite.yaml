@@ -7,7 +7,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 28427
     name: Compressed Condensed Scordite
+    volume: 0.19
   Compressed Glossy Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -16,7 +18,9 @@ items:
     OreBasicType: 46687
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 46703
     name: Compressed Glossy Scordite
+    volume: 0.19
   Compressed Massive Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -25,7 +29,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 28428
     name: Compressed Massive Scordite
+    volume: 0.19
   Compressed Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -34,7 +40,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 28429
     name: Compressed Scordite
+    volume: 0.19
   Condensed Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -45,7 +53,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 17463
     name: Condensed Scordite
+    volume: 0.15
   Glossy Scordite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -56,7 +66,9 @@ items:
     OreBasicType: 46687
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 46687
     name: Glossy Scordite
+    volume: 0.15
   Massive Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -67,7 +79,9 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 17464
     name: Massive Scordite
+    volume: 0.15
   Scordite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -78,4 +92,6 @@ items:
     OreBasicType: 1228
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
+    id: 1228
     name: Scordite
+    volume: 0.15

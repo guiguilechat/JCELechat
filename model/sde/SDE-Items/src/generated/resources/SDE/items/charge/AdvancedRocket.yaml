@@ -25,7 +25,9 @@ items:
     TechLevel: 2
     ThermalDamage: 29.700000762939453
     ThermalDamageResonance: 0.800000011920929
+    id: 24479
     name: Inferno Javelin Rocket
+    volume: 0.005
   Inferno Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -53,7 +55,9 @@ items:
     TechLevel: 2
     ThermalDamage: 44.599998474121094
     ThermalDamageResonance: 0.800000011920929
+    id: 24475
     name: Inferno Rage Rocket
+    volume: 0.005
   Mjolnir Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -80,7 +84,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 13119
     name: Mjolnir Javelin Rocket
+    volume: 0.005
   Mjolnir Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -108,7 +114,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 2817
     name: Mjolnir Rage Rocket
+    volume: 0.005
   Nova Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -135,7 +143,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24478
     name: Nova Javelin Rocket
+    volume: 0.005
   Nova Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -163,7 +173,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24473
     name: Nova Rage Rocket
+    volume: 0.005
   Scourge Javelin Rocket:
     Agility: 0.0019947297405451536
     AoeCloudSize: 20
@@ -190,7 +202,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24477
     name: Scourge Javelin Rocket
+    volume: 0.005
   Scourge Rage Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -218,4 +232,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24471
     name: Scourge Rage Rocket
+    volume: 0.005

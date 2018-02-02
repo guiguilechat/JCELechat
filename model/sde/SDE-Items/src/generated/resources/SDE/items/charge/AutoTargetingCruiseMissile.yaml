@@ -22,7 +22,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27475
     name: Arch Angel Nova F.O.F. Cruise Missile I
+    volume: 0.05
   Blood Mjolnir F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -46,7 +48,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27457
     name: Blood Mjolnir F.O.F. Cruise Missile I
+    volume: 0.05
   Caldari Navy Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -70,7 +74,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27465
     name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
+    volume: 0.05
   Dark Blood Mjolnir F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -94,7 +100,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27461
     name: Dark Blood Mjolnir F.O.F. Cruise Missile I
+    volume: 0.05
   Domination Nova F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -118,7 +126,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27479
     name: Domination Nova F.O.F. Cruise Missile I
+    volume: 0.05
   Dread Guristas Scourge F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -142,7 +152,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27467
     name: Dread Guristas Scourge F.O.F. Cruise Missile I
+    volume: 0.05
   Federation Navy Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -166,7 +178,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 323.0
+    id: 27471
     name: Federation Navy Inferno Auto-Targeting Cruise Missile I
+    volume: 0.05
   Guardian Inferno F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -190,7 +204,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 338.0
+    id: 27473
     name: Guardian Inferno F.O.F. Cruise Missile I
+    volume: 0.05
   Guristas Scourge F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -214,7 +230,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27463
     name: Guristas Scourge F.O.F. Cruise Missile I
+    volume: 0.05
   Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -238,7 +256,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27459
     name: Imperial Navy Mjolnir Auto-Targeting Cruise Missile I
+    volume: 0.05
   Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -261,7 +281,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 281.0
+    id: 1832
     name: Inferno Auto-Targeting Cruise Missile I
+    volume: 0.05
   Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -284,7 +306,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 1828
     name: Mjolnir Auto-Targeting Cruise Missile I
+    volume: 0.05
   Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -307,7 +331,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 1830
     name: Nova Auto-Targeting Cruise Missile I
+    volume: 0.05
   Republic Fleet Nova Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -331,7 +357,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27477
     name: Republic Fleet Nova Auto-Targeting Cruise Missile I
+    volume: 0.05
   Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -354,7 +382,9 @@ items:
     RequiredSkill3Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 1826
     name: Scourge Auto-Targeting Cruise Missile I
+    volume: 0.05
   Shadow Inferno F.O.F. Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -378,4 +408,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 309.0
+    id: 27469
     name: Shadow Inferno F.O.F. Cruise Missile I
+    volume: 0.05

@@ -1,21 +1,41 @@
 items:
   Dark Blood Arch Engraver:
+    id: 13547
     name: Dark Blood Arch Engraver
+    volume: 120000.0
   Dark Blood Arch Priest:
+    id: 13548
     name: Dark Blood Arch Priest
+    volume: 118000.0
   Dark Blood Arch Reaver:
+    id: 13550
     name: Dark Blood Arch Reaver
+    volume: 115000.0
   Dark Blood Arch Sage:
+    id: 13551
     name: Dark Blood Arch Sage
+    volume: 118000.0
   Dark Blood Arch Templar:
+    id: 13553
     name: Dark Blood Arch Templar
+    volume: 118000.0
   Dark Blood Dark Priest:
+    id: 13549
     name: Dark Blood Dark Priest
+    volume: 118000.0
   Dark Blood Priest:
+    id: 13565
     name: Dark Blood Priest
+    volume: 118000.0
   Dark Blood Revenant:
+    id: 13569
     name: Dark Blood Revenant
+    volume: 118000.0
   Dark Blood Sage:
+    id: 13570
     name: Dark Blood Sage
+    volume: 118000.0
   Dark Blood Shadow Sage:
+    id: 13552
     name: Dark Blood Shadow Sage
+    volume: 118000.0

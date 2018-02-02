@@ -2,84 +2,128 @@ items:
   Aurora L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12825
     name: Aurora L Blueprint
+    volume: 0.01
   Aurora M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12823
     name: Aurora M Blueprint
+    volume: 0.01
   Aurora S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12560
     name: Aurora S Blueprint
+    volume: 0.01
   Aurora XL Blueprint:
     TechLevel: 2
+    id: 41337
     name: Aurora XL Blueprint
+    volume: 0.01
   Blaze L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12813
     name: Blaze L Blueprint
+    volume: 0.01
   Blaze M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12811
     name: Blaze M Blueprint
+    volume: 0.01
   Blaze S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12562
     name: Blaze S Blueprint
+    volume: 0.01
   Conflagration L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12817
     name: Conflagration L Blueprint
+    volume: 0.01
   Conflagration M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12815
     name: Conflagration M Blueprint
+    volume: 0.01
   Conflagration S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12566
     name: Conflagration S Blueprint
+    volume: 0.01
   Conflagration XL Blueprint:
     TechLevel: 2
+    id: 41333
     name: Conflagration XL Blueprint
+    volume: 0.01
   Gleam L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12829
     name: Gleam L Blueprint
+    volume: 0.01
   Gleam M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12827
     name: Gleam M Blueprint
+    volume: 0.01
   Gleam S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12558
     name: Gleam S Blueprint
+    volume: 0.01
   Gleam XL Blueprint:
     TechLevel: 2
+    id: 41335
     name: Gleam XL Blueprint
+    volume: 0.01
   Lux L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12833
     name: Lux L Blueprint
+    volume: 0.01
   Lux M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12831
     name: Lux M Blueprint
+    volume: 0.01
   Lux S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12553
     name: Lux S Blueprint
+    volume: 0.01
   Scorch L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2
+    id: 12821
     name: Scorch L Blueprint
+    volume: 0.01
   Scorch M Blueprint:
     IndustryBlueprintRank: 3.200000047683716
     TechLevel: 2
+    id: 12819
     name: Scorch M Blueprint
+    volume: 0.01
   Scorch S Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 12564
     name: Scorch S Blueprint
+    volume: 0.01
   Scorch XL Blueprint:
     TechLevel: 2
+    id: 41331
     name: Scorch XL Blueprint
+    volume: 0.01

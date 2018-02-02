@@ -77,7 +77,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11202
     name: Ares
+    volume: 22500.0
   Claw:
     Agility: 3.1500000953674316
     ArmorEmDamageResonance: 0.30000001192092896
@@ -156,7 +158,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11196
     name: Claw
+    volume: 17400.0
   Crow:
     Agility: 3.700000047683716
     ArmorEmDamageResonance: 0.5
@@ -234,7 +238,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11176
     name: Crow
+    volume: 18000.0
   Crusader:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -309,7 +315,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11184
     name: Crusader
+    volume: 28100.0
   Imp:
     Agility: 3.299999952316284
     ArmorEmDamageResonance: 0.5
@@ -389,7 +397,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 35779
     name: Imp
+    volume: 28600.0
   Malediction:
     Agility: 3.049999952316284
     ArmorEmDamageResonance: 0.5
@@ -467,7 +477,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11186
     name: Malediction
+    volume: 28100.0
   Raptor:
     Agility: 3.4000000953674316
     ArmorEmDamageResonance: 0.5
@@ -545,7 +557,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11178
     name: Raptor
+    volume: 18000.0
   Stiletto:
     Agility: 3.5
     ArmorEmDamageResonance: 0.30000001192092896
@@ -624,7 +638,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11198
     name: Stiletto
+    volume: 17400.0
   Taranis:
     Agility: 3.25
     ArmorEmDamageResonance: 0.5
@@ -703,7 +719,9 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 11200
     name: Taranis
+    volume: 22500.0
   Whiptail:
     Agility: 3.700000047683716
     ArmorEmDamageResonance: 0.5
@@ -786,4 +804,6 @@ items:
     WarpBubbleImmune: 1
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
+    id: 33673
     name: Whiptail
+    volume: 18000.0

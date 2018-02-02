@@ -45,7 +45,9 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 43701
     name: '''Augmented'' Ice Harvesting Drone'
+    volume: 50.0
   '''Augmented'' Mining Drone':
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -92,7 +94,9 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 43694
     name: '''Augmented'' Mining Drone'
+    volume: 5.0
   '''Excavator'' Ice Harvesting Drone':
     ArmorEmDamageResonance: 0.3199999928474426
     ArmorExplosiveDamageResonance: 0.7200000286102295
@@ -139,7 +143,9 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 43681
     name: '''Excavator'' Ice Harvesting Drone'
+    volume: 750.0
   '''Excavator'' Mining Drone':
     ArmorEmDamageResonance: 0.3199999928474426
     ArmorExplosiveDamageResonance: 0.7200000286102295
@@ -186,7 +192,9 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 41030
     name: '''Excavator'' Mining Drone'
+    volume: 750.0
   Civilian Mining Drone:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -227,7 +235,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 1202
     name: Civilian Mining Drone
+    volume: 5.0
   Harvester Mining Drone:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -271,7 +281,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 3218
     name: Harvester Mining Drone
+    volume: 10.0
   Ice Harvesting Drone I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -314,7 +326,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 43699
     name: Ice Harvesting Drone I
+    volume: 50.0
   Ice Harvesting Drone II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -360,7 +374,9 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 43700
     name: Ice Harvesting Drone II
+    volume: 50.0
   Mining Drone - Elite:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -401,7 +417,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 10252
     name: Mining Drone - Elite
+    volume: 5.0
   Mining Drone - Improved:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -441,7 +459,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 10248
     name: Mining Drone - Improved
+    volume: 5.0
   Mining Drone I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -482,7 +502,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 10246
     name: Mining Drone I
+    volume: 5.0
   Mining Drone II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -527,4 +549,6 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 10250
     name: Mining Drone II
+    volume: 5.0

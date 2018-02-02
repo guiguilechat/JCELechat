@@ -1,256 +1,426 @@
 items:
   Boots.ini:
     Gender: 3
+    id: 33064
     name: Boots.ini
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_black.type:
     Gender: 3
+    id: 34079
     name: Feet/SpaceBoots01F/Types/spaceboots01f_black.type
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_blue.type:
     Gender: 3
+    id: 34081
     name: Feet/SpaceBoots01F/Types/spaceboots01f_blue.type
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_brown.type:
     Gender: 3
+    id: 34082
     name: Feet/SpaceBoots01F/Types/spaceboots01f_brown.type
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_orange.type:
     Gender: 3
+    id: 34084
     name: Feet/SpaceBoots01F/Types/spaceboots01f_orange.type
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_red.type:
     Gender: 3
+    id: 34085
     name: Feet/SpaceBoots01F/Types/spaceboots01f_red.type
+    volume: 0.1
   Feet/SpaceBoots01F/Types/spaceboots01f_stealth.type:
     Gender: 3
+    id: 34087
     name: Feet/SpaceBoots01F/Types/spaceboots01f_stealth.type
+    volume: 0.1
   Men's 'Ascend' Boots (brown/gold):
     Gender: 1
+    id: 33780
     name: Men's 'Ascend' Boots (brown/gold)
+    volume: 0.1
   Men's 'Ascend' Boots (grey/silver):
     Gender: 1
+    id: 33778
     name: Men's 'Ascend' Boots (grey/silver)
+    volume: 0.1
   Men's 'Ascend' Boots (maroon/black):
     Gender: 1
+    id: 33779
     name: Men's 'Ascend' Boots (maroon/black)
+    volume: 0.1
   Men's 'Ascend' Boots (royal):
     Gender: 1
+    id: 33777
     name: Men's 'Ascend' Boots (royal)
+    volume: 0.1
   Men's 'Ascend' Boots (white/gold):
     Gender: 1
+    id: 33776
     name: Men's 'Ascend' Boots (white/gold)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (blue):
     Gender: 1
+    id: 36505
     name: Men's 'Hephaestus' Shoes (blue)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (cyan):
     Gender: 1
+    id: 36508
     name: Men's 'Hephaestus' Shoes (cyan)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (desert):
     Gender: 1
+    id: 36507
     name: Men's 'Hephaestus' Shoes (desert)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (gray/orange):
     Gender: 1
+    id: 36510
     name: Men's 'Hephaestus' Shoes (gray/orange)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (green):
     Gender: 1
+    id: 36509
     name: Men's 'Hephaestus' Shoes (green)
+    volume: 0.1
   Men's 'Hephaestus' Shoes (white/red):
     Gender: 1
+    id: 36506
     name: Men's 'Hephaestus' Shoes (white/red)
+    volume: 0.1
   Men's 'Lockstep' Boots:
     Gender: 1
+    id: 4008
     name: Men's 'Lockstep' Boots
+    volume: 0.1
   Men's 'Lockstep' Boots (true black):
     Gender: 1
+    id: 4172
     name: Men's 'Lockstep' Boots (true black)
+    volume: 0.1
   Men's 'Lockstep' Boots (worn brown):
     Gender: 1
+    id: 4173
     name: Men's 'Lockstep' Boots (worn brown)
+    volume: 0.1
   Men's 'March' Boots (Black):
     Gender: 1
+    id: 33775
     name: Men's 'March' Boots (Black)
+    volume: 0.1
   Men's 'March' Boots (Blue):
     Gender: 1
+    id: 33774
     name: Men's 'March' Boots (Blue)
+    volume: 0.1
   Men's 'March' Boots (Brown):
     Gender: 1
+    id: 33773
     name: Men's 'March' Boots (Brown)
+    volume: 0.1
   Men's 'March' Boots (Graphite):
     Gender: 1
+    id: 33772
     name: Men's 'March' Boots (Graphite)
+    volume: 0.1
   Men's 'March' Boots (White):
     Gender: 1
+    id: 33771
     name: Men's 'March' Boots (White)
+    volume: 0.1
   Men's 'Outlaw' Boots (Blood Raiders):
     Gender: 1
+    id: 34360
     name: Men's 'Outlaw' Boots (Blood Raiders)
+    volume: 0.1
   Men's 'Outlaw' Boots (Guristas):
     Gender: 1
+    id: 34362
     name: Men's 'Outlaw' Boots (Guristas)
+    volume: 0.1
   Men's 'Outlaw' Boots (Sansha's Nation):
     Gender: 1
+    id: 34361
     name: Men's 'Outlaw' Boots (Sansha's Nation)
+    volume: 0.1
   Men's 'Precision' Boots:
     Gender: 1
+    id: 3966
     name: Men's 'Precision' Boots
+    volume: 0.1
   Men's 'Precision' Boots (brown):
     Gender: 1
+    id: 4174
     name: Men's 'Precision' Boots (brown)
+    volume: 0.1
   Men's 'Precision' Boots (gray):
     Gender: 1
+    id: 4175
     name: Men's 'Precision' Boots (gray)
+    volume: 0.1
   Men's 'Precision' Boots (tan):
     Gender: 1
+    id: 4176
     name: Men's 'Precision' Boots (tan)
+    volume: 0.1
   Men's 'Trench' Boots:
     Gender: 1
+    id: 4001
     name: Men's 'Trench' Boots
+    volume: 0.1
   Men's 'Trench' Boots (brown):
     Gender: 1
+    id: 4177
     name: Men's 'Trench' Boots (brown)
+    volume: 0.1
   Men's 'Trench' Boots (gray):
     Gender: 1
+    id: 4178
     name: Men's 'Trench' Boots (gray)
+    volume: 0.1
   Men's 'Trench' Boots (tan):
     Gender: 1
+    id: 4179
     name: Men's 'Trench' Boots (tan)
+    volume: 0.1
   Women's 'Corsair' Heels (beige):
     Gender: 3
+    id: 33723
     name: Women's 'Corsair' Heels (beige)
+    volume: 0.1
   Women's 'Corsair' Heels (black):
     Gender: 3
+    id: 33720
     name: Women's 'Corsair' Heels (black)
+    volume: 0.1
   Women's 'Corsair' Heels (blue):
     Gender: 3
+    id: 33721
     name: Women's 'Corsair' Heels (blue)
+    volume: 0.1
   Women's 'Corsair' Heels (brown):
     Gender: 3
+    id: 33722
     name: Women's 'Corsair' Heels (brown)
+    volume: 0.1
   Women's 'Corsair' Heels (gray):
     Gender: 3
+    id: 33724
     name: Women's 'Corsair' Heels (gray)
+    volume: 0.1
   Women's 'Corsair' Heels (red):
     Gender: 3
+    id: 33725
     name: Women's 'Corsair' Heels (red)
+    volume: 0.1
   Women's 'Eternity' Boots (Black/Gold):
     Gender: 3
+    id: 34080
     name: Women's 'Eternity' Boots (Black/Gold)
+    volume: 0.1
   Women's 'Eternity' Boots (Black/Red):
     Gender: 3
+    id: 34086
     name: Women's 'Eternity' Boots (Black/Red)
+    volume: 0.1
   Women's 'Eternity' Boots (Olive):
     Gender: 3
+    id: 34083
     name: Women's 'Eternity' Boots (Olive)
+    volume: 0.1
   Women's 'Eternity' Boots (White):
     Gender: 3
+    id: 34088
     name: Women's 'Eternity' Boots (White)
+    volume: 0.1
   Women's 'Eternity' Boots (Yellow):
     Gender: 3
+    id: 34089
     name: Women's 'Eternity' Boots (Yellow)
+    volume: 0.1
   Women's 'Greave' Boots (black/gold):
     Gender: 3
+    id: 4127
     name: Women's 'Greave' Boots (black/gold)
+    volume: 0.1
   Women's 'Greave' Boots (brown):
     Gender: 3
+    id: 4128
     name: Women's 'Greave' Boots (brown)
+    volume: 0.1
   Women's 'Greave' Boots (matte brown):
     Gender: 3
+    id: 4129
     name: Women's 'Greave' Boots (matte brown)
+    volume: 0.1
   Women's 'Greave' Boots (matte gray):
     Gender: 3
+    id: 4130
     name: Women's 'Greave' Boots (matte gray)
+    volume: 0.1
   Women's 'Greave' Boots (red):
     Gender: 3
+    id: 4131
     name: Women's 'Greave' Boots (red)
+    volume: 0.1
   Women's 'Greave' Knee-Boots:
     Gender: 3
+    id: 4003
     name: Women's 'Greave' Knee-Boots
+    volume: 0.1
   Women's 'Hephaestus' Shoes (blue):
     Gender: 3
+    id: 36511
     name: Women's 'Hephaestus' Shoes (blue)
+    volume: 0.1
   Women's 'Hephaestus' Shoes (cyan):
     Gender: 3
+    id: 36514
     name: Women's 'Hephaestus' Shoes (cyan)
+    volume: 0.1
   Women's 'Hephaestus' Shoes (desert):
     Gender: 3
+    id: 36513
     name: Women's 'Hephaestus' Shoes (desert)
+    volume: 0.1
   Women's 'Hephaestus' Shoes (gray/orange):
     Gender: 3
+    id: 36516
     name: Women's 'Hephaestus' Shoes (gray/orange)
+    volume: 0.1
   Women's 'Hephaestus' Shoes (green):
     Gender: 3
+    id: 36515
     name: Women's 'Hephaestus' Shoes (green)
+    volume: 0.1
   Women's 'Hephaestus' Shoes (white/red):
     Gender: 3
+    id: 36512
     name: Women's 'Hephaestus' Shoes (white/red)
+    volume: 0.1
   Women's 'Minima' Heels:
     Gender: 3
+    id: 4002
     name: Women's 'Minima' Heels
+    volume: 0.1
   Women's 'Minima' Heels (black/gold):
     Gender: 3
+    id: 4116
     name: Women's 'Minima' Heels (black/gold)
+    volume: 0.1
   Women's 'Minima' Heels (black/red):
     Gender: 3
+    id: 4117
     name: Women's 'Minima' Heels (black/red)
+    volume: 0.1
   Women's 'Minima' Heels (blue):
     Gender: 3
+    id: 4118
     name: Women's 'Minima' Heels (blue)
+    volume: 0.1
   Women's 'Minima' Heels (gold):
     Gender: 3
+    id: 4119
     name: Women's 'Minima' Heels (gold)
+    volume: 0.1
   Women's 'Minima' Heels (graphite/white):
     Gender: 3
+    id: 4120
     name: Women's 'Minima' Heels (graphite/white)
+    volume: 0.1
   Women's 'Minima' Heels (green/black):
     Gender: 3
+    id: 4121
     name: Women's 'Minima' Heels (green/black)
+    volume: 0.1
   Women's 'Minima' Heels (matte black):
     Gender: 3
+    id: 4122
     name: Women's 'Minima' Heels (matte black)
+    volume: 0.1
   Women's 'Minima' Heels (matte red):
     Gender: 3
+    id: 4123
     name: Women's 'Minima' Heels (matte red)
+    volume: 0.1
   Women's 'Minima' Heels (red):
     Gender: 3
+    id: 4124
     name: Women's 'Minima' Heels (red)
+    volume: 0.1
   Women's 'Minima' Heels (silver):
     Gender: 3
+    id: 4125
     name: Women's 'Minima' Heels (silver)
+    volume: 0.1
   Women's 'Minima' Heels (turquoise):
     Gender: 3
+    id: 4126
     name: Women's 'Minima' Heels (turquoise)
+    volume: 0.1
   Women's 'Mitral' Boots (black):
     Gender: 3
+    id: 33714
     name: Women's 'Mitral' Boots (black)
+    volume: 0.1
   Women's 'Mitral' Boots (bronze):
     Gender: 3
+    id: 33716
     name: Women's 'Mitral' Boots (bronze)
+    volume: 0.1
   Women's 'Mitral' Boots (cream):
     Gender: 3
+    id: 33717
     name: Women's 'Mitral' Boots (cream)
+    volume: 0.1
   Women's 'Mitral' Boots (dark blue):
     Gender: 3
+    id: 33718
     name: Women's 'Mitral' Boots (dark blue)
+    volume: 0.1
   Women's 'Mitral' Boots (dark red):
     Gender: 3
+    id: 33719
     name: Women's 'Mitral' Boots (dark red)
+    volume: 0.1
   Women's 'Mystrioso' Boots:
     Gender: 3
+    id: 4004
     name: Women's 'Mystrioso' Boots
+    volume: 0.1
   Women's 'Mystrioso' Boots (black/white):
     Gender: 3
+    id: 4132
     name: Women's 'Mystrioso' Boots (black/white)
+    volume: 0.1
   Women's 'Mystrioso' Boots (brown/black):
     Gender: 3
+    id: 4133
     name: Women's 'Mystrioso' Boots (brown/black)
+    volume: 0.1
   Women's 'Mystrioso' Boots (red):
     Gender: 3
+    id: 4134
     name: Women's 'Mystrioso' Boots (red)
+    volume: 0.1
   Women's 'Mystrioso' Boots (white/black):
     Gender: 3
+    id: 4135
     name: Women's 'Mystrioso' Boots (white/black)
+    volume: 0.1
   Women's 'Outlaw' Boots (Blood Raiders):
     Gender: 3
+    id: 34363
     name: Women's 'Outlaw' Boots (Blood Raiders)
+    volume: 0.1
   Women's 'Outlaw' Boots (Guristas):
     Gender: 3
+    id: 34365
     name: Women's 'Outlaw' Boots (Guristas)
+    volume: 0.1
   Women's 'Outlaw' Boots (Sansha's Nation):
     Gender: 3
+    id: 34364
     name: Women's 'Outlaw' Boots (Sansha's Nation)
+    volume: 0.1

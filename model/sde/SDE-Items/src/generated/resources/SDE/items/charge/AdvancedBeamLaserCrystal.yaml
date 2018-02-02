@@ -18,7 +18,9 @@ items:
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    id: 12824
     name: Aurora L
+    volume: 1.0
   Aurora M:
     ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
@@ -38,7 +40,9 @@ items:
     ThermalDamage: 6.0
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    id: 12822
     name: Aurora M
+    volume: 1.0
   Aurora S:
     ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
@@ -58,7 +62,9 @@ items:
     ThermalDamage: 3.0
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    id: 12559
     name: Aurora S
+    volume: 1.0
   Aurora XL:
     ChargeSize: 4
     CrystalVolatilityChance: 0.10000000149011612
@@ -78,7 +84,9 @@ items:
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
+    id: 41336
     name: Aurora XL
+    volume: 1.0
   Gleam L:
     ChargeSize: 3
     CrystalVolatilityChance: 0.10000000149011612
@@ -98,7 +106,9 @@ items:
     ThermalDamage: 28.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    id: 12828
     name: Gleam L
+    volume: 1.0
   Gleam M:
     ChargeSize: 2
     CrystalVolatilityChance: 0.10000000149011612
@@ -118,7 +128,9 @@ items:
     ThermalDamage: 14.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    id: 12826
     name: Gleam M
+    volume: 1.0
   Gleam S:
     ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
@@ -138,7 +150,9 @@ items:
     ThermalDamage: 7.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    id: 12557
     name: Gleam S
+    volume: 1.0
   Gleam XL:
     ChargeSize: 4
     CrystalVolatilityChance: 0.10000000149011612
@@ -158,7 +172,9 @@ items:
     ThermalDamage: 56.0
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
+    id: 41334
     name: Gleam XL
+    volume: 1.0
   Lux L:
     CapNeedBonus: 25
     ChargeSize: 3
@@ -181,7 +197,9 @@ items:
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.75
+    id: 12832
     name: Lux L
+    volume: 1.0
   Lux M:
     CapNeedBonus: 25
     ChargeSize: 2
@@ -204,7 +222,9 @@ items:
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.75
+    id: 12830
     name: Lux M
+    volume: 1.0
   Lux S:
     CapNeedBonus: 25
     ChargeSize: 1
@@ -227,4 +247,6 @@ items:
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.75
+    id: 12552
     name: Lux S
+    volume: 1.0

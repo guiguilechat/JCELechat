@@ -2,59 +2,91 @@ items:
   '''Censer'' Medium Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 23804
     name: '''Censer'' Medium Cap Battery Blueprint'
+    volume: 0.01
   '''Crucible'' Small Cap Battery Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23802
     name: '''Crucible'' Small Cap Battery Blueprint'
+    volume: 0.01
   '''Thurifer'' Large Cap Battery Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 23806
     name: '''Thurifer'' Large Cap Battery Blueprint'
+    volume: 0.01
   Capital Cap Battery I Blueprint:
     TechLevel: 1
+    id: 41639
     name: Capital Cap Battery I Blueprint
+    volume: 0.01
   Capital Cap Battery II Blueprint:
     TechLevel: 1
+    id: 41641
     name: Capital Cap Battery II Blueprint
+    volume: 0.01
   Capital Compact Pb-Acid Cap Battery Blueprint:
     TechLevel: 1
+    id: 41640
     name: Capital Compact Pb-Acid Cap Battery Blueprint
+    volume: 0.01
   Dark Blood Capital Cap Battery Blueprint:
     TechLevel: 1
+    id: 41643
     name: Dark Blood Capital Cap Battery Blueprint
+    volume: 0.01
   Domination Capital Cap Battery Blueprint:
     TechLevel: 1
+    id: 41642
     name: Domination Capital Cap Battery Blueprint
+    volume: 0.01
   Large Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 2021
     name: Large Cap Battery I Blueprint
+    volume: 0.01
   Large Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3505
     name: Large Cap Battery II Blueprint
+    volume: 0.01
   Medium Cap Battery I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 2019
     name: Medium Cap Battery I Blueprint
+    volume: 0.01
   Medium Cap Battery II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3497
     name: Medium Cap Battery II Blueprint
+    volume: 0.01
   Small Cap Battery I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1186
     name: Small Cap Battery I Blueprint
+    volume: 0.01
   Small Cap Battery II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3489
     name: Small Cap Battery II Blueprint
+    volume: 0.01
   X-Large Capacitor Battery I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 2023
     name: X-Large Capacitor Battery I Blueprint
+    volume: 0.01
   X-Large Capacitor Battery II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3473
     name: X-Large Capacitor Battery II Blueprint
+    volume: 0.01

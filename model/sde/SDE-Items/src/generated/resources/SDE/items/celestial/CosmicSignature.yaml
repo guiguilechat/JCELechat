@@ -5,7 +5,11 @@ items:
     ScanMagnetometricStrength: 1.0
     ScanRadarStrength: 1.0
     SignatureRadius: 5
+    id: 25880
     name: Cosmic Agent Site Signature
+    volume: 1.0
   Deadspace Signature:
     SignatureRadius: 100
+    id: 19728
     name: Deadspace Signature
+    volume: 1.0

@@ -15,7 +15,9 @@ items:
     ScanRange: 1000
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 18588
     name: Observator Deep Space Probe I
+    volume: 0.125
   Radar Quest Probe:
     Agility: 1000.0
     ExplosionDelay: 4000000
@@ -32,7 +34,9 @@ items:
     ScanRange: 4
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 25797
     name: Radar Quest Probe
+    volume: 1.25
   Sisters Observator Deep Space Probe:
     Agility: 1000.0
     ExplosionDelay: 4800000
@@ -50,7 +54,9 @@ items:
     ScanRange: 1000
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 28766
     name: Sisters Observator Deep Space Probe
+    volume: 0.125
   Sisters Radar Quest Probe:
     Agility: 1000.0
     ExplosionDelay: 4000000
@@ -68,4 +74,6 @@ items:
     ScanRange: 4
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 28768
     name: Sisters Radar Quest Probe
+    volume: 1.25

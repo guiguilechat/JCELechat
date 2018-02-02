@@ -77,7 +77,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12013
     name: Broadsword
+    volume: 96000.0
   Devoter:
     Agility: 0.5099999904632568
     ArmorEmDamageResonance: 0.5
@@ -157,7 +159,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12017
     name: Devoter
+    volume: 118000.0
   Fiend:
     Agility: 0.6000000238418579
     ArmorEmDamageResonance: 0.5
@@ -236,7 +240,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 35781
     name: Fiend
+    volume: 101000.0
   Onyx:
     Agility: 0.550000011920929
     ArmorEmDamageResonance: 0.5
@@ -313,7 +319,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11995
     name: Onyx
+    volume: 92000.0
   Phobos:
     Agility: 0.5799999833106995
     ArmorEmDamageResonance: 0.5
@@ -390,4 +398,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 12021
     name: Phobos
+    volume: 112000.0

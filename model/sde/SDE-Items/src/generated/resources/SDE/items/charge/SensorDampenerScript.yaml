@@ -6,7 +6,9 @@ items:
     MaxTargetRangeBonusBonus: -100
     ScanResolutionBonusBonus: 100
     TechLevel: 1
+    id: 29013
     name: Scan Resolution Dampening Script
+    volume: 1.0
   Targeting Range Dampening Script:
     ChargeSize: 1
     LauncherGroup: 208
@@ -14,4 +16,6 @@ items:
     MaxTargetRangeBonusBonus: 100
     ScanResolutionBonusBonus: -100
     TechLevel: 1
+    id: 29015
     name: Targeting Range Dampening Script
+    volume: 1.0

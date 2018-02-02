@@ -10,7 +10,9 @@ items:
     RequiredSkill1Level: 1
     TargetHostileRange: 50000
     TechLevel: 1
+    id: 6043
     name: '''Recusant'' Hostile Targeting Array I'
+    volume: 5.0
   Auto Targeting System I:
     CapacitorNeed: 8.0
     Duration: 5000.0
@@ -21,7 +23,9 @@ items:
     RequiredSkill1Level: 1
     TargetHostileRange: 50000
     TechLevel: 1
+    id: 1182
     name: Auto Targeting System I
+    volume: 5.0
   Auto Targeting System II:
     CapacitorNeed: 10.0
     Duration: 5000.0
@@ -33,7 +37,9 @@ items:
     RequiredSkill1Level: 4
     TargetHostileRange: 60000
     TechLevel: 2
+    id: 1436
     name: Auto Targeting System II
+    volume: 5.0
   Automated Targeting Unit I:
     CapacitorNeed: 8.0
     Duration: 5000.0
@@ -45,7 +51,9 @@ items:
     RequiredSkill1Level: 1
     TargetHostileRange: 50000
     TechLevel: 1
+    id: 6047
     name: Automated Targeting Unit I
+    volume: 5.0
   Hostile Target Acquisition I:
     CapacitorNeed: 8.0
     Duration: 5000.0
@@ -57,7 +65,9 @@ items:
     RequiredSkill1Level: 1
     TargetHostileRange: 50000
     TechLevel: 1
+    id: 6041
     name: Hostile Target Acquisition I
+    volume: 5.0
   Responsive Auto-Targeting System I:
     CapacitorNeed: 8.0
     Duration: 5000.0
@@ -69,4 +79,6 @@ items:
     RequiredSkill1Level: 1
     TargetHostileRange: 50000
     TechLevel: 1
+    id: 6045
     name: Responsive Auto-Targeting System I
+    volume: 5.0

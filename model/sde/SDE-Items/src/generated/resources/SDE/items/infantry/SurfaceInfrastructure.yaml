@@ -1,7 +1,13 @@
 items:
   Cargo Hub:
+    id: 364205
     name: Cargo Hub
+    volume: 4000.0
   Production Facility:
+    id: 364207
     name: Production Facility
+    volume: 4000.0
   Surface Research Lab:
+    id: 364206
     name: Surface Research Lab
+    volume: 4000.0

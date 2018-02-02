@@ -6,7 +6,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 28618
     name: Augumene
+    volume: 0.3
   Compressed Opulent Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -15,7 +17,9 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 46702
     name: Compressed Opulent Pyroxeres
+    volume: 0.16
   Compressed Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -24,7 +28,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 28424
     name: Compressed Pyroxeres
+    volume: 0.16
   Compressed Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -33,7 +39,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 28425
     name: Compressed Solid Pyroxeres
+    volume: 0.16
   Compressed Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -42,7 +50,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 28426
     name: Compressed Viscous Pyroxeres
+    volume: 0.16
   Opulent Pyroxeres:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -53,7 +63,9 @@ items:
     OreBasicType: 46686
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 46686
     name: Opulent Pyroxeres
+    volume: 0.3
   Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -64,7 +76,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 1224
     name: Pyroxeres
+    volume: 0.3
   Solid Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -75,7 +89,9 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 17459
     name: Solid Pyroxeres
+    volume: 0.3
   Viscous Pyroxeres:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -86,4 +102,6 @@ items:
     OreBasicType: 1224
     ReprocessingSkillType: 12192
     RequiredSkill1: 3386
+    id: 17460
     name: Viscous Pyroxeres
+    volume: 0.3

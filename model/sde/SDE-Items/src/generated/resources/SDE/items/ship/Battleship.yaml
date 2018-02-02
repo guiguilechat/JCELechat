@@ -72,7 +72,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 24692
     name: Abaddon
+    volume: 495000.0
   Abaddon Kador Edition:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
@@ -146,7 +148,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33625
     name: Abaddon Kador Edition
+    volume: 495000.0
   Abaddon Tash-Murkon Edition:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
@@ -220,7 +224,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33623
     name: Abaddon Tash-Murkon Edition
+    volume: 495000.0
   Apocalypse:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -293,7 +299,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 642
     name: Apocalypse
+    volume: 495000.0
   Apocalypse Blood Raider Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -366,7 +374,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34213
     name: Apocalypse Blood Raider Edition
+    volume: 495000.0
   Apocalypse Imperial Issue:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.5
@@ -439,7 +449,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 11936
     name: Apocalypse Imperial Issue
+    volume: 495000.0
   Apocalypse Kador Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -512,7 +524,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34215
     name: Apocalypse Kador Edition
+    volume: 495000.0
   Apocalypse Navy Issue:
     Agility: 0.11500000208616257
     ArmorEmDamageResonance: 0.5
@@ -587,7 +601,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17726
     name: Apocalypse Navy Issue
+    volume: 495000.0
   Apocalypse Tash-Murkon Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -660,7 +676,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34217
     name: Apocalypse Tash-Murkon Edition
+    volume: 495000.0
   Armageddon:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
@@ -734,7 +752,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 643
     name: Armageddon
+    volume: 486000.0
   Armageddon Imperial Issue:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.5
@@ -807,7 +827,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 11938
     name: Armageddon Imperial Issue
+    volume: 486000.0
   Armageddon Navy Issue:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
@@ -882,7 +904,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 32305
     name: Armageddon Navy Issue
+    volume: 486000.0
   Barghest:
     Agility: 0.09799999743700027
     ArmorEmDamageResonance: 0.5
@@ -961,7 +985,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33820
     name: Barghest
+    volume: 595000.0
   Bhaalgorn:
     Agility: 0.125
     ArmorEmDamageResonance: 0.5
@@ -1039,7 +1065,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17920
     name: Bhaalgorn
+    volume: 486000.0
   Concord Army Battleship:
     Agility: 0.1550000011920929
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1111,7 +1139,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 1918
     name: Concord Army Battleship
+    volume: 486000.0
   Concord Police Battleship:
     Agility: 0.1550000011920929
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1183,7 +1213,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 1912
     name: Concord Police Battleship
+    volume: 486000.0
   Concord SWAT Battleship:
     Agility: 0.1550000011920929
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1255,7 +1287,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 1916
     name: Concord SWAT Battleship
+    volume: 486000.0
   Concord Special Ops Battleship:
     Agility: 0.1550000011920929
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1327,7 +1361,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 1914
     name: Concord Special Ops Battleship
+    volume: 486000.0
   Dominix:
     Agility: 0.12540000677108765
     ArmorEmDamageResonance: 0.5
@@ -1400,7 +1436,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 645
     name: Dominix
+    volume: 454500.0
   Dominix Navy Issue:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -1476,7 +1514,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 32307
     name: Dominix Navy Issue
+    volume: 454500.0
   Dominix Quafe Edition:
     Agility: 0.12540000677108765
     ArmorEmDamageResonance: 0.5
@@ -1550,7 +1590,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34441
     name: Dominix Quafe Edition
+    volume: 454500.0
   Hyperion:
     Agility: 0.11779999732971191
     ArmorEmDamageResonance: 0.5
@@ -1625,7 +1667,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 24690
     name: Hyperion
+    volume: 495000.0
   Hyperion Aliastra Edition:
     Agility: 0.11779999732971191
     ArmorEmDamageResonance: 0.5
@@ -1700,7 +1744,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33635
     name: Hyperion Aliastra Edition
+    volume: 495000.0
   Hyperion Inner Zone Shipping Edition:
     Agility: 0.11779999732971191
     ArmorEmDamageResonance: 0.5
@@ -1775,7 +1821,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33637
     name: Hyperion Inner Zone Shipping Edition
+    volume: 495000.0
   Machariel:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1852,7 +1900,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
+    id: 17738
     name: Machariel
+    volume: 595000.0
   Maelstrom:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1925,7 +1975,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 24694
     name: Maelstrom
+    volume: 472500.0
   Maelstrom Krusual Edition:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1998,7 +2050,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33633
     name: Maelstrom Krusual Edition
+    volume: 472500.0
   Maelstrom Nefantar Edition:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2071,7 +2125,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33631
     name: Maelstrom Nefantar Edition
+    volume: 472500.0
   Megathron:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
@@ -2145,7 +2201,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 641
     name: Megathron
+    volume: 486000.0
   Megathron Federate Issue:
     Agility: 0.12160000205039978
     ArmorEmDamageResonance: 0.5
@@ -2222,7 +2280,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 13202
     name: Megathron Federate Issue
+    volume: 486000.0
   Megathron Inner Zone Shipping Edition:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
@@ -2296,7 +2356,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34239
     name: Megathron Inner Zone Shipping Edition
+    volume: 486000.0
   Megathron Navy Issue:
     Agility: 0.10499999672174454
     ArmorEmDamageResonance: 0.5
@@ -2373,7 +2435,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17728
     name: Megathron Navy Issue
+    volume: 486000.0
   Megathron Police Edition:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
@@ -2447,7 +2511,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34237
     name: Megathron Police Edition
+    volume: 486000.0
   Megathron Quafe Edition:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
@@ -2521,7 +2587,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34118
     name: Megathron Quafe Edition
+    volume: 486000.0
   Nestor:
     Agility: 0.3499999940395355
     ArmorEmDamageResonance: 0.5
@@ -2605,7 +2673,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.5
+    id: 33472
     name: Nestor
+    volume: 486000.0
   Nightmare:
     Agility: 0.12200000137090683
     ArmorEmDamageResonance: 0.5
@@ -2684,7 +2754,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17736
     name: Nightmare
+    volume: 486000.0
   Rattlesnake:
     Agility: 0.12800000607967377
     ArmorEmDamageResonance: 0.5
@@ -2763,7 +2835,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17918
     name: Rattlesnake
+    volume: 486000.0
   Rattlesnake Victory Edition:
     Agility: 0.12800000607967377
     ArmorEmDamageResonance: 0.5
@@ -2842,7 +2916,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34151
     name: Rattlesnake Victory Edition
+    volume: 486000.0
   Raven:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -2917,7 +2993,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 638
     name: Raven
+    volume: 486000.0
   Raven Guristas Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -2992,7 +3070,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34225
     name: Raven Guristas Edition
+    volume: 486000.0
   Raven Kaalakiota Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -3067,7 +3147,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34227
     name: Raven Kaalakiota Edition
+    volume: 486000.0
   Raven Navy Issue:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -3143,7 +3225,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17636
     name: Raven Navy Issue
+    volume: 486000.0
   Raven Nugoeihuvi Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -3218,7 +3302,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34229
     name: Raven Nugoeihuvi Edition
+    volume: 486000.0
   Raven State Issue:
     Agility: 0.12800000607967377
     ArmorEmDamageResonance: 0.5
@@ -3295,7 +3381,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 26840
     name: Raven State Issue
+    volume: 486000.0
   Rokh:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.5
@@ -3369,7 +3457,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 24688
     name: Rokh
+    volume: 486000.0
   Rokh Nugoeihuvi Edition:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.5
@@ -3443,7 +3533,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33627
     name: Rokh Nugoeihuvi Edition
+    volume: 486000.0
   Rokh Wiyrkomi Edition:
     Agility: 0.13600000739097595
     ArmorEmDamageResonance: 0.5
@@ -3517,7 +3609,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 33629
     name: Rokh Wiyrkomi Edition
+    volume: 486000.0
   Scorpion:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.5
@@ -3591,7 +3685,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 640
     name: Scorpion
+    volume: 468000.0
   Scorpion Ishukone Watch:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.5
@@ -3666,7 +3762,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 4005
     name: Scorpion Ishukone Watch
+    volume: 468000.0
   Scorpion Navy Issue:
     Agility: 0.125
     ArmorEmDamageResonance: 0.5
@@ -3742,7 +3840,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 32309
     name: Scorpion Navy Issue
+    volume: 468000.0
   Tempest:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3815,7 +3915,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 639
     name: Tempest
+    volume: 450000.0
   Tempest Fleet Issue:
     Agility: 0.11500000208616257
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3890,7 +3992,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17732
     name: Tempest Fleet Issue
+    volume: 486000.0
   Tempest Justice Edition:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3964,7 +4068,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34247
     name: Tempest Justice Edition
+    volume: 450000.0
   Tempest Krusual Edition:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4038,7 +4144,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34249
     name: Tempest Krusual Edition
+    volume: 450000.0
   Tempest Nefantar Edition:
     Agility: 0.11599999666213989
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4112,7 +4220,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34251
     name: Tempest Nefantar Edition
+    volume: 450000.0
   Tempest Tribal Issue:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4187,7 +4297,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 26842
     name: Tempest Tribal Issue
+    volume: 486000.0
   Typhoon:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4260,7 +4372,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 644
     name: Typhoon
+    volume: 414000.0
   Typhoon Fleet Issue:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4336,7 +4450,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 32311
     name: Typhoon Fleet Issue
+    volume: 414000.0
   Vindicator:
     Agility: 0.08299999684095383
     ArmorEmDamageResonance: 0.5
@@ -4414,7 +4530,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 17740
     name: Vindicator
+    volume: 486000.0
   万��宝座级YC117年特别版:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
@@ -4488,7 +4606,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34467
     name: 万��宝座级YC117年特别版
+    volume: 486000.0
   乌鸦级YC117年特别版:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -4563,7 +4683,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34469
     name: 乌鸦级YC117年特别版
+    volume: 486000.0
   响尾蛇级YC117年特别版:
     Agility: 0.12800000607967377
     ArmorEmDamageResonance: 0.5
@@ -4642,7 +4764,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34463
     name: 响尾蛇级YC117年特别版
+    volume: 486000.0
   地狱天使级YC117年特别版:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
@@ -4716,7 +4840,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34459
     name: 地狱天使级YC117年特别版
+    volume: 495000.0
   多米尼克斯级YC117年特别版:
     Agility: 0.12540000677108765
     ArmorEmDamageResonance: 0.5
@@ -4790,7 +4916,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34465
     name: 多米尼克斯级YC117年特别版
+    volume: 454500.0
   末日沙��级YC117年特别版:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
@@ -4864,7 +4992,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34457
     name: 末日沙��级YC117年特别版
+    volume: 486000.0
   灾难级YC117年特别��:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -4937,7 +5067,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
+    id: 34471
     name: 灾难级YC117年特别��
+    volume: 495000.0
   马克瑞��YC117年特别版:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
@@ -5015,4 +5147,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
+    id: 34461
     name: 马克瑞��YC117年特别版
+    volume: 595000.0

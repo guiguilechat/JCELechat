@@ -14,7 +14,9 @@ items:
     SignatureRadius: 450
     TechLevel: 1
     WarpScrambleRange: 26500
+    id: 12200
     name: Mobile Large Warp Disruptor I
+    volume: 585.0
   Mobile Large Warp Disruptor II:
     AnchoringDelay: 240000
     ArmorHP: 60000
@@ -31,7 +33,9 @@ items:
     SignatureRadius: 450
     TechLevel: 2
     WarpScrambleRange: 40000
+    id: 26888
     name: Mobile Large Warp Disruptor II
+    volume: 585.0
   Mobile Medium Warp Disruptor I:
     AnchoringDelay: 240000
     ArmorHP: 10000
@@ -47,7 +51,9 @@ items:
     SignatureRadius: 150
     TechLevel: 1
     WarpScrambleRange: 11500
+    id: 12199
     name: Mobile Medium Warp Disruptor I
+    volume: 195.0
   Mobile Medium Warp Disruptor II:
     AnchoringDelay: 120000
     ArmorHP: 15000
@@ -64,7 +70,9 @@ items:
     SignatureRadius: 150
     TechLevel: 2
     WarpScrambleRange: 17500
+    id: 26890
     name: Mobile Medium Warp Disruptor II
+    volume: 195.0
   Mobile Small Warp Disruptor I:
     AnchoringDelay: 120000
     ArmorHP: 2500
@@ -80,7 +88,9 @@ items:
     SignatureRadius: 50
     TechLevel: 1
     WarpScrambleRange: 5000
+    id: 12198
     name: Mobile Small Warp Disruptor I
+    volume: 65.0
   Mobile Small Warp Disruptor II:
     AnchoringDelay: 60000
     ArmorHP: 3750
@@ -97,7 +107,9 @@ items:
     SignatureRadius: 50
     TechLevel: 2
     WarpScrambleRange: 7500
+    id: 26892
     name: Mobile Small Warp Disruptor II
+    volume: 65.0
   Syndicate Mobile Large Warp Disruptor:
     AnchoringDelay: 240000
     ArmorHP: 100000
@@ -115,7 +127,9 @@ items:
     SignatureRadius: 450
     TechLevel: 1
     WarpScrambleRange: 40000
+    id: 28770
     name: Syndicate Mobile Large Warp Disruptor
+    volume: 585.0
   Syndicate Mobile Medium Warp Disruptor:
     AnchoringDelay: 120000
     ArmorHP: 25000
@@ -133,7 +147,9 @@ items:
     SignatureRadius: 150
     TechLevel: 1
     WarpScrambleRange: 17500
+    id: 28772
     name: Syndicate Mobile Medium Warp Disruptor
+    volume: 195.0
   Syndicate Mobile Small Warp Disruptor:
     AnchoringDelay: 60000
     ArmorHP: 6250
@@ -151,7 +167,9 @@ items:
     SignatureRadius: 50
     TechLevel: 1
     WarpScrambleRange: 7500
+    id: 28774
     name: Syndicate Mobile Small Warp Disruptor
+    volume: 65.0
   Tournament Bubble TEST:
     AnchoringDelay: 2000
     ArmorHP: 60000
@@ -166,4 +184,6 @@ items:
     SignatureRadius: 50
     TechLevel: 1
     WarpScrambleRange: 125000
+    id: 26849
     name: Tournament Bubble TEST
+    volume: 5000000.0

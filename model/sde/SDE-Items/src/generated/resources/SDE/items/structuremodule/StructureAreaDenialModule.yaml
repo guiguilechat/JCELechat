@@ -20,4 +20,6 @@ items:
     Power: 50000
     StructureItemVisualFlag: 1
     ThermalDamage: 500.0
+    id: 35926
     name: Standup Point Defense Battery I
+    volume: 8000.0

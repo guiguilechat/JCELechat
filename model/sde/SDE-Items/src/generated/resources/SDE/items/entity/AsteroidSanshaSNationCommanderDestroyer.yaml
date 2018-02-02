@@ -1,13 +1,25 @@
 items:
   True Sansha's Abomination:
+    id: 23410
     name: True Sansha's Abomination
+    volume: 21120.0
   True Sansha's Cannibal:
+    id: 23392
     name: True Sansha's Cannibal
+    volume: 21120.0
   True Sansha's Devourer:
+    id: 23409
     name: True Sansha's Devourer
+    volume: 21120.0
   True Sansha's Horror:
+    id: 23412
     name: True Sansha's Horror
+    volume: 21120.0
   True Sansha's Misshape:
+    id: 23391
     name: True Sansha's Misshape
+    volume: 21120.0
   True Sansha's Monster:
+    id: 23411
     name: True Sansha's Monster
+    volume: 21120.0

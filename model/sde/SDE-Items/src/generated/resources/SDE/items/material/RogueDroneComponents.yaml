@@ -1,15 +1,29 @@
 items:
   Drone Capillary Fluid:
+    id: 28362
     name: Drone Capillary Fluid
+    volume: 0.02
   Drone Cerebral Fragment:
+    id: 28363
     name: Drone Cerebral Fragment
+    volume: 0.03
   Drone Coronary Unit:
+    id: 28366
     name: Drone Coronary Unit
+    volume: 0.08
   Drone Epidermal Shielding Chunk:
+    id: 28365
     name: Drone Epidermal Shielding Chunk
+    volume: 0.1
   Drone Synaptic Relay Wiring:
+    id: 28361
     name: Drone Synaptic Relay Wiring
+    volume: 0.01
   Drone Tactical Limb:
+    id: 28364
     name: Drone Tactical Limb
+    volume: 0.07
   Elite Drone AI:
+    id: 21815
     name: Elite Drone AI
+    volume: 0.01

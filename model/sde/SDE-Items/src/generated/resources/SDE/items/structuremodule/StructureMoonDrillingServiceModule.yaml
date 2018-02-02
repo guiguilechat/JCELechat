@@ -10,4 +10,6 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 360
     StructureItemVisualFlag: 1
+    id: 45009
     name: Standup Moon Drill I
+    volume: 8000.0

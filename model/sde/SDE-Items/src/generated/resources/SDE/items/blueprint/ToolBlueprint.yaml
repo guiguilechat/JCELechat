@@ -2,274 +2,386 @@ items:
   Basic Robotics Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 29227
     name: Basic Robotics Blueprint
+    volume: 0.01
   Civilian Data Interface Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 27027
     name: Civilian Data Interface Blueprint
+    volume: 0.01
   Clay Pigeon Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 27039
     name: Clay Pigeon Blueprint
+    volume: 0.01
   Crude Sculpture Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 21055
     name: Crude Sculpture Blueprint
+    volume: 0.01
   Cryptic Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25587
     name: Cryptic Data Interface Blueprint
+    volume: 0.01
   Cryptic Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25858
     name: Cryptic Ship Data Interface Blueprint
+    volume: 0.01
   Cryptic Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 26598
     name: Cryptic Tuner Data Interface Blueprint
+    volume: 0.01
   Esoteric Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25584
     name: Esoteric Data Interface Blueprint
+    volume: 0.01
   Esoteric Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25854
     name: Esoteric Ship Data Interface Blueprint
+    volume: 0.01
   Esoteric Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 26600
     name: Esoteric Tuner Data Interface Blueprint
+    volume: 0.01
   Gold Sculpture Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 20108
     name: Gold Sculpture Blueprint
+    volume: 0.01
   Hacker Deck - Alpha Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11892
     name: Hacker Deck - Alpha Blueprint
+    volume: 0.01
   Hacker Deck - Codex Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11863
     name: Hacker Deck - Codex Blueprint
+    volume: 0.01
   Hacker Deck - Hermes Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11864
     name: Hacker Deck - Hermes Blueprint
+    volume: 0.01
   Hacker Deck - LXD-27 Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11862
     name: Hacker Deck - LXD-27 Blueprint
+    volume: 0.01
   Hacker Deck - Shaman Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11865
     name: Hacker Deck - Shaman Blueprint
+    volume: 0.01
   Hyper Net Uplink Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 11866
     name: Hyper Net Uplink Blueprint
+    volume: 0.01
   Incognito Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25586
     name: Incognito Data Interface Blueprint
+    volume: 0.01
   Incognito Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25856
     name: Incognito Ship Data Interface Blueprint
+    volume: 0.01
   Incognito Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 26602
     name: Incognito Tuner Data Interface Blueprint
+    volume: 0.01
   Methros Enhanced Decoding Device Blueprint:
     Hp: 1
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 23888
     name: Methros Enhanced Decoding Device Blueprint
+    volume: 0.01
   Occult Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25585
     name: Occult Data Interface Blueprint
+    volume: 0.01
   Occult Ship Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 25852
     name: Occult Ship Data Interface Blueprint
+    volume: 0.01
   Occult Tuner Data Interface Blueprint:
     Hp: 1
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 26604
     name: Occult Tuner Data Interface Blueprint
+    volume: 0.01
   Perpetual Motion Unit I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 27022
     name: Perpetual Motion Unit I Blueprint
+    volume: 0.01
   Perpetual Motion Unit II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    id: 27024
     name: Perpetual Motion Unit II Blueprint
+    volume: 0.01
   R.A.M.- Ammunition Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11872
     name: R.A.M.- Ammunition Tech Blueprint
+    volume: 0.01
   R.A.M.- Armor/Hull Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11873
     name: R.A.M.- Armor/Hull Tech Blueprint
+    volume: 0.01
   R.A.M.- Battlecruiser Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 24469
     name: R.A.M.- Battlecruiser Tech Blueprint
+    volume: 0.01
   R.A.M.- Battleship Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 11867
     name: R.A.M.- Battleship Tech Blueprint
+    volume: 0.01
   R.A.M.- Cruiser Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11868
     name: R.A.M.- Cruiser Tech Blueprint
+    volume: 0.01
   R.A.M.- Cybernetics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11860
     name: R.A.M.- Cybernetics Blueprint
+    volume: 0.01
   R.A.M.- Electronics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11870
     name: R.A.M.- Electronics Blueprint
+    volume: 0.01
   R.A.M.- Energy Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11859
     name: R.A.M.- Energy Tech Blueprint
+    volume: 0.01
   R.A.M.- Hypernet Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11874
     name: R.A.M.- Hypernet Tech Blueprint
+    volume: 0.01
   R.A.M.- Industrial Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11869
     name: R.A.M.- Industrial Tech Blueprint
+    volume: 0.01
   R.A.M.- Pharmaceuticals Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11888
     name: R.A.M.- Pharmaceuticals Blueprint
+    volume: 0.01
   R.A.M.- Platform Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11861
     name: R.A.M.- Platform Tech Blueprint
+    volume: 0.01
   R.A.M.- Robotics Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11887
     name: R.A.M.- Robotics Blueprint
+    volume: 0.01
   R.A.M.- Shield Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11889
     name: R.A.M.- Shield Tech Blueprint
+    volume: 0.01
   R.A.M.- Starship Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11890
     name: R.A.M.- Starship Tech Blueprint
+    volume: 0.01
   R.A.M.- Weapon Tech Blueprint:
     Hp: 1
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 11891
     name: R.A.M.- Weapon Tech Blueprint
+    volume: 0.01
   R.Db - Boundless Creations Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11876
     name: R.Db - Boundless Creations Blueprint
+    volume: 0.01
   R.Db - Carthum Conglomerate Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11880
     name: R.Db - Carthum Conglomerate Blueprint
+    volume: 0.01
   R.Db - Core Complexion Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11877
     name: R.Db - Core Complexion Blueprint
+    volume: 0.01
   R.Db - CreoDron Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11878
     name: R.Db - CreoDron Blueprint
+    volume: 0.01
   R.Db - Duvolle Labs Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11879
     name: R.Db - Duvolle Labs Blueprint
+    volume: 0.01
   R.Db - Ishukone Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11885
     name: R.Db - Ishukone Blueprint
+    volume: 0.01
   R.Db - Kaalakiota Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11881
     name: R.Db - Kaalakiota Blueprint
+    volume: 0.01
   R.Db - Khanid Innovation Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11882
     name: R.Db - Khanid Innovation Blueprint
+    volume: 0.01
   R.Db - Lai Dai Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11886
     name: R.Db - Lai Dai Blueprint
+    volume: 0.01
   R.Db - Roden Shipyards Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11857
     name: R.Db - Roden Shipyards Blueprint
+    volume: 0.01
   R.Db - Thukker Mix Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11883
     name: R.Db - Thukker Mix Blueprint
+    volume: 0.01
   R.Db - Viziam Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11884
     name: R.Db - Viziam Blueprint
+    volume: 0.01
   R.Db.- Hybrid Technology Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 30387
     name: R.Db.- Hybrid Technology Blueprint
+    volume: 0.01
   Terran Molecular Sequencer Blueprint:
     Hp: 1
     IndustryBlueprintRank: 10.0
     TechLevel: 1
+    id: 11871
     name: Terran Molecular Sequencer Blueprint
+    volume: 0.01

@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43880
     name: Standup M-Set Invention Accelerator I
+    volume: 10.0
   Standup M-Set Invention Accelerator II:
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43881
     name: Standup M-Set Invention Accelerator II
+    volume: 10.0

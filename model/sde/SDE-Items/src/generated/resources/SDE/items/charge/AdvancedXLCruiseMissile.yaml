@@ -21,7 +21,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 5700.0
+    id: 41287
     name: Inferno Fury XL Cruise Missile
+    volume: 0.3
   Inferno Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -44,7 +46,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 4750.0
+    id: 41286
     name: Inferno Precision XL Cruise Missile
+    volume: 0.3
   Mjolnir Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -67,7 +71,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41299
     name: Mjolnir Fury XL Cruise Missile
+    volume: 0.3
   Mjolnir Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -90,7 +96,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41298
     name: Mjolnir Precision XL Cruise Missile
+    volume: 0.3
   Nova Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -113,7 +121,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41294
     name: Nova Fury XL Cruise Missile
+    volume: 0.3
   Nova Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -136,7 +146,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41295
     name: Nova Precision XL Cruise Missile
+    volume: 0.3
   Scourge Fury XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -159,7 +171,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41291
     name: Scourge Fury XL Cruise Missile
+    volume: 0.3
   Scourge Precision XL Cruise Missile:
     Agility: 4.363462267065188E-6
     AimedLaunch: 1
@@ -182,4 +196,6 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41290
     name: Scourge Precision XL Cruise Missile
+    volume: 0.3

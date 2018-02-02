@@ -1,5 +1,9 @@
 items:
   Angel Dreadnought:
+    id: 37461
     name: Angel Dreadnought
+    volume: 1.55E7
   Domination Dreadnought:
+    id: 41396
     name: Domination Dreadnought
+    volume: 1.55E7

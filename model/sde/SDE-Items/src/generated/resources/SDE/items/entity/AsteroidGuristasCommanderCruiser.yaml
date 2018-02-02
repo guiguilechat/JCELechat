@@ -1,31 +1,61 @@
 items:
   Deuce Ascriber:
+    id: 21999
     name: Deuce Ascriber
+    volume: 96000.0
   Deuce Killer:
+    id: 22000
     name: Deuce Killer
+    volume: 92000.0
   Deuce Murderer:
+    id: 23939
     name: Deuce Murderer
+    volume: 101000.0
   Deuce Silencer:
+    id: 21998
     name: Deuce Silencer
+    volume: 107000.0
   Dini Mator:
+    id: 26871
     name: Dini Mator
+    volume: 101000.0
   Dread Guristas Abolisher:
+    id: 13587
     name: Dread Guristas Abolisher
+    volume: 101000.0
   Dread Guristas Annihilator:
+    id: 13599
     name: Dread Guristas Annihilator
+    volume: 101000.0
   Dread Guristas Ascriber:
+    id: 13577
     name: Dread Guristas Ascriber
+    volume: 96000.0
   Dread Guristas Eraser:
+    id: 13592
     name: Dread Guristas Eraser
+    volume: 101000.0
   Dread Guristas Inferno:
+    id: 13586
     name: Dread Guristas Inferno
+    volume: 101000.0
   Dread Guristas Killer:
+    id: 13575
     name: Dread Guristas Killer
+    volume: 92000.0
   Dread Guristas Mortifier:
+    id: 13591
     name: Dread Guristas Mortifier
+    volume: 101000.0
   Dread Guristas Murderer:
+    id: 13596
     name: Dread Guristas Murderer
+    volume: 101000.0
   Dread Guristas Nullifier:
+    id: 13595
     name: Dread Guristas Nullifier
+    volume: 101000.0
   Dread Guristas Silencer:
+    id: 13600
     name: Dread Guristas Silencer
+    volume: 107000.0

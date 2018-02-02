@@ -16,4 +16,6 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 34120
     name: Mobile Competitive Vault
+    volume: 300.0

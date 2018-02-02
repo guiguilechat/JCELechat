@@ -1,19 +1,37 @@
 items:
   C3-FTM Acid:
+    id: 30311
     name: C3-FTM Acid
+    volume: 0.2
   Carbon-86 Epoxy Resin:
+    id: 30310
     name: Carbon-86 Epoxy Resin
+    volume: 0.4
   Fullerene Intercalated Graphite:
+    id: 30305
     name: Fullerene Intercalated Graphite
+    volume: 0.8
   Fulleroferrocene:
+    id: 30303
     name: Fulleroferrocene
+    volume: 0.1
   Graphene Nanoribbons:
+    id: 30309
     name: Graphene Nanoribbons
+    volume: 1.5
   Lanthanum Metallofullerene:
+    id: 30307
     name: Lanthanum Metallofullerene
+    volume: 1.0
   Methanofullerene:
+    id: 30306
     name: Methanofullerene
+    volume: 0.75
   PPD Fullerene Fibers:
+    id: 30304
     name: PPD Fullerene Fibers
+    volume: 0.5
   Scandium Metallofullerene:
+    id: 30308
     name: Scandium Metallofullerene
+    volume: 0.65

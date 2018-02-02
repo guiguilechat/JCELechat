@@ -5,7 +5,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 16622
     name: Accounting
+    volume: 0.01
   Black Market Trading:
     ContrabandDetectionChanceBonus: -0.10000000149011612
     PrimaryAttribute: 168
@@ -15,21 +17,27 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
+    id: 3445
     name: Black Market Trading
+    volume: 0.01
   Broker Relations:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
+    id: 3446
     name: Broker Relations
+    volume: 0.01
   Consumable Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13074
     name: Consumable Freight
+    volume: 0.01
   Contracting:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
@@ -37,7 +45,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 25235
     name: Contracting
+    volume: 0.01
   Corporation Contracting:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
@@ -45,7 +55,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 25233
     name: Corporation Contracting
+    volume: 0.01
   Customs Code Expertise:
     PiTaxReductionModifer: -10
     PrimaryAttribute: 164
@@ -53,33 +65,43 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 33467
     name: Customs Code Expertise
+    volume: 0.01
   Daytrading:
     PrimaryAttribute: 164
     RequiredSkill1: 3443
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 16595
     name: Daytrading
+    volume: 0.01
   Drone Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13072
     name: Drone Freight
+    volume: 0.01
   General Freight:
     PrimaryAttribute: 166
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    id: 12834
     name: General Freight
+    volume: 0.01
   Hazardous Material Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13075
     name: Hazardous Material Freight
+    volume: 0.01
   Margin Trading:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
@@ -87,42 +109,54 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 16597
     name: Margin Trading
+    volume: 0.01
   Marketing:
     PrimaryAttribute: 164
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 16598
     name: Marketing
+    volume: 0.01
   Mineral Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13070
     name: Mineral Freight
+    volume: 0.01
   Munitions Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13071
     name: Munitions Freight
+    volume: 0.01
   Procurement:
     PrimaryAttribute: 164
     RequiredSkill1: 16598
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 16594
     name: Procurement
+    volume: 0.01
   Raw Material Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13073
     name: Raw Material Freight
+    volume: 0.01
   Retail:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -130,7 +164,9 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
+    id: 3444
     name: Retail
+    volume: 0.01
   Smuggling:
     PrimaryAttribute: 168
     RequiredSkill1: 3445
@@ -138,32 +174,42 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
     SmugglingChanceBonus: 0.10000000149011612
+    id: 3448
     name: Smuggling
+    volume: 0.01
   Starship Freight:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 13069
     name: Starship Freight
+    volume: 0.01
   Tax Evasion:
     PrimaryAttribute: 168
     RequiredSkill1: 3443
     RequiredSkill1Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
+    id: 28261
     name: Tax Evasion
+    volume: 0.01
   Test:
     PrimaryAttribute: 164
     SecondaryAttribute: 168
     SkillTimeConstant: 0.009999999776482582
+    id: 11015
     name: Test
+    volume: 0.01
   Trade:
     PrimaryAttribute: 168
     SecondaryAttribute: 164
     SkillTimeConstant: 1.0
     TradePremiumBonus: -5
+    id: 3443
     name: Trade
+    volume: 0.01
   Tycoon:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
@@ -173,14 +219,18 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 18580
     name: Tycoon
+    volume: 0.01
   Visibility:
     PrimaryAttribute: 164
     RequiredSkill1: 16594
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3447
     name: Visibility
+    volume: 0.01
   Wholesale:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
@@ -190,4 +240,6 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
+    id: 16596
     name: Wholesale
+    volume: 0.01

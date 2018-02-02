@@ -1,19 +1,37 @@
 items:
   Dairy Products:
+    id: 3717
     name: Dairy Products
+    volume: 0.5
   Frozen Food:
+    id: 3715
     name: Frozen Food
+    volume: 0.5
   Frozen Plant Seeds:
+    id: 45
     name: Frozen Plant Seeds
+    volume: 0.5
   Ghalen Dumplings:
+    id: 29482
     name: Ghalen Dumplings
+    volume: 1.0
   Ghalen Pastries:
+    id: 29481
     name: Ghalen Pastries
+    volume: 1.0
   Long-limb Roes:
+    id: 3777
     name: Long-limb Roes
+    volume: 1.0
   Milk:
+    id: 21564
     name: Milk
+    volume: 0.5
   Protein Delicacies:
+    id: 11855
     name: Protein Delicacies
+    volume: 0.5
   Starcakes:
+    id: 29470
     name: Starcakes
+    volume: 2.0

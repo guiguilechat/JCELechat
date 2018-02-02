@@ -28,4 +28,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    id: 27675
     name: System Scanning Array
+    volume: 4000.0

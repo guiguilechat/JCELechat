@@ -80,7 +80,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11969
     name: Arazu
+    volume: 116000.0
   Chameleon:
     Agility: 0.6000000238418579
     ArmorEmDamageResonance: 0.5
@@ -164,7 +166,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
+    id: 33675
     name: Chameleon
+    volume: 96000.0
   Enforcer:
     Agility: 0.550000011920929
     ArmorEmDamageResonance: 0.6700000166893005
@@ -260,7 +264,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
+    id: 44995
     name: Enforcer
+    volume: 100000.0
   Falcon:
     Agility: 0.6399999856948853
     ArmorEmDamageResonance: 0.5
@@ -342,7 +348,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11957
     name: Falcon
+    volume: 96000.0
   Moracha:
     Agility: 0.4699999988079071
     ArmorEmDamageResonance: 0.20000000298023224
@@ -426,7 +434,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 33395
     name: Moracha
+    volume: 100000.0
   Pilgrim:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -509,7 +519,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11965
     name: Pilgrim
+    volume: 120000.0
   Rapier:
     Agility: 0.5899999737739563
     ArmorEmDamageResonance: 0.15000000596046448
@@ -592,7 +604,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11963
     name: Rapier
+    volume: 85000.0
   Victor:
     Agility: 0.5899999737739563
     ArmorEmDamageResonance: 0.5
@@ -682,4 +696,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 45531
     name: Victor
+    volume: 116000.0

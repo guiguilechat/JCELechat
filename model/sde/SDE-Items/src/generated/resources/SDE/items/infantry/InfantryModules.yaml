@@ -1,999 +1,1941 @@
 items:
   '''Abatis'' Basic Ferroscale Plates':
+    id: 365255
     name: '''Abatis'' Basic Ferroscale Plates'
+    volume: 0.01
   '''Auga'' Complex Precision Enhancer':
+    id: 356566
     name: '''Auga'' Complex Precision Enhancer'
+    volume: 0.01
   '''Azimuth'' Basic PG Upgrade':
+    id: 352018
     name: '''Azimuth'' Basic PG Upgrade'
+    volume: 0.01
   '''Bastion'' Enhanced Ferroscale Plates':
+    id: 365240
     name: '''Bastion'' Enhanced Ferroscale Plates'
+    volume: 0.01
   '''Bond'' Enhanced Shield Energizer':
+    id: 365252
     name: '''Bond'' Enhanced Shield Energizer'
+    volume: 0.01
   '''Brille'' Enhanced Reactive Plates':
+    id: 365242
     name: '''Brille'' Enhanced Reactive Plates'
+    volume: 0.01
   '''Cascade'' Complex Light Damage Modifier':
+    id: 355528
     name: '''Cascade'' Complex Light Damage Modifier'
+    volume: 0.01
   '''Castra'' Complex Ferroscale Plates':
+    id: 365241
     name: '''Castra'' Complex Ferroscale Plates'
+    volume: 0.01
   '''Cataract'' Basic Profile Dampener':
+    id: 355519
     name: '''Cataract'' Basic Profile Dampener'
+    volume: 0.01
   '''Chord'' Basic Cardiac Stimulant':
+    id: 354915
     name: '''Chord'' Basic Cardiac Stimulant'
+    volume: 0.01
   '''Cirrus'' Calibration Subsystem':
+    id: 355810
     name: '''Cirrus'' Calibration Subsystem'
+    volume: 0.01
   '''Contagion'' Enhanced Codebreaker':
+    id: 355571
     name: '''Contagion'' Enhanced Codebreaker'
+    volume: 0.01
   '''Cuticle'' Complex Reactive Plates':
+    id: 365243
     name: '''Cuticle'' Complex Reactive Plates'
+    volume: 0.01
   '''Debris'' Basic Sidearm Damage Modifier':
+    id: 355532
     name: '''Debris'' Basic Sidearm Damage Modifier'
+    volume: 0.01
   '''Delphi'' Tracking CPU':
+    id: 356497
     name: '''Delphi'' Tracking CPU'
+    volume: 0.01
   '''Diaemus'' Enhanced Precision Enhancer':
+    id: 356565
     name: '''Diaemus'' Enhanced Precision Enhancer'
+    volume: 0.01
   '''Dimension'' Enhanced CPU Upgrade':
+    id: 352042
     name: '''Dimension'' Enhanced CPU Upgrade'
+    volume: 0.01
   '''Echo'' Basic Light Damage Modifier':
+    id: 355526
     name: '''Echo'' Basic Light Damage Modifier'
+    volume: 0.01
   '''Fragment'' Enhanced Sidearm Damage Modifier':
+    id: 355533
     name: '''Fragment'' Enhanced Sidearm Damage Modifier'
+    volume: 0.01
   '''Goliath'' Basic Armor Plates':
+    id: 351732
     name: '''Goliath'' Basic Armor Plates'
+    volume: 0.01
   '''Graft'' Complex Shield Energizer':
+    id: 365253
     name: '''Graft'' Complex Shield Energizer'
+    volume: 0.01
   '''Grid'' Complex Power Diagnostics Unit':
+    id: 365296
     name: '''Grid'' Complex Power Diagnostics Unit'
+    volume: 0.01
   '''Helios'' Heat Sink':
+    id: 355793
     name: '''Helios'' Heat Sink'
+    volume: 0.01
   '''Helix'' Enhanced PG Upgrade':
+    id: 352041
     name: '''Helix'' Enhanced PG Upgrade'
+    volume: 0.01
   '''Hercules'' Complex Armor Plates':
+    id: 352049
     name: '''Hercules'' Complex Armor Plates'
+    volume: 0.01
   '''Icarus'' Basic Kinetic Catalyzer':
+    id: 352022
     name: '''Icarus'' Basic Kinetic Catalyzer'
+    volume: 0.01
   '''Impact'' Enhanced Heavy Damage Modifier':
+    id: 355536
     name: '''Impact'' Enhanced Heavy Damage Modifier'
+    volume: 0.01
   '''Impulse'' Enhanced Shield Extender':
+    id: 352052
     name: '''Impulse'' Enhanced Shield Extender'
+    volume: 0.01
   '''Iris'' Complex Kinetic Catalyzer':
+    id: 354914
     name: '''Iris'' Complex Kinetic Catalyzer'
+    volume: 0.01
   '''Kinesis'' Basic Shield Extender':
+    id: 352020
     name: '''Kinesis'' Basic Shield Extender'
+    volume: 0.01
   '''Macro'' Enhanced Cardiac Stimulant':
+    id: 354916
     name: '''Macro'' Enhanced Cardiac Stimulant'
+    volume: 0.01
   '''Membrane'' Complex Cardiac Regulator':
+    id: 354921
     name: '''Membrane'' Complex Cardiac Regulator'
+    volume: 0.01
   '''Menhir'' Enhanced Armor Repairer':
+    id: 352046
     name: '''Menhir'' Enhanced Armor Repairer'
+    volume: 0.01
   '''Mercury'' Defensive Countermeasure':
+    id: 365362
     name: '''Mercury'' Defensive Countermeasure'
   '''Mercury'' Enhanced Kinetic Catalyzer':
+    id: 352050
     name: '''Mercury'' Enhanced Kinetic Catalyzer'
+    volume: 0.01
   '''Miosis'' Complex Profile Damper':
+    id: 355521
     name: '''Miosis'' Complex Profile Damper'
+    volume: 0.01
   '''Monolith'' Basic Armor Repairer':
+    id: 352019
     name: '''Monolith'' Basic Armor Repairer'
+    volume: 0.01
   '''Nacre'' Basic Reactive Plates':
+    id: 365256
     name: '''Nacre'' Basic Reactive Plates'
+    volume: 0.01
   '''Neuron'' Basic Cardiac Regulator':
+    id: 354918
     name: '''Neuron'' Basic Cardiac Regulator'
+    volume: 0.01
   '''Node'' Enhanced Power Diagnostics Unit':
+    id: 365295
     name: '''Node'' Enhanced Power Diagnostics Unit'
+    volume: 0.01
   '''Nucleus'' Enhanced Cardiac Regulator':
+    id: 354919
     name: '''Nucleus'' Enhanced Cardiac Regulator'
+    volume: 0.01
   '''Nyctalus'' Enhanced Profile Damper':
+    id: 355520
     name: '''Nyctalus'' Enhanced Profile Damper'
+    volume: 0.01
   '''Obelisk'' Complex Armor Repairer':
+    id: 352047
     name: '''Obelisk'' Complex Armor Repairer'
+    volume: 0.01
   '''Oculus'' Basic Range Amplifier':
+    id: 356703
     name: '''Oculus'' Basic Range Amplifier'
+    volume: 0.01
   '''Origin'' Enhanced Shield Regulator':
+    id: 355582
     name: '''Origin'' Enhanced Shield Regulator'
+    volume: 0.01
   '''Pandemic'' Complex Codebreaker':
+    id: 355569
     name: '''Pandemic'' Complex Codebreaker'
+    volume: 0.01
   '''Pathogen'' Basic Codebreaker':
+    id: 355570
     name: '''Pathogen'' Basic Codebreaker'
+    volume: 0.01
   '''Polaris'' Complex PG Upgrade':
+    id: 352045
     name: '''Polaris'' Complex PG Upgrade'
+    volume: 0.01
   '''Ricochet'' Enhanced Light Damage Modifier':
+    id: 355527
     name: '''Ricochet'' Enhanced Light Damage Modifier'
+    volume: 0.01
   '''Samson'' Enhanced Armor Plates':
+    id: 352048
     name: '''Samson'' Enhanced Armor Plates'
+    volume: 0.01
   '''Sanction'' Enhanced Myofibril Stimulant':
+    id: 354923
     name: '''Sanction'' Enhanced Myofibril Stimulant'
+    volume: 0.01
   '''Scalar'' Basic CPU Upgrade':
+    id: 352017
     name: '''Scalar'' Basic CPU Upgrade'
+    volume: 0.01
   '''Seismic'' Complex Heavy Damage Modifier':
+    id: 355537
     name: '''Seismic'' Complex Heavy Damage Modifier'
+    volume: 0.01
   '''Shaft'' Basic Shield Regulator':
+    id: 355583
     name: '''Shaft'' Basic Shield Regulator'
+    volume: 0.01
   '''Sheath'' Basic Myofibril Stimulant':
+    id: 354922
     name: '''Sheath'' Basic Myofibril Stimulant'
+    volume: 0.01
   '''Sjon'' Complex Range Amplifer':
+    id: 356705
     name: '''Sjon'' Complex Range Amplifer'
+    volume: 0.01
   '''Sliver'' Complex Sidearm Damage Modifier':
+    id: 355534
     name: '''Sliver'' Complex Sidearm Damage Modifier'
+    volume: 0.01
   '''Spark'' Enhanced Shield Recharger':
+    id: 352051
     name: '''Spark'' Enhanced Shield Recharger'
+    volume: 0.01
   '''Spiral'' Complex Cardiac Stimulant':
+    id: 354917
     name: '''Spiral'' Complex Cardiac Stimulant'
+    volume: 0.01
   '''Static'' Complex Shield Recharger':
+    id: 354913
     name: '''Static'' Complex Shield Recharger'
+    volume: 0.01
   '''Stimulus'' Complex Shield Extender':
+    id: 354912
     name: '''Stimulus'' Complex Shield Extender'
+    volume: 0.01
   '''Synapse'' Basic Shield Recharger':
+    id: 352021
     name: '''Synapse'' Basic Shield Recharger'
+    volume: 0.01
   '''Terminal'' Basic Power Diagnostics Unit':
+    id: 365294
     name: '''Terminal'' Basic Power Diagnostics Unit'
+    volume: 0.01
   '''Tether'' Complex Shield Regulator':
+    id: 355584
     name: '''Tether'' Complex Shield Regulator'
+    volume: 0.01
   '''Tremor'' Basic Heavy Damage Modifier':
+    id: 355535
     name: '''Tremor'' Basic Heavy Damage Modifier'
+    volume: 0.01
   '''Trojan'' Fire Control System':
+    id: 355790
     name: '''Trojan'' Fire Control System'
+    volume: 0.01
   '''Ultrasonic'' Enhanced Range Amplifier':
+    id: 356704
     name: '''Ultrasonic'' Enhanced Range Amplifier'
+    volume: 0.01
   '''Utopia'' Magnetic Field Stabilizer':
+    id: 355787
     name: '''Utopia'' Magnetic Field Stabilizer'
+    volume: 0.01
   '''Vector'' Complex CPU Upgrade':
+    id: 352043
     name: '''Vector'' Complex CPU Upgrade'
+    volume: 0.01
   '''Vigil'' Complex Myofibril Stimulant':
+    id: 354924
     name: '''Vigil'' Complex Myofibril Stimulant'
+    volume: 0.01
   '''Visio'' Basic Precision Enhancer':
+    id: 356564
     name: '''Visio'' Basic Precision Enhancer'
+    volume: 0.01
   '''Weld'' Basic Shield Energizer':
+    id: 365254
     name: '''Weld'' Basic Shield Energizer'
+    volume: 0.01
   1.5dn Myofibril Stimulant:
+    id: 355442
     name: 1.5dn Myofibril Stimulant
+    volume: 0.01
   120mm Reinforced Type-A Plates:
+    id: 354181
     name: 120mm Reinforced Type-A Plates
+    volume: 0.01
   180mm Reinforced Nanofibre Plates:
+    id: 354183
     name: 180mm Reinforced Nanofibre Plates
+    volume: 0.01
   180mm Reinforced Polycrystalline Plates:
+    id: 354184
     name: 180mm Reinforced Polycrystalline Plates
+    volume: 0.01
   180mm Reinforced Steel Plates:
+    id: 354182
     name: 180mm Reinforced Steel Plates
+    volume: 0.01
   180mm Reinforced Type-A Plates:
+    id: 354185
     name: 180mm Reinforced Type-A Plates
+    volume: 0.01
   60mm Reinforced Type-A Plates:
+    id: 354178
     name: 60mm Reinforced Type-A Plates
+    volume: 0.01
   Advanced Countermeasure:
+    id: 365361
     name: Advanced Countermeasure
   Advanced Precision Enhancer:
+    id: 356562
     name: Advanced Precision Enhancer
+    volume: 0.01
   'Altered M-Type Nanofiber ':
+    id: 354187
     name: 'Altered M-Type Nanofiber '
+    volume: 0.01
   Asynchronous Fire Control:
+    id: 355788
     name: Asynchronous Fire Control
+    volume: 0.01
   Basic 120mm Armor Plates:
+    id: 351614
     name: Basic 120mm Armor Plates
+    volume: 0.01
   Basic 60mm Armor Plates:
+    id: 351615
     name: Basic 60mm Armor Plates
+    volume: 0.01
   Basic Afterburner:
+    id: 351610
     name: Basic Afterburner
+    volume: 0.01
   Basic Armor Hardener:
+    id: 352277
     name: Basic Armor Hardener
+    volume: 0.01
   Basic Armor Plates:
+    id: 351669
     name: Basic Armor Plates
+    volume: 0.01
   Basic Armor Repairer:
+    id: 351673
     name: Basic Armor Repairer
+    volume: 0.01
   Basic Auto-Detonator:
+    id: 352279
     name: Basic Auto-Detonator
+    volume: 0.01
   Basic Blaster Ammo Expansion Unit:
+    id: 365777
     name: Basic Blaster Ammo Expansion Unit
+    volume: 0.01
   Basic Blaster Damage Amplifier:
+    id: 355802
     name: Basic Blaster Damage Amplifier
+    volume: 0.01
   Basic CPU Upgrade:
+    id: 351696
     name: Basic CPU Upgrade
+    volume: 0.01
   Basic CPU Upgrade Unit:
+    id: 352067
     name: Basic CPU Upgrade Unit
+    volume: 0.01
   Basic Cardiac Regulator:
+    id: 353283
     name: Basic Cardiac Regulator
+    volume: 0.01
   Basic Cardiac Stimulant:
+    id: 351686
     name: Basic Cardiac Stimulant
+    volume: 0.01
   Basic Codebreaker:
+    id: 355568
     name: Basic Codebreaker
+    volume: 0.01
   Basic Countermeasure:
+    id: 365360
     name: Basic Countermeasure
   Basic Dispersion Stabilizer:
+    id: 368898
     name: Basic Dispersion Stabilizer
   Basic Ferroscale Plates:
+    id: 365229
     name: Basic Ferroscale Plates
+    volume: 0.01
   Basic Fuel Injector:
+    id: 354926
     name: Basic Fuel Injector
+    volume: 0.01
   Basic Heat Sink:
+    id: 355928
     name: Basic Heat Sink
+    volume: 0.01
   Basic Heavy Armor Repairer:
+    id: 351865
     name: Basic Heavy Armor Repairer
+    volume: 0.01
   Basic Heavy Damage Modifier:
+    id: 354903
     name: Basic Heavy Damage Modifier
+    volume: 0.01
   Basic Heavy Shield Booster:
+    id: 354133
     name: Basic Heavy Shield Booster
+    volume: 0.01
   Basic Heavy Shield Extender:
+    id: 352035
     name: Basic Heavy Shield Extender
+    volume: 0.01
   Basic Kinetic Catalyzer:
+    id: 351684
     name: Basic Kinetic Catalyzer
+    volume: 0.01
   Basic Light Armor Repairer:
+    id: 352089
     name: Basic Light Armor Repairer
+    volume: 0.01
   Basic Light Damage Modifier:
+    id: 351679
     name: Basic Light Damage Modifier
+    volume: 0.01
   Basic Light Shield Booster:
+    id: 352032
     name: Basic Light Shield Booster
+    volume: 0.01
   Basic Light Shield Extender:
+    id: 352034
     name: Basic Light Shield Extender
+    volume: 0.01
   Basic Missile Ammo Expansion Unit:
+    id: 365783
     name: Basic Missile Ammo Expansion Unit
+    volume: 0.01
   Basic Missile Damage Amplifier:
+    id: 355898
     name: Basic Missile Damage Amplifier
+    volume: 0.01
   Basic Mobile CRU:
+    id: 352604
     name: Basic Mobile CRU
+    volume: 0.01
   Basic Myofibril Stimulant:
+    id: 352687
     name: Basic Myofibril Stimulant
+    volume: 0.01
   Basic Overdrive Unit:
+    id: 351630
     name: Basic Overdrive Unit
+    volume: 0.01
   Basic PG Upgrade:
+    id: 351699
     name: Basic PG Upgrade
+    volume: 0.01
   Basic Power Diagnostics Unit:
+    id: 352536
     name: Basic Power Diagnostics Unit
+    volume: 0.01
   Basic Powergrid Upgrade:
+    id: 352071
     name: Basic Powergrid Upgrade
+    volume: 0.01
   Basic Precision Enhancer:
+    id: 354669
     name: Basic Precision Enhancer
+    volume: 0.01
   Basic Profile Dampener:
+    id: 354667
     name: Basic Profile Dampener
+    volume: 0.01
   Basic Railgun Ammo Expansion Unit:
+    id: 365786
     name: Basic Railgun Ammo Expansion Unit
+    volume: 0.01
   Basic Railgun Damage Amplifer:
+    id: 355798
     name: Basic Railgun Damage Amplifer
+    volume: 0.01
   Basic Range Amplifier:
+    id: 356526
     name: Basic Range Amplifier
+    volume: 0.01
   Basic Reactive Plates:
+    id: 365233
     name: Basic Reactive Plates
+    volume: 0.01
   Basic Scanner:
+    id: 352550
     name: Basic Scanner
+    volume: 0.01
   Basic Shield Energizer:
+    id: 365237
     name: Basic Shield Energizer
+    volume: 0.01
   Basic Shield Extender:
+    id: 351905
     name: Basic Shield Extender
+    volume: 0.01
   Basic Shield Hardener:
+    id: 352293
     name: Basic Shield Hardener
+    volume: 0.01
   Basic Shield Recharger:
+    id: 351908
     name: Basic Shield Recharger
+    volume: 0.01
   Basic Shield Regulator:
+    id: 368893
     name: Basic Shield Regulator
   Basic Sidearm Damage Modifier:
+    id: 354906
     name: Basic Sidearm Damage Modifier
+    volume: 0.01
   Beta Power Diagnostic System:
+    id: 352077
     name: Beta Power Diagnostic System
+    volume: 0.01
   CN-V Light Damage Modifier:
+    id: 363405
     name: CN-V Light Damage Modifier
+    volume: 0.01
   Calibration Subsystem:
+    id: 355807
     name: Calibration Subsystem
+    volume: 0.01
   Complex 120mm Armor Plates:
+    id: 354180
     name: Complex 120mm Armor Plates
+    volume: 0.01
   Complex 60mm Armor Plates:
+    id: 354177
     name: Complex 60mm Armor Plates
+    volume: 0.01
   Complex Afterburner:
+    id: 365952
     name: Complex Afterburner
+    volume: 0.01
   Complex Armor Hardener:
+    id: 363389
     name: Complex Armor Hardener
+    volume: 0.01
   Complex Armor Plates:
+    id: 351671
     name: Complex Armor Plates
+    volume: 0.01
   Complex Armor Repairer:
+    id: 351675
     name: Complex Armor Repairer
+    volume: 0.01
   Complex Blaster Ammo Expansion Unit:
+    id: 365779
     name: Complex Blaster Ammo Expansion Unit
+    volume: 0.01
   Complex Blaster Damage Amplifier:
+    id: 355804
     name: Complex Blaster Damage Amplifier
+    volume: 0.01
   Complex CPU Upgrade:
+    id: 351698
     name: Complex CPU Upgrade
+    volume: 0.01
   Complex CPU Upgrade Unit:
+    id: 352069
     name: Complex CPU Upgrade Unit
+    volume: 0.01
   Complex Cardiac Regulator:
+    id: 353285
     name: Complex Cardiac Regulator
+    volume: 0.01
   Complex Cardiac Stimulant:
+    id: 351690
     name: Complex Cardiac Stimulant
+    volume: 0.01
   Complex Codebreaker:
+    id: 355567
     name: Complex Codebreaker
+    volume: 0.01
   Complex Dispersion Stabilizer:
+    id: 368900
     name: Complex Dispersion Stabilizer
   Complex Ferroscale Plates:
+    id: 365231
     name: Complex Ferroscale Plates
+    volume: 0.01
   Complex Fuel Injector:
+    id: 356591
     name: Complex Fuel Injector
+    volume: 0.01
   Complex Heat Sink:
+    id: 355930
     name: Complex Heat Sink
+    volume: 0.01
   Complex Heavy Armor Repairer:
+    id: 353981
     name: Complex Heavy Armor Repairer
+    volume: 0.01
   Complex Heavy Damage Modifier:
+    id: 354905
     name: Complex Heavy Damage Modifier
+    volume: 0.01
   Complex Heavy Shield Booster:
+    id: 354134
     name: Complex Heavy Shield Booster
+    volume: 0.01
   Complex Heavy Shield Extender:
+    id: 354152
     name: Complex Heavy Shield Extender
+    volume: 0.01
   Complex Kinetic Catalyzer:
+    id: 351688
     name: Complex Kinetic Catalyzer
+    volume: 0.01
   Complex Light Armor Repairer:
+    id: 353984
     name: Complex Light Armor Repairer
+    volume: 0.01
   Complex Light Damage Modifier:
+    id: 351681
     name: Complex Light Damage Modifier
+    volume: 0.01
   Complex Light Shield Booster:
+    id: 354130
     name: Complex Light Shield Booster
+    volume: 0.01
   Complex Light Shield Extender:
+    id: 354155
     name: Complex Light Shield Extender
+    volume: 0.01
   Complex Missile Ammo Expansion Unit:
+    id: 365785
     name: Complex Missile Ammo Expansion Unit
+    volume: 0.01
   Complex Missile Damage Amplifier:
+    id: 355904
     name: Complex Missile Damage Amplifier
+    volume: 0.01
   Complex Myofibril Stimulant:
+    id: 353041
     name: Complex Myofibril Stimulant
+    volume: 0.01
   Complex Overdrive Unit:
+    id: 351632
     name: Complex Overdrive Unit
+    volume: 0.01
   Complex PG Upgrade:
+    id: 351701
     name: Complex PG Upgrade
+    volume: 0.01
   Complex Power Diagnostics Unit:
+    id: 352537
     name: Complex Power Diagnostics Unit
+    volume: 0.01
   Complex Powergrid Upgrade:
+    id: 352073
     name: Complex Powergrid Upgrade
+    volume: 0.01
   Complex Precision Enhancer:
+    id: 356563
     name: Complex Precision Enhancer
+    volume: 0.01
   Complex Profile Dampener:
+    id: 355518
     name: Complex Profile Dampener
+    volume: 0.01
   Complex Railgun Ammo Expansion Unit:
+    id: 365788
     name: Complex Railgun Ammo Expansion Unit
+    volume: 0.01
   Complex Railgun Damage Amplifer:
+    id: 355800
     name: Complex Railgun Damage Amplifer
+    volume: 0.01
   Complex Range Amplifier:
+    id: 356707
     name: Complex Range Amplifier
+    volume: 0.01
   Complex Reactive Plates:
+    id: 365235
     name: Complex Reactive Plates
+    volume: 0.01
   Complex Scanner:
+    id: 354174
     name: Complex Scanner
+    volume: 0.01
   Complex Shield Energizer:
+    id: 365239
     name: Complex Shield Energizer
+    volume: 0.01
   Complex Shield Extender:
+    id: 351907
     name: Complex Shield Extender
+    volume: 0.01
   Complex Shield Hardener:
+    id: 356594
     name: Complex Shield Hardener
+    volume: 0.01
   Complex Shield Recharger:
+    id: 351910
     name: Complex Shield Recharger
+    volume: 0.01
   Complex Shield Regulator:
+    id: 368895
     name: Complex Shield Regulator
   Complex Sidearm Damage Modifier:
+    id: 354908
     name: Complex Sidearm Damage Modifier
+    volume: 0.01
   Conscript Heat Sink:
+    id: 355611
     name: Conscript Heat Sink
+    volume: 0.01
   Conscript Tracking Computer I:
+    id: 356473
     name: Conscript Tracking Computer I
+    volume: 0.01
   Conscript Tracking Computer II:
+    id: 356496
     name: Conscript Tracking Computer II
+    volume: 0.01
   Conscript Tracking Enhancer I:
+    id: 356471
     name: Conscript Tracking Enhancer I
+    volume: 0.01
   Conscript Tracking Enhancer II:
+    id: 356499
     name: Conscript Tracking Enhancer II
+    volume: 0.01
   Crisis Damage Control Unit:
+    id: 354170
     name: Crisis Damage Control Unit
+    volume: 0.01
   Damage Control Unit I:
+    id: 354169
     name: Damage Control Unit I
+    volume: 0.01
   Delta-Nought Tracking Mode:
+    id: 356498
     name: Delta-Nought Tracking Mode
+    volume: 0.01
   Electron Damage Control Unit:
+    id: 354172
     name: Electron Damage Control Unit
+    volume: 0.01
   Energized Nanite Plating:
+    id: 354140
     name: Energized Nanite Plating
+    volume: 0.01
   Energized Plating I:
+    id: 352221
     name: Energized Plating I
+    volume: 0.01
   Enhanced 120mm Armor Plates:
+    id: 354179
     name: Enhanced 120mm Armor Plates
+    volume: 0.01
   Enhanced 60mm Armor Plates:
+    id: 354176
     name: Enhanced 60mm Armor Plates
+    volume: 0.01
   Enhanced Afterburner:
+    id: 351611
     name: Enhanced Afterburner
+    volume: 0.01
   Enhanced Armor Hardener:
+    id: 363388
     name: Enhanced Armor Hardener
+    volume: 0.01
   Enhanced Armor Plates:
+    id: 351670
     name: Enhanced Armor Plates
+    volume: 0.01
   Enhanced Armor Repairer:
+    id: 351674
     name: Enhanced Armor Repairer
+    volume: 0.01
   Enhanced Blaster Ammo Expansion Unit:
+    id: 365778
     name: Enhanced Blaster Ammo Expansion Unit
+    volume: 0.01
   Enhanced Blaster Damage Amplifier:
+    id: 355803
     name: Enhanced Blaster Damage Amplifier
+    volume: 0.01
   Enhanced CPU Upgrade:
+    id: 351697
     name: Enhanced CPU Upgrade
+    volume: 0.01
   Enhanced CPU Upgrade Unit:
+    id: 352068
     name: Enhanced CPU Upgrade Unit
+    volume: 0.01
   Enhanced Cardiac Regulator:
+    id: 353284
     name: Enhanced Cardiac Regulator
+    volume: 0.01
   Enhanced Cardiac Stimulant:
+    id: 351689
     name: Enhanced Cardiac Stimulant
+    volume: 0.01
   Enhanced Codebreaker:
+    id: 355566
     name: Enhanced Codebreaker
+    volume: 0.01
   Enhanced Dispersion Stabilizer:
+    id: 368899
     name: Enhanced Dispersion Stabilizer
   Enhanced Ferroscale Plates:
+    id: 365230
     name: Enhanced Ferroscale Plates
+    volume: 0.01
   Enhanced Fuel Injector:
+    id: 356590
     name: Enhanced Fuel Injector
+    volume: 0.01
   Enhanced Heat Sink:
+    id: 355929
     name: Enhanced Heat Sink
+    volume: 0.01
   Enhanced Heavy Armor Repairer:
+    id: 353980
     name: Enhanced Heavy Armor Repairer
+    volume: 0.01
   Enhanced Heavy Damage Modifier:
+    id: 354904
     name: Enhanced Heavy Damage Modifier
+    volume: 0.01
   Enhanced Heavy Shield Booster:
+    id: 354132
     name: Enhanced Heavy Shield Booster
+    volume: 0.01
   Enhanced Heavy Shield Extender:
+    id: 354151
     name: Enhanced Heavy Shield Extender
+    volume: 0.01
   Enhanced Kinetic Catalyzer:
+    id: 351687
     name: Enhanced Kinetic Catalyzer
+    volume: 0.01
   Enhanced Light Armor Repairer:
+    id: 353983
     name: Enhanced Light Armor Repairer
+    volume: 0.01
   Enhanced Light Damage Modifier:
+    id: 351680
     name: Enhanced Light Damage Modifier
+    volume: 0.01
   Enhanced Light Shield Booster:
+    id: 354129
     name: Enhanced Light Shield Booster
+    volume: 0.01
   Enhanced Light Shield Extender:
+    id: 354154
     name: Enhanced Light Shield Extender
+    volume: 0.01
   Enhanced Missile Ammo Expansion Unit:
+    id: 365784
     name: Enhanced Missile Ammo Expansion Unit
+    volume: 0.01
   Enhanced Missile Damage Amplifier:
+    id: 355903
     name: Enhanced Missile Damage Amplifier
+    volume: 0.01
   Enhanced Myofibril Stimulant:
+    id: 352929
     name: Enhanced Myofibril Stimulant
+    volume: 0.01
   Enhanced Overdrive Unit:
+    id: 351631
     name: Enhanced Overdrive Unit
+    volume: 0.01
   Enhanced PG Upgrade:
+    id: 351700
     name: Enhanced PG Upgrade
+    volume: 0.01
   Enhanced Power Diagnostics Unit:
+    id: 352538
     name: Enhanced Power Diagnostics Unit
+    volume: 0.01
   Enhanced Powergrid Upgrade:
+    id: 352072
     name: Enhanced Powergrid Upgrade
+    volume: 0.01
   Enhanced Profile Dampener:
+    id: 355517
     name: Enhanced Profile Dampener
+    volume: 0.01
   Enhanced Railgun Ammo Expansion Unit:
+    id: 365787
     name: Enhanced Railgun Ammo Expansion Unit
+    volume: 0.01
   Enhanced Railgun Damage Amplifer:
+    id: 355799
     name: Enhanced Railgun Damage Amplifer
+    volume: 0.01
   Enhanced Range Amplifier:
+    id: 356567
     name: Enhanced Range Amplifier
+    volume: 0.01
   Enhanced Reactive Plates:
+    id: 365234
     name: Enhanced Reactive Plates
+    volume: 0.01
   Enhanced Scanner:
+    id: 354173
     name: Enhanced Scanner
+    volume: 0.01
   Enhanced Shield Energizer:
+    id: 365238
     name: Enhanced Shield Energizer
+    volume: 0.01
   Enhanced Shield Extender:
+    id: 351906
     name: Enhanced Shield Extender
+    volume: 0.01
   Enhanced Shield Hardener:
+    id: 356593
     name: Enhanced Shield Hardener
+    volume: 0.01
   Enhanced Shield Recharger:
+    id: 351909
     name: Enhanced Shield Recharger
+    volume: 0.01
   Enhanced Shield Regulator:
+    id: 368894
     name: Enhanced Shield Regulator
   Enhanced Sidearm Damage Modifier:
+    id: 354907
     name: Enhanced Sidearm Damage Modifier
+    volume: 0.01
   F-S3 Regolith Shield Extender:
+    id: 354156
     name: F-S3 Regolith Shield Extender
+    volume: 0.01
   F-S3 Shield Amplifier:
+    id: 354150
     name: F-S3 Shield Amplifier
+    volume: 0.01
   F45 Peripheral Damage Control Unit:
+    id: 354171
     name: F45 Peripheral Damage Control Unit
+    volume: 0.01
   Federation Basic Armor Plates:
+    id: 366394
     name: Federation Basic Armor Plates
+    volume: 0.01
   Federation Basic Armor Repairer:
+    id: 366400
     name: Federation Basic Armor Repairer
+    volume: 0.01
   Federation Basic CPU Upgrade:
+    id: 366406
     name: Federation Basic CPU Upgrade
+    volume: 0.01
   Federation Basic Codebreaker:
+    id: 366403
     name: Federation Basic Codebreaker
+    volume: 0.01
   Federation Basic Kinetic Catalyzer:
+    id: 366397
     name: Federation Basic Kinetic Catalyzer
+    volume: 0.01
   Federation Basic PG Upgrade:
+    id: 366391
     name: Federation Basic PG Upgrade
+    volume: 0.01
   Federation Complex Armor Plates:
+    id: 366396
     name: Federation Complex Armor Plates
+    volume: 0.01
   Federation Complex Armor Repairer:
+    id: 366402
     name: Federation Complex Armor Repairer
+    volume: 0.01
   Federation Complex CPU Upgrade:
+    id: 366408
     name: Federation Complex CPU Upgrade
+    volume: 0.01
   Federation Complex Codebreaker:
+    id: 366405
     name: Federation Complex Codebreaker
+    volume: 0.01
   Federation Complex Kinetic Catalyzer:
+    id: 366399
     name: Federation Complex Kinetic Catalyzer
+    volume: 0.01
   Federation Complex PG Upgrade:
+    id: 366393
     name: Federation Complex PG Upgrade
+    volume: 0.01
   Federation Enhanced Armor Plates:
+    id: 366395
     name: Federation Enhanced Armor Plates
+    volume: 0.01
   Federation Enhanced Armor Repairer:
+    id: 366401
     name: Federation Enhanced Armor Repairer
+    volume: 0.01
   Federation Enhanced CPU Upgrade:
+    id: 366407
     name: Federation Enhanced CPU Upgrade
+    volume: 0.01
   Federation Enhanced Codebreaker:
+    id: 366404
     name: Federation Enhanced Codebreaker
+    volume: 0.01
   Federation Enhanced Kinetic Catalyzer:
+    id: 366398
     name: Federation Enhanced Kinetic Catalyzer
+    volume: 0.01
   Federation Enhanced PG Upgrade:
+    id: 366392
     name: Federation Enhanced PG Upgrade
+    volume: 0.01
   Fire Control System:
+    id: 355610
     name: Fire Control System
+    volume: 0.01
   Fire Control System II:
+    id: 355789
     name: Fire Control System II
+    volume: 0.01
   G-11 Nonlinear Tracking Processor:
+    id: 356495
     name: G-11 Nonlinear Tracking Processor
+    volume: 0.01
   Gadolinium Array:
+    id: 355931
     name: Gadolinium Array
+    volume: 0.01
   HEP Metabolic Enhancer:
+    id: 365200
     name: HEP Metabolic Enhancer
   HP Multiphasic Bolt Array I:
+    id: 355895
     name: HP Multiphasic Bolt Array I
+    volume: 0.01
   HP Muon Coil Bolt Array I:
+    id: 355897
     name: HP Muon Coil Bolt Array I
+    volume: 0.01
   HT Insulated Stabilizer Array:
+    id: 355805
     name: HT Insulated Stabilizer Array
+    volume: 0.01
   Heavy Automated Armor Repair Unit:
+    id: 353982
     name: Heavy Automated Armor Repair Unit
+    volume: 0.01
   Heavy C5-L Shield Booster:
+    id: 354135
     name: Heavy C5-L Shield Booster
+    volume: 0.01
   Heavy C5-R Shield Transporter:
+    id: 354124
     name: Heavy C5-R Shield Transporter
+    volume: 0.01
   Heavy Clarity Ward Shield Transporter:
+    id: 354123
     name: Heavy Clarity Ward Shield Transporter
+    volume: 0.01
   Heavy Converse Shield Transporter:
+    id: 354122
     name: Heavy Converse Shield Transporter
+    volume: 0.01
   Heavy F-S5 Regolith Shield Extender:
+    id: 354153
     name: Heavy F-S5 Regolith Shield Extender
+    volume: 0.01
   Heavy Payload Control System I:
+    id: 355894
     name: Heavy Payload Control System I
+    volume: 0.01
   Heavy Payload Control System II:
+    id: 355896
     name: Heavy Payload Control System II
+    volume: 0.01
   Heavy Remote Armor Repair Unit I:
+    id: 353986
     name: Heavy Remote Armor Repair Unit I
+    volume: 0.01
   Heavy Remote Automated Armor Repair Unit:
+    id: 353989
     name: Heavy Remote Automated Armor Repair Unit
+    volume: 0.01
   Heavy Remote Efficient Armor Repair Unit:
+    id: 353988
     name: Heavy Remote Efficient Armor Repair Unit
+    volume: 0.01
   Heavy Remote IG-R Polarized Armor Regenerator:
+    id: 353987
     name: Heavy Remote IG-R Polarized Armor Regenerator
+    volume: 0.01
   Heavy Shield Transporter I:
+    id: 352057
     name: Heavy Shield Transporter I
+    volume: 0.01
   Imperial Basic Armor Plates:
+    id: 366289
     name: Imperial Basic Armor Plates
   Imperial Basic Armor Repairer:
+    id: 366292
     name: Imperial Basic Armor Repairer
   Imperial Basic CPU Upgrade:
+    id: 366295
     name: Imperial Basic CPU Upgrade
   Imperial Basic Cardiac Regulator:
+    id: 366435
     name: Imperial Basic Cardiac Regulator
+    volume: 0.01
   Imperial Basic Heavy Damage Modifier:
+    id: 366438
     name: Imperial Basic Heavy Damage Modifier
+    volume: 0.01
   Imperial Basic PG Upgrade:
+    id: 366298
     name: Imperial Basic PG Upgrade
   Imperial Complex Armor Plates:
+    id: 366291
     name: Imperial Complex Armor Plates
   Imperial Complex Armor Repairer:
+    id: 366294
     name: Imperial Complex Armor Repairer
   Imperial Complex CPU Upgrade:
+    id: 366297
     name: Imperial Complex CPU Upgrade
   Imperial Complex Cardiac Regulator:
+    id: 366437
     name: Imperial Complex Cardiac Regulator
+    volume: 0.01
   Imperial Complex Heavy Damage Modifier:
+    id: 366440
     name: Imperial Complex Heavy Damage Modifier
+    volume: 0.01
   Imperial Complex PG Upgrade:
+    id: 366300
     name: Imperial Complex PG Upgrade
   Imperial Enhanced Armor Plates:
+    id: 366290
     name: Imperial Enhanced Armor Plates
   Imperial Enhanced Armor Repairer:
+    id: 366293
     name: Imperial Enhanced Armor Repairer
   Imperial Enhanced CPU Upgrade:
+    id: 366296
     name: Imperial Enhanced CPU Upgrade
   Imperial Enhanced Cardiac Regulator:
+    id: 366436
     name: Imperial Enhanced Cardiac Regulator
+    volume: 0.01
   Imperial Enhanced Heavy Damage Modifier:
+    id: 366439
     name: Imperial Enhanced Heavy Damage Modifier
+    volume: 0.01
   Imperial Enhanced PG Upgrade:
+    id: 366299
     name: Imperial Enhanced PG Upgrade
   Inertia Test Plates:
+    id: 355614
     name: Inertia Test Plates
+    volume: 0.01
   Insulated Magnetic Field Stabilizer:
+    id: 355785
     name: Insulated Magnetic Field Stabilizer
+    volume: 0.01
   Krin’s LEX -71 Damage Modifier:
+    id: 368777
     name: Krin’s LEX -71 Damage Modifier
+    volume: 0.01
   LP Muon Coil Bolt Array I:
+    id: 355905
     name: LP Muon Coil Bolt Array I
+    volume: 0.01
   LT Insulated Stabilizer Array:
+    id: 355801
     name: LT Insulated Stabilizer Array
+    volume: 0.01
   Light Automated Armor Repair Unit:
+    id: 353985
     name: Light Automated Armor Repair Unit
+    volume: 0.01
   Light C3-L Shield Booster:
+    id: 354131
     name: Light C3-L Shield Booster
+    volume: 0.01
   Light C3-R Shield Transporter:
+    id: 354127
     name: Light C3-R Shield Transporter
+    volume: 0.01
   Light Clarity Ward Shield Transporter:
+    id: 354128
     name: Light Clarity Ward Shield Transporter
+    volume: 0.01
   Light Converse Shield Transporter:
+    id: 354126
     name: Light Converse Shield Transporter
+    volume: 0.01
   Light Remote Armor Repair Unit I:
+    id: 352101
     name: Light Remote Armor Repair Unit I
+    volume: 0.01
   Light Remote Automated Armor Repair Unit:
+    id: 353992
     name: Light Remote Automated Armor Repair Unit
+    volume: 0.01
   Light Remote Efficient Armor Repair Unit:
+    id: 353991
     name: Light Remote Efficient Armor Repair Unit
+    volume: 0.01
   Light Remote IG-R Polarized Armor Regenerator:
+    id: 353990
     name: Light Remote IG-R Polarized Armor Regenerator
+    volume: 0.01
   Light Shield Transporter I:
+    id: 354125
     name: Light Shield Transporter I
+    volume: 0.01
   Local Power Diagnostic System:
+    id: 352078
     name: Local Power Diagnostic System
+    volume: 0.01
   Logistics LAV Mass Remote Repairer (S):
+    id: 353907
     name: Logistics LAV Mass Remote Repairer (S)
+    volume: 0.01
   M42 Shield Regenerator:
+    id: 354267
     name: M42 Shield Regenerator
+    volume: 0.01
   Magnetic Field Stabilizer:
+    id: 355607
     name: Magnetic Field Stabilizer
+    volume: 0.01
   Militia 120mm Armor Plates:
+    id: 355406
     name: Militia 120mm Armor Plates
+    volume: 0.01
   Militia 120mm Armor Plates Blueprint:
+    id: 356857
     name: Militia 120mm Armor Plates Blueprint
+    volume: 0.01
   Militia 180mm Reinforced Steel Plates:
+    id: 355407
     name: Militia 180mm Reinforced Steel Plates
+    volume: 0.01
   Militia 180mm Reinforced Steel Plates Blueprint:
+    id: 356858
     name: Militia 180mm Reinforced Steel Plates Blueprint
+    volume: 0.01
   Militia 60mm Armor Plates:
+    id: 355405
     name: Militia 60mm Armor Plates
+    volume: 0.01
   Militia 60mm Armor Plates Blueprint:
+    id: 356859
     name: Militia 60mm Armor Plates Blueprint
+    volume: 0.01
   Militia Active Heat Sink:
+    id: 364176
     name: Militia Active Heat Sink
   Militia Afterburner:
+    id: 364250
     name: Militia Afterburner
+    volume: 0.01
   Militia Armor Hardener:
+    id: 365902
     name: Militia Armor Hardener
+    volume: 0.01
   Militia Armor Plates:
+    id: 353931
     name: Militia Armor Plates
+    volume: 0.01
   Militia Armor Plates Blueprint:
+    id: 356788
     name: Militia Armor Plates Blueprint
+    volume: 0.01
   Militia Armor Repairer:
+    id: 353932
     name: Militia Armor Repairer
+    volume: 0.01
   Militia Armor Repairer Blueprint:
+    id: 356789
     name: Militia Armor Repairer Blueprint
+    volume: 0.01
   Militia Blaster Ammo Expansion Unit:
+    id: 365905
     name: Militia Blaster Ammo Expansion Unit
+    volume: 0.01
   Militia Blaster Damage Amplifier:
+    id: 355811
     name: Militia Blaster Damage Amplifier
+    volume: 0.01
   Militia Blaster Damage Amplifier Blueprint:
+    id: 356866
     name: Militia Blaster Damage Amplifier Blueprint
+    volume: 0.01
   Militia CPU Upgrade:
+    id: 354011
     name: Militia CPU Upgrade
+    volume: 0.01
   Militia CPU Upgrade Blueprint:
+    id: 356794
     name: Militia CPU Upgrade Blueprint
+    volume: 0.01
   Militia CPU Upgrade Unit:
+    id: 355409
     name: Militia CPU Upgrade Unit
+    volume: 0.01
   Militia CPU Upgrade Unit Blueprint:
+    id: 356868
     name: Militia CPU Upgrade Unit Blueprint
+    volume: 0.01
   Militia Cardiac Regulator:
+    id: 353744
     name: Militia Cardiac Regulator
+    volume: 0.01
   Militia Cardiac Regulator Blueprint:
+    id: 356792
     name: Militia Cardiac Regulator Blueprint
+    volume: 0.01
   Militia Cardiac Stimulant:
+    id: 353935
     name: Militia Cardiac Stimulant
+    volume: 0.01
   Militia Cardiac Stimulant Blueprint:
+    id: 356790
     name: Militia Cardiac Stimulant Blueprint
+    volume: 0.01
   Militia Codebreaker:
+    id: 356629
     name: Militia Codebreaker
+    volume: 0.01
   Militia Codebreaker Blueprint:
+    id: 356793
     name: Militia Codebreaker Blueprint
+    volume: 0.01
   Militia Damage Control Unit:
+    id: 364249
     name: Militia Damage Control Unit
   Militia Energized Plating:
+    id: 355408
     name: Militia Energized Plating
+    volume: 0.01
   Militia Fuel Injector:
+    id: 365956
     name: Militia Fuel Injector
+    volume: 0.01
   Militia Heat Sink:
+    id: 364174
     name: Militia Heat Sink
   Militia Heavy Armor Repairer:
+    id: 355402
     name: Militia Heavy Armor Repairer
+    volume: 0.01
   Militia Heavy Armor Repairer Blueprint:
+    id: 356855
     name: Militia Heavy Armor Repairer Blueprint
+    volume: 0.01
   Militia Heavy Damage Modifier:
+    id: 355422
     name: Militia Heavy Damage Modifier
+    volume: 0.01
   Militia Heavy Damage Modifier Blueprint:
+    id: 356802
     name: Militia Heavy Damage Modifier Blueprint
+    volume: 0.01
   Militia Heavy Shield Booster:
+    id: 355404
     name: Militia Heavy Shield Booster
+    volume: 0.01
   Militia Heavy Shield Booster Blueprint:
+    id: 356861
     name: Militia Heavy Shield Booster Blueprint
+    volume: 0.01
   Militia Heavy Shield Extender:
+    id: 355414
     name: Militia Heavy Shield Extender
+    volume: 0.01
   Militia Heavy Shield Extender Blueprint:
+    id: 356863
     name: Militia Heavy Shield Extender Blueprint
+    volume: 0.01
   Militia Kinetic Catalyzer:
+    id: 353934
     name: Militia Kinetic Catalyzer
+    volume: 0.01
   Militia Kinetic Catalyzer Blueprint:
+    id: 356791
     name: Militia Kinetic Catalyzer Blueprint
+    volume: 0.01
   Militia Light Armor Repairer:
+    id: 355375
     name: Militia Light Armor Repairer
+    volume: 0.01
   Militia Light Armor Repairer Blueprint:
+    id: 356854
     name: Militia Light Armor Repairer Blueprint
+    volume: 0.01
   Militia Light Damage Modifier:
+    id: 353933
     name: Militia Light Damage Modifier
+    volume: 0.01
   Militia Light Damage Modifier Blueprint:
+    id: 356803
     name: Militia Light Damage Modifier Blueprint
+    volume: 0.01
   Militia Light Shield Booster:
+    id: 355403
     name: Militia Light Shield Booster
+    volume: 0.01
   Militia Light Shield Booster Blueprint:
+    id: 356860
     name: Militia Light Shield Booster Blueprint
+    volume: 0.01
   'Militia Light Shield Extender ':
+    id: 355413
     name: 'Militia Light Shield Extender '
+    volume: 0.01
   Militia Light Shield Extender Blueprint:
+    id: 356862
     name: Militia Light Shield Extender Blueprint
+    volume: 0.01
   Militia Missile Ammo Expansion Unit:
+    id: 365907
     name: Militia Missile Ammo Expansion Unit
+    volume: 0.01
   Militia Missile Damage Amplifier:
+    id: 355927
     name: Militia Missile Damage Amplifier
+    volume: 0.01
   Militia Missile Damage Amplifier Blueprint:
+    id: 356867
     name: Militia Missile Damage Amplifier Blueprint
+    volume: 0.01
   Militia Mobile CRU:
+    id: 365908
     name: Militia Mobile CRU
+    volume: 0.01
   Militia Mobile CRU Blueprint:
+    id: 363096
     name: Militia Mobile CRU Blueprint
+    volume: 0.01
   Militia Myofibril Stimulant:
+    id: 353936
     name: Militia Myofibril Stimulant
+    volume: 0.01
   Militia Myofibril Stimulant Blueprint:
+    id: 356805
     name: Militia Myofibril Stimulant Blueprint
+    volume: 0.01
   Militia Overdrive:
+    id: 364245
     name: Militia Overdrive
+    volume: 0.01
   Militia PG Upgrade:
+    id: 354012
     name: Militia PG Upgrade
+    volume: 0.01
   Militia PG Upgrade Blueprint:
+    id: 356798
     name: Militia PG Upgrade Blueprint
+    volume: 0.01
   Militia Power Diagnostic System:
+    id: 355412
     name: Militia Power Diagnostic System
+    volume: 0.01
   Militia Power Diagnostic System Blueprint:
+    id: 356869
     name: Militia Power Diagnostic System Blueprint
+    volume: 0.01
   Militia Powergrid Upgrade:
+    id: 355411
     name: Militia Powergrid Upgrade
+    volume: 0.01
   Militia Powergrid Upgrade Blueprint:
+    id: 356870
     name: Militia Powergrid Upgrade Blueprint
+    volume: 0.01
   Militia Precision Enhancer:
+    id: 356708
     name: Militia Precision Enhancer
+    volume: 0.01
   Militia Precision Enhancer Blueprint:
+    id: 356795
     name: Militia Precision Enhancer Blueprint
+    volume: 0.01
   Militia Profile Dampener:
+    id: 355523
     name: Militia Profile Dampener
+    volume: 0.01
   Militia Profile Dampener Blueprint:
+    id: 356796
     name: Militia Profile Dampener Blueprint
+    volume: 0.01
   Militia Railgun Ammo Expansion Unit:
+    id: 365906
     name: Militia Railgun Ammo Expansion Unit
+    volume: 0.01
   Militia Railgun Damage Amplifier:
+    id: 365904
     name: Militia Railgun Damage Amplifier
+    volume: 0.01
   Militia Range Amplifier:
+    id: 356711
     name: Militia Range Amplifier
+    volume: 0.01
   Militia Range Amplifier Blueprint:
+    id: 356797
     name: Militia Range Amplifier Blueprint
+    volume: 0.01
   Militia Scanner:
+    id: 364248
     name: Militia Scanner
+    volume: 0.01
   Militia Shield Extender:
+    id: 353742
     name: Militia Shield Extender
+    volume: 0.01
   Militia Shield Extender Blueprint:
+    id: 356799
     name: Militia Shield Extender Blueprint
+    volume: 0.01
   Militia Shield Hardener:
+    id: 365903
     name: Militia Shield Hardener
+    volume: 0.01
   Militia Shield Recharger:
+    id: 353743
     name: Militia Shield Recharger
+    volume: 0.01
   Militia Shield Recharger Blueprint:
+    id: 356800
     name: Militia Shield Recharger Blueprint
+    volume: 0.01
   Militia Shield Regenerator:
+    id: 355415
     name: Militia Shield Regenerator
+    volume: 0.01
   Militia Shield Regenerator Blueprint:
+    id: 356864
     name: Militia Shield Regenerator Blueprint
+    volume: 0.01
   Militia Shield Regulator:
+    id: 355591
     name: Militia Shield Regulator
+    volume: 0.01
   Militia Shield Regulator Blueprint:
+    id: 356801
     name: Militia Shield Regulator Blueprint
+    volume: 0.01
   Militia Shield Resistance Amplifier:
+    id: 356865
     name: Militia Shield Resistance Amplifier
+    volume: 0.01
   Militia Sidearm Damage Modifier:
+    id: 355421
     name: Militia Sidearm Damage Modifier
+    volume: 0.01
   Militia Sidearm Damage Modifier Blueprint:
+    id: 356804
     name: Militia Sidearm Damage Modifier Blueprint
+    volume: 0.01
   Militia Spool Reduction Unit:
+    id: 364173
     name: Militia Spool Reduction Unit
   Militia Tracking CPU:
+    id: 364177
     name: Militia Tracking CPU
   Militia Tracking Enhancement:
+    id: 364175
     name: Militia Tracking Enhancement
   Modified Extruded Heat Sink:
+    id: 355791
     name: Modified Extruded Heat Sink
+    volume: 0.01
   Modified P-Type Nanofiber:
+    id: 354186
     name: Modified P-Type Nanofiber
+    volume: 0.01
   N-Type Energized Plating:
+    id: 354142
     name: N-Type Energized Plating
+    volume: 0.01
   Nanofiber Structure I:
+    id: 351620
     name: Nanofiber Structure I
+    volume: 0.01
   Nonlinear Flux Stabilizer:
+    id: 355786
     name: Nonlinear Flux Stabilizer
+    volume: 0.01
   Overdrive:
+    id: 351633
     name: Overdrive
+    volume: 0.01
   'Power Diagnostic System I ':
+    id: 352076
     name: 'Power Diagnostic System I '
+    volume: 0.01
   Propulsion Test Plates:
+    id: 355613
     name: Propulsion Test Plates
+    volume: 0.01
   Quantum CPU Enhancer:
+    id: 352070
     name: Quantum CPU Enhancer
+    volume: 0.01
   R-Type Vehicular Hardener:
+    id: 363390
     name: R-Type Vehicular Hardener
+    volume: 0.01
   Reactive Deflection Field I:
+    id: 365424
     name: Reactive Deflection Field I
+    volume: 0.01
   Remote Shield Booster (S):
+    id: 353919
     name: Remote Shield Booster (S)
+    volume: 0.01
   Republic Basic CPU Upgrade:
+    id: 366322
     name: Republic Basic CPU Upgrade
   Republic Basic Myofibril Stimulant:
+    id: 366480
     name: Republic Basic Myofibril Stimulant
+    volume: 0.01
   Republic Basic PG Upgrade:
+    id: 366319
     name: Republic Basic PG Upgrade
   Republic Basic Shield Energizer:
+    id: 366477
     name: Republic Basic Shield Energizer
+    volume: 0.01
   Republic Basic Shield Extender:
+    id: 366468
     name: Republic Basic Shield Extender
+    volume: 0.01
   Republic Basic Shield Recharger:
+    id: 366474
     name: Republic Basic Shield Recharger
+    volume: 0.01
   Republic Basic Shield Regulator:
+    id: 366471
     name: Republic Basic Shield Regulator
+    volume: 0.01
   Republic Basic Sidearm Damage Modifier:
+    id: 366465
     name: Republic Basic Sidearm Damage Modifier
+    volume: 0.01
   Republic Complex CPU Upgrade:
+    id: 366324
     name: Republic Complex CPU Upgrade
   Republic Complex Myofibril Stimulant:
+    id: 366482
     name: Republic Complex Myofibril Stimulant
+    volume: 0.01
   Republic Complex PG Upgrade:
+    id: 366321
     name: Republic Complex PG Upgrade
   Republic Complex Shield Energizer:
+    id: 366479
     name: Republic Complex Shield Energizer
+    volume: 0.01
   Republic Complex Shield Extender:
+    id: 366470
     name: Republic Complex Shield Extender
+    volume: 0.01
   Republic Complex Shield Recharger:
+    id: 366476
     name: Republic Complex Shield Recharger
+    volume: 0.01
   Republic Complex Shield Regulator:
+    id: 366473
     name: Republic Complex Shield Regulator
+    volume: 0.01
   Republic Complex Sidearm Damage Modifier:
+    id: 366467
     name: Republic Complex Sidearm Damage Modifier
+    volume: 0.01
   Republic Enhanced CPU Upgrade:
+    id: 366323
     name: Republic Enhanced CPU Upgrade
   Republic Enhanced Myofibril Stimulant:
+    id: 366481
     name: Republic Enhanced Myofibril Stimulant
+    volume: 0.01
   Republic Enhanced PG Upgrade:
+    id: 366320
     name: Republic Enhanced PG Upgrade
   Republic Enhanced Shield Energizer:
+    id: 366478
     name: Republic Enhanced Shield Energizer
+    volume: 0.01
   Republic Enhanced Shield Extender:
+    id: 366469
     name: Republic Enhanced Shield Extender
+    volume: 0.01
   Republic Enhanced Shield Recharger:
+    id: 366475
     name: Republic Enhanced Shield Recharger
+    volume: 0.01
   Republic Enhanced Shield Regulator:
+    id: 366472
     name: Republic Enhanced Shield Regulator
+    volume: 0.01
   Republic Enhanced Sidearm Damage Modifier:
+    id: 366466
     name: Republic Enhanced Sidearm Damage Modifier
+    volume: 0.01
   Routine Calibration Subsystem:
+    id: 355808
     name: Routine Calibration Subsystem
+    volume: 0.01
   Shield Regenerator I:
+    id: 354264
     name: Shield Regenerator I
+    volume: 0.01
   Shield Resistance Amplifier I:
+    id: 354147
     name: Shield Resistance Amplifier I
+    volume: 0.01
   Squad - Armor Bonus Test:
+    id: 354867
     name: Squad - Armor Bonus Test
+    volume: 0.01
   Squad - Shield Energizer:
+    id: 355308
     name: Squad - Shield Energizer
+    volume: 0.01
   Squad - Shield Resistance:
+    id: 355294
     name: Squad - Shield Resistance
+    volume: 0.01
   Squad - Signature Dampener:
+    id: 355297
     name: Squad - Signature Dampener
+    volume: 0.01
   Squad - Speed Test:
+    id: 354870
     name: Squad - Speed Test
+    volume: 0.01
   State Basic CPU Upgrade:
+    id: 366304
     name: State Basic CPU Upgrade
   State Basic Light Damage Modifier:
+    id: 366522
     name: State Basic Light Damage Modifier
+    volume: 0.01
   State Basic PG Upgrade:
+    id: 366301
     name: State Basic PG Upgrade
   State Basic Shield Energizer:
+    id: 366307
     name: State Basic Shield Energizer
   State Basic Shield Extender:
+    id: 366310
     name: State Basic Shield Extender
   State Basic Shield Recharger:
+    id: 366313
     name: State Basic Shield Recharger
   State Basic Shield Regulator:
+    id: 366316
     name: State Basic Shield Regulator
   State Complex CPU Upgrade:
+    id: 366306
     name: State Complex CPU Upgrade
   State Complex Light Damage Modifier:
+    id: 366524
     name: State Complex Light Damage Modifier
+    volume: 0.01
   State Complex PG Upgrade:
+    id: 366303
     name: State Complex PG Upgrade
   State Complex Shield Energizer:
+    id: 366309
     name: State Complex Shield Energizer
   State Complex Shield Extender:
+    id: 366312
     name: State Complex Shield Extender
   State Complex Shield Recharger:
+    id: 366315
     name: State Complex Shield Recharger
   State Complex Shield Regulator:
+    id: 366318
     name: State Complex Shield Regulator
   State Enhanced CPU Upgrade:
+    id: 366305
     name: State Enhanced CPU Upgrade
   State Enhanced Light Damage Modifier:
+    id: 366523
     name: State Enhanced Light Damage Modifier
+    volume: 0.01
   State Enhanced PG Upgrade:
+    id: 366302
     name: State Enhanced PG Upgrade
   State Enhanced Shield Energizer:
+    id: 366308
     name: State Enhanced Shield Energizer
   State Enhanced Shield Extender:
+    id: 366311
     name: State Enhanced Shield Extender
   State Enhanced Shield Recharger:
+    id: 366314
     name: State Enhanced Shield Recharger
   State Enhanced Shield Regulator:
+    id: 366317
     name: State Enhanced Shield Regulator
   Supplemental Shield Amplifier:
+    id: 354148
     name: Supplemental Shield Amplifier
+    volume: 0.01
   Supplemental Shield Regenerator:
+    id: 354265
     name: Supplemental Shield Regenerator
+    volume: 0.01
   Surge Carapace I:
+    id: 365351
     name: Surge Carapace I
   Surge Carapace II:
+    id: 365352
     name: Surge Carapace II
   Systemic 'Pandemonium' Ballistic Enhancement:
+    id: 355910
     name: Systemic 'Pandemonium' Ballistic Enhancement
+    volume: 0.01
   Systemic Ballistic Control System I:
+    id: 355906
     name: Systemic Ballistic Control System I
+    volume: 0.01
   Systemic Ballistic Control System II:
+    id: 355909
     name: Systemic Ballistic Control System II
+    volume: 0.01
   Systemic Bolt Array I:
+    id: 355908
     name: Systemic Bolt Array I
+    volume: 0.01
   Systemic Field Stabilizer I:
+    id: 352083
     name: Systemic Field Stabilizer I
+    volume: 0.01
   Systemic Field Stabilizer II:
+    id: 354159
     name: Systemic Field Stabilizer II
+    volume: 0.01
   Systemic Stabilizer Array:
+    id: 354160
     name: Systemic Stabilizer Array
+    volume: 0.01
   Systemic Vortex Stabilizer:
+    id: 354158
     name: Systemic Vortex Stabilizer
+    volume: 0.01
   Tolerant Calibration Subsystem:
+    id: 355809
     name: Tolerant Calibration Subsystem
+    volume: 0.01
   Tracking Enhancer (Scout LAV):
+    id: 364506
     name: Tracking Enhancer (Scout LAV)
   Type-G Active Scanner:
+    id: 354175
     name: Type-G Active Scanner
+    volume: 0.01
   Type-G Nanofibre Internal Structure:
+    id: 354188
     name: Type-G Nanofibre Internal Structure
+    volume: 0.01
   Type-G Power Diagnostic System:
+    id: 352079
     name: Type-G Power Diagnostic System
+    volume: 0.01
   Type-G Powergrid Expansion System:
+    id: 352074
     name: Type-G Powergrid Expansion System
+    volume: 0.01
   Vehicle Shield Recharger:
+    id: 354869
     name: Vehicle Shield Recharger
+    volume: 0.01
   Vented Heat Sink:
+    id: 355792
     name: Vented Heat Sink
+    volume: 0.01
   Voltaic Energized Plating:
+    id: 354141
     name: Voltaic Energized Plating
+    volume: 0.01
   Ward Shield Amplifier:
+    id: 354149
     name: Ward Shield Amplifier
+    volume: 0.01
   Ward Shield Regenerator:
+    id: 354266
     name: Ward Shield Regenerator
+    volume: 0.01
   XM-1 Capacitive Shell:
+    id: 365353
     name: XM-1 Capacitive Shell
   Zeta-Nought Tracking Mode:
+    id: 356500
     name: Zeta-Nought Tracking Mode
+    volume: 0.01
   '[DEV] Anti-ROF':
+    id: 355331
     name: '[DEV] Anti-ROF'
+    volume: 0.01
   '[DEV] Anti-Shield Recharger':
+    id: 355329
     name: '[DEV] Anti-Shield Recharger'
+    volume: 0.01
   '[DEV] High Infantry PG/CPU':
+    id: 352274
     name: '[DEV] High Infantry PG/CPU'
+    volume: 0.01
   '[DEV] High Vehicle PG/CPU':
+    id: 352108
     name: '[DEV] High Vehicle PG/CPU'
+    volume: 0.01
   '[DEV] Movement Nullifier':
+    id: 355332
     name: '[DEV] Movement Nullifier'
+    volume: 0.01
   '[DEV] Remote Armor Repairer':
+    id: 356416
     name: '[DEV] Remote Armor Repairer'
+    volume: 0.01
   '[DEV] Remote Shield Recharger':
+    id: 355299
     name: '[DEV] Remote Shield Recharger'
+    volume: 0.01

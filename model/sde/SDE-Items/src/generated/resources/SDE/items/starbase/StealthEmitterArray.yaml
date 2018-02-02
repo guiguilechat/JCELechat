@@ -18,7 +18,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    id: 18586
     name: BH Structure Anchoring Array
+    volume: 4000.0
   Stealth Emitter Array:
     AnchoringDelay: 30000
     ArmorHP: 10000
@@ -38,4 +40,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    id: 17899
     name: Stealth Emitter Array
+    volume: 4000.0

@@ -1,99 +1,192 @@
 items:
   Amarr Frigate Container:
+    id: 2077
     name: Amarr Frigate Container
   Barbican Repository:
+    id: 36904
     name: Barbican Repository
+    volume: 27500.0
   Barbican Vault:
+    id: 34499
     name: Barbican Vault
+    volume: 27500.0
   Business Associate:
+    id: 32271
     name: Business Associate
+    volume: 27500.0
   CONCORD Collection Vessel:
+    id: 2163
     name: CONCORD Collection Vessel
   Cargo Facility 7A-21:
+    id: 30953
     name: Cargo Facility 7A-21
+    volume: 27500.0
   Cargo Wreathe:
+    id: 30899
     name: Cargo Wreathe
   Central Archive Cerebrum:
+    id: 34449
     name: Central Archive Cerebrum
+    volume: 27500.0
   Chapel Container:
+    id: 32291
     name: Chapel Container
+    volume: 27500.0
   Cilis Leglise's Headquarters:
+    id: 32404
     name: Cilis Leglise's Headquarters
+    volume: 27500.0
   Colonial Supply Depot:
+    id: 30783
     name: Colonial Supply Depot
+    volume: 27500.0
   Communications Array:
+    id: 30965
     name: Communications Array
+    volume: 27500.0
   'Conference Center ':
+    id: 32224
     name: 'Conference Center '
+    volume: 27500.0
   Conflux Repository:
+    id: 36906
     name: Conflux Repository
+    volume: 27500.0
   Conflux Vault:
+    id: 34501
     name: Conflux Vault
+    volume: 27500.0
   Dead Drop:
+    id: 30762
     name: Dead Drop
+    volume: 27500.0
   Defiants Storage Facility:
+    id: 32206
     name: Defiants Storage Facility
+    volume: 27500.0
   Drone Infested Dominix:
+    id: 2189
     name: Drone Infested Dominix
+    volume: 1010000.0
   Emergency Evacuation Freighter:
+    id: 3503
     name: Emergency Evacuation Freighter
+    volume: 27500.0
   Generic Cargo Container:
+    id: 30820
     name: Generic Cargo Container
+    volume: 27500.0
   Guard Post:
+    id: 2214
     name: Guard Post
+    volume: 27500.0
   Josameto Verification Center:
+    id: 30949
     name: Josameto Verification Center
+    volume: 27500.0
   Linked Broadcast Array Hub:
+    id: 32127
     name: Linked Broadcast Array Hub
+    volume: 27500.0
   Luxury Spaceliner:
+    id: 30654
     name: Luxury Spaceliner
+    volume: 27500.0
   Manager's Station:
+    id: 2903
     name: Manager's Station
+    volume: 27500.0
   Mizara Family Hovel:
+    id: 30777
     name: Mizara Family Hovel
+    volume: 27500.0
   Nation Ore Refinery:
+    id: 3502
     name: Nation Ore Refinery
+    volume: 27500.0
   Orca Container:
+    id: 2187
     name: Orca Container
   Redoubt Repository:
+    id: 36907
     name: Redoubt Repository
+    volume: 27500.0
   Redoubt Vault:
+    id: 34502
     name: Redoubt Vault
+    volume: 27500.0
   Remote Calibration Device - High Power:
+    id: 34374
     name: Remote Calibration Device - High Power
+    volume: 27500.0
   Remote Calibration Device - Low Power:
+    id: 34373
     name: Remote Calibration Device - Low Power
+    volume: 27500.0
   Safe House Ruins:
+    id: 32273
     name: Safe House Ruins
+    volume: 27500.0
   Sansha Control Relay:
+    id: 3508
     name: Sansha Control Relay
+    volume: 1.0E8
   Sansha Territorial Reclamation Outpost:
+    id: 3054
     name: Sansha Territorial Reclamation Outpost
+    volume: 1.0E8
   Senator Pillius Ardanne:
+    id: 32299
     name: Senator Pillius Ardanne
+    volume: 27500.0
   Sentinel Repository:
+    id: 36903
     name: Sentinel Repository
+    volume: 27500.0
   Sentinel Vault:
+    id: 34498
     name: Sentinel Vault
+    volume: 27500.0
   Serpentis Transport Hub:
+    id: 32394
     name: Serpentis Transport Hub
+    volume: 27500.0
   Shield Transfer Control Tower:
+    id: 3495
     name: Shield Transfer Control Tower
+    volume: 1150.0
   Sisters of EVE Cold Storage Unit:
+    id: 40542
     name: Sisters of EVE Cold Storage Unit
+    volume: 27500.0
   Solray Gamma Alignment Unit:
+    id: 34391
     name: Solray Gamma Alignment Unit
+    volume: 27500.0
   Solray Infrared Alignment Unit:
+    id: 34398
     name: Solray Infrared Alignment Unit
+    volume: 27500.0
   Solray Radio Alignment Unit:
+    id: 34399
     name: Solray Radio Alignment Unit
+    volume: 27500.0
   Storage Warehouse Container:
+    id: 30793
     name: Storage Warehouse Container
+    volume: 27500.0
   The Quartermaster:
+    id: 46279
     name: The Quartermaster
   Vidette Repository:
+    id: 36905
     name: Vidette Repository
+    volume: 27500.0
   Vidette Vault:
+    id: 34500
     name: Vidette Vault
+    volume: 27500.0
   Wolf Burgan's Hideout:
+    id: 30805
     name: Wolf Burgan's Hideout
+    volume: 27500.0

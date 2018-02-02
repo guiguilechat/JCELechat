@@ -1,81 +1,161 @@
 items:
   Civilian Gallente Cruiser Celestis:
+    id: 30725
     name: Civilian Gallente Cruiser Celestis
+    volume: 113000.0
   Civilian Gallente Cruiser Exequror:
+    id: 30726
     name: Civilian Gallente Cruiser Exequror
+    volume: 113000.0
   Civilian Gallente Cruiser Thorax:
+    id: 30727
     name: Civilian Gallente Cruiser Thorax
+    volume: 113000.0
   Civilian Gallente Cruiser Vexor:
+    id: 30728
     name: Civilian Gallente Cruiser Vexor
+    volume: 113000.0
   Elite Federation Arx:
+    id: 25181
     name: Elite Federation Arx
+    volume: 112000.0
   Elite Federation Auxilia:
+    id: 25182
     name: Elite Federation Auxilia
+    volume: 112000.0
   Elite Federation Bearcus:
+    id: 25180
     name: Elite Federation Bearcus
+    volume: 112000.0
   Elite Federation Calo:
+    id: 25179
     name: Elite Federation Calo
+    volume: 112000.0
   Elite Federation Liburna:
+    id: 25183
     name: Elite Federation Liburna
+    volume: 112000.0
   Elite Federation Mentes:
+    id: 25186
     name: Elite Federation Mentes
+    volume: 112000.0
   Elite Federation Navis:
+    id: 25184
     name: Elite Federation Navis
+    volume: 112000.0
   Elite Federation Quadrieris:
+    id: 25185
     name: Elite Federation Quadrieris
+    volume: 112000.0
   Federation Hastarius:
+    id: 25149
     name: Federation Hastarius
+    volume: 116000.0
   Federation Hastatus:
+    id: 25150
     name: Federation Hastatus
+    volume: 115000.0
   Federation Loras:
+    id: 25147
     name: Federation Loras
+    volume: 113000.0
   Federation Misthios:
+    id: 25152
     name: Federation Misthios
+    volume: 112000.0
   Federation Nauclarius:
+    id: 25154
     name: Federation Nauclarius
+    volume: 112000.0
   Federation Navy Detective:
+    id: 11661
     name: Federation Navy Detective
+    volume: 116000.0
   Federation Navy Officer Vexor:
+    id: 24271
     name: Federation Navy Officer Vexor
+    volume: 115000.0
   Federation Navy Thorax:
+    id: 15325
     name: Federation Navy Thorax
+    volume: 112000.0
   Federation Navy Vexor:
+    id: 12440
     name: Federation Navy Vexor
+    volume: 115000.0
   Federation Praktor Centurion:
+    id: 25162
     name: Federation Praktor Centurion
+    volume: 112000.0
   Federation Praktor Hippeus:
+    id: 25156
     name: Federation Praktor Hippeus
+    volume: 112000.0
   Federation Praktor Legionarius:
+    id: 25161
     name: Federation Praktor Legionarius
+    volume: 112000.0
   Federation Praktor Optioon:
+    id: 25160
     name: Federation Praktor Optioon
+    volume: 112000.0
   Federation Praktor Ouragos:
+    id: 25158
     name: Federation Praktor Ouragos
+    volume: 112000.0
   Gallente CA Cruiser:
+    id: 45466
     name: Gallente CA Cruiser
+    volume: 113000.0
   Independent Celestis:
+    id: 29779
     name: Independent Celestis
+    volume: 112000.0
   Independent Exequror:
+    id: 29780
     name: Independent Exequror
+    volume: 112000.0
   Independent Green-Crewed Celestis:
+    id: 29776
     name: Independent Green-Crewed Celestis
+    volume: 113000.0
   Independent Green-Crewed Exequror:
+    id: 29775
     name: Independent Green-Crewed Exequror
+    volume: 113000.0
   'Independent Green-Crewed Thorax ':
+    id: 29777
     name: 'Independent Green-Crewed Thorax '
+    volume: 113000.0
   Independent Green-Crewed Vexor:
+    id: 29778
     name: Independent Green-Crewed Vexor
+    volume: 113000.0
   Independent Thorax:
+    id: 29781
     name: Independent Thorax
+    volume: 112000.0
   Independent Veteran Celestis:
+    id: 29783
     name: Independent Veteran Celestis
+    volume: 150000.0
   Independent Veteran Exequror:
+    id: 29784
     name: Independent Veteran Exequror
+    volume: 150000.0
   Independent Veteran Thorax:
+    id: 29785
     name: Independent Veteran Thorax
+    volume: 150000.0
   Independent Veteran Vexor:
+    id: 29786
     name: Independent Veteran Vexor
+    volume: 150000.0
   Independent Vexor:
+    id: 29782
     name: Independent Vexor
+    volume: 112000.0
   Kristjan's Gallente Boss:
+    id: 25820
     name: Kristjan's Gallente Boss
+    volume: 112000.0

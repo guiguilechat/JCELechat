@@ -5,4 +5,6 @@ items:
     ConsumptionQuantityBonus: 1
     MainColor: 11646664
     TechLevel: 1
+    id: 4407
     name: Shield Booster Fuel Allocation Script
+    volume: 1.0

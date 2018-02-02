@@ -29,6 +29,6 @@ public abstract class Bonus
     }
 
     public static Map<String, ? extends Bonus> loadCategory() {
-        return Stream.of(CaldariEducation.load(), CareerBonus.load(), MinmatarEducation.load(), AmarrEducation.load(), GallenteEducation.load(), PhysicalBenefit.load(), BloodlineBonus.load(), PhysicalHandicap.load(), PhobiaHandicap.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(PhysicalHandicap.load(), PhobiaHandicap.load(), GallenteEducation.load(), AmarrEducation.load(), MinmatarEducation.load(), CareerBonus.load(), PhysicalBenefit.load(), BloodlineBonus.load(), CaldariEducation.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

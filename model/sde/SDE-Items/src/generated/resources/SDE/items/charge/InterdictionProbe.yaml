@@ -4,7 +4,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 41402
     name: Phobetor Warp Disrupt Probe
+    volume: 5.0
   Surgical Warp Disrupt Probe:
     Agility: 1000.0
     DisallowInEmpireSpace: 1
@@ -18,7 +20,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpScrambleRange: 10000
+    id: 34260
     name: Surgical Warp Disrupt Probe
+    volume: 5.0
   Warp Disrupt Probe:
     Agility: 1000.0
     DisallowInEmpireSpace: 1
@@ -32,4 +36,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpScrambleRange: 20000
+    id: 22778
     name: Warp Disrupt Probe
+    volume: 5.0

@@ -1,43 +1,85 @@
 items:
   Domination Ambusher:
+    id: 13519
     name: Domination Ambusher
+    volume: 19100.0
   Domination Hijacker:
+    id: 13515
     name: Domination Hijacker
+    volume: 21120.0
   Domination Hunter:
+    id: 13521
     name: Domination Hunter
+    volume: 19100.0
   Domination Impaler:
+    id: 13522
     name: Domination Impaler
+    volume: 16450.0
   Domination Nomad:
+    id: 13525
     name: Domination Nomad
+    volume: 17500.0
   Domination Outlaw:
+    id: 13517
     name: Domination Outlaw
+    volume: 17400.0
   Domination Raider:
+    id: 13527
     name: Domination Raider
+    volume: 16450.0
   Domination Rogue:
+    id: 13516
     name: Domination Rogue
+    volume: 22500.0
   Domination Ruffian:
+    id: 13528
     name: Domination Ruffian
+    volume: 17660.0
   Domination Thug:
+    id: 13518
     name: Domination Thug
+    volume: 26005.0
   Domination Wang Chunger:
+    id: 26973
     name: Domination Wang Chunger
+    volume: 19100.0
   Psycho Ambusher:
+    id: 22021
     name: Psycho Ambusher
+    volume: 19100.0
   Psycho Hijacker:
+    id: 22015
     name: Psycho Hijacker
+    volume: 21120.0
   Psycho Hunter:
+    id: 22023
     name: Psycho Hunter
+    volume: 19100.0
   Psycho Impaler:
+    id: 22024
     name: Psycho Impaler
+    volume: 16450.0
   Psycho Nomad:
+    id: 22020
     name: Psycho Nomad
+    volume: 17500.0
   Psycho Outlaw:
+    id: 22017
     name: Psycho Outlaw
+    volume: 17400.0
   Psycho Raider:
+    id: 22022
     name: Psycho Raider
+    volume: 16450.0
   Psycho Rogue:
+    id: 22016
     name: Psycho Rogue
+    volume: 22500.0
   Psycho Ruffian:
+    id: 22019
     name: Psycho Ruffian
+    volume: 17660.0
   Psycho Thug:
+    id: 22018
     name: Psycho Thug
+    volume: 26005.0

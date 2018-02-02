@@ -8,7 +8,9 @@ items:
     ScanResolutionBonusBonus: -100
     SensorStrengthBonusBonus: 100
     TechLevel: 1
+    id: 41155
     name: ECCM Script
+    volume: 1.0
   Scan Resolution Script:
     ChargeSize: 1
     LauncherGroup: 212
@@ -18,7 +20,9 @@ items:
     ScanResolutionBonusBonus: 100
     SensorStrengthBonusBonus: -100
     TechLevel: 1
+    id: 29011
     name: Scan Resolution Script
+    volume: 1.0
   Targeting Range Script:
     ChargeSize: 1
     LauncherGroup: 212
@@ -28,4 +32,6 @@ items:
     ScanResolutionBonusBonus: -100
     SensorStrengthBonusBonus: -100
     TechLevel: 1
+    id: 29009
     name: Targeting Range Script
+    volume: 1.0

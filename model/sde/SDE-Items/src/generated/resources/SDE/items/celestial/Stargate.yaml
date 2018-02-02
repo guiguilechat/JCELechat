@@ -1,41 +1,81 @@
 items:
   Smuggler route stargate:
+    id: 12292
     name: Smuggler route stargate
+    volume: 1.0E7
   Stargate (Amarr Border):
+    id: 29625
     name: Stargate (Amarr Border)
+    volume: 1.0E9
   Stargate (Amarr Constellation):
+    id: 17
     name: Stargate (Amarr Constellation)
+    volume: 1.0E8
   Stargate (Amarr Region):
+    id: 29626
     name: Stargate (Amarr Region)
+    volume: 1.0E10
   Stargate (Amarr System):
+    id: 29624
     name: Stargate (Amarr System)
+    volume: 1.0E7
   Stargate (Caldari Border):
+    id: 3873
     name: Stargate (Caldari Border)
+    volume: 1.0E10
   Stargate (Caldari Constellation):
+    id: 29627
     name: Stargate (Caldari Constellation)
+    volume: 1.0E7
   Stargate (Caldari Region):
+    id: 29629
     name: Stargate (Caldari Region)
+    volume: 1.0E7
   Stargate (Caldari System):
+    id: 16
     name: Stargate (Caldari System)
+    volume: 1.0E7
   Stargate (Caldari Unused):
+    id: 29628
     name: Stargate (Caldari Unused)
+    volume: 1.0E7
   Stargate (Gallente Border):
+    id: 3876
     name: Stargate (Gallente Border)
+    volume: 1.0E9
   Stargate (Gallente Constellation):
+    id: 3874
     name: Stargate (Gallente Constellation)
+    volume: 1.0E7
   Stargate (Gallente Region):
+    id: 29632
     name: Stargate (Gallente Region)
+    volume: 1.0E10
   Stargate (Gallente System):
+    id: 3875
     name: Stargate (Gallente System)
+    volume: 1.0E7
   Stargate (Gallente Unused 1):
+    id: 29631
     name: Stargate (Gallente Unused 1)
+    volume: 1.0E7
   Stargate (Gallente Unused 2):
+    id: 29630
     name: Stargate (Gallente Unused 2)
+    volume: 1.0E7
   Stargate (Minmatar Border):
+    id: 29634
     name: Stargate (Minmatar Border)
+    volume: 1.0E9
   Stargate (Minmatar Constellation):
+    id: 3877
     name: Stargate (Minmatar Constellation)
+    volume: 1.0E7
   Stargate (Minmatar Region):
+    id: 29635
     name: Stargate (Minmatar Region)
+    volume: 1.0E10
   Stargate (Minmatar System):
+    id: 29633
     name: Stargate (Minmatar System)
+    volume: 1.0E7

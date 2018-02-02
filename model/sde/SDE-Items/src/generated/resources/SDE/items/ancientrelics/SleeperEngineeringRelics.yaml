@@ -1,10 +1,16 @@
 items:
   Intact Power Cores:
     IndustryBlueprintRank: 2.0
+    id: 30582
     name: Intact Power Cores
+    volume: 10.0
   Malfunctioning Power Cores:
     IndustryBlueprintRank: 2.0
+    id: 30586
     name: Malfunctioning Power Cores
+    volume: 10.0
   Wrecked Power Cores:
     IndustryBlueprintRank: 2.0
+    id: 30588
     name: Wrecked Power Cores
+    volume: 10.0

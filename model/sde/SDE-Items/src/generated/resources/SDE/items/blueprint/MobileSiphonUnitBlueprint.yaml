@@ -1,10 +1,16 @@
 items:
   Small Mobile 'Hybrid' Siphon Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33582
     name: Small Mobile 'Hybrid' Siphon Unit Blueprint
+    volume: 0.01
   Small Mobile 'Rote' Siphon Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33584
     name: Small Mobile 'Rote' Siphon Unit Blueprint
+    volume: 0.01
   Small Mobile Siphon Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33515
     name: Small Mobile Siphon Unit Blueprint
+    volume: 0.01

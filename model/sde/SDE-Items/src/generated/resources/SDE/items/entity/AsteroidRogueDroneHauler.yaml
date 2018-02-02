@@ -1,25 +1,49 @@
 items:
   Rogue Drone Bulker:
+    id: 32905
     name: Rogue Drone Bulker
+    volume: 109000.0
   Rogue Drone Carrier:
+    id: 32901
     name: Rogue Drone Carrier
+    volume: 1.9E7
   Rogue Drone Convoy:
+    id: 32902
     name: Rogue Drone Convoy
+    volume: 1.9E7
   Rogue Drone Courier:
+    id: 32908
     name: Rogue Drone Courier
+    volume: 109000.0
   Rogue Drone Ferrier:
+    id: 32910
     name: Rogue Drone Ferrier
+    volume: 19100.0
   Rogue Drone Gatherer:
+    id: 32911
     name: Rogue Drone Gatherer
+    volume: 16450.0
   Rogue Drone Harvester:
+    id: 32912
     name: Rogue Drone Harvester
+    volume: 19100.0
   Rogue Drone Hauler:
+    id: 32904
     name: Rogue Drone Hauler
+    volume: 1.9E7
   Rogue Drone Loader:
+    id: 32909
     name: Rogue Drone Loader
+    volume: 16450.0
   Rogue Drone Trailer:
+    id: 32903
     name: Rogue Drone Trailer
+    volume: 1.9E7
   Rogue Drone Transporter:
+    id: 32906
     name: Rogue Drone Transporter
+    volume: 109000.0
   Rogue Drone Trucker:
+    id: 32907
     name: Rogue Drone Trucker
+    volume: 109000.0

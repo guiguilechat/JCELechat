@@ -16,4 +16,6 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33476
     name: Mobile Cynosural Inhibitor
+    volume: 300.0

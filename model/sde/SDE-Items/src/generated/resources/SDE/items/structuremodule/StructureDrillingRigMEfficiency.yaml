@@ -11,7 +11,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46323
     name: Standup M-Set Moon Drilling Efficiency I
+    volume: 10.0
   Standup M-Set Moon Drilling Efficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -24,4 +26,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46324
     name: Standup M-Set Moon Drilling Efficiency II
+    volume: 10.0

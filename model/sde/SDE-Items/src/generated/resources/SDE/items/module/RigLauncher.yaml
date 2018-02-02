@@ -6,7 +6,9 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    id: 31590
     name: Capital Bay Loading Accelerator I
+    volume: 40.0
   Capital Bay Loading Accelerator II:
     Drawback: 10
     Hp: 40
@@ -15,7 +17,9 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    id: 31596
     name: Capital Bay Loading Accelerator II
+    volume: 40.0
   Capital Hydraulic Bay Thrusters I:
     Drawback: 10
     Hp: 40
@@ -24,7 +28,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31602
     name: Capital Hydraulic Bay Thrusters I
+    volume: 40.0
   Capital Hydraulic Bay Thrusters II:
     Drawback: 10
     Hp: 40
@@ -34,7 +40,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 33301
     name: Capital Hydraulic Bay Thrusters II
+    volume: 40.0
   Capital Rocket Fuel Cache Partition I:
     Drawback: 10
     Hp: 40
@@ -43,7 +51,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31612
     name: Capital Rocket Fuel Cache Partition I
+    volume: 40.0
   Capital Rocket Fuel Cache Partition II:
     Drawback: 10
     Hp: 40
@@ -53,7 +63,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31618
     name: Capital Rocket Fuel Cache Partition II
+    volume: 40.0
   Capital Warhead Calefaction Catalyst I:
     Drawback: 10
     Hp: 40
@@ -62,7 +74,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31624
     name: Capital Warhead Calefaction Catalyst I
+    volume: 40.0
   Capital Warhead Calefaction Catalyst II:
     Drawback: 10
     Hp: 40
@@ -72,7 +86,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31630
     name: Capital Warhead Calefaction Catalyst II
+    volume: 40.0
   Capital Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
@@ -81,7 +97,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31636
     name: Capital Warhead Flare Catalyst I
+    volume: 40.0
   Capital Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
@@ -91,7 +109,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31642
     name: Capital Warhead Flare Catalyst II
+    volume: 40.0
   Capital Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
@@ -100,7 +120,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31648
     name: Capital Warhead Rigor Catalyst I
+    volume: 40.0
   Capital Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
@@ -110,7 +132,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31654
     name: Capital Warhead Rigor Catalyst II
+    volume: 40.0
   Large Bay Loading Accelerator I:
     Drawback: 10
     Hp: 40
@@ -119,7 +143,9 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    id: 26026
     name: Large Bay Loading Accelerator I
+    volume: 20.0
   Large Bay Loading Accelerator II:
     Drawback: 10
     Hp: 40
@@ -129,7 +155,9 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    id: 26406
     name: Large Bay Loading Accelerator II
+    volume: 20.0
   Large Hydraulic Bay Thrusters I:
     Drawback: 10
     Hp: 40
@@ -138,7 +166,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 26016
     name: Large Hydraulic Bay Thrusters I
+    volume: 20.0
   Large Hydraulic Bay Thrusters II:
     Drawback: 10
     Hp: 40
@@ -148,7 +178,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26416
     name: Large Hydraulic Bay Thrusters II
+    volume: 20.0
   Large Rocket Fuel Cache Partition I:
     Drawback: 10
     Hp: 40
@@ -158,7 +190,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 26022
     name: Large Rocket Fuel Cache Partition I
+    volume: 20.0
   Large Rocket Fuel Cache Partition II:
     Drawback: 10
     Hp: 40
@@ -169,7 +203,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26418
     name: Large Rocket Fuel Cache Partition II
+    volume: 20.0
   Large Warhead Calefaction Catalyst I:
     Drawback: 10
     Hp: 40
@@ -179,7 +215,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 26030
     name: Large Warhead Calefaction Catalyst I
+    volume: 20.0
   Large Warhead Calefaction Catalyst II:
     Drawback: 10
     Hp: 40
@@ -190,7 +228,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 26420
     name: Large Warhead Calefaction Catalyst II
+    volume: 20.0
   Large Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
@@ -200,7 +240,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 26028
     name: Large Warhead Flare Catalyst I
+    volume: 20.0
   Large Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
@@ -211,7 +253,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 26412
     name: Large Warhead Flare Catalyst II
+    volume: 20.0
   Large Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
@@ -221,7 +265,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 26020
     name: Large Warhead Rigor Catalyst I
+    volume: 20.0
   Large Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
@@ -232,7 +278,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26414
     name: Large Warhead Rigor Catalyst II
+    volume: 20.0
   Launcher Processor Rig I:
     Drawback: 10
     Hp: 40
@@ -240,7 +288,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 75
+    id: 26018
     name: Launcher Processor Rig I
+    volume: 5.0
   Launcher Processor Rig II:
     Drawback: 10
     Hp: 40
@@ -249,7 +299,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26408
     name: Launcher Processor Rig II
+    volume: 5.0
   Medium Bay Loading Accelerator I:
     Drawback: 10
     Hp: 40
@@ -258,7 +310,9 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    id: 31588
     name: Medium Bay Loading Accelerator I
+    volume: 10.0
   Medium Bay Loading Accelerator II:
     Drawback: 10
     Hp: 40
@@ -268,7 +322,9 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    id: 31594
     name: Medium Bay Loading Accelerator II
+    volume: 10.0
   Medium Hydraulic Bay Thrusters I:
     Drawback: 10
     Hp: 40
@@ -277,7 +333,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31600
     name: Medium Hydraulic Bay Thrusters I
+    volume: 10.0
   Medium Hydraulic Bay Thrusters II:
     Drawback: 10
     Hp: 40
@@ -287,7 +345,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31606
     name: Medium Hydraulic Bay Thrusters II
+    volume: 10.0
   Medium Rocket Fuel Cache Partition I:
     Drawback: 10
     Hp: 40
@@ -297,7 +357,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31610
     name: Medium Rocket Fuel Cache Partition I
+    volume: 10.0
   Medium Rocket Fuel Cache Partition II:
     Drawback: 10
     Hp: 40
@@ -308,7 +370,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31616
     name: Medium Rocket Fuel Cache Partition II
+    volume: 10.0
   Medium Warhead Calefaction Catalyst I:
     Drawback: 10
     Hp: 40
@@ -318,7 +382,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31622
     name: Medium Warhead Calefaction Catalyst I
+    volume: 10.0
   Medium Warhead Calefaction Catalyst II:
     Drawback: 10
     Hp: 40
@@ -329,7 +395,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31628
     name: Medium Warhead Calefaction Catalyst II
+    volume: 10.0
   Medium Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
@@ -339,7 +407,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31634
     name: Medium Warhead Flare Catalyst I
+    volume: 10.0
   Medium Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
@@ -350,7 +420,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31640
     name: Medium Warhead Flare Catalyst II
+    volume: 10.0
   Medium Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
@@ -360,7 +432,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31646
     name: Medium Warhead Rigor Catalyst I
+    volume: 10.0
   Medium Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
@@ -371,7 +445,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31652
     name: Medium Warhead Rigor Catalyst II
+    volume: 10.0
   Missile Guidance System Rig I:
     Drawback: 10
     Hp: 40
@@ -379,7 +455,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 26024
     name: Missile Guidance System Rig I
+    volume: 5.0
   Missile Guidance System Rig II:
     Drawback: 10
     Hp: 40
@@ -388,7 +466,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 200
+    id: 26410
     name: Missile Guidance System Rig II
+    volume: 5.0
   Small Bay Loading Accelerator I:
     Drawback: 10
     Hp: 40
@@ -397,7 +477,9 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    id: 31586
     name: Small Bay Loading Accelerator I
+    volume: 5.0
   Small Bay Loading Accelerator II:
     Drawback: 10
     Hp: 40
@@ -407,7 +489,9 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    id: 31592
     name: Small Bay Loading Accelerator II
+    volume: 5.0
   Small Hydraulic Bay Thrusters I:
     Drawback: 10
     Hp: 40
@@ -416,7 +500,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31598
     name: Small Hydraulic Bay Thrusters I
+    volume: 5.0
   Small Hydraulic Bay Thrusters II:
     Drawback: 10
     Hp: 40
@@ -426,7 +512,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31604
     name: Small Hydraulic Bay Thrusters II
+    volume: 5.0
   Small Rocket Fuel Cache Partition I:
     Drawback: 10
     Hp: 40
@@ -436,7 +524,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31608
     name: Small Rocket Fuel Cache Partition I
+    volume: 5.0
   Small Rocket Fuel Cache Partition II:
     Drawback: 10
     Hp: 40
@@ -447,7 +537,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31614
     name: Small Rocket Fuel Cache Partition II
+    volume: 5.0
   Small Warhead Calefaction Catalyst I:
     Drawback: 10
     Hp: 40
@@ -457,7 +549,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31620
     name: Small Warhead Calefaction Catalyst I
+    volume: 5.0
   Small Warhead Calefaction Catalyst II:
     Drawback: 10
     Hp: 40
@@ -468,7 +562,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31626
     name: Small Warhead Calefaction Catalyst II
+    volume: 5.0
   Small Warhead Flare Catalyst I:
     AoeVelocityBonus: 15.0
     Drawback: 10
@@ -478,7 +574,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31632
     name: Small Warhead Flare Catalyst I
+    volume: 5.0
   Small Warhead Flare Catalyst II:
     AoeVelocityBonus: 20.0
     Drawback: 10
@@ -489,7 +587,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31638
     name: Small Warhead Flare Catalyst II
+    volume: 5.0
   Small Warhead Rigor Catalyst I:
     AoeCloudSizeBonus: -15.0
     Drawback: 10
@@ -499,7 +599,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31644
     name: Small Warhead Rigor Catalyst I
+    volume: 5.0
   Small Warhead Rigor Catalyst II:
     AoeCloudSizeBonus: -20.0
     Drawback: 10
@@ -510,4 +612,6 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31650
     name: Small Warhead Rigor Catalyst II
+    volume: 5.0

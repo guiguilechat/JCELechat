@@ -16,9 +16,13 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33589
     name: Mobile Scan Inhibitor
+    volume: 100.0
   Tournament Practice Unit:
     SignatureRadius: 100
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 36523
     name: Tournament Practice Unit
+    volume: 1.0

@@ -60,7 +60,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.98799991607666
     Uniformity: 0.75
+    id: 28264
     name: '''Augmented'' Acolyte'
+    volume: 5.0
   '''Augmented'' Berserker':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -122,7 +124,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8519999980926514
     Uniformity: 0.75
+    id: 28268
     name: '''Augmented'' Berserker'
+    volume: 25.0
   '''Augmented'' Hammerhead':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -184,7 +188,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6959999799728394
     Uniformity: 0.75
+    id: 28272
     name: '''Augmented'' Hammerhead'
+    volume: 10.0
   '''Augmented'' Hobgoblin':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -246,7 +252,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.177999973297119
     Uniformity: 0.75
+    id: 28276
     name: '''Augmented'' Hobgoblin'
+    volume: 5.0
   '''Augmented'' Hornet':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -308,7 +316,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.447999954223633
     Uniformity: 0.75
+    id: 28280
     name: '''Augmented'' Hornet'
+    volume: 5.0
   '''Augmented'' Infiltrator':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -370,7 +380,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.9599999785423279
     Uniformity: 0.75
+    id: 28284
     name: '''Augmented'' Infiltrator'
+    volume: 10.0
   '''Augmented'' Ogre':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -432,7 +444,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.5400000214576721
     Uniformity: 0.75
+    id: 28288
     name: '''Augmented'' Ogre'
+    volume: 25.0
   '''Augmented'' Praetor':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -494,7 +508,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7559999823570251
     Uniformity: 0.75
+    id: 28292
     name: '''Augmented'' Praetor'
+    volume: 25.0
   '''Augmented'' Valkyrie':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -556,7 +572,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.0440000295639038
     Uniformity: 0.75
+    id: 28296
     name: '''Augmented'' Valkyrie'
+    volume: 10.0
   '''Augmented'' Vespa':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -618,7 +636,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7799999713897705
     Uniformity: 0.75
+    id: 28300
     name: '''Augmented'' Vespa'
+    volume: 10.0
   '''Augmented'' Warrior':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -680,7 +700,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 3.240000009536743
     Uniformity: 0.75
+    id: 28304
     name: '''Augmented'' Warrior'
+    volume: 5.0
   '''Augmented'' Wasp':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -742,7 +764,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6420000195503235
     Uniformity: 0.75
+    id: 28308
     name: '''Augmented'' Wasp'
+    volume: 25.0
   '''Integrated'' Acolyte':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -802,7 +826,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.739000082015991
     Uniformity: 0.75
+    id: 28262
     name: '''Integrated'' Acolyte'
+    volume: 5.0
   '''Integrated'' Berserker':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -862,7 +888,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.781000018119812
     Uniformity: 0.75
+    id: 28266
     name: '''Integrated'' Berserker'
+    volume: 25.0
   '''Integrated'' Hammerhead':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -922,7 +950,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6380000114440918
     Uniformity: 0.75
+    id: 28270
     name: '''Integrated'' Hammerhead'
+    volume: 10.0
   '''Integrated'' Hobgoblin':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -982,7 +1012,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.996500015258789
     Uniformity: 0.75
+    id: 28274
     name: '''Integrated'' Hobgoblin'
+    volume: 5.0
   '''Integrated'' Hornet':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1042,7 +1074,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.24399995803833
     Uniformity: 0.75
+    id: 28278
     name: '''Integrated'' Hornet'
+    volume: 5.0
   '''Integrated'' Infiltrator':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1102,7 +1136,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8799999952316284
     Uniformity: 0.75
+    id: 28282
     name: '''Integrated'' Infiltrator'
+    volume: 10.0
   '''Integrated'' Ogre':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1162,7 +1198,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.4950000047683716
     Uniformity: 0.75
+    id: 28286
     name: '''Integrated'' Ogre'
+    volume: 25.0
   '''Integrated'' Praetor':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1222,7 +1260,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6930000185966492
     Uniformity: 0.75
+    id: 28290
     name: '''Integrated'' Praetor'
+    volume: 25.0
   '''Integrated'' Valkyrie':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1282,7 +1322,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.9570000171661377
     Uniformity: 0.75
+    id: 28294
     name: '''Integrated'' Valkyrie'
+    volume: 10.0
   '''Integrated'' Vespa':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1342,7 +1384,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7149999737739563
     Uniformity: 0.75
+    id: 28298
     name: '''Integrated'' Vespa'
+    volume: 10.0
   '''Integrated'' Warrior':
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1402,7 +1446,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.9700000286102295
     Uniformity: 0.75
+    id: 28302
     name: '''Integrated'' Warrior'
+    volume: 5.0
   '''Integrated'' Wasp':
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1462,7 +1508,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.5885000228881836
     Uniformity: 0.75
+    id: 28306
     name: '''Integrated'' Wasp'
+    volume: 25.0
   Acolyte I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1519,7 +1567,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.490000009536743
     Uniformity: 0.75
+    id: 2203
     name: Acolyte I
+    volume: 5.0
   Acolyte II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1579,7 +1629,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.98799991607666
     Uniformity: 0.75
+    id: 2205
     name: Acolyte II
+    volume: 5.0
   Berserker I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1636,7 +1688,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7099999785423279
     Uniformity: 0.75
+    id: 2476
     name: Berserker I
+    volume: 25.0
   Berserker II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1696,7 +1750,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8519999980926514
     Uniformity: 0.75
+    id: 2478
     name: Berserker II
+    volume: 25.0
   Bouncer I:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1751,7 +1807,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.014000000432133675
     Uniformity: 0.75
+    id: 23563
     name: Bouncer I
+    volume: 25.0
   Bouncer II:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1809,7 +1867,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.01679999940097332
     Uniformity: 0.75
+    id: 28215
     name: Bouncer II
+    volume: 25.0
   Caldari Navy Hornet:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1868,7 +1928,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.6928000450134277
     Uniformity: 0.75
+    id: 31872
     name: Caldari Navy Hornet
+    volume: 5.0
   Caldari Navy Vespa:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -1927,7 +1989,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8579999804496765
     Uniformity: 0.75
+    id: 31874
     name: Caldari Navy Vespa
+    volume: 10.0
   Caldari Navy Warden:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -1984,7 +2048,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.012600000016391277
     Uniformity: 0.75
+    id: 31878
     name: Caldari Navy Warden
+    volume: 25.0
   Caldari Navy Wasp:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2043,7 +2109,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7062000036239624
     Uniformity: 0.75
+    id: 31876
     name: Caldari Navy Wasp
+    volume: 25.0
   Civilian Hobgoblin:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2098,7 +2166,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.815000057220459
     Uniformity: 0.75
+    id: 32465
     name: Civilian Hobgoblin
+    volume: 5.0
   Curator I:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -2153,7 +2223,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.019999999552965164
     Uniformity: 0.75
+    id: 23525
     name: Curator I
+    volume: 25.0
   Curator II:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -2211,7 +2283,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.024000000208616257
     Uniformity: 0.75
+    id: 28213
     name: Curator II
+    volume: 25.0
   FA-14 Templar:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2272,7 +2346,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.20000000298023224
     Uniformity: 0.75
+    id: 23759
     name: FA-14 Templar
+    volume: 5000.0
   Federation Navy Garde:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -2330,7 +2406,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.035280000418424606
     Uniformity: 0.75
+    id: 31886
     name: Federation Navy Garde
+    volume: 25.0
   Federation Navy Hammerhead:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2389,7 +2467,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7656000256538391
     Uniformity: 0.75
+    id: 31882
     name: Federation Navy Hammerhead
+    volume: 10.0
   Federation Navy Hobgoblin:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2448,7 +2528,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.3958001136779785
     Uniformity: 0.75
+    id: 31880
     name: Federation Navy Hobgoblin
+    volume: 5.0
   Federation Navy Ogre:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2507,7 +2589,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.593999981880188
     Uniformity: 0.75
+    id: 31884
     name: Federation Navy Ogre
+    volume: 25.0
   Fighter Uno:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2562,7 +2646,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.20000000298023224
     Uniformity: 0.75
+    id: 22780
     name: Fighter Uno
+    volume: 5000.0
   Garde I:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -2618,7 +2704,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.02800000086426735
     Uniformity: 0.75
+    id: 23561
     name: Garde I
+    volume: 25.0
   Garde II:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -2677,7 +2765,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.03359999880194664
     Uniformity: 0.75
+    id: 28211
     name: Garde II
+    volume: 25.0
   Gecko:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -2739,7 +2829,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8500000238418579
     Uniformity: 0.75
+    id: 33681
     name: Gecko
+    volume: 50.0
   Hammerhead I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2796,7 +2888,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.5799999833106995
     Uniformity: 0.75
+    id: 2183
     name: Hammerhead I
+    volume: 10.0
   Hammerhead II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2856,7 +2950,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6959999799728394
     Uniformity: 0.75
+    id: 2185
     name: Hammerhead II
+    volume: 10.0
   Hellhound I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.8999999761581421
@@ -2914,7 +3010,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.30000001192092896
     Uniformity: 0.75
+    id: 16206
     name: Hellhound I
+    volume: 25.0
   Hobgoblin I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -2971,7 +3069,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.815000057220459
     Uniformity: 0.75
+    id: 2454
     name: Hobgoblin I
+    volume: 5.0
   Hobgoblin II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3031,7 +3131,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.177999973297119
     Uniformity: 0.75
+    id: 2456
     name: Hobgoblin II
+    volume: 5.0
   Hornet I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3088,7 +3190,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.0399999618530273
     Uniformity: 0.75
+    id: 2464
     name: Hornet I
+    volume: 5.0
   Hornet II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3148,7 +3252,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.447999954223633
     Uniformity: 0.75
+    id: 2466
     name: Hornet II
+    volume: 5.0
   Imperial Navy Acolyte:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3207,7 +3313,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 3.286799907684326
     Uniformity: 0.75
+    id: 31864
     name: Imperial Navy Acolyte
+    volume: 5.0
   Imperial Navy Curator:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -3264,7 +3372,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.025200000032782555
     Uniformity: 0.75
+    id: 31868
     name: Imperial Navy Curator
+    volume: 25.0
   Imperial Navy Infiltrator:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3323,7 +3433,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.055999994277954
     Uniformity: 0.75
+    id: 31866
     name: Imperial Navy Infiltrator
+    volume: 10.0
   Imperial Navy Praetor:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3382,7 +3494,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.83160001039505
     Uniformity: 0.75
+    id: 31870
     name: Imperial Navy Praetor
+    volume: 25.0
   Infiltrator I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3439,7 +3553,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.800000011920929
     Uniformity: 0.75
+    id: 2173
     name: Infiltrator I
+    volume: 10.0
   Infiltrator II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3499,7 +3615,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.9599999785423279
     Uniformity: 0.75
+    id: 2175
     name: Infiltrator II
+    volume: 10.0
   Ogre I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3556,7 +3674,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.44999998807907104
     Uniformity: 0.75
+    id: 2444
     name: Ogre I
+    volume: 25.0
   Ogre II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3616,7 +3736,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.5400000214576721
     Uniformity: 0.75
+    id: 2446
     name: Ogre II
+    volume: 25.0
   Praetor I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3673,7 +3795,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6299999952316284
     Uniformity: 0.75
+    id: 2193
     name: Praetor I
+    volume: 25.0
   Praetor II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -3733,7 +3857,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7559999823570251
     Uniformity: 0.75
+    id: 2195
     name: Praetor II
+    volume: 25.0
   Republic Fleet Berserker:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3792,7 +3918,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.9372000098228455
     Uniformity: 0.75
+    id: 31892
     name: Republic Fleet Berserker
+    volume: 25.0
   Republic Fleet Bouncer:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3849,7 +3977,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.017640000209212303
     Uniformity: 0.75
+    id: 31894
     name: Republic Fleet Bouncer
+    volume: 25.0
   Republic Fleet Valkyrie:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3908,7 +4038,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.1483999490737915
     Uniformity: 0.75
+    id: 31890
     name: Republic Fleet Valkyrie
+    volume: 10.0
   Republic Fleet Warrior:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3967,7 +4099,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 3.563999891281128
     Uniformity: 0.75
+    id: 31888
     name: Republic Fleet Warrior
+    volume: 5.0
   Tutorial Attack Drone:
     Agility: 2500.0
     ArmorEmDamageResonance: 1.0
@@ -4023,7 +4157,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.20000000298023224
+    id: 3549
     name: Tutorial Attack Drone
+    volume: 5.0
   Valkyrie I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4080,7 +4216,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.8700000047683716
     Uniformity: 0.75
+    id: 15510
     name: Valkyrie I
+    volume: 10.0
   Valkyrie II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4140,7 +4278,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 1.0440000295639038
     Uniformity: 0.75
+    id: 21640
     name: Valkyrie II
+    volume: 10.0
   Vespa I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -4197,7 +4337,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6499999761581421
     Uniformity: 0.75
+    id: 15508
     name: Vespa I
+    volume: 10.0
   Vespa II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -4257,7 +4399,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.7799999713897705
     Uniformity: 0.75
+    id: 21638
     name: Vespa II
+    volume: 10.0
   Warden I:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -4312,7 +4456,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.009999999776482582
     Uniformity: 0.75
+    id: 23559
     name: Warden I
+    volume: 25.0
   Warden II:
     Agility: 0.0010000000474974513
     ArmorEmDamageResonance: 0.5
@@ -4370,7 +4516,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.012000000104308128
     Uniformity: 0.75
+    id: 28209
     name: Warden II
+    volume: 25.0
   Warrior I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4427,7 +4575,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 2.700000047683716
     Uniformity: 0.75
+    id: 2486
     name: Warrior I
+    volume: 5.0
   Warrior II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4487,7 +4637,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 3.240000009536743
     Uniformity: 0.75
+    id: 2488
     name: Warrior II
+    volume: 5.0
   Wasp I:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -4544,7 +4696,9 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.5350000262260437
     Uniformity: 0.75
+    id: 1201
     name: Wasp I
+    volume: 25.0
   Wasp II:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -4604,4 +4758,6 @@ items:
     ThermalDamageResonance: 1.0
     TrackingSpeed: 0.6420000195503235
     Uniformity: 0.75
+    id: 2436
     name: Wasp II
+    volume: 25.0

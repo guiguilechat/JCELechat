@@ -7,7 +7,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 28409
     name: Compressed Fiery Kernite
+    volume: 0.19
   Compressed Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -16,7 +18,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 28410
     name: Compressed Kernite
+    volume: 0.19
   Compressed Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -25,7 +29,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 28411
     name: Compressed Luminous Kernite
+    volume: 0.19
   Compressed Resplendant Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -34,7 +40,9 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 46699
     name: Compressed Resplendant Kernite
+    volume: 0.19
   Fiery Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -45,7 +53,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 17453
     name: Fiery Kernite
+    volume: 1.2
   Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -56,7 +66,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 20
     name: Kernite
+    volume: 1.2
   Luminous Kernite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -67,7 +79,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 17452
     name: Luminous Kernite
+    volume: 1.2
   Lyavite:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -75,7 +89,9 @@ items:
     OreBasicType: 20
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 28620
     name: Lyavite
+    volume: 1.2
   Resplendant Kernite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -86,4 +102,6 @@ items:
     OreBasicType: 46683
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
+    id: 46683
     name: Resplendant Kernite
+    volume: 1.2

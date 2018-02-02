@@ -1,4 +1,6 @@
 items:
   Mobile Micro Jump Unit Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33592
     name: Mobile Micro Jump Unit Blueprint
+    volume: 0.01

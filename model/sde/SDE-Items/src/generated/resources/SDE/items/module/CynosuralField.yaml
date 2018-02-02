@@ -31,7 +31,9 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 28646
     name: Covert Cynosural Field Generator I
+    volume: 25.0
   Cynosural Field Generator I:
     ConsumptionQuantity: 500
     ConsumptionType: 16273
@@ -54,4 +56,6 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 21096
     name: Cynosural Field Generator I
+    volume: 50.0

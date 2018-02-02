@@ -14,7 +14,11 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
+import fr.guiguilechat.eveonline.model.sde.items.types.decryptors.GenericDecryptor;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 
 public class IndustryTranslater {
@@ -27,6 +31,7 @@ public class IndustryTranslater {
 	 *          should be [database destination root], typically
 	 *          src/generated/resources/
 	 */
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
 		long timeStart = System.currentTimeMillis();
@@ -34,29 +39,32 @@ public class IndustryTranslater {
 		folderOut.mkdirs();
 
 		LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
+		LinkedHashMap<String, InventionDecryptor> decryptors = new LinkedHashMap<>();
 
-		translate(blueprints);
+		translate(blueprints, decryptors);
 
 		// sort
 
-		Stream.of(blueprints).forEach(m -> {
-			ArrayList<Entry<String, Blueprint>> list = new ArrayList<>(m.entrySet());
+		Stream.of(blueprints, decryptors).forEach(m -> {
+			ArrayList<Entry<String, ? extends Object>> list = new ArrayList<>(m.entrySet());
 			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 			m.clear();
-			for (Entry<String, Blueprint> e : list) {
-				((Map<String, Blueprint>) m).put(e.getKey(), e.getValue());
+			for (Entry<String, ? extends Object> e : list) {
+				((Map<String, Object>) m).put(e.getKey(), e.getValue());
 			}
 		});
 
 		// save
 
 		Blueprint.export(blueprints, folderOut);
+		InventionDecryptor.export(decryptors, folderOut);
 
-		System.err.println("exported blueprints in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
+		System.err.println("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 	}
 
-	private static void translate(LinkedHashMap<String, Blueprint> blueprints) {
+	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
+			LinkedHashMap<String, InventionDecryptor> decryptors) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
@@ -67,6 +75,10 @@ public class IndustryTranslater {
 			} else {
 				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);
 			}
+		}
+
+		for (Entry<String, GenericDecryptor> e : GenericDecryptor.load().entrySet()) {
+			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
 		}
 	}
 
@@ -95,11 +107,31 @@ public class IndustryTranslater {
 
 	public static Material convertMaterial(fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material sdeMat,
 			LinkedHashMap<Integer, EtypeIDs> types) {
-		Material ret = new Material();
-		ret.quantity = sdeMat.quantity;
 		EtypeIDs item = types.get(sdeMat.typeID);
-		ret.name = item == null ? "unknown_" + sdeMat.typeID : item.enName();
-		ret.probability = sdeMat.probability;
+		if (item != null) {
+			Material ret = new Material();
+			ret.quantity = sdeMat.quantity;
+			ret.name = item.enName();
+			ret.id = sdeMat.typeID;
+			ret.probability = sdeMat.probability;
+			EgroupIDs group = EgroupIDs.load().get(item.groupID);
+			ret.group = group.enName();
+			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
+			ret.category = cat.enName();
+			return ret;
+		} else {
+			return null;
+		}
+	}
+
+	public static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
+		InventionDecryptor ret = new InventionDecryptor();
+		ret.me = (int) dec.InventionMEModifier;
+		ret.te = (int) dec.InventionTEModifier;
+		ret.maxrun = (int) dec.InventionMaxRunModifier;
+		ret.id = dec.id;
+		ret.name = dec.name;
+		ret.probmult = dec.InventionPropabilityMultiplier;
 		return ret;
 	}
 }

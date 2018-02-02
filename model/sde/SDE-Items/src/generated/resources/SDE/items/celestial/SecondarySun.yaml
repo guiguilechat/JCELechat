@@ -1,15 +1,29 @@
 items:
   Black Hole:
+    id: 30575
     name: Black Hole
+    volume: 1.0
   Cataclysmic Variable:
+    id: 30670
     name: Cataclysmic Variable
+    volume: 1.0
   EVE Gate:
+    id: 2064
     name: EVE Gate
+    volume: 1.0
   Magnetar:
+    id: 30574
     name: Magnetar
+    volume: 1.0
   Pulsar:
+    id: 30577
     name: Pulsar
+    volume: 1.0
   Red Giant:
+    id: 30576
     name: Red Giant
+    volume: 1.0
   Wolf-Rayet Star:
+    id: 30669
     name: Wolf-Rayet Star
+    volume: 1.0

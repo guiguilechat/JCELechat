@@ -1,6 +1,10 @@
 items:
   Defender Missile I Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 32783
     name: Defender Missile I Blueprint
+    volume: 0.01
   Heavy Defender Missile I Blueprint:
+    id: 1215
     name: Heavy Defender Missile I Blueprint
+    volume: 0.01

@@ -18,7 +18,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22947
     name: '''Beatnik'' Small Remote Armor Repairer'
+    volume: 5.0
   '''Brotherhood'' Small Remote Armor Repairer':
     ArmorDamageAmount: 40
     CapacitorNeed: 29.0
@@ -37,7 +39,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23414
     name: '''Brotherhood'' Small Remote Armor Repairer'
+    volume: 5.0
   '''Love'' Medium Remote Armor Repairer':
     ArmorDamageAmount: 228
     CapacitorNeed: 110.0
@@ -57,7 +61,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22949
     name: '''Love'' Medium Remote Armor Repairer'
+    volume: 10.0
   '''Pacifier'' Large Remote Armor Repairer':
     ArmorDamageAmount: 384
     CapacitorNeed: 252.0
@@ -75,7 +81,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22951
     name: '''Pacifier'' Large Remote Armor Repairer'
+    volume: 50.0
   '''Peace'' Large Remote Armor Repairer':
     ArmorDamageAmount: 456
     CapacitorNeed: 234.0
@@ -95,7 +103,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23416
     name: '''Peace'' Large Remote Armor Repairer'
+    volume: 25.0
   CONCORD Capital Remote Armor Repairer:
     ArmorDamageAmount: 950
     CapacitorNeed: 1650.0
@@ -117,7 +127,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 3536
     name: CONCORD Capital Remote Armor Repairer
+    volume: 4000.0
   Capital Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 800
     CapacitorNeed: 1770.0
@@ -138,7 +150,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41464
     name: Capital Coaxial Compact Remote Armor Repairer
+    volume: 4000.0
   Capital I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 800
     CapacitorNeed: 1420.0
@@ -159,7 +173,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41463
     name: Capital I-ax Enduring Remote Armor Repairer
+    volume: 4000.0
   Capital Remote Armor Repairer I:
     ArmorDamageAmount: 730
     CapacitorNeed: 1770.0
@@ -178,7 +194,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 24569
     name: Capital Remote Armor Repairer I
+    volume: 4000.0
   Capital Remote Armor Repairer II:
     ArmorDamageAmount: 875
     CapacitorNeed: 1950.0
@@ -199,7 +217,9 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 41466
     name: Capital Remote Armor Repairer II
+    volume: 4000.0
   Capital Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 800
     CapacitorNeed: 1770.0
@@ -220,7 +240,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41465
     name: Capital Solace Scoped Remote Armor Repairer
+    volume: 4000.0
   Centii A-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 94
     CapacitorNeed: 46.0
@@ -240,7 +262,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19051
     name: Centii A-Type Small Remote Armor Repairer
+    volume: 5.0
   Centii B-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 87
     CapacitorNeed: 46.0
@@ -260,7 +284,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19049
     name: Centii B-Type Small Remote Armor Repairer
+    volume: 5.0
   Centii C-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 80
     CapacitorNeed: 46.0
@@ -280,7 +306,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19047
     name: Centii C-Type Small Remote Armor Repairer
+    volume: 5.0
   Centum A-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 376
     CapacitorNeed: 188.0
@@ -300,7 +328,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19057
     name: Centum A-Type Medium Remote Armor Repairer
+    volume: 10.0
   Centum B-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 348
     CapacitorNeed: 188.0
@@ -320,7 +350,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19055
     name: Centum B-Type Medium Remote Armor Repairer
+    volume: 10.0
   Centum C-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 320
     CapacitorNeed: 188.0
@@ -340,7 +372,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19053
     name: Centum C-Type Medium Remote Armor Repairer
+    volume: 10.0
   Civilian Small Remote Armor Repairer:
     ArmorDamageAmount: 24
     CapacitorNeed: 30.0
@@ -356,7 +390,9 @@ items:
     Power: 7
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 32469
     name: Civilian Small Remote Armor Repairer
+    volume: 5.0
   Coreli A-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 76
     CapacitorNeed: 34.0
@@ -376,7 +412,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18985
     name: Coreli A-Type Small Remote Armor Repairer
+    volume: 5.0
   Coreli B-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 70
     CapacitorNeed: 34.0
@@ -396,7 +434,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18983
     name: Coreli B-Type Small Remote Armor Repairer
+    volume: 5.0
   Coreli C-Type Small Remote Armor Repairer:
     ArmorDamageAmount: 64
     CapacitorNeed: 34.0
@@ -416,7 +456,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18981
     name: Coreli C-Type Small Remote Armor Repairer
+    volume: 5.0
   Corelum A-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 304
     CapacitorNeed: 139.0
@@ -436,7 +478,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18991
     name: Corelum A-Type Medium Remote Armor Repairer
+    volume: 10.0
   Corelum B-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 280
     CapacitorNeed: 139.0
@@ -456,7 +500,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18989
     name: Corelum B-Type Medium Remote Armor Repairer
+    volume: 10.0
   Corelum C-Type Medium Remote Armor Repairer:
     ArmorDamageAmount: 256
     CapacitorNeed: 139.0
@@ -476,7 +522,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18987
     name: Corelum C-Type Medium Remote Armor Repairer
+    volume: 10.0
   Dark Blood Capital Remote Armor Repairer:
     ArmorDamageAmount: 980
     CapacitorNeed: 1800.0
@@ -498,7 +546,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41467
     name: Dark Blood Capital Remote Armor Repairer
+    volume: 4000.0
   Large 'Arup' Remote Armor Repairer:
     ArmorDamageAmount: 368
     CapacitorNeed: 252.0
@@ -515,7 +565,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16453
     name: Large 'Arup' Remote Armor Repairer
+    volume: 50.0
   Large Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 448
     CapacitorNeed: 330.0
@@ -534,7 +586,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16451
     name: Large Coaxial Compact Remote Armor Repairer
+    volume: 25.0
   Large I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 448
     CapacitorNeed: 295.0
@@ -553,7 +607,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16449
     name: Large I-ax Enduring Remote Armor Repairer
+    volume: 25.0
   Large Remote Armor Repairer I:
     ArmorDamageAmount: 392
     CapacitorNeed: 330.0
@@ -570,7 +626,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11359
     name: Large Remote Armor Repairer I
+    volume: 25.0
   Large Remote Armor Repairer II:
     ArmorDamageAmount: 512
     CapacitorNeed: 365.0
@@ -588,7 +646,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 26914
     name: Large Remote Armor Repairer II
+    volume: 25.0
   Large Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 448
     CapacitorNeed: 330.0
@@ -607,7 +667,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16455
     name: Large Solace Scoped Remote Armor Repairer
+    volume: 25.0
   Medium 'Arup' Remote Armor Repairer:
     ArmorDamageAmount: 184
     CapacitorNeed: 118.0
@@ -625,7 +687,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16445
     name: Medium 'Arup' Remote Armor Repairer
+    volume: 10.0
   Medium Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 224
     CapacitorNeed: 155.0
@@ -644,7 +708,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16443
     name: Medium Coaxial Compact Remote Armor Repairer
+    volume: 10.0
   Medium I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 224
     CapacitorNeed: 139.0
@@ -663,7 +729,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16441
     name: Medium I-ax Enduring Remote Armor Repairer
+    volume: 10.0
   Medium Remote Armor Repairer I:
     ArmorDamageAmount: 196
     CapacitorNeed: 155.0
@@ -681,7 +749,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11357
     name: Medium Remote Armor Repairer I
+    volume: 10.0
   Medium Remote Armor Repairer II:
     ArmorDamageAmount: 256
     CapacitorNeed: 171.0
@@ -700,7 +770,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 26913
     name: Medium Remote Armor Repairer II
+    volume: 10.0
   Medium Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 224
     CapacitorNeed: 155.0
@@ -719,7 +791,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16447
     name: Medium Solace Scoped Remote Armor Repairer
+    volume: 10.0
   Shadow Serpentis Capital Remote Armor Repairer:
     ArmorDamageAmount: 840
     CapacitorNeed: 1400.0
@@ -741,7 +815,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41468
     name: Shadow Serpentis Capital Remote Armor Repairer
+    volume: 4000.0
   Small 'Arup' Remote Armor Repairer:
     ArmorDamageAmount: 46
     CapacitorNeed: 29.0
@@ -759,7 +835,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16437
     name: Small 'Arup' Remote Armor Repairer
+    volume: 5.0
   Small Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 56
     CapacitorNeed: 38.0
@@ -778,7 +856,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16435
     name: Small Coaxial Compact Remote Armor Repairer
+    volume: 5.0
   Small I-ax Enduring Remote Armor Repairer:
     ArmorDamageAmount: 56
     CapacitorNeed: 34.0
@@ -797,7 +877,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16433
     name: Small I-ax Enduring Remote Armor Repairer
+    volume: 5.0
   Small Remote Armor Repairer I:
     ArmorDamageAmount: 49
     CapacitorNeed: 38.0
@@ -815,7 +897,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11355
     name: Small Remote Armor Repairer I
+    volume: 5.0
   Small Remote Armor Repairer II:
     ArmorDamageAmount: 64
     CapacitorNeed: 42.0
@@ -834,7 +918,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 26912
     name: Small Remote Armor Repairer II
+    volume: 5.0
   Small Solace Scoped Remote Armor Repairer:
     ArmorDamageAmount: 56
     CapacitorNeed: 38.0
@@ -853,4 +939,6 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16439
     name: Small Solace Scoped Remote Armor Repairer
+    volume: 5.0

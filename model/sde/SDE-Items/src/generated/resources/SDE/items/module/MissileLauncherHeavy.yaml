@@ -19,7 +19,9 @@ items:
     Speed: 12000
     TechLevel: 1
     TypeColorScheme: 20113
+    id: 8105
     name: '''Arbalest'' Heavy Missile Launcher'
+    volume: 10.0
   '''Malkuth'' Heavy Missile Launcher I':
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -40,7 +42,9 @@ items:
     Speed: 14250
     TechLevel: 1
     TypeColorScheme: 20123
+    id: 8101
     name: '''Malkuth'' Heavy Missile Launcher I'
+    volume: 10.0
   '''Undertaker'' Heavy Missile Launcher':
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -62,7 +66,9 @@ items:
     Speed: 13500
     TechLevel: 1
     TypeColorScheme: 20118
+    id: 20599
     name: '''Undertaker'' Heavy Missile Launcher'
+    volume: 10.0
   Advanced 'Limos' Heavy Missile Bay I:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -83,7 +89,9 @@ items:
     Speed: 13500
     TechLevel: 1
     TypeColorScheme: 20115
+    id: 8103
     name: Advanced 'Limos' Heavy Missile Bay I
+    volume: 10.0
   CONCORD Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -103,7 +111,9 @@ items:
     Speed: 10500
     TechLevel: 1
     TypeColorScheme: 20111
+    id: 16137
     name: CONCORD Heavy Missile Launcher
+    volume: 10.0
   Caldari Navy Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -125,7 +135,9 @@ items:
     Speed: 10500
     TechLevel: 1
     TypeColorScheme: 11321
+    id: 16064
     name: Caldari Navy Heavy Missile Launcher
+    volume: 10.0
   Domination Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -147,7 +159,9 @@ items:
     Speed: 11625
     TechLevel: 1
     TypeColorScheme: 11318
+    id: 13921
     name: Domination Heavy Missile Launcher
+    volume: 10.0
   Dread Guristas Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -169,7 +183,9 @@ items:
     Speed: 10500
     TechLevel: 1
     TypeColorScheme: 11335
+    id: 13922
     name: Dread Guristas Heavy Missile Launcher
+    volume: 10.0
   Heavy Missile Launcher I:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -189,7 +205,9 @@ items:
     Speed: 15000
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 501
     name: Heavy Missile Launcher I
+    volume: 10.0
   Heavy Missile Launcher II:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -211,7 +229,9 @@ items:
     Speed: 12000
     TechLevel: 2
     TypeColorScheme: 11325
+    id: 2410
     name: Heavy Missile Launcher II
+    volume: 10.0
   Republic Fleet Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -233,7 +253,9 @@ items:
     Speed: 11625
     TechLevel: 1
     TypeColorScheme: 11339
+    id: 17487
     name: Republic Fleet Heavy Missile Launcher
+    volume: 10.0
   True Sansha Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -255,7 +277,9 @@ items:
     Speed: 11625
     TechLevel: 1
     TypeColorScheme: 11349
+    id: 22567
     name: True Sansha Heavy Missile Launcher
+    volume: 10.0
   XR-3200 Heavy Missile Bay:
     ChargeGroup1: 385
     ChargeGroup2: 395
@@ -276,4 +300,6 @@ items:
     Speed: 12750
     TechLevel: 1
     TypeColorScheme: 20116
+    id: 7997
     name: XR-3200 Heavy Missile Bay
+    volume: 10.0

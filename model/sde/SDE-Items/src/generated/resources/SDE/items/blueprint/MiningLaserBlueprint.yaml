@@ -2,62 +2,94 @@ items:
   '''Crop'' Gas Cloud Harvester Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 25541
     name: '''Crop'' Gas Cloud Harvester Blueprint'
+    volume: 0.01
   '''Habitat'' Miner I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22922
     name: '''Habitat'' Miner I Blueprint'
+    volume: 0.01
   '''Plow'' Gas Cloud Harvester Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 25543
     name: '''Plow'' Gas Cloud Harvester Blueprint'
+    volume: 0.01
   '''Wild'' Miner I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22924
     name: '''Wild'' Miner I Blueprint'
+    volume: 0.01
   Civilian Miner Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 26607
     name: Civilian Miner Blueprint
+    volume: 0.01
   Deep Core Mining Laser I Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    id: 12109
     name: Deep Core Mining Laser I Blueprint
+    volume: 0.01
   Gas Cloud Harvester I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 25267
     name: Gas Cloud Harvester I Blueprint
+    volume: 0.01
   Gas Cloud Harvester II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 25813
     name: Gas Cloud Harvester II Blueprint
+    volume: 0.01
   Ice Mining Laser I Blueprint:
     TechLevel: 1
+    id: 38660
     name: Ice Mining Laser I Blueprint
+    volume: 0.01
   Ice Mining Laser II Blueprint:
     TechLevel: 1
+    id: 38661
     name: Ice Mining Laser II Blueprint
+    volume: 0.01
   Miner I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 785
     name: Miner I Blueprint
+    volume: 0.01
   Miner II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 784
     name: Miner II Blueprint
+    volume: 0.01
   Modulated Deep Core Miner II Blueprint:
     IndustryBlueprintRank: 18.200000762939453
     TechLevel: 2
+    id: 18069
     name: Modulated Deep Core Miner II Blueprint
+    volume: 0.01
   ORE Deep Core Mining Laser Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
+    id: 28749
     name: ORE Deep Core Mining Laser Blueprint
+    volume: 0.01
   ORE Miner Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28751
     name: ORE Miner Blueprint
+    volume: 0.01
   Syndicate Gas Cloud Harvester Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28789
     name: Syndicate Gas Cloud Harvester Blueprint
+    volume: 0.01

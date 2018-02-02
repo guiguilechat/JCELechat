@@ -1,3 +1,5 @@
 items:
   Heavy Defender Missile I:
+    id: 265
     name: Heavy Defender Missile I
+    volume: 0.03

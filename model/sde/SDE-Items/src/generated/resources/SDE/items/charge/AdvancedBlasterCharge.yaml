@@ -16,7 +16,9 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12795
     name: Desolation L
+    volume: 0.025
   Desolation M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -34,7 +36,9 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12793
     name: Desolation M
+    volume: 0.0125
   Desolation S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -52,7 +56,9 @@ items:
     ThermalDamage: 5.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12610
     name: Desolation S
+    volume: 0.0025
   Null L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -70,7 +76,9 @@ items:
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    id: 12787
     name: Null L
+    volume: 0.025
   Null M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -88,7 +96,9 @@ items:
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    id: 12785
     name: Null M
+    volume: 0.0125
   Null S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -106,7 +116,9 @@ items:
     ThermalDamage: 6.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    id: 12614
     name: Null S
+    volume: 0.0025
   Null XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -124,7 +136,9 @@ items:
     ThermalDamage: 48.0
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
+    id: 41324
     name: Null XL
+    volume: 0.125
   Void L:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
@@ -143,7 +157,9 @@ items:
     ThermalDamage: 30.799999237060547
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
+    id: 12791
     name: Void L
+    volume: 0.025
   Void M:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
@@ -162,7 +178,9 @@ items:
     ThermalDamage: 15.399999618530273
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
+    id: 12789
     name: Void M
+    volume: 0.0125
   Void S:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
@@ -181,7 +199,9 @@ items:
     ThermalDamage: 7.699999809265137
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
+    id: 12612
     name: Void S
+    volume: 0.0025
   Void XL:
     CapNeedBonus: 25
     CapacitorRechargeRateMultiplier: 1.0
@@ -200,4 +220,6 @@ items:
     ThermalDamage: 61.599998474121094
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
+    id: 41322
     name: Void XL
+    volume: 0.125

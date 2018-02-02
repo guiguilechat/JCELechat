@@ -29,4 +29,5 @@ items:
     TitanConstructionTime: 100
     WarpAccuracyFactor: 1
     WarpAccuracyMaxRange: 15000
+    id: 2
     name: Corporation

@@ -1,55 +1,109 @@
 items:
   Amber Cytoserocin:
+    id: 25268
     name: Amber Cytoserocin
+    volume: 10.0
   Amber Mykoserocin:
+    id: 28694
     name: Amber Mykoserocin
+    volume: 10.0
   Azure Cytoserocin:
+    id: 25279
     name: Azure Cytoserocin
+    volume: 10.0
   Azure Mykoserocin:
+    id: 28695
     name: Azure Mykoserocin
+    volume: 10.0
   Celadon Cytoserocin:
+    id: 25275
     name: Celadon Cytoserocin
+    volume: 10.0
   Celadon Mykoserocin:
+    id: 28696
     name: Celadon Mykoserocin
+    volume: 10.0
   Chartreuse Cytoserocin:
+    id: 28630
     name: Chartreuse Cytoserocin
+    volume: 10.0
   Fullerite-C28:
+    id: 30375
     name: Fullerite-C28
+    volume: 2.0
   Fullerite-C32:
+    id: 30376
     name: Fullerite-C32
+    volume: 5.0
   Fullerite-C320:
+    id: 30377
     name: Fullerite-C320
+    volume: 5.0
   Fullerite-C50:
+    id: 30370
     name: Fullerite-C50
+    volume: 1.0
   Fullerite-C540:
+    id: 30378
     name: Fullerite-C540
+    volume: 10.0
   Fullerite-C60:
+    id: 30371
     name: Fullerite-C60
+    volume: 1.0
   Fullerite-C70:
+    id: 30372
     name: Fullerite-C70
+    volume: 1.0
   Fullerite-C72:
+    id: 30373
     name: Fullerite-C72
+    volume: 2.0
   Fullerite-C84:
+    id: 30374
     name: Fullerite-C84
+    volume: 2.0
   Gamboge Cytoserocin:
+    id: 28629
     name: Gamboge Cytoserocin
+    volume: 10.0
   Golden Cytoserocin:
+    id: 25273
     name: Golden Cytoserocin
+    volume: 10.0
   Golden Mykoserocin:
+    id: 28697
     name: Golden Mykoserocin
+    volume: 10.0
   Lime Cytoserocin:
+    id: 25277
     name: Lime Cytoserocin
+    volume: 10.0
   Lime Mykoserocin:
+    id: 28698
     name: Lime Mykoserocin
+    volume: 10.0
   Malachite Cytoserocin:
+    id: 25276
     name: Malachite Cytoserocin
+    volume: 10.0
   Malachite Mykoserocin:
+    id: 28699
     name: Malachite Mykoserocin
+    volume: 10.0
   Vermillion Cytoserocin:
+    id: 25278
     name: Vermillion Cytoserocin
+    volume: 10.0
   Vermillion Mykoserocin:
+    id: 28700
     name: Vermillion Mykoserocin
+    volume: 10.0
   Viridian Cytoserocin:
+    id: 25274
     name: Viridian Cytoserocin
+    volume: 10.0
   Viridian Mykoserocin:
+    id: 28701
     name: Viridian Mykoserocin
+    volume: 10.0

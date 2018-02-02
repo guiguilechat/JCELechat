@@ -101,7 +101,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    id: 28352
     name: Rorqual
+    volume: 1.45E7
   Rorqual ORE Development Edition:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -202,4 +204,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
+    id: 33687
     name: Rorqual ORE Development Edition
+    volume: 1.45E7

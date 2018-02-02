@@ -1,15 +1,25 @@
 items:
   Archon Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 23758
     name: Archon Blueprint
+    volume: 0.01
   Chimera Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 23916
     name: Chimera Blueprint
+    volume: 0.01
   Nidhoggur Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 24484
     name: Nidhoggur Blueprint
+    volume: 0.01
   Thanatos Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 23912
     name: Thanatos Blueprint
+    volume: 0.01
   Vanguard Blueprint:
+    id: 42134
     name: Vanguard Blueprint
+    volume: 0.01

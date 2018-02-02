@@ -1,7 +1,11 @@
 items:
   Clone Grade Beta Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 681
     name: Clone Grade Beta Blueprint
+    volume: 0.01
   Clone Grade Gamma Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 682
     name: Clone Grade Gamma Blueprint
+    volume: 0.01

@@ -29,7 +29,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 21000
     WarpScrambleStrength: 100
+    id: 37613
     name: CONCORD Warp Disruption Field Generator
+    volume: 50.0
   Clutch Restrained Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -59,7 +61,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
+    id: 37610
     name: Clutch Restrained Warp Disruption Field Generator
+    volume: 50.0
   M-36 Enduring Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -89,7 +93,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
+    id: 37611
     name: M-36 Enduring Warp Disruption Field Generator
+    volume: 50.0
   Pitfall Compact Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -119,7 +125,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 18000
     WarpScrambleStrength: 100
+    id: 37608
     name: Pitfall Compact Warp Disruption Field Generator
+    volume: 50.0
   True Sansha Warp Disruption Field Generator:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -150,7 +158,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 21000
     WarpScrambleStrength: 100
+    id: 37612
     name: True Sansha Warp Disruption Field Generator
+    volume: 50.0
   Warp Disruption Field Generator I:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -178,7 +188,9 @@ items:
     TechLevel: 1
     WarpScrambleRange: 16000
     WarpScrambleStrength: 100
+    id: 28654
     name: Warp Disruption Field Generator I
+    volume: 50.0
   Warp Disruption Field Generator II:
     ActivationBlockedStrenght: 1
     CanFitShipGroup01: 894
@@ -208,4 +220,6 @@ items:
     TechLevel: 2
     WarpScrambleRange: 20000
     WarpScrambleStrength: 100
+    id: 4248
     name: Warp Disruption Field Generator II
+    volume: 50.0

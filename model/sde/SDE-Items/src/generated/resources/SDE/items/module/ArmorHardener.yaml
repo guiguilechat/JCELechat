@@ -14,7 +14,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15026
     name: Ahremen's Modified Armor EM Hardener
+    volume: 5.0
   Ahremen's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -30,7 +32,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15074
     name: Ahremen's Modified Armor Explosive Hardener
+    volume: 5.0
   Ahremen's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -46,7 +50,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15058
     name: Ahremen's Modified Armor Kinetic Hardener
+    volume: 5.0
   Ahremen's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -62,7 +68,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 15042
     name: Ahremen's Modified Armor Thermal Hardener
+    volume: 5.0
   Ammatar Navy Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -77,7 +85,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17502
     name: Ammatar Navy Armor EM Hardener
+    volume: 5.0
   Ammatar Navy Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -92,7 +102,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17504
     name: Ammatar Navy Armor Explosive Hardener
+    volume: 5.0
   Ammatar Navy Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -107,7 +119,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17506
     name: Ammatar Navy Armor Kinetic Hardener
+    volume: 5.0
   Ammatar Navy Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -122,7 +136,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 17508
     name: Ammatar Navy Armor Thermal Hardener
+    volume: 5.0
   Armor EM Hardener I:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -136,7 +152,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11301
     name: Armor EM Hardener I
+    volume: 20.0
   Armor EM Hardener II:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -151,7 +169,9 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 11642
     name: Armor EM Hardener II
+    volume: 5.0
   Armor Explosive Hardener I:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -165,7 +185,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11303
     name: Armor Explosive Hardener I
+    volume: 20.0
   Armor Explosive Hardener II:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -180,7 +202,9 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 11646
     name: Armor Explosive Hardener II
+    volume: 5.0
   Armor Kinetic Hardener I:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -194,7 +218,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 11305
     name: Armor Kinetic Hardener I
+    volume: 20.0
   Armor Kinetic Hardener II:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -209,7 +235,9 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 11644
     name: Armor Kinetic Hardener II
+    volume: 5.0
   Armor Thermal Hardener I:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -223,7 +251,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 11277
     name: Armor Thermal Hardener I
+    volume: 20.0
   Armor Thermal Hardener II:
     CapacitorNeed: 30.0
     Duration: 20000.0
@@ -238,7 +268,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     ThermalDamageResistanceBonus: -55.0
+    id: 11648
     name: Armor Thermal Hardener II
+    volume: 5.0
   Brokara's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -254,7 +286,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15016
     name: Brokara's Modified Armor EM Hardener
+    volume: 5.0
   Brokara's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -270,7 +304,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15064
     name: Brokara's Modified Armor Explosive Hardener
+    volume: 5.0
   Brokara's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -286,7 +322,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15048
     name: Brokara's Modified Armor Kinetic Hardener
+    volume: 5.0
   Brokara's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -302,7 +340,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 15032
     name: Brokara's Modified Armor Thermal Hardener
+    volume: 5.0
   Brynn's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -318,7 +358,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15244
     name: Brynn's Modified Armor EM Hardener
+    volume: 5.0
   Brynn's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -334,7 +376,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15268
     name: Brynn's Modified Armor Explosive Hardener
+    volume: 5.0
   Brynn's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -350,7 +394,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15260
     name: Brynn's Modified Armor Kinetic Hardener
+    volume: 5.0
   Brynn's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -366,7 +412,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 15252
     name: Brynn's Modified Armor Thermal Hardener
+    volume: 5.0
   CONCORD Armor EM Hardener:
     CapacitorNeed: 10.0
     Duration: 23000.0
@@ -381,7 +429,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16151
     name: CONCORD Armor EM Hardener
+    volume: 5.0
   CONCORD Armor Explosive Hardener:
     CapacitorNeed: 10.0
     Duration: 23000.0
@@ -396,7 +446,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16153
     name: CONCORD Armor Explosive Hardener
+    volume: 5.0
   CONCORD Armor Kinetic Hardener:
     CapacitorNeed: 10.0
     Duration: 23000.0
@@ -411,7 +463,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16155
     name: CONCORD Armor Kinetic Hardener
+    volume: 5.0
   CONCORD Armor Thermal Hardener:
     CapacitorNeed: 10.0
     Duration: 23000.0
@@ -426,7 +480,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 16157
     name: CONCORD Armor Thermal Hardener
+    volume: 5.0
   Centus A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -442,7 +498,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18931
     name: Centus A-Type Armor EM Hardener
+    volume: 5.0
   Centus A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -458,7 +516,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18927
     name: Centus A-Type Armor Explosive Hardener
+    volume: 5.0
   Centus A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -474,7 +534,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18923
     name: Centus A-Type Armor Kinetic Hardener
+    volume: 5.0
   Centus A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -490,7 +552,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 18919
     name: Centus A-Type Armor Thermal Hardener
+    volume: 5.0
   Centus B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -506,7 +570,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18903
     name: Centus B-Type Armor EM Hardener
+    volume: 5.0
   Centus B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -522,7 +588,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18907
     name: Centus B-Type Armor Explosive Hardener
+    volume: 5.0
   Centus B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -538,7 +606,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18911
     name: Centus B-Type Armor Kinetic Hardener
+    volume: 5.0
   Centus B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -554,7 +624,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 18915
     name: Centus B-Type Armor Thermal Hardener
+    volume: 5.0
   Centus C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -570,7 +642,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18887
     name: Centus C-Type Armor EM Hardener
+    volume: 5.0
   Centus C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -586,7 +660,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18891
     name: Centus C-Type Armor Explosive Hardener
+    volume: 5.0
   Centus C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -602,7 +678,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18895
     name: Centus C-Type Armor Kinetic Hardener
+    volume: 5.0
   Centus C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -618,7 +696,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 18899
     name: Centus C-Type Armor Thermal Hardener
+    volume: 5.0
   Centus X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -634,7 +714,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18935
     name: Centus X-Type Armor EM Hardener
+    volume: 5.0
   Centus X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -650,7 +732,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18939
     name: Centus X-Type Armor Explosive Hardener
+    volume: 5.0
   Centus X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -666,7 +750,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18943
     name: Centus X-Type Armor Kinetic Hardener
+    volume: 5.0
   Centus X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -682,7 +768,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 18947
     name: Centus X-Type Armor Thermal Hardener
+    volume: 5.0
   Chelm's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -698,7 +786,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15028
     name: Chelm's Modified Armor EM Hardener
+    volume: 5.0
   Chelm's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -714,7 +804,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15076
     name: Chelm's Modified Armor Explosive Hardener
+    volume: 5.0
   Chelm's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -730,7 +822,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15060
     name: Chelm's Modified Armor Kinetic Hardener
+    volume: 5.0
   Chelm's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -746,7 +840,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 15044
     name: Chelm's Modified Armor Thermal Hardener
+    volume: 5.0
   Core A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -762,7 +858,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18965
     name: Core A-Type Armor EM Hardener
+    volume: 5.0
   Core A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -778,7 +876,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18967
     name: Core A-Type Armor Explosive Hardener
+    volume: 5.0
   Core A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -794,7 +894,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18969
     name: Core A-Type Armor Kinetic Hardener
+    volume: 5.0
   Core A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -810,7 +912,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 18971
     name: Core A-Type Armor Thermal Hardener
+    volume: 5.0
   Core B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -826,7 +930,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18957
     name: Core B-Type Armor EM Hardener
+    volume: 5.0
   Core B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -842,7 +948,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18959
     name: Core B-Type Armor Explosive Hardener
+    volume: 5.0
   Core B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -858,7 +966,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18961
     name: Core B-Type Armor Kinetic Hardener
+    volume: 5.0
   Core B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -874,7 +984,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 18963
     name: Core B-Type Armor Thermal Hardener
+    volume: 5.0
   Core C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -890,7 +1002,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18949
     name: Core C-Type Armor EM Hardener
+    volume: 5.0
   Core C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -906,7 +1020,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18951
     name: Core C-Type Armor Explosive Hardener
+    volume: 5.0
   Core C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -922,7 +1038,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18953
     name: Core C-Type Armor Kinetic Hardener
+    volume: 5.0
   Core C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -938,7 +1056,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 18955
     name: Core C-Type Armor Thermal Hardener
+    volume: 5.0
   Core X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -954,7 +1074,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18973
     name: Core X-Type Armor EM Hardener
+    volume: 5.0
   Core X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -970,7 +1092,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18975
     name: Core X-Type Armor Explosive Hardener
+    volume: 5.0
   Core X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -986,7 +1110,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18977
     name: Core X-Type Armor Kinetic Hardener
+    volume: 5.0
   Core X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1002,7 +1128,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 18979
     name: Core X-Type Armor Thermal Hardener
+    volume: 5.0
   Cormack's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1018,7 +1146,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15250
     name: Cormack's Modified Armor EM Hardener
+    volume: 5.0
   Cormack's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1034,7 +1164,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15274
     name: Cormack's Modified Armor Explosive Hardener
+    volume: 5.0
   Cormack's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1050,7 +1182,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15266
     name: Cormack's Modified Armor Kinetic Hardener
+    volume: 5.0
   Cormack's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1066,7 +1200,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 15258
     name: Cormack's Modified Armor Thermal Hardener
+    volume: 5.0
   Corpus A-Type Armor EM Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -1082,7 +1218,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18929
     name: Corpus A-Type Armor EM Hardener
+    volume: 5.0
   Corpus A-Type Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -1098,7 +1236,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18925
     name: Corpus A-Type Armor Explosive Hardener
+    volume: 5.0
   Corpus A-Type Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -1114,7 +1254,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18921
     name: Corpus A-Type Armor Kinetic Hardener
+    volume: 5.0
   Corpus A-Type Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -1130,7 +1272,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 18917
     name: Corpus A-Type Armor Thermal Hardener
+    volume: 5.0
   Corpus B-Type Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1146,7 +1290,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18901
     name: Corpus B-Type Armor EM Hardener
+    volume: 5.0
   Corpus B-Type Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1162,7 +1308,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18905
     name: Corpus B-Type Armor Explosive Hardener
+    volume: 5.0
   Corpus B-Type Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1178,7 +1326,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18909
     name: Corpus B-Type Armor Kinetic Hardener
+    volume: 5.0
   Corpus B-Type Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1194,7 +1344,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 18913
     name: Corpus B-Type Armor Thermal Hardener
+    volume: 5.0
   Corpus C-Type Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -1210,7 +1362,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18885
     name: Corpus C-Type Armor EM Hardener
+    volume: 5.0
   Corpus C-Type Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -1226,7 +1380,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18889
     name: Corpus C-Type Armor Explosive Hardener
+    volume: 5.0
   Corpus C-Type Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -1242,7 +1398,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18893
     name: Corpus C-Type Armor Kinetic Hardener
+    volume: 5.0
   Corpus C-Type Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -1258,7 +1416,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 18897
     name: Corpus C-Type Armor Thermal Hardener
+    volume: 5.0
   Corpus X-Type Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1274,7 +1434,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18933
     name: Corpus X-Type Armor EM Hardener
+    volume: 5.0
   Corpus X-Type Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1290,7 +1452,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18937
     name: Corpus X-Type Armor Explosive Hardener
+    volume: 5.0
   Corpus X-Type Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1306,7 +1470,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18941
     name: Corpus X-Type Armor Kinetic Hardener
+    volume: 5.0
   Corpus X-Type Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1322,7 +1488,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 18945
     name: Corpus X-Type Armor Thermal Hardener
+    volume: 5.0
   Dark Blood Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -1337,7 +1505,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13972
     name: Dark Blood Armor EM Hardener
+    volume: 5.0
   Dark Blood Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -1352,7 +1522,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13976
     name: Dark Blood Armor Explosive Hardener
+    volume: 5.0
   Dark Blood Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1367,7 +1539,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13980
     name: Dark Blood Armor Kinetic Hardener
+    volume: 5.0
   Dark Blood Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1382,7 +1556,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 13984
     name: Dark Blood Armor Thermal Hardener
+    volume: 5.0
   Domination Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -50.0
@@ -1397,7 +1573,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13986
     name: Domination Armor EM Hardener
+    volume: 5.0
   Domination Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -50.0
@@ -1412,7 +1590,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13988
     name: Domination Armor Explosive Hardener
+    volume: 5.0
   Domination Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1427,7 +1607,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13990
     name: Domination Armor Kinetic Hardener
+    volume: 5.0
   Domination Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1442,7 +1624,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 13992
     name: Domination Armor Thermal Hardener
+    volume: 5.0
   Draclira's Modified Armor EM Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1458,7 +1642,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15030
     name: Draclira's Modified Armor EM Hardener
+    volume: 5.0
   Draclira's Modified Armor Explosive Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1474,7 +1660,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15078
     name: Draclira's Modified Armor Explosive Hardener
+    volume: 5.0
   Draclira's Modified Armor Kinetic Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1490,7 +1678,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15062
     name: Draclira's Modified Armor Kinetic Hardener
+    volume: 5.0
   Draclira's Modified Armor Thermal Hardener:
     CapacitorNeed: 46.0
     Duration: 20000.0
@@ -1506,7 +1696,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
+    id: 15046
     name: Draclira's Modified Armor Thermal Hardener
+    volume: 5.0
   Experimental Armor EM Hardener I:
     CapacitorNeed: 26.0
     Duration: 20000.0
@@ -1521,7 +1713,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16357
     name: Experimental Armor EM Hardener I
+    volume: 5.0
   Experimental Armor Explosive Hardener I:
     CapacitorNeed: 26.0
     Duration: 20000.0
@@ -1536,7 +1730,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16365
     name: Experimental Armor Explosive Hardener I
+    volume: 5.0
   Experimental Armor Kinetic Hardener I:
     CapacitorNeed: 26.0
     Duration: 20000.0
@@ -1551,7 +1747,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16373
     name: Experimental Armor Kinetic Hardener I
+    volume: 5.0
   Experimental Armor Thermal Hardener I:
     CapacitorNeed: 26.0
     Duration: 20000.0
@@ -1566,7 +1764,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 16381
     name: Experimental Armor Thermal Hardener I
+    volume: 5.0
   Federation Navy Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -1581,7 +1781,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17832
     name: Federation Navy Armor EM Hardener
+    volume: 5.0
   Federation Navy Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -1596,7 +1798,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17834
     name: Federation Navy Armor Explosive Hardener
+    volume: 5.0
   Federation Navy Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1611,7 +1815,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17836
     name: Federation Navy Armor Kinetic Hardener
+    volume: 5.0
   Federation Navy Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1626,7 +1832,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 17838
     name: Federation Navy Armor Thermal Hardener
+    volume: 5.0
   Imperial Navy Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -1641,7 +1849,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15711
     name: Imperial Navy Armor EM Hardener
+    volume: 5.0
   Imperial Navy Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -1656,7 +1866,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15709
     name: Imperial Navy Armor Explosive Hardener
+    volume: 5.0
   Imperial Navy Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1671,7 +1883,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15707
     name: Imperial Navy Armor Kinetic Hardener
+    volume: 5.0
   Imperial Navy Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1686,7 +1900,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 15705
     name: Imperial Navy Armor Thermal Hardener
+    volume: 5.0
   Khanid Navy Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -1701,7 +1917,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28522
     name: Khanid Navy Armor EM Hardener
+    volume: 5.0
   Khanid Navy Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -1716,7 +1934,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28524
     name: Khanid Navy Armor Explosive Hardener
+    volume: 5.0
   Khanid Navy Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1731,7 +1951,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28526
     name: Khanid Navy Armor Kinetic Hardener
+    volume: 5.0
   Khanid Navy Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1746,7 +1968,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 28528
     name: Khanid Navy Armor Thermal Hardener
+    volume: 5.0
   Limited Armor EM Hardener I:
     CapacitorNeed: 27.0
     Duration: 20000.0
@@ -1761,7 +1985,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16355
     name: Limited Armor EM Hardener I
+    volume: 5.0
   Limited Armor Explosive Hardener I:
     CapacitorNeed: 27.0
     Duration: 20000.0
@@ -1776,7 +2002,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16363
     name: Limited Armor Explosive Hardener I
+    volume: 5.0
   Limited Armor Kinetic Hardener I:
     CapacitorNeed: 27.0
     Duration: 20000.0
@@ -1791,7 +2019,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16371
     name: Limited Armor Kinetic Hardener I
+    volume: 5.0
   Limited Armor Thermal Hardener I:
     CapacitorNeed: 27.0
     Duration: 20000.0
@@ -1806,7 +2036,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 16379
     name: Limited Armor Thermal Hardener I
+    volume: 5.0
   Prototype Armor EM Hardener I:
     CapacitorNeed: 24.0
     Duration: 20000.0
@@ -1821,7 +2053,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16359
     name: Prototype Armor EM Hardener I
+    volume: 5.0
   Prototype Armor Explosive Hardener I:
     CapacitorNeed: 24.0
     Duration: 20000.0
@@ -1836,7 +2070,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16367
     name: Prototype Armor Explosive Hardener I
+    volume: 5.0
   Prototype Armor Kinetic Hardener I:
     CapacitorNeed: 24.0
     Duration: 20000.0
@@ -1851,7 +2087,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16375
     name: Prototype Armor Kinetic Hardener I
+    volume: 5.0
   Prototype Armor Thermal Hardener I:
     CapacitorNeed: 24.0
     Duration: 20000.0
@@ -1866,7 +2104,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 16383
     name: Prototype Armor Thermal Hardener I
+    volume: 5.0
   Raysere's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1882,7 +2122,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15022
     name: Raysere's Modified Armor EM Hardener
+    volume: 5.0
   Raysere's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1898,7 +2140,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15070
     name: Raysere's Modified Armor Explosive Hardener
+    volume: 5.0
   Raysere's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1914,7 +2158,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15054
     name: Raysere's Modified Armor Kinetic Hardener
+    volume: 5.0
   Raysere's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -1930,7 +2176,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 15038
     name: Raysere's Modified Armor Thermal Hardener
+    volume: 5.0
   Republic Fleet Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -50.0
@@ -1945,7 +2193,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15719
     name: Republic Fleet Armor EM Hardener
+    volume: 5.0
   Republic Fleet Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -50.0
@@ -1960,7 +2210,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15717
     name: Republic Fleet Armor Explosive Hardener
+    volume: 5.0
   Republic Fleet Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1975,7 +2227,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15715
     name: Republic Fleet Armor Kinetic Hardener
+    volume: 5.0
   Republic Fleet Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -1990,7 +2244,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 15713
     name: Republic Fleet Armor Thermal Hardener
+    volume: 5.0
   Selynne's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2006,7 +2262,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15020
     name: Selynne's Modified Armor EM Hardener
+    volume: 5.0
   Selynne's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2022,7 +2280,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15068
     name: Selynne's Modified Armor Explosive Hardener
+    volume: 5.0
   Selynne's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2038,7 +2298,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15052
     name: Selynne's Modified Armor Kinetic Hardener
+    volume: 5.0
   Selynne's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2054,7 +2316,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 15036
     name: Selynne's Modified Armor Thermal Hardener
+    volume: 5.0
   Setele's Modified Armor EM Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2070,7 +2334,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15248
     name: Setele's Modified Armor EM Hardener
+    volume: 5.0
   Setele's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2086,7 +2352,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15272
     name: Setele's Modified Armor Explosive Hardener
+    volume: 5.0
   Setele's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2102,7 +2370,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15264
     name: Setele's Modified Armor Kinetic Hardener
+    volume: 5.0
   Setele's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2118,7 +2388,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 15256
     name: Setele's Modified Armor Thermal Hardener
+    volume: 5.0
   Shadow Serpentis Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -2133,7 +2405,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14059
     name: Shadow Serpentis Armor EM Hardener
+    volume: 5.0
   Shadow Serpentis Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -2148,7 +2422,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14061
     name: Shadow Serpentis Armor Explosive Hardener
+    volume: 5.0
   Shadow Serpentis Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2163,7 +2439,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14063
     name: Shadow Serpentis Armor Kinetic Hardener
+    volume: 5.0
   Shadow Serpentis Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2178,7 +2456,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 14065
     name: Shadow Serpentis Armor Thermal Hardener
+    volume: 5.0
   Tairei's Modified Armor EM Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -2194,7 +2474,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15018
     name: Tairei's Modified Armor EM Hardener
+    volume: 5.0
   Tairei's Modified Armor Explosive Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -2210,7 +2492,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15066
     name: Tairei's Modified Armor Explosive Hardener
+    volume: 5.0
   Tairei's Modified Armor Kinetic Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -2226,7 +2510,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15050
     name: Tairei's Modified Armor Kinetic Hardener
+    volume: 5.0
   Tairei's Modified Armor Thermal Hardener:
     CapacitorNeed: 34.0
     Duration: 20000.0
@@ -2242,7 +2528,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
+    id: 15034
     name: Tairei's Modified Armor Thermal Hardener
+    volume: 5.0
   True Sansha Armor EM Hardener:
     Duration: 20000.0
     EmDamageResistanceBonus: -55.0
@@ -2257,7 +2545,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13970
     name: True Sansha Armor EM Hardener
+    volume: 5.0
   True Sansha Armor Explosive Hardener:
     Duration: 20000.0
     ExplosiveDamageResistanceBonus: -55.0
@@ -2272,7 +2562,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13974
     name: True Sansha Armor Explosive Hardener
+    volume: 5.0
   True Sansha Armor Kinetic Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2287,7 +2579,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13978
     name: True Sansha Armor Kinetic Hardener
+    volume: 5.0
   True Sansha Armor Thermal Hardener:
     Duration: 20000.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
@@ -2302,7 +2596,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
+    id: 13982
     name: True Sansha Armor Thermal Hardener
+    volume: 5.0
   Tuvan's Modified Armor EM Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2318,7 +2614,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15246
     name: Tuvan's Modified Armor EM Hardener
+    volume: 5.0
   Tuvan's Modified Armor Explosive Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2334,7 +2632,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15270
     name: Tuvan's Modified Armor Explosive Hardener
+    volume: 5.0
   Tuvan's Modified Armor Kinetic Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2350,7 +2650,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15262
     name: Tuvan's Modified Armor Kinetic Hardener
+    volume: 5.0
   Tuvan's Modified Armor Thermal Hardener:
     CapacitorNeed: 38.0
     Duration: 20000.0
@@ -2366,7 +2668,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
+    id: 15254
     name: Tuvan's Modified Armor Thermal Hardener
+    volume: 5.0
   Upgraded Armor EM Hardener I:
     CapacitorNeed: 29.0
     Duration: 20000.0
@@ -2381,7 +2685,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16353
     name: Upgraded Armor EM Hardener I
+    volume: 5.0
   Upgraded Armor Explosive Hardener I:
     CapacitorNeed: 29.0
     Duration: 20000.0
@@ -2396,7 +2702,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16361
     name: Upgraded Armor Explosive Hardener I
+    volume: 5.0
   Upgraded Armor Kinetic Hardener I:
     CapacitorNeed: 29.0
     Duration: 20000.0
@@ -2411,7 +2719,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16369
     name: Upgraded Armor Kinetic Hardener I
+    volume: 5.0
   Upgraded Armor Thermal Hardener I:
     CapacitorNeed: 29.0
     Duration: 20000.0
@@ -2426,7 +2736,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
+    id: 16377
     name: Upgraded Armor Thermal Hardener I
+    volume: 5.0
   Vizan's Modified Armor EM Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2442,7 +2754,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15024
     name: Vizan's Modified Armor EM Hardener
+    volume: 5.0
   Vizan's Modified Armor Explosive Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2458,7 +2772,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15072
     name: Vizan's Modified Armor Explosive Hardener
+    volume: 5.0
   Vizan's Modified Armor Kinetic Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2474,7 +2790,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15056
     name: Vizan's Modified Armor Kinetic Hardener
+    volume: 5.0
   Vizan's Modified Armor Thermal Hardener:
     CapacitorNeed: 42.0
     Duration: 20000.0
@@ -2490,4 +2808,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
+    id: 15040
     name: Vizan's Modified Armor Thermal Hardener
+    volume: 5.0

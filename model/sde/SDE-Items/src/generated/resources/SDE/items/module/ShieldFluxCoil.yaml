@@ -11,7 +11,9 @@ items:
     ShieldCapacityMultiplier: 0.949999988079071
     ShieldRechargeRateMultiplier: 0.8100000023841858
     TechLevel: 1
+    id: 508
     name: '''Basic'' Shield Flux Coil'
+    volume: 5.0
   Alpha Reactor Shield Flux:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -22,7 +24,9 @@ items:
     ShieldCapacityMultiplier: 0.8999999761581421
     ShieldRechargeRateMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 8325
     name: Alpha Reactor Shield Flux
+    volume: 5.0
   'Beta Reactor Control: Shield Flux I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -34,7 +38,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.75
     TechLevel: 1
+    id: 8293
     name: 'Beta Reactor Control: Shield Flux I'
+    volume: 5.0
   Dread Guristas Shield Flux Coil:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -48,7 +54,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.6899999976158142
     TechLevel: 1
+    id: 37825
     name: Dread Guristas Shield Flux Coil
+    volume: 5.0
   'Local Power Plant Manager: Reaction Shield Flux I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -60,7 +68,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.75
     TechLevel: 1
+    id: 8291
     name: 'Local Power Plant Manager: Reaction Shield Flux I'
+    volume: 5.0
   Mark I Compact Shield Flux Coil:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -73,7 +83,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.7099999785423279
     TechLevel: 1
+    id: 8297
     name: Mark I Compact Shield Flux Coil
+    volume: 5.0
   'Marked Generator Refitting: Shield Flux':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -84,7 +96,9 @@ items:
     ShieldCapacityMultiplier: 0.8999999761581421
     ShieldRechargeRateMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 8329
     name: 'Marked Generator Refitting: Shield Flux'
+    volume: 5.0
   'Partial Power Plant Manager: Shield Flux':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -95,7 +109,9 @@ items:
     ShieldCapacityMultiplier: 0.8999999761581421
     ShieldRechargeRateMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 8323
     name: 'Partial Power Plant Manager: Shield Flux'
+    volume: 5.0
   Shield Flux Coil I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -106,7 +122,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.7200000286102295
     TechLevel: 1
+    id: 1254
     name: Shield Flux Coil I
+    volume: 5.0
   Shield Flux Coil II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -119,7 +137,9 @@ items:
     ShieldCapacityMultiplier: 0.8500000238418579
     ShieldRechargeRateMultiplier: 0.699999988079071
     TechLevel: 2
+    id: 1256
     name: Shield Flux Coil II
+    volume: 5.0
   Type-D Restrained Shield Flux Coil:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -132,7 +152,9 @@ items:
     ShieldCapacityMultiplier: 0.8999999761581421
     ShieldRechargeRateMultiplier: 0.75
     TechLevel: 1
+    id: 8295
     name: Type-D Restrained Shield Flux Coil
+    volume: 5.0
   'Type-E Power Core Modification: Shield Flux':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -143,4 +165,6 @@ items:
     ShieldCapacityMultiplier: 0.8999999761581421
     ShieldRechargeRateMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 8327
     name: 'Type-E Power Core Modification: Shield Flux'
+    volume: 5.0

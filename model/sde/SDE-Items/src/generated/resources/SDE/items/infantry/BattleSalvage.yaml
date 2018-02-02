@@ -1,11 +1,21 @@
 items:
   Broken Optronic Sight:
+    id: 366969
     name: Broken Optronic Sight
+    volume: 0.01
   Crushed Magazine Housing:
+    id: 366968
     name: Crushed Magazine Housing
+    volume: 0.01
   Mangled Coil Assembly:
+    id: 366967
     name: Mangled Coil Assembly
+    volume: 0.01
   Melted Heat Sink:
+    id: 366971
     name: Melted Heat Sink
+    volume: 0.01
   Shattered Heat Shield:
+    id: 366970
     name: Shattered Heat Shield
+    volume: 0.01

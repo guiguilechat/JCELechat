@@ -14,7 +14,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46327
     name: Standup L-Set Moon Drilling Proficiency I
+    volume: 20.0
   Standup L-Set Moon Drilling Proficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -30,4 +32,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46328
     name: Standup L-Set Moon Drilling Proficiency II
+    volume: 20.0

@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43867
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency I
+    volume: 10.0
   Standup M-Set Advanced Component Manufacturing Material Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     CanFitShipGroup01: 1657
@@ -34,7 +36,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43866
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency II
+    volume: 10.0
   Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency:
     AttributeEngRigMatBonus: -2.0
     AttributeThukkerEngRigMatBonus: -3.700000047683716
@@ -54,4 +58,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 45640
     name: Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency
+    volume: 10.0

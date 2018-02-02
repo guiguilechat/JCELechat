@@ -7,7 +7,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31362
     name: Capital Ancillary Current Router I
+    volume: 40.0
   Capital Ancillary Current Router II:
     Hp: 40
     MaxGangModules: 3
@@ -17,7 +19,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31368
     name: Capital Ancillary Current Router II
+    volume: 40.0
   Capital Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
     Hp: 40
@@ -26,7 +30,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31374
     name: Capital Capacitor Control Circuit I
+    volume: 40.0
   Capital Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
     Hp: 40
@@ -36,7 +42,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31380
     name: Capital Capacitor Control Circuit II
+    volume: 40.0
   Capital Command Processor I:
     Hp: 40
     MaxGangModules: 1
@@ -44,7 +52,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 150
+    id: 43900
     name: Capital Command Processor I
+    volume: 40.0
   Capital Egress Port Maximizer I:
     CapNeedBonus: -15
     Hp: 40
@@ -53,7 +63,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31386
     name: Capital Egress Port Maximizer I
+    volume: 40.0
   Capital Egress Port Maximizer II:
     CapNeedBonus: -20
     Hp: 40
@@ -63,7 +75,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31392
     name: Capital Egress Port Maximizer II
+    volume: 40.0
   Capital Liquid Cooled Electronics I:
     CpuNeedBonus: -10
     Hp: 40
@@ -72,7 +86,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31230
     name: Capital Liquid Cooled Electronics I
+    volume: 40.0
   Capital Liquid Cooled Electronics II:
     CpuNeedBonus: -15
     Hp: 40
@@ -82,7 +98,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31236
     name: Capital Liquid Cooled Electronics II
+    volume: 40.0
   Capital Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
     Hp: 40
@@ -91,7 +109,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31398
     name: Capital Powergrid Subroutine Maximizer I
+    volume: 40.0
   Capital Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
     Hp: 40
@@ -101,7 +121,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31404
     name: Capital Powergrid Subroutine Maximizer II
+    volume: 40.0
   Capital Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
     Hp: 40
@@ -110,7 +132,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
     UpgradeCost: 150
+    id: 33303
     name: Capital Processor Overclocking Unit I
+    volume: 40.0
   Capital Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
     Hp: 40
@@ -120,7 +144,9 @@ items:
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
     UpgradeCost: 300
+    id: 33305
     name: Capital Processor Overclocking Unit II
+    volume: 40.0
   Capital Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
     Hp: 40
@@ -129,7 +155,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31410
     name: Capital Semiconductor Memory Cell I
+    volume: 40.0
   Capital Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
     Hp: 40
@@ -139,7 +167,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31416
     name: Capital Semiconductor Memory Cell II
+    volume: 40.0
   Large Ancillary Current Router I:
     Hp: 40
     MaxGangModules: 3
@@ -147,7 +177,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 25956
     name: Large Ancillary Current Router I
+    volume: 20.0
   Large Ancillary Current Router II:
     Hp: 40
     MaxGangModules: 3
@@ -156,7 +188,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26370
     name: Large Ancillary Current Router II
+    volume: 20.0
   Large Capacitor Control Circuit I:
     Hp: 40
     MaxGangModules: 3
@@ -164,7 +198,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 25948
     name: Large Capacitor Control Circuit I
+    volume: 20.0
   Large Capacitor Control Circuit II:
     Hp: 40
     MaxGangModules: 3
@@ -173,7 +209,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26374
     name: Large Capacitor Control Circuit II
+    volume: 20.0
   Large Command Processor I:
     Hp: 40
     MaxGangModules: 1
@@ -181,7 +219,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 150
+    id: 43898
     name: Large Command Processor I
+    volume: 20.0
   Large Egress Port Maximizer I:
     CapNeedBonus: -15
     Hp: 40
@@ -190,7 +230,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 25950
     name: Large Egress Port Maximizer I
+    volume: 20.0
   Large Egress Port Maximizer II:
     CapNeedBonus: -20
     Hp: 40
@@ -200,7 +242,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26368
     name: Large Egress Port Maximizer II
+    volume: 20.0
   Large Liquid Cooled Electronics I:
     CpuNeedBonus: -10
     Hp: 40
@@ -209,7 +253,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 25934
     name: Large Liquid Cooled Electronics I
+    volume: 20.0
   Large Liquid Cooled Electronics II:
     CpuNeedBonus: -15
     Hp: 40
@@ -219,7 +265,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26348
     name: Large Liquid Cooled Electronics II
+    volume: 20.0
   Large Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
     Hp: 40
@@ -228,7 +276,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 25952
     name: Large Powergrid Subroutine Maximizer I
+    volume: 20.0
   Large Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
     Hp: 40
@@ -238,7 +288,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 26372
     name: Large Powergrid Subroutine Maximizer II
+    volume: 20.0
   Large Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
     Hp: 40
@@ -247,7 +299,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
     UpgradeCost: 150
+    id: 4397
     name: Large Processor Overclocking Unit I
+    volume: 5.0
   Large Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
     Hp: 40
@@ -257,7 +311,9 @@ items:
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
     UpgradeCost: 300
+    id: 4401
     name: Large Processor Overclocking Unit II
+    volume: 5.0
   Large Semiconductor Memory Cell I:
     Hp: 40
     MaxGangModules: 3
@@ -265,7 +321,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 25954
     name: Large Semiconductor Memory Cell I
+    volume: 20.0
   Large Semiconductor Memory Cell II:
     Hp: 40
     MaxGangModules: 3
@@ -274,7 +332,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 26376
     name: Large Semiconductor Memory Cell II
+    volume: 20.0
   Medium Ancillary Current Router I:
     Hp: 40
     MaxGangModules: 3
@@ -283,7 +343,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31360
     name: Medium Ancillary Current Router I
+    volume: 10.0
   Medium Ancillary Current Router II:
     Hp: 40
     MaxGangModules: 3
@@ -293,7 +355,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31366
     name: Medium Ancillary Current Router II
+    volume: 10.0
   Medium Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
     Hp: 40
@@ -302,7 +366,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31372
     name: Medium Capacitor Control Circuit I
+    volume: 10.0
   Medium Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
     Hp: 40
@@ -312,7 +378,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31378
     name: Medium Capacitor Control Circuit II
+    volume: 10.0
   Medium Command Processor I:
     Hp: 40
     MaxGangModules: 1
@@ -320,7 +388,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 150
+    id: 43896
     name: Medium Command Processor I
+    volume: 10.0
   Medium Egress Port Maximizer I:
     CapNeedBonus: -15
     Hp: 40
@@ -329,7 +399,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31384
     name: Medium Egress Port Maximizer I
+    volume: 10.0
   Medium Egress Port Maximizer II:
     CapNeedBonus: -20
     Hp: 40
@@ -339,7 +411,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31390
     name: Medium Egress Port Maximizer II
+    volume: 10.0
   Medium Liquid Cooled Electronics I:
     CpuNeedBonus: -10
     Hp: 40
@@ -348,7 +422,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31228
     name: Medium Liquid Cooled Electronics I
+    volume: 10.0
   Medium Liquid Cooled Electronics II:
     CpuNeedBonus: -15
     Hp: 40
@@ -358,7 +434,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31234
     name: Medium Liquid Cooled Electronics II
+    volume: 10.0
   Medium Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
     Hp: 40
@@ -367,7 +445,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31396
     name: Medium Powergrid Subroutine Maximizer I
+    volume: 10.0
   Medium Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
     Hp: 40
@@ -377,7 +457,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31402
     name: Medium Powergrid Subroutine Maximizer II
+    volume: 10.0
   Medium Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
     Hp: 40
@@ -386,7 +468,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
     UpgradeCost: 150
+    id: 4395
     name: Medium Processor Overclocking Unit I
+    volume: 5.0
   Medium Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
     Hp: 40
@@ -396,7 +480,9 @@ items:
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
     UpgradeCost: 300
+    id: 4399
     name: Medium Processor Overclocking Unit II
+    volume: 5.0
   Medium Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
     Hp: 40
@@ -405,7 +491,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31408
     name: Medium Semiconductor Memory Cell I
+    volume: 10.0
   Medium Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
     Hp: 40
@@ -415,7 +503,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31414
     name: Medium Semiconductor Memory Cell II
+    volume: 10.0
   Small Ancillary Current Router I:
     Hp: 40
     MaxGangModules: 3
@@ -424,7 +514,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31358
     name: Small Ancillary Current Router I
+    volume: 5.0
   Small Ancillary Current Router II:
     Hp: 40
     MaxGangModules: 3
@@ -434,7 +526,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31364
     name: Small Ancillary Current Router II
+    volume: 5.0
   Small Capacitor Control Circuit I:
     CapRechargeBonus: -15.0
     Hp: 40
@@ -443,7 +537,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31370
     name: Small Capacitor Control Circuit I
+    volume: 5.0
   Small Capacitor Control Circuit II:
     CapRechargeBonus: -20.0
     Hp: 40
@@ -453,7 +549,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31376
     name: Small Capacitor Control Circuit II
+    volume: 5.0
   Small Command Processor I:
     Hp: 40
     MaxGangModules: 1
@@ -461,7 +559,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 150
+    id: 43894
     name: Small Command Processor I
+    volume: 5.0
   Small Egress Port Maximizer I:
     CapNeedBonus: -15
     Hp: 40
@@ -470,7 +570,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31382
     name: Small Egress Port Maximizer I
+    volume: 5.0
   Small Egress Port Maximizer II:
     CapNeedBonus: -20
     Hp: 40
@@ -480,7 +582,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31388
     name: Small Egress Port Maximizer II
+    volume: 5.0
   Small Liquid Cooled Electronics I:
     CpuNeedBonus: -10
     Hp: 40
@@ -489,7 +593,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31226
     name: Small Liquid Cooled Electronics I
+    volume: 5.0
   Small Liquid Cooled Electronics II:
     CpuNeedBonus: -15
     Hp: 40
@@ -499,7 +605,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31232
     name: Small Liquid Cooled Electronics II
+    volume: 5.0
   Small Powergrid Subroutine Maximizer I:
     CpuNeedBonus: -15
     Hp: 40
@@ -508,7 +616,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31394
     name: Small Powergrid Subroutine Maximizer I
+    volume: 5.0
   Small Powergrid Subroutine Maximizer II:
     CpuNeedBonus: -20
     Hp: 40
@@ -518,7 +628,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31400
     name: Small Powergrid Subroutine Maximizer II
+    volume: 5.0
   Small Processor Overclocking Unit I:
     CpuOutputBonus2: 7.099999904632568
     Hp: 40
@@ -527,7 +639,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0499999523162842
     TechLevel: 1
     UpgradeCost: 150
+    id: 26929
     name: Small Processor Overclocking Unit I
+    volume: 5.0
   Small Processor Overclocking Unit II:
     CpuOutputBonus2: 9.600000381469727
     Hp: 40
@@ -537,7 +651,9 @@ items:
     ShieldRechargeRateMultiplier: 1.100000023841858
     TechLevel: 2
     UpgradeCost: 300
+    id: 26931
     name: Small Processor Overclocking Unit II
+    volume: 5.0
   Small Semiconductor Memory Cell I:
     CapacitorCapacityBonus: 15.0
     Hp: 40
@@ -546,7 +662,9 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31406
     name: Small Semiconductor Memory Cell I
+    volume: 5.0
   Small Semiconductor Memory Cell II:
     CapacitorCapacityBonus: 20.0
     Hp: 40
@@ -556,4 +674,6 @@ items:
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31412
     name: Small Semiconductor Memory Cell II
+    volume: 5.0

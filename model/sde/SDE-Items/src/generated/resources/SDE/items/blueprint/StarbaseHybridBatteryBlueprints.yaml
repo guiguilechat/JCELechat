@@ -1,55 +1,91 @@
 items:
   Large Blaster Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2803
     name: Large Blaster Battery Blueprint
+    volume: 0.01
   Large Railgun Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2804
     name: Large Railgun Battery Blueprint
+    volume: 0.01
   Medium Blaster Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 2806
     name: Medium Blaster Battery Blueprint
+    volume: 0.01
   Medium Railgun Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 2808
     name: Medium Railgun Battery Blueprint
+    volume: 0.01
   Serpentis Large Blaster Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27848
     name: Serpentis Large Blaster Battery Blueprint
+    volume: 0.01
   Serpentis Large Railgun Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27843
     name: Serpentis Large Railgun Battery Blueprint
+    volume: 0.01
   Serpentis Medium Blaster Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 27847
     name: Serpentis Medium Blaster Battery Blueprint
+    volume: 0.01
   Serpentis Medium Railgun Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 27844
     name: Serpentis Medium Railgun Battery Blueprint
+    volume: 0.01
   Serpentis Small Blaster Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27846
     name: Serpentis Small Blaster Battery Blueprint
+    volume: 0.01
   Serpentis Small Railgun Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27845
     name: Serpentis Small Railgun Battery Blueprint
+    volume: 0.01
   Shadow Large Blaster Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27849
     name: Shadow Large Blaster Battery Blueprint
+    volume: 0.01
   Shadow Large Railgun Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27850
     name: Shadow Large Railgun Battery Blueprint
+    volume: 0.01
   Shadow Medium Blaster Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 27852
     name: Shadow Medium Blaster Battery Blueprint
+    volume: 0.01
   Shadow Medium Railgun Battery Blueprint:
     IndustryBlueprintRank: 30.0
+    id: 27851
     name: Shadow Medium Railgun Battery Blueprint
+    volume: 0.01
   Shadow Small Blaster Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27853
     name: Shadow Small Blaster Battery Blueprint
+    volume: 0.01
   Shadow Small Railgun Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27854
     name: Shadow Small Railgun Battery Blueprint
+    volume: 0.01
   Small Blaster Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 2813
     name: Small Blaster Battery Blueprint
+    volume: 0.01
   Small Railgun Battery Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 2815
     name: Small Railgun Battery Blueprint
+    volume: 0.01

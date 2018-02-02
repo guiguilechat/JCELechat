@@ -1,166 +1,266 @@
 items:
   Acidic Cloud:
+    id: 10760
     name: Acidic Cloud
   Amarr Prime Station Cloud:
+    id: 33014
     name: Amarr Prime Station Cloud
   Amber Cloud:
+    id: 10764
     name: Amber Cloud
   Amber Cytoserocin 2:
+    id: 26467
     name: Amber Cytoserocin 2
+    volume: 10.0
   Argon Gas Environment:
+    id: 19713
     name: Argon Gas Environment
   Assembly Site Audio Object:
+    id: 43917
     name: Assembly Site Audio Object
   Astrahus Lights On:
+    id: 41581
     name: Astrahus Lights On
+    volume: 1.0
   Celestial Environment:
+    id: 19749
     name: Celestial Environment
   Chlorine Cloud:
+    id: 10762
     name: Chlorine Cloud
   Cloud Rings:
+    id: 34333
     name: Cloud Rings
   Cyno Effect:
+    id: 43549
     name: Cyno Effect
   Dark Cloud:
+    id: 10065
     name: Dark Cloud
   Dark Gray Cloud:
+    id: 10128
     name: Dark Gray Cloud
   Dark Gray Turbulent Cloud:
+    id: 10129
     name: Dark Gray Turbulent Cloud
   Dark Green Cloud:
+    id: 10066
     name: Dark Green Cloud
   Debris Cloud:
+    id: 10232
     name: Debris Cloud
   Debris Cloud Flat:
+    id: 24578
     name: Debris Cloud Flat
   Default Citadel Large Placement State:
+    id: 46086
     name: Default Citadel Large Placement State
+    volume: 1.0
   Default Citadel Medium Placement State:
+    id: 46085
     name: Default Citadel Medium Placement State
+    volume: 1.0
   Default Citadel X-Large Placement State:
+    id: 46088
     name: Default Citadel X-Large Placement State
+    volume: 1.0
   Drifter Hive Explosion:
+    id: 42901
     name: Drifter Hive Explosion
   Drone Beacon:
     Hp: 100000000
+    id: 23767
     name: Drone Beacon
   Dust Cloud:
+    id: 10067
     name: Dust Cloud
   Dust Storm Environment:
+    id: 19746
     name: Dust Storm Environment
   Dust Streak:
+    id: 10756
     name: Dust Streak
   Electric Cloud:
+    id: 10130
     name: Electric Cloud
   Ethereal Environment:
+    id: 19748
     name: Ethereal Environment
   Fire Cloud:
+    id: 10131
     name: Fire Cloud
   Fortizar Lights On:
+    id: 42116
     name: Fortizar Lights On
+    volume: 1.0
   Gaseous Cloud:
+    id: 10763
     name: Gaseous Cloud
   Green Gas Cloud:
+    id: 10765
     name: Green Gas Cloud
   Icefield Environment:
+    id: 19751
     name: Icefield Environment
   Infernal Environment:
+    id: 19750
     name: Infernal Environment
   Invisible Cloud:
+    id: 2894
     name: Invisible Cloud
   Invisible Warp Out Object:
+    id: 44066
     name: Invisible Warp Out Object
   Invisible Warp Out Object (Except POD):
+    id: 44105
     name: Invisible Warp Out Object (Except POD)
   Ion Cloud:
+    id: 10068
     name: Ion Cloud
   Keepstar Lights On:
+    id: 45017
     name: Keepstar Lights On
+    volume: 1.0
   Krypton Gas Environment:
+    id: 19752
     name: Krypton Gas Environment
   Large Industrial Array Placement State Default:
+    id: 46082
     name: Large Industrial Array Placement State Default
+    volume: 1.0
   Large Refinery Invulnerable State Default:
+    id: 45994
     name: Large Refinery Invulnerable State Default
+    volume: 1.0
   Large Refinery Placement State Default:
+    id: 46065
     name: Large Refinery Placement State Default
+    volume: 1.0
   Large Refinery Sieged State Default:
+    id: 45995
     name: Large Refinery Sieged State Default
+    volume: 1.0
   Large Refinery Vulnerable State Default:
+    id: 45993
     name: Large Refinery Vulnerable State Default
+    volume: 1.0
   Lightning Storm Environment:
+    id: 19747
     name: Lightning Storm Environment
   Medium Industrial Array Placement State Default:
+    id: 46084
     name: Medium Industrial Array Placement State Default
+    volume: 1.0
   Medium Refinery Invulnerable State Default:
+    id: 45729
     name: Medium Refinery Invulnerable State Default
+    volume: 1.0
   Medium Refinery Placement State Default:
+    id: 46064
     name: Medium Refinery Placement State Default
+    volume: 1.0
   Medium Refinery Sieged State Default:
+    id: 45730
     name: Medium Refinery Sieged State Default
+    volume: 1.0
   Medium Refinery Vulnerable State Default:
+    id: 45731
     name: Medium Refinery Vulnerable State Default
+    volume: 1.0
   Meteor Cloud:
+    id: 10233
     name: Meteor Cloud
   Micro Nebula:
+    id: 10759
     name: Micro Nebula
   MidPoint Effect:
+    id: 42536
     name: MidPoint Effect
   Nebulaic Cloud:
+    id: 10761
     name: Nebulaic Cloud
   Plasma Cloud:
+    id: 10132
     name: Plasma Cloud
   Plasmic Gas Cloud:
+    id: 10757
     name: Plasmic Gas Cloud
   Radon Gas Environment:
+    id: 19754
     name: Radon Gas Environment
   Rusty Cloud:
+    id: 3073
     name: Rusty Cloud
   Smugglers Den Audio Object:
+    id: 43918
     name: Smugglers Den Audio Object
   Soft Cloud:
+    id: 10753
     name: Soft Cloud
   Spark Cloud:
+    id: 10069
     name: Spark Cloud
   Spawner1:
+    id: 46565
     name: Spawner1
   Spawner10:
+    id: 46574
     name: Spawner10
   Spawner2:
+    id: 46566
     name: Spawner2
   Spawner3:
+    id: 46567
     name: Spawner3
   Spawner4:
+    id: 46568
     name: Spawner4
   Spawner5:
+    id: 46569
     name: Spawner5
   Spawner6:
+    id: 46570
     name: Spawner6
   Spawner7:
+    id: 46571
     name: Spawner7
   Spawner8:
+    id: 46572
     name: Spawner8
   Spawner9:
+    id: 46573
     name: Spawner9
   Strange Beacon:
+    id: 35645
     name: Strange Beacon
   Sulphuric Cloud:
+    id: 10755
     name: Sulphuric Cloud
   TestAsset_01:
+    id: 47066
     name: TestAsset_01
   TestAsset_02:
+    id: 47067
     name: TestAsset_02
   Toxic Cloud Environment:
+    id: 19753
     name: Toxic Cloud Environment
   Turbulent Storm Environment:
+    id: 19755
     name: Turbulent Storm Environment
   Warp Disruption Bubble Effect:
+    id: 42697
     name: Warp Disruption Bubble Effect
   Wispy Chlorine Cloud:
+    id: 10758
     name: Wispy Chlorine Cloud
   Wispy Orange Cloud:
+    id: 10754
     name: Wispy Orange Cloud
   XLarge Industrial Array Placement State Default:
+    id: 46083
     name: XLarge Industrial Array Placement State Default
+    volume: 1.0
   Xenon Gas Environment:
+    id: 19756
     name: Xenon Gas Environment

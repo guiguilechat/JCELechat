@@ -23,7 +23,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 115.0
     TechLevel: 1
+    id: 41236
     name: 10000MN Afterburner I
+    volume: 4000.0
   10000MN Afterburner II:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -49,7 +51,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 135.0
     TechLevel: 2
+    id: 41239
     name: 10000MN Afterburner II
+    volume: 4000.0
   10000MN Monopropellant Enduring Afterburner:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -75,7 +79,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 41238
     name: 10000MN Monopropellant Enduring Afterburner
+    volume: 4000.0
   10000MN Y-S8 Compact Afterburner:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -101,7 +107,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 41237
     name: 10000MN Y-S8 Compact Afterburner
+    volume: 4000.0
   100MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -120,7 +128,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 115.0
     TechLevel: 1
+    id: 12066
     name: 100MN Afterburner I
+    volume: 50.0
   100MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 350.0
@@ -140,7 +150,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 135.0
     TechLevel: 2
+    id: 12068
     name: 100MN Afterburner II
+    volume: 5.0
   100MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 250.0
@@ -161,7 +173,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 135.0
     TechLevel: 1
+    id: 21474
     name: 100MN Analog Booster Afterburner
+    volume: 5.0
   100MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 250.0
@@ -181,7 +195,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 5955
     name: 100MN Monopropellant Enduring Afterburner
+    volume: 5.0
   100MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -201,7 +217,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 35657
     name: 100MN Y-S8 Compact Afterburner
+    volume: 5.0
   10MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 80.0
@@ -220,7 +238,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 115.0
     TechLevel: 1
+    id: 12056
     name: 10MN Afterburner I
+    volume: 25.0
   10MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 90.0
@@ -240,7 +260,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 135.0
     TechLevel: 2
+    id: 12058
     name: 10MN Afterburner II
+    volume: 5.0
   10MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 60.0
@@ -261,7 +283,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 135.0
     TechLevel: 1
+    id: 21472
     name: 10MN Analog Booster Afterburner
+    volume: 5.0
   10MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 60.0
@@ -281,7 +305,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 6005
     name: 10MN Monopropellant Enduring Afterburner
+    volume: 5.0
   10MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 80.0
@@ -301,7 +327,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 35656
     name: 10MN Y-S8 Compact Afterburner
+    volume: 5.0
   1MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 20.0
@@ -320,7 +348,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 115.0
     TechLevel: 1
+    id: 439
     name: 1MN Afterburner I
+    volume: 5.0
   1MN Afterburner II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 22.0
@@ -340,7 +370,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 135.0
     TechLevel: 2
+    id: 438
     name: 1MN Afterburner II
+    volume: 5.0
   1MN Analog Booster Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 15.0
@@ -361,7 +393,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 135.0
     TechLevel: 1
+    id: 21470
     name: 1MN Analog Booster Afterburner
+    volume: 5.0
   1MN Civilian Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 5.0
@@ -379,7 +413,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 60.0
     TechLevel: 1
+    id: 21857
     name: 1MN Civilian Afterburner
+    volume: 5.0
   1MN Monopropellant Enduring Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 15.0
@@ -399,7 +435,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 6003
     name: 1MN Monopropellant Enduring Afterburner
+    volume: 5.0
   1MN Y-S8 Compact Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 20.0
@@ -419,7 +457,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 125.0
     TechLevel: 1
+    id: 6001
     name: 1MN Y-S8 Compact Afterburner
+    volume: 5.0
   50000MN Cold-Gas Enduring Microwarpdrive:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -447,7 +487,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 41252
     name: 50000MN Cold-Gas Enduring Microwarpdrive
+    volume: 4000.0
   50000MN Microwarpdrive I:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -474,7 +516,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 500.0
     TechLevel: 1
+    id: 41249
     name: 50000MN Microwarpdrive I
+    volume: 4000.0
   50000MN Microwarpdrive II:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -502,7 +546,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 510.0
     TechLevel: 2
+    id: 41253
     name: 50000MN Microwarpdrive II
+    volume: 4000.0
   50000MN Quad LiF Restrained Microwarpdrive:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -530,7 +576,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 41251
     name: 50000MN Quad LiF Restrained Microwarpdrive
+    volume: 4000.0
   50000MN Y-T8 Compact Microwarpdrive:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -558,7 +606,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 41250
     name: 50000MN Y-T8 Compact Microwarpdrive
+    volume: 4000.0
   500MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 280.0
@@ -579,7 +629,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 5945
     name: 500MN Cold-Gas Enduring Microwarpdrive
+    volume: 10.0
   500MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 260.0
@@ -601,7 +653,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 510.0
     TechLevel: 1
+    id: 21480
     name: 500MN Digital Booster Microwarpdrive
+    volume: 10.0
   500MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 320.0
@@ -621,7 +675,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 500.0
     TechLevel: 1
+    id: 12054
     name: 500MN Microwarpdrive I
+    volume: 50.0
   500MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 350.0
@@ -642,7 +698,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 510.0
     TechLevel: 2
+    id: 12084
     name: 500MN Microwarpdrive II
+    volume: 10.0
   500MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 320.0
@@ -664,7 +722,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 35662
     name: 500MN Quad LiF Restrained Microwarpdrive
+    volume: 10.0
   500MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 320.0
@@ -686,7 +746,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 35661
     name: 500MN Y-T8 Compact Microwarpdrive
+    volume: 10.0
   50MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 160.0
@@ -707,7 +769,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 5975
     name: 50MN Cold-Gas Enduring Microwarpdrive
+    volume: 10.0
   50MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 140.0
@@ -729,7 +793,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 510.0
     TechLevel: 1
+    id: 21478
     name: 50MN Digital Booster Microwarpdrive
+    volume: 10.0
   50MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 180.0
@@ -749,7 +815,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 500.0
     TechLevel: 1
+    id: 12052
     name: 50MN Microwarpdrive I
+    volume: 25.0
   50MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 200.0
@@ -770,7 +838,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 510.0
     TechLevel: 2
+    id: 12076
     name: 50MN Microwarpdrive II
+    volume: 10.0
   50MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 180.0
@@ -792,7 +862,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 35660
     name: 50MN Quad LiF Restrained Microwarpdrive
+    volume: 10.0
   50MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 180.0
@@ -814,7 +886,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 35659
     name: 50MN Y-T8 Compact Microwarpdrive
+    volume: 10.0
   5MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 35.0
@@ -835,7 +909,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 5971
     name: 5MN Cold-Gas Enduring Microwarpdrive
+    volume: 10.0
   5MN Digital Booster Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8500000238418579
     CapacitorNeed: 35.0
@@ -857,7 +933,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 510.0
     TechLevel: 1
+    id: 21476
     name: 5MN Digital Booster Microwarpdrive
+    volume: 10.0
   5MN Microwarpdrive I:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 45.0
@@ -877,7 +955,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 500.0
     TechLevel: 1
+    id: 434
     name: 5MN Microwarpdrive I
+    volume: 10.0
   5MN Microwarpdrive II:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 50.0
@@ -898,7 +978,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 510.0
     TechLevel: 2
+    id: 440
     name: 5MN Microwarpdrive II
+    volume: 10.0
   5MN Quad LiF Restrained Microwarpdrive:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorNeed: 45.0
@@ -920,7 +1002,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 35658
     name: 5MN Quad LiF Restrained Microwarpdrive
+    volume: 10.0
   5MN Y-T8 Compact Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 45.0
@@ -942,7 +1026,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 505.0
     TechLevel: 1
+    id: 5973
     name: 5MN Y-T8 Compact Microwarpdrive
+    volume: 10.0
   Brynn's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -963,7 +1049,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 14500
     name: Brynn's Modified 100MN Afterburner
+    volume: 5.0
   Brynn's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 280.0
@@ -986,7 +1074,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 14508
     name: Brynn's Modified 500MN Microwarpdrive
+    volume: 10.0
   Core A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1007,7 +1097,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18696
     name: Core A-Type 100MN Afterburner
+    volume: 5.0
   Core A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 280.0
@@ -1030,7 +1122,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19329
     name: Core A-Type 500MN Microwarpdrive
+    volume: 10.0
   Core B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1051,7 +1145,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18690
     name: Core B-Type 100MN Afterburner
+    volume: 5.0
   Core B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 280.0
@@ -1074,7 +1170,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19323
     name: Core B-Type 500MN Microwarpdrive
+    volume: 10.0
   Core C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1095,7 +1193,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18684
     name: Core C-Type 100MN Afterburner
+    volume: 5.0
   Core C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 280.0
@@ -1118,7 +1218,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19317
     name: Core C-Type 500MN Microwarpdrive
+    volume: 10.0
   Core X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1139,7 +1241,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
     TechLevel: 1
+    id: 18698
     name: Core X-Type 100MN Afterburner
+    volume: 5.0
   Core X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 280.0
@@ -1162,7 +1266,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
     TechLevel: 1
+    id: 19335
     name: Core X-Type 500MN Microwarpdrive
+    volume: 10.0
   Coreli A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1183,7 +1289,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18692
     name: Coreli A-Type 1MN Afterburner
+    volume: 5.0
   Coreli A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 40.0
@@ -1206,7 +1314,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19325
     name: Coreli A-Type 5MN Microwarpdrive
+    volume: 10.0
   Coreli B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1227,7 +1337,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18686
     name: Coreli B-Type 1MN Afterburner
+    volume: 5.0
   Coreli B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 40.0
@@ -1249,7 +1361,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19319
     name: Coreli B-Type 5MN Microwarpdrive
+    volume: 10.0
   Coreli C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1270,7 +1384,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18680
     name: Coreli C-Type 1MN Afterburner
+    volume: 5.0
   Coreli C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 40.0
@@ -1292,7 +1408,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19313
     name: Coreli C-Type 5MN Microwarpdrive
+    volume: 10.0
   Corelum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1313,7 +1431,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18694
     name: Corelum A-Type 10MN Afterburner
+    volume: 5.0
   Corelum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 160.0
@@ -1335,7 +1455,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19327
     name: Corelum A-Type 50MN Microwarpdrive
+    volume: 10.0
   Corelum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1356,7 +1478,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18688
     name: Corelum B-Type 10MN Afterburner
+    volume: 5.0
   Corelum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 160.0
@@ -1379,7 +1503,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19321
     name: Corelum B-Type 50MN Microwarpdrive
+    volume: 10.0
   Corelum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1400,7 +1526,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18682
     name: Corelum C-Type 10MN Afterburner
+    volume: 5.0
   Corelum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 160.0
@@ -1422,7 +1550,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19315
     name: Corelum C-Type 50MN Microwarpdrive
+    volume: 10.0
   Cormack's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1443,7 +1573,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
     TechLevel: 1
+    id: 14506
     name: Cormack's Modified 100MN Afterburner
+    volume: 5.0
   Cormack's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 280.0
@@ -1466,7 +1598,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
     TechLevel: 1
+    id: 14514
     name: Cormack's Modified 500MN Microwarpdrive
+    volume: 10.0
   Domination 10000MN Afterburner:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -1493,7 +1627,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 41240
     name: Domination 10000MN Afterburner
+    volume: 4000.0
   Domination 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1514,7 +1650,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14102
     name: Domination 100MN Afterburner
+    volume: 5.0
   Domination 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1535,7 +1673,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14106
     name: Domination 10MN Afterburner
+    volume: 5.0
   Domination 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1556,7 +1696,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14110
     name: Domination 1MN Afterburner
+    volume: 5.0
   Domination 50000MN Microwarpdrive:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -1585,7 +1727,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 41254
     name: Domination 50000MN Microwarpdrive
+    volume: 4000.0
   Domination 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
@@ -1607,7 +1751,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14114
     name: Domination 500MN Microwarpdrive
+    volume: 10.0
   Domination 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
@@ -1629,7 +1775,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14118
     name: Domination 50MN Microwarpdrive
+    volume: 10.0
   Domination 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
@@ -1651,7 +1799,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14122
     name: Domination 5MN Microwarpdrive
+    volume: 10.0
   Federation Navy 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1672,7 +1822,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15770
     name: Federation Navy 100MN Afterburner
+    volume: 5.0
   Federation Navy 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -1693,7 +1845,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15766
     name: Federation Navy 10MN Afterburner
+    volume: 5.0
   Federation Navy 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1714,7 +1868,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15761
     name: Federation Navy 1MN Afterburner
+    volume: 5.0
   Federation Navy 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
@@ -1736,7 +1892,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15768
     name: Federation Navy 500MN Microwarpdrive
+    volume: 10.0
   Federation Navy 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
@@ -1758,7 +1916,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15764
     name: Federation Navy 50MN Microwarpdrive
+    volume: 10.0
   Federation Navy 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
@@ -1780,7 +1940,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15759
     name: Federation Navy 5MN Microwarpdrive
+    volume: 10.0
   Gist A-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1801,7 +1963,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18674
     name: Gist A-Type 100MN Afterburner
+    volume: 5.0
   Gist A-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 320.0
@@ -1823,7 +1987,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19353
     name: Gist A-Type 500MN Microwarpdrive
+    volume: 10.0
   Gist B-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1844,7 +2010,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18668
     name: Gist B-Type 100MN Afterburner
+    volume: 5.0
   Gist B-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 320.0
@@ -1866,7 +2034,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19347
     name: Gist B-Type 500MN Microwarpdrive
+    volume: 10.0
   Gist C-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1887,7 +2057,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18662
     name: Gist C-Type 100MN Afterburner
+    volume: 5.0
   Gist C-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 320.0
@@ -1909,7 +2081,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19341
     name: Gist C-Type 500MN Microwarpdrive
+    volume: 10.0
   Gist X-Type 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -1930,7 +2104,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
     TechLevel: 1
+    id: 18676
     name: Gist X-Type 100MN Afterburner
+    volume: 5.0
   Gist X-Type 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -1952,7 +2128,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
     TechLevel: 1
+    id: 19359
     name: Gist X-Type 500MN Microwarpdrive
+    volume: 10.0
   Gistii A-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -1973,7 +2151,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18670
     name: Gistii A-Type 1MN Afterburner
+    volume: 5.0
   Gistii A-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 45.0
@@ -1995,7 +2175,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19349
     name: Gistii A-Type 5MN Microwarpdrive
+    volume: 10.0
   Gistii B-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2016,7 +2198,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18664
     name: Gistii B-Type 1MN Afterburner
+    volume: 5.0
   Gistii B-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 45.0
@@ -2038,7 +2222,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19343
     name: Gistii B-Type 5MN Microwarpdrive
+    volume: 10.0
   Gistii C-Type 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2059,7 +2245,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18658
     name: Gistii C-Type 1MN Afterburner
+    volume: 5.0
   Gistii C-Type 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 45.0
@@ -2081,7 +2269,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19337
     name: Gistii C-Type 5MN Microwarpdrive
+    volume: 10.0
   Gistum A-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2102,7 +2292,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 18672
     name: Gistum A-Type 10MN Afterburner
+    volume: 5.0
   Gistum A-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 180.0
@@ -2124,7 +2316,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 19351
     name: Gistum A-Type 50MN Microwarpdrive
+    volume: 10.0
   Gistum B-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2145,7 +2339,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 18666
     name: Gistum B-Type 10MN Afterburner
+    volume: 5.0
   Gistum B-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 180.0
@@ -2167,7 +2363,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 19345
     name: Gistum B-Type 50MN Microwarpdrive
+    volume: 10.0
   Gistum C-Type 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2188,7 +2386,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 18660
     name: Gistum C-Type 10MN Afterburner
+    volume: 5.0
   Gistum C-Type 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 180.0
@@ -2210,7 +2410,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 19339
     name: Gistum C-Type 50MN Microwarpdrive
+    volume: 10.0
   Gotan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2231,7 +2433,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 14488
     name: Gotan's Modified 100MN Afterburner
+    volume: 5.0
   Gotan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 320.0
@@ -2254,7 +2458,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 14496
     name: Gotan's Modified 500MN Microwarpdrive
+    volume: 10.0
   Hakim's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2275,7 +2481,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 14486
     name: Hakim's Modified 100MN Afterburner
+    volume: 5.0
   Hakim's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 320.0
@@ -2298,7 +2506,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 14494
     name: Hakim's Modified 500MN Microwarpdrive
+    volume: 10.0
   Mizuro's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2319,7 +2529,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 150.0
     TechLevel: 1
+    id: 14484
     name: Mizuro's Modified 100MN Afterburner
+    volume: 5.0
   Mizuro's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9300000071525574
     CapacitorNeed: 320.0
@@ -2342,7 +2554,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 514.0
     TechLevel: 1
+    id: 14492
     name: Mizuro's Modified 500MN Microwarpdrive
+    volume: 10.0
   Republic Fleet 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2363,7 +2577,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15757
     name: Republic Fleet 100MN Afterburner
+    volume: 5.0
   Republic Fleet 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2384,7 +2600,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15753
     name: Republic Fleet 10MN Afterburner
+    volume: 5.0
   Republic Fleet 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2405,7 +2623,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 15749
     name: Republic Fleet 1MN Afterburner
+    volume: 5.0
   Republic Fleet 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 320.0
@@ -2427,7 +2647,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15755
     name: Republic Fleet 500MN Microwarpdrive
+    volume: 10.0
   Republic Fleet 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 180.0
@@ -2449,7 +2671,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15751
     name: Republic Fleet 50MN Microwarpdrive
+    volume: 10.0
   Republic Fleet 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 45.0
@@ -2471,7 +2695,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 15747
     name: Republic Fleet 5MN Microwarpdrive
+    volume: 10.0
   Setele's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2492,7 +2718,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 160.0
     TechLevel: 1
+    id: 14504
     name: Setele's Modified 100MN Afterburner
+    volume: 5.0
   Setele's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.9700000286102295
     CapacitorNeed: 280.0
@@ -2515,7 +2743,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 518.0
     TechLevel: 1
+    id: 14512
     name: Setele's Modified 500MN Microwarpdrive
+    volume: 10.0
   Shadow Serpentis 10000MN Afterburner:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -2542,7 +2772,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 41241
     name: Shadow Serpentis 10000MN Afterburner
+    volume: 4000.0
   Shadow Serpentis 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2563,7 +2795,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14104
     name: Shadow Serpentis 100MN Afterburner
+    volume: 5.0
   Shadow Serpentis 10MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 70.0
@@ -2584,7 +2818,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14108
     name: Shadow Serpentis 10MN Afterburner
+    volume: 5.0
   Shadow Serpentis 1MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 18.0
@@ -2605,7 +2841,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 145.0
     TechLevel: 1
+    id: 14112
     name: Shadow Serpentis 1MN Afterburner
+    volume: 5.0
   Shadow Serpentis 50000MN Microwarpdrive:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 485
@@ -2634,7 +2872,9 @@ items:
     SpeedBoostFactor: 1500000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 41255
     name: Shadow Serpentis 50000MN Microwarpdrive
+    volume: 4000.0
   Shadow Serpentis 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 280.0
@@ -2656,7 +2896,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14116
     name: Shadow Serpentis 500MN Microwarpdrive
+    volume: 10.0
   Shadow Serpentis 50MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 160.0
@@ -2678,7 +2920,9 @@ items:
     SpeedBoostFactor: 15000000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14120
     name: Shadow Serpentis 50MN Microwarpdrive
+    volume: 10.0
   Shadow Serpentis 5MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorNeed: 40.0
@@ -2700,7 +2944,9 @@ items:
     SpeedBoostFactor: 1500000
     SpeedFactor: 512.0
     TechLevel: 1
+    id: 14124
     name: Shadow Serpentis 5MN Microwarpdrive
+    volume: 10.0
   Thukker Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 241.0
@@ -2721,7 +2967,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
     TechLevel: 1
+    id: 19491
     name: Thukker Modified 100MN Afterburner
+    volume: 5.0
   Tobias' Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2742,7 +2990,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 165.0
     TechLevel: 1
+    id: 14490
     name: Tobias' Modified 100MN Afterburner
+    volume: 5.0
   Tobias' Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -2765,7 +3015,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 520.0
     TechLevel: 1
+    id: 14498
     name: Tobias' Modified 500MN Microwarpdrive
+    volume: 10.0
   Tuvan's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0
@@ -2786,7 +3038,9 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 155.0
     TechLevel: 1
+    id: 14502
     name: Tuvan's Modified 100MN Afterburner
+    volume: 5.0
   Tuvan's Modified 500MN Microwarpdrive:
     CapacitorCapacityMultiplier: 0.949999988079071
     CapacitorNeed: 280.0
@@ -2809,4 +3063,6 @@ items:
     SpeedBoostFactor: 150000000
     SpeedFactor: 516.0
     TechLevel: 1
+    id: 14510
     name: Tuvan's Modified 500MN Microwarpdrive
+    volume: 10.0

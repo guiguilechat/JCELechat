@@ -49,7 +49,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27557
     name: Angel Large Artillery Battery
+    volume: 5000.0
   Angel Large AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -100,7 +102,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27554
     name: Angel Large AutoCannon Battery
+    volume: 5000.0
   Angel Medium Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -151,7 +155,9 @@ items:
     TypeColorScheme: 27644
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27644
     name: Angel Medium Artillery Battery
+    volume: 1000.0
   Angel Medium AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -202,7 +208,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27647
     name: Angel Medium AutoCannon Battery
+    volume: 1000.0
   Angel Small Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -253,7 +261,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27650
     name: Angel Small Artillery Battery
+    volume: 500.0
   Angel Small AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -304,7 +314,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27653
     name: Angel Small AutoCannon Battery
+    volume: 500.0
   Domination Large Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -355,7 +367,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27559
     name: Domination Large Artillery Battery
+    volume: 5000.0
   Domination Large AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -406,7 +420,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27556
     name: Domination Large AutoCannon Battery
+    volume: 5000.0
   Domination Medium Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -457,7 +473,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27646
     name: Domination Medium Artillery Battery
+    volume: 1000.0
   Domination Medium AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -508,7 +526,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27649
     name: Domination Medium AutoCannon Battery
+    volume: 1000.0
   Domination Small Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -559,7 +579,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27652
     name: Domination Small Artillery Battery
+    volume: 500.0
   Domination Small AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -610,7 +632,9 @@ items:
     TypeColorScheme: 11318
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27655
     name: Domination Small AutoCannon Battery
+    volume: 500.0
   Large Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -660,7 +684,9 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16689
     name: Large Artillery Battery
+    volume: 5000.0
   Large AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -710,7 +736,9 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17770
     name: Large AutoCannon Battery
+    volume: 5000.0
   Medium Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -760,7 +788,9 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16688
     name: Medium Artillery Battery
+    volume: 1000.0
   Medium AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -810,7 +840,9 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17771
     name: Medium AutoCannon Battery
+    volume: 1000.0
   Small Artillery Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -860,7 +892,9 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16631
     name: Small Artillery Battery
+    volume: 500.0
   Small AutoCannon Battery:
     AmmoCapacity: 10000
     AnchoringDelay: 5000
@@ -910,4 +944,6 @@ items:
     TypeColorScheme: 11342
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17772
     name: Small AutoCannon Battery
+    volume: 500.0

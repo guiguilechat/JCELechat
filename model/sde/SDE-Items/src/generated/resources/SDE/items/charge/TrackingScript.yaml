@@ -11,7 +11,9 @@ items:
     MaxRangeBonusBonus: 100
     TechLevel: 1
     TrackingSpeedBonusBonus: -100
+    id: 28999
     name: Optimal Range Script
+    volume: 1.0
   Tracking Speed Script:
     AoeCloudSizeBonusBonus: 100
     AoeVelocityBonusBonus: 100
@@ -24,4 +26,6 @@ items:
     MaxRangeBonusBonus: -100
     TechLevel: 1
     TrackingSpeedBonusBonus: 100
+    id: 29001
     name: Tracking Speed Script
+    volume: 1.0

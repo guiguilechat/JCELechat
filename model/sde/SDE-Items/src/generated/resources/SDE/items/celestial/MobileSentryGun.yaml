@@ -25,7 +25,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11320
+    id: 11580
     name: BH Sentry Gun
+    volume: 1000.0
   Guardian Sentry Gun I:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -52,7 +54,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11324
+    id: 10766
     name: Guardian Sentry Gun I
+    volume: 1000.0
   Guardian Sentry Gun II:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -79,7 +83,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11324
+    id: 10767
     name: Guardian Sentry Gun II
+    volume: 1000.0
   Guardian Sentry Gun III:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -106,7 +112,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11324
+    id: 10768
     name: Guardian Sentry Gun III
+    volume: 1000.0
   Guardian Sentry Gun IV:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -133,7 +141,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11324
+    id: 10769
     name: Guardian Sentry Gun IV
+    volume: 1000.0
   Guardian Sentry Gun V:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -160,7 +170,9 @@ items:
     Speed: 2000
     StructureUniformity: 1.0
     TypeColorScheme: 11324
+    id: 10770
     name: Guardian Sentry Gun V
+    volume: 1000.0
   Sentinel Sentry Gun I:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -187,7 +199,9 @@ items:
     Speed: 7000
     StructureUniformity: 1.0
     TypeColorScheme: 11313
+    id: 10648
     name: Sentinel Sentry Gun I
+    volume: 1000.0
   Sentinel Sentry Gun II:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -214,7 +228,9 @@ items:
     Speed: 7000
     StructureUniformity: 1.0
     TypeColorScheme: 11313
+    id: 10665
     name: Sentinel Sentry Gun II
+    volume: 1000.0
   Sentinel Sentry Gun III:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -241,7 +257,9 @@ items:
     Speed: 7000
     StructureUniformity: 1.0
     TypeColorScheme: 11313
+    id: 10666
     name: Sentinel Sentry Gun III
+    volume: 1000.0
   Sentinel Sentry Gun IV:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -268,7 +286,9 @@ items:
     Speed: 7000
     StructureUniformity: 1.0
     TypeColorScheme: 11313
+    id: 10667
     name: Sentinel Sentry Gun IV
+    volume: 1000.0
   Sentinel Sentry Gun V:
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -295,4 +315,6 @@ items:
     Speed: 7000
     StructureUniformity: 1.0
     TypeColorScheme: 11313
+    id: 10668
     name: Sentinel Sentry Gun V
+    volume: 1000.0

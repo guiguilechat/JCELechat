@@ -1,43 +1,85 @@
 items:
   Agent Rulie Isoryn:
+    id: 32348
     name: Agent Rulie Isoryn
+    volume: 275000.0
   Angel Recovery Team:
+    id: 32388
     name: Angel Recovery Team
+    volume: 255000.0
   Civilian Hulk:
+    id: 32447
     name: Civilian Hulk
+    volume: 200000.0
   Federation Courier:
+    id: 29292
     name: Federation Courier
+    volume: 275000.0
   Federation Industrial:
+    id: 29144
     name: Federation Industrial
+    volume: 275000.0
   Federation Industrial Vessel:
+    id: 2878
     name: Federation Industrial Vessel
+    volume: 275000.0
   Gallente Personnel Transport:
+    id: 16160
     name: Gallente Personnel Transport
+    volume: 1090000.0
   Gallente Transport Ship:
+    id: 11714
     name: Gallente Transport Ship
+    volume: 1105000.0
   Hostile Hulk:
+    id: 32446
     name: Hostile Hulk
+    volume: 200000.0
   Imperial Courier:
+    id: 29290
     name: Imperial Courier
+    volume: 260000.0
   Imperial Industrial:
+    id: 29145
     name: Imperial Industrial
+    volume: 260000.0
   Imperial Industrial Vessel:
+    id: 2885
     name: Imperial Industrial Vessel
+    volume: 260000.0
   Ishukone Hauler:
+    id: 32455
     name: Ishukone Hauler
+    volume: 270000.0
   Republic Courier:
+    id: 29293
     name: Republic Courier
+    volume: 255000.0
   Republic Industrial:
+    id: 29146
     name: Republic Industrial
+    volume: 255000.0
   Republic Industrial Vessel:
+    id: 2884
     name: Republic Industrial Vessel
+    volume: 255000.0
   State Courier:
+    id: 29291
     name: State Courier
+    volume: 270000.0
   State Industrial:
+    id: 29147
     name: State Industrial
+    volume: 270000.0
   State Industrial Vessel:
+    id: 2883
     name: State Industrial Vessel
+    volume: 270000.0
   State Transport:
+    id: 30948
     name: State Transport
+    volume: 270000.0
   The Incredible Hulk:
+    id: 29466
     name: The Incredible Hulk
+    volume: 200000.0

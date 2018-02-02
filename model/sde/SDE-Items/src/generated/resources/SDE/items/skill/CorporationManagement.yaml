@@ -8,7 +8,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    id: 3369
     name: CFO Training
+    volume: 0.01
   Chief Science Officer:
     BaseDefenderAllyCost: 10000000
     DurationSkillBonus: 1
@@ -22,14 +24,18 @@ items:
     ResearchGangSizeBonus: 1
     SecondaryAttribute: 164
     SkillTimeConstant: 6.0
+    id: 3370
     name: Chief Science Officer
+    volume: 0.01
   Corporation Management:
     BaseDefenderAllyCost: 10000000
     CorporationMemberBonus: 20
     PrimaryAttribute: 166
     SecondaryAttribute: 164
     SkillTimeConstant: 1.0
+    id: 3363
     name: Corporation Management
+    volume: 0.01
   Diplomatic Relations:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -40,7 +46,9 @@ items:
     SecondaryAttribute: 164
     SkillAllyCostModifierBonus: -5
     SkillTimeConstant: 2.0
+    id: 3368
     name: Diplomatic Relations
+    volume: 0.01
   Empire Control:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -50,7 +58,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 5.0
+    id: 3732
     name: Empire Control
+    volume: 0.01
   Factory Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -60,7 +70,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 5.0
+    id: 3366
     name: Factory Management
+    volume: 0.01
   Intelligence Analyst:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -70,7 +82,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 3372
     name: Intelligence Analyst
+    volume: 0.01
   Megacorp Management:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -80,7 +94,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    id: 3731
     name: Megacorp Management
+    volume: 0.01
   Public Relations:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -90,7 +106,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    id: 3371
     name: Public Relations
+    volume: 0.01
   Refinery Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -100,7 +118,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
+    id: 3367
     name: Refinery Management
+    volume: 0.01
   Sovereignty:
     BaseDefenderAllyCost: 10000000
     CanNotBeTrainedOnTrial: 1
@@ -110,7 +130,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
+    id: 12241
     name: Sovereignty
+    volume: 0.01
   Starbase Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -120,7 +142,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 3365
     name: Starbase Management
+    volume: 0.01
   Station Management:
     BaseDefenderAllyCost: 10000000
     PrimaryAttribute: 166
@@ -130,4 +154,6 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 164
     SkillTimeConstant: 4.0
+    id: 3364
     name: Station Management
+    volume: 0.01

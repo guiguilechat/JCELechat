@@ -8,7 +8,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 28412
     name: Compressed Magma Mercoxit
+    volume: 0.1
   Compressed Mercoxit:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -18,7 +20,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 28413
     name: Compressed Mercoxit
+    volume: 0.1
   Compressed Vitreous Mercoxit:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 1.0
@@ -28,7 +32,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 28414
     name: Compressed Vitreous Mercoxit
+    volume: 0.1
   Magma Mercoxit:
     AsteroidMetaLevel: 2
     AsteroidRadiusGrowthFactor: 0.8500000238418579
@@ -40,7 +46,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 17869
     name: Magma Mercoxit
+    volume: 40.0
   Mercoxit:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 0.8500000238418579
@@ -52,7 +60,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 11396
     name: Mercoxit
+    volume: 40.0
   Vitreous Mercoxit:
     AsteroidMetaLevel: 3
     AsteroidRadiusGrowthFactor: 0.8500000238418579
@@ -64,7 +74,9 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 17870
     name: Vitreous Mercoxit
+    volume: 40.0
   Zuthrine:
     AsteroidRadiusGrowthFactor: 1.0
     AsteroidRadiusUnitSize: 90
@@ -73,4 +85,6 @@ items:
     OreBasicType: 11396
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
+    id: 28626
     name: Zuthrine
+    volume: 40.0

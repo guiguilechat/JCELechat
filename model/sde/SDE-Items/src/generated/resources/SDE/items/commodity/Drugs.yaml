@@ -1,27 +1,53 @@
 items:
   Blue Pill:
+    id: 3707
     name: Blue Pill
+    volume: 0.2
   Crash:
+    id: 3705
     name: Crash
+    volume: 0.2
   Crates of Crystal Eggs:
+    id: 26780
     name: Crates of Crystal Eggs
+    volume: 90.0
   Crystal Egg:
+    id: 3824
     name: Crystal Egg
+    volume: 0.5
   Drop:
+    id: 3709
     name: Drop
+    volume: 0.2
   Exile:
+    id: 3818
     name: Exile
+    volume: 1.0
   Frentix:
+    id: 3822
     name: Frentix
+    volume: 0.2
   Large Crates of Crystal Eggs:
+    id: 2711
     name: Large Crates of Crystal Eggs
+    volume: 500.0
   Mindflood:
+    id: 3826
     name: Mindflood
+    volume: 0.2
   Nerve Sticks:
+    id: 3703
     name: Nerve Sticks
+    volume: 0.2
   Sooth Sayer:
+    id: 3820
     name: Sooth Sayer
+    volume: 1.0
   Vitoc:
+    id: 3713
     name: Vitoc
+    volume: 0.5
   X-Instinct:
+    id: 3711
     name: X-Instinct
+    volume: 1.0

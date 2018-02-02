@@ -21,7 +21,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35843
     name: Large Administration Hub
+    volume: 4000.0
   Medium Administration Hub:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -44,7 +46,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35842
     name: Medium Administration Hub
+    volume: 4000.0
   X-Large Administration Hub:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -67,4 +71,6 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35844
     name: X-Large Administration Hub
+    volume: 4000.0

@@ -26,7 +26,9 @@ items:
     SubsystemBonusAmarrDefensive2: 10
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29964
     name: OLD Legion Defensive - Adaptive Augmenter
+    volume: 40.0
   OLD Legion Defensive - Augmented Plating:
     ArmorHPBonusAdd: 3750
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -52,7 +54,9 @@ items:
     SubsystemBonusAmarrDefensive: 7.5
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29966
     name: OLD Legion Defensive - Augmented Plating
+    volume: 40.0
   OLD Legion Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 3750
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -78,7 +82,9 @@ items:
     SubsystemBonusAmarrDefensive: 10.0
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29965
     name: OLD Legion Defensive - Nanobot Injector
+    volume: 40.0
   OLD Legion Defensive - Warfare Processor:
     ArmorHPBonusAdd: 3300
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -105,7 +111,9 @@ items:
     SubSystemSlot: 126
     SubsystemBonusAmarrDefensive: 2.0
     TechLevel: 3
+    id: 29967
     name: OLD Legion Defensive - Warfare Processor
+    volume: 40.0
   OLD Legion Electronics - Dissolution Sequencer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 380
@@ -125,7 +133,9 @@ items:
     SubsystemBonusAmarrElectronic: 15
     SubsystemBonusAmarrElectronic2: 5
     TechLevel: 3
+    id: 30040
     name: OLD Legion Electronics - Dissolution Sequencer
+    volume: 40.0
   OLD Legion Electronics - Emergent Locus Analyzer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuNeedBonus: -99
@@ -148,7 +158,9 @@ items:
     SubsystemBonusAmarrElectronic2: 20
     TechLevel: 3
     VirusStrengthBonus: 10
+    id: 30042
     name: OLD Legion Electronics - Emergent Locus Analyzer
+    volume: 40.0
   OLD Legion Electronics - Energy Parasitic Complex:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 375
@@ -167,7 +179,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusAmarrElectronic: 10
     TechLevel: 3
+    id: 30036
     name: OLD Legion Electronics - Energy Parasitic Complex
+    volume: 40.0
   OLD Legion Electronics - Tactical Targeting Network:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 400
@@ -186,7 +200,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusAmarrElectronic2: 15
     TechLevel: 3
+    id: 30038
     name: OLD Legion Electronics - Tactical Targeting Network
+    volume: 40.0
   OLD Legion Engineering - Augmented Capacitor Reservoir:
     CapacitorCapacity: 2225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -205,7 +221,9 @@ items:
     SubsystemBonusAmarrCore: 5
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30171
     name: OLD Legion Engineering - Augmented Capacitor Reservoir
+    volume: 40.0
   OLD Legion Engineering - Capacitor Regeneration Matrix:
     CapacitorCapacity: 2225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -222,7 +240,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusAmarrCore: -5
     TechLevel: 3
+    id: 30173
     name: OLD Legion Engineering - Capacitor Regeneration Matrix
+    volume: 40.0
   OLD Legion Engineering - Power Core Multiplier:
     CapacitorCapacity: 1575.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -242,7 +262,9 @@ items:
     SubsystemBonusAmarrCore: 5
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30169
     name: OLD Legion Engineering - Power Core Multiplier
+    volume: 40.0
   OLD Legion Engineering - Supplemental Coolant Injector:
     CapacitorCapacity: 1575.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -259,7 +281,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusAmarrCore: -5
     TechLevel: 3
+    id: 30175
     name: OLD Legion Engineering - Supplemental Coolant Injector
+    volume: 40.0
   OLD Legion Offensive - Assault Optimization:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -278,7 +302,9 @@ items:
     SubsystemBonusAmarrOffensive: -5
     SubsystemBonusAmarrOffensive2: 5
     TechLevel: 3
+    id: 30118
     name: OLD Legion Offensive - Assault Optimization
+    volume: 40.0
   OLD Legion Offensive - Covert Reconfiguration:
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     FitsToShipType: 29986
@@ -295,7 +321,9 @@ items:
     SubsystemBonusAmarrOffensive: -10
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 30120
     name: OLD Legion Offensive - Covert Reconfiguration
+    volume: 40.0
   OLD Legion Offensive - Drone Synthesis Projector:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -316,7 +344,9 @@ items:
     SubsystemBonusAmarrOffensive3: 7.5
     TechLevel: 3
     TurretHardPointModifier: 3
+    id: 30117
     name: OLD Legion Offensive - Drone Synthesis Projector
+    volume: 40.0
   OLD Legion Offensive - Liquid Crystal Magnifiers:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -335,7 +365,9 @@ items:
     SubsystemBonusAmarrOffensive3: 10.0
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30119
     name: OLD Legion Offensive - Liquid Crystal Magnifiers
+    volume: 40.0
   OLD Legion Propulsion - Chassis Optimization:
     Agility: 0.6190000176429749
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -351,7 +383,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusAmarrPropulsion: 5
     TechLevel: 3
+    id: 30076
     name: OLD Legion Propulsion - Chassis Optimization
+    volume: 40.0
   OLD Legion Propulsion - Fuel Catalyst:
     Agility: 0.5070000290870667
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -367,7 +401,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusAmarrPropulsion: 10
     TechLevel: 3
+    id: 30078
     name: OLD Legion Propulsion - Fuel Catalyst
+    volume: 40.0
   OLD Legion Propulsion - Interdiction Nullifier:
     Agility: 0.7319999933242798
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -383,7 +419,9 @@ items:
     SubsystemBonusAmarrPropulsion: -5
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    id: 30082
     name: OLD Legion Propulsion - Interdiction Nullifier
+    volume: 40.0
   OLD Legion Propulsion - Wake Limiter:
     Agility: 0.5630000233650208
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -399,7 +437,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusAmarrPropulsion: -5
     TechLevel: 3
+    id: 30080
     name: OLD Legion Propulsion - Wake Limiter
+    volume: 40.0
   OLD Loki Defensive - Adaptive Augmenter:
     ArmorHPBonusAdd: 3300
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -427,7 +467,9 @@ items:
     SubsystemBonusMinmatarDefensive: -4.0
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29975
     name: OLD Loki Defensive - Adaptive Augmenter
+    volume: 40.0
   OLD Loki Defensive - Adaptive Shielding:
     ArmorHPBonusAdd: 2050
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -456,7 +498,9 @@ items:
     SubsystemBonusMinmatarDefensive2: 10
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29974
     name: OLD Loki Defensive - Adaptive Shielding
+    volume: 40.0
   OLD Loki Defensive - Amplification Node:
     ArmorHPBonusAdd: 1650
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -483,7 +527,9 @@ items:
     SubsystemBonusMinmatarDefensive: -5.0
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29976
     name: OLD Loki Defensive - Amplification Node
+    volume: 40.0
   OLD Loki Defensive - Warfare Processor:
     ArmorHPBonusAdd: 2050
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -510,7 +556,9 @@ items:
     SubSystemSlot: 126
     SubsystemBonusMinmatarDefensive: 2.0
     TechLevel: 3
+    id: 29977
     name: OLD Loki Defensive - Warfare Processor
+    volume: 40.0
   OLD Loki Electronics - Dissolution Sequencer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 335
@@ -531,7 +579,9 @@ items:
     SubsystemBonusMinmatarElectronic: 15
     SubsystemBonusMinmatarElectronic2: 5
     TechLevel: 3
+    id: 30070
     name: OLD Loki Electronics - Dissolution Sequencer
+    volume: 40.0
   OLD Loki Electronics - Emergent Locus Analyzer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuNeedBonus: -99
@@ -553,7 +603,9 @@ items:
     SubsystemBonusMinmatarElectronic2: 20
     TechLevel: 3
     VirusStrengthBonus: 10
+    id: 30072
     name: OLD Loki Electronics - Emergent Locus Analyzer
+    volume: 40.0
   OLD Loki Electronics - Immobility Drivers:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 320
@@ -572,7 +624,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusMinmatarElectronic: 30
     TechLevel: 3
+    id: 30066
     name: OLD Loki Electronics - Immobility Drivers
+    volume: 40.0
   OLD Loki Electronics - Tactical Targeting Network:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 355
@@ -591,7 +645,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusMinmatarElectronic2: 15
     TechLevel: 3
+    id: 30068
     name: OLD Loki Electronics - Tactical Targeting Network
+    volume: 40.0
   OLD Loki Engineering - Augmented Capacitor Reservoir:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -611,7 +667,9 @@ items:
     SubsystemBonusMinmatarCore: 5
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30161
     name: OLD Loki Engineering - Augmented Capacitor Reservoir
+    volume: 40.0
   OLD Loki Engineering - Capacitor Regeneration Matrix:
     CapacitorCapacity: 2100.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -629,7 +687,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusMinmatarCore: -5
     TechLevel: 3
+    id: 30163
     name: OLD Loki Engineering - Capacitor Regeneration Matrix
+    volume: 40.0
   OLD Loki Engineering - Power Core Multiplier:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -649,7 +709,9 @@ items:
     SubsystemBonusMinmatarCore: 5
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30159
     name: OLD Loki Engineering - Power Core Multiplier
+    volume: 40.0
   OLD Loki Engineering - Supplemental Coolant Injector:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -667,7 +729,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusMinmatarCore: -5
     TechLevel: 3
+    id: 30165
     name: OLD Loki Engineering - Supplemental Coolant Injector
+    volume: 40.0
   OLD Loki Offensive - Covert Reconfiguration:
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     FitsToShipType: 29990
@@ -684,7 +748,9 @@ items:
     SubsystemBonusMinmatarOffensive: -5.0
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 30135
     name: OLD Loki Offensive - Covert Reconfiguration
+    volume: 40.0
   OLD Loki Offensive - Hardpoint Efficiency Configuration:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -706,7 +772,9 @@ items:
     SubsystemBonusMinmatarOffensive2: -7.5
     TechLevel: 3
     TurretHardPointModifier: 3
+    id: 30134
     name: OLD Loki Offensive - Hardpoint Efficiency Configuration
+    volume: 40.0
   OLD Loki Offensive - Projectile Scoping Array:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -726,7 +794,9 @@ items:
     SubsystemBonusMinmatarOffensive2: -7.5
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30133
     name: OLD Loki Offensive - Projectile Scoping Array
+    volume: 40.0
   OLD Loki Offensive - Turret Concurrence Registry:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -745,7 +815,9 @@ items:
     SubsystemBonusMinmatarOffensive3: 7.5
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30132
     name: OLD Loki Offensive - Turret Concurrence Registry
+    volume: 40.0
   OLD Loki Propulsion - Chassis Optimization:
     Agility: 0.6119999885559082
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -761,7 +833,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusMinmatarPropulsion: 5
     TechLevel: 3
+    id: 30106
     name: OLD Loki Propulsion - Chassis Optimization
+    volume: 40.0
   OLD Loki Propulsion - Fuel Catalyst:
     Agility: 0.5
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -777,7 +851,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusMinmatarPropulsion: 10
     TechLevel: 3
+    id: 30110
     name: OLD Loki Propulsion - Fuel Catalyst
+    volume: 40.0
   OLD Loki Propulsion - Intercalated Nanofibers:
     Agility: 0.5559999942779541
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -793,7 +869,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusMinmatarPropulsion: -5
     TechLevel: 3
+    id: 30108
     name: OLD Loki Propulsion - Intercalated Nanofibers
+    volume: 40.0
   OLD Loki Propulsion - Interdiction Nullifier:
     Agility: 0.7229999899864197
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -809,7 +887,9 @@ items:
     SubsystemBonusMinmatarPropulsion: -5
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    id: 30112
     name: OLD Loki Propulsion - Interdiction Nullifier
+    volume: 40.0
   OLD Proteus Defensive - Adaptive Augmenter:
     ArmorHPBonusAdd: 3200
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -837,7 +917,9 @@ items:
     SubsystemBonusGallenteDefensive2: 10
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29979
     name: OLD Proteus Defensive - Adaptive Augmenter
+    volume: 40.0
   OLD Proteus Defensive - Augmented Plating:
     ArmorHPBonusAdd: 3650
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -863,7 +945,9 @@ items:
     SubsystemBonusGallenteDefensive: 7.5
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29981
     name: OLD Proteus Defensive - Augmented Plating
+    volume: 40.0
   OLD Proteus Defensive - Nanobot Injector:
     ArmorHPBonusAdd: 3650
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -889,7 +973,9 @@ items:
     SubsystemBonusGallenteDefensive: 10.0
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29980
     name: OLD Proteus Defensive - Nanobot Injector
+    volume: 40.0
   OLD Proteus Defensive - Warfare Processor:
     ArmorHPBonusAdd: 3200
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -916,7 +1002,9 @@ items:
     SubSystemSlot: 126
     SubsystemBonusGallenteDefensive: 2.0
     TechLevel: 3
+    id: 29982
     name: OLD Proteus Defensive - Warfare Processor
+    volume: 40.0
   OLD Proteus Electronics - CPU Efficiency Gate:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 360
@@ -936,7 +1024,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusGallenteElectronic: 5
     TechLevel: 3
+    id: 30058
     name: OLD Proteus Electronics - CPU Efficiency Gate
+    volume: 40.0
   OLD Proteus Electronics - Dissolution Sequencer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 410
@@ -957,7 +1047,9 @@ items:
     SubsystemBonusGallenteElectronic: 15
     SubsystemBonusGallenteElectronic2: 5
     TechLevel: 3
+    id: 30060
     name: OLD Proteus Electronics - Dissolution Sequencer
+    volume: 40.0
   OLD Proteus Electronics - Emergent Locus Analyzer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuNeedBonus: -99
@@ -980,7 +1072,9 @@ items:
     SubsystemBonusGallenteElectronic2: 20
     TechLevel: 3
     VirusStrengthBonus: 10
+    id: 30062
     name: OLD Proteus Electronics - Emergent Locus Analyzer
+    volume: 40.0
   OLD Proteus Electronics - Friction Extension Processor:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 375
@@ -999,7 +1093,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusGallenteElectronic: 10
     TechLevel: 3
+    id: 30056
     name: OLD Proteus Electronics - Friction Extension Processor
+    volume: 40.0
   OLD Proteus Engineering - Augmented Capacitor Reservoir:
     CapacitorCapacity: 1400.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1020,7 +1116,9 @@ items:
     SubsystemBonusGallenteCore: 7.5
     SubsystemBonusGallenteCore2: 5.0
     TechLevel: 3
+    id: 30151
     name: OLD Proteus Engineering - Augmented Capacitor Reservoir
+    volume: 40.0
   OLD Proteus Engineering - Capacitor Regeneration Matrix:
     CapacitorCapacity: 1850.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1038,7 +1136,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusGallenteCore: -5.0
     TechLevel: 3
+    id: 30153
     name: OLD Proteus Engineering - Capacitor Regeneration Matrix
+    volume: 40.0
   OLD Proteus Engineering - Power Core Multiplier:
     CapacitorCapacity: 1400.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1057,7 +1157,9 @@ items:
     SubsystemBonusGallenteCore: 5.0
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30149
     name: OLD Proteus Engineering - Power Core Multiplier
+    volume: 40.0
   OLD Proteus Engineering - Supplemental Coolant Injector:
     CapacitorCapacity: 1400.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1075,7 +1177,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusGallenteCore: -5.0
     TechLevel: 3
+    id: 30155
     name: OLD Proteus Engineering - Supplemental Coolant Injector
+    volume: 40.0
   OLD Proteus Offensive - Covert Reconfiguration:
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     FitsToShipType: 29988
@@ -1092,7 +1196,9 @@ items:
     SubsystemBonusGallenteOffensive: 5.0
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 30130
     name: OLD Proteus Offensive - Covert Reconfiguration
+    volume: 40.0
   OLD Proteus Offensive - Dissonic Encoding Platform:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1111,7 +1217,9 @@ items:
     SubsystemBonusGallenteOffensive3: 7.5
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30127
     name: OLD Proteus Offensive - Dissonic Encoding Platform
+    volume: 40.0
   OLD Proteus Offensive - Drone Synthesis Projector:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1132,7 +1240,9 @@ items:
     SubsystemBonusGallenteOffensive3: 10.0
     TechLevel: 3
     TurretHardPointModifier: 3
+    id: 30129
     name: OLD Proteus Offensive - Drone Synthesis Projector
+    volume: 40.0
   OLD Proteus Offensive - Hybrid Propulsion Armature:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1152,7 +1262,9 @@ items:
     SubsystemBonusGallenteOffensive2: 10
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30128
     name: OLD Proteus Offensive - Hybrid Propulsion Armature
+    volume: 40.0
   OLD Proteus Propulsion - Gravitational Capacitor:
     Agility: 0.5270000100135803
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1169,7 +1281,9 @@ items:
     SubsystemBonusGallentePropulsion: 12.5
     SubsystemBonusGallentePropulsion2: -15.0
     TechLevel: 3
+    id: 30100
     name: OLD Proteus Propulsion - Gravitational Capacitor
+    volume: 40.0
   OLD Proteus Propulsion - Interdiction Nullifier:
     Agility: 0.7620000243186951
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1185,7 +1299,9 @@ items:
     SubsystemBonusGallentePropulsion: -5.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    id: 30102
     name: OLD Proteus Propulsion - Interdiction Nullifier
+    volume: 40.0
   OLD Proteus Propulsion - Localized Injectors:
     Agility: 0.5860000252723694
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1201,7 +1317,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusGallentePropulsion: -15.0
     TechLevel: 3
+    id: 30098
     name: OLD Proteus Propulsion - Localized Injectors
+    volume: 40.0
   OLD Proteus Propulsion - Wake Limiter:
     Agility: 0.5860000252723694
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1217,7 +1335,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusGallentePropulsion: -5.0
     TechLevel: 3
+    id: 30096
     name: OLD Proteus Propulsion - Wake Limiter
+    volume: 40.0
   OLD Tengu Defensive - Adaptive Shielding:
     ArmorHPBonusAdd: 2150
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1245,7 +1365,9 @@ items:
     SubsystemBonusCaldariDefensive2: 10
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29969
     name: OLD Tengu Defensive - Adaptive Shielding
+    volume: 40.0
   OLD Tengu Defensive - Amplification Node:
     ArmorHPBonusAdd: 2350
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1271,7 +1393,9 @@ items:
     SubsystemBonusCaldariDefensive: 10.0
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29970
     name: OLD Tengu Defensive - Amplification Node
+    volume: 40.0
   OLD Tengu Defensive - Supplemental Screening:
     ArmorHPBonusAdd: 2500
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1298,7 +1422,9 @@ items:
     SubsystemBonusCaldariDefensive2: -3
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 29971
     name: OLD Tengu Defensive - Supplemental Screening
+    volume: 40.0
   OLD Tengu Defensive - Warfare Processor:
     ArmorHPBonusAdd: 2150
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1325,7 +1451,9 @@ items:
     SubSystemSlot: 126
     SubsystemBonusCaldariDefensive: 2.0
     TechLevel: 3
+    id: 29972
     name: OLD Tengu Defensive - Warfare Processor
+    volume: 40.0
   OLD Tengu Electronics - CPU Efficiency Gate:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 420
@@ -1345,7 +1473,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusCaldariElectronic: 5.0
     TechLevel: 3
+    id: 30048
     name: OLD Tengu Electronics - CPU Efficiency Gate
+    volume: 40.0
   OLD Tengu Electronics - Dissolution Sequencer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 475
@@ -1366,7 +1496,9 @@ items:
     SubsystemBonusCaldariElectronic: 15.0
     SubsystemBonusCaldariElectronic2: 5
     TechLevel: 3
+    id: 30050
     name: OLD Tengu Electronics - Dissolution Sequencer
+    volume: 40.0
   OLD Tengu Electronics - Emergent Locus Analyzer:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuNeedBonus: -99
@@ -1388,7 +1520,9 @@ items:
     SubsystemBonusCaldariElectronic2: 20
     TechLevel: 3
     VirusStrengthBonus: 10
+    id: 30052
     name: OLD Tengu Electronics - Emergent Locus Analyzer
+    volume: 40.0
   OLD Tengu Electronics - Obfuscation Manifold:
     CovertOpsAndReconOpsCloakModuleDelay: 30000
     CpuOutput: 460
@@ -1406,7 +1540,9 @@ items:
     SubSystemSlot: 125
     SubsystemBonusCaldariElectronic: 12.5
     TechLevel: 3
+    id: 30046
     name: OLD Tengu Electronics - Obfuscation Manifold
+    volume: 40.0
   OLD Tengu Engineering - Augmented Capacitor Reservoir:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1425,7 +1561,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusCaldariCore: 5
     TechLevel: 3
+    id: 30141
     name: OLD Tengu Engineering - Augmented Capacitor Reservoir
+    volume: 40.0
   OLD Tengu Engineering - Capacitor Regeneration Matrix:
     CapacitorCapacity: 2100.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1442,7 +1580,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusCaldariCore: -5
     TechLevel: 3
+    id: 30143
     name: OLD Tengu Engineering - Capacitor Regeneration Matrix
+    volume: 40.0
   OLD Tengu Engineering - Power Core Multiplier:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1461,7 +1601,9 @@ items:
     SubsystemBonusCaldariCore: 5
     TechLevel: 3
     TurretHardPointModifier: 1
+    id: 30139
     name: OLD Tengu Engineering - Power Core Multiplier
+    volume: 40.0
   OLD Tengu Engineering - Supplemental Coolant Injector:
     CapacitorCapacity: 1225.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1478,7 +1620,9 @@ items:
     SubSystemSlot: 127
     SubsystemBonusCaldariCore: -5
     TechLevel: 3
+    id: 30145
     name: OLD Tengu Engineering - Supplemental Coolant Injector
+    volume: 40.0
   OLD Tengu Offensive - Accelerated Ejection Bay:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1498,7 +1642,9 @@ items:
     SubsystemBonusCaldariOffensive2: 5
     SubsystemBonusCaldariOffensive3: 10
     TechLevel: 3
+    id: 30122
     name: OLD Tengu Offensive - Accelerated Ejection Bay
+    volume: 40.0
   OLD Tengu Offensive - Covert Reconfiguration:
     CovertOpsAndReconOpsCloakModuleDelay: 5000
     FitsToShipType: 29984
@@ -1515,7 +1661,9 @@ items:
     SubSystemSlot: 128
     SubsystemBonusCaldariOffensive: -5.0
     TechLevel: 3
+    id: 30125
     name: OLD Tengu Offensive - Covert Reconfiguration
+    volume: 40.0
   OLD Tengu Offensive - Magnetic Infusion Basin:
     CapacitorCapacity: 450.0
     CovertCloakCPUPenalty: 10000
@@ -1535,7 +1683,9 @@ items:
     SubsystemBonusCaldariOffensive2: 5
     TechLevel: 3
     TurretHardPointModifier: 5
+    id: 30124
     name: OLD Tengu Offensive - Magnetic Infusion Basin
+    volume: 40.0
   OLD Tengu Offensive - Rifling Launcher Pattern:
     CovertCloakCPUPenalty: 10000
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1556,7 +1706,9 @@ items:
     SubsystemBonusCaldariOffensive: -5.0
     SubsystemBonusCaldariOffensive3: 10
     TechLevel: 3
+    id: 30123
     name: OLD Tengu Offensive - Rifling Launcher Pattern
+    volume: 40.0
   OLD Tengu Propulsion - Fuel Catalyst:
     Agility: 0.3869999945163727
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1572,7 +1724,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusCaldariPropulsion: 10.0
     TechLevel: 3
+    id: 30090
     name: OLD Tengu Propulsion - Fuel Catalyst
+    volume: 40.0
   OLD Tengu Propulsion - Gravitational Capacitor:
     Agility: 0.3869999945163727
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1589,7 +1743,9 @@ items:
     SubsystemBonusCaldariPropulsion: 12.5
     SubsystemBonusCaldariPropulsion2: -15.0
     TechLevel: 3
+    id: 30088
     name: OLD Tengu Propulsion - Gravitational Capacitor
+    volume: 40.0
   OLD Tengu Propulsion - Intercalated Nanofibers:
     Agility: 0.4300000071525574
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1605,7 +1761,9 @@ items:
     SubSystemSlot: 129
     SubsystemBonusCaldariPropulsion: -5.0
     TechLevel: 3
+    id: 30086
     name: OLD Tengu Propulsion - Intercalated Nanofibers
+    volume: 40.0
   OLD Tengu Propulsion - Interdiction Nullifier:
     Agility: 0.5590000152587891
     CovertOpsAndReconOpsCloakModuleDelay: 30000
@@ -1621,4 +1779,6 @@ items:
     SubsystemBonusCaldariPropulsion: -5.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
+    id: 30092
     name: OLD Tengu Propulsion - Interdiction Nullifier
+    volume: 40.0

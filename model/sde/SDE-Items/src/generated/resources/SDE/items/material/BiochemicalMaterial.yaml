@@ -1,97 +1,161 @@
 items:
   Pure Improved Blue Pill Booster:
     MoonMiningAmount: 1
+    id: 25241
     name: Pure Improved Blue Pill Booster
+    volume: 1.0
   Pure Improved Crash Booster:
     MoonMiningAmount: 1
+    id: 25335
     name: Pure Improved Crash Booster
+    volume: 1.0
   Pure Improved Drop Booster:
     MoonMiningAmount: 1
+    id: 25336
     name: Pure Improved Drop Booster
+    volume: 1.0
   Pure Improved Exile Booster:
     MoonMiningAmount: 1
+    id: 25337
     name: Pure Improved Exile Booster
+    volume: 1.0
   Pure Improved Frentix Booster:
     MoonMiningAmount: 1
+    id: 25339
     name: Pure Improved Frentix Booster
+    volume: 1.0
   Pure Improved Mindflood Booster:
     MoonMiningAmount: 1
+    id: 25338
     name: Pure Improved Mindflood Booster
+    volume: 1.0
   Pure Improved Sooth Sayer Booster:
     MoonMiningAmount: 1
+    id: 25341
     name: Pure Improved Sooth Sayer Booster
+    volume: 1.0
   Pure Improved X-Instinct Booster:
     MoonMiningAmount: 1
+    id: 25340
     name: Pure Improved X-Instinct Booster
+    volume: 1.0
   Pure Standard Blue Pill Booster:
     MoonMiningAmount: 1
+    id: 25237
     name: Pure Standard Blue Pill Booster
+    volume: 1.0
   Pure Standard Crash Booster:
     MoonMiningAmount: 1
+    id: 25242
     name: Pure Standard Crash Booster
+    volume: 1.0
   Pure Standard Drop Booster:
     MoonMiningAmount: 1
+    id: 25330
     name: Pure Standard Drop Booster
+    volume: 1.0
   Pure Standard Exile Booster:
     MoonMiningAmount: 1
+    id: 25331
     name: Pure Standard Exile Booster
+    volume: 1.0
   Pure Standard Frentix Booster:
     MoonMiningAmount: 1
+    id: 25252
     name: Pure Standard Frentix Booster
+    volume: 1.0
   Pure Standard Mindflood Booster:
     MoonMiningAmount: 1
+    id: 25332
     name: Pure Standard Mindflood Booster
+    volume: 1.0
   Pure Standard Sooth Sayer Booster:
     MoonMiningAmount: 1
+    id: 25334
     name: Pure Standard Sooth Sayer Booster
+    volume: 1.0
   Pure Standard X-Instinct Booster:
     MoonMiningAmount: 1
+    id: 25333
     name: Pure Standard X-Instinct Booster
+    volume: 1.0
   Pure Strong Blue Pill Booster:
     MoonMiningAmount: 1
+    id: 25283
     name: Pure Strong Blue Pill Booster
+    volume: 1.0
   Pure Strong Crash Booster:
     MoonMiningAmount: 1
+    id: 25342
     name: Pure Strong Crash Booster
+    volume: 1.0
   Pure Strong Drop Booster:
     MoonMiningAmount: 1
+    id: 25343
     name: Pure Strong Drop Booster
+    volume: 1.0
   Pure Strong Exile Booster:
     MoonMiningAmount: 1
+    id: 25344
     name: Pure Strong Exile Booster
+    volume: 1.0
   Pure Strong Frentix Booster:
     MoonMiningAmount: 1
+    id: 25346
     name: Pure Strong Frentix Booster
+    volume: 1.0
   Pure Strong Mindflood Booster:
     MoonMiningAmount: 1
+    id: 25345
     name: Pure Strong Mindflood Booster
+    volume: 1.0
   Pure Strong Sooth Sayer Booster:
     MoonMiningAmount: 1
+    id: 25348
     name: Pure Strong Sooth Sayer Booster
+    volume: 1.0
   Pure Strong X-Instinct Booster:
     MoonMiningAmount: 1
+    id: 25347
     name: Pure Strong X-Instinct Booster
+    volume: 1.0
   Pure Synth Blue Pill Booster:
     MoonMiningAmount: 1
+    id: 28686
     name: Pure Synth Blue Pill Booster
+    volume: 1.0
   Pure Synth Crash Booster:
     MoonMiningAmount: 1
+    id: 28687
     name: Pure Synth Crash Booster
+    volume: 1.0
   Pure Synth Drop Booster:
     MoonMiningAmount: 1
+    id: 28688
     name: Pure Synth Drop Booster
+    volume: 1.0
   Pure Synth Exile Booster:
     MoonMiningAmount: 1
+    id: 28689
     name: Pure Synth Exile Booster
+    volume: 1.0
   Pure Synth Frentix Booster:
     MoonMiningAmount: 1
+    id: 28690
     name: Pure Synth Frentix Booster
+    volume: 1.0
   Pure Synth Mindflood Booster:
     MoonMiningAmount: 1
+    id: 28691
     name: Pure Synth Mindflood Booster
+    volume: 1.0
   Pure Synth Sooth Sayer Booster:
     MoonMiningAmount: 1
+    id: 28692
     name: Pure Synth Sooth Sayer Booster
+    volume: 1.0
   Pure Synth X-Instinct Booster:
     MoonMiningAmount: 1
+    id: 28693
     name: Pure Synth X-Instinct Booster
+    volume: 1.0

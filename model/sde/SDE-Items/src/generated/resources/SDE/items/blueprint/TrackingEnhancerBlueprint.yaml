@@ -2,12 +2,18 @@ items:
   Republic Fleet Tracking Enhancer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 15966
     name: Republic Fleet Tracking Enhancer Blueprint
+    volume: 0.01
   Tracking Enhancer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 11616
     name: Tracking Enhancer I Blueprint
+    volume: 0.01
   Tracking Enhancer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 11848
     name: Tracking Enhancer II Blueprint
+    volume: 0.01

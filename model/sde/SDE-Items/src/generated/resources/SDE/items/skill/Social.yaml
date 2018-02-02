@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    id: 3359
     name: Connections
+    volume: 0.01
   Criminal Connections:
     CriminalConnectionsMutator: 0.4000000059604645
     PrimaryAttribute: 164
@@ -14,7 +16,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
+    id: 3361
     name: Criminal Connections
+    volume: 0.01
   DED Connections:
     BountySkillBonus: 1500
     PrimaryAttribute: 164
@@ -22,7 +26,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    id: 3362
     name: DED Connections
+    volume: 0.01
   Diplomacy:
     DiplomacyMutator: 0.4000000059604645
     PrimaryAttribute: 164
@@ -30,7 +36,9 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
+    id: 3357
     name: Diplomacy
+    volume: 0.01
   Distribution Connections:
     PrimaryAttribute: 164
     RequiredSkill1: 3443
@@ -39,7 +47,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    id: 3894
     name: Distribution Connections
+    volume: 0.01
   Fast Talk:
     FastTalkMutator: 5
     PrimaryAttribute: 164
@@ -47,7 +57,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
+    id: 3358
     name: Fast Talk
+    volume: 0.01
   Mining Connections:
     PrimaryAttribute: 164
     RequiredSkill1: 3380
@@ -56,7 +68,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    id: 3893
     name: Mining Connections
+    volume: 0.01
   Negotiation:
     NegotiationBonus: 5
     PrimaryAttribute: 164
@@ -64,7 +78,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    id: 3356
     name: Negotiation
+    volume: 0.01
   Security Connections:
     PrimaryAttribute: 164
     RequiredSkill1: 3355
@@ -73,10 +89,14 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
+    id: 3895
     name: Security Connections
+    volume: 0.01
   Social:
     PrimaryAttribute: 164
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     SocialMutator: 5
+    id: 3355
     name: Social
+    volume: 0.01

@@ -1,5 +1,9 @@
 items:
   Sansha's Dreadnought:
+    id: 37467
     name: Sansha's Dreadnought
+    volume: 1.85E7
   True Sansha's Dreadnought:
+    id: 41399
     name: True Sansha's Dreadnought
+    volume: 1.85E7

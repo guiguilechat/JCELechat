@@ -1,21 +1,41 @@
 items:
   Eystur Rhomben:
+    id: 2966
     name: Eystur Rhomben
+    volume: 20000.0
   Jel Rhomben:
+    id: 3524
     name: Jel Rhomben
+    volume: 20000.0
   Niarja Myelen:
+    id: 2909
     name: Niarja Myelen
+    volume: 20000.0
   Orkashu Myelen:
+    id: 3526
     name: Orkashu Myelen
+    volume: 20000.0
   Orkashu Pontine:
+    id: 3259
     name: Orkashu Pontine
+    volume: 20000.0
   Renyn Meten:
+    id: 2190
     name: Renyn Meten
+    volume: 20000.0
   Sansha's Nation Commander:
+    id: 3492
     name: Sansha's Nation Commander
+    volume: 20000.0
   Schmaeel Medulla:
+    id: 2907
     name: Schmaeel Medulla
+    volume: 20000.0
   Tama Cerebellum:
+    id: 2939
     name: Tama Cerebellum
+    volume: 20000.0
   Youl Meten:
+    id: 3525
     name: Youl Meten
+    volume: 20000.0

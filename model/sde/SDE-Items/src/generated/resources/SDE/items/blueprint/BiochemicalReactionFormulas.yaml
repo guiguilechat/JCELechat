@@ -1,65 +1,129 @@
 items:
   Improved Blue Pill Booster Reaction Formula:
+    id: 46251
     name: Improved Blue Pill Booster Reaction Formula
+    volume: 0.01
   Improved Crash Booster Reaction Formula:
+    id: 46236
     name: Improved Crash Booster Reaction Formula
+    volume: 0.01
   Improved Drop Booster Reaction Formula:
+    id: 46237
     name: Improved Drop Booster Reaction Formula
+    volume: 0.01
   Improved Exile Booster Reaction Formula:
+    id: 46238
     name: Improved Exile Booster Reaction Formula
+    volume: 0.01
   Improved Frentix Booster Reaction Formula:
+    id: 46241
     name: Improved Frentix Booster Reaction Formula
+    volume: 0.01
   Improved Mindflood Booster Reaction Formula:
+    id: 46240
     name: Improved Mindflood Booster Reaction Formula
+    volume: 0.01
   Improved Sooth Sayer Booster Reaction Formula:
+    id: 46243
     name: Improved Sooth Sayer Booster Reaction Formula
+    volume: 0.01
   Improved X-Instinct Booster Reaction Formula:
+    id: 46242
     name: Improved X-Instinct Booster Reaction Formula
+    volume: 0.01
   Standard Blue Pill Booster Reaction Formula:
+    id: 46230
     name: Standard Blue Pill Booster Reaction Formula
+    volume: 0.01
   Standard Crash Booster Reaction Formula:
+    id: 46231
     name: Standard Crash Booster Reaction Formula
+    volume: 0.01
   Standard Drop Booster Reaction Formula:
+    id: 46223
     name: Standard Drop Booster Reaction Formula
+    volume: 0.01
   Standard Exile Booster Reaction Formula:
+    id: 46224
     name: Standard Exile Booster Reaction Formula
+    volume: 0.01
   Standard Frentix Booster Reaction Formula:
+    id: 46222
     name: Standard Frentix Booster Reaction Formula
+    volume: 0.01
   Standard Mindflood Booster Reaction Formula:
+    id: 46225
     name: Standard Mindflood Booster Reaction Formula
+    volume: 0.01
   Standard Sooth Sayer Booster Reaction Formula:
+    id: 46227
     name: Standard Sooth Sayer Booster Reaction Formula
+    volume: 0.01
   Standard X-Instinct Booster Reaction Formula:
+    id: 46226
     name: Standard X-Instinct Booster Reaction Formula
+    volume: 0.01
   Strong Blue Pill Booster Reaction Formula:
+    id: 46235
     name: Strong Blue Pill Booster Reaction Formula
+    volume: 0.01
   Strong Crash Booster Reaction Formula:
+    id: 46244
     name: Strong Crash Booster Reaction Formula
+    volume: 0.01
   Strong Drop Booster Reaction Formula:
+    id: 46245
     name: Strong Drop Booster Reaction Formula
+    volume: 0.01
   Strong Exile Booster Reaction Formula:
+    id: 46246
     name: Strong Exile Booster Reaction Formula
+    volume: 0.01
   Strong Frentix Booster Reaction Formula:
+    id: 46248
     name: Strong Frentix Booster Reaction Formula
+    volume: 0.01
   Strong Mindflood Booster Reaction Formula:
+    id: 46247
     name: Strong Mindflood Booster Reaction Formula
+    volume: 0.01
   Strong Sooth Sayer Booster Reaction Formula:
+    id: 46250
     name: Strong Sooth Sayer Booster Reaction Formula
+    volume: 0.01
   Strong X-Instinct Booster Reaction Formula:
+    id: 46249
     name: Strong X-Instinct Booster Reaction Formula
+    volume: 0.01
   Synth Blue Pill Booster Reaction Formula:
+    id: 46233
     name: Synth Blue Pill Booster Reaction Formula
+    volume: 0.01
   Synth Crash Booster Reaction Formula:
+    id: 46234
     name: Synth Crash Booster Reaction Formula
+    volume: 0.01
   Synth Drop Booster Reaction Formula:
+    id: 46219
     name: Synth Drop Booster Reaction Formula
+    volume: 0.01
   Synth Exile Booster Reaction Formula:
+    id: 46220
     name: Synth Exile Booster Reaction Formula
+    volume: 0.01
   Synth Frentix Booster Reaction Formula:
+    id: 46221
     name: Synth Frentix Booster Reaction Formula
+    volume: 0.01
   Synth Mindflood Booster Reaction Formula:
+    id: 46228
     name: Synth Mindflood Booster Reaction Formula
+    volume: 0.01
   Synth Sooth Sayer Booster Reaction Formula:
+    id: 46229
     name: Synth Sooth Sayer Booster Reaction Formula
+    volume: 0.01
   Synth X-Instinct Booster Reaction Formula:
+    id: 46232
     name: Synth X-Instinct Booster Reaction Formula
+    volume: 0.01

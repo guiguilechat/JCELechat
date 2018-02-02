@@ -71,7 +71,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 3768
     name: Amarr Police Frigate
+    volume: 18100.0
   Astero:
     Agility: 2.869999885559082
     ArmorEmDamageResonance: 0.5
@@ -157,7 +159,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 33468
     name: Astero
+    volume: 16500.0
   Atron:
     Agility: 2.799999952316284
     ArmorEmDamageResonance: 0.5
@@ -232,7 +236,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 608
     name: Atron
+    volume: 22500.0
   Bantam:
     Agility: 4.099999904632568
     ArmorEmDamageResonance: 0.5
@@ -312,7 +318,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 582
     name: Bantam
+    volume: 20000.0
   Breacher:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -389,7 +397,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 598
     name: Breacher
+    volume: 20000.0
   Burst:
     Agility: 3.9000000953674316
     ArmorEmDamageResonance: 0.4000000059604645
@@ -469,7 +479,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 599
     name: Burst
+    volume: 17100.0
   Caldari Navy Hookbill:
     Agility: 3.299999952316284
     ArmorEmDamageResonance: 0.5
@@ -548,7 +560,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17619
     name: Caldari Navy Hookbill
+    volume: 16500.0
   Cockroach:
     Agility: 0.10000000149011612
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -644,7 +658,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 20.0
+    id: 11019
     name: Cockroach
+    volume: 100.0
   Concord Army Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.30000001192092896
@@ -720,7 +736,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 1900
     name: Concord Army Frigate
+    volume: 20400.0
   Concord Police Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -796,7 +814,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 1896
     name: Concord Police Frigate
+    volume: 20400.0
   Concord SWAT Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -872,7 +892,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 1898
     name: Concord SWAT Frigate
+    volume: 20400.0
   Concord Special Ops Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.30000001192092896
@@ -948,7 +970,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 1902
     name: Concord Special Ops Frigate
+    volume: 20400.0
   Condor:
     Agility: 2.9000000953674316
     ArmorEmDamageResonance: 0.5
@@ -1024,7 +1048,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 583
     name: Condor
+    volume: 18000.0
   Crucifier:
     Agility: 3.3499999046325684
     ArmorEmDamageResonance: 0.5
@@ -1100,7 +1126,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 2161
     name: Crucifier
+    volume: 28100.0
   Crucifier Navy Issue:
     Agility: 3.3499999046325684
     ArmorEmDamageResonance: 0.5
@@ -1179,7 +1207,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 37453
     name: Crucifier Navy Issue
+    volume: 28100.0
   Cruor:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -1263,7 +1293,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 17926
     name: Cruor
+    volume: 28600.0
   Daredevil:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -1344,7 +1376,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 17928
     name: Daredevil
+    volume: 26500.0
   Devourer:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -1418,7 +1452,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 613
     name: Devourer
+    volume: 19100.0
   Dramiel:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1502,7 +1538,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 7.5
+    id: 17932
     name: Dramiel
+    volume: 27289.0
   Echelon:
     Agility: 2.450000047683716
     ArmorEmDamageResonance: 0.5
@@ -1568,7 +1606,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 3532
     name: Echelon
+    volume: 28100.0
   Executioner:
     Agility: 2.8499999046325684
     ArmorEmDamageResonance: 0.5
@@ -1642,7 +1682,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 589
     name: Executioner
+    volume: 28100.0
   Federation Navy Comet:
     Agility: 3.134999990463257
     ArmorEmDamageResonance: 0.5
@@ -1722,7 +1764,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 17841
     name: Federation Navy Comet
+    volume: 16500.0
   Fury:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -1795,7 +1839,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 614
     name: Fury
+    volume: 26000.0
   Gallente Police Ship:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -1869,7 +1915,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 595
     name: Gallente Police Ship
+    volume: 20400.0
   Garmur:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -1951,7 +1999,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 33816
     name: Garmur
+    volume: 27289.0
   Gold Magnate:
     Agility: 2.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -2029,7 +2079,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 11940
     name: Gold Magnate
+    volume: 22100.0
   Griffin:
     Agility: 3.5
     ArmorEmDamageResonance: 0.5
@@ -2107,7 +2159,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 584
     name: Griffin
+    volume: 19400.0
   Griffin Navy Issue:
     Agility: 3.450000047683716
     ArmorEmDamageResonance: 0.5
@@ -2189,7 +2243,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 37455
     name: Griffin Navy Issue
+    volume: 19400.0
   Heron:
     Agility: 3.569999933242798
     ArmorEmDamageResonance: 0.5
@@ -2271,7 +2327,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 605
     name: Heron
+    volume: 18900.0
   Imicus:
     Agility: 4.150000095367432
     ArmorEmDamageResonance: 0.5
@@ -2352,7 +2410,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 607
     name: Imicus
+    volume: 21500.0
   Immovable Enigma:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -2425,7 +2485,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 17360
     name: Immovable Enigma
+    volume: 20400.0
   Imperial Navy Slicer:
     Agility: 3.299999952316284
     ArmorEmDamageResonance: 0.5
@@ -2502,7 +2564,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17703
     name: Imperial Navy Slicer
+    volume: 16500.0
   Incursus:
     Agility: 3.1500000953674316
     ArmorEmDamageResonance: 0.5
@@ -2579,7 +2643,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 594
     name: Incursus
+    volume: 29500.0
   Incursus Aliastra Edition:
     Agility: 3.1500000953674316
     ArmorEmDamageResonance: 0.5
@@ -2657,7 +2723,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33667
     name: Incursus Aliastra Edition
+    volume: 29500.0
   Incursus Inner Zone Shipping Edition:
     Agility: 3.1500000953674316
     ArmorEmDamageResonance: 0.5
@@ -2735,7 +2803,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33669
     name: Incursus Inner Zone Shipping Edition
+    volume: 29500.0
   Inner Zone Shipping Imicus:
     Agility: 4.150000095367432
     ArmorEmDamageResonance: 0.5
@@ -2817,7 +2887,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 32985
     name: Inner Zone Shipping Imicus
+    volume: 21500.0
   Inquisitor:
     Agility: 3.549999952316284
     ArmorEmDamageResonance: 0.5
@@ -2896,7 +2968,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 590
     name: Inquisitor
+    volume: 28700.0
   Kestrel:
     Agility: 3.2699999809265137
     ArmorEmDamageResonance: 0.5
@@ -2971,7 +3045,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 602
     name: Kestrel
+    volume: 19700.0
   Khanid Navy Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3044,7 +3120,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17705
     name: Khanid Navy Frigate
+    volume: 16500.0
   Lynx:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3116,7 +3194,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 618
     name: Lynx
+    volume: 22500.0
   Magnate:
     Agility: 3.799999952316284
     ArmorEmDamageResonance: 0.5
@@ -3197,7 +3277,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 29248
     name: Magnate
+    volume: 22100.0
   Maulus:
     Agility: 3.25
     ArmorEmDamageResonance: 0.5
@@ -3275,7 +3357,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 609
     name: Maulus
+    volume: 23000.0
   Maulus Navy Issue:
     Agility: 3.3499999046325684
     ArmorEmDamageResonance: 0.5
@@ -3356,7 +3440,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 37456
     name: Maulus Navy Issue
+    volume: 23000.0
   Medusa:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3429,7 +3515,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 616
     name: Medusa
+    volume: 17500.0
   Merlin:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3505,7 +3593,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 603
     name: Merlin
+    volume: 16500.0
   Merlin Nugoeihuvi Edition:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3581,7 +3671,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33659
     name: Merlin Nugoeihuvi Edition
+    volume: 16500.0
   Merlin Wiyrkomi Edition:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3657,7 +3749,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33661
     name: Merlin Wiyrkomi Edition
+    volume: 16500.0
   Minmatar Peacekeeper Ship:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.4000000059604645
@@ -3731,7 +3825,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 600
     name: Minmatar Peacekeeper Ship
+    volume: 12000.0
   Mordus Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -3805,7 +3901,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17707
     name: Mordus Frigate
+    volume: 16500.0
   Navitas:
     Agility: 3.75
     ArmorEmDamageResonance: 0.5
@@ -3886,7 +3984,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 592
     name: Navitas
+    volume: 10000.0
   Police Pursuit Comet:
     Agility: 3.134999990463257
     ArmorEmDamageResonance: 0.5
@@ -3966,7 +4066,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 33677
     name: Police Pursuit Comet
+    volume: 16500.0
   Probe:
     Agility: 3.5799999237060547
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4048,7 +4150,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 586
     name: Probe
+    volume: 19500.0
   Punisher:
     Agility: 2.9000000953674316
     ArmorEmDamageResonance: 0.5
@@ -4123,7 +4227,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 597
     name: Punisher
+    volume: 28600.0
   Punisher Kador Edition:
     Agility: 2.9000000953674316
     ArmorEmDamageResonance: 0.5
@@ -4198,7 +4304,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33655
     name: Punisher Kador Edition
+    volume: 28600.0
   Punisher Tash-Murkon Edition:
     Agility: 2.9000000953674316
     ArmorEmDamageResonance: 0.5
@@ -4273,7 +4381,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33657
     name: Punisher Tash-Murkon Edition
+    volume: 28600.0
   Republic Fleet Firetail:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4352,7 +4462,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17812
     name: Republic Fleet Firetail
+    volume: 16500.0
   Rifter:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4428,7 +4540,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 587
     name: Rifter
+    volume: 27289.0
   Rifter Krusual Edition:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4505,7 +4619,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33665
     name: Rifter Krusual Edition
+    volume: 27289.0
   Rifter Nefantar Edition:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4582,7 +4698,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 33663
     name: Rifter Nefantar Edition
+    volume: 27289.0
   SOCT 1:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -4654,7 +4772,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 3751
     name: SOCT 1
+    volume: 17400.0
   SOCT 2:
     Agility: 2.5
     ArmorEmDamageResonance: 0.675000011920929
@@ -4730,7 +4850,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 3753
     name: SOCT 2
+    volume: 17400.0
   Sarum Magnate:
     Agility: 3.799999952316284
     ArmorEmDamageResonance: 0.5
@@ -4811,7 +4933,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 32987
     name: Sarum Magnate
+    volume: 22100.0
   Silver Magnate:
     Agility: 2.200000047683716
     ArmorEmDamageResonance: 0.5
@@ -4889,7 +5013,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 11942
     name: Silver Magnate
+    volume: 22100.0
   Slasher:
     Agility: 2.8299999237060547
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4965,7 +5091,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 585
     name: Slasher
+    volume: 17400.0
   Succubus:
     Agility: 3.5
     ArmorEmDamageResonance: 0.5
@@ -5046,7 +5174,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 17924
     name: Succubus
+    volume: 28600.0
   Sukuuvestaa Heron:
     Agility: 3.569999933242798
     ArmorEmDamageResonance: 0.5
@@ -5128,7 +5258,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 32983
     name: Sukuuvestaa Heron
+    volume: 18900.0
   Swordspine:
     Agility: 4.210000038146973
     ArmorEmDamageResonance: 0.5
@@ -5202,7 +5334,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 619
     name: Swordspine
+    volume: 21120.0
   Tash-Murkon Magnate:
     Agility: 3.799999952316284
     ArmorEmDamageResonance: 0.5
@@ -5283,7 +5417,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 33190
     name: Tash-Murkon Magnate
+    volume: 22100.0
   Tormentor:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.5
@@ -5361,7 +5497,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 591
     name: Tormentor
+    volume: 24398.0
   Tristan:
     Agility: 3.440000057220459
     ArmorEmDamageResonance: 0.5
@@ -5439,7 +5577,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 593
     name: Tristan
+    volume: 26500.0
   Tristan Quafe Edition:
     Agility: 3.440000057220459
     ArmorEmDamageResonance: 0.5
@@ -5517,7 +5657,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 34443
     name: Tristan Quafe Edition
+    volume: 26500.0
   Venture:
     AffectedByIndustrialInvulnModule: 1
     Agility: 3.5999999046325684
@@ -5601,7 +5743,9 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 5.0
+    id: 32880
     name: Venture
+    volume: 29500.0
   Vherokior Probe:
     Agility: 3.5799999237060547
     ArmorEmDamageResonance: 0.4000000059604645
@@ -5684,7 +5828,9 @@ items:
     VirusStrengthBonus: 5
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
+    id: 32989
     name: Vherokior Probe
+    volume: 19500.0
   Vigil:
     Agility: 3.2200000286102295
     ArmorEmDamageResonance: 0.4000000059604645
@@ -5762,7 +5908,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 3766
     name: Vigil
+    volume: 17400.0
   Vigil Fleet Issue:
     Agility: 3.200000047683716
     ArmorEmDamageResonance: 0.4000000059604645
@@ -5845,7 +5993,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
+    id: 37454
     name: Vigil Fleet Issue
+    volume: 17400.0
   Worm:
     Agility: 3.799999952316284
     ArmorEmDamageResonance: 0.5
@@ -5928,4 +6078,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
+    id: 17930
     name: Worm
+    volume: 16500.0

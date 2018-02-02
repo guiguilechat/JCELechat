@@ -79,7 +79,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
+    id: 12034
     name: Hound
+    volume: 28100.0
   Manticore:
     Agility: 4.5
     ArmorEmDamageResonance: 0.5
@@ -160,7 +162,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
+    id: 12032
     name: Manticore
+    volume: 28100.0
   Nemesis:
     Agility: 4.599999904632568
     ArmorEmDamageResonance: 0.5
@@ -241,7 +245,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
+    id: 11377
     name: Nemesis
+    volume: 28100.0
   Purifier:
     Agility: 4.400000095367432
     ArmorEmDamageResonance: 0.5
@@ -321,7 +327,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
+    id: 12038
     name: Purifier
+    volume: 28100.0
   Virtuoso:
     Agility: 4.0
     ArmorEmDamageResonance: 0.5
@@ -414,4 +422,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
+    id: 45530
     name: Virtuoso
+    volume: 28100.0

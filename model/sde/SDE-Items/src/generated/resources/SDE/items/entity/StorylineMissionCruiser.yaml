@@ -1,153 +1,305 @@
 items:
   Angel Scavenger:
+    id: 22171
     name: Angel Scavenger
+    volume: 109000.0
   Angel Thief:
+    id: 22237
     name: Angel Thief
+    volume: 109000.0
   Apte Donie:
+    id: 23233
     name: Apte Donie
+    volume: 112000.0
   Aradim Arachnan:
+    id: 23951
     name: Aradim Arachnan
+    volume: 118000.0
   Arms Dealer Incognito:
+    id: 21787
     name: Arms Dealer Incognito
+    volume: 101000.0
   Bai Tarziiki:
+    id: 21090
     name: Bai Tarziiki
+    volume: 101000.0
   Blood Raider Foreman:
+    id: 23965
     name: Blood Raider Foreman
+    volume: 118000.0
   Bounty Hunter Drukhar:
+    id: 21630
     name: Bounty Hunter Drukhar
+    volume: 101000.0
   Corpse Harvester:
+    id: 24261
     name: Corpse Harvester
+    volume: 118000.0
   Cura Gigno:
+    id: 26744
     name: Cura Gigno
+    volume: 200000.0
   Cybertron:
+    id: 21859
     name: Cybertron
+    volume: 109000.0
   Daubs Louel:
+    id: 23235
     name: Daubs Louel
+    volume: 112000.0
   Don Rico's Henchman:
+    id: 23609
     name: Don Rico's Henchman
+    volume: 112000.0
   Don Rico's Pleasure Yacht:
+    id: 23614
     name: Don Rico's Pleasure Yacht
+    volume: 115000.0
   Eule Vitrauze:
+    id: 23422
     name: Eule Vitrauze
+    volume: 112000.0
   Famon Gurch:
+    id: 22160
     name: Famon Gurch
+    volume: 109000.0
   Garp Soolim:
+    id: 22094
     name: Garp Soolim
+    volume: 92000.0
   Gerno Babalu:
+    id: 22322
     name: Gerno Babalu
+    volume: 96000.0
   Guristas Maniac:
+    id: 21648
     name: Guristas Maniac
+    volume: 101000.0
   Guristas Outlaw:
+    id: 21643
     name: Guristas Outlaw
+    volume: 92000.0
   Guristas Robber:
+    id: 21647
     name: Guristas Robber
+    volume: 96000.0
   Hodura Amaba:
+    id: 26859
     name: Hodura Amaba
+    volume: 118000.0
   Huriki Vunau:
+    id: 22076
     name: Huriki Vunau
+    volume: 101000.0
   Jakon Tooka:
+    id: 21103
     name: Jakon Tooka
+    volume: 118000.0
   Jerpam Hollek:
+    id: 22082
     name: Jerpam Hollek
+    volume: 101000.0
   Jihar Okham:
+    id: 21881
     name: Jihar Okham
+    volume: 109000.0
   Kaerleiks Bjorn:
+    id: 26741
     name: Kaerleiks Bjorn
+    volume: 1120000.0
   Kazah Durn:
+    id: 26878
     name: Kazah Durn
+    volume: 100100.0
   Ketta Tomin2:
+    id: 25576
     name: Ketta Tomin2
+    volume: 109000.0
   Lagaster Malotoff:
+    id: 22250
     name: Lagaster Malotoff
+    volume: 109000.0
   Machul Mu'Shabba:
+    id: 21972
     name: Machul Mu'Shabba
+    volume: 96000.0
   Makele Kordonii:
+    id: 21061
     name: Makele Kordonii
+    volume: 109000.0
   Malfunctioned Pleasure Cruiser:
+    id: 23628
     name: Malfunctioned Pleasure Cruiser
+    volume: 115000.0
   Manchura Todaki:
+    id: 20549
     name: Manchura Todaki
+    volume: 101000.0
   Maqeri Camcen:
+    id: 23601
     name: Maqeri Camcen
+    volume: 101000.0
   Marin Matola:
+    id: 26879
     name: Marin Matola
+    volume: 112000.0
   Minmatar Republic Narcotics Officer 2nd Rank:
+    id: 22239
     name: Minmatar Republic Narcotics Officer 2nd Rank
+    volume: 99000.0
   Motani Ihura:
+    id: 21092
     name: Motani Ihura
+    volume: 101000.0
   Motoh Olin:
+    id: 26880
     name: Motoh Olin
+    volume: 118000.0
   Nefantar Pilgrim:
+    id: 21887
     name: Nefantar Pilgrim
+    volume: 109000.0
   Nikmar Eitan:
+    id: 26867
     name: Nikmar Eitan
+    volume: 109000.0
   Nugoeihuvi Excavator:
+    id: 21649
     name: Nugoeihuvi Excavator
+    volume: 92000.0
   Nugoeihuvi Operative:
+    id: 21786
     name: Nugoeihuvi Operative
+    volume: 101000.0
   Nugoeihuvi Propagandist:
+    id: 21650
     name: Nugoeihuvi Propagandist
+    volume: 101000.0
   Okham's Cyber Thrall:
+    id: 21882
     name: Okham's Cyber Thrall
+    volume: 109000.0
   Ours De Soin:
+    id: 26795
     name: Ours De Soin
+    volume: 190000.0
   Pakkul's Thugs:
+    id: 22042
     name: Pakkul's Thugs
+    volume: 109000.0
   Pourpas Aunten:
+    id: 23598
     name: Pourpas Aunten
+    volume: 112000.0
   Propel Dynamics Excavator:
+    id: 21651
     name: Propel Dynamics Excavator
+    volume: 96000.0
   Propel Dynamics Propagandist:
+    id: 21652
     name: Propel Dynamics Propagandist
+    volume: 101000.0
   Quao Kale:
+    id: 21670
     name: Quao Kale
+    volume: 96000.0
   REF Pilot:
+    id: 22052
     name: REF Pilot
+    volume: 96000.0
   RabaRaba ChooChoo:
+    id: 21101
     name: RabaRaba ChooChoo
+    volume: 101000.0
   Rekker Malkun:
+    id: 22253
     name: Rekker Malkun
+    volume: 118000.0
   Roaming Rebel:
+    id: 22057
     name: Roaming Rebel
+    volume: 96000.0
   Roark:
+    id: 22088
     name: Roark
+    volume: 92000.0
   Ryoke Laika:
+    id: 21065
     name: Ryoke Laika
+    volume: 101000.0
   ST 59:
+    id: 22105
     name: ST 59
+    volume: 60.0
   ST 60:
+    id: 22104
     name: ST 60
+    volume: 60.0
   Serpentis Drug Runner:
+    id: 23685
     name: Serpentis Drug Runner
+    volume: 112000.0
   Serpentis Surveyor:
+    id: 24307
     name: Serpentis Surveyor
+    volume: 112000.0
   Sheriff Togany_:
+    id: 21068
     name: Sheriff Togany_
+    volume: 101000.0
   Sleeban Iratur:
+    id: 22091
     name: Sleeban Iratur
+    volume: 96000.0
   Splinter Smuggler:
+    id: 23596
     name: Splinter Smuggler
+    volume: 116000.0
   Suard Fish:
+    id: 26883
     name: Suard Fish
+    volume: 100100.0
   Tao Pai Motow:
+    id: 21049
     name: Tao Pai Motow
+    volume: 101000.0
   Tara Buquet:
+    id: 21056
     name: Tara Buquet
+    volume: 112000.0
   Teinei Kuma:
+    id: 26748
     name: Teinei Kuma
+    volume: 195000.0
   The Duke:
+    id: 21515
     name: The Duke
+    volume: 107000.0
   Thukker Scavenger:
+    id: 22058
     name: Thukker Scavenger
+    volume: 96000.0
   Vanir Makono:
+    id: 22233
     name: Vanir Makono
+    volume: 109000.0
   Wei Todaki_:
+    id: 20552
     name: Wei Todaki_
+    volume: 101000.0
   Wolf Skarkert:
+    id: 21597
     name: Wolf Skarkert
+    volume: 101000.0
   Ytari Niaga:
+    id: 24661
     name: Ytari Niaga
+    volume: 101000.0
   Zaphiria Oddin:
+    id: 21675
     name: Zaphiria Oddin
+    volume: 101000.0
   Zvarin Karsha_:
+    id: 21063
     name: Zvarin Karsha_
+    volume: 960000.0

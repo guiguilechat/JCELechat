@@ -17,4 +17,6 @@ items:
     Slots: 1
     Speed: 40000
     StructureItemVisualFlag: 1
+    id: 35923
     name: Standup Guided Bomb Launcher I
+    volume: 8000.0

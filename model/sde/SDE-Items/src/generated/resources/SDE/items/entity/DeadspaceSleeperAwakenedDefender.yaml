@@ -1,7 +1,13 @@
 items:
   Awakened Defender:
+    id: 30203
     name: Awakened Defender
+    volume: 109000.0
   Awakened Preserver:
+    id: 30205
     name: Awakened Preserver
+    volume: 109000.0
   Awakened Upholder:
+    id: 30204
     name: Awakened Upholder
+    volume: 109000.0

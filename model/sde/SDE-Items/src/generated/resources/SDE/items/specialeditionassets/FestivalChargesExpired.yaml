@@ -13,7 +13,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 19658
     name: Melted Snowball CVII
+    volume: 1.0
   Melted Snowball CX:
     Agility: 3000.0
     AimedLaunch: 1
@@ -30,4 +32,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: -10.0
+    id: 30222
     name: Melted Snowball CX
+    volume: 1.0

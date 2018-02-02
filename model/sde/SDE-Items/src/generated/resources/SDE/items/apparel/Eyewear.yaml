@@ -1,64 +1,106 @@
 items:
   Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type:
     Gender: 2
+    id: 33992
     name: Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type
+    volume: 0.1
   Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type:
     Gender: 2
+    id: 33993
     name: Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type
+    volume: 0.1
   GDN-9 "Nightstalker" Combat Goggles:
     Gender: 2
+    id: 3958
     name: GDN-9 "Nightstalker" Combat Goggles
+    volume: 0.1
   Looking Glass Monocle Interface (left/gold):
     Gender: 2
+    id: 4050
     name: Looking Glass Monocle Interface (left/gold)
+    volume: 0.1
   Looking Glass Monocle Interface (left/gray):
     Gender: 2
+    id: 4052
     name: Looking Glass Monocle Interface (left/gray)
+    volume: 0.1
   Looking Glass Monocle Interface (right/gold):
     Gender: 2
+    id: 4009
     name: Looking Glass Monocle Interface (right/gold)
+    volume: 0.1
   Looking Glass Monocle Interface (right/gray):
     Gender: 2
+    id: 4042
     name: Looking Glass Monocle Interface (right/gray)
+    volume: 0.1
   Men's 'Farsight' Augmented Spectacles:
     Gender: 1
+    id: 45745
     name: Men's 'Farsight' Augmented Spectacles
+    volume: 0.1
   Men's Genolution Tactical Goggles:
     Gender: 2
+    id: 42906
     name: Men's Genolution Tactical Goggles
+    volume: 0.1
   Men's “Mirelle” Upwell Executive Spectacles:
     Gender: 1
+    id: 41576
     name: Men's “Mirelle” Upwell Executive Spectacles
+    volume: 0.5
   Odin Synthetic Eye (left/dark):
     Gender: 2
+    id: 4043
     name: Odin Synthetic Eye (left/dark)
+    volume: 0.1
   Odin Synthetic Eye (left/gold):
     Gender: 2
+    id: 4046
     name: Odin Synthetic Eye (left/gold)
+    volume: 0.1
   Odin Synthetic Eye (left/gray):
     Gender: 2
+    id: 4048
     name: Odin Synthetic Eye (left/gray)
+    volume: 0.1
   Odin Synthetic Eye (right/dark):
     Gender: 2
+    id: 4037
     name: Odin Synthetic Eye (right/dark)
+    volume: 0.1
   Odin Synthetic Eye (right/gold):
     Gender: 2
+    id: 4039
     name: Odin Synthetic Eye (right/gold)
+    volume: 0.1
   Odin Synthetic Eye (right/gray):
     Gender: 2
+    id: 4038
     name: Odin Synthetic Eye (right/gray)
+    volume: 0.1
   SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black):
     Gender: 2
+    id: 32853
     name: SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black)
+    volume: 0.1
   Test Item:
     Gender: 2
+    id: 40344
     name: Test Item
+    volume: 0.1
   Women's 'Farsight' Augmented Spectacles:
     Gender: 3
+    id: 45736
     name: Women's 'Farsight' Augmented Spectacles
+    volume: 0.1
   Women's Genolution Tactical Goggles:
     Gender: 2
+    id: 42905
     name: Women's Genolution Tactical Goggles
+    volume: 0.1
   'Women''s “Mirelle” Upwell Executive Spectacles ':
     Gender: 3
+    id: 41575
     name: 'Women''s “Mirelle” Upwell Executive Spectacles '
+    volume: 0.1

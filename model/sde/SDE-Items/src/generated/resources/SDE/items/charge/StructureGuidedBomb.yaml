@@ -18,7 +18,9 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 2500.0
+    id: 37849
     name: Standup AM Guided Bomb
+    volume: 100.0
   Standup AS Guided Bomb:
     Agility: 1000.0
     AimedLaunch: 1
@@ -38,7 +40,9 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 0.75
     ThermalDamage: 750.0
+    id: 37850
     name: Standup AS Guided Bomb
+    volume: 100.0
   Standup Void Guided Bomb:
     Agility: 1000.0
     AimedLaunch: 1
@@ -60,4 +64,6 @@ items:
     StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     ThermalDamage: 1.0
+    id: 37851
     name: Standup Void Guided Bomb
+    volume: 100.0

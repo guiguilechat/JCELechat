@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27206
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
+    volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX100:
     DamageMultiplierBonus: 3
     Implantness: 6
@@ -14,7 +16,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27204
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
+    volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1000:
     DamageMultiplierBonus: 5
     Implantness: 6
@@ -22,7 +26,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27205
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
+    volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX11:
     DamageMultiplierBonus: 2
     Implantness: 6
@@ -30,7 +36,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3149
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
+    volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX110:
     DamageMultiplierBonus: 4
     Implantness: 6
@@ -38,7 +46,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3150
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
+    volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1100:
     DamageMultiplierBonus: 6
     Implantness: 6
@@ -46,7 +56,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3151
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
+    volume: 1.0
   Whelan Machorin's Ballistic Smartlink:
     Implantness: 10
     RequiredSkill1: 3411
@@ -54,7 +66,9 @@ items:
     RofBonus: -5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 20371
     name: Whelan Machorin's Ballistic Smartlink
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-801:
     AoeCloudSizeBonus: -1.0
     Implantness: 8
@@ -62,7 +76,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27094
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-802:
     AoeCloudSizeBonus: -2.0
     Implantness: 8
@@ -70,7 +86,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3125
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-803:
     AoeCloudSizeBonus: -3.0
     Implantness: 8
@@ -78,7 +96,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24632
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-804:
     AoeCloudSizeBonus: -4.0
     Implantness: 8
@@ -86,7 +106,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3126
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-805:
     AoeCloudSizeBonus: -5.0
     Implantness: 8
@@ -94,7 +116,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24640
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
+    volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-806:
     AoeCloudSizeBonus: -6.0
     Implantness: 8
@@ -102,7 +126,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3127
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-701:
     Implantness: 7
     MaxFlightTimeBonus: 1
@@ -110,7 +136,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27092
     name: Zainou 'Deadeye' Missile Bombardment MB-701
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-702:
     Implantness: 7
     MaxFlightTimeBonus: 2
@@ -118,7 +146,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3128
     name: Zainou 'Deadeye' Missile Bombardment MB-702
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-703:
     Implantness: 7
     MaxFlightTimeBonus: 3
@@ -126,7 +156,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13247
     name: Zainou 'Deadeye' Missile Bombardment MB-703
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-704:
     Implantness: 7
     MaxFlightTimeBonus: 4
@@ -134,7 +166,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3129
     name: Zainou 'Deadeye' Missile Bombardment MB-704
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-705:
     Implantness: 7
     MaxFlightTimeBonus: 5
@@ -142,7 +176,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24636
     name: Zainou 'Deadeye' Missile Bombardment MB-705
+    volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-706:
     Implantness: 7
     MaxFlightTimeBonus: 6
@@ -150,49 +186,63 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3132
     name: Zainou 'Deadeye' Missile Bombardment MB-706
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-701:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27093
     name: Zainou 'Deadeye' Missile Projection MP-701
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-702:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     SpeedFactor: 2.0
     TechLevel: 1
+    id: 3133
     name: Zainou 'Deadeye' Missile Projection MP-702
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-703:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     SpeedFactor: 3.0
     TechLevel: 1
+    id: 13248
     name: Zainou 'Deadeye' Missile Projection MP-703
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-704:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     SpeedFactor: 4.0
     TechLevel: 1
+    id: 3134
     name: Zainou 'Deadeye' Missile Projection MP-704
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-705:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     SpeedFactor: 5.0
     TechLevel: 1
+    id: 24637
     name: Zainou 'Deadeye' Missile Projection MP-705
+    volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-706:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     SpeedFactor: 6.0
     TechLevel: 1
+    id: 3135
     name: Zainou 'Deadeye' Missile Projection MP-706
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1001:
     Implantness: 10
     RequiredSkill1: 3411
@@ -200,7 +250,9 @@ items:
     RofBonus: -1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27096
     name: Zainou 'Deadeye' Rapid Launch RL-1001
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1002:
     Implantness: 10
     RequiredSkill1: 3411
@@ -208,7 +260,9 @@ items:
     RofBonus: -2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3136
     name: Zainou 'Deadeye' Rapid Launch RL-1002
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1003:
     Implantness: 10
     RequiredSkill1: 3411
@@ -216,7 +270,9 @@ items:
     RofBonus: -3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13249
     name: Zainou 'Deadeye' Rapid Launch RL-1003
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1004:
     Implantness: 10
     RequiredSkill1: 3411
@@ -224,7 +280,9 @@ items:
     RofBonus: -4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3137
     name: Zainou 'Deadeye' Rapid Launch RL-1004
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1005:
     Implantness: 10
     RequiredSkill1: 3411
@@ -232,7 +290,9 @@ items:
     RofBonus: -5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24638
     name: Zainou 'Deadeye' Rapid Launch RL-1005
+    volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1006:
     Implantness: 10
     RequiredSkill1: 3411
@@ -240,7 +300,9 @@ items:
     RofBonus: -6
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3140
     name: Zainou 'Deadeye' Rapid Launch RL-1006
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-901:
     AoeVelocityBonus: 1.0
     Implantness: 9
@@ -248,7 +310,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27095
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-902:
     AoeVelocityBonus: 2.0
     Implantness: 9
@@ -256,7 +320,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3141
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-903:
     AoeVelocityBonus: 3.0
     Implantness: 9
@@ -264,7 +330,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13250
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-904:
     AoeVelocityBonus: 4.0
     Implantness: 9
@@ -272,7 +340,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3142
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-905:
     AoeVelocityBonus: 5.0
     Implantness: 9
@@ -280,7 +350,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24639
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
+    volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-906:
     AoeVelocityBonus: 6.0
     Implantness: 9
@@ -288,7 +360,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3143
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-601:
     CpuNeedBonus: -1
     Implantness: 6
@@ -296,7 +370,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27091
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-601
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-602:
     CpuNeedBonus: -2
     Implantness: 6
@@ -304,7 +380,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3144
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-602
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-603:
     CpuNeedBonus: -3
     Implantness: 6
@@ -312,7 +390,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24641
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-603
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-604:
     CpuNeedBonus: -4
     Implantness: 6
@@ -320,7 +400,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3145
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-604
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-605:
     CpuNeedBonus: -5
     Implantness: 6
@@ -328,7 +410,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 24642
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-605
+    volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-606:
     CpuNeedBonus: -6
     Implantness: 6
@@ -336,7 +420,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3148
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-606
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
     AoeCloudSizeBonus: -1.0
     Implantness: 10
@@ -344,7 +430,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27249
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
     AoeCloudSizeBonus: -2.0
     Implantness: 10
@@ -352,7 +440,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3160
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
     AoeCloudSizeBonus: -3.0
     Implantness: 10
@@ -360,7 +450,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13228
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
     AoeCloudSizeBonus: -4.0
     Implantness: 10
@@ -368,7 +460,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3161
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
     AoeCloudSizeBonus: -5.0
     Implantness: 10
@@ -376,7 +470,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27247
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
+    volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
     AoeCloudSizeBonus: -6.0
     Implantness: 10
@@ -384,7 +480,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3164
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-601:
     DamageMultiplierBonus: 1
     Implantness: 6
@@ -392,7 +490,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27259
     name: Zainou 'Snapshot' Cruise Missiles CM-601
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-602:
     DamageMultiplierBonus: 2
     Implantness: 6
@@ -400,7 +500,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3181
     name: Zainou 'Snapshot' Cruise Missiles CM-602
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-603:
     DamageMultiplierBonus: 3
     Implantness: 6
@@ -408,7 +510,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13226
     name: Zainou 'Snapshot' Cruise Missiles CM-603
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-604:
     DamageMultiplierBonus: 4
     Implantness: 6
@@ -416,7 +520,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3182
     name: Zainou 'Snapshot' Cruise Missiles CM-604
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-605:
     DamageMultiplierBonus: 5
     Implantness: 6
@@ -424,7 +530,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27258
     name: Zainou 'Snapshot' Cruise Missiles CM-605
+    volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-606:
     DamageMultiplierBonus: 6
     Implantness: 6
@@ -432,14 +540,18 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3183
     name: Zainou 'Snapshot' Cruise Missiles CM-606
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27244
     name: Zainou 'Snapshot' Defender Missiles DM-801
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-802:
     Implantness: 8
     MissileVelocityBonus: 2.0
@@ -447,14 +559,18 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3152
     name: Zainou 'Snapshot' Defender Missiles DM-802
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13227
     name: Zainou 'Snapshot' Defender Missiles DM-803
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-804:
     Implantness: 8
     MissileVelocityBonus: 4.0
@@ -462,14 +578,18 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3153
     name: Zainou 'Snapshot' Defender Missiles DM-804
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27243
     name: Zainou 'Snapshot' Defender Missiles DM-805
+    volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-806:
     Implantness: 8
     MissileVelocityBonus: 6.0
@@ -477,7 +597,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3156
     name: Zainou 'Snapshot' Defender Missiles DM-806
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
     DamageMultiplierBonus: 1
     Implantness: 7
@@ -485,7 +607,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27246
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-702:
     DamageMultiplierBonus: 2
     Implantness: 7
@@ -493,7 +617,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3157
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-703:
     DamageMultiplierBonus: 3
     Implantness: 7
@@ -501,7 +627,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27109
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-704:
     DamageMultiplierBonus: 4
     Implantness: 7
@@ -509,7 +637,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3158
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-705:
     DamageMultiplierBonus: 5
     Implantness: 7
@@ -517,7 +647,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27245
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
+    volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
     DamageMultiplierBonus: 6
     Implantness: 7
@@ -525,7 +657,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3159
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
     DamageMultiplierBonus: 1
     Implantness: 7
@@ -533,7 +667,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27251
     name: Zainou 'Snapshot' Heavy Missiles HM-701
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
     DamageMultiplierBonus: 2
     Implantness: 7
@@ -541,7 +677,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3165
     name: Zainou 'Snapshot' Heavy Missiles HM-702
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
     DamageMultiplierBonus: 3
     Implantness: 7
@@ -549,7 +687,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13229
     name: Zainou 'Snapshot' Heavy Missiles HM-703
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-704:
     DamageMultiplierBonus: 4
     Implantness: 7
@@ -557,7 +697,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3166
     name: Zainou 'Snapshot' Heavy Missiles HM-704
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
     DamageMultiplierBonus: 5
     Implantness: 7
@@ -565,7 +707,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27250
     name: Zainou 'Snapshot' Heavy Missiles HM-705
+    volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-706:
     DamageMultiplierBonus: 6
     Implantness: 7
@@ -573,7 +717,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3167
     name: Zainou 'Snapshot' Heavy Missiles HM-706
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-901:
     DamageMultiplierBonus: 1
     Implantness: 9
@@ -581,7 +727,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27253
     name: Zainou 'Snapshot' Light Missiles LM-901
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
     DamageMultiplierBonus: 2
     Implantness: 9
@@ -589,7 +737,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3168
     name: Zainou 'Snapshot' Light Missiles LM-902
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
     DamageMultiplierBonus: 3
     Implantness: 9
@@ -597,7 +747,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27108
     name: Zainou 'Snapshot' Light Missiles LM-903
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
     DamageMultiplierBonus: 4
     Implantness: 9
@@ -605,7 +757,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3169
     name: Zainou 'Snapshot' Light Missiles LM-904
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
     DamageMultiplierBonus: 5
     Implantness: 9
@@ -613,7 +767,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27252
     name: Zainou 'Snapshot' Light Missiles LM-905
+    volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-906:
     DamageMultiplierBonus: 6
     Implantness: 9
@@ -621,7 +777,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3172
     name: Zainou 'Snapshot' Light Missiles LM-906
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-901:
     DamageMultiplierBonus: 1
     Implantness: 9
@@ -629,7 +787,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27255
     name: Zainou 'Snapshot' Rockets RD-901
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-902:
     DamageMultiplierBonus: 2
     Implantness: 9
@@ -637,7 +797,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3173
     name: Zainou 'Snapshot' Rockets RD-902
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-903:
     DamageMultiplierBonus: 3
     Implantness: 9
@@ -645,7 +807,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13230
     name: Zainou 'Snapshot' Rockets RD-903
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-904:
     DamageMultiplierBonus: 4
     Implantness: 9
@@ -653,7 +817,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3174
     name: Zainou 'Snapshot' Rockets RD-904
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-905:
     DamageMultiplierBonus: 5
     Implantness: 9
@@ -661,7 +827,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27254
     name: Zainou 'Snapshot' Rockets RD-905
+    volume: 1.0
   Zainou 'Snapshot' Rockets RD-906:
     DamageMultiplierBonus: 6
     Implantness: 9
@@ -669,7 +837,9 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3175
     name: Zainou 'Snapshot' Rockets RD-906
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-601:
     DamageMultiplierBonus: 1
     Implantness: 6
@@ -677,7 +847,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27257
     name: Zainou 'Snapshot' Torpedoes TD-601
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-602:
     DamageMultiplierBonus: 2
     Implantness: 6
@@ -685,7 +857,9 @@ items:
     RequiredSkill1Level: 1
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3176
     name: Zainou 'Snapshot' Torpedoes TD-602
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-603:
     DamageMultiplierBonus: 3
     Implantness: 6
@@ -693,7 +867,9 @@ items:
     RequiredSkill1Level: 2
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 13231
     name: Zainou 'Snapshot' Torpedoes TD-603
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-604:
     DamageMultiplierBonus: 4
     Implantness: 6
@@ -701,7 +877,9 @@ items:
     RequiredSkill1Level: 3
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3177
     name: Zainou 'Snapshot' Torpedoes TD-604
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-605:
     DamageMultiplierBonus: 5
     Implantness: 6
@@ -709,7 +887,9 @@ items:
     RequiredSkill1Level: 4
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27256
     name: Zainou 'Snapshot' Torpedoes TD-605
+    volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-606:
     DamageMultiplierBonus: 6
     Implantness: 6
@@ -717,4 +897,6 @@ items:
     RequiredSkill1Level: 5
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 3180
     name: Zainou 'Snapshot' Torpedoes TD-606
+    volume: 1.0

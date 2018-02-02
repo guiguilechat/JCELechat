@@ -12,7 +12,9 @@ items:
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 1537
     name: '''Basic'' Power Diagnostic System'
+    volume: 5.0
   '''Cartel'' Power Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
@@ -26,7 +28,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 22953
     name: '''Cartel'' Power Diagnostic System I'
+    volume: 5.0
   Ahremen's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
@@ -39,7 +43,9 @@ items:
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
+    id: 15106
     name: Ahremen's Modified Power Diagnostic System
+    volume: 5.0
   'Alpha Reactor Control: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
@@ -50,7 +56,9 @@ items:
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 8213
     name: 'Alpha Reactor Control: Diagnostic System'
+    volume: 5.0
   Ammatar Navy Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
@@ -63,7 +71,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 17524
     name: Ammatar Navy Power Diagnostic System
+    volume: 5.0
   'Beta Reactor Control: Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0479999780654907
     CapacitorRechargeRateMultiplier: 0.9169999957084656
@@ -75,7 +85,9 @@ items:
     ShieldCapacityMultiplier: 1.0479999780654907
     ShieldRechargeRateMultiplier: 0.9169999957084656
     TechLevel: 1
+    id: 8221
     name: 'Beta Reactor Control: Diagnostic System I'
+    volume: 5.0
   Brokara's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
@@ -88,7 +100,9 @@ items:
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
+    id: 15096
     name: Brokara's Modified Power Diagnostic System
+    volume: 5.0
   Brynn's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
@@ -102,7 +116,9 @@ items:
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
+    id: 15292
     name: Brynn's Modified Power Diagnostic System
+    volume: 5.0
   Caldari Navy Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
@@ -116,7 +132,9 @@ items:
     ShieldCapacityMultiplier: 1.059999942779541
     ShieldRechargeRateMultiplier: 0.9120000004768372
     TechLevel: 1
+    id: 31952
     name: Caldari Navy Power Diagnostic System
+    volume: 5.0
   Chelm's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
@@ -129,7 +147,9 @@ items:
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
+    id: 15108
     name: Chelm's Modified Power Diagnostic System
+    volume: 5.0
   Cormack's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
@@ -143,7 +163,9 @@ items:
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
+    id: 15298
     name: Cormack's Modified Power Diagnostic System
+    volume: 5.0
   Dark Blood Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
@@ -156,7 +178,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 14134
     name: Dark Blood Power Diagnostic System
+    volume: 5.0
   Draclira's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0700000524520874
     CapacitorRechargeRateMultiplier: 0.8234999775886536
@@ -169,7 +193,9 @@ items:
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
+    id: 15110
     name: Draclira's Modified Power Diagnostic System
+    volume: 5.0
   'Local Power Plant Manager: Diagnostic System I':
     CapacitorCapacityMultiplier: 1.0440000295639038
     CapacitorRechargeRateMultiplier: 0.9210000038146973
@@ -181,7 +207,9 @@ items:
     ShieldCapacityMultiplier: 1.0440000295639038
     ShieldRechargeRateMultiplier: 0.9210000038146973
     TechLevel: 1
+    id: 8219
     name: 'Local Power Plant Manager: Diagnostic System I'
+    volume: 5.0
   Makur's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0575000047683716
     CapacitorRechargeRateMultiplier: 0.8463749885559082
@@ -193,7 +221,9 @@ items:
     ShieldCapacityMultiplier: 1.0700000524520874
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 15439
     name: Makur's Modified Power Diagnostic System
+    volume: 5.0
   Mark I Compact Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0449999570846558
     CapacitorRechargeRateMultiplier: 0.9200000166893005
@@ -205,7 +235,9 @@ items:
     ShieldCapacityMultiplier: 1.0449999570846558
     ShieldRechargeRateMultiplier: 0.9200000166893005
     TechLevel: 1
+    id: 8225
     name: Mark I Compact Power Diagnostic System
+    volume: 5.0
   'Marked Generator Refitting: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
@@ -217,7 +249,9 @@ items:
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 8217
     name: 'Marked Generator Refitting: Diagnostic System'
+    volume: 5.0
   'Partial Power Plant Manager: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
@@ -228,7 +262,9 @@ items:
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 8211
     name: 'Partial Power Plant Manager: Diagnostic System'
+    volume: 5.0
   Power Diagnostic System I:
     CapacitorCapacityMultiplier: 1.0399999618530273
     CapacitorRechargeRateMultiplier: 0.925000011920929
@@ -239,7 +275,9 @@ items:
     ShieldCapacityMultiplier: 1.0399999618530273
     ShieldRechargeRateMultiplier: 0.925000011920929
     TechLevel: 1
+    id: 1539
     name: Power Diagnostic System I
+    volume: 5.0
   Power Diagnostic System II:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
@@ -252,7 +290,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 2
+    id: 1541
     name: Power Diagnostic System II
+    volume: 5.0
   Raysere's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
@@ -265,7 +305,9 @@ items:
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
+    id: 15102
     name: Raysere's Modified Power Diagnostic System
+    volume: 5.0
   Selynne's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
@@ -278,7 +320,9 @@ items:
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
+    id: 15100
     name: Selynne's Modified Power Diagnostic System
+    volume: 5.0
   Setele's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
@@ -292,7 +336,9 @@ items:
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
+    id: 15296
     name: Setele's Modified Power Diagnostic System
+    volume: 5.0
   Shadow Serpentis Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
@@ -306,7 +352,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 14138
     name: Shadow Serpentis Power Diagnostic System
+    volume: 5.0
   Tairei's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0625
     CapacitorRechargeRateMultiplier: 0.8921250104904175
@@ -319,7 +367,9 @@ items:
     ShieldCapacityMultiplier: 1.0625
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
+    id: 15098
     name: Tairei's Modified Power Diagnostic System
+    volume: 5.0
   Thukker Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0499999523162842
     CapacitorRechargeRateMultiplier: 0.9150000214576721
@@ -333,7 +383,9 @@ items:
     ShieldCapacityMultiplier: 1.059999942779541
     ShieldRechargeRateMultiplier: 0.9120000004768372
     TechLevel: 1
+    id: 28739
     name: Thukker Power Diagnostic System
+    volume: 5.0
   True Sansha Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.059999942779541
     CapacitorRechargeRateMultiplier: 0.9120000004768372
@@ -346,7 +398,9 @@ items:
     ShieldCapacityMultiplier: 1.0499999523162842
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
+    id: 14136
     name: True Sansha Power Diagnostic System
+    volume: 5.0
   Tuvan's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.065000057220459
     CapacitorRechargeRateMultiplier: 0.8692499995231628
@@ -360,7 +414,9 @@ items:
     ShieldCapacityMultiplier: 1.065000057220459
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
+    id: 15294
     name: Tuvan's Modified Power Diagnostic System
+    volume: 5.0
   'Type-D Power Core Modification: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0420000553131104
     CapacitorRechargeRateMultiplier: 0.9229999780654907
@@ -372,7 +428,9 @@ items:
     ShieldCapacityMultiplier: 1.0420000553131104
     ShieldRechargeRateMultiplier: 0.9229999780654907
     TechLevel: 1
+    id: 8223
     name: 'Type-D Power Core Modification: Diagnostic System'
+    volume: 5.0
   'Type-E Power Core Modification: Diagnostic System':
     CapacitorCapacityMultiplier: 1.0199999809265137
     CapacitorRechargeRateMultiplier: 0.949999988079071
@@ -383,7 +441,9 @@ items:
     ShieldCapacityMultiplier: 1.0199999809265137
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 8215
     name: 'Type-E Power Core Modification: Diagnostic System'
+    volume: 5.0
   'Type-E Power Core Modification: Reaction Control':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -394,7 +454,9 @@ items:
     ShieldCapacityMultiplier: 1.0
     ShieldRechargeRateMultiplier: 1.0
     TechLevel: 1
+    id: 8255
     name: 'Type-E Power Core Modification: Reaction Control'
+    volume: 5.0
   Vizan's Modified Power Diagnostic System:
     CapacitorCapacityMultiplier: 1.0674999952316284
     CapacitorRechargeRateMultiplier: 0.8463749885559082
@@ -407,4 +469,6 @@ items:
     ShieldCapacityMultiplier: 1.0674999952316284
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
+    id: 15104
     name: Vizan's Modified Power Diagnostic System
+    volume: 5.0

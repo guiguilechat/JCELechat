@@ -19,7 +19,9 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 1
     UpgradeCost: 100
+    id: 37174
     name: Standup L-Set Advanced Component Manufacturing Efficiency I
+    volume: 20.0
   Standup L-Set Advanced Component Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -40,7 +42,9 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 37175
     name: Standup L-Set Advanced Component Manufacturing Efficiency II
+    volume: 20.0
   Standup L-Set Thukker Advanced Component Manufacturing Efficiency:
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
@@ -63,4 +67,6 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 1
     UpgradeCost: 100
+    id: 45641
     name: Standup L-Set Thukker Advanced Component Manufacturing Efficiency
+    volume: 20.0

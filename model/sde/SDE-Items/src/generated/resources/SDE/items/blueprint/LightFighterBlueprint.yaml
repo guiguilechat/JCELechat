@@ -1,59 +1,94 @@
 items:
   BakerBlueprint_PLACEHOLDER:
     TechLevel: 1
+    id: 45670
     name: BakerBlueprint_PLACEHOLDER
   CharlieBlueprint_PLACEHOLDER:
     TechLevel: 1
+    id: 45672
     name: CharlieBlueprint_PLACEHOLDER
+    volume: 0.01
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 23058
     name: Dragonfly I Blueprint
+    volume: 0.01
   Dragonfly II Blueprint:
     TechLevel: 2
+    id: 41378
     name: Dragonfly II Blueprint
+    volume: 0.01
   Einherji I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 23062
     name: Einherji I Blueprint
+    volume: 0.01
   Einherji II Blueprint:
     TechLevel: 2
+    id: 41384
     name: Einherji II Blueprint
+    volume: 0.01
   Equite I Blueprint:
     TechLevel: 1
+    id: 41376
     name: Equite I Blueprint
+    volume: 0.01
   Equite II Blueprint:
     TechLevel: 2
+    id: 41377
     name: Equite II Blueprint
+    volume: 0.01
   Firbolg I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 23060
     name: Firbolg I Blueprint
+    volume: 0.01
   Firbolg II Blueprint:
     TechLevel: 2
+    id: 41381
     name: Firbolg II Blueprint
+    volume: 0.01
   Gram I Blueprint:
     TechLevel: 1
+    id: 41385
     name: Gram I Blueprint
+    volume: 0.01
   Gram II Blueprint:
     TechLevel: 2
+    id: 41386
     name: Gram II Blueprint
+    volume: 0.01
   Locust I Blueprint:
     TechLevel: 1
+    id: 41379
     name: Locust I Blueprint
+    volume: 0.01
   Locust II Blueprint:
     TechLevel: 2
+    id: 41380
     name: Locust II Blueprint
+    volume: 0.01
   Satyr I Blueprint:
     TechLevel: 1
+    id: 41382
     name: Satyr I Blueprint
+    volume: 0.01
   Satyr II Blueprint:
     TechLevel: 2
+    id: 41383
     name: Satyr II Blueprint
+    volume: 0.01
   Templar I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 23056
     name: Templar I Blueprint
+    volume: 0.01
   Templar II Blueprint:
     TechLevel: 2
+    id: 41375
     name: Templar II Blueprint
+    volume: 0.01

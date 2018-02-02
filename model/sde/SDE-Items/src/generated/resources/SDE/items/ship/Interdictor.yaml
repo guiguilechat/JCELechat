@@ -78,7 +78,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    id: 22460
     name: Eris
+    volume: 55000.0
   Flycatcher:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -157,7 +159,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    id: 22464
     name: Flycatcher
+    volume: 52000.0
   Heretic:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -237,7 +241,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    id: 22452
     name: Heretic
+    volume: 47000.0
   Sabre:
     Agility: 3.700000047683716
     ArmorEmDamageResonance: 0.20000000298023224
@@ -317,4 +323,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
+    id: 22456
     name: Sabre
+    volume: 43000.0

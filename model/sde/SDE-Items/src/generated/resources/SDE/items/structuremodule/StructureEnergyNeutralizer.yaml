@@ -18,7 +18,9 @@ items:
     Power: 100000
     StructureItemVisualFlag: 1
     TechLevel: 1
+    id: 46575
     name: Dark Blood Standup Heavy Energy Neutralizer
+    volume: 8000.0
   Standup Heavy Energy Neutralizer I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -36,7 +38,9 @@ items:
     Power: 100000
     StructureItemVisualFlag: 1
     TechLevel: 1
+    id: 35925
     name: Standup Heavy Energy Neutralizer I
+    volume: 8000.0
   Standup XL Energy Neutralizer I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -55,4 +59,6 @@ items:
     Power: 150000
     StructureItemVisualFlag: 1
     TechLevel: 1
+    id: 35924
     name: Standup XL Energy Neutralizer I
+    volume: 8000.0

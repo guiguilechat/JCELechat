@@ -11,7 +11,9 @@ items:
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 1419
     name: '''Basic'' Shield Power Relay'
+    volume: 5.0
   Alpha Reactor Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
@@ -22,7 +24,9 @@ items:
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8341
     name: Alpha Reactor Shield Power Relay
+    volume: 5.0
   'Beta Reactor Control: Shield Power Relay I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
@@ -34,7 +38,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8333
     name: 'Beta Reactor Control: Shield Power Relay I'
+    volume: 5.0
   Caldari Navy Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
@@ -48,7 +54,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 37820
     name: Caldari Navy Shield Power Relay
+    volume: 5.0
   'Local Power Plant Manager: Reaction Shield Power Relay I':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
@@ -60,7 +68,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8331
     name: 'Local Power Plant Manager: Reaction Shield Power Relay I'
+    volume: 5.0
   Mark I Compact Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
@@ -73,7 +83,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8337
     name: Mark I Compact Shield Power Relay
+    volume: 5.0
   'Marked Generator Refitting: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
@@ -84,7 +96,9 @@ items:
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8345
     name: 'Marked Generator Refitting: Shield Power Relay'
+    volume: 5.0
   'Partial Power Plant Manager: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
@@ -95,7 +109,9 @@ items:
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8339
     name: 'Partial Power Plant Manager: Shield Power Relay'
+    volume: 5.0
   Shield Power Relay I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
@@ -106,7 +122,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 2331
     name: Shield Power Relay I
+    volume: 5.0
   Shield Power Relay II:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
@@ -119,7 +137,9 @@ items:
     RequiredSkill1Level: 4
     ShieldCapacityMultiplier: 1.0
     TechLevel: 2
+    id: 1422
     name: Shield Power Relay II
+    volume: 5.0
   Type-D Restrained Shield Power Relay:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
@@ -132,7 +152,9 @@ items:
     RequiredSkill1Level: 2
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8335
     name: Type-D Restrained Shield Power Relay
+    volume: 5.0
   'Type-E Power Core Modification: Shield Power Relay':
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
@@ -143,4 +165,6 @@ items:
     RequiredSkill1Level: 1
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
+    id: 8343
     name: 'Type-E Power Core Modification: Shield Power Relay'
+    volume: 5.0

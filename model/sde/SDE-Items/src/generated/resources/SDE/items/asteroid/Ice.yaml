@@ -5,7 +5,9 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28627
     name: Azure Ice
+    volume: 1000.0
   Blue Ice:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -15,7 +17,9 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16264
     name: Blue Ice
+    volume: 1000.0
   Clear Icicle:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -25,7 +29,9 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16262
     name: Clear Icicle
+    volume: 1000.0
   Compressed Blue Ice:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -33,7 +39,9 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28433
     name: Compressed Blue Ice
+    volume: 100.0
   Compressed Clear Icicle:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -41,7 +49,9 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28434
     name: Compressed Clear Icicle
+    volume: 100.0
   Compressed Dark Glitter:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -49,7 +59,9 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28435
     name: Compressed Dark Glitter
+    volume: 100.0
   Compressed Enriched Clear Icicle:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
@@ -57,7 +69,9 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28436
     name: Compressed Enriched Clear Icicle
+    volume: 100.0
   Compressed Gelidus:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -65,7 +79,9 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28437
     name: Compressed Gelidus
+    volume: 100.0
   Compressed Glacial Mass:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -73,7 +89,9 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28438
     name: Compressed Glacial Mass
+    volume: 100.0
   Compressed Glare Crust:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -81,7 +99,9 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28439
     name: Compressed Glare Crust
+    volume: 100.0
   Compressed Krystallos:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -89,7 +109,9 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28440
     name: Compressed Krystallos
+    volume: 100.0
   Compressed Pristine White Glaze:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
@@ -97,7 +119,9 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28441
     name: Compressed Pristine White Glaze
+    volume: 100.0
   Compressed Smooth Glacial Mass:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
@@ -105,7 +129,9 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28442
     name: Compressed Smooth Glacial Mass
+    volume: 100.0
   Compressed Thick Blue Ice:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 1.0
@@ -113,7 +139,9 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28443
     name: Compressed Thick Blue Ice
+    volume: 100.0
   Compressed White Glaze:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 1.0
@@ -121,14 +149,18 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28444
     name: Compressed White Glaze
+    volume: 100.0
   Crystalline Icicle:
     AsteroidRadiusGrowthFactor: 160.0
     AsteroidRadiusUnitSize: 1000
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 28628
     name: Crystalline Icicle
+    volume: 1000.0
   Dark Glitter:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -138,7 +170,9 @@ items:
     OreBasicType: 16267
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16267
     name: Dark Glitter
+    volume: 1000.0
   Enriched Clear Icicle:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
@@ -148,7 +182,9 @@ items:
     OreBasicType: 16262
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 17978
     name: Enriched Clear Icicle
+    volume: 1000.0
   Gelidus:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -158,7 +194,9 @@ items:
     OreBasicType: 16268
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16268
     name: Gelidus
+    volume: 1000.0
   Glacial Mass:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -168,7 +206,9 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16263
     name: Glacial Mass
+    volume: 1000.0
   Glare Crust:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -178,7 +218,9 @@ items:
     OreBasicType: 16266
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16266
     name: Glare Crust
+    volume: 1000.0
   Krystallos:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -188,7 +230,9 @@ items:
     OreBasicType: 16269
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16269
     name: Krystallos
+    volume: 1000.0
   Pristine White Glaze:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
@@ -198,7 +242,9 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 17976
     name: Pristine White Glaze
+    volume: 1000.0
   Smooth Glacial Mass:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
@@ -208,7 +254,9 @@ items:
     OreBasicType: 16263
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 17977
     name: Smooth Glacial Mass
+    volume: 1000.0
   Thick Blue Ice:
     AsteroidMetaLevel: 4
     AsteroidRadiusGrowthFactor: 160.0
@@ -218,7 +266,9 @@ items:
     OreBasicType: 16264
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 17975
     name: Thick Blue Ice
+    volume: 1000.0
   White Glaze:
     AsteroidMetaLevel: 1
     AsteroidRadiusGrowthFactor: 160.0
@@ -228,4 +278,6 @@ items:
     OreBasicType: 16265
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
+    id: 16265
     name: White Glaze
+    volume: 1000.0

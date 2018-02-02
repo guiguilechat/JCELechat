@@ -7,14 +7,18 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    id: 24624
     name: Advanced Laboratory Operation
+    volume: 0.01
   Amarr Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 23087
     name: Amarr Encryption Methods
+    volume: 0.01
   Amarr Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -24,7 +28,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11444
     name: Amarr Starship Engineering
+    volume: 0.01
   Astronautic Engineering:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -34,14 +40,18 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11487
     name: Astronautic Engineering
+    volume: 0.01
   Caldari Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 21790
     name: Caldari Encryption Methods
+    volume: 0.01
   Caldari Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -51,7 +61,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11454
     name: Caldari Starship Engineering
+    volume: 0.01
   Core Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -60,7 +72,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 30325
     name: Core Subsystem Technology
+    volume: 0.01
   Defensive Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -69,7 +83,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 30324
     name: Defensive Subsystem Technology
+    volume: 0.01
   Electromagnetic Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -79,7 +95,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11448
     name: Electromagnetic Physics
+    volume: 0.01
   Electronic Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -89,7 +107,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11453
     name: Electronic Engineering
+    volume: 0.01
   Electronic Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -99,14 +119,18 @@ items:
     SecondaryAttribute: 166
     SkillIsObsolete: 1
     SkillTimeConstant: 5.0
+    id: 30326
     name: Electronic Subsystem Technology
+    volume: 0.01
   Gallente Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 23121
     name: Gallente Encryption Methods
+    volume: 0.01
   Gallente Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -116,7 +140,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11450
     name: Gallente Starship Engineering
+    volume: 0.01
   Graviton Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -126,7 +152,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11446
     name: Graviton Physics
+    volume: 0.01
   High Energy Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -136,7 +164,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11433
     name: High Energy Physics
+    volume: 0.01
   Hydromagnetic Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -146,7 +176,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11443
     name: Hydromagnetic Physics
+    volume: 0.01
   Hypernet Science:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
@@ -155,7 +187,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11858
     name: Hypernet Science
+    volume: 0.01
   Laboratory Operation:
     CanNotBeTrainedOnTrial: 1
     LaboratorySlotsBonus: 1
@@ -164,7 +198,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3406
     name: Laboratory Operation
+    volume: 0.01
   Laser Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -174,7 +210,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11447
     name: Laser Physics
+    volume: 0.01
   Mechanical Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -184,7 +222,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11452
     name: Mechanical Engineering
+    volume: 0.01
   Metallurgy:
     MineralNeedResearchBonus: -5
     PrimaryAttribute: 165
@@ -192,14 +232,18 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3409
     name: Metallurgy
+    volume: 0.01
   Minmatar Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 21791
     name: Minmatar Encryption Methods
+    volume: 0.01
   Minmatar Starship Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -209,7 +253,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11445
     name: Minmatar Starship Engineering
+    volume: 0.01
   Molecular Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -219,7 +265,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11529
     name: Molecular Engineering
+    volume: 0.01
   Nanite Engineering:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -229,7 +277,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11442
     name: Nanite Engineering
+    volume: 0.01
   Nuclear Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -239,7 +289,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11451
     name: Nuclear Physics
+    volume: 0.01
   Offensive Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -248,7 +300,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 30327
     name: Offensive Subsystem Technology
+    volume: 0.01
   Plasma Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -258,7 +312,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11441
     name: Plasma Physics
+    volume: 0.01
   Propulsion Subsystem Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 3403
@@ -267,7 +323,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 30788
     name: Propulsion Subsystem Technology
+    volume: 0.01
   Quantum Physics:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -277,7 +335,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11455
     name: Quantum Physics
+    volume: 0.01
   Research:
     BlueprintmanufactureTimeBonus: -5
     PrimaryAttribute: 165
@@ -285,7 +345,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3403
     name: Research
+    volume: 0.01
   Research Project Management:
     MaxAttackTargets: 1
     PrimaryAttribute: 166
@@ -296,7 +358,9 @@ items:
     ResearchGangSizeBonus: 5
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
+    id: 12179
     name: Research Project Management
+    volume: 0.01
   Rocket Science:
     ManufactureTimePerLevel: -1
     PrimaryAttribute: 165
@@ -306,20 +370,26 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 11449
     name: Rocket Science
+    volume: 0.01
   Science:
     CopySpeedBonus: -5
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3402
     name: Science
+    volume: 0.01
   Scientific Networking:
     PrimaryAttribute: 165
     RequiredSkill1: 3406
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 24270
     name: Scientific Networking
+    volume: 0.01
   Sleeper Encryption Methods:
     InventionBonus: 10
     PrimaryAttribute: 165
@@ -331,32 +401,42 @@ items:
     RequiredSkill3Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
+    id: 3408
     name: Sleeper Encryption Methods
+    volume: 0.01
   Sleeper Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 21789
     name: Sleeper Technology
+    volume: 0.01
   Takmahl Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 23123
     name: Takmahl Technology
+    volume: 0.01
   Talocan Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 20433
     name: Talocan Technology
+    volume: 0.01
   Yan Jung Technology:
     PrimaryAttribute: 165
     RequiredSkill1: 13278
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 23124
     name: Yan Jung Technology
+    volume: 0.01

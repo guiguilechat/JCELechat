@@ -77,7 +77,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 20125
     name: Curse
+    volume: 120000.0
   Huginn:
     Agility: 0.5699999928474426
     ArmorEmDamageResonance: 0.15000000596046448
@@ -154,7 +156,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11961
     name: Huginn
+    volume: 85000.0
   Lachesis:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
@@ -231,7 +235,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11971
     name: Lachesis
+    volume: 116000.0
   Rook:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -308,4 +314,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11959
     name: Rook
+    volume: 96000.0

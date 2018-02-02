@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 1
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28183
+    id: 27656
     name: Foundation Upgrade Platform
+    volume: 750000.0
   Monument Upgrade Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -14,7 +16,9 @@ items:
     RequiredSkill1Level: 5
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28185
+    id: 27660
     name: Monument Upgrade Platform
+    volume: 750000.0
   Pedestal Upgrade Platform:
     AnchoringDelay: 3600000
     Hp: 100000000
@@ -22,4 +26,6 @@ items:
     RequiredSkill1Level: 3
     RequiresSovereigntyDisplayOnly: 1
     StationTypeID: 28184
+    id: 27658
     name: Pedestal Upgrade Platform
+    volume: 750000.0

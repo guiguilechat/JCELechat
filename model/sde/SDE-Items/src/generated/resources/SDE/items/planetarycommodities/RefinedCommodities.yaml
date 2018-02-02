@@ -2,96 +2,144 @@ items:
   Biocells:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2329
     name: Biocells
+    volume: 1.5
   Construction Blocks:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3828
     name: Construction Blocks
+    volume: 1.5
   Consumer Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9836
     name: Consumer Electronics
+    volume: 1.5
   Coolant:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9832
     name: Coolant
+    volume: 1.5
   Enriched Uranium:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 44
     name: Enriched Uranium
+    volume: 1.5
   Fertilizer:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3693
     name: Fertilizer
+    volume: 1.5
   Genetically Enhanced Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 15317
     name: Genetically Enhanced Livestock
+    volume: 1.5
   Livestock:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3725
     name: Livestock
+    volume: 1.5
   Mechanical Parts:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3689
     name: Mechanical Parts
+    volume: 1.5
   Microfiber Shielding:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2327
     name: Microfiber Shielding
+    volume: 1.5
   Miniature Electronics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9842
     name: Miniature Electronics
+    volume: 1.5
   Nanites:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2463
     name: Nanites
+    volume: 1.5
   Oxides:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2317
     name: Oxides
+    volume: 1.5
   Polyaramids:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2321
     name: Polyaramids
+    volume: 1.5
   Polytextiles:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3695
     name: Polytextiles
+    volume: 1.5
   Rocket Fuel:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9830
     name: Rocket Fuel
+    volume: 1.5
   Silicate Glass:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3697
     name: Silicate Glass
+    volume: 1.5
   Superconductors:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9838
     name: Superconductors
+    volume: 1.5
   Supertensile Plastics:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2312
     name: Supertensile Plastics
+    volume: 1.5
   Synthetic Oil:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3691
     name: Synthetic Oil
+    volume: 1.5
   Test Cultures:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2319
     name: Test Cultures
+    volume: 1.5
   Transmitter:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 9840
     name: Transmitter
+    volume: 1.5
   Viral Agent:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 3775
     name: Viral Agent
+    volume: 1.5
   Water-Cooled CPU:
     ExportTaxMultiplier: 7200
     ImportTaxMultiplier: 7200
+    id: 2328
     name: Water-Cooled CPU
+    volume: 1.5

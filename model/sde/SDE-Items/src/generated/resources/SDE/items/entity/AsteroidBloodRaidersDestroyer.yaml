@@ -1,13 +1,25 @@
 items:
   Blood Cleric:
+    id: 23250
     name: Blood Cleric
+    volume: 28600.0
   Blood Converter:
+    id: 23246
     name: Blood Converter
+    volume: 28600.0
   Blood Devoter:
+    id: 23248
     name: Blood Devoter
+    volume: 28600.0
   Blood Friar:
+    id: 23249
     name: Blood Friar
+    volume: 28600.0
   Blood Templar:
+    id: 23247
     name: Blood Templar
+    volume: 28600.0
   Blood Visionary:
+    id: 23245
     name: Blood Visionary
+    volume: 28600.0

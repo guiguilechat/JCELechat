@@ -1,10 +1,16 @@
 items:
   Design Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    id: 28605
     name: Design Laboratory Blueprint
+    volume: 0.01
   Experimental Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    id: 2820
     name: Experimental Laboratory Blueprint
+    volume: 0.01
   Research Laboratory Blueprint:
     IndustryBlueprintRank: 60.0
+    id: 2821
     name: Research Laboratory Blueprint
+    volume: 0.01

@@ -1,63 +1,99 @@
 items:
   Ametat I Blueprint:
     TechLevel: 1
+    id: 41355
     name: Ametat I Blueprint
+    volume: 0.01
   Ametat II Blueprint:
     TechLevel: 2
+    id: 41356
     name: Ametat II Blueprint
+    volume: 0.01
   Antaeus I Blueprint:
     TechLevel: 1
+    id: 41363
     name: Antaeus I Blueprint
+    volume: 0.01
   Antaeus II Blueprint:
     TechLevel: 2
+    id: 41364
     name: Antaeus II Blueprint
+    volume: 0.01
   Cyclops I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 32326
     name: Cyclops I Blueprint
+    volume: 0.01
   Cyclops II Blueprint:
     TechLevel: 2
+    id: 41351
     name: Cyclops II Blueprint
+    volume: 0.01
   DogBlueprint_PLACEHOLDER:
     TechLevel: 1
+    id: 45674
     name: DogBlueprint_PLACEHOLDER
   EasyBlueprint_PLACEHOLDER:
     TechLevel: 1
+    id: 45676
     name: EasyBlueprint_PLACEHOLDER
   Gungnir I Blueprint:
     TechLevel: 1
+    id: 41365
     name: Gungnir I Blueprint
+    volume: 0.01
   Gungnir II Blueprint:
     TechLevel: 2
+    id: 41366
     name: Gungnir II Blueprint
+    volume: 0.01
   Malleus I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 32341
     name: Malleus I Blueprint
+    volume: 0.01
   Malleus II Blueprint:
     TechLevel: 2
+    id: 41352
     name: Malleus II Blueprint
+    volume: 0.01
   Mantis I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 32345
     name: Mantis I Blueprint
+    volume: 0.01
   Mantis II Blueprint:
     TechLevel: 2
+    id: 41353
     name: Mantis II Blueprint
+    volume: 0.01
   Shadow Blueprint:
     MetaGroupID: 4
     TechLevel: 1
+    id: 2949
     name: Shadow Blueprint
+    volume: 0.01
   Termite I Blueprint:
     TechLevel: 1
+    id: 41361
     name: Termite I Blueprint
+    volume: 0.01
   Termite II Blueprint:
     TechLevel: 2
+    id: 41362
     name: Termite II Blueprint
+    volume: 0.01
   Tyrfing I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 32343
     name: Tyrfing I Blueprint
+    volume: 0.01
   Tyrfing II Blueprint:
     TechLevel: 2
+    id: 41354
     name: Tyrfing II Blueprint
+    volume: 0.01

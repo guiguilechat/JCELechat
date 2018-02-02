@@ -1,49 +1,97 @@
 items:
   Auctioneer:
+    id: 20718
     name: Auctioneer
+    volume: 1120000.0
   Bursar:
+    id: 20717
     name: Bursar
+    volume: 1120000.0
   Caravan:
+    id: 10117
     name: Caravan
+    volume: 1090000.0
   Carrier:
+    id: 10830
     name: Carrier
+    volume: 1120000.0
   Chafferer:
+    id: 10824
     name: Chafferer
+    volume: 960000.0
   Chandler:
+    id: 10834
     name: Chandler
+    volume: 1050000.0
   Column:
+    id: 10044
     name: Column
+    volume: 1020000.0
   Courier:
+    id: 10828
     name: Courier
+    volume: 1120000.0
   Flotilla:
+    id: 10118
     name: Flotilla
+    volume: 1105000.0
   Hauler:
+    id: 10826
     name: Hauler
+    volume: 1020000.0
   Hawker:
+    id: 10831
     name: Hawker
+    volume: 890000.0
   Huckster:
+    id: 10832
     name: Huckster
+    volume: 1120000.0
   Marketeer:
+    id: 20719
     name: Marketeer
+    volume: 1105000.0
   Merchant:
+    id: 10115
     name: Merchant
+    volume: 850000.0
   Patronager:
+    id: 10833
     name: Patronager
+    volume: 1120000.0
   Peddler:
+    id: 10043
     name: Peddler
+    volume: 890000.0
   Purveyor:
+    id: 10829
     name: Purveyor
+    volume: 1120000.0
   Retailer:
+    id: 10823
     name: Retailer
+    volume: 960000.0
   Trader:
+    id: 10827
     name: Trader
+    volume: 1120000.0
   Tradesman:
+    id: 10114
     name: Tradesman
+    volume: 890000.0
   Trafficker:
+    id: 10116
     name: Trafficker
+    volume: 960000.0
   Trailer:
+    id: 10825
     name: Trailer
+    volume: 1020000.0
   Vanguard:
+    id: 10045
     name: Vanguard
+    volume: 1120000.0
   Vendor:
+    id: 20716
     name: Vendor
+    volume: 1020000.0

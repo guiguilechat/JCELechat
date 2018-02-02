@@ -2,36 +2,54 @@ items:
   Core Probe Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 17939
     name: Core Probe Launcher I Blueprint
+    volume: 0.01
   Core Probe Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 4259
     name: Core Probe Launcher II Blueprint
+    volume: 0.01
   Expanded Probe Launcher I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    id: 18640
     name: Expanded Probe Launcher I Blueprint
+    volume: 0.01
   Expanded Probe Launcher II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 4261
     name: Expanded Probe Launcher II Blueprint
+    volume: 0.01
   Planet Satellite Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 28613
     name: Planet Satellite Blueprint
+    volume: 0.01
   Recon Probe Launcher II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    id: 25772
     name: Recon Probe Launcher II Blueprint
+    volume: 0.01
   Scan Probe Launcher II Blueprint:
     IndustryBlueprintRank: 31.200000762939453
     TechLevel: 2
+    id: 17902
     name: Scan Probe Launcher II Blueprint
+    volume: 0.01
   Sisters Core Probe Launcher Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 28759
     name: Sisters Core Probe Launcher Blueprint
+    volume: 0.01
   Sisters Expanded Probe Launcher Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
+    id: 28757
     name: Sisters Expanded Probe Launcher Blueprint
+    volume: 0.01

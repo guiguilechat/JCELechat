@@ -7,7 +7,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 20342
     name: Advanced Spaceship Command
+    volume: 0.01
   Amarr Battlecruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -17,7 +19,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     SubSystemSlot: 125
+    id: 33095
     name: Amarr Battlecruiser
+    volume: 0.01
   Amarr Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -26,7 +30,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 3339
     name: Amarr Battleship
+    volume: 0.01
   Amarr Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -42,7 +48,9 @@ items:
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
+    id: 24311
     name: Amarr Carrier
+    volume: 0.01
   Amarr Cruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -52,14 +60,18 @@ items:
     SecondaryAttribute: 168
     ShipPowerBonus: 2
     SkillTimeConstant: 5.0
+    id: 3335
     name: Amarr Cruiser
+    volume: 0.01
   Amarr Destroyer:
     PrimaryAttribute: 167
     RequiredSkill1: 3331
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 33091
     name: Amarr Destroyer
+    volume: 0.01
   Amarr Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -71,7 +83,9 @@ items:
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 20525
     name: Amarr Dreadnought
+    volume: 0.01
   Amarr Force Auxiliary:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -88,7 +102,9 @@ items:
     SecondaryAttribute: 168
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
+    id: 40535
     name: Amarr Force Auxiliary
+    volume: 0.01
   Amarr Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -98,21 +114,27 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 20524
     name: Amarr Freighter
+    volume: 0.01
   Amarr Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3331
     name: Amarr Frigate
+    volume: 0.01
   Amarr Industrial:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3343
     name: Amarr Industrial
+    volume: 0.01
   Amarr Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -120,7 +142,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 30650
     name: Amarr Strategic Cruiser
+    volume: 0.01
   Amarr Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -128,7 +152,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 34390
     name: Amarr Tactical Destroyer
+    volume: 0.01
   Amarr Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -142,7 +168,9 @@ items:
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
+    id: 3347
     name: Amarr Titan
+    volume: 0.01
   Assault Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -154,14 +182,18 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 12095
     name: Assault Frigates
+    volume: 0.01
   Battlecruisers:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 12099
     name: Battlecruisers
+    volume: 0.01
   Black Ops:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -173,7 +205,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 10.0
+    id: 28656
     name: Black Ops
+    volume: 0.01
   Caldari Battlecruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -182,7 +216,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 33096
     name: Caldari Battlecruiser
+    volume: 0.01
   Caldari Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -191,7 +227,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 3338
     name: Caldari Battleship
+    volume: 0.01
   Caldari Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -207,7 +245,9 @@ items:
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
+    id: 24312
     name: Caldari Carrier
+    volume: 0.01
   Caldari Cruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -216,14 +256,18 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3334
     name: Caldari Cruiser
+    volume: 0.01
   Caldari Destroyer:
     PrimaryAttribute: 167
     RequiredSkill1: 3330
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 33092
     name: Caldari Destroyer
+    volume: 0.01
   Caldari Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -235,7 +279,9 @@ items:
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 20530
     name: Caldari Dreadnought
+    volume: 0.01
   Caldari Force Auxiliary:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -252,7 +298,9 @@ items:
     SecondaryAttribute: 168
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
+    id: 40536
     name: Caldari Force Auxiliary
+    volume: 0.01
   Caldari Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -262,21 +310,27 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 20526
     name: Caldari Freighter
+    volume: 0.01
   Caldari Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3330
     name: Caldari Frigate
+    volume: 0.01
   Caldari Industrial:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3342
     name: Caldari Industrial
+    volume: 0.01
   Caldari Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -284,7 +338,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 30651
     name: Caldari Strategic Cruiser
+    volume: 0.01
   Caldari Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -292,7 +348,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 35680
     name: Caldari Tactical Destroyer
+    volume: 0.01
   Caldari Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -306,7 +364,9 @@ items:
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
+    id: 3346
     name: Caldari Titan
+    volume: 0.01
   Capital Industrial Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -320,7 +380,9 @@ items:
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 28374
     name: Capital Industrial Ships
+    volume: 0.01
   Capital Ships:
     AgilityBonus: -5.0
     CanNotBeTrainedOnTrial: 1
@@ -329,7 +391,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
+    id: 20533
     name: Capital Ships
+    volume: 0.01
   Command Destroyers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -339,7 +403,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 37615
     name: Command Destroyers
+    volume: 0.01
   Command Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -351,7 +417,9 @@ items:
     RequiredSkill3Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 8.0
+    id: 23950
     name: Command Ships
+    volume: 0.01
   Concord:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -360,7 +428,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 10264
     name: Concord
+    volume: 0.01
   Covert Ops:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -370,14 +440,18 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 12093
     name: Covert Ops
+    volume: 0.01
   Destroyers:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 12097
     name: Destroyers
+    volume: 0.01
   Electronic Attack Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -387,7 +461,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 28615
     name: Electronic Attack Ships
+    volume: 0.01
   Exhumers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -399,7 +475,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 22551
     name: Exhumers
+    volume: 0.01
   Expedition Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -411,7 +489,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 33856
     name: Expedition Frigates
+    volume: 0.01
   Gallente Battlecruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -420,7 +500,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 33097
     name: Gallente Battlecruiser
+    volume: 0.01
   Gallente Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -429,7 +511,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 3336
     name: Gallente Battleship
+    volume: 0.01
   Gallente Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -445,7 +529,9 @@ items:
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
+    id: 24313
     name: Gallente Carrier
+    volume: 0.01
   Gallente Cruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -454,14 +540,18 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3332
     name: Gallente Cruiser
+    volume: 0.01
   Gallente Destroyer:
     PrimaryAttribute: 167
     RequiredSkill1: 3328
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 33093
     name: Gallente Destroyer
+    volume: 0.01
   Gallente Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -473,7 +563,9 @@ items:
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 20531
     name: Gallente Dreadnought
+    volume: 0.01
   Gallente Force Auxiliary:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -490,7 +582,9 @@ items:
     SecondaryAttribute: 168
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
+    id: 40537
     name: Gallente Force Auxiliary
+    volume: 0.01
   Gallente Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -500,21 +594,27 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 20527
     name: Gallente Freighter
+    volume: 0.01
   Gallente Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3328
     name: Gallente Frigate
+    volume: 0.01
   Gallente Industrial:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3340
     name: Gallente Industrial
+    volume: 0.01
   Gallente Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -522,7 +622,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 30652
     name: Gallente Strategic Cruiser
+    volume: 0.01
   Gallente Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -530,7 +632,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 35685
     name: Gallente Tactical Destroyer
+    volume: 0.01
   Gallente Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -544,7 +648,9 @@ items:
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
+    id: 3344
     name: Gallente Titan
+    volume: 0.01
   Heavy Assault Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -558,7 +664,9 @@ items:
     RequiredSkill4Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 16591
     name: Heavy Assault Cruisers
+    volume: 0.01
   Heavy Interdiction Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -570,7 +678,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 28609
     name: Heavy Interdiction Cruisers
+    volume: 0.01
   Industrial Command Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -582,7 +692,9 @@ items:
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 29637
     name: Industrial Command Ships
+    volume: 0.01
   Interceptors:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -592,7 +704,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 12092
     name: Interceptors
+    volume: 0.01
   Interdictors:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -604,7 +718,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 12098
     name: Interdictors
+    volume: 0.01
   Jove Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -613,7 +729,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 11078
     name: Jove Battleship
+    volume: 0.01
   Jove Cruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -622,14 +740,18 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 3758
     name: Jove Cruiser
+    volume: 0.01
   Jove Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 3755
     name: Jove Frigate
+    volume: 0.01
   Jove Industrial:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -638,7 +760,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 11075
     name: Jove Industrial
+    volume: 0.01
   Jump Freighters:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -648,7 +772,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 14.0
+    id: 29029
     name: Jump Freighters
+    volume: 0.01
   Logistics Cruisers:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -660,7 +786,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 12096
     name: Logistics Cruisers
+    volume: 0.01
   Logistics Frigates:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -672,7 +800,9 @@ items:
     RequiredSkill3Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 40328
     name: Logistics Frigates
+    volume: 0.01
   Marauders:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -684,7 +814,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 10.0
+    id: 28667
     name: Marauders
+    volume: 0.01
   Mining Barge:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -696,14 +828,18 @@ items:
     RequiredSkill3Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 17940
     name: Mining Barge
+    volume: 0.01
   Mining Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 32918
     name: Mining Frigate
+    volume: 0.01
   Minmatar Battlecruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -712,7 +848,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 33098
     name: Minmatar Battlecruiser
+    volume: 0.01
   Minmatar Battleship:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -721,7 +859,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 3337
     name: Minmatar Battleship
+    volume: 0.01
   Minmatar Carrier:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -737,7 +877,9 @@ items:
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
+    id: 24314
     name: Minmatar Carrier
+    volume: 0.01
   Minmatar Cruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -746,14 +888,18 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3333
     name: Minmatar Cruiser
+    volume: 0.01
   Minmatar Destroyer:
     PrimaryAttribute: 167
     RequiredSkill1: 3329
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 33094
     name: Minmatar Destroyer
+    volume: 0.01
   Minmatar Dreadnought:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -765,7 +911,9 @@ items:
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 20532
     name: Minmatar Dreadnought
+    volume: 0.01
   Minmatar Force Auxiliary:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -782,7 +930,9 @@ items:
     SecondaryAttribute: 168
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
+    id: 40538
     name: Minmatar Force Auxiliary
+    volume: 0.01
   Minmatar Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -792,21 +942,27 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 20528
     name: Minmatar Freighter
+    volume: 0.01
   Minmatar Frigate:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3329
     name: Minmatar Frigate
+    volume: 0.01
   Minmatar Industrial:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3341
     name: Minmatar Industrial
+    volume: 0.01
   Minmatar Strategic Cruiser:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -814,7 +970,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 30653
     name: Minmatar Strategic Cruiser
+    volume: 0.01
   Minmatar Tactical Destroyer:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -822,7 +980,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 34533
     name: Minmatar Tactical Destroyer
+    volume: 0.01
   Minmatar Titan:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -836,7 +996,9 @@ items:
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
+    id: 3345
     name: Minmatar Titan
+    volume: 0.01
   ORE Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -846,7 +1008,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 9.0
+    id: 34327
     name: ORE Freighter
+    volume: 0.01
   ORE Industrial:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -854,7 +1018,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3184
     name: ORE Industrial
+    volume: 0.01
   Omnipotent:
     PrimaryAttribute: 167
     RequiredSkill1: 19430
@@ -863,7 +1029,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 42.0
+    id: 19430
     name: Omnipotent
+    volume: 0.01
   Polaris:
     PrimaryAttribute: 167
     RequiredSkill1: 3327
@@ -872,7 +1040,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 0.5
+    id: 9955
     name: Polaris
+    volume: 0.01
   Recon Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -886,14 +1056,18 @@ items:
     RequiredSkill4Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 22761
     name: Recon Ships
+    volume: 0.01
   Spaceship Command:
     AgilityBonus: -2.0
     MaxAttackTargets: 1
     PrimaryAttribute: 167
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 3327
     name: Spaceship Command
+    volume: 0.01
   Transport Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -903,4 +1077,6 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
+    id: 19719
     name: Transport Ships
+    volume: 0.01

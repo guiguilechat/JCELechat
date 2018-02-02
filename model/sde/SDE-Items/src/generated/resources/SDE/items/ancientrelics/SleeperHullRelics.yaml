@@ -1,19 +1,31 @@
 items:
   Intact Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 30752
     name: Intact Hull Section
+    volume: 50.0
   Malfunctioning Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 30753
     name: Malfunctioning Hull Section
+    volume: 50.0
   Small Intact Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 34412
     name: Small Intact Hull Section
+    volume: 20.0
   Small Malfunctioning Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 34414
     name: Small Malfunctioning Hull Section
+    volume: 20.0
   Small Wrecked Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 34416
     name: Small Wrecked Hull Section
+    volume: 20.0
   Wrecked Hull Section:
     IndustryBlueprintRank: 2.0
+    id: 30754
     name: Wrecked Hull Section
+    volume: 50.0

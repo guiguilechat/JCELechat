@@ -23,6 +23,6 @@ public abstract class Lights
     }
 
     public static Map<String, ? extends Lights> loadCategory() {
-        return Stream.of(BoxLights.load(), PointLights.load(), SpotLights.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(SpotLights.load(), PointLights.load(), BoxLights.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

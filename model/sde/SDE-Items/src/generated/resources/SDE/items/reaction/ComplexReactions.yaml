@@ -1,31 +1,61 @@
 items:
   Crystalline Carbonide Reaction:
+    id: 17963
     name: Crystalline Carbonide Reaction
+    volume: 1.0
   Fermionic Condensates Reaction:
+    id: 17972
     name: Fermionic Condensates Reaction
+    volume: 1.0
   Fernite Carbide Reaction:
+    id: 17964
     name: Fernite Carbide Reaction
+    volume: 1.0
   Ferrogel Reaction:
+    id: 17971
     name: Ferrogel Reaction
+    volume: 1.0
   Fulleride Reaction:
+    id: 17967
     name: Fulleride Reaction
+    volume: 1.0
   Hypersynaptic Fibers Reaction:
+    id: 17970
     name: Hypersynaptic Fibers Reaction
+    volume: 1.0
   Nanotransistors Reaction:
+    id: 17969
     name: Nanotransistors Reaction
+    volume: 1.0
   Nonlinear Metamaterials Reaction:
+    id: 33363
     name: Nonlinear Metamaterials Reaction
+    volume: 1.0
   Phenolic Composites Reaction:
+    id: 17968
     name: Phenolic Composites Reaction
+    volume: 1.0
   Photonic Metamaterials Reaction:
+    id: 33364
     name: Photonic Metamaterials Reaction
+    volume: 1.0
   Plasmonic Metamaterials Reaction:
+    id: 33365
     name: Plasmonic Metamaterials Reaction
+    volume: 1.0
   Sylramic Fibers Reaction:
+    id: 17966
     name: Sylramic Fibers Reaction
+    volume: 1.0
   Terahertz Metamaterials Reaction:
+    id: 33366
     name: Terahertz Metamaterials Reaction
+    volume: 1.0
   Titanium Carbide Reaction:
+    id: 17962
     name: Titanium Carbide Reaction
+    volume: 1.0
   Tungsten Carbide Reaction:
+    id: 17965
     name: Tungsten Carbide Reaction
+    volume: 1.0

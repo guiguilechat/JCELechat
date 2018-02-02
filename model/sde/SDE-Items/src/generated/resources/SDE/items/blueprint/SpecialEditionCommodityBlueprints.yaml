@@ -1,4 +1,6 @@
 items:
   Deactivated Station Key Pass Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 33067
     name: Deactivated Station Key Pass Blueprint
+    volume: 0.01

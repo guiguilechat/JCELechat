@@ -76,7 +76,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 8.0
+    id: 11188
     name: Anathema
+    volume: 28100.0
   Buzzard:
     Agility: 4.269999980926514
     ArmorEmDamageResonance: 0.5
@@ -156,7 +158,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 2.1645000742864795E-6
     WarpSpeedMultiplier: 8.0
+    id: 11192
     name: Buzzard
+    volume: 19400.0
   Caedes:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.5
@@ -243,7 +247,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 8.0
+    id: 42246
     name: Caedes
+    volume: 28600.0
   Cheetah:
     Agility: 3.7699999809265137
     ArmorEmDamageResonance: 0.30000001192092896
@@ -322,7 +328,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.803750024009787E-6
     WarpSpeedMultiplier: 8.0
+    id: 11182
     name: Cheetah
+    volume: 17400.0
   Chremoas:
     Agility: 3.119999885559082
     ArmorEmDamageResonance: 0.20000000298023224
@@ -407,7 +415,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 8.0
+    id: 33397
     name: Chremoas
+    volume: 28000.0
   Helios:
     Agility: 4.142000198364258
     ArmorEmDamageResonance: 0.5
@@ -487,7 +497,9 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.285710027332243E-6
     WarpSpeedMultiplier: 8.0
+    id: 11172
     name: Helios
+    volume: 23000.0
   Pacifier:
     Agility: 3.5999999046325684
     ArmorEmDamageResonance: 0.6700000166893005
@@ -583,4 +595,6 @@ items:
     VirusStrengthBonus: 10
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 8.0
+    id: 44993
     name: Pacifier
+    volume: 20000.0

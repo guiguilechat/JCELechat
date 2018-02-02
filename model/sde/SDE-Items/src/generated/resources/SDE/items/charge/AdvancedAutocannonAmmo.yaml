@@ -18,7 +18,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    id: 12775
     name: Barrage L
+    volume: 0.025
   Barrage M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -38,7 +40,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    id: 12773
     name: Barrage M
+    volume: 0.0125
   Barrage S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -58,7 +62,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    id: 12625
     name: Barrage S
+    volume: 0.0025
   Barrage XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -78,7 +84,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
+    id: 41316
     name: Barrage XL
+    volume: 0.125
   Hail L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -98,7 +106,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    id: 12779
     name: Hail L
+    volume: 0.025
   Hail M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -118,7 +128,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    id: 12777
     name: Hail M
+    volume: 0.0125
   Hail S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -138,7 +150,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    id: 12608
     name: Hail S
+    volume: 0.0025
   Hail XL:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 4
@@ -158,7 +172,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
+    id: 41314
     name: Hail XL
+    volume: 0.125
   Storm L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3
@@ -178,7 +194,9 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12783
     name: Storm L
+    volume: 0.025
   Storm M:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 2
@@ -198,7 +216,9 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12781
     name: Storm M
+    volume: 0.0125
   Storm S:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 1
@@ -218,4 +238,6 @@ items:
     ThermalDamage: 5.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 1.0
+    id: 12627
     name: Storm S
+    volume: 0.0025

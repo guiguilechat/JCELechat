@@ -9,7 +9,9 @@ items:
     WarfareBuff1Multiplier: -6
     WarfareBuff2ID: 60
     WarfareBuff2Multiplier: -6
+    id: 42838
     name: Evasive Maneuvers Charge
+    volume: 0.01
   Interdiction Maneuvers Charge:
     LauncherGroup: 1770
     RequiredSkill1: 3349
@@ -18,7 +20,9 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 21
     WarfareBuff1Multiplier: 12
+    id: 42839
     name: Interdiction Maneuvers Charge
+    volume: 0.01
   Rapid Deployment Charge:
     LauncherGroup: 1770
     RequiredSkill1: 3349
@@ -27,4 +31,6 @@ items:
     RequiredSkill2Level: 1
     WarfareBuff1ID: 22
     WarfareBuff1Multiplier: 12
+    id: 42840
     name: Rapid Deployment Charge
+    volume: 0.01

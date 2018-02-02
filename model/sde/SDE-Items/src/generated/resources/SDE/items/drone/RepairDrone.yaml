@@ -31,4 +31,6 @@ items:
     StructureUniformity: 1.0
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 9871
     name: Repair Drone
+    volume: 50.0

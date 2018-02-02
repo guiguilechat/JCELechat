@@ -2,6 +2,7 @@ items:
   Bookmark:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    id: 51
     name: Bookmark
   Company Shares:
     Agility: 1000.0
@@ -17,12 +18,15 @@ items:
     RequiredSkill2: 3319
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
+    id: 50
     name: Company Shares
   Loyalty Points:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    id: 29247
     name: Loyalty Points
   Player Kill:
     CapacitorRechargeRateMultiplier: 1.0
     StructureUniformity: 1.0
+    id: 49
     name: Player Kill

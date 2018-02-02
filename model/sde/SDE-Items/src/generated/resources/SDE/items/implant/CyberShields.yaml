@@ -6,169 +6,219 @@ items:
     RequiredSkill1Level: 3
     ShieldCapacityBonus: 3.0
     TechLevel: 1
+    id: 32255
     name: Sansha Modified 'Gnome' Implant
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-801:
     CapNeedBonus: -1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27106
     name: Zainou 'Gnome' Shield Emission Systems SE-801
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-802:
     CapNeedBonus: -2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3085
     name: Zainou 'Gnome' Shield Emission Systems SE-802
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-803:
     CapNeedBonus: -3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13262
     name: Zainou 'Gnome' Shield Emission Systems SE-803
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-804:
     CapNeedBonus: -4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3086
     name: Zainou 'Gnome' Shield Emission Systems SE-804
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-805:
     CapNeedBonus: -5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16247
     name: Zainou 'Gnome' Shield Emission Systems SE-805
+    volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-806:
     CapNeedBonus: -6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3087
     name: Zainou 'Gnome' Shield Emission Systems SE-806
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-701:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27105
     name: Zainou 'Gnome' Shield Management SM-701
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-702:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     ShieldCapacityBonus: 2.0
     TechLevel: 1
+    id: 3080
     name: Zainou 'Gnome' Shield Management SM-702
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-703:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 10228
     name: Zainou 'Gnome' Shield Management SM-703
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-704:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ShieldCapacityBonus: 4.0
     TechLevel: 1
+    id: 3081
     name: Zainou 'Gnome' Shield Management SM-704
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-705:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16246
     name: Zainou 'Gnome' Shield Management SM-705
+    volume: 1.0
   Zainou 'Gnome' Shield Management SM-706:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     ShieldCapacityBonus: 6.0
     TechLevel: 1
+    id: 3084
     name: Zainou 'Gnome' Shield Management SM-706
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-901:
     Implantness: 9
     Rechargeratebonus: -1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27107
     name: Zainou 'Gnome' Shield Operation SP-901
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-902:
     Implantness: 9
     Rechargeratebonus: -2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3088
     name: Zainou 'Gnome' Shield Operation SP-902
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-903:
     Implantness: 9
     Rechargeratebonus: -3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13263
     name: Zainou 'Gnome' Shield Operation SP-903
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-904:
     Implantness: 9
     Rechargeratebonus: -4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3089
     name: Zainou 'Gnome' Shield Operation SP-904
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-905:
     Implantness: 9
     Rechargeratebonus: -5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16248
     name: Zainou 'Gnome' Shield Operation SP-905
+    volume: 1.0
   Zainou 'Gnome' Shield Operation SP-906:
     Implantness: 9
     Rechargeratebonus: -6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3092
     name: Zainou 'Gnome' Shield Operation SP-906
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-601:
     Implantness: 6
     PowerNeedBonus: -1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27104
     name: Zainou 'Gnome' Shield Upgrades SU-601
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-602:
     Implantness: 6
     PowerNeedBonus: -2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3077
     name: Zainou 'Gnome' Shield Upgrades SU-602
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-603:
     Implantness: 6
     PowerNeedBonus: -3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13253
     name: Zainou 'Gnome' Shield Upgrades SU-603
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-604:
     Implantness: 6
     PowerNeedBonus: -4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3078
     name: Zainou 'Gnome' Shield Upgrades SU-604
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-605:
     Implantness: 6
     PowerNeedBonus: -5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16245
     name: Zainou 'Gnome' Shield Upgrades SU-605
+    volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-606:
     Implantness: 6
     PowerNeedBonus: -6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3079
     name: Zainou 'Gnome' Shield Upgrades SU-606
+    volume: 1.0

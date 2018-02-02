@@ -9,7 +9,9 @@ items:
     TechLevel: 1
     UpgradeCost: 25
     VelocityBonus: -75.0
+    id: 34308
     name: Capital Higgs Anchor I
+    volume: 40.0
   Large Higgs Anchor I:
     AgilityBonus: -55.0
     Drawback: -10
@@ -20,7 +22,9 @@ items:
     TechLevel: 1
     UpgradeCost: 25
     VelocityBonus: -75.0
+    id: 34306
     name: Large Higgs Anchor I
+    volume: 20.0
   Medium Higgs Anchor I:
     AgilityBonus: -55.0
     Drawback: -10
@@ -31,7 +35,9 @@ items:
     TechLevel: 1
     UpgradeCost: 25
     VelocityBonus: -75.0
+    id: 34268
     name: Medium Higgs Anchor I
+    volume: 10.0
   Small Higgs Anchor I:
     AgilityBonus: -55.0
     Drawback: -10
@@ -42,4 +48,6 @@ items:
     TechLevel: 1
     UpgradeCost: 25
     VelocityBonus: -75.0
+    id: 34266
     name: Small Higgs Anchor I
+    volume: 5.0

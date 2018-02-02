@@ -9,7 +9,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 421
     name: '''Basic'' Capacitor Recharger'
+    volume: 5.0
   '''Palisade'' Cap Recharger I':
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Hp: 40
@@ -19,7 +21,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 23813
     name: '''Palisade'' Cap Recharger I'
+    volume: 5.0
   AGM Capacitor Charge Array:
     CapacitorRechargeRateMultiplier: 0.8799999952316284
     Hp: 40
@@ -27,7 +31,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4425
     name: AGM Capacitor Charge Array
+    volume: 5.0
   Ahremen's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
     Hp: 40
@@ -37,7 +43,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 21818
     name: Ahremen's Modified Cap Recharger
+    volume: 5.0
   Ammatar Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -47,7 +55,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 15788
     name: Ammatar Navy Cap Recharger
+    volume: 5.0
   Barton Reactor Capacitor Recharger I:
     CapacitorRechargeRateMultiplier: 0.8424999713897705
     Hp: 40
@@ -56,7 +66,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4433
     name: Barton Reactor Capacitor Recharger I
+    volume: 5.0
   Brokara's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Hp: 40
@@ -66,7 +78,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 16599
     name: Brokara's Modified Cap Recharger
+    volume: 5.0
   Cap Recharger I:
     CapacitorRechargeRateMultiplier: 0.8500000238418579
     Hp: 40
@@ -74,7 +88,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 1195
     name: Cap Recharger I
+    volume: 5.0
   Cap Recharger II:
     CapacitorRechargeRateMultiplier: 0.800000011920929
     Hp: 40
@@ -83,7 +99,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 3
     TechLevel: 2
+    id: 2032
     name: Cap Recharger II
+    volume: 5.0
   Chelm's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Hp: 40
@@ -93,7 +111,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 16605
     name: Chelm's Modified Cap Recharger
+    volume: 5.0
   Dark Blood Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -103,7 +123,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 14142
     name: Dark Blood Cap Recharger
+    volume: 5.0
   Draclira's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6399999856948853
     Hp: 40
@@ -113,7 +135,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 21819
     name: Draclira's Modified Cap Recharger
+    volume: 5.0
   Eutectic Compact Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.824999988079071
     Hp: 40
@@ -122,7 +146,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4435
     name: Eutectic Compact Cap Recharger
+    volume: 5.0
   F-a10 Buffer Capacitor Regenerator:
     CapacitorRechargeRateMultiplier: 0.8849999904632568
     Hp: 40
@@ -130,7 +156,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4421
     name: F-a10 Buffer Capacitor Regenerator
+    volume: 5.0
   F-b10 Nominal Capacitor Regenerator:
     CapacitorRechargeRateMultiplier: 0.8274999856948853
     Hp: 40
@@ -139,7 +167,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4431
     name: F-b10 Nominal Capacitor Regenerator
+    volume: 5.0
   Fixed Parallel Link-Capacitor I:
     CapacitorRechargeRateMultiplier: 0.8349999785423279
     Hp: 40
@@ -148,7 +178,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4437
     name: Fixed Parallel Link-Capacitor I
+    volume: 5.0
   Imperial Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -158,7 +190,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 17526
     name: Imperial Navy Cap Recharger
+    volume: 5.0
   Industrial Capacitor Recharger:
     CapacitorRechargeRateMultiplier: 0.8949999809265137
     Hp: 40
@@ -166,7 +200,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4423
     name: Industrial Capacitor Recharger
+    volume: 5.0
   Khanid Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -176,7 +212,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 28530
     name: Khanid Navy Cap Recharger
+    volume: 5.0
   Raysere's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
     Hp: 40
@@ -186,7 +224,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 21817
     name: Raysere's Modified Cap Recharger
+    volume: 5.0
   Secondary Parallel Link-Capacitor:
     CapacitorRechargeRateMultiplier: 0.8899999856948853
     Hp: 40
@@ -194,7 +234,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 4427
     name: Secondary Parallel Link-Capacitor
+    volume: 5.0
   Selynne's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295
     Hp: 40
@@ -204,7 +246,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 16601
     name: Selynne's Modified Cap Recharger
+    volume: 5.0
   Tairei's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
     Hp: 40
@@ -214,7 +258,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 21816
     name: Tairei's Modified Cap Recharger
+    volume: 5.0
   True Sansha Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -224,7 +270,9 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 14140
     name: True Sansha Cap Recharger
+    volume: 5.0
   Vizan's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
     Hp: 40
@@ -234,4 +282,6 @@ items:
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 16603
     name: Vizan's Modified Cap Recharger
+    volume: 5.0

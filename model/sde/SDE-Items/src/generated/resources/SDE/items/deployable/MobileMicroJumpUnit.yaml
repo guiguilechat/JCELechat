@@ -21,7 +21,9 @@ items:
     SignatureRadiusBonusPercent: 150
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33591
     name: Mobile Micro Jump Unit
+    volume: 50.0
   Tournament Micro Jump Unit:
     ArmorHP: 1000
     ArmorUniformity: 0.75
@@ -42,4 +44,6 @@ items:
     SignatureRadiusBonusPercent: 150
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33990
     name: Tournament Micro Jump Unit
+    volume: 1.0

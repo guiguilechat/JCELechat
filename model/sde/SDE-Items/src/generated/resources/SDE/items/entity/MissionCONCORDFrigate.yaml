@@ -1,13 +1,25 @@
 items:
   DED Soldier 1st Class:
+    id: 16107
     name: DED Soldier 1st Class
+    volume: 16500.0
   DED Soldier 2nd Class:
+    id: 16106
     name: DED Soldier 2nd Class
+    volume: 20400.0
   DED Soldier 3rd Class:
+    id: 16105
     name: DED Soldier 3rd Class
+    volume: 20250.0
   DED Special Ops Panther:
+    id: 16109
     name: DED Special Ops Panther
+    volume: 16500.0
   DED Special Ops Piranha:
+    id: 16108
     name: DED Special Ops Piranha
+    volume: 16500.0
   SARO Frigate:
+    id: 2045
     name: SARO Frigate
+    volume: 16500.0

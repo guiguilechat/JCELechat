@@ -7,7 +7,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 11206
     name: Advanced Shield Upgrades
+    volume: 0.01
   Capital Shield Emission Systems:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
@@ -18,7 +20,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    id: 24571
     name: Capital Shield Emission Systems
+    volume: 0.01
   Capital Shield Operation:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -31,7 +35,9 @@ items:
     SecondaryAttribute: 166
     ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 8.0
+    id: 21802
     name: Capital Shield Operation
+    volume: 0.01
   EM Shield Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -39,7 +45,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 12365
     name: EM Shield Compensation
+    volume: 0.01
   Explosive Shield Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -47,7 +55,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 12367
     name: Explosive Shield Compensation
+    volume: 0.01
   Invulnerability Core Operation:
     DurationBonus: 10
     PrimaryAttribute: 165
@@ -57,7 +67,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    id: 44067
     name: Invulnerability Core Operation
+    volume: 0.01
   Kinetic Shield Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -65,7 +77,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 12366
     name: Kinetic Shield Compensation
+    volume: 0.01
   Shield Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3416
@@ -73,7 +87,9 @@ items:
     SecondaryAttribute: 166
     ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 2.0
+    id: 21059
     name: Shield Compensation
+    volume: 0.01
   Shield Emission Systems:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -83,14 +99,18 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3422
     name: Shield Emission Systems
+    volume: 0.01
   Shield Management:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3419
     name: Shield Management
+    volume: 0.01
   Shield Operation:
     PrimaryAttribute: 165
     Rechargeratebonus: -5
@@ -98,7 +118,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3416
     name: Shield Operation
+    volume: 0.01
   Shield Upgrades:
     PowerNeedBonus: -5
     PrimaryAttribute: 165
@@ -108,7 +130,9 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3425
     name: Shield Upgrades
+    volume: 0.01
   Tactical Shield Manipulation:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
@@ -116,7 +140,9 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
     UniformityBonus: 0.05000000074505806
+    id: 3420
     name: Tactical Shield Manipulation
+    volume: 0.01
   Thermal Shield Compensation:
     HardeningBonus: 5.0
     PrimaryAttribute: 165
@@ -124,4 +150,6 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 11566
     name: Thermal Shield Compensation
+    volume: 0.01

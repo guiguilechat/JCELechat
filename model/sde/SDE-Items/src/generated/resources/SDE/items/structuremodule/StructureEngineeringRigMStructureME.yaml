@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43875
     name: Standup M-Set Structure Manufacturing Material Efficiency I
+    volume: 10.0
   Standup M-Set Structure Manufacturing Material Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     CanFitShipGroup01: 1657
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43874
     name: Standup M-Set Structure Manufacturing Material Efficiency II
+    volume: 10.0

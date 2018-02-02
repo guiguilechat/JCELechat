@@ -1,0 +1,55 @@
+decryptors:
+  Accelerant Decryptor:
+    id: 34201
+    maxrun: 1
+    me: 2
+    name: Accelerant Decryptor
+    probmult: 1.2000000476837158
+    te: 10
+  Attainment Decryptor:
+    id: 34202
+    maxrun: 4
+    me: -1
+    name: Attainment Decryptor
+    probmult: 1.7999999523162842
+    te: 4
+  Augmentation Decryptor:
+    id: 34203
+    maxrun: 9
+    me: -2
+    name: Augmentation Decryptor
+    probmult: 0.6000000238418579
+    te: 2
+  Optimized Attainment Decryptor:
+    id: 34207
+    maxrun: 2
+    me: 1
+    name: Optimized Attainment Decryptor
+    probmult: 1.899999976158142
+    te: -2
+  Optimized Augmentation Decryptor:
+    id: 34208
+    maxrun: 7
+    me: 2
+    name: Optimized Augmentation Decryptor
+    probmult: 0.8999999761581421
+  Parity Decryptor:
+    id: 34204
+    maxrun: 3
+    me: 1
+    name: Parity Decryptor
+    probmult: 1.5
+    te: -2
+  Process Decryptor:
+    id: 34205
+    me: 3
+    name: Process Decryptor
+    probmult: 1.100000023841858
+    te: 6
+  Symmetry Decryptor:
+    id: 34206
+    maxrun: 2
+    me: 1
+    name: Symmetry Decryptor
+    probmult: 1.0
+    te: 8

@@ -1,13 +1,25 @@
 items:
   Serpentis Captain:
+    id: 23441
     name: Serpentis Captain
+    volume: 112000.0
   Serpentis Captain Sentry:
+    id: 23442
     name: Serpentis Captain Sentry
+    volume: 112000.0
   Serpentis High Captain:
+    id: 23443
     name: Serpentis High Captain
+    volume: 112000.0
   Serpentis Platoon Leader:
+    id: 23440
     name: Serpentis Platoon Leader
+    volume: 112000.0
   Serpentis Squad Leader:
+    id: 23439
     name: Serpentis Squad Leader
+    volume: 112000.0
   Serpentis Wing Leader:
+    id: 23438
     name: Serpentis Wing Leader
+    volume: 112000.0

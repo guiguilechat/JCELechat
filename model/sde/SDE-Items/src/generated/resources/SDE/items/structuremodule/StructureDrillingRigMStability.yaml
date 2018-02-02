@@ -13,7 +13,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46325
     name: Standup M-Set Moon Drilling Stability I
+    volume: 10.0
   Standup M-Set Moon Drilling Stability II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -28,4 +30,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46326
     name: Standup M-Set Moon Drilling Stability II
+    volume: 10.0

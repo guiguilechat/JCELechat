@@ -25,7 +25,9 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17184
     name: Ballistic Deflection Array
+    volume: 4000.0
   Explosion Dampening Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -52,7 +54,9 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17185
     name: Explosion Dampening Array
+    volume: 4000.0
   Heat Dissipation Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -79,7 +83,9 @@ items:
     ThermalDamageResonanceMultiplier: 0.75
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17186
     name: Heat Dissipation Array
+    volume: 4000.0
   Photon Scattering Array:
     AnchoringDelay: 5000
     ArmorHP: 20000
@@ -106,4 +112,6 @@ items:
     ThermalDamageResonanceMultiplier: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17187
     name: Photon Scattering Array
+    volume: 4000.0

@@ -1,51 +1,101 @@
 items:
   Guardian Chief Defender:
+    id: 23446
     name: Guardian Chief Defender
+    volume: 112000.0
   Guardian Chief Guard:
+    id: 23657
     name: Guardian Chief Guard
+    volume: 112000.0
   Guardian Chief Infantry:
+    id: 23448
     name: Guardian Chief Infantry
+    volume: 112000.0
   Guardian Chief Patroller:
+    id: 23656
     name: Guardian Chief Patroller
+    volume: 112000.0
   Guardian Chief Protector:
+    id: 23447
     name: Guardian Chief Protector
+    volume: 112000.0
   Guardian Chief Safeguard:
+    id: 23658
     name: Guardian Chief Safeguard
+    volume: 112000.0
   Guardian Chief Scout:
+    id: 23444
     name: Guardian Chief Scout
+    volume: 112000.0
   Guardian Chief Sentinel:
+    id: 23449
     name: Guardian Chief Sentinel
+    volume: 112000.0
   Guardian Chief Spy:
+    id: 23445
     name: Guardian Chief Spy
+    volume: 112000.0
   Guardian Chief Watchman:
+    id: 23655
     name: Guardian Chief Watchman
+    volume: 112000.0
   Serpentis Chief Defender:
+    id: 11919
     name: Serpentis Chief Defender
+    volume: 112000.0
   Serpentis Chief Guard:
+    id: 11917
     name: Serpentis Chief Guard
+    volume: 112000.0
   Serpentis Chief Infantry:
+    id: 23436
     name: Serpentis Chief Infantry
+    volume: 112000.0
   Serpentis Chief Patroller:
+    id: 10287
     name: Serpentis Chief Patroller
+    volume: 112000.0
   Serpentis Chief Protector:
+    id: 11920
     name: Serpentis Chief Protector
+    volume: 112000.0
   Serpentis Chief Safeguard:
+    id: 11918
     name: Serpentis Chief Safeguard
+    volume: 112000.0
   Serpentis Chief Scout:
+    id: 11049
     name: Serpentis Chief Scout
+    volume: 113000.0
   Serpentis Chief Sentinel:
+    id: 23437
     name: Serpentis Chief Sentinel
+    volume: 112000.0
   Serpentis Chief Spy:
+    id: 2381
     name: Serpentis Chief Spy
+    volume: 116000.0
   Serpentis Chief Watchman:
+    id: 11050
     name: Serpentis Chief Watchman
+    volume: 115000.0
   Serpentis Clone Soldier Negotiator:
+    id: 33185
     name: Serpentis Clone Soldier Negotiator
+    volume: 112000.0
   'Serpentis Clone Soldier Recruiter ':
+    id: 33146
     name: 'Serpentis Clone Soldier Recruiter '
+    volume: 112000.0
   Serpentis Clone Soldier Trainer:
+    id: 33137
     name: Serpentis Clone Soldier Trainer
+    volume: 112000.0
   Serpentis Clone Soldier Transporter:
+    id: 33164
     name: Serpentis Clone Soldier Transporter
+    volume: 112000.0
   Serpentis Cruiser:
+    id: 33352
     name: Serpentis Cruiser
+    volume: 112000.0

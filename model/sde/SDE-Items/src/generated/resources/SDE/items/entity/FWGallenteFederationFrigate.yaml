@@ -1,3 +1,5 @@
 items:
   Federation Frigate:
+    id: 32915
     name: Federation Frigate
+    volume: 26500.0

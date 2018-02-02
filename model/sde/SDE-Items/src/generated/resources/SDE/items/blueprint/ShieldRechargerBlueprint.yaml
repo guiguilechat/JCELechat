@@ -2,8 +2,12 @@ items:
   Shield Recharger I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1026
     name: Shield Recharger I Blueprint
+    volume: 0.01
   Shield Recharger II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 1027
     name: Shield Recharger II Blueprint
+    volume: 0.01

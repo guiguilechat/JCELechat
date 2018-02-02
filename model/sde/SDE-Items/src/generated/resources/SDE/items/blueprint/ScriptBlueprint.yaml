@@ -1,84 +1,150 @@
 items:
   Armor EM Resistance Script Blueprint:
+    id: 41590
     name: Armor EM Resistance Script Blueprint
+    volume: 0.01
   Armor Explosive Resistance Script Blueprint:
+    id: 41593
     name: Armor Explosive Resistance Script Blueprint
+    volume: 0.01
   Armor Kinetic Resistance Script Blueprint:
+    id: 41592
     name: Armor Kinetic Resistance Script Blueprint
+    volume: 0.01
   Armor Thermal Resistance Script Blueprint:
+    id: 41591
     name: Armor Thermal Resistance Script Blueprint
+    volume: 0.01
   ECCM Script Blueprint:
+    id: 41230
     name: ECCM Script Blueprint
+    volume: 0.01
   Focused Warp Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29004
     name: Focused Warp Disruption Script Blueprint
+    volume: 0.01
   Focused Warp Scrambling Script Blueprint:
+    id: 45011
     name: Focused Warp Scrambling Script Blueprint
+    volume: 0.01
   Missile Precision Disruption Script Blueprint:
+    id: 40337
     name: Missile Precision Disruption Script Blueprint
+    volume: 0.01
   Missile Precision Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 35797
     name: Missile Precision Script Blueprint
+    volume: 0.01
   Missile Range Disruption Script Blueprint:
+    id: 40336
     name: Missile Range Disruption Script Blueprint
+    volume: 0.01
   Missile Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 35796
     name: Missile Range Script Blueprint
+    volume: 0.01
   Nanite Repair Paste Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 2739
     name: Nanite Repair Paste Blueprint
+    volume: 0.01
   Optimal Range Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29006
     name: Optimal Range Disruption Script Blueprint
+    volume: 0.01
   Optimal Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29000
     name: Optimal Range Script Blueprint
+    volume: 0.01
   Scan Resolution Dampening Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29014
     name: Scan Resolution Dampening Script Blueprint
+    volume: 0.01
   Scan Resolution Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29012
     name: Scan Resolution Script Blueprint
+    volume: 0.01
   Shield Booster Fuel Allocation Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 4408
     name: Shield Booster Fuel Allocation Script Blueprint
+    volume: 0.01
   Shield EM Resistance Script Blueprint:
+    id: 41594
     name: Shield EM Resistance Script Blueprint
+    volume: 0.01
   Shield Explosive Resistance Script Blueprint:
+    id: 41597
     name: Shield Explosive Resistance Script Blueprint
+    volume: 0.01
   Shield Kinetic Resistance Script Blueprint:
+    id: 41596
     name: Shield Kinetic Resistance Script Blueprint
+    volume: 0.01
   Shield Thermal Resistance Script Blueprint:
+    id: 41595
     name: Shield Thermal Resistance Script Blueprint
+    volume: 0.01
   Standup Gravimetric ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    id: 37833
     name: Standup Gravimetric ECM Script Blueprint
+    volume: 0.01
   Standup Ladar ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    id: 37834
     name: Standup Ladar ECM Script Blueprint
+    volume: 0.01
   Standup Magnetometric ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    id: 37835
     name: Standup Magnetometric ECM Script Blueprint
+    volume: 0.01
   Standup Radar ECM Script Blueprint:
     StructureItemVisualFlag: 1
+    id: 37836
     name: Standup Radar ECM Script Blueprint
+    volume: 0.01
   Structure EM Hardener Script Blueprint:
+    id: 37837
     name: Structure EM Hardener Script Blueprint
+    volume: 0.01
   Structure Explosive Hardener Script Blueprint:
+    id: 37838
     name: Structure Explosive Hardener Script Blueprint
+    volume: 0.01
   Structure Kinetic Resistance Script Blueprint:
+    id: 37839
     name: Structure Kinetic Resistance Script Blueprint
+    volume: 0.01
   Structure Thermal Resistance Script Blueprint:
+    id: 37840
     name: Structure Thermal Resistance Script Blueprint
+    volume: 0.01
   Targeting Range Dampening Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29016
     name: Targeting Range Dampening Script Blueprint
+    volume: 0.01
   Targeting Range Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29010
     name: Targeting Range Script Blueprint
+    volume: 0.01
   Tracking Speed Disruption Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29008
     name: Tracking Speed Disruption Script Blueprint
+    volume: 0.01
   Tracking Speed Script Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 29002
     name: Tracking Speed Script Blueprint
+    volume: 0.01

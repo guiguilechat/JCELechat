@@ -1,118 +1,196 @@
 items:
   Black Morphite:
     MoonMiningAmount: 100
+    id: 20431
     name: Black Morphite
+    volume: 0.01
   Caesarium Cadmide:
     MoonMiningAmount: 100
+    id: 16663
     name: Caesarium Cadmide
+    volume: 0.2
   Carbon Polymers:
     MoonMiningAmount: 100
+    id: 16659
     name: Carbon Polymers
+    volume: 0.2
   Ceramic Powder:
     MoonMiningAmount: 100
+    id: 16660
     name: Ceramic Powder
+    volume: 0.2
   Crystallite Alloy:
     MoonMiningAmount: 100
+    id: 16655
     name: Crystallite Alloy
+    volume: 0.2
   Dysporite:
     MoonMiningAmount: 100
+    id: 16668
     name: Dysporite
+    volume: 0.2
   Fernite Alloy:
     MoonMiningAmount: 100
+    id: 16656
     name: Fernite Alloy
+    volume: 0.2
   Ferrofluid:
     MoonMiningAmount: 100
+    id: 16669
     name: Ferrofluid
+    volume: 0.2
   Fluxed Condensates:
     MoonMiningAmount: 100
+    id: 17769
     name: Fluxed Condensates
+    volume: 0.2
   Hexite:
     MoonMiningAmount: 100
+    id: 16665
     name: Hexite
+    volume: 0.2
   Hyperflurite:
     MoonMiningAmount: 100
+    id: 16666
     name: Hyperflurite
+    volume: 0.2
   Neo Mercurite:
     MoonMiningAmount: 100
+    id: 16667
     name: Neo Mercurite
+    volume: 0.2
   Platinum Technite:
     MoonMiningAmount: 100
+    id: 16662
     name: Platinum Technite
+    volume: 0.2
   Promethium Mercurite:
     MoonMiningAmount: 100
+    id: 33337
     name: Promethium Mercurite
+    volume: 0.2
   Prometium:
     MoonMiningAmount: 100
+    id: 17960
     name: Prometium
+    volume: 0.2
   Rolled Tungsten Alloy:
     MoonMiningAmount: 100
+    id: 16657
     name: Rolled Tungsten Alloy
+    volume: 0.2
   Silicon Diborite:
     MoonMiningAmount: 100
+    id: 16658
     name: Silicon Diborite
+    volume: 0.2
   Solerium:
     MoonMiningAmount: 100
+    id: 16664
     name: Solerium
+    volume: 0.2
   Sulfuric Acid:
     MoonMiningAmount: 100
+    id: 16661
     name: Sulfuric Acid
+    volume: 0.2
   Thulium Hafnite:
     MoonMiningAmount: 100
+    id: 33336
     name: Thulium Hafnite
+    volume: 0.2
   Titanium Chromide:
     MoonMiningAmount: 100
+    id: 16654
     name: Titanium Chromide
+    volume: 0.2
   Unrefined Caesarium Cadmide:
     MoonMiningAmount: 1
+    id: 32824
     name: Unrefined Caesarium Cadmide
+    volume: 1.0
   Unrefined Crystallite Alloy:
     MoonMiningAmount: 1
+    id: 32829
     name: Unrefined Crystallite Alloy
+    volume: 1.0
   Unrefined Dysporite:
     MoonMiningAmount: 1
+    id: 29660
     name: Unrefined Dysporite
+    volume: 1.0
   Unrefined Fernite Alloy:
     MoonMiningAmount: 1
+    id: 32828
     name: Unrefined Fernite Alloy
+    volume: 1.0
   Unrefined Ferrofluid:
     MoonMiningAmount: 1
+    id: 29663
     name: Unrefined Ferrofluid
+    volume: 1.0
   Unrefined Fluxed Condensates:
     MoonMiningAmount: 1
+    id: 29659
     name: Unrefined Fluxed Condensates
+    volume: 1.0
   Unrefined Hexite:
     MoonMiningAmount: 1
+    id: 32825
     name: Unrefined Hexite
+    volume: 1.0
   Unrefined Hyperflurite:
     MoonMiningAmount: 1
+    id: 29664
     name: Unrefined Hyperflurite
+    volume: 1.0
   Unrefined Neo Mercurite:
     MoonMiningAmount: 1
+    id: 29661
     name: Unrefined Neo Mercurite
+    volume: 1.0
   Unrefined Platinum Technite:
     MoonMiningAmount: 1
+    id: 32822
     name: Unrefined Platinum Technite
+    volume: 1.0
   Unrefined Promethium Mercurite:
     MoonMiningAmount: 1
+    id: 33338
     name: Unrefined Promethium Mercurite
+    volume: 1.0
   Unrefined Prometium:
     MoonMiningAmount: 1
+    id: 29662
     name: Unrefined Prometium
+    volume: 1.0
   Unrefined Rolled Tungsten Alloy:
     MoonMiningAmount: 1
+    id: 32826
     name: Unrefined Rolled Tungsten Alloy
+    volume: 1.0
   Unrefined Solerium:
     MoonMiningAmount: 1
+    id: 32823
     name: Unrefined Solerium
+    volume: 1.0
   Unrefined Thulium Hafnite:
     MoonMiningAmount: 1
+    id: 33339
     name: Unrefined Thulium Hafnite
+    volume: 1.0
   Unrefined Titanium Chromide:
     MoonMiningAmount: 1
+    id: 32827
     name: Unrefined Titanium Chromide
+    volume: 1.0
   Unrefined Vanadium Hafnite:
     MoonMiningAmount: 1
+    id: 32821
     name: Unrefined Vanadium Hafnite
+    volume: 1.0
   Vanadium Hafnite:
     MoonMiningAmount: 100
+    id: 17959
     name: Vanadium Hafnite
+    volume: 0.2

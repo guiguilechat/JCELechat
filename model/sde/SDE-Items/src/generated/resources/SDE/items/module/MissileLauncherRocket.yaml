@@ -18,7 +18,9 @@ items:
     Speed: 4000
     TechLevel: 1
     TypeColorScheme: 20113
+    id: 16527
     name: '''Arbalest'' Rocket Launcher I'
+    volume: 5.0
   '''Balefire'' Rocket Launcher':
     ChargeGroup1: 387
     ChargeRate: 1
@@ -39,7 +41,9 @@ items:
     Speed: 4500
     TechLevel: 1
     TypeColorScheme: 20119
+    id: 20593
     name: '''Balefire'' Rocket Launcher'
+    volume: 5.0
   '''Limos'' Rocket Launcher I':
     ChargeGroup1: 387
     ChargeRate: 1
@@ -59,7 +63,9 @@ items:
     Speed: 4500
     TechLevel: 1
     TypeColorScheme: 20115
+    id: 16523
     name: '''Limos'' Rocket Launcher I'
+    volume: 5.0
   '''Malkuth'' Rocket Launcher I':
     ChargeGroup1: 387
     ChargeRate: 1
@@ -79,7 +85,9 @@ items:
     Speed: 4750
     TechLevel: 1
     TypeColorScheme: 20123
+    id: 16521
     name: '''Malkuth'' Rocket Launcher I'
+    volume: 5.0
   Caldari Navy Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -100,7 +108,9 @@ items:
     Speed: 3500
     TechLevel: 1
     TypeColorScheme: 11321
+    id: 16065
     name: Caldari Navy Rocket Launcher
+    volume: 5.0
   Domination Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -121,7 +131,9 @@ items:
     Speed: 3875
     TechLevel: 1
     TypeColorScheme: 11318
+    id: 13931
     name: Domination Rocket Launcher
+    volume: 5.0
   Dread Guristas Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -142,7 +154,9 @@ items:
     Speed: 3500
     TechLevel: 1
     TypeColorScheme: 11335
+    id: 13933
     name: Dread Guristas Rocket Launcher
+    volume: 5.0
   Khanid Navy Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -163,7 +177,9 @@ items:
     Speed: 3500
     TechLevel: 1
     TypeColorScheme: 11337
+    id: 28511
     name: Khanid Navy Rocket Launcher
+    volume: 5.0
   N-1 Neon Type Rocket Bay:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -184,7 +200,9 @@ items:
     Speed: 4500
     TechLevel: 1
     TypeColorScheme: 20120
+    id: 21542
     name: N-1 Neon Type Rocket Bay
+    volume: 5.0
   OE-5200 Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -204,7 +222,9 @@ items:
     Speed: 4250
     TechLevel: 1
     TypeColorScheme: 20116
+    id: 16525
     name: OE-5200 Rocket Launcher
+    volume: 5.0
   Polarized Rocket Launcher:
     ChargeGroup1: 387
     ChargeGroup3: 648
@@ -228,7 +248,9 @@ items:
     Speed: 3200
     TechLevel: 2
     TypeColorScheme: 11461
+    id: 34290
     name: Polarized Rocket Launcher
+    volume: 5.0
   Republic Fleet Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -249,7 +271,9 @@ items:
     Speed: 3875
     TechLevel: 1
     TypeColorScheme: 11339
+    id: 17488
     name: Republic Fleet Rocket Launcher
+    volume: 5.0
   Rocket Launcher I:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -268,7 +292,9 @@ items:
     Speed: 5000
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 10629
     name: Rocket Launcher I
+    volume: 5.0
   Rocket Launcher II:
     ChargeGroup1: 387
     ChargeGroup3: 648
@@ -289,7 +315,9 @@ items:
     Speed: 4000
     TechLevel: 2
     TypeColorScheme: 11325
+    id: 10631
     name: Rocket Launcher II
+    volume: 5.0
   True Sansha Rocket Launcher:
     ChargeGroup1: 387
     ChargeRate: 1
@@ -310,4 +338,6 @@ items:
     Speed: 3875
     TechLevel: 1
     TypeColorScheme: 11349
+    id: 22564
     name: True Sansha Rocket Launcher
+    volume: 5.0

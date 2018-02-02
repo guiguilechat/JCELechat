@@ -5,6 +5,7 @@ items:
     AgentID: 3018563
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23304
     name: Aakeo Oshaima's Blackbird
   Adakita's Caracal:
     AgentAutoPopupRange: 5000
@@ -12,6 +13,7 @@ items:
     AgentID: 3018382
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20674
     name: Adakita's Caracal
   Adani Yusev's Raven:
     AgentAutoPopupRange: 5000
@@ -19,6 +21,7 @@ items:
     AgentID: 3019368
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30821
     name: Adani Yusev's Raven
   Adari Jammalgen's Bunker:
     AgentAutoPopupRange: 5000
@@ -26,20 +29,25 @@ items:
     AgentID: 3018873
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26179
     name: Adari Jammalgen's Bunker
+    volume: 1.0E8
   Ader Finn's Zealot:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018578
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23746
     name: Ader Finn's Zealot
+    volume: 85000.0
   Ahti's Osprey:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018398
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20690
     name: Ahti's Osprey
   Aikato's Probe:
     AgentAutoPopupRange: 5000
@@ -47,6 +55,7 @@ items:
     AgentID: 3018369
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20661
     name: Aikato's Probe
   Akelf Ortar's Tempest:
     AgentAutoPopupRange: 5000
@@ -54,6 +63,7 @@ items:
     AgentID: 3018864
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25751
     name: Akelf Ortar's Tempest
   Akoto's Kestrel:
     AgentAutoPopupRange: 5000
@@ -61,13 +71,16 @@ items:
     AgentID: 3018546
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22771
     name: Akoto's Kestrel
+    volume: 19700.0
   Albedur Vatzako's Rifter:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018671
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24748
     name: Albedur Vatzako's Rifter
   Alliot Graferr's Bunker:
     AgentAutoPopupRange: 5000
@@ -75,27 +88,34 @@ items:
     AgentID: 3018880
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26186
     name: Alliot Graferr's Bunker
+    volume: 1.0E8
   Alon Ahrassine's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018882
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26188
     name: Alon Ahrassine's Bunker
+    volume: 1.0E8
   Altan Uigot's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018870
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26176
     name: Altan Uigot's Bunker
+    volume: 1.0E8
   Amakkit's Thrasher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018555
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23126
     name: Amakkit's Thrasher
   Amatin Chens's Bunker:
     AgentAutoPopupRange: 5000
@@ -103,13 +123,16 @@ items:
     AgentID: 3018883
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26189
     name: Amatin Chens's Bunker
+    volume: 1.0E8
   Ameisoure's Enyo:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018551
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23127
     name: Ameisoure's Enyo
   Aminn Flosin's Celestis:
     AgentAutoPopupRange: 5000
@@ -117,20 +140,25 @@ items:
     AgentID: 3018570
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23613
     name: Aminn Flosin's Celestis
+    volume: 116000.0
   Ammargal Detrone's Zealot:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018604
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23881
     name: Ammargal Detrone's Zealot
+    volume: 85000.0
   Amokin's Malediction:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018634
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24239
     name: Amokin's Malediction
   Ampsin Achippon's Tristan:
     AgentAutoPopupRange: 5000
@@ -138,13 +166,16 @@ items:
     AgentID: 3018572
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23625
     name: Ampsin Achippon's Tristan
+    volume: 26500.0
   Androver Hnill's Tempest:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018863
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25750
     name: Androver Hnill's Tempest
   Anekoji's Osprey:
     AgentAutoPopupRange: 5000
@@ -152,6 +183,7 @@ items:
     AgentID: 3018373
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20665
     name: Anekoji's Osprey
   Angetyn's Iteron Mark III:
     AgentAutoPopupRange: 5000
@@ -159,6 +191,7 @@ items:
     AgentID: 3018545
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23088
     name: Angetyn's Iteron Mark III
   Apheta Zenakon's Rifter:
     AgentAutoPopupRange: 5000
@@ -166,6 +199,7 @@ items:
     AgentID: 3018481
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22179
     name: Apheta Zenakon's Rifter
   Arajna Ashia's Arbitrator:
     AgentAutoPopupRange: 5000
@@ -173,6 +207,7 @@ items:
     AgentID: 3019466
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32410
     name: Arajna Ashia's Arbitrator
   Ardillan's Maulus:
     AgentAutoPopupRange: 5000
@@ -180,6 +215,7 @@ items:
     AgentID: 3018554
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23068
     name: Ardillan's Maulus
   Ardoen Dasaner's Navitas:
     AgentAutoPopupRange: 5000
@@ -187,6 +223,7 @@ items:
     AgentID: 3018567
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23565
     name: Ardoen Dasaner's Navitas
   Arghe's Megathron:
     AgentAutoPopupRange: 5000
@@ -194,6 +231,7 @@ items:
     AgentID: 3018553
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23064
     name: Arghe's Megathron
   Ariato's Condor:
     AgentAutoPopupRange: 5000
@@ -202,6 +240,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20529
     name: Ariato's Condor
   Arkimo's Hawk:
     AgentAutoPopupRange: 5000
@@ -209,6 +248,7 @@ items:
     AgentID: 3018353
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20646
     name: Arkimo's Hawk
   Arkiso's Hawk:
     AgentAutoPopupRange: 5000
@@ -216,6 +256,7 @@ items:
     AgentID: 3018548
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22773
     name: Arkiso's Hawk
   Arment Caute's Lachesis:
     AgentAutoPopupRange: 5000
@@ -223,13 +264,16 @@ items:
     AgentID: 3019463
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32396
     name: Arment Caute's Lachesis
+    volume: 116000.0
   Arshah's Armageddon:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018640
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24290
     name: Arshah's Armageddon
   Arsten Takalo's Republic Fleet Tempest:
     AgentAutoPopupRange: 5000
@@ -237,6 +281,7 @@ items:
     AgentID: 3019411
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32098
     name: Arsten Takalo's Republic Fleet Tempest
   Asshala's Retribution:
     AgentAutoPopupRange: 5000
@@ -244,6 +289,7 @@ items:
     AgentID: 3018449
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21154
     name: Asshala's Retribution
   Atma Aulato's Falcon:
     AgentAutoPopupRange: 5000
@@ -251,6 +297,7 @@ items:
     AgentID: 3019462
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32395
     name: Atma Aulato's Falcon
   Aton Hordner's Tempest:
     AgentAutoPopupRange: 5000
@@ -258,6 +305,7 @@ items:
     AgentID: 3019465
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32409
     name: Aton Hordner's Tempest
   Aura's Osprey:
     AgentAutoPopupRange: 5000
@@ -265,6 +313,7 @@ items:
     AgentID: 3018405
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20697
     name: Aura's Osprey
   Aurio's Incursus:
     AgentAutoPopupRange: 5000
@@ -272,6 +321,7 @@ items:
     AgentID: 3018390
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20682
     name: Aurio's Incursus
   Aursa Kunivuri's Tayra:
     AgentAutoPopupRange: 5000
@@ -279,6 +329,7 @@ items:
     AgentID: 3019396
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30957
     name: Aursa Kunivuri's Tayra
   Autaris Pia's Sparrow:
     AgentAutoPopupRange: 5000
@@ -287,14 +338,18 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24711
     name: Autaris Pia's Sparrow
+    volume: 28100.0
   Aville Ancare's Comet:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018537
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22769
     name: Aville Ancare's Comet
+    volume: 26500.0
   Avora Alkas's Phantasm:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -309,6 +364,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25463
     name: Avora Alkas's Phantasm
   Avrue Auz's Merlin:
     AgentAutoPopupRange: 5000
@@ -316,6 +372,7 @@ items:
     AgentID: 3018649
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24743
     name: Avrue Auz's Merlin
   Awazhen's Moa:
     AgentAutoPopupRange: 5000
@@ -323,6 +380,7 @@ items:
     AgentID: 3018345
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20534
     name: Awazhen's Moa
   Babalu Wrezka's Celestis:
     AgentAutoPopupRange: 5000
@@ -330,13 +388,16 @@ items:
     AgentID: 3018502
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22637
     name: Babalu Wrezka's Celestis
+    volume: 116000.0
   Baftot Asluzof's Prorator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018747
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25438
     name: Baftot Asluzof's Prorator
   Bakkla Viftuin's Rifter:
     AgentAutoPopupRange: 5000
@@ -344,6 +405,7 @@ items:
     AgentID: 3018528
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22700
     name: Bakkla Viftuin's Rifter
   Bamona Pizteed's Bunker:
     AgentAutoPopupRange: 5000
@@ -351,13 +413,16 @@ items:
     AgentID: 3018911
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26219
     name: Bamona Pizteed's Bunker
+    volume: 1.0E8
   Barou Lardoss:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018459
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21844
     name: Barou Lardoss
   Bartezo Maphante's Omen:
     AgentAutoPopupRange: 5000
@@ -365,6 +430,7 @@ items:
     AgentID: 3018573
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23636
     name: Bartezo Maphante's Omen
   Beteux Maron:
     AgentAutoPopupRange: 5000
@@ -372,13 +438,16 @@ items:
     AgentID: 3018486
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22188
     name: Beteux Maron
+    volume: 26500.0
   Binnie Nigolier's Occator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018743
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25435
     name: Binnie Nigolier's Occator
   Bleur Hein's Machariel:
     AgentAutoPopupRange: 5000
@@ -394,6 +463,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25456
     name: Bleur Hein's Machariel
   Bley Oreriel's Myrmidon:
     AgentAutoPopupRange: 5000
@@ -401,6 +471,7 @@ items:
     AgentID: 3018855
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25742
     name: Bley Oreriel's Myrmidon
   Blique Hazardt's Bunker:
     AgentAutoPopupRange: 5000
@@ -408,13 +479,16 @@ items:
     AgentID: 3018879
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26185
     name: Blique Hazardt's Bunker
+    volume: 1.0E8
   Bokh's Rifter:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018432
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21147
     name: Bokh's Rifter
   Bollen Odridur's Prowler:
     AgentAutoPopupRange: 5000
@@ -422,6 +496,7 @@ items:
     AgentID: 3018748
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25449
     name: Bollen Odridur's Prowler
   Brus Colterne's Megathron:
     AgentAutoPopupRange: 5000
@@ -429,6 +504,7 @@ items:
     AgentID: 3019365
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30830
     name: Brus Colterne's Megathron
   Burkur's Vigil:
     AgentAutoPopupRange: 5000
@@ -436,6 +512,7 @@ items:
     AgentID: 3018409
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21132
     name: Burkur's Vigil
   Carvaire Botesane's Bunker:
     AgentAutoPopupRange: 5000
@@ -443,13 +520,16 @@ items:
     AgentID: 3018886
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26192
     name: Carvaire Botesane's Bunker
+    volume: 1.0E8
   Charit Rish's Baalgorn:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018851
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25831
     name: Charit Rish's Baalgorn
   Cimalo Mahnab's Bunker:
     AgentAutoPopupRange: 5000
@@ -457,13 +537,16 @@ items:
     AgentID: 3018910
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26218
     name: Cimalo Mahnab's Bunker
+    volume: 1.0E8
   Cliene Veine's Dominix:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018856
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25743
     name: Cliene Veine's Dominix
   Cora Chaktaren Armageddon:
     AgentAutoPopupRange: 5000
@@ -471,78 +554,92 @@ items:
     AgentID: 3018591
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23827
     name: Cora Chaktaren Armageddon
+    volume: 1100000.0
   Cosmos Anathema:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24293
     name: Cosmos Anathema
   Cosmos Apocalypse:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24291
     name: Cosmos Apocalypse
   Cosmos Arbitrator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23777
     name: Cosmos Arbitrator
   Cosmos Armageddon:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22642
     name: Cosmos Armageddon
   Cosmos Atron:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22677
     name: Cosmos Atron
   Cosmos Badger:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20386
     name: Cosmos Badger
   Cosmos Badger Mark II:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20387
     name: Cosmos Badger Mark II
   Cosmos Bellicose:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21105
     name: Cosmos Bellicose
   Cosmos Bestower:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21106
     name: Cosmos Bestower
   Cosmos Blackbird:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20388
     name: Cosmos Blackbird
   Cosmos Bustard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20393
     name: Cosmos Bustard
   Cosmos Buzzard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20379
     name: Cosmos Buzzard
   Cosmos Capsule:
     AgentAutoPopupRange: 5000
@@ -550,36 +647,43 @@ items:
     AgentID: 3018351
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20394
     name: Cosmos Capsule
   Cosmos Caracal:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20389
     name: Cosmos Caracal
   Cosmos Catalyst:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22682
     name: Cosmos Catalyst
   Cosmos Celestis:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22636
     name: Cosmos Celestis
+    volume: 116000.0
   Cosmos Claw:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21107
     name: Cosmos Claw
   Cosmos Coercer:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23778
     name: Cosmos Coercer
   Cosmos Condor:
     AgentAutoPopupRange: 5000
@@ -587,312 +691,369 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20364
     name: Cosmos Condor
   Cosmos Cormorant:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20384
     name: Cosmos Cormorant
   Cosmos Crow:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20380
     name: Cosmos Crow
   Cosmos Crucifier:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23775
     name: Cosmos Crucifier
   Cosmos Crusader:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23780
     name: Cosmos Crusader
   Cosmos Dominix:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22638
     name: Cosmos Dominix
+    volume: 1010000.0
   Cosmos Enyo:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22681
     name: Cosmos Enyo
   Cosmos Executioner:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21108
     name: Cosmos Executioner
   Cosmos Ferox:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20385
     name: Cosmos Ferox
   Cosmos Hawk:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20382
     name: Cosmos Hawk
   Cosmos Helios:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22679
     name: Cosmos Helios
+    volume: 19700.0
   Cosmos Heron:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20376
     name: Cosmos Heron
   Cosmos Hoarder:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21109
     name: Cosmos Hoarder
   Cosmos Hound:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21110
     name: Cosmos Hound
   Cosmos Imicus:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22678
     name: Cosmos Imicus
   Cosmos Impel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24292
     name: Cosmos Impel
   Cosmos Incursus:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20369
     name: Cosmos Incursus
   Cosmos Iteron Mark III:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21843
     name: Cosmos Iteron Mark III
   Cosmos Kestrel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22193
     name: Cosmos Kestrel
+    volume: 19700.0
   Cosmos Malediction:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23779
     name: Cosmos Malediction
   Cosmos Maller:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23776
     name: Cosmos Maller
   Cosmos Mammoth:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21111
     name: Cosmos Mammoth
   Cosmos Maulus:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21112
     name: Cosmos Maulus
   Cosmos Megathron:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22686
     name: Cosmos Megathron
   Cosmos Merlin:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20377
     name: Cosmos Merlin
   Cosmos Moa:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20390
     name: Cosmos Moa
   Cosmos Navitas:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21113
     name: Cosmos Navitas
   Cosmos Nemesis:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22680
     name: Cosmos Nemesis
   Cosmos Omen:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21114
     name: Cosmos Omen
   Cosmos Osprey:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20391
     name: Cosmos Osprey
   Cosmos Probe:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20378
     name: Cosmos Probe
   Cosmos Prophecy:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23782
     name: Cosmos Prophecy
   Cosmos Punisher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22189
     name: Cosmos Punisher
   Cosmos Purifier:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23781
     name: Cosmos Purifier
   Cosmos Rapier:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32243
     name: Cosmos Rapier
   Cosmos Raptor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20383
     name: Cosmos Raptor
   Cosmos Raven:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20392
     name: Cosmos Raven
   Cosmos Retribution:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21115
     name: Cosmos Retribution
   Cosmos Rifter:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21116
     name: Cosmos Rifter
   Cosmos Rupture:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21117
     name: Cosmos Rupture
   Cosmos Scorpion:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22221
     name: Cosmos Scorpion
+    volume: 1040000.0
   Cosmos Scythe:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21118
     name: Cosmos Scythe
   Cosmos Stiletto:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21119
     name: Cosmos Stiletto
   Cosmos Tempest:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21120
     name: Cosmos Tempest
   Cosmos Thorax:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22683
     name: Cosmos Thorax
   Cosmos Thrasher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21121
     name: Cosmos Thrasher
   Cosmos Tristan:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22185
     name: Cosmos Tristan
+    volume: 26500.0
   Cosmos Vagabond:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21122
     name: Cosmos Vagabond
   Cosmos Vexor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22685
     name: Cosmos Vexor
   Cosmos Vigil:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21123
     name: Cosmos Vigil
   Cosmos Wolf:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21124
     name: Cosmos Wolf
   Cosmos Wreathe:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21125
     name: Cosmos Wreathe
   Daemire Adamia's Tristan:
     AgentAutoPopupRange: 5000
@@ -900,13 +1061,16 @@ items:
     AgentID: 3018538
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22768
     name: Daemire Adamia's Tristan
+    volume: 26500.0
   Dakumon's Punisher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018622
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23946
     name: Dakumon's Punisher
   Dalitat Dakpor's Damnation:
     AgentAutoPopupRange: 5000
@@ -914,6 +1078,7 @@ items:
     AgentID: 3018868
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25833
     name: Dalitat Dakpor's Damnation
   Damaged Drone Mind:
     AgentAutoPopupRange: 5000
@@ -921,6 +1086,7 @@ items:
     AgentID: 3018575
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23666
     name: Damaged Drone Mind
   Darabu Harva's Bunker:
     AgentAutoPopupRange: 5000
@@ -928,13 +1094,16 @@ items:
     AgentID: 3018908
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26215
     name: Darabu Harva's Bunker
+    volume: 1.0E8
   Darrchien's Navitas:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018444
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21141
     name: Darrchien's Navitas
   Dars Amene's Brutix:
     AgentAutoPopupRange: 5000
@@ -942,6 +1111,7 @@ items:
     AgentID: 3018860
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25747
     name: Dars Amene's Brutix
   Dechien's Heron:
     AgentAutoPopupRange: 5000
@@ -949,6 +1119,7 @@ items:
     AgentID: 3018370
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20662
     name: Dechien's Heron
   Demi Lazerus's Punisher:
     AgentAutoPopupRange: 5000
@@ -956,20 +1127,25 @@ items:
     AgentID: 3018488
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22190
     name: Demi Lazerus's Punisher
+    volume: 28600.0
   Derqa Mandame's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018909
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26217
     name: Derqa Mandame's Bunker
+    volume: 1.0E8
   Desra Nekri's Impel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018731
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25420
     name: Desra Nekri's Impel
   Ebotiz's Retribution:
     AgentAutoPopupRange: 5000
@@ -977,6 +1153,7 @@ items:
     AgentID: 3018621
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23947
     name: Ebotiz's Retribution
   Eget Skovilen's Bunker:
     AgentAutoPopupRange: 5000
@@ -984,13 +1161,16 @@ items:
     AgentID: 3018877
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26183
     name: Eget Skovilen's Bunker
+    volume: 1.0E8
   Ellar Stin's Dramiel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3019467
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32411
     name: Ellar Stin's Dramiel
   Emma Tharkin (MOA):
     AgentAutoPopupRange: 5000
@@ -998,6 +1178,7 @@ items:
     AgentID: 3018495
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22629
     name: Emma Tharkin (MOA)
   Enna Ahruneh's Impel:
     AgentAutoPopupRange: 5000
@@ -1005,6 +1186,7 @@ items:
     AgentID: 3018730
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25419
     name: Enna Ahruneh's Impel
   Erakki Kihuo's Obsidian:
     AgentAutoPopupRange: 5000
@@ -1020,6 +1202,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25519
     name: Erakki Kihuo's Obsidian
   Eron Hoyere's Catalyst:
     AgentAutoPopupRange: 5000
@@ -1027,13 +1210,16 @@ items:
     AgentID: 3018566
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23540
     name: Eron Hoyere's Catalyst
+    volume: 55000.0
   Erudin Hanka's Harpy:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018587
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20381
     name: Erudin Hanka's Harpy
   Eskaila's Raven:
     AgentAutoPopupRange: 5000
@@ -1041,6 +1227,7 @@ items:
     AgentID: 3018389
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20681
     name: Eskaila's Raven
   Esordik Mitt's Rifter:
     AgentAutoPopupRange: 5000
@@ -1048,6 +1235,7 @@ items:
     AgentID: 3018562
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23239
     name: Esordik Mitt's Rifter
   Estacan's Tristan:
     AgentAutoPopupRange: 5000
@@ -1055,13 +1243,16 @@ items:
     AgentID: 3018540
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23065
     name: Estacan's Tristan
+    volume: 26500.0
   Etien Duloure's Navitas:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018662
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24740
     name: Etien Duloure's Navitas
   Etsuya's Merlin:
     AgentAutoPopupRange: 5000
@@ -1069,6 +1260,7 @@ items:
     AgentID: 3018367
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20659
     name: Etsuya's Merlin
   Fam Kishemas's Punisher:
     AgentAutoPopupRange: 5000
@@ -1076,27 +1268,34 @@ items:
     AgentID: 3018561
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23238
     name: Fam Kishemas's Punisher
+    volume: 28600.0
   Farak Kali's Cruor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018520
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22656
     name: Farak Kali's Cruor
+    volume: 28600.0
   Fassara Nazarut's Slicer:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018536
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22763
     name: Fassara Nazarut's Slicer
+    volume: 16500.0
   Fetosa Kanim's Crane:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018721
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25403
     name: Fetosa Kanim's Crane
   Fims Artalanche's Bunker:
     AgentAutoPopupRange: 5000
@@ -1104,13 +1303,16 @@ items:
     AgentID: 3018884
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26190
     name: Fims Artalanche's Bunker
+    volume: 1.0E8
   Formur's Tempest:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018556
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23125
     name: Formur's Tempest
   Frain's Blackbird:
     AgentAutoPopupRange: 5000
@@ -1118,6 +1320,7 @@ items:
     AgentID: 3018479
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21165
     name: Frain's Blackbird
   Frain's Rupture:
     AgentAutoPopupRange: 5000
@@ -1125,6 +1328,7 @@ items:
     AgentID: 3018479
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22081
     name: Frain's Rupture
   Frera Elgas's Bunker:
     AgentAutoPopupRange: 5000
@@ -1132,20 +1336,25 @@ items:
     AgentID: 3018871
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26177
     name: Frera Elgas's Bunker
+    volume: 1.0E8
   Frie Tasmulo's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018872
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26178
     name: Frie Tasmulo's Bunker
+    volume: 1.0E8
   Fujimo's Caracal:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018401
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20693
     name: Fujimo's Caracal
   Furas Vaupero's Merlin:
     AgentAutoPopupRange: 5000
@@ -1153,6 +1362,7 @@ items:
     AgentID: 3018583
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23771
     name: Furas Vaupero's Merlin
   Galhar Lahara's Impel:
     AgentAutoPopupRange: 5000
@@ -1160,6 +1370,7 @@ items:
     AgentID: 3018732
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25421
     name: Galhar Lahara's Impel
   Gallot's Atron:
     AgentAutoPopupRange: 5000
@@ -1167,6 +1378,7 @@ items:
     AgentID: 3018541
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23066
     name: Gallot's Atron
   Gara Kort's Raven:
     AgentAutoPopupRange: 5000
@@ -1174,6 +1386,7 @@ items:
     AgentID: 3018565
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23456
     name: Gara Kort's Raven
   Gian Parele's Pleasure Cruiser:
     AgentAutoPopupRange: 5000
@@ -1183,13 +1396,16 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 31103
     name: Gian Parele's Pleasure Cruiser
+    volume: 115000.0
   Gojivi's Bustard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018374
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20666
     name: Gojivi's Bustard
   Golarad Hjom's Prowler:
     AgentAutoPopupRange: 5000
@@ -1197,6 +1413,7 @@ items:
     AgentID: 3018749
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25450
     name: Golarad Hjom's Prowler
   Goligere Debanelis's Viator:
     AgentAutoPopupRange: 5000
@@ -1204,6 +1421,7 @@ items:
     AgentID: 3018737
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25430
     name: Goligere Debanelis's Viator
   Gomosabin Zerdanne's Viator:
     AgentAutoPopupRange: 5000
@@ -1211,6 +1429,7 @@ items:
     AgentID: 3018738
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25431
     name: Gomosabin Zerdanne's Viator
   Gorgoz's Raptor:
     AgentAutoPopupRange: 5000
@@ -1218,6 +1437,7 @@ items:
     AgentID: 3018375
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20667
     name: Gorgoz's Raptor
   Grisier Challier's Occator:
     AgentAutoPopupRange: 5000
@@ -1225,6 +1445,7 @@ items:
     AgentID: 3018742
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25436
     name: Grisier Challier's Occator
   Guristas Prison:
     AgentAutoPopupRange: 5000
@@ -1232,13 +1453,16 @@ items:
     AgentID: 3018458
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21598
     name: Guristas Prison
+    volume: 1.0E8
   Gurmurkur's Vagabond:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018430
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21178
     name: Gurmurkur's Vagabond
   Habad Rokusten's Bunker:
     AgentAutoPopupRange: 5000
@@ -1246,13 +1470,16 @@ items:
     AgentID: 3018875
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26181
     name: Habad Rokusten's Bunker
+    volume: 1.0E8
   Hakkars' Wolf:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018425
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21170
     name: Hakkars' Wolf
   Hakkuna Baille's Thorax:
     AgentAutoPopupRange: 5000
@@ -1260,6 +1487,7 @@ items:
     AgentID: 3018525
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22695
     name: Hakkuna Baille's Thorax
   Hakno Lekan's Rifter:
     AgentAutoPopupRange: 5000
@@ -1267,6 +1495,7 @@ items:
     AgentID: 3018480
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22180
     name: Hakno Lekan's Rifter
   Hana Isourin's Bunker:
     AgentAutoPopupRange: 5000
@@ -1274,20 +1503,25 @@ items:
     AgentID: 3018885
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26191
     name: Hana Isourin's Bunker
+    volume: 1.0E8
   Hara Lafleur's Vindicator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018516
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22652
     name: Hara Lafleur's Vindicator
+    volume: 1080000.0
   Harkan's Apocalypse:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3019441
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32304
     name: Harkan's Apocalypse
   Hasaziras Assa's Scorpion:
     AgentAutoPopupRange: 5000
@@ -1295,13 +1529,16 @@ items:
     AgentID: 3019501
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 2840
     name: Hasaziras Assa's Scorpion
+    volume: 1040000.0
   Hatamei's Cormorant:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018346
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20535
     name: Hatamei's Cormorant
   Hatia Madase's Bunker:
     AgentAutoPopupRange: 5000
@@ -1309,13 +1546,16 @@ items:
     AgentID: 3018892
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26198
     name: Hatia Madase's Bunker
+    volume: 1.0E8
   Hatram's Executioner:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018446
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21144
     name: Hatram's Executioner
   Hazar Arjidsi's Bunker:
     AgentAutoPopupRange: 5000
@@ -1323,13 +1563,16 @@ items:
     AgentID: 3018906
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26213
     name: Hazar Arjidsi's Bunker
+    volume: 1.0E8
   Hefaka Chubid's Hawk:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018661
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24739
     name: Hefaka Chubid's Hawk
   Heiraitah Siakkano's Bustard:
     AgentAutoPopupRange: 5000
@@ -1337,6 +1580,7 @@ items:
     AgentID: 3018728
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25417
     name: Heiraitah Siakkano's Bustard
   Hekken's Condor:
     AgentAutoPopupRange: 5000
@@ -1345,6 +1589,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21137
     name: Hekken's Condor
   Hekkiren's Badger:
     AgentAutoPopupRange: 5000
@@ -1352,6 +1597,7 @@ items:
     AgentID: 3018362
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20655
     name: Hekkiren's Badger
   Helkelen's Blackbird:
     AgentAutoPopupRange: 5000
@@ -1359,6 +1605,7 @@ items:
     AgentID: 3018366
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20521
     name: Helkelen's Blackbird
   Henara Vern's Sleipnir:
     AgentAutoPopupRange: 5000
@@ -1374,6 +1621,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25458
     name: Henara Vern's Sleipnir
   Hiva Shesha's Shuttle:
     AgentAutoPopupRange: 5000
@@ -1381,6 +1629,7 @@ items:
     AgentID: 3019443
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32278
     name: Hiva Shesha's Shuttle
   Hochi's Badger Mark II:
     AgentAutoPopupRange: 5000
@@ -1388,6 +1637,7 @@ items:
     AgentID: 3018364
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20657
     name: Hochi's Badger Mark II
   Hokoru's Blackbird:
     AgentAutoPopupRange: 5000
@@ -1395,6 +1645,7 @@ items:
     AgentID: 3018549
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22775
     name: Hokoru's Blackbird
   Horir Firvoon's Prorator:
     AgentAutoPopupRange: 5000
@@ -1402,6 +1653,7 @@ items:
     AgentID: 3018746
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25439
     name: Horir Firvoon's Prorator
   Horkund's Scythe:
     AgentAutoPopupRange: 5000
@@ -1409,6 +1661,7 @@ items:
     AgentID: 3018434
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21155
     name: Horkund's Scythe
   Hosiwo Onima's Condor:
     AgentAutoPopupRange: 5000
@@ -1416,6 +1669,7 @@ items:
     AgentID: 3018581
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23769
     name: Hosiwo Onima's Condor
   Ichmari Obesa's Outpost:
     AgentAutoPopupRange: 5000
@@ -1423,13 +1677,16 @@ items:
     AgentID: 3018898
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26204
     name: Ichmari Obesa's Outpost
+    volume: 1.0E8
   Ikonen's Buzzard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018363
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20656
     name: Ikonen's Buzzard
   Ilkur Eiren's Nidhoggur:
     AgentAutoPopupRange: 5000
@@ -1437,6 +1694,7 @@ items:
     AgentID: 3018867
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25754
     name: Ilkur Eiren's Nidhoggur
   Ippana Maltyr's Worm:
     AgentAutoPopupRange: 5000
@@ -1444,20 +1702,25 @@ items:
     AgentID: 3018513
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22649
     name: Ippana Maltyr's Worm
+    volume: 16500.0
   Ison Tiadala's Naglfar:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018535
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22762
     name: Ison Tiadala's Naglfar
+    volume: 1.55E7
   Ison Tiadala's Tempest:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018535
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22737
     name: Ison Tiadala's Tempest
   Isu Jokaga's Outpost:
     AgentAutoPopupRange: 5000
@@ -1465,20 +1728,25 @@ items:
     AgentID: 3018902
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26208
     name: Isu Jokaga's Outpost
+    volume: 1.0E8
   Jaak Rozake:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018485
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22187
     name: Jaak Rozake
+    volume: 26500.0
   Jachael Menson's Rifter:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018482
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22181
     name: Jachael Menson's Rifter
   Jakuzi Makar's Gila:
     AgentAutoPopupRange: 5000
@@ -1486,20 +1754,25 @@ items:
     AgentID: 3018512
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22648
     name: Jakuzi Makar's Gila
+    volume: 101000.0
   Jaquon Jalibar's Daredevil:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018514
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22650
     name: Jaquon Jalibar's Daredevil
+    volume: 26500.0
   Jarvas Ladier's Megathron:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018857
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25744
     name: Jarvas Ladier's Megathron
   Jeeta Neek's Omen:
     AgentAutoPopupRange: 5000
@@ -1507,6 +1780,7 @@ items:
     AgentID: 3018505
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22641
     name: Jeeta Neek's Omen
   Jeremy Tacs's Eagle:
     AgentAutoPopupRange: 5000
@@ -1514,13 +1788,16 @@ items:
     AgentID: 3018915
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26262
     name: Jeremy Tacs's Eagle
+    volume: 85000.0
   Jitainen's Probe:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018357
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20650
     name: Jitainen's Probe
   Jogmundt's Probe:
     AgentAutoPopupRange: 5000
@@ -1528,6 +1805,7 @@ items:
     AgentID: 3018424
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21169
     name: Jogmundt's Probe
   Jordan Usquen's Tristan:
     AgentAutoPopupRange: 5000
@@ -1535,27 +1813,34 @@ items:
     AgentID: 3018501
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22635
     name: Jordan Usquen's Tristan
+    volume: 26500.0
   Juki Khoun's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018895
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26201
     name: Juki Khoun's Bunker
+    volume: 1.0E8
   Jur Zehbani's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018889
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26195
     name: Jur Zehbani's Bunker
+    volume: 1.0E8
   Juvoire Sche's Viator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018739
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25432
     name: Juvoire Sche's Viator
   Kaeg Zkaen's Omen:
     AgentAutoPopupRange: 5000
@@ -1563,6 +1848,7 @@ items:
     AgentID: 3018559
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22845
     name: Kaeg Zkaen's Omen
   Kaiko Maina (Merlin):
     AgentAutoPopupRange: 5000
@@ -1570,6 +1856,7 @@ items:
     AgentID: 3018494
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22625
     name: Kaiko Maina (Merlin)
   Kakala Ikkawa's Obsidian:
     AgentAutoPopupRange: 5000
@@ -1585,6 +1872,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25518
     name: Kakala Ikkawa's Obsidian
   Kamal Sharadon's Nightmare:
     AgentAutoPopupRange: 5000
@@ -1600,6 +1888,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25459
     name: Kamal Sharadon's Nightmare
   Kanerva's Condor:
     AgentAutoPopupRange: 5000
@@ -1608,6 +1897,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20695
     name: Kanerva's Condor
   Kanji's Caracal:
     AgentAutoPopupRange: 5000
@@ -1615,6 +1905,7 @@ items:
     AgentID: 3018356
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20649
     name: Kanji's Caracal
   Kanmilia Oldit's Tempest:
     AgentAutoPopupRange: 5000
@@ -1622,6 +1913,7 @@ items:
     AgentID: 3018869
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25846
     name: Kanmilia Oldit's Tempest
   Kanouchi Hisama's Outpost:
     AgentAutoPopupRange: 5000
@@ -1629,13 +1921,16 @@ items:
     AgentID: 3018905
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26211
     name: Kanouchi Hisama's Outpost
+    volume: 1.0E8
   Kara Morato's Bustard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018726
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25415
     name: Kara Morato's Bustard
   Karadom's Mammoth:
     AgentAutoPopupRange: 5000
@@ -1643,6 +1938,7 @@ items:
     AgentID: 3018453
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21166
     name: Karadom's Mammoth
   Karde Romu 's Armageddon:
     AgentAutoPopupRange: 5000
@@ -1650,6 +1946,7 @@ items:
     AgentID: 3019415
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32140
     name: Karde Romu 's Armageddon
   Kardimo Menka Machariel:
     AgentAutoPopupRange: 5000
@@ -1657,26 +1954,32 @@ items:
     AgentID: 3018510
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22646
     name: Kardimo Menka Machariel
+    volume: 1080000.0
   Karhoum Ykta's Phantasm:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018518
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22654
     name: Karhoum Ykta's Phantasm
+    volume: 101000.0
   Karkinen's Cormorant:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018448
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21148
     name: Karkinen's Cormorant
   Karmane Ban's Blackbird:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23232
     name: Karmane Ban's Blackbird
   Karpela's Ferox:
     AgentAutoPopupRange: 5000
@@ -1684,6 +1987,7 @@ items:
     AgentID: 3018384
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20676
     name: Karpela's Ferox
   Karsten Lundham's Typhoon:
     AgentAutoPopupRange: 5000
@@ -1691,6 +1995,7 @@ items:
     AgentID: 3019483
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 2066
     name: Karsten Lundham's Typhoon
   Katori's Cormorant:
     AgentAutoPopupRange: 5000
@@ -1698,6 +2003,7 @@ items:
     AgentID: 3018379
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20671
     name: Katori's Cormorant
   Kaymotin Gradance's Oneiros:
     AgentAutoPopupRange: 5000
@@ -1705,6 +2011,7 @@ items:
     AgentID: 3018853
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25740
     name: Kaymotin Gradance's Oneiros
   Kersos' Thrasher:
     AgentAutoPopupRange: 5000
@@ -1712,6 +2019,7 @@ items:
     AgentID: 3018411
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21134
     name: Kersos' Thrasher
   Kerth's Apocalypse:
     AgentAutoPopupRange: 5000
@@ -1719,6 +2027,7 @@ items:
     AgentID: 3018639
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24294
     name: Kerth's Apocalypse
   Kikko Roisen's Retribution:
     AgentAutoPopupRange: 5000
@@ -1726,6 +2035,7 @@ items:
     AgentID: 3018648
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24712
     name: Kikko Roisen's Retribution
   Kirku's Heron:
     AgentAutoPopupRange: 5000
@@ -1733,6 +2043,7 @@ items:
     AgentID: 3018352
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20645
     name: Kirku's Heron
   Kitar Ang's Tempest:
     AgentAutoPopupRange: 5000
@@ -1740,6 +2051,7 @@ items:
     AgentID: 3019366
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30838
     name: Kitar Ang's Tempest
   Kofur Karveran's Armageddon:
     AgentAutoPopupRange: 5000
@@ -1747,7 +2059,9 @@ items:
     AgentID: 3018579
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23765
     name: Kofur Karveran's Armageddon
+    volume: 1100000.0
   Korhonomi Oti's Sparrow:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
@@ -1755,13 +2069,16 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24709
     name: Korhonomi Oti's Sparrow
+    volume: 28100.0
   Koronen's Raptor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018397
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20689
     name: Koronen's Raptor
   Korten's Vagabond:
     AgentAutoPopupRange: 5000
@@ -1769,6 +2086,7 @@ items:
     AgentID: 3018422
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21156
     name: Korten's Vagabond
   Krard Wengalill's Punisher:
     AgentAutoPopupRange: 5000
@@ -1776,13 +2094,16 @@ items:
     AgentID: 3018534
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22734
     name: Krard Wengalill's Punisher
+    volume: 28600.0
   Krethar Mann's Crusader:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3019408
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32196
     name: Krethar Mann's Crusader
   Kubona's Merlin:
     AgentAutoPopupRange: 5000
@@ -1790,6 +2111,7 @@ items:
     AgentID: 3018402
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20694
     name: Kubona's Merlin
   Kui Hisken's Outpost:
     AgentAutoPopupRange: 5000
@@ -1797,13 +2119,16 @@ items:
     AgentID: 3018899
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26205
     name: Kui Hisken's Outpost
+    volume: 1.0E8
   Kverkinn's Stiletto:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018427
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21174
     name: Kverkinn's Stiletto
   Lafuni Oduntra's Tempest:
     AgentAutoPopupRange: 5000
@@ -1811,6 +2136,7 @@ items:
     AgentID: 3018865
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25752
     name: Lafuni Oduntra's Tempest
   Lamuette's Nemesis:
     AgentAutoPopupRange: 5000
@@ -1818,6 +2144,7 @@ items:
     AgentID: 3018552
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23067
     name: Lamuette's Nemesis
   Lauka Ikunol's Phoenix:
     AgentAutoPopupRange: 5000
@@ -1825,6 +2152,7 @@ items:
     AgentID: 3018769
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25583
     name: Lauka Ikunol's Phoenix
   Lear Evanus' Apocalypse:
     AgentAutoPopupRange: 5000
@@ -1832,6 +2160,7 @@ items:
     AgentID: 3019367
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30841
     name: Lear Evanus' Apocalypse
   Logut Akell's Abode:
     AgentAutoPopupRange: 5000
@@ -1839,6 +2168,7 @@ items:
     AgentID: 3018674
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24758
     name: Logut Akell's Abode
   Lunuin Eurek's Machariel:
     AgentAutoPopupRange: 5000
@@ -1854,6 +2184,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25457
     name: Lunuin Eurek's Machariel
   Luthetion Preque's Vigilant:
     AgentAutoPopupRange: 5000
@@ -1861,7 +2192,9 @@ items:
     AgentID: 3018515
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22651
     name: Luthetion Preque's Vigilant
+    volume: 101000.0
   Maboula Ahrenon's Phantasm:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -1876,6 +2209,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25461
     name: Maboula Ahrenon's Phantasm
   Mabvrion Atlete's Occator:
     AgentAutoPopupRange: 5000
@@ -1883,6 +2217,7 @@ items:
     AgentID: 3018744
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25437
     name: Mabvrion Atlete's Occator
   Madibe Arnadi's Rifter:
     AgentAutoPopupRange: 5000
@@ -1890,6 +2225,7 @@ items:
     AgentID: 3018523
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22693
     name: Madibe Arnadi's Rifter
   Maertigor's Wreathe:
     AgentAutoPopupRange: 5000
@@ -1897,6 +2233,7 @@ items:
     AgentID: 3018438
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21163
     name: Maertigor's Wreathe
   Magye's Bustard:
     AgentAutoPopupRange: 5000
@@ -1904,6 +2241,7 @@ items:
     AgentID: 3018396
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20688
     name: Magye's Bustard
   Makachi's Probe:
     AgentAutoPopupRange: 5000
@@ -1911,6 +2249,7 @@ items:
     AgentID: 3018348
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20537
     name: Makachi's Probe
   Makor Desto's Tempest:
     AgentAutoPopupRange: 5000
@@ -1918,6 +2257,7 @@ items:
     AgentID: 3018499
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22633
     name: Makor Desto's Tempest
   Mamin Choonka's Crusader:
     AgentAutoPopupRange: 5000
@@ -1925,6 +2265,7 @@ items:
     AgentID: 3018656
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24732
     name: Mamin Choonka's Crusader
   Mamo Guerre's Megathron:
     AgentAutoPopupRange: 5000
@@ -1932,6 +2273,7 @@ items:
     AgentID: 3018650
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24723
     name: Mamo Guerre's Megathron
   Mandor Neek's Punisher:
     AgentAutoPopupRange: 5000
@@ -1939,20 +2281,25 @@ items:
     AgentID: 3018504
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22640
     name: Mandor Neek's Punisher
+    volume: 28600.0
   Manel Kador's Apocalypse:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018574
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23637
     name: Manel Kador's Apocalypse
+    volume: 1150000.0
   Maray Ygier's Navitas:
     AgentAutoPopupRange: 50000
     AgentCommRange: 150000
     AgentID: 3018664
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24742
     name: Maray Ygier's Navitas
   Marera Arghun's Prorator:
     AgentAutoPopupRange: 5000
@@ -1960,6 +2307,7 @@ items:
     AgentID: 3018733
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25422
     name: Marera Arghun's Prorator
   Marvernois Ruemin's Tristan:
     AgentAutoPopupRange: 5000
@@ -1967,27 +2315,34 @@ items:
     AgentID: 3018858
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25749
     name: Marvernois Ruemin's Tristan
+    volume: 26500.0
   Mathon's Helios:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018642
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24350
     name: Mathon's Helios
+    volume: 19700.0
   Matna Meri's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018894
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26200
     name: Matna Meri's Bunker
+    volume: 1.0E8
   Mazed Karadom's Armageddon:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018453
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24664
     name: Mazed Karadom's Armageddon
   Michi's Heron:
     AgentAutoPopupRange: 5000
@@ -1995,6 +2350,7 @@ items:
     AgentID: 3018408
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20683
     name: Michi's Heron
   Migart Anunat's Bunker:
     AgentAutoPopupRange: 5000
@@ -2002,14 +2358,18 @@ items:
     AgentID: 3018913
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26221
     name: Migart Anunat's Bunker
+    volume: 1.0E8
   Miguel Maktar's Succubus:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018517
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22653
     name: Miguel Maktar's Succubus
+    volume: 28600.0
   Minas Iksan's Control Tower:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -2024,20 +2384,25 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22719
     name: Minas Iksan's Control Tower
+    volume: 1.0E8
   Mobas Jouey's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018881
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26187
     name: Mobas Jouey's Bunker
+    volume: 1.0E8
   Mork's Probe:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018410
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21133
     name: Mork's Probe
   Mothrus's Bellicose:
     AgentAutoPopupRange: 5000
@@ -2045,6 +2410,7 @@ items:
     AgentID: 3018437
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21162
     name: Mothrus's Bellicose
   Mottoya's Crow:
     AgentAutoPopupRange: 5000
@@ -2052,6 +2418,7 @@ items:
     AgentID: 3018349
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20538
     name: Mottoya's Crow
   Mourmarie Mone's Helios:
     AgentAutoPopupRange: 5000
@@ -2059,13 +2426,16 @@ items:
     AgentID: 3019414
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32139
     name: Mourmarie Mone's Helios
+    volume: 19700.0
   Murchor's Tempest:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018426
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21171
     name: Murchor's Tempest
   Mutama Czeik's Rifter:
     AgentAutoPopupRange: 5000
@@ -2073,6 +2443,7 @@ items:
     AgentID: 3018497
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22631
     name: Mutama Czeik's Rifter
   Nakamuta's Incursus:
     AgentAutoPopupRange: 5000
@@ -2080,6 +2451,7 @@ items:
     AgentID: 3018378
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20670
     name: Nakamuta's Incursus
   Nakkito Ihadechi's Condor:
     AgentAutoPopupRange: 5000
@@ -2087,6 +2459,7 @@ items:
     AgentID: 3018582
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23770
     name: Nakkito Ihadechi's Condor
   Namian's Retribution:
     AgentAutoPopupRange: 5000
@@ -2094,6 +2467,7 @@ items:
     AgentID: 3018456
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21175
     name: Namian's Retribution
   Nemphad Azbias's Prorator:
     AgentAutoPopupRange: 5000
@@ -2101,6 +2475,7 @@ items:
     AgentID: 3018736
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25425
     name: Nemphad Azbias's Prorator
   Neyan Khahsel's Baalgorn:
     AgentAutoPopupRange: 5000
@@ -2108,6 +2483,7 @@ items:
     AgentID: 3018852
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25832
     name: Neyan Khahsel's Baalgorn
   Niemenen's Capsule:
     AgentAutoPopupRange: 5000
@@ -2115,6 +2491,7 @@ items:
     AgentID: 3018351
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20644
     name: Niemenen's Capsule
   Nikainen's Moa:
     AgentAutoPopupRange: 5000
@@ -2122,6 +2499,7 @@ items:
     AgentID: 3018394
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20686
     name: Nikainen's Moa
   Nikmar Jyran's Punisher:
     AgentAutoPopupRange: 5000
@@ -2129,13 +2507,16 @@ items:
     AgentID: 3018489
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22191
     name: Nikmar Jyran's Punisher
+    volume: 28600.0
   Nikmar Jyran's Retribution:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018489
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22390
     name: Nikmar Jyran's Retribution
   Nilf Abruskur's Rapier:
     AgentAutoPopupRange: 5000
@@ -2143,6 +2524,7 @@ items:
     AgentID: 3019442
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32244
     name: Nilf Abruskur's Rapier
   Nilla Elermare's Shuttle:
     AgentAutoPopupRange: 5000
@@ -2150,7 +2532,9 @@ items:
     AgentID: 3018569
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23608
     name: Nilla Elermare's Shuttle
+    volume: 5000.0
   Nissiken's Condor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -2158,6 +2542,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20678
     name: Nissiken's Condor
   Nitrus' Vigil:
     AgentAutoPopupRange: 5000
@@ -2165,6 +2550,7 @@ items:
     AgentID: 3018417
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21145
     name: Nitrus' Vigil
   Nitrut's Vigil:
     AgentAutoPopupRange: 5000
@@ -2172,6 +2558,7 @@ items:
     AgentID: 3018415
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21138
     name: Nitrut's Vigil
   Nobayashi's Incursus:
     AgentAutoPopupRange: 5000
@@ -2179,6 +2566,7 @@ items:
     AgentID: 3018383
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20675
     name: Nobayashi's Incursus
   Nortul's Probe:
     AgentAutoPopupRange: 5000
@@ -2186,6 +2574,7 @@ items:
     AgentID: 3018543
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23070
     name: Nortul's Probe
   Nossa Farad's Inquisitor:
     AgentAutoPopupRange: 5000
@@ -2193,21 +2582,27 @@ items:
     AgentID: 3018576
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23697
     name: Nossa Farad's Inquisitor
+    volume: 28700.0
   Numa Fashit's Cynabal:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018509
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22645
     name: Numa Fashit's Cynabal
+    volume: 101000.0
   Nuo Tuotura's Kestrel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018531
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22735
     name: Nuo Tuotura's Kestrel
+    volume: 19700.0
   Nuomo Kaavunin's Rokh:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -2222,6 +2617,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25582
     name: Nuomo Kaavunin's Rokh
   Ocho Shusiian's Crane:
     AgentAutoPopupRange: 5000
@@ -2229,6 +2625,7 @@ items:
     AgentID: 3018723
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25405
     name: Ocho Shusiian's Crane
   Odan Poun's Tormentor:
     AgentAutoPopupRange: 5000
@@ -2236,14 +2633,18 @@ items:
     AgentID: 3018577
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23698
     name: Odan Poun's Tormentor
+    volume: 24398.0
   Odoosh Teroul's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018893
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26199
     name: Odoosh Teroul's Bunker
+    volume: 1.0E8
   Oduma Pakane's Rokh:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -2258,6 +2659,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25520
     name: Oduma Pakane's Rokh
   Oggiin Kalda's Maller:
     AgentAutoPopupRange: 5000
@@ -2265,13 +2667,16 @@ items:
     AgentID: 3018530
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22726
     name: Oggiin Kalda's Maller
+    volume: 118000.0
   Oguet Aene's Viator:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018740
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25433
     name: Oguet Aene's Viator
   Oisedia Gync's Bunker:
     AgentAutoPopupRange: 5000
@@ -2279,34 +2684,43 @@ items:
     AgentID: 3018887
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26193
     name: Oisedia Gync's Bunker
+    volume: 1.0E8
   Oko Alo's Outpost:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018901
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26207
     name: Oko Alo's Outpost
+    volume: 1.0E8
   Ollen Alulama's Outpost:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018897
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26203
     name: Ollen Alulama's Outpost
+    volume: 1.0E8
   Onreun Coen's Tristan:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018568
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23603
     name: Onreun Coen's Tristan
+    volume: 26500.0
   Ontaa Jila's Harpy:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018586
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23772
     name: Ontaa Jila's Harpy
   Opainen's Cormorant:
     AgentAutoPopupRange: 5000
@@ -2314,6 +2728,7 @@ items:
     AgentID: 3018376
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20668
     name: Opainen's Cormorant
   Opeau's Celestis:
     AgentAutoPopupRange: 5000
@@ -2321,27 +2736,34 @@ items:
     AgentID: 3018542
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23063
     name: Opeau's Celestis
+    volume: 116000.0
   Ophana Zett's Nightmare:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018519
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22655
     name: Ophana Zett's Nightmare
+    volume: 1080000.0
   Orain Purcour's Tristan:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018859
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25748
     name: Orain Purcour's Tristan
+    volume: 26500.0
   Oshima's Crow:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018400
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20692
     name: Oshima's Crow
   Osidei Esama's Bunker:
     AgentAutoPopupRange: 5000
@@ -2349,13 +2771,16 @@ items:
     AgentID: 3018878
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26184
     name: Osidei Esama's Bunker
+    volume: 1.0E8
   Ossiam's Retribution:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018454
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21172
     name: Ossiam's Retribution
   Otalen's Caracal:
     AgentAutoPopupRange: 5000
@@ -2363,6 +2788,7 @@ items:
     AgentID: 3018393
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20685
     name: Otalen's Caracal
   Ouche's Navitas:
     AgentAutoPopupRange: 5000
@@ -2370,6 +2796,7 @@ items:
     AgentID: 3018447
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21146
     name: Ouche's Navitas
   Ovon Flac's Megathron:
     AgentAutoPopupRange: 5000
@@ -2377,6 +2804,7 @@ items:
     AgentID: 3018862
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25746
     name: Ovon Flac's Megathron
   Ozomi Obanen's Crane:
     AgentAutoPopupRange: 5000
@@ -2384,6 +2812,7 @@ items:
     AgentID: 3018724
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25406
     name: Ozomi Obanen's Crane
   Ozunoa Poskat's Outpost:
     AgentAutoPopupRange: 5000
@@ -2391,13 +2820,16 @@ items:
     AgentID: 3018904
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26210
     name: Ozunoa Poskat's Outpost
+    volume: 1.0E8
   Parsik's Crucifier:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018633
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24240
     name: Parsik's Crucifier
   Patrenn's Rifter:
     AgentAutoPopupRange: 5000
@@ -2405,6 +2837,7 @@ items:
     AgentID: 3018435
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21157
     name: Patrenn's Rifter
   Patrikia Noirild's Reaper:
     AgentAutoPopupRange: 5000
@@ -2412,6 +2845,7 @@ items:
     AgentID: 3019484
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 2065
     name: Patrikia Noirild's Reaper
   Peeta Waikon's Kestrel:
     AgentAutoPopupRange: 5000
@@ -2419,7 +2853,9 @@ items:
     AgentID: 3018493
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22195
     name: Peeta Waikon's Kestrel
+    volume: 19700.0
   Pihrava's Condor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -2427,6 +2863,7 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20669
     name: Pihrava's Condor
   Pokkolen's Wreathe:
     AgentAutoPopupRange: 5000
@@ -2434,6 +2871,7 @@ items:
     AgentID: 3018413
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21136
     name: Pokkolen's Wreathe
   Pol Pat's Rattlesnake:
     AgentAutoPopupRange: 5000
@@ -2441,13 +2879,16 @@ items:
     AgentID: 3018511
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22647
     name: Pol Pat's Rattlesnake
+    volume: 1080000.0
   Pomari Maara's Condor:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018580
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23768
     name: Pomari Maara's Condor
   Pondah Shanjih's Malediction:
     AgentAutoPopupRange: 5000
@@ -2455,6 +2896,7 @@ items:
     AgentID: 3018850
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25830
     name: Pondah Shanjih's Malediction
   Poyri's Harpy:
     AgentAutoPopupRange: 5000
@@ -2462,6 +2904,7 @@ items:
     AgentID: 3018350
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20643
     name: Poyri's Harpy
   Quereg's Omen:
     AgentAutoPopupRange: 5000
@@ -2469,6 +2912,7 @@ items:
     AgentID: 3018455
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21173
     name: Quereg's Omen
   Rahkamo's Buzzard:
     AgentAutoPopupRange: 5000
@@ -2476,6 +2920,7 @@ items:
     AgentID: 3018385
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20677
     name: Rahkamo's Buzzard
   Rahli Saronu's Impel:
     AgentAutoPopupRange: 5000
@@ -2483,6 +2928,7 @@ items:
     AgentID: 3018729
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25418
     name: Rahli Saronu's Impel
   Rakken's Claw:
     AgentAutoPopupRange: 5000
@@ -2490,6 +2936,7 @@ items:
     AgentID: 3018412
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21135
     name: Rakken's Claw
   Rasa Jaswelu's Prorator:
     AgentAutoPopupRange: 5000
@@ -2497,6 +2944,7 @@ items:
     AgentID: 3018734
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25423
     name: Rasa Jaswelu's Prorator
   Rasnik's Rifter:
     AgentAutoPopupRange: 5000
@@ -2504,6 +2952,7 @@ items:
     AgentID: 3018557
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22770
     name: Rasnik's Rifter
   Rati's Moa:
     AgentAutoPopupRange: 5000
@@ -2511,6 +2960,7 @@ items:
     AgentID: 3018388
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20680
     name: Rati's Moa
   Ravacesel Roque's Viator:
     AgentAutoPopupRange: 5000
@@ -2518,6 +2968,7 @@ items:
     AgentID: 3018741
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25434
     name: Ravacesel Roque's Viator
   Raytio's Badger Mark II:
     AgentAutoPopupRange: 2500
@@ -2525,6 +2976,7 @@ items:
     AgentID: 3018395
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20687
     name: Raytio's Badger Mark II
   Rekkai's Moa:
     AgentAutoPopupRange: 5000
@@ -2532,6 +2984,7 @@ items:
     AgentID: 3018550
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22774
     name: Rekkai's Moa
   Rerina Tarit's Phantasm:
     AgentAutoPopupRange: 5000
@@ -2547,6 +3000,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25462
     name: Rerina Tarit's Phantasm
   Riff Hebian's Armageddon:
     AgentAutoPopupRange: 5000
@@ -2554,6 +3008,7 @@ items:
     AgentID: 3019402
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32195
     name: Riff Hebian's Armageddon
   Rikkiryo's Heron:
     AgentAutoPopupRange: 5000
@@ -2561,6 +3016,7 @@ items:
     AgentID: 3018445
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21143
     name: Rikkiryo's Heron
   Rikkolen's Heron:
     AgentAutoPopupRange: 5000
@@ -2568,6 +3024,7 @@ items:
     AgentID: 3018547
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22772
     name: Rikkolen's Heron
   Rilbedur Tjar's Rifter:
     AgentAutoPopupRange: 5000
@@ -2575,6 +3032,7 @@ items:
     AgentID: 3018669
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24746
     name: Rilbedur Tjar's Rifter
   Riluko Hik's Prowler:
     AgentAutoPopupRange: 5000
@@ -2582,6 +3040,7 @@ items:
     AgentID: 3018761
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25464
     name: Riluko Hik's Prowler
   Ristiger's Bellicose:
     AgentAutoPopupRange: 5000
@@ -2589,6 +3048,7 @@ items:
     AgentID: 3018439
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21164
     name: Ristiger's Bellicose
   Riutta's Ferox:
     AgentAutoPopupRange: 5000
@@ -2596,6 +3056,7 @@ items:
     AgentID: 3018354
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20647
     name: Riutta's Ferox
   Robaerger's Scythe:
     AgentAutoPopupRange: 5000
@@ -2603,6 +3064,7 @@ items:
     AgentID: 3018440
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21167
     name: Robaerger's Scythe
   Robikar's Anathema:
     AgentAutoPopupRange: 5000
@@ -2610,6 +3072,7 @@ items:
     AgentID: 3018638
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24295
     name: Robikar's Anathema
   Rochet's Incursus:
     AgentAutoPopupRange: 5000
@@ -2617,6 +3080,7 @@ items:
     AgentID: 3018443
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21140
     name: Rochet's Incursus
   Rohan Shadrak's Bellicose:
     AgentAutoPopupRange: 5000
@@ -2624,6 +3088,7 @@ items:
     AgentID: 3019485
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 3625
     name: Rohan Shadrak's Bellicose
   Roineron Aviviere's Epithal:
     AgentAutoPopupRange: 5000
@@ -2631,6 +3096,7 @@ items:
     AgentID: 3019412
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32138
     name: Roineron Aviviere's Epithal
   Rokuza Taman's Kestrel:
     AgentAutoPopupRange: 5000
@@ -2638,20 +3104,25 @@ items:
     AgentID: 3018492
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22196
     name: Rokuza Taman's Kestrel
+    volume: 19700.0
   Rolnia Houmar's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018912
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26220
     name: Rolnia Houmar's Bunker
+    volume: 1.0E8
   Rost's Ferox:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018368
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20660
     name: Rost's Ferox
   Rugaert's Vigil:
     AgentAutoPopupRange: 5000
@@ -2659,6 +3130,7 @@ items:
     AgentID: 3018421
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21153
     name: Rugaert's Vigil
   Rupptofs' Scythe:
     AgentAutoPopupRange: 5000
@@ -2666,6 +3138,7 @@ items:
     AgentID: 3018544
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23122
     name: Rupptofs' Scythe
   Ruupas Vonni's Outpost:
     AgentAutoPopupRange: 5000
@@ -2673,13 +3146,16 @@ items:
     AgentID: 3018903
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26209
     name: Ruupas Vonni's Outpost
+    volume: 1.0E8
   Sagimoro's Blackbird:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018406
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20698
     name: Sagimoro's Blackbird
   Sakkaro's Badger:
     AgentAutoPopupRange: 5000
@@ -2687,6 +3163,7 @@ items:
     AgentID: 3018347
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20536
     name: Sakkaro's Badger
   Sakt's Stiletto:
     AgentAutoPopupRange: 5000
@@ -2694,6 +3171,7 @@ items:
     AgentID: 3018418
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21149
     name: Sakt's Stiletto
   Sanderi Ualmun's Bunker:
     AgentAutoPopupRange: 5000
@@ -2701,13 +3179,16 @@ items:
     AgentID: 3018874
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26180
     name: Sanderi Ualmun's Bunker
+    volume: 1.0E8
   Sarbaert's Hound:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018419
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21150
     name: Sarbaert's Hound
   Sari Arkhi's Bhaalgorn:
     AgentAutoPopupRange: 5000
@@ -2715,13 +3196,16 @@ items:
     AgentID: 3018522
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22658
     name: Sari Arkhi's Bhaalgorn
+    volume: 1150000.0
   Saturi's Bustard:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018365
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20658
     name: Saturi's Bustard
   Sayto's Badger Mark II:
     AgentAutoPopupRange: 5000
@@ -2729,6 +3213,7 @@ items:
     AgentID: 3018360
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20653
     name: Sayto's Badger Mark II
   Schabs Xalot's Iteron Mark III:
     AgentAutoPopupRange: 5000
@@ -2736,6 +3221,7 @@ items:
     AgentID: 3018571
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23620
     name: Schabs Xalot's Iteron Mark III
   Selate Kalami's Bunker:
     AgentAutoPopupRange: 5000
@@ -2743,13 +3229,16 @@ items:
     AgentID: 3018888
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26194
     name: Selate Kalami's Bunker
+    volume: 1.0E8
   Setala's Blackbird:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018361
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20654
     name: Setala's Blackbird
   Sevan Fagided's Hawk:
     AgentAutoPopupRange: 5000
@@ -2757,6 +3246,7 @@ items:
     AgentID: 3018660
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24738
     name: Sevan Fagided's Hawk
   Shafra Gulias's Hawk:
     AgentAutoPopupRange: 5000
@@ -2764,6 +3254,7 @@ items:
     AgentID: 3018659
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24737
     name: Shafra Gulias's Hawk
   Shakai's Impel:
     AgentAutoPopupRange: 5000
@@ -2771,6 +3262,7 @@ items:
     AgentID: 3018641
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24296
     name: Shakai's Impel
   Sharum's Maulus:
     AgentAutoPopupRange: 5000
@@ -2778,6 +3270,7 @@ items:
     AgentID: 3018451
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21160
     name: Sharum's Maulus
   Shusa Lemihonn's Nightmare:
     AgentAutoPopupRange: 5000
@@ -2793,6 +3286,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25460
     name: Shusa Lemihonn's Nightmare
   Sigulo Ansa's Nidhoggur:
     AgentAutoPopupRange: 5000
@@ -2800,6 +3294,7 @@ items:
     AgentID: 3018866
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25753
     name: Sigulo Ansa's Nidhoggur
   Sinas Egassuo's Chimera:
     AgentAutoPopupRange: 5000
@@ -2807,6 +3302,7 @@ items:
     AgentID: 3019400
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30992
     name: Sinas Egassuo's Chimera
   Sirkya's Cormorant:
     AgentAutoPopupRange: 5000
@@ -2814,6 +3310,7 @@ items:
     AgentID: 3018387
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20679
     name: Sirkya's Cormorant
   Sish Iaokih's Bunker:
     AgentAutoPopupRange: 5000
@@ -2821,27 +3318,34 @@ items:
     AgentID: 3018907
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26214
     name: Sish Iaokih's Bunker
+    volume: 1.0E8
   Skami Zarton's Dramiel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018508
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22644
     name: Skami Zarton's Dramiel
+    volume: 27289.0
   Skia Alfota's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018876
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26182
     name: Skia Alfota's Bunker
+    volume: 1.0E8
   Spitek's Bellicose:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018429
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21177
     name: Spitek's Bellicose
   Stokk's Claw:
     AgentAutoPopupRange: 5000
@@ -2849,6 +3353,7 @@ items:
     AgentID: 3018431
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21142
     name: Stokk's Claw
   Subin Barama's Bunker:
     AgentAutoPopupRange: 5000
@@ -2856,13 +3361,16 @@ items:
     AgentID: 3018890
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26196
     name: Subin Barama's Bunker
+    volume: 1.0E8
   Suruki's Hawk:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018380
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20672
     name: Suruki's Hawk
   Tagrina Angi's Rifter:
     AgentAutoPopupRange: 5000
@@ -2870,6 +3378,7 @@ items:
     AgentID: 3018558
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22844
     name: Tagrina Angi's Rifter
   Taihti's Raven:
     AgentAutoPopupRange: 5000
@@ -2877,6 +3386,7 @@ items:
     AgentID: 3018355
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20648
     name: Taihti's Raven
   Takson's Wreathe:
     AgentAutoPopupRange: 5000
@@ -2884,6 +3394,7 @@ items:
     AgentID: 3018416
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21139
     name: Takson's Wreathe
   Tanaka's Raptor:
     AgentAutoPopupRange: 5000
@@ -2891,6 +3402,7 @@ items:
     AgentID: 3018372
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20664
     name: Tanaka's Raptor
   Taspar Zolankor's Punisher:
     AgentAutoPopupRange: 5000
@@ -2898,13 +3410,16 @@ items:
     AgentID: 3018490
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22192
     name: Taspar Zolankor's Punisher
+    volume: 28600.0
   Taspar Zolankor's Retribution:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018490
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22391
     name: Taspar Zolankor's Retribution
   Tazaki's Buzzard:
     AgentAutoPopupRange: 5000
@@ -2912,6 +3427,7 @@ items:
     AgentID: 3018404
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20696
     name: Tazaki's Buzzard
   Tehjus Otsini's Bustard:
     AgentAutoPopupRange: 5000
@@ -2919,6 +3435,7 @@ items:
     AgentID: 3018727
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25416
     name: Tehjus Otsini's Bustard
   Tekkurs's Crow:
     AgentAutoPopupRange: 5000
@@ -2926,6 +3443,7 @@ items:
     AgentID: 3018371
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20663
     name: Tekkurs's Crow
   Tekrawhol's Rupture:
     AgentAutoPopupRange: 5000
@@ -2933,6 +3451,7 @@ items:
     AgentID: 3018420
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21151
     name: Tekrawhol's Rupture
   Testo Hrinz's Merlin:
     AgentAutoPopupRange: 5000
@@ -2940,6 +3459,7 @@ items:
     AgentID: 3018526
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22696
     name: Testo Hrinz's Merlin
   Tevis Jak's Epithal:
     AgentAutoPopupRange: 5000
@@ -2947,6 +3467,7 @@ items:
     AgentID: 3019369
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 30887
     name: Tevis Jak's Epithal
   The Curator's Armageddon:
     AgentAutoPopupRange: 5000
@@ -2954,6 +3475,7 @@ items:
     AgentID: 3018644
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24467
     name: The Curator's Armageddon
   Thora Desto's Rupture:
     AgentAutoPopupRange: 5000
@@ -2961,6 +3483,7 @@ items:
     AgentID: 3018500
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22632
     name: Thora Desto's Rupture
   Tikrest's Rupture:
     AgentAutoPopupRange: 5000
@@ -2968,6 +3491,7 @@ items:
     AgentID: 3018436
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21158
     name: Tikrest's Rupture
   Tillen Matsu's Sparrow:
     AgentAutoPopupRange: 5000
@@ -2976,48 +3500,61 @@ items:
     Hp: 100000000
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24710
     name: Tillen Matsu's Sparrow
+    volume: 28100.0
   Timafa Esihiz's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018891
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26197
     name: Timafa Esihiz's Bunker
+    volume: 1.0E8
   Timmothy Sawyr's Dominix:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018503
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22639
     name: Timmothy Sawyr's Dominix
+    volume: 1010000.0
   Tizeli Reymta's Bunker:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018914
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26222
     name: Tizeli Reymta's Bunker
+    volume: 1.0E8
   Tojawara Saziras's Outpost:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018900
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26206
     name: Tojawara Saziras's Outpost
+    volume: 1.0E8
   Tori Aman's Punisher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018524
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22694
     name: Tori Aman's Punisher
+    volume: 28600.0
   Torsont's Bellicose:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018441
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21168
     name: Torsont's Bellicose
   Tromkurt's Vagabond:
     AgentAutoPopupRange: 5000
@@ -3025,6 +3562,7 @@ items:
     AgentID: 3018433
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21152
     name: Tromkurt's Vagabond
   Turu's Harpy:
     AgentAutoPopupRange: 5000
@@ -3032,6 +3570,7 @@ items:
     AgentID: 3018343
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20520
     name: Turu's Harpy
   Tuuri's Raptor:
     AgentAutoPopupRange: 5000
@@ -3039,6 +3578,7 @@ items:
     AgentID: 3018358
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20651
     name: Tuuri's Raptor
   Tyrfin's Rupture:
     AgentAutoPopupRange: 5000
@@ -3046,6 +3586,7 @@ items:
     AgentID: 3018428
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21176
     name: Tyrfin's Rupture
   Ucham's Omen:
     AgentAutoPopupRange: 5000
@@ -3053,6 +3594,7 @@ items:
     AgentID: 3018450
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21159
     name: Ucham's Omen
   Udokas' Crusader:
     AgentAutoPopupRange: 5000
@@ -3060,6 +3602,7 @@ items:
     AgentID: 3018643
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24463
     name: Udokas' Crusader
   Uiswin Aurtur's Prowler:
     AgentAutoPopupRange: 5000
@@ -3067,6 +3610,7 @@ items:
     AgentID: 3018763
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25465
     name: Uiswin Aurtur's Prowler
   Unnaya Mafir's Ashimmu:
     AgentAutoPopupRange: 5000
@@ -3074,7 +3618,9 @@ items:
     AgentID: 3018521
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22657
     name: Unnaya Mafir's Ashimmu
+    volume: 118000.0
   Urandi Krilin's Machariel:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
@@ -3089,6 +3635,7 @@ items:
     ShieldRechargeRate: 8.64E7
     SignatureRadius: 1000
     StructureUniformity: 1.0
+    id: 25455
     name: Urandi Krilin's Machariel
   Urat Mehrekar's Bunker:
     AgentAutoPopupRange: 5000
@@ -3096,13 +3643,16 @@ items:
     AgentID: 3018896
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 26202
     name: Urat Mehrekar's Bunker
+    volume: 1.0E8
   Urigamu's Crow:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018359
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20652
     name: Urigamu's Crow
   Utrainen's Merlin:
     AgentAutoPopupRange: 5000
@@ -3110,6 +3660,7 @@ items:
     AgentID: 3018392
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20684
     name: Utrainen's Merlin
   Vaktan Sido's Kestrel:
     AgentAutoPopupRange: 5000
@@ -3117,13 +3668,16 @@ items:
     AgentID: 3018491
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22197
     name: Vaktan Sido's Kestrel
+    volume: 19700.0
   Valedt Midalle's Dominix:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018861
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25745
     name: Valedt Midalle's Dominix
   Vausitte Yrier's Navitas:
     AgentAutoPopupRange: 5000
@@ -3131,6 +3685,7 @@ items:
     AgentID: 3018663
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24741
     name: Vausitte Yrier's Navitas
   Veko Tallaja's Scorpion:
     AgentAutoPopupRange: 5000
@@ -3138,13 +3693,16 @@ items:
     AgentID: 3018564
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23311
     name: Veko Tallaja's Scorpion
+    volume: 1040000.0
   Vena Saapialen's Crane:
     AgentAutoPopupRange: 5000
     AgentCommRange: 150000
     AgentID: 3018722
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25404
     name: Vena Saapialen's Crane
   Verkort's Scythe:
     AgentAutoPopupRange: 5000
@@ -3152,6 +3710,7 @@ items:
     AgentID: 3018442
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 21179
     name: Verkort's Scythe
   Vianes Ounid's Prorator:
     AgentAutoPopupRange: 5000
@@ -3159,6 +3718,7 @@ items:
     AgentID: 3018745
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25440
     name: Vianes Ounid's Prorator
   Viljanen's Heron:
     AgentAutoPopupRange: 5000
@@ -3166,6 +3726,7 @@ items:
     AgentID: 3018391
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22319
     name: Viljanen's Heron
   Wakomi's Raven:
     AgentAutoPopupRange: 5000
@@ -3173,6 +3734,7 @@ items:
     AgentID: 3018407
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20699
     name: Wakomi's Raven
   Watanen's Heron:
     AgentAutoPopupRange: 5000
@@ -3180,6 +3742,7 @@ items:
     AgentID: 3018399
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20691
     name: Watanen's Heron
   Wenda Lamort:
     AgentAutoPopupRange: 5000
@@ -3187,13 +3750,16 @@ items:
     AgentID: 3018487
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22186
     name: Wenda Lamort
+    volume: 26500.0
   Wessette Gauze's Oneiros:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018854
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25741
     name: Wessette Gauze's Oneiros
   West Ludorim's Rifter:
     AgentAutoPopupRange: 5000
@@ -3201,6 +3767,7 @@ items:
     AgentID: 3018670
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24747
     name: West Ludorim's Rifter
   Wirdar Erazako's Firetail:
     AgentAutoPopupRange: 5000
@@ -3208,20 +3775,25 @@ items:
     AgentID: 3018539
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22767
     name: Wirdar Erazako's Firetail
+    volume: 16500.0
   Yada Vinjivas's Gila:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3019464
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 32397
     name: Yada Vinjivas's Gila
+    volume: 101000.0
   Yama's Moa:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018381
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 20673
     name: Yama's Moa
   Yekti Kimebu's Malediction:
     AgentAutoPopupRange: 5000
@@ -3229,6 +3801,7 @@ items:
     AgentID: 3018849
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25722
     name: Yekti Kimebu's Malediction
   Yoti Haraisha's Prorator:
     AgentAutoPopupRange: 5000
@@ -3236,6 +3809,7 @@ items:
     AgentID: 3018735
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25424
     name: Yoti Haraisha's Prorator
   Zach Himen's Omen:
     AgentAutoPopupRange: 5000
@@ -3243,13 +3817,16 @@ items:
     AgentID: 3018593
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23832
     name: Zach Himen's Omen
+    volume: 118000.0
   Zach Himum's Armageddon:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018593
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 24309
     name: Zach Himum's Armageddon
   Zaestra Kuramor's Armageddon:
     AgentAutoPopupRange: 5000
@@ -3257,39 +3834,50 @@ items:
     AgentID: 3018506
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22643
     name: Zaestra Kuramor's Armageddon
+    volume: 1100000.0
   Zaknar Cente's Tristan:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018527
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22699
     name: Zaknar Cente's Tristan
+    volume: 26500.0
   Zama Fedas's Khanid Punisher:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018532
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22736
     name: Zama Fedas's Khanid Punisher
+    volume: 28600.0
   Zar Forari's Bestower:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018592
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 23831
     name: Zar Forari's Bestower
+    volume: 260000.0
   Zoun Makui (Scorpion):
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018496
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 22630
     name: Zoun Makui (Scorpion)
+    volume: 1040000.0
   Zwod Aden's Prowler:
     AgentAutoPopupRange: 5000
     AgentCommRange: 100000
     AgentID: 3018762
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 25466
     name: Zwod Aden's Prowler

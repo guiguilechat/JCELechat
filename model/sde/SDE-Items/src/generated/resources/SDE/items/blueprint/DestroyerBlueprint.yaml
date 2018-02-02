@@ -3,104 +3,148 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32873
     name: Algos Blueprint
+    volume: 0.01
   Aliastra Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32849
     name: Aliastra Catalyst Blueprint
+    volume: 0.01
   Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16241
     name: Catalyst Blueprint
+    volume: 0.01
   Catalyst Serpentis Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 33878
     name: Catalyst Serpentis Edition Blueprint
+    volume: 0.01
   Coercer Blood Raiders Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 33880
     name: Coercer Blood Raiders Edition Blueprint
+    volume: 0.01
   Coercer Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16237
     name: Coercer Blueprint
+    volume: 0.01
   Corax Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32877
     name: Corax Blueprint
+    volume: 0.01
   Cormorant Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16239
     name: Cormorant Blueprint
+    volume: 0.01
   Cormorant Guristas Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 33882
     name: Cormorant Guristas Edition Blueprint
+    volume: 0.01
   Dragoon Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32875
     name: Dragoon Blueprint
+    volume: 0.01
   Eris Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22461
     name: Eris Blueprint
+    volume: 0.01
   Flycatcher Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22465
     name: Flycatcher Blueprint
+    volume: 0.01
   Heretic Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22453
     name: Heretic Blueprint
+    volume: 0.01
   Inner Zone Shipping Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32845
     name: Inner Zone Shipping Catalyst Blueprint
+    volume: 0.01
   Intaki Syndicate Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32843
     name: Intaki Syndicate Catalyst Blueprint
+    volume: 0.01
   InterBus Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32841
     name: InterBus Catalyst Blueprint
+    volume: 0.01
   Quafe Catalyst Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32847
     name: Quafe Catalyst Blueprint
+    volume: 0.01
   Sabre Blueprint:
     IndustryBlueprintRank: 600.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22457
     name: Sabre Blueprint
+    volume: 0.01
   Sunesis Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 44106
     name: Sunesis Blueprint
+    volume: 0.01
   Talwar Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32879
     name: Talwar Blueprint
+    volume: 0.01
   Thrasher Blueprint:
     IndustryBlueprintRank: 30.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16243
     name: Thrasher Blueprint
+    volume: 0.01
   Thrasher Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 30.0
     TechLevel: 1
+    id: 33884
     name: Thrasher Thukker Tribe Edition Blueprint
+    volume: 0.01

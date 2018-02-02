@@ -1,7 +1,13 @@
 items:
   Plutonium:
+    id: 3727
     name: Plutonium
+    volume: 1.0
   Radioactive Waste:
+    id: 17475
     name: Radioactive Waste
+    volume: 1.0
   Toxic Waste:
+    id: 3729
     name: Toxic Waste
+    volume: 1.0

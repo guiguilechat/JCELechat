@@ -1,27 +1,45 @@
 items:
   Cap Booster 100 Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 3555
     name: Cap Booster 100 Blueprint
+    volume: 0.01
   Cap Booster 150 Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 11284
     name: Cap Booster 150 Blueprint
+    volume: 0.01
   Cap Booster 200 Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 11286
     name: Cap Booster 200 Blueprint
+    volume: 0.01
   Cap Booster 25 Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1178
     name: Cap Booster 25 Blueprint
+    volume: 0.01
   Cap Booster 3200 Blueprint:
+    id: 41598
     name: Cap Booster 3200 Blueprint
+    volume: 0.01
   Cap Booster 400 Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 11288
     name: Cap Booster 400 Blueprint
+    volume: 0.01
   Cap Booster 50 Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1179
     name: Cap Booster 50 Blueprint
+    volume: 0.01
   Cap Booster 75 Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 3553
     name: Cap Booster 75 Blueprint
+    volume: 0.01
   Cap Booster 800 Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 11290
     name: Cap Booster 800 Blueprint
+    volume: 0.01

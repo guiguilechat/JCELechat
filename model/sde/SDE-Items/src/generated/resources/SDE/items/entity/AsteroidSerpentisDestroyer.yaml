@@ -1,13 +1,25 @@
 items:
   Serpentis Artillery:
+    id: 23428
     name: Serpentis Artillery
+    volume: 26500.0
   Serpentis Cannoneer:
+    id: 23427
     name: Serpentis Cannoneer
+    volume: 26500.0
   Serpentis Infantry:
+    id: 23425
     name: Serpentis Infantry
+    volume: 26500.0
   Serpentis Sentinel:
+    id: 23426
     name: Serpentis Sentinel
+    volume: 26500.0
   Serpentis Soldier:
+    id: 23424
     name: Serpentis Soldier
+    volume: 26500.0
   Serpentis Trooper:
+    id: 23423
     name: Serpentis Trooper
+    volume: 26500.0

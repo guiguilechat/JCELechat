@@ -13,7 +13,9 @@ items:
     RequiredSkill2Level: 5
     StructureDamageAmount: 360
     TechLevel: 1
+    id: 27934
     name: Capital Remote Hull Repairer I
+    volume: 4000.0
   Capital Remote Hull Repairer II:
     CapacitorNeed: 1980.0
     Cpu: 110.0
@@ -29,7 +31,9 @@ items:
     RequiredSkill2Level: 5
     StructureDamageAmount: 430
     TechLevel: 2
+    id: 41475
     name: Capital Remote Hull Repairer II
+    volume: 4000.0
   Large Remote Hull Repairer I:
     CapacitorNeed: 488.0
     Duration: 6000.0
@@ -41,7 +45,9 @@ items:
     RequiredSkill1Level: 3
     StructureDamageAmount: 192
     TechLevel: 1
+    id: 27904
     name: Large Remote Hull Repairer I
+    volume: 50.0
   Large Remote Hull Repairer II:
     CapacitorNeed: 488.0
     Cpu: 99.0
@@ -55,7 +61,9 @@ items:
     RequiredSkill1Level: 5
     StructureDamageAmount: 230
     TechLevel: 2
+    id: 3986
     name: Large Remote Hull Repairer II
+    volume: 50.0
   Medium Remote Hull Repairer I:
     CapacitorNeed: 244.0
     Duration: 6000.0
@@ -67,7 +75,9 @@ items:
     RequiredSkill1Level: 2
     StructureDamageAmount: 96
     TechLevel: 1
+    id: 27930
     name: Medium Remote Hull Repairer I
+    volume: 10.0
   Medium Remote Hull Repairer II:
     CapacitorNeed: 244.0
     Cpu: 75.0
@@ -81,7 +91,9 @@ items:
     RequiredSkill1Level: 5
     StructureDamageAmount: 115
     TechLevel: 2
+    id: 4296
     name: Medium Remote Hull Repairer II
+    volume: 10.0
   Small Remote Hull Repairer I:
     CapacitorNeed: 122.0
     Duration: 6000.0
@@ -93,7 +105,9 @@ items:
     RequiredSkill1Level: 1
     StructureDamageAmount: 48
     TechLevel: 1
+    id: 27932
     name: Small Remote Hull Repairer I
+    volume: 5.0
   Small Remote Hull Repairer II:
     CapacitorNeed: 122.0
     Cpu: 50.0
@@ -107,4 +121,6 @@ items:
     RequiredSkill1Level: 5
     StructureDamageAmount: 58
     TechLevel: 2
+    id: 4299
     name: Small Remote Hull Repairer II
+    volume: 5.0

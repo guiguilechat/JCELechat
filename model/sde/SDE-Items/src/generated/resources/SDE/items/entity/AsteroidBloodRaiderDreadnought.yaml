@@ -1,5 +1,9 @@
 items:
   Blood Dreadnought:
+    id: 37463
     name: Blood Dreadnought
+    volume: 1.85E7
   Dark Blood Dreadnought:
+    id: 41397
     name: Dark Blood Dreadnought
+    volume: 1.85E7

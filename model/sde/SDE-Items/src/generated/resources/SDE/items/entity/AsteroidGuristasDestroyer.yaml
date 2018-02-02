@@ -1,17 +1,33 @@
 items:
   Guristas Anarchist:
+    id: 23313
     name: Guristas Anarchist
+    volume: 16500.0
   Guristas Guerilla:
+    id: 23315
     name: Guristas Guerilla
+    volume: 16500.0
   Guristas Nihilist:
+    id: 23312
     name: Guristas Nihilist
+    volume: 16500.0
   Guristas Renegade:
+    id: 23314
     name: Guristas Renegade
+    volume: 16500.0
   Guristas Supremacist:
+    id: 23329
     name: Guristas Supremacist
+    volume: 16500.0
   Guristas Terrorist:
+    id: 23328
     name: Guristas Terrorist
+    volume: 16500.0
   Vagrant Anarchist:
+    id: 23941
     name: Vagrant Anarchist
+    volume: 16500.0
   Vagrant Nihilist:
+    id: 23940
     name: Vagrant Nihilist
+    volume: 16500.0

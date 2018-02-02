@@ -1,53 +1,105 @@
 items:
   Blood Collector:
+    id: 10279
     name: Blood Collector
+    volume: 28100.0
   Blood Diviner:
+    id: 11041
     name: Blood Diviner
+    volume: 28600.0
   Blood Engraver:
+    id: 11042
     name: Blood Engraver
+    volume: 28600.0
   Blood Follower:
+    id: 10275
     name: Blood Follower
+    volume: 28100.0
   Blood Herald:
+    id: 10276
     name: Blood Herald
+    volume: 28100.0
   Blood Raider:
+    id: 11040
     name: Blood Raider
+    volume: 28700.0
   Blood Reaver:
+    id: 10280
     name: Blood Reaver
+    volume: 28700.0
   Blood Seeker:
+    id: 10278
     name: Blood Seeker
+    volume: 28100.0
   Blood Upholder:
+    id: 10277
     name: Blood Upholder
+    volume: 28100.0
   Blood Worshipper:
+    id: 11039
     name: Blood Worshipper
+    volume: 24398.0
   Elder Blood Collector:
+    id: 23260
     name: Elder Blood Collector
+    volume: 28100.0
   Elder Blood Diviner:
+    id: 23262
     name: Elder Blood Diviner
+    volume: 28600.0
   Elder Blood Engraver:
+    id: 23264
     name: Elder Blood Engraver
+    volume: 28600.0
   Elder Blood Follower:
+    id: 13039
     name: Elder Blood Follower
+    volume: 28700.0
   Elder Blood Herald:
+    id: 13040
     name: Elder Blood Herald
+    volume: 28700.0
   Elder Blood Raider:
+    id: 23261
     name: Elder Blood Raider
+    volume: 28600.0
   Elder Blood Reaver:
+    id: 23263
     name: Elder Blood Reaver
+    volume: 28600.0
   Elder Blood Seeker:
+    id: 23259
     name: Elder Blood Seeker
+    volume: 28100.0
   Elder Blood Upholder:
+    id: 13037
     name: Elder Blood Upholder
+    volume: 28600.0
   Elder Blood Worshipper:
+    id: 13038
     name: Elder Blood Worshipper
+    volume: 28600.0
   Warrior Collector:
+    id: 24385
     name: Warrior Collector
+    volume: 28100.0
   Warrior Diviner:
+    id: 24387
     name: Warrior Diviner
+    volume: 28600.0
   Warrior Engraver:
+    id: 24389
     name: Warrior Engraver
+    volume: 28600.0
   Warrior Raider:
+    id: 24386
     name: Warrior Raider
+    volume: 28700.0
   Warrior Reaver:
+    id: 24388
     name: Warrior Reaver
+    volume: 28700.0
   Warrior Seeker:
+    id: 24407
     name: Warrior Seeker
+    volume: 28100.0

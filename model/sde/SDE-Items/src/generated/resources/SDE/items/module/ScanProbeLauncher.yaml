@@ -14,7 +14,9 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    id: 17938
     name: Core Probe Launcher I
+    volume: 5.0
   Core Probe Launcher II:
     ChargeGroup1: 479
     Cpu: 20.0
@@ -32,7 +34,9 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 2
+    id: 4258
     name: Core Probe Launcher II
+    volume: 5.0
   Expanded Probe Launcher I:
     ChargeGroup1: 479
     DisallowRepeatingActivation: 1
@@ -47,7 +51,9 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    id: 18639
     name: Expanded Probe Launcher I
+    volume: 5.0
   Expanded Probe Launcher II:
     ChargeGroup1: 479
     Cpu: 242.0
@@ -65,7 +71,9 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 2
+    id: 4260
     name: Expanded Probe Launcher II
+    volume: 5.0
   Prototype Iris Probe Launcher:
     CanFitShipGroup01: 1022
     ChargeGroup1: 479
@@ -81,7 +89,9 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    id: 2083
     name: Prototype Iris Probe Launcher
+    volume: 5.0
   QA Probe Launcher:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -98,7 +108,9 @@ items:
     Slots: 1
     Speed: 2500
     TechLevel: 1
+    id: 26173
     name: QA Probe Launcher
+    volume: 5.0
   Recon Probe Launcher II:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -115,7 +127,9 @@ items:
     Slots: 1
     Speed: 1875
     TechLevel: 2
+    id: 25771
     name: Recon Probe Launcher II
+    volume: 5.0
   Scan Probe Launcher II:
     ChargeGroup1: 479
     ChargeGroup2: 492
@@ -132,7 +146,9 @@ items:
     Slots: 1
     Speed: 12000
     TechLevel: 1
+    id: 17901
     name: Scan Probe Launcher II
+    volume: 5.0
   Sisters Core Probe Launcher:
     ChargeGroup1: 479
     Cpu: 10.0
@@ -151,7 +167,9 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 1
+    id: 28758
     name: Sisters Core Probe Launcher
+    volume: 5.0
   Sisters Expanded Probe Launcher:
     ChargeGroup1: 479
     DisallowRepeatingActivation: 1
@@ -169,4 +187,6 @@ items:
     Slots: 1
     Speed: 1500
     TechLevel: 1
+    id: 28756
     name: Sisters Expanded Probe Launcher
+    volume: 5.0

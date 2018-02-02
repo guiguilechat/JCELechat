@@ -22,4 +22,6 @@ items:
     TrackingSpeedBonus: 5.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    id: 17701
     name: Tracking Array
+    volume: 4000.0

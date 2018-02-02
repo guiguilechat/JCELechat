@@ -19,7 +19,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14842
     name: Ahremen's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Ammatar Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -40,7 +42,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15798
     name: Ammatar Navy Heavy Energy Neutralizer
+    volume: 5.0
   Ammatar Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -61,7 +65,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15796
     name: Ammatar Navy Medium Energy Neutralizer
+    volume: 5.0
   Ammatar Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -82,7 +88,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15794
     name: Ammatar Navy Small Energy Neutralizer
+    volume: 5.0
   Brokara's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -103,7 +111,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14832
     name: Brokara's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Capital Energy Neutralizer I:
     CapacitorNeed: 3600.0
     Cpu: 90.0
@@ -124,7 +134,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 40659
     name: Capital Energy Neutralizer I
+    volume: 4000.0
   Capital Energy Neutralizer II:
     CapacitorNeed: 3600.0
     Cpu: 90.0
@@ -146,7 +158,9 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 40662
     name: Capital Energy Neutralizer II
+    volume: 4000.0
   Capital Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 3600.0
     Cpu: 72.0
@@ -168,7 +182,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 40660
     name: Capital Gremlin Compact Energy Neutralizer
+    volume: 4000.0
   Capital Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 3600.0
     Cpu: 90.0
@@ -190,7 +206,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 40661
     name: Capital Infectious Scoped Energy Neutralizer
+    volume: 4000.0
   Chelm's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -211,7 +229,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14844
     name: Chelm's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Corpii A-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -233,7 +253,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37624
     name: Corpii A-Type Small Energy Neutralizer
+    volume: 5.0
   Corpii B-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -255,7 +277,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37623
     name: Corpii B-Type Small Energy Neutralizer
+    volume: 5.0
   Corpii C-Type Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -277,7 +301,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37622
     name: Corpii C-Type Small Energy Neutralizer
+    volume: 5.0
   Corpum A-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -299,7 +325,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37627
     name: Corpum A-Type Medium Energy Neutralizer
+    volume: 5.0
   Corpum B-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -321,7 +349,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37626
     name: Corpum B-Type Medium Energy Neutralizer
+    volume: 5.0
   Corpum C-Type Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -343,7 +373,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37625
     name: Corpum C-Type Medium Energy Neutralizer
+    volume: 5.0
   Corpus A-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -365,7 +397,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37630
     name: Corpus A-Type Heavy Energy Neutralizer
+    volume: 50.0
   Corpus B-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -387,7 +421,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37629
     name: Corpus B-Type Heavy Energy Neutralizer
+    volume: 50.0
   Corpus C-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -409,7 +445,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37628
     name: Corpus C-Type Heavy Energy Neutralizer
+    volume: 50.0
   Corpus X-Type Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -431,7 +469,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 37631
     name: Corpus X-Type Heavy Energy Neutralizer
+    volume: 50.0
   Dark Blood Capital Energy Neutralizer:
     CapacitorNeed: 3600.0
     Cpu: 90.0
@@ -454,7 +494,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 40664
     name: Dark Blood Capital Energy Neutralizer
+    volume: 4000.0
   Dark Blood Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -475,7 +517,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14168
     name: Dark Blood Heavy Energy Neutralizer
+    volume: 5.0
   Dark Blood Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -496,7 +540,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14164
     name: Dark Blood Medium Energy Neutralizer
+    volume: 5.0
   Dark Blood Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -517,7 +563,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14160
     name: Dark Blood Small Energy Neutralizer
+    volume: 5.0
   Draclira's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -538,7 +586,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14846
     name: Draclira's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Heavy 'Moat' Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -559,7 +609,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23819
     name: Heavy 'Moat' Energy Neutralizer
+    volume: 5.0
   Heavy Energy Neutralizer I:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -578,7 +630,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 12269
     name: Heavy Energy Neutralizer I
+    volume: 50.0
   Heavy Energy Neutralizer II:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -598,7 +652,9 @@ items:
     RequiredSkill1Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 12271
     name: Heavy Energy Neutralizer II
+    volume: 5.0
   Heavy Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 32.0
@@ -619,7 +675,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16475
     name: Heavy Gremlin Compact Energy Neutralizer
+    volume: 5.0
   Heavy Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -640,7 +698,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16477
     name: Heavy Infectious Scoped Energy Neutralizer
+    volume: 5.0
   Heavy Rudimentary Energy Destabilizer I:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -661,7 +721,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16473
     name: Heavy Rudimentary Energy Destabilizer I
+    volume: 5.0
   Heavy Unstable Power Fluctuator I:
     CapacitorNeed: 500.0
     Cpu: 40.0
@@ -682,7 +744,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16479
     name: Heavy Unstable Power Fluctuator I
+    volume: 5.0
   Imperial Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -703,7 +767,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15804
     name: Imperial Navy Heavy Energy Neutralizer
+    volume: 5.0
   Imperial Navy Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -724,7 +790,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15802
     name: Imperial Navy Medium Energy Neutralizer
+    volume: 5.0
   Imperial Navy Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -745,7 +813,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15800
     name: Imperial Navy Small Energy Neutralizer
+    volume: 5.0
   Medium 'Ditch' Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -766,7 +836,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23817
     name: Medium 'Ditch' Energy Neutralizer
+    volume: 5.0
   Medium Energy Neutralizer I:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -785,7 +857,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 12265
     name: Medium Energy Neutralizer I
+    volume: 5.0
   Medium Energy Neutralizer II:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -805,7 +879,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 12267
     name: Medium Energy Neutralizer II
+    volume: 5.0
   Medium Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 150.0
     Cpu: 16.0
@@ -826,7 +902,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16467
     name: Medium Gremlin Compact Energy Neutralizer
+    volume: 5.0
   Medium Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -847,7 +925,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16469
     name: Medium Infectious Scoped Energy Neutralizer
+    volume: 5.0
   Medium Rudimentary Energy Destabilizer I:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -868,7 +948,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16465
     name: Medium Rudimentary Energy Destabilizer I
+    volume: 5.0
   Medium Unstable Power Fluctuator I:
     CapacitorNeed: 150.0
     Cpu: 20.0
@@ -889,7 +971,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 16471
     name: Medium Unstable Power Fluctuator I
+    volume: 5.0
   Raysere's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -910,7 +994,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14838
     name: Raysere's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Selynne's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -931,7 +1017,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14836
     name: Selynne's Modified Heavy Energy Neutralizer
+    volume: 5.0
   Small 'Caltrop' Energy Neutralizer:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -952,7 +1040,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23815
     name: Small 'Caltrop' Energy Neutralizer
+    volume: 5.0
   Small Energy Neutralizer I:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -971,7 +1061,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 533
     name: Small Energy Neutralizer I
+    volume: 5.0
   Small Energy Neutralizer II:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -991,7 +1083,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 13003
     name: Small Energy Neutralizer II
+    volume: 5.0
   Small Gremlin Compact Energy Neutralizer:
     CapacitorNeed: 45.0
     Cpu: 8.0
@@ -1012,7 +1106,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4477
     name: Small Gremlin Compact Energy Neutralizer
+    volume: 5.0
   Small Infectious Scoped Energy Neutralizer:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -1033,7 +1129,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4471
     name: Small Infectious Scoped Energy Neutralizer
+    volume: 5.0
   Small Rudimentary Energy Destabilizer I:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -1054,7 +1152,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4473
     name: Small Rudimentary Energy Destabilizer I
+    volume: 5.0
   Small Unstable Power Fluctuator I:
     CapacitorNeed: 45.0
     Cpu: 10.0
@@ -1075,7 +1175,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4475
     name: Small Unstable Power Fluctuator I
+    volume: 5.0
   Tairei's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -1096,7 +1198,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14834
     name: Tairei's Modified Heavy Energy Neutralizer
+    volume: 5.0
   True Sansha Capital Energy Neutralizer:
     CapacitorNeed: 3600.0
     Cpu: 90.0
@@ -1119,7 +1223,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 40663
     name: True Sansha Capital Energy Neutralizer
+    volume: 4000.0
   True Sansha Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -1140,7 +1246,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14170
     name: True Sansha Heavy Energy Neutralizer
+    volume: 5.0
   True Sansha Medium Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -1161,7 +1269,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14166
     name: True Sansha Medium Energy Neutralizer
+    volume: 5.0
   True Sansha Small Energy Neutralizer:
     CapacitorNeed: 45.0
     Duration: 6000.0
@@ -1182,7 +1292,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14162
     name: True Sansha Small Energy Neutralizer
+    volume: 5.0
   Vizan's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -1203,4 +1315,6 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14840
     name: Vizan's Modified Heavy Energy Neutralizer
+    volume: 5.0

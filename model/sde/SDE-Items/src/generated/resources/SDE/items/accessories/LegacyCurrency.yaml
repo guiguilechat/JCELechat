@@ -1,17 +1,27 @@
 items:
   100 Aurum Token:
     AurumConversionRate: 100
+    id: 32792
     name: 100 Aurum Token
+    volume: 0.01
   1000 Aurum Token:
     AurumConversionRate: 1000
+    id: 2833
     name: 1000 Aurum Token
+    volume: 0.01
   30 Day Pilot's License Extension (PLEX):
     AurumConversionRate: 3500
     NumDays: 30
+    id: 29668
     name: 30 Day Pilot's License Extension (PLEX)
+    volume: 0.01
   300 Aurum Token:
     AurumConversionRate: 300
+    id: 44204
     name: 300 Aurum Token
+    volume: 0.01
   500 Aurum Token:
     AurumConversionRate: 500
+    id: 32793
     name: 500 Aurum Token
+    volume: 0.01

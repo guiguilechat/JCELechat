@@ -5,328 +5,426 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 27223
     name: Inherent Implants 'Sergeant' XE4
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-701:
     CapNeedBonus: -1
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27120
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
     CapNeedBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3247
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
     CapNeedBonus: -3
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13265
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
     CapNeedBonus: -4
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3248
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
     CapNeedBonus: -5
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27121
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
     CapNeedBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3249
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27117
     name: Inherent Implants 'Squire' Capacitor Management EM-801
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-802:
     CapacitorCapacityBonus: 2.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3237
     name: Inherent Implants 'Squire' Capacitor Management EM-802
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13259
     name: Inherent Implants 'Squire' Capacitor Management EM-803
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-804:
     CapacitorCapacityBonus: 4.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3238
     name: Inherent Implants 'Squire' Capacitor Management EM-804
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27116
     name: Inherent Implants 'Squire' Capacitor Management EM-805
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-806:
     CapacitorCapacityBonus: 6.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3239
     name: Inherent Implants 'Squire' Capacitor Management EM-806
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27119
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
     CapRechargeBonus: -2.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3240
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13260
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
     CapRechargeBonus: -4.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3241
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27118
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
+    volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
     CapRechargeBonus: -6.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3246
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
     CpuNeedBonus: -1
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27125
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
     CpuNeedBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3253
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
     CpuNeedBonus: -3
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13255
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
     CpuNeedBonus: -4
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3254
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
     CpuNeedBonus: -5
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27124
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
+    volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
     CpuNeedBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3255
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
     DurationBonus: -1
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27123
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
     DurationBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3250
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
     DurationBonus: -3
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13251
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
     DurationBonus: -4
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3251
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
     DurationBonus: -5
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27122
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
+    volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
     DurationBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3252
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27127
     name: Inherent Implants 'Squire' Power Grid Management EG-601
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-602:
     Implantness: 6
     PowerEngineeringOutputBonus: 2.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3256
     name: Inherent Implants 'Squire' Power Grid Management EG-602
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13261
     name: Inherent Implants 'Squire' Power Grid Management EG-603
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-604:
     Implantness: 6
     PowerEngineeringOutputBonus: 4.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3257
     name: Inherent Implants 'Squire' Power Grid Management EG-604
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27126
     name: Inherent Implants 'Squire' Power Grid Management EG-605
+    volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-606:
     Implantness: 6
     PowerEngineeringOutputBonus: 6.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3258
     name: Inherent Implants 'Squire' Power Grid Management EG-606
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27143
     name: Zainou 'Gypsy' CPU Management EE-601
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-602:
     CpuOutputBonus2: 2.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3265
     name: Zainou 'Gypsy' CPU Management EE-602
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13216
     name: Zainou 'Gypsy' CPU Management EE-603
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-604:
     CpuOutputBonus2: 4.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3266
     name: Zainou 'Gypsy' CPU Management EE-604
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27142
     name: Zainou 'Gypsy' CPU Management EE-605
+    volume: 1.0
   Zainou 'Gypsy' CPU Management EE-606:
     CpuOutputBonus2: 6.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3267
     name: Zainou 'Gypsy' CPU Management EE-606
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-601:
     CpuNeedBonus: -1
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27129
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-602:
     CpuNeedBonus: -2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3262
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-603:
     CpuNeedBonus: -3
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13254
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-604:
     CpuNeedBonus: -4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3263
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-605:
     CpuNeedBonus: -5
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27128
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
+    volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-606:
     CpuNeedBonus: -6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3264
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
+    volume: 1.0

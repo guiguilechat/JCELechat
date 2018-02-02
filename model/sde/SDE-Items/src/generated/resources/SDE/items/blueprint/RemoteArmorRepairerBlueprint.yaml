@@ -2,82 +2,128 @@ items:
   '''Beatnik'' Small Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22948
     name: '''Beatnik'' Small Remote Armor Repairer Blueprint'
+    volume: 0.01
   '''Brotherhood'' Small Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23415
     name: '''Brotherhood'' Small Remote Armor Repairer Blueprint'
+    volume: 0.01
   '''Love'' Medium Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22950
     name: '''Love'' Medium Remote Armor Repairer Blueprint'
+    volume: 0.01
   '''Pacifier'' Large Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 22952
     name: '''Pacifier'' Large Remote Armor Repairer Blueprint'
+    volume: 0.01
   '''Peace'' Large Remote Armor Repairer Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 23417
     name: '''Peace'' Large Remote Armor Repairer Blueprint'
+    volume: 0.01
   CONCORD Capital Remote Armor Repairer Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 3537
     name: CONCORD Capital Remote Armor Repairer Blueprint
+    volume: 0.01
   Capital Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41656
     name: Capital Ancillary Remote Armor Repairer Blueprint
+    volume: 0.01
   Capital Coaxial Compact Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41622
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
+    volume: 0.01
   Capital I-ax Enduring Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41621
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
+    volume: 0.01
   Capital Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 24570
     name: Capital Remote Armor Repairer I Blueprint
+    volume: 0.01
   Capital Remote Armor Repairer II Blueprint:
     TechLevel: 1
+    id: 41623
     name: Capital Remote Armor Repairer II Blueprint
+    volume: 0.01
   Capital Solace Scoped Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41624
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
+    volume: 0.01
   Dark Blood Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41625
     name: Dark Blood Capital Remote Armor Repairer Blueprint
+    volume: 0.01
   Large Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41655
     name: Large Ancillary Remote Armor Repairer Blueprint
+    volume: 0.01
   Large Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 11360
     name: Large Remote Armor Repairer I Blueprint
+    volume: 0.01
   Large Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 26915
     name: Large Remote Armor Repairer II Blueprint
+    volume: 0.01
   Medium Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41654
     name: Medium Ancillary Remote Armor Repairer Blueprint
+    volume: 0.01
   Medium Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 11358
     name: Medium Remote Armor Repairer I Blueprint
+    volume: 0.01
   Medium Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 26916
     name: Medium Remote Armor Repairer II Blueprint
+    volume: 0.01
   Shadow Serpentis Capital Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41626
     name: Shadow Serpentis Capital Remote Armor Repairer Blueprint
+    volume: 0.01
   Small Ancillary Remote Armor Repairer Blueprint:
     TechLevel: 1
+    id: 41653
     name: Small Ancillary Remote Armor Repairer Blueprint
+    volume: 0.01
   Small Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 11356
     name: Small Remote Armor Repairer I Blueprint
+    volume: 0.01
   Small Remote Armor Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 26917
     name: Small Remote Armor Repairer II Blueprint
+    volume: 0.01

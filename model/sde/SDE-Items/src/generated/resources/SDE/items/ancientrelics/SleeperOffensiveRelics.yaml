@@ -1,10 +1,16 @@
 items:
   Intact Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    id: 30628
     name: Intact Weapon Subroutines
+    volume: 10.0
   Malfunctioning Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    id: 30632
     name: Malfunctioning Weapon Subroutines
+    volume: 10.0
   Wrecked Weapon Subroutines:
     IndustryBlueprintRank: 2.0
+    id: 30633
     name: Wrecked Weapon Subroutines
+    volume: 10.0

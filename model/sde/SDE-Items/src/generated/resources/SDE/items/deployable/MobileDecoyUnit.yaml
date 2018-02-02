@@ -16,4 +16,6 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33587
     name: Mobile Decoy Unit
+    volume: 50.0

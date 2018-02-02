@@ -1,35 +1,69 @@
 items:
   Bandit Courier:
+    id: 22004
     name: Bandit Courier
+    volume: 101000.0
   Bandit Ferrier:
+    id: 22002
     name: Bandit Ferrier
+    volume: 19700.0
   Bandit Gatherer:
+    id: 22001
     name: Bandit Gatherer
+    volume: 16500.0
   Bandit Harvester:
+    id: 22029
     name: Bandit Harvester
+    volume: 19700.0
   Bandit Loader:
+    id: 22003
     name: Bandit Loader
+    volume: 16500.0
   Guristas Bulker:
+    id: 13718
     name: Guristas Bulker
+    volume: 101000.0
   Guristas Carrier:
+    id: 13714
     name: Guristas Carrier
+    volume: 2.2E7
   Guristas Convoy:
+    id: 13715
     name: Guristas Convoy
+    volume: 1040000.0
   Guristas Courier:
+    id: 13721
     name: Guristas Courier
+    volume: 101000.0
   Guristas Ferrier:
+    id: 13723
     name: Guristas Ferrier
+    volume: 19700.0
   Guristas Gatherer:
+    id: 13724
     name: Guristas Gatherer
+    volume: 16500.0
   Guristas Harvester:
+    id: 13725
     name: Guristas Harvester
+    volume: 19700.0
   Guristas Hauler:
+    id: 13717
     name: Guristas Hauler
+    volume: 1040000.0
   Guristas Loader:
+    id: 13722
     name: Guristas Loader
+    volume: 16500.0
   Guristas Trailer:
+    id: 13716
     name: Guristas Trailer
+    volume: 1080000.0
   Guristas Transporter:
+    id: 13719
     name: Guristas Transporter
+    volume: 101000.0
   Guristas Trucker:
+    id: 13720
     name: Guristas Trucker
+    volume: 101000.0

@@ -42,7 +42,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17180
     name: Sensor Dampening Battery
+    volume: 4000.0
   Serpentis Sensor Dampening Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -87,7 +89,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27778
     name: Serpentis Sensor Dampening Battery
+    volume: 4000.0
   Shadow Sensor Dampening Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -132,4 +136,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27779
     name: Shadow Sensor Dampening Battery
+    volume: 4000.0

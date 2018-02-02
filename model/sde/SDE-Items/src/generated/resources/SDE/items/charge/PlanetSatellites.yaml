@@ -16,4 +16,6 @@ items:
     SpecialisationAsteroidYieldMultiplier: 5.0
     TechLevel: 1
     UnfitCapCost: 80
+    id: 28612
     name: Planet Satellite
+    volume: 30.0

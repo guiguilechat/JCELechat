@@ -1,25 +1,49 @@
 items:
   Condensed Alloy:
+    id: 11739
     name: Condensed Alloy
+    volume: 1.0
   Crystal Compound:
+    id: 11741
     name: Crystal Compound
+    volume: 1.0
   Dark Compound:
+    id: 11735
     name: Dark Compound
+    volume: 1.0
   Gleaming Alloy:
+    id: 11740
     name: Gleaming Alloy
+    volume: 1.0
   Glossy Compound:
+    id: 11724
     name: Glossy Compound
+    volume: 1.0
   Lucent Compound:
+    id: 11738
     name: Lucent Compound
+    volume: 1.0
   Lustering Alloy:
+    id: 11736
     name: Lustering Alloy
+    volume: 1.0
   Motley Compound:
+    id: 11733
     name: Motley Compound
+    volume: 1.0
   Opulent Compound:
+    id: 11734
     name: Opulent Compound
+    volume: 1.0
   Plush Compound:
+    id: 11725
     name: Plush Compound
+    volume: 1.0
   Precious Alloy:
+    id: 11737
     name: Precious Alloy
+    volume: 1.0
   Sheen Compound:
+    id: 11732
     name: Sheen Compound
+    volume: 1.0

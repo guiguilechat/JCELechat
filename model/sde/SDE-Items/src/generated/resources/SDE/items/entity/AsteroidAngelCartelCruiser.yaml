@@ -1,49 +1,97 @@
 items:
   Angel Breaker:
+    id: 11894
     name: Angel Breaker
+    volume: 109000.0
   Angel Centurion:
+    id: 22821
     name: Angel Centurion
+    volume: 109000.0
   Angel Clone Soldier Negotiator:
+    id: 33175
     name: Angel Clone Soldier Negotiator
+    volume: 109000.0
   Angel Clone Soldier Recruiter:
+    id: 33143
     name: Angel Clone Soldier Recruiter
+    volume: 109000.0
   'Angel Clone Soldier Trainer ':
+    id: 33132
     name: 'Angel Clone Soldier Trainer '
+    volume: 109000.0
   Angel Clone Soldier Transporter:
+    id: 33173
     name: Angel Clone Soldier Transporter
+    volume: 109000.0
   Angel Crusher:
+    id: 11026
     name: Angel Crusher
+    volume: 109000.0
   Angel Defeater:
+    id: 11895
     name: Angel Defeater
+    volume: 109000.0
   Angel Depredator:
+    id: 10017
     name: Angel Depredator
+    volume: 99000.0
   Angel Liquidator:
+    id: 11897
     name: Angel Liquidator
+    volume: 109000.0
   Angel Marauder:
+    id: 11896
     name: Angel Marauder
+    volume: 109000.0
   Angel Phalanx:
+    id: 22820
     name: Angel Phalanx
+    volume: 109000.0
   Angel Predator:
+    id: 11025
     name: Angel Predator
+    volume: 99000.0
   Angel Smasher:
+    id: 10018
     name: Angel Smasher
+    volume: 109000.0
   Arch Angel Breaker:
+    id: 23640
     name: Arch Angel Breaker
+    volume: 99000.0
   Arch Angel Centurion:
+    id: 22833
     name: Arch Angel Centurion
+    volume: 109000.0
   Arch Angel Crusher:
+    id: 23639
     name: Arch Angel Crusher
+    volume: 99000.0
   Arch Angel Defeater:
+    id: 23641
     name: Arch Angel Defeater
+    volume: 99000.0
   Arch Angel Depredator:
+    id: 22828
     name: Arch Angel Depredator
+    volume: 99000.0
   Arch Angel Liquidator:
+    id: 22831
     name: Arch Angel Liquidator
+    volume: 109000.0
   Arch Angel Marauder:
+    id: 22830
     name: Arch Angel Marauder
+    volume: 109000.0
   Arch Angel Phalanx:
+    id: 22832
     name: Arch Angel Phalanx
+    volume: 109000.0
   Arch Angel Predator:
+    id: 22829
     name: Arch Angel Predator
+    volume: 99000.0
   Arch Angel Smasher:
+    id: 23638
     name: Arch Angel Smasher
+    volume: 99000.0

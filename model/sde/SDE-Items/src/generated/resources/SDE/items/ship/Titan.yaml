@@ -105,7 +105,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 11567
     name: Avatar
+    volume: 1.55E8
   Erebus:
     AccuracyBonus: 1
     AdvancedAgility: 1
@@ -212,7 +214,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 671
     name: Erebus
+    volume: 1.455E8
   Komodo:
     AccuracyBonus: 1
     AdvancedAgility: 1
@@ -333,7 +337,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 45649
     name: Komodo
+    volume: 1.325E8
   Leviathan:
     AccuracyBonus: 1
     AdvancedAgility: 1
@@ -442,7 +448,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 3764
     name: Leviathan
+    volume: 1.325E8
   Molok:
     AccuracyBonus: 1
     AdvancedAgility: 1
@@ -558,7 +566,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 42241
     name: Molok
+    volume: 1.55E8
   Ragnarok:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -664,7 +674,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 23773
     name: Ragnarok
+    volume: 1.0E8
   Vanquisher:
     AccuracyBonus: 1
     AdvancedAgility: 1
@@ -779,4 +791,6 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
+    id: 42126
     name: Vanquisher
+    volume: 1.455E8

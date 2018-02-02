@@ -3,33 +3,47 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17477
     name: Covetor Blueprint
+    volume: 0.01
   Hulk Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22545
     name: Hulk Blueprint
+    volume: 0.01
   Mackinaw Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22549
     name: Mackinaw Blueprint
+    volume: 0.01
   Mackinaw ORE Development Edition Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 1
+    id: 33684
     name: Mackinaw ORE Development Edition Blueprint
+    volume: 0.01
   Procurer Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17481
     name: Procurer Blueprint
+    volume: 0.01
   Retriever Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17479
     name: Retriever Blueprint
+    volume: 0.01
   Skiff Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22547
     name: Skiff Blueprint
+    volume: 0.01

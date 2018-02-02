@@ -1,13 +1,25 @@
 items:
   Sentient Dismantler Alvior:
+    id: 27748
     name: Sentient Dismantler Alvior
+    volume: 60.0
   Sentient Marauder Alvior:
+    id: 27749
     name: Sentient Marauder Alvior
+    volume: 60.0
   Sentient Predator Alvior:
+    id: 27750
     name: Sentient Predator Alvior
+    volume: 60.0
   Sentient Ripper Alvior:
+    id: 27751
     name: Sentient Ripper Alvior
+    volume: 60.0
   Sentient Shatter Alvior:
+    id: 27752
     name: Sentient Shatter Alvior
+    volume: 60.0
   Sentient Shredder Alvior:
+    id: 27753
     name: Sentient Shredder Alvior
+    volume: 60.0

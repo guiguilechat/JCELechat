@@ -20,7 +20,9 @@ items:
     Speed: 16200
     TechLevel: 1
     TypeColorScheme: 20121
+    id: 20603
     name: '''Barrage'' Torpedo Launcher'
+    volume: 20.0
   Caldari Navy Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -42,7 +44,9 @@ items:
     Speed: 12600
     TechLevel: 1
     TypeColorScheme: 11321
+    id: 16067
     name: Caldari Navy Torpedo Launcher
+    volume: 20.0
   Domination Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -64,7 +68,9 @@ items:
     Speed: 13950
     TechLevel: 1
     TypeColorScheme: 11318
+    id: 13923
     name: Domination Torpedo Launcher
+    volume: 20.0
   Dread Guristas Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -86,7 +92,9 @@ items:
     Speed: 12600
     TechLevel: 1
     TypeColorScheme: 11335
+    id: 13924
     name: Dread Guristas Torpedo Launcher
+    volume: 20.0
   Estamel's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -108,7 +116,9 @@ items:
     Speed: 10080
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14683
     name: Estamel's Modified Torpedo Launcher
+    volume: 20.0
   Experimental ZW-4100 Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -129,7 +139,9 @@ items:
     Speed: 15300
     TechLevel: 1
     TypeColorScheme: 20116
+    id: 8001
     name: Experimental ZW-4100 Torpedo Launcher
+    volume: 20.0
   Gotan's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -151,7 +163,9 @@ items:
     Speed: 12240
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14526
     name: Gotan's Modified Torpedo Launcher
+    volume: 20.0
   Hakim's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -173,7 +187,9 @@ items:
     Speed: 12960
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14525
     name: Hakim's Modified Torpedo Launcher
+    volume: 20.0
   Kaikka's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -195,7 +211,9 @@ items:
     Speed: 11970
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14680
     name: Kaikka's Modified Torpedo Launcher
+    volume: 20.0
   Khanid Navy Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -216,7 +234,9 @@ items:
     Speed: 12600
     TechLevel: 1
     TypeColorScheme: 11337
+    id: 28513
     name: Khanid Navy Torpedo Launcher
+    volume: 20.0
   Limited 'Limos' Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -237,7 +257,9 @@ items:
     Speed: 16200
     TechLevel: 1
     TypeColorScheme: 20115
+    id: 8115
     name: Limited 'Limos' Torpedo Launcher
+    volume: 20.0
   Mizuro's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -259,7 +281,9 @@ items:
     Speed: 13680
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14524
     name: Mizuro's Modified Torpedo Launcher
+    volume: 20.0
   Polarized Torpedo Launcher:
     ChargeGroup1: 657
     ChargeGroup3: 89
@@ -284,7 +308,9 @@ items:
     Speed: 11520
     TechLevel: 2
     TypeColorScheme: 11461
+    id: 34294
     name: Polarized Torpedo Launcher
+    volume: 20.0
   Prototype 'Arbalest' Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -305,7 +331,9 @@ items:
     Speed: 14400
     TechLevel: 1
     TypeColorScheme: 20113
+    id: 8117
     name: Prototype 'Arbalest' Torpedo Launcher
+    volume: 20.0
   Republic Fleet Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -327,7 +355,9 @@ items:
     Speed: 13950
     TechLevel: 1
     TypeColorScheme: 11339
+    id: 17490
     name: Republic Fleet Torpedo Launcher
+    volume: 20.0
   Thon's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -349,7 +379,9 @@ items:
     Speed: 11340
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14681
     name: Thon's Modified Torpedo Launcher
+    volume: 20.0
   Tobias's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -371,7 +403,9 @@ items:
     Speed: 11520
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14527
     name: Tobias's Modified Torpedo Launcher
+    volume: 20.0
   Torpedo Launcher I:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -391,7 +425,9 @@ items:
     Speed: 18000
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 503
     name: Torpedo Launcher I
+    volume: 20.0
   Torpedo Launcher II:
     ChargeGroup1: 657
     ChargeGroup3: 89
@@ -413,7 +449,9 @@ items:
     Speed: 14400
     TechLevel: 2
     TypeColorScheme: 11325
+    id: 2420
     name: Torpedo Launcher II
+    volume: 20.0
   True Sansha Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -435,7 +473,9 @@ items:
     Speed: 13950
     TechLevel: 1
     TypeColorScheme: 11349
+    id: 22569
     name: True Sansha Torpedo Launcher
+    volume: 20.0
   Upgraded 'Malkuth' Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -456,7 +496,9 @@ items:
     Speed: 17100
     TechLevel: 1
     TypeColorScheme: 20123
+    id: 8113
     name: Upgraded 'Malkuth' Torpedo Launcher
+    volume: 20.0
   Vepas's Modified Torpedo Launcher:
     ChargeGroup3: 89
     ChargeRate: 1
@@ -478,4 +520,6 @@ items:
     Speed: 10710
     TechLevel: 1
     TypeColorScheme: 11323
+    id: 14682
     name: Vepas's Modified Torpedo Launcher
+    volume: 20.0

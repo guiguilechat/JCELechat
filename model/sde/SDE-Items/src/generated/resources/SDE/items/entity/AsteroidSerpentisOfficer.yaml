@@ -1,9 +1,17 @@
 items:
   Brynn Jerdola:
+    id: 13661
     name: Brynn Jerdola
+    volume: 1010000.0
   Cormack Vaaja:
+    id: 13654
     name: Cormack Vaaja
+    volume: 1140000.0
   Setele Schellan:
+    id: 13667
     name: Setele Schellan
+    volume: 1010000.0
   Tuvan Orth:
+    id: 13659
     name: Tuvan Orth
+    volume: 1140000.0

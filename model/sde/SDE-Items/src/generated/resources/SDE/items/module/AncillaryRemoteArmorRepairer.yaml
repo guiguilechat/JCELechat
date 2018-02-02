@@ -24,7 +24,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41479
     name: Capital Ancillary Remote Armor Repairer
+    volume: 4000.0
   Large Ancillary Remote Armor Repairer:
     ArmorDamageAmount: 290
     CapacitorNeed: 330.0
@@ -48,7 +50,9 @@ items:
     RequiredSkill1Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41478
     name: Large Ancillary Remote Armor Repairer
+    volume: 25.0
   Medium Ancillary Remote Armor Repairer:
     ArmorDamageAmount: 145
     CapacitorNeed: 155.0
@@ -72,7 +76,9 @@ items:
     RequiredSkill1Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41477
     name: Medium Ancillary Remote Armor Repairer
+    volume: 10.0
   Small Ancillary Remote Armor Repairer:
     ArmorDamageAmount: 37
     CapacitorNeed: 38.0
@@ -96,4 +102,6 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41476
     name: Small Ancillary Remote Armor Repairer
+    volume: 5.0

@@ -1,113 +1,225 @@
 items:
   Angel Ship Log 109285473:
+    id: 12340
     name: Angel Ship Log 109285473
+    volume: 0.1
   Angel Ship Log 137863054:
+    id: 12306
     name: Angel Ship Log 137863054
+    volume: 0.1
   Angel Ship Log 141490454:
+    id: 12342
     name: Angel Ship Log 141490454
+    volume: 0.1
   Angel Ship Log 165462566:
+    id: 12339
     name: Angel Ship Log 165462566
+    volume: 0.1
   Angel Ship Log 174132231:
+    id: 12341
     name: Angel Ship Log 174132231
+    volume: 0.1
   Angel Ship Log 303445882:
+    id: 12369
     name: Angel Ship Log 303445882
+    volume: 0.1
   Angel Ship Log 343873495:
+    id: 12370
     name: Angel Ship Log 343873495
+    volume: 0.1
   Angel Ship Log 349584483:
+    id: 12343
     name: Angel Ship Log 349584483
+    volume: 0.1
   Angel Ship Log 516543793:
+    id: 12597
     name: Angel Ship Log 516543793
+    volume: 0.1
   Angel Ship Log 523366291:
+    id: 12371
     name: Angel Ship Log 523366291
+    volume: 0.1
   Angel Ship Log 583225679:
+    id: 12372
     name: Angel Ship Log 583225679
+    volume: 0.1
   Blood Raider Log 114019732:
+    id: 12375
     name: Blood Raider Log 114019732
+    volume: 0.1
   Blood Raider Log 118338758:
+    id: 12374
     name: Blood Raider Log 118338758
+    volume: 0.1
   Blood Raider Log 137393941:
+    id: 12373
     name: Blood Raider Log 137393941
+    volume: 0.1
   Blood Raider Log 167593883:
+    id: 12378
     name: Blood Raider Log 167593883
+    volume: 0.1
   Blood Raider Log 189897223:
+    id: 12377
     name: Blood Raider Log 189897223
+    volume: 0.1
   Blood Raider Log 335499422:
+    id: 12380
     name: Blood Raider Log 335499422
+    volume: 0.1
   Blood Raider Log 389314943:
+    id: 12381
     name: Blood Raider Log 389314943
+    volume: 0.1
   Blood Raider Log 397001231:
+    id: 12379
     name: Blood Raider Log 397001231
+    volume: 0.1
   Blood Raider Log 518719843:
+    id: 12384
     name: Blood Raider Log 518719843
+    volume: 0.1
   Blood Raider Log 533870654:
+    id: 12598
     name: Blood Raider Log 533870654
+    volume: 0.1
   Blood Raider Log 534970023:
+    id: 12382
     name: Blood Raider Log 534970023
+    volume: 0.1
   Encrypted Ship Log:
+    id: 29150
     name: Encrypted Ship Log
+    volume: 1.0
   Guristas Ship Log 108634544:
+    id: 12455
     name: Guristas Ship Log 108634544
+    volume: 0.1
   Guristas Ship Log 119373337:
+    id: 12454
     name: Guristas Ship Log 119373337
+    volume: 0.1
   Guristas Ship Log 125792289:
+    id: 12456
     name: Guristas Ship Log 125792289
+    volume: 0.1
   Guristas Ship Log 175568934:
+    id: 12457
     name: Guristas Ship Log 175568934
+    volume: 0.1
   Guristas Ship Log 180983465:
+    id: 12460
     name: Guristas Ship Log 180983465
+    volume: 0.1
   Guristas Ship Log 312887432:
+    id: 12461
     name: Guristas Ship Log 312887432
+    volume: 0.1
   Guristas Ship Log 365764054:
+    id: 12463
     name: Guristas Ship Log 365764054
+    volume: 0.1
   Guristas Ship Log 398560763:
+    id: 12462
     name: Guristas Ship Log 398560763
+    volume: 0.1
   Guristas Ship Log 524785540:
+    id: 12600
     name: Guristas Ship Log 524785540
+    volume: 0.1
   Guristas Ship Log 534987422:
+    id: 12465
     name: Guristas Ship Log 534987422
+    volume: 0.1
   Guristas Ship Log 573652885:
+    id: 12466
     name: Guristas Ship Log 573652885
+    volume: 0.1
   Sansha Ship Log 104398459:
+    id: 12467
     name: Sansha Ship Log 104398459
+    volume: 0.1
   Sansha Ship Log 112457832:
+    id: 12475
     name: Sansha Ship Log 112457832
+    volume: 0.1
   Sansha Ship Log 136423760:
+    id: 12474
     name: Sansha Ship Log 136423760
+    volume: 0.1
   Sansha Ship Log 148920447:
+    id: 12469
     name: Sansha Ship Log 148920447
+    volume: 0.1
   Sansha Ship Log 187342874:
+    id: 12468
     name: Sansha Ship Log 187342874
+    volume: 0.1
   Sansha Ship Log 309832812:
+    id: 12477
     name: Sansha Ship Log 309832812
+    volume: 0.1
   Sansha Ship Log 322301875:
+    id: 12479
     name: Sansha Ship Log 322301875
+    volume: 0.1
   Sansha Ship Log 363587633:
+    id: 12476
     name: Sansha Ship Log 363587633
+    volume: 0.1
   Sansha Ship Log 500237688:
+    id: 12601
     name: Sansha Ship Log 500237688
+    volume: 0.1
   Sansha Ship Log 549327937:
+    id: 12480
     name: Sansha Ship Log 549327937
+    volume: 0.1
   Sansha Ship Log 566930267:
+    id: 12481
     name: Sansha Ship Log 566930267
+    volume: 0.1
   Serpentis Ship Log 103298223:
+    id: 12447
     name: Serpentis Ship Log 103298223
+    volume: 0.1
   Serpentis Ship Log 12682884:
+    id: 12444
     name: Serpentis Ship Log 12682884
+    volume: 0.1
   Serpentis Ship Log 144391348:
+    id: 12446
     name: Serpentis Ship Log 144391348
+    volume: 0.1
   Serpentis Ship Log 166832001:
+    id: 12448
     name: Serpentis Ship Log 166832001
+    volume: 0.1
   Serpentis Ship Log 187076356:
+    id: 12445
     name: Serpentis Ship Log 187076356
+    volume: 0.1
   Serpentis Ship Log 303248612:
+    id: 12450
     name: Serpentis Ship Log 303248612
+    volume: 0.1
   Serpentis Ship Log 378922371:
+    id: 12451
     name: Serpentis Ship Log 378922371
+    volume: 0.1
   Serpentis Ship Log 381038422:
+    id: 12449
     name: Serpentis Ship Log 381038422
+    volume: 0.1
   Serpentis Ship Log 501163556:
+    id: 12453
     name: Serpentis Ship Log 501163556
+    volume: 0.1
   Serpentis Ship Log 534643764:
+    id: 12452
     name: Serpentis Ship Log 534643764
+    volume: 0.1
   Serpentis Ship Log 598549355:
+    id: 12599
     name: Serpentis Ship Log 598549355
+    volume: 0.1

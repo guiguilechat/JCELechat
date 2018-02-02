@@ -18,7 +18,9 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 1
     UpgradeCost: 100
+    id: 37148
     name: Standup M-Set Drone and Fighter Manufacturing Time Efficiency I
+    volume: 10.0
   Standup M-Set Drone and Fighter Manufacturing Time Efficiency II:
     AttributeEngRigTimeBonus: -24
     CanFitShipGroup01: 1657
@@ -38,4 +40,6 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 37149
     name: Standup M-Set Drone and Fighter Manufacturing Time Efficiency II
+    volume: 10.0

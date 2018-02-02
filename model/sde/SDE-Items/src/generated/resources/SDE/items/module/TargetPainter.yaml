@@ -18,7 +18,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
     TechLevel: 1
+    id: 21540
     name: '''Inception'' Target Painter'
+    volume: 5.0
   Domination Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -38,7 +40,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
     TechLevel: 1
+    id: 32414
     name: Domination Target Painter
+    volume: 5.0
   Parallel Enduring Target Painter:
     CapacitorNeed: 6.0
     Cpu: 20.0
@@ -57,7 +61,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    id: 19812
     name: Parallel Enduring Target Painter
+    volume: 5.0
   Partial Weapon Navigation:
     CapacitorNeed: 10.0
     Duration: 5000.0
@@ -75,7 +81,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 26.25
     TechLevel: 1
+    id: 19808
     name: Partial Weapon Navigation
+    volume: 5.0
   Peripheral Compact Target Painter:
     CapacitorNeed: 10.0
     Cpu: 16.0
@@ -94,7 +102,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    id: 19810
     name: Peripheral Compact Target Painter
+    volume: 5.0
   Phased Scoped Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -113,7 +123,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 27.5
     TechLevel: 1
+    id: 19814
     name: Phased Scoped Target Painter
+    volume: 5.0
   Republic Fleet Target Painter:
     CapacitorNeed: 10.0
     Cpu: 20.0
@@ -133,7 +145,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 33.0
     TechLevel: 1
+    id: 31944
     name: Republic Fleet Target Painter
+    volume: 5.0
   Target Painter I:
     CapacitorNeed: 10.0
     Duration: 5000.0
@@ -150,7 +164,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 25.0
     TechLevel: 1
+    id: 12709
     name: Target Painter I
+    volume: 5.0
   Target Painter II:
     CapacitorNeed: 12.0
     Duration: 5000.0
@@ -168,4 +184,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     SignatureRadiusBonus: 30.0
     TechLevel: 2
+    id: 19806
     name: Target Painter II
+    volume: 5.0

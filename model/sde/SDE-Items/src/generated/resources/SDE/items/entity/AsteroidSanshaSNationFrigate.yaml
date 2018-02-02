@@ -1,39 +1,77 @@
 items:
   Sansha's Butcher:
+    id: 11035
     name: Sansha's Butcher
+    volume: 21120.0
   Sansha's Enslaver:
+    id: 11033
     name: Sansha's Enslaver
+    volume: 21120.0
   Sansha's Loyal Butcher:
+    id: 23365
     name: Sansha's Loyal Butcher
+    volume: 21120.0
   Sansha's Loyal Enslaver:
+    id: 23362
     name: Sansha's Loyal Enslaver
+    volume: 21120.0
   Sansha's Loyal Manslayer:
+    id: 23364
     name: Sansha's Loyal Manslayer
+    volume: 21120.0
   Sansha's Loyal Minion:
+    id: 13047
     name: Sansha's Loyal Minion
+    volume: 21120.0
   Sansha's Loyal Plague:
+    id: 23363
     name: Sansha's Loyal Plague
+    volume: 21120.0
   Sansha's Loyal Ravener:
+    id: 13045
     name: Sansha's Loyal Ravener
+    volume: 21120.0
   Sansha's Loyal Savage:
+    id: 23360
     name: Sansha's Loyal Savage
+    volume: 20000.0
   Sansha's Loyal Scavanger:
+    id: 13046
     name: Sansha's Loyal Scavanger
+    volume: 21120.0
   Sansha's Loyal Servant:
+    id: 13048
     name: Sansha's Loyal Servant
+    volume: 21120.0
   Sansha's Loyal Slavehunter:
+    id: 23361
     name: Sansha's Loyal Slavehunter
+    volume: 20000.0
   Sansha's Minion:
+    id: 10273
     name: Sansha's Minion
+    volume: 20000.0
   Sansha's Plague:
+    id: 10028
     name: Sansha's Plague
+    volume: 21120.0
   Sansha's Ravener:
+    id: 11032
     name: Sansha's Ravener
+    volume: 20000.0
   Sansha's Savage:
+    id: 10027
     name: Sansha's Savage
+    volume: 20000.0
   Sansha's Scavenger:
+    id: 10026
     name: Sansha's Scavenger
+    volume: 20000.0
   Sansha's Servant:
+    id: 10025
     name: Sansha's Servant
+    volume: 21120.0
   Sansha's Slavehunter:
+    id: 11034
     name: Sansha's Slavehunter
+    volume: 21120.0

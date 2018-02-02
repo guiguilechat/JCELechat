@@ -73,7 +73,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
+    id: 17476
     name: Covetor
+    volume: 200000.0
   Procurer:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -150,7 +152,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
+    id: 17480
     name: Procurer
+    volume: 100000.0
   Retriever:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.6587499976158142
@@ -224,4 +228,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
+    id: 17478
     name: Retriever
+    volume: 150000.0

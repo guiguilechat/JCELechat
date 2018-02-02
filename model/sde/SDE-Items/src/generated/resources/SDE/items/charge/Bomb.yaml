@@ -24,7 +24,9 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27912
     name: Concussion Bomb
+    volume: 75.0
   Electron Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -50,7 +52,9 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27920
     name: Electron Bomb
+    volume: 75.0
   Micro Concussion Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -76,7 +80,9 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 41548
     name: Micro Concussion Bomb
+    volume: 10.0
   Micro Electron Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -102,7 +108,9 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 41549
     name: Micro Electron Bomb
+    volume: 10.0
   Micro Scorch Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -128,7 +136,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 640.0
+    id: 41550
     name: Micro Scorch Bomb
+    volume: 10.0
   Micro Shrapnel Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -154,7 +164,9 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 41551
     name: Micro Shrapnel Bomb
+    volume: 10.0
   Scorch Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -180,7 +192,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 6400.0
+    id: 27916
     name: Scorch Bomb
+    volume: 75.0
   Shrapnel Bomb:
     Agility: 0.02753569185733795
     AimedLaunch: 1
@@ -206,4 +220,6 @@ items:
     SignatureRadius: 400
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 27918
     name: Shrapnel Bomb
+    volume: 75.0

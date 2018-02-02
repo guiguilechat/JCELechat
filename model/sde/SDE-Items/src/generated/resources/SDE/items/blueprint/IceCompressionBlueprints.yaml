@@ -1,37 +1,61 @@
 items:
   Compressed Blue Ice Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28494
     name: Compressed Blue Ice Blueprint
+    volume: 0.01
   Compressed Clear Icicle Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28495
     name: Compressed Clear Icicle Blueprint
+    volume: 0.01
   Compressed Dark Glitter Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28496
     name: Compressed Dark Glitter Blueprint
+    volume: 0.01
   Compressed Enriched Clear Icicle Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28497
     name: Compressed Enriched Clear Icicle Blueprint
+    volume: 0.01
   Compressed Gelidus Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28498
     name: Compressed Gelidus Blueprint
+    volume: 0.01
   Compressed Glacial Mass Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28499
     name: Compressed Glacial Mass Blueprint
+    volume: 0.01
   Compressed Glare Crust Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28500
     name: Compressed Glare Crust Blueprint
+    volume: 0.01
   Compressed Krystallos Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28501
     name: Compressed Krystallos Blueprint
+    volume: 0.01
   Compressed Pristine White Glaze Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28502
     name: Compressed Pristine White Glaze Blueprint
+    volume: 0.01
   Compressed Smooth Glacial Mass Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28503
     name: Compressed Smooth Glacial Mass Blueprint
+    volume: 0.01
   Compressed Thick Blue Ice Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28504
     name: Compressed Thick Blue Ice Blueprint
+    volume: 0.01
   Compressed White Glaze Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28505
     name: Compressed White Glaze Blueprint
+    volume: 0.01

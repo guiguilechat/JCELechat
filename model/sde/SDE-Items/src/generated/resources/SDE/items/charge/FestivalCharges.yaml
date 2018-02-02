@@ -14,7 +14,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44261
     name: Angels Arisen Firework
+    volume: 0.1
   Barium Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -30,7 +32,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33572
     name: Barium Firework
+    volume: 0.1
   Barium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -46,7 +50,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 32994
     name: Barium Firework CXIV
+    volume: 0.1
   Blood Dagger Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -62,7 +68,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44262
     name: Blood Dagger Firework
+    volume: 0.1
   Copper Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -78,7 +86,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33573
     name: Copper Firework
+    volume: 0.1
   Copper Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -94,7 +104,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 32995
     name: Copper Firework CXIV
+    volume: 0.1
   Crimson Scythes Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -110,7 +122,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44267
     name: Crimson Scythes Firework
+    volume: 0.1
   Crown Imperial Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -126,7 +140,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44260
     name: Crown Imperial Firework
+    volume: 0.1
   Fangs of the Serpent Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -142,7 +158,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44272
     name: Fangs of the Serpent Firework
+    volume: 0.1
   Flames of the Rebellion Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -158,7 +176,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44270
     name: Flames of the Rebellion Firework
+    volume: 0.1
   Four Freedoms Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -174,7 +194,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44268
     name: Four Freedoms Firework
+    volume: 0.1
   Nation Uplifts Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -190,7 +212,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44271
     name: Nation Uplifts Firework
+    volume: 0.1
   Naughty People Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -206,7 +230,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44269
     name: Naughty People Firework
+    volume: 0.1
   Pulsar Flare Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -222,7 +248,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44264
     name: Pulsar Flare Firework
+    volume: 0.1
   Snowball:
     Agility: 3000.0
     AimedLaunch: 1
@@ -239,7 +267,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: -10.0
+    id: 33569
     name: Snowball
+    volume: 0.1
   Snowball CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -256,7 +286,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: -10.0
+    id: 30221
     name: Snowball CXIV
+    volume: 0.1
   SnowballNewEffect:
     Agility: 3000.0
     AimedLaunch: 1
@@ -271,7 +303,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 24608
     name: SnowballNewEffect
+    volume: 1.0
   Sodium Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -287,7 +321,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33571
     name: Sodium Firework
+    volume: 0.1
   Sodium Firework CXIV:
     Agility: 3000.0
     AimedLaunch: 1
@@ -303,7 +339,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 32993
     name: Sodium Firework CXIV
+    volume: 0.1
   Spacetime Singularity Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -319,7 +357,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44266
     name: Spacetime Singularity Firework
+    volume: 0.1
   Wheel of Prosperity Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -335,7 +375,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44263
     name: Wheel of Prosperity Firework
+    volume: 0.1
   Wings of Victory Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -351,7 +393,9 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44265
     name: Wings of Victory Firework
+    volume: 0.1
   Yoiul Festival Firework:
     Agility: 3000.0
     AimedLaunch: 1
@@ -367,4 +411,6 @@ items:
     SpeedMultiplier: 1.0
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 44110
     name: Yoiul Festival Firework
+    volume: 0.1

@@ -10,7 +10,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20721
     name: Arch Angel Carbonized Lead L
+    volume: 0.025
   Arch Angel Carbonized Lead M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -22,7 +24,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19994
     name: Arch Angel Carbonized Lead M
+    volume: 0.0125
   Arch Angel Carbonized Lead S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -34,7 +38,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19970
     name: Arch Angel Carbonized Lead S
+    volume: 0.0025
   Arch Angel Carbonized Lead XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -46,7 +52,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20737
     name: Arch Angel Carbonized Lead XL
+    volume: 0.125
   Arch Angel Depleted Uranium L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.0
@@ -59,7 +67,9 @@ items:
     ThermalDamage: 13.199999809265137
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20727
     name: Arch Angel Depleted Uranium L
+    volume: 0.025
   Arch Angel Depleted Uranium M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.0
@@ -72,7 +82,9 @@ items:
     ThermalDamage: 6.599999904632568
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20000
     name: Arch Angel Depleted Uranium M
+    volume: 0.0125
   Arch Angel Depleted Uranium S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.0
@@ -85,7 +97,9 @@ items:
     ThermalDamage: 3.299999952316284
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 19976
     name: Arch Angel Depleted Uranium S
+    volume: 0.0025
   Arch Angel Depleted Uranium XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.0
@@ -98,7 +112,9 @@ items:
     ThermalDamage: 26.399999618530273
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20739
     name: Arch Angel Depleted Uranium XL
+    volume: 0.125
   Arch Angel EMP L:
     ChargeSize: 3
     EmDamage: 39.599998474121094
@@ -111,7 +127,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20735
     name: Arch Angel EMP L
+    volume: 0.025
   Arch Angel EMP M:
     ChargeSize: 2
     EmDamage: 19.799999237060547
@@ -124,7 +142,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20008
     name: Arch Angel EMP M
+    volume: 0.0125
   Arch Angel EMP S:
     ChargeSize: 1
     EmDamage: 9.899999618530273
@@ -137,7 +157,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 19992
     name: Arch Angel EMP S
+    volume: 0.0025
   Arch Angel EMP XL:
     ChargeSize: 4
     EmDamage: 79.19999694824219
@@ -150,7 +172,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20741
     name: Arch Angel EMP XL
+    volume: 0.125
   Arch Angel Fusion L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.75
@@ -162,7 +186,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20731
     name: Arch Angel Fusion L
+    volume: 0.025
   Arch Angel Fusion M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.75
@@ -174,7 +200,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20004
     name: Arch Angel Fusion M
+    volume: 0.0125
   Arch Angel Fusion S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.75
@@ -186,7 +214,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 19988
     name: Arch Angel Fusion S
+    volume: 0.0025
   Arch Angel Fusion XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.75
@@ -198,7 +228,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20743
     name: Arch Angel Fusion XL
+    volume: 0.125
   Arch Angel Nuclear L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -210,7 +242,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20723
     name: Arch Angel Nuclear L
+    volume: 0.025
   Arch Angel Nuclear M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -222,7 +256,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19996
     name: Arch Angel Nuclear M
+    volume: 0.0125
   Arch Angel Nuclear S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -234,7 +270,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19972
     name: Arch Angel Nuclear S
+    volume: 0.0025
   Arch Angel Nuclear XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -246,7 +284,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20745
     name: Arch Angel Nuclear XL
+    volume: 0.125
   Arch Angel Phased Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625
@@ -258,7 +298,9 @@ items:
     ThermalDamage: 44.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20733
     name: Arch Angel Phased Plasma L
+    volume: 0.025
   Arch Angel Phased Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.625
@@ -270,7 +312,9 @@ items:
     ThermalDamage: 22.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20006
     name: Arch Angel Phased Plasma M
+    volume: 0.0125
   Arch Angel Phased Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.625
@@ -282,7 +326,9 @@ items:
     ThermalDamage: 11.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 19990
     name: Arch Angel Phased Plasma S
+    volume: 0.0025
   Arch Angel Phased Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.625
@@ -294,7 +340,9 @@ items:
     ThermalDamage: 88.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20747
     name: Arch Angel Phased Plasma XL
+    volume: 0.125
   Arch Angel Proton L:
     ChargeSize: 3
     EmDamage: 13.199999809265137
@@ -306,7 +354,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20725
     name: Arch Angel Proton L
+    volume: 0.025
   Arch Angel Proton M:
     ChargeSize: 2
     EmDamage: 6.599999904632568
@@ -318,7 +368,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19998
     name: Arch Angel Proton M
+    volume: 0.0125
   Arch Angel Proton S:
     ChargeSize: 1
     EmDamage: 3.299999952316284
@@ -330,7 +382,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19974
     name: Arch Angel Proton S
+    volume: 0.0025
   Arch Angel Proton XL:
     ChargeSize: 4
     EmDamage: 26.399999618530273
@@ -342,7 +396,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20749
     name: Arch Angel Proton XL
+    volume: 0.125
   Arch Angel Titanium Sabot L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.875
@@ -354,7 +410,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20729
     name: Arch Angel Titanium Sabot L
+    volume: 0.025
   Arch Angel Titanium Sabot M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.875
@@ -366,7 +424,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20002
     name: Arch Angel Titanium Sabot M
+    volume: 0.0125
   Arch Angel Titanium Sabot S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.875
@@ -378,7 +438,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 19986
     name: Arch Angel Titanium Sabot S
+    volume: 0.0025
   Arch Angel Titanium Sabot XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.875
@@ -390,7 +452,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20751
     name: Arch Angel Titanium Sabot XL
+    volume: 0.125
   Carbonized Lead L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -401,7 +465,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 194
     name: Carbonized Lead L
+    volume: 0.025
   Carbonized Lead M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -412,7 +478,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 186
     name: Carbonized Lead M
+    volume: 0.0125
   Carbonized Lead S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -423,7 +491,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 178
     name: Carbonized Lead S
+    volume: 0.0025
   Carbonized Lead XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -434,7 +504,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 17664
     name: Carbonized Lead XL
+    volume: 0.125
   Depleted Uranium L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.0
@@ -446,7 +518,9 @@ items:
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 197
     name: Depleted Uranium L
+    volume: 0.025
   Depleted Uranium M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.0
@@ -458,7 +532,9 @@ items:
     ThermalDamage: 6.0
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 189
     name: Depleted Uranium M
+    volume: 0.0125
   Depleted Uranium S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.0
@@ -470,7 +546,9 @@ items:
     ThermalDamage: 3.0
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 181
     name: Depleted Uranium S
+    volume: 0.0025
   Depleted Uranium XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.0
@@ -482,7 +560,9 @@ items:
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 17666
     name: Depleted Uranium XL
+    volume: 0.125
   Domination Carbonized Lead L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -494,7 +574,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20785
     name: Domination Carbonized Lead L
+    volume: 0.025
   Domination Carbonized Lead M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -506,7 +588,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20769
     name: Domination Carbonized Lead M
+    volume: 0.0125
   Domination Carbonized Lead S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -518,7 +602,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20753
     name: Domination Carbonized Lead S
+    volume: 0.0025
   Domination Carbonized Lead XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -530,7 +616,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20801
     name: Domination Carbonized Lead XL
+    volume: 0.125
   Domination Depleted Uranium L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.0
@@ -543,7 +631,9 @@ items:
     ThermalDamage: 14.399999618530273
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20791
     name: Domination Depleted Uranium L
+    volume: 0.025
   Domination Depleted Uranium M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.0
@@ -556,7 +646,9 @@ items:
     ThermalDamage: 7.199999809265137
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20775
     name: Domination Depleted Uranium M
+    volume: 0.0125
   Domination Depleted Uranium S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.0
@@ -569,7 +661,9 @@ items:
     ThermalDamage: 3.5999999046325684
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20759
     name: Domination Depleted Uranium S
+    volume: 0.0025
   Domination Depleted Uranium XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.0
@@ -582,7 +676,9 @@ items:
     ThermalDamage: 28.799999237060547
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20803
     name: Domination Depleted Uranium XL
+    volume: 0.125
   Domination EMP L:
     ChargeSize: 3
     EmDamage: 43.20000076293945
@@ -595,7 +691,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20799
     name: Domination EMP L
+    volume: 0.025
   Domination EMP M:
     ChargeSize: 2
     EmDamage: 21.600000381469727
@@ -608,7 +706,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20783
     name: Domination EMP M
+    volume: 0.0125
   Domination EMP S:
     ChargeSize: 1
     EmDamage: 10.800000190734863
@@ -621,7 +721,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20767
     name: Domination EMP S
+    volume: 0.0025
   Domination EMP XL:
     ChargeSize: 4
     EmDamage: 86.4000015258789
@@ -634,7 +736,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20805
     name: Domination EMP XL
+    volume: 0.125
   Domination Fusion L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.75
@@ -646,7 +750,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20795
     name: Domination Fusion L
+    volume: 0.025
   Domination Fusion M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.75
@@ -658,7 +764,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20779
     name: Domination Fusion M
+    volume: 0.0125
   Domination Fusion S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.75
@@ -670,7 +778,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20763
     name: Domination Fusion S
+    volume: 0.0025
   Domination Fusion XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.75
@@ -682,7 +792,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20807
     name: Domination Fusion XL
+    volume: 0.125
   Domination Nuclear L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -694,7 +806,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20787
     name: Domination Nuclear L
+    volume: 0.025
   Domination Nuclear M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -706,7 +820,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20771
     name: Domination Nuclear M
+    volume: 0.0125
   Domination Nuclear S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -718,7 +834,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20755
     name: Domination Nuclear S
+    volume: 0.0025
   Domination Nuclear XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -730,7 +848,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20809
     name: Domination Nuclear XL
+    volume: 0.125
   Domination Phased Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625
@@ -742,7 +862,9 @@ items:
     ThermalDamage: 48.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20797
     name: Domination Phased Plasma L
+    volume: 0.025
   Domination Phased Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.625
@@ -754,7 +876,9 @@ items:
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20781
     name: Domination Phased Plasma M
+    volume: 0.0125
   Domination Phased Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.625
@@ -766,7 +890,9 @@ items:
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20765
     name: Domination Phased Plasma S
+    volume: 0.0025
   Domination Phased Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.625
@@ -778,7 +904,9 @@ items:
     ThermalDamage: 96.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 20811
     name: Domination Phased Plasma XL
+    volume: 0.125
   Domination Proton L:
     ChargeSize: 3
     EmDamage: 14.399999618530273
@@ -790,7 +918,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20789
     name: Domination Proton L
+    volume: 0.025
   Domination Proton M:
     ChargeSize: 2
     EmDamage: 7.199999809265137
@@ -802,7 +932,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20773
     name: Domination Proton M
+    volume: 0.0125
   Domination Proton S:
     ChargeSize: 1
     EmDamage: 3.5999999046325684
@@ -814,7 +946,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20757
     name: Domination Proton S
+    volume: 0.0025
   Domination Proton XL:
     ChargeSize: 4
     EmDamage: 28.799999237060547
@@ -826,7 +960,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20813
     name: Domination Proton XL
+    volume: 0.125
   Domination Titanium Sabot L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.875
@@ -838,7 +974,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20793
     name: Domination Titanium Sabot L
+    volume: 0.025
   Domination Titanium Sabot M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.875
@@ -850,7 +988,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20777
     name: Domination Titanium Sabot M
+    volume: 0.0125
   Domination Titanium Sabot S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.875
@@ -862,7 +1002,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20761
     name: Domination Titanium Sabot S
+    volume: 0.0025
   Domination Titanium Sabot XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.875
@@ -874,7 +1016,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 20815
     name: Domination Titanium Sabot XL
+    volume: 0.125
   EMP L:
     ChargeSize: 3
     EmDamage: 36.0
@@ -886,7 +1030,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 201
     name: EMP L
+    volume: 0.025
   EMP M:
     ChargeSize: 2
     EmDamage: 18.0
@@ -898,7 +1044,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 193
     name: EMP M
+    volume: 0.0125
   EMP S:
     ChargeSize: 1
     EmDamage: 9.0
@@ -910,7 +1058,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 185
     name: EMP S
+    volume: 0.0025
   EMP XL:
     ChargeSize: 4
     EmDamage: 72.0
@@ -922,7 +1072,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 17668
     name: EMP XL
+    volume: 0.125
   Fusion L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.75
@@ -933,7 +1085,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 199
     name: Fusion L
+    volume: 0.025
   Fusion M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.75
@@ -944,7 +1098,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 191
     name: Fusion M
+    volume: 0.0125
   Fusion S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.75
@@ -955,7 +1111,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 183
     name: Fusion S
+    volume: 0.0025
   Fusion XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.75
@@ -966,7 +1124,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 17670
     name: Fusion XL
+    volume: 0.125
   Nuclear L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -977,7 +1137,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 195
     name: Nuclear L
+    volume: 0.025
   Nuclear M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -988,7 +1150,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 187
     name: Nuclear M
+    volume: 0.0125
   Nuclear S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -999,7 +1163,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 179
     name: Nuclear S
+    volume: 0.0025
   Nuclear XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -1010,7 +1176,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 17672
     name: Nuclear XL
+    volume: 0.125
   Orbital EMP S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -1019,7 +1187,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 32801
     name: Orbital EMP S
+    volume: 0.0025
   Phased Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625
@@ -1030,7 +1200,9 @@ items:
     ThermalDamage: 40.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 200
     name: Phased Plasma L
+    volume: 0.025
   Phased Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.625
@@ -1041,7 +1213,9 @@ items:
     ThermalDamage: 20.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 192
     name: Phased Plasma M
+    volume: 0.0125
   Phased Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.625
@@ -1052,7 +1226,9 @@ items:
     ThermalDamage: 10.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 184
     name: Phased Plasma S
+    volume: 0.0025
   Phased Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.625
@@ -1063,7 +1239,9 @@ items:
     ThermalDamage: 80.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 17674
     name: Phased Plasma XL
+    volume: 0.125
   Proton L:
     ChargeSize: 3
     EmDamage: 12.0
@@ -1074,7 +1252,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 196
     name: Proton L
+    volume: 0.025
   Proton M:
     ChargeSize: 2
     EmDamage: 6.0
@@ -1085,7 +1265,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 188
     name: Proton M
+    volume: 0.0125
   Proton S:
     ChargeSize: 1
     EmDamage: 3.0
@@ -1096,7 +1278,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 180
     name: Proton S
+    volume: 0.0025
   Proton XL:
     ChargeSize: 4
     EmDamage: 24.0
@@ -1107,7 +1291,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 17676
     name: Proton XL
+    volume: 0.125
   Republic Fleet Carbonized Lead L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -1119,7 +1305,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 28324
     name: Republic Fleet Carbonized Lead L
+    volume: 0.025
   Republic Fleet Carbonized Lead M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -1131,7 +1319,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 28326
     name: Republic Fleet Carbonized Lead M
+    volume: 0.0125
   Republic Fleet Carbonized Lead S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -1143,7 +1333,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 28328
     name: Republic Fleet Carbonized Lead S
+    volume: 0.0025
   Republic Fleet Carbonized Lead XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.600000023841858
@@ -1155,7 +1347,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 28330
     name: Republic Fleet Carbonized Lead XL
+    volume: 0.125
   Republic Fleet Depleted Uranium L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.0
@@ -1168,7 +1362,9 @@ items:
     ThermalDamage: 13.800000190734863
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 28332
     name: Republic Fleet Depleted Uranium L
+    volume: 0.025
   Republic Fleet Depleted Uranium M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.0
@@ -1181,7 +1377,9 @@ items:
     ThermalDamage: 6.900000095367432
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 28334
     name: Republic Fleet Depleted Uranium M
+    volume: 0.0125
   Republic Fleet Depleted Uranium S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.0
@@ -1194,7 +1392,9 @@ items:
     ThermalDamage: 3.450000047683716
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 28336
     name: Republic Fleet Depleted Uranium S
+    volume: 0.0025
   Republic Fleet Depleted Uranium XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.0
@@ -1207,7 +1407,9 @@ items:
     ThermalDamage: 27.600000381469727
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 28338
     name: Republic Fleet Depleted Uranium XL
+    volume: 0.125
   Republic Fleet EMP L:
     ChargeSize: 3
     EmDamage: 41.400001525878906
@@ -1220,7 +1422,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21894
     name: Republic Fleet EMP L
+    volume: 0.025
   Republic Fleet EMP M:
     ChargeSize: 2
     EmDamage: 20.700000762939453
@@ -1233,7 +1437,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21896
     name: Republic Fleet EMP M
+    volume: 0.0125
   Republic Fleet EMP S:
     ChargeSize: 1
     EmDamage: 10.350000381469727
@@ -1246,7 +1452,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21898
     name: Republic Fleet EMP S
+    volume: 0.0025
   Republic Fleet EMP XL:
     ChargeSize: 4
     EmDamage: 82.80000305175781
@@ -1259,7 +1467,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21900
     name: Republic Fleet EMP XL
+    volume: 0.125
   Republic Fleet Fusion L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.75
@@ -1271,7 +1481,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21902
     name: Republic Fleet Fusion L
+    volume: 0.025
   Republic Fleet Fusion M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.75
@@ -1283,7 +1495,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21904
     name: Republic Fleet Fusion M
+    volume: 0.0125
   Republic Fleet Fusion S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.75
@@ -1295,7 +1509,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21906
     name: Republic Fleet Fusion S
+    volume: 0.0025
   Republic Fleet Fusion XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.75
@@ -1307,7 +1523,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21908
     name: Republic Fleet Fusion XL
+    volume: 0.125
   Republic Fleet Nuclear L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -1319,7 +1537,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21910
     name: Republic Fleet Nuclear L
+    volume: 0.025
   Republic Fleet Nuclear M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -1331,7 +1551,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21912
     name: Republic Fleet Nuclear M
+    volume: 0.0125
   Republic Fleet Nuclear S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -1343,7 +1565,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21914
     name: Republic Fleet Nuclear S
+    volume: 0.0025
   Republic Fleet Nuclear XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 1.399999976158142
@@ -1355,7 +1579,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21916
     name: Republic Fleet Nuclear XL
+    volume: 0.125
   Republic Fleet Phased Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625
@@ -1367,7 +1593,9 @@ items:
     ThermalDamage: 46.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21918
     name: Republic Fleet Phased Plasma L
+    volume: 0.025
   Republic Fleet Phased Plasma M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.625
@@ -1379,7 +1607,9 @@ items:
     ThermalDamage: 23.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21922
     name: Republic Fleet Phased Plasma M
+    volume: 0.0125
   Republic Fleet Phased Plasma S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.625
@@ -1391,7 +1621,9 @@ items:
     ThermalDamage: 11.5
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21924
     name: Republic Fleet Phased Plasma S
+    volume: 0.0025
   Republic Fleet Phased Plasma XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.625
@@ -1403,7 +1635,9 @@ items:
     ThermalDamage: 92.0
     TrackingSpeedMultiplier: 1.0
     WeaponRangeMultiplier: 0.5
+    id: 21920
     name: Republic Fleet Phased Plasma XL
+    volume: 0.125
   Republic Fleet Proton L:
     ChargeSize: 3
     EmDamage: 13.800000190734863
@@ -1415,7 +1649,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21926
     name: Republic Fleet Proton L
+    volume: 0.025
   Republic Fleet Proton M:
     ChargeSize: 2
     EmDamage: 6.900000095367432
@@ -1427,7 +1663,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21928
     name: Republic Fleet Proton M
+    volume: 0.0125
   Republic Fleet Proton S:
     ChargeSize: 1
     EmDamage: 3.450000047683716
@@ -1439,7 +1677,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21931
     name: Republic Fleet Proton S
+    volume: 0.0025
   Republic Fleet Proton XL:
     ChargeSize: 4
     EmDamage: 27.600000381469727
@@ -1451,7 +1691,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0499999523162842
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21933
     name: Republic Fleet Proton XL
+    volume: 0.125
   Republic Fleet Titanium Sabot L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.875
@@ -1463,7 +1705,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 21935
     name: Republic Fleet Titanium Sabot L
+    volume: 0.025
   Republic Fleet Titanium Sabot M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.875
@@ -1475,7 +1719,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 21937
     name: Republic Fleet Titanium Sabot M
+    volume: 0.0125
   Republic Fleet Titanium Sabot S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.875
@@ -1487,7 +1733,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 21939
     name: Republic Fleet Titanium Sabot S
+    volume: 0.0025
   Republic Fleet Titanium Sabot XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.875
@@ -1499,7 +1747,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 21941
     name: Republic Fleet Titanium Sabot XL
+    volume: 0.125
   Titanium Sabot L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.875
@@ -1510,7 +1760,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 198
     name: Titanium Sabot L
+    volume: 0.025
   Titanium Sabot M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.875
@@ -1521,7 +1773,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 190
     name: Titanium Sabot M
+    volume: 0.0125
   Titanium Sabot S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.875
@@ -1532,7 +1786,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 182
     name: Titanium Sabot S
+    volume: 0.0025
   Titanium Sabot XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.875
@@ -1543,4 +1799,6 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.2000000476837158
     WeaponRangeMultiplier: 1.0
+    id: 17678
     name: Titanium Sabot XL
+    volume: 0.125

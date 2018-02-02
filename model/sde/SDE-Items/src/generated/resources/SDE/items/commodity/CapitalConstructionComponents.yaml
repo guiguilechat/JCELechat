@@ -1,58 +1,96 @@
 items:
   Capital Armor Plates:
     MoonMiningAmount: 100
+    id: 21017
     name: Capital Armor Plates
+    volume: 10000.0
   Capital Capacitor Battery:
     MoonMiningAmount: 100
+    id: 21019
     name: Capital Capacitor Battery
+    volume: 10000.0
   Capital Cargo Bay:
     MoonMiningAmount: 100
+    id: 21027
     name: Capital Cargo Bay
+    volume: 10000.0
   Capital Clone Vat Bay:
     MoonMiningAmount: 100
+    id: 24547
     name: Capital Clone Vat Bay
+    volume: 10000.0
   Capital Computer System:
     MoonMiningAmount: 100
+    id: 21035
     name: Capital Computer System
+    volume: 10000.0
   Capital Construction Parts:
     MoonMiningAmount: 100
+    id: 21037
     name: Capital Construction Parts
+    volume: 10000.0
   Capital Corporate Hangar Bay:
     MoonMiningAmount: 100
+    id: 24560
     name: Capital Corporate Hangar Bay
+    volume: 10000.0
   Capital Doomsday Weapon Mount:
     MoonMiningAmount: 100
+    id: 24556
     name: Capital Doomsday Weapon Mount
+    volume: 10000.0
   Capital Drone Bay:
     MoonMiningAmount: 100
+    id: 21029
     name: Capital Drone Bay
+    volume: 10000.0
   Capital Jump Bridge Array:
     MoonMiningAmount: 100
+    id: 24545
     name: Capital Jump Bridge Array
+    volume: 10000.0
   Capital Jump Drive:
     MoonMiningAmount: 100
+    id: 21025
     name: Capital Jump Drive
+    volume: 10000.0
   Capital Launcher Hardpoint:
     MoonMiningAmount: 100
+    id: 21041
     name: Capital Launcher Hardpoint
+    volume: 10000.0
   Capital Power Generator:
     MoonMiningAmount: 100
+    id: 21021
     name: Capital Power Generator
+    volume: 10000.0
   Capital Propulsion Engine:
     MoonMiningAmount: 100
+    id: 21009
     name: Capital Propulsion Engine
+    volume: 10000.0
   Capital Sensor Cluster:
     MoonMiningAmount: 100
+    id: 21013
     name: Capital Sensor Cluster
+    volume: 10000.0
   Capital Shield Emitter:
     MoonMiningAmount: 100
+    id: 21023
     name: Capital Shield Emitter
+    volume: 10000.0
   Capital Ship Maintenance Bay:
     MoonMiningAmount: 100
+    id: 24558
     name: Capital Ship Maintenance Bay
+    volume: 10000.0
   Capital Siege Array:
     MoonMiningAmount: 100
+    id: 21039
     name: Capital Siege Array
+    volume: 10000.0
   Capital Turret Hardpoint:
     MoonMiningAmount: 100
+    id: 21011
     name: Capital Turret Hardpoint
+    volume: 10000.0

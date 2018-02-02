@@ -1,49 +1,81 @@
 items:
   Electromechanical Interface Nexus:
     MoonMiningAmount: 100
+    id: 30466
     name: Electromechanical Interface Nexus
+    volume: 10.0
   Emergent Neurovisual Interface:
     MoonMiningAmount: 100
+    id: 29996
     name: Emergent Neurovisual Interface
+    volume: 20.0
   Fullerene Intercalated Sheets:
     MoonMiningAmount: 100
+    id: 30002
     name: Fullerene Intercalated Sheets
+    volume: 5.0
   Fulleroferrocene Power Conduits:
     MoonMiningAmount: 100
+    id: 30476
     name: Fulleroferrocene Power Conduits
+    volume: 5.0
   Metallofullerene Plating:
     MoonMiningAmount: 100
+    id: 30464
     name: Metallofullerene Plating
+    volume: 5.0
   Nanowire Composites:
     MoonMiningAmount: 100
+    id: 30474
     name: Nanowire Composites
+    volume: 5.0
   Neurovisual Output Analyzer:
     MoonMiningAmount: 100
+    id: 30470
     name: Neurovisual Output Analyzer
+    volume: 5.0
   Optimized Nano-Engines:
     MoonMiningAmount: 100
+    id: 29992
     name: Optimized Nano-Engines
+    volume: 10.0
   Reconfigured Subspace Calibrator:
     MoonMiningAmount: 100
+    id: 30478
     name: Reconfigured Subspace Calibrator
+    volume: 10.0
   Reinforced Metallofullerene Alloys:
     MoonMiningAmount: 100
+    id: 30008
     name: Reinforced Metallofullerene Alloys
+    volume: 10.0
   Self-Assembling Nanolattice:
     MoonMiningAmount: 100
+    id: 34396
     name: Self-Assembling Nanolattice
+    volume: 5.0
   Superconducting Gravimetric Amplifier:
     MoonMiningAmount: 1
+    id: 45653
     name: Superconducting Gravimetric Amplifier
+    volume: 5.0
   Superconducting Ladar Amplifier:
     MoonMiningAmount: 1
+    id: 45655
     name: Superconducting Ladar Amplifier
+    volume: 5.0
   Superconducting Magnetometric Amplifier:
     MoonMiningAmount: 1
+    id: 45652
     name: Superconducting Magnetometric Amplifier
+    volume: 5.0
   Superconducting Radar Amplifier:
     MoonMiningAmount: 1
+    id: 45654
     name: Superconducting Radar Amplifier
+    volume: 5.0
   Warfare Computation Core:
     MoonMiningAmount: 100
+    id: 29994
     name: Warfare Computation Core
+    volume: 10.0

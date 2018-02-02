@@ -12,4 +12,6 @@ items:
     Slots: 1
     Speed: 3000
     StructureItemVisualFlag: 1
+    id: 35922
     name: Standup ASML Missile Launcher I
+    volume: 4000.0

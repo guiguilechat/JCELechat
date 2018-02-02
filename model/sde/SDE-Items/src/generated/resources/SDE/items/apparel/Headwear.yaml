@@ -1,211 +1,351 @@
 items:
   Beret Female Concord:
     Gender: 2
+    id: 42737
     name: Beret Female Concord
+    volume: 0.1
   Beret Male Concord:
     Gender: 2
+    id: 42724
     name: Beret Male Concord
+    volume: 0.1
   Cap Female Amarr:
     Gender: 2
+    id: 42725
     name: Cap Female Amarr
+    volume: 0.1
   Cap Female Black/White:
     Gender: 2
+    id: 42716
     name: Cap Female Black/White
+    volume: 0.1
   Cap Female Caldari:
     Gender: 2
+    id: 42720
     name: Cap Female Caldari
+    volume: 0.1
   Cap Female Concord:
     Gender: 2
+    id: 42742
     name: Cap Female Concord
+    volume: 0.1
   Cap Female Gallente:
     Gender: 2
+    id: 42745
     name: Cap Female Gallente
+    volume: 0.1
   Cap Female Green:
     Gender: 2
+    id: 42727
     name: Cap Female Green
+    volume: 0.1
   Cap Female Guristas:
     Gender: 2
+    id: 42722
     name: Cap Female Guristas
+    volume: 0.1
   Cap Female Minmatar:
     Gender: 2
+    id: 42715
     name: Cap Female Minmatar
+    volume: 0.1
   Cap Female Orange:
     Gender: 2
+    id: 42735
     name: Cap Female Orange
+    volume: 0.1
   Cap Male Amarr:
     Gender: 2
+    id: 42728
     name: Cap Male Amarr
+    volume: 0.1
   Cap Male Caldari:
     Gender: 2
+    id: 42731
     name: Cap Male Caldari
+    volume: 0.1
   Cap Male Green:
     Gender: 2
+    id: 42711
     name: Cap Male Green
+    volume: 0.1
   Cap Male Guristas:
     Gender: 2
+    id: 42743
     name: Cap Male Guristas
+    volume: 0.1
   Cap Male Minmatar:
     Gender: 2
+    id: 42730
     name: Cap Male Minmatar
+    volume: 0.1
   Cap Male Orange:
     Gender: 2
+    id: 42713
     name: Cap Male Orange
+    volume: 0.1
   Cap Male White/Black:
     Gender: 2
+    id: 42714
     name: Cap Male White/Black
+    volume: 0.1
   Concord Cap Male:
     Gender: 2
+    id: 42719
     name: Concord Cap Male
+    volume: 0.1
   Curly Shoulder Length:
     Gender: 3
+    id: 4088
     name: Curly Shoulder Length
+    volume: 0.1
   Gallente Cap Male:
     Gender: 2
+    id: 42710
     name: Gallente Cap Male
+    volume: 0.1
   Hair_Stubble_01:
     Gender: 1
+    id: 4096
     name: Hair_Stubble_01
+    volume: 0.1
   Men's 'Boarder' Cap (Digital Camo):
     Gender: 1
+    id: 42732
     name: Men's 'Boarder' Cap (Digital Camo)
+    volume: 0.1
   Men's 'Dread' Beret (Guristas):
     Gender: 1
+    id: 42699
     name: Men's 'Dread' Beret (Guristas)
+    volume: 0.1
   Men's 'Nova' Headwear (black):
     Gender: 1
+    id: 34056
     name: Men's 'Nova' Headwear (black)
+    volume: 0.1
   Men's 'Nova' Headwear (bronze):
     Gender: 1
+    id: 34061
     name: Men's 'Nova' Headwear (bronze)
+    volume: 0.1
   Men's 'Nova' Headwear (gold):
     Gender: 1
+    id: 34060
     name: Men's 'Nova' Headwear (gold)
+    volume: 0.1
   Men's 'Nova' Headwear (silver):
     Gender: 1
+    id: 34059
     name: Men's 'Nova' Headwear (silver)
+    volume: 0.1
   Men's 'Pithum' Beret (Guristas):
     Gender: 1
+    id: 42721
     name: Men's 'Pithum' Beret (Guristas)
+    volume: 0.1
   Men's 'Sable' Cap (Black):
     Gender: 2
+    id: 42723
     name: Men's 'Sable' Cap (Black)
+    volume: 0.1
   Men's 'Tectonic' Headwear (matte black):
     Gender: 1
+    id: 34057
     name: Men's 'Tectonic' Headwear (matte black)
+    volume: 0.1
   Men's 'Tectonic' Headwear (metal):
     Gender: 1
+    id: 34062
     name: Men's 'Tectonic' Headwear (metal)
+    volume: 0.1
   Men's 'Tectonic' Headwear (shiny black):
     Gender: 1
+    id: 34063
     name: Men's 'Tectonic' Headwear (shiny black)
+    volume: 0.1
   Men's 'Tectonic' Headwear (white):
     Gender: 1
+    id: 34058
     name: Men's 'Tectonic' Headwear (white)
+    volume: 0.1
   Men's Beret (Blood Raiders):
     Gender: 1
+    id: 42708
     name: Men's Beret (Blood Raiders)
+    volume: 0.1
   Men's Cap (Blood Raiders):
     Gender: 1
+    id: 42726
     name: Men's Cap (Blood Raiders)
+    volume: 0.1
   Men's Exoplanets Hunter Cap:
     Gender: 2
+    id: 45740
     name: Men's Exoplanets Hunter Cap
+    volume: 0.1
   Men's YC119 Yoiul Festival Cap:
     Gender: 2
+    id: 44125
     name: Men's YC119 Yoiul Festival Cap
+    volume: 0.1
   Men's ‘Defender’ Beret (Gallente Federation):
     Gender: 1
+    id: 42739
     name: Men's ‘Defender’ Beret (Gallente Federation)
+    volume: 0.1
   Men's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 1
+    id: 42712
     name: Men's ‘Liberator’ Beret (Minmatar Republic)
+    volume: 0.1
   Men's ‘Protector’ Beret (Caldari State):
     Gender: 1
+    id: 42736
     name: Men's ‘Protector’ Beret (Caldari State)
+    volume: 0.1
   Men’s ‘Crusader’ Beret (Amarr Empire):
     Gender: 1
+    id: 42741
     name: Men’s ‘Crusader’ Beret (Amarr Empire)
+    volume: 0.1
   Short Pixie Hair:
     Gender: 3
+    id: 4086
     name: Short Pixie Hair
+    volume: 0.1
   Women's 'Aeriform' Headwear (black):
     Gender: 3
+    id: 34078
     name: Women's 'Aeriform' Headwear (black)
+    volume: 0.1
   Women's 'Aeriform' Headwear (blue):
     Gender: 3
+    id: 34066
     name: Women's 'Aeriform' Headwear (blue)
+    volume: 0.1
   Women's 'Aeriform' Headwear (clear):
     Gender: 3
+    id: 34076
     name: Women's 'Aeriform' Headwear (clear)
+    volume: 0.1
   Women's 'Aeriform' Headwear (cyan):
     Gender: 3
+    id: 34064
     name: Women's 'Aeriform' Headwear (cyan)
+    volume: 0.1
   Women's 'Aeriform' Headwear (orange):
     Gender: 3
+    id: 34070
     name: Women's 'Aeriform' Headwear (orange)
+    volume: 0.1
   Women's 'Blades' Headwear (black):
     Gender: 3
+    id: 34071
     name: Women's 'Blades' Headwear (black)
+    volume: 0.1
   Women's 'Blades' Headwear (gold):
     Gender: 3
+    id: 34069
     name: Women's 'Blades' Headwear (gold)
+    volume: 0.1
   Women's 'Blades' Headwear (gunmetal):
     Gender: 3
+    id: 34065
     name: Women's 'Blades' Headwear (gunmetal)
+    volume: 0.1
   Women's 'Blades' Headwear (jade):
     Gender: 3
+    id: 34074
     name: Women's 'Blades' Headwear (jade)
+    volume: 0.1
   Women's 'Blades' Headwear (platinum):
     Gender: 3
+    id: 34067
     name: Women's 'Blades' Headwear (platinum)
+    volume: 0.1
   Women's 'Boarder' Cap (Digital Camo):
     Gender: 3
+    id: 42729
     name: Women's 'Boarder' Cap (Digital Camo)
+    volume: 0.1
   Women's 'Crusader' Beret (Amarr Empire):
     Gender: 3
+    id: 42744
     name: Women's 'Crusader' Beret (Amarr Empire)
+    volume: 0.1
   Women's 'Dread' Beret (Guristas):
     Gender: 3
+    id: 42698
     name: Women's 'Dread' Beret (Guristas)
+    volume: 0.1
   Women's 'Pithum' Beret (Guristas):
     Gender: 3
+    id: 42717
     name: Women's 'Pithum' Beret (Guristas)
+    volume: 0.1
   Women's 'Sable' Cap (Black):
     Gender: 2
+    id: 42734
     name: Women's 'Sable' Cap (Black)
+    volume: 0.1
   Women's 'Spiderweb' Headwear (black):
     Gender: 3
+    id: 34068
     name: Women's 'Spiderweb' Headwear (black)
+    volume: 0.1
   Women's 'Spiderweb' Headwear (copper):
     Gender: 3
+    id: 34072
     name: Women's 'Spiderweb' Headwear (copper)
+    volume: 0.1
   Women's 'Spiderweb' Headwear (golden):
     Gender: 3
+    id: 34077
     name: Women's 'Spiderweb' Headwear (golden)
+    volume: 0.1
   Women's 'Spiderweb' Headwear (metallic):
     Gender: 3
+    id: 34073
     name: Women's 'Spiderweb' Headwear (metallic)
+    volume: 0.1
   Women's Beret (Blood Raiders):
     Gender: 3
+    id: 42733
     name: Women's Beret (Blood Raiders)
+    volume: 0.1
   Women's Cap (Blood Raiders):
     Gender: 3
+    id: 42718
     name: Women's Cap (Blood Raiders)
+    volume: 0.1
   Women's Exoplanets Hunter Cap:
     Gender: 2
+    id: 45739
     name: Women's Exoplanets Hunter Cap
+    volume: 0.1
   Women's YC119 Yoiul Festival Cap:
     Gender: 2
+    id: 44122
     name: Women's YC119 Yoiul Festival Cap
+    volume: 0.1
   Women's ‘Defender’ Beret (Gallente Federation):
     Gender: 3
+    id: 42709
     name: Women's ‘Defender’ Beret (Gallente Federation)
+    volume: 0.1
   Women's ‘Liberator’ Beret (Minmatar Republic):
     Gender: 3
+    id: 42738
     name: Women's ‘Liberator’ Beret (Minmatar Republic)
+    volume: 0.1
   Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
+    id: 42740
     name: Women's ‘Protector’ Beret (Caldari State)
+    volume: 0.1
   hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type:
     Gender: 3
+    id: 34075
     name: hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type
+    volume: 0.1

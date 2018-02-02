@@ -31,4 +31,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 60000
     Uniformity: 1.0
+    id: 27674
     name: Cynosural System Jammer
+    volume: 4000.0

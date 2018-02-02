@@ -19,4 +19,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     ScanResolutionMultiplier: 0.75
     TechLevel: 1
+    id: 4409
     name: Target Spectrum Breaker
+    volume: 5.0

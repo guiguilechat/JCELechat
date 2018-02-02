@@ -27,7 +27,9 @@ items:
     WarfareBuff3Value: 15.0
     WarfareBuff4ID: 51
     WarfareBuff4Value: -10.0
+    id: 43658
     name: Amarr Phenomena Generator
+    volume: 8000.0
   Caldari Phenomena Generator:
     BuffDuration: 300000
     CanFitShipType1: 3764
@@ -56,7 +58,9 @@ items:
     WarfareBuff3Value: 15.0
     WarfareBuff4ID: 53
     WarfareBuff4Value: -10.0
+    id: 43660
     name: Caldari Phenomena Generator
+    volume: 8000.0
   Gallente Phenomena Generator:
     BuffDuration: 300000
     CanFitShipType1: 671
@@ -86,7 +90,9 @@ items:
     WarfareBuff3Value: 15.0
     WarfareBuff4ID: 52
     WarfareBuff4Value: -10.0
+    id: 43662
     name: Gallente Phenomena Generator
+    volume: 8000.0
   Minmatar Phenomena Generator:
     BuffDuration: 300000
     CanFitShipType1: 23773
@@ -116,4 +122,6 @@ items:
     WarfareBuff3Value: 15.0
     WarfareBuff4ID: 54
     WarfareBuff4Value: -10.0
+    id: 43664
     name: Minmatar Phenomena Generator
+    volume: 8000.0

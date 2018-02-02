@@ -1,46 +1,76 @@
 items:
   Crystalline Carbonide:
     MoonMiningAmount: 10000
+    id: 16670
     name: Crystalline Carbonide
+    volume: 0.01
   Fermionic Condensates:
     MoonMiningAmount: 200
+    id: 17317
     name: Fermionic Condensates
+    volume: 1.3
   Fernite Carbide:
     MoonMiningAmount: 10000
+    id: 16673
     name: Fernite Carbide
+    volume: 0.01
   Ferrogel:
     MoonMiningAmount: 400
+    id: 16683
     name: Ferrogel
+    volume: 1.0
   Fullerides:
     MoonMiningAmount: 3000
+    id: 16679
     name: Fullerides
+    volume: 0.15
   Hypersynaptic Fibers:
     MoonMiningAmount: 750
+    id: 16682
     name: Hypersynaptic Fibers
+    volume: 0.6
   Nanotransistors:
     MoonMiningAmount: 1500
+    id: 16681
     name: Nanotransistors
+    volume: 0.25
   Nonlinear Metamaterials:
     MoonMiningAmount: 300
+    id: 33362
     name: Nonlinear Metamaterials
+    volume: 1.0
   Phenolic Composites:
     MoonMiningAmount: 2200
+    id: 16680
     name: Phenolic Composites
+    volume: 0.2
   Photonic Metamaterials:
     MoonMiningAmount: 300
+    id: 33359
     name: Photonic Metamaterials
+    volume: 1.0
   Plasmonic Metamaterials:
     MoonMiningAmount: 300
+    id: 33361
     name: Plasmonic Metamaterials
+    volume: 1.0
   Sylramic Fibers:
     MoonMiningAmount: 6000
+    id: 16678
     name: Sylramic Fibers
+    volume: 0.05
   Terahertz Metamaterials:
     MoonMiningAmount: 300
+    id: 33360
     name: Terahertz Metamaterials
+    volume: 1.0
   Titanium Carbide:
     MoonMiningAmount: 10000
+    id: 16671
     name: Titanium Carbide
+    volume: 0.01
   Tungsten Carbide:
     MoonMiningAmount: 10000
+    id: 16672
     name: Tungsten Carbide
+    volume: 0.01

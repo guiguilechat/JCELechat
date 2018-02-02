@@ -1,46 +1,76 @@
 items:
   Structure Acceleration Coils:
     MoonMiningAmount: 1
+    id: 36957
     name: Structure Acceleration Coils
+    volume: 3000.0
   Structure Advertisement Nexus:
     MoonMiningAmount: 1
+    id: 36958
     name: Structure Advertisement Nexus
+    volume: 3000.0
   Structure Construction Parts:
     MoonMiningAmount: 100
+    id: 21947
     name: Structure Construction Parts
+    volume: 3000.0
   Structure Docking Bay:
     MoonMiningAmount: 100
+    id: 21961
     name: Structure Docking Bay
+    volume: 3000.0
   Structure Electromagnetic Sensor:
     MoonMiningAmount: 1
+    id: 36956
     name: Structure Electromagnetic Sensor
+    volume: 3000.0
   Structure Factory:
     MoonMiningAmount: 100
+    id: 21955
     name: Structure Factory
+    volume: 3000.0
   Structure Hangar Array:
     MoonMiningAmount: 100
+    id: 21949
     name: Structure Hangar Array
+    volume: 3000.0
   Structure Laboratory:
     MoonMiningAmount: 100
+    id: 21953
     name: Structure Laboratory
+    volume: 3000.0
   Structure Market Network:
     MoonMiningAmount: 100
+    id: 21963
     name: Structure Market Network
+    volume: 3000.0
   Structure Medical Center:
     MoonMiningAmount: 100
+    id: 21965
     name: Structure Medical Center
+    volume: 3000.0
   Structure Mission Network:
     MoonMiningAmount: 100
+    id: 21969
     name: Structure Mission Network
+    volume: 3000.0
   Structure Office Center:
     MoonMiningAmount: 100
+    id: 21967
     name: Structure Office Center
+    volume: 3000.0
   Structure Repair Facility:
     MoonMiningAmount: 100
+    id: 21957
     name: Structure Repair Facility
+    volume: 3000.0
   Structure Reprocessing Plant:
     MoonMiningAmount: 100
+    id: 21959
     name: Structure Reprocessing Plant
+    volume: 3000.0
   Structure Storage Bay:
     MoonMiningAmount: 100
+    id: 21951
     name: Structure Storage Bay
+    volume: 3000.0

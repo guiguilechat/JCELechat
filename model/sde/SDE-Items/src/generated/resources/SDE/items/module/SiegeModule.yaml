@@ -48,7 +48,9 @@ items:
     TargetPainterResistanceBonus: -95
     TechLevel: 1
     WeaponDisruptionResistanceBonus: -99.9999008178711
+    id: 33400
     name: Bastion Module I
+    volume: 200.0
   Industrial Core I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -97,7 +99,9 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 28583
     name: Industrial Core I
+    volume: 4000.0
   Industrial Core II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -148,7 +152,9 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 2
+    id: 42890
     name: Industrial Core II
+    volume: 4000.0
   Siege Module I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -193,7 +199,9 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     WeaponDisruptionResistanceBonus: -60.0
+    id: 20280
     name: Siege Module I
+    volume: 4000.0
   Siege Module II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -239,7 +247,9 @@ items:
     SpeedFactor: -100.0
     TechLevel: 2
     WeaponDisruptionResistanceBonus: -70.0
+    id: 4292
     name: Siege Module II
+    volume: 4000.0
   Triage Module I:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -286,7 +296,9 @@ items:
     SiegeRemoteLogisticsRangeBonus: 200
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 27951
     name: Triage Module I
+    volume: 4000.0
   Triage Module II:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -333,4 +345,6 @@ items:
     SiegeRemoteLogisticsRangeBonus: 200
     SpeedFactor: -100.0
     TechLevel: 2
+    id: 4294
     name: Triage Module II
+    volume: 4000.0

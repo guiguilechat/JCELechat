@@ -25,7 +25,9 @@ items:
     TechLevel: 2
     ThermalDamage: 116.0
     ThermalDamageResonance: 0.800000011920929
+    id: 24499
     name: Inferno Fury Light Missile
+    volume: 0.015
   Inferno Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -52,7 +54,9 @@ items:
     TechLevel: 2
     ThermalDamage: 83.0
     ThermalDamageResonance: 0.800000011920929
+    id: 2647
     name: Inferno Precision Light Missile
+    volume: 0.015
   Mjolnir Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -79,7 +83,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 2613
     name: Mjolnir Fury Light Missile
+    volume: 0.015
   Mjolnir Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -106,7 +112,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24505
     name: Mjolnir Precision Light Missile
+    volume: 0.015
   Nova Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -133,7 +141,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24497
     name: Nova Fury Light Missile
+    volume: 0.015
   Nova Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -160,7 +170,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24503
     name: Nova Precision Light Missile
+    volume: 0.015
   Scourge Fury Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -187,7 +199,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24495
     name: Scourge Fury Light Missile
+    volume: 0.015
   Scourge Precision Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -214,4 +228,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24501
     name: Scourge Precision Light Missile
+    volume: 0.015

@@ -21,4 +21,6 @@ items:
     Slots: 1
     Speed: 5000
     TechLevel: 1
+    id: 22782
     name: Interdiction Sphere Launcher I
+    volume: 50.0

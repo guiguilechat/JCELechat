@@ -14,7 +14,9 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33520
     name: '''Wetu'' Mobile Depot'
+    volume: 100.0
   '''Yurt'' Mobile Depot':
     ArmorHP: 5000
     ArmorUniformity: 0.75
@@ -30,7 +32,9 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33522
     name: '''Yurt'' Mobile Depot'
+    volume: 50.0
   Mobile Depot:
     ArmorHP: 5000
     ArmorUniformity: 0.75
@@ -46,4 +50,6 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33474
     name: Mobile Depot
+    volume: 50.0

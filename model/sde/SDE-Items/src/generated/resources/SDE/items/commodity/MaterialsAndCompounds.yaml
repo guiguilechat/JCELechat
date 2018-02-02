@@ -1,83 +1,165 @@
 items:
   Analog Panel:
+    id: 23162
     name: Analog Panel
+    volume: 0.1
   Armor Blocks:
+    id: 21590
     name: Armor Blocks
+    volume: 0.1
   Auxiliary Parts:
+    id: 23159
     name: Auxiliary Parts
+    volume: 0.1
   Computer Chips:
+    id: 21591
     name: Computer Chips
+    volume: 0.1
   Construction Alloy:
+    id: 21595
     name: Construction Alloy
+    volume: 0.1
   Current Amplifier:
+    id: 23163
     name: Current Amplifier
+    volume: 0.1
   Data Processor:
+    id: 21596
     name: Data Processor
+    volume: 0.1
   Electric Conduit:
+    id: 21592
     name: Electric Conduit
+    volume: 0.1
   Electronic Link:
+    id: 21587
     name: Electronic Link
+    volume: 0.1
   Elemental Crux:
+    id: 23161
     name: Elemental Crux
+    volume: 0.1
   Energy Cells:
+    id: 21594
     name: Energy Cells
+    volume: 0.1
   Force Cable:
+    id: 23160
     name: Force Cable
+    volume: 0.1
   Heat Depressor:
+    id: 23165
     name: Heat Depressor
+    volume: 0.1
   Inexplicable Drone Junk:
+    id: 28867
     name: Inexplicable Drone Junk
+    volume: 20.0
   Internal Bulkhead:
+    id: 23166
     name: Internal Bulkhead
+    volume: 0.1
   Mainframe Bit:
+    id: 23167
     name: Mainframe Bit
+    volume: 0.1
   Mechanic Parts:
+    id: 21593
     name: Mechanic Parts
+    volume: 0.1
   Positron Cord:
+    id: 23158
     name: Positron Cord
+    volume: 0.1
   Power Couplings:
+    id: 21589
     name: Power Couplings
+    volume: 0.1
   Second-hand Parts:
+    id: 23164
     name: Second-hand Parts
+    volume: 0.1
   Sleeper Cryo Batteries:
+    id: 21585
     name: Sleeper Cryo Batteries
+    volume: 1.0
   Sleeper Foundation Block:
+    id: 20110
     name: Sleeper Foundation Block
+    volume: 1.0
   Sleeper Micro Circuits:
+    id: 21584
     name: Sleeper Micro Circuits
+    volume: 1.0
   Sleeper Split Cables:
+    id: 21073
     name: Sleeper Split Cables
+    volume: 1.0
   Sleeper Virtual Energizer:
+    id: 21586
     name: Sleeper Virtual Energizer
+    volume: 1.0
   Spare Parts:
+    id: 21588
     name: Spare Parts
+    volume: 0.1
   Takmahl Cohere Cord:
+    id: 23144
     name: Takmahl Cohere Cord
+    volume: 1.0
   Takmahl Diamond Rod:
+    id: 23143
     name: Takmahl Diamond Rod
+    volume: 1.0
   Takmahl Magnetic Slab:
+    id: 23146
     name: Takmahl Magnetic Slab
+    volume: 1.0
   Takmahl Solid Mox:
+    id: 23145
     name: Takmahl Solid Mox
+    volume: 1.0
   Takmahl Tri-polished Lens:
+    id: 23147
     name: Takmahl Tri-polished Lens
+    volume: 1.0
   Talocan Ignition Device:
+    id: 21089
     name: Talocan Ignition Device
+    volume: 1.0
   Talocan Mechanical Gears:
+    id: 21081
     name: Talocan Mechanical Gears
+    volume: 1.0
   Talocan Molecule Binder:
+    id: 21075
     name: Talocan Molecule Binder
+    volume: 1.0
   Talocan Partition Plates:
+    id: 21086
     name: Talocan Partition Plates
+    volume: 1.0
   Talocan Reflective Sheets:
+    id: 21078
     name: Talocan Reflective Sheets
+    volume: 1.0
   Yan Jung Glass Scale:
+    id: 23139
     name: Yan Jung Glass Scale
+    volume: 1.0
   Yan Jung Nano Fabric:
+    id: 23142
     name: Yan Jung Nano Fabric
+    volume: 1.0
   Yan Jung Null Shell:
+    id: 23138
     name: Yan Jung Null Shell
+    volume: 1.0
   Yan Jung Plenary Wire:
+    id: 23140
     name: Yan Jung Plenary Wire
+    volume: 1.0
   Yan Jung Silk Armor:
+    id: 23141
     name: Yan Jung Silk Armor
+    volume: 1.0

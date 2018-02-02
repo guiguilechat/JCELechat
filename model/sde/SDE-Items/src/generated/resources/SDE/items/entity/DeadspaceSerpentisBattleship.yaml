@@ -1,41 +1,81 @@
 items:
   Core Admiral:
+    id: 24167
     name: Core Admiral
+    volume: 1140000.0
   Core Baron:
+    id: 17038
     name: Core Baron
+    volume: 1010000.0
   Core Commodore:
+    id: 17037
     name: Core Commodore
+    volume: 1140000.0
   Core Flotilla Admiral:
+    id: 24165
     name: Core Flotilla Admiral
+    volume: 1140000.0
   Core Grand Admiral:
+    id: 24169
     name: Core Grand Admiral
+    volume: 1140000.0
   Core High Admiral:
+    id: 24168
     name: Core High Admiral
+    volume: 1140000.0
   Core Lord Admiral:
+    id: 24170
     name: Core Lord Admiral
+    volume: 1140000.0
   Core Port Admiral:
+    id: 17036
     name: Core Port Admiral
+    volume: 1010000.0
   Core Rear Admiral:
+    id: 17034
     name: Core Rear Admiral
+    volume: 1140000.0
   Core Vice Admiral:
+    id: 24166
     name: Core Vice Admiral
+    volume: 1140000.0
   Shadow Core Admiral:
+    id: 24171
     name: Shadow Core Admiral
+    volume: 1140000.0
   Shadow Core Baron:
+    id: 17052
     name: Shadow Core Baron
+    volume: 1010000.0
   Shadow Core Commodore:
+    id: 17051
     name: Shadow Core Commodore
+    volume: 1140000.0
   Shadow Core Flotilla Admiral:
+    id: 17053
     name: Shadow Core Flotilla Admiral
+    volume: 1010000.0
   Shadow Core Grand Admiral:
+    id: 24173
     name: Shadow Core Grand Admiral
+    volume: 1140000.0
   Shadow Core High Admiral:
+    id: 24172
     name: Shadow Core High Admiral
+    volume: 1140000.0
   Shadow Core Lord Admiral:
+    id: 24174
     name: Shadow Core Lord Admiral
+    volume: 1140000.0
   Shadow Core Port Admiral:
+    id: 17049
     name: Shadow Core Port Admiral
+    volume: 1010000.0
   Shadow Core Rear Admiral:
+    id: 17054
     name: Shadow Core Rear Admiral
+    volume: 1140000.0
   Shadow Core Vice Admiral:
+    id: 17050
     name: Shadow Core Vice Admiral
+    volume: 1140000.0

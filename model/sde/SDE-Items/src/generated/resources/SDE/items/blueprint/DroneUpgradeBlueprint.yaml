@@ -2,50 +2,76 @@ items:
   Drone Link Augmentor I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 23528
     name: Drone Link Augmentor I Blueprint
+    volume: 0.01
   Drone Link Augmentor II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 24428
     name: Drone Link Augmentor II Blueprint
+    volume: 0.01
   Drone Navigation Computer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 24396
     name: Drone Navigation Computer I Blueprint
+    volume: 0.01
   Drone Navigation Computer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 24418
     name: Drone Navigation Computer II Blueprint
+    volume: 0.01
   Federation Navy Omnidirectional Tracking Link Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 31943
     name: Federation Navy Omnidirectional Tracking Link Blueprint
+    volume: 0.01
   Fighter Support Unit I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 24284
     name: Fighter Support Unit I Blueprint
+    volume: 0.01
   Fighter Support Unit II Blueprint:
     TechLevel: 2
+    id: 41416
     name: Fighter Support Unit II Blueprint
+    volume: 0.01
   Hermes Compact Fighter Support Unit Blueprint:
     TechLevel: 1
+    id: 41413
     name: Hermes Compact Fighter Support Unit Blueprint
+    volume: 0.01
   Omnidirectional Tracking Enhancer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 33823
     name: Omnidirectional Tracking Enhancer I Blueprint
+    volume: 0.01
   Omnidirectional Tracking Enhancer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 33825
     name: Omnidirectional Tracking Enhancer II Blueprint
+    volume: 0.01
   Omnidirectional Tracking Link I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 23534
     name: Omnidirectional Tracking Link I Blueprint
+    volume: 0.01
   Omnidirectional Tracking Link II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 24439
     name: Omnidirectional Tracking Link II Blueprint
+    volume: 0.01
   Sentient Fighter Support Unit Blueprint:
     MetaGroupID: 4
     TechLevel: 1
+    id: 41418
     name: Sentient Fighter Support Unit Blueprint
+    volume: 0.01

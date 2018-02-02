@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43704
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
+    volume: 40.0
   Standup XL-Set Structure and Component Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -34,7 +36,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43705
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
+    volume: 40.0
   Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
     AttributeEngRigMatBonus: -2.0
     AttributeEngRigTimeBonus: -20
@@ -54,4 +58,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 45548
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
+    volume: 40.0

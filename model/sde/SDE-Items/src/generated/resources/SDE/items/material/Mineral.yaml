@@ -1,19 +1,37 @@
 items:
   Chalcopyrite:
+    id: 27029
     name: Chalcopyrite
+    volume: 0.01
   Isogen:
+    id: 37
     name: Isogen
+    volume: 0.01
   Megacyte:
+    id: 40
     name: Megacyte
+    volume: 0.01
   Mexallon:
+    id: 36
     name: Mexallon
+    volume: 0.01
   Morphite:
+    id: 11399
     name: Morphite
+    volume: 0.01
   Nocxium:
+    id: 38
     name: Nocxium
+    volume: 0.01
   Pyerite:
+    id: 35
     name: Pyerite
+    volume: 0.01
   Tritanium:
+    id: 34
     name: Tritanium
+    volume: 0.01
   Zydrine:
+    id: 39
     name: Zydrine
+    volume: 0.01

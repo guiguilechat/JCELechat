@@ -2,300 +2,450 @@ items:
   '''Augmented'' Acolyte Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    id: 28265
     name: '''Augmented'' Acolyte Blueprint'
+    volume: 0.01
   '''Augmented'' Berserker Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    id: 28269
     name: '''Augmented'' Berserker Blueprint'
+    volume: 0.01
   '''Augmented'' Hammerhead Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    id: 28273
     name: '''Augmented'' Hammerhead Blueprint'
+    volume: 0.01
   '''Augmented'' Hobgoblin Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    id: 28277
     name: '''Augmented'' Hobgoblin Blueprint'
+    volume: 0.01
   '''Augmented'' Hornet Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    id: 28281
     name: '''Augmented'' Hornet Blueprint'
+    volume: 0.01
   '''Augmented'' Infiltrator Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    id: 28285
     name: '''Augmented'' Infiltrator Blueprint'
+    volume: 0.01
   '''Augmented'' Ogre Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    id: 28289
     name: '''Augmented'' Ogre Blueprint'
+    volume: 0.01
   '''Augmented'' Praetor Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    id: 28293
     name: '''Augmented'' Praetor Blueprint'
+    volume: 0.01
   '''Augmented'' Valkyrie Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    id: 28297
     name: '''Augmented'' Valkyrie Blueprint'
+    volume: 0.01
   '''Augmented'' Vespa Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 2
+    id: 28301
     name: '''Augmented'' Vespa Blueprint'
+    volume: 0.01
   '''Augmented'' Warrior Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 2
+    id: 28305
     name: '''Augmented'' Warrior Blueprint'
+    volume: 0.01
   '''Augmented'' Wasp Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 2
+    id: 28309
     name: '''Augmented'' Wasp Blueprint'
+    volume: 0.01
   '''Integrated'' Acolyte Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 28263
     name: '''Integrated'' Acolyte Blueprint'
+    volume: 0.01
   '''Integrated'' Berserker Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28267
     name: '''Integrated'' Berserker Blueprint'
+    volume: 0.01
   '''Integrated'' Hammerhead Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 28271
     name: '''Integrated'' Hammerhead Blueprint'
+    volume: 0.01
   '''Integrated'' Hobgoblin Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 28275
     name: '''Integrated'' Hobgoblin Blueprint'
+    volume: 0.01
   '''Integrated'' Hornet Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 28279
     name: '''Integrated'' Hornet Blueprint'
+    volume: 0.01
   '''Integrated'' Infiltrator Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 28283
     name: '''Integrated'' Infiltrator Blueprint'
+    volume: 0.01
   '''Integrated'' Ogre Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28287
     name: '''Integrated'' Ogre Blueprint'
+    volume: 0.01
   '''Integrated'' Praetor Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28291
     name: '''Integrated'' Praetor Blueprint'
+    volume: 0.01
   '''Integrated'' Valkyrie Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 28295
     name: '''Integrated'' Valkyrie Blueprint'
+    volume: 0.01
   '''Integrated'' Vespa Blueprint':
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 28299
     name: '''Integrated'' Vespa Blueprint'
+    volume: 0.01
   '''Integrated'' Warrior Blueprint':
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 28303
     name: '''Integrated'' Warrior Blueprint'
+    volume: 0.01
   '''Integrated'' Wasp Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28307
     name: '''Integrated'' Wasp Blueprint'
+    volume: 0.01
   Acolyte I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 2204
     name: Acolyte I Blueprint
+    volume: 0.01
   Acolyte II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    id: 2206
     name: Acolyte II Blueprint
+    volume: 0.01
   Berserker I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 2477
     name: Berserker I Blueprint
+    volume: 0.01
   Berserker II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 2479
     name: Berserker II Blueprint
+    volume: 0.01
   Bouncer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23564
     name: Bouncer I Blueprint
+    volume: 0.01
   Bouncer II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 28216
     name: Bouncer II Blueprint
+    volume: 0.01
   Caldari Navy Hornet Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 31873
     name: Caldari Navy Hornet Blueprint
+    volume: 0.01
   Caldari Navy Vespa Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 31875
     name: Caldari Navy Vespa Blueprint
+    volume: 0.01
   Caldari Navy Warden Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31879
     name: Caldari Navy Warden Blueprint
+    volume: 0.01
   Caldari Navy Wasp Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31877
     name: Caldari Navy Wasp Blueprint
+    volume: 0.01
   Curator I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23526
     name: Curator I Blueprint
+    volume: 0.01
   Curator II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 28214
     name: Curator II Blueprint
+    volume: 0.01
   FA-14 Templar Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 23760
     name: FA-14 Templar Blueprint
+    volume: 0.01
   Federation Navy Garde Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31887
     name: Federation Navy Garde Blueprint
+    volume: 0.01
   Federation Navy Hammerhead Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 31883
     name: Federation Navy Hammerhead Blueprint
+    volume: 0.01
   Federation Navy Hobgoblin Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 31881
     name: Federation Navy Hobgoblin Blueprint
+    volume: 0.01
   Federation Navy Ogre Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31885
     name: Federation Navy Ogre Blueprint
+    volume: 0.01
   Fighter Uno Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 22781
     name: Fighter Uno Blueprint
+    volume: 0.01
   Garde I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23562
     name: Garde I Blueprint
+    volume: 0.01
   Garde II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 28212
     name: Garde II Blueprint
+    volume: 0.01
   Gecko Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
+    id: 33682
     name: Gecko Blueprint
+    volume: 0.01
   Hammerhead I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 2184
     name: Hammerhead I Blueprint
+    volume: 0.01
   Hammerhead II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    id: 2186
     name: Hammerhead II Blueprint
+    volume: 0.01
   Hobgoblin I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 2455
     name: Hobgoblin I Blueprint
+    volume: 0.01
   Hobgoblin II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    id: 2457
     name: Hobgoblin II Blueprint
+    volume: 0.01
   Hornet I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 2465
     name: Hornet I Blueprint
+    volume: 0.01
   Hornet II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    id: 2467
     name: Hornet II Blueprint
+    volume: 0.01
   Imperial Navy Acolyte Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 31865
     name: Imperial Navy Acolyte Blueprint
+    volume: 0.01
   Imperial Navy Curator Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31869
     name: Imperial Navy Curator Blueprint
+    volume: 0.01
   Imperial Navy Infiltrator Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 31867
     name: Imperial Navy Infiltrator Blueprint
+    volume: 0.01
   Imperial Navy Praetor Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31871
     name: Imperial Navy Praetor Blueprint
+    volume: 0.01
   Infiltrator I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 2174
     name: Infiltrator I Blueprint
+    volume: 0.01
   Infiltrator II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    id: 2176
     name: Infiltrator II Blueprint
+    volume: 0.01
   Ogre I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 2445
     name: Ogre I Blueprint
+    volume: 0.01
   Ogre II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 2447
     name: Ogre II Blueprint
+    volume: 0.01
   Praetor I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 2194
     name: Praetor I Blueprint
+    volume: 0.01
   Praetor II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 2196
     name: Praetor II Blueprint
+    volume: 0.01
   Republic Fleet Berserker Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31893
     name: Republic Fleet Berserker Blueprint
+    volume: 0.01
   Republic Fleet Bouncer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31895
     name: Republic Fleet Bouncer Blueprint
+    volume: 0.01
   Republic Fleet Valkyrie Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 31891
     name: Republic Fleet Valkyrie Blueprint
+    volume: 0.01
   Republic Fleet Warrior Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 31889
     name: Republic Fleet Warrior Blueprint
+    volume: 0.01
   Valkyrie I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 15511
     name: Valkyrie I Blueprint
+    volume: 0.01
   Valkyrie II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    id: 21641
     name: Valkyrie II Blueprint
+    volume: 0.01
   Vespa I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
+    id: 15509
     name: Vespa I Blueprint
+    volume: 0.01
   Vespa II Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 2
+    id: 21639
     name: Vespa II Blueprint
+    volume: 0.01
   Warden I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23560
     name: Warden I Blueprint
+    volume: 0.01
   Warden II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 28210
     name: Warden II Blueprint
+    volume: 0.01
   Warrior I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 2487
     name: Warrior I Blueprint
+    volume: 0.01
   Warrior II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    id: 2489
     name: Warrior II Blueprint
+    volume: 0.01
   Wasp I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1214
     name: Wasp I Blueprint
+    volume: 0.01
   Wasp II Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 2
+    id: 2437
     name: Wasp II Blueprint
+    volume: 0.01

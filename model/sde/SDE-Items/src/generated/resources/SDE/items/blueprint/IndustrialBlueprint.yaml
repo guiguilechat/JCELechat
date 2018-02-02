@@ -2,77 +2,119 @@ items:
   Badger Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 983
     name: Badger Blueprint
+    volume: 0.01
   Bestower Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 1945
     name: Bestower Blueprint
+    volume: 0.01
   Bestower Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33696
     name: Bestower Tash-Murkon Edition Blueprint
+    volume: 0.01
   Epithal Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 990
     name: Epithal Blueprint
+    volume: 0.01
   Hoarder Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 986
     name: Hoarder Blueprint
+    volume: 0.01
   Iteron Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33690
     name: Iteron Inner Zone Shipping Edition Blueprint
+    volume: 0.01
   Iteron Mark V Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 992
     name: Iteron Mark V Blueprint
+    volume: 0.01
   Kryos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 989
     name: Kryos Blueprint
+    volume: 0.01
   Mammoth Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 987
     name: Mammoth Blueprint
+    volume: 0.01
   Mammoth Nefantar Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33694
     name: Mammoth Nefantar Edition Blueprint
+    volume: 0.01
   Miasmos Amastris Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 32812
     name: Miasmos Amastris Edition Blueprint
+    volume: 0.01
   Miasmos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 991
     name: Miasmos Blueprint
+    volume: 0.01
   Miasmos Quafe Ultra Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 4364
     name: Miasmos Quafe Ultra Edition Blueprint
+    volume: 0.01
   Miasmos Quafe Ultramarine Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 4389
     name: Miasmos Quafe Ultramarine Edition Blueprint
+    volume: 0.01
   Nereus Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 985
     name: Nereus Blueprint
+    volume: 0.01
   Noctis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 3039
     name: Noctis Blueprint
+    volume: 0.01
   Primae Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 2864
     name: Primae Blueprint
+    volume: 0.01
   Sigil Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 19745
     name: Sigil Blueprint
+    volume: 0.01
   Tayra Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 984
     name: Tayra Blueprint
+    volume: 0.01
   Tayra Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33692
     name: Tayra Wiyrkomi Edition Blueprint
+    volume: 0.01
   Wreathe Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
+    id: 988
     name: Wreathe Blueprint
+    volume: 0.01

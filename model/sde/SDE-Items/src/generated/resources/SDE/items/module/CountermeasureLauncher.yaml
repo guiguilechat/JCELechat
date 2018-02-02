@@ -13,4 +13,6 @@ items:
     Slots: 1
     Speed: 1000
     TechLevel: 1
+    id: 10642
     name: Countermeasure Launcher I
+    volume: 6.0

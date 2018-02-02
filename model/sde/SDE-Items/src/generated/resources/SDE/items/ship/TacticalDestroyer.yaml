@@ -72,7 +72,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 34317
     name: Confessor
+    volume: 47000.0
   Hecate:
     Agility: 6.0
     ArmorEmDamageResonance: 0.5
@@ -147,7 +149,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 35683
     name: Hecate
+    volume: 47000.0
   Jackdaw:
     Agility: 6.0
     ArmorEmDamageResonance: 0.5
@@ -222,7 +226,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 34828
     name: Jackdaw
+    volume: 47000.0
   Svipul:
     Agility: 3.799999952316284
     ArmorEmDamageResonance: 0.20000000298023224
@@ -297,4 +303,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 34562
     name: Svipul
+    volume: 47000.0

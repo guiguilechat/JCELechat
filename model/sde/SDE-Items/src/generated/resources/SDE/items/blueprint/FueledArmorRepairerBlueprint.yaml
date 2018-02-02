@@ -1,12 +1,20 @@
 items:
   Capital Ancillary Armor Repairer Blueprint:
+    id: 41620
     name: Capital Ancillary Armor Repairer Blueprint
+    volume: 0.01
   Large Ancillary Armor Repairer Blueprint:
     IndustryBlueprintRank: 9.0
+    id: 33104
     name: Large Ancillary Armor Repairer Blueprint
+    volume: 0.01
   Medium Ancillary Armor Repairer Blueprint:
     IndustryBlueprintRank: 6.0
+    id: 33102
     name: Medium Ancillary Armor Repairer Blueprint
+    volume: 0.01
   Small Ancillary Armor Repairer Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 33077
     name: Small Ancillary Armor Repairer Blueprint
+    volume: 0.01

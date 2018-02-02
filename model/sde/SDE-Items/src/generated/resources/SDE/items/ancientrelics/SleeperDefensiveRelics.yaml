@@ -1,10 +1,16 @@
 items:
   Intact Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    id: 30614
     name: Intact Armor Nanobot
+    volume: 10.0
   Malfunctioning Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    id: 30615
     name: Malfunctioning Armor Nanobot
+    volume: 10.0
   Wrecked Armor Nanobot:
     IndustryBlueprintRank: 2.0
+    id: 30618
     name: Wrecked Armor Nanobot
+    volume: 10.0

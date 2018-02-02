@@ -1,29 +1,57 @@
 items:
   Sun A0 (Blue Small):
+    id: 3801
     name: Sun A0 (Blue Small)
+    volume: 1.0
   Sun A0IV (Turbulent Blue Subgiant):
+    id: 34331
     name: Sun A0IV (Turbulent Blue Subgiant)
+    volume: 1.0
   Sun B0 (Blue):
+    id: 45046
     name: Sun B0 (Blue)
+    volume: 1.0
   Sun B5 (White Dwarf):
+    id: 45042
     name: Sun B5 (White Dwarf)
+    volume: 1.0
   Sun F0 (White):
+    id: 45035
     name: Sun F0 (White)
+    volume: 1.0
   Sun G3 (Pink Small):
+    id: 45038
     name: Sun G3 (Pink Small)
+    volume: 1.0
   Sun G5 (Pink):
+    id: 45036
     name: Sun G5 (Pink)
+    volume: 1.0
   Sun G5 (Yellow):
+    id: 45047
     name: Sun G5 (Yellow)
+    volume: 1.0
   Sun K3 (Yellow Small):
+    id: 45041
     name: Sun K3 (Yellow Small)
+    volume: 1.0
   Sun K5 (Orange Bright):
+    id: 45037
     name: Sun K5 (Orange Bright)
+    volume: 1.0
   Sun K5 (Red Giant):
+    id: 45033
     name: Sun K5 (Red Giant)
+    volume: 1.0
   Sun K7 (Orange):
+    id: 45032
     name: Sun K7 (Orange)
+    volume: 1.0
   Sun M0 (Orange radiant):
+    id: 45040
     name: Sun M0 (Orange radiant)
+    volume: 1.0
   Sun O1 (Blue Bright):
+    id: 3796
     name: Sun O1 (Blue Bright)
+    volume: 1.0

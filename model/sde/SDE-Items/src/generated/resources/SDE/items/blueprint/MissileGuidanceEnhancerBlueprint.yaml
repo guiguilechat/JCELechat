@@ -1,7 +1,11 @@
 items:
   Missile Guidance Enhancer I Blueprint:
     TechLevel: 1
+    id: 35772
     name: Missile Guidance Enhancer I Blueprint
+    volume: 0.01
   Missile Guidance Enhancer II Blueprint:
     TechLevel: 2
+    id: 35773
     name: Missile Guidance Enhancer II Blueprint
+    volume: 0.01

@@ -18,7 +18,9 @@ items:
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 34319
     name: Confessor Defense Mode
+    volume: 5.0
   Confessor Propulsion Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.5
@@ -38,7 +40,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.6000000238418579
     TechLevel: 1
+    id: 34323
     name: Confessor Propulsion Mode
+    volume: 5.0
   Confessor Sharpshooter Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -58,7 +62,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 34321
     name: Confessor Sharpshooter Mode
+    volume: 5.0
   Hecate Defense Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -78,7 +84,9 @@ items:
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 35686
     name: Hecate Defense Mode
+    volume: 5.0
   Hecate Propulsion Mode:
     Hp: 40
     ModeAgilityPostDiv: 3.0
@@ -100,7 +108,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 35687
     name: Hecate Propulsion Mode
+    volume: 5.0
   Hecate Sharpshooter Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -120,7 +130,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 35688
     name: Hecate Sharpshooter Mode
+    volume: 5.0
   Jackdaw Defense Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -140,7 +152,9 @@ items:
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 35676
     name: Jackdaw Defense Mode
+    volume: 5.0
   Jackdaw Propulsion Mode:
     Hp: 40
     ModeAgilityPostDiv: 3.0
@@ -160,7 +174,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.75
     TechLevel: 1
+    id: 35677
     name: Jackdaw Propulsion Mode
+    volume: 5.0
   Jackdaw Sharpshooter Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -180,7 +196,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 35678
     name: Jackdaw Sharpshooter Mode
+    volume: 5.0
   Svipul Defense Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -201,7 +219,9 @@ items:
     ModeThermicResistancePostDiv: 1.5
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 34564
     name: Svipul Defense Mode
+    volume: 5.0
   Svipul Propulsion Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.5
@@ -221,7 +241,9 @@ items:
     ModeThermicResistancePostDiv: 1.0
     ModeVelocityPostDiv: 0.6000000238418579
     TechLevel: 1
+    id: 34566
     name: Svipul Propulsion Mode
+    volume: 5.0
   Svipul Sharpshooter Mode:
     Hp: 40
     ModeAgilityPostDiv: 1.0
@@ -242,4 +264,6 @@ items:
     ModeTrackingPostDiv: 0.75
     ModeVelocityPostDiv: 1.0
     TechLevel: 1
+    id: 34570
     name: Svipul Sharpshooter Mode
+    volume: 5.0

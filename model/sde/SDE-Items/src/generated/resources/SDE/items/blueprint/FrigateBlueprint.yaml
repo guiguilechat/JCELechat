@@ -3,606 +3,856 @@ items:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3769
     name: Amarr Police Frigate Blueprint
+    volume: 0.01
   Anathema Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11189
     name: Anathema Blueprint
+    volume: 0.01
   Ares Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11203
     name: Ares Blueprint
+    volume: 0.01
   Astero Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33469
     name: Astero Blueprint
+    volume: 0.01
   Atron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 955
     name: Atron Blueprint
+    volume: 0.01
   Bantam Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 683
     name: Bantam Blueprint
+    volume: 0.01
   Blade Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 11374
     name: Blade Blueprint
+    volume: 0.01
   Breacher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 945
     name: Breacher Blueprint
+    volume: 0.01
   Burst Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 946
     name: Burst Blueprint
+    volume: 0.01
   Buzzard Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11193
     name: Buzzard Blueprint
+    volume: 0.01
   Caedes Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 42525
     name: Caedes Blueprint
+    volume: 0.01
   Caldari Navy Hookbill Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17620
     name: Caldari Navy Hookbill Blueprint
+    volume: 0.01
   Cambion Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32789
     name: Cambion Blueprint
+    volume: 0.01
   Cheetah Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11183
     name: Cheetah Blueprint
+    volume: 0.01
   Chremoas Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33398
     name: Chremoas Blueprint
+    volume: 0.01
   Claw Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11197
     name: Claw Blueprint
+    volume: 0.01
   Condor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 684
     name: Condor Blueprint
+    volume: 0.01
   Crow Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11177
     name: Crow Blueprint
+    volume: 0.01
   Crucifier Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 2162
     name: Crucifier Blueprint
+    volume: 0.01
   Crucifier Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 40318
     name: Crucifier Navy Issue Blueprint
+    volume: 0.01
   Cruor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17927
     name: Cruor Blueprint
+    volume: 0.01
   Crusader Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11185
     name: Crusader Blueprint
+    volume: 0.01
   Dagger Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 12037
     name: Dagger Blueprint
+    volume: 0.01
   Daredevil Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17929
     name: Daredevil Blueprint
+    volume: 0.01
   Deacon Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 39580
     name: Deacon Blueprint
+    volume: 0.01
   Devourer Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 960
     name: Devourer Blueprint
+    volume: 0.01
   Dramiel Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17933
     name: Dramiel Blueprint
+    volume: 0.01
   Echelon Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3533
     name: Echelon Blueprint
+    volume: 0.01
   Echo Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 964
     name: Echo Blueprint
+    volume: 0.01
   Endurance Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 39583
     name: Endurance Blueprint
+    volume: 0.01
   Enyo Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 12045
     name: Enyo Blueprint
+    volume: 0.01
   Erinye Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 11376
     name: Erinye Blueprint
+    volume: 0.01
   Executioner Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 936
     name: Executioner Blueprint
+    volume: 0.01
   Federation Navy Comet Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17842
     name: Federation Navy Comet Blueprint
+    volume: 0.01
   Freki Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32208
     name: Freki Blueprint
+    volume: 0.01
   Fury Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 961
     name: Fury Blueprint
+    volume: 0.01
   Garmur Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33817
     name: Garmur Blueprint
+    volume: 0.01
   Gatherer Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 11384
     name: Gatherer Blueprint
+    volume: 0.01
   Griffin Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 685
     name: Griffin Blueprint
+    volume: 0.01
   Griffin Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 40316
     name: Griffin Navy Issue Blueprint
+    volume: 0.01
   Harpy Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11382
     name: Harpy Blueprint
+    volume: 0.01
   Hawk Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11380
     name: Hawk Blueprint
+    volume: 0.01
   Helios Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11173
     name: Helios Blueprint
+    volume: 0.01
   Hematos Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33080
     name: Hematos Blueprint
+    volume: 0.01
   Heron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 952
     name: Heron Blueprint
+    volume: 0.01
   Hound Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 12035
     name: Hound Blueprint
+    volume: 0.01
   Hyena Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11388
     name: Hyena Blueprint
+    volume: 0.01
   Ibis Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 948
     name: Ibis Blueprint
+    volume: 0.01
   Imicus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 954
     name: Imicus Blueprint
+    volume: 0.01
   Immolator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 962
     name: Immolator Blueprint
+    volume: 0.01
   Imp Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 35780
     name: Imp Blueprint
+    volume: 0.01
   Impairor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 943
     name: Impairor Blueprint
+    volume: 0.01
   Imperial Navy Slicer Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17704
     name: Imperial Navy Slicer Blueprint
+    volume: 0.01
   Incursus Aliastra Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33668
     name: Incursus Aliastra Edition Blueprint
+    volume: 0.01
   Incursus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 941
     name: Incursus Blueprint
+    volume: 0.01
   Incursus Inner Zone Shipping Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33670
     name: Incursus Inner Zone Shipping Edition Blueprint
+    volume: 0.01
   Inner Zone Shipping Imicus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32986
     name: Inner Zone Shipping Imicus Blueprint
+    volume: 0.01
   Inquisitor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 937
     name: Inquisitor Blueprint
+    volume: 0.01
   Ishkur Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 12043
     name: Ishkur Blueprint
+    volume: 0.01
   Jaguar Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11401
     name: Jaguar Blueprint
+    volume: 0.01
   Keres Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11175
     name: Keres Blueprint
+    volume: 0.01
   Kestrel Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 949
     name: Kestrel Blueprint
+    volume: 0.01
   Khanid Navy Frigate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17706
     name: Khanid Navy Frigate Blueprint
+    volume: 0.01
   Kirin Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 39581
     name: Kirin Blueprint
+    volume: 0.01
   Kishar Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 11390
     name: Kishar Blueprint
+    volume: 0.01
   Kitsune Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11195
     name: Kitsune Blueprint
+    volume: 0.01
   Lynx Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 965
     name: Lynx Blueprint
+    volume: 0.01
   Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 29249
     name: Magnate Blueprint
+    volume: 0.01
   Malediction Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11187
     name: Malediction Blueprint
+    volume: 0.01
   Malice Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3517
     name: Malice Blueprint
+    volume: 0.01
   Manticore Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 12031
     name: Manticore Blueprint
+    volume: 0.01
   Maulus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 956
     name: Maulus Blueprint
+    volume: 0.01
   Maulus Navy Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 40315
     name: Maulus Navy Issue Blueprint
+    volume: 0.01
   Medusa Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 963
     name: Medusa Blueprint
+    volume: 0.01
   Merlin Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 950
     name: Merlin Blueprint
+    volume: 0.01
   Merlin Nugoeihuvi Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33660
     name: Merlin Nugoeihuvi Edition Blueprint
+    volume: 0.01
   Merlin Wiyrkomi Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33662
     name: Merlin Wiyrkomi Edition Blueprint
+    volume: 0.01
   Minmatar Peacekeeper Ship Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 947
     name: Minmatar Peacekeeper Ship Blueprint
+    volume: 0.01
   Mordus Frigate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17708
     name: Mordus Frigate Blueprint
+    volume: 0.01
   Navitas Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 939
     name: Navitas Blueprint
+    volume: 0.01
   Nemesis Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11378
     name: Nemesis Blueprint
+    volume: 0.01
   Pacifier Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 45486
     name: Pacifier Blueprint
+    volume: 0.01
   Police Pursuit Comet Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33678
     name: Police Pursuit Comet Blueprint
+    volume: 0.01
   Probe Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 690
     name: Probe Blueprint
+    volume: 0.01
   Prospect Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 33698
     name: Prospect Blueprint
+    volume: 0.01
   Punisher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 944
     name: Punisher Blueprint
+    volume: 0.01
   Punisher Kador Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33656
     name: Punisher Kador Edition Blueprint
+    volume: 0.01
   Punisher Tash-Murkon Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33658
     name: Punisher Tash-Murkon Edition Blueprint
+    volume: 0.01
   Purifier Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 12041
     name: Purifier Blueprint
+    volume: 0.01
   Raptor Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11179
     name: Raptor Blueprint
+    volume: 0.01
   Reaper Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 935
     name: Reaper Blueprint
+    volume: 0.01
   Republic Fleet Firetail Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17813
     name: Republic Fleet Firetail Blueprint
+    volume: 0.01
   Retribution Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11394
     name: Retribution Blueprint
+    volume: 0.01
   Rifter Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 691
     name: Rifter Blueprint
+    volume: 0.01
   Rifter Krusual Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33666
     name: Rifter Krusual Edition Blueprint
+    volume: 0.01
   Rifter Nefantar Edition Blueprint:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
+    id: 33664
     name: Rifter Nefantar Edition Blueprint
+    volume: 0.01
   SOCT 1 Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3752
     name: SOCT 1 Blueprint
+    volume: 0.01
   SOCT 2 Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3754
     name: SOCT 2 Blueprint
+    volume: 0.01
   Sarum Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32988
     name: Sarum Magnate Blueprint
+    volume: 0.01
   Scalpel Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 40302
     name: Scalpel Blueprint
+    volume: 0.01
   Sentinel Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11191
     name: Sentinel Blueprint
+    volume: 0.01
   Slasher Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 689
     name: Slasher Blueprint
+    volume: 0.01
   Stiletto Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11199
     name: Stiletto Blueprint
+    volume: 0.01
   Succubus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17925
     name: Succubus Blueprint
+    volume: 0.01
   Sukuuvestaa Heron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32984
     name: Sukuuvestaa Heron Blueprint
+    volume: 0.01
   Swordspine Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 966
     name: Swordspine Blueprint
+    volume: 0.01
   Taipan Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33082
     name: Taipan Blueprint
+    volume: 0.01
   Taranis Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11201
     name: Taranis Blueprint
+    volume: 0.01
   Tash-Murkon Magnate Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33191
     name: Tash-Murkon Magnate Blueprint
+    volume: 0.01
   Thalia Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 40301
     name: Thalia Blueprint
+    volume: 0.01
   Tormentor Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 938
     name: Tormentor Blueprint
+    volume: 0.01
   Tristan Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 940
     name: Tristan Blueprint
+    volume: 0.01
   Tristan Quafe Edition Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 34444
     name: Tristan Quafe Edition Blueprint
+    volume: 0.01
   Utu Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 2835
     name: Utu Blueprint
+    volume: 0.01
   Velator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 953
     name: Velator Blueprint
+    volume: 0.01
   Vengeance Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11366
     name: Vengeance Blueprint
+    volume: 0.01
   Venture Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32881
     name: Venture Blueprint
+    volume: 0.01
   Vherokior Probe Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 32990
     name: Vherokior Probe Blueprint
+    volume: 0.01
   Vigil Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 3767
     name: Vigil Blueprint
+    volume: 0.01
   Vigil Fleet Issue Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 40317
     name: Vigil Fleet Issue Blueprint
+    volume: 0.01
   Violator Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33084
     name: Violator Blueprint
+    volume: 0.01
   Virtuoso Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 45533
     name: Virtuoso Blueprint
+    volume: 0.01
   Whiptail Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33674
     name: Whiptail Blueprint
+    volume: 0.01
   Wolf Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 11372
     name: Wolf Blueprint
+    volume: 0.01
   Worm Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 17931
     name: Worm Blueprint
+    volume: 0.01

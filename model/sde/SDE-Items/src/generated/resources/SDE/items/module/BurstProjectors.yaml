@@ -30,7 +30,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 27678
     name: ECM Jammer Burst Projector
+    volume: 8000.0
   Energy Neutralization Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -59,7 +61,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 40636
     name: Energy Neutralization Burst Projector
+    volume: 8000.0
   Sensor Dampening Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -89,7 +93,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 40697
     name: Sensor Dampening Burst Projector
+    volume: 8000.0
   Stasis Webification Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -117,7 +123,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: -55.0
     TechLevel: 1
+    id: 40635
     name: Stasis Webification Burst Projector
+    volume: 8000.0
   Superweapon_AOEECM:
     CanFitShipGroup01: 659
     CapacitorNeed: 1000.0
@@ -147,7 +155,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 41350
     name: Superweapon_AOEECM
+    volume: 4000.0
   Superweapon_AOEGuide:
     AoeCloudSizeBonus: 10.0
     AoeVelocityBonus: -10.0
@@ -178,7 +188,9 @@ items:
     SignatureRadius: 50
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 40700
     name: Superweapon_AOEGuide
+    volume: 8000.0
   Target Illumination Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -207,7 +219,9 @@ items:
     SignatureRadiusBonus: 35.0
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 40698
     name: Target Illumination Burst Projector
+    volume: 8000.0
   Warp Disruption Burst Projector:
     CanCloak: 1
     CanFitShipGroup01: 659
@@ -235,7 +249,9 @@ items:
     SignatureRadius: 100
     SpeedFactor: 1.0
     TechLevel: 1
+    id: 40696
     name: Warp Disruption Burst Projector
+    volume: 8000.0
   Weapon Disruption Burst Projector:
     AoeCloudSizeBonus: 14.0
     AoeVelocityBonus: -14.0
@@ -270,4 +286,6 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     TrackingSpeedBonus: -20.0
+    id: 40699
     name: Weapon Disruption Burst Projector
+    volume: 8000.0

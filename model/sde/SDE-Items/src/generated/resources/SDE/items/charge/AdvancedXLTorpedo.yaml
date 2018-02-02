@@ -21,7 +21,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 4815.0
+    id: 41276
     name: Inferno Javelin XL Torpedo
+    volume: 0.3
   Inferno Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -44,7 +46,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamage: 6420.0
+    id: 41277
     name: Inferno Rage XL Torpedo
+    volume: 0.3
   Mjolnir Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -67,7 +71,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41274
     name: Mjolnir Javelin XL Torpedo
+    volume: 0.3
   Mjolnir Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -90,7 +96,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41275
     name: Mjolnir Rage XL Torpedo
+    volume: 0.3
   Nova Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -113,7 +121,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41272
     name: Nova Javelin XL Torpedo
+    volume: 0.3
   Nova Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -136,7 +146,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41273
     name: Nova Rage XL Torpedo
+    volume: 0.3
   Scourge Javelin XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -159,7 +171,9 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41270
     name: Scourge Javelin XL Torpedo
+    volume: 0.3
   Scourge Rage XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -182,4 +196,6 @@ items:
     RequiredSkill3Level: 5
     StructureUniformity: 1.0
     TechLevel: 2
+    id: 41271
     name: Scourge Rage XL Torpedo
+    volume: 0.3

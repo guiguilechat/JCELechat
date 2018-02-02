@@ -1,17 +1,33 @@
 items:
   Mordur Bloodsworn:
+    id: 16703
     name: Mordur Bloodsworn
+    volume: 28600.0
   Mordus Bounty Hunter:
+    id: 16040
     name: Mordus Bounty Hunter
+    volume: 16500.0
   Mordus Gladius:
+    id: 16022
     name: Mordus Gladius
+    volume: 16500.0
   Mordus Katana:
+    id: 16023
     name: Mordus Katana
+    volume: 16500.0
   Mordus Rapier:
+    id: 16021
     name: Mordus Rapier
+    volume: 20400.0
   Mordus Rookie:
+    id: 16019
     name: Mordus Rookie
+    volume: 16120.0
   Mordus Sabre:
+    id: 16020
     name: Mordus Sabre
+    volume: 20250.0
   Mordus Squad Leader:
+    id: 16024
     name: Mordus Squad Leader
+    volume: 16500.0

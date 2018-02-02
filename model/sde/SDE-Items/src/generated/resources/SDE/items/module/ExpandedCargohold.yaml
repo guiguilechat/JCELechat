@@ -9,7 +9,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.949999988079071
     TechLevel: 1
+    id: 1315
     name: '''Basic'' Expanded Cargohold'
+    volume: 5.0
   Alpha Hull Mod Expanded Cargo:
     CargoCapacityMultiplier: 1.218999981880188
     Hp: 40
@@ -18,7 +20,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 5483
     name: Alpha Hull Mod Expanded Cargo
+    volume: 5.0
   Beta Hull Mod Expanded Cargo:
     CargoCapacityMultiplier: 1.25
     Hp: 40
@@ -28,7 +32,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.7799999713897705
     TechLevel: 1
+    id: 5491
     name: Beta Hull Mod Expanded Cargo
+    volume: 5.0
   Civilian Expanded Cargohold:
     CargoCapacityMultiplier: 1.100000023841858
     Hp: 40
@@ -36,7 +42,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.699999988079071
     TechLevel: 1
+    id: 21855
     name: Civilian Expanded Cargohold
+    volume: 5.0
   Expanded Cargohold I:
     CargoCapacityMultiplier: 1.1749999523162842
     Hp: 40
@@ -45,7 +53,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 1317
     name: Expanded Cargohold I
+    volume: 5.0
   Expanded Cargohold II:
     CargoCapacityMultiplier: 1.274999976158142
     Hp: 40
@@ -55,7 +65,9 @@ items:
     RequiredSkill1Level: 2
     StructureHPMultiplier: 0.7699999809265137
     TechLevel: 2
+    id: 1319
     name: Expanded Cargohold II
+    volume: 5.0
   Limited Expanded 'Archiver' Cargo:
     CargoCapacityMultiplier: 1.274999976158142
     Hp: 40
@@ -66,7 +78,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1
+    id: 21493
     name: Limited Expanded 'Archiver' Cargo
+    volume: 5.0
   Local Hull Conversion Expanded Cargo I:
     CargoCapacityMultiplier: 1.274999976158142
     Hp: 40
@@ -76,7 +90,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.7900000214576721
     TechLevel: 1
+    id: 5489
     name: Local Hull Conversion Expanded Cargo I
+    volume: 5.0
   Mark I Modified SS Expanded Cargo:
     CargoCapacityMultiplier: 1.2000000476837158
     Hp: 40
@@ -86,7 +102,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.7599999904632568
     TechLevel: 1
+    id: 5487
     name: Mark I Modified SS Expanded Cargo
+    volume: 5.0
   Marked Modified SS Expanded Cargo:
     CargoCapacityMultiplier: 1.1729999780654907
     Hp: 40
@@ -95,7 +113,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 5479
     name: Marked Modified SS Expanded Cargo
+    volume: 5.0
   ORE Expanded Cargohold:
     CargoCapacityMultiplier: 1.2899999618530273
     Hp: 40
@@ -106,7 +126,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.800000011920929
     TechLevel: 1
+    id: 34489
     name: ORE Expanded Cargohold
+    volume: 5.0
   Partial Hull Conversion Expanded Cargo:
     CargoCapacityMultiplier: 1.2419999837875366
     Hp: 40
@@ -115,7 +137,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 5481
     name: Partial Hull Conversion Expanded Cargo
+    volume: 5.0
   Type-D Restrained Expanded Cargo:
     CargoCapacityMultiplier: 1.225000023841858
     Hp: 40
@@ -125,7 +149,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1
+    id: 5493
     name: Type-D Restrained Expanded Cargo
+    volume: 5.0
   Type-E Altered SS Expanded Cargo:
     CargoCapacityMultiplier: 1.1959999799728394
     Hp: 40
@@ -134,4 +160,6 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 5485
     name: Type-E Altered SS Expanded Cargo
+    volume: 5.0

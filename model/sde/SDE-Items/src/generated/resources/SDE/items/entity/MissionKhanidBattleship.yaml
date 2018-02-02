@@ -1,11 +1,21 @@
 items:
   Khanid High Commander:
+    id: 16176
     name: Khanid High Commander
+    volume: 1100000.0
   Khanid Kazmaar:
+    id: 16177
     name: Khanid Kazmaar
+    volume: 1150000.0
   Khanid Kazmaar_2:
+    id: 22753
     name: Khanid Kazmaar_2
+    volume: 1150000.0
   Khanid Mashtori:
+    id: 12392
     name: Khanid Mashtori
+    volume: 120000.0
   Khanid Personnel Transport:
+    id: 16170
     name: Khanid Personnel Transport
+    volume: 1120000.0

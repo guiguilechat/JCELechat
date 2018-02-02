@@ -1,177 +1,353 @@
 items:
   '''Screaming'' Dewak Humfry':
+    id: 19592
     name: '''Screaming'' Dewak Humfry'
+    volume: 1040000.0
   Abufyr Joek:
+    id: 26119
     name: Abufyr Joek
+    volume: 100100.0
   Akkeshu Karuan:
+    id: 25407
     name: Akkeshu Karuan
+    volume: 2.2E7
   Angel Cartel Jailor:
+    id: 17973
     name: Angel Cartel Jailor
+    volume: 1.9E7
   Angel Colonel:
+    id: 26800
     name: Angel Colonel
+    volume: 1.9E7
   Baron Haztari Arkhi:
+    id: 22759
     name: Baron Haztari Arkhi
+    volume: 1150000.0
   Black Caesar:
+    id: 26797
     name: Black Caesar
+    volume: 1140000.0
   Black Jack:
+    id: 25818
     name: Black Jack
+    volume: 1.9E7
   Blood Factory Overseer:
+    id: 26714
     name: Blood Factory Overseer
+    volume: 1100000.0
   Captain Blood Raven:
+    id: 26832
     name: Captain Blood Raven
+    volume: 1150000.0
   Captain Rouge:
+    id: 17413
     name: Captain Rouge
+    volume: 1.9E7
   Centus Colony General:
+    id: 26716
     name: Centus Colony General
+    volume: 100100.0
   Colonial Master Diabolus Maytor:
+    id: 26793
     name: Colonial Master Diabolus Maytor
+    volume: 100100.0
   Commander Terachi TashMurkon:
+    id: 15413
     name: Commander Terachi TashMurkon
+    volume: 1150000.0
   Crimson Lord:
+    id: 17900
     name: Crimson Lord
+    volume: 1150000.0
   Dark Blood Colonel:
+    id: 26803
     name: Dark Blood Colonel
+    volume: 1100000.0
   Dark Blood Hunter:
+    id: 3825
     name: Dark Blood Hunter
+    volume: 1.9E7
   Dark Corpus Preacher:
+    id: 26683
     name: Dark Corpus Preacher
+    volume: 1150000.0
   Dark Templar Uthius:
+    id: 26881
     name: Dark Templar Uthius
+    volume: 1150000.0
   Dread Guristas Colonel:
+    id: 26799
     name: Dread Guristas Colonel
+    volume: 2.2E7
   Dread Guristas Commanding Officer:
+    id: 3821
     name: Dread Guristas Commanding Officer
+    volume: 1.9E7
   Dread Pith Protagonist:
+    id: 26689
     name: Dread Pith Protagonist
+    volume: 2.2E7
   Drone Commandeered Battleship:
+    id: 19620
     name: Drone Commandeered Battleship
+    volume: 1010000.0
   Drone Commandeered Battleship Deluxe:
+    id: 28506
     name: Drone Commandeered Battleship Deluxe
+    volume: 1010000.0
   Effotber's Transit Overseer:
+    id: 20079
     name: Effotber's Transit Overseer
+    volume: 100100.0
   Fleet Commander Naiyon Tai:
+    id: 15415
     name: Fleet Commander Naiyon Tai
+    volume: 1080000.0
   General Hixous Puxley:
+    id: 17745
     name: General Hixous Puxley
+    volume: 1.9E7
   General Luther Veron:
+    id: 15396
     name: General Luther Veron
+    volume: 1140000.0
   General Matar Pol:
+    id: 22716
     name: General Matar Pol
+    volume: 850000.0
   Gist Domination Murderer:
+    id: 26679
     name: Gist Domination Murderer
+    volume: 1.9E7
   Hashi Keptzh:
+    id: 28863
     name: Hashi Keptzh
+    volume: 1.9E7
   Hierarchy Hive Queen:
+    id: 26772
     name: Hierarchy Hive Queen
+    volume: 1010000.0
   High Ritualist Padio Atour:
+    id: 26745
     name: High Ritualist Padio Atour
+    volume: 1150000.0
   Independence Queen:
+    id: 26770
     name: Independence Queen
+    volume: 1010000.0
   Jorun 'Red Legs' Greaves:
+    id: 26807
     name: Jorun 'Red Legs' Greaves
+    volume: 1.9E7
   Kalorr Makur:
+    id: 25848
     name: Kalorr Makur
+    volume: 1150000.0
   Lazron Kamon_:
+    id: 26264
     name: Lazron Kamon_
+    volume: 1.9E7
   Martokar Alash:
+    id: 26118
     name: Martokar Alash
+    volume: 1.9E7
   Mutated Drone Parasite:
+    id: 25374
     name: Mutated Drone Parasite
+    volume: 1010000.0
   Naberius Marquis:
+    id: 26798
     name: Naberius Marquis
+    volume: 100100.0
   Overseer Skomener Effotber:
+    id: 20080
     name: Overseer Skomener Effotber
+    volume: 100100.0
   Pashan's Battle-Commander:
+    id: 25865
     name: Pashan's Battle-Commander
+    volume: 100100.0
   Phi-Operation Protector:
+    id: 17412
     name: Phi-Operation Protector
+    volume: 1140000.0
   Piran Ketoisa:
+    id: 25873
     name: Piran Ketoisa
+    volume: 2.2E7
   Privateer Admiral Heysus Sarpati:
+    id: 26796
     name: Privateer Admiral Heysus Sarpati
+    volume: 1140000.0
   Purple Particle Research Patrol:
+    id: 17744
     name: Purple Particle Research Patrol
+    volume: 1.9E7
   Radiant Hive Mother:
+    id: 26771
     name: Radiant Hive Mother
+    volume: 1010000.0
   Rogue Drone Liaisons Captain:
+    id: 26769
     name: Rogue Drone Liaisons Captain
+    volume: 1010000.0
   Rogue Drone Saboteur:
+    id: 25886
     name: Rogue Drone Saboteur
+    volume: 1010000.0
   Rubin Sozar:
+    id: 26844
     name: Rubin Sozar
+    volume: 1.9E7
   Sansha Corpse Collector:
+    id: 19731
     name: Sansha Corpse Collector
+    volume: 100100.0
   Sansha Shipyard Foreman:
+    id: 26757
     name: Sansha Shipyard Foreman
+    volume: 100100.0
   Sansha's Slave Master:
+    id: 25995
     name: Sansha's Slave Master
+    volume: 100100.0
   Security Maintenance Facility Overseer:
+    id: 25578
     name: Security Maintenance Facility Overseer
+    volume: 1.9E7
   Security Mining Facility Overseer:
+    id: 25581
     name: Security Mining Facility Overseer
+    volume: 1.9E7
   Security Overseer:
+    id: 25549
     name: Security Overseer
+    volume: 1.9E7
   Sepentis Regional Baron Arain Percourt:
+    id: 26812
     name: Sepentis Regional Baron Arain Percourt
+    volume: 1140000.0
   Serpentis Deadspace Sergeant:
+    id: 20174
     name: Serpentis Deadspace Sergeant
+    volume: 1140000.0
   Serpentis Executive Officer:
+    id: 18565
     name: Serpentis Executive Officer
+    volume: 1140000.0
   Serpentis Holder:
+    id: 26833
     name: Serpentis Holder
+    volume: 1140000.0
   Serpentis Major:
+    id: 20173
     name: Serpentis Major
+    volume: 1140000.0
   Serpentis Procurer:
+    id: 25870
     name: Serpentis Procurer
+    volume: 1010000.0
   Serpentis Regional Baron - Arain Percourt:
+    id: 26818
     name: Serpentis Regional Baron - Arain Percourt
+    volume: 1140000.0
   Serpentis Shipyard Defender:
+    id: 19424
     name: Serpentis Shipyard Defender
+    volume: 1140000.0
   Serpentis Thief:
+    id: 25881
     name: Serpentis Thief
+    volume: 1140000.0
   Serpentis Tournament Host:
+    id: 26810
     name: Serpentis Tournament Host
+    volume: 1010000.0
   Shadow Grand Admiral:
+    id: 26694
     name: Shadow Grand Admiral
+    volume: 1140000.0
   Shadow Serpentis Big Boss:
+    id: 3827
     name: Shadow Serpentis Big Boss
+    volume: 1.9E7
   Shadow Serpentis Colonel:
+    id: 26801
     name: Shadow Serpentis Colonel
+    volume: 1140000.0
   Shadow Serpentis Thief:
+    id: 25884
     name: Shadow Serpentis Thief
+    volume: 1140000.0
   Supply Headman:
+    id: 17746
     name: Supply Headman
+    volume: 1.9E7
   Supreme Hive Defender:
+    id: 19704
     name: Supreme Hive Defender
+    volume: 1010000.0
   Supreme Hive Defender Deluxe:
+    id: 28509
     name: Supreme Hive Defender Deluxe
+    volume: 1010000.0
   Swarm Parasite Worker:
+    id: 19701
     name: Swarm Parasite Worker
+    volume: 1010000.0
   Swarm Parasite Worker Deluxe:
+    id: 28507
     name: Swarm Parasite Worker Deluxe
+    volume: 1010000.0
   Terrorist Overlord Inzi Kika:
+    id: 26749
     name: Terrorist Overlord Inzi Kika
+    volume: 2.2E7
   TestProphetBlood:
+    id: 25808
     name: TestProphetBlood
+    volume: 1150000.0
   The Antimatter Channeler:
+    id: 17749
     name: The Antimatter Channeler
+    volume: 1.9E7
   The Battlestation Admiral:
+    id: 17142
     name: The Battlestation Admiral
+    volume: 1.9E7
   The Stronghold General:
+    id: 17162
     name: The Stronghold General
+    volume: 1.9E7
   Tritan - The Underground Overseer:
+    id: 17141
     name: Tritan - The Underground Overseer
+    volume: 1.9E7
   True Centus Preacher:
+    id: 26692
     name: True Centus Preacher
+    volume: 100100.0
   True Creation's Park Overseer:
+    id: 20078
     name: True Creation's Park Overseer
+    volume: 100100.0
   True Sansha Archduke:
+    id: 3823
     name: True Sansha Archduke
+    volume: 1.9E7
   True Sansha's Colonel:
+    id: 26802
     name: True Sansha's Colonel
+    volume: 100100.0
   Uehiro Katsen:
+    id: 28864
     name: Uehiro Katsen
+    volume: 1140000.0
   Warlord Shaqil Dragat:
+    id: 15414
     name: Warlord Shaqil Dragat
+    volume: 850000.0
   Watch Officer:
+    id: 19423
     name: Watch Officer
+    volume: 1.9E7

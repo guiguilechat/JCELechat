@@ -1,7 +1,13 @@
 items:
   Mordu's Legion Battleship:
+    id: 33886
     name: Mordu's Legion Battleship
+    volume: 486000.0
   Mordu's Legion Commander:
+    id: 33888
     name: Mordu's Legion Commander
+    volume: 2.2E7
   Mordu's Legion Cruiser:
+    id: 33887
     name: Mordu's Legion Cruiser
+    volume: 92000.0

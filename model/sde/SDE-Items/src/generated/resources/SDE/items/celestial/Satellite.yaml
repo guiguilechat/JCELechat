@@ -2,4 +2,6 @@ items:
   District Satellite:
     ProximityRange: 10000
     Untargetable: 1
+    id: 32884
     name: District Satellite
+    volume: 1.0

@@ -7,7 +7,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 28415
     name: Compressed Golden Omber
+    volume: 0.3
   Compressed Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -16,7 +18,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 28416
     name: Compressed Omber
+    volume: 0.3
   Compressed Platinoid Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -25,7 +29,9 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 46700
     name: Compressed Platinoid Omber
+    volume: 0.3
   Compressed Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -34,7 +40,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 28417
     name: Compressed Silvery Omber
+    volume: 0.3
   Golden Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -45,7 +53,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 17868
     name: Golden Omber
+    volume: 0.6
   Mercium:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -53,7 +63,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 28619
     name: Mercium
+    volume: 0.6
   Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -64,7 +76,9 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 1227
     name: Omber
+    volume: 0.6
   Platinoid Omber:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -75,7 +89,9 @@ items:
     OreBasicType: 46684
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 46684
     name: Platinoid Omber
+    volume: 0.6
   Silvery Omber:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -86,4 +102,6 @@ items:
     OreBasicType: 1227
     ReprocessingSkillType: 12190
     RequiredSkill1: 3386
+    id: 17867
     name: Silvery Omber
+    volume: 0.6

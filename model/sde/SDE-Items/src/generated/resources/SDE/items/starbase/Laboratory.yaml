@@ -23,7 +23,9 @@ items:
     SignatureRadius: 2000
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
+    id: 28351
     name: Design Laboratory
+    volume: 3000.0
   Experimental Laboratory:
     AnchoringDelay: 5000
     ArmorHP: 2000
@@ -46,7 +48,9 @@ items:
     SignatureRadius: 2000
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
+    id: 24567
     name: Experimental Laboratory
+    volume: 3000.0
   Hyasyoda Research Laboratory:
     AnchoringDelay: 5000
     ArmorHP: 2000
@@ -72,7 +76,9 @@ items:
     SignatureRadius: 2000
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
+    id: 32245
     name: Hyasyoda Research Laboratory
+    volume: 3000.0
   Research Laboratory:
     AnchoringDelay: 5000
     ArmorHP: 2000
@@ -97,4 +103,6 @@ items:
     SignatureRadius: 2000
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
+    id: 16216
     name: Research Laboratory
+    volume: 3000.0

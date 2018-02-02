@@ -20,4 +20,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     ResistanceShiftAmount: 6
     TechLevel: 1
+    id: 4403
     name: Reactive Armor Hardener
+    volume: 25.0

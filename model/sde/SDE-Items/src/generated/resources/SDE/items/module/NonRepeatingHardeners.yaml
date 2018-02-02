@@ -14,7 +14,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     ThermalDamageResistanceBonus: -70.0
+    id: 46012
     name: testArmorMod_PLACEHOLDER
+    volume: 5.0
   testShieldMod_PLACEHOLDER:
     Cpu: 44.0
     DisallowRepeatingActivation: 1
@@ -30,4 +32,6 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     ThermalDamageResistanceBonus: -70.0
+    id: 46010
     name: testShieldMod_PLACEHOLDER
+    volume: 5.0

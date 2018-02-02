@@ -8,7 +8,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 16535
     name: '''Copasetic'' Particle Field Acceleration'
+    volume: 5.0
   '''Glycerine'' Shield Boost Amplifier':
     HeatDamageBonus: 100
     Hp: 40
@@ -19,7 +21,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 20613
     name: '''Glycerine'' Shield Boost Amplifier'
+    volume: 5.0
   '''Stalwart'' Particle Field Magnifier':
     HeatDamageBonus: 100
     Hp: 40
@@ -29,7 +33,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 16533
     name: '''Stalwart'' Particle Field Magnifier'
+    volume: 5.0
   5a Prototype Shield Support I:
     HeatDamageBonus: 100
     Hp: 40
@@ -39,7 +45,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 16531
     name: 5a Prototype Shield Support I
+    volume: 5.0
   Caldari Navy Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -50,7 +58,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
     TechLevel: 1
+    id: 15905
     name: Caldari Navy Shield Boost Amplifier
+    volume: 5.0
   Domination Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -61,7 +71,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 32.5
     TechLevel: 1
+    id: 14045
     name: Domination Shield Boost Amplifier
+    volume: 5.0
   Dread Guristas Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -72,7 +84,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
     TechLevel: 1
+    id: 14047
     name: Dread Guristas Shield Boost Amplifier
+    volume: 5.0
   Estamel's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -83,7 +97,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 45.0
     TechLevel: 1
+    id: 14714
     name: Estamel's Modified Shield Boost Amplifier
+    volume: 5.0
   Gist A-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -94,7 +110,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.0
     TechLevel: 1
+    id: 19293
     name: Gist A-Type Shield Boost Amplifier
+    volume: 5.0
   Gist B-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -105,7 +123,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 37.5
     TechLevel: 1
+    id: 19299
     name: Gist B-Type Shield Boost Amplifier
+    volume: 5.0
   Gist C-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -116,7 +136,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 35.75
     TechLevel: 1
+    id: 19297
     name: Gist C-Type Shield Boost Amplifier
+    volume: 5.0
   Gist X-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -127,7 +149,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125
     TechLevel: 1
+    id: 19301
     name: Gist X-Type Shield Boost Amplifier
+    volume: 5.0
   Hakim's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -138,7 +162,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 35.75
     TechLevel: 1
+    id: 14636
     name: Hakim's Modified Shield Boost Amplifier
+    volume: 5.0
   Ionic Field Accelerator I:
     HeatDamageBonus: 100
     Hp: 40
@@ -148,7 +174,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 16529
     name: Ionic Field Accelerator I
+    volume: 5.0
   Kaikka's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -159,7 +187,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.375
     TechLevel: 1
+    id: 14708
     name: Kaikka's Modified Shield Boost Amplifier
+    volume: 5.0
   Pith A-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -170,7 +200,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125
     TechLevel: 1
+    id: 19311
     name: Pith A-Type Shield Boost Amplifier
+    volume: 5.0
   Pith B-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -181,7 +213,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 41.25
     TechLevel: 1
+    id: 19303
     name: Pith B-Type Shield Boost Amplifier
+    volume: 5.0
   Pith C-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -192,7 +226,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.375
     TechLevel: 1
+    id: 19289
     name: Pith C-Type Shield Boost Amplifier
+    volume: 5.0
   Pith X-Type Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -203,7 +239,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 45.0
     TechLevel: 1
+    id: 19295
     name: Pith X-Type Shield Boost Amplifier
+    volume: 5.0
   Republic Fleet Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -214,7 +252,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 32.5
     TechLevel: 1
+    id: 15907
     name: Republic Fleet Shield Boost Amplifier
+    volume: 5.0
   Shield Boost Amplifier I:
     HeatDamageBonus: 100
     Hp: 40
@@ -223,7 +263,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 30.0
     TechLevel: 1
+    id: 11561
     name: Shield Boost Amplifier I
+    volume: 25.0
   Shield Boost Amplifier II:
     HeatDamageBonus: 100
     Hp: 40
@@ -233,7 +275,9 @@ items:
     RequiredSkill1Level: 5
     ShieldBoostMultiplier: 36.0
     TechLevel: 2
+    id: 24443
     name: Shield Boost Amplifier II
+    volume: 5.0
   Thon's Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -244,7 +288,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 41.25
     TechLevel: 1
+    id: 14710
     name: Thon's Modified Shield Boost Amplifier
+    volume: 5.0
   Tobias' Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -255,7 +301,9 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 39.0
     TechLevel: 1
+    id: 14638
     name: Tobias' Modified Shield Boost Amplifier
+    volume: 5.0
   Vepas' Modified Shield Boost Amplifier:
     HeatDamageBonus: 100
     Hp: 40
@@ -266,4 +314,6 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 43.125
     TechLevel: 1
+    id: 14712
     name: Vepas' Modified Shield Boost Amplifier
+    volume: 5.0
