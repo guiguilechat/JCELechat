@@ -44,6 +44,6 @@ public abstract class Asteroid
     }
 
     public static Map<String, ? extends Asteroid> loadCategory() {
-        return Stream.of(Hedbergite.load(), Mercoxit.load(), Jaspet.load(), Scordite.load(), Spodumain.load(), AncientCompressedIce.load(), UncommonMoonAsteroids.load(), Arkonor.load(), RareMoonAsteroids.load(), Veldspar.load(), Pyroxeres.load(), Plagioclase.load(), Kernite.load(), UbiquitousMoonAsteroids.load(), Bistot.load(), DarkOchre.load(), Hemorphite.load(), EmpireAsteroids.load(), Omber.load(), Crokite.load(), Gneiss.load(), CommonMoonAsteroids.load(), ExceptionalMoonAsteroids.load(), Ice.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AncientCompressedIce.load(), Arkonor.load(), Bistot.load(), CommonMoonAsteroids.load(), Crokite.load(), DarkOchre.load(), EmpireAsteroids.load(), ExceptionalMoonAsteroids.load(), Gneiss.load(), Hedbergite.load(), Hemorphite.load(), Ice.load(), Jaspet.load(), Kernite.load(), Mercoxit.load(), Omber.load(), Plagioclase.load(), Pyroxeres.load(), RareMoonAsteroids.load(), Scordite.load(), Spodumain.load(), UbiquitousMoonAsteroids.load(), UncommonMoonAsteroids.load(), Veldspar.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

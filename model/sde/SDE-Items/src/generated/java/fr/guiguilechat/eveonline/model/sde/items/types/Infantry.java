@@ -37,6 +37,6 @@ public abstract class Infantry
     }
 
     public static Map<String, ? extends Infantry> loadCategory() {
-        return Stream.of(Agents.load(), VisualCustomization.load(), BattleSalvage.load(), InfantryWeapons.load(), InfantryModules.load(), InfantrySkills.load(), InfantryDropsuits.load(), InfantrySkillEnhancers.load(), SalvageDecryptors.load(), InfantryEquipment.load(), SurfaceInfrastructure.load(), Warbarge.load(), InfantryVehicles.load(), Services.load(), SalvageContainers.load(), InfantryInstallations.load(), InfantryColorSkin.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Agents.load(), BattleSalvage.load(), InfantryColorSkin.load(), InfantryDropsuits.load(), InfantryEquipment.load(), InfantryInstallations.load(), InfantryModules.load(), InfantrySkillEnhancers.load(), InfantrySkills.load(), InfantryVehicles.load(), InfantryWeapons.load(), SalvageContainers.load(), SalvageDecryptors.load(), Services.load(), SurfaceInfrastructure.load(), VisualCustomization.load(), Warbarge.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

@@ -23,6 +23,6 @@ public abstract class Effects
     }
 
     public static Map<String, ? extends Effects> loadCategory() {
-        return Stream.of(ParticleSystems.load(), LensFlares.load(), AnimatedLights.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AnimatedLights.load(), LensFlares.load(), ParticleSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }
