@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
@@ -173,25 +172,6 @@ public class YamlDatabase extends EveDatabase {
 			}
 		}
 		return metainfs;
-	}
-
-
-	protected ArrayList<LPOffer> lpoffers = null;
-
-	@Override
-	public synchronized ArrayList<LPOffer> getLPOffers() {
-		if (lpoffers == null) {
-			logger.debug("loading lpoffers");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LPOFFERS_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				lpoffers = db.lpoffers;
-			} else {
-				System.err.println("can't load lpoffers");
-				lpoffers = new ArrayList<>();
-			}
-		}
-		return lpoffers;
 	}
 
 }

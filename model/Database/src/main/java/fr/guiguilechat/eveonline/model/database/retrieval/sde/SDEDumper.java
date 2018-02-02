@@ -4,15 +4,12 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,13 +21,10 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
@@ -39,9 +33,6 @@ import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
-import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 
 /** load SDE, convert it into db, store the db, and allow to load it. */
 public class SDEDumper {
@@ -146,10 +137,6 @@ public class SDEDumper {
 		dbMetaInfs.metaInfs = db.metaInfs;
 		YamlDatabase.write(dbMetaInfs, dbMetaInfFile());
 
-		DatabaseFile dbLPOffers = new DatabaseFile();
-		dbLPOffers.lpoffers = db.lpoffers;
-		YamlDatabase.write(dbLPOffers, dbLPOffersFile());
-
 		DatabaseFile dbHulls = new DatabaseFile();
 		dbHulls.hulls = db.hulls;
 		YamlDatabase.write(dbHulls, dbHullsFile());
@@ -171,9 +158,6 @@ public class SDEDumper {
 
 		// those two must remains at the end because they need the other
 		// informations.
-
-		logger.info("loading lpoffers");
-		loadLPOffers(sde, db);
 
 		logger.info("missings ids " + sde.missings);
 
@@ -511,70 +495,6 @@ public class SDEDumper {
 				}
 			}
 		}
-	}
-
-	public static void loadLPOffers(SDEData sde, DatabaseFile db) {
-		IntStream.of(ESIConnection.DISCONNECTED.raw.get_corporations_npccorps(null)).parallel()
-		.mapToObj(i -> streamoffers(i, sde))
-		.flatMap(s -> s)
-		.forEachOrdered(db.lpoffers::add);
-		// lp offers are sorted by corporation, offer name
-		Collections.sort(db.lpoffers, (o1, o2) -> {
-			int ret = o1.corporation.compareTo(o2.corporation);
-			if (ret == 0) {
-				ret = o1.offer_name.compareTo(o2.offer_name);
-			}
-			if (ret == 0) {
-				ret = o1.requirements.lp - o2.requirements.lp;
-			}
-			if (ret == 0) {
-				ret = o1.requirements.isk - o2.requirements.isk;
-			}
-			return ret;
-		});
-	}
-
-	protected static Stream<LPOffer> streamoffers(int corpid, SDEData sde) {
-		R_get_corporations_corporation_id corp = ESIConnection.DISCONNECTED.raw.get_corporations_corporation_id(corpid,
-				null);
-		R_get_loyalty_stores_corporation_id_offers[] offers = ESIConnection.DISCONNECTED.raw
-				.get_loyalty_stores_corporation_id_offers(corpid, null);
-		return corp != null && offers != null ? Stream.of(offers).map(o -> {
-			LPOffer lpo = new LPOffer();
-			if (corp.name == null) {
-				throw new NullPointerException("corp " + corpid + " has null name ?");
-			}
-			lpo.corporation = corp.name;
-			lpo.requirements.isk += o.isk_cost;
-			lpo.requirements.lp += o.lp_cost;
-			lpo.offer_name = sde.getType(o.type_id).enName();
-			lpo.id = o.offer_id;
-
-			for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
-				ItemRef translated = new ItemRef();
-				translated.quantity = ir.quantity;
-				translated.type_id = ir.type_id;
-				lpo.requirements.items.add(translated);
-			}
-
-			Eblueprints bp = sde.getBlueprints().get(o.type_id);
-
-			if (bp != null) {// the lp offers a BPC
-				for (Material m : bp.activities.manufacturing.materials) {
-					ItemRef translated = new ItemRef();
-					translated.quantity = m.quantity * o.quantity;
-					translated.type_id = m.typeID;
-					lpo.requirements.items.add(translated);
-				}
-				Material prod = bp.activities.manufacturing.products.get(0);
-				lpo.product.type_id = prod.typeID;
-				lpo.product.quantity = prod.quantity * o.quantity;
-			} else {// the lp offers a non-bpc
-				lpo.product.quantity = o.quantity;
-				lpo.product.type_id = o.type_id;
-			}
-			return lpo;
-		}).filter(lpo -> lpo != null) : Stream.empty();
 	}
 
 }
