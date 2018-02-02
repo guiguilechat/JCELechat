@@ -13,6 +13,7 @@ import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
 
@@ -69,7 +70,7 @@ public class InventionGainAlgorithm {
 			return Collections.emptyList();
 		}
 		Material product = bpc.manufacturing.products.get(0);
-		int prodID = db.getId(product.name);
+		int prodID = MetaInf.getItem(product.name).id;
 
 		StructBonus copyStruct = InventerToolPane.StructBonus.valueOf(params.copystruct);
 		StructBonus inventStruct = InventerToolPane.StructBonus.valueOf(params.inventstruct);
@@ -78,13 +79,15 @@ public class InventionGainAlgorithm {
 		// the Estimated Item Value of the bpo. used for copying and manufacturing
 		double bpoEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0
 				: bpo.manufacturing.materials.parallelStream()
-				.mapToDouble(mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(db.getId(mat.name)))
+				.mapToDouble(
+						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
 		// Estimated Item Value of the bpc. when manufacturing, used as a base for
 		// tax.
 		double bpcEIV = bpc.manufacturing == null || bpc.manufacturing.materials == null ? 0
 				: bpc.manufacturing.materials.parallelStream()
-				.mapToDouble(mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(db.getId(mat.name)))
+				.mapToDouble(
+						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
 
 		// first we need to copy the bpo into a bpc.
@@ -149,7 +152,7 @@ public class InventionGainAlgorithm {
 				int nbCyclesFinal = nbCycles;
 
 				double copyCostSO = copyInstalation
-						+ bpo.copying.materials.parallelStream().mapToDouble(m -> market.getSO(db.getId(m.name),
+						+ bpo.copying.materials.parallelStream().mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id,
 								nbCyclesFinal * (m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME)))).sum() / nbCycles;
 
 				// estimate the ceil number off items solds, then average it back to
@@ -170,7 +173,7 @@ public class InventionGainAlgorithm {
 				double inventionCostSO = inventionInstall
 						// add the required materials cost
 						+ bpo.invention.materials.parallelStream()
-						.mapToDouble(m -> market.getSO(db.getId(m.name), nbCyclesFinal * m.quantity)).sum() / nbCycles
+								.mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id, nbCyclesFinal * m.quantity)).sum() / nbCycles
 						// add the decryptor cost
 						+ (decryptor.id != 0 ? market.getSO(decryptor.id, nbCycles) : 0.0) / nbCycles;
 
@@ -185,7 +188,7 @@ public class InventionGainAlgorithm {
 						+ bpc.manufacturing.materials.parallelStream().mapToDouble(m -> {
 							double bpcQtty = m.quantity * data.inventedRuns * nbCyclesFinal;
 							int qttyBO = (int) Math.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * inventedME) * bpcQtty);
-							return market.getSO(db.getId(m.name), qttyBO) * bpcQtty / qttyBO / nbCyclesFinal;
+							return market.getSO(MetaInf.getItem(m.name).id, qttyBO) * bpcQtty / qttyBO / nbCyclesFinal;
 						}).sum();
 
 				double cycleCostSO = copyCostSO + inventionCostSO + manufacturingCostSO * data.inventionProbability;

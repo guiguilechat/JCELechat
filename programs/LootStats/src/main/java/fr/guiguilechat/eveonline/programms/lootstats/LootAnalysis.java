@@ -18,10 +18,12 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
+import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 
 /**
@@ -35,15 +37,7 @@ public class LootAnalysis {
 	/** number of drop entries in this analysis */
 	public int entries = 0;
 
-	/** avg freq of drop with at least a faction drop */
-	public double factionFreq = 0;
-
-	/** avg freq of drop with at least a non ammo faction drop */
-	public double factionModFreq = 0;
-
 	public ArrayList<String> bps = new ArrayList<>();
-
-	public ArrayList<String> factions = new ArrayList<>();
 
 	/**
 	 * average BO of the loot in Jita
@@ -58,48 +52,31 @@ public class LootAnalysis {
 		LootAnalysis ret = new LootAnalysis();
 		HashMap<Integer, Integer> totalDrop = new HashMap<>();
 		HashSet<String> bps = new HashSet<>();
-		HashSet<String> factions = new HashSet<>();
 		entries.forEach(e -> {
-			ArrayList<Object> containsFaction = new ArrayList<>();
-			ArrayList<Object> containsFactionMod = new ArrayList<>();
 			ArrayList<Object> containsBP = new ArrayList<>();
 			e.loots.forEach((id, nb) -> {
 				totalDrop.put(id, totalDrop.getOrDefault(id, 0) + nb);
-				Type t = db.getTypeById(id);
+				Item t = MetaInf.getItem(id);
 				if (t != null) {
-					if (t.isBlueprint()) {
+					if (t.getCategory().equals(Blueprint.class)) {
 						containsBP.add(null);
 						bps.add(t.name);
-					}
-					if (t.isFaction()) {
-						containsFactionMod.add(null);
-						containsFaction.add(null);
-						factions.add(t.name);
 					}
 				} else {
 					// logger.error("can't find type for id " + id);
 				}
 			});
 			ret.entries++;
-			if (!containsFactionMod.isEmpty()) {
-				ret.factionModFreq++;
-			}
 			if (!containsBP.isEmpty()) {
 				ret.bpcFreq++;
 			}
-			if (!containsFaction.isEmpty()) {
-				ret.factionFreq++;
-			}
 		});
 		if (ret.entries > 0) {
-			ret.factionModFreq /= ret.entries;
 			ret.bpcFreq /= ret.entries;
-			ret.factionFreq /= ret.entries;
 			ret.avgBO = totalDrop.entrySet().parallelStream().mapToDouble(e -> e.getValue() * cost.applyAsDouble(e.getKey()))
 					.sum()
 					/ ret.entries;
 			ret.bps.addAll(bps);
-			ret.factions.addAll(factions);
 			return ret;
 		}
 		return null;

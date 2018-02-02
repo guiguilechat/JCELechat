@@ -19,13 +19,15 @@ import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
+import fr.guiguilechat.eveonline.model.sde.items.types.Module;
+import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 
@@ -46,7 +48,7 @@ public class ProdEval {
 		public double outValue, inValue;
 		public double gain;
 		public double mult;
-		public MetaInf output;
+		public Item output;
 	}
 
 	public List<String[]> apis = new ArrayList<>();
@@ -67,14 +69,13 @@ public class ProdEval {
 	// we accept to produce item which are on accept list and are not on skip
 	// list.
 	// if accept list is empty we only check not on skip list
-	public ArrayList<Predicate<Type>> acceptList = new ArrayList<>();
-	public ArrayList<Predicate<Type>> skipList = new ArrayList<>();
+	public ArrayList<Predicate<Item>> acceptList = new ArrayList<>();
+	public ArrayList<Predicate<Item>> skipList = new ArrayList<>();
 
 	public ToDoubleFunction<BPEval> bpValue = bp -> bp.gain;
 
 	public List<BPEval> evaluateBPs() {
 		YamlDatabase db = new YamlDatabase();
-		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
 		Region hubr = Region.load().get(hub);
 		if (hubr == null) {
 			SolarSystem hubs = SolarSystem.load().get(hub);
@@ -92,8 +93,8 @@ public class ProdEval {
 		// each bpc
 		evaluations.parallelStream().forEach(eval -> {
 			eval.inValue = eval.required.entrySet().parallelStream()
-					.mapToDouble(e -> (intputSO ? market.getSO(metainfs.get(e.getKey()).id, e.getValue())
-							: market.getBO(metainfs.get(e.getKey()).id, e.getValue())) * (1.0 + intTax / 100))
+					.mapToDouble(e -> (intputSO ? market.getSO(MetaInf.getItem(e.getKey()).id, e.getValue())
+							: market.getBO(MetaInf.getItem(e.getKey()).id, e.getValue())) * (1.0 + intTax / 100))
 					.sum();
 			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
 					* (1.0 - outTax / 100);
@@ -122,7 +123,6 @@ public class ProdEval {
 	 * @return
 	 */
 	protected BPEval evalBP(BPEntry bp, EveDatabase db, HashMap<String, Integer> skills) {
-		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
 		LinkedHashMap<String, Blueprint> bps = Blueprint.load();
 
 		// blueprint unknown ??
@@ -133,9 +133,7 @@ public class ProdEval {
 			}
 			return null;
 		}
-		MetaInf outMeta = metainfs.get(bpt.manufacturing.products.get(0).name);
-		// out type unknown? (not in database yet)
-		Type outType = outMeta != null ? db.getTypeById(outMeta.id) : null;
+		Item outMeta = MetaInf.getItem(bpt.manufacturing.products.get(0).name);
 		if (outMeta == null) {
 			if (debug) {
 				logger.debug("item type " + bpt.manufacturing.products.get(0).name + " unknown");
@@ -159,7 +157,7 @@ public class ProdEval {
 			return null;
 		}
 		// does it match the filters ?
-		if (!acceptBP(outType)) {
+		if (!acceptBP(outMeta)) {
 			return null;
 		}
 		BPEval eval = new BPEval();
@@ -176,7 +174,7 @@ public class ProdEval {
 		for (Material mout : bpt.manufacturing.products) {
 			eval.outName = mout.name;
 			eval.outNb = mout.quantity * Math.max(1, bp.runs);
-			eval.output = metainfs.get(mout.name);
+			eval.output = MetaInf.getItem(mout.name);
 		}
 		return eval;
 	}
@@ -187,7 +185,7 @@ public class ProdEval {
 	 * @param bp
 	 * @return
 	 */
-	protected boolean acceptBP(Type item) {
+	protected boolean acceptBP(Item item) {
 		if (item == null) {
 			return acceptList.isEmpty() && skipList.isEmpty();
 		}
@@ -215,21 +213,13 @@ public class ProdEval {
 		return false;
 	}
 
-	public static final Predicate<Type> isShip = t -> t != null && "Ship".equals(t.catName);
-	public static final Predicate<Type> isModule = t -> t != null && "Module".equals(t.catName);
-	public static final Predicate<Type> isT1 = t -> t != null && t.metaLvl < 5;
-	public static final Predicate<Type> isT2 = t -> t != null && t.isT2();
-	public static final Predicate<Type> isStoryline = t -> t != null && t.isStoryline();
-	public static final Predicate<Type> isFaction = t -> t != null && t.isFaction();
+	public static final Predicate<Item> isShip = t -> t != null && Ship.class.equals(t.getCategory());
+	public static final Predicate<Item> isModule = t -> t != null && Module.class.equals(t.getCategory());
 
-	private static final HashMap<String, Predicate<Type>> filters = new HashMap<>();
+	private static final HashMap<String, Predicate<Item>> filters = new HashMap<>();
 	static {
 		filters.put("ship", isShip);
 		filters.put("mod", isModule);
-		filters.put("t1", isT1);
-		filters.put("t2", isT2);
-		filters.put("story", isStoryline);
-		filters.put("faction", isFaction);
 	}
 
 	public static void main(String[] args) {
@@ -259,7 +249,7 @@ public class ProdEval {
 				eval.minmult = Double.parseDouble(arg.substring("minmult=".length()));
 			} else if (arg.startsWith("if")) {
 				String condition = arg.substring("if".length());
-				Predicate<Type> p = filters.get(condition);
+				Predicate<Item> p = filters.get(condition);
 				if (p != null) {
 					eval.acceptList.add(p);
 				} else {
@@ -267,7 +257,7 @@ public class ProdEval {
 				}
 			} else if (arg.startsWith("no")) {
 				String condition = arg.substring("no".length());
-				Predicate<Type> p = filters.get(condition);
+				Predicate<Item> p = filters.get(condition);
 				if (p != null) {
 					eval.skipList.add(p);
 				} else {

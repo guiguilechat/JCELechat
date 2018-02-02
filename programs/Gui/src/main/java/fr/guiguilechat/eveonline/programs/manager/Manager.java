@@ -8,7 +8,6 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -23,10 +22,10 @@ import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.model.apiv2.Eve.EStation;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
@@ -163,7 +162,6 @@ public class Manager extends Application implements EvePane {
 	}
 
 	protected void precache() {
-		db.getMetaInfs();
 		db.getModules();
 		db.getHulls();
 	}
@@ -448,7 +446,6 @@ public class Manager extends Application implements EvePane {
 
 	/** set the requirement in BP to given value for the focused team */
 	public void provisionBP(ProvisionType ptype, Blueprint bp, int requirement) {
-		LinkedHashMap<String, MetaInf> mi = db().getMetaInfs();
 		HashMap<Integer, Integer> proviBP = getTeamProvision(settings.focusedTeam, ptype).blueprints;
 		int diff = requirement - proviBP.getOrDefault(bp.id, 0);
 		if (requirement <= 0) {
@@ -458,7 +455,7 @@ public class Manager extends Application implements EvePane {
 		}
 		HashMap<Integer, Integer> proviTotal = getTeamProvision(settings.focusedTeam, ptype).total;
 		for (Material m : ptype == ProvisionType.MATERIAL ? bp.manufacturing.materials : bp.manufacturing.products) {
-			int mid = mi.get(m.name).id;
+			int mid = MetaInf.getItem(m.name).id;
 			int newQtty = proviTotal.getOrDefault(mid, 0) + m.quantity * diff;
 			if (newQtty > 0) {
 				proviTotal.put(mid, newQtty);

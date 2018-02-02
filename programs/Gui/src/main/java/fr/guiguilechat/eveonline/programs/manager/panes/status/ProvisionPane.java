@@ -8,6 +8,8 @@ import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -23,7 +25,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	public static class ProvisionData {
-		public String item;
+		public Item item;
 		public long required;
 		public long done;
 		public ProvisionType type;
@@ -54,7 +56,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
 		@Override
 		public String toString() {
-			return item;
+			return item.name;
 		}
 	}
 
@@ -73,7 +75,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 		getColumns().add(typeCol);
 
 		TableColumn<ProvisionData, String> desCol = new TableColumn<>("item");
-		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().item));
+		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().item.name));
 		desCol.setMinWidth(400);
 		getColumns().add(desCol);
 
@@ -144,13 +146,14 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 			ProvisionData ret = map.get(itemID);
 			if (ret == null) {
 				ret = new ProvisionData();
-				ret.item = db().getElementById(itemID);
-				ret.team=team;
-				if (ret.item == null) {
-					ret.item="unknown_"+itemID;
+				ret.item = MetaInf.getItem(itemID);
+				if (ret.item != null) {
+					map.put(itemID, ret);
+				} else {
+					ret = null;
 				}
+				ret.team=team;
 				ret.type = ptype;
-				map.put(itemID, ret);
 			}
 			return ret;
 		}

@@ -13,8 +13,6 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, Module> modules = new LinkedHashMap<>();
 
-	public LinkedHashMap<String, MetaInf> metaInfs = new LinkedHashMap<>();
-
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -24,7 +22,6 @@ public class DatabaseFile {
 	public void merge(DatabaseFile db) {
 		hulls.putAll(db.hulls);
 		modules.putAll(db.modules);
-		metaInfs.putAll(db.metaInfs);
 	}
 
 

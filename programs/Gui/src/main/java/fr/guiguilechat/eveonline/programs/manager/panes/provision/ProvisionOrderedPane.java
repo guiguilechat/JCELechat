@@ -7,6 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
@@ -85,8 +87,8 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 		for (ProvisionType p : ProvisionType.values()) {
 			Provision provisions = parent().getTeamProvision(team, p);
 			for (Entry<Integer, Integer> e : provisions.total.entrySet()) {
-				String itemName = db().getElementById(e.getKey());
-				add(new Label(itemName), 1, row);
+				Item item = MetaInf.getItem(e.getKey());
+				add(new Label(item.name), 1, row);
 				add(new Label("" + e.getValue()), 2, row);
 				row++;
 			}
