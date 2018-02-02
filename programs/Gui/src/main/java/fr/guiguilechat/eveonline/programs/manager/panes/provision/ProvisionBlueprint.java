@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -70,7 +70,7 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 			return;
 		}
 		if (blueprints == null) {
-			blueprints = db().getBlueprints();
+			blueprints = Blueprint.load();
 		}
 		filterPane = new HBox(10);
 
@@ -95,10 +95,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 		TableColumn<BPRow, String> namecol = new TableColumn<>("name");
 		namecol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().name));
 		bpsPane.getColumns().add(namecol);
-
-		TableColumn<BPRow, String> groupcol = new TableColumn<>("group");
-		groupcol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().group));
-		bpsPane.getColumns().add(groupcol);
 
 		TableColumn<BPRow, TextField> materialscol = new TableColumn<>("materials");
 		materialscol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().materialField));
@@ -155,7 +151,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 	protected BPRow makeBPNode(Blueprint bp) {
 		BPRow ret = new BPRow();
 		ret.name = bp.name.replaceAll(" Blueprint", "");
-		ret.group = bp.groupName.replaceAll(" Blueprint", "");
 		ret.updatebtn.setOnAction(e -> update(bp, ret.materialField, ret.productField, ret.soField));
 		return ret;
 	}
@@ -177,7 +172,6 @@ public class ProvisionBlueprint extends BorderPane implements EvePane {
 
 	protected static class BPRow {
 		String name;
-		String group;
 		TypedField<Integer> materialField = TypedField.positivIntField(0);
 		TypedField<Integer> productField = TypedField.positivIntField(0);
 		TypedField<Integer> soField = TypedField.positivIntField(0);

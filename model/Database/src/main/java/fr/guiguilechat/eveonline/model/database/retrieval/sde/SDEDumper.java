@@ -16,9 +16,6 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
@@ -28,8 +25,6 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
@@ -129,10 +124,6 @@ public class SDEDumper {
 		dbModules.modules = db.modules;
 		YamlDatabase.write(dbModules, dbModulesFile());
 
-		DatabaseFile dbBlueprints = new DatabaseFile();
-		dbBlueprints.blueprints = db.blueprints;
-		YamlDatabase.write(dbBlueprints, dbBPsFile());
-
 		DatabaseFile dbMetaInfs = new DatabaseFile();
 		dbMetaInfs.metaInfs = db.metaInfs;
 		YamlDatabase.write(dbMetaInfs, dbMetaInfFile());
@@ -148,10 +139,6 @@ public class SDEDumper {
 
 		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
-
-
-		logger.info("loading blueprints");
-		loadBlueprints(sde, db);
 
 		logger.info("loading meta-infs");
 		loadMetaInfs(sde, db);
@@ -413,56 +400,6 @@ public class SDEDumper {
 		return ((Number) ret).intValue();
 	}
 
-	public static void loadBlueprints(SDEData sde, DatabaseFile db) {
-		for (Entry<Integer, Eblueprints> e : sde.getBlueprints().entrySet()) {
-			int id = e.getKey();
-			Eblueprints bp = e.getValue();
-			Blueprint bp2 = new Blueprint();
-			EtypeIDs item = sde.getType(id);
-			if (item == null || !item.published) {
-				continue;
-			}
-			loadTypeInformations(bp2, sde, id);
-			db.blueprints.put(bp2.name, bp2);
-			bp2.copying = convertEblueprint(bp.activities.copying, sde);
-			bp2.invention = convertEblueprint(bp.activities.invention, sde);
-			bp2.manufacturing = convertEblueprint(bp.activities.manufacturing, sde);
-			bp2.research_material = convertEblueprint(bp.activities.research_material, sde);
-			bp2.research_time = convertEblueprint(bp.activities.research_time, sde);
-			bp2.reaction = convertEblueprint(bp.activities.reaction, sde);
-		}
-	}
-
-	public static Activity convertEblueprint(
-			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity,
-			SDEData sde) {
-		Activity ret = new Activity();
-		ret.time = activity.time;
-		activity.materials.stream().map(m -> convertMaterial(m, sde)).forEach(ret.materials::add);
-		activity.products.stream().map(p -> convertMaterial(p, sde)).forEach(ret.products::add);
-		activity.skills.stream().map(s -> convertSkill(s, sde)).forEach(ret.skills::add);
-		return ret;
-	}
-
-	public static fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material convertMaterial(Material sdeMat,
-			SDEData sde) {
-		fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material ret = new fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material();
-		ret.quantity = sdeMat.quantity;
-		EtypeIDs item = sde.getType(sdeMat.typeID);
-		ret.name = item == null ? "unknown_" + sdeMat.typeID : item.enName();
-		ret.probability = sdeMat.probability;
-		return ret;
-	}
-
-	public static fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill convertSkill(
-			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Skill skill, SDEData sde) {
-		fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill ret = new Skill();
-		ret.level = skill.level;
-		ret.name = sde.getType(skill.typeID).enName();
-		// skill_id = skill.typeID;
-		return ret;
-	}
-
 	public static void loadMetaInfs(SDEData sde, DatabaseFile db) {
 		for (Entry<Integer, EtypeIDs> e : sde.getTypeIDs().entrySet()) {
 			EtypeIDs item = e.getValue();
@@ -471,28 +408,6 @@ public class SDEDumper {
 				mi.id = e.getKey();
 				mi.volume = e.getValue().volume;
 				db.metaInfs.put(item.enName(), mi);
-			}
-		}
-		for (Entry<String, Blueprint> e : db.blueprints.entrySet()) {
-			Blueprint bp = e.getValue();
-			for (Activity act : new Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
-					bp.research_time, bp.reaction }) {
-				for (fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material mat : act.products) {
-					MetaInf mi = db.metaInfs.get(mat.name);
-					if (mi == null) {
-						mi = new MetaInf();
-						db.metaInfs.put(mat.name, mi);
-					}
-					mi.productOf.add(bp.name);
-				}
-				for (fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material mat : act.materials) {
-					MetaInf mi = db.metaInfs.get(mat.name);
-					if (mi == null) {
-						mi = new MetaInf();
-						db.metaInfs.put(mat.name, mi);
-					}
-					mi.productIn.add(bp.name);
-				}
 			}
 		}
 	}

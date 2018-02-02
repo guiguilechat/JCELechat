@@ -6,7 +6,7 @@ import java.util.Map.Entry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
@@ -49,7 +49,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 		}
 		if (bpsbyId == null) {
 			bpsbyId = new LinkedHashMap<>();
-			for (Blueprint bp : db().getBlueprints().values()) {
+			for (Blueprint bp : Blueprint.load().values()) {
 				bpsbyId.put(bp.id, bp);
 			}
 		}

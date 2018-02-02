@@ -10,9 +10,9 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -207,7 +207,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 	}
 
 	protected Stream<Blueprint> blueprints(Map<String, Integer> skills) {
-		Stream<Blueprint> ret = db().getBlueprints().values().stream().parallel()
+		Stream<Blueprint> ret = Blueprint.load().values().stream().parallel()
 				.filter(bp -> bp != null && bp.invention != null && !bp.invention.products.isEmpty() && bp.copying != null)
 				.filter(bp -> InventionGainAlgorithm.haveReqSkills(skills, bp.copying.skills)
 						&& InventionGainAlgorithm.haveReqSkills(skills, bp.invention.skills));

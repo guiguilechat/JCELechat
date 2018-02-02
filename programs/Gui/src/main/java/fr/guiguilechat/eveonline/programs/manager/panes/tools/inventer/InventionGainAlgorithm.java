@@ -1,19 +1,18 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
 
@@ -65,7 +64,7 @@ public class InventionGainAlgorithm {
 	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
 			Map<String, Integer> skills, YamlDatabase db, InventionParams params, RegionalMarket market) {
 		// the bpc selected
-		Blueprint bpc = db.getBlueprints().get(selectedbpc.name);
+		Blueprint bpc = Blueprint.load().get(selectedbpc.name);
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
 			return Collections.emptyList();
 		}
@@ -114,9 +113,9 @@ public class InventionGainAlgorithm {
 			data.inventedRuns = selectedbpc.quantity + decryptor.maxrun;
 			int inventedME = 2 + decryptor.me;
 			int inventedTE = 4 + decryptor.te;
-			int engSkills = bpo.invention.skills.stream().map(s -> s.name).filter(s -> !s.contains("Encryption"))
+			int engSkills = bpo.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
 					.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
-			int encSkill = bpo.invention.skills.stream().map(s -> s.name).filter(s -> s.contains("Encryption"))
+			int encSkill = bpo.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
 					.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
 
 			// that is the probability to success for each run.
@@ -136,9 +135,9 @@ public class InventionGainAlgorithm {
 					// struct bonus
 					* (1.0 - 0.01 * manufStruct.te) * (1.0 - 0.04 * skills.getOrDefault("Industry", 0))
 					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
-			for (Skill s : bpc.manufacturing.skills) {
-				if (!s.name.contains("Industry")) {
-					data.manufacturingTime *= 1.0 - 0.01 * skills.getOrDefault(s.name, 0);
+			for (String skillName : bpc.manufacturing.skills.keySet()) {
+				if (!skillName.contains("Industry")) {
+					data.manufacturingTime *= 1.0 - 0.01 * skills.getOrDefault(skillName, 0);
 				}
 			}
 
@@ -293,9 +292,9 @@ public class InventionGainAlgorithm {
 	 * check if a list of required skills are available to a list of existing
 	 * skills
 	 */
-	public static boolean haveReqSkills(Map<String, Integer> myskills, ArrayList<Skill> reqSkills) {
-		for (Skill s : reqSkills) {
-			if (myskills.getOrDefault(s.name, 0) < s.level) {
+	public static boolean haveReqSkills(Map<String, Integer> myskills, Map<String, Integer> reqSkills) {
+		for (Entry<String, Integer> s : reqSkills.entrySet()) {
+			if (myskills.getOrDefault(s.getKey(), 0) < s.getValue()) {
 				return false;
 			}
 		}

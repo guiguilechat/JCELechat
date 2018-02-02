@@ -137,25 +137,6 @@ public class YamlDatabase extends EveDatabase {
 		}
 		return modules;
 	}
-
-	protected LinkedHashMap<String, Blueprint> blueprints = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Blueprint> getBlueprints() {
-		if (blueprints == null) {
-			logger.debug("loading blueprints");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_BLUEPRINT_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				blueprints = db.blueprints;
-			} else {
-				System.err.println("can't load blueprints");
-				blueprints = new LinkedHashMap<>();
-			}
-		}
-		return blueprints;
-	}
-
 	protected LinkedHashMap<String, MetaInf> metainfs = null;
 
 	@Override

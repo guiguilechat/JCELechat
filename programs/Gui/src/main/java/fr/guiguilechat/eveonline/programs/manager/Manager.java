@@ -23,10 +23,10 @@ import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.model.apiv2.Eve.EStation;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
@@ -166,7 +166,6 @@ public class Manager extends Application implements EvePane {
 		db.getMetaInfs();
 		db.getModules();
 		db.getHulls();
-		db.getBlueprints();
 	}
 
 	protected void checkAPIOrSetOptionsTab() {
