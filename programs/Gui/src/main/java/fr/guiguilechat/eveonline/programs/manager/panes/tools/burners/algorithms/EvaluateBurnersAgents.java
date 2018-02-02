@@ -10,10 +10,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
+import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.LPCorpEvaluator.OfferAnalysis;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.SysBurnerEvaluator.SystemData;
@@ -93,8 +93,8 @@ public class EvaluateBurnersAgents {
 	}
 
 	public Stream<Agent> getPossibleAgents() {
-		Stream<Agent> ret = db.getAgents().values().parallelStream()
-				.filter(a -> "Security".equals(a.division) && "BasicAgent".equals(a.agentType) && isHSSystem(a.system)
+		Stream<Agent> ret = Agent.load().values().parallelStream()
+				.filter(a -> "Security".equals(a.type) && "BasicAgent".equals(a.type) && isHSSystem(a.system)
 						&& a.level == 4);
 		ret = ret.filter(a -> acceptCorp(a.corporation));
 		return ret;

@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -12,7 +11,6 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -21,7 +19,6 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
@@ -35,10 +32,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
-import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
@@ -155,10 +150,6 @@ public class SDEDumper {
 		dbLPOffers.lpoffers = db.lpoffers;
 		YamlDatabase.write(dbLPOffers, dbLPOffersFile());
 
-		DatabaseFile dbAgents = new DatabaseFile();
-		dbAgents.agents = db.agents;
-		YamlDatabase.write(dbAgents, dbAgentsFile());
-
 		DatabaseFile dbHulls = new DatabaseFile();
 		dbHulls.hulls = db.hulls;
 		YamlDatabase.write(dbHulls, dbHullsFile());
@@ -183,9 +174,6 @@ public class SDEDumper {
 
 		logger.info("loading lpoffers");
 		loadLPOffers(sde, db);
-
-		logger.info("loading agents");
-		loadAgents(sde, db);
 
 		logger.info("missings ids " + sde.missings);
 
@@ -587,39 +575,6 @@ public class SDEDumper {
 			}
 			return lpo;
 		}).filter(lpo -> lpo != null) : Stream.empty();
-	}
-
-	public static void loadAgents(SDEData sde, DatabaseFile db) {
-		Map<Integer, R_get_corporations_corporation_id> corps = IntStream
-				.of(ESIConnection.DISCONNECTED.raw.get_corporations_npccorps(null)).parallel().mapToObj(l -> l).collect(
-						Collectors.toMap(l -> l, l -> ESIConnection.DISCONNECTED.raw.get_corporations_corporation_id(l, null)));
-
-		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
-		HashMap<Integer, String> agtTypes = sde.getAgentTypes();
-		HashMap<Integer, String> crpDivisions = sde.getNPCDivisions();
-		Map<Long, String> names = Stream.of(ESIConnection.DISCONNECTED.raw
-				.get_characters_names(sdeAgents.stream().mapToLong(a -> a.agentID).toArray(), null))
-				.collect(Collectors.toMap(n -> n.character_id, n -> n.character_name));
-		Map<Integer, EstaStations> stations = sde.getStations();
-		Map<Integer, String> system2Name = new HashMap<>();
-
-		sdeAgents.parallelStream().map(ea -> {
-			Agent ag = new Agent();
-			ag.agentID = ea.agentID;
-			ag.name = names.get(ag.agentID);
-			R_get_corporations_corporation_id corp = corps.get(ea.corporationID);
-			ag.corporation = corp.name;
-			ag.isLocator = ea.isLocator;
-			ag.level = ea.level;
-			ag.agentType = agtTypes.get(ea.agentTypeID);
-			ag.division = crpDivisions.get(ea.divisionID);
-			EstaStations station = stations.get(ea.locationID);
-			if (station != null) {
-				ag.location = station.stationName;
-				ag.system = system2Name.get(station.solarSystemID);
-			}
-			return ag;
-		}).sorted((a1, a2) -> a1.name.compareTo(a2.name)).forEachOrdered(a -> db.agents.put(a.name, a));
 	}
 
 }

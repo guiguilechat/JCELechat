@@ -60,5 +60,6 @@ public class Agent {
 	public String station;
 
 	public String type;
+	public String division;
 
 }

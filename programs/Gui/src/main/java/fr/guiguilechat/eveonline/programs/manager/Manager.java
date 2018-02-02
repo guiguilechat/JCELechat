@@ -163,7 +163,6 @@ public class Manager extends Application implements EvePane {
 	}
 
 	protected void precache() {
-		db().getAgents();
 		db.getMetaInfs();
 		db.getLPOffers();
 		db.getModules();

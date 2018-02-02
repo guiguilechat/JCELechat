@@ -194,22 +194,4 @@ public class YamlDatabase extends EveDatabase {
 		return lpoffers;
 	}
 
-	protected LinkedHashMap<String, Agent> agents = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Agent> getAgents() {
-		if (agents == null) {
-			logger.debug("loading agents");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_AGENTS_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				agents = db.agents;
-			} else {
-				System.err.println("can't load agents");
-				agents = new LinkedHashMap<>();
-			}
-		}
-		return agents;
-	}
-
 }

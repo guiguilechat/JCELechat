@@ -20,8 +20,6 @@ public class DatabaseFile {
 
 	public ArrayList<LPOffer> lpoffers = new ArrayList<>();
 
-	public LinkedHashMap<String, Agent> agents = new LinkedHashMap<>();
-
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -34,7 +32,6 @@ public class DatabaseFile {
 		blueprints.putAll(db.blueprints);
 		metaInfs.putAll(db.metaInfs);
 		lpoffers.addAll(db.lpoffers);
-		agents.putAll(db.agents);
 	}
 
 
