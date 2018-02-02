@@ -18,7 +18,6 @@ import org.yaml.snakeyaml.Yaml;
 import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
@@ -124,10 +123,6 @@ public class SDEDumper {
 		dbModules.modules = db.modules;
 		YamlDatabase.write(dbModules, dbModulesFile());
 
-		DatabaseFile dbMetaInfs = new DatabaseFile();
-		dbMetaInfs.metaInfs = db.metaInfs;
-		YamlDatabase.write(dbMetaInfs, dbMetaInfFile());
-
 		DatabaseFile dbHulls = new DatabaseFile();
 		dbHulls.hulls = db.hulls;
 		YamlDatabase.write(dbHulls, dbHullsFile());
@@ -139,9 +134,6 @@ public class SDEDumper {
 
 		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
-
-		logger.info("loading meta-infs");
-		loadMetaInfs(sde, db);
 
 		// those two must remains at the end because they need the other
 		// informations.
@@ -398,18 +390,6 @@ public class SDEDumper {
 			return defaultValue;
 		}
 		return ((Number) ret).intValue();
-	}
-
-	public static void loadMetaInfs(SDEData sde, DatabaseFile db) {
-		for (Entry<Integer, EtypeIDs> e : sde.getTypeIDs().entrySet()) {
-			EtypeIDs item = e.getValue();
-			if (item.published) {
-				MetaInf mi = new MetaInf();
-				mi.id = e.getKey();
-				mi.volume = e.getValue().volume;
-				db.metaInfs.put(item.enName(), mi);
-			}
-		}
 	}
 
 }

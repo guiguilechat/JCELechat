@@ -32,7 +32,6 @@ import org.jfree.data.time.Week;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
@@ -43,7 +42,6 @@ public class MakeStats {
 	private static final Logger logger = LoggerFactory.getLogger(MakeStats.class);
 
 	public static void main(String[] args) {
-		YamlDatabase db = new YamlDatabase();
 		LootParser bp = new LootParser(new YamlDatabase());
 		RegionalMarket em = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get("TheForge").id);
 		File srcDir = new File("src/main/resources");
@@ -60,20 +58,7 @@ public class MakeStats {
 				ps = new PrintStream(new File(outDir, "result.txt"));
 				ArrayList<LootEntry> list = bp.loadDirectory(dir);
 
-				int[] allItemsIds = list.stream().flatMapToInt(e -> e.loots.keySet().stream().mapToInt(i -> i)).distinct()
-						.toArray();
 				HashSet<Integer> allFactionItems = new HashSet<>();
-				ps.println("factionloot:");
-				for (int i : allItemsIds) {
-					Type t = db.getTypeById(i);
-					if (t != null) {
-						int metal = t.metaLvl;
-						if (metal > 4) {
-							ps.println("  " + t.name + " : " + list.stream().mapToInt(le -> le.loots.getOrDefault(i, 0)).sum());
-							allFactionItems.add(i);
-						}
-					}
-				}
 				IntToDoubleFunction cost = i -> em.getBO(i, 1);
 				LinkedHashMap<String, Double> catValue = new LinkedHashMap<>();
 				LinkedHashMap<String, Integer> catNumber = new LinkedHashMap<>();

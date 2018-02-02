@@ -16,8 +16,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
+import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 
 public class LootParser {
 
@@ -79,7 +80,7 @@ public class LootParser {
 						String[] tokens = line.split("\\t");
 						Type t = evedb.getTypeByName(tokens[0]);
 						if (t == null) {
-							MetaInf m = evedb.getMetaInfs().get(tokens[0]);
+							Item m = MetaInf.getItem(tokens[0]);
 							if (m != null) {
 								t = new Type();
 								t.catName = "";

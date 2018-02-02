@@ -1,15 +1,12 @@
 package fr.guiguilechat.eveonline.model.database;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
-import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 
@@ -21,27 +18,6 @@ public abstract class EveDatabase {
 
 	protected HashSet<String> hubsNames = null;
 
-	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
-
-	public int getId(String name) {
-		return getMetaInfs().get(name).id;
-	}
-
-	protected HashMap<Integer, String> elementById = null;
-
-	public String getElementById(int id) {
-		LinkedHashMap<String, MetaInf> mi = getMetaInfs();
-		synchronized (this) {
-			if (elementById == null) {
-				elementById = new HashMap<>();
-				for (Entry<String, MetaInf> e : mi.entrySet()) {
-					elementById.put(e.getValue().id, e.getKey());
-				}
-			}
-		}
-		return elementById.get(id);
-	}
-
 	public Type getTypeByName(String name) {
 		Type ret = getHulls().get(name);
 		if (ret == null) {
@@ -49,11 +25,6 @@ public abstract class EveDatabase {
 		}
 		return ret;
 	}
-
-	public Type getTypeById(int id) {
-		return getTypeByName(getElementById(id));
-	}
-
 
 	protected final Eve eve = new Eve();
 

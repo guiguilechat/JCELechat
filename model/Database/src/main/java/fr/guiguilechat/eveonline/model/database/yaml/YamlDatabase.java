@@ -137,22 +137,5 @@ public class YamlDatabase extends EveDatabase {
 		}
 		return modules;
 	}
-	protected LinkedHashMap<String, MetaInf> metainfs = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, MetaInf> getMetaInfs() {
-		if (metainfs == null) {
-			logger.debug("loading metainfs");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_METAINF_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				metainfs = db.metaInfs;
-			} else {
-				System.err.println("can't load meta infs");
-				metainfs = new LinkedHashMap<>();
-			}
-		}
-		return metainfs;
-	}
 
 }
