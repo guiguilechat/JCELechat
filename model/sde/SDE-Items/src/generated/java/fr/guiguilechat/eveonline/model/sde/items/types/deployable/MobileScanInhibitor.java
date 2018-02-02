@@ -88,7 +88,7 @@ public class MobileScanInhibitor
         return MobileScanInhibitor.class;
     }
 
-    public static LinkedHashMap<String, MobileScanInhibitor> load() {
+    public static synchronized LinkedHashMap<String, MobileScanInhibitor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileScanInhibitor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

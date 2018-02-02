@@ -46,7 +46,7 @@ public class DroneUpgradeBlueprint
         return DroneUpgradeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DroneUpgradeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DroneUpgradeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

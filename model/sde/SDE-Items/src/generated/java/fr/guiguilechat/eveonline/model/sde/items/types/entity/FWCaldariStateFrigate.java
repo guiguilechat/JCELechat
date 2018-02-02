@@ -21,7 +21,7 @@ public class FWCaldariStateFrigate
         return FWCaldariStateFrigate.class;
     }
 
-    public static LinkedHashMap<String, FWCaldariStateFrigate> load() {
+    public static synchronized LinkedHashMap<String, FWCaldariStateFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWCaldariStateFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

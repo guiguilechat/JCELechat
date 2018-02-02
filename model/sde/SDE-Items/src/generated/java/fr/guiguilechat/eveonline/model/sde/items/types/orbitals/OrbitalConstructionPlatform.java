@@ -137,7 +137,7 @@ public class OrbitalConstructionPlatform
         return OrbitalConstructionPlatform.class;
     }
 
-    public static LinkedHashMap<String, OrbitalConstructionPlatform> load() {
+    public static synchronized LinkedHashMap<String, OrbitalConstructionPlatform> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OrbitalConstructionPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -151,7 +151,7 @@ public class RemoteShieldBooster
         return RemoteShieldBooster.class;
     }
 
-    public static LinkedHashMap<String, RemoteShieldBooster> load() {
+    public static synchronized LinkedHashMap<String, RemoteShieldBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

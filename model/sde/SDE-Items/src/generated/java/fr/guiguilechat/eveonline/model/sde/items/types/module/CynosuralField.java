@@ -249,7 +249,7 @@ public class CynosuralField
         return CynosuralField.class;
     }
 
-    public static LinkedHashMap<String, CynosuralField> load() {
+    public static synchronized LinkedHashMap<String, CynosuralField> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CynosuralField.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

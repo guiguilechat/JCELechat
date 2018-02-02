@@ -39,7 +39,7 @@ public class MiningCrystalBlueprint
         return MiningCrystalBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MiningCrystalBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MiningCrystalBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningCrystalBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

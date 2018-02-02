@@ -137,7 +137,7 @@ public class StructureCitadelServiceModule
         return StructureCitadelServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureCitadelServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureCitadelServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

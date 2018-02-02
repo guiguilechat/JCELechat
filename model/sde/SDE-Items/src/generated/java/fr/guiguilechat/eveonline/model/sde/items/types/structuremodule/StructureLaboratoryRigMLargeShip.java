@@ -74,7 +74,7 @@ public class StructureLaboratoryRigMLargeShip
         return StructureLaboratoryRigMLargeShip.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigMLargeShip> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigMLargeShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigMLargeShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

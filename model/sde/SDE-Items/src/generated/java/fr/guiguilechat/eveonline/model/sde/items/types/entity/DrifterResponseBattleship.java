@@ -21,7 +21,7 @@ public class DrifterResponseBattleship
         return DrifterResponseBattleship.class;
     }
 
-    public static LinkedHashMap<String, DrifterResponseBattleship> load() {
+    public static synchronized LinkedHashMap<String, DrifterResponseBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DrifterResponseBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

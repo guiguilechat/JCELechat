@@ -21,7 +21,7 @@ public class Landmark
         return Landmark.class;
     }
 
-    public static LinkedHashMap<String, Landmark> load() {
+    public static synchronized LinkedHashMap<String, Landmark> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Landmark.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

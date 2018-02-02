@@ -38,7 +38,7 @@ public class StructureRigBlueprint
         return StructureRigBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StructureRigBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StructureRigBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureRigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

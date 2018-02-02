@@ -21,7 +21,7 @@ public class DeadspaceSanshaSNationDestroyer
         return DeadspaceSanshaSNationDestroyer.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSanshaSNationDestroyer> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSanshaSNationDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSanshaSNationDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class PerceptionPoints
         return PerceptionPoints.class;
     }
 
-    public static LinkedHashMap<String, PerceptionPoints> load() {
+    public static synchronized LinkedHashMap<String, PerceptionPoints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PerceptionPoints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

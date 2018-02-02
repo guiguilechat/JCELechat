@@ -21,7 +21,7 @@ public class Character
         return Character.class;
     }
 
-    public static LinkedHashMap<String, Character> load() {
+    public static synchronized LinkedHashMap<String, Character> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Character.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

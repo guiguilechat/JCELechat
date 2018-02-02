@@ -21,7 +21,7 @@ public class MissionCaldariStateFrigate
         return MissionCaldariStateFrigate.class;
     }
 
-    public static LinkedHashMap<String, MissionCaldariStateFrigate> load() {
+    public static synchronized LinkedHashMap<String, MissionCaldariStateFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionCaldariStateFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

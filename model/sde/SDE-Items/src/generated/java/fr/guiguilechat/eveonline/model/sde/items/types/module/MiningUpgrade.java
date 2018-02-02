@@ -81,7 +81,7 @@ public class MiningUpgrade
         return MiningUpgrade.class;
     }
 
-    public static LinkedHashMap<String, MiningUpgrade> load() {
+    public static synchronized LinkedHashMap<String, MiningUpgrade> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

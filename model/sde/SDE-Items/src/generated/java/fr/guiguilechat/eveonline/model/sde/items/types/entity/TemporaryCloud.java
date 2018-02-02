@@ -21,7 +21,7 @@ public class TemporaryCloud
         return TemporaryCloud.class;
     }
 
-    public static LinkedHashMap<String, TemporaryCloud> load() {
+    public static synchronized LinkedHashMap<String, TemporaryCloud> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TemporaryCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

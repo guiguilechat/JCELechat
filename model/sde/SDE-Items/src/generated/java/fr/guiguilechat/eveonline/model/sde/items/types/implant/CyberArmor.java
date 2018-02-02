@@ -74,7 +74,7 @@ public class CyberArmor
         return CyberArmor.class;
     }
 
-    public static LinkedHashMap<String, CyberArmor> load() {
+    public static synchronized LinkedHashMap<String, CyberArmor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberArmor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -59,7 +59,7 @@ public class GallenteEducation
         return GallenteEducation.class;
     }
 
-    public static LinkedHashMap<String, GallenteEducation> load() {
+    public static synchronized LinkedHashMap<String, GallenteEducation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GallenteEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

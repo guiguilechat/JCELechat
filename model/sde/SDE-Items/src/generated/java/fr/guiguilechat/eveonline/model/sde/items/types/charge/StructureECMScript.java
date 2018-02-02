@@ -73,7 +73,7 @@ public class StructureECMScript
         return StructureECMScript.class;
     }
 
-    public static LinkedHashMap<String, StructureECMScript> load() {
+    public static synchronized LinkedHashMap<String, StructureECMScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureECMScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

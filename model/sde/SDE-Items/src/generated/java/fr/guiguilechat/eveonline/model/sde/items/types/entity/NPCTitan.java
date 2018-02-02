@@ -21,7 +21,7 @@ public class NPCTitan
         return NPCTitan.class;
     }
 
-    public static LinkedHashMap<String, NPCTitan> load() {
+    public static synchronized LinkedHashMap<String, NPCTitan> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCTitan.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

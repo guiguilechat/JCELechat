@@ -100,7 +100,7 @@ public class Hemorphite
         return Hemorphite.class;
     }
 
-    public static LinkedHashMap<String, Hemorphite> load() {
+    public static synchronized LinkedHashMap<String, Hemorphite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Hemorphite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

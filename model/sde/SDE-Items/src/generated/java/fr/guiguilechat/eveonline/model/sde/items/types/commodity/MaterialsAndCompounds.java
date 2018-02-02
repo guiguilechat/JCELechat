@@ -21,7 +21,7 @@ public class MaterialsAndCompounds
         return MaterialsAndCompounds.class;
     }
 
-    public static LinkedHashMap<String, MaterialsAndCompounds> load() {
+    public static synchronized LinkedHashMap<String, MaterialsAndCompounds> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MaterialsAndCompounds.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

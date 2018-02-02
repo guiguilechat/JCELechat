@@ -99,7 +99,7 @@ public class StructureMoonDrillingServiceModule
         return StructureMoonDrillingServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureMoonDrillingServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureMoonDrillingServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureMoonDrillingServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

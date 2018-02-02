@@ -39,7 +39,7 @@ public class ShipScannerBlueprint
         return ShipScannerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ShipScannerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ShipScannerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShipScannerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

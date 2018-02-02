@@ -39,7 +39,7 @@ public class StripMinerBlueprint
         return StripMinerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StripMinerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StripMinerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StripMinerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

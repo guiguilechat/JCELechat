@@ -159,7 +159,7 @@ public class ResourceProcessing
         return ResourceProcessing.class;
     }
 
-    public static LinkedHashMap<String, ResourceProcessing> load() {
+    public static synchronized LinkedHashMap<String, ResourceProcessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -165,7 +165,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
         return StructureCombatRigXLDoomsdayAndTargeting.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigXLDoomsdayAndTargeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLDoomsdayAndTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

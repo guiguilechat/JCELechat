@@ -87,7 +87,7 @@ public class CyberScanning
         return CyberScanning.class;
     }
 
-    public static LinkedHashMap<String, CyberScanning> load() {
+    public static synchronized LinkedHashMap<String, CyberScanning> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

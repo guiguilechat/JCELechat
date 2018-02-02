@@ -80,7 +80,7 @@ public class CyberLeadership
         return CyberLeadership.class;
     }
 
-    public static LinkedHashMap<String, CyberLeadership> load() {
+    public static synchronized LinkedHashMap<String, CyberLeadership> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberLeadership.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

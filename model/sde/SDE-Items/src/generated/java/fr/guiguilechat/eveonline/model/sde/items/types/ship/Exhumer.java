@@ -263,7 +263,7 @@ public class Exhumer
         return Exhumer.class;
     }
 
-    public static LinkedHashMap<String, Exhumer> load() {
+    public static synchronized LinkedHashMap<String, Exhumer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Exhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

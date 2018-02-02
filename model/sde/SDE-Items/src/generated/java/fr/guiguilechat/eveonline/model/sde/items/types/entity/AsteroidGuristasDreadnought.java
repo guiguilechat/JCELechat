@@ -21,7 +21,7 @@ public class AsteroidGuristasDreadnought
         return AsteroidGuristasDreadnought.class;
     }
 
-    public static LinkedHashMap<String, AsteroidGuristasDreadnought> load() {
+    public static synchronized LinkedHashMap<String, AsteroidGuristasDreadnought> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidGuristasDreadnought.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

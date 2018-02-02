@@ -21,7 +21,7 @@ public class Headwear
         return Headwear.class;
     }
 
-    public static LinkedHashMap<String, Headwear> load() {
+    public static synchronized LinkedHashMap<String, Headwear> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Headwear.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

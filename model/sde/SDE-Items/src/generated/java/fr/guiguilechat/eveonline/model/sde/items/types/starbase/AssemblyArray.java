@@ -186,7 +186,7 @@ public class AssemblyArray
         return AssemblyArray.class;
     }
 
-    public static LinkedHashMap<String, AssemblyArray> load() {
+    public static synchronized LinkedHashMap<String, AssemblyArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AssemblyArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

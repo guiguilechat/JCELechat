@@ -21,7 +21,7 @@ public class UnknownBlueprint
         return UnknownBlueprint.class;
     }
 
-    public static LinkedHashMap<String, UnknownBlueprint> load() {
+    public static synchronized LinkedHashMap<String, UnknownBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnknownBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

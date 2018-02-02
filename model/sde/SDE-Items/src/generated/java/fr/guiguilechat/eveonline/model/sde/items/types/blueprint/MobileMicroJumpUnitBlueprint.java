@@ -31,7 +31,7 @@ public class MobileMicroJumpUnitBlueprint
         return MobileMicroJumpUnitBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileMicroJumpUnitBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileMicroJumpUnitBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileMicroJumpUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

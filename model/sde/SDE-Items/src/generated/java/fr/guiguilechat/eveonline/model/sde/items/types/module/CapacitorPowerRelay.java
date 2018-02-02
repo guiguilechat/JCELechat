@@ -74,7 +74,7 @@ public class CapacitorPowerRelay
         return CapacitorPowerRelay.class;
     }
 
-    public static LinkedHashMap<String, CapacitorPowerRelay> load() {
+    public static synchronized LinkedHashMap<String, CapacitorPowerRelay> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorPowerRelay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

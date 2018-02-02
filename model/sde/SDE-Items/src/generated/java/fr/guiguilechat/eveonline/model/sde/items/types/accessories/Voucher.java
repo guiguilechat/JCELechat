@@ -151,7 +151,7 @@ public class Voucher
         return Voucher.class;
     }
 
-    public static LinkedHashMap<String, Voucher> load() {
+    public static synchronized LinkedHashMap<String, Voucher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Voucher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

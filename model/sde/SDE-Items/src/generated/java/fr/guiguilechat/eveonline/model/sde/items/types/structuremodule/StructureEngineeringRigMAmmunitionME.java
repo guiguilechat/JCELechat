@@ -165,7 +165,7 @@ public class StructureEngineeringRigMAmmunitionME
         return StructureEngineeringRigMAmmunitionME.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMAmmunitionME> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMAmmunitionME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMAmmunitionME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

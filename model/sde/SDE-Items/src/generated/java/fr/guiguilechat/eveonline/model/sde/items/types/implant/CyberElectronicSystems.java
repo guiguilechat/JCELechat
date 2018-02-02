@@ -45,7 +45,7 @@ public class CyberElectronicSystems
         return CyberElectronicSystems.class;
     }
 
-    public static LinkedHashMap<String, CyberElectronicSystems> load() {
+    public static synchronized LinkedHashMap<String, CyberElectronicSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberElectronicSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

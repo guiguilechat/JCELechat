@@ -109,7 +109,7 @@ public class FleetSupport
         return FleetSupport.class;
     }
 
-    public static LinkedHashMap<String, FleetSupport> load() {
+    public static synchronized LinkedHashMap<String, FleetSupport> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FleetSupport.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

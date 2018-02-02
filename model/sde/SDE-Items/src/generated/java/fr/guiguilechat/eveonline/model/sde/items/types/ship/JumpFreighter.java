@@ -340,7 +340,7 @@ public class JumpFreighter
         return JumpFreighter.class;
     }
 
-    public static LinkedHashMap<String, JumpFreighter> load() {
+    public static synchronized LinkedHashMap<String, JumpFreighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(JumpFreighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

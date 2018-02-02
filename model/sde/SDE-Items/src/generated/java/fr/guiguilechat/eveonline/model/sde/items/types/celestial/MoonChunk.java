@@ -31,7 +31,7 @@ public class MoonChunk
         return MoonChunk.class;
     }
 
-    public static LinkedHashMap<String, MoonChunk> load() {
+    public static synchronized LinkedHashMap<String, MoonChunk> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MoonChunk.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

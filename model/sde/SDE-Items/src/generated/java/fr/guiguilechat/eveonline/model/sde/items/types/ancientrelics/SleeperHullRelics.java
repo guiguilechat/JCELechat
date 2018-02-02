@@ -21,7 +21,7 @@ public class SleeperHullRelics
         return SleeperHullRelics.class;
     }
 
-    public static LinkedHashMap<String, SleeperHullRelics> load() {
+    public static synchronized LinkedHashMap<String, SleeperHullRelics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperHullRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

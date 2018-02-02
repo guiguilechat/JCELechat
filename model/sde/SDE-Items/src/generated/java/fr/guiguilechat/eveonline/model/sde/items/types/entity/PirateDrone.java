@@ -21,7 +21,7 @@ public class PirateDrone
         return PirateDrone.class;
     }
 
-    public static LinkedHashMap<String, PirateDrone> load() {
+    public static synchronized LinkedHashMap<String, PirateDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PirateDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

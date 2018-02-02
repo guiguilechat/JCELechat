@@ -100,7 +100,7 @@ public class Scordite
         return Scordite.class;
     }
 
-    public static LinkedHashMap<String, Scordite> load() {
+    public static synchronized LinkedHashMap<String, Scordite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Scordite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

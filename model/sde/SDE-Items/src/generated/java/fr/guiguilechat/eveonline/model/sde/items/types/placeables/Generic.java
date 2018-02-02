@@ -21,7 +21,7 @@ public class Generic
         return Generic.class;
     }
 
-    public static LinkedHashMap<String, Generic> load() {
+    public static synchronized LinkedHashMap<String, Generic> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Generic.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

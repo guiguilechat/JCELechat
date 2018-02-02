@@ -39,7 +39,7 @@ public class MissileGuidanceComputerBlueprint
         return MissileGuidanceComputerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MissileGuidanceComputerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MissileGuidanceComputerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceComputerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

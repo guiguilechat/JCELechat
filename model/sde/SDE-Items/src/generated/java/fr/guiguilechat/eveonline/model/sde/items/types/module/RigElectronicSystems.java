@@ -137,7 +137,7 @@ public class RigElectronicSystems
         return RigElectronicSystems.class;
     }
 
-    public static LinkedHashMap<String, RigElectronicSystems> load() {
+    public static synchronized LinkedHashMap<String, RigElectronicSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigElectronicSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

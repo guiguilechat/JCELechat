@@ -319,7 +319,7 @@ public class ElectronicWarfareBattery
         return ElectronicWarfareBattery.class;
     }
 
-    public static LinkedHashMap<String, ElectronicWarfareBattery> load() {
+    public static synchronized LinkedHashMap<String, ElectronicWarfareBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

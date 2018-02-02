@@ -21,7 +21,7 @@ public class BloodRaiderEventBattlecruiser
         return BloodRaiderEventBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, BloodRaiderEventBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, BloodRaiderEventBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BloodRaiderEventBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

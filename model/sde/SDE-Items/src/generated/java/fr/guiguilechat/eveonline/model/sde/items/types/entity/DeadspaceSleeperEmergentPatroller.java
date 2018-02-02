@@ -21,7 +21,7 @@ public class DeadspaceSleeperEmergentPatroller
         return DeadspaceSleeperEmergentPatroller.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSleeperEmergentPatroller> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSleeperEmergentPatroller> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSleeperEmergentPatroller.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

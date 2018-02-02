@@ -144,7 +144,7 @@ public class RigCore
         return RigCore.class;
     }
 
-    public static LinkedHashMap<String, RigCore> load() {
+    public static synchronized LinkedHashMap<String, RigCore> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

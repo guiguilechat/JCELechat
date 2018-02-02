@@ -67,7 +67,7 @@ public class PassiveTargetingSystem
         return PassiveTargetingSystem.class;
     }
 
-    public static LinkedHashMap<String, PassiveTargetingSystem> load() {
+    public static synchronized LinkedHashMap<String, PassiveTargetingSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PassiveTargetingSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

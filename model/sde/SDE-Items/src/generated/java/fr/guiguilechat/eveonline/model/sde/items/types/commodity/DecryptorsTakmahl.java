@@ -52,7 +52,7 @@ public class DecryptorsTakmahl
         return DecryptorsTakmahl.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsTakmahl> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsTakmahl> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsTakmahl.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

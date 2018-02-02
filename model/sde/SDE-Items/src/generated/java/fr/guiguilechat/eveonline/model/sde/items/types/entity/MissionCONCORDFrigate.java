@@ -21,7 +21,7 @@ public class MissionCONCORDFrigate
         return MissionCONCORDFrigate.class;
     }
 
-    public static LinkedHashMap<String, MissionCONCORDFrigate> load() {
+    public static synchronized LinkedHashMap<String, MissionCONCORDFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionCONCORDFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

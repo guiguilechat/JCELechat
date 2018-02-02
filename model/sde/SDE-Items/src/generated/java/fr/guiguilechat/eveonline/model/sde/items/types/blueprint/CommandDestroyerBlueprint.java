@@ -39,7 +39,7 @@ public class CommandDestroyerBlueprint
         return CommandDestroyerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CommandDestroyerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CommandDestroyerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandDestroyerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

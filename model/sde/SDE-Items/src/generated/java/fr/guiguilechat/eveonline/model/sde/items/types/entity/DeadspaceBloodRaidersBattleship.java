@@ -21,7 +21,7 @@ public class DeadspaceBloodRaidersBattleship
         return DeadspaceBloodRaidersBattleship.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceBloodRaidersBattleship> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceBloodRaidersBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceBloodRaidersBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

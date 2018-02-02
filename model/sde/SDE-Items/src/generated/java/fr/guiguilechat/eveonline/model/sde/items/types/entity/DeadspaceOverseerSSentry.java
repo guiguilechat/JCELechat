@@ -21,7 +21,7 @@ public class DeadspaceOverseerSSentry
         return DeadspaceOverseerSSentry.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceOverseerSSentry> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceOverseerSSentry> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceOverseerSSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

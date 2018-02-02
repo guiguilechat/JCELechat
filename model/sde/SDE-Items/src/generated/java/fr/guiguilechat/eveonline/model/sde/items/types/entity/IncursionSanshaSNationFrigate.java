@@ -21,7 +21,7 @@ public class IncursionSanshaSNationFrigate
         return IncursionSanshaSNationFrigate.class;
     }
 
-    public static LinkedHashMap<String, IncursionSanshaSNationFrigate> load() {
+    public static synchronized LinkedHashMap<String, IncursionSanshaSNationFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IncursionSanshaSNationFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

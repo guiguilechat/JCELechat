@@ -557,7 +557,7 @@ public class ForceAuxiliary
         return ForceAuxiliary.class;
     }
 
-    public static LinkedHashMap<String, ForceAuxiliary> load() {
+    public static synchronized LinkedHashMap<String, ForceAuxiliary> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class SleeperPropulsionRelics
         return SleeperPropulsionRelics.class;
     }
 
-    public static LinkedHashMap<String, SleeperPropulsionRelics> load() {
+    public static synchronized LinkedHashMap<String, SleeperPropulsionRelics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperPropulsionRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

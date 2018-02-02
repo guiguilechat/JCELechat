@@ -305,7 +305,7 @@ public class EffectBeacon
         return EffectBeacon.class;
     }
 
-    public static LinkedHashMap<String, EffectBeacon> load() {
+    public static synchronized LinkedHashMap<String, EffectBeacon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EffectBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

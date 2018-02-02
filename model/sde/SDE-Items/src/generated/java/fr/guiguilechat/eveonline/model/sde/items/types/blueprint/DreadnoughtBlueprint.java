@@ -39,7 +39,7 @@ public class DreadnoughtBlueprint
         return DreadnoughtBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DreadnoughtBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DreadnoughtBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DreadnoughtBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

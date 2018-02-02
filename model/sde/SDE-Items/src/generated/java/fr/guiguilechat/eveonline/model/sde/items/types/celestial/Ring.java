@@ -21,7 +21,7 @@ public class Ring
         return Ring.class;
     }
 
-    public static LinkedHashMap<String, Ring> load() {
+    public static synchronized LinkedHashMap<String, Ring> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Ring.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -158,7 +158,7 @@ public class SensorDampener
         return SensorDampener.class;
     }
 
-    public static LinkedHashMap<String, SensorDampener> load() {
+    public static synchronized LinkedHashMap<String, SensorDampener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorDampener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

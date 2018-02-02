@@ -21,7 +21,7 @@ public class HiddenZenithGallenteFrigate
         return HiddenZenithGallenteFrigate.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithGallenteFrigate> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithGallenteFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithGallenteFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

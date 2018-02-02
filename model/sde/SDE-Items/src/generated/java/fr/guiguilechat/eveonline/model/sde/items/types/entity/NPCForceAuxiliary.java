@@ -21,7 +21,7 @@ public class NPCForceAuxiliary
         return NPCForceAuxiliary.class;
     }
 
-    public static LinkedHashMap<String, NPCForceAuxiliary> load() {
+    public static synchronized LinkedHashMap<String, NPCForceAuxiliary> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -67,7 +67,7 @@ public class Wreck
         return Wreck.class;
     }
 
-    public static LinkedHashMap<String, Wreck> load() {
+    public static synchronized LinkedHashMap<String, Wreck> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Wreck.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

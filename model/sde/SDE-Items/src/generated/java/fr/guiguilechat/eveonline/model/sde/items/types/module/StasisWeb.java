@@ -137,7 +137,7 @@ public class StasisWeb
         return StasisWeb.class;
     }
 
-    public static LinkedHashMap<String, StasisWeb> load() {
+    public static synchronized LinkedHashMap<String, StasisWeb> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StasisWeb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

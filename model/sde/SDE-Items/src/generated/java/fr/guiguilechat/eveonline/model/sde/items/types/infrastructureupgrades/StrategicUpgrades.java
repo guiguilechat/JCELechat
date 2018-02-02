@@ -38,7 +38,7 @@ public class StrategicUpgrades
         return StrategicUpgrades.class;
     }
 
-    public static LinkedHashMap<String, StrategicUpgrades> load() {
+    public static synchronized LinkedHashMap<String, StrategicUpgrades> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrategicUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

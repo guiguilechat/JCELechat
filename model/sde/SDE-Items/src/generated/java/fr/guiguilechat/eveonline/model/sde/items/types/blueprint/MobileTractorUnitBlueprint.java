@@ -31,7 +31,7 @@ public class MobileTractorUnitBlueprint
         return MobileTractorUnitBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileTractorUnitBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileTractorUnitBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileTractorUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

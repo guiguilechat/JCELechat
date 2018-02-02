@@ -21,7 +21,7 @@ public class FakeSkills
         return FakeSkills.class;
     }
 
-    public static LinkedHashMap<String, FakeSkills> load() {
+    public static synchronized LinkedHashMap<String, FakeSkills> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FakeSkills.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

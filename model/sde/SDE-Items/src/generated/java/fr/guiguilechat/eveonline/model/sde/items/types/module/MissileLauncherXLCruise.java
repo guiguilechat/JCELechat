@@ -179,7 +179,7 @@ public class MissileLauncherXLCruise
         return MissileLauncherXLCruise.class;
     }
 
-    public static LinkedHashMap<String, MissileLauncherXLCruise> load() {
+    public static synchronized LinkedHashMap<String, MissileLauncherXLCruise> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherXLCruise.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -80,7 +80,7 @@ public class Extractors
         return Extractors.class;
     }
 
-    public static LinkedHashMap<String, Extractors> load() {
+    public static synchronized LinkedHashMap<String, Extractors> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Extractors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

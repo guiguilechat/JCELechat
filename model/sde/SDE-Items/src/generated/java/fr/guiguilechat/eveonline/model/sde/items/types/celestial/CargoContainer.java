@@ -46,7 +46,7 @@ public class CargoContainer
         return CargoContainer.class;
     }
 
-    public static LinkedHashMap<String, CargoContainer> load() {
+    public static synchronized LinkedHashMap<String, CargoContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CargoContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

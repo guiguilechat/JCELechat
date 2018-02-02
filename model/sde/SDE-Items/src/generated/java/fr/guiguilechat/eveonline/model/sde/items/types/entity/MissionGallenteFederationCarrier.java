@@ -21,7 +21,7 @@ public class MissionGallenteFederationCarrier
         return MissionGallenteFederationCarrier.class;
     }
 
-    public static LinkedHashMap<String, MissionGallenteFederationCarrier> load() {
+    public static synchronized LinkedHashMap<String, MissionGallenteFederationCarrier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionGallenteFederationCarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class StrongBoxes
         return StrongBoxes.class;
     }
 
-    public static LinkedHashMap<String, StrongBoxes> load() {
+    public static synchronized LinkedHashMap<String, StrongBoxes> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrongBoxes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

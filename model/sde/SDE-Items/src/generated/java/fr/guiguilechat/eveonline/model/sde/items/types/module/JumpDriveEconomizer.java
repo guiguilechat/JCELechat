@@ -66,7 +66,7 @@ public class JumpDriveEconomizer
         return JumpDriveEconomizer.class;
     }
 
-    public static LinkedHashMap<String, JumpDriveEconomizer> load() {
+    public static synchronized LinkedHashMap<String, JumpDriveEconomizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(JumpDriveEconomizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

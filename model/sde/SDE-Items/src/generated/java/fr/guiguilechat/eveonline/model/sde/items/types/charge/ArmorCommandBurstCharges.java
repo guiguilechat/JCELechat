@@ -115,7 +115,7 @@ public class ArmorCommandBurstCharges
         return ArmorCommandBurstCharges.class;
     }
 
-    public static LinkedHashMap<String, ArmorCommandBurstCharges> load() {
+    public static synchronized LinkedHashMap<String, ArmorCommandBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

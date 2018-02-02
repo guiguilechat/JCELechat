@@ -46,7 +46,7 @@ public class HullModsBlueprint
         return HullModsBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HullModsBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HullModsBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HullModsBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -235,7 +235,7 @@ public class AttackBattlecruiser
         return AttackBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, AttackBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, AttackBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AttackBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

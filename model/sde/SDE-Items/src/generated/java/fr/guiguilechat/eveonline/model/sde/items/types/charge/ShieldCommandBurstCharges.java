@@ -115,7 +115,7 @@ public class ShieldCommandBurstCharges
         return ShieldCommandBurstCharges.class;
     }
 
-    public static LinkedHashMap<String, ShieldCommandBurstCharges> load() {
+    public static synchronized LinkedHashMap<String, ShieldCommandBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

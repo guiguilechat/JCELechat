@@ -31,7 +31,7 @@ public class ShuttleBlueprint
         return ShuttleBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ShuttleBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ShuttleBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShuttleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

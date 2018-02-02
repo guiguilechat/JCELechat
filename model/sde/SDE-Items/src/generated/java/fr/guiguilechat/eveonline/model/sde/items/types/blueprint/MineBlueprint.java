@@ -31,7 +31,7 @@ public class MineBlueprint
         return MineBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MineBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MineBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MineBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -88,7 +88,7 @@ public class CyberEngineering
         return CyberEngineering.class;
     }
 
-    public static LinkedHashMap<String, CyberEngineering> load() {
+    public static synchronized LinkedHashMap<String, CyberEngineering> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberEngineering.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

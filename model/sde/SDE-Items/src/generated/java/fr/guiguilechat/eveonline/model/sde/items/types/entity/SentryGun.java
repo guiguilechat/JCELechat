@@ -21,7 +21,7 @@ public class SentryGun
         return SentryGun.class;
     }
 
-    public static LinkedHashMap<String, SentryGun> load() {
+    public static synchronized LinkedHashMap<String, SentryGun> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SentryGun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

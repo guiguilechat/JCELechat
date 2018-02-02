@@ -193,7 +193,7 @@ public class RemoteSensorBooster
         return RemoteSensorBooster.class;
     }
 
-    public static LinkedHashMap<String, RemoteSensorBooster> load() {
+    public static synchronized LinkedHashMap<String, RemoteSensorBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

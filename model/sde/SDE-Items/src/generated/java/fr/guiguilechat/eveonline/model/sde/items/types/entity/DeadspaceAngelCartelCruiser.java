@@ -21,7 +21,7 @@ public class DeadspaceAngelCartelCruiser
         return DeadspaceAngelCartelCruiser.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceAngelCartelCruiser> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceAngelCartelCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceAngelCartelCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

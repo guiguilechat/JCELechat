@@ -39,7 +39,7 @@ public class SensorBoosterBlueprint
         return SensorBoosterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SensorBoosterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SensorBoosterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

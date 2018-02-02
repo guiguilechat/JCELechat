@@ -59,7 +59,7 @@ public class MinmatarEducation
         return MinmatarEducation.class;
     }
 
-    public static LinkedHashMap<String, MinmatarEducation> load() {
+    public static synchronized LinkedHashMap<String, MinmatarEducation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MinmatarEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

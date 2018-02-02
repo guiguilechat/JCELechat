@@ -21,7 +21,7 @@ public class LargeCollidableStructure
         return LargeCollidableStructure.class;
     }
 
-    public static LinkedHashMap<String, LargeCollidableStructure> load() {
+    public static synchronized LinkedHashMap<String, LargeCollidableStructure> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

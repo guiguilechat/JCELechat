@@ -109,7 +109,7 @@ public class CovertBeacon
         return CovertBeacon.class;
     }
 
-    public static LinkedHashMap<String, CovertBeacon> load() {
+    public static synchronized LinkedHashMap<String, CovertBeacon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CovertBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class VolatileSKIN
         return VolatileSKIN.class;
     }
 
-    public static LinkedHashMap<String, VolatileSKIN> load() {
+    public static synchronized LinkedHashMap<String, VolatileSKIN> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(VolatileSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

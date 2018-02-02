@@ -95,7 +95,7 @@ public class ArmorCoating
         return ArmorCoating.class;
     }
 
-    public static LinkedHashMap<String, ArmorCoating> load() {
+    public static synchronized LinkedHashMap<String, ArmorCoating> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorCoating.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

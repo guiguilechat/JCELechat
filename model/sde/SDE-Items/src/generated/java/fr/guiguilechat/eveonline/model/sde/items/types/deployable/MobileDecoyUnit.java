@@ -88,7 +88,7 @@ public class MobileDecoyUnit
         return MobileDecoyUnit.class;
     }
 
-    public static LinkedHashMap<String, MobileDecoyUnit> load() {
+    public static synchronized LinkedHashMap<String, MobileDecoyUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

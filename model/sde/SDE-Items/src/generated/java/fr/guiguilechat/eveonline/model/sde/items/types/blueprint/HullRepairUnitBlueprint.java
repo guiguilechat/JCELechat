@@ -39,7 +39,7 @@ public class HullRepairUnitBlueprint
         return HullRepairUnitBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HullRepairUnitBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HullRepairUnitBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HullRepairUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

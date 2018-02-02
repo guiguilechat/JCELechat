@@ -100,7 +100,7 @@ public class Kernite
         return Kernite.class;
     }
 
-    public static LinkedHashMap<String, Kernite> load() {
+    public static synchronized LinkedHashMap<String, Kernite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Kernite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -228,7 +228,7 @@ public class MiningDrone
         return MiningDrone.class;
     }
 
-    public static LinkedHashMap<String, MiningDrone> load() {
+    public static synchronized LinkedHashMap<String, MiningDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

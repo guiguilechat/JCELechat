@@ -21,7 +21,7 @@ public class ObsoleteBooks
         return ObsoleteBooks.class;
     }
 
-    public static LinkedHashMap<String, ObsoleteBooks> load() {
+    public static synchronized LinkedHashMap<String, ObsoleteBooks> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ObsoleteBooks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

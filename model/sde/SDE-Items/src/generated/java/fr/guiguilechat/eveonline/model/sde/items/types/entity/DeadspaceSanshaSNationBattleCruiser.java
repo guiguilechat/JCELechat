@@ -21,7 +21,7 @@ public class DeadspaceSanshaSNationBattleCruiser
         return DeadspaceSanshaSNationBattleCruiser.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSanshaSNationBattleCruiser> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSanshaSNationBattleCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSanshaSNationBattleCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

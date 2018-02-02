@@ -284,7 +284,7 @@ public class ExpeditionFrigate
         return ExpeditionFrigate.class;
     }
 
-    public static LinkedHashMap<String, ExpeditionFrigate> load() {
+    public static synchronized LinkedHashMap<String, ExpeditionFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ExpeditionFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

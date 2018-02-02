@@ -21,7 +21,7 @@ public class DestructibleAgentsInSpace
         return DestructibleAgentsInSpace.class;
     }
 
-    public static LinkedHashMap<String, DestructibleAgentsInSpace> load() {
+    public static synchronized LinkedHashMap<String, DestructibleAgentsInSpace> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DestructibleAgentsInSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

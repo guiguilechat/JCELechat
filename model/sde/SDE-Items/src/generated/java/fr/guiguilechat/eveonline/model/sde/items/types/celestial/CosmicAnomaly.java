@@ -21,7 +21,7 @@ public class CosmicAnomaly
         return CosmicAnomaly.class;
     }
 
-    public static LinkedHashMap<String, CosmicAnomaly> load() {
+    public static synchronized LinkedHashMap<String, CosmicAnomaly> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CosmicAnomaly.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

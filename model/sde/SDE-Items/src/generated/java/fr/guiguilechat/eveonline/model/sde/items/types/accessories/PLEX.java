@@ -21,7 +21,7 @@ public class PLEX
         return PLEX.class;
     }
 
-    public static LinkedHashMap<String, PLEX> load() {
+    public static synchronized LinkedHashMap<String, PLEX> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PLEX.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

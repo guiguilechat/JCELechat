@@ -21,7 +21,7 @@ public class GuristasEventFrigate
         return GuristasEventFrigate.class;
     }
 
-    public static LinkedHashMap<String, GuristasEventFrigate> load() {
+    public static synchronized LinkedHashMap<String, GuristasEventFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GuristasEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

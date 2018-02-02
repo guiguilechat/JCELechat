@@ -438,7 +438,7 @@ public class CapitalIndustrialShip
         return CapitalIndustrialShip.class;
     }
 
-    public static LinkedHashMap<String, CapitalIndustrialShip> load() {
+    public static synchronized LinkedHashMap<String, CapitalIndustrialShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapitalIndustrialShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

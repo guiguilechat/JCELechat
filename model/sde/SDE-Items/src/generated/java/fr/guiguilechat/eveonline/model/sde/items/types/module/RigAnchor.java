@@ -81,7 +81,7 @@ public class RigAnchor
         return RigAnchor.class;
     }
 
-    public static LinkedHashMap<String, RigAnchor> load() {
+    public static synchronized LinkedHashMap<String, RigAnchor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigAnchor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

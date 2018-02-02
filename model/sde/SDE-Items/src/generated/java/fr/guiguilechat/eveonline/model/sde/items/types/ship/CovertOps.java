@@ -382,7 +382,7 @@ public class CovertOps
         return CovertOps.class;
     }
 
-    public static LinkedHashMap<String, CovertOps> load() {
+    public static synchronized LinkedHashMap<String, CovertOps> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CovertOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

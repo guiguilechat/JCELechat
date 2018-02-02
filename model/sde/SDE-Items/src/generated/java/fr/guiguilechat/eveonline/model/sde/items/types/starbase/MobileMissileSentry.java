@@ -312,7 +312,7 @@ public class MobileMissileSentry
         return MobileMissileSentry.class;
     }
 
-    public static LinkedHashMap<String, MobileMissileSentry> load() {
+    public static synchronized LinkedHashMap<String, MobileMissileSentry> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileMissileSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

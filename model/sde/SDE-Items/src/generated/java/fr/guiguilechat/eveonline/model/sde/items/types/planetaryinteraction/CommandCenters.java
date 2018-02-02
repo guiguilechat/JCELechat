@@ -73,7 +73,7 @@ public class CommandCenters
         return CommandCenters.class;
     }
 
-    public static LinkedHashMap<String, CommandCenters> load() {
+    public static synchronized LinkedHashMap<String, CommandCenters> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

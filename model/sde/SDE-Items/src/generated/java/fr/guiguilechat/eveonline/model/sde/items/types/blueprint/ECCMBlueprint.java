@@ -39,7 +39,7 @@ public class ECCMBlueprint
         return ECCMBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ECCMBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ECCMBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECCMBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

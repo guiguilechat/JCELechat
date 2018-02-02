@@ -38,7 +38,7 @@ public class LegacyCurrency
         return LegacyCurrency.class;
     }
 
-    public static LinkedHashMap<String, LegacyCurrency> load() {
+    public static synchronized LinkedHashMap<String, LegacyCurrency> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LegacyCurrency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

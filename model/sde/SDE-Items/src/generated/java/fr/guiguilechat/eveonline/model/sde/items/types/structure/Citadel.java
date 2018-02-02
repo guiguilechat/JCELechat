@@ -172,7 +172,7 @@ public class Citadel
         return Citadel.class;
     }
 
-    public static LinkedHashMap<String, Citadel> load() {
+    public static synchronized LinkedHashMap<String, Citadel> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Citadel.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

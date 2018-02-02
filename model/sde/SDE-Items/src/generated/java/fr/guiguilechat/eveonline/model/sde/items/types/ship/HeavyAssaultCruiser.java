@@ -284,7 +284,7 @@ public class HeavyAssaultCruiser
         return HeavyAssaultCruiser.class;
     }
 
-    public static LinkedHashMap<String, HeavyAssaultCruiser> load() {
+    public static synchronized LinkedHashMap<String, HeavyAssaultCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyAssaultCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

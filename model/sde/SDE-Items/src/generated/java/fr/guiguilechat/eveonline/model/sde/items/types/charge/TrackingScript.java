@@ -101,7 +101,7 @@ public class TrackingScript
         return TrackingScript.class;
     }
 
-    public static LinkedHashMap<String, TrackingScript> load() {
+    public static synchronized LinkedHashMap<String, TrackingScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

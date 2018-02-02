@@ -108,7 +108,7 @@ public class WarpDisruptionScript
         return WarpDisruptionScript.class;
     }
 
-    public static LinkedHashMap<String, WarpDisruptionScript> load() {
+    public static synchronized LinkedHashMap<String, WarpDisruptionScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpDisruptionScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

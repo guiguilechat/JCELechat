@@ -165,7 +165,7 @@ public class StructureEngineeringRigMDroneAndFighterME
         return StructureEngineeringRigMDroneAndFighterME.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMDroneAndFighterME> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMDroneAndFighterME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMDroneAndFighterME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

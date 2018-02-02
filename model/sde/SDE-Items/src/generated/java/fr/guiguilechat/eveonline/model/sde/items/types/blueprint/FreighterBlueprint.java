@@ -39,7 +39,7 @@ public class FreighterBlueprint
         return FreighterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FreighterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FreighterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FreighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

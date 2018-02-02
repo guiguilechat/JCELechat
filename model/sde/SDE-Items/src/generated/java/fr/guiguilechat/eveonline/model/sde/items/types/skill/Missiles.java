@@ -130,7 +130,7 @@ public class Missiles
         return Missiles.class;
     }
 
-    public static LinkedHashMap<String, Missiles> load() {
+    public static synchronized LinkedHashMap<String, Missiles> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Missiles.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

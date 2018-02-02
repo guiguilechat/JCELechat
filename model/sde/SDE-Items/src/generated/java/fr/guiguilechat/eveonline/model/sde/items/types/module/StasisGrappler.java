@@ -207,7 +207,7 @@ public class StasisGrappler
         return StasisGrappler.class;
     }
 
-    public static LinkedHashMap<String, StasisGrappler> load() {
+    public static synchronized LinkedHashMap<String, StasisGrappler> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StasisGrappler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

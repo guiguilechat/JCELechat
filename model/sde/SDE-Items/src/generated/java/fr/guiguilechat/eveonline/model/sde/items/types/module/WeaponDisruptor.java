@@ -186,7 +186,7 @@ public class WeaponDisruptor
         return WeaponDisruptor.class;
     }
 
-    public static LinkedHashMap<String, WeaponDisruptor> load() {
+    public static synchronized LinkedHashMap<String, WeaponDisruptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WeaponDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

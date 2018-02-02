@@ -39,7 +39,7 @@ public class WeaponDisruptorBlueprint
         return WeaponDisruptorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, WeaponDisruptorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, WeaponDisruptorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WeaponDisruptorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

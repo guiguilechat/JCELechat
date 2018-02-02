@@ -21,7 +21,7 @@ public class NPCIndustrialCommand
         return NPCIndustrialCommand.class;
     }
 
-    public static LinkedHashMap<String, NPCIndustrialCommand> load() {
+    public static synchronized LinkedHashMap<String, NPCIndustrialCommand> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCIndustrialCommand.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

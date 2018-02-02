@@ -21,7 +21,7 @@ public class TerritorialClaimUnit
         return TerritorialClaimUnit.class;
     }
 
-    public static LinkedHashMap<String, TerritorialClaimUnit> load() {
+    public static synchronized LinkedHashMap<String, TerritorialClaimUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TerritorialClaimUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

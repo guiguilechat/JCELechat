@@ -88,7 +88,7 @@ public class SurveyScanner
         return SurveyScanner.class;
     }
 
-    public static LinkedHashMap<String, SurveyScanner> load() {
+    public static synchronized LinkedHashMap<String, SurveyScanner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

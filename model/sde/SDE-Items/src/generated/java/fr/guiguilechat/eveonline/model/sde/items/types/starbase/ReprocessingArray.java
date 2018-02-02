@@ -165,7 +165,7 @@ public class ReprocessingArray
         return ReprocessingArray.class;
     }
 
-    public static LinkedHashMap<String, ReprocessingArray> load() {
+    public static synchronized LinkedHashMap<String, ReprocessingArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ReprocessingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

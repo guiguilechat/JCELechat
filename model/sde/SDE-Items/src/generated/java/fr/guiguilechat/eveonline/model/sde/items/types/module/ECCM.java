@@ -130,7 +130,7 @@ public class ECCM
         return ECCM.class;
     }
 
-    public static LinkedHashMap<String, ECCM> load() {
+    public static synchronized LinkedHashMap<String, ECCM> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECCM.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

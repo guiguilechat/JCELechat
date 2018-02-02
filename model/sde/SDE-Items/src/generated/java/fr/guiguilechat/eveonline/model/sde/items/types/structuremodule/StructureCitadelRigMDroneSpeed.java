@@ -80,7 +80,7 @@ public class StructureCitadelRigMDroneSpeed
         return StructureCitadelRigMDroneSpeed.class;
     }
 
-    public static LinkedHashMap<String, StructureCitadelRigMDroneSpeed> load() {
+    public static synchronized LinkedHashMap<String, StructureCitadelRigMDroneSpeed> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelRigMDroneSpeed.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

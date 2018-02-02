@@ -67,7 +67,7 @@ public class CapacitorRecharger
         return CapacitorRecharger.class;
     }
 
-    public static LinkedHashMap<String, CapacitorRecharger> load() {
+    public static synchronized LinkedHashMap<String, CapacitorRecharger> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorRecharger.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

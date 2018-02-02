@@ -87,7 +87,7 @@ public class MobileWarpDisruptor
         return MobileWarpDisruptor.class;
     }
 
-    public static LinkedHashMap<String, MobileWarpDisruptor> load() {
+    public static synchronized LinkedHashMap<String, MobileWarpDisruptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileWarpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class CarrierBlueprint
         return CarrierBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CarrierBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CarrierBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CarrierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

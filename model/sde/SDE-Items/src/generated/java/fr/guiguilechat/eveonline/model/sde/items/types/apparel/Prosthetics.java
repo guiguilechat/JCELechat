@@ -21,7 +21,7 @@ public class Prosthetics
         return Prosthetics.class;
     }
 
-    public static LinkedHashMap<String, Prosthetics> load() {
+    public static synchronized LinkedHashMap<String, Prosthetics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Prosthetics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

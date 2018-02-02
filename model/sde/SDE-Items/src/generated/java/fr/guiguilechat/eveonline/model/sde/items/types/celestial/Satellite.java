@@ -38,7 +38,7 @@ public class Satellite
         return Satellite.class;
     }
 
-    public static LinkedHashMap<String, Satellite> load() {
+    public static synchronized LinkedHashMap<String, Satellite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Satellite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

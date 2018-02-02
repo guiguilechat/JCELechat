@@ -158,7 +158,7 @@ public class Modifications
         return Modifications.class;
     }
 
-    public static LinkedHashMap<String, Modifications> load() {
+    public static synchronized LinkedHashMap<String, Modifications> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Modifications.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

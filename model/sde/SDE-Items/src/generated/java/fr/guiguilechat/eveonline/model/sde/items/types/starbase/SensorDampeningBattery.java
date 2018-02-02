@@ -298,7 +298,7 @@ public class SensorDampeningBattery
         return SensorDampeningBattery.class;
     }
 
-    public static LinkedHashMap<String, SensorDampeningBattery> load() {
+    public static synchronized LinkedHashMap<String, SensorDampeningBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorDampeningBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class PlanetSolid
         return PlanetSolid.class;
     }
 
-    public static LinkedHashMap<String, PlanetSolid> load() {
+    public static synchronized LinkedHashMap<String, PlanetSolid> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetSolid.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

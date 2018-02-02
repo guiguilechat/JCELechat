@@ -21,7 +21,7 @@ public class Audio
         return Audio.class;
     }
 
-    public static LinkedHashMap<String, Audio> load() {
+    public static synchronized LinkedHashMap<String, Audio> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Audio.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

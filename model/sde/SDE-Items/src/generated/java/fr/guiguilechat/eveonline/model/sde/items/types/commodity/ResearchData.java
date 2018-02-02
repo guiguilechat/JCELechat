@@ -21,7 +21,7 @@ public class ResearchData
         return ResearchData.class;
     }
 
-    public static LinkedHashMap<String, ResearchData> load() {
+    public static synchronized LinkedHashMap<String, ResearchData> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ResearchData.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

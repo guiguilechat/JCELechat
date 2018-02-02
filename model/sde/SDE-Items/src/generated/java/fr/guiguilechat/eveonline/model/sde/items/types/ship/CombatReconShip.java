@@ -242,7 +242,7 @@ public class CombatReconShip
         return CombatReconShip.class;
     }
 
-    public static LinkedHashMap<String, CombatReconShip> load() {
+    public static synchronized LinkedHashMap<String, CombatReconShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CombatReconShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

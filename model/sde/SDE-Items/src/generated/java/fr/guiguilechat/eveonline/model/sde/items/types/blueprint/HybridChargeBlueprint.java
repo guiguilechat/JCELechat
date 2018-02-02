@@ -31,7 +31,7 @@ public class HybridChargeBlueprint
         return HybridChargeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HybridChargeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HybridChargeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridChargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class SpotLights
         return SpotLights.class;
     }
 
-    public static LinkedHashMap<String, SpotLights> load() {
+    public static synchronized LinkedHashMap<String, SpotLights> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpotLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

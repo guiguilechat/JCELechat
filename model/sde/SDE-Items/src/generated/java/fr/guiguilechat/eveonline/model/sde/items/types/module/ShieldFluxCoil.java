@@ -95,7 +95,7 @@ public class ShieldFluxCoil
         return ShieldFluxCoil.class;
     }
 
-    public static LinkedHashMap<String, ShieldFluxCoil> load() {
+    public static synchronized LinkedHashMap<String, ShieldFluxCoil> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

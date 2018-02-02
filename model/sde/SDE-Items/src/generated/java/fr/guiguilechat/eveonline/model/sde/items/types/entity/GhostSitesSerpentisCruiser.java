@@ -21,7 +21,7 @@ public class GhostSitesSerpentisCruiser
         return GhostSitesSerpentisCruiser.class;
     }
 
-    public static LinkedHashMap<String, GhostSitesSerpentisCruiser> load() {
+    public static synchronized LinkedHashMap<String, GhostSitesSerpentisCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GhostSitesSerpentisCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

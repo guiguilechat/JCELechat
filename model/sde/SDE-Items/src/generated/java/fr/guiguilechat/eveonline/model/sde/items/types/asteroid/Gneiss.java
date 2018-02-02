@@ -100,7 +100,7 @@ public class Gneiss
         return Gneiss.class;
     }
 
-    public static LinkedHashMap<String, Gneiss> load() {
+    public static synchronized LinkedHashMap<String, Gneiss> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Gneiss.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

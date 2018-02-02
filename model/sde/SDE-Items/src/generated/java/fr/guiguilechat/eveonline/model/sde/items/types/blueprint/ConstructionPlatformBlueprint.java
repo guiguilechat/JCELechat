@@ -31,7 +31,7 @@ public class ConstructionPlatformBlueprint
         return ConstructionPlatformBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ConstructionPlatformBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ConstructionPlatformBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ConstructionPlatformBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

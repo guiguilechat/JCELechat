@@ -165,7 +165,7 @@ public class RemoteTrackingComputer
         return RemoteTrackingComputer.class;
     }
 
-    public static LinkedHashMap<String, RemoteTrackingComputer> load() {
+    public static synchronized LinkedHashMap<String, RemoteTrackingComputer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

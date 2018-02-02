@@ -46,7 +46,7 @@ public class DamageControlBlueprint
         return DamageControlBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DamageControlBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DamageControlBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DamageControlBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

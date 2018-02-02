@@ -59,7 +59,7 @@ public class UnanchoringDrone
         return UnanchoringDrone.class;
     }
 
-    public static LinkedHashMap<String, UnanchoringDrone> load() {
+    public static synchronized LinkedHashMap<String, UnanchoringDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnanchoringDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class SystemScannerBlueprint
         return SystemScannerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SystemScannerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SystemScannerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SystemScannerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

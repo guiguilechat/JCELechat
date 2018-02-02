@@ -21,7 +21,7 @@ public class AmarrNavyRoamingLogistics
         return AmarrNavyRoamingLogistics.class;
     }
 
-    public static LinkedHashMap<String, AmarrNavyRoamingLogistics> load() {
+    public static synchronized LinkedHashMap<String, AmarrNavyRoamingLogistics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AmarrNavyRoamingLogistics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

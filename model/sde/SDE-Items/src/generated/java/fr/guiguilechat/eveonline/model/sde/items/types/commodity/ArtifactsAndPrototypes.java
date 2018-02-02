@@ -21,7 +21,7 @@ public class ArtifactsAndPrototypes
         return ArtifactsAndPrototypes.class;
     }
 
-    public static LinkedHashMap<String, ArtifactsAndPrototypes> load() {
+    public static synchronized LinkedHashMap<String, ArtifactsAndPrototypes> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArtifactsAndPrototypes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

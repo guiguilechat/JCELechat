@@ -186,7 +186,7 @@ public class DefensiveSystems
         return DefensiveSystems.class;
     }
 
-    public static LinkedHashMap<String, DefensiveSystems> load() {
+    public static synchronized LinkedHashMap<String, DefensiveSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DefensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

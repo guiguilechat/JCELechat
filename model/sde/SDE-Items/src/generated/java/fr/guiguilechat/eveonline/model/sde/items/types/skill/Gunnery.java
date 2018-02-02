@@ -151,7 +151,7 @@ public class Gunnery
         return Gunnery.class;
     }
 
-    public static LinkedHashMap<String, Gunnery> load() {
+    public static synchronized LinkedHashMap<String, Gunnery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Gunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -277,7 +277,7 @@ public class Marauder
         return Marauder.class;
     }
 
-    public static LinkedHashMap<String, Marauder> load() {
+    public static synchronized LinkedHashMap<String, Marauder> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Marauder.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

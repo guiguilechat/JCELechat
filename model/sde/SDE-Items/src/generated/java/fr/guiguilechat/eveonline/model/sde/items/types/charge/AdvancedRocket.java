@@ -242,7 +242,7 @@ public class AdvancedRocket
         return AdvancedRocket.class;
     }
 
-    public static LinkedHashMap<String, AdvancedRocket> load() {
+    public static synchronized LinkedHashMap<String, AdvancedRocket> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedRocket.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

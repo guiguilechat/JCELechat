@@ -21,7 +21,7 @@ public class NPCCruiser
         return NPCCruiser.class;
     }
 
-    public static LinkedHashMap<String, NPCCruiser> load() {
+    public static synchronized LinkedHashMap<String, NPCCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

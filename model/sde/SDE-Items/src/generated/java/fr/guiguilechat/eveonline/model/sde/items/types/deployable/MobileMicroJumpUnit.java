@@ -123,7 +123,7 @@ public class MobileMicroJumpUnit
         return MobileMicroJumpUnit.class;
     }
 
-    public static LinkedHashMap<String, MobileMicroJumpUnit> load() {
+    public static synchronized LinkedHashMap<String, MobileMicroJumpUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileMicroJumpUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

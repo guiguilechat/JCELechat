@@ -39,7 +39,7 @@ public class CombatDroneBlueprint
         return CombatDroneBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CombatDroneBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CombatDroneBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CombatDroneBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

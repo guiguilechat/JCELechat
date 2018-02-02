@@ -66,7 +66,7 @@ public class StructureLaboratoryRigLCapitalComponent
         return StructureLaboratoryRigLCapitalComponent.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigLCapitalComponent> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigLCapitalComponent> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLCapitalComponent.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

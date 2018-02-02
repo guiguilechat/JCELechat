@@ -179,7 +179,7 @@ public class AdvancedAutocannonAmmo
         return AdvancedAutocannonAmmo.class;
     }
 
-    public static LinkedHashMap<String, AdvancedAutocannonAmmo> load() {
+    public static synchronized LinkedHashMap<String, AdvancedAutocannonAmmo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedAutocannonAmmo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

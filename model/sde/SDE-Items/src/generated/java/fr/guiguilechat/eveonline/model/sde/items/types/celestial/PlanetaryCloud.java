@@ -21,7 +21,7 @@ public class PlanetaryCloud
         return PlanetaryCloud.class;
     }
 
-    public static LinkedHashMap<String, PlanetaryCloud> load() {
+    public static synchronized LinkedHashMap<String, PlanetaryCloud> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetaryCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

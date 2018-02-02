@@ -95,7 +95,7 @@ public class ReactorControlUnit
         return ReactorControlUnit.class;
     }
 
-    public static LinkedHashMap<String, ReactorControlUnit> load() {
+    public static synchronized LinkedHashMap<String, ReactorControlUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ReactorControlUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

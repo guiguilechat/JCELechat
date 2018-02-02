@@ -144,7 +144,7 @@ public class MoonMining
         return MoonMining.class;
     }
 
-    public static LinkedHashMap<String, MoonMining> load() {
+    public static synchronized LinkedHashMap<String, MoonMining> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MoonMining.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

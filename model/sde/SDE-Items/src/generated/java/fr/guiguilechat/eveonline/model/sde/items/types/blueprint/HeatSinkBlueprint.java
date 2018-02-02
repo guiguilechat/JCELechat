@@ -39,7 +39,7 @@ public class HeatSinkBlueprint
         return HeatSinkBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HeatSinkBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HeatSinkBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeatSinkBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

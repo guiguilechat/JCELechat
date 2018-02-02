@@ -137,7 +137,7 @@ public class CorporateHangarArray
         return CorporateHangarArray.class;
     }
 
-    public static LinkedHashMap<String, CorporateHangarArray> load() {
+    public static synchronized LinkedHashMap<String, CorporateHangarArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CorporateHangarArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

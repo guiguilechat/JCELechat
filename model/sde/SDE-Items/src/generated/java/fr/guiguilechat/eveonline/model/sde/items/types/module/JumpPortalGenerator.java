@@ -165,7 +165,7 @@ public class JumpPortalGenerator
         return JumpPortalGenerator.class;
     }
 
-    public static LinkedHashMap<String, JumpPortalGenerator> load() {
+    public static synchronized LinkedHashMap<String, JumpPortalGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(JumpPortalGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

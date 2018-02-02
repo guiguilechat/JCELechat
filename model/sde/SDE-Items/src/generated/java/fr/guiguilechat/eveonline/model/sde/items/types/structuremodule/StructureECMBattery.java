@@ -179,7 +179,7 @@ public class StructureECMBattery
         return StructureECMBattery.class;
     }
 
-    public static LinkedHashMap<String, StructureECMBattery> load() {
+    public static synchronized LinkedHashMap<String, StructureECMBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureECMBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

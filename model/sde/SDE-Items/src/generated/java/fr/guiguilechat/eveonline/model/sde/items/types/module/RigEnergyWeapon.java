@@ -102,7 +102,7 @@ public class RigEnergyWeapon
         return RigEnergyWeapon.class;
     }
 
-    public static LinkedHashMap<String, RigEnergyWeapon> load() {
+    public static synchronized LinkedHashMap<String, RigEnergyWeapon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigEnergyWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

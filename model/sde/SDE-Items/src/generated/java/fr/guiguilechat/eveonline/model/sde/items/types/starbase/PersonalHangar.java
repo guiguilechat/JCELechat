@@ -137,7 +137,7 @@ public class PersonalHangar
         return PersonalHangar.class;
     }
 
-    public static LinkedHashMap<String, PersonalHangar> load() {
+    public static synchronized LinkedHashMap<String, PersonalHangar> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PersonalHangar.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

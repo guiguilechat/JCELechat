@@ -221,7 +221,7 @@ public class AdvancedCruiseMissile
         return AdvancedCruiseMissile.class;
     }
 
-    public static LinkedHashMap<String, AdvancedCruiseMissile> load() {
+    public static synchronized LinkedHashMap<String, AdvancedCruiseMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedCruiseMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

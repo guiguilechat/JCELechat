@@ -123,7 +123,7 @@ public class GasCloudHarvester
         return GasCloudHarvester.class;
     }
 
-    public static LinkedHashMap<String, GasCloudHarvester> load() {
+    public static synchronized LinkedHashMap<String, GasCloudHarvester> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GasCloudHarvester.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

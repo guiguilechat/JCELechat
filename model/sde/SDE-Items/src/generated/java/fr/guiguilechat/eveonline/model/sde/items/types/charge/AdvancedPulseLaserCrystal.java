@@ -186,7 +186,7 @@ public class AdvancedPulseLaserCrystal
         return AdvancedPulseLaserCrystal.class;
     }
 
-    public static LinkedHashMap<String, AdvancedPulseLaserCrystal> load() {
+    public static synchronized LinkedHashMap<String, AdvancedPulseLaserCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedPulseLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

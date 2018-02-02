@@ -116,7 +116,7 @@ public class InterdictionProbe
         return InterdictionProbe.class;
     }
 
-    public static LinkedHashMap<String, InterdictionProbe> load() {
+    public static synchronized LinkedHashMap<String, InterdictionProbe> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InterdictionProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

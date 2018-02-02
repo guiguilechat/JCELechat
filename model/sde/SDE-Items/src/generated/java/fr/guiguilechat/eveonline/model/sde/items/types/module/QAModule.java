@@ -655,7 +655,7 @@ public class QAModule
         return QAModule.class;
     }
 
-    public static LinkedHashMap<String, QAModule> load() {
+    public static synchronized LinkedHashMap<String, QAModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(QAModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

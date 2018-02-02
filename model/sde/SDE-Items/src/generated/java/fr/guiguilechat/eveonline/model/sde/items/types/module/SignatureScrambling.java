@@ -109,7 +109,7 @@ public class SignatureScrambling
         return SignatureScrambling.class;
     }
 
-    public static LinkedHashMap<String, SignatureScrambling> load() {
+    public static synchronized LinkedHashMap<String, SignatureScrambling> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SignatureScrambling.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

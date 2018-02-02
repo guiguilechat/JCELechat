@@ -21,7 +21,7 @@ public class DecryptorsCaldari
         return DecryptorsCaldari.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsCaldari> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsCaldari> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsCaldari.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

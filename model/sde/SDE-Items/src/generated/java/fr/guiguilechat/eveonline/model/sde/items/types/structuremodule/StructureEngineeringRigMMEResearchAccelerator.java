@@ -151,7 +151,7 @@ public class StructureEngineeringRigMMEResearchAccelerator
         return StructureEngineeringRigMMEResearchAccelerator.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMMEResearchAccelerator> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMMEResearchAccelerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMMEResearchAccelerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

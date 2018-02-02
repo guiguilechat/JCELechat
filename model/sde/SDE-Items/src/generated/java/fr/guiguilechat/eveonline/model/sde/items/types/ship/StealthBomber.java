@@ -368,7 +368,7 @@ public class StealthBomber
         return StealthBomber.class;
     }
 
-    public static LinkedHashMap<String, StealthBomber> load() {
+    public static synchronized LinkedHashMap<String, StealthBomber> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StealthBomber.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -115,7 +115,7 @@ public class SkirmishCommandBurstCharges
         return SkirmishCommandBurstCharges.class;
     }
 
-    public static LinkedHashMap<String, SkirmishCommandBurstCharges> load() {
+    public static synchronized LinkedHashMap<String, SkirmishCommandBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SkirmishCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

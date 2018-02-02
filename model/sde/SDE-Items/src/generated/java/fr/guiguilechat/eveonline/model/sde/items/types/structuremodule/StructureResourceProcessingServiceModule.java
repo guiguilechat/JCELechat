@@ -141,7 +141,7 @@ public class StructureResourceProcessingServiceModule
         return StructureResourceProcessingServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureResourceProcessingServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureResourceProcessingServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResourceProcessingServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

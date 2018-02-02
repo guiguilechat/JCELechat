@@ -39,7 +39,7 @@ public class StasisWebBlueprint
         return StasisWebBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StasisWebBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StasisWebBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StasisWebBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

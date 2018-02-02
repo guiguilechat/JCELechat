@@ -73,7 +73,7 @@ public class TrackingDisruptionScript
         return TrackingDisruptionScript.class;
     }
 
-    public static LinkedHashMap<String, TrackingDisruptionScript> load() {
+    public static synchronized LinkedHashMap<String, TrackingDisruptionScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingDisruptionScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

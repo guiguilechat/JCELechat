@@ -39,7 +39,7 @@ public class CapacitorRechargerBlueprint
         return CapacitorRechargerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CapacitorRechargerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CapacitorRechargerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorRechargerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

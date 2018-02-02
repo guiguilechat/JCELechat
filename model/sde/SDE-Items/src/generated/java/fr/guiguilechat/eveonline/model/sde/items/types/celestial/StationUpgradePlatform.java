@@ -66,7 +66,7 @@ public class StationUpgradePlatform
         return StationUpgradePlatform.class;
     }
 
-    public static LinkedHashMap<String, StationUpgradePlatform> load() {
+    public static synchronized LinkedHashMap<String, StationUpgradePlatform> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StationUpgradePlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

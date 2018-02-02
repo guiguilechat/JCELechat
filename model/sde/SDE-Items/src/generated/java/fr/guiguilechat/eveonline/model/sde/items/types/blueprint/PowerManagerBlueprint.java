@@ -39,7 +39,7 @@ public class PowerManagerBlueprint
         return PowerManagerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, PowerManagerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, PowerManagerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PowerManagerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class DepricatedSubsystemBlueprints
         return DepricatedSubsystemBlueprints.class;
     }
 
-    public static LinkedHashMap<String, DepricatedSubsystemBlueprints> load() {
+    public static synchronized LinkedHashMap<String, DepricatedSubsystemBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DepricatedSubsystemBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -46,7 +46,7 @@ public class MiningBargeBlueprint
         return MiningBargeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MiningBargeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MiningBargeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningBargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -130,7 +130,7 @@ public class SurveyProbe
         return SurveyProbe.class;
     }
 
-    public static LinkedHashMap<String, SurveyProbe> load() {
+    public static synchronized LinkedHashMap<String, SurveyProbe> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

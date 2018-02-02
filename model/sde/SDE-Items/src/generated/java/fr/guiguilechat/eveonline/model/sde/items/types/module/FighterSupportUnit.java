@@ -116,7 +116,7 @@ public class FighterSupportUnit
         return FighterSupportUnit.class;
     }
 
-    public static LinkedHashMap<String, FighterSupportUnit> load() {
+    public static synchronized LinkedHashMap<String, FighterSupportUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FighterSupportUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -138,7 +138,7 @@ public class AgentsInSpace
         return AgentsInSpace.class;
     }
 
-    public static LinkedHashMap<String, AgentsInSpace> load() {
+    public static synchronized LinkedHashMap<String, AgentsInSpace> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AgentsInSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

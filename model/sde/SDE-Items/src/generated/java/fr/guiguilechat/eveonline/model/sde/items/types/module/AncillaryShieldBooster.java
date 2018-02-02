@@ -137,7 +137,7 @@ public class AncillaryShieldBooster
         return AncillaryShieldBooster.class;
     }
 
-    public static LinkedHashMap<String, AncillaryShieldBooster> load() {
+    public static synchronized LinkedHashMap<String, AncillaryShieldBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncillaryShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

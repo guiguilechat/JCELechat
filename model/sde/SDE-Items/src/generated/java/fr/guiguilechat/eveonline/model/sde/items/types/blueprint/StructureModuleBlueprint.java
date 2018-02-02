@@ -31,7 +31,7 @@ public class StructureModuleBlueprint
         return StructureModuleBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StructureModuleBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StructureModuleBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureModuleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

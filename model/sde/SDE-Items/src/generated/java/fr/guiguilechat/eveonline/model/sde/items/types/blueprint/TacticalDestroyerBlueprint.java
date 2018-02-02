@@ -39,7 +39,7 @@ public class TacticalDestroyerBlueprint
         return TacticalDestroyerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TacticalDestroyerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TacticalDestroyerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TacticalDestroyerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

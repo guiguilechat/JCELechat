@@ -38,7 +38,7 @@ public class Biomass
         return Biomass.class;
     }
 
-    public static LinkedHashMap<String, Biomass> load() {
+    public static synchronized LinkedHashMap<String, Biomass> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Biomass.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

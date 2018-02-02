@@ -221,7 +221,7 @@ public class JumpPortalArray
         return JumpPortalArray.class;
     }
 
-    public static LinkedHashMap<String, JumpPortalArray> load() {
+    public static synchronized LinkedHashMap<String, JumpPortalArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(JumpPortalArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

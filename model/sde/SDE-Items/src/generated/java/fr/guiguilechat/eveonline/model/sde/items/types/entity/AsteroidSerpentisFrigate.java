@@ -21,7 +21,7 @@ public class AsteroidSerpentisFrigate
         return AsteroidSerpentisFrigate.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSerpentisFrigate> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSerpentisFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSerpentisFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

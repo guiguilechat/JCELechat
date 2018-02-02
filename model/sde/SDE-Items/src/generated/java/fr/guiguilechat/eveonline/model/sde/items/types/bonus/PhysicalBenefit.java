@@ -73,7 +73,7 @@ public class PhysicalBenefit
         return PhysicalBenefit.class;
     }
 
-    public static LinkedHashMap<String, PhysicalBenefit> load() {
+    public static synchronized LinkedHashMap<String, PhysicalBenefit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhysicalBenefit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

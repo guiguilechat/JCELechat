@@ -59,7 +59,7 @@ public class Outer
         return Outer.class;
     }
 
-    public static LinkedHashMap<String, Outer> load() {
+    public static synchronized LinkedHashMap<String, Outer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Outer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

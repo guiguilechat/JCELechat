@@ -74,7 +74,7 @@ public class BallisticControlSystem
         return BallisticControlSystem.class;
     }
 
-    public static LinkedHashMap<String, BallisticControlSystem> load() {
+    public static synchronized LinkedHashMap<String, BallisticControlSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BallisticControlSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

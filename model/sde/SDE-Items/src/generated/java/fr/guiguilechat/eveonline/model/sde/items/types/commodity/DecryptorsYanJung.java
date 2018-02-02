@@ -52,7 +52,7 @@ public class DecryptorsYanJung
         return DecryptorsYanJung.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsYanJung> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsYanJung> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsYanJung.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

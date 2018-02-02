@@ -21,7 +21,7 @@ public class GhostSitesMorduSLegion
         return GhostSitesMorduSLegion.class;
     }
 
-    public static LinkedHashMap<String, GhostSitesMorduSLegion> load() {
+    public static synchronized LinkedHashMap<String, GhostSitesMorduSLegion> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GhostSitesMorduSLegion.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

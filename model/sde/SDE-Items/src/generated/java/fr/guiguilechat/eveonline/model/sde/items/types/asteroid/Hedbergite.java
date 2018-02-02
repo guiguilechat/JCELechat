@@ -100,7 +100,7 @@ public class Hedbergite
         return Hedbergite.class;
     }
 
-    public static LinkedHashMap<String, Hedbergite> load() {
+    public static synchronized LinkedHashMap<String, Hedbergite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Hedbergite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

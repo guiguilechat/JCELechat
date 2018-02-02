@@ -39,7 +39,7 @@ public class AdvancedProjectileAmmoBlueprint
         return AdvancedProjectileAmmoBlueprint.class;
     }
 
-    public static LinkedHashMap<String, AdvancedProjectileAmmoBlueprint> load() {
+    public static synchronized LinkedHashMap<String, AdvancedProjectileAmmoBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedProjectileAmmoBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

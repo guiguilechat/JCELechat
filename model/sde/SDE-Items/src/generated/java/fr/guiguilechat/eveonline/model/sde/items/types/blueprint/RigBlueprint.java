@@ -39,7 +39,7 @@ public class RigBlueprint
         return RigBlueprint.class;
     }
 
-    public static LinkedHashMap<String, RigBlueprint> load() {
+    public static synchronized LinkedHashMap<String, RigBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

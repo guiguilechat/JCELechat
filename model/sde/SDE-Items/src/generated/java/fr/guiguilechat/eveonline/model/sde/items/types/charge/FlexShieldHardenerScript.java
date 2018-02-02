@@ -73,7 +73,7 @@ public class FlexShieldHardenerScript
         return FlexShieldHardenerScript.class;
     }
 
-    public static LinkedHashMap<String, FlexShieldHardenerScript> load() {
+    public static synchronized LinkedHashMap<String, FlexShieldHardenerScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FlexShieldHardenerScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

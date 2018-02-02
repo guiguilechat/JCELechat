@@ -86,7 +86,7 @@ public class CommonMoonAsteroids
         return CommonMoonAsteroids.class;
     }
 
-    public static LinkedHashMap<String, CommonMoonAsteroids> load() {
+    public static synchronized LinkedHashMap<String, CommonMoonAsteroids> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommonMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

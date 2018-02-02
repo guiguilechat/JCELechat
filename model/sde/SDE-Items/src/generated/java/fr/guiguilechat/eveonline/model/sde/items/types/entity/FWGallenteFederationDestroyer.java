@@ -21,7 +21,7 @@ public class FWGallenteFederationDestroyer
         return FWGallenteFederationDestroyer.class;
     }
 
-    public static LinkedHashMap<String, FWGallenteFederationDestroyer> load() {
+    public static synchronized LinkedHashMap<String, FWGallenteFederationDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWGallenteFederationDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

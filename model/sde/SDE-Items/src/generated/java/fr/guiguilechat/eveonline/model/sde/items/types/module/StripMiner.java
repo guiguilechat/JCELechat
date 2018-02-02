@@ -116,7 +116,7 @@ public class StripMiner
         return StripMiner.class;
     }
 
-    public static LinkedHashMap<String, StripMiner> load() {
+    public static synchronized LinkedHashMap<String, StripMiner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StripMiner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

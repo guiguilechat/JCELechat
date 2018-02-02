@@ -39,7 +39,7 @@ public class EnergyNeutralizerBlueprint
         return EnergyNeutralizerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EnergyNeutralizerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EnergyNeutralizerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class IncursionSanshaSNationCruiser
         return IncursionSanshaSNationCruiser.class;
     }
 
-    public static LinkedHashMap<String, IncursionSanshaSNationCruiser> load() {
+    public static synchronized LinkedHashMap<String, IncursionSanshaSNationCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IncursionSanshaSNationCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

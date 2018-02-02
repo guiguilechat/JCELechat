@@ -21,7 +21,7 @@ public class GhostSitesBloodRaidersCruiser
         return GhostSitesBloodRaidersCruiser.class;
     }
 
-    public static LinkedHashMap<String, GhostSitesBloodRaidersCruiser> load() {
+    public static synchronized LinkedHashMap<String, GhostSitesBloodRaidersCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GhostSitesBloodRaidersCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

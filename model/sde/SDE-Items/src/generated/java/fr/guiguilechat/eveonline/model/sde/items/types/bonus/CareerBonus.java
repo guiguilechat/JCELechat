@@ -59,7 +59,7 @@ public class CareerBonus
         return CareerBonus.class;
     }
 
-    public static LinkedHashMap<String, CareerBonus> load() {
+    public static synchronized LinkedHashMap<String, CareerBonus> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CareerBonus.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

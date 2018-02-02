@@ -158,7 +158,7 @@ public class MissileLauncherRapidLight
         return MissileLauncherRapidLight.class;
     }
 
-    public static LinkedHashMap<String, MissileLauncherRapidLight> load() {
+    public static synchronized LinkedHashMap<String, MissileLauncherRapidLight> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherRapidLight.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -144,7 +144,7 @@ public class RemoteArmorRepairer
         return RemoteArmorRepairer.class;
     }
 
-    public static LinkedHashMap<String, RemoteArmorRepairer> load() {
+    public static synchronized LinkedHashMap<String, RemoteArmorRepairer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteArmorRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

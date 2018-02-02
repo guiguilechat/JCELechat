@@ -31,7 +31,7 @@ public class SpecialEditionCommodityBlueprints
         return SpecialEditionCommodityBlueprints.class;
     }
 
-    public static LinkedHashMap<String, SpecialEditionCommodityBlueprints> load() {
+    public static synchronized LinkedHashMap<String, SpecialEditionCommodityBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionCommodityBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

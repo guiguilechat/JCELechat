@@ -21,7 +21,7 @@ public class AsteroidSanshaSNationBattleship
         return AsteroidSanshaSNationBattleship.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSanshaSNationBattleship> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSanshaSNationBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

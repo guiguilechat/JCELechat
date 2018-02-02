@@ -21,7 +21,7 @@ public class HybridReactions
         return HybridReactions.class;
     }
 
-    public static LinkedHashMap<String, HybridReactions> load() {
+    public static synchronized LinkedHashMap<String, HybridReactions> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridReactions.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

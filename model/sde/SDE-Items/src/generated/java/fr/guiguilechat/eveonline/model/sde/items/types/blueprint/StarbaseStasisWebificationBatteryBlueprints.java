@@ -31,7 +31,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
         return StarbaseStasisWebificationBatteryBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseStasisWebificationBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

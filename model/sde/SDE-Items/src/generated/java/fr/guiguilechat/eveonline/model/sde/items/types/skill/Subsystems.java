@@ -88,7 +88,7 @@ public class Subsystems
         return Subsystems.class;
     }
 
-    public static LinkedHashMap<String, Subsystems> load() {
+    public static synchronized LinkedHashMap<String, Subsystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Subsystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

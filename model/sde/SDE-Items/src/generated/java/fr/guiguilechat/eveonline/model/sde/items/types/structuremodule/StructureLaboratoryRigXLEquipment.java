@@ -74,7 +74,7 @@ public class StructureLaboratoryRigXLEquipment
         return StructureLaboratoryRigXLEquipment.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigXLEquipment> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigXLEquipment> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigXLEquipment.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

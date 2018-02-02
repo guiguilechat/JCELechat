@@ -21,7 +21,7 @@ public class ComplexBiochemicalReactions
         return ComplexBiochemicalReactions.class;
     }
 
-    public static LinkedHashMap<String, ComplexBiochemicalReactions> load() {
+    public static synchronized LinkedHashMap<String, ComplexBiochemicalReactions> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ComplexBiochemicalReactions.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

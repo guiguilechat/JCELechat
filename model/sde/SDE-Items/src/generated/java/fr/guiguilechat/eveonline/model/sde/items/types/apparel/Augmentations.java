@@ -21,7 +21,7 @@ public class Augmentations
         return Augmentations.class;
     }
 
-    public static LinkedHashMap<String, Augmentations> load() {
+    public static synchronized LinkedHashMap<String, Augmentations> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Augmentations.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

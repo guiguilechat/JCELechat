@@ -21,7 +21,7 @@ public class MissionCaldariStateCruiser
         return MissionCaldariStateCruiser.class;
     }
 
-    public static LinkedHashMap<String, MissionCaldariStateCruiser> load() {
+    public static synchronized LinkedHashMap<String, MissionCaldariStateCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionCaldariStateCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -80,7 +80,7 @@ public class SensorBoosterScript
         return SensorBoosterScript.class;
     }
 
-    public static LinkedHashMap<String, SensorBoosterScript> load() {
+    public static synchronized LinkedHashMap<String, SensorBoosterScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorBoosterScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

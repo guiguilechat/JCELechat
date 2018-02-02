@@ -21,7 +21,7 @@ public class NPCMiningExhumer
         return NPCMiningExhumer.class;
     }
 
-    public static LinkedHashMap<String, NPCMiningExhumer> load() {
+    public static synchronized LinkedHashMap<String, NPCMiningExhumer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCMiningExhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -74,7 +74,7 @@ public class HeatSink
         return HeatSink.class;
     }
 
-    public static LinkedHashMap<String, HeatSink> load() {
+    public static synchronized LinkedHashMap<String, HeatSink> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeatSink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

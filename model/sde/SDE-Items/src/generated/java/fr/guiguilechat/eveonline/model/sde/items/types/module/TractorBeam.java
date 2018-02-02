@@ -123,7 +123,7 @@ public class TractorBeam
         return TractorBeam.class;
     }
 
-    public static LinkedHashMap<String, TractorBeam> load() {
+    public static synchronized LinkedHashMap<String, TractorBeam> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TractorBeam.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

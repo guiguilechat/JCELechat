@@ -21,7 +21,7 @@ public class FreedomPrograms
         return FreedomPrograms.class;
     }
 
-    public static LinkedHashMap<String, FreedomPrograms> load() {
+    public static synchronized LinkedHashMap<String, FreedomPrograms> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FreedomPrograms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

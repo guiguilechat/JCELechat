@@ -31,7 +31,7 @@ public class InfrastructureHub
         return InfrastructureHub.class;
     }
 
-    public static LinkedHashMap<String, InfrastructureHub> load() {
+    public static synchronized LinkedHashMap<String, InfrastructureHub> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InfrastructureHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

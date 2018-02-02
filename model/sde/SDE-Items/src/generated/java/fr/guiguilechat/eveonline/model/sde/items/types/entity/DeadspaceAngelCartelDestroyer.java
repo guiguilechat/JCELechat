@@ -21,7 +21,7 @@ public class DeadspaceAngelCartelDestroyer
         return DeadspaceAngelCartelDestroyer.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceAngelCartelDestroyer> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceAngelCartelDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceAngelCartelDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

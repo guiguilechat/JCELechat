@@ -46,7 +46,7 @@ public class HeavyFighterBlueprint
         return HeavyFighterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HeavyFighterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HeavyFighterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

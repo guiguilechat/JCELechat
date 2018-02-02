@@ -31,7 +31,7 @@ public class ForceAuxiliaryBlueprint
         return ForceAuxiliaryBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ForceAuxiliaryBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ForceAuxiliaryBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliaryBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

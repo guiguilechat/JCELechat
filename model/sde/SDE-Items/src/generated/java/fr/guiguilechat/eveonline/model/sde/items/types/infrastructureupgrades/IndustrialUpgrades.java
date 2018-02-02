@@ -101,7 +101,7 @@ public class IndustrialUpgrades
         return IndustrialUpgrades.class;
     }
 
-    public static LinkedHashMap<String, IndustrialUpgrades> load() {
+    public static synchronized LinkedHashMap<String, IndustrialUpgrades> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IndustrialUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

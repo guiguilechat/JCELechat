@@ -116,7 +116,7 @@ public class NonRepeatingHardeners
         return NonRepeatingHardeners.class;
     }
 
-    public static LinkedHashMap<String, NonRepeatingHardeners> load() {
+    public static synchronized LinkedHashMap<String, NonRepeatingHardeners> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NonRepeatingHardeners.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -137,7 +137,7 @@ public class SovereigntyBlockadeUnit
         return SovereigntyBlockadeUnit.class;
     }
 
-    public static LinkedHashMap<String, SovereigntyBlockadeUnit> load() {
+    public static synchronized LinkedHashMap<String, SovereigntyBlockadeUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SovereigntyBlockadeUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -109,7 +109,7 @@ public class EncounterSurveillanceSystem
         return EncounterSurveillanceSystem.class;
     }
 
-    public static LinkedHashMap<String, EncounterSurveillanceSystem> load() {
+    public static synchronized LinkedHashMap<String, EncounterSurveillanceSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EncounterSurveillanceSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

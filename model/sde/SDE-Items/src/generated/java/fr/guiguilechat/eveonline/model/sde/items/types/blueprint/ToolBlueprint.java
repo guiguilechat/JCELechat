@@ -46,7 +46,7 @@ public class ToolBlueprint
         return ToolBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ToolBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ToolBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ToolBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

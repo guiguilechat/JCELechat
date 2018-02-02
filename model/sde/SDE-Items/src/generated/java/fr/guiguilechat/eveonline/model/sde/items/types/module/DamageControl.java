@@ -221,7 +221,7 @@ public class DamageControl
         return DamageControl.class;
     }
 
-    public static LinkedHashMap<String, DamageControl> load() {
+    public static synchronized LinkedHashMap<String, DamageControl> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DamageControl.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -291,7 +291,7 @@ public class Freighter
         return Freighter.class;
     }
 
-    public static LinkedHashMap<String, Freighter> load() {
+    public static synchronized LinkedHashMap<String, Freighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Freighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

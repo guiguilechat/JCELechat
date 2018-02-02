@@ -31,7 +31,7 @@ public class SurveyProbeBlueprints
         return SurveyProbeBlueprints.class;
     }
 
-    public static LinkedHashMap<String, SurveyProbeBlueprints> load() {
+    public static synchronized LinkedHashMap<String, SurveyProbeBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

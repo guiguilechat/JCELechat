@@ -60,7 +60,7 @@ public class CosmicSignature
         return CosmicSignature.class;
     }
 
-    public static LinkedHashMap<String, CosmicSignature> load() {
+    public static synchronized LinkedHashMap<String, CosmicSignature> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CosmicSignature.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

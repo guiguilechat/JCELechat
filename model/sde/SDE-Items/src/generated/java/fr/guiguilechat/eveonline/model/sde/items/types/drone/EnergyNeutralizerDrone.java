@@ -277,7 +277,7 @@ public class EnergyNeutralizerDrone
         return EnergyNeutralizerDrone.class;
     }
 
-    public static LinkedHashMap<String, EnergyNeutralizerDrone> load() {
+    public static synchronized LinkedHashMap<String, EnergyNeutralizerDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizerDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -38,7 +38,7 @@ public class DisruptableStationServices
         return DisruptableStationServices.class;
     }
 
-    public static LinkedHashMap<String, DisruptableStationServices> load() {
+    public static synchronized LinkedHashMap<String, DisruptableStationServices> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DisruptableStationServices.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

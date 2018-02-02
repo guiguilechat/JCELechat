@@ -480,7 +480,7 @@ public class Cyberimplant
         return Cyberimplant.class;
     }
 
-    public static LinkedHashMap<String, Cyberimplant> load() {
+    public static synchronized LinkedHashMap<String, Cyberimplant> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Cyberimplant.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

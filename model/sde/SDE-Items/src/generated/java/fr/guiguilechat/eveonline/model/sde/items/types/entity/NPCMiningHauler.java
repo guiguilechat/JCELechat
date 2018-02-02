@@ -21,7 +21,7 @@ public class NPCMiningHauler
         return NPCMiningHauler.class;
     }
 
-    public static LinkedHashMap<String, NPCMiningHauler> load() {
+    public static synchronized LinkedHashMap<String, NPCMiningHauler> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCMiningHauler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

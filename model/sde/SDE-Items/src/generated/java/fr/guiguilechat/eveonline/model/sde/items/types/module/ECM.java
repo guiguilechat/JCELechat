@@ -158,7 +158,7 @@ public class ECM
         return ECM.class;
     }
 
-    public static LinkedHashMap<String, ECM> load() {
+    public static synchronized LinkedHashMap<String, ECM> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECM.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class TitanBlueprint
         return TitanBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TitanBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TitanBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TitanBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

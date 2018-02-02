@@ -21,7 +21,7 @@ public class Services
         return Services.class;
     }
 
-    public static LinkedHashMap<String, Services> load() {
+    public static synchronized LinkedHashMap<String, Services> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Services.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

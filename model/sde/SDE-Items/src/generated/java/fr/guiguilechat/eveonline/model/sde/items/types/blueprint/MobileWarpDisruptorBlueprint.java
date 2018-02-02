@@ -39,7 +39,7 @@ public class MobileWarpDisruptorBlueprint
         return MobileWarpDisruptorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileWarpDisruptorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileWarpDisruptorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileWarpDisruptorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

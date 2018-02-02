@@ -21,7 +21,7 @@ public class Furniture
         return Furniture.class;
     }
 
-    public static LinkedHashMap<String, Furniture> load() {
+    public static synchronized LinkedHashMap<String, Furniture> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Furniture.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

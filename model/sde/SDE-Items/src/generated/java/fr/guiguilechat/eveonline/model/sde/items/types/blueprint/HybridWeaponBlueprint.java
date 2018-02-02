@@ -46,7 +46,7 @@ public class HybridWeaponBlueprint
         return HybridWeaponBlueprint.class;
     }
 
-    public static LinkedHashMap<String, HybridWeaponBlueprint> load() {
+    public static synchronized LinkedHashMap<String, HybridWeaponBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

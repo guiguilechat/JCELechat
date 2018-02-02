@@ -59,7 +59,7 @@ public class AmarrEducation
         return AmarrEducation.class;
     }
 
-    public static LinkedHashMap<String, AmarrEducation> load() {
+    public static synchronized LinkedHashMap<String, AmarrEducation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AmarrEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

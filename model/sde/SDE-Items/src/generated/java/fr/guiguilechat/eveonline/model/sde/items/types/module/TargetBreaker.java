@@ -137,7 +137,7 @@ public class TargetBreaker
         return TargetBreaker.class;
     }
 
-    public static LinkedHashMap<String, TargetBreaker> load() {
+    public static synchronized LinkedHashMap<String, TargetBreaker> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetBreaker.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

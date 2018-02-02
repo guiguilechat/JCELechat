@@ -21,7 +21,7 @@ public class SleeperEventFrigate
         return SleeperEventFrigate.class;
     }
 
-    public static LinkedHashMap<String, SleeperEventFrigate> load() {
+    public static synchronized LinkedHashMap<String, SleeperEventFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

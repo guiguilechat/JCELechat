@@ -39,7 +39,7 @@ public class SmartBombBlueprint
         return SmartBombBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SmartBombBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SmartBombBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SmartBombBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

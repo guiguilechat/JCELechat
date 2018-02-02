@@ -21,7 +21,7 @@ public class RoamingSleepersCruiser
         return RoamingSleepersCruiser.class;
     }
 
-    public static LinkedHashMap<String, RoamingSleepersCruiser> load() {
+    public static synchronized LinkedHashMap<String, RoamingSleepersCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingSleepersCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

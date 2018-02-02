@@ -100,7 +100,7 @@ public class Veldspar
         return Veldspar.class;
     }
 
-    public static LinkedHashMap<String, Veldspar> load() {
+    public static synchronized LinkedHashMap<String, Veldspar> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Veldspar.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

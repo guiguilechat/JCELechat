@@ -21,7 +21,7 @@ public class DeadspaceSleeperSleeplessDefender
         return DeadspaceSleeperSleeplessDefender.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSleeperSleeplessDefender> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSleeperSleeplessDefender> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSleeperSleeplessDefender.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -81,7 +81,7 @@ public class MissileGuidanceEnhancer
         return MissileGuidanceEnhancer.class;
     }
 
-    public static LinkedHashMap<String, MissileGuidanceEnhancer> load() {
+    public static synchronized LinkedHashMap<String, MissileGuidanceEnhancer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

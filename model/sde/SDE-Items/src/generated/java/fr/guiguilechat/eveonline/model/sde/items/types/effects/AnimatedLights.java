@@ -21,7 +21,7 @@ public class AnimatedLights
         return AnimatedLights.class;
     }
 
-    public static LinkedHashMap<String, AnimatedLights> load() {
+    public static synchronized LinkedHashMap<String, AnimatedLights> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AnimatedLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

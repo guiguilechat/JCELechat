@@ -39,7 +39,7 @@ public class GangCoordinatorBlueprint
         return GangCoordinatorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, GangCoordinatorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, GangCoordinatorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GangCoordinatorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

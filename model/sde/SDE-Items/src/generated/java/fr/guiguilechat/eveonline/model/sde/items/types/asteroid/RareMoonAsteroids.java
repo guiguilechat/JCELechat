@@ -86,7 +86,7 @@ public class RareMoonAsteroids
         return RareMoonAsteroids.class;
     }
 
-    public static LinkedHashMap<String, RareMoonAsteroids> load() {
+    public static synchronized LinkedHashMap<String, RareMoonAsteroids> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RareMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -116,7 +116,7 @@ public class RepairDrone
         return RepairDrone.class;
     }
 
-    public static LinkedHashMap<String, RepairDrone> load() {
+    public static synchronized LinkedHashMap<String, RepairDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RepairDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

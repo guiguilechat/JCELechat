@@ -31,7 +31,7 @@ public class FuelBlockBlueprint
         return FuelBlockBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FuelBlockBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FuelBlockBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FuelBlockBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

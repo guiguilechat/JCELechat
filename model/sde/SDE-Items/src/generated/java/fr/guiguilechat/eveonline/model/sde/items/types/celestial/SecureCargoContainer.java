@@ -60,7 +60,7 @@ public class SecureCargoContainer
         return SecureCargoContainer.class;
     }
 
-    public static LinkedHashMap<String, SecureCargoContainer> load() {
+    public static synchronized LinkedHashMap<String, SecureCargoContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SecureCargoContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -123,7 +123,7 @@ public class RigScanning
         return RigScanning.class;
     }
 
-    public static LinkedHashMap<String, RigScanning> load() {
+    public static synchronized LinkedHashMap<String, RigScanning> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

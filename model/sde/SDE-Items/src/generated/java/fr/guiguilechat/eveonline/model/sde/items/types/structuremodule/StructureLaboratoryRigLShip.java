@@ -74,7 +74,7 @@ public class StructureLaboratoryRigLShip
         return StructureLaboratoryRigLShip.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigLShip> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigLShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

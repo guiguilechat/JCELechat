@@ -277,7 +277,7 @@ public class WarpScramblingDrone
         return WarpScramblingDrone.class;
     }
 
-    public static LinkedHashMap<String, WarpScramblingDrone> load() {
+    public static synchronized LinkedHashMap<String, WarpScramblingDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpScramblingDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

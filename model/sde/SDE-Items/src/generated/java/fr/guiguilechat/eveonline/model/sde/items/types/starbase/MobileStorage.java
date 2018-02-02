@@ -60,7 +60,7 @@ public class MobileStorage
         return MobileStorage.class;
     }
 
-    public static LinkedHashMap<String, MobileStorage> load() {
+    public static synchronized LinkedHashMap<String, MobileStorage> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileStorage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

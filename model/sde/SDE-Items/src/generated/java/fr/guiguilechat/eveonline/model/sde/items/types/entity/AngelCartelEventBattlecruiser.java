@@ -21,7 +21,7 @@ public class AngelCartelEventBattlecruiser
         return AngelCartelEventBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, AngelCartelEventBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, AngelCartelEventBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AngelCartelEventBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

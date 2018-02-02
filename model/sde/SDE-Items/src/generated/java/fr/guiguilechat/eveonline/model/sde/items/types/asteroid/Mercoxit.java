@@ -107,7 +107,7 @@ public class Mercoxit
         return Mercoxit.class;
     }
 
-    public static LinkedHashMap<String, Mercoxit> load() {
+    public static synchronized LinkedHashMap<String, Mercoxit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Mercoxit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

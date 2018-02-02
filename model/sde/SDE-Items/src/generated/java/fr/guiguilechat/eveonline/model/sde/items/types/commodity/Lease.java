@@ -21,7 +21,7 @@ public class Lease
         return Lease.class;
     }
 
-    public static LinkedHashMap<String, Lease> load() {
+    public static synchronized LinkedHashMap<String, Lease> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Lease.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

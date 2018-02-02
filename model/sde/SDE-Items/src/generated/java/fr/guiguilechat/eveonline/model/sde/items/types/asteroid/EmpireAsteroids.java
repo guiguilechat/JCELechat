@@ -58,7 +58,7 @@ public class EmpireAsteroids
         return EmpireAsteroids.class;
     }
 
-    public static LinkedHashMap<String, EmpireAsteroids> load() {
+    public static synchronized LinkedHashMap<String, EmpireAsteroids> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EmpireAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

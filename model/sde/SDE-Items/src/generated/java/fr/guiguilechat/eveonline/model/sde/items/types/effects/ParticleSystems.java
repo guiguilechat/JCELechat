@@ -21,7 +21,7 @@ public class ParticleSystems
         return ParticleSystems.class;
     }
 
-    public static LinkedHashMap<String, ParticleSystems> load() {
+    public static synchronized LinkedHashMap<String, ParticleSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ParticleSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

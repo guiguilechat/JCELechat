@@ -137,7 +137,7 @@ public class StructureCombatRigMMissileApplication
         return StructureCombatRigMMissileApplication.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigMMissileApplication> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigMMissileApplication> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMMissileApplication.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

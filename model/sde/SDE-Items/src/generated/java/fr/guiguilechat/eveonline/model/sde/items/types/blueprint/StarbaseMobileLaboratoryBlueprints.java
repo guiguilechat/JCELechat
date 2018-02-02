@@ -31,7 +31,7 @@ public class StarbaseMobileLaboratoryBlueprints
         return StarbaseMobileLaboratoryBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseMobileLaboratoryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

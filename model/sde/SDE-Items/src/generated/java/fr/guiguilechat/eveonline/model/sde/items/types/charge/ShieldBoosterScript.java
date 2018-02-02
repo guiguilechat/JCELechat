@@ -59,7 +59,7 @@ public class ShieldBoosterScript
         return ShieldBoosterScript.class;
     }
 
-    public static LinkedHashMap<String, ShieldBoosterScript> load() {
+    public static synchronized LinkedHashMap<String, ShieldBoosterScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldBoosterScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

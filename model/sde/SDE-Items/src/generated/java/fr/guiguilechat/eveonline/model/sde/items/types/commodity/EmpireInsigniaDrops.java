@@ -21,7 +21,7 @@ public class EmpireInsigniaDrops
         return EmpireInsigniaDrops.class;
     }
 
-    public static LinkedHashMap<String, EmpireInsigniaDrops> load() {
+    public static synchronized LinkedHashMap<String, EmpireInsigniaDrops> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EmpireInsigniaDrops.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

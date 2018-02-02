@@ -21,7 +21,7 @@ public class Footwear
         return Footwear.class;
     }
 
-    public static LinkedHashMap<String, Footwear> load() {
+    public static synchronized LinkedHashMap<String, Footwear> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Footwear.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

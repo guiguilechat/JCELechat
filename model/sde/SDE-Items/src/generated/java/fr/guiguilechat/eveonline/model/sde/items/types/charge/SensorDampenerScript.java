@@ -66,7 +66,7 @@ public class SensorDampenerScript
         return SensorDampenerScript.class;
     }
 
-    public static LinkedHashMap<String, SensorDampenerScript> load() {
+    public static synchronized LinkedHashMap<String, SensorDampenerScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorDampenerScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

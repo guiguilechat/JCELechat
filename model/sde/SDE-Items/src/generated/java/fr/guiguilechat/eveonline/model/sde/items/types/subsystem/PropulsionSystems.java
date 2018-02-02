@@ -109,7 +109,7 @@ public class PropulsionSystems
         return PropulsionSystems.class;
     }
 
-    public static LinkedHashMap<String, PropulsionSystems> load() {
+    public static synchronized LinkedHashMap<String, PropulsionSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PropulsionSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

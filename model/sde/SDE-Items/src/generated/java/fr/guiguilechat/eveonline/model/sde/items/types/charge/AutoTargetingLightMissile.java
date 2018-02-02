@@ -207,7 +207,7 @@ public class AutoTargetingLightMissile
         return AutoTargetingLightMissile.class;
     }
 
-    public static LinkedHashMap<String, AutoTargetingLightMissile> load() {
+    public static synchronized LinkedHashMap<String, AutoTargetingLightMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AutoTargetingLightMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

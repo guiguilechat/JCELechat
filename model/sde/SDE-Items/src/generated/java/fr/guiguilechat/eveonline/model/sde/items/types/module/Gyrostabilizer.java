@@ -74,7 +74,7 @@ public class Gyrostabilizer
         return Gyrostabilizer.class;
     }
 
-    public static LinkedHashMap<String, Gyrostabilizer> load() {
+    public static synchronized LinkedHashMap<String, Gyrostabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Gyrostabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

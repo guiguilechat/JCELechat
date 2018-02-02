@@ -74,7 +74,7 @@ public class StructureLaboratoryRigMDrone
         return StructureLaboratoryRigMDrone.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigMDrone> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigMDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigMDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

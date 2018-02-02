@@ -144,7 +144,7 @@ public class StructureCombatRigXLEnergyNeutralizerAndEW
         return StructureCombatRigXLEnergyNeutralizerAndEW.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigXLEnergyNeutralizerAndEW> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigXLEnergyNeutralizerAndEW> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLEnergyNeutralizerAndEW.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

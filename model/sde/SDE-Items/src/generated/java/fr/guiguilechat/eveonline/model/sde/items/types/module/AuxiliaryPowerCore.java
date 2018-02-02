@@ -67,7 +67,7 @@ public class AuxiliaryPowerCore
         return AuxiliaryPowerCore.class;
     }
 
-    public static LinkedHashMap<String, AuxiliaryPowerCore> load() {
+    public static synchronized LinkedHashMap<String, AuxiliaryPowerCore> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

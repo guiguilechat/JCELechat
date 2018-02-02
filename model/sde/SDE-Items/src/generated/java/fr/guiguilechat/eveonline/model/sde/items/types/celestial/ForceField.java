@@ -21,7 +21,7 @@ public class ForceField
         return ForceField.class;
     }
 
-    public static LinkedHashMap<String, ForceField> load() {
+    public static synchronized LinkedHashMap<String, ForceField> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceField.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

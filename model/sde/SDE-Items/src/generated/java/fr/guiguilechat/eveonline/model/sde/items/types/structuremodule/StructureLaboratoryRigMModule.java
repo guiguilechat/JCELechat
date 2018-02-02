@@ -74,7 +74,7 @@ public class StructureLaboratoryRigMModule
         return StructureLaboratoryRigMModule.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigMModule> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigMModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigMModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

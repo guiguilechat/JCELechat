@@ -158,7 +158,7 @@ public class AdvancedArtilleryAmmo
         return AdvancedArtilleryAmmo.class;
     }
 
-    public static LinkedHashMap<String, AdvancedArtilleryAmmo> load() {
+    public static synchronized LinkedHashMap<String, AdvancedArtilleryAmmo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedArtilleryAmmo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

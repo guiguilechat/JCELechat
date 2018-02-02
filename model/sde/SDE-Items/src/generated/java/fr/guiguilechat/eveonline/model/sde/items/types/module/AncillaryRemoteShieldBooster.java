@@ -179,7 +179,7 @@ public class AncillaryRemoteShieldBooster
         return AncillaryRemoteShieldBooster.class;
     }
 
-    public static LinkedHashMap<String, AncillaryRemoteShieldBooster> load() {
+    public static synchronized LinkedHashMap<String, AncillaryRemoteShieldBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncillaryRemoteShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

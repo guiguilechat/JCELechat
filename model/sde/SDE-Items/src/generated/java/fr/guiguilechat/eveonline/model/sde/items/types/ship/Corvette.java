@@ -361,7 +361,7 @@ public class Corvette
         return Corvette.class;
     }
 
-    public static LinkedHashMap<String, Corvette> load() {
+    public static synchronized LinkedHashMap<String, Corvette> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Corvette.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

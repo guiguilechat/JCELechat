@@ -102,7 +102,7 @@ public class StructureDrillingRigMEfficiency
         return StructureDrillingRigMEfficiency.class;
     }
 
-    public static LinkedHashMap<String, StructureDrillingRigMEfficiency> load() {
+    public static synchronized LinkedHashMap<String, StructureDrillingRigMEfficiency> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

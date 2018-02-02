@@ -52,7 +52,7 @@ public class DecryptorsTalocan
         return DecryptorsTalocan.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsTalocan> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsTalocan> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsTalocan.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

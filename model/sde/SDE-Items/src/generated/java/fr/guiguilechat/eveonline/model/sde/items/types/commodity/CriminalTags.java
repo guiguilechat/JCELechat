@@ -21,7 +21,7 @@ public class CriminalTags
         return CriminalTags.class;
     }
 
-    public static LinkedHashMap<String, CriminalTags> load() {
+    public static synchronized LinkedHashMap<String, CriminalTags> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CriminalTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -151,7 +151,7 @@ public class Production
         return Production.class;
     }
 
-    public static LinkedHashMap<String, Production> load() {
+    public static synchronized LinkedHashMap<String, Production> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Production.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

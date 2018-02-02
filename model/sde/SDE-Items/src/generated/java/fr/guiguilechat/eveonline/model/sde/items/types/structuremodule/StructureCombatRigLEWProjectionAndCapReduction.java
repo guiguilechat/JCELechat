@@ -151,7 +151,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
         return StructureCombatRigLEWProjectionAndCapReduction.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigLEWProjectionAndCapReduction> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigLEWProjectionAndCapReduction> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLEWProjectionAndCapReduction.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

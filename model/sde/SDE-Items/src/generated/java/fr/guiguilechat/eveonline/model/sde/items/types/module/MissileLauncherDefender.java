@@ -172,7 +172,7 @@ public class MissileLauncherDefender
         return MissileLauncherDefender.class;
     }
 
-    public static LinkedHashMap<String, MissileLauncherDefender> load() {
+    public static synchronized LinkedHashMap<String, MissileLauncherDefender> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherDefender.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

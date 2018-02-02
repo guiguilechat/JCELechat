@@ -95,7 +95,7 @@ public class ShieldResistanceAmplifier
         return ShieldResistanceAmplifier.class;
     }
 
-    public static LinkedHashMap<String, ShieldResistanceAmplifier> load() {
+    public static synchronized LinkedHashMap<String, ShieldResistanceAmplifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldResistanceAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

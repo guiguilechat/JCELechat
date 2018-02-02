@@ -100,7 +100,7 @@ public class Arkonor
         return Arkonor.class;
     }
 
-    public static LinkedHashMap<String, Arkonor> load() {
+    public static synchronized LinkedHashMap<String, Arkonor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Arkonor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

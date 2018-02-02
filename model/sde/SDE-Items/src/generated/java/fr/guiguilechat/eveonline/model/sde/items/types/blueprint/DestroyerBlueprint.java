@@ -46,7 +46,7 @@ public class DestroyerBlueprint
         return DestroyerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DestroyerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DestroyerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DestroyerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

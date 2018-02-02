@@ -31,7 +31,7 @@ public class StarbaseSensorDampeningArrayBlueprints
         return StarbaseSensorDampeningArrayBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseSensorDampeningArrayBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseSensorDampeningArrayBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseSensorDampeningArrayBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -242,7 +242,7 @@ public class ProjectileWeapon
         return ProjectileWeapon.class;
     }
 
-    public static LinkedHashMap<String, ProjectileWeapon> load() {
+    public static synchronized LinkedHashMap<String, ProjectileWeapon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ProjectileWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

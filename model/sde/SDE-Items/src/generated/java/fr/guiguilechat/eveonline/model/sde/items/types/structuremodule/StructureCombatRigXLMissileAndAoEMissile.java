@@ -144,7 +144,7 @@ public class StructureCombatRigXLMissileAndAoEMissile
         return StructureCombatRigXLMissileAndAoEMissile.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigXLMissileAndAoEMissile> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigXLMissileAndAoEMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigXLMissileAndAoEMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

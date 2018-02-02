@@ -81,7 +81,7 @@ public class WarpCoreStabilizer
         return WarpCoreStabilizer.class;
     }
 
-    public static LinkedHashMap<String, WarpCoreStabilizer> load() {
+    public static synchronized LinkedHashMap<String, WarpCoreStabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpCoreStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

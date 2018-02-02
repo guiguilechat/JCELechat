@@ -21,7 +21,7 @@ public class ScatterContainer
         return ScatterContainer.class;
     }
 
-    public static LinkedHashMap<String, ScatterContainer> load() {
+    public static synchronized LinkedHashMap<String, ScatterContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScatterContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

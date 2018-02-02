@@ -60,7 +60,7 @@ public class InertialStabilizer
         return InertialStabilizer.class;
     }
 
-    public static LinkedHashMap<String, InertialStabilizer> load() {
+    public static synchronized LinkedHashMap<String, InertialStabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InertialStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

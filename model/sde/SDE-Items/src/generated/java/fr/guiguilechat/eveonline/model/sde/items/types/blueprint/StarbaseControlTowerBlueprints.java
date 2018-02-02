@@ -31,7 +31,7 @@ public class StarbaseControlTowerBlueprints
         return StarbaseControlTowerBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseControlTowerBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseControlTowerBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseControlTowerBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -319,7 +319,7 @@ public class StrategicCruiser
         return StrategicCruiser.class;
     }
 
-    public static LinkedHashMap<String, StrategicCruiser> load() {
+    public static synchronized LinkedHashMap<String, StrategicCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrategicCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

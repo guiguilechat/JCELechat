@@ -31,7 +31,7 @@ public class SuperWeaponBlueprint
         return SuperWeaponBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SuperWeaponBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SuperWeaponBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SuperWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

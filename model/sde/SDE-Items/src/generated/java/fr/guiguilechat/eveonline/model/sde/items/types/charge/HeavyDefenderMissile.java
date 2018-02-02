@@ -21,7 +21,7 @@ public class HeavyDefenderMissile
         return HeavyDefenderMissile.class;
     }
 
-    public static LinkedHashMap<String, HeavyDefenderMissile> load() {
+    public static synchronized LinkedHashMap<String, HeavyDefenderMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyDefenderMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -74,7 +74,7 @@ public class StructureAssemblyRigLSubsystem
         return StructureAssemblyRigLSubsystem.class;
     }
 
-    public static LinkedHashMap<String, StructureAssemblyRigLSubsystem> load() {
+    public static synchronized LinkedHashMap<String, StructureAssemblyRigLSubsystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAssemblyRigLSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

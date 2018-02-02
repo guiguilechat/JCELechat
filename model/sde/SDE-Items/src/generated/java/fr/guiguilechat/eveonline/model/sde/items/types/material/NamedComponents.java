@@ -21,7 +21,7 @@ public class NamedComponents
         return NamedComponents.class;
     }
 
-    public static LinkedHashMap<String, NamedComponents> load() {
+    public static synchronized LinkedHashMap<String, NamedComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NamedComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

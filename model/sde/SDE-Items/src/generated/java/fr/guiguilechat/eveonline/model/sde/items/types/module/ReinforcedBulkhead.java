@@ -81,7 +81,7 @@ public class ReinforcedBulkhead
         return ReinforcedBulkhead.class;
     }
 
-    public static LinkedHashMap<String, ReinforcedBulkhead> load() {
+    public static synchronized LinkedHashMap<String, ReinforcedBulkhead> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ReinforcedBulkhead.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class RemoteCapacitorTransmitterBlueprint
         return RemoteCapacitorTransmitterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteCapacitorTransmitterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

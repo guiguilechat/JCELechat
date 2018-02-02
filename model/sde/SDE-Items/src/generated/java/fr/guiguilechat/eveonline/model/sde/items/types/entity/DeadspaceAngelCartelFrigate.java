@@ -21,7 +21,7 @@ public class DeadspaceAngelCartelFrigate
         return DeadspaceAngelCartelFrigate.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceAngelCartelFrigate> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceAngelCartelFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceAngelCartelFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -179,7 +179,7 @@ public class CloakingDevice
         return CloakingDevice.class;
     }
 
-    public static LinkedHashMap<String, CloakingDevice> load() {
+    public static synchronized LinkedHashMap<String, CloakingDevice> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CloakingDevice.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

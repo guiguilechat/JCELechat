@@ -172,7 +172,7 @@ public class AdvancedBlasterCharge
         return AdvancedBlasterCharge.class;
     }
 
-    public static LinkedHashMap<String, AdvancedBlasterCharge> load() {
+    public static synchronized LinkedHashMap<String, AdvancedBlasterCharge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedBlasterCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

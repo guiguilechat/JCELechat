@@ -21,7 +21,7 @@ public class AdvertisementCenter
         return AdvertisementCenter.class;
     }
 
-    public static LinkedHashMap<String, AdvertisementCenter> load() {
+    public static synchronized LinkedHashMap<String, AdvertisementCenter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvertisementCenter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

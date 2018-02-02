@@ -31,7 +31,7 @@ public class Cloud
         return Cloud.class;
     }
 
-    public static LinkedHashMap<String, Cloud> load() {
+    public static synchronized LinkedHashMap<String, Cloud> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Cloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

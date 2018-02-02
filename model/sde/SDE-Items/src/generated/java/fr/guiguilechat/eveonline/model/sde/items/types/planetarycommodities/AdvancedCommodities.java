@@ -21,7 +21,7 @@ public class AdvancedCommodities
         return AdvancedCommodities.class;
     }
 
-    public static LinkedHashMap<String, AdvancedCommodities> load() {
+    public static synchronized LinkedHashMap<String, AdvancedCommodities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

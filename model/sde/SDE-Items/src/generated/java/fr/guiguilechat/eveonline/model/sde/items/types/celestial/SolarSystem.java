@@ -21,7 +21,7 @@ public class SolarSystem
         return SolarSystem.class;
     }
 
-    public static LinkedHashMap<String, SolarSystem> load() {
+    public static synchronized LinkedHashMap<String, SolarSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SolarSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

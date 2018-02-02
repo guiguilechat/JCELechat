@@ -74,7 +74,7 @@ public class StationImprovementPlatform
         return StationImprovementPlatform.class;
     }
 
-    public static LinkedHashMap<String, StationImprovementPlatform> load() {
+    public static synchronized LinkedHashMap<String, StationImprovementPlatform> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StationImprovementPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

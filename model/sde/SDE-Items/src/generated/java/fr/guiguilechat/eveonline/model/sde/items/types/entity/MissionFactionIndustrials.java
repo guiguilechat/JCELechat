@@ -21,7 +21,7 @@ public class MissionFactionIndustrials
         return MissionFactionIndustrials.class;
     }
 
-    public static LinkedHashMap<String, MissionFactionIndustrials> load() {
+    public static synchronized LinkedHashMap<String, MissionFactionIndustrials> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionFactionIndustrials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

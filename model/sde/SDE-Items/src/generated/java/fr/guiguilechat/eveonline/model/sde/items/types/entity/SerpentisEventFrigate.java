@@ -21,7 +21,7 @@ public class SerpentisEventFrigate
         return SerpentisEventFrigate.class;
     }
 
-    public static LinkedHashMap<String, SerpentisEventFrigate> load() {
+    public static synchronized LinkedHashMap<String, SerpentisEventFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SerpentisEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

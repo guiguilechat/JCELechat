@@ -31,7 +31,7 @@ public class MissileGuidanceEnhancerBlueprint
         return MissileGuidanceEnhancerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MissileGuidanceEnhancerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MissileGuidanceEnhancerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceEnhancerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

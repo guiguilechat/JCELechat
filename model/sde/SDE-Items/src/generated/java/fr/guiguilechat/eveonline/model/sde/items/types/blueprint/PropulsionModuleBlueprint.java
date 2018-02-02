@@ -46,7 +46,7 @@ public class PropulsionModuleBlueprint
         return PropulsionModuleBlueprint.class;
     }
 
-    public static LinkedHashMap<String, PropulsionModuleBlueprint> load() {
+    public static synchronized LinkedHashMap<String, PropulsionModuleBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PropulsionModuleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

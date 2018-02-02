@@ -263,7 +263,7 @@ public class MobileSentryGun
         return MobileSentryGun.class;
     }
 
-    public static LinkedHashMap<String, MobileSentryGun> load() {
+    public static synchronized LinkedHashMap<String, MobileSentryGun> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileSentryGun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

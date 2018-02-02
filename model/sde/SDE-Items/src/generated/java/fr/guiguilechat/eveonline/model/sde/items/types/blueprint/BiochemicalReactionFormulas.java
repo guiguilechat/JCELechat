@@ -21,7 +21,7 @@ public class BiochemicalReactionFormulas
         return BiochemicalReactionFormulas.class;
     }
 
-    public static LinkedHashMap<String, BiochemicalReactionFormulas> load() {
+    public static synchronized LinkedHashMap<String, BiochemicalReactionFormulas> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BiochemicalReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

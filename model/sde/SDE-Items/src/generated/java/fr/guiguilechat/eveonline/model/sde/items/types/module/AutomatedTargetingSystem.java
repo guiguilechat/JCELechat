@@ -81,7 +81,7 @@ public class AutomatedTargetingSystem
         return AutomatedTargetingSystem.class;
     }
 
-    public static LinkedHashMap<String, AutomatedTargetingSystem> load() {
+    public static synchronized LinkedHashMap<String, AutomatedTargetingSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AutomatedTargetingSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

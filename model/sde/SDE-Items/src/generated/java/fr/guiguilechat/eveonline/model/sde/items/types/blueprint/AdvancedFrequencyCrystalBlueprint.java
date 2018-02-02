@@ -39,7 +39,7 @@ public class AdvancedFrequencyCrystalBlueprint
         return AdvancedFrequencyCrystalBlueprint.class;
     }
 
-    public static LinkedHashMap<String, AdvancedFrequencyCrystalBlueprint> load() {
+    public static synchronized LinkedHashMap<String, AdvancedFrequencyCrystalBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedFrequencyCrystalBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

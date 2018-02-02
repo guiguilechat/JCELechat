@@ -115,7 +115,7 @@ public class MiningForemanBurstCharges
         return MiningForemanBurstCharges.class;
     }
 
-    public static LinkedHashMap<String, MiningForemanBurstCharges> load() {
+    public static synchronized LinkedHashMap<String, MiningForemanBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningForemanBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

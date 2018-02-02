@@ -21,7 +21,7 @@ public class PermanentSKIN
         return PermanentSKIN.class;
     }
 
-    public static LinkedHashMap<String, PermanentSKIN> load() {
+    public static synchronized LinkedHashMap<String, PermanentSKIN> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PermanentSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

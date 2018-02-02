@@ -319,7 +319,7 @@ public class Booster
         return Booster.class;
     }
 
-    public static LinkedHashMap<String, Booster> load() {
+    public static synchronized LinkedHashMap<String, Booster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Booster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -81,7 +81,7 @@ public class CargoScanner
         return CargoScanner.class;
     }
 
-    public static LinkedHashMap<String, CargoScanner> load() {
+    public static synchronized LinkedHashMap<String, CargoScanner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CargoScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

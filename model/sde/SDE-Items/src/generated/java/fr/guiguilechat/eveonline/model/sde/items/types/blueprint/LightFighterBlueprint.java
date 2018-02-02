@@ -39,7 +39,7 @@ public class LightFighterBlueprint
         return LightFighterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, LightFighterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, LightFighterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LightFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

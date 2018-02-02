@@ -137,7 +137,7 @@ public class StructureResourceRigMAsteroidOreReprocessing
         return StructureResourceRigMAsteroidOreReprocessing.class;
     }
 
-    public static LinkedHashMap<String, StructureResourceRigMAsteroidOreReprocessing> load() {
+    public static synchronized LinkedHashMap<String, StructureResourceRigMAsteroidOreReprocessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResourceRigMAsteroidOreReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

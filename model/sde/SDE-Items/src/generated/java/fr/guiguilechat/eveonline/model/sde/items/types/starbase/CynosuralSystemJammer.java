@@ -221,7 +221,7 @@ public class CynosuralSystemJammer
         return CynosuralSystemJammer.class;
     }
 
-    public static LinkedHashMap<String, CynosuralSystemJammer> load() {
+    public static synchronized LinkedHashMap<String, CynosuralSystemJammer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CynosuralSystemJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

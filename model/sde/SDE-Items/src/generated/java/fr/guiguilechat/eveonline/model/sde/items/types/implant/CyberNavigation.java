@@ -102,7 +102,7 @@ public class CyberNavigation
         return CyberNavigation.class;
     }
 
-    public static LinkedHashMap<String, CyberNavigation> load() {
+    public static synchronized LinkedHashMap<String, CyberNavigation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberNavigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

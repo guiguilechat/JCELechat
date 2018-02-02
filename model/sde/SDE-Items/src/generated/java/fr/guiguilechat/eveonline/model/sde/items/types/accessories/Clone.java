@@ -31,7 +31,7 @@ public class Clone
         return Clone.class;
     }
 
-    public static LinkedHashMap<String, Clone> load() {
+    public static synchronized LinkedHashMap<String, Clone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Clone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

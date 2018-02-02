@@ -21,7 +21,7 @@ public class BattleSalvage
         return BattleSalvage.class;
     }
 
-    public static LinkedHashMap<String, BattleSalvage> load() {
+    public static synchronized LinkedHashMap<String, BattleSalvage> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BattleSalvage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

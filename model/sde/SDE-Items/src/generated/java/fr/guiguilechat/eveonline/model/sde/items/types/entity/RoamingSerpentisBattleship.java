@@ -21,7 +21,7 @@ public class RoamingSerpentisBattleship
         return RoamingSerpentisBattleship.class;
     }
 
-    public static LinkedHashMap<String, RoamingSerpentisBattleship> load() {
+    public static synchronized LinkedHashMap<String, RoamingSerpentisBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingSerpentisBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

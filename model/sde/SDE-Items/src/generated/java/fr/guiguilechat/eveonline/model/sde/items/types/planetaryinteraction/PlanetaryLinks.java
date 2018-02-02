@@ -74,7 +74,7 @@ public class PlanetaryLinks
         return PlanetaryLinks.class;
     }
 
-    public static LinkedHashMap<String, PlanetaryLinks> load() {
+    public static synchronized LinkedHashMap<String, PlanetaryLinks> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetaryLinks.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

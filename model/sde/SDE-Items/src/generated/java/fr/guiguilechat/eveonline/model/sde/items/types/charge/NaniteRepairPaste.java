@@ -31,7 +31,7 @@ public class NaniteRepairPaste
         return NaniteRepairPaste.class;
     }
 
-    public static LinkedHashMap<String, NaniteRepairPaste> load() {
+    public static synchronized LinkedHashMap<String, NaniteRepairPaste> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NaniteRepairPaste.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

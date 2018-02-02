@@ -81,7 +81,7 @@ public class FestivalLauncher
         return FestivalLauncher.class;
     }
 
-    public static LinkedHashMap<String, FestivalLauncher> load() {
+    public static synchronized LinkedHashMap<String, FestivalLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FestivalLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

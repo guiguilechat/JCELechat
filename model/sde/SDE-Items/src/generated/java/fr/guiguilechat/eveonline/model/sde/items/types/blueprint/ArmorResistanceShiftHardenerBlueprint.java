@@ -31,7 +31,7 @@ public class ArmorResistanceShiftHardenerBlueprint
         return ArmorResistanceShiftHardenerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ArmorResistanceShiftHardenerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

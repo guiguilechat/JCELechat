@@ -144,7 +144,7 @@ public class CloneVatBay
         return CloneVatBay.class;
     }
 
-    public static LinkedHashMap<String, CloneVatBay> load() {
+    public static synchronized LinkedHashMap<String, CloneVatBay> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CloneVatBay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

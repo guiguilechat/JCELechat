@@ -165,7 +165,7 @@ public class CompactXLTorpedo
         return CompactXLTorpedo.class;
     }
 
-    public static LinkedHashMap<String, CompactXLTorpedo> load() {
+    public static synchronized LinkedHashMap<String, CompactXLTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CompactXLTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

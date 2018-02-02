@@ -95,7 +95,7 @@ public class PowerDiagnosticSystem
         return PowerDiagnosticSystem.class;
     }
 
-    public static LinkedHashMap<String, PowerDiagnosticSystem> load() {
+    public static synchronized LinkedHashMap<String, PowerDiagnosticSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PowerDiagnosticSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

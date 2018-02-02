@@ -31,7 +31,7 @@ public class AncientSalvage
         return AncientSalvage.class;
     }
 
-    public static LinkedHashMap<String, AncientSalvage> load() {
+    public static synchronized LinkedHashMap<String, AncientSalvage> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncientSalvage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -116,7 +116,7 @@ public class Trade
         return Trade.class;
     }
 
-    public static LinkedHashMap<String, Trade> load() {
+    public static synchronized LinkedHashMap<String, Trade> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Trade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

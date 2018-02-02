@@ -21,7 +21,7 @@ public class MissionThukkerFrigate
         return MissionThukkerFrigate.class;
     }
 
-    public static LinkedHashMap<String, MissionThukkerFrigate> load() {
+    public static synchronized LinkedHashMap<String, MissionThukkerFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionThukkerFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

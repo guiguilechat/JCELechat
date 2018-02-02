@@ -550,7 +550,7 @@ public class Frigate
         return Frigate.class;
     }
 
-    public static LinkedHashMap<String, Frigate> load() {
+    public static synchronized LinkedHashMap<String, Frigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Frigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

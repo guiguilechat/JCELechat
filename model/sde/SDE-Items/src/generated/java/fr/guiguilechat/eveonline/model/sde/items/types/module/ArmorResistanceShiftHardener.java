@@ -144,7 +144,7 @@ public class ArmorResistanceShiftHardener
         return ArmorResistanceShiftHardener.class;
     }
 
-    public static LinkedHashMap<String, ArmorResistanceShiftHardener> load() {
+    public static synchronized LinkedHashMap<String, ArmorResistanceShiftHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

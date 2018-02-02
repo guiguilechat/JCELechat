@@ -21,7 +21,7 @@ public class CompositeReactionFormulas
         return CompositeReactionFormulas.class;
     }
 
-    public static LinkedHashMap<String, CompositeReactionFormulas> load() {
+    public static synchronized LinkedHashMap<String, CompositeReactionFormulas> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CompositeReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

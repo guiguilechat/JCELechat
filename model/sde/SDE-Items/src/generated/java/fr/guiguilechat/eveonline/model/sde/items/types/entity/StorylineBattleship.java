@@ -21,7 +21,7 @@ public class StorylineBattleship
         return StorylineBattleship.class;
     }
 
-    public static LinkedHashMap<String, StorylineBattleship> load() {
+    public static synchronized LinkedHashMap<String, StorylineBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StorylineBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

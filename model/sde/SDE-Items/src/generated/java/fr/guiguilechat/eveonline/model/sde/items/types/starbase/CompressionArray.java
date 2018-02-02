@@ -158,7 +158,7 @@ public class CompressionArray
         return CompressionArray.class;
     }
 
-    public static LinkedHashMap<String, CompressionArray> load() {
+    public static synchronized LinkedHashMap<String, CompressionArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CompressionArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

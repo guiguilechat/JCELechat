@@ -291,7 +291,7 @@ public class LightFighter
         return LightFighter.class;
     }
 
-    public static LinkedHashMap<String, LightFighter> load() {
+    public static synchronized LinkedHashMap<String, LightFighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LightFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

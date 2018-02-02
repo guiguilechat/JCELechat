@@ -81,7 +81,7 @@ public class StructureCitadelRigMDroneHitpoints
         return StructureCitadelRigMDroneHitpoints.class;
     }
 
-    public static LinkedHashMap<String, StructureCitadelRigMDroneHitpoints> load() {
+    public static synchronized LinkedHashMap<String, StructureCitadelRigMDroneHitpoints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelRigMDroneHitpoints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

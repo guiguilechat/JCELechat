@@ -21,7 +21,7 @@ public class HiddenZenithDrifters
         return HiddenZenithDrifters.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithDrifters> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithDrifters> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithDrifters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

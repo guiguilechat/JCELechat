@@ -21,7 +21,7 @@ public class AsteroidAngelCartelCommanderCruiser
         return AsteroidAngelCartelCommanderCruiser.class;
     }
 
-    public static LinkedHashMap<String, AsteroidAngelCartelCommanderCruiser> load() {
+    public static synchronized LinkedHashMap<String, AsteroidAngelCartelCommanderCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidAngelCartelCommanderCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -100,7 +100,7 @@ public class Bistot
         return Bistot.class;
     }
 
-    public static LinkedHashMap<String, Bistot> load() {
+    public static synchronized LinkedHashMap<String, Bistot> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Bistot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

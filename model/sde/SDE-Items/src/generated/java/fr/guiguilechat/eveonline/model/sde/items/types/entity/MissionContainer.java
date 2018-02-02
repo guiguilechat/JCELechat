@@ -21,7 +21,7 @@ public class MissionContainer
         return MissionContainer.class;
     }
 
-    public static LinkedHashMap<String, MissionContainer> load() {
+    public static synchronized LinkedHashMap<String, MissionContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

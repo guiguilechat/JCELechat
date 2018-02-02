@@ -158,7 +158,7 @@ public class MobileReactor
         return MobileReactor.class;
     }
 
-    public static LinkedHashMap<String, MobileReactor> load() {
+    public static synchronized LinkedHashMap<String, MobileReactor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileReactor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

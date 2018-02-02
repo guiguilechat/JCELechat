@@ -151,7 +151,7 @@ public class MiningCrystal
         return MiningCrystal.class;
     }
 
-    public static LinkedHashMap<String, MiningCrystal> load() {
+    public static synchronized LinkedHashMap<String, MiningCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -235,7 +235,7 @@ public class MiningBarge
         return MiningBarge.class;
     }
 
-    public static LinkedHashMap<String, MiningBarge> load() {
+    public static synchronized LinkedHashMap<String, MiningBarge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningBarge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

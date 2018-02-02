@@ -158,7 +158,7 @@ public class InterdictionSphereLauncher
         return InterdictionSphereLauncher.class;
     }
 
-    public static LinkedHashMap<String, InterdictionSphereLauncher> load() {
+    public static synchronized LinkedHashMap<String, InterdictionSphereLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InterdictionSphereLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

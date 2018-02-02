@@ -21,7 +21,7 @@ public class AsteroidSanshaSNationOfficer
         return AsteroidSanshaSNationOfficer.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSanshaSNationOfficer> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSanshaSNationOfficer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationOfficer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

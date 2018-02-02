@@ -116,7 +116,7 @@ public class StructureWeaponUpgrade
         return StructureWeaponUpgrade.class;
     }
 
-    public static LinkedHashMap<String, StructureWeaponUpgrade> load() {
+    public static synchronized LinkedHashMap<String, StructureWeaponUpgrade> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureWeaponUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

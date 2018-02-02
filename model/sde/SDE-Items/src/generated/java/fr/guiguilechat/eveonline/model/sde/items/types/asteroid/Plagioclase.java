@@ -100,7 +100,7 @@ public class Plagioclase
         return Plagioclase.class;
     }
 
-    public static LinkedHashMap<String, Plagioclase> load() {
+    public static synchronized LinkedHashMap<String, Plagioclase> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Plagioclase.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

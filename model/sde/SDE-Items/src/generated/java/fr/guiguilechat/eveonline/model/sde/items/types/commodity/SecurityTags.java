@@ -31,7 +31,7 @@ public class SecurityTags
         return SecurityTags.class;
     }
 
-    public static LinkedHashMap<String, SecurityTags> load() {
+    public static synchronized LinkedHashMap<String, SecurityTags> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SecurityTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class DeadspaceSerpentisCruiser
         return DeadspaceSerpentisCruiser.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSerpentisCruiser> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSerpentisCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSerpentisCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

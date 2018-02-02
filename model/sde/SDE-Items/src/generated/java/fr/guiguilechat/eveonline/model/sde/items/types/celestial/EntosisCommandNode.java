@@ -21,7 +21,7 @@ public class EntosisCommandNode
         return EntosisCommandNode.class;
     }
 
-    public static LinkedHashMap<String, EntosisCommandNode> load() {
+    public static synchronized LinkedHashMap<String, EntosisCommandNode> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EntosisCommandNode.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -66,7 +66,7 @@ public class StructureLaboratoryRigLSubsystem
         return StructureLaboratoryRigLSubsystem.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigLSubsystem> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigLSubsystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLSubsystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -151,7 +151,7 @@ public class Laboratory
         return Laboratory.class;
     }
 
-    public static LinkedHashMap<String, Laboratory> load() {
+    public static synchronized LinkedHashMap<String, Laboratory> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Laboratory.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

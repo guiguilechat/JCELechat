@@ -67,7 +67,7 @@ public class DroneControlRangeModule
         return DroneControlRangeModule.class;
     }
 
-    public static LinkedHashMap<String, DroneControlRangeModule> load() {
+    public static synchronized LinkedHashMap<String, DroneControlRangeModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneControlRangeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

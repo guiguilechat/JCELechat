@@ -21,7 +21,7 @@ public class PhobiaHandicap
         return PhobiaHandicap.class;
     }
 
-    public static LinkedHashMap<String, PhobiaHandicap> load() {
+    public static synchronized LinkedHashMap<String, PhobiaHandicap> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhobiaHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

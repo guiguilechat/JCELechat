@@ -21,7 +21,7 @@ public class SerpentisEventBattlecruiser
         return SerpentisEventBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, SerpentisEventBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, SerpentisEventBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SerpentisEventBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

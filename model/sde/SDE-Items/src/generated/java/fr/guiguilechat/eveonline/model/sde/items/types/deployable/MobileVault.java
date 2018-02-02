@@ -88,7 +88,7 @@ public class MobileVault
         return MobileVault.class;
     }
 
-    public static LinkedHashMap<String, MobileVault> load() {
+    public static synchronized LinkedHashMap<String, MobileVault> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileVault.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

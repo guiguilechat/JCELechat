@@ -144,7 +144,7 @@ public class PlanetSatellites
         return PlanetSatellites.class;
     }
 
-    public static LinkedHashMap<String, PlanetSatellites> load() {
+    public static synchronized LinkedHashMap<String, PlanetSatellites> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetSatellites.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

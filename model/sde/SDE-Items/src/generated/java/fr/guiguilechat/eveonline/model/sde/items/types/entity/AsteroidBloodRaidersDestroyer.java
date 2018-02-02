@@ -21,7 +21,7 @@ public class AsteroidBloodRaidersDestroyer
         return AsteroidBloodRaidersDestroyer.class;
     }
 
-    public static LinkedHashMap<String, AsteroidBloodRaidersDestroyer> load() {
+    public static synchronized LinkedHashMap<String, AsteroidBloodRaidersDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidBloodRaidersDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

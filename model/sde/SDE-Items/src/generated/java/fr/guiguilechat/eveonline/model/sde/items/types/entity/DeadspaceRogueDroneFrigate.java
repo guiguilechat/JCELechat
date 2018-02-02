@@ -21,7 +21,7 @@ public class DeadspaceRogueDroneFrigate
         return DeadspaceRogueDroneFrigate.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceRogueDroneFrigate> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceRogueDroneFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceRogueDroneFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

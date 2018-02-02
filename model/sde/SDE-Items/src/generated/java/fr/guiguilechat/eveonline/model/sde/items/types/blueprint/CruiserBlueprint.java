@@ -46,7 +46,7 @@ public class CruiserBlueprint
         return CruiserBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CruiserBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CruiserBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CruiserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
