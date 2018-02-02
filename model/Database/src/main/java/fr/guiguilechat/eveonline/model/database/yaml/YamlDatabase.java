@@ -7,12 +7,9 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.DumperOptions.FlowStyle;
 import org.yaml.snakeyaml.DumperOptions.ScalarStyle;
@@ -26,14 +23,11 @@ import org.yaml.snakeyaml.nodes.Tag;
 import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.retrieval.sde.SDEDumper;
 
 /**
  * tools to get existing database
  */
 public class YamlDatabase extends EveDatabase {
-
-	private static final Logger logger = LoggerFactory.getLogger(YamlDatabase.class);
 
 	public static DatabaseFile load(InputStream stream) {
 		return makeYaml().loadAs(stream, DatabaseFile.class);
@@ -100,42 +94,6 @@ public class YamlDatabase extends EveDatabase {
 		opt.setDefaultScalarStyle(ScalarStyle.PLAIN);
 		opt.setDefaultFlowStyle(FlowStyle.BLOCK);
 		return opt;
-	}
-
-	protected LinkedHashMap<String, Hull> hulls = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Hull> getHulls() {
-		if (hulls == null) {
-			logger.debug("loading hulls");
-			InputStream hullsStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_HULLS_RES);
-			DatabaseFile hullDB = hullsStream != null ? load(hullsStream) : null;
-			if (hullDB != null) {
-				hulls = hullDB.hulls;
-			} else {
-				System.err.println("can't load hulls");
-				hulls = new LinkedHashMap<>();
-			}
-		}
-		return hulls;
-	}
-
-	protected LinkedHashMap<String, Module> modules = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Module> getModules() {
-		if (modules == null) {
-			logger.debug("loading modules");
-			InputStream modulesStream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_MODULES_RES);
-			DatabaseFile moduleDB = modulesStream != null ? load(modulesStream) : null;
-			if (moduleDB != null) {
-				modules = moduleDB.modules;
-			} else {
-				System.err.println("can't load modules");
-				modules = new LinkedHashMap<>();
-			}
-		}
-		return modules;
 	}
 
 }

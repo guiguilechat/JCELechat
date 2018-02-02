@@ -1,30 +1,11 @@
 package fr.guiguilechat.eveonline.model.database;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
-import fr.guiguilechat.eveonline.model.database.yaml.Hull;
-import fr.guiguilechat.eveonline.model.database.yaml.Module;
-import fr.guiguilechat.eveonline.model.database.yaml.Type;
 
 public abstract class EveDatabase {
-
-	public abstract LinkedHashMap<String, Hull> getHulls();
-
-	public abstract LinkedHashMap<String, Module> getModules();
-
-	protected HashSet<String> hubsNames = null;
-
-	public Type getTypeByName(String name) {
-		Type ret = getHulls().get(name);
-		if (ret == null) {
-			ret = getModules().get(name);
-		}
-		return ret;
-	}
 
 	protected final Eve eve = new Eve();
 
