@@ -32,7 +32,6 @@ import org.jfree.data.time.Week;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
@@ -42,7 +41,7 @@ public class MakeStats {
 	private static final Logger logger = LoggerFactory.getLogger(MakeStats.class);
 
 	public static void main(String[] args) {
-		LootParser bp = new LootParser(new YamlDatabase());
+		LootParser bp = new LootParser();
 		RegionalMarket em = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get("TheForge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();

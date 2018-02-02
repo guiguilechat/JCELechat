@@ -18,8 +18,6 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
@@ -75,7 +73,6 @@ public class ProdEval {
 	public ToDoubleFunction<BPEval> bpValue = bp -> bp.gain;
 
 	public List<BPEval> evaluateBPs() {
-		YamlDatabase db = new YamlDatabase();
 		Region hubr = Region.load().get(hub);
 		if (hubr == null) {
 			SolarSystem hubs = SolarSystem.load().get(hub);
@@ -88,7 +85,7 @@ public class ProdEval {
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials
-		List<BPEval> evaluations = characters.flatMap(chara -> evalCharacter(chara, db)).collect(Collectors.toList());
+		List<BPEval> evaluations = characters.flatMap(chara -> evalCharacter(chara)).collect(Collectors.toList());
 		// then we retrieve sell / buy value of items and compute the gain value of
 		// each bpc
 		evaluations.parallelStream().forEach(eval -> {
@@ -108,9 +105,9 @@ public class ProdEval {
 		return evaluations;
 	}
 
-	protected Stream<BPEval> evalCharacter(EveChar chara, EveDatabase db) {
+	protected Stream<BPEval> evalCharacter(EveChar chara) {
 		HashMap<String, Integer> skills = chara.skillsByName();
-		return chara.blueprints().parallelStream().map(bp -> evalBP(bp, db, skills))
+		return chara.blueprints().parallelStream().map(bp -> evalBP(bp, skills))
 				.filter(bpe -> bpe != null);
 	}
 
@@ -122,7 +119,7 @@ public class ProdEval {
 	 * @param skills
 	 * @return
 	 */
-	protected BPEval evalBP(BPEntry bp, EveDatabase db, HashMap<String, Integer> skills) {
+	protected BPEval evalBP(BPEntry bp, HashMap<String, Integer> skills) {
 		LinkedHashMap<String, Blueprint> bps = Blueprint.load();
 
 		// blueprint unknown ??
