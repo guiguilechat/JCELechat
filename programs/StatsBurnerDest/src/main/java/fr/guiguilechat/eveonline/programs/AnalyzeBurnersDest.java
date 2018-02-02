@@ -14,7 +14,6 @@ import java.util.function.ToIntFunction;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.Constellation;
 import fr.guiguilechat.eveonline.model.sde.locations.Distances;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
@@ -46,8 +45,6 @@ public class AnalyzeBurnersDest {
 	}
 
 	public void analyze(String[] args) throws FileNotFoundException {
-
-		YamlDatabase db = new YamlDatabase();
 		Distances d = new Distances();
 		File inDir = new File(args[0]);
 		HashMap<String, Integer> types2index = new HashMap<>();

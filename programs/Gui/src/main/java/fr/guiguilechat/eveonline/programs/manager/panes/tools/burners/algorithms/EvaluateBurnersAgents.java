@@ -10,10 +10,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.LPCorpEvaluator.OfferAnalysis;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.SysBurnerEvaluator.SystemData;
@@ -40,8 +40,7 @@ public class EvaluateBurnersAgents {
 
 		public LocalizedLPOffer(LPOffer offer, Agent agent) {
 			product = offer.product;
-			corporation = offer.corporation;
-			offer_name = offer.offer_name;
+			name = offer.name;
 			requirements = offer.requirements;
 			this.agent = agent;
 		}

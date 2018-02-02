@@ -7,7 +7,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket.CachedOrdersList;
@@ -51,9 +50,9 @@ public class Markets {
 
 				R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders("all", regionID,
 						typeID, headers);
-				for (Entry<String, List<String>> h : headers.entrySet()) {
-					// System.err.println(" " + h.getKey() + " : " + h.getValue());
-				}
+				// for (Entry<String, List<String>> h : headers.entrySet()) {
+				// System.err.println(" " + h.getKey() + " : " + h.getValue());
+				// }
 				ArrayList<R_get_markets_region_id_orders> nbo = new ArrayList<>();
 				ArrayList<R_get_markets_region_id_orders> nso = new ArrayList<>();
 				for (R_get_markets_region_id_orders o : orders) {

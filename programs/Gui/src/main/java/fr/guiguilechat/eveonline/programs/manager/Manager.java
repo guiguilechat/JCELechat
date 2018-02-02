@@ -25,12 +25,12 @@ import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.model.apiv2.Eve.EStation;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
@@ -164,7 +164,6 @@ public class Manager extends Application implements EvePane {
 
 	protected void precache() {
 		db.getMetaInfs();
-		db.getLPOffers();
 		db.getModules();
 		db.getHulls();
 		db.getBlueprints();
@@ -428,13 +427,15 @@ public class Manager extends Application implements EvePane {
 		HashMap<Integer, Integer> proviTotal = getTeamProvision(settings.focusedTeam, ptype).total;
 
 		for (ItemRef e : ptype == ProvisionType.MATERIAL ? offer.requirements.items : Arrays.asList(offer.product)) {
-			int newQtty = proviTotal.getOrDefault(e.type_id, 0) + e.quantity * diff;
+			int id = fr.guiguilechat.eveonline.model.sde.items.MetaInf.getItem(e.item).id;
+			int newQtty = proviTotal.getOrDefault(id, 0)
+					+ e.quantity * diff;
 			if (newQtty > 0) {
-				proviTotal.put(e.type_id, newQtty);
+				proviTotal.put(id, newQtty);
 			} else {
-				proviTotal.remove(e.type_id);
+				proviTotal.remove(id);
 			}
-			propagateNewProvision(ptype, e.type_id, newQtty);
+			propagateNewProvision(ptype, id, newQtty);
 		}
 
 		settings.store();

@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.database;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -11,7 +10,6 @@ import java.util.Map.Entry;
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
@@ -31,8 +29,6 @@ public abstract class EveDatabase {
 	public int getId(String name) {
 		return getMetaInfs().get(name).id;
 	}
-
-	public abstract ArrayList<LPOffer> getLPOffers();
 
 	protected HashMap<Integer, String> elementById = null;
 

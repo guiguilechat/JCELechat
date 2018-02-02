@@ -5,21 +5,22 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
+import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 
 
 /**
@@ -137,7 +138,7 @@ public class LPCorpEvaluator {
 				logger.debug("evaluating offers for corp " + corpName);
 				ret.addAll(analyseOffers(market, corpName));
 				for (OfferAnalysis r : ret) {
-					logger.trace(" " + r.offer.offer_name + " : " + r.iskPerLPSOBO);
+					logger.trace(" " + r.offer.name + " : " + r.iskPerLPSOBO);
 				}
 				if (ret.isEmpty()) {
 					ret.add(null);
@@ -150,10 +151,10 @@ public class LPCorpEvaluator {
 		return ret;
 	}
 
-	protected ArrayList<LPOffer> listCorpOffers(String corpName) {
-		ArrayList<LPOffer> lpos = new ArrayList<>(db.getLPOffers());
-		lpos.removeIf(offer -> !corpName.equals(offer.corporation) || offer.requirements.lp == 0);
-		return lpos;
+	protected List<LPOffer> listCorpOffers(String corpName) {
+		LinkedHashMap<Integer, LPOffer> offers = LPOffer.load();
+		return Corporation.load().get(corpName).lpoffers.stream().map(offers::get).filter(lpo -> lpo.requirements.lp != 0)
+				.collect(Collectors.toList());
 	}
 
 	/**
@@ -167,16 +168,7 @@ public class LPCorpEvaluator {
 	 */
 	protected List<OfferAnalysis> analyseOffers(RegionalMarket market2, String corpName) {
 		Collection<LPOffer> lpos = listCorpOffers(corpName);
-		HashSet<Integer> allIDs = new HashSet<>();
-
-		for (LPOffer lpo : lpos) {
-			allIDs.add(lpo.product.type_id);
-			for (ItemRef e : lpo.requirements.items) {
-				allIDs.add(e.type_id);
-			}
-		}
-
-		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market2))
+		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market2, corpName))
 				.filter(oa -> oa != null && oa.iskPerLPBOSO > 0)
 				.collect(Collectors.toList());
 
@@ -199,37 +191,44 @@ public class LPCorpEvaluator {
 	 *          the market for BO/SO
 	 * @return a new offer analysis which contains the data analysis.
 	 */
-	protected OfferAnalysis analyse(LPOffer o, RegionalMarket market) {
+	protected OfferAnalysis analyse(LPOffer o, RegionalMarket market, String corpName) {
 		OfferAnalysis ret = new OfferAnalysis();
 		ret.offer = o;
-		ret.offerCorp = o.corporation;
+		ret.offerCorp = corpName;
 		int mult = (int) Math.ceil(1.0 * amountLP / o.requirements.lp);
 
-		double prodBO = market.getBO(o.product.type_id, o.product.quantity * mult) * (100.0 - saleTax) / 100;
-		double prodSO = market.getSO(o.product.type_id, 1) * (o.product.quantity * mult) * (100.0 - saleTax - brokerFee)
+		double prodBO = market.getBO(MetaInf.getItem(o.product.item).id, o.product.quantity * mult) * (100.0 - saleTax)
+				/ 100;
+		double prodSO = market.getSO(MetaInf.getItem(o.product.item).id, 1) * (o.product.quantity * mult)
+				* (100.0 - saleTax - brokerFee)
 				/ 100;
 		if (prodSO == Double.POSITIVE_INFINITY) {
 			prodSO = 0;
 		}
-		double prodAVG = ESIConnection.DISCONNECTED.markets.getAverage(o.product.type_id) * o.product.quantity * mult
+		double prodAVG = ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(o.product.item).id)
+				* o.product.quantity * mult
 				* (100.0 - saleTax) / 100;
 
 		double reqSO = o.requirements.isk * mult;
-		reqSO += o.requirements.items.parallelStream().mapToDouble(rq -> market.getSO(rq.type_id, rq.quantity * mult))
+		reqSO += o.requirements.items.parallelStream()
+				.mapToDouble(rq -> market.getSO(MetaInf.getItem(rq.item).id, rq.quantity * mult))
 				.sum();
 		double reqBO = o.requirements.isk * mult;
 		reqBO += o.requirements.items.parallelStream()
-				.mapToDouble(rq -> market.getBO(rq.type_id, 1) * rq.quantity * mult * (100.0 - brokerFee) / 100)
+				.mapToDouble(
+						rq -> market.getBO(MetaInf.getItem(rq.item).id, 1) * rq.quantity * mult * (100.0 - brokerFee) / 100)
 				.sum();
 		double reqAVG = o.requirements.isk * mult;
 		reqAVG += o.requirements.items.parallelStream()
-				.mapToDouble(rq -> ESIConnection.DISCONNECTED.markets.getAverage(rq.type_id) * rq.quantity * mult).sum();
+				.mapToDouble(
+						rq -> ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(rq.item).id) * rq.quantity * mult)
+				.sum();
 
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;
 		ret.iskPerLPBOSO = (prodSO - reqBO) / o.requirements.lp / mult;
 		ret.iskPerLPAVG = (prodAVG - reqAVG) / o.requirements.lp / mult;
 		if (ret.iskPerLPBOSO == Double.POSITIVE_INFINITY) {
-			System.err.println("offer " + o.offer_name + " has boso " + ret.iskPerLPBOSO + " reqBO=" + reqBO + " prodSO="
+			System.err.println("offer " + o.name + " has boso " + ret.iskPerLPBOSO + " reqBO=" + reqBO + " prodSO="
 					+ prodSO + " mult=" + mult);
 		}
 		return ret;
@@ -245,11 +244,11 @@ public class LPCorpEvaluator {
 		for (Iterator<OfferAnalysis> it = offers.iterator(); it.hasNext();) {
 			OfferAnalysis oa = it.next();
 			if (previous != null && previous.iskPerLPSOBO == oa.iskPerLPSOBO
-					&& previous.offer.offer_name.equals(oa.offer.offer_name)
+					&& previous.offer.name.equals(oa.offer.name)
 					&& previous.offer.requirements.lp == oa.offer.requirements.lp
 					&& previous.offer.requirements.isk == oa.offer.requirements.isk) {
 				it.remove();
-				previous.offerCorp = previous.offerCorp + ", " + oa.offer.corporation;
+				previous.offerCorp = previous.offerCorp + ", " + oa.offerCorp;
 			} else {
 				previous = oa;
 			}

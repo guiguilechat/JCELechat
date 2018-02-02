@@ -72,7 +72,7 @@ public class BurnersToolPane extends BorderPane implements EvePane {
 		table.getColumns().add(stationCol);
 
 		TableColumn<LocalizedLPOffer, String> offerCol = new TableColumn<>("offer");
-		offerCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().offer_name));
+		offerCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().name));
 		table.getColumns().add(offerCol);
 
 		TableColumn<LocalizedLPOffer, Double> soboCol = new TableColumn<>("soboph");

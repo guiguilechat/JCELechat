@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.database.yaml;
 
-import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 
@@ -18,8 +17,6 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, MetaInf> metaInfs = new LinkedHashMap<>();
 
-	public ArrayList<LPOffer> lpoffers = new ArrayList<>();
-
 	/**
 	 * assimilates another DB. replaces values already stored as X if X is present
 	 * in db
@@ -31,7 +28,6 @@ public class DatabaseFile {
 		modules.putAll(db.modules);
 		blueprints.putAll(db.blueprints);
 		metaInfs.putAll(db.metaInfs);
-		lpoffers.addAll(db.lpoffers);
 	}
 
 

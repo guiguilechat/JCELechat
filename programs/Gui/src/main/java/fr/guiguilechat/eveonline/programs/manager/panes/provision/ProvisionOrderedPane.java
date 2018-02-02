@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
+import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
@@ -34,7 +34,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 		setVgap(1);
 	}
 
-	LinkedHashMap<Integer, LPOffer> lpoffersbyId = null;
+	LinkedHashMap<Integer, LPOffer> lpoffersbyId = LPOffer.load();
 	LinkedHashMap<Integer, Blueprint> bpsbyId = null;
 
 	boolean shown = false;
@@ -45,10 +45,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 		}
 		getChildren().clear();
 		if (lpoffersbyId == null) {
-			lpoffersbyId = new LinkedHashMap<>();
-			for (LPOffer lpo : db().getLPOffers()) {
-				lpoffersbyId.put(lpo.id, lpo);
-			}
+			lpoffersbyId = LPOffer.load();
 		}
 		if (bpsbyId == null) {
 			bpsbyId = new LinkedHashMap<>();
@@ -63,7 +60,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 			for (Entry<Integer, Integer> e : provisions.lpoffers.entrySet()) {
 				LPOffer lpo = lpoffersbyId.get(e.getKey());
 				add(new Label("lp offer " + p), 0, row);
-				add(new Label(lpo.offer_name), 1, row);
+				add(new Label(lpo.name), 1, row);
 				add(new Label("" + e.getValue()), 2, row);
 				Button btn = new Button("delete");
 				btn.setOnAction(ev -> parent().provisionLPOffer(p, lpo, 0));
