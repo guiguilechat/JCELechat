@@ -634,7 +634,7 @@ public class Titan
         return Titan.class;
     }
 
-    public static LinkedHashMap<String, Titan> load() {
+    public static synchronized LinkedHashMap<String, Titan> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Titan.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

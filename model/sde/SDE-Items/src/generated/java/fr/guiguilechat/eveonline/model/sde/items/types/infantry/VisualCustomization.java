@@ -21,7 +21,7 @@ public class VisualCustomization
         return VisualCustomization.class;
     }
 
-    public static LinkedHashMap<String, VisualCustomization> load() {
+    public static synchronized LinkedHashMap<String, VisualCustomization> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(VisualCustomization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

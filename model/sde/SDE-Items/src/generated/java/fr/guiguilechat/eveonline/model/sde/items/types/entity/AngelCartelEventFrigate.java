@@ -21,7 +21,7 @@ public class AngelCartelEventFrigate
         return AngelCartelEventFrigate.class;
     }
 
-    public static LinkedHashMap<String, AngelCartelEventFrigate> load() {
+    public static synchronized LinkedHashMap<String, AngelCartelEventFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AngelCartelEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

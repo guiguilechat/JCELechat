@@ -158,7 +158,7 @@ public class FrequencyCrystal
         return FrequencyCrystal.class;
     }
 
-    public static LinkedHashMap<String, FrequencyCrystal> load() {
+    public static synchronized LinkedHashMap<String, FrequencyCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

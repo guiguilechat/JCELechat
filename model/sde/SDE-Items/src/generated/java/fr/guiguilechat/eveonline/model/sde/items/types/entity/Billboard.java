@@ -21,7 +21,7 @@ public class Billboard
         return Billboard.class;
     }
 
-    public static LinkedHashMap<String, Billboard> load() {
+    public static synchronized LinkedHashMap<String, Billboard> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Billboard.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

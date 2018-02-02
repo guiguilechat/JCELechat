@@ -52,7 +52,7 @@ public class DecryptorsSleepers
         return DecryptorsSleepers.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsSleepers> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsSleepers> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsSleepers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

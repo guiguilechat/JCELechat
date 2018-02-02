@@ -31,7 +31,7 @@ public class StarbaseHybridBatteryBlueprints
         return StarbaseHybridBatteryBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseHybridBatteryBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseHybridBatteryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseHybridBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class AuxiliaryPowerCoreBlueprint
         return AuxiliaryPowerCoreBlueprint.class;
     }
 
-    public static LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> load() {
+    public static synchronized LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AuxiliaryPowerCoreBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

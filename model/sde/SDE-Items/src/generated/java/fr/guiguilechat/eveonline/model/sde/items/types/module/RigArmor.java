@@ -109,7 +109,7 @@ public class RigArmor
         return RigArmor.class;
     }
 
-    public static LinkedHashMap<String, RigArmor> load() {
+    public static synchronized LinkedHashMap<String, RigArmor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigArmor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

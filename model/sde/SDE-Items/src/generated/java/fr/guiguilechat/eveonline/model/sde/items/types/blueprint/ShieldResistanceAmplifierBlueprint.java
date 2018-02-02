@@ -39,7 +39,7 @@ public class ShieldResistanceAmplifierBlueprint
         return ShieldResistanceAmplifierBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ShieldResistanceAmplifierBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ShieldResistanceAmplifierBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldResistanceAmplifierBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class MissionGenericFrigates
         return MissionGenericFrigates.class;
     }
 
-    public static LinkedHashMap<String, MissionGenericFrigates> load() {
+    public static synchronized LinkedHashMap<String, MissionGenericFrigates> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionGenericFrigates.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

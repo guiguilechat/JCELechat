@@ -95,7 +95,7 @@ public class ShieldPowerRelay
         return ShieldPowerRelay.class;
     }
 
-    public static LinkedHashMap<String, ShieldPowerRelay> load() {
+    public static synchronized LinkedHashMap<String, ShieldPowerRelay> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldPowerRelay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class MobileDepotBlueprint
         return MobileDepotBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileDepotBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileDepotBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDepotBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

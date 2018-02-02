@@ -21,7 +21,7 @@ public class EmpireBountyReimbursementTags
         return EmpireBountyReimbursementTags.class;
     }
 
-    public static LinkedHashMap<String, EmpireBountyReimbursementTags> load() {
+    public static synchronized LinkedHashMap<String, EmpireBountyReimbursementTags> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EmpireBountyReimbursementTags.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

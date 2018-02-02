@@ -21,7 +21,7 @@ public class CyberScanningImplantBlueprints
         return CyberScanningImplantBlueprints.class;
     }
 
-    public static LinkedHashMap<String, CyberScanningImplantBlueprints> load() {
+    public static synchronized LinkedHashMap<String, CyberScanningImplantBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberScanningImplantBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class NPCBattleship
         return NPCBattleship.class;
     }
 
-    public static LinkedHashMap<String, NPCBattleship> load() {
+    public static synchronized LinkedHashMap<String, NPCBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

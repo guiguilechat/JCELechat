@@ -21,7 +21,7 @@ public class TournamentCardsNewEdenOpenYC114
         return TournamentCardsNewEdenOpenYC114 .class;
     }
 
-    public static LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> load() {
+    public static synchronized LinkedHashMap<String, TournamentCardsNewEdenOpenYC114> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TournamentCardsNewEdenOpenYC114 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

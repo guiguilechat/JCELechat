@@ -81,7 +81,7 @@ public class RigTargeting
         return RigTargeting.class;
     }
 
-    public static LinkedHashMap<String, RigTargeting> load() {
+    public static synchronized LinkedHashMap<String, RigTargeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

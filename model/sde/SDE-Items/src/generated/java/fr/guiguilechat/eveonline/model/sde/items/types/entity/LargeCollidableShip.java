@@ -21,7 +21,7 @@ public class LargeCollidableShip
         return LargeCollidableShip.class;
     }
 
-    public static LinkedHashMap<String, LargeCollidableShip> load() {
+    public static synchronized LinkedHashMap<String, LargeCollidableShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -102,7 +102,7 @@ public class StructureCitadelRigXLDroneAndPDB
         return StructureCitadelRigXLDroneAndPDB.class;
     }
 
-    public static LinkedHashMap<String, StructureCitadelRigXLDroneAndPDB> load() {
+    public static synchronized LinkedHashMap<String, StructureCitadelRigXLDroneAndPDB> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCitadelRigXLDroneAndPDB.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

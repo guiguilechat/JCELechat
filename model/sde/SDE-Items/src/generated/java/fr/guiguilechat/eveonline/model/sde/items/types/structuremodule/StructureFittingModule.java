@@ -88,7 +88,7 @@ public class StructureFittingModule
         return StructureFittingModule.class;
     }
 
-    public static LinkedHashMap<String, StructureFittingModule> load() {
+    public static synchronized LinkedHashMap<String, StructureFittingModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureFittingModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

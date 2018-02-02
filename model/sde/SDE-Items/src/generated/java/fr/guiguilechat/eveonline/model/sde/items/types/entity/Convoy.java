@@ -21,7 +21,7 @@ public class Convoy
         return Convoy.class;
     }
 
-    public static LinkedHashMap<String, Convoy> load() {
+    public static synchronized LinkedHashMap<String, Convoy> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Convoy.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

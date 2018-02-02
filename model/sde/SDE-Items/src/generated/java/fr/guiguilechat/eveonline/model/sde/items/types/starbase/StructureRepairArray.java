@@ -151,7 +151,7 @@ public class StructureRepairArray
         return StructureRepairArray.class;
     }
 
-    public static LinkedHashMap<String, StructureRepairArray> load() {
+    public static synchronized LinkedHashMap<String, StructureRepairArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureRepairArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

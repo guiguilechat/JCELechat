@@ -31,7 +31,7 @@ public class MobileScanInhibitorBlueprint
         return MobileScanInhibitorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileScanInhibitorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileScanInhibitorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileScanInhibitorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

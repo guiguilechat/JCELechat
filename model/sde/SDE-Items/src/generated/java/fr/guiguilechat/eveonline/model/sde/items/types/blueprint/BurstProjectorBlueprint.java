@@ -31,7 +31,7 @@ public class BurstProjectorBlueprint
         return BurstProjectorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BurstProjectorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BurstProjectorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BurstProjectorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -137,7 +137,7 @@ public class OLDStructureResourceRigLOreReprocessing
         return OLDStructureResourceRigLOreReprocessing.class;
     }
 
-    public static LinkedHashMap<String, OLDStructureResourceRigLOreReprocessing> load() {
+    public static synchronized LinkedHashMap<String, OLDStructureResourceRigLOreReprocessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OLDStructureResourceRigLOreReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

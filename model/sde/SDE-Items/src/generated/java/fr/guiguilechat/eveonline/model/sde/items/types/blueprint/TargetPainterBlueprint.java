@@ -39,7 +39,7 @@ public class TargetPainterBlueprint
         return TargetPainterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TargetPainterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TargetPainterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetPainterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

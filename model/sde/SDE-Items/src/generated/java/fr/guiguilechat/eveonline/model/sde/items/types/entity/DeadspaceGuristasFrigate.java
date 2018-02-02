@@ -21,7 +21,7 @@ public class DeadspaceGuristasFrigate
         return DeadspaceGuristasFrigate.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceGuristasFrigate> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceGuristasFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceGuristasFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

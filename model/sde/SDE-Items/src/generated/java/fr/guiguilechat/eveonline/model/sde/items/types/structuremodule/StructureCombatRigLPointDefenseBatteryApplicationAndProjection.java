@@ -144,7 +144,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
         return StructureCombatRigLPointDefenseBatteryApplicationAndProjection.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLPointDefenseBatteryApplicationAndProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

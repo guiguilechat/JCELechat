@@ -144,7 +144,7 @@ public class TrackingComputer
         return TrackingComputer.class;
     }
 
-    public static LinkedHashMap<String, TrackingComputer> load() {
+    public static synchronized LinkedHashMap<String, TrackingComputer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

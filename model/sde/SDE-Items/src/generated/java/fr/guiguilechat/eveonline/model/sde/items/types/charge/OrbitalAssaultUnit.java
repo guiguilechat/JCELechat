@@ -123,7 +123,7 @@ public class OrbitalAssaultUnit
         return OrbitalAssaultUnit.class;
     }
 
-    public static LinkedHashMap<String, OrbitalAssaultUnit> load() {
+    public static synchronized LinkedHashMap<String, OrbitalAssaultUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OrbitalAssaultUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

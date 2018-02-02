@@ -94,7 +94,7 @@ public class Shuttle
         return Shuttle.class;
     }
 
-    public static LinkedHashMap<String, Shuttle> load() {
+    public static synchronized LinkedHashMap<String, Shuttle> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Shuttle.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

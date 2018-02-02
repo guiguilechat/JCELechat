@@ -169,7 +169,7 @@ public class StructureAreaDenialModule
         return StructureAreaDenialModule.class;
     }
 
-    public static LinkedHashMap<String, StructureAreaDenialModule> load() {
+    public static synchronized LinkedHashMap<String, StructureAreaDenialModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAreaDenialModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

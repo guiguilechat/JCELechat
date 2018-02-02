@@ -31,7 +31,7 @@ public class StarbaseBlueprint
         return StarbaseBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StarbaseBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StarbaseBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

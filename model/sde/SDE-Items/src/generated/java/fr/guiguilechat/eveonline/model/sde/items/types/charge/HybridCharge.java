@@ -123,7 +123,7 @@ public class HybridCharge
         return HybridCharge.class;
     }
 
-    public static LinkedHashMap<String, HybridCharge> load() {
+    public static synchronized LinkedHashMap<String, HybridCharge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -193,7 +193,7 @@ public class BombEnergy
         return BombEnergy.class;
     }
 
-    public static LinkedHashMap<String, BombEnergy> load() {
+    public static synchronized LinkedHashMap<String, BombEnergy> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BombEnergy.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

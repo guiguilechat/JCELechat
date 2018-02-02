@@ -66,7 +66,7 @@ public class ConstructionPlatform
         return ConstructionPlatform.class;
     }
 
-    public static LinkedHashMap<String, ConstructionPlatform> load() {
+    public static synchronized LinkedHashMap<String, ConstructionPlatform> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ConstructionPlatform.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class ComplexReactions
         return ComplexReactions.class;
     }
 
-    public static LinkedHashMap<String, ComplexReactions> load() {
+    public static synchronized LinkedHashMap<String, ComplexReactions> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ComplexReactions.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

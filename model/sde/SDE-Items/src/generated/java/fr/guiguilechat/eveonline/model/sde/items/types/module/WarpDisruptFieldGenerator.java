@@ -214,7 +214,7 @@ public class WarpDisruptFieldGenerator
         return WarpDisruptFieldGenerator.class;
     }
 
-    public static LinkedHashMap<String, WarpDisruptFieldGenerator> load() {
+    public static synchronized LinkedHashMap<String, WarpDisruptFieldGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpDisruptFieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

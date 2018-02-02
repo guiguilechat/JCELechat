@@ -21,7 +21,7 @@ public class AsteroidSanshaSNationSupercarrier
         return AsteroidSanshaSNationSupercarrier.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSanshaSNationSupercarrier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationSupercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

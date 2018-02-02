@@ -115,7 +115,7 @@ public class StructureDrillingRigMStability
         return StructureDrillingRigMStability.class;
     }
 
-    public static LinkedHashMap<String, StructureDrillingRigMStability> load() {
+    public static synchronized LinkedHashMap<String, StructureDrillingRigMStability> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMStability.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

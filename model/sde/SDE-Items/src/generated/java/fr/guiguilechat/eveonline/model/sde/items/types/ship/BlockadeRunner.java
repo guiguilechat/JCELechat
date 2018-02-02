@@ -263,7 +263,7 @@ public class BlockadeRunner
         return BlockadeRunner.class;
     }
 
-    public static LinkedHashMap<String, BlockadeRunner> load() {
+    public static synchronized LinkedHashMap<String, BlockadeRunner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BlockadeRunner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

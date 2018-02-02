@@ -31,7 +31,7 @@ public class SalvagedMaterials
         return SalvagedMaterials.class;
     }
 
-    public static LinkedHashMap<String, SalvagedMaterials> load() {
+    public static synchronized LinkedHashMap<String, SalvagedMaterials> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SalvagedMaterials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

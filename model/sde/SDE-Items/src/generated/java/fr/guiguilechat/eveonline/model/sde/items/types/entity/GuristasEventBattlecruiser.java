@@ -21,7 +21,7 @@ public class GuristasEventBattlecruiser
         return GuristasEventBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, GuristasEventBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, GuristasEventBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GuristasEventBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

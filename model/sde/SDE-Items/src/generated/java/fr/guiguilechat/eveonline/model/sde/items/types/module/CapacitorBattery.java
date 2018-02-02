@@ -74,7 +74,7 @@ public class CapacitorBattery
         return CapacitorBattery.class;
     }
 
-    public static LinkedHashMap<String, CapacitorBattery> load() {
+    public static synchronized LinkedHashMap<String, CapacitorBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

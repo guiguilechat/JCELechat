@@ -31,7 +31,7 @@ public class SupercarrierBlueprints
         return SupercarrierBlueprints.class;
     }
 
-    public static LinkedHashMap<String, SupercarrierBlueprints> load() {
+    public static synchronized LinkedHashMap<String, SupercarrierBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SupercarrierBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

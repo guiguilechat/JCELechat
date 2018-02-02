@@ -38,7 +38,7 @@ public class UnpublishedStructureModuleAndRigBlueprints
         return UnpublishedStructureModuleAndRigBlueprints.class;
     }
 
-    public static LinkedHashMap<String, UnpublishedStructureModuleAndRigBlueprints> load() {
+    public static synchronized LinkedHashMap<String, UnpublishedStructureModuleAndRigBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnpublishedStructureModuleAndRigBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

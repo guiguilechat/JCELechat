@@ -144,7 +144,7 @@ public class StructureAntiCapitalMissile
         return StructureAntiCapitalMissile.class;
     }
 
-    public static LinkedHashMap<String, StructureAntiCapitalMissile> load() {
+    public static synchronized LinkedHashMap<String, StructureAntiCapitalMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAntiCapitalMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

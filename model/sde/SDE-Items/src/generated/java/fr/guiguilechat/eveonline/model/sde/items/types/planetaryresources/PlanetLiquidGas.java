@@ -21,7 +21,7 @@ public class PlanetLiquidGas
         return PlanetLiquidGas.class;
     }
 
-    public static LinkedHashMap<String, PlanetLiquidGas> load() {
+    public static synchronized LinkedHashMap<String, PlanetLiquidGas> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetLiquidGas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

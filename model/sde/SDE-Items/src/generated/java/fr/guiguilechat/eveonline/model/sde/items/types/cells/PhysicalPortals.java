@@ -21,7 +21,7 @@ public class PhysicalPortals
         return PhysicalPortals.class;
     }
 
-    public static LinkedHashMap<String, PhysicalPortals> load() {
+    public static synchronized LinkedHashMap<String, PhysicalPortals> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhysicalPortals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

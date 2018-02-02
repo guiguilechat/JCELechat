@@ -347,7 +347,7 @@ public class Logistics
         return Logistics.class;
     }
 
-    public static LinkedHashMap<String, Logistics> load() {
+    public static synchronized LinkedHashMap<String, Logistics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Logistics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class CapitalConstructionBlueprints
         return CapitalConstructionBlueprints.class;
     }
 
-    public static LinkedHashMap<String, CapitalConstructionBlueprints> load() {
+    public static synchronized LinkedHashMap<String, CapitalConstructionBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapitalConstructionBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -158,7 +158,7 @@ public class DroneTrackingModules
         return DroneTrackingModules.class;
     }
 
-    public static LinkedHashMap<String, DroneTrackingModules> load() {
+    public static synchronized LinkedHashMap<String, DroneTrackingModules> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneTrackingModules.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

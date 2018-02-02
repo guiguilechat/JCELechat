@@ -277,7 +277,7 @@ public class Interdictor
         return Interdictor.class;
     }
 
-    public static LinkedHashMap<String, Interdictor> load() {
+    public static synchronized LinkedHashMap<String, Interdictor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Interdictor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class ShipLogs
         return ShipLogs.class;
     }
 
-    public static LinkedHashMap<String, ShipLogs> load() {
+    public static synchronized LinkedHashMap<String, ShipLogs> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShipLogs.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class BallisticControlSystemBlueprint
         return BallisticControlSystemBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BallisticControlSystemBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BallisticControlSystemBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BallisticControlSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class FWMinmatarRepublicDestroyer
         return FWMinmatarRepublicDestroyer.class;
     }
 
-    public static LinkedHashMap<String, FWMinmatarRepublicDestroyer> load() {
+    public static synchronized LinkedHashMap<String, FWMinmatarRepublicDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWMinmatarRepublicDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

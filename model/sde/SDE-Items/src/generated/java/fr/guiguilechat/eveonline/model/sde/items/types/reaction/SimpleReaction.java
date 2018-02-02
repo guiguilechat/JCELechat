@@ -21,7 +21,7 @@ public class SimpleReaction
         return SimpleReaction.class;
     }
 
-    public static LinkedHashMap<String, SimpleReaction> load() {
+    public static synchronized LinkedHashMap<String, SimpleReaction> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SimpleReaction.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

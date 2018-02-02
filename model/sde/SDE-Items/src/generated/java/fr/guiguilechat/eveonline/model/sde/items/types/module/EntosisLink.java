@@ -158,7 +158,7 @@ public class EntosisLink
         return EntosisLink.class;
     }
 
-    public static LinkedHashMap<String, EntosisLink> load() {
+    public static synchronized LinkedHashMap<String, EntosisLink> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EntosisLink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -102,7 +102,7 @@ public class CyberShields
         return CyberShields.class;
     }
 
-    public static LinkedHashMap<String, CyberShields> load() {
+    public static synchronized LinkedHashMap<String, CyberShields> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberShields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

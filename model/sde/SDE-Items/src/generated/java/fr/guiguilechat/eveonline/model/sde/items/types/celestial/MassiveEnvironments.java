@@ -21,7 +21,7 @@ public class MassiveEnvironments
         return MassiveEnvironments.class;
     }
 
-    public static LinkedHashMap<String, MassiveEnvironments> load() {
+    public static synchronized LinkedHashMap<String, MassiveEnvironments> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MassiveEnvironments.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class FueledShieldBoosterBlueprint
         return FueledShieldBoosterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FueledShieldBoosterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FueledShieldBoosterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FueledShieldBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

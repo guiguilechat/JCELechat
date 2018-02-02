@@ -21,7 +21,7 @@ public class AccelerationGateKeys
         return AccelerationGateKeys.class;
     }
 
-    public static LinkedHashMap<String, AccelerationGateKeys> load() {
+    public static synchronized LinkedHashMap<String, AccelerationGateKeys> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AccelerationGateKeys.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

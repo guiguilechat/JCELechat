@@ -123,7 +123,7 @@ public class StructureBiochemicalReactorRigMTE
         return StructureBiochemicalReactorRigMTE.class;
     }
 
-    public static LinkedHashMap<String, StructureBiochemicalReactorRigMTE> load() {
+    public static synchronized LinkedHashMap<String, StructureBiochemicalReactorRigMTE> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureBiochemicalReactorRigMTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

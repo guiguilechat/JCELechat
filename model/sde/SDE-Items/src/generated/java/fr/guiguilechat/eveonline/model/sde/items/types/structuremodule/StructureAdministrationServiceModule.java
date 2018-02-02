@@ -46,7 +46,7 @@ public class StructureAdministrationServiceModule
         return StructureAdministrationServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureAdministrationServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureAdministrationServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAdministrationServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

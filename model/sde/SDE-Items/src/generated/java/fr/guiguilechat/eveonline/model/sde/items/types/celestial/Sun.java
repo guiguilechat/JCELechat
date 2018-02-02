@@ -21,7 +21,7 @@ public class Sun
         return Sun.class;
     }
 
-    public static LinkedHashMap<String, Sun> load() {
+    public static synchronized LinkedHashMap<String, Sun> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Sun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

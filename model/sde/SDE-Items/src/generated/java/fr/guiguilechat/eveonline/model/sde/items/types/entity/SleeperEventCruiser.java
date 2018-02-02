@@ -21,7 +21,7 @@ public class SleeperEventCruiser
         return SleeperEventCruiser.class;
     }
 
-    public static LinkedHashMap<String, SleeperEventCruiser> load() {
+    public static synchronized LinkedHashMap<String, SleeperEventCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEventCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

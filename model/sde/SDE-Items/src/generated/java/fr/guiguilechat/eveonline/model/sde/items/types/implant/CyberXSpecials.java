@@ -81,7 +81,7 @@ public class CyberXSpecials
         return CyberXSpecials.class;
     }
 
-    public static LinkedHashMap<String, CyberXSpecials> load() {
+    public static synchronized LinkedHashMap<String, CyberXSpecials> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberXSpecials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class GlobalWarpDisruptor
         return GlobalWarpDisruptor.class;
     }
 
-    public static LinkedHashMap<String, GlobalWarpDisruptor> load() {
+    public static synchronized LinkedHashMap<String, GlobalWarpDisruptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GlobalWarpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

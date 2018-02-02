@@ -130,7 +130,7 @@ public class StructureReactorRigLEfficiency
         return StructureReactorRigLEfficiency.class;
     }
 
-    public static LinkedHashMap<String, StructureReactorRigLEfficiency> load() {
+    public static synchronized LinkedHashMap<String, StructureReactorRigLEfficiency> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureReactorRigLEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -95,7 +95,7 @@ public class Salvager
         return Salvager.class;
     }
 
-    public static LinkedHashMap<String, Salvager> load() {
+    public static synchronized LinkedHashMap<String, Salvager> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Salvager.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

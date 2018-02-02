@@ -130,7 +130,7 @@ public class RigNavigation
         return RigNavigation.class;
     }
 
-    public static LinkedHashMap<String, RigNavigation> load() {
+    public static synchronized LinkedHashMap<String, RigNavigation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigNavigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

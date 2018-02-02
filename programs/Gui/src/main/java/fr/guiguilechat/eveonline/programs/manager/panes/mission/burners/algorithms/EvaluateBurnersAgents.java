@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms;
+package fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -13,8 +13,8 @@ import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.LPCorpEvaluator.OfferAnalysis;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.SysBurnerEvaluator.SystemData;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms.LPCorpEvaluator.OfferAnalysis;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms.SysBurnerEvaluator.SystemData;
 
 public class EvaluateBurnersAgents {
 
@@ -81,7 +81,8 @@ public class EvaluateBurnersAgents {
 
 	public Stream<Agent> getPossibleAgents() {
 		Stream<Agent> ret = Agent.load().values().parallelStream()
-				.filter(a -> "Security".equals(a.type) && "BasicAgent".equals(a.type) && isHSSystem(a.system)
+				.filter(
+						a -> "Security".equals(a.division) && "BasicAgent".equals(a.type) && isHSSystem(a.system)
 						&& a.level == 4);
 		ret = ret.filter(a -> acceptCorp(a.corporation));
 		return ret;

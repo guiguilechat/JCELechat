@@ -116,7 +116,7 @@ public class SurveyProbeLauncher
         return SurveyProbeLauncher.class;
     }
 
-    public static LinkedHashMap<String, SurveyProbeLauncher> load() {
+    public static synchronized LinkedHashMap<String, SurveyProbeLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

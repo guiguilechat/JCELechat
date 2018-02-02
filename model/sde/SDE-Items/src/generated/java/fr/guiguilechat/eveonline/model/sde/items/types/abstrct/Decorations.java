@@ -21,7 +21,7 @@ public class Decorations
         return Decorations.class;
     }
 
-    public static LinkedHashMap<String, Decorations> load() {
+    public static synchronized LinkedHashMap<String, Decorations> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Decorations.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

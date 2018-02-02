@@ -39,7 +39,7 @@ public class ScriptBlueprint
         return ScriptBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ScriptBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ScriptBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScriptBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

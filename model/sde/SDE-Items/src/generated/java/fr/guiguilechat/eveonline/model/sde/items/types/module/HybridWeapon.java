@@ -263,7 +263,7 @@ public class HybridWeapon
         return HybridWeapon.class;
     }
 
-    public static LinkedHashMap<String, HybridWeapon> load() {
+    public static synchronized LinkedHashMap<String, HybridWeapon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

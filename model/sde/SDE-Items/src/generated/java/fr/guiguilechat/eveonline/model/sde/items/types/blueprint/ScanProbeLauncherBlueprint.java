@@ -39,7 +39,7 @@ public class ScanProbeLauncherBlueprint
         return ScanProbeLauncherBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ScanProbeLauncherBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ScanProbeLauncherBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScanProbeLauncherBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -249,7 +249,7 @@ public class OffensiveSystems
         return OffensiveSystems.class;
     }
 
-    public static LinkedHashMap<String, OffensiveSystems> load() {
+    public static synchronized LinkedHashMap<String, OffensiveSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OffensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

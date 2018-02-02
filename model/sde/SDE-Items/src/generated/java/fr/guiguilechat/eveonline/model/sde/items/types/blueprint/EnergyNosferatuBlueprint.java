@@ -39,7 +39,7 @@ public class EnergyNosferatuBlueprint
         return EnergyNosferatuBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EnergyNosferatuBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EnergyNosferatuBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyNosferatuBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -81,7 +81,7 @@ public class TrackingEnhancer
         return TrackingEnhancer.class;
     }
 
-    public static LinkedHashMap<String, TrackingEnhancer> load() {
+    public static synchronized LinkedHashMap<String, TrackingEnhancer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

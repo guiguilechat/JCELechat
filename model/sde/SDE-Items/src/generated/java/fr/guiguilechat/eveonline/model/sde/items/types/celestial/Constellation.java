@@ -21,7 +21,7 @@ public class Constellation
         return Constellation.class;
     }
 
-    public static LinkedHashMap<String, Constellation> load() {
+    public static synchronized LinkedHashMap<String, Constellation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Constellation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class HiddenZenithGallenteCapital
         return HiddenZenithGallenteCapital.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithGallenteCapital> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithGallenteCapital> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithGallenteCapital.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

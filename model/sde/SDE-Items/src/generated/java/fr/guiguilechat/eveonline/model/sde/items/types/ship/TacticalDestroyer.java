@@ -270,7 +270,7 @@ public class TacticalDestroyer
         return TacticalDestroyer.class;
     }
 
-    public static LinkedHashMap<String, TacticalDestroyer> load() {
+    public static synchronized LinkedHashMap<String, TacticalDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TacticalDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

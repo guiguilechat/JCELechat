@@ -165,7 +165,7 @@ public class Refinery
         return Refinery.class;
     }
 
-    public static LinkedHashMap<String, Refinery> load() {
+    public static synchronized LinkedHashMap<String, Refinery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Refinery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

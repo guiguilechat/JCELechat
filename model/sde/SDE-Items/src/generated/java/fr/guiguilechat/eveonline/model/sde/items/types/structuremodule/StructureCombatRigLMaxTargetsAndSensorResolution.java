@@ -144,7 +144,7 @@ public class StructureCombatRigLMaxTargetsAndSensorResolution
         return StructureCombatRigLMaxTargetsAndSensorResolution.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigLMaxTargetsAndSensorResolution> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigLMaxTargetsAndSensorResolution> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigLMaxTargetsAndSensorResolution.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

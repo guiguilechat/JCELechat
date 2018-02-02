@@ -130,7 +130,7 @@ public class StealthEmitterArray
         return StealthEmitterArray.class;
     }
 
-    public static LinkedHashMap<String, StealthEmitterArray> load() {
+    public static synchronized LinkedHashMap<String, StealthEmitterArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StealthEmitterArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

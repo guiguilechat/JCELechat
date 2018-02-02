@@ -137,7 +137,7 @@ public class StructureCombatRigMSensorResolution
         return StructureCombatRigMSensorResolution.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigMSensorResolution> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigMSensorResolution> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMSensorResolution.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

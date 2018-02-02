@@ -100,7 +100,7 @@ public class Omber
         return Omber.class;
     }
 
-    public static LinkedHashMap<String, Omber> load() {
+    public static synchronized LinkedHashMap<String, Omber> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Omber.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

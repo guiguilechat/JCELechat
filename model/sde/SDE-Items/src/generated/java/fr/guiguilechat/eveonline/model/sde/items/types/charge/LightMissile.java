@@ -214,7 +214,7 @@ public class LightMissile
         return LightMissile.class;
     }
 
-    public static LinkedHashMap<String, LightMissile> load() {
+    public static synchronized LinkedHashMap<String, LightMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LightMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

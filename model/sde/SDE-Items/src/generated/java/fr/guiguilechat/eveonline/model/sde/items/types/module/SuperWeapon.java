@@ -378,7 +378,7 @@ public class SuperWeapon
         return SuperWeapon.class;
     }
 
-    public static LinkedHashMap<String, SuperWeapon> load() {
+    public static synchronized LinkedHashMap<String, SuperWeapon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SuperWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

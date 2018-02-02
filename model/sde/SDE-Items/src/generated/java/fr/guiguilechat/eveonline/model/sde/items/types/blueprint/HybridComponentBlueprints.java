@@ -31,7 +31,7 @@ public class HybridComponentBlueprints
         return HybridComponentBlueprints.class;
     }
 
-    public static LinkedHashMap<String, HybridComponentBlueprints> load() {
+    public static synchronized LinkedHashMap<String, HybridComponentBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridComponentBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

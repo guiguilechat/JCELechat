@@ -21,7 +21,7 @@ public class EnslavementPrograms
         return EnslavementPrograms.class;
     }
 
-    public static LinkedHashMap<String, EnslavementPrograms> load() {
+    public static synchronized LinkedHashMap<String, EnslavementPrograms> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnslavementPrograms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

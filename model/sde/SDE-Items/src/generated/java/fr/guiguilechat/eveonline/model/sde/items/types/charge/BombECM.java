@@ -214,7 +214,7 @@ public class BombECM
         return BombECM.class;
     }
 
-    public static LinkedHashMap<String, BombECM> load() {
+    public static synchronized LinkedHashMap<String, BombECM> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BombECM.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class GunneryUpgradeBlueprint
         return GunneryUpgradeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, GunneryUpgradeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, GunneryUpgradeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GunneryUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

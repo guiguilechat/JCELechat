@@ -95,7 +95,7 @@ public class RigLauncher
         return RigLauncher.class;
     }
 
-    public static LinkedHashMap<String, RigLauncher> load() {
+    public static synchronized LinkedHashMap<String, RigLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

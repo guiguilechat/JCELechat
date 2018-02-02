@@ -95,7 +95,7 @@ public class CapacitorFluxCoil
         return CapacitorFluxCoil.class;
     }
 
-    public static LinkedHashMap<String, CapacitorFluxCoil> load() {
+    public static synchronized LinkedHashMap<String, CapacitorFluxCoil> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

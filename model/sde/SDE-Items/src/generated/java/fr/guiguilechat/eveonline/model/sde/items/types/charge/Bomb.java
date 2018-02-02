@@ -221,7 +221,7 @@ public class Bomb
         return Bomb.class;
     }
 
-    public static LinkedHashMap<String, Bomb> load() {
+    public static synchronized LinkedHashMap<String, Bomb> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Bomb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -200,7 +200,7 @@ public class PropulsionModule
         return PropulsionModule.class;
     }
 
-    public static LinkedHashMap<String, PropulsionModule> load() {
+    public static synchronized LinkedHashMap<String, PropulsionModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PropulsionModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

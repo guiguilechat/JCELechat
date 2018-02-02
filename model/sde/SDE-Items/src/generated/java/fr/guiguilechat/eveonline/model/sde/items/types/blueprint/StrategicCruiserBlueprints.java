@@ -39,7 +39,7 @@ public class StrategicCruiserBlueprints
         return StrategicCruiserBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StrategicCruiserBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StrategicCruiserBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrategicCruiserBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

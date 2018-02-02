@@ -375,7 +375,7 @@ public class Cruiser
         return Cruiser.class;
     }
 
-    public static LinkedHashMap<String, Cruiser> load() {
+    public static synchronized LinkedHashMap<String, Cruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Cruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

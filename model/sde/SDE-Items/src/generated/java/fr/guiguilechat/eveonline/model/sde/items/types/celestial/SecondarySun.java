@@ -21,7 +21,7 @@ public class SecondarySun
         return SecondarySun.class;
     }
 
-    public static LinkedHashMap<String, SecondarySun> load() {
+    public static synchronized LinkedHashMap<String, SecondarySun> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SecondarySun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

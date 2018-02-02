@@ -39,7 +39,7 @@ public class CapitalIndustrialShipBlueprint
         return CapitalIndustrialShipBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CapitalIndustrialShipBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CapitalIndustrialShipBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapitalIndustrialShipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

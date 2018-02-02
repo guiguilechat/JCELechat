@@ -255,7 +255,7 @@ public class MilitaryUpgrades
         return MilitaryUpgrades.class;
     }
 
-    public static LinkedHashMap<String, MilitaryUpgrades> load() {
+    public static synchronized LinkedHashMap<String, MilitaryUpgrades> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MilitaryUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class HybridPolymers
         return HybridPolymers.class;
     }
 
-    public static LinkedHashMap<String, HybridPolymers> load() {
+    public static synchronized LinkedHashMap<String, HybridPolymers> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridPolymers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

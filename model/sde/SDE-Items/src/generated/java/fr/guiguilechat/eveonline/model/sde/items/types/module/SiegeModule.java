@@ -557,7 +557,7 @@ public class SiegeModule
         return SiegeModule.class;
     }
 
-    public static LinkedHashMap<String, SiegeModule> load() {
+    public static synchronized LinkedHashMap<String, SiegeModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SiegeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

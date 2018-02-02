@@ -158,7 +158,7 @@ public class ObsoleteProbes
         return ObsoleteProbes.class;
     }
 
-    public static LinkedHashMap<String, ObsoleteProbes> load() {
+    public static synchronized LinkedHashMap<String, ObsoleteProbes> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ObsoleteProbes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

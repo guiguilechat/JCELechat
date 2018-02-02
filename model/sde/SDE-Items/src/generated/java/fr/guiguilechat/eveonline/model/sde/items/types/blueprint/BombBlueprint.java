@@ -31,7 +31,7 @@ public class BombBlueprint
         return BombBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BombBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BombBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BombBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

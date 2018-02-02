@@ -21,7 +21,7 @@ public class DeadspaceOverseerFrigate
         return DeadspaceOverseerFrigate.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceOverseerFrigate> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceOverseerFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceOverseerFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

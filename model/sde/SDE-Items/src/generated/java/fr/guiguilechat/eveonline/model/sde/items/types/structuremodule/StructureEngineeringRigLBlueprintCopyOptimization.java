@@ -151,7 +151,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
         return StructureEngineeringRigLBlueprintCopyOptimization.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigLBlueprintCopyOptimization> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigLBlueprintCopyOptimization> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLBlueprintCopyOptimization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

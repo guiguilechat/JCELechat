@@ -21,7 +21,7 @@ public class GenericDecryptor
         return GenericDecryptor.class;
     }
 
-    public static LinkedHashMap<String, GenericDecryptor> load() {
+    public static synchronized LinkedHashMap<String, GenericDecryptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GenericDecryptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

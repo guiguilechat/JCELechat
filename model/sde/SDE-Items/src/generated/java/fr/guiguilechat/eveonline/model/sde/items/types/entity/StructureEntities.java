@@ -21,7 +21,7 @@ public class StructureEntities
         return StructureEntities.class;
     }
 
-    public static LinkedHashMap<String, StructureEntities> load() {
+    public static synchronized LinkedHashMap<String, StructureEntities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEntities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

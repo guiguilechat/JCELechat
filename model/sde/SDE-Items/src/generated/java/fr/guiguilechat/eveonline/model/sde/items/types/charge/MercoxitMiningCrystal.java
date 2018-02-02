@@ -151,7 +151,7 @@ public class MercoxitMiningCrystal
         return MercoxitMiningCrystal.class;
     }
 
-    public static LinkedHashMap<String, MercoxitMiningCrystal> load() {
+    public static synchronized LinkedHashMap<String, MercoxitMiningCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MercoxitMiningCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class StorylineCruiser
         return StorylineCruiser.class;
     }
 
-    public static LinkedHashMap<String, StorylineCruiser> load() {
+    public static synchronized LinkedHashMap<String, StorylineCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StorylineCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

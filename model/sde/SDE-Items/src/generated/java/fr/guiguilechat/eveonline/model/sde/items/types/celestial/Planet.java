@@ -21,7 +21,7 @@ public class Planet
         return Planet.class;
     }
 
-    public static LinkedHashMap<String, Planet> load() {
+    public static synchronized LinkedHashMap<String, Planet> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Planet.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

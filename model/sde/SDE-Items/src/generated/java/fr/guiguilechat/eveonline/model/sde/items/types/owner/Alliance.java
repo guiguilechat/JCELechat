@@ -21,7 +21,7 @@ public class Alliance
         return Alliance.class;
     }
 
-    public static LinkedHashMap<String, Alliance> load() {
+    public static synchronized LinkedHashMap<String, Alliance> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Alliance.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

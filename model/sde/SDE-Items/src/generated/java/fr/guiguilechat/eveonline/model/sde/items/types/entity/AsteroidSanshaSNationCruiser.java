@@ -21,7 +21,7 @@ public class AsteroidSanshaSNationCruiser
         return AsteroidSanshaSNationCruiser.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSanshaSNationCruiser> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSanshaSNationCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

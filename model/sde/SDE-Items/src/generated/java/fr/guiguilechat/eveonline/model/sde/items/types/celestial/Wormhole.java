@@ -21,7 +21,7 @@ public class Wormhole
         return Wormhole.class;
     }
 
-    public static LinkedHashMap<String, Wormhole> load() {
+    public static synchronized LinkedHashMap<String, Wormhole> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Wormhole.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

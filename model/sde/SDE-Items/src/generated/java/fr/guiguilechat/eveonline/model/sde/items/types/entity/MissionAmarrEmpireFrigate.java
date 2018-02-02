@@ -21,7 +21,7 @@ public class MissionAmarrEmpireFrigate
         return MissionAmarrEmpireFrigate.class;
     }
 
-    public static LinkedHashMap<String, MissionAmarrEmpireFrigate> load() {
+    public static synchronized LinkedHashMap<String, MissionAmarrEmpireFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionAmarrEmpireFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

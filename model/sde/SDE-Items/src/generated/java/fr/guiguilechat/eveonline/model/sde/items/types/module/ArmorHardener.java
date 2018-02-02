@@ -130,7 +130,7 @@ public class ArmorHardener
         return ArmorHardener.class;
     }
 
-    public static LinkedHashMap<String, ArmorHardener> load() {
+    public static synchronized LinkedHashMap<String, ArmorHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

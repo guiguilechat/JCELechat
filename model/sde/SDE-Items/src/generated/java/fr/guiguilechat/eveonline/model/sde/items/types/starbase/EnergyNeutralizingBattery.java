@@ -291,7 +291,7 @@ public class EnergyNeutralizingBattery
         return EnergyNeutralizingBattery.class;
     }
 
-    public static LinkedHashMap<String, EnergyNeutralizingBattery> load() {
+    public static synchronized LinkedHashMap<String, EnergyNeutralizingBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyNeutralizingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

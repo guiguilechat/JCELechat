@@ -67,7 +67,7 @@ public class ShieldRecharger
         return ShieldRecharger.class;
     }
 
-    public static LinkedHashMap<String, ShieldRecharger> load() {
+    public static synchronized LinkedHashMap<String, ShieldRecharger> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldRecharger.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

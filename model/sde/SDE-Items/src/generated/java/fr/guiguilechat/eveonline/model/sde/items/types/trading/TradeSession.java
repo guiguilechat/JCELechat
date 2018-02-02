@@ -21,7 +21,7 @@ public class TradeSession
         return TradeSession.class;
     }
 
-    public static LinkedHashMap<String, TradeSession> load() {
+    public static synchronized LinkedHashMap<String, TradeSession> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TradeSession.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

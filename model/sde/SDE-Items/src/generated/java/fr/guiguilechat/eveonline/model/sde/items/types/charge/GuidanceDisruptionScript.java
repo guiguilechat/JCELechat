@@ -80,7 +80,7 @@ public class GuidanceDisruptionScript
         return GuidanceDisruptionScript.class;
     }
 
-    public static LinkedHashMap<String, GuidanceDisruptionScript> load() {
+    public static synchronized LinkedHashMap<String, GuidanceDisruptionScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GuidanceDisruptionScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

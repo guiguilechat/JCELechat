@@ -21,7 +21,7 @@ public class NPCDreadnought
         return NPCDreadnought.class;
     }
 
-    public static LinkedHashMap<String, NPCDreadnought> load() {
+    public static synchronized LinkedHashMap<String, NPCDreadnought> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCDreadnought.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

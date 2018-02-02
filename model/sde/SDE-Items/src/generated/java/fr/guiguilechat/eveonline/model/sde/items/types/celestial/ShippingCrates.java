@@ -46,7 +46,7 @@ public class ShippingCrates
         return ShippingCrates.class;
     }
 
-    public static LinkedHashMap<String, ShippingCrates> load() {
+    public static synchronized LinkedHashMap<String, ShippingCrates> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShippingCrates.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

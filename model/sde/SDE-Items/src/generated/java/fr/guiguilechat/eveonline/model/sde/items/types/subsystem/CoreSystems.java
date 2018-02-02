@@ -144,7 +144,7 @@ public class CoreSystems
         return CoreSystems.class;
     }
 
-    public static LinkedHashMap<String, CoreSystems> load() {
+    public static synchronized LinkedHashMap<String, CoreSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CoreSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

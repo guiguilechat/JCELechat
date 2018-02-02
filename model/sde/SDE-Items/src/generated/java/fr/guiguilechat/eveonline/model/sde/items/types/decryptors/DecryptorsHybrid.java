@@ -21,7 +21,7 @@ public class DecryptorsHybrid
         return DecryptorsHybrid.class;
     }
 
-    public static LinkedHashMap<String, DecryptorsHybrid> load() {
+    public static synchronized LinkedHashMap<String, DecryptorsHybrid> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsHybrid.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

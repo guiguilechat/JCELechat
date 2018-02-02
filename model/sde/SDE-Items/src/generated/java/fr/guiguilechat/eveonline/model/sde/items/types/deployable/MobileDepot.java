@@ -74,7 +74,7 @@ public class MobileDepot
         return MobileDepot.class;
     }
 
-    public static LinkedHashMap<String, MobileDepot> load() {
+    public static synchronized LinkedHashMap<String, MobileDepot> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDepot.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

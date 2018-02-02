@@ -39,7 +39,7 @@ public class EliteIndustrialBlueprint
         return EliteIndustrialBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EliteIndustrialBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EliteIndustrialBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EliteIndustrialBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

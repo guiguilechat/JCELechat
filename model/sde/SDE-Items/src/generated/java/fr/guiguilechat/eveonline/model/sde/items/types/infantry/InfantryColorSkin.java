@@ -21,7 +21,7 @@ public class InfantryColorSkin
         return InfantryColorSkin.class;
     }
 
-    public static LinkedHashMap<String, InfantryColorSkin> load() {
+    public static synchronized LinkedHashMap<String, InfantryColorSkin> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InfantryColorSkin.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

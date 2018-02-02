@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
+package fr.guiguilechat.eveonline.programs.manager.panes.industry.invention;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -14,7 +14,7 @@ import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams.TARGETDECRYPTOR;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerToolPane.StructBonus;
 import fr.guiguilechat.eveonline.programs.manager.representation.ChoiceBoxRepresentation;
 import fr.guiguilechat.eveonline.programs.manager.representation.PaneWithRepresentation;
 import fr.guiguilechat.eveonline.programs.manager.representation.Representation;

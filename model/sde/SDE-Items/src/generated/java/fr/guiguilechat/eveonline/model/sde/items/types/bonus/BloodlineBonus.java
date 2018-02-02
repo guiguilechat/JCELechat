@@ -52,7 +52,7 @@ public class BloodlineBonus
         return BloodlineBonus.class;
     }
 
-    public static LinkedHashMap<String, BloodlineBonus> load() {
+    public static synchronized LinkedHashMap<String, BloodlineBonus> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BloodlineBonus.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

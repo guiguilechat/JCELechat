@@ -298,7 +298,7 @@ public class Interceptor
         return Interceptor.class;
     }
 
-    public static LinkedHashMap<String, Interceptor> load() {
+    public static synchronized LinkedHashMap<String, Interceptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Interceptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

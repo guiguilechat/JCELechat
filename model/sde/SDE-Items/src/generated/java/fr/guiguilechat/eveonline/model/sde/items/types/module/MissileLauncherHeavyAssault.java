@@ -165,7 +165,7 @@ public class MissileLauncherHeavyAssault
         return MissileLauncherHeavyAssault.class;
     }
 
-    public static LinkedHashMap<String, MissileLauncherHeavyAssault> load() {
+    public static synchronized LinkedHashMap<String, MissileLauncherHeavyAssault> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherHeavyAssault.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

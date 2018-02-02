@@ -158,7 +158,7 @@ public class WarpScrambler
         return WarpScrambler.class;
     }
 
-    public static LinkedHashMap<String, WarpScrambler> load() {
+    public static synchronized LinkedHashMap<String, WarpScrambler> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpScrambler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

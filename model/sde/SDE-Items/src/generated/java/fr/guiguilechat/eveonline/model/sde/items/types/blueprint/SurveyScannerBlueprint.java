@@ -39,7 +39,7 @@ public class SurveyScannerBlueprint
         return SurveyScannerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SurveyScannerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SurveyScannerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyScannerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

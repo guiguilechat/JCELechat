@@ -116,7 +116,7 @@ public class StructureStasisWebifier
         return StructureStasisWebifier.class;
     }
 
-    public static LinkedHashMap<String, StructureStasisWebifier> load() {
+    public static synchronized LinkedHashMap<String, StructureStasisWebifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

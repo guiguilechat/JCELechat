@@ -46,7 +46,7 @@ public class StructureStargateServiceModule
         return StructureStargateServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureStargateServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureStargateServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureStargateServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

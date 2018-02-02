@@ -21,7 +21,7 @@ public class NPCBattlecruiser
         return NPCBattlecruiser.class;
     }
 
-    public static LinkedHashMap<String, NPCBattlecruiser> load() {
+    public static synchronized LinkedHashMap<String, NPCBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

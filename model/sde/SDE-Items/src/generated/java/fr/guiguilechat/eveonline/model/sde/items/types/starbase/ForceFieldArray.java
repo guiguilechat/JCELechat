@@ -46,7 +46,7 @@ public class ForceFieldArray
         return ForceFieldArray.class;
     }
 
-    public static LinkedHashMap<String, ForceFieldArray> load() {
+    public static synchronized LinkedHashMap<String, ForceFieldArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceFieldArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

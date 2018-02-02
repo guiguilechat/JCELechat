@@ -158,7 +158,7 @@ public class ShipMaintenanceArray
         return ShipMaintenanceArray.class;
     }
 
-    public static LinkedHashMap<String, ShipMaintenanceArray> load() {
+    public static synchronized LinkedHashMap<String, ShipMaintenanceArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShipMaintenanceArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

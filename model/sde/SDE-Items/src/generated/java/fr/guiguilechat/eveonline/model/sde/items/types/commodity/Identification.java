@@ -21,7 +21,7 @@ public class Identification
         return Identification.class;
     }
 
-    public static LinkedHashMap<String, Identification> load() {
+    public static synchronized LinkedHashMap<String, Identification> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Identification.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

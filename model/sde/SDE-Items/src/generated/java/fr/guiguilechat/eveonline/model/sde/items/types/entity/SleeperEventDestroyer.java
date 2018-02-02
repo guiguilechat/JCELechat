@@ -21,7 +21,7 @@ public class SleeperEventDestroyer
         return SleeperEventDestroyer.class;
     }
 
-    public static LinkedHashMap<String, SleeperEventDestroyer> load() {
+    public static synchronized LinkedHashMap<String, SleeperEventDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEventDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

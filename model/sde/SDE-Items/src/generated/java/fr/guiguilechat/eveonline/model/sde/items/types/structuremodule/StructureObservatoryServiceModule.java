@@ -46,7 +46,7 @@ public class StructureObservatoryServiceModule
         return StructureObservatoryServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureObservatoryServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureObservatoryServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureObservatoryServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

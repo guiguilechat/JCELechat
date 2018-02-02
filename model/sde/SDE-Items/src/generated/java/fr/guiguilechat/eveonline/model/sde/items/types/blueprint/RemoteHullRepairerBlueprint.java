@@ -39,7 +39,7 @@ public class RemoteHullRepairerBlueprint
         return RemoteHullRepairerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, RemoteHullRepairerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, RemoteHullRepairerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteHullRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

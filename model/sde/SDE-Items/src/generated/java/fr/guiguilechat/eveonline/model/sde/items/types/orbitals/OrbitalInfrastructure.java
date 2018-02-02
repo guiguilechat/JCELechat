@@ -74,7 +74,7 @@ public class OrbitalInfrastructure
         return OrbitalInfrastructure.class;
     }
 
-    public static LinkedHashMap<String, OrbitalInfrastructure> load() {
+    public static synchronized LinkedHashMap<String, OrbitalInfrastructure> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OrbitalInfrastructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

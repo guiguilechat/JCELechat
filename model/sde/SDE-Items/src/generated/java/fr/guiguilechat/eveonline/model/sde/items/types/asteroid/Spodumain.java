@@ -100,7 +100,7 @@ public class Spodumain
         return Spodumain.class;
     }
 
-    public static LinkedHashMap<String, Spodumain> load() {
+    public static synchronized LinkedHashMap<String, Spodumain> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Spodumain.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

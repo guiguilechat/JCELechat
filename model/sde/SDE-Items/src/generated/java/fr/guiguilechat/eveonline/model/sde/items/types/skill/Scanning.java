@@ -116,7 +116,7 @@ public class Scanning
         return Scanning.class;
     }
 
-    public static LinkedHashMap<String, Scanning> load() {
+    public static synchronized LinkedHashMap<String, Scanning> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Scanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

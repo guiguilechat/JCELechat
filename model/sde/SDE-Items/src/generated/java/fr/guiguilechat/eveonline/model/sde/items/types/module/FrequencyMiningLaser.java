@@ -165,7 +165,7 @@ public class FrequencyMiningLaser
         return FrequencyMiningLaser.class;
     }
 
-    public static LinkedHashMap<String, FrequencyMiningLaser> load() {
+    public static synchronized LinkedHashMap<String, FrequencyMiningLaser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FrequencyMiningLaser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

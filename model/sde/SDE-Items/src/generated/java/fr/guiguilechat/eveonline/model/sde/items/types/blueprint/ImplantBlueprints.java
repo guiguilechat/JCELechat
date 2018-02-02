@@ -39,7 +39,7 @@ public class ImplantBlueprints
         return ImplantBlueprints.class;
     }
 
-    public static LinkedHashMap<String, ImplantBlueprints> load() {
+    public static synchronized LinkedHashMap<String, ImplantBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ImplantBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

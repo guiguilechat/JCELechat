@@ -38,7 +38,7 @@ public class Datacores
         return Datacores.class;
     }
 
-    public static LinkedHashMap<String, Datacores> load() {
+    public static synchronized LinkedHashMap<String, Datacores> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Datacores.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

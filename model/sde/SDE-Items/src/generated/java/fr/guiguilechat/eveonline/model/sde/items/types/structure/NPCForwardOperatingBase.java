@@ -53,7 +53,7 @@ public class NPCForwardOperatingBase
         return NPCForwardOperatingBase.class;
     }
 
-    public static LinkedHashMap<String, NPCForwardOperatingBase> load() {
+    public static synchronized LinkedHashMap<String, NPCForwardOperatingBase> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCForwardOperatingBase.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

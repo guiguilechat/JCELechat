@@ -21,7 +21,7 @@ public class DeadspaceSanshaSNationFrigate
         return DeadspaceSanshaSNationFrigate.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceSanshaSNationFrigate> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceSanshaSNationFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceSanshaSNationFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -80,7 +80,7 @@ public class MissileGuidanceScript
         return MissileGuidanceScript.class;
     }
 
-    public static LinkedHashMap<String, MissileGuidanceScript> load() {
+    public static synchronized LinkedHashMap<String, MissileGuidanceScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

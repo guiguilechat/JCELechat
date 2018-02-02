@@ -21,7 +21,7 @@ public class Mineral
         return Mineral.class;
     }
 
-    public static LinkedHashMap<String, Mineral> load() {
+    public static synchronized LinkedHashMap<String, Mineral> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Mineral.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

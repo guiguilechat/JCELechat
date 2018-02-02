@@ -137,7 +137,7 @@ public class RemoteCapacitorTransmitter
         return RemoteCapacitorTransmitter.class;
     }
 
-    public static LinkedHashMap<String, RemoteCapacitorTransmitter> load() {
+    public static synchronized LinkedHashMap<String, RemoteCapacitorTransmitter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteCapacitorTransmitter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

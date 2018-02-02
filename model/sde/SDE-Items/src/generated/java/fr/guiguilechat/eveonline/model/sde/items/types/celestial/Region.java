@@ -21,7 +21,7 @@ public class Region
         return Region.class;
     }
 
-    public static LinkedHashMap<String, Region> load() {
+    public static synchronized LinkedHashMap<String, Region> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Region.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

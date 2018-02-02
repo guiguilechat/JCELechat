@@ -21,7 +21,7 @@ public class PlanetOrganic
         return PlanetOrganic.class;
     }
 
-    public static LinkedHashMap<String, PlanetOrganic> load() {
+    public static synchronized LinkedHashMap<String, PlanetOrganic> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetOrganic.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -235,7 +235,7 @@ public class GangCoordinator
         return GangCoordinator.class;
     }
 
-    public static LinkedHashMap<String, GangCoordinator> load() {
+    public static synchronized LinkedHashMap<String, GangCoordinator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GangCoordinator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

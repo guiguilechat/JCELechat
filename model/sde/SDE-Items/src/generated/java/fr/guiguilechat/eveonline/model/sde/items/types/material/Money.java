@@ -21,7 +21,7 @@ public class Money
         return Money.class;
     }
 
-    public static LinkedHashMap<String, Money> load() {
+    public static synchronized LinkedHashMap<String, Money> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Money.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

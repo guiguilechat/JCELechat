@@ -382,7 +382,7 @@ public class ForceReconShip
         return ForceReconShip.class;
     }
 
-    public static LinkedHashMap<String, ForceReconShip> load() {
+    public static synchronized LinkedHashMap<String, ForceReconShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceReconShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

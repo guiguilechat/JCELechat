@@ -256,7 +256,7 @@ public class Destroyer
         return Destroyer.class;
     }
 
-    public static LinkedHashMap<String, Destroyer> load() {
+    public static synchronized LinkedHashMap<String, Destroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Destroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

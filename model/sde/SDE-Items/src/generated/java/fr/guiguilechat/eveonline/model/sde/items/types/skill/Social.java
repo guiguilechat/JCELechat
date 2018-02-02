@@ -123,7 +123,7 @@ public class Social
         return Social.class;
     }
 
-    public static LinkedHashMap<String, Social> load() {
+    public static synchronized LinkedHashMap<String, Social> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Social.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

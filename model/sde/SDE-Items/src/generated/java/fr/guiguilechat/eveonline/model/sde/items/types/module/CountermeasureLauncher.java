@@ -109,7 +109,7 @@ public class CountermeasureLauncher
         return CountermeasureLauncher.class;
     }
 
-    public static LinkedHashMap<String, CountermeasureLauncher> load() {
+    public static synchronized LinkedHashMap<String, CountermeasureLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CountermeasureLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

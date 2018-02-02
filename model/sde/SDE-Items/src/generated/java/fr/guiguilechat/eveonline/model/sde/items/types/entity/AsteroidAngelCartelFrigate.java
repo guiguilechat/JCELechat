@@ -21,7 +21,7 @@ public class AsteroidAngelCartelFrigate
         return AsteroidAngelCartelFrigate.class;
     }
 
-    public static LinkedHashMap<String, AsteroidAngelCartelFrigate> load() {
+    public static synchronized LinkedHashMap<String, AsteroidAngelCartelFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidAngelCartelFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

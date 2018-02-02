@@ -74,7 +74,7 @@ public class CyberResourceProcessing
         return CyberResourceProcessing.class;
     }
 
-    public static LinkedHashMap<String, CyberResourceProcessing> load() {
+    public static synchronized LinkedHashMap<String, CyberResourceProcessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

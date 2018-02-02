@@ -31,7 +31,7 @@ public class FrequencyCrystalBlueprint
         return FrequencyCrystalBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FrequencyCrystalBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FrequencyCrystalBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FrequencyCrystalBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

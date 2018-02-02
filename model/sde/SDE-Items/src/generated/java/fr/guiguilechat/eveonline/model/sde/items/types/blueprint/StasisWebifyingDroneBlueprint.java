@@ -31,7 +31,7 @@ public class StasisWebifyingDroneBlueprint
         return StasisWebifyingDroneBlueprint.class;
     }
 
-    public static LinkedHashMap<String, StasisWebifyingDroneBlueprint> load() {
+    public static synchronized LinkedHashMap<String, StasisWebifyingDroneBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StasisWebifyingDroneBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

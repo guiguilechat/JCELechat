@@ -31,7 +31,7 @@ public class BoosterBlueprints
         return BoosterBlueprints.class;
     }
 
-    public static LinkedHashMap<String, BoosterBlueprints> load() {
+    public static synchronized LinkedHashMap<String, BoosterBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BoosterBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

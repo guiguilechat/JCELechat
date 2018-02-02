@@ -115,7 +115,7 @@ public class InformationCommandBurstCharges
         return InformationCommandBurstCharges.class;
     }
 
-    public static LinkedHashMap<String, InformationCommandBurstCharges> load() {
+    public static synchronized LinkedHashMap<String, InformationCommandBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InformationCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

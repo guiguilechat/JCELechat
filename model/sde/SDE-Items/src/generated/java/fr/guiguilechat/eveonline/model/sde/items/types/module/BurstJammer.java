@@ -144,7 +144,7 @@ public class BurstJammer
         return BurstJammer.class;
     }
 
-    public static LinkedHashMap<String, BurstJammer> load() {
+    public static synchronized LinkedHashMap<String, BurstJammer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BurstJammer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

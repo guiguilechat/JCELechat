@@ -109,7 +109,7 @@ public class Beacon
         return Beacon.class;
     }
 
-    public static LinkedHashMap<String, Beacon> load() {
+    public static synchronized LinkedHashMap<String, Beacon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Beacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

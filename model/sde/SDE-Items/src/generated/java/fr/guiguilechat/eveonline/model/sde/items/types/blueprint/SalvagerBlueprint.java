@@ -39,7 +39,7 @@ public class SalvagerBlueprint
         return SalvagerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SalvagerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SalvagerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SalvagerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

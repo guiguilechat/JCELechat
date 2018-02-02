@@ -88,7 +88,7 @@ public class Targeting
         return Targeting.class;
     }
 
-    public static LinkedHashMap<String, Targeting> load() {
+    public static synchronized LinkedHashMap<String, Targeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Targeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

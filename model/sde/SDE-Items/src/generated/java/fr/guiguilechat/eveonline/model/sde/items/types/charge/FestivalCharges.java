@@ -144,7 +144,7 @@ public class FestivalCharges
         return FestivalCharges.class;
     }
 
-    public static LinkedHashMap<String, FestivalCharges> load() {
+    public static synchronized LinkedHashMap<String, FestivalCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FestivalCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

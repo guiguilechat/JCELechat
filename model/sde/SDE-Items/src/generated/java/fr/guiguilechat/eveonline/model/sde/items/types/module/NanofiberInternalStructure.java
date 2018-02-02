@@ -67,7 +67,7 @@ public class NanofiberInternalStructure
         return NanofiberInternalStructure.class;
     }
 
-    public static LinkedHashMap<String, NanofiberInternalStructure> load() {
+    public static synchronized LinkedHashMap<String, NanofiberInternalStructure> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NanofiberInternalStructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

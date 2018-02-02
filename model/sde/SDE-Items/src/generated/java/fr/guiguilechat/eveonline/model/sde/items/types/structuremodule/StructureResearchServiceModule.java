@@ -67,7 +67,7 @@ public class StructureResearchServiceModule
         return StructureResearchServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureResearchServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureResearchServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResearchServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

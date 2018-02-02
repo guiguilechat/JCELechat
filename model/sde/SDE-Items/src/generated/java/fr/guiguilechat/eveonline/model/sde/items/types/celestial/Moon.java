@@ -21,7 +21,7 @@ public class Moon
         return Moon.class;
     }
 
-    public static LinkedHashMap<String, Moon> load() {
+    public static synchronized LinkedHashMap<String, Moon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Moon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

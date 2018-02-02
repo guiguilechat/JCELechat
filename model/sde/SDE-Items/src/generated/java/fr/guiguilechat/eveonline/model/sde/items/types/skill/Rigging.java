@@ -67,7 +67,7 @@ public class Rigging
         return Rigging.class;
     }
 
-    public static LinkedHashMap<String, Rigging> load() {
+    public static synchronized LinkedHashMap<String, Rigging> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

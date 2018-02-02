@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
+package fr.guiguilechat.eveonline.programs.manager.panes.mission.burners;
 
 import java.util.Map.Entry;
 

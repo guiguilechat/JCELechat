@@ -39,7 +39,7 @@ public class DataMinerBlueprint
         return DataMinerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DataMinerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DataMinerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DataMinerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

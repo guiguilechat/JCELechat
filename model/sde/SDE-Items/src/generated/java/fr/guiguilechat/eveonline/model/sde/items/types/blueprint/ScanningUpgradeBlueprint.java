@@ -39,7 +39,7 @@ public class ScanningUpgradeBlueprint
         return ScanningUpgradeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ScanningUpgradeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ScanningUpgradeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgradeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

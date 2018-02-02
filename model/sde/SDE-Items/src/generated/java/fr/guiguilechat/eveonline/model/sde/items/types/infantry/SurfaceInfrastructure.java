@@ -21,7 +21,7 @@ public class SurfaceInfrastructure
         return SurfaceInfrastructure.class;
     }
 
-    public static LinkedHashMap<String, SurfaceInfrastructure> load() {
+    public static synchronized LinkedHashMap<String, SurfaceInfrastructure> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurfaceInfrastructure.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

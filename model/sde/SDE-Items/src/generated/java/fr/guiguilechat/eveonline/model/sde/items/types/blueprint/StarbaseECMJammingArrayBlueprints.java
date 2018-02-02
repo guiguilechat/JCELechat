@@ -31,7 +31,7 @@ public class StarbaseECMJammingArrayBlueprints
         return StarbaseECMJammingArrayBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseECMJammingArrayBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseECMJammingArrayBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

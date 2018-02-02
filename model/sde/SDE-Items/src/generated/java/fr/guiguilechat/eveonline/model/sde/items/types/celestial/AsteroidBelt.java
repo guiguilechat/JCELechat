@@ -21,7 +21,7 @@ public class AsteroidBelt
         return AsteroidBelt.class;
     }
 
-    public static LinkedHashMap<String, AsteroidBelt> load() {
+    public static synchronized LinkedHashMap<String, AsteroidBelt> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidBelt.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

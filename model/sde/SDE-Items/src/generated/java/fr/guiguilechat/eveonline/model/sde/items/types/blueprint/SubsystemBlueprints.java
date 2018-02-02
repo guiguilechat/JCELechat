@@ -21,7 +21,7 @@ public class SubsystemBlueprints
         return SubsystemBlueprints.class;
     }
 
-    public static LinkedHashMap<String, SubsystemBlueprints> load() {
+    public static synchronized LinkedHashMap<String, SubsystemBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SubsystemBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

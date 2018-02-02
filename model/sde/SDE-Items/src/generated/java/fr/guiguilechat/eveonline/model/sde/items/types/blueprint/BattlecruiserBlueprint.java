@@ -46,7 +46,7 @@ public class BattlecruiserBlueprint
         return BattlecruiserBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BattlecruiserBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BattlecruiserBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BattlecruiserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -172,7 +172,7 @@ public class AdvancedRailgunCharge
         return AdvancedRailgunCharge.class;
     }
 
-    public static LinkedHashMap<String, AdvancedRailgunCharge> load() {
+    public static synchronized LinkedHashMap<String, AdvancedRailgunCharge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedRailgunCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

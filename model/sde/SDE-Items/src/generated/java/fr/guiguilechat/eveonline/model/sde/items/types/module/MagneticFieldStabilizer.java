@@ -74,7 +74,7 @@ public class MagneticFieldStabilizer
         return MagneticFieldStabilizer.class;
     }
 
-    public static LinkedHashMap<String, MagneticFieldStabilizer> load() {
+    public static synchronized LinkedHashMap<String, MagneticFieldStabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MagneticFieldStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

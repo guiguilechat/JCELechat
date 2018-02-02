@@ -59,7 +59,7 @@ public class CyberBiology
         return CyberBiology.class;
     }
 
-    public static LinkedHashMap<String, CyberBiology> load() {
+    public static synchronized LinkedHashMap<String, CyberBiology> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberBiology.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

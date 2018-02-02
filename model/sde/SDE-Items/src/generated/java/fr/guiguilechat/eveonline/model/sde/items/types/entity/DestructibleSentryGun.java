@@ -21,7 +21,7 @@ public class DestructibleSentryGun
         return DestructibleSentryGun.class;
     }
 
-    public static LinkedHashMap<String, DestructibleSentryGun> load() {
+    public static synchronized LinkedHashMap<String, DestructibleSentryGun> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DestructibleSentryGun.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

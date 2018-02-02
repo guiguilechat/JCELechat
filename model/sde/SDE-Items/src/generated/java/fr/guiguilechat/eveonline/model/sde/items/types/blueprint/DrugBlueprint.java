@@ -31,7 +31,7 @@ public class DrugBlueprint
         return DrugBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DrugBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DrugBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DrugBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

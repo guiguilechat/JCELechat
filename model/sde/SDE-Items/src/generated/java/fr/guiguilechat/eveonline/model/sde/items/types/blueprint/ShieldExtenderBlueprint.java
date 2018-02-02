@@ -39,7 +39,7 @@ public class ShieldExtenderBlueprint
         return ShieldExtenderBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ShieldExtenderBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ShieldExtenderBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldExtenderBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

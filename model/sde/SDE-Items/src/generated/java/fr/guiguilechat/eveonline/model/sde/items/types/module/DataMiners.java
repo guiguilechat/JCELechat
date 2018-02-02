@@ -144,7 +144,7 @@ public class DataMiners
         return DataMiners.class;
     }
 
-    public static LinkedHashMap<String, DataMiners> load() {
+    public static synchronized LinkedHashMap<String, DataMiners> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DataMiners.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

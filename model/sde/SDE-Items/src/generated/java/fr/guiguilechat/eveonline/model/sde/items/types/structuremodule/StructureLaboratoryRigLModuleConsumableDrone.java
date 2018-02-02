@@ -74,7 +74,7 @@ public class StructureLaboratoryRigLModuleConsumableDrone
         return StructureLaboratoryRigLModuleConsumableDrone.class;
     }
 
-    public static LinkedHashMap<String, StructureLaboratoryRigLModuleConsumableDrone> load() {
+    public static synchronized LinkedHashMap<String, StructureLaboratoryRigLModuleConsumableDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureLaboratoryRigLModuleConsumableDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

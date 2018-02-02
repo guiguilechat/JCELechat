@@ -431,7 +431,7 @@ public class BlackOps
         return BlackOps.class;
     }
 
-    public static LinkedHashMap<String, BlackOps> load() {
+    public static synchronized LinkedHashMap<String, BlackOps> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BlackOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

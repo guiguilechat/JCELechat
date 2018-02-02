@@ -21,7 +21,7 @@ public class SleeperEventBattleship
         return SleeperEventBattleship.class;
     }
 
-    public static LinkedHashMap<String, SleeperEventBattleship> load() {
+    public static synchronized LinkedHashMap<String, SleeperEventBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEventBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

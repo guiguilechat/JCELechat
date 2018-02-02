@@ -21,7 +21,7 @@ public class HarvestableCloud
         return HarvestableCloud.class;
     }
 
-    public static LinkedHashMap<String, HarvestableCloud> load() {
+    public static synchronized LinkedHashMap<String, HarvestableCloud> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HarvestableCloud.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

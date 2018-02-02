@@ -21,7 +21,7 @@ public class SlaveReception
         return SlaveReception.class;
     }
 
-    public static LinkedHashMap<String, SlaveReception> load() {
+    public static synchronized LinkedHashMap<String, SlaveReception> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SlaveReception.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -38,7 +38,7 @@ public class AncientCompressedIce
         return AncientCompressedIce.class;
     }
 
-    public static LinkedHashMap<String, AncientCompressedIce> load() {
+    public static synchronized LinkedHashMap<String, AncientCompressedIce> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncientCompressedIce.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

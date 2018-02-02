@@ -21,7 +21,7 @@ public class Biohazard
         return Biohazard.class;
     }
 
-    public static LinkedHashMap<String, Biohazard> load() {
+    public static synchronized LinkedHashMap<String, Biohazard> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Biohazard.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class InfantryEquipment
         return InfantryEquipment.class;
     }
 
-    public static LinkedHashMap<String, InfantryEquipment> load() {
+    public static synchronized LinkedHashMap<String, InfantryEquipment> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InfantryEquipment.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

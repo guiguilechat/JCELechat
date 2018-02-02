@@ -312,7 +312,7 @@ public class HeavyFighter
         return HeavyFighter.class;
     }
 
-    public static LinkedHashMap<String, HeavyFighter> load() {
+    public static synchronized LinkedHashMap<String, HeavyFighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

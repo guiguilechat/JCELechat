@@ -21,7 +21,7 @@ public class CustomsOfficial
         return CustomsOfficial.class;
     }
 
-    public static LinkedHashMap<String, CustomsOfficial> load() {
+    public static synchronized LinkedHashMap<String, CustomsOfficial> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CustomsOfficial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

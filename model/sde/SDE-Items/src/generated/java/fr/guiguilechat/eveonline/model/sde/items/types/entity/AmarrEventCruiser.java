@@ -21,7 +21,7 @@ public class AmarrEventCruiser
         return AmarrEventCruiser.class;
     }
 
-    public static LinkedHashMap<String, AmarrEventCruiser> load() {
+    public static synchronized LinkedHashMap<String, AmarrEventCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AmarrEventCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

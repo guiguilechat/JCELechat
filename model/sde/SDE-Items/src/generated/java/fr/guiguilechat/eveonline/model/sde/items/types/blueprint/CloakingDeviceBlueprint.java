@@ -39,7 +39,7 @@ public class CloakingDeviceBlueprint
         return CloakingDeviceBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CloakingDeviceBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CloakingDeviceBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CloakingDeviceBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

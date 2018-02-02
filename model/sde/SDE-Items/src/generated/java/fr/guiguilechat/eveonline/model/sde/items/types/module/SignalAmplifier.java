@@ -109,7 +109,7 @@ public class SignalAmplifier
         return SignalAmplifier.class;
     }
 
-    public static LinkedHashMap<String, SignalAmplifier> load() {
+    public static synchronized LinkedHashMap<String, SignalAmplifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

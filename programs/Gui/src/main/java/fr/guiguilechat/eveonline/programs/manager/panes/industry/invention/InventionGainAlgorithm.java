@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
+package fr.guiguilechat.eveonline.programs.manager.panes.industry.invention;
 
 import java.util.Collections;
 import java.util.LinkedList;
@@ -15,7 +15,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerToolPane.StructBonus;
 
 /**
  * evaluate the gain per hour of a copy-invent-manufacture cycle for each bpo,

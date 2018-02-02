@@ -123,7 +123,7 @@ public class StructureWarpScrambler
         return StructureWarpScrambler.class;
     }
 
-    public static LinkedHashMap<String, StructureWarpScrambler> load() {
+    public static synchronized LinkedHashMap<String, StructureWarpScrambler> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureWarpScrambler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

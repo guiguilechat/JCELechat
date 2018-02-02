@@ -284,7 +284,7 @@ public class EnergyWeapon
         return EnergyWeapon.class;
     }
 
-    public static LinkedHashMap<String, EnergyWeapon> load() {
+    public static synchronized LinkedHashMap<String, EnergyWeapon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyWeapon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

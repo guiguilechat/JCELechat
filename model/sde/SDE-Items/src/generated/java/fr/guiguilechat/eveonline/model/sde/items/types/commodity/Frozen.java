@@ -21,7 +21,7 @@ public class Frozen
         return Frozen.class;
     }
 
-    public static LinkedHashMap<String, Frozen> load() {
+    public static synchronized LinkedHashMap<String, Frozen> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Frozen.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

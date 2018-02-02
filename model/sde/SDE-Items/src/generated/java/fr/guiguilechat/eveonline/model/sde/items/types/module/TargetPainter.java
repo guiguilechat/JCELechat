@@ -130,7 +130,7 @@ public class TargetPainter
         return TargetPainter.class;
     }
 
-    public static LinkedHashMap<String, TargetPainter> load() {
+    public static synchronized LinkedHashMap<String, TargetPainter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetPainter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

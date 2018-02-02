@@ -95,7 +95,7 @@ public class DroneTrackingEnhancer
         return DroneTrackingEnhancer.class;
     }
 
-    public static LinkedHashMap<String, DroneTrackingEnhancer> load() {
+    public static synchronized LinkedHashMap<String, DroneTrackingEnhancer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneTrackingEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

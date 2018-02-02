@@ -137,7 +137,7 @@ public class MicroJumpDrive
         return MicroJumpDrive.class;
     }
 
-    public static LinkedHashMap<String, MicroJumpDrive> load() {
+    public static synchronized LinkedHashMap<String, MicroJumpDrive> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDrive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

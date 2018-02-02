@@ -144,7 +144,7 @@ public class TrackingArray
         return TrackingArray.class;
     }
 
-    public static LinkedHashMap<String, TrackingArray> load() {
+    public static synchronized LinkedHashMap<String, TrackingArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

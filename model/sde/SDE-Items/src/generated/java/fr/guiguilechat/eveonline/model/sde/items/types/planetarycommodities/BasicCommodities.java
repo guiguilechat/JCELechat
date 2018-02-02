@@ -21,7 +21,7 @@ public class BasicCommodities
         return BasicCommodities.class;
     }
 
-    public static LinkedHashMap<String, BasicCommodities> load() {
+    public static synchronized LinkedHashMap<String, BasicCommodities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BasicCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class PoliceDrone
         return PoliceDrone.class;
     }
 
-    public static LinkedHashMap<String, PoliceDrone> load() {
+    public static synchronized LinkedHashMap<String, PoliceDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PoliceDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

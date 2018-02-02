@@ -21,7 +21,7 @@ public class SleeperOffensiveRelics
         return SleeperOffensiveRelics.class;
     }
 
-    public static LinkedHashMap<String, SleeperOffensiveRelics> load() {
+    public static synchronized LinkedHashMap<String, SleeperOffensiveRelics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperOffensiveRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

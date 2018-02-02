@@ -165,7 +165,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
         return StructureEngineeringRigMBasicCapitalComponentME.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMBasicCapitalComponentME> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMBasicCapitalComponentME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicCapitalComponentME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

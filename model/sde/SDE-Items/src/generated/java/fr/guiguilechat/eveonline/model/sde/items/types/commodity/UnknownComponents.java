@@ -21,7 +21,7 @@ public class UnknownComponents
         return UnknownComponents.class;
     }
 
-    public static LinkedHashMap<String, UnknownComponents> load() {
+    public static synchronized LinkedHashMap<String, UnknownComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnknownComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -186,7 +186,7 @@ public class NPCEngineeringComplex
         return NPCEngineeringComplex.class;
     }
 
-    public static LinkedHashMap<String, NPCEngineeringComplex> load() {
+    public static synchronized LinkedHashMap<String, NPCEngineeringComplex> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCEngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

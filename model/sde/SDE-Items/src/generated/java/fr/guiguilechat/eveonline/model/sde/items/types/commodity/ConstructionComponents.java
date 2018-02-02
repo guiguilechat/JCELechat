@@ -31,7 +31,7 @@ public class ConstructionComponents
         return ConstructionComponents.class;
     }
 
-    public static LinkedHashMap<String, ConstructionComponents> load() {
+    public static synchronized LinkedHashMap<String, ConstructionComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ConstructionComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

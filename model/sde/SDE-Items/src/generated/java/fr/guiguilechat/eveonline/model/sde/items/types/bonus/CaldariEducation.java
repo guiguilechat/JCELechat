@@ -59,7 +59,7 @@ public class CaldariEducation
         return CaldariEducation.class;
     }
 
-    public static LinkedHashMap<String, CaldariEducation> load() {
+    public static synchronized LinkedHashMap<String, CaldariEducation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CaldariEducation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

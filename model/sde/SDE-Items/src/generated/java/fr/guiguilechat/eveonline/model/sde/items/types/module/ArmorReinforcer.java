@@ -74,7 +74,7 @@ public class ArmorReinforcer
         return ArmorReinforcer.class;
     }
 
-    public static LinkedHashMap<String, ArmorReinforcer> load() {
+    public static synchronized LinkedHashMap<String, ArmorReinforcer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorReinforcer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

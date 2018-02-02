@@ -21,7 +21,7 @@ public class SleeperComponents
         return SleeperComponents.class;
     }
 
-    public static LinkedHashMap<String, SleeperComponents> load() {
+    public static synchronized LinkedHashMap<String, SleeperComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

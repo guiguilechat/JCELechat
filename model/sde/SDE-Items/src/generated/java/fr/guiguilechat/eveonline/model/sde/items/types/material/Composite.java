@@ -31,7 +31,7 @@ public class Composite
         return Composite.class;
     }
 
-    public static LinkedHashMap<String, Composite> load() {
+    public static synchronized LinkedHashMap<String, Composite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Composite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

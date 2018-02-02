@@ -21,7 +21,7 @@ public class MissionMinmatarRepublicDestroyer
         return MissionMinmatarRepublicDestroyer.class;
     }
 
-    public static LinkedHashMap<String, MissionMinmatarRepublicDestroyer> load() {
+    public static synchronized LinkedHashMap<String, MissionMinmatarRepublicDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionMinmatarRepublicDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

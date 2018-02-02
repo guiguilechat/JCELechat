@@ -224,7 +224,7 @@ public class LargeCollidableObject
         return LargeCollidableObject.class;
     }
 
-    public static LinkedHashMap<String, LargeCollidableObject> load() {
+    public static synchronized LinkedHashMap<String, LargeCollidableObject> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LargeCollidableObject.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

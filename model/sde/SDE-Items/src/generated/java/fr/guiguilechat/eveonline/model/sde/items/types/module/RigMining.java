@@ -66,7 +66,7 @@ public class RigMining
         return RigMining.class;
     }
 
-    public static LinkedHashMap<String, RigMining> load() {
+    public static synchronized LinkedHashMap<String, RigMining> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigMining.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

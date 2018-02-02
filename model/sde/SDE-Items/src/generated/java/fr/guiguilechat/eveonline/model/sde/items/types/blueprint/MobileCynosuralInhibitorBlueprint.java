@@ -31,7 +31,7 @@ public class MobileCynosuralInhibitorBlueprint
         return MobileCynosuralInhibitorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileCynosuralInhibitorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileCynosuralInhibitorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileCynosuralInhibitorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

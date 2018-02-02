@@ -20,7 +20,7 @@ public class System
         return System.class;
     }
 
-    public static LinkedHashMap<String, System> load() {
+    public static synchronized LinkedHashMap<String, System> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(System.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

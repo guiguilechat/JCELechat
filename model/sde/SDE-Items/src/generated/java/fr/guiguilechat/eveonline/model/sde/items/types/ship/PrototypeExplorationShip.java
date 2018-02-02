@@ -87,7 +87,7 @@ public class PrototypeExplorationShip
         return PrototypeExplorationShip.class;
     }
 
-    public static LinkedHashMap<String, PrototypeExplorationShip> load() {
+    public static synchronized LinkedHashMap<String, PrototypeExplorationShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PrototypeExplorationShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

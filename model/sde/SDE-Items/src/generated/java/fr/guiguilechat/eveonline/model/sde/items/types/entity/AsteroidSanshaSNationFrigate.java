@@ -21,7 +21,7 @@ public class AsteroidSanshaSNationFrigate
         return AsteroidSanshaSNationFrigate.class;
     }
 
-    public static LinkedHashMap<String, AsteroidSanshaSNationFrigate> load() {
+    public static synchronized LinkedHashMap<String, AsteroidSanshaSNationFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidSanshaSNationFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

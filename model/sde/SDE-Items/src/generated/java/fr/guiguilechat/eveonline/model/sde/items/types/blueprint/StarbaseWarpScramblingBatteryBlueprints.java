@@ -31,7 +31,7 @@ public class StarbaseWarpScramblingBatteryBlueprints
         return StarbaseWarpScramblingBatteryBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseWarpScramblingBatteryBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseWarpScramblingBatteryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseWarpScramblingBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

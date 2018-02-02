@@ -284,7 +284,7 @@ public class HeavyInterdictionCruiser
         return HeavyInterdictionCruiser.class;
     }
 
-    public static LinkedHashMap<String, HeavyInterdictionCruiser> load() {
+    public static synchronized LinkedHashMap<String, HeavyInterdictionCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyInterdictionCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

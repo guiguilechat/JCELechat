@@ -21,7 +21,7 @@ public class BoxLights
         return BoxLights.class;
     }
 
-    public static LinkedHashMap<String, BoxLights> load() {
+    public static synchronized LinkedHashMap<String, BoxLights> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BoxLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

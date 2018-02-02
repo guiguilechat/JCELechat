@@ -291,7 +291,7 @@ public class StasisWebificationBattery
         return StasisWebificationBattery.class;
     }
 
-    public static LinkedHashMap<String, StasisWebificationBattery> load() {
+    public static synchronized LinkedHashMap<String, StasisWebificationBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StasisWebificationBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

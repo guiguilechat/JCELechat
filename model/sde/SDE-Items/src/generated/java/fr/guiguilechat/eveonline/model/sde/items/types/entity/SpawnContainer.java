@@ -21,7 +21,7 @@ public class SpawnContainer
         return SpawnContainer.class;
     }
 
-    public static LinkedHashMap<String, SpawnContainer> load() {
+    public static synchronized LinkedHashMap<String, SpawnContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpawnContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

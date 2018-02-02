@@ -186,7 +186,7 @@ public class ScannerArray
         return ScannerArray.class;
     }
 
-    public static LinkedHashMap<String, ScannerArray> load() {
+    public static synchronized LinkedHashMap<String, ScannerArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class SurveyProbeLauncherBlueprint
         return SurveyProbeLauncherBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SurveyProbeLauncherBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SurveyProbeLauncherBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbeLauncherBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class IceProduct
         return IceProduct.class;
     }
 
-    public static LinkedHashMap<String, IceProduct> load() {
+    public static synchronized LinkedHashMap<String, IceProduct> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IceProduct.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

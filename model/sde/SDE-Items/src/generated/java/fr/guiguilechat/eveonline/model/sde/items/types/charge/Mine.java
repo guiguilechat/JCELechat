@@ -116,7 +116,7 @@ public class Mine
         return Mine.class;
     }
 
-    public static LinkedHashMap<String, Mine> load() {
+    public static synchronized LinkedHashMap<String, Mine> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Mine.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

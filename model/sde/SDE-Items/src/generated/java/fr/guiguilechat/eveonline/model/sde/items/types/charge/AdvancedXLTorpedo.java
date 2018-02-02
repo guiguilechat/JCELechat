@@ -207,7 +207,7 @@ public class AdvancedXLTorpedo
         return AdvancedXLTorpedo.class;
     }
 
-    public static LinkedHashMap<String, AdvancedXLTorpedo> load() {
+    public static synchronized LinkedHashMap<String, AdvancedXLTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedXLTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

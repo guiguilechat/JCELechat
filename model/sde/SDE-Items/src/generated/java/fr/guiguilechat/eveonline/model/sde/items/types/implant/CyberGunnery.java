@@ -88,7 +88,7 @@ public class CyberGunnery
         return CyberGunnery.class;
     }
 
-    public static LinkedHashMap<String, CyberGunnery> load() {
+    public static synchronized LinkedHashMap<String, CyberGunnery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberGunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

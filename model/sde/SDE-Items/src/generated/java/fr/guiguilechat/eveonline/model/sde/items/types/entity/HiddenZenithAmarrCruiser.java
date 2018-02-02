@@ -21,7 +21,7 @@ public class HiddenZenithAmarrCruiser
         return HiddenZenithAmarrCruiser.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithAmarrCruiser> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithAmarrCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithAmarrCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

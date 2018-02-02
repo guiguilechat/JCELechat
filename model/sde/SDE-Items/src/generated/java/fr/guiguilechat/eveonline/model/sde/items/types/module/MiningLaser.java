@@ -144,7 +144,7 @@ public class MiningLaser
         return MiningLaser.class;
     }
 
-    public static LinkedHashMap<String, MiningLaser> load() {
+    public static synchronized LinkedHashMap<String, MiningLaser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningLaser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

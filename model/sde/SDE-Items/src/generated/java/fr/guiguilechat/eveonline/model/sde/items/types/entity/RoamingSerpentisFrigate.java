@@ -21,7 +21,7 @@ public class RoamingSerpentisFrigate
         return RoamingSerpentisFrigate.class;
     }
 
-    public static LinkedHashMap<String, RoamingSerpentisFrigate> load() {
+    public static synchronized LinkedHashMap<String, RoamingSerpentisFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingSerpentisFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

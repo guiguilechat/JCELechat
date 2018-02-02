@@ -21,7 +21,7 @@ public class Miscellaneous
         return Miscellaneous.class;
     }
 
-    public static LinkedHashMap<String, Miscellaneous> load() {
+    public static synchronized LinkedHashMap<String, Miscellaneous> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -93,7 +93,7 @@ public class Ice
         return Ice.class;
     }
 
-    public static LinkedHashMap<String, Ice> load() {
+    public static synchronized LinkedHashMap<String, Ice> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Ice.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

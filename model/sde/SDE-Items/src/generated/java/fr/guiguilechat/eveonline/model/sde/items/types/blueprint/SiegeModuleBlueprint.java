@@ -39,7 +39,7 @@ public class SiegeModuleBlueprint
         return SiegeModuleBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SiegeModuleBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SiegeModuleBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SiegeModuleBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

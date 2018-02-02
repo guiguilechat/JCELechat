@@ -137,7 +137,7 @@ public class HullRepairUnit
         return HullRepairUnit.class;
     }
 
-    public static LinkedHashMap<String, HullRepairUnit> load() {
+    public static synchronized LinkedHashMap<String, HullRepairUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HullRepairUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

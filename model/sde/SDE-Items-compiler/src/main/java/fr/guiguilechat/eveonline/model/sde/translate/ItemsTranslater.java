@@ -258,7 +258,7 @@ public class ItemsTranslater {
 				.field(JMod.PRIVATE | JMod.STATIC, retType, "cache")
 				.init(JExpr.direct("null"));
 		// body method for load
-		JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC, retType, "load");
+		JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC | JMod.SYNCHRONIZED, retType, "load");
 		JBlock ifblock = load.body()._if(cache.eq(JExpr._null()))._then();
 		JTryBlock tryblock = ifblock._try();
 		IJExpression class2cast = container ? JExpr.direct("Container.class") : clazz.dotclass();

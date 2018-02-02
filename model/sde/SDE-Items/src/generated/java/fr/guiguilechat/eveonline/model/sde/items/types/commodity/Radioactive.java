@@ -21,7 +21,7 @@ public class Radioactive
         return Radioactive.class;
     }
 
-    public static LinkedHashMap<String, Radioactive> load() {
+    public static synchronized LinkedHashMap<String, Radioactive> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Radioactive.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

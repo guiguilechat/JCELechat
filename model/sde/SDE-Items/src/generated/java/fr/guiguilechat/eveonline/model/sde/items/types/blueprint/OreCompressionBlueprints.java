@@ -31,7 +31,7 @@ public class OreCompressionBlueprints
         return OreCompressionBlueprints.class;
     }
 
-    public static LinkedHashMap<String, OreCompressionBlueprints> load() {
+    public static synchronized LinkedHashMap<String, OreCompressionBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OreCompressionBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class RoamingAngelCartelCruiser
         return RoamingAngelCartelCruiser.class;
     }
 
-    public static LinkedHashMap<String, RoamingAngelCartelCruiser> load() {
+    public static synchronized LinkedHashMap<String, RoamingAngelCartelCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingAngelCartelCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -298,7 +298,7 @@ public class CommandDestroyer
         return CommandDestroyer.class;
     }
 
-    public static LinkedHashMap<String, CommandDestroyer> load() {
+    public static synchronized LinkedHashMap<String, CommandDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

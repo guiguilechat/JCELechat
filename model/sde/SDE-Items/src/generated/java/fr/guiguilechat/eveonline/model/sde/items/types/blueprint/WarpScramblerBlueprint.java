@@ -46,7 +46,7 @@ public class WarpScramblerBlueprint
         return WarpScramblerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, WarpScramblerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, WarpScramblerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpScramblerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

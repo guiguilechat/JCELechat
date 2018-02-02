@@ -144,7 +144,7 @@ public class MicroJumpFieldGenerators
         return MicroJumpFieldGenerators.class;
     }
 
-    public static LinkedHashMap<String, MicroJumpFieldGenerators> load() {
+    public static synchronized LinkedHashMap<String, MicroJumpFieldGenerators> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpFieldGenerators.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

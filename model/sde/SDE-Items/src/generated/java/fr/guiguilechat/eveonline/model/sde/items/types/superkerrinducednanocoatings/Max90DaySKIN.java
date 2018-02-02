@@ -21,7 +21,7 @@ public class Max90DaySKIN
         return Max90DaySKIN.class;
     }
 
-    public static LinkedHashMap<String, Max90DaySKIN> load() {
+    public static synchronized LinkedHashMap<String, Max90DaySKIN> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Max90DaySKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

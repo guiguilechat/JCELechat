@@ -31,7 +31,7 @@ public class MicroJumpDriveBlueprint
         return MicroJumpDriveBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MicroJumpDriveBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MicroJumpDriveBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpDriveBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

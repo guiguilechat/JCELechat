@@ -21,7 +21,7 @@ public class Warbarge
         return Warbarge.class;
     }
 
-    public static LinkedHashMap<String, Warbarge> load() {
+    public static synchronized LinkedHashMap<String, Warbarge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Warbarge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

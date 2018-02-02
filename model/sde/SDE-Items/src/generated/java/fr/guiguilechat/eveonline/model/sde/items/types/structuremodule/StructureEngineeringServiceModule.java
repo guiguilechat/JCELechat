@@ -169,7 +169,7 @@ public class StructureEngineeringServiceModule
         return StructureEngineeringServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

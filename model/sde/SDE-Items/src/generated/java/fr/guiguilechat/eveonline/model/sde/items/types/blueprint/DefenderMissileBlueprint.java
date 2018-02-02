@@ -31,7 +31,7 @@ public class DefenderMissileBlueprint
         return DefenderMissileBlueprint.class;
     }
 
-    public static LinkedHashMap<String, DefenderMissileBlueprint> load() {
+    public static synchronized LinkedHashMap<String, DefenderMissileBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DefenderMissileBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

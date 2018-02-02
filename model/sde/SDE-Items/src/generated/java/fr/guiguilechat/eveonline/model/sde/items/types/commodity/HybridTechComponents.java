@@ -31,7 +31,7 @@ public class HybridTechComponents
         return HybridTechComponents.class;
     }
 
-    public static LinkedHashMap<String, HybridTechComponents> load() {
+    public static synchronized LinkedHashMap<String, HybridTechComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HybridTechComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

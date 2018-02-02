@@ -31,7 +31,7 @@ public class FueledArmorRepairerBlueprint
         return FueledArmorRepairerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FueledArmorRepairerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FueledArmorRepairerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FueledArmorRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -151,7 +151,7 @@ public class SpecialEditionImplant
         return SpecialEditionImplant.class;
     }
 
-    public static LinkedHashMap<String, SpecialEditionImplant> load() {
+    public static synchronized LinkedHashMap<String, SpecialEditionImplant> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionImplant.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

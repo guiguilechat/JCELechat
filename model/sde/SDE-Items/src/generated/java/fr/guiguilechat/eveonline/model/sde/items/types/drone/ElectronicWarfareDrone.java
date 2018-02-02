@@ -375,7 +375,7 @@ public class ElectronicWarfareDrone
         return ElectronicWarfareDrone.class;
     }
 
-    public static LinkedHashMap<String, ElectronicWarfareDrone> load() {
+    public static synchronized LinkedHashMap<String, ElectronicWarfareDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicWarfareDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

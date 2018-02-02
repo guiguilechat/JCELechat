@@ -312,7 +312,7 @@ public class Industrial
         return Industrial.class;
     }
 
-    public static LinkedHashMap<String, Industrial> load() {
+    public static synchronized LinkedHashMap<String, Industrial> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Industrial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

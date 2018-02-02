@@ -21,7 +21,7 @@ public class PolymerReactionFormulas
         return PolymerReactionFormulas.class;
     }
 
-    public static LinkedHashMap<String, PolymerReactionFormulas> load() {
+    public static synchronized LinkedHashMap<String, PolymerReactionFormulas> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PolymerReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

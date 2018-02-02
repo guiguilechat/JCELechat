@@ -39,7 +39,7 @@ public class TrackingComputerBlueprint
         return TrackingComputerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TrackingComputerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TrackingComputerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingComputerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -109,7 +109,7 @@ public class StructureAXLMissileLauncher
         return StructureAXLMissileLauncher.class;
     }
 
-    public static LinkedHashMap<String, StructureAXLMissileLauncher> load() {
+    public static synchronized LinkedHashMap<String, StructureAXLMissileLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAXLMissileLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

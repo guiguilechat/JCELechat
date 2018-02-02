@@ -21,7 +21,7 @@ public class FWCaldariStateCruiser
         return FWCaldariStateCruiser.class;
     }
 
-    public static LinkedHashMap<String, FWCaldariStateCruiser> load() {
+    public static synchronized LinkedHashMap<String, FWCaldariStateCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWCaldariStateCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

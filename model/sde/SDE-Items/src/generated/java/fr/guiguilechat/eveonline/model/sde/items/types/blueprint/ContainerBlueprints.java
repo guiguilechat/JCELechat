@@ -31,7 +31,7 @@ public class ContainerBlueprints
         return ContainerBlueprints.class;
     }
 
-    public static LinkedHashMap<String, ContainerBlueprints> load() {
+    public static synchronized LinkedHashMap<String, ContainerBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ContainerBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class AdvancedHybridChargeBlueprint
         return AdvancedHybridChargeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, AdvancedHybridChargeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, AdvancedHybridChargeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedHybridChargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

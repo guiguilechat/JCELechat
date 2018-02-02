@@ -172,7 +172,7 @@ public class FlexArmorHardener
         return FlexArmorHardener.class;
     }
 
-    public static LinkedHashMap<String, FlexArmorHardener> load() {
+    public static synchronized LinkedHashMap<String, FlexArmorHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FlexArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

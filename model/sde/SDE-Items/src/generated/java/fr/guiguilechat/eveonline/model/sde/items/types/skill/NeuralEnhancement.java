@@ -116,7 +116,7 @@ public class NeuralEnhancement
         return NeuralEnhancement.class;
     }
 
-    public static LinkedHashMap<String, NeuralEnhancement> load() {
+    public static synchronized LinkedHashMap<String, NeuralEnhancement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NeuralEnhancement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

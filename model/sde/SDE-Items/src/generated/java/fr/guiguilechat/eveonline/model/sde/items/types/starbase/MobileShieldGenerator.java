@@ -46,7 +46,7 @@ public class MobileShieldGenerator
         return MobileShieldGenerator.class;
     }
 
-    public static LinkedHashMap<String, MobileShieldGenerator> load() {
+    public static synchronized LinkedHashMap<String, MobileShieldGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileShieldGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

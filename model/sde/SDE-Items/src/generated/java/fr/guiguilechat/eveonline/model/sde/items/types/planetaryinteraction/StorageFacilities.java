@@ -45,7 +45,7 @@ public class StorageFacilities
         return StorageFacilities.class;
     }
 
-    public static LinkedHashMap<String, StorageFacilities> load() {
+    public static synchronized LinkedHashMap<String, StorageFacilities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StorageFacilities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

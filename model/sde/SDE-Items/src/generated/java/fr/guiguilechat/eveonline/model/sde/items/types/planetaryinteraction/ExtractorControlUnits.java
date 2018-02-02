@@ -87,7 +87,7 @@ public class ExtractorControlUnits
         return ExtractorControlUnits.class;
     }
 
-    public static LinkedHashMap<String, ExtractorControlUnits> load() {
+    public static synchronized LinkedHashMap<String, ExtractorControlUnits> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ExtractorControlUnits.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

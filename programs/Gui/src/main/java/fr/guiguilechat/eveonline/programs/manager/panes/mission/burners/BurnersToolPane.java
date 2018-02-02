@@ -1,10 +1,10 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
+package fr.guiguilechat.eveonline.programs.manager.panes.mission.burners;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.EvaluateBurnersAgents.LocalizedLPOffer;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventionGainAlgorithm;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms.EvaluateBurnersAgents;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms.EvaluateBurnersAgents.LocalizedLPOffer;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;

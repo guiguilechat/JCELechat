@@ -21,7 +21,7 @@ public class TutorialSeekers
         return TutorialSeekers.class;
     }
 
-    public static LinkedHashMap<String, TutorialSeekers> load() {
+    public static synchronized LinkedHashMap<String, TutorialSeekers> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TutorialSeekers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

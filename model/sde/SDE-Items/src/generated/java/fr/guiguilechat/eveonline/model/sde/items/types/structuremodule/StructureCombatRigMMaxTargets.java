@@ -108,7 +108,7 @@ public class StructureCombatRigMMaxTargets
         return StructureCombatRigMMaxTargets.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigMMaxTargets> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigMMaxTargets> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMMaxTargets.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

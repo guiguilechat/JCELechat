@@ -39,7 +39,7 @@ public class CapacitorBatteryBlueprint
         return CapacitorBatteryBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CapacitorBatteryBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CapacitorBatteryBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorBatteryBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

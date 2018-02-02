@@ -235,7 +235,7 @@ public class Rocket
         return Rocket.class;
     }
 
-    public static LinkedHashMap<String, Rocket> load() {
+    public static synchronized LinkedHashMap<String, Rocket> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Rocket.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

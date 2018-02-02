@@ -21,7 +21,7 @@ public class FWAmarrEmpireCruiser
         return FWAmarrEmpireCruiser.class;
     }
 
-    public static LinkedHashMap<String, FWAmarrEmpireCruiser> load() {
+    public static synchronized LinkedHashMap<String, FWAmarrEmpireCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWAmarrEmpireCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

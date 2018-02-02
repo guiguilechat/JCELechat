@@ -165,7 +165,7 @@ public class ElectronicSystems
         return ElectronicSystems.class;
     }
 
-    public static LinkedHashMap<String, ElectronicSystems> load() {
+    public static synchronized LinkedHashMap<String, ElectronicSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

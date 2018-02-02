@@ -207,7 +207,7 @@ public class CynosuralGeneratorArray
         return CynosuralGeneratorArray.class;
     }
 
-    public static LinkedHashMap<String, CynosuralGeneratorArray> load() {
+    public static synchronized LinkedHashMap<String, CynosuralGeneratorArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CynosuralGeneratorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

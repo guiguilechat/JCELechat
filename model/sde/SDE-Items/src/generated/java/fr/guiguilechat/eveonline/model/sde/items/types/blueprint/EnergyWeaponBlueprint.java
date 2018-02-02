@@ -46,7 +46,7 @@ public class EnergyWeaponBlueprint
         return EnergyWeaponBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EnergyWeaponBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EnergyWeaponBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyWeaponBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

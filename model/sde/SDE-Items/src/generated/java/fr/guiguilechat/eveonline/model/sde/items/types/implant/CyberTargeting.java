@@ -53,7 +53,7 @@ public class CyberTargeting
         return CyberTargeting.class;
     }
 
-    public static LinkedHashMap<String, CyberTargeting> load() {
+    public static synchronized LinkedHashMap<String, CyberTargeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

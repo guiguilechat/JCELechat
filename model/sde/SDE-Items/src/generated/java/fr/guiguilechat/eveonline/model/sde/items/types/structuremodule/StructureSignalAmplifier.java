@@ -88,7 +88,7 @@ public class StructureSignalAmplifier
         return StructureSignalAmplifier.class;
     }
 
-    public static LinkedHashMap<String, StructureSignalAmplifier> load() {
+    public static synchronized LinkedHashMap<String, StructureSignalAmplifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureSignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

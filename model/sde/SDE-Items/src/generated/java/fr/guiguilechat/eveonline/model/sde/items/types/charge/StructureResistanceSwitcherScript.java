@@ -116,7 +116,7 @@ public class StructureResistanceSwitcherScript
         return StructureResistanceSwitcherScript.class;
     }
 
-    public static LinkedHashMap<String, StructureResistanceSwitcherScript> load() {
+    public static synchronized LinkedHashMap<String, StructureResistanceSwitcherScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResistanceSwitcherScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

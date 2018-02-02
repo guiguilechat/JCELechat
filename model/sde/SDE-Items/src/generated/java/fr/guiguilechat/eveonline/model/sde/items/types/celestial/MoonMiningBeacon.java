@@ -21,7 +21,7 @@ public class MoonMiningBeacon
         return MoonMiningBeacon.class;
     }
 
-    public static LinkedHashMap<String, MoonMiningBeacon> load() {
+    public static synchronized LinkedHashMap<String, MoonMiningBeacon> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MoonMiningBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

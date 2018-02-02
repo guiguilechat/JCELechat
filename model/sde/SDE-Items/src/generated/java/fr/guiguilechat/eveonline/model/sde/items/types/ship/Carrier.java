@@ -529,7 +529,7 @@ public class Carrier
         return Carrier.class;
     }
 
-    public static LinkedHashMap<String, Carrier> load() {
+    public static synchronized LinkedHashMap<String, Carrier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Carrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

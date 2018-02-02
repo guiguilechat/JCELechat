@@ -151,7 +151,7 @@ public class StructureEngineeringRigMInventionCostOptimization
         return StructureEngineeringRigMInventionCostOptimization.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMInventionCostOptimization> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMInventionCostOptimization> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMInventionCostOptimization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

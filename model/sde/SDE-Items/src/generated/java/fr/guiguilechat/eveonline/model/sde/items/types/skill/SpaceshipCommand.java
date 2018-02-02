@@ -158,7 +158,7 @@ public class SpaceshipCommand
         return SpaceshipCommand.class;
     }
 
-    public static LinkedHashMap<String, SpaceshipCommand> load() {
+    public static synchronized LinkedHashMap<String, SpaceshipCommand> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpaceshipCommand.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

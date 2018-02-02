@@ -158,7 +158,7 @@ public class Shields
         return Shields.class;
     }
 
-    public static LinkedHashMap<String, Shields> load() {
+    public static synchronized LinkedHashMap<String, Shields> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Shields.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

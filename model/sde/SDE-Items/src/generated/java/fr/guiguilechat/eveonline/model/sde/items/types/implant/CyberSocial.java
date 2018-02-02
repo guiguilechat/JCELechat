@@ -81,7 +81,7 @@ public class CyberSocial
         return CyberSocial.class;
     }
 
-    public static LinkedHashMap<String, CyberSocial> load() {
+    public static synchronized LinkedHashMap<String, CyberSocial> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberSocial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

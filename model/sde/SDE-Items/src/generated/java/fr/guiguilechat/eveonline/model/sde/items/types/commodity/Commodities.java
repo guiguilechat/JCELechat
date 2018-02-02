@@ -67,7 +67,7 @@ public class Commodities
         return Commodities.class;
     }
 
-    public static LinkedHashMap<String, Commodities> load() {
+    public static synchronized LinkedHashMap<String, Commodities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Commodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

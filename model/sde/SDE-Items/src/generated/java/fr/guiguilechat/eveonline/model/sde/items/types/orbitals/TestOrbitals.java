@@ -60,7 +60,7 @@ public class TestOrbitals
         return TestOrbitals.class;
     }
 
-    public static LinkedHashMap<String, TestOrbitals> load() {
+    public static synchronized LinkedHashMap<String, TestOrbitals> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TestOrbitals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

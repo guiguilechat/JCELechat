@@ -39,7 +39,7 @@ public class MiningLaserBlueprint
         return MiningLaserBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MiningLaserBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MiningLaserBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MiningLaserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class MobileDecoyUnitBlueprint
         return MobileDecoyUnitBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileDecoyUnitBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileDecoyUnitBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

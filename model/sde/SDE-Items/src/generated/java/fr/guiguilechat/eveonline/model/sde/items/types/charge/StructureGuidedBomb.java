@@ -165,7 +165,7 @@ public class StructureGuidedBomb
         return StructureGuidedBomb.class;
     }
 
-    public static LinkedHashMap<String, StructureGuidedBomb> load() {
+    public static synchronized LinkedHashMap<String, StructureGuidedBomb> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureGuidedBomb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

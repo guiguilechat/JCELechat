@@ -21,7 +21,7 @@ public class CapturePoint
         return CapturePoint.class;
     }
 
-    public static LinkedHashMap<String, CapturePoint> load() {
+    public static synchronized LinkedHashMap<String, CapturePoint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapturePoint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

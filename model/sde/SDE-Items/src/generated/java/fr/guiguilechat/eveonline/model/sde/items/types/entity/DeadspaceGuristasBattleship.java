@@ -21,7 +21,7 @@ public class DeadspaceGuristasBattleship
         return DeadspaceGuristasBattleship.class;
     }
 
-    public static LinkedHashMap<String, DeadspaceGuristasBattleship> load() {
+    public static synchronized LinkedHashMap<String, DeadspaceGuristasBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeadspaceGuristasBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

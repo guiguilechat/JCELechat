@@ -21,7 +21,7 @@ public class MissionFactionTransports
         return MissionFactionTransports.class;
     }
 
-    public static LinkedHashMap<String, MissionFactionTransports> load() {
+    public static synchronized LinkedHashMap<String, MissionFactionTransports> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionFactionTransports.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

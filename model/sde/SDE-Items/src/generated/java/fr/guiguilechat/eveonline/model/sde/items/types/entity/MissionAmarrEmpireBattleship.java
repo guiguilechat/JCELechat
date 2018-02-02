@@ -21,7 +21,7 @@ public class MissionAmarrEmpireBattleship
         return MissionAmarrEmpireBattleship.class;
     }
 
-    public static LinkedHashMap<String, MissionAmarrEmpireBattleship> load() {
+    public static synchronized LinkedHashMap<String, MissionAmarrEmpireBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionAmarrEmpireBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

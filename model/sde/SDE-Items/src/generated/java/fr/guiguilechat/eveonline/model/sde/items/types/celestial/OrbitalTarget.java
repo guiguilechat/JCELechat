@@ -21,7 +21,7 @@ public class OrbitalTarget
         return OrbitalTarget.class;
     }
 
-    public static LinkedHashMap<String, OrbitalTarget> load() {
+    public static synchronized LinkedHashMap<String, OrbitalTarget> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OrbitalTarget.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

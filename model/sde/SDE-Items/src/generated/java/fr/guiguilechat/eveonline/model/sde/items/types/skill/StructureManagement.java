@@ -109,7 +109,7 @@ public class StructureManagement
         return StructureManagement.class;
     }
 
-    public static LinkedHashMap<String, StructureManagement> load() {
+    public static synchronized LinkedHashMap<String, StructureManagement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

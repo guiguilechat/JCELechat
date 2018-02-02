@@ -21,7 +21,7 @@ public class GasIsotopes
         return GasIsotopes.class;
     }
 
-    public static LinkedHashMap<String, GasIsotopes> load() {
+    public static synchronized LinkedHashMap<String, GasIsotopes> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GasIsotopes.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -67,7 +67,7 @@ public class SystemScanner
         return SystemScanner.class;
     }
 
-    public static LinkedHashMap<String, SystemScanner> load() {
+    public static synchronized LinkedHashMap<String, SystemScanner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SystemScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

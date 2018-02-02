@@ -74,7 +74,7 @@ public class ScanningUpgrade
         return ScanningUpgrade.class;
     }
 
-    public static LinkedHashMap<String, ScanningUpgrade> load() {
+    public static synchronized LinkedHashMap<String, ScanningUpgrade> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScanningUpgrade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

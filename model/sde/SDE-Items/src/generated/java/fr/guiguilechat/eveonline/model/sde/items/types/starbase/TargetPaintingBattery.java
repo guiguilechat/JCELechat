@@ -270,7 +270,7 @@ public class TargetPaintingBattery
         return TargetPaintingBattery.class;
     }
 
-    public static LinkedHashMap<String, TargetPaintingBattery> load() {
+    public static synchronized LinkedHashMap<String, TargetPaintingBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetPaintingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

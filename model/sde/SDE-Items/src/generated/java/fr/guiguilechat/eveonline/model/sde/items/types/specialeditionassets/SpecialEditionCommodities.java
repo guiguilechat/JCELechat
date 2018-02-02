@@ -31,7 +31,7 @@ public class SpecialEditionCommodities
         return SpecialEditionCommodities.class;
     }
 
-    public static LinkedHashMap<String, SpecialEditionCommodities> load() {
+    public static synchronized LinkedHashMap<String, SpecialEditionCommodities> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionCommodities.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

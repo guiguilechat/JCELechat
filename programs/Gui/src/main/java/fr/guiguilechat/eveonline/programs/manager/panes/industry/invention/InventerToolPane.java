@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
+package fr.guiguilechat.eveonline.programs.manager.panes.industry.invention;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -16,7 +16,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InventionProdData;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventionGainAlgorithm.InventionProdData;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;

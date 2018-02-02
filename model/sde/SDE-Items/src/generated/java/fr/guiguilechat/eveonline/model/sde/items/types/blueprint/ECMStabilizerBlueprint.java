@@ -39,7 +39,7 @@ public class ECMStabilizerBlueprint
         return ECMStabilizerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ECMStabilizerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ECMStabilizerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECMStabilizerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

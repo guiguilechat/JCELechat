@@ -74,7 +74,7 @@ public class ShieldExtender
         return ShieldExtender.class;
     }
 
-    public static LinkedHashMap<String, ShieldExtender> load() {
+    public static synchronized LinkedHashMap<String, ShieldExtender> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldExtender.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

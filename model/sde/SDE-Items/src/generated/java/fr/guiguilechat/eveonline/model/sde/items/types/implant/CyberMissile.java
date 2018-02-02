@@ -95,7 +95,7 @@ public class CyberMissile
         return CyberMissile.class;
     }
 
-    public static LinkedHashMap<String, CyberMissile> load() {
+    public static synchronized LinkedHashMap<String, CyberMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class CommandBurstChargeBlueprint
         return CommandBurstChargeBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CommandBurstChargeBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CommandBurstChargeBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandBurstChargeBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

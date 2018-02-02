@@ -45,7 +45,7 @@ public class Processors
         return Processors.class;
     }
 
-    public static LinkedHashMap<String, Processors> load() {
+    public static synchronized LinkedHashMap<String, Processors> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Processors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

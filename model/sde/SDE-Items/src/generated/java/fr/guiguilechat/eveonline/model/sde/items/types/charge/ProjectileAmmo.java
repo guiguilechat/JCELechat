@@ -123,7 +123,7 @@ public class ProjectileAmmo
         return ProjectileAmmo.class;
     }
 
-    public static LinkedHashMap<String, ProjectileAmmo> load() {
+    public static synchronized LinkedHashMap<String, ProjectileAmmo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ProjectileAmmo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

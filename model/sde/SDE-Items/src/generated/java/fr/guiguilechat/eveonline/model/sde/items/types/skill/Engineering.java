@@ -172,7 +172,7 @@ public class Engineering
         return Engineering.class;
     }
 
-    public static LinkedHashMap<String, Engineering> load() {
+    public static synchronized LinkedHashMap<String, Engineering> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Engineering.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

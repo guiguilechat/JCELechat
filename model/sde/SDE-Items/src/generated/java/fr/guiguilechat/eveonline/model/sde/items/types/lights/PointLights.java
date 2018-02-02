@@ -21,7 +21,7 @@ public class PointLights
         return PointLights.class;
     }
 
-    public static LinkedHashMap<String, PointLights> load() {
+    public static synchronized LinkedHashMap<String, PointLights> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PointLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

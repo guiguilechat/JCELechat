@@ -319,7 +319,7 @@ public class IndustrialCommandShip
         return IndustrialCommandShip.class;
     }
 
-    public static LinkedHashMap<String, IndustrialCommandShip> load() {
+    public static synchronized LinkedHashMap<String, IndustrialCommandShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IndustrialCommandShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

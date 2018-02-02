@@ -137,7 +137,7 @@ public class SmartBomb
         return SmartBomb.class;
     }
 
-    public static LinkedHashMap<String, SmartBomb> load() {
+    public static synchronized LinkedHashMap<String, SmartBomb> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SmartBomb.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

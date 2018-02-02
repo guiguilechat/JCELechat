@@ -67,7 +67,7 @@ public class DroneNavigationComputer
         return DroneNavigationComputer.class;
     }
 
-    public static LinkedHashMap<String, DroneNavigationComputer> load() {
+    public static synchronized LinkedHashMap<String, DroneNavigationComputer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneNavigationComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

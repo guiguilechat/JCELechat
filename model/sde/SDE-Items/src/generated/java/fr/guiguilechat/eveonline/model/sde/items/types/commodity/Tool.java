@@ -45,7 +45,7 @@ public class Tool
         return Tool.class;
     }
 
-    public static LinkedHashMap<String, Tool> load() {
+    public static synchronized LinkedHashMap<String, Tool> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Tool.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

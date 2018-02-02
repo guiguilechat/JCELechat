@@ -52,7 +52,7 @@ public class DataInterfaces
         return DataInterfaces.class;
     }
 
-    public static LinkedHashMap<String, DataInterfaces> load() {
+    public static synchronized LinkedHashMap<String, DataInterfaces> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

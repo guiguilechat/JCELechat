@@ -38,7 +38,7 @@ public class PhysicalHandicap
         return PhysicalHandicap.class;
     }
 
-    public static LinkedHashMap<String, PhysicalHandicap> load() {
+    public static synchronized LinkedHashMap<String, PhysicalHandicap> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PhysicalHandicap.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class AutomatedTargetingSystemBlueprint
         return AutomatedTargetingSystemBlueprint.class;
     }
 
-    public static LinkedHashMap<String, AutomatedTargetingSystemBlueprint> load() {
+    public static synchronized LinkedHashMap<String, AutomatedTargetingSystemBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AutomatedTargetingSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -46,7 +46,7 @@ public class MissileBlueprint
         return MissileBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MissileBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MissileBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

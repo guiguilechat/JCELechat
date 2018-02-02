@@ -193,7 +193,7 @@ public class AdvancedBeamLaserCrystal
         return AdvancedBeamLaserCrystal.class;
     }
 
-    public static LinkedHashMap<String, AdvancedBeamLaserCrystal> load() {
+    public static synchronized LinkedHashMap<String, AdvancedBeamLaserCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedBeamLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

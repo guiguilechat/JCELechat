@@ -21,7 +21,7 @@ public class AsteroidRogueDroneOfficer
         return AsteroidRogueDroneOfficer.class;
     }
 
-    public static LinkedHashMap<String, AsteroidRogueDroneOfficer> load() {
+    public static synchronized LinkedHashMap<String, AsteroidRogueDroneOfficer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidRogueDroneOfficer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class NPCMiningBarge
         return NPCMiningBarge.class;
     }
 
-    public static LinkedHashMap<String, NPCMiningBarge> load() {
+    public static synchronized LinkedHashMap<String, NPCMiningBarge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCMiningBarge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

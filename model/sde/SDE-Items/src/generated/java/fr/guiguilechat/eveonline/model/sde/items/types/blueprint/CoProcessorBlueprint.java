@@ -39,7 +39,7 @@ public class CoProcessorBlueprint
         return CoProcessorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, CoProcessorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, CoProcessorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CoProcessorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

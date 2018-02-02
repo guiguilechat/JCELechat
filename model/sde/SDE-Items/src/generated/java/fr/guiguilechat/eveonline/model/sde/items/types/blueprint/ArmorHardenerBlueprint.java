@@ -39,7 +39,7 @@ public class ArmorHardenerBlueprint
         return ArmorHardenerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, ArmorHardenerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, ArmorHardenerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorHardenerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

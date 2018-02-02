@@ -60,7 +60,7 @@ public class OverdriveInjectorSystem
         return OverdriveInjectorSystem.class;
     }
 
-    public static LinkedHashMap<String, OverdriveInjectorSystem> load() {
+    public static synchronized LinkedHashMap<String, OverdriveInjectorSystem> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OverdriveInjectorSystem.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

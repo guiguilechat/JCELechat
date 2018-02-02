@@ -38,7 +38,7 @@ public class Bottoms
         return Bottoms.class;
     }
 
-    public static LinkedHashMap<String, Bottoms> load() {
+    public static synchronized LinkedHashMap<String, Bottoms> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Bottoms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -53,7 +53,7 @@ public class WarpGate
         return WarpGate.class;
     }
 
-    public static LinkedHashMap<String, WarpGate> load() {
+    public static synchronized LinkedHashMap<String, WarpGate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpGate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

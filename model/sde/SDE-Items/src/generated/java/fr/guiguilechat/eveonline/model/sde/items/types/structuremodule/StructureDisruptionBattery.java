@@ -179,7 +179,7 @@ public class StructureDisruptionBattery
         return StructureDisruptionBattery.class;
     }
 
-    public static LinkedHashMap<String, StructureDisruptionBattery> load() {
+    public static synchronized LinkedHashMap<String, StructureDisruptionBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureDisruptionBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

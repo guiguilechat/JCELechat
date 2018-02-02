@@ -21,7 +21,7 @@ public class HiddenZenithMinmatarFrigate
         return HiddenZenithMinmatarFrigate.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithMinmatarFrigate> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithMinmatarFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithMinmatarFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

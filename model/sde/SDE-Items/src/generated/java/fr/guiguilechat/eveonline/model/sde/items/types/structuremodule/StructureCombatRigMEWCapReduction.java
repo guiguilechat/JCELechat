@@ -137,7 +137,7 @@ public class StructureCombatRigMEWCapReduction
         return StructureCombatRigMEWCapReduction.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigMEWCapReduction> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigMEWCapReduction> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMEWCapReduction.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

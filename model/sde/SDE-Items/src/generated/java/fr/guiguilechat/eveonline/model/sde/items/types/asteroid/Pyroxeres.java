@@ -100,7 +100,7 @@ public class Pyroxeres
         return Pyroxeres.class;
     }
 
-    public static LinkedHashMap<String, Pyroxeres> load() {
+    public static synchronized LinkedHashMap<String, Pyroxeres> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Pyroxeres.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

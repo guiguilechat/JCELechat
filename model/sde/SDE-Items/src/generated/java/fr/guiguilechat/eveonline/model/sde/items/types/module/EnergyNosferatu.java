@@ -137,7 +137,7 @@ public class EnergyNosferatu
         return EnergyNosferatu.class;
     }
 
-    public static LinkedHashMap<String, EnergyNosferatu> load() {
+    public static synchronized LinkedHashMap<String, EnergyNosferatu> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EnergyNosferatu.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

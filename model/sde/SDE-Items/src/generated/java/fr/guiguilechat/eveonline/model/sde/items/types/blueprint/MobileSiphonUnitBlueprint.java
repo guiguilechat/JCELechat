@@ -31,7 +31,7 @@ public class MobileSiphonUnitBlueprint
         return MobileSiphonUnitBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MobileSiphonUnitBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MobileSiphonUnitBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileSiphonUnitBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class NPCMiningFrigate
         return NPCMiningFrigate.class;
     }
 
-    public static LinkedHashMap<String, NPCMiningFrigate> load() {
+    public static synchronized LinkedHashMap<String, NPCMiningFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NPCMiningFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

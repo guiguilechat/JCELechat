@@ -60,7 +60,7 @@ public class Spaceports
         return Spaceports.class;
     }
 
-    public static LinkedHashMap<String, Spaceports> load() {
+    public static synchronized LinkedHashMap<String, Spaceports> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Spaceports.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

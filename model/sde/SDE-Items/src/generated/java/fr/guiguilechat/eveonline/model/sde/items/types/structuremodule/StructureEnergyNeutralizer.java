@@ -158,7 +158,7 @@ public class StructureEnergyNeutralizer
         return StructureEnergyNeutralizer.class;
     }
 
-    public static LinkedHashMap<String, StructureEnergyNeutralizer> load() {
+    public static synchronized LinkedHashMap<String, StructureEnergyNeutralizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEnergyNeutralizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

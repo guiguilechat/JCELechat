@@ -31,7 +31,7 @@ public class TargetBreakerBlueprint
         return TargetBreakerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TargetBreakerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TargetBreakerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TargetBreakerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -144,7 +144,7 @@ public class FestivalChargesExpired
         return FestivalChargesExpired.class;
     }
 
-    public static LinkedHashMap<String, FestivalChargesExpired> load() {
+    public static synchronized LinkedHashMap<String, FestivalChargesExpired> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FestivalChargesExpired.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

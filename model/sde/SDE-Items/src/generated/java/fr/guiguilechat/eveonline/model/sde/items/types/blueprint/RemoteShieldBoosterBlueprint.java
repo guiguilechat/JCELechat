@@ -39,7 +39,7 @@ public class RemoteShieldBoosterBlueprint
         return RemoteShieldBoosterBlueprint.class;
     }
 
-    public static LinkedHashMap<String, RemoteShieldBoosterBlueprint> load() {
+    public static synchronized LinkedHashMap<String, RemoteShieldBoosterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteShieldBoosterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

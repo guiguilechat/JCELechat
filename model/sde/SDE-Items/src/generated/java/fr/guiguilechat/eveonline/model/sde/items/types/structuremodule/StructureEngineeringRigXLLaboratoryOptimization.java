@@ -158,7 +158,7 @@ public class StructureEngineeringRigXLLaboratoryOptimization
         return StructureEngineeringRigXLLaboratoryOptimization.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigXLLaboratoryOptimization> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigXLLaboratoryOptimization> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigXLLaboratoryOptimization.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

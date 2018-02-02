@@ -38,7 +38,7 @@ public class Comet
         return Comet.class;
     }
 
-    public static LinkedHashMap<String, Comet> load() {
+    public static synchronized LinkedHashMap<String, Comet> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Comet.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

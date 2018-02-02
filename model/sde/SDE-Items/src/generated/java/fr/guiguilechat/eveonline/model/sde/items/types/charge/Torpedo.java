@@ -228,7 +228,7 @@ public class Torpedo
         return Torpedo.class;
     }
 
-    public static LinkedHashMap<String, Torpedo> load() {
+    public static synchronized LinkedHashMap<String, Torpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Torpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

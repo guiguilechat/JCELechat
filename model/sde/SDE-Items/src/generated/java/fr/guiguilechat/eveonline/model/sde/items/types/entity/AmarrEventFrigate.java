@@ -21,7 +21,7 @@ public class AmarrEventFrigate
         return AmarrEventFrigate.class;
     }
 
-    public static LinkedHashMap<String, AmarrEventFrigate> load() {
+    public static synchronized LinkedHashMap<String, AmarrEventFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AmarrEventFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

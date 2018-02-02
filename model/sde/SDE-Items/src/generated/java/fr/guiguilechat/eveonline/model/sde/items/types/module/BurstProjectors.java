@@ -357,7 +357,7 @@ public class BurstProjectors
         return BurstProjectors.class;
     }
 
-    public static LinkedHashMap<String, BurstProjectors> load() {
+    public static synchronized LinkedHashMap<String, BurstProjectors> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BurstProjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -59,7 +59,7 @@ public class CyberScience
         return CyberScience.class;
     }
 
-    public static LinkedHashMap<String, CyberScience> load() {
+    public static synchronized LinkedHashMap<String, CyberScience> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberScience.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

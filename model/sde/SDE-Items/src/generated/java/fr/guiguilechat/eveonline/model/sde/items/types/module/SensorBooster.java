@@ -165,7 +165,7 @@ public class SensorBooster
         return SensorBooster.class;
     }
 
-    public static LinkedHashMap<String, SensorBooster> load() {
+    public static synchronized LinkedHashMap<String, SensorBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

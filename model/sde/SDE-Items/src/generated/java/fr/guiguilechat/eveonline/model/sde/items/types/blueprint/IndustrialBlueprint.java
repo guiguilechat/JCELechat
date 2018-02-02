@@ -39,7 +39,7 @@ public class IndustrialBlueprint
         return IndustrialBlueprint.class;
     }
 
-    public static LinkedHashMap<String, IndustrialBlueprint> load() {
+    public static synchronized LinkedHashMap<String, IndustrialBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IndustrialBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

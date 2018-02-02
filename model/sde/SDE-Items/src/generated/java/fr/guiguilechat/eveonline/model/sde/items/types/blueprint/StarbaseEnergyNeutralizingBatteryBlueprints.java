@@ -31,7 +31,7 @@ public class StarbaseEnergyNeutralizingBatteryBlueprints
         return StarbaseEnergyNeutralizingBatteryBlueprints.class;
     }
 
-    public static LinkedHashMap<String, StarbaseEnergyNeutralizingBatteryBlueprints> load() {
+    public static synchronized LinkedHashMap<String, StarbaseEnergyNeutralizingBatteryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseEnergyNeutralizingBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

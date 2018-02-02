@@ -46,7 +46,7 @@ public class MobilePowerCore
         return MobilePowerCore.class;
     }
 
-    public static LinkedHashMap<String, MobilePowerCore> load() {
+    public static synchronized LinkedHashMap<String, MobilePowerCore> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobilePowerCore.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

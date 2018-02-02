@@ -130,7 +130,7 @@ public class ArmorRepairUnit
         return ArmorRepairUnit.class;
     }
 
-    public static LinkedHashMap<String, ArmorRepairUnit> load() {
+    public static synchronized LinkedHashMap<String, ArmorRepairUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorRepairUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -116,7 +116,7 @@ public class ShieldBooster
         return ShieldBooster.class;
     }
 
-    public static LinkedHashMap<String, ShieldBooster> load() {
+    public static synchronized LinkedHashMap<String, ShieldBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

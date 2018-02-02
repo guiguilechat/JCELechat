@@ -86,7 +86,7 @@ public class UbiquitousMoonAsteroids
         return UbiquitousMoonAsteroids.class;
     }
 
-    public static LinkedHashMap<String, UbiquitousMoonAsteroids> load() {
+    public static synchronized LinkedHashMap<String, UbiquitousMoonAsteroids> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UbiquitousMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

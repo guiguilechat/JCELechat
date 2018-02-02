@@ -67,7 +67,7 @@ public class ECMStabilizer
         return ECMStabilizer.class;
     }
 
-    public static LinkedHashMap<String, ECMStabilizer> load() {
+    public static synchronized LinkedHashMap<String, ECMStabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ECMStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

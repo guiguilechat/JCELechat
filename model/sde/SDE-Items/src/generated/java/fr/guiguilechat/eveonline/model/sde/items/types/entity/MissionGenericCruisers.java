@@ -21,7 +21,7 @@ public class MissionGenericCruisers
         return MissionGenericCruisers.class;
     }
 
-    public static LinkedHashMap<String, MissionGenericCruisers> load() {
+    public static synchronized LinkedHashMap<String, MissionGenericCruisers> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionGenericCruisers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

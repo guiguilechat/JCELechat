@@ -341,7 +341,7 @@ public class ControlTower
         return ControlTower.class;
     }
 
-    public static LinkedHashMap<String, ControlTower> load() {
+    public static synchronized LinkedHashMap<String, ControlTower> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ControlTower.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

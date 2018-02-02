@@ -21,7 +21,7 @@ public class Livestock
         return Livestock.class;
     }
 
-    public static LinkedHashMap<String, Livestock> load() {
+    public static synchronized LinkedHashMap<String, Livestock> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Livestock.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -73,7 +73,7 @@ public class CyberLearning
         return CyberLearning.class;
     }
 
-    public static LinkedHashMap<String, CyberLearning> load() {
+    public static synchronized LinkedHashMap<String, CyberLearning> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberLearning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

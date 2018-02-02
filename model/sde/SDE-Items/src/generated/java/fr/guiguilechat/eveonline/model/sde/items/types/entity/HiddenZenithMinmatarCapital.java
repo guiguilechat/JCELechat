@@ -21,7 +21,7 @@ public class HiddenZenithMinmatarCapital
         return HiddenZenithMinmatarCapital.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithMinmatarCapital> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithMinmatarCapital> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithMinmatarCapital.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

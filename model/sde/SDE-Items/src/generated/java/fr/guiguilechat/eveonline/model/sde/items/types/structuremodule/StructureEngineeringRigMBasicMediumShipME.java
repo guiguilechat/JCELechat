@@ -165,7 +165,7 @@ public class StructureEngineeringRigMBasicMediumShipME
         return StructureEngineeringRigMBasicMediumShipME.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMBasicMediumShipME> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMBasicMediumShipME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMBasicMediumShipME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

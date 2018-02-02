@@ -151,7 +151,7 @@ public class StructureEngineeringRigMStructureTE
         return StructureEngineeringRigMStructureTE.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigMStructureTE> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigMStructureTE> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMStructureTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class OverseerPersonalEffects
         return OverseerPersonalEffects.class;
     }
 
-    public static LinkedHashMap<String, OverseerPersonalEffects> load() {
+    public static synchronized LinkedHashMap<String, OverseerPersonalEffects> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OverseerPersonalEffects.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

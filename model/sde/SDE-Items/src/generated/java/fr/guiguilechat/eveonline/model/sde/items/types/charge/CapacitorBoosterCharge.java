@@ -66,7 +66,7 @@ public class CapacitorBoosterCharge
         return CapacitorBoosterCharge.class;
     }
 
-    public static LinkedHashMap<String, CapacitorBoosterCharge> load() {
+    public static synchronized LinkedHashMap<String, CapacitorBoosterCharge> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapacitorBoosterCharge.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -130,7 +130,7 @@ public class CorporationManagement
         return CorporationManagement.class;
     }
 
-    public static LinkedHashMap<String, CorporationManagement> load() {
+    public static synchronized LinkedHashMap<String, CorporationManagement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CorporationManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

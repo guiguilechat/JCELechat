@@ -21,7 +21,7 @@ public class Max1YearSKIN
         return Max1YearSKIN.class;
     }
 
-    public static LinkedHashMap<String, Max1YearSKIN> load() {
+    public static synchronized LinkedHashMap<String, Max1YearSKIN> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Max1YearSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

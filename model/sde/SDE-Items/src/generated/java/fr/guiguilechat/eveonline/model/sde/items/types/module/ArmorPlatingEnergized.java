@@ -95,7 +95,7 @@ public class ArmorPlatingEnergized
         return ArmorPlatingEnergized.class;
     }
 
-    public static LinkedHashMap<String, ArmorPlatingEnergized> load() {
+    public static synchronized LinkedHashMap<String, ArmorPlatingEnergized> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorPlatingEnergized.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

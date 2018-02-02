@@ -39,7 +39,7 @@ public class PassiveTargetingSystemBlueprint
         return PassiveTargetingSystemBlueprint.class;
     }
 
-    public static LinkedHashMap<String, PassiveTargetingSystemBlueprint> load() {
+    public static synchronized LinkedHashMap<String, PassiveTargetingSystemBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PassiveTargetingSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

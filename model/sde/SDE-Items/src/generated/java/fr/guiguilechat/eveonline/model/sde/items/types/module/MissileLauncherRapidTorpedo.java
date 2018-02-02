@@ -179,7 +179,7 @@ public class MissileLauncherRapidTorpedo
         return MissileLauncherRapidTorpedo.class;
     }
 
-    public static LinkedHashMap<String, MissileLauncherRapidTorpedo> load() {
+    public static synchronized LinkedHashMap<String, MissileLauncherRapidTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherRapidTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

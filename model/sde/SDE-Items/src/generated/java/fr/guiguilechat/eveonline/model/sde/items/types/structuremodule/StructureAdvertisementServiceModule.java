@@ -31,7 +31,7 @@ public class StructureAdvertisementServiceModule
         return StructureAdvertisementServiceModule.class;
     }
 
-    public static LinkedHashMap<String, StructureAdvertisementServiceModule> load() {
+    public static synchronized LinkedHashMap<String, StructureAdvertisementServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAdvertisementServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

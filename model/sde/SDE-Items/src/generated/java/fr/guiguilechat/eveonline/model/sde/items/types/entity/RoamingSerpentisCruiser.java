@@ -21,7 +21,7 @@ public class RoamingSerpentisCruiser
         return RoamingSerpentisCruiser.class;
     }
 
-    public static LinkedHashMap<String, RoamingSerpentisCruiser> load() {
+    public static synchronized LinkedHashMap<String, RoamingSerpentisCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingSerpentisCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

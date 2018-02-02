@@ -144,7 +144,7 @@ public class StructureCombatRigMEWProjection
         return StructureCombatRigMEWProjection.class;
     }
 
-    public static LinkedHashMap<String, StructureCombatRigMEWProjection> load() {
+    public static synchronized LinkedHashMap<String, StructureCombatRigMEWProjection> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMEWProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -31,7 +31,7 @@ public class EncounterSurveillanceSystemBlueprint
         return EncounterSurveillanceSystemBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EncounterSurveillanceSystemBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EncounterSurveillanceSystemBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EncounterSurveillanceSystemBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

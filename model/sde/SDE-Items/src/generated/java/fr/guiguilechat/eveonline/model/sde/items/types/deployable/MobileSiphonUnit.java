@@ -137,7 +137,7 @@ public class MobileSiphonUnit
         return MobileSiphonUnit.class;
     }
 
-    public static LinkedHashMap<String, MobileSiphonUnit> load() {
+    public static synchronized LinkedHashMap<String, MobileSiphonUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileSiphonUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

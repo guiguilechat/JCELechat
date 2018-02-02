@@ -100,7 +100,7 @@ public class Crokite
         return Crokite.class;
     }
 
-    public static LinkedHashMap<String, Crokite> load() {
+    public static synchronized LinkedHashMap<String, Crokite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Crokite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

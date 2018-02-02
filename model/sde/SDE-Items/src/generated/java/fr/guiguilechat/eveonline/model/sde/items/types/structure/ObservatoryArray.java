@@ -21,7 +21,7 @@ public class ObservatoryArray
         return ObservatoryArray.class;
     }
 
-    public static LinkedHashMap<String, ObservatoryArray> load() {
+    public static synchronized LinkedHashMap<String, ObservatoryArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ObservatoryArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

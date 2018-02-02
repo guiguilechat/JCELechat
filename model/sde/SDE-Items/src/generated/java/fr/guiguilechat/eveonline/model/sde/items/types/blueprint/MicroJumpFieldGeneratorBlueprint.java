@@ -21,7 +21,7 @@ public class MicroJumpFieldGeneratorBlueprint
         return MicroJumpFieldGeneratorBlueprint.class;
     }
 
-    public static LinkedHashMap<String, MicroJumpFieldGeneratorBlueprint> load() {
+    public static synchronized LinkedHashMap<String, MicroJumpFieldGeneratorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpFieldGeneratorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

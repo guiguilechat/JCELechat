@@ -31,7 +31,7 @@ public class StructureBurstProjector
         return StructureBurstProjector.class;
     }
 
-    public static LinkedHashMap<String, StructureBurstProjector> load() {
+    public static synchronized LinkedHashMap<String, StructureBurstProjector> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureBurstProjector.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -100,7 +100,7 @@ public class DarkOchre
         return DarkOchre.class;
     }
 
-    public static LinkedHashMap<String, DarkOchre> load() {
+    public static synchronized LinkedHashMap<String, DarkOchre> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DarkOchre.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -1,13 +1,12 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools;
+package fr.guiguilechat.eveonline.programs.manager.panes.mission;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.BurnersToolPane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.BurnersToolPane;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 
-public class ToolsTab extends TabPane implements EvePane {
+public class MissionTab extends TabPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -31,9 +30,7 @@ public class ToolsTab extends TabPane implements EvePane {
 
 	BurnersToolPane bpane;
 
-	InventerToolPane invPane;
-
-	public ToolsTab(Manager parent) {
+	public MissionTab(Manager parent) {
 		this.parent = parent;
 		setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {
@@ -47,9 +44,8 @@ public class ToolsTab extends TabPane implements EvePane {
 			}
 		});
 		bpane = new BurnersToolPane(parent);
-		invPane = new InventerToolPane(parent);
-		getTabs().addAll(new Tab("burners", bpane), new Tab("invention", invPane));
-		children = new EvePane[] { bpane, invPane };
+		getTabs().addAll(new Tab("burners", bpane));
+		children = new EvePane[] { bpane };
 	}
 
 	protected boolean shown = false;

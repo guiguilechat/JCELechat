@@ -46,7 +46,7 @@ public class FrigateBlueprint
         return FrigateBlueprint.class;
     }
 
-    public static LinkedHashMap<String, FrigateBlueprint> load() {
+    public static synchronized LinkedHashMap<String, FrigateBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FrigateBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -20,7 +20,7 @@ public class WorldSpace
         return WorldSpace.class;
     }
 
-    public static LinkedHashMap<String, WorldSpace> load() {
+    public static synchronized LinkedHashMap<String, WorldSpace> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WorldSpace.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

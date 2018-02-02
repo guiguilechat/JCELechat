@@ -21,7 +21,7 @@ public class SurfaceInfrastructurePrefabUnits
         return SurfaceInfrastructurePrefabUnits.class;
     }
 
-    public static LinkedHashMap<String, SurfaceInfrastructurePrefabUnits> load() {
+    public static synchronized LinkedHashMap<String, SurfaceInfrastructurePrefabUnits> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurfaceInfrastructurePrefabUnits.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

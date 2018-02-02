@@ -21,7 +21,7 @@ public class Drugs
         return Drugs.class;
     }
 
-    public static LinkedHashMap<String, Drugs> load() {
+    public static synchronized LinkedHashMap<String, Drugs> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Drugs.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -270,7 +270,7 @@ public class LogisticsFrigate
         return LogisticsFrigate.class;
     }
 
-    public static LinkedHashMap<String, LogisticsFrigate> load() {
+    public static synchronized LinkedHashMap<String, LogisticsFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LogisticsFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

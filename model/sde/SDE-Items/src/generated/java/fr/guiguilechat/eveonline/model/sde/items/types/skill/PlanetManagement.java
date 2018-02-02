@@ -81,7 +81,7 @@ public class PlanetManagement
         return PlanetManagement.class;
     }
 
-    public static LinkedHashMap<String, PlanetManagement> load() {
+    public static synchronized LinkedHashMap<String, PlanetManagement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PlanetManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

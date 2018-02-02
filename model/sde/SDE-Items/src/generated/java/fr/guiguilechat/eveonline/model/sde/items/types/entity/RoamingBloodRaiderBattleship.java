@@ -21,7 +21,7 @@ public class RoamingBloodRaiderBattleship
         return RoamingBloodRaiderBattleship.class;
     }
 
-    public static LinkedHashMap<String, RoamingBloodRaiderBattleship> load() {
+    public static synchronized LinkedHashMap<String, RoamingBloodRaiderBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RoamingBloodRaiderBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

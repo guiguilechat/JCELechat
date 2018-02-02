@@ -21,7 +21,7 @@ public class AdministrationHub
         return AdministrationHub.class;
     }
 
-    public static LinkedHashMap<String, AdministrationHub> load() {
+    public static synchronized LinkedHashMap<String, AdministrationHub> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdministrationHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

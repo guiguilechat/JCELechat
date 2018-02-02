@@ -46,7 +46,7 @@ public class BattleshipBlueprint
         return BattleshipBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BattleshipBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BattleshipBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BattleshipBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

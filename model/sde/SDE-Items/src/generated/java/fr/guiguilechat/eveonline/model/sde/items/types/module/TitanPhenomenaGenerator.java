@@ -214,7 +214,7 @@ public class TitanPhenomenaGenerator
         return TitanPhenomenaGenerator.class;
     }
 
-    public static LinkedHashMap<String, TitanPhenomenaGenerator> load() {
+    public static synchronized LinkedHashMap<String, TitanPhenomenaGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TitanPhenomenaGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

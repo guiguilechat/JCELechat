@@ -21,7 +21,7 @@ public class GhostSitesAngelCartelCruiser
         return GhostSitesAngelCartelCruiser.class;
     }
 
-    public static LinkedHashMap<String, GhostSitesAngelCartelCruiser> load() {
+    public static synchronized LinkedHashMap<String, GhostSitesAngelCartelCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(GhostSitesAngelCartelCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

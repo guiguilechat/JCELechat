@@ -333,7 +333,7 @@ public class UnpublishedStructureModules
         return UnpublishedStructureModules.class;
     }
 
-    public static LinkedHashMap<String, UnpublishedStructureModules> load() {
+    public static synchronized LinkedHashMap<String, UnpublishedStructureModules> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UnpublishedStructureModules.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

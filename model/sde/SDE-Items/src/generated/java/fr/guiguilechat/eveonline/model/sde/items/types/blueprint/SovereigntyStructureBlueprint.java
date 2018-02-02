@@ -31,7 +31,7 @@ public class SovereigntyStructureBlueprint
         return SovereigntyStructureBlueprint.class;
     }
 
-    public static LinkedHashMap<String, SovereigntyStructureBlueprint> load() {
+    public static synchronized LinkedHashMap<String, SovereigntyStructureBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SovereigntyStructureBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

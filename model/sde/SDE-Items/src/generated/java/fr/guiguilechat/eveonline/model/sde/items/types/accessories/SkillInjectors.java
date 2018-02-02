@@ -38,7 +38,7 @@ public class SkillInjectors
         return SkillInjectors.class;
     }
 
-    public static LinkedHashMap<String, SkillInjectors> load() {
+    public static synchronized LinkedHashMap<String, SkillInjectors> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SkillInjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -340,7 +340,7 @@ public class MobileLaserSentry
         return MobileLaserSentry.class;
     }
 
-    public static LinkedHashMap<String, MobileLaserSentry> load() {
+    public static synchronized LinkedHashMap<String, MobileLaserSentry> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileLaserSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -172,7 +172,7 @@ public class Navigation
         return Navigation.class;
     }
 
-    public static LinkedHashMap<String, Navigation> load() {
+    public static synchronized LinkedHashMap<String, Navigation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Navigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

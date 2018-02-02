@@ -21,7 +21,7 @@ public class AsteroidMordusLegionCommanderFrigate
         return AsteroidMordusLegionCommanderFrigate.class;
     }
 
-    public static LinkedHashMap<String, AsteroidMordusLegionCommanderFrigate> load() {
+    public static synchronized LinkedHashMap<String, AsteroidMordusLegionCommanderFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AsteroidMordusLegionCommanderFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

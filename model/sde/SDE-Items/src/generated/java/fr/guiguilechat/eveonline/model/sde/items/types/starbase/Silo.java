@@ -137,7 +137,7 @@ public class Silo
         return Silo.class;
     }
 
-    public static LinkedHashMap<String, Silo> load() {
+    public static synchronized LinkedHashMap<String, Silo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Silo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -21,7 +21,7 @@ public class Corporation
         return Corporation.class;
     }
 
-    public static LinkedHashMap<String, Corporation> load() {
+    public static synchronized LinkedHashMap<String, Corporation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Corporation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

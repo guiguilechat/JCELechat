@@ -21,7 +21,7 @@ public class MissionGenericSupercarrier
         return MissionGenericSupercarrier.class;
     }
 
-    public static LinkedHashMap<String, MissionGenericSupercarrier> load() {
+    public static synchronized LinkedHashMap<String, MissionGenericSupercarrier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissionGenericSupercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class TractorBeamBlueprint
         return TractorBeamBlueprint.class;
     }
 
-    public static LinkedHashMap<String, TractorBeamBlueprint> load() {
+    public static synchronized LinkedHashMap<String, TractorBeamBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TractorBeamBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

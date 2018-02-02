@@ -31,7 +31,7 @@ public class EntosisLinkBlueprint
         return EntosisLinkBlueprint.class;
     }
 
-    public static LinkedHashMap<String, EntosisLinkBlueprint> load() {
+    public static synchronized LinkedHashMap<String, EntosisLinkBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EntosisLinkBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

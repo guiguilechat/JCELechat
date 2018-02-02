@@ -21,7 +21,7 @@ public class MinorThreat
         return MinorThreat.class;
     }
 
-    public static LinkedHashMap<String, MinorThreat> load() {
+    public static synchronized LinkedHashMap<String, MinorThreat> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MinorThreat.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

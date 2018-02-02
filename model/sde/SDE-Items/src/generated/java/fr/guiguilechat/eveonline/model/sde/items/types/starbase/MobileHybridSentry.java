@@ -340,7 +340,7 @@ public class MobileHybridSentry
         return MobileHybridSentry.class;
     }
 
-    public static LinkedHashMap<String, MobileHybridSentry> load() {
+    public static synchronized LinkedHashMap<String, MobileHybridSentry> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileHybridSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

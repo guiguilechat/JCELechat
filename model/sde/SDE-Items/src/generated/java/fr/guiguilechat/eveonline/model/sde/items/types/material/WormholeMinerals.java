@@ -38,7 +38,7 @@ public class WormholeMinerals
         return WormholeMinerals.class;
     }
 
-    public static LinkedHashMap<String, WormholeMinerals> load() {
+    public static synchronized LinkedHashMap<String, WormholeMinerals> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WormholeMinerals.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

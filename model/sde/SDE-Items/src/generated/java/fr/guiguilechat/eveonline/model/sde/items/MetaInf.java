@@ -47,7 +47,7 @@ public class MetaInf {
         return MetaInf.getItem(MetaInf.load().id2name.get(id));
     }
 
-    public static MetaInf load() {
+    public static synchronized MetaInf load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MetaInf.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), MetaInf.class);

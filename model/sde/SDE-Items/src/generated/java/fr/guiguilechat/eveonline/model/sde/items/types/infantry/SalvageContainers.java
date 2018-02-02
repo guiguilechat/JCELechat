@@ -21,7 +21,7 @@ public class SalvageContainers
         return SalvageContainers.class;
     }
 
-    public static LinkedHashMap<String, SalvageContainers> load() {
+    public static synchronized LinkedHashMap<String, SalvageContainers> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SalvageContainers.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

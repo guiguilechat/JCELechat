@@ -21,7 +21,7 @@ public class Stargate
         return Stargate.class;
     }
 
-    public static LinkedHashMap<String, Stargate> load() {
+    public static synchronized LinkedHashMap<String, Stargate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Stargate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

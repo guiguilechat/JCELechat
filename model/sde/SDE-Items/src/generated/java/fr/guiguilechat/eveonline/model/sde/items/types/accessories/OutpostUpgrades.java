@@ -21,7 +21,7 @@ public class OutpostUpgrades
         return OutpostUpgrades.class;
     }
 
-    public static LinkedHashMap<String, OutpostUpgrades> load() {
+    public static synchronized LinkedHashMap<String, OutpostUpgrades> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OutpostUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

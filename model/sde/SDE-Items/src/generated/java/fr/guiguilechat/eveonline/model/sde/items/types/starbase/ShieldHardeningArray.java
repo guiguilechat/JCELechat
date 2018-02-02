@@ -165,7 +165,7 @@ public class ShieldHardeningArray
         return ShieldHardeningArray.class;
     }
 
-    public static LinkedHashMap<String, ShieldHardeningArray> load() {
+    public static synchronized LinkedHashMap<String, ShieldHardeningArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldHardeningArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

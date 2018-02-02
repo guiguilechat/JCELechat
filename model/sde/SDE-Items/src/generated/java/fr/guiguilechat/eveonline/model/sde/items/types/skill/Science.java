@@ -158,7 +158,7 @@ public class Science
         return Science.class;
     }
 
-    public static LinkedHashMap<String, Science> load() {
+    public static synchronized LinkedHashMap<String, Science> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Science.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

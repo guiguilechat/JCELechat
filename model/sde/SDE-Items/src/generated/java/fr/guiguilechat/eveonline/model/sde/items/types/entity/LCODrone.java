@@ -21,7 +21,7 @@ public class LCODrone
         return LCODrone.class;
     }
 
-    public static LinkedHashMap<String, LCODrone> load() {
+    public static synchronized LinkedHashMap<String, LCODrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LCODrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

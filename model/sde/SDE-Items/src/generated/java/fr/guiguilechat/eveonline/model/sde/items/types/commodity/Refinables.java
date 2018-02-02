@@ -21,7 +21,7 @@ public class Refinables
         return Refinables.class;
     }
 
-    public static LinkedHashMap<String, Refinables> load() {
+    public static synchronized LinkedHashMap<String, Refinables> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Refinables.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

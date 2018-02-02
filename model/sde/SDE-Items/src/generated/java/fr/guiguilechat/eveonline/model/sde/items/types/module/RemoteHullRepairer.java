@@ -102,7 +102,7 @@ public class RemoteHullRepairer
         return RemoteHullRepairer.class;
     }
 
-    public static LinkedHashMap<String, RemoteHullRepairer> load() {
+    public static synchronized LinkedHashMap<String, RemoteHullRepairer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteHullRepairer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

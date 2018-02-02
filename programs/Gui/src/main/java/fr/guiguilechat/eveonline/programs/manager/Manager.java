@@ -32,10 +32,11 @@ import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.api.APIPane;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.IndustryTab;
+import fr.guiguilechat.eveonline.programs.manager.panes.mission.MissionTab;
 import fr.guiguilechat.eveonline.programs.manager.panes.provision.ProvisionPane;
 import fr.guiguilechat.eveonline.programs.manager.panes.status.StatusPane;
 import fr.guiguilechat.eveonline.programs.manager.panes.team.TeamsPane;
-import fr.guiguilechat.eveonline.programs.manager.panes.tools.ToolsTab;
 import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -78,11 +79,12 @@ public class Manager extends Application implements EvePane {
 	protected ProvisionPane provisionpane = new ProvisionPane(this);
 	protected TeamsPane teamPane = new TeamsPane(this);
 	protected APIPane apiPane = new APIPane(this);
-	protected ToolsTab toolsPane = new ToolsTab(this);
+	protected IndustryTab industryPane = new IndustryTab(this);
+	protected MissionTab missionPane = new MissionTab(this);
 	protected TabPane tabs;
-	protected Tab statustab, provisiontab, teamtab, apitab, tooltab;
+	protected Tab statustab, provisiontab, teamtab, apitab, indusTab, missiontab;
 
-	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane, toolsPane };
+	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane, missionPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
@@ -104,8 +106,9 @@ public class Manager extends Application implements EvePane {
 		provisiontab = new Tab("provision", provisionpane);
 		teamtab = new Tab("teams", teamPane);
 		apitab = new Tab("apis", apiPane);
-		tooltab = new Tab("tools", toolsPane);
-		tabs = new TabPane(statustab, provisiontab, tooltab, teamtab, apitab);
+		indusTab = new Tab("industry", industryPane);
+		missiontab = new Tab("mission", missionPane);
+		tabs = new TabPane(statustab, provisiontab, indusTab, missiontab, teamtab, apitab);
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.setSide(Side.LEFT);
 		tabs.getSelectionModel().selectedItemProperty().addListener((ov, old, now) -> {

@@ -21,7 +21,7 @@ public class FWCaldariStateDestroyer
         return FWCaldariStateDestroyer.class;
     }
 
-    public static LinkedHashMap<String, FWCaldariStateDestroyer> load() {
+    public static synchronized LinkedHashMap<String, FWCaldariStateDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FWCaldariStateDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

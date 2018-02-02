@@ -123,7 +123,7 @@ public class StructureCompositeReactorRigMTE
         return StructureCompositeReactorRigMTE.class;
     }
 
-    public static LinkedHashMap<String, StructureCompositeReactorRigMTE> load() {
+    public static synchronized LinkedHashMap<String, StructureCompositeReactorRigMTE> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCompositeReactorRigMTE.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

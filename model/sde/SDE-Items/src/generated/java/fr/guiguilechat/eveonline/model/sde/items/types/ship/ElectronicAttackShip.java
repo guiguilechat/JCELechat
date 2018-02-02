@@ -256,7 +256,7 @@ public class ElectronicAttackShip
         return ElectronicAttackShip.class;
     }
 
-    public static LinkedHashMap<String, ElectronicAttackShip> load() {
+    public static synchronized LinkedHashMap<String, ElectronicAttackShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicAttackShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

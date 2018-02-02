@@ -298,7 +298,7 @@ public class Battleship
         return Battleship.class;
     }
 
-    public static LinkedHashMap<String, Battleship> load() {
+    public static synchronized LinkedHashMap<String, Battleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Battleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

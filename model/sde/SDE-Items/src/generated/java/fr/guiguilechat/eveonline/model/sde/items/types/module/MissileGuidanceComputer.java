@@ -144,7 +144,7 @@ public class MissileGuidanceComputer
         return MissileGuidanceComputer.class;
     }
 
-    public static LinkedHashMap<String, MissileGuidanceComputer> load() {
+    public static synchronized LinkedHashMap<String, MissileGuidanceComputer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

@@ -39,7 +39,7 @@ public class BurstJammerBlueprint
         return BurstJammerBlueprint.class;
     }
 
-    public static LinkedHashMap<String, BurstJammerBlueprint> load() {
+    public static synchronized LinkedHashMap<String, BurstJammerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BurstJammerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

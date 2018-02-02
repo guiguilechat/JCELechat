@@ -21,7 +21,7 @@ public class HiddenZenithCaldariBattleship
         return HiddenZenithCaldariBattleship.class;
     }
 
-    public static LinkedHashMap<String, HiddenZenithCaldariBattleship> load() {
+    public static synchronized LinkedHashMap<String, HiddenZenithCaldariBattleship> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HiddenZenithCaldariBattleship.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

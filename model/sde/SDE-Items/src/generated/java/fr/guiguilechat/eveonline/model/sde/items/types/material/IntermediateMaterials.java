@@ -31,7 +31,7 @@ public class IntermediateMaterials
         return IntermediateMaterials.class;
     }
 
-    public static LinkedHashMap<String, IntermediateMaterials> load() {
+    public static synchronized LinkedHashMap<String, IntermediateMaterials> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IntermediateMaterials.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

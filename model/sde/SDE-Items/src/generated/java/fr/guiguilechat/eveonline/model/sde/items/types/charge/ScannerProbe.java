@@ -144,7 +144,7 @@ public class ScannerProbe
         return ScannerProbe.class;
     }
 
-    public static LinkedHashMap<String, ScannerProbe> load() {
+    public static synchronized LinkedHashMap<String, ScannerProbe> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

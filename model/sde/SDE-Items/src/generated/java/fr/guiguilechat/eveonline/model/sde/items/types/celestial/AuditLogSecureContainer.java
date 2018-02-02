@@ -65,7 +65,7 @@ public class AuditLogSecureContainer
         return AuditLogSecureContainer.class;
     }
 
-    public static LinkedHashMap<String, AuditLogSecureContainer> load() {
+    public static synchronized LinkedHashMap<String, AuditLogSecureContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AuditLogSecureContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

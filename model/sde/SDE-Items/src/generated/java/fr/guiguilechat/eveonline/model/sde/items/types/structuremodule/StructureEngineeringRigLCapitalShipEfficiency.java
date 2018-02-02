@@ -165,7 +165,7 @@ public class StructureEngineeringRigLCapitalShipEfficiency
         return StructureEngineeringRigLCapitalShipEfficiency.class;
     }
 
-    public static LinkedHashMap<String, StructureEngineeringRigLCapitalShipEfficiency> load() {
+    public static synchronized LinkedHashMap<String, StructureEngineeringRigLCapitalShipEfficiency> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigLCapitalShipEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

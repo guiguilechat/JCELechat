@@ -137,7 +137,7 @@ public class Armor
         return Armor.class;
     }
 
-    public static LinkedHashMap<String, Armor> load() {
+    public static synchronized LinkedHashMap<String, Armor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Armor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

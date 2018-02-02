@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms;
+package fr.guiguilechat.eveonline.programs.manager.panes.mission.burners.algorithms;
 
 import java.util.Arrays;
 import java.util.HashMap;

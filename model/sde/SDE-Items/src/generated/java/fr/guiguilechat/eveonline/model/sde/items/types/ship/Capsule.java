@@ -38,7 +38,7 @@ public class Capsule
         return Capsule.class;
     }
 
-    public static LinkedHashMap<String, Capsule> load() {
+    public static synchronized LinkedHashMap<String, Capsule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Capsule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

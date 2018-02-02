@@ -123,7 +123,7 @@ public class RigDrones
         return RigDrones.class;
     }
 
-    public static LinkedHashMap<String, RigDrones> load() {
+    public static synchronized LinkedHashMap<String, RigDrones> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigDrones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

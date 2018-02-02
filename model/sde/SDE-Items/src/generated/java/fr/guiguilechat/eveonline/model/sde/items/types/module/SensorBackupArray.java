@@ -88,7 +88,7 @@ public class SensorBackupArray
         return SensorBackupArray.class;
     }
 
-    public static LinkedHashMap<String, SensorBackupArray> load() {
+    public static synchronized LinkedHashMap<String, SensorBackupArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorBackupArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;

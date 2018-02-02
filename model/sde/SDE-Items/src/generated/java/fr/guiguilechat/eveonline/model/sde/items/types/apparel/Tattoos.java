@@ -21,7 +21,7 @@ public class Tattoos
         return Tattoos.class;
     }
 
-    public static LinkedHashMap<String, Tattoos> load() {
+    public static synchronized LinkedHashMap<String, Tattoos> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Tattoos.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
