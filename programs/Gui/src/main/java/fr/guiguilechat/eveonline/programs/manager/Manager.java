@@ -28,8 +28,9 @@ import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
-import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
+import fr.guiguilechat.eveonline.model.sde.locations.Station;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
@@ -163,8 +164,6 @@ public class Manager extends Application implements EvePane {
 
 	protected void precache() {
 		db().getAgents();
-		db.getLocations();
-		db.getStations();
 		db.getMetaInfs();
 		db.getLPOffers();
 		db.getModules();
@@ -196,44 +195,6 @@ public class Manager extends Application implements EvePane {
 	public void onDelTeam(String name) {
 		cachedTeamAssets.remove(name);
 	}
-
-	// @Override
-	// public void onTeamAddSystem(String team, String systemName) {
-	// if (team == null) {
-	// return;
-	// }
-	// // for each character of the team, we get the assets of this character on
-	// // the given location and we add them to the team assets.
-	// HashMap<Integer, Long> itemsGains = new HashMap<>();
-	// streamTeamCharacters(team).forEach(c -> {
-	// Map<String, Map<Integer, Long>> charItems = getCharAssets(c);
-	// if (charItems != null) {
-	// Map<Integer, Long> locItems = charItems.get(systemName);
-	// for (Entry<Integer, Long> e : locItems.entrySet()) {
-	// itemsGains.put(e.getKey(), itemsGains.getOrDefault(e.getKey(), 0l) +
-	// e.getValue());
-	// }
-	// }
-	// });
-	// Map<Integer, Long> storedItemsValues = cachedTeamAssets.get(team);
-	// if (storedItemsValues == null) {
-	// storedItemsValues = itemsGains;
-	// cachedTeamAssets.put(team, storedItemsValues);
-	// } else {
-	// for (Entry<Integer, Long> e : itemsGains.entrySet()) {
-	// long newval = e.getValue() + storedItemsValues.getOrDefault(e.getKey(),
-	// 0l);
-	// if (newval != 0) {
-	// storedItemsValues.put(e.getKey(), newval);
-	// } else {
-	// storedItemsValues.remove(e.getKey());
-	// }
-	// }
-	// }
-	// if (!itemsGains.isEmpty()) {
-	// propagateTeamNewItems(team, itemsGains);
-	// }
-	// }
 
 	// external calls
 	// modification of the settings
@@ -604,14 +565,14 @@ public class Manager extends Application implements EvePane {
 
 	/** get the name of a station's system */
 	protected String getStationSystem(long stationId) {
+		Station station = Station.load().get(Station.loadById().get((int) stationId));
 		String system = null;
-		Station station = db().getStationById().get(stationId);
 		if (station != null) {
-			system = station.system;
+			system = station.solarSystem;
 		} else {
 			EStation estat = db().eve().stationsByID().get(stationId);
 			if (estat != null) {
-				system = db().getLocationById().get((int) estat.solarSystemID).name;
+				system = SolarSystem.loadById().get((int) estat.solarSystemID);
 			}
 		}
 		return system;

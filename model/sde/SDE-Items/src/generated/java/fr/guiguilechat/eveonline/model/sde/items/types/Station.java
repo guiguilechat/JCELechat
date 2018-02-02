@@ -81,6 +81,6 @@ public abstract class Station
     }
 
     public static Map<String, ? extends Station> loadCategory() {
-        return Stream.of(fr.guiguilechat.eveonline.model.sde.items.types.station.Station.load(), StationServices.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(StationServices.load(), fr.guiguilechat.eveonline.model.sde.items.types.station.Station.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

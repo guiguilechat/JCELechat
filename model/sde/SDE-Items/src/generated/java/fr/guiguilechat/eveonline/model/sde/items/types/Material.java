@@ -35,6 +35,6 @@ public abstract class Material
     }
 
     public static Map<String, ? extends Material> loadCategory() {
-        return Stream.of(NamedComponents.load(), WormholeMinerals.load(), IceProduct.load(), HybridPolymers.load(), GasIsotopes.load(), Composite.load(), IntermediateMaterials.load(), BiochemicalMaterial.load(), AncientSalvage.load(), SalvagedMaterials.load(), RogueDroneComponents.load(), MoonMaterials.load(), Money.load(), FuelBlock.load(), Mineral.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(HybridPolymers.load(), FuelBlock.load(), MoonMaterials.load(), IntermediateMaterials.load(), AncientSalvage.load(), Composite.load(), NamedComponents.load(), IceProduct.load(), Mineral.load(), BiochemicalMaterial.load(), Money.load(), SalvagedMaterials.load(), WormholeMinerals.load(), GasIsotopes.load(), RogueDroneComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

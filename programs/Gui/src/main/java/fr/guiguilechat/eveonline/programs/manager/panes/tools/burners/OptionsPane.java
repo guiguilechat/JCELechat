@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.tools.burners;
 
-import java.util.Map;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
@@ -76,8 +75,8 @@ public class OptionsPane extends BorderPane implements EvePane {
 		marketPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 
 		// add all the regions to the choicebox
-		parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null).map(Map.Entry::getKey)
-		.forEachOrdered(regionMarket.getItems()::add);
+		fr.guiguilechat.eveonline.model.sde.locations.Region.load().values()
+				.forEach(r -> regionMarket.getItems().add(r.name));
 		regionMarket.getItems().sort(String::compareToIgnoreCase);
 		regionMarket.getSelectionModel().select(parent().settings.burners.region);
 		marketPane.addRow(0, new Label("market region"), regionMarket);

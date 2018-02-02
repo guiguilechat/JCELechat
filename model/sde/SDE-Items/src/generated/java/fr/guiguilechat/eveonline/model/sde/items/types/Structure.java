@@ -356,6 +356,6 @@ public abstract class Structure
     }
 
     public static Map<String, ? extends Structure> loadCategory() {
-        return Stream.of(Refinery.load(), Stargate.load(), NPCForwardOperatingBase.load(), EngineeringComplex.load(), NPCEngineeringComplex.load(), AdvertisementCenter.load(), ObservatoryArray.load(), Citadel.load(), Laboratory.load(), AdministrationHub.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AdvertisementCenter.load(), NPCEngineeringComplex.load(), Laboratory.load(), AdministrationHub.load(), Stargate.load(), EngineeringComplex.load(), Refinery.load(), NPCForwardOperatingBase.load(), Citadel.load(), ObservatoryArray.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

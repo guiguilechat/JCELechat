@@ -16,4 +16,14 @@ public class ALocation {
 
 	public String name;
 
+	@Override
+	public boolean equals(Object obj) {
+		return this == obj || obj != null && obj.getClass().equals(getClass()) && ((ALocation) obj).id == id;
+	}
+
+	@Override
+	public int hashCode() {
+		return id;
+	}
+
 }

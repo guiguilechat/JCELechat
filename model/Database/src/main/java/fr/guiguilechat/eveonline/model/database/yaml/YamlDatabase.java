@@ -7,11 +7,9 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
 
 import org.slf4j.Logger;
@@ -177,49 +175,6 @@ public class YamlDatabase extends EveDatabase {
 		return metainfs;
 	}
 
-	protected LinkedHashMap<String, Location> locations = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Location> getLocations() {
-		if (locations == null) {
-			logger.debug("loading locations");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_LOCATION_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				locations = db.locations;
-				HashMap<String, Location> added = new LinkedHashMap<>();
-				for (Entry<String, Location> e : locations.entrySet()) {
-					String newName = e.getKey().toLowerCase();
-					if (!newName.equals(e.getKey())) {
-						added.put(newName, e.getValue());
-					}
-				}
-				locations.putAll(added);
-			} else {
-				System.err.println("can't load locations");
-				locations = new LinkedHashMap<>();
-			}
-		}
-		return locations;
-	}
-
-	protected LinkedHashMap<String, Station> stations = null;
-
-	@Override
-	public synchronized LinkedHashMap<String, Station> getStations() {
-		if (stations == null) {
-			logger.debug("loading stations");
-			InputStream stream = DatabaseFile.class.getResourceAsStream("/" + SDEDumper.DB_STATIONS_RES);
-			DatabaseFile db = stream != null ? load(stream) : null;
-			if (db != null) {
-				stations = db.stations;
-			} else {
-				System.err.println("can't load stations");
-				stations = new LinkedHashMap<>();
-			}
-		}
-		return stations;
-	}
 
 	protected ArrayList<LPOffer> lpoffers = null;
 

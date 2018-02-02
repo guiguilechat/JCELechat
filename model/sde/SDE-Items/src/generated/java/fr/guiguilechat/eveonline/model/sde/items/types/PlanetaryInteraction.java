@@ -27,6 +27,6 @@ public abstract class PlanetaryInteraction
     }
 
     public static Map<String, ? extends PlanetaryInteraction> loadCategory() {
-        return Stream.of(Extractors.load(), StorageFacilities.load(), ExtractorControlUnits.load(), CommandCenters.load(), Spaceports.load(), PlanetaryLinks.load(), Processors.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(CommandCenters.load(), Spaceports.load(), Extractors.load(), Processors.load(), StorageFacilities.load(), PlanetaryLinks.load(), ExtractorControlUnits.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

@@ -284,6 +284,6 @@ public abstract class Fighter
     }
 
     public static Map<String, ? extends Fighter> loadCategory() {
-        return Stream.of(HeavyFighter.load(), LightFighter.load(), SupportFighter.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(SupportFighter.load(), LightFighter.load(), HeavyFighter.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

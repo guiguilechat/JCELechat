@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -33,6 +34,20 @@ public class Region extends ALocation {
 			}
 		}
 		return cache;
+	}
+
+	private static Map<Integer, String> loadById = null;
+
+	public static Map<Integer, String> loadById() {
+		if (loadById == null) {
+			LinkedHashMap<String, Region> mcache = load();
+			synchronized (mcache) {
+				if (loadById == null) {
+					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+				}
+			}
+		}
+		return loadById;
 	}
 
 	public static void export(LinkedHashMap<String, Region> data, File folderout) {
@@ -78,5 +93,10 @@ public class Region extends ALocation {
 	// structure
 
 	public ArrayList<String> constellations = new ArrayList<>();
+
+	/** stream the systems names in a region */
+	public Stream<String> system() {
+		return constellations.stream().map(Constellation.load()::get).flatMap(c -> c.systems.stream());
+	}
 
 }

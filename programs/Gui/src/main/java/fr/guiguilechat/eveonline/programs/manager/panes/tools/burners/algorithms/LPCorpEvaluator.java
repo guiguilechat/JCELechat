@@ -19,6 +19,7 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.locations.Region;
 
 
 /**
@@ -114,7 +115,7 @@ public class LPCorpEvaluator {
 	}
 
 	public LPCorpEvaluator withMarket(String region) {
-		market = ESIConnection.DISCONNECTED.markets.getMarket(db.getLocation(region).locationID);
+		market = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get(region).id);
 		cachedLists.clear();
 		return this;
 	}

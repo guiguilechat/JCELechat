@@ -5,17 +5,19 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.PrintStream;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Set;
 import java.util.function.ToIntFunction;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.database.locations.Distances;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.sde.locations.Constellation;
+import fr.guiguilechat.eveonline.model.sde.locations.Distances;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 
 public class AnalyzeBurnersDest {
 
@@ -46,7 +48,7 @@ public class AnalyzeBurnersDest {
 	public void analyze(String[] args) throws FileNotFoundException {
 
 		YamlDatabase db = new YamlDatabase();
-		Distances d = new Distances(db);
+		Distances d = new Distances();
 		File inDir = new File(args[0]);
 		HashMap<String, Integer> types2index = new HashMap<>();
 		for (int idx = 0; idx < types.length; idx++) {
@@ -54,6 +56,8 @@ public class AnalyzeBurnersDest {
 		}
 		File outputDir = new File("src/main/resources/");
 		outputDir.mkdirs();
+		LinkedHashMap<String, SolarSystem> systems = SolarSystem.load();
+		LinkedHashMap<String, Constellation> constels = Constellation.load();
 
 		for (File textFile : inDir.listFiles()) {
 			if (!textFile.isFile()) {
@@ -61,20 +65,40 @@ public class AnalyzeBurnersDest {
 			}
 			AnalyzeBurnersDest an = new AnalyzeBurnersDest();
 			an.load(textFile);
-			System.err.println(an.system);
 
 			PrintStream ps = new PrintStream(new File(outputDir, an.system + ".csv"));
+			System.out.println(an.system);
 
-			Set<String> dests = an.dest2counts.keySet();
+			SolarSystem origin = systems.get(system);
+
+			ArrayList<String> possibleSystemNames = new ArrayList<>();
+			ArrayList<Integer> possibleSystemCJumps = new ArrayList<>();
+			ArrayList<Integer> possibleSystemJumps = new ArrayList<>();
+			// for each system of the constellation
+			for (String sname : constels.get(origin.constellation).systems) {
+				possibleSystemNames.add(sname);
+				possibleSystemCJumps.add(0);
+				possibleSystemJumps.add(d.distJumps(origin, systems.get(sname)));
+			}
+			// for each neighbourgh constellation
+			for (String cname : constels.get(origin.constellation).adjacentConstellations) {
+				for (String sname : constels.get(cname).systems) {
+					possibleSystemNames.add(sname);
+					possibleSystemCJumps.add(1);
+					possibleSystemJumps.add(d.distJumps(origin, systems.get(sname)));
+				}
+			}
+
 
 			ps.println(an.system);
 			ps.print(offsetTypeData);
-			for (String name : dests) {
+			for (String name : possibleSystemNames) {
 				ps.print(separator + name);
 			}
 			ps.println();
 
-			int[] systemDistances = dests.stream().mapToInt(n -> d.distJumps(n, an.system)).toArray();
+			int[] systemDistances = possibleSystemJumps.stream().mapToInt(i -> i).toArray();
+			int[] constelDistances = possibleSystemCJumps.stream().mapToInt(i -> i).toArray();
 			ps.print(offsetTypeData + "jumps:");
 			for (int dst : systemDistances) {
 				ps.print(separator + dst);
@@ -82,38 +106,20 @@ public class AnalyzeBurnersDest {
 			ps.println();
 
 
-			int[] constelsDistances = dests.stream().mapToInt(n -> d.distConstels(n, an.system)).toArray();
-			ps.print(offsetTypeData + "constels:");
-			for (int dst : constelsDistances) {
-				ps.print(separator + dst);
-			}
-
-			ps.println();
-
 			ps.println();
 			ps.println("type" + separator + "count" + separator + "avgdst" + separator + "maxdst" + separator + "constels"
 					+ separator);
 			for (String type : types) {
 				int idx = types2index.get(type);
-				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelsDistances);
+				printDestData(ps, type, an.dest2counts.values().stream(), t -> t[idx], systemDistances, constelDistances);
 			}
 
-			ps.println();
-
-			printDestData(ps, "agent", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(0).limit(5).sum(),
-					systemDistances, constelsDistances);
-			printDestData(ps, "base", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(5).limit(4).sum(),
-					systemDistances, constelsDistances);
-			printDestData(ps, "team", an.dest2counts.values().stream(), t -> IntStream.of(t).skip(9).limit(4).sum(),
-					systemDistances, constelsDistances);
-			printDestData(ps, "all", an.dest2counts.values().stream(), t -> IntStream.of(t).sum(), systemDistances,
-					constelsDistances);
 			ps.println();
 
 			ps.println("probability /1000");
 			int allnb = an.dest2counts.values().stream().flatMapToInt(i -> IntStream.of(i)).sum();
 			printDestData(ps, "all", an.dest2counts.values().stream(), t -> 1000 * IntStream.of(t).sum() / allnb,
-					systemDistances, constelsDistances);
+					systemDistances, constelDistances);
 
 			ps.close();
 		}
@@ -134,22 +140,19 @@ public class AnalyzeBurnersDest {
 	 *          destination table "counts".
 	 */
 	protected void printDestData(PrintStream ps, String name, Stream<int[]> system2typeIdxCount,
-			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelsDistances) {
+			ToIntFunction<int[]> mapper, int[] systemDistances, int[] constelDistances) {
 		ps.print(name);
 		int[] systemCount = system2typeIdxCount.mapToInt(mapper).toArray();
-		int total = 0, totaldst = 0, maxdst = 0, totalcstl = 0;
+		int total = 0, totaldst = 0, maxdst = 0;
 		for (int i = 0; i < systemCount.length; i++) {
 			total += systemCount[i];
 			if (systemCount[i] > 0) {
 				maxdst = Math.max(maxdst, systemDistances[i]);
 			}
 			totaldst += systemCount[i] * systemDistances[i];
-			totalcstl += systemCount[i] * constelsDistances[i];
 		}
 		ps.print(separator + total);
 		ps.print(separator + (total > 0 ? df.format(1.0 * totaldst / total) : 0));
-		ps.print(separator + maxdst);
-		ps.print(separator + (total > 0 ? df.format(totalcstl * 1.0 / total) : 0));
 		ps.print(separator);
 
 		for (int i : systemCount) {

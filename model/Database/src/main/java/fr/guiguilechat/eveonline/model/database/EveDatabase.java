@@ -13,10 +13,8 @@ import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
-import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
-import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 
 public abstract class EveDatabase {
@@ -27,44 +25,7 @@ public abstract class EveDatabase {
 
 	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
-	public abstract LinkedHashMap<String, Location> getLocations();
-
-	public abstract LinkedHashMap<String, Station> getStations();
-
-	public String normalizeLocName(String name) {
-		return name.replaceAll(" ", "").toLowerCase();
-	}
-
-	public Location getLocation(String name) {
-		if (name == null) {
-			return null;
-		}
-		return getLocations().get(normalizeLocName(name));
-	}
-
 	protected HashSet<String> hubsNames = null;
-
-	/**
-	 *
-	 * @param locName
-	 *          name of a location
-	 * @return true iff corresponding system/constel/region has a hub. for system,
-	 *         true iff system IS hub.
-	 */
-	public boolean containsHub(String locName) {
-		locName = normalizeLocName(locName);
-		if (hubsNames == null) {
-			hubsNames = new HashSet<>();
-			for (String sysName : new String[] { "hek", "jita", "amarr", "dodixie" }) {
-				hubsNames.add(sysName);
-				String constName = normalizeLocName(getLocation(sysName).parentConstellation);
-				hubsNames.add(constName);
-				String regName = normalizeLocName(getLocation(constName).parentRegion);
-				hubsNames.add(regName);
-			}
-		}
-		return hubsNames.contains(normalizeLocName(locName));
-	}
 
 	public abstract LinkedHashMap<String, MetaInf> getMetaInfs();
 
@@ -106,38 +67,6 @@ public abstract class EveDatabase {
 		return getTypeByName(getElementById(id));
 	}
 
-
-	// locations
-
-	protected HashMap<Integer, Location> locationsById = null;
-
-	public HashMap<Integer, Location> getLocationById() {
-		LinkedHashMap<String, Location> locations = getLocations();
-		synchronized (this) {
-			if (locationsById == null) {
-				locationsById = new HashMap<>();
-				for (Entry<String, Location> e : locations.entrySet()) {
-					locationsById.put(e.getValue().locationID, e.getValue());
-				}
-			}
-		}
-		return locationsById;
-	}
-
-	protected HashMap<Long, Station> stationsById = null;
-
-	public HashMap<Long, Station> getStationById() {
-		LinkedHashMap<String, Station> stations = getStations();
-		synchronized (this) {
-			if (stationsById == null) {
-				stationsById = new HashMap<>();
-				for (Entry<String, Station> e : stations.entrySet()) {
-					stationsById.put(e.getValue().stationId, e.getValue());
-				}
-			}
-		}
-		return stationsById;
-	}
 
 	protected final Eve eve = new Eve();
 

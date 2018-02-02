@@ -3,12 +3,12 @@ package fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams.TARGETDECRYPTOR;
@@ -103,9 +103,11 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 				throw new UnsupportedOperationException();
 			}
 		});
-		List<String> regions = parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null)
-				.map(Map.Entry::getKey).sorted(String::compareToIgnoreCase)
-				.filter(s -> !(s.charAt(0) >= 'a' && s.charAt(0) <= 'z')).collect(Collectors.toList());
+		List<String> regions = Region.load().values().stream().filter(r -> !r.isWormhole).map(r -> r.name)
+				.collect(Collectors.toList());
+		//		 = parent.db().getLocations().entrySet().stream().filter(e -> e.getValue().parentRegion == null)
+		//				.map(Map.Entry::getKey).sorted(String::compareToIgnoreCase)
+		//				.filter(s -> !(s.charAt(0) >= 'a' && s.charAt(0) <= 'z')).collect(Collectors.toList());
 		marketRegion = new ChoiceBoxRepresentation<>(
 				() -> regions.stream().filter(r -> r.equals(settings.marketRegion)).findAny().orElse("TheForge"),
 				settings::setMarketRegion,

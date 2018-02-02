@@ -25,8 +25,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.yaml</groupId>
-			<artifactId>snakeyaml</artifactId>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Tools</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>

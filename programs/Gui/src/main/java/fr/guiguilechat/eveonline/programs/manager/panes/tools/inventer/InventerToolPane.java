@@ -13,6 +13,7 @@ import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventionGainAlgorithm.InventionProdData;
@@ -185,7 +186,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
 
 				RegionalMarket market = ESIConnection.DISCONNECTED.markets
-						.getMarket(db().getLocation(parent().settings.invention.marketRegion).locationID);
+						.getMarket(Region.load().get(parent().settings.invention.marketRegion).id);
 
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())

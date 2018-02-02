@@ -34,6 +34,20 @@ public class SolarSystem extends ALocation {
 		return cache;
 	}
 
+	private static Map<Integer, String> loadById = null;
+
+	public static Map<Integer, String> loadById() {
+		if (loadById == null) {
+			LinkedHashMap<String, SolarSystem> mcache = load();
+			synchronized (mcache) {
+				if (loadById == null) {
+					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+				}
+			}
+		}
+		return loadById;
+	}
+
 	public static void export(LinkedHashMap<String, SolarSystem> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
@@ -84,6 +98,16 @@ public class SolarSystem extends ALocation {
 	public boolean isBorder = false;
 	public boolean isFringe = false;
 	public boolean isHub = false;
+
+	// helper
+
+	public boolean isHS() {
+		return truesec > 0.45;
+	}
+
+	public boolean isLS() {
+		return 0 < truesec && truesec <= 0.45;
+	}
 
 
 }

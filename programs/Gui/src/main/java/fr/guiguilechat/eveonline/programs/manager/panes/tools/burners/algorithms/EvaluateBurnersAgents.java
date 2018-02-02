@@ -13,6 +13,7 @@ import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.programs.manager.Settings.MissionStats;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.LPCorpEvaluator.OfferAnalysis;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.burners.algorithms.SysBurnerEvaluator.SystemData;
@@ -101,7 +102,7 @@ public class EvaluateBurnersAgents {
 
 	public boolean isHSSystem(String sysname) {
 		try {
-			return db.getLocation(sysname).minSec > 0.45;
+			return SolarSystem.load().get(sysname).truesec > 0.45;
 		} catch (Exception e) {
 			System.err.println("can't find system " + sysname + " " + e);
 			return false;
