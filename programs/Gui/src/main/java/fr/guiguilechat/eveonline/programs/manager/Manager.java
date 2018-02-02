@@ -162,8 +162,6 @@ public class Manager extends Application implements EvePane {
 	}
 
 	protected void precache() {
-		db.getModules();
-		db.getHulls();
 	}
 
 	protected void checkAPIOrSetOptionsTab() {

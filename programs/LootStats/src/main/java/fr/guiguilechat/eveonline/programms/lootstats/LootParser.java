@@ -16,7 +16,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 
@@ -78,25 +77,16 @@ public class LootParser {
 						state = 0;
 					} else {
 						String[] tokens = line.split("\\t");
-						Type t = evedb.getTypeByName(tokens[0]);
+						Item t = MetaInf.getItem(tokens[0]);
 						if (t == null) {
-							Item m = MetaInf.getItem(tokens[0]);
-							if (m != null) {
-								t = new Type();
-								t.catName = "";
-								t.groupName = "";
-								t.name = tokens[0];
-								t.id = m.id;
-								t.volume = m.volume;
-							} else if (undecoded.add(tokens[0])) {
+							if (undecoded.add(tokens[0])) {
 								if (!isFilenamePrinted) {
 									logger.debug("in file " + lootFile.getAbsolutePath());
 									isFilenamePrinted = true;
 								}
 								logger.debug("can't decode " + tokens[0]);
 							}
-						}
-						if (t != null) {
+						} else {
 							Integer nb = entry.loots.get(t.id);
 							if (tokens[1].length() > 0) {
 								nb = Integer.parseInt(tokens[1].replaceAll("[^\\d]", "")) + (nb == null ? 0 : nb);
