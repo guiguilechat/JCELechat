@@ -27,6 +27,6 @@ public abstract class Reaction
     }
 
     public static Map<String, ? extends Reaction> loadCategory() {
-        return Stream.of(ComplexReactions.load(), SimpleReaction.load(), SimpleBiochemicalReactions.load(), EnslavementPrograms.load(), HybridReactions.load(), ComplexBiochemicalReactions.load(), FreedomPrograms.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(ComplexBiochemicalReactions.load(), ComplexReactions.load(), EnslavementPrograms.load(), FreedomPrograms.load(), HybridReactions.load(), SimpleBiochemicalReactions.load(), SimpleReaction.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

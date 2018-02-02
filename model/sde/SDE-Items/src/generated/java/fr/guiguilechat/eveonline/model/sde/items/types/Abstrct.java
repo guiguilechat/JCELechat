@@ -24,6 +24,6 @@ public abstract class Abstrct
     }
 
     public static Map<String, ? extends Abstrct> loadCategory() {
-        return Stream.of(Audio.load(), Miscellaneous.load(), PerceptionPoints.load(), Decorations.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Audio.load(), Decorations.load(), Miscellaneous.load(), PerceptionPoints.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

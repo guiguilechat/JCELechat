@@ -41,6 +41,6 @@ public abstract class PlanetaryCommodities
     }
 
     public static Map<String, ? extends PlanetaryCommodities> loadCategory() {
-        return Stream.of(RefinedCommodities.load(), AdvancedCommodities.load(), SpecializedCommodities.load(), BasicCommodities.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AdvancedCommodities.load(), BasicCommodities.load(), RefinedCommodities.load(), SpecializedCommodities.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

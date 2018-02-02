@@ -24,6 +24,6 @@ public abstract class SpecialEditionAssets
     }
 
     public static Map<String, ? extends SpecialEditionAssets> loadCategory() {
-        return Stream.of(FestivalChargesExpired.load(), SpecialEditionCommodities.load(), TournamentCardsNewEdenOpenYC114 .load(), TournamentCardsAllianceTournamentAllStars.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(FestivalChargesExpired.load(), SpecialEditionCommodities.load(), TournamentCardsAllianceTournamentAllStars.load(), TournamentCardsNewEdenOpenYC114 .load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

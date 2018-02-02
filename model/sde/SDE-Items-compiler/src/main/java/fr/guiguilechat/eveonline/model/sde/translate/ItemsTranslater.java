@@ -55,7 +55,7 @@ public class ItemsTranslater {
 		long startTime = System.currentTimeMillis();
 		JCodeModel cm = classes.model;
 		makeLoadMethod(classes.metaInfClass, cm, "SDE/items/metainf.yaml", false);
-		DynamicClassLoader cl = new DynamicClassLoader(getClass().getClassLoader()).withCode(cm);
+		DynamicClassLoader cl = new DynamicClassLoader(ItemsTranslater.class.getClassLoader()).withCode(cm);
 		// filepath->item name -> object
 		// eg mycategory/mygroup.yaml -> item1-> new MyGroup()
 		HashMap<String, LinkedHashMap<String, Object>> exportItems = new HashMap<>();
@@ -197,11 +197,13 @@ public class ItemsTranslater {
 		for (Entry<JDefinedClass, Set<JDefinedClass>> e : classes.cat2Groups.entrySet()) {
 			JDefinedClass cat = e.getKey();
 			Set<JDefinedClass> groups = e.getValue();
+			ArrayList<JDefinedClass> groupsL = new ArrayList<>(groups);
+			Collections.sort(groupsL, (cl1, cl2) -> cl1.name().compareTo(cl2.name()));
 			AbstractJClass retType = cm.ref(Map.class).narrow(cm.ref(String.class), cat.wildcardExtends());
 			JMethod loadMeth = cat.method(JMod.PUBLIC | JMod.STATIC, retType, "loadCategory");
 			JInvocation stream = cm.ref(Stream.class).staticInvoke("of");
 			boolean catHasElements = false;
-			for (JDefinedClass group : groups) {
+			for (JDefinedClass group : groupsL) {
 				boolean groupHashElements = group.getMethod("load", new AbstractJType[0]) != null;
 				if (groupHashElements) {
 					stream = stream.arg(group.staticInvoke("load"));

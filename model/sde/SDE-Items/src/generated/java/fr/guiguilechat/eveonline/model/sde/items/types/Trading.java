@@ -21,6 +21,6 @@ public abstract class Trading
     }
 
     public static Map<String, ? extends Trading> loadCategory() {
-        return Stream.of(fr.guiguilechat.eveonline.model.sde.items.types.trading.Trading.load(), TradeSession.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(TradeSession.load(), fr.guiguilechat.eveonline.model.sde.items.types.trading.Trading.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

@@ -27,16 +27,21 @@
   			<artifactId>ESI</artifactId>
   			<version>0.7.4</version>
   		</dependency>
+  		<dependency>
+  			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  			<artifactId>SDE-Full</artifactId>
+  			<version>${modelversion}</version>
+  		</dependency>
   	</dependencies>
   </dependencyManagement>
   <properties>
   	<model-version>18.01.10</model-version>
+  	<modelversion>2.1.1</modelversion>
   </properties>
   <dependencies>
   	<dependency>
   		<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
   		<artifactId>SDE-Full</artifactId>
-  		<version>18.01.10</version>
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.eveonline.model</groupId>

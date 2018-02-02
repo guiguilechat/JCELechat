@@ -26,6 +26,6 @@ public abstract class SuperKerrInducedNanocoatings
     }
 
     public static Map<String, ? extends SuperKerrInducedNanocoatings> loadCategory() {
-        return Stream.of(Max1YearSKIN.load(), VolatileSKIN.load(), Max30DaySKIN.load(), Max90DaySKIN.load(), Max7DaySKIN.load(), PermanentSKIN.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Max1YearSKIN.load(), Max30DaySKIN.load(), Max7DaySKIN.load(), Max90DaySKIN.load(), PermanentSKIN.load(), VolatileSKIN.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }
