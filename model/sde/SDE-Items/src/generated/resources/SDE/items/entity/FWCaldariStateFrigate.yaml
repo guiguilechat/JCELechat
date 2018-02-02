@@ -1,3 +1,5 @@
 items:
   State Frigate:
+    id: 32914
     name: State Frigate
+    volume: 20250.0

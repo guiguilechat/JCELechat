@@ -10,7 +10,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 442
     name: Cargo Scanner I
+    volume: 5.0
   Cargo Scanner II:
     CapacitorNeed: 4.0
     CargoScanRange: 70000
@@ -22,7 +24,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     TechLevel: 2
+    id: 2038
     name: Cargo Scanner II
+    volume: 5.0
   Interior Type-E Cargo Identifier:
     CapacitorNeed: 4.0
     CargoScanRange: 65000
@@ -34,7 +38,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 6133
     name: Interior Type-E Cargo Identifier
+    volume: 5.0
   PL-0 Scoped Cargo Scanner:
     CapacitorNeed: 4.0
     CargoScanRange: 65000
@@ -46,7 +52,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 6135
     name: PL-0 Scoped Cargo Scanner
+    volume: 5.0
   Surface Cargo Scanner I:
     CapacitorNeed: 4.0
     CargoScanRange: 60000
@@ -58,7 +66,9 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 6129
     name: Surface Cargo Scanner I
+    volume: 5.0
   Type-E Enduring Cargo Scanner:
     CapacitorNeed: 3.0
     CargoScanRange: 55000
@@ -70,4 +80,6 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 6131
     name: Type-E Enduring Cargo Scanner
+    volume: 5.0

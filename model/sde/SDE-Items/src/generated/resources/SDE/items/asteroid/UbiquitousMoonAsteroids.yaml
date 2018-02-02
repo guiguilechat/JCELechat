@@ -7,7 +7,9 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 45492
     name: Bitumens
+    volume: 10.0
   Brimful Bitumens:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -16,7 +18,9 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46284
     name: Brimful Bitumens
+    volume: 10.0
   Brimful Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -25,7 +29,9 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46286
     name: Brimful Coesite
+    volume: 10.0
   Brimful Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -34,7 +40,9 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46282
     name: Brimful Sylvite
+    volume: 10.0
   Brimful Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -43,7 +51,9 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46280
     name: Brimful Zeolites
+    volume: 10.0
   Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -52,7 +62,9 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 45493
     name: Coesite
+    volume: 10.0
   Glistening Bitumens:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -61,7 +73,9 @@ items:
     OreBasicType: 45492
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46285
     name: Glistening Bitumens
+    volume: 10.0
   Glistening Coesite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -70,7 +84,9 @@ items:
     OreBasicType: 45493
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46287
     name: Glistening Coesite
+    volume: 10.0
   Glistening Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -79,7 +95,9 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46283
     name: Glistening Sylvite
+    volume: 10.0
   Glistening Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -88,7 +106,9 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 46281
     name: Glistening Zeolites
+    volume: 10.0
   Sylvite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -97,7 +117,9 @@ items:
     OreBasicType: 45491
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 45491
     name: Sylvite
+    volume: 10.0
   Zeolites:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -106,4 +128,6 @@ items:
     OreBasicType: 45490
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
+    id: 45490
     name: Zeolites
+    volume: 10.0

@@ -1,34 +1,54 @@
 items:
   '''Augmented'' Ice Harvesting Drone Blueprint':
     TechLevel: 1
+    id: 43913
     name: '''Augmented'' Ice Harvesting Drone Blueprint'
+    volume: 0.01
   '''Augmented'' Mining Drone Blueprint':
     TechLevel: 1
+    id: 43914
     name: '''Augmented'' Mining Drone Blueprint'
+    volume: 0.01
   '''Excavator'' Ice Harvesting Drone Blueprint':
     TechLevel: 1
+    id: 43916
     name: '''Excavator'' Ice Harvesting Drone Blueprint'
+    volume: 0.01
   '''Excavator'' Mining Drone Blueprint':
     TechLevel: 1
+    id: 43915
     name: '''Excavator'' Mining Drone Blueprint'
+    volume: 0.01
   Civilian Mining Drone Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 1218
     name: Civilian Mining Drone Blueprint
+    volume: 0.01
   Harvester Mining Drone Blueprint:
     TechLevel: 1
+    id: 43934
     name: Harvester Mining Drone Blueprint
+    volume: 0.01
   Ice Harvesting Drone I Blueprint:
     TechLevel: 1
+    id: 43911
     name: Ice Harvesting Drone I Blueprint
+    volume: 0.01
   Ice Harvesting Drone II Blueprint:
     TechLevel: 1
+    id: 43912
     name: Ice Harvesting Drone II Blueprint
+    volume: 0.01
   Mining Drone I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 10247
     name: Mining Drone I Blueprint
+    volume: 0.01
   Mining Drone II Blueprint:
     IndustryBlueprintRank: 5.0
     TechLevel: 2
+    id: 10251
     name: Mining Drone II Blueprint
+    volume: 0.01

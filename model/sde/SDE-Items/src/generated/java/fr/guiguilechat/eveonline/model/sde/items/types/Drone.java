@@ -167,6 +167,6 @@ public abstract class Drone
     }
 
     public static Map<String, ? extends Drone> loadCategory() {
-        return Stream.of(ElectronicWarfareDrone.load(), MiningDrone.load(), LogisticDrone.load(), WarpScramblingDrone.load(), EnergyNeutralizerDrone.load(), StasisWebifyingDrone.load(), CombatDrone.load(), SalvageDrone.load(), RepairDrone.load(), UnanchoringDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(LogisticDrone.load(), EnergyNeutralizerDrone.load(), CombatDrone.load(), WarpScramblingDrone.load(), ElectronicWarfareDrone.load(), StasisWebifyingDrone.load(), SalvageDrone.load(), MiningDrone.load(), RepairDrone.load(), UnanchoringDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

@@ -1,91 +1,151 @@
 items:
   Sleeve - 'Drone' (left):
     Gender: 2
+    id: 33377
     name: Sleeve - 'Drone' (left)
+    volume: 0.1
   Sleeve - 'Drone' (right):
     Gender: 2
+    id: 33381
     name: Sleeve - 'Drone' (right)
+    volume: 0.1
   Sleeve - 'Nature' (left):
     Gender: 2
+    id: 33380
     name: Sleeve - 'Nature' (left)
+    volume: 0.1
   Sleeve - 'Nature' (right):
     Gender: 2
+    id: 33384
     name: Sleeve - 'Nature' (right)
+    volume: 0.1
   Sleeve - 'Prototype' (left):
     Gender: 2
+    id: 33379
     name: Sleeve - 'Prototype' (left)
+    volume: 0.1
   Sleeve - 'Prototype' (right):
     Gender: 2
+    id: 33383
     name: Sleeve - 'Prototype' (right)
+    volume: 0.1
   Sleeve - 'Wreckage' (left):
     Gender: 2
+    id: 33378
     name: Sleeve - 'Wreckage' (left)
+    volume: 0.1
   Sleeve - 'Wreckage' (right):
     Gender: 2
+    id: 33382
     name: Sleeve - 'Wreckage' (right)
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve01/Types/Sleeve01_F_Left.type:
     Gender: 2
+    id: 33995
     name: Tattoo/ArmLeft/Sleeve01/Types/Sleeve01_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve02/Types/Sleeve02_F_Left.type:
     Gender: 2
+    id: 33996
     name: Tattoo/ArmLeft/Sleeve02/Types/Sleeve02_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve03/Types/Sleeve03_F_Left.type:
     Gender: 2
+    id: 33997
     name: Tattoo/ArmLeft/Sleeve03/Types/Sleeve03_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve06/Types/Sleeve06_F_Left.type:
     Gender: 2
+    id: 33998
     name: Tattoo/ArmLeft/Sleeve06/Types/Sleeve06_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve07/Types/Sleeve07_F_Left.type:
     Gender: 2
+    id: 33999
     name: Tattoo/ArmLeft/Sleeve07/Types/Sleeve07_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve09/Types/Sleeve09_F_Left.type:
     Gender: 2
+    id: 34000
     name: Tattoo/ArmLeft/Sleeve09/Types/Sleeve09_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve10/Types/Sleeve10_F_Left.type:
     Gender: 2
+    id: 34001
     name: Tattoo/ArmLeft/Sleeve10/Types/Sleeve10_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve11/Types/Sleeve11_F_Left.type:
     Gender: 2
+    id: 34002
     name: Tattoo/ArmLeft/Sleeve11/Types/Sleeve11_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve12/Types/Sleeve12_F_Left.type:
     Gender: 2
+    id: 34003
     name: Tattoo/ArmLeft/Sleeve12/Types/Sleeve12_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve13/Types/Sleeve13_F_Left.type:
     Gender: 2
+    id: 34004
     name: Tattoo/ArmLeft/Sleeve13/Types/Sleeve13_F_Left.type
+    volume: 0.1
   Tattoo/ArmLeft/Sleeve15/Types/Sleeve15_F_Left.type:
     Gender: 2
+    id: 34005
     name: Tattoo/ArmLeft/Sleeve15/Types/Sleeve15_F_Left.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve01/Type/Sleeve01_F_Right.type:
     Gender: 2
+    id: 34006
     name: Tattoo/ArmRight/Sleeve01/Type/Sleeve01_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve02/Type/Sleeve02_F_Right.type:
     Gender: 2
+    id: 34007
     name: Tattoo/ArmRight/Sleeve02/Type/Sleeve02_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve03/Type/Sleeve03_F_Right.type:
     Gender: 2
+    id: 34008
     name: Tattoo/ArmRight/Sleeve03/Type/Sleeve03_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve06/Type/Sleeve06_F_Right.type:
     Gender: 2
+    id: 34009
     name: Tattoo/ArmRight/Sleeve06/Type/Sleeve06_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve07/Type/Sleeve07_F_Right.type:
     Gender: 2
+    id: 34010
     name: Tattoo/ArmRight/Sleeve07/Type/Sleeve07_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve09/Type/Sleeve09_F_Right.type:
     Gender: 2
+    id: 34011
     name: Tattoo/ArmRight/Sleeve09/Type/Sleeve09_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve10/Type/Sleeve10_F_Right.type:
     Gender: 2
+    id: 34012
     name: Tattoo/ArmRight/Sleeve10/Type/Sleeve10_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve11/Type/Sleeve11_F_Right.type:
     Gender: 2
+    id: 34013
     name: Tattoo/ArmRight/Sleeve11/Type/Sleeve11_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve12/Type/Sleeve12_F_Right.type:
     Gender: 2
+    id: 34014
     name: Tattoo/ArmRight/Sleeve12/Type/Sleeve12_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve13/Type/Sleeve13_F_Right.type:
     Gender: 2
+    id: 34015
     name: Tattoo/ArmRight/Sleeve13/Type/Sleeve13_F_Right.type
+    volume: 0.1
   Tattoo/ArmRight/Sleeve15/Type/Sleeve15_F_Right.type:
     Gender: 2
+    id: 34016
     name: Tattoo/ArmRight/Sleeve15/Type/Sleeve15_F_Right.type
+    volume: 0.1

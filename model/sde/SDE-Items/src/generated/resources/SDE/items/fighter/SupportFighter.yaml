@@ -10,7 +10,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 45651
     name: Able_PLACEHOLDER
+    volume: 1.0
   Cenobite I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -47,7 +49,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 37599
     name: Cenobite I
+    volume: 3000.0
   Cenobite II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -85,7 +89,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40568
     name: Cenobite II
+    volume: 3000.0
   Dromi I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -122,7 +128,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40347
     name: Dromi I
+    volume: 3000.0
   Dromi II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -160,7 +168,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40571
     name: Dromi II
+    volume: 3000.0
   Scarab I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -200,7 +210,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40345
     name: Scarab I
+    volume: 3000.0
   Scarab II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -241,7 +253,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40569
     name: Scarab II
+    volume: 3000.0
   Siren I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -277,7 +291,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40346
     name: Siren I
+    volume: 3000.0
   Siren II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -314,7 +330,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40570
     name: Siren II
+    volume: 3000.0
   Standup Siren I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -350,4 +368,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 47037
     name: Standup Siren I
+    volume: 6000.0

@@ -1,13 +1,25 @@
 items:
   Dread Guristas Assassin:
+    id: 23352
     name: Dread Guristas Assassin
+    volume: 101000.0
   Dread Guristas Assaulter:
+    id: 23351
     name: Dread Guristas Assaulter
+    volume: 101000.0
   Dread Guristas Death Dealer:
+    id: 23353
     name: Dread Guristas Death Dealer
+    volume: 101000.0
   Dread Guristas Enforcer:
+    id: 23350
     name: Dread Guristas Enforcer
+    volume: 101000.0
   Dread Guristas Executor:
+    id: 23349
     name: Dread Guristas Executor
+    volume: 101000.0
   Dread Guristas Revolter:
+    id: 23354
     name: Dread Guristas Revolter
+    volume: 101000.0

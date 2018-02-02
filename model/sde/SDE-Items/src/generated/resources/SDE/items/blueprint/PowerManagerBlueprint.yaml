@@ -2,92 +2,138 @@ items:
   '''Cartel'' Power Diagnostic System I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22954
     name: '''Cartel'' Power Diagnostic System I Blueprint'
+    volume: 0.01
   '''Motte'' Capacitor Power Relay I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23897
     name: '''Motte'' Capacitor Power Relay I Blueprint'
+    volume: 0.01
   '''Page'' Capacitor Flux Coil I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23895
     name: '''Page'' Capacitor Flux Coil I Blueprint'
+    volume: 0.01
   '''Portcullis'' Reactor Control Unit I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 23899
     name: '''Portcullis'' Reactor Control Unit I Blueprint'
+    volume: 0.01
   Ammatar Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 17511
     name: Ammatar Navy Capacitor Power Relay Blueprint
+    volume: 0.01
   Ammatar Navy Power Diagnostic System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 17525
     name: Ammatar Navy Power Diagnostic System Blueprint
+    volume: 0.01
   Ammatar Navy Reactor Control Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 17523
     name: Ammatar Navy Reactor Control Unit Blueprint
+    volume: 0.01
   Caldari Navy Power Diagnostic System Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 31953
     name: Caldari Navy Power Diagnostic System Blueprint
+    volume: 0.01
   Capacitor Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1247
     name: Capacitor Flux Coil I Blueprint
+    volume: 0.01
   Capacitor Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1249
     name: Capacitor Flux Coil II Blueprint
+    volume: 0.01
   Capacitor Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1446
     name: Capacitor Power Relay I Blueprint
+    volume: 0.01
   Capacitor Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1448
     name: Capacitor Power Relay II Blueprint
+    volume: 0.01
   Imperial Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 17529
     name: Imperial Navy Capacitor Power Relay Blueprint
+    volume: 0.01
   Khanid Navy Capacitor Power Relay Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28533
     name: Khanid Navy Capacitor Power Relay Blueprint
+    volume: 0.01
   Power Diagnostic System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1540
     name: Power Diagnostic System I Blueprint
+    volume: 0.01
   Power Diagnostic System II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1542
     name: Power Diagnostic System II Blueprint
+    volume: 0.01
   Reactor Control Unit I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1354
     name: Reactor Control Unit I Blueprint
+    volume: 0.01
   Reactor Control Unit II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1356
     name: Reactor Control Unit II Blueprint
+    volume: 0.01
   Shield Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1255
     name: Shield Flux Coil I Blueprint
+    volume: 0.01
   Shield Flux Coil II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1257
     name: Shield Flux Coil II Blueprint
+    volume: 0.01
   Shield Power Relay I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 2332
     name: Shield Power Relay I Blueprint
+    volume: 0.01
   Shield Power Relay II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1423
     name: Shield Power Relay II Blueprint
+    volume: 0.01
   Syndicate Reactor Control Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 28777
     name: Syndicate Reactor Control Unit Blueprint
+    volume: 0.01

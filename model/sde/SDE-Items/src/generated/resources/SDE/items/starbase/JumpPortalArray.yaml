@@ -32,7 +32,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 60000
     Uniformity: 0.75
+    id: 27897
     name: Jump Bridge
+    volume: 100000.0
   QA Jump Bridge:
     AnchoringDelay: 1000
     AnchoringSecurityLevelMax: 1.0
@@ -66,4 +68,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 1000
     Uniformity: 0.75
+    id: 4359
     name: QA Jump Bridge
+    volume: 1.0

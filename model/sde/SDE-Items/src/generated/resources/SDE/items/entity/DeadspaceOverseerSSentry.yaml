@@ -1,51 +1,99 @@
 items:
   '''True Power'' Assembly Security HQ':
+    id: 19955
     name: '''True Power'' Assembly Security HQ'
+    volume: 1000.0
   Angel Central Command:
+    id: 25524
     name: Angel Central Command
   Angel Fleet Outpost:
+    id: 28998
     name: Angel Fleet Outpost
   Angel Retention Facility:
+    id: 18631
     name: Angel Retention Facility
+    volume: 1000.0
   Blood Raider Central Bastion:
+    id: 3795
     name: Blood Raider Central Bastion
+    volume: 1000.0
   Blood Raider Fleet Outpost:
+    id: 29022
     name: Blood Raider Fleet Outpost
+    volume: 1000.0
   Blood Raider Fleet Stronghold:
+    id: 25559
     name: Blood Raider Fleet Stronghold
+    volume: 1000.0
   Crimson Sentinel:
+    id: 17993
     name: Crimson Sentinel
+    volume: 1000.0
   Drone Creation Compound:
+    id: 25472
     name: Drone Creation Compound
+    volume: 1.0E8
   Guristas Fleet Outpost:
+    id: 29021
     name: Guristas Fleet Outpost
+    volume: 1000.0
   Guristas Fleet Stronghold:
+    id: 25528
     name: Guristas Fleet Stronghold
+    volume: 1000.0
   Hive mother 2_Complex:
+    id: 26275
     name: Hive mother 2_Complex
+    volume: 1000.0
   Kois City:
+    id: 25809
     name: Kois City
+    volume: 1000.0
   Kuari Strain Mother:
+    id: 28510
     name: Kuari Strain Mother
+    volume: 1000.0
   Outgrowth Strain Mother:
+    id: 19707
     name: Outgrowth Strain Mother
+    volume: 1000.0
   Outgrowth Strain Mother_00COSMOS:
+    id: 25805
     name: Outgrowth Strain Mother_00COSMOS
+    volume: 1000.0
   Rakogh Citadel:
+    id: 25866
     name: Rakogh Citadel
+    volume: 1000.0
   Sansha Fleet Outpost:
+    id: 29023
     name: Sansha Fleet Outpost
+    volume: 1000.0
   Sansha's Nation Central Bastion:
+    id: 3805
     name: Sansha's Nation Central Bastion
+    volume: 1000.0
   Serpentis Administration Facility:
+    id: 3809
     name: Serpentis Administration Facility
+    volume: 1000.0
   Serpentis Fleet Outpost:
+    id: 29020
     name: Serpentis Fleet Outpost
+    volume: 1000.0
   Serpentis Fleet Stronghold:
+    id: 18630
     name: Serpentis Fleet Stronghold
+    volume: 1000.0
   Station Ultima:
+    id: 19961
     name: Station Ultima
+    volume: 1000.0
   Swarm Defense Battery:
+    id: 19703
     name: Swarm Defense Battery
+    volume: 1000.0
   Swarm Defense Battery Deluxe:
+    id: 28508
     name: Swarm Defense Battery Deluxe
+    volume: 1000.0

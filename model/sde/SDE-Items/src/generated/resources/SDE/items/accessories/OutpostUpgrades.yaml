@@ -1,7 +1,13 @@
 items:
   Rank 1 Upgrade:
+    id: 28183
     name: Rank 1 Upgrade
+    volume: 1.0
   Rank 2 Upgrade:
+    id: 28184
     name: Rank 2 Upgrade
+    volume: 1.0
   Rank 3 Upgrade:
+    id: 28185
     name: Rank 3 Upgrade
+    volume: 1.0

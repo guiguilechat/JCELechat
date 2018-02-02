@@ -1,1359 +1,2699 @@
 items:
   '''Angerstar'' Rail Rifle':
+    id: 365456
     name: '''Angerstar'' Rail Rifle'
+    volume: 0.01
   '''Arcflare'' DAU-2/A Forge Gun':
+    id: 353150
     name: '''Arcflare'' DAU-2/A Forge Gun'
+    volume: 0.01
   '''Arson'' AT-1 Missile Launcher':
+    id: 355762
     name: '''Arson'' AT-1 Missile Launcher'
+    volume: 0.01
   '''Ashborne'' Scrambler Rifle':
+    id: 363848
     name: '''Ashborne'' Scrambler Rifle'
+    volume: 0.01
   '''Avalanche'' Freedom Mass Driver':
+    id: 355265
     name: '''Avalanche'' Freedom Mass Driver'
+    volume: 0.01
   '''Backscatter'' Freedom Forge Gun':
+    id: 353155
     name: '''Backscatter'' Freedom Forge Gun'
+    volume: 0.01
   '''Banshee'' C-7 Flux Grenade':
+    id: 355598
     name: '''Banshee'' C-7 Flux Grenade'
+    volume: 0.01
   '''Bedlam'' M512-A Submachine Gun':
+    id: 353132
     name: '''Bedlam'' M512-A Submachine Gun'
+    volume: 0.01
   '''Black Eagle'' Assault Rifle':
+    id: 364201
     name: '''Black Eagle'' Assault Rifle'
   '''Black Eagle'' Shotgun':
+    id: 364200
     name: '''Black Eagle'' Shotgun'
+    volume: 0.01
   '''Blackprey'' ZN-28 Nova Knives':
+    id: 364787
     name: '''Blackprey'' ZN-28 Nova Knives'
+    volume: 0.01
   '''Blastwave'' 9K330 Forge Gun':
+    id: 353149
     name: '''Blastwave'' 9K330 Forge Gun'
+    volume: 0.01
   '''Bleakanchor'' SL-4 Assault Rail Rifle':
+    id: 365458
     name: '''Bleakanchor'' SL-4 Assault Rail Rifle'
+    volume: 0.01
   '''Blindfire'' Assault Rifle':
+    id: 353108
     name: '''Blindfire'' Assault Rifle'
+    volume: 0.01
   '''Blisterrain'' Six Kin Assault Combat Rifle':
+    id: 365455
     name: '''Blisterrain'' Six Kin Assault Combat Rifle'
+    volume: 0.01
   '''Bloodgrail'' Viziam Scrambler Rifle':
+    id: 363850
     name: '''Bloodgrail'' Viziam Scrambler Rifle'
+    volume: 0.01
   '''Brimstone'' ST-1 Missile Launcher':
+    id: 355761
     name: '''Brimstone'' ST-1 Missile Launcher'
+    volume: 0.01
   '''Broadside'' MH-82 Heavy Machine Gun':
+    id: 355262
     name: '''Broadside'' MH-82 Heavy Machine Gun'
+    volume: 0.01
   '''Burnscar'' Khanid Scrambler Pistol':
+    id: 353207
     name: '''Burnscar'' Khanid Scrambler Pistol'
+    volume: 0.01
   '''Burnstalk'' Laser Rifle':
+    id: 363394
     name: '''Burnstalk'' Laser Rifle'
+    volume: 0.01
   '''Calisto'' 20GJ Neutron Blaster':
+    id: 355742
     name: '''Calisto'' 20GJ Neutron Blaster'
+    volume: 0.01
   '''Carnifax'' Locus Grenade':
+    id: 356116
     name: '''Carnifax'' Locus Grenade'
+    volume: 0.01
   '''Cavity'' M2 Contact Locus Grenade':
+    id: 353698
     name: '''Cavity'' M2 Contact Locus Grenade'
+    volume: 0.01
   '''Cerberus'' CRG-3 Shotgun':
+    id: 355260
     name: '''Cerberus'' CRG-3 Shotgun'
+    volume: 0.01
   '''Charstone'' Plasma Cannon':
+    id: 363357
     name: '''Charstone'' Plasma Cannon'
+    volume: 0.01
   '''Chimera'' Shotgun':
+    id: 355497
     name: '''Chimera'' Shotgun'
+    volume: 0.01
   '''Chokegrin'' Kaalakiota Magsec SMG':
+    id: 365569
     name: '''Chokegrin'' Kaalakiota Magsec SMG'
+    volume: 0.01
   '''Cinder'' XT-1 Missile Launcher':
+    id: 355763
     name: '''Cinder'' XT-1 Missile Launcher'
+    volume: 0.01
   '''Codewish'' Duvolle Tactical Assault Rifle':
+    id: 353117
     name: '''Codewish'' Duvolle Tactical Assault Rifle'
+    volume: 0.01
   '''Construct'' Allotek Plasma Cannon':
+    id: 365635
     name: '''Construct'' Allotek Plasma Cannon'
+    volume: 0.01
   '''Construct'' Boundless Heavy Machine Gun':
+    id: 365631
     name: '''Construct'' Boundless Heavy Machine Gun'
+    volume: 0.01
   '''Construct'' Core Flaylock Pistol':
+    id: 365634
     name: '''Construct'' Core Flaylock Pistol'
+    volume: 0.01
   '''Construct'' CreoDron Shotgun':
+    id: 365629
     name: '''Construct'' CreoDron Shotgun'
+    volume: 0.01
   '''Construct'' Duvolle Assault Rifle':
+    id: 365623
     name: '''Construct'' Duvolle Assault Rifle'
+    volume: 0.01
   '''Construct'' Freedom Mass Driver':
+    id: 365632
     name: '''Construct'' Freedom Mass Driver'
+    volume: 0.01
   '''Construct'' Imperial Scrambler Rifle':
+    id: 365633
     name: '''Construct'' Imperial Scrambler Rifle'
+    volume: 0.01
   '''Construct'' Ishukone Nova Knives':
+    id: 365636
     name: '''Construct'' Ishukone Nova Knives'
+    volume: 0.01
   '''Construct'' Ishukone Sniper Rifle':
+    id: 365626
     name: '''Construct'' Ishukone Sniper Rifle'
+    volume: 0.01
   '''Construct'' Kaalakiota Forge Gun':
+    id: 365625
     name: '''Construct'' Kaalakiota Forge Gun'
+    volume: 0.01
   '''Construct'' Six Kin Submachine Gun':
+    id: 365624
     name: '''Construct'' Six Kin Submachine Gun'
+    volume: 0.01
   '''Construct'' Viziam Laser Rifle':
+    id: 365630
     name: '''Construct'' Viziam Laser Rifle'
+    volume: 0.01
   '''Construct'' Viziam Scrambler Pistol':
+    id: 365628
     name: '''Construct'' Viziam Scrambler Pistol'
+    volume: 0.01
   '''Construct'' Wiyrkomi Swarm Launcher':
+    id: 365627
     name: '''Construct'' Wiyrkomi Swarm Launcher'
+    volume: 0.01
   '''Corona'' Ishukone Sniper Rifle':
+    id: 353173
     name: '''Corona'' Ishukone Sniper Rifle'
+    volume: 0.01
   '''Covenant'' Sniper Rifle':
+    id: 356839
     name: '''Covenant'' Sniper Rifle'
+    volume: 0.01
   '''Crawtide'' Ishukone Assault Rail Rifle':
+    id: 365460
     name: '''Crawtide'' Ishukone Assault Rail Rifle'
+    volume: 0.01
   '''Cyclone'' EXO-5 Mass Driver':
+    id: 355264
     name: '''Cyclone'' EXO-5 Mass Driver'
+    volume: 0.01
   '''Daemon'' Shotgun':
+    id: 356115
     name: '''Daemon'' Shotgun'
+    volume: 0.01
   '''Darkside'' CBR7 Swarm Launcher':
+    id: 353185
     name: '''Darkside'' CBR7 Swarm Launcher'
+    volume: 0.01
   '''Darkvein'' Seeker Flaylock':
+    id: 363782
     name: '''Darkvein'' Seeker Flaylock'
   '''Deadflood'' Allotek Plasma Cannon':
+    id: 363359
     name: '''Deadflood'' Allotek Plasma Cannon'
+    volume: 0.01
   '''Deathchorus'' ELM-7 Laser Rifle':
+    id: 363395
     name: '''Deathchorus'' ELM-7 Laser Rifle'
+    volume: 0.01
   '''Doomcradle'' BK-42 Assault Combat Rifle':
+    id: 365453
     name: '''Doomcradle'' BK-42 Assault Combat Rifle'
+    volume: 0.01
   '''Downwind'' C15-A Tactical Sniper Rifle':
+    id: 353168
     name: '''Downwind'' C15-A Tactical Sniper Rifle'
+    volume: 0.01
   '''Dren'' Assault Rifle':
+    id: 356837
     name: '''Dren'' Assault Rifle'
+    volume: 0.01
   '''Dren'' Scrambler Pistol':
+    id: 356835
     name: '''Dren'' Scrambler Pistol'
+    volume: 0.01
   '''Dren'' Shotgun':
+    id: 356831
     name: '''Dren'' Shotgun'
+    volume: 0.01
   '''Dren'' Swarm Launcher':
+    id: 356833
     name: '''Dren'' Swarm Launcher'
+    volume: 0.01
   '''Exile'' Assault Rifle':
+    id: 356913
     name: '''Exile'' Assault Rifle'
+    volume: 0.01
   '''Farsight'' Sniper Rifle':
+    id: 353163
     name: '''Farsight'' Sniper Rifle'
+    volume: 0.01
   '''Fearcrop'' Boundless Combat Rifle':
+    id: 365454
     name: '''Fearcrop'' Boundless Combat Rifle'
+    volume: 0.01
   '''Flashbow'' CAR-9 Burst Scrambler Pistol':
+    id: 353202
     name: '''Flashbow'' CAR-9 Burst Scrambler Pistol'
+    volume: 0.01
   '''Fleshriver'' Ishukone Nova Knives':
+    id: 364788
     name: '''Fleshriver'' Ishukone Nova Knives'
+    volume: 0.01
   '''Gargoyle'' Freedom Burst Submachine Gun':
+    id: 353137
     name: '''Gargoyle'' Freedom Burst Submachine Gun'
+    volume: 0.01
   '''Genesis'' NT-511 Sniper Rifle':
+    id: 353167
     name: '''Genesis'' NT-511 Sniper Rifle'
+    volume: 0.01
   '''Golem'' Heavy Machine Gun':
+    id: 355498
     name: '''Golem'' Heavy Machine Gun'
+    volume: 0.01
   '''Gomorrah'' 80GJ Particle Cannon':
+    id: 355753
     name: '''Gomorrah'' 80GJ Particle Cannon'
+    volume: 0.01
   '''Gorewreck'' GK-13 Burst Assault Rifle':
+    id: 353112
     name: '''Gorewreck'' GK-13 Burst Assault Rifle'
+    volume: 0.01
   '''Gravepin'' N7-A Magsec SMG':
+    id: 365568
     name: '''Gravepin'' N7-A Magsec SMG'
+    volume: 0.01
   '''Grimcell'' SB-39 Rail Rifle':
+    id: 365457
     name: '''Grimcell'' SB-39 Rail Rifle'
+    volume: 0.01
   '''Grimlock'' Guristas Assault Forge Gun':
+    id: 353154
     name: '''Grimlock'' Guristas Assault Forge Gun'
+    volume: 0.01
   '''Grimoire'' 20GJ Blaster':
+    id: 355741
     name: '''Grimoire'' 20GJ Blaster'
+    volume: 0.01
   '''Grindfell'' Imperial Scrambler Pistol':
+    id: 353208
     name: '''Grindfell'' Imperial Scrambler Pistol'
+    volume: 0.01
   '''Guardwire'' Bolt Pistol':
+    id: 365579
     name: '''Guardwire'' Bolt Pistol'
+    volume: 0.01
   '''Harbinger'' ST-201 Missile Launcher':
+    id: 355764
     name: '''Harbinger'' ST-201 Missile Launcher'
+    volume: 0.01
   '''Haywire'' Wiyrkomi Swarm Launcher':
+    id: 353192
     name: '''Haywire'' Wiyrkomi Swarm Launcher'
+    volume: 0.01
   '''Haze'' Locus Grenade':
+    id: 355599
     name: '''Haze'' Locus Grenade'
+    volume: 0.01
   '''Hazemoon'' IA5 Tactical Scrambler Pistol':
+    id: 353203
     name: '''Hazemoon'' IA5 Tactical Scrambler Pistol'
+    volume: 0.01
   '''Hollow'' EX-0 AV Grenade':
+    id: 353734
     name: '''Hollow'' EX-0 AV Grenade'
+    volume: 0.01
   '''Hollowsight'' Carthum Assault Rifle':
+    id: 353119
     name: '''Hollowsight'' Carthum Assault Rifle'
+    volume: 0.01
   '''Horizon'' Kaalakiota Sniper Rifle':
+    id: 353172
     name: '''Horizon'' Kaalakiota Sniper Rifle'
+    volume: 0.01
   '''Howlcage'' Core Flaylock Pistol':
+    id: 363787
     name: '''Howlcage'' Core Flaylock Pistol'
   '''Husk'' AV Grenade':
+    id: 355600
     name: '''Husk'' AV Grenade'
+    volume: 0.01
   '''Husk'' Phase-synched Railgun (L)':
+    id: 352526
     name: '''Husk'' Phase-synched Railgun (L)'
+    volume: 0.01
   '''Hydra'' CreoDron Shotgun':
+    id: 355261
     name: '''Hydra'' CreoDron Shotgun'
+    volume: 0.01
   '''Imperial Guard''  VZN-20 Forge Gun':
+    id: 366344
     name: '''Imperial Guard''  VZN-20 Forge Gun'
+    volume: 0.01
   '''Imperial Guard'' Viziam Forge Gun':
+    id: 366345
     name: '''Imperial Guard'' Viziam Forge Gun'
+    volume: 0.01
   '''Killswitch'' GEK-38 Assault Rifle':
+    id: 353113
     name: '''Killswitch'' GEK-38 Assault Rifle'
+    volume: 0.01
   '''Klaxon'' Allotek Flux Grenade':
+    id: 355597
     name: '''Klaxon'' Allotek Flux Grenade'
+    volume: 0.01
   '''Leadgrave'' RS-90 Combat Rifle':
+    id: 365452
     name: '''Leadgrave'' RS-90 Combat Rifle'
+    volume: 0.01
   '''Lycan'' 20GJ Railgun':
+    id: 355748
     name: '''Lycan'' 20GJ Railgun'
+    volume: 0.01
   '''Maimharvest'' VN-30 Seeker Flaylock':
+    id: 363783
     name: '''Maimharvest'' VN-30 Seeker Flaylock'
   '''Martyr'' 20GJ Particle Cannon':
+    id: 355750
     name: '''Martyr'' 20GJ Particle Cannon'
+    volume: 0.01
   '''Mashgrill'' CreoDron Submachine Gun':
+    id: 353138
     name: '''Mashgrill'' CreoDron Submachine Gun'
+    volume: 0.01
   '''Mimicry'' CreoDron Tactical Swarm Launcher':
+    id: 353190
     name: '''Mimicry'' CreoDron Tactical Swarm Launcher'
+    volume: 0.01
   '''Minddrive'' SK9M Breach Submachine Gun':
+    id: 353133
     name: '''Minddrive'' SK9M Breach Submachine Gun'
+    volume: 0.01
   '''Mortis'' 80GJ Particle Accelerator':
+    id: 355752
     name: '''Mortis'' 80GJ Particle Accelerator'
+    volume: 0.01
   '''Nodeasylum'' Kaalakiota Bolt Pistol':
+    id: 365581
     name: '''Nodeasylum'' Kaalakiota Bolt Pistol'
+    volume: 0.01
   '''Omen'' AT-201 Missile Launcher':
+    id: 355765
     name: '''Omen'' AT-201 Missile Launcher'
+    volume: 0.01
   '''Oracle'' 80GJ Neutron Blaster':
+    id: 355746
     name: '''Oracle'' 80GJ Neutron Blaster'
+    volume: 0.01
   '''Paradox'' Graded Particle Cannon (S)':
+    id: 352472
     name: '''Paradox'' Graded Particle Cannon (S)'
+    volume: 0.01
   '''Pariah'' 80GJ Railgun':
+    id: 355751
     name: '''Pariah'' 80GJ Railgun'
+    volume: 0.01
   '''Phantasm'' 20GJ Ion Cannon':
+    id: 355743
     name: '''Phantasm'' 20GJ Ion Cannon'
+    volume: 0.01
   '''Prodigy'' XT-201 Missile Launcher':
+    id: 355766
     name: '''Prodigy'' XT-201 Missile Launcher'
+    volume: 0.01
   '''Pyrus'' ATK-05 Submachine Gun':
+    id: 365655
     name: '''Pyrus'' ATK-05 Submachine Gun'
+    volume: 0.01
   '''Pyrus'' ATK-108 Heavy Machine Gun':
+    id: 365677
     name: '''Pyrus'' ATK-108 Heavy Machine Gun'
+    volume: 0.01
   '''Pyrus'' ATK-11 Nova Knives':
+    id: 365692
     name: '''Pyrus'' ATK-11 Nova Knives'
+    volume: 0.01
   '''Pyrus'' ATK-17 Scrambler Pistol':
+    id: 365667
     name: '''Pyrus'' ATK-17 Scrambler Pistol'
+    volume: 0.01
   '''Pyrus'' ATK-21 Assault Rifle':
+    id: 365651
     name: '''Pyrus'' ATK-21 Assault Rifle'
+    volume: 0.01
   '''Pyrus'' ATK-30 Scrambler Rifle':
+    id: 365683
     name: '''Pyrus'' ATK-30 Scrambler Rifle'
+    volume: 0.01
   '''Pyrus'' ATK-32 Swarm Launcher':
+    id: 365664
     name: '''Pyrus'' ATK-32 Swarm Launcher'
+    volume: 0.01
   '''Pyrus'' ATK-43 Mass Driver':
+    id: 365680
     name: '''Pyrus'' ATK-43 Mass Driver'
+    volume: 0.01
   '''Pyrus'' ATK-44 Shotgun':
+    id: 365670
     name: '''Pyrus'' ATK-44 Shotgun'
+    volume: 0.01
   '''Pyrus'' ATK-50 Laser Rifle':
+    id: 365674
     name: '''Pyrus'' ATK-50 Laser Rifle'
+    volume: 0.01
   '''Pyrus'' ATK-58 Sniper Rifle':
+    id: 365661
     name: '''Pyrus'' ATK-58 Sniper Rifle'
+    volume: 0.01
   '''Pyrus'' ATK-73 Plasma Cannon':
+    id: 365689
     name: '''Pyrus'' ATK-73 Plasma Cannon'
+    volume: 0.01
   '''Pyrus'' ATK-9 Flaylock Pistol':
+    id: 365686
     name: '''Pyrus'' ATK-9 Flaylock Pistol'
+    volume: 0.01
   '''Pyrus'' ATK-90 Forge Gun':
+    id: 365658
     name: '''Pyrus'' ATK-90 Forge Gun'
+    volume: 0.01
   '''Pyrus'' Allotek Assault Rifle':
+    id: 365652
     name: '''Pyrus'' Allotek Assault Rifle'
+    volume: 0.01
   '''Pyrus'' Allotek Flaylock Pistol':
+    id: 365687
     name: '''Pyrus'' Allotek Flaylock Pistol'
+    volume: 0.01
   '''Pyrus'' Allotek Forge Gun':
+    id: 365659
     name: '''Pyrus'' Allotek Forge Gun'
+    volume: 0.01
   '''Pyrus'' Allotek Heavy Machine Gun':
+    id: 365678
     name: '''Pyrus'' Allotek Heavy Machine Gun'
+    volume: 0.01
   '''Pyrus'' Allotek Laser Rifle':
+    id: 365675
     name: '''Pyrus'' Allotek Laser Rifle'
+    volume: 0.01
   '''Pyrus'' Allotek Mass Driver':
+    id: 365681
     name: '''Pyrus'' Allotek Mass Driver'
+    volume: 0.01
   '''Pyrus'' Allotek Nova Knives':
+    id: 365693
     name: '''Pyrus'' Allotek Nova Knives'
+    volume: 0.01
   '''Pyrus'' Allotek Plasma Cannon':
+    id: 365690
     name: '''Pyrus'' Allotek Plasma Cannon'
+    volume: 0.01
   '''Pyrus'' Allotek Scrambler Pistol':
+    id: 365668
     name: '''Pyrus'' Allotek Scrambler Pistol'
+    volume: 0.01
   '''Pyrus'' Allotek Scrambler Rifle':
+    id: 365684
     name: '''Pyrus'' Allotek Scrambler Rifle'
+    volume: 0.01
   '''Pyrus'' Allotek Shotgun':
+    id: 365671
     name: '''Pyrus'' Allotek Shotgun'
+    volume: 0.01
   '''Pyrus'' Allotek Sniper Rifle':
+    id: 365662
     name: '''Pyrus'' Allotek Sniper Rifle'
+    volume: 0.01
   '''Pyrus'' Allotek Submachine Gun':
+    id: 365656
     name: '''Pyrus'' Allotek Submachine Gun'
+    volume: 0.01
   '''Pyrus'' Allotek Swarm Launcher':
+    id: 365665
     name: '''Pyrus'' Allotek Swarm Launcher'
+    volume: 0.01
   '''Pyrus'' Assault Rifle':
+    id: 365650
     name: '''Pyrus'' Assault Rifle'
+    volume: 0.01
   '''Pyrus'' Flaylock Pistol':
+    id: 365685
     name: '''Pyrus'' Flaylock Pistol'
+    volume: 0.01
   '''Pyrus'' Forge Gun':
+    id: 365657
     name: '''Pyrus'' Forge Gun'
+    volume: 0.01
   '''Pyrus'' Heavy Machine Gun':
+    id: 365676
     name: '''Pyrus'' Heavy Machine Gun'
+    volume: 0.01
   '''Pyrus'' Laser Rifle':
+    id: 365673
     name: '''Pyrus'' Laser Rifle'
+    volume: 0.01
   '''Pyrus'' Mass Driver':
+    id: 365679
     name: '''Pyrus'' Mass Driver'
+    volume: 0.01
   '''Pyrus'' Nova Knives':
+    id: 365691
     name: '''Pyrus'' Nova Knives'
+    volume: 0.01
   '''Pyrus'' Plasma Cannon':
+    id: 365688
     name: '''Pyrus'' Plasma Cannon'
+    volume: 0.01
   '''Pyrus'' Scrambler Pistol':
+    id: 365666
     name: '''Pyrus'' Scrambler Pistol'
+    volume: 0.01
   '''Pyrus'' Scrambler Rifle':
+    id: 365682
     name: '''Pyrus'' Scrambler Rifle'
+    volume: 0.01
   '''Pyrus'' Shotgun':
+    id: 365669
     name: '''Pyrus'' Shotgun'
+    volume: 0.01
   '''Pyrus'' Sniper Rifle':
+    id: 365660
     name: '''Pyrus'' Sniper Rifle'
+    volume: 0.01
   '''Pyrus'' Submachine Gun':
+    id: 365654
     name: '''Pyrus'' Submachine Gun'
+    volume: 0.01
   '''Pyrus'' Swarm Launcher':
+    id: 365663
     name: '''Pyrus'' Swarm Launcher'
+    volume: 0.01
   '''Quafe'' 20GJ Blaster':
+    id: 368543
     name: '''Quafe'' 20GJ Blaster'
+    volume: 0.01
   '''Quafe'' 20GJ Railgun':
+    id: 368545
     name: '''Quafe'' 20GJ Railgun'
+    volume: 0.01
   '''Quafe'' 80GJ Blaster':
+    id: 368542
     name: '''Quafe'' 80GJ Blaster'
+    volume: 0.01
   '''Quafe'' 80GJ Railgun':
+    id: 368544
     name: '''Quafe'' 80GJ Railgun'
+    volume: 0.01
   '''Quafe'' Assault Rifle':
+    id: 368561
     name: '''Quafe'' Assault Rifle'
   '''Quafe'' Combat Rifle':
+    id: 368568
     name: '''Quafe'' Combat Rifle'
+    volume: 0.01
   '''Quafe'' Forge Gun':
+    id: 368557
     name: '''Quafe'' Forge Gun'
+    volume: 0.01
   '''Quafe'' Heavy Machine Gun':
+    id: 368556
     name: '''Quafe'' Heavy Machine Gun'
+    volume: 0.01
   '''Quafe'' Laser Rifle':
+    id: 368566
     name: '''Quafe'' Laser Rifle'
+    volume: 0.01
   '''Quafe'' Mass Driver':
+    id: 368559
     name: '''Quafe'' Mass Driver'
+    volume: 0.01
   '''Quafe'' Nova Knives':
+    id: 368558
     name: '''Quafe'' Nova Knives'
+    volume: 0.01
   '''Quafe'' Plasma Cannon':
+    id: 368562
     name: '''Quafe'' Plasma Cannon'
+    volume: 0.01
   '''Quafe'' Rail Rifle':
+    id: 368564
     name: '''Quafe'' Rail Rifle'
+    volume: 0.01
   '''Quafe'' ST-1 Missile Launcher':
+    id: 368541
     name: '''Quafe'' ST-1 Missile Launcher'
+    volume: 0.01
   '''Quafe'' ST-201 Missile Launcher':
+    id: 368540
     name: '''Quafe'' ST-201 Missile Launcher'
+    volume: 0.01
   '''Quafe'' Scrambler Rifle':
+    id: 368567
     name: '''Quafe'' Scrambler Rifle'
+    volume: 0.01
   '''Quafe'' Shotgun':
+    id: 368563
     name: '''Quafe'' Shotgun'
+    volume: 0.01
   '''Quafe'' Sniper Rifle':
+    id: 368565
     name: '''Quafe'' Sniper Rifle'
+    volume: 0.01
   '''Quafe'' Swarm Launcher':
+    id: 368560
     name: '''Quafe'' Swarm Launcher'
+    volume: 0.01
   '''Rawspark'' Viziam Laser Rifle':
+    id: 363396
     name: '''Rawspark'' Viziam Laser Rifle'
+    volume: 0.01
   '''Ripshade'' KLA-90 Plasma Cannon':
+    id: 363358
     name: '''Ripshade'' KLA-90 Plasma Cannon'
+    volume: 0.01
   '''Rustmorgue'' GN-13 Flaylock Pistol':
+    id: 363786
     name: '''Rustmorgue'' GN-13 Flaylock Pistol'
   '''Scattermind'' Swarm Launcher':
+    id: 353181
     name: '''Scattermind'' Swarm Launcher'
+    volume: 0.01
   '''Scattershin'' T-12 Ion Pistol':
+    id: 365575
     name: '''Scattershin'' T-12 Ion Pistol'
+    volume: 0.01
   '''Scorchtalon'' Nova Knives':
+    id: 364786
     name: '''Scorchtalon'' Nova Knives'
+    volume: 0.01
   '''Scramkit'' CBR-112 Breach Swarm Launcher':
+    id: 353186
     name: '''Scramkit'' CBR-112 Breach Swarm Launcher'
+    volume: 0.01
   '''Shiftrisk'' SR-25 Bolt Pistol':
+    id: 365580
     name: '''Shiftrisk'' SR-25 Bolt Pistol'
+    volume: 0.01
   '''Shrinesong'' CRW-04 Scrambler Rifle':
+    id: 363849
     name: '''Shrinesong'' CRW-04 Scrambler Rifle'
+    volume: 0.01
   '''Shroud'' M1 Locus Grenade':
+    id: 353695
     name: '''Shroud'' M1 Locus Grenade'
+    volume: 0.01
   '''Sigil'' Wiyrkomi AV Grenade':
+    id: 353738
     name: '''Sigil'' Wiyrkomi AV Grenade'
+    volume: 0.01
   '''Singetear'' Viziam Scrambler Pistol':
+    id: 353209
     name: '''Singetear'' Viziam Scrambler Pistol'
+    volume: 0.01
   '''Sinwarden'' CRD-9 Assault Scrambler Rifle':
+    id: 363857
     name: '''Sinwarden'' CRD-9 Assault Scrambler Rifle'
+    volume: 0.01
   '''Siren'' Flux Grenade':
+    id: 355596
     name: '''Siren'' Flux Grenade'
+    volume: 0.01
   '''Skinbore'' Core Seeker Flaylock':
+    id: 363784
     name: '''Skinbore'' Core Seeker Flaylock'
   '''Skyglitch'' Magsec SMG':
+    id: 365570
     name: '''Skyglitch'' Magsec SMG'
+    volume: 0.01
   '''Slashvent'' Submachine Gun':
+    id: 353128
     name: '''Slashvent'' Submachine Gun'
+    volume: 0.01
   '''Sodom'' 80GJ Ion Cannon':
+    id: 355747
     name: '''Sodom'' 80GJ Ion Cannon'
+    volume: 0.01
   '''Spartan'' 20GJ Particle Accelerator':
+    id: 355749
     name: '''Spartan'' 20GJ Particle Accelerator'
+    volume: 0.01
   '''Spitfire'' Six Kin Submachine Gun':
+    id: 353139
     name: '''Spitfire'' Six Kin Submachine Gun'
+    volume: 0.01
   '''Splashbone'' Flaylock Pistol':
+    id: 363785
     name: '''Splashbone'' Flaylock Pistol'
   '''Steelmine'' Boundless Heavy Machine Gun':
+    id: 355263
     name: '''Steelmine'' Boundless Heavy Machine Gun'
+    volume: 0.01
   '''Stormside'' Roden Assault Rifle':
+    id: 353118
     name: '''Stormside'' Roden Assault Rifle'
+    volume: 0.01
   '''Stormvein'' Carthum Assault Scrambler Rifle':
+    id: 363858
     name: '''Stormvein'' Carthum Assault Scrambler Rifle'
+    volume: 0.01
   '''Strumborne'' Forge Gun':
+    id: 353145
     name: '''Strumborne'' Forge Gun'
+    volume: 0.01
   '''Surgepoint'' Six Kin Sniper Rifle':
+    id: 353174
     name: '''Surgepoint'' Six Kin Sniper Rifle'
+    volume: 0.01
   '''Surgewick'' Scrambler Pistol':
+    id: 353198
     name: '''Surgewick'' Scrambler Pistol'
+    volume: 0.01
   '''Syndicate'' Submachine Gun':
+    id: 356914
     name: '''Syndicate'' Submachine Gun'
+    volume: 0.01
   '''Templar'' Laser Rifle':
+    id: 364563
     name: '''Templar'' Laser Rifle'
+    volume: 0.01
   '''Templar'' Scrambler Pistol':
+    id: 364559
     name: '''Templar'' Scrambler Pistol'
+    volume: 0.01
   '''Templar'' Scrambler Rifle':
+    id: 364561
     name: '''Templar'' Scrambler Rifle'
+    volume: 0.01
   '''Torchflare'' Kaalakiota Forge Gun':
+    id: 353156
     name: '''Torchflare'' Kaalakiota Forge Gun'
+    volume: 0.01
   '''Toxin'' Assault Rifle':
+    id: 363398
     name: '''Toxin'' Assault Rifle'
+    volume: 0.01
   '''Toxin'' ICD-9 Submachine Gun':
+    id: 355432
     name: '''Toxin'' ICD-9 Submachine Gun'
+    volume: 0.01
   '''Tsunami'' Mass Driver':
+    id: 355499
     name: '''Tsunami'' Mass Driver'
+    volume: 0.01
   '''Vapor'' Core Locus Grenade':
+    id: 353699
     name: '''Vapor'' Core Locus Grenade'
+    volume: 0.01
   '''Vaporlaw'' CreoDron Ion Pistol':
+    id: 365576
     name: '''Vaporlaw'' CreoDron Ion Pistol'
+    volume: 0.01
   '''Void'' Kaalakiota AV Grenade':
+    id: 353737
     name: '''Void'' Kaalakiota AV Grenade'
+    volume: 0.01
   '''Weavewind'' Roden Swarm Launcher':
+    id: 353191
     name: '''Weavewind'' Roden Swarm Launcher'
+    volume: 0.01
   '''Wildlight'' Ion Pistol':
+    id: 365574
     name: '''Wildlight'' Ion Pistol'
+    volume: 0.01
   '''Woundriot'' Combat Rifle':
+    id: 365451
     name: '''Woundriot'' Combat Rifle'
+    volume: 0.01
   '''Wraith'' 80GJ Blaster':
+    id: 355744
     name: '''Wraith'' 80GJ Blaster'
+    volume: 0.01
   '''Zerofrost'' Kaalakiota Rail Rifle':
+    id: 365459
     name: '''Zerofrost'' Kaalakiota Rail Rifle'
+    volume: 0.01
   20GJ Blaster:
+    id: 351297
     name: 20GJ Blaster
+    volume: 0.01
   20GJ Compressed Blaster:
+    id: 355833
     name: 20GJ Compressed Blaster
+    volume: 0.01
   20GJ Compressed Ion Cannon:
+    id: 355831
     name: 20GJ Compressed Ion Cannon
+    volume: 0.01
   20GJ Compressed Neutron Blaster:
+    id: 355829
     name: 20GJ Compressed Neutron Blaster
+    volume: 0.01
   20GJ Compressed Particle Accelerator:
+    id: 355842
     name: 20GJ Compressed Particle Accelerator
+    volume: 0.01
   20GJ Compressed Particle Cannon:
+    id: 355844
     name: 20GJ Compressed Particle Cannon
+    volume: 0.01
   20GJ Compressed Railgun:
+    id: 355846
     name: 20GJ Compressed Railgun
+    volume: 0.01
   20GJ Ion Cannon:
+    id: 353775
     name: 20GJ Ion Cannon
+    volume: 0.01
   20GJ Neutron Blaster:
+    id: 353774
     name: 20GJ Neutron Blaster
+    volume: 0.01
   20GJ Particle Accelerator:
+    id: 353796
     name: 20GJ Particle Accelerator
+    volume: 0.01
   20GJ Particle Cannon:
+    id: 353797
     name: 20GJ Particle Cannon
+    volume: 0.01
   20GJ Railgun:
+    id: 351337
     name: 20GJ Railgun
+    volume: 0.01
   20GJ Regulated Particle Accelerator:
+    id: 355875
     name: 20GJ Regulated Particle Accelerator
+    volume: 0.01
   20GJ Regulated Particle Cannon:
+    id: 355876
     name: 20GJ Regulated Particle Cannon
+    volume: 0.01
   20GJ Regulated Railgun:
+    id: 355877
     name: 20GJ Regulated Railgun
+    volume: 0.01
   20GJ Scattered Blaster:
+    id: 355871
     name: 20GJ Scattered Blaster
+    volume: 0.01
   20GJ Scattered Ion Cannon:
+    id: 355870
     name: 20GJ Scattered Ion Cannon
+    volume: 0.01
   20GJ Scattered Neutron Blaster:
+    id: 355869
     name: 20GJ Scattered Neutron Blaster
+    volume: 0.01
   20GJ Stabilized Blaster:
+    id: 355832
     name: 20GJ Stabilized Blaster
+    volume: 0.01
   20GJ Stabilized Ion Cannon:
+    id: 355830
     name: 20GJ Stabilized Ion Cannon
+    volume: 0.01
   20GJ Stabilized Neutron Blaster:
+    id: 355828
     name: 20GJ Stabilized Neutron Blaster
+    volume: 0.01
   20GJ Stabilized Particle Accelerator:
+    id: 355841
     name: 20GJ Stabilized Particle Accelerator
+    volume: 0.01
   20GJ Stabilized Particle Cannon:
+    id: 355843
     name: 20GJ Stabilized Particle Cannon
+    volume: 0.01
   20GJ Stabilized Railgun:
+    id: 355845
     name: 20GJ Stabilized Railgun
+    volume: 0.01
   80GJ Blaster:
+    id: 351317
     name: 80GJ Blaster
+    volume: 0.01
   80GJ Compressed Blaster:
+    id: 355823
     name: 80GJ Compressed Blaster
+    volume: 0.01
   80GJ Compressed Ion Cannon:
+    id: 355825
     name: 80GJ Compressed Ion Cannon
+    volume: 0.01
   80GJ Compressed Neutron Blaster:
+    id: 355827
     name: 80GJ Compressed Neutron Blaster
+    volume: 0.01
   80GJ Compressed Particle Accelerator:
+    id: 355835
     name: 80GJ Compressed Particle Accelerator
+    volume: 0.01
   80GJ Compressed Particle Cannon:
+    id: 355837
     name: 80GJ Compressed Particle Cannon
+    volume: 0.01
   80GJ Compressed Railgun:
+    id: 355840
     name: 80GJ Compressed Railgun
+    volume: 0.01
   80GJ Ion Cannon:
+    id: 353773
     name: 80GJ Ion Cannon
+    volume: 0.01
   80GJ Neutron Blaster:
+    id: 353772
     name: 80GJ Neutron Blaster
+    volume: 0.01
   80GJ Particle Accelerator:
+    id: 351332
     name: 80GJ Particle Accelerator
+    volume: 0.01
   80GJ Particle Cannon:
+    id: 353783
     name: 80GJ Particle Cannon
+    volume: 0.01
   80GJ Railgun:
+    id: 351336
     name: 80GJ Railgun
+    volume: 0.01
   80GJ Regulated Particle Accelerator:
+    id: 355872
     name: 80GJ Regulated Particle Accelerator
+    volume: 0.01
   80GJ Regulated Particle Cannon:
+    id: 355873
     name: 80GJ Regulated Particle Cannon
+    volume: 0.01
   80GJ Regulated Railgun:
+    id: 355874
     name: 80GJ Regulated Railgun
+    volume: 0.01
   80GJ Scattered Blaster:
+    id: 355868
     name: 80GJ Scattered Blaster
+    volume: 0.01
   80GJ Scattered Ion Cannon:
+    id: 355867
     name: 80GJ Scattered Ion Cannon
+    volume: 0.01
   80GJ Scattered Neutron Blaster:
+    id: 355866
     name: 80GJ Scattered Neutron Blaster
+    volume: 0.01
   80GJ Stabilized Blaster:
+    id: 355822
     name: 80GJ Stabilized Blaster
+    volume: 0.01
   80GJ Stabilized Ion Cannon:
+    id: 355824
     name: 80GJ Stabilized Ion Cannon
+    volume: 0.01
   80GJ Stabilized Neutron Blaster:
+    id: 355826
     name: 80GJ Stabilized Neutron Blaster
+    volume: 0.01
   80GJ Stabilized Particle Accelerator:
+    id: 355834
     name: 80GJ Stabilized Particle Accelerator
+    volume: 0.01
   80GJ Stabilized Particle Cannon:
+    id: 355836
     name: 80GJ Stabilized Particle Cannon
+    volume: 0.01
   80GJ Stabilized Railgun:
+    id: 355839
     name: 80GJ Stabilized Railgun
+    volume: 0.01
   9K330 Forge Gun:
+    id: 353146
     name: 9K330 Forge Gun
+    volume: 0.01
   ACOG Test Tactical Assault Rifle:
+    id: 363105
     name: ACOG Test Tactical Assault Rifle
+    volume: 0.01
   ADV Drone Assault Rifle:
+    id: 355098
     name: ADV Drone Assault Rifle
+    volume: 0.01
   ADV Drone Forge Gun:
+    id: 355027
     name: ADV Drone Forge Gun
+    volume: 0.01
   ADV Drone HMG:
+    id: 355159
     name: ADV Drone HMG
+    volume: 0.01
   ADV Drone Laser Rifle:
+    id: 355107
     name: ADV Drone Laser Rifle
+    volume: 0.01
   ADV Drone Mass Driver:
+    id: 355069
     name: ADV Drone Mass Driver
+    volume: 0.01
   ADV Drone Shotgun:
+    id: 355013
     name: ADV Drone Shotgun
+    volume: 0.01
   ADV Drone Sniper Rifle:
+    id: 355050
     name: ADV Drone Sniper Rifle
+    volume: 0.01
   ADV Drone Swarm Launcher:
+    id: 355145
     name: ADV Drone Swarm Launcher
+    volume: 0.01
   AT-1 Accelerated Missile Launcher:
+    id: 355853
     name: AT-1 Accelerated Missile Launcher
+    volume: 0.01
   AT-1 Cycled Missile Launcher:
+    id: 355881
     name: AT-1 Cycled Missile Launcher
+    volume: 0.01
   AT-1 Fragmented Missile Launcher:
+    id: 355854
     name: AT-1 Fragmented Missile Launcher
+    volume: 0.01
   AT-1 Missile Launcher:
+    id: 353800
     name: AT-1 Missile Launcher
+    volume: 0.01
   AT-201 Accelerated Missile Launcher:
+    id: 355847
     name: AT-201 Accelerated Missile Launcher
+    volume: 0.01
   AT-201 Cycled Missile Launcher:
+    id: 355878
     name: AT-201 Cycled Missile Launcher
+    volume: 0.01
   AT-201 Fragmented Missile Launcher:
+    id: 355848
     name: AT-201 Fragmented Missile Launcher
+    volume: 0.01
   AT-201 Missile Launcher:
+    id: 353818
     name: AT-201 Missile Launcher
+    volume: 0.01
   AV Grenade:
+    id: 351709
     name: AV Grenade
+    volume: 0.01
   Agimus' Modified AGO-56 Mass Driver:
+    id: 367502
     name: Agimus' Modified AGO-56 Mass Driver
+    volume: 0.01
   Alex's Modified VC-107 SMG:
+    id: 368593
     name: Alex's Modified VC-107 SMG
+    volume: 0.01
   Alex's Modified ZX-030 Heavy Machine Gun:
+    id: 367548
     name: Alex's Modified ZX-030 Heavy Machine Gun
+    volume: 0.01
   Alldin's IMP-10 Forge Gun:
+    id: 367549
     name: Alldin's IMP-10 Forge Gun
+    volume: 0.01
   Allotek Breach Shotgun:
+    id: 355515
     name: Allotek Breach Shotgun
+    volume: 0.01
   Allotek Burst Assault Rifle:
+    id: 353116
     name: Allotek Burst Assault Rifle
+    volume: 0.01
   Allotek Flux Grenade:
+    id: 355595
     name: Allotek Flux Grenade
+    volume: 0.01
   Allotek Plasma Cannon:
+    id: 363356
     name: Allotek Plasma Cannon
+    volume: 0.01
   Anti-MCC Turret:
+    id: 356334
     name: Anti-MCC Turret
+    volume: 0.01
   AntiMCC Railgun:
+    id: 355483
     name: AntiMCC Railgun
+    volume: 0.01
   Assault Combat Rifle:
+    id: 365409
     name: Assault Combat Rifle
+    volume: 0.01
   Assault Forge Gun:
+    id: 353143
     name: Assault Forge Gun
+    volume: 0.01
   Assault Heavy Machine Gun:
+    id: 355821
     name: Assault Heavy Machine Gun
+    volume: 0.01
   Assault Mass Driver:
+    id: 355781
     name: Assault Mass Driver
+    volume: 0.01
   Assault Rail Rifle:
+    id: 363770
     name: Assault Rail Rifle
+    volume: 0.01
   Assault Rifle:
+    id: 352602
     name: Assault Rifle
+    volume: 0.01
   Assault Scrambler Pistol:
+    id: 355259
     name: Assault Scrambler Pistol
+    volume: 0.01
   Assault Scrambler Rifle:
+    id: 363570
     name: Assault Scrambler Rifle
+    volume: 0.01
   Assault Submachine Gun:
+    id: 353126
     name: Assault Submachine Gun
+    volume: 0.01
   Assault Swarm Launcher:
+    id: 353179
     name: Assault Swarm Launcher
+    volume: 0.01
   BK-42 Assault Combat Rifle:
+    id: 365443
     name: BK-42 Assault Combat Rifle
+    volume: 0.01
   Balac's GAR-21 Assault Rifle:
+    id: 355994
     name: Balac's GAR-21 Assault Rifle
+    volume: 0.01
   Balac's MRN-30 Submachine Gun:
+    id: 363350
     name: Balac's MRN-30 Submachine Gun
+    volume: 0.01
   Balac's N-17 Sniper Rifle:
+    id: 363351
     name: Balac's N-17 Sniper Rifle
+    volume: 0.01
   Beacon’s ELI-74 Swarm Launcher:
+    id: 367489
     name: Beacon’s ELI-74 Swarm Launcher
+    volume: 0.01
   Blaster:
+    id: 351296
     name: Blaster
+    volume: 0.01
   Blaster Installation:
+    id: 353264
     name: Blaster Installation
+    volume: 0.01
   Bolt Pistol:
+    id: 363592
     name: Bolt Pistol
+    volume: 0.01
   Bons' SIN-7 Shotgun:
+    id: 367552
     name: Bons' SIN-7 Shotgun
+    volume: 0.01
   Boundless Assault Mass Driver:
+    id: 355815
     name: Boundless Assault Mass Driver
+    volume: 0.01
   Boundless Breach Submachine Gun:
+    id: 355254
     name: Boundless Breach Submachine Gun
+    volume: 0.01
   Boundless Combat Rifle:
+    id: 365442
     name: Boundless Combat Rifle
+    volume: 0.01
   Boundless Heavy Machine Gun:
+    id: 354962
     name: Boundless Heavy Machine Gun
+    volume: 0.01
   Breach Assault Rifle:
+    id: 353106
     name: Breach Assault Rifle
+    volume: 0.01
   Breach Flaylock Pistol:
+    id: 363798
     name: Breach Flaylock Pistol
   Breach Forge Gun:
+    id: 353144
     name: Breach Forge Gun
+    volume: 0.01
   Breach Mass Driver:
+    id: 355779
     name: Breach Mass Driver
+    volume: 0.01
   Breach Scrambler Pistol:
+    id: 355603
     name: Breach Scrambler Pistol
+    volume: 0.01
   Breach Shotgun:
+    id: 355495
     name: Breach Shotgun
+    volume: 0.01
   Breach Submachine Gun:
+    id: 353127
     name: Breach Submachine Gun
+    volume: 0.01
   Burst Assault Rifle:
+    id: 353281
     name: Burst Assault Rifle
+    volume: 0.01
   Burst Flaylock Pistol:
+    id: 363794
     name: Burst Flaylock Pistol
   Burst Heavy Machine Gun:
+    id: 355820
     name: Burst Heavy Machine Gun
+    volume: 0.01
   Burst Scrambler Pistol:
+    id: 353197
     name: Burst Scrambler Pistol
+    volume: 0.01
   C-7 Flux Grenade:
+    id: 355594
     name: C-7 Flux Grenade
+    volume: 0.01
   C15-A Tactical Sniper Rifle:
+    id: 353166
     name: C15-A Tactical Sniper Rifle
+    volume: 0.01
   C27-N Specialist Sniper Rifle:
+    id: 353165
     name: C27-N Specialist Sniper Rifle
+    volume: 0.01
   CAR-9 Burst Scrambler Pistol:
+    id: 353199
     name: CAR-9 Burst Scrambler Pistol
+    volume: 0.01
   CBR-112 Specialist Swarm Launcher:
+    id: 353183
     name: CBR-112 Specialist Swarm Launcher
+    volume: 0.01
   CBR7 Swarm Launcher:
+    id: 353182
     name: CBR7 Swarm Launcher
+    volume: 0.01
   CFG-129 Assault Swarm Launcher:
+    id: 353184
     name: CFG-129 Assault Swarm Launcher
+    volume: 0.01
   CRD-9 Assault Scrambler Rifle:
+    id: 363851
     name: CRD-9 Assault Scrambler Rifle
+    volume: 0.01
   CRG-3 Shotgun:
+    id: 354956
     name: CRG-3 Shotgun
+    volume: 0.01
   CRW-04 Scrambler Rifle:
+    id: 355697
     name: CRW-04 Scrambler Rifle
+    volume: 0.01
   Cala's MK-33 Submachine Gun:
+    id: 356044
     name: Cala's MK-33 Submachine Gun
+    volume: 0.01
   Capped Locus Grenade:
+    id: 353692
     name: Capped Locus Grenade
+    volume: 0.01
   Carthum Assault Scrambler Pistol:
+    id: 355258
     name: Carthum Assault Scrambler Pistol
+    volume: 0.01
   Carthum Assault Scrambler Rifle:
+    id: 363852
     name: Carthum Assault Scrambler Rifle
+    volume: 0.01
   Charge Sniper Rifle:
+    id: 353162
     name: Charge Sniper Rifle
+    volume: 0.01
   Combat Rifle:
+    id: 363491
     name: Combat Rifle
+    volume: 0.01
   Contact Grenade:
+    id: 366009
     name: Contact Grenade
+    volume: 0.01
   Core Breach Mass Driver:
+    id: 355814
     name: Core Breach Mass Driver
+    volume: 0.01
   Core Flaylock Pistol:
+    id: 363780
     name: Core Flaylock Pistol
   Core Locus Grenade:
+    id: 353696
     name: Core Locus Grenade
+    volume: 0.01
   Core Seeker Flaylock:
+    id: 363774
     name: Core Seeker Flaylock
   Core Specialist Seeker Flaylock:
+    id: 363800
     name: Core Specialist Seeker Flaylock
   Core Tactical Seeker Flaylock:
+    id: 363801
     name: Core Tactical Seeker Flaylock
   CreoDron Breach Assault Rifle:
+    id: 353115
     name: CreoDron Breach Assault Rifle
+    volume: 0.01
   CreoDron Ion Pistol:
+    id: 365573
     name: CreoDron Ion Pistol
+    volume: 0.01
   CreoDron Shotgun:
+    id: 354957
     name: CreoDron Shotgun
+    volume: 0.01
   D-9 Contact Grenade:
+    id: 366014
     name: D-9 Contact Grenade
+    volume: 0.01
   DAU-2/A Assault Forge Gun:
+    id: 353147
     name: DAU-2/A Assault Forge Gun
+    volume: 0.01
   DCMA-5 Breach Forge Gun:
+    id: 353148
     name: DCMA-5 Breach Forge Gun
+    volume: 0.01
   Darth's GIO-66 Scrambler Rifle:
+    id: 367528
     name: Darth's GIO-66 Scrambler Rifle
+    volume: 0.01
   Drone Assault Rifle:
+    id: 355081
     name: Drone Assault Rifle
+    volume: 0.01
   Drone Forge Gun:
+    id: 355032
     name: Drone Forge Gun
+    volume: 0.01
   Drone HMG:
+    id: 355161
     name: Drone HMG
+    volume: 0.01
   Drone Laser Rifle:
+    id: 355109
     name: Drone Laser Rifle
+    volume: 0.01
   Drone Mass Driver:
+    id: 355071
     name: Drone Mass Driver
+    volume: 0.01
   Drone Shotgun:
+    id: 355015
     name: Drone Shotgun
+    volume: 0.01
   Drone Sniper Rifle:
+    id: 355038
     name: Drone Sniper Rifle
+    volume: 0.01
   Drone Swarm Launcher:
+    id: 355151
     name: Drone Swarm Launcher
+    volume: 0.01
   Duvolle Assault Rifle:
+    id: 353114
     name: Duvolle Assault Rifle
+    volume: 0.01
   Duvolle Specialist Shotgun:
+    id: 355865
     name: Duvolle Specialist Shotgun
+    volume: 0.01
   Duvolle Tactical Assault Rifle:
+    id: 354930
     name: Duvolle Tactical Assault Rifle
+    volume: 0.01
   EC-3 Assault Mass Driver:
+    id: 355813
     name: EC-3 Assault Mass Driver
+    volume: 0.01
   EK-A2 Breach Mass Driver:
+    id: 355812
     name: EK-A2 Breach Mass Driver
+    volume: 0.01
   ELM-7 Laser Rifle:
+    id: 354959
     name: ELM-7 Laser Rifle
+    volume: 0.01
   EX-0 AV Grenade:
+    id: 353732
     name: EX-0 AV Grenade
+    volume: 0.01
   EX-11 Packed AV Grenade:
+    id: 353733
     name: EX-11 Packed AV Grenade
+    volume: 0.01
   EX-3 Sleek AV Grenade:
+    id: 355616
     name: EX-3 Sleek AV Grenade
+    volume: 0.01
   EXO-5 Mass Driver:
+    id: 354963
     name: EXO-5 Mass Driver
+    volume: 0.01
   Experimental Assault Combat Rifle:
+    id: 368607
     name: Experimental Assault Combat Rifle
+    volume: 0.01
   Experimental Assault Rail Rifle:
+    id: 368609
     name: Experimental Assault Rail Rifle
+    volume: 0.01
   Experimental Assault Rifle:
+    id: 368599
     name: Experimental Assault Rifle
+    volume: 0.01
   Experimental Assault Scrambler Rifle:
+    id: 368608
     name: Experimental Assault Scrambler Rifle
+    volume: 0.01
   Experimental Breach Assault Rifle:
+    id: 368611
     name: Experimental Breach Assault Rifle
+    volume: 0.01
   Experimental Burst Assault Rifle:
+    id: 368612
     name: Experimental Burst Assault Rifle
+    volume: 0.01
   Experimental Combat Rifle:
+    id: 368606
     name: Experimental Combat Rifle
+    volume: 0.01
   Experimental Forge Gun:
+    id: 368596
     name: Experimental Forge Gun
+    volume: 0.01
   Experimental Heavy Machine Gun:
+    id: 368595
     name: Experimental Heavy Machine Gun
+    volume: 0.01
   Experimental Laser Rifle:
+    id: 368604
     name: Experimental Laser Rifle
+    volume: 0.01
   Experimental Mass Driver:
+    id: 368597
     name: Experimental Mass Driver
+    volume: 0.01
   Experimental Plasma Cannon:
+    id: 368600
     name: Experimental Plasma Cannon
+    volume: 0.01
   Experimental Rail Rifle:
+    id: 368602
     name: Experimental Rail Rifle
+    volume: 0.01
   Experimental Scrambler Rifle:
+    id: 368605
     name: Experimental Scrambler Rifle
+    volume: 0.01
   Experimental Shotgun:
+    id: 368601
     name: Experimental Shotgun
+    volume: 0.01
   Experimental Sniper Rifle:
+    id: 368603
     name: Experimental Sniper Rifle
+    volume: 0.01
   Experimental Swarm Launcher:
+    id: 368598
     name: Experimental Swarm Launcher
+    volume: 0.01
   Experimental Tactical Assault Rifle:
+    id: 368610
     name: Experimental Tactical Assault Rifle
+    volume: 0.01
   Federation 20GJ Blaster:
+    id: 366385
     name: Federation 20GJ Blaster
+    volume: 0.01
   Federation 20GJ Ion Cannon:
+    id: 366387
     name: Federation 20GJ Ion Cannon
+    volume: 0.01
   Federation 20GJ Neutron Blaster:
+    id: 366386
     name: Federation 20GJ Neutron Blaster
+    volume: 0.01
   Federation 80GJ Blaster:
+    id: 366388
     name: Federation 80GJ Blaster
+    volume: 0.01
   Federation 80GJ Ion Cannon:
+    id: 366390
     name: Federation 80GJ Ion Cannon
+    volume: 0.01
   Federation 80GJ Neutron Blaster:
+    id: 366389
     name: Federation 80GJ Neutron Blaster
+    volume: 0.01
   Federation Allotek Plasma Cannon:
+    id: 366378
     name: Federation Allotek Plasma Cannon
+    volume: 0.01
   Federation Allotek Specialist Plasma Cannon:
+    id: 366098
     name: Federation Allotek Specialist Plasma Cannon
+    volume: 0.01
   Federation Assault Rifle:
+    id: 366372
     name: Federation Assault Rifle
+    volume: 0.01
   Federation Breach Assault Rifle:
+    id: 368016
     name: Federation Breach Assault Rifle
+    volume: 0.01
   Federation Burst Assault Rifle:
+    id: 367848
     name: Federation Burst Assault Rifle
+    volume: 0.01
   Federation CRG-3 Shotgun:
+    id: 366380
     name: Federation CRG-3 Shotgun
+    volume: 0.01
   Federation CreoDron Shotgun:
+    id: 366381
     name: Federation CreoDron Shotgun
+    volume: 0.01
   Federation CreoDron Specialist Shotgun:
+    id: 366101
     name: Federation CreoDron Specialist Shotgun
+    volume: 0.01
   Federation Duvolle Specialist Assault Rifle:
+    id: 366094
     name: Federation Duvolle Specialist Assault Rifle
+    volume: 0.01
   Federation Duvolle Tactical Assault Rifle:
+    id: 366375
     name: Federation Duvolle Tactical Assault Rifle
+    volume: 0.01
   Federation GEK-38 Assault Rifle:
+    id: 366374
     name: Federation GEK-38 Assault Rifle
+    volume: 0.01
   Federation GK-13 Burst Assault Rifle:
+    id: 366373
     name: Federation GK-13 Burst Assault Rifle
+    volume: 0.01
   Federation KLA-90 Plasma Cannon:
+    id: 366377
     name: Federation KLA-90 Plasma Cannon
+    volume: 0.01
   Federation Plasma Cannon:
+    id: 366376
     name: Federation Plasma Cannon
+    volume: 0.01
   Federation Shotgun:
+    id: 366379
     name: Federation Shotgun
+    volume: 0.01
   Flaylock Pistol:
+    id: 356300
     name: Flaylock Pistol
+    volume: 0.01
   Flux Grenade:
+    id: 352508
     name: Flux Grenade
+    volume: 0.01
   Forge Gun:
+    id: 352263
     name: Forge Gun
+    volume: 0.01
   Freedom Assault Heavy Machine Gun:
+    id: 355860
     name: Freedom Assault Heavy Machine Gun
+    volume: 0.01
   Freedom Burst Submachine Gun:
+    id: 353136
     name: Freedom Burst Submachine Gun
+    volume: 0.01
   Freedom Mass Driver:
+    id: 354964
     name: Freedom Mass Driver
+    volume: 0.01
   Freedom Sleek Locus Grenade:
+    id: 353697
     name: Freedom Sleek Locus Grenade
+    volume: 0.01
   Fused Locus Grenade:
+    id: 355443
     name: Fused Locus Grenade
+    volume: 0.01
   G7-M Compact Assault Rifle:
+    id: 353111
     name: G7-M Compact Assault Rifle
+    volume: 0.01
   GB-9 Breach Assault Rifle:
+    id: 354928
     name: GB-9 Breach Assault Rifle
+    volume: 0.01
   GEK-38 Assault Rifle:
+    id: 353109
     name: GEK-38 Assault Rifle
+    volume: 0.01
   GK-13 Burst Assault Rifle:
+    id: 353110
     name: GK-13 Burst Assault Rifle
+    volume: 0.01
   GLU-5 Tactical Assault Rifle:
+    id: 354929
     name: GLU-5 Tactical Assault Rifle
+    volume: 0.01
   GN-13 Flaylock Pistol:
+    id: 363781
     name: GN-13 Flaylock Pistol
   GN-20 Specialist Flaylock Pistol:
+    id: 363796
     name: GN-20 Specialist Flaylock Pistol
   Gastun's BRN-50 Forge Gun:
+    id: 356046
     name: Gastun's BRN-50 Forge Gun
+    volume: 0.01
   Gastun's MIN-7 HMG:
+    id: 356052
     name: Gastun's MIN-7 HMG
+    volume: 0.01
   Ghalag's Modified MRT-17 Rail Rifle:
+    id: 367519
     name: Ghalag's Modified MRT-17 Rail Rifle
+    volume: 0.01
   Ghalag's OCT-91 Bolt Pistol:
+    id: 368589
     name: Ghalag's OCT-91 Bolt Pistol
+    volume: 0.01
   HK-2 Scrambler Pistol:
+    id: 363406
     name: HK-2 Scrambler Pistol
+    volume: 0.01
   HK4M Shotgun:
+    id: 355434
     name: HK4M Shotgun
+    volume: 0.01
   Hacked EX-0 AV Grenade:
+    id: 363408
     name: Hacked EX-0 AV Grenade
+    volume: 0.01
   Handheld weapon needs a name:
+    id: 356516
     name: Handheld weapon needs a name
+    volume: 0.01
   Heavy Machine Gun:
+    id: 351063
     name: Heavy Machine Gun
+    volume: 0.01
   IA5 Tactical Scrambler Pistol:
+    id: 353200
     name: IA5 Tactical Scrambler Pistol
+    volume: 0.01
   Imperial Armaments Forge Gun:
+    id: 353153
     name: Imperial Armaments Forge Gun
+    volume: 0.01
   Imperial Assault Scrambler Rifle:
+    id: 368014
     name: Imperial Assault Scrambler Rifle
+    volume: 0.01
   Imperial Breach Scrambler Pistol:
+    id: 355605
     name: Imperial Breach Scrambler Pistol
+    volume: 0.01
   Imperial Burst Scrambler Pistol:
+    id: 353206
     name: Imperial Burst Scrambler Pistol
+    volume: 0.01
   Imperial CAR-9 Burst Scrambler Pistol:
+    id: 366433
     name: Imperial CAR-9 Burst Scrambler Pistol
+    volume: 0.01
   Imperial CRD-9 Assault Scrambler Rifle:
+    id: 366426
     name: Imperial CRD-9 Assault Scrambler Rifle
+    volume: 0.01
   Imperial CRW-04 Scrambler Rifle:
+    id: 366425
     name: Imperial CRW-04 Scrambler Rifle
+    volume: 0.01
   Imperial Carthum Assault Scrambler Rifle:
+    id: 366428
     name: Imperial Carthum Assault Scrambler Rifle
+    volume: 0.01
   Imperial ELM-7 Laser Rifle:
+    id: 366430
     name: Imperial ELM-7 Laser Rifle
+    volume: 0.01
   Imperial Laser Rifle:
+    id: 366429
     name: Imperial Laser Rifle
+    volume: 0.01
   Imperial Scrambler Pistol:
+    id: 366431
     name: Imperial Scrambler Pistol
+    volume: 0.01
   Imperial Scrambler Rifle:
+    id: 366424
     name: Imperial Scrambler Rifle
+    volume: 0.01
   Imperial Viziam Laser Rifle:
+    id: 366432
     name: Imperial Viziam Laser Rifle
+    volume: 0.01
   Imperial Viziam Scrambler Pistol:
+    id: 366434
     name: Imperial Viziam Scrambler Pistol
+    volume: 0.01
   Imperial Viziam Scrambler Rifle:
+    id: 366427
     name: Imperial Viziam Scrambler Rifle
+    volume: 0.01
   Imperial Viziam Specialist Laser Rifle:
+    id: 366096
     name: Imperial Viziam Specialist Laser Rifle
+    volume: 0.01
   Imperial Viziam Specialist Scrambler Rifle:
+    id: 366100
     name: Imperial Viziam Specialist Scrambler Rifle
+    volume: 0.01
   Ion Pistol:
+    id: 363578
     name: Ion Pistol
+    volume: 0.01
   Ironsight Test Assault Rifle:
+    id: 363106
     name: Ironsight Test Assault Rifle
+    volume: 0.01
   Ishukone Assault Forge Gun:
+    id: 353152
     name: Ishukone Assault Forge Gun
+    volume: 0.01
   Ishukone Assault Rail Rifle:
+    id: 365449
     name: Ishukone Assault Rail Rifle
+    volume: 0.01
   Ishukone Assault Submachine Gun:
+    id: 353135
     name: Ishukone Assault Submachine Gun
+    volume: 0.01
   Ishukone Assault Swarm Launcher:
+    id: 353189
     name: Ishukone Assault Swarm Launcher
+    volume: 0.01
   Ishukone Nova Knives:
+    id: 356632
     name: Ishukone Nova Knives
+    volume: 0.01
   Ishukone Scrambler Pistol:
+    id: 353204
     name: Ishukone Scrambler Pistol
+    volume: 0.01
   Ishukone Sniper Rifle:
+    id: 353169
     name: Ishukone Sniper Rifle
+    volume: 0.01
   K5 Specialist Shotgun:
+    id: 355864
     name: K5 Specialist Shotgun
+    volume: 0.01
   KLA-90 Plasma Cannon:
+    id: 363355
     name: KLA-90 Plasma Cannon
+    volume: 0.01
   KLO-1 Scrambler Pistol:
+    id: 355257
     name: KLO-1 Scrambler Pistol
+    volume: 0.01
   KR-17 Breach Shotgun:
+    id: 355514
     name: KR-17 Breach Shotgun
+    volume: 0.01
   Kaalakiota Bolt Pistol:
+    id: 365578
     name: Kaalakiota Bolt Pistol
+    volume: 0.01
   Kaalakiota Forge Gun:
+    id: 353151
     name: Kaalakiota Forge Gun
+    volume: 0.01
   Kaalakiota Magsec SMG:
+    id: 365567
     name: Kaalakiota Magsec SMG
+    volume: 0.01
   Kaalakiota Rail Rifle:
+    id: 365448
     name: Kaalakiota Rail Rifle
+    volume: 0.01
   Kaalakiota Tactical Sniper Rifle:
+    id: 355256
     name: Kaalakiota Tactical Sniper Rifle
+    volume: 0.01
   Kalante's RXS-05 Assault Rifle:
+    id: 367517
     name: Kalante's RXS-05 Assault Rifle
+    volume: 0.01
   Krin's SIN-11 Assault Rifle:
+    id: 356042
     name: Krin's SIN-11 Assault Rifle
+    volume: 0.01
   Kubo's PE-165 Ion Pistol:
+    id: 368588
     name: Kubo's PE-165 Ion Pistol
+    volume: 0.01
   Kubo's PX-6 Scrambler Pistol:
+    id: 368591
     name: Kubo's PX-6 Scrambler Pistol
+    volume: 0.01
   Kubo’s GMK-16 Plasma Cannon:
+    id: 367477
     name: Kubo’s GMK-16 Plasma Cannon
+    volume: 0.01
   Lai Dai Compact Sniper Rifle:
+    id: 353170
     name: Lai Dai Compact Sniper Rifle
+    volume: 0.01
   Lai Dai Packed AV Grenade:
+    id: 355617
     name: Lai Dai Packed AV Grenade
+    volume: 0.01
   Lai Dai Sleek AV Grenade:
+    id: 353736
     name: Lai Dai Sleek AV Grenade
+    volume: 0.01
   Laser Rifle:
+    id: 354685
     name: Laser Rifle
+    volume: 0.01
   Locus Grenade:
+    id: 351706
     name: Locus Grenade
+    volume: 0.01
   Luis' Modified VC-107 Combat Rifle:
+    id: 367511
     name: Luis' Modified VC-107 Combat Rifle
+    volume: 0.01
   M1 Locus Grenade:
+    id: 353693
     name: M1 Locus Grenade
+    volume: 0.01
   M209 Assault Submachine Gun:
+    id: 353130
     name: M209 Assault Submachine Gun
+    volume: 0.01
   M512-A Submachine Gun:
+    id: 353129
     name: M512-A Submachine Gun
+    volume: 0.01
   M8 Packed Locus Grenade:
+    id: 353694
     name: M8 Packed Locus Grenade
+    volume: 0.01
   MH-82 Heavy Machine Gun:
+    id: 354961
     name: MH-82 Heavy Machine Gun
+    volume: 0.01
   MLR-A Burst Heavy Machine Gun:
+    id: 355861
     name: MLR-A Burst Heavy Machine Gun
+    volume: 0.01
   MO-4 Assault Heavy Machine Gun:
+    id: 355862
     name: MO-4 Assault Heavy Machine Gun
+    volume: 0.01
   Magsec SMG:
+    id: 363551
     name: Magsec SMG
+    volume: 0.01
   Mass Driver:
+    id: 351855
     name: Mass Driver
+    volume: 0.01
   Miasma Grenade:
+    id: 352522
     name: Miasma Grenade
+    volume: 0.01
   Militia 20GJ Blaster:
+    id: 352314
     name: Militia 20GJ Blaster
+    volume: 0.01
   Militia 20GJ Railgun:
+    id: 352304
     name: Militia 20GJ Railgun
+    volume: 0.01
   Militia 80GJ Blaster:
+    id: 352313
     name: Militia 80GJ Blaster
+    volume: 0.01
   Militia 80GJ Railgun:
+    id: 352305
     name: Militia 80GJ Railgun
+    volume: 0.01
   Militia AV Grenade:
+    id: 367632
     name: Militia AV Grenade
+    volume: 0.01
   Militia AV Grenade Blueprint:
+    id: 367633
     name: Militia AV Grenade Blueprint
+    volume: 0.01
   Militia Assault Combat Rifle:
+    id: 367992
     name: Militia Assault Combat Rifle
+    volume: 0.01
   Militia Assault Rail Rifle:
+    id: 367996
     name: Militia Assault Rail Rifle
+    volume: 0.01
   Militia Assault Rifle:
+    id: 353120
     name: Militia Assault Rifle
+    volume: 0.01
   Militia Assault Rifle Blueprint:
+    id: 356848
     name: Militia Assault Rifle Blueprint
+    volume: 0.01
   Militia Assault Scrambler Rifle:
+    id: 367994
     name: Militia Assault Scrambler Rifle
+    volume: 0.01
   Militia Bolt Pistol:
+    id: 367437
     name: Militia Bolt Pistol
+    volume: 0.01
   Militia Bolt Pistol Blueprint:
+    id: 367589
     name: Militia Bolt Pistol Blueprint
+    volume: 0.01
   Militia Combat Rifle:
+    id: 367227
     name: Militia Combat Rifle
+    volume: 0.01
   Militia Combat Rifle Blueprint:
+    id: 367624
     name: Militia Combat Rifle Blueprint
+    volume: 0.01
   Militia Flaylock Pistol:
+    id: 367472
     name: Militia Flaylock Pistol
+    volume: 0.01
   Militia Flaylock Pistol Blueprint:
+    id: 367587
     name: Militia Flaylock Pistol Blueprint
+    volume: 0.01
   Militia Flux Grenade:
+    id: 367630
     name: Militia Flux Grenade
+    volume: 0.01
   Militia Flux Grenade Blueprint:
+    id: 367631
     name: Militia Flux Grenade Blueprint
+    volume: 0.01
   Militia Forge Gun:
+    id: 363309
     name: Militia Forge Gun
+    volume: 0.01
   Militia Forge Gun Blueprint:
+    id: 367628
     name: Militia Forge Gun Blueprint
+    volume: 0.01
   Militia Heavy Machine Gun:
+    id: 367440
     name: Militia Heavy Machine Gun
+    volume: 0.01
   Militia Heavy Machine Gun Blueprint:
+    id: 367627
     name: Militia Heavy Machine Gun Blueprint
+    volume: 0.01
   Militia Ion Pistol:
+    id: 367436
     name: Militia Ion Pistol
+    volume: 0.01
   Militia Ion Pistol Blueprint:
+    id: 367590
     name: Militia Ion Pistol Blueprint
+    volume: 0.01
   Militia Laser Rifle:
+    id: 367229
     name: Militia Laser Rifle
+    volume: 0.01
   Militia Laser Rifle Blueprint:
+    id: 367622
     name: Militia Laser Rifle Blueprint
+    volume: 0.01
   Militia Locus Grenade:
+    id: 353741
     name: Militia Locus Grenade
+    volume: 0.01
   Militia Locus Grenade Blueprint:
+    id: 356847
     name: Militia Locus Grenade Blueprint
+    volume: 0.01
   Militia MT-1 Missile Launcher:
+    id: 353289
     name: Militia MT-1 Missile Launcher
+    volume: 0.01
   Militia Magsec SMG:
+    id: 367439
     name: Militia Magsec SMG
+    volume: 0.01
   Militia Magsec SMG Blueprint:
+    id: 367592
     name: Militia Magsec SMG Blueprint
+    volume: 0.01
   Militia Mass Driver:
+    id: 367230
     name: Militia Mass Driver
+    volume: 0.01
   Militia Mass Driver Blueprint:
+    id: 367629
     name: Militia Mass Driver Blueprint
+    volume: 0.01
   Militia Nova Knife Blueprint:
+    id: 367591
     name: Militia Nova Knife Blueprint
+    volume: 0.01
   Militia Nova Knives:
+    id: 367586
     name: Militia Nova Knives
+    volume: 0.01
   Militia Plasma Cannon:
+    id: 367228
     name: Militia Plasma Cannon
+    volume: 0.01
   Militia Plasma Cannon Blueprint:
+    id: 367625
     name: Militia Plasma Cannon Blueprint
+    volume: 0.01
   Militia Rail Rifle:
+    id: 367226
     name: Militia Rail Rifle
+    volume: 0.01
   Militia Rail Rifle Blueprint:
+    id: 367623
     name: Militia Rail Rifle Blueprint
+    volume: 0.01
   Militia Scrambler Pistol:
+    id: 353929
     name: Militia Scrambler Pistol
+    volume: 0.01
   Militia Scrambler Pistol Blueprint:
+    id: 356852
     name: Militia Scrambler Pistol Blueprint
+    volume: 0.01
   Militia Scrambler Rifle:
+    id: 367223
     name: Militia Scrambler Rifle
+    volume: 0.01
   Militia Scrambler Rifle Blueprint:
+    id: 367621
     name: Militia Scrambler Rifle Blueprint
+    volume: 0.01
   Militia Shotgun:
+    id: 354937
     name: Militia Shotgun
+    volume: 0.01
   Militia Shotgun Blueprint:
+    id: 356853
     name: Militia Shotgun Blueprint
+    volume: 0.01
   Militia Sniper Rifle:
+    id: 353175
     name: Militia Sniper Rifle
+    volume: 0.01
   Militia Sniper Rifle Blueprint:
+    id: 356850
     name: Militia Sniper Rifle Blueprint
+    volume: 0.01
   Militia Submachine Gun:
+    id: 353140
     name: Militia Submachine Gun
+    volume: 0.01
   Militia Submachine Gun Blueprint:
+    id: 356849
     name: Militia Submachine Gun Blueprint
+    volume: 0.01
   Militia Swarm Launcher:
+    id: 353193
     name: Militia Swarm Launcher
+    volume: 0.01
   Militia Swarm Launcher Blueprint:
+    id: 356851
     name: Militia Swarm Launcher Blueprint
+    volume: 0.01
   Missile Installation:
+    id: 355964
     name: Missile Installation
+    volume: 0.01
   Missile Launcher:
+    id: 355962
     name: Missile Launcher
+    volume: 0.01
   N7-A Magsec SMG:
+    id: 365566
     name: N7-A Magsec SMG
+    volume: 0.01
   NT-511 Sniper Rifle:
+    id: 353164
     name: NT-511 Sniper Rifle
+    volume: 0.01
   Nanaki's LORB-7 Magsec SMG:
+    id: 368590
     name: Nanaki's LORB-7 Magsec SMG
+    volume: 0.01
   Nothi's NOS-47 Nova Knives:
+    id: 368592
     name: Nothi's NOS-47 Nova Knives
+    volume: 0.01
   Nova Knives:
+    id: 356426
     name: Nova Knives
+    volume: 0.01
   PRO Drone Assault Rifle:
+    id: 355087
     name: PRO Drone Assault Rifle
+    volume: 0.01
   PRO Drone Forge Gun:
+    id: 355019
     name: PRO Drone Forge Gun
+    volume: 0.01
   PRO Drone HMG:
+    id: 355157
     name: PRO Drone HMG
+    volume: 0.01
   PRO Drone Laser Rifle:
+    id: 355104
     name: PRO Drone Laser Rifle
+    volume: 0.01
   PRO Drone Mass Driver:
+    id: 355067
     name: PRO Drone Mass Driver
+    volume: 0.01
   PRO Drone Shotgun:
+    id: 355010
     name: PRO Drone Shotgun
+    volume: 0.01
   PRO Drone Sniper Rifle:
+    id: 355043
     name: PRO Drone Sniper Rifle
+    volume: 0.01
   PRO Drone Swarm Launcher:
+    id: 355139
     name: PRO Drone Swarm Launcher
+    volume: 0.01
   Packed AV Grenade:
+    id: 353731
     name: Packed AV Grenade
+    volume: 0.01
   Passenger Position:
+    id: 355488
     name: Passenger Position
+    volume: 0.01
   Plasma Cannon:
+    id: 350916
     name: Plasma Cannon
+    volume: 0.01
   RS-90 Combat Rifle:
+    id: 365441
     name: RS-90 Combat Rifle
+    volume: 0.01
   Rail Rifle:
+    id: 363604
     name: Rail Rifle
+    volume: 0.01
   Railgun Installation:
+    id: 353258
     name: Railgun Installation
+    volume: 0.01
   Recruit Assault Rifle:
+    id: 364102
     name: Recruit Assault Rifle
+    volume: 0.01
   Recruit Submachine Gun:
+    id: 364103
     name: Recruit Submachine Gun
+    volume: 0.01
   Red Dot Test Burst Assault Rifle:
+    id: 363107
     name: Red Dot Test Burst Assault Rifle
+    volume: 0.01
   Republic Assault Combat Rifle:
+    id: 367813
     name: Republic Assault Combat Rifle
+    volume: 0.01
   Republic Boundless Heavy Machine Gun:
+    id: 366454
     name: Republic Boundless Heavy Machine Gun
+    volume: 0.01
   Republic Boundless Specialist Combat Rifle:
+    id: 366095
     name: Republic Boundless Specialist Combat Rifle
+    volume: 0.01
   Republic Core Flaylock Pistol:
+    id: 366460
     name: Republic Core Flaylock Pistol
+    volume: 0.01
   Republic EXO-5 Mass Driver:
+    id: 366462
     name: Republic EXO-5 Mass Driver
+    volume: 0.01
   Republic Flaylock Pistol:
+    id: 366458
     name: Republic Flaylock Pistol
+    volume: 0.01
   Republic Freedom Mass Driver:
+    id: 366463
     name: Republic Freedom Mass Driver
+    volume: 0.01
   Republic Freedom Specialist Mass Driver:
+    id: 366097
     name: Republic Freedom Specialist Mass Driver
+    volume: 0.01
   Republic GN-13 Flaylock Pistol:
+    id: 366459
     name: Republic GN-13 Flaylock Pistol
+    volume: 0.01
   Republic Heavy Machine Gun:
+    id: 366452
     name: Republic Heavy Machine Gun
+    volume: 0.01
   Republic M512-A Submachine Gun:
+    id: 366456
     name: Republic M512-A Submachine Gun
+    volume: 0.01
   Republic MH-82 Heavy Machine Gun:
+    id: 366453
     name: Republic MH-82 Heavy Machine Gun
+    volume: 0.01
   Republic Mass Driver:
+    id: 366461
     name: Republic Mass Driver
+    volume: 0.01
   Republic SK9M Breach Submachine Gun:
+    id: 366464
     name: Republic SK9M Breach Submachine Gun
+    volume: 0.01
   Republic Six Kin Submachine Gun:
+    id: 366457
     name: Republic Six Kin Submachine Gun
+    volume: 0.01
   Republic Submachine Gun:
+    id: 366455
     name: Republic Submachine Gun
+    volume: 0.01
   Roden Sniper Rifle:
+    id: 353171
     name: Roden Sniper Rifle
+    volume: 0.01
   SB-39 Rail Rifle:
+    id: 365447
     name: SB-39 Rail Rifle
+    volume: 0.01
   SK9M Breach Submachine Gun:
+    id: 353131
     name: SK9M Breach Submachine Gun
+    volume: 0.01
   SL-4 Assault Rail Rifle:
+    id: 365450
     name: SL-4 Assault Rail Rifle
+    volume: 0.01
   SR-25 Bolt Pistol:
+    id: 365577
     name: SR-25 Bolt Pistol
+    volume: 0.01
   ST-1 Accelerated Missile Launcher:
+    id: 355857
     name: ST-1 Accelerated Missile Launcher
+    volume: 0.01
   ST-1 Cycled Missile Launcher:
+    id: 355883
     name: ST-1 Cycled Missile Launcher
+    volume: 0.01
   ST-1 Fragmented Missile Launcher:
+    id: 355858
     name: ST-1 Fragmented Missile Launcher
+    volume: 0.01
   ST-1 Missile Launcher:
+    id: 351310
     name: ST-1 Missile Launcher
+    volume: 0.01
   ST-201 Accelerated Missile Launcher:
+    id: 355851
     name: ST-201 Accelerated Missile Launcher
+    volume: 0.01
   ST-201 Cycled Missile Launcher:
+    id: 355880
     name: ST-201 Cycled Missile Launcher
+    volume: 0.01
   ST-201 Fragmented Missile Launcher:
+    id: 355852
     name: ST-201 Fragmented Missile Launcher
+    volume: 0.01
   ST-201 Missile Launcher:
+    id: 351311
     name: ST-201 Missile Launcher
+    volume: 0.01
   Scrambler Pistol:
+    id: 352499
     name: Scrambler Pistol
+    volume: 0.01
   Scrambler Rifle:
+    id: 355679
     name: Scrambler Rifle
+    volume: 0.01
   Seeker Flaylock:
+    id: 356393
     name: Seeker Flaylock
+    volume: 0.01
   Shotgun:
+    id: 354583
     name: Shotgun
+    volume: 0.01
   Six Kin Assault Combat Rifle:
+    id: 365444
     name: Six Kin Assault Combat Rifle
+    volume: 0.01
   Six Kin Burst Heavy Machine Gun:
+    id: 355859
     name: Six Kin Burst Heavy Machine Gun
+    volume: 0.01
   Six Kin Submachine Gun:
+    id: 353134
     name: Six Kin Submachine Gun
+    volume: 0.01
   Sleek AV Grenade:
+    id: 353730
     name: Sleek AV Grenade
+    volume: 0.01
   Sleek Locus Grenade:
+    id: 353691
     name: Sleek Locus Grenade
+    volume: 0.01
   'Small Blaster Installation ':
+    id: 353705
     name: 'Small Blaster Installation '
+    volume: 0.01
   'Small CA Railgun Installation ':
+    id: 353701
     name: 'Small CA Railgun Installation '
+    volume: 0.01
   Small Rocket Installation:
+    id: 353702
     name: Small Rocket Installation
+    volume: 0.01
   Sniper Rifle:
+    id: 352556
     name: Sniper Rifle
+    volume: 0.01
   Sniper Rifle [Experimental]:
+    id: 356925
     name: Sniper Rifle [Experimental]
+    volume: 0.01
   Solar's PAR-8 Flaylock Pistol:
+    id: 368587
     name: Solar's PAR-8 Flaylock Pistol
+    volume: 0.01
   Specialist Scrambler Pistol:
+    id: 353196
     name: Specialist Scrambler Pistol
+    volume: 0.01
   Specialist Shotgun:
+    id: 355863
     name: Specialist Shotgun
+    volume: 0.01
   Specialist Swarm Launcher:
+    id: 353180
     name: Specialist Swarm Launcher
+    volume: 0.01
   Staff Recruiter Assault Rifle:
+    id: 364331
     name: Staff Recruiter Assault Rifle
+    volume: 0.01
   Staff Recruiter Laser Rifle:
+    id: 364334
     name: Staff Recruiter Laser Rifle
+    volume: 0.01
   Staff Recruiter Scrambler Pistol:
+    id: 364333
     name: Staff Recruiter Scrambler Pistol
+    volume: 0.01
   Staff Recruiter Sniper Rifle:
+    id: 364332
     name: Staff Recruiter Sniper Rifle
+    volume: 0.01
   State 20GJ Particle Accelerator:
+    id: 366517
     name: State 20GJ Particle Accelerator
+    volume: 0.01
   State 20GJ Particle Cannon:
+    id: 366520
     name: State 20GJ Particle Cannon
+    volume: 0.01
   State 20GJ Railgun:
+    id: 366512
     name: State 20GJ Railgun
+    volume: 0.01
   State 80GJ Particle Accelerator:
+    id: 366515
     name: State 80GJ Particle Accelerator
+    volume: 0.01
   State 80GJ Particle Cannon:
+    id: 366519
     name: State 80GJ Particle Cannon
+    volume: 0.01
   State 80GJ Railgun:
+    id: 366513
     name: State 80GJ Railgun
+    volume: 0.01
   State AT-1 Missile Launcher:
+    id: 366514
     name: State AT-1 Missile Launcher
+    volume: 0.01
   State AT-201 Missile Launcher:
+    id: 366516
     name: State AT-201 Missile Launcher
+    volume: 0.01
   State Assault Rail Rifle:
+    id: 368015
     name: State Assault Rail Rifle
+    volume: 0.01
   State C15-A Tactical Sniper Rifle:
+    id: 366500
     name: State C15-A Tactical Sniper Rifle
+    volume: 0.01
   State CBR7 Swarm Launcher:
+    id: 366499
     name: State CBR7 Swarm Launcher
+    volume: 0.01
   State Ishukone Assault Rail Rifle:
+    id: 366503
     name: State Ishukone Assault Rail Rifle
+    volume: 0.01
   State Ishukone Specialist Sniper Rifle:
+    id: 366102
     name: State Ishukone Specialist Sniper Rifle
+    volume: 0.01
   State Kaalakiota Rail Rifle:
+    id: 366506
     name: State Kaalakiota Rail Rifle
+    volume: 0.01
   State Kaalakiota Sniper Rifle:
+    id: 366505
     name: State Kaalakiota Sniper Rifle
+    volume: 0.01
   State Kaalakiota Specialist Rail Rifle:
+    id: 366099
     name: State Kaalakiota Specialist Rail Rifle
+    volume: 0.01
   State NT-511 Sniper Rifle:
+    id: 366501
     name: State NT-511 Sniper Rifle
+    volume: 0.01
   State Rail Rifle:
+    id: 366495
     name: State Rail Rifle
+    volume: 0.01
   State SB-39 Rail Rifle:
+    id: 366502
     name: State SB-39 Rail Rifle
+    volume: 0.01
   State SL-4 Assault Rail Rifle:
+    id: 366498
     name: State SL-4 Assault Rail Rifle
+    volume: 0.01
   State ST-1 Missile Launcher:
+    id: 366510
     name: State ST-1 Missile Launcher
+    volume: 0.01
   State ST-201 Missile Launcher:
+    id: 366511
     name: State ST-201 Missile Launcher
+    volume: 0.01
   State Sniper Rifle:
+    id: 366496
     name: State Sniper Rifle
+    volume: 0.01
   State Swarm Launcher:
+    id: 366497
     name: State Swarm Launcher
+    volume: 0.01
   State Wiyrkomi Specialist Swarm Launcher:
+    id: 366103
     name: State Wiyrkomi Specialist Swarm Launcher
+    volume: 0.01
   State Wiyrkomi Swarm Launcher:
+    id: 366504
     name: State Wiyrkomi Swarm Launcher
+    volume: 0.01
   State XT-1 Missile Launcher:
+    id: 366518
     name: State XT-1 Missile Launcher
+    volume: 0.01
   State XT-201 Missile Launcher:
+    id: 366521
     name: State XT-201 Missile Launcher
+    volume: 0.01
   Submachine Gun:
+    id: 352891
     name: Submachine Gun
+    volume: 0.01
   Swarm Launcher:
+    id: 353032
     name: Swarm Launcher
+    volume: 0.01
   Symb's FORK-5 Sniper Rifle:
+    id: 367500
     name: Symb's FORK-5 Sniper Rifle
+    volume: 0.01
   Synch AV Grenade:
+    id: 355615
     name: Synch AV Grenade
+    volume: 0.01
   T-12 Ion Pistol:
+    id: 365572
     name: T-12 Ion Pistol
+    volume: 0.01
   TT-3 Assault Scrambler Pistol:
+    id: 353201
     name: TT-3 Assault Scrambler Pistol
+    volume: 0.01
   TY-5 Breach Scrambler Pistol:
+    id: 355604
     name: TY-5 Breach Scrambler Pistol
+    volume: 0.01
   Tactical Assault Rifle:
+    id: 353107
     name: Tactical Assault Rifle
+    volume: 0.01
   Tactical Sniper Rifle:
+    id: 353161
     name: Tactical Sniper Rifle
+    volume: 0.01
   Thale's TAR-07 Sniper Rifle:
+    id: 356048
     name: Thale's TAR-07 Sniper Rifle
+    volume: 0.01
   Thukker Contact Locus Grenade:
+    id: 363069
     name: Thukker Contact Locus Grenade
+    volume: 0.01
   VN-30 Seeker Flaylock:
+    id: 363775
     name: VN-30 Seeker Flaylock
   VN-35 Tactical Seeker Flaylock:
+    id: 363797
     name: VN-35 Tactical Seeker Flaylock
   Viktor’s NEG-1 Laser Rifle:
+    id: 367541
     name: Viktor’s NEG-1 Laser Rifle
+    volume: 0.01
   Viziam Contact Grenade:
+    id: 366015
     name: Viziam Contact Grenade
+    volume: 0.01
   Viziam Laser Rifle:
+    id: 354960
     name: Viziam Laser Rifle
+    volume: 0.01
   Viziam Scrambler Pistol:
+    id: 353205
     name: Viziam Scrambler Pistol
+    volume: 0.01
   Viziam Scrambler Rifle:
+    id: 355685
     name: Viziam Scrambler Rifle
+    volume: 0.01
   Volatile Locus Grenade:
+    id: 353749
     name: Volatile Locus Grenade
+    volume: 0.01
   Wiyrkomi AV Grenade:
+    id: 353735
     name: Wiyrkomi AV Grenade
+    volume: 0.01
   Wiyrkomi Breach Forge Gun:
+    id: 355740
     name: Wiyrkomi Breach Forge Gun
+    volume: 0.01
   Wiyrkomi Specialist Swarm Launcher:
+    id: 353188
     name: Wiyrkomi Specialist Swarm Launcher
+    volume: 0.01
   Wiyrkomi Swarm Launcher:
+    id: 353187
     name: Wiyrkomi Swarm Launcher
+    volume: 0.01
   Wolfman's PCP-30 Scrambler Pistol:
+    id: 356050
     name: Wolfman's PCP-30 Scrambler Pistol
+    volume: 0.01
   X-MS Snowball Launcher:
+    id: 368519
     name: X-MS Snowball Launcher
+    volume: 0.01
   X-MS15 Snowball Launcher:
+    id: 368245
     name: X-MS15 Snowball Launcher
+    volume: 0.01
   X-MS16 Snowball Launcher:
+    id: 371027
     name: X-MS16 Snowball Launcher
+    volume: 0.01
   XT-1 Accelerated Missile Launcher:
+    id: 355855
     name: XT-1 Accelerated Missile Launcher
+    volume: 0.01
   XT-1 Cycled Missile Launcher:
+    id: 355882
     name: XT-1 Cycled Missile Launcher
+    volume: 0.01
   XT-1 Fragmented Missile Launcher:
+    id: 355856
     name: XT-1 Fragmented Missile Launcher
+    volume: 0.01
   XT-1 Missile Launcher:
+    id: 353801
     name: XT-1 Missile Launcher
+    volume: 0.01
   XT-201 Accelerated Missile Launcher:
+    id: 355849
     name: XT-201 Accelerated Missile Launcher
+    volume: 0.01
   XT-201 Cycled Missile Launcher:
+    id: 355879
     name: XT-201 Cycled Missile Launcher
+    volume: 0.01
   XT-201 Fragmented Missile Launcher:
+    id: 355850
     name: XT-201 Fragmented Missile Launcher
+    volume: 0.01
   XT-201 Missile Launcher:
+    id: 353817
     name: XT-201 Missile Launcher
+    volume: 0.01
   ZN-28 Nova Knives:
+    id: 356630
     name: ZN-28 Nova Knives
+    volume: 0.01
   '[TEST] Swarm Launcher':
+    id: 353042
     name: '[TEST] Swarm Launcher'
+    volume: 0.01

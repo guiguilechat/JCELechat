@@ -1,67 +1,133 @@
 items:
   Anakism:
+    id: 2126
     name: Anakism
+    volume: 22500.0
   Coreli Agent:
+    id: 17118
     name: Coreli Agent
+    volume: 22500.0
   Coreli Defender:
+    id: 17119
     name: Coreli Defender
+    volume: 26500.0
   Coreli Fugitive:
+    id: 17115
     name: Coreli Fugitive
+    volume: 24500.0
   Coreli Guard:
+    id: 17278
     name: Coreli Guard
+    volume: 23000.0
   Coreli Guardian Agent:
+    id: 17043
     name: Coreli Guardian Agent
+    volume: 26500.0
   Coreli Guardian Defender:
+    id: 24061
     name: Coreli Guardian Defender
+    volume: 26500.0
   Coreli Guardian Guard:
+    id: 24059
     name: Coreli Guardian Guard
+    volume: 26500.0
   Coreli Guardian Initiate:
+    id: 17040
     name: Coreli Guardian Initiate
+    volume: 23000.0
   Coreli Guardian Patroller:
+    id: 24058
     name: Coreli Guardian Patroller
+    volume: 26500.0
   Coreli Guardian Protector:
+    id: 24062
     name: Coreli Guardian Protector
+    volume: 26500.0
   Coreli Guardian Safeguard:
+    id: 24060
     name: Coreli Guardian Safeguard
+    volume: 26500.0
   Coreli Guardian Scout:
+    id: 17035
     name: Coreli Guardian Scout
+    volume: 23000.0
   Coreli Guardian Spy:
+    id: 17041
     name: Coreli Guardian Spy
+    volume: 26500.0
   Coreli Guardian Watchman:
+    id: 24057
     name: Coreli Guardian Watchman
+    volume: 26500.0
   Coreli Initiate:
+    id: 17121
     name: Coreli Initiate
+    volume: 24500.0
   Coreli Patroller:
+    id: 17120
     name: Coreli Patroller
+    volume: 29500.0
   Coreli Protector:
+    id: 17122
     name: Coreli Protector
+    volume: 26500.0
   Coreli Safeguard:
+    id: 17113
     name: Coreli Safeguard
+    volume: 23000.0
   Coreli Scout:
+    id: 17117
     name: Coreli Scout
+    volume: 22500.0
   Coreli Spy:
+    id: 17279
     name: Coreli Spy
+    volume: 25000.0
   Coreli Watchman:
+    id: 17116
     name: Coreli Watchman
+    volume: 29500.0
   Guardian Veteran:
+    id: 16569
     name: Guardian Veteran
+    volume: 26500.0
   Shadow Coreli Agent:
+    id: 17130
     name: Shadow Coreli Agent
+    volume: 22500.0
   Shadow Coreli Defender:
+    id: 17131
     name: Shadow Coreli Defender
+    volume: 26500.0
   Shadow Coreli Guard:
+    id: 17280
     name: Shadow Coreli Guard
+    volume: 23000.0
   Shadow Coreli Initiate:
+    id: 17133
     name: Shadow Coreli Initiate
+    volume: 24500.0
   Shadow Coreli Patroller:
+    id: 17132
     name: Shadow Coreli Patroller
+    volume: 29500.0
   Shadow Coreli Protector:
+    id: 17134
     name: Shadow Coreli Protector
+    volume: 26500.0
   Shadow Coreli Safeguard:
+    id: 17126
     name: Shadow Coreli Safeguard
+    volume: 23000.0
   Shadow Coreli Scout:
+    id: 17129
     name: Shadow Coreli Scout
+    volume: 22500.0
   Shadow Coreli Spy:
+    id: 17281
     name: Shadow Coreli Spy
+    volume: 25000.0
   Shadow Coreli Watchman:
+    id: 17128
     name: Shadow Coreli Watchman
+    volume: 29500.0

@@ -2,8 +2,12 @@ items:
   Drone Damage Amplifier I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 4394
     name: Drone Damage Amplifier I Blueprint
+    volume: 0.01
   Drone Damage Amplifier II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 4406
     name: Drone Damage Amplifier II Blueprint
+    volume: 0.01

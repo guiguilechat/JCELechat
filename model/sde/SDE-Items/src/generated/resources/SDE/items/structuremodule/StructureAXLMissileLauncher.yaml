@@ -12,4 +12,6 @@ items:
     Slots: 1
     Speed: 15000
     StructureItemVisualFlag: 1
+    id: 35921
     name: Standup AXL Missile Launcher I
+    volume: 4000.0

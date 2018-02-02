@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 33407
     name: Advanced Infomorph Psychology
+    volume: 0.01
   Biology:
     DurationBonus: 20
     PrimaryAttribute: 165
@@ -14,7 +16,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3405
     name: Biology
+    volume: 0.01
   Cloning Facility Operation:
     MaxJumpClonesBonus: 15
     PrimaryAttribute: 165
@@ -24,27 +28,35 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    id: 24606
     name: Cloning Facility Operation
+    volume: 0.01
   Cybernetics:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3411
     name: Cybernetics
+    volume: 0.01
   Infomorph Psychology:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 164
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 24242
     name: Infomorph Psychology
+    volume: 0.01
   Infomorph Synchronizing:
     PrimaryAttribute: 164
     RequiredSkill1: 24242
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 33399
     name: Infomorph Synchronizing
+    volume: 0.01
   Neurotoxin Control:
     BoosterAttributeModifier: -5
     PrimaryAttribute: 165
@@ -54,7 +66,9 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 25538
     name: Neurotoxin Control
+    volume: 0.01
   Neurotoxin Recovery:
     BoosterChanceBonus: -5
     PrimaryAttribute: 165
@@ -62,4 +76,6 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 25530
     name: Neurotoxin Recovery
+    volume: 0.01

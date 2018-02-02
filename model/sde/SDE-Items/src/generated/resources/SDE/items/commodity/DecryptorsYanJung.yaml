@@ -4,28 +4,38 @@ items:
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.800000011920929
+    id: 23168
     name: Yan Jung Info Matrix
+    volume: 1.0
   Yan Jung Semiotic Theory:
     InventionMEModifier: 0.5
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.4000000059604645
+    id: 23171
     name: Yan Jung Semiotic Theory
+    volume: 1.0
   Yan Jung Singularity Fact Sheet:
     InventionMEModifier: 1.7999999523162842
     InventionMaxRunModifier: 4.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 2.0
+    id: 23172
     name: Yan Jung Singularity Fact Sheet
+    volume: 1.0
   Yan Jung Trigonometric Laws:
     InventionMEModifier: 1.2000000476837158
     InventionMaxRunModifier: 3.0
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 1.5
+    id: 23170
     name: Yan Jung Trigonometric Laws
+    volume: 1.0
   Yan Jung Vellum Etch:
     InventionMEModifier: 1.100000023841858
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 0.8999999761581421
+    id: 23169
     name: Yan Jung Vellum Etch
+    volume: 1.0

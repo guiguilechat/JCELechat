@@ -7,7 +7,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31266
     name: Capital Inverted Signal Field Projector I
+    volume: 40.0
   Capital Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
@@ -17,7 +19,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31272
     name: Capital Inverted Signal Field Projector II
+    volume: 40.0
   Capital Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
@@ -26,7 +30,9 @@ items:
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31290
     name: Capital Particle Dispersion Augmentor I
+    volume: 40.0
   Capital Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
@@ -36,7 +42,9 @@ items:
     ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31296
     name: Capital Particle Dispersion Augmentor II
+    volume: 40.0
   Capital Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
@@ -45,7 +53,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    id: 31302
     name: Capital Particle Dispersion Projector I
+    volume: 40.0
   Capital Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
@@ -55,7 +65,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    id: 31308
     name: Capital Particle Dispersion Projector II
+    volume: 40.0
   Capital Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
@@ -64,7 +76,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    id: 31254
     name: Capital Signal Disruption Amplifier I
+    volume: 40.0
   Capital Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
@@ -74,7 +88,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    id: 31260
     name: Capital Signal Disruption Amplifier II
+    volume: 40.0
   Capital Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
@@ -83,7 +99,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31338
     name: Capital Targeting Systems Stabilizer I
+    volume: 40.0
   Capital Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
@@ -93,7 +111,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31344
     name: Capital Targeting Systems Stabilizer II
+    volume: 40.0
   Capital Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
@@ -102,7 +122,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31350
     name: Capital Tracking Diagnostic Subroutines I
+    volume: 40.0
   Capital Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
@@ -112,7 +134,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31356
     name: Capital Tracking Diagnostic Subroutines II
+    volume: 40.0
   Large Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
@@ -121,7 +145,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 26110
     name: Large Inverted Signal Field Projector I
+    volume: 20.0
   Large Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
@@ -131,7 +157,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 26354
     name: Large Inverted Signal Field Projector II
+    volume: 20.0
   Large Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
@@ -140,7 +168,9 @@ items:
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 26106
     name: Large Particle Dispersion Augmentor I
+    volume: 20.0
   Large Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
@@ -150,7 +180,9 @@ items:
     ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 26352
     name: Large Particle Dispersion Augmentor II
+    volume: 20.0
   Large Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
@@ -159,7 +191,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    id: 26108
     name: Large Particle Dispersion Projector I
+    volume: 20.0
   Large Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
@@ -169,7 +203,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    id: 26360
     name: Large Particle Dispersion Projector II
+    volume: 20.0
   Large Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
@@ -178,7 +214,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    id: 25928
     name: Large Signal Disruption Amplifier I
+    volume: 20.0
   Large Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
@@ -188,7 +226,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    id: 26344
     name: Large Signal Disruption Amplifier II
+    volume: 20.0
   Large Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
@@ -197,7 +237,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26096
     name: Large Targeting Systems Stabilizer I
+    volume: 20.0
   Large Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
@@ -207,7 +249,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26366
     name: Large Targeting Systems Stabilizer II
+    volume: 20.0
   Large Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
@@ -216,7 +260,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 26112
     name: Large Tracking Diagnostic Subroutines I
+    volume: 20.0
   Large Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
@@ -226,7 +272,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 26356
     name: Large Tracking Diagnostic Subroutines II
+    volume: 20.0
   Medium Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
@@ -235,7 +283,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31264
     name: Medium Inverted Signal Field Projector I
+    volume: 10.0
   Medium Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
@@ -245,7 +295,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31270
     name: Medium Inverted Signal Field Projector II
+    volume: 10.0
   Medium Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
@@ -254,7 +306,9 @@ items:
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31288
     name: Medium Particle Dispersion Augmentor I
+    volume: 10.0
   Medium Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
@@ -264,7 +318,9 @@ items:
     ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31294
     name: Medium Particle Dispersion Augmentor II
+    volume: 10.0
   Medium Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
@@ -273,7 +329,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    id: 31300
     name: Medium Particle Dispersion Projector I
+    volume: 10.0
   Medium Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
@@ -283,7 +341,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    id: 31306
     name: Medium Particle Dispersion Projector II
+    volume: 10.0
   Medium Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
@@ -292,7 +352,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    id: 31252
     name: Medium Signal Disruption Amplifier I
+    volume: 10.0
   Medium Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
@@ -302,7 +364,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    id: 31258
     name: Medium Signal Disruption Amplifier II
+    volume: 10.0
   Medium Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
@@ -311,7 +375,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31336
     name: Medium Targeting Systems Stabilizer I
+    volume: 10.0
   Medium Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
@@ -321,7 +387,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31342
     name: Medium Targeting Systems Stabilizer II
+    volume: 10.0
   Medium Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
@@ -330,7 +398,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31348
     name: Medium Tracking Diagnostic Subroutines I
+    volume: 10.0
   Medium Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
@@ -340,7 +410,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31354
     name: Medium Tracking Diagnostic Subroutines II
+    volume: 10.0
   Sensor Strength Rig I:
     Drawback: -10
     Hp: 40
@@ -352,7 +424,9 @@ items:
     ScanRadarStrengthPercent: 100
     TechLevel: 1
     UpgradeCost: 100
+    id: 26960
     name: Sensor Strength Rig I
+    volume: 5.0
   Sensor Strength Rig II:
     Drawback: -10
     Hp: 40
@@ -364,7 +438,9 @@ items:
     ScanRadarStrengthPercent: 120
     TechLevel: 1
     UpgradeCost: 150
+    id: 26962
     name: Sensor Strength Rig II
+    volume: 5.0
   Small Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
@@ -373,7 +449,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31262
     name: Small Inverted Signal Field Projector I
+    volume: 5.0
   Small Inverted Signal Field Projector II:
     Drawback: -10
     Hp: 40
@@ -383,7 +461,9 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31268
     name: Small Inverted Signal Field Projector II
+    volume: 5.0
   Small Particle Dispersion Augmentor I:
     Drawback: -10
     Hp: 40
@@ -392,7 +472,9 @@ items:
     ScanSkillEwStrengthBonus: 10.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31286
     name: Small Particle Dispersion Augmentor I
+    volume: 5.0
   Small Particle Dispersion Augmentor II:
     Drawback: -10
     Hp: 40
@@ -402,7 +484,9 @@ items:
     ScanSkillEwStrengthBonus: 15.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31292
     name: Small Particle Dispersion Augmentor II
+    volume: 5.0
   Small Particle Dispersion Projector I:
     Drawback: -10
     Hp: 40
@@ -411,7 +495,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 31298
     name: Small Particle Dispersion Projector I
+    volume: 5.0
   Small Particle Dispersion Projector II:
     Drawback: -10
     Hp: 40
@@ -421,7 +507,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 31304
     name: Small Particle Dispersion Projector II
+    volume: 5.0
   Small Signal Disruption Amplifier I:
     CapNeedBonus: -20
     Drawback: 10
@@ -430,7 +518,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 31250
     name: Small Signal Disruption Amplifier I
+    volume: 5.0
   Small Signal Disruption Amplifier II:
     CapNeedBonus: -25
     Drawback: 10
@@ -440,7 +530,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 31256
     name: Small Signal Disruption Amplifier II
+    volume: 5.0
   Small Targeting Amplifier I:
     AgilityMultiplier: -25.0
     Drawback: -25
@@ -449,7 +541,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 4369
     name: Small Targeting Amplifier I
+    volume: 5.0
   Small Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10
     Drawback: -10
@@ -458,7 +552,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31334
     name: Small Targeting Systems Stabilizer I
+    volume: 5.0
   Small Targeting Systems Stabilizer II:
     CloakingTargetingDelayBonus: -15
     Drawback: -10
@@ -468,7 +564,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31340
     name: Small Targeting Systems Stabilizer II
+    volume: 5.0
   Small Tracking Diagnostic Subroutines I:
     Drawback: -10
     Hp: 40
@@ -477,7 +575,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31346
     name: Small Tracking Diagnostic Subroutines I
+    volume: 5.0
   Small Tracking Diagnostic Subroutines II:
     Drawback: -10
     Hp: 40
@@ -487,4 +587,6 @@ items:
     ScanSkillEwStrengthBonus: 7.5
     TechLevel: 2
     UpgradeCost: 300
+    id: 31352
     name: Small Tracking Diagnostic Subroutines II
+    volume: 5.0

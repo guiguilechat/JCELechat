@@ -3,40 +3,48 @@ items:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1601
     name: Amarr Bonus
   Brutor Bonus:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 0.8999999761581421
+    id: 1608
     name: Brutor Bonus
   Civire Bonus:
     AccuracyMultiplier: 1.0299999713897705
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1603
     name: Civire Bonus
   Deteis Bonus:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1604
     name: Deteis Bonus
   Gallente Bonus:
     AccuracyMultiplier: 1.0
     MiningDurationMultiplier: 0.8999999761581421
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1605
     name: Gallente Bonus
   Intaki Bonus:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1606
     name: Intaki Bonus
   Ni-Kunni Bonus:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 1.0
     SpeedMultiplier: 1.0
+    id: 1602
     name: Ni-Kunni Bonus
   Sebiestor Bonus:
     AccuracyMultiplier: 1.0
     RepairCostMultiplier: 0.800000011920929
     SpeedMultiplier: 1.0
+    id: 1607
     name: Sebiestor Bonus

@@ -1,3 +1,5 @@
 items:
   Ring:
+    id: 24
     name: Ring
+    volume: 1.0

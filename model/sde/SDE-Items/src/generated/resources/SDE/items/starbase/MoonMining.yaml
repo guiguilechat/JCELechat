@@ -21,4 +21,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16221
     name: Moon Harvesting Array
+    volume: 4000.0

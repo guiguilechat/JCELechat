@@ -25,7 +25,7 @@ public class Blueprint {
 			try {
 				cache = new Yaml().loadAs(
 						new InputStreamReader(Blueprint.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
-						Container.class).locations;
+						Container.class).blueprints;
 			} catch (Exception exception) {
 				throw new UnsupportedOperationException("catch this", exception);
 			}
@@ -38,7 +38,7 @@ public class Blueprint {
 		output.mkdirs();
 		output.delete();
 		Container c = new Container();
-		c.locations = data;
+		c.blueprints = data;
 		try {
 			new Yaml(new CleanRepresenter(), Tools.blockDumper()).dump(c, new FileWriter(output));
 		} catch (IOException e) {
@@ -47,7 +47,7 @@ public class Blueprint {
 	}
 
 	private static final class Container {
-		public LinkedHashMap<String, Blueprint> locations;
+		public LinkedHashMap<String, Blueprint> blueprints;
 	}
 
 	// structure
@@ -59,6 +59,9 @@ public class Blueprint {
 	public static class Material {
 		public int quantity;
 		public String name;
+		public int id;
+		public String group;
+		public String category;
 		/**
 		 * probability is !=1 if this is a produc.
 		 */

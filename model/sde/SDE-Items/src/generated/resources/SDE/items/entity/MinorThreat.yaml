@@ -1,29 +1,57 @@
 items:
   Angel Rookie:
+    id: 30369
     name: Angel Rookie
+    volume: 21120.0
   Belter Hoodlum:
+    id: 43923
     name: Belter Hoodlum
+    volume: 19700.0
   Blood Raider Rookie:
+    id: 30379
     name: Blood Raider Rookie
+    volume: 28100.0
   CloneJacker Punk:
+    id: 43922
     name: CloneJacker Punk
+    volume: 19700.0
   Clonejacker Punk:
+    id: 34579
     name: Clonejacker Punk
+    volume: 19700.0
   Damaged Vessel:
+    id: 32471
     name: Damaged Vessel
+    volume: 115000.0
   Guristas Rookie:
+    id: 30380
     name: Guristas Rookie
+    volume: 15001.0
   Insurance Teaching Drone:
+    id: 3548
     name: Insurance Teaching Drone
+    volume: 20400.0
   Mercenary Trainee:
+    id: 2052
     name: Mercenary Trainee
+    volume: 19700.0
   Narco Pusher:
+    id: 43924
     name: Narco Pusher
+    volume: 19700.0
   Rebel Leader:
+    id: 2010
     name: Rebel Leader
+    volume: 21120.0
   Runner Drone:
+    id: 30366
     name: Runner Drone
+    volume: 250.0
   Serpentis Rookie:
+    id: 30381
     name: Serpentis Rookie
+    volume: 24500.0
   Webber Drone:
+    id: 30365
     name: Webber Drone
+    volume: 250.0

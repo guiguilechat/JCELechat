@@ -9,7 +9,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 1223
     name: Bistot
+    volume: 16.0
   Compressed Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -18,7 +20,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 28388
     name: Compressed Bistot
+    volume: 4.4
   Compressed Cubic Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -27,7 +31,9 @@ items:
     OreBasicType: 46676
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 46692
     name: Compressed Cubic Bistot
+    volume: 4.4
   Compressed Monoclinic Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -36,7 +42,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 28389
     name: Compressed Monoclinic Bistot
+    volume: 4.4
   Compressed Triclinic Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -45,7 +53,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 28390
     name: Compressed Triclinic Bistot
+    volume: 4.4
   Cubic Bistot:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -56,7 +66,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 46676
     name: Cubic Bistot
+    volume: 16.0
   Monoclinic Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -67,7 +79,9 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 17429
     name: Monoclinic Bistot
+    volume: 16.0
   Triclinic Bistot:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -78,4 +92,6 @@ items:
     OreBasicType: 1223
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
+    id: 17428
     name: Triclinic Bistot
+    volume: 16.0

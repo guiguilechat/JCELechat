@@ -1,103 +1,171 @@
 items:
   Gamma L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1176
     name: Gamma L Blueprint
+    volume: 0.01
   Gamma M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1168
     name: Gamma M Blueprint
+    volume: 0.01
   Gamma S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1160
     name: Gamma S Blueprint
+    volume: 0.01
   Gamma XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17681
     name: Gamma XL Blueprint
+    volume: 0.01
   Imperial Navy Multifrequency S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 23072
     name: Imperial Navy Multifrequency S Blueprint
+    volume: 0.01
   Infrared L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1172
     name: Infrared L Blueprint
+    volume: 0.01
   Infrared M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1164
     name: Infrared M Blueprint
+    volume: 0.01
   Infrared S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1156
     name: Infrared S Blueprint
+    volume: 0.01
   Infrared XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17683
     name: Infrared XL Blueprint
+    volume: 0.01
   Microwave L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1171
     name: Microwave L Blueprint
+    volume: 0.01
   Microwave M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1163
     name: Microwave M Blueprint
+    volume: 0.01
   Microwave S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1155
     name: Microwave S Blueprint
+    volume: 0.01
   Microwave XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17685
     name: Microwave XL Blueprint
+    volume: 0.01
   Multifrequency L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1177
     name: Multifrequency L Blueprint
+    volume: 0.01
   Multifrequency M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1169
     name: Multifrequency M Blueprint
+    volume: 0.01
   Multifrequency S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1161
     name: Multifrequency S Blueprint
+    volume: 0.01
   Multifrequency XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17687
     name: Multifrequency XL Blueprint
+    volume: 0.01
   Orbital Laser S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 32800
     name: Orbital Laser S Blueprint
+    volume: 0.01
   Radio L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1170
     name: Radio L Blueprint
+    volume: 0.01
   Radio M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1162
     name: Radio M Blueprint
+    volume: 0.01
   Radio S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1154
     name: Radio S Blueprint
+    volume: 0.01
   Radio XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17689
     name: Radio XL Blueprint
+    volume: 0.01
   Standard L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1173
     name: Standard L Blueprint
+    volume: 0.01
   Standard M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1165
     name: Standard M Blueprint
+    volume: 0.01
   Standard S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1157
     name: Standard S Blueprint
+    volume: 0.01
   Standard XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17691
     name: Standard XL Blueprint
+    volume: 0.01
   Ultraviolet L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1174
     name: Ultraviolet L Blueprint
+    volume: 0.01
   Ultraviolet M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1166
     name: Ultraviolet M Blueprint
+    volume: 0.01
   Ultraviolet S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1158
     name: Ultraviolet S Blueprint
+    volume: 0.01
   Ultraviolet XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17693
     name: Ultraviolet XL Blueprint
+    volume: 0.01
   Xray L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 1175
     name: Xray L Blueprint
+    volume: 0.01
   Xray M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 1167
     name: Xray M Blueprint
+    volume: 0.01
   Xray S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 1159
     name: Xray S Blueprint
+    volume: 0.01
   Xray XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17695
     name: Xray XL Blueprint
+    volume: 0.01

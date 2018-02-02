@@ -1,13 +1,25 @@
 items:
   True Sansha's Behemoth:
+    id: 23399
     name: True Sansha's Behemoth
+    volume: 100100.0
   True Sansha's Daemon:
+    id: 23398
     name: True Sansha's Daemon
+    volume: 100100.0
   True Sansha's Devil:
+    id: 23397
     name: True Sansha's Devil
+    volume: 100100.0
   True Sansha's Phantasm:
+    id: 23394
     name: True Sansha's Phantasm
+    volume: 100100.0
   True Sansha's Specter:
+    id: 23395
     name: True Sansha's Specter
+    volume: 100100.0
   True Sansha's Wraith:
+    id: 23396
     name: True Sansha's Wraith
+    volume: 100100.0

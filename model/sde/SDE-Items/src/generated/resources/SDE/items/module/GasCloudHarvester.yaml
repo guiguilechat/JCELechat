@@ -14,7 +14,9 @@ items:
     TargetGroup: 711
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 25540
     name: '''Crop'' Gas Cloud Harvester'
+    volume: 5.0
   '''Plow'' Gas Cloud Harvester':
     CapacitorNeed: 10.0
     DisallowEarlyDeactivation: 1
@@ -30,7 +32,9 @@ items:
     TargetGroup: 711
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 25542
     name: '''Plow'' Gas Cloud Harvester'
+    volume: 5.0
   Gas Cloud Harvester I:
     CapacitorNeed: 10.0
     DisallowEarlyDeactivation: 1
@@ -45,7 +49,9 @@ items:
     TargetGroup: 711
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 25266
     name: Gas Cloud Harvester I
+    volume: 5.0
   Gas Cloud Harvester II:
     CapacitorNeed: 15.0
     Cpu: 70.0
@@ -62,7 +68,9 @@ items:
     TargetGroup: 711
     TechLevel: 2
     TypeColorScheme: 11347
+    id: 25812
     name: Gas Cloud Harvester II
+    volume: 5.0
   Syndicate Gas Cloud Harvester:
     CapacitorNeed: 10.0
     DisallowEarlyDeactivation: 1
@@ -79,4 +87,6 @@ items:
     TargetGroup: 711
     TechLevel: 1
     TypeColorScheme: 11353
+    id: 28788
     name: Syndicate Gas Cloud Harvester
+    volume: 5.0

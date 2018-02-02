@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46639
     name: Standup L-Set Reprocessing Monitor I
+    volume: 20.0
   Standup L-Set Reprocessing Monitor II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46640
     name: Standup L-Set Reprocessing Monitor II
+    volume: 20.0

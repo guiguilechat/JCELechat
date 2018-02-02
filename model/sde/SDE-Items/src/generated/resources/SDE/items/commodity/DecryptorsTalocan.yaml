@@ -4,28 +4,38 @@ items:
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 4.5
     InventionTEModifier: 0.5
+    id: 21085
     name: Talocan Automation Accounts
+    volume: 1.0
   Talocan Info Shards:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 1.0
+    id: 21077
     name: Talocan Info Shards
+    volume: 1.0
   Talocan Intricate Formulas:
     InventionMEModifier: 1.2000000476837158
     InventionMaxRunModifier: 5.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.2000000476837158
+    id: 21087
     name: Talocan Intricate Formulas
+    volume: 1.0
   Talocan Mathematical Schematics:
     InventionMEModifier: 0.6000000238418579
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 4.0
     InventionTEModifier: 0.5
+    id: 21084
     name: Talocan Mathematical Schematics
+    volume: 1.0
   Talocan Sketch Books:
     InventionMEModifier: 0.6000000238418579
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 3.5
     InventionTEModifier: 0.6000000238418579
+    id: 21074
     name: Talocan Sketch Books
+    volume: 1.0

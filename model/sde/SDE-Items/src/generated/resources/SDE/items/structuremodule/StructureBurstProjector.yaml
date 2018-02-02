@@ -1,18 +1,34 @@
 items:
   Standup ECM Jammer Burst Projector:
+    id: 47069
     name: Standup ECM Jammer Burst Projector
+    volume: 4000.0
   Standup Energy Neutralization Burst Projector:
     CanFitShipGroup01: 1657
+    id: 35944
     name: Standup Energy Neutralization Burst Projector
+    volume: 4000.0
   Standup Gravitational Transportation Field Oscillator:
+    id: 47068
     name: Standup Gravitational Transportation Field Oscillator
+    volume: 8000.0
   Standup Sensor Dampening Burst Projector:
+    id: 47070
     name: Standup Sensor Dampening Burst Projector
+    volume: 4000.0
   Standup Stasis Webification Burst Projector:
+    id: 47071
     name: Standup Stasis Webification Burst Projector
+    volume: 4000.0
   Standup Target Illumination Burst Projector:
+    id: 47072
     name: Standup Target Illumination Burst Projector
+    volume: 4000.0
   Standup Warp Disruption Burst Projector:
+    id: 47073
     name: Standup Warp Disruption Burst Projector
+    volume: 4000.0
   Standup Weapon Disruption Burst Projector:
+    id: 47074
     name: Standup Weapon Disruption Burst Projector
+    volume: 4000.0

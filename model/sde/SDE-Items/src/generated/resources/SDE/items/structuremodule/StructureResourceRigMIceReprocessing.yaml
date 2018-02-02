@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46635
     name: Standup M-Set Ice Grading Processor I
+    volume: 10.0
   Standup M-Set Ice Grading Processor II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46636
     name: Standup M-Set Ice Grading Processor II
+    volume: 10.0

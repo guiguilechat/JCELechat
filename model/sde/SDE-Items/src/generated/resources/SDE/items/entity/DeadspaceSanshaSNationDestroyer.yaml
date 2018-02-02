@@ -1,25 +1,49 @@
 items:
   Centior Abomination:
+    id: 23991
     name: Centior Abomination
+    volume: 21120.0
   Centior Cannibal:
+    id: 23989
     name: Centior Cannibal
+    volume: 21120.0
   Centior Devourer:
+    id: 23990
     name: Centior Devourer
+    volume: 21120.0
   Centior Horror:
+    id: 23993
     name: Centior Horror
+    volume: 21120.0
   Centior Misshape:
+    id: 23972
     name: Centior Misshape
+    volume: 21120.0
   Centior Monster:
+    id: 23992
     name: Centior Monster
+    volume: 21120.0
   True Centior Abomination:
+    id: 24214
     name: True Centior Abomination
+    volume: 21120.0
   True Centior Cannibal:
+    id: 24212
     name: True Centior Cannibal
+    volume: 21120.0
   True Centior Devourer:
+    id: 24213
     name: True Centior Devourer
+    volume: 21120.0
   True Centior Horror:
+    id: 24216
     name: True Centior Horror
+    volume: 21120.0
   True Centior Misshape:
+    id: 24211
     name: True Centior Misshape
+    volume: 21120.0
   True Centior Monster:
+    id: 24215
     name: True Centior Monster
+    volume: 21120.0

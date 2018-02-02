@@ -2,20 +2,30 @@ items:
   Autotrophs:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    id: 2305
     name: Autotrophs
+    volume: 0.01
   Carbon Compounds:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    id: 2288
     name: Carbon Compounds
+    volume: 0.01
   Complex Organisms:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    id: 2287
     name: Complex Organisms
+    volume: 0.01
   Microorganisms:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    id: 2073
     name: Microorganisms
+    volume: 0.01
   Planktic Colonies:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
+    id: 2286
     name: Planktic Colonies
+    volume: 0.01

@@ -1,121 +1,241 @@
 items:
   Amarr Advanced Outpost Factory:
+    id: 28076
     name: Amarr Advanced Outpost Factory
+    volume: 1.0
   Amarr Advanced Outpost Laboratory:
+    id: 28078
     name: Amarr Advanced Outpost Laboratory
+    volume: 1.0
   Amarr Advanced Outpost Office:
+    id: 28079
     name: Amarr Advanced Outpost Office
+    volume: 1.0
   Amarr Advanced Outpost Plant:
+    id: 28077
     name: Amarr Advanced Outpost Plant
+    volume: 1.0
   Amarr Advanced Outpost Refinery:
+    id: 28080
     name: Amarr Advanced Outpost Refinery
+    volume: 1.0
   Amarr Basic Outpost Factory:
+    id: 28081
     name: Amarr Basic Outpost Factory
+    volume: 1.0
   Amarr Basic Outpost Laboratory:
+    id: 28083
     name: Amarr Basic Outpost Laboratory
+    volume: 1.0
   Amarr Basic Outpost Office:
+    id: 28084
     name: Amarr Basic Outpost Office
+    volume: 1.0
   Amarr Basic Outpost Plant:
+    id: 28082
     name: Amarr Basic Outpost Plant
+    volume: 1.0
   Amarr Basic Outpost Refinery:
+    id: 28085
     name: Amarr Basic Outpost Refinery
+    volume: 1.0
   Amarr Outpost Factory:
+    id: 28086
     name: Amarr Outpost Factory
+    volume: 1.0
   Amarr Outpost Laboratory:
+    id: 28088
     name: Amarr Outpost Laboratory
+    volume: 1.0
   Amarr Outpost Office:
+    id: 28089
     name: Amarr Outpost Office
+    volume: 1.0
   Amarr Outpost Plant:
+    id: 28087
     name: Amarr Outpost Plant
+    volume: 1.0
   Amarr Outpost Refinery:
+    id: 28090
     name: Amarr Outpost Refinery
+    volume: 1.0
   Caldari Advanced Outpost Factory:
+    id: 28091
     name: Caldari Advanced Outpost Factory
+    volume: 1.0
   Caldari Advanced Outpost Laboratory:
+    id: 28092
     name: Caldari Advanced Outpost Laboratory
+    volume: 1.0
   Caldari Advanced Outpost Office:
+    id: 28094
     name: Caldari Advanced Outpost Office
+    volume: 1.0
   Caldari Advanced Outpost Refinery:
+    id: 28095
     name: Caldari Advanced Outpost Refinery
+    volume: 1.0
   Caldari Advanced Outpost Research Facility:
+    id: 28093
     name: Caldari Advanced Outpost Research Facility
+    volume: 1.0
   Caldari Basic Outpost Factory:
+    id: 28096
     name: Caldari Basic Outpost Factory
+    volume: 1.0
   Caldari Basic Outpost Laboratory:
+    id: 28097
     name: Caldari Basic Outpost Laboratory
+    volume: 1.0
   Caldari Basic Outpost Office:
+    id: 28099
     name: Caldari Basic Outpost Office
+    volume: 1.0
   Caldari Basic Outpost Refinery:
+    id: 28100
     name: Caldari Basic Outpost Refinery
+    volume: 1.0
   Caldari Basic Outpost Research Facility:
+    id: 28098
     name: Caldari Basic Outpost Research Facility
+    volume: 1.0
   Caldari Outpost Factory:
+    id: 28101
     name: Caldari Outpost Factory
+    volume: 1.0
   Caldari Outpost Laboratory:
+    id: 28102
     name: Caldari Outpost Laboratory
+    volume: 1.0
   Caldari Outpost Office:
+    id: 28104
     name: Caldari Outpost Office
+    volume: 1.0
   Caldari Outpost Refinery:
+    id: 28105
     name: Caldari Outpost Refinery
+    volume: 1.0
   Caldari Outpost Research Facility:
+    id: 28103
     name: Caldari Outpost Research Facility
+    volume: 1.0
   Gallente Advanced Outpost Factory:
+    id: 28106
     name: Gallente Advanced Outpost Factory
+    volume: 1.0
   Gallente Advanced Outpost Laboratory:
+    id: 28108
     name: Gallente Advanced Outpost Laboratory
+    volume: 1.0
   Gallente Advanced Outpost Office:
+    id: 28109
     name: Gallente Advanced Outpost Office
+    volume: 1.0
   Gallente Advanced Outpost Plant:
+    id: 28107
     name: Gallente Advanced Outpost Plant
+    volume: 1.0
   Gallente Advanced Outpost Refinery:
+    id: 28110
     name: Gallente Advanced Outpost Refinery
+    volume: 1.0
   Gallente Basic Outpost Factory:
+    id: 28111
     name: Gallente Basic Outpost Factory
+    volume: 1.0
   Gallente Basic Outpost Laboratory:
+    id: 28113
     name: Gallente Basic Outpost Laboratory
+    volume: 1.0
   Gallente Basic Outpost Office:
+    id: 28114
     name: Gallente Basic Outpost Office
+    volume: 1.0
   Gallente Basic Outpost Plant:
+    id: 28112
     name: Gallente Basic Outpost Plant
+    volume: 1.0
   Gallente Basic Outpost Refinery:
+    id: 28115
     name: Gallente Basic Outpost Refinery
+    volume: 1.0
   Gallente Outpost Factory:
+    id: 28116
     name: Gallente Outpost Factory
+    volume: 1.0
   Gallente Outpost Laboratory:
+    id: 28118
     name: Gallente Outpost Laboratory
+    volume: 1.0
   Gallente Outpost Office:
+    id: 28119
     name: Gallente Outpost Office
+    volume: 1.0
   Gallente Outpost Plant:
+    id: 28117
     name: Gallente Outpost Plant
+    volume: 1.0
   Gallente Outpost Refinery:
+    id: 28120
     name: Gallente Outpost Refinery
+    volume: 1.0
   Minmatar Advanced Outpost Factory:
+    id: 28121
     name: Minmatar Advanced Outpost Factory
+    volume: 1.0
   Minmatar Advanced Outpost Laboratory:
+    id: 28123
     name: Minmatar Advanced Outpost Laboratory
+    volume: 1.0
   Minmatar Advanced Outpost Office:
+    id: 28124
     name: Minmatar Advanced Outpost Office
+    volume: 1.0
   Minmatar Advanced Outpost Plant:
+    id: 28122
     name: Minmatar Advanced Outpost Plant
+    volume: 1.0
   Minmatar Advanced Outpost Refinery:
+    id: 28125
     name: Minmatar Advanced Outpost Refinery
+    volume: 1.0
   Minmatar Basic Outpost Factory:
+    id: 28126
     name: Minmatar Basic Outpost Factory
+    volume: 1.0
   Minmatar Basic Outpost Laboratory:
+    id: 28128
     name: Minmatar Basic Outpost Laboratory
+    volume: 1.0
   Minmatar Basic Outpost Office:
+    id: 28129
     name: Minmatar Basic Outpost Office
+    volume: 1.0
   Minmatar Basic Outpost Plant:
+    id: 28127
     name: Minmatar Basic Outpost Plant
+    volume: 1.0
   Minmatar Basic Outpost Refinery:
+    id: 28130
     name: Minmatar Basic Outpost Refinery
+    volume: 1.0
   Minmatar Outpost Factory:
+    id: 28131
     name: Minmatar Outpost Factory
+    volume: 1.0
   Minmatar Outpost Laboratory:
+    id: 28133
     name: Minmatar Outpost Laboratory
+    volume: 1.0
   Minmatar Outpost Office:
+    id: 28134
     name: Minmatar Outpost Office
+    volume: 1.0
   Minmatar Outpost Plant:
+    id: 28132
     name: Minmatar Outpost Plant
+    volume: 1.0
   Minmatar Outpost Refinery:
+    id: 28135
     name: Minmatar Outpost Refinery
+    volume: 1.0

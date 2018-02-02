@@ -1,11 +1,16 @@
 items:
   Certificate:
+    id: 29530
     name: Certificate
   Medal:
+    id: 29496
     name: Medal
   Rank:
+    id: 29495
     name: Rank
   Ribbon:
+    id: 29497
     name: Ribbon
   Schematic:
+    id: 2733
     name: Schematic

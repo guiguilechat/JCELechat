@@ -1,55 +1,91 @@
 items:
   Amarr Media Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 29329
     name: Amarr Media Shuttle Blueprint
+    volume: 0.01
   Amarr Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 11135
     name: Amarr Shuttle Blueprint
+    volume: 0.01
   Apotheosis Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 29267
     name: Apotheosis Blueprint
+    volume: 0.01
   Caldari Media Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 29331
     name: Caldari Media Shuttle Blueprint
+    volume: 0.01
   Caldari Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 967
     name: Caldari Shuttle Blueprint
+    volume: 0.01
   Civilian Amarr Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27300
     name: Civilian Amarr Shuttle Blueprint
+    volume: 0.01
   Civilian Caldari Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27302
     name: Civilian Caldari Shuttle Blueprint
+    volume: 0.01
   Civilian Gallente Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27304
     name: Civilian Gallente Shuttle Blueprint
+    volume: 0.01
   Civilian Minmatar Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 27306
     name: Civilian Minmatar Shuttle Blueprint
+    volume: 0.01
   Council Diplomatic Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 34497
     name: Council Diplomatic Shuttle Blueprint
+    volume: 0.01
   Gallente Media Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 29333
     name: Gallente Media Shuttle Blueprint
+    volume: 0.01
   Gallente Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 11130
     name: Gallente Shuttle Blueprint
+    volume: 0.01
   Goru's Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 21098
     name: Goru's Shuttle Blueprint
+    volume: 0.01
   Guristas Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 21629
     name: Guristas Shuttle Blueprint
+    volume: 0.01
   InterBus Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 30843
     name: InterBus Shuttle Blueprint
+    volume: 0.01
   Leopard Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 33514
     name: Leopard Blueprint
+    volume: 0.01
   Minmatar Media Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 29335
     name: Minmatar Media Shuttle Blueprint
+    volume: 0.01
   Minmatar Shuttle Blueprint:
     IndustryBlueprintRank: 20.0
+    id: 11133
     name: Minmatar Shuttle Blueprint
+    volume: 0.01

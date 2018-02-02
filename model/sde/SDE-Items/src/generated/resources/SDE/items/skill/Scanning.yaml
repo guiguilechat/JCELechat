@@ -9,7 +9,9 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10
+    id: 13278
     name: Archaeology
+    volume: 0.01
   Astrometric Acquisition:
     DurationBonus: -5
     PrimaryAttribute: 165
@@ -17,7 +19,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 25811
     name: Astrometric Acquisition
+    volume: 0.01
   Astrometric Pinpointing:
     MaxScanDeviationModifier: -5
     PrimaryAttribute: 165
@@ -25,7 +29,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 25810
     name: Astrometric Pinpointing
+    volume: 0.01
   Astrometric Rangefinding:
     PrimaryAttribute: 165
     RequiredSkill1: 3402
@@ -33,7 +39,9 @@ items:
     ScanStrengthBonus: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    id: 25739
     name: Astrometric Rangefinding
+    volume: 0.01
   Astrometrics:
     DurationBonus: -5
     MaxScanDeviationModifier: -5
@@ -43,7 +51,9 @@ items:
     ScanStrengthBonus: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3412
     name: Astrometrics
+    volume: 0.01
   Hacking:
     AccessDifficultyBonusAbsolutePercent: 1
     PrimaryAttribute: 165
@@ -54,7 +64,9 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     VirusCoherenceBonus: 10
+    id: 21718
     name: Hacking
+    volume: 0.01
   Survey:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -62,4 +74,6 @@ items:
     ScanspeedBonus: -5
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3551
     name: Survey
+    volume: 0.01

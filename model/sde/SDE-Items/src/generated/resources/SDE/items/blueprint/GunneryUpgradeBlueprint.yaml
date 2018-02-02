@@ -2,49 +2,75 @@ items:
   '''Capitalist'' Magnetic Field Stabilizer I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22918
     name: '''Capitalist'' Magnetic Field Stabilizer I Blueprint'
+    volume: 0.01
   '''Kindred'' Gyrostabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 21487
     name: '''Kindred'' Gyrostabilizer Blueprint'
+    volume: 0.01
   '''Monopoly'' Magnetic Field Stabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22920
     name: '''Monopoly'' Magnetic Field Stabilizer Blueprint'
+    volume: 0.01
   Federation Navy Magnetic Field Stabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 15896
     name: Federation Navy Magnetic Field Stabilizer Blueprint
+    volume: 0.01
   Gyrostabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1096
     name: Gyrostabilizer I Blueprint
+    volume: 0.01
   Gyrostabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1095
     name: Gyrostabilizer II Blueprint
+    volume: 0.01
   Kaatara's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
+    id: 44116
     name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
+    volume: 0.01
   Magnetic Field Stabilizer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 9945
     name: Magnetic Field Stabilizer I Blueprint
+    volume: 0.01
   Magnetic Field Stabilizer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 10191
     name: Magnetic Field Stabilizer II Blueprint
+    volume: 0.01
   Monophonic Stabilization Actuator I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 21489
     name: Monophonic Stabilization Actuator I Blueprint
+    volume: 0.01
   Republic Fleet Gyrostabilizer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 15807
     name: Republic Fleet Gyrostabilizer Blueprint
+    volume: 0.01
   Torelle's Custom Magnetic Field Stabilizer Blueprint:
     TechLevel: 1
+    id: 44115
     name: Torelle's Custom Magnetic Field Stabilizer Blueprint
+    volume: 0.01
   Vadari's Custom Gyrostabilizer Blueprint:
     TechLevel: 1
+    id: 44117
     name: Vadari's Custom Gyrostabilizer Blueprint
+    volume: 0.01

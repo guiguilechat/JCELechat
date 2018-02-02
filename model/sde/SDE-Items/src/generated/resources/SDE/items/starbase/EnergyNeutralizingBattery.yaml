@@ -40,7 +40,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27857
     name: Blood Energy Neutralizing Battery
+    volume: 4000.0
   Dark Blood Energy Neutralizing Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -82,7 +84,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27858
     name: Dark Blood Energy Neutralizing Battery
+    volume: 4000.0
   Energy Neutralizing Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -123,7 +127,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27672
     name: Energy Neutralizing Battery
+    volume: 4000.0
   Sansha Energy Neutralizing Battery:
     AnchoringDelay: 5000
     ArmorHP: 2250000
@@ -165,7 +171,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27855
     name: Sansha Energy Neutralizing Battery
+    volume: 4000.0
   True Sansha Energy Neutralizing Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -207,4 +215,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27856
     name: True Sansha Energy Neutralizing Battery
+    volume: 4000.0

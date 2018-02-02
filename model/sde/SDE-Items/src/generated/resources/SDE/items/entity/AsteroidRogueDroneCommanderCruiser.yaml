@@ -1,21 +1,41 @@
 items:
   Sentient Annihilator Alvum:
+    id: 27738
     name: Sentient Annihilator Alvum
+    volume: 60.0
   Sentient Atomizer Alvum:
+    id: 27739
     name: Sentient Atomizer Alvum
+    volume: 60.0
   Sentient Bomber Alvum:
+    id: 27740
     name: Sentient Bomber Alvum
+    volume: 60.0
   Sentient Destructor Alvum:
+    id: 27741
     name: Sentient Destructor Alvum
+    volume: 60.0
   Sentient Devastator Alvum:
+    id: 27742
     name: Sentient Devastator Alvum
+    volume: 60.0
   Sentient Disintegrator Alvum:
+    id: 27743
     name: Sentient Disintegrator Alvum
+    volume: 60.0
   Sentient Nuker Alvum:
+    id: 27744
     name: Sentient Nuker Alvum
+    volume: 60.0
   Sentient Violator Alvum:
+    id: 27745
     name: Sentient Violator Alvum
+    volume: 60.0
   Sentient Viral Infector Alvum:
+    id: 27746
     name: Sentient Viral Infector Alvum
+    volume: 60.0
   Sentient Wrecker Alvum:
+    id: 27747
     name: Sentient Wrecker Alvum
+    volume: 60.0

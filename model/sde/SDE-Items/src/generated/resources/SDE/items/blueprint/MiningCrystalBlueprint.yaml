@@ -2,158 +2,242 @@ items:
   Arkonor Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18037
     name: Arkonor Mining Crystal I Blueprint
+    volume: 0.01
   Arkonor Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18591
     name: Arkonor Mining Crystal II Blueprint
+    volume: 0.01
   Bistot Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18039
     name: Bistot Mining Crystal I Blueprint
+    volume: 0.01
   Bistot Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18593
     name: Bistot Mining Crystal II Blueprint
+    volume: 0.01
   Common Moon Ore Mining Crystal I Blueprint:
     TechLevel: 1
+    id: 46352
     name: Common Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
   Common Moon Ore Mining Crystal II Blueprint:
     TechLevel: 1
+    id: 46353
     name: Common Moon Ore Mining Crystal II Blueprint
+    volume: 0.01
   Crokite Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18041
     name: Crokite Mining Crystal I Blueprint
+    volume: 0.01
   Crokite Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18595
     name: Crokite Mining Crystal II Blueprint
+    volume: 0.01
   Dark Ochre Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18043
     name: Dark Ochre Mining Crystal I Blueprint
+    volume: 0.01
   Dark Ochre Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18597
     name: Dark Ochre Mining Crystal II Blueprint
+    volume: 0.01
   Exceptional Moon Ore Mining Crystal I Blueprint:
     TechLevel: 1
+    id: 46361
     name: Exceptional Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
   Exceptional Moon Ore Mining Crystal II Blueprint:
     TechLevel: 1
+    id: 46362
     name: Exceptional Moon Ore Mining Crystal II Blueprint
+    volume: 0.01
   Gneiss Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18045
     name: Gneiss Mining Crystal I Blueprint
+    volume: 0.01
   Gneiss Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18599
     name: Gneiss Mining Crystal II Blueprint
+    volume: 0.01
   Hedbergite Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18047
     name: Hedbergite Mining Crystal I Blueprint
+    volume: 0.01
   Hedbergite Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18601
     name: Hedbergite Mining Crystal II Blueprint
+    volume: 0.01
   Hemorphite Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18049
     name: Hemorphite Mining Crystal I Blueprint
+    volume: 0.01
   Hemorphite Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18603
     name: Hemorphite Mining Crystal II Blueprint
+    volume: 0.01
   Jaspet Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18051
     name: Jaspet Mining Crystal I Blueprint
+    volume: 0.01
   Jaspet Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18605
     name: Jaspet Mining Crystal II Blueprint
+    volume: 0.01
   Kernite Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18053
     name: Kernite Mining Crystal I Blueprint
+    volume: 0.01
   Kernite Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18607
     name: Kernite Mining Crystal II Blueprint
+    volume: 0.01
   Mercoxit Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18055
     name: Mercoxit Mining Crystal I Blueprint
+    volume: 0.01
   Mercoxit Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18609
     name: Mercoxit Mining Crystal II Blueprint
+    volume: 0.01
   Omber Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18057
     name: Omber Mining Crystal I Blueprint
+    volume: 0.01
   Omber Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18611
     name: Omber Mining Crystal II Blueprint
+    volume: 0.01
   Plagioclase Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18059
     name: Plagioclase Mining Crystal I Blueprint
+    volume: 0.01
   Plagioclase Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18613
     name: Plagioclase Mining Crystal II Blueprint
+    volume: 0.01
   Pyroxeres Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18061
     name: Pyroxeres Mining Crystal I Blueprint
+    volume: 0.01
   Pyroxeres Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18615
     name: Pyroxeres Mining Crystal II Blueprint
+    volume: 0.01
   Rare Moon Ore Mining Crystal I Blueprint:
     TechLevel: 1
+    id: 46359
     name: Rare Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
   Rare Moon Ore Mining Crystal II Blueprint:
     TechLevel: 1
+    id: 46360
     name: Rare Moon Ore Mining Crystal II Blueprint
+    volume: 0.01
   Scordite Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18063
     name: Scordite Mining Crystal I Blueprint
+    volume: 0.01
   Scordite Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18617
     name: Scordite Mining Crystal II Blueprint
+    volume: 0.01
   Spodumain Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18065
     name: Spodumain Mining Crystal I Blueprint
+    volume: 0.01
   Spodumain Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18625
     name: Spodumain Mining Crystal II Blueprint
+    volume: 0.01
   Ubiquitous Moon Ore Mining Crystal I Blueprint:
     TechLevel: 1
+    id: 46350
     name: Ubiquitous Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
   Ubiquitous Moon Ore Mining Crystal II Blueprint:
     TechLevel: 1
+    id: 46351
     name: Ubiquitous Moon Ore Mining Crystal II Blueprint
+    volume: 0.01
   Uncommon Moon Ore Mining Crystal I Blueprint:
     TechLevel: 1
+    id: 46357
     name: Uncommon Moon Ore Mining Crystal I Blueprint
+    volume: 0.01
   Uncommon Moon Ore Mining Crystal II Blueprint:
     TechLevel: 1
+    id: 46358
     name: Uncommon Moon Ore Mining Crystal II Blueprint
+    volume: 0.01
   Veldspar Mining Crystal I Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 18067
     name: Veldspar Mining Crystal I Blueprint
+    volume: 0.01
   Veldspar Mining Crystal II Blueprint:
     IndustryBlueprintRank: 1.600000023841858
     TechLevel: 2
+    id: 18619
     name: Veldspar Mining Crystal II Blueprint
+    volume: 0.01

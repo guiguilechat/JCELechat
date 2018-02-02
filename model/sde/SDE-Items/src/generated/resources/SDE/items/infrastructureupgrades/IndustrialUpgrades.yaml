@@ -2,33 +2,43 @@ items:
   Ore Prospecting Array 1:
     DevIndexIndustrial: 1
     DistributionID01: 364
+    id: 2040
     name: Ore Prospecting Array 1
+    volume: 5000.0
   Ore Prospecting Array 2:
     DevIndexIndustrial: 2
     DistributionID01: 365
     SovUpgradeRequiredUpgradeID: 2040
+    id: 2041
     name: Ore Prospecting Array 2
+    volume: 10000.0
   Ore Prospecting Array 3:
     DevIndexIndustrial: 3
     DistributionID01: 366
     DistributionID02: 676
     DistributionID03: 680
     SovUpgradeRequiredUpgradeID: 2041
+    id: 2042
     name: Ore Prospecting Array 3
+    volume: 20000.0
   Ore Prospecting Array 4:
     DevIndexIndustrial: 4
     DistributionID01: 367
     DistributionID02: 678
     DistributionID03: 681
     SovUpgradeRequiredUpgradeID: 2042
+    id: 2043
     name: Ore Prospecting Array 4
+    volume: 40000.0
   Ore Prospecting Array 5:
     DevIndexIndustrial: 5
     DistributionID01: 368
     DistributionID02: 679
     DistributionID03: 682
     SovUpgradeRequiredUpgradeID: 2043
+    id: 2044
     name: Ore Prospecting Array 5
+    volume: 60000.0
   Survey Networks 1:
     DevIndexIndustrial: 1
     DistributionIDAngel01: 369
@@ -37,7 +47,9 @@ items:
     DistributionIDRogueDrone01: 394
     DistributionIDSansha01: 384
     DistributionIDSerpentis01: 389
+    id: 2053
     name: Survey Networks 1
+    volume: 5000.0
   Survey Networks 2:
     DevIndexIndustrial: 2
     DistributionIDAngel01: 370
@@ -47,7 +59,9 @@ items:
     DistributionIDSansha01: 385
     DistributionIDSerpentis01: 390
     SovUpgradeRequiredUpgradeID: 2053
+    id: 2054
     name: Survey Networks 2
+    volume: 10000.0
   Survey Networks 3:
     DevIndexIndustrial: 3
     DistributionIDAngel01: 371
@@ -57,7 +71,9 @@ items:
     DistributionIDSansha01: 386
     DistributionIDSerpentis01: 391
     SovUpgradeRequiredUpgradeID: 2054
+    id: 2055
     name: Survey Networks 3
+    volume: 20000.0
   Survey Networks 4:
     DevIndexIndustrial: 4
     DistributionIDAngel01: 372
@@ -67,7 +83,9 @@ items:
     DistributionIDSansha01: 387
     DistributionIDSerpentis01: 392
     SovUpgradeRequiredUpgradeID: 2055
+    id: 2056
     name: Survey Networks 4
+    volume: 40000.0
   Survey Networks 5:
     DevIndexIndustrial: 5
     DistributionIDAngel01: 373
@@ -77,4 +95,6 @@ items:
     DistributionIDSansha01: 388
     DistributionIDSerpentis01: 393
     SovUpgradeRequiredUpgradeID: 2056
+    id: 2057
     name: Survey Networks 5
+    volume: 60000.0

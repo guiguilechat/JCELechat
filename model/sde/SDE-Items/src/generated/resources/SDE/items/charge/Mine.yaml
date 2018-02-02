@@ -7,7 +7,9 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
+    id: 3735
     name: Anaconda Mine
+    volume: 0.15
   Asp Mine:
     ExplosionRange: 500
     Hp: 100
@@ -16,7 +18,9 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
+    id: 3737
     name: Asp Mine
+    volume: 0.15
   Cobra Mine:
     ExplosionRange: 500
     Hp: 100
@@ -25,7 +29,9 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
+    id: 3733
     name: Cobra Mine
+    volume: 0.15
   Python Mine:
     ExplosionRange: 500
     Hp: 100
@@ -34,4 +40,6 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
+    id: 270
     name: Python Mine
+    volume: 0.15

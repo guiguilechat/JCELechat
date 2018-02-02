@@ -1,83 +1,165 @@
 items:
   Angel Advanced Trigger Mechanism:
+    id: 21729
     name: Angel Advanced Trigger Mechanism
+    volume: 0.1
   Angel Dynamic Calibrator:
+    id: 21733
     name: Angel Dynamic Calibrator
+    volume: 0.1
   Angel Simple Trigger Mechanism:
+    id: 21731
     name: Angel Simple Trigger Mechanism
+    volume: 0.1
   Angel Spatial Analyzer:
+    id: 21732
     name: Angel Spatial Analyzer
+    volume: 0.1
   Angel Standard Trigger Mechanism:
+    id: 21730
     name: Angel Standard Trigger Mechanism
+    volume: 0.1
   Blood Raider Extreme Ballistic Control:
+    id: 23150
     name: Blood Raider Extreme Ballistic Control
+    volume: 0.1
   Blood Raider Limited Ballistic Control:
+    id: 23148
     name: Blood Raider Limited Ballistic Control
+    volume: 0.1
   Blood Raider Power Redistributor:
+    id: 23152
     name: Blood Raider Power Redistributor
+    volume: 0.1
   Blood Raider Regular Ballistic Control:
+    id: 23149
     name: Blood Raider Regular Ballistic Control
+    volume: 0.1
   Blood Raider Weapon Integration Unit:
+    id: 23151
     name: Blood Raider Weapon Integration Unit
+    volume: 0.1
   Guristas Graviton Hardening:
+    id: 21728
     name: Guristas Graviton Hardening
+    volume: 0.1
   Guristas Gravity Focuser:
+    id: 21727
     name: Guristas Gravity Focuser
+    volume: 0.1
   Guristas Heavy Weapon Console:
+    id: 21724
     name: Guristas Heavy Weapon Console
+    volume: 0.1
   Guristas Light Weapon Console:
+    id: 21726
     name: Guristas Light Weapon Console
+    volume: 0.1
   Guristas Medium Weapon Console:
+    id: 21725
     name: Guristas Medium Weapon Console
+    volume: 0.1
   Serpentis 3D Scanner Gamut:
+    id: 23156
     name: Serpentis 3D Scanner Gamut
+    volume: 0.1
   Serpentis Basic Target Guider:
+    id: 23154
     name: Serpentis Basic Target Guider
+    volume: 0.1
   Serpentis Complex Target Guider:
+    id: 23155
     name: Serpentis Complex Target Guider
+    volume: 0.1
   Serpentis Modified Capital Microprocessor:
+    id: 42226
     name: Serpentis Modified Capital Microprocessor
+    volume: 1.0
   Serpentis Multi-tasking Processor:
+    id: 23157
     name: Serpentis Multi-tasking Processor
+    volume: 0.1
   Serpentis Plain Target Guider:
+    id: 23153
     name: Serpentis Plain Target Guider
+    volume: 0.1
   Sleeper Heat Nullifying Coil:
+    id: 21721
     name: Sleeper Heat Nullifying Coil
+    volume: 0.1
   Sleeper Hyperbooster:
+    id: 21719
     name: Sleeper Hyperbooster
+    volume: 0.1
   Sleeper Nanite Cluster:
+    id: 21722
     name: Sleeper Nanite Cluster
+    volume: 0.1
   Sleeper Reintegration Control:
+    id: 21723
     name: Sleeper Reintegration Control
+    volume: 0.1
   Sleeper Thermal Regulator:
+    id: 21720
     name: Sleeper Thermal Regulator
+    volume: 0.1
   Takmahl Biodroid Controller:
+    id: 23136
     name: Takmahl Biodroid Controller
+    volume: 0.1
   Takmahl Dynamic Gauge:
+    id: 23134
     name: Takmahl Dynamic Gauge
+    volume: 0.1
   Takmahl Gyro Ballast:
+    id: 23135
     name: Takmahl Gyro Ballast
+    volume: 0.1
   Takmahl Phrenic Appendix:
+    id: 23133
     name: Takmahl Phrenic Appendix
+    volume: 0.1
   Takmahl Quantum Sphere:
+    id: 23137
     name: Takmahl Quantum Sphere
+    volume: 0.1
   Talocan Perpetual Clock:
+    id: 21079
     name: Talocan Perpetual Clock
+    volume: 0.1
   Talocan Solid Atomizer:
+    id: 21080
     name: Talocan Solid Atomizer
+    volume: 0.1
   Talocan Stasis Deflector:
+    id: 21088
     name: Talocan Stasis Deflector
+    volume: 0.1
   Talocan Stasis Inverter:
+    id: 21076
     name: Talocan Stasis Inverter
+    volume: 0.1
   Talocan System Interface Unit:
+    id: 21082
     name: Talocan System Interface Unit
+    volume: 0.1
   Yan Jung Crystal Cylinder:
+    id: 23128
     name: Yan Jung Crystal Cylinder
+    volume: 0.1
   Yan Jung Paradox Box:
+    id: 23129
     name: Yan Jung Paradox Box
+    volume: 0.1
   Yan Jung Tachyon Stetoscope:
+    id: 23132
     name: Yan Jung Tachyon Stetoscope
+    volume: 0.1
   Yan Jung Thunder Kite:
+    id: 23130
     name: Yan Jung Thunder Kite
+    volume: 0.1
   Yan Jung Void Machine:
+    id: 23131
     name: Yan Jung Void Machine
+    volume: 0.1

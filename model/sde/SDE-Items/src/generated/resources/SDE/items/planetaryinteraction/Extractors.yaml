@@ -8,6 +8,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 800
+    id: 2409
     name: Barren Aqueous Liquid Extractor
   Barren Base Metals Extractor:
     CpuLoad: 200
@@ -18,6 +19,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 800
+    id: 2430
     name: Barren Base Metals Extractor
   Barren Carbon Compounds Extractor:
     CpuLoad: 200
@@ -28,6 +30,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 800
+    id: 2459
     name: Barren Carbon Compounds Extractor
   Barren Microorganisms Extractor:
     CpuLoad: 200
@@ -38,6 +41,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 800
+    id: 2449
     name: Barren Microorganisms Extractor
   Barren Noble Metals Extractor:
     CpuLoad: 200
@@ -48,6 +52,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2016
     PowerLoad: 800
+    id: 2435
     name: Barren Noble Metals Extractor
   Gas Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -58,6 +63,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 800
+    id: 2416
     name: Gas Aqueous Liquid Extractor
   Gas Base Metals Extractor:
     CpuLoad: 200
@@ -68,6 +74,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 800
+    id: 2433
     name: Gas Base Metals Extractor
   Gas Ionic Solutions Extractor:
     CpuLoad: 200
@@ -78,6 +85,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 800
+    id: 2424
     name: Gas Ionic Solutions Extractor
   Gas Noble Gas Extractor:
     CpuLoad: 200
@@ -88,6 +96,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 800
+    id: 2426
     name: Gas Noble Gas Extractor
   Gas Reactive Gas Extractor:
     CpuLoad: 200
@@ -98,6 +107,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 13
     PowerLoad: 800
+    id: 2427
     name: Gas Reactive Gas Extractor
   Ice Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -108,6 +118,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 800
+    id: 2415
     name: Ice Aqueous Liquid Extractor
   Ice Heavy Metals Extractor:
     CpuLoad: 200
@@ -118,6 +129,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 800
+    id: 2441
     name: Ice Heavy Metals Extractor
   Ice Microorganisms Extractor:
     CpuLoad: 200
@@ -128,6 +140,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 800
+    id: 2432
     name: Ice Microorganisms Extractor
   Ice Noble Gas Extractor:
     CpuLoad: 200
@@ -138,6 +151,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 800
+    id: 2423
     name: Ice Noble Gas Extractor
   Ice Planktic Colonies Extractor:
     CpuLoad: 200
@@ -148,6 +162,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 12
     PowerLoad: 800
+    id: 2438
     name: Ice Planktic Colonies Extractor
   Lava Base Metals Extractor:
     CpuLoad: 200
@@ -158,6 +173,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 800
+    id: 2428
     name: Lava Base Metals Extractor
   Lava Felsic Magma Extractor:
     CpuLoad: 200
@@ -168,6 +184,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 800
+    id: 2448
     name: Lava Felsic Magma Extractor
   Lava Heavy Metals Extractor:
     CpuLoad: 200
@@ -178,6 +195,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 800
+    id: 2439
     name: Lava Heavy Metals Extractor
   Lava Non-CS Crystals Extractor:
     CpuLoad: 200
@@ -188,6 +206,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 800
+    id: 2442
     name: Lava Non-CS Crystals Extractor
   Lava Suspended Plasma Extractor:
     CpuLoad: 200
@@ -198,6 +217,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2015
     PowerLoad: 800
+    id: 2418
     name: Lava Suspended Plasma Extractor
   Oceanic Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -208,6 +228,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 800
+    id: 2414
     name: Oceanic Aqueous Liquid Extractor
   Oceanic Carbon Compounds Extractor:
     CpuLoad: 200
@@ -218,6 +239,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 800
+    id: 2461
     name: Oceanic Carbon Compounds Extractor
   Oceanic Complex Organisms Extractor:
     CpuLoad: 200
@@ -228,6 +250,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 800
+    id: 2458
     name: Oceanic Complex Organisms Extractor
   Oceanic Microorganisms Extractor:
     CpuLoad: 200
@@ -238,6 +261,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 800
+    id: 2451
     name: Oceanic Microorganisms Extractor
   Oceanic Planktic Colonies Extractor:
     CpuLoad: 200
@@ -248,6 +272,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2014
     PowerLoad: 800
+    id: 2452
     name: Oceanic Planktic Colonies Extractor
   Plasma Base Metals Extractor:
     CpuLoad: 200
@@ -258,6 +283,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 800
+    id: 2429
     name: Plasma Base Metals Extractor
   Plasma Heavy Metals Extractor:
     CpuLoad: 200
@@ -268,6 +294,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 800
+    id: 2440
     name: Plasma Heavy Metals Extractor
   Plasma Noble Metals Extractor:
     CpuLoad: 200
@@ -278,6 +305,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 800
+    id: 2434
     name: Plasma Noble Metals Extractor
   Plasma Non-CS Crystals Extractor:
     CpuLoad: 200
@@ -288,6 +316,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 800
+    id: 2443
     name: Plasma Non-CS Crystals Extractor
   Plasma Suspended Plasma Extractor:
     CpuLoad: 200
@@ -298,6 +327,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2063
     PowerLoad: 800
+    id: 2417
     name: Plasma Suspended Plasma Extractor
   Storm Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -308,6 +338,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 800
+    id: 2413
     name: Storm Aqueous Liquid Extractor
   Storm Base Metals Extractor:
     CpuLoad: 200
@@ -318,6 +349,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 800
+    id: 2431
     name: Storm Base Metals Extractor
   Storm Ionic Solutions Extractor:
     CpuLoad: 200
@@ -328,6 +360,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 800
+    id: 2422
     name: Storm Ionic Solutions Extractor
   Storm Noble Gas Extractor:
     CpuLoad: 200
@@ -338,6 +371,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 800
+    id: 2425
     name: Storm Noble Gas Extractor
   Storm Suspended Plasma Extractor:
     CpuLoad: 200
@@ -348,6 +382,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 2017
     PowerLoad: 800
+    id: 2419
     name: Storm Suspended Plasma Extractor
   Temperate Aqueous Liquid Extractor:
     CpuLoad: 200
@@ -358,6 +393,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 800
+    id: 2412
     name: Temperate Aqueous Liquid Extractor
   Temperate Autotrophs Extractor:
     CpuLoad: 200
@@ -368,6 +404,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 800
+    id: 2462
     name: Temperate Autotrophs Extractor
   Temperate Carbon Compounds Extractor:
     CpuLoad: 200
@@ -378,6 +415,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 800
+    id: 2460
     name: Temperate Carbon Compounds Extractor
   Temperate Complex Organisms Extractor:
     CpuLoad: 200
@@ -388,6 +426,7 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 800
+    id: 2453
     name: Temperate Complex Organisms Extractor
   Temperate Microorganisms Extractor:
     CpuLoad: 200
@@ -398,4 +437,5 @@ items:
     PinExtractionQuantity: 1000
     PlanetRestriction: 11
     PowerLoad: 800
+    id: 2450
     name: Temperate Microorganisms Extractor

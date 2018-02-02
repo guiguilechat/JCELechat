@@ -57,6 +57,6 @@ public abstract class Decryptors
     }
 
     public static Map<String, ? extends Decryptors> loadCategory() {
-        return Stream.of(DecryptorsHybrid.load(), DecryptorsCaldari.load(), DecryptorsGallente.load(), DecryptorsAmarr.load(), DecryptorsMinmatar.load(), GenericDecryptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(DecryptorsGallente.load(), DecryptorsHybrid.load(), DecryptorsAmarr.load(), DecryptorsMinmatar.load(), DecryptorsCaldari.load(), GenericDecryptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

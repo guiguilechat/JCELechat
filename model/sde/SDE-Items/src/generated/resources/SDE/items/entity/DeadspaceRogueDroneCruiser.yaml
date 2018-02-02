@@ -1,61 +1,121 @@
 items:
   Annihilator Alvum:
+    id: 18083
     name: Annihilator Alvum
+    volume: 60.0
   Atomizer Alvum:
+    id: 23487
     name: Atomizer Alvum
+    volume: 60.0
   Bomber Alvum:
+    id: 18078
     name: Bomber Alvum
+    volume: 60.0
   COSMOS Strain Domination Drone:
+    id: 22281
     name: COSMOS Strain Domination Drone
+    volume: 60.0
   COSMOS Strain Matriarch Drone:
+    id: 22280
     name: COSMOS Strain Matriarch Drone
+    volume: 60.0
   COSMOS Strain Spearhead Drone:
+    id: 22282
     name: COSMOS Strain Spearhead Drone
+    volume: 60.0
   COSMOS Viral Infector Drone:
+    id: 22283
     name: COSMOS Viral Infector Drone
+    volume: 60.0
   Destructor Alvum:
+    id: 18082
     name: Destructor Alvum
+    volume: 60.0
   Devastator Alvum:
+    id: 18084
     name: Devastator Alvum
+    volume: 60.0
   Disintegrator Alvum:
+    id: 18077
     name: Disintegrator Alvum
+    volume: 60.0
   Drone Perimeter Guard:
+    id: 23686
     name: Drone Perimeter Guard
+    volume: 60.0
   Drone Worker:
+    id: 23687
     name: Drone Worker
+    volume: 60.0
   Elite Repair Drone:
+    id: 26269
     name: Elite Repair Drone
+    volume: 60.0
   Nuker Alvum:
+    id: 23488
     name: Nuker Alvum
+    volume: 60.0
   Searcher Drone_MISSION Spawn:
+    id: 22148
     name: Searcher Drone_MISSION Spawn
+    volume: 60.0
   Strain Annihilator Alvum:
+    id: 23921
     name: Strain Annihilator Alvum
+    volume: 60.0
   Strain Atomizer Alvum:
+    id: 23495
     name: Strain Atomizer Alvum
+    volume: 60.0
   Strain Bomber Alvum:
+    id: 23494
     name: Strain Bomber Alvum
+    volume: 60.0
   Strain Destructor Alvum:
+    id: 23492
     name: Strain Destructor Alvum
+    volume: 60.0
   Strain Devastator Alvum:
+    id: 23922
     name: Strain Devastator Alvum
+    volume: 60.0
   Strain Disintegrator Alvum:
+    id: 23493
     name: Strain Disintegrator Alvum
+    volume: 60.0
   Strain Domination Drone Replica:
+    id: 22729
     name: Strain Domination Drone Replica
+    volume: 60.0
   Strain Nuker Alvum:
+    id: 23496
     name: Strain Nuker Alvum
+    volume: 60.0
   Strain Violator Alvum:
+    id: 23924
     name: Strain Violator Alvum
+    volume: 60.0
   Strain Viral Infector Alvum:
+    id: 23923
     name: Strain Viral Infector Alvum
+    volume: 60.0
   Strain Wrecker Alvum:
+    id: 23491
     name: Strain Wrecker Alvum
+    volume: 60.0
   Swarm Overmind Tertius:
+    id: 45636
     name: Swarm Overmind Tertius
+    volume: 60.0
   Violator Alvum:
+    id: 18076
     name: Violator Alvum
+    volume: 60.0
   Viral Infector Alvum:
+    id: 3745
     name: Viral Infector Alvum
+    volume: 60.0
   Wrecker Alvum:
+    id: 3746
     name: Wrecker Alvum
+    volume: 60.0

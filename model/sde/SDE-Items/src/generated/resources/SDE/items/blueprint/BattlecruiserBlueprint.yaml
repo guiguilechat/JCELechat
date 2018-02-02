@@ -3,147 +3,209 @@ items:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22449
     name: Absolution Blueprint
+    volume: 0.01
   Astarte Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22467
     name: Astarte Blueprint
+    volume: 0.01
   Brutix Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16230
     name: Brutix Blueprint
+    volume: 0.01
   Brutix Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33152
     name: Brutix Navy Issue Blueprint
+    volume: 0.01
   Brutix Serpentis Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    id: 33870
     name: Brutix Serpentis Edition Blueprint
+    volume: 0.01
   Claymore Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22469
     name: Claymore Blueprint
+    volume: 0.01
   Cyclone Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16232
     name: Cyclone Blueprint
+    volume: 0.01
   Cyclone Thukker Tribe Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    id: 33872
     name: Cyclone Thukker Tribe Edition Blueprint
+    volume: 0.01
   Damnation Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22475
     name: Damnation Blueprint
+    volume: 0.01
   Drake Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 24699
     name: Drake Blueprint
+    volume: 0.01
   Drake Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33154
     name: Drake Navy Issue Blueprint
+    volume: 0.01
   Eos Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22443
     name: Eos Blueprint
+    volume: 0.01
   Ferox Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16228
     name: Ferox Blueprint
+    volume: 0.01
   Ferox Guristas Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    id: 33874
     name: Ferox Guristas Edition Blueprint
+    volume: 0.01
   Gnosis Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33327
     name: Gnosis Blueprint
+    volume: 0.01
   Harbinger Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 24697
     name: Harbinger Blueprint
+    volume: 0.01
   Harbinger Navy Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33156
     name: Harbinger Navy Issue Blueprint
+    volume: 0.01
   Hurricane Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 24703
     name: Hurricane Blueprint
+    volume: 0.01
   Hurricane Fleet Issue Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 33158
     name: Hurricane Fleet Issue Blueprint
+    volume: 0.01
   Myrmidon Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 24701
     name: Myrmidon Blueprint
+    volume: 0.01
   Naga Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 4307
     name: Naga Blueprint
+    volume: 0.01
   Nighthawk Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22471
     name: Nighthawk Blueprint
+    volume: 0.01
   Oracle Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 4305
     name: Oracle Blueprint
+    volume: 0.01
   Prophecy Blood Raiders Edition Blueprint:
     IndustryBlueprintRank: 50.0
     TechLevel: 1
+    id: 33876
     name: Prophecy Blood Raiders Edition Blueprint
+    volume: 0.01
   Prophecy Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 16234
     name: Prophecy Blueprint
+    volume: 0.01
   Prototype Seven Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 45535
     name: Prototype Seven Blueprint
+    volume: 0.01
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22445
     name: Sleipnir Blueprint
+    volume: 0.01
   Talos Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 4309
     name: Talos Blueprint
+    volume: 0.01
   Tornado Blueprint:
     IndustryBlueprintRank: 50.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
+    id: 4311
     name: Tornado Blueprint
+    volume: 0.01
   Vulture Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
+    id: 22447
     name: Vulture Blueprint
+    volume: 0.01
   幼龙级YC117年特别版蓝图:
     TechLevel: 1
+    id: 34474
     name: 幼龙级YC117年特别版蓝图
+    volume: 0.01

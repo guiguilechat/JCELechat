@@ -5,343 +5,441 @@ items:
     RequiredSkill1Level: 1
     SpeedFBonus: 1
     TechLevel: 1
+    id: 27101
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-601
+    volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-602:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     SpeedFBonus: 2
     TechLevel: 1
+    id: 3120
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-602
+    volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-603:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     SpeedFBonus: 3
     TechLevel: 1
+    id: 16008
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-603
+    volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-604:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     SpeedFBonus: 4
     TechLevel: 1
+    id: 3121
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-604
+    volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-605:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     SpeedFBonus: 5
     TechLevel: 1
+    id: 16009
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-605
+    volume: 1.0
   Eifyr and Co. 'Rogue' Acceleration Control AC-606:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     SpeedFBonus: 6
     TechLevel: 1
+    id: 3124
     name: Eifyr and Co. 'Rogue' Acceleration Control AC-606
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-602:
     DurationBonus: 2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27111
     name: Eifyr and Co. 'Rogue' Afterburner AB-602
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-604:
     DurationBonus: 4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3104
     name: Eifyr and Co. 'Rogue' Afterburner AB-604
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-606:
     DurationBonus: 6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13239
     name: Eifyr and Co. 'Rogue' Afterburner AB-606
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-608:
     DurationBonus: 8
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3105
     name: Eifyr and Co. 'Rogue' Afterburner AB-608
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-610:
     DurationBonus: 10
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27110
     name: Eifyr and Co. 'Rogue' Afterburner AB-610
+    volume: 1.0
   Eifyr and Co. 'Rogue' Afterburner AB-612:
     DurationBonus: 12
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3108
     name: Eifyr and Co. 'Rogue' Afterburner AB-612
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701:
     AgilityBonus: -1.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27099
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702:
     AgilityBonus: -2.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3093
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703:
     AgilityBonus: -3.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13240
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704:
     AgilityBonus: -4.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3094
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705:
     AgilityBonus: -5.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16004
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-705
+    volume: 1.0
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706:
     AgilityBonus: -6.0
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3095
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-801:
     CapNeedBonus: -1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27098
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-801
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-802:
     CapNeedBonus: -2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3101
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-802
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-803:
     CapNeedBonus: -3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13238
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-803
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-804:
     CapNeedBonus: -4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3102
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-804
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-805:
     CapNeedBonus: -5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16005
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-805
+    volume: 1.0
   Eifyr and Co. 'Rogue' Fuel Conservation FC-806:
     CapNeedBonus: -6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3103
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-806
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901:
     CapacitorNeedMultiplier: -1.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27100
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902:
     CapacitorNeedMultiplier: -2.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3112
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903:
     CapacitorNeedMultiplier: -3.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13243
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904:
     CapacitorNeedMultiplier: -4.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3113
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905:
     CapacitorNeedMultiplier: -5.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16006
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-905
+    volume: 1.0
   Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906:
     CapacitorNeedMultiplier: -6.0
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3116
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-601:
     ImplantBonusVelocity: 1.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27097
     name: Eifyr and Co. 'Rogue' Navigation NN-601
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-602:
     ImplantBonusVelocity: 2.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3096
     name: Eifyr and Co. 'Rogue' Navigation NN-602
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-603:
     ImplantBonusVelocity: 3.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13237
     name: Eifyr and Co. 'Rogue' Navigation NN-603
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-604:
     ImplantBonusVelocity: 4.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3097
     name: Eifyr and Co. 'Rogue' Navigation NN-604
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-605:
     ImplantBonusVelocity: 5.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 16003
     name: Eifyr and Co. 'Rogue' Navigation NN-605
+    volume: 1.0
   Eifyr and Co. 'Rogue' Navigation NN-606:
     ImplantBonusVelocity: 6.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3100
     name: Eifyr and Co. 'Rogue' Navigation NN-606
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-602:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpCapacitorNeedBonus: -2
+    id: 27113
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-602
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-604:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpCapacitorNeedBonus: -4
+    id: 3109
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-604
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-606:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     WarpCapacitorNeedBonus: -6
+    id: 13241
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-606
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-608:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     WarpCapacitorNeedBonus: -8
+    id: 3110
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-608
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-610:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     WarpCapacitorNeedBonus: -10
+    id: 27112
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-610
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Operation WD-612:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
     WarpCapacitorNeedBonus: -12
+    id: 3111
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-612
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-605:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpSBonus: 5
+    id: 27115
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-605
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-608:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
     WarpSBonus: 8
+    id: 3117
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-608
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-610:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
     WarpSBonus: 10
+    id: 13242
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-610
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-613:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
     WarpSBonus: 13
+    id: 3118
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-613
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-615:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
     WarpSBonus: 15
+    id: 27114
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-615
+    volume: 1.0
   Eifyr and Co. 'Rogue' Warp Drive Speed WS-618:
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
     WarpSBonus: 18
+    id: 3119
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-618
+    volume: 1.0
   QA Agility Booster:
     AgilityBonus: -99.0
     Implantness: 22
     RequiredSkill1: 9955
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 33512
     name: QA Agility Booster
+    volume: 1.0
   QA Warp Accelerator:
     Implantness: 21
     RequiredSkill1: 9955
@@ -349,25 +447,33 @@ items:
     TechLevel: 1
     WarpCapacitorNeedBonus: -99
     WarpSpeedBonus: 1000
+    id: 33486
     name: QA Warp Accelerator
+    volume: 1.0
   Shaqil's Speed Enhancer:
     ImplantBonusVelocity: 8.0
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
+    id: 24669
     name: Shaqil's Speed Enhancer
+    volume: 1.0
   Zor's Custom Navigation Hyper-Link:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     SpeedFBonus: 5
     TechLevel: 1
+    id: 24663
     name: Zor's Custom Navigation Hyper-Link
+    volume: 1.0
   Zor's Custom Navigation Link:
     DurationBonus: 10
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19500
     name: Zor's Custom Navigation Link
+    volume: 1.0

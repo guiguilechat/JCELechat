@@ -10,7 +10,9 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 12240
     name: Medium Storage Array
+    volume: 1150.0
   Small Storage Array:
     AnchoringDelay: 30000
     DisallowOffensiveModifiers: 1
@@ -22,4 +24,6 @@ items:
     RequiredSkill1Level: 1
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 16219
     name: Small Storage Array
+    volume: 1150.0

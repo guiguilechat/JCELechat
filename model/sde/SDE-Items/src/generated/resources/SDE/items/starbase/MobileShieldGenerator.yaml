@@ -8,4 +8,6 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 16223
     name: Shield Generation Array
+    volume: 1.0

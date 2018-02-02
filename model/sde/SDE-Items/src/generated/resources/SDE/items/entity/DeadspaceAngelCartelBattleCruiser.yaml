@@ -1,25 +1,49 @@
 items:
   Gistatis Domination Legatus:
+    id: 24180
     name: Gistatis Domination Legatus
+    volume: 109000.0
   Gistatis Domination Legionnaire:
+    id: 24175
     name: Gistatis Domination Legionnaire
+    volume: 109000.0
   Gistatis Domination Praefectus:
+    id: 24178
     name: Gistatis Domination Praefectus
+    volume: 109000.0
   Gistatis Domination Primus:
+    id: 24176
     name: Gistatis Domination Primus
+    volume: 109000.0
   Gistatis Domination Tribuni:
+    id: 24177
     name: Gistatis Domination Tribuni
+    volume: 109000.0
   Gistatis Domination Tribunus:
+    id: 24179
     name: Gistatis Domination Tribunus
+    volume: 109000.0
   Gistatis Legatus:
+    id: 24008
     name: Gistatis Legatus
+    volume: 109000.0
   Gistatis Legionnaire:
+    id: 23999
     name: Gistatis Legionnaire
+    volume: 109000.0
   Gistatis Praefectus:
+    id: 24006
     name: Gistatis Praefectus
+    volume: 109000.0
   Gistatis Primus:
+    id: 24004
     name: Gistatis Primus
+    volume: 109000.0
   Gistatis Tribuni:
+    id: 24005
     name: Gistatis Tribuni
+    volume: 109000.0
   Gistatis Tribunus:
+    id: 24007
     name: Gistatis Tribunus
+    volume: 109000.0

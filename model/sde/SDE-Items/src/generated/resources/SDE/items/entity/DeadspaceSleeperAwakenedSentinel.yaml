@@ -1,7 +1,13 @@
 items:
   Awakened Keeper:
+    id: 30207
     name: Awakened Keeper
+    volume: 109000.0
   Awakened Sentinel:
+    id: 30206
     name: Awakened Sentinel
+    volume: 109000.0
   Awakened Warden:
+    id: 30208
     name: Awakened Warden
+    volume: 109000.0

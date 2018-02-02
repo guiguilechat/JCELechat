@@ -1,11 +1,21 @@
 items:
   Khanid Eagle:
+    id: 16174
     name: Khanid Eagle
+    volume: 118000.0
   Khanid Hawk:
+    id: 16173
     name: Khanid Hawk
+    volume: 120000.0
   Khanid Officer:
+    id: 11948
     name: Khanid Officer
+    volume: 115000.0
   Khanid Slave Trader:
+    id: 12047
     name: Khanid Slave Trader
+    volume: 120000.0
   Khanid Warbird:
+    id: 16175
     name: Khanid Warbird
+    volume: 100100.0

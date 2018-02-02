@@ -8,11 +8,11 @@ import java.util.Map.Entry;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.tools.inventer.InventerToolPane.StructBonus;
@@ -106,13 +106,13 @@ public class InventionGainAlgorithm {
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-		List<InventionProdData> ret = EveDatabase.decryptors().parallelStream().map(decryptor -> {
+		List<InventionProdData> ret = InventionDecryptor.load().values().parallelStream().map(decryptor -> {
 			InventionProdData data = new InventionProdData();
 			data.bpoName = bpo.name;
 			data.productName = product.name;
 			data.copyTime = copyTime;
 
-			data.decryptor = decryptor.name();
+			data.decryptor = decryptor.name;
 			data.inventedRuns = selectedbpc.quantity + decryptor.maxrun;
 			int inventedME = 2 + decryptor.me;
 			int inventedTE = 4 + decryptor.te;

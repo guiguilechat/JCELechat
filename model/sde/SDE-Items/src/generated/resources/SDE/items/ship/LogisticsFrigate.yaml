@@ -76,7 +76,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
+    id: 37457
     name: Deacon
+    volume: 28700.0
   Kirin:
     Agility: 3.950000047683716
     ArmorEmDamageResonance: 0.5
@@ -156,7 +158,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
+    id: 37458
     name: Kirin
+    volume: 20000.0
   Scalpel:
     Agility: 3.8499999046325684
     ArmorEmDamageResonance: 0.20000000298023224
@@ -236,7 +240,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
+    id: 37460
     name: Scalpel
+    volume: 17100.0
   Thalia:
     Agility: 3.700000047683716
     ArmorEmDamageResonance: 0.5
@@ -316,4 +322,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
+    id: 37459
     name: Thalia
+    volume: 10000.0

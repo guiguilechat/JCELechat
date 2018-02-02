@@ -10,7 +10,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 41034
     name: AE-K Compact Drone Damage Amplifier
+    volume: 5.0
   Dread Guristas Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
@@ -23,7 +25,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 33846
     name: Dread Guristas Drone Damage Amplifier
+    volume: 5.0
   Drone Damage Amplifier I:
     Cpu: 27.0
     DroneDamageBonus: 15.0
@@ -34,7 +38,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 4393
     name: Drone Damage Amplifier I
+    volume: 5.0
   Drone Damage Amplifier II:
     Cpu: 30.0
     DroneDamageBonus: 20.5
@@ -46,7 +52,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 4
     TechLevel: 2
+    id: 4405
     name: Drone Damage Amplifier II
+    volume: 5.0
   Federation Navy Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
@@ -59,7 +67,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 33842
     name: Federation Navy Drone Damage Amplifier
+    volume: 5.0
   Imperial Navy Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
@@ -72,7 +82,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 33844
     name: Imperial Navy Drone Damage Amplifier
+    volume: 5.0
   Sentient Drone Damage Amplifier:
     Cpu: 20.0
     DroneDamageBonus: 23.799999237060547
@@ -85,7 +97,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 33848
     name: Sentient Drone Damage Amplifier
+    volume: 5.0
   Unit D-34343's Modified Drone Damage Amplifier:
     Cpu: 22.0
     DroneDamageBonus: 24.5
@@ -96,7 +110,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 32919
     name: Unit D-34343's Modified Drone Damage Amplifier
+    volume: 5.0
   Unit F-435454's Modified Drone Damage Amplifier:
     Cpu: 24.0
     DroneDamageBonus: 25.149999618530273
@@ -107,7 +123,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 32921
     name: Unit F-435454's Modified Drone Damage Amplifier
+    volume: 5.0
   Unit P-343554's Modified Drone Damage Amplifier:
     Cpu: 26.0
     DroneDamageBonus: 25.799999237060547
@@ -120,7 +138,9 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 32923
     name: Unit P-343554's Modified Drone Damage Amplifier
+    volume: 5.0
   Unit W-634's Modified Drone Damage Amplifier:
     Cpu: 28.0
     DroneDamageBonus: 26.5
@@ -133,4 +153,6 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 32925
     name: Unit W-634's Modified Drone Damage Amplifier
+    volume: 5.0

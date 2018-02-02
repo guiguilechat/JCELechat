@@ -17,7 +17,9 @@ items:
     StructureRigMissileVelocityBonus: 30
     TechLevel: 1
     UpgradeCost: 100
+    id: 37248
     name: Standup L-Set Missile Flight Processor I
+    volume: 20.0
   Standup L-Set Missile Flight Processor II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -36,4 +38,6 @@ items:
     StructureRigMissileVelocityBonus: 35
     TechLevel: 2
     UpgradeCost: 150
+    id: 37249
     name: Standup L-Set Missile Flight Processor II
+    volume: 20.0

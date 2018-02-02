@@ -8,7 +8,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 23566
     name: Advanced Drone Avionics
+    volume: 0.01
   Amarr Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -17,7 +19,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 12484
     name: Amarr Drone Specialization
+    volume: 0.01
   Caldari Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -26,7 +30,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 12487
     name: Caldari Drone Specialization
+    volume: 0.01
   Drone Avionics:
     DroneRangeBonus: 5000
     PrimaryAttribute: 166
@@ -34,7 +40,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    id: 3437
     name: Drone Avionics
+    volume: 0.01
   Drone Durability:
     ArmorHpBonus: 5
     PrimaryAttribute: 166
@@ -42,7 +50,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 23618
     name: Drone Durability
+    volume: 0.01
   Drone Interfacing:
     DamageMultiplierBonus: 10
     MiningAmountBonus: 10
@@ -51,7 +61,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 3442
     name: Drone Interfacing
+    volume: 0.01
   Drone Navigation:
     MaxVelocityBonus: 5
     PrimaryAttribute: 166
@@ -59,7 +71,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    id: 12305
     name: Drone Navigation
+    volume: 0.01
   Drone Sharpshooting:
     PrimaryAttribute: 166
     RangeSkillBonus: 5
@@ -67,13 +81,17 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    id: 23606
     name: Drone Sharpshooting
+    volume: 0.01
   Drones:
     MaxActiveDroneBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    id: 3436
     name: Drones
+    volume: 0.01
   Fighter Hangar Management:
     PrimaryAttribute: 166
     RequiredSkill1: 23069
@@ -81,7 +99,9 @@ items:
     SecondaryAttribute: 167
     SkillBonusFighterHangarSize: 5
     SkillTimeConstant: 8.0
+    id: 24613
     name: Fighter Hangar Management
+    volume: 0.01
   Fighters:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -92,7 +112,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    id: 23069
     name: Fighters
+    volume: 0.01
   Gallente Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -101,7 +123,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 12486
     name: Gallente Drone Specialization
+    volume: 0.01
   Heavy Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -109,7 +133,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 3441
     name: Heavy Drone Operation
+    volume: 0.01
   Heavy Fighters:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -118,7 +144,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    id: 32339
     name: Heavy Fighters
+    volume: 0.01
   Ice Harvesting Drone Operation:
     PrimaryAttribute: 166
     RequiredSkill1: 3436
@@ -128,7 +156,9 @@ items:
     RofBonus: -5
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    id: 43702
     name: Ice Harvesting Drone Operation
+    volume: 0.01
   Ice Harvesting Drone Specialization:
     MaxVelocityBonus: 2
     PrimaryAttribute: 166
@@ -139,7 +169,9 @@ items:
     RofBonus: -2
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 43703
     name: Ice Harvesting Drone Specialization
+    volume: 0.01
   Light Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -147,7 +179,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
+    id: 24241
     name: Light Drone Operation
+    volume: 0.01
   Light Fighters:
     CanNotBeTrainedOnTrial: 1
     MaxVelocityBonus: 5
@@ -156,7 +190,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
+    id: 40572
     name: Light Fighters
+    volume: 0.01
   Medium Drone Operation:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -164,7 +200,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    id: 33699
     name: Medium Drone Operation
+    volume: 0.01
   Mining Drone Operation:
     MiningAmountBonus: 5
     PrimaryAttribute: 166
@@ -174,7 +212,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
+    id: 3438
     name: Mining Drone Operation
+    volume: 0.01
   Mining Drone Specialization:
     MaxVelocityBonus: 2
     MiningAmountBonus: 2
@@ -185,7 +225,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 22541
     name: Mining Drone Specialization
+    volume: 0.01
   Minmatar Drone Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -194,7 +236,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 12485
     name: Minmatar Drone Specialization
+    volume: 0.01
   Propulsion Jamming Drone Interfacing:
     PrimaryAttribute: 166
     PropulsionSkillPropulsionStrengthBonus: 5
@@ -204,7 +248,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 23599
     name: Propulsion Jamming Drone Interfacing
+    volume: 0.01
   Repair Drone Operation:
     DamageHP: 5
     PrimaryAttribute: 166
@@ -214,7 +260,9 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 167
     SkillTimeConstant: 3.0
+    id: 3439
     name: Repair Drone Operation
+    volume: 0.01
   Salvage Drone Operation:
     AccessDifficultyBonus: 2
     PrimaryAttribute: 166
@@ -224,7 +272,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
+    id: 3440
     name: Salvage Drone Operation
+    volume: 0.01
   Sentry Drone Interfacing:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 166
@@ -234,7 +284,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 23594
     name: Sentry Drone Interfacing
+    volume: 0.01
   Support Fighters:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 166
@@ -244,11 +296,15 @@ items:
     ShieldBonus: 5.0
     SkillLevel: 1
     SkillTimeConstant: 12.0
+    id: 40573
     name: Support Fighters
+    volume: 0.01
   TEST Drone Skill:
     PrimaryAttribute: 166
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
+    id: 22172
     name: TEST Drone Skill
+    volume: 0.01

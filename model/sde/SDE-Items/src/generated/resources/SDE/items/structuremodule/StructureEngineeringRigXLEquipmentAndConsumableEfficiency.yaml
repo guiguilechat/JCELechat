@@ -18,7 +18,9 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 1
     UpgradeCost: 100
+    id: 37178
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency I
+    volume: 40.0
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -38,4 +40,6 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 37179
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency II
+    volume: 40.0

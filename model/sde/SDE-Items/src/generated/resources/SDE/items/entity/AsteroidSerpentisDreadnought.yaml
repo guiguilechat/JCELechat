@@ -1,5 +1,9 @@
 items:
   Serpentis Dreadnought:
+    id: 37468
     name: Serpentis Dreadnought
+    volume: 1.755E7
   Shadow Serpentis Dreadnought:
+    id: 41400
     name: Shadow Serpentis Dreadnought
+    volume: 1.755E7

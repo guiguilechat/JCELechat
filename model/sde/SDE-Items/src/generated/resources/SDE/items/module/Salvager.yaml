@@ -8,7 +8,9 @@ items:
     MaxRange: 5000
     Power: 1
     TechLevel: 1
+    id: 26983
     name: Civilian Salvager
+    volume: 5.0
   Salvager I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -20,7 +22,9 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 25861
     name: Salvager I
+    volume: 5.0
   Salvager II:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -34,4 +38,6 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     TypeColorScheme: 11347
+    id: 30836
     name: Salvager II
+    volume: 5.0

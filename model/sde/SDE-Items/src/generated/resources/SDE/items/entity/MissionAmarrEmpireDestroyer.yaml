@@ -1,17 +1,33 @@
 items:
   Amarr CA Destroyer:
+    id: 45051
     name: Amarr CA Destroyer
+    volume: 28600.0
   Imperial Caius:
+    id: 24913
     name: Imperial Caius
+    volume: 28600.0
   Imperial Crusader:
+    id: 24915
     name: Imperial Crusader
+    volume: 28600.0
   Imperial Deacon:
+    id: 24911
     name: Imperial Deacon
+    volume: 28600.0
   Imperial Exarp:
+    id: 24912
     name: Imperial Exarp
+    volume: 28600.0
   Imperial Templar Caius:
+    id: 24917
     name: Imperial Templar Caius
+    volume: 28600.0
   Imperial Templar Crusader:
+    id: 24919
     name: Imperial Templar Crusader
+    volume: 28600.0
   Stolen Imperial Deacon:
+    id: 27001
     name: Stolen Imperial Deacon
+    volume: 28600.0

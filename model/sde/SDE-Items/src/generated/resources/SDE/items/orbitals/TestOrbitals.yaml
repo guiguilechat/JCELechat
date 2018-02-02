@@ -12,4 +12,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 10000
     Uniformity: 1.0
+    id: 3522
     name: Ion Cannon
+    volume: 2000.0

@@ -463,6 +463,6 @@ public abstract class Owner
     }
 
     public static Map<String, ? extends Owner> loadCategory() {
-        return Stream.of(Corporation.load(), Character.load(), Alliance.load(), Faction.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Character.load(), Faction.load(), Corporation.load(), Alliance.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

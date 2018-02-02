@@ -22,6 +22,6 @@ public abstract class Placeables
     }
 
     public static Map<String, ? extends Placeables> loadCategory() {
-        return Stream.of(Furniture.load(), Generic.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Generic.load(), Furniture.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

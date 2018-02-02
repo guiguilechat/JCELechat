@@ -1,49 +1,97 @@
 items:
   ♦ Annihilator Drone:
+    id: 43649
     name: ♦ Annihilator Drone
+    volume: 60.0
   ♦ Arbitrator:
+    id: 43603
     name: ♦ Arbitrator
+    volume: 120000.0
   ♦ Ashimmu:
+    id: 46054
     name: ♦ Ashimmu
+    volume: 118000.0
   ♦ Augoror:
+    id: 43602
     name: ♦ Augoror
+    volume: 115000.0
   ♦ Bellicose:
+    id: 43592
     name: ♦ Bellicose
+    volume: 85000.0
   ♦ Blackbird:
+    id: 43625
     name: ♦ Blackbird
+    volume: 96000.0
   ♦ Caracal:
+    id: 46581
     name: ♦ Caracal
+    volume: 92000.0
   ♦ Celestis:
+    id: 43581
     name: ♦ Celestis
+    volume: 116000.0
   ♦ Cynabal:
+    id: 46062
     name: ♦ Cynabal
+    volume: 101000.0
   ♦ Exequror:
+    id: 43580
     name: ♦ Exequror
+    volume: 113000.0
   ♦ Gila:
+    id: 46056
     name: ♦ Gila
+    volume: 101000.0
   ♦ Ixion:
+    id: 43642
     name: ♦ Ixion
+    volume: 99000.0
   ♦ Maller:
+    id: 43560
     name: ♦ Maller
+    volume: 118000.0
   ♦ Moa:
+    id: 46760
     name: ♦ Moa
+    volume: 101000.0
   ♦ Omen:
+    id: 46067
     name: ♦ Omen
+    volume: 118000.0
   ♦ Osprey:
+    id: 43623
     name: ♦ Osprey
+    volume: 107000.0
   ♦ Phantasm:
+    id: 43656
     name: ♦ Phantasm
+    volume: 101000.0
   ♦ Rupture:
+    id: 46079
     name: ♦ Rupture
+    volume: 96000.0
   ♦ Scythe:
+    id: 43591
     name: ♦ Scythe
+    volume: 89000.0
   ♦ Stabber:
+    id: 43593
     name: ♦ Stabber
+    volume: 80000.0
   ♦ Thorax:
+    id: 46075
     name: ♦ Thorax
+    volume: 112000.0
   ♦ Vexor:
+    id: 43582
     name: ♦ Vexor
+    volume: 115000.0
   ♦ Vigilant:
+    id: 46059
     name: ♦ Vigilant
+    volume: 101000.0
   ��� Caracal:
+    id: 43622
     name: ��� Caracal
+    volume: 92000.0

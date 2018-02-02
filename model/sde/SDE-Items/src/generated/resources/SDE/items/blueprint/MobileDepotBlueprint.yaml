@@ -1,10 +1,16 @@
 items:
   '''Wetu'' Mobile Depot Blueprint':
     IndustryBlueprintRank: 40.0
+    id: 33521
     name: '''Wetu'' Mobile Depot Blueprint'
+    volume: 0.01
   '''Yurt'' Mobile Depot Blueprint':
     IndustryBlueprintRank: 40.0
+    id: 33523
     name: '''Yurt'' Mobile Depot Blueprint'
+    volume: 0.01
   Mobile Depot Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 33517
     name: Mobile Depot Blueprint
+    volume: 0.01

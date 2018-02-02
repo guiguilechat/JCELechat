@@ -25,7 +25,9 @@ items:
     TechLevel: 2
     ThermalDamage: 90.0
     ThermalDamageResonance: 0.800000011920929
+    id: 24494
     name: Inferno Javelin Heavy Assault Missile
+    volume: 0.015
   Inferno Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -52,7 +54,9 @@ items:
     TechLevel: 2
     ThermalDamage: 135.0
     ThermalDamageResonance: 0.800000011920929
+    id: 24486
     name: Inferno Rage Heavy Assault Missile
+    volume: 0.015
   Mjolnir Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -79,7 +83,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24493
     name: Mjolnir Javelin Heavy Assault Missile
+    volume: 0.015
   Mjolnir Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -106,7 +112,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24490
     name: Mjolnir Rage Heavy Assault Missile
+    volume: 0.015
   Nova Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -133,7 +141,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 13856
     name: Nova Javelin Heavy Assault Missile
+    volume: 0.015
   Nova Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -160,7 +170,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24488
     name: Nova Rage Heavy Assault Missile
+    volume: 0.015
   Scourge Javelin Heavy Assault Missile:
     Agility: 0.0019947297405451536
     AimedLaunch: 1
@@ -187,7 +199,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24492
     name: Scourge Javelin Heavy Assault Missile
+    volume: 0.015
   Scourge Rage Heavy Assault Missile:
     Agility: 67.54669189453125
     AimedLaunch: 1
@@ -214,4 +228,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 2679
     name: Scourge Rage Heavy Assault Missile
+    volume: 0.015

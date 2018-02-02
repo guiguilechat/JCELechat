@@ -1,37 +1,73 @@
 items:
   Ample Compounds:
+    id: 41264
     name: Ample Compounds
+    volume: 0.001
   Ample Conductors:
+    id: 41265
     name: Ample Conductors
+    volume: 0.001
   Ample Electronics:
+    id: 41263
     name: Ample Electronics
+    volume: 0.001
   Compact Compounds:
+    id: 41267
     name: Compact Compounds
+    volume: 0.001
   Compact Conductors:
+    id: 41268
     name: Compact Conductors
+    volume: 0.001
   Compact Electronics:
+    id: 41266
     name: Compact Electronics
+    volume: 0.001
   Enduring Compounds:
+    id: 41302
     name: Enduring Compounds
+    volume: 0.001
   Enduring Conductors:
+    id: 41303
     name: Enduring Conductors
+    volume: 0.001
   Enduring Electronics:
+    id: 41269
     name: Enduring Electronics
+    volume: 0.001
   Precise Compounds:
+    id: 41305
     name: Precise Compounds
+    volume: 0.001
   Precise Conductors:
+    id: 41306
     name: Precise Conductors
+    volume: 0.001
   Precise Electronics:
+    id: 41304
     name: Precise Electronics
+    volume: 0.001
   Restrained Compounds:
+    id: 41308
     name: Restrained Compounds
+    volume: 0.001
   Restrained Conductors:
+    id: 41309
     name: Restrained Conductors
+    volume: 0.001
   Restrained Electronics:
+    id: 41307
     name: Restrained Electronics
+    volume: 0.001
   Scoped Compounds:
+    id: 41311
     name: Scoped Compounds
+    volume: 0.001
   Scoped Conductors:
+    id: 41312
     name: Scoped Conductors
+    volume: 0.001
   Scoped Electronics:
+    id: 41310
     name: Scoped Electronics
+    volume: 0.001

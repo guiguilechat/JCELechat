@@ -78,7 +78,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 29986
     name: Legion
+    volume: 118000.0
   Loki:
     Agility: 0.5400000214576721
     ArmorEmDamageResonance: 0.20000000298023224
@@ -158,7 +160,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 29990
     name: Loki
+    volume: 80000.0
   Proteus:
     Agility: 0.5600000023841858
     ArmorEmDamageResonance: 0.5
@@ -238,7 +242,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 29988
     name: Proteus
+    volume: 115000.0
   Tengu:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
@@ -318,4 +324,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 29984
     name: Tengu
+    volume: 92000.0

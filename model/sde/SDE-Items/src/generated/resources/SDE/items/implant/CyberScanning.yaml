@@ -7,7 +7,9 @@ items:
     TechLevel: 1
     VirusCoherenceBonus: -40
     VirusStrengthBonus: 20
+    id: 47028
     name: Neural Lace 'Blackglass' Net Intrusion 920-40
+    volume: 1.0
   Poteque 'Prospector' Archaeology AC-905:
     AccessDifficultyBonusModifier: 5
     Implantness: 9
@@ -15,70 +17,90 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     VirusCoherenceBonus: 5
+    id: 27196
     name: Poteque 'Prospector' Archaeology AC-905
+    volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-702:
     DurationBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27193
     name: Poteque 'Prospector' Astrometric Acquisition AQ-702
+    volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-706:
     DurationBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 27187
     name: Poteque 'Prospector' Astrometric Acquisition AQ-706
+    volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-710:
     DurationBonus: -10
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27192
     name: Poteque 'Prospector' Astrometric Acquisition AQ-710
+    volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-602:
     Implantness: 6
     MaxScanDeviationModifier: -2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27191
     name: Poteque 'Prospector' Astrometric Pinpointing AP-602
+    volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-606:
     Implantness: 6
     MaxScanDeviationModifier: -6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 27186
     name: Poteque 'Prospector' Astrometric Pinpointing AP-606
+    volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-610:
     Implantness: 6
     MaxScanDeviationModifier: -10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 27190
     name: Poteque 'Prospector' Astrometric Pinpointing AP-610
+    volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-802:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     ScanStrengthBonus: 2
     TechLevel: 1
+    id: 27195
     name: Poteque 'Prospector' Astrometric Rangefinding AR-802
+    volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-806:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanStrengthBonus: 6
     TechLevel: 1
+    id: 27188
     name: Poteque 'Prospector' Astrometric Rangefinding AR-806
+    volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-810:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     ScanStrengthBonus: 10
     TechLevel: 1
+    id: 27194
     name: Poteque 'Prospector' Astrometric Rangefinding AR-810
+    volume: 1.0
   Poteque 'Prospector' Environmental Analysis EY-1005:
     AccessDifficultyBonusModifier: 5
     DurationBonus: -5
@@ -87,7 +109,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     VirusCoherenceBonus: 5
+    id: 27260
     name: Poteque 'Prospector' Environmental Analysis EY-1005
+    volume: 1.0
   Poteque 'Prospector' Hacking HC-905:
     AccessDifficultyBonusModifier: 5
     Implantness: 9
@@ -95,11 +119,15 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     VirusCoherenceBonus: 5
+    id: 27197
     name: Poteque 'Prospector' Hacking HC-905
+    volume: 1.0
   Poteque 'Prospector' Salvaging SV-905:
     AccessDifficultyBonus: 5
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 27198
     name: Poteque 'Prospector' Salvaging SV-905
+    volume: 1.0

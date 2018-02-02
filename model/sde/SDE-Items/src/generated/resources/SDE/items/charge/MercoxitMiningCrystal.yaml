@@ -16,7 +16,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.25
     TechLevel: 1
     UnfitCapCost: 80
+    id: 18054
     name: Mercoxit Mining Crystal I
+    volume: 6.0
   Mercoxit Mining Crystal II:
     CapNeedBonus: 100
     ChargeSize: 1
@@ -35,4 +37,6 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.375
     TechLevel: 2
     UnfitCapCost: 80
+    id: 18608
     name: Mercoxit Mining Crystal II
+    volume: 10.0

@@ -2,55 +2,83 @@ items:
   '''Bootleg'' Remote Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22926
     name: '''Bootleg'' Remote Sensor Booster Blueprint'
+    volume: 0.01
   '''Boss'' Remote Sensor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22940
     name: '''Boss'' Remote Sensor Booster I Blueprint'
+    volume: 0.01
   '''Broker'' Remote Sensor Dampener I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22944
     name: '''Broker'' Remote Sensor Dampener I Blueprint'
+    volume: 0.01
   '''Entrepreneur'' Remote Sensor Booster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22942
     name: '''Entrepreneur'' Remote Sensor Booster I Blueprint'
+    volume: 0.01
   '''Executive'' Remote Sensor Dampener Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22946
     name: '''Executive'' Remote Sensor Dampener Blueprint'
+    volume: 0.01
   '''Shady'' Sensor Booster Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22896
     name: '''Shady'' Sensor Booster Blueprint'
+    volume: 0.01
   Federation Navy Sensor Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 17521
     name: Federation Navy Sensor Booster Blueprint
+    volume: 0.01
   Networked Sensor Array Blueprint:
     TechLevel: 1
+    id: 41412
     name: Networked Sensor Array Blueprint
+    volume: 0.01
   Remote Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 11798
     name: Remote Sensor Booster I Blueprint
+    volume: 0.01
   Remote Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 11799
     name: Remote Sensor Booster II Blueprint
+    volume: 0.01
   Remote Sensor Dampener I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 11803
     name: Remote Sensor Dampener I Blueprint
+    volume: 0.01
   Remote Sensor Dampener II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 11804
     name: Remote Sensor Dampener II Blueprint
+    volume: 0.01
   Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 11620
     name: Sensor Booster I Blueprint
+    volume: 0.01
   Sensor Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 11808
     name: Sensor Booster II Blueprint
+    volume: 0.01

@@ -81,7 +81,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 28710
     name: Golem
+    volume: 486000.0
   Golem Guristas Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -164,7 +166,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34231
     name: Golem Guristas Edition
+    volume: 486000.0
   Golem Kaalakiota Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -247,7 +251,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34233
     name: Golem Kaalakiota Edition
+    volume: 486000.0
   Golem Nugoeihuvi Edition:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
@@ -330,7 +336,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34235
     name: Golem Nugoeihuvi Edition
+    volume: 486000.0
   Kronos:
     Agility: 0.11699999868869781
     ArmorEmDamageResonance: 0.5
@@ -413,7 +421,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 28661
     name: Kronos
+    volume: 486000.0
   Kronos Inner Zone Shipping Edition:
     Agility: 0.11699999868869781
     ArmorEmDamageResonance: 0.5
@@ -496,7 +506,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34245
     name: Kronos Inner Zone Shipping Edition
+    volume: 486000.0
   Kronos Police Edition:
     Agility: 0.11699999868869781
     ArmorEmDamageResonance: 0.5
@@ -579,7 +591,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34241
     name: Kronos Police Edition
+    volume: 486000.0
   Kronos Quafe Edition:
     Agility: 0.11699999868869781
     ArmorEmDamageResonance: 0.5
@@ -662,7 +676,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34243
     name: Kronos Quafe Edition
+    volume: 486000.0
   Paladin:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -744,7 +760,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 28659
     name: Paladin
+    volume: 495000.0
   Paladin Blood Raider Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -826,7 +844,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34219
     name: Paladin Blood Raider Edition
+    volume: 495000.0
   Paladin Kador Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -908,7 +928,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34221
     name: Paladin Kador Edition
+    volume: 495000.0
   Paladin Tash-Murkon Edition:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
@@ -990,7 +1012,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34223
     name: Paladin Tash-Murkon Edition
+    volume: 495000.0
   Vargur:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1072,7 +1096,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 28665
     name: Vargur
+    volume: 450000.0
   Vargur Justice Edition:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1154,7 +1180,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34253
     name: Vargur Justice Edition
+    volume: 450000.0
   Vargur Krusual Edition:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1236,7 +1264,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34255
     name: Vargur Krusual Edition
+    volume: 450000.0
   Vargur Nefantar Edition:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.30000001192092896
@@ -1318,4 +1348,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 34257
     name: Vargur Nefantar Edition
+    volume: 450000.0

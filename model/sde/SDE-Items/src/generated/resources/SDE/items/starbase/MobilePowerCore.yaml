@@ -8,7 +8,9 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 17173
     name: Large Auxiliary Power Array
+    volume: 100.0
   Medium Auxiliary Power Array:
     AnchoringDelay: 30000
     DisallowOffensiveModifiers: 1
@@ -18,7 +20,9 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 17172
     name: Medium Auxiliary Power Array
+    volume: 100.0
   Small Auxiliary Power Array:
     AnchoringDelay: 30000
     DisallowOffensiveModifiers: 1
@@ -28,4 +32,6 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 16217
     name: Small Auxiliary Power Array
+    volume: 100.0

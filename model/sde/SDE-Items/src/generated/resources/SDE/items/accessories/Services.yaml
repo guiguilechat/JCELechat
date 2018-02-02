@@ -1,7 +1,13 @@
 items:
   Multiple Pilot Training Certificate:
+    id: 34133
     name: Multiple Pilot Training Certificate
+    volume: 0.01
   Pilot's Body Resculpt Certificate:
+    id: 34132
     name: Pilot's Body Resculpt Certificate
+    volume: 0.01
   Skill Extractor:
+    id: 40519
     name: Skill Extractor
+    volume: 0.01

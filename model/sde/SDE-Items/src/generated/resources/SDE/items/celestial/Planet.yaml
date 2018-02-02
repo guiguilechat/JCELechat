@@ -1,19 +1,37 @@
 items:
   Planet (Barren):
+    id: 2016
     name: Planet (Barren)
+    volume: 1.0
   Planet (Gas):
+    id: 13
     name: Planet (Gas)
+    volume: 1.0
   Planet (Ice):
+    id: 12
     name: Planet (Ice)
+    volume: 1.0
   Planet (Lava):
+    id: 2015
     name: Planet (Lava)
+    volume: 1.0
   Planet (Oceanic):
+    id: 2014
     name: Planet (Oceanic)
+    volume: 1.0
   Planet (Plasma):
+    id: 2063
     name: Planet (Plasma)
+    volume: 1.0
   Planet (Shattered):
+    id: 30889
     name: Planet (Shattered)
+    volume: 1.0
   Planet (Storm):
+    id: 2017
     name: Planet (Storm)
+    volume: 1.0
   Planet (Temperate):
+    id: 11
     name: Planet (Temperate)
+    volume: 1.0

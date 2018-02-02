@@ -1,101 +1,201 @@
 items:
   Chief Republic Baldur:
+    id: 24817
     name: Chief Republic Baldur
+    volume: 16450.0
   Chief Republic Gleeda:
+    id: 24816
     name: Chief Republic Gleeda
+    volume: 16450.0
   Chief Republic Hrakt:
+    id: 24819
     name: Chief Republic Hrakt
+    volume: 16450.0
   Chief Republic Iflin:
+    id: 24812
     name: Chief Republic Iflin
+    volume: 16450.0
   Chief Republic Isak:
+    id: 24811
     name: Chief Republic Isak
+    volume: 16450.0
   Chief Republic Ivan:
+    id: 24813
     name: Chief Republic Ivan
+    volume: 16450.0
   Chief Republic Kvarm:
+    id: 24815
     name: Chief Republic Kvarm
+    volume: 16450.0
   Chief Republic Magni:
+    id: 24814
     name: Chief Republic Magni
+    volume: 16450.0
   Chief Republic Ofeg:
+    id: 24818
     name: Chief Republic Ofeg
+    volume: 16450.0
   Chief Republic Takan:
+    id: 24820
     name: Chief Republic Takan
+    volume: 16450.0
   Independent Breacher:
+    id: 29882
     name: Independent Breacher
+    volume: 16450.0
   Independent Green-Crewed Breacher:
+    id: 29876
     name: Independent Green-Crewed Breacher
+    volume: 22500.0
   Independent Green-Crewed Probe:
+    id: 29878
     name: Independent Green-Crewed Probe
+    volume: 22500.0
   Independent Green-Crewed Rifter:
+    id: 29879
     name: Independent Green-Crewed Rifter
+    volume: 22500.0
   Independent Green-Crewed Slasher:
+    id: 29891
     name: Independent Green-Crewed Slasher
+    volume: 22500.0
   Independent Green-Crewed Vigil:
+    id: 29881
     name: Independent Green-Crewed Vigil
+    volume: 22500.0
   Independent Probe:
+    id: 29883
     name: Independent Probe
+    volume: 16450.0
   Independent Rifter:
+    id: 29884
     name: Independent Rifter
+    volume: 16450.0
   Independent Slasher:
+    id: 29885
     name: Independent Slasher
+    volume: 16450.0
   Independent Veteran Breacher:
+    id: 29887
     name: Independent Veteran Breacher
+    volume: 16450.0
   Independent Veteran Probe:
+    id: 29888
     name: Independent Veteran Probe
+    volume: 16450.0
   Independent Veteran Rifter:
+    id: 29889
     name: Independent Veteran Rifter
+    volume: 16450.0
   Independent Veteran Slasher:
+    id: 29892
     name: Independent Veteran Slasher
+    volume: 16450.0
   Independent Veteran Vigil:
+    id: 29893
     name: Independent Veteran Vigil
+    volume: 16450.0
   Independent Vigil:
+    id: 29886
     name: Independent Vigil
+    volume: 16450.0
   Minmatar CA Frigate:
+    id: 45467
     name: Minmatar CA Frigate
+    volume: 27289.0
   Minmatar Freedom Fighter:
+    id: 11665
     name: Minmatar Freedom Fighter
+    volume: 19100.0
   Minmatar Mercenary Fighter:
+    id: 11639
     name: Minmatar Mercenary Fighter
+    volume: 16450.0
   Minmatar Miner:
+    id: 20163
     name: Minmatar Miner
+    volume: 17100.0
   Republic Baldur:
+    id: 24790
     name: Republic Baldur
+    volume: 16450.0
   Republic Fleet C-1 Support Frigate:
+    id: 15975
     name: Republic Fleet C-1 Support Frigate
+    volume: 17400.0
   Republic Fleet C-2 Support Frigate:
+    id: 15973
     name: Republic Fleet C-2 Support Frigate
+    volume: 17400.0
   Republic Fleet D-1 Support Frigate:
+    id: 15976
     name: Republic Fleet D-1 Support Frigate
+    volume: 28100.0
   Republic Fleet D-2 Support Frigate:
+    id: 15974
     name: Republic Fleet D-2 Support Frigate
+    volume: 17400.0
   Republic Fleet Elite Soldier:
+    id: 15581
     name: Republic Fleet Elite Soldier
+    volume: 12000.0
   Republic Fleet Officer:
+    id: 13105
     name: Republic Fleet Officer
+    volume: 109000.0
   Republic Fleet Scout:
+    id: 11745
     name: Republic Fleet Scout
+    volume: 19100.0
   Republic Fleet Slasher:
+    id: 14360
     name: Republic Fleet Slasher
+    volume: 17400.0
   Republic Fleet Soldier:
+    id: 14354
     name: Republic Fleet Soldier
+    volume: 12000.0
   Republic Fleet Squad Leader:
+    id: 15342
     name: Republic Fleet Squad Leader
+    volume: 27289.0
   Republic Fleet Vigil:
+    id: 14480
     name: Republic Fleet Vigil
+    volume: 17400.0
   Republic Gleeda:
+    id: 24787
     name: Republic Gleeda
+    volume: 17660.0
   Republic Kvarm:
+    id: 24784
     name: Republic Kvarm
+    volume: 26005.0
   Republic Otur:
+    id: 24781
     name: Republic Otur
+    volume: 17400.0
   Republic Radur:
+    id: 24777
     name: Republic Radur
+    volume: 21120.0
   Republic Skani:
+    id: 24779
     name: Republic Skani
+    volume: 22500.0
   Republic Takan:
+    id: 24791
     name: Republic Takan
+    volume: 19100.0
   Republic Tribal Baldur:
+    id: 24786
     name: Republic Tribal Baldur
+    volume: 17500.0
   Republic Tribal Gleeda:
+    id: 24785
     name: Republic Tribal Gleeda
+    volume: 17660.0
   Republic Tribal Takan:
+    id: 24793
     name: Republic Tribal Takan
+    volume: 16450.0

@@ -14,7 +14,9 @@ items:
     Slots: 1
     Speed: 2000
     TechLevel: 1
+    id: 33270
     name: Survey Probe Launcher I
+    volume: 5.0
   Survey Probe Launcher II:
     ChargeGroup2: 492
     ChargeRate: 1
@@ -32,4 +34,6 @@ items:
     Speed: 2000
     SurveyProbeDurationBonus: -10
     TechLevel: 2
+    id: 33272
     name: Survey Probe Launcher II
+    volume: 5.0

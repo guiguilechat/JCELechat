@@ -1,73 +1,145 @@
 items:
   COSMOS Amarr Arch Engraver:
+    id: 22262
     name: COSMOS Amarr Arch Engraver
+    volume: 120000.0
   COSMOS Amarr Arch Priest:
+    id: 22264
     name: COSMOS Amarr Arch Priest
+    volume: 118000.0
   COSMOS Amarr Maller:
+    id: 22272
     name: COSMOS Amarr Maller
+    volume: 118000.0
   COSMOS Amarr Priest:
+    id: 22265
     name: COSMOS Amarr Priest
+    volume: 118000.0
   COSMOS Amarr Revenant:
+    id: 22263
     name: COSMOS Amarr Revenant
+    volume: 118000.0
   COSMOS Caldari Annihilator:
+    id: 20482
     name: COSMOS Caldari Annihilator
+    volume: 92000.0
   COSMOS Caldari Ascriber:
+    id: 20483
     name: COSMOS Caldari Ascriber
+    volume: 96000.0
   COSMOS Caldari Eraser:
+    id: 20484
     name: COSMOS Caldari Eraser
+    volume: 101000.0
   COSMOS Caldari Inferno:
+    id: 20485
     name: COSMOS Caldari Inferno
+    volume: 101000.0
   COSMOS Caldari Mortifier:
+    id: 20486
     name: COSMOS Caldari Mortifier
+    volume: 101000.0
   COSMOS Caldari Nullifier:
+    id: 20487
     name: COSMOS Caldari Nullifier
+    volume: 101000.0
   COSMOS Caldari Silencer:
+    id: 20488
     name: COSMOS Caldari Silencer
+    volume: 101000.0
   COSMOS Caldari Terrorist:
+    id: 20489
     name: COSMOS Caldari Terrorist
+    volume: 107000.0
   COSMOS Gallente Captain:
+    id: 22670
     name: COSMOS Gallente Captain
+    volume: 112000.0
   COSMOS Gallente Chief Protector:
+    id: 22668
     name: COSMOS Gallente Chief Protector
+    volume: 112000.0
   COSMOS Gallente Drug Baron:
+    id: 22667
     name: COSMOS Gallente Drug Baron
+    volume: 116000.0
   COSMOS Gallente Non-Pirate Cruiser:
+    id: 22674
     name: COSMOS Gallente Non-Pirate Cruiser
+    volume: 112000.0
   COSMOS Gallente Sentry:
+    id: 22669
     name: COSMOS Gallente Sentry
+    volume: 112000.0
   COSMOS Magye Eraser:
+    id: 21128
     name: COSMOS Magye Eraser
+    volume: 101000.0
   COSMOS Magye Silencer:
+    id: 21129
     name: COSMOS Magye Silencer
+    volume: 101000.0
   COSMOS Minmatar Angel:
+    id: 21758
     name: COSMOS Minmatar Angel
+    volume: 109000.0
   COSMOS Minmatar Angel Centurion:
+    id: 21763
     name: COSMOS Minmatar Angel Centurion
+    volume: 109000.0
   COSMOS Minmatar Angel Legionnaire:
+    id: 21764
     name: COSMOS Minmatar Angel Legionnaire
+    volume: 109000.0
   COSMOS Minmatar Angel Scout:
+    id: 21765
     name: COSMOS Minmatar Angel Scout
+    volume: 109000.0
   COSMOS Minmatar Depredator:
+    id: 21766
     name: COSMOS Minmatar Depredator
+    volume: 99000.0
   COSMOS Minmatar Liquidator:
+    id: 21759
     name: COSMOS Minmatar Liquidator
+    volume: 109000.0
   COSMOS Minmatar Marauder:
+    id: 21760
     name: COSMOS Minmatar Marauder
+    volume: 109000.0
   COSMOS Minmatar Non-Pirate Cruiser:
+    id: 21778
     name: COSMOS Minmatar Non-Pirate Cruiser
+    volume: 96000.0
   COSMOS Minmatar Predator:
+    id: 21762
     name: COSMOS Minmatar Predator
+    volume: 99000.0
   COSMOS Mythos Transport Cruiser:
+    id: 23875
     name: COSMOS Mythos Transport Cruiser
+    volume: 118000.0
   COSMOS Pleasure Cruiser:
+    id: 22676
     name: COSMOS Pleasure Cruiser
+    volume: 115000.0
   Corpum Arch Sage_COSMOS:
+    id: 23667
     name: Corpum Arch Sage_COSMOS
+    volume: 118000.0
   Corpum Blood Duke:
+    id: 24286
     name: Corpum Blood Duke
+    volume: 118000.0
   Dark Corpum Arch Templar_COSMOS:
+    id: 23670
     name: Dark Corpum Arch Templar_COSMOS
+    volume: 118000.0
   FON Cruiser 1:
+    id: 23276
     name: FON Cruiser 1
+    volume: 116000.0
   FON Cruiser 2:
+    id: 23275
     name: FON Cruiser 2
+    volume: 112000.0

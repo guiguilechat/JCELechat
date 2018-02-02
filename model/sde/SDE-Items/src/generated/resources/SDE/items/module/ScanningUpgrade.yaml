@@ -7,7 +7,9 @@ items:
     RequiredSkill1: 25810
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 33178
     name: Scan Pinpointing Array I
+    volume: 5.0
   Scan Pinpointing Array II:
     Cpu: 30.0
     Hp: 40
@@ -17,7 +19,9 @@ items:
     RequiredSkill1: 25810
     RequiredSkill1Level: 5
     TechLevel: 2
+    id: 33199
     name: Scan Pinpointing Array II
+    volume: 5.0
   Scan Rangefinding Array I:
     Cpu: 30.0
     Hp: 40
@@ -26,7 +30,9 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonusModule: 5
     TechLevel: 1
+    id: 33180
     name: Scan Rangefinding Array I
+    volume: 5.0
   Scan Rangefinding Array II:
     Cpu: 30.0
     Hp: 40
@@ -37,4 +43,6 @@ items:
     ScanStrengthBonus: 10
     ScanStrengthBonusModule: 10
     TechLevel: 2
+    id: 33201
     name: Scan Rangefinding Array II
+    volume: 5.0

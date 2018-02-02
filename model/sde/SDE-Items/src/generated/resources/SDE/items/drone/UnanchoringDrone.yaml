@@ -23,4 +23,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 120000
     Uniformity: 0.75
+    id: 17565
     name: Unanchoring Drone
+    volume: 500.0

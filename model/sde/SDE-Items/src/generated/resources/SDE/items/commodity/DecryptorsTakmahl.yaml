@@ -4,28 +4,38 @@ items:
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.5
+    id: 23177
     name: Takmahl Astral Treatment
+    volume: 1.0
   Takmahl Binary Texts:
     InventionMEModifier: 0.8999999761581421
     InventionMaxRunModifier: 1.0
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.699999988079071
+    id: 23173
     name: Takmahl Binary Texts
+    volume: 1.0
   Takmahl Centrifugal Primer:
     InventionMEModifier: 1.5
     InventionMaxRunModifier: 1.5
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 1.7999999523162842
+    id: 23175
     name: Takmahl Centrifugal Primer
+    volume: 1.0
   Takmahl Fractal Sheet:
     InventionMEModifier: 0.5
     InventionMaxRunModifier: 1.5
     InventionPropabilityMultiplier: 3.5
     InventionTEModifier: 0.5
+    id: 23174
     name: Takmahl Fractal Sheet
+    volume: 1.0
   Takmahl Geometric Design:
     InventionMEModifier: 1.0
     InventionMaxRunModifier: 7.0
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.0
+    id: 23176
     name: Takmahl Geometric Design
+    volume: 1.0

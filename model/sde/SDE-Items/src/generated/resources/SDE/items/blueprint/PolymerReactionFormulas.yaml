@@ -1,19 +1,37 @@
 items:
   C3-FTM Acid Reaction Formula:
+    id: 46165
     name: C3-FTM Acid Reaction Formula
+    volume: 0.01
   Carbon-86 Epoxy Resin Reaction Formula:
+    id: 46164
     name: Carbon-86 Epoxy Resin Reaction Formula
+    volume: 0.01
   Fullerene Intercalated Graphite Reaction Formula:
+    id: 46160
     name: Fullerene Intercalated Graphite Reaction Formula
+    volume: 0.01
   Fulleroferrocene Reaction Formula:
+    id: 46158
     name: Fulleroferrocene Reaction Formula
+    volume: 0.01
   Graphene Nanoribbons Reaction Formula:
+    id: 46163
     name: Graphene Nanoribbons Reaction Formula
+    volume: 0.01
   Lanthanum Metallofullerene Reaction Formula:
+    id: 46161
     name: Lanthanum Metallofullerene Reaction Formula
+    volume: 0.01
   Methanofullerene Reaction Formula:
+    id: 46157
     name: Methanofullerene Reaction Formula
+    volume: 0.01
   PPD Fullerene Fibers Reaction Formula:
+    id: 46159
     name: PPD Fullerene Fibers Reaction Formula
+    volume: 0.01
   Scandium Metallofullerene Reaction Formula:
+    id: 46162
     name: Scandium Metallofullerene Reaction Formula
+    volume: 0.01

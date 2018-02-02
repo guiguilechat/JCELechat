@@ -41,7 +41,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3600000
     Uniformity: 1.0
+    id: 12235
     name: Amarr Control Tower
+    volume: 8000.0
   Amarr Control Tower Medium:
     AnchoringDelay: 900000
     ArmorHP: 5000000
@@ -84,7 +86,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1800000
     Uniformity: 1.0
+    id: 20059
     name: Amarr Control Tower Medium
+    volume: 4000.0
   Amarr Control Tower Small:
     AnchoringDelay: 450000
     ArmorHP: 2500000
@@ -127,7 +131,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 900000
     Uniformity: 1.0
+    id: 20060
     name: Amarr Control Tower Small
+    volume: 2000.0
   Angel Control Tower:
     AnchoringDelay: 1620000
     ArmorHP: 6600000
@@ -171,7 +177,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3240000
     Uniformity: 1.0
+    id: 27539
     name: Angel Control Tower
+    volume: 8000.0
   Angel Control Tower Medium:
     AnchoringDelay: 810000
     ArmorHP: 3300000
@@ -215,7 +223,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1620000
     Uniformity: 1.0
+    id: 27607
     name: Angel Control Tower Medium
+    volume: 4000.0
   Angel Control Tower Small:
     AnchoringDelay: 405000
     ArmorHP: 1650000
@@ -259,7 +269,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 810000
     Uniformity: 1.0
+    id: 27610
     name: Angel Control Tower Small
+    volume: 2000.0
   Blood Control Tower:
     AnchoringDelay: 1620000
     ArmorHP: 11000000
@@ -303,7 +315,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3240000
     Uniformity: 1.0
+    id: 27530
     name: Blood Control Tower
+    volume: 8000.0
   Blood Control Tower Medium:
     AnchoringDelay: 810000
     ArmorHP: 5500000
@@ -347,7 +361,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1620000
     Uniformity: 1.0
+    id: 27589
     name: Blood Control Tower Medium
+    volume: 4000.0
   Blood Control Tower Small:
     AnchoringDelay: 405000
     ArmorHP: 2750000
@@ -391,7 +407,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 810000
     Uniformity: 1.0
+    id: 27592
     name: Blood Control Tower Small
+    volume: 2000.0
   Caldari Control Tower:
     AnchoringDelay: 1800000
     ArmorHP: 4000000
@@ -434,7 +452,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3600000
     Uniformity: 1.0
+    id: 16213
     name: Caldari Control Tower
+    volume: 8000.0
   Caldari Control Tower Medium:
     AnchoringDelay: 900000
     ArmorHP: 2000000
@@ -477,7 +497,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1800000
     Uniformity: 1.0
+    id: 20061
     name: Caldari Control Tower Medium
+    volume: 4000.0
   Caldari Control Tower Small:
     AnchoringDelay: 450000
     ArmorHP: 1000000
@@ -520,7 +542,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 900000
     Uniformity: 1.0
+    id: 20062
     name: Caldari Control Tower Small
+    volume: 2000.0
   Dark Blood Control Tower:
     AnchoringDelay: 1440000
     ArmorHP: 12000000
@@ -564,7 +588,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 2880000
     Uniformity: 1.0
+    id: 27532
     name: Dark Blood Control Tower
+    volume: 8000.0
   Dark Blood Control Tower Medium:
     AnchoringDelay: 720000
     ArmorHP: 6000000
@@ -608,7 +634,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1440000
     Uniformity: 1.0
+    id: 27591
     name: Dark Blood Control Tower Medium
+    volume: 4000.0
   Dark Blood Control Tower Small:
     AnchoringDelay: 360000
     ArmorHP: 3000000
@@ -652,7 +680,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 720000
     Uniformity: 1.0
+    id: 27594
     name: Dark Blood Control Tower Small
+    volume: 2000.0
   Domination Control Tower:
     AnchoringDelay: 1440000
     ArmorHP: 7200000
@@ -696,7 +726,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 2880000
     Uniformity: 1.0
+    id: 27540
     name: Domination Control Tower
+    volume: 8000.0
   Domination Control Tower Medium:
     AnchoringDelay: 720000
     ArmorHP: 3600000
@@ -740,7 +772,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1440000
     Uniformity: 1.0
+    id: 27609
     name: Domination Control Tower Medium
+    volume: 4000.0
   Domination Control Tower Small:
     AnchoringDelay: 360000
     ArmorHP: 1800000
@@ -784,7 +818,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 720000
     Uniformity: 1.0
+    id: 27612
     name: Domination Control Tower Small
+    volume: 2000.0
   Dread Guristas Control Tower:
     AnchoringDelay: 1440000
     ArmorHP: 4800000
@@ -828,7 +864,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 2880000
     Uniformity: 1.0
+    id: 27535
     name: Dread Guristas Control Tower
+    volume: 8000.0
   Dread Guristas Control Tower Medium:
     AnchoringDelay: 720000
     ArmorHP: 2400000
@@ -872,7 +910,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1440000
     Uniformity: 1.0
+    id: 27597
     name: Dread Guristas Control Tower Medium
+    volume: 4000.0
   Dread Guristas Control Tower Small:
     AnchoringDelay: 360000
     ArmorHP: 1200000
@@ -916,7 +956,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 720000
     Uniformity: 1.0
+    id: 27600
     name: Dread Guristas Control Tower Small
+    volume: 2000.0
   Gallente Control Tower:
     AnchoringDelay: 1800000
     ArmorHP: 8000000
@@ -958,7 +1000,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3600000
     Uniformity: 1.0
+    id: 12236
     name: Gallente Control Tower
+    volume: 8000.0
   Gallente Control Tower Medium:
     AnchoringDelay: 900000
     ArmorHP: 4000000
@@ -1000,7 +1044,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1800000
     Uniformity: 1.0
+    id: 20063
     name: Gallente Control Tower Medium
+    volume: 4000.0
   Gallente Control Tower Small:
     AnchoringDelay: 450000
     ArmorHP: 2000000
@@ -1042,7 +1088,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 900000
     Uniformity: 1.0
+    id: 20064
     name: Gallente Control Tower Small
+    volume: 2000.0
   Guristas Control Tower:
     AnchoringDelay: 1620000
     ArmorHP: 4400000
@@ -1086,7 +1134,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3240000
     Uniformity: 1.0
+    id: 27533
     name: Guristas Control Tower
+    volume: 8000.0
   Guristas Control Tower Medium:
     AnchoringDelay: 810000
     ArmorHP: 2200000
@@ -1130,7 +1180,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1620000
     Uniformity: 1.0
+    id: 27595
     name: Guristas Control Tower Medium
+    volume: 4000.0
   Guristas Control Tower Small:
     AnchoringDelay: 405000
     ArmorHP: 1100000
@@ -1174,7 +1226,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 810000
     Uniformity: 1.0
+    id: 27598
     name: Guristas Control Tower Small
+    volume: 2000.0
   Minmatar Control Tower:
     AnchoringDelay: 1800000
     ArmorHP: 6000000
@@ -1217,7 +1271,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3600000
     Uniformity: 1.0
+    id: 16214
     name: Minmatar Control Tower
+    volume: 8000.0
   Minmatar Control Tower Medium:
     AnchoringDelay: 900000
     ArmorHP: 3000000
@@ -1260,7 +1316,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1800000
     Uniformity: 1.0
+    id: 20065
     name: Minmatar Control Tower Medium
+    volume: 4000.0
   Minmatar Control Tower Small:
     AnchoringDelay: 450000
     ArmorHP: 1500000
@@ -1303,7 +1361,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 900000
     Uniformity: 1.0
+    id: 20066
     name: Minmatar Control Tower Small
+    volume: 2000.0
   QA Control Tower:
     AnchoringDelay: 5000
     ArmorHP: 1000000
@@ -1343,7 +1403,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16286
     name: QA Control Tower
+    volume: 1.0
   QA Fuel Control Tower:
     AnchoringDelay: 5000
     ArmorHP: 4000000
@@ -1386,7 +1448,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 4361
     name: QA Fuel Control Tower
+    volume: 1.0
   Sansha Control Tower:
     AnchoringDelay: 1620000
     ArmorHP: 11000000
@@ -1430,7 +1494,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3240000
     Uniformity: 1.0
+    id: 27780
     name: Sansha Control Tower
+    volume: 8000.0
   Sansha Control Tower Medium:
     AnchoringDelay: 810000
     ArmorHP: 5500000
@@ -1474,7 +1540,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1620000
     Uniformity: 1.0
+    id: 27782
     name: Sansha Control Tower Medium
+    volume: 4000.0
   Sansha Control Tower Small:
     AnchoringDelay: 405000
     ArmorHP: 2750000
@@ -1518,7 +1586,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 810000
     Uniformity: 1.0
+    id: 27784
     name: Sansha Control Tower Small
+    volume: 2000.0
   Serpentis Control Tower:
     AnchoringDelay: 1620000
     ArmorHP: 8800000
@@ -1561,7 +1631,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 3240000
     Uniformity: 1.0
+    id: 27536
     name: Serpentis Control Tower
+    volume: 8000.0
   Serpentis Control Tower Medium:
     AnchoringDelay: 810000
     ArmorHP: 4400000
@@ -1604,7 +1676,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1620000
     Uniformity: 1.0
+    id: 27601
     name: Serpentis Control Tower Medium
+    volume: 4000.0
   Serpentis Control Tower Small:
     AnchoringDelay: 405000
     ArmorHP: 2200000
@@ -1647,7 +1721,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 810000
     Uniformity: 1.0
+    id: 27604
     name: Serpentis Control Tower Small
+    volume: 2000.0
   Shadow Control Tower:
     AnchoringDelay: 1440000
     ArmorHP: 9600000
@@ -1690,7 +1766,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 2880000
     Uniformity: 1.0
+    id: 27538
     name: Shadow Control Tower
+    volume: 8000.0
   Shadow Control Tower Medium:
     AnchoringDelay: 720000
     ArmorHP: 4800000
@@ -1733,7 +1811,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1440000
     Uniformity: 1.0
+    id: 27603
     name: Shadow Control Tower Medium
+    volume: 4000.0
   Shadow Control Tower Small:
     AnchoringDelay: 360000
     ArmorHP: 2400000
@@ -1776,7 +1856,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 720000
     Uniformity: 1.0
+    id: 27606
     name: Shadow Control Tower Small
+    volume: 2000.0
   True Sansha Control Tower:
     AnchoringDelay: 1440000
     ArmorHP: 12000000
@@ -1820,7 +1902,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 2880000
     Uniformity: 1.0
+    id: 27786
     name: True Sansha Control Tower
+    volume: 8000.0
   True Sansha Control Tower Medium:
     AnchoringDelay: 720000
     ArmorHP: 6000000
@@ -1864,7 +1948,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1440000
     Uniformity: 1.0
+    id: 27788
     name: True Sansha Control Tower Medium
+    volume: 4000.0
   True Sansha Control Tower Small:
     AnchoringDelay: 360000
     ArmorHP: 3000000
@@ -1908,4 +1994,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 720000
     Uniformity: 1.0
+    id: 27790
     name: True Sansha Control Tower Small
+    volume: 2000.0

@@ -64,7 +64,9 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 35832
     name: Astrahus
+    volume: 8000.0
   Fortizar:
     ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
@@ -131,7 +133,9 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 6
     WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 35833
     name: Fortizar
+    volume: 80000.0
   Keepstar:
     ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
@@ -198,7 +202,9 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 35834
     name: Keepstar
+    volume: 800000.0
   Upwell Palatine Keepstar:
     ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
@@ -267,4 +273,6 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 40340
     name: Upwell Palatine Keepstar
+    volume: 800000.0

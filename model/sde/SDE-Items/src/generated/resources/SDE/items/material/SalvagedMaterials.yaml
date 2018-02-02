@@ -1,115 +1,191 @@
 items:
   Alloyed Tritanium Bar:
     Hp: 20
+    id: 25595
     name: Alloyed Tritanium Bar
+    volume: 0.01
   Armor Plates:
     Hp: 20
+    id: 25605
     name: Armor Plates
+    volume: 0.01
   Artificial Neural Network:
     Hp: 20
+    id: 25616
     name: Artificial Neural Network
+    volume: 0.01
   Broken Drone Transceiver:
     Hp: 20
+    id: 25596
     name: Broken Drone Transceiver
+    volume: 0.01
   Burned Logic Circuit:
     Hp: 20
+    id: 25600
     name: Burned Logic Circuit
+    volume: 0.01
   Capacitor Console:
     Hp: 20
+    id: 25622
     name: Capacitor Console
+    volume: 0.01
   Charred Micro Circuit:
     Hp: 20
+    id: 25599
     name: Charred Micro Circuit
+    volume: 0.01
   Conductive Polymer:
     Hp: 20
+    id: 25604
     name: Conductive Polymer
+    volume: 0.01
   Conductive Thermoplastic:
     Hp: 20
+    id: 25623
     name: Conductive Thermoplastic
+    volume: 0.01
   Contaminated Lorentz Fluid:
     Hp: 20
+    id: 25591
     name: Contaminated Lorentz Fluid
+    volume: 0.01
   Contaminated Nanite Compound:
     Hp: 20
+    id: 25590
     name: Contaminated Nanite Compound
+    volume: 0.01
   Current Pump:
     Hp: 20
+    id: 25611
     name: Current Pump
+    volume: 0.01
   Damaged Artificial Neural Network:
     Hp: 20
+    id: 25597
     name: Damaged Artificial Neural Network
+    volume: 0.01
   Defective Current Pump:
     Hp: 20
+    id: 25592
     name: Defective Current Pump
+    volume: 0.01
   Drone Transceiver:
     Hp: 20
+    id: 25615
     name: Drone Transceiver
+    volume: 0.01
   Enhanced Ward Console:
     Hp: 20
+    id: 25625
     name: Enhanced Ward Console
+    volume: 0.01
   Fried Interface Circuit:
     Hp: 20
+    id: 25601
     name: Fried Interface Circuit
+    volume: 0.01
   Impetus Console:
     Hp: 20
+    id: 25621
     name: Impetus Console
+    volume: 0.01
   Intact Armor Plates:
     Hp: 20
+    id: 25624
     name: Intact Armor Plates
+    volume: 0.01
   Intact Shield Emitter:
     Hp: 20
+    id: 25608
     name: Intact Shield Emitter
+    volume: 0.01
   Interface Circuit:
     Hp: 20
+    id: 25620
     name: Interface Circuit
+    volume: 0.01
   Logic Circuit:
     Hp: 20
+    id: 25619
     name: Logic Circuit
+    volume: 0.01
   Lorentz Fluid:
     Hp: 20
+    id: 25610
     name: Lorentz Fluid
+    volume: 0.01
   Malfunctioning Shield Emitter:
     Hp: 20
+    id: 25589
     name: Malfunctioning Shield Emitter
+    volume: 0.01
   Melted Capacitor Console:
     Hp: 20
+    id: 25603
     name: Melted Capacitor Console
+    volume: 0.01
   Micro Circuit:
     Hp: 20
+    id: 25618
     name: Micro Circuit
+    volume: 0.01
   Nanite Compound:
     Hp: 20
+    id: 25609
     name: Nanite Compound
+    volume: 0.01
   Power Circuit:
     Hp: 20
+    id: 25617
     name: Power Circuit
+    volume: 0.01
   Power Conduit:
     Hp: 20
+    id: 25613
     name: Power Conduit
+    volume: 0.01
   Scorched Telemetry Processor:
     Hp: 20
+    id: 25588
     name: Scorched Telemetry Processor
+    volume: 0.01
   Single-crystal Superalloy I-beam:
     Hp: 20
+    id: 25614
     name: Single-crystal Superalloy I-beam
+    volume: 0.01
   Smashed Trigger Unit:
     Hp: 20
+    id: 25593
     name: Smashed Trigger Unit
+    volume: 0.01
   Tangled Power Conduit:
     Hp: 20
+    id: 25594
     name: Tangled Power Conduit
+    volume: 0.01
   Telemetry Processor:
     Hp: 20
+    id: 25607
     name: Telemetry Processor
+    volume: 0.01
   Thruster Console:
     Hp: 20
+    id: 25602
     name: Thruster Console
+    volume: 0.01
   Trigger Unit:
     Hp: 20
+    id: 25612
     name: Trigger Unit
+    volume: 0.01
   Tripped Power Circuit:
     Hp: 20
+    id: 25598
     name: Tripped Power Circuit
+    volume: 0.01
   Ward Console:
     Hp: 20
+    id: 25606
     name: Ward Console
+    volume: 0.01

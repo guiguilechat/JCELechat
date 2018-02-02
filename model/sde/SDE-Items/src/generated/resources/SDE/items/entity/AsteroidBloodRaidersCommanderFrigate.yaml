@@ -1,33 +1,65 @@
 items:
   Dark Blood Collector:
+    id: 13558
     name: Dark Blood Collector
+    volume: 28100.0
   Dark Blood Diviner:
+    id: 13554
     name: Dark Blood Diviner
+    volume: 28600.0
   Dark Blood Engraver:
+    id: 13574
     name: Dark Blood Engraver
+    volume: 28600.0
   Dark Blood Follower:
+    id: 13546
     name: Dark Blood Follower
+    volume: 28100.0
   Dark Blood Herald:
+    id: 13567
     name: Dark Blood Herald
+    volume: 28100.0
   Dark Blood Raider:
+    id: 13566
     name: Dark Blood Raider
+    volume: 28700.0
   Dark Blood Reaver:
+    id: 13545
     name: Dark Blood Reaver
+    volume: 28700.0
   Dark Blood Seeker:
+    id: 13568
     name: Dark Blood Seeker
+    volume: 28100.0
   Dark Blood Upholder:
+    id: 13555
     name: Dark Blood Upholder
+    volume: 28100.0
   Dark Blood Worshipper:
+    id: 13571
     name: Dark Blood Worshipper
+    volume: 24398.0
   Sellsword Collector:
+    id: 24390
     name: Sellsword Collector
+    volume: 28100.0
   Sellsword Diviner:
+    id: 24392
     name: Sellsword Diviner
+    volume: 28600.0
   Sellsword Engraver:
+    id: 24394
     name: Sellsword Engraver
+    volume: 28600.0
   Sellsword Raider:
+    id: 24391
     name: Sellsword Raider
+    volume: 28700.0
   Sellsword Reaver:
+    id: 24393
     name: Sellsword Reaver
+    volume: 28700.0
   Sellsword Seeker:
+    id: 24408
     name: Sellsword Seeker
+    volume: 28100.0

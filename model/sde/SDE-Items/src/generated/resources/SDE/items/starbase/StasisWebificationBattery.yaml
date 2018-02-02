@@ -41,7 +41,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27570
     name: Angel Stasis Webification Battery
+    volume: 4000.0
   Domination Stasis Webification Battery:
     AnchoringDelay: 5000
     ArmorHP: 3000000
@@ -84,7 +86,9 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 27573
     name: Domination Stasis Webification Battery
+    volume: 4000.0
   Stasis Webification Battery:
     AnchoringDelay: 5000
     ArmorHP: 1500000
@@ -126,4 +130,6 @@ items:
     ThermalDamageResonance: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17178
     name: Stasis Webification Battery
+    volume: 4000.0

@@ -20,7 +20,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 35789
     name: Astro-Inertial Compact Missile Guidance Computer
+    volume: 5.0
   Missile Guidance Computer I:
     AoeCloudSizeBonus: -5.5
     AoeVelocityBonus: 5.5
@@ -41,7 +43,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 35788
     name: Missile Guidance Computer I
+    volume: 5.0
   Missile Guidance Computer II:
     AoeCloudSizeBonus: -8.25
     AoeVelocityBonus: 8.25
@@ -63,4 +67,6 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 35790
     name: Missile Guidance Computer II
+    volume: 5.0

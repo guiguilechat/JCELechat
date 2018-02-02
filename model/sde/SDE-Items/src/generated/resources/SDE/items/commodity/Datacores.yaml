@@ -2,127 +2,195 @@ items:
   'Datacore - Advanced Starship Engineering ':
     RequiredSkill1: 3397
     RequiredSkill1Level: 1
+    id: 20117
     name: 'Datacore - Advanced Starship Engineering '
+    volume: 1.0
   Datacore - Amarrian Starship Engineering:
     RequiredSkill1: 11444
     RequiredSkill1Level: 1
+    id: 20421
     name: Datacore - Amarrian Starship Engineering
+    volume: 0.1
   Datacore - Basic Civilian Tech:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
+    id: 27025
     name: Datacore - Basic Civilian Tech
+    volume: 1.0
   Datacore - Caldari Starship Engineering:
     RequiredSkill1: 11454
     RequiredSkill1Level: 1
+    id: 25887
     name: Datacore - Caldari Starship Engineering
+    volume: 0.1
   Datacore - Core Subsystems Engineering:
     RequiredSkill1: 30325
     RequiredSkill1Level: 1
+    id: 20115
     name: Datacore - Core Subsystems Engineering
+    volume: 0.1
   Datacore - Defensive Subsystems Engineering:
     RequiredSkill1: 30324
     RequiredSkill1Level: 1
+    id: 11496
     name: Datacore - Defensive Subsystems Engineering
+    volume: 0.1
   Datacore - Electromagnetic Physics:
     RequiredSkill1: 11448
     RequiredSkill1Level: 1
+    id: 20417
     name: Datacore - Electromagnetic Physics
+    volume: 0.1
   Datacore - Electronic Engineering:
     RequiredSkill1: 11453
     RequiredSkill1Level: 1
+    id: 20418
     name: Datacore - Electronic Engineering
+    volume: 0.1
   Datacore - Electronic Subsystems Engineering:
     RequiredSkill1: 30326
     RequiredSkill1Level: 1
+    id: 20116
     name: Datacore - Electronic Subsystems Engineering
+    volume: 0.1
   Datacore - Elementary Civilian Tech:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
+    id: 27059
     name: Datacore - Elementary Civilian Tech
+    volume: 1.0
   Datacore - Gallentean Starship Engineering:
     RequiredSkill1: 11450
     RequiredSkill1Level: 1
+    id: 20410
     name: Datacore - Gallentean Starship Engineering
+    volume: 0.1
   Datacore - Graviton Physics:
     RequiredSkill1: 11446
     RequiredSkill1Level: 1
+    id: 20419
     name: Datacore - Graviton Physics
+    volume: 0.1
   Datacore - High Energy Physics:
     RequiredSkill1: 11433
     RequiredSkill1Level: 1
+    id: 20411
     name: Datacore - High Energy Physics
+    volume: 0.1
   Datacore - Hydromagnetic Physics:
     RequiredSkill1: 11443
     RequiredSkill1Level: 1
+    id: 20171
     name: Datacore - Hydromagnetic Physics
+    volume: 0.1
   Datacore - Jove Tech 1:
     RequiredSkill1Level: 1
+    id: 20113
     name: Datacore - Jove Tech 1
+    volume: 1.0
   Datacore - Laser Physics:
     RequiredSkill1: 11447
     RequiredSkill1Level: 1
+    id: 20413
     name: Datacore - Laser Physics
+    volume: 0.1
   Datacore - Mechanical Engineering:
     RequiredSkill1: 11452
     RequiredSkill1Level: 1
+    id: 20424
     name: Datacore - Mechanical Engineering
+    volume: 0.1
   Datacore - Minmatar Starship Engineering:
     RequiredSkill1: 11445
     RequiredSkill1Level: 1
+    id: 20172
     name: Datacore - Minmatar Starship Engineering
+    volume: 0.1
   Datacore - Molecular Engineering:
     RequiredSkill1: 11529
     RequiredSkill1Level: 1
+    id: 20415
     name: Datacore - Molecular Engineering
+    volume: 0.1
   Datacore - Nanite Engineering:
     RequiredSkill1: 11442
     RequiredSkill1Level: 1
+    id: 20416
     name: Datacore - Nanite Engineering
+    volume: 0.1
   Datacore - Nuclear Physics:
     RequiredSkill1: 11451
     RequiredSkill1Level: 1
+    id: 20423
     name: Datacore - Nuclear Physics
+    volume: 0.1
   Datacore - Offensive Subsystems Engineering:
     RequiredSkill1: 30327
     RequiredSkill1Level: 1
+    id: 20425
     name: Datacore - Offensive Subsystems Engineering
+    volume: 0.1
   Datacore - Plasma Physics:
     RequiredSkill1: 11441
     RequiredSkill1Level: 1
+    id: 20412
     name: Datacore - Plasma Physics
+    volume: 0.1
   Datacore - Propulsion Subsystems Engineering:
     RequiredSkill1: 30788
     RequiredSkill1Level: 1
+    id: 20114
     name: Datacore - Propulsion Subsystems Engineering
+    volume: 0.1
   Datacore - Quantum Physics:
     RequiredSkill1: 11455
     RequiredSkill1Level: 1
+    id: 20414
     name: Datacore - Quantum Physics
+    volume: 0.1
   Datacore - Rocket Science:
     RequiredSkill1: 11449
     RequiredSkill1Level: 1
+    id: 20420
     name: Datacore - Rocket Science
+    volume: 0.1
   Datacore - Sleeper Tech 3:
     RequiredSkill1Level: 1
+    id: 11498
     name: Datacore - Sleeper Tech 3
+    volume: 1.0
   Datacore - Sleeper Tech 4:
     RequiredSkill1Level: 1
+    id: 11499
     name: Datacore - Sleeper Tech 4
+    volume: 1.0
   Datacore - Takmahl Tech 1:
     RequiredSkill1Level: 1
+    id: 11491
     name: Datacore - Takmahl Tech 1
+    volume: 1.0
   Datacore - Takmahl Tech 2:
     RequiredSkill1Level: 1
+    id: 11492
     name: Datacore - Takmahl Tech 2
+    volume: 1.0
   Datacore - Takmahl Tech 3:
     RequiredSkill1Level: 1
+    id: 11493
     name: Datacore - Takmahl Tech 3
+    volume: 1.0
   Datacore - Talocan Tech 1:
     RequiredSkill1Level: 1
+    id: 12867
     name: Datacore - Talocan Tech 1
+    volume: 1.0
   Datacore - Yan Jung Tech 3:
     RequiredSkill1Level: 1
+    id: 11504
     name: Datacore - Yan Jung Tech 3
+    volume: 1.0
   Datacore - Yan Jung Tech 5:
     RequiredSkill1Level: 1
+    id: 11506
     name: Datacore - Yan Jung Tech 5
+    volume: 1.0

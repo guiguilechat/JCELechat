@@ -1,17 +1,33 @@
 items:
   Athran Agent:
+    id: 29200
     name: Athran Agent
+    volume: 17400.0
   Athran Operative:
+    id: 29201
     name: Athran Operative
+    volume: 28100.0
   Khanid Elite Fighter:
+    id: 12029
     name: Khanid Elite Fighter
+    volume: 28700.0
   Khanid Fighter:
+    id: 11947
     name: Khanid Fighter
+    volume: 18100.0
   Khanid Rookie:
+    id: 16171
     name: Khanid Rookie
+    volume: 17400.0
   Khanid Scout:
+    id: 16178
     name: Khanid Scout
+    volume: 28100.0
   Khanid Sparrow:
+    id: 16172
     name: Khanid Sparrow
+    volume: 28700.0
   Khanid Wingman:
+    id: 16212
     name: Khanid Wingman
+    volume: 28600.0

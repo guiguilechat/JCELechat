@@ -50,7 +50,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 29328
     name: Amarr Media Shuttle
+    volume: 5000.0
   Amarr Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -102,7 +104,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 11134
     name: Amarr Shuttle
+    volume: 5000.0
   Apotheosis:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -159,7 +163,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 29266
     name: Apotheosis
+    volume: 17400.0
   Caldari Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -211,7 +217,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 29330
     name: Caldari Media Shuttle
+    volume: 5000.0
   Caldari Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -263,7 +271,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 672
     name: Caldari Shuttle
+    volume: 5000.0
   Civilian Amarr Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -314,7 +324,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 27299
     name: Civilian Amarr Shuttle
+    volume: 5000.0
   Civilian Caldari Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -365,7 +377,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 27301
     name: Civilian Caldari Shuttle
+    volume: 5000.0
   Civilian Gallente Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -416,7 +430,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 27303
     name: Civilian Gallente Shuttle
+    volume: 5000.0
   Civilian Minmatar Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -467,7 +483,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 27305
     name: Civilian Minmatar Shuttle
+    volume: 5000.0
   Council Diplomatic Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -523,7 +541,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 34496
     name: Council Diplomatic Shuttle
+    volume: 5000.0
   Gallente Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -575,7 +595,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 29332
     name: Gallente Media Shuttle
+    volume: 5000.0
   Gallente Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -627,7 +649,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 11129
     name: Gallente Shuttle
+    volume: 5000.0
   Goru's Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -680,7 +704,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 21097
     name: Goru's Shuttle
+    volume: 5000.0
   Guristas Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -733,7 +759,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 21628
     name: Guristas Shuttle
+    volume: 5000.0
   InterBus Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.5
@@ -786,7 +814,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 30842
     name: InterBus Shuttle
+    volume: 5000.0
   Leopard:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -839,7 +869,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 20.0
+    id: 33513
     name: Leopard
+    volume: 5000.0
   Minmatar Media Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -891,7 +923,9 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 29334
     name: Minmatar Media Shuttle
+    volume: 5000.0
   Minmatar Shuttle:
     Agility: 1.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -943,4 +977,6 @@ items:
     UpgradeCapacity: 1
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
+    id: 11132
     name: Minmatar Shuttle
+    volume: 5000.0

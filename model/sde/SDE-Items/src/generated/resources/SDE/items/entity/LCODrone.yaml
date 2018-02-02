@@ -1,3 +1,5 @@
 items:
   Test LCO Drone:
+    id: 3457
     name: Test LCO Drone
+    volume: 60.0

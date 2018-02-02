@@ -1,3 +1,5 @@
 items:
   Moon:
+    id: 14
     name: Moon
+    volume: 1.0

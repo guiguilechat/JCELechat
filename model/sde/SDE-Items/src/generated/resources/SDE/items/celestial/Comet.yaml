@@ -2,22 +2,42 @@ items:
   Gas Cloud 1:
     ReprocessingSkillType: 16280
     RequiredSkill1: 16280
+    id: 25236
     name: Gas Cloud 1
+    volume: 100.0
   Gas Cloud 2:
+    id: 25244
     name: Gas Cloud 2
+    volume: 100.0
   Gas Cloud 3:
+    id: 25245
     name: Gas Cloud 3
+    volume: 100.0
   Gas Cloud 4:
+    id: 25246
     name: Gas Cloud 4
+    volume: 100.0
   Gas Cloud 5:
+    id: 25247
     name: Gas Cloud 5
+    volume: 100.0
   Gas Cloud 6:
+    id: 25248
     name: Gas Cloud 6
+    volume: 100.0
   Gas Cloud 7:
+    id: 25249
     name: Gas Cloud 7
+    volume: 100.0
   Gas Cloud 8:
+    id: 25250
     name: Gas Cloud 8
+    volume: 100.0
   Gold Comet:
+    id: 10073
     name: Gold Comet
+    volume: 20.0
   Toxic Comet:
+    id: 10071
     name: Toxic Comet
+    volume: 20.0

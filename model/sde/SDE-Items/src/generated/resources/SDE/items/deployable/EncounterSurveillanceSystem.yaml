@@ -19,7 +19,9 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     WarpScrambleStrength: 100
+    id: 33585
     name: Amarr Encounter Surveillance System
+    volume: 200.0
   Caldari Encounter Surveillance System:
     ArmorHP: 30000
     ArmorUniformity: 0.75
@@ -40,7 +42,9 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     WarpScrambleStrength: 100
+    id: 33595
     name: Caldari Encounter Surveillance System
+    volume: 200.0
   Gallente Encounter Surveillance System:
     ArmorHP: 30000
     ArmorUniformity: 0.75
@@ -61,7 +65,9 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     WarpScrambleStrength: 100
+    id: 33608
     name: Gallente Encounter Surveillance System
+    volume: 200.0
   Minmatar Encounter Surveillance System:
     ArmorHP: 30000
     ArmorUniformity: 0.75
@@ -82,4 +88,6 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     WarpScrambleStrength: 100
+    id: 33610
     name: Minmatar Encounter Surveillance System
+    volume: 200.0

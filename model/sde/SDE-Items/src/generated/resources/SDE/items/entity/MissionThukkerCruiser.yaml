@@ -1,5 +1,9 @@
 items:
   Thukker Mercenary Captain:
+    id: 23956
     name: Thukker Mercenary Captain
+    volume: 96000.0
   Thukker Mercenary Eliminator:
+    id: 23957
     name: Thukker Mercenary Eliminator
+    volume: 80000.0

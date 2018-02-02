@@ -2,322 +2,482 @@ items:
   '''Corporate'' Light Electron Blaster I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22900
     name: '''Corporate'' Light Electron Blaster I Blueprint'
+    volume: 0.01
   '''Dealer'' Light Ion Blaster I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22902
     name: '''Dealer'' Light Ion Blaster I Blueprint'
+    volume: 0.01
   '''Felon'' Ion Blaster Cannon I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 22914
     name: '''Felon'' Ion Blaster Cannon I Blueprint'
+    volume: 0.01
   '''Hooligan'' Heavy Ion Blaster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22908
     name: '''Hooligan'' Heavy Ion Blaster I Blueprint'
+    volume: 0.01
   '''Hustler'' Heavy Neutron Blaster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22910
     name: '''Hustler'' Heavy Neutron Blaster I Blueprint'
+    volume: 0.01
   '''Racket'' Light Neutron Blaster I Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22904
     name: '''Racket'' Light Neutron Blaster I Blueprint'
+    volume: 0.01
   '''Slither'' Heavy Electron Blaster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22906
     name: '''Slither'' Heavy Electron Blaster I Blueprint'
+    volume: 0.01
   '''Swindler'' Electron Blaster Cannon I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 22912
     name: '''Swindler'' Electron Blaster Cannon I Blueprint'
+    volume: 0.01
   '''Underhand'' Neutron Blaster Cannon I Blueprint':
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 22916
     name: '''Underhand'' Neutron Blaster Cannon I Blueprint'
+    volume: 0.01
   125mm Railgun I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 10679
     name: 125mm Railgun I Blueprint
+    volume: 0.01
   125mm Railgun II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 10681
     name: 125mm Railgun II Blueprint
+    volume: 0.01
   150mm 'Musket' Railgun Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 20588
     name: 150mm 'Musket' Railgun Blueprint
+    volume: 0.01
   150mm Railgun I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1116
     name: 150mm Railgun I Blueprint
+    volume: 0.01
   150mm Railgun II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3075
     name: 150mm Railgun II Blueprint
+    volume: 0.01
   200mm Railgun I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 12345
     name: 200mm Railgun I Blueprint
+    volume: 0.01
   200mm Railgun II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 12347
     name: 200mm Railgun II Blueprint
+    volume: 0.01
   250mm 'Flintlock' Railgun Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 20590
     name: 250mm 'Flintlock' Railgun Blueprint
+    volume: 0.01
   250mm Railgun I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1121
     name: 250mm Railgun I Blueprint
+    volume: 0.01
   250mm Railgun II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3083
     name: 250mm Railgun II Blueprint
+    volume: 0.01
   350mm Railgun I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 12355
     name: 350mm Railgun I Blueprint
+    volume: 0.01
   350mm Railgun II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 12357
     name: 350mm Railgun II Blueprint
+    volume: 0.01
   425mm 'Popper' Railgun Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 20592
     name: 425mm 'Popper' Railgun Blueprint
+    volume: 0.01
   425mm Railgun I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 1125
     name: 425mm Railgun I Blueprint
+    volume: 0.01
   425mm Railgun II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3091
     name: 425mm Railgun II Blueprint
+    volume: 0.01
   75mm Gatling Rail I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1112
     name: 75mm Gatling Rail I Blueprint
+    volume: 0.01
   75mm Gatling Rail II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3099
     name: 75mm Gatling Rail II Blueprint
+    volume: 0.01
   Anode Scoped Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41134
     name: Anode Scoped Ion Siege Blaster Blueprint
+    volume: 0.01
   Anode Scoped Triple Neutron Blaster Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41088
     name: Anode Scoped Triple Neutron Blaster Cannon Blueprint
+    volume: 0.01
   CONCORD Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    id: 3557
     name: CONCORD Dual 1000mm Railgun Blueprint
+    volume: 0.01
   CONCORD Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    id: 3547
     name: CONCORD Ion Siege Blaster Blueprint
+    volume: 0.01
   Caldari Navy 200mm Railgun Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 15822
     name: Caldari Navy 200mm Railgun Blueprint
+    volume: 0.01
   Caldari Navy 350mm Railgun Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 15819
     name: Caldari Navy 350mm Railgun Blueprint
+    volume: 0.01
   Carbide Compact Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41143
     name: Carbide Compact Dual 1000mm Railgun Blueprint
+    volume: 0.01
   Compressed Enduring Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41144
     name: Compressed Enduring Dual 1000mm Railgun Blueprint
+    volume: 0.01
   Dual 1000mm Railgun I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 20449
     name: Dual 1000mm Railgun I Blueprint
+    volume: 0.01
   Dual 1000mm Railgun II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    id: 41145
     name: Dual 1000mm Railgun II Blueprint
+    volume: 0.01
   Dual 150mm Railgun I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1118
     name: Dual 150mm Railgun I Blueprint
+    volume: 0.01
   Dual 150mm Railgun II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3107
     name: Dual 150mm Railgun II Blueprint
+    volume: 0.01
   Dual 250mm Railgun I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 1123
     name: Dual 250mm Railgun I Blueprint
+    volume: 0.01
   Dual 250mm Railgun II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3115
     name: Dual 250mm Railgun II Blueprint
+    volume: 0.01
   Electron Blaster Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 1122
     name: Electron Blaster Cannon I Blueprint
+    volume: 0.01
   Electron Blaster Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3123
     name: Electron Blaster Cannon II Blueprint
+    volume: 0.01
   Federation Navy 200mm Railgun Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 15842
     name: Federation Navy 200mm Railgun Blueprint
+    volume: 0.01
   Federation Navy 350mm Railgun Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 15839
     name: Federation Navy 350mm Railgun Blueprint
+    volume: 0.01
   Heavy Electron Blaster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1117
     name: Heavy Electron Blaster I Blueprint
+    volume: 0.01
   Heavy Electron Blaster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3131
     name: Heavy Electron Blaster II Blueprint
+    volume: 0.01
   Heavy Ion Blaster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1120
     name: Heavy Ion Blaster I Blueprint
+    volume: 0.01
   Heavy Ion Blaster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3139
     name: Heavy Ion Blaster II Blueprint
+    volume: 0.01
   Heavy Neutron Blaster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 1119
     name: Heavy Neutron Blaster I Blueprint
+    volume: 0.01
   Heavy Neutron Blaster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3147
     name: Heavy Neutron Blaster II Blueprint
+    volume: 0.01
   Ion Blaster Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 1126
     name: Ion Blaster Cannon I Blueprint
+    volume: 0.01
   Ion Blaster Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3155
     name: Ion Blaster Cannon II Blueprint
+    volume: 0.01
   Ion Siege Blaster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 20451
     name: Ion Siege Blaster I Blueprint
+    volume: 0.01
   Ion Siege Blaster II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    id: 41136
     name: Ion Siege Blaster II Blueprint
+    volume: 0.01
   Large Tractor Beam I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 24623
     name: Large Tractor Beam I Blueprint
+    volume: 0.01
   Light Electron Blaster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1113
     name: Light Electron Blaster I Blueprint
+    volume: 0.01
   Light Electron Blaster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3163
     name: Light Electron Blaster II Blueprint
+    volume: 0.01
   Light Ion Blaster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1114
     name: Light Ion Blaster I Blueprint
+    volume: 0.01
   Light Ion Blaster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3171
     name: Light Ion Blaster II Blueprint
+    volume: 0.01
   Light Neutron Blaster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1115
     name: Light Neutron Blaster I Blueprint
+    volume: 0.01
   Light Neutron Blaster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 3179
     name: Light Neutron Blaster II Blueprint
+    volume: 0.01
   Limited Precise Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41135
     name: Limited Precise Ion Siege Blaster Blueprint
+    volume: 0.01
   Limited Precise Triple Neutron Blaster Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41089
     name: Limited Precise Triple Neutron Blaster Cannon Blueprint
+    volume: 0.01
   Medium Tractor Beam I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 24621
     name: Medium Tractor Beam I Blueprint
+    volume: 0.01
   Modal Enduring Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41133
     name: Modal Enduring Ion Siege Blaster Blueprint
+    volume: 0.01
   Modal Enduring Triple Neutron Blaster Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41087
     name: Modal Enduring Triple Neutron Blaster Cannon Blueprint
+    volume: 0.01
   Neutron Blaster Cannon I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 1124
     name: Neutron Blaster Cannon I Blueprint
+    volume: 0.01
   Neutron Blaster Cannon II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 3187
     name: Neutron Blaster Cannon II Blueprint
+    volume: 0.01
   Polarized Heavy Neutron Blaster Blueprint:
     TechLevel: 2
+    id: 34281
     name: Polarized Heavy Neutron Blaster Blueprint
+    volume: 0.01
   Polarized Light Neutron Blaster Blueprint:
     TechLevel: 2
+    id: 34279
     name: Polarized Light Neutron Blaster Blueprint
+    volume: 0.01
   Polarized Neutron Blaster Cannon Blueprint:
     TechLevel: 2
+    id: 34283
     name: Polarized Neutron Blaster Cannon Blueprint
+    volume: 0.01
   Prototype Precise Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41148
     name: Prototype Precise Dual 1000mm Railgun Blueprint
+    volume: 0.01
   Regulated Compact Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41132
     name: Regulated Compact Ion Siege Blaster Blueprint
+    volume: 0.01
   Regulated Compact Triple Neutron Blaster Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41086
     name: Regulated Compact Triple Neutron Blaster Cannon Blueprint
+    volume: 0.01
   Scout Scoped Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
+    id: 41146
     name: Scout Scoped Dual 1000mm Railgun Blueprint
+    volume: 0.01
   Shadow Serpentis Dual 1000mm Railgun Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    id: 41147
     name: Shadow Serpentis Dual 1000mm Railgun Blueprint
+    volume: 0.01
   Shadow Serpentis Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    id: 41137
     name: Shadow Serpentis Ion Siege Blaster Blueprint
+    volume: 0.01
   Shadow Serpentis Triple Neutron Blaster Cannon Blueprint:
     IndustryBlueprintRank: 400.0
     MetaGroupID: 4
     TechLevel: 1
+    id: 41091
     name: Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
+    volume: 0.01
   Triple Neutron Blaster Cannon I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 41085
     name: Triple Neutron Blaster Cannon I Blueprint
+    volume: 0.01
   Triple Neutron Blaster Cannon II Blueprint:
     IndustryBlueprintRank: 300.0
     TechLevel: 2
+    id: 41090
     name: Triple Neutron Blaster Cannon II Blueprint
+    volume: 0.01

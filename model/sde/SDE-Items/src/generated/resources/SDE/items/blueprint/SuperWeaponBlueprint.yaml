@@ -1,37 +1,69 @@
 items:
   '''Aurora Ominae'' Thermal Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    id: 24555
     name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
+    volume: 0.01
   '''Gjallarhorn'' Explosive Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    id: 24549
     name: '''Gjallarhorn'' Explosive Doomsday Blueprint'
+    volume: 0.01
   '''Judgment'' Electromagnetic Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    id: 24551
     name: '''Judgment'' Electromagnetic Doomsday Blueprint'
+    volume: 0.01
   '''Oblivion'' Kinetic Doomsday Blueprint':
     IndustryBlueprintRank: 240.0
+    id: 24553
     name: '''Oblivion'' Kinetic Doomsday Blueprint'
+    volume: 0.01
   Bosonic Field Generator Blueprint:
+    id: 41532
     name: Bosonic Field Generator Blueprint
+    volume: 0.01
   Gravitational Transportation Field Oscillator Blueprint:
+    id: 41438
     name: Gravitational Transportation Field Oscillator Blueprint
+    volume: 0.01
   Pulse Activated Nexus Invulnerability Core Blueprint:
+    id: 42889
     name: Pulse Activated Nexus Invulnerability Core Blueprint
+    volume: 0.01
   Superweapon_AOEECM Blueprint:
+    id: 41395
     name: Superweapon_AOEECM Blueprint
+    volume: 0.01
   ‘Cold Wind’ Kinetic Reaper Blueprint:
+    id: 41449
     name: ‘Cold Wind’ Kinetic Reaper Blueprint
+    volume: 0.01
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint:
+    id: 41452
     name: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
+    volume: 0.01
   ‘Geiravor’ Explosive Lance Blueprint:
+    id: 41448
     name: ‘Geiravor’ Explosive Lance Blueprint
+    volume: 0.01
   ‘Guillotine’ Thermal Reaper Blueprint:
+    id: 41450
     name: ‘Guillotine’ Thermal Reaper Blueprint
+    volume: 0.01
   ‘Holy Destiny’ Electromagnetic Lance Blueprint:
+    id: 41445
     name: ‘Holy Destiny’ Electromagnetic Lance Blueprint
+    volume: 0.01
   ‘Iron Pike’ Kinetic Lance Blueprint:
+    id: 41446
     name: ‘Iron Pike’ Kinetic Lance Blueprint
+    volume: 0.01
   ‘Jormungandr’ Explosive Reaper Blueprint:
+    id: 41451
     name: ‘Jormungandr’ Explosive Reaper Blueprint
+    volume: 0.01
   ‘Phalarica’ Thermal Lance Blueprint:
+    id: 41447
     name: ‘Phalarica’ Thermal Lance Blueprint
+    volume: 0.01

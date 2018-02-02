@@ -14,7 +14,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 24283
     name: Fighter Support Unit I
+    volume: 4000.0
   Fighter Support Unit II:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -31,7 +33,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 4
     TechLevel: 2
+    id: 41415
     name: Fighter Support Unit II
+    volume: 4000.0
   Hermes Compact Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -48,7 +52,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 41414
     name: Hermes Compact Fighter Support Unit
+    volume: 4000.0
   Sentient Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -66,7 +72,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 41417
     name: Sentient Fighter Support Unit
+    volume: 2000.0
   Unit D-34343's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -84,7 +92,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 32951
     name: Unit D-34343's Modified Fighter Support Unit
+    volume: 800.0
   Unit F-435454's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -102,7 +112,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 32953
     name: Unit F-435454's Modified Fighter Support Unit
+    volume: 600.0
   Unit P-343554's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -120,7 +132,9 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 32955
     name: Unit P-343554's Modified Fighter Support Unit
+    volume: 400.0
   Unit W-634's Modified Fighter Support Unit:
     CanFitShipGroup01: 547
     CanFitShipGroup02: 659
@@ -138,4 +152,6 @@ items:
     RequiredSkill1: 24613
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 32957
     name: Unit W-634's Modified Fighter Support Unit
+    volume: 200.0

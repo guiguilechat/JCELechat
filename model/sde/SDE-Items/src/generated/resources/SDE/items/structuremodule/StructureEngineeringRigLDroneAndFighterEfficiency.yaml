@@ -17,7 +17,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43712
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency I
+    volume: 20.0
   Standup L-Set Drone and Fighter Manufacturing Efficiency II:
     AttributeEngRigMatBonus: -2.4000000953674316
     AttributeEngRigTimeBonus: -24
@@ -36,4 +38,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43713
     name: Standup L-Set Drone and Fighter Manufacturing Efficiency II
+    volume: 20.0

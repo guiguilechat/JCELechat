@@ -2,16 +2,24 @@ items:
   Ice Harvester Upgrade I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22577
     name: Ice Harvester Upgrade I Blueprint
+    volume: 0.01
   Ice Harvester Upgrade II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 28579
     name: Ice Harvester Upgrade II Blueprint
+    volume: 0.01
   Mining Laser Upgrade I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 22543
     name: Mining Laser Upgrade I Blueprint
+    volume: 0.01
   Mining Laser Upgrade II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 28577
     name: Mining Laser Upgrade II Blueprint
+    volume: 0.01

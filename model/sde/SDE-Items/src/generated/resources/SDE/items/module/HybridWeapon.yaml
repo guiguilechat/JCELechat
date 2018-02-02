@@ -28,7 +28,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11323
+    id: 22899
     name: '''Corporate'' Light Electron Blaster I'
+    volume: 5.0
   '''Dealer'' Light Ion Blaster I':
     CapacitorNeed: 1.0927000045776367
     ChargeGroup1: 85
@@ -58,7 +60,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11323
+    id: 22901
     name: '''Dealer'' Light Ion Blaster I'
+    volume: 5.0
   '''Felon'' Ion Blaster Cannon I':
     CapacitorNeed: 9.800000190734863
     ChargeGroup1: 85
@@ -88,7 +92,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11323
+    id: 22913
     name: '''Felon'' Ion Blaster Cannon I'
+    volume: 20.0
   '''Hooligan'' Heavy Ion Blaster I':
     CapacitorNeed: 3.2683000564575195
     ChargeGroup1: 85
@@ -118,7 +124,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11323
+    id: 22907
     name: '''Hooligan'' Heavy Ion Blaster I'
+    volume: 10.0
   '''Hustler'' Heavy Neutron Blaster I':
     CapacitorNeed: 4.248300075531006
     ChargeGroup1: 85
@@ -148,7 +156,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11323
+    id: 22909
     name: '''Hustler'' Heavy Neutron Blaster I'
+    volume: 10.0
   '''Racket'' Light Neutron Blaster I':
     CapacitorNeed: 1.416100025177002
     ChargeGroup1: 85
@@ -178,7 +188,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11323
+    id: 22903
     name: '''Racket'' Light Neutron Blaster I'
+    volume: 5.0
   '''Slither'' Heavy Electron Blaster I':
     CapacitorNeed: 1.9600000381469727
     ChargeGroup1: 85
@@ -208,7 +220,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11323
+    id: 22905
     name: '''Slither'' Heavy Electron Blaster I'
+    volume: 10.0
   '''Swindler'' Electron Blaster Cannon I':
     CapacitorNeed: 5.880000114440918
     ChargeGroup1: 85
@@ -238,7 +252,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11323
+    id: 22911
     name: '''Swindler'' Electron Blaster Cannon I'
+    volume: 20.0
   '''Underhand'' Neutron Blaster Cannon I':
     CapacitorNeed: 12.739999771118164
     ChargeGroup1: 85
@@ -268,7 +284,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
+    id: 22915
     name: '''Underhand'' Neutron Blaster Cannon I'
+    volume: 20.0
   125mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 1.3509999513626099
     ChargeGroup1: 85
@@ -297,7 +315,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
+    id: 10688
     name: 125mm 'Scout' Accelerator Cannon
+    volume: 5.0
   125mm Carbide Railgun I:
     CapacitorNeed: 1.4279999732971191
     ChargeGroup1: 85
@@ -326,7 +346,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
+    id: 10690
     name: 125mm Carbide Railgun I
+    volume: 5.0
   125mm Compressed Coil Gun I:
     CapacitorNeed: 1.281000018119812
     ChargeGroup1: 85
@@ -355,7 +377,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
+    id: 10692
     name: 125mm Compressed Coil Gun I
+    volume: 5.0
   125mm Prototype Gauss Gun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
@@ -384,7 +408,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
+    id: 10694
     name: 125mm Prototype Gauss Gun
+    volume: 5.0
   125mm Railgun I:
     CapacitorNeed: 1.5049999952316284
     ChargeGroup1: 85
@@ -412,7 +438,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
+    id: 10678
     name: 125mm Railgun I
+    volume: 5.0
   125mm Railgun II:
     CapacitorNeed: 1.5049999952316284
     ChargeGroup1: 85
@@ -444,7 +472,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 89.25
     TypeColorScheme: 11325
+    id: 10680
     name: 125mm Railgun II
+    volume: 5.0
   150mm 'Musket' Railgun:
     CapacitorNeed: 2.0999999046325684
     ChargeGroup1: 85
@@ -474,7 +504,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11323
+    id: 20587
     name: 150mm 'Musket' Railgun
+    volume: 5.0
   150mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 2.0999999046325684
     ChargeGroup1: 85
@@ -503,7 +535,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
+    id: 7289
     name: 150mm 'Scout' Accelerator Cannon
+    volume: 5.0
   150mm Carbide Railgun I:
     CapacitorNeed: 2.2190001010894775
     ChargeGroup1: 85
@@ -532,7 +566,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
+    id: 7291
     name: 150mm Carbide Railgun I
+    volume: 5.0
   150mm Compressed Coil Gun I:
     CapacitorNeed: 1.9880000352859497
     ChargeGroup1: 85
@@ -561,7 +597,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
+    id: 7293
     name: 150mm Compressed Coil Gun I
+    volume: 5.0
   150mm Prototype Gauss Gun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
@@ -590,7 +628,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
+    id: 7287
     name: 150mm Prototype Gauss Gun
+    volume: 5.0
   150mm Railgun I:
     CapacitorNeed: 2.3380000591278076
     ChargeGroup1: 85
@@ -618,7 +658,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
+    id: 565
     name: 150mm Railgun I
+    volume: 5.0
   150mm Railgun II:
     CapacitorNeed: 2.3380000591278076
     ChargeGroup1: 85
@@ -650,7 +692,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 73.5
     TypeColorScheme: 11325
+    id: 3074
     name: 150mm Railgun II
+    volume: 5.0
   200mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 4.066999912261963
     ChargeGroup1: 85
@@ -679,7 +723,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
+    id: 14274
     name: 200mm 'Scout' Accelerator Cannon
+    volume: 10.0
   200mm Carbide Railgun I:
     CapacitorNeed: 4.290999889373779
     ChargeGroup1: 85
@@ -708,7 +754,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
+    id: 14272
     name: 200mm Carbide Railgun I
+    volume: 10.0
   200mm Compressed Coil Gun I:
     CapacitorNeed: 3.8359999656677246
     ChargeGroup1: 85
@@ -737,7 +785,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
+    id: 14276
     name: 200mm Compressed Coil Gun I
+    volume: 10.0
   200mm Prototype Gauss Gun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
@@ -766,7 +816,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
+    id: 14278
     name: 200mm Prototype Gauss Gun
+    volume: 10.0
   200mm Railgun I:
     CapacitorNeed: 4.514999866485596
     ChargeGroup1: 85
@@ -794,7 +846,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
+    id: 12344
     name: 200mm Railgun I
+    volume: 10.0
   200mm Railgun II:
     CapacitorNeed: 4.514999866485596
     ChargeGroup1: 85
@@ -826,7 +880,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 8.0
     TypeColorScheme: 11325
+    id: 12346
     name: 200mm Railgun II
+    volume: 10.0
   250mm 'Flintlock' Railgun:
     CapacitorNeed: 6.300000190734863
     ChargeGroup1: 85
@@ -856,7 +912,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11323
+    id: 20589
     name: 250mm 'Flintlock' Railgun
+    volume: 10.0
   250mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 6.300000190734863
     ChargeGroup1: 85
@@ -885,7 +943,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
+    id: 7369
     name: 250mm 'Scout' Accelerator Cannon
+    volume: 10.0
   250mm Carbide Railgun I:
     CapacitorNeed: 6.650000095367432
     ChargeGroup1: 85
@@ -914,7 +974,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
+    id: 7371
     name: 250mm Carbide Railgun I
+    volume: 10.0
   250mm Compressed Coil Gun I:
     CapacitorNeed: 5.949999809265137
     ChargeGroup1: 85
@@ -943,7 +1005,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
+    id: 7373
     name: 250mm Compressed Coil Gun I
+    volume: 10.0
   250mm Prototype Gauss Gun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
@@ -972,7 +1036,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
+    id: 7367
     name: 250mm Prototype Gauss Gun
+    volume: 10.0
   250mm Railgun I:
     CapacitorNeed: 7.0
     ChargeGroup1: 85
@@ -1000,7 +1066,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
+    id: 570
     name: 250mm Railgun I
+    volume: 25.0
   250mm Railgun II:
     CapacitorNeed: 7.0
     ChargeGroup1: 85
@@ -1032,7 +1100,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11325
+    id: 3082
     name: 250mm Railgun II
+    volume: 10.0
   350mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 13.859999656677246
     ChargeGroup1: 85
@@ -1061,7 +1131,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
+    id: 14282
     name: 350mm 'Scout' Accelerator Cannon
+    volume: 20.0
   350mm Carbide Railgun I:
     CapacitorNeed: 14.630000114440918
     ChargeGroup1: 85
@@ -1090,7 +1162,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
+    id: 14280
     name: 350mm Carbide Railgun I
+    volume: 20.0
   350mm Compressed Coil Gun I:
     CapacitorNeed: 13.09000015258789
     ChargeGroup1: 85
@@ -1119,7 +1193,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
+    id: 14284
     name: 350mm Compressed Coil Gun I
+    volume: 20.0
   350mm Prototype Gauss Gun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -1148,7 +1224,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
+    id: 14286
     name: 350mm Prototype Gauss Gun
+    volume: 20.0
   350mm Railgun I:
     CapacitorNeed: 15.399999618530273
     ChargeGroup1: 85
@@ -1176,7 +1254,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
+    id: 12354
     name: 350mm Railgun I
+    volume: 50.0
   350mm Railgun II:
     CapacitorNeed: 15.399999618530273
     ChargeGroup1: 85
@@ -1208,7 +1288,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11325
+    id: 12356
     name: 350mm Railgun II
+    volume: 20.0
   425mm 'Popper' Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
@@ -1238,7 +1320,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11323
+    id: 20591
     name: 425mm 'Popper' Railgun
+    volume: 20.0
   425mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
@@ -1267,7 +1351,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
+    id: 7449
     name: 425mm 'Scout' Accelerator Cannon
+    volume: 20.0
   425mm Carbide Railgun I:
     CapacitorNeed: 19.950000762939453
     ChargeGroup1: 85
@@ -1296,7 +1382,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
+    id: 7451
     name: 425mm Carbide Railgun I
+    volume: 20.0
   425mm Compressed Coil Gun I:
     CapacitorNeed: 17.850000381469727
     ChargeGroup1: 85
@@ -1325,7 +1413,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
+    id: 7453
     name: 425mm Compressed Coil Gun I
+    volume: 20.0
   425mm Prototype Gauss Gun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -1354,7 +1444,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
+    id: 7447
     name: 425mm Prototype Gauss Gun
+    volume: 20.0
   425mm Railgun I:
     CapacitorNeed: 21.0
     ChargeGroup1: 85
@@ -1382,7 +1474,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
+    id: 574
     name: 425mm Railgun I
+    volume: 50.0
   425mm Railgun II:
     CapacitorNeed: 21.0
     ChargeGroup1: 85
@@ -1414,7 +1508,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11325
+    id: 3090
     name: 425mm Railgun II
+    volume: 20.0
   75mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 1.0499999523162842
     ChargeGroup1: 85
@@ -1442,7 +1538,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
+    id: 7249
     name: 75mm 'Scout' Accelerator Cannon
+    volume: 5.0
   75mm Carbide Railgun I:
     CapacitorNeed: 1.1130000352859497
     ChargeGroup1: 85
@@ -1470,7 +1568,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
+    id: 7251
     name: 75mm Carbide Railgun I
+    volume: 5.0
   75mm Compressed Coil Gun I:
     CapacitorNeed: 0.9940000176429749
     ChargeGroup1: 85
@@ -1498,7 +1598,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
+    id: 7253
     name: 75mm Compressed Coil Gun I
+    volume: 5.0
   75mm Gatling Rail I:
     CapacitorNeed: 1.1690000295639038
     ChargeGroup1: 85
@@ -1525,7 +1627,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
+    id: 561
     name: 75mm Gatling Rail I
+    volume: 5.0
   75mm Gatling Rail II:
     CapacitorNeed: 1.1690000295639038
     ChargeGroup1: 85
@@ -1556,7 +1660,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 136.5
     TypeColorScheme: 11325
+    id: 3098
     name: 75mm Gatling Rail II
+    volume: 5.0
   75mm Prototype Gauss Gun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
@@ -1584,7 +1690,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
+    id: 7247
     name: 75mm Prototype Gauss Gun
+    volume: 5.0
   Anode Electron Particle Cannon I:
     CapacitorNeed: 1.6660000085830688
     ChargeGroup1: 85
@@ -1613,7 +1721,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
+    id: 7625
     name: Anode Electron Particle Cannon I
+    volume: 10.0
   Anode Ion Particle Cannon I:
     CapacitorNeed: 2.7783000469207764
     ChargeGroup1: 85
@@ -1642,7 +1752,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 7669
     name: Anode Ion Particle Cannon I
+    volume: 10.0
   Anode Light Electron Particle Cannon I:
     CapacitorNeed: 0.5586000084877014
     ChargeGroup1: 85
@@ -1671,7 +1783,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
+    id: 7493
     name: Anode Light Electron Particle Cannon I
+    volume: 5.0
   Anode Light Ion Particle Cannon I:
     CapacitorNeed: 0.9261000156402588
     ChargeGroup1: 85
@@ -1700,7 +1814,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
+    id: 7541
     name: Anode Light Ion Particle Cannon I
+    volume: 5.0
   Anode Light Neutron Particle Cannon I:
     CapacitorNeed: 1.2005000114440918
     ChargeGroup1: 85
@@ -1729,7 +1845,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
+    id: 7585
     name: Anode Light Neutron Particle Cannon I
+    volume: 5.0
   Anode Mega Electron Particle Cannon I:
     CapacitorNeed: 4.998000144958496
     ChargeGroup1: 85
@@ -1758,7 +1876,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
+    id: 7749
     name: Anode Mega Electron Particle Cannon I
+    volume: 20.0
   Anode Mega Ion Particle Cannon I:
     CapacitorNeed: 8.329999923706055
     ChargeGroup1: 85
@@ -1787,7 +1907,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
+    id: 7833
     name: Anode Mega Ion Particle Cannon I
+    volume: 20.0
   Anode Mega Neutron Particle Cannon I:
     CapacitorNeed: 10.829000473022461
     ChargeGroup1: 85
@@ -1816,7 +1938,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
+    id: 7789
     name: Anode Mega Neutron Particle Cannon I
+    volume: 20.0
   Anode Neutron Particle Cannon I:
     CapacitorNeed: 3.611299991607666
     ChargeGroup1: 85
@@ -1845,7 +1969,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
+    id: 7709
     name: Anode Neutron Particle Cannon I
+    volume: 10.0
   Anode Scoped Ion Siege Blaster:
     CapacitorNeed: 100.0
     ChargeGroup1: 85
@@ -1874,7 +2000,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
+    id: 41128
     name: Anode Scoped Ion Siege Blaster
+    volume: 4000.0
   Anode Scoped Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -1903,7 +2031,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
+    id: 41077
     name: Anode Scoped Triple Neutron Blaster Cannon
+    volume: 4000.0
   Brynn's Modified 350mm Railgun:
     CapacitorNeed: 12.704999923706055
     ChargeGroup1: 85
@@ -1933,7 +2063,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
+    id: 14387
     name: Brynn's Modified 350mm Railgun
+    volume: 20.0
   Brynn's Modified 425mm Railgun:
     CapacitorNeed: 17.325000762939453
     ChargeGroup1: 85
@@ -1963,7 +2095,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
+    id: 14397
     name: Brynn's Modified 425mm Railgun
+    volume: 20.0
   Brynn's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.666000366210938
     ChargeGroup1: 85
@@ -1993,7 +2127,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
+    id: 14407
     name: Brynn's Modified Dual 250mm Railgun
+    volume: 20.0
   CONCORD 150mm Railgun:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2002,7 +2138,9 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    id: 16132
     name: CONCORD 150mm Railgun
+    volume: 5.0
   CONCORD 250mm Railgun:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2011,7 +2149,9 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    id: 16133
     name: CONCORD 250mm Railgun
+    volume: 10.0
   CONCORD 350mm Railgun:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -2020,7 +2160,9 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    id: 16134
     name: CONCORD 350mm Railgun
+    volume: 20.0
   CONCORD Dual 1000mm Railgun:
     CapacitorNeed: 171.36000061035156
     ChargeGroup1: 85
@@ -2051,7 +2193,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
+    id: 3550
     name: CONCORD Dual 1000mm Railgun
+    volume: 4000.0
   CONCORD Ion Siege Blaster:
     CapacitorNeed: 151.1999969482422
     ChargeGroup1: 85
@@ -2082,7 +2226,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
+    id: 3546
     name: CONCORD Ion Siege Blaster
+    volume: 4000.0
   Caldari Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
@@ -2112,7 +2258,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11321
+    id: 15824
     name: Caldari Navy 125mm Railgun
+    volume: 5.0
   Caldari Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
@@ -2142,7 +2290,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11321
+    id: 15823
     name: Caldari Navy 150mm Railgun
+    volume: 5.0
   Caldari Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
@@ -2172,7 +2322,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11321
+    id: 15821
     name: Caldari Navy 200mm Railgun
+    volume: 10.0
   Caldari Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
@@ -2202,7 +2354,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11321
+    id: 15820
     name: Caldari Navy 250mm Railgun
+    volume: 10.0
   Caldari Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -2232,7 +2386,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11321
+    id: 15818
     name: Caldari Navy 350mm Railgun
+    volume: 20.0
   Caldari Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -2262,7 +2418,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11321
+    id: 15817
     name: Caldari Navy 425mm Railgun
+    volume: 20.0
   Caldari Navy 75mm Railgun:
     CapacitorNeed: 0.8259999752044678
     ChargeGroup1: 85
@@ -2292,7 +2450,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11321
+    id: 15816
     name: Caldari Navy 75mm Railgun
+    volume: 5.0
   Caldari Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
@@ -2322,7 +2482,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11321
+    id: 15815
     name: Caldari Navy Dual 150mm Railgun
+    volume: 10.0
   Caldari Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -2352,7 +2514,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11321
+    id: 15814
     name: Caldari Navy Dual 250mm Railgun
+    volume: 20.0
   Carbide Compact Dual 1000mm Railgun:
     CapacitorNeed: 300.0
     ChargeGroup1: 85
@@ -2381,7 +2545,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
+    id: 41138
     name: Carbide Compact Dual 1000mm Railgun
+    volume: 4000.0
   Compressed Enduring Dual 1000mm Railgun:
     CapacitorNeed: 270.0
     ChargeGroup1: 85
@@ -2410,7 +2576,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
+    id: 41139
     name: Compressed Enduring Dual 1000mm Railgun
+    volume: 4000.0
   Cormack's Modified Electron Blaster Cannon:
     CapacitorNeed: 5.291999816894531
     ChargeGroup1: 85
@@ -2440,7 +2608,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11322
+    id: 14377
     name: Cormack's Modified Electron Blaster Cannon
+    volume: 20.0
   Cormack's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.819999694824219
     ChargeGroup1: 85
@@ -2470,7 +2640,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11322
+    id: 14379
     name: Cormack's Modified Ion Blaster Cannon
+    volume: 20.0
   Cormack's Modified Neutron Blaster Cannon:
     CapacitorNeed: 11.465999603271484
     ChargeGroup1: 85
@@ -2500,7 +2672,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
+    id: 14385
     name: Cormack's Modified Neutron Blaster Cannon
+    volume: 20.0
   Dread Guristas 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
@@ -2530,7 +2704,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11335
+    id: 13865
     name: Dread Guristas 125mm Railgun
+    volume: 5.0
   Dread Guristas 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
@@ -2560,7 +2736,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11335
+    id: 13867
     name: Dread Guristas 150mm Railgun
+    volume: 5.0
   Dread Guristas 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
@@ -2590,7 +2768,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11335
+    id: 13870
     name: Dread Guristas 200mm Railgun
+    volume: 10.0
   Dread Guristas 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
@@ -2620,7 +2800,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11335
+    id: 13873
     name: Dread Guristas 250mm Railgun
+    volume: 10.0
   Dread Guristas 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -2650,7 +2832,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11335
+    id: 13876
     name: Dread Guristas 350mm Railgun
+    volume: 20.0
   Dread Guristas 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -2680,7 +2864,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11335
+    id: 13879
     name: Dread Guristas 425mm Railgun
+    volume: 20.0
   Dread Guristas 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
@@ -2710,7 +2896,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11335
+    id: 13893
     name: Dread Guristas 75mm Railgun
+    volume: 5.0
   Dread Guristas Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
@@ -2740,7 +2928,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11335
+    id: 13881
     name: Dread Guristas Dual 150mm Railgun
+    volume: 10.0
   Dread Guristas Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -2770,7 +2960,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11335
+    id: 13883
     name: Dread Guristas Dual 250mm Railgun
+    volume: 20.0
   Dual 1000mm Railgun I:
     CapacitorNeed: 300.0
     ChargeGroup1: 85
@@ -2798,7 +2990,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
+    id: 20448
     name: Dual 1000mm Railgun I
+    volume: 4000.0
   Dual 1000mm Railgun II:
     CapacitorNeed: 300.0
     ChargeGroup1: 85
@@ -2830,7 +3024,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
+    id: 37303
     name: Dual 1000mm Railgun II
+    volume: 4000.0
   Dual 150mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 3.1500000953674316
     ChargeGroup1: 85
@@ -2859,7 +3055,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
+    id: 7329
     name: Dual 150mm 'Scout' Accelerator Cannon
+    volume: 10.0
   Dual 150mm Carbide Railgun I:
     CapacitorNeed: 3.325000047683716
     ChargeGroup1: 85
@@ -2888,7 +3086,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
+    id: 7331
     name: Dual 150mm Carbide Railgun I
+    volume: 10.0
   Dual 150mm Compressed Coil Gun I:
     CapacitorNeed: 2.9749999046325684
     ChargeGroup1: 85
@@ -2917,7 +3117,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
+    id: 7333
     name: Dual 150mm Compressed Coil Gun I
+    volume: 10.0
   Dual 150mm Prototype Gauss Gun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
@@ -2946,7 +3148,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
+    id: 7327
     name: Dual 150mm Prototype Gauss Gun
+    volume: 10.0
   Dual 150mm Railgun I:
     CapacitorNeed: 3.5
     ChargeGroup1: 85
@@ -2974,7 +3178,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
+    id: 567
     name: Dual 150mm Railgun I
+    volume: 10.0
   Dual 150mm Railgun II:
     CapacitorNeed: 3.5
     ChargeGroup1: 85
@@ -3006,7 +3212,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 12.0
     TypeColorScheme: 11325
+    id: 3106
     name: Dual 150mm Railgun II
+    volume: 10.0
   Dual 250mm 'Scout' Accelerator Cannon:
     CapacitorNeed: 9.449999809265137
     ChargeGroup1: 85
@@ -3035,7 +3243,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
+    id: 7409
     name: Dual 250mm 'Scout' Accelerator Cannon
+    volume: 20.0
   Dual 250mm Carbide Railgun I:
     CapacitorNeed: 9.975000381469727
     ChargeGroup1: 85
@@ -3064,7 +3274,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
+    id: 7411
     name: Dual 250mm Carbide Railgun I
+    volume: 20.0
   Dual 250mm Compressed Coil Gun I:
     CapacitorNeed: 8.925000190734863
     ChargeGroup1: 85
@@ -3093,7 +3305,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
+    id: 7413
     name: Dual 250mm Compressed Coil Gun I
+    volume: 20.0
   Dual 250mm Prototype Gauss Gun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -3122,7 +3336,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
+    id: 7407
     name: Dual 250mm Prototype Gauss Gun
+    volume: 20.0
   Dual 250mm Railgun I:
     CapacitorNeed: 10.5
     ChargeGroup1: 85
@@ -3150,7 +3366,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
+    id: 572
     name: Dual 250mm Railgun I
+    volume: 20.0
   Dual 250mm Railgun II:
     CapacitorNeed: 10.5
     ChargeGroup1: 85
@@ -3182,7 +3400,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11325
+    id: 3114
     name: Dual 250mm Railgun II
+    volume: 20.0
   Electron Blaster Cannon I:
     CapacitorNeed: 5.880000114440918
     ChargeGroup1: 85
@@ -3210,7 +3430,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
+    id: 571
     name: Electron Blaster Cannon I
+    volume: 50.0
   Electron Blaster Cannon II:
     CapacitorNeed: 5.880000114440918
     ChargeGroup1: 85
@@ -3242,7 +3464,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 6.0
     TypeColorScheme: 11332
+    id: 3122
     name: Electron Blaster Cannon II
+    volume: 20.0
   Estamel's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
     ChargeGroup1: 85
@@ -3272,7 +3496,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
+    id: 14395
     name: Estamel's Modified 350mm Railgun
+    volume: 20.0
   Estamel's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
@@ -3302,7 +3528,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
+    id: 14405
     name: Estamel's Modified 425mm Railgun
+    volume: 20.0
   Estamel's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
     ChargeGroup1: 85
@@ -3332,7 +3560,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
+    id: 14415
     name: Estamel's Modified Dual 250mm Railgun
+    volume: 20.0
   Federation Navy 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
@@ -3362,7 +3592,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11328
+    id: 15844
     name: Federation Navy 125mm Railgun
+    volume: 5.0
   Federation Navy 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
@@ -3392,7 +3624,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11328
+    id: 15843
     name: Federation Navy 150mm Railgun
+    volume: 5.0
   Federation Navy 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
@@ -3422,7 +3656,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11328
+    id: 15841
     name: Federation Navy 200mm Railgun
+    volume: 10.0
   Federation Navy 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
@@ -3452,7 +3688,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11328
+    id: 15840
     name: Federation Navy 250mm Railgun
+    volume: 10.0
   Federation Navy 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -3482,7 +3720,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11328
+    id: 15838
     name: Federation Navy 350mm Railgun
+    volume: 20.0
   Federation Navy 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -3512,7 +3752,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11328
+    id: 15837
     name: Federation Navy 425mm Railgun
+    volume: 20.0
   Federation Navy 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
@@ -3542,7 +3784,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11328
+    id: 15836
     name: Federation Navy 75mm Railgun
+    volume: 5.0
   Federation Navy Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
@@ -3572,7 +3816,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11328
+    id: 15835
     name: Federation Navy Dual 150mm Railgun
+    volume: 10.0
   Federation Navy Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -3602,7 +3848,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11328
+    id: 15834
     name: Federation Navy Dual 250mm Railgun
+    volume: 20.0
   Federation Navy Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
     ChargeGroup1: 85
@@ -3632,7 +3880,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11328
+    id: 15833
     name: Federation Navy Electron Blaster Cannon
+    volume: 20.0
   Federation Navy Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
     ChargeGroup1: 85
@@ -3662,7 +3912,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11328
+    id: 15832
     name: Federation Navy Heavy Electron Blaster
+    volume: 10.0
   Federation Navy Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
     ChargeGroup1: 85
@@ -3692,7 +3944,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11328
+    id: 15831
     name: Federation Navy Heavy Ion Blaster
+    volume: 10.0
   Federation Navy Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
     ChargeGroup1: 85
@@ -3722,7 +3976,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11328
+    id: 15830
     name: Federation Navy Heavy Neutron Blaster
+    volume: 10.0
   Federation Navy Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
     ChargeGroup1: 85
@@ -3752,7 +4008,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11328
+    id: 15829
     name: Federation Navy Ion Blaster Cannon
+    volume: 20.0
   Federation Navy Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
     ChargeGroup1: 85
@@ -3782,7 +4040,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11328
+    id: 15828
     name: Federation Navy Light Electron Blaster
+    volume: 5.0
   Federation Navy Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
     ChargeGroup1: 85
@@ -3812,7 +4072,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11328
+    id: 15827
     name: Federation Navy Light Ion Blaster
+    volume: 5.0
   Federation Navy Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
     ChargeGroup1: 85
@@ -3842,7 +4104,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11328
+    id: 15826
     name: Federation Navy Light Neutron Blaster
+    volume: 5.0
   Federation Navy Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
     ChargeGroup1: 85
@@ -3872,7 +4136,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11328
+    id: 15825
     name: Federation Navy Neutron Blaster Cannon
+    volume: 20.0
   Heavy Electron Blaster I:
     CapacitorNeed: 1.9600000381469727
     ChargeGroup1: 85
@@ -3900,7 +4166,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
+    id: 566
     name: Heavy Electron Blaster I
+    volume: 10.0
   Heavy Electron Blaster II:
     CapacitorNeed: 1.9600000381469727
     ChargeGroup1: 85
@@ -3932,7 +4200,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11332
+    id: 3130
     name: Heavy Electron Blaster II
+    volume: 10.0
   Heavy Ion Blaster I:
     CapacitorNeed: 3.2683000564575195
     ChargeGroup1: 85
@@ -3960,7 +4230,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 569
     name: Heavy Ion Blaster I
+    volume: 10.0
   Heavy Ion Blaster II:
     CapacitorNeed: 3.2683000564575195
     ChargeGroup1: 85
@@ -3992,7 +4264,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 3138
     name: Heavy Ion Blaster II
+    volume: 10.0
   Heavy Neutron Blaster I:
     CapacitorNeed: 4.248300075531006
     ChargeGroup1: 85
@@ -4020,7 +4294,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
+    id: 568
     name: Heavy Neutron Blaster I
+    volume: 25.0
   Heavy Neutron Blaster II:
     CapacitorNeed: 4.248300075531006
     ChargeGroup1: 85
@@ -4052,7 +4328,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11332
+    id: 3146
     name: Heavy Neutron Blaster II
+    volume: 10.0
   Ion Blaster Cannon I:
     CapacitorNeed: 9.800000190734863
     ChargeGroup1: 85
@@ -4080,7 +4358,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
+    id: 575
     name: Ion Blaster Cannon I
+    volume: 50.0
   Ion Blaster Cannon II:
     CapacitorNeed: 9.800000190734863
     ChargeGroup1: 85
@@ -4112,7 +4392,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11332
+    id: 3154
     name: Ion Blaster Cannon II
+    volume: 20.0
   Ion Siege Blaster I:
     CapacitorNeed: 100.0
     ChargeGroup1: 85
@@ -4140,7 +4422,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
+    id: 20450
     name: Ion Siege Blaster I
+    volume: 4000.0
   Ion Siege Blaster II:
     CapacitorNeed: 100.0
     ChargeGroup1: 85
@@ -4172,7 +4456,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
+    id: 37302
     name: Ion Siege Blaster II
+    volume: 4000.0
   Kaikka's Modified 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -4202,7 +4488,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
+    id: 14391
     name: Kaikka's Modified 350mm Railgun
+    volume: 20.0
   Kaikka's Modified 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -4232,7 +4520,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
+    id: 14401
     name: Kaikka's Modified 425mm Railgun
+    volume: 20.0
   Kaikka's Modified Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -4262,7 +4552,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
+    id: 14411
     name: Kaikka's Modified Dual 250mm Railgun
+    volume: 20.0
   Light Electron Blaster I:
     CapacitorNeed: 0.6565999984741211
     ChargeGroup1: 85
@@ -4290,7 +4582,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
+    id: 562
     name: Light Electron Blaster I
+    volume: 5.0
   Light Electron Blaster II:
     CapacitorNeed: 0.6565999984741211
     ChargeGroup1: 85
@@ -4322,7 +4616,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 438.0
     TypeColorScheme: 11332
+    id: 3162
     name: Light Electron Blaster II
+    volume: 5.0
   Light Ion Blaster I:
     CapacitorNeed: 1.0927000045776367
     ChargeGroup1: 85
@@ -4350,7 +4646,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
+    id: 563
     name: Light Ion Blaster I
+    volume: 5.0
   Light Ion Blaster II:
     CapacitorNeed: 0.9309999942779541
     ChargeGroup1: 85
@@ -4382,7 +4680,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11332
+    id: 3170
     name: Light Ion Blaster II
+    volume: 5.0
   Light Neutron Blaster I:
     CapacitorNeed: 1.416100025177002
     ChargeGroup1: 85
@@ -4410,7 +4710,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
+    id: 564
     name: Light Neutron Blaster I
+    volume: 5.0
   Light Neutron Blaster II:
     CapacitorNeed: 1.416100025177002
     ChargeGroup1: 85
@@ -4442,7 +4744,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11332
+    id: 3178
     name: Light Neutron Blaster II
+    volume: 5.0
   Limited Electron Blaster Cannon I:
     CapacitorNeed: 5.291999816894531
     ChargeGroup1: 85
@@ -4471,7 +4775,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
+    id: 7745
     name: Limited Electron Blaster Cannon I
+    volume: 20.0
   Limited Electron Blaster I:
     CapacitorNeed: 1.7640000581741333
     ChargeGroup1: 85
@@ -4500,7 +4806,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
+    id: 7621
     name: Limited Electron Blaster I
+    volume: 10.0
   Limited Ion Blaster I:
     CapacitorNeed: 2.940000057220459
     ChargeGroup1: 85
@@ -4529,7 +4837,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 7665
     name: Limited Ion Blaster I
+    volume: 10.0
   Limited Light Electron Blaster I:
     CapacitorNeed: 0.5879999995231628
     ChargeGroup1: 85
@@ -4558,7 +4868,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
+    id: 7489
     name: Limited Light Electron Blaster I
+    volume: 5.0
   Limited Light Ion Blaster I:
     CapacitorNeed: 0.9800000190734863
     ChargeGroup1: 85
@@ -4587,7 +4899,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
+    id: 7537
     name: Limited Light Ion Blaster I
+    volume: 5.0
   Limited Light Neutron Blaster I:
     CapacitorNeed: 1.2740000486373901
     ChargeGroup1: 85
@@ -4616,7 +4930,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
+    id: 7581
     name: Limited Light Neutron Blaster I
+    volume: 5.0
   Limited Mega Ion Blaster I:
     CapacitorNeed: 8.819999694824219
     ChargeGroup1: 85
@@ -4645,7 +4961,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
+    id: 7829
     name: Limited Mega Ion Blaster I
+    volume: 20.0
   Limited Mega Neutron Blaster I:
     CapacitorNeed: 11.465999603271484
     ChargeGroup1: 85
@@ -4674,7 +4992,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
+    id: 7785
     name: Limited Mega Neutron Blaster I
+    volume: 20.0
   Limited Neutron Blaster I:
     CapacitorNeed: 3.822000026702881
     ChargeGroup1: 85
@@ -4703,7 +5023,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
+    id: 7705
     name: Limited Neutron Blaster I
+    volume: 10.0
   Limited Precise Ion Siege Blaster:
     CapacitorNeed: 100.0
     ChargeGroup1: 85
@@ -4732,7 +5054,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
+    id: 41129
     name: Limited Precise Ion Siege Blaster
+    volume: 4000.0
   Limited Precise Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -4761,7 +5085,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.4149999618530273
     TypeColorScheme: 11331
+    id: 41078
     name: Limited Precise Triple Neutron Blaster Cannon
+    volume: 4000.0
   Modal Electron Particle Accelerator I:
     CapacitorNeed: 1.5679999589920044
     ChargeGroup1: 85
@@ -4790,7 +5116,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
+    id: 7619
     name: Modal Electron Particle Accelerator I
+    volume: 10.0
   Modal Enduring Ion Siege Blaster:
     CapacitorNeed: 90.0
     ChargeGroup1: 85
@@ -4819,7 +5147,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
+    id: 41127
     name: Modal Enduring Ion Siege Blaster
+    volume: 4000.0
   Modal Enduring Triple Neutron Blaster Cannon:
     CapacitorNeed: 67.5
     ChargeGroup1: 85
@@ -4848,7 +5178,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
+    id: 41076
     name: Modal Enduring Triple Neutron Blaster Cannon
+    volume: 4000.0
   Modal Ion Particle Accelerator I:
     CapacitorNeed: 2.6166000366210938
     ChargeGroup1: 85
@@ -4877,7 +5209,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 7663
     name: Modal Ion Particle Accelerator I
+    volume: 10.0
   Modal Light Electron Particle Accelerator I:
     CapacitorNeed: 0.5242999792098999
     ChargeGroup1: 85
@@ -4906,7 +5240,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
+    id: 7487
     name: Modal Light Electron Particle Accelerator I
+    volume: 5.0
   Modal Light Ion Particle Accelerator I:
     CapacitorNeed: 0.8722000122070312
     ChargeGroup1: 85
@@ -4935,7 +5271,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
+    id: 7535
     name: Modal Light Ion Particle Accelerator I
+    volume: 5.0
   Modal Light Neutron Particle Accelerator I:
     CapacitorNeed: 1.1318999528884888
     ChargeGroup1: 85
@@ -4964,7 +5302,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
+    id: 7579
     name: Modal Light Neutron Particle Accelerator I
+    volume: 5.0
   Modal Mega Electron Particle Accelerator I:
     CapacitorNeed: 4.703999996185303
     ChargeGroup1: 85
@@ -4993,7 +5333,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
+    id: 7743
     name: Modal Mega Electron Particle Accelerator I
+    volume: 20.0
   Modal Mega Ion Particle Accelerator I:
     CapacitorNeed: 7.840000152587891
     ChargeGroup1: 85
@@ -5022,7 +5364,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
+    id: 7827
     name: Modal Mega Ion Particle Accelerator I
+    volume: 20.0
   Modal Mega Neutron Particle Accelerator I:
     CapacitorNeed: 10.192000389099121
     ChargeGroup1: 85
@@ -5051,7 +5395,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
+    id: 7783
     name: Modal Mega Neutron Particle Accelerator I
+    volume: 20.0
   Modal Neutron Particle Accelerator I:
     CapacitorNeed: 3.395699977874756
     ChargeGroup1: 85
@@ -5080,7 +5426,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
+    id: 7703
     name: Modal Neutron Particle Accelerator I
+    volume: 10.0
   Naiyon's Modified 350mm Railgun:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -5089,7 +5437,9 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    id: 15423
     name: Naiyon's Modified 350mm Railgun
+    volume: 20.0
   Naiyon's Modified 425mm Railgun:
     ChargeRate: 1
     DamageMultiplier: 1.0
@@ -5098,7 +5448,9 @@ items:
     ReloadTime: 10000.0
     Slots: 1
     TechLevel: 1
+    id: 15421
     name: Naiyon's Modified 425mm Railgun
+    volume: 20.0
   Neutron Blaster Cannon I:
     CapacitorNeed: 12.739999771118164
     ChargeGroup1: 85
@@ -5126,7 +5478,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11323
+    id: 573
     name: Neutron Blaster Cannon I
+    volume: 50.0
   Neutron Blaster Cannon II:
     CapacitorNeed: 12.739999771118164
     ChargeGroup1: 85
@@ -5158,7 +5512,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11332
+    id: 3186
     name: Neutron Blaster Cannon II
+    volume: 20.0
   Polarized Heavy Neutron Blaster:
     CapacitorNeed: 3.186224937438965
     ChargeGroup1: 85
@@ -5192,7 +5548,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 44.15999984741211
     TypeColorScheme: 11461
+    id: 34280
     name: Polarized Heavy Neutron Blaster
+    volume: 10.0
   Polarized Light Neutron Blaster:
     CapacitorNeed: 1.0620750188827515
     ChargeGroup1: 85
@@ -5226,7 +5584,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 436.7699890136719
     TypeColorScheme: 11461
+    id: 34278
     name: Polarized Light Neutron Blaster
+    volume: 5.0
   Polarized Neutron Blaster Cannon:
     CapacitorNeed: 9.555000305175781
     ChargeGroup1: 85
@@ -5260,7 +5620,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 5.975399971008301
     TypeColorScheme: 11461
+    id: 34282
     name: Polarized Neutron Blaster Cannon
+    volume: 20.0
   Prototype Precise Dual 1000mm Railgun:
     CapacitorNeed: 300.0
     ChargeGroup1: 85
@@ -5289,7 +5651,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
+    id: 41141
     name: Prototype Precise Dual 1000mm Railgun
+    volume: 4000.0
   Regulated Compact Ion Siege Blaster:
     CapacitorNeed: 100.0
     ChargeGroup1: 85
@@ -5318,7 +5682,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
+    id: 41126
     name: Regulated Compact Ion Siege Blaster
+    volume: 4000.0
   Regulated Compact Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -5347,7 +5713,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
+    id: 37301
     name: Regulated Compact Triple Neutron Blaster Cannon
+    volume: 4000.0
   Regulated Electron Phase Cannon I:
     CapacitorNeed: 1.8619999885559082
     ChargeGroup1: 85
@@ -5376,7 +5744,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
+    id: 7623
     name: Regulated Electron Phase Cannon I
+    volume: 10.0
   Regulated Ion Phase Cannon I:
     CapacitorNeed: 3.106600046157837
     ChargeGroup1: 85
@@ -5405,7 +5775,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
+    id: 7667
     name: Regulated Ion Phase Cannon I
+    volume: 10.0
   Regulated Light Electron Phase Cannon I:
     CapacitorNeed: 0.6223000288009644
     ChargeGroup1: 85
@@ -5434,7 +5806,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
+    id: 7491
     name: Regulated Light Electron Phase Cannon I
+    volume: 5.0
   Regulated Light Ion Phase Cannon I:
     CapacitorNeed: 1.0339000225067139
     ChargeGroup1: 85
@@ -5463,7 +5837,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
+    id: 7539
     name: Regulated Light Ion Phase Cannon I
+    volume: 5.0
   Regulated Light Neutron Phase Cannon I:
     CapacitorNeed: 1.3425999879837036
     ChargeGroup1: 85
@@ -5492,7 +5868,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
+    id: 7583
     name: Regulated Light Neutron Phase Cannon I
+    volume: 5.0
   Regulated Mega Electron Phase Cannon I:
     CapacitorNeed: 5.585999965667725
     ChargeGroup1: 85
@@ -5521,7 +5899,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
+    id: 7747
     name: Regulated Mega Electron Phase Cannon I
+    volume: 20.0
   Regulated Mega Ion Phase Cannon I:
     CapacitorNeed: 9.3100004196167
     ChargeGroup1: 85
@@ -5550,7 +5930,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
+    id: 7831
     name: Regulated Mega Ion Phase Cannon I
+    volume: 20.0
   Regulated Mega Neutron Phase Cannon I:
     CapacitorNeed: 12.102999687194824
     ChargeGroup1: 85
@@ -5579,7 +5961,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
+    id: 7787
     name: Regulated Mega Neutron Phase Cannon I
+    volume: 20.0
   Regulated Neutron Phase Cannon I:
     CapacitorNeed: 4.032700061798096
     ChargeGroup1: 85
@@ -5608,7 +5992,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
+    id: 7707
     name: Regulated Neutron Phase Cannon I
+    volume: 10.0
   Scout Scoped Dual 1000mm Railgun:
     CapacitorNeed: 300.0
     ChargeGroup1: 85
@@ -5637,7 +6023,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
+    id: 41140
     name: Scout Scoped Dual 1000mm Railgun
+    volume: 4000.0
   Setele's Modified 350mm Railgun:
     CapacitorNeed: 13.859999656677246
     ChargeGroup1: 85
@@ -5667,7 +6055,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
+    id: 14389
     name: Setele's Modified 350mm Railgun
+    volume: 20.0
   Setele's Modified 425mm Railgun:
     CapacitorNeed: 18.899999618530273
     ChargeGroup1: 85
@@ -5697,7 +6087,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
+    id: 14399
     name: Setele's Modified 425mm Railgun
+    volume: 20.0
   Setele's Modified Dual 250mm Railgun:
     CapacitorNeed: 9.449999809265137
     ChargeGroup1: 85
@@ -5727,7 +6119,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
+    id: 14409
     name: Setele's Modified Dual 250mm Railgun
+    volume: 20.0
   Shadow Serpentis 125mm Railgun:
     CapacitorNeed: 1.2039999961853027
     ChargeGroup1: 85
@@ -5757,7 +6151,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 89.25
     TypeColorScheme: 11351
+    id: 13864
     name: Shadow Serpentis 125mm Railgun
+    volume: 5.0
   Shadow Serpentis 150mm Railgun:
     CapacitorNeed: 1.86899995803833
     ChargeGroup1: 85
@@ -5787,7 +6183,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 73.5
     TypeColorScheme: 11351
+    id: 13866
     name: Shadow Serpentis 150mm Railgun
+    volume: 5.0
   Shadow Serpentis 200mm Railgun:
     CapacitorNeed: 3.611999988555908
     ChargeGroup1: 85
@@ -5817,7 +6215,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 8.0
     TypeColorScheme: 11351
+    id: 13868
     name: Shadow Serpentis 200mm Railgun
+    volume: 10.0
   Shadow Serpentis 250mm Railgun:
     CapacitorNeed: 5.599999904632568
     ChargeGroup1: 85
@@ -5847,7 +6247,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11351
+    id: 13872
     name: Shadow Serpentis 250mm Railgun
+    volume: 10.0
   Shadow Serpentis 350mm Railgun:
     CapacitorNeed: 12.319999694824219
     ChargeGroup1: 85
@@ -5877,7 +6279,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11351
+    id: 13874
     name: Shadow Serpentis 350mm Railgun
+    volume: 20.0
   Shadow Serpentis 425mm Railgun:
     CapacitorNeed: 16.799999237060547
     ChargeGroup1: 85
@@ -5907,7 +6311,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11351
+    id: 13878
     name: Shadow Serpentis 425mm Railgun
+    volume: 20.0
   Shadow Serpentis 75mm Railgun:
     CapacitorNeed: 0.9380000233650208
     ChargeGroup1: 85
@@ -5937,7 +6343,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 136.5
     TypeColorScheme: 11351
+    id: 13894
     name: Shadow Serpentis 75mm Railgun
+    volume: 5.0
   Shadow Serpentis Dual 1000mm Railgun:
     CapacitorNeed: 190.39999389648438
     ChargeGroup1: 85
@@ -5968,7 +6376,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
+    id: 41142
     name: Shadow Serpentis Dual 1000mm Railgun
+    volume: 4000.0
   Shadow Serpentis Dual 150mm Railgun:
     CapacitorNeed: 2.799999952316284
     ChargeGroup1: 85
@@ -5998,7 +6408,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 12.0
     TypeColorScheme: 11351
+    id: 13880
     name: Shadow Serpentis Dual 150mm Railgun
+    volume: 10.0
   Shadow Serpentis Dual 250mm Railgun:
     CapacitorNeed: 8.399999618530273
     ChargeGroup1: 85
@@ -6028,7 +6440,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11351
+    id: 13882
     name: Shadow Serpentis Dual 250mm Railgun
+    volume: 20.0
   Shadow Serpentis Electron Blaster Cannon:
     CapacitorNeed: 4.703999996185303
     ChargeGroup1: 85
@@ -6058,7 +6472,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11351
+    id: 13889
     name: Shadow Serpentis Electron Blaster Cannon
+    volume: 20.0
   Shadow Serpentis Heavy Electron Blaster:
     CapacitorNeed: 1.5679999589920044
     ChargeGroup1: 85
@@ -6088,7 +6504,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11351
+    id: 13884
     name: Shadow Serpentis Heavy Electron Blaster
+    volume: 10.0
   Shadow Serpentis Heavy Ion Blaster:
     CapacitorNeed: 2.6166000366210938
     ChargeGroup1: 85
@@ -6118,7 +6536,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11351
+    id: 13885
     name: Shadow Serpentis Heavy Ion Blaster
+    volume: 10.0
   Shadow Serpentis Heavy Neutron Blaster:
     CapacitorNeed: 3.395699977874756
     ChargeGroup1: 85
@@ -6148,7 +6568,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11351
+    id: 13892
     name: Shadow Serpentis Heavy Neutron Blaster
+    volume: 10.0
   Shadow Serpentis Ion Blaster Cannon:
     CapacitorNeed: 7.840000152587891
     ChargeGroup1: 85
@@ -6178,7 +6600,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11351
+    id: 13890
     name: Shadow Serpentis Ion Blaster Cannon
+    volume: 20.0
   Shadow Serpentis Ion Siege Blaster:
     CapacitorNeed: 168.0
     ChargeGroup1: 85
@@ -6209,7 +6633,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
+    id: 41130
     name: Shadow Serpentis Ion Siege Blaster
+    volume: 4000.0
   Shadow Serpentis Light Electron Blaster:
     CapacitorNeed: 0.5242999792098999
     ChargeGroup1: 85
@@ -6239,7 +6665,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 438.0
     TypeColorScheme: 11351
+    id: 13886
     name: Shadow Serpentis Light Electron Blaster
+    volume: 5.0
   Shadow Serpentis Light Ion Blaster:
     CapacitorNeed: 0.8722000122070312
     ChargeGroup1: 85
@@ -6269,7 +6697,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11351
+    id: 13887
     name: Shadow Serpentis Light Ion Blaster
+    volume: 5.0
   Shadow Serpentis Light Neutron Blaster:
     CapacitorNeed: 1.1318999528884888
     ChargeGroup1: 85
@@ -6299,7 +6729,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11351
+    id: 13888
     name: Shadow Serpentis Light Neutron Blaster
+    volume: 5.0
   Shadow Serpentis Neutron Blaster Cannon:
     CapacitorNeed: 10.192000389099121
     ChargeGroup1: 85
@@ -6329,7 +6761,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11351
+    id: 13891
     name: Shadow Serpentis Neutron Blaster Cannon
+    volume: 20.0
   Shadow Serpentis Triple Neutron Blaster Cannon:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -6360,7 +6794,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.4149999618530273
     TypeColorScheme: 11331
+    id: 41079
     name: Shadow Serpentis Triple Neutron Blaster Cannon
+    volume: 4000.0
   Triple Neutron Blaster Cannon I:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -6388,7 +6824,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
+    id: 37291
     name: Triple Neutron Blaster Cannon I
+    volume: 4000.0
   Triple Neutron Blaster Cannon II:
     CapacitorNeed: 75.0
     ChargeGroup1: 85
@@ -6420,7 +6858,9 @@ items:
     TechLevel: 2
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
+    id: 37300
     name: Triple Neutron Blaster Cannon II
+    volume: 4000.0
   Tuvan's Modified Electron Blaster Cannon:
     CapacitorNeed: 4.85099983215332
     ChargeGroup1: 85
@@ -6450,7 +6890,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 6.0
     TypeColorScheme: 11322
+    id: 14375
     name: Tuvan's Modified Electron Blaster Cannon
+    volume: 20.0
   Tuvan's Modified Ion Blaster Cannon:
     CapacitorNeed: 8.085000038146973
     ChargeGroup1: 85
@@ -6480,7 +6922,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11322
+    id: 14381
     name: Tuvan's Modified Ion Blaster Cannon
+    volume: 20.0
   Tuvan's Modified Neutron Blaster Cannon:
     CapacitorNeed: 10.510499954223633
     ChargeGroup1: 85
@@ -6510,7 +6954,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
+    id: 14383
     name: Tuvan's Modified Neutron Blaster Cannon
+    volume: 20.0
   Vepas' Modified 350mm Railgun:
     CapacitorNeed: 13.09000015258789
     ChargeGroup1: 85
@@ -6540,7 +6986,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
+    id: 14393
     name: Vepas' Modified 350mm Railgun
+    volume: 20.0
   Vepas' Modified 425mm Railgun:
     CapacitorNeed: 17.850000381469727
     ChargeGroup1: 85
@@ -6570,7 +7018,9 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
+    id: 14403
     name: Vepas' Modified 425mm Railgun
+    volume: 20.0
   Vepas' Modified Dual 250mm Railgun:
     CapacitorNeed: 8.925000190734863
     ChargeGroup1: 85
@@ -6600,4 +7050,6 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
+    id: 14413
     name: Vepas' Modified Dual 250mm Railgun
+    volume: 20.0

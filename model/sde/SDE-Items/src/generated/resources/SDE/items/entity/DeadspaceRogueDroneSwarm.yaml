@@ -1,25 +1,49 @@
 items:
   Arachula Apis:
+    id: 10990
     name: Arachula Apis
+    volume: 20000.0
   Asmodeus Apis:
+    id: 10994
     name: Asmodeus Apis
+    volume: 20000.0
   Beelzebub Apis:
+    id: 10992
     name: Beelzebub Apis
+    volume: 20000.0
   Belphegor Apis:
+    id: 10995
     name: Belphegor Apis
+    volume: 20000.0
   Dragonfly Apis:
+    id: 10987
     name: Dragonfly Apis
+    volume: 20000.0
   Incubus Apis:
+    id: 18113
     name: Incubus Apis
+    volume: 20000.0
   Malphas Apis:
+    id: 18114
     name: Malphas Apis
+    volume: 20000.0
   Mammon Apis:
+    id: 10993
     name: Mammon Apis
+    volume: 20000.0
   Moth Apis:
+    id: 10986
     name: Moth Apis
+    volume: 20000.0
   Scorpionfly Apis:
+    id: 10989
     name: Scorpionfly Apis
+    volume: 20000.0
   Tarantula Apis:
+    id: 10991
     name: Tarantula Apis
+    volume: 20000.0
   Termite Apis:
+    id: 10988
     name: Termite Apis
+    volume: 20000.0

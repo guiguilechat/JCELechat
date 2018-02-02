@@ -1,69 +1,137 @@
 items:
   Angel Frigate Vessel:
+    id: 32400
     name: Angel Frigate Vessel
+    volume: 19700.0
   Arch Gistii Ambusher:
+    id: 24035
     name: Arch Gistii Ambusher
+    volume: 16450.0
   Arch Gistii Hijacker:
+    id: 16890
     name: Arch Gistii Hijacker
+    volume: 16450.0
   Arch Gistii Hunter:
+    id: 24037
     name: Arch Gistii Hunter
+    volume: 16450.0
   Arch Gistii Impaler:
+    id: 24038
     name: Arch Gistii Impaler
+    volume: 16450.0
   Arch Gistii Nomad:
+    id: 24034
     name: Arch Gistii Nomad
+    volume: 16450.0
   Arch Gistii Outlaw:
+    id: 16895
     name: Arch Gistii Outlaw
+    volume: 16450.0
   Arch Gistii Raider:
+    id: 24036
     name: Arch Gistii Raider
+    volume: 16450.0
   Arch Gistii Rogue:
+    id: 16897
     name: Arch Gistii Rogue
+    volume: 16450.0
   Arch Gistii Ruffian:
+    id: 24033
     name: Arch Gistii Ruffian
+    volume: 16450.0
   Arch Gistii Thug:
+    id: 16894
     name: Arch Gistii Thug
+    volume: 16450.0
   Gistii Ambusher:
+    id: 16874
     name: Gistii Ambusher
+    volume: 19100.0
   Gistii Domination Ambusher:
+    id: 16905
     name: Gistii Domination Ambusher
+    volume: 19100.0
   Gistii Domination Hijacker:
+    id: 16901
     name: Gistii Domination Hijacker
+    volume: 21120.0
   Gistii Domination Hunter:
+    id: 16907
     name: Gistii Domination Hunter
+    volume: 19100.0
   Gistii Domination Impaler:
+    id: 16908
     name: Gistii Domination Impaler
+    volume: 16450.0
   Gistii Domination Nomad:
+    id: 16911
     name: Gistii Domination Nomad
+    volume: 17500.0
   Gistii Domination Outlaw:
+    id: 16903
     name: Gistii Domination Outlaw
+    volume: 17400.0
   Gistii Domination Raider:
+    id: 16913
     name: Gistii Domination Raider
+    volume: 16450.0
   Gistii Domination Rogue:
+    id: 16902
     name: Gistii Domination Rogue
+    volume: 22500.0
   Gistii Domination Ruffian:
+    id: 16914
     name: Gistii Domination Ruffian
+    volume: 17660.0
   Gistii Domination Thug:
+    id: 16904
     name: Gistii Domination Thug
+    volume: 26005.0
   Gistii Fugitive:
+    id: 16876
     name: Gistii Fugitive
+    volume: 21120.0
   Gistii Hijacker:
+    id: 16877
     name: Gistii Hijacker
+    volume: 21120.0
   Gistii Hunter:
+    id: 16878
     name: Gistii Hunter
+    volume: 19100.0
   Gistii Impaler:
+    id: 16879
     name: Gistii Impaler
+    volume: 16450.0
   Gistii Nomad:
+    id: 16882
     name: Gistii Nomad
+    volume: 17500.0
   Gistii Outlaw:
+    id: 16883
     name: Gistii Outlaw
+    volume: 17400.0
   Gistii Raider:
+    id: 16885
     name: Gistii Raider
+    volume: 16450.0
   Gistii Rogue:
+    id: 16886
     name: Gistii Rogue
+    volume: 22500.0
   Gistii Ruffian:
+    id: 16887
     name: Gistii Ruffian
+    volume: 17660.0
   Gistii Thug:
+    id: 16888
     name: Gistii Thug
+    volume: 26005.0
   Gistii_Defender_Frigate:
+    id: 25823
     name: Gistii_Defender_Frigate
+    volume: 16450.0
   Terrorist Leader:
+    id: 2012
     name: Terrorist Leader
+    volume: 16450.0

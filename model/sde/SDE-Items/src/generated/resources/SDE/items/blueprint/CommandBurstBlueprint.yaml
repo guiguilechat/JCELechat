@@ -1,29 +1,57 @@
 items:
   Amarr Phenomena Generator Blueprint:
+    id: 43659
     name: Amarr Phenomena Generator Blueprint
+    volume: 0.01
   Armor Command Burst I Blueprint:
+    id: 43547
     name: Armor Command Burst I Blueprint
+    volume: 0.01
   Armor Command Burst II Blueprint:
+    id: 43607
     name: Armor Command Burst II Blueprint
+    volume: 0.01
   Caldari Phenomena Generator Blueprint:
+    id: 43661
     name: Caldari Phenomena Generator Blueprint
+    volume: 0.01
   Gallente Phenomena Generator Blueprint:
+    id: 43663
     name: Gallente Phenomena Generator Blueprint
+    volume: 0.01
   Information Command Burst I Blueprint:
+    id: 43548
     name: Information Command Burst I Blueprint
+    volume: 0.01
   Information Command Burst II Blueprint:
+    id: 43608
     name: Information Command Burst II Blueprint
+    volume: 0.01
   Mining Foreman Burst I Blueprint:
+    id: 43544
     name: Mining Foreman Burst I Blueprint
+    volume: 0.01
   Mining Foreman Burst II Blueprint:
+    id: 43609
     name: Mining Foreman Burst II Blueprint
+    volume: 0.01
   Minmatar Phenomena Generator Blueprint:
+    id: 43665
     name: Minmatar Phenomena Generator Blueprint
+    volume: 0.01
   Shield Command Burst I Blueprint:
+    id: 43545
     name: Shield Command Burst I Blueprint
+    volume: 0.01
   Shield Command Burst II Blueprint:
+    id: 43610
     name: Shield Command Burst II Blueprint
+    volume: 0.01
   Skirmish Command Burst I Blueprint:
+    id: 43546
     name: Skirmish Command Burst I Blueprint
+    volume: 0.01
   Skirmish Command Burst II Blueprint:
+    id: 43611
     name: Skirmish Command Burst II Blueprint
+    volume: 0.01

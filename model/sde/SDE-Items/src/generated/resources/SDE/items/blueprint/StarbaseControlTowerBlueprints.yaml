@@ -1,127 +1,211 @@
 items:
   Amarr Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 2774
     name: Amarr Control Tower Blueprint
+    volume: 0.01
   Amarr Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 2775
     name: Amarr Control Tower Medium Blueprint
+    volume: 0.01
   Amarr Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 2776
     name: Amarr Control Tower Small Blueprint
+    volume: 0.01
   Angel Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27677
     name: Angel Control Tower Blueprint
+    volume: 0.01
   Angel Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27680
     name: Angel Control Tower Medium Blueprint
+    volume: 0.01
   Angel Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27681
     name: Angel Control Tower Small Blueprint
+    volume: 0.01
   Blood Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27682
     name: Blood Control Tower Blueprint
+    volume: 0.01
   Blood Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27684
     name: Blood Control Tower Medium Blueprint
+    volume: 0.01
   Blood Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27685
     name: Blood Control Tower Small Blueprint
+    volume: 0.01
   Caldari Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 2777
     name: Caldari Control Tower Blueprint
+    volume: 0.01
   Caldari Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 2778
     name: Caldari Control Tower Medium Blueprint
+    volume: 0.01
   Caldari Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 2779
     name: Caldari Control Tower Small Blueprint
+    volume: 0.01
   Dark Blood Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27688
     name: Dark Blood Control Tower Blueprint
+    volume: 0.01
   Dark Blood Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27689
     name: Dark Blood Control Tower Medium Blueprint
+    volume: 0.01
   Dark Blood Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27690
     name: Dark Blood Control Tower Small Blueprint
+    volume: 0.01
   Domination Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27695
     name: Domination Control Tower Blueprint
+    volume: 0.01
   Domination Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27694
     name: Domination Control Tower Medium Blueprint
+    volume: 0.01
   Domination Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27696
     name: Domination Control Tower Small Blueprint
+    volume: 0.01
   Dread Guristas Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27705
     name: Dread Guristas Control Tower Blueprint
+    volume: 0.01
   Dread Guristas Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27704
     name: Dread Guristas Control Tower Medium Blueprint
+    volume: 0.01
   Dread Guristas Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27703
     name: Dread Guristas Control Tower Small Blueprint
+    volume: 0.01
   Gallente Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 2780
     name: Gallente Control Tower Blueprint
+    volume: 0.01
   Gallente Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 2781
     name: Gallente Control Tower Medium Blueprint
+    volume: 0.01
   Gallente Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 2782
     name: Gallente Control Tower Small Blueprint
+    volume: 0.01
   Guristas Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27699
     name: Guristas Control Tower Blueprint
+    volume: 0.01
   Guristas Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27698
     name: Guristas Control Tower Medium Blueprint
+    volume: 0.01
   Guristas Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27697
     name: Guristas Control Tower Small Blueprint
+    volume: 0.01
   Minmatar Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 2783
     name: Minmatar Control Tower Blueprint
+    volume: 0.01
   Minmatar Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 2784
     name: Minmatar Control Tower Medium Blueprint
+    volume: 0.01
   Minmatar Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 2785
     name: Minmatar Control Tower Small Blueprint
+    volume: 0.01
   Sansha Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27781
     name: Sansha Control Tower Blueprint
+    volume: 0.01
   Sansha Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27783
     name: Sansha Control Tower Medium Blueprint
+    volume: 0.01
   Sansha Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27785
     name: Sansha Control Tower Small Blueprint
+    volume: 0.01
   Serpentis Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27706
     name: Serpentis Control Tower Blueprint
+    volume: 0.01
   Serpentis Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27707
     name: Serpentis Control Tower Medium Blueprint
+    volume: 0.01
   Serpentis Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27708
     name: Serpentis Control Tower Small Blueprint
+    volume: 0.01
   Shadow Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27713
     name: Shadow Control Tower Blueprint
+    volume: 0.01
   Shadow Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27712
     name: Shadow Control Tower Medium Blueprint
+    volume: 0.01
   Shadow Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27714
     name: Shadow Control Tower Small Blueprint
+    volume: 0.01
   True Sansha Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
+    id: 27787
     name: True Sansha Control Tower Blueprint
+    volume: 0.01
   True Sansha Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 27789
     name: True Sansha Control Tower Medium Blueprint
+    volume: 0.01
   True Sansha Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
+    id: 27791
     name: True Sansha Control Tower Small Blueprint
+    volume: 0.01

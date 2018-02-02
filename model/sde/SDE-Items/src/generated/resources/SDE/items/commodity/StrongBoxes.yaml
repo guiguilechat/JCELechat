@@ -1,139 +1,273 @@
 items:
   Agency Support Drop:
+    id: 46381
     name: Agency Support Drop
+    volume: 1.0
   Allotek Industries Strong Box:
+    id: 43690
     name: Allotek Industries Strong Box
+    volume: 0.1
   Apocalypse Imperial War Reserves Pack:
+    id: 46450
     name: Apocalypse Imperial War Reserves Pack
+    volume: 500000.0
   'Arms Race Battlecruiser Assembler ':
+    id: 46771
     name: 'Arms Race Battlecruiser Assembler '
+    volume: 15000.0
   Arms Race Battleship Assembler:
+    id: 46772
     name: Arms Race Battleship Assembler
+    volume: 50000.0
   Astral Mining Inc. Strong Box:
+    id: 43688
     name: Astral Mining Inc. Strong Box
+    volume: 0.1
   Blood Raider Chemosh Blueprint Armored Cache:
+    id: 45678
     name: Blood Raider Chemosh Blueprint Armored Cache
+    volume: 20000.0
   Blood Raider Dagon Blueprint Armored Cache:
+    id: 45679
     name: Blood Raider Dagon Blueprint Armored Cache
+    volume: 20000.0
   Blood Raider Molok Blueprint Armored Cache:
+    id: 45677
     name: Blood Raider Molok Blueprint Armored Cache
+    volume: 20000.0
   Blood Raider Standup Module Blueprint Armored Cache:
+    id: 46579
     name: Blood Raider Standup Module Blueprint Armored Cache
+    volume: 20000.0
   Blood Raider Strong Box:
     MetaGroupID: 4
+    id: 43696
     name: Blood Raider Strong Box
+    volume: 0.1
   Brutix Federal Strategic Materiel Pack:
+    id: 46467
     name: Brutix Federal Strategic Materiel Pack
+    volume: 280000.0
   Caracal State Military Stockpile Pack:
+    id: 46457
     name: Caracal State Military Stockpile Pack
+    volume: 95000.0
   Catalyst Destroyer Battle Pack:
+    id: 46455
     name: Catalyst Destroyer Battle Pack
+    volume: 56000.0
   Coercer Destroyer Battle Pack:
+    id: 46453
     name: Coercer Destroyer Battle Pack
+    volume: 50000.0
   'Cormorant Destroyer Battle Pack ':
+    id: 46454
     name: 'Cormorant Destroyer Battle Pack '
+    volume: 53000.0
   Deep Core Mining Inc. Strong Box:
+    id: 43685
     name: Deep Core Mining Inc. Strong Box
+    volume: 0.1
   Drake State Military Stockpile Pack:
+    id: 46458
     name: Drake State Military Stockpile Pack
+    volume: 260000.0
   Ducia Foundry Strong Box:
+    id: 43682
     name: Ducia Foundry Strong Box
+    volume: 0.1
   Federal Strategic Materiel Package 10:
+    id: 46474
     name: Federal Strategic Materiel Package 10
+    volume: 2520.0
   Federal Strategic Materiel Package 5:
+    id: 46469
     name: Federal Strategic Materiel Package 5
+    volume: 2520.0
   Federal Strategic Materiel Package 6:
+    id: 46470
     name: Federal Strategic Materiel Package 6
+    volume: 2520.0
   Federal Strategic Materiel Package 7:
+    id: 46471
     name: Federal Strategic Materiel Package 7
+    volume: 2520.0
   Federal Strategic Materiel Package 8:
+    id: 46472
     name: Federal Strategic Materiel Package 8
+    volume: 2520.0
   Federal Strategic Materiel Package 9:
+    id: 46473
     name: Federal Strategic Materiel Package 9
+    volume: 2520.0
   Guristas Caiman Blueprint Armored Cache:
+    id: 46602
     name: Guristas Caiman Blueprint Armored Cache
+    volume: 20000.0
   Guristas Komodo Blueprint Armored Cache:
+    id: 46603
     name: Guristas Komodo Blueprint Armored Cache
+    volume: 20000.0
   Guristas Loggerhead Blueprint Armored Cache:
+    id: 46601
     name: Guristas Loggerhead Blueprint Armored Cache
+    volume: 20000.0
   Guristas Production Strong Box:
     MetaGroupID: 4
+    id: 43697
     name: Guristas Production Strong Box
+    volume: 0.1
   Guristas Standup Module Blueprint Armored Cache:
+    id: 46580
     name: Guristas Standup Module Blueprint Armored Cache
+    volume: 20000.0
   HZO Refinery Strong Box:
+    id: 43684
     name: HZO Refinery Strong Box
+    volume: 0.1
   Harbinger Imperial War Reserves Pack:
+    id: 46449
     name: Harbinger Imperial War Reserves Pack
+    volume: 240000.0
   Hurricane Republic Fleet Ordnance Pack:
+    id: 46476
     name: Hurricane Republic Fleet Ordnance Pack
+    volume: 218000.0
   Incursus Federal Strategic Materiel Pack:
+    id: 46446
     name: Incursus Federal Strategic Materiel Pack
+    volume: 30000.0
   Joint Harvesting Strong Box:
+    id: 43683
     name: Joint Harvesting Strong Box
+    volume: 0.1
   Material Acquisition Strong Box:
+    id: 43689
     name: Material Acquisition Strong Box
+    volume: 0.1
   Megathron Federal Strategic Materiel Pack:
+    id: 46468
     name: Megathron Federal Strategic Materiel Pack
+    volume: 490000.0
   Merlin State Military Stockpile Pack:
+    id: 46445
     name: Merlin State Military Stockpile Pack
+    volume: 17000.0
   Minedrill Strong Box:
+    id: 43687
     name: Minedrill Strong Box
+    volume: 0.1
   Minmatar Mining Corporation Strong Box:
+    id: 43691
     name: Minmatar Mining Corporation Strong Box
+    volume: 0.1
   Omen Imperial War Reserves Pack:
+    id: 46448
     name: Omen Imperial War Reserves Pack
+    volume: 120000.0
   Poksu Mineral Group Strong Box:
+    id: 43686
     name: Poksu Mineral Group Strong Box
+    volume: 0.1
   Procurer Mining Barge Pack:
+    id: 46452
     name: Procurer Mining Barge Pack
+    volume: 200.0
   'Punisher Imperial War Reserves Pack ':
+    id: 46444
     name: 'Punisher Imperial War Reserves Pack '
+    volume: 30000.0
   Raven State Military Stockpile Pack:
+    id: 46459
     name: Raven State Military Stockpile Pack
+    volume: 490000.0
   Republic Fleet Ordnance Package 10:
+    id: 46483
     name: Republic Fleet Ordnance Package 10
+    volume: 2520.0
   Republic Fleet Ordnance Package 5:
+    id: 46478
     name: Republic Fleet Ordnance Package 5
+    volume: 2520.0
   Republic Fleet Ordnance Package 6:
+    id: 46479
     name: Republic Fleet Ordnance Package 6
+    volume: 2520.0
   Republic Fleet Ordnance Package 7:
+    id: 46480
     name: Republic Fleet Ordnance Package 7
+    volume: 2520.0
   Republic Fleet Ordnance Package 8:
+    id: 46481
     name: Republic Fleet Ordnance Package 8
+    volume: 2520.0
   Republic Fleet Ordnance Package 9:
+    id: 46482
     name: Republic Fleet Ordnance Package 9
+    volume: 2520.0
   Rifter Republic Fleet Ordnance Pack:
+    id: 46447
     name: Rifter Republic Fleet Ordnance Pack
+    volume: 30000.0
   Rupture Republic Fleet Ordnance Pack:
+    id: 46475
     name: Rupture Republic Fleet Ordnance Pack
+    volume: 97000.0
   Salvation Angels Strong Box:
     MetaGroupID: 4
+    id: 43698
     name: Salvation Angels Strong Box
+    volume: 0.1
   State Military Stockpile Package 10:
+    id: 46465
     name: State Military Stockpile Package 10
+    volume: 2520.0
   State Military Stockpile Package 5:
+    id: 46460
     name: State Military Stockpile Package 5
+    volume: 2520.0
   State Military Stockpile Package 6:
+    id: 46461
     name: State Military Stockpile Package 6
+    volume: 2520.0
   State Military Stockpile Package 7:
+    id: 46462
     name: State Military Stockpile Package 7
+    volume: 2520.0
   State Military Stockpile Package 8:
+    id: 46463
     name: State Military Stockpile Package 8
+    volume: 2520.0
   State Military Stockpile Package 9:
+    id: 46464
     name: State Military Stockpile Package 9
+    volume: 2520.0
   Tempest Republic Fleet Ordnance Pack:
+    id: 46477
     name: Tempest Republic Fleet Ordnance Pack
+    volume: 455000.0
   Thorax Federal Strategic Materiel Pack:
+    id: 46466
     name: Thorax Federal Strategic Materiel Pack
+    volume: 120000.0
   Thrasher Destroyer Battle Pack:
+    id: 46456
     name: Thrasher Destroyer Battle Pack
+    volume: 44000.0
   Thukker Mix Strong Box:
+    id: 43693
     name: Thukker Mix Strong Box
+    volume: 0.1
   True Creations Strong Box:
     MetaGroupID: 4
+    id: 43695
     name: True Creations Strong Box
+    volume: 0.1
   Venture Mining Pack:
+    id: 46451
     name: Venture Mining Pack
+    volume: 30000.0
   Vherokior Tribe Strong Box:
+    id: 43692
     name: Vherokior Tribe Strong Box
+    volume: 0.1

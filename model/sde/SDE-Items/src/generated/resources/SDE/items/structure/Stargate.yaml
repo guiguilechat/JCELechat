@@ -21,7 +21,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35837
     name: Custom gate 1
+    volume: 4000.0
   Large Stargate:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -44,7 +46,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 37534
     name: Large Stargate
+    volume: 4000.0
   Medium Stargate:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -67,7 +71,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35840
     name: Medium Stargate
+    volume: 4000.0
   X-Large Stargate:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -90,4 +96,6 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35841
     name: X-Large Stargate
+    volume: 4000.0

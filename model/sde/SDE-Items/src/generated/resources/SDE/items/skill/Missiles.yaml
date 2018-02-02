@@ -7,7 +7,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    id: 3322
     name: Auto-Targeting Missiles
+    volume: 0.01
   Bomb Deployment:
     PrimaryAttribute: 167
     RequiredSkill1: 12441
@@ -16,7 +18,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 1.0
+    id: 28073
     name: Bomb Deployment
+    volume: 0.01
   Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -28,7 +32,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     SpeedFactor: 1.0
+    id: 20212
     name: Cruise Missile Specialization
+    volume: 0.01
   Cruise Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -39,14 +45,18 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    id: 3326
     name: Cruise Missiles
+    volume: 0.01
   Defender Missiles:
     MissileVelocityBonus: 10.0
     PrimaryAttribute: 167
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    id: 3323
     name: Defender Missiles
+    volume: 0.01
   Guided Missile Precision:
     AoeCloudSizeBonus: -5.0
     PrimaryAttribute: 167
@@ -55,7 +65,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    id: 20312
     name: Guided Missile Precision
+    volume: 0.01
   Heavy Assault Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -67,7 +79,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    id: 25718
     name: Heavy Assault Missile Specialization
+    volume: 0.01
   Heavy Assault Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -78,7 +92,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    id: 25719
     name: Heavy Assault Missiles
+    volume: 0.01
   Heavy Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -90,7 +106,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    id: 20211
     name: Heavy Missile Specialization
+    volume: 0.01
   Heavy Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -101,7 +119,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    id: 3324
     name: Heavy Missiles
+    volume: 0.01
   Light Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -113,7 +133,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    id: 20210
     name: Light Missile Specialization
+    volume: 0.01
   Light Missiles:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -122,7 +144,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    id: 3321
     name: Light Missiles
+    volume: 0.01
   Missile Bombardment:
     MaxFlightTimeBonus: 10
     PrimaryAttribute: 167
@@ -131,14 +155,18 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    id: 12441
     name: Missile Bombardment
+    volume: 0.01
   Missile Launcher Operation:
     PrimaryAttribute: 167
     RofBonus: -2
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     SpeedFactor: 1.0
+    id: 3319
     name: Missile Launcher Operation
+    volume: 0.01
   Missile Projection:
     PrimaryAttribute: 167
     RequiredSkill1: 3319
@@ -146,7 +174,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 10.0
+    id: 12442
     name: Missile Projection
+    volume: 0.01
   Rapid Launch:
     PrimaryAttribute: 167
     RequiredSkill1: 3319
@@ -155,7 +185,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    id: 21071
     name: Rapid Launch
+    volume: 0.01
   Rocket Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -167,7 +199,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     SpeedFactor: 1.0
+    id: 20209
     name: Rocket Specialization
+    volume: 0.01
   Rockets:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -176,7 +210,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     SpeedFactor: 1.0
+    id: 3320
     name: Rockets
+    volume: 0.01
   Target Navigation Prediction:
     AoeVelocityBonus: 10.0
     PrimaryAttribute: 167
@@ -185,7 +221,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     SpeedFactor: 1.0
+    id: 20314
     name: Target Navigation Prediction
+    volume: 0.01
   Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -197,7 +235,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     SpeedFactor: 1.0
+    id: 20213
     name: Torpedo Specialization
+    volume: 0.01
   Torpedoes:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -208,7 +248,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     SpeedFactor: 1.0
+    id: 3325
     name: Torpedoes
+    volume: 0.01
   Warhead Upgrades:
     DamageMultiplierBonus: 2
     PrimaryAttribute: 167
@@ -217,7 +259,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     SpeedFactor: 1.0
+    id: 20315
     name: Warhead Upgrades
+    volume: 0.01
   XL Cruise Missile Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -229,7 +273,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     SpeedFactor: 1.0
+    id: 41410
     name: XL Cruise Missile Specialization
+    volume: 0.01
   XL Cruise Missiles:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -241,7 +287,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     SpeedFactor: 1.0
+    id: 32435
     name: XL Cruise Missiles
+    volume: 0.01
   XL Torpedo Specialization:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -253,7 +301,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     SpeedFactor: 1.0
+    id: 41409
     name: XL Torpedo Specialization
+    volume: 0.01
   XL Torpedoes:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -265,4 +315,6 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     SpeedFactor: 1.0
+    id: 21668
     name: XL Torpedoes
+    volume: 0.01

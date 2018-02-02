@@ -17,7 +17,9 @@ items:
     StructureRigEwarOptimalBonus: 30
     TechLevel: 1
     UpgradeCost: 100
+    id: 37272
     name: Standup XL-Set EW and Emissions Co-ordinator I
+    volume: 40.0
   Standup XL-Set EW and Emissions Co-ordinator II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -36,4 +38,6 @@ items:
     StructureRigEwarOptimalBonus: 35
     TechLevel: 2
     UpgradeCost: 150
+    id: 37273
     name: Standup XL-Set EW and Emissions Co-ordinator II
+    volume: 40.0

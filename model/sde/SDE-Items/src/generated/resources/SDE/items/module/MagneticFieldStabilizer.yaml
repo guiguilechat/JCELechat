@@ -10,7 +10,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    id: 10188
     name: '''Basic'' Magnetic Field Stabilizer'
+    volume: 5.0
   '''Capitalist'' Magnetic Field Stabilizer I':
     DamageMultiplier: 1.090000033378601
     Hp: 40
@@ -21,7 +23,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 22917
     name: '''Capitalist'' Magnetic Field Stabilizer I'
+    volume: 5.0
   '''Monopoly'' Magnetic Field Stabilizer':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
@@ -33,7 +37,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    id: 22919
     name: '''Monopoly'' Magnetic Field Stabilizer'
+    volume: 5.0
   Brynn's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1299999952316284
     Hp: 40
@@ -44,7 +50,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 15144
     name: Brynn's Modified Magnetic Field Stabilizer
+    volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1449999809265137
     Hp: 40
@@ -55,7 +63,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 15150
     name: Cormack's Modified Magnetic Field Stabilizer
+    volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -66,7 +76,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 15895
     name: Federation Navy Magnetic Field Stabilizer
+    volume: 5.0
   Gauss Field Balancer:
     DamageMultiplier: 1.065000057220459
     Hp: 40
@@ -75,7 +87,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9350000023841858
     TechLevel: 1
+    id: 11115
     name: Gauss Field Balancer
+    volume: 5.0
   Gauss Field Balancer I:
     DamageMultiplier: 1.090999960899353
     Hp: 40
@@ -85,7 +99,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9024999737739563
     TechLevel: 1
+    id: 11107
     name: Gauss Field Balancer I
+    volume: 5.0
   Insulated Stabilizer Array:
     DamageMultiplier: 1.0549999475479126
     Hp: 40
@@ -94,7 +110,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9449999928474426
     TechLevel: 1
+    id: 11111
     name: Insulated Stabilizer Array
+    volume: 5.0
   Insulated Stabilizer Array I:
     DamageMultiplier: 1.0770000219345093
     Hp: 40
@@ -104,7 +122,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9175000190734863
     TechLevel: 1
+    id: 11103
     name: Insulated Stabilizer Array I
+    volume: 5.0
   Kaatara's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
@@ -116,7 +136,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 44113
     name: Kaatara's Custom Magnetic Field Stabilizer
+    volume: 5.0
   Linear Flux Stabilizer:
     DamageMultiplier: 1.059999942779541
     Hp: 40
@@ -125,7 +147,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9399999976158142
     TechLevel: 1
+    id: 11109
     name: Linear Flux Stabilizer
+    volume: 5.0
   Linear Flux Stabilizer I:
     DamageMultiplier: 1.0839999914169312
     Hp: 40
@@ -135,7 +159,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9100000262260437
     TechLevel: 1
+    id: 11101
     name: Linear Flux Stabilizer I
+    volume: 5.0
   Magnetic Field Stabilizer I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
@@ -145,7 +171,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
+    id: 9944
     name: Magnetic Field Stabilizer I
+    volume: 5.0
   Magnetic Field Stabilizer II:
     DamageMultiplier: 1.100000023841858
     Hp: 40
@@ -155,7 +183,9 @@ items:
     RequiredSkill1Level: 4
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
+    id: 10190
     name: Magnetic Field Stabilizer II
+    volume: 5.0
   Magnetic Vortex Stabilizer:
     DamageMultiplier: 1.0700000524520874
     Hp: 40
@@ -164,7 +194,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
+    id: 11113
     name: Magnetic Vortex Stabilizer
+    volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1375000476837158
     Hp: 40
@@ -175,7 +207,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
+    id: 15416
     name: Naiyon's Modified Magnetic Field Stabilizer
+    volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1399999856948853
     Hp: 40
@@ -186,7 +220,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 15148
     name: Setele's Modified Magnetic Field Stabilizer
+    volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -197,7 +233,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 13945
     name: Shadow Serpentis Magnetic Field Stabilizer
+    volume: 5.0
   Torelle's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
@@ -209,7 +247,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
+    id: 44114
     name: Torelle's Custom Magnetic Field Stabilizer
+    volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1349999904632568
     Hp: 40
@@ -220,7 +260,9 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
+    id: 15146
     name: Tuvan's Modified Magnetic Field Stabilizer
+    volume: 5.0
   Vortex Compact Magnetic Field Stabilizer:
     Cpu: 25.0
     DamageMultiplier: 1.0800000429153442
@@ -231,4 +273,6 @@ items:
     RequiredSkill1Level: 1
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
+    id: 11105
     name: Vortex Compact Magnetic Field Stabilizer
+    volume: 5.0

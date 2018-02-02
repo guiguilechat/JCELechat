@@ -13,7 +13,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
+    id: 33479
     name: Large Mobile Siphon Unit
+    volume: 500.0
   Medium Mobile Siphon Unit:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -28,7 +30,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
+    id: 33478
     name: Medium Mobile Siphon Unit
+    volume: 100.0
   Small Mobile 'Hybrid' Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -50,7 +54,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
+    id: 33581
     name: Small Mobile 'Hybrid' Siphon Unit
+    volume: 35.0
   Small Mobile 'Rote' Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -73,7 +79,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
+    id: 33583
     name: Small Mobile 'Rote' Siphon Unit
+    volume: 35.0
   Small Mobile Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -96,4 +104,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     Uniformity: 1.0
+    id: 33477
     name: Small Mobile Siphon Unit
+    volume: 35.0

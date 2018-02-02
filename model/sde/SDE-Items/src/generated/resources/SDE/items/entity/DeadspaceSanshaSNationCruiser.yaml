@@ -1,69 +1,137 @@
 items:
   Centum Beast:
+    id: 17057
     name: Centum Beast
+    volume: 100100.0
   Centum Execrator:
+    id: 17083
     name: Centum Execrator
+    volume: 100100.0
   Centum Fiend:
+    id: 24075
     name: Centum Fiend
+    volume: 100100.0
   Centum Hellhound:
+    id: 24076
     name: Centum Hellhound
+    volume: 100100.0
   Centum Juggernaut:
+    id: 17065
     name: Centum Juggernaut
+    volume: 100100.0
   Centum Loyal Beast:
+    id: 24079
     name: Centum Loyal Beast
+    volume: 100100.0
   Centum Loyal Execrator:
+    id: 24082
     name: Centum Loyal Execrator
+    volume: 100100.0
   Centum Loyal Fiend:
+    id: 24085
     name: Centum Loyal Fiend
+    volume: 100100.0
   Centum Loyal Hellhound:
+    id: 24086
     name: Centum Loyal Hellhound
+    volume: 100100.0
   Centum Loyal Juggernaut:
+    id: 24080
     name: Centum Loyal Juggernaut
+    volume: 100100.0
   Centum Loyal Mutilator:
+    id: 24083
     name: Centum Loyal Mutilator
+    volume: 100100.0
   Centum Loyal Ravager:
+    id: 24078
     name: Centum Loyal Ravager
+    volume: 100100.0
   Centum Loyal Ravisher:
+    id: 24077
     name: Centum Loyal Ravisher
+    volume: 100100.0
   Centum Loyal Slaughterer:
+    id: 24081
     name: Centum Loyal Slaughterer
+    volume: 100100.0
   Centum Loyal Torturer:
+    id: 24084
     name: Centum Loyal Torturer
+    volume: 100100.0
   Centum Mutilator:
+    id: 17080
     name: Centum Mutilator
+    volume: 100100.0
   Centum Ravager:
+    id: 17073
     name: Centum Ravager
+    volume: 100100.0
   Centum Ravisher:
+    id: 17075
     name: Centum Ravisher
+    volume: 100100.0
   Centum Slaughterer:
+    id: 17062
     name: Centum Slaughterer
+    volume: 100100.0
   Centum Torturer:
+    id: 17070
     name: Centum Torturer
+    volume: 100100.0
   Renegade Sanshas Slaver:
+    id: 14348
     name: Renegade Sanshas Slaver
+    volume: 100100.0
   Sansha Miner:
+    id: 26750
     name: Sansha Miner
+    volume: 1120000.0
   Sanshas Personnel Transport:
+    id: 16167
     name: Sanshas Personnel Transport
+    volume: 1120000.0
   Sanshas Transport Ship:
+    id: 11717
     name: Sanshas Transport Ship
+    volume: 1120000.0
   True Centum Beast:
+    id: 17084
     name: True Centum Beast
+    volume: 100100.0
   True Centum Execrator:
+    id: 17109
     name: True Centum Execrator
+    volume: 100100.0
   True Centum Fiend:
+    id: 17105
     name: True Centum Fiend
+    volume: 100100.0
   True Centum Hellhound:
+    id: 17094
     name: True Centum Hellhound
+    volume: 100100.0
   True Centum Juggernaut:
+    id: 17089
     name: True Centum Juggernaut
+    volume: 100100.0
   True Centum Mutilator:
+    id: 17104
     name: True Centum Mutilator
+    volume: 100100.0
   True Centum Ravager:
+    id: 17098
     name: True Centum Ravager
+    volume: 100100.0
   True Centum Ravisher:
+    id: 17100
     name: True Centum Ravisher
+    volume: 100100.0
   True Centum Slaughterer:
+    id: 17087
     name: True Centum Slaughterer
+    volume: 100100.0
   True Centum Torturer:
+    id: 17093
     name: True Centum Torturer
+    volume: 100100.0

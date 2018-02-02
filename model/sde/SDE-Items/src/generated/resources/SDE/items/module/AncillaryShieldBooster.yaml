@@ -18,7 +18,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 6800.0
     TechLevel: 1
+    id: 41504
     name: Capital Ancillary Shield Booster
+    volume: 4000.0
   Large Ancillary Shield Booster:
     CapacitorNeed: 528.0
     ChargeGroup2: 87
@@ -39,7 +41,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 390.0
     TechLevel: 1
+    id: 4391
     name: Large Ancillary Shield Booster
+    volume: 25.0
   Medium Ancillary Shield Booster:
     CapacitorNeed: 198.0
     ChargeGroup2: 87
@@ -60,7 +64,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 146.0
     TechLevel: 1
+    id: 32772
     name: Medium Ancillary Shield Booster
+    volume: 10.0
   Small Ancillary Shield Booster:
     CapacitorNeed: 66.0
     ChargeGroup2: 87
@@ -80,7 +86,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 52.0
     TechLevel: 1
+    id: 32774
     name: Small Ancillary Shield Booster
+    volume: 5.0
   X-Large Ancillary Shield Booster:
     CapacitorNeed: 1320.0
     ChargeGroup2: 87
@@ -101,4 +109,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     ShieldBonus: 980.0
     TechLevel: 1
+    id: 32780
     name: X-Large Ancillary Shield Booster
+    volume: 50.0

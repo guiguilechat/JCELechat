@@ -1,87 +1,173 @@
 items:
   APEX 'Atlas' Sentinel:
+    id: 367679
     name: APEX 'Atlas' Sentinel
+    volume: 0.01
   APEX 'Atlas' Sentinel vX.1:
+    id: 367987
     name: APEX 'Atlas' Sentinel vX.1
+    volume: 0.01
   APEX 'Centurion' Commando:
+    id: 367711
     name: APEX 'Centurion' Commando
+    volume: 0.01
   APEX 'Chiron' Logistics:
+    id: 367695
     name: APEX 'Chiron' Logistics
+    volume: 0.01
   APEX 'Dominus' Sentinel:
+    id: 367600
     name: APEX 'Dominus' Sentinel
+    volume: 0.01
   APEX 'Dragon' Scout:
+    id: 367707
     name: APEX 'Dragon' Scout
+    volume: 0.01
   APEX 'Dragon' Scout vX.1:
+    id: 367989
     name: APEX 'Dragon' Scout vX.1
+    volume: 0.01
   APEX 'Hawk' Scout:
+    id: 367701
     name: APEX 'Hawk' Scout
+    volume: 0.01
   APEX 'Kampo' Logistics:
+    id: 367693
     name: APEX 'Kampo' Logistics
+    volume: 0.01
   APEX 'Nomad' Assault:
+    id: 367689
     name: APEX 'Nomad' Assault
+    volume: 0.01
   APEX 'Nomad' Assault vX.1:
+    id: 367988
     name: APEX 'Nomad' Assault vX.1
+    volume: 0.01
   APEX 'Opus' Assault:
+    id: 367691
     name: APEX 'Opus' Assault
+    volume: 0.01
   APEX 'Paladin' Commando:
+    id: 367715
     name: APEX 'Paladin' Commando
+    volume: 0.01
   APEX 'Rasetsu' Assault:
+    id: 367685
     name: APEX 'Rasetsu' Assault
+    volume: 0.01
   APEX 'Renegade' Commando:
+    id: 367713
     name: APEX 'Renegade' Commando
+    volume: 0.01
   APEX 'Samurai' Commando:
+    id: 367709
     name: APEX 'Samurai' Commando
+    volume: 0.01
   APEX 'Seraph' Logistics:
+    id: 367699
     name: APEX 'Seraph' Logistics
+    volume: 0.01
   APEX 'Serpent' Scout:
+    id: 367703
     name: APEX 'Serpent' Scout
+    volume: 0.01
   APEX 'Shaman' Logistics:
+    id: 367697
     name: APEX 'Shaman' Logistics
+    volume: 0.01
   APEX 'Shogun' Sentinel:
+    id: 367677
     name: APEX 'Shogun' Sentinel
+    volume: 0.01
   APEX 'Spartan' Assault:
+    id: 367687
     name: APEX 'Spartan' Assault
+    volume: 0.01
   APEX 'Tiger' Scout:
+    id: 367705
     name: APEX 'Tiger' Scout
+    volume: 0.01
   APEX 'Warlord' Sentinel:
+    id: 367681
     name: APEX 'Warlord' Sentinel
+    volume: 0.01
   Federation 'Atlas' Sentinel:
+    id: 367948
     name: Federation 'Atlas' Sentinel
+    volume: 0.01
   Federation 'Centurion' Commando:
+    id: 367864
     name: Federation 'Centurion' Commando
+    volume: 0.01
   Federation 'Chiron' Logistics:
+    id: 368024
     name: Federation 'Chiron' Logistics
+    volume: 0.01
   Federation 'Serpent' Scout:
+    id: 367863
     name: Federation 'Serpent' Scout
+    volume: 0.01
   Federation 'Spartan' Assault:
+    id: 367999
     name: Federation 'Spartan' Assault
+    volume: 0.01
   Imperial 'Dominus' Sentinel:
+    id: 368022
     name: Imperial 'Dominus' Sentinel
+    volume: 0.01
   Imperial 'Dragon' Scout:
+    id: 368001
     name: Imperial 'Dragon' Scout
+    volume: 0.01
   Imperial 'Opus' Assault:
+    id: 367854
     name: Imperial 'Opus' Assault
+    volume: 0.01
   Imperial 'Paladin' Commando:
+    id: 368003
     name: Imperial 'Paladin' Commando
+    volume: 0.01
   Imperial 'Seraph' Logistics:
+    id: 367959
     name: Imperial 'Seraph' Logistics
+    volume: 0.01
   Republic 'Nomad' Assault:
+    id: 368023
     name: Republic 'Nomad' Assault
+    volume: 0.01
   Republic 'Renegade' Commando:
+    id: 367963
     name: Republic 'Renegade' Commando
+    volume: 0.01
   Republic 'Shaman' Logistics:
+    id: 367856
     name: Republic 'Shaman' Logistics
+    volume: 0.01
   Republic 'Tiger' Scout:
+    id: 367960
     name: Republic 'Tiger' Scout
+    volume: 0.01
   Republic 'Warlord' Sentinel:
+    id: 367998
     name: Republic 'Warlord' Sentinel
+    volume: 0.01
   State 'Hawk' Scout:
+    id: 368025
     name: State 'Hawk' Scout
+    volume: 0.01
   State 'Kampo' Logistics:
+    id: 368000
     name: State 'Kampo' Logistics
+    volume: 0.01
   State 'Rasetsu' Assault:
+    id: 367955
     name: State 'Rasetsu' Assault
+    volume: 0.01
   State 'Samurai' Commando:
+    id: 368026
     name: State 'Samurai' Commando
+    volume: 0.01
   State 'Shogun' Sentinel:
+    id: 367811
     name: State 'Shogun' Sentinel
+    volume: 0.01

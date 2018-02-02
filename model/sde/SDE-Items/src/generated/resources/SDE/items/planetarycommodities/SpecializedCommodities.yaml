@@ -2,84 +2,126 @@ items:
   Biotech Research Reports:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2358
     name: Biotech Research Reports
+    volume: 6.0
   Camera Drones:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2345
     name: Camera Drones
+    volume: 6.0
   Condensates:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2344
     name: Condensates
+    volume: 6.0
   Cryoprotectant Solution:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2367
     name: Cryoprotectant Solution
+    volume: 6.0
   Data Chips:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 17392
     name: Data Chips
+    volume: 6.0
   Gel-Matrix Biopaste:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2348
     name: Gel-Matrix Biopaste
+    volume: 6.0
   Guidance Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 9834
     name: Guidance Systems
+    volume: 6.0
   Hazmat Detection Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2366
     name: Hazmat Detection Systems
+    volume: 6.0
   Hermetic Membranes:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2361
     name: Hermetic Membranes
+    volume: 6.0
   High-Tech Transmitters:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 17898
     name: High-Tech Transmitters
+    volume: 6.0
   Industrial Explosives:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2360
     name: Industrial Explosives
+    volume: 6.0
   Neocoms:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2354
     name: Neocoms
+    volume: 6.0
   Nuclear Reactors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2352
     name: Nuclear Reactors
+    volume: 6.0
   Planetary Vehicles:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 9846
     name: Planetary Vehicles
+    volume: 6.0
   Robotics:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 9848
     name: Robotics
+    volume: 6.0
   Smartfab Units:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2351
     name: Smartfab Units
+    volume: 6.0
   Supercomputers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2349
     name: Supercomputers
+    volume: 6.0
   Synthetic Synapses:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 2346
     name: Synthetic Synapses
+    volume: 6.0
   Transcranial Microcontrollers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 12836
     name: Transcranial Microcontrollers
+    volume: 6.0
   Ukomi Superconductors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 17136
     name: Ukomi Superconductors
+    volume: 6.0
   Vaccines:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
+    id: 28974
     name: Vaccines
+    volume: 6.0

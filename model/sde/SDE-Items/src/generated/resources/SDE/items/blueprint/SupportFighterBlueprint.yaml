@@ -1,28 +1,46 @@
 items:
   AbleBlueprint_PLACEHOLDER:
     TechLevel: 1
+    id: 45650
     name: AbleBlueprint_PLACEHOLDER
+    volume: 0.01
   Cenobite I Blueprint:
     TechLevel: 1
+    id: 41367
     name: Cenobite I Blueprint
+    volume: 0.01
   Cenobite II Blueprint:
     TechLevel: 2
+    id: 41368
     name: Cenobite II Blueprint
+    volume: 0.01
   Dromi I Blueprint:
     TechLevel: 1
+    id: 41373
     name: Dromi I Blueprint
+    volume: 0.01
   Dromi II Blueprint:
     TechLevel: 2
+    id: 41374
     name: Dromi II Blueprint
+    volume: 0.01
   Scarab I Blueprint:
     TechLevel: 1
+    id: 41369
     name: Scarab I Blueprint
+    volume: 0.01
   Scarab II Blueprint:
     TechLevel: 2
+    id: 41370
     name: Scarab II Blueprint
+    volume: 0.01
   Siren I Blueprint:
     TechLevel: 1
+    id: 41371
     name: Siren I Blueprint
+    volume: 0.01
   Siren II Blueprint:
     TechLevel: 2
+    id: 41372
     name: Siren II Blueprint
+    volume: 0.01

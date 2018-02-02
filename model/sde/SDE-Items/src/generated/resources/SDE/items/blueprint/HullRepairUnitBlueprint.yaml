@@ -1,49 +1,75 @@
 items:
   Capital Hull Repairer I Blueprint:
     TechLevel: 1
+    id: 41627
     name: Capital Hull Repairer I Blueprint
+    volume: 0.01
   Capital Hull Repairer II Blueprint:
     TechLevel: 1
+    id: 41630
     name: Capital Hull Repairer II Blueprint
+    volume: 0.01
   Capital I-b Enduring Hull Repairer Blueprint:
     TechLevel: 1
+    id: 41628
     name: Capital I-b Enduring Hull Repairer Blueprint
+    volume: 0.01
   Capital IEF Compact Hull Repairer Blueprint:
     TechLevel: 1
+    id: 41629
     name: Capital IEF Compact Hull Repairer Blueprint
+    volume: 0.01
   Large 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 21509
     name: Large 'Integrative' Hull Repair Unit Blueprint
+    volume: 0.01
   Large Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 3664
     name: Large Hull Repairer I Blueprint
+    volume: 0.01
   Large Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3666
     name: Large Hull Repairer II Blueprint
+    volume: 0.01
   Medium 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 21507
     name: Medium 'Integrative' Hull Repair Unit Blueprint
+    volume: 0.01
   Medium Hull Repairer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 3654
     name: Medium Hull Repairer I Blueprint
+    volume: 0.01
   Medium Hull Repairer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 3656
     name: Medium Hull Repairer II Blueprint
+    volume: 0.01
   Small 'Integrative' Hull Repair Unit Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 21505
     name: Small 'Integrative' Hull Repair Unit Blueprint
+    volume: 0.01
   Small Hull Repairer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1100
     name: Small Hull Repairer I Blueprint
+    volume: 0.01
   Small Hull Repairer II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 2356
     name: Small Hull Repairer II Blueprint
+    volume: 0.01

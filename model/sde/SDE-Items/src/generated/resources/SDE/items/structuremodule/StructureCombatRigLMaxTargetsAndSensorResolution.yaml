@@ -17,7 +17,9 @@ items:
     StructureRigScanResBonus: 100
     TechLevel: 1
     UpgradeCost: 100
+    id: 37260
     name: Standup L-Set Target Acquisition Array I
+    volume: 20.0
   Standup L-Set Target Acquisition Array II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -36,4 +38,6 @@ items:
     StructureRigScanResBonus: 150
     TechLevel: 2
     UpgradeCost: 150
+    id: 37261
     name: Standup L-Set Target Acquisition Array II
+    volume: 20.0

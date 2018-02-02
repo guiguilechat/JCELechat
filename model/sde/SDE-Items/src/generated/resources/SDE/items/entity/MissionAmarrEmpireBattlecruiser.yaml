@@ -1,21 +1,41 @@
 items:
   Imperial Avenger:
+    id: 24957
     name: Imperial Avenger
+    volume: 118000.0
   Imperial Champion:
+    id: 24959
     name: Imperial Champion
+    volume: 118000.0
   Imperial Equalizer:
+    id: 24956
     name: Imperial Equalizer
+    volume: 118000.0
   Imperial Justicar:
+    id: 24958
     name: Imperial Justicar
+    volume: 118000.0
   Imperial Templar Champion:
+    id: 24962
     name: Imperial Templar Champion
+    volume: 118000.0
   Imperial Templar Justicar:
+    id: 24960
     name: Imperial Templar Justicar
+    volume: 118000.0
   Imperial Templar Phalanx:
+    id: 28169
     name: Imperial Templar Phalanx
+    volume: 130000.0
   Imperial Templar Seer:
+    id: 28170
     name: Imperial Templar Seer
+    volume: 130000.0
   Independent Harbinger:
+    id: 30737
     name: Independent Harbinger
+    volume: 130000.0
   Independent Prophecy:
+    id: 30738
     name: Independent Prophecy
+    volume: 130000.0

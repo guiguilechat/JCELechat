@@ -23,6 +23,6 @@ public abstract class InfrastructureUpgrades
     }
 
     public static Map<String, ? extends InfrastructureUpgrades> loadCategory() {
-        return Stream.of(StrategicUpgrades.load(), MilitaryUpgrades.load(), IndustrialUpgrades.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(StrategicUpgrades.load(), IndustrialUpgrades.load(), MilitaryUpgrades.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

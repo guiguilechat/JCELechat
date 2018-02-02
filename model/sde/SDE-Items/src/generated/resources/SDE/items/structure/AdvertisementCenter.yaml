@@ -21,7 +21,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 37536
     name: Large Advertisement Center
+    volume: 4000.0
   Medium Advertisement Center:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -44,7 +46,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 37535
     name: Medium Advertisement Center
+    volume: 4000.0
   X-Large Advertisement Center:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -67,4 +71,6 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35845
     name: X-Large Advertisement Center
+    volume: 4000.0

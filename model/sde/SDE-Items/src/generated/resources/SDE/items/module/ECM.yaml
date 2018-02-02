@@ -21,7 +21,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.149999976158142
     ScanRadarStrengthBonus: 1.149999976158142
     TechLevel: 1
+    id: 20575
     name: '''Gambler'' Ladar ECM'
+    volume: 5.0
   '''Heist'' Radar ECM':
     CapacitorNeed: 32.0
     Cpu: 30.0
@@ -44,7 +46,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.149999976158142
     ScanRadarStrengthBonus: 3.450000047683716
     TechLevel: 1
+    id: 20579
     name: '''Heist'' Radar ECM'
+    volume: 5.0
   '''Hypnos'' Multispectral ECM I':
     CapacitorNeed: 57.0
     Duration: 20000.0
@@ -64,7 +68,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.4000000953674316
     ScanRadarStrengthBonus: 2.4000000953674316
     TechLevel: 1
+    id: 19933
     name: '''Hypnos'' Multispectral ECM I'
+    volume: 5.0
   '''Marshall'' Magnetometric ECM':
     CapacitorNeed: 32.0
     Cpu: 30.0
@@ -87,7 +93,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.450000047683716
     ScanRadarStrengthBonus: 1.149999976158142
     TechLevel: 1
+    id: 20573
     name: '''Marshall'' Magnetometric ECM'
+    volume: 5.0
   '''Penumbra'' White Noise ECM':
     CapacitorNeed: 45.0
     Duration: 20000.0
@@ -107,7 +115,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0499999523162842
     ScanRadarStrengthBonus: 3.1500000953674316
     TechLevel: 1
+    id: 9520
     name: '''Penumbra'' White Noise ECM'
+    volume: 5.0
   '''Plunderer'' Gravimetric ECM':
     CapacitorNeed: 32.0
     Cpu: 30.0
@@ -130,7 +140,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.149999976158142
     ScanRadarStrengthBonus: 1.149999976158142
     TechLevel: 1
+    id: 20577
     name: '''Plunderer'' Gravimetric ECM'
+    volume: 5.0
   Aergia Compact Magnetometric ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
@@ -152,7 +164,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.299999952316284
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19925
     name: Aergia Compact Magnetometric ECM
+    volume: 5.0
   BZ-5 Scoped Gravimetric ECM:
     CapacitorNeed: 48.0
     Cpu: 40.0
@@ -174,7 +188,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19946
     name: BZ-5 Scoped Gravimetric ECM
+    volume: 5.0
   CZ-4 Compact Gravimetric ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
@@ -196,7 +212,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19944
     name: CZ-4 Compact Gravimetric ECM
+    volume: 5.0
   Compulsive Scoped Multispectral ECM:
     CapacitorNeed: 72.0
     Cpu: 50.0
@@ -218,7 +236,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.200000047683716
     ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1
+    id: 19931
     name: Compulsive Scoped Multispectral ECM
+    volume: 5.0
   Dread Guristas Multispectral ECM:
     CapacitorNeed: 85.0
     Cpu: 58.0
@@ -241,7 +261,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.5999999046325684
     ScanRadarStrengthBonus: 2.5999999046325684
     TechLevel: 1
+    id: 20199
     name: Dread Guristas Multispectral ECM
+    volume: 5.0
   Enfeebling Scoped Ladar ECM:
     CapacitorNeed: 48.0
     Cpu: 40.0
@@ -263,7 +285,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19939
     name: Enfeebling Scoped Ladar ECM
+    volume: 5.0
   Estamel's Modified Multispectral ECM:
     CapacitorNeed: 115.0
     Duration: 20000.0
@@ -285,7 +309,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.200000047683716
     ScanRadarStrengthBonus: 3.200000047683716
     TechLevel: 1
+    id: 20207
     name: Estamel's Modified Multispectral ECM
+    volume: 5.0
   FZ-3 Subversive Spatial Destabilizer ECM:
     CapacitorNeed: 45.0
     Duration: 20000.0
@@ -305,7 +331,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0499999523162842
     ScanRadarStrengthBonus: 1.0499999523162842
     TechLevel: 1
+    id: 9519
     name: FZ-3 Subversive Spatial Destabilizer ECM
+    volume: 5.0
   FZ-3a Enduring Gravimetric ECM:
     CapacitorNeed: 38.0
     Cpu: 40.0
@@ -327,7 +355,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19942
     name: FZ-3a Enduring Gravimetric ECM
+    volume: 5.0
   Faint Phase Inversion ECM I:
     CapacitorNeed: 45.0
     Duration: 20000.0
@@ -347,7 +377,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0499999523162842
     ScanRadarStrengthBonus: 1.0499999523162842
     TechLevel: 1
+    id: 9522
     name: Faint Phase Inversion ECM I
+    volume: 5.0
   Gloom Enduring Radar ECM:
     CapacitorNeed: 38.0
     Cpu: 40.0
@@ -369,7 +401,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1
+    id: 19948
     name: Gloom Enduring Radar ECM
+    volume: 5.0
   Gravimetric ECM I:
     CapacitorNeed: 48.0
     Duration: 20000.0
@@ -389,7 +423,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0
     ScanRadarStrengthBonus: 1.0
     TechLevel: 1
+    id: 1955
     name: Gravimetric ECM I
+    volume: 5.0
   Gravimetric ECM II:
     CapacitorNeed: 58.0
     Duration: 20000.0
@@ -410,7 +446,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 2
+    id: 2571
     name: Gravimetric ECM II
+    volume: 5.0
   Halting Compact Ladar ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
@@ -432,7 +470,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19937
     name: Halting Compact Ladar ECM
+    volume: 5.0
   Hypnos Scoped Magnetometric ECM:
     CapacitorNeed: 48.0
     Cpu: 40.0
@@ -454,7 +494,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.299999952316284
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19927
     name: Hypnos Scoped Magnetometric ECM
+    volume: 5.0
   Induced Compact Multispectral ECM:
     CapacitorNeed: 72.0
     Cpu: 40.0
@@ -476,7 +518,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.200000047683716
     ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1
+    id: 19929
     name: Induced Compact Multispectral ECM
+    volume: 5.0
   Initiated Enduring Multispectral ECM:
     CapacitorNeed: 57.0
     Cpu: 50.0
@@ -498,7 +542,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.200000047683716
     ScanRadarStrengthBonus: 2.200000047683716
     TechLevel: 1
+    id: 9521
     name: Initiated Enduring Multispectral ECM
+    volume: 5.0
   Initiated Ion Field ECM I:
     CapacitorNeed: 45.0
     Duration: 20000.0
@@ -518,7 +564,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.1500000953674316
     ScanRadarStrengthBonus: 1.0499999523162842
     TechLevel: 1
+    id: 9518
     name: Initiated Ion Field ECM I
+    volume: 5.0
   Kaikka's Modified Multispectral ECM:
     CapacitorNeed: 93.0
     Duration: 20000.0
@@ -540,7 +588,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.799999952316284
     ScanRadarStrengthBonus: 2.799999952316284
     TechLevel: 1
+    id: 20201
     name: Kaikka's Modified Multispectral ECM
+    volume: 5.0
   Ladar ECM I:
     CapacitorNeed: 48.0
     Duration: 20000.0
@@ -560,7 +610,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0
     ScanRadarStrengthBonus: 1.0
     TechLevel: 1
+    id: 1958
     name: Ladar ECM I
+    volume: 5.0
   Ladar ECM II:
     CapacitorNeed: 58.0
     Duration: 20000.0
@@ -581,7 +633,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 2
+    id: 2559
     name: Ladar ECM II
+    volume: 5.0
   Languid Enduring Ladar ECM:
     CapacitorNeed: 38.0
     Cpu: 40.0
@@ -603,7 +657,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19935
     name: Languid Enduring Ladar ECM
+    volume: 5.0
   Legion Gravimetric ECM:
     CapacitorNeed: 50.0
     Duration: 20000.0
@@ -625,7 +681,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
+    id: 28735
     name: Legion Gravimetric ECM
+    volume: 5.0
   Legion Ladar ECM:
     CapacitorNeed: 50.0
     Duration: 20000.0
@@ -647,7 +705,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
+    id: 28733
     name: Legion Ladar ECM
+    volume: 5.0
   Legion Magnetometric ECM:
     CapacitorNeed: 50.0
     Duration: 20000.0
@@ -669,7 +729,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.700000047683716
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 1
+    id: 28729
     name: Legion Magnetometric ECM
+    volume: 5.0
   Legion Multispectral ECM:
     CapacitorNeed: 74.0
     Duration: 20000.0
@@ -691,7 +753,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.5
     ScanRadarStrengthBonus: 2.5
     TechLevel: 1
+    id: 28731
     name: Legion Multispectral ECM
+    volume: 5.0
   Legion Radar ECM:
     CapacitorNeed: 50.0
     Duration: 20000.0
@@ -713,7 +777,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 3.700000047683716
     TechLevel: 1
+    id: 28737
     name: Legion Radar ECM
+    volume: 5.0
   Magnetometric ECM I:
     CapacitorNeed: 48.0
     Duration: 20000.0
@@ -733,7 +799,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.0
     ScanRadarStrengthBonus: 1.0
     TechLevel: 1
+    id: 1948
     name: Magnetometric ECM I
+    volume: 5.0
   Magnetometric ECM II:
     CapacitorNeed: 58.0
     Duration: 20000.0
@@ -754,7 +822,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.5999999046325684
     ScanRadarStrengthBonus: 1.2000000476837158
     TechLevel: 2
+    id: 2563
     name: Magnetometric ECM II
+    volume: 5.0
   Morpheus Enduring Magnetometric ECM:
     CapacitorNeed: 38.0
     Cpu: 40.0
@@ -776,7 +846,9 @@ items:
     ScanMagnetometricStrengthBonus: 3.299999952316284
     ScanRadarStrengthBonus: 1.100000023841858
     TechLevel: 1
+    id: 19923
     name: Morpheus Enduring Magnetometric ECM
+    volume: 5.0
   Multispectral ECM I:
     CapacitorNeed: 72.0
     Duration: 20000.0
@@ -796,7 +868,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.0
     ScanRadarStrengthBonus: 2.0
     TechLevel: 1
+    id: 1957
     name: Multispectral ECM I
+    volume: 5.0
   Multispectral ECM II:
     CapacitorNeed: 87.0
     Cpu: 60.0
@@ -818,7 +892,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.4000000953674316
     ScanRadarStrengthBonus: 2.4000000953674316
     TechLevel: 2
+    id: 2567
     name: Multispectral ECM II
+    volume: 5.0
   Radar ECM I:
     CapacitorNeed: 48.0
     Duration: 20000.0
@@ -838,7 +914,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.0
     ScanRadarStrengthBonus: 3.0
     TechLevel: 1
+    id: 1956
     name: Radar ECM I
+    volume: 5.0
   Radar ECM II:
     CapacitorNeed: 58.0
     Duration: 20000.0
@@ -859,7 +937,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.2000000476837158
     ScanRadarStrengthBonus: 3.5999999046325684
     TechLevel: 2
+    id: 2575
     name: Radar ECM II
+    volume: 5.0
   Shade Compact Radar ECM:
     CapacitorNeed: 48.0
     Cpu: 32.0
@@ -881,7 +961,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1
+    id: 19950
     name: Shade Compact Radar ECM
+    volume: 5.0
   Thon's Modified Multispectral ECM:
     CapacitorNeed: 100.0
     Duration: 20000.0
@@ -903,7 +985,9 @@ items:
     ScanMagnetometricStrengthBonus: 2.9000000953674316
     ScanRadarStrengthBonus: 2.9000000953674316
     TechLevel: 1
+    id: 20203
     name: Thon's Modified Multispectral ECM
+    volume: 5.0
   Umbra Scoped Radar ECM:
     CapacitorNeed: 48.0
     Cpu: 40.0
@@ -925,7 +1009,9 @@ items:
     ScanMagnetometricStrengthBonus: 1.100000023841858
     ScanRadarStrengthBonus: 3.299999952316284
     TechLevel: 1
+    id: 19952
     name: Umbra Scoped Radar ECM
+    volume: 5.0
   Vepas' Modified Multispectral ECM:
     CapacitorNeed: 108.0
     Duration: 20000.0
@@ -947,4 +1033,6 @@ items:
     ScanMagnetometricStrengthBonus: 3.0999999046325684
     ScanRadarStrengthBonus: 3.0999999046325684
     TechLevel: 1
+    id: 20205
     name: Vepas' Modified Multispectral ECM
+    volume: 5.0

@@ -10,7 +10,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
     TechLevel: 1
+    id: 41459
     name: CONCORD Capital Shield Extender
+    volume: 4000.0
   CONCORD Large Shield Extender:
     CapacityBonus: 2813
     Hp: 40
@@ -20,7 +22,9 @@ items:
     RequiredSkill1Level: 5
     SignatureRadiusAdd: 20
     TechLevel: 1
+    id: 16146
     name: CONCORD Large Shield Extender
+    volume: 20.0
   CONCORD Medium Shield Extender:
     CapacityBonus: 1106
     Hp: 40
@@ -30,7 +34,9 @@ items:
     RequiredSkill1Level: 5
     SignatureRadiusAdd: 4
     TechLevel: 1
+    id: 16144
     name: CONCORD Medium Shield Extender
+    volume: 10.0
   CONCORD Micro Shield Extender:
     CapacityBonus: 169
     Hp: 40
@@ -39,7 +45,9 @@ items:
     RequiredSkill1Level: 5
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 16142
     name: CONCORD Micro Shield Extender
+    volume: 2.5
   Caldari Navy Large Shield Extender:
     CapacityBonus: 2750
     Cpu: 35.0
@@ -51,7 +59,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
     TechLevel: 1
+    id: 31930
     name: Caldari Navy Large Shield Extender
+    volume: 20.0
   Caldari Navy Medium Shield Extender:
     CapacityBonus: 1200
     Cpu: 26.0
@@ -63,7 +73,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
     TechLevel: 1
+    id: 31926
     name: Caldari Navy Medium Shield Extender
+    volume: 10.0
   Caldari Navy Small Shield Extender:
     CapacityBonus: 550
     Cpu: 19.0
@@ -75,7 +87,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 31922
     name: Caldari Navy Small Shield Extender
+    volume: 5.0
   Capital Azeotropic Restrained Shield Extender:
     CapacityBonus: 64800
     Cpu: 120.0
@@ -86,7 +100,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
     TechLevel: 1
+    id: 40355
     name: Capital Azeotropic Restrained Shield Extender
+    volume: 4000.0
   Capital F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 64800
     Cpu: 100.0
@@ -97,7 +113,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1000
     TechLevel: 1
+    id: 40356
     name: Capital F-S9 Regolith Compact Shield Extender
+    volume: 4000.0
   Capital Shield Extender I:
     CapacityBonus: 57600
     Cpu: 120.0
@@ -107,7 +125,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1000
     TechLevel: 1
+    id: 40354
     name: Capital Shield Extender I
+    volume: 4000.0
   Capital Shield Extender II:
     CapacityBonus: 72000
     Cpu: 132.0
@@ -118,7 +138,9 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 1200
     TechLevel: 2
+    id: 40357
     name: Capital Shield Extender II
+    volume: 4000.0
   Domination Capital Shield Extender:
     CapacityBonus: 79200
     Cpu: 100.0
@@ -130,7 +152,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
     TechLevel: 1
+    id: 41462
     name: Domination Capital Shield Extender
+    volume: 4000.0
   Dread Guristas Capital Shield Extender:
     CapacityBonus: 79200
     Cpu: 100.0
@@ -142,7 +166,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
     TechLevel: 1
+    id: 41461
     name: Dread Guristas Capital Shield Extender
+    volume: 4000.0
   Large 'Sheriff' Shield Extender:
     CapacityBonus: 2400
     Cpu: 35.0
@@ -154,7 +180,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
     TechLevel: 1
+    id: 20631
     name: Large 'Sheriff' Shield Extender
+    volume: 20.0
   Large Azeotropic Restrained Shield Extender:
     CapacityBonus: 2200
     Cpu: 40.0
@@ -165,7 +193,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 15
     TechLevel: 1
+    id: 8419
     name: Large Azeotropic Restrained Shield Extender
+    volume: 20.0
   Large F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 2200
     Cpu: 35.0
@@ -176,7 +206,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
     TechLevel: 1
+    id: 8529
     name: Large F-S9 Regolith Compact Shield Extender
+    volume: 20.0
   Large Shield Extender I:
     CapacityBonus: 1900
     Hp: 40
@@ -185,7 +217,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 25
     TechLevel: 1
+    id: 3839
     name: Large Shield Extender I
+    volume: 20.0
   Large Shield Extender II:
     CapacityBonus: 2600
     Cpu: 45.0
@@ -196,7 +230,9 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 25
     TechLevel: 2
+    id: 3841
     name: Large Shield Extender II
+    volume: 20.0
   Large Subordinate Screen Stabilizer I:
     CapacityBonus: 2063
     Hp: 40
@@ -206,7 +242,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 23
     TechLevel: 1
+    id: 8409
     name: Large Subordinate Screen Stabilizer I
+    volume: 20.0
   Large Supplemental Barrier Emitter I:
     CapacityBonus: 1969
     Hp: 40
@@ -216,7 +254,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 24
     TechLevel: 1
+    id: 8489
     name: Large Supplemental Barrier Emitter I
+    volume: 20.0
   Luther Veron's Modified Shield Extender:
     CapacityBonus: 2906
     Hp: 40
@@ -226,7 +266,9 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusAdd: 20
     TechLevel: 1
+    id: 15408
     name: Luther Veron's Modified Shield Extender
+    volume: 20.0
   Medium 'Canyon' Shield Extender:
     CapacityBonus: 1000
     Cpu: 26.0
@@ -238,7 +280,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
     TechLevel: 1
+    id: 20629
     name: Medium 'Canyon' Shield Extender
+    volume: 10.0
   Medium Azeotropic Restrained Shield Extender:
     CapacityBonus: 900
     Cpu: 28.0
@@ -249,7 +293,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 3
     TechLevel: 1
+    id: 8433
     name: Medium Azeotropic Restrained Shield Extender
+    volume: 10.0
   Medium F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 900
     Cpu: 26.0
@@ -260,7 +306,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
     TechLevel: 1
+    id: 8517
     name: Medium F-S9 Regolith Compact Shield Extender
+    volume: 10.0
   Medium Shield Extender I:
     CapacityBonus: 800
     Cpu: 28.0
@@ -270,7 +318,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 7
     TechLevel: 1
+    id: 3829
     name: Medium Shield Extender I
+    volume: 10.0
   Medium Shield Extender II:
     CapacityBonus: 1100
     Cpu: 35.0
@@ -281,7 +331,9 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 7
     TechLevel: 2
+    id: 3831
     name: Medium Shield Extender II
+    volume: 10.0
   Medium Subordinate Screen Stabilizer I:
     CapacityBonus: 825
     Hp: 40
@@ -291,7 +343,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 6
     TechLevel: 1
+    id: 8397
     name: Medium Subordinate Screen Stabilizer I
+    volume: 10.0
   Medium Supplemental Barrier Emitter I:
     CapacityBonus: 788
     Hp: 40
@@ -301,7 +355,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 6
     TechLevel: 1
+    id: 8477
     name: Medium Supplemental Barrier Emitter I
+    volume: 10.0
   Micro Azeotropic Ward Salubrity I:
     CapacityBonus: 109
     Hp: 40
@@ -311,7 +367,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 8437
     name: Micro Azeotropic Ward Salubrity I
+    volume: 2.5
   Micro F-S9 Regolith Shield Induction:
     CapacityBonus: 113
     Hp: 40
@@ -321,7 +379,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 8505
     name: Micro F-S9 Regolith Shield Induction
+    volume: 2.5
   Micro Shield Extender I:
     CapacityBonus: 94
     Hp: 40
@@ -330,7 +390,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 3849
     name: Micro Shield Extender I
+    volume: 2.5
   Micro Shield Extender II:
     CapacityBonus: 131
     Hp: 40
@@ -340,7 +402,9 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusAdd: 1
     TechLevel: 2
+    id: 3851
     name: Micro Shield Extender II
+    volume: 2.5
   Micro Subordinate Screen Stabilizer I:
     CapacityBonus: 104
     Hp: 40
@@ -350,7 +414,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 8387
     name: Micro Subordinate Screen Stabilizer I
+    volume: 2.5
   Micro Supplemental Barrier Emitter I:
     CapacityBonus: 100
     Hp: 40
@@ -360,7 +426,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 8465
     name: Micro Supplemental Barrier Emitter I
+    volume: 2.5
   Republic Fleet Large Shield Extender:
     CapacityBonus: 2750
     Cpu: 40.0
@@ -372,7 +440,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 20
     TechLevel: 1
+    id: 31932
     name: Republic Fleet Large Shield Extender
+    volume: 20.0
   Republic Fleet Medium Shield Extender:
     CapacityBonus: 1200
     Cpu: 28.0
@@ -384,7 +454,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 5
     TechLevel: 1
+    id: 31928
     name: Republic Fleet Medium Shield Extender
+    volume: 10.0
   Republic Fleet Small Shield Extender:
     CapacityBonus: 550
     Cpu: 20.0
@@ -396,7 +468,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 1
     TechLevel: 1
+    id: 31924
     name: Republic Fleet Small Shield Extender
+    volume: 5.0
   Small 'Trapper' Shield Extender:
     CapacityBonus: 300
     Cpu: 12.0
@@ -407,7 +481,9 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 20627
     name: Small 'Trapper' Shield Extender
+    volume: 2.5
   Small 'Wolf' Shield Extender:
     CapacityBonus: 500
     Cpu: 16.0
@@ -419,7 +495,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 20625
     name: Small 'Wolf' Shield Extender
+    volume: 5.0
   Small Azeotropic Restrained Shield Extender:
     CapacityBonus: 450
     Cpu: 20.0
@@ -429,7 +507,9 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 8427
     name: Small Azeotropic Restrained Shield Extender
+    volume: 5.0
   Small F-S9 Regolith Compact Shield Extender:
     CapacityBonus: 450
     Cpu: 16.0
@@ -440,7 +520,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 8521
     name: Small F-S9 Regolith Compact Shield Extender
+    volume: 5.0
   Small Shield Extender I:
     CapacityBonus: 400
     Hp: 40
@@ -449,7 +531,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 377
     name: Small Shield Extender I
+    volume: 5.0
   Small Shield Extender II:
     CapacityBonus: 520
     Hp: 40
@@ -459,7 +543,9 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusAdd: 2
     TechLevel: 2
+    id: 380
     name: Small Shield Extender II
+    volume: 5.0
   Small Subordinate Screen Stabilizer I:
     CapacityBonus: 206
     Hp: 40
@@ -469,7 +555,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 8401
     name: Small Subordinate Screen Stabilizer I
+    volume: 5.0
   Small Supplemental Barrier Emitter I:
     CapacityBonus: 198
     Hp: 40
@@ -479,7 +567,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 2
     TechLevel: 1
+    id: 8481
     name: Small Supplemental Barrier Emitter I
+    volume: 5.0
   Thukker Large Shield Extender:
     CapacityBonus: 2750
     Cpu: 40.0
@@ -491,7 +581,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 15
     TechLevel: 1
+    id: 28744
     name: Thukker Large Shield Extender
+    volume: 20.0
   Thukker Medium Shield Extender:
     CapacityBonus: 1200
     Cpu: 28.0
@@ -503,7 +595,9 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 3
     TechLevel: 1
+    id: 28746
     name: Thukker Medium Shield Extender
+    volume: 10.0
   Thukker Modified Medium Shield Extender:
     CapacityBonus: 1406
     Hp: 40
@@ -513,7 +607,9 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusAdd: 4
     TechLevel: 1
+    id: 19489
     name: Thukker Modified Medium Shield Extender
+    volume: 10.0
   Thukker Small Shield Extender:
     CapacityBonus: 550
     Cpu: 20.0
@@ -524,7 +620,9 @@ items:
     RequiredSkill1: 3425
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 28742
     name: Thukker Small Shield Extender
+    volume: 5.0
   True Sansha Capital Shield Extender:
     CapacityBonus: 79200
     Cpu: 100.0
@@ -536,4 +634,6 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusAdd: 800
     TechLevel: 1
+    id: 41460
     name: True Sansha Capital Shield Extender
+    volume: 4000.0

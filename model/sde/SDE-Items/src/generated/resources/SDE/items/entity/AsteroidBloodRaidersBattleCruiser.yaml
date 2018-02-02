@@ -1,13 +1,25 @@
 items:
   Blood Bishop:
+    id: 23244
     name: Blood Bishop
+    volume: 118000.0
   Blood Exorcist:
+    id: 23256
     name: Blood Exorcist
+    volume: 118000.0
   Blood Fanatic:
+    id: 23254
     name: Blood Fanatic
+    volume: 118000.0
   Blood Phantom:
+    id: 23255
     name: Blood Phantom
+    volume: 118000.0
   Blood Seer:
+    id: 23252
     name: Blood Seer
+    volume: 118000.0
   Blood Shade:
+    id: 23253
     name: Blood Shade
+    volume: 118000.0

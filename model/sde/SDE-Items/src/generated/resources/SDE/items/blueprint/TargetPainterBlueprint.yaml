@@ -2,36 +2,54 @@ items:
   '''Inception'' Target Painter Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 21541
     name: '''Inception'' Target Painter Blueprint'
+    volume: 0.01
   Domination Target Painter Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 32415
     name: Domination Target Painter Blueprint
+    volume: 0.01
   Parallel Weapon Navigation Transmitter Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 19813
     name: Parallel Weapon Navigation Transmitter Blueprint
+    volume: 0.01
   Partial Weapon Navigation Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 19809
     name: Partial Weapon Navigation Blueprint
+    volume: 0.01
   Peripheral Weapon Navigation Diameter Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 19811
     name: Peripheral Weapon Navigation Diameter Blueprint
+    volume: 0.01
   Phased Weapon Navigation Array Generation Extron Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 19815
     name: Phased Weapon Navigation Array Generation Extron Blueprint
+    volume: 0.01
   Republic Fleet Target Painter Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 31945
     name: Republic Fleet Target Painter Blueprint
+    volume: 0.01
   Target Painter I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 12710
     name: Target Painter I Blueprint
+    volume: 0.01
   Target Painter II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 19807
     name: Target Painter II Blueprint
+    volume: 0.01

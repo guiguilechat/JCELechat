@@ -6,7 +6,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 28617
     name: Banidine
+    volume: 0.1
   Chondrite:
     AsteroidMaxRadius: 16255
     AsteroidRadiusGrowthFactor: 1.0
@@ -14,7 +16,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 27028
     name: Chondrite
+    volume: 0.1
   Compressed Concentrated Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -23,7 +27,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 28430
     name: Compressed Concentrated Veldspar
+    volume: 0.15
   Compressed Dense Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -32,7 +38,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 28431
     name: Compressed Dense Veldspar
+    volume: 0.15
   Compressed Stable Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -41,7 +49,9 @@ items:
     OreBasicType: 46689
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 46705
     name: Compressed Stable Veldspar
+    volume: 0.15
   Compressed Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -50,7 +60,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 28432
     name: Compressed Veldspar
+    volume: 0.15
   Concentrated Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -61,7 +73,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 17470
     name: Concentrated Veldspar
+    volume: 0.1
   Dense Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -72,7 +86,9 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 17471
     name: Dense Veldspar
+    volume: 0.1
   Stable Veldspar:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -83,7 +99,9 @@ items:
     OreBasicType: 46689
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 46689
     name: Stable Veldspar
+    volume: 0.1
   Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -94,4 +112,6 @@ items:
     OreBasicType: 1230
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
+    id: 1230
     name: Veldspar
+    volume: 0.1

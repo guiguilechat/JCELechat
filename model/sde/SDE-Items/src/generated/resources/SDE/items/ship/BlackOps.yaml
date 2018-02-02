@@ -103,7 +103,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 44996
     name: Marshal
+    volume: 450000.0
   Panther:
     Agility: 0.06400000303983688
     ArmorEmDamageResonance: 0.36000001430511475
@@ -194,7 +196,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 22440
     name: Panther
+    volume: 414000.0
   Redeemer:
     Agility: 0.07199999690055847
     ArmorEmDamageResonance: 0.5
@@ -285,7 +289,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 22428
     name: Redeemer
+    volume: 486000.0
   Sin:
     Agility: 0.06840000301599503
     ArmorEmDamageResonance: 0.5
@@ -377,7 +383,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 22430
     name: Sin
+    volume: 454500.0
   Widow:
     Agility: 0.06800000369548798
     ArmorEmDamageResonance: 0.5
@@ -469,4 +477,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
+    id: 22436
     name: Widow
+    volume: 468000.0

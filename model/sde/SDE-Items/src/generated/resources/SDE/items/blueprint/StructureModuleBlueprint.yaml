@@ -1,114 +1,196 @@
 items:
   Dark Blood Standup Heavy Energy Neutralizer Blueprint:
     StructureItemVisualFlag: 1
+    id: 46576
     name: Dark Blood Standup Heavy Energy Neutralizer Blueprint
+    volume: 0.01
   Dread Guristas Standup Variable Spectrum ECM Blueprint:
     StructureItemVisualFlag: 1
+    id: 46578
     name: Dread Guristas Standup Variable Spectrum ECM Blueprint
+    volume: 0.01
   Standup ASML Missile Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37048
     name: Standup ASML Missile Launcher I Blueprint
+    volume: 0.01
   Standup AXL Missile Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37047
     name: Standup AXL Missile Launcher I Blueprint
+    volume: 0.01
   Standup Arcing Vorton Projector I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37030
     name: Standup Arcing Vorton Projector I Blueprint
+    volume: 0.01
   Standup Ballistic Control System I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37020
     name: Standup Ballistic Control System I Blueprint
+    volume: 0.01
   Standup Biochemical Reactor I Blueprint:
     StructureItemVisualFlag: 1
+    id: 45542
     name: Standup Biochemical Reactor I Blueprint
+    volume: 0.01
   Standup Capital Shipyard I Blueprint:
     StructureItemVisualFlag: 1
+    id: 43925
     name: Standup Capital Shipyard I Blueprint
+    volume: 0.01
   Standup Cloning Center I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37023
     name: Standup Cloning Center I Blueprint
+    volume: 0.01
   Standup Co-Processor Array I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37028
     name: Standup Co-Processor Array I Blueprint
+    volume: 0.01
   Standup Composite Reactor I Blueprint:
     StructureItemVisualFlag: 1
+    id: 45540
     name: Standup Composite Reactor I Blueprint
+    volume: 0.01
   Standup ECM Jammer Burst Projector Blueprint:
+    id: 47110
     name: Standup ECM Jammer Burst Projector Blueprint
+    volume: 0.01
   Standup Energy Neutralization Burst Projector Blueprint:
+    id: 47114
     name: Standup Energy Neutralization Burst Projector Blueprint
+    volume: 0.01
   Standup Gravitational Transportation Field Oscillator Blueprint:
+    id: 47115
     name: Standup Gravitational Transportation Field Oscillator Blueprint
+    volume: 0.01
   Standup Guided Bomb Launcher I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37008
     name: Standup Guided Bomb Launcher I Blueprint
+    volume: 0.01
   Standup Heavy Energy Neutralizer I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37044
     name: Standup Heavy Energy Neutralizer I Blueprint
+    volume: 0.01
   Standup Hyasyoda Research Lab Blueprint:
     StructureItemVisualFlag: 1
+    id: 45551
     name: Standup Hyasyoda Research Lab Blueprint
+    volume: 0.01
   Standup Hybrid Reactor I Blueprint:
     StructureItemVisualFlag: 1
+    id: 45541
     name: Standup Hybrid Reactor I Blueprint
+    volume: 0.01
   Standup Invention Lab I Blueprint:
     StructureItemVisualFlag: 1
+    id: 43926
     name: Standup Invention Lab I Blueprint
+    volume: 0.01
   Standup Manufacturing Plant I Blueprint:
     StructureItemVisualFlag: 1
+    id: 43927
     name: Standup Manufacturing Plant I Blueprint
+    volume: 0.01
   Standup Market Hub I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37022
     name: Standup Market Hub I Blueprint
+    volume: 0.01
   Standup Missile Guidance Enhancer I Blueprint:
+    id: 37045
     name: Standup Missile Guidance Enhancer I Blueprint
+    volume: 0.01
   Standup Moon Drill I Blueprint:
+    id: 37034
     name: Standup Moon Drill I Blueprint
+    volume: 0.01
   Standup Point Defense Battery I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37029
     name: Standup Point Defense Battery I Blueprint
+    volume: 0.01
   Standup Reactor Control Unit I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37060
     name: Standup Reactor Control Unit I Blueprint
+    volume: 0.01
   Standup Remote Sensor Dampener I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37066
     name: Standup Remote Sensor Dampener I Blueprint
+    volume: 0.01
   Standup Reprocessing Facility I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37032
     name: Standup Reprocessing Facility I Blueprint
+    volume: 0.01
   Standup Research Lab I Blueprint:
     StructureItemVisualFlag: 1
+    id: 43928
     name: Standup Research Lab I Blueprint
+    volume: 0.01
   Standup Sensor Dampening Burst Projector Blueprint:
+    id: 47111
     name: Standup Sensor Dampening Burst Projector Blueprint
+    volume: 0.01
   Standup Signal Amplifier I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37541
     name: Standup Signal Amplifier I Blueprint
+    volume: 0.01
   Standup Stasis Webification Burst Projector Blueprint:
+    id: 47112
     name: Standup Stasis Webification Burst Projector Blueprint
+    volume: 0.01
   Standup Stasis Webifier I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37080
     name: Standup Stasis Webifier I Blueprint
+    volume: 0.01
   Standup Supercapital Shipyard I Blueprint:
     StructureItemVisualFlag: 1
+    id: 43929
     name: Standup Supercapital Shipyard I Blueprint
+    volume: 0.01
   Standup Target Illumination Burst Projector Blueprint:
+    id: 47107
     name: Standup Target Illumination Burst Projector Blueprint
+    volume: 0.01
   Standup Target Painter I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37081
     name: Standup Target Painter I Blueprint
+    volume: 0.01
   Standup Variable Spectrum ECM I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37041
     name: Standup Variable Spectrum ECM I Blueprint
+    volume: 0.01
   Standup Warp Disruption Burst Projector Blueprint:
+    id: 47113
     name: Standup Warp Disruption Burst Projector Blueprint
+    volume: 0.01
   Standup Warp Scrambler I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37087
     name: Standup Warp Scrambler I Blueprint
+    volume: 0.01
   Standup Weapon Disruption Burst Projector Blueprint:
+    id: 47109
     name: Standup Weapon Disruption Burst Projector Blueprint
+    volume: 0.01
   Standup Weapon Disruptor I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37083
     name: Standup Weapon Disruptor I Blueprint
+    volume: 0.01
   Standup XL Energy Neutralizer I Blueprint:
     StructureItemVisualFlag: 1
+    id: 37043
     name: Standup XL Energy Neutralizer I Blueprint
+    volume: 0.01

@@ -1,15 +1,29 @@
 items:
   Barrels Of Viral Agent:
+    id: 26777
     name: Barrels Of Viral Agent
+    volume: 5000.0
   Confiscated Viral Agent:
+    id: 19398
     name: Confiscated Viral Agent
+    volume: 0.5
   Ectoplasm:
+    id: 3771
     name: Ectoplasm
+    volume: 0.5
   Hydrochloric Acid:
+    id: 3773
     name: Hydrochloric Acid
+    volume: 0.5
   Large Crates of Ectoplasm:
+    id: 4091
     name: Large Crates of Ectoplasm
+    volume: 500.0
   OP Insecticide:
+    id: 29504
     name: OP Insecticide
+    volume: 0.25
   Potent Viral Agent:
+    id: 20510
     name: Potent Viral Agent
+    volume: 0.5

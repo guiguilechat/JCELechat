@@ -1,106 +1,176 @@
 items:
   Advanced Cerebral Accelerator Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 33088
     name: Advanced Cerebral Accelerator Blueprint
+    volume: 0.01
   Cerebral Accelerator Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 2839
     name: Cerebral Accelerator Blueprint
+    volume: 0.01
   Improved Blue Pill Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25307
     name: Improved Blue Pill Booster Blueprint
+    volume: 0.01
   Improved Crash Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25310
     name: Improved Crash Booster Blueprint
+    volume: 0.01
   Improved Drop Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25328
     name: Improved Drop Booster Blueprint
+    volume: 0.01
   Improved Exile Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25504
     name: Improved Exile Booster Blueprint
+    volume: 0.01
   Improved Frentix Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25505
     name: Improved Frentix Booster Blueprint
+    volume: 0.01
   Improved Mindflood Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25506
     name: Improved Mindflood Booster Blueprint
+    volume: 0.01
   Improved Sooth Sayer Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25507
     name: Improved Sooth Sayer Booster Blueprint
+    volume: 0.01
   Improved X-Instinct Booster Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 25503
     name: Improved X-Instinct Booster Blueprint
+    volume: 0.01
   Prototype Cerebral Accelerator Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 33112
     name: Prototype Cerebral Accelerator Blueprint
+    volume: 0.01
   Standard Blue Pill Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25303
     name: Standard Blue Pill Booster Blueprint
+    volume: 0.01
   Standard Crash Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25309
     name: Standard Crash Booster Blueprint
+    volume: 0.01
   Standard Drop Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25327
     name: Standard Drop Booster Blueprint
+    volume: 0.01
   Standard Exile Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25508
     name: Standard Exile Booster Blueprint
+    volume: 0.01
   Standard Frentix Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25509
     name: Standard Frentix Booster Blueprint
+    volume: 0.01
   Standard Mindflood Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25323
     name: Standard Mindflood Booster Blueprint
+    volume: 0.01
   Standard Sooth Sayer Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25314
     name: Standard Sooth Sayer Booster Blueprint
+    volume: 0.01
   Standard X-Instinct Booster Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 25510
     name: Standard X-Instinct Booster Blueprint
+    volume: 0.01
   Strong Blue Pill Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25308
     name: Strong Blue Pill Booster Blueprint
+    volume: 0.01
   Strong Crash Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25311
     name: Strong Crash Booster Blueprint
+    volume: 0.01
   Strong Drop Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25329
     name: Strong Drop Booster Blueprint
+    volume: 0.01
   Strong Exile Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25539
     name: Strong Exile Booster Blueprint
+    volume: 0.01
   Strong Frentix Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25322
     name: Strong Frentix Booster Blueprint
+    volume: 0.01
   Strong Mindflood Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25511
     name: Strong Mindflood Booster Blueprint
+    volume: 0.01
   Strong Sooth Sayer Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25512
     name: Strong Sooth Sayer Booster Blueprint
+    volume: 0.01
   Strong X-Instinct Booster Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 25513
     name: Strong X-Instinct Booster Blueprint
+    volume: 0.01
   Synth Blue Pill Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28671
     name: Synth Blue Pill Booster Blueprint
+    volume: 0.01
   Synth Crash Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28673
     name: Synth Crash Booster Blueprint
+    volume: 0.01
   Synth Drop Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28675
     name: Synth Drop Booster Blueprint
+    volume: 0.01
   Synth Exile Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28677
     name: Synth Exile Booster Blueprint
+    volume: 0.01
   Synth Frentix Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28679
     name: Synth Frentix Booster Blueprint
+    volume: 0.01
   Synth Mindflood Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28681
     name: Synth Mindflood Booster Blueprint
+    volume: 0.01
   Synth Sooth Sayer Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28685
     name: Synth Sooth Sayer Booster Blueprint
+    volume: 0.01
   Synth X-Instinct Booster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28683
     name: Synth X-Instinct Booster Blueprint
+    volume: 0.01

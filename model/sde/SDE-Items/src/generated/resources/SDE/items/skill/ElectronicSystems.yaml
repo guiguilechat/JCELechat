@@ -7,7 +7,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 11208
     name: Advanced Sensor Upgrades
+    volume: 0.01
   Burst Projector Operation:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -16,7 +18,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    id: 27911
     name: Burst Projector Operation
+    volume: 0.01
   Cloaking:
     CanNotBeTrainedOnTrial: 1
     CloakingTargetingDelayBonus: -10
@@ -25,7 +29,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 11579
     name: Cloaking
+    volume: 0.01
   Electronic Warfare:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -33,7 +39,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3427
     name: Electronic Warfare
+    volume: 0.01
   Frequency Modulation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -42,7 +50,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 19760
     name: Frequency Modulation
+    volume: 0.01
   Hypereuclidean Navigation:
     DurationBonus: 5
     PrimaryAttribute: 165
@@ -52,12 +62,16 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 12368
     name: Hypereuclidean Navigation
+    volume: 0.01
   Imperial Navy Security Clearance:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 28631
     name: Imperial Navy Security Clearance
+    volume: 0.01
   Long Distance Jamming:
     PrimaryAttribute: 165
     RangeSkillBonus: 10
@@ -67,7 +81,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
+    id: 19759
     name: Long Distance Jamming
+    volume: 0.01
   Propulsion Jamming:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -77,7 +93,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3435
     name: Propulsion Jamming
+    volume: 0.01
   Sensor Linking:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -85,7 +103,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3433
     name: Sensor Linking
+    volume: 0.01
   Signal Dispersion:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -95,7 +115,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 19761
     name: Signal Dispersion
+    volume: 0.01
   Signal Suppression:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -105,7 +127,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 19766
     name: Signal Suppression
+    volume: 0.01
   Signature Focusing:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -115,7 +139,9 @@ items:
     ScanSkillTargetPaintStrengthBonus: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 19922
     name: Signature Focusing
+    volume: 0.01
   Tactical Logistics Reconfiguration:
     CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 25
@@ -124,7 +150,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
+    id: 27906
     name: Tactical Logistics Reconfiguration
+    volume: 0.01
   Target Breaker Amplification:
     CapNeedBonus: -5
     DurationBonus: -5
@@ -133,7 +161,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 4411
     name: Target Breaker Amplification
+    volume: 0.01
   Target Painting:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -141,7 +171,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 19921
     name: Target Painting
+    volume: 0.01
   Tournament Observation:
     MaxTargetBonus: 3
     PrimaryAttribute: 165
@@ -149,7 +181,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 28604
     name: Tournament Observation
+    volume: 0.01
   Weapon Destabilization:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -159,7 +193,9 @@ items:
     ScanSkillEwStrengthBonus: 5.0
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
+    id: 19767
     name: Weapon Destabilization
+    volume: 0.01
   Weapon Disruption:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -167,4 +203,6 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3434
     name: Weapon Disruption
+    volume: 0.01

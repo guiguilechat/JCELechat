@@ -1,5 +1,9 @@
 items:
   Caldari State Shuttle:
+    id: 29233
     name: Caldari State Shuttle
+    volume: 5000.0
   Mysterious Shuttle:
+    id: 2378
     name: Mysterious Shuttle
+    volume: 5000.0

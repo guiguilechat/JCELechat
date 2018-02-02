@@ -17,7 +17,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 43724
     name: Standup L-Set ME Research Optimization I
+    volume: 20.0
   Standup L-Set ME Research Optimization II:
     AttributeEngRigCostBonus: -12
     AttributeEngRigTimeBonus: -24
@@ -36,4 +38,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 43725
     name: Standup L-Set ME Research Optimization II
+    volume: 20.0

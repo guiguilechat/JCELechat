@@ -1,15 +1,29 @@
 items:
   Heavy Water:
+    id: 16272
     name: Heavy Water
+    volume: 0.4
   Helium Isotopes:
+    id: 16274
     name: Helium Isotopes
+    volume: 0.03
   Hydrogen Isotopes:
+    id: 17889
     name: Hydrogen Isotopes
+    volume: 0.03
   Liquid Ozone:
+    id: 16273
     name: Liquid Ozone
+    volume: 0.4
   Nitrogen Isotopes:
+    id: 17888
     name: Nitrogen Isotopes
+    volume: 0.03
   Oxygen Isotopes:
+    id: 17887
     name: Oxygen Isotopes
+    volume: 0.03
   Strontium Clathrates:
+    id: 16275
     name: Strontium Clathrates
+    volume: 3.0

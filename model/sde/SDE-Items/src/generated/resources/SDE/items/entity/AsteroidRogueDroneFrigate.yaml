@@ -1,41 +1,81 @@
 items:
   Barracuda Drone:
+    id: 25636
     name: Barracuda Drone
+    volume: 60.0
   Decimator Drone:
+    id: 25641
     name: Decimator Drone
+    volume: 60.0
   Devilfish Drone:
+    id: 25645
     name: Devilfish Drone
+    volume: 60.0
   Hunter Drone:
+    id: 25656
     name: Hunter Drone
+    volume: 60.0
   Infester Drone:
+    id: 25658
     name: Infester Drone
+    volume: 60.0
   Raider Drone:
+    id: 25667
     name: Raider Drone
+    volume: 60.0
   Render Drone:
+    id: 25668
     name: Render Drone
+    volume: 60.0
   Silverfish Drone:
+    id: 25674
     name: Silverfish Drone
+    volume: 60.0
   Splinter Drone:
+    id: 25676
     name: Splinter Drone
+    volume: 60.0
   Strain Barracuda Drone:
+    id: 25679
     name: Strain Barracuda Drone
+    volume: 60.0
   Strain Decimator Drone:
+    id: 25681
     name: Strain Decimator Drone
+    volume: 60.0
   Strain Devilfish Drone:
+    id: 25684
     name: Strain Devilfish Drone
+    volume: 60.0
   Strain Hunter Drone:
+    id: 25686
     name: Strain Hunter Drone
+    volume: 60.0
   Strain Infester Drone:
+    id: 25687
     name: Strain Infester Drone
+    volume: 60.0
   Strain Raider Drone:
+    id: 25689
     name: Strain Raider Drone
+    volume: 60.0
   Strain Render Drone:
+    id: 25690
     name: Strain Render Drone
+    volume: 60.0
   Strain Silverfish Drone:
+    id: 25691
     name: Strain Silverfish Drone
+    volume: 60.0
   Strain Splinter Drone:
+    id: 25692
     name: Strain Splinter Drone
+    volume: 60.0
   Strain Sunder Drone:
+    id: 25693
     name: Strain Sunder Drone
+    volume: 60.0
   Sunder Drone:
+    id: 25698
     name: Sunder Drone
+    volume: 60.0

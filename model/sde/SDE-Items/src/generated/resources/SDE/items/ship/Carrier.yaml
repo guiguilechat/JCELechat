@@ -102,7 +102,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23757
     name: Archon
+    volume: 1.395E7
   Chimera:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -206,7 +208,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23915
     name: Chimera
+    volume: 1.1925E7
   Nidhoggur:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -311,7 +315,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 24483
     name: Nidhoggur
+    volume: 1.125E7
   Thanatos:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -416,7 +422,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23911
     name: Thanatos
+    volume: 1.3095E7
   Vanguard:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -519,4 +527,6 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 42132
     name: Vanguard
+    volume: 1.3095E7

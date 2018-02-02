@@ -80,7 +80,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11985
     name: Basilisk
+    volume: 107000.0
   Etana:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -164,7 +166,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 32790
     name: Etana
+    volume: 107000.0
   Guardian:
     Agility: 0.6100000143051147
     ArmorEmDamageResonance: 0.5
@@ -245,7 +249,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11987
     name: Guardian
+    volume: 115000.0
   Oneiros:
     Agility: 0.6150000095367432
     ArmorEmDamageResonance: 0.5
@@ -325,7 +331,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11989
     name: Oneiros
+    volume: 113000.0
   Rabisu:
     Agility: 0.5199999809265137
     ArmorEmDamageResonance: 0.5
@@ -417,7 +425,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 42245
     name: Rabisu
+    volume: 115000.0
   Scimitar:
     Agility: 0.550000011920929
     ArmorEmDamageResonance: 0.10000000149011612
@@ -499,4 +509,6 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
+    id: 11978
     name: Scimitar
+    volume: 89000.0

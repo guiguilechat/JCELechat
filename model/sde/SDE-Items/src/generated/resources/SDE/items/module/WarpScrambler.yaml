@@ -20,7 +20,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 21512
     name: '''Delineative'' Warp Scrambler'
+    volume: 5.0
   '''Interruptive'' Warp Disruptor':
     CapacitorNeed: 16.0
     Cpu: 20.0
@@ -38,7 +40,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 21510
     name: '''Interruptive'' Warp Disruptor'
+    volume: 5.0
   CONCORD Modified Warp Scrambler:
     CapacitorNeed: 30.0
     Duration: 5000.0
@@ -54,7 +58,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 16140
     name: CONCORD Modified Warp Scrambler
+    volume: 5.0
   Caldari Navy Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
@@ -72,7 +78,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 15889
     name: Caldari Navy Warp Disruptor
+    volume: 5.0
   Caldari Navy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
@@ -94,7 +102,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 15887
     name: Caldari Navy Warp Scrambler
+    volume: 5.0
   Civilian Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 20.0
@@ -104,7 +114,9 @@ items:
     MaxRange: 20000
     Power: 1
     TechLevel: 1
+    id: 32459
     name: Civilian Warp Disruptor
+    volume: 5.0
   Dark Blood Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
@@ -122,7 +134,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 14242
     name: Dark Blood Warp Disruptor
+    volume: 5.0
   Dark Blood Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
@@ -144,7 +158,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 14252
     name: Dark Blood Warp Scrambler
+    volume: 5.0
   Domination Heavy Warp Disruptor:
     CapacitorNeed: 225.0
     Cpu: 63.0
@@ -162,7 +178,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 4
+    id: 40737
     name: Domination Heavy Warp Disruptor
+    volume: 100.0
   Domination Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 45.0
@@ -184,7 +202,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 8
+    id: 40764
     name: Domination Heavy Warp Scrambler
+    volume: 100.0
   Domination Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
@@ -202,7 +222,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 14244
     name: Domination Warp Disruptor
+    volume: 5.0
   Domination Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
@@ -224,7 +246,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 14254
     name: Domination Warp Scrambler
+    volume: 5.0
   Dread Guristas Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
@@ -242,7 +266,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 14246
     name: Dread Guristas Warp Disruptor
+    volume: 5.0
   Dread Guristas Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
@@ -264,7 +290,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 14256
     name: Dread Guristas Warp Scrambler
+    volume: 5.0
   Faint Epsilon Scoped Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
@@ -285,7 +313,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 5443
     name: Faint Epsilon Scoped Warp Scrambler
+    volume: 5.0
   Faint Scoped Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 40.0
@@ -302,7 +332,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 5403
     name: Faint Scoped Warp Disruptor
+    volume: 5.0
   Federation Navy Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 30.0
@@ -320,7 +352,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 41062
     name: Federation Navy Warp Disruptor
+    volume: 5.0
   Federation Navy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
@@ -342,7 +376,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 41061
     name: Federation Navy Warp Scrambler
+    volume: 5.0
   Fleeting Progressive Warp Scrambler I:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
@@ -363,7 +399,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 5441
     name: Fleeting Progressive Warp Scrambler I
+    volume: 5.0
   Fleeting Warp Disruptor I:
     CapacitorNeed: 20.0
     Duration: 5000.0
@@ -379,7 +417,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 5401
     name: Fleeting Warp Disruptor I
+    volume: 5.0
   Gotan's Modified Heavy Warp Disruptor:
     CapacitorNeed: 70.0
     Cpu: 50.0
@@ -397,7 +437,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 5
+    id: 14660
     name: Gotan's Modified Heavy Warp Disruptor
+    volume: 5.0
   Gotan's Modified Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
@@ -419,7 +461,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 10
+    id: 14668
     name: Gotan's Modified Heavy Warp Scrambler
+    volume: 5.0
   Hakim's Modified Heavy Warp Disruptor:
     CapacitorNeed: 60.0
     Cpu: 48.0
@@ -437,7 +481,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 5
+    id: 14658
     name: Hakim's Modified Heavy Warp Disruptor
+    volume: 5.0
   Hakim's Modified Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
@@ -459,7 +505,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 10
+    id: 14666
     name: Hakim's Modified Heavy Warp Scrambler
+    volume: 5.0
   Heavy Faint Epsilon Scoped Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
@@ -480,7 +528,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 6
+    id: 40756
     name: Heavy Faint Epsilon Scoped Warp Scrambler
+    volume: 100.0
   Heavy Faint Scoped Warp Disruptor:
     CapacitorNeed: 200.0
     Cpu: 63.0
@@ -497,7 +547,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 40733
     name: Heavy Faint Scoped Warp Disruptor
+    volume: 100.0
   Heavy Fleeting Compact Warp Disruptor:
     CapacitorNeed: 200.0
     Cpu: 50.0
@@ -514,7 +566,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 40731
     name: Heavy Fleeting Compact Warp Disruptor
+    volume: 100.0
   Heavy Initiated Compact Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
@@ -535,7 +589,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 6
+    id: 40752
     name: Heavy Initiated Compact Warp Scrambler
+    volume: 100.0
   Heavy J5 Enduring Warp Disruptor:
     CapacitorNeed: 150.0
     Cpu: 63.0
@@ -552,7 +608,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 40732
     name: Heavy J5 Enduring Warp Disruptor
+    volume: 100.0
   Heavy J5b Enduring Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 16.0
@@ -573,7 +631,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 6
+    id: 40754
     name: Heavy J5b Enduring Warp Scrambler
+    volume: 100.0
   Heavy Warp Disruptor I:
     CapacitorNeed: 200.0
     Cpu: 63.0
@@ -589,7 +649,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 40730
     name: Heavy Warp Disruptor I
+    volume: 100.0
   Heavy Warp Disruptor II:
     CapacitorNeed: 225.0
     Cpu: 75.0
@@ -606,7 +668,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     WarpScrambleStrength: 3
+    id: 40734
     name: Heavy Warp Disruptor II
+    volume: 100.0
   Heavy Warp Scrambler I:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 40.0
@@ -626,7 +690,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 6
+    id: 40750
     name: Heavy Warp Scrambler I
+    volume: 100.0
   Heavy Warp Scrambler II:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 45.0
@@ -647,7 +713,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     WarpScrambleStrength: 6
+    id: 40758
     name: Heavy Warp Scrambler II
+    volume: 100.0
   Initiated Compact Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 32.0
@@ -664,7 +732,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 5405
     name: Initiated Compact Warp Disruptor
+    volume: 5.0
   Initiated Compact Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
@@ -685,7 +755,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 5445
     name: Initiated Compact Warp Scrambler
+    volume: 5.0
   J5 Enduring Warp Disruptor:
     CapacitorNeed: 16.0
     Cpu: 40.0
@@ -702,7 +774,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 5399
     name: J5 Enduring Warp Disruptor
+    volume: 5.0
   J5b Enduring Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 2.0
@@ -723,7 +797,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 5439
     name: J5b Enduring Warp Scrambler
+    volume: 5.0
   Khanid Navy Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
@@ -741,7 +817,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 28516
     name: Khanid Navy Warp Disruptor
+    volume: 5.0
   Khanid Navy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 4.0
@@ -763,7 +841,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 28518
     name: Khanid Navy Warp Scrambler
+    volume: 5.0
   Makur's Modified Warp Disruptor:
     CapacitorNeed: 70.0
     Duration: 5000.0
@@ -779,7 +859,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 15431
     name: Makur's Modified Warp Disruptor
+    volume: 5.0
   Makur's Modified Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 10.0
@@ -800,7 +882,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 15433
     name: Makur's Modified Warp Scrambler
+    volume: 5.0
   Mizuro's Modified Heavy Warp Disruptor:
     CapacitorNeed: 50.0
     Cpu: 46.0
@@ -818,7 +902,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 5
+    id: 14656
     name: Mizuro's Modified Heavy Warp Disruptor
+    volume: 5.0
   Mizuro's Modified Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
@@ -840,7 +926,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 10
+    id: 14664
     name: Mizuro's Modified Heavy Warp Scrambler
+    volume: 5.0
   Republic Fleet Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
@@ -858,7 +946,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 15891
     name: Republic Fleet Warp Disruptor
+    volume: 5.0
   Republic Fleet Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
@@ -880,7 +970,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 15893
     name: Republic Fleet Warp Scrambler
+    volume: 5.0
   Shadow Serpentis Heavy Warp Disruptor:
     CapacitorNeed: 175.0
     Cpu: 50.0
@@ -898,7 +990,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 4
+    id: 40736
     name: Shadow Serpentis Heavy Warp Disruptor
+    volume: 100.0
   Shadow Serpentis Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 35.0
@@ -920,7 +1014,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 8
+    id: 40762
     name: Shadow Serpentis Heavy Warp Scrambler
+    volume: 100.0
   Shadow Serpentis Warp Disruptor:
     CapacitorNeed: 25.0
     Cpu: 30.0
@@ -938,7 +1034,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 14250
     name: Shadow Serpentis Warp Disruptor
+    volume: 5.0
   Shadow Serpentis Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
@@ -960,7 +1058,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 14260
     name: Shadow Serpentis Warp Scrambler
+    volume: 5.0
   Tobias' Modified Heavy Warp Disruptor:
     CapacitorNeed: 80.0
     Cpu: 52.0
@@ -978,7 +1078,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 5
+    id: 14662
     name: Tobias' Modified Heavy Warp Disruptor
+    volume: 5.0
   Tobias' Modified Heavy Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 30.0
@@ -1000,7 +1102,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 10
+    id: 14670
     name: Tobias' Modified Heavy Warp Scrambler
+    volume: 5.0
   True Sansha Warp Disruptor:
     CapacitorNeed: 28.0
     Cpu: 38.0
@@ -1018,7 +1122,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 14248
     name: True Sansha Warp Disruptor
+    volume: 5.0
   True Sansha Warp Scrambler:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
@@ -1040,7 +1146,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 3
+    id: 14258
     name: True Sansha Warp Scrambler
+    volume: 5.0
   Warp Disruptor I:
     CapacitorNeed: 25.0
     Duration: 5000.0
@@ -1055,7 +1163,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 3242
     name: Warp Disruptor I
+    volume: 5.0
   Warp Disruptor II:
     CapacitorNeed: 30.0
     Duration: 5000.0
@@ -1071,7 +1181,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     WarpScrambleStrength: 1
+    id: 3244
     name: Warp Disruptor II
+    volume: 5.0
   Warp Prohibitor I:
     CapacitorNeed: 50.0
     Duration: 5000.0
@@ -1089,7 +1201,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 1
+    id: 22476
     name: Warp Prohibitor I
+    volume: 5.0
   Warp Scrambler I:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 5.0
@@ -1109,7 +1223,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     WarpScrambleStrength: 2
+    id: 447
     name: Warp Scrambler I
+    volume: 5.0
   Warp Scrambler II:
     ActivationBlockedStrenght: 1
     CapacitorNeed: 6.0
@@ -1130,4 +1246,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     WarpScrambleStrength: 2
+    id: 448
     name: Warp Scrambler II
+    volume: 5.0

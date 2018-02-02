@@ -6,14 +6,18 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 33807
     name: Cybernetic 'Source' Subprocessor
+    volume: 1.0
   Genolution 'Auroral' AU-79:
     FollowsJumpClones: 1
     ImplantSetChristmas: 1.0
     Implantness: 79
     Nondestructible: 1
     TechLevel: 1
+    id: 33329
     name: Genolution 'Auroral' AU-79
+    volume: 1.0
   Genolution Core Augmentation CA-1:
     CapacitorCapacityBonus: 1.5
     ImplantSetChristmas: 1.5
@@ -23,7 +27,9 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 2082
     name: Genolution Core Augmentation CA-1
+    volume: 1.0
   Genolution Core Augmentation CA-2:
     CapRechargeBonus: -1.5
     CpuOutputBonus2: 1.5
@@ -33,7 +39,9 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 2589
     name: Genolution Core Augmentation CA-2
+    volume: 1.0
   Genolution Core Augmentation CA-3:
     ImplantBonusVelocity: 1.5
     ImplantSetChristmas: 1.2999999523162842
@@ -43,7 +51,9 @@ items:
     ShieldCapacityBonus: 1.5
     TechLevel: 1
     WillpowerBonus: 3
+    id: 33393
     name: Genolution Core Augmentation CA-3
+    volume: 1.0
   Genolution Core Augmentation CA-4:
     AgilityBonus: -1.5
     ArmorHpBonus2: 1.5
@@ -53,7 +63,9 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 33394
     name: Genolution Core Augmentation CA-4
+    volume: 1.0
   Neural 'Source' Boost:
     ImplantSetChristmas: 1.0
     Implantness: 3
@@ -61,4 +73,6 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     WillpowerBonus: 4
+    id: 33808
     name: Neural 'Source' Boost
+    volume: 1.0

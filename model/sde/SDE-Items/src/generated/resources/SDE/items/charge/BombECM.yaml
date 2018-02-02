@@ -26,4 +26,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 7.0
+    id: 27922
     name: Lockbreaker Bomb
+    volume: 75.0

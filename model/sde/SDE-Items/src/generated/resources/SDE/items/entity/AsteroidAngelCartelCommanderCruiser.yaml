@@ -1,21 +1,41 @@
 items:
   Domination Breaker:
+    id: 13529
     name: Domination Breaker
+    volume: 109000.0
   Domination Centurion:
+    id: 13534
     name: Domination Centurion
+    volume: 109000.0
   Domination Crusher:
+    id: 13523
     name: Domination Crusher
+    volume: 109000.0
   Domination Defeater:
+    id: 13530
     name: Domination Defeater
+    volume: 109000.0
   Domination Depredator:
+    id: 13520
     name: Domination Depredator
+    volume: 99000.0
   Domination Liquidator:
+    id: 13533
     name: Domination Liquidator
+    volume: 109000.0
   Domination Marauder:
+    id: 13531
     name: Domination Marauder
+    volume: 109000.0
   Domination Phalanx:
+    id: 13532
     name: Domination Phalanx
+    volume: 109000.0
   Domination Predator:
+    id: 13526
     name: Domination Predator
+    volume: 99000.0
   Domination Smasher:
+    id: 13524
     name: Domination Smasher
+    volume: 109000.0

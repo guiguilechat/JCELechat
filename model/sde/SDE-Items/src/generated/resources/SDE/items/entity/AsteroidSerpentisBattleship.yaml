@@ -1,21 +1,41 @@
 items:
   Serpentis Admiral:
+    id: 23452
     name: Serpentis Admiral
+    volume: 1140000.0
   Serpentis Baron:
+    id: 11921
     name: Serpentis Baron
+    volume: 1010000.0
   Serpentis Commodore:
+    id: 11922
     name: Serpentis Commodore
+    volume: 1140000.0
   Serpentis Flotilla Admiral:
+    id: 23450
     name: Serpentis Flotilla Admiral
+    volume: 1140000.0
   Serpentis Grand Admiral:
+    id: 23454
     name: Serpentis Grand Admiral
+    volume: 1140000.0
   Serpentis High Admiral:
+    id: 23453
     name: Serpentis High Admiral
+    volume: 1140000.0
   Serpentis Lord Admiral:
+    id: 23455
     name: Serpentis Lord Admiral
+    volume: 1140000.0
   Serpentis Port Admiral:
+    id: 11923
     name: Serpentis Port Admiral
+    volume: 1010000.0
   Serpentis Rear Admiral:
+    id: 11924
     name: Serpentis Rear Admiral
+    volume: 1140000.0
   Serpentis Vice Admiral:
+    id: 23451
     name: Serpentis Vice Admiral
+    volume: 1140000.0

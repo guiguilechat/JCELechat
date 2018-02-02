@@ -15,7 +15,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46641
     name: Standup XL-Set Reprocessing Monitor I
+    volume: 40.0
   Standup XL-Set Reprocessing Monitor II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -32,4 +34,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46642
     name: Standup XL-Set Reprocessing Monitor II
+    volume: 40.0

@@ -18,7 +18,9 @@ items:
     StructureRigBonus2: 4.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 37183
     name: Standup XL-Set Laboratory Optimization I
+    volume: 40.0
   Standup XL-Set Laboratory Optimization II:
     AttributeEngRigCostBonus: -12
     AttributeEngRigTimeBonus: -24
@@ -38,4 +40,6 @@ items:
     StructureRigBonus2: 3.200000047683716
     TechLevel: 2
     UpgradeCost: 150
+    id: 37182
     name: Standup XL-Set Laboratory Optimization II
+    volume: 40.0

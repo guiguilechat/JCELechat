@@ -2,16 +2,24 @@ items:
   Capital Tractor Beam I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 24645
     name: Capital Tractor Beam I Blueprint
+    volume: 0.01
   Capital Tractor Beam II Blueprint:
     IndustryBlueprintRank: 312.0
     TechLevel: 2
+    id: 4253
     name: Capital Tractor Beam II Blueprint
+    volume: 0.01
   Small Tractor Beam I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 24349
     name: Small Tractor Beam I Blueprint
+    volume: 0.01
   Small Tractor Beam II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 4251
     name: Small Tractor Beam II Blueprint
+    volume: 0.01

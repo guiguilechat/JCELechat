@@ -1,13 +1,25 @@
 items:
   CONCORD Starship:
+    id: 16615
     name: CONCORD Starship
+    volume: 1080000.0
   CONCORD Starship Vessel:
+    id: 33806
     name: CONCORD Starship Vessel
+    volume: 1080000.0
   CONCORD ship:
+    id: 16616
     name: CONCORD ship
+    volume: 1080000.0
   Concord Battleship:
+    id: 29228
     name: Concord Battleship
+    volume: 1080000.0
   DED Army Colonel:
+    id: 16116
     name: DED Army Colonel
+    volume: 1080000.0
   DED Army General:
+    id: 16117
     name: DED Army General
+    volume: 1080000.0

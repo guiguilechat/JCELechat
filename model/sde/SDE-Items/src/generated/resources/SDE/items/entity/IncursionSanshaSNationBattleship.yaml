@@ -1,21 +1,41 @@
 items:
   Citizen Astur:
+    id: 3484
     name: Citizen Astur
+    volume: 100100.0
   Deltole Tegmentum:
+    id: 2933
     name: Deltole Tegmentum
+    volume: 100100.0
   Intaki Colliculus:
+    id: 2855
     name: Intaki Colliculus
+    volume: 100100.0
   Ostingele Tectum:
+    id: 2932
     name: Ostingele Tectum
+    volume: 100100.0
   Outuni Mesen:
+    id: 2845
     name: Outuni Mesen
+    volume: 100100.0
   Slave 32152:
+    id: 3485
     name: Slave 32152
+    volume: 100100.0
   Slave Endoma01:
+    id: 3490
     name: Slave Endoma01
+    volume: 100100.0
   Slave Heavenbound02:
+    id: 3487
     name: Slave Heavenbound02
+    volume: 100100.0
   Slave Tama01:
+    id: 3486
     name: Slave Tama01
+    volume: 100100.0
   Yulai Crus Cerebi:
+    id: 2935
     name: Yulai Crus Cerebi
+    volume: 100100.0

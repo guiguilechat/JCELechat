@@ -7,7 +7,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31660
     name: Capital Projectile Ambit Extension I
+    volume: 40.0
   Capital Projectile Ambit Extension II:
     Drawback: 10
     FalloffBonus: 20.0
@@ -17,7 +19,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31666
     name: Capital Projectile Ambit Extension II
+    volume: 40.0
   Capital Projectile Burst Aerator I:
     Drawback: 10
     Hp: 40
@@ -25,7 +29,9 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     UpgradeCost: 200
+    id: 31672
     name: Capital Projectile Burst Aerator I
+    volume: 40.0
   Capital Projectile Burst Aerator II:
     Drawback: 10
     Hp: 40
@@ -34,7 +40,9 @@ items:
     SpeedMultiplier: 0.8500000238418579
     TechLevel: 2
     UpgradeCost: 300
+    id: 31678
     name: Capital Projectile Burst Aerator II
+    volume: 40.0
   Capital Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -43,7 +51,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 200
+    id: 31684
     name: Capital Projectile Collision Accelerator I
+    volume: 40.0
   Capital Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -53,7 +63,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 300
+    id: 31690
     name: Capital Projectile Collision Accelerator II
+    volume: 40.0
   Capital Projectile Locus Coordinator I:
     Drawback: 10
     Hp: 40
@@ -62,7 +74,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 31696
     name: Capital Projectile Locus Coordinator I
+    volume: 40.0
   Capital Projectile Locus Coordinator II:
     Drawback: 10
     Hp: 40
@@ -72,7 +86,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 150
+    id: 31702
     name: Capital Projectile Locus Coordinator II
+    volume: 40.0
   Capital Projectile Metastasis Adjuster I:
     Drawback: 10
     Hp: 40
@@ -82,7 +98,9 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31708
     name: Capital Projectile Metastasis Adjuster I
+    volume: 40.0
   Capital Projectile Metastasis Adjuster II:
     Drawback: 10
     Hp: 40
@@ -93,7 +111,9 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31714
     name: Capital Projectile Metastasis Adjuster II
+    volume: 40.0
   Large Projectile Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -103,7 +123,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 26038
     name: Large Projectile Ambit Extension I
+    volume: 20.0
   Large Projectile Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -114,7 +136,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 26428
     name: Large Projectile Ambit Extension II
+    volume: 20.0
   Large Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -124,7 +148,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 26046
     name: Large Projectile Burst Aerator I
+    volume: 20.0
   Large Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -135,7 +161,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 26430
     name: Large Projectile Burst Aerator II
+    volume: 20.0
   Large Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -145,7 +173,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 26048
     name: Large Projectile Collision Accelerator I
+    volume: 20.0
   Large Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -156,7 +186,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 26424
     name: Large Projectile Collision Accelerator II
+    volume: 20.0
   Large Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -167,7 +199,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 26040
     name: Large Projectile Locus Coordinator I
+    volume: 20.0
   Large Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -179,7 +213,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 26432
     name: Large Projectile Locus Coordinator II
+    volume: 20.0
   Large Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -190,7 +226,9 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 26042
     name: Large Projectile Metastasis Adjuster I
+    volume: 20.0
   Large Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -202,7 +240,9 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 26434
     name: Large Projectile Metastasis Adjuster II
+    volume: 20.0
   Medium Projectile Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -213,7 +253,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31658
     name: Medium Projectile Ambit Extension I
+    volume: 10.0
   Medium Projectile Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -225,7 +267,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31664
     name: Medium Projectile Ambit Extension II
+    volume: 10.0
   Medium Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -235,7 +279,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 31670
     name: Medium Projectile Burst Aerator I
+    volume: 10.0
   Medium Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -246,7 +292,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 31676
     name: Medium Projectile Burst Aerator II
+    volume: 10.0
   Medium Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -256,7 +304,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 31682
     name: Medium Projectile Collision Accelerator I
+    volume: 10.0
   Medium Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -267,7 +317,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 31688
     name: Medium Projectile Collision Accelerator II
+    volume: 10.0
   Medium Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -278,7 +330,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31694
     name: Medium Projectile Locus Coordinator I
+    volume: 10.0
   Medium Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -290,7 +344,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31700
     name: Medium Projectile Locus Coordinator II
+    volume: 10.0
   Medium Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -301,7 +357,9 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31706
     name: Medium Projectile Metastasis Adjuster I
+    volume: 10.0
   Medium Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -313,7 +371,9 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31712
     name: Medium Projectile Metastasis Adjuster II
+    volume: 10.0
   Projectile Cache Distributor I:
     Drawback: 10
     Hp: 40
@@ -321,7 +381,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 100
+    id: 26036
     name: Projectile Cache Distributor I
+    volume: 5.0
   Projectile Cache Distributor II:
     Drawback: 10
     Hp: 40
@@ -330,7 +392,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 200
+    id: 26422
     name: Projectile Cache Distributor II
+    volume: 5.0
   Projectile Consumption Elutriator I:
     CpuNeedBonus: -10
     Drawback: 10
@@ -339,7 +403,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 26044
     name: Projectile Consumption Elutriator I
+    volume: 5.0
   Projectile Consumption Elutriator II:
     CpuNeedBonus: -15
     Drawback: 10
@@ -349,7 +415,9 @@ items:
     SpeedMultiplier: 1.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 26426
     name: Projectile Consumption Elutriator II
+    volume: 5.0
   Small Projectile Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -360,7 +428,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31656
     name: Small Projectile Ambit Extension I
+    volume: 5.0
   Small Projectile Ambit Extension II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -372,7 +442,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31662
     name: Small Projectile Ambit Extension II
+    volume: 5.0
   Small Projectile Burst Aerator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -382,7 +454,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 31668
     name: Small Projectile Burst Aerator I
+    volume: 5.0
   Small Projectile Burst Aerator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -393,7 +467,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 31674
     name: Small Projectile Burst Aerator II
+    volume: 5.0
   Small Projectile Collision Accelerator I:
     DamageMultiplier: 1.100000023841858
     Drawback: 10
@@ -403,7 +479,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
+    id: 31680
     name: Small Projectile Collision Accelerator I
+    volume: 5.0
   Small Projectile Collision Accelerator II:
     DamageMultiplier: 1.149999976158142
     Drawback: 10
@@ -414,7 +492,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
+    id: 31686
     name: Small Projectile Collision Accelerator II
+    volume: 5.0
   Small Projectile Locus Coordinator I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -425,7 +505,9 @@ items:
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31692
     name: Small Projectile Locus Coordinator I
+    volume: 5.0
   Small Projectile Locus Coordinator II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -437,7 +519,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31698
     name: Small Projectile Locus Coordinator II
+    volume: 5.0
   Small Projectile Metastasis Adjuster I:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -448,7 +532,9 @@ items:
     TrackingSpeedBonus: 15.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
+    id: 31704
     name: Small Projectile Metastasis Adjuster I
+    volume: 5.0
   Small Projectile Metastasis Adjuster II:
     DamageMultiplier: 1.0
     Drawback: 10
@@ -460,4 +546,6 @@ items:
     TrackingSpeedBonus: 20.0
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
+    id: 31710
     name: Small Projectile Metastasis Adjuster II
+    volume: 5.0

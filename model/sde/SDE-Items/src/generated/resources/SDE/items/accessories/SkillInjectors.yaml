@@ -1,16 +1,26 @@
 items:
   Daily Alpha Injector:
     ContainedSkillPoints: 50000
+    id: 46375
     name: Daily Alpha Injector
+    volume: 0.01
   Large Skill Injector:
+    id: 40520
     name: Large Skill Injector
+    volume: 0.01
   Mini Skill Injector:
     ContainedSkillPoints: 25000
     MaxCharacterSkillPointLimit: 1500000
+    id: 43630
     name: Mini Skill Injector
+    volume: 0.01
   QA Skill Injector:
     ContainedSkillPoints: 150000
     MaxCharacterSkillPointLimit: 5000000
+    id: 42523
     name: QA Skill Injector
+    volume: 0.01
   Small Skill Injector:
+    id: 45635
     name: Small Skill Injector
+    volume: 0.002

@@ -25,7 +25,9 @@ items:
     TechLevel: 2
     ThermalDamage: 405.0
     ThermalDamageResonance: 0.800000011920929
+    id: 24525
     name: Inferno Javelin Torpedo
+    volume: 0.05
   Inferno Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -51,7 +53,9 @@ items:
     TechLevel: 2
     ThermalDamage: 608.0
     ThermalDamageResonance: 0.800000011920929
+    id: 2811
     name: Inferno Rage Torpedo
+    volume: 0.05
   Mjolnir Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -78,7 +82,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24527
     name: Mjolnir Javelin Torpedo
+    volume: 0.05
   Mjolnir Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -104,7 +110,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24523
     name: Mjolnir Rage Torpedo
+    volume: 0.05
   Nova Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -131,7 +139,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 2801
     name: Nova Javelin Torpedo
+    volume: 0.05
   Nova Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -157,7 +167,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24519
     name: Nova Rage Torpedo
+    volume: 0.05
   Scourge Javelin Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -184,7 +196,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24529
     name: Scourge Javelin Torpedo
+    volume: 0.05
   Scourge Rage Torpedo:
     Agility: 5.220125675201416
     AoeCloudSize: 774
@@ -210,4 +224,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24521
     name: Scourge Rage Torpedo
+    volume: 0.05

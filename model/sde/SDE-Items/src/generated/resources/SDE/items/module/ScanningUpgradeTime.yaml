@@ -9,7 +9,9 @@ items:
     RequiredSkill1Level: 2
     ScanDurationBonus: -10
     TechLevel: 1
+    id: 33176
     name: Scan Acquisition Array I
+    volume: 5.0
   Scan Acquisition Array II:
     Cpu: 30.0
     Hp: 40
@@ -21,4 +23,6 @@ items:
     RequiredSkill1Level: 5
     ScanDurationBonus: -20
     TechLevel: 2
+    id: 33197
     name: Scan Acquisition Array II
+    volume: 5.0

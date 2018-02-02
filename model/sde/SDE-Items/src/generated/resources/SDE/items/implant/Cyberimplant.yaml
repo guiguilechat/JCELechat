@@ -30,7 +30,9 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 24343
     name: Aurora Alpha
+    volume: 1.0
   Aurora Beta:
     FollowsJumpClones: 1
     ImplantSetAngel: 1.0
@@ -60,7 +62,9 @@ items:
     ShieldBoostMultiplier: 10.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 24347
     name: Aurora Beta
+    volume: 1.0
   Aurora Delta:
     FollowsJumpClones: 1
     ImplantSetAngel: 1.0
@@ -92,7 +96,9 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 24344
     name: Aurora Delta
+    volume: 1.0
   Aurora Epsilon:
     ArmorHpBonus: 40
     FollowsJumpClones: 1
@@ -121,7 +127,9 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 24346
     name: Aurora Epsilon
+    volume: 1.0
   Aurora Gamma:
     DisallowOffensiveModifierBonus: 1
     FollowsJumpClones: 1
@@ -150,7 +158,9 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 24485
     name: Aurora Gamma
+    volume: 1.0
   Aurora Omega:
     CpuOutputBonus2: 6.0
     FollowsJumpClones: 1
@@ -186,7 +196,9 @@ items:
     ScanRadarStrengthPercent: 50
     TechLevel: 2
     TrackingSpeedMultiplier: 1.25
+    id: 24345
     name: Aurora Omega
+    volume: 1.0
   High-grade Ascendancy Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -212,7 +224,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
+    id: 33516
     name: High-grade Ascendancy Alpha
+    volume: 1.0
   High-grade Ascendancy Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -238,7 +252,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
+    id: 33525
     name: High-grade Ascendancy Beta
+    volume: 1.0
   High-grade Ascendancy Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -264,7 +280,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
+    id: 33526
     name: High-grade Ascendancy Delta
+    volume: 1.0
   High-grade Ascendancy Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -290,7 +308,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
+    id: 33527
     name: High-grade Ascendancy Epsilon
+    volume: 1.0
   High-grade Ascendancy Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -316,7 +336,9 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 4
+    id: 33528
     name: High-grade Ascendancy Gamma
+    volume: 1.0
   High-grade Ascendancy Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -340,7 +362,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33529
     name: High-grade Ascendancy Omega
+    volume: 1.0
   High-grade Asklepian Alpha:
     ArmorRepairBonus: 1
     ImplantSetAngel: 1.0
@@ -367,7 +391,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42210
     name: High-grade Asklepian Alpha
+    volume: 1.0
   High-grade Asklepian Beta:
     ArmorRepairBonus: 2
     ImplantSetAngel: 1.0
@@ -394,7 +420,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42211
     name: High-grade Asklepian Beta
+    volume: 1.0
   High-grade Asklepian Delta:
     ArmorRepairBonus: 4
     ImplantSetAngel: 1.0
@@ -421,7 +449,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42213
     name: High-grade Asklepian Delta
+    volume: 1.0
   High-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 4
@@ -448,7 +478,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42214
     name: High-grade Asklepian Epsilon
+    volume: 1.0
   High-grade Asklepian Gamma:
     ArmorRepairBonus: 3
     ImplantSetAngel: 1.0
@@ -475,7 +507,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 42212
     name: High-grade Asklepian Gamma
+    volume: 1.0
   High-grade Asklepian Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -500,7 +534,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42215
     name: High-grade Asklepian Omega
+    volume: 1.0
   High-grade Crystal Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -526,7 +562,9 @@ items:
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20121
     name: High-grade Crystal Alpha
+    volume: 1.0
   High-grade Crystal Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -552,7 +590,9 @@ items:
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20157
     name: High-grade Crystal Beta
+    volume: 1.0
   High-grade Crystal Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -578,7 +618,9 @@ items:
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20159
     name: High-grade Crystal Delta
+    volume: 1.0
   High-grade Crystal Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -604,7 +646,9 @@ items:
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20160
     name: High-grade Crystal Epsilon
+    volume: 1.0
   High-grade Crystal Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -630,7 +674,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 20158
     name: High-grade Crystal Gamma
+    volume: 1.0
   High-grade Crystal Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -654,7 +700,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20161
     name: High-grade Crystal Omega
+    volume: 1.0
   High-grade Grail Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -680,7 +728,9 @@ items:
     ScanRadarStrengthPercent: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31954
     name: High-grade Grail Alpha
+    volume: 1.0
   High-grade Grail Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -706,7 +756,9 @@ items:
     ScanRadarStrengthPercent: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31955
     name: High-grade Grail Beta
+    volume: 1.0
   High-grade Grail Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -732,7 +784,9 @@ items:
     ScanRadarStrengthPercent: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31956
     name: High-grade Grail Delta
+    volume: 1.0
   High-grade Grail Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -758,7 +812,9 @@ items:
     ScanRadarStrengthPercent: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31957
     name: High-grade Grail Epsilon
+    volume: 1.0
   High-grade Grail Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -784,7 +840,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 31958
     name: High-grade Grail Gamma
+    volume: 1.0
   High-grade Grail Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -808,7 +866,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31959
     name: High-grade Grail Omega
+    volume: 1.0
   High-grade Halo Alpha:
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
@@ -834,7 +894,9 @@ items:
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20498
     name: High-grade Halo Alpha
+    volume: 1.0
   High-grade Halo Beta:
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
@@ -860,7 +922,9 @@ items:
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20500
     name: High-grade Halo Beta
+    volume: 1.0
   High-grade Halo Delta:
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
@@ -886,7 +950,9 @@ items:
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20502
     name: High-grade Halo Delta
+    volume: 1.0
   High-grade Halo Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.149999976158142
@@ -912,7 +978,9 @@ items:
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20504
     name: High-grade Halo Epsilon
+    volume: 1.0
   High-grade Halo Gamma:
     ImplantSetAngel: 1.149999976158142
     ImplantSetBloodraider: 2.0
@@ -938,7 +1006,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 20506
     name: High-grade Halo Gamma
+    volume: 1.0
   High-grade Halo Omega:
     ImplantSetAngel: 1.5
     ImplantSetBloodraider: 2.0
@@ -962,7 +1032,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20508
     name: High-grade Halo Omega
+    volume: 1.0
   High-grade Jackal Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -988,7 +1060,9 @@ items:
     ScanLadarStrengthPercent: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31974
     name: High-grade Jackal Alpha
+    volume: 1.0
   High-grade Jackal Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1014,7 +1088,9 @@ items:
     ScanLadarStrengthPercent: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31975
     name: High-grade Jackal Beta
+    volume: 1.0
   High-grade Jackal Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1040,7 +1116,9 @@ items:
     ScanLadarStrengthPercent: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31976
     name: High-grade Jackal Delta
+    volume: 1.0
   High-grade Jackal Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -1066,7 +1144,9 @@ items:
     ScanLadarStrengthPercent: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31977
     name: High-grade Jackal Epsilon
+    volume: 1.0
   High-grade Jackal Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1092,7 +1172,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 31978
     name: High-grade Jackal Gamma
+    volume: 1.0
   High-grade Jackal Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1116,7 +1198,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31979
     name: High-grade Jackal Omega
+    volume: 1.0
   High-grade Slave Alpha:
     ArmorHpBonus: 1
     ImplantSetAngel: 1.0
@@ -1143,7 +1227,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20499
     name: High-grade Slave Alpha
+    volume: 1.0
   High-grade Slave Beta:
     ArmorHpBonus: 2
     ImplantSetAngel: 1.0
@@ -1170,7 +1256,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20501
     name: High-grade Slave Beta
+    volume: 1.0
   High-grade Slave Delta:
     ArmorHpBonus: 4
     ImplantSetAngel: 1.0
@@ -1197,7 +1285,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20503
     name: High-grade Slave Delta
+    volume: 1.0
   High-grade Slave Epsilon:
     ArmorHpBonus: 5
     CharismaBonus: 4
@@ -1224,7 +1314,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20505
     name: High-grade Slave Epsilon
+    volume: 1.0
   High-grade Slave Gamma:
     ArmorHpBonus: 3
     ImplantSetAngel: 1.0
@@ -1251,7 +1343,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 20507
     name: High-grade Slave Gamma
+    volume: 1.0
   High-grade Slave Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1276,7 +1370,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 20509
     name: High-grade Slave Omega
+    volume: 1.0
   High-grade Snake Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1304,7 +1400,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
+    id: 19540
     name: High-grade Snake Alpha
+    volume: 1.0
   High-grade Snake Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1332,7 +1430,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
+    id: 19551
     name: High-grade Snake Beta
+    volume: 1.0
   High-grade Snake Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1360,7 +1460,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
+    id: 19554
     name: High-grade Snake Delta
+    volume: 1.0
   High-grade Snake Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -1388,7 +1490,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
+    id: 19555
     name: High-grade Snake Epsilon
+    volume: 1.0
   High-grade Snake Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1416,7 +1520,9 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 4
+    id: 19553
     name: High-grade Snake Gamma
+    volume: 1.0
   High-grade Snake Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1441,7 +1547,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19556
     name: High-grade Snake Omega
+    volume: 1.0
   High-grade Spur Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1467,7 +1575,9 @@ items:
     ScanMagnetometricStrengthPercent: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31968
     name: High-grade Spur Alpha
+    volume: 1.0
   High-grade Spur Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1493,7 +1603,9 @@ items:
     ScanMagnetometricStrengthPercent: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31969
     name: High-grade Spur Beta
+    volume: 1.0
   High-grade Spur Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1519,7 +1631,9 @@ items:
     ScanMagnetometricStrengthPercent: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31970
     name: High-grade Spur Delta
+    volume: 1.0
   High-grade Spur Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -1545,7 +1659,9 @@ items:
     ScanMagnetometricStrengthPercent: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31971
     name: High-grade Spur Epsilon
+    volume: 1.0
   High-grade Spur Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1571,7 +1687,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 31972
     name: High-grade Spur Gamma
+    volume: 1.0
   High-grade Spur Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1595,7 +1713,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31973
     name: High-grade Spur Omega
+    volume: 1.0
   High-grade Talisman Alpha:
     DurationBonus: -1
     ImplantSetAngel: 1.0
@@ -1621,7 +1741,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19534
     name: High-grade Talisman Alpha
+    volume: 1.0
   High-grade Talisman Beta:
     DurationBonus: -2
     ImplantSetAngel: 1.0
@@ -1647,7 +1769,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19535
     name: High-grade Talisman Beta
+    volume: 1.0
   High-grade Talisman Delta:
     DurationBonus: -4
     ImplantSetAngel: 1.0
@@ -1673,7 +1797,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19537
     name: High-grade Talisman Delta
+    volume: 1.0
   High-grade Talisman Epsilon:
     CharismaBonus: 4
     DurationBonus: -5
@@ -1699,7 +1825,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19538
     name: High-grade Talisman Epsilon
+    volume: 1.0
   High-grade Talisman Gamma:
     DurationBonus: -3
     ImplantSetAngel: 1.0
@@ -1725,7 +1853,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 19536
     name: High-grade Talisman Gamma
+    volume: 1.0
   High-grade Talisman Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.5
@@ -1749,7 +1879,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 19539
     name: High-grade Talisman Omega
+    volume: 1.0
   High-grade Talon Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1775,7 +1907,9 @@ items:
     ScanGravimetricStrengthPercent: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31962
     name: High-grade Talon Alpha
+    volume: 1.0
   High-grade Talon Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1801,7 +1935,9 @@ items:
     ScanGravimetricStrengthPercent: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31963
     name: High-grade Talon Beta
+    volume: 1.0
   High-grade Talon Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1827,7 +1963,9 @@ items:
     ScanGravimetricStrengthPercent: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31964
     name: High-grade Talon Delta
+    volume: 1.0
   High-grade Talon Epsilon:
     CharismaBonus: 4
     ImplantSetAngel: 1.0
@@ -1853,7 +1991,9 @@ items:
     ScanGravimetricStrengthPercent: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31965
     name: High-grade Talon Epsilon
+    volume: 1.0
   High-grade Talon Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1879,7 +2019,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
+    id: 31966
     name: High-grade Talon Gamma
+    volume: 1.0
   High-grade Talon Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -1903,7 +2045,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 31967
     name: High-grade Talon Omega
+    volume: 1.0
   Low-grade Asklepian Alpha:
     ArmorRepairBonus: 1
     ImplantSetAngel: 1.0
@@ -1930,7 +2074,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42145
     name: Low-grade Asklepian Alpha
+    volume: 1.0
   Low-grade Asklepian Beta:
     ArmorRepairBonus: 2
     ImplantSetAngel: 1.0
@@ -1957,7 +2103,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42146
     name: Low-grade Asklepian Beta
+    volume: 1.0
   Low-grade Asklepian Delta:
     ArmorRepairBonus: 4
     ImplantSetAngel: 1.0
@@ -1984,7 +2132,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42200
     name: Low-grade Asklepian Delta
+    volume: 1.0
   Low-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 2
@@ -2011,7 +2161,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42201
     name: Low-grade Asklepian Epsilon
+    volume: 1.0
   Low-grade Asklepian Gamma:
     ArmorRepairBonus: 3
     ImplantSetAngel: 1.0
@@ -2038,7 +2190,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 42202
     name: Low-grade Asklepian Gamma
+    volume: 1.0
   Low-grade Asklepian Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2063,7 +2217,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42203
     name: Low-grade Asklepian Omega
+    volume: 1.0
   Low-grade Centurion Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2089,7 +2245,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33917
     name: Low-grade Centurion Alpha
+    volume: 1.0
   Low-grade Centurion Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2115,7 +2273,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33918
     name: Low-grade Centurion Beta
+    volume: 1.0
   Low-grade Centurion Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2141,7 +2301,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33919
     name: Low-grade Centurion Delta
+    volume: 1.0
   Low-grade Centurion Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -2167,7 +2329,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33920
     name: Low-grade Centurion Epsilon
+    volume: 1.0
   Low-grade Centurion Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2193,7 +2357,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33921
     name: Low-grade Centurion Gamma
+    volume: 1.0
   Low-grade Centurion Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2217,7 +2383,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33922
     name: Low-grade Centurion Omega
+    volume: 1.0
   Low-grade Crystal Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2243,7 +2411,9 @@ items:
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33923
     name: Low-grade Crystal Alpha
+    volume: 1.0
   Low-grade Crystal Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2269,7 +2439,9 @@ items:
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33924
     name: Low-grade Crystal Beta
+    volume: 1.0
   Low-grade Crystal Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2295,7 +2467,9 @@ items:
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33925
     name: Low-grade Crystal Delta
+    volume: 1.0
   Low-grade Crystal Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -2321,7 +2495,9 @@ items:
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33926
     name: Low-grade Crystal Epsilon
+    volume: 1.0
   Low-grade Crystal Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2347,7 +2523,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33927
     name: Low-grade Crystal Gamma
+    volume: 1.0
   Low-grade Crystal Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2371,7 +2549,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33928
     name: Low-grade Crystal Omega
+    volume: 1.0
   Low-grade Edge Alpha:
     BoosterAttributeModifier: -1
     ImplantSetAngel: 1.0
@@ -2397,7 +2577,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33929
     name: Low-grade Edge Alpha
+    volume: 1.0
   Low-grade Edge Beta:
     BoosterAttributeModifier: -2
     ImplantSetAngel: 1.0
@@ -2423,7 +2605,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33930
     name: Low-grade Edge Beta
+    volume: 1.0
   Low-grade Edge Delta:
     BoosterAttributeModifier: -4
     ImplantSetAngel: 1.0
@@ -2449,7 +2633,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33931
     name: Low-grade Edge Delta
+    volume: 1.0
   Low-grade Edge Epsilon:
     BoosterAttributeModifier: -5
     CharismaBonus: 2
@@ -2475,7 +2661,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33932
     name: Low-grade Edge Epsilon
+    volume: 1.0
   Low-grade Edge Gamma:
     BoosterAttributeModifier: -3
     ImplantSetAngel: 1.0
@@ -2501,7 +2689,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33933
     name: Low-grade Edge Gamma
+    volume: 1.0
   Low-grade Edge Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2525,7 +2715,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33934
     name: Low-grade Edge Omega
+    volume: 1.0
   Low-grade Grail Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2551,7 +2743,9 @@ items:
     ScanRadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32101
     name: Low-grade Grail Alpha
+    volume: 1.0
   Low-grade Grail Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2577,7 +2771,9 @@ items:
     ScanRadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32102
     name: Low-grade Grail Beta
+    volume: 1.0
   Low-grade Grail Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2603,7 +2799,9 @@ items:
     ScanRadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32103
     name: Low-grade Grail Delta
+    volume: 1.0
   Low-grade Grail Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -2629,7 +2827,9 @@ items:
     ScanRadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32104
     name: Low-grade Grail Epsilon
+    volume: 1.0
   Low-grade Grail Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2655,7 +2855,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 32105
     name: Low-grade Grail Gamma
+    volume: 1.0
   Low-grade Grail Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2679,7 +2881,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32122
     name: Low-grade Grail Omega
+    volume: 1.0
   Low-grade Halo Alpha:
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
@@ -2705,7 +2909,9 @@ items:
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33935
     name: Low-grade Halo Alpha
+    volume: 1.0
   Low-grade Halo Beta:
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
@@ -2731,7 +2937,9 @@ items:
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33936
     name: Low-grade Halo Beta
+    volume: 1.0
   Low-grade Halo Delta:
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
@@ -2757,7 +2965,9 @@ items:
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33937
     name: Low-grade Halo Delta
+    volume: 1.0
   Low-grade Halo Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.024999976158142
@@ -2783,7 +2993,9 @@ items:
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33938
     name: Low-grade Halo Epsilon
+    volume: 1.0
   Low-grade Halo Gamma:
     ImplantSetAngel: 1.024999976158142
     ImplantSetBloodraider: 2.0
@@ -2809,7 +3021,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33939
     name: Low-grade Halo Gamma
+    volume: 1.0
   Low-grade Halo Omega:
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
@@ -2833,7 +3047,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33940
     name: Low-grade Halo Omega
+    volume: 1.0
   Low-grade Harvest Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2859,7 +3075,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33941
     name: Low-grade Harvest Alpha
+    volume: 1.0
   Low-grade Harvest Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2885,7 +3103,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33942
     name: Low-grade Harvest Beta
+    volume: 1.0
   Low-grade Harvest Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2911,7 +3131,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33943
     name: Low-grade Harvest Delta
+    volume: 1.0
   Low-grade Harvest Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -2937,7 +3159,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33944
     name: Low-grade Harvest Epsilon
+    volume: 1.0
   Low-grade Harvest Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2963,7 +3187,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33945
     name: Low-grade Harvest Gamma
+    volume: 1.0
   Low-grade Harvest Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -2987,7 +3213,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33946
     name: Low-grade Harvest Omega
+    volume: 1.0
   Low-grade Jackal Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3013,7 +3241,9 @@ items:
     ScanLadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32117
     name: Low-grade Jackal Alpha
+    volume: 1.0
   Low-grade Jackal Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3039,7 +3269,9 @@ items:
     ScanLadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32118
     name: Low-grade Jackal Beta
+    volume: 1.0
   Low-grade Jackal Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3065,7 +3297,9 @@ items:
     ScanLadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32119
     name: Low-grade Jackal Delta
+    volume: 1.0
   Low-grade Jackal Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -3091,7 +3325,9 @@ items:
     ScanLadarStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32120
     name: Low-grade Jackal Epsilon
+    volume: 1.0
   Low-grade Jackal Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3117,7 +3353,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 32121
     name: Low-grade Jackal Gamma
+    volume: 1.0
   Low-grade Jackal Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3141,7 +3379,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32123
     name: Low-grade Jackal Omega
+    volume: 1.0
   Low-grade Nomad Alpha:
     AgilityBonus: -1.0
     ImplantSetAngel: 1.0
@@ -3167,7 +3407,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33947
     name: Low-grade Nomad Alpha
+    volume: 1.0
   Low-grade Nomad Beta:
     AgilityBonus: -2.0
     ImplantSetAngel: 1.0
@@ -3193,7 +3435,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33948
     name: Low-grade Nomad Beta
+    volume: 1.0
   Low-grade Nomad Delta:
     AgilityBonus: -4.0
     ImplantSetAngel: 1.0
@@ -3219,7 +3463,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33949
     name: Low-grade Nomad Delta
+    volume: 1.0
   Low-grade Nomad Epsilon:
     AgilityBonus: -5.0
     CharismaBonus: 2
@@ -3245,7 +3491,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33950
     name: Low-grade Nomad Epsilon
+    volume: 1.0
   Low-grade Nomad Gamma:
     AgilityBonus: -3.0
     ImplantSetAngel: 1.0
@@ -3271,7 +3519,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33951
     name: Low-grade Nomad Gamma
+    volume: 1.0
   Low-grade Nomad Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3295,7 +3545,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33952
     name: Low-grade Nomad Omega
+    volume: 1.0
   Low-grade Slave Alpha:
     ArmorHpBonus: 1
     ImplantSetAngel: 1.0
@@ -3322,7 +3574,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33953
     name: Low-grade Slave Alpha
+    volume: 1.0
   Low-grade Slave Beta:
     ArmorHpBonus: 2
     ImplantSetAngel: 1.0
@@ -3349,7 +3603,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33954
     name: Low-grade Slave Beta
+    volume: 1.0
   Low-grade Slave Delta:
     ArmorHpBonus: 4
     ImplantSetAngel: 1.0
@@ -3376,7 +3632,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33955
     name: Low-grade Slave Delta
+    volume: 1.0
   Low-grade Slave Epsilon:
     ArmorHpBonus: 5
     CharismaBonus: 2
@@ -3403,7 +3661,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33956
     name: Low-grade Slave Epsilon
+    volume: 1.0
   Low-grade Slave Gamma:
     ArmorHpBonus: 3
     ImplantSetAngel: 1.0
@@ -3430,7 +3690,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33957
     name: Low-grade Slave Gamma
+    volume: 1.0
   Low-grade Slave Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3455,7 +3717,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33958
     name: Low-grade Slave Omega
+    volume: 1.0
   Low-grade Snake Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3483,7 +3747,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
+    id: 33959
     name: Low-grade Snake Alpha
+    volume: 1.0
   Low-grade Snake Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3511,7 +3777,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
+    id: 33960
     name: Low-grade Snake Beta
+    volume: 1.0
   Low-grade Snake Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3539,7 +3807,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
+    id: 33961
     name: Low-grade Snake Delta
+    volume: 1.0
   Low-grade Snake Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -3567,7 +3837,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
+    id: 33962
     name: Low-grade Snake Epsilon
+    volume: 1.0
   Low-grade Snake Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3595,7 +3867,9 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 2
+    id: 33963
     name: Low-grade Snake Gamma
+    volume: 1.0
   Low-grade Snake Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3620,7 +3894,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33964
     name: Low-grade Snake Omega
+    volume: 1.0
   Low-grade Spur Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3646,7 +3922,9 @@ items:
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32107
     name: Low-grade Spur Alpha
+    volume: 1.0
   Low-grade Spur Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3672,7 +3950,9 @@ items:
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32108
     name: Low-grade Spur Beta
+    volume: 1.0
   Low-grade Spur Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3698,7 +3978,9 @@ items:
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32109
     name: Low-grade Spur Delta
+    volume: 1.0
   Low-grade Spur Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -3724,7 +4006,9 @@ items:
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32110
     name: Low-grade Spur Epsilon
+    volume: 1.0
   Low-grade Spur Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3750,7 +4034,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 32111
     name: Low-grade Spur Gamma
+    volume: 1.0
   Low-grade Spur Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3774,7 +4060,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32124
     name: Low-grade Spur Omega
+    volume: 1.0
   Low-grade Talisman Alpha:
     DurationBonus: -1
     ImplantSetAngel: 1.0
@@ -3800,7 +4088,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33965
     name: Low-grade Talisman Alpha
+    volume: 1.0
   Low-grade Talisman Beta:
     DurationBonus: -2
     ImplantSetAngel: 1.0
@@ -3826,7 +4116,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33966
     name: Low-grade Talisman Beta
+    volume: 1.0
   Low-grade Talisman Delta:
     DurationBonus: -4
     ImplantSetAngel: 1.0
@@ -3852,7 +4144,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33967
     name: Low-grade Talisman Delta
+    volume: 1.0
   Low-grade Talisman Epsilon:
     CharismaBonus: 2
     DurationBonus: -5
@@ -3878,7 +4172,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33968
     name: Low-grade Talisman Epsilon
+    volume: 1.0
   Low-grade Talisman Gamma:
     DurationBonus: -3
     ImplantSetAngel: 1.0
@@ -3904,7 +4200,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33969
     name: Low-grade Talisman Gamma
+    volume: 1.0
   Low-grade Talisman Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.100000023841858
@@ -3928,7 +4226,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33970
     name: Low-grade Talisman Omega
+    volume: 1.0
   Low-grade Talon Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3954,7 +4254,9 @@ items:
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32112
     name: Low-grade Talon Alpha
+    volume: 1.0
   Low-grade Talon Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -3980,7 +4282,9 @@ items:
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32113
     name: Low-grade Talon Beta
+    volume: 1.0
   Low-grade Talon Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4006,7 +4310,9 @@ items:
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32114
     name: Low-grade Talon Delta
+    volume: 1.0
   Low-grade Talon Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -4032,7 +4338,9 @@ items:
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32115
     name: Low-grade Talon Epsilon
+    volume: 1.0
   Low-grade Talon Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4058,7 +4366,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 32116
     name: Low-grade Talon Gamma
+    volume: 1.0
   Low-grade Talon Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4082,7 +4392,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 32125
     name: Low-grade Talon Omega
+    volume: 1.0
   Low-grade Virtue Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4108,7 +4420,9 @@ items:
     ScanStrengthBonus: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33971
     name: Low-grade Virtue Alpha
+    volume: 1.0
   Low-grade Virtue Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4134,7 +4448,9 @@ items:
     ScanStrengthBonus: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33972
     name: Low-grade Virtue Beta
+    volume: 1.0
   Low-grade Virtue Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4160,7 +4476,9 @@ items:
     ScanStrengthBonus: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33973
     name: Low-grade Virtue Delta
+    volume: 1.0
   Low-grade Virtue Epsilon:
     CharismaBonus: 2
     ImplantSetAngel: 1.0
@@ -4186,7 +4504,9 @@ items:
     ScanStrengthBonus: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33974
     name: Low-grade Virtue Epsilon
+    volume: 1.0
   Low-grade Virtue Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4212,7 +4532,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
+    id: 33975
     name: Low-grade Virtue Gamma
+    volume: 1.0
   Low-grade Virtue Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4236,7 +4558,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33976
     name: Low-grade Virtue Omega
+    volume: 1.0
   Mid-grade Ascendancy Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4262,7 +4586,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
+    id: 33555
     name: Mid-grade Ascendancy Alpha
+    volume: 1.0
   Mid-grade Ascendancy Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4288,7 +4614,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
+    id: 33557
     name: Mid-grade Ascendancy Beta
+    volume: 1.0
   Mid-grade Ascendancy Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4314,7 +4642,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
+    id: 33559
     name: Mid-grade Ascendancy Delta
+    volume: 1.0
   Mid-grade Ascendancy Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -4340,7 +4670,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
+    id: 33561
     name: Mid-grade Ascendancy Epsilon
+    volume: 1.0
   Mid-grade Ascendancy Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4366,7 +4698,9 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 3
+    id: 33563
     name: Mid-grade Ascendancy Gamma
+    volume: 1.0
   Mid-grade Ascendancy Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4390,7 +4724,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 33565
     name: Mid-grade Ascendancy Omega
+    volume: 1.0
   Mid-grade Asklepian Alpha:
     ArmorRepairBonus: 1
     ImplantSetAngel: 1.0
@@ -4417,7 +4753,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42204
     name: Mid-grade Asklepian Alpha
+    volume: 1.0
   Mid-grade Asklepian Beta:
     ArmorRepairBonus: 2
     ImplantSetAngel: 1.0
@@ -4444,7 +4782,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42205
     name: Mid-grade Asklepian Beta
+    volume: 1.0
   Mid-grade Asklepian Delta:
     ArmorRepairBonus: 4
     ImplantSetAngel: 1.0
@@ -4471,7 +4811,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42207
     name: Mid-grade Asklepian Delta
+    volume: 1.0
   Mid-grade Asklepian Epsilon:
     ArmorRepairBonus: 5
     CharismaBonus: 3
@@ -4498,7 +4840,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42208
     name: Mid-grade Asklepian Epsilon
+    volume: 1.0
   Mid-grade Asklepian Gamma:
     ArmorRepairBonus: 3
     ImplantSetAngel: 1.0
@@ -4525,7 +4869,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 42206
     name: Mid-grade Asklepian Gamma
+    volume: 1.0
   Mid-grade Asklepian Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4550,7 +4896,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 42209
     name: Mid-grade Asklepian Omega
+    volume: 1.0
   Mid-grade Centurion Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4576,7 +4924,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28790
     name: Mid-grade Centurion Alpha
+    volume: 1.0
   Mid-grade Centurion Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4602,7 +4952,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28791
     name: Mid-grade Centurion Beta
+    volume: 1.0
   Mid-grade Centurion Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4628,7 +4980,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28792
     name: Mid-grade Centurion Delta
+    volume: 1.0
   Mid-grade Centurion Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -4654,7 +5008,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28793
     name: Mid-grade Centurion Epsilon
+    volume: 1.0
   Mid-grade Centurion Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4680,7 +5036,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 28794
     name: Mid-grade Centurion Gamma
+    volume: 1.0
   Mid-grade Centurion Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4704,7 +5062,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28795
     name: Mid-grade Centurion Omega
+    volume: 1.0
   Mid-grade Crystal Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4730,7 +5090,9 @@ items:
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22107
     name: Mid-grade Crystal Alpha
+    volume: 1.0
   Mid-grade Crystal Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4756,7 +5118,9 @@ items:
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22108
     name: Mid-grade Crystal Beta
+    volume: 1.0
   Mid-grade Crystal Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4782,7 +5146,9 @@ items:
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22109
     name: Mid-grade Crystal Delta
+    volume: 1.0
   Mid-grade Crystal Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -4808,7 +5174,9 @@ items:
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22110
     name: Mid-grade Crystal Epsilon
+    volume: 1.0
   Mid-grade Crystal Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4834,7 +5202,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 22111
     name: Mid-grade Crystal Gamma
+    volume: 1.0
   Mid-grade Crystal Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -4858,7 +5228,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22112
     name: Mid-grade Crystal Omega
+    volume: 1.0
   Mid-grade Edge Alpha:
     BoosterAttributeModifier: -1
     ImplantSetAngel: 1.0
@@ -4884,7 +5256,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28814
     name: Mid-grade Edge Alpha
+    volume: 1.0
   Mid-grade Edge Beta:
     BoosterAttributeModifier: -2
     ImplantSetAngel: 1.0
@@ -4910,7 +5284,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28815
     name: Mid-grade Edge Beta
+    volume: 1.0
   Mid-grade Edge Delta:
     BoosterAttributeModifier: -4
     ImplantSetAngel: 1.0
@@ -4936,7 +5312,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28816
     name: Mid-grade Edge Delta
+    volume: 1.0
   Mid-grade Edge Epsilon:
     BoosterAttributeModifier: -5
     CharismaBonus: 3
@@ -4962,7 +5340,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28817
     name: Mid-grade Edge Epsilon
+    volume: 1.0
   Mid-grade Edge Gamma:
     BoosterAttributeModifier: -3
     ImplantSetAngel: 1.0
@@ -4988,7 +5368,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 28818
     name: Mid-grade Edge Gamma
+    volume: 1.0
   Mid-grade Edge Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5012,7 +5394,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28819
     name: Mid-grade Edge Omega
+    volume: 1.0
   Mid-grade Halo Alpha:
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
@@ -5038,7 +5422,9 @@ items:
     SignatureRadiusBonus: -1.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22113
     name: Mid-grade Halo Alpha
+    volume: 1.0
   Mid-grade Halo Beta:
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
@@ -5064,7 +5450,9 @@ items:
     SignatureRadiusBonus: -1.25
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22114
     name: Mid-grade Halo Beta
+    volume: 1.0
   Mid-grade Halo Delta:
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
@@ -5090,7 +5478,9 @@ items:
     SignatureRadiusBonus: -1.5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22115
     name: Mid-grade Halo Delta
+    volume: 1.0
   Mid-grade Halo Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.100000023841858
@@ -5116,7 +5506,9 @@ items:
     SignatureRadiusBonus: -2.0
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22116
     name: Mid-grade Halo Epsilon
+    volume: 1.0
   Mid-grade Halo Gamma:
     ImplantSetAngel: 1.100000023841858
     ImplantSetBloodraider: 2.0
@@ -5142,7 +5534,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 22117
     name: Mid-grade Halo Gamma
+    volume: 1.0
   Mid-grade Halo Omega:
     ImplantSetAngel: 1.25
     ImplantSetBloodraider: 2.0
@@ -5166,7 +5560,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22118
     name: Mid-grade Halo Omega
+    volume: 1.0
   Mid-grade Harvest Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5192,7 +5588,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28802
     name: Mid-grade Harvest Alpha
+    volume: 1.0
   Mid-grade Harvest Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5218,7 +5616,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28803
     name: Mid-grade Harvest Beta
+    volume: 1.0
   Mid-grade Harvest Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5244,7 +5644,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28804
     name: Mid-grade Harvest Delta
+    volume: 1.0
   Mid-grade Harvest Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -5270,7 +5672,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28805
     name: Mid-grade Harvest Epsilon
+    volume: 1.0
   Mid-grade Harvest Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5296,7 +5700,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 28806
     name: Mid-grade Harvest Gamma
+    volume: 1.0
   Mid-grade Harvest Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5320,7 +5726,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28807
     name: Mid-grade Harvest Omega
+    volume: 1.0
   Mid-grade Nomad Alpha:
     AgilityBonus: -1.0
     ImplantSetAngel: 1.0
@@ -5346,7 +5754,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28796
     name: Mid-grade Nomad Alpha
+    volume: 1.0
   Mid-grade Nomad Beta:
     AgilityBonus: -2.0
     ImplantSetAngel: 1.0
@@ -5372,7 +5782,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28797
     name: Mid-grade Nomad Beta
+    volume: 1.0
   Mid-grade Nomad Delta:
     AgilityBonus: -4.0
     ImplantSetAngel: 1.0
@@ -5398,7 +5810,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28798
     name: Mid-grade Nomad Delta
+    volume: 1.0
   Mid-grade Nomad Epsilon:
     AgilityBonus: -5.0
     CharismaBonus: 3
@@ -5424,7 +5838,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28799
     name: Mid-grade Nomad Epsilon
+    volume: 1.0
   Mid-grade Nomad Gamma:
     AgilityBonus: -3.0
     ImplantSetAngel: 1.0
@@ -5450,7 +5866,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 28800
     name: Mid-grade Nomad Gamma
+    volume: 1.0
   Mid-grade Nomad Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5474,7 +5892,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28801
     name: Mid-grade Nomad Omega
+    volume: 1.0
   Mid-grade Slave Alpha:
     ArmorHpBonus: 1
     ImplantSetAngel: 1.0
@@ -5501,7 +5921,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22119
     name: Mid-grade Slave Alpha
+    volume: 1.0
   Mid-grade Slave Beta:
     ArmorHpBonus: 2
     ImplantSetAngel: 1.0
@@ -5528,7 +5950,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22120
     name: Mid-grade Slave Beta
+    volume: 1.0
   Mid-grade Slave Delta:
     ArmorHpBonus: 4
     ImplantSetAngel: 1.0
@@ -5555,7 +5979,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22121
     name: Mid-grade Slave Delta
+    volume: 1.0
   Mid-grade Slave Epsilon:
     ArmorHpBonus: 5
     CharismaBonus: 3
@@ -5582,7 +6008,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22122
     name: Mid-grade Slave Epsilon
+    volume: 1.0
   Mid-grade Slave Gamma:
     ArmorHpBonus: 3
     ImplantSetAngel: 1.0
@@ -5609,7 +6037,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 22123
     name: Mid-grade Slave Gamma
+    volume: 1.0
   Mid-grade Slave Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5634,7 +6064,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22124
     name: Mid-grade Slave Omega
+    volume: 1.0
   Mid-grade Snake Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5662,7 +6094,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
+    id: 22125
     name: Mid-grade Snake Alpha
+    volume: 1.0
   Mid-grade Snake Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5690,7 +6124,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
+    id: 22126
     name: Mid-grade Snake Beta
+    volume: 1.0
   Mid-grade Snake Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5718,7 +6154,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
+    id: 22127
     name: Mid-grade Snake Delta
+    volume: 1.0
   Mid-grade Snake Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -5746,7 +6184,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
+    id: 22128
     name: Mid-grade Snake Epsilon
+    volume: 1.0
   Mid-grade Snake Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5774,7 +6214,9 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 3
+    id: 22129
     name: Mid-grade Snake Gamma
+    volume: 1.0
   Mid-grade Snake Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5799,7 +6241,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22130
     name: Mid-grade Snake Omega
+    volume: 1.0
   Mid-grade Talisman Alpha:
     DurationBonus: -1
     ImplantSetAngel: 1.0
@@ -5825,7 +6269,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22131
     name: Mid-grade Talisman Alpha
+    volume: 1.0
   Mid-grade Talisman Beta:
     DurationBonus: -2
     ImplantSetAngel: 1.0
@@ -5851,7 +6297,9 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22133
     name: Mid-grade Talisman Beta
+    volume: 1.0
   Mid-grade Talisman Delta:
     DurationBonus: -4
     ImplantSetAngel: 1.0
@@ -5877,7 +6325,9 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22134
     name: Mid-grade Talisman Delta
+    volume: 1.0
   Mid-grade Talisman Epsilon:
     CharismaBonus: 3
     DurationBonus: -5
@@ -5903,7 +6353,9 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22135
     name: Mid-grade Talisman Epsilon
+    volume: 1.0
   Mid-grade Talisman Gamma:
     DurationBonus: -3
     ImplantSetAngel: 1.0
@@ -5929,7 +6381,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 22136
     name: Mid-grade Talisman Gamma
+    volume: 1.0
   Mid-grade Talisman Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 1.25
@@ -5953,7 +6407,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 22137
     name: Mid-grade Talisman Omega
+    volume: 1.0
   Mid-grade Virtue Alpha:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -5979,7 +6435,9 @@ items:
     ScanStrengthBonus: 1
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28808
     name: Mid-grade Virtue Alpha
+    volume: 1.0
   Mid-grade Virtue Beta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -6005,7 +6463,9 @@ items:
     ScanStrengthBonus: 2
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28809
     name: Mid-grade Virtue Beta
+    volume: 1.0
   Mid-grade Virtue Delta:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -6031,7 +6491,9 @@ items:
     ScanStrengthBonus: 4
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28810
     name: Mid-grade Virtue Delta
+    volume: 1.0
   Mid-grade Virtue Epsilon:
     CharismaBonus: 3
     ImplantSetAngel: 1.0
@@ -6057,7 +6519,9 @@ items:
     ScanStrengthBonus: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28811
     name: Mid-grade Virtue Epsilon
+    volume: 1.0
   Mid-grade Virtue Gamma:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -6083,7 +6547,9 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
+    id: 28812
     name: Mid-grade Virtue Gamma
+    volume: 1.0
   Mid-grade Virtue Omega:
     ImplantSetAngel: 1.0
     ImplantSetBloodraider: 2.0
@@ -6107,7 +6573,9 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
+    id: 28813
     name: Mid-grade Virtue Omega
+    volume: 1.0
   QA SpaceAnchor Implant:
     DoesNotEmergencyWarp: 1
     ImplantSetAngel: 1.0
@@ -6132,4 +6600,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     TrackingSpeedMultiplier: 1.0
+    id: 33068
     name: QA SpaceAnchor Implant
+    volume: 1.0

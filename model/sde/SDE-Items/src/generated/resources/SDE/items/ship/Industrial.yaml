@@ -71,7 +71,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 648
     name: Badger
+    volume: 250000.0
   Bestower:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.949999988079071
@@ -143,7 +145,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 1944
     name: Bestower
+    volume: 260000.0
   Bestower Tash-Murkon Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.949999988079071
@@ -215,7 +219,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 33695
     name: Bestower Tash-Murkon Edition
+    volume: 260000.0
   Epithal:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8999999761581421
@@ -289,7 +295,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 655
     name: Epithal
+    volume: 250000.0
   Hoarder:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8500000238418579
@@ -362,7 +370,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 651
     name: Hoarder
+    volume: 400000.0
   Iteron Inner Zone Shipping Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8700000047683716
@@ -434,7 +444,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 33689
     name: Iteron Inner Zone Shipping Edition
+    volume: 275000.0
   Iteron Mark V:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8700000047683716
@@ -506,7 +518,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 657
     name: Iteron Mark V
+    volume: 275000.0
   Kryos:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9200000166893005
@@ -579,7 +593,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 654
     name: Kryos
+    volume: 245000.0
   Mammoth:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9100000262260437
@@ -651,7 +667,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 652
     name: Mammoth
+    volume: 255000.0
   Mammoth Nefantar Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9100000262260437
@@ -723,7 +741,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 33693
     name: Mammoth Nefantar Edition
+    volume: 255000.0
   Miasmos:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9399999976158142
@@ -796,7 +816,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 656
     name: Miasmos
+    volume: 265000.0
   Miasmos Amastris Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8999999761581421
@@ -868,7 +890,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 32811
     name: Miasmos Amastris Edition
+    volume: 265000.0
   Miasmos Quafe Ultra Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8999999761581421
@@ -940,7 +964,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 4363
     name: Miasmos Quafe Ultra Edition
+    volume: 265000.0
   Miasmos Quafe Ultramarine Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8999999761581421
@@ -1012,7 +1038,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 4388
     name: Miasmos Quafe Ultramarine Edition
+    volume: 265000.0
   Nereus:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.7799999713897705
@@ -1086,7 +1114,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 650
     name: Nereus
+    volume: 240000.0
   Noctis:
     AffectedByIndustrialInvulnModule: 1
     Agility: 1.0
@@ -1164,7 +1194,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 2998
     name: Noctis
+    volume: 270000.0
   Primae:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.699999988079071
@@ -1227,7 +1259,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 2863
     name: Primae
+    volume: 270000.0
   Sigil:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8600000143051147
@@ -1299,7 +1333,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 19744
     name: Sigil
+    volume: 230000.0
   Tayra:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9700000286102295
@@ -1372,7 +1408,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 649
     name: Tayra
+    volume: 270000.0
   Tayra Wiyrkomi Edition:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.9700000286102295
@@ -1445,7 +1483,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
+    id: 33691
     name: Tayra Wiyrkomi Edition
+    volume: 270000.0
   Wreathe:
     AffectedByIndustrialInvulnModule: 1
     Agility: 0.8100000023841858
@@ -1517,4 +1557,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
+    id: 653
     name: Wreathe
+    volume: 225000.0

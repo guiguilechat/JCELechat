@@ -7,7 +7,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
+    id: 11204
     name: Advanced Energy Grid Upgrades
+    volume: 0.01
   Advanced Weapon Upgrades:
     CanNotBeTrainedOnTrial: 1
     PowerNeedBonus: -2
@@ -16,12 +18,16 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 11207
     name: Advanced Weapon Upgrades
+    volume: 0.01
   CPU Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3426
     name: CPU Management
+    volume: 0.01
   Capacitor Emission Systems:
     CapNeedBonus: -5
     PrimaryAttribute: 165
@@ -31,21 +37,27 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3423
     name: Capacitor Emission Systems
+    volume: 0.01
   Capacitor Management:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3418
     name: Capacitor Management
+    volume: 0.01
   Capacitor Systems Operation:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3417
     name: Capacitor Systems Operation
+    volume: 0.01
   Capital Capacitor Emission Systems:
     CanNotBeTrainedOnTrial: 1
     CapNeedBonus: -5
@@ -56,7 +68,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
+    id: 24572
     name: Capital Capacitor Emission Systems
+    volume: 0.01
   Electronics Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 165
@@ -66,7 +80,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3432
     name: Electronics Upgrades
+    volume: 0.01
   Energy Grid Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 165
@@ -76,7 +92,9 @@ items:
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3424
     name: Energy Grid Upgrades
+    volume: 0.01
   Energy Pulse Weapons:
     DurationBonus: -5
     PrimaryAttribute: 165
@@ -86,7 +104,9 @@ items:
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3421
     name: Energy Pulse Weapons
+    volume: 0.01
   Nanite Interfacing:
     ModuleRepairRateBonus: 20
     PrimaryAttribute: 165
@@ -94,7 +114,9 @@ items:
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 28880
     name: Nanite Interfacing
+    volume: 0.01
   Nanite Operation:
     PrimaryAttribute: 165
     RequiredSkill1: 3392
@@ -102,12 +124,16 @@ items:
     SecondaryAttribute: 166
     ShipBrokenRepairCostMultiplierBonus: -5
     SkillTimeConstant: 2.0
+    id: 28879
     name: Nanite Operation
+    volume: 0.01
   Power Grid Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3413
     name: Power Grid Management
+    volume: 0.01
   Resistance Phasing:
     CapNeedBonus: -15
     DurationBonus: -10
@@ -116,7 +142,9 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 32797
     name: Resistance Phasing
+    volume: 0.01
   Thermodynamics:
     PrimaryAttribute: 165
     RequiredSkill1: 3413
@@ -128,7 +156,9 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     ThermodynamicsHeatDamage: -5
+    id: 28164
     name: Thermodynamics
+    volume: 0.01
   Weapon Upgrades:
     CpuNeedBonus: -5
     PrimaryAttribute: 167
@@ -136,4 +166,6 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3318
     name: Weapon Upgrades
+    volume: 0.01

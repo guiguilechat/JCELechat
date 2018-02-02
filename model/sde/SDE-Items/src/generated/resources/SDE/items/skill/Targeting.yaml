@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 3430
     name: Advanced Target Management
+    volume: 0.01
   Gravimetric Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -14,7 +16,9 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    id: 33000
     name: Gravimetric Sensor Compensation
+    volume: 0.01
   Ladar Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -22,14 +26,18 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    id: 33001
     name: Ladar Sensor Compensation
+    volume: 0.01
   Long Range Targeting:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 3428
     name: Long Range Targeting
+    volume: 0.01
   Magnetometric Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -37,7 +45,9 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    id: 32999
     name: Magnetometric Sensor Compensation
+    volume: 0.01
   Radar Sensor Compensation:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
@@ -45,14 +55,18 @@ items:
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
     SkillTimeConstant: 2.0
+    id: 33002
     name: Radar Sensor Compensation
+    volume: 0.01
   Signature Analysis:
     PrimaryAttribute: 165
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3431
     name: Signature Analysis
+    volume: 0.01
   Target Management:
     MaxTargetBonus: 1
     PrimaryAttribute: 165
@@ -60,4 +74,6 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
+    id: 3429
     name: Target Management
+    volume: 0.01

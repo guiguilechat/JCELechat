@@ -10,7 +10,9 @@ items:
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 35770
     name: Missile Guidance Enhancer I
+    volume: 5.0
   Missile Guidance Enhancer II:
     AoeCloudSizeBonus: -6.0
     AoeVelocityBonus: 6.0
@@ -23,7 +25,9 @@ items:
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     TechLevel: 2
+    id: 35771
     name: Missile Guidance Enhancer II
+    volume: 5.0
   Pro-Nav Compact Missile Guidance Enhancer:
     AoeCloudSizeBonus: -5.5
     AoeVelocityBonus: 5.5
@@ -36,4 +40,6 @@ items:
     RequiredSkill1: 3318
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 35774
     name: Pro-Nav Compact Missile Guidance Enhancer
+    volume: 5.0

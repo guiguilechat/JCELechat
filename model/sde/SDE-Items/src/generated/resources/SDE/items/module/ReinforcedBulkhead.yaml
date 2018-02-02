@@ -11,7 +11,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.100000023841858
     TechLevel: 1
+    id: 1240
     name: '''Basic'' Reinforced Bulkheads'
+    volume: 5.0
   Alpha Hull Mod Reinforced Bulkheads:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -21,7 +23,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.0800000429153442
     TechLevel: 1
+    id: 5677
     name: Alpha Hull Mod Reinforced Bulkheads
+    volume: 5.0
   Beta Hull Mod Reinforced Bulkheads:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.9300000071525574
@@ -32,7 +36,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1
+    id: 5645
     name: Beta Hull Mod Reinforced Bulkheads
+    volume: 5.0
   Local Hull Conversion Reinforced Bulkheads I:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.9399999976158142
@@ -43,7 +49,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.190000057220459
     TechLevel: 1
+    id: 5643
     name: Local Hull Conversion Reinforced Bulkheads I
+    volume: 5.0
   Mark I Compact Reinforced Bulkheads:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.9300000071525574
@@ -55,7 +63,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1
+    id: 5649
     name: Mark I Compact Reinforced Bulkheads
+    volume: 5.0
   Marked Modified SS Reinforced Bulkheads:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -65,7 +75,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.059999942779541
     TechLevel: 1
+    id: 5681
     name: Marked Modified SS Reinforced Bulkheads
+    volume: 5.0
   ORE Reinforced Bulkheads:
     AgilityMultiplier: 4.0
     CargoCapacityMultiplier: 0.9399999976158142
@@ -78,7 +90,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2699999809265137
     TechLevel: 1
+    id: 34485
     name: ORE Reinforced Bulkheads
+    volume: 5.0
   Ore compression thingie:
     CargoCapacityMultiplier: 0.8999999761581421
     Hp: 40
@@ -87,7 +101,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1
+    id: 22537
     name: Ore compression thingie
+    volume: 5.0
   Partial Hull Conversion Reinforced Bulkheads:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -97,7 +113,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.090000033378601
     TechLevel: 1
+    id: 5675
     name: Partial Hull Conversion Reinforced Bulkheads
+    volume: 5.0
   Reinforced Bulkheads I:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.8999999761581421
@@ -107,7 +125,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.149999976158142
     TechLevel: 1
+    id: 1333
     name: Reinforced Bulkheads I
+    volume: 25.0
   Reinforced Bulkheads II:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.8899999856948853
@@ -118,7 +138,9 @@ items:
     RequiredSkill1Level: 2
     StructureHPMultiplier: 1.25
     TechLevel: 2
+    id: 1335
     name: Reinforced Bulkheads II
+    volume: 5.0
   Syndicate Reinforced Bulkheads:
     AgilityMultiplier: 2.0
     CargoCapacityMultiplier: 0.8999999761581421
@@ -131,7 +153,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2699999809265137
     TechLevel: 1
+    id: 34487
     name: Syndicate Reinforced Bulkheads
+    volume: 5.0
   Synthetic Hull Conversion Reinforced Bulkheads:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -144,7 +168,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.2000000476837158
     TechLevel: 1
+    id: 21496
     name: Synthetic Hull Conversion Reinforced Bulkheads
+    volume: 5.0
   Type-D Restrained Reinforced Bulkheads:
     AgilityMultiplier: 1.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -156,7 +182,9 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1
+    id: 5647
     name: Type-D Restrained Reinforced Bulkheads
+    volume: 5.0
   Type-E Altered SS Reinforced Bulkheads:
     AgilityMultiplier: 5.0
     CargoCapacityMultiplier: 0.949999988079071
@@ -166,4 +194,6 @@ items:
     RequiredSkill1Level: 1
     StructureHPMultiplier: 1.0700000524520874
     TechLevel: 1
+    id: 5679
     name: Type-E Altered SS Reinforced Bulkheads
+    volume: 5.0

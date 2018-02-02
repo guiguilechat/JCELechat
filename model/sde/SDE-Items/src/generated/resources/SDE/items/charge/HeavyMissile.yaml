@@ -24,7 +24,9 @@ items:
     TechLevel: 1
     ThermalDamage: 163.0
     ThermalDamageResonance: 0.800000011920929
+    id: 27447
     name: Caldari Navy Inferno Heavy Missile
+    volume: 0.03
   Caldari Navy Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -50,7 +52,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27435
     name: Caldari Navy Mjolnir Heavy Missile
+    volume: 0.03
   Caldari Navy Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -76,7 +80,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27453
     name: Caldari Navy Nova Heavy Missile
+    volume: 0.03
   Caldari Navy Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -102,7 +108,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27441
     name: Caldari Navy Scourge Heavy Missile
+    volume: 0.03
   Dread Guristas Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -128,7 +136,9 @@ items:
     TechLevel: 1
     ThermalDamage: 170.0
     ThermalDamageResonance: 0.800000011920929
+    id: 27449
     name: Dread Guristas Inferno Heavy Missile
+    volume: 0.03
   Dread Guristas Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -154,7 +164,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27437
     name: Dread Guristas Mjolnir Heavy Missile
+    volume: 0.03
   Dread Guristas Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -180,7 +192,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27455
     name: Dread Guristas Nova Heavy Missile
+    volume: 0.03
   Dread Guristas Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -206,7 +220,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27443
     name: Dread Guristas Scourge Heavy Missile
+    volume: 0.03
   Ghost Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -231,7 +247,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 2212
     name: Ghost Heavy Missile
+    volume: 0.03
   Guristas Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -257,7 +275,9 @@ items:
     TechLevel: 1
     ThermalDamage: 156.0
     ThermalDamageResonance: 0.800000011920929
+    id: 27445
     name: Guristas Inferno Heavy Missile
+    volume: 0.03
   Guristas Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -283,7 +303,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27433
     name: Guristas Mjolnir Heavy Missile
+    volume: 0.03
   Guristas Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -309,7 +331,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27451
     name: Guristas Nova Heavy Missile
+    volume: 0.03
   Guristas Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -335,7 +359,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27439
     name: Guristas Scourge Heavy Missile
+    volume: 0.03
   Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -359,7 +385,9 @@ items:
     TechLevel: 1
     ThermalDamage: 142.0
     ThermalDamageResonance: 0.800000011920929
+    id: 208
     name: Inferno Heavy Missile
+    volume: 0.03
   Mjolnir Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -383,7 +411,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 207
     name: Mjolnir Heavy Missile
+    volume: 0.03
   Nova Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -407,7 +437,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 206
     name: Nova Heavy Missile
+    volume: 0.03
   Praedormitan Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -432,7 +464,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 30428
     name: Praedormitan Missile
+    volume: 0.03
   Sansha Thunderbolt Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -455,7 +489,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27889
     name: Sansha Thunderbolt Heavy Missile
+    volume: 0.03
   Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -479,7 +515,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 209
     name: Scourge Heavy Missile
+    volume: 0.03
   True Sansha Thunderbolt Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -502,4 +540,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 1.0
+    id: 27890
     name: True Sansha Thunderbolt Heavy Missile
+    volume: 0.03

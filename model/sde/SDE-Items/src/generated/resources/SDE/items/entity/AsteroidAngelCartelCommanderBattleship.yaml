@@ -1,21 +1,41 @@
 items:
   Domination Cherubim:
+    id: 22873
     name: Domination Cherubim
+    volume: 1.9E7
   Domination Commander:
+    id: 13535
     name: Domination Commander
+    volume: 1.9E7
   Domination General:
+    id: 13537
     name: Domination General
+    volume: 1.9E7
   Domination Malakim:
+    id: 22871
     name: Domination Malakim
+    volume: 1.9E7
   Domination Nephilim:
+    id: 13542
     name: Domination Nephilim
+    volume: 1.9E7
   Domination Saint:
+    id: 13540
     name: Domination Saint
+    volume: 1.9E7
   Domination Seraphim:
+    id: 22874
     name: Domination Seraphim
+    volume: 1.9E7
   Domination Throne:
+    id: 22872
     name: Domination Throne
+    volume: 1.9E7
   Domination War General:
+    id: 13539
     name: Domination War General
+    volume: 1.9E7
   Domination Warlord:
+    id: 13543
     name: Domination Warlord
+    volume: 1.9E7

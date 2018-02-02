@@ -1,31 +1,61 @@
 items:
   ♦ Apocalypse:
+    id: 46069
     name: ♦ Apocalypse
+    volume: 495000.0
   ♦ Armageddon:
+    id: 43562
     name: ♦ Armageddon
+    volume: 486000.0
   ♦ Bhaalgorn:
+    id: 46055
     name: ♦ Bhaalgorn
+    volume: 486000.0
   ♦ Dominix:
+    id: 43584
     name: ♦ Dominix
+    volume: 454500.0
   ♦ Infested Dominix:
+    id: 43650
     name: ♦ Infested Dominix
+    volume: 1010000.0
   ♦ Machariel:
+    id: 46063
     name: ♦ Machariel
+    volume: 595000.0
   ♦ Megathron:
+    id: 46077
     name: ♦ Megathron
+    volume: 486000.0
   ♦ Nightmare:
+    id: 43657
     name: ♦ Nightmare
+    volume: 486000.0
   ♦ Rattlesnake:
+    id: 46523
     name: ♦ Rattlesnake
+    volume: 486000.0
   ♦ Raven:
+    id: 46524
     name: ♦ Raven
+    volume: 486000.0
   ♦ Scorpion:
+    id: 43573
     name: ♦ Scorpion
+    volume: 468000.0
   ♦ Tempest:
+    id: 46081
     name: ♦ Tempest
+    volume: 450000.0
   ♦ Typhoon:
+    id: 43595
     name: ♦ Typhoon
+    volume: 414000.0
   ♦ Vindicator:
+    id: 46060
     name: ♦ Vindicator
+    volume: 486000.0
   ��� Raven:
+    id: 43626
     name: ��� Raven
+    volume: 486000.0

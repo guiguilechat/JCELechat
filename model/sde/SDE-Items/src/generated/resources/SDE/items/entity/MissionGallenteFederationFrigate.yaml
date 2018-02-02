@@ -1,101 +1,201 @@
 items:
   Elite Federation Arcus:
+    id: 25143
     name: Elite Federation Arcus
+    volume: 26500.0
   Elite Federation Insidiator:
+    id: 25141
     name: Elite Federation Insidiator
+    volume: 26500.0
   Elite Federation Libertus:
+    id: 25140
     name: Elite Federation Libertus
+    volume: 26500.0
   Elite Federation Lixa:
+    id: 25137
     name: Elite Federation Lixa
+    volume: 23000.0
   Elite Federation Lochos:
+    id: 25138
     name: Elite Federation Lochos
+    volume: 23000.0
   Elite Federation Machina:
+    id: 25146
     name: Elite Federation Machina
+    volume: 26500.0
   Elite Federation Manica:
+    id: 25139
     name: Elite Federation Manica
+    volume: 26500.0
   Elite Federation Matara:
+    id: 25142
     name: Elite Federation Matara
+    volume: 26500.0
   Elite Federation Pelekus:
+    id: 25144
     name: Elite Federation Pelekus
+    volume: 26500.0
   Elite Federation Phalarica:
+    id: 25145
     name: Elite Federation Phalarica
+    volume: 26500.0
   Federation Clavis:
+    id: 25103
     name: Federation Clavis
+    volume: 24500.0
   Federation Hastile:
+    id: 25105
     name: Federation Hastile
+    volume: 22500.0
   Federation Hoplon:
+    id: 25107
     name: Federation Hoplon
+    volume: 22500.0
   Federation Insidiator:
+    id: 25116
     name: Federation Insidiator
+    volume: 23000.0
   Federation Kontos:
+    id: 25106
     name: Federation Kontos
+    volume: 25000.0
   Federation Kopis:
+    id: 25124
     name: Federation Kopis
+    volume: 22500.0
   Federation Libertus:
+    id: 25112
     name: Federation Libertus
+    volume: 29500.0
   Federation Manica:
+    id: 25110
     name: Federation Manica
+    volume: 29500.0
   Federation Navy Atron:
+    id: 14361
     name: Federation Navy Atron
+    volume: 22500.0
   Federation Navy Delta I Support Frigate:
+    id: 15991
     name: Federation Navy Delta I Support Frigate
+    volume: 23000.0
   Federation Navy Delta II Support Frigate:
+    id: 15989
     name: Federation Navy Delta II Support Frigate
+    volume: 23000.0
   Federation Navy Elite Soldier:
+    id: 15580
     name: Federation Navy Elite Soldier
+    volume: 20400.0
   Federation Navy Gamma I Support Frigate:
+    id: 15990
     name: Federation Navy Gamma I Support Frigate
+    volume: 26500.0
   Federation Navy Gamma II Support Frigate:
+    id: 15988
     name: Federation Navy Gamma II Support Frigate
+    volume: 23000.0
   Federation Navy Maulus:
+    id: 14481
     name: Federation Navy Maulus
+    volume: 23000.0
   Federation Navy Officer:
+    id: 13112
     name: Federation Navy Officer
+    volume: 109000.0
   Federation Navy Scout:
+    id: 11666
     name: Federation Navy Scout
+    volume: 19100.0
   Federation Navy Soldier:
+    id: 14353
     name: Federation Navy Soldier
+    volume: 20400.0
   Federation Navy Squad Leader:
+    id: 15345
     name: Federation Navy Squad Leader
+    volume: 26500.0
   Federation Praktor Balra:
+    id: 25117
     name: Federation Praktor Balra
+    volume: 23000.0
   Federation Praktor Belos:
+    id: 25118
     name: Federation Praktor Belos
+    volume: 26500.0
   Federation Praktor Harpago:
+    id: 25120
     name: Federation Praktor Harpago
+    volume: 26500.0
   Gallente CA Frigate:
+    id: 45464
     name: Gallente CA Frigate
+    volume: 29500.0
   Gallente Miner:
+    id: 21840
     name: Gallente Miner
+    volume: 22500.0
   Gallente Spy Drone:
+    id: 22706
     name: Gallente Spy Drone
+    volume: 60.0
   Independent Atron:
+    id: 29866
     name: Independent Atron
+    volume: 26500.0
   Independent Green-Crewed Atron:
+    id: 29831
     name: Independent Green-Crewed Atron
+    volume: 22500.0
   Independent Green-Crewed Imicus:
+    id: 29859
     name: Independent Green-Crewed Imicus
+    volume: 22500.0
   Independent Green-Crewed Incursus:
+    id: 29863
     name: Independent Green-Crewed Incursus
+    volume: 22500.0
   Independent Green-Crewed Maulus:
+    id: 29864
     name: Independent Green-Crewed Maulus
+    volume: 22500.0
   Independent Green-Crewed Tristan:
+    id: 29865
     name: Independent Green-Crewed Tristan
+    volume: 22500.0
   Independent Imicus:
+    id: 29867
     name: Independent Imicus
+    volume: 26500.0
   Independent Incursus:
+    id: 29868
     name: Independent Incursus
+    volume: 26500.0
   Independent Maulus:
+    id: 29869
     name: Independent Maulus
+    volume: 26500.0
   Independent Tristan:
+    id: 29870
     name: Independent Tristan
+    volume: 26500.0
   Independent Veteran Atron:
+    id: 29871
     name: Independent Veteran Atron
+    volume: 26500.0
   Independent Veteran Imicus:
+    id: 29872
     name: Independent Veteran Imicus
+    volume: 26500.0
   Independent Veteran Incursus:
+    id: 29873
     name: Independent Veteran Incursus
+    volume: 26500.0
   Independent Veteran Maulus:
+    id: 29874
     name: Independent Veteran Maulus
+    volume: 26500.0
   Independent Veteran Tristan:
+    id: 29875
     name: Independent Veteran Tristan
+    volume: 26500.0

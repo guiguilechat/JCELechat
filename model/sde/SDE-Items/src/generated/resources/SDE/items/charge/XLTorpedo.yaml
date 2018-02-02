@@ -20,7 +20,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 5885.0
+    id: 29618
     name: Guristas Inferno XL Torpedo
+    volume: 0.3
   Guristas Mjolnir XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -42,7 +44,9 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 29622
     name: Guristas Mjolnir XL Torpedo
+    volume: 0.3
   Guristas Nova XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -64,7 +68,9 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 29616
     name: Guristas Nova XL Torpedo
+    volume: 0.3
   Guristas Scourge XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -86,7 +92,9 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 29620
     name: Guristas Scourge XL Torpedo
+    volume: 0.3
   Inferno XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -106,7 +114,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamage: 5350.0
+    id: 17861
     name: Inferno XL Torpedo
+    volume: 0.3
   Mjolnir XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -126,7 +136,9 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 17857
     name: Mjolnir XL Torpedo
+    volume: 0.3
   Nova XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -146,7 +158,9 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 17863
     name: Nova XL Torpedo
+    volume: 0.3
   Scourge XL Torpedo:
     Agility: 148.0471954345703
     AimedLaunch: 1
@@ -166,4 +180,6 @@ items:
     RequiredSkill2Level: 1
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 17859
     name: Scourge XL Torpedo
+    volume: 0.3

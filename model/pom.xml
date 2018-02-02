@@ -4,7 +4,7 @@
 	<name>model</name>
 
 	<modules>
-		<module>Database</module>
+		
 		
 		<module>ESI</module>
 		<module>APIv2</module>
@@ -18,7 +18,7 @@
 		<artifactId>Common</artifactId>
 		<version>1.0.5</version>
 	</parent>
-	<version>18.01.10</version>
+	<version>2.1.1</version>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>

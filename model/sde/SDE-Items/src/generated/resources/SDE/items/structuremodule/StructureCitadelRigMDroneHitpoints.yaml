@@ -8,7 +8,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 37224
     name: Standup M-Set Fighter Survival I
+    volume: 10.0
   Standup M-Set Fighter Survival II:
     CanFitShipGroup01: 1657
     Hp: 40
@@ -18,4 +20,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 100
+    id: 37225
     name: Standup M-Set Fighter Survival II
+    volume: 10.0

@@ -2,60 +2,90 @@ items:
   Bacteria:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2393
     name: Bacteria
+    volume: 0.38
   Biofuels:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2396
     name: Biofuels
+    volume: 0.38
   Biomass:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 3779
     name: Biomass
+    volume: 0.38
   Chiral Structures:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2401
     name: Chiral Structures
+    volume: 0.38
   Electrolytes:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2390
     name: Electrolytes
+    volume: 0.38
   Industrial Fibers:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2397
     name: Industrial Fibers
+    volume: 0.38
   Oxidizing Compound:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2392
     name: Oxidizing Compound
+    volume: 0.38
   Oxygen:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 3683
     name: Oxygen
+    volume: 0.38
   Plasmoids:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2389
     name: Plasmoids
+    volume: 0.38
   Precious Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2399
     name: Precious Metals
+    volume: 0.38
   Proteins:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2395
     name: Proteins
+    volume: 0.38
   Reactive Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2398
     name: Reactive Metals
+    volume: 0.38
   Silicon:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 9828
     name: Silicon
+    volume: 0.38
   Toxic Metals:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 2400
     name: Toxic Metals
+    volume: 0.38
   Water:
     ExportTaxMultiplier: 400
     ImportTaxMultiplier: 400
+    id: 3645
     name: Water
+    volume: 0.38

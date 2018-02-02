@@ -7,7 +7,9 @@ items:
     LauncherGroup: 1699
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    id: 41517
     name: Armor EM Resistance Script
+    volume: 1.0
   Armor Explosive Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -16,7 +18,9 @@ items:
     LauncherGroup: 1699
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    id: 41520
     name: Armor Explosive Resistance Script
+    volume: 1.0
   Armor Kinetic Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -25,7 +29,9 @@ items:
     LauncherGroup: 1699
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: -100
+    id: 41519
     name: Armor Kinetic Resistance Script
+    volume: 1.0
   Armor Thermal Resistance Script:
     ChargeSize: 1
     EmDamageResistanceBonusBonus: -100
@@ -34,4 +40,6 @@ items:
     LauncherGroup: 1699
     TechLevel: 1
     ThermalDamageResistanceBonusBonus: 200
+    id: 41518
     name: Armor Thermal Resistance Script
+    volume: 1.0

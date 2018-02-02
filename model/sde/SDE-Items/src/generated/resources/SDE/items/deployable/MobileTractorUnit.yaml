@@ -19,7 +19,9 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33702
     name: '''Magpie'' Mobile Tractor Unit'
+    volume: 100.0
   '''Packrat'' Mobile Tractor Unit':
     ArmorHP: 15000
     ArmorUniformity: 0.75
@@ -40,7 +42,9 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33700
     name: '''Packrat'' Mobile Tractor Unit'
+    volume: 125.0
   Mobile Tractor Unit:
     ArmorHP: 10000
     ArmorUniformity: 0.75
@@ -61,4 +65,6 @@ items:
     SignatureRadius: 500
     StructureUniformity: 1.0
     TechLevel: 1
+    id: 33475
     name: Mobile Tractor Unit
+    volume: 100.0

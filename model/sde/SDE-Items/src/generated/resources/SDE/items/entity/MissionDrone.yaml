@@ -1,9 +1,17 @@
 items:
   A Hired Saboteur:
+    id: 24754
     name: A Hired Saboteur
+    volume: 20400.0
   CONCORD Surveillance Drone:
+    id: 16104
     name: CONCORD Surveillance Drone
+    volume: 60.0
   Construction Freight:
+    id: 15395
     name: Construction Freight
+    volume: 1105000.0
   Ore Supply Freight:
+    id: 16102
     name: Ore Supply Freight
+    volume: 1020000.0

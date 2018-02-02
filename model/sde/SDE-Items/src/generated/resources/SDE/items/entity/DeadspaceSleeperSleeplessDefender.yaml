@@ -1,9 +1,17 @@
 items:
   Sleepless Defender:
+    id: 30192
     name: Sleepless Defender
+    volume: 1.9E7
   Sleepless Preserver:
+    id: 30194
     name: Sleepless Preserver
+    volume: 1.9E7
   Sleepless Safeguard:
+    id: 30195
     name: Sleepless Safeguard
+    volume: 1.9E7
   Sleepless Upholder:
+    id: 30193
     name: Sleepless Upholder
+    volume: 1.9E7

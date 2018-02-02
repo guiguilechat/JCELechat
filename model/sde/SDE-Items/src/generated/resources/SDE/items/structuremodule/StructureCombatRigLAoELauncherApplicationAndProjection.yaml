@@ -17,7 +17,9 @@ items:
     StructureRigMissileVelocityBonus: 30
     TechLevel: 1
     UpgradeCost: 100
+    id: 37256
     name: Standup L-Set Bomb Aimer I
+    volume: 20.0
   Standup L-Set Bomb Aimer II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -36,4 +38,6 @@ items:
     StructureRigMissileVelocityBonus: 35
     TechLevel: 2
     UpgradeCost: 150
+    id: 37257
     name: Standup L-Set Bomb Aimer II
+    volume: 20.0

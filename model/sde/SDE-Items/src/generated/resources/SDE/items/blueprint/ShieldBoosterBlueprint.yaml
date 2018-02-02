@@ -2,102 +2,156 @@ items:
   CONCORD Capital Shield Booster Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 3543
     name: CONCORD Capital Shield Booster Blueprint
+    volume: 0.01
   Capital C-5L Compact Shield Booster Blueprint:
     TechLevel: 1
+    id: 41632
     name: Capital C-5L Compact Shield Booster Blueprint
+    volume: 0.01
   Capital Clarity Ward Enduring Shield Booster Blueprint:
     TechLevel: 1
+    id: 41633
     name: Capital Clarity Ward Enduring Shield Booster Blueprint
+    volume: 0.01
   Capital Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
+    id: 20704
     name: Capital Shield Booster I Blueprint
+    volume: 0.01
   Capital Shield Booster II Blueprint:
     TechLevel: 1
+    id: 41634
     name: Capital Shield Booster II Blueprint
+    volume: 0.01
   Civilian Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 10040
     name: Civilian Shield Booster Blueprint
+    volume: 0.01
   Domination Capital Shield Booster Blueprint:
     TechLevel: 1
+    id: 41637
     name: Domination Capital Shield Booster Blueprint
+    volume: 0.01
   Dread Guristas Capital Shield Booster Blueprint:
     TechLevel: 1
+    id: 41636
     name: Dread Guristas Capital Shield Booster Blueprint
+    volume: 0.01
   Huge Active Stealth System I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 12718
     name: Huge Active Stealth System I Blueprint
+    volume: 0.01
   Large 'Outlaw' Shield Booster Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 20622
     name: Large 'Outlaw' Shield Booster Blueprint
+    volume: 0.01
   Large Active Stealth System I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 12716
     name: Large Active Stealth System I Blueprint
+    volume: 0.01
   Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 10839
     name: Large Shield Booster I Blueprint
+    volume: 0.01
   Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 10859
     name: Large Shield Booster II Blueprint
+    volume: 0.01
   Medium 'Lone Ranger' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 20620
     name: Medium 'Lone Ranger' Shield Booster Blueprint
+    volume: 0.01
   Medium Active Stealth System I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 12714
     name: Medium Active Stealth System I Blueprint
+    volume: 0.01
   Medium Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 10837
     name: Medium Shield Booster I Blueprint
+    volume: 0.01
   Medium Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 10851
     name: Medium Shield Booster II Blueprint
+    volume: 0.01
   Small 'Settler' Shield Booster Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 20618
     name: Small 'Settler' Shield Booster Blueprint
+    volume: 0.01
   Small Active Stealth System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 12712
     name: Small Active Stealth System I Blueprint
+    volume: 0.01
   Small Shield Booster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 1032
     name: Small Shield Booster I Blueprint
+    volume: 0.01
   Small Shield Booster II Blueprint:
     IndustryBlueprintRank: 7.800000190734863
     TechLevel: 2
+    id: 1033
     name: Small Shield Booster II Blueprint
+    volume: 0.01
   Smugglers Mask I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
+    id: 20368
     name: Smugglers Mask I Blueprint
+    volume: 0.01
   Stealth System I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22886
     name: Stealth System I Blueprint
+    volume: 0.01
   True Sansha Capital Shield Booster Blueprint:
     TechLevel: 1
+    id: 41635
     name: True Sansha Capital Shield Booster Blueprint
+    volume: 0.01
   X-Large 'Locomotive' Shield Booster Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 20624
     name: X-Large 'Locomotive' Shield Booster Blueprint
+    volume: 0.01
   X-Large Shield Booster I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
+    id: 10841
     name: X-Large Shield Booster I Blueprint
+    volume: 0.01
   X-Large Shield Booster II Blueprint:
     IndustryBlueprintRank: 23.399999618530273
     TechLevel: 2
+    id: 10843
     name: X-Large Shield Booster II Blueprint
+    volume: 0.01

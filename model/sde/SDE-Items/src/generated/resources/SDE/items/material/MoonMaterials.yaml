@@ -1,61 +1,101 @@
 items:
   Atmospheric Gases:
     MoonMiningAmount: 100
+    id: 16634
     name: Atmospheric Gases
+    volume: 0.05
   Cadmium:
     MoonMiningAmount: 100
+    id: 16643
     name: Cadmium
+    volume: 0.05
   Caesium:
     MoonMiningAmount: 100
+    id: 16647
     name: Caesium
+    volume: 0.05
   Chromium:
     MoonMiningAmount: 100
+    id: 16641
     name: Chromium
+    volume: 0.05
   Cobalt:
     MoonMiningAmount: 100
+    id: 16640
     name: Cobalt
+    volume: 0.05
   Dysprosium:
     MoonMiningAmount: 100
+    id: 16650
     name: Dysprosium
+    volume: 0.05
   Evaporite Deposits:
     MoonMiningAmount: 100
+    id: 16635
     name: Evaporite Deposits
+    volume: 0.05
   Hafnium:
     MoonMiningAmount: 100
+    id: 16648
     name: Hafnium
+    volume: 0.05
   Hydrocarbons:
     MoonMiningAmount: 100
+    id: 16633
     name: Hydrocarbons
+    volume: 0.05
   Mercury:
     MoonMiningAmount: 100
+    id: 16646
     name: Mercury
+    volume: 0.05
   Neodymium:
     MoonMiningAmount: 100
+    id: 16651
     name: Neodymium
+    volume: 0.05
   Platinum:
     MoonMiningAmount: 100
+    id: 16644
     name: Platinum
+    volume: 0.05
   Promethium:
     MoonMiningAmount: 100
+    id: 16652
     name: Promethium
+    volume: 0.05
   Scandium:
     MoonMiningAmount: 100
+    id: 16639
     name: Scandium
+    volume: 0.05
   Silicates:
     MoonMiningAmount: 100
+    id: 16636
     name: Silicates
+    volume: 0.05
   Technetium:
     MoonMiningAmount: 100
+    id: 16649
     name: Technetium
+    volume: 0.05
   Thulium:
     MoonMiningAmount: 100
+    id: 16653
     name: Thulium
+    volume: 0.05
   Titanium:
     MoonMiningAmount: 100
+    id: 16638
     name: Titanium
+    volume: 0.05
   Tungsten:
     MoonMiningAmount: 100
+    id: 16637
     name: Tungsten
+    volume: 0.05
   Vanadium:
     MoonMiningAmount: 100
+    id: 16642
     name: Vanadium
+    volume: 0.05

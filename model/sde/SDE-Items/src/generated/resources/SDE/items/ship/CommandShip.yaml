@@ -77,7 +77,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 22448
     name: Absolution
+    volume: 234000.0
   Astarte:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
@@ -157,7 +159,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 22466
     name: Astarte
+    volume: 270000.0
   Claymore:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.10000000149011612
@@ -238,7 +242,9 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
+    id: 22468
     name: Claymore
+    volume: 216000.0
   Damnation:
     Agility: 0.699999988079071
     ArmorEmDamageResonance: 0.5
@@ -319,7 +325,9 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
+    id: 22474
     name: Damnation
+    volume: 234000.0
   Eos:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.5
@@ -399,7 +407,9 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
+    id: 22442
     name: Eos
+    volume: 270000.0
   Nighthawk:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
@@ -479,7 +489,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 22470
     name: Nighthawk
+    volume: 252000.0
   Prototype Seven:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -504,7 +516,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
+    id: 45534
     name: Prototype Seven
+    volume: 250000.0
   Sleipnir:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.10000000149011612
@@ -584,7 +598,9 @@ items:
     UpgradeSlotsLeft: 2
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
+    id: 22444
     name: Sleipnir
+    volume: 216000.0
   Vulture:
     Agility: 0.6700000166893005
     ArmorEmDamageResonance: 0.5
@@ -665,4 +681,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
+    id: 22446
     name: Vulture
+    volume: 252000.0

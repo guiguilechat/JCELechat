@@ -8,7 +8,9 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 25565
     name: '''Hypnos'' Signal Distortion Amplifier I'
+    volume: 5.0
   Compulsive Signal Distortion Amplifier I:
     EcmRangeBonus: 9
     EcmStrengthBonusPercent: 9
@@ -18,7 +20,9 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 25567
     name: Compulsive Signal Distortion Amplifier I
+    volume: 5.0
   Induced Signal Distortion Amplifier I:
     EcmRangeBonus: 8
     EcmStrengthBonusPercent: 8
@@ -28,7 +32,9 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 25569
     name: Induced Signal Distortion Amplifier I
+    volume: 5.0
   Initiated Signal Distortion Amplifier I:
     EcmRangeBonus: 7
     EcmStrengthBonusPercent: 7
@@ -38,7 +44,9 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 25571
     name: Initiated Signal Distortion Amplifier I
+    volume: 5.0
   Signal Distortion Amplifier I:
     EcmRangeBonus: 5
     EcmStrengthBonusPercent: 5
@@ -47,7 +55,9 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 25561
     name: Signal Distortion Amplifier I
+    volume: 5.0
   Signal Distortion Amplifier II:
     EcmRangeBonus: 10
     EcmStrengthBonusPercent: 10
@@ -57,4 +67,6 @@ items:
     RequiredSkill1: 3427
     RequiredSkill1Level: 4
     TechLevel: 2
+    id: 25563
     name: Signal Distortion Amplifier II
+    volume: 5.0

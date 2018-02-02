@@ -14,7 +14,9 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
     StructureItemVisualFlag: 1
+    id: 45539
     name: Standup Biochemical Reactor I
+    volume: 4000.0
   Standup Composite Reactor I:
     CanFitShipGroup01: 1406
     Cpu: 1000.0
@@ -30,7 +32,9 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
     StructureItemVisualFlag: 1
+    id: 45537
     name: Standup Composite Reactor I
+    volume: 4000.0
   Standup Hybrid Reactor I:
     CanFitShipGroup01: 1406
     Cpu: 1000.0
@@ -46,7 +50,9 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
     StructureItemVisualFlag: 1
+    id: 45538
     name: Standup Hybrid Reactor I
+    volume: 4000.0
   Standup Reprocessing Facility I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -63,4 +69,6 @@ items:
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
     StructureItemVisualFlag: 1
+    id: 35899
     name: Standup Reprocessing Facility I
+    volume: 4000.0

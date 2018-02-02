@@ -2,32 +2,48 @@ items:
   Bustard Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12732
     name: Bustard Blueprint
+    volume: 0.01
   Crane Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12730
     name: Crane Blueprint
+    volume: 0.01
   Impel Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12754
     name: Impel Blueprint
+    volume: 0.01
   Mastodon Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12748
     name: Mastodon Blueprint
+    volume: 0.01
   Occator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12746
     name: Occator Blueprint
+    volume: 0.01
   Prorator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12734
     name: Prorator Blueprint
+    volume: 0.01
   Prowler Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12736
     name: Prowler Blueprint
+    volume: 0.01
   Viator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
+    id: 12744
     name: Viator Blueprint
+    volume: 0.01

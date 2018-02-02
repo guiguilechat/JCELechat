@@ -21,7 +21,9 @@ items:
     SignatureRadius: 4000
     StructureUniformity: 1.0
     Uniformity: 1.0
+    id: 32302
     name: QA Sovereignty Blockade Unit
+    volume: 1.0
   Sovereignty Blockade Unit:
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.5
@@ -44,4 +46,6 @@ items:
     SignatureRadius: 4000
     StructureUniformity: 1.0
     Uniformity: 1.0
+    id: 32250
     name: Sovereignty Blockade Unit
+    volume: 2500.0

@@ -7,7 +7,9 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 28400
     name: Compressed Glazed Hedbergite
+    volume: 0.47
   Compressed Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -16,7 +18,9 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 28401
     name: Compressed Hedbergite
+    volume: 0.47
   Compressed Lustrous Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 4
@@ -25,7 +29,9 @@ items:
     OreBasicType: 46680
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 46696
     name: Compressed Lustrous Hedbergite
+    volume: 0.47
   Compressed Vitric Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -34,7 +40,9 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 28402
     name: Compressed Vitric Hedbergite
+    volume: 0.47
   Glazed Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 3
@@ -45,7 +53,9 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 17441
     name: Glazed Hedbergite
+    volume: 3.0
   Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1
@@ -56,7 +66,9 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 21
     name: Hedbergite
+    volume: 3.0
   Lustrous Hedbergite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4
@@ -67,7 +79,9 @@ items:
     OreBasicType: 46680
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 46680
     name: Lustrous Hedbergite
+    volume: 3.0
   Vitric Hedbergite:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2
@@ -78,4 +92,6 @@ items:
     OreBasicType: 21
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
+    id: 17440
     name: Vitric Hedbergite
+    volume: 3.0

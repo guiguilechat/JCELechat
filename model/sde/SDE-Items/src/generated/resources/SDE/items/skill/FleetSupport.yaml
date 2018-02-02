@@ -6,7 +6,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 20494
     name: Armored Command
+    volume: 0.01
   Armored Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -16,7 +18,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 11569
     name: Armored Command Specialist
+    volume: 0.01
   Command Burst Specialist:
     PrimaryAttribute: 164
     ReloadTimeBonus: -10
@@ -24,7 +28,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
+    id: 3354
     name: Command Burst Specialist
+    volume: 0.01
   Fleet Command:
     AreaOfEffectBonus: 5
     CanNotBeTrainedOnTrial: 1
@@ -33,7 +39,9 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
+    id: 24764
     name: Fleet Command
+    volume: 0.01
   Information Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -41,7 +49,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 20495
     name: Information Command
+    volume: 0.01
   Information Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -51,13 +61,17 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3352
     name: Information Command Specialist
+    volume: 0.01
   Leadership:
     AreaOfEffectBonus: 7
     PrimaryAttribute: 164
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 3348
     name: Leadership
+    volume: 0.01
   Mining Director:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -67,7 +81,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 22552
     name: Mining Director
+    volume: 0.01
   Mining Foreman:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -75,7 +91,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 22536
     name: Mining Foreman
+    volume: 0.01
   Shield Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -83,7 +101,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3350
     name: Shield Command
+    volume: 0.01
   Shield Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -93,7 +113,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3351
     name: Shield Command Specialist
+    volume: 0.01
   Skirmish Command:
     DurationBonus: 10
     PrimaryAttribute: 164
@@ -101,7 +123,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3349
     name: Skirmish Command
+    volume: 0.01
   Skirmish Command Specialist:
     CommandStrengthBonus: 10
     PrimaryAttribute: 164
@@ -111,7 +135,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 11572
     name: Skirmish Command Specialist
+    volume: 0.01
   Spatial Phenomena Generation:
     CanNotBeTrainedOnTrial: 1
     DurationBonus: 10
@@ -122,7 +148,9 @@ items:
     RequiredSkill2Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 43728
     name: Spatial Phenomena Generation
+    volume: 0.01
   Wing Command:
     AreaOfEffectBonus: 6
     CanNotBeTrainedOnTrial: 1
@@ -131,4 +159,6 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 11574
     name: Wing Command
+    volume: 0.01

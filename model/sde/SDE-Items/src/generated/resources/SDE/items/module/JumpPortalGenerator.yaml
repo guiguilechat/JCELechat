@@ -18,7 +18,9 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 28652
     name: Covert Jump Portal Generator I
+    volume: 125.0
   Jump Portal Generator I:
     CanFitShipGroup01: 30
     CapacitorNeed: 1000.0
@@ -40,4 +42,6 @@ items:
     SiegeModeWarpStatus: 100
     SpeedFactor: -100.0
     TechLevel: 1
+    id: 23953
     name: Jump Portal Generator I
+    volume: 10000.0

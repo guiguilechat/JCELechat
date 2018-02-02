@@ -20,7 +20,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 25270
     name: Biochemical Silo
+    volume: 4000.0
   Catalyst Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -42,7 +44,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 25271
     name: Catalyst Silo
+    volume: 4000.0
   Coupling Array:
     AnchoringDelay: 5000
     ArmorHP: 10000
@@ -63,7 +67,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 17982
     name: Coupling Array
+    volume: 4000.0
   Expanded Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -84,7 +90,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 28884
     name: Expanded Silo
+    volume: 8000.0
   Freedom Hospital:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -106,7 +114,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 28317
     name: Freedom Hospital
+    volume: 4000.0
   General Storage:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -129,7 +139,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 25821
     name: General Storage
+    volume: 4000.0
   Hazardous Chemical Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -151,7 +163,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 25280
     name: Hazardous Chemical Silo
+    volume: 4000.0
   Holding Pen:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -173,7 +187,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 28315
     name: Holding Pen
+    volume: 4000.0
   Hybrid Polymer Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -196,7 +212,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 30655
     name: Hybrid Polymer Silo
+    volume: 4000.0
   Reception Center:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -218,7 +236,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 28314
     name: Reception Center
+    volume: 4000.0
   Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -239,7 +259,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 14343
     name: Silo
+    volume: 4000.0
   Slave Pen:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -261,7 +283,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 28316
     name: Slave Pen
+    volume: 4000.0
   Ultra Fast Silo:
     AnchoringDelay: 10000
     DisallowOffensiveModifiers: 1
@@ -276,4 +300,6 @@ items:
     SignatureRadius: 2000
     StructureUniformity: 1.0
     UnanchoringDelay: 10000
+    id: 17764
     name: Ultra Fast Silo
+    volume: 1150.0

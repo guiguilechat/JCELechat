@@ -12,4 +12,6 @@ items:
     RemoteResistanceID: 2115
     SpeedFactor: -70.0
     StructureItemVisualFlag: 1
+    id: 35943
     name: Standup Stasis Webifier I
+    volume: 4000.0

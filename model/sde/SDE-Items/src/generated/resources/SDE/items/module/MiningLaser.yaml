@@ -12,7 +12,9 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 1
+    id: 22921
     name: '''Habitat'' Miner I'
+    volume: 5.0
   '''Wild'' Miner I':
     CapacitorNeed: 40.0
     Duration: 60000.0
@@ -26,7 +28,9 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 1
+    id: 22923
     name: '''Wild'' Miner I'
+    volume: 5.0
   Civilian Miner:
     CapacitorNeed: 5.0
     Cpu: 65.0
@@ -41,7 +45,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 3651
     name: Civilian Miner
+    volume: 5.0
   Deep Core Mining Laser I:
     CapacitorNeed: 240.0
     CrystalsGetDamaged: 1
@@ -59,7 +65,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 12108
     name: Deep Core Mining Laser I
+    volume: 5.0
   Dual Diode Mining Laser I:
     CapacitorNeed: 10.0
     Duration: 60000.0
@@ -74,7 +82,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 5241
     name: Dual Diode Mining Laser I
+    volume: 5.0
   EP-R Argon Ion Basic Excavation Pulse:
     Duration: 60000.0
     Hp: 40
@@ -87,7 +97,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 5231
     name: EP-R Argon Ion Basic Excavation Pulse
+    volume: 5.0
   EP-S Gaussian Scoped Mining Laser:
     CapacitorNeed: 20.0
     Cpu: 65.0
@@ -103,7 +115,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 5239
     name: EP-S Gaussian Scoped Mining Laser
+    volume: 5.0
   Gallente Mining Laser:
     CapacitorNeed: 10.0
     Cpu: 60.0
@@ -120,7 +134,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11330
+    id: 21841
     name: Gallente Mining Laser
+    volume: 5.0
   Ice Mining Laser I:
     CanFitShipGroup01: 1283
     CapacitorNeed: 10.0
@@ -136,7 +152,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 37450
     name: Ice Mining Laser I
+    volume: 5.0
   Ice Mining Laser II:
     CanFitShipGroup01: 1283
     CapacitorNeed: 15.0
@@ -153,7 +171,9 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11346
+    id: 37451
     name: Ice Mining Laser II
+    volume: 5.0
   Miner I:
     CapacitorNeed: 20.0
     Duration: 60000.0
@@ -167,7 +187,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 483
     name: Miner I
+    volume: 5.0
   Miner II:
     CapacitorNeed: 70.0
     Duration: 60000.0
@@ -182,7 +204,9 @@ items:
     TargetGroup: 11
     TechLevel: 2
     TypeColorScheme: 11347
+    id: 482
     name: Miner II
+    volume: 5.0
   Miner II (China):
     CapacitorNeed: 90.0
     Duration: 60000.0
@@ -196,7 +220,9 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 2
+    id: 28369
     name: Miner II (China)
+    volume: 5.0
   ORE Deep Core Mining Laser:
     CapacitorNeed: 240.0
     CrystalsGetDamaged: 1
@@ -216,7 +242,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 28748
     name: ORE Deep Core Mining Laser
+    volume: 5.0
   ORE Ice Mining Laser:
     CanFitShipGroup01: 1283
     CapacitorNeed: 15.0
@@ -234,7 +262,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 37452
     name: ORE Ice Mining Laser
+    volume: 5.0
   ORE Miner:
     CapacitorNeed: 70.0
     Duration: 60000.0
@@ -250,7 +280,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 28750
     name: ORE Miner
+    volume: 5.0
   Particle Bore Compact Mining Laser:
     CapacitorNeed: 20.0
     Cpu: 55.0
@@ -266,7 +298,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 5245
     name: Particle Bore Compact Mining Laser
+    volume: 5.0
   Rubin Basic Particle Bore Stream:
     Duration: 60000.0
     Hp: 40
@@ -278,7 +312,9 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 1
+    id: 5237
     name: Rubin Basic Particle Bore Stream
+    volume: 5.0
   Single Diode Basic Mining Laser:
     Cpu: 45.0
     Duration: 60000.0
@@ -293,7 +329,9 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 1
+    id: 5233
     name: Single Diode Basic Mining Laser
+    volume: 5.0
   XeCl Drilling Beam I:
     CapacitorNeed: 10.0
     Duration: 60000.0
@@ -308,7 +346,9 @@ items:
     TargetGroup: 11
     TechLevel: 1
     TypeColorScheme: 11346
+    id: 5243
     name: XeCl Drilling Beam I
+    volume: 5.0
   Xenon Basic Drilling Beam:
     Duration: 60000.0
     Hp: 40
@@ -320,4 +360,6 @@ items:
     Slots: 1
     TargetGroup: 11
     TechLevel: 1
+    id: 5235
     name: Xenon Basic Drilling Beam
+    volume: 5.0

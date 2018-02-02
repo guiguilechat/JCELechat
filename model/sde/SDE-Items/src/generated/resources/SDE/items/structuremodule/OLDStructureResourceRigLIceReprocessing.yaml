@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 41428
     name: OLD L-Set Ice Grading Processor I
+    volume: 20.0
   OLD L-Set Ice Grading Processor II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 41429
     name: OLD L-Set Ice Grading Processor II
+    volume: 20.0

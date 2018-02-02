@@ -1,10 +1,16 @@
 items:
   Angel Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27871
     name: Angel Stasis Webification Battery Blueprint
+    volume: 0.01
   Domination Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27872
     name: Domination Stasis Webification Battery Blueprint
+    volume: 0.01
   Stasis Webification Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2741
     name: Stasis Webification Battery Blueprint
+    volume: 0.01

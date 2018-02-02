@@ -20,7 +20,9 @@ items:
     ScanMagnetometricStrengthBonus: 7.0
     ScanRadarStrengthBonus: 7.0
     TechLevel: 1
+    id: 20581
     name: '''Ghost'' Burst Jammer'
+    volume: 5.0
   1Z-3 Subversive ECM Eruption:
     CapacitorNeed: 204.0
     Duration: 30000.0
@@ -40,7 +42,9 @@ items:
     ScanMagnetometricStrengthBonus: 6.900000095367432
     ScanRadarStrengthBonus: 6.900000095367432
     TechLevel: 1
+    id: 5359
     name: 1Z-3 Subversive ECM Eruption
+    volume: 5.0
   Burst Jammer I:
     CapacitorNeed: 240.0
     Duration: 30000.0
@@ -59,7 +63,9 @@ items:
     ScanMagnetometricStrengthBonus: 6.0
     ScanRadarStrengthBonus: 6.0
     TechLevel: 1
+    id: 580
     name: Burst Jammer I
+    volume: 5.0
   Burst Jammer II:
     CapacitorNeed: 288.0
     Cpu: 36.0
@@ -80,7 +86,9 @@ items:
     ScanMagnetometricStrengthBonus: 7.199999809265137
     ScanRadarStrengthBonus: 7.199999809265137
     TechLevel: 2
+    id: 2117
     name: Burst Jammer II
+    volume: 5.0
   Cetus Scoped Burst Jammer:
     CapacitorNeed: 240.0
     Cpu: 30.0
@@ -101,7 +109,9 @@ items:
     ScanMagnetometricStrengthBonus: 6.599999904632568
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
+    id: 5365
     name: Cetus Scoped Burst Jammer
+    volume: 5.0
   Deluge Enduring Burst Jammer:
     CapacitorNeed: 192.0
     Cpu: 30.0
@@ -122,7 +132,9 @@ items:
     ScanMagnetometricStrengthBonus: 6.599999904632568
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
+    id: 5361
     name: Deluge Enduring Burst Jammer
+    volume: 5.0
   Rash Compact Burst Jammer:
     CapacitorNeed: 240.0
     Duration: 30000.0
@@ -142,7 +154,9 @@ items:
     ScanMagnetometricStrengthBonus: 6.599999904632568
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
+    id: 5363
     name: Rash Compact Burst Jammer
+    volume: 5.0
   Sentient Burst Jammer:
     CapacitorNeed: 180.0
     Cpu: 24.0
@@ -164,7 +178,9 @@ items:
     ScanMagnetometricStrengthBonus: 8.0
     ScanRadarStrengthBonus: 8.0
     TechLevel: 1
+    id: 40690
     name: Sentient Burst Jammer
+    volume: 5.0
   Unit D-34343's Modified Burst Jammer:
     CapacitorNeed: 300.0
     Cpu: 38.0
@@ -186,7 +202,9 @@ items:
     ScanMagnetometricStrengthBonus: 9.0
     ScanRadarStrengthBonus: 9.0
     TechLevel: 1
+    id: 40691
     name: Unit D-34343's Modified Burst Jammer
+    volume: 5.0
   Unit F-435454's Modified Burst Jammer:
     CapacitorNeed: 320.0
     Cpu: 40.0
@@ -208,7 +226,9 @@ items:
     ScanMagnetometricStrengthBonus: 9.5
     ScanRadarStrengthBonus: 9.5
     TechLevel: 1
+    id: 40692
     name: Unit F-435454's Modified Burst Jammer
+    volume: 5.0
   Unit P-343554's Modified Burst Jammer:
     CapacitorNeed: 340.0
     Cpu: 42.0
@@ -230,7 +250,9 @@ items:
     ScanMagnetometricStrengthBonus: 10.0
     ScanRadarStrengthBonus: 10.0
     TechLevel: 1
+    id: 40693
     name: Unit P-343554's Modified Burst Jammer
+    volume: 5.0
   Unit W-634's Modified Burst Jammer:
     CapacitorNeed: 360.0
     Cpu: 44.0
@@ -252,4 +274,6 @@ items:
     ScanMagnetometricStrengthBonus: 10.5
     ScanRadarStrengthBonus: 10.5
     TechLevel: 1
+    id: 40694
     name: Unit W-634's Modified Burst Jammer
+    volume: 5.0

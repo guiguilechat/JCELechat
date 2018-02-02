@@ -14,7 +14,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46484
     name: Standup M-Set Composite Reactor Time Efficiency I
+    volume: 10.0
   Standup M-Set Composite Reactor Time Efficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -30,4 +32,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46485
     name: Standup M-Set Composite Reactor Time Efficiency II
+    volume: 10.0

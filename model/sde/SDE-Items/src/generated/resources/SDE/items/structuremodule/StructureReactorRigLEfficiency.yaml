@@ -15,7 +15,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 46496
     name: Standup L-Set Reactor Efficiency I
+    volume: 20.0
   Standup L-Set Reactor Efficiency II:
     CanFitShipGroup03: 1406
     DisallowInHighSec: 1
@@ -32,4 +34,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 46497
     name: Standup L-Set Reactor Efficiency II
+    volume: 20.0

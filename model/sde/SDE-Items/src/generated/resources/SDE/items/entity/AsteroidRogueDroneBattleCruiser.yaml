@@ -1,13 +1,25 @@
 items:
   Crippler Drone:
+    id: 25640
     name: Crippler Drone
+    volume: 60.0
   Defeater Drone:
+    id: 25642
     name: Defeater Drone
+    volume: 60.0
   Enforcer Drone:
+    id: 25654
     name: Enforcer Drone
+    volume: 60.0
   Exterminator Drone:
+    id: 25655
     name: Exterminator Drone
+    volume: 60.0
   Siege Drone:
+    id: 25673
     name: Siege Drone
+    volume: 60.0
   Striker Drone:
+    id: 25697
     name: Striker Drone
+    volume: 60.0

@@ -23,4 +23,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    id: 27676
     name: Structure Repair Array
+    volume: 4000.0

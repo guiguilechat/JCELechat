@@ -22,4 +22,6 @@ items:
     ScanRadarStrengthPercent: 50
     ScanResolutionBonus: 500.0
     TechLevel: 1
+    id: 41411
     name: Networked Sensor Array
+    volume: 4000.0

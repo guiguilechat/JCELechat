@@ -1,21 +1,41 @@
 items:
   Blood Apostle:
+    id: 11908
     name: Blood Apostle
+    volume: 1150000.0
   Blood Archbishop:
+    id: 23265
     name: Blood Archbishop
+    volume: 1150000.0
   Blood Archon:
+    id: 11905
     name: Blood Archon
+    volume: 1100000.0
   Blood Cardinal:
+    id: 23268
     name: Blood Cardinal
+    volume: 1150000.0
   Blood Harbinger:
+    id: 23266
     name: Blood Harbinger
+    volume: 1150000.0
   Blood Monsignor:
+    id: 23267
     name: Blood Monsignor
+    volume: 1150000.0
   Blood Oracle:
+    id: 11907
     name: Blood Oracle
+    volume: 1100000.0
   Blood Patriarch:
+    id: 23269
     name: Blood Patriarch
+    volume: 1150000.0
   Blood Pope:
+    id: 23270
     name: Blood Pope
+    volume: 1150000.0
   Blood Prophet:
+    id: 11906
     name: Blood Prophet
+    volume: 1150000.0

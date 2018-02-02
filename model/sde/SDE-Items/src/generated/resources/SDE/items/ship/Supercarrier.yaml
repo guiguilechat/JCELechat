@@ -106,7 +106,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23919
     name: Aeon
+    volume: 6.2E7
   Hel:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -215,7 +217,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 22852
     name: Hel
+    volume: 5.1E7
   Nation:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -254,7 +258,9 @@ items:
     ThermalDamageResonance: 1.0
     WarpSpeedMultiplier: 3.0
     WeaponDisruptionResistance: 1.0
+    id: 3628
     name: Nation
+    volume: 6.2E7
   Nyx:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -362,7 +368,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23913
     name: Nyx
+    volume: 5.82E7
   Revenant:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -476,7 +484,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 3514
     name: Revenant
+    volume: 6.2E7
   Vendetta:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -589,7 +599,9 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 42125
     name: Vendetta
+    volume: 5.82E7
   Wyvern:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -697,4 +709,6 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
+    id: 23917
     name: Wyvern
+    volume: 5.3E7

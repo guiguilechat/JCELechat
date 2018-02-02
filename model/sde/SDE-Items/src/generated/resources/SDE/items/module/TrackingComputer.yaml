@@ -19,7 +19,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 13.5
+    id: 22927
     name: '''Economist'' Tracking Computer I'
+    volume: 5.0
   '''Marketeer'' Tracking Computer':
     CapacitorNeed: 4.0
     ChargeGroup1: 907
@@ -41,7 +43,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 15.0
+    id: 22929
     name: '''Marketeer'' Tracking Computer'
+    volume: 5.0
   '''Orion'' Tracking CPU I':
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -61,7 +65,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 11.5
+    id: 6175
     name: '''Orion'' Tracking CPU I'
+    volume: 5.0
   Brynn's Modified Tracking Computer:
     CapacitorNeed: 11.0
     ChargeGroup1: 907
@@ -83,7 +89,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 18.399999618530273
+    id: 15284
     name: Brynn's Modified Tracking Computer
+    volume: 5.0
   Cormack's Modified Tracking Computer:
     CapacitorNeed: 14.0
     ChargeGroup1: 907
@@ -105,7 +113,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 21.0
+    id: 15290
     name: Cormack's Modified Tracking Computer
+    volume: 5.0
   F-12 Enduring Tracking Computer:
     CapacitorNeed: 4.0
     ChargeGroup1: 907
@@ -126,7 +136,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 12.0
+    id: 6176
     name: F-12 Enduring Tracking Computer
+    volume: 5.0
   Federation Navy Tracking Computer:
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -148,7 +160,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 17.5
+    id: 15792
     name: Federation Navy Tracking Computer
+    volume: 5.0
   Monopulse Tracking Mechanism I:
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -168,7 +182,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 10.5
+    id: 6174
     name: Monopulse Tracking Mechanism I
+    volume: 5.0
   Optical Compact Tracking Computer:
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -189,7 +205,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 12.0
+    id: 6173
     name: Optical Compact Tracking Computer
+    volume: 5.0
   Setele's Modified Tracking Computer:
     CapacitorNeed: 13.0
     ChargeGroup1: 907
@@ -211,7 +229,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 20.100000381469727
+    id: 15288
     name: Setele's Modified Tracking Computer
+    volume: 5.0
   Shadow Serpentis Tracking Computer:
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -233,7 +253,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 17.5
+    id: 14238
     name: Shadow Serpentis Tracking Computer
+    volume: 5.0
   Tracking Computer I:
     CapacitorNeed: 7.0
     ChargeGroup1: 907
@@ -253,7 +275,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 10.0
+    id: 1977
     name: Tracking Computer I
+    volume: 5.0
   Tracking Computer II:
     CapacitorNeed: 10.0
     ChargeGroup1: 907
@@ -273,7 +297,9 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     TrackingSpeedBonus: 15.0
+    id: 1978
     name: Tracking Computer II
+    volume: 5.0
   Tuvan's Modified Tracking Computer:
     CapacitorNeed: 12.0
     ChargeGroup1: 907
@@ -295,4 +321,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     TrackingSpeedBonus: 19.299999237060547
+    id: 15286
     name: Tuvan's Modified Tracking Computer
+    volume: 5.0

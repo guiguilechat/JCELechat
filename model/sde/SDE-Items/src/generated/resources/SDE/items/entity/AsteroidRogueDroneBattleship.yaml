@@ -1,21 +1,41 @@
 items:
   Domination Drone:
+    id: 25648
     name: Domination Drone
+    volume: 1010000.0
   Drone Controller:
+    id: 25650
     name: Drone Controller
+    volume: 1010000.0
   Drone Creator:
+    id: 25651
     name: Drone Creator
+    volume: 1010000.0
   Drone Queen:
+    id: 25652
     name: Drone Queen
+    volume: 1010000.0
   Drone Ruler:
+    id: 25653
     name: Drone Ruler
+    volume: 1010000.0
   Matriarch Drone:
+    id: 25662
     name: Matriarch Drone
+    volume: 1010000.0
   Patriarch Drone:
+    id: 25665
     name: Patriarch Drone
+    volume: 1010000.0
   Spearhead Drone:
+    id: 25675
     name: Spearhead Drone
+    volume: 1010000.0
   Supreme Drone Parasite:
+    id: 25699
     name: Supreme Drone Parasite
+    volume: 1010000.0
   Swarm Preserver Drone:
+    id: 25700
     name: Swarm Preserver Drone
+    volume: 1010000.0

@@ -6,221 +6,287 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 32254
     name: Imperial Navy Modified 'Noble' Implant
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27074
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
     ArmorHpBonus2: 2.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3479
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13256
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
     ArmorHpBonus2: 4.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3481
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19550
     name: Inherent Implants 'Noble' Hull Upgrades HG-1005
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1006:
     ArmorHpBonus2: 6.0
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3482
     name: Inherent Implants 'Noble' Hull Upgrades HG-1006
+    volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
     Implantness: 10
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 21606
     name: Inherent Implants 'Noble' Hull Upgrades HG-1008
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-801:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27072
     name: Inherent Implants 'Noble' Mechanic MC-801
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
     HullHpBonus: 2.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3471
     name: Inherent Implants 'Noble' Mechanic MC-802
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13257
     name: Inherent Implants 'Noble' Mechanic MC-803
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
     HullHpBonus: 4.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3474
     name: Inherent Implants 'Noble' Mechanic MC-804
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19549
     name: Inherent Implants 'Noble' Mechanic MC-805
+    volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-806:
     HullHpBonus: 6.0
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3475
     name: Inherent Implants 'Noble' Mechanic MC-806
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
     CapNeedBonus: -1
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27071
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
     CapNeedBonus: -2
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3414
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
     CapNeedBonus: -3
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 17871
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
     CapNeedBonus: -4
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3415
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
     CapNeedBonus: -5
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19548
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
+    volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
     CapNeedBonus: -6
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3470
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-901:
     Implantness: 9
     RepairBonus: 1
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27073
     name: Inherent Implants 'Noble' Repair Proficiency RP-901
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-902:
     Implantness: 9
     RepairBonus: 2
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3476
     name: Inherent Implants 'Noble' Repair Proficiency RP-902
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-903:
     Implantness: 9
     RepairBonus: 3
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 19684
     name: Inherent Implants 'Noble' Repair Proficiency RP-903
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-904:
     Implantness: 9
     RepairBonus: 4
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3477
     name: Inherent Implants 'Noble' Repair Proficiency RP-904
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-905:
     Implantness: 9
     RepairBonus: 5
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19685
     name: Inherent Implants 'Noble' Repair Proficiency RP-905
+    volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-906:
     Implantness: 9
     RepairBonus: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3478
     name: Inherent Implants 'Noble' Repair Proficiency RP-906
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-601:
     DurationSkillBonus: -1
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27070
     name: Inherent Implants 'Noble' Repair Systems RS-601
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-602:
     DurationSkillBonus: -2
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3291
     name: Inherent Implants 'Noble' Repair Systems RS-602
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-603:
     DurationSkillBonus: -3
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13258
     name: Inherent Implants 'Noble' Repair Systems RS-603
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-604:
     DurationSkillBonus: -4
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3292
     name: Inherent Implants 'Noble' Repair Systems RS-604
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-605:
     DurationSkillBonus: -5
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 19547
     name: Inherent Implants 'Noble' Repair Systems RS-605
+    volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-606:
     DurationSkillBonus: -6
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3299
     name: Inherent Implants 'Noble' Repair Systems RS-606
+    volume: 1.0
   Numon Family Heirloom:
     DurationSkillBonus: -7
     Implantness: 6
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 20358
     name: Numon Family Heirloom
+    volume: 1.0

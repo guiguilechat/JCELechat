@@ -5,39 +5,51 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 6000
     StructureUniformity: 1.0
+    id: 11490
     name: Colossal Secure Container
+    volume: 6000.0
   Giant Secure Container:
     Hp: 500000
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     SignatureRadius: 3000
     StructureUniformity: 1.0
+    id: 11489
     name: Giant Secure Container
+    volume: 3000.0
   Huge Secure Container:
     Hp: 500000
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     SignatureRadius: 1500
     StructureUniformity: 1.0
+    id: 11488
     name: Huge Secure Container
+    volume: 1500.0
   Large Secure Container:
     Hp: 500000
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     SignatureRadius: 650
     StructureUniformity: 1.0
+    id: 3465
     name: Large Secure Container
+    volume: 650.0
   Medium Secure Container:
     Hp: 50000
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     SignatureRadius: 325
     StructureUniformity: 1.0
+    id: 3466
     name: Medium Secure Container
+    volume: 325.0
   Small Secure Container:
     Hp: 50000
     RequiredSkill1: 11584
     RequiredSkill1Level: 1
     SignatureRadius: 100
     StructureUniformity: 1.0
+    id: 3467
     name: Small Secure Container
+    volume: 100.0

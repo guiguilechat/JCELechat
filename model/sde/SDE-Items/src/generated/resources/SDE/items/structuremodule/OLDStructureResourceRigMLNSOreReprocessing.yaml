@@ -16,7 +16,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 41422
     name: OLD M-Set LNS Materials Reclamation I
+    volume: 10.0
   OLD M-Set LNS Materials Reclamation II:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -34,4 +36,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 41423
     name: OLD M-Set LNS Materials Reclamation II
+    volume: 10.0

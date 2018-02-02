@@ -1,65 +1,129 @@
 items:
   Admiral Aurobe Kois:
+    id: 25814
     name: Admiral Aurobe Kois
+    volume: 2.2E7
   Caldari Navy Fleet Commander:
+    id: 15338
     name: Caldari Navy Fleet Commander
+    volume: 1080000.0
   Caldari Navy Raven:
+    id: 12391
     name: Caldari Navy Raven
+    volume: 1040000.0
   Caldari Navy Scorpion:
+    id: 15326
     name: Caldari Navy Scorpion
+    volume: 1040000.0
   Caldari Navy Temura:
+    id: 20334
     name: Caldari Navy Temura
+    volume: 1080000.0
   Civilian Caldari Battleship Raven:
+    id: 30792
     name: Civilian Caldari Battleship Raven
+    volume: 1080000.0
   Civilian Caldari Battleship Rokh:
+    id: 30791
     name: Civilian Caldari Battleship Rokh
+    volume: 1080000.0
   Civilian Caldari Battleship Scorpion:
+    id: 30790
     name: Civilian Caldari Battleship Scorpion
+    volume: 1080000.0
   Independent Green-Crewed Raven:
+    id: 29679
     name: Independent Green-Crewed Raven
+    volume: 1080000.0
   Independent Green-Crewed Rokh:
+    id: 29680
     name: Independent Green-Crewed Rokh
+    volume: 1080000.0
   Independent Green-Crewed Scorpion:
+    id: 29681
     name: Independent Green-Crewed Scorpion
+    volume: 1080000.0
   Independent Raven:
+    id: 29682
     name: Independent Raven
+    volume: 2.2E7
   Independent Rokh:
+    id: 29683
     name: Independent Rokh
+    volume: 2.2E7
   Independent Scorpion:
+    id: 29684
     name: Independent Scorpion
+    volume: 2.2E7
   Independent Veteran Raven:
+    id: 29685
     name: Independent Veteran Raven
+    volume: 2.2E7
   Independent Veteran Rokh:
+    id: 29686
     name: Independent Veteran Rokh
+    volume: 2.2E7
   Independent Veteran Scorpion:
+    id: 29687
     name: Independent Veteran Scorpion
+    volume: 2.2E7
   Ishukone Watch Commander:
+    id: 32296
     name: Ishukone Watch Commander
+    volume: 2.2E7
   Nugoeihuvi Caretaker:
+    id: 32297
     name: Nugoeihuvi Caretaker
+    volume: 2.2E7
   State Oshiro:
+    id: 25089
     name: State Oshiro
+    volume: 2.2E7
   State Shukuro Bishamon:
+    id: 25097
     name: State Shukuro Bishamon
+    volume: 2.2E7
   State Shukuro Daijo:
+    id: 25094
     name: State Shukuro Daijo
+    volume: 2.2E7
   State Shukuro Nagashin:
+    id: 28171
     name: State Shukuro Nagashin
+    volume: 1080000.0
   State Shukuro Shogun:
+    id: 25098
     name: State Shukuro Shogun
+    volume: 2.2E7
   State Shukuro Taisho:
+    id: 25092
     name: State Shukuro Taisho
+    volume: 2.2E7
   State Shukuro Tenno:
+    id: 25090
     name: State Shukuro Tenno
+    volume: 2.2E7
   State Shukuro Turushima:
+    id: 28174
     name: State Shukuro Turushima
+    volume: 1080000.0
   State Tenkyu:
+    id: 25083
     name: State Tenkyu
+    volume: 1040000.0
   State Utaisho:
+    id: 25084
     name: State Utaisho
+    volume: 1080000.0
   State Yojimbo:
+    id: 25085
     name: State Yojimbo
+    volume: 1040000.0
   State Zen:
+    id: 25086
     name: State Zen
+    volume: 2.2E7
   Tantima Areki's Raven:
+    id: 25389
     name: Tantima Areki's Raven
+    volume: 2.2E7

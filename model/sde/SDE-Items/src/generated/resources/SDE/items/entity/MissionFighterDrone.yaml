@@ -1,17 +1,33 @@
 items:
   Burner Dragonfly:
+    id: 36846
     name: Burner Dragonfly
+    volume: 5000.0
   Burner Mantis:
+    id: 36847
     name: Burner Mantis
+    volume: 5000.0
   Federation Fighter:
+    id: 27900
     name: Federation Fighter
+    volume: 5000.0
   Gallente Federation Civilians:
+    id: 30995
     name: Gallente Federation Civilians
+    volume: 5000.0
   Imperial Fighter:
+    id: 27898
     name: Imperial Fighter
+    volume: 5000.0
   Outpost Defender:
+    id: 29025
     name: Outpost Defender
+    volume: 5000.0
   Republic Fighter:
+    id: 27901
     name: Republic Fighter
+    volume: 5000.0
   State Fighter:
+    id: 27899
     name: State Fighter
+    volume: 5000.0

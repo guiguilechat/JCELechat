@@ -4,76 +4,100 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27229
     name: Zainou 'Gypsy' Long Range Targeting LT-801
+    volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-802:
     Implantness: 8
     MaxTargetRangeBonus: 2.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 3274
     name: Zainou 'Gypsy' Long Range Targeting LT-802
+    volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 13233
     name: Zainou 'Gypsy' Long Range Targeting LT-803
+    volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-804:
     Implantness: 8
     MaxTargetRangeBonus: 4.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 1
+    id: 3275
     name: Zainou 'Gypsy' Long Range Targeting LT-804
+    volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27227
     name: Zainou 'Gypsy' Long Range Targeting LT-805
+    volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-806:
     Implantness: 8
     MaxTargetRangeBonus: 6.0
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 1
+    id: 3276
     name: Zainou 'Gypsy' Long Range Targeting LT-806
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-701:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     TechLevel: 1
+    id: 27131
     name: Zainou 'Gypsy' Signature Analysis SA-701
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-702:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
     ScanResolutionBonus: 2.0
     TechLevel: 1
+    id: 3268
     name: Zainou 'Gypsy' Signature Analysis SA-702
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-703:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 1
+    id: 10244
     name: Zainou 'Gypsy' Signature Analysis SA-703
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-704:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     ScanResolutionBonus: 4.0
     TechLevel: 1
+    id: 3269
     name: Zainou 'Gypsy' Signature Analysis SA-704
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-705:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 1
+    id: 27130
     name: Zainou 'Gypsy' Signature Analysis SA-705
+    volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-706:
     Implantness: 7
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     ScanResolutionBonus: 6.0
     TechLevel: 1
+    id: 3270
     name: Zainou 'Gypsy' Signature Analysis SA-706
+    volume: 1.0

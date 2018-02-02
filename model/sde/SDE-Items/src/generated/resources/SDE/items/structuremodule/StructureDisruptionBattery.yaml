@@ -14,7 +14,9 @@ items:
     RemoteResistanceID: 2112
     ScanResolutionBonus: -55.0
     StructureItemVisualFlag: 1
+    id: 35941
     name: Standup Remote Sensor Dampener I
+    volume: 4000.0
   Standup Target Painter I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
@@ -29,7 +31,9 @@ items:
     RemoteResistanceID: 2114
     SignatureRadiusBonus: 65.0
     StructureItemVisualFlag: 1
+    id: 35947
     name: Standup Target Painter I
+    volume: 4000.0
   Standup Weapon Disruptor I:
     AoeCloudSizeBonus: 50.0
     AoeVelocityBonus: -50.0
@@ -49,4 +53,6 @@ items:
     Power: 50000
     StructureItemVisualFlag: 1
     TrackingSpeedBonus: -60.0
+    id: 35945
     name: Standup Weapon Disruptor I
+    volume: 4000.0

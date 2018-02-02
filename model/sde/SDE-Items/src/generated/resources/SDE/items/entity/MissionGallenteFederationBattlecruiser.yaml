@@ -1,17 +1,33 @@
 items:
   Federation Calo:
+    id: 25169
     name: Federation Calo
+    volume: 112000.0
   Federation Pezos:
+    id: 25167
     name: Federation Pezos
+    volume: 112000.0
   Federation Praeco:
+    id: 25168
     name: Federation Praeco
+    volume: 112000.0
   Federation Praktor Arx:
+    id: 25171
     name: Federation Praktor Arx
+    volume: 112000.0
   Federation Praktor Auxilia:
+    id: 25173
     name: Federation Praktor Auxilia
+    volume: 112000.0
   Federation Praktor Bearcus:
+    id: 25170
     name: Federation Praktor Bearcus
+    volume: 112000.0
   Federation Praktor Diablic:
+    id: 28175
     name: Federation Praktor Diablic
+    volume: 150000.0
   Federation Praktor Erenus:
+    id: 28176
     name: Federation Praktor Erenus
+    volume: 150000.0

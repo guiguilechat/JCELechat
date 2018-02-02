@@ -7,7 +7,9 @@ items:
     OreBasicType: 45512
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46316
     name: Bountiful Loparite
+    volume: 10.0
   Bountiful Monazite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -16,7 +18,9 @@ items:
     OreBasicType: 45511
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46314
     name: Bountiful Monazite
+    volume: 10.0
   Bountiful Xenotime:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -25,7 +29,9 @@ items:
     OreBasicType: 45510
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46312
     name: Bountiful Xenotime
+    volume: 10.0
   Bountiful Ytterbite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 3
@@ -34,7 +40,9 @@ items:
     OreBasicType: 45513
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46318
     name: Bountiful Ytterbite
+    volume: 10.0
   Loparite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -43,7 +51,9 @@ items:
     OreBasicType: 45512
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 45512
     name: Loparite
+    volume: 10.0
   Monazite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -52,7 +62,9 @@ items:
     OreBasicType: 45511
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 45511
     name: Monazite
+    volume: 10.0
   Shining Loparite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -61,7 +73,9 @@ items:
     OreBasicType: 45512
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46317
     name: Shining Loparite
+    volume: 10.0
   Shining Monazite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -70,7 +84,9 @@ items:
     OreBasicType: 45511
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46315
     name: Shining Monazite
+    volume: 10.0
   Shining Xenotime:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -79,7 +95,9 @@ items:
     OreBasicType: 45510
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46313
     name: Shining Xenotime
+    volume: 10.0
   Shining Ytterbite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 5
@@ -88,7 +106,9 @@ items:
     OreBasicType: 45513
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 46319
     name: Shining Ytterbite
+    volume: 10.0
   Xenotime:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -97,7 +117,9 @@ items:
     OreBasicType: 45510
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 45510
     name: Xenotime
+    volume: 10.0
   Ytterbite:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 1
@@ -106,4 +128,6 @@ items:
     OreBasicType: 45513
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
+    id: 45513
     name: Ytterbite
+    volume: 10.0

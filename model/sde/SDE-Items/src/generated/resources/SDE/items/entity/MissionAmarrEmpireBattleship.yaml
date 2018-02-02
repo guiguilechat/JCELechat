@@ -1,63 +1,125 @@
 items:
   Amarr Luxury Yacht:
+    id: 15411
     name: Amarr Luxury Yacht
+    volume: 115000.0
   Ammatar Navy Apocalypse:
+    id: 14356
     name: Ammatar Navy Apocalypse
+    volume: 1150000.0
   Ammatar Navy Armageddon:
+    id: 15329
     name: Ammatar Navy Armageddon
+    volume: 1100000.0
   Ammatar Navy Fleet Commander:
+    id: 15336
     name: Ammatar Navy Fleet Commander
+    volume: 1150000.0
   Harkan's Behemoth:
+    id: 32268
     name: Harkan's Behemoth
+    volume: 1100000.0
   ISHAEKA Monalaz Commander:
+    id: 2594
     name: ISHAEKA Monalaz Commander
+    volume: 1150000.0
   Imperial Bataivah:
+    id: 24977
     name: Imperial Bataivah
+    volume: 1150000.0
   Imperial Dominator:
+    id: 24982
     name: Imperial Dominator
+    volume: 1150000.0
   Imperial Martyr:
+    id: 24983
     name: Imperial Martyr
+    volume: 1150000.0
   Imperial Navy Apocalypse:
+    id: 12388
     name: Imperial Navy Apocalypse
+    volume: 1150000.0
   Imperial Navy Armageddon:
+    id: 15328
     name: Imperial Navy Armageddon
+    volume: 1100000.0
   Imperial Navy Fleet Commander:
+    id: 15335
     name: Imperial Navy Fleet Commander
+    volume: 1150000.0
   Imperial Navy Jakar:
+    id: 20330
     name: Imperial Navy Jakar
+    volume: 1150000.0
   Imperial Origen:
+    id: 24976
     name: Imperial Origen
+    volume: 1100000.0
   Imperial Tanakh:
+    id: 24978
     name: Imperial Tanakh
+    volume: 1100000.0
   Imperial Templar Diviner:
+    id: 28168
     name: Imperial Templar Diviner
+    volume: 1100000.0
   Imperial Templar Dominator:
+    id: 24991
     name: Imperial Templar Dominator
+    volume: 1150000.0
   Imperial Templar Judgment:
+    id: 28167
     name: Imperial Templar Judgment
+    volume: 1100000.0
   Imperial Templar Martyr:
+    id: 24992
     name: Imperial Templar Martyr
+    volume: 1150000.0
   Imperial Templar Torah:
+    id: 24985
     name: Imperial Templar Torah
+    volume: 1150000.0
   Imperial Templar Ultara:
+    id: 24988
     name: Imperial Templar Ultara
+    volume: 1150000.0
   Imperial Ultara:
+    id: 24979
     name: Imperial Ultara
+    volume: 1150000.0
   Independent Abaddon:
+    id: 29675
     name: Independent Abaddon
+    volume: 1150000.0
   'Independent Apocalypse ':
+    id: 29674
     name: 'Independent Apocalypse '
+    volume: 1150000.0
   'Independent Armageddon ':
+    id: 29673
     name: 'Independent Armageddon '
+    volume: 1150000.0
   'Independent Green-Crewed Abaddon ':
+    id: 29671
     name: 'Independent Green-Crewed Abaddon '
+    volume: 1100000.0
   Independent Green-Crewed Apocalypse:
+    id: 29667
     name: Independent Green-Crewed Apocalypse
+    volume: 1150000.0
   Independent Green-Crewed Armageddon:
+    id: 29665
     name: Independent Green-Crewed Armageddon
+    volume: 1100000.0
   Independent Veteran Abaddon:
+    id: 29678
     name: Independent Veteran Abaddon
+    volume: 1100000.0
   Independent Veteran Apocalypse:
+    id: 29677
     name: Independent Veteran Apocalypse
+    volume: 1100000.0
   Independent Veteran Armageddon:
+    id: 29676
     name: Independent Veteran Armageddon
+    volume: 1100000.0

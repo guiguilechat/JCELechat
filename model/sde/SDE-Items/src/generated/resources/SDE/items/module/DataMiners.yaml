@@ -13,7 +13,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22329
     name: '''Alpha'' Data Analyzer I'
+    volume: 5.0
   '''Codex'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -28,7 +30,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22327
     name: '''Codex'' Data Analyzer I'
+    volume: 5.0
   '''Daemon'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -43,7 +47,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22325
     name: '''Daemon'' Data Analyzer I'
+    volume: 5.0
   '''Libram'' Data Analyzer I':
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -58,7 +64,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22331
     name: '''Libram'' Data Analyzer I'
+    volume: 5.0
   Civilian Data Analyzer:
     AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
@@ -71,7 +79,9 @@ items:
     VirusCoherence: 25
     VirusElementSlots: 3
     VirusStrength: 10
+    id: 27014
     name: Civilian Data Analyzer
+    volume: 5.0
   Civilian Relic Analyzer:
     AccessDifficultyBonus: 2
     CapacitorNeed: 1.0
@@ -84,7 +94,9 @@ items:
     VirusCoherence: 25
     VirusElementSlots: 3
     VirusStrength: 10
+    id: 27019
     name: Civilian Relic Analyzer
+    volume: 5.0
   Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -98,7 +110,9 @@ items:
     VirusCoherence: 40
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22175
     name: Data Analyzer I
+    volume: 5.0
   Data Analyzer II:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -114,7 +128,9 @@ items:
     VirusCoherence: 60
     VirusElementSlots: 3
     VirusStrength: 30
+    id: 30834
     name: Data Analyzer II
+    volume: 5.0
   Data Subverter I:
     AccessDifficultyBonus: 15
     CapacitorNeed: 20.0
@@ -126,7 +142,9 @@ items:
     RequiredSkill2: 21718
     RequiredSkill2Level: 1
     TechLevel: 1
+    id: 3793
     name: Data Subverter I
+    volume: 5.0
   Ligature Integrated Analyzer:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -145,7 +163,9 @@ items:
     VirusCoherence: 20
     VirusElementSlots: 1
     VirusStrength: 20
+    id: 41533
     name: Ligature Integrated Analyzer
+    volume: 5.0
   Purloined Sansha Data Analyzer:
     AccessDifficultyBonus: 5
     CanFitShipType1: 3532
@@ -160,7 +180,9 @@ items:
     VirusCoherence: 80
     VirusElementSlots: 3
     VirusStrength: 40
+    id: 3581
     name: Purloined Sansha Data Analyzer
+    volume: 5.0
   Relic Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -174,7 +196,9 @@ items:
     VirusCoherence: 40
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22177
     name: Relic Analyzer I
+    volume: 5.0
   Relic Analyzer II:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -190,7 +214,9 @@ items:
     VirusCoherence: 60
     VirusElementSlots: 3
     VirusStrength: 30
+    id: 30832
     name: Relic Analyzer II
+    volume: 5.0
   Sleeper Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -205,7 +231,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22335
     name: Sleeper Data Analyzer I
+    volume: 5.0
   Talocan Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -220,7 +248,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22333
     name: Talocan Data Analyzer I
+    volume: 5.0
   Terran Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -235,7 +265,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22337
     name: Terran Data Analyzer I
+    volume: 5.0
   Tetrimon Data Analyzer I:
     AccessDifficultyBonus: 5
     CapacitorNeed: 20.0
@@ -250,7 +282,9 @@ items:
     VirusCoherence: 50
     VirusElementSlots: 3
     VirusStrength: 20
+    id: 22339
     name: Tetrimon Data Analyzer I
+    volume: 5.0
   Zeugma Integrated Analyzer:
     AccessDifficultyBonus: 7
     CapacitorNeed: 20.0
@@ -269,4 +303,6 @@ items:
     VirusCoherence: 30
     VirusElementSlots: 1
     VirusStrength: 30
+    id: 41534
     name: Zeugma Integrated Analyzer
+    volume: 5.0

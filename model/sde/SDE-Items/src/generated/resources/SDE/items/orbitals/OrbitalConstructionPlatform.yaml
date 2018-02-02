@@ -23,4 +23,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 3962
     name: Customs Office Gantry
+    volume: 7600.0

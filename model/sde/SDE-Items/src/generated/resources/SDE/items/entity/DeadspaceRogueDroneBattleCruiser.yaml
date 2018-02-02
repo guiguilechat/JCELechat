@@ -1,15 +1,29 @@
 items:
   Crippler Alvatis:
+    id: 18074
     name: Crippler Alvatis
+    volume: 60.0
   Defeater Alvatis:
+    id: 18073
     name: Defeater Alvatis
+    volume: 60.0
   Enforcer Alvatis:
+    id: 3747
     name: Enforcer Alvatis
+    volume: 60.0
   Exterminator Alvatis:
+    id: 23490
     name: Exterminator Alvatis
+    volume: 60.0
   Siege Alvatis:
+    id: 23489
     name: Siege Alvatis
+    volume: 60.0
   Striker Alvatis:
+    id: 18075
     name: Striker Alvatis
+    volume: 60.0
   Swarm Overmind Secundus:
+    id: 45637
     name: Swarm Overmind Secundus
+    volume: 60.0

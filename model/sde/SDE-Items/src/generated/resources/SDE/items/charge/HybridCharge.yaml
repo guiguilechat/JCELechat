@@ -6,7 +6,9 @@ items:
     MainColor: 16764120
     TechLevel: 1
     WeaponRangeMultiplier: 0.5
+    id: 238
     name: Antimatter Charge L
+    volume: 0.025
   Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -14,7 +16,9 @@ items:
     MainColor: 16764120
     TechLevel: 1
     WeaponRangeMultiplier: 0.5
+    id: 230
     name: Antimatter Charge M
+    volume: 0.0125
   Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -22,7 +26,9 @@ items:
     MainColor: 16764120
     TechLevel: 1
     WeaponRangeMultiplier: 0.5
+    id: 222
     name: Antimatter Charge S
+    volume: 0.0025
   Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
@@ -30,7 +36,9 @@ items:
     MainColor: 16764120
     TechLevel: 1
     WeaponRangeMultiplier: 0.5
+    id: 17648
     name: Antimatter Charge XL
+    volume: 0.125
   Caldari Navy Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -41,7 +49,9 @@ items:
     TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.5
+    id: 21740
     name: Caldari Navy Antimatter Charge L
+    volume: 0.025
   Caldari Navy Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -52,7 +62,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.5
+    id: 23025
     name: Caldari Navy Antimatter Charge M
+    volume: 0.0125
   Caldari Navy Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -63,7 +75,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.5
+    id: 23009
     name: Caldari Navy Antimatter Charge S
+    volume: 0.0025
   Caldari Navy Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -75,7 +89,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 23049
     name: Caldari Navy Iridium Charge L
+    volume: 0.025
   Caldari Navy Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -87,7 +103,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 23035
     name: Caldari Navy Iridium Charge M
+    volume: 0.0125
   Caldari Navy Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -99,7 +117,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 23019
     name: Caldari Navy Iridium Charge S
+    volume: 0.0025
   Caldari Navy Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -111,7 +131,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.600000023841858
+    id: 23053
     name: Caldari Navy Iron Charge L
+    volume: 0.025
   Caldari Navy Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -123,7 +145,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.600000023841858
+    id: 23039
     name: Caldari Navy Iron Charge M
+    volume: 0.0125
   Caldari Navy Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -135,7 +159,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.600000023841858
+    id: 23023
     name: Caldari Navy Iron Charge S
+    volume: 0.0025
   Caldari Navy Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -147,7 +173,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.0
+    id: 23047
     name: Caldari Navy Lead Charge L
+    volume: 0.025
   Caldari Navy Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -159,7 +187,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.0
+    id: 23033
     name: Caldari Navy Lead Charge M
+    volume: 0.0125
   Caldari Navy Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -171,7 +201,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.0
+    id: 23017
     name: Caldari Navy Lead Charge S
+    volume: 0.0025
   Caldari Navy Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -183,7 +215,9 @@ items:
     TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.625
+    id: 23041
     name: Caldari Navy Plutonium Charge L
+    volume: 0.025
   Caldari Navy Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -195,7 +229,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.625
+    id: 23027
     name: Caldari Navy Plutonium Charge M
+    volume: 0.0125
   Caldari Navy Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -207,7 +243,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.625
+    id: 23011
     name: Caldari Navy Plutonium Charge S
+    volume: 0.0025
   Caldari Navy Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -219,7 +257,9 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.875
+    id: 23045
     name: Caldari Navy Thorium Charge L
+    volume: 0.025
   Caldari Navy Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -231,7 +271,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.875
+    id: 23031
     name: Caldari Navy Thorium Charge M
+    volume: 0.0125
   Caldari Navy Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -243,7 +285,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.875
+    id: 23015
     name: Caldari Navy Thorium Charge S
+    volume: 0.0025
   Caldari Navy Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -255,7 +299,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.399999976158142
+    id: 23051
     name: Caldari Navy Tungsten Charge L
+    volume: 0.025
   Caldari Navy Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -267,7 +313,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.399999976158142
+    id: 23037
     name: Caldari Navy Tungsten Charge M
+    volume: 0.0125
   Caldari Navy Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -279,7 +327,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.399999976158142
+    id: 23021
     name: Caldari Navy Tungsten Charge S
+    volume: 0.0025
   Caldari Navy Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -291,7 +341,9 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.75
+    id: 23043
     name: Caldari Navy Uranium Charge L
+    volume: 0.025
   Caldari Navy Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -303,7 +355,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.75
+    id: 23029
     name: Caldari Navy Uranium Charge M
+    volume: 0.0125
   Caldari Navy Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -315,7 +369,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.75
+    id: 23013
     name: Caldari Navy Uranium Charge S
+    volume: 0.0025
   Dread Guristas Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -326,7 +382,9 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
+    id: 21430
     name: Dread Guristas Antimatter Charge L
+    volume: 0.025
   Dread Guristas Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -337,7 +395,9 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
+    id: 21414
     name: Dread Guristas Antimatter Charge M
+    volume: 0.0125
   Dread Guristas Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -348,7 +408,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
+    id: 21398
     name: Dread Guristas Antimatter Charge S
+    volume: 0.0025
   Dread Guristas Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
@@ -359,7 +421,9 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
+    id: 21432
     name: Dread Guristas Antimatter Charge XL
+    volume: 0.125
   Dread Guristas Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -371,7 +435,9 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21420
     name: Dread Guristas Iridium Charge L
+    volume: 0.025
   Dread Guristas Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -383,7 +449,9 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21404
     name: Dread Guristas Iridium Charge M
+    volume: 0.0125
   Dread Guristas Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -395,7 +463,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21388
     name: Dread Guristas Iridium Charge S
+    volume: 0.0025
   Dread Guristas Iridium Charge XL:
     CapNeedBonus: -24
     ChargeSize: 4
@@ -407,7 +477,9 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21434
     name: Dread Guristas Iridium Charge XL
+    volume: 0.125
   Dread Guristas Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -419,7 +491,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21416
     name: Dread Guristas Iron Charge L
+    volume: 0.025
   Dread Guristas Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -431,7 +505,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21400
     name: Dread Guristas Iron Charge M
+    volume: 0.0125
   Dread Guristas Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -443,7 +519,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21384
     name: Dread Guristas Iron Charge S
+    volume: 0.0025
   Dread Guristas Iron Charge XL:
     CapNeedBonus: -30
     ChargeSize: 4
@@ -455,7 +533,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21436
     name: Dread Guristas Iron Charge XL
+    volume: 0.125
   Dread Guristas Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -467,7 +547,9 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
+    id: 21422
     name: Dread Guristas Lead Charge L
+    volume: 0.025
   Dread Guristas Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -479,7 +561,9 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
+    id: 21406
     name: Dread Guristas Lead Charge M
+    volume: 0.0125
   Dread Guristas Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -491,7 +575,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
+    id: 21390
     name: Dread Guristas Lead Charge S
+    volume: 0.0025
   Dread Guristas Lead Charge XL:
     CapNeedBonus: -50
     ChargeSize: 4
@@ -503,7 +589,9 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
+    id: 21438
     name: Dread Guristas Lead Charge XL
+    volume: 0.125
   Dread Guristas Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -515,7 +603,9 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.625
+    id: 21428
     name: Dread Guristas Plutonium Charge L
+    volume: 0.025
   Dread Guristas Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -527,7 +617,9 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.625
+    id: 21412
     name: Dread Guristas Plutonium Charge M
+    volume: 0.0125
   Dread Guristas Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -539,7 +631,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.625
+    id: 21396
     name: Dread Guristas Plutonium Charge S
+    volume: 0.0025
   Dread Guristas Plutonium Charge XL:
     CapNeedBonus: -5
     ChargeSize: 4
@@ -551,7 +645,9 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.625
+    id: 21440
     name: Dread Guristas Plutonium Charge XL
+    volume: 0.125
   Dread Guristas Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -563,7 +659,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.875
+    id: 21424
     name: Dread Guristas Thorium Charge L
+    volume: 0.025
   Dread Guristas Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -575,7 +673,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.875
+    id: 21408
     name: Dread Guristas Thorium Charge M
+    volume: 0.0125
   Dread Guristas Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -587,7 +687,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.875
+    id: 21392
     name: Dread Guristas Thorium Charge S
+    volume: 0.0025
   Dread Guristas Thorium Charge XL:
     CapNeedBonus: -40
     ChargeSize: 4
@@ -599,7 +701,9 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.875
+    id: 21442
     name: Dread Guristas Thorium Charge XL
+    volume: 0.125
   Dread Guristas Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -611,7 +715,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21418
     name: Dread Guristas Tungsten Charge L
+    volume: 0.025
   Dread Guristas Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -623,7 +729,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21402
     name: Dread Guristas Tungsten Charge M
+    volume: 0.0125
   Dread Guristas Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -635,7 +743,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21386
     name: Dread Guristas Tungsten Charge S
+    volume: 0.0025
   Dread Guristas Tungsten Charge XL:
     CapNeedBonus: -27
     ChargeSize: 4
@@ -647,7 +757,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21444
     name: Dread Guristas Tungsten Charge XL
+    volume: 0.125
   Dread Guristas Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -659,7 +771,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
+    id: 21426
     name: Dread Guristas Uranium Charge L
+    volume: 0.025
   Dread Guristas Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -671,7 +785,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
+    id: 21410
     name: Dread Guristas Uranium Charge M
+    volume: 0.0125
   Dread Guristas Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -683,7 +799,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
+    id: 21394
     name: Dread Guristas Uranium Charge S
+    volume: 0.0025
   Dread Guristas Uranium Charge XL:
     CapNeedBonus: -8
     ChargeSize: 4
@@ -695,7 +813,9 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
+    id: 21446
     name: Dread Guristas Uranium Charge XL
+    volume: 0.125
   Federation Navy Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -706,7 +826,9 @@ items:
     TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.5
+    id: 22993
     name: Federation Navy Antimatter Charge L
+    volume: 0.025
   Federation Navy Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -717,7 +839,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.5
+    id: 22977
     name: Federation Navy Antimatter Charge M
+    volume: 0.0125
   Federation Navy Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -728,7 +852,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.5
+    id: 22961
     name: Federation Navy Antimatter Charge S
+    volume: 0.0025
   Federation Navy Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -740,7 +866,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 23003
     name: Federation Navy Iridium Charge L
+    volume: 0.025
   Federation Navy Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -752,7 +880,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 22987
     name: Federation Navy Iridium Charge M
+    volume: 0.0125
   Federation Navy Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -764,7 +894,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 22971
     name: Federation Navy Iridium Charge S
+    volume: 0.0025
   Federation Navy Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -776,7 +908,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.600000023841858
+    id: 23007
     name: Federation Navy Iron Charge L
+    volume: 0.025
   Federation Navy Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -788,7 +922,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.600000023841858
+    id: 22991
     name: Federation Navy Iron Charge M
+    volume: 0.0125
   Federation Navy Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -800,7 +936,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.600000023841858
+    id: 22975
     name: Federation Navy Iron Charge S
+    volume: 0.0025
   Federation Navy Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -812,7 +950,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.0
+    id: 23001
     name: Federation Navy Lead Charge L
+    volume: 0.025
   Federation Navy Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -824,7 +964,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.0
+    id: 22985
     name: Federation Navy Lead Charge M
+    volume: 0.0125
   Federation Navy Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -836,7 +978,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.0
+    id: 22969
     name: Federation Navy Lead Charge S
+    volume: 0.0025
   Federation Navy Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -848,7 +992,9 @@ items:
     TechLevel: 1
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.625
+    id: 22995
     name: Federation Navy Plutonium Charge L
+    volume: 0.025
   Federation Navy Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -860,7 +1006,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.625
+    id: 22979
     name: Federation Navy Plutonium Charge M
+    volume: 0.0125
   Federation Navy Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -872,7 +1020,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.625
+    id: 22963
     name: Federation Navy Plutonium Charge S
+    volume: 0.0025
   Federation Navy Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -884,7 +1034,9 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.875
+    id: 22999
     name: Federation Navy Thorium Charge L
+    volume: 0.025
   Federation Navy Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -896,7 +1048,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.875
+    id: 22983
     name: Federation Navy Thorium Charge M
+    volume: 0.0125
   Federation Navy Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -908,7 +1062,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.875
+    id: 22967
     name: Federation Navy Thorium Charge S
+    volume: 0.0025
   Federation Navy Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -920,7 +1076,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.399999976158142
+    id: 23005
     name: Federation Navy Tungsten Charge L
+    volume: 0.025
   Federation Navy Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -932,7 +1090,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.399999976158142
+    id: 22989
     name: Federation Navy Tungsten Charge M
+    volume: 0.0125
   Federation Navy Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -944,7 +1104,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.399999976158142
+    id: 22973
     name: Federation Navy Tungsten Charge S
+    volume: 0.0025
   Federation Navy Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -956,7 +1118,9 @@ items:
     TechLevel: 1
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.75
+    id: 22997
     name: Federation Navy Uranium Charge L
+    volume: 0.025
   Federation Navy Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -968,7 +1132,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.75
+    id: 22981
     name: Federation Navy Uranium Charge M
+    volume: 0.0125
   Federation Navy Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -980,7 +1146,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.75
+    id: 22965
     name: Federation Navy Uranium Charge S
+    volume: 0.0025
   Guardian Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -991,7 +1159,9 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
+    id: 20991
     name: Guardian Antimatter Charge L
+    volume: 0.025
   Guardian Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -1002,7 +1172,9 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
+    id: 20975
     name: Guardian Antimatter Charge M
+    volume: 0.0125
   Guardian Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -1013,7 +1185,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
+    id: 20959
     name: Guardian Antimatter Charge S
+    volume: 0.0025
   Guardian Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
@@ -1024,7 +1198,9 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
+    id: 20993
     name: Guardian Antimatter Charge XL
+    volume: 0.125
   Guardian Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -1036,7 +1212,9 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20981
     name: Guardian Iridium Charge L
+    volume: 0.025
   Guardian Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -1048,7 +1226,9 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20965
     name: Guardian Iridium Charge M
+    volume: 0.0125
   Guardian Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -1060,7 +1240,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20949
     name: Guardian Iridium Charge S
+    volume: 0.0025
   Guardian Iridium Charge XL:
     CapNeedBonus: -24
     ChargeSize: 4
@@ -1072,7 +1254,9 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20995
     name: Guardian Iridium Charge XL
+    volume: 0.125
   Guardian Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -1084,7 +1268,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20977
     name: Guardian Iron Charge L
+    volume: 0.025
   Guardian Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -1096,7 +1282,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20961
     name: Guardian Iron Charge M
+    volume: 0.0125
   Guardian Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -1108,7 +1296,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20945
     name: Guardian Iron Charge S
+    volume: 0.0025
   Guardian Iron Charge XL:
     CapNeedBonus: -30
     ChargeSize: 4
@@ -1120,7 +1310,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20997
     name: Guardian Iron Charge XL
+    volume: 0.125
   Guardian Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -1132,7 +1324,9 @@ items:
     TechLevel: 1
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
+    id: 20983
     name: Guardian Lead Charge L
+    volume: 0.025
   Guardian Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -1144,7 +1338,9 @@ items:
     TechLevel: 1
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
+    id: 20967
     name: Guardian Lead Charge M
+    volume: 0.0125
   Guardian Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -1156,7 +1352,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
+    id: 20951
     name: Guardian Lead Charge S
+    volume: 0.0025
   Guardian Lead Charge XL:
     CapNeedBonus: -50
     ChargeSize: 4
@@ -1168,7 +1366,9 @@ items:
     TechLevel: 1
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
+    id: 20999
     name: Guardian Lead Charge XL
+    volume: 0.125
   Guardian Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -1180,7 +1380,9 @@ items:
     TechLevel: 1
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.625
+    id: 20989
     name: Guardian Plutonium Charge L
+    volume: 0.025
   Guardian Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -1192,7 +1394,9 @@ items:
     TechLevel: 1
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.625
+    id: 20973
     name: Guardian Plutonium Charge M
+    volume: 0.0125
   Guardian Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -1204,7 +1408,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.625
+    id: 20957
     name: Guardian Plutonium Charge S
+    volume: 0.0025
   Guardian Plutonium Charge XL:
     CapNeedBonus: -5
     ChargeSize: 4
@@ -1216,7 +1422,9 @@ items:
     TechLevel: 1
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.625
+    id: 21001
     name: Guardian Plutonium Charge XL
+    volume: 0.125
   Guardian Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -1228,7 +1436,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.875
+    id: 20985
     name: Guardian Thorium Charge L
+    volume: 0.025
   Guardian Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -1240,7 +1450,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.875
+    id: 20969
     name: Guardian Thorium Charge M
+    volume: 0.0125
   Guardian Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -1252,7 +1464,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.875
+    id: 20953
     name: Guardian Thorium Charge S
+    volume: 0.0025
   Guardian Thorium Charge XL:
     CapNeedBonus: -40
     ChargeSize: 4
@@ -1264,7 +1478,9 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.875
+    id: 21003
     name: Guardian Thorium Charge XL
+    volume: 0.125
   Guardian Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -1276,7 +1492,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20979
     name: Guardian Tungsten Charge L
+    volume: 0.025
   Guardian Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -1288,7 +1506,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20963
     name: Guardian Tungsten Charge M
+    volume: 0.0125
   Guardian Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -1300,7 +1520,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20947
     name: Guardian Tungsten Charge S
+    volume: 0.0025
   Guardian Tungsten Charge XL:
     CapNeedBonus: -27
     ChargeSize: 4
@@ -1312,7 +1534,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21005
     name: Guardian Tungsten Charge XL
+    volume: 0.125
   Guardian Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -1324,7 +1548,9 @@ items:
     TechLevel: 1
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
+    id: 20987
     name: Guardian Uranium Charge L
+    volume: 0.025
   Guardian Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -1336,7 +1562,9 @@ items:
     TechLevel: 1
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
+    id: 20971
     name: Guardian Uranium Charge M
+    volume: 0.0125
   Guardian Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -1348,7 +1576,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
+    id: 20955
     name: Guardian Uranium Charge S
+    volume: 0.0025
   Guardian Uranium Charge XL:
     CapNeedBonus: -8
     ChargeSize: 4
@@ -1360,7 +1590,9 @@ items:
     TechLevel: 1
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
+    id: 21007
     name: Guardian Uranium Charge XL
+    volume: 0.125
   Guristas Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -1371,7 +1603,9 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
+    id: 21366
     name: Guristas Antimatter Charge L
+    volume: 0.025
   Guristas Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -1382,7 +1616,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
+    id: 21350
     name: Guristas Antimatter Charge M
+    volume: 0.0125
   Guristas Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -1393,7 +1629,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
+    id: 21334
     name: Guristas Antimatter Charge S
+    volume: 0.0025
   Guristas Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
@@ -1404,7 +1642,9 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
+    id: 21368
     name: Guristas Antimatter Charge XL
+    volume: 0.125
   Guristas Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -1416,7 +1656,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21356
     name: Guristas Iridium Charge L
+    volume: 0.025
   Guristas Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -1428,7 +1670,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21340
     name: Guristas Iridium Charge M
+    volume: 0.0125
   Guristas Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -1440,7 +1684,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21324
     name: Guristas Iridium Charge S
+    volume: 0.0025
   Guristas Iridium Charge XL:
     CapNeedBonus: -24
     ChargeSize: 4
@@ -1452,7 +1698,9 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 21370
     name: Guristas Iridium Charge XL
+    volume: 0.125
   Guristas Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -1464,7 +1712,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21352
     name: Guristas Iron Charge L
+    volume: 0.025
   Guristas Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -1476,7 +1726,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21336
     name: Guristas Iron Charge M
+    volume: 0.0125
   Guristas Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -1488,7 +1740,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21320
     name: Guristas Iron Charge S
+    volume: 0.0025
   Guristas Iron Charge XL:
     CapNeedBonus: -30
     ChargeSize: 4
@@ -1500,7 +1754,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.600000023841858
+    id: 21372
     name: Guristas Iron Charge XL
+    volume: 0.125
   Guristas Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -1512,7 +1768,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
+    id: 21358
     name: Guristas Lead Charge L
+    volume: 0.025
   Guristas Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -1524,7 +1782,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
+    id: 21342
     name: Guristas Lead Charge M
+    volume: 0.0125
   Guristas Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -1536,7 +1796,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
+    id: 21326
     name: Guristas Lead Charge S
+    volume: 0.0025
   Guristas Lead Charge XL:
     CapNeedBonus: -50
     ChargeSize: 4
@@ -1548,7 +1810,9 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
+    id: 21374
     name: Guristas Lead Charge XL
+    volume: 0.125
   Guristas Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -1560,7 +1824,9 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.625
+    id: 21364
     name: Guristas Plutonium Charge L
+    volume: 0.025
   Guristas Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -1572,7 +1838,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.625
+    id: 21348
     name: Guristas Plutonium Charge M
+    volume: 0.0125
   Guristas Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -1584,7 +1852,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.625
+    id: 21332
     name: Guristas Plutonium Charge S
+    volume: 0.0025
   Guristas Plutonium Charge XL:
     CapNeedBonus: -5
     ChargeSize: 4
@@ -1596,7 +1866,9 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.625
+    id: 21376
     name: Guristas Plutonium Charge XL
+    volume: 0.125
   Guristas Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -1608,7 +1880,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.875
+    id: 21360
     name: Guristas Thorium Charge L
+    volume: 0.025
   Guristas Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -1620,7 +1894,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.875
+    id: 21344
     name: Guristas Thorium Charge M
+    volume: 0.0125
   Guristas Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -1632,7 +1908,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.875
+    id: 21328
     name: Guristas Thorium Charge S
+    volume: 0.0025
   Guristas Thorium Charge XL:
     CapNeedBonus: -40
     ChargeSize: 4
@@ -1644,7 +1922,9 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.875
+    id: 21378
     name: Guristas Thorium Charge XL
+    volume: 0.125
   Guristas Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -1656,7 +1936,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21354
     name: Guristas Tungsten Charge L
+    volume: 0.025
   Guristas Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -1668,7 +1950,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21338
     name: Guristas Tungsten Charge M
+    volume: 0.0125
   Guristas Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -1680,7 +1964,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21322
     name: Guristas Tungsten Charge S
+    volume: 0.0025
   Guristas Tungsten Charge XL:
     CapNeedBonus: -27
     ChargeSize: 4
@@ -1692,7 +1978,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    id: 21380
     name: Guristas Tungsten Charge XL
+    volume: 0.125
   Guristas Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -1704,7 +1992,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
+    id: 21362
     name: Guristas Uranium Charge L
+    volume: 0.025
   Guristas Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -1716,7 +2006,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
+    id: 21346
     name: Guristas Uranium Charge M
+    volume: 0.0125
   Guristas Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -1728,7 +2020,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
+    id: 21330
     name: Guristas Uranium Charge S
+    volume: 0.0025
   Guristas Uranium Charge XL:
     CapNeedBonus: -8
     ChargeSize: 4
@@ -1740,7 +2034,9 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
+    id: 21382
     name: Guristas Uranium Charge XL
+    volume: 0.125
   Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -1749,7 +2045,9 @@ items:
     MainColor: 6201492
     TechLevel: 1
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 233
     name: Iridium Charge L
+    volume: 0.025
   Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -1758,7 +2056,9 @@ items:
     MainColor: 6201492
     TechLevel: 1
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 225
     name: Iridium Charge M
+    volume: 0.0125
   Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -1767,7 +2067,9 @@ items:
     MainColor: 6201492
     TechLevel: 1
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 217
     name: Iridium Charge S
+    volume: 0.0025
   Iridium Charge XL:
     CapNeedBonus: -24
     ChargeSize: 4
@@ -1776,7 +2078,9 @@ items:
     MainColor: 6201492
     TechLevel: 1
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 17650
     name: Iridium Charge XL
+    volume: 0.125
   Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -1785,7 +2089,9 @@ items:
     MainColor: 5202838
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    id: 231
     name: Iron Charge L
+    volume: 0.025
   Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -1794,7 +2100,9 @@ items:
     MainColor: 5202838
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    id: 223
     name: Iron Charge M
+    volume: 0.0125
   Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -1803,7 +2111,9 @@ items:
     MainColor: 5202838
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    id: 215
     name: Iron Charge S
+    volume: 0.0025
   Iron Charge XL:
     CapNeedBonus: -30
     ChargeSize: 4
@@ -1812,7 +2122,9 @@ items:
     MainColor: 5202838
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
+    id: 17652
     name: Iron Charge XL
+    volume: 0.125
   Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -1821,7 +2133,9 @@ items:
     MainColor: 8301159
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    id: 234
     name: Lead Charge L
+    volume: 0.025
   Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -1830,7 +2144,9 @@ items:
     MainColor: 8301159
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    id: 226
     name: Lead Charge M
+    volume: 0.0125
   Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -1839,7 +2155,9 @@ items:
     MainColor: 8301159
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    id: 218
     name: Lead Charge S
+    volume: 0.0025
   Lead Charge XL:
     CapNeedBonus: -50
     ChargeSize: 4
@@ -1848,7 +2166,9 @@ items:
     MainColor: 8301159
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    id: 17654
     name: Lead Charge XL
+    volume: 0.125
   Orbital Hybrid S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -1857,7 +2177,9 @@ items:
     MainColor: 8301159
     TechLevel: 1
     WeaponRangeMultiplier: 1.0
+    id: 32803
     name: Orbital Hybrid S
+    volume: 0.0025
   Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -1866,7 +2188,9 @@ items:
     MainColor: 12487062
     TechLevel: 1
     WeaponRangeMultiplier: 0.625
+    id: 237
     name: Plutonium Charge L
+    volume: 0.025
   Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -1875,7 +2199,9 @@ items:
     MainColor: 12487062
     TechLevel: 1
     WeaponRangeMultiplier: 0.625
+    id: 229
     name: Plutonium Charge M
+    volume: 0.0125
   Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -1884,7 +2210,9 @@ items:
     MainColor: 12487062
     TechLevel: 1
     WeaponRangeMultiplier: 0.625
+    id: 221
     name: Plutonium Charge S
+    volume: 0.0025
   Plutonium Charge XL:
     CapNeedBonus: -5
     ChargeSize: 4
@@ -1893,7 +2221,9 @@ items:
     MainColor: 12487062
     TechLevel: 1
     WeaponRangeMultiplier: 0.625
+    id: 17656
     name: Plutonium Charge XL
+    volume: 0.125
   Shadow Antimatter Charge L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.5
@@ -1904,7 +2234,9 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
+    id: 20927
     name: Shadow Antimatter Charge L
+    volume: 0.025
   Shadow Antimatter Charge M:
     ChargeSize: 2
     EntityFlyRangeMultiplier: 0.5
@@ -1915,7 +2247,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
+    id: 20057
     name: Shadow Antimatter Charge M
+    volume: 0.0125
   Shadow Antimatter Charge S:
     ChargeSize: 1
     EntityFlyRangeMultiplier: 0.5
@@ -1926,7 +2260,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
+    id: 20040
     name: Shadow Antimatter Charge S
+    volume: 0.0025
   Shadow Antimatter Charge XL:
     ChargeSize: 4
     EntityFlyRangeMultiplier: 0.5
@@ -1937,7 +2273,9 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
+    id: 20929
     name: Shadow Antimatter Charge XL
+    volume: 0.125
   Shadow Iridium Charge L:
     CapNeedBonus: -24
     ChargeSize: 3
@@ -1949,7 +2287,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20917
     name: Shadow Iridium Charge L
+    volume: 0.025
   Shadow Iridium Charge M:
     CapNeedBonus: -24
     ChargeSize: 2
@@ -1961,7 +2301,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20047
     name: Shadow Iridium Charge M
+    volume: 0.0125
   Shadow Iridium Charge S:
     CapNeedBonus: -24
     ChargeSize: 1
@@ -1973,7 +2315,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 19966
     name: Shadow Iridium Charge S
+    volume: 0.0025
   Shadow Iridium Charge XL:
     CapNeedBonus: -24
     ChargeSize: 4
@@ -1985,7 +2329,9 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.2000000476837158
+    id: 20931
     name: Shadow Iridium Charge XL
+    volume: 0.125
   Shadow Iron Charge L:
     CapNeedBonus: -30
     ChargeSize: 3
@@ -1997,7 +2343,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20913
     name: Shadow Iron Charge L
+    volume: 0.025
   Shadow Iron Charge M:
     CapNeedBonus: -30
     ChargeSize: 2
@@ -2009,7 +2357,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20043
     name: Shadow Iron Charge M
+    volume: 0.0125
   Shadow Iron Charge S:
     CapNeedBonus: -30
     ChargeSize: 1
@@ -2021,7 +2371,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.600000023841858
+    id: 19962
     name: Shadow Iron Charge S
+    volume: 0.0025
   Shadow Iron Charge XL:
     CapNeedBonus: -30
     ChargeSize: 4
@@ -2033,7 +2385,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.600000023841858
+    id: 20933
     name: Shadow Iron Charge XL
+    volume: 0.125
   Shadow Lead Charge L:
     CapNeedBonus: -50
     ChargeSize: 3
@@ -2045,7 +2399,9 @@ items:
     TechLevel: 1
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
+    id: 20919
     name: Shadow Lead Charge L
+    volume: 0.025
   Shadow Lead Charge M:
     CapNeedBonus: -50
     ChargeSize: 2
@@ -2057,7 +2413,9 @@ items:
     TechLevel: 1
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
+    id: 20049
     name: Shadow Lead Charge M
+    volume: 0.0125
   Shadow Lead Charge S:
     CapNeedBonus: -50
     ChargeSize: 1
@@ -2069,7 +2427,9 @@ items:
     TechLevel: 1
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
+    id: 19968
     name: Shadow Lead Charge S
+    volume: 0.0025
   Shadow Lead Charge XL:
     CapNeedBonus: -50
     ChargeSize: 4
@@ -2081,7 +2441,9 @@ items:
     TechLevel: 1
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
+    id: 20935
     name: Shadow Lead Charge XL
+    volume: 0.125
   Shadow Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3
@@ -2093,7 +2455,9 @@ items:
     TechLevel: 1
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.625
+    id: 20925
     name: Shadow Plutonium Charge L
+    volume: 0.025
   Shadow Plutonium Charge M:
     CapNeedBonus: -5
     ChargeSize: 2
@@ -2105,7 +2469,9 @@ items:
     TechLevel: 1
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.625
+    id: 20055
     name: Shadow Plutonium Charge M
+    volume: 0.0125
   Shadow Plutonium Charge S:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -2117,7 +2483,9 @@ items:
     TechLevel: 1
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.625
+    id: 20038
     name: Shadow Plutonium Charge S
+    volume: 0.0025
   Shadow Plutonium Charge XL:
     CapNeedBonus: -5
     ChargeSize: 4
@@ -2129,7 +2497,9 @@ items:
     TechLevel: 1
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.625
+    id: 20937
     name: Shadow Plutonium Charge XL
+    volume: 0.125
   Shadow Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -2141,7 +2511,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.875
+    id: 20921
     name: Shadow Thorium Charge L
+    volume: 0.025
   Shadow Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -2153,7 +2525,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.875
+    id: 20051
     name: Shadow Thorium Charge M
+    volume: 0.0125
   Shadow Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -2165,7 +2539,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.875
+    id: 20034
     name: Shadow Thorium Charge S
+    volume: 0.0025
   Shadow Thorium Charge XL:
     CapNeedBonus: -40
     ChargeSize: 4
@@ -2177,7 +2553,9 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.875
+    id: 20939
     name: Shadow Thorium Charge XL
+    volume: 0.125
   Shadow Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -2189,7 +2567,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20915
     name: Shadow Tungsten Charge L
+    volume: 0.025
   Shadow Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -2201,7 +2581,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20045
     name: Shadow Tungsten Charge M
+    volume: 0.0125
   Shadow Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -2213,7 +2595,9 @@ items:
     TechLevel: 1
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
+    id: 19964
     name: Shadow Tungsten Charge S
+    volume: 0.0025
   Shadow Tungsten Charge XL:
     CapNeedBonus: -27
     ChargeSize: 4
@@ -2225,7 +2609,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
+    id: 20941
     name: Shadow Tungsten Charge XL
+    volume: 0.125
   Shadow Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -2237,7 +2623,9 @@ items:
     TechLevel: 1
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
+    id: 20923
     name: Shadow Uranium Charge L
+    volume: 0.025
   Shadow Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -2249,7 +2637,9 @@ items:
     TechLevel: 1
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
+    id: 20053
     name: Shadow Uranium Charge M
+    volume: 0.0125
   Shadow Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -2261,7 +2651,9 @@ items:
     TechLevel: 1
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
+    id: 20036
     name: Shadow Uranium Charge S
+    volume: 0.0025
   Shadow Uranium Charge XL:
     CapNeedBonus: -8
     ChargeSize: 4
@@ -2273,7 +2665,9 @@ items:
     TechLevel: 1
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
+    id: 20943
     name: Shadow Uranium Charge XL
+    volume: 0.125
   Thorium Charge L:
     CapNeedBonus: -40
     ChargeSize: 3
@@ -2282,7 +2676,9 @@ items:
     MainColor: 10727277
     TechLevel: 1
     WeaponRangeMultiplier: 0.875
+    id: 235
     name: Thorium Charge L
+    volume: 0.025
   Thorium Charge M:
     CapNeedBonus: -40
     ChargeSize: 2
@@ -2291,7 +2687,9 @@ items:
     MainColor: 10727277
     TechLevel: 1
     WeaponRangeMultiplier: 0.875
+    id: 227
     name: Thorium Charge M
+    volume: 0.0125
   Thorium Charge S:
     CapNeedBonus: -40
     ChargeSize: 1
@@ -2300,7 +2698,9 @@ items:
     MainColor: 10727277
     TechLevel: 1
     WeaponRangeMultiplier: 0.875
+    id: 219
     name: Thorium Charge S
+    volume: 0.0025
   Thorium Charge XL:
     CapNeedBonus: -40
     ChargeSize: 4
@@ -2309,7 +2709,9 @@ items:
     MainColor: 10727277
     TechLevel: 1
     WeaponRangeMultiplier: 0.875
+    id: 17658
     name: Thorium Charge XL
+    volume: 0.125
   Tungsten Charge L:
     CapNeedBonus: -27
     ChargeSize: 3
@@ -2318,7 +2720,9 @@ items:
     MainColor: 5801883
     TechLevel: 1
     WeaponRangeMultiplier: 1.399999976158142
+    id: 232
     name: Tungsten Charge L
+    volume: 0.025
   Tungsten Charge M:
     CapNeedBonus: -27
     ChargeSize: 2
@@ -2327,7 +2731,9 @@ items:
     MainColor: 5801883
     TechLevel: 1
     WeaponRangeMultiplier: 1.399999976158142
+    id: 224
     name: Tungsten Charge M
+    volume: 0.0125
   Tungsten Charge S:
     CapNeedBonus: -27
     ChargeSize: 1
@@ -2336,7 +2742,9 @@ items:
     MainColor: 5801883
     TechLevel: 1
     WeaponRangeMultiplier: 1.399999976158142
+    id: 216
     name: Tungsten Charge S
+    volume: 0.0025
   Tungsten Charge XL:
     CapNeedBonus: -27
     ChargeSize: 4
@@ -2345,7 +2753,9 @@ items:
     MainColor: 5801883
     TechLevel: 1
     WeaponRangeMultiplier: 1.399999976158142
+    id: 17660
     name: Tungsten Charge XL
+    volume: 0.125
   Uranium Charge L:
     CapNeedBonus: -8
     ChargeSize: 3
@@ -2354,7 +2764,9 @@ items:
     MainColor: 11835778
     TechLevel: 1
     WeaponRangeMultiplier: 0.75
+    id: 236
     name: Uranium Charge L
+    volume: 0.025
   Uranium Charge M:
     CapNeedBonus: -8
     ChargeSize: 2
@@ -2363,7 +2775,9 @@ items:
     MainColor: 11835778
     TechLevel: 1
     WeaponRangeMultiplier: 0.75
+    id: 228
     name: Uranium Charge M
+    volume: 0.0125
   Uranium Charge S:
     CapNeedBonus: -8
     ChargeSize: 1
@@ -2372,7 +2786,9 @@ items:
     MainColor: 11835778
     TechLevel: 1
     WeaponRangeMultiplier: 0.75
+    id: 220
     name: Uranium Charge S
+    volume: 0.0025
   Uranium Charge XL:
     CapNeedBonus: -8
     ChargeSize: 4
@@ -2381,4 +2797,6 @@ items:
     MainColor: 11835778
     TechLevel: 1
     WeaponRangeMultiplier: 0.75
+    id: 17662
     name: Uranium Charge XL
+    volume: 0.125

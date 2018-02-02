@@ -25,7 +25,9 @@ items:
     TechLevel: 2
     ThermalDamage: 525.0
     ThermalDamageResonance: 0.800000011920929
+    id: 2621
     name: Inferno Fury Cruise Missile
+    volume: 0.05
   Inferno Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -52,7 +54,9 @@ items:
     TechLevel: 2
     ThermalDamage: 375.0
     ThermalDamageResonance: 0.800000011920929
+    id: 2637
     name: Inferno Precision Cruise Missile
+    volume: 0.05
   Mjolnir Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -79,7 +83,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24535
     name: Mjolnir Fury Cruise Missile
+    volume: 0.05
   Mjolnir Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -106,7 +112,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24539
     name: Mjolnir Precision Cruise Missile
+    volume: 0.05
   Nova Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -133,7 +141,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24531
     name: Nova Fury Cruise Missile
+    volume: 0.05
   Nova Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -160,7 +170,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24537
     name: Nova Precision Cruise Missile
+    volume: 0.05
   Scourge Fury Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -187,7 +199,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24533
     name: Scourge Fury Cruise Missile
+    volume: 0.05
   Scourge Precision Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -214,4 +228,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 1.0
+    id: 24541
     name: Scourge Precision Cruise Missile
+    volume: 0.05

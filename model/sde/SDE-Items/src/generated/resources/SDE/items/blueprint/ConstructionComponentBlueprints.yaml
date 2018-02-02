@@ -1,154 +1,258 @@
 items:
   Antimatter Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17338
     name: Antimatter Reactor Unit Blueprint
+    volume: 0.01
   Crystalline Carbonide Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17323
     name: Crystalline Carbonide Armor Plate Blueprint
+    volume: 0.01
   Deflection Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17346
     name: Deflection Shield Emitter Blueprint
+    volume: 0.01
   EM Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17335
     name: EM Pulse Generator Blueprint
+    volume: 0.01
   Electrolytic Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17347
     name: Electrolytic Capacitor Unit Blueprint
+    volume: 0.01
   Fernite Carbide Composite Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17355
     name: Fernite Carbide Composite Armor Plate Blueprint
+    volume: 0.01
   Fusion Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17331
     name: Fusion Reactor Unit Blueprint
+    volume: 0.01
   Fusion Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17349
     name: Fusion Thruster Blueprint
+    volume: 0.01
   Gravimetric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17340
     name: Gravimetric Sensor Cluster Blueprint
+    volume: 0.01
   Graviton Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17332
     name: Graviton Pulse Generator Blueprint
+    volume: 0.01
   Graviton Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17353
     name: Graviton Reactor Unit Blueprint
+    volume: 0.01
   Ion Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17329
     name: Ion Thruster Blueprint
+    volume: 0.01
   Ladar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17333
     name: Ladar Sensor Cluster Blueprint
+    volume: 0.01
   Laser Focusing Crystals Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17348
     name: Laser Focusing Crystals Blueprint
+    volume: 0.01
   Linear Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17359
     name: Linear Shield Emitter Blueprint
+    volume: 0.01
   Magnetometric Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17345
     name: Magnetometric Sensor Cluster Blueprint
+    volume: 0.01
   Magpulse Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17356
     name: Magpulse Thruster Blueprint
+    volume: 0.01
   Nanoelectrical Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17330
     name: Nanoelectrical Microprocessor Blueprint
+    volume: 0.01
   Nanomechanical Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17325
     name: Nanomechanical Microprocessor Blueprint
+    volume: 0.01
   Nuclear Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17326
     name: Nuclear Pulse Generator Blueprint
+    volume: 0.01
   Nuclear Reactor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17342
     name: Nuclear Reactor Unit Blueprint
+    volume: 0.01
   Oscillator Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17337
     name: Oscillator Capacitor Unit Blueprint
+    volume: 0.01
   Particle Accelerator Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17344
     name: Particle Accelerator Unit Blueprint
+    volume: 0.01
   Photon Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17357
     name: Photon Microprocessor Blueprint
+    volume: 0.01
   Plasma Pulse Generator Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17339
     name: Plasma Pulse Generator Blueprint
+    volume: 0.01
   Plasma Thruster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17324
     name: Plasma Thruster Blueprint
+    volume: 0.01
   Pulse Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17341
     name: Pulse Shield Emitter Blueprint
+    volume: 0.01
   Quantum Microprocessor Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17351
     name: Quantum Microprocessor Blueprint
+    volume: 0.01
   Radar Sensor Cluster Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17336
     name: Radar Sensor Cluster Blueprint
+    volume: 0.01
   Scalar Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17327
     name: Scalar Capacitor Unit Blueprint
+    volume: 0.01
   Spatial Attunement Unit Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 33196
     name: Spatial Attunement Unit Blueprint
+    volume: 0.01
   Structure Acceleration Coils Blueprint:
+    id: 36954
     name: Structure Acceleration Coils Blueprint
+    volume: 0.01
   Structure Advertisement Nexus Blueprint:
+    id: 36955
     name: Structure Advertisement Nexus Blueprint
+    volume: 0.01
   Structure Construction Parts Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21948
     name: Structure Construction Parts Blueprint
+    volume: 0.01
   Structure Docking Bay Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21962
     name: Structure Docking Bay Blueprint
+    volume: 0.01
   Structure Electromagnetic Sensor Blueprint:
+    id: 36953
     name: Structure Electromagnetic Sensor Blueprint
+    volume: 0.01
   Structure Factory Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21956
     name: Structure Factory Blueprint
+    volume: 0.01
   Structure Hangar Array Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21950
     name: Structure Hangar Array Blueprint
+    volume: 0.01
   Structure Laboratory Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21954
     name: Structure Laboratory Blueprint
+    volume: 0.01
   Structure Market Network Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21964
     name: Structure Market Network Blueprint
+    volume: 0.01
   Structure Medical Center Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21966
     name: Structure Medical Center Blueprint
+    volume: 0.01
   Structure Mission Network Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21970
     name: Structure Mission Network Blueprint
+    volume: 0.01
   Structure Office Center Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21968
     name: Structure Office Center Blueprint
+    volume: 0.01
   Structure Repair Facility Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21958
     name: Structure Repair Facility Blueprint
+    volume: 0.01
   Structure Reprocessing Plant Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21960
     name: Structure Reprocessing Plant Blueprint
+    volume: 0.01
   Structure Storage Bay Blueprint:
     IndustryBlueprintRank: 200.0
+    id: 21952
     name: Structure Storage Bay Blueprint
+    volume: 0.01
   Superconductor Rails Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17354
     name: Superconductor Rails Blueprint
+    volume: 0.01
   Sustained Shield Emitter Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17352
     name: Sustained Shield Emitter Blueprint
+    volume: 0.01
   Tesseract Capacitor Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17334
     name: Tesseract Capacitor Unit Blueprint
+    volume: 0.01
   Thermonuclear Trigger Unit Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17322
     name: Thermonuclear Trigger Unit Blueprint
+    volume: 0.01
   Titanium Diborite Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17328
     name: Titanium Diborite Armor Plate Blueprint
+    volume: 0.01
   Tungsten Carbide Armor Plate Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 17350
     name: Tungsten Carbide Armor Plate Blueprint
+    volume: 0.01

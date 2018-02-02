@@ -16,7 +16,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 75
+    id: 18036
     name: Arkonor Mining Crystal I
+    volume: 6.0
   Arkonor Mining Crystal II:
     CapNeedBonus: 50
     ChargeSize: 1
@@ -35,7 +37,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 75
+    id: 18590
     name: Arkonor Mining Crystal II
+    volume: 10.0
   Bistot Mining Crystal I:
     CapNeedBonus: 45
     ChargeSize: 1
@@ -53,7 +57,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 70
+    id: 18038
     name: Bistot Mining Crystal I
+    volume: 6.0
   Bistot Mining Crystal II:
     CapNeedBonus: 45
     ChargeSize: 1
@@ -72,7 +78,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 70
+    id: 18592
     name: Bistot Mining Crystal II
+    volume: 10.0
   Common Moon Ore Mining Crystal I:
     CapNeedBonus: 35
     ChargeSize: 1
@@ -90,7 +98,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 60
+    id: 46365
     name: Common Moon Ore Mining Crystal I
+    volume: 6.0
   Common Moon Ore Mining Crystal II:
     CapNeedBonus: 35
     ChargeSize: 1
@@ -109,7 +119,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 60
+    id: 46366
     name: Common Moon Ore Mining Crystal II
+    volume: 10.0
   Crokite Mining Crystal I:
     CapNeedBonus: 35
     ChargeSize: 1
@@ -127,7 +139,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 60
+    id: 18040
     name: Crokite Mining Crystal I
+    volume: 6.0
   Crokite Mining Crystal II:
     CapNeedBonus: 35
     ChargeSize: 1
@@ -146,7 +160,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 60
+    id: 18594
     name: Crokite Mining Crystal II
+    volume: 10.0
   Dark Ochre Mining Crystal I:
     CapNeedBonus: 30
     ChargeSize: 1
@@ -164,7 +180,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 55
+    id: 18042
     name: Dark Ochre Mining Crystal I
+    volume: 6.0
   Dark Ochre Mining Crystal II:
     CapNeedBonus: 30
     ChargeSize: 1
@@ -183,7 +201,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 55
+    id: 18596
     name: Dark Ochre Mining Crystal II
+    volume: 10.0
   Exceptional Moon Ore Mining Crystal I:
     CapNeedBonus: 50
     ChargeSize: 1
@@ -201,7 +221,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 75
+    id: 46371
     name: Exceptional Moon Ore Mining Crystal I
+    volume: 6.0
   Exceptional Moon Ore Mining Crystal II:
     CapNeedBonus: 50
     ChargeSize: 1
@@ -220,7 +242,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 75
+    id: 46372
     name: Exceptional Moon Ore Mining Crystal II
+    volume: 10.0
   Gneiss Mining Crystal I:
     CapNeedBonus: 25
     ChargeSize: 1
@@ -238,7 +262,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 50
+    id: 18044
     name: Gneiss Mining Crystal I
+    volume: 6.0
   Gneiss Mining Crystal II:
     CapNeedBonus: 25
     ChargeSize: 1
@@ -257,7 +283,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 50
+    id: 18598
     name: Gneiss Mining Crystal II
+    volume: 10.0
   Hedbergite Mining Crystal I:
     CapNeedBonus: 20
     ChargeSize: 1
@@ -275,7 +303,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 45
+    id: 18046
     name: Hedbergite Mining Crystal I
+    volume: 6.0
   Hedbergite Mining Crystal II:
     CapNeedBonus: 20
     ChargeSize: 1
@@ -294,7 +324,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 45
+    id: 18600
     name: Hedbergite Mining Crystal II
+    volume: 10.0
   Hemorphite Mining Crystal I:
     CapNeedBonus: 15
     ChargeSize: 1
@@ -312,7 +344,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 40
+    id: 18048
     name: Hemorphite Mining Crystal I
+    volume: 6.0
   Hemorphite Mining Crystal II:
     CapNeedBonus: 15
     ChargeSize: 1
@@ -331,7 +365,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 40
+    id: 18602
     name: Hemorphite Mining Crystal II
+    volume: 10.0
   Jaspet Mining Crystal I:
     CapNeedBonus: 10
     ChargeSize: 1
@@ -349,7 +385,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 35
+    id: 18050
     name: Jaspet Mining Crystal I
+    volume: 6.0
   Jaspet Mining Crystal II:
     CapNeedBonus: 10
     ChargeSize: 1
@@ -368,7 +406,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 35
+    id: 18604
     name: Jaspet Mining Crystal II
+    volume: 10.0
   Kernite Mining Crystal I:
     CapNeedBonus: 5
     ChargeSize: 1
@@ -386,7 +426,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 30
+    id: 18052
     name: Kernite Mining Crystal I
+    volume: 6.0
   Kernite Mining Crystal II:
     CapNeedBonus: 5
     ChargeSize: 1
@@ -405,7 +447,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 30
+    id: 18606
     name: Kernite Mining Crystal II
+    volume: 10.0
   Omber Mining Crystal I:
     ChargeSize: 1
     CrystalVolatilityChance: 0.10000000149011612
@@ -422,7 +466,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 25
+    id: 18056
     name: Omber Mining Crystal I
+    volume: 6.0
   Omber Mining Crystal II:
     ChargeSize: 1
     CrystalVolatilityChance: 0.20000000298023224
@@ -440,7 +486,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 25
+    id: 18610
     name: Omber Mining Crystal II
+    volume: 10.0
   Plagioclase Mining Crystal I:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -458,7 +506,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 20
+    id: 18058
     name: Plagioclase Mining Crystal I
+    volume: 6.0
   Plagioclase Mining Crystal II:
     CapNeedBonus: -5
     ChargeSize: 1
@@ -477,7 +527,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 20
+    id: 18612
     name: Plagioclase Mining Crystal II
+    volume: 10.0
   Pyroxeres Mining Crystal I:
     CapNeedBonus: -10
     ChargeSize: 1
@@ -495,7 +547,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 15
+    id: 18060
     name: Pyroxeres Mining Crystal I
+    volume: 6.0
   Pyroxeres Mining Crystal II:
     CapNeedBonus: -10
     ChargeSize: 1
@@ -514,7 +568,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 15
+    id: 18614
     name: Pyroxeres Mining Crystal II
+    volume: 10.0
   Rare Moon Ore Mining Crystal I:
     CapNeedBonus: 45
     ChargeSize: 1
@@ -532,7 +588,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 70
+    id: 46369
     name: Rare Moon Ore Mining Crystal I
+    volume: 6.0
   Rare Moon Ore Mining Crystal II:
     CapNeedBonus: 45
     ChargeSize: 1
@@ -551,7 +609,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 70
+    id: 46370
     name: Rare Moon Ore Mining Crystal II
+    volume: 10.0
   Scordite Mining Crystal I:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -569,7 +629,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 10
+    id: 18062
     name: Scordite Mining Crystal I
+    volume: 6.0
   Scordite Mining Crystal II:
     CapNeedBonus: -15
     ChargeSize: 1
@@ -588,7 +650,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 10
+    id: 18616
     name: Scordite Mining Crystal II
+    volume: 10.0
   Spodumain Mining Crystal I:
     CapNeedBonus: 40
     ChargeSize: 1
@@ -606,7 +670,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 65
+    id: 18064
     name: Spodumain Mining Crystal I
+    volume: 6.0
   Spodumain Mining Crystal II:
     CapNeedBonus: 40
     ChargeSize: 1
@@ -625,7 +691,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 65
+    id: 18624
     name: Spodumain Mining Crystal II
+    volume: 10.0
   Ubiquitous Moon Ore Mining Crystal I:
     CapNeedBonus: 30
     ChargeSize: 1
@@ -643,7 +711,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 55
+    id: 46355
     name: Ubiquitous Moon Ore Mining Crystal I
+    volume: 6.0
   Ubiquitous Moon Ore Mining Crystal II:
     CapNeedBonus: 30
     ChargeSize: 1
@@ -662,7 +732,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 55
+    id: 46356
     name: Ubiquitous Moon Ore Mining Crystal II
+    volume: 10.0
   Uncommon Moon Ore Mining Crystal I:
     CapNeedBonus: 40
     ChargeSize: 1
@@ -680,7 +752,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 65
+    id: 46367
     name: Uncommon Moon Ore Mining Crystal I
+    volume: 6.0
   Uncommon Moon Ore Mining Crystal II:
     CapNeedBonus: 40
     ChargeSize: 1
@@ -699,7 +773,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 65
+    id: 46368
     name: Uncommon Moon Ore Mining Crystal II
+    volume: 10.0
   Veldspar Mining Crystal I:
     CapNeedBonus: -20
     ChargeSize: 1
@@ -717,7 +793,9 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.625
     TechLevel: 1
     UnfitCapCost: 5
+    id: 18066
     name: Veldspar Mining Crystal I
+    volume: 6.0
   Veldspar Mining Crystal II:
     CapNeedBonus: -20
     ChargeSize: 1
@@ -736,4 +814,6 @@ items:
     SpecialisationAsteroidYieldMultiplier: 1.75
     TechLevel: 2
     UnfitCapCost: 5
+    id: 18618
     name: Veldspar Mining Crystal II
+    volume: 10.0

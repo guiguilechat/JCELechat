@@ -7,7 +7,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 35
     TechLevel: 1
+    id: 1983
     name: Basic Gravimetric Backup Array
+    volume: 5.0
   Basic Ladar Backup Array:
     Cpu: 5.0
     Hp: 40
@@ -16,7 +18,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 35
     TechLevel: 1
+    id: 1982
     name: Basic Ladar Backup Array
+    volume: 5.0
   Basic Magnetometric Backup Array:
     Cpu: 5.0
     Hp: 40
@@ -25,7 +29,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 35
     TechLevel: 1
+    id: 1984
     name: Basic Magnetometric Backup Array
+    volume: 5.0
   Basic Multi Sensor Backup Array:
     Cpu: 5.0
     Hp: 40
@@ -37,7 +43,9 @@ items:
     ScanMagnetometricStrengthPercent: 35
     ScanRadarStrengthPercent: 35
     TechLevel: 1
+    id: 1985
     name: Basic Multi Sensor Backup Array
+    volume: 5.0
   Basic RADAR Backup Array:
     Cpu: 5.0
     Hp: 40
@@ -46,7 +54,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 35
     TechLevel: 1
+    id: 1946
     name: Basic RADAR Backup Array
+    volume: 5.0
   Emergency Gravimetric Scanners:
     Cpu: 7.0
     Hp: 40
@@ -55,7 +65,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 37
     TechLevel: 1
+    id: 6217
     name: Emergency Gravimetric Scanners
+    volume: 5.0
   Emergency Ladar Scanners:
     Cpu: 7.0
     Hp: 40
@@ -64,7 +76,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 37
     TechLevel: 1
+    id: 6216
     name: Emergency Ladar Scanners
+    volume: 5.0
   Emergency Magnetometric Scanners:
     Cpu: 7.0
     Hp: 40
@@ -73,7 +87,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 37
     TechLevel: 1
+    id: 6193
     name: Emergency Magnetometric Scanners
+    volume: 5.0
   Emergency Multi-Frequency Scanners:
     Cpu: 7.0
     Hp: 40
@@ -85,7 +101,9 @@ items:
     ScanMagnetometricStrengthPercent: 37
     ScanRadarStrengthPercent: 37
     TechLevel: 1
+    id: 6194
     name: Emergency Multi-Frequency Scanners
+    volume: 5.0
   Emergency RADAR Scanners:
     Cpu: 7.0
     Hp: 40
@@ -94,7 +112,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 37
     TechLevel: 1
+    id: 6202
     name: Emergency RADAR Scanners
+    volume: 5.0
   F-42 Reiterative Gravimetric Backup Sensors:
     Cpu: 8.0
     Hp: 40
@@ -103,7 +123,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 38
     TechLevel: 1
+    id: 6292
     name: F-42 Reiterative Gravimetric Backup Sensors
+    volume: 5.0
   F-42 Reiterative Ladar Backup Sensors:
     Cpu: 8.0
     Hp: 40
@@ -112,7 +134,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 38
     TechLevel: 1
+    id: 6290
     name: F-42 Reiterative Ladar Backup Sensors
+    volume: 5.0
   F-42 Reiterative Magnetometric Backup Sensors:
     Cpu: 8.0
     Hp: 40
@@ -121,7 +145,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 38
     TechLevel: 1
+    id: 6284
     name: F-42 Reiterative Magnetometric Backup Sensors
+    volume: 5.0
   F-42 Reiterative Multi-Frequency Backup Sensors:
     Cpu: 8.0
     Hp: 40
@@ -133,7 +159,9 @@ items:
     ScanMagnetometricStrengthPercent: 38
     ScanRadarStrengthPercent: 38
     TechLevel: 1
+    id: 6286
     name: F-42 Reiterative Multi-Frequency Backup Sensors
+    volume: 5.0
   F-42 Reiterative RADAR Backup Sensors:
     Cpu: 8.0
     Hp: 40
@@ -142,7 +170,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 38
     TechLevel: 1
+    id: 6258
     name: F-42 Reiterative RADAR Backup Sensors
+    volume: 5.0
   F-43 Repetitive Gravimetric Backup Sensors:
     Cpu: 14.0
     Hp: 40
@@ -152,7 +182,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 44
     TechLevel: 1
+    id: 6244
     name: F-43 Repetitive Gravimetric Backup Sensors
+    volume: 5.0
   F-43 Repetitive Ladar Backup Sensors:
     Cpu: 14.0
     Hp: 40
@@ -162,7 +194,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 44
     TechLevel: 1
+    id: 6252
     name: F-43 Repetitive Ladar Backup Sensors
+    volume: 5.0
   F-43 Repetitive Magnetometric Backup Sensors:
     Cpu: 14.0
     Hp: 40
@@ -172,7 +206,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 44
     TechLevel: 1
+    id: 6260
     name: F-43 Repetitive Magnetometric Backup Sensors
+    volume: 5.0
   F-43 Repetitive Multi-Frequency Backup Sensors:
     Cpu: 14.0
     Hp: 40
@@ -185,7 +221,9 @@ items:
     ScanMagnetometricStrengthPercent: 44
     ScanRadarStrengthPercent: 44
     TechLevel: 1
+    id: 6268
     name: F-43 Repetitive Multi-Frequency Backup Sensors
+    volume: 20.0
   F-43 Repetitive RADAR Backup Sensors:
     Cpu: 14.0
     Hp: 40
@@ -195,7 +233,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 44
     TechLevel: 1
+    id: 6276
     name: F-43 Repetitive RADAR Backup Sensors
+    volume: 5.0
   Gravimetric Backup Array I:
     Cpu: 10.0
     Hp: 40
@@ -204,7 +244,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 40
     TechLevel: 1
+    id: 2579
     name: Gravimetric Backup Array I
+    volume: 5.0
   Gravimetric Backup Array II:
     Cpu: 18.0
     Hp: 40
@@ -214,7 +256,9 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 48
     TechLevel: 2
+    id: 2580
     name: Gravimetric Backup Array II
+    volume: 5.0
   Gravimetric Firewall:
     Cpu: 10.0
     Hp: 40
@@ -225,7 +269,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 48
     TechLevel: 1
+    id: 21521
     name: Gravimetric Firewall
+    volume: 5.0
   Ladar Backup Array I:
     Cpu: 10.0
     Hp: 40
@@ -234,7 +280,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 40
     TechLevel: 1
+    id: 2583
     name: Ladar Backup Array I
+    volume: 5.0
   Ladar Backup Array II:
     Cpu: 18.0
     Hp: 40
@@ -244,7 +292,9 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 48
     TechLevel: 2
+    id: 2584
     name: Ladar Backup Array II
+    volume: 5.0
   Ladar Firewall:
     Cpu: 10.0
     Hp: 40
@@ -255,7 +305,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 48
     TechLevel: 1
+    id: 21523
     name: Ladar Firewall
+    volume: 5.0
   Magnetometric Backup Array I:
     Cpu: 10.0
     Hp: 40
@@ -264,7 +316,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 40
     TechLevel: 1
+    id: 2587
     name: Magnetometric Backup Array I
+    volume: 5.0
   Magnetometric Backup Array II:
     Cpu: 18.0
     Hp: 40
@@ -274,7 +328,9 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 48
     TechLevel: 2
+    id: 2588
     name: Magnetometric Backup Array II
+    volume: 5.0
   Magnetometric Firewall:
     Cpu: 10.0
     Hp: 40
@@ -285,7 +341,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 48
     TechLevel: 1
+    id: 21525
     name: Magnetometric Firewall
+    volume: 5.0
   Multi Sensor Backup Array I:
     Cpu: 10.0
     Hp: 40
@@ -297,7 +355,9 @@ items:
     ScanMagnetometricStrengthPercent: 40
     ScanRadarStrengthPercent: 40
     TechLevel: 1
+    id: 2591
     name: Multi Sensor Backup Array I
+    volume: 20.0
   Multi Sensor Backup Array II:
     Cpu: 18.0
     Hp: 40
@@ -310,7 +370,9 @@ items:
     ScanMagnetometricStrengthPercent: 48
     ScanRadarStrengthPercent: 48
     TechLevel: 2
+    id: 2592
     name: Multi Sensor Backup Array II
+    volume: 20.0
   Protected Gravimetric Backup Cluster I:
     Cpu: 11.0
     Hp: 40
@@ -320,7 +382,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 41
     TechLevel: 1
+    id: 6218
     name: Protected Gravimetric Backup Cluster I
+    volume: 5.0
   Protected Ladar Backup Cluster I:
     Cpu: 11.0
     Hp: 40
@@ -330,7 +394,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 41
     TechLevel: 1
+    id: 6222
     name: Protected Ladar Backup Cluster I
+    volume: 5.0
   Protected Magnetometric Backup Cluster I:
     Cpu: 11.0
     Hp: 40
@@ -340,7 +406,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 41
     TechLevel: 1
+    id: 6226
     name: Protected Magnetometric Backup Cluster I
+    volume: 5.0
   Protected Multi-Frequency Backup Cluster I:
     Cpu: 11.0
     Hp: 40
@@ -353,7 +421,9 @@ items:
     ScanMagnetometricStrengthPercent: 41
     ScanRadarStrengthPercent: 41
     TechLevel: 1
+    id: 6230
     name: Protected Multi-Frequency Backup Cluster I
+    volume: 20.0
   Protected RADAR Backup Cluster I:
     Cpu: 11.0
     Hp: 40
@@ -363,7 +433,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 41
     TechLevel: 1
+    id: 6234
     name: Protected RADAR Backup Cluster I
+    volume: 5.0
   RADAR Backup Array I:
     Cpu: 10.0
     Hp: 40
@@ -372,7 +444,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 40
     TechLevel: 1
+    id: 4013
     name: RADAR Backup Array I
+    volume: 5.0
   RADAR Backup Array II:
     Cpu: 18.0
     Hp: 40
@@ -382,7 +456,9 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 48
     TechLevel: 2
+    id: 4014
     name: RADAR Backup Array II
+    volume: 5.0
   RADAR Firewall:
     Cpu: 10.0
     Hp: 40
@@ -393,7 +469,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 48
     TechLevel: 1
+    id: 21529
     name: RADAR Firewall
+    volume: 5.0
   Reserve Gravimetric Scanners:
     Cpu: 12.0
     Hp: 40
@@ -403,7 +481,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 42
     TechLevel: 1
+    id: 6195
     name: Reserve Gravimetric Scanners
+    volume: 5.0
   Reserve Ladar Scanners:
     Cpu: 12.0
     Hp: 40
@@ -413,7 +493,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 42
     TechLevel: 1
+    id: 6199
     name: Reserve Ladar Scanners
+    volume: 5.0
   Reserve Magnetometric Scanners:
     Cpu: 12.0
     Hp: 40
@@ -423,7 +505,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 42
     TechLevel: 1
+    id: 6203
     name: Reserve Magnetometric Scanners
+    volume: 5.0
   Reserve Multi-Frequency Scanners:
     Cpu: 12.0
     Hp: 40
@@ -436,7 +520,9 @@ items:
     ScanMagnetometricStrengthPercent: 42
     ScanRadarStrengthPercent: 42
     TechLevel: 1
+    id: 6207
     name: Reserve Multi-Frequency Scanners
+    volume: 20.0
   Reserve RADAR Scanners:
     Cpu: 12.0
     Hp: 40
@@ -446,7 +532,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 42
     TechLevel: 1
+    id: 6212
     name: Reserve RADAR Scanners
+    volume: 5.0
   Sealed Gravimetric Backup Cluster:
     Cpu: 9.0
     Hp: 40
@@ -455,7 +543,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 39
     TechLevel: 1
+    id: 6242
     name: Sealed Gravimetric Backup Cluster
+    volume: 5.0
   Sealed Ladar Backup Cluster:
     Cpu: 9.0
     Hp: 40
@@ -464,7 +554,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 39
     TechLevel: 1
+    id: 6241
     name: Sealed Ladar Backup Cluster
+    volume: 5.0
   Sealed Magnetometric Backup Cluster:
     Cpu: 9.0
     Hp: 40
@@ -473,7 +565,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 39
     TechLevel: 1
+    id: 6238
     name: Sealed Magnetometric Backup Cluster
+    volume: 5.0
   Sealed Multi-Frequency Backup Cluster:
     Cpu: 9.0
     Hp: 40
@@ -485,7 +579,9 @@ items:
     ScanMagnetometricStrengthPercent: 39
     ScanRadarStrengthPercent: 39
     TechLevel: 1
+    id: 6239
     name: Sealed Multi-Frequency Backup Cluster
+    volume: 5.0
   Sealed RADAR Backup Cluster:
     Cpu: 9.0
     Hp: 40
@@ -494,7 +590,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 39
     TechLevel: 1
+    id: 6225
     name: Sealed RADAR Backup Cluster
+    volume: 5.0
   Secure Gravimetric Backup Cluster I:
     Cpu: 13.0
     Hp: 40
@@ -504,7 +602,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 43
     TechLevel: 1
+    id: 20238
     name: Secure Gravimetric Backup Cluster I
+    volume: 5.0
   Secure Ladar Backup Cluster I:
     Cpu: 13.0
     Hp: 40
@@ -514,7 +614,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 43
     TechLevel: 1
+    id: 20244
     name: Secure Ladar Backup Cluster I
+    volume: 5.0
   Secure Magnetometric Backup Cluster I:
     Cpu: 13.0
     Hp: 40
@@ -524,7 +626,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 43
     TechLevel: 1
+    id: 20250
     name: Secure Magnetometric Backup Cluster I
+    volume: 5.0
   Secure Radar Backup Cluster I:
     Cpu: 13.0
     Hp: 40
@@ -534,7 +638,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 43
     TechLevel: 1
+    id: 20260
     name: Secure Radar Backup Cluster I
+    volume: 5.0
   Shielded Gravimetric Backup Cluster I:
     Cpu: 15.0
     Hp: 40
@@ -544,7 +650,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 45
     TechLevel: 1
+    id: 20240
     name: Shielded Gravimetric Backup Cluster I
+    volume: 5.0
   Shielded Ladar Backup Cluster I:
     Cpu: 15.0
     Hp: 40
@@ -554,7 +662,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 45
     TechLevel: 1
+    id: 20246
     name: Shielded Ladar Backup Cluster I
+    volume: 5.0
   Shielded Magnetometric Backup Cluster I:
     Cpu: 15.0
     Hp: 40
@@ -564,7 +674,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 45
     TechLevel: 1
+    id: 20252
     name: Shielded Magnetometric Backup Cluster I
+    volume: 5.0
   Shielded Radar Backup Cluster I:
     Cpu: 15.0
     Hp: 40
@@ -574,7 +686,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 45
     TechLevel: 1
+    id: 20262
     name: Shielded Radar Backup Cluster I
+    volume: 5.0
   Surplus Gravimetric Reserve Array:
     Cpu: 6.0
     Hp: 40
@@ -583,7 +697,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 36
     TechLevel: 1
+    id: 6291
     name: Surplus Gravimetric Reserve Array
+    volume: 5.0
   Surplus Ladar Reserve Array:
     Cpu: 6.0
     Hp: 40
@@ -592,7 +708,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 36
     TechLevel: 1
+    id: 6289
     name: Surplus Ladar Reserve Array
+    volume: 5.0
   Surplus Magnetometric Reserve Array:
     Cpu: 6.0
     Hp: 40
@@ -601,7 +719,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 36
     TechLevel: 1
+    id: 6283
     name: Surplus Magnetometric Reserve Array
+    volume: 5.0
   Surplus Multi-Frequency Reserve Array:
     Cpu: 6.0
     Hp: 40
@@ -613,7 +733,9 @@ items:
     ScanMagnetometricStrengthPercent: 36
     ScanRadarStrengthPercent: 36
     TechLevel: 1
+    id: 6285
     name: Surplus Multi-Frequency Reserve Array
+    volume: 5.0
   Surplus RADAR Reserve Array:
     Cpu: 6.0
     Hp: 40
@@ -622,7 +744,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 36
     TechLevel: 1
+    id: 6257
     name: Surplus RADAR Reserve Array
+    volume: 5.0
   Surrogate Gravimetric Reserve Array I:
     Cpu: 16.0
     Hp: 40
@@ -632,7 +756,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 46
     TechLevel: 1
+    id: 6243
     name: Surrogate Gravimetric Reserve Array I
+    volume: 5.0
   Surrogate Ladar Reserve Array I:
     Cpu: 16.0
     Hp: 40
@@ -642,7 +768,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 46
     TechLevel: 1
+    id: 6251
     name: Surrogate Ladar Reserve Array I
+    volume: 5.0
   Surrogate Magnetometric Reserve Array I:
     Cpu: 16.0
     Hp: 40
@@ -652,7 +780,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 46
     TechLevel: 1
+    id: 6259
     name: Surrogate Magnetometric Reserve Array I
+    volume: 5.0
   Surrogate Multi-Frequency Reserve Array I:
     Cpu: 16.0
     Hp: 40
@@ -665,7 +795,9 @@ items:
     ScanMagnetometricStrengthPercent: 46
     ScanRadarStrengthPercent: 46
     TechLevel: 1
+    id: 6267
     name: Surrogate Multi-Frequency Reserve Array I
+    volume: 20.0
   Surrogate RADAR Reserve Array I:
     Cpu: 16.0
     Hp: 40
@@ -675,7 +807,9 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 46
     TechLevel: 1
+    id: 6275
     name: Surrogate RADAR Reserve Array I
+    volume: 5.0
   Warded Gravimetric Backup Cluster I:
     Cpu: 17.0
     Hp: 40
@@ -685,7 +819,9 @@ items:
     RequiredSkill1Level: 1
     ScanGravimetricStrengthPercent: 47
     TechLevel: 1
+    id: 20242
     name: Warded Gravimetric Backup Cluster I
+    volume: 5.0
   Warded Ladar Backup Cluster I:
     Cpu: 17.0
     Hp: 40
@@ -695,7 +831,9 @@ items:
     RequiredSkill1Level: 1
     ScanLadarStrengthPercent: 47
     TechLevel: 1
+    id: 20248
     name: Warded Ladar Backup Cluster I
+    volume: 5.0
   Warded Magnetometric Backup Cluster I:
     Cpu: 17.0
     Hp: 40
@@ -705,7 +843,9 @@ items:
     RequiredSkill1Level: 1
     ScanMagnetometricStrengthPercent: 47
     TechLevel: 1
+    id: 20254
     name: Warded Magnetometric Backup Cluster I
+    volume: 5.0
   Warded Radar Backup Cluster I:
     Cpu: 17.0
     Hp: 40
@@ -715,4 +855,6 @@ items:
     RequiredSkill1Level: 1
     ScanRadarStrengthPercent: 47
     TechLevel: 1
+    id: 20264
     name: Warded Radar Backup Cluster I
+    volume: 5.0

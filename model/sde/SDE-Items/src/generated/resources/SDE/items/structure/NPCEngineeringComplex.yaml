@@ -67,4 +67,6 @@ items:
     UpgradeSlotsLeft: 3
     VulnerabilityRequired: 26
     WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 45006
     name: ♦ Sotiyo
+    volume: 800000.0

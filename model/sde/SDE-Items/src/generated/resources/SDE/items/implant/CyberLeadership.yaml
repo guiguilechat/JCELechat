@@ -7,7 +7,9 @@ items:
     RequiredSkill2: 11569
     RequiredSkill2Level: 5
     TechLevel: 2
+    id: 13209
     name: Armored Command Mindlink
+    volume: 1.0
   Caldari Navy Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
@@ -19,7 +21,9 @@ items:
     RequiredSkill3: 3352
     RequiredSkill3Level: 5
     TechLevel: 1
+    id: 33406
     name: Caldari Navy Command Mindlink
+    volume: 1.0
   Federation Navy Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
@@ -31,7 +35,9 @@ items:
     RequiredSkill3: 11572
     RequiredSkill3Level: 5
     TechLevel: 1
+    id: 33404
     name: Federation Navy Command Mindlink
+    volume: 1.0
   Imperial Navy Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
@@ -43,7 +49,9 @@ items:
     RequiredSkill3: 3352
     RequiredSkill3Level: 5
     TechLevel: 1
+    id: 33403
     name: Imperial Navy Command Mindlink
+    volume: 1.0
   Information Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
@@ -52,7 +60,9 @@ items:
     RequiredSkill2: 3352
     RequiredSkill2Level: 5
     TechLevel: 2
+    id: 21889
     name: Information Command Mindlink
+    volume: 1.0
   Mining Foreman Mindlink:
     Implantness: 10
     MindlinkBonus: 25
@@ -61,7 +71,9 @@ items:
     RequiredSkill2: 22552
     RequiredSkill2Level: 5
     TechLevel: 2
+    id: 22559
     name: Mining Foreman Mindlink
+    volume: 1.0
   ORE Mining Director Mindlink:
     Implantness: 10
     MetaGroupID: 4
@@ -73,7 +85,9 @@ items:
     RequiredSkill3: 3351
     RequiredSkill3Level: 5
     TechLevel: 1
+    id: 43775
     name: ORE Mining Director Mindlink
+    volume: 1.0
   Republic Fleet Command Mindlink:
     Implantness: 10
     MetaGroupID: 4
@@ -85,7 +99,9 @@ items:
     RequiredSkill3: 11572
     RequiredSkill3Level: 5
     TechLevel: 1
+    id: 33405
     name: Republic Fleet Command Mindlink
+    volume: 1.0
   Shield Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
@@ -94,7 +110,9 @@ items:
     RequiredSkill2: 3351
     RequiredSkill2Level: 5
     TechLevel: 2
+    id: 21888
     name: Shield Command Mindlink
+    volume: 1.0
   Skirmish Command Mindlink:
     Implantness: 10
     MindlinkBonus: 25
@@ -103,4 +121,6 @@ items:
     RequiredSkill2: 11572
     RequiredSkill2Level: 5
     TechLevel: 2
+    id: 21890
     name: Skirmish Command Mindlink
+    volume: 1.0

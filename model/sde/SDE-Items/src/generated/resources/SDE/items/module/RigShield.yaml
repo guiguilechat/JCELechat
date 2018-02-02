@@ -6,7 +6,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31720
     name: Capital Anti-EM Screen Reinforcer I
+    volume: 40.0
   Capital Anti-EM Screen Reinforcer II:
     Drawback: 10
     EmDamageResistanceBonus: -35.0
@@ -15,7 +17,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31726
     name: Capital Anti-EM Screen Reinforcer II
+    volume: 40.0
   Capital Anti-Explosive Screen Reinforcer I:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -30.0
@@ -23,7 +27,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31732
     name: Capital Anti-Explosive Screen Reinforcer I
+    volume: 40.0
   Capital Anti-Explosive Screen Reinforcer II:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -35.0
@@ -32,7 +38,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31738
     name: Capital Anti-Explosive Screen Reinforcer II
+    volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -40,7 +48,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31744
     name: Capital Anti-Kinetic Screen Reinforcer I
+    volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -49,7 +59,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31750
     name: Capital Anti-Kinetic Screen Reinforcer II
+    volume: 40.0
   Capital Anti-Thermal Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -57,7 +69,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31756
     name: Capital Anti-Thermal Screen Reinforcer I
+    volume: 40.0
   Capital Anti-Thermal Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -66,7 +80,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31762
     name: Capital Anti-Thermal Screen Reinforcer II
+    volume: 40.0
   Capital Core Defense Capacitor Safeguard I:
     Drawback: 10
     Hp: 40
@@ -74,7 +90,9 @@ items:
     ShieldBoostCapacitorBonus: -10
     TechLevel: 1
     UpgradeCost: 50
+    id: 31768
     name: Capital Core Defense Capacitor Safeguard I
+    volume: 40.0
   Capital Core Defense Capacitor Safeguard II:
     Drawback: 10
     Hp: 40
@@ -83,7 +101,9 @@ items:
     ShieldBoostCapacitorBonus: -15
     TechLevel: 2
     UpgradeCost: 75
+    id: 31774
     name: Capital Core Defense Capacitor Safeguard II
+    volume: 40.0
   Capital Core Defense Charge Economizer I:
     Drawback: 10
     Hp: 40
@@ -91,7 +111,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31780
     name: Capital Core Defense Charge Economizer I
+    volume: 40.0
   Capital Core Defense Charge Economizer II:
     Drawback: 10
     Hp: 40
@@ -100,7 +122,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31786
     name: Capital Core Defense Charge Economizer II
+    volume: 40.0
   Capital Core Defense Field Extender I:
     Drawback: 10
     Hp: 40
@@ -108,7 +132,9 @@ items:
     ShieldCapacityBonus: 15.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31792
     name: Capital Core Defense Field Extender I
+    volume: 40.0
   Capital Core Defense Field Extender II:
     Drawback: 10
     Hp: 40
@@ -117,7 +143,9 @@ items:
     ShieldCapacityBonus: 20.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31798
     name: Capital Core Defense Field Extender II
+    volume: 40.0
   Capital Core Defense Field Purger I:
     Drawback: 10
     Hp: 40
@@ -125,7 +153,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31804
     name: Capital Core Defense Field Purger I
+    volume: 40.0
   Capital Core Defense Field Purger II:
     Drawback: 10
     Hp: 40
@@ -134,7 +164,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31814
     name: Capital Core Defense Field Purger II
+    volume: 40.0
   Capital Core Defense Operational Solidifier I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -142,7 +174,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    id: 31820
     name: Capital Core Defense Operational Solidifier I
+    volume: 40.0
   Capital Core Defense Operational Solidifier II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -151,7 +185,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    id: 31826
     name: Capital Core Defense Operational Solidifier II
+    volume: 40.0
   Large Anti-EM Screen Reinforcer I:
     Drawback: 10
     EmDamageResistanceBonus: -30.0
@@ -159,7 +195,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26076
     name: Large Anti-EM Screen Reinforcer I
+    volume: 20.0
   Large Anti-EM Screen Reinforcer II:
     Drawback: 10
     EmDamageResistanceBonus: -35.0
@@ -168,7 +206,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26436
     name: Large Anti-EM Screen Reinforcer II
+    volume: 20.0
   Large Anti-Explosive Screen Reinforcer I:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -30.0
@@ -176,7 +216,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26078
     name: Large Anti-Explosive Screen Reinforcer I
+    volume: 20.0
   Large Anti-Explosive Screen Reinforcer II:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -35.0
@@ -185,7 +227,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26438
     name: Large Anti-Explosive Screen Reinforcer II
+    volume: 20.0
   Large Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -193,7 +237,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26080
     name: Large Anti-Kinetic Screen Reinforcer I
+    volume: 20.0
   Large Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -202,7 +248,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26440
     name: Large Anti-Kinetic Screen Reinforcer II
+    volume: 20.0
   Large Anti-Thermal Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -210,7 +258,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 26082
     name: Large Anti-Thermal Screen Reinforcer I
+    volume: 20.0
   Large Anti-Thermal Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -219,7 +269,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 26442
     name: Large Anti-Thermal Screen Reinforcer II
+    volume: 20.0
   Large Core Defense Capacitor Safeguard I:
     Drawback: 10
     Hp: 40
@@ -227,7 +279,9 @@ items:
     ShieldBoostCapacitorBonus: -10
     TechLevel: 1
     UpgradeCost: 50
+    id: 25906
     name: Large Core Defense Capacitor Safeguard I
+    volume: 20.0
   Large Core Defense Capacitor Safeguard II:
     Drawback: 10
     Hp: 40
@@ -236,7 +290,9 @@ items:
     ShieldBoostCapacitorBonus: -15
     TechLevel: 2
     UpgradeCost: 75
+    id: 26444
     name: Large Core Defense Capacitor Safeguard II
+    volume: 20.0
   Large Core Defense Charge Economizer I:
     Drawback: 10
     Hp: 40
@@ -244,7 +300,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26090
     name: Large Core Defense Charge Economizer I
+    volume: 20.0
   Large Core Defense Charge Economizer II:
     Drawback: 10
     Hp: 40
@@ -253,14 +311,18 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26446
     name: Large Core Defense Charge Economizer II
+    volume: 20.0
   Large Core Defense Field Extender I:
     Drawback: 10
     Hp: 40
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26088
     name: Large Core Defense Field Extender I
+    volume: 20.0
   Large Core Defense Field Extender II:
     Drawback: 10
     Hp: 40
@@ -268,7 +330,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26448
     name: Large Core Defense Field Extender II
+    volume: 20.0
   Large Core Defense Field Purger I:
     Drawback: 10
     Hp: 40
@@ -276,7 +340,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 26084
     name: Large Core Defense Field Purger I
+    volume: 20.0
   Large Core Defense Field Purger II:
     Drawback: 10
     Hp: 40
@@ -285,7 +351,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26450
     name: Large Core Defense Field Purger II
+    volume: 20.0
   Large Core Defense Operational Solidifier I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -293,7 +361,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    id: 26086
     name: Large Core Defense Operational Solidifier I
+    volume: 20.0
   Large Core Defense Operational Solidifier II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -302,7 +372,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    id: 26452
     name: Large Core Defense Operational Solidifier II
+    volume: 20.0
   Medium Anti-EM Screen Reinforcer I:
     Drawback: 10
     EmDamageResistanceBonus: -30.0
@@ -310,7 +382,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31718
     name: Medium Anti-EM Screen Reinforcer I
+    volume: 10.0
   Medium Anti-EM Screen Reinforcer II:
     Drawback: 10
     EmDamageResistanceBonus: -35.0
@@ -319,7 +393,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31724
     name: Medium Anti-EM Screen Reinforcer II
+    volume: 10.0
   Medium Anti-Explosive Screen Reinforcer I:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -30.0
@@ -327,7 +403,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31730
     name: Medium Anti-Explosive Screen Reinforcer I
+    volume: 10.0
   Medium Anti-Explosive Screen Reinforcer II:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -35.0
@@ -336,7 +414,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31736
     name: Medium Anti-Explosive Screen Reinforcer II
+    volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -344,7 +424,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31742
     name: Medium Anti-Kinetic Screen Reinforcer I
+    volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -353,7 +435,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31748
     name: Medium Anti-Kinetic Screen Reinforcer II
+    volume: 10.0
   Medium Anti-Thermal Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -361,7 +445,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31754
     name: Medium Anti-Thermal Screen Reinforcer I
+    volume: 10.0
   Medium Anti-Thermal Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -370,7 +456,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31760
     name: Medium Anti-Thermal Screen Reinforcer II
+    volume: 10.0
   Medium Core Defense Capacitor Safeguard I:
     Drawback: 10
     Hp: 40
@@ -378,7 +466,9 @@ items:
     ShieldBoostCapacitorBonus: -10
     TechLevel: 1
     UpgradeCost: 50
+    id: 31766
     name: Medium Core Defense Capacitor Safeguard I
+    volume: 10.0
   Medium Core Defense Capacitor Safeguard II:
     Drawback: 10
     Hp: 40
@@ -387,7 +477,9 @@ items:
     ShieldBoostCapacitorBonus: -15
     TechLevel: 2
     UpgradeCost: 75
+    id: 31772
     name: Medium Core Defense Capacitor Safeguard II
+    volume: 10.0
   Medium Core Defense Charge Economizer I:
     Drawback: 10
     Hp: 40
@@ -395,7 +487,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31778
     name: Medium Core Defense Charge Economizer I
+    volume: 10.0
   Medium Core Defense Charge Economizer II:
     Drawback: 10
     Hp: 40
@@ -404,7 +498,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31784
     name: Medium Core Defense Charge Economizer II
+    volume: 10.0
   Medium Core Defense Field Extender I:
     Drawback: 10
     Hp: 40
@@ -412,7 +508,9 @@ items:
     ShieldCapacityBonus: 15.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31790
     name: Medium Core Defense Field Extender I
+    volume: 10.0
   Medium Core Defense Field Extender II:
     Drawback: 10
     Hp: 40
@@ -421,7 +519,9 @@ items:
     ShieldCapacityBonus: 20.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31796
     name: Medium Core Defense Field Extender II
+    volume: 10.0
   Medium Core Defense Field Purger I:
     Drawback: 10
     Hp: 40
@@ -429,7 +529,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31802
     name: Medium Core Defense Field Purger I
+    volume: 10.0
   Medium Core Defense Field Purger II:
     Drawback: 10
     Hp: 40
@@ -438,7 +540,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31812
     name: Medium Core Defense Field Purger II
+    volume: 10.0
   Medium Core Defense Operational Solidifier I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -446,7 +550,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    id: 31818
     name: Medium Core Defense Operational Solidifier I
+    volume: 10.0
   Medium Core Defense Operational Solidifier II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -455,7 +561,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    id: 31824
     name: Medium Core Defense Operational Solidifier II
+    volume: 10.0
   Shield Transporter Rig I:
     CapNeedBonus: -20
     Drawback: 10
@@ -463,7 +571,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 26964
     name: Shield Transporter Rig I
+    volume: 5.0
   Shield Transporter Rig II:
     CapNeedBonus: -25
     Drawback: 10
@@ -471,7 +581,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 150
+    id: 26966
     name: Shield Transporter Rig II
+    volume: 5.0
   Small Anti-EM Screen Reinforcer I:
     Drawback: 10
     EmDamageResistanceBonus: -30.0
@@ -479,7 +591,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31716
     name: Small Anti-EM Screen Reinforcer I
+    volume: 5.0
   Small Anti-EM Screen Reinforcer II:
     Drawback: 10
     EmDamageResistanceBonus: -35.0
@@ -488,7 +602,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31722
     name: Small Anti-EM Screen Reinforcer II
+    volume: 5.0
   Small Anti-Explosive Screen Reinforcer I:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -30.0
@@ -496,7 +612,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31728
     name: Small Anti-Explosive Screen Reinforcer I
+    volume: 5.0
   Small Anti-Explosive Screen Reinforcer II:
     Drawback: 10
     ExplosiveDamageResistanceBonus: -35.0
@@ -505,7 +623,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31734
     name: Small Anti-Explosive Screen Reinforcer II
+    volume: 5.0
   Small Anti-Kinetic Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -513,7 +633,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31740
     name: Small Anti-Kinetic Screen Reinforcer I
+    volume: 5.0
   Small Anti-Kinetic Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -522,7 +644,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31746
     name: Small Anti-Kinetic Screen Reinforcer II
+    volume: 5.0
   Small Anti-Thermal Screen Reinforcer I:
     Drawback: 10
     Hp: 40
@@ -530,7 +654,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31752
     name: Small Anti-Thermal Screen Reinforcer I
+    volume: 5.0
   Small Anti-Thermal Screen Reinforcer II:
     Drawback: 10
     Hp: 40
@@ -539,7 +665,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31758
     name: Small Anti-Thermal Screen Reinforcer II
+    volume: 5.0
   Small Core Defense Capacitor Safeguard I:
     Drawback: 10
     Hp: 40
@@ -547,7 +675,9 @@ items:
     ShieldBoostCapacitorBonus: -10
     TechLevel: 1
     UpgradeCost: 50
+    id: 31764
     name: Small Core Defense Capacitor Safeguard I
+    volume: 5.0
   Small Core Defense Capacitor Safeguard II:
     Drawback: 10
     Hp: 40
@@ -556,7 +686,9 @@ items:
     ShieldBoostCapacitorBonus: -15
     TechLevel: 2
     UpgradeCost: 75
+    id: 31770
     name: Small Core Defense Capacitor Safeguard II
+    volume: 5.0
   Small Core Defense Charge Economizer I:
     Drawback: 10
     Hp: 40
@@ -564,7 +696,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31776
     name: Small Core Defense Charge Economizer I
+    volume: 5.0
   Small Core Defense Charge Economizer II:
     Drawback: 10
     Hp: 40
@@ -573,7 +707,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31782
     name: Small Core Defense Charge Economizer II
+    volume: 5.0
   Small Core Defense Field Extender I:
     Drawback: 10
     Hp: 40
@@ -581,7 +717,9 @@ items:
     ShieldCapacityBonus: 15.0
     TechLevel: 1
     UpgradeCost: 50
+    id: 31788
     name: Small Core Defense Field Extender I
+    volume: 5.0
   Small Core Defense Field Extender II:
     Drawback: 10
     Hp: 40
@@ -590,7 +728,9 @@ items:
     ShieldCapacityBonus: 20.0
     TechLevel: 2
     UpgradeCost: 75
+    id: 31794
     name: Small Core Defense Field Extender II
+    volume: 5.0
   Small Core Defense Field Purger I:
     Drawback: 10
     Hp: 40
@@ -598,7 +738,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31800
     name: Small Core Defense Field Purger I
+    volume: 5.0
   Small Core Defense Field Purger II:
     Drawback: 10
     Hp: 40
@@ -607,7 +749,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31810
     name: Small Core Defense Field Purger II
+    volume: 5.0
   Small Core Defense Operational Solidifier I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -615,7 +759,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 31816
     name: Small Core Defense Operational Solidifier I
+    volume: 5.0
   Small Core Defense Operational Solidifier II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -624,4 +770,6 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 31822
     name: Small Core Defense Operational Solidifier II
+    volume: 5.0

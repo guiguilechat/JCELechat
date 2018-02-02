@@ -22,4 +22,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 33149
     name: Personal Hangar Array
+    volume: 4000.0

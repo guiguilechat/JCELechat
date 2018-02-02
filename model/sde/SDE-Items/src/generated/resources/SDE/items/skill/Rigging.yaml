@@ -6,7 +6,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26253
     name: Armor Rigging
+    volume: 0.01
   Astronautics Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -14,7 +16,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26254
     name: Astronautics Rigging
+    volume: 0.01
   Drones Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -22,7 +26,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26255
     name: Drones Rigging
+    volume: 0.01
   Electronic Superiority Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -30,7 +36,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26256
     name: Electronic Superiority Rigging
+    volume: 0.01
   Energy Weapon Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -38,7 +46,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26258
     name: Energy Weapon Rigging
+    volume: 0.01
   Hybrid Weapon Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -46,7 +56,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26259
     name: Hybrid Weapon Rigging
+    volume: 0.01
   Jury Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 3392
@@ -54,7 +66,9 @@ items:
     RigDrawbackBonus: 10
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
+    id: 26252
     name: Jury Rigging
+    volume: 0.01
   Launcher Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -62,7 +76,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26260
     name: Launcher Rigging
+    volume: 0.01
   Projectile Weapon Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -70,7 +86,9 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26257
     name: Projectile Weapon Rigging
+    volume: 0.01
   Shield Rigging:
     PrimaryAttribute: 165
     RequiredSkill1: 26252
@@ -78,4 +96,6 @@ items:
     RigDrawbackBonus: -10
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
+    id: 26261
     name: Shield Rigging
+    volume: 0.01

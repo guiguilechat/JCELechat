@@ -9,7 +9,9 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 37252
     name: Standup L-Set Fighter Mission Control I
+    volume: 20.0
   Standup L-Set Fighter Mission Control II:
     CanFitShipGroup01: 1657
     DroneMaxVelocityBonus: 35
@@ -20,4 +22,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     UpgradeCost: 100
+    id: 37253
     name: Standup L-Set Fighter Mission Control II
+    volume: 20.0

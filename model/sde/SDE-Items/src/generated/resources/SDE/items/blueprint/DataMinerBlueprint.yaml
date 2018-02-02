@@ -2,60 +2,90 @@ items:
   '''Alpha'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22330
     name: '''Alpha'' Data Analyzer I Blueprint'
+    volume: 0.01
   '''Codex'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22328
     name: '''Codex'' Data Analyzer I Blueprint'
+    volume: 0.01
   '''Daemon'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22326
     name: '''Daemon'' Data Analyzer I Blueprint'
+    volume: 0.01
   '''Libram'' Data Analyzer I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22332
     name: '''Libram'' Data Analyzer I Blueprint'
+    volume: 0.01
   Civilian Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 27015
     name: Civilian Data Analyzer Blueprint
+    volume: 0.01
   Civilian Relic Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 27020
     name: Civilian Relic Analyzer Blueprint
+    volume: 0.01
   Data Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22176
     name: Data Analyzer I Blueprint
+    volume: 0.01
   Data Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 30835
     name: Data Analyzer II Blueprint
+    volume: 0.01
   Data Subverter I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 3794
     name: Data Subverter I Blueprint
+    volume: 0.01
   Ligature Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 41535
     name: Ligature Integrated Analyzer Blueprint
+    volume: 0.01
   Mangled Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
+    id: 3590
     name: Mangled Sansha Data Analyzer Blueprint
+    volume: 0.01
   Purloined Sansha Data Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 3582
     name: Purloined Sansha Data Analyzer Blueprint
+    volume: 0.01
   Relic Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 22178
     name: Relic Analyzer I Blueprint
+    volume: 0.01
   Relic Analyzer II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 30833
     name: Relic Analyzer II Blueprint
+    volume: 0.01
   Zeugma Integrated Analyzer Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 41536
     name: Zeugma Integrated Analyzer Blueprint
+    volume: 0.01

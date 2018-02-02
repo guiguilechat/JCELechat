@@ -1,7 +1,10 @@
 items:
   Argon Gas Environment_Damage:
+    id: 25860
     name: Argon Gas Environment_Damage
   Mining Pollution Cloud:
+    id: 11546
     name: Mining Pollution Cloud
   TEST Triggered Damage Cloud:
+    id: 25816
     name: TEST Triggered Damage Cloud

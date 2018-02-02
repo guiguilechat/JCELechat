@@ -1,16 +1,26 @@
 items:
   Blood Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27875
     name: Blood Energy Neutralizing Battery Blueprint
+    volume: 0.01
   Dark Blood Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27876
     name: Dark Blood Energy Neutralizing Battery Blueprint
+    volume: 0.01
   Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2799
     name: Energy Neutralizing Battery Blueprint
+    volume: 0.01
   Sansha Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27877
     name: Sansha Energy Neutralizing Battery Blueprint
+    volume: 0.01
   True Sansha Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27878
     name: True Sansha Energy Neutralizing Battery Blueprint
+    volume: 0.01

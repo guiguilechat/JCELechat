@@ -1,33 +1,65 @@
 items:
   Standard Blue Pill Booster Reaction:
+    id: 16868
     name: Standard Blue Pill Booster Reaction
+    volume: 1.0
   Standard Crash Booster Reaction:
+    id: 25243
     name: Standard Crash Booster Reaction
+    volume: 1.0
   Standard Drop Booster Reaction:
+    id: 25284
     name: Standard Drop Booster Reaction
+    volume: 1.0
   Standard Exile Booster Reaction:
+    id: 25285
     name: Standard Exile Booster Reaction
+    volume: 1.0
   Standard Frentix Booster Reaction:
+    id: 25251
     name: Standard Frentix Booster Reaction
+    volume: 1.0
   Standard Mindflood Booster Reaction:
+    id: 25286
     name: Standard Mindflood Booster Reaction
+    volume: 1.0
   Standard Sooth Sayer Booster Reaction:
+    id: 25288
     name: Standard Sooth Sayer Booster Reaction
+    volume: 1.0
   Standard X-Instinct Booster Reaction:
+    id: 25287
     name: Standard X-Instinct Booster Reaction
+    volume: 1.0
   Synth Blue Pill Booster Reaction:
+    id: 28702
     name: Synth Blue Pill Booster Reaction
+    volume: 1.0
   Synth Crash Booster Reaction:
+    id: 28703
     name: Synth Crash Booster Reaction
+    volume: 1.0
   Synth Drop Booster Reaction:
+    id: 28704
     name: Synth Drop Booster Reaction
+    volume: 1.0
   Synth Exile Booster Reaction:
+    id: 28705
     name: Synth Exile Booster Reaction
+    volume: 1.0
   Synth Frentix Booster Reaction:
+    id: 28706
     name: Synth Frentix Booster Reaction
+    volume: 1.0
   Synth Mindflood Booster Reaction:
+    id: 28707
     name: Synth Mindflood Booster Reaction
+    volume: 1.0
   Synth Sooth Sayer Booster Reaction:
+    id: 28708
     name: Synth Sooth Sayer Booster Reaction
+    volume: 1.0
   Synth X-Instinct Booster Reaction:
+    id: 28709
     name: Synth X-Instinct Booster Reaction
+    volume: 1.0

@@ -2,22 +2,28 @@ items:
   Minmatar Business School Commerce Bonus:
     CharismaSkillTrainingTimeMultiplierBonus: -0.05000000074505806
     CpuMultiplier: 1.0
+    id: 1673
     name: Minmatar Business School Commerce Bonus
   Minmatar Business School Industry Bonus:
     CpuMultiplier: 1.0
+    id: 1674
     name: Minmatar Business School Industry Bonus
   Minmatar Military Academy Gunner Bonus:
     CapacitorNeedMultiplier: 0.949999988079071
     CpuMultiplier: 1.0
+    id: 1670
     name: Minmatar Military Academy Gunner Bonus
   Minmatar Military Academy Pilot Bonus:
     CpuMultiplier: 1.0
     PerceptionSkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    id: 1669
     name: Minmatar Military Academy Pilot Bonus
   Minmatar Technical School Electronic Bonus:
     CpuMultiplier: 0.949999988079071
+    id: 1672
     name: Minmatar Technical School Electronic Bonus
   Minmatar Technical School Engineering Bonus:
     CpuMultiplier: 1.0
     MemorySkillTrainingTimeMultiplierBonus: -0.05000000074505806
+    id: 1671
     name: Minmatar Technical School Engineering Bonus

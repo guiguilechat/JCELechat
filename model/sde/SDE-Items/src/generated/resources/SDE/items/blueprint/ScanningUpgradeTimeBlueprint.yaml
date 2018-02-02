@@ -2,8 +2,12 @@ items:
   Scan Acquisition Array I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
+    id: 33177
     name: Scan Acquisition Array I Blueprint
+    volume: 0.01
   Scan Acquisition Array II Blueprint:
     IndustryBlueprintRank: 15.600000381469727
     TechLevel: 2
+    id: 33198
     name: Scan Acquisition Array II Blueprint
+    volume: 0.01

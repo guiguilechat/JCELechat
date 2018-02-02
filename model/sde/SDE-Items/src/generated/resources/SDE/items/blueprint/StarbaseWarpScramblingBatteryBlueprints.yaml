@@ -1,19 +1,31 @@
 items:
   Serpentis Warp Disruption Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27868
     name: Serpentis Warp Disruption Battery Blueprint
+    volume: 0.01
   Serpentis Warp Scrambling Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27867
     name: Serpentis Warp Scrambling Battery Blueprint
+    volume: 0.01
   Shadow Warp Disruption Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27869
     name: Shadow Warp Disruption Battery Blueprint
+    volume: 0.01
   Shadow Warp Scrambling Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 27870
     name: Shadow Warp Scrambling Battery Blueprint
+    volume: 0.01
   Warp Disruption Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2736
     name: Warp Disruption Battery Blueprint
+    volume: 0.01
   Warp Scrambling Battery Blueprint:
     IndustryBlueprintRank: 40.0
+    id: 2740
     name: Warp Scrambling Battery Blueprint
+    volume: 0.01

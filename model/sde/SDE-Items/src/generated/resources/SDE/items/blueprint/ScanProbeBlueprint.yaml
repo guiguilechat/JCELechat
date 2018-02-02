@@ -1,11 +1,17 @@
 items:
   Combat Scanner Probe I Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 30029
     name: Combat Scanner Probe I Blueprint
+    volume: 0.01
   Core Scanner Probe I Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 30014
     name: Core Scanner Probe I Blueprint
+    volume: 0.01
   Warp Disrupt Probe Blueprint:
     Hp: 1
     IndustryBlueprintRank: 2.0
+    id: 22779
     name: Warp Disrupt Probe Blueprint
+    volume: 0.01

@@ -44,7 +44,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40362
     name: Ametat I
+    volume: 2000.0
   Ametat II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -91,7 +93,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40560
     name: Ametat II
+    volume: 2000.0
   Antaeus I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -137,7 +141,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40364
     name: Antaeus I
+    volume: 2000.0
   Antaeus II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -184,7 +190,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40562
     name: Antaeus II
+    volume: 2000.0
   Cyclops I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -237,7 +245,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 32325
     name: Cyclops I
+    volume: 1800.0
   Cyclops II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -291,7 +301,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40563
     name: Cyclops II
+    volume: 1800.0
   Dog_PLACEHOLDER:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -305,7 +317,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 45673
     name: Dog_PLACEHOLDER
+    volume: 1.0
   Easy_PLACEHOLDER:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -319,7 +333,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 45675
     name: Easy_PLACEHOLDER
+    volume: 1.0
   Gungnir I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -365,7 +381,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40365
     name: Gungnir I
+    volume: 2000.0
   Gungnir II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -412,7 +430,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40564
     name: Gungnir II
+    volume: 2000.0
   Malleus I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -465,7 +485,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 32340
     name: Malleus I
+    volume: 1800.0
   Malleus II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -519,7 +541,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40561
     name: Malleus II
+    volume: 1800.0
   Mantis I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -572,7 +596,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 32344
     name: Mantis I
+    volume: 1800.0
   Mantis II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -626,7 +652,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40567
     name: Mantis II
+    volume: 1800.0
   Shadow:
     Agility: 500.0
     FighterAbilityAfterburnerDuration: 20000
@@ -677,7 +705,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 2948
     name: Shadow
+    volume: 1800.0
   Standup Ametat I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -691,7 +721,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47124
     name: Standup Ametat I
+    volume: 4000.0
   Standup Ametat II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -705,7 +737,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47127
     name: Standup Ametat II
+    volume: 4000.0
   Standup Antaeus I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -719,7 +753,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47126
     name: Standup Antaeus I
+    volume: 4000.0
   Standup Antaeus II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -733,7 +769,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47129
     name: Standup Antaeus II
+    volume: 4000.0
   Standup Cyclops I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -747,7 +785,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47117
     name: Standup Cyclops I
+    volume: 3600.0
   Standup Cyclops II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -761,7 +801,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47121
     name: Standup Cyclops II
+    volume: 3600.0
   Standup Gungnir I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -807,7 +849,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 47039
     name: Standup Gungnir I
+    volume: 4000.0
   Standup Gungnir II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -821,7 +865,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47130
     name: Standup Gungnir II
+    volume: 4000.0
   Standup Malleus I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -835,7 +881,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47116
     name: Standup Malleus I
+    volume: 3600.0
   Standup Malleus II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -849,7 +897,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47119
     name: Standup Malleus II
+    volume: 3600.0
   Standup Mantis I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -902,7 +952,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 47038
     name: Standup Mantis I
+    volume: 3600.0
   Standup Mantis II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -916,7 +968,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47120
     name: Standup Mantis II
+    volume: 3600.0
   Standup Shadow:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -930,7 +984,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47123
     name: Standup Shadow
+    volume: 3600.0
   Standup Termite I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -944,7 +1000,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47125
     name: Standup Termite I
+    volume: 4000.0
   Standup Termite II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -958,7 +1016,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47128
     name: Standup Termite II
+    volume: 4000.0
   Standup Tyrfing I:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -972,7 +1032,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47118
     name: Standup Tyrfing I
+    volume: 3600.0
   Standup Tyrfing II:
     FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityKamikazeRange: 500
@@ -986,7 +1048,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 47122
     name: Standup Tyrfing II
+    volume: 3600.0
   Termite I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -1032,7 +1096,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40363
     name: Termite I
+    volume: 2000.0
   Termite II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -1079,7 +1145,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40566
     name: Termite II
+    volume: 2000.0
   Tyrfing I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -1132,7 +1200,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 32342
     name: Tyrfing I
+    volume: 1800.0
   Tyrfing II:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100
@@ -1186,4 +1256,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40565
     name: Tyrfing II
+    volume: 1800.0

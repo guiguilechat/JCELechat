@@ -50,7 +50,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 23659
     name: Acolyte EV-300
+    volume: 5.0
   Infiltrator EV-600:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -102,7 +104,9 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 23702
     name: Infiltrator EV-600
+    volume: 10.0
   Praetor EV-900:
     Agility: 100.0
     ArmorEmDamageResonance: 0.5
@@ -154,4 +158,6 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
+    id: 22572
     name: Praetor EV-900
+    volume: 25.0

@@ -17,7 +17,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23795
     name: '''Gorget'' Small Armor Repairer I'
+    volume: 5.0
   '''Greaves'' Medium Armor Repairer I':
     ArmorDamageAmount: 368
     CapacitorNeed: 160.0
@@ -36,7 +38,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23797
     name: '''Greaves'' Medium Armor Repairer I'
+    volume: 10.0
   '''Harmony'' Small Armor Repairer I':
     ArmorDamageAmount: 104
     CapacitorNeed: 40.0
@@ -55,7 +59,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22887
     name: '''Harmony'' Small Armor Repairer I'
+    volume: 5.0
   '''Hauberk'' Large Armor Repairer I':
     ArmorDamageAmount: 920
     CapacitorNeed: 400.0
@@ -74,7 +80,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 23799
     name: '''Hauberk'' Large Armor Repairer I'
+    volume: 50.0
   '''Meditation'' Medium Armor Repairer I':
     ArmorDamageAmount: 414
     CapacitorNeed: 160.0
@@ -93,7 +101,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22889
     name: '''Meditation'' Medium Armor Repairer I'
+    volume: 10.0
   '''Protest'' Large Armor Repairer I':
     ArmorDamageAmount: 1035
     CapacitorNeed: 400.0
@@ -112,7 +122,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 22891
     name: '''Protest'' Large Armor Repairer I'
+    volume: 50.0
   Ahremen's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
     Duration: 15000.0
@@ -130,7 +142,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14853
     name: Ahremen's Modified Large Armor Repairer
+    volume: 50.0
   Ammatar Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
     Duration: 15000.0
@@ -148,7 +162,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15743
     name: Ammatar Navy Large Armor Repairer
+    volume: 50.0
   Ammatar Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
     Duration: 12000.0
@@ -166,7 +182,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15742
     name: Ammatar Navy Medium Armor Repairer
+    volume: 10.0
   Ammatar Navy Small Armor Repairer:
     ArmorDamageAmount: 104
     Duration: 6000.0
@@ -184,7 +202,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15741
     name: Ammatar Navy Small Armor Repairer
+    volume: 5.0
   Brokara's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
     Duration: 15000.0
@@ -202,7 +222,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14848
     name: Brokara's Modified Large Armor Repairer
+    volume: 50.0
   Brynn's Modified Large Armor Repairer:
     ArmorDamageAmount: 1012
     Duration: 15000.0
@@ -220,7 +242,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15160
     name: Brynn's Modified Large Armor Repairer
+    volume: 50.0
   CONCORD Capital Armor Repairer:
     ArmorDamageAmount: 13000
     CapacitorNeed: 2400.0
@@ -238,7 +262,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 3534
     name: CONCORD Capital Armor Repairer
+    volume: 4000.0
   Capital ACM Compact Armor Repairer:
     ArmorDamageAmount: 10560
     CapacitorNeed: 2400.0
@@ -255,7 +281,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41499
     name: Capital ACM Compact Armor Repairer
+    volume: 4000.0
   Capital Armor Repairer I:
     ArmorDamageAmount: 9600
     CapacitorNeed: 2400.0
@@ -270,7 +298,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 20701
     name: Capital Armor Repairer I
+    volume: 4000.0
   Capital Armor Repairer II:
     ArmorDamageAmount: 11520
     CapacitorNeed: 2880.0
@@ -287,7 +317,9 @@ items:
     RequiredSkill1Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 41500
     name: Capital Armor Repairer II
+    volume: 4000.0
   Capital I-a Enduring Armor Repairer:
     ArmorDamageAmount: 10560
     CapacitorNeed: 1920.0
@@ -304,7 +336,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41498
     name: Capital I-a Enduring Armor Repairer
+    volume: 4000.0
   Centii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
     CapacitorNeed: 45.0
@@ -323,7 +357,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19009
     name: Centii A-Type Small Armor Repairer
+    volume: 5.0
   Centii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
     CapacitorNeed: 45.0
@@ -342,7 +378,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19007
     name: Centii B-Type Small Armor Repairer
+    volume: 5.0
   Centii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
     CapacitorNeed: 45.0
@@ -361,7 +399,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19005
     name: Centii C-Type Small Armor Repairer
+    volume: 5.0
   Centum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
     CapacitorNeed: 180.0
@@ -380,7 +420,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19027
     name: Centum A-Type Medium Armor Repairer
+    volume: 10.0
   Centum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
     CapacitorNeed: 180.0
@@ -399,7 +441,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19025
     name: Centum B-Type Medium Armor Repairer
+    volume: 10.0
   Centum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
     CapacitorNeed: 180.0
@@ -418,7 +462,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19023
     name: Centum C-Type Medium Armor Repairer
+    volume: 10.0
   Centus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
     CapacitorNeed: 450.0
@@ -437,7 +483,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19044
     name: Centus A-Type Large Armor Repairer
+    volume: 50.0
   Centus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
     CapacitorNeed: 450.0
@@ -456,7 +504,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19042
     name: Centus B-Type Large Armor Repairer
+    volume: 50.0
   Centus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
     CapacitorNeed: 450.0
@@ -475,7 +525,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19040
     name: Centus C-Type Large Armor Repairer
+    volume: 50.0
   Centus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
     CapacitorNeed: 450.0
@@ -494,7 +546,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19046
     name: Centus X-Type Large Armor Repairer
+    volume: 50.0
   Chelm's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
     Duration: 15000.0
@@ -512,7 +566,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14854
     name: Chelm's Modified Large Armor Repairer
+    volume: 50.0
   Civilian Armor Repairer:
     ArmorDamageAmount: 15
     CapacitorNeed: 3.0
@@ -527,7 +583,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 21853
     name: Civilian Armor Repairer
+    volume: 5.0
   Core A-Type Large Armor Repairer:
     ArmorDamageAmount: 1196
     CapacitorNeed: 400.0
@@ -546,7 +604,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19037
     name: Core A-Type Large Armor Repairer
+    volume: 50.0
   Core B-Type Large Armor Repairer:
     ArmorDamageAmount: 1104
     CapacitorNeed: 400.0
@@ -565,7 +625,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19036
     name: Core B-Type Large Armor Repairer
+    volume: 50.0
   Core C-Type Large Armor Repairer:
     ArmorDamageAmount: 1012
     CapacitorNeed: 400.0
@@ -584,7 +646,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19035
     name: Core C-Type Large Armor Repairer
+    volume: 50.0
   Core X-Type Large Armor Repairer:
     ArmorDamageAmount: 1288
     CapacitorNeed: 400.0
@@ -603,7 +667,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19038
     name: Core X-Type Large Armor Repairer
+    volume: 50.0
   Coreli A-Type Small Armor Repairer:
     ArmorDamageAmount: 120
     CapacitorNeed: 40.0
@@ -622,7 +688,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19015
     name: Coreli A-Type Small Armor Repairer
+    volume: 5.0
   Coreli B-Type Small Armor Repairer:
     ArmorDamageAmount: 110
     CapacitorNeed: 40.0
@@ -641,7 +709,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19013
     name: Coreli B-Type Small Armor Repairer
+    volume: 5.0
   Coreli C-Type Small Armor Repairer:
     ArmorDamageAmount: 101
     CapacitorNeed: 40.0
@@ -660,7 +730,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19011
     name: Coreli C-Type Small Armor Repairer
+    volume: 5.0
   Corelum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 478
     CapacitorNeed: 160.0
@@ -679,7 +751,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19033
     name: Corelum A-Type Medium Armor Repairer
+    volume: 10.0
   Corelum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 442
     CapacitorNeed: 160.0
@@ -698,7 +772,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19031
     name: Corelum B-Type Medium Armor Repairer
+    volume: 10.0
   Corelum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 405
     CapacitorNeed: 160.0
@@ -717,7 +793,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19029
     name: Corelum C-Type Medium Armor Repairer
+    volume: 10.0
   Cormack's Modified Large Armor Repairer:
     ArmorDamageAmount: 1288
     Duration: 15000.0
@@ -735,7 +813,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15163
     name: Cormack's Modified Large Armor Repairer
+    volume: 50.0
   Corpii A-Type Small Armor Repairer:
     ArmorDamageAmount: 135
     CapacitorNeed: 45.0
@@ -754,7 +834,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19003
     name: Corpii A-Type Small Armor Repairer
+    volume: 5.0
   Corpii B-Type Small Armor Repairer:
     ArmorDamageAmount: 124
     CapacitorNeed: 45.0
@@ -773,7 +855,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19001
     name: Corpii B-Type Small Armor Repairer
+    volume: 5.0
   Corpii C-Type Small Armor Repairer:
     ArmorDamageAmount: 114
     CapacitorNeed: 45.0
@@ -792,7 +876,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 18999
     name: Corpii C-Type Small Armor Repairer
+    volume: 5.0
   Corpum A-Type Medium Armor Repairer:
     ArmorDamageAmount: 538
     CapacitorNeed: 180.0
@@ -811,7 +897,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19021
     name: Corpum A-Type Medium Armor Repairer
+    volume: 10.0
   Corpum B-Type Medium Armor Repairer:
     ArmorDamageAmount: 497
     CapacitorNeed: 180.0
@@ -830,7 +918,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19019
     name: Corpum B-Type Medium Armor Repairer
+    volume: 10.0
   Corpum C-Type Medium Armor Repairer:
     ArmorDamageAmount: 455
     CapacitorNeed: 180.0
@@ -849,7 +939,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19017
     name: Corpum C-Type Medium Armor Repairer
+    volume: 10.0
   Corpus A-Type Large Armor Repairer:
     ArmorDamageAmount: 1346
     CapacitorNeed: 450.0
@@ -868,7 +960,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19043
     name: Corpus A-Type Large Armor Repairer
+    volume: 50.0
   Corpus B-Type Large Armor Repairer:
     ArmorDamageAmount: 1242
     CapacitorNeed: 450.0
@@ -887,7 +981,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19041
     name: Corpus B-Type Large Armor Repairer
+    volume: 50.0
   Corpus C-Type Large Armor Repairer:
     ArmorDamageAmount: 1139
     CapacitorNeed: 450.0
@@ -906,7 +1002,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19039
     name: Corpus C-Type Large Armor Repairer
+    volume: 50.0
   Corpus X-Type Large Armor Repairer:
     ArmorDamageAmount: 1449
     CapacitorNeed: 450.0
@@ -925,7 +1023,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 19045
     name: Corpus X-Type Large Armor Repairer
+    volume: 50.0
   Dark Blood Capital Armor Repairer:
     ArmorDamageAmount: 13440
     CapacitorNeed: 2500.0
@@ -943,7 +1043,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41501
     name: Dark Blood Capital Armor Repairer
+    volume: 4000.0
   Dark Blood Large Armor Repairer:
     ArmorDamageAmount: 1035
     Duration: 15000.0
@@ -961,7 +1063,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13957
     name: Dark Blood Large Armor Repairer
+    volume: 50.0
   Dark Blood Medium Armor Repairer:
     ArmorDamageAmount: 414
     Duration: 12000.0
@@ -979,7 +1083,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13960
     name: Dark Blood Medium Armor Repairer
+    volume: 10.0
   Dark Blood Small Armor Repairer:
     ArmorDamageAmount: 104
     Duration: 6000.0
@@ -997,7 +1103,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13964
     name: Dark Blood Small Armor Repairer
+    volume: 5.0
   Domination Large Armor Repairer:
     ArmorDamageAmount: 828
     Duration: 15000.0
@@ -1015,7 +1123,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13955
     name: Domination Large Armor Repairer
+    volume: 50.0
   Domination Medium Armor Repairer:
     ArmorDamageAmount: 331
     Duration: 12000.0
@@ -1033,7 +1143,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13958
     name: Domination Medium Armor Repairer
+    volume: 10.0
   Domination Small Armor Repairer:
     ArmorDamageAmount: 83
     Duration: 6000.0
@@ -1051,7 +1163,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13962
     name: Domination Small Armor Repairer
+    volume: 5.0
   Draclira's Modified Large Armor Repairer:
     ArmorDamageAmount: 1449
     Duration: 15000.0
@@ -1069,7 +1183,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14855
     name: Draclira's Modified Large Armor Repairer
+    volume: 50.0
   Federation Navy Large Armor Repairer:
     ArmorDamageAmount: 920
     Duration: 15000.0
@@ -1087,7 +1203,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15746
     name: Federation Navy Large Armor Repairer
+    volume: 50.0
   Federation Navy Medium Armor Repairer:
     ArmorDamageAmount: 368
     Duration: 12000.0
@@ -1105,7 +1223,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15745
     name: Federation Navy Medium Armor Repairer
+    volume: 10.0
   Federation Navy Small Armor Repairer:
     ArmorDamageAmount: 92
     Duration: 6000.0
@@ -1123,7 +1243,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15744
     name: Federation Navy Small Armor Repairer
+    volume: 5.0
   Gotan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1076
     Duration: 15000.0
@@ -1141,7 +1263,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14554
     name: Gotan's Modified Large Armor Repairer
+    volume: 50.0
   Imperial Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
     Duration: 15000.0
@@ -1159,7 +1283,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17546
     name: Imperial Navy Large Armor Repairer
+    volume: 50.0
   Imperial Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
     Duration: 12000.0
@@ -1177,7 +1303,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17547
     name: Imperial Navy Medium Armor Repairer
+    volume: 10.0
   Imperial Navy Small Armor Repairer:
     ArmorDamageAmount: 104
     Duration: 6000.0
@@ -1195,7 +1323,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17548
     name: Imperial Navy Small Armor Repairer
+    volume: 5.0
   Khanid Navy Large Armor Repairer:
     ArmorDamageAmount: 1035
     Duration: 15000.0
@@ -1213,7 +1343,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28544
     name: Khanid Navy Large Armor Repairer
+    volume: 50.0
   Khanid Navy Medium Armor Repairer:
     ArmorDamageAmount: 414
     Duration: 12000.0
@@ -1231,7 +1363,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28549
     name: Khanid Navy Medium Armor Repairer
+    volume: 10.0
   Khanid Navy Small Armor Repairer:
     ArmorDamageAmount: 104
     Duration: 6000.0
@@ -1249,7 +1383,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 28556
     name: Khanid Navy Small Armor Repairer
+    volume: 5.0
   Large 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 828
     Duration: 15000.0
@@ -1266,7 +1402,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4613
     name: Large 'Accommodation' Vestment Reconstructer I
+    volume: 50.0
   Large 'Reprieve' Vestment Reconstructer I:
     ArmorDamageAmount: 1104
     CapacitorNeed: 400.0
@@ -1284,7 +1422,9 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4621
     name: Large 'Reprieve' Vestment Reconstructer I
+    volume: 50.0
   Large Armor Repairer I:
     ArmorDamageAmount: 690
     CapacitorNeed: 400.0
@@ -1301,7 +1441,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 3538
     name: Large Armor Repairer I
+    volume: 50.0
   Large Armor Repairer II:
     ArmorDamageAmount: 920
     CapacitorNeed: 400.0
@@ -1319,7 +1461,9 @@ items:
     RequiredSkill2Level: 5
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 3540
     name: Large Armor Repairer II
+    volume: 50.0
   Large Automated Carapace Restoration:
     ArmorDamageAmount: 794
     Duration: 15000.0
@@ -1336,7 +1480,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4615
     name: Large Automated Carapace Restoration
+    volume: 50.0
   Large I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 725
     Duration: 15000.0
@@ -1353,7 +1499,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4609
     name: Large I-a Polarized Armor Regenerator
+    volume: 50.0
   Large Inefficient Armor Repair Unit:
     ArmorDamageAmount: 759
     Duration: 15000.0
@@ -1370,7 +1518,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4611
     name: Large Inefficient Armor Repair Unit
+    volume: 50.0
   Medium 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 331
     Duration: 12000.0
@@ -1387,7 +1537,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4573
     name: Medium 'Accommodation' Vestment Reconstructer I
+    volume: 10.0
   Medium Armor Repairer I:
     ArmorDamageAmount: 276
     CapacitorNeed: 160.0
@@ -1404,7 +1556,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 3528
     name: Medium Armor Repairer I
+    volume: 10.0
   Medium Armor Repairer II:
     ArmorDamageAmount: 368
     Duration: 12000.0
@@ -1421,7 +1575,9 @@ items:
     RequiredSkill2Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 3530
     name: Medium Armor Repairer II
+    volume: 10.0
   Medium Automated Carapace Restoration:
     ArmorDamageAmount: 317
     Duration: 12000.0
@@ -1438,7 +1594,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4575
     name: Medium Automated Carapace Restoration
+    volume: 10.0
   Medium I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 290
     Duration: 12000.0
@@ -1455,7 +1613,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4569
     name: Medium I-a Polarized Armor Regenerator
+    volume: 10.0
   Medium Inefficient Armor Repair Unit:
     ArmorDamageAmount: 304
     Duration: 12000.0
@@ -1472,7 +1632,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4571
     name: Medium Inefficient Armor Repair Unit
+    volume: 10.0
   Medium Nano Armor Repair Unit I:
     ArmorDamageAmount: 405
     CapacitorNeed: 160.0
@@ -1490,7 +1652,9 @@ items:
     RequiredSkill2Level: 4
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4579
     name: Medium Nano Armor Repair Unit I
+    volume: 10.0
   Mizuro's Modified Large Armor Repairer:
     ArmorDamageAmount: 911
     Duration: 15000.0
@@ -1508,7 +1672,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14552
     name: Mizuro's Modified Large Armor Repairer
+    volume: 50.0
   Raysere's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
     Duration: 15000.0
@@ -1526,7 +1692,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14851
     name: Raysere's Modified Large Armor Repairer
+    volume: 50.0
   Republic Fleet Large Armor Repairer:
     ArmorDamageAmount: 828
     Duration: 15000.0
@@ -1544,7 +1712,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17492
     name: Republic Fleet Large Armor Repairer
+    volume: 50.0
   Republic Fleet Medium Armor Repairer:
     ArmorDamageAmount: 331
     Duration: 12000.0
@@ -1562,7 +1732,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17493
     name: Republic Fleet Medium Armor Repairer
+    volume: 10.0
   Republic Fleet Small Armor Repairer:
     ArmorDamageAmount: 83
     Duration: 6000.0
@@ -1580,7 +1752,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 17494
     name: Republic Fleet Small Armor Repairer
+    volume: 5.0
   Selynne's Modified Large Armor Repairer:
     ArmorDamageAmount: 1242
     Duration: 15000.0
@@ -1598,7 +1772,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14850
     name: Selynne's Modified Large Armor Repairer
+    volume: 50.0
   Setele's Modified Large Armor Repairer:
     ArmorDamageAmount: 1196
     Duration: 15000.0
@@ -1616,7 +1792,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15162
     name: Setele's Modified Large Armor Repairer
+    volume: 50.0
   Shadow Serpentis Capital Armor Repairer:
     ArmorDamageAmount: 12500
     CapacitorNeed: 1900.0
@@ -1634,7 +1812,9 @@ items:
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 41502
     name: Shadow Serpentis Capital Armor Repairer
+    volume: 4000.0
   Shadow Serpentis Large Armor Repairer:
     ArmorDamageAmount: 920
     Duration: 15000.0
@@ -1652,7 +1832,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14067
     name: Shadow Serpentis Large Armor Repairer
+    volume: 50.0
   Shadow Serpentis Medium Armor Repairer:
     ArmorDamageAmount: 368
     Duration: 12000.0
@@ -1670,7 +1852,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14068
     name: Shadow Serpentis Medium Armor Repairer
+    volume: 10.0
   Shadow Serpentis Small Armor Repairer:
     ArmorDamageAmount: 92
     Duration: 6000.0
@@ -1688,7 +1872,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14069
     name: Shadow Serpentis Small Armor Repairer
+    volume: 5.0
   Small 'Accommodation' Vestment Reconstructer I:
     ArmorDamageAmount: 83
     Duration: 6000.0
@@ -1705,7 +1891,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4533
     name: Small 'Accommodation' Vestment Reconstructer I
+    volume: 5.0
   Small Armor Repairer I:
     ArmorDamageAmount: 69
     CapacitorNeed: 40.0
@@ -1722,7 +1910,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 523
     name: Small Armor Repairer I
+    volume: 5.0
   Small Armor Repairer II:
     ArmorDamageAmount: 92
     Duration: 6000.0
@@ -1739,7 +1929,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
+    id: 1183
     name: Small Armor Repairer II
+    volume: 5.0
   Small Automated Carapace Restoration:
     ArmorDamageAmount: 79
     Duration: 6000.0
@@ -1756,7 +1948,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4535
     name: Small Automated Carapace Restoration
+    volume: 5.0
   Small I-a Polarized Armor Regenerator:
     ArmorDamageAmount: 72
     Duration: 6000.0
@@ -1773,7 +1967,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4529
     name: Small I-a Polarized Armor Regenerator
+    volume: 5.0
   Small Inefficient Armor Repair Unit:
     ArmorDamageAmount: 76
     Duration: 6000.0
@@ -1790,7 +1986,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 4531
     name: Small Inefficient Armor Repair Unit
+    volume: 5.0
   Tairei's Modified Large Armor Repairer:
     ArmorDamageAmount: 1139
     Duration: 15000.0
@@ -1808,7 +2006,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14849
     name: Tairei's Modified Large Armor Repairer
+    volume: 50.0
   True Sansha Large Armor Repairer:
     ArmorDamageAmount: 1035
     Duration: 15000.0
@@ -1826,7 +2026,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13956
     name: True Sansha Large Armor Repairer
+    volume: 50.0
   True Sansha Medium Armor Repairer:
     ArmorDamageAmount: 414
     Duration: 12000.0
@@ -1844,7 +2046,9 @@ items:
     RequiredSkill2Level: 2
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13959
     name: True Sansha Medium Armor Repairer
+    volume: 10.0
   True Sansha Small Armor Repairer:
     ArmorDamageAmount: 104
     Duration: 6000.0
@@ -1862,7 +2066,9 @@ items:
     RequiredSkill2Level: 1
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 13963
     name: True Sansha Small Armor Repairer
+    volume: 5.0
   Tuvan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1104
     Duration: 15000.0
@@ -1880,7 +2086,9 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 15161
     name: Tuvan's Modified Large Armor Repairer
+    volume: 50.0
   Vizan's Modified Large Armor Repairer:
     ArmorDamageAmount: 1346
     Duration: 15000.0
@@ -1898,4 +2106,6 @@ items:
     RequiredSkill2Level: 3
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
+    id: 14852
     name: Vizan's Modified Large Armor Repairer
+    volume: 50.0

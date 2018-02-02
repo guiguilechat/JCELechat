@@ -9,7 +9,9 @@ items:
     Power: 50000
     SpeedMultiplier: 0.9200000166893005
     StructureItemVisualFlag: 1
+    id: 35959
     name: Standup Ballistic Control System I
+    volume: 4000.0
   Standup Missile Guidance Enhancer I:
     AoeCloudSizeBonus: -4.400000095367432
     AoeVelocityBonus: 4.400000095367432
@@ -23,4 +25,6 @@ items:
     Power: 50000
     SpeedMultiplier: 1.0
     StructureItemVisualFlag: 1
+    id: 35962
     name: Standup Missile Guidance Enhancer I
+    volume: 4000.0

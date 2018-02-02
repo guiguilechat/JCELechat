@@ -23,7 +23,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    id: 20176
     name: Academy
+    volume: 4000.0
   Biochemical Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -48,7 +50,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 24684
     name: Biochemical Reactor Array
+    volume: 4000.0
   Complex Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -74,7 +78,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 16869
     name: Complex Reactor Array
+    volume: 4000.0
   Medium Biochemical Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -99,7 +105,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 22634
     name: Medium Biochemical Reactor Array
+    volume: 4000.0
   Polymer Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -125,7 +133,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 30656
     name: Polymer Reactor Array
+    volume: 4000.0
   Simple Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -150,7 +160,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 20175
     name: Simple Reactor Array
+    volume: 4000.0
   Trauma Treatment Facility:
     AnchoringDelay: 600000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -175,7 +187,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    id: 28318
     name: Trauma Treatment Facility
+    volume: 4000.0
   Vitoc Injection Center:
     AnchoringDelay: 600000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -200,4 +214,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 1200000
     Uniformity: 1.0
+    id: 28319
     name: Vitoc Injection Center
+    volume: 4000.0

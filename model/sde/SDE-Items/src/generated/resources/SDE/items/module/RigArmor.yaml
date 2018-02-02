@@ -6,7 +6,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31001
     name: Capital Anti-EM Pump I
+    volume: 40.0
   Capital Anti-EM Pump II:
     Drawback: -10
     EmDamageResistanceBonus: -35.0
@@ -15,7 +17,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31007
     name: Capital Anti-EM Pump II
+    volume: 40.0
   Capital Anti-Explosive Pump I:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
@@ -23,7 +27,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31013
     name: Capital Anti-Explosive Pump I
+    volume: 40.0
   Capital Anti-Explosive Pump II:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
@@ -32,7 +38,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31019
     name: Capital Anti-Explosive Pump II
+    volume: 40.0
   Capital Anti-Kinetic Pump I:
     Drawback: -10
     Hp: 40
@@ -40,7 +48,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31025
     name: Capital Anti-Kinetic Pump I
+    volume: 40.0
   Capital Anti-Kinetic Pump II:
     Drawback: -10
     Hp: 40
@@ -49,7 +59,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31031
     name: Capital Anti-Kinetic Pump II
+    volume: 40.0
   Capital Anti-Thermal Pump I:
     Drawback: -10
     Hp: 40
@@ -57,7 +69,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31037
     name: Capital Anti-Thermal Pump I
+    volume: 40.0
   Capital Anti-Thermal Pump II:
     Drawback: -10
     Hp: 40
@@ -66,7 +80,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31043
     name: Capital Anti-Thermal Pump II
+    volume: 40.0
   Capital Auxiliary Nano Pump I:
     Drawback: 10
     Hp: 40
@@ -74,7 +90,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    id: 27064
     name: Capital Auxiliary Nano Pump I
+    volume: 40.0
   Capital Auxiliary Nano Pump II:
     Drawback: 10
     Hp: 40
@@ -83,7 +101,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    id: 31049
     name: Capital Auxiliary Nano Pump II
+    volume: 40.0
   Capital Nanobot Accelerator I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -91,7 +111,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 100
+    id: 31067
     name: Capital Nanobot Accelerator I
+    volume: 40.0
   Capital Nanobot Accelerator II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -100,7 +122,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 150
+    id: 27066
     name: Capital Nanobot Accelerator II
+    volume: 40.0
   Capital Remote Repair Augmentor I:
     CapNeedBonus: -20
     Drawback: -10
@@ -108,7 +132,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 31075
     name: Capital Remote Repair Augmentor I
+    volume: 40.0
   Capital Remote Repair Augmentor II:
     CapNeedBonus: -25
     Drawback: -10
@@ -117,7 +143,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31081
     name: Capital Remote Repair Augmentor II
+    volume: 40.0
   Capital Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
@@ -125,7 +153,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 33902
     name: Capital Transverse Bulkhead I
+    volume: 40.0
   Capital Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
@@ -134,7 +164,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 33904
     name: Capital Transverse Bulkhead II
+    volume: 40.0
   Capital Trimark Armor Pump I:
     ArmorHpBonus: 15
     Drawback: -10
@@ -142,7 +174,9 @@ items:
     RigSize: 4
     TechLevel: 1
     UpgradeCost: 50
+    id: 30993
     name: Capital Trimark Armor Pump I
+    volume: 40.0
   Capital Trimark Armor Pump II:
     ArmorHpBonus: 20
     Drawback: -10
@@ -151,7 +185,9 @@ items:
     RigSize: 4
     TechLevel: 2
     UpgradeCost: 75
+    id: 31061
     name: Capital Trimark Armor Pump II
+    volume: 40.0
   Large Anti-EM Pump I:
     Drawback: -10
     EmDamageResistanceBonus: -30.0
@@ -159,7 +195,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 25736
     name: Large Anti-EM Pump I
+    volume: 20.0
   Large Anti-EM Pump II:
     Drawback: -10
     EmDamageResistanceBonus: -35.0
@@ -168,7 +206,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26286
     name: Large Anti-EM Pump II
+    volume: 20.0
   Large Anti-Explosive Pump I:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
@@ -176,7 +216,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 25888
     name: Large Anti-Explosive Pump I
+    volume: 20.0
   Large Anti-Explosive Pump II:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
@@ -185,7 +227,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26288
     name: Large Anti-Explosive Pump II
+    volume: 20.0
   Large Anti-Kinetic Pump I:
     Drawback: -10
     Hp: 40
@@ -193,7 +237,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 25890
     name: Large Anti-Kinetic Pump I
+    volume: 20.0
   Large Anti-Kinetic Pump II:
     Drawback: -10
     Hp: 40
@@ -202,7 +248,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26290
     name: Large Anti-Kinetic Pump II
+    volume: 20.0
   Large Anti-Thermal Pump I:
     Drawback: -10
     Hp: 40
@@ -210,7 +258,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 25892
     name: Large Anti-Thermal Pump I
+    volume: 20.0
   Large Anti-Thermal Pump II:
     Drawback: -10
     Hp: 40
@@ -219,7 +269,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 26292
     name: Large Anti-Thermal Pump II
+    volume: 20.0
   Large Auxiliary Nano Pump I:
     Drawback: 10
     Hp: 40
@@ -227,7 +279,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    id: 25896
     name: Large Auxiliary Nano Pump I
+    volume: 20.0
   Large Auxiliary Nano Pump II:
     Drawback: 10
     Hp: 40
@@ -236,7 +290,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    id: 26294
     name: Large Auxiliary Nano Pump II
+    volume: 20.0
   Large Nanobot Accelerator I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -244,7 +300,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 100
+    id: 25898
     name: Large Nanobot Accelerator I
+    volume: 20.0
   Large Nanobot Accelerator II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -253,7 +311,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 150
+    id: 26296
     name: Large Nanobot Accelerator II
+    volume: 20.0
   Large Remote Repair Augmentor I:
     CapNeedBonus: -20
     Drawback: -10
@@ -261,7 +321,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 25900
     name: Large Remote Repair Augmentor I
+    volume: 20.0
   Large Remote Repair Augmentor II:
     CapNeedBonus: -25
     Drawback: -10
@@ -270,7 +332,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26298
     name: Large Remote Repair Augmentor II
+    volume: 20.0
   Large Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
@@ -278,7 +342,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 33898
     name: Large Transverse Bulkhead I
+    volume: 20.0
   Large Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
@@ -287,7 +353,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 33900
     name: Large Transverse Bulkhead II
+    volume: 20.0
   Large Trimark Armor Pump I:
     ArmorHpBonus: 15
     Drawback: -10
@@ -295,7 +363,9 @@ items:
     RigSize: 3
     TechLevel: 1
     UpgradeCost: 50
+    id: 25894
     name: Large Trimark Armor Pump I
+    volume: 20.0
   Large Trimark Armor Pump II:
     ArmorHpBonus: 20
     Drawback: -10
@@ -304,7 +374,9 @@ items:
     RigSize: 3
     TechLevel: 2
     UpgradeCost: 75
+    id: 26302
     name: Large Trimark Armor Pump II
+    volume: 20.0
   Medium Anti-EM Pump I:
     Drawback: -10
     EmDamageResistanceBonus: -30.0
@@ -312,7 +384,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 30999
     name: Medium Anti-EM Pump I
+    volume: 10.0
   Medium Anti-EM Pump II:
     Drawback: -10
     EmDamageResistanceBonus: -35.0
@@ -321,7 +395,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31005
     name: Medium Anti-EM Pump II
+    volume: 10.0
   Medium Anti-Explosive Pump I:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
@@ -329,7 +405,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31011
     name: Medium Anti-Explosive Pump I
+    volume: 10.0
   Medium Anti-Explosive Pump II:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
@@ -338,7 +416,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31017
     name: Medium Anti-Explosive Pump II
+    volume: 10.0
   Medium Anti-Kinetic Pump I:
     Drawback: -10
     Hp: 40
@@ -346,7 +426,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31023
     name: Medium Anti-Kinetic Pump I
+    volume: 10.0
   Medium Anti-Kinetic Pump II:
     Drawback: -10
     Hp: 40
@@ -355,7 +437,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31029
     name: Medium Anti-Kinetic Pump II
+    volume: 10.0
   Medium Anti-Thermal Pump I:
     Drawback: -10
     Hp: 40
@@ -363,7 +447,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31035
     name: Medium Anti-Thermal Pump I
+    volume: 10.0
   Medium Anti-Thermal Pump II:
     Drawback: -10
     Hp: 40
@@ -372,7 +458,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31041
     name: Medium Anti-Thermal Pump II
+    volume: 10.0
   Medium Auxiliary Nano Pump I:
     Drawback: 10
     Hp: 40
@@ -380,7 +468,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    id: 31047
     name: Medium Auxiliary Nano Pump I
+    volume: 10.0
   Medium Auxiliary Nano Pump II:
     Drawback: 10
     Hp: 40
@@ -389,7 +479,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    id: 31053
     name: Medium Auxiliary Nano Pump II
+    volume: 10.0
   Medium Nanobot Accelerator I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -397,7 +489,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 100
+    id: 31065
     name: Medium Nanobot Accelerator I
+    volume: 10.0
   Medium Nanobot Accelerator II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -406,7 +500,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 150
+    id: 31071
     name: Medium Nanobot Accelerator II
+    volume: 10.0
   Medium Remote Repair Augmentor I:
     CapNeedBonus: -20
     Drawback: -10
@@ -414,7 +510,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31073
     name: Medium Remote Repair Augmentor I
+    volume: 10.0
   Medium Remote Repair Augmentor II:
     CapNeedBonus: -25
     Drawback: -10
@@ -423,7 +521,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31079
     name: Medium Remote Repair Augmentor II
+    volume: 10.0
   Medium Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
@@ -431,7 +531,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 33894
     name: Medium Transverse Bulkhead I
+    volume: 10.0
   Medium Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
@@ -440,7 +542,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 33896
     name: Medium Transverse Bulkhead II
+    volume: 10.0
   Medium Trimark Armor Pump I:
     ArmorHpBonus: 15
     Drawback: -10
@@ -448,7 +552,9 @@ items:
     RigSize: 2
     TechLevel: 1
     UpgradeCost: 50
+    id: 31055
     name: Medium Trimark Armor Pump I
+    volume: 10.0
   Medium Trimark Armor Pump II:
     ArmorHpBonus: 20
     Drawback: -10
@@ -457,7 +563,9 @@ items:
     RigSize: 2
     TechLevel: 2
     UpgradeCost: 75
+    id: 31059
     name: Medium Trimark Armor Pump II
+    volume: 10.0
   Small Anti-EM Pump I:
     Drawback: -10
     EmDamageResistanceBonus: -30.0
@@ -465,7 +573,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 30997
     name: Small Anti-EM Pump I
+    volume: 5.0
   Small Anti-EM Pump II:
     Drawback: -10
     EmDamageResistanceBonus: -35.0
@@ -474,7 +584,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31003
     name: Small Anti-EM Pump II
+    volume: 5.0
   Small Anti-Explosive Pump I:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -30.0
@@ -482,7 +594,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31009
     name: Small Anti-Explosive Pump I
+    volume: 5.0
   Small Anti-Explosive Pump II:
     Drawback: -10
     ExplosiveDamageResistanceBonus: -35.0
@@ -491,7 +605,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31015
     name: Small Anti-Explosive Pump II
+    volume: 5.0
   Small Anti-Kinetic Pump I:
     Drawback: -10
     Hp: 40
@@ -499,7 +615,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 31021
     name: Small Anti-Kinetic Pump I
+    volume: 5.0
   Small Anti-Kinetic Pump II:
     Drawback: -10
     Hp: 40
@@ -508,7 +626,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31027
     name: Small Anti-Kinetic Pump II
+    volume: 5.0
   Small Anti-Thermal Pump I:
     Drawback: -10
     Hp: 40
@@ -516,7 +636,9 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
+    id: 31033
     name: Small Anti-Thermal Pump I
+    volume: 5.0
   Small Anti-Thermal Pump II:
     Drawback: -10
     Hp: 40
@@ -525,7 +647,9 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
+    id: 31039
     name: Small Anti-Thermal Pump II
+    volume: 5.0
   Small Auxiliary Nano Pump I:
     Drawback: 10
     Hp: 40
@@ -533,7 +657,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 31045
     name: Small Auxiliary Nano Pump I
+    volume: 5.0
   Small Auxiliary Nano Pump II:
     Drawback: 10
     Hp: 40
@@ -542,7 +668,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 31051
     name: Small Auxiliary Nano Pump II
+    volume: 5.0
   Small Nanobot Accelerator I:
     Drawback: 10
     DurationSkillBonus: -15
@@ -550,7 +678,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 100
+    id: 31063
     name: Small Nanobot Accelerator I
+    volume: 5.0
   Small Nanobot Accelerator II:
     Drawback: 10
     DurationSkillBonus: -20
@@ -559,7 +689,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 150
+    id: 31069
     name: Small Nanobot Accelerator II
+    volume: 5.0
   Small Remote Repair Augmentor I:
     CapNeedBonus: -20
     Drawback: -10
@@ -567,7 +699,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 27068
     name: Small Remote Repair Augmentor I
+    volume: 5.0
   Small Remote Repair Augmentor II:
     CapNeedBonus: -25
     Drawback: -10
@@ -576,7 +710,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31077
     name: Small Remote Repair Augmentor II
+    volume: 5.0
   Small Transverse Bulkhead I:
     Drawback: -10
     Hp: 40
@@ -584,7 +720,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 33890
     name: Small Transverse Bulkhead I
+    volume: 5.0
   Small Transverse Bulkhead II:
     Drawback: -10
     Hp: 40
@@ -593,7 +731,9 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 33892
     name: Small Transverse Bulkhead II
+    volume: 5.0
   Small Trimark Armor Pump I:
     ArmorHpBonus: 15
     Drawback: -10
@@ -601,7 +741,9 @@ items:
     RigSize: 1
     TechLevel: 1
     UpgradeCost: 50
+    id: 30987
     name: Small Trimark Armor Pump I
+    volume: 5.0
   Small Trimark Armor Pump II:
     ArmorHpBonus: 20
     Drawback: -10
@@ -610,4 +752,6 @@ items:
     RigSize: 1
     TechLevel: 2
     UpgradeCost: 75
+    id: 31057
     name: Small Trimark Armor Pump II
+    volume: 5.0

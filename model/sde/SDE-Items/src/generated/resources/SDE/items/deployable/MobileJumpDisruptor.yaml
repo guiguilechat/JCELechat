@@ -15,4 +15,6 @@ items:
     SignatureRadius: 450
     TechLevel: 1
     WarpScrambleRange: 48000
+    id: 4386
     name: Mobile Large Jump Disruptor I
+    volume: 585.0

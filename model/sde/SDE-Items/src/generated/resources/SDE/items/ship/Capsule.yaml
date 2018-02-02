@@ -43,7 +43,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 2.1645000742864795E-6
     WarpSpeedMultiplier: 3.0
+    id: 670
     name: Capsule
+    volume: 1000.0
   Capsule - Genolution 'Auroral' 197-variant:
     Agility: 2.0
     ArmorEmDamageResonance: 0.4000000059604645
@@ -92,4 +94,6 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 2.1645000742864795E-6
     WarpSpeedMultiplier: 3.0
+    id: 33328
     name: Capsule - Genolution 'Auroral' 197-variant
+    volume: 1000.0

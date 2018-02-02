@@ -9,7 +9,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41404
     name: Capital Artillery Specialization
+    volume: 0.01
   Capital Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -20,7 +22,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41403
     name: Capital Autocannon Specialization
+    volume: 0.01
   Capital Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -31,7 +35,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41408
     name: Capital Beam Laser Specialization
+    volume: 0.01
   Capital Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -42,7 +48,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41405
     name: Capital Blaster Specialization
+    volume: 0.01
   Capital Energy Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -53,7 +61,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
+    id: 20327
     name: Capital Energy Turret
+    volume: 0.01
   Capital Hybrid Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -64,7 +74,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
+    id: 21666
     name: Capital Hybrid Turret
+    volume: 0.01
   Capital Projectile Turret:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 5
@@ -75,7 +87,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
+    id: 21667
     name: Capital Projectile Turret
+    volume: 0.01
   Capital Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -86,7 +100,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41407
     name: Capital Pulse Laser Specialization
+    volume: 0.01
   Capital Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -97,7 +113,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
+    id: 41406
     name: Capital Railgun Specialization
+    volume: 0.01
   Controlled Bursts:
     CapNeedBonus: -5
     PrimaryAttribute: 167
@@ -105,7 +123,9 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3316
     name: Controlled Bursts
+    volume: 0.01
   Doomsday Operation:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 10
@@ -118,7 +138,9 @@ items:
     RequiredSkill3Level: 5
     SecondaryAttribute: 165
     SkillTimeConstant: 14.0
+    id: 24563
     name: Doomsday Operation
+    volume: 0.01
   Doomsday Rapid Firing:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -127,13 +149,17 @@ items:
     RofBonus: -4
     SecondaryAttribute: 165
     SkillTimeConstant: 14.0
+    id: 41537
     name: Doomsday Rapid Firing
+    volume: 0.01
   Gunnery:
     PrimaryAttribute: 167
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     TurretSpeeBonus: -2
+    id: 3300
     name: Gunnery
+    volume: 0.01
   Large Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -144,7 +170,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12203
     name: Large Artillery Specialization
+    volume: 0.01
   Large Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -155,7 +183,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12209
     name: Large Autocannon Specialization
+    volume: 0.01
   Large Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -166,7 +196,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12205
     name: Large Beam Laser Specialization
+    volume: 0.01
   Large Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -177,7 +209,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12212
     name: Large Blaster Specialization
+    volume: 0.01
   Large Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -187,7 +221,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3309
     name: Large Energy Turret
+    volume: 0.01
   Large Hybrid Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -197,7 +233,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3307
     name: Large Hybrid Turret
+    volume: 0.01
   Large Projectile Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -207,7 +245,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3308
     name: Large Projectile Turret
+    volume: 0.01
   Large Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -218,7 +258,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12215
     name: Large Pulse Laser Specialization
+    volume: 0.01
   Large Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -229,7 +271,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 12207
     name: Large Railgun Specialization
+    volume: 0.01
   Medium Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -240,7 +284,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12202
     name: Medium Artillery Specialization
+    volume: 0.01
   Medium Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -251,7 +297,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12208
     name: Medium Autocannon Specialization
+    volume: 0.01
   Medium Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -262,7 +310,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12204
     name: Medium Beam Laser Specialization
+    volume: 0.01
   Medium Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -273,7 +323,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12211
     name: Medium Blaster Specialization
+    volume: 0.01
   Medium Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -283,7 +335,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 3306
     name: Medium Energy Turret
+    volume: 0.01
   Medium Hybrid Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -293,7 +347,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 3304
     name: Medium Hybrid Turret
+    volume: 0.01
   Medium Projectile Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -303,7 +359,9 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 3305
     name: Medium Projectile Turret
+    volume: 0.01
   Medium Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -314,7 +372,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12214
     name: Medium Pulse Laser Specialization
+    volume: 0.01
   Medium Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -325,7 +385,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 12206
     name: Medium Railgun Specialization
+    volume: 0.01
   Motion Prediction:
     PrimaryAttribute: 167
     RequiredSkill1: 3300
@@ -333,7 +395,9 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     TrackingSpeedBonus: 5.0
+    id: 3312
     name: Motion Prediction
+    volume: 0.01
   Rapid Firing:
     PrimaryAttribute: 167
     RequiredSkill1: 3300
@@ -341,7 +405,9 @@ items:
     RofBonus: -4
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3310
     name: Rapid Firing
+    volume: 0.01
   Sharpshooter:
     PrimaryAttribute: 167
     RangeSkillBonus: 5
@@ -349,7 +415,9 @@ items:
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
+    id: 3311
     name: Sharpshooter
+    volume: 0.01
   Small Artillery Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -360,7 +428,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 12201
     name: Small Artillery Specialization
+    volume: 0.01
   Small Autocannon Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -371,7 +441,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 11084
     name: Small Autocannon Specialization
+    volume: 0.01
   Small Beam Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -382,7 +454,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 11083
     name: Small Beam Laser Specialization
+    volume: 0.01
   Small Blaster Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -393,7 +467,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 12210
     name: Small Blaster Specialization
+    volume: 0.01
   Small Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -401,7 +477,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 3303
     name: Small Energy Turret
+    volume: 0.01
   Small Hybrid Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -409,7 +487,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 3301
     name: Small Hybrid Turret
+    volume: 0.01
   Small Projectile Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -417,7 +497,9 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 3302
     name: Small Projectile Turret
+    volume: 0.01
   Small Pulse Laser Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -428,7 +510,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 12213
     name: Small Pulse Laser Specialization
+    volume: 0.01
   Small Railgun Specialization:
     CanNotBeTrainedOnTrial: 1
     DamageMultiplierBonus: 2
@@ -439,7 +523,9 @@ items:
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
+    id: 11082
     name: Small Railgun Specialization
+    volume: 0.01
   Surgical Strike:
     DamageMultiplierBonus: 3
     PrimaryAttribute: 167
@@ -447,13 +533,17 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
+    id: 3315
     name: Surgical Strike
+    volume: 0.01
   Tactical Strike:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
+    id: 32856
     name: Tactical Strike
+    volume: 0.01
   Tactical Weapon Reconfiguration:
     CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 25
@@ -462,11 +552,15 @@ items:
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
+    id: 22043
     name: Tactical Weapon Reconfiguration
+    volume: 0.01
   Trajectory Analysis:
     PrimaryAttribute: 167
     RequiredSkill1: 3300
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
+    id: 3317
     name: Trajectory Analysis
+    volume: 0.01

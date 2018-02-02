@@ -1,130 +1,216 @@
 items:
   Arch Angel Carbonized Lead M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 19995
     name: Arch Angel Carbonized Lead M Blueprint
+    volume: 0.01
   Arch Angel Titanium Sabot M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 20003
     name: Arch Angel Titanium Sabot M Blueprint
+    volume: 0.01
   Carbonized Lead L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 895
     name: Carbonized Lead L Blueprint
+    volume: 0.01
   Carbonized Lead M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 887
     name: Carbonized Lead M Blueprint
+    volume: 0.01
   Carbonized Lead S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 879
     name: Carbonized Lead S Blueprint
+    volume: 0.01
   Carbonized Lead XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17665
     name: Carbonized Lead XL Blueprint
+    volume: 0.01
   Depleted Uranium L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 898
     name: Depleted Uranium L Blueprint
+    volume: 0.01
   Depleted Uranium M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 890
     name: Depleted Uranium M Blueprint
+    volume: 0.01
   Depleted Uranium S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 882
     name: Depleted Uranium S Blueprint
+    volume: 0.01
   Depleted Uranium XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17667
     name: Depleted Uranium XL Blueprint
+    volume: 0.01
   EMP L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 902
     name: EMP L Blueprint
+    volume: 0.01
   EMP M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 894
     name: EMP M Blueprint
+    volume: 0.01
   EMP S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 886
     name: EMP S Blueprint
+    volume: 0.01
   EMP XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17669
     name: EMP XL Blueprint
+    volume: 0.01
   Fusion L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 900
     name: Fusion L Blueprint
+    volume: 0.01
   Fusion M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 892
     name: Fusion M Blueprint
+    volume: 0.01
   Fusion S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 884
     name: Fusion S Blueprint
+    volume: 0.01
   Fusion XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17671
     name: Fusion XL Blueprint
+    volume: 0.01
   Nuclear L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 896
     name: Nuclear L Blueprint
+    volume: 0.01
   Nuclear M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 888
     name: Nuclear M Blueprint
+    volume: 0.01
   Nuclear S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 880
     name: Nuclear S Blueprint
+    volume: 0.01
   Nuclear XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17673
     name: Nuclear XL Blueprint
+    volume: 0.01
   Orbital EMP S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 32802
     name: Orbital EMP S Blueprint
+    volume: 0.01
   Phased Plasma L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 901
     name: Phased Plasma L Blueprint
+    volume: 0.01
   Phased Plasma M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 893
     name: Phased Plasma M Blueprint
+    volume: 0.01
   Phased Plasma S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 885
     name: Phased Plasma S Blueprint
+    volume: 0.01
   Phased Plasma XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17675
     name: Phased Plasma XL Blueprint
+    volume: 0.01
   Proton L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 897
     name: Proton L Blueprint
+    volume: 0.01
   Proton M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 889
     name: Proton M Blueprint
+    volume: 0.01
   Proton S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 881
     name: Proton S Blueprint
+    volume: 0.01
   Proton XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17677
     name: Proton XL Blueprint
+    volume: 0.01
   Republic Fleet Carbonized Lead L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 28325
     name: Republic Fleet Carbonized Lead L Blueprint
+    volume: 0.01
   Republic Fleet Carbonized Lead M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28327
     name: Republic Fleet Carbonized Lead M Blueprint
+    volume: 0.01
   Republic Fleet Carbonized Lead S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28329
     name: Republic Fleet Carbonized Lead S Blueprint
+    volume: 0.01
   Republic Fleet Carbonized Lead XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 28331
     name: Republic Fleet Carbonized Lead XL Blueprint
+    volume: 0.01
   Republic Fleet Depleted Uranium L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 28333
     name: Republic Fleet Depleted Uranium L Blueprint
+    volume: 0.01
   Republic Fleet Depleted Uranium M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 28335
     name: Republic Fleet Depleted Uranium M Blueprint
+    volume: 0.01
   Republic Fleet Depleted Uranium S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 28337
     name: Republic Fleet Depleted Uranium S Blueprint
+    volume: 0.01
   Republic Fleet Depleted Uranium XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 28339
     name: Republic Fleet Depleted Uranium XL Blueprint
+    volume: 0.01
   Titanium Sabot L Blueprint:
     IndustryBlueprintRank: 3.0
+    id: 899
     name: Titanium Sabot L Blueprint
+    volume: 0.01
   Titanium Sabot M Blueprint:
     IndustryBlueprintRank: 2.0
+    id: 891
     name: Titanium Sabot M Blueprint
+    volume: 0.01
   Titanium Sabot S Blueprint:
     IndustryBlueprintRank: 1.0
+    id: 883
     name: Titanium Sabot S Blueprint
+    volume: 0.01
   Titanium Sabot XL Blueprint:
     IndustryBlueprintRank: 4.0
+    id: 17679
     name: Titanium Sabot XL Blueprint
+    volume: 0.01

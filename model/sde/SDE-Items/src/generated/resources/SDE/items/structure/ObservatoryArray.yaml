@@ -21,7 +21,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35839
     name: Large Observatory Array
+    volume: 4000.0
   Medium Observatory Array:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -44,7 +46,9 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 35838
     name: Medium Observatory Array
+    volume: 4000.0
   X-Large Observatory Array:
     ArmorEmDamageResonance: 1.0
     ArmorExplosiveDamageResonance: 1.0
@@ -67,4 +71,6 @@ items:
     TargetPainterResistance: 1.0
     ThermalDamageResonance: 1.0
     WeaponDisruptionResistance: 1.0
+    id: 37533
     name: X-Large Observatory Array
+    volume: 4000.0

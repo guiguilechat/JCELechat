@@ -64,7 +64,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 617
     name: Echo
+    volume: 17660.0
   Hematos:
     Agility: 4.449999809265137
     ArmorEmDamageResonance: 0.5
@@ -131,7 +133,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 33079
     name: Hematos
+    volume: 28100.0
   Ibis:
     Agility: 4.5
     ArmorEmDamageResonance: 0.5
@@ -200,7 +204,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 601
     name: Ibis
+    volume: 15000.0
   Immolator:
     Agility: 4.449999809265137
     ArmorEmDamageResonance: 0.5
@@ -265,7 +271,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 615
     name: Immolator
+    volume: 17400.0
   Impairor:
     Agility: 4.449999809265137
     ArmorEmDamageResonance: 0.5
@@ -334,7 +342,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 596
     name: Impairor
+    volume: 28100.0
   Polaris Centurion Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -392,7 +402,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 25.0
+    id: 9862
     name: Polaris Centurion Frigate
+    volume: 20400.0
   Polaris Centurion TEST:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -450,7 +462,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 25.0
+    id: 9858
     name: Polaris Centurion TEST
+    volume: 20400.0
   Polaris Enigma Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -511,7 +525,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 25.0
+    id: 1233
     name: Polaris Enigma Frigate
+    volume: 20400.0
   Polaris Inspector Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -569,7 +585,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 25.0
+    id: 9854
     name: Polaris Inspector Frigate
+    volume: 20400.0
   Polaris Legatus Frigate:
     Agility: 3.0999999046325684
     ArmorEmDamageResonance: 0.0010000000474974513
@@ -629,7 +647,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 25.0
+    id: 9860
     name: Polaris Legatus Frigate
+    volume: 20400.0
   Reaper:
     Agility: 4.349999904632568
     ArmorEmDamageResonance: 0.4000000059604645
@@ -698,7 +718,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 588
     name: Reaper
+    volume: 15800.0
   Taipan:
     Agility: 4.5
     ArmorEmDamageResonance: 0.5
@@ -767,7 +789,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 33081
     name: Taipan
+    volume: 15000.0
   Velator:
     Agility: 4.349999904632568
     ArmorEmDamageResonance: 0.5
@@ -836,7 +860,9 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 606
     name: Velator
+    volume: 24500.0
   Violator:
     Agility: 4.349999904632568
     ArmorEmDamageResonance: 0.5
@@ -902,4 +928,6 @@ items:
     Uniformity: 1.0
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
+    id: 33083
     name: Violator
+    volume: 24500.0

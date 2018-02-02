@@ -14,7 +14,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 45669
     name: Baker_PLACEHOLDER
+    volume: 1.0
   Charlie_PLACEHOLDER:
     FighterAbilityEvasiveManeuversEmResonance: 1.0
     FighterAbilityEvasiveManeuversExpResonance: 1.0
@@ -30,7 +32,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
+    id: 45671
     name: Charlie_PLACEHOLDER
+    volume: 1.0
   Dragonfly I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -84,7 +88,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 23057
     name: Dragonfly I
+    volume: 1000.0
   Dragonfly II:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -139,7 +145,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40557
     name: Dragonfly II
+    volume: 1000.0
   Einherji I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -193,7 +201,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 23061
     name: Einherji I
+    volume: 1000.0
   Einherji II:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -248,7 +258,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40559
     name: Einherji II
+    volume: 1000.0
   Equite I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -298,7 +310,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40358
     name: Equite I
+    volume: 800.0
   Equite II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -349,7 +363,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40552
     name: Equite II
+    volume: 800.0
   Firbolg I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -403,7 +419,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 23059
     name: Firbolg I
+    volume: 1000.0
   Firbolg II:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -458,7 +476,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40558
     name: Firbolg II
+    volume: 1000.0
   Gram I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -508,7 +528,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40361
     name: Gram I
+    volume: 800.0
   Gram II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -559,7 +581,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40553
     name: Gram II
+    volume: 800.0
   Locust I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -609,7 +633,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40359
     name: Locust I
+    volume: 800.0
   Locust II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -660,7 +686,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40554
     name: Locust II
+    volume: 800.0
   Satyr I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -710,7 +738,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 40360
     name: Satyr I
+    volume: 800.0
   Satyr II:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -761,7 +791,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40555
     name: Satyr II
+    volume: 800.0
   Standup Gram I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -811,7 +843,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 47036
     name: Standup Gram I
+    volume: 1600.0
   Standup Templar I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -865,7 +899,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 47035
     name: Standup Templar I
+    volume: 2000.0
   Templar I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -919,7 +955,9 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
+    id: 23055
     name: Templar I
+    volume: 1000.0
   Templar II:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -974,4 +1012,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
+    id: 40556
     name: Templar II
+    volume: 1000.0

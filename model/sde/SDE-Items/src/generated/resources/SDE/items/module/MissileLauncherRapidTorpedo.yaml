@@ -19,7 +19,9 @@ items:
     Speed: 27093
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 41223
     name: Arbalest Compact Rapid Torpedo Launcher
+    volume: 4000.0
   Dread Guristas Rapid Torpedo Launcher:
     ChargeGroup1: 89
     ChargeGroup2: 657
@@ -42,7 +44,9 @@ items:
     Speed: 24738
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 37293
     name: Dread Guristas Rapid Torpedo Launcher
+    volume: 4000.0
   Rapid Torpedo Launcher I:
     ChargeGroup1: 89
     ChargeRate: 1
@@ -62,7 +66,9 @@ items:
     Speed: 28450
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 37288
     name: Rapid Torpedo Launcher I
+    volume: 4000.0
   Rapid Torpedo Launcher II:
     ChargeGroup1: 89
     ChargeGroup2: 657
@@ -86,7 +92,9 @@ items:
     Speed: 25861
     TechLevel: 2
     TypeColorScheme: 11324
+    id: 37292
     name: Rapid Torpedo Launcher II
+    volume: 4000.0
   TE-2100 Ample Rapid Torpedo Launcher:
     ChargeGroup1: 89
     ChargeRate: 1
@@ -107,4 +115,6 @@ items:
     Speed: 27093
     TechLevel: 1
     TypeColorScheme: 11324
+    id: 41224
     name: TE-2100 Ample Rapid Torpedo Launcher
+    volume: 4000.0

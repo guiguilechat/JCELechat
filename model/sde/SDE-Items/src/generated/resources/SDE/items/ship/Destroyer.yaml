@@ -71,7 +71,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32872
     name: Algos
+    volume: 55000.0
   Aliastra Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -142,7 +144,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32848
     name: Aliastra Catalyst
+    volume: 55000.0
   Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -211,7 +215,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 16240
     name: Catalyst
+    volume: 55000.0
   Catalyst Serpentis Edition:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -281,7 +287,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 33877
     name: Catalyst Serpentis Edition
+    volume: 55000.0
   Coercer:
     Agility: 2.7699999809265137
     ArmorEmDamageResonance: 0.5
@@ -350,7 +358,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 16236
     name: Coercer
+    volume: 47000.0
   Coercer Blood Raiders Edition:
     Agility: 2.7699999809265137
     ArmorEmDamageResonance: 0.5
@@ -420,7 +430,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 33879
     name: Coercer Blood Raiders Edition
+    volume: 47000.0
   Corax:
     Agility: 2.700000047683716
     ArmorEmDamageResonance: 0.5
@@ -491,7 +503,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32876
     name: Corax
+    volume: 52000.0
   Cormorant:
     Agility: 2.7799999713897705
     ArmorEmDamageResonance: 0.5
@@ -561,7 +575,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 16238
     name: Cormorant
+    volume: 52000.0
   Cormorant Guristas Edition:
     Agility: 2.7799999713897705
     ArmorEmDamageResonance: 0.5
@@ -632,7 +648,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 33881
     name: Cormorant Guristas Edition
+    volume: 52000.0
   Dragoon:
     Agility: 2.869999885559082
     ArmorEmDamageResonance: 0.5
@@ -707,7 +725,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32874
     name: Dragoon
+    volume: 47000.0
   Inner Zone Shipping Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -778,7 +798,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32844
     name: Inner Zone Shipping Catalyst
+    volume: 55000.0
   Intaki Syndicate Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -849,7 +871,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32842
     name: Intaki Syndicate Catalyst
+    volume: 55000.0
   InterBus Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -920,7 +944,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32840
     name: InterBus Catalyst
+    volume: 55000.0
   Nefantar Thrasher:
     Agility: 2.799999952316284
     ArmorEmDamageResonance: 0.4000000059604645
@@ -992,7 +1018,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 33099
     name: Nefantar Thrasher
+    volume: 43000.0
   Quafe Catalyst:
     Agility: 2.759999990463257
     ArmorEmDamageResonance: 0.5
@@ -1063,7 +1091,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32846
     name: Quafe Catalyst
+    volume: 55000.0
   Sunesis:
     Agility: 2.0
     ArmorEmDamageResonance: 0.675000011920929
@@ -1136,7 +1166,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 42685
     name: Sunesis
+    volume: 55000.0
   Talwar:
     Agility: 2.9000000953674316
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1207,7 +1239,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 32878
     name: Talwar
+    volume: 43000.0
   Thrasher:
     Agility: 2.799999952316284
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1277,7 +1311,9 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 16242
     name: Thrasher
+    volume: 43000.0
   Thrasher Thukker Tribe Edition:
     Agility: 2.799999952316284
     ArmorEmDamageResonance: 0.4000000059604645
@@ -1348,4 +1384,6 @@ items:
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
+    id: 33883
     name: Thrasher Thukker Tribe Edition
+    volume: 43000.0

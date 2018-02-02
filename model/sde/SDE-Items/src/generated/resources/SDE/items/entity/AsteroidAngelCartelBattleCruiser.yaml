@@ -1,13 +1,25 @@
 items:
   Angel Legatus:
+    id: 22827
     name: Angel Legatus
+    volume: 109000.0
   Angel Legionnaire:
+    id: 22822
     name: Angel Legionnaire
+    volume: 109000.0
   Angel Praefectus:
+    id: 22825
     name: Angel Praefectus
+    volume: 109000.0
   Angel Primus:
+    id: 22823
     name: Angel Primus
+    volume: 109000.0
   Angel Tribuni:
+    id: 22824
     name: Angel Tribuni
+    volume: 109000.0
   Angel Tribunus:
+    id: 22826
     name: Angel Tribunus
+    volume: 109000.0

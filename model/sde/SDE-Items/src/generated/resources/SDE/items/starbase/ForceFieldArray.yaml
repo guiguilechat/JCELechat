@@ -8,4 +8,6 @@ items:
     Power: 50
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
+    id: 17188
     name: Force Field Array
+    volume: 100.0

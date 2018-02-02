@@ -18,7 +18,9 @@ items:
     SubsystemMMissileFittingReduction: -25
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 45599
     name: Legion Offensive - Assault Optimization
+    volume: 40.0
   Legion Offensive - Liquid Crystal Magnifiers:
     CapacitorCapacity: 100.0
     CpuOutput: 90
@@ -37,7 +39,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
+    id: 45598
     name: Legion Offensive - Liquid Crystal Magnifiers
+    volume: 40.0
   Legion Offensive - Support Processor:
     CapacitorCapacity: 100.0
     DroneBandwidth: 25
@@ -60,7 +64,9 @@ items:
     SubsystemMRARFittingReduction: -75
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 45600
     name: Legion Offensive - Support Processor
+    volume: 40.0
   Loki Offensive - Launcher Efficiency Configuration:
     CpuOutput: 150
     DroneBandwidth: 40
@@ -81,7 +87,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 2
     WarfareLinkCPUPenalty: 10000
+    id: 45608
     name: Loki Offensive - Launcher Efficiency Configuration
+    volume: 40.0
   Loki Offensive - Projectile Scoping Array:
     CpuOutput: 30
     DroneBandwidth: 25
@@ -102,7 +110,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 5
     WarfareLinkCPUPenalty: 10000
+    id: 45607
     name: Loki Offensive - Projectile Scoping Array
+    volume: 40.0
   Loki Offensive - Support Processor:
     CapacitorCapacity: 100.0
     DroneBandwidth: 25
@@ -127,7 +137,9 @@ items:
     SubsystemMRSBFittingReduction: -75
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 45609
     name: Loki Offensive - Support Processor
+    volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
     CpuOutput: 40
     DroneBandwidth: 100
@@ -147,7 +159,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 5
     WarfareLinkCPUPenalty: 10000
+    id: 45605
     name: Proteus Offensive - Drone Synthesis Projector
+    volume: 40.0
   Proteus Offensive - Hybrid Encoding Platform:
     CapacitorCapacity: 100.0
     CpuOutput: 110
@@ -168,7 +182,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
+    id: 45604
     name: Proteus Offensive - Hybrid Encoding Platform
+    volume: 40.0
   Proteus Offensive - Support Processor:
     CapacitorCapacity: 100.0
     DroneBandwidth: 50
@@ -191,7 +207,9 @@ items:
     SubsystemMRARFittingReduction: -75
     TechLevel: 3
     TurretHardPointModifier: 4
+    id: 45606
     name: Proteus Offensive - Support Processor
+    volume: 40.0
   Tengu Offensive - Accelerated Ejection Bay:
     CpuOutput: 160
     FitsToShipType: 29984
@@ -209,7 +227,9 @@ items:
     SubsystemMMissileFittingReduction: -25
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
+    id: 45601
     name: Tengu Offensive - Accelerated Ejection Bay
+    volume: 40.0
   Tengu Offensive - Magnetic Infusion Basin:
     CapacitorCapacity: 100.0
     CpuOutput: 120
@@ -227,7 +247,9 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
+    id: 45602
     name: Tengu Offensive - Magnetic Infusion Basin
+    volume: 40.0
   Tengu Offensive - Support Processor:
     CapacitorCapacity: 100.0
     DroneBandwidth: 25
@@ -249,4 +271,6 @@ items:
     SubsystemCommandBurstFittingReduction: -95
     SubsystemMRSBFittingReduction: -75
     TechLevel: 3
+    id: 45603
     name: Tengu Offensive - Support Processor
+    volume: 40.0

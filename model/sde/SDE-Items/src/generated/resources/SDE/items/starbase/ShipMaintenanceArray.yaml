@@ -24,7 +24,9 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     Uniformity: 1.0
+    id: 12237
     name: Ship Maintenance Array
+    volume: 8000.0
   X-Large Ship Maintenance Array:
     AnchoringDelay: 30000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -50,4 +52,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 600000
     Uniformity: 1.0
+    id: 24646
     name: X-Large Ship Maintenance Array
+    volume: 40000.0

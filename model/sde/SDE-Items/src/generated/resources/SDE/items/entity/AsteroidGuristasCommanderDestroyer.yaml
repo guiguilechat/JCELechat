@@ -1,17 +1,33 @@
 items:
   Desperado Anarchist:
+    id: 23943
     name: Desperado Anarchist
+    volume: 16500.0
   Desperado Nihilist:
+    id: 23942
     name: Desperado Nihilist
+    volume: 16500.0
   Dread Guristas Anarchist:
+    id: 23344
     name: Dread Guristas Anarchist
+    volume: 16500.0
   Dread Guristas Guerilla:
+    id: 23346
     name: Dread Guristas Guerilla
+    volume: 16500.0
   Dread Guristas Nihilist:
+    id: 23343
     name: Dread Guristas Nihilist
+    volume: 16500.0
   Dread Guristas Renegade:
+    id: 23345
     name: Dread Guristas Renegade
+    volume: 16500.0
   Dread Guristas Supremacist:
+    id: 23348
     name: Dread Guristas Supremacist
+    volume: 16500.0
   Dread Guristas Terrorist:
+    id: 23347
     name: Dread Guristas Terrorist
+    volume: 16500.0

@@ -1,25 +1,49 @@
 items:
   Angel Fugitive:
+    id: 12245
     name: Angel Fugitive
+    volume: 21120.0
   Apocalypse 125ms 2500m:
+    id: 25215
     name: Apocalypse 125ms 2500m
+    volume: 1150000.0
   Automated Centii Keyholder:
+    id: 22053
     name: Automated Centii Keyholder
+    volume: 24500.0
   Automated Centii Training Vessel:
+    id: 21849
     name: Automated Centii Training Vessel
+    volume: 24500.0
   Automated Coreli Training Vessel:
+    id: 21845
     name: Automated Coreli Training Vessel
+    volume: 24500.0
   Automated Corpii Training Vessel:
+    id: 21847
     name: Automated Corpii Training Vessel
+    volume: 24500.0
   Automated Gisti Training Vessel:
+    id: 21846
     name: Automated Gisti Training Vessel
+    volume: 24500.0
   Automated Pithi Training Vessel:
+    id: 21848
     name: Automated Pithi Training Vessel
+    volume: 24500.0
   Blood Fugitive:
+    id: 12246
     name: Blood Fugitive
+    volume: 28100.0
   Petty Thief:
+    id: 27801
     name: Petty Thief
+    volume: 21120.0
   Sansha's Fugitive:
+    id: 12248
     name: Sansha's Fugitive
+    volume: 20000.0
   Serpentis Fugitive:
+    id: 12249
     name: Serpentis Fugitive
+    volume: 24500.0
