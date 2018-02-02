@@ -21,12 +21,13 @@ import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
-import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.locations.Region;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 
 /**
  *
@@ -74,13 +75,14 @@ public class ProdEval {
 	public List<BPEval> evaluateBPs() {
 		YamlDatabase db = new YamlDatabase();
 		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
-		Location hubR = db.getLocation(hub);
-		if (hubR != null) {
-			if (hubR.parentRegion != null) {
-				hubR = db.getLocation(hubR.parentRegion);
+		Region hubr = Region.load().get(hub);
+		if (hubr == null) {
+			SolarSystem hubs = SolarSystem.load().get(hub);
+			if (hubs != null) {
+				hubr = Region.load().get(hubs.region);
 			}
 		}
-		RegionalMarket market = ESIConnection.DISCONNECTED.markets.getMarket(hubR.locationID);
+		RegionalMarket market = ESIConnection.DISCONNECTED.markets.getMarket(hubr.id);
 		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of

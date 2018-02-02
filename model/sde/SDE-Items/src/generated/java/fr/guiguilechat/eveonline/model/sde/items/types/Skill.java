@@ -54,6 +54,6 @@ public abstract class Skill
     }
 
     public static Map<String, ? extends Skill> loadCategory() {
-        return Stream.of(PlanetManagement.load(), Rigging.load(), FleetSupport.load(), Shields.load(), Missiles.load(), Drones.load(), Targeting.load(), Armor.load(), Social.load(), Trade.load(), Navigation.load(), Production.load(), CorporationManagement.load(), ResourceProcessing.load(), NeuralEnhancement.load(), FakeSkills.load(), Science.load(), Scanning.load(), Gunnery.load(), ElectronicSystems.load(), StructureManagement.load(), SpaceshipCommand.load(), Engineering.load(), Subsystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(CorporationManagement.load(), Rigging.load(), NeuralEnhancement.load(), Missiles.load(), Trade.load(), ResourceProcessing.load(), Production.load(), Scanning.load(), Social.load(), ElectronicSystems.load(), StructureManagement.load(), FleetSupport.load(), Targeting.load(), Engineering.load(), FakeSkills.load(), SpaceshipCommand.load(), Navigation.load(), Subsystems.load(), Science.load(), Drones.load(), Armor.load(), PlanetManagement.load(), Gunnery.load(), Shields.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

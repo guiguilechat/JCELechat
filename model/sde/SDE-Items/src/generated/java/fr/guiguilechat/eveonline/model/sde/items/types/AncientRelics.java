@@ -36,6 +36,6 @@ public abstract class AncientRelics
     }
 
     public static Map<String, ? extends AncientRelics> loadCategory() {
-        return Stream.of(SleeperDefensiveRelics.load(), SleeperElectronicsRelics.load(), SleeperOffensiveRelics.load(), SleeperHullRelics.load(), SleeperPropulsionRelics.load(), SleeperEngineeringRelics.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(SleeperHullRelics.load(), SleeperDefensiveRelics.load(), SleeperPropulsionRelics.load(), SleeperElectronicsRelics.load(), SleeperOffensiveRelics.load(), SleeperEngineeringRelics.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

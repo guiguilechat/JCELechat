@@ -35,5 +35,9 @@ At the moment it creates classes for items in the SDE, considering their attribu
 			<groupId>org.mdkt.compiler</groupId>
 			<artifactId>InMemoryJavaCompiler</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Tools</artifactId>
+		</dependency>
 	</dependencies>
 </project>

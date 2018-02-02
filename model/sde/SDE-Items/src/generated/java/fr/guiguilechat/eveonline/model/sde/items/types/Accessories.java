@@ -28,6 +28,6 @@ public abstract class Accessories
     }
 
     public static Map<String, ? extends Accessories> loadCategory() {
-        return Stream.of(OutpostImprovements.load(), LegacyCurrency.load(), Services.load(), PLEX.load(), Voucher.load(), SkillInjectors.load(), Clone.load(), OutpostUpgrades.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(OutpostImprovements.load(), Voucher.load(), PLEX.load(), SkillInjectors.load(), Clone.load(), Services.load(), OutpostUpgrades.load(), LegacyCurrency.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

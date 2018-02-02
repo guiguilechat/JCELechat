@@ -84,6 +84,6 @@ public abstract class Deployable
     }
 
     public static Map<String, ? extends Deployable> loadCategory() {
-        return Stream.of(MobileDecoyUnit.load(), MobileScanInhibitor.load(), MobileSiphonUnit.load(), MobileVault.load(), MobileJumpDisruptor.load(), MobileDepot.load(), EncounterSurveillanceSystem.load(), MobileTractorUnit.load(), MobileMicroJumpUnit.load(), MobileWarpDisruptor.load(), MobileCynoInhibitor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(MobileSiphonUnit.load(), MobileDecoyUnit.load(), MobileWarpDisruptor.load(), MobileJumpDisruptor.load(), MobileTractorUnit.load(), MobileCynoInhibitor.load(), MobileVault.load(), MobileMicroJumpUnit.load(), MobileScanInhibitor.load(), MobileDepot.load(), EncounterSurveillanceSystem.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

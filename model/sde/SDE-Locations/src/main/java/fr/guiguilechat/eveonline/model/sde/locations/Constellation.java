@@ -35,6 +35,20 @@ public class Constellation extends ALocation {
 		return cache;
 	}
 
+	private static Map<Integer, String> loadById = null;
+
+	public static Map<Integer, String> loadById() {
+		if (loadById == null) {
+			LinkedHashMap<String, Constellation> mcache = load();
+			synchronized (mcache) {
+				if (loadById == null) {
+					loadById = mcache.entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getKey()));
+				}
+			}
+		}
+		return loadById;
+	}
+
 	public static void export(LinkedHashMap<String, Constellation> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();

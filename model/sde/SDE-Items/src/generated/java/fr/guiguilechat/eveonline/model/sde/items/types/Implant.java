@@ -57,6 +57,6 @@ public abstract class Implant
     }
 
     public static Map<String, ? extends Implant> loadCategory() {
-        return Stream.of(CyberMissile.load(), CyberResourceProcessing.load(), CyberTargeting.load(), CyberElectronicSystems.load(), CyberScanning.load(), CyberArmor.load(), CyberProduction.load(), CyberShields.load(), SpecialEditionImplant.load(), CyberEngineering.load(), CyberSocial.load(), CyberScience.load(), CyberNavigation.load(), CyberXSpecials.load(), Cyberimplant.load(), CyberLearning.load(), CyberGunnery.load(), CyberBiology.load(), Booster.load(), CyberLeadership.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(CyberSocial.load(), CyberShields.load(), CyberArmor.load(), CyberGunnery.load(), CyberProduction.load(), CyberXSpecials.load(), CyberResourceProcessing.load(), Booster.load(), CyberLearning.load(), SpecialEditionImplant.load(), CyberScience.load(), CyberTargeting.load(), CyberLeadership.load(), CyberNavigation.load(), CyberEngineering.load(), CyberBiology.load(), CyberMissile.load(), Cyberimplant.load(), CyberScanning.load(), CyberElectronicSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

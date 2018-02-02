@@ -40,6 +40,6 @@ public abstract class PlanetaryResources
     }
 
     public static Map<String, ? extends PlanetaryResources> loadCategory() {
-        return Stream.of(PlanetLiquidGas.load(), PlanetOrganic.load(), PlanetSolid.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(PlanetSolid.load(), PlanetOrganic.load(), PlanetLiquidGas.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

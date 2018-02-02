@@ -97,6 +97,6 @@ public abstract class Subsystem
     }
 
     public static Map<String, ? extends Subsystem> loadCategory() {
-        return Stream.of(DefensiveSystems.load(), OffensiveSystems.load(), PropulsionSystems.load(), CoreSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(CoreSystems.load(), PropulsionSystems.load(), OffensiveSystems.load(), DefensiveSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

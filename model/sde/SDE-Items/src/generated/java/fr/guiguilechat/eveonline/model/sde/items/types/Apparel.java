@@ -43,6 +43,6 @@ public abstract class Apparel
     }
 
     public static Map<String, ? extends Apparel> loadCategory() {
-        return Stream.of(Footwear.load(), Tops.load(), Augmentations.load(), Bottoms.load(), Headwear.load(), Outer.load(), Prosthetics.load(), Eyewear.load(), Tattoos.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Headwear.load(), Footwear.load(), Tattoos.load(), Prosthetics.load(), Bottoms.load(), Augmentations.load(), Tops.load(), Eyewear.load(), Outer.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

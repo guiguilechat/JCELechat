@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.database.retrieval.sde;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -20,11 +19,9 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
 
 import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
-import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
@@ -32,13 +29,11 @@ import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer.ItemRef;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
-import fr.guiguilechat.eveonline.model.database.yaml.Location;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
-import fr.guiguilechat.eveonline.model.database.yaml.Station;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
@@ -49,11 +44,6 @@ import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Moon;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Planet;
-import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.SolarSystem.Stargate;
-import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
@@ -153,10 +143,6 @@ public class SDEDumper {
 		dbModules.modules = db.modules;
 		YamlDatabase.write(dbModules, dbModulesFile());
 
-		DatabaseFile dbAsteroids = new DatabaseFile();
-		dbAsteroids.asteroids = db.asteroids;
-		YamlDatabase.write(dbAsteroids, dbAsteroidsFile());
-
 		DatabaseFile dbBlueprints = new DatabaseFile();
 		dbBlueprints.blueprints = db.blueprints;
 		YamlDatabase.write(dbBlueprints, dbBPsFile());
@@ -165,10 +151,6 @@ public class SDEDumper {
 		dbMetaInfs.metaInfs = db.metaInfs;
 		YamlDatabase.write(dbMetaInfs, dbMetaInfFile());
 
-		DatabaseFile dbLocations = new DatabaseFile();
-		dbLocations.locations = db.locations;
-		YamlDatabase.write(dbLocations, dbLocationFile());
-
 		DatabaseFile dbLPOffers = new DatabaseFile();
 		dbLPOffers.lpoffers = db.lpoffers;
 		YamlDatabase.write(dbLPOffers, dbLPOffersFile());
@@ -176,10 +158,6 @@ public class SDEDumper {
 		DatabaseFile dbAgents = new DatabaseFile();
 		dbAgents.agents = db.agents;
 		YamlDatabase.write(dbAgents, dbAgentsFile());
-
-		DatabaseFile dbStations = new DatabaseFile();
-		dbStations.stations = db.stations;
-		YamlDatabase.write(dbStations, dbStationsFile());
 
 		DatabaseFile dbHulls = new DatabaseFile();
 		dbHulls.hulls = db.hulls;
@@ -193,17 +171,9 @@ public class SDEDumper {
 		logger.info("loading ships and modules");
 		loadShipModules(sde, db);
 
-		logger.info("loading asteroids");
-		loadAsteroids(sde, db);
 
 		logger.info("loading blueprints");
 		loadBlueprints(sde, db);
-
-		logger.info("loading locations");
-		loadLocations(sde, db);
-
-		logger.info("loading stations");
-		loadStations(sde, db);
 
 		logger.info("loading meta-infs");
 		loadMetaInfs(sde, db);
@@ -471,37 +441,6 @@ public class SDEDumper {
 		return ((Number) ret).intValue();
 	}
 
-	public static void loadAsteroids(SDEData sde, DatabaseFile db) {
-		sde.getTypeIDsForCategory(25).forEach(i -> {
-			EtypeIDs type = sde.getType(i);
-			Asteroid a = new Asteroid();
-			loadTypeInformations(a, sde, i);
-			db.asteroids.put(a.name, a);
-			String desc = type.description.getOrDefault("en", "");
-			if (desc.contains("Available in ")) {
-				String availables = desc.replaceAll("\\n|\\r", "").replaceAll(".*'>", "").replaceAll("</.*", "");
-				a.maxSecurity = Float.parseFloat(availables);
-			} else {
-				a.maxSecurity = -1.0;
-			}
-		});
-		for (Entry<String, Asteroid> e : db.asteroids.entrySet()) {
-			Asteroid a = e.getValue();
-			IndustryUsages usages = sde.getIndustryUsages().get(a.id);
-			if (usages != null) {
-				for (Eblueprints l : usages.asMaterial) {
-					Material product = l.activities.manufacturing.products.get(0);
-					EtypeIDs prodType = sde.getType(product.typeID);
-					String prodName = prodType.enName();
-					a.compressedTo = prodName;
-					Asteroid astProduct = db.asteroids.get(prodName);
-					astProduct.compressedFrom = e.getKey();
-					astProduct.compressRatio = prodType.groupID == 465 ? 1 : 100;
-				}
-			}
-		}
-	}
-
 	public static void loadBlueprints(SDEData sde, DatabaseFile db) {
 		for (Entry<Integer, Eblueprints> e : sde.getBlueprints().entrySet()) {
 			int id = e.getKey();
@@ -550,185 +489,6 @@ public class SDEDumper {
 		ret.name = sde.getType(skill.typeID).enName();
 		// skill_id = skill.typeID;
 		return ret;
-	}
-
-	public static void loadLocations(SDEData sde, DatabaseFile db) {
-		File mainFolder = new File(SDECache.INSTANCE.checkDir(), "fsd/universe/eve");
-		if (!mainFolder.isDirectory()) {
-			System.err.println("can't create locations, folder not found " + mainFolder);
-			return;
-		}
-		Constructor sysconstructor = new Constructor(SolarSystem.class);
-
-		Yaml sysLoader = new Yaml(sysconstructor);
-		// we store all the name - systemid link
-		HashMap<String, HashSet<Integer>> links = new HashMap<>();
-		// for each gate, its system name
-		HashMap<Integer, Location> gate2system = new HashMap<>();
-		for (String regionName : mainFolder.list()) {
-			File regionDir = new File(mainFolder, regionName);
-			Location region = new Location();
-			region.name = regionName;
-			try (BufferedReader br = new BufferedReader(new FileReader(new File(regionDir, "region.staticdata")))) {
-				br.lines().forEach(l -> {
-					if (l.startsWith("regionID: ")) {
-						region.locationID = Integer.parseInt(l.substring("regionID: ".length()));
-					}
-				});
-			} catch (IOException e) {
-				e.printStackTrace(System.err);
-			}
-			if (region.locationID == 0) {
-				System.err.println("could not get id for region " + regionName);
-				continue;
-			} else {
-				db.locations.put(regionName, region);
-			}
-			HashSet<Integer> regionAdjacents = new HashSet<>();
-			links.put(regionName, regionAdjacents);
-
-			for (String constelName : regionDir.list((d, n) -> !n.contains("."))) {
-				File constelDir = new File(regionDir, constelName);
-				Location constel = new Location();
-				constel.name = constelName;
-				constel.parentRegion = regionName;
-				try (BufferedReader br = new BufferedReader(new FileReader(new File(constelDir, "constellation.staticdata")))) {
-					br.lines().forEach(l -> {
-						if (l.startsWith("constellationID: ")) {
-							constel.locationID = Integer.parseInt(l.substring("constellationID: ".length()));
-						}
-					});
-				} catch (IOException e) {
-					e.printStackTrace(System.err);
-				}
-				if (constel.locationID == 0) {
-					System.err.println("could not get id for constel " + constelName);
-					continue;
-				} else {
-					db.locations.put(constelName, constel);
-				}
-				HashSet<Integer> constelAdjacents = new HashSet<>();
-				links.put(constelName, constelAdjacents);
-				for (String systemName : constelDir.list((d, n) -> !n.contains("."))) {
-					File systemDir = new File(constelDir, systemName);
-					Location system = new Location();
-					system.name = systemName;
-					system.parentRegion = regionName;
-					system.parentConstellation = constelName;
-					FileReader staticdataFileReader;
-					try {
-						staticdataFileReader = new FileReader(new File(systemDir, "solarsystem.staticdata"));
-						SolarSystem sysdata = (SolarSystem) sysLoader.load(staticdataFileReader);
-						system.locationID = sysdata.solarSystemID;
-
-						system.maxSec = system.minSec = sysdata.security;
-						constel.minSec = Math.min(constel.minSec, sysdata.security);
-						constel.maxSec = Math.max(constel.maxSec, sysdata.security);
-						region.minSec = Math.min(region.minSec, sysdata.security);
-						region.maxSec = Math.max(region.maxSec, sysdata.security);
-
-						HashSet<Integer> sysAdjacents = new HashSet<>();
-						links.put(systemName, sysAdjacents);
-
-						for (Entry<Integer, Stargate> e : sysdata.stargates.entrySet()) {
-							gate2system.put(e.getKey(), system);
-							Stargate s = e.getValue();
-							regionAdjacents.add(s.destination);
-							constelAdjacents.add(s.destination);
-							sysAdjacents.add(s.destination);
-						}
-						ArrayList<Integer> stations = new ArrayList<>();
-						for (Planet p : sysdata.planets.values()) {
-							stations.addAll(p.npcStations.keySet());
-							for (Moon m : p.moons.values()) {
-								stations.addAll(m.npcStations.keySet());
-							}
-						}
-						system.stations = stations.stream().mapToInt(i -> i).toArray();
-					} catch (FileNotFoundException e1) {
-						throw new UnsupportedOperationException("catch this", e1);
-					}
-					db.locations.put(systemName, system);
-				}
-			}
-		}
-
-		// check every location has its correct parent constellation/region.
-		for (Location loc : db.locations.values()) {
-			switch (loc.getLocationType()) {
-			case 3:
-				if (loc.parentConstellation == null || loc.parentRegion == null) {
-					System.err.println("error with system " + loc.name + " in constel " + loc.parentConstellation + " region "
-							+ loc.parentRegion);
-				}
-				break;
-			case 2:
-				if (loc.parentRegion == null || loc.parentConstellation != null) {
-					System.err.println("error with constelation " + loc.name + " in constel " + loc.parentConstellation
-							+ " region " + loc.parentRegion);
-				}
-				break;
-			case 1:
-				if (loc.parentRegion != null || loc.parentConstellation != null) {
-					System.err.println("error with region " + loc.name + " in constel " + loc.parentConstellation + " region "
-							+ loc.parentRegion);
-				}
-				break;
-			default:
-				System.err.println("error, unknown locaiton type " + loc.getLocationType());
-			}
-		}
-
-		// we use the adjacent systems for regions/constel/systems, to map them to
-		// their names
-		for (Entry<String, Location> e : db.locations.entrySet()) {
-			String name = e.getKey();
-			Location l = e.getValue();
-			HashSet<String> systems = new HashSet<>();
-			HashSet<String> constels = new HashSet<>();
-			HashSet<String> regions = new HashSet<>();
-			for (Integer gateId : links.get(name)) {
-				Location destSys = gate2system.get(gateId);
-				// if we go in the same region/constel, just skip that stargate
-				if (l.getLocationType() == 1 && destSys.parentRegion.equals(name)
-						|| l.getLocationType() == 2 && destSys.parentConstellation.equals(name)) {
-					continue;
-				}
-				systems.add(destSys.name);
-				if (l.getLocationType() != 3 || !destSys.parentConstellation.equals(l.parentConstellation)) {
-					constels.add(destSys.parentConstellation);
-					if (l.getLocationType() != 3 || !destSys.parentRegion.equals(l.parentRegion)) {
-						regions.add(destSys.parentRegion);
-					}
-				}
-			}
-			l.adjacentSystems = systems.toArray(new String[] {});
-			l.adjacentConstels = constels.toArray(new String[] {});
-			l.adjacentRegions = regions.toArray(new String[] {});
-		}
-	}
-
-	public static void loadStations(SDEData sde, DatabaseFile db) {
-		Map<Integer, Location> locationsByID = db.locations.values().stream()
-				.collect(Collectors.toMap(l -> l.locationID, l -> l));
-		for( Entry<Integer, EstaStations> e : sde.getStations().entrySet()) {
-			EstaStations staIn = e.getValue();
-			Station staOut = new Station();
-			Location system = locationsByID.get(staIn.solarSystemID);
-			if (system == null) {
-				logger.debug("can't load system " + staIn.solarSystemID);
-				staOut.system = "unknown_" + staIn.solarSystemID;
-				staOut.constel = "";
-				staOut.region = "";
-			} else {
-				staOut.system = system.name;
-				staOut.constel = system.parentConstellation;
-				staOut.region = system.parentRegion;
-			}
-			staOut.stationId = e.getKey();
-			staOut.name = staIn.stationName;
-			db.stations.put(staIn.stationName, staOut);
-		}
 	}
 
 	public static void loadMetaInfs(SDEData sde, DatabaseFile db) {
@@ -842,9 +602,6 @@ public class SDEDumper {
 				.collect(Collectors.toMap(n -> n.character_id, n -> n.character_name));
 		Map<Integer, EstaStations> stations = sde.getStations();
 		Map<Integer, String> system2Name = new HashMap<>();
-		for (Location l : db.locations.values()) {
-			system2Name.put(l.locationID, l.name);
-		}
 
 		sdeAgents.parallelStream().map(ea -> {
 			Agent ag = new Agent();

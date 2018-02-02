@@ -76,6 +76,6 @@ public abstract class Orbitals
     }
 
     public static Map<String, ? extends Orbitals> loadCategory() {
-        return Stream.of(OrbitalConstructionPlatform.load(), TestOrbitals.load(), OrbitalInfrastructure.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(TestOrbitals.load(), OrbitalInfrastructure.load(), OrbitalConstructionPlatform.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

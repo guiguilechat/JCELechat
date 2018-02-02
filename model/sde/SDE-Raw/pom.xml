@@ -9,10 +9,6 @@
 	<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
 	<dependencies>
 		<dependency>
-			<groupId>org.yaml</groupId>
-			<artifactId>snakeyaml</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<scope>test</scope>
@@ -25,6 +21,10 @@
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<artifactId>SDE-Tools</artifactId>
 		</dependency>
 	</dependencies>
 	<name>SDE-raw</name>
