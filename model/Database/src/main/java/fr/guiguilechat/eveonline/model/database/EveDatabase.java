@@ -41,7 +41,7 @@ public abstract class EveDatabase {
 		}
 	}
 
-	public List<InventionDecryptor> decryptors() {
+	public static List<InventionDecryptor> decryptors() {
 		return Arrays.asList(InventionDecryptor.values());
 	}
 

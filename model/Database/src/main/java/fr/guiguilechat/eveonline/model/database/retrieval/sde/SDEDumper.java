@@ -1,14 +1,10 @@
 package fr.guiguilechat.eveonline.model.database.retrieval.sde;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
-import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 
 /** load SDE, convert it into db, store the db, and allow to load it. */
 public class SDEDumper {
@@ -87,31 +83,12 @@ public class SDEDumper {
 
 		int parallelism = Runtime.getRuntime().availableProcessors() * 10;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parallelism);
-		DatabaseFile db = loadDb();
 
 		logger.debug("db loaded, writting it");
 		SDEDumper dumper = new SDEDumper();
 		if (args.length != 0) {
 			dumper.setRootDir(args[0]);
 		}
-		dumper.dump(db);
-	}
-
-	protected void dump(DatabaseFile db) throws IOException {
-		dbDir().mkdirs();
-		System.err.println("writing in " + dbDir().getAbsolutePath());
-	}
-
-	public static DatabaseFile loadDb() throws FileNotFoundException {
-		SDEData sde = new SDEData();
-		DatabaseFile db = new DatabaseFile();
-
-		// those two must remains at the end because they need the other
-		// informations.
-
-		logger.info("missings ids " + sde.missings);
-
-		return db;
 	}
 
 }

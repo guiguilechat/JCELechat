@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.Constellation;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 
@@ -61,11 +60,8 @@ public class SysBurnerEvaluator {
 	 */
 	public int distance;
 
-	public final EveDatabase db;
-
-	public SysBurnerEvaluator(int distance, EveDatabase db) {
+	public SysBurnerEvaluator(int distance) {
 		this.distance = distance;
-		this.db = db;
 	}
 
 	protected final HashMap<String, SystemData> cache = new HashMap<>();

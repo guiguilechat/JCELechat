@@ -9,8 +9,6 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
@@ -47,21 +45,11 @@ public class EvaluateBurnersAgents {
 	}
 
 	public EvaluateBurnersAgents() {
-		this(new YamlDatabase());
-	}
-
-	public EvaluateBurnersAgents(EveDatabase db) {
-		this.db = db;
-		systemEvaluator = new SysBurnerEvaluator(10, db);
-		corpEvaluator = new LPCorpEvaluator(db);
-		if (db == null) {
-			throw new NullPointerException();
-		}
+		systemEvaluator = new SysBurnerEvaluator(10);
+		corpEvaluator = new LPCorpEvaluator();
 	}
 
 	public Collection<MissionStats> missions = new ArrayList<>();
-
-	protected EveDatabase db;
 
 	protected Pattern[] allowedCorporations = null;
 

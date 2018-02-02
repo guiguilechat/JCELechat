@@ -15,7 +15,6 @@ import java.util.HashSet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 
@@ -23,10 +22,7 @@ public class LootParser {
 
 	private static final Logger logger = LoggerFactory.getLogger(LootParser.class);
 
-	private EveDatabase evedb;
-
-	public LootParser(EveDatabase evedb) {
-		this.evedb = evedb;
+	public LootParser() {
 	}
 
 	public ArrayList<LootEntry> loadDirectory(File lootDir) {

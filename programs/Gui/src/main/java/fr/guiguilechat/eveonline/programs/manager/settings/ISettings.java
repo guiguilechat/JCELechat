@@ -11,7 +11,8 @@ import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.representer.Representer;
 
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
+import fr.guiguilechat.eveonline.model.sde.yaml.Tools;
 
 
 /**
@@ -122,11 +123,11 @@ public interface ISettings {
 	}
 
 	public default Representer makeYamlRepresenter() {
-		return YamlDatabase.makeRepresenter();
+		return new CleanRepresenter();
 	}
 
 	public default DumperOptions makeYamlOptions() {
-		return YamlDatabase.makeOptions();
+		return Tools.blockDumper();
 	}
 
 }

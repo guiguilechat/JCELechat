@@ -17,14 +17,14 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.items.types.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
+import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
+import fr.guiguilechat.eveonline.model.sde.yaml.Tools;
 
 /**
  * analysis of a series of item drops
@@ -48,7 +48,7 @@ public class LootAnalysis {
 
 	public String desc = null;
 
-	public static LootAnalysis analyse(Stream<LootEntry> entries, EveDatabase db, IntToDoubleFunction cost) {
+	public static LootAnalysis analyse(Stream<LootEntry> entries, IntToDoubleFunction cost) {
 		LootAnalysis ret = new LootAnalysis();
 		HashMap<Integer, Integer> totalDrop = new HashMap<>();
 		HashSet<String> bps = new HashSet<>();
@@ -83,8 +83,7 @@ public class LootAnalysis {
 	}
 
 	public static void main(String[] args) throws IOException {
-		EveDatabase db = new YamlDatabase();
-		LootParser bp = new LootParser(db);
+		LootParser bp = new LootParser();
 		RegionalMarket em = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get("TheForge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
@@ -101,7 +100,7 @@ public class LootAnalysis {
 			String[] races = al.stream().map(le -> le.race).distinct().toArray(String[]::new);
 			Map<String, LootAnalysis> grouped = Stream.of(types).parallel().flatMap(type -> {
 				return Stream.of(races).parallel().map(race -> {
-					LootAnalysis la = analyse(al.stream().filter(le -> type.equals(le.type) && race.equals(le.race)), db,
+					LootAnalysis la = analyse(al.stream().filter(le -> type.equals(le.type) && race.equals(le.race)),
 							i -> em.getBO(i, 1));
 					if (la != null) {
 						la.desc = type + " " + race;
@@ -124,7 +123,7 @@ public class LootAnalysis {
 	}
 
 	public static Yaml makeYaml() {
-		Yaml ret = new Yaml(new SafeConstructor(), YamlDatabase.makeRepresenter(), YamlDatabase.makeOptions());
+		Yaml ret = new Yaml(new SafeConstructor(), new CleanRepresenter(), Tools.blockDumper());
 		return ret;
 	}
 

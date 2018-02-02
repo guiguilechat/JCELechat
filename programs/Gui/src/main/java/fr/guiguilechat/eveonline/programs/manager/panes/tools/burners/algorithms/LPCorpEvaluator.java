@@ -12,8 +12,6 @@ import java.util.stream.Collectors;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
@@ -55,8 +53,6 @@ public class LPCorpEvaluator {
 	}
 
 
-	public final EveDatabase db;
-
 	protected RegionalMarket market = null;
 
 	// adjust sales by removing this taxe
@@ -74,7 +70,6 @@ public class LPCorpEvaluator {
 	}
 
 	public LPCorpEvaluator() {
-		this(new YamlDatabase());
 	}
 
 	/**
@@ -82,17 +77,7 @@ public class LPCorpEvaluator {
 	 * @param db
 	 *          the database to get the lp offers from.
 	 */
-	public LPCorpEvaluator(EveDatabase db) {
-		this(db, null);
-	}
-
-	/**
-	 *
-	 * @param db
-	 *          the database to get the lp offers from.
-	 */
-	public LPCorpEvaluator(EveDatabase db, RegionalMarket market) {
-		this.db = db;
+	public LPCorpEvaluator(RegionalMarket market) {
 		this.market = market;
 	}
 

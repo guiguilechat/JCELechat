@@ -21,12 +21,9 @@ import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
-import fr.guiguilechat.eveonline.model.apiv2.Eve.EStation;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
-import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
@@ -64,15 +61,6 @@ public class Manager extends Application implements EvePane {
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		launch(args);
-	}
-
-	// database
-
-	protected YamlDatabase db = new YamlDatabase();
-
-	@Override
-	public YamlDatabase db() {
-		return db;
 	}
 
 	@Override
@@ -563,11 +551,6 @@ public class Manager extends Application implements EvePane {
 		String system = null;
 		if (station != null) {
 			system = station.solarSystem;
-		} else {
-			EStation estat = db().eve().stationsByID().get(stationId);
-			if (estat != null) {
-				system = SolarSystem.loadById().get((int) estat.solarSystemID);
-			}
 		}
 		return system;
 

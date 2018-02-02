@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
 
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
+import fr.guiguilechat.eveonline.model.database.EveDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
@@ -63,7 +63,7 @@ public class InventionGainAlgorithm {
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
 	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
-			Map<String, Integer> skills, YamlDatabase db, InventionParams params, RegionalMarket market) {
+			Map<String, Integer> skills, InventionParams params, RegionalMarket market) {
 		// the bpc selected
 		Blueprint bpc = Blueprint.load().get(selectedbpc.name);
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
@@ -106,7 +106,7 @@ public class InventionGainAlgorithm {
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-		List<InventionProdData> ret = db.decryptors().parallelStream().map(decryptor -> {
+		List<InventionProdData> ret = EveDatabase.decryptors().parallelStream().map(decryptor -> {
 			InventionProdData data = new InventionProdData();
 			data.bpoName = bpo.name;
 			data.productName = product.name;
@@ -173,7 +173,7 @@ public class InventionGainAlgorithm {
 				double inventionCostSO = inventionInstall
 						// add the required materials cost
 						+ bpo.invention.materials.parallelStream()
-								.mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id, nbCyclesFinal * m.quantity)).sum() / nbCycles
+						.mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id, nbCyclesFinal * m.quantity)).sum() / nbCycles
 						// add the decryptor cost
 						+ (decryptor.id != 0 ? market.getSO(decryptor.id, nbCycles) : 0.0) / nbCycles;
 

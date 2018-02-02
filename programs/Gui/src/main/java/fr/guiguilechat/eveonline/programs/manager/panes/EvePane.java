@@ -3,7 +3,6 @@ package fr.guiguilechat.eveonline.programs.manager.panes;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
 
@@ -29,12 +28,6 @@ public interface EvePane {
 
 	public default void debug(String message) {
 		parent().printDebug(getClass(), message);
-	}
-
-	// access to the database
-
-	public default YamlDatabase db() {
-		return parent().db();
 	}
 
 	//// API Modifications

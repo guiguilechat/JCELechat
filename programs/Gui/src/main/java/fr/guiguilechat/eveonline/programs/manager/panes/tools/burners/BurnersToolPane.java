@@ -87,7 +87,7 @@ public class BurnersToolPane extends BorderPane implements EvePane {
 
 		setCenter(table);
 
-		eval = new EvaluateBurnersAgents(parent.db());
+		eval = new EvaluateBurnersAgents();
 
 		eval.corpEvaluator.withLPAmount(parent.settings.burners.lpQtty);
 		eval.corpEvaluator.withBrokerFee(parent.settings.burners.brokerFee);

@@ -191,7 +191,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
 						.flatMap(mat -> InventionGainAlgorithm
-								.evalCostInventionProd(bpo, mat, skills, db(), parent().settings.invention, market).stream()))
+								.evalCostInventionProd(bpo, mat, skills, parent().settings.invention, market).stream()))
 				.forEachOrdered(e -> {
 					list.add(e);
 				});
