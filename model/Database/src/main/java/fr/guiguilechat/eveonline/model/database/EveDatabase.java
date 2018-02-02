@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
-import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.LPOffer;
@@ -34,8 +33,6 @@ public abstract class EveDatabase {
 	}
 
 	public abstract ArrayList<LPOffer> getLPOffers();
-
-	public abstract LinkedHashMap<String, Agent> getAgents();
 
 	protected HashMap<Integer, String> elementById = null;
 

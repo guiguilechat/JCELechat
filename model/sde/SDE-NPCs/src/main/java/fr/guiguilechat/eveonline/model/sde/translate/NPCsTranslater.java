@@ -15,6 +15,7 @@ import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCDivisions;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
@@ -47,7 +48,8 @@ public class NPCsTranslater {
 		LinkedHashMap<String, Corporation> corporations = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LPOffer> lpoffers = new LinkedHashMap<>();
 
-		translate(EagtAgents.load(), EagtAgentTypes.loadById(), agents, corporations, lpoffers);
+		translate(EagtAgents.load(), EagtAgentTypes.loadById(), EcrpNPCDivisions.loadById(), agents, corporations,
+				lpoffers);
 
 		// sort
 
@@ -75,7 +77,7 @@ public class NPCsTranslater {
 		System.err.println("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 	}
 
-	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
+	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,Map<Integer, String>divisionTypes,
 			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations,
 			LinkedHashMap<Integer, LPOffer> offers) {
 		ESIConnection esi = new ESIConnection(null, null);
@@ -102,6 +104,7 @@ public class NPCsTranslater {
 			agent.isLocator = eagt.isLocator;
 			agent.level = eagt.level;
 			agent.type = agentTypes.get(eagt.agentTypeID);
+			agent.division = divisionTypes.get(eagt.divisionID);
 			String station = stationsByID.get(eagt.locationID);
 			if (station != null) {
 				agent.station = station;
