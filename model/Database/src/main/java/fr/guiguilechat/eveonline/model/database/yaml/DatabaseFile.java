@@ -13,8 +13,6 @@ public class DatabaseFile {
 
 	public LinkedHashMap<String, Module> modules = new LinkedHashMap<>();
 
-	public LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
-
 	public LinkedHashMap<String, MetaInf> metaInfs = new LinkedHashMap<>();
 
 	/**
@@ -26,7 +24,6 @@ public class DatabaseFile {
 	public void merge(DatabaseFile db) {
 		hulls.putAll(db.hulls);
 		modules.putAll(db.modules);
-		blueprints.putAll(db.blueprints);
 		metaInfs.putAll(db.metaInfs);
 	}
 

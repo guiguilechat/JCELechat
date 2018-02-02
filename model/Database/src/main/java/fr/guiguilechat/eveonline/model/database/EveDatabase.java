@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.model.apiv2.Eve;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Module;
@@ -19,8 +18,6 @@ public abstract class EveDatabase {
 	public abstract LinkedHashMap<String, Hull> getHulls();
 
 	public abstract LinkedHashMap<String, Module> getModules();
-
-	public abstract LinkedHashMap<String, Blueprint> getBlueprints();
 
 	protected HashSet<String> hubsNames = null;
 
@@ -49,9 +46,6 @@ public abstract class EveDatabase {
 		Type ret = getHulls().get(name);
 		if (ret == null) {
 			ret = getModules().get(name);
-		}
-		if (ret == null) {
-			ret = getBlueprints().get(name);
 		}
 		return ret;
 	}

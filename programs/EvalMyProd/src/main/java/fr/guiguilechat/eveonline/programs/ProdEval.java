@@ -19,13 +19,13 @@ import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.database.EveDatabase;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.database.yaml.MetaInf;
 import fr.guiguilechat.eveonline.model.database.yaml.Type;
 import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 
@@ -123,7 +123,7 @@ public class ProdEval {
 	 */
 	protected BPEval evalBP(BPEntry bp, EveDatabase db, HashMap<String, Integer> skills) {
 		LinkedHashMap<String, MetaInf> metainfs = db.getMetaInfs();
-		LinkedHashMap<String, Blueprint> bps = db.getBlueprints();
+		LinkedHashMap<String, Blueprint> bps = Blueprint.load();
 
 		// blueprint unknown ??
 		Blueprint bpt = bps.get(bp.typeName);
@@ -143,7 +143,8 @@ public class ProdEval {
 			return null;
 		}
 		// is there a skill required by this bp we don't have ?
-		if (!skipSkills && bpt.manufacturing.skills.stream().filter(sk -> skills.getOrDefault(sk.name, 0) < sk.level)
+		if (!skipSkills && bpt.manufacturing.skills.entrySet().stream()
+				.filter(e -> skills.getOrDefault(e.getKey(), 0) < e.getValue())
 				.findAny().isPresent()) {
 			if (debug) {
 				logger.debug("missing skills for " + bpt.name);
