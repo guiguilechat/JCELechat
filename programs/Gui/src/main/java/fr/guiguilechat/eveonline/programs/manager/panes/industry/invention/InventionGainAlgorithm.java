@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.industry.invention;
 
 import java.util.Collections;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -15,7 +16,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
-import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerToolPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerPane.StructBonus;
 
 /**
  * evaluate the gain per hour of a copy-invent-manufacture cycle for each bpo,
@@ -59,6 +60,12 @@ public class InventionGainAlgorithm {
 		public double itemCost;
 
 		public int maxCycles;
+
+		// requirement for ONE cycle.
+		public LinkedHashMap<String, Double> requirements = new LinkedHashMap<>();
+		// installation cost of copy+invention+manufacturing for ONE cycle
+		public double installCost;
+
 	}
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
@@ -71,9 +78,9 @@ public class InventionGainAlgorithm {
 		}
 		Material product = bpc.manufacturing.products.get(0);
 		int prodID = product.id;
-		StructBonus copyStruct = InventerToolPane.StructBonus.valueOf(params.copystruct);
-		StructBonus inventStruct = InventerToolPane.StructBonus.valueOf(params.inventstruct);
-		StructBonus manufStruct = InventerToolPane.StructBonus.valueOf(params.manufstruct);
+		StructBonus copyStruct = InventerPane.StructBonus.valueOf(params.copystruct);
+		StructBonus inventStruct = InventerPane.StructBonus.valueOf(params.inventstruct);
+		StructBonus manufStruct = InventerPane.StructBonus.valueOf(params.manufstruct);
 
 		// the Estimated Item Value of the bpo. used for copying and manufacturing
 		double bpoEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0
@@ -105,7 +112,6 @@ public class InventionGainAlgorithm {
 				* (1.0 - 0.05 * skills.getOrDefault("Science", 0))
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
-
 
 		List<InventionProdData> ret = InventionDecryptor.load().values().parallelStream().map(decryptor -> {
 			InventionProdData data = new InventionProdData();
@@ -147,6 +153,32 @@ public class InventionGainAlgorithm {
 
 			data.cycleAvgProd = data.inventedRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
 			data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
+
+			data.installCost = copyInstalation
+					// invention install
+					+ bpoEIV * 0.02
+					// struct bonus
+					* (1.0 - 0.01 * inventStruct.cost)
+					// taxes
+					* (1.0 + 0.01 * params.inventIndex) * (1.0 + 0.01 * params.inventTax)
+					// manufacturing install
+					+ bpcEIV
+					// struct bonus
+					* (1.0 - 0.01 * manufStruct.cost) * 0.01 * params.manufactureIndex * (1.0 + 0.01 * params.manufactureTax)
+					* data.inventedRuns;
+
+			bpo.copying.materials.stream()
+			.forEach(m -> data.requirements.put(m.name,
+					(m.quantity == 1 ? 1.0 : m.quantity * copyME) + data.requirements.getOrDefault(m.name, 0.0)));
+
+			bpo.invention.materials.stream().forEach(m -> data.requirements.put(m.name,
+					(m.quantity == 1 ? 1.0 : m.quantity) + data.requirements.getOrDefault(m.name, 0.0)));
+
+			bpc.manufacturing.materials.stream()
+			.forEach(m -> data.requirements.put(m.name,
+							(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * inventedME) * m.quantity * data.inventedRuns
+									* data.inventionProbability
+					+ data.requirements.getOrDefault(m.name, 0.0)));
 
 			for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
 				// otherwise compiler complains "must be final or effectively final"

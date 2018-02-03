@@ -781,4 +781,17 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
+	public void addShop(Map<String, Integer> items) {
+		for (Entry<String, Integer> e : items.entrySet()) {
+			settings.shopList.put(e.getKey(), settings.shopList.getOrDefault(e.getKey(), 0) + e.getValue());
+		}
+		settings.store();
+	}
+
+	public void delShop(String key) {
+		if (settings.shopList.remove(key) != null) {
+			settings.store();
+		}
+	}
+
 }

@@ -29,7 +29,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
 
-public class InventerToolPane extends BorderPane implements EvePane {
+public class InventerPane extends BorderPane implements EvePane {
 
 	protected final Manager parent;
 
@@ -46,6 +46,7 @@ public class InventerToolPane extends BorderPane implements EvePane {
 	}
 
 	protected OptionsPane options;
+	protected DetailsPane details;
 
 	protected final TableView<InventionProdData> table = new TableView<>();
 
@@ -86,12 +87,17 @@ public class InventerToolPane extends BorderPane implements EvePane {
 
 	};
 
-	public InventerToolPane(Manager parent) {
+	public InventerPane(Manager parent) {
 		this.parent = parent;
-		options = new OptionsPane(parent);
 
+		options = new OptionsPane(parent);
 		setTop(new TitledPane("options", options));
 		options.computeBtn.setOnAction(e -> compute());
+
+		details = new DetailsPane(parent);
+		setBottom(new TitledPane("details", details));
+
+		table.getSelectionModel().selectedItemProperty().addListener((o1, o2, o3) -> details.setInvention(o3));
 
 		TableColumn<InventionProdData, String> prodCol = new TableColumn<>("product");
 		prodCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().productName));

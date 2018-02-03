@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.programs.manager.panes.industry;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerToolPane;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerPane;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 
@@ -29,7 +29,7 @@ public class IndustryTab extends TabPane implements EvePane {
 	}
 
 
-	InventerToolPane invPane;
+	InventerPane invPane;
 
 	public IndustryTab(Manager parent) {
 		this.parent = parent;
@@ -44,7 +44,7 @@ public class IndustryTab extends TabPane implements EvePane {
 				}
 			}
 		});
-		invPane = new InventerToolPane(parent);
+		invPane = new InventerPane(parent);
 		getTabs().addAll(new Tab("invention", invPane));
 		children = new EvePane[] { invPane };
 	}

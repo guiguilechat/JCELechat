@@ -35,7 +35,7 @@ public class TypedField<T> extends TextField {
 
 	boolean recursiveTest = false;
 
-	protected void textModifListen(Object o, String old, String now) {
+	private void textModifListen(Object o, String old, String now) {
 		if (recursiveTest) {
 			return;
 		}

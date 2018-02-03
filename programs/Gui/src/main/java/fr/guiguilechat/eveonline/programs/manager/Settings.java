@@ -75,6 +75,8 @@ public class Settings implements ISettings {
 
 	public String focusedTeam = null;
 
+	public LinkedHashMap<String, Integer> shopList = new LinkedHashMap<>();
+
 	public boolean hideDebug = true;
 
 	public static class BurnersEvalParams {

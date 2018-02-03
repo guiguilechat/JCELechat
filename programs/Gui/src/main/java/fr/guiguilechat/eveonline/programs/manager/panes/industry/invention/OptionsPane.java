@@ -14,7 +14,7 @@ import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams.TARGETDECRYPTOR;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
-import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerToolPane.StructBonus;
+import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerPane.StructBonus;
 import fr.guiguilechat.eveonline.programs.manager.representation.ChoiceBoxRepresentation;
 import fr.guiguilechat.eveonline.programs.manager.representation.PaneWithRepresentation;
 import fr.guiguilechat.eveonline.programs.manager.representation.Representation;
@@ -58,19 +58,19 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 	public ChoiceBoxRepresentation<String> marketRegion;
 
 	public TextFieldRepresentation<Double> copyTax, copyIndex;
-	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> copystruct;
+	public ChoiceBoxRepresentation<InventerPane.StructBonus> copystruct;
 
 	public TextFieldRepresentation<Double> inventTax, inventIndex;
-	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> inventstruct;
+	public ChoiceBoxRepresentation<InventerPane.StructBonus> inventstruct;
 
 	public TextFieldRepresentation<Double> manufTax, manufIndex;
-	public ChoiceBoxRepresentation<InventerToolPane.StructBonus> manufstruct;
+	public ChoiceBoxRepresentation<InventerPane.StructBonus> manufstruct;
 
 	ObservableList<EveChar> chars;
 
 	public OptionsPane(Manager parent) {
 		this.parent = parent;
-		chars = FXCollections.observableArrayList(InventerToolPane.ALL5);
+		chars = FXCollections.observableArrayList(InventerPane.ALL5);
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		}
 		InventionParams settings = parent().settings.invention;
 		characterSkills = new ChoiceBoxRepresentation<>(
-				() -> parent.streamChars().filter(c -> c.name.equals(settings.characterSkills)).findAny().orElse(InventerToolPane.ALL5),
+				() -> parent.streamChars().filter(c -> c.name.equals(settings.characterSkills)).findAny().orElse(InventerPane.ALL5),
 				c -> settings.characterSkills = c.name,
 				chars);
 		characterSkills.getBox().setConverter(new StringConverter<Account.EveChar>() {
