@@ -90,7 +90,8 @@ public class Manager extends Application implements EvePane {
 	protected TabPane tabs;
 	protected Tab statustab, provisiontab, teamtab, apitab, indusTab, missiontab;
 
-	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane, missionPane };
+	private EvePane[] children = new EvePane[] { statuspane, provisionpane, teamPane, apiPane, missionPane,
+			industryPane };
 
 	@Override
 	public EvePane[] subEvePanes() {
