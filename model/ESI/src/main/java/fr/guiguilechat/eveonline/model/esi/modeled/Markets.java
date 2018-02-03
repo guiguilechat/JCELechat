@@ -50,9 +50,6 @@ public class Markets {
 
 				R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders("all", regionID,
 						typeID, headers);
-				// for (Entry<String, List<String>> h : headers.entrySet()) {
-				// System.err.println(" " + h.getKey() + " : " + h.getValue());
-				// }
 				ArrayList<R_get_markets_region_id_orders> nbo = new ArrayList<>();
 				ArrayList<R_get_markets_region_id_orders> nso = new ArrayList<>();
 				for (R_get_markets_region_id_orders o : orders) {

@@ -69,9 +69,13 @@ public class IndustryTranslater {
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
 			if (type != null) {
-				Blueprint bp2 = makeBlueprint(e.getValue(), types);
-				bp2.name = type.enName();
-				blueprints.put(type.enName(), bp2);
+				if (type.published) {
+					Blueprint bp2 = makeBlueprint(e.getValue(), types);
+					bp2.name = type.enName();
+					blueprints.put(type.enName(), bp2);
+				} else {
+					logger.info("skipping bp for unpublished "+type.enName());
+				}
 			} else {
 				logger.warn("can't find type for blueprint id " + e.getValue().blueprintTypeID);
 			}

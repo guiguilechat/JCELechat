@@ -76,41 +76,46 @@ public class ESIRawConnection implements Swagger {
 	 */
 	public static String connect(String url, String method, Map<String, String> properties, String transmit,
 			Map<String, List<String>> headerHandler) {
-		try {
-			URL target = new URL(url);
-			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
-			con.setRequestMethod(method);
-			if (properties != null) {
-				for (Entry<String, String> e : properties.entrySet()) {
-					con.setRequestProperty(e.getKey(), e.getValue());
+		for (int retry = 10; retry > 0; retry--) {
+			try {
+				URL target = new URL(url);
+				HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
+				con.setRequestMethod(method);
+				if (properties != null) {
+					for (Entry<String, String> e : properties.entrySet()) {
+						con.setRequestProperty(e.getKey(), e.getValue());
+					}
 				}
+				con.setDoOutput(true);
+				if (transmit != null) {
+					DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+					wr.write(transmit.getBytes(StandardCharsets.UTF_8));
+					wr.flush();
+					wr.close();
+				}
+				if (headerHandler != null) {
+					headerHandler.clear();
+					headerHandler.putAll(con.getHeaderFields());
+				}
+				int responseCode = con.getResponseCode();
+				switch (responseCode) {
+				case HttpsURLConnection.HTTP_OK:
+				case HttpsURLConnection.HTTP_CREATED:
+				case HttpsURLConnection.HTTP_ACCEPTED:
+					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
+					logger.warn("500 on " + url);
+					// TODO ??
+					break;
+				default:
+					StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+					logger.warn("on url " + url + " : " + sb.toString());
+				}
+			} catch (Exception e) {
+				logger.debug("while geting " + url, e);
+				return null;
 			}
-			con.setDoOutput(true);
-			if (transmit != null) {
-				DataOutputStream wr = new DataOutputStream(con.getOutputStream());
-				wr.write(transmit.getBytes(StandardCharsets.UTF_8));
-				wr.flush();
-				wr.close();
-			}
-			if (headerHandler != null) {
-				headerHandler.putAll(con.getHeaderFields());
-			}
-			int responseCode = con.getResponseCode();
-			switch (responseCode) {
-			case HttpsURLConnection.HTTP_OK:
-			case HttpsURLConnection.HTTP_CREATED:
-			case HttpsURLConnection.HTTP_ACCEPTED:
-				return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-			case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-				// TODO ??
-				break;
-			default:
-				StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
-				new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-			}
-		} catch (Exception e) {
-			logger.debug("while geting " + url, e);
-			return null;
 		}
 		return null;
 	}
