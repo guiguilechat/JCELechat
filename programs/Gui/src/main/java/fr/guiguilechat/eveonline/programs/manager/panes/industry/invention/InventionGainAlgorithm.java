@@ -70,8 +70,7 @@ public class InventionGainAlgorithm {
 			return Collections.emptyList();
 		}
 		Material product = bpc.manufacturing.products.get(0);
-		int prodID = MetaInf.getItem(product.name).id;
-
+		int prodID = product.id;
 		StructBonus copyStruct = InventerToolPane.StructBonus.valueOf(params.copystruct);
 		StructBonus inventStruct = InventerToolPane.StructBonus.valueOf(params.inventstruct);
 		StructBonus manufStruct = InventerToolPane.StructBonus.valueOf(params.manufstruct);
@@ -82,6 +81,7 @@ public class InventionGainAlgorithm {
 				.mapToDouble(
 						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
+
 		// Estimated Item Value of the bpc. when manufacturing, used as a base for
 		// tax.
 		double bpcEIV = bpc.manufacturing == null || bpc.manufacturing.materials == null ? 0
@@ -105,6 +105,7 @@ public class InventionGainAlgorithm {
 				* (1.0 - 0.05 * skills.getOrDefault("Science", 0))
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
+
 
 		List<InventionProdData> ret = InventionDecryptor.load().values().parallelStream().map(decryptor -> {
 			InventionProdData data = new InventionProdData();
@@ -155,7 +156,7 @@ public class InventionGainAlgorithm {
 						+ bpo.copying.materials.parallelStream().mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id,
 								nbCyclesFinal * (m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME)))).sum() / nbCycles;
 
-				// estimate the ceil number off items solds, then average it back to
+				// estimate the ceil number of items solds, then average it back to
 				// the real number of items sold
 				// eg if we sell 0.1 item, the ceil is 1 but the real value is 10% of
 				// the BO of 1.
@@ -195,6 +196,7 @@ public class InventionGainAlgorithm {
 				double SOBOph = (cycleProductBO - cycleCostSO) * 3600 / Math.max(params.minActionHours * 3600,
 						Math.max(data.copyTime + data.inventionTime, data.manufacturingTime));
 				double cycleMargin = (cycleProductBO - cycleCostSO) / cycleProductBO;
+
 				if (nbCycles == 1) {
 					data.copyCostSO = copyCostSO;
 					data.cycleProductBO = cycleProductBO;

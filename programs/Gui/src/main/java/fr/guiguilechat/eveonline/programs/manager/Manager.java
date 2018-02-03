@@ -23,8 +23,14 @@ import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
+import fr.guiguilechat.eveonline.model.sde.locations.Constellation;
+import fr.guiguilechat.eveonline.model.sde.locations.Region;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.model.sde.locations.Station;
+import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
+import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
@@ -153,6 +159,17 @@ public class Manager extends Application implements EvePane {
 	}
 
 	protected void precache() {
+		new Thread(MetaInf::load).start();
+		new Thread(Blueprint::load).start();
+		new Thread(InventionDecryptor::load).start();
+		new Thread(MetaInf::load).start();
+		new Thread(Region::load).start();
+		new Thread(Constellation::load).start();
+		new Thread(SolarSystem::load).start();
+		new Thread(Station::load).start();
+		new Thread(Agent::load).start();
+		new Thread(Corporation::load).start();
+		new Thread(LPOffer::load).start();
 	}
 
 	protected void checkAPIOrSetOptionsTab() {
