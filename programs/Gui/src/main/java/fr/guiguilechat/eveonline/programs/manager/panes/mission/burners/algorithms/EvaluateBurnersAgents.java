@@ -103,23 +103,19 @@ public class EvaluateBurnersAgents {
 			return Stream.empty();
 		}
 		SystemData sysEval = systemEvaluator.evaluate(agent.system);
-		double freqHS = sysEval.freqHS;
+		double freqHS = sysEval.freqHSBurner;
 		double nbPerHour = 3600.0 / Stream.of(missions).mapToDouble(m ->
 		m.timetokill_s
 		//time to dock, repair, move items, cancel offers.
 		+60
 		// time to travel, per jump (distance). we assume 20AU per system
-		+ 2 * (m.isBurner() ? sysEval.burnerAvgDist : sysEval.constelAvgDist)
+		+ 2 * (m.isBurner() ? sysEval.burnerAvgJumps : sysEval.constelAvgJumps)
 		* (m.systemTravel(20.0) + 7 + m.align_time_s)
 		// time to make the last warp. we assume 10AU for initial warp
 		+ 2 * m.systemTravel(10.0)).sum() * missions.length;
 		double isk_static = Stream.of(missions).mapToDouble(m -> m.isk_cstt).sum() / missions.length;
 		double isk_indexed = Stream.of(missions).mapToDouble(m -> m.isk_indexed).sum() / missions.length;
 		double lp = Stream.of(missions).mapToDouble(m -> m.lp).sum() / missions.length;
-		// System.err.println("agent in " + agent.system + " average burnerjumps=" +
-		// sysEval.burnerAvgDist + " nbperhour="
-		// + nbPerHour + " isk_static=" + isk_static
-		// + " isk_indexed=" + isk_indexed + " lp=" + lp);
 		double secBonus = sysEval.bonusTrueSec;
 		List<OfferAnalysis> offers = corpEvaluator.analyseCorpOffers(agent.corporation);
 		return offers.stream().map(oa -> {

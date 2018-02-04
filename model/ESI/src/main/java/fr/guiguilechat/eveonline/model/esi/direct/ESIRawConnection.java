@@ -108,9 +108,10 @@ public class ESIRawConnection implements Swagger {
 					// TODO ??
 					break;
 				default:
-					StringBuilder sb = new StringBuilder(method).append(url).append(" ").append(responseCode);
+					StringBuilder sb = new StringBuilder("[").append(method).append(']').append(url).append(" ")
+					.append(responseCode);
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-					logger.warn("on url " + url + " : " + sb.toString());
+					logger.warn(sb.toString());
 				}
 			} catch (Exception e) {
 				logger.debug("while geting " + url, e);

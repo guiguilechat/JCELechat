@@ -36,19 +36,36 @@ public class SysBurnerEvaluator {
 	 * informations on a system
 	 */
 	protected static class SystemData {
-		public double burnerAvgDist;
-		public double constelAvgDist;
+		// average jumps to do for a burner mission
+		public double burnerAvgJumps;
+		// average jumps to go in a system in SAME constel
+		public double constelAvgJumps;
+		// multiplier of reward
 		public double bonusTrueSec;
-		public double freqHS;
+		// probability for burners to go in HS
+		public double freqHSBurner;
 	}
 
 	public static boolean constelHasMarket(SolarSystem loc) {
 		switch (loc.constellation) {
-		case "Barvigrad":
+		case "Barvigrard":
 		case "Coriault":
 		case "Kimotoro":
 		case "Ortner":
 		case "ThroneWorlds":
+			return true;
+		default:
+			return false;
+		}
+	}
+
+	public static boolean systemIsMarket(SolarSystem loc) {
+		switch (loc.name) {
+		case "Jita":
+		case "Amarr":
+		case "Dodixie":
+		case "Hek":
+		case "Rens":
 			return true;
 		default:
 			return false;
@@ -80,12 +97,13 @@ public class SysBurnerEvaluator {
 			SystemVisitor sv = new SystemVisitor(sys);
 			visitSystemsWithDistance(sys, distance, sv);
 			SystemData ret = new SystemData();
-			ret.burnerAvgDist = sv.sumWHSjumps / sv.sumWHS;
-			ret.constelAvgDist = sv.sumWHSConstJumps / sv.sumWeightHSConst;
+			ret.burnerAvgJumps = sv.sumWHSjumps / sv.sumWHS;
+			ret.constelAvgJumps = sv.sumWHSConstJumps / sv.sumWeightHSConst;
 			ret.bonusTrueSec = 1.63 - sys.truesec;
-			ret.freqHS = sv.sumWHS / sv.sumWeight;
+			ret.freqHSBurner = sv.sumWHS / sv.sumWeight;
 			logger
-			.trace("system " + sys.name + " avgdistHS" + ret.burnerAvgDist + " bonus" + ret.bonusTrueSec + " pbHigh" + ret.freqHS);
+			.trace("system " + sys.name + " avgdistHS" + ret.burnerAvgJumps + " bonus" + ret.bonusTrueSec + " pbHigh"
+					+ ret.freqHSBurner);
 			cache.put(sn, ret);
 			return ret;
 		}
@@ -93,17 +111,20 @@ public class SysBurnerEvaluator {
 
 	/**
 	 *
-	 * @param Origin
+	 * @param origin
 	 * @param maxJumps
 	 * @param sv
 	 */
-	protected void visitSystemsWithDistance(SolarSystem Origin, int maxJumps, SystemVisitor sv) {
+	protected void visitSystemsWithDistance(SolarSystem origin, int maxJumps, SystemVisitor sv) {
+		Set<String> allowedConstels = new HashSet<>();
+		allowedConstels.add(origin.constellation);
+		allowedConstels.addAll(Constellation.load().get(origin.constellation).adjacentConstellations);
 		// distance through high-sec to system
 		HashMap<SolarSystem, Integer> hsDistances = new HashMap<>();
 		// distance through non-high sec to systems
 		HashMap<SolarSystem, Integer> lnsDistances = new HashMap<>();
 		int jumps = 0;
-		HashSet<SolarSystem> nextHSLocations = new HashSet<>(Arrays.asList(Origin));
+		HashSet<SolarSystem> nextHSLocations = new HashSet<>(Arrays.asList(origin));
 		HashSet<SolarSystem> nextLNSLocations = new HashSet<>();
 		while (jumps <= maxJumps) {
 			HashSet<SolarSystem> futHSLocations = new HashSet<>();
@@ -117,7 +138,7 @@ public class SysBurnerEvaluator {
 				if (loc.isHS()) {
 					for (String adjname : loc.adjacentSystems) {
 						SolarSystem adj = SolarSystem.load().get(adjname);
-						if (adj != null) {
+						if (adj != null && allowedConstels.contains(adj.constellation)) {
 							futHSLocations.add(adj);
 						}
 					}
@@ -129,7 +150,7 @@ public class SysBurnerEvaluator {
 						lnsDistances.put(loc, jumps);
 						for (String adjname : loc.adjacentSystems) {
 							SolarSystem adj = SolarSystem.load().get(adjname);
-							if (adj != null) {
+							if (adj != null && allowedConstels.contains(adj.constellation)) {
 								futLNSLocations.add(adj);
 							}
 						}
@@ -144,7 +165,7 @@ public class SysBurnerEvaluator {
 				lnsDistances.put(loc, jumps);
 				for (String adjname : loc.adjacentSystems) {
 					SolarSystem adj = SolarSystem.load().get(adjname);
-					if (adj != null) {
+					if (adj != null && allowedConstels.contains(adj.constellation)) {
 						futLNSLocations.add(adj);
 					}
 				}
@@ -184,11 +205,11 @@ public class SysBurnerEvaluator {
 		return this;
 	}
 
-	// if constel has a hub we divide the weight by given value
-	protected double multWeightHub = 1;
+	// if constel has a hub we multiply the weight by this value
+	protected double weightMarketConstelMult = 0.1;
 
 	public SysBurnerEvaluator withMultWeightHub(double w) {
-		multWeightHub = w;
+		weightMarketConstelMult = w;
 		clearCache();
 		return this;
 	}
@@ -205,34 +226,29 @@ public class SysBurnerEvaluator {
 		}
 
 		// we make a ponderated sum of jumps in HS and HS systems.
-		public double sumWHSjumps = 0, sumWeight = 0, sumWHS, sumWHSConstJumps = 0, sumWeightHSConst = 0;
+		public double sumWHSjumps = 0, sumWeight = 0, sumWHS = 0;
+		// sum(dist * weight) for systems in same constellation
+		public double sumWHSConstJumps = 0;
+		public double sumWeightHSConst = 0;
 
 
 		public void acceptSystem(SolarSystem loc, int dst, boolean hasHSRoute) {
 			double sysWeight = 0;
-			if (!constelHasMarket(loc)) {
-				if (loc.equals(origin)) {
-					sysWeight = 1;
-					sumWeightHSConst += 1;
-				} else if (loc.constellation.equals(origin.constellation)) {
-					sysWeight = weightSameConstel;
-					sumWeightHSConst += weightSameConstel;
-					sumWHSConstJumps += weightSameConstel * dst;
+
+			if (!systemIsMarket(loc)) {
+				sysWeight = constelHasMarket(loc) ? weightMarketConstelMult : 1;
+				if (loc.constellation.equals(origin.constellation)) {
+					if (loc.equals(origin)) {
+						// same system, multiply weight by 1.
+					} else {
+						sysWeight *= weightSameConstel;
+					}
+					sumWeightHSConst += sysWeight;
+					sumWHSConstJumps += sysWeight * dst;
 				} else if (adjacentConstels.contains(loc.constellation)) {
-					sysWeight = weightAdjConstel;
-				}
-			}
-			// set weight to 0 if ignored system, eg a hub
-			if (sysWeight != 0) {
-				if (constelHasMarket(loc)) {
-					sysWeight *= multWeightHub;
-					// System.err.println("system " + loc.name + " has hub in constelation
-					// so weight is " + sysWeight);
+					sysWeight *= weightAdjConstel;
 				}
 				sumWeight += sysWeight;
-				// if the system is not in HS we count it as decreasing the probability
-				// to play the burner, and we dont consider it has increasing the avg
-				// distance
 				if (hasHSRoute) {
 					sumWHSjumps += sysWeight * dst;
 					sumWHS += sysWeight;

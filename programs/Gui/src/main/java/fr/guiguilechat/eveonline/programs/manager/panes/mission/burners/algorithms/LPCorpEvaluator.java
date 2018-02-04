@@ -156,7 +156,6 @@ public class LPCorpEvaluator {
 		List<OfferAnalysis> offers = lpos.parallelStream().map(lp -> analyse(lp, market2, corpName))
 				.filter(oa -> oa != null && oa.iskPerLPBOSO > 0)
 				.collect(Collectors.toList());
-
 		try {
 			Collections.sort(offers, (oa1, oa2) -> (int) Math.signum(oa2.iskPerLPSOBO - oa1.iskPerLPSOBO));
 		} catch (Exception e) {

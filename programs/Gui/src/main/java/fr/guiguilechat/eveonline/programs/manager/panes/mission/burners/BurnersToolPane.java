@@ -12,6 +12,7 @@ import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TitledPane;
 import javafx.scene.layout.BorderPane;
@@ -78,6 +79,7 @@ public class BurnersToolPane extends BorderPane implements EvePane {
 		TableColumn<LocalizedLPOffer, Double> soboCol = new TableColumn<>("soboph");
 		soboCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().sobogain));
 		soboCol.setCellFactory(col -> new PriceCellFactory());
+		soboCol.setSortType(SortType.DESCENDING);
 		table.getColumns().add(soboCol);
 
 		TableColumn<LocalizedLPOffer, Double> avgcol = new TableColumn<>("avg");
@@ -85,6 +87,8 @@ public class BurnersToolPane extends BorderPane implements EvePane {
 		avgcol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(avgcol);
 
+		table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+		table.getSortOrder().add(soboCol);
 		setCenter(table);
 
 		eval = new EvaluateBurnersAgents();
@@ -180,7 +184,7 @@ public class BurnersToolPane extends BorderPane implements EvePane {
 			@Override
 			protected Void call() throws Exception {
 				ObservableList<LocalizedLPOffer> list = FXCollections.observableArrayList();
-				eval.streamOffers().forEachOrdered(list::add);
+				eval.streamOffers().filter(lpo -> !Double.isNaN(lpo.sobogain)).forEachOrdered(list::add);
 				Platform.runLater(() -> {
 					table.getItems().addAll(list);
 					table.sort();
