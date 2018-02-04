@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
+import fr.guiguilechat.eveonline.programs.manager.Settings.JobActivity;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
@@ -11,6 +12,7 @@ import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.Inven
 import javafx.animation.PauseTransition;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TitledPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -100,9 +102,19 @@ public class DetailsPane extends VBox implements EvePane {
 						e.getValue()));
 			}
 			parent.addShop(shoplist);
+			parent.addJob(data.bpoName, JobActivity.invent, data.decryptor, nbcycles.getValue());
+			parent.addJob(data.bpiName, JobActivity.manufacture, data.bpiME + "/" + data.bpiTE,
+					(int) Math.floor(data.cycleAvgProd * nbcycles.getValue()));
 			nbcycles.setValue(0);
+			detailsTP.setExpanded(false);
 		}
 
+	}
+
+	private TitledPane detailsTP = null;
+
+	public void setTitledPane(TitledPane detailstp) {
+		detailsTP = detailstp;
 	}
 
 }

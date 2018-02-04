@@ -95,9 +95,15 @@ public class InventerPane extends BorderPane implements EvePane {
 		options.computeBtn.setOnAction(e -> compute());
 
 		details = new DetailsPane(parent);
-		setBottom(new TitledPane("details", details));
+		TitledPane detailstp = new TitledPane("details", details);
+		details.setTitledPane(detailstp);
+		detailstp.setExpanded(false);
+		setBottom(detailstp);
 
-		table.getSelectionModel().selectedItemProperty().addListener((o1, o2, o3) -> details.setInvention(o3));
+		table.getSelectionModel().selectedItemProperty().addListener((o1, o2, o3) -> {
+			detailstp.setExpanded(o3 != null);
+			details.setInvention(o3);
+		});
 
 		TableColumn<InventionProdData, String> prodCol = new TableColumn<>("product");
 		prodCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().productName));

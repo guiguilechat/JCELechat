@@ -7,6 +7,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -14,20 +15,28 @@ import java.util.stream.Stream;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.model.apiv2.Char;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
+import fr.guiguilechat.eveonline.model.apiv2.Char;
 import fr.guiguilechat.eveonline.model.apiv2.Char.JobEntry;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
+import fr.guiguilechat.eveonline.programs.manager.Settings.ScheduledJob;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
-import fr.guiguilechat.eveonline.programs.manager.panes.status.JobPane.JobData;
+import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
+import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
+import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableRow;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TitledPane;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.util.Duration;
 
-public class JobPane extends TableView<JobData> implements EvePane {
+public class JobPane extends BorderPane implements EvePane {
 
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(JobPane.class);
 
@@ -67,6 +76,10 @@ public class JobPane extends TableView<JobData> implements EvePane {
 
 	protected final Manager parent;
 
+	protected TableView<JobData> table = new TableView<>();
+
+	protected GridPane schedule = new GridPane();
+
 	@Override
 	public Manager parent() {
 		return parent;
@@ -74,6 +87,8 @@ public class JobPane extends TableView<JobData> implements EvePane {
 
 	public JobPane(Manager parent) {
 		this.parent = parent;
+		setTop(new TitledPane("scheduled", schedule));
+		setCenter(table);
 		TableColumn<JobData, Date> dateCol = new TableColumn<>("date");
 		dateCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().time));
 		DateFormat df = new SimpleDateFormat("dd/MM HH:mm:ss");
@@ -91,28 +106,28 @@ public class JobPane extends TableView<JobData> implements EvePane {
 		dateCol.setMinWidth(120);
 		dateCol.setSortable(true);
 		dateCol.setSortType(SortType.ASCENDING);
-		getColumns().add(dateCol);
+		table.getColumns().add(dateCol);
 
 		TableColumn<JobData, String> typeCol = new TableColumn<>("type");
 		typeCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().type));
-		getColumns().add(typeCol);
+		table.getColumns().add(typeCol);
 
 		TableColumn<JobData, String> desCol = new TableColumn<>("description");
 		desCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().description));
 		desCol.setMinWidth(400);
-		getColumns().add(desCol);
+		table.getColumns().add(desCol);
 
 		TableColumn<JobData, String> whereCol = new TableColumn<>("where");
 		whereCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().where));
-		getColumns().add(whereCol);
+		table.getColumns().add(whereCol);
 
 		TableColumn<JobData, String> whoCol = new TableColumn<>("who");
 		whoCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().who));
-		getColumns().add(whoCol);
+		table.getColumns().add(whoCol);
 
-		getSortOrder().add(dateCol);
+		table.getSortOrder().add(dateCol);
 
-		setRowFactory(tv -> new TableRow<JobData>() {
+		table.setRowFactory(tv -> new TableRow<JobData>() {
 			@Override
 			public void updateItem(JobData item, boolean empty) {
 				super.updateItem(item, empty);
@@ -131,7 +146,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			return;
 		}
 		Stream.of(apis).parallel().flatMap(api -> api.account.characters().parallelStream()).forEach(this::addCharJobs);
-		sort();
+		table.sort();
 	}
 
 	/**
@@ -148,7 +163,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 			ed.who = e.installerName;
 			ed.id = e.jobID;
 			synchronized (this) {
-				getItems().add(ed);
+				table.getItems().add(ed);
 			}
 		}
 	}
@@ -199,7 +214,7 @@ public class JobPane extends TableView<JobData> implements EvePane {
 		}
 		Set<String> charNames = api.account.characters().stream().map(c -> c.name).collect(Collectors.toSet());
 		synchronized (this) {
-			getItems().removeIf(ev -> charNames.contains(ev.who));
+			table.getItems().removeIf(ev -> charNames.contains(ev.who));
 		}
 	}
 
@@ -207,9 +222,38 @@ public class JobPane extends TableView<JobData> implements EvePane {
 	 * request to fetch all jobs. Already cached jobs are still used if possible
 	 */
 	public void update() {
-		getItems().clear();
+		schedule.getChildren().clear();
+		int row = 0;
+		for (Entry<ScheduledJob, Integer> e : parent.settings.scheduled.entrySet()) {
+			Label ltype = new Label(e.getKey().activity.name());
+			TypedField<Integer> nbcycles = TypedField.positivIntField(e.getValue());
+			nbcycles.setMaxWidth(50);
+			nbcycles.setOnScroll(new ScrollAdd.IntScrollAdd(1, nbcycles));
+			PauseTransition pause = new PauseTransition(Duration.seconds(1));
+			nbcycles.textProperty().addListener((observable, oldValue, newValue) -> {
+				pause.setOnFinished(event -> updateScheduled(e.getKey(), nbcycles.getValue()));
+				pause.playFromStart();
+			});
+			Label lbp = new Label(e.getKey().bp);
+			Label ldetails = new Label(e.getKey().details);
+
+			schedule.addRow(row, ltype, nbcycles, lbp, ldetails);
+			row++;
+		}
+		table.getItems().clear();
 		parent().streamChars().parallel().forEach(this::addCharJobs);
-		sort();
+		table.sort();
+	}
+
+	private void updateScheduled(ScheduledJob key, Integer integer) {
+		System.err.println("scheduled " + key + " updated to " + integer + "runs");
+		if (integer == 0) {
+			parent.settings.scheduled.remove(key);
+		} else {
+			parent.settings.scheduled.put(key, integer);
+		}
+		parent.settings.store();
+		update();
 	}
 
 	/**

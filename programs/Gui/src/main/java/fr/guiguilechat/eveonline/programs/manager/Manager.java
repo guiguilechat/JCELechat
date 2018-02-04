@@ -33,7 +33,9 @@ import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
+import fr.guiguilechat.eveonline.programs.manager.Settings.JobActivity;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
+import fr.guiguilechat.eveonline.programs.manager.Settings.ScheduledJob;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -792,6 +794,11 @@ public class Manager extends Application implements EvePane {
 		if (settings.shopList.remove(key) != null) {
 			settings.store();
 		}
+	}
+
+	public void addJob(String bp, JobActivity activity, String details, int nbRuns) {
+		ScheduledJob sj = new ScheduledJob(bp, activity, details);
+		settings.scheduled.put(sj, settings.scheduled.getOrDefault(sj, 0) + nbRuns);
 	}
 
 }

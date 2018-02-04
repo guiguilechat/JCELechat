@@ -77,6 +77,39 @@ public class Settings implements ISettings {
 
 	public LinkedHashMap<String, Integer> shopList = new LinkedHashMap<>();
 
+	public static enum JobActivity {
+		copy, invent, manufacture, te, me;
+	}
+
+	public static class ScheduledJob {
+		public String bp;
+		public JobActivity activity;
+		/** for invention run, "$decryptor" ; for manufacture, BP "$ME/$TE" */
+		public String details;
+
+		public ScheduledJob() {
+		}
+
+		public ScheduledJob(String bp, JobActivity activity, String details) {
+			this.bp = bp;
+			this.activity = activity;
+			this.details = details;
+		}
+
+		@Override
+		public int hashCode() {
+			return bp.hashCode() + details.hashCode() * activity.ordinal();
+		}
+
+		@Override
+		public boolean equals(Object obj) {
+			return obj == this || obj != null && obj.getClass() == this.getClass() && ((ScheduledJob) obj).bp.equals(bp)
+					&& ((ScheduledJob) obj).activity.equals(activity) && ((ScheduledJob) obj).details.equals(details);
+		}
+	}
+
+	public LinkedHashMap<ScheduledJob, Integer> scheduled = new LinkedHashMap<>();
+
 	public boolean hideDebug = true;
 
 	public static class BurnersEvalParams {

@@ -33,16 +33,23 @@ public class InventionGainAlgorithm {
 	 */
 	public static class InventionProdData {
 		public String bpoName;
+		public String bpiName;
 		public String productName;
 		public String decryptor;
-		public double copyCostSO;
+
 		public long copyTime;
-		public double inventionCostSO;
 		public long inventionTime;
-		public int inventedRuns;
-		public double inventionProbability;
-		public double manufacturingCostSO;
 		public long manufacturingTime;
+
+		public int bpiRuns;
+		public int bpiME;
+		public int bpiTE;
+
+		public double inventionProbability;
+		public double inventionCostSO;
+		public double copyCostSO;
+		public double manufacturingCostSO;
+
 		public double cycleProductBO;
 		/**
 		 * average number of items we product with one line of
@@ -116,13 +123,14 @@ public class InventionGainAlgorithm {
 		List<InventionProdData> ret = InventionDecryptor.load().values().parallelStream().map(decryptor -> {
 			InventionProdData data = new InventionProdData();
 			data.bpoName = bpo.name;
+			data.bpiName = selectedbpc.name;
 			data.productName = product.name;
 			data.copyTime = copyTime;
 
 			data.decryptor = decryptor.name;
-			data.inventedRuns = selectedbpc.quantity + decryptor.maxrun;
-			int inventedME = 2 + decryptor.me;
-			int inventedTE = 4 + decryptor.te;
+			data.bpiRuns = selectedbpc.quantity + decryptor.maxrun;
+			data.bpiME = 2 + decryptor.me;
+			data.bpiTE = 4 + decryptor.te;
 			int engSkills = bpo.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
 					.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
 			int encSkill = bpo.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
@@ -140,8 +148,8 @@ public class InventionGainAlgorithm {
 					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
 			// get the avg time to produce the items during a cycle.
-			data.manufacturingTime = (long) (data.inventionProbability * data.inventedRuns * bpc.manufacturing.time
-					* (1.0 - 0.01 * inventedTE)
+			data.manufacturingTime = (long) (data.inventionProbability * data.bpiRuns * bpc.manufacturing.time
+					* (1.0 - 0.01 * data.bpiTE)
 					// struct bonus
 					* (1.0 - 0.01 * manufStruct.te) * (1.0 - 0.04 * skills.getOrDefault("Industry", 0))
 					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
@@ -151,7 +159,7 @@ public class InventionGainAlgorithm {
 				}
 			}
 
-			data.cycleAvgProd = data.inventedRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
+			data.cycleAvgProd = data.bpiRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
 			data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
 
 			data.installCost = copyInstalation
@@ -165,7 +173,7 @@ public class InventionGainAlgorithm {
 					+ bpcEIV
 					// struct bonus
 					* (1.0 - 0.01 * manufStruct.cost) * 0.01 * params.manufactureIndex * (1.0 + 0.01 * params.manufactureTax)
-					* data.inventedRuns;
+					* data.bpiRuns;
 
 			bpo.copying.materials.stream()
 			.forEach(m -> data.requirements.put(m.name,
@@ -176,8 +184,8 @@ public class InventionGainAlgorithm {
 
 			bpc.manufacturing.materials.stream()
 			.forEach(m -> data.requirements.put(m.name,
-							(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * inventedME) * m.quantity * data.inventedRuns
-									* data.inventionProbability
+							(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * data.bpiME) * m.quantity * data.bpiRuns
+					* data.inventionProbability
 					+ data.requirements.getOrDefault(m.name, 0.0)));
 
 			for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
@@ -215,12 +223,12 @@ public class InventionGainAlgorithm {
 				double manufInstall = bpcEIV
 						// struct bonus
 						* (1.0 - 0.01 * manufStruct.cost) * 0.01 * params.manufactureIndex * (1.0 + 0.01 * params.manufactureTax)
-						* data.inventedRuns;
+						* data.bpiRuns;
 				double manufacturingCostSO = manufInstall
 						// material cost
 						+ bpc.manufacturing.materials.parallelStream().mapToDouble(m -> {
-							double bpcQtty = m.quantity * data.inventedRuns * nbCyclesFinal;
-							int qttyBO = (int) Math.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * inventedME) * bpcQtty);
+							double bpcQtty = m.quantity * data.bpiRuns * nbCyclesFinal;
+							int qttyBO = (int) Math.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * data.bpiME) * bpcQtty);
 							return market.getSO(MetaInf.getItem(m.name).id, qttyBO) * bpcQtty / qttyBO / nbCyclesFinal;
 						}).sum();
 
