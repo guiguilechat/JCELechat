@@ -225,14 +225,14 @@ public class Settings implements ISettings {
 		public String marketRegion = "TheForge";
 		public String characterSkills = null;
 		public TARGETDECRYPTOR target = TARGETDECRYPTOR.SOBO;
-		public double copyIndex = 4;
 		public double copyTax = 0;
-		public double inventIndex = 4;
 		public double inventTax = 0;
-		public double manufactureIndex = 4;
 		public double manufactureTax = 0;
 		public double sellTax = 1;
 		public double brokerFee = 2;
+		public String copyRegion, copySystem;
+		public String inventRegion, inventSystem;
+		public String manufRegion, manufSystem;
 		public String copystruct, inventstruct, manufstruct;
 		/**
 		 * reduction over the gain in a cycle we accept to calculate the number of
@@ -257,14 +257,6 @@ public class Settings implements ISettings {
 			this.characterSkills = characterSkills;
 		}
 
-		public double getCopyIndex() {
-			return copyIndex;
-		}
-
-		public void setCopyIndex(double copyIndex) {
-			this.copyIndex = copyIndex;
-		}
-
 		public double getCopyTax() {
 			return copyTax;
 		}
@@ -273,28 +265,12 @@ public class Settings implements ISettings {
 			this.copyTax = copyTax;
 		}
 
-		public double getInventIndex() {
-			return inventIndex;
-		}
-
-		public void setInventIndex(double inventIndex) {
-			this.inventIndex = inventIndex;
-		}
-
 		public double getInventTax() {
 			return inventTax;
 		}
 
 		public void setInventTax(double inventTax) {
 			this.inventTax = inventTax;
-		}
-
-		public double getManufactureIndex() {
-			return manufactureIndex;
-		}
-
-		public void setManufactureIndex(double manufactureIndex) {
-			this.manufactureIndex = manufactureIndex;
 		}
 
 		public double getManufactureTax() {
@@ -367,6 +343,54 @@ public class Settings implements ISettings {
 
 		public void setTarget(TARGETDECRYPTOR target) {
 			this.target = target;
+		}
+
+		public String getCopyRegion() {
+			return copyRegion;
+		}
+
+		public void setCopyRegion(String copyRegion) {
+			this.copyRegion = copyRegion;
+		}
+
+		public String getCopySystem() {
+			return copySystem;
+		}
+
+		public void setCopySystem(String copySystem) {
+			this.copySystem = copySystem;
+		}
+
+		public String getInventRegion() {
+			return inventRegion;
+		}
+
+		public void setInventRegion(String inventRegion) {
+			this.inventRegion = inventRegion;
+		}
+
+		public String getInventSystem() {
+			return inventSystem;
+		}
+
+		public void setInventSystem(String inventSystem) {
+			this.inventSystem = inventSystem;
+		}
+
+		public String getManufRegion() {
+			return manufRegion;
+		}
+
+		public void setManufRegion(String manufRegion) {
+			this.manufRegion = manufRegion;
+		}
+
+		public String getManufSystem() {
+			return manufSystem;
+		}
+
+		public void setManufSystem(String manufSystem) {
+			this.manufSystem = manufSystem;
 		}
 	}
 

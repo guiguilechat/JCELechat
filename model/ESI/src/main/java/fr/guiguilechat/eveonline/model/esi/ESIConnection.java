@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.esi;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Character;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
+import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Names;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
@@ -22,6 +23,7 @@ public class ESIConnection {
 		corporation = new Corporation(this);
 		names = new Names(raw);
 		markets = new Markets(this);
+		industry = new Industry(raw);
 	}
 
 	public ESIConnection(String refresh, String base) {
@@ -41,6 +43,8 @@ public class ESIConnection {
 	public final Names names;
 
 	public final Markets markets;
+
+	public final Industry industry;
 
 	public long characterId() {
 		return verify.characterID();

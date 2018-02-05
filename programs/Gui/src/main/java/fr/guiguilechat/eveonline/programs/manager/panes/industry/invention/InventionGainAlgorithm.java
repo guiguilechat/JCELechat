@@ -15,6 +15,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
+import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.programs.manager.Settings.InventionParams;
 import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventerPane.StructBonus;
 
@@ -78,6 +79,17 @@ public class InventionGainAlgorithm {
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
 	public static List<InventionProdData> evalCostInventionProd(Blueprint bpo, Material selectedbpc,
 			Map<String, Integer> skills, InventionParams params, RegionalMarket market) {
+
+		SolarSystem copySys = params.copySystem == null ? null : SolarSystem.load().get(params.copySystem);
+		float copyIndex = copySys == null ? 0 : ESIConnection.DISCONNECTED.industry.getSystemIndices(copySys.id).copying;
+
+		SolarSystem inventSys = params.inventSystem == null ? null : SolarSystem.load().get(params.inventSystem);
+		float inventIndex = inventSys == null ? 0
+				: ESIConnection.DISCONNECTED.industry.getSystemIndices(inventSys.id).copying;
+
+		SolarSystem manufSys = params.manufSystem == null ? null : SolarSystem.load().get(params.manufSystem);
+		float manufIndex = manufSys == null ? 0 : ESIConnection.DISCONNECTED.industry.getSystemIndices(manufSys.id).copying;
+
 		// the bpc selected
 		Blueprint bpc = Blueprint.load().get(selectedbpc.name);
 		if (!haveReqSkills(skills, bpc.manufacturing.skills)) {
@@ -108,7 +120,7 @@ public class InventionGainAlgorithm {
 
 		// copycost=eiv*nb_runs*runspercopy*0.02*(100+copyindex)/100*(100+stationtax)/100
 		// since we run for ONE invention job, we copy on bpc with one run.
-		double copyInstalation = bpoEIV * 0.02 * (1.0 + 0.01 * params.copyIndex) * (1.0 + 0.01 * params.copyTax)
+		double copyInstalation = bpoEIV * 0.02 * (1.0 + 0.01 * copyIndex) * (1.0 + 0.01 * params.copyTax)
 				* (1.0 - 0.01 * copyStruct.cost);
 		double copyME = 1.0 - 0.01 * copyStruct.me;
 
@@ -168,15 +180,14 @@ public class InventionGainAlgorithm {
 					// struct bonus
 					* (1.0 - 0.01 * inventStruct.cost)
 					// taxes
-					* (1.0 + 0.01 * params.inventIndex) * (1.0 + 0.01 * params.inventTax)
+					* (1.0 + 0.01 * inventIndex) * (1.0 + 0.01 * params.inventTax)
 					// manufacturing install
 					+ bpcEIV
 					// struct bonus
-					* (1.0 - 0.01 * manufStruct.cost) * 0.01 * params.manufactureIndex * (1.0 + 0.01 * params.manufactureTax)
+					* (1.0 - 0.01 * manufStruct.cost) * 0.01 * manufIndex * (1.0 + 0.01 * params.manufactureTax)
 					* data.bpiRuns;
 
-			bpo.copying.materials.stream()
-			.forEach(m -> data.requirements.put(m.name,
+			bpo.copying.materials.stream().forEach(m -> data.requirements.put(m.name,
 					(m.quantity == 1 ? 1.0 : m.quantity * copyME) + data.requirements.getOrDefault(m.name, 0.0)));
 
 			bpo.invention.materials.stream().forEach(m -> data.requirements.put(m.name,
@@ -184,8 +195,7 @@ public class InventionGainAlgorithm {
 
 			bpc.manufacturing.materials.stream()
 			.forEach(m -> data.requirements.put(m.name,
-							(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * data.bpiME) * m.quantity * data.bpiRuns
-					* data.inventionProbability
+					(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * data.bpiME) * m.quantity * data.bpiRuns * data.inventionProbability
 					+ data.requirements.getOrDefault(m.name, 0.0)));
 
 			for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
@@ -209,7 +219,7 @@ public class InventionGainAlgorithm {
 						// struct bonus
 						* (1.0 - 0.01 * inventStruct.cost)
 						// taxes
-						* (1.0 + 0.01 * params.inventIndex) * (1.0 + 0.01 * params.inventTax);
+						* (1.0 + 0.01 * inventIndex) * (1.0 + 0.01 * params.inventTax);
 				// if we buy all items at SO : no tax, no broker
 				double inventionCostSO = inventionInstall
 						// add the required materials cost
@@ -222,7 +232,7 @@ public class InventionGainAlgorithm {
 				// we compute the production cost of one invented bpc.
 				double manufInstall = bpcEIV
 						// struct bonus
-						* (1.0 - 0.01 * manufStruct.cost) * 0.01 * params.manufactureIndex * (1.0 + 0.01 * params.manufactureTax)
+						* (1.0 - 0.01 * manufStruct.cost) * 0.01 * manufIndex * (1.0 + 0.01 * params.manufactureTax)
 						* data.bpiRuns;
 				double manufacturingCostSO = manufInstall
 						// material cost

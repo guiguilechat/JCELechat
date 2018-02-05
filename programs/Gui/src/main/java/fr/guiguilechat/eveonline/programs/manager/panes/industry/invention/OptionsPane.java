@@ -2,7 +2,10 @@ package fr.guiguilechat.eveonline.programs.manager.panes.industry.invention;
 
 import java.util.Arrays;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
@@ -57,13 +60,19 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 	public TextFieldRepresentation<Double> sellTax, brokerFee;
 	public ChoiceBoxRepresentation<String> marketRegion;
 
-	public TextFieldRepresentation<Double> copyTax, copyIndex;
+	public TextFieldRepresentation<Double> copyTax;
+	public ChoiceBoxRepresentation<String> copyRegion;
+	public ChoiceBoxRepresentation<String> copySystem;
 	public ChoiceBoxRepresentation<InventerPane.StructBonus> copystruct;
 
-	public TextFieldRepresentation<Double> inventTax, inventIndex;
+	public TextFieldRepresentation<Double> inventTax;
+	public ChoiceBoxRepresentation<String> inventRegion;
+	public ChoiceBoxRepresentation<String> inventSystem;
 	public ChoiceBoxRepresentation<InventerPane.StructBonus> inventstruct;
 
-	public TextFieldRepresentation<Double> manufTax, manufIndex;
+	public TextFieldRepresentation<Double> manufTax;
+	public ChoiceBoxRepresentation<String> manufRegion;
+	public ChoiceBoxRepresentation<String> manufSystem;
 	public ChoiceBoxRepresentation<InventerPane.StructBonus> manufstruct;
 
 	ObservableList<EveChar> chars;
@@ -138,9 +147,8 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		copyTax.getField().setTooltip(new Tooltip("station tax on copying"));
 		copyTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyTax.getField()));
 
-		copyIndex = TextFieldRepresentation.positivDecimal(settings::getCopyIndex, settings::setCopyIndex);
-		copyIndex.getField().setTooltip(new Tooltip("system copying index"));
-		copyIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, copyIndex.getField()));
+		copySystem = makeSystemSelection(settings::getCopySystem, settings::setCopySystem, settings::getCopyRegion);
+		copyRegion = makeRegionSelection(settings::getCopyRegion, settings::setCopyRegion, copySystem.getBox().getItems());
 
 		copystruct = new ChoiceBoxRepresentation<>(
 				() -> (settings.copystruct == null ? StructBonus.none : StructBonus.valueOf(settings.copystruct)),
@@ -151,9 +159,9 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		inventTax.getField().setTooltip(new Tooltip("station tax on invention"));
 		inventTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventTax.getField()));
 
-		inventIndex = TextFieldRepresentation.positivDecimal(settings::getInventIndex, settings::setInventIndex);
-		inventIndex.getField().setTooltip(new Tooltip("system invention index"));
-		inventIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, inventIndex.getField()));
+		inventSystem = makeSystemSelection(settings::getInventSystem, settings::setInventSystem, settings::getInventRegion);
+		inventRegion = makeRegionSelection(settings::getInventRegion, settings::setInventRegion,
+				inventSystem.getBox().getItems());
 
 		inventstruct = new ChoiceBoxRepresentation<>(
 				() -> (settings.inventstruct == null ? StructBonus.none : StructBonus.valueOf(settings.inventstruct)),
@@ -163,16 +171,16 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		manufTax.getField().setTooltip(new Tooltip("station tax on manufacture"));
 		manufTax.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufTax.getField()));
 
-		manufIndex = TextFieldRepresentation.positivDecimal(settings::getManufactureIndex, settings::setManufactureIndex);
-		manufIndex.getField().setTooltip(new Tooltip("system manufacturing index"));
-		manufIndex.getField().setOnScroll(new ScrollAdd.DoubleScrollAdd(0.1, manufIndex.getField()));
+		manufSystem = makeSystemSelection(settings::getManufSystem, settings::setManufSystem, settings::getManufRegion);
+		manufRegion = makeRegionSelection(settings::getManufRegion, settings::setManufRegion,
+				manufSystem.getBox().getItems());
 
 		manufstruct = new ChoiceBoxRepresentation<>(
 				() -> (settings.manufstruct == null ? StructBonus.none : StructBonus.valueOf(settings.manufstruct)),
 				sb -> settings.setManufstruct(sb.name()), StructBonus.values());
 
-		representations = Arrays.asList(brokerFee, characterSkills, copyIndex, copystruct, copyTax, inventIndex,
-				inventstruct, inventTax, manufIndex, manufstruct, manufTax,
+		representations = Arrays.asList(brokerFee, characterSkills, copySystem, copyRegion, copystruct, copyTax,
+				inventSystem, inventRegion, inventstruct, inventTax, manufSystem, manufRegion, manufstruct, manufTax,
 				marketRegion, maxCycleReduction, minHours, sellTax, bestDecryptor);
 		for (Representation<?> r : representations) {
 			r.getRegion().setMaxWidth(70);
@@ -200,22 +208,25 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 		copyPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 		copyPane.addRow(0, new Label("copying"));
 		copyPane.addRow(1, new Label("tax %"), copyTax.getField());
-		copyPane.addRow(2, new Label("sys index"), copyIndex.getField());
-		copyPane.addRow(3, new Label("struct"), copystruct.getBox());
+		copyPane.addRow(2, new Label("struct"), copystruct.getBox());
+		copyPane.addRow(3, new Label("region"), copyRegion.getBox());
+		copyPane.addRow(4, new Label("system"), copySystem.getBox());
 
 		GridPane inventPane = new GridPane();
 		inventPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 		inventPane.addRow(0, new Label("invent"));
 		inventPane.addRow(1, new Label("tax %"), inventTax.getField());
-		inventPane.addRow(2, new Label("sys index"), inventIndex.getField());
-		inventPane.addRow(3, new Label("struct"), inventstruct.getBox());
+		inventPane.addRow(2, new Label("struct"), inventstruct.getBox());
+		inventPane.addRow(3, new Label("region"), inventRegion.getBox());
+		inventPane.addRow(4, new Label("system"), inventSystem.getBox());
 
 		GridPane manufPane = new GridPane();
 		manufPane.setStyle("-fx-border-color: black; -fx-border-width: 1;");
 		manufPane.addRow(0, new Label("manuf"));
 		manufPane.addRow(1, new Label("tax %"), manufTax.getField());
-		manufPane.addRow(2, new Label("sys index"), manufIndex.getField());
-		manufPane.addRow(3, new Label("struct"), manufstruct.getBox());
+		manufPane.addRow(2, new Label("struct"), manufstruct.getBox());
+		manufPane.addRow(3, new Label("region"), manufRegion.getBox());
+		manufPane.addRow(4, new Label("system"), manufSystem.getBox());
 
 		getChildren().addAll(mainpane, importPane, copyPane, inventPane, manufPane);
 		loaded = true;
@@ -230,6 +241,30 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 				}
 			}
 		}
+	}
+
+	public static ChoiceBoxRepresentation<String> makeSystemSelection(Supplier<String> getter, Consumer<String> setter,
+			Supplier<String> region) {
+		return new ChoiceBoxRepresentation<>(getter, setter,
+				region.get() != null ? Region.load().get(region.get()).system().collect(Collectors.toList())
+						: Collections.emptyList());
+	}
+
+	public static ChoiceBoxRepresentation<String> makeRegionSelection(Supplier<String> getter, Consumer<String> setter,
+			ObservableList<String> systems) {
+		ChoiceBoxRepresentation<String> copyRegion = new ChoiceBoxRepresentation<>(getter, setter, Region.load().keySet());
+		copyRegion.getBox().setTooltip(new Tooltip("region where we place the copy jobs"));
+		copyRegion.getBox().valueProperty().addListener((ob, old, now) -> {
+			Region nowR = null;
+			if (now != null) {
+				nowR = Region.load().get(now);
+			}
+			systems.clear();
+			if (nowR != null) {
+				nowR.system().forEach(systems::add);
+			}
+		});
+		return copyRegion;
 	}
 
 }
