@@ -246,7 +246,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 	public static ChoiceBoxRepresentation<String> makeSystemSelection(Supplier<String> getter, Consumer<String> setter,
 			Supplier<String> region) {
 		return new ChoiceBoxRepresentation<>(getter, setter,
-				region.get() != null ? Region.load().get(region.get()).system().collect(Collectors.toList())
+				region.get() != null ? Region.load().get(region.get()).system().sorted().collect(Collectors.toList())
 						: Collections.emptyList());
 	}
 
@@ -263,6 +263,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 			if (nowR != null) {
 				nowR.system().forEach(systems::add);
 			}
+			Collections.sort(systems);
 		});
 		return copyRegion;
 	}

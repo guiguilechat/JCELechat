@@ -44,14 +44,19 @@ public class Industry {
 					switch (t.activity) {
 					case "copying":
 						indices.copying = t.cost_index;
+						break;
 					case "invention":
 						indices.invention = t.cost_index;
+						break;
 					case "manufacturing":
 						indices.manufacturing = t.cost_index;
+						break;
 					case "reaction":
 						indices.reaction = t.cost_index;
+						break;
 					case "researching_material_efficiency":
 						indices.researching_material_efficiency = t.cost_index;
+						break;
 					case "researching_time_efficiency":
 						indices.researching_time_efficiency = t.cost_index;
 						break;
@@ -63,9 +68,9 @@ public class Industry {
 			}
 			systemIndicesCacheEnd = System.currentTimeMillis()
 					+ 1000
-							* ZonedDateTime.parse(headers.get("Expires").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond()
+					* ZonedDateTime.parse(headers.get("Expires").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond()
 					- 1000
-							* ZonedDateTime.parse(headers.get("Date").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond();
+					* ZonedDateTime.parse(headers.get("Date").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond();
 		}
 	}
 

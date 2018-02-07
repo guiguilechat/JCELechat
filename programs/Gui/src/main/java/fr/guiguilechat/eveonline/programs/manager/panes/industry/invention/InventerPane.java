@@ -228,6 +228,7 @@ public class InventerPane extends BorderPane implements EvePane {
 
 	public static enum StructBonus {
 		none(0, 0, 0), raitaru(15, 1, 3), azbel(20, 1, 4), sotiyo(30, 1, 5);
+
 		public final double me, te, cost;
 
 		private StructBonus(double te, double me, double cost) {

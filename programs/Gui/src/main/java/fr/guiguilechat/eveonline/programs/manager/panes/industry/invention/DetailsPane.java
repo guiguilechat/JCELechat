@@ -37,6 +37,8 @@ public class DetailsPane extends VBox implements EvePane {
 	private Label name = new Label();
 	private TypedField<Integer> nbcycles = TypedField.positivIntField(1);
 	private GridPane requirements = new GridPane();
+	private GridPane costs = new GridPane();
+	private GridPane bpi = new GridPane();
 	private Button addbtn = new Button("add");
 
 	InventionProdData data = null;
@@ -60,7 +62,12 @@ public class DetailsPane extends VBox implements EvePane {
 
 		getChildren().add(new Label("required"));
 
-		getChildren().add(requirements);
+		requirements.setHgap(4);
+		costs.setHgap(4);
+		bpi.setHgap(4);
+		HBox details = new HBox(requirements, costs, bpi);
+		details.setSpacing(15);
+		getChildren().add(details);
 	}
 
 	protected void setInvention(InventionProdData ipd) {
@@ -72,6 +79,8 @@ public class DetailsPane extends VBox implements EvePane {
 			nbcycles.setValue(1);
 		}
 		updateRequirements();
+		updateCosts();
+		updatebpi();
 	}
 
 	protected void updateRequirements() {
@@ -85,6 +94,30 @@ public class DetailsPane extends VBox implements EvePane {
 						new Label("" + (int) Math.ceil(nbcycles.getValue() * e.getValue())));
 				row++;
 			}
+		}
+	}
+
+	protected void updateCosts() {
+		costs.getChildren().clear();
+		if (data != null) {
+			costs.addRow(0, new Label(""), new Label("EIV"), new Label("install"));
+			costs.addRow(1, new Label("copy"), new Label(InventionGainAlgorithm.formatPrice(data.copyEIV)),
+					new Label(InventionGainAlgorithm.formatPrice(data.copyInstall)));
+			costs.addRow(2, new Label("invent"), new Label(InventionGainAlgorithm.formatPrice(data.inventEIV)),
+					new Label(InventionGainAlgorithm.formatPrice(data.inventionInstall)));
+			costs.addRow(3, new Label("manuf"), new Label(InventionGainAlgorithm.formatPrice(data.manufEIV)),
+					new Label(InventionGainAlgorithm.formatPrice(data.manufInstall)));
+		}
+	}
+
+	protected void updatebpi() {
+		bpi.getChildren().clear();
+		if (data != null) {
+			bpi.addRow(0, new Label("invented"));
+			bpi.addRow(1, new Label("ME"), new Label("" + data.bpiME));
+			bpi.addRow(2, new Label("TE"), new Label("" + data.bpiTE));
+			bpi.addRow(3, new Label("run"), new Label("" + data.bpiRuns));
+			bpi.addRow(4, new Label("proba"), new Label("" + data.inventionProbability));
 		}
 	}
 

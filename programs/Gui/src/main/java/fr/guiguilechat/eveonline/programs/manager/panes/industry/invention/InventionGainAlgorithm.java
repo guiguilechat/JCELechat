@@ -8,6 +8,10 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.ToDoubleFunction;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
@@ -25,6 +29,8 @@ import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.Inven
  *
  */
 public class InventionGainAlgorithm {
+
+	private static final Logger logger = LoggerFactory.getLogger(InventionGainAlgorithm.class);
 
 	/**
 	 * evaluation of a bpo, a target bpc, and a decryptor. Market region, skills
@@ -73,7 +79,18 @@ public class InventionGainAlgorithm {
 		public LinkedHashMap<String, Double> requirements = new LinkedHashMap<>();
 		// installation cost of copy+invention+manufacturing for ONE cycle
 		public double installCost;
+		public double manufInstall;
+		public double inventionInstall;
+		public double copyInstall;
+		public double copyEIV;
+		public double inventEIV;
+		public double manufEIV;
 
+	}
+
+	private static InventionDecryptor nullDecryptor = new InventionDecryptor();
+	static {
+		nullDecryptor.name = "no decryptor";
 	}
 
 	/** evaluate the cost of producing a T2 item form a T1 bpo */
@@ -85,10 +102,11 @@ public class InventionGainAlgorithm {
 
 		SolarSystem inventSys = params.inventSystem == null ? null : SolarSystem.load().get(params.inventSystem);
 		float inventIndex = inventSys == null ? 0
-				: ESIConnection.DISCONNECTED.industry.getSystemIndices(inventSys.id).copying;
+				: ESIConnection.DISCONNECTED.industry.getSystemIndices(inventSys.id).invention;
 
 		SolarSystem manufSys = params.manufSystem == null ? null : SolarSystem.load().get(params.manufSystem);
-		float manufIndex = manufSys == null ? 0 : ESIConnection.DISCONNECTED.industry.getSystemIndices(manufSys.id).copying;
+		float manufIndex = manufSys == null ? 0
+				: ESIConnection.DISCONNECTED.industry.getSystemIndices(manufSys.id).manufacturing;
 
 		// the bpc selected
 		Blueprint bpc = Blueprint.load().get(selectedbpc.name);
@@ -102,7 +120,7 @@ public class InventionGainAlgorithm {
 		StructBonus manufStruct = InventerPane.StructBonus.valueOf(params.manufstruct);
 
 		// the Estimated Item Value of the bpo. used for copying and manufacturing
-		double bpoEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0
+		double copyEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0
 				: bpo.manufacturing.materials.parallelStream()
 				.mapToDouble(
 						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
@@ -110,17 +128,19 @@ public class InventionGainAlgorithm {
 
 		// Estimated Item Value of the bpc. when manufacturing, used as a base for
 		// tax.
-		double bpcEIV = bpc.manufacturing == null || bpc.manufacturing.materials == null ? 0
+		double manufEIV = bpc.manufacturing == null || bpc.manufacturing.materials == null ? 0
 				: bpc.manufacturing.materials.parallelStream()
 				.mapToDouble(
 						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
 
+		double inventEIV = manufEIV;
+
 		// first we need to copy the bpo into a bpc.
 
 		// copycost=eiv*nb_runs*runspercopy*0.02*(100+copyindex)/100*(100+stationtax)/100
 		// since we run for ONE invention job, we copy on bpc with one run.
-		double copyInstalation = bpoEIV * 0.02 * (1.0 + 0.01 * copyIndex) * (1.0 + 0.01 * params.copyTax)
+		double copyInstallation = copyEIV * 0.02 * copyIndex * (1.0 + 0.01 * params.copyTax)
 				* (1.0 - 0.01 * copyStruct.cost);
 		double copyME = 1.0 - 0.01 * copyStruct.me;
 
@@ -132,141 +152,143 @@ public class InventionGainAlgorithm {
 				// advanced indus skill reduces by 3%
 				* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-		List<InventionProdData> ret = InventionDecryptor.load().values().parallelStream().map(decryptor -> {
-			InventionProdData data = new InventionProdData();
-			data.bpoName = bpo.name;
-			data.bpiName = selectedbpc.name;
-			data.productName = product.name;
-			data.copyTime = copyTime;
+		List<InventionProdData> ret = Stream
+				.concat(InventionDecryptor.load().values().parallelStream(), Stream.of(nullDecryptor)).map(decryptor -> {
+					InventionProdData data = new InventionProdData();
+					data.bpoName = bpo.name;
+					data.bpiName = selectedbpc.name;
+					data.productName = product.name;
+					data.copyTime = copyTime;
 
-			data.decryptor = decryptor.name;
-			data.bpiRuns = selectedbpc.quantity + decryptor.maxrun;
-			data.bpiME = 2 + decryptor.me;
-			data.bpiTE = 4 + decryptor.te;
-			int engSkills = bpo.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
-					.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
-			int encSkill = bpo.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
-					.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
+					data.decryptor = decryptor.name;
+					data.bpiRuns = selectedbpc.quantity + decryptor.maxrun;
+					data.bpiME = 2 + decryptor.me;
+					data.bpiTE = 4 + decryptor.te;
+					int engSkills = bpo.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
+							.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
+					int encSkill = bpo.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
+							.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
 
-			// that is the probability to success for each run.
-			data.inventionProbability = bpo.invention.products.get(0).probability
-					* (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * decryptor.probmult;
+					// that is the probability to success for each run.
+					data.inventionProbability = bpo.invention.products.get(0).probability
+							* (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * decryptor.probmult;
 
-			// get the avg time to invent a bpc
-			data.inventionTime = (long) (bpo.invention.time
-					// struct bonus
-					* (1.0 - 0.01 * inventStruct.te)
-					// advanced industry reduces by 3%
-					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
+					// get the avg time to invent a bpc
+					data.inventionTime = (long) (bpo.invention.time
+							// struct bonus
+							* (1.0 - 0.01 * inventStruct.te)
+							// advanced industry reduces by 3%
+							* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
 
-			// get the avg time to produce the items during a cycle.
-			data.manufacturingTime = (long) (data.inventionProbability * data.bpiRuns * bpc.manufacturing.time
-					* (1.0 - 0.01 * data.bpiTE)
-					// struct bonus
-					* (1.0 - 0.01 * manufStruct.te) * (1.0 - 0.04 * skills.getOrDefault("Industry", 0))
-					* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
-			for (String skillName : bpc.manufacturing.skills.keySet()) {
-				if (!skillName.contains("Industry")) {
-					data.manufacturingTime *= 1.0 - 0.01 * skills.getOrDefault(skillName, 0);
-				}
-			}
-
-			data.cycleAvgProd = data.bpiRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
-			data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
-
-			data.installCost = copyInstalation
-					// invention install
-					+ bpoEIV * 0.02
-					// struct bonus
-					* (1.0 - 0.01 * inventStruct.cost)
-					// taxes
-					* (1.0 + 0.01 * inventIndex) * (1.0 + 0.01 * params.inventTax)
-					// manufacturing install
-					+ bpcEIV
-					// struct bonus
-					* (1.0 - 0.01 * manufStruct.cost) * 0.01 * manufIndex * (1.0 + 0.01 * params.manufactureTax)
-					* data.bpiRuns;
-
-			bpo.copying.materials.stream().forEach(m -> data.requirements.put(m.name,
-					(m.quantity == 1 ? 1.0 : m.quantity * copyME) + data.requirements.getOrDefault(m.name, 0.0)));
-
-			bpo.invention.materials.stream().forEach(m -> data.requirements.put(m.name,
-					(m.quantity == 1 ? 1.0 : m.quantity) + data.requirements.getOrDefault(m.name, 0.0)));
-
-			bpc.manufacturing.materials.stream()
-			.forEach(m -> data.requirements.put(m.name,
-					(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * data.bpiME) * m.quantity * data.bpiRuns * data.inventionProbability
-					+ data.requirements.getOrDefault(m.name, 0.0)));
-
-			for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
-				// otherwise compiler complains "must be final or effectively final"
-				int nbCyclesFinal = nbCycles;
-
-				double copyCostSO = copyInstalation
-						+ bpo.copying.materials.parallelStream().mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id,
-								nbCyclesFinal * (m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME)))).sum() / nbCycles;
-
-				// estimate the ceil number of items solds, then average it back to
-				// the real number of items sold
-				// eg if we sell 0.1 item, the ceil is 1 but the real value is 10% of
-				// the BO of 1.
-				int qttysold = (int) Math.ceil(data.cycleAvgProd);
-				double cycleProductBO = market.getBO(prodID, qttysold * nbCycles) / nbCycles * (1.0 - 0.01 * params.sellTax)
-						// qttysold is cycleavgprod rounded up. scale back
-						* data.cycleAvgProd / qttysold;
-
-				double inventionInstall = bpoEIV * 0.02
-						// struct bonus
-						* (1.0 - 0.01 * inventStruct.cost)
-						// taxes
-						* (1.0 + 0.01 * inventIndex) * (1.0 + 0.01 * params.inventTax);
-				// if we buy all items at SO : no tax, no broker
-				double inventionCostSO = inventionInstall
-						// add the required materials cost
-						+ bpo.invention.materials.parallelStream()
-						.mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id, nbCyclesFinal * m.quantity)).sum() / nbCycles
-						// add the decryptor cost
-						+ (decryptor.id != 0 ? market.getSO(decryptor.id, nbCycles) : 0.0) / nbCycles;
-
-				// now we manufacture the invented bpc.
-				// we compute the production cost of one invented bpc.
-				double manufInstall = bpcEIV
-						// struct bonus
-						* (1.0 - 0.01 * manufStruct.cost) * 0.01 * manufIndex * (1.0 + 0.01 * params.manufactureTax)
-						* data.bpiRuns;
-				double manufacturingCostSO = manufInstall
-						// material cost
-						+ bpc.manufacturing.materials.parallelStream().mapToDouble(m -> {
-							double bpcQtty = m.quantity * data.bpiRuns * nbCyclesFinal;
-							int qttyBO = (int) Math.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * data.bpiME) * bpcQtty);
-							return market.getSO(MetaInf.getItem(m.name).id, qttyBO) * bpcQtty / qttyBO / nbCyclesFinal;
-						}).sum();
-
-				double cycleCostSO = copyCostSO + inventionCostSO + manufacturingCostSO * data.inventionProbability;
-				double SOBOph = (cycleProductBO - cycleCostSO) * 3600 / Math.max(params.minActionHours * 3600,
-						Math.max(data.copyTime + data.inventionTime, data.manufacturingTime));
-				double cycleMargin = (cycleProductBO - cycleCostSO) / cycleProductBO;
-
-				if (nbCycles == 1) {
-					data.copyCostSO = copyCostSO;
-					data.cycleProductBO = cycleProductBO;
-					data.inventionCostSO = inventionCostSO;
-					data.manufacturingCostSO = manufacturingCostSO;
-					data.cycleCostSO = cycleCostSO;
-					data.SOBOph = SOBOph;
-					data.cycleMargin = cycleMargin;
-					data.maxCycles = nbCycles;
-					data.itemCost = data.cycleCostSO / data.cycleAvgProd;
-				} else {
-					if (SOBOph > data.SOBOph * (100.0 - params.maxCycleReduction) / 100) {
-						data.maxCycles = nbCycles;
-					} else {
-						break;
+					// get the avg time to produce the items during a cycle.
+					data.manufacturingTime = (long) (data.inventionProbability * data.bpiRuns * bpc.manufacturing.time
+							* (1.0 - 0.01 * data.bpiTE)
+							// struct bonus
+							* (1.0 - 0.01 * manufStruct.te) * (1.0 - 0.04 * skills.getOrDefault("Industry", 0))
+							* (1.0 - 0.03 * skills.getOrDefault("Advanced Industry", 0)));
+					for (String skillName : bpc.manufacturing.skills.keySet()) {
+						if (!skillName.contains("Industry")) {
+							data.manufacturingTime *= 1.0 - 0.01 * skills.getOrDefault(skillName, 0);
+						}
 					}
-				}
-			}
-			return data;
-		}).collect(Collectors.toList());
+
+					data.cycleAvgProd = data.bpiRuns * bpc.manufacturing.products.get(0).quantity * data.inventionProbability;
+					data.cycleTime = data.copyTime + data.inventionTime + data.manufacturingTime;
+
+					data.copyEIV = copyEIV;
+					data.inventEIV = inventEIV;
+					data.manufEIV = manufEIV;
+
+					data.copyInstall = copyInstallation;
+					data.inventionInstall = inventEIV * 0.02
+							// struct bonus
+							* (1.0 - 0.01 * inventStruct.cost)
+							// taxes
+							* inventIndex * (1.0 + 0.01 * params.inventTax);
+					// we compute the production cost of one invented bpc.
+					double oneRunManufInstall = manufEIV * manufIndex * (1.0 - 0.01 * manufStruct.cost)
+							* (1.0 + 0.01 * params.manufactureTax);
+					logger.debug(" one manufacture run with " + decryptor.name + " on structure " + manufStruct
+							+ " with index " + manufIndex + " costs "
+							+ InventionGainAlgorithm.formatPrice(oneRunManufInstall) + " : eiv="
+							+ InventionGainAlgorithm.formatPrice(manufEIV) + " structmult=" + (1.0 - 0.01 * manufStruct.cost)
+							+ " taxemult="
+							+ (1.0 + 0.01 * params.manufactureTax));
+					data.manufInstall = oneRunManufInstall * data.bpiRuns * data.inventionProbability;
+					data.installCost = data.copyInstall + data.manufInstall + data.installCost;
+
+					data.requirements.put(decryptor.name, 1.0);
+
+					bpo.copying.materials.stream().forEach(m -> data.requirements.put(m.name,
+							(m.quantity == 1 ? 1.0 : m.quantity * copyME) + data.requirements.getOrDefault(m.name, 0.0)));
+
+					bpo.invention.materials.stream().forEach(m -> data.requirements.put(m.name,
+							(m.quantity == 1 ? 1.0 : m.quantity) + data.requirements.getOrDefault(m.name, 0.0)));
+
+					bpc.manufacturing.materials.stream()
+					.forEach(m -> data.requirements.put(m.name,
+							(m.quantity == 1 ? 1.0 : 1.0 - 0.01 * data.bpiME) * m.quantity * data.bpiRuns * data.inventionProbability
+							+ data.requirements.getOrDefault(m.name, 0.0)));
+
+					for (int nbCycles = 1; nbCycles <= 1000; nbCycles++) {
+						// otherwise compiler complains "must be final or effectively final"
+						int nbCyclesFinal = nbCycles;
+
+						double copyCostSO = copyInstallation
+								+ bpo.copying.materials.parallelStream().mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id,
+										nbCyclesFinal * (m.quantity == 1 ? 1 : (int) Math.ceil(m.quantity * copyME)))).sum() / nbCycles;
+
+						// estimate the ceil number of items solds, then average it back to
+						// the real number of items sold
+						// eg if we sell 0.1 item, the ceil is 1 but the real value is 10% of
+						// the BO of 1.
+						int qttysold = (int) Math.ceil(data.cycleAvgProd);
+						double cycleProductBO = market.getBO(prodID, qttysold * nbCycles) / nbCycles * (1.0 - 0.01 * params.sellTax)
+								// qttysold is cycleavgprod rounded up. scale back
+								* data.cycleAvgProd / qttysold;
+						// if we buy all items at SO : no tax, no broker
+						double inventionCostSO = data.inventionInstall
+								// add the required materials cost
+								+ bpo.invention.materials.parallelStream()
+								.mapToDouble(m -> market.getSO(MetaInf.getItem(m.name).id, nbCyclesFinal * m.quantity)).sum() / nbCycles
+								// add the decryptor cost
+								+ (decryptor.id != 0 ? market.getSO(decryptor.id, nbCycles) : 0.0) / nbCycles;
+
+						// now we manufacture the invented bpc.
+
+						double manufacturingCostSO = data.manufInstall
+								// material cost
+								+ bpc.manufacturing.materials.parallelStream().mapToDouble(m -> {
+									double bpcQtty = m.quantity * data.bpiRuns * nbCyclesFinal;
+									int qttyBO = (int) Math.ceil((m.quantity == 1 ? 1 : 1.0 - 0.01 * data.bpiME) * bpcQtty);
+									return market.getSO(MetaInf.getItem(m.name).id, qttyBO) * bpcQtty / qttyBO / nbCyclesFinal;
+								}).sum();
+
+						double cycleCostSO = copyCostSO + inventionCostSO + manufacturingCostSO * data.inventionProbability;
+						double SOBOph = (cycleProductBO - cycleCostSO) * 3600 / Math.max(params.minActionHours * 3600,
+								Math.max(data.copyTime + data.inventionTime, data.manufacturingTime));
+						double cycleMargin = (cycleProductBO - cycleCostSO) / cycleProductBO;
+
+						if (nbCycles == 1) {
+							data.copyCostSO = copyCostSO;
+							data.cycleProductBO = cycleProductBO;
+							data.inventionCostSO = inventionCostSO;
+							data.manufacturingCostSO = manufacturingCostSO;
+							data.cycleCostSO = cycleCostSO;
+							data.SOBOph = SOBOph;
+							data.cycleMargin = cycleMargin;
+							data.maxCycles = nbCycles;
+							data.itemCost = data.cycleCostSO / data.cycleAvgProd;
+						} else {
+							if (SOBOph > data.SOBOph * (100.0 - params.maxCycleReduction) / 100) {
+								data.maxCycles = nbCycles;
+							} else {
+								break;
+							}
+						}
+					}
+					return data;
+				}).collect(Collectors.toList());
 		ToDoubleFunction<InventionProdData> gainFunction = null;
 		switch (params.target) {
 		case MARGIN:
