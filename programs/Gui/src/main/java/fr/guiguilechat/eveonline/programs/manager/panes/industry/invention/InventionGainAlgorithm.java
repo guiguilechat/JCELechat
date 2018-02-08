@@ -88,7 +88,7 @@ public class InventionGainAlgorithm {
 
 	}
 
-	private static InventionDecryptor nullDecryptor = new InventionDecryptor();
+	public static final InventionDecryptor nullDecryptor = new InventionDecryptor();
 	static {
 		nullDecryptor.name = "no decryptor";
 	}
@@ -217,7 +217,9 @@ public class InventionGainAlgorithm {
 					data.manufInstall = oneRunManufInstall * data.bpiRuns * data.inventionProbability;
 					data.installCost = data.copyInstall + data.manufInstall + data.installCost;
 
-					data.requirements.put(decryptor.name, 1.0);
+					if (decryptor != nullDecryptor) {
+						data.requirements.put(decryptor.name, 1.0);
+					}
 
 					bpo.copying.materials.stream().forEach(m -> data.requirements.put(m.name,
 							(m.quantity == 1 ? 1.0 : m.quantity * copyME) + data.requirements.getOrDefault(m.name, 0.0)));

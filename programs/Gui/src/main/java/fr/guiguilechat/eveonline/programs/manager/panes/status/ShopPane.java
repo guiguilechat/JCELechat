@@ -42,7 +42,16 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		TableColumn<Entry<String, Integer>, Double> priceCol = new TableColumn<>("price");
 		priceCol.setCellValueFactory(
 				ed -> new ReadOnlyObjectWrapper<>(
-						ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(ed.getValue().getKey()).id)
+						ESIConnection
+						.DISCONNECTED
+						.markets
+						.getAverage(
+								MetaInf
+								.getItem(
+										ed.
+										getValue()
+										.getKey())
+								.id)
 						* ed.getValue().getValue()));
 		priceCol.setCellFactory(e -> new TableCell<Entry<String, Integer>, Double>() {
 			@Override
