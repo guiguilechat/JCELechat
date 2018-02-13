@@ -29,6 +29,8 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import is.ccp.tech.esi.Swagger;
+
 /**
  * code to make a sso key
  *
@@ -69,7 +71,7 @@ public class ESITools {
 
 		// 2 request user to accept the connection of his app to his account
 		// the user should copy the url of the error page
-		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, SCOPES.values());
+		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, SCOPES);
 		System.out.println("auth code is " + authCode);
 
 		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
@@ -83,9 +85,7 @@ public class ESITools {
 		System.out.println("acces token is " + accessToken);
 	}
 
-	public static enum SCOPES {
-		corporationContactsRead, publicData, characterStatsRead, characterFittingsRead, characterFittingsWrite, characterContactsRead, characterContactsWrite, characterLocationRead, characterNavigationWrite, characterWalletRead, characterAssetsRead, characterCalendarRead, characterFactionalWarfareRead, characterIndustryJobsRead, characterKillsRead, characterMailRead, characterMarketOrdersRead, characterMedalsRead, characterNotificationsRead, characterResearchRead, characterSkillsRead, characterAccountRead, characterContractsRead, characterBookmarksRead, characterChatChannelsRead, characterClonesRead, characterOpportunitiesRead, characterLoyaltyPointsRead, corporationWalletRead, corporationAssetsRead, corporationMedalsRead, corporationFactionalWarfareRead, corporationIndustryJobsRead, corporationKillsRead, corporationMembersRead, corporationMarketOrdersRead, corporationStructuresRead, corporationShareholdersRead, corporationContractsRead, corporationBookmarksRead, fleetRead, fleetWrite, structureVulnUpdate, remoteClientUI;
-	}
+	public static final String[] SCOPES = Swagger.SCOPES;
 
 	public static boolean openBrowserForApp(String appID, String appCalllback, String... scopes) {
 		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback
@@ -168,12 +168,12 @@ public class ESITools {
 		return redirectURL.substring(callback.length() + "?code=".length());
 	}
 
-	public static String getCodeByClipboard(String appID, String callback, SCOPES... scopes) {
+	public static String getCodeByClipboard(String appID, String callback, String... scopes) {
 		if (callback == null) {
-			callback=LOCAL_CALLBACK;
+			callback = LOCAL_CALLBACK;
 		}
 		openBrowserForApp(appID, callback, scopes == null || scopes.length == 0 ? new String[0]
-				: Stream.of(scopes).map(SCOPES::name).toArray(String[]::new));
+				: SCOPES);
 		return callbackURLToAuthCode(extractStringFromClipboard(), callback);
 	}
 

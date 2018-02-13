@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -18,11 +19,13 @@ import org.slf4j.LoggerFactory;
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.EClassType;
+import com.helger.jcodemodel.JArray;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JDirectClass;
 import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
@@ -108,9 +111,18 @@ public class Compiler {
 
 		jc = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
 
+		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
+				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
+				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
+		JFieldVar scopesField = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class), "SCOPES");
+		JArray scopesinit = JExpr.newArray(cm.ref(String.class));
+		for (String scope : allScopes) {
+			scopesinit.add(JExpr.lit(scope));
+		}
+		scopesField.init(scopesinit);
+
 		JMethod flatten = jc.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
 		flatten.param(cm.ref(Object.class), "o");
-
 
 		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
 
@@ -188,20 +200,21 @@ public class Compiler {
 							param = meth.param(getExistingClass(qp), qp.getName());
 							queryparameters.add(param);
 							break;
-						case "body":BodyParameter bp = (BodyParameter) p;
-						Model schema = bp.getSchema();
-						if (schema instanceof ArrayModel) {
-							pt = getExistingClass((ArrayModel) schema);
-							param = meth.param(pt, bp.getName());
-							bodyparameters.add(param);
-						} else {
-							for (Entry<String, Property> e : schema.getProperties().entrySet()) {
-								AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
-								param = meth.param(type, e.getKey());
+						case "body":
+							BodyParameter bp = (BodyParameter) p;
+							Model schema = bp.getSchema();
+							if (schema instanceof ArrayModel) {
+								pt = getExistingClass((ArrayModel) schema);
+								param = meth.param(pt, bp.getName());
 								bodyparameters.add(param);
+							} else {
+								for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+									AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
+									param = meth.param(type, e.getKey());
+									bodyparameters.add(param);
+								}
 							}
-						}
-						break;
+							break;
 						default:
 							logger.error("no match for parameter " + p.getClass());
 						}
@@ -232,7 +245,7 @@ public class Compiler {
 					if (s == null) {
 						meth.body().invoke("connectPost").arg(url)
 						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-								.arg(JExpr.lit(connected)).arg(header);
+						.arg(JExpr.lit(connected)).arg(header);
 					} else {
 						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
 						fetched.init(meth.body().invoke("connectPost").arg(url)

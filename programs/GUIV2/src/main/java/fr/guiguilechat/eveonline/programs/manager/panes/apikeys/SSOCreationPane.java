@@ -3,7 +3,6 @@ package fr.guiguilechat.eveonline.programs.manager.panes.apikeys;
 import java.util.regex.Pattern;
 
 import fr.guiguilechat.eveonline.model.esi.ESITools;
-import fr.guiguilechat.eveonline.model.esi.ESITools.SCOPES;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.programs.manager.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.MPane;
@@ -123,7 +122,7 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		String authCode = ESITools.getCodeByClipboard(appIDField.getText(), localcallback, SCOPES.values());
+		String authCode = ESITools.getCodeByClipboard(appIDField.getText(), localcallback, ESITools.SCOPES);
 		if (authCode != null) {
 			refreshTokenField.setText(ESITools.getRefreshToken(baseField.getText(), authCode));
 		}
