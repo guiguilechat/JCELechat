@@ -1,10 +1,7 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.api.esi;
 
-import java.util.stream.Stream;
-
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.ESITools;
-import fr.guiguilechat.eveonline.model.esi.ESITools.SCOPES;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.SSODevKey;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -13,6 +10,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
@@ -51,6 +49,25 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		nameCol.setCellValueFactory(co -> new ReadOnlyObjectWrapper<>(co.getValue().verify.characterName()));
 		table.getColumns().add(nameCol);
 
+		TableColumn<ESIConnection, CheckBox> shopCol = new TableColumn<>("shopper");
+		shopCol.setCellValueFactory(ed -> {
+			String name = ed.getValue().verify.characterName();
+			CheckBox cb = new CheckBox("shopper");
+			cb.setSelected(parent.settings.shopper.contains(name));
+			cb.selectedProperty().addListener((obj, old, now) -> {
+				if (now) {
+					parent.settings.shopper.add(name);
+					parent.settings.store();
+				} else {
+					parent.settings.shopper.remove(name);
+					parent.settings.store();
+				}
+			});
+			return new ReadOnlyObjectWrapper<>(cb);
+		});
+
+		table.getColumns().add(shopCol);
+
 		TableColumn<ESIConnection, Button> delCol = new TableColumn<>("");
 		delCol.setCellValueFactory(ed -> {
 			Button delBtn = new Button("remove");
@@ -84,8 +101,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		Button btnCreate = new Button("link your account");
 		btnCreate.setOnAction(ev -> {
 			SSODevKey devKey = parent.settings.ssoKeys.get(selectDev.getValue());
-			ESITools.openBrowserForApp(devKey.appID, devKey.callback,
-					Stream.of(SCOPES.values()).map(SCOPES::name).toArray(String[]::new));
+			ESITools.openBrowserForApp(devKey.appID, devKey.callback, ESITools.SCOPES);
 		});
 		addPane.addRow(0, selectDev, btnCreate);
 		TextField urlf = new TextField();

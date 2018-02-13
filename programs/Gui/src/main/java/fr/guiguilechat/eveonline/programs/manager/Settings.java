@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.programs.manager;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 import org.yaml.snakeyaml.representer.Representer;
@@ -412,5 +413,7 @@ public class Settings implements ISettings {
 		ret.getPropertyUtils().setSkipMissingProperties(true);
 		return ret;
 	}
+
+	public LinkedHashSet<String> shopper = new LinkedHashSet<>();
 
 }

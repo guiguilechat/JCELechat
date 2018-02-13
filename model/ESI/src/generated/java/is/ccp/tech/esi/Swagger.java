@@ -129,6 +129,7 @@ import is.ccp.tech.esi.responses.R_get_sovereignty_campaigns;
 import is.ccp.tech.esi.responses.R_get_sovereignty_map;
 import is.ccp.tech.esi.responses.R_get_sovereignty_structures;
 import is.ccp.tech.esi.responses.R_get_status;
+import is.ccp.tech.esi.responses.R_get_universe_ancestries;
 import is.ccp.tech.esi.responses.R_get_universe_bloodlines;
 import is.ccp.tech.esi.responses.R_get_universe_categories_category_id;
 import is.ccp.tech.esi.responses.R_get_universe_constellations_constellation_id;
@@ -162,6 +163,7 @@ import is.ccp.tech.esi.responses.R_post_universe_ids;
 import is.ccp.tech.esi.responses.R_post_universe_names;
 
 public interface Swagger {
+    public final static String[] SCOPES = new String[] {"esi-characters.write_contacts.v1", "esi-skills.read_skills.v1", "esi-characters.read_fatigue.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_corporation_membership.v1", "esi-bookmarks.read_character_bookmarks.v1", "esi-assets.read_corporation_assets.v1", "esi-fittings.read_fittings.v1", "esi-contracts.read_corporation_contracts.v1", "esi-fleets.write_fleet.v1", "esi-ui.write_waypoint.v1", "esi-industry.read_character_jobs.v1", "esi-bookmarks.read_corporation_bookmarks.v1", "esi-clones.read_clones.v1", "esi-industry.read_character_mining.v1", "esi-calendar.respond_calendar_events.v1", "esi-characters.read_agents_research.v1", "esi-location.read_online.v1", "esi-mail.read_mail.v1", "esi-characterstats.read.v1", "esi-search.search_structures.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-characters.read_contacts.v1", "esi-fittings.write_fittings.v1", "esi-markets.structure_markets.v1", "esi-wallet.read_corporation_wallets.v1", "esi-characters.read_corporation_roles.v1", "esi-wallet.read_character_wallet.v1", "esi-assets.read_assets.v1", "esi-killmails.read_killmails.v1", "esi-characters.read_medals.v1", "esi-location.read_ship_type.v1", "esi-skills.read_skillqueue.v1", "esi-contracts.read_character_contracts.v1", "esi-mail.send_mail.v1", "esi-alliances.read_contacts.v1", "esi-location.read_location.v1", "esi-ui.open_window.v1", "esi-fleets.read_fleet.v1", "esi-industry.read_corporation_mining.v1", "esi-corporations.read_blueprints.v1", "esi-calendar.read_calendar_events.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-characters.read_standings.v1", "esi-characters.read_notifications.v1", "esi-corporations.read_standings.v1", "esi-characters.read_opportunities.v1", "esi-characters.read_chat_channels.v1", "esi-industry.read_corporation_jobs.v1", "esi-characters.read_fw_stats.v1", "esi-corporations.read_titles.v1", "esi-universe.read_structures.v1", "esi-corporations.track_members.v1", "esi-corporations.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-mail.organize_mail.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_outposts.v1", "esi-corporations.read_starbases.v1", "esi-clones.read_implants.v1", "esi-killmails.read_corporation_killmails.v1", "esi-corporations.read_medals.v1", "esi-planets.manage_planets.v1", "esi-characters.read_titles.v1", "esi-corporations.read_facilities.v1", "esi-characters.read_blueprints.v1", "esi-planets.read_customs_offices.v1"};
 
     public String flatten(Object o);
 
@@ -291,6 +293,12 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_calendar_event_id_attendees[].class));
     }
 
+    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(int character_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class));
+    }
+
     public default R_get_characters_character_id get_characters_character_id(int character_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,false, headerHandler);
@@ -393,12 +401,6 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_titles[].class));
     }
 
-    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class));
-    }
-
     public default R_get_characters_character_id_clones get_characters_character_id_clones(int character_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/clones/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,true, headerHandler);
@@ -478,6 +480,12 @@ public interface Swagger {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contracts_contract_id_bids[].class));
+    }
+
+    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_shareholders[].class));
     }
 
     public default R_get_corporations_corporation_id get_corporations_corporation_id(int corporation_id, Map<String, List<String>> headerHandler) {
@@ -622,12 +630,6 @@ public interface Swagger {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/{outpost_id}/".replace("{corporation_id}", ""+corporation_id).replace("{outpost_id}", ""+outpost_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_outposts_outpost_id.class));
-    }
-
-    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_shareholders[].class));
     }
 
     public default int[] get_dogma_attributes(Map<String, List<String>> headerHandler) {
@@ -1102,15 +1104,6 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_status.class));
     }
 
-    public default R_post_universe_ids post_universe_ids(String language, String[] names, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/universe/ids/"+"?language="+flatten(language));
-        Map<String, String> content = new HashMap<>();
-        content.put("names", flatten(names));
-        String fetched = connectPost(url, content, false, headerHandler);
-        connectPost(url, content, false, headerHandler);
-        return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_ids.class));
-    }
-
     public default R_get_universe_planets_planet_id get_universe_planets_planet_id(int planet_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id));
         String fetched=connectGet(url,false, headerHandler);
@@ -1274,6 +1267,21 @@ public interface Swagger {
         String url = ("https://esi.tech.ccp.is/latest/universe/stars/{star_id}/".replace("{star_id}", ""+star_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_stars_star_id.class));
+    }
+
+    public default R_get_universe_ancestries[] get_universe_ancestries(String language, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/ancestries/"+"?language="+flatten(language));
+        String fetched=connectGet(url,false, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_ancestries[].class));
+    }
+
+    public default R_post_universe_ids post_universe_ids(String language, String[] names, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/ids/"+"?language="+flatten(language));
+        Map<String, String> content = new HashMap<>();
+        content.put("names", flatten(names));
+        String fetched = connectPost(url, content, false, headerHandler);
+        connectPost(url, content, false, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_ids.class));
     }
 
     public default void post_ui_openwindow_marketdetails(int type_id, Map<String, List<String>> headerHandler) {

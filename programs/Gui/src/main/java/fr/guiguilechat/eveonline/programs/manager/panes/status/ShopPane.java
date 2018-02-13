@@ -54,20 +54,23 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		});
 		getColumns().add(nbCol);
 
+		TableColumn<Entry<String, Integer>, Button> openMarketCol = new TableColumn<>("");
+		openMarketCol.setCellValueFactory(ed -> {
+			Button button = new Button("open market");
+			button.setOnAction(action -> {
+				if (!parent.settings.shopper.isEmpty()) {
+					ESIConnection shopper = parent.ssoChar2Con.get(parent.settings.shopper.iterator().next());
+					shopper.raw.post_ui_openwindow_marketdetails(MetaInf.getItem(ed.getValue().getKey()).id, null);
+				}
+			});
+			return new ReadOnlyObjectWrapper<>(button);
+		});
+		getColumns().add(openMarketCol);
+
 		TableColumn<Entry<String, Integer>, Double> priceCol = new TableColumn<>("price");
-		priceCol.setCellValueFactory(
-				ed -> new ReadOnlyObjectWrapper<>(
-						ESIConnection
-						.DISCONNECTED
-						.markets
-						.getAverage(
-								MetaInf
-								.getItem(
-										ed.
-										getValue()
-										.getKey())
-								.id)
-						* ed.getValue().getValue()));
+		priceCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(
+				ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(ed.getValue().getKey()).id)
+				* ed.getValue().getValue()));
 		priceCol.setCellFactory(e -> new TableCell<Entry<String, Integer>, Double>() {
 			@Override
 			public void updateItem(Double value, boolean empty) {
