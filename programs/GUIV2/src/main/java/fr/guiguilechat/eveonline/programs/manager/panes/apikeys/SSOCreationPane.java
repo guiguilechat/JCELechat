@@ -92,7 +92,7 @@ public class SSOCreationPane extends Accordion implements MPane {
 			thread.interrupt();
 		}
 		thread = Thread.currentThread();
-		ESITools.openBrowserForDevAPI();
+		ESITools.openBrowserForDevCreate();
 		boolean correct = false;
 		while(!correct) {
 			String entry = ESITools.extractStringFromClipboard();

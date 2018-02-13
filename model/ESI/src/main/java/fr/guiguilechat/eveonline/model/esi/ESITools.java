@@ -11,11 +11,13 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Base64;
 import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -34,29 +36,40 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ESITools {
 	private static final Logger logger = LoggerFactory.getLogger(ESITools.class);
 
+	public static final String LOCAL_CALLBACK = "http://localhost/callback/";
+
 	// acess flow to the sso
 	public static void main(String[] args) {
 		// 1 we need app id and app secret.
-		String appID = null, appCode = null;
+		String appID = null, appSecret = null;
 		// if args were specified we assume they are the app id and app secret.
 		if (args.length > 1) {
 			appID = args[0];
-			appCode = args[1];
+			appSecret = args[1];
 		} else {
 			// request user to create api by directing him to the site.
 			// the user should copy the appID, then copy the appCode
-			openBrowserForDevAPI();
+			openBrowserForDevCreate();
 			appID = extractStringFromClipboard();
 			System.out.println("api id is " + appID);
-			appCode = extractStringFromClipboard();
-			System.out.println("api code is " + appCode);
+			appSecret = extractStringFromClipboard();
+			System.out.println("api code is " + appSecret);
+		}
+
+		if (!checkAppId(appID)) {
+			System.out.println("incorrect app ID " + appID);
+			return;
+		}
+		if (!checkAppSecret(appSecret)) {
+			System.out.println("incorect app secret " + appSecret);
+			return;
 		}
 		// the api + code is transformed into the basic code used in headers :
-		String basicCode = encode(appID, appCode);
+		String basicCode = encode(appID, appSecret);
 
 		// 2 request user to accept the connection of his app to his account
 		// the user should copy the url of the error page
-		String authCode = getCodeByClipboard(appID, "http://localhost/callback/", SCOPES.values());
+		String authCode = getCodeByClipboard(appID, LOCAL_CALLBACK, SCOPES.values());
 		System.out.println("auth code is " + authCode);
 
 		// 3 get a refresh token. The couple basicCode+refreshtoken allow us to
@@ -80,27 +93,42 @@ public class ESITools {
 		if (scopes != null && scopes.length != 0) {
 			uri = uri + "&scope=" + Stream.of(scopes).collect(Collectors.joining("%20"));
 		}
-		try {
-			if (Desktop.isDesktopSupported()) {
-				Desktop.getDesktop().browse(new URI(uri));
-				return true;
-			}
-		} catch (Exception e) {
-			logger.debug("while open browser for " + uri, e);
-		}
+		String urif = uri;
+		openBrowser(urif);
 		return false;
 	}
 
-	public static void openBrowserForDevAPI() {
-		String uri = "https://developers.eveonline.com/applications/create";
-		try {
+	/** open a browser to given url */
+	public static void openBrowser(String url) {
+		new Thread(() -> {
 			if (Desktop.isDesktopSupported()) {
-				Desktop.getDesktop().browse(new URI(uri));
+				try {
+					Desktop.getDesktop().browse(new URI(url));
+				} catch (IOException | URISyntaxException e) {
+					logger.debug("while open browser for " + url, e);
+				}
 			}
-		} catch (Exception e) {
-			logger.debug("while open browser for " + uri, e);
-		}
+		}).start();
+	}
 
+	public static void openBrowserForDevCreate() {
+		openBrowser("https://developers.eveonline.com/applications/create");
+	}
+
+	public static void openBrowserForDevRetrieve() {
+		openBrowser("https://developers.eveonline.com/applications");
+	}
+
+	public static final Pattern appIdPat = Pattern.compile("^[0-9a-fA-F]{32}$");
+
+	public static boolean checkAppId(String value) {
+		return appIdPat.matcher(value).matches();
+	}
+
+	public static final Pattern appKeyPat = Pattern.compile("^[0-9a-zA-Z]{40}$");
+
+	public static boolean checkAppSecret(String value) {
+		return appKeyPat.matcher(value).matches();
 	}
 
 	public static String extractStringFromClipboard() {
@@ -126,18 +154,31 @@ public class ESITools {
 		}
 	}
 
-	public static String getCodeByClipboard(String appID, String calllback, SCOPES... scopes) {
-		openBrowserForApp(appID, calllback, scopes == null || scopes.length == 0 ? new String[0]
-				: Stream.of(scopes).map(SCOPES::name).toArray(String[]::new));
-		String cpData = extractStringFromClipboard();
-		if (cpData == null || !cpData.startsWith(calllback + "?code=")) {
+	/**
+	 * @param redirectURL
+	 *          the url the client was redirected to
+	 * @param callback
+	 *          the app's callback
+	 * @return the auth code from the returned url
+	 */
+	public static String callbackURLToAuthCode(String redirectURL, String callback) {
+		if (redirectURL == null || !redirectURL.startsWith(callback + "?code=")) {
 			return null;
 		}
-		return cpData.substring(calllback.length() + "?code=".length());
+		return redirectURL.substring(callback.length() + "?code=".length());
 	}
 
-	public static String encode(String appID, String appCode) {
-		return Base64.getEncoder().encodeToString((appID + ":" + appCode).getBytes(StandardCharsets.UTF_8));
+	public static String getCodeByClipboard(String appID, String callback, SCOPES... scopes) {
+		if (callback == null) {
+			callback=LOCAL_CALLBACK;
+		}
+		openBrowserForApp(appID, callback, scopes == null || scopes.length == 0 ? new String[0]
+				: Stream.of(scopes).map(SCOPES::name).toArray(String[]::new));
+		return callbackURLToAuthCode(extractStringFromClipboard(), callback);
+	}
+
+	public static String encode(String appID, String appSecret) {
+		return Base64.getEncoder().encodeToString((appID + ":" + appSecret).getBytes(StandardCharsets.UTF_8));
 	}
 
 	/**
@@ -179,6 +220,14 @@ public class ESITools {
 		}
 	}
 
+	/**
+	 *
+	 * @param appAuth
+	 *          the base64 id:secret of the app
+	 * @param authorizationCode
+	 *          the token returned by ccp server when login the client.
+	 * @return the new refresh token that allows to create esiconnection.
+	 */
 	public static String getRefreshToken(String appAuth, String authorizationCode) {
 		String transmit = "{\"grant_type\":\"authorization_code\",\"code\":\"" + authorizationCode + "\"}";
 		try {
