@@ -68,8 +68,16 @@ public class Settings implements ISettings {
 		SO
 	}
 
-	public LinkedHashMap<Integer, String> apiKeys = new LinkedHashMap<>();
-	public LinkedHashMap<String, String> ssoKeys = new LinkedHashMap<>();
+	public LinkedHashMap<Integer, String> xmlV2Keys = new LinkedHashMap<>();
+
+	public static class SSODevKey {
+		public String base64;
+		public String appID;
+		public String callback;
+		public HashMap<String, String> character2Refresh = new HashMap<>();
+	}
+
+	public LinkedHashMap<String, SSODevKey> ssoKeys = new LinkedHashMap<>();
 
 	public LinkedHashMap<String, TeamDescription> teams = new LinkedHashMap<>();
 

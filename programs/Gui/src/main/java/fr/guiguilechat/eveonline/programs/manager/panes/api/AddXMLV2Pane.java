@@ -14,7 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 
-public class AddAPIPane extends HBox implements EvePane {
+public class AddXMLV2Pane extends HBox implements EvePane {
 
 	protected Manager parent;
 
@@ -29,7 +29,7 @@ public class AddAPIPane extends HBox implements EvePane {
 
 	Button create = new Button("create a new api");
 
-	public AddAPIPane(Manager parent) {
+	public AddXMLV2Pane(Manager parent) {
 		this.parent = parent;
 		setStyle("-fx-border-color: black");
 		apiID.setPromptText("api key");
@@ -62,7 +62,7 @@ public class AddAPIPane extends HBox implements EvePane {
 			// bad api, what do ?
 			return;
 		}
-		parent.addAPI(id, code);
+		parent.addXMLV2(id, code);
 		apiID.clear();
 		apiCode.clear();
 	}

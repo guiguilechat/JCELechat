@@ -25,6 +25,7 @@ import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
 import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
 import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
@@ -141,7 +142,7 @@ public class JobPane extends BorderPane implements EvePane {
 	}
 
 	@Override
-	public void onNewAPI(APIRoot... apis) {
+	public void onNewXMLV2(APIRoot... apis) {
 		if (!shown) {
 			return;
 		}
@@ -203,11 +204,11 @@ public class JobPane extends BorderPane implements EvePane {
 	}
 
 	@Override
-	public void onDelAPI(int key) {
+	public void onDelXMLV2(int key) {
 		if (!shown) {
 			return;
 		}
-		APIRoot api = parent().getAPI(key);
+		APIRoot api = parent().getXMLV2(key);
 		if (api == null) {
 			debug("can't del apiroot for id " + key);
 			return;
@@ -236,8 +237,10 @@ public class JobPane extends BorderPane implements EvePane {
 			});
 			Label lbp = new Label(e.getKey().bp);
 			Label ldetails = new Label(e.getKey().details);
+			Button bremove = new Button("remove");
+			bremove.setOnAction(event -> updateScheduled(e.getKey(), 0));
 
-			schedule.addRow(row, ltype, nbcycles, lbp, ldetails);
+			schedule.addRow(row, ltype, nbcycles, lbp, ldetails, bremove);
 			row++;
 		}
 		table.getItems().clear();

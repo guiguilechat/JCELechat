@@ -10,7 +10,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 
-public class ListApiTableView extends TableView<APIRoot> implements EvePane {
+public class ListXMLV2TableView extends TableView<APIRoot> implements EvePane {
 
 	protected Manager parent;
 
@@ -19,11 +19,11 @@ public class ListApiTableView extends TableView<APIRoot> implements EvePane {
 		return parent;
 	}
 
-	public ListApiTableView(Manager parent) {
+	public ListXMLV2TableView(Manager parent) {
 		this.parent = parent;
 		setStyle("-fx-border-color: black");
 
-		setItems(parent.apis);
+		setItems(parent.apiXMLV2);
 
 		TableColumn<APIRoot, Integer> keyCol = new TableColumn<>("key");
 		keyCol.setCellValueFactory(apiroot -> new ReadOnlyObjectWrapper<>(apiroot.getValue().key.keyID));
@@ -54,7 +54,7 @@ public class ListApiTableView extends TableView<APIRoot> implements EvePane {
 					deleteButton.setScaleX(1);
 					deleteButton.setScaleY(1);
 				});
-				deleteButton.setOnAction(event -> parent.removeApi(person.key.keyID));
+				deleteButton.setOnAction(event -> parent.removeXMLV2(person.key.keyID));
 			}
 		});
 		getColumns().add(delCol);

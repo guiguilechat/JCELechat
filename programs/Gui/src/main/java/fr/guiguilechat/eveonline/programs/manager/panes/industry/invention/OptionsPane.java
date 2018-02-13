@@ -233,7 +233,7 @@ public class OptionsPane extends HBox implements EvePane, PaneWithRepresentation
 	}
 
 	@Override
-	public void onNewAPI(APIRoot... apis) {
+	public void onNewXMLV2(APIRoot... apis) {
 		if (apis != null) {
 			for (APIRoot ar : apis) {
 				if (!ar.isCorp()) {

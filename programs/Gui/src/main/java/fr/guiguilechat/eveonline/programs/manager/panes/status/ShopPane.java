@@ -8,13 +8,18 @@ import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
+import fr.guiguilechat.eveonline.programs.manager.panes.ScrollAdd;
+import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
 import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventionGainAlgorithm;
+import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.SortType;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.util.Duration;
 
 public class ShopPane extends TableView<Entry<String, Integer>> implements EvePane {
 
@@ -35,8 +40,18 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		nameCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().getKey()));
 		getColumns().add(nameCol);
 
-		TableColumn<Entry<String, Integer>, Integer> nbCol = new TableColumn<>("quantity");
-		nbCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().getValue()));
+		TableColumn<Entry<String, Integer>, TextField> nbCol = new TableColumn<>("quantity");
+		nbCol.setCellValueFactory(ed -> {
+
+			TypedField<Integer> nbcycles = TypedField.positivIntField(ed.getValue().getValue());
+			nbcycles.setOnScroll(new ScrollAdd.IntScrollAdd(1, nbcycles));
+			PauseTransition pause = new PauseTransition(Duration.seconds(1));
+			nbcycles.textProperty().addListener((observable, oldValue, newValue) -> {
+				pause.setOnFinished(event -> parent.setShop(ed.getValue().getKey(), nbcycles.getValue()));
+				pause.playFromStart();
+			});
+			return new ReadOnlyObjectWrapper<>(nbcycles);
+		});
 		getColumns().add(nbCol);
 
 		TableColumn<Entry<String, Integer>, Double> priceCol = new TableColumn<>("price");

@@ -33,11 +33,11 @@ public interface EvePane {
 	//// API Modifications
 
 	/** do not override this */
-	public default void propagateNewAPI(APIRoot... apis) {
+	public default void propagateNewXMLV2(APIRoot... apis) {
 		try {
-			onNewAPI(apis);
+			onNewXMLV2(apis);
 			for (EvePane p : subEvePanes()) {
-				p.propagateNewAPI(apis);
+				p.propagateNewXMLV2(apis);
 			}
 		} catch (Exception e) {
 			System.err.println("while propagating api for " + getClass() + " : " + e);
@@ -51,19 +51,19 @@ public interface EvePane {
 	 * @param apis
 	 *          should never be null
 	 */
-	public default void onNewAPI(APIRoot... apis) {
+	public default void onNewXMLV2(APIRoot... apis) {
 	}
 
 	/** do not override this */
-	public default void propagateDelAPI(int key) {
+	public default void propagateDelXMLV2(int key) {
 		for (EvePane p : subEvePanes()) {
-			p.propagateDelAPI(key);
+			p.propagateDelXMLV2(key);
 		}
-		onDelAPI(key);
+		onDelXMLV2(key);
 	}
 
 	/** override this to handle an api deletion */
-	public default void onDelAPI(int key) {
+	public default void onDelXMLV2(int key) {
 	}
 
 	//// Team modifications

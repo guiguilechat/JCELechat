@@ -21,6 +21,7 @@ import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
@@ -35,6 +36,7 @@ import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
 import fr.guiguilechat.eveonline.programs.manager.Settings.JobActivity;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
+import fr.guiguilechat.eveonline.programs.manager.Settings.SSODevKey;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ScheduledJob;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
@@ -50,6 +52,7 @@ import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.ObservableMap;
 import javafx.geometry.Side;
 import javafx.scene.Scene;
 import javafx.scene.control.Tab;
@@ -79,7 +82,9 @@ public class Manager extends Application implements EvePane {
 
 	public Settings settings = ISettings.load(Settings.class);
 
-	public final ObservableList<APIRoot> apis = FXCollections.observableArrayList();
+	public final ObservableList<APIRoot> apiXMLV2 = FXCollections.observableArrayList();
+	public final ObservableMap<String, ObservableList<ESIConnection>> ssoDev2Clients = FXCollections.observableHashMap();
+	public final ObservableMap<String, ESIConnection> ssoChar2Con = FXCollections.observableHashMap();
 
 	protected BorderPane mainLayout = new BorderPane();
 
@@ -129,8 +134,8 @@ public class Manager extends Application implements EvePane {
 			}
 		});
 		// prevent moving out of options until we have at least one correct API.
-		tabs.getSelectionModel().selectedItemProperty().addListener((obj, old, now) -> checkAPIOrSetOptionsTab());
-		checkAPIOrSetOptionsTab();
+		tabs.getSelectionModel().selectedItemProperty().addListener((obj, old, now) -> checkXMLV2OrSetOptionsTab());
+		checkXMLV2OrSetOptionsTab();
 
 		TitledPane tpDebug = new TitledPane("debug", debugPane);
 		tpDebug.setExpanded(false);
@@ -142,11 +147,24 @@ public class Manager extends Application implements EvePane {
 		primaryStage.setScene(scene);
 		primaryStage.show();
 
-		logger.debug("propagate apis");
-		for (Entry<Integer, String> a : settings.apiKeys.entrySet()) {
-			apis.add(new APIRoot(a.getKey(), a.getValue()));
+		logger.debug("propagate xmlV2");
+		for (Entry<Integer, String> a : settings.xmlV2Keys.entrySet()) {
+			apiXMLV2.add(new APIRoot(a.getKey(), a.getValue()));
 		}
-		propagateNewAPI(apis.toArray(new APIRoot[0]));
+		propagateNewXMLV2(apiXMLV2.toArray(new APIRoot[0]));
+
+		logger.debug("create esi connections");
+		for (Entry<String, SSODevKey> e : settings.ssoKeys.entrySet()) {
+			String name = e.getKey();
+			SSODevKey key = e.getValue();
+			ObservableList<ESIConnection> list = FXCollections.observableArrayList();
+			for (Entry<String, String> a : key.character2Refresh.entrySet()) {
+				ESIConnection con = new ESIConnection(a.getValue(), key.base64);
+				list.add(con);
+				ssoChar2Con.put(con.verify.characterName(), con);
+			}
+			ssoDev2Clients.put(name, list);
+		}
 
 		logger.debug("propagate teams");
 		for (String team : settings.teams.keySet()) {
@@ -175,8 +193,8 @@ public class Manager extends Application implements EvePane {
 		new Thread(LPOffer::load).start();
 	}
 
-	protected void checkAPIOrSetOptionsTab() {
-		if (settings.apiKeys.isEmpty()) {
+	protected void checkXMLV2OrSetOptionsTab() {
+		if (settings.xmlV2Keys.isEmpty()) {
 			tabs.getSelectionModel().select(apitab);
 		}
 	}
@@ -187,8 +205,8 @@ public class Manager extends Application implements EvePane {
 
 
 	@Override
-	public void onDelAPI(int key) {
-		for (Iterator<APIRoot> it = apis.iterator(); it.hasNext();) {
+	public void onDelXMLV2(int key) {
+		for (Iterator<APIRoot> it = apiXMLV2.iterator(); it.hasNext();) {
 			if (it.next().key.keyID == key) {
 				it.remove();
 			}
@@ -204,50 +222,111 @@ public class Manager extends Application implements EvePane {
 	// modification of the settings
 	//
 
-	// API
+	// XMLV2 API
 
-	public void removeApi(int keyID) {
-		settings.apiKeys.remove(keyID);
+	public void removeXMLV2(int keyID) {
+		settings.xmlV2Keys.remove(keyID);
 		settings.store();
-		propagateDelAPI(keyID);
+		propagateDelXMLV2(keyID);
 	}
 
-	public APIRoot addAPI(int key, String code) {
+	public APIRoot addXMLV2(int key, String code) {
 		// first check the api
 		APIRoot newapi = new APIRoot(key, code);
 		if (newapi.getInfos() == null) {
 			return null;
 		}
 		// then remove former api with same key
-		String oldCode = settings.apiKeys.put(key, code);
+		String oldCode = settings.xmlV2Keys.put(key, code);
 		settings.store();
 
 		// we can't modify the apiroot, as they have final args. so remove and add.
 		if (oldCode != null) {
-			apis.removeIf(ar -> ar.key.keyID == key);
+			apiXMLV2.removeIf(ar -> ar.key.keyID == key);
 		}
-		apis.add(newapi);
+		apiXMLV2.add(newapi);
 		if (oldCode == null) {
-			propagateNewAPI(newapi);
+			propagateNewXMLV2(newapi);
 		}
 		return newapi;
+	}
+
+	public SSODevKey addSSODev(String name, String appID, String base64, String callback) {
+		SSODevKey ret = settings.ssoKeys.get(name);
+		if (ret == null) {
+			ret = new SSODevKey();
+			ret.appID = appID;
+			ret.base64 = base64;
+			ret.callback = callback;
+			settings.ssoKeys.put(name, ret);
+			settings.store();
+			ssoDev2Clients.put(name, FXCollections.observableArrayList());
+			return ret;
+		} else {
+			logger.warn("error, key with name " + name + " already exists");
+			return null;
+		}
+	}
+
+	public void delSSODev(String name) {
+		SSODevKey dev = settings.ssoKeys.remove(name);
+		if (dev == null) {
+			logger.warn("error, key with name " + name + " not present, can't remove");
+		}
+		settings.store();
+		ssoDev2Clients.remove(name);
+		for (String charName : dev.character2Refresh.keySet()) {
+			ssoChar2Con.remove(charName);
+		}
 	}
 
 	/**
 	 * add an sso api
 	 *
-	 * @param key
-	 *          the base64 value of {id}:{secret}
-	 * @param code
-	 *          the refreshtoken
+	 * @param devName
+	 *          the dev key name
+	 * @param refreshToken
+	 *          the refresh token
 	 */
-	public void addAPI(String key, String code) {
-		settings.ssoKeys.put(key, code);
+	public void addSSOClient(String devName, String refreshToken) {
+		SSODevKey devkey = settings.ssoKeys.get(devName);
+		if (devkey == null) {
+			logger.warn("can't find devkey for name " + devName);
+			debug("can't find devkey for name " + devName);
+			return;
+		}
+		if (devkey.character2Refresh.containsValue(refreshToken)) {
+			debug("refresh token already accepted");
+			return;
+		}
+		ESIConnection con = new ESIConnection(refreshToken, devkey.base64);
+		debug("received refresh for user " + con.verify.characterName());
+		devkey.character2Refresh.put(con.verify.characterName(), refreshToken);
 		settings.store();
+		ssoChar2Con.put(con.verify.characterName(), con);
+		ObservableList<ESIConnection> keylist = ssoDev2Clients.get(devName);
+		if (keylist == null) {
+			keylist = FXCollections.observableArrayList();
+			ssoDev2Clients.put(devName, keylist);
+		}
+		keylist.add(con);
+		debug("added user connection " + con.verify.characterName());
 	}
 
-	public APIRoot getAPI(int key) {
-		for (APIRoot a : apis) {
+	public void delSSOClient(ESIConnection con) {
+		String name = con.verify.characterName();
+		for (SSODevKey dev : settings.ssoKeys.values()) {
+			dev.character2Refresh.remove(name);
+		}
+		settings.store();
+		ssoChar2Con.remove(name);
+		for (ObservableList<ESIConnection> dc : ssoDev2Clients.values()) {
+			dc.remove(con);
+		}
+	}
+
+	public APIRoot getXMLV2(int key) {
+		for (APIRoot a : apiXMLV2) {
 			if (a.key.keyID == key) {
 				return a;
 			}
@@ -256,7 +335,7 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public Stream<EveChar> streamChars() {
-		return apis.parallelStream().flatMap(a -> a.account.characters().stream());
+		return apiXMLV2.parallelStream().flatMap(a -> a.account.characters().stream());
 	}
 
 	public Stream<EveChar> streamTeamCharacters(String team) {
@@ -341,7 +420,7 @@ public class Manager extends Application implements EvePane {
 	 */
 	public Stream<String> streamTeamPossibleSystems(String team) {
 		Set<String> allowedChars = settings.teams.get(team).members;
-		Stream<EveChar> chars = apis.parallelStream().flatMap(a -> a.account.characters().parallelStream())
+		Stream<EveChar> chars = apiXMLV2.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
 		return chars.parallel().flatMap(this::streamCharPossibleSystems).distinct();
 	}
@@ -794,6 +873,11 @@ public class Manager extends Application implements EvePane {
 		if (settings.shopList.remove(key) != null) {
 			settings.store();
 		}
+	}
+
+	public void setShop(String name, int qtty) {
+		settings.shopList.put(name, qtty);
+		settings.store();
 	}
 
 	public void addJob(String bp, JobActivity activity, String details, int nbRuns) {
