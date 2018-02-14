@@ -416,4 +416,8 @@ public class Settings implements ISettings {
 
 	public LinkedHashSet<String> shopper = new LinkedHashSet<>();
 
+	public LinkedHashSet<String> planets = new LinkedHashSet<>();
+
+	public LinkedHashSet<String> corps = new LinkedHashSet<>();
+
 }

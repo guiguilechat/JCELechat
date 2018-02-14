@@ -16,8 +16,11 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TitledPane;
+import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.VBox;
 
 public class ESICharsPane extends BorderPane implements EvePane {
 
@@ -45,16 +48,17 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		});
 		table.setItems(lCons);
 
-		TableColumn<ESIConnection, String> nameCol = new TableColumn<>();
+		TableColumn<ESIConnection, String> nameCol = new TableColumn<>("character");
 		nameCol.setCellValueFactory(co -> new ReadOnlyObjectWrapper<>(co.getValue().verify.characterName()));
 		table.getColumns().add(nameCol);
 
-		TableColumn<ESIConnection, CheckBox> shopCol = new TableColumn<>("shopper");
+		TableColumn<ESIConnection, VBox> shopCol = new TableColumn<>("options");
 		shopCol.setCellValueFactory(ed -> {
 			String name = ed.getValue().verify.characterName();
-			CheckBox cb = new CheckBox("shopper");
-			cb.setSelected(parent.settings.shopper.contains(name));
-			cb.selectedProperty().addListener((obj, old, now) -> {
+			CheckBox shopper = new CheckBox("shopper");
+			shopper.setTooltip(new Tooltip("if this character is used for shopping"));
+			shopper.setSelected(parent.settings.shopper.contains(name));
+			shopper.selectedProperty().addListener((obj, old, now) -> {
 				if (now) {
 					parent.settings.shopper.add(name);
 					parent.settings.store();
@@ -63,7 +67,32 @@ public class ESICharsPane extends BorderPane implements EvePane {
 					parent.settings.store();
 				}
 			});
-			return new ReadOnlyObjectWrapper<>(cb);
+			CheckBox pi = new CheckBox("PI");
+			pi.setTooltip(new Tooltip("if the character has PI to monitor"));
+			pi.setSelected(parent.settings.planets.contains(name));
+			pi.selectedProperty().addListener((obj, old, now) -> {
+				if (now) {
+					parent.settings.planets.add(name);
+					parent.settings.store();
+				} else {
+					parent.settings.planets.remove(name);
+					parent.settings.store();
+				}
+			});
+			CheckBox corp = new CheckBox("use corp");
+			corp.setTooltip(new Tooltip("use the character's corp access"));
+			corp.setSelected(parent.settings.corps.contains(name));
+			corp.selectedProperty().addListener((obj, old, now) -> {
+				if (now) {
+					parent.settings.corps.add(name);
+					parent.settings.store();
+				} else {
+					parent.settings.corps.remove(name);
+					parent.settings.store();
+				}
+			});
+			VBox ret = new VBox(shopper, pi, corp);
+			return new ReadOnlyObjectWrapper<>(ret);
 		});
 
 		table.getColumns().add(shopCol);
@@ -105,6 +134,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		});
 		addPane.addRow(0, selectDev, btnCreate);
 		TextField urlf = new TextField();
+		urlf.setPrefWidth(100);
 		addPane.addRow(1, urlf, new Label("redirected url"));
 		Button addAccount = new Button("add account");
 		addAccount.setOnAction(ev -> {
@@ -121,7 +151,9 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		});
 		addPane.addRow(2, addAccount);
 
-		setRight(addPane);
+		TitledPane tp = new TitledPane("add an account", addPane);
+		tp.setCollapsible(false);
+		setRight(tp);
 	}
 
 }

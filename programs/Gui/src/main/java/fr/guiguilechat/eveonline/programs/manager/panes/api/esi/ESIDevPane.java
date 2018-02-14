@@ -14,6 +14,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Tooltip;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 
@@ -62,15 +63,19 @@ public class ESIDevPane extends BorderPane implements EvePane {
 		setCenter(table);
 
 		GridPane addPane = new GridPane();
-		Button createBtn = new Button("create");
+		Button createBtn = new Button("new");
 		createBtn.setOnAction(e -> ESITools.openBrowserForDevCreate());
-		Button existingBtn = new Button("existing");
+		Button existingBtn = new Button("load existing");
 		existingBtn.setOnAction(e -> ESITools.openBrowserForDevRetrieve());
 		addPane.addRow(0, createBtn, existingBtn);
 		addPane.addRow(1, new Label("name"), nameField);
+		nameField.setTooltip(new Tooltip("name we give to the dev key"));
 		addPane.addRow(2, new Label("client id"), appIdField);
+		appIdField.setTooltip(new Tooltip("client id provided by ccp"));
 		addPane.addRow(3, new Label("secret key"), appSecretField);
+		appSecretField.setTooltip(new Tooltip("secret key provided by ccp"));
 		addPane.addRow(4, new Label("callback"), calllBackField);
+		calllBackField.setTooltip(new Tooltip("you MUST set the callback field o the app to this value"));
 		Button submit = new Button("submit");
 		submit.setOnAction(e -> submitDevApp());
 		addPane.addRow(5, new Label(), submit);
