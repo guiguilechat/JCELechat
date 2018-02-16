@@ -13,26 +13,19 @@ public class StructureAreaDenialModule
     extends StructureModule
 {
     /**
-     * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DeadspaceUnsafe;
-    /**
-     * Range of broadcasted EMP field.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EmpFieldRange;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * The maximum hitpoints of an object.
      */
@@ -48,40 +41,12 @@ public class StructureAreaDenialModule
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * EM damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double EmDamage;
-    /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
-     * Explosive damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
-    /**
-     * Kinetic damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public int MaxGroupOnline;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -101,26 +66,12 @@ public class StructureAreaDenialModule
     @DefaultIntValue(0)
     public int CanFitShipType1;
     /**
-     * Thermal damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipType6;
     /**
      * 
      */
@@ -143,6 +94,13 @@ public class StructureAreaDenialModule
     @DefaultIntValue(0)
     public int CanFitShipType4;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -150,12 +108,89 @@ public class StructureAreaDenialModule
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
+     * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int DeadspaceUnsafe;
+    /**
+     * Range of broadcasted EMP field.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EmpFieldRange;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * EM damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double EmDamage;
+    /**
+     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamage;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double KineticDamage;
+    /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipType6;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
     private static LinkedHashMap<String, StructureAreaDenialModule> cache = (null);
 

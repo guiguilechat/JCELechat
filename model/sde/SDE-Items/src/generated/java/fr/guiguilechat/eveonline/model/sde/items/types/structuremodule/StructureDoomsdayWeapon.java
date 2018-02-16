@@ -69,13 +69,6 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(10000)
     public int DamageDelayDuration;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * EM damage done.
      */
     @HighIsGood(true)
@@ -90,19 +83,19 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int DisallowInHighSec;
     /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
-    /**
-     * Kinetic damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double KineticDamage;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -114,6 +107,13 @@ public class StructureDoomsdayWeapon
     @Stackable(true)
     @DefaultIntValue(2)
     public int OnlineMaxSecurityClass;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double KineticDamage;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -171,19 +171,19 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int MaxGroupActive;
     /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
     private static LinkedHashMap<String, StructureDoomsdayWeapon> cache = (null);
 

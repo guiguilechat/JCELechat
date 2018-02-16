@@ -6,9 +6,27 @@ items:
     Cpu: 1000.0
     Hp: 40
     MaxLockedTargetsBonus: 1
+    MaxTargetRangeBonus: 12.0
     Power: 50000
     ScanResolutionBonus: 20.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 37532
     name: Standup Signal Amplifier I
+    volume: 4000.0
+  Standup Signal Amplifier II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    Cpu: 1200.0
+    Hp: 40
+    MaxLockedTargetsBonus: 2
+    MaxTargetRangeBonus: 15.0
+    MetaLevel: 5
+    Power: 60000
+    ScanResolutionBonus: 25.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47348
+    name: Standup Signal Amplifier II
     volume: 4000.0

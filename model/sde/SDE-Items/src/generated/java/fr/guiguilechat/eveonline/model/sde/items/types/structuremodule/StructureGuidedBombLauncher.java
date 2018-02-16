@@ -27,6 +27,13 @@ public class StructureGuidedBombLauncher
     @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -48,6 +55,13 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(1)
     public int Slots;
     /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -61,13 +75,6 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowInHighSec;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
     /**
      * 
      */
@@ -108,6 +115,13 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(1)
     public int ChargeRate;
     /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
@@ -122,19 +136,19 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(0)
     public int ChargeGroup1;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
-    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureGuidedBombLauncher.yaml";
     private static LinkedHashMap<String, StructureGuidedBombLauncher> cache = (null);
 

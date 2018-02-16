@@ -1,34 +1,45 @@
 items:
   ECM Jammer Burst:
+    Untargetable: 1
     id: 41342
     name: ECM Jammer Burst
   Energy Neutralizer Burst:
+    Untargetable: 1
     id: 41344
     name: Energy Neutralizer Burst
   Gravitational Transportation Field Beacon:
+    Untargetable: 1
     id: 41540
     name: Gravitational Transportation Field Beacon
   Guidance Disruptor Burst:
+    Untargetable: 1
     id: 41347
     name: Guidance Disruptor Burst
   Modular Effect Beacon:
+    Untargetable: 1
     id: 41233
     name: Modular Effect Beacon
   Sensor Dampener Burst:
+    Untargetable: 1
     id: 41348
     name: Sensor Dampener Burst
   Stasis Webifier Burst:
+    Untargetable: 1
     id: 41343
     name: Stasis Webifier Burst
   Target Painter Burst:
+    Untargetable: 1
     id: 41345
     name: Target Painter Burst
   Tracking Disruption Burst:
+    Untargetable: 1
     id: 41346
     name: Tracking Disruption Burst
   Unlit Modular Effect Beacon:
+    Untargetable: 1
     id: 41235
     name: Unlit Modular Effect Beacon
   Warp Disrupt Burst:
+    Untargetable: 1
     id: 41349
     name: Warp Disrupt Burst

@@ -18,6 +18,11 @@ public class ASettingsTest {
 		public boolean useTempDir() {
 			return true;
 		}
+
+		@Override
+		public void storeLater() {
+			store();
+		}
 	}
 
 	@Test
@@ -27,7 +32,7 @@ public class ASettingsTest {
 		Assert.assertEquals(fs1.a, "bla");
 		fs1.a = "bbb";
 		fs1.store();
-		fs2 = new Yaml().loadAs(new FileReader(fs1.getFile()), FalseSettings.class);
+		fs2 = new Yaml().loadAs(new FileReader(fs1.getStorageFile()), FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");
 		fs2 = ISettings.load(FalseSettings.class);
 		Assert.assertEquals(fs2.a, "bbb");

@@ -34,19 +34,19 @@ public class AdvancedLightMissile
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double AoeDamageReductionFactor;
-    /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int LauncherGroup;
+    /**
+     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double AoeDamageReductionFactor;
     /**
      * DO NOT MESS WITH
      */

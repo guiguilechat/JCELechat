@@ -2,13 +2,13 @@ items:
   Arbalest Compact XL Torpedo Launcher:
     ChargeGroup1: 476
     ChargeRate: 1
-    Cpu: 150.0
+    Cpu: 135.0
     HeatAbsorbtionRateModifier: 0.009999999776482582
     HeatDamage: 4.5
     Hp: 40
     MetaLevel: 1
     OverloadRofBonus: -15
-    Power: 100000
+    Power: 90000
     ReloadTime: 10000.0
     RequiredSkill1: 21668
     RequiredSkill1Level: 1

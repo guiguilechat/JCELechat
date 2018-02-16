@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.team;
 
 import fr.guiguilechat.eveonline.programs.manager.Manager;
+import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import javafx.event.Event;
 import javafx.scene.control.Button;
@@ -28,8 +29,8 @@ public class AddTeamPane extends HBox implements EvePane {
 
 	public void addTeam(Event e) {
 		String name = addTeamField.getText();
-		if (!parent.settings.teams.containsKey(name)) {
-			parent.addTeam(name);
+		if (!parent.settings.teams().containsKey(name)) {
+			parent.settings.teams().put(name, new TeamDescription());
 			addTeamField.clear();
 		}
 	}

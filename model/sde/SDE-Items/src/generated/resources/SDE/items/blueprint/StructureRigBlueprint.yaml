@@ -873,6 +873,18 @@ items:
     id: 37383
     name: Standup M-Set Energy Neutralizer Projection II Blueprint
     volume: 0.01
+  Standup M-Set Enhanced Targeting System I Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37396
+    name: Standup M-Set Enhanced Targeting System I Blueprint
+    volume: 0.01
+  Standup M-Set Enhanced Targeting System II Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 37397
+    name: Standup M-Set Enhanced Targeting System II Blueprint
+    volume: 0.01
   Standup M-Set Equipment Manufacturing Material Efficiency I Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
@@ -1040,18 +1052,6 @@ items:
     TechLevel: 2
     id: 46648
     name: Standup M-Set Moon Ore Grading Processor II Blueprint
-    volume: 0.01
-  Standup M-Set Scan Resolution I Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37396
-    name: Standup M-Set Scan Resolution I Blueprint
-    volume: 0.01
-  Standup M-Set Scan Resolution II Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    id: 37397
-    name: Standup M-Set Scan Resolution II Blueprint
     volume: 0.01
   Standup M-Set Structure Manufacturing Material Efficiency I Blueprint:
     StructureItemVisualFlag: 1

@@ -19,41 +19,6 @@ public class StructureDrillingRigMStability
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
      * Rig Bonus that affects fracture delay for moon chunk
      */
     @HighIsGood(true)
@@ -95,6 +60,34 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */

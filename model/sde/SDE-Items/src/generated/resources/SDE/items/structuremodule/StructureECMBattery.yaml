@@ -3,14 +3,14 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    CapacitorNeed: 3600.0
+    CapacitorNeed: 3000.0
     ChargeGroup1: 1549
     ChargeSize: 1
-    Cpu: 3000.0
+    Cpu: 4000.0
     Duration: 20000.0
-    FalloffEffectiveness: 130000
+    FalloffEffectiveness: 97500
     Hp: 40
-    MaxRange: 130000
+    MaxRange: 97500
     MetaGroupID: 4
     MetaLevel: 8
     Power: 50000
@@ -32,11 +32,11 @@ items:
     CapacitorNeed: 3000.0
     ChargeGroup1: 1549
     ChargeSize: 1
-    Cpu: 3000.0
+    Cpu: 4000.0
     Duration: 20000.0
-    FalloffEffectiveness: 100000
+    FalloffEffectiveness: 75000
     Hp: 40
-    MaxRange: 100000
+    MaxRange: 75000
     Power: 50000
     ReloadTime: 0.009999999776482582
     RemoteResistanceID: 2253
@@ -48,4 +48,29 @@ items:
     TechLevel: 1
     id: 35940
     name: Standup Variable Spectrum ECM I
+    volume: 4000.0
+  Standup Variable Spectrum ECM II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 3600.0
+    ChargeGroup1: 1549
+    ChargeSize: 1
+    Cpu: 4800.0
+    Duration: 20000.0
+    FalloffEffectiveness: 90000
+    Hp: 40
+    MaxRange: 90000
+    MetaLevel: 5
+    Power: 60000
+    ReloadTime: 0.009999999776482582
+    RemoteResistanceID: 2253
+    ScanGravimetricStrengthBonus: 36.0
+    ScanLadarStrengthBonus: 36.0
+    ScanMagnetometricStrengthBonus: 36.0
+    ScanRadarStrengthBonus: 36.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47338
+    name: Standup Variable Spectrum ECM II
     volume: 4000.0

@@ -32,13 +32,6 @@ public class StructureCombatRigMEWProjection
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureRigEwarOptimalBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
      * 
@@ -46,7 +39,7 @@ public class StructureCombatRigMEWProjection
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureRigEwarFalloffBonus;
+    public int StructureRigEwarOptimalBonus;
     /**
      * The maximum hitpoints of an object.
      */
@@ -54,6 +47,13 @@ public class StructureCombatRigMEWProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureRigEwarFalloffBonus;
     /**
      * 
      */
@@ -73,13 +73,6 @@ public class StructureCombatRigMEWProjection
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup02;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double HiSecModifier;
     /**
@@ -88,7 +81,7 @@ public class StructureCombatRigMEWProjection
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int CanFitShipGroup02;
     /**
      * 
      */
@@ -96,6 +89,13 @@ public class StructureCombatRigMEWProjection
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double LowSecModifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
     /**
      * 
      */

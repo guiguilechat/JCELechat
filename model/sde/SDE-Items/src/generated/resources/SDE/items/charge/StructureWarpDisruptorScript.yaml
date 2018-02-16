@@ -1,0 +1,11 @@
+items:
+  Standup Focused Warp Scrambling Script:
+    ActivationBlockedStrenght: 1
+    ChargeSize: 1
+    LauncherGroup: 1442
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    WarpScrambleRangeBonus: -70
+    id: 47336
+    name: Standup Focused Warp Scrambling Script
+    volume: 1.0

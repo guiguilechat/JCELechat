@@ -1,5 +1,5 @@
 items:
-  Standup ASML-LD Missile:
+  Standup Cruise Missile:
     Agility: 1000.0
     AimedLaunch: 1
     AoeCloudSize: 500
@@ -18,9 +18,9 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 600.0
     id: 37846
-    name: Standup ASML-LD Missile
+    name: Standup Cruise Missile
     volume: 0.5
-  Standup ASML-MD Missile:
+  Standup Heavy Missile:
     Agility: 1000.0
     AimedLaunch: 1
     AoeCloudSize: 200
@@ -39,9 +39,9 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 300.0
     id: 37847
-    name: Standup ASML-MD Missile
+    name: Standup Heavy Missile
     volume: 0.5
-  Standup ASML-SD Missile:
+  Standup Light Missile:
     Agility: 1000.0
     AimedLaunch: 1
     AoeCloudSize: 100
@@ -60,5 +60,5 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 100.0
     id: 37848
-    name: Standup ASML-SD Missile
+    name: Standup Light Missile
     volume: 0.5

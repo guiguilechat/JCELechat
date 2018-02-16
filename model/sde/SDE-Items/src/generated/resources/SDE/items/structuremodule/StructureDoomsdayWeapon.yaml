@@ -2,8 +2,8 @@ items:
   Standup Arcing Vorton Projector I:
     CanFitShipType1: 35834
     CanFitShipType2: 40340
-    CapacitorNeed: 180000.0
-    Cpu: 6000.0
+    CapacitorNeed: 160000.0
+    Cpu: 4000.0
     DamageDelayDuration: 13750
     DeadspaceUnsafe: 2
     DisallowEarlyDeactivation: 1
@@ -21,7 +21,7 @@ items:
     MaxGroupActive: 1
     MaxGroupFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 1100000
+    Power: 1000000
     StructureItemVisualFlag: 1
     ThermalDamage: 1000000.0
     id: 35928

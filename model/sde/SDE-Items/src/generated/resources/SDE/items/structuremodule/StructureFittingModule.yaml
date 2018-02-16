@@ -5,21 +5,51 @@ items:
     CanFitShipGroup03: 1406
     CpuMultiplier: 1.0800000429153442
     Hp: 40
-    Power: 50000
+    Power: 5000
     PowerOutputMultiplier: 1.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35963
     name: Standup Co-Processor Array I
+    volume: 4000.0
+  Standup Co-Processor Array II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CpuMultiplier: 1.100000023841858
+    Hp: 40
+    MetaLevel: 5
+    Power: 6000
+    PowerOutputMultiplier: 1.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47344
+    name: Standup Co-Processor Array II
     volume: 4000.0
   Standup Reactor Control Unit I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 1000.0
+    Cpu: 100.0
     CpuMultiplier: 1.0
     Hp: 40
     PowerOutputMultiplier: 1.100000023841858
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35965
     name: Standup Reactor Control Unit I
+    volume: 4000.0
+  Standup Reactor Control Unit II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    Cpu: 120.0
+    CpuMultiplier: 1.0
+    Hp: 40
+    MetaLevel: 5
+    PowerOutputMultiplier: 1.149999976158142
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47347
+    name: Standup Reactor Control Unit II
     volume: 4000.0

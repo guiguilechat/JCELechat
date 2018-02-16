@@ -51,6 +51,7 @@ import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
 import javafx.application.Application;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.collections.FXCollections;
+import javafx.collections.MapChangeListener;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 import javafx.geometry.Side;
@@ -112,6 +113,7 @@ public class Manager extends Application implements EvePane {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		ISettings.attachStoreListeners(settings);
 		logger.debug("start manager");
 		primaryStage.setTitle("guigui lechat manager");
 
@@ -154,7 +156,7 @@ public class Manager extends Application implements EvePane {
 		propagateNewXMLV2(apiXMLV2.toArray(new APIRoot[0]));
 
 		logger.debug("create esi connections");
-		for (Entry<String, SSODevKey> e : settings.ssoKeys.entrySet()) {
+		for (Entry<String, SSODevKey> e : settings.ssoKeys().entrySet()) {
 			String name = e.getKey();
 			SSODevKey key = e.getValue();
 			ObservableList<ESIConnection> list = FXCollections.observableArrayList();
@@ -167,9 +169,8 @@ public class Manager extends Application implements EvePane {
 		}
 
 		logger.debug("propagate teams");
-		for (String team : settings.teams.keySet()) {
-			propagateNewTeam(team);
-			for (String charname : settings.teams.get(team).members) {
+		for (String team : settings.teams().keySet()) {
+			for (String charname : settings.teams().get(team).members) {
 				propagateAdd2Team(team, charname);
 			}
 		}
@@ -213,11 +214,6 @@ public class Manager extends Application implements EvePane {
 		}
 	}
 
-	@Override
-	public void onDelTeam(String name) {
-		cachedTeamAssets.remove(name);
-	}
-
 	// external calls
 	// modification of the settings
 	//
@@ -252,13 +248,13 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public SSODevKey addSSODev(String name, String appID, String base64, String callback) {
-		SSODevKey ret = settings.ssoKeys.get(name);
+		SSODevKey ret = settings.ssoKeys().get(name);
 		if (ret == null) {
 			ret = new SSODevKey();
 			ret.appID = appID;
 			ret.base64 = base64;
 			ret.callback = callback;
-			settings.ssoKeys.put(name, ret);
+			settings.ssoKeys().put(name, ret);
 			settings.store();
 			ssoDev2Clients.put(name, FXCollections.observableArrayList());
 			return ret;
@@ -269,7 +265,7 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public void delSSODev(String name) {
-		SSODevKey dev = settings.ssoKeys.remove(name);
+		SSODevKey dev = settings.ssoKeys().remove(name);
 		if (dev == null) {
 			logger.warn("error, key with name " + name + " not present, can't remove");
 		}
@@ -289,7 +285,7 @@ public class Manager extends Application implements EvePane {
 	 *          the refresh token
 	 */
 	public void addSSOClient(String devName, String refreshToken) {
-		SSODevKey devkey = settings.ssoKeys.get(devName);
+		SSODevKey devkey = settings.ssoKeys().get(devName);
 		if (devkey == null) {
 			logger.warn("can't find devkey for name " + devName);
 			debug("can't find devkey for name " + devName);
@@ -315,7 +311,7 @@ public class Manager extends Application implements EvePane {
 
 	public void delSSOClient(ESIConnection con) {
 		String name = con.verify.characterName();
-		for (SSODevKey dev : settings.ssoKeys.values()) {
+		for (SSODevKey dev : settings.ssoKeys().values()) {
 			dev.character2Refresh.remove(name);
 		}
 		settings.store();
@@ -339,8 +335,8 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public Stream<EveChar> streamTeamCharacters(String team) {
-		if (team != null && settings.teams.containsKey(team)) {
-			Set<String> members = settings.teams.get(team).members;
+		if (team != null && settings.teams().containsKey(team)) {
+			Set<String> members = settings.teams().get(team).members;
 			return streamChars().filter(c -> members.contains(c.name));
 		}
 		return Stream.empty();
@@ -352,27 +348,13 @@ public class Manager extends Application implements EvePane {
 
 	// team
 
-	public void addTeam(String name) {
-		settings.teams.put(name, new TeamDescription());
-		settings.store();
-		propagateNewTeam(name);
-	}
-
-	public void delTeam(String name) {
-		settings.teams.remove(name);
-		settings.store();
-		propagateDelTeam(name);
-	}
-
 	public boolean renameTeam(String old, String now) {
-		if (old != null && settings.teams.keySet().contains(old) && now != null && now.length() > 0
-				&& !settings.teams.keySet().contains(now)) {
-			settings.teams.put(now, settings.teams.remove(old));
+		if (old != null && settings.teams().keySet().contains(old) && now != null && now.length() > 0
+				&& !settings.teams().keySet().contains(now)) {
+			settings.teams().put(now, settings.teams().remove(old));
 			if (old.equals(settings.focusedTeam)) {
 				settings.focusedTeam = now;
 			}
-			settings.store();
-			propagateRenameTeam(old, now);
 			return true;
 		} else {
 			return false;
@@ -380,11 +362,9 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public boolean copyTeam(String from, String newname) {
-		if (from != null && settings.teams.containsKey(from) && newname != null && newname.length() > 0
-				&& !settings.teams.containsKey(newname)) {
-			settings.teams.put(newname, settings.teams.get(from).clone());
-			settings.store();
-			propagateNewTeam(newname);
+		if (from != null && settings.teams().containsKey(from) && newname != null && newname.length() > 0
+				&& !settings.teams().containsKey(newname)) {
+			settings.teams().put(newname, settings.teams().get(from).clone());
 			return true;
 		} else {
 			return false;
@@ -392,13 +372,13 @@ public class Manager extends Application implements EvePane {
 	}
 
 	public void add2Team(String character, String team) {
-		settings.teams.get(team).members.add(character);
+		settings.teams().get(team).members.add(character);
 		settings.store();
 		propagateAdd2Team(team, character);
 	}
 
 	public void del2Team(String character, String team) {
-		settings.teams.get(team).members.remove(character);
+		settings.teams().get(team).members.remove(character);
 		settings.store();
 		propagateDel2Team(team, character);
 	}
@@ -419,7 +399,7 @@ public class Manager extends Application implements EvePane {
 	 * @return distinct parallel stream of system names
 	 */
 	public Stream<String> streamTeamPossibleSystems(String team) {
-		Set<String> allowedChars = settings.teams.get(team).members;
+		Set<String> allowedChars = settings.teams().get(team).members;
 		Stream<EveChar> chars = apiXMLV2.parallelStream().flatMap(a -> a.account.characters().parallelStream())
 				.filter(c -> allowedChars.contains(c.name));
 		return chars.parallel().flatMap(this::streamCharPossibleSystems).distinct();
@@ -442,7 +422,7 @@ public class Manager extends Application implements EvePane {
 
 	public Set<String> getTeamSystemLimit(String team) {
 		if (team != null) {
-			return settings.teams.get(team).systems;
+			return settings.teams().get(team).systems;
 		}
 		return Collections.emptySet();
 	}
@@ -455,7 +435,7 @@ public class Manager extends Application implements EvePane {
 	 * @return
 	 */
 	public boolean addTeamSystem(String teamName, String sysName) {
-		Set<String> teamSystems = settings.teams.get(teamName).systems;
+		Set<String> teamSystems = settings.teams().get(teamName).systems;
 		if (!teamSystems.add(sysName)) {
 			return false;
 		}
@@ -472,7 +452,7 @@ public class Manager extends Application implements EvePane {
 	 * @return
 	 */
 	public boolean remTeamSystem(String teamName, String sysName) {
-		Set<String> teamSystems = settings.teams.get(teamName).systems;
+		Set<String> teamSystems = settings.teams().get(teamName).systems;
 		if (!teamSystems.remove(sysName)) {
 			return false;
 		}
@@ -485,16 +465,16 @@ public class Manager extends Application implements EvePane {
 
 	/** get the provision of materials for the focused team. */
 	public Provision getTeamProvision(String team, ProvisionType provitype) {
-		if (team == null) {
+		if (team == null || settings.teams().get(team) == null) {
 			return null;
 		}
 		switch (provitype) {
 		case MATERIAL:
-			return settings.teams.get(team).provisionMaterials;
+			return settings.teams().get(team).provisionMaterials;
 		case PRODUCT:
-			return settings.teams.get(team).provisionProduct;
+			return settings.teams().get(team).provisionProduct;
 		case SO:
-			return settings.teams.get(team).provisionSO;
+			return settings.teams().get(team).provisionSO;
 		default:
 			throw new UnsupportedOperationException("can't handle " + provitype);
 		}
@@ -731,6 +711,13 @@ public class Manager extends Application implements EvePane {
 	 * contains for each team the last list of items retrieved
 	 */
 	protected Map<String, Map<Integer, Long>> cachedTeamAssets = Collections.synchronizedMap(new HashMap<>());
+	{
+		settings.teams().addListener((MapChangeListener<String, TeamDescription>) change -> {
+			if(change.wasRemoved()) {
+				cachedTeamAssets.remove(change.getKey());
+			}
+		});
+	}
 
 	/**
 	 * get the list of items for given team. fires a
@@ -864,25 +851,21 @@ public class Manager extends Application implements EvePane {
 
 	public void addShop(Map<String, Integer> items) {
 		for (Entry<String, Integer> e : items.entrySet()) {
-			settings.shopList.put(e.getKey(), settings.shopList.getOrDefault(e.getKey(), 0) + e.getValue());
+			settings.shopList().put(e.getKey(), settings.shopList().getOrDefault(e.getKey(), 0) + e.getValue());
 		}
-		settings.store();
 	}
 
 	public void delShop(String key) {
-		if (settings.shopList.remove(key) != null) {
-			settings.store();
-		}
+		settings.shopList().remove(key);
 	}
 
 	public void setShop(String name, int qtty) {
-		settings.shopList.put(name, qtty);
-		settings.store();
+		settings.shopList().put(name, qtty);
 	}
 
 	public void addJob(String bp, JobActivity activity, String details, int nbRuns) {
 		ScheduledJob sj = new ScheduledJob(bp, activity, details);
-		settings.scheduled.put(sj, settings.scheduled.getOrDefault(sj, 0) + nbRuns);
+		settings.scheduled().put(sj, settings.scheduled().getOrDefault(sj, 0) + nbRuns);
 	}
 
 }

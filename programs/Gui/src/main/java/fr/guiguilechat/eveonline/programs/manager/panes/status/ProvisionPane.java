@@ -21,7 +21,6 @@ import javafx.scene.control.TableView;
 
 public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 
-	@SuppressWarnings("unused")
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(ProvisionPane.class);
 
 	public static class ProvisionData {
@@ -149,11 +148,11 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 				ret.item = MetaInf.getItem(itemID);
 				if (ret.item != null) {
 					map.put(itemID, ret);
+					ret.team = team;
+					ret.type = ptype;
 				} else {
-					ret = null;
+					logger.warn("can't make provision for itemid " + itemID + " type " + ptype + " : id unknown");
 				}
-				ret.team=team;
-				ret.type = ptype;
 			}
 			return ret;
 		}
@@ -172,7 +171,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 			tp.itemsProvisionsSO.values().stream().forEach(pp -> pp.required = 0);
 		}
 		getItems().clear();
-		for (String team : parent().settings.teams.keySet()) {
+		for (String team : parent().settings.teams().keySet()) {
 			TeamProvisions tp = teamprovisions.get(team);
 			if (tp == null) {
 				tp = new TeamProvisions(team);
@@ -191,7 +190,7 @@ public class ProvisionPane extends TableView<ProvisionData> implements EvePane {
 	}
 
 	public void updateItems() {
-		for (String team : parent().settings.teams.keySet()) {
+		for (String team : parent().settings.teams().keySet()) {
 			TeamProvisions tp = teamprovisions.get(team);
 			Map<Integer, Long> assets = parent().getTeamAssets(team);
 			Map<Integer, Long> bos = parent().getTeamBOs(team);

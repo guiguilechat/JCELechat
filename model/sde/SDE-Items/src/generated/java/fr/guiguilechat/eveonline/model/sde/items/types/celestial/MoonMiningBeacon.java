@@ -2,12 +2,22 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
 import org.yaml.snakeyaml.Yaml;
 
 public class MoonMiningBeacon
     extends Celestial
 {
+    /**
+     * Attribute to disallow targetting.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Untargetable;
     public final static String RESOURCE_PATH = "SDE/items/celestial/MoonMiningBeacon.yaml";
     private static LinkedHashMap<String, MoonMiningBeacon> cache = (null);
 

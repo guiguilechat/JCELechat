@@ -92,6 +92,10 @@ items:
     id: 41595
     name: Shield Thermal Resistance Script Blueprint
     volume: 0.01
+  Standup Focused Warp Scrambling Script Blueprint:
+    id: 47337
+    name: Standup Focused Warp Scrambling Script Blueprint
+    volume: 0.01
   Standup Gravimetric ECM Script Blueprint:
     StructureItemVisualFlag: 1
     id: 37833

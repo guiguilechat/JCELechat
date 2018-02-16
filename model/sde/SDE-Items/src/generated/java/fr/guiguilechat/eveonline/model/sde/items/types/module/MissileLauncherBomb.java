@@ -27,19 +27,19 @@ public class MissileLauncherBomb
     @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */

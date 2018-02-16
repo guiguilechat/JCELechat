@@ -83,6 +83,13 @@ public class TargetPainter
     @DefaultDoubleValue(0.0)
     public double HeatDamage;
     /**
+     * distance from maximum range at which effectiveness has fallen by half
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FalloffEffectiveness;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -96,13 +103,6 @@ public class TargetPainter
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double HeatAbsorbtionRateModifier;
-    /**
-     * distance from maximum range at which effectiveness has fallen by half
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FalloffEffectiveness;
     /**
      * meta group of type
      */

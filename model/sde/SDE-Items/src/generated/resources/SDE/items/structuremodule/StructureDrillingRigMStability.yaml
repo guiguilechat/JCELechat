@@ -1,7 +1,6 @@
 items:
   Standup M-Set Moon Drilling Stability I:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 50
@@ -18,7 +17,6 @@ items:
     volume: 10.0
   Standup M-Set Moon Drilling Stability II:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 100

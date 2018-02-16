@@ -27,13 +27,6 @@ public class StructureECMBattery
     @DefaultDoubleValue(10000.0)
     public double ReloadTime;
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
      * Tech level of an item
      */
     @HighIsGood(true)
@@ -41,12 +34,12 @@ public class StructureECMBattery
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * The maximum hitpoints of an object.
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
     /**
      * Length of activation time.
      */
@@ -54,6 +47,13 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Duration;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      */
@@ -83,19 +83,19 @@ public class StructureECMBattery
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrengthBonus;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup01;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * 
      */

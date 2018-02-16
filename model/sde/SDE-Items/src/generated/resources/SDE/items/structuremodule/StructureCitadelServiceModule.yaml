@@ -3,12 +3,13 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 3000.0
+    Cpu: 600.0
     MaxTypeFitted: 1
-    Power: 350000
+    Power: 70000
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35894
     name: Standup Cloning Center I
@@ -20,12 +21,13 @@ items:
     CanFitShipType4: 35826
     CanFitShipType5: 35827
     CanFitShipType6: 35836
-    Cpu: 10000.0
+    Cpu: 1200.0
     MaxTypeFitted: 1
-    Power: 800000
+    Power: 100000
     ServiceModuleFuelAmount: 40
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2880
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35892
     name: Standup Market Hub I

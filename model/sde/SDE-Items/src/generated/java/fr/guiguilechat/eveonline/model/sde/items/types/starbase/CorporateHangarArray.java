@@ -13,19 +13,19 @@ public class CorporateHangarArray
     extends Starbase
 {
     /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldUniformity;
     /**
      * Amount of maximum shield HP on the item.
      */

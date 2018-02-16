@@ -108,6 +108,10 @@ public class ItemsTranslater {
 				.entrySet()) {
 			try {
 				Object built = builtItems.get(e.getKey());
+				if (built == null) {
+					logger.warn("cannot find item built for id " + e.getKey());
+					continue;
+				}
 				for (Entry<Integer, EdgmTypeAttributes> c : e.getValue().entrySet()) {
 					String fieldName = classes.attID2FieldName.get(c.getKey());
 					Field f = built.getClass().getField(fieldName);

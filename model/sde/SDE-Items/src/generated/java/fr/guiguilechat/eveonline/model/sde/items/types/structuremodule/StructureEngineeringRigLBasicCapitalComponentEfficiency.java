@@ -80,15 +80,15 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HiSecModifier;
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    @DefaultDoubleValue(1.0)
+    public double HiSecModifier;
     /**
      * 
      */

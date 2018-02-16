@@ -47,10 +47,6 @@ items:
     id: 46052
     name: ♦ Cruor
     volume: 28600.0
-  ♦ Daredevil:
-    id: 46058
-    name: ♦ Daredevil
-    volume: 26500.0
   ♦ Dramiel:
     id: 46061
     name: ♦ Dramiel
@@ -91,10 +87,6 @@ items:
     id: 43577
     name: ♦ Maulus
     volume: 23000.0
-  ♦ Medusa:
-    id: 43636
-    name: ♦ Medusa
-    volume: 17500.0
   ♦ Merlin:
     id: 46070
     name: ♦ Merlin
@@ -147,3 +139,31 @@ items:
     id: 46053
     name: ♦ Worm
     volume: 16500.0
+  ♦ test_damage:
+    id: 47196
+    name: ♦ test_damage
+    volume: 27289.0
+  ♦ test_drone_damage:
+    id: 47194
+    name: ♦ test_drone_damage
+    volume: 5.0
+  ♦ test_drone_logi:
+    id: 47195
+    name: ♦ test_drone_logi
+    volume: 5.0
+  ♦ test_ewar:
+    id: 47197
+    name: ♦ test_ewar
+    volume: 27289.0
+  �� Daredevil:
+    id: 46058
+    name: �� Daredevil
+    volume: 26500.0
+  ��� Dramiel:
+    id: 43633
+    name: ��� Dramiel
+    volume: 27289.0
+  ��� Medusa:
+    id: 43636
+    name: ��� Medusa
+    volume: 17500.0

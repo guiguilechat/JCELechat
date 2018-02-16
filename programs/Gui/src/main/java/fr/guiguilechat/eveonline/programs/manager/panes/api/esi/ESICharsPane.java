@@ -57,38 +57,32 @@ public class ESICharsPane extends BorderPane implements EvePane {
 			String name = ed.getValue().verify.characterName();
 			CheckBox shopper = new CheckBox("shopper");
 			shopper.setTooltip(new Tooltip("if this character is used for shopping"));
-			shopper.setSelected(parent.settings.shopper.contains(name));
+			shopper.setSelected(parent.settings.shopper().contains(name));
 			shopper.selectedProperty().addListener((obj, old, now) -> {
 				if (now) {
-					parent.settings.shopper.add(name);
-					parent.settings.store();
+					parent.settings.shopper().add(name);
 				} else {
-					parent.settings.shopper.remove(name);
-					parent.settings.store();
+					parent.settings.shopper().remove(name);
 				}
 			});
 			CheckBox pi = new CheckBox("PI");
 			pi.setTooltip(new Tooltip("if the character has PI to monitor"));
-			pi.setSelected(parent.settings.planets.contains(name));
+			pi.setSelected(parent.settings.planets().contains(name));
 			pi.selectedProperty().addListener((obj, old, now) -> {
 				if (now) {
-					parent.settings.planets.add(name);
-					parent.settings.store();
+					parent.settings.planets().add(name);
 				} else {
-					parent.settings.planets.remove(name);
-					parent.settings.store();
+					parent.settings.planets().remove(name);
 				}
 			});
 			CheckBox corp = new CheckBox("use corp");
 			corp.setTooltip(new Tooltip("use the character's corp access"));
-			corp.setSelected(parent.settings.corps.contains(name));
+			corp.setSelected(parent.settings.corps().contains(name));
 			corp.selectedProperty().addListener((obj, old, now) -> {
 				if (now) {
-					parent.settings.corps.add(name);
-					parent.settings.store();
+					parent.settings.corps().add(name);
 				} else {
-					parent.settings.corps.remove(name);
-					parent.settings.store();
+					parent.settings.corps().remove(name);
 				}
 			});
 			VBox ret = new VBox(shopper, pi, corp);
@@ -129,7 +123,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 
 		Button btnCreate = new Button("link your account");
 		btnCreate.setOnAction(ev -> {
-			SSODevKey devKey = parent.settings.ssoKeys.get(selectDev.getValue());
+			SSODevKey devKey = parent.settings.ssoKeys().get(selectDev.getValue());
 			ESITools.openBrowserForApp(devKey.appID, devKey.callback, ESITools.SCOPES);
 		});
 		addPane.addRow(0, selectDev, btnCreate);
@@ -140,7 +134,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		addAccount.setOnAction(ev -> {
 			String redirectURL = urlf.getText();
 			if (redirectURL != null && redirectURL.length() > 0) {
-				SSODevKey dev = parent.settings.ssoKeys.get(selectDev.getValue());
+				SSODevKey dev = parent.settings.ssoKeys().get(selectDev.getValue());
 				String authCode = ESITools.callbackURLToAuthCode(redirectURL, dev.callback);
 				String refresh = ESITools.getRefreshToken(dev.base64, authCode);
 				if (refresh != null) {

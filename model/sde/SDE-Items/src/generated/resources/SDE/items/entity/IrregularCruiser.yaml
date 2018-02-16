@@ -1,0 +1,32 @@
+items:
+  Blood Raider Cruiser:
+    id: 36940
+    name: Blood Raider Cruiser
+    volume: 118000.0
+  Eosian Inquisitor:
+    id: 46347
+    name: Eosian Inquisitor
+  Eosian Preserver:
+    id: 46343
+    name: Eosian Preserver
+    volume: 19100.0
+  Eosian Sentinel:
+    id: 46346
+    name: Eosian Sentinel
+    volume: 109000.0
+  Guardian Angels Jehoel:
+    id: 42128
+    name: Guardian Angels Jehoel
+    volume: 109000.0
+  Guristas Cruiser:
+    id: 40729
+    name: Guristas Cruiser
+    volume: 101000.0
+  Purist Papal:
+    id: 42513
+    name: Purist Papal
+    volume: 118000.0
+  Serpentis Cruiser:
+    id: 38658
+    name: Serpentis Cruiser
+    volume: 112000.0

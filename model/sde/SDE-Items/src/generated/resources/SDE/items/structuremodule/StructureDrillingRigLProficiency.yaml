@@ -1,7 +1,6 @@
 items:
   Standup L-Set Moon Drilling Proficiency I:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 50
@@ -19,7 +18,6 @@ items:
     volume: 20.0
   Standup L-Set Moon Drilling Proficiency II:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigAsteroidDecayBonus: 100

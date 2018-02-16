@@ -68,50 +68,6 @@ public interface EvePane {
 
 	//// Team modifications
 
-	/** do not override this */
-	public default void propagateNewTeam(String name) {
-		onNewTeam(name);
-		for (EvePane p : subEvePanes()) {
-			p.propagateNewTeam(name);
-		}
-	}
-
-	/** override this to handle a new team */
-	public default void onNewTeam(String name) {
-	}
-
-	/** do not override this */
-	public default void propagateDelTeam(String name) {
-		for (EvePane p : subEvePanes()) {
-			p.propagateDelTeam(name);
-		}
-		onDelTeam(name);
-	}
-
-	/** override this to handle a team deletion */
-	public default void onDelTeam(String name) {
-	}
-
-	/** do not override this */
-	public default void propagateRenameTeam(String old, String now) {
-		onRenameTeam(old, now);
-		for (EvePane e : subEvePanes()) {
-			e.propagateRenameTeam(old, now);
-		}
-	}
-
-	/**
-	 * Override this to handle a team rename. this is called after the parents
-	 * have been notified, and in most case should only replace occurences of old
-	 * by now.
-	 *
-	 * @param old
-	 *          old team name
-	 * @param now
-	 *          new team name
-	 */
-	public default void onRenameTeam(String old, String now) {
-	}
 
 	/** do not override this */
 	public default void propagateTeamAddSystem(String team, String system) {

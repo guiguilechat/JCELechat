@@ -12,8 +12,10 @@ import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.ProvisionType;
+import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription;
 import fr.guiguilechat.eveonline.programs.manager.Settings.TeamDescription.Provision;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
+import javafx.collections.MapChangeListener;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
@@ -34,6 +36,7 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 		this.parent = parent;
 		setHgap(5);
 		setVgap(1);
+		parent.settings.teams().addListener((MapChangeListener<String, TeamDescription>) change -> update());
 	}
 
 	LinkedHashMap<Integer, LPOffer> lpoffersbyId = LPOffer.load();
@@ -102,11 +105,6 @@ public class ProvisionOrderedPane extends GridPane implements EvePane {
 
 	@Override
 	public void onFocusedTeam(String teamName) {
-		update();
-	}
-
-	@Override
-	public void onDelTeam(String name) {
 		update();
 	}
 

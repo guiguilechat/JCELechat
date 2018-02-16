@@ -199,15 +199,15 @@ public class TacticalDestroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipBonusTacticalDestroyerGallente1;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
+    @DefaultIntValue(0)
+    public int ShipBonusTacticalDestroyerGallente1;
     /**
      * Attribute on ships used for ship upgrades
      */

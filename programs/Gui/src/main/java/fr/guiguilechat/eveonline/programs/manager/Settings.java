@@ -4,17 +4,32 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.Set;
 
-import org.yaml.snakeyaml.representer.Representer;
-
 import fr.guiguilechat.eveonline.programs.manager.settings.ISettings;
+import javafx.animation.PauseTransition;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableMap;
+import javafx.collections.ObservableSet;
+import javafx.util.Duration;
 
 public class Settings implements ISettings {
 
 	@Override
 	public String getAppName() {
 		return "guiguilechat.evemanager";
+	}
+
+	private transient PauseTransition storeLaterTransition = new PauseTransition(Duration.seconds(1));
+
+	@Override
+	public void storeLater() {
+		synchronized (storeLaterTransition) {
+			System.err.println("store later");
+			storeLaterTransition.setOnFinished(event -> store());
+			storeLaterTransition.playFromStart();
+		}
 	}
 
 	public static class TeamDescription {
@@ -78,13 +93,52 @@ public class Settings implements ISettings {
 		public HashMap<String, String> character2Refresh = new HashMap<>();
 	}
 
-	public LinkedHashMap<String, SSODevKey> ssoKeys = new LinkedHashMap<>();
+	private ObservableMap<String, SSODevKey> ssoKeys = FXCollections.observableMap(new LinkedHashMap<>());
 
-	public LinkedHashMap<String, TeamDescription> teams = new LinkedHashMap<>();
+	public ObservableMap<String, SSODevKey> ssoKeys() {
+		return ssoKeys;
+	}
+
+	public void setSsoKeys(Map<String, SSODevKey> map) {
+		ssoKeys.clear();
+		ssoKeys.putAll(map);
+	}
+
+	public Map<String, SSODevKey> getSsoKeys() {
+		return ssoKeys;
+	}
+
+	private ObservableMap<String, TeamDescription> teams = FXCollections.observableMap(new LinkedHashMap<>());
+
+	public ObservableMap<String, TeamDescription> teams() {
+		return teams;
+	}
+
+	public void setTeams(Map<String, TeamDescription> map) {
+		teams.clear();
+		teams.putAll(map);
+	}
+
+	public Map<String, TeamDescription> getTeams() {
+		return teams;
+	}
 
 	public String focusedTeam = null;
 
-	public LinkedHashMap<String, Integer> shopList = new LinkedHashMap<>();
+	private ObservableMap<String, Integer> shopList = FXCollections.observableMap(new LinkedHashMap<>());
+
+	public void setShopList(Map<String, Integer> elements) {
+		shopList.clear();
+		shopList.putAll(elements);
+	}
+
+	public Map<String, Integer> getShopList() {
+		return shopList;
+	}
+
+	public ObservableMap<String, Integer> shopList() {
+		return shopList;
+	}
 
 	public static enum JobActivity {
 		copy, invent, manufacture, te, me;
@@ -117,7 +171,20 @@ public class Settings implements ISettings {
 		}
 	}
 
-	public LinkedHashMap<ScheduledJob, Integer> scheduled = new LinkedHashMap<>();
+	private ObservableMap<ScheduledJob, Integer> scheduled = FXCollections.observableMap(new LinkedHashMap<>());
+
+	public Map<ScheduledJob, Integer> getScheduled() {
+		return scheduled;
+	}
+
+	public void setScheduled(Map<ScheduledJob, Integer> item) {
+		scheduled.clear();
+		scheduled.putAll(item);
+	}
+
+	public ObservableMap<ScheduledJob, Integer> scheduled() {
+		return scheduled;
+	}
 
 	public boolean hideDebug = true;
 
@@ -407,17 +474,49 @@ public class Settings implements ISettings {
 
 	public BurnersEvalParams burners = new BurnersEvalParams();
 
-	@Override
-	public Representer makeYamlRepresenter() {
-		Representer ret = ISettings.super.makeYamlRepresenter();
-		ret.getPropertyUtils().setSkipMissingProperties(true);
-		return ret;
+	private ObservableSet<String> shopper = FXCollections.observableSet(new LinkedHashSet<>());
+
+	public void setShopper(Set<String> elements) {
+		shopper.clear();
+		shopper.addAll(elements);
 	}
 
-	public LinkedHashSet<String> shopper = new LinkedHashSet<>();
+	public Set<String> getShopper() {
+		return shopper;
+	}
 
-	public LinkedHashSet<String> planets = new LinkedHashSet<>();
+	public ObservableSet<String> shopper() {
+		return shopper;
+	}
 
-	public LinkedHashSet<String> corps = new LinkedHashSet<>();
+	private ObservableSet<String> planets = FXCollections.observableSet(new LinkedHashSet<>());
+
+	public void setPlanets(Set<String> elements) {
+		planets.clear();
+		planets.addAll(elements);
+	}
+
+	public Set<String> getPlanets() {
+		return planets;
+	}
+
+	public ObservableSet<String> planets() {
+		return planets;
+	}
+
+	private ObservableSet<String> corps = FXCollections.observableSet(new LinkedHashSet<>());
+
+	public void setCorps(Set<String> elements) {
+		corps.clear();
+		corps.addAll(elements);
+	}
+
+	public Set<String> getCorps() {
+		return corps;
+	}
+
+	public ObservableSet<String> corps() {
+		return corps;
+	}
 
 }

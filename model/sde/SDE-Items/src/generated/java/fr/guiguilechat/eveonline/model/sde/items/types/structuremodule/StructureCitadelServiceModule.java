@@ -13,19 +13,19 @@ public class StructureCitadelServiceModule
     extends StructureModule
 {
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup01;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
     /**
      * 
      */
@@ -53,13 +53,6 @@ public class StructureCitadelServiceModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType6;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int CanFitShipType2;
     /**
      * 
@@ -67,7 +60,14 @@ public class StructureCitadelServiceModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType5;
+    public int CanFitShipType6;
+    /**
+     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ServiceModuleFullPowerStateHitpointMultiplier;
     /**
      * 
      */
@@ -75,6 +75,13 @@ public class StructureCitadelServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipType5;
     /**
      * 
      */
@@ -97,12 +104,12 @@ public class StructureCitadelServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelAmount;
     /**
-     * Fuel consumed to online the service module.
+     * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelOnlineAmount;
+    public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -111,12 +118,12 @@ public class StructureCitadelServiceModule
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * current power need
+     * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int ServiceModuleFuelOnlineAmount;
     /**
      * 
      */

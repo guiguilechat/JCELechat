@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.Field;
 
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -13,6 +14,13 @@ import org.yaml.snakeyaml.representer.Representer;
 
 import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.eveonline.model.sde.yaml.Tools;
+import javafx.beans.Observable;
+import javafx.collections.ListChangeListener;
+import javafx.collections.MapChangeListener;
+import javafx.collections.ObservableList;
+import javafx.collections.ObservableMap;
+import javafx.collections.ObservableSet;
+import javafx.collections.SetChangeListener;
 
 
 /**
@@ -50,7 +58,7 @@ public interface ISettings {
 	 *
 	 * @return the file used to store this
 	 */
-	public default File getFile() {
+	public default File getStorageFile() {
 		if (useTempDir()) {
 			try {
 				return new File(File.createTempFile("___", null).getParentFile(), getAppName() + "_settings.yml");
@@ -61,6 +69,13 @@ public interface ISettings {
 		return new File(getStorageDir(), "settings.yml");
 	}
 
+	/**
+	 * default to false.
+	 *
+	 * @return true iff files must be created using the system's temporary file
+	 *         system
+	 *
+	 */
 	public default boolean useTempDir() {
 		return false;
 	}
@@ -69,17 +84,25 @@ public interface ISettings {
 	 * store this settings locally, overriding previous stored settings
 	 */
 	public default void store() {
-		File f = getFile();
+		File f = getStorageFile();
 		f.getParentFile().mkdirs();
 		try {
-			makeYaml().dump(this, new FileWriter(f));
+			makeDumpYaml().dump(this, new FileWriter(f));
 		} catch (IOException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
 	}
 
+	/**
+	 * request to store this after a delay. This aims at reducing disk overhead.
+	 */
+	public void storeLater();
+
+	/**
+	 * delete the file used to store this.
+	 */
 	public default void erase() {
-		File f = getFile();
+		File f = getStorageFile();
 		if (f.exists()) {
 			f.delete();
 		}
@@ -98,35 +121,124 @@ public interface ISettings {
 		} catch (InstantiationException | IllegalAccessException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
-		File f = inst.getFile();
+		File f = inst.getStorageFile();
 		if (f.exists()) {
 			try {
-				return inst.makeYaml().loadAs(new FileReader(f), clazz);
+				return inst.makeLoadYaml().loadAs(new FileReader(f), clazz);
 			} catch (FileNotFoundException e) {
+				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return inst;
 	}
 
 	/**
-	 * make yaml for parsing/unparsing
+	 * attach listeners to the observable elements and collections that call
+	 * {@link #storeLater()} on modification.<br />
+	 * collections also trigger the attachement of such a listener
+	 *
+	 *
+	 * @param sets
+	 */
+	public static void attachStoreListeners(ISettings sets) {
+		for (Field f : sets.getClass().getDeclaredFields()) {
+			Class<?> cl = f.getType();
+			if (Observable.class.isAssignableFrom(cl)) {
+				f.setAccessible(true);
+				try {
+					Observable ob = (Observable) f.get(sets);
+					if (ob != null) {
+						attachStoreListener(ob, sets::storeLater);
+					}
+				} catch (IllegalArgumentException | IllegalAccessException e) {
+					throw new UnsupportedOperationException("catch this", e);
+				}
+			}
+		}
+	}
+
+	public static void attachStoreListener(Observable ob, Runnable store) {
+		if (ob == null || store == null) {
+			return;
+		}
+		if (ob instanceof ObservableMap<?, ?>) {
+			ObservableMap<?, ?> om = (ObservableMap<?, ?>) ob;
+			om.addListener((MapChangeListener<Object, Object>) change -> {
+				store.run();
+				if (change.wasAdded()) {
+					// we added a new key
+					if (!change.wasRemoved()) {
+						Object key = change.getKey();
+						if (key != null && key instanceof Observable) {
+							attachStoreListener((Observable) key, store);
+						}
+					}
+					if (change.wasAdded()) {
+						Object value = change.getValueAdded();
+						if (value != null && value instanceof Observable) {
+							attachStoreListener((Observable) value, store);
+						}
+					}
+				}
+			});
+		} else if (ob instanceof ObservableSet<?>) {
+			ObservableSet<?> os = (ObservableSet<?>) ob;
+			os.addListener((SetChangeListener<Object>) change -> {
+				store.run();
+				if (change.wasAdded()) {
+					Object value = change.getElementAdded();
+					if (value != null && value instanceof Observable) {
+						attachStoreListener((Observable) value, store);
+					}
+				}
+			});
+		} else if (ob instanceof ObservableList<?>) {
+			ObservableList<?> os = (ObservableList<?>) ob;
+			os.addListener((ListChangeListener<Object>) change -> {
+				store.run();
+				if (change.wasAdded()) {
+					for (Object value : change.getAddedSubList()) {
+						if (value != null && value instanceof Observable) {
+							attachStoreListener((Observable) value, store);
+						}
+					}
+				}
+			});
+		} else {
+			ob.addListener(ev -> store.run());
+		}
+	}
+
+	/**
+	 * make yaml for dumping
 	 *
 	 * @return
 	 */
-	public default Yaml makeYaml() {
-		Yaml ret = new Yaml(makeYamlConstructor(), makeYamlRepresenter(), makeYamlOptions());
+	public default Yaml makeDumpYaml() {
+		Yaml ret = new Yaml(makeYamlConstructor(true), makeYamlRepresenter(true), makeYamlOptions(true));
 		return ret;
 	}
 
-	public default Constructor makeYamlConstructor() {
+	public default Yaml makeLoadYaml() {
+		Yaml ret = new Yaml(makeYamlConstructor(false), makeYamlRepresenter(false), makeYamlOptions(false));
+		return ret;
+	}
+
+	public default Constructor makeYamlConstructor(boolean dump) {
 		return new Constructor(getClass());
 	}
 
-	public default Representer makeYamlRepresenter() {
-		return new CleanRepresenter();
+	public default Representer makeYamlRepresenter(boolean dump) {
+		CleanRepresenter ret = new CleanRepresenter();
+		if (dump) {
+			// ret.getPropertyUtils().setBeanAccess(BeanAccess.FIELD);
+		} else {
+			ret.getPropertyUtils().setSkipMissingProperties(true);
+		}
+		return ret;
 	}
 
-	public default DumperOptions makeYamlOptions() {
+	public default DumperOptions makeYamlOptions(boolean dump) {
 		return Tools.blockDumper();
 	}
 

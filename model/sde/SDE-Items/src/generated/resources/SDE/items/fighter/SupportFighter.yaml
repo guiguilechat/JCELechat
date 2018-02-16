@@ -333,6 +333,231 @@ items:
     id: 40570
     name: Siren II
     volume: 3000.0
+  Standup Cenobite I:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityEnergyNeutralizerAmount: 60
+    FighterAbilityEnergyNeutralizerDuration: 6000
+    FighterAbilityEnergyNeutralizerFalloffRange: 2500
+    FighterAbilityEnergyNeutralizerOptimalRange: 5000
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 3750
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 1430.0
+    ScanRadarStrength: 11.0
+    ScanResolution: 600
+    ShieldCapacity: 13600
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 1.5
+    id: 47131
+    name: Standup Cenobite I
+    volume: 6000.0
+  Standup Cenobite II:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityEnergyNeutralizerAmount: 80
+    FighterAbilityEnergyNeutralizerDuration: 6000
+    FighterAbilityEnergyNeutralizerFalloffRange: 5000
+    FighterAbilityEnergyNeutralizerOptimalRange: 10000
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 7500
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1488.0
+    MetaLevel: 5
+    ScanRadarStrength: 12.0
+    ScanResolution: 650
+    ShieldCapacity: 15000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.699999988079071
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
+    id: 47134
+    name: Standup Cenobite II
+    volume: 6000.0
+  Standup Dromi I:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityStasisWebifierDuration: 10000
+    FighterAbilityStasisWebifierOptimalRange: 8000
+    FighterAbilityStasisWebifierResistanceID: 2115
+    FighterAbilityStasisWebifierSpeedPenalty: -15
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 4000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 1430.0
+    ScanLadarStrength: 11.0
+    ScanResolution: 600
+    ShieldCapacity: 13600
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 1.5
+    id: 47133
+    name: Standup Dromi I
+    volume: 6000.0
+  Standup Dromi II:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityStasisWebifierDuration: 10000
+    FighterAbilityStasisWebifierOptimalRange: 16000
+    FighterAbilityStasisWebifierResistanceID: 2115
+    FighterAbilityStasisWebifierSpeedPenalty: -20
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1488.0
+    MetaLevel: 5
+    ScanLadarStrength: 12.0
+    ScanResolution: 650
+    ShieldCapacity: 15000
+    ShieldEmDamageResonance: 0.699999988079071
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
+    id: 47137
+    name: Standup Dromi II
+    volume: 6000.0
+  Standup Scarab I:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityECMDuration: 10000
+    FighterAbilityECMRangeFalloff: 5625
+    FighterAbilityECMRangeOptimal: 5000
+    FighterAbilityECMStrengthGravimetric: 1.600000023841858
+    FighterAbilityECMStrengthLadar: 1.600000023841858
+    FighterAbilityECMStrengthMagnetometric: 1.600000023841858
+    FighterAbilityECMStrengthRadar: 1.600000023841858
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 495
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 5300
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 1430.0
+    ScanGravimetricStrength: 11.0
+    ScanResolution: 600
+    ShieldCapacity: 13600
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 1.5
+    id: 47132
+    name: Standup Scarab I
+    volume: 6000.0
+  Standup Scarab II:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityECMDuration: 10000
+    FighterAbilityECMRangeFalloff: 8400
+    FighterAbilityECMRangeOptimal: 7500
+    FighterAbilityECMStrengthGravimetric: 2.299999952316284
+    FighterAbilityECMStrengthLadar: 2.299999952316284
+    FighterAbilityECMStrengthMagnetometric: 2.299999952316284
+    FighterAbilityECMStrengthRadar: 2.299999952316284
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1488.0
+    MetaLevel: 5
+    ScanGravimetricStrength: 12.0
+    ScanResolution: 650
+    ShieldCapacity: 15000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 0.699999988079071
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
+    id: 47135
+    name: Standup Scarab II
+    volume: 6000.0
   Standup Siren I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1
@@ -350,14 +575,10 @@ items:
     Hp: 100
     MaxLockedTargets: 6
     MaxTargetRange: 45000
-    MaxVelocity: 715.0
-    RequiredSkill1: 40573
-    RequiredSkill1Level: 1
-    RequiredSkill2: 23069
-    RequiredSkill2Level: 1
-    ScanMagnetometricStrength: 7.0
+    MaxVelocity: 1430.0
+    ScanMagnetometricStrength: 11.0
     ScanResolution: 600
-    ShieldCapacity: 6800
+    ShieldCapacity: 13600
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
@@ -365,9 +586,46 @@ items:
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
     SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47037
     name: Standup Siren I
+    volume: 6000.0
+  Standup Siren II:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 505
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityWarpDisruptionDuration: 10000
+    FighterAbilityWarpDisruptionPointStrength: 1
+    FighterAbilityWarpDisruptionRange: 16000
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupSupport: 1
+    FighterSquadronMaxSize: 3
+    FighterSquadronOrbitRange: 8000
+    FighterSquadronRole: 3
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1488.0
+    MetaLevel: 5
+    ScanMagnetometricStrength: 12.0
+    ScanResolution: 650
+    ShieldCapacity: 15000
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 0.699999988079071
+    ShieldRechargeRate: 2200000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
+    id: 47136
+    name: Standup Siren II
     volume: 6000.0

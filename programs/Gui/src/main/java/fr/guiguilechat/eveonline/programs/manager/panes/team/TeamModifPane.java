@@ -53,7 +53,7 @@ public class TeamModifPane extends HBox implements EvePane {
 		renBox.getChildren().addAll(renTxt, new HBox(renBut, cpBut));
 
 		Button delButton = new Button("delete");
-		delButton.setOnAction(e -> parent.delTeam(name));
+		delButton.setOnAction(e -> parent.settings.teams().remove(name));
 
 		updateBox.getChildren().addAll(new Label(), renBox, delButton);
 
@@ -91,7 +91,7 @@ public class TeamModifPane extends HBox implements EvePane {
 
 	protected void updateToons() {
 		toonsBox.getChildren().clear();
-		Set<String> members = parent.settings.teams.get(name).members;
+		Set<String> members = parent.settings.teams().get(name).members;
 		for (EveChar c : parent.streamChars().sorted((c1, c2) -> c1.name.compareTo(c2.name)).toArray(EveChar[]::new)) {
 			CheckBox cb = new CheckBox(c.name);
 			cb.setSelected(members.contains(c.name));

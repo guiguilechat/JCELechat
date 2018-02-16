@@ -41,13 +41,6 @@ public class DefenderMissiles
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
@@ -62,12 +55,12 @@ public class DefenderMissiles
     @DefaultDoubleValue(1.0)
     public double AoeDamageReductionFactor;
     /**
-     * DO NOT MESS WITH
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Velocity of the damage cloud created on impact.
      */
@@ -75,6 +68,13 @@ public class DefenderMissiles
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double AoeVelocity;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
     /**
      * Size of the damage cloud caused by impact.
      */
@@ -97,19 +97,19 @@ public class DefenderMissiles
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Thermal damage done.
      */

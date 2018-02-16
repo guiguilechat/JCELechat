@@ -353,8 +353,8 @@ public class QAModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CapacityBonus;
+    @DefaultDoubleValue(0.0)
+    public double CapacityBonus;
     /**
      * Length of activation time.
      */

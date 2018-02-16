@@ -73,13 +73,6 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HiSecModifier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
@@ -88,7 +81,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double LowSecModifier;
+    public double HiSecModifier;
     /**
      * 
      */
@@ -96,6 +89,13 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double LowSecModifier;
     /**
      * 
      */

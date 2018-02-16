@@ -1,7 +1,6 @@
 items:
   Standup M-Set Moon Drilling Efficiency I:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigSpewVolumeBonus: 2.0
@@ -16,7 +15,6 @@ items:
     volume: 10.0
   Standup M-Set Moon Drilling Efficiency II:
     CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
     Hp: 40
     MaxGroupFitted: 1
     MoonRigSpewVolumeBonus: 2.4000000953674316

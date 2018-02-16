@@ -111,19 +111,19 @@ public class AdvancedBeamLaserCrystal
     @DefaultDoubleValue(1.0)
     public double ShieldCapacityMultiplier;
     /**
-     * Explosive damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
-    /**
      * Scale the tracking speed of a weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double TrackingSpeedMultiplier;
+    /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamage;
     /**
      * Kinetic damage done.
      */

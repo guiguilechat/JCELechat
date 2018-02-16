@@ -27,13 +27,6 @@ public class XLTorpedo
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double AoeDamageReductionFactor;
-    /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
@@ -47,6 +40,13 @@ public class XLTorpedo
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double AoeDamageReductionFactor;
     /**
      * DO NOT MESS WITH
      */
@@ -111,19 +111,19 @@ public class XLTorpedo
     @DefaultIntValue(0)
     public int BaseShieldDamage;
     /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
      * Just for the UI to display base damage on armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int BaseArmorDamage;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocity;
     /**
      * Tech level of an item
      */
@@ -160,19 +160,19 @@ public class XLTorpedo
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
-     * Thermal damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
     /**
      * The type ID of the skill that is required.
      */

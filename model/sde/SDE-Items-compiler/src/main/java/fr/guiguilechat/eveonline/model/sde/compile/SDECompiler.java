@@ -142,6 +142,10 @@ public class SDECompiler {
 			int attId = attribute.attributeID;
 			int typeID = attribute.typeID;
 			EtypeIDs type = typeids.get(typeID);
+			if (type == null) {
+				logger.warn("can't find type entry for id " + typeID);
+				continue;
+			}
 			int groupID = type.groupID;
 			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
 				if (attributesWithFloatValue.add(attribute.attributeID)) {
@@ -477,10 +481,22 @@ public class SDECompiler {
 	 */
 	public static void main(String... args) throws IOException {
 		File target = new File(args[0]);
+		delDir(target);
 		target.mkdirs();
 		CompiledClassesData data = new SDECompiler().compile();
 		new ItemsTranslater().translate(data, new File(args[1]), args[2]);
 		data.model.build(target, (PrintStream) null);
+	}
+
+	public static void delDir(File delete) {
+		if (delete.exists()) {
+			if (delete.isDirectory()) {
+				for (File child : delete.listFiles()) {
+					delDir(child);
+				}
+			}
+			delete.delete();
+		}
 	}
 
 }

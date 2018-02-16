@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.status;
 
+import java.util.Iterator;
 import java.util.Map.Entry;
 
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,7 @@ import fr.guiguilechat.eveonline.programs.manager.panes.TypedField;
 import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventionGainAlgorithm;
 import javafx.animation.PauseTransition;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.collections.MapChangeListener;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
@@ -36,6 +38,26 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 	public ShopPane(Manager parent) {
 		this.parent = parent;
 
+		parent.settings.shopList().addListener((MapChangeListener<String, Integer>) change -> {
+			String key = change.getKey();
+			if (change.wasRemoved()) {
+				for (Iterator<Entry<String, Integer>> it = getItems().iterator(); it.hasNext();) {
+					Entry<String, Integer> e = it.next();
+					if (e.getKey().equals(key)) {
+						it.remove();
+					}
+				}
+			}
+			if (change.wasAdded()) {
+				for (Entry<String, Integer> e : parent.settings.shopList().entrySet()) {
+					if (e.getKey().equals(key)) {
+						getItems().add(e);
+					}
+				}
+			}
+		});
+		getItems().addAll(parent.settings.shopList().entrySet());
+
 		TableColumn<Entry<String, Integer>, String> nameCol = new TableColumn<>("name");
 		nameCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().getKey()));
 		getColumns().add(nameCol);
@@ -58,8 +80,8 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		openMarketCol.setCellValueFactory(ed -> {
 			Button button = new Button("open market");
 			button.setOnAction(action -> {
-				if (!parent.settings.shopper.isEmpty()) {
-					ESIConnection shopper = parent.ssoChar2Con.get(parent.settings.shopper.iterator().next());
+				if (!parent.settings.shopper().isEmpty()) {
+					ESIConnection shopper = parent.ssoChar2Con.get(parent.settings.shopper().iterator().next());
 					shopper.raw.post_ui_openwindow_marketdetails(MetaInf.getItem(ed.getValue().getKey()).id, null);
 				}
 			});
@@ -97,22 +119,8 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
 	}
 
-	@Override
-	public void onIsShown(boolean shown) {
-		if (shown) {
-			updShop();
-		}
-	}
-
-	protected void updShop() {
-		getItems().clear();
-		getItems().addAll(parent.settings.shopList.entrySet());
-		sort();
-	}
-
 	protected void delShop(String itemName) {
 		parent.delShop(itemName);
-		updShop();
 	}
 
 }

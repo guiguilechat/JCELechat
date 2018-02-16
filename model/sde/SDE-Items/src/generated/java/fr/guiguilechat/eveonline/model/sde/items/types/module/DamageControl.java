@@ -174,6 +174,13 @@ public class DamageControl
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ModuleReactivationDelay;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -201,6 +208,13 @@ public class DamageControl
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowRepeatingActivation;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ResistanceMultiplier;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */

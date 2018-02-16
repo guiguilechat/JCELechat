@@ -41,19 +41,19 @@ public class DroneDamageModules
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
      * droneDamageBonus
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double DroneDamageBonus;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * meta group of type
      */

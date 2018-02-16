@@ -20,6 +20,13 @@ public class EngineeringComplex
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
+     * Defines whether an entity can be hacked or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hackable;
+    /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      */
     @HighIsGood(true)
@@ -69,26 +76,12 @@ public class EngineeringComplex
     @DefaultDoubleValue(1.0)
     public double StrEngMatBonus;
     /**
-     * Number of Light Fighters the ship can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterLightSlots;
-    /**
      * Cost bonus for Engineering Complexes Structures
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StrEngCostBonus;
-    /**
-     * Number of Support Fighters the ship can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterSupportSlots;
     /**
      * Time bonus for Engineering Complexes Structures
      */
@@ -97,12 +90,47 @@ public class EngineeringComplex
     @DefaultDoubleValue(1.0)
     public double StrEngTimeBonus;
     /**
-     * Number of Heavy Fighters the ship can launch.Heavy 
+     * Number of Light Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterHeavySlots;
+    public int FighterStandupLightSlots;
+    /**
+     * Number of Support Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupSupportSlots;
+    /**
+     * Number of Heavy Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupHeavySlots;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int StructureFullPowerStateHitpointMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureAoERoFRoleBonus;
+    /**
+     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenMissileDamageMultiplier;
     /**
      * Number of hours of vulnerability each week required. Applies only to categoryStructure.
      */
@@ -110,6 +138,13 @@ public class EngineeringComplex
     @Stackable(true)
     @DefaultIntValue(0)
     public int VulnerabilityRequired;
+    /**
+     * Armor hitpoint attribute used by structures as a workaround for implementing Standup layered plating stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenArmorHPMultiplier;
     /**
      * Distance which tethering will engage / disengage piloted ships.
      */
@@ -138,6 +173,13 @@ public class EngineeringComplex
     @Stackable(true)
     @DefaultIntValue(0)
     public int RigSlots;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TierDifficulty;
     public final static String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
     private static LinkedHashMap<String, EngineeringComplex> cache = (null);
 

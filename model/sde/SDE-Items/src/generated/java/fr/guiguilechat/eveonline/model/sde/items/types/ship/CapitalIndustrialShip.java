@@ -202,6 +202,13 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int MainColor;
     /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityKamikazeResistance;
+    /**
      * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)

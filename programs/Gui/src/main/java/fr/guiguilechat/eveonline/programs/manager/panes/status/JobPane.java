@@ -225,7 +225,7 @@ public class JobPane extends BorderPane implements EvePane {
 	public void update() {
 		schedule.getChildren().clear();
 		int row = 0;
-		for (Entry<ScheduledJob, Integer> e : parent.settings.scheduled.entrySet()) {
+		for (Entry<ScheduledJob, Integer> e : parent.settings.scheduled().entrySet()) {
 			Label ltype = new Label(e.getKey().activity.name());
 			TypedField<Integer> nbcycles = TypedField.positivIntField(e.getValue());
 			nbcycles.setMaxWidth(50);
@@ -251,9 +251,9 @@ public class JobPane extends BorderPane implements EvePane {
 	private void updateScheduled(ScheduledJob key, Integer integer) {
 		System.err.println("scheduled " + key + " updated to " + integer + "runs");
 		if (integer == 0) {
-			parent.settings.scheduled.remove(key);
+			parent.settings.scheduled().remove(key);
 		} else {
-			parent.settings.scheduled.put(key, integer);
+			parent.settings.scheduled().put(key, integer);
 		}
 		parent.settings.store();
 		update();

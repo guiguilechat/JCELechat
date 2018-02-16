@@ -146,6 +146,13 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int StructureRigMaxTargetRangeBonus;
+    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
