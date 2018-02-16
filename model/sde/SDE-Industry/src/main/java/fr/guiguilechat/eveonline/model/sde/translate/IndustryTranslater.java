@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
@@ -36,6 +37,7 @@ public class IndustryTranslater {
 
 		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
+		Tools.delDir(folderOut);
 		folderOut.mkdirs();
 
 		LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();

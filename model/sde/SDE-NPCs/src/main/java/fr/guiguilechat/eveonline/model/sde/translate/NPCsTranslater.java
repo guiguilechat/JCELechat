@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
@@ -42,6 +43,7 @@ public class NPCsTranslater {
 
 		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
+		Tools.delDir(folderOut);
 		folderOut.mkdirs();
 
 		LinkedHashMap<String, Agent> agents = new LinkedHashMap<>();

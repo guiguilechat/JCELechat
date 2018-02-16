@@ -11,6 +11,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaOperationServices;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaServices;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
@@ -44,6 +45,7 @@ public class LocationsTranslater {
 
 		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
+		Tools.delDir(folderOut);
 		folderOut.mkdirs();
 
 		LinkedHashMap<String, Region> regions = new LinkedHashMap<>();
