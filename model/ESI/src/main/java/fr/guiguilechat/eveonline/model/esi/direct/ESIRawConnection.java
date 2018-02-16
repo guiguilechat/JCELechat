@@ -99,13 +99,28 @@ public class ESIRawConnection implements Swagger {
 				}
 				int responseCode = con.getResponseCode();
 				switch (responseCode) {
+				// 2xx ok
 				case HttpsURLConnection.HTTP_OK:
 				case HttpsURLConnection.HTTP_CREATED:
 				case HttpsURLConnection.HTTP_ACCEPTED:
+				case HttpsURLConnection.HTTP_NOT_AUTHORITATIVE:
+				case HttpsURLConnection.HTTP_NO_CONTENT:
+				case HttpsURLConnection.HTTP_RESET:
+				case HttpsURLConnection.HTTP_PARTIAL:
 					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
+					// 4xx client error
+				case HttpsURLConnection.HTTP_BAD_REQUEST:
+				case HttpsURLConnection.HTTP_UNAUTHORIZED:
+				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
+				case HttpsURLConnection.HTTP_FORBIDDEN:
+				case HttpsURLConnection.HTTP_NOT_FOUND:
+				case HttpsURLConnection.HTTP_BAD_METHOD:
+					logger.warn("" + responseCode + " on " + url);
+					return null;
+					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
-					logger.warn("500 on " + url);
-					// TODO ??
+				case HttpsURLConnection.HTTP_BAD_GATEWAY:
+					logger.info(responseCode + " on " + url);
 					break;
 				default:
 					StringBuilder sb = new StringBuilder("[").append(method).append(']').append(url).append(" ")
