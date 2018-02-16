@@ -34,6 +34,13 @@ public class InterdictionSphereLauncher
     @DefaultIntValue(1)
     public int Slots;
     /**
+     * If set on a charge or module type, will prevent it from being activated in empire space.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowInEmpireSpace;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -47,13 +54,6 @@ public class InterdictionSphereLauncher
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
-    /**
-     * If set on a charge or module type, will prevent it from being activated in empire space.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
     /**
      * Time in milliseconds between possible activations
      */

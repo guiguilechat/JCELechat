@@ -48,13 +48,6 @@ public class StructureDrillingRigLProficiency
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
      * Rig Bonus that affects fracture delay for moon chunk
      */
     @HighIsGood(true)

@@ -62,19 +62,19 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int FwLpKill;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int IndustrialBonusDroneDamage;
-    /**
      * Capacity of ore-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SpecialOreHoldCapacity;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int IndustrialBonusDroneDamage;
     /**
      * Required skill level for skill 1
      */

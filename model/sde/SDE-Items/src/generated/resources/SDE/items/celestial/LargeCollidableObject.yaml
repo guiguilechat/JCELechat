@@ -3030,16 +3030,6 @@ items:
     id: 24252
     name: Fortified Smuggler Stargate
     volume: 1.0E8
-  Fortified Spatial Rift:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    Hp: 100000000
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 24480
-    name: Fortified Spatial Rift
   Fortified Starbase Auxiliary Power Array:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -5815,6 +5805,87 @@ items:
     StructureUniformity: 1.0
     id: 45054
     name: Test Asteroid 2
+  TestAsset_01:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47066
+    name: TestAsset_01
+  TestAsset_02:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47067
+    name: TestAsset_02
+  TestAsset_03:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47199
+    name: TestAsset_03
+  TestAsset_04:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47200
+    name: TestAsset_04
+  TestAsset_05:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47201
+    name: TestAsset_05
+  TestAsset_06:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47202
+    name: TestAsset_06
+  TestAsset_07:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47203
+    name: TestAsset_07
+  TestAsset_08:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47206
+    name: TestAsset_08
+  TestAsset_09:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 47207
+    name: TestAsset_09
   Testing Facilities Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500

@@ -1,14 +1,14 @@
 items:
   Standup Moon Drill I:
+    AnchoringSecurityLevelMax: 0.5
     CanFitShipGroup01: 1406
     Cpu: 200.0
-    DisallowInHighSec: 1
     MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
     Power: 10000
     ServiceModuleFuelAmount: 5
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 360
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45009
     name: Standup Moon Drill I

@@ -15,6 +15,7 @@ items:
     StructureRigDoomsdayDamageLossTargetBonus: 0.019999999552965164
     StructureRigDoomsdayTargetAmountBonus: 3
     StructureRigMaxTargetBonus: 2
+    StructureRigMaxTargetRangeBonus: 10
     StructureRigPDCapUseBonus: -30
     StructureRigPDRangeBonus: 500
     StructureRigScanResBonus: 100
@@ -39,6 +40,7 @@ items:
     StructureRigDoomsdayDamageLossTargetBonus: 0.05000000074505806
     StructureRigDoomsdayTargetAmountBonus: 5
     StructureRigMaxTargetBonus: 5
+    StructureRigMaxTargetRangeBonus: 15
     StructureRigPDCapUseBonus: -35
     StructureRigPDRangeBonus: 600
     StructureRigScanResBonus: 150

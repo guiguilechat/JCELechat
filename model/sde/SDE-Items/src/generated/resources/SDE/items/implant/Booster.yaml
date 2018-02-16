@@ -129,7 +129,23 @@ items:
     id: 36911
     name: Antipharmakon Toxot
     volume: 1.0
-  Crimson Harvest Cerebral Accelerator:
+  Expired Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17187.0
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 44217
+    name: Expired Cerebral Accelerator
+    volume: 1.0
+  Expired Crimson Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17498.0
     Boosterness: 10
@@ -143,9 +159,25 @@ items:
     RequiredSkill1Level: 1
     WillpowerBonus: 10
     id: 46008
-    name: Crimson Harvest Cerebral Accelerator
+    name: Expired Crimson Cerebral Accelerator
     volume: 1.0
-  Expired Cerebral Accelerator:
+  Expired Rogue Swarm Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17561.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47016
+    name: Expired Rogue Swarm Cerebral Accelerator
+    volume: 1.0
+  Expired Valkyrie Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17463.0
     Boosterness: 10
@@ -159,7 +191,55 @@ items:
     RequiredSkill1Level: 1
     WillpowerBonus: 10
     id: 46007
-    name: Expired Cerebral Accelerator
+    name: Expired Valkyrie Cerebral Accelerator
+    volume: 1.0
+  Expired Yoiul Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17561.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 46009
+    name: Expired Yoiul Cerebral Accelerator
+    volume: 1.0
+  Guardian Angels 'Advanced' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47266
+    name: Guardian Angels 'Advanced' Cerebral Accelerator
+    volume: 1.0
+  Guardian Angels 'Standard' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 47265
+    name: Guardian Angels 'Standard' Cerebral Accelerator
     volume: 1.0
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
@@ -398,21 +478,21 @@ items:
     id: 3898
     name: Quafe Zero
     volume: 1.0
-  Rogue Swarm Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17561.458984375
+  Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17610.458984375
     Boosterness: 10
-    CharismaBonus: 12
+    CharismaBonus: 10
     FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
+    IntelligenceBonus: 10
+    MemoryBonus: 10
     Nondestructible: 1
-    PerceptionBonus: 12
+    PerceptionBonus: 10
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47016
-    name: Rogue Swarm Cerebral Accelerator
+    WillpowerBonus: 10
+    id: 47267
+    name: Serpentis Inquest 'Dripfeed' Cerebral Accelerator
     volume: 1.0
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20
@@ -790,20 +870,4 @@ items:
     SignatureRadiusBonus: -2.25
     id: 28682
     name: Synth X-Instinct Booster
-    volume: 1.0
-  Yoiul Festival Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17561.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 46009
-    name: Yoiul Festival Cerebral Accelerator
     volume: 1.0

@@ -2,6 +2,12 @@ items:
   Effect NPE Vortex:
     id: 42532
     name: Effect NPE Vortex
+  TestBackground_01:
+    id: 47204
+    name: TestBackground_01
+  TestBackground_02:
+    id: 47205
+    name: TestBackground_02
   unnamed_gid21177_sid20220:
     id: 36464
     name: unnamed_gid21177_sid20220

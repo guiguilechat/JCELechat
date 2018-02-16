@@ -41,19 +41,19 @@ public class ExpeditionFrigate
     @DefaultIntValue(20000)
     public int CovertOpsStealthBomberTargettingDelay;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double IceHarvestCycleBonus;
-    /**
      * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int LowSlots;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double IceHarvestCycleBonus;
     /**
      * tbd
      */
@@ -167,6 +167,13 @@ public class ExpeditionFrigate
     @DefaultIntValue(0)
     public int ScanResolution;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -179,21 +186,7 @@ public class ExpeditionFrigate
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int RequiredSkill2;
-    /**
-     * The factor by which the amount mined by a mining laser is scaled.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double MiningAmountMultiplier;
     /**
      * scanning speed in milliseconds
      */
@@ -201,6 +194,13 @@ public class ExpeditionFrigate
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
+    /**
+     * The factor by which the amount mined by a mining laser is scaled.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double MiningAmountMultiplier;
     /**
      * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
      */

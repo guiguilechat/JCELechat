@@ -20,13 +20,6 @@ public class CommandDestroyer
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     /**
-     * reduction in MicroWarp Drive signature
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MWDSignatureRadiusBonus;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -40,6 +33,13 @@ public class CommandDestroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int EliteBonusCommandDestroyer1;
+    /**
+     * reduction in MicroWarp Drive signature
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MWDSignatureRadiusBonus;
     /**
      * The number of low power slots on the ship.
      */

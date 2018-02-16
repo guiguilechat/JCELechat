@@ -20,13 +20,6 @@ public class StructureDrillingRigMEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
      * 
      */
     @HighIsGood(true)

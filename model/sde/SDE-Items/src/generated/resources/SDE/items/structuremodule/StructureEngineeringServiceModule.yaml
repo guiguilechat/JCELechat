@@ -5,14 +5,15 @@ items:
     CanFitShipType3: 35834
     CanFitShipType4: 35833
     CanFitShipType5: 40340
-    Cpu: 3000.0
+    Cpu: 600.0
     DisallowInHighSec: 1
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 400000
+    Power: 80000
     ServiceModuleFuelAmount: 24
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 1728
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35881
     name: Standup Capital Shipyard I
@@ -21,14 +22,15 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 3000.0
+    Cpu: 600.0
     MaxTypeFitted: 1
     MetaGroupID: 4
     OnlineMaxSecurityClass: 2
-    Power: 125000
+    Power: 25000
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45550
     name: Standup Hyasyoda Research Lab
@@ -37,13 +39,14 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 3500.0
+    Cpu: 700.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
-    Power: 150000
+    Power: 30000
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35886
     name: Standup Invention Lab I
@@ -52,13 +55,14 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 1500.0
+    Cpu: 300.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
-    Power: 300000
+    Power: 60000
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35878
     name: Standup Manufacturing Plant I
@@ -67,28 +71,30 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 3000.0
+    Cpu: 600.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
-    Power: 150000
+    Power: 30000
     ServiceModuleFuelAmount: 12
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35891
     name: Standup Research Lab I
     volume: 4000.0
   Standup Supercapital Shipyard I:
     CanFitShipType1: 35827
-    Cpu: 5000.0
+    Cpu: 1000.0
     DisallowInEmpireSpace: 1
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 800000
+    Power: 120000
     RequiresSovUpgrade1: 2009
     ServiceModuleFuelAmount: 36
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 2592
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35877
     name: Standup Supercapital Shipyard I

@@ -22,11 +22,6 @@ items:
     id: 37811
     name: 'ArmorSuitMM01_Copper.type '
     volume: 0.1
-  JacketALM01_JinMeiOpera.type:
-    Gender: 2
-    id: 47032
-    name: JacketALM01_JinMeiOpera.type
-    volume: 0.1
   JacketCLM01_Concord.type:
     Gender: 1
     id: 37807
@@ -36,11 +31,6 @@ items:
     Gender: 3
     id: 37806
     name: JacketFBR01_concord.type
-    volume: 0.1
-  JacketSLF_01_JinMeiOpera.type:
-    Gender: 2
-    id: 47031
-    name: JacketSLF_01_JinMeiOpera.type
     volume: 0.1
   LabCoatF01_Cyan.type:
     ClothingAlsoCoversCategory: 25
@@ -357,6 +347,11 @@ items:
     Gender: 1
     id: 45527
     name: Men's Corporate Troubleshooter Gear
+    volume: 0.1
+  Men's Empyrean Dragons Jacket:
+    Gender: 2
+    id: 47032
+    name: Men's Empyrean Dragons Jacket
     volume: 0.1
   Men's Exoplanets Data Analyst Lab Coat:
     Gender: 2
@@ -965,6 +960,11 @@ items:
     Gender: 3
     id: 45519
     name: Women's Corporate Troubleshooter Gear
+    volume: 0.1
+  Women's Empyrean Dragons Jacket:
+    Gender: 2
+    id: 47031
+    name: Women's Empyrean Dragons Jacket
     volume: 0.1
   Women's Exoplanets Data Analyst Lab Coat:
     Gender: 2

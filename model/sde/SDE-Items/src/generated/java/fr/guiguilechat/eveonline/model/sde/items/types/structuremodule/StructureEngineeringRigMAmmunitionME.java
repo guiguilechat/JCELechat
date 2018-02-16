@@ -118,19 +118,19 @@ public class StructureEngineeringRigMAmmunitionME
     @DefaultDoubleValue(1.0)
     public double LowSecModifier;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double NullSecModifier;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      */

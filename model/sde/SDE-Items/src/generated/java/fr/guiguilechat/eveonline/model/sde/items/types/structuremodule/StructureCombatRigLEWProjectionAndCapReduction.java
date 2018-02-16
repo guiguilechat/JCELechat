@@ -32,13 +32,6 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureRigEwarOptimalBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
      * 
@@ -46,7 +39,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureRigEwarFalloffBonus;
+    public int StructureRigEwarOptimalBonus;
     /**
      * The maximum hitpoints of an object.
      */
@@ -54,6 +47,13 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureRigEwarFalloffBonus;
     /**
      * 
      */

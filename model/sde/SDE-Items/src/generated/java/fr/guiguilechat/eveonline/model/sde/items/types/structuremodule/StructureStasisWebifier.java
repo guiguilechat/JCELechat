@@ -20,6 +20,20 @@ public class StructureStasisWebifier
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -40,6 +54,13 @@ public class StructureStasisWebifier
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
+    /**
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupOnline;
     /**
      * CPU need of module
      */
@@ -76,12 +97,33 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * If set, this module cannot be activated and made to autorepeat.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowRepeatingActivation;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RemoteResistanceID;
+    /**
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
@@ -90,12 +132,12 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int FalloffEffectiveness;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
+     * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int ModuleReactivationDelay;
     /**
      * current power need
      */
@@ -103,6 +145,13 @@ public class StructureStasisWebifier
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
     private static LinkedHashMap<String, StructureStasisWebifier> cache = (null);
 

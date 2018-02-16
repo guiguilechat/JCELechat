@@ -1,4 +1,31 @@
 items:
+  Inquest 'Eros' Stasis Webifier MR-803:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 3
+    TechLevel: 1
+    id: 47261
+    name: Inquest 'Eros' Stasis Webifier MR-803
+    volume: 1.0
+  Inquest 'Eros' Stasis Webifier MR-805:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 5
+    TechLevel: 1
+    id: 47262
+    name: Inquest 'Eros' Stasis Webifier MR-805
+    volume: 1.0
+  Inquest 'Eros' Stasis Webifier MR-807:
+    Implantness: 8
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 1
+    StasisWebRangeBonus: 7
+    TechLevel: 1
+    id: 47263
+    name: Inquest 'Eros' Stasis Webifier MR-807
+    volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-901:
     CapNeedBonus: -1
     Implantness: 9

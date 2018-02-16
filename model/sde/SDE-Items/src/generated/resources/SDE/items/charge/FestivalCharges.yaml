@@ -143,6 +143,24 @@ items:
     id: 44260
     name: Crown Imperial Firework
     volume: 0.1
+  Eros Blossom Firework:
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 56
+    MaxVelocity: 1000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 47264
+    name: Eros Blossom Firework
+    volume: 0.1
   Fangs of the Serpent Firework:
     Agility: 3000.0
     AimedLaunch: 1

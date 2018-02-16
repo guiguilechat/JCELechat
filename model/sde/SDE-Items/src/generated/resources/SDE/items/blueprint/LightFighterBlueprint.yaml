@@ -81,6 +81,86 @@ items:
     id: 41383
     name: Satyr II Blueprint
     volume: 0.01
+  Standup Dragonfly I Blueprint:
+    TechLevel: 1
+    id: 47209
+    name: Standup Dragonfly I Blueprint
+    volume: 0.01
+  Standup Dragonfly II Blueprint:
+    TechLevel: 1
+    id: 47215
+    name: Standup Dragonfly II Blueprint
+    volume: 0.01
+  Standup Einherji I Blueprint:
+    TechLevel: 1
+    id: 47211
+    name: Standup Einherji I Blueprint
+    volume: 0.01
+  Standup Einherji II Blueprint:
+    TechLevel: 1
+    id: 47221
+    name: Standup Einherji II Blueprint
+    volume: 0.01
+  Standup Equite I Blueprint:
+    TechLevel: 1
+    id: 47213
+    name: Standup Equite I Blueprint
+    volume: 0.01
+  Standup Equite II Blueprint:
+    TechLevel: 1
+    id: 47214
+    name: Standup Equite II Blueprint
+    volume: 0.01
+  Standup Firbolg I Blueprint:
+    TechLevel: 1
+    id: 47210
+    name: Standup Firbolg I Blueprint
+    volume: 0.01
+  Standup Firbolg II Blueprint:
+    TechLevel: 1
+    id: 47218
+    name: Standup Firbolg II Blueprint
+    volume: 0.01
+  Standup Gram I Blueprint:
+    TechLevel: 1
+    id: 47222
+    name: Standup Gram I Blueprint
+    volume: 0.01
+  Standup Gram II Blueprint:
+    TechLevel: 1
+    id: 47223
+    name: Standup Gram II Blueprint
+    volume: 0.01
+  Standup Locust I Blueprint:
+    TechLevel: 1
+    id: 47216
+    name: Standup Locust I Blueprint
+    volume: 0.01
+  Standup Locust II Blueprint:
+    TechLevel: 1
+    id: 47217
+    name: Standup Locust II Blueprint
+    volume: 0.01
+  Standup Satyr I Blueprint:
+    TechLevel: 1
+    id: 47219
+    name: Standup Satyr I Blueprint
+    volume: 0.01
+  Standup Satyr II Blueprint:
+    TechLevel: 1
+    id: 47220
+    name: Standup Satyr II Blueprint
+    volume: 0.01
+  Standup Templar I Blueprint:
+    TechLevel: 1
+    id: 47208
+    name: Standup Templar I Blueprint
+    volume: 0.01
+  Standup Templar II Blueprint:
+    TechLevel: 1
+    id: 47212
+    name: Standup Templar II Blueprint
+    volume: 0.01
   Templar I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1

@@ -76,6 +76,91 @@ items:
     id: 2949
     name: Shadow Blueprint
     volume: 0.01
+  Standup Ametat I Blueprint:
+    TechLevel: 1
+    id: 47241
+    name: Standup Ametat I Blueprint
+    volume: 0.01
+  Standup Ametat II Blueprint:
+    TechLevel: 1
+    id: 47242
+    name: Standup Ametat II Blueprint
+    volume: 0.01
+  Standup Antaeus I Blueprint:
+    TechLevel: 1
+    id: 47245
+    name: Standup Antaeus I Blueprint
+    volume: 0.01
+  Standup Antaeus II Blueprint:
+    TechLevel: 1
+    id: 47246
+    name: Standup Antaeus II Blueprint
+    volume: 0.01
+  Standup Cyclops I Blueprint:
+    TechLevel: 1
+    id: 47233
+    name: Standup Cyclops I Blueprint
+    volume: 0.01
+  Standup Cyclops II Blueprint:
+    TechLevel: 1
+    id: 47237
+    name: Standup Cyclops II Blueprint
+    volume: 0.01
+  Standup Gungnir I Blueprint:
+    TechLevel: 1
+    id: 47247
+    name: Standup Gungnir I Blueprint
+    volume: 0.01
+  Standup Gungnir II Blueprint:
+    TechLevel: 1
+    id: 47248
+    name: Standup Gungnir II Blueprint
+    volume: 0.01
+  Standup Malleus I Blueprint:
+    TechLevel: 1
+    id: 47234
+    name: Standup Malleus I Blueprint
+    volume: 0.01
+  Standup Malleus II Blueprint:
+    TechLevel: 1
+    id: 47238
+    name: Standup Malleus II Blueprint
+    volume: 0.01
+  Standup Mantis I Blueprint:
+    TechLevel: 1
+    id: 47236
+    name: Standup Mantis I Blueprint
+    volume: 0.01
+  Standup Mantis II Blueprint:
+    TechLevel: 1
+    id: 47239
+    name: Standup Mantis II Blueprint
+    volume: 0.01
+  Standup Shadow Blueprint:
+    TechLevel: 1
+    id: 47232
+    name: Standup Shadow Blueprint
+    volume: 0.01
+  Standup Termite I Blueprint:
+    TechLevel: 1
+    id: 47243
+    name: Standup Termite I Blueprint
+    volume: 0.01
+  Standup Termite II Blueprint:
+    TechLevel: 1
+    id: 47244
+    name: Standup Termite II Blueprint
+    volume: 0.01
+  Standup Tyrfing I Blueprint:
+    TechLevel: 1
+    id: 47235
+    name: Standup Tyrfing I Blueprint
+    volume: 0.01
+  Standup Tyrfing II Blueprint:
+    TechLevel: 1
+    id: 47240
+    name: Standup Tyrfing II Blueprint
+    volume: 0.01
   Termite I Blueprint:
     TechLevel: 1
     id: 41361

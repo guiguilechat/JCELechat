@@ -1,0 +1,25 @@
+items:
+  Blood Raider Frigate:
+    id: 36939
+    name: Blood Raider Frigate
+    volume: 28600.0
+  Eosian Defender:
+    id: 46344
+    name: Eosian Defender
+    volume: 19100.0
+  Guardian Angels Jeremael:
+    id: 42127
+    name: Guardian Angels Jeremael
+    volume: 16450.0
+  Guristas Frigate:
+    id: 40725
+    name: Guristas Frigate
+    volume: 20250.0
+  Purist Apostle:
+    id: 42512
+    name: Purist Apostle
+    volume: 28100.0
+  Serpentis Frigate:
+    id: 38659
+    name: Serpentis Frigate
+    volume: 29500.0

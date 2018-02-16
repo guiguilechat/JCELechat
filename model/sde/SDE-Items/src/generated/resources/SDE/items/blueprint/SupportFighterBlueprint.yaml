@@ -44,3 +44,43 @@ items:
     id: 41372
     name: Siren II Blueprint
     volume: 0.01
+  Standup Cenobite I Blueprint:
+    TechLevel: 1
+    id: 47224
+    name: Standup Cenobite I Blueprint
+    volume: 0.01
+  Standup Cenobite II Blueprint:
+    TechLevel: 1
+    id: 47225
+    name: Standup Cenobite II Blueprint
+    volume: 0.01
+  Standup Dromi I Blueprint:
+    TechLevel: 1
+    id: 47230
+    name: Standup Dromi I Blueprint
+    volume: 0.01
+  Standup Dromi II Blueprint:
+    TechLevel: 1
+    id: 47231
+    name: Standup Dromi II Blueprint
+    volume: 0.01
+  Standup Scarab I Blueprint:
+    TechLevel: 1
+    id: 47226
+    name: Standup Scarab I Blueprint
+    volume: 0.01
+  Standup Scarab II Blueprint:
+    TechLevel: 1
+    id: 47227
+    name: Standup Scarab II Blueprint
+    volume: 0.01
+  Standup Siren I Blueprint:
+    TechLevel: 1
+    id: 47228
+    name: Standup Siren I Blueprint
+    volume: 0.01
+  Standup Siren II Blueprint:
+    TechLevel: 1
+    id: 47229
+    name: Standup Siren II Blueprint
+    volume: 0.01

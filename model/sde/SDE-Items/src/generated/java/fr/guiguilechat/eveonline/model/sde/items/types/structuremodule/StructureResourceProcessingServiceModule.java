@@ -41,13 +41,6 @@ public class StructureResourceProcessingServiceModule
     @DefaultDoubleValue(0.5)
     public double RefiningYieldIce;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -61,6 +54,13 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowInHighSec;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * 
      */
@@ -87,6 +87,13 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(2)
     public int OnlineMaxSecurityClass;
     /**
+     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ServiceModuleFullPowerStateHitpointMultiplier;
+    /**
      * Fuel consumed by the structure service module
      */
     @HighIsGood(true)
@@ -101,13 +108,6 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelAmount;
     /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
-    /**
      * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
@@ -121,6 +121,13 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * 
      */

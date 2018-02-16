@@ -1,19 +1,52 @@
 items:
-  Standup Warp Scrambler I:
-    ActivationBlockedStrenght: 1
+  Standup Focused Warp Disruptor I:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    CapacitorNeed: 400.0
-    Cpu: 2000.0
-    DisallowWhenInvulnerable: 1
-    Duration: 5000.0
+    CapacitorNeed: 4000.0
+    ChargeGroup1: 1551
+    ChargeSize: 1
+    Cpu: 2500.0
+    DisallowRepeatingActivation: 1
+    Duration: 30000.0
     Hp: 40
-    MaxRange: 250000
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxGroupOnline: 1
+    MaxRange: 210000
     MaxVelocityMultiplier: 1.0
+    ModuleReactivationDelay: 60000
     Power: 50000
+    ReloadTime: 0.009999999776482582
     StructureItemVisualFlag: 1
-    WarpScrambleStrength: 10
+    TechLevel: 1
+    WarpScrambleStrength: 100
     id: 35949
-    name: Standup Warp Scrambler I
+    name: Standup Focused Warp Disruptor I
+    volume: 4000.0
+  Standup Focused Warp Disruptor II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 4800.0
+    ChargeGroup1: 1551
+    ChargeSize: 1
+    Cpu: 3000.0
+    DisallowRepeatingActivation: 1
+    Duration: 30000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxGroupOnline: 1
+    MaxRange: 300000
+    MaxVelocityMultiplier: 1.0
+    MetaLevel: 5
+    ModuleReactivationDelay: 60000
+    Power: 60000
+    ReloadTime: 0.009999999776482582
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    WarpScrambleStrength: 100
+    id: 47334
+    name: Standup Focused Warp Disruptor II
     volume: 4000.0

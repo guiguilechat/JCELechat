@@ -17,8 +17,8 @@ public class ShieldResistanceAmplifier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CapacityBonus;
+    @DefaultDoubleValue(0.0)
+    public double CapacityBonus;
     /**
      * CPU need of module
      */

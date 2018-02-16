@@ -99,6 +99,12 @@ items:
   Green Gas Cloud:
     id: 10765
     name: Green Gas Cloud
+  Guardians Gala Boss Spawner:
+    id: 47329
+    name: Guardians Gala Boss Spawner
+  Guardians Gala Spawner:
+    id: 47152
+    name: Guardians Gala Spawner
   Icefield Environment:
     id: 19751
     name: Icefield Environment
@@ -236,12 +242,6 @@ items:
   Sulphuric Cloud:
     id: 10755
     name: Sulphuric Cloud
-  TestAsset_01:
-    id: 47066
-    name: TestAsset_01
-  TestAsset_02:
-    id: 47067
-    name: TestAsset_02
   Toxic Cloud Environment:
     id: 19753
     name: Toxic Cloud Environment

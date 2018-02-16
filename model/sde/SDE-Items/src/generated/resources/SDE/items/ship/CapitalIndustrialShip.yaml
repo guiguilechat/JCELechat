@@ -22,6 +22,7 @@ items:
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
     FleetHangarCapacity: 40000
     FwLpKill: 2000
     GfxBoosterID: 394

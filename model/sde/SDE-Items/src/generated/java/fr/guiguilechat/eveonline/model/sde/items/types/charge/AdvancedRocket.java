@@ -27,12 +27,12 @@ public class AdvancedRocket
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * One of the groups of launcher this charge can be loaded into.
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int Hp;
     /**
      * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
      */
@@ -41,12 +41,12 @@ public class AdvancedRocket
     @DefaultDoubleValue(1.0)
     public double AoeDamageReductionFactor;
     /**
-     * The maximum hitpoints of an object.
+     * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Hp;
+    public int LauncherGroup;
     /**
      * DO NOT MESS WITH
      */

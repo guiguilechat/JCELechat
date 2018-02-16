@@ -79,6 +79,13 @@ public abstract class Fighter
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
+    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)

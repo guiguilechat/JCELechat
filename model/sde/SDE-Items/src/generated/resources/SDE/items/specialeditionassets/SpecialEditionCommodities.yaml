@@ -269,6 +269,16 @@ items:
     id: 47048
     name: Frozen Droplet of Blood
     volume: 3.0
+  Galaxy Pack - Crystal:
+    CpuMultiplier: 1.0
+    id: 47253
+    name: Galaxy Pack - Crystal
+    volume: 1.0
+  Galaxy Pack - Spectral:
+    CpuMultiplier: 1.0
+    id: 47154
+    name: Galaxy Pack - Spectral
+    volume: 1.0
   Gallente Inception Package:
     CpuMultiplier: 1.0
     id: 43932

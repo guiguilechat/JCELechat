@@ -55,19 +55,19 @@ public class ElectronicWarfareDrone
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
-     * Multiplies KINETIC damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
-    /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int FighterAbilityAntiFighterMissileResistance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ArmorKineticDamageResonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */

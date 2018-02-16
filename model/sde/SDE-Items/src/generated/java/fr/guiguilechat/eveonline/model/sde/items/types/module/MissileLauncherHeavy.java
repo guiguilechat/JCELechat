@@ -69,19 +69,19 @@ public class MissileLauncherHeavy
     @DefaultIntValue(0)
     public int OverloadRofBonus;
     /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
      */

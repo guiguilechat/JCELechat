@@ -709,115 +709,292 @@ items:
     name: Shadow
     volume: 1800.0
   Standup Ametat I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 835
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 8000
+    FighterAbilityAttackMissileRangeOptimal: 42500
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41549
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
+    MaxVelocity: 1110.0
+    ScanRadarStrength: 11.0
+    ScanResolution: 430
+    ShieldCapacity: 5472
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47124
     name: Standup Ametat I
     volume: 4000.0
   Standup Ametat II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 921
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 8000
+    FighterAbilityAttackMissileRangeOptimal: 51000
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41549
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36600
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
+    MaxVelocity: 1156.0
+    MetaLevel: 5
+    ScanRadarStrength: 12.0
+    ScanResolution: 450
+    ShieldCapacity: 6048
     ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.699999988079071
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47127
     name: Standup Ametat II
     volume: 4000.0
   Standup Antaeus I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 967
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 37500
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41550
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
+    MaxVelocity: 952.0
+    ScanMagnetometricStrength: 11.0
+    ScanResolution: 430
+    ShieldCapacity: 5472
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47126
     name: Standup Antaeus I
     volume: 4000.0
   Standup Antaeus II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 1066
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 45000
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41550
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36000
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
+    MaxVelocity: 990.0
+    MetaLevel: 5
+    ScanMagnetometricStrength: 12.0
+    ScanResolution: 450
+    ShieldCapacity: 6048
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldKineticDamageResonance: 0.699999988079071
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47129
     name: Standup Antaeus II
     volume: 4000.0
   Standup Cyclops I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 1208
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 5000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDamageTherm: 9656
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12500
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 988.0
+    ScanMagnetometricStrength: 11.0
+    ScanResolution: 500
+    ShieldCapacity: 5840
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47117
     name: Standup Cyclops I
     volume: 3600.0
   Standup Cyclops II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 1333
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 6000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDamageTherm: 10672
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 15000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4900
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1028.0
+    MetaLevel: 5
+    ScanMagnetometricStrength: 12.0
+    ScanResolution: 520
+    ShieldCapacity: 6448
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldKineticDamageResonance: 0.699999988079071
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47121
     name: Standup Cyclops II
     volume: 3600.0
   Standup Gungnir I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
-    FighterAbilityAttackMissileDamageExp: 239
+    FighterAbilityAttackMissileDamageExp: 789
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 8000
     FighterAbilityAttackMissileExplosionRadius: 330
     FighterAbilityAttackMissileExplosionVelocity: 110
     FighterAbilityAttackMissileRangeFalloff: 16000
-    FighterAbilityAttackMissileRangeOptimal: 26000
+    FighterAbilityAttackMissileRangeOptimal: 32500
     FighterAbilityAttackMissileReductionFactor: 5.0
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500
     FighterAbilityLaunchBombDuration: 60000
     FighterAbilityLaunchBombType: 41551
     FighterAbilityMicroJumpDriveDistance: 100000
@@ -831,14 +1008,10 @@ items:
     Hp: 100
     MaxLockedTargets: 6
     MaxTargetRange: 90000
-    MaxVelocity: 582.0
-    RequiredSkill1: 32339
-    RequiredSkill1Level: 1
-    RequiredSkill2: 23069
-    RequiredSkill2Level: 1
-    ScanLadarStrength: 7.0
+    MaxVelocity: 1164.0
+    ScanLadarStrength: 11.0
     ScanResolution: 430
-    ShieldCapacity: 3420
+    ShieldCapacity: 5472
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
@@ -846,6 +1019,7 @@ items:
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
     SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -853,78 +1027,173 @@ items:
     name: Standup Gungnir I
     volume: 4000.0
   Standup Gungnir II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 875
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 16000
+    FighterAbilityAttackMissileRangeOptimal: 39000
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41551
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 35400
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
+    MaxVelocity: 1210.0
+    MetaLevel: 5
+    ScanLadarStrength: 12.0
+    ScanResolution: 450
+    ShieldCapacity: 6048
+    ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47130
     name: Standup Gungnir II
     volume: 4000.0
   Standup Malleus I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 47116
-    name: Standup Malleus I
-    volume: 3600.0
-  Standup Malleus II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 47119
-    name: Standup Malleus II
-    volume: 3600.0
-  Standup Mantis I:
     Agility: 500.0
-    FighterAbilityAfterburnerSpeedBonus: 100
     FighterAbilityAntiFighterMissileResistance: 1
-    FighterAbilityAttackMissileDamageKin: 349
+    FighterAbilityAttackMissileDamageEM: 1043
     FighterAbilityAttackMissileDamageMultiplier: 1
     FighterAbilityAttackMissileDuration: 5000
     FighterAbilityAttackMissileExplosionRadius: 3000
     FighterAbilityAttackMissileExplosionVelocity: 40
     FighterAbilityAttackMissileRangeFalloff: 5000
-    FighterAbilityAttackMissileRangeOptimal: 4000
+    FighterAbilityAttackMissileRangeOptimal: 10000
     FighterAbilityAttackMissileReductionFactor: 5.5
     FighterAbilityAttackMissileReductionSensitivity: 5.5
-    FighterAbilityKamikazeRange: 500
     FighterAbilityMicroWarpDriveDuration: 20000
     FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
     FighterAbilityMicroWarpDriveSpeedBonus: 500
-    FighterAbilityMissilesDamageKin: 2793
+    FighterAbilityMissilesDamageEM: 8339
     FighterAbilityMissilesDamageMultiplier: 1
     FighterAbilityMissilesDamageReductionFactor: 5.5
     FighterAbilityMissilesDamageReductionSensitivity: 5.5
     FighterAbilityMissilesDuration: 40000
     FighterAbilityMissilesExplosionRadius: 5000
     FighterAbilityMissilesExplosionVelocity: 50
-    FighterAbilityMissilesRange: 10000
+    FighterAbilityMissilesRange: 12500
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 6500
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 1152.0
+    ScanRadarStrength: 11.0
+    ScanResolution: 500
+    ShieldCapacity: 5840
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 1
+    WarpSpeedMultiplier: 1.5
+    id: 47116
+    name: Standup Malleus I
+    volume: 3600.0
+  Standup Malleus II:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 1152
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 12000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageEM: 9217
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 15000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7300
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1200.0
+    MetaLevel: 5
+    ScanRadarStrength: 12.0
+    ScanResolution: 520
+    ShieldCapacity: 6448
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.699999988079071
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
+    StructureUniformity: 1.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
+    id: 47119
+    name: Standup Malleus II
+    volume: 3600.0
+  Standup Mantis I:
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 1152
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 5000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageKin: 9217
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12500
     FighterAbilityMissilesResistanceID: 2244
     FighterRefuelingTime: 10000
     FighterSquadronIsStandupHeavy: 1
@@ -934,14 +1203,10 @@ items:
     Hp: 100
     MaxLockedTargets: 6
     MaxTargetRange: 45000
-    MaxVelocity: 521.0
-    RequiredSkill1: 32339
-    RequiredSkill1Level: 1
-    RequiredSkill2: 23069
-    RequiredSkill2Level: 1
-    ScanGravimetricStrength: 7.0
+    MaxVelocity: 1042.0
+    ScanGravimetricStrength: 11.0
     ScanResolution: 500
-    ShieldCapacity: 3650
+    ShieldCapacity: 5840
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
@@ -949,6 +1214,7 @@ items:
     ShieldThermalDamageResonance: 1.0
     ShieldUniformity: 1.0
     SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
@@ -956,98 +1222,291 @@ items:
     name: Standup Mantis I
     volume: 3600.0
   Standup Mantis II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 1274
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 6000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageKin: 10187
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 15000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 4900
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1086.0
+    MetaLevel: 5
+    ScanGravimetricStrength: 12.0
+    ScanResolution: 520
+    ShieldCapacity: 6448
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.699999988079071
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47120
     name: Standup Mantis II
     volume: 3600.0
   Standup Shadow:
-    FighterAbilityAfterburnerSpeedBonus: 100
+    Agility: 500.0
+    FighterAbilityAfterburnerDuration: 20000
+    FighterAbilityAfterburnerSpeedBonus: 400
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageEM: 660
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDamageTherm: 660
+    FighterAbilityAttackMissileDuration: 3500
+    FighterAbilityAttackMissileExplosionRadius: 2000
+    FighterAbilityAttackMissileExplosionVelocity: 60
+    FighterAbilityAttackMissileRangeFalloff: 5000
+    FighterAbilityAttackMissileRangeOptimal: 12000
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityKamikazeDamageEM: 50000
+    FighterAbilityKamikazeDamageExp: 50000
+    FighterAbilityKamikazeDamageKin: 50000
+    FighterAbilityKamikazeDamageTherm: 50000
     FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    FighterAbilityKamikazeResistanceID: 2433
+    FighterAbilityKamikazeSignatureRadius: 5000
+    FighterRefuelingTime: 6000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7300
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 60000
+    MaxVelocity: 1086.0
+    MetaGroupID: 4
+    MetaLevel: 8
+    ScanRadarStrength: 12.0
+    ScanResolution: 520
+    ShieldCapacity: 8800
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
+    ShieldUniformity: 1.0
     SignatureRadius: 100
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47123
     name: Standup Shadow
     volume: 3600.0
   Standup Termite I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 921
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 37500
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41548
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 10000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 31500
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 90000
+    MaxVelocity: 1004.0
+    ScanGravimetricStrength: 11.0
+    ScanResolution: 430
+    ShieldCapacity: 5472
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47125
     name: Standup Termite I
     volume: 4000.0
   Standup Termite II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageKin: 1020
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 8000
+    FighterAbilityAttackMissileExplosionRadius: 330
+    FighterAbilityAttackMissileExplosionVelocity: 110
+    FighterAbilityAttackMissileRangeFalloff: 12000
+    FighterAbilityAttackMissileRangeOptimal: 45000
+    FighterAbilityAttackMissileReductionFactor: 5.0
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityLaunchBombDuration: 60000
+    FighterAbilityLaunchBombType: 41548
+    FighterAbilityMicroJumpDriveDistance: 100000
+    FighterAbilityMicroJumpDriveDuration: 8000
+    FighterAbilityMicroJumpDriveSignatureRadiusBonus: 150
+    FighterRefuelingTime: 2000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 36000
+    FighterSquadronRole: 5
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 100000
+    MaxVelocity: 1046.0
+    MetaLevel: 5
+    ScanGravimetricStrength: 12.0
+    ScanResolution: 450
+    ShieldCapacity: 6048
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldKineticDamageResonance: 0.8500000238418579
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.699999988079071
+    ShieldUniformity: 1.0
+    SignatureRadius: 120
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47128
     name: Standup Termite II
     volume: 4000.0
   Standup Tyrfing I:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 987
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 10000
+    FighterAbilityAttackMissileRangeOptimal: 5000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageExp: 7900
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 12500
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7000
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 45000
+    MaxVelocity: 1208.0
+    ScanLadarStrength: 11.0
+    ScanResolution: 500
+    ShieldCapacity: 5840
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
+    ShieldRechargeRate: 1000000.0
     ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
     TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    WarpSpeedMultiplier: 1.5
     id: 47118
     name: Standup Tyrfing I
     volume: 3600.0
   Standup Tyrfing II:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
+    Agility: 500.0
+    FighterAbilityAntiFighterMissileResistance: 1
+    FighterAbilityAttackMissileDamageExp: 1092
+    FighterAbilityAttackMissileDamageMultiplier: 1
+    FighterAbilityAttackMissileDuration: 5000
+    FighterAbilityAttackMissileExplosionRadius: 3000
+    FighterAbilityAttackMissileExplosionVelocity: 40
+    FighterAbilityAttackMissileRangeFalloff: 10000
+    FighterAbilityAttackMissileRangeOptimal: 6000
+    FighterAbilityAttackMissileReductionFactor: 5.5
+    FighterAbilityAttackMissileReductionSensitivity: 5.5
+    FighterAbilityMicroWarpDriveDuration: 20000
+    FighterAbilityMicroWarpDriveSignatureRadiusBonus: 500
+    FighterAbilityMicroWarpDriveSpeedBonus: 500
+    FighterAbilityMissilesDamageExp: 8732
+    FighterAbilityMissilesDamageMultiplier: 1
+    FighterAbilityMissilesDamageReductionFactor: 5.5
+    FighterAbilityMissilesDamageReductionSensitivity: 5.5
+    FighterAbilityMissilesDuration: 40000
+    FighterAbilityMissilesExplosionRadius: 5000
+    FighterAbilityMissilesExplosionVelocity: 50
+    FighterAbilityMissilesRange: 15000
+    FighterAbilityMissilesResistanceID: 2244
+    FighterRefuelingTime: 10000
+    FighterSquadronIsStandupHeavy: 1
+    FighterSquadronMaxSize: 6
+    FighterSquadronOrbitRange: 7400
+    FighterSquadronRole: 4
+    Hp: 100
+    MaxLockedTargets: 6
+    MaxTargetRange: 54000
+    MaxVelocity: 1256.0
+    MetaLevel: 5
+    ScanLadarStrength: 12.0
+    ScanResolution: 520
+    ShieldCapacity: 6448
+    ShieldEmDamageResonance: 0.699999988079071
     ShieldExplosiveDamageResonance: 1.0
     ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
+    ShieldRechargeRate: 1000000.0
+    ShieldThermalDamageResonance: 0.8500000238418579
+    ShieldUniformity: 1.0
+    SignatureRadius: 110
+    StructureItemVisualFlag: 1
     StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
+    TechLevel: 2
+    WarpSpeedMultiplier: 1.5
     id: 47122
     name: Standup Tyrfing II
     volume: 3600.0

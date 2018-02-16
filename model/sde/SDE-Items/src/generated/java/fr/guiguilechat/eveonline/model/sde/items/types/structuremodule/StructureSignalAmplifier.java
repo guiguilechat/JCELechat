@@ -41,6 +41,13 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
+     * Bonus to Max Targeting Range
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRangeBonus;
+    /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
@@ -48,12 +55,26 @@ public class StructureSignalAmplifier
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * Additional amount of locked targets that can be handled.
      */

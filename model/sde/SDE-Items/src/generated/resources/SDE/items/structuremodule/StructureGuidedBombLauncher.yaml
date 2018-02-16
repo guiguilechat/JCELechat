@@ -13,10 +13,34 @@ items:
     MaxGroupFitted: 1
     OnlineMaxSecurityClass: 1
     Power: 275000
-    ReloadTime: 0.009999999776482582
+    ReloadTime: 10000.0
     Slots: 1
-    Speed: 40000
+    Speed: 60000
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35923
     name: Standup Guided Bomb Launcher I
+    volume: 8000.0
+  Standup Guided Bomb Launcher II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    ChargeGroup1: 1548
+    ChargeRate: 1
+    Cpu: 3600.0
+    DeadspaceUnsafe: 2
+    DisallowInHighSec: 1
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MetaLevel: 5
+    OnlineMaxSecurityClass: 1
+    Power: 330000
+    ReloadTime: 10000.0
+    Slots: 1
+    Speed: 48000
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47325
+    name: Standup Guided Bomb Launcher II
     volume: 8000.0

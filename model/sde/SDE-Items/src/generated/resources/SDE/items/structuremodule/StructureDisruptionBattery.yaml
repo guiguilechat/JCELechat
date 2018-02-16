@@ -14,8 +14,29 @@ items:
     RemoteResistanceID: 2112
     ScanResolutionBonus: -55.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35941
     name: Standup Remote Sensor Dampener I
+    volume: 4000.0
+  Standup Remote Sensor Dampener II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 480.0
+    Cpu: 1800.0
+    Duration: 5000.0
+    FalloffEffectiveness: 180000
+    Hp: 40
+    MaxRange: 90000
+    MaxTargetRangeBonus: -61.0
+    MetaLevel: 5
+    Power: 60000
+    RemoteResistanceID: 2112
+    ScanResolutionBonus: -61.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47368
+    name: Standup Remote Sensor Dampener II
     volume: 4000.0
   Standup Target Painter I:
     CanFitShipGroup01: 1657
@@ -31,8 +52,28 @@ items:
     RemoteResistanceID: 2114
     SignatureRadiusBonus: 65.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35947
     name: Standup Target Painter I
+    volume: 4000.0
+  Standup Target Painter II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 1200.0
+    Cpu: 1800.0
+    Duration: 10000.0
+    FalloffEffectiveness: 180000
+    Hp: 40
+    MaxRange: 90000
+    MetaLevel: 5
+    Power: 60000
+    RemoteResistanceID: 2114
+    SignatureRadiusBonus: 72.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47366
+    name: Standup Target Painter II
     volume: 4000.0
   Standup Weapon Disruptor I:
     AoeCloudSizeBonus: 50.0
@@ -52,7 +93,32 @@ items:
     MissileVelocityBonus: -37.0
     Power: 50000
     StructureItemVisualFlag: 1
+    TechLevel: 1
     TrackingSpeedBonus: -60.0
     id: 35945
     name: Standup Weapon Disruptor I
+    volume: 4000.0
+  Standup Weapon Disruptor II:
+    AoeCloudSizeBonus: 55.0
+    AoeVelocityBonus: -55.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 480.0
+    Cpu: 1800.0
+    Duration: 5000.0
+    ExplosionDelayBonus: -33.0
+    FalloffBonus: -66.0
+    FalloffEffectiveness: 90000
+    Hp: 40
+    MaxRange: 180000
+    MaxRangeBonus: -66.0
+    MetaLevel: 5
+    MissileVelocityBonus: -41.0
+    Power: 60000
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    TrackingSpeedBonus: -66.0
+    id: 47364
+    name: Standup Weapon Disruptor II
     volume: 4000.0

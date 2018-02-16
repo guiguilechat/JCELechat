@@ -55,19 +55,19 @@ public class ElectronicWarfareBattery
     @DefaultIntValue(0)
     public int ArmorHP;
     /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int MaxTargetRange;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
     /**
      * Minimum distance where a starbase structure can be anchored at from the control tower shield extremity in meters.
      */
@@ -125,19 +125,19 @@ public class ElectronicWarfareBattery
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * The distance at which to react when relevant objects come within range.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ProximityRange;
-    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RemoteResistanceID;
+    /**
+     * The distance at which to react when relevant objects come within range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ProximityRange;
     /**
      * Minimum attack delay time for entity.
      */

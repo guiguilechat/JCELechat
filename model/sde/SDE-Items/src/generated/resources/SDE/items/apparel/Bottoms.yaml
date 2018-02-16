@@ -140,7 +140,7 @@ items:
     name: Men's 'Strider' Pants (monochrome)
     volume: 0.1
   Men's YC119 Yoiul Festival Pants:
-    Gender: 2
+    Gender: 1
     id: 44124
     name: Men's YC119 Yoiul Festival Pants
     volume: 0.1
@@ -595,7 +595,7 @@ items:
     name: Women's 'Strut' Pants (yellow gloss)
     volume: 0.1
   Women's YC119 Yoiul Festival Pants:
-    Gender: 2
+    Gender: 3
     id: 44121
     name: Women's YC119 Yoiul Festival Pants
     volume: 0.1

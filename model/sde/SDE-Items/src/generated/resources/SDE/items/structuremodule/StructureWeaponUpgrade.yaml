@@ -3,14 +3,30 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 1500.0
+    Cpu: 2000.0
     Hp: 40
     MissileDamageMultiplierBonus: 1.0700000524520874
     Power: 50000
     SpeedMultiplier: 0.9200000166893005
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35959
     name: Standup Ballistic Control System I
+    volume: 4000.0
+  Standup Ballistic Control System II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    Cpu: 2400.0
+    Hp: 40
+    MetaLevel: 5
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 60000
+    SpeedMultiplier: 0.8949999809265137
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47342
+    name: Standup Ballistic Control System II
     volume: 4000.0
   Standup Missile Guidance Enhancer I:
     AoeCloudSizeBonus: -4.400000095367432
@@ -25,6 +41,25 @@ items:
     Power: 50000
     SpeedMultiplier: 1.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35962
     name: Standup Missile Guidance Enhancer I
+    volume: 4000.0
+  Standup Missile Guidance Enhancer II:
+    AoeCloudSizeBonus: -6.0
+    AoeVelocityBonus: 6.0
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    Cpu: 1200.0
+    ExplosionDelayBonus: 6.0
+    Hp: 40
+    MetaLevel: 5
+    MissileVelocityBonus: 6.0
+    Power: 60000
+    SpeedMultiplier: 1.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47340
+    name: Standup Missile Guidance Enhancer II
     volume: 4000.0

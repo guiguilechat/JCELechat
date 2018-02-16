@@ -3,30 +3,33 @@ items:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 4800000
+    ArmorHP: 3200000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     AutoFractureDelay: 10800
     CapacitorCapacity: 100000.0
-    CpuOutput: 15000
+    CpuOutput: 14000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
     FighterAbilityAntiCapitalMissileResistance: 1
+    Hackable: 1
     HiSlots: 3
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
     Hp: 4800000
     KineticDamageResonance: 0.800000011920929
     LauncherSlotsLeft: 1
     LowSlots: 1
     MaxLockedTargets: 8
     MaxTargetRange: 350000
-    MaximumRangeCap: 400000
+    MaximumRangeCap: 490000
     MedSlots: 3
     MoonAsteroidDecayDisplayValue: 48
     MoonAsteroidDecayTimeMultiplier: 1
-    PowerOutput: 1200000
+    PowerOutput: 900000
     RechargeRate: 3600000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
@@ -39,7 +42,7 @@ items:
     ScanResolution: 40
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 3
-    ShieldCapacity: 4800000
+    ShieldCapacity: 3200000
     ShieldDamageLimit: 5000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -52,10 +55,12 @@ items:
     StrReactionTimeMultiplier: 1.0
     StrRefiningYieldBonus: 2
     StructureDamageLimit: 5000
+    StructureFullPowerStateHitpointMultiplier: 1
     StructureServiceRoleBonus: -20
     TargetPainterResistance: 9.999999747378752E-6
     TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 3
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
@@ -68,35 +73,38 @@ items:
     ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 14400000
+    ArmorHP: 9600000
     ArmorKineticDamageResonance: 0.800000011920929
     ArmorThermalDamageResonance: 0.800000011920929
     ArmorUniformity: 1.0
     AutoFractureDelay: 10800
     CapacitorCapacity: 300000.0
-    CpuOutput: 30000
+    CpuOutput: 29000
     ECMResistance: 9.999999747378752E-6
     EmDamageResonance: 0.800000011920929
     EnergyWarfareResistance: 9.999999747378752E-6
     ExplosiveDamageResonance: 0.800000011920929
     FighterAbilityAntiCapitalMissileResistance: 1
-    FighterCapacity: 100000
-    FighterLightSlots: 3
-    FighterSupportSlots: 3
+    FighterCapacity: 300000
+    FighterStandupLightSlots: 3
+    FighterStandupSupportSlots: 3
     FighterTubes: 4
+    Hackable: 1
     HiSlots: 5
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
     Hp: 14400000
     KineticDamageResonance: 0.800000011920929
     LauncherSlotsLeft: 3
     LowSlots: 3
     MaxLockedTargets: 8
-    MaxTargetRange: 350000
-    MaximumRangeCap: 400000
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
     MedSlots: 4
     MoonAsteroidDecayDisplayValue: 48
     MoonAsteroidDecayTimeMultiplier: 1
-    PowerOutput: 2500000
-    RechargeRate: 7200000.0
+    PowerOutput: 2200000
+    RechargeRate: 5760000.0
     RemoteAssistanceImpedance: 9.999999747378752E-6
     RemoteRepairImpedance: 9.999999747378752E-6
     RigSize: 3
@@ -108,7 +116,7 @@ items:
     ScanResolution: 40
     SensorDampenerResistance: 9.999999747378752E-6
     ServiceSlots: 5
-    ShieldCapacity: 14400000
+    ShieldCapacity: 9600000
     ShieldDamageLimit: 15000
     ShieldEmDamageResonance: 0.800000011920929
     ShieldExplosiveDamageResonance: 0.800000011920929
@@ -120,11 +128,14 @@ items:
     StasisWebifierResistance: 9.999999747378752E-6
     StrReactionTimeMultiplier: 0.75
     StrRefiningYieldBonus: 4
+    StructureAoERoFRoleBonus: -20
     StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
     StructureServiceRoleBonus: -25
     TargetPainterResistance: 9.999999747378752E-6
     TetheringRange: 10000
     ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3

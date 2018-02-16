@@ -222,7 +222,7 @@ items:
     CapacitorBonus: 1500
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 0.8500000238418579
-    CapacityBonus: 1500
+    CapacityBonus: 1500.0
     CargoCapacityMultiplier: 1.149999976158142
     Cpu: 1.0
     CpuMultiplier: 1.149999976158142
@@ -514,7 +514,7 @@ items:
     ArmorHPMultiplier: 1.0
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
-    CapacityBonus: 1000000
+    CapacityBonus: 1000000.0
     CargoCapacityMultiplier: 1.0
     CpuMultiplier: 1.0
     DamageMultiplier: 1.0

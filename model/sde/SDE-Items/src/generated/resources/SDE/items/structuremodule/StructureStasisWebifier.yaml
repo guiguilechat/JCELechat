@@ -3,15 +3,44 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    CapacitorNeed: 400.0
-    Cpu: 2000.0
-    Duration: 5000.0
+    CapacitorNeed: 3000.0
+    Cpu: 2500.0
+    DisallowRepeatingActivation: 1
+    Duration: 30000.0
     Hp: 40
-    MaxRange: 250000
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxGroupOnline: 1
+    MaxRange: 200000
+    ModuleReactivationDelay: 60000
     Power: 50000
     RemoteResistanceID: 2115
     SpeedFactor: -70.0
     StructureItemVisualFlag: 1
+    TechLevel: 1
     id: 35943
     name: Standup Stasis Webifier I
+    volume: 4000.0
+  Standup Stasis Webifier II:
+    CanFitShipGroup01: 1657
+    CanFitShipGroup02: 1404
+    CanFitShipGroup03: 1406
+    CapacitorNeed: 3600.0
+    Cpu: 3000.0
+    DisallowRepeatingActivation: 1
+    Duration: 30000.0
+    Hp: 40
+    MaxGroupActive: 1
+    MaxGroupFitted: 1
+    MaxGroupOnline: 1
+    MaxRange: 300000
+    MetaLevel: 5
+    ModuleReactivationDelay: 60000
+    Power: 60000
+    RemoteResistanceID: 2115
+    SpeedFactor: -75.0
+    StructureItemVisualFlag: 1
+    TechLevel: 2
+    id: 47351
+    name: Standup Stasis Webifier II
     volume: 4000.0

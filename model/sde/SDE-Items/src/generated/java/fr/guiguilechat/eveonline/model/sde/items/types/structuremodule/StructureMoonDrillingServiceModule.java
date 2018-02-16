@@ -27,23 +27,19 @@ public class StructureMoonDrillingServiceModule
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
+    @DefaultDoubleValue(1.0)
+    public double AnchoringSecurityLevelMax;
     /**
-     * Determines the maximum security class that a module can be onlined within. Used for structure modules.
-     * 
-     *  0=Nullsec
-     *  1=Lowsec
-     *  2=Highsec
+     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(2)
-    public int OnlineMaxSecurityClass;
+    @DefaultDoubleValue(1.0)
+    public double ServiceModuleFullPowerStateHitpointMultiplier;
     /**
      * Fuel consumed by the structure service module
      */

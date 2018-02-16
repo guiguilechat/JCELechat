@@ -349,19 +349,19 @@ public class SiegeModule
     @DefaultDoubleValue(0.0)
     public double WeaponDisruptionResistanceBonus;
     /**
-     * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowDocking;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
+    /**
+     * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowDocking;
     /**
      * Improves the targeting time of ships by boosting the Scan Resolution.
      */

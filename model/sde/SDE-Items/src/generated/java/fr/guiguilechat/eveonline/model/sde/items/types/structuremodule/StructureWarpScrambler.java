@@ -13,6 +13,20 @@ public class StructureWarpScrambler
     extends StructureModule
 {
     /**
+     * The size of the charges that can fit in the turret/whatever.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeSize;
+    /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -27,19 +41,26 @@ public class StructureWarpScrambler
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
     /**
      * Amount to modify ships warp scramble status by.
      */
@@ -48,12 +69,12 @@ public class StructureWarpScrambler
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
     /**
-     * CPU need of module
+     * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double Duration;
     /**
      * 
      */
@@ -61,6 +82,20 @@ public class StructureWarpScrambler
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
+    /**
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupOnline;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * 
      */
@@ -83,12 +118,40 @@ public class StructureWarpScrambler
     @DefaultIntValue(0)
     public int MaxRange;
     /**
-     * Prevents module activation when the ship or structure is currently invulnerable.
+     * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowWhenInvulnerable;
+    public int DisallowRepeatingActivation;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
+    /**
+     * One of the groups of charge this launcher can be loaded with.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeGroup1;
+    /**
+     * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ModuleReactivationDelay;
     /**
      * current power need
      */

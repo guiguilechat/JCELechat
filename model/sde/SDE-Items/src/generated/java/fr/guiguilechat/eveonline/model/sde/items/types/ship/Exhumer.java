@@ -83,19 +83,19 @@ public class Exhumer
     @DefaultIntValue(0)
     public int IndustrialBonusDroneDamage;
     /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int MaxDirectionalVelocity;
-    /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
     /**
      * Required skill level for skill 2
      */

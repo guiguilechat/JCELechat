@@ -442,17 +442,17 @@ public class Frigate
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HullExplosiveDamageResonance;
-    /**
-     * 
-     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBonusCF;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HullExplosiveDamageResonance;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
      */

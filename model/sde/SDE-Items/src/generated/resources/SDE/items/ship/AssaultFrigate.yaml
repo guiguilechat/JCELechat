@@ -231,7 +231,7 @@ items:
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 343.75
+    CapacitorCapacity: 450.0
     CpuOutput: 155
     DroneBandwidth: 5
     DroneCapacity: 5
@@ -264,7 +264,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 42500
-    MaxVelocity: 288.0
+    MaxVelocity: 340.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -531,7 +531,7 @@ items:
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 343.75
+    CapacitorCapacity: 450.0
     CpuOutput: 185
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
@@ -562,7 +562,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 50000
-    MaxVelocity: 264.0
+    MaxVelocity: 312.0
     MedSlots: 4
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -612,7 +612,7 @@ items:
     ArmorThermalDamageResonance: 0.13750000298023224
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 312.5
+    CapacitorCapacity: 406.29998779296875
     CpuOutput: 190
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
@@ -643,7 +643,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 45000
-    MaxVelocity: 273.0
+    MaxVelocity: 322.0
     MedSlots: 5
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -693,14 +693,14 @@ items:
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 312.5
+    CapacitorCapacity: 406.0
     CpuOutput: 155
     DroneBandwidth: 25
-    DroneCapacity: 25
+    DroneCapacity: 50
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
     EliteBonusGunship1: 10
-    EliteBonusGunship2: 5.0
+    EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -725,7 +725,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 47500
-    MaxVelocity: 287.0
+    MaxVelocity: 339.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -775,11 +775,13 @@ items:
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 250.0
-    CpuOutput: 170
+    CapacitorCapacity: 325.0
+    CpuOutput: 185
+    DroneBandwidth: 10
+    DroneCapacity: 20
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
-    EliteBonusGunship1: 10
+    EliteBonusGunship1: 5
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -798,16 +800,16 @@ items:
     HiSlots: 4
     Hp: 605
     KineticDamageResonance: 0.6700000166893005
-    LauncherSlotsLeft: 1
-    LowSlots: 4
+    LauncherSlotsLeft: 3
+    LowSlots: 3
     MWDSignatureRadiusBonus: -50
     MainColor: 16777215
     MaxDirectionalVelocity: 3000
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 37500
-    MaxVelocity: 357.0
-    MedSlots: 4
+    MaxVelocity: 405.0
+    MedSlots: 5
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
     PowerOutput: 43
@@ -831,12 +833,13 @@ items:
     ShieldThermalDamageResonance: 0.4000000059604645
     ShieldUniformity: 0.75
     ShipBonus2AF: 5.0
-    ShipBonusMF2: 7.5
+    ShipBonusMF: 7.5
+    ShipBonusMF2: -5.0
     SignatureRadius: 34
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
-    TurretSlotsLeft: 3
+    TurretSlotsLeft: 1
     TypeColorScheme: 11425
     Uniformity: 1.0
     UpgradeCapacity: 400
@@ -1005,7 +1008,7 @@ items:
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 437.5
+    CapacitorCapacity: 568.7999877929688
     CpuOutput: 140
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
@@ -1035,11 +1038,11 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 40000
-    MaxVelocity: 278.0
+    MaxVelocity: 328.0
     MedSlots: 2
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    PowerOutput: 56
+    PowerOutput: 62
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 187500.0
@@ -1059,7 +1062,7 @@ items:
     ShieldRechargeRate: 625000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    ShipBonusAF: 7.5
+    ShipBonusAF: -5.0
     SignatureRadius: 35
     StructureUniformity: 1.0
     TechLevel: 2
@@ -1162,7 +1165,7 @@ items:
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 375.0
+    CapacitorCapacity: 487.5
     CpuOutput: 170
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
@@ -1193,7 +1196,7 @@ items:
     MaxLockedTargets: 5
     MaxPassengers: 12
     MaxTargetRange: 38000
-    MaxVelocity: 273.0
+    MaxVelocity: 322.0
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
@@ -1241,7 +1244,7 @@ items:
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 275.0
+    CapacitorCapacity: 357.5
     CpuOutput: 135
     EliteBonusAssaultShips1: 75
     EliteBonusEscorts: 10
@@ -1272,7 +1275,7 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 15
     MaxTargetRange: 40000
-    MaxVelocity: 329.0
+    MaxVelocity: 415.0
     MedSlots: 2
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806

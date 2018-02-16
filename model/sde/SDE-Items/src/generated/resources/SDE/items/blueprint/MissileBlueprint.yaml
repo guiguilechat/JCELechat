@@ -649,57 +649,57 @@ items:
     id: 17860
     name: Scourge XL Torpedo Blueprint
     volume: 0.01
-  Standup AM Guided Bomb Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37858
-    name: Standup AM Guided Bomb Blueprint
-    volume: 0.01
-  Standup AS Guided Bomb Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37859
-    name: Standup AS Guided Bomb Blueprint
-    volume: 0.01
-  Standup ASML-LD Missile Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37855
-    name: Standup ASML-LD Missile Blueprint
-    volume: 0.01
-  Standup ASML-MD Missile Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37856
-    name: Standup ASML-MD Missile Blueprint
-    volume: 0.01
-  Standup ASML-SD Missile Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37857
-    name: Standup ASML-SD Missile Blueprint
-    volume: 0.01
-  Standup AXL-C Missile Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37853
-    name: Standup AXL-C Missile Blueprint
-    volume: 0.01
-  Standup AXL-S Missile Blueprint:
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 37852
-    name: Standup AXL-S Missile Blueprint
-    volume: 0.01
   Standup AXL-SR Missile Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37854
     name: Standup AXL-SR Missile Blueprint
     volume: 0.01
+  Standup Cruise Missile Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37855
+    name: Standup Cruise Missile Blueprint
+    volume: 0.01
+  Standup Heavy Guided Bomb Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37858
+    name: Standup Heavy Guided Bomb Blueprint
+    volume: 0.01
+  Standup Heavy Missile Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37856
+    name: Standup Heavy Missile Blueprint
+    volume: 0.01
+  Standup Light Guided Bomb Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37859
+    name: Standup Light Guided Bomb Blueprint
+    volume: 0.01
+  Standup Light Missile Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37857
+    name: Standup Light Missile Blueprint
+    volume: 0.01
+  Standup Super-heavy Torpedo Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37852
+    name: Standup Super-heavy Torpedo Blueprint
+    volume: 0.01
   Standup Void Guided Bomb Blueprint:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37860
     name: Standup Void Guided Bomb Blueprint
+    volume: 0.01
+  Standup XL Cruise Missile Blueprint:
+    StructureItemVisualFlag: 1
+    TechLevel: 1
+    id: 37853
+    name: Standup XL Cruise Missile Blueprint
     volume: 0.01

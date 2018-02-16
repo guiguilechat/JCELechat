@@ -13,19 +13,19 @@ public class StructureEngineeringRigLBasicLargeShipEfficiency
     extends StructureModule
 {
     /**
-     * Bonus on Time decrease for engineering rigs
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int AttributeEngRigTimeBonus;
-    /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    /**
+     * Bonus on Time decrease for engineering rigs
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int AttributeEngRigTimeBonus;
     /**
      * Bonus on Material decrease for engineering rigs
      */

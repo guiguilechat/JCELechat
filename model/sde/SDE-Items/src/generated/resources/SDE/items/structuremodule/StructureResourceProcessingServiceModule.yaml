@@ -1,11 +1,11 @@
 items:
   Standup Biochemical Reactor I:
     CanFitShipGroup01: 1406
-    Cpu: 1000.0
+    Cpu: 200.0
     DisallowInHighSec: 1
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 200000
+    Power: 40000
     RefiningYieldIce: 0.5
     RefiningYieldMoonOres: 0.5
     RefiningYieldMultiplier: 0.5
@@ -13,17 +13,18 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45539
     name: Standup Biochemical Reactor I
     volume: 4000.0
   Standup Composite Reactor I:
     CanFitShipGroup01: 1406
-    Cpu: 1000.0
+    Cpu: 200.0
     DisallowInHighSec: 1
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 200000
+    Power: 40000
     RefiningYieldIce: 0.5
     RefiningYieldMoonOres: 0.5
     RefiningYieldMultiplier: 0.5
@@ -31,17 +32,18 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45537
     name: Standup Composite Reactor I
     volume: 4000.0
   Standup Hybrid Reactor I:
     CanFitShipGroup01: 1406
-    Cpu: 1000.0
+    Cpu: 200.0
     DisallowInHighSec: 1
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 1
-    Power: 200000
+    Power: 40000
     RefiningYieldIce: 0.5
     RefiningYieldMoonOres: 0.5
     RefiningYieldMultiplier: 0.5
@@ -49,6 +51,7 @@ items:
     ServiceModuleFuelAmount: 15
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 864
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45538
     name: Standup Hybrid Reactor I
@@ -57,10 +60,10 @@ items:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404
     CanFitShipGroup03: 1406
-    Cpu: 500.0
+    Cpu: 200.0
     MaxTypeFitted: 1
     OnlineMaxSecurityClass: 2
-    Power: 100000
+    Power: 30000
     RefiningYieldIce: 0.5
     RefiningYieldMoonOres: 0.5
     RefiningYieldMultiplier: 0.5
@@ -68,6 +71,7 @@ items:
     ServiceModuleFuelAmount: 10
     ServiceModuleFuelConsumptionGroup: 1136
     ServiceModuleFuelOnlineAmount: 720
+    ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35899
     name: Standup Reprocessing Facility I

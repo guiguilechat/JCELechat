@@ -16,7 +16,7 @@ items:
     StructureItemVisualFlag: 1
     StructureRigBonus1: 40
     StructureRigBonus2: 4.0
-    TechLevel: 1
+    TechLevel: 2
     UpgradeCost: 150
     id: 37159
     name: Standup M-Set Ammunition Manufacturing Material Efficiency II
@@ -38,7 +38,7 @@ items:
     StructureItemVisualFlag: 1
     StructureRigBonus1: 32
     StructureRigBonus2: 3.200000047683716
-    TechLevel: 2
+    TechLevel: 1
     UpgradeCost: 100
     id: 37158
     name: Standup M-Set Ammunition Manufacturing Material Efficiency I

@@ -11,6 +11,16 @@ items:
     id: 23419
     name: '''Radical'' Damage Control Blueprint'
     volume: 0.01
+  Assault Damage Control I Blueprint:
+    TechLevel: 1
+    id: 47259
+    name: Assault Damage Control I Blueprint
+    volume: 0.01
+  Assault Damage Control II Blueprint:
+    TechLevel: 1
+    id: 47260
+    name: Assault Damage Control II Blueprint
+    volume: 0.01
   Capital Emergency Hull Energizer I Blueprint:
     TechLevel: 1
     id: 40719

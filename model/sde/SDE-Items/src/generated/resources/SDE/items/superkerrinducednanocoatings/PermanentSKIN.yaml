@@ -167,6 +167,10 @@ items:
     id: 38844
     name: Aeon EoM Serenity Only SKIN (Permanent)
     volume: 0.01
+  Aeon Eros Blossom SKIN (Permanent):
+    id: 47289
+    name: Aeon Eros Blossom SKIN (Permanent)
+    volume: 0.01
   Aeon Exoplanets Hunter SKIN (Permanent):
     id: 45802
     name: Aeon Exoplanets Hunter SKIN (Permanent)
@@ -259,6 +263,10 @@ items:
     id: 42317
     name: Algos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Algos Spirit SKIN (Permanent):
+    id: 44905
+    name: Algos Spirit SKIN (Permanent)
+    volume: 0.01
   Algos Valimor Legacy SKIN (Permanent):
     id: 37560
     name: Algos Valimor Legacy SKIN (Permanent)
@@ -266,10 +274,6 @@ items:
   Algos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40121
     name: Algos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Algos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44905
-    name: Algos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Amarr Shuttle Exoplanets Hunter SKIN (Permanent):
     id: 45751
@@ -363,6 +367,10 @@ items:
     id: 42507
     name: Anshar Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Anshar Spirit SKIN (Permanent):
+    id: 44948
+    name: Anshar Spirit SKIN (Permanent)
+    volume: 0.01
   Anshar Valimor Legacy SKIN (Permanent):
     id: 37595
     name: Anshar Valimor Legacy SKIN (Permanent)
@@ -370,10 +378,6 @@ items:
   Anshar Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40296
     name: Anshar Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Anshar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44948
-    name: Anshar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Apocalypse Ardishapur SKIN (Permanent):
     id: 34627
@@ -575,6 +579,10 @@ items:
     id: 42382
     name: Arazu Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Arazu Spirit SKIN (Permanent):
+    id: 44918
+    name: Arazu Spirit SKIN (Permanent)
+    volume: 0.01
   Arazu Valimor Legacy SKIN (Permanent):
     id: 37571
     name: Arazu Valimor Legacy SKIN (Permanent)
@@ -582,10 +590,6 @@ items:
   Arazu Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40176
     name: Arazu Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Arazu YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44918
-    name: Arazu YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Arbitrator Ardishapur SKIN (Permanent):
     id: 34676
@@ -715,6 +719,10 @@ items:
     id: 39304
     name: Archon Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Archon Spirit SKIN (Permanent):
+    id: 47309
+    name: Archon Spirit SKIN (Permanent)
+    volume: 0.01
   Archon Tash-Murkon SKIN (Permanent):
     id: 34648
     name: Archon Tash-Murkon SKIN (Permanent)
@@ -751,6 +759,10 @@ items:
     id: 42302
     name: Ares Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Ares Spirit SKIN (Permanent):
+    id: 44900
+    name: Ares Spirit SKIN (Permanent)
+    volume: 0.01
   Ares Valimor Legacy SKIN (Permanent):
     id: 37558
     name: Ares Valimor Legacy SKIN (Permanent)
@@ -758,10 +770,6 @@ items:
   Ares Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40111
     name: Ares Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Ares YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44900
-    name: Ares YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Ark Cold Iron SKIN (Permanent):
     id: 42800
@@ -911,6 +919,10 @@ items:
     id: 34795
     name: Armageddon Serenity YC117 SKIN (Permanent)
     volume: 0.01
+  Armageddon Spirit SKIN (Permanent):
+    id: 47307
+    name: Armageddon Spirit SKIN (Permanent)
+    volume: 0.01
   Armageddon Star Captain SKIN (Permanent):
     id: 45667
     name: Armageddon Star Captain SKIN (Permanent)
@@ -963,6 +975,10 @@ items:
     id: 42412
     name: Astarte Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Astarte Spirit SKIN (Permanent):
+    id: 44926
+    name: Astarte Spirit SKIN (Permanent)
+    volume: 0.01
   Astarte Valimor Legacy SKIN (Permanent):
     id: 37576
     name: Astarte Valimor Legacy SKIN (Permanent)
@@ -971,13 +987,17 @@ items:
     id: 40201
     name: Astarte Valimor Legacy Serenity Only SKIN (Permanent)
     volume: 0.01
-  Astarte YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44926
-    name: Astarte YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+  Astero Crystal Blast SKIN (Permanent):
+    id: 47249
+    name: Astero Crystal Blast SKIN (Permanent)
     volume: 0.01
   Astero Glacial Drift SKIN (Permanent):
     id: 47013
     name: Astero Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Astero One Eden SKIN (Permanent):
+    id: 47375
+    name: Astero One Eden SKIN (Permanent)
     volume: 0.01
   Astero SOE Blue Cell (Surveillance) SKIN (Permanent):
     id: 45018
@@ -1039,6 +1059,10 @@ items:
     id: 42247
     name: Atron Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Atron Spirit SKIN (Permanent):
+    id: 44889
+    name: Atron Spirit SKIN (Permanent)
+    volume: 0.01
   Atron Valimor Legacy SKIN (Permanent):
     id: 37547
     name: Atron Valimor Legacy SKIN (Permanent)
@@ -1046,10 +1070,6 @@ items:
   Atron Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40056
     name: Atron Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Atron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44889
-    name: Atron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Augoror Ardishapur SKIN (Permanent):
     id: 34678
@@ -1150,6 +1170,10 @@ items:
   Augoror Raata Sunset Serenity Only SKIN (Permanent):
     id: 39204
     name: Augoror Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Augoror Spirit SKIN (Permanent):
+    id: 47305
+    name: Augoror Spirit SKIN (Permanent)
     volume: 0.01
   Avatar Blood Raider Victory SKIN (Permanent):
     id: 43539
@@ -1799,9 +1823,9 @@ items:
     id: 45025
     name: Brutix Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Brutix Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Brutix Navy Issue Spirit SKIN (Permanent):
     id: 44928
-    name: Brutix Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Brutix Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Brutix Roden SKIN (Permanent):
     id: 34611
@@ -1819,6 +1843,10 @@ items:
     id: 42397
     name: Brutix Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Brutix Spirit SKIN (Permanent):
+    id: 44923
+    name: Brutix Spirit SKIN (Permanent)
+    volume: 0.01
   Brutix Valimor Legacy SKIN (Permanent):
     id: 37573
     name: Brutix Valimor Legacy SKIN (Permanent)
@@ -1826,10 +1854,6 @@ items:
   Brutix Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40186
     name: Brutix Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Brutix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44923
-    name: Brutix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Burst Blue Tiger SKIN (Permanent):
     id: 36799
@@ -2095,6 +2119,10 @@ items:
     id: 38974
     name: Caracal Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Caracal Spirit SKIN (Permanent):
+    id: 47311
+    name: Caracal Spirit SKIN (Permanent)
+    volume: 0.01
   Caracal Steel Cardinal SKIN (Permanent):
     id: 46111
     name: Caracal Steel Cardinal SKIN (Permanent)
@@ -2175,6 +2203,10 @@ items:
     id: 42322
     name: Catalyst Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Catalyst Spirit SKIN (Permanent):
+    id: 44906
+    name: Catalyst Spirit SKIN (Permanent)
+    volume: 0.01
   Catalyst Valimor Legacy SKIN (Permanent):
     id: 37561
     name: Catalyst Valimor Legacy SKIN (Permanent)
@@ -2182,10 +2214,6 @@ items:
   Catalyst Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40126
     name: Catalyst Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Catalyst YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44906
-    name: Catalyst YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Celestis Exoplanets Hunter SKIN (Permanent):
     id: 45892
@@ -2223,6 +2251,10 @@ items:
     id: 42342
     name: Celestis Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Celestis Spirit SKIN (Permanent):
+    id: 44910
+    name: Celestis Spirit SKIN (Permanent)
+    volume: 0.01
   Celestis Valimor Legacy SKIN (Permanent):
     id: 37563
     name: Celestis Valimor Legacy SKIN (Permanent)
@@ -2230,10 +2262,6 @@ items:
   Celestis Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40136
     name: Celestis Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Celestis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44910
-    name: Celestis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Cerberus "Blaze" Squadron SKIN (Permanent):
     id: 47105
@@ -2418,6 +2446,10 @@ items:
   Chimera Raata Sunset Serenity Only SKIN (Permanent):
     id: 39074
     name: Chimera Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Chimera Spirit SKIN (Permanent):
+    id: 47315
+    name: Chimera Spirit SKIN (Permanent)
     volume: 0.01
   Chimera Steel Cardinal SKIN (Permanent):
     id: 46137
@@ -3015,6 +3047,10 @@ items:
     id: 37951
     name: Crucifier Sarum Serenity Only SKIN (Permanent)
     volume: 0.01
+  Crucifier Spirit SKIN (Permanent):
+    id: 47304
+    name: Crucifier Spirit SKIN (Permanent)
+    volume: 0.01
   Cruor Blood Raider Victory SKIN (Permanent):
     id: 43533
     name: Cruor Blood Raider Victory SKIN (Permanent)
@@ -3179,6 +3215,10 @@ items:
     id: 44235
     name: Cynabal Bluebird SKIN (Permanent)
     volume: 0.01
+  Cynabal Eros Blossom SKIN (Permanent):
+    id: 47294
+    name: Cynabal Eros Blossom SKIN (Permanent)
+    volume: 0.01
   Cynabal Glacial Drift SKIN (Permanent):
     id: 46998
     name: Cynabal Glacial Drift SKIN (Permanent)
@@ -3191,9 +3231,9 @@ items:
     id: 47090
     name: Cynabal Serenity YC119 SKIN (Permanent)
     volume: 0.01
-  Cynabal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Cynabal Spirit SKIN (Permanent):
     id: 44950
-    name: Cynabal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Cynabal Spirit SKIN (Permanent)
     volume: 0.01
   Dagon Glacial Drift SKIN (Permanent):
     id: 46823
@@ -3331,6 +3371,10 @@ items:
     id: 42362
     name: Deimos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Deimos Spirit SKIN (Permanent):
+    id: 44914
+    name: Deimos Spirit SKIN (Permanent)
+    volume: 0.01
   Deimos Valimor Legacy SKIN (Permanent):
     id: 37567
     name: Deimos Valimor Legacy SKIN (Permanent)
@@ -3338,10 +3382,6 @@ items:
   Deimos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40156
     name: Deimos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Deimos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44914
-    name: Deimos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Devoter Cold Iron SKIN (Permanent):
     id: 42772
@@ -3455,9 +3495,9 @@ items:
     id: 45026
     name: Dominix Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Dominix Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Dominix Navy Issue Spirit SKIN (Permanent):
     id: 44934
-    name: Dominix Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Dominix Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Dominix Quafe SKIN (Permanent):
     id: 34635
@@ -3487,6 +3527,10 @@ items:
     id: 42422
     name: Dominix Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Dominix Spirit SKIN (Permanent):
+    id: 44929
+    name: Dominix Spirit SKIN (Permanent)
+    volume: 0.01
   Dominix Valimor Legacy SKIN (Permanent):
     id: 37578
     name: Dominix Valimor Legacy SKIN (Permanent)
@@ -3498,10 +3542,6 @@ items:
   Dominix Valkyrie SKIN (Permanent):
     id: 46379
     name: Dominix Valkyrie SKIN (Permanent)
-    volume: 0.01
-  Dominix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44929
-    name: Dominix YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Dragoon Cold Iron SKIN (Permanent):
     id: 42763
@@ -3639,6 +3679,10 @@ items:
     id: 34789
     name: Drake Serenity YC117 SKIN (Permanent)
     volume: 0.01
+  Drake Spirit SKIN (Permanent):
+    id: 47312
+    name: Drake Spirit SKIN (Permanent)
+    volume: 0.01
   Drake Steel Cardinal SKIN (Permanent):
     id: 46123
     name: Drake Steel Cardinal SKIN (Permanent)
@@ -3655,6 +3699,10 @@ items:
     id: 44234
     name: Dramiel Bluebird SKIN (Permanent)
     volume: 0.01
+  Dramiel Eros Blossom SKIN (Permanent):
+    id: 47293
+    name: Dramiel Eros Blossom SKIN (Permanent)
+    volume: 0.01
   Dramiel Glacial Drift SKIN (Permanent):
     id: 46997
     name: Dramiel Glacial Drift SKIN (Permanent)
@@ -3663,9 +3711,9 @@ items:
     id: 44230
     name: Dramiel Red Kite SKIN (Permanent)
     volume: 0.01
-  Dramiel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Dramiel Spirit SKIN (Permanent):
     id: 44951
-    name: Dramiel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Dramiel Spirit SKIN (Permanent)
     volume: 0.01
   Eagle Blue Tiger SKIN (Permanent):
     id: 36726
@@ -3827,6 +3875,10 @@ items:
     id: 42277
     name: Enyo Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Enyo Spirit SKIN (Permanent):
+    id: 44895
+    name: Enyo Spirit SKIN (Permanent)
+    volume: 0.01
   Enyo Valimor Legacy SKIN (Permanent):
     id: 37553
     name: Enyo Valimor Legacy SKIN (Permanent)
@@ -3834,10 +3886,6 @@ items:
   Enyo Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40086
     name: Enyo Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Enyo YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44895
-    name: Enyo YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Eos Exoplanets Hunter SKIN (Permanent):
     id: 45909
@@ -3867,6 +3915,10 @@ items:
     id: 42417
     name: Eos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Eos Spirit SKIN (Permanent):
+    id: 44927
+    name: Eos Spirit SKIN (Permanent)
+    volume: 0.01
   Eos Valimor Legacy SKIN (Permanent):
     id: 37577
     name: Eos Valimor Legacy SKIN (Permanent)
@@ -3874,10 +3926,6 @@ items:
   Eos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40206
     name: Eos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Eos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44927
-    name: Eos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Epithal Exoplanets Hunter SKIN (Permanent):
     id: 45922
@@ -3911,6 +3959,10 @@ items:
     id: 42467
     name: Epithal Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Epithal Spirit SKIN (Permanent):
+    id: 44940
+    name: Epithal Spirit SKIN (Permanent)
+    volume: 0.01
   Epithal Valimor Legacy SKIN (Permanent):
     id: 37587
     name: Epithal Valimor Legacy SKIN (Permanent)
@@ -3918,10 +3970,6 @@ items:
   Epithal Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40256
     name: Epithal Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Epithal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44940
-    name: Epithal YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Erebus Duvolle SKIN (Permanent):
     id: 34674
@@ -3975,6 +4023,10 @@ items:
     id: 42462
     name: Erebus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Erebus Spirit SKIN (Permanent):
+    id: 44939
+    name: Erebus Spirit SKIN (Permanent)
+    volume: 0.01
   Erebus Valimor Legacy SKIN (Permanent):
     id: 37586
     name: Erebus Valimor Legacy SKIN (Permanent)
@@ -3982,10 +4034,6 @@ items:
   Erebus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40251
     name: Erebus Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Erebus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44939
-    name: Erebus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Eris Exoplanets Hunter SKIN (Permanent):
     id: 45890
@@ -4015,6 +4063,10 @@ items:
     id: 42332
     name: Eris Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Eris Spirit SKIN (Permanent):
+    id: 44908
+    name: Eris Spirit SKIN (Permanent)
+    volume: 0.01
   Eris Valimor Legacy SKIN (Permanent):
     id: 37562
     name: Eris Valimor Legacy SKIN (Permanent)
@@ -4022,10 +4074,6 @@ items:
   Eris Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40131
     name: Eris Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Eris YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44908
-    name: Eris YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Executioner Ardishapur SKIN (Permanent):
     id: 34721
@@ -4143,9 +4191,9 @@ items:
     id: 45023
     name: Exequror Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Exequror Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Exequror Navy Issue Spirit SKIN (Permanent):
     id: 44921
-    name: Exequror Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Exequror Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Exequror Serpentis SKIN (Permanent):
     id: 42167
@@ -4155,6 +4203,10 @@ items:
     id: 42347
     name: Exequror Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Exequror Spirit SKIN (Permanent):
+    id: 44911
+    name: Exequror Spirit SKIN (Permanent)
+    volume: 0.01
   Exequror Valimor Legacy SKIN (Permanent):
     id: 37564
     name: Exequror Valimor Legacy SKIN (Permanent)
@@ -4162,10 +4214,6 @@ items:
   Exequror Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40141
     name: Exequror Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Exequror YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44911
-    name: Exequror YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Falcon Blue Tiger SKIN (Permanent):
     id: 36729
@@ -4243,9 +4291,9 @@ items:
     id: 45021
     name: Federation Navy Comet Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Federation Navy Comet YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Federation Navy Comet Spirit SKIN (Permanent):
     id: 44903
-    name: Federation Navy Comet YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Federation Navy Comet Spirit SKIN (Permanent)
     volume: 0.01
   Fenrir Blue Tiger SKIN (Permanent):
     id: 36843
@@ -4403,9 +4451,9 @@ items:
     id: 46928
     name: Gallente Shuttle Glacial Drift SKIN (Permanent)
     volume: 0.01
-  Gallente Shuttle YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Gallente Shuttle Spirit SKIN (Permanent):
     id: 44887
-    name: Gallente Shuttle YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Gallente Shuttle Spirit SKIN (Permanent)
     volume: 0.01
   Garmur Bluebird SKIN (Permanent):
     id: 44240
@@ -4587,6 +4635,10 @@ items:
     id: 38899
     name: Griffin Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Griffin Spirit SKIN (Permanent):
+    id: 47310
+    name: Griffin Spirit SKIN (Permanent)
+    volume: 0.01
   Griffin Steel Cardinal SKIN (Permanent):
     id: 46091
     name: Griffin Steel Cardinal SKIN (Permanent)
@@ -4763,6 +4815,10 @@ items:
     id: 39249
     name: Harbinger Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Harbinger Spirit SKIN (Permanent):
+    id: 47306
+    name: Harbinger Spirit SKIN (Permanent)
+    volume: 0.01
   Harpy Blue Tiger SKIN (Permanent):
     id: 36711
     name: Harpy Blue Tiger SKIN (Permanent)
@@ -4879,9 +4935,9 @@ items:
     id: 42337
     name: Hecate Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
-  Hecate YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Hecate Spirit SKIN (Permanent):
     id: 44909
-    name: Hecate YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Hecate Spirit SKIN (Permanent)
     volume: 0.01
   Hel Bloody Hands SKIN (Permanent):
     id: 47179
@@ -4983,6 +5039,10 @@ items:
     id: 42287
     name: Helios Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Helios Spirit SKIN (Permanent):
+    id: 44897
+    name: Helios Spirit SKIN (Permanent)
+    volume: 0.01
   Helios Valimor Legacy SKIN (Permanent):
     id: 37555
     name: Helios Valimor Legacy SKIN (Permanent)
@@ -4990,10 +5050,6 @@ items:
   Helios Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40096
     name: Helios Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Helios YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44897
-    name: Helios YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Heretic Cold Iron SKIN (Permanent):
     id: 42765
@@ -5367,6 +5423,10 @@ items:
     id: 38627
     name: Hurricane Sebiestor Serenity Only SKIN (Permanent)
     volume: 0.01
+  Hurricane Spirit SKIN (Permanent):
+    id: 47318
+    name: Hurricane Spirit SKIN (Permanent)
+    volume: 0.01
   Hurricane Tronhadar Ink SKIN (Permanent):
     id: 40496
     name: Hurricane Tronhadar Ink SKIN (Permanent)
@@ -5479,6 +5539,10 @@ items:
     id: 42427
     name: Hyperion Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Hyperion Spirit SKIN (Permanent):
+    id: 44930
+    name: Hyperion Spirit SKIN (Permanent)
+    volume: 0.01
   Hyperion Valimor Legacy SKIN (Permanent):
     id: 37579
     name: Hyperion Valimor Legacy SKIN (Permanent)
@@ -5486,10 +5550,6 @@ items:
   Hyperion Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40216
     name: Hyperion Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Hyperion YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44930
-    name: Hyperion YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Ibis Exoplanets Hunter SKIN (Permanent):
     id: 45811
@@ -5535,6 +5595,10 @@ items:
     id: 42252
     name: Imicus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Imicus Spirit SKIN (Permanent):
+    id: 44890
+    name: Imicus Spirit SKIN (Permanent)
+    volume: 0.01
   Imicus Valimor Legacy SKIN (Permanent):
     id: 37548
     name: Imicus Valimor Legacy SKIN (Permanent)
@@ -5542,10 +5606,6 @@ items:
   Imicus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40061
     name: Imicus Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Imicus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44890
-    name: Imicus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Impairor Cold Iron SKIN (Permanent):
     id: 42909
@@ -5707,6 +5767,10 @@ items:
     id: 42257
     name: Incursus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Incursus Spirit SKIN (Permanent):
+    id: 44891
+    name: Incursus Spirit SKIN (Permanent)
+    volume: 0.01
   Incursus Valimor Legacy SKIN (Permanent):
     id: 37549
     name: Incursus Valimor Legacy SKIN (Permanent)
@@ -5714,10 +5778,6 @@ items:
   Incursus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40066
     name: Incursus Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Incursus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44891
-    name: Incursus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Incursus test fix:
     id: 44201
@@ -5815,6 +5875,10 @@ items:
     id: 42282
     name: Ishkur Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Ishkur Spirit SKIN (Permanent):
+    id: 44896
+    name: Ishkur Spirit SKIN (Permanent)
+    volume: 0.01
   Ishkur Valimor Legacy SKIN (Permanent):
     id: 37554
     name: Ishkur Valimor Legacy SKIN (Permanent)
@@ -5822,10 +5886,6 @@ items:
   Ishkur Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40091
     name: Ishkur Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Ishkur YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44896
-    name: Ishkur YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Ishtar "Blaze" Squadron SKIN (Permanent):
     id: 47103
@@ -5875,6 +5935,10 @@ items:
     id: 42367
     name: Ishtar Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Ishtar Spirit SKIN (Permanent):
+    id: 44915
+    name: Ishtar Spirit SKIN (Permanent)
+    volume: 0.01
   Ishtar Valimor Legacy SKIN (Permanent):
     id: 37568
     name: Ishtar Valimor Legacy SKIN (Permanent)
@@ -5882,10 +5946,6 @@ items:
   Ishtar Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40161
     name: Ishtar Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Ishtar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44915
-    name: Ishtar YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Iteron Mark V Exoplanets Hunter SKIN (Permanent):
     id: 45923
@@ -5939,6 +5999,10 @@ items:
     id: 42472
     name: Iteron Mark V Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Iteron Mark V Spirit SKIN (Permanent):
+    id: 44941
+    name: Iteron Mark V Spirit SKIN (Permanent)
+    volume: 0.01
   Iteron Mark V Valimor Legacy SKIN (Permanent):
     id: 37588
     name: Iteron Mark V Valimor Legacy SKIN (Permanent)
@@ -5946,10 +6010,6 @@ items:
   Iteron Mark V Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40261
     name: Iteron Mark V Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Iteron Mark V YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44941
-    name: Iteron Mark V YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Jackdaw Exoplanets Hunter SKIN (Permanent):
     id: 45832
@@ -6039,6 +6099,10 @@ items:
     id: 42297
     name: Keres Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Keres Spirit SKIN (Permanent):
+    id: 44899
+    name: Keres Spirit SKIN (Permanent)
+    volume: 0.01
   Keres Valimor Legacy SKIN (Permanent):
     id: 37557
     name: Keres Valimor Legacy SKIN (Permanent)
@@ -6046,10 +6110,6 @@ items:
   Keres Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40106
     name: Keres Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Keres YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44899
-    name: Keres YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Kestrel Blue Tiger SKIN (Permanent):
     id: 36709
@@ -6223,6 +6283,10 @@ items:
     id: 42442
     name: Kronos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Kronos Spirit SKIN (Permanent):
+    id: 44933
+    name: Kronos Spirit SKIN (Permanent)
+    volume: 0.01
   Kronos Valimor Legacy SKIN (Permanent):
     id: 37582
     name: Kronos Valimor Legacy SKIN (Permanent)
@@ -6230,10 +6294,6 @@ items:
   Kronos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40231
     name: Kronos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Kronos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44933
-    name: Kronos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Kryos Exoplanets Hunter SKIN (Permanent):
     id: 45924
@@ -6263,6 +6323,10 @@ items:
     id: 42477
     name: Kryos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Kryos Spirit SKIN (Permanent):
+    id: 44942
+    name: Kryos Spirit SKIN (Permanent)
+    volume: 0.01
   Kryos Valimor Legacy SKIN (Permanent):
     id: 37589
     name: Kryos Valimor Legacy SKIN (Permanent)
@@ -6270,10 +6334,6 @@ items:
   Kryos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40266
     name: Kryos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Kryos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44942
-    name: Kryos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Lachesis Exoplanets Hunter SKIN (Permanent):
     id: 45901
@@ -6303,6 +6363,10 @@ items:
     id: 42387
     name: Lachesis Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Lachesis Spirit SKIN (Permanent):
+    id: 44919
+    name: Lachesis Spirit SKIN (Permanent)
+    volume: 0.01
   Lachesis Valimor Legacy SKIN (Permanent):
     id: 37572
     name: Lachesis Valimor Legacy SKIN (Permanent)
@@ -6310,10 +6374,6 @@ items:
   Lachesis Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40181
     name: Lachesis Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Lachesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44919
-    name: Lachesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Legion Exoplanets Hunter SKIN (Permanent):
     id: 45784
@@ -6439,6 +6499,10 @@ items:
     id: 44236
     name: Machariel Bluebird SKIN (Permanent)
     volume: 0.01
+  Machariel Eros Blossom SKIN (Permanent):
+    id: 47295
+    name: Machariel Eros Blossom SKIN (Permanent)
+    volume: 0.01
   Machariel Glacial Drift SKIN (Permanent):
     id: 46999
     name: Machariel Glacial Drift SKIN (Permanent)
@@ -6451,9 +6515,9 @@ items:
     id: 34822
     name: Machariel Serenity YC117 SKIN (Permanent)
     volume: 0.01
-  Machariel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Machariel Spirit SKIN (Permanent):
     id: 44949
-    name: Machariel YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Machariel Spirit SKIN (Permanent)
     volume: 0.01
   Mackinaw Amarr Industrial Livery SKIN (Permanent):
     id: 43756
@@ -6691,6 +6755,10 @@ items:
     id: 42327
     name: Magus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Magus Spirit SKIN (Permanent):
+    id: 44907
+    name: Magus Spirit SKIN (Permanent)
+    volume: 0.01
   Magus Valimor Legacy SKIN (Permanent):
     id: 40324
     name: Magus Valimor Legacy SKIN (Permanent)
@@ -6698,10 +6766,6 @@ items:
   Magus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40411
     name: Magus Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Magus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44907
-    name: Magus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Malediction Cold Iron SKIN (Permanent):
     id: 42758
@@ -7023,9 +7087,9 @@ items:
     id: 45022
     name: Maulus Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Maulus Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Maulus Navy Issue Spirit SKIN (Permanent):
     id: 44904
-    name: Maulus Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Maulus Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Maulus Serpentis SKIN (Permanent):
     id: 42150
@@ -7035,6 +7099,10 @@ items:
     id: 42262
     name: Maulus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Maulus Spirit SKIN (Permanent):
+    id: 44892
+    name: Maulus Spirit SKIN (Permanent)
+    volume: 0.01
   Maulus Valimor Legacy SKIN (Permanent):
     id: 37550
     name: Maulus Valimor Legacy SKIN (Permanent)
@@ -7042,10 +7110,6 @@ items:
   Maulus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40071
     name: Maulus Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Maulus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44892
-    name: Maulus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Megathron Exoplanets Hunter SKIN (Permanent):
     id: 45913
@@ -7099,9 +7163,9 @@ items:
     id: 45027
     name: Megathron Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Megathron Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Megathron Navy Issue Spirit SKIN (Permanent):
     id: 44935
-    name: Megathron Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Megathron Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Megathron Police SKIN (Permanent):
     id: 34802
@@ -7135,6 +7199,10 @@ items:
     id: 42432
     name: Megathron Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Megathron Spirit SKIN (Permanent):
+    id: 44931
+    name: Megathron Spirit SKIN (Permanent)
+    volume: 0.01
   Megathron Valimor Legacy SKIN (Permanent):
     id: 37580
     name: Megathron Valimor Legacy SKIN (Permanent)
@@ -7142,10 +7210,6 @@ items:
   Megathron Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40221
     name: Megathron Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Megathron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44931
-    name: Megathron YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Merlin Blue Tiger SKIN (Permanent):
     id: 36710
@@ -7255,6 +7319,10 @@ items:
     id: 42482
     name: Miasmos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Miasmos Spirit SKIN (Permanent):
+    id: 44943
+    name: Miasmos Spirit SKIN (Permanent)
+    volume: 0.01
   Miasmos Valimor Legacy SKIN (Permanent):
     id: 37590
     name: Miasmos Valimor Legacy SKIN (Permanent)
@@ -7262,10 +7330,6 @@ items:
   Miasmos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40271
     name: Miasmos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Miasmos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44943
-    name: Miasmos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Minmatar Shuttle Exoplanets Hunter SKIN (Permanent):
     id: 45931
@@ -7435,6 +7499,10 @@ items:
     id: 42447
     name: Moros Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Moros Spirit SKIN (Permanent):
+    id: 44936
+    name: Moros Spirit SKIN (Permanent)
+    volume: 0.01
   Moros Valimor Legacy SKIN (Permanent):
     id: 37583
     name: Moros Valimor Legacy SKIN (Permanent)
@@ -7442,10 +7510,6 @@ items:
   Moros Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40236
     name: Moros Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Moros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44936
-    name: Moros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Muninn Bloody Hands SKIN (Permanent):
     id: 47162
@@ -7531,6 +7595,10 @@ items:
     id: 42402
     name: Myrmidon Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Myrmidon Spirit SKIN (Permanent):
+    id: 44924
+    name: Myrmidon Spirit SKIN (Permanent)
+    volume: 0.01
   Myrmidon Valimor Legacy SKIN (Permanent):
     id: 37574
     name: Myrmidon Valimor Legacy SKIN (Permanent)
@@ -7538,10 +7606,6 @@ items:
   Myrmidon Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40191
     name: Myrmidon Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Myrmidon YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44924
-    name: Myrmidon YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Naga Blue Tiger SKIN (Permanent):
     id: 36733
@@ -7627,6 +7691,10 @@ items:
     id: 37127
     name: Naglfar Justice Serenity Only SKIN (Permanent)
     volume: 0.01
+  Naglfar Spirit SKIN (Permanent):
+    id: 47320
+    name: Naglfar Spirit SKIN (Permanent)
+    volume: 0.01
   Naglfar Tronhadar Ink SKIN (Permanent):
     id: 40505
     name: Naglfar Tronhadar Ink SKIN (Permanent)
@@ -7671,6 +7739,10 @@ items:
     id: 42267
     name: Navitas Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Navitas Spirit SKIN (Permanent):
+    id: 44893
+    name: Navitas Spirit SKIN (Permanent)
+    volume: 0.01
   Navitas Valimor Legacy SKIN (Permanent):
     id: 37551
     name: Navitas Valimor Legacy SKIN (Permanent)
@@ -7678,10 +7750,6 @@ items:
   Navitas Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40076
     name: Navitas Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Navitas YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44893
-    name: Navitas YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Nemesis Exoplanets Hunter SKIN (Permanent):
     id: 45880
@@ -7711,6 +7779,10 @@ items:
     id: 42292
     name: Nemesis Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Nemesis Spirit SKIN (Permanent):
+    id: 44898
+    name: Nemesis Spirit SKIN (Permanent)
+    volume: 0.01
   Nemesis Valimor Legacy SKIN (Permanent):
     id: 37556
     name: Nemesis Valimor Legacy SKIN (Permanent)
@@ -7718,10 +7790,6 @@ items:
   Nemesis Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40101
     name: Nemesis Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Nemesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44898
-    name: Nemesis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Nereus Exoplanets Hunter SKIN (Permanent):
     id: 45926
@@ -7755,6 +7823,10 @@ items:
     id: 42487
     name: Nereus Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Nereus Spirit SKIN (Permanent):
+    id: 44944
+    name: Nereus Spirit SKIN (Permanent)
+    volume: 0.01
   Nereus Valimor Legacy SKIN (Permanent):
     id: 37591
     name: Nereus Valimor Legacy SKIN (Permanent)
@@ -7763,13 +7835,17 @@ items:
     id: 40276
     name: Nereus Valimor Legacy Serenity Only SKIN (Permanent)
     volume: 0.01
-  Nereus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44944
-    name: Nereus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+  Nestor Crystal Blast SKIN (Permanent):
+    id: 47251
+    name: Nestor Crystal Blast SKIN (Permanent)
     volume: 0.01
   Nestor Glacial Drift SKIN (Permanent):
     id: 47015
     name: Nestor Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Nestor One Eden SKIN (Permanent):
+    id: 47377
+    name: Nestor One Eden SKIN (Permanent)
     volume: 0.01
   Nestor SOE Blue Cell (Surveillance) SKIN (Permanent):
     id: 45020
@@ -7807,6 +7883,10 @@ items:
     id: 39771
     name: Nidhoggur Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Nidhoggur Eros Blossom SKIN (Permanent):
+    id: 47292
+    name: Nidhoggur Eros Blossom SKIN (Permanent)
+    volume: 0.01
   Nidhoggur Exoplanets Hunter SKIN (Permanent):
     id: 45981
     name: Nidhoggur Exoplanets Hunter SKIN (Permanent)
@@ -7838,6 +7918,10 @@ items:
   Nidhoggur Krusual Serenity Only SKIN (Permanent):
     id: 38622
     name: Nidhoggur Krusual Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Nidhoggur Spirit SKIN (Permanent):
+    id: 47321
+    name: Nidhoggur Spirit SKIN (Permanent)
     volume: 0.01
   Nidhoggur Tronhadar Ink SKIN (Permanent):
     id: 40506
@@ -8039,6 +8123,10 @@ items:
     id: 42457
     name: Nyx Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Nyx Spirit SKIN (Permanent):
+    id: 44938
+    name: Nyx Spirit SKIN (Permanent)
+    volume: 0.01
   Nyx Umbral SKIN (Permanent):
     id: 36522
     name: Nyx Umbral SKIN (Permanent)
@@ -8054,10 +8142,6 @@ items:
   Nyx Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40246
     name: Nyx Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Nyx YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44938
-    name: Nyx YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Obelisk Exoplanets Hunter SKIN (Permanent):
     id: 45929
@@ -8111,6 +8195,10 @@ items:
     id: 42502
     name: Obelisk Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Obelisk Spirit SKIN (Permanent):
+    id: 44947
+    name: Obelisk Spirit SKIN (Permanent)
+    volume: 0.01
   Obelisk Valimor Legacy SKIN (Permanent):
     id: 37594
     name: Obelisk Valimor Legacy SKIN (Permanent)
@@ -8118,10 +8206,6 @@ items:
   Obelisk Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40291
     name: Obelisk Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Obelisk YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44947
-    name: Obelisk YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Occator Exoplanets Hunter SKIN (Permanent):
     id: 45928
@@ -8159,6 +8243,10 @@ items:
     id: 42497
     name: Occator Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Occator Spirit SKIN (Permanent):
+    id: 44946
+    name: Occator Spirit SKIN (Permanent)
+    volume: 0.01
   Occator Valimor Legacy SKIN (Permanent):
     id: 37593
     name: Occator Valimor Legacy SKIN (Permanent)
@@ -8166,10 +8254,6 @@ items:
   Occator Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40286
     name: Occator Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Occator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44946
-    name: Occator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Omen Blood Raiders SKIN (Permanent):
     id: 36916
@@ -8323,6 +8407,10 @@ items:
     id: 42377
     name: Oneiros Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Oneiros Spirit SKIN (Permanent):
+    id: 44917
+    name: Oneiros Spirit SKIN (Permanent)
+    volume: 0.01
   Oneiros Valimor Legacy SKIN (Permanent):
     id: 37570
     name: Oneiros Valimor Legacy SKIN (Permanent)
@@ -8330,10 +8418,6 @@ items:
   Oneiros Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40171
     name: Oneiros Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Oneiros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44917
-    name: Oneiros YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Onyx Blue Tiger SKIN (Permanent):
     id: 36727
@@ -8815,6 +8899,10 @@ items:
     id: 42372
     name: Phobos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Phobos Spirit SKIN (Permanent):
+    id: 44916
+    name: Phobos Spirit SKIN (Permanent)
+    volume: 0.01
   Phobos Valimor Legacy SKIN (Permanent):
     id: 37569
     name: Phobos Valimor Legacy SKIN (Permanent)
@@ -8822,10 +8910,6 @@ items:
   Phobos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40166
     name: Phobos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Phobos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44916
-    name: Phobos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Phoenix Blue Tiger SKIN (Permanent):
     id: 36741
@@ -8870,6 +8954,10 @@ items:
   Phoenix Raata Sunset Serenity Only SKIN (Permanent):
     id: 39069
     name: Phoenix Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Phoenix Spirit SKIN (Permanent):
+    id: 47314
+    name: Phoenix Spirit SKIN (Permanent)
     volume: 0.01
   Phoenix Steel Cardinal SKIN (Permanent):
     id: 46136
@@ -9347,9 +9435,9 @@ items:
     id: 46025
     name: Proteus Skyliner SKIN (Permanent)
     volume: 0.01
-  Proteus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Proteus Spirit SKIN (Permanent):
     id: 44920
-    name: Proteus YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Proteus Spirit SKIN (Permanent)
     volume: 0.01
   Providence Ardishapur SKIN (Permanent):
     id: 34666
@@ -9606,6 +9694,10 @@ items:
   Ragnarok Justice Serenity Only SKIN (Permanent):
     id: 38579
     name: Ragnarok Justice Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Ragnarok Shakim Warlord SKIN (Permanent):
+    id: 47371
+    name: Ragnarok Shakim Warlord SKIN (Permanent)
     volume: 0.01
   Ragnarok Tronhadar Ink SKIN (Permanent):
     id: 40508
@@ -10086,6 +10178,10 @@ items:
   Revelation Sarum Serenity Only SKIN (Permanent):
     id: 37124
     name: Revelation Sarum Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Revelation Spirit SKIN (Permanent):
+    id: 47308
+    name: Revelation Spirit SKIN (Permanent)
     volume: 0.01
   Revenant Glacial Drift SKIN (Permanent):
     id: 47009
@@ -10675,6 +10771,10 @@ items:
     id: 39054
     name: Scorpion Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Scorpion Spirit SKIN (Permanent):
+    id: 47313
+    name: Scorpion Spirit SKIN (Permanent)
+    volume: 0.01
   Scorpion Steel Cardinal SKIN (Permanent):
     id: 46131
     name: Scorpion Steel Cardinal SKIN (Permanent)
@@ -10903,6 +11003,10 @@ items:
     id: 42437
     name: Sin Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Sin Spirit SKIN (Permanent):
+    id: 44932
+    name: Sin Spirit SKIN (Permanent)
+    volume: 0.01
   Sin Valimor Legacy SKIN (Permanent):
     id: 37581
     name: Sin Valimor Legacy SKIN (Permanent)
@@ -10910,10 +11014,6 @@ items:
   Sin Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40226
     name: Sin Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Sin YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44932
-    name: Sin YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Skiff Amarr Industrial Livery SKIN (Permanent):
     id: 43755
@@ -11151,6 +11251,10 @@ items:
     id: 37104
     name: Stabber Nefantar Serenity Only SKIN (Permanent)
     volume: 0.01
+  Stabber Spirit SKIN (Permanent):
+    id: 47317
+    name: Stabber Spirit SKIN (Permanent)
+    volume: 0.01
   Stabber Tronhadar Ink SKIN (Permanent):
     id: 40487
     name: Stabber Tronhadar Ink SKIN (Permanent)
@@ -11235,9 +11339,17 @@ items:
     id: 46107
     name: Stork Steel Cardinal SKIN (Permanent)
     volume: 0.01
+  Stratios Crystal Blast SKIN (Permanent):
+    id: 47250
+    name: Stratios Crystal Blast SKIN (Permanent)
+    volume: 0.01
   Stratios Glacial Drift SKIN (Permanent):
     id: 47014
     name: Stratios Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Stratios One Eden SKIN (Permanent):
+    id: 47376
+    name: Stratios One Eden SKIN (Permanent)
     volume: 0.01
   Stratios SOE Blue Cell (Surveillance) SKIN (Permanent):
     id: 45019
@@ -11263,9 +11375,9 @@ items:
     id: 46521
     name: Stratios Spectral Shift SKIN (Permanent)
     volume: 0.01
-  Stratios Tiancity Logo SKIN (Permanent):
+  Stratios YC119 SKIN (Permanent):
     id: 45029
-    name: Stratios Tiancity Logo SKIN (Permanent)
+    name: Stratios YC119 SKIN (Permanent)
     volume: 0.01
   Succubus Glacial Drift SKIN (Permanent):
     id: 47006
@@ -11343,6 +11455,10 @@ items:
     id: 42407
     name: Talos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Talos Spirit SKIN (Permanent):
+    id: 44925
+    name: Talos Spirit SKIN (Permanent)
+    volume: 0.01
   Talos Valimor Legacy SKIN (Permanent):
     id: 37575
     name: Talos Valimor Legacy SKIN (Permanent)
@@ -11350,10 +11466,6 @@ items:
   Talos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40196
     name: Talos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Talos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44925
-    name: Talos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Talwar Blue Tiger SKIN (Permanent):
     id: 36811
@@ -11431,6 +11543,10 @@ items:
     id: 42307
     name: Taranis Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Taranis Spirit SKIN (Permanent):
+    id: 44901
+    name: Taranis Spirit SKIN (Permanent)
+    volume: 0.01
   Taranis Valimor Legacy SKIN (Permanent):
     id: 37559
     name: Taranis Valimor Legacy SKIN (Permanent)
@@ -11438,10 +11554,6 @@ items:
   Taranis Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40116
     name: Taranis Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Taranis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44901
-    name: Taranis YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Tayra Blue Tiger SKIN (Permanent):
     id: 36746
@@ -11551,6 +11663,10 @@ items:
     id: 37120
     name: Tempest Nefantar Serenity Only SKIN (Permanent)
     volume: 0.01
+  Tempest Spirit SKIN (Permanent):
+    id: 47319
+    name: Tempest Spirit SKIN (Permanent)
+    volume: 0.01
   Tempest Tronhadar Ink SKIN (Permanent):
     id: 40501
     name: Tempest Tronhadar Ink SKIN (Permanent)
@@ -11607,6 +11723,10 @@ items:
     id: 42312
     name: Thalia Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Thalia Spirit SKIN (Permanent):
+    id: 44902
+    name: Thalia Spirit SKIN (Permanent)
+    volume: 0.01
   Thalia Valimor Legacy SKIN (Permanent):
     id: 40323
     name: Thalia Valimor Legacy SKIN (Permanent)
@@ -11615,9 +11735,9 @@ items:
     id: 40406
     name: Thalia Valimor Legacy Serenity Only SKIN (Permanent)
     volume: 0.01
-  Thalia YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44902
-    name: Thalia YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+  Thanatos Eros Blossom SKIN (Permanent):
+    id: 47290
+    name: Thanatos Eros Blossom SKIN (Permanent)
     volume: 0.01
   Thanatos Exoplanets Hunter SKIN (Permanent):
     id: 45919
@@ -11671,6 +11791,10 @@ items:
     id: 42452
     name: Thanatos Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Thanatos Spirit SKIN (Permanent):
+    id: 44937
+    name: Thanatos Spirit SKIN (Permanent)
+    volume: 0.01
   Thanatos Valimor Legacy SKIN (Permanent):
     id: 37584
     name: Thanatos Valimor Legacy SKIN (Permanent)
@@ -11678,10 +11802,6 @@ items:
   Thanatos Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40241
     name: Thanatos Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Thanatos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44937
-    name: Thanatos YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Thorax Aliastra SKIN (Permanent):
     id: 34692
@@ -11747,6 +11867,10 @@ items:
     id: 42352
     name: Thorax Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Thorax Spirit SKIN (Permanent):
+    id: 44912
+    name: Thorax Spirit SKIN (Permanent)
+    volume: 0.01
   Thorax Valimor Legacy SKIN (Permanent):
     id: 37565
     name: Thorax Valimor Legacy SKIN (Permanent)
@@ -11754,10 +11878,6 @@ items:
   Thorax Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40146
     name: Thorax Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Thorax YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44912
-    name: Thorax YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Thrasher Blue Tiger SKIN (Permanent):
     id: 36812
@@ -11987,6 +12107,10 @@ items:
     id: 42272
     name: Tristan Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Tristan Spirit SKIN (Permanent):
+    id: 44894
+    name: Tristan Spirit SKIN (Permanent)
+    volume: 0.01
   Tristan Valimor Legacy SKIN (Permanent):
     id: 37552
     name: Tristan Valimor Legacy SKIN (Permanent)
@@ -11994,10 +12118,6 @@ items:
   Tristan Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40081
     name: Tristan Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Tristan YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44894
-    name: Tristan YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Typhoon Bloody Hands SKIN (Permanent):
     id: 47171
@@ -12223,9 +12343,9 @@ items:
     id: 44173
     name: Velator Glacial Drift SKIN (Permanent)
     volume: 0.01
-  Velator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Velator Spirit SKIN (Permanent):
     id: 44888
-    name: Velator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Velator Spirit SKIN (Permanent)
     volume: 0.01
   Vendetta Glacial Drift SKIN (Permanent):
     id: 46980
@@ -12379,6 +12499,10 @@ items:
     id: 46407
     name: Vexor Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Vexor Navy Issue Empyrean Dragons SKIN (Permanent):
+    id: 47372
+    name: Vexor Navy Issue Empyrean Dragons SKIN (Permanent)
+    volume: 0.01
   Vexor Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45904
     name: Vexor Navy Issue Exoplanets Hunter SKIN (Permanent)
@@ -12407,9 +12531,9 @@ items:
     id: 45024
     name: Vexor Navy Issue Sapphire Sungrazer SKIN (Permanent)
     volume: 0.01
-  Vexor Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
+  Vexor Navy Issue Spirit SKIN (Permanent):
     id: 44922
-    name: Vexor Navy Issue YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
+    name: Vexor Navy Issue Spirit SKIN (Permanent)
     volume: 0.01
   Vexor Quafe SKIN (Permanent):
     id: 34696
@@ -12435,6 +12559,10 @@ items:
     id: 42357
     name: Vexor Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Vexor Spirit SKIN (Permanent):
+    id: 44913
+    name: Vexor Spirit SKIN (Permanent)
+    volume: 0.01
   Vexor Valimor Legacy SKIN (Permanent):
     id: 37566
     name: Vexor Valimor Legacy SKIN (Permanent)
@@ -12442,10 +12570,6 @@ items:
   Vexor Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40151
     name: Vexor Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Vexor YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44913
-    name: Vexor YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Viator Exoplanets Hunter SKIN (Permanent):
     id: 45927
@@ -12483,6 +12607,10 @@ items:
     id: 42492
     name: Viator Serpentis Serenity Only SKIN (Permanent)
     volume: 0.01
+  Viator Spirit SKIN (Permanent):
+    id: 44945
+    name: Viator Spirit SKIN (Permanent)
+    volume: 0.01
   Viator Valimor Legacy SKIN (Permanent):
     id: 37592
     name: Viator Valimor Legacy SKIN (Permanent)
@@ -12490,10 +12618,6 @@ items:
   Viator Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40281
     name: Viator Valimor Legacy Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Viator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent):
-    id: 44945
-    name: Viator YC119 Guardian's Gala 'Spirit' Edition SKIN (Permanent)
     volume: 0.01
   Vigil Blue Tiger SKIN (Permanent):
     id: 36803
@@ -12542,6 +12666,10 @@ items:
   Vigil Krusual Serenity Only SKIN (Permanent):
     id: 38626
     name: Vigil Krusual Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Vigil Spirit SKIN (Permanent):
+    id: 47316
+    name: Vigil Spirit SKIN (Permanent)
     volume: 0.01
   Vigil Tronhadar Ink SKIN (Permanent):
     id: 40472
@@ -12770,6 +12898,10 @@ items:
   Wyvern Blue Tiger Serenity Only SKIN (Permanent):
     id: 39539
     name: Wyvern Blue Tiger Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Wyvern Eros Blossom SKIN (Permanent):
+    id: 47291
+    name: Wyvern Eros Blossom SKIN (Permanent)
     volume: 0.01
   Wyvern Exoplanets Hunter SKIN (Permanent):
     id: 45861

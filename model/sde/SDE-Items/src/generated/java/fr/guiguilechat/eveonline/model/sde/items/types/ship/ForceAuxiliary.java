@@ -90,19 +90,19 @@ public class ForceAuxiliary
     @DefaultIntValue(0)
     public int ShipBonusForceAuxiliaryG3;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
      * special fuel bay capacity
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int SpecialFuelBayCapacity;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * Multiplied by Minmatar Carrier skill level.
      */
@@ -111,19 +111,19 @@ public class ForceAuxiliary
     @DefaultIntValue(0)
     public int ShipBonusForceAuxiliaryM1;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RoleBonusCommandBurstAoERange;
-    /**
      * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RoleBonusCommandBurstAoERange;
     /**
      * Multiplied by Minmatar Carrier skill level.
      */

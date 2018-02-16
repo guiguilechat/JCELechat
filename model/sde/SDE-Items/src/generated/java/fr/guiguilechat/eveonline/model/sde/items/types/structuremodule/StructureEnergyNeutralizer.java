@@ -20,19 +20,19 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int EnergyNeutralizerAmount;
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
      * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    /**
+     * The amount of charge used from the capacitor for a module activation.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
     /**
      * modifier to an entity capacitor level to represent energy drain for small ships
      */
@@ -55,19 +55,19 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * modifier to an entity capacitor level to represent energy drain for large ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierLarge;
-    /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Duration;
+    /**
+     * modifier to an entity capacitor level to represent energy drain for large ships
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierLarge;
     /**
      * CPU need of module
      */
@@ -132,19 +132,19 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
     private static LinkedHashMap<String, StructureEnergyNeutralizer> cache = (null);
 
