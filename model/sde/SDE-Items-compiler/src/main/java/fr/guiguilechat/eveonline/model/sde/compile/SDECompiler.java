@@ -37,6 +37,7 @@ import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
+import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
@@ -480,23 +481,15 @@ public class SDECompiler {
 	 * @throws IOException
 	 */
 	public static void main(String... args) throws IOException {
-		File target = new File(args[0]);
-		delDir(target);
-		target.mkdirs();
+		File srcTarget = new File(args[0]);
+		Tools.delDir(srcTarget);
+		srcTarget.mkdirs();
+		File resTarget = new File(args[1]);
+		Tools.delDir(resTarget);
+		resTarget.mkdirs();
 		CompiledClassesData data = new SDECompiler().compile();
-		new ItemsTranslater().translate(data, new File(args[1]), args[2]);
-		data.model.build(target, (PrintStream) null);
-	}
-
-	public static void delDir(File delete) {
-		if (delete.exists()) {
-			if (delete.isDirectory()) {
-				for (File child : delete.listFiles()) {
-					delDir(child);
-				}
-			}
-			delete.delete();
-		}
+		new ItemsTranslater().translate(data, resTarget, args[2]);
+		data.model.build(srcTarget, (PrintStream) null);
 	}
 
 }

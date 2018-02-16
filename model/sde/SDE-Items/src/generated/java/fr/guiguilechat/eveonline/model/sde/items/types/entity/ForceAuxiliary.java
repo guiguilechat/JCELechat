@@ -5,11 +5,11 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCForceAuxiliary
+public class ForceAuxiliary
     extends Entity
 {
-    public final static String RESOURCE_PATH = "SDE/items/entity/NPCForceAuxiliary.yaml";
-    private static LinkedHashMap<String, NPCForceAuxiliary> cache = (null);
+    public final static String RESOURCE_PATH = "SDE/items/entity/ForceAuxiliary.yaml";
+    private static LinkedHashMap<String, ForceAuxiliary> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -18,13 +18,13 @@ public class NPCForceAuxiliary
 
     @Override
     public Class<?> getGroup() {
-        return NPCForceAuxiliary.class;
+        return ForceAuxiliary.class;
     }
 
-    public static synchronized LinkedHashMap<String, NPCForceAuxiliary> load() {
+    public static synchronized LinkedHashMap<String, ForceAuxiliary> load() {
         if (cache == null) {
             try {
-                cache = new Yaml().loadAs(new InputStreamReader(NPCForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
             } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
@@ -33,6 +33,6 @@ public class NPCForceAuxiliary
     }
 
     private static class Container {
-        public LinkedHashMap<String, NPCForceAuxiliary> items;
+        public LinkedHashMap<String, ForceAuxiliary> items;
     }
 }
