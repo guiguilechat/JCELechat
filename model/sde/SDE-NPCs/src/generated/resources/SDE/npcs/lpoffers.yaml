@@ -24490,3 +24490,29 @@ offers:
     requirements:
       isk: 100000000
       lp: 500
+  16338:
+    id: 16338
+    name: 5* Standup Shadow(BPC)
+    product:
+      item: Standup Shadow
+      quantity: 5
+    requirements:
+      isk: 5000000
+      items:
+      - item: Shadow
+        quantity: 5
+      - item: Megacyte
+        quantity: 500
+      - item: Zydrine
+        quantity: 750
+      - item: Nocxium
+        quantity: 1500
+      - item: Mexallon
+        quantity: 50000
+      - item: Isogen
+        quantity: 100000
+      - item: Pyerite
+        quantity: 250000
+      - item: Tritanium
+        quantity: 500000
+      lp: 10000

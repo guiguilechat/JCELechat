@@ -591,6 +591,7 @@ group2class:
   entity/FWMinmatarRepublicDestroyer: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicDestroyer
   entity/FWMinmatarRepublicFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicFrigate
   entity/FactionDrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.FactionDrone
+  entity/ForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.entity.ForceAuxiliary
   entity/GhostSitesAngelCartelCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesAngelCartelCruiser
   entity/GhostSitesBloodRaidersCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesBloodRaidersCruiser
   entity/GhostSitesGuristasCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesGuristasCruiser
@@ -684,7 +685,6 @@ group2class:
   entity/NPCBattleship: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCDreadnought
-  entity/NPCForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCForceAuxiliary
   entity/NPCFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCFrigate
   entity/NPCIndustrialCommand: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCIndustrialCommand
   entity/NPCMiningBarge: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCMiningBarge
@@ -21330,14 +21330,14 @@ id2name:
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
   34457: 末日沙场级YC117年特别版
-  34458: 末日沙场级YC117年特别版蓝图
+  34458: ���日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117���特别版
-  34462: 马克瑞级YC117年特别版蓝图
+  34461: 马克瑞级YC117年特别版
+  34462: 马克瑞级YC117年��别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
-  34465: 多米尼克斯级YC117年特别版
+  34465: 多米���克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
@@ -21345,8 +21345,8 @@ id2name:
   34470: 乌鸦级YC117年特别版蓝图
   34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
-  34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年特别版��图
+  34473: 幼龙��YC117年特别版
+  34474: 幼龙级YC117年特��版蓝图
   34475: 毒蜥级YC117年特别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
@@ -24012,7 +24012,7 @@ id2name:
   37886: Capital Parking Ticket
   37887: Counterfeit Dominix Model
   37888: Starsi
-  37889: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+  37889: YC118 Succession Trial Champion���s Decree – House Tash-Murkon
   37892: YC118 Succession Trial Champion’s Decree – House Ardishapur
   37893: YC118 Succession Trial Champion’s Decree – House Kador
   37894: YC118 Succession Trial Champion’s Decree – House Khanid
@@ -27057,7 +27057,7 @@ id2name:
   41022: Bifrost Tronhadar Ink Serenity Only SKIN (365 Days)
   41023: Convoy Hawk 6 Escort Roster
   41024: Audio Log Backup – 115/11/11 A-0477
-  41025: Audio Log Backup �� 117/07/01 G-6640
+  41025: Audio Log Backup – 117/07/01 G-6640
   41026: Manifest – Cargo 118/01/06 – CLEARENCE 1B
   41027: Secure Comms Uplink ALPHA-6
   41028: Medical Report 0401A – 117/01/19
@@ -27452,7 +27452,7 @@ id2name:
   41441: ‘Geiravor’ Explosive Lance
   41442: ‘Cold Wind’ Kinetic Reaper
   41443: ‘Guillotine’ Thermal Reaper
-  41444: ‘Jormungandr’ Explosive Reaper
+  41444: ‘Jormungandr�� Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
   41447: ‘Phalarica’ Thermal Lance Blueprint
@@ -28580,7 +28580,7 @@ id2name:
   42706: Women's 'Outlaw' Coat (Blood Raiders extra red)
   42707: Women's 'Sterling' Dress Blouse (Blood Raider)
   42708: Men's Beret (Blood Raiders)
-  42709: Women's ‘Defender�� Beret (Gallente Federation)
+  42709: Women's ‘Defender’ Beret (Gallente Federation)
   42710: Gallente Cap Male
   42711: Cap Male Green
   42712: Men's ‘Liberator’ Beret (Minmatar Republic)
@@ -29339,7 +29339,7 @@ id2name:
   43567: ♦ Griffin
   43568: ♦ Caracal
   43569: ♦ Osprey
-  43570: �� Moa
+  43570: ♦ Moa
   43571: ♦ Blackbird
   43572: ♦ Raven
   43573: ♦ Scorpion
@@ -29395,10 +29395,10 @@ id2name:
   43626: ♦ Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
-  43633: ��� Dramiel
+  43633: ♦ Dramiel
   43634: ♦ Swordspine
   43635: ♦ Fury
-  43636: ��� Medusa
+  43636: ♦ Medusa
   43638: ♦ Lynx
   43640: Empire Civilian Container
   43641: ♦ Cynabal
@@ -29771,7 +29771,7 @@ id2name:
   44103: Defender Launcher I Blueprint
   44105: Invisible Warp Out Object (Except POD)
   44106: Sunesis Blueprint
-  44107: ♦ Succubus
+  44107: �� Succubus
   44108: ♦ Succubus
   44109: Display Launcher
   44110: Yoiul Festival Firework
@@ -30650,7 +30650,7 @@ id2name:
   45053: Test Asteroid 1
   45054: Test Asteroid 2
   45055: ♦ Bhaalgorn
-  45056: ♦ Apocalypse
+  45056: �� Apocalypse
   45057: Amarr CA Cruiser
   45060: Vintage Frigate Blueprints
   45061: Subspace Energy & You
@@ -31234,7 +31234,7 @@ id2name:
   46055: ♦ Bhaalgorn
   46056: ♦ Gila
   46057: ♦ Rattlesnake
-  46058: �� Daredevil
+  46058: ♦ Daredevil
   46059: ♦ Vigilant
   46060: ♦ Vindicator
   46061: ♦ Dramiel
@@ -34977,7 +34977,7 @@ id2name:
   369549: '''Dorudon'' Basic-H M/I'
   369550: '''Loceros'' Basic-H mk.0'
   370308: '''Deathshroud'' AM-M SKIN'
-  370488: ‘Tairei’s Crimson��� AM-L SKIN
+  370488: ‘Tairei’s Crimson’ AM-L SKIN
   370658: Council's Modified Repair Tool
   371027: X-MS16 Snowball Launcher
 name2group:
@@ -38631,7 +38631,7 @@ name2group:
   Attainment Decryptor: decryptors/GenericDecryptor
   Auctioneer: entity/Convoy
   Audio Log Backup – 115/11/11 A-0477: commodity/General
-  Audio Log Backup �� 117/07/01 G-6640: commodity/General
+  Audio Log Backup – 117/07/01 G-6640: commodity/General
   Auga Hypophysis: entity/IncursionSanshaSNationCruiser
   Augmentation Decryptor: decryptors/GenericDecryptor
   Augmented Angel Battlestation: entity/LargeCollidableStructure
@@ -67543,7 +67543,7 @@ name2group:
   Women's YC119 Yoiul Festival Cap: apparel/Headwear
   Women's YC119 Yoiul Festival Pants: apparel/Bottoms
   Women's YC119 Yoiul Festival T-shirt: apparel/Tops
-  Women's ‘Defender�� Beret (Gallente Federation): apparel/Headwear
+  Women's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Women's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Women's ‘Protector’ Beret (Caldari State): apparel/Headwear
   'Women''s “Mirelle” Upwell Executive Spectacles ': apparel/Eyewear
@@ -67841,7 +67841,7 @@ name2group:
   YC118 Succession Trial Champion’s Decree – House Khanid: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Kor-Azor: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion’s Decree – House Sarum: specialeditionassets/SpecialEditionCommodities
-  YC118 Succession Trial Champion’s Decree – House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
+  YC118 Succession Trial Champion���s Decree – House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
   YC119 Yoiul Festival Day 1: specialeditionassets/SpecialEditionCommodities
   YC119 Yoiul Festival Day 10: specialeditionassets/SpecialEditionCommodities
   YC119 Yoiul Festival Day 11: specialeditionassets/SpecialEditionCommodities
@@ -68262,11 +68262,11 @@ name2group:
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
   ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Jormungandr�� Explosive Reaper: module/SuperWeapon
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Tairei’s Crimson��� AM-L SKIN: infantry/InfantryColorSkin
+  ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
   ♦ Annihilator Drone: entity/NPCCruiser
   ♦ Apocalypse: entity/NPCBattleship
   ♦ Arbitrator: entity/NPCCruiser
@@ -68292,7 +68292,8 @@ name2group:
   ♦ Crucifier: entity/NPCFrigate
   ♦ Cruor: entity/NPCFrigate
   ♦ Cynabal: entity/NPCCruiser
-  ♦ Dagon: entity/NPCForceAuxiliary
+  ♦ Dagon: entity/ForceAuxiliary
+  ♦ Daredevil: entity/NPCFrigate
   ♦ Dominix: entity/NPCBattleship
   ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
@@ -68317,6 +68318,7 @@ name2group:
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
+  ♦ Medusa: entity/NPCFrigate
   ♦ Megathron: entity/NPCBattleship
   ♦ Merlin: entity/NPCFrigate
   ♦ Moa: entity/NPCCruiser
@@ -68370,13 +68372,12 @@ name2group:
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  多米尼克斯级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  幼龙级YC117年特别版: ship/CombatBattlecruiser
-  幼龙级YC117年特别版��图: blueprint/BattlecruiserBlueprint
+  多米���克斯级YC117年特别版: ship/Battleship
+  幼龙级YC117年特��版蓝图: blueprint/BattlecruiserBlueprint
+  幼龙��YC117年特别版: ship/CombatBattlecruiser
   未来人类纪念章: specialeditionassets/SpecialEditionCommodities
   末日沙场级YC117年特别版: ship/Battleship
-  末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   毒蜥级YC117年特别版: ship/Cruiser
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
   泰坦会战纪念碑: celestial/LargeCollidableObject
@@ -68385,9 +68386,8 @@ name2group:
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  马克瑞级YC117���特别版: ship/Battleship
-  �� Daredevil: entity/NPCFrigate
-  �� Moa: entity/NPCCruiser
-  ��� Dramiel: entity/NPCFrigate
-  ��� Medusa: entity/NPCFrigate
+  马克瑞级YC117年特别版: ship/Battleship
+  马克瑞级YC117年��别版蓝图: blueprint/BattleshipBlueprint
+  �� Apocalypse: entity/NPCBattleship
+  �� Succubus: entity/NPCFrigate
+  ���日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint

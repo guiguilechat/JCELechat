@@ -490,18 +490,18 @@ items:
     id: 34466
     name: 多米尼克斯级YC117年特别版蓝图
     volume: 0.01
-  末日沙场级YC117年特别版蓝图:
-    TechLevel: 1
-    id: 34458
-    name: 末日沙场级YC117年特别版蓝图
-    volume: 0.01
   灾难级YC117年特别版蓝图:
     TechLevel: 1
     id: 34472
     name: 灾难级YC117年特别版蓝图
     volume: 0.01
-  马克瑞级YC117年特别版蓝图:
+  马克瑞级YC117年��别版蓝图:
     TechLevel: 1
     id: 34462
-    name: 马克瑞级YC117年特别版蓝图
+    name: 马克瑞级YC117年��别版蓝图
+    volume: 0.01
+  ���日沙场级YC117年特别版蓝图:
+    TechLevel: 1
+    id: 34458
+    name: ���日沙场级YC117年特别版蓝图
     volume: 0.01

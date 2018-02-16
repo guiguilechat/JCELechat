@@ -47,6 +47,10 @@ items:
     id: 46052
     name: ♦ Cruor
     volume: 28600.0
+  ♦ Daredevil:
+    id: 46058
+    name: ♦ Daredevil
+    volume: 26500.0
   ♦ Dramiel:
     id: 46061
     name: ♦ Dramiel
@@ -87,6 +91,10 @@ items:
     id: 43577
     name: ♦ Maulus
     volume: 23000.0
+  ♦ Medusa:
+    id: 43636
+    name: ♦ Medusa
+    volume: 17500.0
   ♦ Merlin:
     id: 46070
     name: ♦ Merlin
@@ -155,15 +163,7 @@ items:
     id: 47197
     name: ♦ test_ewar
     volume: 27289.0
-  �� Daredevil:
-    id: 46058
-    name: �� Daredevil
-    volume: 26500.0
-  ��� Dramiel:
-    id: 43633
-    name: ��� Dramiel
-    volume: 27289.0
-  ��� Medusa:
-    id: 43636
-    name: ��� Medusa
-    volume: 17500.0
+  �� Succubus:
+    id: 44107
+    name: �� Succubus
+    volume: 28600.0
