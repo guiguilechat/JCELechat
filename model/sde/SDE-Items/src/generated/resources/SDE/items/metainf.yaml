@@ -591,7 +591,6 @@ group2class:
   entity/FWMinmatarRepublicDestroyer: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicDestroyer
   entity/FWMinmatarRepublicFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicFrigate
   entity/FactionDrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.FactionDrone
-  entity/ForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.entity.ForceAuxiliary
   entity/GhostSitesAngelCartelCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesAngelCartelCruiser
   entity/GhostSitesBloodRaidersCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesBloodRaidersCruiser
   entity/GhostSitesGuristasCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesGuristasCruiser
@@ -685,6 +684,7 @@ group2class:
   entity/NPCBattleship: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCDreadnought
+  entity/NPCForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCForceAuxiliary
   entity/NPCFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCFrigate
   entity/NPCIndustrialCommand: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCIndustrialCommand
   entity/NPCMiningBarge: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCMiningBarge
@@ -68292,7 +68292,7 @@ name2group:
   ♦ Crucifier: entity/NPCFrigate
   ♦ Cruor: entity/NPCFrigate
   ♦ Cynabal: entity/NPCCruiser
-  ♦ Dagon: entity/ForceAuxiliary
+  ♦ Dagon: entity/NPCForceAuxiliary
   ♦ Daredevil: entity/NPCFrigate
   ♦ Dominix: entity/NPCBattleship
   ♦ Drake: entity/NPCBattlecruiser
