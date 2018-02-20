@@ -115,7 +115,9 @@ public class ESIRawConnection implements Swagger {
 				case HttpsURLConnection.HTTP_FORBIDDEN:
 				case HttpsURLConnection.HTTP_NOT_FOUND:
 				case HttpsURLConnection.HTTP_BAD_METHOD:
-					logger.warn("" + responseCode + " on " + url);
+					StringBuilder sb = new StringBuilder("[" + method + "]" + url + " " + responseCode);
+					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
+					logger.warn(sb.toString());
 					return null;
 					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
@@ -123,8 +125,7 @@ public class ESIRawConnection implements Swagger {
 					logger.info(responseCode + " on " + url);
 					break;
 				default:
-					StringBuilder sb = new StringBuilder("[").append(method).append(']').append(url).append(" ")
-					.append(responseCode);
+					sb = new StringBuilder("[" + method + "]" + url + " " + responseCode);
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 					logger.warn(sb.toString());
 				}
