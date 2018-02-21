@@ -1387,7 +1387,7 @@ public interface Swagger {
 
     public static enum language {
         de("de"),
-        enus("en-us"),
+        en_us("en-us"),
         fr("fr"),
         ja("ja"),
         ru("ru"),
