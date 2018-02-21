@@ -183,7 +183,7 @@ public class Compiler {
 					case "user_agent":
 					case "X-User-Agent":
 					case "datasource":
-					case "page":
+						// case "page":
 						continue;
 					default:
 						String in = p.getIn();
@@ -192,7 +192,7 @@ public class Compiler {
 						switch (in) {
 						case "path":
 							PathParameter pp = (PathParameter) p;
-							pt = getExistingClass(pp.getType(), pp.getFormat());
+							pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
 							pathparameters.add(meth.param(pt, pp.getName()));
 							break;
 						case "query":
@@ -279,7 +279,7 @@ public class Compiler {
 	 * @return
 	 */
 	protected AbstractJType translateToClass(Property p, JPackage pck, String name) {
-		AbstractJType ret = getExistingClass(p.getType(), p.getFormat());
+		AbstractJType ret = getExistingClass(p.getType(), name, p.getFormat(), null);
 		if (ret != null) {
 			return ret;
 		}
@@ -293,8 +293,8 @@ public class Compiler {
 		}
 	}
 
-	protected AbstractJType getExistingClass(String name, String format) {
-		switch (name) {
+	protected AbstractJType getExistingClass(String type, String name, String format, List<String> enums) {
+		switch (type) {
 		case IntegerProperty.TYPE:
 			if (format == null) {
 				return cm.LONG;
@@ -310,6 +310,9 @@ public class Compiler {
 		case BooleanProperty.TYPE:
 			return cm.BOOLEAN;
 		case StringProperty.TYPE:
+			if (enums != null && !enums.isEmpty()) {
+				return getStringEnum(name, enums);
+			}
 			return cm.ref(String.class);
 		case DecimalProperty.TYPE:
 			switch (format) {
@@ -319,11 +322,38 @@ public class Compiler {
 				return cm.DOUBLE;
 			}
 		}
-		JDefinedClass created = cm._getClass(name);
+		JDefinedClass created = cm._getClass(type);
 		if (created != null) {
 			return created;
 		}
 		return null;
+	}
+
+	protected AbstractJType getStringEnum(String name, List<String> enums) {
+		JDefinedClass ret = null;
+		try {
+			ret = jc._enum(JMod.PUBLIC | JMod.STATIC, name);
+			JFieldVar toStringf = ret.field(JMod.PUBLIC | JMod.FINAL, cm.ref(String.class), "toString");
+			JMethod constr = ret.constructor(0);
+			JVar toStringp = constr.param(cm.ref(String.class), "toString");
+			constr.body().assign(JExpr.refthis(toStringf), toStringp);
+			JMethod toStringm = ret.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+			toStringm.body()._return(toStringf);
+			toStringm.annotate(Override.class);
+			for (String s : enums) {
+				ret.enumConstant(s.replaceAll("-", "")).arg(JExpr.lit(s));
+			}
+			// logger.info("created enum " + name + " with values " + enums);
+			return ret;
+		} catch (JClassAlreadyExistsException e) {
+			// logger.info("can't recreate enum " + name + " with values " + enums);
+			for (JDefinedClass cl : jc.classes()) {
+				if (cl.name().equals(name)) {
+					return cl;
+				}
+			}
+			return null;
+		}
 	}
 
 	protected AbstractJType getExistingClass(ArrayModel model) {
@@ -334,7 +364,7 @@ public class Compiler {
 		if (pp.getType().equals(ArrayProperty.TYPE)) {
 			return getExistingClass(pp.getItems()).array();
 		} else {
-			return getExistingClass(pp.getType(), pp.getFormat());
+			return getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
 		}
 	}
 
@@ -343,7 +373,7 @@ public class Compiler {
 			ArrayProperty ap = (ArrayProperty) pp;
 			return getExistingClass(ap.getItems()).array();
 		} else {
-			return getExistingClass(pp.getType(), pp.getFormat());
+			return getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), null);
 		}
 	}
 

@@ -1,14 +1,24 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import java.time.ZonedDateTime;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Character {
 
-	protected final ESIRawConnection raw;
+	protected final ESIConnection con;
 
-	public Character(ESIRawConnection raw) {
-		this.raw = raw;
+	public Character(ESIConnection con) {
+		this.con = con;
 	}
 
 	// character informations
@@ -17,7 +27,7 @@ public class Character {
 
 	protected synchronized R_get_characters_character_id getInfos() {
 		if (infos == null) {
-			infos = raw.get_characters_character_id(raw.verify().CharacterID, null);
+			infos = con.raw.get_characters_character_id(con.characterId(), null);
 		}
 		return infos;
 	}
@@ -64,6 +74,33 @@ public class Character {
 
 	public long faction_id() {
 		return getInfos().faction_id;
+	}
+
+	private long jobsCacheEnd = 0;
+
+	ObservableList<R_get_characters_character_id_industry_jobs> jobsCache = FXCollections.observableArrayList();
+
+	public ObservableList<R_get_characters_character_id_industry_jobs> jobs() {
+		if (System.currentTimeMillis() >= jobsCacheEnd) {
+			ArrayList<R_get_characters_character_id_industry_jobs> ret = new ArrayList<>();
+			int maxPage = 1;
+			jobsCacheEnd = Long.MAX_VALUE;
+			for (int page = 1; page <= maxPage; page++) {
+				Map<String, List<String>> headers = new HashMap<>();
+				ret.addAll(Arrays.asList(con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, headers)));
+				if (page == 1) {
+					String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
+					maxPage = pages == null ? 1 : Integer.parseInt(pages);
+				}
+				jobsCacheEnd = Math.min(jobsCacheEnd,
+						System.currentTimeMillis()
+						+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIConnection.formatter).toEpochSecond()
+						- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIConnection.formatter).toEpochSecond());
+			}
+			jobsCache.clear();
+			jobsCache.addAll(ret);
+		}
+		return jobsCache;
 	}
 
 }

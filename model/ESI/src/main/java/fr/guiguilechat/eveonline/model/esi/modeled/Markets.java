@@ -1,7 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,6 +9,7 @@ import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket.CachedOrdersList;
+import is.ccp.tech.esi.Swagger.order_type;
 import is.ccp.tech.esi.responses.R_get_markets_prices;
 import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
 import javafx.beans.binding.DoubleBinding;
@@ -18,8 +18,6 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Markets {
-
-	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
 	public class RegionalMarket {
 
@@ -46,29 +44,36 @@ public class Markets {
 				if (System.currentTimeMillis() <= cacheEnd) {
 					return;
 				}
-				Map<String, List<String>> headers = new HashMap<>();
-
-				R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders("all", regionID,
-						typeID, headers);
 				ArrayList<R_get_markets_region_id_orders> nbo = new ArrayList<>();
 				ArrayList<R_get_markets_region_id_orders> nso = new ArrayList<>();
-				for (R_get_markets_region_id_orders o : orders) {
-					if (o.min_volume == 1) {
-						if (o.is_buy_order) {
-							nbo.add(o);
-						} else {
-							nso.add(o);
+				int maxPages = 1;
+				cacheEnd = Long.MAX_VALUE;
+				for (int page = 1; page <= maxPages; page++) {
+					Map<String, List<String>> headers = new HashMap<>();
+					R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders(order_type.all, page,
+							regionID, typeID, headers);
+					if (page == 1) {
+						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
+						maxPages = pages == null ? 1 : Integer.parseInt(pages);
+					}
+					for (R_get_markets_region_id_orders o : orders) {
+						if (o.min_volume == 1) {
+							if (o.is_buy_order) {
+								nbo.add(o);
+							} else {
+								nso.add(o);
+							}
 						}
 					}
+					cacheEnd = Math.min(cacheEnd,
+							System.currentTimeMillis()
+							+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIConnection.formatter).toEpochSecond()
+							- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIConnection.formatter).toEpochSecond());
 				}
 				Collections.sort(nbo, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 				Collections.sort(nso, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
 				buyOrders.setAll(nbo);
 				sellOrders.setAll(nso);
-
-				cacheEnd = System.currentTimeMillis()
-						+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), formatter).toEpochSecond()
-						- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), formatter).toEpochSecond();
 			}
 
 			public ObservableList<R_get_markets_region_id_orders> getBuyOrders() {

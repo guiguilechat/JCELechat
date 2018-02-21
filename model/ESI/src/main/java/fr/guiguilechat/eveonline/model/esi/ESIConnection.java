@@ -1,5 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi;
 
+import java.time.format.DateTimeFormatter;
+
 import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Character;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
@@ -16,14 +18,16 @@ public class ESIConnection {
 
 	public final ESIRawConnection raw;
 
+	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
+
 	public ESIConnection(ESIRawConnection raw) {
 		this.raw = raw;
-		character = new Character(raw);
+		character = new Character(this);
 		verify = new Verify(raw);
 		corporation = new Corporation(this);
 		names = new Names(raw);
 		markets = new Markets(this);
-		industry = new Industry(raw);
+		industry = new Industry(this);
 	}
 
 	public ESIConnection(String refresh, String base) {
@@ -46,7 +50,7 @@ public class ESIConnection {
 
 	public final Industry industry;
 
-	public long characterId() {
+	public int characterId() {
 		return verify.characterID();
 	}
 

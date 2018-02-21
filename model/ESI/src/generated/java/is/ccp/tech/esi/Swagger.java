@@ -203,14 +203,14 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_characters_character_id_assets[] get_characters_character_id_assets(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/assets/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_assets[] get_characters_character_id_assets(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/assets/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_assets[].class));
     }
 
-    public default R_get_corporations_corporation_id_assets[] get_corporations_corporation_id_assets(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_assets[] get_corporations_corporation_id_assets(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_assets[].class));
     }
@@ -251,26 +251,26 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_corporations_corporation_id_assets_locations[].class));
     }
 
-    public default R_get_characters_character_id_bookmarks[] get_characters_character_id_bookmarks(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/bookmarks/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_bookmarks[] get_characters_character_id_bookmarks(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/bookmarks/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks[].class));
     }
 
-    public default R_get_characters_character_id_bookmarks_folders[] get_characters_character_id_bookmarks_folders(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/bookmarks/folders/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_bookmarks_folders[] get_characters_character_id_bookmarks_folders(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/bookmarks/folders/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks_folders[].class));
     }
 
-    public default R_get_corporations_corporation_id_bookmarks[] get_corporations_corporation_id_bookmarks(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/bookmarks/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_bookmarks[] get_corporations_corporation_id_bookmarks(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/bookmarks/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_bookmarks[].class));
     }
 
-    public default R_get_corporations_corporation_id_bookmarks_folders[] get_corporations_corporation_id_bookmarks_folders(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/bookmarks/folders/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_bookmarks_folders[] get_corporations_corporation_id_bookmarks_folders(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/bookmarks/folders/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_bookmarks_folders[].class));
     }
@@ -291,12 +291,6 @@ public interface Swagger {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/calendar/{event_id}/attendees/".replace("{character_id}", ""+character_id).replace("{event_id}", ""+event_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_calendar_event_id_attendees[].class));
-    }
-
-    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class));
     }
 
     public default R_get_characters_character_id get_characters_character_id(int character_id, Map<String, List<String>> headerHandler) {
@@ -365,8 +359,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_agents_research[].class));
     }
 
-    public default R_get_characters_character_id_blueprints[] get_characters_character_id_blueprints(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_blueprints[] get_characters_character_id_blueprints(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_blueprints[].class));
     }
@@ -401,6 +395,12 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_titles[].class));
     }
 
+    public default R_get_characters_character_id_stats[] get_characters_character_id_stats(int character_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/stats/".replace("{character_id}", ""+character_id));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_stats[].class));
+    }
+
     public default R_get_characters_character_id_clones get_characters_character_id_clones(int character_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/clones/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,true, headerHandler);
@@ -413,8 +413,8 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_characters_character_id_contacts[] get_characters_character_id_contacts(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_contacts[] get_characters_character_id_contacts(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_contacts[].class));
     }
@@ -428,14 +428,14 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_corporations_corporation_id_contacts[] get_corporations_corporation_id_contacts(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contacts/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_contacts[] get_corporations_corporation_id_contacts(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contacts/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contacts[].class));
     }
 
-    public default R_get_alliances_alliance_id_contacts[] get_alliances_alliance_id_contacts(int alliance_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/alliances/{alliance_id}/contacts/".replace("{alliance_id}", ""+alliance_id));
+    public default R_get_alliances_alliance_id_contacts[] get_alliances_alliance_id_contacts(int alliance_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/alliances/{alliance_id}/contacts/".replace("{alliance_id}", ""+alliance_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_alliances_alliance_id_contacts[].class));
     }
@@ -446,8 +446,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_contacts_labels[].class));
     }
 
-    public default R_get_characters_character_id_contracts[] get_characters_character_id_contracts(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/contracts/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_contracts[] get_characters_character_id_contracts(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/contracts/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_contracts[].class));
     }
@@ -464,8 +464,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_contracts_contract_id_bids[].class));
     }
 
-    public default R_get_corporations_corporation_id_contracts[] get_corporations_corporation_id_contracts(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_contracts[] get_corporations_corporation_id_contracts(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contracts[].class));
     }
@@ -476,14 +476,14 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contracts_contract_id_items[].class));
     }
 
-    public default R_get_corporations_corporation_id_contracts_contract_id_bids[] get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_contracts_contract_id_bids[] get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_contracts_contract_id_bids[].class));
     }
 
-    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_shareholders[].class));
     }
@@ -518,8 +518,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_roles[].class));
     }
 
-    public default R_get_corporations_corporation_id_roles_history[] get_corporations_corporation_id_roles_history(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/roles/history/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_roles_history[] get_corporations_corporation_id_roles_history(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/roles/history/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_roles_history[].class));
     }
@@ -536,8 +536,8 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_corporations_corporation_id_structures[] get_corporations_corporation_id_structures(int corporation_id, String language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?language="+flatten(language));
+    public default R_get_corporations_corporation_id_structures[] get_corporations_corporation_id_structures(int corporation_id, Swagger.language language, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?language="+flatten(language)+"&page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_structures[].class));
     }
@@ -572,20 +572,20 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_members_titles[].class));
     }
 
-    public default R_get_corporations_corporation_id_blueprints[] get_corporations_corporation_id_blueprints(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_blueprints[] get_corporations_corporation_id_blueprints(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_blueprints[].class));
     }
 
-    public default R_get_corporations_corporation_id_standings[] get_corporations_corporation_id_standings(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/standings/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_standings[] get_corporations_corporation_id_standings(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/standings/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_standings[].class));
     }
 
-    public default R_get_corporations_corporation_id_starbases[] get_corporations_corporation_id_starbases(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/starbases/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_starbases[] get_corporations_corporation_id_starbases(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/starbases/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_starbases[].class));
     }
@@ -596,8 +596,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_starbases_starbase_id.class));
     }
 
-    public default R_get_corporations_corporation_id_containers_logs[] get_corporations_corporation_id_containers_logs(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/containers/logs/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_containers_logs[] get_corporations_corporation_id_containers_logs(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/containers/logs/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_containers_logs[].class));
     }
@@ -608,20 +608,20 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_facilities[].class));
     }
 
-    public default R_get_corporations_corporation_id_medals[] get_corporations_corporation_id_medals(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/medals/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_medals[] get_corporations_corporation_id_medals(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/medals/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_medals[].class));
     }
 
-    public default R_get_corporations_corporation_id_medals_issued[] get_corporations_corporation_id_medals_issued(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/medals/issued/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_medals_issued[] get_corporations_corporation_id_medals_issued(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/medals/issued/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_medals_issued[].class));
     }
 
-    public default int[] get_corporations_corporation_id_outposts(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/".replace("{corporation_id}", ""+corporation_id));
+    public default int[] get_corporations_corporation_id_outposts(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (int[].class));
     }
@@ -734,7 +734,7 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_fleet.class));
     }
 
-    public default R_get_fleets_fleet_id_members[] get_fleets_fleet_id_members(long fleet_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_fleets_fleet_id_members[] get_fleets_fleet_id_members(long fleet_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/fleets/{fleet_id}/members/".replace("{fleet_id}", ""+fleet_id)+"?language="+flatten(language));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_fleets_fleet_id_members[].class));
@@ -750,7 +750,7 @@ public interface Swagger {
         connectPost(url, content, true, headerHandler);
     }
 
-    public default R_get_fleets_fleet_id_wings[] get_fleets_fleet_id_wings(long fleet_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_fleets_fleet_id_wings[] get_fleets_fleet_id_wings(long fleet_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/fleets/{fleet_id}/wings/".replace("{fleet_id}", ""+fleet_id)+"?language="+flatten(language));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_fleets_fleet_id_wings[].class));
@@ -794,26 +794,26 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs[].class));
     }
 
-    public default R_get_characters_character_id_mining[] get_characters_character_id_mining(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/mining/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_mining[] get_characters_character_id_mining(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/mining/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_mining[].class));
     }
 
-    public default R_get_corporation_corporation_id_mining_observers[] get_corporation_corporation_id_mining_observers(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporation_corporation_id_mining_observers[] get_corporation_corporation_id_mining_observers(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporation_corporation_id_mining_observers[].class));
     }
 
-    public default R_get_corporation_corporation_id_mining_observers_observer_id[] get_corporation_corporation_id_mining_observers_observer_id(int corporation_id, long observer_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/{observer_id}/".replace("{corporation_id}", ""+corporation_id).replace("{observer_id}", ""+observer_id));
+    public default R_get_corporation_corporation_id_mining_observers_observer_id[] get_corporation_corporation_id_mining_observers_observer_id(int corporation_id, long observer_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/{observer_id}/".replace("{corporation_id}", ""+corporation_id).replace("{observer_id}", ""+observer_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporation_corporation_id_mining_observers_observer_id[].class));
     }
 
-    public default R_get_corporations_corporation_id_industry_jobs[] get_corporations_corporation_id_industry_jobs(int corporation_id, boolean include_completed, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/industry/jobs/".replace("{corporation_id}", ""+corporation_id)+"?include_completed="+flatten(include_completed));
+    public default R_get_corporations_corporation_id_industry_jobs[] get_corporations_corporation_id_industry_jobs(int corporation_id, boolean include_completed, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/industry/jobs/".replace("{corporation_id}", ""+corporation_id)+"?include_completed="+flatten(include_completed)+"&page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_industry_jobs[].class));
     }
@@ -824,7 +824,7 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporation_corporation_id_mining_extractions[].class));
     }
 
-    public default R_get_insurance_prices[] get_insurance_prices(String language, Map<String, List<String>> headerHandler) {
+    public default R_get_insurance_prices[] get_insurance_prices(Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/insurance/prices/"+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_insurance_prices[].class));
@@ -930,8 +930,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_markets_prices[].class));
     }
 
-    public default R_get_markets_region_id_orders[] get_markets_region_id_orders(String order_type, int region_id, int type_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?order_type="+flatten(order_type)+"&type_id="+flatten(type_id));
+    public default R_get_markets_region_id_orders[] get_markets_region_id_orders(Swagger.order_type order_type, int page, int region_id, int type_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?order_type="+flatten(order_type)+"&page="+flatten(page)+"&type_id="+flatten(type_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_markets_region_id_orders[].class));
     }
@@ -942,8 +942,8 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_markets_region_id_history[].class));
     }
 
-    public default R_get_markets_structures_structure_id[] get_markets_structures_structure_id(long structure_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/markets/structures/{structure_id}/".replace("{structure_id}", ""+structure_id));
+    public default R_get_markets_structures_structure_id[] get_markets_structures_structure_id(int page, long structure_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/markets/structures/{structure_id}/".replace("{structure_id}", ""+structure_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_markets_structures_structure_id[].class));
     }
@@ -954,7 +954,7 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_markets_groups_market_group_id get_markets_groups_market_group_id(String language, int market_group_id, Map<String, List<String>> headerHandler) {
+    public default R_get_markets_groups_market_group_id get_markets_groups_market_group_id(Swagger.language language, int market_group_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_markets_groups_market_group_id.class));
@@ -966,26 +966,26 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_orders[].class));
     }
 
-    public default R_get_characters_character_id_orders_history[] get_characters_character_id_orders_history(int character_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/orders/history/".replace("{character_id}", ""+character_id));
+    public default R_get_characters_character_id_orders_history[] get_characters_character_id_orders_history(int character_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/orders/history/".replace("{character_id}", ""+character_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_orders_history[].class));
     }
 
-    public default int[] get_markets_region_id_types(int region_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/markets/{region_id}/types/".replace("{region_id}", ""+region_id));
+    public default int[] get_markets_region_id_types(int page, int region_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/markets/{region_id}/types/".replace("{region_id}", ""+region_id)+"?page="+flatten(page));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_corporations_corporation_id_orders[] get_corporations_corporation_id_orders(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_orders[] get_corporations_corporation_id_orders(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_orders[].class));
     }
 
-    public default R_get_corporations_corporation_id_orders_history[] get_corporations_corporation_id_orders_history(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/history/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_orders_history[] get_corporations_corporation_id_orders_history(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/history/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_orders_history[].class));
     }
@@ -996,7 +996,7 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_opportunities_groups_group_id get_opportunities_groups_group_id(int group_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_opportunities_groups_group_id get_opportunities_groups_group_id(int group_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/opportunities/groups/{group_id}/".replace("{group_id}", ""+group_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_opportunities_groups_group_id.class));
@@ -1038,25 +1038,25 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_schematics_schematic_id.class));
     }
 
-    public default R_get_corporations_corporation_id_customs_offices[] get_corporations_corporation_id_customs_offices(int corporation_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/customs_offices/".replace("{corporation_id}", ""+corporation_id));
+    public default R_get_corporations_corporation_id_customs_offices[] get_corporations_corporation_id_customs_offices(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/customs_offices/".replace("{corporation_id}", ""+corporation_id)+"?page="+flatten(page));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_corporations_corporation_id_customs_offices[].class));
     }
 
-    public default int[] get_route_origin_destination(int[] avoid, int[][] connections, int destination, String flag, int origin, Map<String, List<String>> headerHandler) {
+    public default int[] get_route_origin_destination(int[] avoid, int[][] connections, int destination, Swagger.flag flag, int origin, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?avoid="+flatten(avoid)+"&connections="+flatten(connections)+"&flag="+flatten(flag));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_characters_character_id_search get_characters_character_id_search(String[] categories, int character_id, String language, String search, boolean strict, Map<String, List<String>> headerHandler) {
+    public default R_get_characters_character_id_search get_characters_character_id_search(String[] categories, int character_id, Swagger.language language, String search, boolean strict, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/search/".replace("{character_id}", ""+character_id)+"?categories="+flatten(categories)+"&language="+flatten(language)+"&search="+flatten(search)+"&strict="+flatten(strict));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_characters_character_id_search.class));
     }
 
-    public default R_get_search get_search(String[] categories, String language, String search, boolean strict, Map<String, List<String>> headerHandler) {
+    public default R_get_search get_search(String[] categories, Swagger.language language, String search, boolean strict, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/search/"+"?categories="+flatten(categories)+"&language="+flatten(language)+"&search="+flatten(search)+"&strict="+flatten(strict));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_search.class));
@@ -1104,6 +1104,15 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_status.class));
     }
 
+    public default R_post_universe_ids post_universe_ids(Swagger.language language, String[] names, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/ids/"+"?language="+flatten(language));
+        Map<String, String> content = new HashMap<>();
+        content.put("names", flatten(names));
+        String fetched = connectPost(url, content, false, headerHandler);
+        connectPost(url, content, false, headerHandler);
+        return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_ids.class));
+    }
+
     public default R_get_universe_planets_planet_id get_universe_planets_planet_id(int planet_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id));
         String fetched=connectGet(url,false, headerHandler);
@@ -1122,7 +1131,7 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_structures_structure_id.class));
     }
 
-    public default R_get_universe_systems_system_id get_universe_systems_system_id(String language, int system_id, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_systems_system_id get_universe_systems_system_id(Swagger.language language, int system_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/systems/{system_id}/".replace("{system_id}", ""+system_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_systems_system_id.class));
@@ -1134,25 +1143,25 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_universe_types_type_id get_universe_types_type_id(String language, int type_id, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_types_type_id get_universe_types_type_id(Swagger.language language, int type_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/types/{type_id}/".replace("{type_id}", ""+type_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_types_type_id.class));
     }
 
-    public default int[] get_universe_types(Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/universe/types/");
+    public default int[] get_universe_types(int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/types/"+"?page="+flatten(page));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (int[].class));
     }
 
-    public default int[] get_universe_groups(Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/universe/groups/");
+    public default int[] get_universe_groups(int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/groups/"+"?page="+flatten(page));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_universe_groups_group_id get_universe_groups_group_id(int group_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_groups_group_id get_universe_groups_group_id(int group_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/groups/{group_id}/".replace("{group_id}", ""+group_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_groups_group_id.class));
@@ -1164,7 +1173,7 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_universe_categories_category_id get_universe_categories_category_id(int category_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_categories_category_id get_universe_categories_category_id(int category_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/categories/{category_id}/".replace("{category_id}", ""+category_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_categories_category_id.class));
@@ -1185,19 +1194,19 @@ public interface Swagger {
         return convert((fetched), (long[].class));
     }
 
-    public default R_get_universe_races[] get_universe_races(String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_races[] get_universe_races(Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/races/"+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_races[].class));
     }
 
-    public default R_get_universe_factions[] get_universe_factions(String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_factions[] get_universe_factions(Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/factions/"+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_factions[].class));
     }
 
-    public default R_get_universe_bloodlines[] get_universe_bloodlines(String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_bloodlines[] get_universe_bloodlines(Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/bloodlines/"+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_bloodlines[].class));
@@ -1209,7 +1218,7 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_universe_regions_region_id get_universe_regions_region_id(String language, int region_id, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_regions_region_id get_universe_regions_region_id(Swagger.language language, int region_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/regions/{region_id}/".replace("{region_id}", ""+region_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_regions_region_id.class));
@@ -1221,7 +1230,7 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
-    public default R_get_universe_constellations_constellation_id get_universe_constellations_constellation_id(int constellation_id, String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_constellations_constellation_id get_universe_constellations_constellation_id(int constellation_id, Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id)+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_constellations_constellation_id.class));
@@ -1269,19 +1278,10 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_stars_star_id.class));
     }
 
-    public default R_get_universe_ancestries[] get_universe_ancestries(String language, Map<String, List<String>> headerHandler) {
+    public default R_get_universe_ancestries[] get_universe_ancestries(Swagger.language language, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/universe/ancestries/"+"?language="+flatten(language));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_universe_ancestries[].class));
-    }
-
-    public default R_post_universe_ids post_universe_ids(String language, String[] names, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/universe/ids/"+"?language="+flatten(language));
-        Map<String, String> content = new HashMap<>();
-        content.put("names", flatten(names));
-        String fetched = connectPost(url, content, false, headerHandler);
-        connectPost(url, content, false, headerHandler);
-        return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_ids.class));
     }
 
     public default void post_ui_openwindow_marketdetails(int type_id, Map<String, List<String>> headerHandler) {
@@ -1363,9 +1363,60 @@ public interface Swagger {
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_wars_war_id.class));
     }
 
-    public default R_get_wars_war_id_killmails[] get_wars_war_id_killmails(int war_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id));
+    public default R_get_wars_war_id_killmails[] get_wars_war_id_killmails(int page, int war_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id)+"?page="+flatten(page));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_get_wars_war_id_killmails[].class));
+    }
+
+    public static enum flag {
+        shortest("shortest"),
+        secure("secure"),
+        insecure("insecure");
+        public final String toString;
+
+        flag(String toString) {
+            this.toString = toString;
+        }
+
+        @Override
+        public String toString() {
+            return toString;
+        }
+    }
+
+    public static enum language {
+        de("de"),
+        enus("en-us"),
+        fr("fr"),
+        ja("ja"),
+        ru("ru"),
+        zh("zh");
+        public final String toString;
+
+        language(String toString) {
+            this.toString = toString;
+        }
+
+        @Override
+        public String toString() {
+            return toString;
+        }
+    }
+
+    public static enum order_type {
+        buy("buy"),
+        sell("sell"),
+        all("all");
+        public final String toString;
+
+        order_type(String toString) {
+            this.toString = toString;
+        }
+
+        @Override
+        public String toString() {
+            return toString;
+        }
     }
 }

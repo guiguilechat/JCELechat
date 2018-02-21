@@ -5,7 +5,7 @@ import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection.R_Verify;
 
 /**
  * access to the verify method( not in swagger)
- * 
+ *
  */
 public class Verify {
 
@@ -24,7 +24,7 @@ public class Verify {
 		return verify;
 	}
 
-	public long characterID() {
+	public int characterID() {
 		return verify().CharacterID;
 	}
 

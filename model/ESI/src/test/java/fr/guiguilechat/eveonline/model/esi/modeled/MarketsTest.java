@@ -23,7 +23,7 @@ public class MarketsTest {
 
 	@Test
 	public void testDateConversion() throws ParseException {
-		Markets.formatter.parse("Tue, 30 Jan 2018 22:14:44 GMT");
+		ESIConnection.formatter.parse("Tue, 30 Jan 2018 22:14:44 GMT");
 	}
 
 	@Test
