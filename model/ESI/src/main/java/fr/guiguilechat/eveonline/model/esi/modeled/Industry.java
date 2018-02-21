@@ -6,16 +6,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_industry_systems;
 import is.ccp.tech.esi.responses.R_get_industry_systems_cost_indices;
 
 public class Industry {
 
-	protected final ESIRawConnection raw;
+	protected final ESIConnection con;
 
-	public Industry(ESIRawConnection raw) {
-		this.raw = raw;
+	public Industry(ESIConnection conn) {
+		con = conn;
 	}
 
 	public IndustryIndices getSystemIndices(int sysID) {
@@ -35,7 +35,7 @@ public class Industry {
 		}
 		synchronized (systemIndicesCache) {
 			Map<String, List<String>> headers = new HashMap<>();
-			R_get_industry_systems[] results = raw.get_industry_systems(headers);
+			R_get_industry_systems[] results = con.raw.get_industry_systems(headers);
 			systemIndicesCache.clear();
 			for (R_get_industry_systems r : results) {
 				int sysid = r.solar_system_id;
@@ -77,6 +77,10 @@ public class Industry {
 	public static class IndustryIndices {
 		public float manufacturing, researching_time_efficiency, researching_material_efficiency, copying, invention,
 		reaction;
+	}
+
+	public static class IndustryJob {
+
 	}
 
 }
