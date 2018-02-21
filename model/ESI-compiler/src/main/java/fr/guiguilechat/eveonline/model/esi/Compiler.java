@@ -341,7 +341,7 @@ public class Compiler {
 			toStringm.body()._return(toStringf);
 			toStringm.annotate(Override.class);
 			for (String s : enums) {
-				ret.enumConstant(s.replaceAll("-", "")).arg(JExpr.lit(s));
+				ret.enumConstant(s.replaceAll("-", "_")).arg(JExpr.lit(s));
 			}
 			// logger.info("created enum " + name + " with values " + enums);
 			return ret;
