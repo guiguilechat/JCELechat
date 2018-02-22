@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
@@ -84,7 +84,7 @@ public class LootAnalysis {
 
 	public static void main(String[] args) throws IOException {
 		LootParser bp = new LootParser();
-		RegionalMarket em = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get("TheForge").id);
+		RegionalMarket em = ESIAccount.DISCONNECTED.markets.getMarket(Region.load().get("TheForge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;

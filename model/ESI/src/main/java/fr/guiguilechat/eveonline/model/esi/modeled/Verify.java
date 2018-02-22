@@ -1,7 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection.R_Verify;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection.R_Verify;
 
 /**
  * access to the verify method( not in swagger)
@@ -9,9 +9,9 @@ import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection.R_Verify;
  */
 public class Verify {
 
-	protected final ESIRawConnection raw;
+	protected final ESIConnection raw;
 
-	public Verify(ESIRawConnection raw) {
+	public Verify(ESIConnection raw) {
 		this.raw = raw;
 	}
 

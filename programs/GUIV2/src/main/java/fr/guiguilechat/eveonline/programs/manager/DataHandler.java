@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.programs.ISettings;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -26,7 +26,7 @@ public class DataHandler {
 	 *          the base64 value of {id}:{secret}
 	 */
 	public void addAPI(String refresh, String base) {
-		ESIConnection api = new ESIConnection(refresh, base);
+		ESIAccount api = new ESIAccount(refresh, base);
 		if (api.verify.characterName() != null) {
 			apis.add(api);
 			settings.ssoKeys.put(refresh, base);
@@ -34,6 +34,6 @@ public class DataHandler {
 		}
 	}
 
-	public final ObservableList<ESIConnection> apis = FXCollections.observableArrayList();
+	public final ObservableList<ESIAccount> apis = FXCollections.observableArrayList();
 
 }

@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.apikeys;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.programs.manager.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.MPane;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -10,7 +10,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.input.MouseEvent;
 
-public class ListAPI extends TableView<ESIConnection> implements MPane {
+public class ListAPI extends TableView<ESIAccount> implements MPane {
 
 	protected final DataHandler handler;
 
@@ -24,16 +24,16 @@ public class ListAPI extends TableView<ESIConnection> implements MPane {
 		setStyle("-fx-border-color: black");
 		setItems(handler.apis);
 
-		TableColumn<ESIConnection, String> keyCol = new TableColumn<>("character");
+		TableColumn<ESIAccount, String> keyCol = new TableColumn<>("character");
 		keyCol.setCellValueFactory(apiroot -> new ReadOnlyObjectWrapper<>(apiroot.getValue().verify.characterName()));
 		getColumns().add(keyCol);
-		TableColumn<ESIConnection, ESIConnection> delCol = new TableColumn<>("");
+		TableColumn<ESIAccount, ESIAccount> delCol = new TableColumn<>("");
 		delCol.setCellValueFactory(param -> new ReadOnlyObjectWrapper<>(param.getValue()));
-		delCol.setCellFactory(param -> new TableCell<ESIConnection, ESIConnection>() {
+		delCol.setCellFactory(param -> new TableCell<ESIAccount, ESIAccount>() {
 			private final Button deleteButton = new Button("X");
 
 			@Override
-			protected void updateItem(ESIConnection person, boolean empty) {
+			protected void updateItem(ESIAccount person, boolean empty) {
 				super.updateItem(person, empty);
 
 				if (person == null) {

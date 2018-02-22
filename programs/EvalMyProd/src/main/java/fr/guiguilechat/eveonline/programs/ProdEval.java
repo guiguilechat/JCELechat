@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
@@ -80,7 +80,7 @@ public class ProdEval {
 				hubr = Region.load().get(hubs.region);
 			}
 		}
-		RegionalMarket market = ESIConnection.DISCONNECTED.markets.getMarket(hubr.id);
+		RegionalMarket market = ESIAccount.DISCONNECTED.markets.getMarket(hubr.id);
 		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
 				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
@@ -95,7 +95,7 @@ public class ProdEval {
 					.sum();
 			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
 					* (1.0 - outTax / 100);
-			eval.inValue += ESIConnection.DISCONNECTED.markets.getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
+			eval.inValue += ESIAccount.DISCONNECTED.markets.getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;
 			eval.mult = eval.outValue / eval.inValue;
 		});

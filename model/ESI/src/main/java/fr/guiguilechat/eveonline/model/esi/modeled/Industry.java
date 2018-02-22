@@ -6,15 +6,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import is.ccp.tech.esi.responses.R_get_industry_systems;
 import is.ccp.tech.esi.responses.R_get_industry_systems_cost_indices;
 
 public class Industry {
 
-	protected final ESIConnection con;
+	protected final ESIAccount con;
 
-	public Industry(ESIConnection conn) {
+	public Industry(ESIAccount conn) {
 		con = conn;
 	}
 

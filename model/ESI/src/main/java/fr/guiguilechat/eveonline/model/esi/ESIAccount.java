@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.model.esi;
 
 import java.time.format.DateTimeFormatter;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Character;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
@@ -14,13 +14,13 @@ import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
  * encapsulation of a raw connection to have better modeling
  *
  */
-public class ESIConnection {
+public class ESIAccount {
 
-	public final ESIRawConnection raw;
+	public final ESIConnection raw;
 
 	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
-	public ESIConnection(ESIRawConnection raw) {
+	public ESIAccount(ESIConnection raw) {
 		this.raw = raw;
 		character = new Character(this);
 		verify = new Verify(raw);
@@ -30,13 +30,13 @@ public class ESIConnection {
 		industry = new Industry(this);
 	}
 
-	public ESIConnection(String refresh, String base) {
-		this(new ESIRawConnection(refresh, base));
+	public ESIAccount(String refresh, String base) {
+		this(new ESIConnection(refresh, base));
 	}
 
-	public static final ESIConnection DISCONNECTED = new ESIConnection(null, null);
+	public static final ESIAccount DISCONNECTED = new ESIAccount(null, null);
 
-	public ESIRawConnection getConnection() {
+	public ESIConnection getConnection() {
 		return raw;
 	}
 
@@ -67,10 +67,10 @@ public class ESIConnection {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (obj == null || obj.getClass() != ESIConnection.class) {
+		if (obj == null || obj.getClass() != ESIAccount.class) {
 			return false;
 		}
-		return raw.equals(((ESIConnection) obj).raw);
+		return raw.equals(((ESIAccount) obj).raw);
 	}
 
 }

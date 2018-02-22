@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_names;
 
 public class Names {
 
-	protected final ESIRawConnection raw;
+	protected final ESIConnection raw;
 
-	public Names(ESIRawConnection raw) {
+	public Names(ESIConnection raw) {
 		this.raw = raw;
 	}
 
