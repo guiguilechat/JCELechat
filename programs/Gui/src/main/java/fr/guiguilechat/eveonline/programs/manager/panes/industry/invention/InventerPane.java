@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.apiv2.Account;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
@@ -197,7 +197,7 @@ public class InventerPane extends BorderPane implements EvePane {
 				ObservableList<InventionProdData> list = FXCollections.observableArrayList();
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
 
-				RegionalMarket market = ESIConnection.DISCONNECTED.markets
+				RegionalMarket market = ESIAccount.DISCONNECTED.markets
 						.getMarket(Region.load().get(parent().settings.invention.marketRegion).id);
 
 				bpos.parallelStream().flatMap(bpo -> bpo.invention.products.stream().parallel()

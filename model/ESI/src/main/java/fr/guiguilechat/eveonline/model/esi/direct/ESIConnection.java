@@ -33,15 +33,15 @@ import is.ccp.tech.esi.Swagger;
  * raw access to the esi services using a connection.
  *
  */
-public class ESIRawConnection implements Swagger {
+public class ESIConnection implements Swagger {
 
-	private static final Logger logger = LoggerFactory.getLogger(ESIRawConnection.class);
+	private static final Logger logger = LoggerFactory.getLogger(ESIConnection.class);
 
 	private final String basicAuth, refreshToken;
 
 	protected AccessToken accessToken = null;
 
-	public ESIRawConnection(String refreshToken, String basicAuth) {
+	public ESIConnection(String refreshToken, String basicAuth) {
 		this.basicAuth = basicAuth;
 		this.refreshToken = refreshToken;
 	}
@@ -226,10 +226,10 @@ public class ESIRawConnection implements Swagger {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (obj == null || obj.getClass() != ESIRawConnection.class) {
+		if (obj == null || obj.getClass() != ESIConnection.class) {
 			return false;
 		}
-		ESIRawConnection o = (ESIRawConnection) obj;
+		ESIConnection o = (ESIConnection) obj;
 		return (refreshToken == null && o.refreshToken == null
 				|| refreshToken != null && refreshToken.equals(o.refreshToken))
 				&& (basicAuth == null && o.basicAuth == null || basicAuth != null && basicAuth.equals(o.basicAuth));

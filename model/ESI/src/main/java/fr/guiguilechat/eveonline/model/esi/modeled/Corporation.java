@@ -6,14 +6,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_industry_jobs;
 
 public class Corporation {
 
-	protected final ESIConnection con;
+	protected final ESIAccount con;
 
-	public Corporation(ESIConnection con) {
+	public Corporation(ESIAccount con) {
 		this.con = con;
 	}
 

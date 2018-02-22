@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.api.esi;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.ESITools;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.SSODevKey;
@@ -39,7 +39,7 @@ public class ESIDevPane extends BorderPane implements EvePane {
 	public ESIDevPane(Manager parent) {
 		this.parent = parent;
 		ObservableList<String> items = FXCollections.observableArrayList(parent.ssoDev2Clients.keySet());
-		parent.ssoDev2Clients.addListener((MapChangeListener<String, ObservableList<ESIConnection>>) change -> {
+		parent.ssoDev2Clients.addListener((MapChangeListener<String, ObservableList<ESIAccount>>) change -> {
 			if (change.wasAdded()) {
 				items.add(change.getKey());
 			}

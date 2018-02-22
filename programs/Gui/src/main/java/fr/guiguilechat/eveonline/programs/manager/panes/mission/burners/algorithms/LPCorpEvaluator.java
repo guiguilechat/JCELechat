@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
@@ -101,7 +101,7 @@ public class LPCorpEvaluator {
 	}
 
 	public LPCorpEvaluator withMarket(String region) {
-		market = ESIConnection.DISCONNECTED.markets.getMarket(Region.load().get(region).id);
+		market = ESIAccount.DISCONNECTED.markets.getMarket(Region.load().get(region).id);
 		cachedLists.clear();
 		return this;
 	}
@@ -189,7 +189,7 @@ public class LPCorpEvaluator {
 		if (prodSO == Double.POSITIVE_INFINITY) {
 			prodSO = 0;
 		}
-		double prodAVG = ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(o.product.item).id)
+		double prodAVG = ESIAccount.DISCONNECTED.markets.getAverage(MetaInf.getItem(o.product.item).id)
 				* o.product.quantity * mult
 				* (100.0 - saleTax) / 100;
 
@@ -205,7 +205,7 @@ public class LPCorpEvaluator {
 		double reqAVG = o.requirements.isk * mult;
 		reqAVG += o.requirements.items.parallelStream()
 				.mapToDouble(
-						rq -> ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(rq.item).id) * rq.quantity * mult)
+						rq -> ESIAccount.DISCONNECTED.markets.getAverage(MetaInf.getItem(rq.item).id) * rq.quantity * mult)
 				.sum();
 
 		ret.iskPerLPSOBO = (prodBO - reqSO) / o.requirements.lp / mult;

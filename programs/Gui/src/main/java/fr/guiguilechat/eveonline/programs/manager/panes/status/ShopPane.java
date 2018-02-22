@@ -5,7 +5,7 @@ import java.util.Map.Entry;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -81,7 +81,7 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 			Button button = new Button("open market");
 			button.setOnAction(action -> {
 				if (!parent.settings.shopper().isEmpty()) {
-					ESIConnection shopper = parent.ssoChar2Con.get(parent.settings.shopper().iterator().next());
+					ESIAccount shopper = parent.ssoChar2Con.get(parent.settings.shopper().iterator().next());
 					shopper.raw.post_ui_openwindow_marketdetails(MetaInf.getItem(ed.getValue().getKey()).id, null);
 				}
 			});
@@ -91,7 +91,7 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 
 		TableColumn<Entry<String, Integer>, Double> priceCol = new TableColumn<>("price");
 		priceCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(
-				ESIConnection.DISCONNECTED.markets.getAverage(MetaInf.getItem(ed.getValue().getKey()).id)
+				ESIAccount.DISCONNECTED.markets.getAverage(MetaInf.getItem(ed.getValue().getKey()).id)
 				* ed.getValue().getValue()));
 		priceCol.setCellFactory(e -> new TableCell<Entry<String, Integer>, Double>() {
 			@Override

@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
 import javafx.collections.FXCollections;
@@ -15,9 +15,9 @@ import javafx.collections.ObservableList;
 
 public class Character {
 
-	protected final ESIConnection con;
+	protected final ESIAccount con;
 
-	public Character(ESIConnection con) {
+	public Character(ESIAccount con) {
 		this.con = con;
 	}
 
@@ -80,7 +80,15 @@ public class Character {
 
 	ObservableList<R_get_characters_character_id_industry_jobs> jobsCache = FXCollections.observableArrayList();
 
-	public ObservableList<R_get_characters_character_id_industry_jobs> jobs() {
+	/**
+	 * fetch the list of industry jobs for this character. If the cache delay is
+	 * not expired, uses the cached version.
+	 * 
+	 * @return the internal cache of the jobs for this character. successive calls
+	 *         will return the same value.
+	 *
+	 */
+	public ObservableList<R_get_characters_character_id_industry_jobs> getIndustryJobs() {
 		if (System.currentTimeMillis() >= jobsCacheEnd) {
 			ArrayList<R_get_characters_character_id_industry_jobs> ret = new ArrayList<>();
 			int maxPage = 1;
@@ -94,8 +102,8 @@ public class Character {
 				}
 				jobsCacheEnd = Math.min(jobsCacheEnd,
 						System.currentTimeMillis()
-						+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIConnection.formatter).toEpochSecond()
-						- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIConnection.formatter).toEpochSecond());
+						+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
+						- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond());
 			}
 			jobsCache.clear();
 			jobsCache.addAll(ret);

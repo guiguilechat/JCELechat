@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.programs.manager.panes.api.esi;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.ESITools;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.Settings.SSODevKey;
@@ -31,14 +31,14 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		return parent;
 	}
 
-	protected final TableView<ESIConnection> table = new TableView<>();
+	protected final TableView<ESIAccount> table = new TableView<>();
 
 	protected final GridPane addPane = new GridPane();
 
 	public ESICharsPane(Manager parent) {
 		this.parent = parent;
-		ObservableList<ESIConnection> lCons = FXCollections.observableArrayList(parent.ssoChar2Con.values());
-		parent.ssoChar2Con.addListener((MapChangeListener<String, ESIConnection>) change -> {
+		ObservableList<ESIAccount> lCons = FXCollections.observableArrayList(parent.ssoChar2Con.values());
+		parent.ssoChar2Con.addListener((MapChangeListener<String, ESIAccount>) change -> {
 			if (change.wasAdded()) {
 				lCons.add(change.getValueAdded());
 			}
@@ -48,11 +48,11 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		});
 		table.setItems(lCons);
 
-		TableColumn<ESIConnection, String> nameCol = new TableColumn<>("character");
+		TableColumn<ESIAccount, String> nameCol = new TableColumn<>("character");
 		nameCol.setCellValueFactory(co -> new ReadOnlyObjectWrapper<>(co.getValue().verify.characterName()));
 		table.getColumns().add(nameCol);
 
-		TableColumn<ESIConnection, VBox> shopCol = new TableColumn<>("options");
+		TableColumn<ESIAccount, VBox> shopCol = new TableColumn<>("options");
 		shopCol.setCellValueFactory(ed -> {
 			String name = ed.getValue().verify.characterName();
 			CheckBox shopper = new CheckBox("shopper");
@@ -91,7 +91,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 
 		table.getColumns().add(shopCol);
 
-		TableColumn<ESIConnection, Button> delCol = new TableColumn<>("");
+		TableColumn<ESIAccount, Button> delCol = new TableColumn<>("");
 		delCol.setCellValueFactory(ed -> {
 			Button delBtn = new Button("remove");
 			delBtn.setOnAction(ev -> parent.delSSOClient(ed.getValue()));
@@ -102,7 +102,7 @@ public class ESICharsPane extends BorderPane implements EvePane {
 		setCenter(table);
 
 		ObservableList<String> devNames = FXCollections.observableArrayList(parent.ssoDev2Clients.keySet());
-		parent.ssoDev2Clients.addListener((MapChangeListener<String, ObservableList<ESIConnection>>) change -> {
+		parent.ssoDev2Clients.addListener((MapChangeListener<String, ObservableList<ESIAccount>>) change -> {
 			if (change.wasAdded()) {
 				devNames.add(change.getKey());
 			}

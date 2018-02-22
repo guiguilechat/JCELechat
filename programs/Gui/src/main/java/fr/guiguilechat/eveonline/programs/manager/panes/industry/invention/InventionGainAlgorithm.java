@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
@@ -98,15 +98,15 @@ public class InventionGainAlgorithm {
 			Map<String, Integer> skills, InventionParams params, RegionalMarket market) {
 
 		SolarSystem copySys = params.copySystem == null ? null : SolarSystem.load().get(params.copySystem);
-		float copyIndex = copySys == null ? 0 : ESIConnection.DISCONNECTED.industry.getSystemIndices(copySys.id).copying;
+		float copyIndex = copySys == null ? 0 : ESIAccount.DISCONNECTED.industry.getSystemIndices(copySys.id).copying;
 
 		SolarSystem inventSys = params.inventSystem == null ? null : SolarSystem.load().get(params.inventSystem);
 		float inventIndex = inventSys == null ? 0
-				: ESIConnection.DISCONNECTED.industry.getSystemIndices(inventSys.id).invention;
+				: ESIAccount.DISCONNECTED.industry.getSystemIndices(inventSys.id).invention;
 
 		SolarSystem manufSys = params.manufSystem == null ? null : SolarSystem.load().get(params.manufSystem);
 		float manufIndex = manufSys == null ? 0
-				: ESIConnection.DISCONNECTED.industry.getSystemIndices(manufSys.id).manufacturing;
+				: ESIAccount.DISCONNECTED.industry.getSystemIndices(manufSys.id).manufacturing;
 
 		// the bpc selected
 		Blueprint bpc = Blueprint.load().get(selectedbpc.name);
@@ -123,7 +123,7 @@ public class InventionGainAlgorithm {
 		double copyEIV = bpo.manufacturing == null || bpo.manufacturing.materials == null ? 0
 				: bpo.manufacturing.materials.parallelStream()
 				.mapToDouble(
-						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
+						mat -> mat.quantity * ESIAccount.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
 
 		// Estimated Item Value of the bpc. when manufacturing, used as a base for
@@ -131,7 +131,7 @@ public class InventionGainAlgorithm {
 		double manufEIV = bpc.manufacturing == null || bpc.manufacturing.materials == null ? 0
 				: bpc.manufacturing.materials.parallelStream()
 				.mapToDouble(
-						mat -> mat.quantity * ESIConnection.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
+						mat -> mat.quantity * ESIAccount.DISCONNECTED.markets.getAdjusted(MetaInf.getItem(mat.name).id))
 				.sum();
 
 		double inventEIV = manufEIV;

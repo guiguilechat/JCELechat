@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.programs.manager.panes.apikeys;
 import java.util.regex.Pattern;
 
 import fr.guiguilechat.eveonline.model.esi.ESITools;
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.programs.manager.DataHandler;
 import fr.guiguilechat.eveonline.programs.manager.MPane;
 import javafx.application.Platform;
@@ -132,7 +132,7 @@ public class SSOCreationPane extends Accordion implements MPane {
 		String base = baseField.getText();
 		String refresh = refreshTokenField.getText();
 		if (base != null && refresh != null) {
-			String charName = new ESIRawConnection(base, refresh).verify().CharacterName;
+			String charName = new ESIConnection(base, refresh).verify().CharacterName;
 			Platform.runLater(() -> characterName.setText(charName));
 		} else {
 			characterName.setText("invalid refresh/base");

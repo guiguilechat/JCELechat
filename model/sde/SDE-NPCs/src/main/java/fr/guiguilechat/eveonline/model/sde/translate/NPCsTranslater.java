@@ -12,8 +12,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.Tools;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.direct.ESIRawConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCDivisions;
@@ -82,7 +82,7 @@ public class NPCsTranslater {
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,Map<Integer, String>divisionTypes,
 			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations,
 			LinkedHashMap<Integer, LPOffer> offers) {
-		ESIConnection esi = new ESIConnection(null, null);
+		ESIAccount esi = new ESIAccount(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
 		Map<Integer, R_get_corporations_corporation_id> corpNames = IntStream.of(esi.raw.get_corporations_npccorps(null))
@@ -170,7 +170,7 @@ public class NPCsTranslater {
 		return lpo;
 	}
 
-	protected static void loadCorpOffers(Corporation c, ESIRawConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
+	protected static void loadCorpOffers(Corporation c, ESIConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
 		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id, null);
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {

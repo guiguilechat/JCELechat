@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket.CachedOrdersList;
 import is.ccp.tech.esi.Swagger.order_type;
 import is.ccp.tech.esi.responses.R_get_markets_prices;
@@ -67,8 +67,8 @@ public class Markets {
 					}
 					cacheEnd = Math.min(cacheEnd,
 							System.currentTimeMillis()
-							+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIConnection.formatter).toEpochSecond()
-							- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIConnection.formatter).toEpochSecond());
+							+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
+							- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond());
 				}
 				Collections.sort(nbo, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 				Collections.sort(nso, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
@@ -204,9 +204,9 @@ public class Markets {
 
 	}
 
-	protected final ESIConnection esiConnection;
+	protected final ESIAccount esiConnection;
 
-	public Markets(ESIConnection esiConnection) {
+	public Markets(ESIAccount esiConnection) {
 		this.esiConnection = esiConnection;
 	}
 
@@ -254,7 +254,7 @@ public class Markets {
 				}
 				HashMap<Integer, Double> fcachedAverage = new HashMap<>();
 				HashMap<Integer, Double> fcachedAdjusted = new HashMap<>();
-				for (R_get_markets_prices p : ESIConnection.DISCONNECTED.raw.get_markets_prices(null)) {
+				for (R_get_markets_prices p : ESIAccount.DISCONNECTED.raw.get_markets_prices(null)) {
 					int id = p.type_id;
 					fcachedAverage.put(id, p.average_price);
 					fcachedAdjusted.put(id, p.adjusted_price);

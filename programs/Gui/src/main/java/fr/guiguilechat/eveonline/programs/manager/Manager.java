@@ -21,7 +21,7 @@ import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
 import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
 import fr.guiguilechat.eveonline.model.apiv2.Char.Content;
 import fr.guiguilechat.eveonline.model.apiv2.Char.OrderEntry;
-import fr.guiguilechat.eveonline.model.esi.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
@@ -84,8 +84,8 @@ public class Manager extends Application implements EvePane {
 	public Settings settings = ISettings.load(Settings.class);
 
 	public final ObservableList<APIRoot> apiXMLV2 = FXCollections.observableArrayList();
-	public final ObservableMap<String, ObservableList<ESIConnection>> ssoDev2Clients = FXCollections.observableHashMap();
-	public final ObservableMap<String, ESIConnection> ssoChar2Con = FXCollections.observableHashMap();
+	public final ObservableMap<String, ObservableList<ESIAccount>> ssoDev2Clients = FXCollections.observableHashMap();
+	public final ObservableMap<String, ESIAccount> ssoChar2Con = FXCollections.observableHashMap();
 
 	protected BorderPane mainLayout = new BorderPane();
 
@@ -159,9 +159,9 @@ public class Manager extends Application implements EvePane {
 		for (Entry<String, SSODevKey> e : settings.ssoKeys().entrySet()) {
 			String name = e.getKey();
 			SSODevKey key = e.getValue();
-			ObservableList<ESIConnection> list = FXCollections.observableArrayList();
+			ObservableList<ESIAccount> list = FXCollections.observableArrayList();
 			for (Entry<String, String> a : key.character2Refresh.entrySet()) {
-				ESIConnection con = new ESIConnection(a.getValue(), key.base64);
+				ESIAccount con = new ESIAccount(a.getValue(), key.base64);
 				list.add(con);
 				ssoChar2Con.put(con.verify.characterName(), con);
 			}
@@ -295,12 +295,12 @@ public class Manager extends Application implements EvePane {
 			debug("refresh token already accepted");
 			return;
 		}
-		ESIConnection con = new ESIConnection(refreshToken, devkey.base64);
+		ESIAccount con = new ESIAccount(refreshToken, devkey.base64);
 		debug("received refresh for user " + con.verify.characterName());
 		devkey.character2Refresh.put(con.verify.characterName(), refreshToken);
 		settings.store();
 		ssoChar2Con.put(con.verify.characterName(), con);
-		ObservableList<ESIConnection> keylist = ssoDev2Clients.get(devName);
+		ObservableList<ESIAccount> keylist = ssoDev2Clients.get(devName);
 		if (keylist == null) {
 			keylist = FXCollections.observableArrayList();
 			ssoDev2Clients.put(devName, keylist);
@@ -309,14 +309,14 @@ public class Manager extends Application implements EvePane {
 		debug("added user connection " + con.verify.characterName());
 	}
 
-	public void delSSOClient(ESIConnection con) {
+	public void delSSOClient(ESIAccount con) {
 		String name = con.verify.characterName();
 		for (SSODevKey dev : settings.ssoKeys().values()) {
 			dev.character2Refresh.remove(name);
 		}
 		settings.store();
 		ssoChar2Con.remove(name);
-		for (ObservableList<ESIConnection> dc : ssoDev2Clients.values()) {
+		for (ObservableList<ESIAccount> dc : ssoDev2Clients.values()) {
 			dc.remove(con);
 		}
 	}
