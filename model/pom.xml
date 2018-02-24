@@ -9,7 +9,8 @@
 		<module>ESI</module>
 		<module>APIv2</module>
 		<module>ESI-compiler</module>
-	</modules>
+        <module>zkb</module>
+    </modules>
 	<artifactId>model</artifactId>
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
