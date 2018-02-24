@@ -10,7 +10,6 @@ import java.util.TimeZone;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.modeled.PI.ColonyInfo;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -127,13 +126,16 @@ public class PIPane extends BorderPane implements EvePane {
 		table.getItems().clear();
 		for (Entry<String, ESIAccount> acc : parent.ssoChar2Con.entrySet()) {
 			if (parent.settings.planets().contains(acc.getKey())) {
-				for (ColonyInfo pl : acc.getValue().pi.getPlanets().values()) {
+
+				acc.getValue().pi.getPlanets().values().parallelStream().forEach(pl->{
 					Date firstExtractor = null;
 					for (R_get_characters_character_id_planets_planet_id_pins pin : pl.pins) {
 						if (pin.expiry_time != null) {
 							Date extractordate;
 							try {
-								extractordate = sdf.parse(pin.expiry_time);
+								synchronized (sdf) {
+									extractordate = sdf.parse(pin.expiry_time);
+								}
 							} catch (ParseException e) {
 								throw new UnsupportedOperationException("catch this", e);
 							}
@@ -152,7 +154,7 @@ public class PIPane extends BorderPane implements EvePane {
 							table.getItems().add(pid);
 						}
 					}
-				}
+				});
 			}
 		}
 		table.sort();
