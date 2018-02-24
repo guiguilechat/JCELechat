@@ -13,12 +13,12 @@ import java.util.stream.IntStream;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 
-import fr.guiguilechat.eveonline.model.esi.connect.ConnectedCall;
 import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.connect.ESIRawConnection;
 
-public class Character extends ConnectedCall {
+public class Character extends ESIConnection {
 
-	public Character(ESIConnection connection) {
+	public Character(ESIRawConnection connection) {
 		super(connection);
 	}
 
@@ -92,7 +92,7 @@ public class Character extends ConnectedCall {
 		String transmit = IntStream.of(ids).distinct().mapToObj(Integer::toString)
 				.collect(Collectors.joining(",", "[", "]"));
 		return affiliationReader.readValue(
-				ESIConnection.connect("https://esi.tech.ccp.is/latest/characters/affiliation/", "POST", null, transmit));
+				ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/affiliation/", "POST", null, transmit));
 	}
 
 	// character public infos
@@ -110,7 +110,7 @@ public class Character extends ConnectedCall {
 
 	public static CharacterInformations character(int id) throws IOException {
 		return characterIDReader
-				.readValue(ESIConnection.connect("https://esi.tech.ccp.is/latest/characters/" + id + "/", "GET", null, null));
+				.readValue(ESIRawConnection.connect("https://esi.tech.ccp.is/latest/characters/" + id + "/", "GET", null, null));
 	}
 
 }

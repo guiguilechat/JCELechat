@@ -59,9 +59,9 @@ import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.NPCStation;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Planet;
 import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
-import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_ok;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_ok;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_ok_required_items;
+import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
+import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 
 /** load SDE, convert it into db, store the db, and allow to load it. */
 public class SDEDumper {
@@ -807,8 +807,8 @@ public class SDEDumper {
 	}
 
 	protected static Stream<LPOffer> streamoffers(long corpid, ESIRaw esi, SDEData sde) {
-		R_get_corporations_corporation_id_ok corp = esi.get_corporations_corporation_id(corpid);
-		R_get_loyalty_stores_corporation_id_offers_ok[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid);
+		R_get_corporations_corporation_id corp = esi.get_corporations_corporation_id(corpid);
+		R_get_loyalty_stores_corporation_id_offers[] offers = esi.get_loyalty_stores_corporation_id_offers(corpid);
 		return corp != null && offers != null ? Stream.of(offers).map(o -> {
 			LPOffer lpo = new LPOffer();
 			if (corp.name == null) {
@@ -820,7 +820,7 @@ public class SDEDumper {
 			lpo.offer_name = sde.getType((int) o.type_id).enName();
 			lpo.id = (int) o.offer_id;
 
-			for (R_get_loyalty_stores_corporation_id_offers_ok_required_items ir : o.required_items) {
+			for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
 				ItemRef translated = new ItemRef();
 				translated.quantity = (int) ir.quantity;
 				translated.type_id = (int) ir.type_id;
@@ -849,7 +849,7 @@ public class SDEDumper {
 
 	public static void loadAgents(SDEData sde, DatabaseFile db, ESIRaw esi,
 			ESIUniverse uni) {
-		Map<Long, R_get_corporations_corporation_id_ok> corps = LongStream.of(esi.get_corporations_npccorps()).parallel()
+		Map<Long, R_get_corporations_corporation_id> corps = LongStream.of(esi.get_corporations_npccorps()).parallel()
 				.mapToObj(l -> l).collect(Collectors.toMap(l -> l, esi::get_corporations_corporation_id));
 
 		ArrayList<EagtAgents> sdeAgents = sde.getAgents();
@@ -866,7 +866,7 @@ public class SDEDumper {
 			Agent ag = new Agent();
 			ag.agentID = ea.agentID;
 			ag.name = names.get(ag.agentID);
-			R_get_corporations_corporation_id_ok corp = corps.get((long) ea.corporationID);
+			R_get_corporations_corporation_id corp = corps.get((long) ea.corporationID);
 			ag.corporation = corp.name;
 			ag.isLocator = ea.isLocator;
 			ag.level = ea.level;

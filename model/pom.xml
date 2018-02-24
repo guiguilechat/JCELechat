@@ -5,7 +5,7 @@
 
 	<modules>
 		<module>Database</module>
-		<module>SDE</module>
+		<module>SDE-compiler</module>
 		<module>ESI</module>
 		<module>APIv2</module>
 		<module>ESI-compiler</module>
