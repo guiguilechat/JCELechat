@@ -8,6 +8,7 @@ import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Names;
+import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
 
 /**
@@ -28,6 +29,7 @@ public class ESIAccount {
 		names = new Names(raw);
 		markets = new Markets(this);
 		industry = new Industry(this);
+		pi = new PI(this);
 	}
 
 	public ESIAccount(String refresh, String base) {
@@ -49,6 +51,8 @@ public class ESIAccount {
 	public final Markets markets;
 
 	public final Industry industry;
+
+	public final PI pi;
 
 	public int characterId() {
 		return verify.characterID();
