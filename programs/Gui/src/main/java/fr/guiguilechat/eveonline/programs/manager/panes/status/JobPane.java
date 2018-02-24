@@ -90,6 +90,7 @@ public class JobPane extends BorderPane implements EvePane {
 		this.parent = parent;
 		setTop(new TitledPane("scheduled", schedule));
 		setCenter(table);
+
 		TableColumn<JobData, Date> dateCol = new TableColumn<>("date");
 		dateCol.setCellValueFactory(ed -> new ReadOnlyObjectWrapper<>(ed.getValue().time));
 		DateFormat df = new SimpleDateFormat("dd/MM HH:mm:ss");

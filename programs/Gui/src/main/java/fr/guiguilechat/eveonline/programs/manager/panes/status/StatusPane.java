@@ -27,6 +27,7 @@ public class StatusPane extends BorderPane implements EvePane {
 	protected JobPane jobpane;
 	protected ProvisionPane provisionpane;
 	protected ShopPane shoppane;
+	protected PIPane pipane;
 	TabPane tabs = new TabPane();
 
 	protected EvePane[] children;
@@ -42,12 +43,11 @@ public class StatusPane extends BorderPane implements EvePane {
 		jobpane = new JobPane(parent);
 		shoppane = new ShopPane(parent);
 		provisionpane = new ProvisionPane(parent);
-		children = new EvePane[] { jobpane, shoppane, provisionpane };
+		pipane = new PIPane(parent);
+		children = new EvePane[] { jobpane, shoppane, provisionpane, pipane };
 
-		Tab tjobs = new Tab("jobs", jobpane);
-		Tab tshop = new Tab("shop", shoppane);
-		Tab tprovision = new Tab("provision", provisionpane);
-		tabs = new TabPane(tjobs, tshop, tprovision);
+		tabs = new TabPane(new Tab("jobs", jobpane), new Tab("shop", shoppane), new Tab("provision", provisionpane),
+				new Tab("pi", pipane));
 		tabs.setTabClosingPolicy(TabClosingPolicy.UNAVAILABLE);
 		tabs.getSelectionModel().selectedItemProperty().addListener((o, old, now) -> {
 			if (old != null) {
@@ -59,7 +59,6 @@ public class StatusPane extends BorderPane implements EvePane {
 		});
 
 		setCenter(tabs);
-		// getChildren().addAll(selectTeamPane, tpjobs, tpprovi);
 	}
 
 	@Override
