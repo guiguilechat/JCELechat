@@ -6,7 +6,7 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
 
 public class EdgmTypeAttributesTest {
 

@@ -11,20 +11,12 @@ import java.util.Set;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgentTypes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
-import fr.guiguilechat.eveonline.model.sde.bsd.EcrpNPCDivisions;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmAttributeTypes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmEffects;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.model.sde.bsd.EstaStations;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.BPActivities.Activity;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.model.sde.fsd.EcategoryIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
+
+import fr.guiguilechat.eveonline.model.sde.load.bsd.*;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import fr.guiguilechat.eveonline.model.sde.model.InventionDecryptor;
 
@@ -254,14 +246,14 @@ public class SDEData {
 		if (cachedUsages == null) {
 			cachedUsages = new HashMap<>();
 			for (Eblueprints bp : getBlueprints().values()) {
-				for (Activity act : new Activity[] {
+				for (Eblueprints.BPActivities.Activity act : new Eblueprints.BPActivities.Activity[] {
 						bp.activities.copying,
 						bp.activities.invention,
 						bp.activities.manufacturing }) {
-					for (Material m : act.materials) {
+					for (Eblueprints.Material m : act.materials) {
 						getCreateUsages(m.typeID).asMaterial.add(bp);
 					}
-					for (Material m : act.products) {
+					for (Eblueprints.Material m : act.products) {
 						getCreateUsages(m.typeID).asProduct.add(bp);
 					}
 				}

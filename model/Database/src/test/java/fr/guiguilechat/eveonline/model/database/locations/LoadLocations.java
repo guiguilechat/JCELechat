@@ -11,7 +11,8 @@ public class LoadLocations {
 		SDEData sde = new SDEData();
 		DatabaseFile db = new DatabaseFile();
 
-		SDEDumper.loadLocations(sde, db);
+		SDEDumper.loadKSpace(sde, db);
+		SDEDumper.loadWSpace(sde, db);
 	}
 
 }

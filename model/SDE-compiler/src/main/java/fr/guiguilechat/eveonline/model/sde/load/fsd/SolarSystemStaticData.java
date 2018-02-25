@@ -26,6 +26,7 @@ public class SolarSystemStaticData {
 	public boolean regional;
 
 	public ArrayList<String> disallowedAnchorCategories = new ArrayList<>();
+	public ArrayList<String> disallowedAnchorGroups = new ArrayList<>();
 
 	public static class Planet {
 		public int typeID, celestialIndex, radius;
@@ -82,6 +83,8 @@ public class SolarSystemStaticData {
 
 	public LinkedHashMap<Long, Planet> planets = new LinkedHashMap<>();
 	public Object star;
+	public Object secondarySun;
+	public String visualEffect;
 	public int sunTypeID;
 	public LinkedHashMap<Integer, Stargate> stargates = new LinkedHashMap<>();
 

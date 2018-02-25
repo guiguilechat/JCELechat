@@ -27,7 +27,6 @@ import fr.guiguilechat.eveonline.model.database.retrieval.sde.cache.SDEData;
 import fr.guiguilechat.eveonline.model.database.yaml.Agent;
 import fr.guiguilechat.eveonline.model.database.yaml.Asteroid;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint;
-import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill;
 import fr.guiguilechat.eveonline.model.database.yaml.DatabaseFile;
 import fr.guiguilechat.eveonline.model.database.yaml.Hull;
@@ -42,22 +41,22 @@ import fr.guiguilechat.eveonline.model.database.yaml.YamlDatabase;
 import fr.guiguilechat.eveonline.model.esi.raw.Character;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIRaw;
 import fr.guiguilechat.eveonline.model.esi.raw.ESIUniverse;
-import fr.guiguilechat.eveonline.model.sde.bsd.EagtAgents;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeAttributes;
-import fr.guiguilechat.eveonline.model.sde.bsd.EdgmTypeEffects;
-import fr.guiguilechat.eveonline.model.sde.bsd.EstaStations;
-import fr.guiguilechat.eveonline.model.sde.cache.SDECache;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints;
-import fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Material;
-import fr.guiguilechat.eveonline.model.sde.fsd.EcategoryIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EgroupIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.EtypeIDs;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.AsteroidBelt;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Moon;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.NPCStation;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Planet;
-import fr.guiguilechat.eveonline.model.sde.fsd.SolarSystemStaticData.Stargate;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeAttributes;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EdgmTypeEffects;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaStations;
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.EtypeIDs;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.AsteroidBelt;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Moon;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.NPCStation;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Planet;
+import fr.guiguilechat.eveonline.model.sde.load.fsd.SolarSystemStaticData.Stargate;
 import fr.guiguilechat.eveonline.model.sde.model.IndustryUsages;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
 import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
@@ -206,8 +205,11 @@ public class SDEDumper {
 		logger.info("loading blueprints");
 		loadBlueprints(sde, db);
 
-		logger.info("loading locations");
-		loadLocations(sde, db);
+		logger.info("loading W-space locations");
+		loadWSpace(sde, db);
+
+		logger.info("loading K-space locations");
+		loadKSpace(sde, db);
 
 		logger.info("loading stations");
 		loadStations(sde, db);
@@ -529,9 +531,9 @@ public class SDEDumper {
 		}
 	}
 
-	public static Activity convertEblueprint(fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.BPActivities.Activity activity,
-			SDEData sde) {
-		Activity ret = new Activity();
+	public static Blueprint.Activity convertEblueprint(Eblueprints.BPActivities.Activity activity,
+													   SDEData sde) {
+		Blueprint.Activity ret = new Blueprint.Activity();
 		ret.time = activity.time;
 		activity.materials.stream().map(m -> convertMaterial(m, sde)).forEach(ret.materials::add);
 		activity.products.stream().map(p -> convertMaterial(p, sde)).forEach(ret.products::add);
@@ -550,7 +552,7 @@ public class SDEDumper {
 	}
 
 	public static fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill convertSkill(
-			fr.guiguilechat.eveonline.model.sde.fsd.Eblueprints.Skill skill, SDEData sde) {
+			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Skill skill, SDEData sde) {
 		fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Skill ret = new Skill();
 		ret.level = skill.level;
 		ret.name = sde.getType(skill.typeID).enName();
@@ -558,8 +560,16 @@ public class SDEDumper {
 		return ret;
 	}
 
-	public static void loadLocations(SDEData sde, DatabaseFile db) {
-		File mainFolder = new File(SDECache.INSTANCE.checkDir(), "fsd/universe/eve");
+	public static void loadKSpace(SDEData sde, DatabaseFile db){
+		loadLocations(sde, db, "fsd/universe/eve");
+	}
+
+	public static void loadWSpace(SDEData sde, DatabaseFile db){
+		loadLocations(sde, db, "fsd/universe/wormhole");
+	}
+
+	public static void loadLocations(SDEData sde, DatabaseFile db, String folderPathe) {
+		File mainFolder = new File(SDECache.INSTANCE.checkDir(), folderPathe);
 		if (!mainFolder.isDirectory()) {
 			System.err.println("can't create locations, folder not found " + mainFolder);
 			return;
@@ -701,34 +711,41 @@ public class SDEDumper {
 			}
 		}
 
-		// we use the adjacent systems for regions/constel/systems, to map them to
-		// their names
-		for (Entry<String, Location> e : db.locations.entrySet()) {
-			String name = e.getKey();
-			Location l = e.getValue();
-			HashSet<String> systems = new HashSet<>();
-			HashSet<String> constels = new HashSet<>();
-			HashSet<String> regions = new HashSet<>();
-			for (Integer gateId : links.get(name)) {
-				Location destSys = gate2system.get(gateId);
-				// if we go in the same region/constel, just skip that stargate
-				if (l.getLocationType() == 1 && destSys.parentRegion.equals(name)
-						|| l.getLocationType() == 2 && destSys.parentConstellation.equals(name)) {
-					continue;
-				}
-				systems.add(destSys.name);
-				if (l.getLocationType() != 3 || !destSys.parentConstellation.equals(l.parentConstellation)) {
-					constels.add(destSys.parentConstellation);
-					if (l.getLocationType() != 3 || !destSys.parentRegion.equals(l.parentRegion)) {
+
+        // we use the adjacent systems for regions/constel/systems, to map them to
+        // their names. Exclude J-space and experimental systems (e.g. Thera)
+        Set<Map.Entry<String, Location>> kspace = db.locations.entrySet().stream()
+                .parallel().filter(loc -> !loc.getKey().matches("^J[\\d]{6}$"))
+                .collect(Collectors.toSet());
+        for (Entry<String, Location> e : kspace) {
+            String name = e.getKey();
+            Location l = e.getValue();
+            HashSet<String> systems = new HashSet<>();
+            HashSet<String> constels = new HashSet<>();
+            HashSet<String> regions = new HashSet<>();
+            final HashSet<Integer> gateIDs = links.get(name);
+            if (gateIDs != null) {
+                for (Integer gateId : gateIDs) {
+                    Location destSys = gate2system.get(gateId);
+                    // if we go in the same region/constel, just skip that stargate
+                    if (l.getLocationType() == 1 && destSys.parentRegion.equals(name)
+                            || l.getLocationType() == 2 && destSys.parentConstellation.equals(name)) {
+                        continue;
+                    }
+                    systems.add(destSys.name);
+                    if (l.getLocationType() != 3 || !destSys.parentConstellation.equals(l.parentConstellation)) {
+                        constels.add(destSys.parentConstellation);
+                        if (l.getLocationType() != 3 || !destSys.parentRegion.equals(l.parentRegion)) {
 						regions.add(destSys.parentRegion);
+					    }
 					}
 				}
-			}
-			l.adjacentSystems = systems.toArray(new String[] {});
-			l.adjacentConstels = constels.toArray(new String[] {});
-			l.adjacentRegions = regions.toArray(new String[] {});
+                l.adjacentSystems = systems.toArray(new String[]{});
+                l.adjacentConstels = constels.toArray(new String[]{});
+                l.adjacentRegions = regions.toArray(new String[]{});
 		}
 	}
+    }
 
 	public static void loadStations(SDEData sde, DatabaseFile db) {
 		Map<Integer, Location> locationsByID = db.locations.values().stream()
@@ -765,7 +782,7 @@ public class SDEDumper {
 		}
 		for (Entry<String, Blueprint> e : db.blueprints.entrySet()) {
 			Blueprint bp = e.getValue();
-			for (Activity act : new Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
+			for (Blueprint.Activity act : new Blueprint.Activity[] { bp.copying, bp.invention, bp.manufacturing, bp.research_material,
 					bp.research_time, bp.reaction }) {
 				for (fr.guiguilechat.eveonline.model.database.yaml.Blueprint.Material mat : act.products) {
 					MetaInf mi = db.metaInfs.get(mat.name);
