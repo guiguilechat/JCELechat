@@ -3,8 +3,6 @@ package com.okyk.eveonline.zkb;
 import com.google.gson.*;
 import com.okyk.eveonline.zkb.dto.KBObject;
 import com.okyk.eveonline.zkb.dto.KBStats;
-import fr.guiguilechat.eveonline.model.esi.connect.ESIConnection;
-
 
 import java.util.HashMap;
 
@@ -14,16 +12,25 @@ public class ZKB {
     private static final HashMap<String, Long> charIDCache = new HashMap<>();
 
     static KBObject[] parseZKBResponse(String json) {
-        final JsonArray asJsonArray = new JsonParser().parse(json).getAsJsonArray();
-        return new Gson().fromJson(asJsonArray, KBObject[].class);
+        try {
+            final JsonArray asJsonArray = new JsonParser().parse(json).getAsJsonArray();
+            return new Gson().fromJson(asJsonArray, KBObject[].class);
+        } catch (IllegalStateException e){
+            throw new IllegalStateException(json, e);
+        }
     }
 
     public static KBObject[] loadKB(ZKBFilter filter) {
-        return parseZKBResponse(zkbRequest(filter));
+        try {
+            return parseZKBResponse(zkbRequest(filter));
+        }catch (IllegalStateException e){
+            System.out.println(e.getLocalizedMessage()+"\n for filter"+filter.build());
+        }
+        return null;
     }
 
     private static String zkbRequest(ZKBFilter filter) {
-        return new ESIConnection(null, null).connectGet(filter.build(), false);
+        return HttpUtils.connectGet(filter.build(), false);
     }
 
     public static KBObject[] loadCharKB(long charID, Long timeLimit) {
@@ -31,12 +38,12 @@ public class ZKB {
         if (timeLimit > 0) {
             zkbFilter.modifier(ZKBFilter.PAST_SECONDS, timeLimit.toString());
         }
-        return parseZKBResponse(new ESIConnection(null, null).connectGet(zkbFilter.build(), false));
+        return parseZKBResponse(HttpUtils.connectGet(zkbFilter.build(), false));
     }
 
     public static KBStats loadStats(Long charID) {
         String statURL = new ZKBFilter(ZKBFilter.CHAR_ID, charID).setPrefix(ZKBFilter.STATS).build();
-        String json = new ESIConnection(null, null).connectGet(statURL, false);
+        String json = HttpUtils.connectGet(statURL, false);
         return parseStatResponse(json);
     }
 

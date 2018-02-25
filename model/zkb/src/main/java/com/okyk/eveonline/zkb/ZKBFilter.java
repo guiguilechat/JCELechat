@@ -25,7 +25,7 @@ public class ZKBFilter {
 
     private String prefix = "";
     private String entityType = "";
-    private HashSet<String> entityID = new HashSet<>();
+    private LinkedHashSet<String> entityID = new LinkedHashSet<>();
     private LinkedHashSet<String> modifier = new LinkedHashSet<>();
 
     public ZKBFilter(String entityType, Long... entityID) {
@@ -41,7 +41,7 @@ public class ZKBFilter {
     public ZKBFilter addEntityID(Long... entityID) {
         this.entityID.addAll(Arrays.stream(entityID)
                 .map(Object::toString)
-                .collect(Collectors.toSet()));
+                .collect(Collectors.toList()));
         return this;
     }
 
@@ -56,7 +56,7 @@ public class ZKBFilter {
             builder.append(prefix).append("/");
         }
         builder.append(entityType).append("/")
-                .append(entityID.stream().sorted().collect(Collectors.joining(","))).append("/");
+                .append(entityID.stream().collect(Collectors.joining(","))).append("/");
         if (!modifier.isEmpty()) {
             builder.append(modifier.stream().collect(Collectors.joining("/"))).append("/");
         }
