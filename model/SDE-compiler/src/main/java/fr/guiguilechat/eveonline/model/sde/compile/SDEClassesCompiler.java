@@ -116,21 +116,15 @@ public class SDEClassesCompiler {
 			int attId = attribute.attributeID;
 			int typeID = attribute.typeID;
 
-			int groupID = typeids.get(typeID).groupID;
-			HashSet<Integer> groupAttribute = groupAttributes.get(groupID);
-			if (groupAttribute == null) {
-				groupAttribute = new HashSet<>();
-				groupAttributes.put(groupID, groupAttribute);
+			final EtypeIDs typeAttribute = typeids.get(typeID);
+			if (typeAttribute != null) {
+				int groupID = typeAttribute.groupID;
+				final HashSet<Integer> groupAttribute = groupAttributes.computeIfAbsent(groupID, k -> new HashSet<>());
+				int catID = groupids.get(groupID).categoryID;
+				HashSet<Integer> catAttribute = catAttributes.computeIfAbsent(catID, k -> new HashSet<>());
+				catAttribute.add(attId);
+				groupAttribute.add(attId);
 			}
-			groupAttribute.add(attId);
-
-			int catID = groupids.get(groupID).categoryID;
-			HashSet<Integer> catAttribute = catAttributes.get(catID);
-			if (catAttribute == null) {
-				catAttribute = new HashSet<>();
-				catAttributes.put(catID, catAttribute);
-			}
-			catAttribute.add(attId);
 		}
 
 		// then for each cat we keep oly the attributes that are present in every
