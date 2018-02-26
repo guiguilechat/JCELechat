@@ -4,12 +4,10 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Map.Entry;
 import java.util.TimeZone;
 
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
 import fr.guiguilechat.eveonline.programs.manager.Manager;
 import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
@@ -24,6 +22,7 @@ import javafx.scene.layout.BorderPane;
 
 public class PIPane extends BorderPane implements EvePane {
 
+	@SuppressWarnings("unused")
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(PIPane.class);
 
 	public static class PIData {
@@ -124,9 +123,8 @@ public class PIPane extends BorderPane implements EvePane {
 
 	public void update() {
 		table.getItems().clear();
-		for (Entry<String, ESIAccount> acc : parent.ssoChar2Con.entrySet()) {
+		parent.ssoChar2Con.entrySet().parallelStream().forEach(acc -> {
 			if (parent.settings.planets().contains(acc.getKey())) {
-
 				acc.getValue().pi.getPlanets().values().parallelStream().forEach(pl->{
 					Date firstExtractor = null;
 					for (R_get_characters_character_id_planets_planet_id_pins pin : pl.pins) {
@@ -156,7 +154,7 @@ public class PIPane extends BorderPane implements EvePane {
 					}
 				});
 			}
-		}
+		});
 		table.sort();
 	}
 

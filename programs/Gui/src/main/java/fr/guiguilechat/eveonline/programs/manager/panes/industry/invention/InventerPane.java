@@ -19,7 +19,6 @@ import fr.guiguilechat.eveonline.programs.manager.panes.EvePane;
 import fr.guiguilechat.eveonline.programs.manager.panes.industry.invention.InventionGainAlgorithm.InventionProdData;
 import javafx.application.Platform;
 import javafx.beans.property.ReadOnlyObjectWrapper;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
 import javafx.scene.control.TableCell;
@@ -140,20 +139,6 @@ public class InventerPane extends BorderPane implements EvePane {
 		itemCostCol.setCellFactory(col -> new PriceCellFactory());
 		table.getColumns().add(itemCostCol);
 
-		// TableColumn<InventionProdData, Double> costSOCol = new
-		// TableColumn<>("inSO");
-		// costSOCol.setCellValueFactory(lo -> new
-		// ReadOnlyObjectWrapper<>(lo.getValue().cycleCostSO));
-		// costSOCol.setCellFactory(col -> new PriceCellFactory());
-		// table.getColumns().add(costSOCol);
-		//
-		// TableColumn<InventionProdData, Double> sellBOCol = new
-		// TableColumn<>("outBO");
-		// sellBOCol.setCellValueFactory(lo -> new
-		// ReadOnlyObjectWrapper<>(lo.getValue().cycleProductBO));
-		// sellBOCol.setCellFactory(col -> new PriceCellFactory());
-		// table.getColumns().add(sellBOCol);
-
 		TableColumn<InventionProdData, Double> volumeCol = new TableColumn<>("prod/cycle");
 		volumeCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().cycleAvgProd));
 		table.getColumns().add(volumeCol);
@@ -176,6 +161,7 @@ public class InventerPane extends BorderPane implements EvePane {
 		if (options.updateSettings()) {
 			parent().settings.store();
 		}
+		debug("start compute invention");
 		table.getItems().clear();
 		options.computeBtn.setDisable(true);
 		Task<Void> task = task();
@@ -188,13 +174,13 @@ public class InventerPane extends BorderPane implements EvePane {
 		return new Task<Void>() {
 			@Override
 			protected Void call() throws Exception {
+				ObservableList<InventionProdData> items = table.getItems();
 				EveChar cs = options.characterSkills.getBox().getValue();
 				Map<String, Integer> skills = cs == null ? new HashMap<>() : cs.skillsByName();
 				String nameLimit = options.bpPattern.getText();
 				Pattern nameMatcher = nameLimit == null || nameLimit.length() == 0 ? null
 						: Pattern.compile(".*" + nameLimit.toLowerCase() + ".*");
 
-				ObservableList<InventionProdData> list = FXCollections.observableArrayList();
 				List<Blueprint> bpos = blueprints(skills).collect(Collectors.toList());
 
 				RegionalMarket market = ESIAccount.DISCONNECTED.markets
@@ -204,13 +190,13 @@ public class InventerPane extends BorderPane implements EvePane {
 						.filter(nameMatcher == null ? mat -> true : mat -> nameMatcher.matcher(mat.name.toLowerCase()).matches())
 						.flatMap(mat -> InventionGainAlgorithm
 								.evalCostInventionProd(bpo, mat, skills, parent().settings.invention, market).stream()))
-				.forEachOrdered(e -> {
-					list.add(e);
-				});
+				.forEachOrdered(items::add);
+
 				Platform.runLater(() -> {
-					table.getItems().addAll(list);
 					table.sort();
 					options.computeBtn.setDisable(false);
+					debug("stop compute invention with cached " + market.nbBuyOrders() + " BO and " + market.nbSellOrders()
+					+ " SO");
 				});
 				return null;
 			}

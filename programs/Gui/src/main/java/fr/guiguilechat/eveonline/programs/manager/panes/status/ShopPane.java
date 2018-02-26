@@ -123,4 +123,11 @@ public class ShopPane extends TableView<Entry<String, Integer>> implements EvePa
 		parent.delShop(itemName);
 	}
 
+	@Override
+	public void onIsShown(boolean shown) {
+		if (shown) {
+			sort();
+		}
+	}
+
 }

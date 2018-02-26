@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket.CachedOrdersList;
 import is.ccp.tech.esi.Swagger.order_type;
 import is.ccp.tech.esi.responses.R_get_markets_prices;
 import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
@@ -30,108 +29,54 @@ public class Markets {
 		public class CachedOrdersList {
 
 			public final int typeID;
+			public final boolean buy;
 
 			private long cacheEnd = 0;
 
-			private ObservableList<R_get_markets_region_id_orders> buyOrders = FXCollections.observableArrayList();
-			private ObservableList<R_get_markets_region_id_orders> sellOrders = FXCollections.observableArrayList();
+			private ObservableList<R_get_markets_region_id_orders> orders = FXCollections.observableArrayList();
 
-			public CachedOrdersList(int order_type) {
+			public CachedOrdersList(int order_type, boolean buy) {
 				typeID = order_type;
+				this.buy = buy;
 			}
 
-			private synchronized void fetch() {
+			private synchronized void fetchPage() {
 				if (System.currentTimeMillis() <= cacheEnd) {
 					return;
 				}
-				ArrayList<R_get_markets_region_id_orders> nbo = new ArrayList<>();
-				ArrayList<R_get_markets_region_id_orders> nso = new ArrayList<>();
+				ArrayList<R_get_markets_region_id_orders> neworders = new ArrayList<>();
 				int maxPages = 1;
-				cacheEnd = Long.MAX_VALUE;
 				for (int page = 1; page <= maxPages; page++) {
 					Map<String, List<String>> headers = new HashMap<>();
-					R_get_markets_region_id_orders[] orders = esiConnection.raw.get_markets_region_id_orders(order_type.all, page,
-							regionID, typeID, headers);
+					R_get_markets_region_id_orders[] orders = esiConnection.raw
+							.get_markets_region_id_orders(buy ? order_type.buy : order_type.sell, page, regionID, typeID, headers);
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPages = pages == null ? 1 : Integer.parseInt(pages);
+						cacheEnd = System.currentTimeMillis()
+								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
+								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
 					}
 					for (R_get_markets_region_id_orders o : orders) {
 						if (o.min_volume == 1) {
-							if (o.is_buy_order) {
-								nbo.add(o);
-							} else {
-								nso.add(o);
-							}
-						}
-					}
-					cacheEnd = Math.min(cacheEnd,
-							System.currentTimeMillis()
-							+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-							- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond());
-				}
-				Collections.sort(nbo, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
-				Collections.sort(nso, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
-				buyOrders.setAll(nbo);
-				sellOrders.setAll(nso);
-			}
-
-			public ObservableList<R_get_markets_region_id_orders> getBuyOrders() {
-				fetch();
-				return buyOrders;
-			}
-
-			public ObservableList<R_get_markets_region_id_orders> getSellOrders() {
-				fetch();
-				return sellOrders;
-			}
-
-			private HashMap<Integer, ObservableDoubleValue> qttyBuyPrice = new HashMap<>();
-
-			/**
-			 * get a double value representing the total buy orders for qtty given
-			 * qtty. missing orders are represented with 0.
-			 *
-			 * @param qtty
-			 * @return
-			 */
-			public ObservableDoubleValue getBuyPrice(int qtty) {
-				ObservableDoubleValue ret = qttyBuyPrice.get(qtty);
-				if (ret == null) {
-					synchronized (qttyBuyPrice) {
-						if (qttyBuyPrice.get(qtty) == null) {
-							ret = new DoubleBinding() {
-								@Override
-								protected double computeValue() {
-									double sumCost = 0;
-									int qttyremain = qtty;
-									for (R_get_markets_region_id_orders r : getBuyOrders()) {
-										int qtty = Math.min(qttyremain, r.volume_remain);
-										sumCost += qtty * r.price;
-										qttyremain -= qtty;
-										if (qttyremain == 0) {
-											return sumCost;
-										}
-									}
-									return sumCost;
-								}
-
-								{
-									bind(getBuyOrders());
-								}
-							};
-							qttyBuyPrice.put(qtty, ret);
-						} else {
-							ret = qttyBuyPrice.get(qtty);
+							neworders.add(o);
 						}
 					}
 				}
-				return ret;
+				if (buy) {
+					Collections.sort(neworders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
+				} else {
+					Collections.sort(neworders, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
+				}
+				orders.setAll(neworders);
 			}
 
+			public ObservableList<R_get_markets_region_id_orders> listOrders() {
+				fetchPage();
+				return orders;
+			}
 
-
-			private HashMap<Integer, ObservableDoubleValue> qttySellPrice = new HashMap<>();
+			private HashMap<Integer, ObservableDoubleValue> qttyPrice = new HashMap<>();
 
 			/**
 			 * get a double value representing the total sell orders for qtty given
@@ -140,17 +85,17 @@ public class Markets {
 			 * @param qtty
 			 * @return
 			 */
-			public ObservableDoubleValue getSellPrice(int qtty) {
-				ObservableDoubleValue ret = qttySellPrice.get(qtty);
+			public ObservableDoubleValue getPrice(int qtty) {
+				ObservableDoubleValue ret = qttyPrice.get(qtty);
 				if (ret == null) {
-					synchronized (qttySellPrice) {
-						if (qttySellPrice.get(qtty) == null) {
+					synchronized (qttyPrice) {
+						if (qttyPrice.get(qtty) == null) {
 							ret = new DoubleBinding() {
 								@Override
 								protected double computeValue() {
 									double sumCost = 0;
 									int qttyremain = qtty;
-									for (R_get_markets_region_id_orders r : getSellOrders()) {
+									for (R_get_markets_region_id_orders r : listOrders()) {
 										int qtty = Math.min(qttyremain, r.volume_remain);
 										sumCost += qtty * r.price;
 										qttyremain -= qtty;
@@ -158,16 +103,16 @@ public class Markets {
 											return sumCost;
 										}
 									}
-									return Double.POSITIVE_INFINITY;
+									return buy ? sumCost : Double.POSITIVE_INFINITY;
 								}
 
 								{
-									bind(getSellOrders());
+									bind(listOrders());
 								}
 							};
-							qttySellPrice.put(qtty, ret);
+							qttyPrice.put(qtty, ret);
 						} else {
-							ret = qttySellPrice.get(qtty);
+							ret = qttyPrice.get(qtty);
 						}
 					}
 				}
@@ -177,29 +122,39 @@ public class Markets {
 		}
 
 		// typeid-> cached orders
-		private Map<Integer, CachedOrdersList> cachedOrders = new HashMap<>();
+		private Map<Integer, CachedOrdersList> cachedBuyOrders = new HashMap<>();
+		private Map<Integer, CachedOrdersList> cachedSellOrders = new HashMap<>();
 
-		public CachedOrdersList getOrders(int typeID) {
-			CachedOrdersList ret = cachedOrders.get(typeID);
+		public CachedOrdersList getMarketOrders(int typeID, boolean buy) {
+			Map<Integer, CachedOrdersList> cache = buy ? cachedBuyOrders : cachedSellOrders;
+			CachedOrdersList ret = cache.get(typeID);
 			if (ret == null) {
-				synchronized (cachedOrders) {
-					if (cachedOrders.get(typeID) == null) {
-						ret = new CachedOrdersList(typeID);
-						cachedOrders.put(typeID, ret);
+				synchronized (cache) {
+					if (cache.get(typeID) == null) {
+						ret = new CachedOrdersList(typeID, buy);
+						cache.put(typeID, ret);
 					} else {
-						ret = cachedOrders.get(typeID);
+						ret = cache.get(typeID);
 					}
 				}
 			}
 			return ret;
 		}
 
+		public int nbSellOrders() {
+			return cachedSellOrders.size();
+		}
+
+		public int nbBuyOrders() {
+			return cachedBuyOrders.size();
+		}
+
 		public double getSO(int typeID, int qtty) {
-			return getOrders(typeID).getSellPrice(qtty).doubleValue();
+			return getMarketOrders(typeID, false).getPrice(qtty).doubleValue();
 		}
 
 		public double getBO(int typeID, int qtty) {
-			return getOrders(typeID).getBuyPrice(qtty).doubleValue();
+			return getMarketOrders(typeID, true).getPrice(qtty).doubleValue();
 		}
 
 	}
@@ -235,8 +190,7 @@ public class Markets {
 	}
 
 	public ObservableList<R_get_markets_region_id_orders> getOrders(boolean buy, int regionID, int typeID) {
-		CachedOrdersList col = getMarket(regionID).getOrders(typeID);
-		return buy ? col.getBuyOrders() : col.getSellOrders();
+		return getMarket(regionID).getMarketOrders(typeID, buy).listOrders();
 	}
 
 	//
