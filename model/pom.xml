@@ -4,12 +4,12 @@
 	<name>model</name>
 
 	<modules>
-		
-		
+
 		<module>ESI</module>
 		<module>APIv2</module>
 		<module>ESI-compiler</module>
 		<module>sde</module>
+		<module>zkb</module>
 		
 	</modules>
 	<artifactId>model</artifactId>
