@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -24,22 +23,26 @@ public class Names {
 	public static final int MAXINTIDPERREQUEST = (2083 - 100) / (1 + (int) Math.log10(Integer.MAX_VALUE));
 	public static final int MAXLONGIDPERREQUEST = (2083 - 100) / (1 + (int) Math.log10(Long.MAX_VALUE));
 
+	private HashMap<Integer, R_get_characters_names> cachedCharacterNames = new HashMap<>();
+
 	public R_get_characters_names[] characterNames(int... ids) {
 		if (ids == null || ids.length == 0) {
 			return new R_get_characters_names[0];
 		}
-		// have to work with long, because CCP bug.
-		long[] lids = IntStream.of(ids).mapToLong(i -> i).toArray();
-		ArrayList<R_get_characters_names> ret = new ArrayList<>();
-		long[] fullbuffer = new long[MAXLONGIDPERREQUEST];
-		for (int start = 0; start < lids.length; start += MAXLONGIDPERREQUEST) {
-			if (start + MAXLONGIDPERREQUEST >= lids.length) {
-				fullbuffer = new long[lids.length - start];
+		synchronized (cachedCharacterNames) {
+			// have to work with long, because CCP bug.
+			long[] lids = IntStream.of(ids).filter(i -> !cachedCharacterNames.containsKey(i)).mapToLong(i -> i).toArray();
+			long[] fullbuffer = new long[MAXLONGIDPERREQUEST];
+			for (int start = 0; start < lids.length; start += MAXLONGIDPERREQUEST) {
+				if (start + MAXLONGIDPERREQUEST >= lids.length) {
+					fullbuffer = new long[lids.length - start];
+				}
+				System.arraycopy(lids, start, fullbuffer, 0, fullbuffer.length);
+				Stream.of(raw.get_characters_names(fullbuffer, null))
+						.forEachOrdered(n -> cachedCharacterNames.put((int) n.character_id, n));
 			}
-			System.arraycopy(lids, start, fullbuffer, 0, fullbuffer.length);
-			Stream.of(raw.get_characters_names(fullbuffer, null)).forEachOrdered(ret::add);
+			return IntStream.of(ids).mapToObj(cachedCharacterNames::get).toArray(R_get_characters_names[]::new);
 		}
-		return ret.toArray(new R_get_characters_names[0]);
 	}
 
 	protected HashMap<Long, String> cachedLocationNames = new HashMap<>();
