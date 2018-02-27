@@ -220,7 +220,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("item_ids", flatten(item_ids));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_characters_character_id_assets_names[].class));
     }
 
@@ -229,7 +228,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("item_ids", flatten(item_ids));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_characters_character_id_assets_locations[].class));
     }
 
@@ -238,7 +236,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("item_ids", flatten(item_ids));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_corporations_corporation_id_assets_names[].class));
     }
 
@@ -247,7 +244,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("item_ids", flatten(item_ids));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_corporations_corporation_id_assets_locations[].class));
     }
 
@@ -304,7 +300,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("characters", flatten(characters));
         String fetched = connectPost(url, content, false, headerHandler);
-        connectPost(url, content, false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_characters_affiliation[].class));
     }
 
@@ -313,7 +308,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("characters", flatten(characters));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (float.class));
     }
 
@@ -424,7 +418,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("contact_ids", flatten(contact_ids));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (int[].class));
     }
 
@@ -718,7 +711,6 @@ public interface Swagger {
         content.put("ship_type_id", flatten(ship_type_id));
         content.put("items", flatten(items));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_characters_character_id_fittings_created.class));
     }
 
@@ -759,14 +751,12 @@ public interface Swagger {
     public default R_post_fleets_fleet_id_wings_created post_fleets_fleet_id_wings(long fleet_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/fleets/{fleet_id}/wings/".replace("{fleet_id}", ""+fleet_id));
         String fetched = connectPost(url, Collections.emptyMap(), true, headerHandler);
-        connectPost(url, Collections.emptyMap(), true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_fleets_fleet_id_wings_created.class));
     }
 
     public default R_post_fleets_fleet_id_wings_wing_id_squads_created post_fleets_fleet_id_wings_wing_id_squads(long fleet_id, long wing_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/fleets/{fleet_id}/wings/{wing_id}/squads/".replace("{fleet_id}", ""+fleet_id).replace("{wing_id}", ""+wing_id));
         String fetched = connectPost(url, Collections.emptyMap(), true, headerHandler);
-        connectPost(url, Collections.emptyMap(), true, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_fleets_fleet_id_wings_wing_id_squads_created.class));
     }
 
@@ -892,7 +882,6 @@ public interface Swagger {
         content.put("body", flatten(body));
         content.put("approved_cost", flatten(approved_cost));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (int.class));
     }
 
@@ -908,7 +897,6 @@ public interface Swagger {
         content.put("name", flatten(name));
         content.put("color", flatten(color));
         String fetched = connectPost(url, content, true, headerHandler);
-        connectPost(url, content, true, headerHandler);
         return convert((fetched), (long.class));
     }
 
@@ -1109,7 +1097,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("names", flatten(names));
         String fetched = connectPost(url, content, false, headerHandler);
-        connectPost(url, content, false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_ids.class));
     }
 
@@ -1184,7 +1171,6 @@ public interface Swagger {
         Map<String, String> content = new HashMap<>();
         content.put("ids", flatten(ids));
         String fetched = connectPost(url, content, false, headerHandler);
-        connectPost(url, content, false, headerHandler);
         return convert((fetched), (is.ccp.tech.esi.responses.R_post_universe_names[].class));
     }
 

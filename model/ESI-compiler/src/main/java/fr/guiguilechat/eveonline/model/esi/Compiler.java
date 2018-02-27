@@ -248,7 +248,7 @@ public class Compiler {
 						.arg(JExpr.lit(connected)).arg(header);
 					} else {
 						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
-						fetched.init(meth.body().invoke("connectPost").arg(url)
+						fetched.init(JExpr.invoke("connectPost").arg(url)
 								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
 								.arg(JExpr.lit(connected)).arg(header));
 					}

@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_names;
 import is.ccp.tech.esi.responses.R_get_universe_structures_structure_id;
+import is.ccp.tech.esi.responses.R_post_universe_names;
 
 public class Names {
 
@@ -52,9 +53,13 @@ public class Names {
 		if (ret == null) {
 			if (location >= 1000000000000l) {
 				R_get_universe_structures_structure_id res = raw.get_universe_structures_structure_id(location, null);
+				if (res == null) {
+					System.err.println("can't acces location " + location + " from character " + raw.verify().CharacterName);
+				}
 				ret = res == null ? "forbidden_" + location : res.name;
 			} else {
-				ret = raw.post_universe_names(new int[] { (int) location }, null)[0].name;
+				R_post_universe_names[] res = raw.post_universe_names(new int[] { (int) location }, null);
+				ret = res == null || res.length == 0 ? "unknown_" + location : res[0].name;
 			}
 			cachedLocationNames.put(location, ret);
 		}
