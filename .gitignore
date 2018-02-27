@@ -15,6 +15,8 @@ hs_err_pid*
 .project
 .settings/
 *.versionsBackup
+*.idea
+*.iml
 
 target/
 test-output/

@@ -68,6 +68,10 @@ public class ItemsTranslater {
 		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
 			EtypeIDs type = e.getValue();
 			String className = classes.groupID2ClassName.get(type.groupID);
+			if (className==null){
+				logger.warn("class name for group {} is not found", type.groupID);
+				continue;
+			}
 			Object item = makeObjectDefault(className, cl);
 			String fileName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName()

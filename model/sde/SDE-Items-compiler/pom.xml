@@ -39,5 +39,14 @@ At the moment it creates classes for items in the SDE, considering their attribu
 			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
 			<artifactId>SDE-Tools</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+		</dependency>
+
 	</dependencies>
 </project>

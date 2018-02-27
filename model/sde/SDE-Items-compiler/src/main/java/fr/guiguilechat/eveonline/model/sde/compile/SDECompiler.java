@@ -262,11 +262,16 @@ public class SDECompiler {
 		}
 
 		// then create all groups
-
+		final Set<String> createdClasses = new HashSet<>();
 		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
 			String newName = formatName(groupEntry.getValue().enName());
 			JDefinedClass catClass = catIDToClass.get(groupEntry.getValue().categoryID);
 			try {
+				final String fullClassName = itemPackage().subPackage(catClass.name().toLowerCase()).name() + "." + formatName(newName);
+				if(!createdClasses.add(fullClassName)){
+					logger.warn("Duplicate class creation prevented for {}", fullClassName);
+					continue;
+				}
 				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(formatName(newName));
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
