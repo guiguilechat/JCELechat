@@ -250,14 +250,14 @@ public class ESIConnection implements Swagger {
 			Class<?> ct = o.getClass().getComponentType();
 			if (ct.isPrimitive()) {
 				if (ct == int.class || ct == short.class || ct == byte.class || ct == char.class || ct == boolean.class) {
-					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
+					return "[" + IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(",")) + "]";
 				} else if (ct == long.class) {
-					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
+					return "[" + LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(",")) + "]";
 				} else if (ct == double.class || ct == float.class) {
-					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
+					return "[" + DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(",")) + "]";
 				}
 			}
-			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
+			return "[" + Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(",")) + "]";
 		} else {
 			return o.toString();
 		}
