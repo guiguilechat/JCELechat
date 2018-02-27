@@ -20,8 +20,8 @@ public class Names {
 	 * assuming a request takes at max 100 characters, and a max url size of 2083,
 	 * each int will use this number of characters(+1 for the comma)
 	 */
-	public static final int MAXINTIDPERREQUEST = (2083 - 100) / (1 + (int) Math.log10(Integer.MAX_VALUE));
-	public static final int MAXLONGIDPERREQUEST = (2083 - 100) / (1 + (int) Math.log10(Long.MAX_VALUE));
+	public static final int MAXINTIDPERREQUEST = (2083 - 100) / (1 + (int) Math.ceil(Math.log10(Integer.MAX_VALUE)));
+	public static final int MAXLONGIDPERREQUEST = (2083 - 100) / (1 + (int) Math.ceil(Math.log10(Long.MAX_VALUE)));
 
 	private HashMap<Integer, R_get_characters_names> cachedCharacterNames = new HashMap<>();
 
@@ -39,7 +39,7 @@ public class Names {
 				}
 				System.arraycopy(lids, start, fullbuffer, 0, fullbuffer.length);
 				Stream.of(raw.get_characters_names(fullbuffer, null))
-						.forEachOrdered(n -> cachedCharacterNames.put((int) n.character_id, n));
+				.forEachOrdered(n -> cachedCharacterNames.put((int) n.character_id, n));
 			}
 			return IntStream.of(ids).mapToObj(cachedCharacterNames::get).toArray(R_get_characters_names[]::new);
 		}
