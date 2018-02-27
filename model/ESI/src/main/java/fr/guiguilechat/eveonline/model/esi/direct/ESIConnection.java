@@ -115,7 +115,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_FORBIDDEN:
 				case HttpsURLConnection.HTTP_NOT_FOUND:
 				case HttpsURLConnection.HTTP_BAD_METHOD:
-					StringBuilder sb = new StringBuilder("[" + method + "]" + url + " " + responseCode);
+					StringBuilder sb = new StringBuilder("[" + method + "]" + url + " data=" + transmit + " " + responseCode);
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
 					logger.warn(sb.toString());
 					return null;
@@ -182,10 +182,19 @@ public class ESIConnection implements Swagger {
 	ObjectWriter ow = new ObjectMapper().writer();
 
 	@Override
-	public String connectPost(String url, Map<String, String> transmit, boolean connected,
+	public String connectPost(String url, Map<String, Object> transmit, boolean connected,
 			Map<String, List<String>> headerHandler) {
 		try {
-			return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
+			// specific hack : if only one thing to transmit, eg ids:[1,2,3], you have
+			// to transmit the ids directly.
+			// that means "id:1" will be actually transmitted as "1",
+			// while "id:1,name:\"lol\"" will be transmited as is
+			if (transmit != null && transmit.size() == 1) {
+				return connectPost(url, "application/json", ow.writeValueAsString(transmit.values().iterator().next()),
+						connected, headerHandler);
+			} else {
+				return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
+			}
 		} catch (JsonProcessingException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -250,14 +259,14 @@ public class ESIConnection implements Swagger {
 			Class<?> ct = o.getClass().getComponentType();
 			if (ct.isPrimitive()) {
 				if (ct == int.class || ct == short.class || ct == byte.class || ct == char.class || ct == boolean.class) {
-					return "[" + IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(",")) + "]";
+					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
 				} else if (ct == long.class) {
-					return "[" + LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(",")) + "]";
+					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
 				} else if (ct == double.class || ct == float.class) {
-					return "[" + DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(",")) + "]";
+					return DoubleStream.of((double[]) o).mapToObj(Double::toString).collect(Collectors.joining(","));
 				}
 			}
-			return "[" + Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(",")) + "]";
+			return Stream.of((Object[]) o).map(Object::toString).collect(Collectors.joining(","));
 		} else {
 			return o.toString();
 		}

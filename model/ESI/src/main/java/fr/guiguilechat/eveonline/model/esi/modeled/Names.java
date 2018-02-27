@@ -1,6 +1,8 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -46,7 +48,7 @@ public class Names {
 		}
 	}
 
-	protected HashMap<Long, String> cachedLocationNames = new HashMap<>();
+	protected Map<Long, String> cachedLocationNames = Collections.synchronizedMap(new HashMap<>());
 
 	public String getLocationName(long location) {
 		String ret = cachedLocationNames.get(location);

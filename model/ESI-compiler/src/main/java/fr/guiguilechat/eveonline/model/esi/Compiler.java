@@ -133,7 +133,7 @@ public class Compiler {
 
 		JMethod copost = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
 		copost.param(cm.ref(String.class), "url");
-		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(String.class)), "content");
+		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
 		copost.param(cm.BOOLEAN, "connected");
 		copost.param(headerhandlertype, "headerHandler");
 
@@ -235,11 +235,11 @@ public class Compiler {
 				if (isPost) {
 					JVar content = null;
 					if (!bodyparameters.isEmpty()) {
-						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(String.class)),
+						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
 								"content");
 						content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 						for (JVar p : bodyparameters) {
-							meth.body().directStatement("content.put(\"" + p.name() + "\", flatten(" + p.name() + "));");
+							meth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
 						}
 					}
 					if (s == null) {
