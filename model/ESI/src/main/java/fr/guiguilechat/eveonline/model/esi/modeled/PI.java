@@ -1,7 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.lang.reflect.Field;
-import java.time.ZonedDateTime;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -11,6 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_planets;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_planets_planet_id;
 import javafx.collections.FXCollections;
@@ -71,9 +71,7 @@ public class PI {
 						.get_characters_character_id_planets(acc.characterId(), headerHandler);
 				Set<Integer> pids = Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
 				cachedPlanets.keySet().retainAll(pids);
-				planetCacheExpiry = System.currentTimeMillis()
-						+ 1000 * ZonedDateTime.parse(headerHandler.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-						- 1000 * ZonedDateTime.parse(headerHandler.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+				planetCacheExpiry = ESIConnection.getCacheExpire(headerHandler);
 				Stream.of(planetIds).parallel().map(pli -> {
 					ColonyInfo ret = new ColonyInfo(
 							acc.raw.get_characters_character_id_planets_planet_id(acc.characterId(), pli.planet_id, null));

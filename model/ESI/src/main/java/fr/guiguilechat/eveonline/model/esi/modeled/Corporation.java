@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -9,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -62,9 +62,7 @@ public class Corporation {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						bookmarkCacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
 				cacheBookmarks.keySet().retainAll(folders.values());
@@ -84,9 +82,7 @@ public class Corporation {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						bookmarkCacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
 			}

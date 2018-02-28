@@ -1,6 +1,5 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -8,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.Swagger.order_type;
 import is.ccp.tech.esi.responses.R_get_markets_prices;
 import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
@@ -53,9 +53,7 @@ public class Markets {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPages = pages == null ? 1 : Integer.parseInt(pages);
-						cacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						cacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 					for (R_get_markets_region_id_orders o : orders) {
 						if (o.min_volume == 1) {

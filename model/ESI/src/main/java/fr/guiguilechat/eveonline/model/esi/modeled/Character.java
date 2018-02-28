@@ -1,18 +1,23 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.time.ZonedDateTime;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks_folders;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_online;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -105,9 +110,7 @@ public class Character {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						jobsCacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						jobsCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
 				jobsCache.clear();
@@ -141,9 +144,7 @@ public class Character {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						bookmarkCacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
 				cacheBookmarks.keySet().retainAll(folders.values());
@@ -163,14 +164,58 @@ public class Character {
 					if (page == 1) {
 						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						bookmarkCacheEnd = System.currentTimeMillis()
-								+ 1000 * ZonedDateTime.parse(headers.get("Expires").get(0), ESIAccount.formatter).toEpochSecond()
-								- 1000 * ZonedDateTime.parse(headers.get("Date").get(0), ESIAccount.formatter).toEpochSecond();
+						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
 			}
 		}
 		return cacheBookmarks;
+	}
+
+	protected R_get_characters_character_id_online cachedOnline = null;
+
+	protected long cacheOnlineExpire = 0;
+
+	protected R_get_characters_character_id_online getOnline() {
+		if (cacheOnlineExpire <= System.currentTimeMillis()) {
+			synchronized (this) {
+				if (cacheOnlineExpire <= System.currentTimeMillis()) {
+					Map<String, List<String>> headerHandler = new HashMap<>();
+					cachedOnline = con.raw.get_characters_character_id_online(con.characterId(), headerHandler);
+					cacheOnlineExpire = ESIConnection.getCacheExpire(headerHandler);
+				}
+			}
+		}
+		return cachedOnline;
+	}
+
+	public boolean isOnline() {
+		return getOnline().online;
+	}
+
+	private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+	static {
+		sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+	}
+
+	public Date lastLogin() {
+		try {
+			synchronized (sdf) {
+				return sdf.parse(getOnline().last_login);
+			}
+		} catch (ParseException ex) {
+			throw new UnsupportedOperationException("catch this", ex);
+		}
+	}
+
+	public Date lastLogout() {
+		try {
+			synchronized (sdf) {
+				return sdf.parse(getOnline().last_logout);
+			}
+		} catch (ParseException ex) {
+			throw new UnsupportedOperationException("catch this", ex);
+		}
 	}
 
 }

@@ -1,12 +1,11 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_industry_systems;
 import is.ccp.tech.esi.responses.R_get_industry_systems_cost_indices;
 
@@ -66,11 +65,7 @@ public class Industry {
 				}
 				systemIndicesCache.put(sysid, indices);
 			}
-			systemIndicesCacheEnd = System.currentTimeMillis()
-					+ 1000
-					* ZonedDateTime.parse(headers.get("Expires").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond()
-					- 1000
-					* ZonedDateTime.parse(headers.get("Date").get(0), DateTimeFormatter.RFC_1123_DATE_TIME).toEpochSecond();
+			systemIndicesCacheEnd = ESIConnection.getCacheExpire(headers);
 		}
 	}
 

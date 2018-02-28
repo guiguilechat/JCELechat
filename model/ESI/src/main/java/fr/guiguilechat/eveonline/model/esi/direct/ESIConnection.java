@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.time.ZonedDateTime;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -25,6 +26,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.ESITools;
 import fr.guiguilechat.eveonline.model.esi.ESITools.AccessToken;
 import is.ccp.tech.esi.Swagger;
@@ -272,4 +274,25 @@ public class ESIConnection implements Swagger {
 		}
 	}
 
+	/**
+	 * extract the cache expire from the headers returned by a connection. If the
+	 * headers are missing the data, return now.
+	 *
+	 * @param headers
+	 * @return the long value of milliseconds at which the cache will expire, or
+	 *         System.currentTimeMillis if missing header entries
+	 */
+	public static long getCacheExpire(Map<String, List<String>> headers) {
+		List<String> expirel = headers.get("Expires");
+		if (expirel == null || expirel.isEmpty()) {
+			return System.currentTimeMillis();
+		}
+		List<String> datel = headers.get("Date");
+		if (datel == null || datel.isEmpty()) {
+			return System.currentTimeMillis();
+		}
+		return System.currentTimeMillis()
+				+ 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
+				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
+	}
 }
