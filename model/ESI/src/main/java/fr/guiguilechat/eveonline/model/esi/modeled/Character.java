@@ -17,7 +17,12 @@ import is.ccp.tech.esi.responses.R_get_characters_character_id;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks_folders;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_location;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_online;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.LongProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleLongProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -216,6 +221,45 @@ public class Character {
 		} catch (ParseException ex) {
 			throw new UnsupportedOperationException("catch this", ex);
 		}
+	}
+
+	protected long cacheLocationExpire = 0;
+
+	protected void fetchLocation() {
+		R_get_characters_character_id_location cachedLocation;
+		if (cacheLocationExpire <= System.currentTimeMillis()) {
+			synchronized (this) {
+				if (cacheLocationExpire <= System.currentTimeMillis()) {
+					Map<String, List<String>> headerHandler = new HashMap<>();
+					cachedLocation = con.raw.get_characters_character_id_location(con.characterId(), headerHandler);
+					solarSystem.set(cachedLocation.solar_system_id);
+					station.set(cachedLocation.station_id);
+					structure.set(cachedLocation.structure_id);
+					cacheLocationExpire = ESIConnection.getCacheExpire(headerHandler);
+				}
+			}
+		}
+	}
+
+	IntegerProperty solarSystem = new SimpleIntegerProperty();
+
+	public IntegerProperty getSolarSystem() {
+		fetchLocation();
+		return solarSystem;
+	}
+
+	IntegerProperty station = new SimpleIntegerProperty();
+
+	public IntegerProperty getStation() {
+		fetchLocation();
+		return station;
+	}
+
+	LongProperty structure = new SimpleLongProperty();
+
+	public LongProperty getStructure() {
+		fetchLocation();
+		return structure;
 	}
 
 }

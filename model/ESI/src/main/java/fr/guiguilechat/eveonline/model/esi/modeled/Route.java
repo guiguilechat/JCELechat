@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import is.ccp.tech.esi.Swagger.flag;
 
 public class Route {
 
@@ -19,7 +20,7 @@ public class Route {
 	}
 
 	public void setDesto(long locationId) {
-		con.raw.post_ui_autopilot_waypoint(false, true, locationId, null);
+		con.raw.post_ui_autopilot_waypoint(true, true, locationId, null);
 	}
 
 	public void setRoute(long... locationIds) {
@@ -35,6 +36,11 @@ public class Route {
 			}
 			cleared = true;
 		}
+	}
+
+	public int[] makeRoute(int origin, int destination, boolean secure) {
+		return con.raw.get_route_origin_destination(null, null, destination,
+				secure ? flag.secure : flag.shortest, origin, null);
 	}
 
 }

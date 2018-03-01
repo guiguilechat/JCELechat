@@ -29,6 +29,7 @@ import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.JPrimitiveType;
 import com.helger.jcodemodel.JVar;
 
 import io.swagger.models.ArrayModel;
@@ -226,9 +227,16 @@ public class Compiler {
 				for (JVar jv : pathparameters) {
 					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
 				}
+				if (queryparameters.size() > 0) {
+					urlAssign += "+\"?\"";
+				}
 				for (int pi = 0; pi < queryparameters.size(); pi++) {
 					JVar qp = queryparameters.get(pi);
-					urlAssign += "+\"" + (pi == 0 ? '?' : '&') + qp.name() + "=\"+flatten(" + qp.name() + ")";
+					if (qp.type() instanceof JPrimitiveType) {
+						urlAssign += "+\"&" + qp.name() + "=\"+flatten(" + qp.name() + ")";
+					} else {
+						urlAssign += "+("+qp.name()+"==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
+					}
 				}
 				JVar url = meth.body().decl(cm.ref(String.class), "url");
 				url.init(JExpr.direct(urlAssign));
