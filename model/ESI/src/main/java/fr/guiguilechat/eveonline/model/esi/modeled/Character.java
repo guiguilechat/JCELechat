@@ -10,10 +10,13 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_assets;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks_folders;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
@@ -113,8 +116,7 @@ public class Character {
 					ret.addAll(
 							Arrays.asList(con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, headers)));
 					if (page == 1) {
-						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-						maxPage = pages == null ? 1 : Integer.parseInt(pages);
+						maxPage = ESIConnection.getNbPages(headers);
 						jobsCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
@@ -147,8 +149,7 @@ public class Character {
 						folders.put(f.folder_id, f.name);
 					}
 					if (page == 1) {
-						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-						maxPage = pages == null ? 1 : Integer.parseInt(pages);
+						maxPage = ESIConnection.getNbPages(headers);
 						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}
@@ -260,6 +261,32 @@ public class Character {
 	public LongProperty getStructure() {
 		fetchLocation();
 		return structure;
+	}
+
+	// system->typeid->number
+	private ObservableMap<Integer, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
+			.observableMap(new LinkedHashMap<>());
+
+	private long assetsExpire = 0;
+
+	public ObservableMap<Integer, ObservableMap<Integer, Integer>> getAssets() {
+		if (assetsExpire < System.currentTimeMillis()) {
+			Map<String, List<String>> headerHandler = new HashMap<>();
+			R_get_characters_character_id_assets[] res = con.raw.get_characters_character_id_assets(con.characterId(), 1, headerHandler);
+			int nbpages = ESIConnection.getNbPages(headerHandler);
+			assetsExpire = ESIConnection.getCacheExpire(headerHandler);
+			Stream
+			.concat(Stream.of(res),
+					IntStream.rangeClosed(2, nbpages).parallel()
+									.mapToObj(page -> con.raw.get_characters_character_id_assets(con.characterId(), page, null))
+									.flatMap(Stream::of))
+					.forEachOrdered(this::addAsset);
+		}
+		return cachedAssets;
+	}
+
+	private void addAsset(R_get_characters_character_id_assets asset) {
+
 	}
 
 }

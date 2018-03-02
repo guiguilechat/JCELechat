@@ -295,4 +295,15 @@ public class ESIConnection implements Swagger {
 				+ 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
 				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
 	}
+
+	/**
+	 * get the number of pages for a request.
+	 * 
+	 * @param headers
+	 * @return
+	 */
+	public static int getNbPages(Map<String, List<String>> headers) {
+		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
+		return pages == null ? 1 : Integer.parseInt(pages);
+	}
 }

@@ -60,8 +60,7 @@ public class Corporation {
 						folders.put(f.folder_id, f.name);
 					}
 					if (page == 1) {
-						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-						maxPage = pages == null ? 1 : Integer.parseInt(pages);
+						maxPage = ESIConnection.getNbPages(headers);
 						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 				}

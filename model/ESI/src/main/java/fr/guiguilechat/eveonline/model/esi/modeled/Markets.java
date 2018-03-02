@@ -51,8 +51,7 @@ public class Markets {
 					R_get_markets_region_id_orders[] orders = esiConnection.raw
 							.get_markets_region_id_orders(buy ? order_type.buy : order_type.sell, page, regionID, typeID, headers);
 					if (page == 1) {
-						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-						maxPages = pages == null ? 1 : Integer.parseInt(pages);
+						maxPages = ESIConnection.getNbPages(headers);
 						cacheEnd = ESIConnection.getCacheExpire(headers);
 					}
 					for (R_get_markets_region_id_orders o : orders) {
