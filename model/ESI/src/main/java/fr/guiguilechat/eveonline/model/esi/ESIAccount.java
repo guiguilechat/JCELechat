@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.esi;
 import java.time.format.DateTimeFormatter;
 
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.modeled.Character;
+import fr.guiguilechat.eveonline.model.esi.modeled.EveCharacter;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
@@ -38,7 +38,7 @@ public class ESIAccount {
 		return raw;
 	}
 
-	public final Character character = new Character(this);
+	public final EveCharacter character = new EveCharacter(this);
 
 	public final Verify verify;
 

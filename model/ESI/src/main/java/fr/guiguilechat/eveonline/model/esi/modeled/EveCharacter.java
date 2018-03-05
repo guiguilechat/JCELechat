@@ -2,23 +2,20 @@ package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.TimeZone;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_assets;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks;
-import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks_folders;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_location;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_online;
@@ -30,11 +27,11 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
-public class Character {
+public class EveCharacter {
 
 	protected final ESIAccount con;
 
-	public Character(ESIAccount con) {
+	public EveCharacter(ESIAccount con) {
 		this.con = con;
 	}
 
@@ -108,18 +105,10 @@ public class Character {
 	public ObservableList<R_get_characters_character_id_industry_jobs> getIndustryJobs() {
 		synchronized (jobsCache) {
 			if (System.currentTimeMillis() >= jobsCacheEnd) {
-				ArrayList<R_get_characters_character_id_industry_jobs> ret = new ArrayList<>();
-				int maxPage = 1;
-				jobsCacheEnd = Long.MAX_VALUE;
-				for (int page = 1; page <= maxPage; page++) {
-					Map<String, List<String>> headers = new HashMap<>();
-					ret.addAll(
-							Arrays.asList(con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, headers)));
-					if (page == 1) {
-						maxPage = ESIConnection.getNbPages(headers);
-						jobsCacheEnd = ESIConnection.getCacheExpire(headers);
-					}
-				}
+				List<R_get_characters_character_id_industry_jobs> ret =
+						ESIConnection.loadPages(
+								(p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
+								l -> jobsCacheEnd = l).collect(Collectors.toList());
 				jobsCache.clear();
 				jobsCache.addAll(ret);
 			}
@@ -140,38 +129,24 @@ public class Character {
 		synchronized (cacheBookmarks) {
 			if (System.currentTimeMillis() >= bookmarkCacheEnd) {
 				// first we get all the folders.
-				HashMap<Integer, String> folders = new HashMap<>();
-				int maxPage = 1;
-				for (int page = 1; page <= maxPage; page++) {
-					Map<String, List<String>> headers = new HashMap<>();
-					for (R_get_characters_character_id_bookmarks_folders f : con.raw
-							.get_characters_character_id_bookmarks_folders(con.characterId(), page, headers)) {
-						folders.put(f.folder_id, f.name);
-					}
-					if (page == 1) {
-						maxPage = ESIConnection.getNbPages(headers);
-						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
-					}
-				}
+				Map<Integer, String> folders =
+						ESIConnection
+						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
+								l -> bookmarkCacheEnd = l)
+						.collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
 				cacheBookmarks.keySet().retainAll(folders.values());
-				maxPage = 1;
-				for (int page = 1; page <= maxPage; page++) {
-					Map<String, List<String>> headers = new HashMap<>();
-					for (R_get_characters_character_id_bookmarks f : con.raw
-							.get_characters_character_id_bookmarks(con.characterId(), page, headers)) {
-						String foldName = folders.get(f.folder_id);
-						ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
-						if (m == null) {
-							m = FXCollections.observableMap(new LinkedHashMap<>());
-							cacheBookmarks.put(foldName, m);
-						}
-						m.put(f.bookmark_id, f);
+				List<R_get_characters_character_id_bookmarks> bms = ESIConnection
+						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
+								l -> bookmarkCacheEnd = Math.min(l, bookmarkCacheEnd))
+						.collect(Collectors.toList());
+				for (R_get_characters_character_id_bookmarks f : bms) {
+					String foldName = folders.get(f.folder_id);
+					ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
+					if (m == null) {
+						m = FXCollections.observableMap(new LinkedHashMap<>());
+						cacheBookmarks.put(foldName, m);
 					}
-					if (page == 1) {
-						String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-						maxPage = pages == null ? 1 : Integer.parseInt(pages);
-						bookmarkCacheEnd = ESIConnection.getCacheExpire(headers);
-					}
+					m.put(f.bookmark_id, f);
 				}
 			}
 		}
@@ -264,29 +239,47 @@ public class Character {
 	}
 
 	// system->typeid->number
-	private ObservableMap<Integer, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
+	private ObservableMap<Long, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
 			.observableMap(new LinkedHashMap<>());
 
 	private long assetsExpire = 0;
 
-	public ObservableMap<Integer, ObservableMap<Integer, Integer>> getAssets() {
-		if (assetsExpire < System.currentTimeMillis()) {
-			Map<String, List<String>> headerHandler = new HashMap<>();
-			R_get_characters_character_id_assets[] res = con.raw.get_characters_character_id_assets(con.characterId(), 1, headerHandler);
-			int nbpages = ESIConnection.getNbPages(headerHandler);
-			assetsExpire = ESIConnection.getCacheExpire(headerHandler);
-			Stream
-			.concat(Stream.of(res),
-					IntStream.rangeClosed(2, nbpages).parallel()
-									.mapToObj(page -> con.raw.get_characters_character_id_assets(con.characterId(), page, null))
-									.flatMap(Stream::of))
-					.forEachOrdered(this::addAsset);
+	/**
+	 *
+	 * @return the location->typeid->quantity
+	 */
+	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
+		synchronized (cachedAssets){
+			if(assetsExpire<System.currentTimeMillis()) {
+				Map<Long, Map<Integer, Integer>> newitems = ESIConnection
+						.loadPages((p, h) -> con.raw.get_characters_character_id_assets(con.characterId(), p, h),
+								l -> assetsExpire = l)
+						.collect(Collectors.toMap(a -> a.location_id, EveCharacter::makeMap, EveCharacter::mergeMap));
+				for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
+					ObservableMap<Integer, Integer> om = cachedAssets.get(e.getKey());
+					if (om == null) {
+						om = FXCollections.observableHashMap();
+						cachedAssets.put(e.getKey(), om);
+					}
+					om.keySet().retainAll(e.getValue().keySet());
+					om.putAll(e.getValue());
+				}
+			}
 		}
 		return cachedAssets;
 	}
 
-	private void addAsset(R_get_characters_character_id_assets asset) {
+	private static Map<Integer, Integer> makeMap(R_get_characters_character_id_assets asset) {
+		Map<Integer, Integer> ret = new HashMap<>();
+		ret.put(asset.type_id, asset.quantity);
+		return ret;
+	}
 
+	private static Map<Integer, Integer> mergeMap(Map<Integer, Integer> m1, Map<Integer, Integer> m2) {
+		for (Entry<Integer, Integer> e : m2.entrySet()) {
+			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
+		}
+		return m1;
 	}
 
 }

@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.BiFunction;
+import java.util.function.LongConsumer;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -298,12 +300,36 @@ public class ESIConnection implements Swagger {
 
 	/**
 	 * get the number of pages for a request.
-	 * 
+	 *
 	 * @param headers
 	 * @return
 	 */
 	public static int getNbPages(Map<String, List<String>> headers) {
 		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
 		return pages == null ? 1 : Integer.parseInt(pages);
+	}
+
+	/**
+	 * load the pages for a given resource access.
+	 *
+	 * @param resourceAccess
+	 *          loads given page , and store header values. (page, store->result)
+	 * @param cacheExpireStore
+	 *          store the cache expiration value, retrieved from the headers of
+	 *          the first page.
+	 * @return the stream of values retrieved from the first page and following
+	 *         pages. Those values are only fetched on demand, store them using
+	 *         collect to avoid delay on iteration.
+	 */
+	public static <T> Stream<T> loadPages(BiFunction<Integer, Map<String, List<String>>, T[]> resourceAccess,
+			LongConsumer cacheExpireStore) {
+		Map<String, List<String>> headerHandler = new HashMap<>();
+		T[] res = resourceAccess.apply(1, headerHandler);
+		int nbpages = ESIConnection.getNbPages(headerHandler);
+		cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
+		return Stream
+				.concat(Stream.of(res),
+						IntStream.rangeClosed(2, nbpages).parallel()
+						.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
 	}
 }

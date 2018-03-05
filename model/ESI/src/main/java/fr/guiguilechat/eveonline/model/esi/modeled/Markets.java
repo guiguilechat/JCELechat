@@ -1,10 +1,10 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
@@ -44,22 +44,10 @@ public class Markets {
 				if (System.currentTimeMillis() <= cacheEnd) {
 					return;
 				}
-				ArrayList<R_get_markets_region_id_orders> neworders = new ArrayList<>();
-				int maxPages = 1;
-				for (int page = 1; page <= maxPages; page++) {
-					Map<String, List<String>> headers = new HashMap<>();
-					R_get_markets_region_id_orders[] orders = esiConnection.raw
-							.get_markets_region_id_orders(buy ? order_type.buy : order_type.sell, page, regionID, typeID, headers);
-					if (page == 1) {
-						maxPages = ESIConnection.getNbPages(headers);
-						cacheEnd = ESIConnection.getCacheExpire(headers);
-					}
-					for (R_get_markets_region_id_orders o : orders) {
-						if (o.min_volume == 1) {
-							neworders.add(o);
-						}
-					}
-				}
+				List<R_get_markets_region_id_orders> neworders = ESIConnection
+						.loadPages((p, h) -> esiConnection.raw.get_markets_region_id_orders(buy ? order_type.buy : order_type.sell,
+								p, regionID, typeID, h), l -> cacheEnd = l)
+						.filter(o -> o.min_volume == 1).collect(Collectors.toList());
 				if (buy) {
 					Collections.sort(neworders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 				} else {
