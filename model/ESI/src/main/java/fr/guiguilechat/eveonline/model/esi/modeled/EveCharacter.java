@@ -10,11 +10,13 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import is.ccp.tech.esi.responses.R_get_characters_character_id;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_assets;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_blueprints;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_industry_jobs;
 import is.ccp.tech.esi.responses.R_get_characters_character_id_location;
@@ -202,12 +204,12 @@ public class EveCharacter {
 	protected long cacheLocationExpire = 0;
 
 	protected void fetchLocation() {
-		R_get_characters_character_id_location cachedLocation;
 		if (cacheLocationExpire <= System.currentTimeMillis()) {
 			synchronized (this) {
 				if (cacheLocationExpire <= System.currentTimeMillis()) {
 					Map<String, List<String>> headerHandler = new HashMap<>();
-					cachedLocation = con.raw.get_characters_character_id_location(con.characterId(), headerHandler);
+					R_get_characters_character_id_location cachedLocation = con.raw
+							.get_characters_character_id_location(con.characterId(), headerHandler);
 					solarSystem.set(cachedLocation.solar_system_id);
 					station.set(cachedLocation.station_id);
 					structure.set(cachedLocation.structure_id);
@@ -280,6 +282,35 @@ public class EveCharacter {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
+	}
+
+	private Map<Integer, Integer> skills = null;
+
+	public synchronized Map<Integer, Integer> getSkills() {
+		if (skills == null) {
+			skills= Stream.of(con.raw.get_characters_character_id_skills(con.characterId(), null).skills)
+					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
+		}
+		return skills;
+	}
+
+	private ObservableList<R_get_characters_character_id_blueprints> cachedBlueprints = FXCollections
+			.observableArrayList();
+
+	private long cachedBlueprintsExpire = 0;
+
+	public ObservableList<R_get_characters_character_id_blueprints> getBlueprints() {
+		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+			synchronized (cachedBlueprints) {
+				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+					Stream<R_get_characters_character_id_blueprints> bps = ESIConnection.loadPages(
+							(p, h) -> con.raw.get_characters_character_id_blueprints(con.characterId(), p, h),
+							l -> cachedBlueprintsExpire = l);
+					cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+				}
+			}
+		}
+		return cachedBlueprints;
 	}
 
 }

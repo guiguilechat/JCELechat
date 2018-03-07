@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
 
@@ -31,6 +33,15 @@ public class Blueprint {
 			}
 		}
 		return cache;
+	}
+
+	private static Map<Integer, Blueprint> cacheById = null;
+
+	public static Map<Integer, Blueprint> loadById() {
+		if (cacheById == null) {
+				cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
+		}
+		return cacheById;
 	}
 
 	public static void export(LinkedHashMap<String, Blueprint> data, File folderout) {

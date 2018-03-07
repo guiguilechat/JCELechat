@@ -16,7 +16,7 @@
   	<module>LootStats</module>
   	<module>Optimize</module>
   	<module>EvalMyProd</module>
-  	<module>Gui</module>
+  	
   	<module>fightersbysensortype</module>
   	<module>GUIV2</module>
   </modules>
@@ -25,7 +25,7 @@
   		<dependency>
   			<groupId>fr.guiguilechat.eveonline.model</groupId>
   			<artifactId>ESI</artifactId>
-  			<version>0.7.4</version>
+  			<version>${modelversion}</version>
   		</dependency>
   		<dependency>
   			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
@@ -42,11 +42,6 @@
   	<dependency>
   		<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
   		<artifactId>SDE-Full</artifactId>
-  	</dependency>
-  	<dependency>
-  		<groupId>fr.guiguilechat.eveonline.model</groupId>
-  		<artifactId>APIv2</artifactId>
-  		<version>18.01.10</version>
   	</dependency>
   	<dependency>
   		<groupId>fr.guiguilechat.eveonline.model</groupId>

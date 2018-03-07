@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
 import java.util.function.ToDoubleFunction;
@@ -15,9 +16,6 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.apiv2.APIRoot;
-import fr.guiguilechat.eveonline.model.apiv2.Account.EveChar;
-import fr.guiguilechat.eveonline.model.apiv2.Char.BPEntry;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
@@ -28,6 +26,7 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Module;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
+import is.ccp.tech.esi.responses.R_get_characters_character_id_blueprints;
 
 /**
  *
@@ -81,8 +80,8 @@ public class ProdEval {
 			}
 		}
 		RegionalMarket market = ESIAccount.DISCONNECTED.markets.getMarket(hubr.id);
-		Stream<EveChar> characters = apis.parallelStream().map(s_arr -> new APIRoot(Integer.parseInt(s_arr[0]), s_arr[1]))
-				.flatMap(api -> api.account.characters().parallelStream()).filter(c -> acceptName(c.name.toLowerCase()));
+		Stream<ESIAccount> characters = apis.parallelStream()
+				.map(s_arr -> new ESIAccount(s_arr[0], s_arr[1])).filter(c -> acceptName(c.characterName().toLowerCase()));
 		// first pass we copy the bpcs to get the required and produced amount of
 		// materials
 		List<BPEval> evaluations = characters.flatMap(chara -> evalCharacter(chara)).collect(Collectors.toList());
@@ -105,9 +104,10 @@ public class ProdEval {
 		return evaluations;
 	}
 
-	protected Stream<BPEval> evalCharacter(EveChar chara) {
-		HashMap<String, Integer> skills = chara.skillsByName();
-		return chara.blueprints().parallelStream().map(bp -> evalBP(bp, skills))
+	protected Stream<BPEval> evalCharacter(ESIAccount chara) {
+		Map<String, Integer> skills = chara.character.getSkills().entrySet().stream()
+				.collect(Collectors.toMap(e -> MetaInf.getItem(e.getKey()).name, e -> e.getValue()));
+		return chara.character.getBlueprints().parallelStream().map(bp -> evalBP(bp, skills))
 				.filter(bpe -> bpe != null);
 	}
 
@@ -119,14 +119,14 @@ public class ProdEval {
 	 * @param skills
 	 * @return
 	 */
-	protected BPEval evalBP(BPEntry bp, HashMap<String, Integer> skills) {
-		LinkedHashMap<String, Blueprint> bps = Blueprint.load();
+	protected BPEval evalBP(R_get_characters_character_id_blueprints bp, Map<String, Integer> skills) {
+		Map<Integer, Blueprint> bps = Blueprint.loadById();
 
 		// blueprint unknown ??
-		Blueprint bpt = bps.get(bp.typeName);
+		Blueprint bpt = bps.get(bp.type_id);
 		if (bpt == null) {
 			if (debug) {
-				logger.debug("null bp for " + bp.typeName);
+				logger.debug("null bp for " + bp.type_id);
 			}
 			return null;
 		}
@@ -158,10 +158,10 @@ public class ProdEval {
 			return null;
 		}
 		BPEval eval = new BPEval();
-		eval.name = bp.typeName;
+		eval.name = bpt.name;
 		for (Material required : bpt.manufacturing.materials) {
 			int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
-					: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.materialEfficiency) * required.quantity);
+					: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.material_efficiency) * required.quantity);
 			if (modifiedQtty < 1) {
 				System.err.println("error on bp " + bpt.name + " material " + required.name + " quantity " + required.quantity
 						+ " becomes " + modifiedQtty);

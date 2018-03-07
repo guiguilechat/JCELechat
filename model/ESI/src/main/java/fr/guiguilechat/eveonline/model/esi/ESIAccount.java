@@ -3,13 +3,14 @@ package fr.guiguilechat.eveonline.model.esi;
 import java.time.format.DateTimeFormatter;
 
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.modeled.EveCharacter;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
+import fr.guiguilechat.eveonline.model.esi.modeled.EveCharacter;
 import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import fr.guiguilechat.eveonline.model.esi.modeled.Names;
 import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Route;
+import fr.guiguilechat.eveonline.model.esi.modeled.Universe;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
 
 /**
@@ -54,6 +55,8 @@ public class ESIAccount {
 
 	public final Corporation corporation = new Corporation(this);
 
+	public final Universe universe = new Universe(this);
+
 	public int characterId() {
 		return verify.characterID();
 	}
@@ -72,7 +75,8 @@ public class ESIAccount {
 		if (obj == null || obj.getClass() != ESIAccount.class) {
 			return false;
 		}
-		return raw.equals(((ESIAccount) obj).raw);
+		ESIConnection otherraw = ((ESIAccount) obj).raw;
+		return raw == null || otherraw == null ? raw == otherraw : raw.equals(otherraw);
 	}
 
 }

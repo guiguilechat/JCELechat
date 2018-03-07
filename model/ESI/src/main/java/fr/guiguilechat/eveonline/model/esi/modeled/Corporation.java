@@ -4,15 +4,19 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
+import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_assets;
+import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_blueprints;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_bookmarks;
 import is.ccp.tech.esi.responses.R_get_corporations_corporation_id_industry_jobs;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
 public class Corporation {
@@ -81,6 +85,68 @@ public class Corporation {
 			}
 		}
 		return cacheBookmarks;
+	} // system->typeid->number
+
+	private ObservableMap<Long, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
+			.observableMap(new LinkedHashMap<>());
+
+	private long assetsExpire = 0;
+
+	/**
+	 *
+	 * @return the location->typeid->quantity
+	 */
+	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
+		synchronized (cachedAssets) {
+			if (assetsExpire < System.currentTimeMillis()) {
+				Map<Long, Map<Integer, Integer>> newitems = ESIConnection
+						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.corporation_id(), p, h),
+								l -> assetsExpire = l)
+						.collect(Collectors.toMap(a -> a.location_id, Corporation::makeMap, Corporation::mergeMap));
+				for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
+					ObservableMap<Integer, Integer> om = cachedAssets.get(e.getKey());
+					if (om == null) {
+						om = FXCollections.observableHashMap();
+						cachedAssets.put(e.getKey(), om);
+					}
+					om.keySet().retainAll(e.getValue().keySet());
+					om.putAll(e.getValue());
+				}
+			}
+		}
+		return cachedAssets;
+	}
+
+	private static Map<Integer, Integer> makeMap(R_get_corporations_corporation_id_assets asset) {
+		Map<Integer, Integer> ret = new HashMap<>();
+		ret.put(asset.type_id, asset.quantity);
+		return ret;
+	}
+
+	private static Map<Integer, Integer> mergeMap(Map<Integer, Integer> m1, Map<Integer, Integer> m2) {
+		for (Entry<Integer, Integer> e : m2.entrySet()) {
+			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
+		}
+		return m1;
+	}
+
+	private ObservableList<R_get_corporations_corporation_id_blueprints> cachedBlueprints = FXCollections
+			.observableArrayList();
+
+	private long cachedBlueprintsExpire = 0;
+
+	public ObservableList<R_get_corporations_corporation_id_blueprints> getBlueprints() {
+		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+			synchronized (cachedBlueprints) {
+				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+					Stream<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
+							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.corporation_id(), p, h),
+							l -> cachedBlueprintsExpire = l);
+					cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+				}
+			}
+		}
+		return cachedBlueprints;
 	}
 
 }
