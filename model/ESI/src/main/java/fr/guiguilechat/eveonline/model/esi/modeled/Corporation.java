@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
@@ -34,17 +33,9 @@ public class Corporation {
 	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> jobs() {
 		synchronized (jobsCache) {
 			if (System.currentTimeMillis() >= jobsCacheExpire) {
-				Map<String, List<String>> headers = new HashMap<>();
-				R_get_corporations_corporation_id_industry_jobs[] firstPage = con.raw
-						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, 1, headers);
-				int nbpages = ESIConnection.getNbPages(headers);
-				jobsCacheExpire = ESIConnection.getCacheExpire(headers);
-				Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = Stream
-						.concat(Stream.of(firstPage),
-								IntStream.rangeClosed(2, nbpages).parallel()
-								.mapToObj(page -> con.raw.get_corporations_corporation_id_industry_jobs(
-										con.character.corporation_id(), false, page, null))
-								.flatMap(Stream::of))
+				Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = ESIConnection
+						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(),
+								false, p, h), l -> jobsCacheExpire = l)
 						.collect(Collectors.toMap(job -> job.job_id, job -> job));
 				jobsCache.keySet().retainAll(newitems.keySet());
 				jobsCache.putAll(newitems);
@@ -97,12 +88,33 @@ public class Corporation {
 	 * @return the location->typeid->quantity
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
+		System.err.println("get corp " + con.character.corporation_id() + " assets");
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
-				Map<Long, Map<Integer, Integer>> newitems = ESIConnection
+				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.corporation_id(), p, h),
 								l -> assetsExpire = l)
-						.collect(Collectors.toMap(a -> a.location_id, Corporation::makeMap, Corporation::mergeMap));
+						.toArray(R_get_corporations_corporation_id_assets[]::new);
+				for (R_get_corporations_corporation_id_assets a : itemsArr) {
+					System.err.println(a.item_id + " is " + a.quantity + " of item type " + a.type_id + " in " + a.location_id
+							+ " locationflag:" + a.location_flag + " locationtype:" + a.location_type);
+				}
+				// we make the map of itemid->locations. if a location is actually an
+				// asset, we
+				// iterally map it to this asset's location instead
+				Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+						.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
+				Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream()
+						.collect(Collectors.toMap(Entry::getKey, e -> {
+							Long ret = e.getValue();
+							while (baseLocationMap.containsKey(ret)) {
+								ret = baseLocationMap.get(ret);
+							}
+							return ret;
+						}));
+				Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
+						.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
+
 				for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
 					ObservableMap<Integer, Integer> om = cachedAssets.get(e.getKey());
 					if (om == null) {

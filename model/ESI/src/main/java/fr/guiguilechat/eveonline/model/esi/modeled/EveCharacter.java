@@ -107,10 +107,10 @@ public class EveCharacter {
 	public ObservableList<R_get_characters_character_id_industry_jobs> getIndustryJobs() {
 		synchronized (jobsCache) {
 			if (System.currentTimeMillis() >= jobsCacheEnd) {
-				List<R_get_characters_character_id_industry_jobs> ret =
-						ESIConnection.loadPages(
-								(p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
-								l -> jobsCacheEnd = l).collect(Collectors.toList());
+				List<R_get_characters_character_id_industry_jobs> ret = ESIConnection
+						.loadPages((p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
+								l -> jobsCacheEnd = l)
+						.collect(Collectors.toList());
 				jobsCache.clear();
 				jobsCache.addAll(ret);
 			}
@@ -131,8 +131,7 @@ public class EveCharacter {
 		synchronized (cacheBookmarks) {
 			if (System.currentTimeMillis() >= bookmarkCacheEnd) {
 				// first we get all the folders.
-				Map<Integer, String> folders =
-						ESIConnection
+				Map<Integer, String> folders = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
 								l -> bookmarkCacheEnd = l)
 						.collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
@@ -251,12 +250,32 @@ public class EveCharacter {
 	 * @return the location->typeid->quantity
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
-		synchronized (cachedAssets){
-			if(assetsExpire<System.currentTimeMillis()) {
-				Map<Long, Map<Integer, Integer>> newitems = ESIConnection
+		System.err.println("get character " + con.characterId() + " assets");
+		synchronized (cachedAssets) {
+			if (assetsExpire < System.currentTimeMillis()) {
+				R_get_characters_character_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_assets(con.characterId(), p, h),
 								l -> assetsExpire = l)
-						.collect(Collectors.toMap(a -> a.location_id, EveCharacter::makeMap, EveCharacter::mergeMap));
+						.toArray(R_get_characters_character_id_assets[]::new);
+				for (R_get_characters_character_id_assets a : itemsArr) {
+					System.err.println(a.item_id + " is " + a.quantity + " of item type " + a.type_id + " in " + a.location_id
+							+ " locationflag:" + a.location_flag + " locationtype:" + a.location_type);
+				}
+				// we make the map of itemid->locations. if a location is actually an
+				// asset, we
+				// iterally map it to this asset's location instead
+				Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
+						.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id));
+				Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream()
+						.collect(Collectors.toMap(Entry::getKey, e -> {
+							Long ret = e.getValue();
+							while (baseLocationMap.containsKey(ret)) {
+								ret = baseLocationMap.get(ret);
+							}
+							return ret;
+						}));
+				Map<Long, Map<Integer, Integer>> newitems = Stream.of(itemsArr)
+						.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 				for (Entry<Long, Map<Integer, Integer>> e : newitems.entrySet()) {
 					ObservableMap<Integer, Integer> om = cachedAssets.get(e.getKey());
 					if (om == null) {
@@ -288,7 +307,7 @@ public class EveCharacter {
 
 	public synchronized Map<Integer, Integer> getSkills() {
 		if (skills == null) {
-			skills= Stream.of(con.raw.get_characters_character_id_skills(con.characterId(), null).skills)
+			skills = Stream.of(con.raw.get_characters_character_id_skills(con.characterId(), null).skills)
 					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
 		}
 		return skills;

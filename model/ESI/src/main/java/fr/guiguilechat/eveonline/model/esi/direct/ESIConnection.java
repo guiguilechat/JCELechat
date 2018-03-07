@@ -293,8 +293,7 @@ public class ESIConnection implements Swagger {
 		if (datel == null || datel.isEmpty()) {
 			return System.currentTimeMillis();
 		}
-		return System.currentTimeMillis()
-				+ 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
+		return System.currentTimeMillis() + 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
 				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
 	}
 
@@ -327,9 +326,8 @@ public class ESIConnection implements Swagger {
 		T[] res = resourceAccess.apply(1, headerHandler);
 		int nbpages = ESIConnection.getNbPages(headerHandler);
 		cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
-		return Stream
-				.concat(Stream.of(res),
-						IntStream.rangeClosed(2, nbpages).parallel()
+		return res == null ? Stream.empty()
+				: Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
 						.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
 	}
 }
