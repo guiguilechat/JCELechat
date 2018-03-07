@@ -139,10 +139,6 @@ items:
     id: 43578
     name: ♦ Tristan
     volume: 26500.0
-  ♦ Vigil:
-    id: 43588
-    name: ♦ Vigil
-    volume: 17400.0
   ♦ Worm:
     id: 46053
     name: ♦ Worm
@@ -163,7 +159,7 @@ items:
     id: 47197
     name: ♦ test_ewar
     volume: 27289.0
-  �� Succubus:
-    id: 44107
-    name: �� Succubus
-    volume: 28600.0
+  �� Vigil:
+    id: 43588
+    name: �� Vigil
+    volume: 17400.0

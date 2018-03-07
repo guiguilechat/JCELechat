@@ -7,7 +7,7 @@
 		
 		
 		<module>ESI</module>
-		<module>APIv2</module>
+		
 		<module>ESI-compiler</module>
 		<module>sde</module>
 		

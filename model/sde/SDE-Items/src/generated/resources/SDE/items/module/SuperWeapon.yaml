@@ -519,7 +519,7 @@ items:
     id: 41439
     name: ‘Iron Pike’ Kinetic Lance
     volume: 8000.0
-  ‘Jormungandr�� Explosive Reaper:
+  ‘Jormungandr’ Explosive Reaper:
     CanFitShipType1: 23773
     CanFitShipType2: 42126
     CanFitShipType3: 42241
@@ -561,7 +561,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 41444
-    name: ‘Jormungandr�� Explosive Reaper
+    name: ‘Jormungandr’ Explosive Reaper
     volume: 8000.0
   ‘Phalarica’ Thermal Lance:
     CanFitShipType1: 671
