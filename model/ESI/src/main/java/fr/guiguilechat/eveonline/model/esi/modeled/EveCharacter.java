@@ -250,17 +250,13 @@ public class EveCharacter {
 	 * @return the location->typeid->quantity
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
-		System.err.println("get character " + con.characterId() + " assets");
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
 				R_get_characters_character_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_assets(con.characterId(), p, h),
 								l -> assetsExpire = l)
+						.filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(R_get_characters_character_id_assets[]::new);
-				for (R_get_characters_character_id_assets a : itemsArr) {
-					System.err.println(a.item_id + " is " + a.quantity + " of item type " + a.type_id + " in " + a.location_id
-							+ " locationflag:" + a.location_flag + " locationtype:" + a.location_type);
-				}
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
 				// iterally map it to this asset's location instead

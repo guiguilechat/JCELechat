@@ -2,11 +2,17 @@ package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.util.HashMap;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import is.ccp.tech.esi.Swagger.language;
 import is.ccp.tech.esi.responses.R_get_universe_structures_structure_id;
 
 public class Universe {
+
+	@SuppressWarnings("unused")
+	private final static Logger logger = LoggerFactory.getLogger(Universe.class);
 
 	private final ESIAccount parent;
 
@@ -51,7 +57,7 @@ public class Universe {
 					System.err.println("" + locationid + " = structure");
 					ret = struct.name;
 				} else {
-
+					System.err.println("" + locationid + " = unknown");
 				}
 			}
 			if (ret == null) {

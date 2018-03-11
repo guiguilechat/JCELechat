@@ -55,7 +55,7 @@ public class ESIConnection implements Swagger {
 			logger.trace("fetching access token");
 			accessToken = ESITools.getAccessToken(basicAuth, refreshToken);
 		}
-		return accessToken.token;
+		return accessToken == null ? null : accessToken.token;
 	}
 
 	public String getAuthorization() {
@@ -304,8 +304,10 @@ public class ESIConnection implements Swagger {
 	 * @return
 	 */
 	public static int getNbPages(Map<String, List<String>> headers) {
-		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0) : null;
-		return pages == null ? 1 : Integer.parseInt(pages);
+		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0)
+				: headers.containsKey("X-Pages") ? headers.get("X-Pages").get(0) : null;
+		// System.err.println("header pages=" + pages + " header=" + headers);
+				return pages == null ? 1 : Integer.parseInt(pages);
 	}
 
 	/**
@@ -325,6 +327,7 @@ public class ESIConnection implements Swagger {
 		Map<String, List<String>> headerHandler = new HashMap<>();
 		T[] res = resourceAccess.apply(1, headerHandler);
 		int nbpages = ESIConnection.getNbPages(headerHandler);
+		// System.err.println("nb pages : " + nbpages);
 		cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
 		return res == null ? Stream.empty()
 				: Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()

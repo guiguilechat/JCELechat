@@ -6,14 +6,13 @@ public class R_get_corporations_corporation_id_orders {
     public int region_id;
     public long location_id;
     public String range;
-    public boolean is_buy_order;
     public double price;
     public int volume_total;
     public int volume_remain;
     public String issued;
-    public String state;
+    public boolean is_buy_order;
     public int min_volume;
-    public int wallet_division;
-    public int duration;
     public double escrow;
+    public int duration;
+    public int wallet_division;
 }

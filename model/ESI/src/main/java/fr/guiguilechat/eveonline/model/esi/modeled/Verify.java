@@ -21,6 +21,10 @@ public class Verify {
 		if (verify == null) {
 			verify = raw.verify();
 		}
+		if (verify == null) {
+			verify = new R_Verify();
+			verify.CharacterName = null;
+		}
 		return verify;
 	}
 

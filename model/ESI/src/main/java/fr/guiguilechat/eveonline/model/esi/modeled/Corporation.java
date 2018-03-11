@@ -94,11 +94,8 @@ public class Corporation {
 				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.corporation_id(), p, h),
 								l -> assetsExpire = l)
+						.filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(R_get_corporations_corporation_id_assets[]::new);
-				for (R_get_corporations_corporation_id_assets a : itemsArr) {
-					System.err.println(a.item_id + " is " + a.quantity + " of item type " + a.type_id + " in " + a.location_id
-							+ " locationflag:" + a.location_flag + " locationtype:" + a.location_type);
-				}
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
 				// iterally map it to this asset's location instead
