@@ -24,15 +24,18 @@ public class Industry {
 		}
 	}
 
-	private long systemIndicesCacheEnd = 0;
+	private long systemIndicesCacheExpire = 0;
 
 	private Map<Integer, IndustryIndices> systemIndicesCache = new HashMap<>();
 
 	private void dlIndexes() {
-		if (System.currentTimeMillis() <= systemIndicesCacheEnd) {
+		if (System.currentTimeMillis() <= systemIndicesCacheExpire) {
 			return;
 		}
 		synchronized (systemIndicesCache) {
+			if (System.currentTimeMillis() <= systemIndicesCacheExpire) {
+				return;
+			}
 			Map<String, List<String>> headers = new HashMap<>();
 			R_get_industry_systems[] results = con.raw.get_industry_systems(headers);
 			systemIndicesCache.clear();
@@ -65,7 +68,7 @@ public class Industry {
 				}
 				systemIndicesCache.put(sysid, indices);
 			}
-			systemIndicesCacheEnd = ESIConnection.getCacheExpire(headers);
+			systemIndicesCacheExpire = ESIConnection.getCacheExpire(headers);
 		}
 	}
 

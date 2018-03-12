@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.time.ZonedDateTime;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -62,6 +63,26 @@ public class ESIConnection implements Swagger {
 		return "Bearer " + getAccessToken();
 	}
 
+	private static HashMap<String, Integer> requestedURLs = new HashMap<>();
+
+	public static Map<String, Integer> getRequestedURls() {
+		return Collections.unmodifiableMap(requestedURLs);
+	}
+
+	/**
+	 * get the ascending order of urls requested; that means url most required is
+	 * at the end.
+	 */
+	public static List<Entry<String, Integer>> sortedUrls() {
+		ArrayList<Entry<String, Integer>> list = new ArrayList<>(requestedURLs.entrySet());
+		Collections.sort(list, (e1, e2) -> e1.getValue() - e2.getValue());
+		return list;
+	}
+
+	public static void clearRequestedURls() {
+		requestedURLs.clear();
+	}
+
 	/**
 	 * connect to an url and retrieve the result.
 	 *
@@ -80,6 +101,9 @@ public class ESIConnection implements Swagger {
 	 */
 	public static String connect(String url, String method, Map<String, String> properties, String transmit,
 			Map<String, List<String>> headerHandler) {
+		synchronized (requestedURLs) {
+			requestedURLs.put(url, 1 + requestedURLs.getOrDefault(url, 0));
+		}
 		for (int retry = 10; retry > 0; retry--) {
 			try {
 				URL target = new URL(url);
@@ -306,7 +330,7 @@ public class ESIConnection implements Swagger {
 	public static int getNbPages(Map<String, List<String>> headers) {
 		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0)
 				: headers.containsKey("X-Pages") ? headers.get("X-Pages").get(0) : null;
-		// System.err.println("header pages=" + pages + " header=" + headers);
+				// System.err.println("header pages=" + pages + " header=" + headers);
 				return pages == null ? 1 : Integer.parseInt(pages);
 	}
 
