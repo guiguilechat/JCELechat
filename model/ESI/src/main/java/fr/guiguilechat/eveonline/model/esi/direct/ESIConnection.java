@@ -286,7 +286,15 @@ public class ESIConnection implements Swagger {
 		if (o.getClass().isArray()) {
 			Class<?> ct = o.getClass().getComponentType();
 			if (ct.isPrimitive()) {
-				if (ct == int.class || ct == short.class || ct == byte.class || ct == char.class || ct == boolean.class) {
+				if (ct == boolean.class) {
+					boolean[] b = (boolean[]) o;
+					return IntStream.range(0, b.length - 1).mapToObj(i -> Boolean.toString(b[i]))
+							.collect(Collectors.joining(","));
+				} else if (ct == char.class) {
+					char[] c = (char[]) o;
+					return IntStream.range(0, c.length - 1).mapToObj(i -> Character.toString(c[i]))
+							.collect(Collectors.joining(","));
+				} else if (ct == int.class || ct == short.class || ct == byte.class) {
 					return IntStream.of((int[]) o).mapToObj(Integer::toString).collect(Collectors.joining(","));
 				} else if (ct == long.class) {
 					return LongStream.of((long[]) o).mapToObj(Long::toString).collect(Collectors.joining(","));
@@ -330,7 +338,6 @@ public class ESIConnection implements Swagger {
 	public static int getNbPages(Map<String, List<String>> headers) {
 		String pages = headers.containsKey("x-pages") ? headers.get("x-pages").get(0)
 				: headers.containsKey("X-Pages") ? headers.get("X-Pages").get(0) : null;
-				// System.err.println("header pages=" + pages + " header=" + headers);
 				return pages == null ? 1 : Integer.parseInt(pages);
 	}
 
@@ -338,10 +345,11 @@ public class ESIConnection implements Swagger {
 	 * load the pages for a given resource access.
 	 *
 	 * @param resourceAccess
-	 *          loads given page , and store header values. (page, store->result)
+	 *          loads given page , and store header values. (page, store->result).
+	 *          Must be able to handle null store.
 	 * @param cacheExpireStore
 	 *          store the cache expiration value, retrieved from the headers of
-	 *          the first page.
+	 *          the first page. can be null.
 	 * @return the stream of values retrieved from the first page and following
 	 *         pages. Those values are only fetched on demand, store them using
 	 *         collect to avoid delay on iteration.
@@ -351,8 +359,9 @@ public class ESIConnection implements Swagger {
 		Map<String, List<String>> headerHandler = new HashMap<>();
 		T[] res = resourceAccess.apply(1, headerHandler);
 		int nbpages = ESIConnection.getNbPages(headerHandler);
-		// System.err.println("nb pages : " + nbpages);
-		cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
+		if (cacheExpireStore != null) {
+			cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
+		}
 		return res == null ? Stream.empty()
 				: Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
 						.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
