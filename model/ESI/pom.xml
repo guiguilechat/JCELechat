@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>2.2.1</version>
+		<version>3.1.1</version>
 	</parent>
 	<groupId>fr.guiguilechat.eveonline.model</groupId>
 	<artifactId>ESI</artifactId>
@@ -46,7 +46,7 @@
 				<configuration>
 					<mainClass>fr.guiguilechat.eveonline.model.esi.Compiler</mainClass>
 					<arguments>
-						<argument>https://esi.tech.ccp.is/latest/</argument>
+						<argument>https://esi.evetech.net/latest/</argument>
 						<argument>${project.basedir}/src/generated/java</argument>
 					</arguments>
 				</configuration>

@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import is.ccp.tech.esi.Swagger;
+import net.evetech.esi.Swagger;
 
 /**
  * code to make a sso key

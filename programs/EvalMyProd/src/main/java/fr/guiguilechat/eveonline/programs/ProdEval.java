@@ -26,7 +26,7 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Module;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
-import is.ccp.tech.esi.responses.R_get_characters_character_id_blueprints;
+import net.evetech.esi.responses.R_get_characters_character_id_blueprints;
 
 /**
  *

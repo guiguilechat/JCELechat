@@ -8,13 +8,13 @@ import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import is.ccp.tech.esi.Swagger.order_type;
-import is.ccp.tech.esi.responses.R_get_markets_prices;
-import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import net.evetech.esi.Swagger.order_type;
+import net.evetech.esi.responses.R_get_markets_prices;
+import net.evetech.esi.responses.R_get_markets_region_id_orders;
 
 public class Markets {
 

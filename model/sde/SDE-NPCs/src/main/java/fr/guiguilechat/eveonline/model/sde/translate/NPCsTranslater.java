@@ -25,10 +25,10 @@ import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
-import is.ccp.tech.esi.responses.R_get_alliances_alliance_id;
-import is.ccp.tech.esi.responses.R_get_corporations_corporation_id;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
-import is.ccp.tech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
+import net.evetech.esi.responses.R_get_alliances_alliance_id;
+import net.evetech.esi.responses.R_get_corporations_corporation_id;
+import net.evetech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
+import net.evetech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 
 public class NPCsTranslater {
 

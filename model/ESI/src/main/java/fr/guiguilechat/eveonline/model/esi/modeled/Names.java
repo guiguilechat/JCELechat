@@ -7,9 +7,9 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import is.ccp.tech.esi.responses.R_get_characters_names;
-import is.ccp.tech.esi.responses.R_get_universe_structures_structure_id;
-import is.ccp.tech.esi.responses.R_post_universe_names;
+import net.evetech.esi.responses.R_get_characters_names;
+import net.evetech.esi.responses.R_get_universe_structures_structure_id;
+import net.evetech.esi.responses.R_post_universe_names;
 
 public class Names {
 
