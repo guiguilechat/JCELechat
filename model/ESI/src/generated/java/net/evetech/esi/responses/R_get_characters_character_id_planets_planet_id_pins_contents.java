@@ -1,0 +1,6 @@
+package net.evetech.esi.responses;
+
+public class R_get_characters_character_id_planets_planet_id_pins_contents {
+    public int type_id;
+    public long amount;
+}

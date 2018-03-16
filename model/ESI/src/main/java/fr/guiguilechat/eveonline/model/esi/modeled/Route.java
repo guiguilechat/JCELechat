@@ -1,7 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import is.ccp.tech.esi.Swagger.flag;
+import net.evetech.esi.Swagger.flag;
 
 public class Route {
 

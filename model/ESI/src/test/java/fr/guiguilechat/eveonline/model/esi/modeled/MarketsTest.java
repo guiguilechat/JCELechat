@@ -5,7 +5,7 @@ import java.text.ParseException;
 import org.testng.annotations.Test;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import is.ccp.tech.esi.responses.R_get_markets_region_id_orders;
+import net.evetech.esi.responses.R_get_markets_region_id_orders;
 
 public class MarketsTest {
 
@@ -24,10 +24,6 @@ public class MarketsTest {
 	@Test
 	public void testDateConversion() throws ParseException {
 		ESIAccount.formatter.parse("Tue, 30 Jan 2018 22:14:44 GMT");
-	}
-
-	@Test
-	public void testGetPrices() {
 	}
 
 }
