@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.esi.direct;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -143,19 +144,17 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_FORBIDDEN:
 				case HttpsURLConnection.HTTP_NOT_FOUND:
 				case HttpsURLConnection.HTTP_BAD_METHOD:
-					StringBuilder sb = new StringBuilder("[" + method + "]" + url + " data=" + transmit + " " + responseCode);
-					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-					logger.warn(sb.toString());
+					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 					return null;
 					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				case HttpsURLConnection.HTTP_BAD_GATEWAY:
-					logger.info(responseCode + " on " + url);
+				case HttpsURLConnection.HTTP_UNAVAILABLE:
+				case HttpsURLConnection.HTTP_GATEWAY_TIMEOUT:
+					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 					break;
 				default:
-					sb = new StringBuilder("[" + method + "]" + url + " " + responseCode);
-					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(sb::append);
-					logger.warn(sb.toString());
+					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 				}
 			} catch (Exception e) {
 				logger.debug("while geting " + url, e);
@@ -163,6 +162,14 @@ public class ESIConnection implements Swagger {
 			}
 		}
 		return null;
+	}
+
+	private static void logConnectError(String method, String url, String transmit, int responseCode,
+			InputStream errorStream) {
+		StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
+		new BufferedReader(new InputStreamReader(errorStream)).lines().forEach(sb::append);
+		logger.warn(sb.toString());
+
 	}
 
 	/**

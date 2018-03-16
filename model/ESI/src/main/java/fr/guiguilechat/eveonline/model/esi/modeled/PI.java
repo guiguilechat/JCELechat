@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.lang.reflect.Field;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -11,7 +12,6 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.modeled.PI.ColonyInfo;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 import net.evetech.esi.responses.R_get_characters_character_id_planets;
@@ -70,15 +70,23 @@ public class PI {
 				Map<String, List<String>> headerHandler = new HashMap<>();
 				R_get_characters_character_id_planets[] planetIds = acc.raw
 						.get_characters_character_id_planets(acc.characterId(), headerHandler);
-				Set<Integer> pids = Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
+				Set<Integer> pids = planetIds == null ? Collections.emptySet()
+						: Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
 				cachedPlanets.keySet().retainAll(pids);
 				planetCacheExpiry = ESIConnection.getCacheExpire(headerHandler);
-				Stream.of(planetIds).parallel().map(pli -> {
-					ColonyInfo ret = new ColonyInfo(
-							acc.raw.get_characters_character_id_planets_planet_id(acc.characterId(), pli.planet_id, null));
-					ret.addInfo(pli);
-					return ret;
-				}).forEachOrdered(ci -> cachedPlanets.put(ci.planet_id, ci));
+				if (planetIds != null) {
+					Stream.of(planetIds).parallel().map(pli -> {
+						R_get_characters_character_id_planets_planet_id planet = acc.raw
+								.get_characters_character_id_planets_planet_id(acc.characterId(), pli.planet_id, null);
+						if (planet != null) {
+							ColonyInfo ret = new ColonyInfo(planet);
+							ret.addInfo(pli);
+							return ret;
+						} else {
+							return null;
+						}
+					}).filter(o -> o != null).forEachOrdered(ci -> cachedPlanets.put(ci.planet_id, ci));
+				}
 			}
 		}
 		return cachedPlanets;
