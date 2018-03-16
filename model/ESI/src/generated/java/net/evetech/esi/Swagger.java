@@ -475,6 +475,12 @@ public interface Swagger {
         return convert((fetched), (net.evetech.esi.responses.R_get_corporations_corporation_id_contracts_contract_id_bids[].class));
     }
 
+    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, int page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id)+"?"+"&page="+flatten(page));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (net.evetech.esi.responses.R_get_corporations_corporation_id_shareholders[].class));
+    }
+
     public default R_get_corporations_corporation_id get_corporations_corporation_id(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/latest/corporations/{corporation_id}/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,false, headerHandler);
@@ -617,12 +623,6 @@ public interface Swagger {
         String url = ("https://esi.evetech.net/latest/corporations/{corporation_id}/outposts/{outpost_id}/".replace("{corporation_id}", ""+corporation_id).replace("{outpost_id}", ""+outpost_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (net.evetech.esi.responses.R_get_corporations_corporation_id_outposts_outpost_id.class));
-    }
-
-    public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, int page, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id)+"?"+"&page="+flatten(page));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (net.evetech.esi.responses.R_get_corporations_corporation_id_shareholders[].class));
     }
 
     public default int[] get_dogma_attributes(Map<String, List<String>> headerHandler) {
@@ -1092,6 +1092,14 @@ public interface Swagger {
         return convert((fetched), (net.evetech.esi.responses.R_get_status.class));
     }
 
+    public default R_post_universe_ids post_universe_ids(Swagger.language language, String[] names, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/latest/universe/ids/"+"?"+(language==null?"":"&language="+flatten(language)));
+        Map<String, Object> content = new HashMap<>();
+        content.put("names", names);
+        String fetched = connectPost(url, content, false, headerHandler);
+        return convert((fetched), (net.evetech.esi.responses.R_post_universe_ids.class));
+    }
+
     public default R_get_universe_planets_planet_id get_universe_planets_planet_id(int planet_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/latest/universe/planets/{planet_id}/".replace("{planet_id}", ""+planet_id));
         String fetched=connectGet(url,false, headerHandler);
@@ -1260,14 +1268,6 @@ public interface Swagger {
         String url = ("https://esi.evetech.net/latest/universe/ancestries/"+"?"+(language==null?"":"&language="+flatten(language)));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (net.evetech.esi.responses.R_get_universe_ancestries[].class));
-    }
-
-    public default R_post_universe_ids post_universe_ids(Swagger.language language, String[] names, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/latest/universe/ids/"+"?"+(language==null?"":"&language="+flatten(language)));
-        Map<String, Object> content = new HashMap<>();
-        content.put("names", names);
-        String fetched = connectPost(url, content, false, headerHandler);
-        return convert((fetched), (net.evetech.esi.responses.R_post_universe_ids.class));
     }
 
     public default void post_ui_openwindow_marketdetails(int type_id, Map<String, List<String>> headerHandler) {
