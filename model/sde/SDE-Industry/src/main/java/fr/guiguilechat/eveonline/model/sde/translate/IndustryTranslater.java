@@ -4,8 +4,11 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -16,6 +19,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
+import fr.guiguilechat.eveonline.model.sde.industry.Usage;
 import fr.guiguilechat.eveonline.model.sde.items.types.decryptors.GenericDecryptor;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
@@ -42,8 +46,9 @@ public class IndustryTranslater {
 
 		LinkedHashMap<String, Blueprint> blueprints = new LinkedHashMap<>();
 		LinkedHashMap<String, InventionDecryptor> decryptors = new LinkedHashMap<>();
+		LinkedHashMap<String, Usage> usages = new LinkedHashMap<>();
 
-		translate(blueprints, decryptors);
+		translate(blueprints, decryptors, usages);
 
 		// sort
 
@@ -60,13 +65,14 @@ public class IndustryTranslater {
 
 		Blueprint.export(blueprints, folderOut);
 		InventionDecryptor.export(decryptors, folderOut);
+		Usage.export(usages, folderOut);
 
 		System.err.println("exported industry in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 	}
 
 	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
-			LinkedHashMap<String, InventionDecryptor> decryptors) {
+			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, Usage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
@@ -75,6 +81,7 @@ public class IndustryTranslater {
 					Blueprint bp2 = makeBlueprint(e.getValue(), types);
 					bp2.name = type.enName();
 					blueprints.put(type.enName(), bp2);
+					addUsages(bp2, usages);
 				} else {
 					logger.info("skipping bp for unpublished "+type.enName());
 				}
@@ -85,6 +92,12 @@ public class IndustryTranslater {
 
 		for (Entry<String, GenericDecryptor> e : GenericDecryptor.load().entrySet()) {
 			decryptors.put(e.getKey(), convertDecryptor(e.getValue()));
+		}
+		ArrayList<Entry<String, Usage>> l = new ArrayList<>(usages.entrySet());
+		Collections.sort(l, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
+		usages.clear();
+		for (Entry<String, Usage> e : l) {
+			usages.put(e.getKey(), e.getValue());
 		}
 	}
 
@@ -139,5 +152,27 @@ public class IndustryTranslater {
 		ret.name = dec.name;
 		ret.probmult = dec.InventionPropabilityMultiplier;
 		return ret;
+	}
+
+	public static void addUsages(Blueprint bp, Map<String, Usage> usages) {
+		addUsages(bp.name, usages, bp.manufacturing.products, u -> u.productManuf);
+		addUsages(bp.name, usages, bp.manufacturing.materials, u -> u.materialManuf);
+		addUsages(bp.name, usages, bp.copying.materials, u -> u.materialCopy);
+		addUsages(bp.name, usages, bp.invention.materials, u -> u.materialInvention);
+		addUsages(bp.name, usages, bp.invention.products, u -> u.productInvention);
+		addUsages(bp.name, usages, bp.research_material.materials, u -> u.materialME);
+		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialTE);
+	}
+
+	protected static void addUsages(String name, Map<String, Usage> usages, List<Material> materials,
+			Function<Usage, Set<String>> categorizer) {
+		for (Material m : materials) {
+			Usage u = usages.get(m.name);
+			if (u == null) {
+				u = new Usage();
+				usages.put(m.name, u);
+			}
+			categorizer.apply(u).add(name);
+		}
 	}
 }
