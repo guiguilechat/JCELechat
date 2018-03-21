@@ -39,7 +39,7 @@ public class Blueprint {
 
 	public static Map<Integer, Blueprint> loadById() {
 		if (cacheById == null) {
-				cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
+			cacheById = load().entrySet().stream().collect(Collectors.toMap(e -> e.getValue().id, e -> e.getValue()));
 		}
 		return cacheById;
 	}
@@ -97,5 +97,7 @@ public class Blueprint {
 	public int id;
 
 	public String name;
+
+	public int maxProd;
 
 }

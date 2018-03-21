@@ -887,7 +887,7 @@ usages:
     materialManuf: !!set
       Abaddon Tash-Murkon Edition Blueprint: null
       Abaddon Kador Edition Blueprint: null
-      地狱天使级YC117年��别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
     productManuf: !!set
       Abaddon Blueprint: null
   Abaddon Kador Edition:
@@ -1496,7 +1496,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场��YC117年特别版蓝图: null
     productManuf: !!set
       Armageddon Blueprint: null
   Armageddon Navy Issue:
@@ -11510,7 +11510,7 @@ usages:
       EMP XL Blueprint: null
   Eagle:
     materialManuf: !!set
-      银鹰级YC117年���别版蓝图: null
+      银鹰级YC117年特别版蓝图: null
     productManuf: !!set
       Eagle Blueprint: null
   Eagle Blueprint:
@@ -15218,7 +15218,7 @@ usages:
       Incursus Blueprint: null
   Ishtar:
     materialManuf: !!set
-      伊什塔��YC117年特别版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
     productManuf: !!set
       Ishtar Blueprint: null
   Ishtar Blueprint:
@@ -30870,7 +30870,7 @@ usages:
       Raven Guristas Edition Blueprint: null
       Raven Kaalakiota Edition Blueprint: null
       Raven Nugoeihuvi Edition Blueprint: null
-      乌鸦级YC117年特别版蓝图: null
+      乌鸦级YC117年特��版蓝图: null
     productManuf: !!set
       Raven Blueprint: null
   Raven Guristas Edition:
@@ -41796,39 +41796,39 @@ usages:
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
-  万王宝座级YC117年特别版:
-    productManuf: !!set
-      万王宝座级YC117年特别版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
-      乌鸦级YC117年特别版蓝图: null
-  伊什塔级YC117年��别版:
+      乌鸦级YC117年特��版蓝图: null
+  伊什塔级YC117年特别版:
     productManuf: !!set
-      伊什塔��YC117年特别版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
       响尾蛇级YC117年特别版蓝图: null
-  地狱天使级YC117年特��版:
+  地狱天使级YC117年特别版:
     productManuf: !!set
-      地狱天使级YC117年��别版蓝图: null
+      地狱天使级YC117年特别版蓝图: null
   多米尼克斯级YC117年特别版:
     productManuf: !!set
       多米尼克斯级YC117年特别版蓝图: null
   幼龙级YC117年特别版:
     productManuf: !!set
       幼龙级YC117年特别版蓝图: null
-  末日沙场级YC117年特别版:
+  末日沙场��YC117年特别版:
     productManuf: !!set
-      末日沙场级YC117年特别版蓝图: null
+      末日沙场��YC117年特别版蓝图: null
   毒蜥级YC117年特别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
   灾难级YC117年特别版:
     productManuf: !!set
       灾难级YC117年特别版蓝图: null
-  银鹰级YC117年特别版:
+  银���级YC117年特别版:
     productManuf: !!set
-      银鹰级YC117年���别版蓝图: null
+      银鹰级YC117年特别版蓝图: null
   马克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
+  ��王宝座级YC117年特别版:
+    productManuf: !!set
+      万王宝座级YC117年特别版蓝图: null
