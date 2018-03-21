@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_industry_systems;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_industry_systems_cost_indices;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import net.evetech.esi.responses.R_get_industry_systems;
-import net.evetech.esi.responses.R_get_industry_systems_cost_indices;
 
 public class Industry {
 

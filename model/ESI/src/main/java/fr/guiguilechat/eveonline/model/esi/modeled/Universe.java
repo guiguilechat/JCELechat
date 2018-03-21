@@ -6,8 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import net.evetech.esi.Swagger.language;
-import net.evetech.esi.responses.R_get_universe_structures_structure_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger.language;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id;
 
 public class Universe {
 

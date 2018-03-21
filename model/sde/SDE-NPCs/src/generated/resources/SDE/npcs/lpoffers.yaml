@@ -24516,3 +24516,33 @@ offers:
       - item: Tritanium
         quantity: 500000
       lp: 10000
+  16339:
+    id: 16339
+    name: Claymore(BPC)
+    product:
+      item: Claymore
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - item: R.A.M.- Starship Tech
+        quantity: 50
+      - item: Nuclear Reactor Unit
+        quantity: 53
+      - item: Plasma Thruster
+        quantity: 120
+      - item: Morphite
+        quantity: 300
+      - item: Construction Blocks
+        quantity: 375
+      - item: Ladar Sensor Cluster
+        quantity: 495
+      - item: Deflection Shield Emitter
+        quantity: 600
+      - item: Electrolytic Capacitor Unit
+        quantity: 900
+      - item: Nanomechanical Microprocessor
+        quantity: 2100
+      - item: Fernite Carbide Composite Armor Plate
+        quantity: 10500
+      lp: 10000

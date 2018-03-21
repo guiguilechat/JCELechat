@@ -1,0 +1,6 @@
+package fr.guiguilechat.eveonline.model.esi.compiled.responses;
+
+public class R_get_characters_character_id_calendar_event_id_attendees {
+    public int character_id;
+    public String event_response;
+}

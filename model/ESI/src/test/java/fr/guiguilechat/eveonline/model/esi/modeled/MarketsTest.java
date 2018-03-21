@@ -5,7 +5,7 @@ import java.text.ParseException;
 import org.testng.annotations.Test;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import net.evetech.esi.responses.R_get_markets_region_id_orders;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
 
 public class MarketsTest {
 

@@ -46,7 +46,7 @@
 				<configuration>
 					<mainClass>fr.guiguilechat.eveonline.model.esi.Compiler</mainClass>
 					<arguments>
-						<argument>https://esi.evetech.net/latest/</argument>
+						<argument>https://esi.tech.ccp.is/latest/</argument>
 						<argument>${project.basedir}/src/generated/java</argument>
 					</arguments>
 				</configuration>

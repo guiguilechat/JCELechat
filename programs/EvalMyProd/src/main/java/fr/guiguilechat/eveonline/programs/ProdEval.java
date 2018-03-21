@@ -17,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
@@ -26,7 +27,6 @@ import fr.guiguilechat.eveonline.model.sde.items.types.Module;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.model.sde.locations.SolarSystem;
-import net.evetech.esi.responses.R_get_characters_character_id_blueprints;
 
 /**
  *

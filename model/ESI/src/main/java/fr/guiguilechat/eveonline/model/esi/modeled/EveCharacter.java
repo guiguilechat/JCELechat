@@ -13,6 +13,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_assets;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_location;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.LongProperty;
@@ -21,13 +28,6 @@ import javafx.beans.property.SimpleLongProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
-import net.evetech.esi.responses.R_get_characters_character_id;
-import net.evetech.esi.responses.R_get_characters_character_id_assets;
-import net.evetech.esi.responses.R_get_characters_character_id_blueprints;
-import net.evetech.esi.responses.R_get_characters_character_id_bookmarks;
-import net.evetech.esi.responses.R_get_characters_character_id_industry_jobs;
-import net.evetech.esi.responses.R_get_characters_character_id_location;
-import net.evetech.esi.responses.R_get_characters_character_id_online;
 
 public class EveCharacter {
 

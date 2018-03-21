@@ -72,9 +72,21 @@ public class Compiler {
 		c.setBaseURL(args[0]);
 		JCodeModel cm = c.compile();
 		File dir = new File(args[1]);
+		delDir(dir);
 		dir.mkdirs();
 		cm.build(dir, (PrintStream) null);
 		logger.info("compiled esi in " + (System.currentTimeMillis() - startTime) / 1000 + "s");
+	}
+
+	protected static void delDir(File delete) {
+		if (delete.exists()) {
+			if (delete.isDirectory()) {
+				for (File child : delete.listFiles()) {
+					delDir(child);
+				}
+			}
+			delete.delete();
+		}
 	}
 
 	protected String baseURL;
@@ -105,10 +117,11 @@ public class Compiler {
 	public JCodeModel compile() throws JClassAlreadyExistsException {
 		Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
 		cm = new JCodeModel();
-		List<String> add = Arrays.asList(baseURL.split("/")[2].split("\\."));
-		Collections.reverse(add);
-		String rootPackage = add.stream().collect(Collectors.joining("."));
-		System.err.println("root package is " + rootPackage);
+		String rootPackage = Compiler.class.getPackage().getName() + ".compiled";
+		// List<String> add = Arrays.asList(baseURL.split("/")[2].split("\\."));
+		// Collections.reverse(add);
+		// rootPackage = add.stream().collect(Collectors.joining("."));
+		// System.err.println("root package is " + rootPackage);
 
 		jc = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
 

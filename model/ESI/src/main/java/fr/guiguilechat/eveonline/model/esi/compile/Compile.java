@@ -9,7 +9,7 @@ import fr.guiguilechat.eveonline.model.esi.Compiler;
 public class Compile {
 
 	public static void main(String... args) throws IOException, JClassAlreadyExistsException {
-		Compiler.main("https://esi.evetech.net/latest/", "src/generated/java/");
+		Compiler.main("https://esi.tech.ccp.is/latest/", "src/generated/java/");
 	}
 
 }

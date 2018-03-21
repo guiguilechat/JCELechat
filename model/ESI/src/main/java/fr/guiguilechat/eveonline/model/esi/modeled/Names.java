@@ -6,10 +6,10 @@ import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_names;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import net.evetech.esi.responses.R_get_characters_names;
-import net.evetech.esi.responses.R_get_universe_structures_structure_id;
-import net.evetech.esi.responses.R_post_universe_names;
 
 public class Names {
 

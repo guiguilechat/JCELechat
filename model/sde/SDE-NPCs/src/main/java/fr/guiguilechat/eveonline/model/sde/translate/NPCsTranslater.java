@@ -13,6 +13,10 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
@@ -25,10 +29,6 @@ import fr.guiguilechat.eveonline.model.sde.npcs.Agent;
 import fr.guiguilechat.eveonline.model.sde.npcs.Corporation;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
-import net.evetech.esi.responses.R_get_alliances_alliance_id;
-import net.evetech.esi.responses.R_get_corporations_corporation_id;
-import net.evetech.esi.responses.R_get_loyalty_stores_corporation_id_offers;
-import net.evetech.esi.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 
 public class NPCsTranslater {
 

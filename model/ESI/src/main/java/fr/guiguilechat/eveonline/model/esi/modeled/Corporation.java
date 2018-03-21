@@ -9,14 +9,14 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
-import net.evetech.esi.responses.R_get_corporations_corporation_id_assets;
-import net.evetech.esi.responses.R_get_corporations_corporation_id_blueprints;
-import net.evetech.esi.responses.R_get_corporations_corporation_id_bookmarks;
-import net.evetech.esi.responses.R_get_corporations_corporation_id_industry_jobs;
 
 public class Corporation {
 

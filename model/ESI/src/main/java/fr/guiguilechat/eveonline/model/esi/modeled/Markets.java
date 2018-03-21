@@ -7,14 +7,14 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger.order_type;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_prices;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import net.evetech.esi.Swagger.order_type;
-import net.evetech.esi.responses.R_get_markets_prices;
-import net.evetech.esi.responses.R_get_markets_region_id_orders;
 
 public class Markets {
 

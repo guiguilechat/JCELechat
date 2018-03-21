@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.sde.items;
 
 import java.io.IOException;
 
+import fr.guiguilechat.eveonline.model.sde.compile.SDECompiler;
+
 /**
  * a main class to launch compiler without using maven. this is the same
  * invocation as maven.
@@ -10,7 +12,7 @@ import java.io.IOException;
 public class CompileItems {
 
 	public static void main(String[] args) throws IOException {
-		fr.guiguilechat.eveonline.model.sde.compile.SDECompiler.main("src/generated/java",
+		SDECompiler.main("src/generated/java",
 				"src/generated/resources/SDE/items/", "SDE/items/");
 	}
 

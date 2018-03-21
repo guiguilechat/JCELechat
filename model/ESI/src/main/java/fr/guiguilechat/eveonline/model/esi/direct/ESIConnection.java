@@ -33,7 +33,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.ESITools;
 import fr.guiguilechat.eveonline.model.esi.ESITools.AccessToken;
-import net.evetech.esi.Swagger;
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 
 /**
  * raw access to the esi services using a connection.
