@@ -30,7 +30,7 @@ public class Corporation {
 			.observableHashMap();
 	private long jobsCacheExpire = 0;
 
-	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> jobs() {
+	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
 		synchronized (jobsCache) {
 			if (System.currentTimeMillis() >= jobsCacheExpire) {
 				Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = ESIConnection
@@ -42,6 +42,26 @@ public class Corporation {
 			}
 		}
 		return jobsCache;
+	}
+
+	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 1;
+	}
+
+	public static boolean isTE(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 3;
+	}
+
+	public static boolean isME(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 4;
+	}
+
+	public static boolean isCopy(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 5;
+	}
+
+	public static boolean isInvetion(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 8;
 	}
 
 	private long bookmarkCacheExpire = 0;

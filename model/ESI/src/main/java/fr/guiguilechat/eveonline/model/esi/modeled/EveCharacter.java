@@ -92,9 +92,10 @@ public class EveCharacter {
 		return getInfos().faction_id;
 	}
 
-	private long jobsCacheEnd = 0;
+	private long jobsCacheExpire = 0;
 
-	private ObservableList<R_get_characters_character_id_industry_jobs> jobsCache = FXCollections.observableArrayList();
+	private ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobsCache = FXCollections
+			.observableHashMap();
 
 	/**
 	 * fetch the list of industry jobs for this character. If the cache delay is
@@ -104,18 +105,38 @@ public class EveCharacter {
 	 *         will return the same value.
 	 *
 	 */
-	public ObservableList<R_get_characters_character_id_industry_jobs> getIndustryJobs() {
+	public ObservableMap<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
 		synchronized (jobsCache) {
-			if (System.currentTimeMillis() >= jobsCacheEnd) {
-				List<R_get_characters_character_id_industry_jobs> ret = ESIConnection
+			if (System.currentTimeMillis() >= jobsCacheExpire) {
+				Map<Integer, R_get_characters_character_id_industry_jobs> newitems = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
-								l -> jobsCacheEnd = l)
-						.collect(Collectors.toList());
-				jobsCache.clear();
-				jobsCache.addAll(ret);
+								l -> jobsCacheExpire = l)
+						.collect(Collectors.toMap(job -> job.job_id, job -> job));
+				jobsCache.keySet().retainAll(newitems.keySet());
+				jobsCache.putAll(newitems);
 			}
 		}
 		return jobsCache;
+	}
+
+	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 1;
+	}
+
+	public static boolean isTE(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 3;
+	}
+
+	public static boolean isME(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 4;
+	}
+
+	public static boolean isCopy(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 5;
+	}
+
+	public static boolean isInvetion(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 8;
 	}
 
 	private long bookmarkCacheEnd = 0;
