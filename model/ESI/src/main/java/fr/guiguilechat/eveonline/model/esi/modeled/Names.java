@@ -6,12 +6,17 @@ import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 
 public class Names {
+
+	private static final Logger logger = LoggerFactory.getLogger(Names.class);
 
 	protected final ESIConnection raw;
 
@@ -56,7 +61,7 @@ public class Names {
 			if (location >= 1000000000000l) {
 				R_get_universe_structures_structure_id res = raw.get_universe_structures_structure_id(location, null);
 				if (res == null) {
-					System.err.println("can't acces location " + location + " from character " + raw.verify().CharacterName);
+					logger.warn("can't acces location " + location + " from character " + raw.verify().CharacterName);
 				}
 				ret = res == null ? "forbidden_" + location : res.name;
 			} else {

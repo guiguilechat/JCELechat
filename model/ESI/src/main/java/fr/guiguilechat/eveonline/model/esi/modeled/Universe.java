@@ -11,7 +11,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_str
 
 public class Universe {
 
-	@SuppressWarnings("unused")
 	private final static Logger logger = LoggerFactory.getLogger(Universe.class);
 
 	private final ESIAccount parent;
@@ -54,10 +53,9 @@ public class Universe {
 				R_get_universe_structures_structure_id struct = parent.raw.get_universe_structures_structure_id(locationid,
 						null);
 				if (struct != null) {
-					System.err.println("" + locationid + " = structure");
 					ret = struct.name;
 				} else {
-					System.err.println("" + locationid + " = unknown");
+					logger.warn("location " + locationid + " = unknown");
 				}
 			}
 			if (ret == null) {

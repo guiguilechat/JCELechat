@@ -108,7 +108,6 @@ public class Corporation {
 	 * @return the location->typeid->quantity
 	 */
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
-		System.err.println("get corp " + con.character.corporation_id() + " assets");
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
 				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection

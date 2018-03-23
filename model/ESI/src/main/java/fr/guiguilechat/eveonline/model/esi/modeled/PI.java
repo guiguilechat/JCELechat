@@ -14,7 +14,6 @@ import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_planets_planet_id;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import fr.guiguilechat.eveonline.model.esi.modeled.PI.ColonyInfo;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
 
