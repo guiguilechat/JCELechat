@@ -1,6 +1,8 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.structures;
 
-public class recipients {
-    public String recipient_type;
-    public int recipient_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_mail_recipients;
+
+public class recipients
+    extends R_get_characters_character_id_mail_recipients
+{
 }

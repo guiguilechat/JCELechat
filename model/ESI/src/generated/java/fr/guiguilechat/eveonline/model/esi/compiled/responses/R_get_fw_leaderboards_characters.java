@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
-public class R_get_fw_leaderboards_characters {
-    public R_get_fw_leaderboards_characters_kills kills;
-    public R_get_fw_leaderboards_characters_victory_points victory_points;
+public class R_get_fw_leaderboards_characters
+    extends R_get_fw_leaderboards
+{
 }

@@ -398,11 +398,21 @@ public class Compiler {
 		}
 	}
 
+	protected HashMap<Map<String, String>, AbstractJClass> createdClasses = new HashMap<>();
+
 	protected AbstractJClass translateToClass(ObjectProperty p, JPackage pck, String name) {
+		Map<String, String> classDef = p.getProperties().entrySet().stream()
+				.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().getType()));
+		AbstractJClass createdClass = createdClasses.get(classDef);
 		try {
 			JDefinedClass cl = pck._class(name.replaceAll("_ok", ""));
-			for (Entry<String, Property> e : p.getProperties().entrySet()) {
-				cl.field(JMod.PUBLIC, translateToClass(e.getValue(), pck, name + "_" + e.getKey()), e.getKey());
+			if (createdClass != null) {
+				cl._extends(createdClass);
+			} else {
+				for (Entry<String, Property> e : p.getProperties().entrySet()) {
+					cl.field(JMod.PUBLIC, translateToClass(e.getValue(), pck, name + "_" + e.getKey()), e.getKey());
+				}
+				createdClasses.put(classDef, cl);
 			}
 			return cl;
 		} catch (JClassAlreadyExistsException e) {
