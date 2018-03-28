@@ -145,8 +145,8 @@ items:
     ShipBonus2AF: 5.0
     ShipBonusAF: -4.0
     ShipBonusGF: 20.0
-    ShipBonusPirateFaction2: 37.5
     ShipBonusRole7: -100.0
+    ShipBonusRole8: 37.5
     SignatureRadius: 35
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1987,8 +1987,8 @@ items:
     ShipBonus2AF: 5.0
     ShipBonusCF2: 25.0
     ShipBonusGF2: 10.0
-    ShipBonusPirateFaction2: -50.0
     ShipBonusRole7: 200.0
+    ShipBonusRole8: -50.0
     SignatureRadius: 32
     StructureUniformity: 1.0
     TechLevel: 1
@@ -5500,6 +5500,39 @@ items:
     id: 591
     name: Tormentor
     volume: 24398.0
+  Trig Small:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    CovertOpsAndReconOpsCloakModuleDelay: 30000
+    EmDamageResonance: 1.0
+    ExplosiveDamageResonance: 1.0
+    HeatAttenuationHi: 1.0
+    HeatAttenuationLow: 1.0
+    HeatAttenuationMed: 1.0
+    HeatGenerationMultiplier: 1.0
+    HullEmDamageResonance: 1.0
+    HullExplosiveDamageResonance: 1.0
+    HullKineticDamageResonance: 1.0
+    HullThermalDamageResonance: 1.0
+    KineticDamageResonance: 1.0
+    MaxDirectionalVelocity: 1
+    MinTargetVelDmgMultiplier: 1.0
+    MiningAmountMultiplier: 1.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    ShipBonus2AF: 5.0
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamageResonance: 1.0
+    WarpSpeedMultiplier: 3.0
+    id: 47269
+    name: Trig Small
+    volume: 28600.0
   Tristan:
     Agility: 3.440000057220459
     ArmorEmDamageResonance: 0.5

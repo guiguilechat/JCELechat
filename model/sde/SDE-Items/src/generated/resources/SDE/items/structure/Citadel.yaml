@@ -1,4 +1,78 @@
 items:
+  Amarr Faction Citadel:
+    ArmorDamageLimit: 15000
+    ArmorEmDamageResonance: 0.800000011920929
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 14400000
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 1.0
+    CapacitorCapacity: 400000.0
+    CpuOutput: 38000
+    ECMResistance: 9.999999747378752E-6
+    EmDamageResonance: 0.800000011920929
+    EnergyWarfareResistance: 9.999999747378752E-6
+    ExplosiveDamageResonance: 0.800000011920929
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 300000
+    FighterStandupHeavySlots: 2
+    FighterStandupLightSlots: 5
+    FighterStandupSupportSlots: 2
+    FighterTubes: 5
+    Hackable: 1
+    HiSlots: 6
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
+    Hp: 21600000
+    KineticDamageResonance: 0.800000011920929
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
+    MedSlots: 5
+    PowerOutput: 2700000
+    RechargeRate: 5760000.0
+    RemoteAssistanceImpedance: 9.999999747378752E-6
+    RemoteRepairImpedance: 9.999999747378752E-6
+    RigSize: 3
+    RigSlots: 3
+    ScanGravimetricStrength: 500.0
+    ScanLadarStrength: 500.0
+    ScanMagnetometricStrength: 500.0
+    ScanRadarStrength: 500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
+    SensorDampenerResistance: 9.999999747378752E-6
+    ServiceSlots: 7
+    ShieldCapacity: 14400000
+    ShieldDamageLimit: 15000
+    ShieldEmDamageResonance: 0.800000011920929
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 9.99999995904E11
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100000
+    StasisWebifierResistance: 9.999999747378752E-6
+    StructureAoERoFRoleBonus: -20
+    StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
+    StructureUniformity: 1.0
+    TargetPainterResistance: 9.999999747378752E-6
+    TetheringRange: 10000
+    ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 47513
+    name: Amarr Faction Citadel
+    volume: 80000.0
   Astrahus:
     ArmorDamageLimit: 5000
     ArmorEmDamageResonance: 0.800000011920929
@@ -67,11 +141,84 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35832
     name: Astrahus
     volume: 8000.0
+  Caldari Faction Citadel:
+    ArmorDamageLimit: 15000
+    ArmorEmDamageResonance: 0.800000011920929
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 14400000
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 1.0
+    CapacitorCapacity: 400000.0
+    CpuOutput: 38000
+    ECMResistance: 9.999999747378752E-6
+    EmDamageResonance: 0.800000011920929
+    EnergyWarfareResistance: 9.999999747378752E-6
+    ExplosiveDamageResonance: 0.800000011920929
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 300000
+    FighterStandupHeavySlots: 2
+    FighterStandupLightSlots: 5
+    FighterStandupSupportSlots: 2
+    FighterTubes: 5
+    Hackable: 1
+    HiSlots: 6
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
+    Hp: 21600000
+    KineticDamageResonance: 0.800000011920929
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
+    MedSlots: 5
+    PowerOutput: 2700000
+    RechargeRate: 5760000.0
+    RemoteAssistanceImpedance: 9.999999747378752E-6
+    RemoteRepairImpedance: 9.999999747378752E-6
+    RigSize: 3
+    RigSlots: 3
+    ScanGravimetricStrength: 500.0
+    ScanLadarStrength: 500.0
+    ScanMagnetometricStrength: 500.0
+    ScanRadarStrength: 500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
+    SensorDampenerResistance: 9.999999747378752E-6
+    ServiceSlots: 7
+    ShieldCapacity: 14400000
+    ShieldDamageLimit: 15000
+    ShieldEmDamageResonance: 0.800000011920929
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 9.99999995904E11
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100000
+    StasisWebifierResistance: 9.999999747378752E-6
+    StructureAoERoFRoleBonus: -20
+    StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
+    StructureUniformity: 1.0
+    TargetPainterResistance: 9.999999747378752E-6
+    TetheringRange: 10000
+    ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 47514
+    name: Caldari Faction Citadel
+    volume: 80000.0
   Fortizar:
     ArmorDamageLimit: 15000
     ArmorEmDamageResonance: 0.800000011920929
@@ -142,10 +289,157 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 6
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35833
     name: Fortizar
+    volume: 80000.0
+  Gallente Faction Citadel:
+    ArmorDamageLimit: 15000
+    ArmorEmDamageResonance: 0.800000011920929
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 14400000
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 1.0
+    CapacitorCapacity: 400000.0
+    CpuOutput: 38000
+    ECMResistance: 9.999999747378752E-6
+    EmDamageResonance: 0.800000011920929
+    EnergyWarfareResistance: 9.999999747378752E-6
+    ExplosiveDamageResonance: 0.800000011920929
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 300000
+    FighterStandupHeavySlots: 2
+    FighterStandupLightSlots: 5
+    FighterStandupSupportSlots: 2
+    FighterTubes: 5
+    Hackable: 1
+    HiSlots: 6
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
+    Hp: 21600000
+    KineticDamageResonance: 0.800000011920929
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
+    MedSlots: 5
+    PowerOutput: 2700000
+    RechargeRate: 5760000.0
+    RemoteAssistanceImpedance: 9.999999747378752E-6
+    RemoteRepairImpedance: 9.999999747378752E-6
+    RigSize: 3
+    RigSlots: 3
+    ScanGravimetricStrength: 500.0
+    ScanLadarStrength: 500.0
+    ScanMagnetometricStrength: 500.0
+    ScanRadarStrength: 500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
+    SensorDampenerResistance: 9.999999747378752E-6
+    ServiceSlots: 7
+    ShieldCapacity: 14400000
+    ShieldDamageLimit: 15000
+    ShieldEmDamageResonance: 0.800000011920929
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 9.99999995904E11
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100000
+    StasisWebifierResistance: 9.999999747378752E-6
+    StructureAoERoFRoleBonus: -20
+    StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
+    StructureUniformity: 1.0
+    TargetPainterResistance: 9.999999747378752E-6
+    TetheringRange: 10000
+    ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 47515
+    name: Gallente Faction Citadel
+    volume: 80000.0
+  Immensea Faction Citadel:
+    ArmorDamageLimit: 15000
+    ArmorEmDamageResonance: 0.800000011920929
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 14400000
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 1.0
+    CapacitorCapacity: 400000.0
+    CpuOutput: 38000
+    ECMResistance: 9.999999747378752E-6
+    EmDamageResonance: 0.800000011920929
+    EnergyWarfareResistance: 9.999999747378752E-6
+    ExplosiveDamageResonance: 0.800000011920929
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 300000
+    FighterStandupHeavySlots: 2
+    FighterStandupLightSlots: 5
+    FighterStandupSupportSlots: 2
+    FighterTubes: 5
+    Hackable: 1
+    HiSlots: 6
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
+    Hp: 21600000
+    KineticDamageResonance: 0.800000011920929
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
+    MedSlots: 5
+    PowerOutput: 2700000
+    RechargeRate: 5760000.0
+    RemoteAssistanceImpedance: 9.999999747378752E-6
+    RemoteRepairImpedance: 9.999999747378752E-6
+    RigSize: 3
+    RigSlots: 3
+    ScanGravimetricStrength: 500.0
+    ScanLadarStrength: 500.0
+    ScanMagnetometricStrength: 500.0
+    ScanRadarStrength: 500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
+    SensorDampenerResistance: 9.999999747378752E-6
+    ServiceSlots: 8
+    ShieldCapacity: 14400000
+    ShieldDamageLimit: 15000
+    ShieldEmDamageResonance: 0.800000011920929
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 9.99999995904E11
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100000
+    StasisWebifierResistance: 9.999999747378752E-6
+    StructureAoERoFRoleBonus: -20
+    StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
+    StructureUniformity: 1.0
+    TargetPainterResistance: 9.999999747378752E-6
+    TetheringRange: 10000
+    ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 47512
+    name: Immensea Faction Citadel
     volume: 80000.0
   Keepstar:
     ArmorDamageLimit: 75000
@@ -217,11 +511,84 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35834
     name: Keepstar
     volume: 800000.0
+  Minmatar Faction Citadel:
+    ArmorDamageLimit: 15000
+    ArmorEmDamageResonance: 0.800000011920929
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 14400000
+    ArmorKineticDamageResonance: 0.800000011920929
+    ArmorThermalDamageResonance: 0.800000011920929
+    ArmorUniformity: 1.0
+    CapacitorCapacity: 400000.0
+    CpuOutput: 38000
+    ECMResistance: 9.999999747378752E-6
+    EmDamageResonance: 0.800000011920929
+    EnergyWarfareResistance: 9.999999747378752E-6
+    ExplosiveDamageResonance: 0.800000011920929
+    FighterAbilityAntiCapitalMissileResistance: 1
+    FighterAbilityKamikazeResistance: 1
+    FighterCapacity: 300000
+    FighterStandupHeavySlots: 2
+    FighterStandupLightSlots: 5
+    FighterStandupSupportSlots: 2
+    FighterTubes: 5
+    Hackable: 1
+    HiSlots: 6
+    HiddenArmorHPMultiplier: 1
+    HiddenMissileDamageMultiplier: 1
+    Hp: 21600000
+    KineticDamageResonance: 0.800000011920929
+    LauncherSlotsLeft: 3
+    LowSlots: 4
+    MaxLockedTargets: 7
+    MaxTargetRange: 380000
+    MaximumRangeCap: 490000
+    MedSlots: 5
+    PowerOutput: 2700000
+    RechargeRate: 5760000.0
+    RemoteAssistanceImpedance: 9.999999747378752E-6
+    RemoteRepairImpedance: 9.999999747378752E-6
+    RigSize: 3
+    RigSlots: 3
+    ScanGravimetricStrength: 500.0
+    ScanLadarStrength: 500.0
+    ScanMagnetometricStrength: 500.0
+    ScanRadarStrength: 500.0
+    ScanResolution: 40
+    ScanSpeed: 2500
+    SensorDampenerResistance: 9.999999747378752E-6
+    ServiceSlots: 7
+    ShieldCapacity: 14400000
+    ShieldDamageLimit: 15000
+    ShieldEmDamageResonance: 0.800000011920929
+    ShieldExplosiveDamageResonance: 0.800000011920929
+    ShieldKineticDamageResonance: 0.800000011920929
+    ShieldRechargeRate: 9.99999995904E11
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100000
+    StasisWebifierResistance: 9.999999747378752E-6
+    StructureAoERoFRoleBonus: -20
+    StructureDamageLimit: 15000
+    StructureFullPowerStateHitpointMultiplier: 1
+    StructureRoleBonus: 25
+    StructureServiceRoleBonus: -25
+    StructureUniformity: 1.0
+    TargetPainterResistance: 9.999999747378752E-6
+    TetheringRange: 10000
+    ThermalDamageResonance: 0.800000011920929
+    TierDifficulty: 4
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WeaponDisruptionResistance: 9.999999747378752E-6
+    id: 47516
+    name: Minmatar Faction Citadel
+    volume: 80000.0
   Upwell Palatine Keepstar:
     ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
@@ -294,7 +661,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 21
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 40340
     name: Upwell Palatine Keepstar

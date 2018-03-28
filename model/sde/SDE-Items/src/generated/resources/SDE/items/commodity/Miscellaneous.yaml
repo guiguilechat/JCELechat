@@ -1391,6 +1391,12 @@ items:
     id: 34400
     name: Gamma Ray Modulate Disc
     volume: 0.1
+  Gas Passkey:
+    ExportTaxMultiplier: 1
+    ImportTaxMultiplier: 1
+    id: 32375
+    name: Gas Passkey
+    volume: 1.0
   Giant Sealed Cargo Containers:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2318,6 +2324,12 @@ items:
     id: 32259
     name: 'Operation Stillwater: Synopsis'
     volume: 0.1
+  Ore Passkey:
+    ExportTaxMultiplier: 1
+    ImportTaxMultiplier: 1
+    id: 32352
+    name: Ore Passkey
+    volume: 1.0
   Ornamental Necklace:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2420,23 +2432,11 @@ items:
     id: 32376
     name: 'Proof of Discovery: Gas'
     volume: 1.0
-  'Proof of Discovery: Gas Passkey':
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32375
-    name: 'Proof of Discovery: Gas Passkey'
-    volume: 1.0
   'Proof of Discovery: Ore':
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32351
     name: 'Proof of Discovery: Ore'
-    volume: 1.0
-  'Proof of Discovery: Ore Passkey':
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32352
-    name: 'Proof of Discovery: Ore Passkey'
     volume: 1.0
   'Proof of Discovery: Relic':
     ExportTaxMultiplier: 1

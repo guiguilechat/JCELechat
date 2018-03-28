@@ -13,12 +13,12 @@ public class ReactorControlUnit
     extends Module
 {
     /**
-     * Multiplier to a recharge rate time.
+     * 
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double ShieldRechargeRateMultiplier;
+    public double CapacitorCapacityMultiplier;
     /**
      * Multiplier to the capacitors recharge rate.
      */
@@ -27,47 +27,12 @@ public class ReactorControlUnit
     @DefaultDoubleValue(1.0)
     public double CapacitorRechargeRateMultiplier;
     /**
-     * Multipier to power core output.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double PowerOutputMultiplier;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
-    /**
-     * Multiplier to the capacity of a shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ShieldCapacityMultiplier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double CapacitorCapacityMultiplier;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
     /**
      * meta group of type
      */
@@ -82,6 +47,41 @@ public class ReactorControlUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Multipier to power core output.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double PowerOutputMultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Multiplier to the capacity of a shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ShieldCapacityMultiplier;
+    /**
+     * Multiplier to a recharge rate time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ShieldRechargeRateMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
     private static LinkedHashMap<String, ReactorControlUnit> cache = (null);
 

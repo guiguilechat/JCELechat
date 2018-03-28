@@ -20,40 +20,12 @@ public class WarpCoreStabilizer
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * Bonus to Max Targeting Range
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
-    /**
-     * Improves the targeting time of ships by boosting the Scan Resolution.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ScanResolutionMultiplier;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Amount to modify ships warp scramble status by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WarpScrambleStrength;
     /**
      * meta group of type
      */
@@ -68,6 +40,34 @@ public class WarpCoreStabilizer
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Improves the targeting time of ships by boosting the Scan Resolution.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ScanResolutionMultiplier;
+    /**
+     * Amount to modify ships warp scramble status by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WarpScrambleStrength;
     public final static String RESOURCE_PATH = "SDE/items/module/WarpCoreStabilizer.yaml";
     private static LinkedHashMap<String, WarpCoreStabilizer> cache = (null);
 

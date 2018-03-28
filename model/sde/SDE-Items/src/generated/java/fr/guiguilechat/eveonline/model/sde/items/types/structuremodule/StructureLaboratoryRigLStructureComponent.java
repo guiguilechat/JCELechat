@@ -12,26 +12,12 @@ public class StructureLaboratoryRigLStructureComponent
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     /**
      * The maximum hitpoints of an object.
      */
@@ -53,6 +39,20 @@ public class StructureLaboratoryRigLStructureComponent
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureRigBonus1;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureLaboratoryRigLStructureComponent.yaml";
     private static LinkedHashMap<String, StructureLaboratoryRigLStructureComponent> cache = (null);
 

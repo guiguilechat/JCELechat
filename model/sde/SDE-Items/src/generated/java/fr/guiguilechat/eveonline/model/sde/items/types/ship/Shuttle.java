@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -12,20 +13,6 @@ public class Shuttle
     extends Ship
 {
     /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
      * tbd
      */
     @HighIsGood(true)
@@ -33,12 +20,40 @@ public class Shuttle
     @DefaultIntValue(0)
     public int HiSlots;
     /**
-     * Required skill level for skill 1
+     * Multiplier for jump fatigue distance
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double JumpFatigueMultiplier;
+    /**
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * meta group of type
      */
@@ -53,6 +68,13 @@ public class Shuttle
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * scanning speed in milliseconds
      */
@@ -74,13 +96,6 @@ public class Shuttle
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCapacity;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
     public final static String RESOURCE_PATH = "SDE/items/ship/Shuttle.yaml";
     private static LinkedHashMap<String, Shuttle> cache = (null);
 

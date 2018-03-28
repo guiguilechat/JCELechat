@@ -20,19 +20,19 @@ public class DataMiners
     @DefaultIntValue(0)
     public int AccessDifficultyBonus;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipType1;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
     /**
      * CPU need of module
      */
@@ -41,12 +41,12 @@ public class DataMiners
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int IsHacking;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
@@ -55,33 +55,12 @@ public class DataMiners
     @DefaultIntValue(0)
     public int IsArcheology;
     /**
-     * The coherence of a virus.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusCoherence;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The strength attribute for a Virus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int VirusStrength;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int IsHacking;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
@@ -89,34 +68,6 @@ public class DataMiners
     @Stackable(false)
     @DefaultIntValue(0)
     public int MaxRange;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipType1;
-    /**
-     * The number of utility element slots a virus has.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int VirusElementSlots;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
     /**
      * meta group of type
      */
@@ -131,6 +82,55 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The coherence of a virus.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int VirusCoherence;
+    /**
+     * The number of utility element slots a virus has.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int VirusElementSlots;
+    /**
+     * The strength attribute for a Virus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int VirusStrength;
     public final static String RESOURCE_PATH = "SDE/items/module/DataMiners.yaml";
     private static LinkedHashMap<String, DataMiners> cache = (null);
 

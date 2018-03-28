@@ -12,6 +12,20 @@ public class CyberLearning
     extends Implant
 {
     /**
+     * +/- bonus to the charisma of a character.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CharismaBonus;
+    /**
+     * Whether an item is an implant or not
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Implantness;
+    /**
      * +/- bonus to the intelligence of a character.
      */
     @HighIsGood(true)
@@ -33,13 +47,6 @@ public class CyberLearning
     @DefaultIntValue(0)
     public int PerceptionBonus;
     /**
-     * +/- bonus to the willpower of a character.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WillpowerBonus;
-    /**
      * Tech level of an item
      */
     @HighIsGood(true)
@@ -47,19 +54,12 @@ public class CyberLearning
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * Whether an item is an implant or not
+     * +/- bonus to the willpower of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Implantness;
-    /**
-     * +/- bonus to the charisma of a character.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CharismaBonus;
+    public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberLearning.yaml";
     private static LinkedHashMap<String, CyberLearning> cache = (null);
 

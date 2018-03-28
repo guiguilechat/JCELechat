@@ -20,27 +20,6 @@ public class ShieldRecharger
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Multiplier to a recharge rate time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ShieldRechargeRateMultiplier;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
@@ -54,6 +33,27 @@ public class ShieldRecharger
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Multiplier to a recharge rate time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ShieldRechargeRateMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldRecharger.yaml";
     private static LinkedHashMap<String, ShieldRecharger> cache = (null);
 

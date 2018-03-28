@@ -19,27 +19,6 @@ public class SensorBoosterScript
     @DefaultIntValue(0)
     public int ChargeSize;
     /**
-     * Bonus to maxTargetRangeBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxTargetRangeBonusBonus;
-    /**
-     * Bonus to scanResolutionBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ScanResolutionBonusBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
@@ -54,6 +33,27 @@ public class SensorBoosterScript
     @DefaultIntValue(0)
     public int LauncherGroup2;
     /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Bonus to maxTargetRangeBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxTargetRangeBonusBonus;
+    /**
+     * Bonus to scanResolutionBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ScanResolutionBonusBonus;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -61,12 +61,12 @@ public class SensorBoosterScript
     @DefaultIntValue(0)
     public int SensorStrengthBonusBonus;
     /**
-     * The main color of a ship type.
+     * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/SensorBoosterScript.yaml";
     private static LinkedHashMap<String, SensorBoosterScript> cache = (null);
 

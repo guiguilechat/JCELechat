@@ -1917,10 +1917,6 @@ items:
     id: 43396
     name: Hyperion Quafe Serenity Only SKIN (7 Days)
     volume: 0.01
-  Hyperion Serenity YC119 SKIN (7 Days):
-    id: 47081
-    name: Hyperion Serenity YC119 SKIN (7 Days)
-    volume: 0.01
   Hyperion Serpentis Serenity Only SKIN (7 Days):
     id: 42428
     name: Hyperion Serpentis Serenity Only SKIN (7 Days)
@@ -3880,6 +3876,10 @@ items:
   Talos InterBus SKIN (7 Days):
     id: 35541
     name: Talos InterBus SKIN (7 Days)
+    volume: 0.01
+  Talos Serenity YC119 SKIN (7 Days):
+    id: 47283
+    name: Talos Serenity YC119 SKIN (7 Days)
     volume: 0.01
   Talos Serpentis Serenity Only SKIN (7 Days):
     id: 42408

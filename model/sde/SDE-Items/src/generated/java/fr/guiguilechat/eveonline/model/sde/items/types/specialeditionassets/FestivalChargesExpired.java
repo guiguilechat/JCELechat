@@ -13,12 +13,12 @@ public class FestivalChargesExpired
     extends SpecialEditionAssets
 {
     /**
-     * Just for the UI to display base damage on shield.
+     * The agility of the object.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int BaseShieldDamage;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Agility;
     /**
      * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
      */
@@ -27,6 +27,13 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int AimedLaunch;
     /**
+     * Chance of piercing the armor.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ArmorPiercingChance;
+    /**
      * Just for the UI to display base damage on armor.
      */
     @HighIsGood(true)
@@ -34,40 +41,12 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int BaseArmorDamage;
     /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The agility of the object.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double Agility;
-    /**
-     * One of the groups of launcher this charge can be loaded into.
+     * Just for the UI to display base damage on shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    public int BaseShieldDamage;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -76,19 +55,33 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int DetonationRange;
     /**
-     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
+     * The amount of milliseconds before the object explodes.
      */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double SpeedMultiplier;
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
-     * DO NOT MESS WITH
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * One of the groups of launcher this charge can be loaded into.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocity;
     /**
      * If present on a type which is used like a missile, signifies that it should never do damage (whether it has any to do or not).
      */
@@ -111,26 +104,33 @@ public class FestivalChargesExpired
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double SpeedMultiplier;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    /**
-     * The amount of milliseconds before the object explodes.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
-    /**
-     * Chance of piercing the armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorPiercingChance;
     public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/FestivalChargesExpired.yaml";
     private static LinkedHashMap<String, FestivalChargesExpired> cache = (null);
 

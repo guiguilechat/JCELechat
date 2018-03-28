@@ -18,35 +18,14 @@ public class PropulsionSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallentePropulsion;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
     public double AgilityBonusAdd;
     /**
-     * 
+     * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int WarpBubbleImmuneModifier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariPropulsion;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusAmarrPropulsion2;
+    public int MaxTargetRange;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
@@ -59,6 +38,27 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrPropulsion;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SubsystemBonusAmarrPropulsion2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusCaldariPropulsion;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SubsystemBonusCaldariPropulsion2;
     /**
@@ -66,15 +66,8 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusMinmatarPropulsion;
-    /**
-     * Maximum range at which the scanner can lock a target.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxTargetRange;
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusGallentePropulsion;
     /**
      * 
      */
@@ -88,6 +81,13 @@ public class PropulsionSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarPropulsion;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int SubsystemBonusMinmatarPropulsion2;
     /**
      * 
@@ -95,7 +95,7 @@ public class PropulsionSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusAmarrPropulsion;
+    public int WarpBubbleImmuneModifier;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
     private static LinkedHashMap<String, PropulsionSystems> cache = (null);
 

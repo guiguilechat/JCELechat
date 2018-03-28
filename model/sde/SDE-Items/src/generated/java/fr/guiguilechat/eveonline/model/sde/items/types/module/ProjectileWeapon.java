@@ -13,26 +13,12 @@ public class ProjectileWeapon
     extends Module
 {
     /**
-     * Damage multiplier.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
-    /**
-     * The size of the charges that can fit in the turret/whatever.
+     * Something to do with accuracy.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
-    /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public int AccuracyBonus;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -41,47 +27,12 @@ public class ProjectileWeapon
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ChargeGroup1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
@@ -90,6 +41,34 @@ public class ProjectileWeapon
     @DefaultIntValue(0)
     public int ChargeGroup2;
     /**
+     * Number of charges consumed per activation
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int ChargeRate;
+    /**
+     * The size of the charges that can fit in the turret/whatever.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeSize;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Damage multiplier.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double DamageMultiplier;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
@@ -97,12 +76,145 @@ public class ProjectileWeapon
     @DefaultIntValue(1)
     public int Falloff;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatDamage;
+    /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadDamageModifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadRofBonus;
+    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
+     * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ResistanceKiller;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ResistanceKillerHull;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int Speed;
     /**
      * Weapon accuracy
      */
@@ -117,118 +229,6 @@ public class ProjectileWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
-    /**
-     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1000)
-    public int OptimalSigRadius;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadRofBonus;
-    /**
-     * Distance below which range does not affect the to-hit equation.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * Number of charges consumed per activation
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int ChargeRate;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadDamageModifier;
-    /**
-     * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ResistanceKiller;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ResistanceKillerHull;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
-    /**
-     * Something to do with accuracy.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int AccuracyBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ProjectileWeapon.yaml";
     private static LinkedHashMap<String, ProjectileWeapon> cache = (null);
 

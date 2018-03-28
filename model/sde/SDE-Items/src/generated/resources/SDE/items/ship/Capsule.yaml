@@ -21,6 +21,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 150
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MaxPassengers: 1
     PowerOutput: 1
@@ -68,6 +69,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 150
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MaxPassengers: 1
     MaxTargetRange: 60000

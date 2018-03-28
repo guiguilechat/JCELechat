@@ -13,20 +13,6 @@ public class FlexShieldHardener
     extends Module
 {
     /**
-     * The size of the charges that can fit in the turret/whatever.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeSize;
-    /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -34,19 +20,19 @@ public class FlexShieldHardener
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
+     * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int ChargeGroup1;
     /**
-     * Length of activation time.
+     * The size of the charges that can fit in the turret/whatever.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * CPU need of module
      */
@@ -55,40 +41,12 @@ public class FlexShieldHardener
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadHardeningBonus;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
@@ -106,10 +64,10 @@ public class FlexShieldHardener
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(false)
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamageResistanceBonus;
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
@@ -123,21 +81,14 @@ public class FlexShieldHardener
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double KineticDamageResistanceBonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int MaxGroupFitted;
     /**
      * meta group of type
      */
@@ -146,12 +97,12 @@ public class FlexShieldHardener
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
-     * One of the groups of charge this launcher can be loaded with.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int OverloadHardeningBonus;
     /**
      * current power need
      */
@@ -159,6 +110,55 @@ public class FlexShieldHardener
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/FlexShieldHardener.yaml";
     private static LinkedHashMap<String, FlexShieldHardener> cache = (null);
 

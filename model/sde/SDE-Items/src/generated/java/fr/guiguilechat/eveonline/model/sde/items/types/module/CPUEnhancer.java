@@ -20,20 +20,6 @@ public class CPUEnhancer
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
@@ -54,6 +40,20 @@ public class CPUEnhancer
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/CPUEnhancer.yaml";
     private static LinkedHashMap<String, CPUEnhancer> cache = (null);
 

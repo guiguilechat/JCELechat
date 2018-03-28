@@ -13,48 +13,6 @@ public class Scordite
     extends Asteroid
 {
     /**
-     * Resistance against Stasis Webifiers
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
-    /**
-     * What type this type can be compressed into
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CompressionTypeID;
-    /**
-     * Number of items needed to be able to compress it
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CompressionQuantityNeeded;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The skill required to reprocess this ore type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ReprocessingSkillType;
-    /**
-     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int OreBasicType;
-    /**
      * max visual size for asteroids to fit moon chunk
      */
     @HighIsGood(true)
@@ -87,6 +45,48 @@ public class Scordite
     @Stackable(true)
     @DefaultIntValue(90)
     public int AsteroidRadiusUnitSize;
+    /**
+     * Number of items needed to be able to compress it
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CompressionQuantityNeeded;
+    /**
+     * What type this type can be compressed into
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CompressionTypeID;
+    /**
+     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int OreBasicType;
+    /**
+     * The skill required to reprocess this ore type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ReprocessingSkillType;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StasisWebifierResistance;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
     private static LinkedHashMap<String, Scordite> cache = (null);
 

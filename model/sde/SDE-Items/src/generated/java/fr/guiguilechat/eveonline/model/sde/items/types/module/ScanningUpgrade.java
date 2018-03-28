@@ -13,13 +13,6 @@ public class ScanningUpgrade
     extends Module
 {
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxScanDeviationModifierModule;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -32,21 +25,7 @@ public class ScanningUpgrade
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int ScanStrengthBonusModule;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int MaxScanDeviationModifierModule;
     /**
      * current power need
      */
@@ -55,12 +34,33 @@ public class ScanningUpgrade
     @DefaultIntValue(0)
     public int Power;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanStrengthBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanStrengthBonusModule;
     public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgrade.yaml";
     private static LinkedHashMap<String, ScanningUpgrade> cache = (null);
 

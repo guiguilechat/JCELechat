@@ -13,40 +13,12 @@ public class TractorBeam
     extends Module
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     * Something to do with accuracy.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
+    @DefaultIntValue(0)
+    public int AccuracyBonus;
     /**
      * 
      */
@@ -55,33 +27,26 @@ public class TractorBeam
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
     /**
-     * Required skill level for skill 1
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
     /**
-     * The maximum speed that the tractor beam draws objects closer at.
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxTractorVelocity;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
-     * Distance below which range does not affect the to-hit equation.
+     * Length of activation time.
      */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * The main color of a ship type.
      */
@@ -90,12 +55,19 @@ public class TractorBeam
     @DefaultIntValue(0)
     public int MainColor;
     /**
-     * GroupID of module targeted by this weapon
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
+    /**
+     * The maximum speed that the tractor beam draws objects closer at.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TargetModule;
+    public int MaxTractorVelocity;
     /**
      * current power need
      */
@@ -104,12 +76,40 @@ public class TractorBeam
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Something to do with accuracy.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AccuracyBonus;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * GroupID of module targeted by this weapon
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TargetModule;
+    /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/TractorBeam.yaml";
     private static LinkedHashMap<String, TractorBeam> cache = (null);
 

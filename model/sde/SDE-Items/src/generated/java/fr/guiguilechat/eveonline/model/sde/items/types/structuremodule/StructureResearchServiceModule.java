@@ -27,12 +27,12 @@ public class StructureResearchServiceModule
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Fuel consumed by the structure service module
+     * current power need
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelConsumptionGroup;
+    public int Power;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
@@ -41,19 +41,19 @@ public class StructureResearchServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelAmount;
     /**
+     * Fuel consumed by the structure service module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelConsumptionGroup;
+    /**
      * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ServiceModuleFuelOnlineAmount;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResearchServiceModule.yaml";
     private static LinkedHashMap<String, StructureResearchServiceModule> cache = (null);
 

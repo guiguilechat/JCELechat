@@ -257,8 +257,11 @@ group2class:
   celestial/FreightContainer: fr.guiguilechat.eveonline.model.sde.items.types.celestial.FreightContainer
   celestial/GlobalWarpDisruptor: fr.guiguilechat.eveonline.model.sde.items.types.celestial.GlobalWarpDisruptor
   celestial/HarvestableCloud: fr.guiguilechat.eveonline.model.sde.items.types.celestial.HarvestableCloud
+  celestial/IndustrialSupportFacility: fr.guiguilechat.eveonline.model.sde.items.types.celestial.IndustrialSupportFacility
   celestial/Landmark: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Landmark
   celestial/LargeCollidableObject: fr.guiguilechat.eveonline.model.sde.items.types.celestial.LargeCollidableObject
+  celestial/LocalizedEffectBeacon: fr.guiguilechat.eveonline.model.sde.items.types.celestial.LocalizedEffectBeacon
+  celestial/Locators: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Locators
   celestial/MassiveEnvironments: fr.guiguilechat.eveonline.model.sde.items.types.celestial.MassiveEnvironments
   celestial/MobileSentryGun: fr.guiguilechat.eveonline.model.sde.items.types.celestial.MobileSentryGun
   celestial/Moon: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Moon
@@ -341,6 +344,7 @@ group2class:
   charge/StructureAntiCapitalMissile: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureAntiCapitalMissile
   charge/StructureAntiSubcapitalMissile: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureAntiSubcapitalMissile
   charge/StructureECMScript: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureECMScript
+  charge/StructureFestivalCharges: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureFestivalCharges
   charge/StructureGuidedBomb: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureGuidedBomb
   charge/StructureResistanceSwitcherScript: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureResistanceSwitcherScript
   charge/StructureWarpDisruptorScript: fr.guiguilechat.eveonline.model.sde.items.types.charge.StructureWarpDisruptorScript
@@ -373,6 +377,7 @@ group2class:
   commodity/General: fr.guiguilechat.eveonline.model.sde.items.types.commodity.General
   commodity/HybridTechComponents: fr.guiguilechat.eveonline.model.sde.items.types.commodity.HybridTechComponents
   commodity/Identification: fr.guiguilechat.eveonline.model.sde.items.types.commodity.Identification
+  commodity/KalliPLACEHOLDER: fr.guiguilechat.eveonline.model.sde.items.types.commodity.KalliPLACEHOLDER
   commodity/Lease: fr.guiguilechat.eveonline.model.sde.items.types.commodity.Lease
   commodity/Livestock: fr.guiguilechat.eveonline.model.sde.items.types.commodity.Livestock
   commodity/MaterialsAndCompounds: fr.guiguilechat.eveonline.model.sde.items.types.commodity.MaterialsAndCompounds
@@ -391,6 +396,7 @@ group2class:
   commodity/SurfaceInfrastructurePrefabUnits: fr.guiguilechat.eveonline.model.sde.items.types.commodity.SurfaceInfrastructurePrefabUnits
   commodity/TechnicalDataChips: fr.guiguilechat.eveonline.model.sde.items.types.commodity.TechnicalDataChips
   commodity/Tool: fr.guiguilechat.eveonline.model.sde.items.types.commodity.Tool
+  commodity/TrinaryDataVaults: fr.guiguilechat.eveonline.model.sde.items.types.commodity.TrinaryDataVaults
   commodity/UnknownComponents: fr.guiguilechat.eveonline.model.sde.items.types.commodity.UnknownComponents
   decryptors/DecryptorsAmarr: fr.guiguilechat.eveonline.model.sde.items.types.decryptors.DecryptorsAmarr
   decryptors/DecryptorsCaldari: fr.guiguilechat.eveonline.model.sde.items.types.decryptors.DecryptorsCaldari
@@ -623,6 +629,7 @@ group2class:
   entity/IrregularCarrier: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularCarrier
   entity/IrregularCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularCruiser
   entity/IrregularDestroyer: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularDestroyer
+  entity/IrregularDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularDreadnought
   entity/IrregularFighter: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularFighter
   entity/IrregularFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularFrigate
   entity/LCODrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.LCODrone
@@ -814,6 +821,7 @@ group2class:
   module/DroneNavigationComputer: fr.guiguilechat.eveonline.model.sde.items.types.module.DroneNavigationComputer
   module/DroneTrackingEnhancer: fr.guiguilechat.eveonline.model.sde.items.types.module.DroneTrackingEnhancer
   module/DroneTrackingModules: fr.guiguilechat.eveonline.model.sde.items.types.module.DroneTrackingModules
+  module/DynamicPLACEHOLDER: fr.guiguilechat.eveonline.model.sde.items.types.module.DynamicPLACEHOLDER
   module/ECCM: fr.guiguilechat.eveonline.model.sde.items.types.module.ECCM
   module/ECM: fr.guiguilechat.eveonline.model.sde.items.types.module.ECM
   module/ECMStabilizer: fr.guiguilechat.eveonline.model.sde.items.types.module.ECMStabilizer
@@ -979,6 +987,7 @@ group2class:
   ship/ElectronicAttackShip: fr.guiguilechat.eveonline.model.sde.items.types.ship.ElectronicAttackShip
   ship/Exhumer: fr.guiguilechat.eveonline.model.sde.items.types.ship.Exhumer
   ship/ExpeditionFrigate: fr.guiguilechat.eveonline.model.sde.items.types.ship.ExpeditionFrigate
+  ship/FlagCruiser: fr.guiguilechat.eveonline.model.sde.items.types.ship.FlagCruiser
   ship/ForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.ship.ForceAuxiliary
   ship/ForceReconShip: fr.guiguilechat.eveonline.model.sde.items.types.ship.ForceReconShip
   ship/Freighter: fr.guiguilechat.eveonline.model.sde.items.types.ship.Freighter
@@ -1179,6 +1188,7 @@ group2class:
   structuremodule/StructureEngineeringRigXLShipEfficiency: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureEngineeringRigXLShipEfficiency
   structuremodule/StructureEngineeringRigXLStructureAndComponentEfficiency: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureEngineeringRigXLStructureAndComponentEfficiency
   structuremodule/StructureEngineeringServiceModule: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureEngineeringServiceModule
+  structuremodule/StructureFestivalLauncher: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureFestivalLauncher
   structuremodule/StructureFittingModule: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureFittingModule
   structuremodule/StructureGuidedBombLauncher: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureGuidedBombLauncher
   structuremodule/StructureHybridReactorRigMME: fr.guiguilechat.eveonline.model.sde.items.types.structuremodule.StructureHybridReactorRigMME
@@ -19721,7 +19731,7 @@ id2name:
   32349: Proximity Charge
   32350: 'Proof of Discovery: Anomalies'
   32351: 'Proof of Discovery: Ore'
-  32352: 'Proof of Discovery: Ore Passkey'
+  32352: Ore Passkey
   32353: Training Container - Anomalies
   32357: Compact Doom Torpedo I
   32359: Compact Purgatory Torpedo I
@@ -19736,7 +19746,7 @@ id2name:
   32371: Capital Ship Design – “Dictator”
   32372: Minedrill – E518 Crew
   32374: Holoreel GRS-81A
-  32375: 'Proof of Discovery: Gas Passkey'
+  32375: Gas Passkey
   32376: 'Proof of Discovery: Gas'
   32377: Venal Regional Comms Tower
   32378: Training Container - Ore
@@ -21331,28 +21341,28 @@ id2name:
   34456: Angel Fence
   34457: 末日沙场级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
-  34459: 地狱天使级YC117年特��版
-  34460: 地狱天使级YC117年��别版蓝图
+  34459: 地狱天使级YC117年特别版
+  34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
-  34466: 多米尼克斯级YC117年特别版蓝图
+  34466: 多米尼克斯级YC117年特别版���图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
   34470: 乌鸦级YC117年特别版蓝图
-  34471: 灾难级YC117年特别版
+  34471: 灾难级YC117年特别��
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年特别版蓝图
-  34475: 毒蜥级YC117年特别版
+  34474: 幼龙级YC117年特别版��图
+  34475: 毒蜥级YC117年���别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: 银鹰级YC117年���别版蓝图
-  34479: 伊什塔级YC117年��别版
-  34480: 伊什塔��YC117年特别版蓝图
+  34478: 银鹰级YC117年特别版蓝图
+  34479: 伊什塔级YC117年特别版
+  34480: 伊什���级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
   34485: ORE Reinforced Bulkheads
@@ -23344,7 +23354,7 @@ id2name:
   37155: Standup M-Set Basic Small Ship Manufacturing Material Efficiency II
   37156: Standup M-Set Drone and Fighter Manufacturing Material Efficiency I
   37157: Standup M-Set Drone and Fighter Manufacturing Material Efficiency II
-  37158: Standup M-Set Ammunition Manufacturing Material Efficiency I
+  37158: Standup M-Set Ammunition Manufacturing Material Efficiency I
   37159: Standup M-Set Ammunition Manufacturing Material Efficiency II
   37160: Standup M-Set Equipment Manufacturing Time Efficiency I
   37161: Standup M-Set Equipment Manufacturing Time Efficiency II
@@ -26772,11 +26782,11 @@ id2name:
   40721: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
   40722: Capital Emergency Hull Energizer II Blueprint
   40723: Sisters Capital Emergency Hull Energizer Blueprint
-  40725: Guristas Frigate
-  40726: Guristas Cruiser
-  40727: Guristas Battlecruiser
-  40728: Guristas Battleship
-  40729: Guristas Cruiser
+  40725: Guri Hivaa Killer
+  40726: Guri Hivaa Assassin
+  40727: Guri Hivaa Rokosabai
+  40728: Rakka's Rattlesnake
+  40729: Kazue's Caiman
   40730: Heavy Warp Disruptor I
   40731: Heavy Fleeting Compact Warp Disruptor
   40732: Heavy J5 Enduring Warp Disruptor
@@ -27067,7 +27077,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来���类纪念章
+  41035: ��来人类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -27455,11 +27465,11 @@ id2name:
   41444: ‘Jormungandr’ Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
-  41447: ‘Phalarica’ Thermal Lance Blueprint
+  41447: ��Phalarica’ Thermal Lance Blueprint
   41448: ‘Geiravor’ Explosive Lance Blueprint
   41449: ‘Cold Wind’ Kinetic Reaper Blueprint
   41450: ‘Guillotine’ Thermal Reaper Blueprint
-  41451: ‘Jormungandr’ Explosive Reaper Blueprint
+  41451: ���Jormungandr’ Explosive Reaper Blueprint
   41452: ‘Divine Harvest’ Electromagnetic Reaper Blueprint
   41456: CONCORD 25000mm Steel Plates
   41457: Dark Blood 25000mm Steel Plates
@@ -28132,7 +28142,7 @@ id2name:
   42229: Copper Ouroboros
   42230: Silver Ouroboros
   42231: Gold Ouroboros
-  42232: Expired Cerebral Accelerator
+  42232: Expired Gold Ouroboros Accelerator
   42233: Expired Cerebral Accelerator
   42234: Expired Cerebral Accelerator
   42235: Blood Raider Patroller
@@ -28580,10 +28590,10 @@ id2name:
   42706: Women's 'Outlaw' Coat (Blood Raiders extra red)
   42707: Women's 'Sterling' Dress Blouse (Blood Raider)
   42708: Men's Beret (Blood Raiders)
-  42709: Women's ‘Defender’ Beret (Gallente Federation)
+  42709: Women's ��Defender’ Beret (Gallente Federation)
   42710: Gallente Cap Male
   42711: Cap Male Green
-  42712: Men's ‘Liberator�� Beret (Minmatar Republic)
+  42712: Men's ‘Liberator’ Beret (Minmatar Republic)
   42713: Cap Male Orange
   42714: Cap Male White/Black
   42715: Cap Female Minmatar
@@ -28607,7 +28617,7 @@ id2name:
   42733: Women's Beret (Blood Raiders)
   42734: Women's 'Sable' Cap (Black)
   42735: Cap Female Orange
-  42736: Men's ‘Protector’ Beret (Caldari State)
+  42736: Men's ‘Protector��� Beret (Caldari State)
   42737: Beret Female Concord
   42738: Women's ‘Liberator’ Beret (Minmatar Republic)
   42739: Men's ‘Defender’ Beret (Gallente Federation)
@@ -30720,8 +30730,8 @@ id2name:
   45531: Victor
   45532: Victor Blueprint
   45533: Virtuoso Blueprint
-  45534: Prototype Seven
-  45535: Prototype Seven Blueprint
+  45534: Monitor
+  45535: Monitor Blueprint
   45536: Modified G-67 Nexus Chip
   45537: Standup Composite Reactor I
   45538: Standup Hybrid Reactor I
@@ -31244,7 +31254,7 @@ id2name:
   46065: Large Refinery Placement State Default
   46066: ♦ Punisher
   46067: ♦ Omen
-  46068: ♦ Harbinger
+  46068: �� Harbinger
   46069: ♦ Apocalypse
   46070: ♦ Merlin
   46071: ♦ Caracal
@@ -31255,7 +31265,7 @@ id2name:
   46076: ♦ Brutix
   46077: ♦ Megathron
   46078: ♦ Rifter
-  46079: �� Rupture
+  46079: ♦ Rupture
   46080: ♦ Hurricane
   46081: ♦ Tempest
   46082: Large Industrial Array Placement State Default
@@ -32187,11 +32197,6 @@ id2name:
   47077: Gold Magnate Serenity YC119 SKIN (30 Days)
   47078: Gold Magnate Serenity YC119 SKIN (90 Days)
   47079: Gold Magnate Serenity YC119 SKIN (365 Days)
-  47080: Hyperion Serenity YC119 SKIN (Permanent)
-  47081: Hyperion Serenity YC119 SKIN (7 Days)
-  47082: Hyperion Serenity YC119 SKIN (30 Days)
-  47083: Hyperion Serenity YC119 SKIN (90 Days)
-  47084: Hyperion Serenity YC119 SKIN (365 Days)
   47085: Naga Serenity YC119 SKIN (Permanent)
   47086: Naga Serenity YC119 SKIN (7 Days)
   47087: Naga Serenity YC119 SKIN (30 Days)
@@ -32258,7 +32263,7 @@ id2name:
   47150: Standup Satyr II
   47151: Standup Gram II
   47152: Guardians Gala Spawner
-  47153: Drifter Responder
+  47153: Drifter Cruiser
   47154: Galaxy Pack - Spectral
   47158: Marshal Exoplanets Hunter SKIN (Permanent)
   47159: Marshal CONCORD Aerospace 'Prototype' SKIN (Permanent)
@@ -32284,18 +32289,18 @@ id2name:
   47179: Hel Bloody Hands SKIN (Permanent)
   47180: Khaitetha's Nidhoggur
   47181: Otuwiri's Thanatos
-  47182: TshirtM01_XV_Amarr.type
-  47183: TshirtM01_XV_Minmatar.type
-  47184: TshirtM01_XV_Gallente.type
-  47185: TshirtF01_XV_Gallente.type
-  47186: TshirtF01_XV_Amarr.type
-  47187: TshirtF01_XV_Minmatar.type
-  47188: TshirtM01_XV_Caldari.type
-  47189: TshirtF01_XV_Caldari.type
-  47190: TshirtM01_XV_StarOrange.type
-  47191: HeadWear_Cap_M01_XV_BlackOrange.type
-  47192: TshirtF01_XV_StarOrange.type
-  47193: HeadWear_Cap_F01_XV_BlackOrange.type
+  47182: Men's Amarr 'Loyalist' T-Shirt
+  47183: Men's Minmatar 'Liberator' T-Shirt
+  47184: Men's Gallente 'Defender' T-Shirt
+  47185: Women's Gallente 'Defender' T-Shirt
+  47186: Women's Amarr 'Loyalist' T-Shirt
+  47187: Women's Minmatar 'Liberator' T-Shirt
+  47188: Women's Caldari 'Patriot' T-Shirt
+  47189: Men's Caldari 'Patriot' T-Shirt
+  47190: Men's Capsuleer Elite XV T-Shirt
+  47191: Men's Capsuleer Elite XV Cap
+  47192: Women's Capsuleer Elite XV T-Shirt
+  47193: Women's Capsuleer Elite XV Cap
   47194: ♦ test_drone_damage
   47195: ♦ test_drone_logi
   47196: ♦ test_damage
@@ -32367,12 +32372,25 @@ id2name:
   47262: Inquest 'Eros' Stasis Webifier MR-805
   47263: Inquest 'Eros' Stasis Webifier MR-807
   47264: Eros Blossom Firework
-  47265: Guardian Angels 'Standard' Cerebral Accelerator
-  47266: Guardian Angels 'Advanced' Cerebral Accelerator
-  47267: Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+  47265: Expired Guardian Angels 'Standard' Cerebral Accelerator
+  47266: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+  47267: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+  47269: Trig Small
+  47270: Trig Medium
+  47271: Trig Large
+  47272: ABC Small
+  47273: ABC Medium
+  47274: ABC Large
   47275: Guardian Angels Barachael
   47276: Guardian Angels Cherubim
   47277: Serpentis Inquest Viper
+  47281: Talos Serenity YC119 SKIN (365 Days)
+  47282: Talos Serenity YC119 SKIN (Permanent)
+  47283: Talos Serenity YC119 SKIN (7 Days)
+  47284: Talos Serenity YC119 SKIN (30 Days)
+  47285: Talos Serenity YC119 SKIN (90 Days)
+  47286: Men's SARO 'Black Troop' Combat Suit
+  47287: Women's SARO 'Black Troop' Combat Suit
   47288: Standup QA Shield Extender
   47289: Aeon Eros Blossom SKIN (Permanent)
   47290: Thanatos Eros Blossom SKIN (Permanent)
@@ -32381,7 +32399,13 @@ id2name:
   47293: Dramiel Eros Blossom SKIN (Permanent)
   47294: Cynabal Eros Blossom SKIN (Permanent)
   47295: Machariel Eros Blossom SKIN (Permanent)
+  47297: KalliType
   47298: Standup Multirole Missile Launcher II
+  47299: KalliType2
+  47300: Capsuleer Dawn Firework (Large)
+  47301: Crimson Helix Firework (Large)
+  47302: Yoiul Blizzard Firework (Large)
+  47303: Standup Large Festival Launcher
   47304: Crucifier Spirit SKIN (Permanent)
   47305: Augoror Spirit SKIN (Permanent)
   47306: Harbinger Spirit SKIN (Permanent)
@@ -32450,9 +32474,289 @@ id2name:
   47369: Standup Remote Sensor Dampener II Blueprint
   47371: Ragnarok Shakim Warlord SKIN (Permanent)
   47372: Vexor Navy Issue Empyrean Dragons SKIN (Permanent)
+  47374: bacon_PLACEHOLDER
   47375: Astero One Eden SKIN (Permanent)
   47376: Stratios One Eden SKIN (Permanent)
   47377: Nestor One Eden SKIN (Permanent)
+  47378: red_1_PLACEHOLDER
+  47379: red_2_PLACEHOLDER
+  47380: red_3_PLACEHOLDER
+  47381: blue_1_PLACEHOLDER
+  47382: blue_2_PLACEHOLDER
+  47383: blue_3_PLACEHOLDER
+  47384: green_1_PLACEHOLDER
+  47385: green_2_PLACEHOLDER
+  47386: green_3_PLACEHOLDER
+  47387: yellow_1_PLACEHOLDER
+  47388: yellow_2_PLACEHOLDER
+  47389: yellow_3_PLACEHOLDER
+  47390: orange_1_PLACEHOLDER
+  47391: orange_2_PLACEHOLDER
+  47392: orange_3_PLACEHOLDER
+  47393: white_1_PLACEHOLDER
+  47395: Standard 'Guri Hivaa' Cerebral Accelerator
+  47396: Advanced 'Guri Hivaa' Cerebral Accelerator
+  47397: Extended 'Guri Hivaa' Cerebral Accelerator
+  47398: The Hunt - Easy Trash Spawner
+  47399: The Hunt - Hard Trash Spawner
+  47400: The Hunt - Boss Spawner
+  47401: Sleeper Bunker
+  47402: 'Small asteroid environment '
+  47403: 'Small asteroid environment '
+  47404: Small asteroid environment
+  47405: Small asteroid environment
+  47406: Medium asteroid environment
+  47407: Medium asteroid environment
+  47408: DynamicKalli
+  47409: Medium asteroid environment
+  47410: Medium asteroid environment
+  47412: Large asteroid environment
+  47413: Large asteroid environment
+  47414: Large asteroid environment
+  47415: Huge asteroid environment
+  47416: Huge asteroid environment
+  47417: Small pillar environment
+  47418: Small pillar environment
+  47419: Small pillar environment
+  47420: Medium pillar environment
+  47421: Medium pillar environment
+  47422: Medium pillar environment
+  47423: Large pillar environment
+  47424: Large pillar environment
+  47425: Large pillar environment
+  47426: Huge pillar environment
+  47427: Huge pillar environment
+  47428: Huge pillar environment
+  47430: A_30
+  47431: A_31
+  47432: A_32
+  47433: A_33
+  47434: A_34
+  47435: A_35
+  47436: small_PD_PLACEHOLDER
+  47437: medium_PD_PLACEHOLDER
+  47438: large_PD_PLACEHOLDER
+  47439: small_biocloud_PLACEHOLDER
+  47440: medium_biocloud_PLACEHOLDER
+  47441: large_biocloud_PLACEHOLDER
+  47442: small_stretch_PLACEHOLDER
+  47443: large_stretch_PLACEHOLDER
+  47444: medium_stretch_PLACEHOLDER
+  47445: Flag Cruisers
+  47446: Lux Xiphos
+  47447: C3-A 'Hivaa Saitsuo' Ballistic Control System
+  47448: C3-X 'Hivaa Saitsuo' Ballistic Control System
+  47449: Inert Capsule
+  47450: Compressed Capsule Shell
+  47451: Background planet Moon
+  47452: Background planet Sandstorm
+  47453: Background planet Lava
+  47454: Background planet Plasma
+  47455: Background planet Gas
+  47456: Background planet Terestrial
+  47457: Secured Guristas Cache
+  47459: Drifter Cruiser
+  47460: AOE_10k_locator
+  47461: AOE_30k_locator
+  47462: AOE_80k_locator
+  47463: entry_locator
+  47464: exit_locator
+  47466: Praxis
+  47475: Women's Capsuleer Networker XV Suit
+  47476: Men's Capsuleer Networker XV Suit
+  47477: Women's Capsuleer Networker XV Cap
+  47478: Men's Capsuleer Networker XV Cap
+  47479: Women's Capsuleer Networker XV T-Shirt
+  47480: Men's Capsuleer Networker XV T-Shirt
+  47481: CDIA SPACE Cerebral Accelerator
+  47482: CDIA Training Exercise Supply Crate
+  47493: Armageddon Hunter's Quiver SKIN (Permanent)
+  47494: Maller Hunter's Quiver SKIN (Permanent)
+  47495: Inquisitor Hunter's Quiver SKIN (Permanent)
+  47496: Archon Hunter's Quiver SKIN (Permanent)
+  47497: Chimera Hunter's Quiver SKIN (Permanent)
+  47498: Raven Hunter's Quiver SKIN (Permanent)
+  47499: Caracal Hunter's Quiver SKIN (Permanent)
+  47500: Merlin Hunter's Quiver SKIN (Permanent)
+  47501: Hyperion Hunter's Quiver SKIN (Permanent)
+  47502: Exequror Hunter's Quiver SKIN (Permanent)
+  47503: Atron Hunter's Quiver SKIN (Permanent)
+  47504: Thanatos Hunter's Quiver SKIN (Permanent)
+  47505: Typhoon Hunter's Quiver SKIN (Permanent)
+  47506: Stabber Hunter's Quiver SKIN (Permanent)
+  47507: Breacher Hunter's Quiver SKIN (Permanent)
+  47508: Hel Hunter's Quiver SKIN (Permanent)
+  47509: Worm Ace of Podhunters SKIN (Permanent)
+  47510: Gila Ace of Podhunters SKIN (Permanent)
+  47511: Rattlesnake Ace of Podhunters SKIN (Permanent)
+  47512: Immensea Faction Citadel
+  47513: Amarr Faction Citadel
+  47514: Caldari Faction Citadel
+  47515: Gallente Faction Citadel
+  47516: Minmatar Faction Citadel
+  47517: Immensea Faction Citadel Wreck
+  47518: Amarr Faction Citadel Wreck
+  47519: Caldari Faction Citadel Wreck
+  47520: Gallente Faction Citadel Wreck
+  47521: Minmatar Faction Citadel Wreck
+  47522: Incursus Glittering Dream SKIN (Permanent)
+  47523: Ishkur Glittering Dream SKIN (Permanent)
+  47524: Enyo Glittering Dream SKIN (Permanent)
+  47526: Algos Glittering Dream SKIN (Permanent)
+  47527: Magus Glittering Dream SKIN (Permanent)
+  47528: Hecate Glittering Dream SKIN (Permanent)
+  47529: Thorax Glittering Dream SKIN (Permanent)
+  47530: Vexor Glittering Dream SKIN (Permanent)
+  47531: Vexor Navy Issue Glittering Dream SKIN (Permanent)
+  47532: Ishtar Glittering Dream SKIN (Permanent)
+  47533: Talos Glittering Dream SKIN (Permanent)
+  47534: Dominix Glittering Dream SKIN (Permanent)
+  47535: Dominix Navy Issue Glittering Dream SKIN (Permanent)
+  47536: Sin Glittering Dream SKIN (Permanent)
+  47537: Ninazu Glittering Dream SKIN (Permanent)
+  47538: Thanatos Glittering Dream SKIN (Permanent)
+  47539: Nyx Glittering Dream SKIN (Permanent)
+  47540: Erebus Glittering Dream SKIN (Permanent)
+  47541: Dramiel Sariel's Flames SKIN (Permanent)
+  47544: Apotheosis Versus Redforce SKIN (Permanent)
+  47545: Sunesis Versus Redforce SKIN (Permanent)
+  47546: Gnosis Versus Redforce SKIN (Permanent)
+  47547: Apotheosis Versus Blueforce  SKIN (Permanent)
+  47548: Sunesis Versus Blueforce  SKIN (Permanent)
+  47549: Gnosis Versus Blueforce  SKIN (Permanent)
+  47550: Apotheosis Silver Racer SKIN (Permanent)
+  47551: Sunesis Silver Racer SKIN (Permanent)
+  47552: Gnosis Silver Racer SKIN (Permanent)
+  47558: Corrupted Trinary Data Vault
+  47560: Drifter Cruiser Wreck
+  47561: Corrupted Trinary Data Vault
+  47562: Corrupted Trinary Data Vault
+  47563: Corrupted Trinary Data Vault
+  47564: Corrupted Trinary Data Vault
+  47565: Corrupted Trinary Data Vault
+  47566: Corrupted Trinary Data Vault
+  47567: Corrupted Trinary Data Vault
+  47568: Corrupted Trinary Data Vault
+  47569: Corrupted Trinary Data Vault
+  47570: Corrupted Trinary Data Vault
+  47571: Corrupted Trinary Data Vault
+  47572: Corrupted Trinary Data Vault
+  47573: Corrupted Trinary Data Vault
+  47574: Corrupted Trinary Data Vault
+  47575: Corrupted Trinary Data Vault
+  47576: Corrupted Trinary Data Vault
+  47577: Corrupted Trinary Data Vault
+  47578: Corrupted Trinary Data Vault
+  47579: Corrupted Trinary Data Vault
+  47580: Corrupted Trinary Data Vault
+  47581: Corrupted Trinary Data Vault
+  47582: Corrupted Trinary Data Vault
+  47583: Corrupted Trinary Data Vault
+  47584: Corrupted Trinary Data Vault
+  47585: Corrupted Trinary Data Vault
+  47586: Corrupted Trinary Data Vault
+  47587: Corrupted Trinary Data Vault
+  47588: Corrupted Trinary Data Vault
+  47589: Corrupted Trinary Data Vault
+  47590: Corrupted Trinary Data Vault
+  47591: Corrupted Trinary Data Vault
+  47592: Corrupted Trinary Data Vault
+  47593: Corrupted Trinary Data Vault
+  47594: Corrupted Trinary Data Vault
+  47595: Corrupted Trinary Data Vault
+  47596: Corrupted Trinary Data Vault
+  47597: Corrupted Trinary Data Vault
+  47598: Corrupted Trinary Data Vault
+  47599: Corrupted Trinary Data Vault
+  47600: Corrupted Trinary Data Vault
+  47601: Corrupted Trinary Data Vault
+  47602: Corrupted Trinary Data Vault
+  47603: Corrupted Trinary Data Vault
+  47604: Corrupted Trinary Data Vault
+  47605: Corrupted Trinary Data Vault
+  47606: Corrupted Trinary Data Vault
+  47607: Corrupted Trinary Data Vault
+  47608: Corrupted Trinary Data Vault
+  47609: Corrupted Trinary Data Vault
+  47610: Cormorant Octopus Orange Flight SKIN (Permanent)
+  47611: Jackdaw Octopus Orange Flight SKIN (Permanent)
+  47612: Caracal Octopus Orange Flight SKIN (Permanent)
+  47613: Caracal Navy Issue Octopus Orange Flight SKIN (Permanent)
+  47614: Cerberus Octopus Orange Flight SKIN (Permanent)
+  47615: Drake Octopus Orange Flight SKIN (Permanent)
+  47616: Drake Navy Issue Octopus Orange Flight SKIN (Permanent)
+  47617: Raven Octopus Orange Flight SKIN (Permanent)
+  47618: Raven Navy Issue Octopus Orange Flight SKIN (Permanent)
+  47619: Golem Octopus Orange Flight SKIN (Permanent)
+  47621: Malediction Capsuleer Day XV SKIN (Permanent)
+  47622: Zealot Capsuleer Day XV SKIN (Permanent)
+  47623: Omen Capsuleer Day XV SKIN (Permanent)
+  47624: Oracle Capsuleer Day XV SKIN (Permanent)
+  47625: Apocalypse Capsuleer Day XV SKIN (Permanent)
+  47626: Executioner Capsuleer Day XV SKIN (Permanent)
+  47627: Raptor Capsuleer Day XV SKIN (Permanent)
+  47628: Cerberus Capsuleer Day XV SKIN (Permanent)
+  47629: Drake Capsuleer Day XV SKIN (Permanent)
+  47630: Wyvern Capsuleer Day XV SKIN (Permanent)
+  47631: Incursus Capsuleer Day XV SKIN (Permanent)
+  47632: Ishtar Capsuleer Day XV SKIN (Permanent)
+  47633: Myrmidon Capsuleer Day XV SKIN (Permanent)
+  47634: Hyperion Capsuleer Day XV SKIN (Permanent)
+  47635: Claw Capsuleer Day XV SKIN (Permanent)
+  47636: Vagabond Capsuleer Day XV SKIN (Permanent)
+  47637: Tornado Capsuleer Day XV SKIN (Permanent)
+  47638: Tempest Capsuleer Day XV SKIN (Permanent)
+  47639: Avatar Capsuleer Elite XV SKIN (Permanent)
+  47640: Apostle Capsuleer Elite XV SKIN (Permanent)
+  47641: Leviathan Capsuleer Elite XV SKIN (Permanent)
+  47642: Minokawa Capsuleer Elite XV SKIN (Permanent)
+  47643: Erebus Capsuleer Elite XV SKIN (Permanent)
+  47644: Ninazu Capsuleer Elite XV SKIN (Permanent)
+  47645: Ragnarok Capsuleer Elite XV SKIN (Permanent)
+  47646: Lif Capsuleer Elite XV SKIN (Permanent)
+  47647: Apotheosis Capsuleer Elite XV SKIN (Permanent)
+  47648: Sunesis Capsuleer Elite XV SKIN (Permanent)
+  47649: Gnosis Capsuleer Elite XV SKIN (Permanent)
+  47650: Praxis Capsuleer Elite XV SKIN (Permanent)
+  47651: Capsule Capsuleer Elite XV SKIN (Permanent)
+  47652: Apotheosis Capsuleer Networker XV SKIN (Permanent)
+  47653: Sunesis Capsuleer Networker XV SKIN (Permanent)
+  47654: Gnosis Capsuleer Networker XV SKIN (Permanent)
+  47655: Praxis Capsuleer Networker XV SKIN (Permanent)
+  47680: Pacifier SARO 'Black Troop' SKIN (Permanent)
+  47681: Enforcer SARO 'Black Troop' SKIN (Permanent)
+  47682: Monitor SARO 'Black Troop' SKIN (Permanent)
+  47683: Marshal SARO 'Black Troop' SKIN (Permanent)
+  47684: Monitor Firewatch SKIN (Permanent)
+  47688: Corrupted Trinary Data Vault
+  47689: Corrupted Trinary Data Vault
+  47690: Corrupted Trinary Data Vault
+  47691: Corrupted Trinary Data Vault
+  47692: Corrupted Trinary Data Vault
+  47693: Corrupted Trinary Data Vault
+  47694: Corrupted Trinary Data Vault
+  47695: Corrupted Trinary Data Vault
+  47696: Corrupted Trinary Data Vault
+  47697: Corrupted Trinary Data Vault
+  47698: Dominix IGC Victory SKIN (Permanent)
+  47705: Weak Capsuleer Cerebral Accelerator
+  47706: Standard Capsuleer Cerebral Accelerator
+  47707: Advanced Capsuleer Cerebral Accelerator
+  47708: Extended Capsuleer Cerebral Accelerator
+  47710: Upwell General Industrial Support Facility
+  47712: Upwell Advanced Manufacturing Support Facility
+  47713: Upwell Advanced Research Support Facility
+  47715: Sleeper Normal Frigate
+  47716: Praxis Blueprint
+  47717: Sleeper Elite Frigate
+  47718: Sleeper Destroyer
+  47719: Sleeper Normal Cruiser
+  47720: Sleeper Elite Cruiser
+  47721: Sleeper Battlecruiser
+  47722: Drifter Cruiser
+  47723: Drifter Normal Battleship
+  47724: Drifter Elite Battleship
+  47758: Sleeper Small Wreck
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -36490,6 +36794,9 @@ name2group:
   A3 Destroyer Package: specialeditionassets/SpecialEditionCommodities
   A3 Industrial Gear: specialeditionassets/SpecialEditionCommodities
   A3 Industrial Package: specialeditionassets/SpecialEditionCommodities
+  ABC Large: module/EnergyWeapon
+  ABC Medium: module/EnergyWeapon
+  ABC Small: module/EnergyWeapon
   ACOG Test Tactical Assault Rifle: infantry/InfantryWeapons
   ADV Drone Assault Rifle: infantry/InfantryWeapons
   ADV Drone Forge Gun: infantry/InfantryWeapons
@@ -36503,6 +36810,9 @@ name2group:
   AGM Capacitor Charge Array: module/CapacitorRecharger
   AIMEDs: commodity/Miscellaneous
   AML Compact Omnidirectional Tracking Link: module/DroneTrackingModules
+  AOE_10k_locator: celestial/Locators
+  AOE_30k_locator: celestial/Locators
+  AOE_80k_locator: celestial/Locators
   APEX 'Atlas' Sentinel: infantry/VisualCustomization
   APEX 'Atlas' Sentinel vX.1: infantry/VisualCustomization
   APEX 'Centurion' Commando: infantry/VisualCustomization
@@ -36536,6 +36846,12 @@ name2group:
   AT-201 Fragmented Missile Launcher: infantry/InfantryWeapons
   AT-201 Missile Launcher: infantry/InfantryWeapons
   AV Grenade: infantry/InfantryWeapons
+  A_30: effects/LensFlares
+  A_31: effects/LensFlares
+  A_32: effects/LensFlares
+  A_33: effects/LensFlares
+  A_34: effects/LensFlares
+  A_35: effects/LensFlares
   Aakeo Oshaima's Blackbird: celestial/AgentsInSpace
   Abaddon: ship/Battleship
   Abaddon Blood Raiders SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -36730,8 +37046,10 @@ name2group:
   'Admiral Meledier ': commodity/Livestock
   Adrestia: ship/HeavyAssaultCruiser
   Adrestia Blueprint: blueprint/CruiserBlueprint
+  Advanced 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Advanced 'Limos' Heavy Missile Bay I: module/MissileLauncherHeavy
   Advanced Barren Command Center: planetaryinteraction/CommandCenters
+  Advanced Capsuleer Cerebral Accelerator: implant/Booster
   Advanced Cerebral Accelerator: implant/Booster
   Advanced Cerebral Accelerator Blueprint: blueprint/BoosterBlueprints
   Advanced Countermeasure: infantry/InfantryModules
@@ -36897,6 +37215,7 @@ name2group:
   Algos Blueprint: blueprint/DestroyerBlueprint
   Algos Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Algos Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Algos Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Algos Intaki Syndicate SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Algos Intaki Syndicate SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Algos Intaki Syndicate SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
@@ -37130,6 +37449,8 @@ name2group:
   Amarr Energy Neutralizer Sentry III: entity/DestructibleSentryGun
   Amarr Establishment: worldspace/WorldSpace
   Amarr Executioner Frigate: celestial/LargeCollidableObject
+  Amarr Faction Citadel: structure/Citadel
+  Amarr Faction Citadel Wreck: celestial/Wreck
   Amarr Factory Outpost: station/Station
   Amarr Factory Outpost Platform: celestial/ConstructionPlatform
   Amarr Factory Outpost Platform Blueprint: blueprint/ConstructionPlatformBlueprint
@@ -37852,6 +38173,7 @@ name2group:
   Apocalypse Blood Raiders SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apocalypse Blueprint: blueprint/BattleshipBlueprint
   Apocalypse Bow: celestial/LargeCollidableObject
+  Apocalypse Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apocalypse Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apocalypse Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Apocalypse Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -37943,6 +38265,7 @@ name2group:
   Apocalypse Wreck: celestial/LargeCollidableObject
   Apostle: ship/ForceAuxiliary
   Apostle Blueprint: blueprint/ForceAuxiliaryBlueprint
+  Apostle Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apostle Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apostle Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Apostle Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -37965,9 +38288,14 @@ name2group:
   Apostle Raata Sunset Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apotheosis: ship/Shuttle
   Apotheosis Blueprint: blueprint/ShuttleBlueprint
+  Apotheosis Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Apotheosis Capsuleer Networker XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apotheosis Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apotheosis Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apotheosis Midnight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Apotheosis Silver Racer SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Apotheosis Versus Blueforce  SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Apotheosis Versus Redforce SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Apte Donie: entity/StorylineMissionCruiser
   Aqueous Liquids: planetaryresources/PlanetLiquidGas
   Arachula Apis: entity/DeadspaceRogueDroneSwarm
@@ -38156,6 +38484,7 @@ name2group:
   Archon EoM Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Archon Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Archon Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Archon Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Archon Imperial Jubilee SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Archon Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Archon Ironblood Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -38299,6 +38628,7 @@ name2group:
   Armageddon EoM Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Armageddon Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Armageddon Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Armageddon Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Armageddon Imperial Issue: ship/Battleship
   Armageddon Imperial Issue Blueprint: blueprint/BattleshipBlueprint
   Armageddon Imperial Jubilee SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -38602,6 +38932,7 @@ name2group:
   Atron Blueprint: blueprint/FrigateBlueprint
   Atron Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Atron Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Atron Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Atron Intaki Syndicate SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Atron Intaki Syndicate SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Atron Intaki Syndicate SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
@@ -38751,6 +39082,7 @@ name2group:
   Avatar: ship/Titan
   Avatar Blood Raider Victory SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Avatar Blueprint: blueprint/TitanBlueprint
+  Avatar Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Avatar Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Avatar Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Avatar Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -38831,6 +39163,12 @@ name2group:
   BK-42 Assault Combat Rifle: infantry/InfantryWeapons
   BZ-5 Scoped Gravimetric ECM: module/ECM
   Babalu Wrezka's Celestis: celestial/AgentsInSpace
+  Background planet Gas: celestial/MassiveEnvironments
+  Background planet Lava: celestial/MassiveEnvironments
+  Background planet Moon: celestial/MassiveEnvironments
+  Background planet Plasma: celestial/MassiveEnvironments
+  Background planet Sandstorm: celestial/MassiveEnvironments
+  Background planet Terestrial: celestial/MassiveEnvironments
   Backup Array: entity/ScatterContainer
   Bacteria: planetarycommodities/BasicCommodities
   Badge of Prophet Kuria: commodity/Miscellaneous
@@ -39745,6 +40083,7 @@ name2group:
   Breacher Blueprint: blueprint/FrigateBlueprint
   Breacher Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Breacher Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Breacher Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Breacher Justice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Breacher Justice Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Breacher Justice Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -40075,14 +40414,18 @@ name2group:
   C-O-2: station/Station
   C15-A Tactical Sniper Rifle: infantry/InfantryWeapons
   C27-N Specialist Sniper Rifle: infantry/InfantryWeapons
+  C3-A 'Hivaa Saitsuo' Ballistic Control System: module/BallisticControlSystem
   C3-FTM Acid: material/HybridPolymers
   C3-FTM Acid Reaction: reaction/HybridReactions
   C3-FTM Acid Reaction Formula: blueprint/PolymerReactionFormulas
+  C3-X 'Hivaa Saitsuo' Ballistic Control System: module/BallisticControlSystem
   C3S Convection Thermal Radiator: module/HeatSink
   C4S Coiled Circuit Thermal Radiator: module/HeatSink
   CAR-9 Burst Scrambler Pistol: infantry/InfantryWeapons
   CBR-112 Specialist Swarm Launcher: infantry/InfantryWeapons
   CBR7 Swarm Launcher: infantry/InfantryWeapons
+  CDIA SPACE Cerebral Accelerator: implant/Booster
+  CDIA Training Exercise Supply Crate: specialeditionassets/SpecialEditionCommodities
   CFG-129 Assault Swarm Launcher: infantry/InfantryWeapons
   CFO Training: skill/CorporationManagement
   CN-V Light Damage Modifier: infantry/InfantryModules
@@ -40439,6 +40782,8 @@ name2group:
   Caldari Energy Neutralizer Sentry III: entity/DestructibleSentryGun
   Caldari Enforcer HAV: infantry/InfantrySkills
   Caldari Establishment: worldspace/WorldSpace
+  Caldari Faction Citadel: structure/Citadel
+  Caldari Faction Citadel Wreck: celestial/Wreck
   Caldari Fence: entity/LargeCollidableStructure
   Caldari Ferox Battlecruiser: celestial/LargeCollidableObject
   Caldari Food Processing Plant Station: station/Station
@@ -41424,6 +41769,7 @@ name2group:
   Capsule - Genolution 'Auroral' 197-variant Upwell Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Capsule - Genolution 'Auroral' 197-variant Upwell Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Capsule - Genolution 'Auroral' 197-variant Upwell Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Capsule Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Capsule Palatine SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Capsule Palatine Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Capsule Palatine Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -41437,6 +41783,7 @@ name2group:
   Capsule Upwell Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Capsule Upwell Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Capsule YC119 Capsuleer Day SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
   Captain Amiette Barcier: entity/MissionGenericBattleships
   Captain Aneika Sareko: entity/MissionGenericBattleships
   Captain Appakir Tarvia: entity/MissionGenericBattleships
@@ -41471,6 +41818,7 @@ name2group:
   Caracal Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Caracal Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal IGC SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Matigu Seabeast Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -41483,6 +41831,7 @@ name2group:
   Caracal Navy Issue Blueprint: blueprint/CruiserBlueprint
   Caracal Navy Issue Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Navy Issue Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Caracal Navy Issue Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Navy Issue Steel Cardinal SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Navy Issue Wiyrkomi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Navy Issue Wiyrkomi Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -41498,6 +41847,7 @@ name2group:
   Caracal Nugoeihuvi SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Caracal Nugoeihuvi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Nugoeihuvi Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Caracal Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Caracal Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -41841,6 +42191,7 @@ name2group:
   Cerberus Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Cerberus Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Blueprint: blueprint/CruiserBlueprint
+  Cerberus Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -41849,6 +42200,7 @@ name2group:
   Cerberus Matigu Seabeast Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Cerberus Matigu Seabeast Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Cerberus Matigu Seabeast Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Cerberus Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cerberus Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -42028,6 +42380,7 @@ name2group:
   Chimera Blueprint: blueprint/CarrierBlueprint
   Chimera Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Chimera Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Chimera Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Chimera Kairiola's Sacrifice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Chimera Lai Dai SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Chimera Lai Dai SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -42176,6 +42529,7 @@ name2group:
   Claw Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Claw Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Claw Blueprint: blueprint/FrigateBlueprint
+  Claw Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Claw Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Claw Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Claw Justice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -42494,6 +42848,7 @@ name2group:
   Compressed Bright Spodumain: asteroid/Spodumain
   Compressed Bright Spodumain Blueprint: blueprint/OreCompressionBlueprints
   Compressed Brilliant Gneiss: asteroid/Gneiss
+  Compressed Capsule Shell: commodity/Commodities
   Compressed Clear Icicle: asteroid/Ice
   Compressed Clear Icicle Blueprint: blueprint/IceCompressionBlueprints
   Compressed Concentrated Veldspar: asteroid/Veldspar
@@ -43029,6 +43384,7 @@ name2group:
   Cormorant Matigu Seabeast Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Cormorant Matigu Seabeast Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Cormorant Matigu Seabeast Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Cormorant Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cormorant Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cormorant Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Cormorant Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -43197,6 +43553,7 @@ name2group:
   Correspondence Log KL-513: commodity/Miscellaneous
   Corrupted Drone: entity/SpawnContainer
   Corrupted Drone Components: commodity/Miscellaneous
+  Corrupted Trinary Data Vault: commodity/TrinaryDataVaults
   Corrupted Trinary Relics: commodity/Miscellaneous
   Cortex: infantry/InfantryEquipment
   Cosmic Agent Site Signature: celestial/CosmicSignature
@@ -43467,6 +43824,7 @@ name2group:
   Crimson Hand Level 2 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 3 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 4 Passcard: commodity/AccelerationGateKeys
+  Crimson Helix Firework (Large): charge/StructureFestivalCharges
   Crimson Lord: entity/DeadspaceOverseerBattleship
   Crimson Scythes Firework: charge/FestivalCharges
   Crimson Sentinel: entity/DeadspaceOverseerSSentry
@@ -44769,12 +45127,14 @@ name2group:
   Dominix Blueprint: blueprint/BattleshipBlueprint
   Dominix Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Dominix Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Golden SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Golden Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Dominix Golden Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Dominix Golden Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Dominix Golden Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Dominix Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Dominix IGC Victory SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Inner Zone Shipping SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Dominix Inner Zone Shipping SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Dominix Inner Zone Shipping SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
@@ -44792,6 +45152,7 @@ name2group:
   Dominix Navy Issue Blueprint: blueprint/BattleshipBlueprint
   Dominix Navy Issue Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Navy Issue Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Dominix Navy Issue Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Navy Issue Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dominix Navy Issue Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Dominix Navy Issue Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -44932,6 +45293,7 @@ name2group:
   Drake Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Drake Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Blueprint: blueprint/BattlecruiserBlueprint
+  Drake Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -44947,6 +45309,7 @@ name2group:
   Drake Navy Issue Blueprint: blueprint/BattlecruiserBlueprint
   Drake Navy Issue Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Navy Issue Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Drake Navy Issue Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Navy Issue Steel Cardinal SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Navy Issue Wiyrkomi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Navy Issue Wiyrkomi Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -44954,6 +45317,7 @@ name2group:
   Drake Navy Issue Wiyrkomi Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Drake Navy Issue Wiyrkomi Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Drake Navy Issue Wiyrkomi Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Drake Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drake Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -44981,6 +45345,7 @@ name2group:
   Dramiel Eros Blossom SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dramiel Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dramiel Red Kite SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Dramiel Sariel's Flames SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Dramiel Spirit SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Drazin Jaruk: entity/MissionGenericCruisers
   Drazin's Keycard: commodity/AccelerationGateKeys
@@ -45233,6 +45598,9 @@ name2group:
   Drezins Capsule: entity/MissionGenericFrigates
   Drifter Battleship: entity/HiddenZenithDrifters
   Drifter Battleship Wreck: celestial/LargeCollidableObject
+  Drifter Cruiser: entity/DrifterReinforcements
+  Drifter Cruiser Wreck: celestial/Wreck
+  Drifter Elite Battleship: entity/DrifterBattleship
   Drifter Hive: entity/LargeCollidableStructure
   Drifter Hive Explosion: celestial/Cloud
   Drifter Incursion 3 to 4 Defeat: celestial/EffectBeacon
@@ -45241,7 +45609,7 @@ name2group:
   Drifter Incursion 5 to 7 Victory: celestial/EffectBeacon
   Drifter Incursion 8+ Defeat: celestial/EffectBeacon
   Drifter Incursion 8+ Victory: celestial/EffectBeacon
-  Drifter Responder: entity/DrifterReinforcements
+  Drifter Normal Battleship: entity/DrifterBattleship
   Drifter Response Battleship: entity/DrifterResponseBattleship
   Drifter Response Battleship Wreck: celestial/Wreck
   Drifter Spur: commodity/Identification
@@ -45465,6 +45833,7 @@ name2group:
   Duvolle Specialist Shotgun: infantry/InfantryWeapons
   Duvolle Tactical Assault Rifle: infantry/InfantryWeapons
   Dyklan Harrikar: entity/StorylineMissionFrigate
+  DynamicKalli: module/DynamicPLACEHOLDER
   Dynamite Crate: commodity/Commodities
   Dynasty Ring: commodity/Commodities
   Dysfunctional Fluid Router: commodity/Miscellaneous
@@ -45918,6 +46287,7 @@ name2group:
   Enforcer Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Enforcer Firewatch SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Enforcer Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Enforcer SARO 'Black Troop' SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Engine Core Calibration: infantry/InfantrySkills
   Engineer Tahaki Karin: commodity/Livestock
   Engraved Blood Obsidian tablet: commodity/Miscellaneous
@@ -46000,6 +46370,7 @@ name2group:
   Enyo Blueprint: blueprint/FrigateBlueprint
   Enyo Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Enyo Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Enyo Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Enyo Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Enyo Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Enyo Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -46104,6 +46475,7 @@ name2group:
   Erakki's Voucher: commodity/Commodities
   Erebus: ship/Titan
   Erebus Blueprint: blueprint/TitanBlueprint
+  Erebus Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Erebus Duvolle SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Erebus Duvolle SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Erebus Duvolle SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
@@ -46112,6 +46484,7 @@ name2group:
   Erebus Duvolle Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Erebus Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Erebus Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Erebus Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Erebus Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Erebus Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Erebus Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -46250,6 +46623,7 @@ name2group:
   Executioner Blood Raiders Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Executioner Blood Raiders Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Executioner Blueprint: blueprint/FrigateBlueprint
+  Executioner Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Executioner Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Executioner Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Executioner Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -46292,6 +46666,7 @@ name2group:
   Exequror Blueprint: blueprint/CruiserBlueprint
   Exequror Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Exequror Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Exequror Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Exequror Intaki Syndicate SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Exequror Intaki Syndicate SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
   Exequror Intaki Syndicate SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
@@ -46387,7 +46762,11 @@ name2group:
   Experimental ZW-4100 Torpedo Launcher: module/MissileLauncherTorpedo
   Expired Cerebral Accelerator: implant/Booster
   Expired Crimson Cerebral Accelerator: implant/Booster
+  Expired Gold Ouroboros Accelerator: implant/Booster
+  Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
+  Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
   Expired Rogue Swarm Cerebral Accelerator: implant/Booster
+  Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Valkyrie Cerebral Accelerator: implant/Booster
   Expired Yoiul Cerebral Accelerator: implant/Booster
   Exploration Monument: celestial/LargeCollidableObject
@@ -46411,6 +46790,8 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   'Exsanguinator ': entity/DeadspaceOverseerCruiser
+  Extended 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Extended Capsuleer Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extra Gravimetric ECCM Scanning Array I: module/ECCM
@@ -47027,6 +47408,7 @@ name2group:
   Firewater: commodity/Commodities
   Fitting Service: celestial/DisruptableStationServices
   Fixed Parallel Link-Capacitor I: module/CapacitorRecharger
+  Flag Cruisers: skill/SpaceshipCommand
   Flames of the Rebellion Firework: charge/FestivalCharges
   Flawed Arkonor: asteroid/Arkonor
   Flawed Gneiss: asteroid/Gneiss
@@ -47510,6 +47892,8 @@ name2group:
   Gallente Erebus Titan: entity/SpawnContainer
   Gallente Establishment: worldspace/WorldSpace
   Gallente Exequror Cruiser: celestial/LargeCollidableObject
+  Gallente Faction Citadel: structure/Citadel
+  Gallente Faction Citadel Wreck: celestial/Wreck
   Gallente Factory: entity/LargeCollidableStructure
   Gallente Fathom Station Ruins: celestial/LargeCollidableObject
   Gallente Federation Civilians: entity/MissionFighterDrone
@@ -47753,6 +48137,7 @@ name2group:
   Gas Ionic Solutions Extractor: planetaryinteraction/Extractors
   Gas Launchpad: planetaryinteraction/Spaceports
   Gas Noble Gas Extractor: planetaryinteraction/Extractors
+  Gas Passkey: commodity/Miscellaneous
   Gas Reactive Gas Extractor: planetaryinteraction/Extractors
   Gas Storage Facility: planetaryinteraction/StorageFacilities
   Gas/Storage Silo: entity/DeadspaceOverseerSStructure
@@ -47834,6 +48219,7 @@ name2group:
   Giant Secure Container Blueprint: blueprint/ContainerBlueprints
   Giant Snake-Shaped Asteroid: celestial/LargeCollidableObject
   Gila: ship/Cruiser
+  Gila Ace of Podhunters SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gila Blueprint: blueprint/CruiserBlueprint
   Gila Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gila Hostile Takeover SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -48047,6 +48433,8 @@ name2group:
   Gneiss Processing: skill/ResourceProcessing
   Gnosis: ship/CombatBattlecruiser
   Gnosis Blueprint: blueprint/BattlecruiserBlueprint
+  Gnosis Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Gnosis Capsuleer Networker XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gnosis Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gnosis Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gnosis Ironblood Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -48055,6 +48443,9 @@ name2group:
   Gnosis Ironblood Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Gnosis Ironblood Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Gnosis Midnight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Gnosis Silver Racer SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Gnosis Versus Blueforce  SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Gnosis Versus Redforce SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Godun Sakt's Diamond Drill: commodity/Commodities
   Godun Sakt's Questionable Holoreel: commodity/Commodities
   Gojivi's Bustard: celestial/AgentsInSpace
@@ -48111,6 +48502,7 @@ name2group:
   Golem Nugoeihuvi SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Golem Nugoeihuvi SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Golem Nugoeihuvi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Golem Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Golem Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Golem Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Golem Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -48261,8 +48653,6 @@ name2group:
   Guard Post: entity/MissionContainer
   Guardian: ship/Logistics
   Guardian Agent: entity/AsteroidSerpentisFrigate
-  Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
-  Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
   Guardian Angels Barachael: entity/IrregularBattleship
   Guardian Angels Cherubim: entity/IrregularFighter
   Guardian Angels Hanael: entity/IrregularBattlecruiser
@@ -48392,6 +48782,9 @@ name2group:
   Gunslinger Murderer: entity/AsteroidGuristasCruiser
   Gunslinger Silencer: entity/AsteroidGuristasCruiser
   Gunslinger Spur: commodity/Identification
+  Guri Hivaa Assassin: entity/IrregularCruiser
+  Guri Hivaa Killer: entity/IrregularFrigate
+  Guri Hivaa Rokosabai: entity/IrregularBattleship
   Gurista Guerilla Special Acquirement Division Captain: entity/DeadspaceBloodRaidersCruiser
   Gurista Special Acquirement Captain: entity/DeadspaceOverseerCruiser
   Guristas Abolisher: entity/AsteroidGuristasCruiser
@@ -48413,8 +48806,6 @@ name2group:
   Guristas Barrier: entity/LargeCollidableStructure
   Guristas Basic Defense Battery: entity/DestructibleSentryGun
   Guristas Battery: entity/LargeCollidableStructure
-  Guristas Battlecruiser: entity/IrregularBattlecruiser
-  Guristas Battleship: entity/IrregularBattleship
   Guristas Battleship Vessel: entity/DeadspaceGuristasBattleship
   Guristas Brass Tag: commodity/CriminalTags
   Guristas Bronze Tag: commodity/CriminalTags
@@ -48444,7 +48835,6 @@ name2group:
   Guristas Cruise Missile Batteries: entity/DestructibleSentryGun
   Guristas Cruise Missile Battery: starbase/MobileMissileSentry
   Guristas Cruise Missile Battery Blueprint: blueprint/StarbaseMissileBatteryBlueprints
-  Guristas Cruiser: entity/IrregularCruiser
   Guristas Crystal Tag: commodity/CriminalTags
   Guristas Data Sequence: commodity/Commodities
   Guristas Databank: entity/ScatterContainer
@@ -48481,7 +48871,6 @@ name2group:
   Guristas Fleet Stronghold: entity/DeadspaceOverseerSSentry
   Guristas Forward Operating Base: structure/NPCForwardOperatingBase
   Guristas Forward Operating Base Wreck: celestial/Wreck
-  Guristas Frigate: entity/IrregularFrigate
   Guristas Gatherer: entity/AsteroidGuristasHauler
   Guristas Gold Tag: commodity/CriminalTags
   Guristas Graviton Hardening: commodity/ArtifactsAndPrototypes
@@ -48989,8 +49378,6 @@ name2group:
   Hazmat Detection Systems: planetarycommodities/SpecializedCommodities
   Head Bouncer: entity/StorylineMissionBattleship
   Head in a Jar: commodity/Commodities
-  HeadWear_Cap_F01_XV_BlackOrange.type: apparel/Headwear
-  HeadWear_Cap_M01_XV_BlackOrange.type: apparel/Headwear
   Headhunter Crate: specialeditionassets/SpecialEditionCommodities
   Headmaster Administration Keycard: commodity/AccelerationGateKeys
   Heap-Load of Garbage: commodity/Miscellaneous
@@ -49159,6 +49546,7 @@ name2group:
   Hecate Defense Mode: module/ShipModifiers
   Hecate Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hecate Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Hecate Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hecate Kopis Edge SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hecate Propulsion Mode: module/ShipModifiers
   Hecate Ruby Sungrazer SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -49197,6 +49585,7 @@ name2group:
   Hel Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hel Hazard Control SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hel Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Hel Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hel Justice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hel Justice Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Hel Justice Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -49549,6 +49938,8 @@ name2group:
   Huge Secure Container: celestial/SecureCargoContainer
   Huge Secure Container Blueprint: blueprint/ContainerBlueprints
   Huge Silvery White Stalagmite: celestial/LargeCollidableObject
+  Huge asteroid environment: celestial/LargeCollidableObject
+  Huge pillar environment: celestial/LargeCollidableObject
   Huginn: ship/CombatReconShip
   Huginn Blue Tiger SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Huginn Blue Tiger Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -49744,8 +50135,10 @@ name2group:
   Hyperion Aliastra SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Aliastra Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Blueprint: blueprint/BattleshipBlueprint
+  Hyperion Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Hyperion Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Inner Zone Shipping Edition: ship/Battleship
   Hyperion Inner Zone Shipping Edition Blueprint: blueprint/BattleshipBlueprint
   Hyperion Inner Zone Shipping SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -49767,11 +50160,6 @@ name2group:
   Hyperion Quafe Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Hyperion Quafe Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Hyperion Quafe Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
-  Hyperion Serenity YC119 SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
-  Hyperion Serenity YC119 SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
-  Hyperion Serenity YC119 SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
-  Hyperion Serenity YC119 SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
-  Hyperion Serenity YC119 SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Serpentis SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Hyperion Serpentis Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Hyperion Serpentis Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -49875,6 +50263,8 @@ name2group:
   Imicus Valimor Legacy Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Imicus Valimor Legacy Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Immaculate Jaspet: asteroid/Jaspet
+  Immensea Faction Citadel: structure/Citadel
+  Immensea Faction Citadel Wreck: celestial/Wreck
   Immobile Tractor Beam: celestial/LargeCollidableObject
   Immolator: ship/Corvette
   Immolator Blueprint: blueprint/FrigateBlueprint
@@ -50352,9 +50742,11 @@ name2group:
   Incursus Aliastra SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Incursus Aliastra Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Incursus Blueprint: blueprint/FrigateBlueprint
+  Incursus Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Incursus Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Incursus Federal Strategic Materiel Pack: commodity/StrongBoxes
   Incursus Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Incursus Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Incursus Inner Zone Shipping Edition: ship/Frigate
   Incursus Inner Zone Shipping Edition Blueprint: blueprint/FrigateBlueprint
   Incursus Inner Zone Shipping SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -50557,6 +50949,7 @@ name2group:
   Industrial Reconfiguration: skill/ResourceProcessing
   Industrialist Bonus: bonus/CareerBonus
   Industry: skill/Production
+  Inert Capsule: entity/SpawnContainer
   Inert Proximity-activated Autoturret: entity/DestructibleSentryGun
   Inert Repair Tool: infantry/InfantryEquipment
   Inertia Test Plates: infantry/InfantryModules
@@ -50809,6 +51202,7 @@ name2group:
   Inquisitor EoM Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Inquisitor Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Inquisitor Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Inquisitor Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Inquisitor Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Inquisitor Ironblood Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Inquisitor Ironblood Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -50958,6 +51352,7 @@ name2group:
   Ishkur Blueprint: blueprint/FrigateBlueprint
   Ishkur Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishkur Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Ishkur Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishkur Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishkur Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Ishkur Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -50981,8 +51376,10 @@ name2group:
   Ishtar: ship/HeavyAssaultCruiser
   Ishtar "Blaze" Squadron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishtar Blueprint: blueprint/CruiserBlueprint
+  Ishtar Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishtar Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishtar Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Ishtar Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishtar Golden SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ishtar Golden Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Ishtar Golden Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -51095,6 +51492,7 @@ name2group:
   Jackdaw Defense Mode: module/ShipModifiers
   Jackdaw Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Jackdaw Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Jackdaw Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Jackdaw Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Jackdaw Propulsion Mode: module/ShipModifiers
   Jackdaw Sharpshooter Mode: module/ShipModifiers
@@ -51270,6 +51668,8 @@ name2group:
   Kakala's Voucher: commodity/Commodities
   Kalante's RXS-05 Assault Rifle: infantry/InfantryWeapons
   Kali Midez's Insignia: commodity/EmpireInsigniaDrops
+  KalliType: commodity/KalliPLACEHOLDER
+  KalliType2: commodity/KalliPLACEHOLDER
   Kalorr Makur: entity/DeadspaceOverseerBattleship
   Kalorr Makur's Tag: commodity/CriminalTags
   Kaltoh Kurzon: entity/MissionGenericCruisers
@@ -51308,6 +51708,7 @@ name2group:
   Kazka Brothel: entity/DeadspaceOverseerSStructure
   Kazka Eunuch: entity/StorylineMissionFrigate
   Kazka Loot Container: entity/SpawnContainer
+  Kazue's Caiman: entity/IrregularDreadnought
   Keepstar: structure/Citadel
   Keepstar Blueprint: blueprint/StructureBlueprints
   Keepstar Lights On: celestial/Cloud
@@ -52377,6 +52778,8 @@ name2group:
   Large Warp Core Optimizer II: module/RigNavigation
   Large Warp Core Optimizer II Blueprint: blueprint/RigBlueprint
   Large YF-12a Smartbomb: module/SmartBomb
+  Large asteroid environment: celestial/LargeCollidableObject
+  Large pillar environment: celestial/LargeCollidableObject
   Large_Atmo_Cloud_01: effects/ParticleSystems
   Laser Focusing Crystals: commodity/ConstructionComponents
   Laser Focusing Crystals Blueprint: blueprint/ConstructionComponentBlueprints
@@ -52495,6 +52898,7 @@ name2group:
   Leviathan Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Leviathan Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Leviathan Blueprint: blueprint/TitanBlueprint
+  Leviathan Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Leviathan Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Leviathan Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Leviathan Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -52550,6 +52954,7 @@ name2group:
   Lif Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Lif Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Lif Blueprint: blueprint/ForceAuxiliaryBlueprint
+  Lif Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Lif Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Lif Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Lif Tronhadar Ink SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -52920,6 +53325,7 @@ name2group:
   Lux M Blueprint: blueprint/AdvancedFrequencyCrystalBlueprint
   Lux S: charge/AdvancedBeamLaserCrystal
   Lux S Blueprint: blueprint/AdvancedFrequencyCrystalBlueprint
+  Lux Xiphos: module/EnergyWeapon
   Luxury Spaceliner: entity/MissionContainer
   Lyavite: asteroid/Kernite
   Lynk: entity/MissionGenericCruisers
@@ -53149,6 +53555,7 @@ name2group:
   Magus Blueprint: blueprint/CommandDestroyerBlueprint
   Magus Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Magus Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Magus Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Magus Kopis Edge SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Magus Serpentis SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Magus Serpentis Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -53184,6 +53591,7 @@ name2group:
   Malad Dorsin: entity/MissionGenericCruisers
   Malediction: ship/Interceptor
   Malediction Blueprint: blueprint/FrigateBlueprint
+  Malediction Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Malediction Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Malediction Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Malediction Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -53244,6 +53652,7 @@ name2group:
   Maller EoM Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Maller Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Maller Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Maller Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Maller Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Maller Ironblood Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Maller Ironblood Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -53431,6 +53840,7 @@ name2group:
   Marshal Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Marshal Firewatch SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Marshal Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Marshal SARO 'Black Troop' SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Martokar Alash: entity/DeadspaceOverseerBattleship
   Maru Envoy: entity/MissionGenericBattleships
   Maru Grunt: entity/MissionGenericFrigates
@@ -54141,6 +54551,8 @@ name2group:
   Medium Warp Core Optimizer II: module/RigNavigation
   Medium Warp Core Optimizer II Blueprint: blueprint/RigBlueprint
   Medium YF-12a Smartbomb: module/SmartBomb
+  Medium asteroid environment: celestial/LargeCollidableObject
+  Medium pillar environment: celestial/LargeCollidableObject
   Medusa: ship/Frigate
   Medusa Blueprint: blueprint/FrigateBlueprint
   Mega Afocal Maser I: module/EnergyWeapon
@@ -54436,14 +54848,21 @@ name2group:
   Men's 'Twinswitch' Facial Augmentation: apparel/Augmentations
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
+  Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Men's Amarr Empire Command Jacket: apparel/Outer
   Men's Amarr Empire Exploration Suit: apparel/Outer
   Men's Beret (Blood Raiders): apparel/Headwear
   Men's CONCORD 'Solitaire' Survival Suit: apparel/Outer
   Men's CONCORD Test Pilot T-Shirt: apparel/Tops
+  Men's Caldari 'Patriot' T-Shirt: apparel/Tops
   Men's Caldari State Exploration Suit: apparel/Outer
   Men's Caldari State Officer Jacket: apparel/Outer
   Men's Cap (Blood Raiders): apparel/Headwear
+  Men's Capsuleer Elite XV Cap: apparel/Headwear
+  Men's Capsuleer Elite XV T-Shirt: apparel/Tops
+  Men's Capsuleer Networker XV Cap: apparel/Headwear
+  Men's Capsuleer Networker XV Suit: apparel/Outer
+  Men's Capsuleer Networker XV T-Shirt: apparel/Tops
   Men's Corporate Troubleshooter Gear: apparel/Outer
   Men's Empyrean Dragons Jacket: apparel/Outer
   Men's Exoplanets Data Analyst Lab Coat: apparel/Outer
@@ -54452,16 +54871,19 @@ name2group:
   Men's Exoplanets Hunter T-shirt: apparel/Tops
   Men's Exoplanets Program Director Coat: apparel/Outer
   Men's Federal Strategic Materiel Jacket: apparel/Outer
+  Men's Gallente 'Defender' T-Shirt: apparel/Tops
   Men's Gallente Federation Command Jacket: apparel/Outer
   Men's Gallente Federation Exploration Suit: apparel/Outer
   Men's Genolution Combat Suit: apparel/Outer
   Men's Genolution Tactical Goggles: apparel/Eyewear
   Men's IGC Location Scout Suit: apparel/Outer
   Men's Imperial War Reserves Jacket: apparel/Outer
+  Men's Minmatar 'Liberator' T-Shirt: apparel/Tops
   Men's Minmatar Republic Exploration Suit: apparel/Outer
   Men's Minmatar Republic Officer Jacket: apparel/Outer
   Men's ORE Claim Surveyor Suit: apparel/Outer
   Men's Republic Fleet Ordnance Jacket: apparel/Outer
+  Men's SARO 'Black Troop' Combat Suit: apparel/Outer
   Men's SOE Expeditionary Suit: apparel/Outer
   Men's Scope Network Special Correspondent Suit: apparel/Outer
   Men's Sisters of EVE Advanced Combat Suit: apparel/Outer
@@ -54471,8 +54893,8 @@ name2group:
   Men's YC119 Yoiul Festival Pants: apparel/Bottoms
   Men's YC119 Yoiul Festival T-shirt: apparel/Tops
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
-  Men's ‘Liberator�� Beret (Minmatar Republic): apparel/Headwear
-  Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
+  Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
+  Men's ‘Protector��� Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
@@ -54511,6 +54933,7 @@ name2group:
   Merlin Guristas Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Merlin Guristas Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Merlin Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Merlin Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Merlin Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Merlin Matigu Seabeast Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Merlin Matigu Seabeast Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -55170,6 +55593,8 @@ name2group:
   Minmatar Energy Neutralizer Sentry II: entity/DestructibleSentryGun
   Minmatar Energy Neutralizer Sentry III: entity/DestructibleSentryGun
   Minmatar Establishment: worldspace/WorldSpace
+  Minmatar Faction Citadel: structure/Citadel
+  Minmatar Faction Citadel Wreck: celestial/Wreck
   Minmatar Fence: entity/LargeCollidableStructure
   Minmatar Fenrir Freighter: celestial/LargeCollidableObject
   Minmatar Force Auxiliary: skill/SpaceshipCommand
@@ -55352,6 +55777,7 @@ name2group:
   Minokawa Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Minokawa Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Minokawa Blueprint: blueprint/ForceAuxiliaryBlueprint
+  Minokawa Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Minokawa Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Minokawa Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Minokawa Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -55613,6 +56039,10 @@ name2group:
   Molok Blueprint: blueprint/TitanBlueprint
   Molok Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Monazite: asteroid/ExceptionalMoonAsteroids
+  Monitor: ship/FlagCruiser
+  Monitor Blueprint: blueprint/CruiserBlueprint
+  Monitor Firewatch SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Monitor SARO 'Black Troop' SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Monoclinic Bistot: asteroid/Bistot
   Monophobia Bonus: bonus/PhobiaHandicap
   Monophonic Stabilization Actuator I: module/Gyrostabilizer
@@ -55787,6 +56217,7 @@ name2group:
   Myrkai's Data Chip: commodity/Commodities
   Myrmidon: ship/CombatBattlecruiser
   Myrmidon Blueprint: blueprint/BattlecruiserBlueprint
+  Myrmidon Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Myrmidon Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Myrmidon Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Myrmidon Intaki Syndicate SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -56227,8 +56658,10 @@ name2group:
   Nimpor Fatimar's Omen: entity/DestructibleAgentsInSpace
   Ninazu: ship/ForceAuxiliary
   Ninazu Blueprint: blueprint/ForceAuxiliaryBlueprint
+  Ninazu Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ninazu Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ninazu Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Ninazu Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ninazu Kopis Edge SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ninazu Valimor Legacy SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ninazu Valimor Legacy Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -56415,6 +56848,7 @@ name2group:
   Nyx Blueprint: blueprint/SupercarrierBlueprints
   Nyx Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Nyx Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Nyx Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Nyx Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Nyx Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Nyx Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -56830,6 +57264,7 @@ name2group:
   Omen Blood Raiders Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Omen Blood Raiders Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Omen Blueprint: blueprint/CruiserBlueprint
+  Omen Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Omen Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Omen Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Omen Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -57018,6 +57453,7 @@ name2group:
   Oracle: ship/AttackBattlecruiser
   Oracle "Blaze" Squadron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Oracle Blueprint: blueprint/BattlecruiserBlueprint
+  Oracle Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Oracle Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Oracle Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Oracle Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -57130,6 +57566,7 @@ name2group:
   Orca Wreck: celestial/Wreck
   Ordered Mind Bonus: bonus/PhysicalBenefit
   Ore Compression: skill/ResourceProcessing
+  Ore Passkey: commodity/Miscellaneous
   Ore Prospecting Array 1: infrastructureupgrades/IndustrialUpgrades
   Ore Prospecting Array 1 Blueprint: blueprint/InfrastructureUpgradeBlueprint
   Ore Prospecting Array 2: infrastructureupgrades/IndustrialUpgrades
@@ -57294,6 +57731,7 @@ name2group:
   Pacifier Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Pacifier Firewatch SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Pacifier Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Pacifier SARO 'Black Troop' SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Packaging Center Passkey: commodity/AccelerationGateKeys
   Packed AV Grenade: infantry/InfantryWeapons
   Packed Remote Explosive: infantry/InfantryEquipment
@@ -57972,6 +58410,10 @@ name2group:
   Praetor II Blueprint: blueprint/CombatDroneBlueprint
   Praetor TD-900: drone/ElectronicWarfareDrone
   Praetor TD-900 Blueprint: blueprint/ElectronicWarfareDroneBlueprint
+  Praxis: ship/Battleship
+  Praxis Blueprint: blueprint/BattleshipBlueprint
+  Praxis Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Praxis Capsuleer Networker XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Pre-Completed CSM 10 Ballot Paper: specialeditionassets/SpecialEditionCommodities
   Preacher: commodity/Livestock
   Preacher's Quarters: entity/SpawnContainer
@@ -58130,9 +58572,7 @@ name2group:
   'Proof of Discovery: Anomalies': commodity/Miscellaneous
   'Proof of Discovery: Data': commodity/Miscellaneous
   'Proof of Discovery: Gas': commodity/Miscellaneous
-  'Proof of Discovery: Gas Passkey': commodity/Miscellaneous
   'Proof of Discovery: Ore': commodity/Miscellaneous
-  'Proof of Discovery: Ore Passkey': commodity/Miscellaneous
   'Proof of Discovery: Relic': commodity/Miscellaneous
   Prop Comedian: commodity/Livestock
   Propel Dynamics Defender: entity/StorylineMissionFrigate
@@ -58364,8 +58804,6 @@ name2group:
   Prototype Precise Quad 800mm Repeating Cannon: module/ProjectileWeapon
   Prototype Precise Quad 800mm Repeating Cannon Blueprint: blueprint/ProjectileWeaponBlueprint
   Prototype Sensor Booster: module/SensorBooster
-  Prototype Seven: ship/CommandShip
-  Prototype Seven Blueprint: blueprint/BattlecruiserBlueprint
   Prototype Thermal Plating I: module/ArmorCoating
   Providence: ship/Freighter
   Providence Ardishapur SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -58839,6 +59277,7 @@ name2group:
   Ragnarok Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Ragnarok Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ragnarok Blueprint: blueprint/TitanBlueprint
+  Ragnarok Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ragnarok Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ragnarok Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Ragnarok Justice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -58879,7 +59318,7 @@ name2group:
   Raitaru: structure/EngineeringComplex
   Raitaru Blueprint: blueprint/StructureBlueprints
   Raitaru Wreck: celestial/Wreck
-  Rakka's Rattlesnake: entity/DestructibleAgentsInSpace
+  Rakka's Rattlesnake: entity/IrregularBattleship
   Rakken's Claw: celestial/AgentsInSpace
   Rakogh Citadel: entity/DeadspaceOverseerSSentry
   Rakogh Officer Gate Key: commodity/AccelerationGateKeys
@@ -58948,6 +59387,7 @@ name2group:
   Raptor Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Raptor Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raptor Blueprint: blueprint/FrigateBlueprint
+  Raptor Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raptor Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raptor Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raptor Matigu Seabeast SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -58985,6 +59425,7 @@ name2group:
   Rattati's Modified Assault gk.0: infantry/InfantryDropsuits
   Rattati's Modified Assault gk.0 (Master): infantry/InfantryDropsuits
   Rattlesnake: ship/Battleship
+  Rattlesnake Ace of Podhunters SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Rattlesnake Blueprint: blueprint/BattleshipBlueprint
   Rattlesnake Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Rattlesnake Hostile Takeover SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -59018,6 +59459,7 @@ name2group:
   Raven Guristas SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Hull: celestial/LargeCollidableObject
+  Raven Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven IGC Victory SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Kaalakiota Edition: ship/Battleship
   Raven Kaalakiota Edition Blueprint: blueprint/BattleshipBlueprint
@@ -59037,6 +59479,7 @@ name2group:
   Raven Navy Issue Blueprint: blueprint/BattleshipBlueprint
   Raven Navy Issue Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Navy Issue Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Raven Navy Issue Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Navy Issue Steel Cardinal SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Navy Issue Wiyrkomi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Navy Issue Wiyrkomi Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -59051,6 +59494,7 @@ name2group:
   Raven Nugoeihuvi SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Raven Nugoeihuvi SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Raven Nugoeihuvi SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Raven Octopus Orange Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Octopus Red Flight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Raata Sunset SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Raven Raata Sunset Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -61012,6 +61456,7 @@ name2group:
   Secure Serpentis Vault: entity/ScatterContainer
   Secure Vault: entity/SpawnContainer
   Secured Drone Bunker: entity/LargeCollidableStructure
+  Secured Guristas Cache: entity/ScatterContainer
   Security Connections: skill/Social
   Security Console: infantry/InfantryInstallations
   Security Coordinator: entity/DeadspaceOverseerCruiser
@@ -61310,7 +61755,6 @@ name2group:
   Serpentis Info Shard: entity/ScatterContainer
   Serpentis Informant: commodity/Livestock
   Serpentis Initiate: entity/AsteroidSerpentisFrigate
-  Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Serpentis Inquest Viper: entity/IrregularFighter
   Serpentis Junction: entity/LargeCollidableStructure
   Serpentis Junkie: entity/StorylineMissionFrigate
@@ -62000,6 +62444,7 @@ name2group:
   Sin Blueprint: blueprint/BattleshipBlueprint
   Sin Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sin Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Sin Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sin Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sin Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Sin Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -62178,6 +62623,8 @@ name2group:
   Sleek Locus Grenade: infantry/InfantryWeapons
   Sleeper Archive Terminal: entity/LargeCollidableStructure
   Sleeper Artifact: entity/ScatterContainer
+  Sleeper Battlecruiser: entity/DeadspaceSleeperAwakenedPatroller
+  Sleeper Bunker: entity/LargeCollidableStructure
   Sleeper Canopic: celestial/LargeCollidableObject
   Sleeper Cryo Batteries: commodity/MaterialsAndCompounds
   Sleeper Data Analyzer I: module/DataMiners
@@ -62195,8 +62642,11 @@ name2group:
   Sleeper Debris Part: entity/ScatterContainer
   Sleeper Debris Piece: entity/ScatterContainer
   Sleeper Debris Segment: entity/ScatterContainer
+  Sleeper Destroyer: entity/IrregularDestroyer
   Sleeper Drone AI Nexus: commodity/SleeperComponents
   Sleeper Drone Hangar: celestial/LargeCollidableObject
+  Sleeper Elite Cruiser: entity/DeadspaceSleeperAwakenedPatroller
+  Sleeper Elite Frigate: entity/DeadspaceSleeperEmergentPatroller
   Sleeper Enclave: celestial/LargeCollidableObject
   Sleeper Encryption Methods: skill/Science
   Sleeper Engineering Station: celestial/LargeCollidableObject
@@ -62216,12 +62666,15 @@ name2group:
   Sleeper Micro Circuits: commodity/MaterialsAndCompounds
   Sleeper Multiplex Forwarder: celestial/LargeCollidableObject
   Sleeper Nanite Cluster: commodity/ArtifactsAndPrototypes
+  Sleeper Normal Cruiser: entity/DeadspaceSleeperAwakenedPatroller
+  Sleeper Normal Frigate: entity/DeadspaceSleeperEmergentPatroller
   Sleeper Preservation Conduit: celestial/LargeCollidableObject
   Sleeper Profound Research Notes: commodity/DecryptorsSleepers
   Sleeper Reintegration Control: commodity/ArtifactsAndPrototypes
   Sleeper Small Advanced Wreck: celestial/Wreck
   Sleeper Small Basic Wreck: celestial/Wreck
   Sleeper Small Intermediate Wreck: celestial/Wreck
+  Sleeper Small Wreck: celestial/Wreck
   Sleeper Split Cables: commodity/MaterialsAndCompounds
   Sleeper Technical Schematics: commodity/DecryptorsSleepers
   Sleeper Technology: skill/Science
@@ -62845,6 +63298,9 @@ name2group:
   Small Wrecked Hull Section: ancientrelics/SleeperHullRelics
   Small YF-12a Smartbomb: module/SmartBomb
   Small and Sharded Rock: celestial/LargeCollidableObject
+  Small asteroid environment: celestial/LargeCollidableObject
+  'Small asteroid environment ': celestial/LargeCollidableObject
+  Small pillar environment: celestial/LargeCollidableObject
   Smartfab Units: planetarycommodities/SpecializedCommodities
   Smashed Trigger Unit: material/SalvagedMaterials
   Smoke_Atlas: effects/ParticleSystems
@@ -63018,6 +63474,7 @@ name2group:
   Stabber Fleet Issue Justice Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Stabber Fleet Issue Justice Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Stabber Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Stabber Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Stabber Justice SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Stabber Justice Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Stabber Justice Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -63073,6 +63530,7 @@ name2group:
   Staff Recruiter Sniper Rifle: infantry/InfantryWeapons
   Stamped Heat Sink: module/HeatSink
   Standalone Warfare Processor: material/WormholeMinerals
+  Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Standard Angel Vault: entity/ScatterContainer
   Standard Assault A-I: infantry/InfantryDropsuits
   Standard Assault C-I: infantry/InfantryDropsuits
@@ -63084,6 +63542,7 @@ name2group:
   Standard Blue Pill Booster Blueprint: blueprint/BoosterBlueprints
   Standard Blue Pill Booster Reaction: reaction/SimpleBiochemicalReactions
   Standard Blue Pill Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
+  Standard Capsuleer Cerebral Accelerator: implant/Booster
   Standard Cerebral Accelerator: implant/Booster
   Standard Commando A-I: infantry/InfantryDropsuits
   Standard Commando C-I: infantry/InfantryDropsuits
@@ -63379,6 +63838,7 @@ name2group:
   Standup L-Set Thukker Basic Capital Component Manufacturing Efficiency Blueprint: blueprint/StructureRigBlueprint
   Standup Ladar ECM Script: charge/StructureECMScript
   Standup Ladar ECM Script Blueprint: blueprint/ScriptBlueprint
+  Standup Large Festival Launcher: structuremodule/StructureFestivalLauncher
   Standup Layered Armor Plating I: structuremodule/StructureArmorReinforcer
   Standup Layered Armor Plating I Blueprint: blueprint/StructureModuleBlueprint
   Standup Layered Armor Plating II: structuremodule/StructureArmorReinforcer
@@ -63423,6 +63883,7 @@ name2group:
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I Blueprint: blueprint/StructureRigBlueprint
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II: structuremodule/StructureEngineeringRigMAdvancedSmallShipTE
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II Blueprint: blueprint/StructureRigBlueprint
+  Standup M-Set Ammunition Manufacturing Material Efficiency I: structuremodule/StructureEngineeringRigMAmmunitionME
   Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint: blueprint/StructureRigBlueprint
   Standup M-Set Ammunition Manufacturing Material Efficiency II: structuremodule/StructureEngineeringRigMAmmunitionME
   Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint: blueprint/StructureRigBlueprint
@@ -63430,7 +63891,6 @@ name2group:
   Standup M-Set Ammunition Manufacturing Time Efficiency I Blueprint: blueprint/StructureRigBlueprint
   Standup M-Set Ammunition Manufacturing Time Efficiency II: structuremodule/StructureEngineeringRigMAmmunitionTE
   Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint: blueprint/StructureRigBlueprint
-  Standup M-Set Ammunition Manufacturing Material Efficiency I: structuremodule/StructureEngineeringRigMAmmunitionME
   Standup M-Set Asteroid Ore Grading Processor I: structuremodule/StructureResourceRigMAsteroidOreReprocessing
   Standup M-Set Asteroid Ore Grading Processor I Blueprint: blueprint/StructureRigBlueprint
   Standup M-Set Asteroid Ore Grading Processor II: structuremodule/StructureResourceRigMAsteroidOreReprocessing
@@ -64396,9 +64856,14 @@ name2group:
   Sunder Drone: entity/NPCFrigate
   Sunesis: ship/Destroyer
   Sunesis Blueprint: blueprint/DestroyerBlueprint
+  Sunesis Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Sunesis Capsuleer Networker XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sunesis Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sunesis Ironblood SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Sunesis Midnight SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Sunesis Silver Racer SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Sunesis Versus Blueforce  SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Sunesis Versus Redforce SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Suntendi Research Outpost: entity/SpawnContainer
   Supercapital Construction Facilities: infrastructureupgrades/StrategicUpgrades
   Supercapital Construction Facilities Blueprint: blueprint/InfrastructureUpgradeBlueprint
@@ -64785,6 +65250,7 @@ name2group:
   Talos Duvolle Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Talos Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -64799,6 +65265,11 @@ name2group:
   Talos InterBus SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos InterBus Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Kopis Edge SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Talos Serenity YC119 SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
+  Talos Serenity YC119 SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
+  Talos Serenity YC119 SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
+  Talos Serenity YC119 SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
+  Talos Serenity YC119 SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Serpentis SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Talos Serpentis Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Talos Serpentis Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -65002,6 +65473,7 @@ name2group:
   Tempest Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Tempest Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tempest Blueprint: blueprint/BattleshipBlueprint
+  Tempest Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tempest Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tempest Fleet Issue: ship/Battleship
   Tempest Fleet Issue Bloody Hands SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -65179,6 +65651,8 @@ name2group:
   Thanatos Eros Blossom SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thanatos Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thanatos Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Thanatos Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Thanatos Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thanatos Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thanatos Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Thanatos Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -65239,6 +65713,9 @@ name2group:
   The Friend Ship: specialeditionassets/SpecialEditionCommodities
   The Galactic Party Planning Guide: specialeditionassets/SpecialEditionCommodities
   The Heartbreak: entity/SpawnContainer
+  The Hunt - Boss Spawner: celestial/Cloud
+  The Hunt - Easy Trash Spawner: celestial/Cloud
+  The Hunt - Hard Trash Spawner: celestial/Cloud
   The Incredible Hulk: entity/MissionFactionIndustrials
   The Infiltrator: commodity/Livestock
   The Kundalini Manifest: entity/IncursionSanshaSNationCapital
@@ -65325,6 +65802,7 @@ name2group:
   Thorax Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thorax Federal Strategic Materiel Pack: commodity/StrongBoxes
   Thorax Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Thorax Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Thorax Inner Zone Shipping Edition: ship/Cruiser
   Thorax Inner Zone Shipping Edition Blueprint: blueprint/CruiserBlueprint
   Thorax Inner Zone Shipping SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -65591,6 +66069,7 @@ name2group:
   Tornado Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Tornado Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tornado Blueprint: blueprint/BattlecruiserBlueprint
+  Tornado Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tornado Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tornado Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Tornado Golden SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -65750,6 +66229,9 @@ name2group:
   Trial of Skill: entity/ScatterContainer
   Tribal Sponsorship: commodity/Miscellaneous
   Triclinic Bistot: asteroid/Bistot
+  Trig Large: ship/Battleship
+  Trig Medium: ship/Cruiser
+  Trig Small: ship/Frigate
   Trigger Unit: material/SalvagedMaterials
   Trigger-happy Bonus: bonus/PhysicalHandicap
   Trinary Data: commodity/Miscellaneous
@@ -66055,16 +66537,6 @@ name2group:
   Trust Partners Business Card: commodity/Commodities
   Truthteller: commodity/Commodities
   Tsejani Kulvin: entity/MissionGenericCruisers
-  TshirtF01_XV_Amarr.type: apparel/Tops
-  TshirtF01_XV_Caldari.type: apparel/Tops
-  TshirtF01_XV_Gallente.type: apparel/Tops
-  TshirtF01_XV_Minmatar.type: apparel/Tops
-  TshirtF01_XV_StarOrange.type: apparel/Tops
-  TshirtM01_XV_Amarr.type: apparel/Tops
-  TshirtM01_XV_Caldari.type: apparel/Tops
-  TshirtM01_XV_Gallente.type: apparel/Tops
-  TshirtM01_XV_Minmatar.type: apparel/Tops
-  TshirtM01_XV_StarOrange.type: apparel/Tops
   Tudor Brem: entity/MissionGenericFrigates
   Tukkito Usa: entity/MissionGenericCruisers
   Tungsten: material/MoonMaterials
@@ -66181,6 +66653,7 @@ name2group:
   Typhoon Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Typhoon Hazard Control SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Typhoon Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Typhoon Hunter's Quiver SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Typhoon IGC Victory SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Typhoon IGC Victory Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Typhoon IGC Victory Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -66406,7 +66879,10 @@ name2group:
   Upgraded Layered Plating I: module/ArmorCoating
   Upgraded Thermal Dissipation Amplifier I: module/ShieldResistanceAmplifier
   Upgraded Thermal Plating I: module/ArmorCoating
+  Upwell Advanced Manufacturing Support Facility: celestial/IndustrialSupportFacility
+  Upwell Advanced Research Support Facility: celestial/IndustrialSupportFacility
   Upwell Consortium Propaganda Reel: specialeditionassets/SpecialEditionCommodities
+  Upwell General Industrial Support Facility: celestial/IndustrialSupportFacility
   Upwell Moon Mining Beacon: celestial/MoonMiningBeacon
   Upwell Palatine Keepstar: structure/Citadel
   Upwell Palatine Keepstar Blueprint: blueprint/StructureBlueprints
@@ -66445,6 +66921,7 @@ name2group:
   Vagabond Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Vagabond Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vagabond Blueprint: blueprint/CruiserBlueprint
+  Vagabond Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vagabond Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vagabond Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vagabond Golden SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -66703,6 +67180,7 @@ name2group:
   Vexor Blueprint: blueprint/CruiserBlueprint
   Vexor Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Vexor Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Headhunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Intaki Syndicate SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Vexor Intaki Syndicate SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -66722,6 +67200,7 @@ name2group:
   Vexor Navy Issue Empyrean Dragons SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Navy Issue Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Navy Issue Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
+  Vexor Navy Issue Glittering Dream SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Navy Issue Intaki Syndicate SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Vexor Navy Issue Intaki Syndicate Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Vexor Navy Issue Intaki Syndicate Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -67066,6 +67545,7 @@ name2group:
   Water: planetarycommodities/BasicCommodities
   Water-Cooled CPU: planetarycommodities/RefinedCommodities
   Wavelength Signal Enhancer I: module/SignalAmplifier
+  Weak Capsuleer Cerebral Accelerator: implant/Booster
   Weak Double-helix Bond Bonus: bonus/PhysicalHandicap
   Weakened Sleeper Drone Hangar: entity/LargeCollidableStructure
   Weapon Destabilization: skill/ElectronicSystems
@@ -67509,14 +67989,21 @@ name2group:
   Women's 'Vise' Cybernetic Arm (white and gray ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (white and gray ringed right): apparel/Prosthetics
   Women's 'Waveform' Facial Augmentation: apparel/Augmentations
+  Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Women's Amarr Empire Command Jacket: apparel/Outer
   Women's Amarr Empire Exploration Suit: apparel/Outer
   Women's Beret (Blood Raiders): apparel/Headwear
   Women's CONCORD 'Solitaire' Survival Suit: apparel/Outer
   Women's CONCORD Test Pilot T-Shirt: apparel/Tops
+  Women's Caldari 'Patriot' T-Shirt: apparel/Tops
   Women's Caldari State Exploration Suit: apparel/Outer
   Women's Caldari State Officer Jacket: apparel/Outer
   Women's Cap (Blood Raiders): apparel/Headwear
+  Women's Capsuleer Elite XV Cap: apparel/Headwear
+  Women's Capsuleer Elite XV T-Shirt: apparel/Tops
+  Women's Capsuleer Networker XV Cap: apparel/Headwear
+  Women's Capsuleer Networker XV Suit: apparel/Outer
+  Women's Capsuleer Networker XV T-Shirt: apparel/Tops
   Women's Corporate Troubleshooter Gear: apparel/Outer
   Women's Empyrean Dragons Jacket: apparel/Outer
   Women's Exoplanets Data Analyst Lab Coat: apparel/Outer
@@ -67525,16 +68012,19 @@ name2group:
   Women's Exoplanets Hunter T-shirt: apparel/Tops
   Women's Exoplanets Program Director Coat: apparel/Outer
   Women's Federal Strategic Materiel Jacket: apparel/Outer
+  Women's Gallente 'Defender' T-Shirt: apparel/Tops
   Women's Gallente Federation Command Jacket: apparel/Outer
   Women's Gallente Federation Exploration Suit: apparel/Outer
   Women's Genolution Combat Suit: apparel/Outer
   Women's Genolution Tactical Goggles: apparel/Eyewear
   Women's IGC Location Scout Suit: apparel/Outer
   Women's Imperial War Reserves Jacket: apparel/Outer
+  Women's Minmatar 'Liberator' T-Shirt: apparel/Tops
   Women's Minmatar Republic Exploration Suit: apparel/Outer
   Women's Minmatar Republic Officer Jacket: apparel/Outer
   Women's ORE Claim Surveyor Suit: apparel/Outer
   Women's Republic Fleet Ordnance Jacket: apparel/Outer
+  Women's SARO 'Black Troop' Combat Suit: apparel/Outer
   Women's SOE Expeditionary Suit: apparel/Outer
   Women's Scope Network Special Correspondent Suit: apparel/Outer
   Women's Sisters of EVE Advanced Combat Suit: apparel/Outer
@@ -67543,11 +68033,12 @@ name2group:
   Women's YC119 Yoiul Festival Cap: apparel/Headwear
   Women's YC119 Yoiul Festival Pants: apparel/Bottoms
   Women's YC119 Yoiul Festival T-shirt: apparel/Tops
-  Women's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Women's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Women's ‘Protector’ Beret (Caldari State): apparel/Headwear
   'Women''s “Mirelle” Upwell Executive Spectacles ': apparel/Eyewear
+  Women's ��Defender’ Beret (Gallente Federation): apparel/Headwear
   Worm: ship/Frigate
+  Worm Ace of Podhunters SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Worm Blueprint: blueprint/FrigateBlueprint
   Worm Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Worm Hostile Takeover SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -67711,6 +68202,7 @@ name2group:
   Wyvern Blue Tiger Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Wyvern Blue Tiger Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Wyvern Blueprint: blueprint/SupercarrierBlueprints
+  Wyvern Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Wyvern Eros Blossom SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Wyvern Exoplanets Hunter SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Wyvern Glacial Drift SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -67888,6 +68380,7 @@ name2group:
   Yan Jung Void Machine: commodity/ArtifactsAndPrototypes
   Yekti Kimebu's Malediction: celestial/AgentsInSpace
   Yeni Sarum's Insignia: commodity/EmpireInsigniaDrops
+  Yoiul Blizzard Firework (Large): charge/StructureFestivalCharges
   Yoiul Festival Firework: charge/FestivalCharges
   Yoiul Festival Fireworks Package: specialeditionassets/SpecialEditionCommodities
   Yoiul Festival YC120 Coin (Amarr): specialeditionassets/SpecialEditionCommodities
@@ -68134,6 +68627,7 @@ name2group:
   Zbikoki's Hacker Card: commodity/AccelerationGateKeys
   Zealot: ship/HeavyAssaultCruiser
   Zealot Blueprint: blueprint/CruiserBlueprint
+  Zealot Capsuleer Day XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Zealot Cold Iron SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Zealot Cold Iron Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
   Zealot Cold Iron Serenity Only SKIN (365 Days): superkerrinducednanocoatings/Max1YearSKIN
@@ -68212,6 +68706,10 @@ name2group:
   '[TEST] Shield Gen 1': infantry/InfantryEquipment
   '[TEST] Shield Gen 2': infantry/InfantryEquipment
   '[TEST] Swarm Launcher': infantry/InfantryWeapons
+  bacon_PLACEHOLDER: celestial/Beacon
+  blue_1_PLACEHOLDER: celestial/MassiveEnvironments
+  blue_2_PLACEHOLDER: celestial/MassiveEnvironments
+  blue_3_PLACEHOLDER: celestial/MassiveEnvironments
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type: apparel/Bottoms
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type: apparel/Bottoms
   bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type: apparel/Bottoms
@@ -68228,18 +68726,38 @@ name2group:
   defunct reaction 5: reaction/EnslavementPrograms
   defunct reaction 6: reaction/EnslavementPrograms
   defunct reaction 7: reaction/EnslavementPrograms
+  entry_locator: celestial/Locators
+  exit_locator: celestial/Locators
   generic item 4: material/WormholeMinerals
   generic item 40: material/WormholeMinerals
   generic item 5: material/WormholeMinerals
   generic item 6: material/WormholeMinerals
   genericAudioEmitter: abstrct/Audio
+  green_1_PLACEHOLDER: celestial/MassiveEnvironments
+  green_2_PLACEHOLDER: celestial/MassiveEnvironments
+  green_3_PLACEHOLDER: celestial/MassiveEnvironments
   hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type: apparel/Headwear
   instant_booster4: infantry/Services
+  large_PD_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  large_biocloud_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  large_stretch_PLACEHOLDER: celestial/LocalizedEffectBeacon
   map Landmark: celestial/Landmark
+  medium_PD_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  medium_biocloud_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  medium_stretch_PLACEHOLDER: celestial/LocalizedEffectBeacon
   mission_reroll: infantry/Services
   mobilestorage: celestial/LargeCollidableObject
+  orange_1_PLACEHOLDER: celestial/MassiveEnvironments
+  orange_2_PLACEHOLDER: celestial/MassiveEnvironments
+  orange_3_PLACEHOLDER: celestial/MassiveEnvironments
   pipeline testing: worldspace/WorldSpace
+  red_1_PLACEHOLDER: celestial/MassiveEnvironments
+  red_2_PLACEHOLDER: celestial/MassiveEnvironments
+  red_3_PLACEHOLDER: celestial/MassiveEnvironments
   resource harvesting and combat prototype: worldspace/WorldSpace
+  small_PD_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  small_biocloud_PLACEHOLDER: celestial/LocalizedEffectBeacon
+  small_stretch_PLACEHOLDER: celestial/LocalizedEffectBeacon
   swarren: worldspace/WorldSpace
   testArmorMod_Blueprint_PLACEHOLDER: blueprint/ArmorCoatingBlueprint
   testArmorMod_PLACEHOLDER: module/NonRepeatingHardeners
@@ -68249,7 +68767,11 @@ name2group:
   unnamed_gid0_sid0: commodity/Commodities
   unnamed_gid21177_sid20220: celestial/MassiveEnvironments
   weapon_container: entity/SpawnContainer
+  white_1_PLACEHOLDER: celestial/MassiveEnvironments
   wrecktest: worldspace/WorldSpace
+  yellow_1_PLACEHOLDER: celestial/MassiveEnvironments
+  yellow_2_PLACEHOLDER: celestial/MassiveEnvironments
+  yellow_3_PLACEHOLDER: celestial/MassiveEnvironments
   ‘Cold Wind’ Kinetic Reaper: module/SuperWeapon
   ‘Cold Wind’ Kinetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Divine Harvest’ Electromagnetic Reaper: module/SuperWeapon
@@ -68263,9 +68785,7 @@ name2group:
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
-  ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
-  ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
   ♦ Annihilator Drone: entity/NPCCruiser
   ♦ Apocalypse: entity/NPCBattleship
@@ -68302,7 +68822,6 @@ name2group:
   ♦ Fury: entity/NPCFrigate
   ♦ Gila: entity/NPCCruiser
   ♦ Griffin: entity/NPCFrigate
-  ♦ Harbinger: entity/NPCBattlecruiser
   ♦ Hurricane: entity/NPCBattlecruiser
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
@@ -68366,27 +68885,29 @@ name2group:
   万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   乌鸦级YC117年特别版: ship/Battleship
   乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  伊什塔级YC117年��别版: ship/HeavyAssaultCruiser
-  伊什塔��YC117年特别版蓝图: blueprint/CruiserBlueprint
+  伊什塔级YC117年特别版: ship/HeavyAssaultCruiser
+  伊什���级YC117年特别版蓝图: blueprint/CruiserBlueprint
   响尾蛇级YC117年特别版: ship/Battleship
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  地狱天使级YC117年特��版: ship/Battleship
-  地狱天使级YC117年��别版蓝图: blueprint/BattleshipBlueprint
+  地狱天使级YC117年特别版: ship/Battleship
+  地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   多米尼克斯级YC117年特别版: ship/Battleship
-  多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  多米尼克斯级YC117年特别版���图: blueprint/BattleshipBlueprint
   幼龙级YC117年特别版: ship/CombatBattlecruiser
-  幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
-  未来���类纪念章: specialeditionassets/SpecialEditionCommodities
+  幼龙级YC117年特别版��图: blueprint/BattlecruiserBlueprint
   末日沙场级YC117年特别版: ship/Battleship
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  毒蜥级YC117年特别版: ship/Cruiser
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  毒蜥级YC117年���别版: ship/Cruiser
   泰坦会战纪念碑: celestial/LargeCollidableObject
   泰坦会战遗址: celestial/Beacon
-  灾难级YC117年特别版: ship/Battleship
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  灾难级YC117年特别��: ship/Battleship
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
-  银鹰级YC117年���别版蓝图: blueprint/CruiserBlueprint
+  银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版: ship/Battleship
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Rupture: entity/NPCCruiser
+  �� Harbinger: entity/NPCBattlecruiser
+  ��Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
+  ��来人类纪念章: specialeditionassets/SpecialEditionCommodities
+  ���Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint

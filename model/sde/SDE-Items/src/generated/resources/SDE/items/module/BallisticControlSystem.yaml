@@ -61,6 +61,40 @@ items:
     id: 22291
     name: Ballistic Control System II
     volume: 5.0
+  C3-A 'Hivaa Saitsuo' Ballistic Control System:
+    Cpu: 37.0
+    DroneDamageBonus: 10.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 8
+    MissileDamageMultiplierBonus: 1.0700000524520874
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3436
+    RequiredSkill2Level: 2
+    SpeedMultiplier: 0.9300000071525574
+    TechLevel: 1
+    id: 47447
+    name: C3-A 'Hivaa Saitsuo' Ballistic Control System
+    volume: 5.0
+  C3-X 'Hivaa Saitsuo' Ballistic Control System:
+    Cpu: 42.0
+    DroneDamageBonus: 15.0
+    Hp: 40
+    MetaGroupID: 4
+    MetaLevel: 12
+    MissileDamageMultiplierBonus: 1.100000023841858
+    Power: 1
+    RequiredSkill1: 3318
+    RequiredSkill1Level: 5
+    RequiredSkill2: 3436
+    RequiredSkill2Level: 5
+    SpeedMultiplier: 0.8999999761581421
+    TechLevel: 1
+    id: 47448
+    name: C3-X 'Hivaa Saitsuo' Ballistic Control System
+    volume: 5.0
   Caldari Navy Ballistic Control System:
     Hp: 40
     MetaGroupID: 4

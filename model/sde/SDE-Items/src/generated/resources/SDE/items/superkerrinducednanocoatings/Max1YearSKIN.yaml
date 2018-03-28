@@ -1917,10 +1917,6 @@ items:
     id: 43399
     name: Hyperion Quafe Serenity Only SKIN (365 Days)
     volume: 0.01
-  Hyperion Serenity YC119 SKIN (365 Days):
-    id: 47084
-    name: Hyperion Serenity YC119 SKIN (365 Days)
-    volume: 0.01
   Hyperion Serpentis Serenity Only SKIN (365 Days):
     id: 42431
     name: Hyperion Serpentis Serenity Only SKIN (365 Days)
@@ -3880,6 +3876,10 @@ items:
   Talos InterBus SKIN (365 Days):
     id: 35544
     name: Talos InterBus SKIN (365 Days)
+    volume: 0.01
+  Talos Serenity YC119 SKIN (365 Days):
+    id: 47281
+    name: Talos Serenity YC119 SKIN (365 Days)
     volume: 0.01
   Talos Serpentis Serenity Only SKIN (365 Days):
     id: 42411

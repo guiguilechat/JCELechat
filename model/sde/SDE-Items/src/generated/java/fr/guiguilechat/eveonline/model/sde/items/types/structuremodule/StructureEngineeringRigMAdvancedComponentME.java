@@ -13,19 +13,12 @@ public class StructureEngineeringRigMAdvancedComponentME
     extends StructureModule
 {
     /**
-     * Bonus on Time decrease for engineering rigs
+     * Bonus on Cost decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigTimeBonus;
-    /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
+    public int AttributeEngRigCostBonus;
     /**
      * Bonus on Material decrease for engineering rigs
      */
@@ -34,40 +27,19 @@ public class StructureEngineeringRigMAdvancedComponentME
     @DefaultDoubleValue(0.0)
     public double AttributeEngRigMatBonus;
     /**
-     * Bonus on Cost decrease for engineering rigs
+     * Bonus on Time decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigCostBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    public int AttributeEngRigTimeBonus;
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
+    @DefaultDoubleValue(0.0)
+    public double AttributeThukkerEngRigMatBonus;
     /**
      * 
      */
@@ -75,13 +47,6 @@ public class StructureEngineeringRigMAdvancedComponentME
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HiSecModifier;
     /**
      * 
      */
@@ -102,35 +67,28 @@ public class StructureEngineeringRigMAdvancedComponentME
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double LowSecModifier;
+    public double HiSecModifier;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double NullSecModifier;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public double LowSecModifier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SecurityModifier;
+    public int MaxGroupFitted;
     /**
      * meta group of type
      */
@@ -141,10 +99,38 @@ public class StructureEngineeringRigMAdvancedComponentME
     /**
      * 
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double AttributeThukkerEngRigMatBonus;
+    @DefaultDoubleValue(1.0)
+    public double NullSecModifier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SecurityModifier;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -152,6 +138,20 @@ public class StructureEngineeringRigMAdvancedComponentME
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedComponentME.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigMAdvancedComponentME> cache = (null);
 

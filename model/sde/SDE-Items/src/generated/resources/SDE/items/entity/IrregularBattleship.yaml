@@ -15,7 +15,11 @@ items:
     id: 47275
     name: Guardian Angels Barachael
     volume: 595000.0
-  Guristas Battleship:
+  Guri Hivaa Rokosabai:
+    id: 40727
+    name: Guri Hivaa Rokosabai
+    volume: 486000.0
+  Rakka's Rattlesnake:
     id: 40728
-    name: Guristas Battleship
-    volume: 2.2E7
+    name: Rakka's Rattlesnake
+    volume: 486000.0

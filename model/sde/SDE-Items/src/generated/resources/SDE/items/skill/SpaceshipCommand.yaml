@@ -492,6 +492,20 @@ items:
     id: 33856
     name: Expedition Frigates
     volume: 0.01
+  Flag Cruisers:
+    CanNotBeTrainedOnTrial: 1
+    PrimaryAttribute: 168
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 5
+    RequiredSkill2: 24764
+    RequiredSkill2Level: 1
+    RequiredSkill3: 3430
+    RequiredSkill3Level: 1
+    SecondaryAttribute: 167
+    SkillTimeConstant: 8.0
+    id: 47445
+    name: Flag Cruisers
+    volume: 0.01
   Gallente Battlecruiser:
     PrimaryAttribute: 167
     RequiredSkill1: 3327

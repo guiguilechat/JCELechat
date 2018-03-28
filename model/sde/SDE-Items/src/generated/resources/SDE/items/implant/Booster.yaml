@@ -1,4 +1,24 @@
 items:
+  Advanced 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17645.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47396
+    name: Advanced 'Guri Hivaa' Cerebral Accelerator
+    volume: 1.0
+  Advanced Capsuleer Cerebral Accelerator:
+    id: 47707
+    name: Advanced Capsuleer Cerebral Accelerator
+    volume: 1.0
   Advanced Cerebral Accelerator:
     BoosterMaxCharAgeHours: 168
     Boosterness: 4
@@ -129,6 +149,10 @@ items:
     id: 36911
     name: Antipharmakon Toxot
     volume: 1.0
+  CDIA SPACE Cerebral Accelerator:
+    id: 47481
+    name: CDIA SPACE Cerebral Accelerator
+    volume: 1.0
   Expired Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17187.0
@@ -161,6 +185,54 @@ items:
     id: 46008
     name: Expired Crimson Cerebral Accelerator
     volume: 1.0
+  Expired Gold Ouroboros Accelerator:
+    BoosterDuration: 432000000
+    BoosterLastInjectionDatetime: 17032.0
+    Boosterness: 12
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 42232
+    name: Expired Gold Ouroboros Accelerator
+    volume: 1.0
+  Expired Guardian Angels 'Advanced' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47266
+    name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    volume: 1.0
+  Expired Guardian Angels 'Standard' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 47265
+    name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    volume: 1.0
   Expired Rogue Swarm Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17561.458984375
@@ -176,6 +248,22 @@ items:
     WillpowerBonus: 12
     id: 47016
     name: Expired Rogue Swarm Cerebral Accelerator
+    volume: 1.0
+  Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17610.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 47267
+    name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
     volume: 1.0
   Expired Valkyrie Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -209,25 +297,9 @@ items:
     id: 46009
     name: Expired Yoiul Cerebral Accelerator
     volume: 1.0
-  Guardian Angels 'Advanced' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17610.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47266
-    name: Guardian Angels 'Advanced' Cerebral Accelerator
-    volume: 1.0
-  Guardian Angels 'Standard' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17610.458984375
+  Extended 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17645.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -238,8 +310,12 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 10
-    id: 47265
-    name: Guardian Angels 'Standard' Cerebral Accelerator
+    id: 47397
+    name: Extended 'Guri Hivaa' Cerebral Accelerator
+    volume: 1.0
+  Extended Capsuleer Cerebral Accelerator:
+    id: 47708
+    name: Extended Capsuleer Cerebral Accelerator
     volume: 1.0
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
@@ -478,9 +554,9 @@ items:
     id: 3898
     name: Quafe Zero
     volume: 1.0
-  Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17610.458984375
+  Standard 'Guri Hivaa' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17645.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -491,8 +567,8 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 10
-    id: 47267
-    name: Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    id: 47395
+    name: Standard 'Guri Hivaa' Cerebral Accelerator
     volume: 1.0
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20
@@ -511,6 +587,10 @@ items:
     ShieldBoostMultiplier: 20.0
     id: 9950
     name: Standard Blue Pill Booster
+    volume: 1.0
+  Standard Capsuleer Cerebral Accelerator:
+    id: 47706
+    name: Standard Capsuleer Cerebral Accelerator
     volume: 1.0
   Standard Cerebral Accelerator:
     BoosterMaxCharAgeHours: 840
@@ -870,4 +950,8 @@ items:
     SignatureRadiusBonus: -2.25
     id: 28682
     name: Synth X-Instinct Booster
+    volume: 1.0
+  Weak Capsuleer Cerebral Accelerator:
+    id: 47705
+    name: Weak Capsuleer Cerebral Accelerator
     volume: 1.0

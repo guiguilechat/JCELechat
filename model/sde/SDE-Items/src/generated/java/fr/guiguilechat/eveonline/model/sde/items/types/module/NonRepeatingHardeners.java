@@ -20,20 +20,6 @@ public class NonRepeatingHardeners
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -41,26 +27,19 @@ public class NonRepeatingHardeners
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DisallowRepeatingActivation;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
@@ -85,10 +64,10 @@ public class NonRepeatingHardeners
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
@@ -103,6 +82,27 @@ public class NonRepeatingHardeners
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/NonRepeatingHardeners.yaml";
     private static LinkedHashMap<String, NonRepeatingHardeners> cache = (null);
 

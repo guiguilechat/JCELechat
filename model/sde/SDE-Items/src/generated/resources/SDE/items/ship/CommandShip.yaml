@@ -229,7 +229,7 @@ items:
     ShieldThermalDamageResonance: 0.4000000059604645
     ShieldUniformity: 0.75
     ShipBonusMBC1: 7.5
-    ShipBonusMBC2: -5
+    ShipBonusMBC2: -5.0
     SignatureRadius: 240
     StructureUniformity: 1.0
     TechLevel: 2
@@ -492,33 +492,6 @@ items:
     id: 22470
     name: Nighthawk
     volume: 252000.0
-  Prototype Seven:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MaxGangModules: 3
-    MinTargetVelDmgMultiplier: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    id: 45534
-    name: Prototype Seven
-    volume: 250000.0
   Sleipnir:
     Agility: 0.7039999961853027
     ArmorEmDamageResonance: 0.10000000149011612
@@ -586,7 +559,7 @@ items:
     ShieldThermalDamageResonance: 0.4000000059604645
     ShieldUniformity: 0.75
     ShipBonusMBC1: 7.5
-    ShipBonusMBC2: 10
+    ShipBonusMBC2: 10.0
     SignatureRadius: 240
     StructureUniformity: 1.0
     TechLevel: 2

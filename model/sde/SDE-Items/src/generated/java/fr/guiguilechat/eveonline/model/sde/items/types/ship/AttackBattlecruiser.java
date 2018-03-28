@@ -13,40 +13,26 @@ public class AttackBattlecruiser
     extends Ship
 {
     /**
-     * How many upgrades can by fitted to this ship.
+     * Used by Battlecruisers for large turret CPU reduction
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    @DefaultDoubleValue(1.0)
+    public double BcLargeTurretCPU;
     /**
-     * 
+     * Used by Battlecruisers for large turret capacitor reduction
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
+    @DefaultDoubleValue(1.0)
+    public double BcLargeTurretCap;
     /**
-     * The number of low power slots on the ship.
+     * Used by Battlecruisers for large turret powergrid reduction
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
+    @DefaultDoubleValue(1.0)
+    public double BcLargeTurretPower;
     /**
      * 
      */
@@ -55,12 +41,47 @@ public class AttackBattlecruiser
     @DefaultIntValue(0)
     public int FwLpKill;
     /**
-     * Required skill level for skill 1
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
+    /**
+     * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int HiSlots;
+    /**
+     * The number of low power slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * Deprecated.
      */
@@ -69,26 +90,26 @@ public class AttackBattlecruiser
     @DefaultIntValue(1)
     public int MaxDirectionalVelocity;
     /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
+    /**
      * Deprecated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusABC1;
-    /**
-     * The resolution that the vessel can target other objects at.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
     /**
      * The type ID of the skill that is required.
      */
@@ -97,12 +118,47 @@ public class AttackBattlecruiser
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
+    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusABC1;
     /**
      * 
      */
@@ -118,13 +174,6 @@ public class AttackBattlecruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusCBC1;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -137,28 +186,14 @@ public class AttackBattlecruiser
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusGBC2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
+    public double ShipBonusGBC1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusGBC1;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
+    public double ShipBonusGBC2;
     /**
      * 
      */
@@ -171,57 +206,29 @@ public class AttackBattlecruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusMBC2;
     /**
-     * 
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
+    /**
+     * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusMBC2;
+    public int UpgradeCapacity;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * The number of rig slots on the ship.
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
-    /**
-     * Used by Battlecruisers for large turret powergrid reduction
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double BcLargeTurretPower;
-    /**
-     * Used by Battlecruisers for large turret CPU reduction
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double BcLargeTurretCPU;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
-    /**
-     * Used by Battlecruisers for large turret capacitor reduction
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double BcLargeTurretCap;
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/AttackBattlecruiser.yaml";
     private static LinkedHashMap<String, AttackBattlecruiser> cache = (null);
 

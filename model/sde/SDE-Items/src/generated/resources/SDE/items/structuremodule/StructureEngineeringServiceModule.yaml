@@ -1,10 +1,15 @@
 items:
   Standup Capital Shipyard I:
     CanFitShipType1: 35827
+    CanFitShipType10: 47516
     CanFitShipType2: 35826
     CanFitShipType3: 35834
     CanFitShipType4: 35833
     CanFitShipType5: 40340
+    CanFitShipType6: 47512
+    CanFitShipType7: 47513
+    CanFitShipType8: 47514
+    CanFitShipType9: 47515
     Cpu: 600.0
     DisallowInHighSec: 1
     MaxTypeFitted: 1

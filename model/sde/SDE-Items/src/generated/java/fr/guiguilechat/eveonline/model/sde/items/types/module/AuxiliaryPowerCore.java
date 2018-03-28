@@ -20,27 +20,6 @@ public class AuxiliaryPowerCore
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PowerIncrease;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
@@ -54,6 +33,27 @@ public class AuxiliaryPowerCore
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PowerIncrease;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
     private static LinkedHashMap<String, AuxiliaryPowerCore> cache = (null);
 

@@ -13,48 +13,6 @@ public class GangCoordinator
     extends Module
 {
     /**
-     * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowActivateInForcefield;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CommandBonus;
-    /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * Can be fitted to
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup05;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup09;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -83,19 +41,12 @@ public class GangCoordinator
     @DefaultIntValue(0)
     public int CanFitShipGroup04;
     /**
-     * Required skill level for skill 1
+     * Can be fitted to
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int CanFitShipGroup05;
     /**
      * Can be fitted to
      */
@@ -123,7 +74,7 @@ public class GangCoordinator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareLinkCPUAdd;
+    public int CanFitShipGroup09;
     /**
      * 
      */
@@ -132,26 +83,19 @@ public class GangCoordinator
     @DefaultIntValue(0)
     public int CanFitShipGroup10;
     /**
-     * current power need
+     * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
     /**
-     * commandBonusHidden
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CommandBonusHidden;
-    /**
-     * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowTethering;
+    @DefaultDoubleValue(0.0)
+    public double CommandBonus;
     /**
      * 
      */
@@ -159,6 +103,13 @@ public class GangCoordinator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CommandBonusECM;
+    /**
+     * commandBonusHidden
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CommandBonusHidden;
     /**
      * Remote Sensor Dampening Command Bonus
      */
@@ -181,6 +132,20 @@ public class GangCoordinator
     @DefaultDoubleValue(0.0)
     public double CommandBonusTP;
     /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowActivateInForcefield;
+    /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
@@ -188,12 +153,19 @@ public class GangCoordinator
     @DefaultIntValue(0)
     public int DisallowDocking;
     /**
-     * CPU need of module
+     * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowTethering;
+    /**
+     * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double Duration;
     /**
      * 
      */
@@ -202,12 +174,33 @@ public class GangCoordinator
     @DefaultIntValue(3)
     public int MaxGangModules;
     /**
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -216,12 +209,19 @@ public class GangCoordinator
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int RequiredSkill2Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WarfareLinkCPUAdd;
     public final static String RESOURCE_PATH = "SDE/items/module/GangCoordinator.yaml";
     private static LinkedHashMap<String, GangCoordinator> cache = (null);
 

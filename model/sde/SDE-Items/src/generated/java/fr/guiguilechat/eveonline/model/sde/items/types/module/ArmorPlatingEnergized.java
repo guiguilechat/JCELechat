@@ -13,13 +13,6 @@ public class ArmorPlatingEnergized
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * Multiplier to the HP of a ships armor module.
      */
     @HighIsGood(true)
@@ -27,19 +20,12 @@ public class ArmorPlatingEnergized
     @DefaultDoubleValue(1.0)
     public double ArmorHPMultiplier;
     /**
-     * Required skill level for skill 1
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * 
      */
@@ -62,13 +48,6 @@ public class ArmorPlatingEnergized
     @DefaultDoubleValue(0.0)
     public double KineticDamageResistanceBonus;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
@@ -82,6 +61,27 @@ public class ArmorPlatingEnergized
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorPlatingEnergized.yaml";
     private static LinkedHashMap<String, ArmorPlatingEnergized> cache = (null);
 

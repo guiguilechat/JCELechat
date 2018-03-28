@@ -13,27 +13,6 @@ public class SurveyScanner
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Distance from thing to survey.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SurveyScanRange;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -41,12 +20,12 @@ public class SurveyScanner
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * The type ID of the skill that is required.
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -62,19 +41,40 @@ public class SurveyScanner
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * Restrict activation to this one module group.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int TargetGroup;
-    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Distance from thing to survey.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SurveyScanRange;
+    /**
+     * Restrict activation to this one module group.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TargetGroup;
     public final static String RESOURCE_PATH = "SDE/items/module/SurveyScanner.yaml";
     private static LinkedHashMap<String, SurveyScanner> cache = (null);
 

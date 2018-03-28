@@ -12,6 +12,13 @@ public class DecryptorsYanJung
     extends Commodity
 {
     /**
+     * Modifies the mineral efficiency of invented BPCs
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double InventionMEModifier;
+    /**
      * Modifies the max runs in a blueprint created through invention
      */
     @HighIsGood(true)
@@ -25,13 +32,6 @@ public class DecryptorsYanJung
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionPropabilityMultiplier;
-    /**
-     * Modifies the mineral efficiency of invented BPCs
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double InventionMEModifier;
     /**
      * Modifies the time efficiency of invented BPCs
      */

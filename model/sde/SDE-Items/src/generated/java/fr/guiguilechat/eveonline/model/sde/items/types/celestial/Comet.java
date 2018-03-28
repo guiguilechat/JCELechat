@@ -12,19 +12,19 @@ public class Comet
     extends Celestial
 {
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * The skill required to reprocess this ore type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ReprocessingSkillType;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Comet.yaml";
     private static LinkedHashMap<String, Comet> cache = (null);
 

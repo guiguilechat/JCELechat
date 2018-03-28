@@ -20,33 +20,12 @@ public class ShipScanner
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -55,6 +34,20 @@ public class ShipScanner
     @DefaultIntValue(0)
     public int DisallowRepeatingActivation;
     /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -62,12 +55,12 @@ public class ShipScanner
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * Maximum range that something can be ship scanned from.
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipScanRange;
+    public int RequiredSkill1Level;
     /**
      * Distance from maximum range at which accuracy has fallen by half.
      */
@@ -76,12 +69,19 @@ public class ShipScanner
     @DefaultIntValue(0)
     public int ShipScanFalloff;
     /**
-     * current power need
+     * Maximum range that something can be ship scanned from.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int ShipScanRange;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
     public final static String RESOURCE_PATH = "SDE/items/module/ShipScanner.yaml";
     private static LinkedHashMap<String, ShipScanner> cache = (null);
 

@@ -27,20 +27,6 @@ public class ShieldResistanceAmplifier
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * 
      */
     @HighIsGood(false)
@@ -62,13 +48,6 @@ public class ShieldResistanceAmplifier
     @DefaultDoubleValue(0.0)
     public double KineticDamageResistanceBonus;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
@@ -82,6 +61,27 @@ public class ShieldResistanceAmplifier
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldResistanceAmplifier.yaml";
     private static LinkedHashMap<String, ShieldResistanceAmplifier> cache = (null);
 

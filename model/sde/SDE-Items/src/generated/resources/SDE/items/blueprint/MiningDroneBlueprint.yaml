@@ -36,7 +36,7 @@ items:
     name: Ice Harvesting Drone I Blueprint
     volume: 0.01
   Ice Harvesting Drone II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 43912
     name: Ice Harvesting Drone II Blueprint
     volume: 0.01

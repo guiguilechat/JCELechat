@@ -13,19 +13,19 @@ public class CyberTargeting
     extends Implant
 {
     /**
+     * Whether an item is an implant or not
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Implantness;
+    /**
      * Bonus to Max Targeting Range
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     /**
      * Bonus for scan resolution
      */
@@ -34,12 +34,12 @@ public class CyberTargeting
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
-     * Whether an item is an implant or not
+     * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Implantness;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberTargeting.yaml";
     private static LinkedHashMap<String, CyberTargeting> cache = (null);
 

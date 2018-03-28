@@ -12,19 +12,12 @@ public class DataInterfaces
     extends Commodity
 {
     /**
-     * Required skill level for skill 1
+     * Used to show usable decryptors when starting reverse engineering based on data interface
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int DecryptorID;
     /**
      * The maximum hitpoints of an object.
      */
@@ -33,12 +26,19 @@ public class DataInterfaces
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * Used to show usable decryptors when starting reverse engineering based on data interface
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DecryptorID;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
     private static LinkedHashMap<String, DataInterfaces> cache = (null);
 

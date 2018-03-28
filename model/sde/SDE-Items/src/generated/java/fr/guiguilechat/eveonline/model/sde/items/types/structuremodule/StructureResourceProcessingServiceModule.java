@@ -17,8 +17,68 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup01;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup02;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxTypeFitted;
+    /**
+     * Determines the maximum security class that a module can be onlined within. Used for structure modules.
+     * 
+     *  0=Nullsec
+     *  1=Lowsec
+     *  2=Highsec
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2)
+    public int OnlineMaxSecurityClass;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.5)
-    public double RefiningYieldNormalOres;
+    public double RefiningYieldIce;
     /**
      * 
      */
@@ -39,67 +99,7 @@ public class StructureResourceProcessingServiceModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.5)
-    public double RefiningYieldIce;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup01;
-    /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup02;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup03;
-    /**
-     * Determines the maximum security class that a module can be onlined within. Used for structure modules.
-     * 
-     *  0=Nullsec
-     *  1=Lowsec
-     *  2=Highsec
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(2)
-    public int OnlineMaxSecurityClass;
-    /**
-     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ServiceModuleFullPowerStateHitpointMultiplier;
-    /**
-     * Fuel consumed by the structure service module
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ServiceModuleFuelConsumptionGroup;
+    public double RefiningYieldNormalOres;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
@@ -108,6 +108,13 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelAmount;
     /**
+     * Fuel consumed by the structure service module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelConsumptionGroup;
+    /**
      * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
@@ -115,26 +122,19 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelOnlineAmount;
     /**
+     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ServiceModuleFullPowerStateHitpointMultiplier;
+    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxTypeFitted;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceProcessingServiceModule.yaml";
     private static LinkedHashMap<String, StructureResourceProcessingServiceModule> cache = (null);
 

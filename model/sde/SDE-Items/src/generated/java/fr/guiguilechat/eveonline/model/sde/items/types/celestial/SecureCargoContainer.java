@@ -13,12 +13,12 @@ public class SecureCargoContainer
     extends Celestial
 {
     /**
-     * Required skill level for skill 1
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int Hp;
     /**
      * The type ID of the skill that is required.
      */
@@ -27,19 +27,19 @@ public class SecureCargoContainer
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
     /**
      * DO NOT MESS WITH
      */

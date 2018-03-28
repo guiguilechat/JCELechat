@@ -17,13 +17,6 @@ public class JumpDriveEconomizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantityBonusPercentage;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int CanFitShipGroup01;
     /**
      * 
@@ -33,12 +26,19 @@ public class JumpDriveEconomizer
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Required skill level for skill 1
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int ConsumptionQuantityBonusPercentage;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * The type ID of the skill that is required.
      */
@@ -47,12 +47,12 @@ public class JumpDriveEconomizer
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * current power need
+     * Required skill level for skill 1
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/JumpDriveEconomizer.yaml";
     private static LinkedHashMap<String, JumpDriveEconomizer> cache = (null);
 

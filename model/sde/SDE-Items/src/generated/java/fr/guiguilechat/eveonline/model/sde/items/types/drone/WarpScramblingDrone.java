@@ -13,26 +13,12 @@ public class WarpScramblingDrone
     extends Drone
 {
     /**
-     * 
+     * The agility of the object.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ModifyTargetSpeedCapacitorNeed;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -48,12 +34,12 @@ public class WarpScramblingDrone
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * DO NOT MESS WITH
+     * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
@@ -62,6 +48,76 @@ public class WarpScramblingDrone
     @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonance;
     /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ArmorThermalDamageResonance;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * The maximum amount of time stalled before entity chase speed kicks in.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDelay;
+    /**
+     * Chance that the max delay is waited before chase is engaged.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDelayChance;
+    /**
+     * The distance outside of which the entity activates their MWD equivalent.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2500)
+    public int EntityChaseMaxDistance;
+    /**
+     * The maximum amount of time chase is ever engaged for.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDuration;
+    /**
+     * The chance of engaging chase for the maximum duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDurationChance;
+    /**
+     * The speed that entities fly at when not chasing a target.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityCruiseSpeed;
+    /**
+     * The distance at which the entity orbits, follows.. and more.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(500.0)
+    public double EntityFlyRange;
+    /**
      * 
      */
     @HighIsGood(false)
@@ -69,12 +125,61 @@ public class WarpScramblingDrone
     @DefaultIntValue(0)
     public int FighterAbilityAntiFighterMissileResistance;
     /**
-     * Multiplies THERMAL damage taken by Armor. 
+     * The maximum number of their targets that the character can attack at a given time.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxAttackTargets;
+    /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ModifyTargetSpeedCapacitorNeed;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
+    /**
+     * Amount of power to transfer.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PowerTransferAmount;
+    /**
+     * Maximum range to transfer power from.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PowerTransferRange;
+    /**
+     * scanning speed in milliseconds
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
+    @DefaultIntValue(0)
+    public int ScanSpeed;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -97,6 +202,13 @@ public class WarpScramblingDrone
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -104,33 +216,12 @@ public class WarpScramblingDrone
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * Factor by which topspeed increases.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
-    /**
-     * The distance outside of which the entity activates their MWD equivalent.
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(2500)
-    public int EntityChaseMaxDistance;
-    /**
-     * The distance at which the entity orbits, follows.. and more.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(500.0)
-    public double EntityFlyRange;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultDoubleValue(0.0)
+    public double ShieldUniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
@@ -139,96 +230,26 @@ public class WarpScramblingDrone
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
-     * Distance below which range does not affect the to-hit equation.
+     * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
     /**
-     * The maximum number of their targets that the character can attack at a given time.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxAttackTargets;
-    /**
-     * The maximum amount of time stalled before entity chase speed kicks in.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5000)
-    public int EntityChaseMaxDelay;
-    /**
-     * Chance that the max delay is waited before chase is engaged.
+     * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int EntityChaseMaxDelayChance;
+    public int TechLevel;
     /**
-     * The agility of the object.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double Agility;
-    /**
-     * The maximum amount of time chase is ever engaged for.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(5000)
-    public int EntityChaseMaxDuration;
-    /**
-     * The chance of engaging chase for the maximum duration.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDurationChance;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * scanning speed in milliseconds
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanSpeed;
-    /**
-     * Amount of power to transfer.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PowerTransferAmount;
-    /**
-     * Maximum range to transfer power from.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PowerTransferRange;
-    /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
+    @DefaultIntValue(8000)
+    public int WarpScrambleDuration;
     /**
      * Maximum range objects can be warp scrambled from.
      */
@@ -243,27 +264,6 @@ public class WarpScramblingDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
-    /**
-     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1000)
-    public int OptimalSigRadius;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(8000)
-    public int WarpScrambleDuration;
-    /**
-     * The speed that entities fly at when not chasing a target.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityCruiseSpeed;
     public final static String RESOURCE_PATH = "SDE/items/drone/WarpScramblingDrone.yaml";
     private static LinkedHashMap<String, WarpScramblingDrone> cache = (null);
 

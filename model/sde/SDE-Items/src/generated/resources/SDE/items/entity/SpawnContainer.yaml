@@ -667,6 +667,10 @@ items:
     id: 24577
     name: Imperial Armory
     volume: 1.0E8
+  Inert Capsule:
+    id: 47449
+    name: Inert Capsule
+    volume: 27500.0
   Info Shard:
     id: 42638
     name: Info Shard

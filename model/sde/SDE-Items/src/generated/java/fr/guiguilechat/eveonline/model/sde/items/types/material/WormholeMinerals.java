@@ -12,19 +12,19 @@ public class WormholeMinerals
     extends Material
 {
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int MoonMiningAmount;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MoonMiningAmount;
     public final static String RESOURCE_PATH = "SDE/items/material/WormholeMinerals.yaml";
     private static LinkedHashMap<String, WormholeMinerals> cache = (null);
 

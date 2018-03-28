@@ -22,9 +22,11 @@ items:
     name: Large Micro Jump Drive
     volume: 10.0
   Medium Micro Jump Drive:
+    CanFitShipGroup01: 1972
     CanFitShipGroup02: 419
     CanFitShipGroup03: 540
     CanFitShipGroup04: 380
+    CanFitShipGroup05: 1201
     CapacitorNeed: 197.0
     Cpu: 51.0
     DisallowEarlyDeactivation: 1

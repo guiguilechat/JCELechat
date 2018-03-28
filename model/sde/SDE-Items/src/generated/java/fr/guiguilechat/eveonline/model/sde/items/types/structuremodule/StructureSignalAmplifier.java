@@ -13,13 +13,6 @@ public class StructureSignalAmplifier
     extends StructureModule
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -41,26 +34,12 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Bonus to Max Targeting Range
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxTargetRangeBonus;
-    /**
-     * Bonus for scan resolution
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    public double Cpu;
     /**
      * The maximum hitpoints of an object.
      */
@@ -69,19 +48,26 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
-    /**
      * Additional amount of locked targets that can be handled.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxLockedTargetsBonus;
+    /**
+     * Bonus to Max Targeting Range
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double MaxTargetRangeBonus;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * current power need
      */
@@ -90,12 +76,26 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int Power;
     /**
+     * Bonus for scan resolution
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanResolutionBonus;
+    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
     private static LinkedHashMap<String, StructureSignalAmplifier> cache = (null);
 

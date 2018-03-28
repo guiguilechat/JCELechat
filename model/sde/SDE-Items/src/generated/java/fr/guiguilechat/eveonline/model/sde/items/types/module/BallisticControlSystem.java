@@ -20,12 +20,40 @@ public class BallisticControlSystem
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
+     * droneDamageBonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double DroneDamageBonus;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
      * Additional percentage to the characters missile damage multiplier.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MissileDamageMultiplierBonus;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -39,7 +67,14 @@ public class BallisticControlSystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
@@ -47,20 +82,6 @@ public class BallisticControlSystem
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/BallisticControlSystem.yaml";
     private static LinkedHashMap<String, BallisticControlSystem> cache = (null);
 

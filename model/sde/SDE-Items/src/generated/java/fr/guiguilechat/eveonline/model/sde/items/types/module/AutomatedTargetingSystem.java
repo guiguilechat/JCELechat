@@ -13,20 +13,6 @@ public class AutomatedTargetingSystem
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -34,12 +20,12 @@ public class AutomatedTargetingSystem
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * The type ID of the skill that is required.
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * Length of activation time.
      */
@@ -61,6 +47,20 @@ public class AutomatedTargetingSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Range of the automated targeting systems hostile targeting area.
      */

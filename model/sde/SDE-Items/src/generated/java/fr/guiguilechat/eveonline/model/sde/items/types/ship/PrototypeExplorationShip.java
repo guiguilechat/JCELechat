@@ -12,12 +12,33 @@ public class PrototypeExplorationShip
     extends Ship
 {
     /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int HiSlots;
+    /**
      * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
     /**
      * tbd
      */
@@ -26,12 +47,12 @@ public class PrototypeExplorationShip
     @DefaultIntValue(0)
     public int MedSlots;
     /**
-     * tbd
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HiSlots;
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -39,13 +60,6 @@ public class PrototypeExplorationShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
     /**
      * scanning speed in milliseconds
      */
@@ -67,13 +81,6 @@ public class PrototypeExplorationShip
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCapacity;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
     public final static String RESOURCE_PATH = "SDE/items/ship/PrototypeExplorationShip.yaml";
     private static LinkedHashMap<String, PrototypeExplorationShip> cache = (null);
 

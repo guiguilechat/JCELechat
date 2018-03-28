@@ -13,40 +13,12 @@ public class JumpPortalArray
     extends Starbase
 {
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * cargo typeID allowed in structures
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PosCargobayAcceptType;
-    /**
      * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double AnchoringSecurityLevelMax;
-    /**
-     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Uniformity;
     /**
      * The number of hit points on the entities armor.
      */
@@ -69,33 +41,33 @@ public class JumpPortalArray
     @DefaultIntValue(0)
     public int ControlTowerMinimumDistance;
     /**
-     * Radar strength.
+     * CPU need of module
      */
-    @HighIsGood(true)
-    @Stackable(false)
+    @HighIsGood(false)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double Cpu;
     /**
-     * Ladar strength.
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanLadarStrength;
+    @DefaultDoubleValue(1.0)
+    public double EmDamageResonance;
     /**
-     * Magnetometric strength.
+     * damage multiplier vs. explosive damagers.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
+    @DefaultDoubleValue(1.0)
+    public double ExplosiveDamageResonance;
     /**
-     * Gravimetric strength.
+     * 
      */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
      */
@@ -104,19 +76,12 @@ public class JumpPortalArray
     @DefaultDoubleValue(0.0)
     public double IncapacitationRatio;
     /**
-     * current power need
+     * Number of units it consumes per light year.
      */
     @HighIsGood(false)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int Power;
-    /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
+    public int JumpDriveConsumptionAmount;
     /**
      * Type that is used for consumption from cargo hold when activating jump drive operation.
      */
@@ -132,33 +97,12 @@ public class JumpPortalArray
     @DefaultDoubleValue(0.0)
     public double JumpDriveRange;
     /**
-     * Number of units it consumes per light year.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int JumpDriveConsumptionAmount;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
      * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double JumpPortalConsumptionMassFactor;
-    /**
-     * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PosAnchoredPerSolarSystemAmount;
     /**
      * damage multiplier vs. kinetic damagers.
      */
@@ -167,33 +111,61 @@ public class JumpPortalArray
     @DefaultDoubleValue(1.0)
     public double KineticDamageResonance;
     /**
-     * damage multiplier vs. thermal.
+     * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ThermalDamageResonance;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PosAnchoredPerSolarSystemAmount;
     /**
-     * damage multiplier vs. explosive damagers.
+     * cargo typeID allowed in structures
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ExplosiveDamageResonance;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PosCargobayAcceptType;
     /**
-     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double EmDamageResonance;
-    /**
-     * CPU need of module
+     * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiresSovUpgrade1;
+    /**
+     * Gravimetric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double ScanGravimetricStrength;
+    /**
+     * Ladar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanLadarStrength;
+    /**
+     * Magnetometric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanMagnetometricStrength;
+    /**
+     * Radar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanRadarStrength;
     /**
      * The resolution that the vessel can target other objects at.
      */
@@ -202,12 +174,40 @@ public class JumpPortalArray
     @DefaultIntValue(0)
     public int ScanResolution;
     /**
-     * 
+     * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiresSovUpgrade1;
+    public int ShieldCapacity;
+    /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ThermalDamageResonance;
+    /**
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
     private static LinkedHashMap<String, JumpPortalArray> cache = (null);
 

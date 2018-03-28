@@ -19,33 +19,12 @@ public class TrackingDisruptionScript
     @DefaultIntValue(0)
     public int ChargeSize;
     /**
-     * Bonus to maxRangeBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxRangeBonusBonus;
-    /**
-     * Bonus to trackingSpeedBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int TrackingSpeedBonusBonus;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1399)
     public int FalloffBonusBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
@@ -60,6 +39,27 @@ public class TrackingDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int MainColor;
+    /**
+     * Bonus to maxRangeBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxRangeBonusBonus;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Bonus to trackingSpeedBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TrackingSpeedBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/TrackingDisruptionScript.yaml";
     private static LinkedHashMap<String, TrackingDisruptionScript> cache = (null);
 

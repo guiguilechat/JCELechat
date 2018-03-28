@@ -12,26 +12,12 @@ public class ConstructionPlatform
     extends Celestial
 {
     /**
-     * Required skill level for skill 1
+     * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type of station this platform can be used to build.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StationTypeID;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     /**
      * The maximum hitpoints of an object.
      */
@@ -40,12 +26,19 @@ public class ConstructionPlatform
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * How long it takes to anchor or unanchor this object.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(60000)
-    public int AnchoringDelay;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * This is a display-only attribute for showinfo
      */
@@ -53,6 +46,13 @@ public class ConstructionPlatform
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiresSovereigntyDisplayOnly;
+    /**
+     * The type of station this platform can be used to build.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StationTypeID;
     public final static String RESOURCE_PATH = "SDE/items/celestial/ConstructionPlatform.yaml";
     private static LinkedHashMap<String, ConstructionPlatform> cache = (null);
 

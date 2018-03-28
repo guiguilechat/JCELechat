@@ -242,6 +242,15 @@ items:
   Sulphuric Cloud:
     id: 10755
     name: Sulphuric Cloud
+  The Hunt - Boss Spawner:
+    id: 47400
+    name: The Hunt - Boss Spawner
+  The Hunt - Easy Trash Spawner:
+    id: 47398
+    name: The Hunt - Easy Trash Spawner
+  The Hunt - Hard Trash Spawner:
+    id: 47399
+    name: The Hunt - Hard Trash Spawner
   Toxic Cloud Environment:
     id: 19753
     name: Toxic Cloud Environment

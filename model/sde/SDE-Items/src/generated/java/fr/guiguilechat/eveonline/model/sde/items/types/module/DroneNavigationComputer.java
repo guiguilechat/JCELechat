@@ -20,27 +20,6 @@ public class DroneNavigationComputer
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Factor by which topspeed increases.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
@@ -54,6 +33,27 @@ public class DroneNavigationComputer
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Factor by which topspeed increases.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
     public final static String RESOURCE_PATH = "SDE/items/module/DroneNavigationComputer.yaml";
     private static LinkedHashMap<String, DroneNavigationComputer> cache = (null);
 

@@ -13,33 +13,12 @@ public class StructureLaboratoryRigMConsumable
     extends StructureModule
 {
     /**
-     * High-sec bonus on structure rigs.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double StructureRigBonus2;
-    /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     /**
      * The maximum hitpoints of an object.
      */
@@ -61,6 +40,27 @@ public class StructureLaboratoryRigMConsumable
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureRigBonus1;
+    /**
+     * High-sec bonus on structure rigs.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double StructureRigBonus2;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureLaboratoryRigMConsumable.yaml";
     private static LinkedHashMap<String, StructureLaboratoryRigMConsumable> cache = (null);
 

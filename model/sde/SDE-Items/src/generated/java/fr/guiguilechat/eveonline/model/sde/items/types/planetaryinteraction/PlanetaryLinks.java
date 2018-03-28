@@ -20,20 +20,6 @@ public class PlanetaryLinks
     @DefaultIntValue(0)
     public int CpuLoad;
     /**
-     * Megawatts per kilometer
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double PowerLoadPerKm;
-    /**
-     * CPU Usage per kilometer
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CpuLoadPerKm;
-    /**
      * Used to calculate cpu load multiplier for PI links
      */
     @HighIsGood(true)
@@ -41,12 +27,12 @@ public class PlanetaryLinks
     @DefaultDoubleValue(0.0)
     public double CpuLoadLevelModifier;
     /**
-     * Power load multiplier for PI link levels
+     * CPU Usage per kilometer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double PowerLoadLevelModifier;
+    public double CpuLoadPerKm;
     /**
      * Transport capacity (bandwidth) in m3 per hour.
      */
@@ -61,6 +47,20 @@ public class PlanetaryLinks
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
+    /**
+     * Power load multiplier for PI link levels
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double PowerLoadLevelModifier;
+    /**
+     * Megawatts per kilometer
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double PowerLoadPerKm;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
     private static LinkedHashMap<String, PlanetaryLinks> cache = (null);
 

@@ -12,40 +12,12 @@ public class Extractors
     extends PlanetaryInteraction
 {
     /**
-     * This type can only be found/used/created on a planet matching this type ID.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PlanetRestriction;
-    /**
      * CPU load of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CpuLoad;
-    /**
-     * The type of material harvested.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HarvesterType;
-    /**
-     * Base amount (in units) of commodities extracted by an extractor pin.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(100)
-    public int PinExtractionQuantity;
-    /**
-     * Base cycle time (in seconds) of an extractor pin.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(300)
-    public int PinCycleTime;
     /**
      * This is the radius that the depletion at this pin effects
      */
@@ -60,6 +32,34 @@ public class Extractors
     @Stackable(true)
     @DefaultIntValue(0)
     public int ExtractorDepletionRate;
+    /**
+     * The type of material harvested.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int HarvesterType;
+    /**
+     * Base cycle time (in seconds) of an extractor pin.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300)
+    public int PinCycleTime;
+    /**
+     * Base amount (in units) of commodities extracted by an extractor pin.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(100)
+    public int PinExtractionQuantity;
+    /**
+     * This type can only be found/used/created on a planet matching this type ID.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PlanetRestriction;
     /**
      * Current load of power core
      */

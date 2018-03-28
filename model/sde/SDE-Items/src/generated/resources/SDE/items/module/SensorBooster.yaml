@@ -146,7 +146,7 @@ items:
     MetaLevel: 8
     OverloadSensorModuleStrengthBonus: 15
     Power: 1
-    ReloadTime: 10000.0
+    ReloadTime: 0.009999999776482582
     RequiredSkill1: 3428
     RequiredSkill1Level: 1
     RequiredThermoDynamicsSkill: 1

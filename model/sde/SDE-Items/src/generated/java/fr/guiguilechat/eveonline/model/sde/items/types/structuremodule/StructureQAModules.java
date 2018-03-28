@@ -13,13 +13,6 @@ public class StructureQAModules
     extends StructureModule
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -48,12 +41,26 @@ public class StructureQAModules
     @DefaultDoubleValue(0.0)
     public double CapacityBonus;
     /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double EmDamageResistanceBonus;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamageResistanceBonus;
     /**
      * The maximum hitpoints of an object.
      */
@@ -67,21 +74,7 @@ public class StructureQAModules
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamageResistanceBonus;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
     public double KineticDamageResistanceBonus;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
     /**
      * current power need
      */
@@ -96,6 +89,13 @@ public class StructureQAModules
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureQAModules.yaml";
     private static LinkedHashMap<String, StructureQAModules> cache = (null);
 

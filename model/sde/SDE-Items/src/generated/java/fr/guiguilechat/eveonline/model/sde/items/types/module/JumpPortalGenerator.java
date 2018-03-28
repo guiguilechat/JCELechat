@@ -18,7 +18,7 @@ public class JumpPortalGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpHarmonics;
+    public int CanFitShipGroup01;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -27,26 +27,12 @@ public class JumpPortalGenerator
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowOffensiveModifiers;
-    /**
-     * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double JumpPortalConsumptionMassFactor;
-    /**
-     * Length of activation time.
+     * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
+    @DefaultIntValue(0)
+    public int ConsumptionQuantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
@@ -55,75 +41,12 @@ public class JumpPortalGenerator
     @DefaultIntValue(0)
     public int ConsumptionType;
     /**
-     * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(300000)
-    public int JumpPortalDuration;
-    /**
-     * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ConsumptionQuantity;
-    /**
-     * Amount to increase the maximum speed by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpeedBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup01;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SiegeModeWarpStatus;
-    /**
-     * Factor by which topspeed increases.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * If set, this module cannot be activated and made to autorepeat.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -132,12 +55,54 @@ public class JumpPortalGenerator
     @DefaultIntValue(0)
     public int DisallowAssistance;
     /**
-     * The type ID of the skill that is required.
+     * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int DisallowEarlyDeactivation;
+    /**
+     * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowOffensiveModifiers;
+    /**
+     * If set, this module cannot be activated and made to autorepeat.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowRepeatingActivation;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int JumpHarmonics;
+    /**
+     * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double JumpPortalConsumptionMassFactor;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300000)
+    public int JumpPortalDuration;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -152,6 +117,41 @@ public class JumpPortalGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SiegeModeWarpStatus;
+    /**
+     * Amount to increase the maximum speed by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpeedBonus;
+    /**
+     * Factor by which topspeed increases.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
     public final static String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
     private static LinkedHashMap<String, JumpPortalGenerator> cache = (null);
 

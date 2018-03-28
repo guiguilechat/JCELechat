@@ -13,19 +13,12 @@ public class Refinery
     extends Structure
 {
     /**
-     * How many upgrades can by fitted to this ship.
+     * Delay for exploding moon mining chunk into asteroid field
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
-    /**
-     * Defines whether an entity can be hacked or not.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hackable;
+    @DefaultIntValue(10800)
+    public int AutoFractureDelay;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      */
@@ -34,26 +27,75 @@ public class Refinery
     @DefaultIntValue(0)
     public int FighterCapacity;
     /**
-     * 
+     * Number of Heavy Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceSlots;
+    public int FighterStandupHeavySlots;
     /**
-     * Delay for exploding moon mining chunk into asteroid field
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(10800)
-    public int AutoFractureDelay;
-    /**
-     * 
+     * Number of Light Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int FighterStandupLightSlots;
+    /**
+     * Number of Support Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupSupportSlots;
+    /**
+     * This defines the total number of fighter launch tubes on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterTubes;
+    /**
+     * Defines whether an entity can be hacked or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hackable;
+    /**
+     * Armor hitpoint attribute used by structures as a workaround for implementing Standup layered plating stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenArmorHPMultiplier;
+    /**
+     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenMissileDamageMultiplier;
+    /**
+     * The number of remaining unused launcher slots.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherSlotsLeft;
+    /**
+     * The maximum possible target range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300000)
+    public int MaximumRangeCap;
+    /**
+     * This attribute doesn't directly impact the asteroid decay, but is used to expose the decay time to the show-info window
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(48)
+    public int MoonAsteroidDecayDisplayValue;
     /**
      * Decay time for asteroid created from moon spew
      */
@@ -62,12 +104,26 @@ public class Refinery
     @DefaultIntValue(1)
     public int MoonAsteroidDecayTimeMultiplier;
     /**
-     * The maximum possible target range.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(300000)
-    public int MaximumRangeCap;
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceSlots;
     /**
      * Time bonus for Refinery Structures
      */
@@ -85,45 +141,10 @@ public class Refinery
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureServiceRoleBonus;
-    /**
-     * This attribute doesn't directly impact the asteroid decay, but is used to expose the decay time to the show-info window
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(48)
-    public int MoonAsteroidDecayDisplayValue;
-    /**
-     * This defines the total number of fighter launch tubes on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterTubes;
-    /**
-     * Number of Light Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupLightSlots;
-    /**
-     * Number of Support Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupSupportSlots;
-    /**
-     * Number of Heavy Fighters the structure can launch.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterStandupHeavySlots;
+    public int StructureAoERoFRoleBonus;
     /**
      * 
      */
@@ -134,31 +155,10 @@ public class Refinery
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureAoERoFRoleBonus;
-    /**
-     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int HiddenMissileDamageMultiplier;
-    /**
-     * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VulnerabilityRequired;
-    /**
-     * Armor hitpoint attribute used by structures as a workaround for implementing Standup layered plating stacking penalties
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int HiddenArmorHPMultiplier;
+    public int StructureServiceRoleBonus;
     /**
      * Distance which tethering will engage / disengage piloted ships.
      */
@@ -167,12 +167,12 @@ public class Refinery
     @DefaultIntValue(0)
     public int TetheringRange;
     /**
-     * The number of remaining unused launcher slots.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherSlotsLeft;
+    public int TierDifficulty;
     /**
      * Attribute on ships used for ship upgrades
      */
@@ -181,19 +181,12 @@ public class Refinery
     @DefaultIntValue(0)
     public int UpgradeCapacity;
     /**
-     * The number of rig slots on the ship.
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int TierDifficulty;
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/structure/Refinery.yaml";
     private static LinkedHashMap<String, Refinery> cache = (null);
 

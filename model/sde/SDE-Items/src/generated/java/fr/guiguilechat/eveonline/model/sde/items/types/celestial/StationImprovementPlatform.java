@@ -13,33 +13,12 @@ public class StationImprovementPlatform
     extends Celestial
 {
     /**
-     * Bonus for refining ore. Used for station improvements
+     * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double StationOreRefiningBonus;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type of station this platform can be used to build.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StationTypeID;
+    @DefaultIntValue(60000)
+    public int AnchoringDelay;
     /**
      * The maximum hitpoints of an object.
      */
@@ -48,12 +27,19 @@ public class StationImprovementPlatform
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * How long it takes to anchor or unanchor this object.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(60000)
-    public int AnchoringDelay;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * This is a display-only attribute for showinfo
      */
@@ -61,6 +47,20 @@ public class StationImprovementPlatform
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiresSovereigntyDisplayOnly;
+    /**
+     * Bonus for refining ore. Used for station improvements
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double StationOreRefiningBonus;
+    /**
+     * The type of station this platform can be used to build.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StationTypeID;
     public final static String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
     private static LinkedHashMap<String, StationImprovementPlatform> cache = (null);
 

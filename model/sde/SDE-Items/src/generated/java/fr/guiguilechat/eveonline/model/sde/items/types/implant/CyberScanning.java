@@ -12,27 +12,6 @@ public class CyberScanning
     extends Implant
 {
     /**
-     * Bonus to duration.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DurationBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxScanDeviationModifier;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * Bonus to chance of opening a container.
      */
     @HighIsGood(true)
@@ -47,6 +26,13 @@ public class CyberScanning
     @DefaultIntValue(0)
     public int AccessDifficultyBonusModifier;
     /**
+     * Bonus to duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DurationBonus;
+    /**
      * Whether an item is an implant or not
      */
     @HighIsGood(true)
@@ -54,12 +40,12 @@ public class CyberScanning
     @DefaultIntValue(0)
     public int Implantness;
     /**
-     * Adds to the virus coherence of profession modules
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusCoherenceBonus;
+    public int MaxScanDeviationModifier;
     /**
      * 
      */
@@ -67,6 +53,20 @@ public class CyberScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int ScanStrengthBonus;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Adds to the virus coherence of profession modules
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int VirusCoherenceBonus;
     /**
      * 
      */

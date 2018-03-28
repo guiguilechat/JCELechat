@@ -29,7 +29,7 @@ items:
     name: Common Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Common Moon Ore Mining Crystal II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 46353
     name: Common Moon Ore Mining Crystal II Blueprint
     volume: 0.01
@@ -63,7 +63,7 @@ items:
     name: Exceptional Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Exceptional Moon Ore Mining Crystal II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 46362
     name: Exceptional Moon Ore Mining Crystal II Blueprint
     volume: 0.01
@@ -181,7 +181,7 @@ items:
     name: Rare Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Rare Moon Ore Mining Crystal II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 46360
     name: Rare Moon Ore Mining Crystal II Blueprint
     volume: 0.01
@@ -215,7 +215,7 @@ items:
     name: Ubiquitous Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Ubiquitous Moon Ore Mining Crystal II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 46351
     name: Ubiquitous Moon Ore Mining Crystal II Blueprint
     volume: 0.01
@@ -225,7 +225,7 @@ items:
     name: Uncommon Moon Ore Mining Crystal I Blueprint
     volume: 0.01
   Uncommon Moon Ore Mining Crystal II Blueprint:
-    TechLevel: 1
+    TechLevel: 2
     id: 46358
     name: Uncommon Moon Ore Mining Crystal II Blueprint
     volume: 0.01

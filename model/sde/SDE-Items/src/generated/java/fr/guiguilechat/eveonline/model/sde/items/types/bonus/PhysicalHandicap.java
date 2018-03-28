@@ -12,19 +12,19 @@ public class PhysicalHandicap
     extends Bonus
 {
     /**
-     * Scales the capacitor need for fitted modules.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeedMultiplier;
-    /**
      * Scales the accuracy of some targeted weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double AccuracyMultiplier;
+    /**
+     * Scales the capacitor need for fitted modules.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
     private static LinkedHashMap<String, PhysicalHandicap> cache = (null);
 

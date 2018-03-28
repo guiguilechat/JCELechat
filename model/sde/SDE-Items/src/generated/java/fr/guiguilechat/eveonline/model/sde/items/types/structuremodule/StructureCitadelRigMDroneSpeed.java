@@ -12,13 +12,6 @@ public class StructureCitadelRigMDroneSpeed
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -26,19 +19,12 @@ public class StructureCitadelRigMDroneSpeed
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
+     * Increases max velocity of all drone types.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int DroneMaxVelocityBonus;
     /**
      * The maximum hitpoints of an object.
      */
@@ -46,6 +32,13 @@ public class StructureCitadelRigMDroneSpeed
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * 
      */
@@ -61,12 +54,19 @@ public class StructureCitadelRigMDroneSpeed
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * Increases max velocity of all drone types.
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DroneMaxVelocityBonus;
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelRigMDroneSpeed.yaml";
     private static LinkedHashMap<String, StructureCitadelRigMDroneSpeed> cache = (null);
 

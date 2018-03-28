@@ -13,61 +13,12 @@ public class StructureStasisWebifier
     extends StructureModule
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupOnline;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
     /**
      * 
      */
@@ -76,13 +27,6 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Factor by which topspeed increases.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -90,12 +34,19 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Distance below which range does not affect the to-hit equation.
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -104,19 +55,26 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int DisallowRepeatingActivation;
     /**
-     * The ranking of the module within its tech level
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
-     * Attribute ID of the resistance type v's this Ewar module.
+     * distance from maximum range at which effectiveness has fallen by half
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FalloffEffectiveness;
+    /**
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteResistanceID;
+    public int Hp;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -125,12 +83,33 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int MaxGroupActive;
     /**
-     * distance from maximum range at which effectiveness has fallen by half
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupOnline;
+    /**
+     * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FalloffEffectiveness;
+    public int MaxRange;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
@@ -146,12 +125,33 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int Power;
     /**
+     * Attribute ID of the resistance type v's this Ewar module.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RemoteResistanceID;
+    /**
+     * Factor by which topspeed increases.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double SpeedFactor;
+    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
     private static LinkedHashMap<String, StructureStasisWebifier> cache = (null);
 

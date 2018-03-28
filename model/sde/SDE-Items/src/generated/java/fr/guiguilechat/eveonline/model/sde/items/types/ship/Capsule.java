@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -11,6 +12,20 @@ import org.yaml.snakeyaml.Yaml;
 public class Capsule
     extends Ship
 {
+    /**
+     * Multiplier for jump fatigue distance
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double JumpFatigueMultiplier;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
     /**
      * meta group of type
      */

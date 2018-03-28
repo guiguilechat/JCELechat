@@ -13,12 +13,26 @@ public class ArmorRepairUnit
     extends Module
 {
     /**
+     * An amount to modify the armor damage by.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ArmorDamageAmount;
+    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * Length of activation time.
      */
@@ -31,22 +45,50 @@ public class ArmorRepairUnit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadArmorDamageAmount;
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
     /**
-     * CPU need of module
+     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double HeatDamage;
     /**
-     * An amount to modify the armor damage by.
+     * meta group of type
      */
     @HighIsGood(true)
-    @Stackable(false)
+    @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorDamageAmount;
+    public int MetaGroupID;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadArmorDamageAmount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double OverloadSelfDurationBonus;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -60,14 +102,7 @@ public class ArmorRepairUnit
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double OverloadSelfDurationBonus;
+    public int RequiredSkill2;
     /**
      * Required skill level for skill 2
      */
@@ -76,47 +111,12 @@ public class ArmorRepairUnit
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorRepairUnit.yaml";
     private static LinkedHashMap<String, ArmorRepairUnit> cache = (null);
 

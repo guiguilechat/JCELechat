@@ -20,13 +20,6 @@ public class HullRepairUnit
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -34,19 +27,33 @@ public class HullRepairUnit
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * An amount to modify the structural damage by.
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureDamageAmount;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
-     * Required skill level for skill 1
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatDamage;
+    /**
+     * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MetaGroupID;
     /**
      * 
      */
@@ -55,12 +62,33 @@ public class HullRepairUnit
     @DefaultDoubleValue(0.0)
     public double OverloadSelfDurationBonus;
     /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
     /**
      * Required skill level for skill 2
      */
@@ -74,7 +102,7 @@ public class HullRepairUnit
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int RequiredSkill3;
     /**
      * Required skill level for skill 3
      */
@@ -83,27 +111,6 @@ public class HullRepairUnit
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -111,19 +118,12 @@ public class HullRepairUnit
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
     /**
-     * meta group of type
+     * An amount to modify the structural damage by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    public int StructureDamageAmount;
     public final static String RESOURCE_PATH = "SDE/items/module/HullRepairUnit.yaml";
     private static LinkedHashMap<String, HullRepairUnit> cache = (null);
 

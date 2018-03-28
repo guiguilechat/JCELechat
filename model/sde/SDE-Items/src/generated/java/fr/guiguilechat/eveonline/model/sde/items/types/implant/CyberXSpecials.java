@@ -13,6 +13,20 @@ public class CyberXSpecials
     extends Implant
 {
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorHpBonus2;
+    /**
+     * Whether an item is an implant or not
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Implantness;
+    /**
      * +/- bonus to the intelligence of a character.
      */
     @HighIsGood(true)
@@ -34,13 +48,6 @@ public class CyberXSpecials
     @DefaultIntValue(0)
     public int PerceptionBonus;
     /**
-     * +/- bonus to the willpower of a character.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WillpowerBonus;
-    /**
      * Tech level of an item
      */
     @HighIsGood(true)
@@ -48,26 +55,19 @@ public class CyberXSpecials
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * Whether an item is an implant or not
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Implantness;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorHpBonus2;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int VelocityBonus2;
+    /**
+     * +/- bonus to the willpower of a character.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
     private static LinkedHashMap<String, CyberXSpecials> cache = (null);
 

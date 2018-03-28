@@ -16,40 +16,12 @@ public abstract class Subsystem
     extends Item
 {
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubSystemSlot;
+    public int FitsToShipType;
     /**
      * 
      */
@@ -58,12 +30,12 @@ public abstract class Subsystem
     @DefaultIntValue(0)
     public int HiSlotModifier;
     /**
-     * 
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MedSlotModifier;
+    public int Hp;
     /**
      * 
      */
@@ -77,7 +49,7 @@ public abstract class Subsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FitsToShipType;
+    public int MedSlotModifier;
     /**
      * The ranking of the module within its tech level
      */
@@ -85,6 +57,34 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SubSystemSlot;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
 
     @Override
     public int getCategoryId() {

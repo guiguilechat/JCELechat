@@ -13,40 +13,47 @@ public class MiningBarge
     extends Ship
 {
     /**
-     * How many upgrades can by fitted to this ship.
+     * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int AffectedByIndustrialInvulnModule;
     /**
-     * ORE Mining barge bonus 2
+     * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusORE2;
+    public int AllowedInCapIndustrialMaintenanceBay;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int FwLpKill;
     /**
-     * The number of low power slots on the ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
     /**
-     * tbd
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
     /**
      * tbd
      */
@@ -60,28 +67,21 @@ public class MiningBarge
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FwLpKill;
-    /**
-     * Capacity of ore-only hold
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialOreHoldCapacity;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int IndustrialBonusDroneDamage;
     /**
-     * Required skill level for skill 1
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
     /**
      * Deprecated.
      */
@@ -90,12 +90,19 @@ public class MiningBarge
     @DefaultIntValue(1)
     public int MaxDirectionalVelocity;
     /**
-     * Required skill level for skill 2
+     * Specifies the maximum numbers of passengers that the ship can have
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * Deprecated.
      */
@@ -111,19 +118,47 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int MiningDurationRoleBonus;
     /**
-     * ORE Mining Barge bonus 3
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusORE3;
+    public int RequiredSkill1;
     /**
-     * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AffectedByIndustrialInvulnModule;
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * Bonus to drone damage, HP and mining yield
      */
@@ -139,20 +174,6 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int ScanResolution;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
@@ -160,12 +181,33 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
+     * ORE Mining barge bonus 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AllowedInCapIndustrialMaintenanceBay;
+    public int ShipBonusORE2;
+    /**
+     * ORE Mining Barge bonus 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusORE3;
+    /**
+     * Chance of being able to resist a ship scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipScanResistance;
+    /**
+     * Capacity of ore-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialOreHoldCapacity;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -174,13 +216,6 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int TypeColorScheme;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
-    /**
      * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
@@ -188,40 +223,12 @@ public class MiningBarge
     @DefaultIntValue(0)
     public int UpgradeCapacity;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * The number of rig slots on the ship.
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
-    /**
-     * Chance of being able to resist a ship scan.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipScanResistance;
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/MiningBarge.yaml";
     private static LinkedHashMap<String, MiningBarge> cache = (null);
 

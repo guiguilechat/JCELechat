@@ -18,105 +18,7 @@ public class Interceptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EliteBonusInterceptorRole;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WarpBubbleImmune;
-    /**
-     * How many upgrades can by fitted to this ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FwLpKill;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int MaxDirectionalVelocity;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double MinTargetVelDmgMultiplier;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
-     * Fixed Role Bonus on a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusRole7;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int EliteBonusInterceptor;
     /**
      * 
      */
@@ -125,12 +27,103 @@ public class Interceptor
     @DefaultDoubleValue(0.0)
     public double EliteBonusInterceptor2;
     /**
-     * The resolution that the vessel can target other objects at.
+     * 
      */
     @HighIsGood(true)
-    @Stackable(false)
+    @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanResolution;
+    public int EliteBonusInterceptorRole;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntosisCPUPenalty;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FwLpKill;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int HiSlots;
+    /**
+     * The number of low power slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double MinTargetVelDmgMultiplier;
     /**
      * The type ID of the skill that is required.
      */
@@ -139,6 +132,13 @@ public class Interceptor
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -146,12 +146,12 @@ public class Interceptor
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * 
+     * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EliteBonusInterceptor;
+    public int RequiredSkill2Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -160,40 +160,33 @@ public class Interceptor
     @DefaultIntValue(0)
     public int RequiredSkill3;
     /**
-     * 
+     * Required skill level for skill 3
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusGF2;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusMF2;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
-     * 
+     * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusCF2;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
-     * 
+     * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusMF;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusGF;
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
     /**
      * scanning speed in milliseconds
      */
@@ -201,6 +194,20 @@ public class Interceptor
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(5.0)
+    public double ShipBonus2AF;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusAF;
     /**
      * 
      */
@@ -214,14 +221,49 @@ public class Interceptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusAF;
+    public double ShipBonusCF2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0)
-    public double ShipBonus2AF;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusGF;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusGF2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusMF;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusMF2;
+    /**
+     * Fixed Role Bonus on a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole7;
+    /**
+     * Chance of being able to resist a ship scan.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipScanResistance;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -230,13 +272,6 @@ public class Interceptor
     @DefaultIntValue(0)
     public int TypeColorScheme;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
-    /**
      * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
@@ -244,47 +279,19 @@ public class Interceptor
     @DefaultIntValue(0)
     public int UpgradeCapacity;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * The number of rig slots on the ship.
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
+    public int UpgradeSlotsLeft;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntosisCPUPenalty;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
-    /**
-     * Chance of being able to resist a ship scan.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipScanResistance;
+    public int WarpBubbleImmune;
     public final static String RESOURCE_PATH = "SDE/items/ship/Interceptor.yaml";
     private static LinkedHashMap<String, Interceptor> cache = (null);
 

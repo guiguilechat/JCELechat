@@ -19,19 +19,19 @@ public class StructureECMScript
     @DefaultIntValue(0)
     public int ChargeSize;
     /**
-     * Bonus to Gravimetric Strength bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ScanGravimetricStrengthBonusBonus;
-    /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int LauncherGroup;
+    /**
+     * Bonus to Gravimetric Strength bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ScanGravimetricStrengthBonusBonus;
     /**
      * Bonus to Lader Strength bonus
      */

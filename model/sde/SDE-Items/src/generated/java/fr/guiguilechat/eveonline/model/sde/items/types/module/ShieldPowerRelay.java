@@ -13,12 +13,40 @@ public class ShieldPowerRelay
     extends Module
 {
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double CapacitorCapacityMultiplier;
+    /**
      * Multiplier to the capacitors recharge rate.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double CapacitorRechargeRateMultiplier;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Multipier to power core output.
      */
@@ -34,26 +62,12 @@ public class ShieldPowerRelay
     @DefaultIntValue(0)
     public int Rechargeratebonus;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Multiplier to the capacity of a shield.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ShieldCapacityMultiplier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double CapacitorCapacityMultiplier;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -62,26 +76,12 @@ public class ShieldPowerRelay
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * The type ID of the skill that is required.
+     * Multiplier to the capacity of a shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultDoubleValue(1.0)
+    public double ShieldCapacityMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldPowerRelay.yaml";
     private static LinkedHashMap<String, ShieldPowerRelay> cache = (null);
 

@@ -18,62 +18,6 @@ public class CountermeasureLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup4;
-    /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Number of charges consumed per activation
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int ChargeRate;
-    /**
-     * One of the groups of charge this launcher can be loaded with.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int ChargeGroup1;
     /**
      * One of the groups of charge this launcher can be loaded with.
@@ -83,6 +27,34 @@ public class CountermeasureLauncher
     @DefaultIntValue(0)
     public int ChargeGroup2;
     /**
+     * One of the groups of charge this launcher can be loaded with.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeGroup3;
+    /**
+     * One of the groups of charge this launcher can be loaded with.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeGroup4;
+    /**
+     * Number of charges consumed per activation
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int ChargeRate;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
      * current power need
      */
     @HighIsGood(false)
@@ -90,12 +62,40 @@ public class CountermeasureLauncher
     @DefaultIntValue(0)
     public int Power;
     /**
-     * One of the groups of charge this launcher can be loaded with.
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup3;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int Speed;
     public final static String RESOURCE_PATH = "SDE/items/module/CountermeasureLauncher.yaml";
     private static LinkedHashMap<String, CountermeasureLauncher> cache = (null);
 

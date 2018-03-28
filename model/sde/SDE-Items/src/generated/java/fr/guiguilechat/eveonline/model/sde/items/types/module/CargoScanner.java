@@ -13,20 +13,6 @@ public class CargoScanner
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
@@ -34,12 +20,19 @@ public class CargoScanner
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * The type ID of the skill that is required.
+     * Maximum range the cargo of a ship can be scanned from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int CargoScanRange;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
@@ -62,12 +55,19 @@ public class CargoScanner
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Maximum range the cargo of a ship can be scanned from.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CargoScanRange;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/CargoScanner.yaml";
     private static LinkedHashMap<String, CargoScanner> cache = (null);
 

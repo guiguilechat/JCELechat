@@ -13,33 +13,54 @@ public class Interdictor
     extends Ship
 {
     /**
-     * How many upgrades can by fitted to this ship.
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double DestroyerROFpenality;
+    /**
+     * eliteBonusInterdictors1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int EliteBonusInterdictors1;
+    /**
+     * eliteBonusInterdictors2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EliteBonusInterdictors2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int FwLpKill;
     /**
-     * The number of low power slots on the ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
     /**
-     * tbd
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
     /**
      * tbd
      */
@@ -50,73 +71,10 @@ public class Interdictor
     /**
      * 
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FwLpKill;
-    /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int MaxDirectionalVelocity;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double MinTargetVelDmgMultiplier;
-    /**
-     * The resolution that the vessel can target other objects at.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * 
-     */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
-    /**
-     * scanning speed in milliseconds
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanSpeed;
     /**
      * 
      */
@@ -139,26 +97,103 @@ public class Interdictor
     @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
-     * 
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double DestroyerROFpenality;
+    @DefaultIntValue(0)
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double MinTargetVelDmgMultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusMD1;
+    public int RigSize;
     /**
-     * 
+     * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusCD1;
+    public int RigSlots;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
+    /**
+     * scanning speed in milliseconds
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * 
      */
@@ -172,14 +207,21 @@ public class Interdictor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusCD2;
+    public int ShipBonusAD2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusAD2;
+    public int ShipBonusCD1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusCD2;
     /**
      * 
      */
@@ -200,6 +242,13 @@ public class Interdictor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int ShipBonusMD1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int ShipBonusMD2;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
@@ -209,13 +258,6 @@ public class Interdictor
     @DefaultIntValue(0)
     public int TypeColorScheme;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
-    /**
      * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
@@ -223,47 +265,12 @@ public class Interdictor
     @DefaultIntValue(0)
     public int UpgradeCapacity;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * The number of rig slots on the ship.
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
-    /**
-     * eliteBonusInterdictors1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EliteBonusInterdictors1;
-    /**
-     * eliteBonusInterdictors2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EliteBonusInterdictors2;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
     private static LinkedHashMap<String, Interdictor> cache = (null);
 

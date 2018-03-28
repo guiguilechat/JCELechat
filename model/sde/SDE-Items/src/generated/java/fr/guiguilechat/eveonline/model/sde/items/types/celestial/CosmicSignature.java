@@ -13,12 +13,12 @@ public class CosmicSignature
     extends Celestial
 {
     /**
-     * Radar strength.
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -34,12 +34,12 @@ public class CosmicSignature
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double ScanRadarStrength;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */

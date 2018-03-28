@@ -40,12 +40,12 @@ public class FlexShieldHardenerScript
     @DefaultIntValue(0)
     public int KineticDamageResistanceBonusBonus;
     /**
-     * 
+     * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ThermalDamageResistanceBonusBonus;
+    public int LauncherGroup;
     /**
      * Tech level of an item
      */
@@ -54,12 +54,12 @@ public class FlexShieldHardenerScript
     @DefaultIntValue(1)
     public int TechLevel;
     /**
-     * One of the groups of launcher this charge can be loaded into.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int ThermalDamageResistanceBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
     private static LinkedHashMap<String, FlexShieldHardenerScript> cache = (null);
 

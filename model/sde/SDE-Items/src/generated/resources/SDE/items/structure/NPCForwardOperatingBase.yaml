@@ -48,7 +48,6 @@ items:
     TargetPainterResistance: 9.999999747378752E-6
     ThermalDamageResonance: 1.0
     Uniformity: 1.0
-    VulnerabilityRequired: 168
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 46364
     name: Blood Raider Forward Operating Base
@@ -102,7 +101,6 @@ items:
     TargetPainterResistance: 9.999999747378752E-6
     ThermalDamageResonance: 1.0
     Uniformity: 1.0
-    VulnerabilityRequired: 168
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 46363
     name: Guristas Forward Operating Base

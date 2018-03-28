@@ -24518,9 +24518,9 @@ offers:
       lp: 10000
   16339:
     id: 16339
-    name: Claymore(BPC)
+    name: Monitor(BPC)
     product:
-      item: Claymore
+      item: Monitor
       quantity: 1
     requirements:
       isk: 1000000
@@ -24528,21 +24528,35 @@ offers:
       - item: R.A.M.- Starship Tech
         quantity: 50
       - item: Nuclear Reactor Unit
-        quantity: 53
+        quantity: 60
+      - item: Construction Blocks
+        quantity: 100
       - item: Plasma Thruster
-        quantity: 120
+        quantity: 100
       - item: Morphite
         quantity: 300
-      - item: Construction Blocks
-        quantity: 375
-      - item: Ladar Sensor Cluster
-        quantity: 495
-      - item: Deflection Shield Emitter
+      - item: Megacyte
+        quantity: 500
+      - item: Gravimetric Sensor Cluster
         quantity: 600
-      - item: Electrolytic Capacitor Unit
-        quantity: 900
-      - item: Nanomechanical Microprocessor
-        quantity: 2100
-      - item: Fernite Carbide Composite Armor Plate
-        quantity: 10500
+      - item: Tesseract Capacitor Unit
+        quantity: 750
+      - item: Sustained Shield Emitter
+        quantity: 800
+      - item: Zydrine
+        quantity: 1100
+      - item: Photon Microprocessor
+        quantity: 1500
+      - item: Nocxium
+        quantity: 3500
+      - item: Tungsten Carbide Armor Plate
+        quantity: 12000
+      - item: Isogen
+        quantity: 15000
+      - item: Mexallon
+        quantity: 20000
+      - item: Pyerite
+        quantity: 150000
+      - item: Tritanium
+        quantity: 400000
       lp: 10000

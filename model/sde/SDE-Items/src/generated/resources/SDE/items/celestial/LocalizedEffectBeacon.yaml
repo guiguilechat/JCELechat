@@ -1,0 +1,28 @@
+items:
+  large_PD_PLACEHOLDER:
+    id: 47438
+    name: large_PD_PLACEHOLDER
+  large_biocloud_PLACEHOLDER:
+    id: 47441
+    name: large_biocloud_PLACEHOLDER
+  large_stretch_PLACEHOLDER:
+    id: 47443
+    name: large_stretch_PLACEHOLDER
+  medium_PD_PLACEHOLDER:
+    id: 47437
+    name: medium_PD_PLACEHOLDER
+  medium_biocloud_PLACEHOLDER:
+    id: 47440
+    name: medium_biocloud_PLACEHOLDER
+  medium_stretch_PLACEHOLDER:
+    id: 47444
+    name: medium_stretch_PLACEHOLDER
+  small_PD_PLACEHOLDER:
+    id: 47436
+    name: small_PD_PLACEHOLDER
+  small_biocloud_PLACEHOLDER:
+    id: 47439
+    name: small_biocloud_PLACEHOLDER
+  small_stretch_PLACEHOLDER:
+    id: 47442
+    name: small_stretch_PLACEHOLDER

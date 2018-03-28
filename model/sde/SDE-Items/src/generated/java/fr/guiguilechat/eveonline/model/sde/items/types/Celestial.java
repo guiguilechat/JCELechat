@@ -24,8 +24,11 @@ import fr.guiguilechat.eveonline.model.sde.items.types.celestial.ForceField;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.FreightContainer;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.GlobalWarpDisruptor;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.HarvestableCloud;
+import fr.guiguilechat.eveonline.model.sde.items.types.celestial.IndustrialSupportFacility;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.Landmark;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.LargeCollidableObject;
+import fr.guiguilechat.eveonline.model.sde.items.types.celestial.LocalizedEffectBeacon;
+import fr.guiguilechat.eveonline.model.sde.items.types.celestial.Locators;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.MassiveEnvironments;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.MobileSentryGun;
 import fr.guiguilechat.eveonline.model.sde.items.types.celestial.Moon;
@@ -65,6 +68,6 @@ public abstract class Celestial
     }
 
     public static Map<String, ? extends Celestial> loadCategory() {
-        return Stream.of(AgentsInSpace.load(), AsteroidBelt.load(), AuditLogSecureContainer.load(), Beacon.load(), Biomass.load(), CargoContainer.load(), Cloud.load(), Comet.load(), Constellation.load(), ConstructionPlatform.load(), CosmicAnomaly.load(), CosmicSignature.load(), CovertBeacon.load(), DisruptableStationServices.load(), EffectBeacon.load(), EntosisCommandNode.load(), ForceField.load(), FreightContainer.load(), GlobalWarpDisruptor.load(), HarvestableCloud.load(), Landmark.load(), LargeCollidableObject.load(), MassiveEnvironments.load(), MobileSentryGun.load(), Moon.load(), MoonChunk.load(), MoonMiningBeacon.load(), OrbitalTarget.load(), Planet.load(), PlanetaryCloud.load(), Region.load(), Ring.load(), Satellite.load(), SecondarySun.load(), SecureCargoContainer.load(), ShippingCrates.load(), SolarSystem.load(), Stargate.load(), StationImprovementPlatform.load(), StationUpgradePlatform.load(), Sun.load(), SuperWeaponBeacon.load(), WarpGate.load(), Wormhole.load(), Wreck.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AgentsInSpace.load(), AsteroidBelt.load(), AuditLogSecureContainer.load(), Beacon.load(), Biomass.load(), CargoContainer.load(), Cloud.load(), Comet.load(), Constellation.load(), ConstructionPlatform.load(), CosmicAnomaly.load(), CosmicSignature.load(), CovertBeacon.load(), DisruptableStationServices.load(), EffectBeacon.load(), EntosisCommandNode.load(), ForceField.load(), FreightContainer.load(), GlobalWarpDisruptor.load(), HarvestableCloud.load(), IndustrialSupportFacility.load(), Landmark.load(), LargeCollidableObject.load(), LocalizedEffectBeacon.load(), Locators.load(), MassiveEnvironments.load(), MobileSentryGun.load(), Moon.load(), MoonChunk.load(), MoonMiningBeacon.load(), OrbitalTarget.load(), Planet.load(), PlanetaryCloud.load(), Region.load(), Ring.load(), Satellite.load(), SecondarySun.load(), SecureCargoContainer.load(), ShippingCrates.load(), SolarSystem.load(), Stargate.load(), StationImprovementPlatform.load(), StationUpgradePlatform.load(), Sun.load(), SuperWeaponBeacon.load(), WarpGate.load(), Wormhole.load(), Wreck.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

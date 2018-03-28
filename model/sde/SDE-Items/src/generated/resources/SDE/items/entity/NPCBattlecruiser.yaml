@@ -7,11 +7,11 @@ items:
     id: 46072
     name: ♦ Drake
     volume: 252000.0
-  ♦ Harbinger:
-    id: 46068
-    name: ♦ Harbinger
-    volume: 234000.0
   ♦ Hurricane:
     id: 46080
     name: ♦ Hurricane
     volume: 216000.0
+  �� Harbinger:
+    id: 46068
+    name: �� Harbinger
+    volume: 234000.0

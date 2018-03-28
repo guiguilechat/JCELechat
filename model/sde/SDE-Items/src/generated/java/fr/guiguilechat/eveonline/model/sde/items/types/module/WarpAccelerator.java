@@ -13,12 +13,19 @@ public class WarpAccelerator
     extends Module
 {
     /**
-     * Required skill level for skill 1
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MaxGroupFitted;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * The type ID of the skill that is required.
      */
@@ -27,12 +34,12 @@ public class WarpAccelerator
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * 
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -40,13 +47,6 @@ public class WarpAccelerator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WarpSpeedAdd;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
     public final static String RESOURCE_PATH = "SDE/items/module/WarpAccelerator.yaml";
     private static LinkedHashMap<String, WarpAccelerator> cache = (null);
 

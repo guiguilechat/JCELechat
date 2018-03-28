@@ -13,13 +13,6 @@ public class OverdriveInjectorSystem
     extends Module
 {
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ImplantBonusVelocity;
-    /**
      * Multiplier to the amount of cargo capacity for a ship.
      */
     @HighIsGood(true)
@@ -27,12 +20,19 @@ public class OverdriveInjectorSystem
     @DefaultDoubleValue(1.0)
     public double CargoCapacityMultiplier;
     /**
-     * Required skill level for skill 1
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ImplantBonusVelocity;
+    /**
+     * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MetaGroupID;
     /**
      * The type ID of the skill that is required.
      */
@@ -41,12 +41,12 @@ public class OverdriveInjectorSystem
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * meta group of type
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
     private static LinkedHashMap<String, OverdriveInjectorSystem> cache = (null);
 

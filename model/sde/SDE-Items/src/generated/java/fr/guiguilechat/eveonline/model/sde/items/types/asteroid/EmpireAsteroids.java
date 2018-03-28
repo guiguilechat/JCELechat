@@ -13,20 +13,6 @@ public class EmpireAsteroids
     extends Asteroid
 {
     /**
-     * Resistance against Stasis Webifiers
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
-    /**
-     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int OreBasicType;
-    /**
      *  0: Mission/NPE Ore
      *  1: Standard Ore/Ice
      *  2: +5% Ore
@@ -45,6 +31,20 @@ public class EmpireAsteroids
     @Stackable(true)
     @DefaultIntValue(90)
     public int AsteroidRadiusUnitSize;
+    /**
+     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int OreBasicType;
+    /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StasisWebifierResistance;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/EmpireAsteroids.yaml";
     private static LinkedHashMap<String, EmpireAsteroids> cache = (null);
 

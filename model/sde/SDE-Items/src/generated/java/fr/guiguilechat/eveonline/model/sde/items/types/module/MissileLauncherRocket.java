@@ -13,75 +13,19 @@ public class MissileLauncherRocket
     extends Module
 {
     /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
-    /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
-    /**
-     * 
+     * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OverloadRofBonus;
+    public int ChargeGroup1;
     /**
-     * Required skill level for skill 1
+     * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int ChargeGroup3;
     /**
      * Number of charges consumed per activation
      */
@@ -90,12 +34,19 @@ public class MissileLauncherRocket
     @DefaultIntValue(1)
     public int ChargeRate;
     /**
-     * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ResistanceKiller;
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
@@ -103,13 +54,6 @@ public class MissileLauncherRocket
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double HeatDamage;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ResistanceKillerHull;
     /**
      * meta group of type
      */
@@ -123,21 +67,7 @@ public class MissileLauncherRocket
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
-    /**
-     * One of the groups of charge this launcher can be loaded with.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeGroup1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public int OverloadRofBonus;
     /**
      * current power need
      */
@@ -146,12 +76,82 @@ public class MissileLauncherRocket
     @DefaultIntValue(0)
     public int Power;
     /**
-     * One of the groups of charge this launcher can be loaded with.
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup3;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
+     * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ResistanceKiller;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ResistanceKillerHull;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int Speed;
+    /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherRocket.yaml";
     private static LinkedHashMap<String, MissileLauncherRocket> cache = (null);
 

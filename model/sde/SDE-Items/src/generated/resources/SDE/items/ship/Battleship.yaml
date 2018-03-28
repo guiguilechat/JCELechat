@@ -35,7 +35,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 80000
+    MaxTargetRange: 96000
     MaxVelocity: 89.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.5
@@ -262,7 +262,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 999
-    MaxTargetRange: 73000
+    MaxTargetRange: 87600
     MaxVelocity: 113.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.5
@@ -562,7 +562,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 76000
+    MaxTargetRange: 91200
     MaxVelocity: 120.0
     MedSlots: 4
     MetaGroupID: 4
@@ -715,7 +715,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 65000
+    MaxTargetRange: 82500
     MaxVelocity: 100.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.5
@@ -865,7 +865,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 70000
+    MaxTargetRange: 84000
     MaxVelocity: 105.0
     MedSlots: 4
     MetaGroupID: 4
@@ -943,7 +943,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 76000
+    MaxTargetRange: 91200
     MaxVelocity: 148.0
     MedSlots: 6
     MetaGroupID: 4
@@ -973,8 +973,8 @@ items:
     ShipBonusCB: 10
     ShipBonusGB: 10.0
     ShipBonusMB: 5.0
-    ShipBonusPirateFaction2: -50.0
     ShipBonusRole7: 200.0
+    ShipBonusRole8: -50.0
     SignatureRadius: 370
     StructureUniformity: 1.0
     TechLevel: 1
@@ -1023,7 +1023,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 8
     MaxPassengers: 999
-    MaxTargetRange: 72000
+    MaxTargetRange: 86400
     MaxVelocity: 101.0
     MedSlots: 5
     MetaGroupID: 4
@@ -1399,7 +1399,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 70000
+    MaxTargetRange: 84000
     MaxVelocity: 109.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.5
@@ -1474,7 +1474,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 70000
+    MaxTargetRange: 84000
     MaxVelocity: 110.0
     MedSlots: 6
     MetaGroupID: 4
@@ -1629,7 +1629,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 60000
+    MaxTargetRange: 85400
     MaxVelocity: 115.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.5
@@ -1854,14 +1854,14 @@ items:
     HiSlots: 8
     Hp: 8260
     KineticDamageResonance: 0.6700000166893005
-    LowSlots: 7
+    LowSlots: 6
     MainColor: 16777215
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 161.0
-    MedSlots: 5
+    MedSlots: 6
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.5
@@ -1887,9 +1887,9 @@ items:
     ShieldUniformity: 0.75
     ShipBonusAB: 5.0
     ShipBonusCB: 5
-    ShipBonusGB: 10.0
+    ShipBonusGB: 7.5
     ShipBonusRole7: -25.0
-    SignatureRadius: 350
+    SignatureRadius: 380
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
@@ -1938,7 +1938,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 94.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.5
@@ -2163,7 +2163,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 72500
+    MaxTargetRange: 87000
     MaxVelocity: 122.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.5
@@ -2395,7 +2395,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 72500
+    MaxTargetRange: 87000
     MaxVelocity: 130.0
     MedSlots: 4
     MetaGroupID: 4
@@ -2628,7 +2628,7 @@ items:
     MaxOperationalDistance: 5000
     MaxOperationalUsers: 10
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 70.0
     MedSlots: 6
     MetaGroupID: 4
@@ -2658,8 +2658,8 @@ items:
     ShipBonusCB: 5
     ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
-    ShipBonusPirateFaction2: 100.0
     ShipBonusRole7: 50.0
+    ShipBonusRole8: 100.0
     ShipMaintenanceBayCapacity: 5000
     SignatureRadius: 420
     StructureUniformity: 1.0
@@ -2711,7 +2711,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 80000
+    MaxTargetRange: 96000
     MaxVelocity: 114.0
     MedSlots: 7
     MetaGroupID: 4
@@ -2757,6 +2757,85 @@ items:
     id: 17736
     name: Nightmare
     volume: 486000.0
+  Praxis:
+    Agility: 0.10000000149011612
+    ArmorEmDamageResonance: 0.675000011920929
+    ArmorExplosiveDamageResonance: 0.675000011920929
+    ArmorHP: 6500
+    ArmorKineticDamageResonance: 0.675000011920929
+    ArmorThermalDamageResonance: 0.675000011920929
+    ArmorUniformity: 0.75
+    BaseWarpSpeed: 1
+    CapacitorCapacity: 6450.0
+    CpuOutput: 600
+    DroneBandwidth: 100
+    DroneCapacity: 225
+    EmDamageResonance: 0.6700000166893005
+    ExplosiveDamageResonance: 0.6700000166893005
+    FwLpKill: 500
+    GfxBoosterID: 394
+    HeatAttenuationHi: 0.7900000214576721
+    HeatAttenuationLow: 0.7900000214576721
+    HeatAttenuationMed: 0.7599999904632568
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HeatDissipationRateHi: 0.009999999776482582
+    HeatDissipationRateLow: 0.009999999776482582
+    HeatDissipationRateMed: 0.009999999776482582
+    HeatGenerationMultiplier: 0.5
+    HiSlots: 7
+    Hp: 6500
+    KineticDamageResonance: 0.6700000166893005
+    LauncherSlotsLeft: 6
+    LowSlots: 7
+    MainColor: 16777215
+    MaxDirectionalVelocity: 1000
+    MaxLockedTargets: 7
+    MaxPassengers: 1000
+    MaxTargetRange: 70000
+    MaxVelocity: 75.0
+    MedSlots: 7
+    MetaLevel: 4
+    MinTargetVelDmgMultiplier: 0.5
+    PowerOutput: 15000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
+    RechargeRate: 1260000.0
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 1
+    RigSize: 3
+    RigSlots: 3
+    RookieDroneBonus: 50
+    ScanGravimetricStrength: 20.0
+    ScanResolution: 130
+    ScanSpeed: 7500
+    ShieldCapacity: 6500
+    ShieldEmDamageResonance: 0.7250000238418579
+    ShieldExplosiveDamageResonance: 0.7250000238418579
+    ShieldKineticDamageResonance: 0.7250000238418579
+    ShieldRechargeRate: 3332500.0
+    ShieldThermalDamageResonance: 0.7250000238418579
+    ShieldUniformity: 0.75
+    ShipBonusAB: 5.0
+    ShipBonusCB: 5
+    ShipBonusMB: 5.0
+    ShipBonusRole7: 25.0
+    ShipBonusRole8: 37.5
+    SignatureRadius: 465
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamageResonance: 0.6700000166893005
+    TurretSlotsLeft: 6
+    TypeColorScheme: 11313
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WarpCapacitorNeed: 1.3800000431274384E-7
+    WarpSpeedMultiplier: 2.0
+    id: 47466
+    name: Praxis
+    volume: 500000.0
   Rattlesnake:
     Agility: 0.12800000607967377
     ArmorEmDamageResonance: 0.5
@@ -2793,7 +2872,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 94.0
     MedSlots: 7
     MetaGroupID: 4
@@ -2955,7 +3034,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 113.0
     MedSlots: 7
     MinTargetVelDmgMultiplier: 0.5
@@ -3186,7 +3265,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 75000
+    MaxTargetRange: 90000
     MaxVelocity: 123.0
     MedSlots: 7
     MetaGroupID: 4
@@ -3420,7 +3499,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 90000
+    MaxTargetRange: 108000
     MaxVelocity: 89.0
     MedSlots: 6
     MinTargetVelDmgMultiplier: 0.5
@@ -3648,7 +3727,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 90000
+    MaxTargetRange: 108000
     MaxVelocity: 94.0
     MedSlots: 8
     MinTargetVelDmgMultiplier: 0.5
@@ -3801,7 +3880,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 90000
+    MaxTargetRange: 108000
     MaxVelocity: 103.0
     MedSlots: 8
     MetaGroupID: 4
@@ -3879,7 +3958,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 67500
+    MaxTargetRange: 81000
     MaxVelocity: 127.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.5
@@ -3954,7 +4033,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 74000
+    MaxTargetRange: 88800
     MaxVelocity: 130.0
     MedSlots: 5
     MetaGroupID: 4
@@ -4300,6 +4379,35 @@ items:
     id: 26842
     name: Tempest Tribal Issue
     volume: 486000.0
+  Trig Large:
+    ArmorEmDamageResonance: 1.0
+    ArmorExplosiveDamageResonance: 1.0
+    ArmorKineticDamageResonance: 1.0
+    ArmorThermalDamageResonance: 1.0
+    EmDamageResonance: 1.0
+    ExplosiveDamageResonance: 1.0
+    HeatAttenuationHi: 1.0
+    HeatAttenuationLow: 1.0
+    HeatAttenuationMed: 1.0
+    HeatGenerationMultiplier: 1.0
+    KineticDamageResonance: 1.0
+    MaxDirectionalVelocity: 1
+    MinTargetVelDmgMultiplier: 1.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 1.0
+    ShieldKineticDamageResonance: 1.0
+    ShieldThermalDamageResonance: 1.0
+    ShipBonusAB: 5.0
+    ShipBonusCB: 5
+    ShipBonusMB: 5.0
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamageResonance: 1.0
+    WarpSpeedMultiplier: 3.0
+    id: 47271
+    name: Trig Large
+    volume: 495000.0
   Typhoon:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4336,7 +4444,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 65000
+    MaxTargetRange: 82500
     MaxVelocity: 130.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.5
@@ -4411,7 +4519,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 65000
+    MaxTargetRange: 86400
     MaxVelocity: 138.0
     MedSlots: 5
     MetaGroupID: 4
@@ -4488,7 +4596,7 @@ items:
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 72500
+    MaxTargetRange: 87000
     MaxVelocity: 132.0
     MedSlots: 5
     MetaGroupID: 4
@@ -4767,7 +4875,7 @@ items:
     id: 34463
     name: 响尾蛇级YC117年特别版
     volume: 486000.0
-  地狱天使级YC117年特��版:
+  地狱天使级YC117年特别版:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4841,7 +4949,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34459
-    name: 地狱天使级YC117年特��版
+    name: 地狱天使级YC117年特别版
     volume: 495000.0
   多米尼克斯级YC117年特别版:
     Agility: 0.12540000677108765
@@ -4995,7 +5103,7 @@ items:
     id: 34457
     name: 末日沙场级YC117年特别版
     volume: 486000.0
-  灾难级YC117年特别版:
+  灾难级YC117年特别��:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -5068,7 +5176,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34471
-    name: 灾难级YC117年特别版
+    name: 灾难级YC117年特别��
     volume: 495000.0
   马克瑞级YC117年特别版:
     Agility: 0.09600000083446503

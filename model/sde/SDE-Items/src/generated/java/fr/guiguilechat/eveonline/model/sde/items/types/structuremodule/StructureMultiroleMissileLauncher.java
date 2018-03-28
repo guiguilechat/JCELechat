@@ -13,47 +13,12 @@ public class StructureMultiroleMissileLauncher
     extends StructureModule
 {
     /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
     /**
      * 
      */
@@ -62,33 +27,12 @@ public class StructureMultiroleMissileLauncher
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
-    /**
-     * Number of charges consumed per activation
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int ChargeRate;
-    /**
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
@@ -97,12 +41,33 @@ public class StructureMultiroleMissileLauncher
     @DefaultIntValue(0)
     public int ChargeGroup1;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
+     * Number of charges consumed per activation
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int ChargeRate;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int Hp;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * current power need
      */
@@ -110,6 +75,41 @@ public class StructureMultiroleMissileLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int Speed;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureMultiroleMissileLauncher.yaml";
     private static LinkedHashMap<String, StructureMultiroleMissileLauncher> cache = (null);
 

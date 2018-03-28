@@ -13,26 +13,12 @@ public class FestivalLauncher
     extends Module
 {
     /**
-     * CPU need of module
+     * One of the groups of charge this launcher can be loaded with.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
     @DefaultIntValue(0)
-    public int Speed;
-    /**
-     * reload time (ms)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public int ChargeGroup1;
     /**
      * Number of charges consumed per activation
      */
@@ -41,19 +27,12 @@ public class FestivalLauncher
     @DefaultIntValue(1)
     public int ChargeRate;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     * CPU need of module
      */
     @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * One of the groups of charge this launcher can be loaded with.
-     */
-    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeGroup1;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * current power need
      */
@@ -62,12 +41,33 @@ public class FestivalLauncher
     @DefaultIntValue(0)
     public int Power;
     /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
     public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int Speed;
+    /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/FestivalLauncher.yaml";
     private static LinkedHashMap<String, FestivalLauncher> cache = (null);
 

@@ -18,7 +18,14 @@ public class DefensiveSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureHPBonusAdd;
+    public int ArmorHPBonusAdd;
+    /**
+     * Capacitor capacity
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorCapacity;
     /**
      * 
      */
@@ -26,6 +33,27 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int CargoCapacityAdd;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CloakingCpuNeedBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CovertCloakCPUPenalty;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(30000)
+    public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
      * 
      */
@@ -41,33 +69,19 @@ public class DefensiveSystems
     @DefaultIntValue(0)
     public int ShieldCapacity;
     /**
-     * 
+     * Signature Radius is used for turret tracking and scanning.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHPBonusAdd;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CloakingCpuNeedBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(30000)
-    public int CovertOpsAndReconOpsCloakModuleDelay;
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CovertCloakCPUPenalty;
+    public int StructureHPBonusAdd;
     /**
      * 
      */
@@ -75,20 +89,6 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SubsystemBonusAmarrDefensive;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteDefensive;
-    /**
-     * Capacitor capacity
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
     /**
      * 
      */
@@ -102,21 +102,14 @@ public class DefensiveSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariDefensive;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    public double SubsystemBonusAmarrDefensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarDefensive;
+    public double SubsystemBonusCaldariDefensive;
     /**
      * 
      */
@@ -124,27 +117,6 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubsystemBonusCaldariDefensive2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusGallenteDefensive2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SubsystemBonusMinmatarDefensive2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusAmarrDefensive3;
     /**
      * 
      */
@@ -158,14 +130,35 @@ public class DefensiveSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteDefensive3;
+    public double SubsystemBonusGallenteDefensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusStrengthBonus;
+    public int SubsystemBonusGallenteDefensive2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusGallenteDefensive3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double SubsystemBonusMinmatarDefensive;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SubsystemBonusMinmatarDefensive2;
     /**
      * 
      */
@@ -173,6 +166,13 @@ public class DefensiveSystems
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SubsystemBonusMinmatarDefensive3;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
     private static LinkedHashMap<String, DefensiveSystems> cache = (null);
 

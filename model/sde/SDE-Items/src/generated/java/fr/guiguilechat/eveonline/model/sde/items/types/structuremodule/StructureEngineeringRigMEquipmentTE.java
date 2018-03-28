@@ -13,19 +13,12 @@ public class StructureEngineeringRigMEquipmentTE
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
-     * Bonus on Time decrease for engineering rigs
+     * Bonus on Cost decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigTimeBonus;
+    public int AttributeEngRigCostBonus;
     /**
      * Bonus on Material decrease for engineering rigs
      */
@@ -34,54 +27,12 @@ public class StructureEngineeringRigMEquipmentTE
     @DefaultDoubleValue(0.0)
     public double AttributeEngRigMatBonus;
     /**
-     * Bonus on Cost decrease for engineering rigs
+     * Bonus on Time decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigCostBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * High-sec bonus on structure rigs.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureRigBonus1;
-    /**
-     * High-sec bonus on structure rigs.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double StructureRigBonus2;
+    public int AttributeEngRigTimeBonus;
     /**
      * 
      */
@@ -101,8 +52,22 @@ public class StructureEngineeringRigMEquipmentTE
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanFitShipGroup03;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double HiSecModifier;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * 
      */
@@ -116,14 +81,7 @@ public class StructureEngineeringRigMEquipmentTE
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MaxGroupFitted;
     /**
      * 
      */
@@ -139,6 +97,20 @@ public class StructureEngineeringRigMEquipmentTE
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -152,6 +124,34 @@ public class StructureEngineeringRigMEquipmentTE
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * High-sec bonus on structure rigs.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureRigBonus1;
+    /**
+     * High-sec bonus on structure rigs.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double StructureRigBonus2;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMEquipmentTE.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigMEquipmentTE> cache = (null);
 

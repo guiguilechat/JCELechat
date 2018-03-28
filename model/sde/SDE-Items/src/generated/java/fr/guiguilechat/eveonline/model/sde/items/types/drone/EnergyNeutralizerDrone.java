@@ -13,19 +13,12 @@ public class EnergyNeutralizerDrone
     extends Drone
 {
     /**
-     * Amount of maximum shield HP on the item.
+     * The agility of the object.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double Agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
@@ -41,19 +34,12 @@ public class EnergyNeutralizerDrone
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * DO NOT MESS WITH
+     * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiFighterMissileResistance;
+    public int ArmorHP;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
@@ -68,6 +54,160 @@ public class EnergyNeutralizerDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
+    /**
+     * An amount to modify the power of the target by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerAmount;
+    /**
+     * Duration of NPC Energy Neutralizer effect
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(30000)
+    public int EnergyNeutralizerDuration;
+    /**
+     * Chance of NPC effect to be activated each duration
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerEntityChance;
+    /**
+     * Optimal Range of Energy Neutralizer
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerRangeOptimal;
+    /**
+     * The distance from a target an entity starts using its weapons.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(15000)
+    public int EntityAttackRange;
+    /**
+     * The maximum amount of time stalled before entity chase speed kicks in.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDelay;
+    /**
+     * Chance that the max delay is waited before chase is engaged.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDelayChance;
+    /**
+     * The distance outside of which the entity activates their MWD equivalent.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2500)
+    public int EntityChaseMaxDistance;
+    /**
+     * The maximum amount of time chase is ever engaged for.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int EntityChaseMaxDuration;
+    /**
+     * The chance of engaging chase for the maximum duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int EntityChaseMaxDurationChance;
+    /**
+     * The speed that entities fly at when not chasing a target.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EntityCruiseSpeed;
+    /**
+     * The distance at which the entity orbits, follows.. and more.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(500.0)
+    public double EntityFlyRange;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiFighterMissileResistance;
+    /**
+     * The maximum number of their targets that the character can attack at a given time.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxAttackTargets;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
+     * scanning speed in milliseconds
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanSpeed;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -90,132 +230,6 @@ public class EnergyNeutralizerDrone
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
-     * Multiplies THERMAL damage taken by Shield. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
-     * The distance outside of which the entity activates their MWD equivalent.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(2500)
-    public int EntityChaseMaxDistance;
-    /**
-     * The distance at which the entity orbits, follows.. and more.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(500.0)
-    public double EntityFlyRange;
-    /**
-     * Chance of NPC effect to be activated each duration
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerEntityChance;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
-     * Duration of NPC Energy Neutralizer effect
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(30000)
-    public int EnergyNeutralizerDuration;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * The maximum number of their targets that the character can attack at a given time.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxAttackTargets;
-    /**
-     * The maximum amount of time stalled before entity chase speed kicks in.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5000)
-    public int EntityChaseMaxDelay;
-    /**
-     * Chance that the max delay is waited before chase is engaged.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDelayChance;
-    /**
-     * The maximum amount of time chase is ever engaged for.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5000)
-    public int EntityChaseMaxDuration;
-    /**
-     * The agility of the object.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double Agility;
-    /**
-     * The chance of engaging chase for the maximum duration.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntityChaseMaxDurationChance;
-    /**
-     * scanning speed in milliseconds
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanSpeed;
-    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
@@ -223,19 +237,12 @@ public class EnergyNeutralizerDrone
     @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
-     * An amount to modify the power of the target by.
+     * Multiplies THERMAL damage taken by Shield. 
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
-    /**
-     * Optimal Range of Energy Neutralizer
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerRangeOptimal;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldThermalDamageResonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
@@ -244,26 +251,19 @@ public class EnergyNeutralizerDrone
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     /**
-     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     * Signature Radius is used for turret tracking and scanning.
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1000)
-    public int OptimalSigRadius;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
-     * The distance from a target an entity starts using its weapons.
+     * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(15000)
-    public int EntityAttackRange;
-    /**
-     * The speed that entities fly at when not chasing a target.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EntityCruiseSpeed;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
     private static LinkedHashMap<String, EnergyNeutralizerDrone> cache = (null);
 

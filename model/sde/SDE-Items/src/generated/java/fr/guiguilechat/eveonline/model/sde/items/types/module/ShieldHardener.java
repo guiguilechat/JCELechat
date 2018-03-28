@@ -20,20 +20,6 @@ public class ShieldHardener
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int PassiveExplosiveDamageResonanceMultiplier;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -41,26 +27,12 @@ public class ShieldHardener
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadHardeningBonus;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
@@ -78,17 +50,10 @@ public class ShieldHardener
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(false)
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamageResistanceBonus;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamageResistanceBonus;
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
@@ -99,17 +64,10 @@ public class ShieldHardener
     /**
      * 
      */
-    @HighIsGood(true)
-    @Stackable(true)
+    @HighIsGood(false)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public double KineticDamageResistanceBonus;
     /**
      * meta group of type
      */
@@ -118,12 +76,54 @@ public class ShieldHardener
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadHardeningBonus;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int PassiveExplosiveDamageResonanceMultiplier;
+    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldHardener.yaml";
     private static LinkedHashMap<String, ShieldHardener> cache = (null);
 

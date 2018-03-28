@@ -12,12 +12,12 @@ public class CyberBiology
     extends Implant
 {
     /**
-     * Bonus to duration.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationBonus;
+    public int BoosterAttributeModifier;
     /**
      * 
      */
@@ -26,19 +26,12 @@ public class CyberBiology
     @DefaultIntValue(0)
     public int BoosterChanceBonus;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
+     * Bonus to duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterAttributeModifier;
+    public int DurationBonus;
     /**
      * Whether an item is an implant or not
      */
@@ -46,6 +39,13 @@ public class CyberBiology
     @Stackable(true)
     @DefaultIntValue(0)
     public int Implantness;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberBiology.yaml";
     private static LinkedHashMap<String, CyberBiology> cache = (null);
 

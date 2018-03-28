@@ -13,47 +13,12 @@ public class Voucher
     extends Accessories
 {
     /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
      * The agility of the object.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double Agility;
-    /**
-     * One of the groups of launcher this charge can be loaded into.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * the range in meters for an object to trigger detonation of missile. (own ship excluded)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DetonationRange;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
-     * Velocity of the damage cloud created on impact.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double AoeVelocity;
     /**
      * Size of the damage cloud caused by impact.
      */
@@ -69,6 +34,13 @@ public class Voucher
     @DefaultIntValue(0)
     public int AoeFalloff;
     /**
+     * Velocity of the damage cloud created on impact.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double AoeVelocity;
+    /**
      * Multiplier to the capacitors recharge rate.
      */
     @HighIsGood(false)
@@ -76,12 +48,26 @@ public class Voucher
     @DefaultDoubleValue(1.0)
     public double CapacitorRechargeRateMultiplier;
     /**
+     * the range in meters for an object to trigger detonation of missile. (own ship excluded)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DetonationRange;
+    /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double EmDamage;
+    /**
+     * The amount of milliseconds before the object explodes.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
      * Explosive damage done.
      */
@@ -97,19 +83,19 @@ public class Voucher
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
-     * Required skill level for skill 1
+     * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int LauncherGroup;
     /**
-     * Thermal damage done.
+     * Maximum velocity of ship
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double MaxVelocity;
     /**
      * The type ID of the skill that is required.
      */
@@ -118,12 +104,12 @@ public class Voucher
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * Required skill level for skill 2
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -132,12 +118,26 @@ public class Voucher
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * The amount of milliseconds before the object explodes.
+     * Required skill level for skill 2
      */
     @HighIsGood(true)
-    @Stackable(false)
+    @Stackable(true)
     @DefaultIntValue(0)
-    public int ExplosionDelay;
+    public int RequiredSkill2Level;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/accessories/Voucher.yaml";
     private static LinkedHashMap<String, Voucher> cache = (null);
 

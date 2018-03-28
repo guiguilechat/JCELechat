@@ -138,6 +138,15 @@ items:
     id: 33621
     name: Titanomachy
     volume: 1.0
+  bacon_PLACEHOLDER:
+    SignatureRadius: 100
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    Untargetable: 1
+    id: 47374
+    name: bacon_PLACEHOLDER
+    volume: 1.0
   泰坦会战遗址:
     SignatureRadius: 100
     SpeedMultiplier: 1.0

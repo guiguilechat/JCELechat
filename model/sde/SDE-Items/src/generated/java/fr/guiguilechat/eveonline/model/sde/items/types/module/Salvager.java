@@ -27,12 +27,12 @@ public class Salvager
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     * CPU need of module
      */
     @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * Length of activation time.
      */
@@ -40,13 +40,6 @@ public class Salvager
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Duration;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
     /**
      * 
      */
@@ -62,12 +55,12 @@ public class Salvager
     @DefaultIntValue(0)
     public int MaxRange;
     /**
-     * Required skill level for skill 2
+     * current power need
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int Power;
     /**
      * The type ID of the skill that is required.
      */
@@ -76,12 +69,19 @@ public class Salvager
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * current power need
+     * Required skill level for skill 2
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int RequiredSkill2Level;
+    /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/Salvager.yaml";
     private static LinkedHashMap<String, Salvager> cache = (null);
 

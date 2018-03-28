@@ -24,13 +24,6 @@ public abstract class Deployable
     extends Item
 {
     /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
@@ -52,6 +45,13 @@ public abstract class Deployable
     @DefaultDoubleValue(0.0)
     public double ScanLadarStrength;
     /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
+    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
@@ -59,19 +59,19 @@ public abstract class Deployable
     @DefaultDoubleValue(0.0)
     public double ShieldRechargeRate;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
 
     @Override
     public int getCategoryId() {

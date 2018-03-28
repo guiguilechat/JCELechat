@@ -13,40 +13,12 @@ public class CynosuralSystemJammer
     extends Starbase
 {
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
      * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double AnchoringSecurityLevelMax;
-    /**
-     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Uniformity;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
     /**
      * The number of hit points on the entities armor.
      */
@@ -69,12 +41,103 @@ public class CynosuralSystemJammer
     @DefaultIntValue(0)
     public int ControlTowerMinimumDistance;
     /**
-     * Radar strength.
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double EmDamageResonance;
+    /**
+     * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntityReactionFactor;
+    /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ExplosiveDamageResonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * The hull damage proportion at which an entity becomes incapacitated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double IncapacitationRatio;
+    /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double KineticDamageResonance;
+    /**
+     * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PosAnchoredPerSolarSystemAmount;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiresSovUpgrade1;
+    /**
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -90,40 +153,26 @@ public class CynosuralSystemJammer
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityReactionFactor;
-    /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double ScanRadarStrength;
     /**
-     * Required skill level for skill 1
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
+    /**
+     * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The hull damage proportion at which an entity becomes incapacitated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double IncapacitationRatio;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    public int ShieldCapacity;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -146,20 +195,6 @@ public class CynosuralSystemJammer
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
-     * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PosAnchoredPerSolarSystemAmount;
-    /**
-     * damage multiplier vs. kinetic damagers.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double KineticDamageResonance;
-    /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
@@ -167,47 +202,12 @@ public class CynosuralSystemJammer
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     /**
-     * damage multiplier vs. explosive damagers.
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ExplosiveDamageResonance;
-    /**
-     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double EmDamageResonance;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * The resolution that the vessel can target other objects at.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiresSovUpgrade1;
+    public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralSystemJammer.yaml";
     private static LinkedHashMap<String, CynosuralSystemJammer> cache = (null);
 

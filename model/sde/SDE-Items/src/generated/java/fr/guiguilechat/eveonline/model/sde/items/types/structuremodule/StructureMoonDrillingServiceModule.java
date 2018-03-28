@@ -13,6 +13,13 @@ public class StructureMoonDrillingServiceModule
     extends StructureModule
 {
     /**
+     * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double AnchoringSecurityLevelMax;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -27,33 +34,12 @@ public class StructureMoonDrillingServiceModule
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double AnchoringSecurityLevelMax;
-    /**
-     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ServiceModuleFullPowerStateHitpointMultiplier;
-    /**
-     * Fuel consumed by the structure service module
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelConsumptionGroup;
-    /**
-     * Fuel consumed at the beginning of each hour to keep a service module online.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ServiceModuleFuelAmount;
+    public int MaxTypeFitted;
     /**
      * current power need
      */
@@ -62,12 +48,19 @@ public class StructureMoonDrillingServiceModule
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
+     * Fuel consumed at the beginning of each hour to keep a service module online.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceModuleFuelAmount;
+    /**
+     * Fuel consumed by the structure service module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int ServiceModuleFuelConsumptionGroup;
     /**
      * Fuel consumed to online the service module.
      */
@@ -76,12 +69,19 @@ public class StructureMoonDrillingServiceModule
     @DefaultIntValue(0)
     public int ServiceModuleFuelOnlineAmount;
     /**
-     * 
+     * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ServiceModuleFullPowerStateHitpointMultiplier;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxTypeFitted;
+    public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureMoonDrillingServiceModule.yaml";
     private static LinkedHashMap<String, StructureMoonDrillingServiceModule> cache = (null);
 

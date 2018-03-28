@@ -13,13 +13,6 @@ public class WarpGate
     extends Celestial
 {
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
@@ -27,12 +20,12 @@ public class WarpGate
     @DefaultIntValue(0)
     public int ArmorHP;
     /**
-     * The distance at which to react when relevant objects come within range.
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ProximityRange;
+    public int Hp;
     /**
      * Determines the maximum weight of a ship that, ships that are to heavy get denied of service by this attribute
      */
@@ -40,6 +33,13 @@ public class WarpGate
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double MassLimit;
+    /**
+     * The distance at which to react when relevant objects come within range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ProximityRange;
     public final static String RESOURCE_PATH = "SDE/items/celestial/WarpGate.yaml";
     private static LinkedHashMap<String, WarpGate> cache = (null);
 

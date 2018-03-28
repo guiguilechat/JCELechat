@@ -20,26 +20,12 @@ public class ScanningUpgradeTime
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanDurationBonus;
-    /**
-     * Required skill level for skill 1
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int MaxGroupActive;
     /**
      * 
      */
@@ -48,19 +34,33 @@ public class ScanningUpgradeTime
     @DefaultIntValue(0)
     public int MaxGroupFitted;
     /**
-     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupActive;
-    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanDurationBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ScanningUpgradeTime.yaml";
     private static LinkedHashMap<String, ScanningUpgradeTime> cache = (null);
 

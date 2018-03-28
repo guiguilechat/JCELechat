@@ -13,19 +13,19 @@ public class ScanProbeBlueprint
     extends Blueprint
 {
     /**
-     * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double IndustryBlueprintRank;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeBlueprint.yaml";
     private static LinkedHashMap<String, ScanProbeBlueprint> cache = (null);
 

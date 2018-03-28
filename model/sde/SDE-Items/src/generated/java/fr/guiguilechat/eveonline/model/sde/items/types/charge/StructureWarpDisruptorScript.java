@@ -12,26 +12,19 @@ public class StructureWarpDisruptorScript
     extends Charge
 {
     /**
-     * The size of the charges that can fit in the turret/whatever.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeSize;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ActivationBlockedStrenght;
+    /**
+     * The size of the charges that can fit in the turret/whatever.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeSize;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
@@ -46,6 +39,13 @@ public class StructureWarpDisruptorScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Warp Scramble Range Bonus
      */

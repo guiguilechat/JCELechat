@@ -13,12 +13,12 @@ public class RigTargeting
     extends Module
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
+     * Skill bonus for cloaking targeting delay.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeCost;
+    public int CloakingTargetingDelayBonus;
     /**
      * used on rigs
      */
@@ -41,13 +41,6 @@ public class RigTargeting
     @DefaultIntValue(0)
     public int RangeSkillBonus;
     /**
-     * Bonus for scan resolution
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -55,12 +48,12 @@ public class RigTargeting
     @DefaultIntValue(0)
     public int RigSize;
     /**
-     * Skill bonus for cloaking targeting delay.
+     * Bonus for scan resolution
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CloakingTargetingDelayBonus;
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanResolutionBonus;
     /**
      * Skill attribute for increasing strength of EW modules.
      */
@@ -68,6 +61,13 @@ public class RigTargeting
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanSkillEwStrengthBonus;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigTargeting.yaml";
     private static LinkedHashMap<String, RigTargeting> cache = (null);
 

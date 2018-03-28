@@ -227,6 +227,10 @@ items:
     id: 44181
     name: Algos Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Algos Glittering Dream SKIN (Permanent):
+    id: 47526
+    name: Algos Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Algos Intaki Syndicate SKIN (Permanent):
     id: 34706
     name: Algos Intaki Syndicate SKIN (Permanent)
@@ -391,6 +395,10 @@ items:
     id: 34792
     name: Apocalypse Blood Raiders SKIN (Permanent)
     volume: 0.01
+  Apocalypse Capsuleer Day XV SKIN (Permanent):
+    id: 47625
+    name: Apocalypse Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Apocalypse Cold Iron SKIN (Permanent):
     id: 42785
     name: Apocalypse Cold Iron SKIN (Permanent)
@@ -507,6 +515,10 @@ items:
     id: 37108
     name: Apocalypse Tash-Murkon Serenity Only SKIN (Permanent)
     volume: 0.01
+  Apostle Capsuleer Elite XV SKIN (Permanent):
+    id: 47640
+    name: Apostle Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Apostle Cold Iron SKIN (Permanent):
     id: 42908
     name: Apostle Cold Iron SKIN (Permanent)
@@ -539,6 +551,14 @@ items:
     id: 42085
     name: Apostle Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Apotheosis Capsuleer Elite XV SKIN (Permanent):
+    id: 47647
+    name: Apotheosis Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
+  Apotheosis Capsuleer Networker XV SKIN (Permanent):
+    id: 47652
+    name: Apotheosis Capsuleer Networker XV SKIN (Permanent)
+    volume: 0.01
   Apotheosis Glacial Drift SKIN (Permanent):
     id: 47011
     name: Apotheosis Glacial Drift SKIN (Permanent)
@@ -550,6 +570,18 @@ items:
   Apotheosis Midnight SKIN (Permanent):
     id: 44258
     name: Apotheosis Midnight SKIN (Permanent)
+    volume: 0.01
+  Apotheosis Silver Racer SKIN (Permanent):
+    id: 47550
+    name: Apotheosis Silver Racer SKIN (Permanent)
+    volume: 0.01
+  Apotheosis Versus Blueforce  SKIN (Permanent):
+    id: 47547
+    name: Apotheosis Versus Blueforce  SKIN (Permanent)
+    volume: 0.01
+  Apotheosis Versus Redforce SKIN (Permanent):
+    id: 47544
+    name: Apotheosis Versus Redforce SKIN (Permanent)
     volume: 0.01
   Arazu Exoplanets Hunter SKIN (Permanent):
     id: 45900
@@ -682,6 +714,10 @@ items:
   Archon Glacial Drift SKIN (Permanent):
     id: 46810
     name: Archon Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Archon Hunter's Quiver SKIN (Permanent):
+    id: 47496
+    name: Archon Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Archon Imperial Jubilee SKIN (Permanent):
     id: 46539
@@ -846,6 +882,10 @@ items:
   Armageddon Glacial Drift SKIN (Permanent):
     id: 46804
     name: Armageddon Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Armageddon Hunter's Quiver SKIN (Permanent):
+    id: 47493
+    name: Armageddon Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Armageddon Imperial Jubilee SKIN (Permanent):
     id: 46534
@@ -1031,6 +1071,10 @@ items:
     id: 44174
     name: Atron Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Atron Hunter's Quiver SKIN (Permanent):
+    id: 47503
+    name: Atron Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Atron Intaki Syndicate SKIN (Permanent):
     id: 34736
     name: Atron Intaki Syndicate SKIN (Permanent)
@@ -1178,6 +1222,10 @@ items:
   Avatar Blood Raider Victory SKIN (Permanent):
     id: 43539
     name: Avatar Blood Raider Victory SKIN (Permanent)
+    volume: 0.01
+  Avatar Capsuleer Elite XV SKIN (Permanent):
+    id: 47639
+    name: Avatar Capsuleer Elite XV SKIN (Permanent)
     volume: 0.01
   Avatar Cold Iron SKIN (Permanent):
     id: 42794
@@ -1707,6 +1755,10 @@ items:
     id: 44164
     name: Breacher Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Breacher Hunter's Quiver SKIN (Permanent):
+    id: 47507
+    name: Breacher Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Breacher Justice SKIN (Permanent):
     id: 36412
     name: Breacher Justice SKIN (Permanent)
@@ -2027,6 +2079,10 @@ items:
     id: 42216
     name: Capsule - Genolution 'Auroral' 197-variant Upwell Serenity Only SKIN (Permanent)
     volume: 0.01
+  Capsule Capsuleer Elite XV SKIN (Permanent):
+    id: 47651
+    name: Capsule Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Capsule Palatine SKIN (Permanent):
     id: 41580
     name: Capsule Palatine SKIN (Permanent)
@@ -2067,6 +2123,10 @@ items:
     id: 46713
     name: Caracal Headhunter SKIN (Permanent)
     volume: 0.01
+  Caracal Hunter's Quiver SKIN (Permanent):
+    id: 47499
+    name: Caracal Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Caracal IGC SKIN (Permanent):
     id: 45014
     name: Caracal IGC SKIN (Permanent)
@@ -2087,6 +2147,10 @@ items:
     id: 46848
     name: Caracal Navy Issue Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Caracal Navy Issue Octopus Orange Flight SKIN (Permanent):
+    id: 47613
+    name: Caracal Navy Issue Octopus Orange Flight SKIN (Permanent)
+    volume: 0.01
   Caracal Navy Issue Steel Cardinal SKIN (Permanent):
     id: 46121
     name: Caracal Navy Issue Steel Cardinal SKIN (Permanent)
@@ -2106,6 +2170,10 @@ items:
   Caracal Nugoeihuvi Serenity Only SKIN (Permanent):
     id: 37098
     name: Caracal Nugoeihuvi Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Caracal Octopus Orange Flight SKIN (Permanent):
+    id: 47612
+    name: Caracal Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Caracal Octopus Red Flight SKIN (Permanent):
     id: 46729
@@ -2275,6 +2343,10 @@ items:
     id: 39449
     name: Cerberus Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Cerberus Capsuleer Day XV SKIN (Permanent):
+    id: 47628
+    name: Cerberus Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Cerberus Exoplanets Hunter SKIN (Permanent):
     id: 45837
     name: Cerberus Exoplanets Hunter SKIN (Permanent)
@@ -2290,6 +2362,10 @@ items:
   Cerberus Matigu Seabeast Serenity Only SKIN (Permanent):
     id: 41880
     name: Cerberus Matigu Seabeast Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Cerberus Octopus Orange Flight SKIN (Permanent):
+    id: 47614
+    name: Cerberus Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Cerberus Octopus Red Flight SKIN (Permanent):
     id: 46730
@@ -2419,6 +2495,10 @@ items:
     id: 46864
     name: Chimera Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Chimera Hunter's Quiver SKIN (Permanent):
+    id: 47497
+    name: Chimera Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Chimera Kairiola's Sacrifice SKIN (Permanent):
     id: 46277
     name: Chimera Kairiola's Sacrifice SKIN (Permanent)
@@ -2470,6 +2550,10 @@ items:
   Claw Blue Tiger Serenity Only SKIN (Permanent):
     id: 39641
     name: Claw Blue Tiger Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Claw Capsuleer Day XV SKIN (Permanent):
+    id: 47635
+    name: Claw Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Claw Exoplanets Hunter SKIN (Permanent):
     id: 45944
@@ -2762,6 +2846,10 @@ items:
   Cormorant Matigu Seabeast Serenity Only SKIN (Permanent):
     id: 41845
     name: Cormorant Matigu Seabeast Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Cormorant Octopus Orange Flight SKIN (Permanent):
+    id: 47610
+    name: Cormorant Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Cormorant Octopus Red Flight SKIN (Permanent):
     id: 46727
@@ -3443,6 +3531,10 @@ items:
     id: 46957
     name: Dominix Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Dominix Glittering Dream SKIN (Permanent):
+    id: 47534
+    name: Dominix Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Dominix Golden SKIN (Permanent):
     id: 36518
     name: Dominix Golden SKIN (Permanent)
@@ -3450,6 +3542,10 @@ items:
   Dominix Headhunter SKIN (Permanent):
     id: 46720
     name: Dominix Headhunter SKIN (Permanent)
+    volume: 0.01
+  Dominix IGC Victory SKIN (Permanent):
+    id: 47698
+    name: Dominix IGC Victory SKIN (Permanent)
     volume: 0.01
   Dominix Inner Zone Shipping SKIN (Permanent):
     id: 34633
@@ -3478,6 +3574,10 @@ items:
   Dominix Navy Issue Glacial Drift SKIN (Permanent):
     id: 46962
     name: Dominix Navy Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Dominix Navy Issue Glittering Dream SKIN (Permanent):
+    id: 47535
+    name: Dominix Navy Issue Glittering Dream SKIN (Permanent)
     volume: 0.01
   Dominix Navy Issue Intaki Syndicate SKIN (Permanent):
     id: 36407
@@ -3619,6 +3719,10 @@ items:
     id: 39479
     name: Drake Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Drake Capsuleer Day XV SKIN (Permanent):
+    id: 47629
+    name: Drake Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Drake Exoplanets Hunter SKIN (Permanent):
     id: 45846
     name: Drake Exoplanets Hunter SKIN (Permanent)
@@ -3651,6 +3755,10 @@ items:
     id: 46855
     name: Drake Navy Issue Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Drake Navy Issue Octopus Orange Flight SKIN (Permanent):
+    id: 47616
+    name: Drake Navy Issue Octopus Orange Flight SKIN (Permanent)
+    volume: 0.01
   Drake Navy Issue Steel Cardinal SKIN (Permanent):
     id: 46128
     name: Drake Navy Issue Steel Cardinal SKIN (Permanent)
@@ -3662,6 +3770,10 @@ items:
   Drake Navy Issue Wiyrkomi Serenity Only SKIN (Permanent):
     id: 38134
     name: Drake Navy Issue Wiyrkomi Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Drake Octopus Orange Flight SKIN (Permanent):
+    id: 47615
+    name: Drake Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Drake Octopus Red Flight SKIN (Permanent):
     id: 46731
@@ -3710,6 +3822,10 @@ items:
   Dramiel Red Kite SKIN (Permanent):
     id: 44230
     name: Dramiel Red Kite SKIN (Permanent)
+    volume: 0.01
+  Dramiel Sariel's Flames SKIN (Permanent):
+    id: 47541
+    name: Dramiel Sariel's Flames SKIN (Permanent)
     volume: 0.01
   Dramiel Spirit SKIN (Permanent):
     id: 44951
@@ -3847,6 +3963,10 @@ items:
     id: 47000
     name: Enforcer Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Enforcer SARO 'Black Troop' SKIN (Permanent):
+    id: 47681
+    name: Enforcer SARO 'Black Troop' SKIN (Permanent)
+    volume: 0.01
   Enyo Exoplanets Hunter SKIN (Permanent):
     id: 45877
     name: Enyo Exoplanets Hunter SKIN (Permanent)
@@ -3854,6 +3974,10 @@ items:
   Enyo Glacial Drift SKIN (Permanent):
     id: 46929
     name: Enyo Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Enyo Glittering Dream SKIN (Permanent):
+    id: 47524
+    name: Enyo Glittering Dream SKIN (Permanent)
     volume: 0.01
   Enyo Intaki Syndicate SKIN (Permanent):
     id: 36389
@@ -3971,6 +4095,10 @@ items:
     id: 40256
     name: Epithal Valimor Legacy Serenity Only SKIN (Permanent)
     volume: 0.01
+  Erebus Capsuleer Elite XV SKIN (Permanent):
+    id: 47643
+    name: Erebus Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Erebus Duvolle SKIN (Permanent):
     id: 34674
     name: Erebus Duvolle SKIN (Permanent)
@@ -3986,6 +4114,10 @@ items:
   Erebus Glacial Drift SKIN (Permanent):
     id: 46967
     name: Erebus Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Erebus Glittering Dream SKIN (Permanent):
+    id: 47540
+    name: Erebus Glittering Dream SKIN (Permanent)
     volume: 0.01
   Erebus Intaki Syndicate SKIN (Permanent):
     id: 36375
@@ -4091,6 +4223,10 @@ items:
     id: 38637
     name: Executioner Blood Raiders Serenity Only SKIN (Permanent)
     volume: 0.01
+  Executioner Capsuleer Day XV SKIN (Permanent):
+    id: 47626
+    name: Executioner Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Executioner Cold Iron SKIN (Permanent):
     id: 42747
     name: Executioner Cold Iron SKIN (Permanent)
@@ -4154,6 +4290,10 @@ items:
   Exequror Glacial Drift SKIN (Permanent):
     id: 44182
     name: Exequror Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Exequror Hunter's Quiver SKIN (Permanent):
+    id: 47502
+    name: Exequror Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Exequror Intaki Syndicate SKIN (Permanent):
     id: 34691
@@ -4487,6 +4627,10 @@ items:
     id: 40441
     name: Garmur Waschi Uprising 'Parade' Serenity Only SKIN (Permanent)
     volume: 0.01
+  Gila Ace of Podhunters SKIN (Permanent):
+    id: 47510
+    name: Gila Ace of Podhunters SKIN (Permanent)
+    volume: 0.01
   Gila Glacial Drift SKIN (Permanent):
     id: 46874
     name: Gila Glacial Drift SKIN (Permanent)
@@ -4498,6 +4642,14 @@ items:
   Gila Serenity YC117 SKIN (Permanent):
     id: 34788
     name: Gila Serenity YC117 SKIN (Permanent)
+    volume: 0.01
+  Gnosis Capsuleer Elite XV SKIN (Permanent):
+    id: 47649
+    name: Gnosis Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
+  Gnosis Capsuleer Networker XV SKIN (Permanent):
+    id: 47654
+    name: Gnosis Capsuleer Networker XV SKIN (Permanent)
     volume: 0.01
   Gnosis Glacial Drift SKIN (Permanent):
     id: 47010
@@ -4514,6 +4666,18 @@ items:
   Gnosis Midnight SKIN (Permanent):
     id: 44257
     name: Gnosis Midnight SKIN (Permanent)
+    volume: 0.01
+  Gnosis Silver Racer SKIN (Permanent):
+    id: 47552
+    name: Gnosis Silver Racer SKIN (Permanent)
+    volume: 0.01
+  Gnosis Versus Blueforce  SKIN (Permanent):
+    id: 47549
+    name: Gnosis Versus Blueforce  SKIN (Permanent)
+    volume: 0.01
+  Gnosis Versus Redforce SKIN (Permanent):
+    id: 47546
+    name: Gnosis Versus Redforce SKIN (Permanent)
     volume: 0.01
   Gold Magnate Serenity YC119 SKIN (Permanent):
     id: 47075
@@ -4558,6 +4722,10 @@ items:
   Golem Nugoeihuvi SKIN (Permanent):
     id: 34815
     name: Golem Nugoeihuvi SKIN (Permanent)
+    volume: 0.01
+  Golem Octopus Orange Flight SKIN (Permanent):
+    id: 47619
+    name: Golem Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Golem Octopus Red Flight SKIN (Permanent):
     id: 46733
@@ -4915,6 +5083,10 @@ items:
     id: 46941
     name: Hecate Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Hecate Glittering Dream SKIN (Permanent):
+    id: 47528
+    name: Hecate Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Hecate Kopis Edge SKIN (Permanent):
     id: 46403
     name: Hecate Kopis Edge SKIN (Permanent)
@@ -4970,6 +5142,10 @@ items:
   Hel Headhunter SKIN (Permanent):
     id: 46726
     name: Hel Headhunter SKIN (Permanent)
+    volume: 0.01
+  Hel Hunter's Quiver SKIN (Permanent):
+    id: 47508
+    name: Hel Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Hel Justice SKIN (Permanent):
     id: 36449
@@ -5491,6 +5667,10 @@ items:
     id: 37113
     name: Hyperion Aliastra Serenity Only SKIN (Permanent)
     volume: 0.01
+  Hyperion Capsuleer Day XV SKIN (Permanent):
+    id: 47634
+    name: Hyperion Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Hyperion Exoplanets Hunter SKIN (Permanent):
     id: 45912
     name: Hyperion Exoplanets Hunter SKIN (Permanent)
@@ -5498,6 +5678,10 @@ items:
   Hyperion Glacial Drift SKIN (Permanent):
     id: 46958
     name: Hyperion Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Hyperion Hunter's Quiver SKIN (Permanent):
+    id: 47501
+    name: Hyperion Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Hyperion Inner Zone Shipping SKIN (Permanent):
     id: 34637
@@ -5526,10 +5710,6 @@ items:
   Hyperion Quafe Serenity Only SKIN (Permanent):
     id: 43395
     name: Hyperion Quafe Serenity Only SKIN (Permanent)
-    volume: 0.01
-  Hyperion Serenity YC119 SKIN (Permanent):
-    id: 47080
-    name: Hyperion Serenity YC119 SKIN (Permanent)
     volume: 0.01
   Hyperion Serpentis SKIN (Permanent):
     id: 42183
@@ -5723,6 +5903,10 @@ items:
     id: 36989
     name: Incursus Aliastra Serenity Only SKIN (Permanent)
     volume: 0.01
+  Incursus Capsuleer Day XV SKIN (Permanent):
+    id: 47631
+    name: Incursus Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Incursus Exoplanets Hunter SKIN (Permanent):
     id: 45873
     name: Incursus Exoplanets Hunter SKIN (Permanent)
@@ -5730,6 +5914,10 @@ items:
   Incursus Glacial Drift SKIN (Permanent):
     id: 44176
     name: Incursus Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Incursus Glittering Dream SKIN (Permanent):
+    id: 47522
+    name: Incursus Glittering Dream SKIN (Permanent)
     volume: 0.01
   Incursus Inner Zone Shipping SKIN (Permanent):
     id: 34741
@@ -5807,6 +5995,10 @@ items:
     id: 44136
     name: Inquisitor Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Inquisitor Hunter's Quiver SKIN (Permanent):
+    id: 47495
+    name: Inquisitor Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Inquisitor Ironblood SKIN (Permanent):
     id: 43484
     name: Inquisitor Ironblood SKIN (Permanent)
@@ -5855,6 +6047,10 @@ items:
     id: 46930
     name: Ishkur Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Ishkur Glittering Dream SKIN (Permanent):
+    id: 47523
+    name: Ishkur Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Ishkur Intaki Syndicate SKIN (Permanent):
     id: 36388
     name: Ishkur Intaki Syndicate SKIN (Permanent)
@@ -5891,6 +6087,10 @@ items:
     id: 47103
     name: Ishtar "Blaze" Squadron SKIN (Permanent)
     volume: 0.01
+  Ishtar Capsuleer Day XV SKIN (Permanent):
+    id: 47632
+    name: Ishtar Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Ishtar Exoplanets Hunter SKIN (Permanent):
     id: 45897
     name: Ishtar Exoplanets Hunter SKIN (Permanent)
@@ -5898,6 +6098,10 @@ items:
   Ishtar Glacial Drift SKIN (Permanent):
     id: 46943
     name: Ishtar Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Ishtar Glittering Dream SKIN (Permanent):
+    id: 47532
+    name: Ishtar Glittering Dream SKIN (Permanent)
     volume: 0.01
   Ishtar Golden SKIN (Permanent):
     id: 36517
@@ -6018,6 +6222,10 @@ items:
   Jackdaw Glacial Drift SKIN (Permanent):
     id: 46840
     name: Jackdaw Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Jackdaw Octopus Orange Flight SKIN (Permanent):
+    id: 47611
+    name: Jackdaw Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Jackdaw Octopus Red Flight SKIN (Permanent):
     id: 46728
@@ -6403,6 +6611,10 @@ items:
     id: 39544
     name: Leviathan Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Leviathan Capsuleer Elite XV SKIN (Permanent):
+    id: 47641
+    name: Leviathan Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Leviathan Exoplanets Hunter SKIN (Permanent):
     id: 45862
     name: Leviathan Exoplanets Hunter SKIN (Permanent)
@@ -6450,6 +6662,10 @@ items:
   Lif Blue Tiger Serenity Only SKIN (Permanent):
     id: 42095
     name: Lif Blue Tiger Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Lif Capsuleer Elite XV SKIN (Permanent):
+    id: 47646
+    name: Lif Capsuleer Elite XV SKIN (Permanent)
     volume: 0.01
   Lif Exoplanets Hunter SKIN (Permanent):
     id: 46149
@@ -6743,6 +6959,10 @@ items:
     id: 46939
     name: Magus Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Magus Glittering Dream SKIN (Permanent):
+    id: 47527
+    name: Magus Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Magus Kopis Edge SKIN (Permanent):
     id: 46401
     name: Magus Kopis Edge SKIN (Permanent)
@@ -6766,6 +6986,10 @@ items:
   Magus Valimor Legacy Serenity Only SKIN (Permanent):
     id: 40411
     name: Magus Valimor Legacy Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Malediction Capsuleer Day XV SKIN (Permanent):
+    id: 47621
+    name: Malediction Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Malediction Cold Iron SKIN (Permanent):
     id: 42758
@@ -6838,6 +7062,10 @@ items:
   Maller Glacial Drift SKIN (Permanent):
     id: 44144
     name: Maller Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Maller Hunter's Quiver SKIN (Permanent):
+    id: 47494
+    name: Maller Hunter's Quiver SKIN (Permanent)
     volume: 0.01
   Maller Ironblood SKIN (Permanent):
     id: 43502
@@ -6990,6 +7218,10 @@ items:
   Marshal Glacial Drift SKIN (Permanent):
     id: 47002
     name: Marshal Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Marshal SARO 'Black Troop' SKIN (Permanent):
+    id: 47683
+    name: Marshal SARO 'Black Troop' SKIN (Permanent)
     volume: 0.01
   Mastodon Blue Tiger SKIN (Permanent):
     id: 36842
@@ -7239,6 +7471,10 @@ items:
     id: 46712
     name: Merlin Headhunter SKIN (Permanent)
     volume: 0.01
+  Merlin Hunter's Quiver SKIN (Permanent):
+    id: 47500
+    name: Merlin Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Merlin Matigu Seabeast SKIN (Permanent):
     id: 40584
     name: Merlin Matigu Seabeast SKIN (Permanent)
@@ -7347,6 +7583,10 @@ items:
     id: 42090
     name: Minokawa Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Minokawa Capsuleer Elite XV SKIN (Permanent):
+    id: 47642
+    name: Minokawa Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Minokawa Exoplanets Hunter SKIN (Permanent):
     id: 46147
     name: Minokawa Exoplanets Hunter SKIN (Permanent)
@@ -7446,6 +7686,14 @@ items:
   Molok Glacial Drift SKIN (Permanent):
     id: 46824
     name: Molok Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Monitor Firewatch SKIN (Permanent):
+    id: 47684
+    name: Monitor Firewatch SKIN (Permanent)
+    volume: 0.01
+  Monitor SARO 'Black Troop' SKIN (Permanent):
+    id: 47682
+    name: Monitor SARO 'Black Troop' SKIN (Permanent)
     volume: 0.01
   Moros Exoplanets Hunter SKIN (Permanent):
     id: 45918
@@ -7558,6 +7806,10 @@ items:
   Muninn Valklear Glory Serenity Only SKIN (Permanent):
     id: 39921
     name: Muninn Valklear Glory Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Myrmidon Capsuleer Day XV SKIN (Permanent):
+    id: 47633
+    name: Myrmidon Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Myrmidon Exoplanets Hunter SKIN (Permanent):
     id: 45906
@@ -7991,6 +8243,10 @@ items:
     id: 38170
     name: Nightmare Nova Serenity Only SKIN (Permanent)
     volume: 0.01
+  Ninazu Capsuleer Elite XV SKIN (Permanent):
+    id: 47644
+    name: Ninazu Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Ninazu Exoplanets Hunter SKIN (Permanent):
     id: 46148
     name: Ninazu Exoplanets Hunter SKIN (Permanent)
@@ -7998,6 +8254,10 @@ items:
   Ninazu Glacial Drift SKIN (Permanent):
     id: 47051
     name: Ninazu Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Ninazu Glittering Dream SKIN (Permanent):
+    id: 47537
+    name: Ninazu Glittering Dream SKIN (Permanent)
     volume: 0.01
   Ninazu Kopis Edge SKIN (Permanent):
     id: 46443
@@ -8074,6 +8334,10 @@ items:
   Nyx Glacial Drift SKIN (Permanent):
     id: 46966
     name: Nyx Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Nyx Glittering Dream SKIN (Permanent):
+    id: 47539
+    name: Nyx Glittering Dream SKIN (Permanent)
     volume: 0.01
   Nyx Headhunter SKIN (Permanent):
     id: 46721
@@ -8262,6 +8526,10 @@ items:
   Omen Blood Raiders Serenity Only SKIN (Permanent):
     id: 38647
     name: Omen Blood Raiders Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Omen Capsuleer Day XV SKIN (Permanent):
+    id: 47623
+    name: Omen Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Omen Cold Iron SKIN (Permanent):
     id: 42769
@@ -8466,6 +8734,10 @@ items:
   Oracle "Blaze" Squadron SKIN (Permanent):
     id: 47101
     name: Oracle "Blaze" Squadron SKIN (Permanent)
+    volume: 0.01
+  Oracle Capsuleer Day XV SKIN (Permanent):
+    id: 47624
+    name: Oracle Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Oracle Cold Iron SKIN (Permanent):
     id: 42779
@@ -8742,6 +9014,10 @@ items:
   Pacifier Glacial Drift SKIN (Permanent):
     id: 47001
     name: Pacifier Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Pacifier SARO 'Black Troop' SKIN (Permanent):
+    id: 47680
+    name: Pacifier SARO 'Black Troop' SKIN (Permanent)
     volume: 0.01
   Paladin Blood Raider Serenity Only SKIN (Permanent):
     id: 37121
@@ -9094,6 +9370,14 @@ items:
   Porpoise Sansha Industrial Livery SKIN (Permanent):
     id: 43853
     name: Porpoise Sansha Industrial Livery SKIN (Permanent)
+    volume: 0.01
+  Praxis Capsuleer Elite XV SKIN (Permanent):
+    id: 47650
+    name: Praxis Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
+  Praxis Capsuleer Networker XV SKIN (Permanent):
+    id: 47655
+    name: Praxis Capsuleer Networker XV SKIN (Permanent)
     volume: 0.01
   Primae Glacial Drift SKIN (Permanent):
     id: 46993
@@ -9679,6 +9963,10 @@ items:
     id: 39781
     name: Ragnarok Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Ragnarok Capsuleer Elite XV SKIN (Permanent):
+    id: 47645
+    name: Ragnarok Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
   Ragnarok Exoplanets Hunter SKIN (Permanent):
     id: 45983
     name: Ragnarok Exoplanets Hunter SKIN (Permanent)
@@ -9763,6 +10051,10 @@ items:
     id: 39409
     name: Raptor Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Raptor Capsuleer Day XV SKIN (Permanent):
+    id: 47627
+    name: Raptor Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Raptor Exoplanets Hunter SKIN (Permanent):
     id: 45824
     name: Raptor Exoplanets Hunter SKIN (Permanent)
@@ -9798,6 +10090,10 @@ items:
   Raptor Wiyrkomi Serenity Only SKIN (Permanent):
     id: 38019
     name: Raptor Wiyrkomi Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Rattlesnake Ace of Podhunters SKIN (Permanent):
+    id: 47511
+    name: Rattlesnake Ace of Podhunters SKIN (Permanent)
     volume: 0.01
   Rattlesnake Glacial Drift SKIN (Permanent):
     id: 46875
@@ -9843,6 +10139,10 @@ items:
     id: 46715
     name: Raven Headhunter SKIN (Permanent)
     volume: 0.01
+  Raven Hunter's Quiver SKIN (Permanent):
+    id: 47498
+    name: Raven Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Raven IGC Victory SKIN (Permanent):
     id: 45012
     name: Raven IGC Victory SKIN (Permanent)
@@ -9867,6 +10167,10 @@ items:
     id: 46861
     name: Raven Navy Issue Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Raven Navy Issue Octopus Orange Flight SKIN (Permanent):
+    id: 47618
+    name: Raven Navy Issue Octopus Orange Flight SKIN (Permanent)
+    volume: 0.01
   Raven Navy Issue Steel Cardinal SKIN (Permanent):
     id: 46134
     name: Raven Navy Issue Steel Cardinal SKIN (Permanent)
@@ -9882,6 +10186,10 @@ items:
   Raven Nugoeihuvi SKIN (Permanent):
     id: 34799
     name: Raven Nugoeihuvi SKIN (Permanent)
+    volume: 0.01
+  Raven Octopus Orange Flight SKIN (Permanent):
+    id: 47617
+    name: Raven Octopus Orange Flight SKIN (Permanent)
     volume: 0.01
   Raven Octopus Red Flight SKIN (Permanent):
     id: 46732
@@ -10975,6 +11283,10 @@ items:
     id: 46960
     name: Sin Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Sin Glittering Dream SKIN (Permanent):
+    id: 47536
+    name: Sin Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Sin Intaki Syndicate SKIN (Permanent):
     id: 36397
     name: Sin Intaki Syndicate SKIN (Permanent)
@@ -11227,6 +11539,10 @@ items:
     id: 46894
     name: Stabber Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Stabber Hunter's Quiver SKIN (Permanent):
+    id: 47506
+    name: Stabber Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Stabber Justice SKIN (Permanent):
     id: 36414
     name: Stabber Justice SKIN (Permanent)
@@ -11383,6 +11699,14 @@ items:
     id: 47006
     name: Succubus Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Sunesis Capsuleer Elite XV SKIN (Permanent):
+    id: 47648
+    name: Sunesis Capsuleer Elite XV SKIN (Permanent)
+    volume: 0.01
+  Sunesis Capsuleer Networker XV SKIN (Permanent):
+    id: 47653
+    name: Sunesis Capsuleer Networker XV SKIN (Permanent)
+    volume: 0.01
   Sunesis Glacial Drift SKIN (Permanent):
     id: 47012
     name: Sunesis Glacial Drift SKIN (Permanent)
@@ -11394,6 +11718,18 @@ items:
   Sunesis Midnight SKIN (Permanent):
     id: 44259
     name: Sunesis Midnight SKIN (Permanent)
+    volume: 0.01
+  Sunesis Silver Racer SKIN (Permanent):
+    id: 47551
+    name: Sunesis Silver Racer SKIN (Permanent)
+    volume: 0.01
+  Sunesis Versus Blueforce  SKIN (Permanent):
+    id: 47548
+    name: Sunesis Versus Blueforce  SKIN (Permanent)
+    volume: 0.01
+  Sunesis Versus Redforce SKIN (Permanent):
+    id: 47545
+    name: Sunesis Versus Redforce SKIN (Permanent)
     volume: 0.01
   Svipul Exoplanets Hunter SKIN (Permanent):
     id: 45953
@@ -11423,6 +11759,10 @@ items:
     id: 46953
     name: Talos Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Talos Glittering Dream SKIN (Permanent):
+    id: 47533
+    name: Talos Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Talos Headhunter SKIN (Permanent):
     id: 46719
     name: Talos Headhunter SKIN (Permanent)
@@ -11446,6 +11786,10 @@ items:
   Talos Kopis Edge SKIN (Permanent):
     id: 46419
     name: Talos Kopis Edge SKIN (Permanent)
+    volume: 0.01
+  Talos Serenity YC119 SKIN (Permanent):
+    id: 47282
+    name: Talos Serenity YC119 SKIN (Permanent)
     volume: 0.01
   Talos Serpentis SKIN (Permanent):
     id: 42179
@@ -11615,6 +11959,10 @@ items:
     id: 39746
     name: Tempest Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Tempest Capsuleer Day XV SKIN (Permanent):
+    id: 47638
+    name: Tempest Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Tempest Exoplanets Hunter SKIN (Permanent):
     id: 45974
     name: Tempest Exoplanets Hunter SKIN (Permanent)
@@ -11747,6 +12095,14 @@ items:
     id: 46965
     name: Thanatos Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Thanatos Glittering Dream SKIN (Permanent):
+    id: 47538
+    name: Thanatos Glittering Dream SKIN (Permanent)
+    volume: 0.01
+  Thanatos Hunter's Quiver SKIN (Permanent):
+    id: 47504
+    name: Thanatos Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Thanatos Intaki Syndicate SKIN (Permanent):
     id: 36401
     name: Thanatos Intaki Syndicate SKIN (Permanent)
@@ -11818,6 +12174,10 @@ items:
   Thorax Glacial Drift SKIN (Permanent):
     id: 44185
     name: Thorax Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Thorax Glittering Dream SKIN (Permanent):
+    id: 47529
+    name: Thorax Glittering Dream SKIN (Permanent)
     volume: 0.01
   Thorax Inner Zone Shipping SKIN (Permanent):
     id: 34693
@@ -12007,6 +12367,10 @@ items:
     id: 39726
     name: Tornado Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Tornado Capsuleer Day XV SKIN (Permanent):
+    id: 47637
+    name: Tornado Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Tornado Exoplanets Hunter SKIN (Permanent):
     id: 45969
     name: Tornado Exoplanets Hunter SKIN (Permanent)
@@ -12171,6 +12535,10 @@ items:
     id: 46725
     name: Typhoon Headhunter SKIN (Permanent)
     volume: 0.01
+  Typhoon Hunter's Quiver SKIN (Permanent):
+    id: 47505
+    name: Typhoon Hunter's Quiver SKIN (Permanent)
+    volume: 0.01
   Typhoon IGC Victory SKIN (Permanent):
     id: 40695
     name: Typhoon IGC Victory SKIN (Permanent)
@@ -12226,6 +12594,10 @@ items:
   Vagabond Blue Tiger Serenity Only SKIN (Permanent):
     id: 39691
     name: Vagabond Blue Tiger Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Vagabond Capsuleer Day XV SKIN (Permanent):
+    id: 47636
+    name: Vagabond Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Vagabond Exoplanets Hunter SKIN (Permanent):
     id: 45959
@@ -12475,6 +12847,10 @@ items:
     id: 44184
     name: Vexor Glacial Drift SKIN (Permanent)
     volume: 0.01
+  Vexor Glittering Dream SKIN (Permanent):
+    id: 47530
+    name: Vexor Glittering Dream SKIN (Permanent)
+    volume: 0.01
   Vexor Headhunter SKIN (Permanent):
     id: 46718
     name: Vexor Headhunter SKIN (Permanent)
@@ -12510,6 +12886,10 @@ items:
   Vexor Navy Issue Glacial Drift SKIN (Permanent):
     id: 46950
     name: Vexor Navy Issue Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Vexor Navy Issue Glittering Dream SKIN (Permanent):
+    id: 47531
+    name: Vexor Navy Issue Glittering Dream SKIN (Permanent)
     volume: 0.01
   Vexor Navy Issue Intaki Syndicate SKIN (Permanent):
     id: 36394
@@ -12843,6 +13223,10 @@ items:
     id: 39856
     name: Wolf Valklear Glory Serenity Only SKIN (Permanent)
     volume: 0.01
+  Worm Ace of Podhunters SKIN (Permanent):
+    id: 47509
+    name: Worm Ace of Podhunters SKIN (Permanent)
+    volume: 0.01
   Worm Glacial Drift SKIN (Permanent):
     id: 46873
     name: Worm Glacial Drift SKIN (Permanent)
@@ -12899,6 +13283,10 @@ items:
     id: 39539
     name: Wyvern Blue Tiger Serenity Only SKIN (Permanent)
     volume: 0.01
+  Wyvern Capsuleer Day XV SKIN (Permanent):
+    id: 47630
+    name: Wyvern Capsuleer Day XV SKIN (Permanent)
+    volume: 0.01
   Wyvern Eros Blossom SKIN (Permanent):
     id: 47291
     name: Wyvern Eros Blossom SKIN (Permanent)
@@ -12938,6 +13326,10 @@ items:
   Wyvern Wiyrkomi Serenity Only SKIN (Permanent):
     id: 37970
     name: Wyvern Wiyrkomi Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Zealot Capsuleer Day XV SKIN (Permanent):
+    id: 47622
+    name: Zealot Capsuleer Day XV SKIN (Permanent)
     volume: 0.01
   Zealot Cold Iron SKIN (Permanent):
     id: 42771

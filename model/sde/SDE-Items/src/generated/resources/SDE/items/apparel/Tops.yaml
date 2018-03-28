@@ -259,70 +259,50 @@ items:
     id: 4200
     name: Men's 'Street' Shirt (white)
     volume: 0.1
+  Men's Amarr 'Loyalist' T-Shirt:
+    Gender: 2
+    id: 47182
+    name: Men's Amarr 'Loyalist' T-Shirt
+    volume: 0.1
   Men's CONCORD Test Pilot T-Shirt:
     Gender: 1
     id: 37809
     name: Men's CONCORD Test Pilot T-Shirt
+    volume: 0.1
+  Men's Caldari 'Patriot' T-Shirt:
+    Gender: 2
+    id: 47189
+    name: Men's Caldari 'Patriot' T-Shirt
+    volume: 0.1
+  Men's Capsuleer Elite XV T-Shirt:
+    Gender: 2
+    id: 47190
+    name: Men's Capsuleer Elite XV T-Shirt
+    volume: 0.1
+  Men's Capsuleer Networker XV T-Shirt:
+    Gender: 2
+    id: 47480
+    name: Men's Capsuleer Networker XV T-Shirt
     volume: 0.1
   Men's Exoplanets Hunter T-shirt:
     Gender: 2
     id: 45743
     name: Men's Exoplanets Hunter T-shirt
     volume: 0.1
+  Men's Gallente 'Defender' T-Shirt:
+    Gender: 2
+    id: 47184
+    name: Men's Gallente 'Defender' T-Shirt
+    volume: 0.1
+  Men's Minmatar 'Liberator' T-Shirt:
+    Gender: 2
+    id: 47183
+    name: Men's Minmatar 'Liberator' T-Shirt
+    volume: 0.1
   Men's YC119 Yoiul Festival T-shirt:
     Gender: 1
     id: 44123
     name: Men's YC119 Yoiul Festival T-shirt
-    volume: 0.1
-  TshirtF01_XV_Amarr.type:
-    Gender: 2
-    id: 47186
-    name: TshirtF01_XV_Amarr.type
-    volume: 0.1
-  TshirtF01_XV_Caldari.type:
-    Gender: 2
-    id: 47189
-    name: TshirtF01_XV_Caldari.type
-    volume: 0.1
-  TshirtF01_XV_Gallente.type:
-    Gender: 2
-    id: 47185
-    name: TshirtF01_XV_Gallente.type
-    volume: 0.1
-  TshirtF01_XV_Minmatar.type:
-    Gender: 2
-    id: 47187
-    name: TshirtF01_XV_Minmatar.type
-    volume: 0.1
-  TshirtF01_XV_StarOrange.type:
-    Gender: 2
-    id: 47192
-    name: TshirtF01_XV_StarOrange.type
-    volume: 0.1
-  TshirtM01_XV_Amarr.type:
-    Gender: 2
-    id: 47182
-    name: TshirtM01_XV_Amarr.type
-    volume: 0.1
-  TshirtM01_XV_Caldari.type:
-    Gender: 2
-    id: 47188
-    name: TshirtM01_XV_Caldari.type
-    volume: 0.1
-  TshirtM01_XV_Gallente.type:
-    Gender: 2
-    id: 47184
-    name: TshirtM01_XV_Gallente.type
-    volume: 0.1
-  TshirtM01_XV_Minmatar.type:
-    Gender: 2
-    id: 47183
-    name: TshirtM01_XV_Minmatar.type
-    volume: 0.1
-  TshirtM01_XV_StarOrange.type:
-    Gender: 2
-    id: 47190
-    name: TshirtM01_XV_StarOrange.type
     volume: 0.1
   Women's 'Avenue' Shirt (black and dark red):
     Gender: 3
@@ -674,15 +654,45 @@ items:
     id: 4368
     name: Women's 'Sterling' Dress Blouse (white)
     volume: 0.1
+  Women's Amarr 'Loyalist' T-Shirt:
+    Gender: 2
+    id: 47186
+    name: Women's Amarr 'Loyalist' T-Shirt
+    volume: 0.1
   Women's CONCORD Test Pilot T-Shirt:
     Gender: 3
     id: 37808
     name: Women's CONCORD Test Pilot T-Shirt
     volume: 0.1
+  Women's Caldari 'Patriot' T-Shirt:
+    Gender: 2
+    id: 47188
+    name: Women's Caldari 'Patriot' T-Shirt
+    volume: 0.1
+  Women's Capsuleer Elite XV T-Shirt:
+    Gender: 2
+    id: 47192
+    name: Women's Capsuleer Elite XV T-Shirt
+    volume: 0.1
+  Women's Capsuleer Networker XV T-Shirt:
+    Gender: 2
+    id: 47479
+    name: Women's Capsuleer Networker XV T-Shirt
+    volume: 0.1
   Women's Exoplanets Hunter T-shirt:
     Gender: 2
     id: 45734
     name: Women's Exoplanets Hunter T-shirt
+    volume: 0.1
+  Women's Gallente 'Defender' T-Shirt:
+    Gender: 2
+    id: 47185
+    name: Women's Gallente 'Defender' T-Shirt
+    volume: 0.1
+  Women's Minmatar 'Liberator' T-Shirt:
+    Gender: 2
+    id: 47187
+    name: Women's Minmatar 'Liberator' T-Shirt
     volume: 0.1
   Women's YC119 Yoiul Festival T-shirt:
     Gender: 3

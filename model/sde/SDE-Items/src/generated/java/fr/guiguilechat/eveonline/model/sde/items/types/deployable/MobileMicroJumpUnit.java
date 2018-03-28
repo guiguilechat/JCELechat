@@ -13,13 +13,6 @@ public class MobileMicroJumpUnit
     extends Deployable
 {
     /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -27,26 +20,40 @@ public class MobileMicroJumpUnit
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
-     * DO NOT MESS WITH
+     * The ranking of the module within its tech level
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
-     * 
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int SignatureRadiusBonusPercent;
+    @DefaultDoubleValue(0.0)
+    public double ScanGravimetricStrength;
     /**
-     * Multiplies EM damage taken by shield
+     * Magnetometric strength.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
+    @DefaultDoubleValue(0.0)
+    public double ScanMagnetometricStrength;
     /**
      * Radar strength.
      */
@@ -54,6 +61,13 @@ public class MobileMicroJumpUnit
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
+    /**
+     * Multiplies EM damage taken by shield
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldEmDamageResonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
@@ -69,13 +83,6 @@ public class MobileMicroJumpUnit
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
-     * Magnetometric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
-    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -83,33 +90,26 @@ public class MobileMicroJumpUnit
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * Gravimetric strength.
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldUniformity;
+    /**
+     * 
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    @DefaultIntValue(0)
+    public int SignatureRadiusBonusPercent;
     /**
-     * Required skill level for skill 1
+     * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileMicroJumpUnit.yaml";
     private static LinkedHashMap<String, MobileMicroJumpUnit> cache = (null);
 

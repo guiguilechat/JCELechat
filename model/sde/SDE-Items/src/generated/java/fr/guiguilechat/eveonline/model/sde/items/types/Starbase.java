@@ -46,20 +46,6 @@ public abstract class Starbase
     extends Item
 {
     /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
      * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
@@ -74,12 +60,12 @@ public abstract class Starbase
     @DefaultIntValue(0)
     public int DisallowOffensiveModifiers;
     /**
-     * How long it takes to unanchor this object.
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(60000)
-    public int UnanchoringDelay;
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * How long it takes to bring this object online.
      */
@@ -87,6 +73,20 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int OnliningDelay;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * How long it takes to unanchor this object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(60000)
+    public int UnanchoringDelay;
 
     @Override
     public int getCategoryId() {

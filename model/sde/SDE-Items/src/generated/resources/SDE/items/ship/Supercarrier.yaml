@@ -16,6 +16,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -126,6 +127,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -229,6 +231,7 @@ items:
     ArmorThermalDamageResonance: 1.0
     EmDamageResonance: 1.0
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 1.0
     EntosisDurationMultiplier: 1
     ExplosiveDamageResonance: 1.0
     FighterAbilityKamikazeResistance: 1
@@ -278,6 +281,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -388,6 +392,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -504,6 +509,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -619,6 +625,7 @@ items:
     DisallowInHighSec: 1
     EmDamageResonance: 0.6700000166893005
     EnergyWarfareResistance: 1.0
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1

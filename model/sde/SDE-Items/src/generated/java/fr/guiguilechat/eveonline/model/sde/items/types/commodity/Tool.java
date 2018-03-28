@@ -12,13 +12,6 @@ public class Tool
     extends Commodity
 {
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -32,6 +25,13 @@ public class Tool
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaLevel;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/commodity/Tool.yaml";
     private static LinkedHashMap<String, Tool> cache = (null);
 

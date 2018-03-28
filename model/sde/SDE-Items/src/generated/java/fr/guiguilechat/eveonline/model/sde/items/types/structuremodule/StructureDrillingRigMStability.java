@@ -12,26 +12,26 @@ public class StructureDrillingRigMStability
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
-     * Rig Bonus that affects fracture delay for moon chunk
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MoonRigFractureDelayBonus;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * Moon rig bonus that delays spew asteroid decay
      */
@@ -40,12 +40,12 @@ public class StructureDrillingRigMStability
     @DefaultIntValue(0)
     public int MoonRigAsteroidDecayBonus;
     /**
-     * Required skill level for skill 1
+     * Rig Bonus that affects fracture delay for moon chunk
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MoonRigFractureDelayBonus;
     /**
      * Rig Bonus that affects spew asteroid belt radius from moon extraction
      */
@@ -61,26 +61,12 @@ public class StructureDrillingRigMStability
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -95,6 +81,20 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
     private static LinkedHashMap<String, StructureDrillingRigMStability> cache = (null);
 

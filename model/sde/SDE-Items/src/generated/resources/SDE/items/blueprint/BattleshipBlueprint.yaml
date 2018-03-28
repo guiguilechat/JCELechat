@@ -283,6 +283,12 @@ items:
     id: 22441
     name: Panther Blueprint
     volume: 0.01
+  Praxis Blueprint:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 47716
+    name: Praxis Blueprint
+    volume: 0.01
   Rattlesnake Blueprint:
     IndustryBlueprintRank: 60.0
     IndustryJobCostMultiplier: 1
@@ -480,15 +486,15 @@ items:
     id: 34464
     name: 响尾蛇级YC117年特别版蓝图
     volume: 0.01
-  地狱天使级YC117年��别版蓝图:
+  地狱天使级YC117年特别版蓝图:
     TechLevel: 1
     id: 34460
-    name: 地狱天使级YC117年��别版蓝图
+    name: 地狱天使级YC117年特别版蓝图
     volume: 0.01
-  多米尼克斯级YC117年特别版蓝图:
+  多米尼克斯级YC117年特别版���图:
     TechLevel: 1
     id: 34466
-    name: 多米尼克斯级YC117年特别版蓝图
+    name: 多米尼克斯级YC117年特别版���图
     volume: 0.01
   末日沙场级YC117年特别版蓝图:
     TechLevel: 1

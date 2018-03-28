@@ -339,6 +339,15 @@ items:
     id: 46659
     name: Men's Caldari State Officer Jacket
     volume: 0.1
+  Men's Capsuleer Networker XV Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
+    id: 47476
+    name: Men's Capsuleer Networker XV Suit
+    volume: 0.1
   Men's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
@@ -441,6 +450,15 @@ items:
     Gender: 2
     id: 46674
     name: Men's Republic Fleet Ordnance Jacket
+    volume: 0.1
+  Men's SARO 'Black Troop' Combat Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 1
+    id: 47286
+    name: Men's SARO 'Black Troop' Combat Suit
     volume: 0.1
   Men's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25
@@ -952,6 +970,15 @@ items:
     id: 46669
     name: Women's Caldari State Officer Jacket
     volume: 0.1
+  Women's Capsuleer Networker XV Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
+    id: 47475
+    name: Women's Capsuleer Networker XV Suit
+    volume: 0.1
   Women's Corporate Troubleshooter Gear:
     ClothingAlsoCoversCategory: 25
     ClothingAlsoCoversCategory2: 22
@@ -1054,6 +1081,15 @@ items:
     Gender: 2
     id: 46661
     name: Women's Republic Fleet Ordnance Jacket
+    volume: 0.1
+  Women's SARO 'Black Troop' Combat Suit:
+    ClothingAlsoCoversCategory: 25
+    ClothingAlsoCoversCategory2: 22
+    ClothingRemovesCategory: 25
+    ClothingRemovesCategory2: 22
+    Gender: 3
+    id: 47287
+    name: Women's SARO 'Black Troop' Combat Suit
     volume: 0.1
   Women's SOE Expeditionary Suit:
     ClothingAlsoCoversCategory: 25

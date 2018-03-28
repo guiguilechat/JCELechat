@@ -1153,8 +1153,8 @@ items:
     ShieldRechargeRate: 900000.0
     ShieldThermalDamageResonance: 0.7250000238418579
     ShieldUniformity: 0.75
-    ShipBonusPirateFaction2: 37.5
     ShipBonusRole7: 25.0
+    ShipBonusRole8: 37.5
     SignatureRadius: 65
     StructureUniformity: 1.0
     TechLevel: 1

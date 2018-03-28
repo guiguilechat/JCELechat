@@ -13,33 +13,47 @@ public class Industrial
     extends Ship
 {
     /**
+     * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int AffectedByIndustrialInvulnModule;
+    /**
+     * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int AllowedInCapIndustrialMaintenanceBay;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int FwLpKill;
     /**
-     * The number of low power slots on the ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
     /**
-     * Capacity of Quafe hold
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialQuafeHoldCapacity;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
     /**
-     * tbd
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
     /**
      * tbd
      */
@@ -53,21 +67,49 @@ public class Industrial
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FwLpKill;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int IndustrialBonusDroneDamage;
     /**
-     * Capacity of ore-only hold
+     * Multiplier for jump fatigue distance
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double JumpFatigueMultiplier;
+    /**
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpecialOreHoldCapacity;
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -76,12 +118,12 @@ public class Industrial
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * Capacity of mineral-only hold
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpecialMineralHoldCapacity;
+    public int RequiredSkill2;
     /**
      * Required skill level for skill 2
      */
@@ -90,6 +132,13 @@ public class Industrial
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
      * Required skill level for skill 3
      */
     @HighIsGood(true)
@@ -97,40 +146,19 @@ public class Industrial
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     /**
-     * special ammo hold capacity
+     * 
      */
     @HighIsGood(true)
-    @Stackable(false)
+    @Stackable(true)
     @DefaultIntValue(0)
-    public int SpecialAmmoHoldCapacity;
+    public int RigSize;
     /**
-     * 
+     * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusAI2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusCI2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusGI2;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShipBonusMI2;
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * The resolution that the vessel can target other objects at.
      */
@@ -146,54 +174,61 @@ public class Industrial
     @DefaultIntValue(0)
     public int ScanSpeed;
     /**
-     * Tells if this type (ship) can be placed in the maintenance bay of a capital industrial ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int AllowedInCapIndustrialMaintenanceBay;
+    @DefaultIntValue(5)
+    public int ShipBonusAI;
     /**
-     * Attribute on ships used for ship upgrades
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusAI2;
     /**
-     * Capacity of CC-only hold
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialCommandCenterHoldCapacity;
+    @DefaultIntValue(5)
+    public int ShipBonusCI;
     /**
-     * The number of rig slots on the ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSlots;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusCI2;
     /**
-     * Capacity of Planetary Commodities hold
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialPlanetaryCommoditiesHoldCapacity;
+    @DefaultIntValue(5)
+    public int ShipBonusGI;
     /**
-     * The main color of a ship type.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusGI2;
     /**
-     * How many upgrades can by fitted to this ship.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    @DefaultIntValue(5)
+    public int ShipBonusMI;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusMI2;
     /**
      * Bonus 1 for ORE Industrials
      */
@@ -209,40 +244,47 @@ public class Industrial
     @DefaultIntValue(0)
     public int ShipBonusOreIndustrial2;
     /**
-     * Tells if this type (ship) can be affected by the Rorqual Invulnerability Module
+     * special ammo hold capacity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int SpecialAmmoHoldCapacity;
+    /**
+     * Capacity of CC-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AffectedByIndustrialInvulnModule;
+    public int SpecialCommandCenterHoldCapacity;
     /**
-     * Multiplier for jump fatigue distance
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double JumpFatigueMultiplier;
-    /**
-     * The type ID of the skill that is required.
+     * Capacity of mineral-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int SpecialMineralHoldCapacity;
     /**
-     * The type ID of the skill that is required.
+     * Capacity of ore-only hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int SpecialOreHoldCapacity;
     /**
-     * The type ID of the skill that is required.
+     * Capacity of Planetary Commodities hold
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public int SpecialPlanetaryCommoditiesHoldCapacity;
+    /**
+     * Capacity of Quafe hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialQuafeHoldCapacity;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -251,54 +293,19 @@ public class Industrial
     @DefaultIntValue(0)
     public int TypeColorScheme;
     /**
-     * 
+     * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
-     * 
+     * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5)
-    public int ShipBonusMI;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5)
-    public int ShipBonusAI;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5)
-    public int ShipBonusCI;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(5)
-    public int ShipBonusGI;
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/Industrial.yaml";
     private static LinkedHashMap<String, Industrial> cache = (null);
 

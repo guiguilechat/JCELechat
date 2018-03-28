@@ -13,20 +13,6 @@ public class StructureFittingModule
     extends StructureModule
 {
     /**
-     * Multipier to power core output.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double PowerOutputMultiplier;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -48,12 +34,19 @@ public class StructureFittingModule
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Tech level of an item
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultDoubleValue(1.0)
+    public double CpuMultiplier;
     /**
      * The maximum hitpoints of an object.
      */
@@ -69,12 +62,19 @@ public class StructureFittingModule
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
-     * Factor to adjust module cpu need by.
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * Multipier to power core output.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
+    public double PowerOutputMultiplier;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -83,12 +83,12 @@ public class StructureFittingModule
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * current power need
+     * Tech level of an item
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
     private static LinkedHashMap<String, StructureFittingModule> cache = (null);
 

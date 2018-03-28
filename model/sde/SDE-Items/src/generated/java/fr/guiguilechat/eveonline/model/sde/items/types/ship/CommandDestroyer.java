@@ -13,19 +13,19 @@ public class CommandDestroyer
     extends Ship
 {
     /**
-     * How many upgrades can by fitted to this ship.
+     * reduction in MicroWarp Drive signature
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int MWDSignatureRadiusBonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
+    @DefaultDoubleValue(0.0)
+    public double DestroyerROFpenality;
     /**
      * 
      */
@@ -34,47 +34,12 @@ public class CommandDestroyer
     @DefaultIntValue(0)
     public int EliteBonusCommandDestroyer1;
     /**
-     * reduction in MicroWarp Drive signature
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MWDSignatureRadiusBonus;
-    /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int EliteBonusCommandDestroyer2;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
-     * role bonus for command destroyers
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RoleBonusCD;
     /**
      * 
      */
@@ -83,54 +48,33 @@ public class CommandDestroyer
     @DefaultIntValue(0)
     public int FwLpKill;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Deprecated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int MaxDirectionalVelocity;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Deprecated.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MinTargetVelDmgMultiplier;
+    public double HeatAttenuationHi;
     /**
-     * The resolution that the vessel can target other objects at.
+     * 
      */
     @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
     /**
-     * The type ID of the skill that is required.
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
+    /**
+     * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int HiSlots;
     /**
      * 
      */
@@ -138,13 +82,6 @@ public class CommandDestroyer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double HullEmDamageResonance;
-    /**
-     * scanning speed in milliseconds
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanSpeed;
     /**
      * 
      */
@@ -167,33 +104,110 @@ public class CommandDestroyer
     @DefaultDoubleValue(1.0)
     public double HullThermalDamageResonance;
     /**
-     * 
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double DestroyerROFpenality;
+    @DefaultIntValue(0)
+    public int LowSlots;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int MaxDirectionalVelocity;
+    /**
+     * Specifies the maximum numbers of passengers that the ship can have
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxPassengers;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
+    /**
+     * Deprecated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double MinTargetVelDmgMultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusMD1;
+    public int RigSize;
     /**
-     * 
+     * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusCD1;
+    public int RigSlots;
     /**
-     * 
+     * role bonus for command destroyers
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusCD2;
+    public int RoleBonusCD;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
+    /**
+     * scanning speed in milliseconds
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * 
      */
@@ -214,6 +228,20 @@ public class CommandDestroyer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int ShipBonusCD1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusCD2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int ShipBonusGD1;
     /**
      * 
@@ -228,49 +256,14 @@ public class CommandDestroyer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int ShipBonusMD1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int ShipBonusMD2;
-    /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * The number of rig slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSlots;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
@@ -279,12 +272,26 @@ public class CommandDestroyer
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole1;
     /**
-     * The main color of a ship type.
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
+    /**
+     * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MainColor;
+    public int UpgradeCapacity;
+    /**
+     * How many upgrades can by fitted to this ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
     private static LinkedHashMap<String, CommandDestroyer> cache = (null);
 

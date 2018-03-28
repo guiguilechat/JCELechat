@@ -18,6 +18,97 @@ public class ShipModifiers
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
+    public double ModeAgilityPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeArmorRepDurationPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeDamageBonusPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeEmResistancePostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int ModeEwarResistancePostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeExplosiveResistancePostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeGravimetricStrengthPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeKineticResistancePostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeLadarStrengthPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ModeMWDCapPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ModeMWDSigPenaltyPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ModeMWDVelocityPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ModeMagnetometricStrengthPostDiv;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
     public double ModeMaxRangePostDiv;
     /**
      * 
@@ -39,42 +130,7 @@ public class ShipModifiers
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double ModeLadarStrengthPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeGravimetricStrengthPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeMagnetometricStrengthPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeEmResistancePostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeExplosiveResistancePostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeArmorRepDurationPostDiv;
+    public double ModeSignatureRadiusPostDiv;
     /**
      * 
      */
@@ -88,55 +144,6 @@ public class ShipModifiers
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ModeMWDVelocityPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeKineticResistancePostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ModeMWDCapPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeSignatureRadiusPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeAgilityPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ModeVelocityPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ModeMWDSigPenaltyPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
     public double ModeTrackingPostDiv;
     /**
      * 
@@ -144,14 +151,7 @@ public class ShipModifiers
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double ModeDamageBonusPostDiv;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int ModeEwarResistancePostDiv;
+    public double ModeVelocityPostDiv;
     public final static String RESOURCE_PATH = "SDE/items/module/ShipModifiers.yaml";
     private static LinkedHashMap<String, ShipModifiers> cache = (null);
 

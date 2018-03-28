@@ -13,6 +13,13 @@ public class ToolBlueprint
     extends Blueprint
 {
     /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
     @HighIsGood(true)
@@ -26,13 +33,6 @@ public class ToolBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
     private static LinkedHashMap<String, ToolBlueprint> cache = (null);
 

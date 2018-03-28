@@ -13,13 +13,6 @@ public class Wreck
     extends Celestial
 {
     /**
-     * Resistance against Stasis Webifiers
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
-    /**
      * The difficulty in opening this object.
      */
     @HighIsGood(true)
@@ -27,12 +20,12 @@ public class Wreck
     @DefaultDoubleValue(0.0)
     public double AccessDifficulty;
     /**
-     * Signature Radius is used for turret tracking and scanning.
+     * The amount of milliseconds before the wreck dissapears. Note: this only applies to NPC wrecks or empty player wrecks.
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(7200000)
+    public int ExplosionDelayWreck;
     /**
      * The maximum hitpoints of an object.
      */
@@ -41,12 +34,19 @@ public class Wreck
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * The amount of milliseconds before the wreck dissapears. Note: this only applies to NPC wrecks or empty player wrecks.
+     * Signature Radius is used for turret tracking and scanning.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(7200000)
-    public int ExplosionDelayWreck;
+    @DefaultDoubleValue(1.0)
+    public double StasisWebifierResistance;
     /**
      * DO NOT MESS WITH
      */

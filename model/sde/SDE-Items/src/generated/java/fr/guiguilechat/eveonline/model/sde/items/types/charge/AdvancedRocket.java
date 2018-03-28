@@ -13,13 +13,6 @@ public class AdvancedRocket
     extends Charge
 {
     /**
-     * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int AimedLaunch;
-    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -27,40 +20,12 @@ public class AdvancedRocket
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * The maximum hitpoints of an object.
+     * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double AoeDamageReductionFactor;
-    /**
-     * One of the groups of launcher this charge can be loaded into.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
-     * Velocity of the damage cloud created on impact.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double AoeVelocity;
+    public int AimedLaunch;
     /**
      * Size of the damage cloud caused by impact.
      */
@@ -69,6 +34,13 @@ public class AdvancedRocket
     @DefaultIntValue(0)
     public int AoeCloudSize;
     /**
+     * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double AoeDamageReductionFactor;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -76,47 +48,19 @@ public class AdvancedRocket
     @DefaultIntValue(0)
     public int AoeFalloff;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
-     * The amount of milliseconds before the object explodes.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
-    /**
-     * Just for the UI to display base damage on shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int BaseShieldDamage;
-    /**
-     * Maximum velocity of ship
+     * Velocity of the damage cloud created on impact.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    public double AoeVelocity;
+    /**
+     * Chance of piercing the armor.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ArmorPiercingChance;
     /**
      * Just for the UI to display base damage on armor.
      */
@@ -125,12 +69,12 @@ public class AdvancedRocket
     @DefaultIntValue(0)
     public int BaseArmorDamage;
     /**
-     * Tech level of an item
+     * Just for the UI to display base damage on shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultIntValue(0)
+    public int BaseShieldDamage;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -139,26 +83,12 @@ public class AdvancedRocket
     @DefaultIntValue(0)
     public int DetonationRange;
     /**
-     * damage multiplier vs. kinetic damagers.
+     * EM damage done.
      */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double KineticDamageResonance;
-    /**
-     * damage multiplier vs. thermal.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ThermalDamageResonance;
-    /**
-     * damage multiplier vs. explosive damagers.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ExplosiveDamageResonance;
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double EmDamage;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
@@ -167,12 +97,12 @@ public class AdvancedRocket
     @DefaultDoubleValue(1.0)
     public double EmDamageResonance;
     /**
-     * EM damage done.
+     * The amount of milliseconds before the object explodes.
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
      * Explosive damage done.
      */
@@ -181,6 +111,20 @@ public class AdvancedRocket
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ExplosiveDamageResonance;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
@@ -188,33 +132,26 @@ public class AdvancedRocket
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
-     * Thermal damage done.
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double KineticDamageResonance;
+    /**
+     * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public double MaxVelocity;
     /**
      * The ranking of the module within its tech level
      */
@@ -223,12 +160,75 @@ public class AdvancedRocket
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
-     * Chance of piercing the armor.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorPiercingChance;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
+    /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ThermalDamageResonance;
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedRocket.yaml";
     private static LinkedHashMap<String, AdvancedRocket> cache = (null);
 

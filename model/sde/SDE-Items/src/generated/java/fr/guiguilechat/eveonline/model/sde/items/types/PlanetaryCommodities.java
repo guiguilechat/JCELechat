@@ -16,19 +16,19 @@ public abstract class PlanetaryCommodities
     extends Item
 {
     /**
-     * Cost multiplier per m3 volume of this commodity when importing to a planet
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int ImportTaxMultiplier;
-    /**
      * Export tax multiplier when exporting this commodity off a planet.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
     public int ExportTaxMultiplier;
+    /**
+     * Cost multiplier per m3 volume of this commodity when importing to a planet
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int ImportTaxMultiplier;
 
     @Override
     public int getCategoryId() {

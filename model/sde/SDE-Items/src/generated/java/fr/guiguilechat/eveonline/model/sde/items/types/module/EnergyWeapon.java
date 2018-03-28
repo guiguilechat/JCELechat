@@ -13,26 +13,26 @@ public class EnergyWeapon
     extends Module
 {
     /**
-     * Damage multiplier.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
-    /**
-     * The size of the charges that can fit in the turret/whatever.
+     * NPC'S with this attribute wont shoot drones with signature radius less than this value.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int AIIgnoreDronesBelowSignatureRadius;
     /**
-     * reload time (ms)
+     * Tanking modifier applied to drones if their owner is tanking. 1.0 is no modifier
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    @DefaultDoubleValue(0.7)
+    public double AITankingModifierDrone;
+    /**
+     * A temporary attribute for projectile/hybrid weapons to indicate which charges they have loaded when created in newbie ships ala ammo.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int AmmoLoaded;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -41,47 +41,12 @@ public class EnergyWeapon
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ChargeGroup1;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
@@ -90,47 +55,12 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int ChargeGroup2;
     /**
-     * current power need
+     * The size of the charges that can fit in the turret/whatever.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
-    /**
-     * distance from maximum range at which accuracy has fallen by half
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int Falloff;
-    /**
-     * Weapon accuracy
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double TrackingSpeed;
-    /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1000)
-    public int OptimalSigRadius;
-    /**
-     * The number of slots this module requires.  Only used for launchers, bays and turrets.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int Slots;
+    public int ChargeSize;
     /**
      * CPU need of module
      */
@@ -139,19 +69,19 @@ public class EnergyWeapon
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
+     * Damage multiplier.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double DamageMultiplier;
+    /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double EmDamage;
-    /**
-     * Time in milliseconds between possible activations
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int Speed;
     /**
      * Explosive damage done.
      */
@@ -160,12 +90,26 @@ public class EnergyWeapon
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
+     * distance from maximum range at which accuracy has fallen by half
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int Falloff;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadRofBonus;
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double HeatDamage;
     /**
      * Kinetic damage done.
      */
@@ -181,6 +125,48 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int OptimalSigRadius;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadDamageModifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadRofBonus;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * reload time (ms)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(10000.0)
+    public double ReloadTime;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -188,12 +174,12 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * Thermal damage done.
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -202,6 +188,13 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -209,19 +202,19 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int RequiredSkill3;
     /**
-     * Tanking modifier applied to drones if their owner is tanking. 1.0 is no modifier
+     * Required skill level for skill 3
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.7)
-    public double AITankingModifierDrone;
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OverloadDamageModifier;
+    public int RequiredThermoDynamicsSkill;
     /**
      * Display name is misleading, this attribute is used only for Shield and Armor, but for convenience sake only this one is used.
      */
@@ -232,24 +225,24 @@ public class EnergyWeapon
     /**
      * 
      */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
-    /**
-     * 
-     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ResistanceKillerHull;
     /**
-     * 
+     * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(1)
+    public int Slots;
+    /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int Speed;
     /**
      * GroupID of module targeted by this weapon
      */
@@ -258,19 +251,26 @@ public class EnergyWeapon
     @DefaultIntValue(0)
     public int TargetModule;
     /**
-     * A temporary attribute for projectile/hybrid weapons to indicate which charges they have loaded when created in newbie ships ala ammo.
+     * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int AmmoLoaded;
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
     /**
-     * NPC'S with this attribute wont shoot drones with signature radius less than this value.
+     * Weapon accuracy
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double TrackingSpeed;
+    /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int AIIgnoreDronesBelowSignatureRadius;
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
     private static LinkedHashMap<String, EnergyWeapon> cache = (null);
 

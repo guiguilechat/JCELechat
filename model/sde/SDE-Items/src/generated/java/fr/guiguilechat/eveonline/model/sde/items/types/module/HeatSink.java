@@ -13,13 +13,6 @@ public class HeatSink
     extends Module
 {
     /**
-     * Damage multiplier.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -27,26 +20,12 @@ public class HeatSink
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
+     * Damage multiplier.
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
-     */
-    @HighIsGood(false)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double SpeedMultiplier;
+    public double DamageMultiplier;
     /**
      * meta group of type
      */
@@ -61,6 +40,27 @@ public class HeatSink
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double SpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/HeatSink.yaml";
     private static LinkedHashMap<String, HeatSink> cache = (null);
 

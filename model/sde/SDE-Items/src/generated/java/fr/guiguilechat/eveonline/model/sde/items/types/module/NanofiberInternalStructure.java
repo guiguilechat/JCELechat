@@ -13,12 +13,33 @@ public class NanofiberInternalStructure
     extends Module
 {
     /**
+     * Multiplier to the agility of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double AgilityMultiplier;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ImplantBonusVelocity;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -33,27 +54,6 @@ public class NanofiberInternalStructure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureHPMultiplier;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Multiplier to the agility of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double AgilityMultiplier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
     public final static String RESOURCE_PATH = "SDE/items/module/NanofiberInternalStructure.yaml";
     private static LinkedHashMap<String, NanofiberInternalStructure> cache = (null);
 

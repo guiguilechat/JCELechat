@@ -13,13 +13,6 @@ public class Mine
     extends Charge
 {
     /**
-     * Just for the UI to display base damage on shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int BaseShieldDamage;
-    /**
      * Just for the UI to display base damage on armor.
      */
     @HighIsGood(true)
@@ -27,26 +20,12 @@ public class Mine
     @DefaultIntValue(0)
     public int BaseArmorDamage;
     /**
-     * The maximum hitpoints of an object.
+     * Just for the UI to display base damage on shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Range in meters of explosion effect area.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ExplosionRange;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public int BaseShieldDamage;
     /**
      * EM damage done.
      */
@@ -55,6 +34,13 @@ public class Mine
     @DefaultDoubleValue(0.0)
     public double EmDamage;
     /**
+     * Range in meters of explosion effect area.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ExplosionRange;
+    /**
      * Explosive damage done.
      */
     @HighIsGood(true)
@@ -62,12 +48,19 @@ public class Mine
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
     /**
-     * Required skill level for skill 1
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int Hp;
+    /**
+     * The hull damage proportion at which an entity becomes incapacitated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double IncapacitationRatio;
     /**
      * Kinetic damage done.
      */
@@ -76,20 +69,6 @@ public class Mine
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Thermal damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
-    /**
      * The distance at which to react when relevant objects come within range.
      */
     @HighIsGood(true)
@@ -97,12 +76,33 @@ public class Mine
     @DefaultIntValue(0)
     public int ProximityRange;
     /**
-     * The hull damage proportion at which an entity becomes incapacitated.
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double IncapacitationRatio;
+    public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/Mine.yaml";
     private static LinkedHashMap<String, Mine> cache = (null);
 

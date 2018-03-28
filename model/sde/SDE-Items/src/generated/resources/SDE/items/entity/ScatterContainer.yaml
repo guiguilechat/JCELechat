@@ -599,6 +599,10 @@ items:
     id: 23210
     name: Secure Serpentis Vault
     volume: 27500.0
+  Secured Guristas Cache:
+    id: 47457
+    name: Secured Guristas Cache
+    volume: 27500.0
   'Serpentis Chemical Laboratory ':
     id: 28876
     name: 'Serpentis Chemical Laboratory '

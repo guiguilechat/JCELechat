@@ -12,19 +12,19 @@ public class Biomass
     extends Celestial
 {
     /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Biomass.yaml";
     private static LinkedHashMap<String, Biomass> cache = (null);
 

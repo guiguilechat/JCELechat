@@ -16,19 +16,12 @@ public abstract class SovereigntyStructures
     extends Item
 {
     /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
-     * Radar strength.
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -44,12 +37,19 @@ public abstract class SovereigntyStructures
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double ScanRadarStrength;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
 
     @Override
     public int getCategoryId() {

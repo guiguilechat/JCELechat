@@ -13,40 +13,12 @@ public class FighterSupportUnit
     extends Module
 {
     /**
-     * Bonus to fighter Velocity (%)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double FighterBonusVelocityPercent;
-    /**
-     * Bonus to fighter ROF (%)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double FighterBonusROFPercent;
-    /**
-     * Bonus to fighter shield recharge (%)
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double FighterBonusShieldRechargePercent;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
     /**
      * 
      */
@@ -55,13 +27,6 @@ public class FighterSupportUnit
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -69,19 +34,47 @@ public class FighterSupportUnit
     @DefaultIntValue(0)
     public int CanFitShipType1;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipType2;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Bonus to fighter ROF (%)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double FighterBonusROFPercent;
+    /**
+     * Bonus to fighter hitpoint (%)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double FighterBonusShieldCapacityPercent;
+    /**
+     * Bonus to fighter shield recharge (%)
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double FighterBonusShieldRechargePercent;
+    /**
+     * Bonus to fighter Velocity (%)
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double FighterBonusVelocityPercent;
     /**
      * meta group of type
      */
@@ -97,12 +90,19 @@ public class FighterSupportUnit
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Bonus to fighter hitpoint (%)
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double FighterBonusShieldCapacityPercent;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/FighterSupportUnit.yaml";
     private static LinkedHashMap<String, FighterSupportUnit> cache = (null);
 

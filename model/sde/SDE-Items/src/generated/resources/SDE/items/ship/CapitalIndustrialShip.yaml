@@ -19,6 +19,7 @@ items:
     DroneBandwidth: 125
     DroneCapacity: 6000
     EmDamageResonance: 0.6700000166893005
+    EntosisAssistanceImpedanceMultiplier: 9.999999747378752E-6
     EntosisDurationMultiplier: 5
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1
@@ -125,6 +126,7 @@ items:
     DroneBandwidth: 125
     DroneCapacity: 300
     EmDamageResonance: 0.6700000166893005
+    EntosisAssistanceImpedanceMultiplier: 1.0
     EntosisDurationMultiplier: 1
     ExplosiveDamageResonance: 0.6700000166893005
     FighterAbilityAntiCapitalMissileResistance: 1

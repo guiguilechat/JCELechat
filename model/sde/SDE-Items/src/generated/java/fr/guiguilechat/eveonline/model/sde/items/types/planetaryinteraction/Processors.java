@@ -12,19 +12,19 @@ public class Processors
     extends PlanetaryInteraction
 {
     /**
-     * This type can only be found/used/created on a planet matching this type ID.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PlanetRestriction;
-    /**
      * CPU load of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int CpuLoad;
+    /**
+     * This type can only be found/used/created on a planet matching this type ID.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PlanetRestriction;
     /**
      * Current load of power core
      */

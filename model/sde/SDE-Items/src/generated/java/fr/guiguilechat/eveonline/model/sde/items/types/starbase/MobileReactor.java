@@ -13,20 +13,6 @@ public class MobileReactor
     extends Starbase
 {
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
      * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
@@ -34,19 +20,40 @@ public class MobileReactor
     @DefaultDoubleValue(1.0)
     public double AnchoringSecurityLevelMax;
     /**
-     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Uniformity;
-    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ArmorHP;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * 
      */
@@ -62,19 +69,26 @@ public class MobileReactor
     @DefaultIntValue(0)
     public int ReactionGroup2;
     /**
-     * DO NOT MESS WITH
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
-     * Radar strength.
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -90,26 +104,19 @@ public class MobileReactor
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double ScanRadarStrength;
     /**
-     * Required skill level for skill 1
+     * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    public int ShieldCapacity;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -132,19 +139,12 @@ public class MobileReactor
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * The type ID of the skill that is required.
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/MobileReactor.yaml";
     private static LinkedHashMap<String, MobileReactor> cache = (null);
 

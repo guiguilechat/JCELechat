@@ -13,12 +13,19 @@ public class TestOrbitals
     extends Orbitals
 {
     /**
-     * How long it takes to unanchor this object.
+     * The difficulty in opening this object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double AccessDifficulty;
+    /**
+     * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(60000)
-    public int UnanchoringDelay;
+    public int AnchoringDelay;
     /**
      * How long it takes to bring this object online.
      */
@@ -27,12 +34,12 @@ public class TestOrbitals
     @DefaultIntValue(60000)
     public int OnliningDelay;
     /**
-     * The difficulty in opening this object.
+     * How long it takes to unanchor this object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double AccessDifficulty;
+    @DefaultIntValue(60000)
+    public int UnanchoringDelay;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
@@ -40,13 +47,6 @@ public class TestOrbitals
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
-    /**
-     * How long it takes to anchor or unanchor this object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int AnchoringDelay;
     public final static String RESOURCE_PATH = "SDE/items/orbitals/TestOrbitals.yaml";
     private static LinkedHashMap<String, TestOrbitals> cache = (null);
 

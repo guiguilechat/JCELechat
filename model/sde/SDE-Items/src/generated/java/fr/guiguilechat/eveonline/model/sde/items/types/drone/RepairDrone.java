@@ -13,26 +13,12 @@ public class RepairDrone
     extends Drone
 {
     /**
-     * Damage multiplier.
+     * An amount to modify the armor damage by.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
-    /**
-     * The maximum number of their targets that the character can attack at a given time.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxAttackTargets;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
+    public int ArmorDamageAmount;
     /**
      * DO NOT MESS WITH
      */
@@ -41,6 +27,27 @@ public class RepairDrone
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
+     * Damage multiplier.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double DamageMultiplier;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamage;
+    /**
      * 
      */
     @HighIsGood(false)
@@ -48,19 +55,26 @@ public class RepairDrone
     @DefaultIntValue(0)
     public int FighterAbilityAntiFighterMissileResistance;
     /**
-     * An amount to modify the structural damage by.
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double KineticDamage;
+    /**
+     * The maximum number of their targets that the character can attack at a given time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureDamageAmount;
+    public int MaxAttackTargets;
     /**
-     * An amount to modify the armor damage by.
+     * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int ArmorDamageAmount;
+    public int MaxRange;
     /**
      * The range at which this thing does it thing.
      */
@@ -83,26 +97,12 @@ public class RepairDrone
     @DefaultIntValue(0)
     public int Speed;
     /**
-     * Explosive damage done.
+     * An amount to modify the structural damage by.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
-    /**
-     * Kinetic damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double KineticDamage;
-    /**
-     * Distance below which range does not affect the to-hit equation.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
     @DefaultIntValue(0)
-    public int MaxRange;
+    public int StructureDamageAmount;
     public final static String RESOURCE_PATH = "SDE/items/drone/RepairDrone.yaml";
     private static LinkedHashMap<String, RepairDrone> cache = (null);
 

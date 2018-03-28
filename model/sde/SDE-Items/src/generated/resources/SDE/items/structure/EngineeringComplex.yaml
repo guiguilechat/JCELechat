@@ -67,7 +67,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 14
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35826
     name: Azbel
@@ -135,7 +134,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 9
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35825
     name: Raitaru
@@ -209,7 +207,6 @@ items:
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
-    VulnerabilityRequired: 26
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35827
     name: Sotiyo

@@ -13,33 +13,12 @@ public class ReprocessingArray
     extends Starbase
 {
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
      * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double AnchoringSecurityLevelMax;
-    /**
-     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Uniformity;
     /**
      * The number of hit points on the entities armor.
      */
@@ -48,13 +27,6 @@ public class ReprocessingArray
     @DefaultIntValue(0)
     public int ArmorHP;
     /**
-     * The maximum distance at which the object can be used.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxOperationalDistance;
-    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -62,12 +34,26 @@ public class ReprocessingArray
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
-     * The factor by which the structure modifies the using pilot's refining yield rate.
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * The maximum distance at which the object can be used.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
-    public double RefiningYieldMultiplier;
+    @DefaultIntValue(0)
+    public int MaxOperationalDistance;
     /**
      * The amount of time that is taken to refine the ore into the end product.  The structure is busy for the length of this process.
      */
@@ -76,12 +62,40 @@ public class ReprocessingArray
     @DefaultIntValue(0)
     public int OperationalDuration;
     /**
-     * Radar strength.
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The factor by which the structure modifies the using pilot's refining yield rate.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.5)
+    public double RefiningYieldMultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -97,26 +111,19 @@ public class ReprocessingArray
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double ScanRadarStrength;
     /**
-     * Required skill level for skill 1
+     * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    public int ShieldCapacity;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -139,19 +146,12 @@ public class ReprocessingArray
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
-     * The type ID of the skill that is required.
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
     private static LinkedHashMap<String, ReprocessingArray> cache = (null);
 

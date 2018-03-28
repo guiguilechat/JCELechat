@@ -12,19 +12,19 @@ public class Satellite
     extends Celestial
 {
     /**
-     * Attribute to disallow targetting.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Untargetable;
-    /**
      * The distance at which to react when relevant objects come within range.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ProximityRange;
+    /**
+     * Attribute to disallow targetting.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Untargetable;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Satellite.yaml";
     private static LinkedHashMap<String, Satellite> cache = (null);
 

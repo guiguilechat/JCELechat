@@ -15,122 +15,10 @@ public class SupportFighter
     /**
      * Duration
      */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierDuration;
-    /**
-     * Maximum Velocity Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierSpeedPenalty;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierSpeedPenaltyInterim;
-    /**
-     * Optimal Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierOptimalRange;
-    /**
-     * Effectiveness Falloff
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierFalloffRange;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityStasisWebifierResistanceID;
-    /**
-     * Duration
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityWarpDisruptionDuration;
-    /**
-     * Optimal Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityWarpDisruptionRange;
-    /**
-     * Warp Disruption Strength
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityWarpDisruptionPointStrength;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityWarpDisruptionPointStrengthInterim;
-    /**
-     * Duration
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEnergyNeutralizerDuration;
-    /**
-     * Optimal Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEnergyNeutralizerOptimalRange;
-    /**
-     * Effectiveness Falloff
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEnergyNeutralizerFalloffRange;
-    /**
-     * Energy Amount Neutralized
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEnergyNeutralizerAmount;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterSquadronIsSupport;
-    /**
-     * Duration
-     */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityECMDuration;
-    /**
-     * Optimal Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityECMRangeOptimal;
     /**
      * Effectiveness Falloff
      */
@@ -139,12 +27,12 @@ public class SupportFighter
     @DefaultIntValue(0)
     public int FighterAbilityECMRangeFalloff;
     /**
-     * 
+     * Optimal Range
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int FighterSquadronIsStandupSupport;
+    public int FighterAbilityECMRangeOptimal;
     /**
      * Gravimetric ECM Jammer Strength
      */
@@ -179,14 +67,126 @@ public class SupportFighter
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityECMTargetSuccess;
+    public int FighterAbilityECMTargetJam;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityECMTargetJam;
+    public int FighterAbilityECMTargetSuccess;
+    /**
+     * Energy Amount Neutralized
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerAmount;
+    /**
+     * Duration
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerDuration;
+    /**
+     * Effectiveness Falloff
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerFalloffRange;
+    /**
+     * Optimal Range
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityEnergyNeutralizerOptimalRange;
+    /**
+     * Duration
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierDuration;
+    /**
+     * Effectiveness Falloff
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierFalloffRange;
+    /**
+     * Optimal Range
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierOptimalRange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierResistanceID;
+    /**
+     * Maximum Velocity Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierSpeedPenalty;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityStasisWebifierSpeedPenaltyInterim;
+    /**
+     * Duration
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionDuration;
+    /**
+     * Warp Disruption Strength
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionPointStrength;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionPointStrengthInterim;
+    /**
+     * Optimal Range
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityWarpDisruptionRange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterSquadronIsStandupSupport;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterSquadronIsSupport;
     public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
     private static LinkedHashMap<String, SupportFighter> cache = (null);
 

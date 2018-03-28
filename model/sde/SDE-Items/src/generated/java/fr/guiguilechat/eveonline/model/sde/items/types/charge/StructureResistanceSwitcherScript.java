@@ -13,19 +13,19 @@ public class StructureResistanceSwitcherScript
     extends Charge
 {
     /**
+     * Sets Em damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ArmorEmDamageResonancePostAssignment;
+    /**
      * Sets Explosive damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonancePostAssignment;
-    /**
-     * The size of the charges that can fit in the turret/whatever.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeSize;
     /**
      * Sets Kinetic damage taken by Armor. 
      */
@@ -40,6 +40,34 @@ public class StructureResistanceSwitcherScript
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonancePostAssignment;
+    /**
+     * The size of the charges that can fit in the turret/whatever.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeSize;
+    /**
+     * Sets Em damage taken by Hull. 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EmDamageResonancePostAssignment;
+    /**
+     * Sets Explosive damage taken by Hull. 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double ExplosiveDamageResonancePostAssignment;
+    /**
+     * Sets Kinetic damage taken by Hull. 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double KineticDamageResonancePostAssignment;
     /**
      * Sets Em damage taken by Shields. 
      */
@@ -69,40 +97,12 @@ public class StructureResistanceSwitcherScript
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonancePostAssignment;
     /**
-     * Sets Em damage taken by Hull. 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EmDamageResonancePostAssignment;
-    /**
-     * Sets Explosive damage taken by Hull. 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ExplosiveDamageResonancePostAssignment;
-    /**
      * Sets Thermal damage taken by Hull. 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonancePostAssignment;
-    /**
-     * Sets Kinetic damage taken by Hull. 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double KineticDamageResonancePostAssignment;
-    /**
-     * Sets Em damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonancePostAssignment;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureResistanceSwitcherScript.yaml";
     private static LinkedHashMap<String, StructureResistanceSwitcherScript> cache = (null);
 

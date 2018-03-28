@@ -12,12 +12,26 @@ public class AmarrEducation
     extends Bonus
 {
     /**
+     * Scales the capacitor need for fitted modules.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeedMultiplier;
+    /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CharismaSkillTrainingTimeMultiplierBonus;
+    /**
+     * Factor to adjust module cpu need by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double CpuMultiplier;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
@@ -32,20 +46,6 @@ public class AmarrEducation
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PerceptionSkillTrainingTimeMultiplierBonus;
-    /**
-     * Scales the capacitor need for fitted modules.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeedMultiplier;
-    /**
-     * Factor to adjust module cpu need by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/AmarrEducation.yaml";
     private static LinkedHashMap<String, AmarrEducation> cache = (null);
 

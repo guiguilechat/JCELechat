@@ -13,34 +13,6 @@ public class OrbitalInfrastructure
     extends Orbitals
 {
     /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
-     * Capacity of material bay
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialMaterialBayCapacity;
-    /**
-     * The number of seconds that the structure will be in reinforcement time
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(172800)
-    public int ReinforcementDuration;
-    /**
-     * The number of seconds that the reinforcement exit time will be adjusted by. exitTime +- attribute
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(10800)
-    public int ReinforcementVariance;
-    /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
@@ -61,6 +33,34 @@ public class OrbitalInfrastructure
     @Stackable(true)
     @DefaultDoubleValue(0.1)
     public double NpcCustomsOfficeTaxRate;
+    /**
+     * The number of seconds that the structure will be in reinforcement time
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(172800)
+    public int ReinforcementDuration;
+    /**
+     * The number of seconds that the reinforcement exit time will be adjusted by. exitTime +- attribute
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(10800)
+    public int ReinforcementVariance;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
+     * Capacity of material bay
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialMaterialBayCapacity;
     public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalInfrastructure.yaml";
     private static LinkedHashMap<String, OrbitalInfrastructure> cache = (null);
 

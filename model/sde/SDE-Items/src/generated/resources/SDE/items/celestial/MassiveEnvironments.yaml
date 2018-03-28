@@ -1,4 +1,22 @@
 items:
+  Background planet Gas:
+    id: 47455
+    name: Background planet Gas
+  Background planet Lava:
+    id: 47453
+    name: Background planet Lava
+  Background planet Moon:
+    id: 47451
+    name: Background planet Moon
+  Background planet Plasma:
+    id: 47454
+    name: Background planet Plasma
+  Background planet Sandstorm:
+    id: 47452
+    name: Background planet Sandstorm
+  Background planet Terestrial:
+    id: 47456
+    name: Background planet Terestrial
   Effect NPE Vortex:
     id: 42532
     name: Effect NPE Vortex
@@ -8,6 +26,54 @@ items:
   TestBackground_02:
     id: 47205
     name: TestBackground_02
+  blue_1_PLACEHOLDER:
+    id: 47381
+    name: blue_1_PLACEHOLDER
+  blue_2_PLACEHOLDER:
+    id: 47382
+    name: blue_2_PLACEHOLDER
+  blue_3_PLACEHOLDER:
+    id: 47383
+    name: blue_3_PLACEHOLDER
+  green_1_PLACEHOLDER:
+    id: 47384
+    name: green_1_PLACEHOLDER
+  green_2_PLACEHOLDER:
+    id: 47385
+    name: green_2_PLACEHOLDER
+  green_3_PLACEHOLDER:
+    id: 47386
+    name: green_3_PLACEHOLDER
+  orange_1_PLACEHOLDER:
+    id: 47390
+    name: orange_1_PLACEHOLDER
+  orange_2_PLACEHOLDER:
+    id: 47391
+    name: orange_2_PLACEHOLDER
+  orange_3_PLACEHOLDER:
+    id: 47392
+    name: orange_3_PLACEHOLDER
+  red_1_PLACEHOLDER:
+    id: 47378
+    name: red_1_PLACEHOLDER
+  red_2_PLACEHOLDER:
+    id: 47379
+    name: red_2_PLACEHOLDER
+  red_3_PLACEHOLDER:
+    id: 47380
+    name: red_3_PLACEHOLDER
   unnamed_gid21177_sid20220:
     id: 36464
     name: unnamed_gid21177_sid20220
+  white_1_PLACEHOLDER:
+    id: 47393
+    name: white_1_PLACEHOLDER
+  yellow_1_PLACEHOLDER:
+    id: 47387
+    name: yellow_1_PLACEHOLDER
+  yellow_2_PLACEHOLDER:
+    id: 47388
+    name: yellow_2_PLACEHOLDER
+  yellow_3_PLACEHOLDER:
+    id: 47389
+    name: yellow_3_PLACEHOLDER

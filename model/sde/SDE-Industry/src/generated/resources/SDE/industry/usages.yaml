@@ -1496,7 +1496,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末日沙场��YC117年特别版蓝图: null
+      末日沙场级YC117年特别版蓝图: null
     productManuf: !!set
       Armageddon Blueprint: null
   Armageddon Navy Issue:
@@ -3798,6 +3798,7 @@ usages:
       Dagon Blueprint: null
       Chemosh Blueprint: null
       Molok Blueprint: null
+      Marshal Blueprint: null
       Loggerhead Blueprint: null
       Caiman Blueprint: null
       Komodo Blueprint: null
@@ -5637,8 +5638,10 @@ usages:
       Caedes Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
       Victor Blueprint: null
       Virtuoso Blueprint: null
+      Monitor Blueprint: null
       Assault Damage Control II Blueprint: null
   Consumer Electronics:
     materialME: !!set
@@ -10914,7 +10917,7 @@ usages:
     materialManuf: !!set
       Sin Blueprint: null
       Dominix Quafe Edition Blueprint: null
-      多米尼克斯级YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版���图: null
     productManuf: !!set
       Dominix Blueprint: null
   Dominix Navy Issue:
@@ -10945,7 +10948,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙级YC117年特别版蓝图: null
+      幼龙级YC117年特别版��图: null
     productManuf: !!set
       Drake Blueprint: null
   Drake Navy Issue:
@@ -12965,6 +12968,7 @@ usages:
       '''Excavator'' Ice Harvesting Drone Blueprint': null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
       Victor Blueprint: null
       Virtuoso Blueprint: null
       Standup Firbolg II Blueprint: null
@@ -13276,6 +13280,8 @@ usages:
       Locust II Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Scarab II Blueprint: null
       Standup Variable Spectrum ECM II Blueprint: null
       Standup Signal Amplifier II Blueprint: null
@@ -15218,7 +15224,7 @@ usages:
       Incursus Blueprint: null
   Ishtar:
     materialManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
+      伊什���级YC117年特别版蓝图: null
     productManuf: !!set
       Ishtar Blueprint: null
   Ishtar Blueprint:
@@ -16055,11 +16061,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -16125,6 +16131,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -18407,6 +18415,9 @@ usages:
       Keepstar Blueprint: null
       Sotiyo Blueprint: null
       Upwell Palatine Keepstar Blueprint: null
+  Marshal:
+    productManuf: !!set
+      Marshal Blueprint: null
   Mastodon:
     productManuf: !!set
       Mastodon Blueprint: null
@@ -20219,11 +20230,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -20274,6 +20285,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -21370,11 +21383,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -21418,6 +21431,8 @@ usages:
       Defender Launcher I Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -22228,6 +22243,9 @@ usages:
   Molok:
     productManuf: !!set
       Molok Blueprint: null
+  Monitor:
+    productManuf: !!set
+      Monitor Blueprint: null
   Moon Harvesting Array:
     materialManuf: !!set
       Moon Harvesting Array Blueprint: null
@@ -22803,8 +22821,10 @@ usages:
       '''Excavator'' Ice Harvesting Drone Blueprint': null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
       Victor Blueprint: null
       Virtuoso Blueprint: null
+      Monitor Blueprint: null
       Standup Templar II Blueprint: null
       Standup Equite II Blueprint: null
       Standup Dragonfly II Blueprint: null
@@ -24208,11 +24228,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -24268,6 +24288,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -24517,6 +24539,7 @@ usages:
       Dromi II Blueprint: null
       Einherji II Blueprint: null
       Gram II Blueprint: null
+      Monitor Blueprint: null
       Standup Einherji II Blueprint: null
       Standup Gram II Blueprint: null
       Standup Dromi II Blueprint: null
@@ -25172,8 +25195,10 @@ usages:
       '''Excavator'' Ice Harvesting Drone Blueprint': null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
       Victor Blueprint: null
       Virtuoso Blueprint: null
+      Monitor Blueprint: null
       Standup Siren II Blueprint: null
       Standup Focused Warp Disruptor II Blueprint: null
       Standup Variable Spectrum ECM II Blueprint: null
@@ -25296,6 +25321,8 @@ usages:
       Gram II Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Einherji II Blueprint: null
       Standup Gram II Blueprint: null
       Standup Tyrfing II Blueprint: null
@@ -25708,6 +25735,9 @@ usages:
   Praetor TD-900:
     productManuf: !!set
       Praetor TD-900 Blueprint: null
+  Praxis:
+    productManuf: !!set
+      Praxis Blueprint: null
   Precise Compounds:
     materialManuf: !!set
       Afocal Precise Quad Mega Pulse Laser Blueprint: null
@@ -27254,11 +27284,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -27305,6 +27335,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -28378,6 +28410,7 @@ usages:
       Standup L-Set Capital Ship Manufacturing Efficiency II Blueprint: null
       Victor Blueprint: null
       Virtuoso Blueprint: null
+      Monitor Blueprint: null
       Standup Templar II Blueprint: null
       Standup Equite II Blueprint: null
       Standup Dragonfly II Blueprint: null
@@ -30870,7 +30903,7 @@ usages:
       Raven Guristas Edition Blueprint: null
       Raven Kaalakiota Edition Blueprint: null
       Raven Nugoeihuvi Edition Blueprint: null
-      乌鸦级YC117年特��版蓝图: null
+      乌鸦级YC117年特别版蓝图: null
     productManuf: !!set
       Raven Blueprint: null
   Raven Guristas Edition:
@@ -36107,6 +36140,9 @@ usages:
   Standup M-Set Advanced Small Ship Manufacturing Time Efficiency II Blueprint:
     productInvention: !!set
       Standup M-Set Advanced Small Ship Manufacturing Time Efficiency I Blueprint: null
+  Standup M-Set Ammunition Manufacturing Material Efficiency I:
+    productManuf: !!set
+      Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint: null
   Standup M-Set Ammunition Manufacturing Material Efficiency II:
     productManuf: !!set
       Standup M-Set Ammunition Manufacturing Material Efficiency II Blueprint: null
@@ -36122,9 +36158,6 @@ usages:
   Standup M-Set Ammunition Manufacturing Time Efficiency II Blueprint:
     productInvention: !!set
       Standup M-Set Ammunition Manufacturing Time Efficiency I Blueprint: null
-  Standup M-Set Ammunition Manufacturing Material Efficiency I:
-    productManuf: !!set
-      Standup M-Set Ammunition Manufacturing Material Efficiency I Blueprint: null
   Standup M-Set Asteroid Ore Grading Processor I:
     productManuf: !!set
       Standup M-Set Asteroid Ore Grading Processor I Blueprint: null
@@ -37359,6 +37392,8 @@ usages:
       Capital Flex Armor Hardener II Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Dragonfly II Blueprint: null
       Standup Locust II Blueprint: null
       Standup Scarab II Blueprint: null
@@ -38184,6 +38219,8 @@ usages:
       Caedes Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup XL Energy Neutralizer II Blueprint: null
       Standup Heavy Energy Neutralizer II Blueprint: null
       Standup Cap Battery II Blueprint: null
@@ -40013,11 +40050,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -40081,6 +40118,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -40117,6 +40156,7 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Praxis Blueprint: null
   True Sansha Capital Capacitor Booster:
     productManuf: !!set
       True Sansha Capital Capacitor Booster Blueprint: null
@@ -40270,6 +40310,8 @@ usages:
       Caedes Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Layered Armor Plating II Blueprint: null
     productManuf: !!set
       Tungsten Carbide Armor Plate Blueprint: null
@@ -41682,11 +41724,11 @@ usages:
       Gravitational Transportation Field Oscillator Blueprint: null
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -41737,6 +41779,8 @@ usages:
       Focused Warp Scrambling Script Blueprint: null
       Pacifier Blueprint: null
       Enforcer Blueprint: null
+      Marshal Blueprint: null
+      Monitor Blueprint: null
       Standup Composite Reactor I Blueprint: null
       Standup Hybrid Reactor I Blueprint: null
       Standup Biochemical Reactor I Blueprint: null
@@ -41792,16 +41836,19 @@ usages:
       ‘Iron Pike’ Kinetic Lance Blueprint: null
   ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
-      ‘Jormungandr’ Explosive Reaper Blueprint: null
+      ���Jormungandr’ Explosive Reaper Blueprint: null
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
-      ‘Phalarica’ Thermal Lance Blueprint: null
+      ��Phalarica’ Thermal Lance Blueprint: null
+  万王宝座级YC117年特别版:
+    productManuf: !!set
+      万王宝座级YC117年特别版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
-      乌鸦级YC117年特��版蓝图: null
+      乌鸦级YC117年特别版蓝图: null
   伊什塔级YC117年特别版:
     productManuf: !!set
-      伊什塔级YC117年特别版蓝图: null
+      伊什���级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
       响尾蛇级YC117年特别版蓝图: null
@@ -41810,25 +41857,22 @@ usages:
       地狱天使级YC117年特别版蓝图: null
   多米尼克斯级YC117年特别版:
     productManuf: !!set
-      多米尼克斯级YC117年特别版蓝图: null
+      多米尼克斯级YC117年特别版���图: null
   幼龙级YC117年特别版:
     productManuf: !!set
-      幼龙级YC117年特别版蓝图: null
-  末日沙场��YC117年特别版:
+      幼龙级YC117年特别版��图: null
+  末日沙场级YC117年特别版:
     productManuf: !!set
-      末日沙场��YC117年特别版蓝图: null
-  毒蜥级YC117年特别版:
+      末日沙场级YC117年特别版蓝图: null
+  毒蜥级YC117年���别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
-  灾难级YC117年特别版:
+  灾难级YC117年特别��:
     productManuf: !!set
       灾难级YC117年特别版蓝图: null
-  银���级YC117年特别版:
+  银鹰级YC117年特别版:
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
   马克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
-  ��王宝座级YC117年特别版:
-    productManuf: !!set
-      万王宝座级YC117年特别版蓝图: null

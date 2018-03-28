@@ -13,34 +13,6 @@ public class TargetBreaker
     extends Module
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -62,33 +34,33 @@ public class TargetBreaker
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Improves the targeting time of ships by boosting the Scan Resolution.
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionMultiplier;
+    public double CapacitorNeed;
     /**
-     * Required skill level for skill 1
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double OverloadSelfDurationBonus;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
@@ -108,8 +80,36 @@ public class TargetBreaker
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double OverloadSelfDurationBonus;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -118,12 +118,12 @@ public class TargetBreaker
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
     /**
-     * current power need
+     * Improves the targeting time of ships by boosting the Scan Resolution.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultDoubleValue(0.0)
+    public double ScanResolutionMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
     private static LinkedHashMap<String, TargetBreaker> cache = (null);
 

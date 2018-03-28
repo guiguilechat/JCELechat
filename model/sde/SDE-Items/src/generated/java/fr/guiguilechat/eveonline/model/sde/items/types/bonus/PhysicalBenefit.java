@@ -12,12 +12,12 @@ public class PhysicalBenefit
     extends Bonus
 {
     /**
-     * Additional percentage to the characters missile damage multiplier.
+     * Scales the accuracy of some targeted weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double MissileDamageMultiplierBonus;
+    @DefaultDoubleValue(1.0)
+    public double AccuracyMultiplier;
     /**
      * Multiplier to the agility of an object.
      */
@@ -26,12 +26,12 @@ public class PhysicalBenefit
     @DefaultDoubleValue(0.0)
     public double AgilityMultiplier;
     /**
-     * Factor to adjust module cpu need by.
+     * Bonus or penalty to the percentage time it takes to manufacture from a blueprint.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
+    @DefaultDoubleValue(0.0)
+    public double BlueprintManufactureTimeMultiplierBonus;
     /**
      * Bonus or penalty to the percentage time it takes to research a blueprint.
      */
@@ -40,19 +40,12 @@ public class PhysicalBenefit
     @DefaultDoubleValue(0.0)
     public double BlueprintResearchTimeMultiplierBonus;
     /**
-     * Scales the accuracy of some targeted weapon.
+     * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double AccuracyMultiplier;
-    /**
-     * Bonus or penalty to the percentage time it takes to manufacture from a blueprint.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double BlueprintManufactureTimeMultiplierBonus;
+    public double CpuMultiplier;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
      */
@@ -60,6 +53,13 @@ public class PhysicalBenefit
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double MiningAmountMultiplier;
+    /**
+     * Additional percentage to the characters missile damage multiplier.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double MissileDamageMultiplierBonus;
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalBenefit.yaml";
     private static LinkedHashMap<String, PhysicalBenefit> cache = (null);
 

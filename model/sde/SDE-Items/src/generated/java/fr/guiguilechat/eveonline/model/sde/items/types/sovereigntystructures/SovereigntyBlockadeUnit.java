@@ -13,54 +13,12 @@ public class SovereigntyBlockadeUnit
     extends SovereigntyStructures
 {
     /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Uniformity;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorEmDamageResonance;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
@@ -69,12 +27,12 @@ public class SovereigntyBlockadeUnit
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * DO NOT MESS WITH
+     * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    @DefaultIntValue(0)
+    public int ArmorHP;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
@@ -89,6 +47,27 @@ public class SovereigntyBlockadeUnit
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -111,6 +90,13 @@ public class SovereigntyBlockadeUnit
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -118,12 +104,26 @@ public class SovereigntyBlockadeUnit
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * Amount of time taken to fully recharge the shield.
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
+    public double ShieldUniformity;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
     private static LinkedHashMap<String, SovereigntyBlockadeUnit> cache = (null);
 

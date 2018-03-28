@@ -12,19 +12,19 @@ public class StrategicUpgrades
     extends InfrastructureUpgrades
 {
     /**
-     * The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SovBillSystemCost;
-    /**
      * The minimum required sovereignty index level
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DevIndexSovereignty;
+    /**
+     * The sum of this attribute on the claim markers, Infrastructure hub, and each upgrade is the systems base cost. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SovBillSystemCost;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/StrategicUpgrades.yaml";
     private static LinkedHashMap<String, StrategicUpgrades> cache = (null);
 

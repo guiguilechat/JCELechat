@@ -13,13 +13,6 @@ public class StructureCapacitorBattery
     extends StructureModule
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * Extra batteries to add capacitor.
      */
     @HighIsGood(true)
@@ -27,12 +20,12 @@ public class StructureCapacitorBattery
     @DefaultIntValue(0)
     public int CapacitorBonus;
     /**
-     * Tech level of an item
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * The maximum hitpoints of an object.
      */
@@ -61,6 +54,13 @@ public class StructureCapacitorBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCapacitorBattery.yaml";
     private static LinkedHashMap<String, StructureCapacitorBattery> cache = (null);
 

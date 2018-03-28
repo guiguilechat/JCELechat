@@ -12,19 +12,19 @@ public class SkillInjectors
     extends Accessories
 {
     /**
-     * The maximum amount of skill points that the character can have before the item is unusable
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxCharacterSkillPointLimit;
-    /**
      * The amount of skill points contained in this item
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ContainedSkillPoints;
+    /**
+     * The maximum amount of skill points that the character can have before the item is unusable
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxCharacterSkillPointLimit;
     public final static String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
     private static LinkedHashMap<String, SkillInjectors> cache = (null);
 

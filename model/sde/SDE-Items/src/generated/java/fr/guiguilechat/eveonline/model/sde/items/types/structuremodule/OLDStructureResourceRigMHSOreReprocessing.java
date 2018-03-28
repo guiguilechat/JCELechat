@@ -13,48 +13,6 @@ public class OLDStructureResourceRigMHSOreReprocessing
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * The factor by which the structure modifies the using pilot's refining yield rate.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.5)
-    public double RefiningYieldMultiplier;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -66,22 +24,8 @@ public class OLDStructureResourceRigMHSOreReprocessing
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HiSecModifier;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double LowSecModifier;
     /**
      * 
      */
@@ -95,7 +39,49 @@ public class OLDStructureResourceRigMHSOreReprocessing
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
+    public double HiSecModifier;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double LowSecModifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
     public double NullSecModifier;
+    /**
+     * The factor by which the structure modifies the using pilot's refining yield rate.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.5)
+    public double RefiningYieldMultiplier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -109,14 +95,14 @@ public class OLDStructureResourceRigMHSOreReprocessing
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SecurityModifier;
+    public int RigSize;
     /**
-     * The type ID of the skill that is required.
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int SecurityModifier;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -124,6 +110,20 @@ public class OLDStructureResourceRigMHSOreReprocessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/OLDStructureResourceRigMHSOreReprocessing.yaml";
     private static LinkedHashMap<String, OLDStructureResourceRigMHSOreReprocessing> cache = (null);
 

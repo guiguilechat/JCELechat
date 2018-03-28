@@ -13,13 +13,6 @@ public class OrbitalAssaultUnit
     extends Charge
 {
     /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -27,26 +20,26 @@ public class OrbitalAssaultUnit
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The maximum hitpoints of an object.
+     * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Hp;
+    public int DetonationRange;
     /**
-     * One of the groups of launcher this charge can be loaded into.
+     * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double EmDamage;
+    /**
+     * The amount of milliseconds before the object explodes.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int ExplosionDelay;
     /**
      * Range in meters of explosion effect area.
      */
@@ -55,12 +48,40 @@ public class OrbitalAssaultUnit
     @DefaultIntValue(0)
     public int ExplosionRange;
     /**
-     * the range in meters for an object to trigger detonation of missile. (own ship excluded)
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ExplosiveDamage;
+    /**
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DetonationRange;
+    public int Hp;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double KineticDamage;
+    /**
+     * One of the groups of launcher this charge can be loaded into.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocity;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
@@ -76,26 +97,12 @@ public class OrbitalAssaultUnit
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
-     * EM damage done.
+     * Tech level of an item
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double EmDamage;
-    /**
-     * Explosive damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
-    /**
-     * Kinetic damage done.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * Thermal damage done.
      */
@@ -103,13 +110,6 @@ public class OrbitalAssaultUnit
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
-    /**
-     * The amount of milliseconds before the object explodes.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
     public final static String RESOURCE_PATH = "SDE/items/charge/OrbitalAssaultUnit.yaml";
     private static LinkedHashMap<String, OrbitalAssaultUnit> cache = (null);
 

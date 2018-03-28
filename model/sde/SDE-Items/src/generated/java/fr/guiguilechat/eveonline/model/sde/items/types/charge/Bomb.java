@@ -13,13 +13,6 @@ public class Bomb
     extends Charge
 {
     /**
-     * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int AimedLaunch;
-    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -27,61 +20,12 @@ public class Bomb
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * One of the groups of launcher this charge can be loaded into.
+     * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Multiplies EM damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonance;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
-     * Multiplies EXPLOSIVE damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorExplosiveDamageResonance;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
-     * Multiplies KINETIC damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
+    public int AimedLaunch;
     /**
      * Size of the damage cloud caused by impact.
      */
@@ -90,13 +34,6 @@ public class Bomb
     @DefaultIntValue(0)
     public int AoeCloudSize;
     /**
-     * Multiplies THERMAL damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -104,54 +41,47 @@ public class Bomb
     @DefaultIntValue(0)
     public int AoeFalloff;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The amount of milliseconds before the object explodes.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
-    /**
-     * Range of broadcasted EMP field.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EmpFieldRange;
-    /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
+     * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    @DefaultDoubleValue(1.0)
+    public double ArmorEmDamageResonance;
     /**
-     * Range in meters of explosion effect area.
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ArmorExplosiveDamageResonance;
+    /**
+     * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ExplosionRange;
+    public int ArmorHP;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ArmorKineticDamageResonance;
+    /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ArmorThermalDamageResonance;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */
@@ -174,12 +104,40 @@ public class Bomb
     @DefaultDoubleValue(0.0)
     public double EmDamage;
     /**
+     * Range of broadcasted EMP field.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EmpFieldRange;
+    /**
+     * The amount of milliseconds before the object explodes.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
+    /**
+     * Range in meters of explosion effect area.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ExplosionRange;
+    /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ExplosiveDamage;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
     /**
      * Kinetic damage done.
      */
@@ -188,12 +146,26 @@ public class Bomb
     @DefaultDoubleValue(0.0)
     public double KineticDamage;
     /**
-     * Thermal damage done.
+     * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
+     * Maximum velocity of ship
+     */
+    @HighIsGood(true)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double MaxVelocity;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
     /**
      * The type ID of the skill that is required.
      */
@@ -202,12 +174,40 @@ public class Bomb
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * The ranking of the module within its tech level
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int RequiredSkill1Level;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Thermal damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/Bomb.yaml";
     private static LinkedHashMap<String, Bomb> cache = (null);
 

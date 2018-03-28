@@ -1211,6 +1211,10 @@ items:
     id: 30927
     name: Sleeper Archive Terminal
     volume: 1.0E8
+  Sleeper Bunker:
+    id: 47401
+    name: Sleeper Bunker
+    volume: 1.0E8
   Small Armory:
     id: 16215
     name: Small Armory

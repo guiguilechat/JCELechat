@@ -13,13 +13,6 @@ public class ObsoleteProbes
     extends Charge
 {
     /**
-     * Maximum velocity of ship
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
-    /**
      * The agility of the object.
      */
     @HighIsGood(false)
@@ -27,12 +20,19 @@ public class ObsoleteProbes
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
-     * Tech level of an item
+     * The amount of milliseconds before the object explodes.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
+    /**
+     * Range in meters of explosion effect area.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultIntValue(0)
+    public int ExplosionRange;
     /**
      * The maximum hitpoints of an object.
      */
@@ -48,26 +48,61 @@ public class ObsoleteProbes
     @DefaultIntValue(0)
     public int LauncherGroup;
     /**
-     * Range in meters of explosion effect area.
+     * Maximum scan error
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ExplosionRange;
+    @DefaultDoubleValue(0.0)
+    public double MaxScanDeviation;
     /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
-    /**
-     * Radar strength.
+     * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double MaxVelocity;
+    /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * Minimum scanning error
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MinScanDeviation;
+    /**
+     * Number of probes to analyze
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(3)
+    public int ProbesInGroup;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Gravimetric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanGravimetricStrength;
     /**
      * Ladar strength.
      */
@@ -83,61 +118,12 @@ public class ObsoleteProbes
     @DefaultDoubleValue(0.0)
     public double ScanMagnetometricStrength;
     /**
-     * Gravimetric strength.
+     * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
-    /**
-     * Minimum scanning error
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MinScanDeviation;
-    /**
-     * Maximum scan error
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double MaxScanDeviation;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The amount of milliseconds before the object explodes.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
-    /**
-     * Number of probes to analyze
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(3)
-    public int ProbesInGroup;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
+    public double ScanRadarStrength;
     /**
      * Effective range of scanner in multiples of AUs
      */
@@ -145,6 +131,20 @@ public class ObsoleteProbes
     @Stackable(true)
     @DefaultIntValue(10)
     public int ScanRange;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/ObsoleteProbes.yaml";
     private static LinkedHashMap<String, ObsoleteProbes> cache = (null);
 

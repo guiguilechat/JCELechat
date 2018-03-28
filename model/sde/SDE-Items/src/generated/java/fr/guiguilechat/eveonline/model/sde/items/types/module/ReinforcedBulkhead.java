@@ -13,12 +13,12 @@ public class ReinforcedBulkhead
     extends Module
 {
     /**
-     * CPU need of module
+     * Multiplier to the agility of an object.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double AgilityMultiplier;
     /**
      * Multiplier to the amount of cargo capacity for a ship.
      */
@@ -27,33 +27,12 @@ public class ReinforcedBulkhead
     @DefaultDoubleValue(1.0)
     public double CargoCapacityMultiplier;
     /**
-     * Required skill level for skill 1
+     * CPU need of module
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Multiplier to the ships structural HP.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureHPMultiplier;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Multiplier to the agility of an object.
-     */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AgilityMultiplier;
+    public double Cpu;
     /**
      * meta group of type
      */
@@ -68,6 +47,27 @@ public class ReinforcedBulkhead
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Multiplier to the ships structural HP.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureHPMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ReinforcedBulkhead.yaml";
     private static LinkedHashMap<String, ReinforcedBulkhead> cache = (null);
 

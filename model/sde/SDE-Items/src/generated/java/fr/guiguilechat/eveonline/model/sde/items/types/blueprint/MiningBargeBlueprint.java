@@ -13,19 +13,19 @@ public class MiningBargeBlueprint
     extends Blueprint
 {
     /**
-     * Multiplies the job cost for this blueprint type by the specified value
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int IndustryJobCostMultiplier;
-    /**
      * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    /**
+     * Multiplies the job cost for this blueprint type by the specified value
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int IndustryJobCostMultiplier;
     /**
      * Tech level of an item
      */

@@ -248,6 +248,8 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 1350.0
     CpuOutput: 440
+    DroneBandwidth: 25
+    DroneCapacity: 25
     EliteBonusHeavyGunship1: 10
     EliteBonusHeavyGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -275,7 +277,7 @@ items:
     MaxLockedTargets: 8
     MaxPassengers: 580
     MaxTargetRange: 90000
-    MaxVelocity: 190.0
+    MaxVelocity: 202.0
     MedSlots: 6
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 1.0
@@ -483,7 +485,7 @@ items:
     Agility: 0.5709999799728394
     ArmorEmDamageResonance: 0.10000000149011612
     ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 2000
+    ArmorHP: 2150
     ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.32499998807907104
     ArmorUniformity: 0.75
@@ -508,7 +510,7 @@ items:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.75
-    HiSlots: 6
+    HiSlots: 5
     Hp: 1400
     KineticDamageResonance: 0.6700000166893005
     LauncherSlotsLeft: 1
@@ -519,8 +521,8 @@ items:
     MaxLockedTargets: 6
     MaxPassengers: 580
     MaxTargetRange: 80000
-    MaxVelocity: 230.0
-    MedSlots: 3
+    MaxVelocity: 250.0
+    MedSlots: 4
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 1.0
     PowerOutput: 1160
@@ -546,8 +548,8 @@ items:
     ShipBonusCC: 5
     ShipBonusGC: 5.0
     ShipBonusMC: -5.0
-    ShipBonusMC2: 5.0
-    SignatureRadius: 125
+    ShipBonusMC2: 7.5
+    SignatureRadius: 115
     StructureUniformity: 1.0
     TechLevel: 2
     ThermalDamageResonance: 0.6700000166893005
@@ -883,7 +885,7 @@ items:
     id: 12003
     name: Zealot
     volume: 118000.0
-  伊什塔级YC117年��别版:
+  伊什塔级YC117年特别版:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -962,7 +964,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 34479
-    name: 伊什塔级YC117年��别版
+    name: 伊什塔级YC117年特别版
     volume: 115000.0
   银鹰级YC117年特别版:
     Agility: 0.5759999752044678

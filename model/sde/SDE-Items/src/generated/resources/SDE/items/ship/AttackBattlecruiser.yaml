@@ -282,7 +282,7 @@ items:
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
     ShipBonusMBC1: -5.0
-    ShipBonusMBC2: 5
+    ShipBonusMBC2: 5.0
     SignatureRadius: 195
     StructureUniformity: 1.0
     TechLevel: 1

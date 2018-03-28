@@ -27,20 +27,6 @@ public class StructureCapacitorPowerRelay
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
-    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -55,12 +41,12 @@ public class StructureCapacitorPowerRelay
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
-     * Dogma attribute that specifies if the item should have the structure icon or not.
+     * The ranking of the module within its tech level
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int MetaLevel;
     /**
      * current power need
      */
@@ -68,6 +54,20 @@ public class StructureCapacitorPowerRelay
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCapacitorPowerRelay.yaml";
     private static LinkedHashMap<String, StructureCapacitorPowerRelay> cache = (null);
 

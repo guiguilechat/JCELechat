@@ -159,6 +159,15 @@ items:
     id: 26482
     name: Amarr Elite Mining Barge Wreck
     volume: 27500.0
+  Amarr Faction Citadel Wreck:
+    AccessDifficulty: -10.0
+    ExplosionDelayWreck: 7200000
+    Hp: 50000000
+    SignatureRadius: 85000
+    StructureUniformity: 1.0
+    id: 47518
+    name: Amarr Faction Citadel Wreck
+    volume: 27500.0
   Amarr Force Auxiliary Wreck:
     AccessDifficulty: 10.0
     ExplosionDelayWreck: 7200000
@@ -694,6 +703,15 @@ items:
     id: 26504
     name: Caldari Elite Mining Barge Wreck
     volume: 27500.0
+  Caldari Faction Citadel Wreck:
+    AccessDifficulty: -10.0
+    ExplosionDelayWreck: 7200000
+    Hp: 50000000
+    SignatureRadius: 85000
+    StructureUniformity: 1.0
+    id: 47519
+    name: Caldari Faction Citadel Wreck
+    volume: 27500.0
   Caldari Force Auxiliary Wreck:
     AccessDifficulty: 10.0
     ExplosionDelayWreck: 7200000
@@ -843,6 +861,14 @@ items:
     StructureUniformity: 1.0
     id: 34768
     name: Drifter Battleship Wreck
+    volume: 27500.0
+  Drifter Cruiser Wreck:
+    ExplosionDelayWreck: 7200000
+    SignatureRadius: 100
+    StasisWebifierResistance: 1.0
+    StructureUniformity: 1.0
+    id: 47560
+    name: Drifter Cruiser Wreck
     volume: 27500.0
   Drifter Response Battleship Wreck:
     AccessDifficulty: -20.0
@@ -1063,6 +1089,15 @@ items:
     id: 26526
     name: Gallente Elite Mining Barge Wreck
     volume: 27500.0
+  Gallente Faction Citadel Wreck:
+    AccessDifficulty: -10.0
+    ExplosionDelayWreck: 7200000
+    Hp: 50000000
+    SignatureRadius: 85000
+    StructureUniformity: 1.0
+    id: 47520
+    name: Gallente Faction Citadel Wreck
+    volume: 27500.0
   Gallente Force Auxiliary Wreck:
     AccessDifficulty: 10.0
     ExplosionDelayWreck: 7200000
@@ -1281,6 +1316,15 @@ items:
     id: 41693
     name: Guristas Titan Wreck
     volume: 55000.0
+  Immensea Faction Citadel Wreck:
+    AccessDifficulty: -10.0
+    ExplosionDelayWreck: 7200000
+    Hp: 50000000
+    SignatureRadius: 85000
+    StructureUniformity: 1.0
+    id: 47517
+    name: Immensea Faction Citadel Wreck
+    volume: 27500.0
   Keepstar Wreck:
     AccessDifficulty: -10.0
     ExplosionDelayWreck: 7200000
@@ -1499,6 +1543,15 @@ items:
     StructureUniformity: 1.0
     id: 26548
     name: Minmatar Elite Mining Barge Wreck
+    volume: 27500.0
+  Minmatar Faction Citadel Wreck:
+    AccessDifficulty: -10.0
+    ExplosionDelayWreck: 7200000
+    Hp: 50000000
+    SignatureRadius: 85000
+    StructureUniformity: 1.0
+    id: 47521
+    name: Minmatar Faction Citadel Wreck
     volume: 27500.0
   Minmatar Force Auxiliary Wreck:
     AccessDifficulty: 10.0
@@ -2306,6 +2359,14 @@ items:
     StructureUniformity: 1.0
     id: 30485
     name: Sleeper Small Intermediate Wreck
+    volume: 27500.0
+  Sleeper Small Wreck:
+    ExplosionDelayWreck: 7200000
+    SignatureRadius: 100
+    StasisWebifierResistance: 1.0
+    StructureUniformity: 1.0
+    id: 47758
+    name: Sleeper Small Wreck
     volume: 27500.0
   Sleeper Upgraded Avenger Wreck:
     AccessDifficulty: -20.0

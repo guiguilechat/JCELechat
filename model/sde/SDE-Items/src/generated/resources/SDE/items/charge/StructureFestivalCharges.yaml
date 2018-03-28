@@ -1,0 +1,55 @@
+items:
+  Capsuleer Dawn Firework (Large):
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 1974
+    MaxVelocity: 2000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 47300
+    name: Capsuleer Dawn Firework (Large)
+    volume: 0.1
+  Crimson Helix Firework (Large):
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 1974
+    MaxVelocity: 2000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 47301
+    name: Crimson Helix Firework (Large)
+    volume: 0.1
+  Yoiul Blizzard Firework (Large):
+    Agility: 3000.0
+    AimedLaunch: 1
+    ArmorPiercingChance: 1
+    DetonationRange: 35
+    ExplosionDelay: 100000
+    Hp: 10
+    LauncherGroup: 1974
+    MaxVelocity: 2000.0
+    MissileNeverDoesDamage: 1
+    RequiredSkill1Level: 1
+    RequiredSkill2Level: 1
+    SpeedMultiplier: 1.0
+    StructureUniformity: 1.0
+    TechLevel: 1
+    id: 47302
+    name: Yoiul Blizzard Firework (Large)
+    volume: 0.1

@@ -13,19 +13,12 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     extends StructureModule
 {
     /**
-     * Bonus on Time decrease for engineering rigs
+     * Bonus on Cost decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigTimeBonus;
-    /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCost;
+    public int AttributeEngRigCostBonus;
     /**
      * Bonus on Material decrease for engineering rigs
      */
@@ -34,54 +27,12 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     @DefaultDoubleValue(0.0)
     public double AttributeEngRigMatBonus;
     /**
-     * Bonus on Cost decrease for engineering rigs
+     * Bonus on Time decrease for engineering rigs
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AttributeEngRigCostBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * High-sec bonus on structure rigs.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int StructureRigBonus1;
-    /**
-     * High-sec bonus on structure rigs.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double StructureRigBonus2;
+    public int AttributeEngRigTimeBonus;
     /**
      * 
      */
@@ -89,13 +40,6 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int CanFitShipGroup01;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HiSecModifier;
     /**
      * 
      */
@@ -116,7 +60,42 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
+    public double HiSecModifier;
+    /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
     public double LowSecModifier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double NullSecModifier;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -129,8 +108,8 @@ public class StructureEngineeringRigLAmmunitionEfficiency
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double NullSecModifier;
+    @DefaultIntValue(0)
+    public int RigSize;
     /**
      * 
      */
@@ -139,19 +118,40 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     @DefaultIntValue(0)
     public int SecurityModifier;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * High-sec bonus on structure rigs.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureRigBonus1;
+    /**
+     * High-sec bonus on structure rigs.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double StructureRigBonus2;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLAmmunitionEfficiency.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigLAmmunitionEfficiency> cache = (null);
 

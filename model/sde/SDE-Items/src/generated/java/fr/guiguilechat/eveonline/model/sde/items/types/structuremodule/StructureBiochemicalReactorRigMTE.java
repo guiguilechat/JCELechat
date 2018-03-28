@@ -13,26 +13,26 @@ public class StructureBiochemicalReactorRigMTE
     extends StructureModule
 {
     /**
-     * How much of the upgrade capacity is used when this is fitted to a ship.
+     * Time Bonus for refinery rigs
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeCost;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    public int RefRigTimeBonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int CanFitShipGroup03;
+    /**
+     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
     /**
      * The maximum hitpoints of an object.
      */
@@ -45,36 +45,15 @@ public class StructureBiochemicalReactorRigMTE
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSize;
-    /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup03;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double LowSecModifier;
     /**
-     * Required skill level for skill 1
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int MaxGroupFitted;
     /**
      * 
      */
@@ -90,6 +69,20 @@ public class StructureBiochemicalReactorRigMTE
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -97,19 +90,26 @@ public class StructureBiochemicalReactorRigMTE
     @DefaultIntValue(0)
     public int SecurityModifier;
     /**
-     * Time Bonus for refinery rigs
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RefRigTimeBonus;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * How much of the upgrade capacity is used when this is fitted to a ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBiochemicalReactorRigMTE.yaml";
     private static LinkedHashMap<String, StructureBiochemicalReactorRigMTE> cache = (null);
 

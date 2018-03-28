@@ -13,19 +13,19 @@ public class SystemScanner
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * Length of activation time.
      */
@@ -41,19 +41,19 @@ public class SystemScanner
     @DefaultIntValue(0)
     public int MaxGroupActive;
     /**
-     * Effective range of scanner in multiples of AUs
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(10)
-    public int ScanRange;
-    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * Effective range of scanner in multiples of AUs
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(10)
+    public int ScanRange;
     public final static String RESOURCE_PATH = "SDE/items/module/SystemScanner.yaml";
     private static LinkedHashMap<String, SystemScanner> cache = (null);
 

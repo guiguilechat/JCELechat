@@ -20,19 +20,19 @@ public class DroneUpgradeBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DroneUpgradeBlueprint.yaml";
     private static LinkedHashMap<String, DroneUpgradeBlueprint> cache = (null);
 

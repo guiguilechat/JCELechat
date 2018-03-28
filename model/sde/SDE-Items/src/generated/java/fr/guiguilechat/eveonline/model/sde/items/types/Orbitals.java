@@ -16,20 +16,6 @@ public abstract class Orbitals
     extends Item
 {
     /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
@@ -44,12 +30,19 @@ public abstract class Orbitals
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
-     * DO NOT MESS WITH
+     * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
     /**
      * Amount of time taken to fully recharge the shield.
      */
@@ -64,6 +57,13 @@ public abstract class Orbitals
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StructureUniformity;
 
     @Override
     public int getCategoryId() {

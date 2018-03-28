@@ -21,6 +21,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -75,6 +76,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -129,6 +131,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -188,6 +191,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -242,6 +246,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -296,6 +301,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -349,6 +355,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -402,6 +409,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -455,6 +463,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -508,6 +517,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 24
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -566,6 +576,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -620,6 +631,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -674,6 +686,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 25
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -729,6 +742,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 13
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -784,6 +798,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -839,6 +854,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -894,6 +910,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 1.0
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2
@@ -948,6 +965,7 @@ items:
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 1.0
     Hp: 16
+    JumpFatigueMultiplier: 0.10000000149011612
     KineticDamageResonance: 0.6700000166893005
     MainColor: 16777215
     MaxLockedTargets: 2

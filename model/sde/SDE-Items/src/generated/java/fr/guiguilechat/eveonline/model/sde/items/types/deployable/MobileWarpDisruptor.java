@@ -12,13 +12,6 @@ public class MobileWarpDisruptor
     extends Deployable
 {
     /**
-     * Maximum range objects can be warp scrambled from.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WarpScrambleRange;
-    /**
      * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
@@ -33,33 +26,12 @@ public class MobileWarpDisruptor
     @DefaultIntValue(0)
     public int DisallowInEmpireSpace;
     /**
-     * Required skill level for skill 1
+     * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int MetaGroupID;
     /**
      * The ranking of the module within its tech level
      */
@@ -68,12 +40,40 @@ public class MobileWarpDisruptor
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
-     * meta group of type
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * Maximum range objects can be warp scrambled from.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int WarpScrambleRange;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
     private static LinkedHashMap<String, MobileWarpDisruptor> cache = (null);
 

@@ -25,21 +25,14 @@ public class NPCForwardOperatingBase
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double NpcStructureStasisWebificationBonus;
+    public double NpcStructureEnergyWarfareBonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double NpcStructureEnergyWarfareBonus;
-    /**
-     * Number of hours of vulnerability each week required. Applies only to categoryStructure.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int VulnerabilityRequired;
+    public double NpcStructureStasisWebificationBonus;
     public final static String RESOURCE_PATH = "SDE/items/structure/NPCForwardOperatingBase.yaml";
     private static LinkedHashMap<String, NPCForwardOperatingBase> cache = (null);
 

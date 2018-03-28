@@ -13,13 +13,6 @@ public class CapacitorBattery
     extends Module
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * Extra batteries to add capacitor.
      */
     @HighIsGood(true)
@@ -27,19 +20,12 @@ public class CapacitorBattery
     @DefaultIntValue(0)
     public int CapacitorBonus;
     /**
-     * Required skill level for skill 1
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * 
      */
@@ -61,6 +47,20 @@ public class CapacitorBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/CapacitorBattery.yaml";
     private static LinkedHashMap<String, CapacitorBattery> cache = (null);
 

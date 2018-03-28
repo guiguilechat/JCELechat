@@ -13,47 +13,19 @@ public class Beacon
     extends Celestial
 {
     /**
-     * Maximum velocity of ship
+     * The amount of milliseconds before the object explodes.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    @DefaultIntValue(0)
+    public int ExplosionDelay;
     /**
-     * Required skill level for skill 1
+     * Range in meters of explosion effect area.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Attribute to disallow targetting.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Untargetable;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
+    public int ExplosionRange;
     /**
      * The maximum hitpoints of an object.
      */
@@ -69,19 +41,33 @@ public class Beacon
     @DefaultIntValue(0)
     public int LauncherGroup;
     /**
-     * The amount of milliseconds before the object explodes.
+     * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int ExplosionDelay;
+    @DefaultDoubleValue(0.0)
+    public double MaxVelocity;
     /**
-     * Range in meters of explosion effect area.
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ExplosionRange;
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
@@ -96,6 +82,20 @@ public class Beacon
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Attribute to disallow targetting.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Untargetable;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Beacon.yaml";
     private static LinkedHashMap<String, Beacon> cache = (null);
 

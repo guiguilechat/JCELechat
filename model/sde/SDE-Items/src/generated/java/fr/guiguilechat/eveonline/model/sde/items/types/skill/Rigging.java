@@ -13,12 +13,26 @@ public class Rigging
     extends Skill
 {
     /**
-     * Time constant for skill training
+     * Only refers to another dogma attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SkillTimeConstant;
+    @DefaultIntValue(0)
+    public int PrimaryAttribute;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -32,28 +46,14 @@ public class Rigging
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PrimaryAttribute;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int SecondaryAttribute;
     /**
-     * The type ID of the skill that is required.
+     * Time constant for skill training
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double SkillTimeConstant;
     public final static String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
     private static LinkedHashMap<String, Rigging> cache = (null);
 

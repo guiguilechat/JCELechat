@@ -54,7 +54,7 @@ items:
     name: Fuel Conservation
     volume: 0.01
   High Speed Maneuvering:
-    CapacitorNeedMultiplier: -5.0
+    CapNeedBonus: -5
     PrimaryAttribute: 165
     RequiredSkill1: 3449
     RequiredSkill1Level: 3

@@ -13,69 +13,6 @@ public class StructureEnergyNeutralizer
     extends StructureModule
 {
     /**
-     * An amount to modify the power of the target by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for small ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierSmall;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for medium ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierMedium;
-    /**
-     * The maximum hitpoints of an object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Hp;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for large ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierLarge;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -90,13 +27,6 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Signature Resolution of Energy Neutralizer
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerSignatureResolution;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -104,19 +34,61 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Distance below which range does not affect the to-hit equation.
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
     /**
-     * The ranking of the module within its tech level
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int EnergyNeutralizerAmount;
+    /**
+     * Signature Resolution of Energy Neutralizer
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerSignatureResolution;
+    /**
+     * modifier to an entity capacitor level to represent energy drain for large ships
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierLarge;
+    /**
+     * modifier to an entity capacitor level to represent energy drain for medium ships
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierMedium;
+    /**
+     * modifier to an entity capacitor level to represent energy drain for small ships
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierSmall;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
@@ -125,12 +97,40 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int FalloffEffectiveness;
     /**
+     * The maximum hitpoints of an object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hp;
+    /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
+    /**
      * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -139,12 +139,12 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * current power need
+     * Tech level of an item
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
     private static LinkedHashMap<String, StructureEnergyNeutralizer> cache = (null);
 

@@ -13,27 +13,6 @@ public class DamageControl
     extends Module
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
@@ -55,75 +34,12 @@ public class DamageControl
     @DefaultDoubleValue(1.0)
     public double ArmorKineticDamageResonance;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HullEmDamageResonance;
-    /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HullExplosiveDamageResonance;
-    /**
-     * Multiplies EM damage taken by shield
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HullKineticDamageResonance;
-    /**
-     * Multiplies EXPLOSIVE damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldExplosiveDamageResonance;
-    /**
-     * Can be fitted to
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanFitShipGroup05;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HullThermalDamageResonance;
-    /**
-     * Multiplies KINETIC damage taken by Armor. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldKineticDamageResonance;
-    /**
-     * Multiplies THERMAL damage taken by Shield. 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
     /**
      * 
      */
@@ -146,13 +62,6 @@ public class DamageControl
     @DefaultIntValue(0)
     public int CanFitShipGroup03;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -165,7 +74,84 @@ public class DamageControl
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
+    public int CanFitShipGroup05;
+    /**
+     * Can be fitted to
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
     public int CanFitShipGroup06;
+    /**
+     * The amount of charge used from the capacitor for a module activation.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * If set, this module cannot be activated and made to autorepeat.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowRepeatingActivation;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HullEmDamageResonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HullExplosiveDamageResonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HullKineticDamageResonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HullThermalDamageResonance;
+    /**
+     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupActive;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxGroupFitted;
     /**
      * meta group of type
      */
@@ -188,13 +174,6 @@ public class DamageControl
     @DefaultIntValue(0)
     public int Power;
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -202,12 +181,12 @@ public class DamageControl
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * If set, this module cannot be activated and made to autorepeat.
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -216,12 +195,33 @@ public class DamageControl
     @DefaultDoubleValue(0.0)
     public double ResistanceMultiplier;
     /**
-     * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
+     * Multiplies EM damage taken by shield
      */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupActive;
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldEmDamageResonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldExplosiveDamageResonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldKineticDamageResonance;
+    /**
+     * Multiplies THERMAL damage taken by Shield. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double ShieldThermalDamageResonance;
     public final static String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
     private static LinkedHashMap<String, DamageControl> cache = (null);
 

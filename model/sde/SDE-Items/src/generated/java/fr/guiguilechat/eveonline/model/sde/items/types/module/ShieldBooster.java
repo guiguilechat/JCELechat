@@ -13,19 +13,19 @@ public class ShieldBooster
     extends Module
 {
     /**
-     * Bonus to shield.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ShieldBonus;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * Length of activation time.
      */
@@ -38,29 +38,22 @@ public class ShieldBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int OverloadShieldBonus;
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
     /**
-     * CPU need of module
+     * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double HeatDamage;
     /**
-     * Required skill level for skill 1
+     * meta group of type
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int MetaGroupID;
     /**
      * 
      */
@@ -71,10 +64,31 @@ public class ShieldBooster
     /**
      * 
      */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int OverloadShieldBonus;
+    /**
+     * current power need
+     */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    @DefaultIntValue(0)
+    public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * 
      */
@@ -83,26 +97,12 @@ public class ShieldBooster
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
     /**
-     * 
+     * Bonus to shield.
      */
     @HighIsGood(true)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
-    /**
-     * meta group of type
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaGroupID;
-    /**
-     * current power need
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    public double ShieldBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldBooster.yaml";
     private static LinkedHashMap<String, ShieldBooster> cache = (null);
 

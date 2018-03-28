@@ -19,6 +19,20 @@ public class SensorDampenerScript
     @DefaultIntValue(0)
     public int ChargeSize;
     /**
+     * One of the groups of launcher this charge can be loaded into.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
+     * The main color of a ship type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MainColor;
+    /**
      * Bonus to maxTargetRangeBonus
      */
     @HighIsGood(true)
@@ -39,20 +53,6 @@ public class SensorDampenerScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
-    /**
-     * One of the groups of launcher this charge can be loaded into.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
     public final static String RESOURCE_PATH = "SDE/items/charge/SensorDampenerScript.yaml";
     private static LinkedHashMap<String, SensorDampenerScript> cache = (null);
 

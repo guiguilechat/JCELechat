@@ -1,0 +1,38 @@
+package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
+
+import java.io.InputStreamReader;
+import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.types.Celestial;
+import org.yaml.snakeyaml.Yaml;
+
+public class LocalizedEffectBeacon
+    extends Celestial
+{
+    public final static String RESOURCE_PATH = "SDE/items/celestial/LocalizedEffectBeacon.yaml";
+    private static LinkedHashMap<String, LocalizedEffectBeacon> cache = (null);
+
+    @Override
+    public int getGroupId() {
+        return  1971;
+    }
+
+    @Override
+    public Class<?> getGroup() {
+        return LocalizedEffectBeacon.class;
+    }
+
+    public static synchronized LinkedHashMap<String, LocalizedEffectBeacon> load() {
+        if (cache == null) {
+            try {
+                cache = new Yaml().loadAs(new InputStreamReader(LocalizedEffectBeacon.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (final Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
+            }
+        }
+        return (cache);
+    }
+
+    private static class Container {
+        public LinkedHashMap<String, LocalizedEffectBeacon> items;
+    }
+}

@@ -68,7 +68,7 @@ items:
     name: ♦ Phantasm
     volume: 101000.0
   ♦ Rupture:
-    id: 43590
+    id: 46079
     name: ♦ Rupture
     volume: 96000.0
   ♦ Scythe:
@@ -95,7 +95,3 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 80000.0
-  �� Rupture:
-    id: 46079
-    name: �� Rupture
-    volume: 96000.0

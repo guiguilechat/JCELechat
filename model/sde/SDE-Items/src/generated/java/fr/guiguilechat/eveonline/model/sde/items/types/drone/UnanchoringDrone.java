@@ -12,13 +12,6 @@ public class UnanchoringDrone
     extends Drone
 {
     /**
-     * How long it takes to unanchor this object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int UnanchoringDelay;
-    /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
@@ -26,12 +19,12 @@ public class UnanchoringDrone
     @DefaultIntValue(0)
     public int MaxTargetRange;
     /**
-     * Required skill level for skill 2
+     * The range at which this thing does it thing.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int OrbitRange;
     /**
      * The type ID of the skill that is required.
      */
@@ -40,12 +33,19 @@ public class UnanchoringDrone
     @DefaultIntValue(0)
     public int RequiredSkill2;
     /**
-     * The range at which this thing does it thing.
+     * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OrbitRange;
+    public int RequiredSkill2Level;
+    /**
+     * How long it takes to unanchor this object.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(60000)
+    public int UnanchoringDelay;
     public final static String RESOURCE_PATH = "SDE/items/drone/UnanchoringDrone.yaml";
     private static LinkedHashMap<String, UnanchoringDrone> cache = (null);
 

@@ -13,27 +13,6 @@ public class ArmorResistanceShiftHardener
     extends Module
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxGroupFitted;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
@@ -62,6 +41,13 @@ public class ArmorResistanceShiftHardener
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
     /**
+     * The amount of charge used from the capacitor for a module activation.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -69,33 +55,19 @@ public class ArmorResistanceShiftHardener
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
-     * Required skill level for skill 1
+     * Length of activation time.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double OverloadSelfDurationBonus;
-    /**
-     * Indicates the percentage amount redistributed each cycle for resistance shift modules
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ResistanceShiftAmount;
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
@@ -116,14 +88,14 @@ public class ArmorResistanceShiftHardener
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int MaxGroupFitted;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double OverloadSelfDurationBonus;
     /**
      * current power need
      */
@@ -131,6 +103,34 @@ public class ArmorResistanceShiftHardener
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
+    /**
+     * Indicates the percentage amount redistributed each cycle for resistance shift modules
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ResistanceShiftAmount;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorResistanceShiftHardener.yaml";
     private static LinkedHashMap<String, ArmorResistanceShiftHardener> cache = (null);
 

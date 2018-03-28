@@ -59,11 +59,11 @@ items:
     id: 41446
     name: ‘Iron Pike’ Kinetic Lance Blueprint
     volume: 0.01
-  ‘Jormungandr’ Explosive Reaper Blueprint:
-    id: 41451
-    name: ‘Jormungandr’ Explosive Reaper Blueprint
-    volume: 0.01
-  ‘Phalarica’ Thermal Lance Blueprint:
+  ��Phalarica’ Thermal Lance Blueprint:
     id: 41447
-    name: ‘Phalarica’ Thermal Lance Blueprint
+    name: ��Phalarica’ Thermal Lance Blueprint
+    volume: 0.01
+  ���Jormungandr’ Explosive Reaper Blueprint:
+    id: 41451
+    name: ���Jormungandr’ Explosive Reaper Blueprint
     volume: 0.01

@@ -12,20 +12,6 @@ public class MissileGuidanceScript
     extends Charge
 {
     /**
-     * The size of the charges that can fit in the turret/whatever.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeSize;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -40,19 +26,12 @@ public class MissileGuidanceScript
     @DefaultIntValue(1399)
     public int AoeVelocityBonusBonus;
     /**
-     * One of the groups of launcher this charge can be loaded into.
+     * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1399)
-    public int MissileVelocityBonusBonus;
+    public int ChargeSize;
     /**
      * 
      */
@@ -61,12 +40,33 @@ public class MissileGuidanceScript
     @DefaultIntValue(1399)
     public int ExplosionDelayBonusBonus;
     /**
+     * One of the groups of launcher this charge can be loaded into.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherGroup;
+    /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MainColor;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1399)
+    public int MissileVelocityBonusBonus;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/MissileGuidanceScript.yaml";
     private static LinkedHashMap<String, MissileGuidanceScript> cache = (null);
 

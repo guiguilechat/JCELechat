@@ -13,41 +13,6 @@ public class StripMiner
     extends Module
 {
     /**
-     * The amount of charge used from the capacitor for a module activation.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
-    /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * How much ore gets mined
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MiningAmount;
-    /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -62,12 +27,26 @@ public class StripMiner
     @DefaultIntValue(0)
     public int CanFitShipGroup02;
     /**
-     * Required skill level for skill 1
+     * The amount of charge used from the capacitor for a module activation.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    @DefaultDoubleValue(0.0)
+    public double CapacitorNeed;
+    /**
+     * CPU need of module
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
+    /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
@@ -76,6 +55,27 @@ public class StripMiner
     @DefaultIntValue(0)
     public int MaxRange;
     /**
+     * meta group of type
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
+     * How much ore gets mined
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MiningAmount;
+    /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -83,12 +83,12 @@ public class StripMiner
     @DefaultIntValue(0)
     public int RequiredSkill1;
     /**
-     * meta group of type
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int RequiredSkill1Level;
     /**
      * Restrict activation to this one module group.
      */
@@ -97,12 +97,12 @@ public class StripMiner
     @DefaultIntValue(0)
     public int TargetGroup;
     /**
-     * current power need
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
-    @Stackable(true)
+    @Stackable(false)
     @DefaultIntValue(0)
-    public int Power;
+    public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
     private static LinkedHashMap<String, StripMiner> cache = (null);
 

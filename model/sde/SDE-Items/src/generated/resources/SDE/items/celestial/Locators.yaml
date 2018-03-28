@@ -1,0 +1,21 @@
+items:
+  AOE_10k_locator:
+    id: 47460
+    name: AOE_10k_locator
+    volume: 1.0
+  AOE_30k_locator:
+    id: 47461
+    name: AOE_30k_locator
+    volume: 1.0
+  AOE_80k_locator:
+    id: 47462
+    name: AOE_80k_locator
+    volume: 1.0
+  entry_locator:
+    id: 47463
+    name: entry_locator
+    volume: 1.0
+  exit_locator:
+    id: 47464
+    name: exit_locator
+    volume: 1.0

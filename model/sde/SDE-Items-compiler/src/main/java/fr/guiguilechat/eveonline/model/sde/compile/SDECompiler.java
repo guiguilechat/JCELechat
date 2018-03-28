@@ -174,7 +174,7 @@ public class SDECompiler {
 			catAttribute.add(attId);
 		}
 
-		// then for each cat we keep oly the attributes that are present in every
+		// then for each cat we keep only the attributes that are present in every
 		// group
 
 		for (Entry<Integer, HashSet<Integer>> e : groupAttributes.entrySet()) {
@@ -427,7 +427,10 @@ public class SDECompiler {
 		if (attributeIDs == null) {
 			return;
 		}
-		for (Integer attributeID : attributeIDs) {
+		Integer[] sortedAttIds = attributeIDs.stream()
+				.sorted((i1, i2) -> attTypes.get(i1).attributeName.compareTo(attTypes.get(i2).attributeName))
+				.toArray(Integer[]::new);
+		for (Integer attributeID : sortedAttIds) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
 			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
 			JFieldVar f = cl.field(JMod.PUBLIC, isDouble ? cm.DOUBLE : cm.INT, formatName(attr.attributeName));

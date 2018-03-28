@@ -13,33 +13,138 @@ public class CapitalIndustrialShip
     extends Ship
 {
     /**
+     * Attribute on ship to make advanced command affect only ships that we want.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int AdvancedAgility;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int AdvancedCapitalAgility;
+    /**
+     *  1 = ship can use jump drive
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanJump;
+    /**
+     * Defines whether a ship has the functionality to allow it to receive clone jumps and host jump clones.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CanReceiveCloneJumps;
+    /**
+     * Cargo Scanner Range Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CargoScannerRangeBonus;
+    /**
+     * commandBonusEffective
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int CommandBonusEffective;
+    /**
+     * Security status restriction, preventing ships from entering high sec and modules from being activated.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DisallowInHighSec;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double EntosisAssistanceImpedanceMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int EntosisDurationMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiCapitalMissileResistance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityKamikazeResistance;
+    /**
+     * The capacity of the fleet hangar.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FleetHangarCapacity;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int FwLpKill;
     /**
-     * The number of low power slots on the ship.
+     * If greater than zero than the ship cannot activate gates. Set this to 0 on a type if you want it to be gate scramble-able.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(-1000)
+    public int GateScrambleStatus;
+    /**
+     * Whether this ship has fleet hangars.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LowSlots;
+    public int HasFleetHangars;
     /**
-     * special fuel bay capacity
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int SpecialFuelBayCapacity;
-    /**
-     * tbd
+     * Indicates whether a ship type has a ship maintenance bay.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MedSlots;
+    public int HasShipMaintenanceBay;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationHi;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationLow;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double HeatAttenuationMed;
     /**
      * tbd
      */
@@ -53,63 +158,14 @@ public class CapitalIndustrialShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RoleBonusCommandBurstAoERange;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FwLpKill;
-    /**
-     * Capacity of ore-only hold
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SpecialOreHoldCapacity;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int IndustrialBonusDroneDamage;
     /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusORECapital5;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
-     * The resolution that the vessel can target other objects at.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanResolution;
+    public int IsCapitalSize;
     /**
      * The remaining number of unused clone vats on the ship that are available for installation of jump clones.
      */
@@ -118,47 +174,12 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int JumpClonesLeft;
     /**
-     * scanning speed in milliseconds
+     * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
      */
     @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int ScanSpeed;
-    /**
-     * Attribute on ship to make advanced command affect only ships that we want.
-     */
-    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int AdvancedAgility;
-    /**
-     *  1 = ship can use jump drive
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CanJump;
-    /**
-     * Autogenerated skill attribute, maxRangeBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double MaxRangeBonus;
-    /**
-     * Type that is used for consumption from cargo hold when activating jump drive operation.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int JumpDriveConsumptionType;
-    /**
-     * Range in light years the ship can maximum jump to.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double JumpDriveRange;
+    @DefaultDoubleValue(1.0)
+    public double JumpDriveCapacitorNeed;
     /**
      * Number of units it consumes per light year.
      */
@@ -167,6 +188,13 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int JumpDriveConsumptionAmount;
     /**
+     * Type that is used for consumption from cargo hold when activating jump drive operation.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int JumpDriveConsumptionType;
+    /**
      * The amount of time before the ship actually jumps.
      */
     @HighIsGood(true)
@@ -174,89 +202,12 @@ public class CapitalIndustrialShip
     @DefaultIntValue(300000)
     public int JumpDriveDuration;
     /**
-     * 
+     * Range in light years the ship can maximum jump to.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int AdvancedCapitalAgility;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
-     * The number of rig slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RigSlots;
-    /**
-     * The main color of a ship type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MainColor;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityKamikazeResistance;
-    /**
-     * How many upgrades can by fitted to this ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
-    /**
-     * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double JumpDriveCapacitorNeed;
-    /**
-     * Indicates whether a ship type has a ship maintenance bay.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HasShipMaintenanceBay;
-    /**
-     * The capacity of the hangar in a ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShipMaintenanceBayCapacity;
-    /**
-     * Whether this ship has fleet hangars.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HasFleetHangars;
-    /**
-     * The capacity of the fleet hangar.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FleetHangarCapacity;
-    /**
-     * Security status restriction, preventing ships from entering high sec and modules from being activated.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowInHighSec;
+    @DefaultDoubleValue(0.0)
+    public double JumpDriveRange;
     /**
      * Multiplier for jump fatigue distance
      */
@@ -269,43 +220,36 @@ public class CapitalIndustrialShip
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(3)
-    public int MaxGangModules;
+    @DefaultIntValue(0)
+    public int JumpHarmonics;
     /**
-     * If greater than zero than the ship cannot activate gates. Set this to 0 on a type if you want it to be gate scramble-able.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(-1000)
-    public int GateScrambleStatus;
-    /**
-     * The type ID of the skill that is required.
+     * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int LowSlots;
     /**
-     * The type ID of the skill that is required.
+     * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public int MainColor;
     /**
      * 
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(3)
+    public int MaxGangModules;
+    /**
+     * The maximum amount of jump clones that the character may have in existence or ship may have stored.
+     */
+    @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
+    public int MaxJumpClones;
     /**
      * The maximum distance at which the object can be used.
      */
@@ -321,40 +265,103 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int MaxOperationalUsers;
     /**
-     * Survey Scanner Range Bonus
+     * Specifies the maximum numbers of passengers that the ship can have
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SurveyScannerRangeBonus;
+    public int MaxPassengers;
     /**
-     * Cargo Scanner Range Bonus
+     * Autogenerated skill attribute, maxRangeBonus
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int CargoScannerRangeBonus;
+    @DefaultDoubleValue(0.0)
+    public double MaxRangeBonus;
     /**
-     * The maximum amount of jump clones that the character may have in existence or ship may have stored.
+     * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxJumpClones;
+    public int MedSlots;
     /**
-     * commandBonusEffective
+     * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CommandBonusEffective;
+    public int RequiredSkill1;
     /**
-     * Defines whether a ship has the functionality to allow it to receive clone jumps and host jump clones.
+     * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanReceiveCloneJumps;
+    public int RequiredSkill1Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RoleBonusCommandBurstAoERange;
+    /**
+     * The resolution that the vessel can target other objects at.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanResolution;
+    /**
+     * scanning speed in milliseconds
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int ScanSpeed;
     /**
      * shipBonusORECapital1
      */
@@ -389,14 +396,35 @@ public class CapitalIndustrialShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpHarmonics;
+    public int ShipBonusORECapital5;
     /**
-     * 
+     * The capacity of the hangar in a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int EntosisDurationMultiplier;
+    @DefaultIntValue(0)
+    public int ShipMaintenanceBayCapacity;
+    /**
+     * special fuel bay capacity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int SpecialFuelBayCapacity;
+    /**
+     * Capacity of ore-only hold
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SpecialOreHoldCapacity;
+    /**
+     * Survey Scanner Range Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SurveyScannerRangeBonus;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
@@ -405,33 +433,19 @@ public class CapitalIndustrialShip
     @DefaultIntValue(0)
     public int TypeColorScheme;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
-    /**
-     * 
+     * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IsCapitalSize;
+    public int UpgradeCapacity;
+    /**
+     * How many upgrades can by fitted to this ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/CapitalIndustrialShip.yaml";
     private static LinkedHashMap<String, CapitalIndustrialShip> cache = (null);
 

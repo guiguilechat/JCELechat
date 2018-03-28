@@ -104,6 +104,11 @@ items:
     id: 33214
     name: Band of Brothers Director Access Key
     volume: 0.01
+  CDIA Training Exercise Supply Crate:
+    CpuMultiplier: 1.0
+    id: 47482
+    name: CDIA Training Exercise Supply Crate
+    volume: 4.0
   CONCORD GalNet Monitoring Archive:
     CpuMultiplier: 1.0
     id: 47055
@@ -774,8 +779,8 @@ items:
     id: 44209
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  未来���类纪念章:
+  ��来人类纪念章:
     CpuMultiplier: 1.0
     id: 41035
-    name: 未来���类纪念章
+    name: ��来人类纪念章
     volume: 3.0

@@ -12,19 +12,26 @@ public class MobileJumpDisruptor
     extends Deployable
 {
     /**
-     * Maximum range objects can be warp scrambled from.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int WarpScrambleRange;
-    /**
      * How long it takes to anchor or unanchor this object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(60000)
     public int AnchoringDelay;
+    /**
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaLevel;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
     /**
      * Required skill level for skill 1
      */
@@ -38,7 +45,7 @@ public class MobileJumpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int RequiredSkill2;
     /**
      * Required skill level for skill 2
      */
@@ -52,7 +59,7 @@ public class MobileJumpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int RequiredSkill3;
     /**
      * Required skill level for skill 3
      */
@@ -61,19 +68,12 @@ public class MobileJumpDisruptor
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     /**
-     * The type ID of the skill that is required.
+     * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * The ranking of the module within its tech level
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MetaLevel;
+    public int WarpScrambleRange;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileJumpDisruptor.yaml";
     private static LinkedHashMap<String, MobileJumpDisruptor> cache = (null);
 

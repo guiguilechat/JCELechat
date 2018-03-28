@@ -3,3 +3,11 @@ items:
     id: 34561
     name: Drifter Battleship
     volume: 109000.0
+  Drifter Elite Battleship:
+    id: 47724
+    name: Drifter Elite Battleship
+    volume: 109000.0
+  Drifter Normal Battleship:
+    id: 47723
+    name: Drifter Normal Battleship
+    volume: 109000.0

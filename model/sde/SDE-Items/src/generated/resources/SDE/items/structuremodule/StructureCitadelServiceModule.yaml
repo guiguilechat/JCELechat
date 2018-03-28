@@ -16,11 +16,16 @@ items:
     volume: 4000.0
   Standup Market Hub I:
     CanFitShipType1: 35833
+    CanFitShipType10: 47515
+    CanFitShipType11: 47516
     CanFitShipType2: 35834
     CanFitShipType3: 40340
     CanFitShipType4: 35826
     CanFitShipType5: 35827
     CanFitShipType6: 35836
+    CanFitShipType7: 47512
+    CanFitShipType8: 47513
+    CanFitShipType9: 47514
     Cpu: 1200.0
     MaxTypeFitted: 1
     Power: 100000

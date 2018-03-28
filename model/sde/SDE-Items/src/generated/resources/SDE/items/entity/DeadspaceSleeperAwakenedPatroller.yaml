@@ -11,3 +11,15 @@ items:
     id: 30201
     name: Awakened Watchman
     volume: 109000.0
+  Sleeper Battlecruiser:
+    id: 47721
+    name: Sleeper Battlecruiser
+    volume: 109000.0
+  Sleeper Elite Cruiser:
+    id: 47720
+    name: Sleeper Elite Cruiser
+    volume: 109000.0
+  Sleeper Normal Cruiser:
+    id: 47719
+    name: Sleeper Normal Cruiser
+    volume: 109000.0

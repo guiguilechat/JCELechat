@@ -20,19 +20,19 @@ public class MissileBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MissileBlueprint.yaml";
     private static LinkedHashMap<String, MissileBlueprint> cache = (null);
 

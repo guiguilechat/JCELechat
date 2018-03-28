@@ -13,47 +13,12 @@ public class EnergyNeutralizer
     extends Module
 {
     /**
-     * An amount to modify the power of the target by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
-    /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double CapacitorNeed;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for small ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierSmall;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for medium ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierMedium;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
-    /**
-     * modifier to an entity capacitor level to represent energy drain for large ships
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierLarge;
     /**
      * CPU need of module
      */
@@ -62,6 +27,20 @@ public class EnergyNeutralizer
     @DefaultDoubleValue(0.0)
     public double Cpu;
     /**
+     * Length of activation time.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double Duration;
+    /**
+     * An amount to modify the power of the target by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int EnergyNeutralizerAmount;
+    /**
      * Signature Resolution of Energy Neutralizer
      */
     @HighIsGood(true)
@@ -69,40 +48,26 @@ public class EnergyNeutralizer
     @DefaultIntValue(0)
     public int EnergyNeutralizerSignatureResolution;
     /**
-     * Required skill level for skill 1
+     * modifier to an entity capacitor level to represent energy drain for large ships
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierLarge;
     /**
-     * The type ID of the skill that is required.
+     * modifier to an entity capacitor level to represent energy drain for medium ships
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierMedium;
     /**
-     * Distance below which range does not affect the to-hit equation.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int MaxRange;
-    /**
-     * 
+     * modifier to an entity capacitor level to represent energy drain for small ships
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double OverloadSelfDurationBonus;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    @DefaultDoubleValue(1.0)
+    public double EntityCapacitorLevelModifierSmall;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
@@ -115,15 +80,22 @@ public class EnergyNeutralizer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    @DefaultDoubleValue(0.0)
+    public double HeatAbsorbtionRateModifier;
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double HeatDamage;
+    /**
+     * Distance below which range does not affect the to-hit equation.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int MaxRange;
     /**
      * meta group of type
      */
@@ -132,12 +104,40 @@ public class EnergyNeutralizer
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double OverloadSelfDurationBonus;
+    /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Power;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredThermoDynamicsSkill;
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyNeutralizer.yaml";
     private static LinkedHashMap<String, EnergyNeutralizer> cache = (null);
 

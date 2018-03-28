@@ -13,68 +13,12 @@ public class LightFighter
     extends Fighter
 {
     /**
-     * Rate of fire
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityMissilesDuration;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterSquadronIsLight;
-    /**
-     * Maximum Velocity Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEvasiveManeuversSpeedBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityEvasiveManeuversSignatureRadiusBonus;
-    /**
-     * Damage Multiplier
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityAttackMissileDamageMultiplier;
-    /**
      * EM Damage
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int FighterAbilityAttackMissileDamageEM;
-    /**
-     * Thermal Damage
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityAttackMissileDamageTherm;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterSquadronIsStandupLight;
-    /**
-     * Kinetic Damage
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityAttackMissileDamageKin;
     /**
      * Explosive Damage
      */
@@ -83,19 +27,26 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityAttackMissileDamageExp;
     /**
-     * 
+     * Kinetic Damage
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double FighterAbilityAttackMissileReductionFactor;
+    @DefaultIntValue(0)
+    public int FighterAbilityAttackMissileDamageKin;
     /**
-     * 
+     * Damage Multiplier
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double FighterAbilityAttackMissileReductionSensitivity;
+    @DefaultIntValue(0)
+    public int FighterAbilityAttackMissileDamageMultiplier;
+    /**
+     * Thermal Damage
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityAttackMissileDamageTherm;
     /**
      * Rate of fire
      */
@@ -118,13 +69,6 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityAttackMissileExplosionVelocity;
     /**
-     * Optimal Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityAttackMissileRangeOptimal;
-    /**
      * Accuracy Falloff
      */
     @HighIsGood(true)
@@ -132,61 +76,26 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityAttackMissileRangeFalloff;
     /**
-     * Duration
+     * Optimal Range
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FighterAbilityTackleDuration;
-    /**
-     * Range
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityTackleRange;
-    /**
-     * Maximum Velocity Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityTackleWebSpeedPenalty;
+    public int FighterAbilityAttackMissileRangeOptimal;
     /**
      * 
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityTackleWebSpeedPenaltyInterim;
-    /**
-     * Shield EM Damage Resistance
-     */
-    @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double FighterAbilityEvasiveManeuversEmResonance;
+    @DefaultDoubleValue(0.0)
+    public double FighterAbilityAttackMissileReductionFactor;
     /**
-     * Shield Thermal Damage Resistance
+     * 
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double FighterAbilityEvasiveManeuversThermResonance;
-    /**
-     * Shield Kinetic Damage Resistance
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double FighterAbilityEvasiveManeuversKinResonance;
-    /**
-     * Shield Explosive Damage Resistance
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double FighterAbilityEvasiveManeuversExpResonance;
+    @DefaultDoubleValue(0.0)
+    public double FighterAbilityAttackMissileReductionSensitivity;
     /**
      * Duration
      */
@@ -195,19 +104,75 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityEvasiveManeuversDuration;
     /**
-     * Explosion Radius
+     * Shield EM Damage Resistance
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityMissilesExplosionRadius;
+    @DefaultDoubleValue(1.0)
+    public double FighterAbilityEvasiveManeuversEmResonance;
     /**
-     * Explosion Velocity
+     * Shield Explosive Damage Resistance
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double FighterAbilityEvasiveManeuversExpResonance;
+    /**
+     * Shield Kinetic Damage Resistance
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double FighterAbilityEvasiveManeuversKinResonance;
+    /**
+     * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FighterAbilityMissilesExplosionVelocity;
+    public int FighterAbilityEvasiveManeuversSignatureRadiusBonus;
+    /**
+     * Maximum Velocity Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityEvasiveManeuversSpeedBonus;
+    /**
+     * Shield Thermal Damage Resistance
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double FighterAbilityEvasiveManeuversThermResonance;
+    /**
+     * EM Damage
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesDamageEM;
+    /**
+     * Explosive Damage
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesDamageExp;
+    /**
+     * Kinetic Damage
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesDamageKin;
+    /**
+     * Damage Multiplier
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesDamageMultiplier;
     /**
      * 
      */
@@ -223,20 +188,6 @@ public class LightFighter
     @DefaultDoubleValue(0.0)
     public double FighterAbilityMissilesDamageReductionSensitivity;
     /**
-     * Damage Multiplier
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityMissilesDamageMultiplier;
-    /**
-     * EM Damage
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int FighterAbilityMissilesDamageEM;
-    /**
      * Thermal Damage
      */
     @HighIsGood(true)
@@ -244,19 +195,26 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityMissilesDamageTherm;
     /**
-     * Kinetic Damage
+     * Rate of fire
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FighterAbilityMissilesDamageKin;
+    public int FighterAbilityMissilesDuration;
     /**
-     * Explosive Damage
+     * Explosion Radius
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FighterAbilityMissilesDamageExp;
+    public int FighterAbilityMissilesExplosionRadius;
+    /**
+     * Explosion Velocity
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesExplosionVelocity;
     /**
      * Optimal Range
      */
@@ -265,6 +223,27 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityMissilesRange;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityMissilesResistanceID;
+    /**
+     * Duration
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityTackleDuration;
+    /**
+     * Range
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityTackleRange;
+    /**
      * Warp Disruption Strength
      */
     @HighIsGood(true)
@@ -272,12 +251,33 @@ public class LightFighter
     @DefaultIntValue(0)
     public int FighterAbilityTackleWarpDisruptionPointStrength;
     /**
+     * Maximum Velocity Bonus
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int FighterAbilityTackleWebSpeedPenalty;
+    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityMissilesResistanceID;
+    public int FighterAbilityTackleWebSpeedPenaltyInterim;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterSquadronIsLight;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterSquadronIsStandupLight;
     public final static String RESOURCE_PATH = "SDE/items/fighter/LightFighter.yaml";
     private static LinkedHashMap<String, LightFighter> cache = (null);
 

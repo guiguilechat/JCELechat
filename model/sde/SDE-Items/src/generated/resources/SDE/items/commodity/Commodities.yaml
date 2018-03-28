@@ -314,6 +314,12 @@ items:
     id: 23546
     name: ComLink Encoder/Decoder
     volume: 0.1
+  Compressed Capsule Shell:
+    EntityEquipmentMax: 1
+    EntityEquipmentMin: 1
+    id: 47450
+    name: Compressed Capsule Shell
+    volume: 0.1
   Construction Tools:
     Hp: 100
     id: 21632

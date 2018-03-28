@@ -13,34 +13,6 @@ public class UncommonMoonAsteroids
     extends Asteroid
 {
     /**
-     * Resistance against Stasis Webifiers
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
-    /**
-     * The skill required to reprocess this ore type.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ReprocessingSkillType;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int OreBasicType;
-    /**
      * max visual size for asteroids to fit moon chunk
      */
     @HighIsGood(true)
@@ -73,6 +45,34 @@ public class UncommonMoonAsteroids
     @Stackable(true)
     @DefaultIntValue(90)
     public int AsteroidRadiusUnitSize;
+    /**
+     * Reference for grouping ores in visual displays. All variants of one ore should have the same BasicType ID
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int OreBasicType;
+    /**
+     * The skill required to reprocess this ore type.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ReprocessingSkillType;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Resistance against Stasis Webifiers
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StasisWebifierResistance;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/UncommonMoonAsteroids.yaml";
     private static LinkedHashMap<String, UncommonMoonAsteroids> cache = (null);
 

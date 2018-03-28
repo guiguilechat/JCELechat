@@ -12,41 +12,6 @@ public class TrackingScript
     extends Charge
 {
     /**
-     * The size of the charges that can fit in the turret/whatever.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeSize;
-    /**
-     * Bonus to maxRangeBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MaxRangeBonusBonus;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1399)
-    public int FalloffBonusBonus;
-    /**
-     * Bonus to trackingSpeedBonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int TrackingSpeedBonusBonus;
-    /**
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -60,6 +25,20 @@ public class TrackingScript
     @Stackable(true)
     @DefaultIntValue(1399)
     public int AoeVelocityBonusBonus;
+    /**
+     * The size of the charges that can fit in the turret/whatever.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ChargeSize;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1399)
+    public int FalloffBonusBonus;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
@@ -88,6 +67,27 @@ public class TrackingScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int MainColor;
+    /**
+     * Bonus to maxRangeBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MaxRangeBonusBonus;
+    /**
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
+    /**
+     * Bonus to trackingSpeedBonus
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TrackingSpeedBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/TrackingScript.yaml";
     private static LinkedHashMap<String, TrackingScript> cache = (null);
 

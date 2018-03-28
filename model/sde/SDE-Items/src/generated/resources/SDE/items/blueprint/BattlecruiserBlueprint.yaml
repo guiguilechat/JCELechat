@@ -170,12 +170,6 @@ items:
     id: 16234
     name: Prophecy Blueprint
     volume: 0.01
-  Prototype Seven Blueprint:
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 45535
-    name: Prototype Seven Blueprint
-    volume: 0.01
   Sleipnir Blueprint:
     IndustryBlueprintRank: 1000.0
     IndustryJobCostMultiplier: 1
@@ -204,8 +198,8 @@ items:
     id: 22447
     name: Vulture Blueprint
     volume: 0.01
-  幼龙级YC117年特别版蓝图:
+  幼龙级YC117年特别版��图:
     TechLevel: 1
     id: 34474
-    name: 幼龙级YC117年特别版蓝图
+    name: 幼龙级YC117年特别版��图
     volume: 0.01

@@ -12,6 +12,13 @@ public class BloodlineBonus
     extends Bonus
 {
     /**
+     * Scales the accuracy of some targeted weapon.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double AccuracyMultiplier;
+    /**
      * Factor to scale mining laser durations by.
      */
     @HighIsGood(true)
@@ -32,13 +39,6 @@ public class BloodlineBonus
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
-    /**
-     * Scales the accuracy of some targeted weapon.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double AccuracyMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/BloodlineBonus.yaml";
     private static LinkedHashMap<String, BloodlineBonus> cache = (null);
 

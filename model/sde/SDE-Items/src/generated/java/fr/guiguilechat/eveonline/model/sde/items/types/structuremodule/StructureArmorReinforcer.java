@@ -13,13 +13,6 @@ public class StructureArmorReinforcer
     extends StructureModule
 {
     /**
-     * CPU need of module
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Cpu;
-    /**
      * Multiplier to the HP of a ships armor module.
      */
     @HighIsGood(true)
@@ -27,12 +20,12 @@ public class StructureArmorReinforcer
     @DefaultDoubleValue(1.0)
     public double ArmorHPMultiplier;
     /**
-     * Tech level of an item
+     * CPU need of module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
+    @DefaultDoubleValue(0.0)
+    public double Cpu;
     /**
      * The maximum hitpoints of an object.
      */
@@ -48,6 +41,13 @@ public class StructureArmorReinforcer
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
+     * current power need
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Power;
+    /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
@@ -55,12 +55,12 @@ public class StructureArmorReinforcer
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
-     * current power need
+     * Tech level of an item
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int Power;
+    @DefaultIntValue(1)
+    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
     private static LinkedHashMap<String, StructureArmorReinforcer> cache = (null);
 

@@ -19,34 +19,6 @@ public class IndustrialUpgrades
     @DefaultIntValue(0)
     public int DevIndexIndustrial;
     /**
-     * Distribution ID for sov upgrades in Serpentis space
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DistributionIDSerpentis01;
-    /**
-     * Distribution ID for sov upgrades in Guristas space
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DistributionIDGurista01;
-    /**
-     * Distribution ID for sov upgrades in Sansha space
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DistributionIDSansha01;
-    /**
-     * Distribution ID for sov upgrades in Blood Raider space
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DistributionIDBlood01;
-    /**
      * Distribution ID for global sov upgrades
      */
     @HighIsGood(true)
@@ -61,13 +33,6 @@ public class IndustrialUpgrades
     @DefaultIntValue(0)
     public int DistributionID02;
     /**
-     * Distribution ID for sov upgrades in Rogue Drone space
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DistributionIDRogueDrone01;
-    /**
      * Distribution ID for global sov upgrades
      */
     @HighIsGood(true)
@@ -75,19 +40,54 @@ public class IndustrialUpgrades
     @DefaultIntValue(0)
     public int DistributionID03;
     /**
-     * The typeID of the upgrade that is required for this upgrade to be installed. 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SovUpgradeRequiredUpgradeID;
-    /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int DistributionIDAngel01;
+    /**
+     * Distribution ID for sov upgrades in Blood Raider space
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DistributionIDBlood01;
+    /**
+     * Distribution ID for sov upgrades in Guristas space
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DistributionIDGurista01;
+    /**
+     * Distribution ID for sov upgrades in Rogue Drone space
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DistributionIDRogueDrone01;
+    /**
+     * Distribution ID for sov upgrades in Sansha space
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DistributionIDSansha01;
+    /**
+     * Distribution ID for sov upgrades in Serpentis space
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int DistributionIDSerpentis01;
+    /**
+     * The typeID of the upgrade that is required for this upgrade to be installed. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SovUpgradeRequiredUpgradeID;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
     private static LinkedHashMap<String, IndustrialUpgrades> cache = (null);
 
