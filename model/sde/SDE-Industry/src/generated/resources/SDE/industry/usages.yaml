@@ -10917,7 +10917,7 @@ usages:
     materialManuf: !!set
       Sin Blueprint: null
       Dominix Quafe Edition Blueprint: null
-      多米尼克斯级YC117年特别版���图: null
+      多米尼克斯级YC117年特别���蓝图: null
     productManuf: !!set
       Dominix Blueprint: null
   Dominix Navy Issue:
@@ -10948,7 +10948,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙级YC117年特别版��图: null
+      幼龙级YC117���特别版蓝图: null
     productManuf: !!set
       Drake Blueprint: null
   Drake Navy Issue:
@@ -15224,7 +15224,7 @@ usages:
       Incursus Blueprint: null
   Ishtar:
     materialManuf: !!set
-      伊什���级YC117年特别版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
     productManuf: !!set
       Ishtar Blueprint: null
   Ishtar Blueprint:
@@ -16065,7 +16065,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -20234,7 +20234,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -21387,7 +21387,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -24232,7 +24232,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -27288,7 +27288,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -30894,7 +30894,7 @@ usages:
       Rare Moon Ore Mining Crystal I Blueprint: null
   Rattlesnake:
     materialManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇级YC117年特别版���图: null
     productManuf: !!set
       Rattlesnake Blueprint: null
   Raven:
@@ -40054,7 +40054,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -41728,7 +41728,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -41825,9 +41825,6 @@ usages:
   ‘Geiravor’ Explosive Lance:
     productManuf: !!set
       ‘Geiravor’ Explosive Lance Blueprint: null
-  ‘Guillotine’ Thermal Reaper:
-    productManuf: !!set
-      ‘Guillotine’ Thermal Reaper Blueprint: null
   ‘Holy Destiny’ Electromagnetic Lance:
     productManuf: !!set
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
@@ -41836,38 +41833,38 @@ usages:
       ‘Iron Pike’ Kinetic Lance Blueprint: null
   ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
-      ���Jormungandr’ Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
       ��Phalarica’ Thermal Lance Blueprint: null
   万王宝座级YC117年特别版:
     productManuf: !!set
       万王宝座级YC117年特别版蓝图: null
-  乌鸦级YC117年特别版:
+  乌鸦级YC117���特别版:
     productManuf: !!set
       乌鸦级YC117年特别版蓝图: null
   伊什塔级YC117年特别版:
     productManuf: !!set
-      伊什���级YC117年特别版蓝图: null
+      伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇级YC117年特别版���图: null
   地狱天使级YC117年特别版:
     productManuf: !!set
       地狱天使级YC117年特别版蓝图: null
   多米尼克斯级YC117年特别版:
     productManuf: !!set
-      多米尼克斯级YC117年特别版���图: null
+      多米尼克斯级YC117年特别���蓝图: null
   幼龙级YC117年特别版:
     productManuf: !!set
-      幼龙级YC117年特别版��图: null
+      幼龙级YC117���特别版蓝图: null
   末日沙场级YC117年特别版:
     productManuf: !!set
       末日沙场级YC117年特别版蓝图: null
-  毒蜥级YC117年���别版:
+  毒蜥级YC117年特别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
-  灾难级YC117年特别��:
+  灾难级YC117年特别版:
     productManuf: !!set
       灾难级YC117年特别版蓝图: null
   银鹰级YC117年特别版:
@@ -41876,3 +41873,6 @@ usages:
   马克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
+  ���Guillotine’ Thermal Reaper:
+    productManuf: !!set
+      ‘Guillotine’ Thermal Reaper Blueprint: null

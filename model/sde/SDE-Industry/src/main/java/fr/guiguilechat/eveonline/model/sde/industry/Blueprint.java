@@ -98,6 +98,6 @@ public class Blueprint {
 
 	public String name;
 
-	public int maxProd;
+	public int maxCopyRuns;
 
 }

@@ -104,7 +104,7 @@ public class IndustryTranslater {
 	private static Blueprint makeBlueprint(Eblueprints bp, LinkedHashMap<Integer, EtypeIDs> types) {
 		Blueprint bp2 = new Blueprint();
 		bp2.id = bp.blueprintTypeID;
-		bp2.maxProd = bp.maxProductionLimit;
+		bp2.maxCopyRuns = bp.maxProductionLimit;
 		bp2.copying = convertEblueprint(bp.activities.copying, types);
 		bp2.invention = convertEblueprint(bp.activities.invention, types);
 		bp2.manufacturing = convertEblueprint(bp.activities.manufacturing, types);

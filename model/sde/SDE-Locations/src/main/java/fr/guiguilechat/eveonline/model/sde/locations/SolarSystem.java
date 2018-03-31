@@ -109,5 +109,8 @@ public class SolarSystem extends ALocation {
 		return 0 < truesec && truesec <= 0.45;
 	}
 
+	public boolean isNS() {
+		return 0 > truesec;
+	}
 
 }
