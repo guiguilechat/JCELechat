@@ -30,7 +30,7 @@ public class SolarSystem {
 	public boolean international = false;
 	public boolean regional = false;
 
-	public ArrayList<String> disallowedAnchorCategories = new ArrayList<>();
+	public ArrayList<Integer> disallowedAnchorCategories = new ArrayList<>();
 	public ArrayList<Integer> disallowedAnchorGroups = new ArrayList<>();
 
 	// for wormhole only ?

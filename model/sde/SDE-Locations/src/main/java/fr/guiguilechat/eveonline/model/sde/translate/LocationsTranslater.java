@@ -197,6 +197,8 @@ public class LocationsTranslater {
 		s.isCorridor = system.corridor;
 		s.isFringe = system.fringe;
 		s.isHub = system.hub;
+		s.anchorStructures = system.disallowedAnchorCategories == null || system.disallowedAnchorCategories.isEmpty()
+				|| !system.disallowedAnchorCategories.contains(65);
 
 		for (Entry<Long, Planet> ePlanet : system.planets.entrySet()) {
 			for (Entry<Integer, NPCStation> eSta : ePlanet.getValue().npcStations.entrySet()) {

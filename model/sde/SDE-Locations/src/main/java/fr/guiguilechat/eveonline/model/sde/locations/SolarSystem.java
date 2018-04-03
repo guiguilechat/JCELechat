@@ -98,6 +98,7 @@ public class SolarSystem extends ALocation {
 	public boolean isBorder = false;
 	public boolean isFringe = false;
 	public boolean isHub = false;
+	public boolean anchorStructures = false;
 
 	// helper
 
