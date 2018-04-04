@@ -61,7 +61,7 @@ public class Markets {
 				return orders;
 			}
 
-			private HashMap<Integer, ObservableDoubleValue> qttyPrice = new HashMap<>();
+			private HashMap<Integer, DoubleBinding> qttyPrice = new HashMap<>();
 
 			/**
 			 * get a double value representing the total sell orders for qtty given
@@ -71,10 +71,11 @@ public class Markets {
 			 * @return
 			 */
 			public ObservableDoubleValue getPrice(int qtty) {
-				ObservableDoubleValue ret = qttyPrice.get(qtty);
+				DoubleBinding ret = qttyPrice.get(qtty);
 				if (ret == null) {
 					synchronized (qttyPrice) {
-						if (qttyPrice.get(qtty) == null) {
+						ret = qttyPrice.get(qtty);
+						if (ret == null) {
 							ret = new DoubleBinding() {
 								@Override
 								protected double computeValue() {
@@ -96,11 +97,10 @@ public class Markets {
 								}
 							};
 							qttyPrice.put(qtty, ret);
-						} else {
-							ret = qttyPrice.get(qtty);
 						}
 					}
 				}
+				listOrders();
 				return ret;
 			}
 
@@ -115,11 +115,10 @@ public class Markets {
 			CachedOrdersList ret = cache.get(typeID);
 			if (ret == null) {
 				synchronized (cache) {
-					if (cache.get(typeID) == null) {
+					ret = cache.get(typeID);
+					if (ret == null) {
 						ret = new CachedOrdersList(typeID, buy);
 						cache.put(typeID, ret);
-					} else {
-						ret = cache.get(typeID);
 					}
 				}
 			}
