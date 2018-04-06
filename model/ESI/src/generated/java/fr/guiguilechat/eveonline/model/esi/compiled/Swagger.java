@@ -130,6 +130,7 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_sovereignty_
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_sovereignty_structures;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_status;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_ancestries;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_bloodlines;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_categories_category_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_constellations_constellation_id;
@@ -1260,6 +1261,12 @@ public interface Swagger {
         String url = ("https://esi.tech.ccp.is/latest/universe/ancestries/"+"?"+(language==null?"":"&language="+flatten(language)));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_ancestries[].class));
+    }
+
+    public default R_get_universe_asteroid_belts_asteroid_belt_id get_universe_asteroid_belts_asteroid_belt_id(int asteroid_belt_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/universe/asteroid_belts/{asteroid_belt_id}/".replace("{asteroid_belt_id}", ""+asteroid_belt_id));
+        String fetched=connectGet(url,false, headerHandler);
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id.class));
     }
 
     public default R_post_universe_ids post_universe_ids(Swagger.language language, String[] names, Map<String, List<String>> headerHandler) {
