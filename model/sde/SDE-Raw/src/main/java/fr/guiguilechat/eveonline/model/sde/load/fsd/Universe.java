@@ -8,13 +8,15 @@ import fr.guiguilechat.eveonline.model.sde.load.fsd.universe.Region;
 
 public class Universe {
 
-	public LinkedHashMap<String, Region> eve = new LinkedHashMap<>();
+	public final LinkedHashMap<String, Region> eve = new LinkedHashMap<>();
 
-	public LinkedHashMap<String, Region> wormhole = new LinkedHashMap<>();
+	public final LinkedHashMap<String, Region> wormhole = new LinkedHashMap<>();
 
 	private static Universe cache = null;
 
-	public static Universe load() {
+	public static synchronized Universe load() {
+		System.err.println("loading universe from thread " + Thread.currentThread() + " with context classloader "
+				+ Thread.currentThread().getContextClassLoader());
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			cache = new Universe();

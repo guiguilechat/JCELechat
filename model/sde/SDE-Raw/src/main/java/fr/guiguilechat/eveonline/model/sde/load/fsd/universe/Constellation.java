@@ -1,15 +1,20 @@
 package fr.guiguilechat.eveonline.model.sde.load.fsd.universe;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 public class Constellation {
+
+	private static final Logger logger = LoggerFactory.getLogger(Constellation.class);
+
 	public LinkedHashMap<String, SolarSystem> systems = new LinkedHashMap<>();
 
 	public double[] center, min, max;
@@ -29,14 +34,25 @@ public class Constellation {
 					"while looking for one file of constellation data, found " + Arrays.asList(data));
 		}
 		try {
-			Constellation ret = new Yaml().loadAs(new FileReader(data[0]), Constellation.class);
-			ret.systems.putAll(Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory)
-					.collect(Collectors.toMap(File::getName, SolarSystem::load)));
-			return ret;
+			Object ret = new Yaml().loadAs(new FileReader(data[0]), Constellation.class);
+			if (ret.getClass().getClassLoader() != Constellation.class.getClassLoader()) {
+				logger.warn("returned object " + ret + " from cl " + ret.getClass().getClassLoader()
+						+ " while Constellation cl is "
+						+ Constellation.class.getClassLoader() + " , current thread cl is "
+						+ Thread.currentThread().getClass().getClassLoader() + " and current thread context cl is "
+						+ Thread.currentThread().getContextClassLoader());
+			}
+			Constellation cst = (Constellation) ret;
+			File[] sysFiles = Stream.of(contellationDir.listFiles()).parallel().filter(File::isDirectory)
+					.toArray(File[]::new);
+			for (File sysFile : sysFiles) {
+				cst.systems.put(sysFile.getName(), SolarSystem.load(sysFile));
+			}
+			return cst;
 		} catch (ClassCastException e) {
 			throw new UnsupportedOperationException("while loading constellation from directory "
-					+ contellationDir.getAbsolutePath() + " : required class from " + Constellation.class.getClassLoader(), e);
-		} catch (Exception e) {
+					+ contellationDir.getAbsolutePath() + " : Constellation cl is " + Constellation.class.getClassLoader(), e);
+		} catch (FileNotFoundException e) {
 			throw new UnsupportedOperationException(
 					"while loading constellation from directory " + contellationDir.getAbsolutePath(), e);
 		}

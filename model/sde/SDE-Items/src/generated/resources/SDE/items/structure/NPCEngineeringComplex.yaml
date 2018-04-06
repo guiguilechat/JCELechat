@@ -1,5 +1,5 @@
 items:
-  ♦ Sotiyo:
+  ��� Sotiyo:
     ArmorDamageLimit: 75000
     ArmorEmDamageResonance: 0.800000011920929
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -67,5 +67,5 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 45006
-    name: ♦ Sotiyo
+    name: ��� Sotiyo
     volume: 800000.0

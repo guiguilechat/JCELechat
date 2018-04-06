@@ -40,7 +40,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<includePluginDependencies>true</includePluginDependencies>
+<!-- 							<includePluginDependencies>true</includePluginDependencies> -->
 							<mainClass>fr.guiguilechat.eveonline.model.sde.translate.LocationsTranslater</mainClass>
 							<arguments>
 								<!-- resource folder to put database in -->

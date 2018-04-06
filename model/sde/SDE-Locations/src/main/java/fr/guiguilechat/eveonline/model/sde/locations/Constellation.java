@@ -9,12 +9,16 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.eveonline.model.sde.yaml.CleanRepresenter;
 import fr.guiguilechat.eveonline.model.sde.yaml.Tools;
 
 public class Constellation extends ALocation {
+
+	private static final Logger logger = LoggerFactory.getLogger(Constellation.class);
 
 	// loading/dumping
 
@@ -28,8 +32,10 @@ public class Constellation extends ALocation {
 				cache = new Yaml().loadAs(
 						new InputStreamReader(Constellation.class.getClassLoader().getResourceAsStream(RESOURCE_PATH)),
 						Container.class).locations;
-			} catch (Exception exception) {
-				throw new UnsupportedOperationException("catch this", exception);
+			} catch (ClassCastException cce) {
+				logger.warn(cce.getLocalizedMessage() + "constellation cl is " + Constellation.class.getClassLoader(),
+						cce.getCause());
+				throw new UnsupportedOperationException("catch this", cce);
 			}
 		}
 		return cache;

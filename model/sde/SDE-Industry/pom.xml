@@ -44,7 +44,7 @@
 				<version>1.2.1</version>
 				<executions>
 					<execution>
-						<id>generate-industrys</id>
+						<id>generate-industry</id>
 						<phase>process-classes</phase>
 						<goals>
 							<goal>java</goal>

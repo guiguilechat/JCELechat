@@ -56,7 +56,7 @@ items:
     name: ♦ Moa
     volume: 101000.0
   ♦ Omen:
-    id: 46067
+    id: 43601
     name: ♦ Omen
     volume: 118000.0
   ♦ Osprey:
@@ -95,3 +95,7 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 80000.0
+  ��� Omen:
+    id: 46067
+    name: ��� Omen
+    volume: 118000.0
