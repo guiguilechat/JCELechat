@@ -66,8 +66,9 @@ public class EtypeIDs {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(new InputStreamReader(new FileInputStream(FILE), Charset.defaultCharset()),
+				cache = yaml.loadAs(new InputStreamReader(new FileInputStream(FILE), Charset.forName("UTF-8")),
 						LinkedHashMap.class);
+				// cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
