@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.industry.Usage;
 import fr.guiguilechat.eveonline.model.sde.items.types.decryptors.GenericDecryptor;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.EgroupIDs;
@@ -74,12 +76,15 @@ public class IndustryTranslater {
 	private static void translate(LinkedHashMap<String, Blueprint> blueprints,
 			LinkedHashMap<String, InventionDecryptor> decryptors, LinkedHashMap<String, Usage> usages) {
 		LinkedHashMap<Integer, EtypeIDs> types = EtypeIDs.load();
+		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID)
+				.collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EtypeIDs type = types.get(e.getValue().blueprintTypeID);
 			if (type != null) {
 				if (type.published) {
 					Blueprint bp2 = makeBlueprint(e.getValue(), types);
 					bp2.name = type.enName();
+					bp2.seeded = seededItems.contains(bp2.id);
 					blueprints.put(type.enName(), bp2);
 					addUsages(bp2, usages);
 				} else {

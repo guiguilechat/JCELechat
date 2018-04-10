@@ -1,8 +1,4 @@
 items:
-  ♦ Annihilator Drone:
-    id: 43649
-    name: ♦ Annihilator Drone
-    volume: 60.0
   ♦ Arbitrator:
     id: 43603
     name: ♦ Arbitrator
@@ -83,6 +79,10 @@ items:
     id: 46075
     name: ♦ Thorax
     volume: 112000.0
+  ♦ Vexor:
+    id: 43582
+    name: ♦ Vexor
+    volume: 115000.0
   ♦ Vigilant:
     id: 46059
     name: ♦ Vigilant
@@ -91,11 +91,7 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 80000.0
-  �� Moa:
-    id: 43570
-    name: �� Moa
-    volume: 101000.0
-  �� Vexor:
-    id: 43582
-    name: �� Vexor
-    volume: 115000.0
+  �� Annihilator Drone:
+    id: 43649
+    name: �� Annihilator Drone
+    volume: 60.0

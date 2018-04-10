@@ -20,7 +20,7 @@ items:
     name: ♦ Infested Dominix
     volume: 1010000.0
   ♦ Machariel:
-    id: 46063
+    id: 43643
     name: ♦ Machariel
     volume: 595000.0
   ♦ Megathron:
@@ -55,3 +55,7 @@ items:
     id: 46060
     name: ♦ Vindicator
     volume: 486000.0
+  ��� Machariel:
+    id: 46063
+    name: ��� Machariel
+    volume: 595000.0

@@ -15,8 +15,6 @@ public class Universe {
 	private static Universe cache = null;
 
 	public static synchronized Universe load() {
-		System.err.println("loading universe from thread " + Thread.currentThread() + " with context classloader "
-				+ Thread.currentThread().getContextClassLoader());
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			cache = new Universe();

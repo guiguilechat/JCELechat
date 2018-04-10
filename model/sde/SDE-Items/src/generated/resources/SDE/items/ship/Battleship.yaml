@@ -4875,26 +4875,26 @@ items:
     id: 34463
     name: 响尾蛇级YC117年特别版
     volume: 486000.0
-  多米尼克斯级YC117年特别版:
-    Agility: 0.12540000677108765
+  地狱天使级YC117年特别版:
+    Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 8000
-    ArmorKineticDamageResonance: 0.6499999761581421
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 8500
+    ArmorKineticDamageResonance: 0.75
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 6000.0
-    CpuOutput: 600
-    DroneBandwidth: 125
-    DroneCapacity: 375
+    CapacitorCapacity: 6375.0
+    CpuOutput: 560
+    DroneBandwidth: 75
+    DroneCapacity: 75
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 500
-    GfxBoosterID: 395
-    HeatAttenuationHi: 0.7599999904632568
+    GfxBoosterID: 394
+    HeatAttenuationHi: 0.8199999928474426
     HeatAttenuationLow: 0.7900000214576721
-    HeatAttenuationMed: 0.7099999785423279
+    HeatAttenuationMed: 0.6299999952316284
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -4902,55 +4902,55 @@ items:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
-    HiSlots: 6
-    Hp: 8500
+    HiSlots: 8
+    Hp: 8000
     KineticDamageResonance: 0.6700000166893005
+    LauncherSlotsLeft: 1
     LowSlots: 7
     MainColor: 16777215
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 70000
-    MaxVelocity: 109.0
-    MedSlots: 5
+    MaxTargetRange: 80000
+    MaxVelocity: 89.0
+    MedSlots: 4
     MinTargetVelDmgMultiplier: 0.5
-    PowerOutput: 10000
+    PowerOutput: 21000
     PowerToSpeed: 1
-    PropulsionGraphicID: 395
-    RechargeRate: 1100000.0
-    RequiredSkill1: 3336
+    PropulsionGraphicID: 394
+    RechargeRate: 1250000.0
+    RequiredSkill1: 3339
     RequiredSkill1Level: 1
     RigSize: 3
     RigSlots: 3
-    ScanMagnetometricStrength: 22.0
-    ScanResolution: 90
-    ScanSpeed: 8250
-    ShieldCapacity: 7200
+    ScanRadarStrength: 22.0
+    ScanResolution: 85
+    ScanSpeed: 7500
+    ShieldCapacity: 7000
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    ShipBonusAB: 5.0
+    ShipBonusAB: -4.0
+    ShipBonusAB2: 5.0
     ShipBonusCB: 5
-    ShipBonusGB: 7.5
-    ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
-    SignatureRadius: 465
+    SignatureRadius: 470
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TurretSlotsLeft: 6
-    TypeColorScheme: 11331
+    TurretSlotsLeft: 8
+    TypeColorScheme: 11313
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    id: 34465
-    name: 多米尼克斯级YC117年特别版
-    volume: 454500.0
+    id: 34459
+    name: 地狱天使级YC117年特别版
+    volume: 495000.0
   末日沙场级YC117年特别版:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
@@ -5102,7 +5102,7 @@ items:
     id: 34471
     name: 灾难级YC117年特别版
     volume: 495000.0
-  马克瑞级YC117年特别���:
+  马克瑞级YC117年特别版:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -5180,28 +5180,28 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
     id: 34461
-    name: 马克瑞级YC117年特别���
+    name: 马克瑞级YC117年特别版
     volume: 595000.0
-  ��狱天使级YC117年特别版:
-    Agility: 0.14000000059604645
+  ���米尼克斯级YC117年特别版:
+    Agility: 0.12540000677108765
     ArmorEmDamageResonance: 0.5
-    ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 8500
-    ArmorKineticDamageResonance: 0.75
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 8000
+    ArmorKineticDamageResonance: 0.6499999761581421
     ArmorThermalDamageResonance: 0.6499999761581421
     ArmorUniformity: 0.75
     BaseWarpSpeed: 1
-    CapacitorCapacity: 6375.0
-    CpuOutput: 560
-    DroneBandwidth: 75
-    DroneCapacity: 75
+    CapacitorCapacity: 6000.0
+    CpuOutput: 600
+    DroneBandwidth: 125
+    DroneCapacity: 375
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 500
-    GfxBoosterID: 394
-    HeatAttenuationHi: 0.8199999928474426
+    GfxBoosterID: 395
+    HeatAttenuationHi: 0.7599999904632568
     HeatAttenuationLow: 0.7900000214576721
-    HeatAttenuationMed: 0.6299999952316284
+    HeatAttenuationMed: 0.7099999785423279
     HeatCapacityHi: 100
     HeatCapacityLow: 100
     HeatCapacityMed: 100
@@ -5209,52 +5209,52 @@ items:
     HeatDissipationRateLow: 0.009999999776482582
     HeatDissipationRateMed: 0.009999999776482582
     HeatGenerationMultiplier: 0.5
-    HiSlots: 8
-    Hp: 8000
+    HiSlots: 6
+    Hp: 8500
     KineticDamageResonance: 0.6700000166893005
-    LauncherSlotsLeft: 1
     LowSlots: 7
     MainColor: 16777215
     MaxDirectionalVelocity: 1000
     MaxLockedTargets: 7
     MaxPassengers: 1000
-    MaxTargetRange: 80000
-    MaxVelocity: 89.0
-    MedSlots: 4
+    MaxTargetRange: 70000
+    MaxVelocity: 109.0
+    MedSlots: 5
     MinTargetVelDmgMultiplier: 0.5
-    PowerOutput: 21000
+    PowerOutput: 10000
     PowerToSpeed: 1
-    PropulsionGraphicID: 394
-    RechargeRate: 1250000.0
-    RequiredSkill1: 3339
+    PropulsionGraphicID: 395
+    RechargeRate: 1100000.0
+    RequiredSkill1: 3336
     RequiredSkill1Level: 1
     RigSize: 3
     RigSlots: 3
-    ScanRadarStrength: 22.0
-    ScanResolution: 85
-    ScanSpeed: 7500
-    ShieldCapacity: 7000
+    ScanMagnetometricStrength: 22.0
+    ScanResolution: 90
+    ScanSpeed: 8250
+    ShieldCapacity: 7200
     ShieldEmDamageResonance: 1.0
     ShieldExplosiveDamageResonance: 0.5
     ShieldKineticDamageResonance: 0.6000000238418579
     ShieldRechargeRate: 2500000.0
     ShieldThermalDamageResonance: 0.800000011920929
     ShieldUniformity: 0.75
-    ShipBonusAB: -4.0
-    ShipBonusAB2: 5.0
+    ShipBonusAB: 5.0
     ShipBonusCB: 5
+    ShipBonusGB: 7.5
+    ShipBonusGB2: 10.0
     ShipBonusMB: 5.0
-    SignatureRadius: 470
+    SignatureRadius: 465
     StructureUniformity: 1.0
     TechLevel: 1
     ThermalDamageResonance: 0.6700000166893005
-    TurretSlotsLeft: 8
-    TypeColorScheme: 11313
+    TurretSlotsLeft: 6
+    TypeColorScheme: 11331
     Uniformity: 1.0
     UpgradeCapacity: 400
     UpgradeSlotsLeft: 3
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
-    id: 34459
-    name: ��狱天使级YC117年特别版
-    volume: 495000.0
+    id: 34465
+    name: ���米尼克斯级YC117年特别版
+    volume: 454500.0

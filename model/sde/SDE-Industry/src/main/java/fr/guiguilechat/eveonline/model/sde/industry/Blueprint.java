@@ -100,4 +100,6 @@ public class Blueprint {
 
 	public int maxCopyRuns;
 
+	public boolean seeded;
+
 }
