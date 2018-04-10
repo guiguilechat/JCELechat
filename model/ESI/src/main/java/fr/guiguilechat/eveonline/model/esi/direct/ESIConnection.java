@@ -156,6 +156,14 @@ public class ESIConnection implements Swagger {
 				default:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 				}
+				int remaining = con.getHeaderFieldInt("X-ESI-Error-Limit-Remain", 100);
+				// if we are 10 errors from the error rate, we wait until next error
+				// window
+				if (remaining <= 10) {
+					int waitS = con.getHeaderFieldInt("X-ESI-Error-Limit-Reset", 60);
+					System.err.println(" " + remaining + " errors remaining, waiting for " + waitS + " s");
+					Thread.sleep(1000 * waitS);
+				}
 			} catch (Exception e) {
 				logger.debug("while geting " + url, e);
 				return null;
