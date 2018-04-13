@@ -137,7 +137,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_RESET:
 				case HttpsURLConnection.HTTP_PARTIAL:
 					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-					// 4xx client error
+				// 4xx client error
 				case HttpsURLConnection.HTTP_BAD_REQUEST:
 				case HttpsURLConnection.HTTP_UNAUTHORIZED:
 				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
@@ -146,7 +146,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_BAD_METHOD:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 					return null;
-					// 5xx server error
+				// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				case HttpsURLConnection.HTTP_BAD_GATEWAY:
 				case HttpsURLConnection.HTTP_UNAVAILABLE:
