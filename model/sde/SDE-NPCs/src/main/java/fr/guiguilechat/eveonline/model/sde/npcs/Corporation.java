@@ -54,7 +54,10 @@ public class Corporation {
 
 	public int id;
 	public String name;
-	public String alliance;
+	public String faction;
 	public ArrayList<Integer> lpoffers = new ArrayList<>();
+	public double concordRate = 0.0;
+
+	public String warfare;
 
 }

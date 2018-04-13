@@ -1,5 +1,6 @@
 corporations:
   24th Imperial Crusade:
+    faction: Amarr Empire
     id: 1000179
     lpoffers:
     - 3414
@@ -364,13 +365,19 @@ corporations:
     - 16173
     - 16243
     name: 24th Imperial Crusade
+    warfare: Amarr Empire
   Academy of Aggressive Behaviour:
+    faction: Jove Empire
     id: 1000178
     name: Academy of Aggressive Behaviour
   Algintal Core:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000215
     name: Algintal Core
   Aliastra:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000111
     lpoffers:
     - 3414
@@ -516,6 +523,8 @@ corporations:
     - 16195
     name: Aliastra
   Allotek Industries:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000103
     lpoffers:
     - 3414
@@ -678,6 +687,8 @@ corporations:
     - 16195
     name: Allotek Industries
   Amarr Certified News:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000073
     lpoffers:
     - 3414
@@ -812,6 +823,8 @@ corporations:
     - 16172
     name: Amarr Certified News
   Amarr Civil Service:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000079
     lpoffers:
     - 3414
@@ -946,6 +959,8 @@ corporations:
     - 16172
     name: Amarr Civil Service
   Amarr Constructions:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000063
     lpoffers:
     - 3414
@@ -1123,6 +1138,8 @@ corporations:
     - 16172
     name: Amarr Constructions
   Amarr Navy:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000084
     lpoffers:
     - 3414
@@ -1443,9 +1460,13 @@ corporations:
     - 16172
     name: Amarr Navy
   Amarr Templars:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000205
     name: Amarr Templars
   Amarr Trade Registry:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000083
     lpoffers:
     - 3414
@@ -1580,9 +1601,12 @@ corporations:
     - 16172
     name: Amarr Trade Registry
   Ametat Security:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000226
     name: Ametat Security
   Ammatar Consulate:
+    faction: Ammatar Mandate
     id: 1000126
     lpoffers:
     - 3414
@@ -1708,6 +1732,7 @@ corporations:
     - 15775
     name: Ammatar Consulate
   Ammatar Fleet:
+    faction: Ammatar Mandate
     id: 1000123
     lpoffers:
     - 3414
@@ -2012,6 +2037,7 @@ corporations:
     - 15775
     name: Ammatar Fleet
   Archangels:
+    faction: Angel Cartel
     id: 1000124
     lpoffers:
     - 3414
@@ -2287,6 +2313,8 @@ corporations:
     - 4798
     name: Archangels
   Ardishapur Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000090
     lpoffers:
     - 3414
@@ -2444,9 +2472,12 @@ corporations:
     - 16172
     name: Ardishapur Family
   Arkombine:
+    faction: Unknown
     id: 1000193
     name: Arkombine
   Astral Mining Inc.:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000098
     lpoffers:
     - 3414
@@ -2609,6 +2640,8 @@ corporations:
     - 16195
     name: Astral Mining Inc.
   Bank of Luminaire:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000112
     lpoffers:
     - 3414
@@ -2754,6 +2787,7 @@ corporations:
     - 16195
     name: Bank of Luminaire
   Blood Raiders:
+    faction: Blood Raider Covenant
     id: 1000134
     lpoffers:
     - 3414
@@ -3028,6 +3062,8 @@ corporations:
     - 4795
     name: Blood Raiders
   Boundless Creation:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000057
     lpoffers:
     - 3414
@@ -3197,9 +3233,13 @@ corporations:
     - 16202
     name: Boundless Creation
   Bragian Order:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000207
     name: Bragian Order
   Brutor Tribe:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000049
     lpoffers:
     - 3414
@@ -3533,9 +3573,13 @@ corporations:
     - 16202
     name: Brutor Tribe
   Brutor Vanguard:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000251
     name: Brutor Vanguard
   CBD Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000002
     lpoffers:
     - 3414
@@ -3690,6 +3734,8 @@ corporations:
     - 16174
     name: CBD Corporation
   CBD Sell Division:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000024
     lpoffers:
     - 3414
@@ -3844,6 +3890,8 @@ corporations:
     - 16174
     name: CBD Sell Division
   CONCORD:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000125
     lpoffers:
     - 15327
@@ -4076,9 +4124,13 @@ corporations:
     - 16339
     name: CONCORD
   CONCORD Aerospace:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000280
     name: CONCORD Aerospace
   Caldari Business Tribunal:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000033
     lpoffers:
     - 3414
@@ -4233,6 +4285,8 @@ corporations:
     - 16174
     name: Caldari Business Tribunal
   Caldari Constructions:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000026
     lpoffers:
     - 3414
@@ -4392,6 +4446,8 @@ corporations:
     - 16174
     name: Caldari Constructions
   Caldari Funds Unlimited:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000028
     lpoffers:
     - 3414
@@ -4546,6 +4602,8 @@ corporations:
     - 16174
     name: Caldari Funds Unlimited
   Caldari Navy:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000035
     lpoffers:
     - 3414
@@ -4882,6 +4940,8 @@ corporations:
     - 16174
     name: Caldari Navy
   Caldari Provisions:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000009
     lpoffers:
     - 3414
@@ -5041,6 +5101,8 @@ corporations:
     - 16174
     name: Caldari Provisions
   Caldari Steel:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000015
     lpoffers:
     - 3414
@@ -5200,6 +5262,8 @@ corporations:
     - 16174
     name: Caldari Steel
   Carthum Conglomerate:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000064
     lpoffers:
     - 3414
@@ -5357,6 +5421,8 @@ corporations:
     - 16172
     name: Carthum Conglomerate
   Center for Advanced Studies:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000169
     lpoffers:
     - 3414
@@ -5519,9 +5585,13 @@ corporations:
     - 16195
     name: Center for Advanced Studies
   Chatelain Rapid Response:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000247
     name: Chatelain Rapid Response
   Chemal Tech:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000108
     lpoffers:
     - 3414
@@ -5685,6 +5755,8 @@ corporations:
     - 16221
     name: Chemal Tech
   Chief Executive Panel:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000031
     lpoffers:
     - 3414
@@ -5839,9 +5911,13 @@ corporations:
     - 16174
     name: Chief Executive Panel
   Circle of Huskarl:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000218
     name: Circle of Huskarl
   Civic Court:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000092
     lpoffers:
     - 3414
@@ -5976,6 +6052,8 @@ corporations:
     - 16172
     name: Civic Court
   Combined Harvest:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000099
     lpoffers:
     - 3414
@@ -6138,15 +6216,23 @@ corporations:
     - 16195
     name: Combined Harvest
   Commando Perkone:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000237
     name: Commando Perkone
   Company of Marcher Lords:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000227
     name: Company of Marcher Lords
   Condotta Rouvenor:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000250
     name: Condotta Rouvenor
   Core Complexion Inc.:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000056
     lpoffers:
     - 3414
@@ -6316,6 +6402,8 @@ corporations:
     - 16202
     name: Core Complexion Inc.
   Corporate Police Force:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000043
     lpoffers:
     - 3414
@@ -6652,6 +6740,8 @@ corporations:
     - 16174
     name: Corporate Police Force
   Court Chamberlain:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000085
     lpoffers:
     - 3414
@@ -6786,6 +6876,8 @@ corporations:
     - 16172
     name: Court Chamberlain
   CreoDron:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000101
     lpoffers:
     - 3414
@@ -6948,12 +7040,18 @@ corporations:
     - 16195
     name: CreoDron
   Crux Special Tasks Group:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000216
     name: Crux Special Tasks Group
   DED:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000137
     name: DED
   Deep Core Mining Inc.:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000006
     lpoffers:
     - 3414
@@ -7113,9 +7211,12 @@ corporations:
     - 16174
     name: Deep Core Mining Inc.
   Directive Intelligence Agency:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000282
     name: Directive Intelligence Agency
   Dominations:
+    faction: Angel Cartel
     id: 1000138
     lpoffers:
     - 3414
@@ -7390,10 +7491,9 @@ corporations:
     - 4797
     - 4798
     name: Dominations
-  Doomheim:
-    id: 1000001
-    name: Doomheim
   Ducia Foundry:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000069
     lpoffers:
     - 3414
@@ -7552,6 +7652,8 @@ corporations:
     - 16221
     name: Ducia Foundry
   Duvolle Laboratories:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000109
     lpoffers:
     - 3414
@@ -7706,6 +7808,8 @@ corporations:
     - 16195
     name: Duvolle Laboratories
   Echelon Entertainment:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000018
     lpoffers:
     - 3414
@@ -7860,9 +7964,13 @@ corporations:
     - 16174
     name: Echelon Entertainment
   Edimmu Warfighters:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000248
     name: Edimmu Warfighters
   Egonics Inc.:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000106
     lpoffers:
     - 3414
@@ -8008,6 +8116,8 @@ corporations:
     - 16195
     name: Egonics Inc.
   Eifyr and Co.:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000058
     lpoffers:
     - 3414
@@ -8178,6 +8288,8 @@ corporations:
     - 16221
     name: Eifyr and Co.
   Emperor Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000086
     lpoffers:
     - 3414
@@ -8312,6 +8424,8 @@ corporations:
     - 16172
     name: Emperor Family
   Expert Distribution:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000023
     lpoffers:
     - 3414
@@ -8466,6 +8580,8 @@ corporations:
     - 16174
     name: Expert Distribution
   Expert Housing:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000027
     lpoffers:
     - 3414
@@ -8620,12 +8736,18 @@ corporations:
     - 16174
     name: Expert Housing
   Expert Intervention:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000233
     name: Expert Intervention
   Eyniletti Rangers:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000255
     name: Eyniletti Rangers
   FedMart:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000110
     lpoffers:
     - 3414
@@ -8771,6 +8893,8 @@ corporations:
     - 16195
     name: FedMart
   Federal Administration:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000119
     lpoffers:
     - 3414
@@ -8916,6 +9040,7 @@ corporations:
     - 16195
     name: Federal Administration
   Federal Defense Union:
+    faction: Gallente Federation
     id: 1000181
     lpoffers:
     - 3414
@@ -9279,7 +9404,10 @@ corporations:
     - 16195
     - 16243
     name: Federal Defense Union
+    warfare: Gallente Federation
   Federal Freight:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000095
     lpoffers:
     - 3414
@@ -9425,6 +9553,8 @@ corporations:
     - 16195
     name: Federal Freight
   Federal Intelligence Office:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000121
     lpoffers:
     - 3414
@@ -9746,9 +9876,13 @@ corporations:
     - 16195
     name: Federal Intelligence Office
   Federal Marines:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000262
     name: Federal Marines
   Federal Navy Academy:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000168
     lpoffers:
     - 3414
@@ -10070,6 +10204,8 @@ corporations:
     - 16195
     name: Federal Navy Academy
   Federal Strategic Materiel:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000285
     lpoffers:
     - 16296
@@ -10085,6 +10221,8 @@ corporations:
     - 16333
     name: Federal Strategic Materiel
   Federation Customs:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000122
     lpoffers:
     - 3414
@@ -10406,6 +10544,8 @@ corporations:
     - 16195
     name: Federation Customs
   Federation Navy:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000120
     lpoffers:
     - 3414
@@ -10727,6 +10867,8 @@ corporations:
     - 16195
     name: Federation Navy
   Food Relief:
+    concordRate: 0.4
+    faction: Servant Sisters of EVE
     id: 1000139
     lpoffers:
     - 3414
@@ -10804,12 +10946,18 @@ corporations:
     - 16242
     name: Food Relief
   Forty-Nine Fedayeen:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000257
     name: Forty-Nine Fedayeen
   Fraternity of St. Venefice:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000223
     name: Fraternity of St. Venefice
   Freedom Extension:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000061
     lpoffers:
     - 3414
@@ -10970,6 +11118,8 @@ corporations:
     - 16221
     name: Freedom Extension
   Frostline Laboratories:
+    concordRate: 0.4
+    faction: ORE
     id: 1000277
     lpoffers:
     - 4679
@@ -10990,6 +11140,8 @@ corporations:
     - 16274
     name: Frostline Laboratories
   Further Foodstuffs:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000076
     lpoffers:
     - 3414
@@ -11147,6 +11299,8 @@ corporations:
     - 16172
     name: Further Foodstuffs
   Garoun Investment Bank:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000114
     lpoffers:
     - 3414
@@ -11292,9 +11446,11 @@ corporations:
     - 16195
     name: Garoun Investment Bank
   Genolution:
+    faction: The Society of Conscious Thought
     id: 1000140
     name: Genolution
   Guardian Angels:
+    faction: Angel Cartel
     id: 1000136
     lpoffers:
     - 3414
@@ -11570,6 +11726,7 @@ corporations:
     - 4798
     name: Guardian Angels
   Guristas:
+    faction: Guristas Pirates
     id: 1000127
     lpoffers:
     - 3414
@@ -11877,6 +12034,7 @@ corporations:
     - 15774
     name: Guristas
   Guristas Production:
+    faction: Guristas Pirates
     id: 1000141
     lpoffers:
     - 3414
@@ -12015,6 +12173,8 @@ corporations:
     - 15774
     name: Guristas Production
   HZO Refinery:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000070
     lpoffers:
     - 3414
@@ -12172,6 +12332,8 @@ corporations:
     - 16172
     name: HZO Refinery
   Hedion University:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000165
     lpoffers:
     - 3414
@@ -12306,9 +12468,13 @@ corporations:
     - 16172
     name: Hedion University
   Holdfast Syndicate:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000231
     name: Holdfast Syndicate
   Home Guard:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000039
     lpoffers:
     - 3414
@@ -12645,6 +12811,8 @@ corporations:
     - 16174
     name: Home Guard
   House of Records:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000034
     lpoffers:
     - 3414
@@ -12799,6 +12967,8 @@ corporations:
     - 16174
     name: House of Records
   Hyasyoda Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000005
     lpoffers:
     - 3414
@@ -12958,9 +13128,13 @@ corporations:
     - 16174
     name: Hyasyoda Corporation
   Ikomari-Onu Enforcement:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000240
     name: Ikomari-Onu Enforcement
   Imperial Academy:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000166
     lpoffers:
     - 3414
@@ -13281,6 +13455,8 @@ corporations:
     - 16172
     name: Imperial Academy
   Imperial Armaments:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000065
     lpoffers:
     - 3414
@@ -13438,6 +13614,8 @@ corporations:
     - 16172
     name: Imperial Armaments
   Imperial Chancellor:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000078
     lpoffers:
     - 3414
@@ -13572,9 +13750,13 @@ corporations:
     - 16172
     name: Imperial Chancellor
   Imperial Guard:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000198
     name: Imperial Guard
   Imperial Shipment:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000072
     lpoffers:
     - 3414
@@ -13709,6 +13891,8 @@ corporations:
     - 16172
     name: Imperial Shipment
   Imperial War Reserves:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000283
     lpoffers:
     - 16275
@@ -13724,6 +13908,8 @@ corporations:
     - 16325
     name: Imperial War Reserves
   Impetus:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000105
     lpoffers:
     - 3414
@@ -13870,12 +14056,17 @@ corporations:
     - 16221
     name: Impetus
   Impro:
+    faction: The Society of Conscious Thought
     id: 1000142
     name: Impro
   Independent Gaming Commission:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000281
     name: Independent Gaming Commission
   Inherent Implants:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000071
     lpoffers:
     - 3414
@@ -14033,9 +14224,13 @@ corporations:
     - 16172
     name: Inherent Implants
   Inner Circle:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000143
     name: Inner Circle
   Inner Zone Shipping:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000096
     lpoffers:
     - 3414
@@ -14181,6 +14376,8 @@ corporations:
     - 16195
     name: Inner Zone Shipping
   Intaki Bank:
+    concordRate: 0.4
+    faction: The Syndicate
     id: 1000144
     lpoffers:
     - 3414
@@ -14252,6 +14449,8 @@ corporations:
     - 16221
     name: Intaki Bank
   Intaki Commerce:
+    concordRate: 0.4
+    faction: The Syndicate
     id: 1000145
     lpoffers:
     - 3414
@@ -14322,6 +14521,8 @@ corporations:
     - 16197
     name: Intaki Commerce
   Intaki Space Police:
+    concordRate: 0.4
+    faction: The Syndicate
     id: 1000146
     lpoffers:
     - 3414
@@ -14566,6 +14767,8 @@ corporations:
     - 16197
     name: Intaki Space Police
   Intaki Syndicate:
+    concordRate: 0.4
+    faction: The Syndicate
     id: 1000147
     lpoffers:
     - 3414
@@ -14810,12 +15013,17 @@ corporations:
     - 16197
     name: Intaki Syndicate
   Intara Direct Action:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000239
     name: Intara Direct Action
   InterBus:
+    faction: The InterBus
     id: 1000148
     name: InterBus
   Internal Security:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000036
     lpoffers:
     - 3414
@@ -15152,6 +15360,8 @@ corporations:
     - 16174
     name: Internal Security
   Ishukone Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000019
     lpoffers:
     - 3414
@@ -15311,6 +15521,8 @@ corporations:
     - 16174
     name: Ishukone Corporation
   Ishukone Watch:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000038
     lpoffers:
     - 3414
@@ -15647,9 +15859,13 @@ corporations:
     - 16174
     name: Ishukone Watch
   Isuuaya Tactical:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000238
     name: Isuuaya Tactical
   Joint Harvesting:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000074
     lpoffers:
     - 3414
@@ -15807,12 +16023,16 @@ corporations:
     - 16172
     name: Joint Harvesting
   Jove Navy:
+    faction: Jove Empire
     id: 1000149
     name: Jove Navy
   Jovian Directorate:
+    faction: Jove Empire
     id: 1000150
     name: Jovian Directorate
   Kaalakiota Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000010
     lpoffers:
     - 3414
@@ -15972,6 +16192,8 @@ corporations:
     - 16174
     name: Kaalakiota Corporation
   Kador Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000087
     lpoffers:
     - 3414
@@ -16106,12 +16328,17 @@ corporations:
     - 16172
     name: Kador Family
   Kameira Lodge:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000229
     name: Kameira Lodge
   Kang Lo Directorate:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000249
     name: Kang Lo Directorate
   Khanid Innovation:
+    faction: Khanid Kingdom
     id: 1000151
     lpoffers:
     - 3414
@@ -16207,6 +16434,7 @@ corporations:
     - 4615
     name: Khanid Innovation
   Khanid Transport:
+    faction: Khanid Kingdom
     id: 1000152
     lpoffers:
     - 3414
@@ -16294,6 +16522,7 @@ corporations:
     - 4615
     name: Khanid Transport
   Khanid Works:
+    faction: Khanid Kingdom
     id: 1000153
     lpoffers:
     - 3414
@@ -16389,12 +16618,18 @@ corporations:
     - 4615
     name: Khanid Works
   Kinsho Swords:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000232
     name: Kinsho Swords
   Kirkinen Risk Control:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000235
     name: Kirkinen Risk Control
   Kor-Azor Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000089
     lpoffers:
     - 3414
@@ -16529,12 +16764,18 @@ corporations:
     - 16172
     name: Kor-Azor Family
   Krullefor Organization:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000253
     name: Krullefor Organization
   Krusual Covert Operators:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000259
     name: Krusual Covert Operators
   Krusual Tribe:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000047
     lpoffers:
     - 3414
@@ -16694,6 +16935,8 @@ corporations:
     - 16202
     name: Krusual Tribe
   Lai Dai Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000020
     lpoffers:
     - 3414
@@ -16910,6 +17153,8 @@ corporations:
     - 16174
     name: Lai Dai Corporation
   Lai Dai Protection Service:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000037
     lpoffers:
     - 3414
@@ -17189,9 +17434,13 @@ corporations:
     - 16174
     name: Lai Dai Protection Service
   Mannar Focused Warfare:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000244
     name: Mannar Focused Warfare
   Material Acquisition:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000097
     lpoffers:
     - 3414
@@ -17354,9 +17603,12 @@ corporations:
     - 16195
     name: Material Acquisition
   Material Institute:
+    faction: Jove Empire
     id: 1000177
     name: Material Institute
   Mercantile Club:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000032
     lpoffers:
     - 3414
@@ -17511,9 +17763,13 @@ corporations:
     - 16174
     name: Mercantile Club
   Mikramurka Shock Troop:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000254
     name: Mikramurka Shock Troop
   Minedrill:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000008
     lpoffers:
     - 3414
@@ -17673,6 +17929,8 @@ corporations:
     - 16174
     name: Minedrill
   Ministry of Assessment:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000081
     lpoffers:
     - 3414
@@ -17807,6 +18065,8 @@ corporations:
     - 16172
     name: Ministry of Assessment
   Ministry of Internal Order:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000082
     lpoffers:
     - 3414
@@ -18127,6 +18387,8 @@ corporations:
     - 16172
     name: Ministry of Internal Order
   Ministry of War:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000080
     lpoffers:
     - 3414
@@ -18447,6 +18709,8 @@ corporations:
     - 16172
     name: Ministry of War
   Minmatar Mining Corporation:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000055
     lpoffers:
     - 3414
@@ -18616,6 +18880,8 @@ corporations:
     - 16202
     name: Minmatar Mining Corporation
   Modern Finances:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000030
     lpoffers:
     - 3414
@@ -18770,6 +19036,7 @@ corporations:
     - 16174
     name: Modern Finances
   Mordu's Legion:
+    faction: Mordu's Legion Command
     id: 1000128
     lpoffers:
     - 3414
@@ -19014,9 +19281,13 @@ corporations:
     - 16221
     name: Mordu's Legion
   Namtar Elite:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000243
     name: Namtar Elite
   Native Freshfood:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000060
     lpoffers:
     - 3414
@@ -19186,6 +19457,7 @@ corporations:
     - 16202
     name: Native Freshfood
   Nefantar Miner Association:
+    faction: Ammatar Mandate
     id: 1000154
     lpoffers:
     - 3414
@@ -19328,6 +19600,8 @@ corporations:
     - 15775
     name: Nefantar Miner Association
   Noble Appliances:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000068
     lpoffers:
     - 3414
@@ -19485,6 +19759,8 @@ corporations:
     - 16172
     name: Noble Appliances
   Nugoeihuvi Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000017
     lpoffers:
     - 3414
@@ -19639,6 +19915,8 @@ corporations:
     - 16174
     name: Nugoeihuvi Corporation
   Nurtura:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000075
     lpoffers:
     - 3414
@@ -19796,6 +20074,8 @@ corporations:
     - 16172
     name: Nurtura
   ORE Technologies:
+    concordRate: 0.4
+    faction: ORE
     id: 1000276
     lpoffers:
     - 4679
@@ -19816,15 +20096,23 @@ corporations:
     - 16274
     name: ORE Technologies
   Onikanabo Brigade:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000234
     name: Onikanabo Brigade
   Osmon Surveillance:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000213
     name: Osmon Surveillance
   Ostrakon Agency:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000222
     name: Ostrakon Agency
   Outer Ring Development:
+    concordRate: 0.4
+    faction: ORE
     id: 1000270
     lpoffers:
     - 4679
@@ -19845,6 +20133,8 @@ corporations:
     - 16274
     name: Outer Ring Development
   Outer Ring Excavations:
+    concordRate: 0.4
+    faction: ORE
     id: 1000129
     lpoffers:
     - 4396
@@ -19894,6 +20184,8 @@ corporations:
     - 16274
     name: Outer Ring Excavations
   Outer Ring Prospecting:
+    concordRate: 0.4
+    faction: ORE
     id: 1000271
     lpoffers:
     - 4679
@@ -19914,12 +20206,13 @@ corporations:
     - 16274
     name: Outer Ring Prospecting
   Paladin Survey Force:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000225
     name: Paladin Survey Force
-  Pann's Peeps:
-    id: 1000176
-    name: Pann's Peeps
   Pator Tech School:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000172
     lpoffers:
     - 3414
@@ -20079,6 +20372,8 @@ corporations:
     - 16202
     name: Pator Tech School
   Peace and Order Unit:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000040
     lpoffers:
     - 3414
@@ -20415,6 +20710,8 @@ corporations:
     - 16174
     name: Peace and Order Unit
   Pend Insurance:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000113
     lpoffers:
     - 3414
@@ -20568,6 +20865,8 @@ corporations:
     - 16195
     name: Pend Insurance
   Perkone:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000014
     lpoffers:
     - 3414
@@ -20727,6 +21026,8 @@ corporations:
     - 16174
     name: Perkone
   Poksu Mineral Group:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000007
     lpoffers:
     - 3414
@@ -20885,16 +21186,9 @@ corporations:
     - 16170
     - 16174
     name: Poksu Mineral Group
-  Polaris Bug Hunters:
-    id: 1000174
-    name: Polaris Bug Hunters
-  Polaris Corporation:
-    id: 1000173
-    name: Polaris Corporation
-  Polaris Events:
-    id: 1000175
-    name: Polaris Events
   Poteque Pharmaceuticals:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000104
     lpoffers:
     - 3414
@@ -21057,6 +21351,8 @@ corporations:
     - 16195
     name: Poteque Pharmaceuticals
   President:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000116
     lpoffers:
     - 3414
@@ -21202,9 +21498,13 @@ corporations:
     - 16195
     name: President
   Project Discovery:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000279
     name: Project Discovery
   Prompt Delivery:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000003
     lpoffers:
     - 3414
@@ -21359,6 +21659,8 @@ corporations:
     - 16174
     name: Prompt Delivery
   Propel Dynamics:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000022
     lpoffers:
     - 3414
@@ -21519,9 +21821,12 @@ corporations:
     - 16221
     name: Propel Dynamics
   Prosper:
+    faction: Jove Empire
     id: 1000155
     name: Prosper
   Quafe Company:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000100
     lpoffers:
     - 3414
@@ -21667,6 +21972,8 @@ corporations:
     - 16195
     name: Quafe Company
   Rapid Assembly:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000013
     lpoffers:
     - 3414
@@ -21826,12 +22133,18 @@ corporations:
     - 16174
     name: Rapid Assembly
   Red and Silver Hand:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000230
     name: Red and Silver Hand
   Republic Command:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000263
     name: Republic Command
   Republic Fleet:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000051
     lpoffers:
     - 3414
@@ -22165,6 +22478,8 @@ corporations:
     - 16202
     name: Republic Fleet
   Republic Fleet Ordnance:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000286
     lpoffers:
     - 16306
@@ -22180,6 +22495,8 @@ corporations:
     - 16337
     name: Republic Fleet Ordnance
   Republic Justice Department:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000052
     lpoffers:
     - 3414
@@ -22513,6 +22830,8 @@ corporations:
     - 16202
     name: Republic Justice Department
   Republic Military School:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000170
     lpoffers:
     - 3414
@@ -22846,6 +23165,8 @@ corporations:
     - 16202
     name: Republic Military School
   Republic Parliament:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000050
     lpoffers:
     - 3414
@@ -23005,6 +23326,8 @@ corporations:
     - 16202
     name: Republic Parliament
   Republic Security Services:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000054
     lpoffers:
     - 3414
@@ -23338,6 +23661,8 @@ corporations:
     - 16202
     name: Republic Security Services
   Republic University:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000171
     lpoffers:
     - 3414
@@ -23507,9 +23832,13 @@ corporations:
     - 16202
     name: Republic University
   Resheph Interstellar Strategy:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000245
     name: Resheph Interstellar Strategy
   Roden Shipyards:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000102
     lpoffers:
     - 3414
@@ -23672,6 +24001,8 @@ corporations:
     - 16195
     name: Roden Shipyards
   Royal Amarr Institute:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000077
     lpoffers:
     - 3414
@@ -23829,6 +24160,7 @@ corporations:
     - 16172
     name: Royal Amarr Institute
   Royal Khanid Navy:
+    faction: Khanid Kingdom
     id: 1000156
     lpoffers:
     - 3414
@@ -24090,9 +24422,12 @@ corporations:
     - 4615
     name: Royal Khanid Navy
   Royal Uhlans:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000206
     name: Royal Uhlans
   Salvation Angels:
+    faction: Angel Cartel
     id: 1000133
     lpoffers:
     - 3414
@@ -24199,9 +24534,13 @@ corporations:
     - 4798
     name: Salvation Angels
   Sanmatar Kelkoons:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000220
     name: Sanmatar Kelkoons
   Sarum Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000088
     lpoffers:
     - 3414
@@ -24522,6 +24861,8 @@ corporations:
     - 16172
     name: Sarum Family
   School of Applied Knowledge:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000044
     lpoffers:
     - 3414
@@ -24681,6 +25022,8 @@ corporations:
     - 16174
     name: School of Applied Knowledge
   Science and Trade Institute:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000045
     lpoffers:
     - 3414
@@ -24835,9 +25178,13 @@ corporations:
     - 16174
     name: Science and Trade Institute
   Sebiestor Field Sappers:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000256
     name: Sebiestor Field Sappers
   Sebiestor Tribe:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000046
     lpoffers:
     - 3414
@@ -25007,12 +25354,18 @@ corporations:
     - 16202
     name: Sebiestor Tribe
   Secure Commerce Commission:
+    concordRate: 1.0
+    faction: CONCORD Assembly
     id: 1000132
     name: Secure Commerce Commission
   Seituoda Taskforce Command:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000214
     name: Seituoda Taskforce Command
   Senate:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000117
     lpoffers:
     - 3414
@@ -25158,6 +25511,7 @@ corporations:
     - 16195
     name: Senate
   Serpentis Corporation:
+    faction: Serpentis
     id: 1000135
     lpoffers:
     - 3414
@@ -25460,6 +25814,7 @@ corporations:
     - 16271
     name: Serpentis Corporation
   Serpentis Inquest:
+    faction: Serpentis
     id: 1000157
     lpoffers:
     - 3414
@@ -25590,18 +25945,27 @@ corporations:
     - 16271
     name: Serpentis Inquest
   Seykal Expeditionary Group:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000258
     name: Seykal Expeditionary Group
   Shapeset:
+    faction: Jove Empire
     id: 1000158
     name: Shapeset
   Shining Flame:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000224
     name: Shining Flame
   Sinq Laison Gendarmes:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000246
     name: Sinq Laison Gendarmes
   Sisters of EVE:
+    concordRate: 0.4
+    faction: Servant Sisters of EVE
     id: 1000130
     lpoffers:
     - 3414
@@ -25705,6 +26069,8 @@ corporations:
     - 16242
     name: Sisters of EVE
   Six Kin Development:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000059
     lpoffers:
     - 3414
@@ -25874,9 +26240,12 @@ corporations:
     - 16202
     name: Six Kin Development
   Society of Conscious Thought:
+    faction: The Society of Conscious Thought
     id: 1000131
     name: Society of Conscious Thought
   Spacelane Patrol:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000041
     lpoffers:
     - 3414
@@ -26213,6 +26582,8 @@ corporations:
     - 16174
     name: Spacelane Patrol
   State Military Stockpile:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000284
     lpoffers:
     - 16285
@@ -26228,9 +26599,12 @@ corporations:
     - 16329
     name: State Military Stockpile
   State Peacekeepers:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000261
     name: State Peacekeepers
   State Protectorate:
+    faction: Caldari State
     id: 1000180
     lpoffers:
     - 3414
@@ -26607,7 +26981,10 @@ corporations:
     - 16175
     - 16243
     name: State Protectorate
+    warfare: Caldari State
   State War Academy:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000167
     lpoffers:
     - 3414
@@ -26944,6 +27321,8 @@ corporations:
     - 16174
     name: State War Academy
   State and Region Bank:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000029
     lpoffers:
     - 3414
@@ -27098,9 +27477,13 @@ corporations:
     - 16174
     name: State and Region Bank
   Storm Wind Strikeforce:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000236
     name: Storm Wind Strikeforce
   Sukuuvestaa Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000025
     lpoffers:
     - 3414
@@ -27260,6 +27643,8 @@ corporations:
     - 16174
     name: Sukuuvestaa Corporation
   Supreme Court:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000118
     lpoffers:
     - 3414
@@ -27405,9 +27790,13 @@ corporations:
     - 16195
     name: Supreme Court
   Tal-Romon Legion:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000228
     name: Tal-Romon Legion
   Tash-Murkon Family:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000091
     lpoffers:
     - 3414
@@ -27542,9 +27931,13 @@ corporations:
     - 16172
     name: Tash-Murkon Family
   Templis Dragonaurs:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000197
     name: Templis Dragonaurs
   The Leisure Group:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000062
     lpoffers:
     - 3414
@@ -27704,6 +28097,8 @@ corporations:
     - 16202
     name: The Leisure Group
   The Sanctuary:
+    concordRate: 0.4
+    faction: Servant Sisters of EVE
     id: 1000159
     lpoffers:
     - 3414
@@ -27781,6 +28176,8 @@ corporations:
     - 16242
     name: The Sanctuary
   The Scope:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000107
     lpoffers:
     - 3414
@@ -27926,6 +28323,8 @@ corporations:
     - 16195
     name: The Scope
   Theology Council:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000093
     lpoffers:
     - 3414
@@ -28060,6 +28459,8 @@ corporations:
     - 16172
     name: Theology Council
   Thukker Mix:
+    concordRate: 0.4
+    faction: Thukker Tribe
     id: 1000160
     lpoffers:
     - 3414
@@ -28325,6 +28726,8 @@ corporations:
     - 16203
     name: Thukker Mix
   Top Down:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000012
     lpoffers:
     - 3414
@@ -28484,6 +28887,8 @@ corporations:
     - 16174
     name: Top Down
   TransStellar Shipping:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000094
     lpoffers:
     - 3414
@@ -28629,6 +29034,7 @@ corporations:
     - 16195
     name: TransStellar Shipping
   Tribal Liberation Force:
+    faction: Minmatar Republic
     id: 1000182
     lpoffers:
     - 3414
@@ -29002,10 +29408,14 @@ corporations:
     - 16202
     - 16243
     name: Tribal Liberation Force
+    warfare: Minmatar Republic
   Tronhadar Free Guard:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000219
     name: Tronhadar Free Guard
   True Creations:
+    faction: Sansha's Nation
     id: 1000161
     lpoffers:
     - 3414
@@ -29112,6 +29522,7 @@ corporations:
     - 16338
     name: True Creations
   True Power:
+    faction: Sansha's Nation
     id: 1000162
     lpoffers:
     - 3414
@@ -29387,6 +29798,8 @@ corporations:
     - 16338
     name: True Power
   Trust Partners:
+    concordRate: 0.4
+    faction: Thukker Tribe
     id: 1000163
     lpoffers:
     - 4500
@@ -29425,6 +29838,8 @@ corporations:
     - 16203
     name: Trust Partners
   University of Caille:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000115
     lpoffers:
     - 3414
@@ -29570,6 +29985,8 @@ corporations:
     - 16195
     name: University of Caille
   Urban Management:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000053
     lpoffers:
     - 3414
@@ -29729,9 +30146,13 @@ corporations:
     - 16202
     name: Urban Management
   Vherokior Combat Logistics:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000252
     name: Vherokior Combat Logistics
   Vherokior Tribe:
+    concordRate: 0.8
+    faction: Minmatar Republic
     id: 1000048
     lpoffers:
     - 3414
@@ -29891,12 +30312,17 @@ corporations:
     - 16202
     name: Vherokior Tribe
   Vigilant Tyrannos:
+    faction: Drifters
     id: 1000274
     name: Vigilant Tyrannos
   Villore Sec Ops:
+    concordRate: 0.8
+    faction: Gallente Federation
     id: 1000217
     name: Villore Sec Ops
   Viziam:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000066
     lpoffers:
     - 3414
@@ -30054,6 +30480,8 @@ corporations:
     - 16172
     name: Viziam
   Wiyrkomi Corporation:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000011
     lpoffers:
     - 3414
@@ -30213,6 +30641,8 @@ corporations:
     - 16174
     name: Wiyrkomi Corporation
   Wiyrkomi Peace Corps:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000042
     lpoffers:
     - 3414
@@ -30549,9 +30979,12 @@ corporations:
     - 16174
     name: Wiyrkomi Peace Corps
   X-Sense:
+    faction: The Society of Conscious Thought
     id: 1000164
     name: X-Sense
   Ytiri:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000004
     lpoffers:
     - 3414
@@ -30707,6 +31140,8 @@ corporations:
     - 16221
     name: Ytiri
   Zainou:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000016
     lpoffers:
     - 3414
@@ -30866,6 +31301,8 @@ corporations:
     - 16174
     name: Zainou
   Zero-G Research Firm:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000021
     lpoffers:
     - 3414
@@ -31025,6 +31462,8 @@ corporations:
     - 16174
     name: Zero-G Research Firm
   Zoar and Sons:
+    concordRate: 0.8
+    faction: Amarr Empire
     id: 1000067
     lpoffers:
     - 3414
@@ -31183,5 +31622,7 @@ corporations:
     - 16221
     name: Zoar and Sons
   Zumari Force Projection:
+    concordRate: 0.8
+    faction: Caldari State
     id: 1000208
     name: Zumari Force Projection

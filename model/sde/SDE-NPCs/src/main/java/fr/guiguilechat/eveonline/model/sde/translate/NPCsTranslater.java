@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.translate;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -11,15 +12,18 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_factions;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCCorporations;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCDivisions;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material;
@@ -31,6 +35,8 @@ import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer;
 import fr.guiguilechat.eveonline.model.sde.npcs.LPOffer.ItemRef;
 
 public class NPCsTranslater {
+
+	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(NPCsTranslater.class);
 
 	/**
 	 *
@@ -79,28 +85,35 @@ public class NPCsTranslater {
 		System.err.println("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 	}
 
-	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,Map<Integer, String>divisionTypes,
-			LinkedHashMap<String, Agent> agents, LinkedHashMap<String, Corporation> corporations,
-			LinkedHashMap<Integer, LPOffer> offers) {
+	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
+			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
+			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
 		ESIAccount esi = new ESIAccount(null, null);
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
-		Map<Integer, R_get_corporations_corporation_id> corpNames = IntStream.of(esi.raw.get_corporations_npccorps(null))
+		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
+		Map<Integer, R_get_corporations_corporation_id> npcCorps = IntStream.of(esi.raw.get_corporations_npccorps(null))
 				.parallel().mapToObj(l -> l)
 				.collect(Collectors.toMap(l -> l, l -> esi.raw.get_corporations_corporation_id(l, null)));
-		Map<Integer, String> allianceNames = new HashMap<>();
-		corpNames.values().stream().mapToInt(corp -> corp.alliance_id).distinct().filter(l -> l > 0).forEachOrdered(l -> {
-			R_get_alliances_alliance_id ally = esi.raw.get_alliances_alliance_id(l, null);
-			if (ally != null) {
-				allianceNames.put(l, ally.name);
+		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
+				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
+		if (allyIds.length == 0) {
+			for (Entry<Integer, R_get_corporations_corporation_id> e : npcCorps.entrySet()) {
+				System.err.println(" " + e.getKey() + " : " + e.getValue().name + " : " + e.getValue().alliance_id + " : "
+						+ e.getValue().faction_id);
 			}
-		});
+		} else {
+			System.err.println("npc alliances are " + Arrays.asList(allyIds));
+		}
+		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.raw.get_universe_factions(null, null))
+				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
 		Map<Integer, String> agentNames = Stream
 				.of(esi.names.characterNames(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
 				.collect(Collectors.toMap(n -> (int) n.character_id, n -> n.character_name));
+
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();
-			agent.corporation = corpNames.get(eagt.corporationID).name;
+			agent.corporation = npcCorps.get(eagt.corporationID).name;
 			agent.id = eagt.agentID;
 			agent.name = agentNames.get(eagt.agentID);
 			agent.isLocator = eagt.isLocator;
@@ -114,11 +127,26 @@ public class NPCsTranslater {
 			}
 			agents.put(agent.name, agent);
 		}
-		for (Entry<Integer, R_get_corporations_corporation_id> e : corpNames.entrySet()) {
+		for (Entry<Integer, R_get_corporations_corporation_id> e : npcCorps.entrySet()) {
 			Corporation add = new Corporation();
 			add.id = e.getKey();
+			EcrpNPCCorporations snpc = snpcCorps.get(add.id);
+			if (snpc == null) {
+				logger.warn("can't find corporation from id " + add.id);
+				continue;
+			}
 			add.name = e.getValue().name;
-			add.alliance = allianceNames.get(e.getValue().alliance_id);
+			R_get_universe_factions faction = factionById.get(snpc.factionID);
+
+			if (faction == null) {
+				logger.warn("can't find faction from id " + snpc.factionID + " for corporation " + add.name);
+				continue;
+			}
+			add.faction = faction.name;
+			if (e.getValue().faction_id != 0) {
+				add.warfare = factionById.get(e.getValue().faction_id).name;
+			}
+			add.concordRate = convertConcordRate(add.name, add.faction, add.warfare);
 			corporations.put(e.getValue().name, add);
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
@@ -131,6 +159,29 @@ public class NPCsTranslater {
 			}
 		});
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.raw, offers));
+	}
+
+	private static double convertConcordRate(String name, String alliance, String fw) {
+		if (fw != null) {
+			return 0;
+		}
+		switch (alliance) {
+		case "CONCORD Assembly":
+			return 1;
+		case "Amarr Empire":
+		case "Ammatar Mandate":
+		case "Caldari State":
+		case "Gallente Federation":
+		case "Khanid Kingdom":
+		case "Minmatar Republic":
+			return 0.8;
+		case "ORE":
+		case "The Syndicate":
+		case "Thukker Tribe":
+		case "Servant Sisters of EVE":
+			return 0.4;
+		}
+		return 0;
 	}
 
 	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {
