@@ -114,6 +114,10 @@ public class Compiler {
 
 	private AbstractJClass headerhandlertype;
 
+	static enum OpType {
+		get, post, put, delete;
+	};
+
 	public JCodeModel compile() throws JClassAlreadyExistsException {
 		Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
 		cm = new JCodeModel();
@@ -164,13 +168,13 @@ public class Compiler {
 			String resource = e.getKey();
 			Path p = e.getValue();
 			// System.err.println(resource);
-			addPath(false, resource, p.getGet());
-			addPath(true, resource, p.getPost());
+			addPath(OpType.get, resource, p.getGet());
+			addPath(OpType.post, resource, p.getPost());
 		});
 		return cm;
 	}
 
-	protected void addPath(boolean isPost, String path, Operation operation) {
+	protected void addPath(OpType optype, String path, Operation operation) {
 		if (operation != null) {
 			Response r = operation.getResponses().get("200");
 			if (r == null) {
@@ -207,6 +211,9 @@ public class Compiler {
 						case "path":
 							PathParameter pp = (PathParameter) p;
 							pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
+							if (!pp.getRequired() && pt.isPrimitive()) {
+								pt=pt.boxify();
+							}
 							pathparameters.add(meth.param(pt, pp.getName()));
 							break;
 						case "query":
@@ -253,7 +260,8 @@ public class Compiler {
 				}
 				JVar url = meth.body().decl(cm.ref(String.class), "url");
 				url.init(JExpr.direct(urlAssign));
-				if (isPost) {
+				switch (optype) {
+				case post:
 					JVar content = null;
 					if (!bodyparameters.isEmpty()) {
 						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
@@ -273,9 +281,13 @@ public class Compiler {
 								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
 								.arg(JExpr.lit(connected)).arg(header));
 					}
-				} else {
+					break;
+				case get:
 					meth.body().directStatement(
 							"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
+					break;
+				default:
+					throw new UnsupportedOperationException("unsupported type " + optype);
 				}
 				if (s != null) {
 					meth.body()._return(
@@ -385,7 +397,11 @@ public class Compiler {
 		if (pp.getType().equals(ArrayProperty.TYPE)) {
 			return getExistingClass(pp.getItems()).array();
 		} else {
-			return getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
+			AbstractJType type = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
+			if (type != null && !pp.getRequired() && type.isPrimitive()) {
+				type = type.boxify();
+			}
+			return type;
 		}
 	}
 
