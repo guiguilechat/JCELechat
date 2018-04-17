@@ -68,7 +68,7 @@ public class Industry {
 				}
 				systemIndicesCache.put(sysid, indices);
 			}
-			systemIndicesCacheExpire = ESIConnection.getCacheExpire(headers);
+			systemIndicesCacheExpire = System.currentTimeMillis() + ESIConnection.getCacheExpire(headers);
 		}
 	}
 

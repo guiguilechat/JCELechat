@@ -1,6 +1,17 @@
 package fr.guiguilechat.eveonline.model.esi;
 
 import java.time.format.DateTimeFormatter;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+import java.util.function.BiFunction;
+import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
@@ -12,6 +23,8 @@ import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Route;
 import fr.guiguilechat.eveonline.model.esi.modeled.Universe;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
+import javafx.beans.property.LongProperty;
+import javafx.beans.property.SimpleLongProperty;
 
 /**
  * encapsulation of a raw connection to have better modeling
@@ -19,9 +32,11 @@ import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
  */
 public class ESIAccount {
 
-	public final ESIConnection raw;
+	private static final Logger logger = LoggerFactory.getLogger(ESIAccount.class);
 
 	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
+
+	public final ESIConnection raw;
 
 	public ESIAccount(ESIConnection raw) {
 		this.raw = raw;
@@ -77,6 +92,65 @@ public class ESIAccount {
 		}
 		ESIConnection otherraw = ((ESIAccount) obj).raw;
 		return raw == null || otherraw == null ? raw == otherraw : raw.equals(otherraw);
+	}
+
+	// execution of data retrieval
+
+	// we set daemon otherwise the thread will prevent jvm from running.
+	public final ScheduledExecutorService exec = Executors.newScheduledThreadPool(8, r -> {
+		Thread t = Executors.defaultThreadFactory().newThread(r);
+		t.setDaemon(true);
+		return t;
+	});
+
+	public class CacheUpdaterTask<T> implements Runnable {
+
+		private final BiFunction<Integer, Map<String, List<String>>, T[]> fetcher;
+
+		private final Consumer<Stream<T>> cacheHandler;
+
+		public CacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+				Consumer<Stream<T>> cacheHandler) {
+			this.fetcher = fetcher;
+			this.cacheHandler = cacheHandler;
+			if (cacheHandler == null || fetcher == null) {
+				throw new NullPointerException();
+			}
+		}
+
+		@Override
+		public void run() {
+			long delay_ms = 1000;
+			try {
+				LongProperty cachedExpire = new SimpleLongProperty();
+				Stream<T> arr = ESIConnection.loadPages(
+						fetcher,
+						cachedExpire::set);
+				cacheHandler.accept(arr);
+				delay_ms += cachedExpire.get() - System.currentTimeMillis();
+				System.err.println("fetched cache for " + delay_ms / 1000 + "s");
+			} catch (Throwable e) {
+				logger.warn("while  fetching cache", e);
+			} finally {
+				exec.schedule(this, Math.max(delay_ms, 0), TimeUnit.MILLISECONDS);
+			}
+		}
+	}
+
+	/**
+	 * repeatedly fetch a cache and put the value in the handler. The cache expire
+	 * is retrieved when fetching data, and used to schedule next retrieve.
+	 *
+	 * @param fetcher
+	 *          the function that actually fetch a page, as an array of T. This
+	 *          function uses a handler as second parameter to store the headers
+	 *          of the resource.
+	 * @param cacheHandler
+	 *          the data that consumes the new cache obtained from the fetcher.
+	 */
+	public <T> void addFetchCache(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+			Consumer<Stream<T>> cacheHandler) {
+		exec.schedule(new CacheUpdaterTask<>(fetcher, cacheHandler), 0, TimeUnit.SECONDS);
 	}
 
 }

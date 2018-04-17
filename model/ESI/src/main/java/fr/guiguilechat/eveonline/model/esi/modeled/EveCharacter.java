@@ -185,7 +185,7 @@ public class EveCharacter {
 				if (cacheOnlineExpire <= System.currentTimeMillis()) {
 					Map<String, List<String>> headerHandler = new HashMap<>();
 					cachedOnline = con.raw.get_characters_character_id_online(con.characterId(), headerHandler);
-					cacheOnlineExpire = ESIConnection.getCacheExpire(headerHandler);
+					cacheOnlineExpire = System.currentTimeMillis() + ESIConnection.getCacheExpire(headerHandler);
 				}
 			}
 		}
@@ -233,7 +233,7 @@ public class EveCharacter {
 					solarSystem.set(cachedLocation.solar_system_id);
 					station.set(cachedLocation.station_id);
 					structure.set(cachedLocation.structure_id);
-					cacheLocationExpire = ESIConnection.getCacheExpire(headerHandler);
+					cacheLocationExpire = System.currentTimeMillis() + ESIConnection.getCacheExpire(headerHandler);
 				}
 			}
 		}

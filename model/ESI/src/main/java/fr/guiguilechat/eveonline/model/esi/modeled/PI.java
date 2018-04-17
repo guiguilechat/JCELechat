@@ -73,7 +73,7 @@ public class PI {
 				Set<Integer> pids = planetIds == null ? Collections.emptySet()
 						: Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
 				cachedPlanets.keySet().retainAll(pids);
-				planetCacheExpiry = ESIConnection.getCacheExpire(headerHandler);
+				planetCacheExpiry = System.currentTimeMillis() + ESIConnection.getCacheExpire(headerHandler);
 				if (planetIds != null) {
 					Stream.of(planetIds).parallel().map(pli -> {
 						R_get_characters_character_id_planets_planet_id planet = acc.raw

@@ -137,7 +137,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_RESET:
 				case HttpsURLConnection.HTTP_PARTIAL:
 					return new BufferedReader(new InputStreamReader(con.getInputStream())).readLine();
-				// 4xx client error
+					// 4xx client error
 				case HttpsURLConnection.HTTP_BAD_REQUEST:
 				case HttpsURLConnection.HTTP_UNAUTHORIZED:
 				case HttpsURLConnection.HTTP_PAYMENT_REQUIRED:
@@ -146,7 +146,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_BAD_METHOD:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 					return null;
-				// 5xx server error
+					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				case HttpsURLConnection.HTTP_BAD_GATEWAY:
 				case HttpsURLConnection.HTTP_UNAVAILABLE:
@@ -325,7 +325,7 @@ public class ESIConnection implements Swagger {
 
 	/**
 	 * extract the cache expire from the headers returned by a connection. If the
-	 * headers are missing the data, return now.
+	 * headers are missing the data, return 0
 	 *
 	 * @param headers
 	 * @return the long value of milliseconds at which the cache will expire, or
@@ -334,13 +334,14 @@ public class ESIConnection implements Swagger {
 	public static long getCacheExpire(Map<String, List<String>> headers) {
 		List<String> expirel = headers.get("Expires");
 		if (expirel == null || expirel.isEmpty()) {
-			return System.currentTimeMillis();
+			return 0;
 		}
 		List<String> datel = headers.get("Date");
 		if (datel == null || datel.isEmpty()) {
-			return System.currentTimeMillis();
+			return 0;
 		}
-		return System.currentTimeMillis() + 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
+		// System.err.println("expire " + expirel + " date " + datel);
+		return 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
 				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
 	}
 
@@ -375,7 +376,10 @@ public class ESIConnection implements Swagger {
 		T[] res = resourceAccess.apply(1, headerHandler);
 		int nbpages = ESIConnection.getNbPages(headerHandler);
 		if (cacheExpireStore != null) {
-			cacheExpireStore.accept(ESIConnection.getCacheExpire(headerHandler));
+			long expire = ESIConnection.getCacheExpire(headerHandler);
+			// System.err.println("" + nbpages + " pages, expire in " + expire / 1000
+			// + "s");
+			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
 		return res == null ? Stream.empty()
 				: Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
