@@ -89,10 +89,11 @@ public class ProdEval {
 		// each bpc
 		evaluations.parallelStream().forEach(eval -> {
 			eval.inValue = eval.required.entrySet().parallelStream()
-					.mapToDouble(e -> (intputSO ? market.getSO(MetaInf.getItem(e.getKey()).id, e.getValue())
-							: market.getBO(MetaInf.getItem(e.getKey()).id, e.getValue())) * (1.0 + intTax / 100))
+					.mapToDouble(e -> (intputSO ? market.getSO(MetaInf.getItem(e.getKey()).id, e.getValue()).get()
+							: market.getBO(MetaInf.getItem(e.getKey()).id, e.getValue()).get()) * (1.0 + intTax / 100))
 					.sum();
-			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb) : market.getBO(eval.output.id, eval.outNb))
+			eval.outValue = (outputSO ? market.getSO(eval.output.id, eval.outNb).get()
+					: market.getBO(eval.output.id, eval.outNb).get())
 					* (1.0 - outTax / 100);
 			eval.inValue += ESIAccount.DISCONNECTED.markets.getAdjusted(eval.output.id) * eval.outNb * prodTax / 100;
 			eval.gain = eval.outValue - eval.inValue;

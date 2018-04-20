@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi;
 
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executors;
@@ -8,6 +9,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -103,13 +105,19 @@ public class ESIAccount {
 		return t;
 	});
 
-	public class CacheUpdaterTask<T> implements Runnable {
+	/**
+	 * task to fetch an array.
+	 *
+	 * @param <T>
+	 *          the inner type of the array.
+	 */
+	public class ArrayCacheUpdaterTask<T> implements Runnable {
 
 		private final BiFunction<Integer, Map<String, List<String>>, T[]> fetcher;
 
 		private final Consumer<Stream<T>> cacheHandler;
 
-		public CacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
 				Consumer<Stream<T>> cacheHandler) {
 			this.fetcher = fetcher;
 			this.cacheHandler = cacheHandler;
@@ -118,8 +126,13 @@ public class ESIAccount {
 			}
 		}
 
+		boolean stop = false;
+
 		@Override
 		public void run() {
+			if (stop) {
+				return;
+			}
 			long delay_ms = 1000;
 			try {
 				LongProperty cachedExpire = new SimpleLongProperty();
@@ -128,12 +141,17 @@ public class ESIAccount {
 						cachedExpire::set);
 				cacheHandler.accept(arr);
 				delay_ms += cachedExpire.get() - System.currentTimeMillis();
-				System.err.println("fetched cache for " + delay_ms / 1000 + "s");
+				// System.err.println("fetched array cache for " + delay_ms / 1000 +
+				// "s");
 			} catch (Throwable e) {
 				logger.warn("while  fetching cache", e);
 			} finally {
 				exec.schedule(this, Math.max(delay_ms, 0), TimeUnit.MILLISECONDS);
 			}
+		}
+
+		public void stop() {
+			stop = true;
 		}
 	}
 
@@ -141,16 +159,93 @@ public class ESIAccount {
 	 * repeatedly fetch a cache and put the value in the handler. The cache expire
 	 * is retrieved when fetching data, and used to schedule next retrieve.
 	 *
+	 *
 	 * @param fetcher
 	 *          the function that actually fetch a page, as an array of T. This
 	 *          function uses a handler as second parameter to store the headers
 	 *          of the resource.
 	 * @param cacheHandler
 	 *          the data that consumes the new cache obtained from the fetcher.
+	 * @return a runnable stopper function. Once this function is called, the
+	 *         cache will not be fetched anymore, unless of course it was already
+	 *         in the fetch function.
+	 * @param <T>
+	 *          the type of object the fetched array contains.
 	 */
-	public <T> void addFetchCache(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+	public <T> Runnable addFetchCacheArray(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
 			Consumer<Stream<T>> cacheHandler) {
-		exec.schedule(new CacheUpdaterTask<>(fetcher, cacheHandler), 0, TimeUnit.SECONDS);
+		ArrayCacheUpdaterTask<T> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler);
+		exec.schedule(t, 0, TimeUnit.SECONDS);
+		return t::stop;
+	}
+
+	/**
+	 * class to fetch an object.
+	 *
+	 * @param <T>
+	 *          the type fo the object to fetch
+	 */
+	public class ObjectCacheUpdaterTask<T> implements Runnable {
+
+		private final Function<Map<String, List<String>>, T> fetcher;
+
+		private final Consumer<T> cacheHandler;
+
+		public ObjectCacheUpdaterTask(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler) {
+			this.fetcher = fetcher;
+			this.cacheHandler = cacheHandler;
+			if (cacheHandler == null || fetcher == null) {
+				throw new NullPointerException();
+			}
+		}
+
+		boolean stop = false;
+
+		@Override
+		public void run() {
+			if (stop) {
+				return;
+			}
+			long delay_ms = 1000;
+			try {
+				Map<String, List<String>> headerHandler = new HashMap<>();
+				T res = fetcher.apply(headerHandler);
+				delay_ms += ESIConnection.getCacheExpire(headerHandler);
+				cacheHandler.accept(res);
+				// System.err.println("fetched object cache for " + delay_ms / 1000 +
+				// "s");
+			} catch (Throwable e) {
+				logger.warn("while  fetching cache", e);
+			} finally {
+				exec.schedule(this, Math.max(delay_ms, 0), TimeUnit.MILLISECONDS);
+			}
+		}
+
+		public void stop() {
+			stop = true;
+		}
+	}
+
+	/**
+	 * repeatedly fetch a cache and put the value in the handler. The cache expire
+	 * is retrieved when fetching data, and used to schedule next retrieve.
+	 *
+	 *
+	 * @param fetcher
+	 *          the function that actually fetch the T. This function uses a
+	 *          handler to store the headers of the resource.
+	 * @param cacheHandler
+	 *          the data that consumes the new cache obtained from the fetcher.
+	 * @return a runnable stopper function. Once this function is called, the
+	 *         cache will not be fetched anymore, unless of course it was already
+	 *         in the fetch function.
+	 * @param <T>
+	 *          the type of object that represents the cache.
+	 */
+	public <T> Runnable addFetchCacheObject(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler) {
+		ObjectCacheUpdaterTask<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler);
+		exec.schedule(t, 0, TimeUnit.SECONDS);
+		return t::stop;
 	}
 
 }

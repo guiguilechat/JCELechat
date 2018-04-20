@@ -161,7 +161,7 @@ public class ESIConnection implements Swagger {
 				// window
 				if (remaining <= 10) {
 					int waitS = con.getHeaderFieldInt("X-ESI-Error-Limit-Reset", 60);
-					System.err.println(" " + remaining + " errors remaining, waiting for " + waitS + " s");
+					logger.warn(" " + remaining + " errors remaining, waiting for " + waitS + " s");
 					Thread.sleep(1000 * waitS);
 				}
 			} catch (Exception e) {
@@ -340,7 +340,6 @@ public class ESIConnection implements Swagger {
 		if (datel == null || datel.isEmpty()) {
 			return 0;
 		}
-		// System.err.println("expire " + expirel + " date " + datel);
 		return 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
 				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
 	}
@@ -377,8 +376,6 @@ public class ESIConnection implements Swagger {
 		int nbpages = ESIConnection.getNbPages(headerHandler);
 		if (cacheExpireStore != null) {
 			long expire = ESIConnection.getCacheExpire(headerHandler);
-			// System.err.println("" + nbpages + " pages, expire in " + expire / 1000
-			// + "s");
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
 		return res == null ? Stream.empty()

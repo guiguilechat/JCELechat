@@ -4,10 +4,10 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.model.esi.compiled.Swagger.order_type;
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
-import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.collections.FXCollections;
@@ -21,8 +21,6 @@ public class CachedOrdersList {
 	private final RegionalMarket regionalMarket;
 	public final int typeID;
 
-	private long cacheEnd = 0;
-
 	private ObservableList<R_get_markets_region_id_orders> buyOrders = FXCollections.observableArrayList();
 	private ObservableList<R_get_markets_region_id_orders> sellOrders = FXCollections.observableArrayList();
 
@@ -32,12 +30,10 @@ public class CachedOrdersList {
 	}
 
 	protected void handleNewOrders(List<R_get_markets_region_id_orders> neworders) {
-		// System.err.println("updating orders for item " + typeID + " with " +
-		// neworders.size() + " items");
 		synchronized (buyOrders) {
 			buyOrders.clear();
 			for (R_get_markets_region_id_orders o : neworders) {
-				if (o.is_buy_order) {
+				if (o.type_id == typeID && o.is_buy_order) {
 					buyOrders.add(o);
 				}
 			}
@@ -46,7 +42,7 @@ public class CachedOrdersList {
 		synchronized (sellOrders) {
 			sellOrders.clear();
 			for (R_get_markets_region_id_orders o : neworders) {
-				if (!o.is_buy_order) {
+				if (o.type_id == typeID && !o.is_buy_order) {
 					sellOrders.add(o);
 				}
 			}
@@ -54,25 +50,38 @@ public class CachedOrdersList {
 		}
 	}
 
-	private synchronized void fetchPage() {
-		if (System.currentTimeMillis() <= cacheEnd) {
+	protected void handleNewCache(Stream<R_get_markets_region_id_orders> newCache) {
+		handleNewOrders(newCache.collect(Collectors.toList()));
+	}
+
+	private Runnable selfOrdersStop = null;
+
+	/**
+	 * add a specific fetcher for this. this will increase the rate of fetches
+	 */
+	public synchronized void addFetcher() {
+		if (selfOrdersStop != null) {
 			return;
 		}
-		List<R_get_markets_region_id_orders> neworders = ESIConnection
-				.loadPages((p, h) -> regionalMarket.markets.esiConnection.raw.get_markets_region_id_orders(
-						order_type.all,
-						p, regionalMarket.regionID, typeID, h), l -> cacheEnd = l)
-				.filter(o -> o.min_volume == 1).collect(Collectors.toList());
-		handleNewOrders(neworders);
+		selfOrdersStop = regionalMarket.markets.esiConnection.addFetchCacheArray(
+				(p, h) -> regionalMarket.markets.esiConnection.raw
+				.get_markets_region_id_orders(Swagger.order_type.all, p, regionalMarket.regionID, typeID, h),
+				this::handleNewCache);
+	}
+
+	public synchronized void remFetcher() {
+		if (selfOrdersStop == null) {
+			return;
+		}
+		selfOrdersStop.run();
+		selfOrdersStop = null;
 	}
 
 	public ObservableList<R_get_markets_region_id_orders> listBuyOrders() {
-		fetchPage();
 		return buyOrders;
 	}
 
 	public ObservableList<R_get_markets_region_id_orders> listSellOrders() {
-		fetchPage();
 		return sellOrders;
 	}
 
@@ -97,6 +106,9 @@ public class CachedOrdersList {
 					ret = new DoubleBinding() {
 						@Override
 						protected double computeValue() {
+							// ensure the regional market got its last orders, in case we are
+							// just created this may not be true yet.
+							regionalMarket.ensureFetched();
 							double sumCost = 0;
 							int qttyremain = qtty;
 							ObservableList<R_get_markets_region_id_orders> orders = buy ? listBuyOrders() : listSellOrders();
@@ -120,11 +132,6 @@ public class CachedOrdersList {
 					m.put(qtty, ret);
 				}
 			}
-		}
-		if (buy) {
-			listBuyOrders();
-		} else {
-			listSellOrders();
 		}
 		return ret;
 	}
