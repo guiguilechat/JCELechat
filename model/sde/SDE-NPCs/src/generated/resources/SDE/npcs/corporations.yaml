@@ -1606,6 +1606,7 @@ corporations:
     id: 1000226
     name: Ametat Security
   Ammatar Consulate:
+    concordRate: 0.8
     faction: Ammatar Mandate
     id: 1000126
     lpoffers:
@@ -1732,6 +1733,7 @@ corporations:
     - 15775
     name: Ammatar Consulate
   Ammatar Fleet:
+    concordRate: 0.8
     faction: Ammatar Mandate
     id: 1000123
     lpoffers:
@@ -16338,6 +16340,7 @@ corporations:
     id: 1000249
     name: Kang Lo Directorate
   Khanid Innovation:
+    concordRate: 0.8
     faction: Khanid Kingdom
     id: 1000151
     lpoffers:
@@ -16434,6 +16437,7 @@ corporations:
     - 4615
     name: Khanid Innovation
   Khanid Transport:
+    concordRate: 0.8
     faction: Khanid Kingdom
     id: 1000152
     lpoffers:
@@ -16522,6 +16526,7 @@ corporations:
     - 4615
     name: Khanid Transport
   Khanid Works:
+    concordRate: 0.8
     faction: Khanid Kingdom
     id: 1000153
     lpoffers:
@@ -19457,6 +19462,7 @@ corporations:
     - 16202
     name: Native Freshfood
   Nefantar Miner Association:
+    concordRate: 0.8
     faction: Ammatar Mandate
     id: 1000154
     lpoffers:
@@ -24160,6 +24166,7 @@ corporations:
     - 16172
     name: Royal Amarr Institute
   Royal Khanid Navy:
+    concordRate: 0.8
     faction: Khanid Kingdom
     id: 1000156
     lpoffers:

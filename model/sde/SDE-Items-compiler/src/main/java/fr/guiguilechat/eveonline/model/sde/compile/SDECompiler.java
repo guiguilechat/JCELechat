@@ -257,7 +257,7 @@ public class SDECompiler {
 				catIDToClass.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
 			} catch (JClassAlreadyExistsException e1) {
-				throw new UnsupportedOperationException("catch this", e1);
+				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}
 		}
 
@@ -282,7 +282,7 @@ public class SDECompiler {
 				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
 				ret.cat2Groups.get(catClass).add(groupClass);
 			} catch (JClassAlreadyExistsException e1) {
-				throw new UnsupportedOperationException("catch this", e1);
+				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}
 		}
 

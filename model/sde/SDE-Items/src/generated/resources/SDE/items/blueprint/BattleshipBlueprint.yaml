@@ -476,20 +476,25 @@ items:
     id: 34468
     name: 万王宝座级YC117年特别版蓝图
     volume: 0.01
-  响尾蛇级YC117年特别版蓝图:
+  乌鸦级YC117年特别版蓝图:
+    TechLevel: 1
+    id: 34470
+    name: 乌鸦级YC117年特别版蓝图
+    volume: 0.01
+  响尾蛇级YC117年特别版��图:
     TechLevel: 1
     id: 34464
-    name: 响尾蛇级YC117年特别版蓝图
+    name: 响尾蛇级YC117年特别版��图
     volume: 0.01
   地狱天使级YC117年特别版蓝图:
     TechLevel: 1
     id: 34460
     name: 地狱天使级YC117年特别版蓝图
     volume: 0.01
-  多米尼克��级YC117年特别版蓝图:
+  多米尼克斯级YC117年特别版蓝图:
     TechLevel: 1
     id: 34466
-    name: 多米尼克��级YC117年特别版蓝图
+    name: 多米尼克斯级YC117年特别版蓝图
     volume: 0.01
   末日沙场级YC117年特别版蓝图:
     TechLevel: 1
@@ -505,9 +510,4 @@ items:
     TechLevel: 1
     id: 34462
     name: 马克瑞级YC117年特别版蓝图
-    volume: 0.01
-  ��鸦级YC117年特别版蓝图:
-    TechLevel: 1
-    id: 34470
-    name: ��鸦级YC117年特别版蓝图
     volume: 0.01

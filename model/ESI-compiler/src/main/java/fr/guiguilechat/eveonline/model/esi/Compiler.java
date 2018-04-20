@@ -32,26 +32,25 @@ import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JPrimitiveType;
 import com.helger.jcodemodel.JVar;
 
-import io.swagger.models.ArrayModel;
-import io.swagger.models.Model;
-import io.swagger.models.Operation;
-import io.swagger.models.Path;
-import io.swagger.models.Response;
-import io.swagger.models.Swagger;
-import io.swagger.models.parameters.BodyParameter;
-import io.swagger.models.parameters.Parameter;
-import io.swagger.models.parameters.PathParameter;
-import io.swagger.models.parameters.QueryParameter;
-import io.swagger.models.properties.ArrayProperty;
-import io.swagger.models.properties.BooleanProperty;
-import io.swagger.models.properties.DecimalProperty;
-import io.swagger.models.properties.FloatProperty;
-import io.swagger.models.properties.IntegerProperty;
-import io.swagger.models.properties.LongProperty;
-import io.swagger.models.properties.ObjectProperty;
-import io.swagger.models.properties.Property;
-import io.swagger.models.properties.StringProperty;
-import io.swagger.parser.SwaggerParser;
+import v2.io.swagger.models.ArrayModel;
+import v2.io.swagger.models.Model;
+import v2.io.swagger.models.Operation;
+import v2.io.swagger.models.Path;
+import v2.io.swagger.models.Response;
+import v2.io.swagger.models.parameters.BodyParameter;
+import v2.io.swagger.models.parameters.Parameter;
+import v2.io.swagger.models.parameters.PathParameter;
+import v2.io.swagger.models.parameters.QueryParameter;
+import v2.io.swagger.models.properties.ArrayProperty;
+import v2.io.swagger.models.properties.BooleanProperty;
+import v2.io.swagger.models.properties.DecimalProperty;
+import v2.io.swagger.models.properties.FloatProperty;
+import v2.io.swagger.models.properties.IntegerProperty;
+import v2.io.swagger.models.properties.LongProperty;
+import v2.io.swagger.models.properties.ObjectProperty;
+import v2.io.swagger.models.properties.Property;
+import v2.io.swagger.models.properties.StringProperty;
+import v2.io.swagger.parser.SwaggerParser;
 
 public class Compiler {
 
@@ -119,7 +118,7 @@ public class Compiler {
 	};
 
 	public JCodeModel compile() throws JClassAlreadyExistsException {
-		Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
+		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
 		cm = new JCodeModel();
 		String rootPackage = Compiler.class.getPackage().getName() + ".compiled";
 		// List<String> add = Arrays.asList(baseURL.split("/")[2].split("\\."));

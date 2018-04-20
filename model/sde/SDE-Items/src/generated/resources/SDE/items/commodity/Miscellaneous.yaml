@@ -407,11 +407,11 @@ items:
     id: 29137
     name: Caldari Traitor's DNA
     volume: 0.1
-  Capital Ship Design – ���Dictator”:
+  Capital Ship Design – “Dictator”:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32371
-    name: Capital Ship Design – ���Dictator”
+    name: Capital Ship Design – “Dictator”
     volume: 0.1
   Cargo Manifest:
     ExportTaxMultiplier: 1
