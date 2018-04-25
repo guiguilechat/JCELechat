@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.yaml.snakeyaml.DumperOptions.FlowStyle;
 import org.yaml.snakeyaml.introspector.Property;
 import org.yaml.snakeyaml.nodes.MappingNode;
 import org.yaml.snakeyaml.nodes.NodeTuple;
@@ -49,7 +48,7 @@ public class CleanRepresenter extends Representer {
 			addClassTag(javaBean.getClass(), Tag.MAP);
 		}
 		MappingNode ret = super.representJavaBean(properties, javaBean);
-		ret.setFlowStyle(FlowStyle.BLOCK);
+		// ret.setFlowStyle(FlowStyle.BLOCK);
 		return ret;
 	}
 }

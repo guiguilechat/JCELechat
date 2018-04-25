@@ -869,7 +869,7 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_loyalty_points[].class));
     }
 
-    public default R_get_characters_character_id_mail[] get_characters_character_id_mail(int character_id, long[] labels, Integer last_mail_id, Map<String, List<String>> headerHandler) {
+    public default R_get_characters_character_id_mail[] get_characters_character_id_mail(int character_id, int[] labels, Integer last_mail_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/mail/".replace("{character_id}", ""+character_id)+"?"+(labels==null?"":"&labels="+flatten(labels))+(last_mail_id==null?"":"&last_mail_id="+flatten(last_mail_id)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_mail[].class));
@@ -892,13 +892,13 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_mail_labels.class));
     }
 
-    public default long post_characters_character_id_mail_labels(int character_id, String name, String color, Map<String, List<String>> headerHandler) {
+    public default int post_characters_character_id_mail_labels(int character_id, String name, String color, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/mail/labels/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("name", name);
         content.put("color", color);
         String fetched = connectPost(url, content, true, headerHandler);
-        return convert((fetched), (long.class));
+        return convert((fetched), (int.class));
     }
 
     public default R_get_characters_character_id_mail_lists[] get_characters_character_id_mail_lists(int character_id, Map<String, List<String>> headerHandler) {
