@@ -115,8 +115,8 @@ public class ESIConnection implements Swagger {
 						con.setRequestProperty(e.getKey(), e.getValue());
 					}
 				}
-				con.setDoOutput(true);
 				if (transmit != null) {
+					con.setDoOutput(true);
 					DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 					wr.write(transmit.getBytes(StandardCharsets.UTF_8));
 					wr.flush();
@@ -340,8 +340,10 @@ public class ESIConnection implements Swagger {
 		if (datel == null || datel.isEmpty()) {
 			return 0;
 		}
-		return 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
-				- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
+		synchronized (ESIAccount.formatter) {
+			return 1000 * ZonedDateTime.parse(expirel.get(0), ESIAccount.formatter).toEpochSecond()
+					- 1000 * ZonedDateTime.parse(datel.get(0), ESIAccount.formatter).toEpochSecond();
+		}
 	}
 
 	/**
@@ -373,13 +375,15 @@ public class ESIConnection implements Swagger {
 			LongConsumer cacheExpireStore) {
 		Map<String, List<String>> headerHandler = new HashMap<>();
 		T[] res = resourceAccess.apply(1, headerHandler);
+		if (res == null) {
+			return null;
+		}
 		int nbpages = ESIConnection.getNbPages(headerHandler);
 		if (cacheExpireStore != null) {
 			long expire = ESIConnection.getCacheExpire(headerHandler);
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
-		return res == null ? Stream.empty()
-				: Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
-						.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
+		return Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
+				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
 	}
 }

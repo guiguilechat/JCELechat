@@ -36,6 +36,9 @@ public class ESIAccount {
 
 	private static final Logger logger = LoggerFactory.getLogger(ESIAccount.class);
 
+	/**
+	 * formatter for data provided. all calls must be synchronized !
+	 */
 	public static final DateTimeFormatter formatter = DateTimeFormatter.RFC_1123_DATE_TIME;
 
 	public final ESIConnection raw;
@@ -139,10 +142,10 @@ public class ESIAccount {
 				Stream<T> arr = ESIConnection.loadPages(
 						fetcher,
 						cachedExpire::set);
-				cacheHandler.accept(arr);
-				delay_ms += cachedExpire.get() - System.currentTimeMillis();
-				// System.err.println("fetched array cache for " + delay_ms / 1000 +
-				// "s");
+				if (arr != null) {
+					cacheHandler.accept(arr);
+					delay_ms += cachedExpire.get() - System.currentTimeMillis();
+				}
 			} catch (Throwable e) {
 				logger.warn("while  fetching cache", e);
 			} finally {
@@ -210,10 +213,10 @@ public class ESIAccount {
 			try {
 				Map<String, List<String>> headerHandler = new HashMap<>();
 				T res = fetcher.apply(headerHandler);
-				delay_ms += ESIConnection.getCacheExpire(headerHandler);
-				cacheHandler.accept(res);
-				// System.err.println("fetched object cache for " + delay_ms / 1000 +
-				// "s");
+				if (res != null) {
+					delay_ms += ESIConnection.getCacheExpire(headerHandler);
+					cacheHandler.accept(res);
+				}
 			} catch (Throwable e) {
 				logger.warn("while  fetching cache", e);
 			} finally {

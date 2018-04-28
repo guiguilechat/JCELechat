@@ -7,7 +7,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.CountDownLatch;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
@@ -15,6 +19,8 @@ import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 import javafx.beans.value.ObservableDoubleValue;
 
 public class RegionalMarket {
+
+	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
 	/**
 	 *
@@ -41,7 +47,9 @@ public class RegionalMarket {
 				if (ret == null) {
 					ret = new CachedOrdersList(this, typeID);
 					synchronized (lastOrders) {
-						ret.handleNewOrders(lastOrders);
+						if (lastOrders != null) {
+							ret.handleNewOrders(lastOrders);
+						}
 					}
 					// ret.addFetcher();
 					cachedOrders.put(typeID, ret);
@@ -65,29 +73,33 @@ public class RegionalMarket {
 
 	protected void handleNewCache(Stream<R_get_markets_region_id_orders> newCache) {
 
+		// first we retrieve all. We thus ensure none is null. it can be null if a
+		// page was not found. Thus we don't handle the data, as it
+		// contains incomplete values.
+		List<R_get_markets_region_id_orders> cacheL = newCache.collect(Collectors.toList());
+		if (cacheL.contains(null)) {
+			logger.warn("discarding market data as some entries are null");
+			return;
+		}
+
 		// put all the orders in specific buy/sell maps
-		HashMap<Integer, List<R_get_markets_region_id_orders>> newList = new HashMap<>();
-		// this is synchronized to avoid an exception while iterating over the
-		// cachedOrders.
+		HashMap<Integer, List<R_get_markets_region_id_orders>> newItemLists = new HashMap<>();
 		synchronized (cachedOrders) {
 			for (Integer e : cachedOrders.keySet()) {
-				newList.put(e, new ArrayList<>());
+				newItemLists.put(e, new ArrayList<>());
 			}
 		}
-		synchronized (lastOrders) {
-			lastOrders.clear();
-			newCache.forEachOrdered(order -> {
-				List<R_get_markets_region_id_orders> l = newList.get(order.type_id);
-				if (l != null) {
-					l.add(order);
-				}
-				lastOrders.add(order);
-			});
-		}
+		cacheL.forEach(order -> {
+			List<R_get_markets_region_id_orders> l = newItemLists.get(order.type_id);
+			if (l != null) {
+				l.add(order);
+			}
+		});
+		lastOrders = cacheL;
 		// here we synchronize to be the only one updating the values
 		synchronized (cachedOrders) {
 			for (Entry<Integer, CachedOrdersList> e : cachedOrders.entrySet()) {
-				e.getValue().handleNewOrders(newList.getOrDefault(e.getKey(), Collections.emptyList()));
+				e.getValue().handleNewOrders(newItemLists.getOrDefault(e.getKey(), Collections.emptyList()));
 			}
 		}
 		lastOrdersAccess.countDown();

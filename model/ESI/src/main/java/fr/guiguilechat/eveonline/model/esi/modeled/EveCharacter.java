@@ -18,13 +18,9 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_c
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_location;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.LongProperty;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.property.SimpleLongProperty;
+import fr.guiguilechat.eveonline.model.esi.modeled.character.LocationCache;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -221,43 +217,22 @@ public class EveCharacter {
 		}
 	}
 
-	protected long cacheLocationExpire = 0;
+	private LocationCache location = null;
 
-	protected void fetchLocation() {
-		if (cacheLocationExpire <= System.currentTimeMillis()) {
+	public LocationCache getLocation() {
+		if (location == null) {
 			synchronized (this) {
-				if (cacheLocationExpire <= System.currentTimeMillis()) {
-					Map<String, List<String>> headerHandler = new HashMap<>();
-					R_get_characters_character_id_location cachedLocation = con.raw
-							.get_characters_character_id_location(con.characterId(), headerHandler);
-					solarSystem.set(cachedLocation.solar_system_id);
-					station.set(cachedLocation.station_id);
-					structure.set(cachedLocation.structure_id);
-					cacheLocationExpire = System.currentTimeMillis() + ESIConnection.getCacheExpire(headerHandler);
+				if (location == null) {
+					location = new LocationCache(con);
+					try {
+						location.waitData();
+					} catch (InterruptedException e) {
+						throw new UnsupportedOperationException("catch this", e);
+					}
 				}
 			}
 		}
-	}
-
-	IntegerProperty solarSystem = new SimpleIntegerProperty();
-
-	public IntegerProperty getSolarSystem() {
-		fetchLocation();
-		return solarSystem;
-	}
-
-	IntegerProperty station = new SimpleIntegerProperty();
-
-	public IntegerProperty getStation() {
-		fetchLocation();
-		return station;
-	}
-
-	LongProperty structure = new SimpleLongProperty();
-
-	public LongProperty getStructure() {
-		fetchLocation();
-		return structure;
+		return location;
 	}
 
 	// system->typeid->number
