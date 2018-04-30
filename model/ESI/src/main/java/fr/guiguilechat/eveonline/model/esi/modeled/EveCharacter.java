@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TimeZone;
+import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -19,8 +20,13 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_c
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.character.LocationCache;
+import javafx.beans.binding.Bindings;
+import javafx.beans.binding.LongBinding;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -88,10 +94,24 @@ public class EveCharacter {
 		return getInfos().faction_id;
 	}
 
-	private long jobsCacheExpire = 0;
+	// industry jobs
 
-	private ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobsCache = FXCollections
-			.observableHashMap();
+	private ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobsCache = null;
+
+	private CountDownLatch jobLatch = new CountDownLatch(1);
+
+	/**
+	 * wait until the industry jobs are fetched
+	 */
+	public void ensureIndustryJobs() {
+		// otherwise latch is null
+		getIndustryJobs();
+		try {
+			jobLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
 
 	/**
 	 * fetch the list of industry jobs for this character. If the cache delay is
@@ -102,17 +122,24 @@ public class EveCharacter {
 	 *
 	 */
 	public ObservableMap<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
-		synchronized (jobsCache) {
-			if (System.currentTimeMillis() >= jobsCacheExpire) {
-				Map<Integer, R_get_characters_character_id_industry_jobs> newitems = ESIConnection
-						.loadPages((p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
-								l -> jobsCacheExpire = l)
-						.collect(Collectors.toMap(job -> job.job_id, job -> job));
-				jobsCache.keySet().retainAll(newitems.keySet());
-				jobsCache.putAll(newitems);
+		synchronized (jobLatch) {
+			if (jobsCache == null) {
+				jobsCache = FXCollections.observableHashMap();
+				con.addFetchCacheArray((p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
+						this::handleNewJobs);
 			}
 		}
 		return jobsCache;
+	}
+
+	private void handleNewJobs(Stream<R_get_characters_character_id_industry_jobs> newCache) {
+		Map<Integer, R_get_characters_character_id_industry_jobs> newitems = newCache
+				.collect(Collectors.toMap(job -> job.job_id, job -> job));
+		synchronized (jobsCache) {
+			jobsCache.keySet().retainAll(newitems.keySet());
+			jobsCache.putAll(newitems);
+		}
+		jobLatch.countDown();
 	}
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
@@ -131,7 +158,7 @@ public class EveCharacter {
 		return job.activity_id == 5;
 	}
 
-	public static boolean isInvetion(R_get_characters_character_id_industry_jobs job) {
+	public static boolean isInvention(R_get_characters_character_id_industry_jobs job) {
 		return job.activity_id == 8;
 	}
 
@@ -303,6 +330,51 @@ public class EveCharacter {
 					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
 		}
 		return skills;
+	}
+
+	public ObservableNumberValue availableResearchSlots() {
+		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobs = getIndustryJobs();
+		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
+			ensureIndustryJobs();
+			synchronized (jobs) {
+				return jobs.values().stream().filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j)).count();
+			}
+		}, jobs);
+		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
+				.getIndustryJobs();
+		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
+			con.corporation.ensureIndustryJobs();
+			synchronized (corpJobs) {
+				return corpJobs.values().stream().filter(j -> j.installer_id == con.characterId())
+						.filter(
+								j -> Corporation.isCopy(j) || Corporation.isInvetion(j) || Corporation.isME(j) || Corporation.isTE(j))
+						.count();
+			}
+		}, corpJobs);
+		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3406, 0) + getSkills().getOrDefault(24624, 0))
+				.subtract(charJobsVar).subtract(corpJobsVar);
+	}
+
+	public ObservableNumberValue availableManufSlots() {
+		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
+		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
+			ensureIndustryJobs();
+			synchronized (charjobs) {
+				return charjobs.values().stream().filter(j -> isManufacture(j)).count();
+			}
+		}, charjobs);
+		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
+				.getIndustryJobs();
+		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
+			con.corporation.ensureIndustryJobs();
+			synchronized (corpJobs) {
+				return corpJobs.values().stream()
+						.filter(j -> j.installer_id == con.characterId()).filter(j -> Corporation.isManufacture(j)).count();
+			}
+		}, corpJobs);
+		return new SimpleIntegerProperty(
+				1 + getSkills().getOrDefault(3387, 0) + getSkills().getOrDefault(24625, 0))
+				.subtract(charJobsVar).subtract(corpJobsVar);
 	}
 
 	private ObservableList<R_get_characters_character_id_blueprints> cachedBlueprints = FXCollections

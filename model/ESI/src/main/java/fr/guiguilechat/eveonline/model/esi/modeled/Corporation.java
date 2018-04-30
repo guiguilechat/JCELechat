@@ -5,6 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -26,22 +27,45 @@ public class Corporation {
 		this.con = con;
 	}
 
-	private ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> jobsCache = FXCollections
-			.observableHashMap();
-	private long jobsCacheExpire = 0;
+	// industry jobs
+
+	private ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> jobsCache = null;
+
+	private CountDownLatch jobLatch = new CountDownLatch(1);
+
+	/**
+	 * wait until the industry jobs are fetched
+	 */
+	public void ensureIndustryJobs() {
+		// otherwise latch is null
+		getIndustryJobs();
+		try {
+			jobLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
 
 	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
-		synchronized (jobsCache) {
-			if (System.currentTimeMillis() >= jobsCacheExpire) {
-				Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = ESIConnection
-						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(),
-								false, p, h), l -> jobsCacheExpire = l)
-						.collect(Collectors.toMap(job -> job.job_id, job -> job));
-				jobsCache.keySet().retainAll(newitems.keySet());
-				jobsCache.putAll(newitems);
+		synchronized (jobLatch) {
+			if (jobsCache == null) {
+				jobsCache = FXCollections.observableHashMap();
+				con.addFetchCacheArray((p, h) -> con.raw
+						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, p, h),
+						this::handleNewJobs);
 			}
 		}
 		return jobsCache;
+	}
+
+	private void handleNewJobs(Stream<R_get_corporations_corporation_id_industry_jobs> newCache) {
+		Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = newCache
+				.collect(Collectors.toMap(job -> job.job_id, job -> job));
+		synchronized (jobsCache) {
+			jobsCache.keySet().retainAll(newitems.keySet());
+			jobsCache.putAll(newitems);
+		}
+		jobLatch.countDown();
 	}
 
 	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
