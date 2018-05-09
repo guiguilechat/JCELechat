@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.CountDownLatch;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -71,12 +69,11 @@ public class RegionalMarket {
 
 	private CountDownLatch lastOrdersAccess = new CountDownLatch(1);
 
-	protected void handleNewCache(Stream<R_get_markets_region_id_orders> newCache) {
+	protected void handleNewCache(List<R_get_markets_region_id_orders> cacheL) {
 
 		// first we retrieve all. We thus ensure none is null. it can be null if a
 		// page was not found. Thus we don't handle the data, as it
 		// contains incomplete values.
-		List<R_get_markets_region_id_orders> cacheL = newCache.collect(Collectors.toList());
 		if (cacheL.contains(null)) {
 			logger.warn("discarding market data as some entries are null");
 			return;

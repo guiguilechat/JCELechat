@@ -1,7 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
 public class R_get_characters_character_id_stats {
-    public int year;
     public R_get_characters_character_id_stats_character character;
     public R_get_characters_character_id_stats_combat combat;
     public R_get_characters_character_id_stats_industry industry;
@@ -14,4 +13,5 @@ public class R_get_characters_character_id_stats {
     public R_get_characters_character_id_stats_pve pve;
     public R_get_characters_character_id_stats_social social;
     public R_get_characters_character_id_stats_travel travel;
+    public int year;
 }

@@ -2,8 +2,10 @@ package fr.guiguilechat.eveonline.model.esi.modeled;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -20,6 +22,7 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_c
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.character.LocationCache;
@@ -30,6 +33,7 @@ import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
+import javafx.collections.ObservableSet;
 
 public class EveCharacter {
 
@@ -94,6 +98,72 @@ public class EveCharacter {
 		return getInfos().faction_id;
 	}
 
+	// roles
+
+	private ObservableSet<String> rolesCache = null;
+	private ObservableSet<String> rolesHQCache = null;
+	private ObservableSet<String> rolesBaseCache = null;
+	private ObservableSet<String> rolesOtherCache = null;
+
+	private CountDownLatch rolesLatch = new CountDownLatch(1);
+
+	private void makeRoleRetrieve() {
+		synchronized (rolesLatch) {
+			if (rolesCache == null) {
+				rolesCache = FXCollections.observableSet();
+				rolesHQCache = FXCollections.observableSet();
+				rolesBaseCache = FXCollections.observableSet();
+				rolesOtherCache = FXCollections.observableSet();
+				con.addFetchCacheObject((h) -> con.raw.get_characters_character_id_roles(con.characterId(), h),
+						this::handleNewRoles);
+			}
+		}
+	}
+
+	public void handleNewRoles(R_get_characters_character_id_roles newroles) {
+		HashSet<String> roles = new HashSet<>(Arrays.asList(newroles.roles));
+		rolesCache.retainAll(roles);
+		rolesCache.addAll(roles);
+		HashSet<String> rolesHQ = new HashSet<>(Arrays.asList(newroles.roles_at_hq));
+		rolesHQCache.retainAll(rolesHQ);
+		rolesHQCache.addAll(rolesHQ);
+		HashSet<String> rolesBase = new HashSet<>(Arrays.asList(newroles.roles_at_base));
+		rolesBaseCache.retainAll(rolesBase);
+		rolesBaseCache.addAll(rolesBase);
+		HashSet<String> rolesOther = new HashSet<>(Arrays.asList(newroles.roles_at_other));
+		rolesOtherCache.retainAll(rolesOther);
+		rolesOtherCache.addAll(rolesOther);
+		rolesLatch.countDown();
+	}
+
+	public ObservableSet<String> getRoles() {
+		if (rolesCache == null) {
+			makeRoleRetrieve();
+		}
+		return rolesCache;
+	}
+
+	public ObservableSet<String> getRolesHQ() {
+		if (rolesCache == null) {
+			makeRoleRetrieve();
+		}
+		return rolesHQCache;
+	}
+
+	public ObservableSet<String> getRolesBase() {
+		if (rolesCache == null) {
+			makeRoleRetrieve();
+		}
+		return rolesBaseCache;
+	}
+
+	public ObservableSet<String> getRolesOther() {
+		if (rolesCache == null) {
+			makeRoleRetrieve();
+		}
+		return rolesOtherCache;
+	}
+
 	// industry jobs
 
 	private ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobsCache = null;
@@ -132,8 +202,8 @@ public class EveCharacter {
 		return jobsCache;
 	}
 
-	private void handleNewJobs(Stream<R_get_characters_character_id_industry_jobs> newCache) {
-		Map<Integer, R_get_characters_character_id_industry_jobs> newitems = newCache
+	private void handleNewJobs(List<R_get_characters_character_id_industry_jobs> newCache) {
+		Map<Integer, R_get_characters_character_id_industry_jobs> newitems = newCache.stream()
 				.collect(Collectors.toMap(job -> job.job_id, job -> job));
 		synchronized (jobsCache) {
 			jobsCache.keySet().retainAll(newitems.keySet());
@@ -161,6 +231,8 @@ public class EveCharacter {
 	public static boolean isInvention(R_get_characters_character_id_industry_jobs job) {
 		return job.activity_id == 8;
 	}
+
+	// bookmarks
 
 	private long bookmarkCacheEnd = 0;
 

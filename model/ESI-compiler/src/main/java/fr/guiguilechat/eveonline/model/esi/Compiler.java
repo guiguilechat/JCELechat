@@ -169,6 +169,9 @@ public class Compiler {
 			// System.err.println(resource);
 			addPath(OpType.get, resource, p.getGet());
 			addPath(OpType.post, resource, p.getPost());
+			// addPath(OpType.delete, resource, p.getDelete());
+			// addPath(OpType.put, resource, p.getPut());
+
 		});
 		return cm;
 	}
@@ -200,6 +203,7 @@ public class Compiler {
 					case "user_agent":
 					case "X-User-Agent":
 					case "datasource":
+					case "If-None-Match":
 						// case "page":
 						continue;
 					default:
@@ -236,8 +240,22 @@ public class Compiler {
 							}
 							break;
 						default:
-							logger.error("no match for parameter " + p.getClass());
+							logger.error("no matching type " + p.getIn() + " for parameter " + p.getName() + " in " + path);
 						}
+					}
+				}
+				if (operation.getVendorExtensions().containsKey("x-required-roles")) {
+					Object extension = operation.getVendorExtensions().get("x-required-roles");
+					@SuppressWarnings("unchecked")
+					List<String> roles = (List<String>) extension;
+					if (!roles.isEmpty()) {
+						JFieldVar rolesfield = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class).array(),
+								(operation.getOperationId() + "_roles").toUpperCase());
+						JArray array = JExpr.newArray(cm.ref(String.class));
+						for (String role : roles) {
+							array.add(JExpr.lit(role));
+						}
+						rolesfield.init(array);
 					}
 				}
 				JVar header = meth.param(headerhandlertype, "headerHandler");

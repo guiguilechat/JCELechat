@@ -3,8 +3,6 @@ package fr.guiguilechat.eveonline.model.esi.modeled.market;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
@@ -50,8 +48,8 @@ public class CachedOrdersList {
 		}
 	}
 
-	protected void handleNewCache(Stream<R_get_markets_region_id_orders> newCache) {
-		handleNewOrders(newCache.collect(Collectors.toList()));
+	protected void handleNewCache(List<R_get_markets_region_id_orders> newCache) {
+		handleNewOrders(newCache);
 	}
 
 	private Runnable selfOrdersStop = null;

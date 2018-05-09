@@ -9,6 +9,6 @@ public class R_post_universe_ids {
     public R_post_universe_ids_factions[] factions;
     public R_post_universe_ids_inventory_types[] inventory_types;
     public R_post_universe_ids_regions[] regions;
-    public R_post_universe_ids_systems[] systems;
     public R_post_universe_ids_stations[] stations;
+    public R_post_universe_ids_systems[] systems;
 }

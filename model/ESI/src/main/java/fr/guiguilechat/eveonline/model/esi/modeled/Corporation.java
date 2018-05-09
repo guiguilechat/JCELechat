@@ -58,8 +58,8 @@ public class Corporation {
 		return jobsCache;
 	}
 
-	private void handleNewJobs(Stream<R_get_corporations_corporation_id_industry_jobs> newCache) {
-		Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = newCache
+	private void handleNewJobs(List<R_get_corporations_corporation_id_industry_jobs> newCache) {
+		Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = newCache.stream()
 				.collect(Collectors.toMap(job -> job.job_id, job -> job));
 		synchronized (jobsCache) {
 			jobsCache.keySet().retainAll(newitems.keySet());
@@ -194,7 +194,9 @@ public class Corporation {
 					Stream<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
 							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.corporation_id(), p, h),
 							l -> cachedBlueprintsExpire = l);
-					cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+					if (bps != null) {
+						cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+					}
 				}
 			}
 		}

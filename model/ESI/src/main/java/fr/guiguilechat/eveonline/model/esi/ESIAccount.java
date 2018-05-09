@@ -10,6 +10,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -118,10 +119,10 @@ public class ESIAccount {
 
 		private final BiFunction<Integer, Map<String, List<String>>, T[]> fetcher;
 
-		private final Consumer<Stream<T>> cacheHandler;
+		private final Consumer<List<T>> cacheHandler;
 
 		public ArrayCacheUpdaterTask(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
-				Consumer<Stream<T>> cacheHandler) {
+				Consumer<List<T>> cacheHandler) {
 			this.fetcher = fetcher;
 			this.cacheHandler = cacheHandler;
 			if (cacheHandler == null || fetcher == null) {
@@ -143,7 +144,7 @@ public class ESIAccount {
 						fetcher,
 						cachedExpire::set);
 				if (arr != null) {
-					cacheHandler.accept(arr);
+					cacheHandler.accept(arr.collect(Collectors.toList()));
 					delay_ms += cachedExpire.get() - System.currentTimeMillis();
 				}
 			} catch (Throwable e) {
@@ -176,7 +177,7 @@ public class ESIAccount {
 	 *          the type of object the fetched array contains.
 	 */
 	public <T> Runnable addFetchCacheArray(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
-			Consumer<Stream<T>> cacheHandler) {
+			Consumer<List<T>> cacheHandler) {
 		ArrayCacheUpdaterTask<T> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler);
 		exec.schedule(t, 0, TimeUnit.SECONDS);
 		return t::stop;
