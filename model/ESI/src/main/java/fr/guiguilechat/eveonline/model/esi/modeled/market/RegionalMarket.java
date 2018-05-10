@@ -70,6 +70,9 @@ public class RegionalMarket {
 	private CountDownLatch lastOrdersAccess = new CountDownLatch(1);
 
 	protected void handleNewCache(List<R_get_markets_region_id_orders> cacheL) {
+		if (cacheL == null) {
+			return;
+		}
 
 		// first we retrieve all. We thus ensure none is null. it can be null if a
 		// page was not found. Thus we don't handle the data, as it

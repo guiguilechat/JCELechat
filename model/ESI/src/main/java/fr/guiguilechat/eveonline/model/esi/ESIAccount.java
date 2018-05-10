@@ -1,6 +1,7 @@
 package fr.guiguilechat.eveonline.model.esi;
 
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -26,8 +27,12 @@ import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Route;
 import fr.guiguilechat.eveonline.model.esi.modeled.Universe;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
+import javafx.beans.binding.Bindings;
+import javafx.beans.binding.BooleanBinding;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleLongProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.collections.ObservableSet;
 
 /**
  * encapsulation of a raw connection to have better modeling
@@ -110,12 +115,140 @@ public class ESIAccount {
 	});
 
 	/**
+	 * class that uses the executor to schedule itself.
+	 * <p>
+	 * That class must be started . once started, it will schedule itself after
+	 * its execution
+	 * </p>
+	 * <p>
+	 * It can also be paused. Pausing it prevents execution until resume is
+	 * called. If the class is started, it also resume it.
+	 * </p>
+	 *
+	 */
+	protected abstract class SelfExecutable implements Runnable {
+
+		/**
+		 * is true when it is set to execute later on the executor
+		 */
+		boolean scheduled = false;
+		/**
+		 * is true when ordered to stop ASAP
+		 */
+		boolean stop = false;
+
+		/** set to true to temporary prevent scheduling of this */
+		boolean paused = false;
+
+		public void stop() {
+			stop = true;
+		}
+
+		public void start() {
+			stop = false;
+			paused = false;
+			schedule(0);
+		}
+
+		public void pause() {
+			paused = true;
+		}
+
+		public void resume() {
+			paused = false;
+			schedule(0);
+		}
+
+		public void schedule(long delay_ms) {
+			synchronized (exec) {
+				if (!scheduled && !stop && !paused) {
+					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
+					scheduled = true;
+				}
+			}
+		}
+
+		@Override
+		public void run() {
+			synchronized (exec) {
+				scheduled = false;
+			}
+			if (stop) {
+				return;
+			}
+			long delay_ms = 1000;
+			try {
+				delay_ms = do_execute();
+			} catch (Throwable e) {
+				logger.warn("while  fetching cache", e);
+			} finally {
+				schedule(delay_ms);
+			}
+		}
+
+		/**
+		 * execute the real method and return time before next execution, in ms
+		 *
+		 * @return
+		 */
+		protected abstract long do_execute() throws Exception;
+
+		/**
+		 * bind this retrieval state to the roles that are required by this
+		 * character
+		 *
+		 * @param requiredRoles
+		 *          the roles, if not null or empty at least one of them must be
+		 *          acquired by the character to allow retrieval of data.
+		 */
+		protected void bindToRoles(String[] requiredRoles) {
+			BooleanBinding hasRolesVar = Bindings.createBooleanBinding(() -> hasRoles(character.getRoles(), requiredRoles),
+					character.getRoles());
+			hasRolesVar.addListener((ChangeListener<Boolean>) (observable, oldValue, newValue) -> {
+				System.err.println(
+						"roles required " + Arrays.asList(requiredRoles) + "are present from " + oldValue + " to " + newValue);
+				if (newValue) {
+					resume();
+				} else {
+					pause();
+				}
+			});
+			if (hasRolesVar.get()) {
+				resume();
+			} else {
+				pause();
+			}
+		}
+	}
+
+	/**
+	 * find out if at least one required role is present
+	 *
+	 * @param effectiveRoles
+	 * @param requiredRoles
+	 * @return
+	 */
+	protected static boolean hasRoles(ObservableSet<String> effectiveRoles, String[] requiredRoles) {
+		// we don't need any role
+		if (requiredRoles == null || requiredRoles.length == 0) {
+			return true;
+		}
+		// we need to have at least one role of the possible roles
+		for (String role : requiredRoles) {
+			if (effectiveRoles.contains(role)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/**
 	 * task to fetch an array.
 	 *
 	 * @param <T>
 	 *          the inner type of the array.
 	 */
-	public class ArrayCacheUpdaterTask<T> implements Runnable {
+	public class ArrayCacheUpdaterTask<T> extends SelfExecutable {
 
 		private final BiFunction<Integer, Map<String, List<String>>, T[]> fetcher;
 
@@ -130,32 +263,24 @@ public class ESIAccount {
 			}
 		}
 
-		boolean stop = false;
-
 		@Override
-		public void run() {
-			if (stop) {
-				return;
+		protected long do_execute() {
+			LongProperty cachedExpire = new SimpleLongProperty();
+			Stream<T> arr = ESIConnection.loadPages(
+					fetcher,
+					cachedExpire::set);
+			long ret = 1000;
+			if (arr != null) {
+				ret += cachedExpire.get() - System.currentTimeMillis();
+				cacheHandler.accept(arr.collect(Collectors.toList()));
 			}
-			long delay_ms = 1000;
-			try {
-				LongProperty cachedExpire = new SimpleLongProperty();
-				Stream<T> arr = ESIConnection.loadPages(
-						fetcher,
-						cachedExpire::set);
-				if (arr != null) {
-					cacheHandler.accept(arr.collect(Collectors.toList()));
-					delay_ms += cachedExpire.get() - System.currentTimeMillis();
-				}
-			} catch (Throwable e) {
-				logger.warn("while  fetching cache", e);
-			} finally {
-				exec.schedule(this, Math.max(delay_ms, 0), TimeUnit.MILLISECONDS);
-			}
+			return ret;
 		}
 
-		public void stop() {
-			stop = true;
+		@Override
+		public void pause() {
+			super.pause();
+			cacheHandler.accept(null);
 		}
 	}
 
@@ -170,6 +295,9 @@ public class ESIAccount {
 	 *          of the resource.
 	 * @param cacheHandler
 	 *          the data that consumes the new cache obtained from the fetcher.
+	 *          This should handle a null value in case the data can not be
+	 *          updated anymore (eg because the task is paused, the required roles
+	 *          are no more present, the server is down)
 	 * @return a runnable stopper function. Once this function is called, the
 	 *         cache will not be fetched anymore, unless of course it was already
 	 *         in the fetch function.
@@ -177,9 +305,12 @@ public class ESIAccount {
 	 *          the type of object the fetched array contains.
 	 */
 	public <T> Runnable addFetchCacheArray(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
-			Consumer<List<T>> cacheHandler) {
+			Consumer<List<T>> cacheHandler, String... requiredRoles) {
 		ArrayCacheUpdaterTask<T> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler);
-		exec.schedule(t, 0, TimeUnit.SECONDS);
+		t.start();
+		if (requiredRoles != null && requiredRoles.length > 0) {
+			t.bindToRoles(requiredRoles);
+		}
 		return t::stop;
 	}
 
@@ -187,9 +318,9 @@ public class ESIAccount {
 	 * class to fetch an object.
 	 *
 	 * @param <T>
-	 *          the type fo the object to fetch
+	 *          the type of the object to fetch
 	 */
-	public class ObjectCacheUpdaterTask<T> implements Runnable {
+	public class ObjectCacheUpdaterTask<T> extends SelfExecutable {
 
 		private final Function<Map<String, List<String>>, T> fetcher;
 
@@ -203,30 +334,22 @@ public class ESIAccount {
 			}
 		}
 
-		boolean stop = false;
-
 		@Override
-		public void run() {
-			if (stop) {
-				return;
+		protected long do_execute() throws Exception {
+			Map<String, List<String>> headerHandler = new HashMap<>();
+			T res = fetcher.apply(headerHandler);
+			long ret = 1000;
+			if (res != null) {
+				ret += ESIConnection.getCacheExpire(headerHandler);
+				cacheHandler.accept(res);
 			}
-			long delay_ms = 1000;
-			try {
-				Map<String, List<String>> headerHandler = new HashMap<>();
-				T res = fetcher.apply(headerHandler);
-				if (res != null) {
-					delay_ms += ESIConnection.getCacheExpire(headerHandler);
-					cacheHandler.accept(res);
-				}
-			} catch (Throwable e) {
-				logger.warn("while  fetching cache", e);
-			} finally {
-				exec.schedule(this, Math.max(delay_ms, 0), TimeUnit.MILLISECONDS);
-			}
+			return ret;
 		}
 
-		public void stop() {
-			stop = true;
+		@Override
+		public void pause() {
+			super.pause();
+			cacheHandler.accept(null);
 		}
 	}
 
@@ -240,15 +363,22 @@ public class ESIAccount {
 	 *          handler to store the headers of the resource.
 	 * @param cacheHandler
 	 *          the data that consumes the new cache obtained from the fetcher.
+	 *          This should handle a null value in case the data can not be
+	 *          updated anymore (eg because the task is paused, the required roles
+	 *          are no more present, the server is down)
 	 * @return a runnable stopper function. Once this function is called, the
 	 *         cache will not be fetched anymore, unless of course it was already
 	 *         in the fetch function.
 	 * @param <T>
 	 *          the type of object that represents the cache.
 	 */
-	public <T> Runnable addFetchCacheObject(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler) {
+	public <T> Runnable addFetchCacheObject(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler,
+			String... requiredRoles) {
 		ObjectCacheUpdaterTask<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler);
-		exec.schedule(t, 0, TimeUnit.SECONDS);
+		t.start();
+		if (requiredRoles != null && requiredRoles.length > 0) {
+			t.bindToRoles(requiredRoles);
+		}
 		return t::stop;
 	}
 

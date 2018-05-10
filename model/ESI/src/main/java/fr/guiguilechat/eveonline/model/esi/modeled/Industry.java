@@ -77,8 +77,4 @@ public class Industry {
 		reaction;
 	}
 
-	public static class IndustryJob {
-
-	}
-
 }

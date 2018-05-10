@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks;
@@ -52,14 +54,15 @@ public class Corporation {
 				jobsCache = FXCollections.observableHashMap();
 				con.addFetchCacheArray((p, h) -> con.raw
 						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, p, h),
-						this::handleNewJobs);
+						this::handleNewJobs, Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES);
 			}
 		}
 		return jobsCache;
 	}
 
 	private void handleNewJobs(List<R_get_corporations_corporation_id_industry_jobs> newCache) {
-		Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = newCache.stream()
+		Map<Integer, R_get_corporations_corporation_id_industry_jobs> newitems = newCache == null ? Collections.emptyMap()
+				: newCache.stream()
 				.collect(Collectors.toMap(job -> job.job_id, job -> job));
 		synchronized (jobsCache) {
 			jobsCache.keySet().retainAll(newitems.keySet());

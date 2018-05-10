@@ -121,6 +121,9 @@ public class EveCharacter {
 	}
 
 	public void handleNewRoles(R_get_characters_character_id_roles newroles) {
+		if (newroles == null) {
+			return;
+		}
 		HashSet<String> roles = new HashSet<>(Arrays.asList(newroles.roles));
 		rolesCache.retainAll(roles);
 		rolesCache.addAll(roles);
@@ -203,6 +206,9 @@ public class EveCharacter {
 	}
 
 	private void handleNewJobs(List<R_get_characters_character_id_industry_jobs> newCache) {
+		if (newCache == null) {
+			return;
+		}
 		Map<Integer, R_get_characters_character_id_industry_jobs> newitems = newCache.stream()
 				.collect(Collectors.toMap(job -> job.job_id, job -> job));
 		synchronized (jobsCache) {
@@ -407,7 +413,6 @@ public class EveCharacter {
 	public ObservableNumberValue availableResearchSlots() {
 		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobs = getIndustryJobs();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			ensureIndustryJobs();
 			synchronized (jobs) {
 				return jobs.values().stream().filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j)).count();
 			}
@@ -415,7 +420,6 @@ public class EveCharacter {
 		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
 				.getIndustryJobs();
 		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			con.corporation.ensureIndustryJobs();
 			synchronized (corpJobs) {
 				return corpJobs.values().stream().filter(j -> j.installer_id == con.characterId())
 						.filter(
@@ -430,7 +434,6 @@ public class EveCharacter {
 	public ObservableNumberValue availableManufSlots() {
 		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
 		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			ensureIndustryJobs();
 			synchronized (charjobs) {
 				return charjobs.values().stream().filter(j -> isManufacture(j)).count();
 			}
@@ -438,7 +441,6 @@ public class EveCharacter {
 		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
 				.getIndustryJobs();
 		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			con.corporation.ensureIndustryJobs();
 			synchronized (corpJobs) {
 				return corpJobs.values().stream()
 						.filter(j -> j.installer_id == con.characterId()).filter(j -> Corporation.isManufacture(j)).count();

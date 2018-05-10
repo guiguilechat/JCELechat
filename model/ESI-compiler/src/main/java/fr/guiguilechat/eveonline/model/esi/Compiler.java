@@ -256,6 +256,8 @@ public class Compiler {
 							array.add(JExpr.lit(role));
 						}
 						rolesfield.init(array);
+						rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
+						meth.javadoc().add("<p> require the roles specified {@link #" + rolesfield.name() + " here}</p>");
 					}
 				}
 				JVar header = meth.param(headerhandlertype, "headerHandler");

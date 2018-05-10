@@ -30,21 +30,25 @@ public class CachedOrdersList {
 	protected void handleNewOrders(List<R_get_markets_region_id_orders> neworders) {
 		synchronized (buyOrders) {
 			buyOrders.clear();
-			for (R_get_markets_region_id_orders o : neworders) {
-				if (o.type_id == typeID && o.is_buy_order) {
-					buyOrders.add(o);
+			if (neworders != null) {
+				for (R_get_markets_region_id_orders o : neworders) {
+					if (o.type_id == typeID && o.is_buy_order) {
+						buyOrders.add(o);
+					}
 				}
+				Collections.sort(buyOrders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 			}
-			Collections.sort(buyOrders, (o1, o2) -> (int) Math.signum(o2.price - o1.price));
 		}
 		synchronized (sellOrders) {
 			sellOrders.clear();
-			for (R_get_markets_region_id_orders o : neworders) {
-				if (o.type_id == typeID && !o.is_buy_order) {
-					sellOrders.add(o);
+			if (neworders != null) {
+				for (R_get_markets_region_id_orders o : neworders) {
+					if (o.type_id == typeID && !o.is_buy_order) {
+						sellOrders.add(o);
+					}
 				}
+				Collections.sort(sellOrders, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
 			}
-			Collections.sort(sellOrders, (o1, o2) -> (int) Math.signum(o1.price - o2.price));
 		}
 	}
 

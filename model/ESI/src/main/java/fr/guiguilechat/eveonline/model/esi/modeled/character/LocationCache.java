@@ -49,6 +49,9 @@ public class LocationCache {
 	}
 
 	public void handleNewCache(R_get_characters_character_id_location newLocation) {
+		if (newLocation == null) {
+			return;
+		}
 		solarSystem.set(newLocation.solar_system_id);
 		stationID.set(newLocation.station_id);
 		structureID.set(newLocation.structure_id);

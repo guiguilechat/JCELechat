@@ -166,35 +166,125 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_na
 
 public interface Swagger {
     public final static String[] SCOPES = new String[] {"esi-characters.write_contacts.v1", "esi-skills.read_skills.v1", "esi-characters.read_fatigue.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_corporation_membership.v1", "esi-bookmarks.read_character_bookmarks.v1", "esi-assets.read_corporation_assets.v1", "esi-fittings.read_fittings.v1", "esi-contracts.read_corporation_contracts.v1", "esi-fleets.write_fleet.v1", "esi-ui.write_waypoint.v1", "esi-industry.read_character_jobs.v1", "esi-bookmarks.read_corporation_bookmarks.v1", "esi-clones.read_clones.v1", "esi-industry.read_character_mining.v1", "esi-characters.read_agents_research.v1", "esi-calendar.respond_calendar_events.v1", "esi-location.read_online.v1", "esi-mail.read_mail.v1", "esi-characterstats.read.v1", "esi-search.search_structures.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-characters.read_contacts.v1", "esi-fittings.write_fittings.v1", "esi-markets.structure_markets.v1", "esi-wallet.read_corporation_wallets.v1", "esi-characters.read_corporation_roles.v1", "esi-wallet.read_character_wallet.v1", "esi-assets.read_assets.v1", "esi-killmails.read_killmails.v1", "esi-characters.read_medals.v1", "esi-location.read_ship_type.v1", "esi-skills.read_skillqueue.v1", "esi-contracts.read_character_contracts.v1", "esi-mail.send_mail.v1", "esi-alliances.read_contacts.v1", "esi-location.read_location.v1", "esi-ui.open_window.v1", "esi-fleets.read_fleet.v1", "esi-industry.read_corporation_mining.v1", "esi-corporations.read_blueprints.v1", "esi-calendar.read_calendar_events.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-characters.read_notifications.v1", "esi-characters.read_standings.v1", "esi-characters.read_opportunities.v1", "esi-corporations.read_standings.v1", "esi-industry.read_corporation_jobs.v1", "esi-characters.read_fw_stats.v1", "esi-corporations.read_titles.v1", "esi-universe.read_structures.v1", "esi-corporations.track_members.v1", "esi-corporations.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-mail.organize_mail.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_outposts.v1", "esi-corporations.read_starbases.v1", "esi-clones.read_implants.v1", "esi-killmails.read_corporation_killmails.v1", "esi-corporations.read_medals.v1", "esi-planets.manage_planets.v1", "esi-characters.read_titles.v1", "esi-corporations.read_facilities.v1", "esi-characters.read_blueprints.v1", "esi-planets.read_customs_offices.v1"};
+    /**
+     * the roles required for {@link #get_corporation_corporation_id_mining_extractions this method}
+     */
     public final static String[] GET_CORPORATION_CORPORATION_ID_MINING_EXTRACTIONS_ROLES = new String[] {"Structure_manager"};
+    /**
+     * the roles required for {@link #get_corporation_corporation_id_mining_observers this method}
+     */
     public final static String[] GET_CORPORATION_CORPORATION_ID_MINING_OBSERVERS_ROLES = new String[] {"Accountant"};
+    /**
+     * the roles required for {@link #get_corporation_corporation_id_mining_observers_observer_id this method}
+     */
     public final static String[] GET_CORPORATION_CORPORATION_ID_MINING_OBSERVERS_OBSERVER_ID_ROLES = new String[] {"Accountant"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_assets this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #post_corporations_corporation_id_assets_locations this method}
+     */
     public final static String[] POST_CORPORATIONS_CORPORATION_ID_ASSETS_LOCATIONS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #post_corporations_corporation_id_assets_names this method}
+     */
     public final static String[] POST_CORPORATIONS_CORPORATION_ID_ASSETS_NAMES_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_blueprints this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_BLUEPRINTS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_containers_logs this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_CONTAINERS_LOGS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_customs_offices this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_CUSTOMS_OFFICES_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_divisions this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_DIVISIONS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_facilities this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_FACILITIES_ROLES = new String[] {"Factory_Manager"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_industry_jobs this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES = new String[] {"FactoryManager"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_killmails_recent this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_KILLMAILS_RECENT_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_medals_issued this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_MEDALS_ISSUED_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_members_limit this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_MEMBERS_LIMIT_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_members_titles this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_MEMBERS_TITLES_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_membertracking this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_MEMBERTRACKING_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_orders this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_orders_history this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_outposts this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_outposts_outpost_id this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_OUTPOST_ID_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_roles_history this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_ROLES_HISTORY_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_shareholders this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_SHAREHOLDERS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_starbases this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_STARBASES_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_starbases_starbase_id this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_STARBASES_STARBASE_ID_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_structures this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES = new String[] {"StationManager"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_titles this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_TITLES_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_wallets this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_wallets_division_journal this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES = new String[] {"Accountant", "Junior_Accountant"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_wallets_division_transactions this method}
+     */
     public final static String[] GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_TRANSACTIONS_ROLES = new String[] {"Accountant", "Junior_Accountant"};
 
     public String flatten(Object o);
@@ -636,18 +726,27 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_transactions[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATION_CORPORATION_ID_MINING_EXTRACTIONS_ROLES here}</p>
+     */
     public default R_get_corporation_corporation_id_mining_extractions[] get_corporation_corporation_id_mining_extractions(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/extractions/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_extractions[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATION_CORPORATION_ID_MINING_OBSERVERS_ROLES here}</p>
+     */
     public default R_get_corporation_corporation_id_mining_observers[] get_corporation_corporation_id_mining_observers(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_observers[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATION_CORPORATION_ID_MINING_OBSERVERS_OBSERVER_ID_ROLES here}</p>
+     */
     public default R_get_corporation_corporation_id_mining_observers_observer_id[] get_corporation_corporation_id_mining_observers_observer_id(int corporation_id, long observer_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporation/{corporation_id}/mining/observers/{observer_id}/".replace("{corporation_id}", ""+corporation_id).replace("{observer_id}", ""+observer_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
@@ -678,12 +777,18 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_alliancehistory[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_assets[] get_corporations_corporation_id_assets(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #POST_CORPORATIONS_CORPORATION_ID_ASSETS_LOCATIONS_ROLES here}</p>
+     */
     public default R_post_corporations_corporation_id_assets_locations[] post_corporations_corporation_id_assets_locations(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/assets/locations/".replace("{corporation_id}", ""+corporation_id));
         Map<String, Object> content = new HashMap<>();
@@ -692,6 +797,9 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_locations[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #POST_CORPORATIONS_CORPORATION_ID_ASSETS_NAMES_ROLES here}</p>
+     */
     public default R_post_corporations_corporation_id_assets_names[] post_corporations_corporation_id_assets_names(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/assets/names/".replace("{corporation_id}", ""+corporation_id));
         Map<String, Object> content = new HashMap<>();
@@ -700,6 +808,9 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_names[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_BLUEPRINTS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_blueprints[] get_corporations_corporation_id_blueprints(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
@@ -730,6 +841,9 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contacts_labels[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_CONTAINERS_LOGS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_containers_logs[] get_corporations_corporation_id_containers_logs(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/containers/logs/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
@@ -754,18 +868,27 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts_contract_id_items[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_CUSTOMS_OFFICES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_customs_offices[] get_corporations_corporation_id_customs_offices(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/customs_offices/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_customs_offices[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_DIVISIONS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_divisions get_corporations_corporation_id_divisions(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/divisions/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_divisions.class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_FACILITIES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_facilities[] get_corporations_corporation_id_facilities(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/facilities/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
@@ -784,12 +907,18 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_icons.class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_industry_jobs[] get_corporations_corporation_id_industry_jobs(int corporation_id, Boolean include_completed, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/industry/jobs/".replace("{corporation_id}", ""+corporation_id)+"?"+(include_completed==null?"":"&include_completed="+flatten(include_completed))+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_KILLMAILS_RECENT_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_killmails_recent[] get_corporations_corporation_id_killmails_recent(int corporation_id, Integer max_kill_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/killmails/recent/".replace("{corporation_id}", ""+corporation_id)+"?"+(max_kill_id==null?"":"&max_kill_id="+flatten(max_kill_id)));
         String fetched=connectGet(url,true, headerHandler);
@@ -802,6 +931,9 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_medals[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEDALS_ISSUED_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_medals_issued[] get_corporations_corporation_id_medals_issued(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/medals/issued/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
@@ -814,42 +946,63 @@ public interface Swagger {
         return convert((fetched), (int[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERS_LIMIT_ROLES here}</p>
+     */
     public default int get_corporations_corporation_id_members_limit(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/members/limit/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (int.class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERS_TITLES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_members_titles[] get_corporations_corporation_id_members_titles(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/members/titles/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_members_titles[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_MEMBERTRACKING_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_membertracking[] get_corporations_corporation_id_membertracking(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/membertracking/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_membertracking[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_orders[] get_corporations_corporation_id_orders(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_orders_history[] get_corporations_corporation_id_orders_history(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/orders/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders_history[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_ROLES here}</p>
+     */
     public default int[] get_corporations_corporation_id_outposts(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (int[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_OUTPOST_ID_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_outposts_outpost_id get_corporations_corporation_id_outposts_outpost_id(int corporation_id, int outpost_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/outposts/{outpost_id}/".replace("{corporation_id}", ""+corporation_id).replace("{outpost_id}", ""+outpost_id));
         String fetched=connectGet(url,true, headerHandler);
@@ -862,12 +1015,18 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ROLES_HISTORY_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_roles_history[] get_corporations_corporation_id_roles_history(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/roles/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles_history[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_SHAREHOLDERS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_shareholders[] get_corporations_corporation_id_shareholders(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/shareholders/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
@@ -880,42 +1039,63 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_standings[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STARBASES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_starbases[] get_corporations_corporation_id_starbases(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/starbases/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_starbases[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STARBASES_STARBASE_ID_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_starbases_starbase_id get_corporations_corporation_id_starbases_starbase_id(int corporation_id, long starbase_id, int system_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/starbases/{starbase_id}/".replace("{corporation_id}", ""+corporation_id).replace("{starbase_id}", ""+starbase_id)+"?"+"&system_id="+flatten(system_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_starbases_starbase_id.class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_STRUCTURES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_structures[] get_corporations_corporation_id_structures(int corporation_id, Swagger.language language, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?"+(language==null?"":"&language="+flatten(language))+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_structures[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_TITLES_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_titles[] get_corporations_corporation_id_titles(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/titles/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_titles[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_wallets[] get_corporations_corporation_id_wallets(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/wallets/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_JOURNAL_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_wallets_division_journal[] get_corporations_corporation_id_wallets_division_journal(int corporation_id, int division, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal[].class));
     }
 
+    /**
+     * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_WALLETS_DIVISION_TRANSACTIONS_ROLES here}</p>
+     */
     public default R_get_corporations_corporation_id_wallets_division_transactions[] get_corporations_corporation_id_wallets_division_transactions(int corporation_id, int division, Long from_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/wallets/{division}/transactions/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(from_id==null?"":"&from_id="+flatten(from_id)));
         String fetched=connectGet(url,true, headerHandler);
