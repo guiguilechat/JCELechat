@@ -3,6 +3,14 @@ items:
     id: 42238
     name: Blood Raider Battleship
     volume: 1150000.0
+  Drifter Strike Battleship:
+    id: 47723
+    name: Drifter Strike Battleship
+    volume: 109000.0
+  Drifter Strike Commander:
+    id: 47724
+    name: Drifter Strike Commander
+    volume: 109000.0
   Eosian Safeguard:
     id: 46348
     name: Eosian Safeguard

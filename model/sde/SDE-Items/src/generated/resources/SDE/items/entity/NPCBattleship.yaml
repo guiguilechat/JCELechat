@@ -39,10 +39,6 @@ items:
     id: 46524
     name: ♦ Raven
     volume: 486000.0
-  ♦ Scorpion:
-    id: 43573
-    name: ♦ Scorpion
-    volume: 468000.0
   ♦ Tempest:
     id: 46081
     name: ♦ Tempest
@@ -55,3 +51,7 @@ items:
     id: 46060
     name: ♦ Vindicator
     volume: 486000.0
+  �� Scorpion:
+    id: 43573
+    name: �� Scorpion
+    volume: 468000.0

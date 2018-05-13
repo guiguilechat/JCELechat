@@ -11,11 +11,3 @@ items:
     id: 30210
     name: Emergent Watchman
     volume: 19100.0
-  Sleeper Elite Frigate:
-    id: 47717
-    name: Sleeper Elite Frigate
-    volume: 19100.0
-  Sleeper Normal Frigate:
-    id: 47715
-    name: Sleeper Normal Frigate
-    volume: 19100.0

@@ -15,6 +15,14 @@ items:
     id: 40725
     name: Guri Hivaa Killer
     volume: 16500.0
+  Noumenal Impeder:
+    id: 47715
+    name: Noumenal Impeder
+    volume: 19100.0
+  Noumenal Obstructor:
+    id: 47717
+    name: Noumenal Obstructor
+    volume: 19100.0
   Purist Apostle:
     id: 42512
     name: Purist Apostle

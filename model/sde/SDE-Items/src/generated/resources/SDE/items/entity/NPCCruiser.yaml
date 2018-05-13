@@ -35,6 +35,10 @@ items:
     id: 46062
     name: ♦ Cynabal
     volume: 101000.0
+  ♦ Exequror:
+    id: 43580
+    name: ♦ Exequror
+    volume: 113000.0
   ♦ Gila:
     id: 46056
     name: ♦ Gila
@@ -91,11 +95,3 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 80000.0
-  �� Ashimmu:
-    id: 43604
-    name: �� Ashimmu
-    volume: 118000.0
-  ��� Exequror:
-    id: 43580
-    name: ��� Exequror
-    volume: 113000.0

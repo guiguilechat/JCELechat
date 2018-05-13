@@ -289,6 +289,11 @@ items:
     id: 43932
     name: Gallente Inception Package
     volume: 2520.0
+  'Genolution CA-X ':
+    CpuMultiplier: 1.0
+    id: 47961
+    name: 'Genolution CA-X '
+    volume: 1.0
   Glacial Drift Festival Box:
     CpuMultiplier: 1.0
     id: 46766
@@ -564,10 +569,10 @@ items:
     id: 34426
     name: Sort Dragon’s Guide To Diplomacy
     volume: 3.0
-  Soxfour’s Spaceboots:
+  Soxfour���s Spaceboots:
     CpuMultiplier: 1.0
     id: 34435
-    name: Soxfour’s Spaceboots
+    name: Soxfour���s Spaceboots
     volume: 3.0
   Starsi:
     CpuMultiplier: 1.0
@@ -654,6 +659,16 @@ items:
     id: 45060
     name: Vintage Frigate Blueprints
     volume: 0.01
+  XV Anniversary Gift Box (Alpha):
+    CpuMultiplier: 1.0
+    id: 47962
+    name: XV Anniversary Gift Box (Alpha)
+    volume: 100000.0
+  XV Anniversary Gift Box (Omega):
+    CpuMultiplier: 1.0
+    id: 47963
+    name: XV Anniversary Gift Box (Omega)
+    volume: 100000.0
   YC117 Symposium On Emergent Threats Access Pass:
     CpuMultiplier: 1.0
     id: 37882
@@ -663,11 +678,6 @@ items:
     CpuMultiplier: 1.0
     id: 37892
     name: YC118 Succession Trial Champion’s Decree – House Ardishapur
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Kador:
-    CpuMultiplier: 1.0
-    id: 37893
-    name: YC118 Succession Trial Champion’s Decree – House Kador
     volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Khanid:
     CpuMultiplier: 1.0
@@ -679,15 +689,20 @@ items:
     id: 37895
     name: YC118 Succession Trial Champion’s Decree – House Kor-Azor
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Sarum:
-    CpuMultiplier: 1.0
-    id: 37896
-    name: YC118 Succession Trial Champion’s Decree – House Sarum
-    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Tash-Murkon:
     CpuMultiplier: 1.0
     id: 37889
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+    volume: 0.01
+  YC118 Succession Trial Champion’s Decree ��� House Sarum:
+    CpuMultiplier: 1.0
+    id: 37896
+    name: YC118 Succession Trial Champion’s Decree ��� House Sarum
+    volume: 0.01
+  YC118 Succession Trial Champion��s Decree – House Kador:
+    CpuMultiplier: 1.0
+    id: 37893
+    name: YC118 Succession Trial Champion��s Decree – House Kador
     volume: 0.01
   YC119 Yoiul Festival Day 1:
     CpuMultiplier: 1.0

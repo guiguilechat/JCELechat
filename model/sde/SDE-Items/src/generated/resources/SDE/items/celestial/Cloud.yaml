@@ -22,6 +22,9 @@ items:
     id: 41581
     name: Astrahus Lights On
     volume: 1.0
+  Capsuleer Day - Dungeon Spawner:
+    id: 47861
+    name: Capsuleer Day - Dungeon Spawner
   Celestial Environment:
     id: 19749
     name: Celestial Environment

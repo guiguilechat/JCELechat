@@ -864,7 +864,8 @@ items:
     volume: 27500.0
   Drifter Cruiser Wreck:
     ExplosionDelayWreck: 7200000
-    SignatureRadius: 100
+    Hp: 3500
+    SignatureRadius: 5000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
     id: 47560
@@ -2324,7 +2325,8 @@ items:
     volume: 27500.0
   'Sleeper Medium Wreck ':
     ExplosionDelayWreck: 7200000
-    SignatureRadius: 100
+    Hp: 3500
+    SignatureRadius: 5000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
     id: 46604
@@ -2362,7 +2364,8 @@ items:
     volume: 27500.0
   Sleeper Small Wreck:
     ExplosionDelayWreck: 7200000
-    SignatureRadius: 100
+    Hp: 3500
+    SignatureRadius: 5000
     StasisWebifierResistance: 1.0
     StructureUniformity: 1.0
     id: 47758

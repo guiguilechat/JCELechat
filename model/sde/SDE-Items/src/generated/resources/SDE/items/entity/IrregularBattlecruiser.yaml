@@ -7,6 +7,10 @@ items:
     id: 42129
     name: Guardian Angels Hanael
     volume: 109000.0
+  Noumenal Interruptor:
+    id: 47721
+    name: Noumenal Interruptor
+    volume: 109000.0
   Purist Cardinal:
     id: 42514
     name: Purist Cardinal

@@ -3,6 +3,10 @@ items:
     id: 36940
     name: Blood Raider Cruiser
     volume: 118000.0
+  Drifter Strike Cruiser:
+    id: 47722
+    name: Drifter Strike Cruiser
+    volume: 100000.0
   Eosian Inquisitor:
     id: 46347
     name: Eosian Inquisitor
@@ -22,6 +26,14 @@ items:
     id: 40726
     name: Guri Hivaa Assassin
     volume: 101000.0
+  Noumenal Silencer:
+    id: 47719
+    name: Noumenal Silencer
+    volume: 109000.0
+  Noumenal Suppressor:
+    id: 47720
+    name: Noumenal Suppressor
+    volume: 109000.0
   Purist Papal:
     id: 42513
     name: Purist Papal
