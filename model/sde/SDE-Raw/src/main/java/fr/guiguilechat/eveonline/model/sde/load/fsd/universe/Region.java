@@ -1,12 +1,13 @@
 package fr.guiguilechat.eveonline.model.sde.load.fsd.universe;
 
 import java.io.File;
-import java.io.FileReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.stream.Stream;
 
 import org.yaml.snakeyaml.Yaml;
+
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
 public class Region {
 	public LinkedHashMap<String, Constellation> constellations = new LinkedHashMap<>();
@@ -29,7 +30,8 @@ public class Region {
 					"while looking for one region.staticdata, found : " + Arrays.asList(data));
 		}
 		try {
-			Region ret = new Yaml().loadAs(new FileReader(data[0]), Region.class);
+			Region ret = new Yaml().loadAs(SDECache.fileReader(data[0]),
+					Region.class);
 			File[] constelFiles = Stream.of(regionDir.listFiles()).parallel().filter(File::isDirectory).toArray(File[]::new);
 			for (File constelFile : constelFiles) {
 				ret.constellations.put(constelFile.getName(), Constellation.load(constelFile));

@@ -2,7 +2,6 @@ package fr.guiguilechat.eveonline.model.sde.load.fsd.universe;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.stream.Stream;
@@ -10,6 +9,8 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
+
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
 public class Constellation {
 
@@ -34,7 +35,7 @@ public class Constellation {
 					"while looking for one file of constellation data, found " + Arrays.asList(data));
 		}
 		try {
-			Object ret = new Yaml().loadAs(new FileReader(data[0]), Constellation.class);
+			Object ret = new Yaml().loadAs(SDECache.fileReader(data[0]), Constellation.class);
 			if (ret.getClass().getClassLoader() != Constellation.class.getClassLoader()) {
 				logger.warn("returned object " + ret + " from cl " + ret.getClass().getClassLoader()
 						+ " while Constellation cl is "

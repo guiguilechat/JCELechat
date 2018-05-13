@@ -1,10 +1,7 @@
 package fr.guiguilechat.eveonline.model.sde.load.fsd;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -66,7 +63,7 @@ public class EtypeIDs {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(new InputStreamReader(new FileInputStream(FILE), Charset.forName("UTF-8")),
+				cache = yaml.loadAs(SDECache.fileReader(FILE),
 						LinkedHashMap.class);
 				// cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
 			} catch (FileNotFoundException e) {

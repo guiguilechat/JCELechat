@@ -2,7 +2,6 @@ package fr.guiguilechat.eveonline.model.sde.load.fsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 
@@ -44,7 +43,8 @@ public class EgroupIDs {
 			};
 			Yaml yaml = new Yaml(cons);
 			try {
-				cache = yaml.loadAs(new FileReader(FILE), LinkedHashMap.class);
+				cache = yaml.loadAs(SDECache.fileReader(FILE),
+						LinkedHashMap.class);
 			} catch (FileNotFoundException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}

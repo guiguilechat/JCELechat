@@ -1,12 +1,13 @@
 package fr.guiguilechat.eveonline.model.sde.load.fsd.universe;
 
 import java.io.File;
-import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
+
+import fr.guiguilechat.eveonline.model.sde.load.SDECache;
 
 public class SolarSystem {
 
@@ -115,7 +116,7 @@ public class SolarSystem {
 					"while looking for one file of system data, found " + Arrays.asList(data));
 		}
 		try {
-			return new Yaml().loadAs(new FileReader(data[0]), SolarSystem.class);
+			return new Yaml().loadAs(SDECache.fileReader(data[0]), SolarSystem.class);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while loading solarsystem from directory " + systemDir.getAbsolutePath(),
 					e);

@@ -2,11 +2,15 @@ package fr.guiguilechat.eveonline.model.sde.load;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
@@ -24,6 +28,14 @@ public class SDECache {
 	private static final Logger logger = LoggerFactory.getLogger(SDECache.class);
 
 	public static final SDECache INSTANCE = new SDECache();
+
+	public static InputStreamReader fileReader(String fileName) throws FileNotFoundException {
+		return new InputStreamReader(new FileInputStream(fileName), Charset.forName("UTF-8"));
+	}
+
+	public static InputStreamReader fileReader(File file) throws FileNotFoundException {
+		return new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8"));
+	}
 
 	/**
 	 * where we want to extract the SDE
