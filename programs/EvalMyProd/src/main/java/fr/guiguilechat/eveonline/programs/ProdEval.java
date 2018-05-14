@@ -22,7 +22,8 @@ import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.eveonline.model.esi.modeled.market.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
-import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.MaterialProd;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.MetaInf;
 import fr.guiguilechat.eveonline.model.sde.items.types.Ship;
@@ -161,7 +162,7 @@ public class ProdEval {
 		}
 		BPEval eval = new BPEval();
 		eval.name = bpt.name;
-		for (Material required : bpt.manufacturing.materials) {
+		for (MaterialReq required : bpt.manufacturing.materials) {
 			int modifiedQtty = required.quantity == 1 ? required.quantity * Math.max(1, bp.runs)
 					: (int) Math.ceil(Math.max(1, bp.runs) * 0.01 * (100 - bp.material_efficiency) * required.quantity);
 			if (modifiedQtty < 1) {
@@ -170,7 +171,7 @@ public class ProdEval {
 			}
 			eval.required.put(required.name, modifiedQtty);
 		}
-		for (Material mout : bpt.manufacturing.products) {
+		for (MaterialProd mout : bpt.manufacturing.products) {
 			eval.outName = mout.name;
 			eval.outNb = mout.quantity * Math.max(1, bp.runs);
 			eval.output = MetaInf.getItem(mout.name);

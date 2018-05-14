@@ -67,24 +67,21 @@ public class Blueprint {
 	/**
 	 * used in the blueprints as requirement, or products
 	 */
-	public static class Material {
+	public static class MaterialReq {
 		public int quantity;
 		public String name;
 		public int id;
 		public String group;
 		public String category;
-		/**
-		 * probability is !=1 if this is a produc.
-		 */
-		public float probability = 1.0f;
+	}
 
-		public Material() {
-		}
+	public static class MaterialProd extends MaterialReq {
+		public float probability = 1.0f;
 	}
 
 	public static class Activity {
-		public ArrayList<Material> materials = new ArrayList<>();
-		public ArrayList<Material> products = new ArrayList<>();
+		public ArrayList<MaterialReq> materials = new ArrayList<>();
+		public ArrayList<MaterialProd> products = new ArrayList<>();
 		public LinkedHashMap<String, Integer> skills = new LinkedHashMap<>();
 		public int time;
 

@@ -18,7 +18,8 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Activity;
-import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.Material;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.MaterialProd;
+import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.eveonline.model.sde.industry.InventionDecryptor;
 import fr.guiguilechat.eveonline.model.sde.industry.Usage;
 import fr.guiguilechat.eveonline.model.sde.items.types.decryptors.GenericDecryptor;
@@ -124,17 +125,36 @@ public class IndustryTranslater {
 			LinkedHashMap<Integer, EtypeIDs> types) {
 		Activity ret = new Activity();
 		ret.time = activity.time;
-		activity.materials.stream().map(m -> convertMaterial(m, types)).forEach(ret.materials::add);
-		activity.products.stream().map(p -> convertMaterial(p, types)).forEach(ret.products::add);
+		activity.materials.stream().map(m -> convertMaterialReq(m, types)).forEach(ret.materials::add);
+		activity.products.stream().map(p -> convertMaterialProd(p, types)).forEach(ret.products::add);
 		activity.skills.stream().forEach(s -> ret.skills.put(types.get(s.typeID).enName(), s.level));
 		return ret;
 	}
 
-	public static Material convertMaterial(fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material sdeMat,
+	public static MaterialReq convertMaterialReq(fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material sdeMat,
 			LinkedHashMap<Integer, EtypeIDs> types) {
 		EtypeIDs item = types.get(sdeMat.typeID);
 		if (item != null) {
-			Material ret = new Material();
+			MaterialReq ret = new MaterialReq();
+			ret.quantity = sdeMat.quantity;
+			ret.name = item.enName();
+			ret.id = sdeMat.typeID;
+			EgroupIDs group = EgroupIDs.load().get(item.groupID);
+			ret.group = group.enName();
+			EcategoryIDs cat = EcategoryIDs.load().get(group.categoryID);
+			ret.category = cat.enName();
+			return ret;
+		} else {
+			return null;
+		}
+	}
+
+	public static MaterialProd convertMaterialProd(
+			fr.guiguilechat.eveonline.model.sde.load.fsd.Eblueprints.Material sdeMat,
+			LinkedHashMap<Integer, EtypeIDs> types) {
+		EtypeIDs item = types.get(sdeMat.typeID);
+		if (item != null) {
+			MaterialProd ret = new MaterialProd();
 			ret.quantity = sdeMat.quantity;
 			ret.name = item.enName();
 			ret.id = sdeMat.typeID;
@@ -170,9 +190,9 @@ public class IndustryTranslater {
 		addUsages(bp.name, usages, bp.research_time.materials, u -> u.materialTE);
 	}
 
-	protected static void addUsages(String name, Map<String, Usage> usages, List<Material> materials,
+	protected static void addUsages(String name, Map<String, Usage> usages, List<? extends MaterialReq> materials,
 			Function<Usage, Set<String>> categorizer) {
-		for (Material m : materials) {
+		for (MaterialReq m : materials) {
 			Usage u = usages.get(m.name);
 			if (u == null) {
 				u = new Usage();
