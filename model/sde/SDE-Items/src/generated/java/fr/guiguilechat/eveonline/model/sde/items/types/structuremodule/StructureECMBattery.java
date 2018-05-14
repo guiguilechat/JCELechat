@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -168,6 +170,112 @@ public class StructureECMBattery
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureECMBattery.yaml";
     private static LinkedHashMap<String, StructureECMBattery> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

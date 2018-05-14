@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -196,6 +198,128 @@ public class CynosuralGeneratorArray
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
     private static LinkedHashMap<String, CynosuralGeneratorArray> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1032 :
+            {
+                return AnchoringSecurityLevelMax;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  1195 :
+            {
+                return PosAnchoredPerSolarSystemAmount;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  1595 :
+            {
+                return RequiresSovUpgrade1;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

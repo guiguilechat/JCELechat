@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -126,6 +128,88 @@ public class SovereigntyBlockadeUnit
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
     private static LinkedHashMap<String, SovereigntyBlockadeUnit> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -451,6 +453,272 @@ public abstract class Owner
     @Stackable(true)
     @DefaultIntValue(0)
     public int Willpower;
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  442 :
+            {
+                return BarterDiscount;
+            }
+            case  393 :
+            {
+                return BattleshipConstructionCost;
+            }
+            case  625 :
+            {
+                return BountyBonus;
+            }
+            case  626 :
+            {
+                return BountyMultiplier;
+            }
+            case  164 :
+            {
+                return Charisma;
+            }
+            case  360 :
+            {
+                return ConnectionsBonus;
+            }
+            case  387 :
+            {
+                return CopySpeedPercent;
+            }
+            case  361 :
+            {
+                return CriminalConnectionsBonus;
+            }
+            case  401 :
+            {
+                return CruiseMissileVelocityPercent;
+            }
+            case  389 :
+            {
+                return CruiserConstructionCost;
+            }
+            case  170 :
+            {
+                return CustomCharismaBonus;
+            }
+            case  174 :
+            {
+                return CustomIntelligenceBonus;
+            }
+            case  173 :
+            {
+                return CustomMemoryBonus;
+            }
+            case  172 :
+            {
+                return CustomPerceptionBonus;
+            }
+            case  171 :
+            {
+                return CustomWillpowerBonus;
+            }
+            case  356 :
+            {
+                return DiplomacyBonus;
+            }
+            case  458 :
+            {
+                return DroneControlDistance;
+            }
+            case  399 :
+            {
+                return DuplicatingChance;
+            }
+            case  359 :
+            {
+                return FastTalkPercentage;
+            }
+            case  388 :
+            {
+                return FrigateConstructionCost;
+            }
+            case  426 :
+            {
+                return HeavyDroneDamagePercent;
+            }
+            case  402 :
+            {
+                return HeavyMissileSpeedPercent;
+            }
+            case  392 :
+            {
+                return IndustrialConstructionCost;
+            }
+            case  165 :
+            {
+                return Intelligence;
+            }
+            case  1959 :
+            {
+                return InventionReverseEngineeringResearchSpeed;
+            }
+            case  369 :
+            {
+                return ManufactureCostMultiplier;
+            }
+            case  196 :
+            {
+                return ManufactureSlotLimit;
+            }
+            case  219 :
+            {
+                return ManufactureTimeMultiplier;
+            }
+            case  385 :
+            {
+                return ManufacturingTimeResearchSpeed;
+            }
+            case  435 :
+            {
+                return MaxGangModules;
+            }
+            case  467 :
+            {
+                return MaxLaborotorySlots;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  417 :
+            {
+                return MaxNonRaceCorporationMembers;
+            }
+            case  166 :
+            {
+                return Memory;
+            }
+            case  398 :
+            {
+                return MineralNeedResearchSpeed;
+            }
+            case  428 :
+            {
+                return MiningDroneAmountPercent;
+            }
+            case  406 :
+            {
+                return MissileFOFVelocityPercent;
+            }
+            case  400 :
+            {
+                return MissileStandardVelocityPecent;
+            }
+            case  1267 :
+            {
+                return ModuleRepairRate;
+            }
+            case  355 :
+            {
+                return NegotiationPercentage;
+            }
+            case  167 :
+            {
+                return Perception;
+            }
+            case  2664 :
+            {
+                return ReactionSlotLimit;
+            }
+            case  368 :
+            {
+                return RefiningTimePercentage;
+            }
+            case  378 :
+            {
+                return RefiningYieldPercentage;
+            }
+            case  396 :
+            {
+                return RepairCostPercent;
+            }
+            case  397 :
+            {
+                return ReverseEngineeringChance;
+            }
+            case  551 :
+            {
+                return RocketVelocityPercent;
+            }
+            case  362 :
+            {
+                return SocialBonus;
+            }
+            case  395 :
+            {
+                return StationConstructionTime;
+            }
+            case  394 :
+            {
+                return TitanConstructionTime;
+            }
+            case  404 :
+            {
+                return TorpedoVelocityPercent;
+            }
+            case  443 :
+            {
+                return TradePremium;
+            }
+            case  1022 :
+            {
+                return WarpAccuracyFactor;
+            }
+            case  1021 :
+            {
+                return WarpAccuracyMaxRange;
+            }
+            case  168 :
+            {
+                return Willpower;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  723 :
+            {
+                return ContrabandDetectionChance;
+            }
+            case  444 :
+            {
+                return ContrabandFencingChance;
+            }
+            case  522 :
+            {
+                return DamageCloudChance;
+            }
+            case  212 :
+            {
+                return MissileDamageMultiplier;
+            }
+            case  187 :
+            {
+                return RepairCostMultiplier;
+            }
+            case  1277 :
+            {
+                return ShipBrokenModuleRepairCostMultiplier;
+            }
+            case  445 :
+            {
+                return SmugglingChance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

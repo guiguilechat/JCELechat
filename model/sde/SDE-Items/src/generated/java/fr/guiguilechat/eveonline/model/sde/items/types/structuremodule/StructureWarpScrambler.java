@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -175,6 +177,116 @@ public class StructureWarpScrambler
     public int WarpScrambleStrength;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureWarpScrambler.yaml";
     private static LinkedHashMap<String, StructureWarpScrambler> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1350 :
+            {
+                return ActivationBlockedStrenght;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  978 :
+            {
+                return MaxGroupOnline;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  105 :
+            {
+                return WarpScrambleStrength;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1470 :
+            {
+                return MaxVelocityMultiplier;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -17,6 +17,24 @@ public abstract class Item {
 
     public abstract Class<?> getGroup();
 
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            default:
+            {
+                throw new UnsupportedOperationException();
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            default:
+            {
+                throw new UnsupportedOperationException();
+            }
+        }
+    }
+
     public void loadDefault() {
         for (Field f: (getClass().getFields())) {
             DefaultDoubleValue annotDouble = f.getAnnotation(DefaultDoubleValue.class);

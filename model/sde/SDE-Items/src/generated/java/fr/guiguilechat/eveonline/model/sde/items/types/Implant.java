@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -45,6 +46,23 @@ public abstract class Implant
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

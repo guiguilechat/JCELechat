@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -98,6 +100,72 @@ public class StructureQAModules
     public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureQAModules.yaml";
     private static LinkedHashMap<String, StructureQAModules> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  72 :
+            {
+                return CapacityBonus;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  984 :
+            {
+                return EmDamageResistanceBonus;
+            }
+            case  985 :
+            {
+                return ExplosiveDamageResistanceBonus;
+            }
+            case  986 :
+            {
+                return KineticDamageResistanceBonus;
+            }
+            case  987 :
+            {
+                return ThermalDamageResistanceBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

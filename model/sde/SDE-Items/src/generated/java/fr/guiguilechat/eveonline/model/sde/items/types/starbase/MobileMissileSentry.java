@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -301,6 +303,188 @@ public class MobileMissileSentry
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/MobileMissileSentry.yaml";
     private static LinkedHashMap<String, MobileMissileSentry> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  771 :
+            {
+                return AmmoCapacity;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
+            }
+            case  476 :
+            {
+                return EntityAttackDelayMax;
+            }
+            case  475 :
+            {
+                return EntityAttackDelayMin;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  506 :
+            {
+                return MissileLaunchDuration;
+            }
+            case  1167 :
+            {
+                return PosPlayerControlStructure;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  212 :
+            {
+                return MissileDamageMultiplier;
+            }
+            case  858 :
+            {
+                return MissileEntityAoeCloudSizeMultiplier;
+            }
+            case  859 :
+            {
+                return MissileEntityAoeVelocityMultiplier;
+            }
+            case  646 :
+            {
+                return MissileEntityFlightTimeMultiplier;
+            }
+            case  645 :
+            {
+                return MissileEntityVelocityMultiplier;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

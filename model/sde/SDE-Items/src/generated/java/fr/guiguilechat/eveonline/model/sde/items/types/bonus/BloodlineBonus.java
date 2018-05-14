@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -41,6 +42,31 @@ public class BloodlineBonus
     public double SpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/BloodlineBonus.yaml";
     private static LinkedHashMap<String, BloodlineBonus> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  205 :
+            {
+                return AccuracyMultiplier;
+            }
+            case  203 :
+            {
+                return MiningDurationMultiplier;
+            }
+            case  187 :
+            {
+                return RepairCostMultiplier;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

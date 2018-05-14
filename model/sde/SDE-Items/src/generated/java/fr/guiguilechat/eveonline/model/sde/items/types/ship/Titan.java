@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -637,6 +639,380 @@ public class Titan
     public double WeaponDisruptionResistance;
     public final static String RESOURCE_PATH = "SDE/items/ship/Titan.yaml";
     private static LinkedHashMap<String, Titan> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  63 :
+            {
+                return AccuracyBonus;
+            }
+            case  853 :
+            {
+                return AdvancedAgility;
+            }
+            case  874 :
+            {
+                return AdvancedCapitalAgility;
+            }
+            case  861 :
+            {
+                return CanJump;
+            }
+            case  982 :
+            {
+                return CanReceiveCloneJumps;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  2021 :
+            {
+                return EntosisDurationMultiplier;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  2433 :
+            {
+                return FighterAbilityKamikazeResistance;
+            }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2219 :
+            {
+                return FighterHeavySlots;
+            }
+            case  2217 :
+            {
+                return FighterLightSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
+            }
+            case  912 :
+            {
+                return FleetHangarCapacity;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  1973 :
+            {
+                return GateScrambleStatus;
+            }
+            case  911 :
+            {
+                return HasFleetHangars;
+            }
+            case  907 :
+            {
+                return HasShipMaintenanceBay;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  1785 :
+            {
+                return IsCapitalSize;
+            }
+            case  1336 :
+            {
+                return JumpClonesLeft;
+            }
+            case  868 :
+            {
+                return JumpDriveConsumptionAmount;
+            }
+            case  866 :
+            {
+                return JumpDriveConsumptionType;
+            }
+            case  869 :
+            {
+                return JumpDriveDuration;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  1005 :
+            {
+                return JumpPortalCapacitorNeed;
+            }
+            case  1002 :
+            {
+                return JumpPortalDuration;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  979 :
+            {
+                return MaxJumpClones;
+            }
+            case  715 :
+            {
+                return MaxOperationalDistance;
+            }
+            case  716 :
+            {
+                return MaxOperationalUsers;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  1945 :
+            {
+                return NosOverride;
+            }
+            case  2275 :
+            {
+                return OnDeathAOERadius;
+            }
+            case  2271 :
+            {
+                return OnDeathDamageEM;
+            }
+            case  2274 :
+            {
+                return OnDeathDamageExp;
+            }
+            case  2273 :
+            {
+                return OnDeathDamageKin;
+            }
+            case  2272 :
+            {
+                return OnDeathDamageTherm;
+            }
+            case  2276 :
+            {
+                return OnDeathSignatureRadius;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  2574 :
+            {
+                return RoleBonusCommandBurstAoERange;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
+            }
+            case  2300 :
+            {
+                return ShipBonusRole3;
+            }
+            case  2301 :
+            {
+                return ShipBonusRole4;
+            }
+            case  2406 :
+            {
+                return ShipBonusTitanA1;
+            }
+            case  2407 :
+            {
+                return ShipBonusTitanA2;
+            }
+            case  2408 :
+            {
+                return ShipBonusTitanA3;
+            }
+            case  2410 :
+            {
+                return ShipBonusTitanC1;
+            }
+            case  2411 :
+            {
+                return ShipBonusTitanC2;
+            }
+            case  2412 :
+            {
+                return ShipBonusTitanC3;
+            }
+            case  2423 :
+            {
+                return ShipBonusTitanC5;
+            }
+            case  2414 :
+            {
+                return ShipBonusTitanG1;
+            }
+            case  2415 :
+            {
+                return ShipBonusTitanG2;
+            }
+            case  2416 :
+            {
+                return ShipBonusTitanG3;
+            }
+            case  2418 :
+            {
+                return ShipBonusTitanM1;
+            }
+            case  2419 :
+            {
+                return ShipBonusTitanM2;
+            }
+            case  2420 :
+            {
+                return ShipBonusTitanM3;
+            }
+            case  908 :
+            {
+                return ShipMaintenanceBayCapacity;
+            }
+            case  2467 :
+            {
+                return SpecialCorpseHoldCapacity;
+            }
+            case  1549 :
+            {
+                return SpecialFuelBayCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  104 :
+            {
+                return WarpScrambleStatus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  2754 :
+            {
+                return EntosisAssistanceImpedanceMultiplier;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
+            }
+            case  867 :
+            {
+                return JumpDriveRange;
+            }
+            case  1001 :
+            {
+                return JumpPortalConsumptionMassFactor;
+            }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
+            }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
+            }
+            case  2113 :
+            {
+                return WeaponDisruptionResistance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

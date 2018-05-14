@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -154,6 +156,104 @@ public class ShipModifiers
     public double ModeVelocityPostDiv;
     public final static String RESOURCE_PATH = "SDE/items/module/ShipModifiers.yaml";
     private static LinkedHashMap<String, ShipModifiers> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2002 :
+            {
+                return ModeAgilityPostDiv;
+            }
+            case  2030 :
+            {
+                return ModeArmorRepDurationPostDiv;
+            }
+            case  2589 :
+            {
+                return ModeDamageBonusPostDiv;
+            }
+            case  1997 :
+            {
+                return ModeEmResistancePostDiv;
+            }
+            case  1998 :
+            {
+                return ModeExplosiveResistancePostDiv;
+            }
+            case  1995 :
+            {
+                return ModeGravimetricStrengthPostDiv;
+            }
+            case  2000 :
+            {
+                return ModeKineticResistancePostDiv;
+            }
+            case  1994 :
+            {
+                return ModeLadarStrengthPostDiv;
+            }
+            case  2031 :
+            {
+                return ModeMWDVelocityPostDiv;
+            }
+            case  1996 :
+            {
+                return ModeMagnetometricStrengthPostDiv;
+            }
+            case  1990 :
+            {
+                return ModeMaxRangePostDiv;
+            }
+            case  1991 :
+            {
+                return ModeMaxTargetRangePostDiv;
+            }
+            case  1992 :
+            {
+                return ModeRadarStrengthPostDiv;
+            }
+            case  2001 :
+            {
+                return ModeSignatureRadiusPostDiv;
+            }
+            case  1999 :
+            {
+                return ModeThermicResistancePostDiv;
+            }
+            case  2008 :
+            {
+                return ModeTrackingPostDiv;
+            }
+            case  2003 :
+            {
+                return ModeVelocityPostDiv;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2590 :
+            {
+                return ModeEwarResistancePostDiv;
+            }
+            case  2032 :
+            {
+                return ModeMWDCapPostDiv;
+            }
+            case  2007 :
+            {
+                return ModeMWDSigPenaltyPostDiv;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

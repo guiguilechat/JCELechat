@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -126,6 +128,88 @@ public class RigElectronicSystems
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigElectronicSystems.yaml";
     private static LinkedHashMap<String, RigElectronicSystems> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  169 :
+            {
+                return AgilityMultiplier;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  237 :
+            {
+                return MaxTargetRangeMultiplier;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  828 :
+            {
+                return ScanSkillEwStrengthBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  619 :
+            {
+                return CloakingTargetingDelayBonus;
+            }
+            case  1138 :
+            {
+                return Drawback;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
+            }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -161,6 +163,108 @@ public class MissileLauncherBomb
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherBomb.yaml";
     private static LinkedHashMap<String, MissileLauncherBomb> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  605 :
+            {
+                return ChargeGroup2;
+            }
+            case  606 :
+            {
+                return ChargeGroup3;
+            }
+            case  56 :
+            {
+                return ChargeRate;
+            }
+            case  801 :
+            {
+                return DeadspaceUnsafe;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  2608 :
+            {
+                return MinVelocityActivationLimit;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  983 :
+            {
+                return SignatureRadiusAdd;
+            }
+            case  47 :
+            {
+                return Slots;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

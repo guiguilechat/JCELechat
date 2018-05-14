@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -62,6 +63,43 @@ public class StructureECMScript
     public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
     private static LinkedHashMap<String, StructureECMScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  2072 :
+            {
+                return ScanGravimetricStrengthBonusBonus;
+            }
+            case  2073 :
+            {
+                return ScanLadarStrengthBonusBonus;
+            }
+            case  2074 :
+            {
+                return ScanMagnetometricStrengthBonusBonus;
+            }
+            case  2075 :
+            {
+                return ScanRadarStrengthBonusBonus;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

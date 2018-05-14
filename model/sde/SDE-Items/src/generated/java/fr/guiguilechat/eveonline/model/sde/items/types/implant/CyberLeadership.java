@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -69,6 +70,47 @@ public class CyberLeadership
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberLeadership.yaml";
     private static LinkedHashMap<String, CyberLeadership> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  884 :
+            {
+                return MindlinkBonus;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

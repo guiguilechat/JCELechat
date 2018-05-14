@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -27,6 +28,23 @@ public class AncientCompressedIce
     public int RequiredSkill1;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/AncientCompressedIce.yaml";
     private static LinkedHashMap<String, AncientCompressedIce> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  790 :
+            {
+                return ReprocessingSkillType;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

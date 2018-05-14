@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -98,6 +100,72 @@ public class PropulsionSystems
     public int WarpBubbleImmuneModifier;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
     private static LinkedHashMap<String, PropulsionSystems> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2690 :
+            {
+                return AgilityBonusAdd;
+            }
+            case  1445 :
+            {
+                return SubsystemBonusCaldariPropulsion;
+            }
+            case  1513 :
+            {
+                return SubsystemBonusCaldariPropulsion2;
+            }
+            case  1440 :
+            {
+                return SubsystemBonusGallentePropulsion;
+            }
+            case  1520 :
+            {
+                return SubsystemBonusGallentePropulsion2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  1435 :
+            {
+                return SubsystemBonusAmarrPropulsion;
+            }
+            case  1512 :
+            {
+                return SubsystemBonusAmarrPropulsion2;
+            }
+            case  1450 :
+            {
+                return SubsystemBonusMinmatarPropulsion;
+            }
+            case  1523 :
+            {
+                return SubsystemBonusMinmatarPropulsion2;
+            }
+            case  1539 :
+            {
+                return WarpBubbleImmuneModifier;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

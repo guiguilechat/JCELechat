@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -72,6 +74,52 @@ public abstract class Deployable
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

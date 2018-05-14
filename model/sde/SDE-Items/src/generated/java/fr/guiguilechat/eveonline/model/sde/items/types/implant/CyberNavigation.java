@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -84,6 +86,64 @@ public class CyberNavigation
     public int WarpSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberNavigation.yaml";
     private static LinkedHashMap<String, CyberNavigation> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  624 :
+            {
+                return WarpSBonus;
+            }
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  318 :
+            {
+                return SpeedFBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  319 :
+            {
+                return WarpCapacitorNeedBonus;
+            }
+            case  601 :
+            {
+                return WarpSpeedBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  151 :
+            {
+                return AgilityBonus;
+            }
+            case  1076 :
+            {
+                return ImplantBonusVelocity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -105,6 +107,76 @@ public class NeuralEnhancement
     public double SkillTimeConstant;
     public final static String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
     private static LinkedHashMap<String, NeuralEnhancement> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1126 :
+            {
+                return BoosterAttributeModifier;
+            }
+            case  1125 :
+            {
+                return BoosterChanceBonus;
+            }
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  979 :
+            {
+                return MaxJumpClones;
+            }
+            case  1073 :
+            {
+                return MaxJumpClonesBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

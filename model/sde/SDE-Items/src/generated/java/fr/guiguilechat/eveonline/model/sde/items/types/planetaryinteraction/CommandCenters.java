@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -62,6 +63,43 @@ public class CommandCenters
     public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
     private static LinkedHashMap<String, CommandCenters> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  1639 :
+            {
+                return ExportTax;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  1632 :
+            {
+                return PlanetRestriction;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

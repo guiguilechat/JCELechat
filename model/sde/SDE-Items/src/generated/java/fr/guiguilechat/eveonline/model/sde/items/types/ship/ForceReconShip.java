@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -378,6 +380,232 @@ public class ForceReconShip
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/ForceReconShip.yaml";
     private static LinkedHashMap<String, ForceReconShip> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2620 :
+            {
+                return ConcordRoleBonusSecGain;
+            }
+            case  2622 :
+            {
+                return ConcordTankBonus;
+            }
+            case  1296 :
+            {
+                return ConsumptionQuantityBonusPercentage;
+            }
+            case  1034 :
+            {
+                return CovertOpsAndReconOpsCloakModuleDelay;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  962 :
+            {
+                return EliteBonusReconShip1;
+            }
+            case  963 :
+            {
+                return EliteBonusReconShip2;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  2621 :
+            {
+                return InverseCappedSecStatus;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  2610 :
+            {
+                return PilotSecurityStatus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
+            }
+            case  1289 :
+            {
+                return RequiredSkill5;
+            }
+            case  1287 :
+            {
+                return RequiredSkill5Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
+            }
+            case  2657 :
+            {
+                return SpecialBoosterHoldCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1537 :
+            {
+                return EliteBonusReconShip3;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
+            case  656 :
+            {
+                return ShipBonusAC2;
+            }
+            case  657 :
+            {
+                return ShipBonusCC2;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  658 :
+            {
+                return ShipBonusGC2;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
+            }
+            case  659 :
+            {
+                return ShipBonusMC2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

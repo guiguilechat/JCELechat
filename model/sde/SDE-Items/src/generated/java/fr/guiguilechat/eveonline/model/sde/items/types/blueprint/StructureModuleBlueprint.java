@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -20,6 +21,19 @@ public class StructureModuleBlueprint
     public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StructureModuleBlueprint.yaml";
     private static LinkedHashMap<String, StructureModuleBlueprint> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -259,6 +261,164 @@ public class CommandBurst
     public int WarfareLinkCPUAdd;
     public final static String RESOURCE_PATH = "SDE/items/module/CommandBurst.yaml";
     private static LinkedHashMap<String, CommandBurst> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2535 :
+            {
+                return BuffDuration;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1301 :
+            {
+                return CanFitShipGroup04;
+            }
+            case  1872 :
+            {
+                return CanFitShipGroup05;
+            }
+            case  1879 :
+            {
+                return CanFitShipGroup06;
+            }
+            case  1880 :
+            {
+                return CanFitShipGroup07;
+            }
+            case  1881 :
+            {
+                return CanFitShipGroup08;
+            }
+            case  2065 :
+            {
+                return CanFitShipGroup09;
+            }
+            case  2396 :
+            {
+                return CanFitShipGroup10;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  56 :
+            {
+                return ChargeRate;
+            }
+            case  1920 :
+            {
+                return DisallowActivateInForcefield;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  978 :
+            {
+                return MaxGroupOnline;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1882 :
+            {
+                return WarfareLinkCPUAdd;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            case  2469 :
+            {
+                return WarfareBuff1Value;
+            }
+            case  2471 :
+            {
+                return WarfareBuff2Value;
+            }
+            case  2473 :
+            {
+                return WarfareBuff3Value;
+            }
+            case  2537 :
+            {
+                return WarfareBuff4Value;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

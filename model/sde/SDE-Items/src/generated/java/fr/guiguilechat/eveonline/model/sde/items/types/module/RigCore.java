@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -133,6 +135,92 @@ public class RigCore
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigCore.yaml";
     private static LinkedHashMap<String, RigCore> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  435 :
+            {
+                return MaxGangModules;
+            }
+            case  434 :
+            {
+                return MiningAmountBonus;
+            }
+            case  323 :
+            {
+                return PowerNeedBonus;
+            }
+            case  829 :
+            {
+                return PropulsionSkillPropulsionStrengthBonus;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  338 :
+            {
+                return Rechargeratebonus;
+            }
+            case  806 :
+            {
+                return RepairBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  314 :
+            {
+                return CapRechargeBonus;
+            }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
+            case  424 :
+            {
+                return CpuOutputBonus2;
+            }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
+            }
+            case  134 :
+            {
+                return ShieldRechargeRateMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

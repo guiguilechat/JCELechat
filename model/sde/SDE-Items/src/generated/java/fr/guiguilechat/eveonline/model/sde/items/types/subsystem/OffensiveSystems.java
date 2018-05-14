@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -238,6 +240,152 @@ public class OffensiveSystems
     public int WarfareLinkCPUPenalty;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
     private static LinkedHashMap<String, OffensiveSystems> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  1531 :
+            {
+                return SubsystemBonusAmarrOffensive3;
+            }
+            case  1444 :
+            {
+                return SubsystemBonusCaldariOffensive;
+            }
+            case  1439 :
+            {
+                return SubsystemBonusGallenteOffensive;
+            }
+            case  1532 :
+            {
+                return SubsystemBonusGallenteOffensive3;
+            }
+            case  1449 :
+            {
+                return SubsystemBonusMinmatarOffensive;
+            }
+            case  1522 :
+            {
+                return SubsystemBonusMinmatarOffensive2;
+            }
+            case  1534 :
+            {
+                return SubsystemBonusMinmatarOffensive3;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  1271 :
+            {
+                return DroneBandwidth;
+            }
+            case  283 :
+            {
+                return DroneCapacity;
+            }
+            case  1369 :
+            {
+                return LauncherHardPointModifier;
+            }
+            case  235 :
+            {
+                return MaxLockedTargetsBonus;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  2694 :
+            {
+                return RemoteArmorRepairerFalloffBonus;
+            }
+            case  2695 :
+            {
+                return RemoteArmorRepairerOptimalBonus;
+            }
+            case  2693 :
+            {
+                return RemoteShieldBoosterFalloffBonus;
+            }
+            case  2574 :
+            {
+                return RoleBonusCommandBurstAoERange;
+            }
+            case  1434 :
+            {
+                return SubsystemBonusAmarrOffensive;
+            }
+            case  1511 :
+            {
+                return SubsystemBonusAmarrOffensive2;
+            }
+            case  1510 :
+            {
+                return SubsystemBonusCaldariOffensive2;
+            }
+            case  1533 :
+            {
+                return SubsystemBonusCaldariOffensive3;
+            }
+            case  1521 :
+            {
+                return SubsystemBonusGallenteOffensive2;
+            }
+            case  2692 :
+            {
+                return SubsystemCommandBurstFittingReduction;
+            }
+            case  2668 :
+            {
+                return SubsystemMETFittingReduction;
+            }
+            case  2666 :
+            {
+                return SubsystemMHTFittingReduction;
+            }
+            case  2669 :
+            {
+                return SubsystemMMissileFittingReduction;
+            }
+            case  2667 :
+            {
+                return SubsystemMPTFittingReduction;
+            }
+            case  2671 :
+            {
+                return SubsystemMRARFittingReduction;
+            }
+            case  2670 :
+            {
+                return SubsystemMRSBFittingReduction;
+            }
+            case  1368 :
+            {
+                return TurretHardPointModifier;
+            }
+            case  1883 :
+            {
+                return WarfareLinkCPUPenalty;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

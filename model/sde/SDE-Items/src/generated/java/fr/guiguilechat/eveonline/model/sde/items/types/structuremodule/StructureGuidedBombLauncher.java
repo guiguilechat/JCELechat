@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -151,6 +153,100 @@ public class StructureGuidedBombLauncher
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureGuidedBombLauncher.yaml";
     private static LinkedHashMap<String, StructureGuidedBombLauncher> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  56 :
+            {
+                return ChargeRate;
+            }
+            case  801 :
+            {
+                return DeadspaceUnsafe;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  2581 :
+            {
+                return OnlineMaxSecurityClass;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  47 :
+            {
+                return Slots;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

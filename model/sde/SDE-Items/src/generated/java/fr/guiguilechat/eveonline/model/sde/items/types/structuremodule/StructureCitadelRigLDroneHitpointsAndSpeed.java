@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -77,6 +79,60 @@ public class StructureCitadelRigLDroneHitpointsAndSpeed
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelRigLDroneHitpointsAndSpeed.yaml";
     private static LinkedHashMap<String, StructureCitadelRigLDroneHitpointsAndSpeed> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  591 :
+            {
+                return DroneMaxVelocityBonus;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  327 :
+            {
+                return HullHpBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

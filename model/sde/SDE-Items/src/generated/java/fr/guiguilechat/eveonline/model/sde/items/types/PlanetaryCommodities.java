@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -29,6 +30,23 @@ public abstract class PlanetaryCommodities
     @Stackable(true)
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1641 :
+            {
+                return ExportTaxMultiplier;
+            }
+            case  1640 :
+            {
+                return ImportTaxMultiplier;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

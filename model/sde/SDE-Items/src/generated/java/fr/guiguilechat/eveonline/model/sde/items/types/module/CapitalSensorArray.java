@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -161,6 +163,108 @@ public class CapitalSensorArray
     public double ScanResolutionBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/CapitalSensorArray.yaml";
     private static LinkedHashMap<String, CapitalSensorArray> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1163 :
+            {
+                return CanCloak;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1245 :
+            {
+                return DisallowActivateOnWarp;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  1190 :
+            {
+                return EwCapacitorNeedBonus;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
+            }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

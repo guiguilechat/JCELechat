@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -147,6 +149,100 @@ public class Shields
     public double UniformityBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
     private static LinkedHashMap<String, Shields> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  323 :
+            {
+                return PowerNeedBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  338 :
+            {
+                return Rechargeratebonus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  550 :
+            {
+                return ResistanceBonus;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            case  851 :
+            {
+                return ShieldBoostCapacitorBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  958 :
+            {
+                return HardeningBonus;
+            }
+            case  337 :
+            {
+                return ShieldCapacityBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            case  336 :
+            {
+                return UniformityBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

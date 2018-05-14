@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -344,6 +346,208 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2253 :
+            {
+                return ECMResistance;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  55 :
+            {
+                return RechargeRate;
+            }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            case  2113 :
+            {
+                return WeaponDisruptionResistance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2035 :
+            {
+                return ArmorDamageLimit;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  2034 :
+            {
+                return ShieldDamageLimit;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  2036 :
+            {
+                return StructureDamageLimit;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

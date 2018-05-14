@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -140,6 +142,96 @@ public class Laboratory
     public int UpgradeCapacity;
     public final static String RESOURCE_PATH = "SDE/items/structure/Laboratory.yaml";
     private static LinkedHashMap<String, Laboratory> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1271 :
+            {
+                return DroneBandwidth;
+            }
+            case  283 :
+            {
+                return DroneCapacity;
+            }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2219 :
+            {
+                return FighterHeavySlots;
+            }
+            case  2217 :
+            {
+                return FighterLightSlots;
+            }
+            case  2218 :
+            {
+                return FighterSupportSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
+            }
+            case  1178 :
+            {
+                return HeatCapacityHi;
+            }
+            case  1200 :
+            {
+                return HeatCapacityLow;
+            }
+            case  1199 :
+            {
+                return HeatCapacityMed;
+            }
+            case  101 :
+            {
+                return LauncherSlotsLeft;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  2056 :
+            {
+                return ServiceSlots;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

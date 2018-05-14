@@ -44,7 +44,7 @@ items:
     name: ♦ Crucifier
     volume: 28100.0
   ♦ Cruor:
-    id: 45680
+    id: 46052
     name: ♦ Cruor
     volume: 28600.0
   ♦ Daredevil:
@@ -72,7 +72,7 @@ items:
     name: ♦ Imp
     volume: 28600.0
   ♦ Incursus:
-    id: 43574
+    id: 46074
     name: ♦ Incursus
     volume: 29500.0
   ♦ Inquisitor:
@@ -163,11 +163,3 @@ items:
     id: 47197
     name: ♦ test_ewar
     volume: 27289.0
-  �� Incursus:
-    id: 46074
-    name: �� Incursus
-    volume: 29500.0
-  ��� Cruor:
-    id: 46052
-    name: ��� Cruor
-    volume: 28600.0

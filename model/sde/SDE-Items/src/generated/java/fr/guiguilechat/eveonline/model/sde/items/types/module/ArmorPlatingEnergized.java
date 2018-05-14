@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -84,6 +86,64 @@ public class ArmorPlatingEnergized
     public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorPlatingEnergized.yaml";
     private static LinkedHashMap<String, ArmorPlatingEnergized> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  148 :
+            {
+                return ArmorHPMultiplier;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  984 :
+            {
+                return EmDamageResistanceBonus;
+            }
+            case  985 :
+            {
+                return ExplosiveDamageResistanceBonus;
+            }
+            case  986 :
+            {
+                return KineticDamageResistanceBonus;
+            }
+            case  987 :
+            {
+                return ThermalDamageResistanceBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

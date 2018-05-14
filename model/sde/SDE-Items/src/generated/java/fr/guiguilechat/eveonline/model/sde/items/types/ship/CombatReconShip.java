@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -238,6 +240,152 @@ public class CombatReconShip
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/CombatReconShip.yaml";
     private static LinkedHashMap<String, CombatReconShip> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1958 :
+            {
+                return DscanImmune;
+            }
+            case  962 :
+            {
+                return EliteBonusReconShip1;
+            }
+            case  963 :
+            {
+                return EliteBonusReconShip2;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1537 :
+            {
+                return EliteBonusReconShip3;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
+            case  656 :
+            {
+                return ShipBonusAC2;
+            }
+            case  657 :
+            {
+                return ShipBonusCC2;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  658 :
+            {
+                return ShipBonusGC2;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
+            }
+            case  659 :
+            {
+                return ShipBonusMC2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

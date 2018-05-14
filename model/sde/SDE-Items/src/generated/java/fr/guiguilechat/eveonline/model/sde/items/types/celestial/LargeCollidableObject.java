@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -213,6 +215,136 @@ public class LargeCollidableObject
     public double TrackingSpeed;
     public final static String RESOURCE_PATH = "SDE/items/celestial/LargeCollidableObject.yaml";
     private static LinkedHashMap<String, LargeCollidableObject> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  901 :
+            {
+                return AccessDifficulty;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  160 :
+            {
+                return TrackingSpeed;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  854 :
+            {
+                return DisallowAssistance;
+            }
+            case  247 :
+            {
+                return EntityAttackRange;
+            }
+            case  798 :
+            {
+                return EntityBracketColour;
+            }
+            case  665 :
+            {
+                return EntityChaseMaxDistance;
+            }
+            case  457 :
+            {
+                return EntityEquipmentMax;
+            }
+            case  456 :
+            {
+                return EntityEquipmentMin;
+            }
+            case  481 :
+            {
+                return EntityKillBounty;
+            }
+            case  251 :
+            {
+                return EntityLootCountMax;
+            }
+            case  250 :
+            {
+                return EntityLootCountMin;
+            }
+            case  252 :
+            {
+                return EntitySecurityStatusKillBonus;
+            }
+            case  158 :
+            {
+                return Falloff;
+            }
+            case  1927 :
+            {
+                return Hackable;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  790 :
+            {
+                return ReprocessingSkillType;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  903 :
+            {
+                return SpawnWithoutGuardsToo;
+            }
+            case  1919 :
+            {
+                return TierDifficulty;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

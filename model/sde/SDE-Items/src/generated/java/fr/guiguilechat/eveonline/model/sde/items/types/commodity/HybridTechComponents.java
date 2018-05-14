@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -20,6 +21,19 @@ public class HybridTechComponents
     public int MoonMiningAmount;
     public final static String RESOURCE_PATH = "SDE/items/commodity/HybridTechComponents.yaml";
     private static LinkedHashMap<String, HybridTechComponents> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  726 :
+            {
+                return MoonMiningAmount;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

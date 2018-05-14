@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -140,6 +142,96 @@ public class ScanProbeLauncher
     public int Speed;
     public final static String RESOURCE_PATH = "SDE/items/module/ScanProbeLauncher.yaml";
     private static LinkedHashMap<String, ScanProbeLauncher> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  605 :
+            {
+                return ChargeGroup2;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  846 :
+            {
+                return ScanStrengthBonus;
+            }
+            case  47 :
+            {
+                return Slots;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

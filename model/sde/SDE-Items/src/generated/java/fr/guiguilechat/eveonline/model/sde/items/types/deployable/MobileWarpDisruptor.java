@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -76,6 +77,51 @@ public class MobileWarpDisruptor
     public int WarpScrambleRange;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
     private static LinkedHashMap<String, MobileWarpDisruptor> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  556 :
+            {
+                return AnchoringDelay;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  103 :
+            {
+                return WarpScrambleRange;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

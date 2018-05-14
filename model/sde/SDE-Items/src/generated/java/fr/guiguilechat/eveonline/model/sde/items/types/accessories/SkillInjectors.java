@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.accessories;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -27,6 +28,23 @@ public class SkillInjectors
     public int MaxCharacterSkillPointLimit;
     public final static String RESOURCE_PATH = "SDE/items/accessories/SkillInjectors.yaml";
     private static LinkedHashMap<String, SkillInjectors> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2461 :
+            {
+                return ContainedSkillPoints;
+            }
+            case  2459 :
+            {
+                return MaxCharacterSkillPointLimit;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

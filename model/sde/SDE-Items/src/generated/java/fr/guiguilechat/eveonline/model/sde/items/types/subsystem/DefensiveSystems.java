@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -175,6 +177,116 @@ public class DefensiveSystems
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
     private static LinkedHashMap<String, DefensiveSystems> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1159 :
+            {
+                return ArmorHPBonusAdd;
+            }
+            case  2689 :
+            {
+                return CargoCapacityAdd;
+            }
+            case  1871 :
+            {
+                return CovertCloakCPUPenalty;
+            }
+            case  1034 :
+            {
+                return CovertOpsAndReconOpsCloakModuleDelay;
+            }
+            case  1541 :
+            {
+                return JumpHarmonicsModifier;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  2688 :
+            {
+                return StructureHPBonusAdd;
+            }
+            case  1507 :
+            {
+                return SubsystemBonusAmarrDefensive2;
+            }
+            case  1516 :
+            {
+                return SubsystemBonusCaldariDefensive2;
+            }
+            case  1517 :
+            {
+                return SubsystemBonusGallenteDefensive2;
+            }
+            case  1526 :
+            {
+                return SubsystemBonusMinmatarDefensive2;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  649 :
+            {
+                return CloakingCpuNeedBonus;
+            }
+            case  1433 :
+            {
+                return SubsystemBonusAmarrDefensive;
+            }
+            case  2680 :
+            {
+                return SubsystemBonusAmarrDefensive3;
+            }
+            case  1443 :
+            {
+                return SubsystemBonusCaldariDefensive;
+            }
+            case  2682 :
+            {
+                return SubsystemBonusCaldariDefensive3;
+            }
+            case  1438 :
+            {
+                return SubsystemBonusGallenteDefensive;
+            }
+            case  2684 :
+            {
+                return SubsystemBonusGallenteDefensive3;
+            }
+            case  1448 :
+            {
+                return SubsystemBonusMinmatarDefensive;
+            }
+            case  2686 :
+            {
+                return SubsystemBonusMinmatarDefensive3;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

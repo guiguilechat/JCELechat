@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -140,6 +142,96 @@ public class SpecialEditionImplant
     public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/SpecialEditionImplant.yaml";
     private static LinkedHashMap<String, SpecialEditionImplant> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  151 :
+            {
+                return AgilityBonus;
+            }
+            case  1083 :
+            {
+                return ArmorHpBonus2;
+            }
+            case  314 :
+            {
+                return CapRechargeBonus;
+            }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
+            case  424 :
+            {
+                return CpuOutputBonus2;
+            }
+            case  1076 :
+            {
+                return ImplantBonusVelocity;
+            }
+            case  1799 :
+            {
+                return ImplantSetChristmas;
+            }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
+            }
+            case  337 :
+            {
+                return ShieldCapacityBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  175 :
+            {
+                return CharismaBonus;
+            }
+            case  1916 :
+            {
+                return FollowsJumpClones;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  176 :
+            {
+                return IntelligenceBonus;
+            }
+            case  177 :
+            {
+                return MemoryBonus;
+            }
+            case  1890 :
+            {
+                return Nondestructible;
+            }
+            case  178 :
+            {
+                return PerceptionBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  179 :
+            {
+                return WillpowerBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

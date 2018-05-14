@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -280,6 +282,176 @@ public class LogisticDrone
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
     private static LinkedHashMap<String, LogisticDrone> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  84 :
+            {
+                return ArmorDamageAmount;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  580 :
+            {
+                return EntityChaseMaxDelay;
+            }
+            case  581 :
+            {
+                return EntityChaseMaxDelayChance;
+            }
+            case  665 :
+            {
+                return EntityChaseMaxDistance;
+            }
+            case  582 :
+            {
+                return EntityChaseMaxDuration;
+            }
+            case  583 :
+            {
+                return EntityChaseMaxDurationChance;
+            }
+            case  508 :
+            {
+                return EntityCruiseSpeed;
+            }
+            case  2189 :
+            {
+                return FighterAbilityAntiFighterMissileResistance;
+            }
+            case  193 :
+            {
+                return MaxAttackTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  83 :
+            {
+                return StructureDamageAmount;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

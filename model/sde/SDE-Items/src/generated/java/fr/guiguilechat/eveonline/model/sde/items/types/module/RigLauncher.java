@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -84,6 +86,64 @@ public class RigLauncher
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigLauncher.yaml";
     private static LinkedHashMap<String, RigLauncher> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  213 :
+            {
+                return MissileDamageMultiplierBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  1138 :
+            {
+                return Drawback;
+            }
+            case  557 :
+            {
+                return MaxFlightTimeBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

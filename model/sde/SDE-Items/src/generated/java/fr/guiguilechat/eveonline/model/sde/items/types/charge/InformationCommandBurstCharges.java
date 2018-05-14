@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -104,6 +105,67 @@ public class InformationCommandBurstCharges
     public int WarfareBuff4Multiplier;
     public final static String RESOURCE_PATH = "SDE/items/charge/InformationCommandBurstCharges.yaml";
     private static LinkedHashMap<String, InformationCommandBurstCharges> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  2468 :
+            {
+                return WarfareBuff1ID;
+            }
+            case  2596 :
+            {
+                return WarfareBuff1Multiplier;
+            }
+            case  2470 :
+            {
+                return WarfareBuff2ID;
+            }
+            case  2597 :
+            {
+                return WarfareBuff2Multiplier;
+            }
+            case  2472 :
+            {
+                return WarfareBuff3ID;
+            }
+            case  2598 :
+            {
+                return WarfareBuff3Multiplier;
+            }
+            case  2536 :
+            {
+                return WarfareBuff4ID;
+            }
+            case  2599 :
+            {
+                return WarfareBuff4Multiplier;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

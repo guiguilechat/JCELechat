@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -182,6 +184,120 @@ public class StructureDisruptionBattery
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
     private static LinkedHashMap<String, StructureDisruptionBattery> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

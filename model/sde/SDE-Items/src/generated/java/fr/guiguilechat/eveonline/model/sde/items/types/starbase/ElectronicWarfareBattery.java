@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -308,6 +310,192 @@ public class ElectronicWarfareBattery
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
     private static LinkedHashMap<String, ElectronicWarfareBattery> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
+            }
+            case  476 :
+            {
+                return EntityAttackDelayMax;
+            }
+            case  475 :
+            {
+                return EntityAttackDelayMin;
+            }
+            case  831 :
+            {
+                return EwTargetJam;
+            }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  1167 :
+            {
+                return PosPlayerControlStructure;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

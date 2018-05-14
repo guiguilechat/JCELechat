@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -168,6 +170,112 @@ public class CloakingDevice
     public double ScanResolutionMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/CloakingDevice.yaml";
     private static LinkedHashMap<String, CloakingDevice> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1301 :
+            {
+                return CanFitShipGroup04;
+            }
+            case  1872 :
+            {
+                return CanFitShipGroup05;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  1305 :
+            {
+                return CanFitShipType4;
+            }
+            case  1944 :
+            {
+                return CanFitShipType5;
+            }
+            case  2103 :
+            {
+                return CanFitShipType6;
+            }
+            case  2463 :
+            {
+                return CanFitShipType7;
+            }
+            case  560 :
+            {
+                return CloakingTargetingDelay;
+            }
+            case  1870 :
+            {
+                return CovertCloakCPUAdd;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  306 :
+            {
+                return MaxVelocityModifier;
+            }
+            case  565 :
+            {
+                return ScanResolutionMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

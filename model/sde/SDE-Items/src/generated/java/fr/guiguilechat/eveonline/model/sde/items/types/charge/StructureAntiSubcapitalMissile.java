@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -133,6 +135,92 @@ public class StructureAntiSubcapitalMissile
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
     private static LinkedHashMap<String, StructureAntiSubcapitalMissile> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  1353 :
+            {
+                return AoeDamageReductionFactor;
+            }
+            case  653 :
+            {
+                return AoeVelocity;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  644 :
+            {
+                return AimedLaunch;
+            }
+            case  654 :
+            {
+                return AoeCloudSize;
+            }
+            case  655 :
+            {
+                return AoeFalloff;
+            }
+            case  108 :
+            {
+                return DetonationRange;
+            }
+            case  281 :
+            {
+                return ExplosionDelay;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

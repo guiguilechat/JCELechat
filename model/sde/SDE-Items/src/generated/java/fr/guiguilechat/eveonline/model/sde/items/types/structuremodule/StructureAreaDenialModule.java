@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -228,6 +230,144 @@ public class StructureAreaDenialModule
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
     private static LinkedHashMap<String, StructureAreaDenialModule> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  2488 :
+            {
+                return CanFitShipType10;
+            }
+            case  2758 :
+            {
+                return CanFitShipType11;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  1305 :
+            {
+                return CanFitShipType4;
+            }
+            case  1944 :
+            {
+                return CanFitShipType5;
+            }
+            case  2103 :
+            {
+                return CanFitShipType6;
+            }
+            case  2463 :
+            {
+                return CanFitShipType7;
+            }
+            case  2486 :
+            {
+                return CanFitShipType8;
+            }
+            case  2487 :
+            {
+                return CanFitShipType9;
+            }
+            case  801 :
+            {
+                return DeadspaceUnsafe;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  99 :
+            {
+                return EmpFieldRange;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  978 :
+            {
+                return MaxGroupOnline;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  2581 :
+            {
+                return OnlineMaxSecurityClass;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

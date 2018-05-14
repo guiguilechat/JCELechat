@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -301,6 +303,188 @@ public class Battleship
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
     private static LinkedHashMap<String, Battleship> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  907 :
+            {
+                return HasShipMaintenanceBay;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  715 :
+            {
+                return MaxOperationalDistance;
+            }
+            case  716 :
+            {
+                return MaxOperationalUsers;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  1945 :
+            {
+                return NosOverride;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  1831 :
+            {
+                return RookieDroneBonus;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  501 :
+            {
+                return ShipBonus2CB;
+            }
+            case  491 :
+            {
+                return ShipBonusCB;
+            }
+            case  598 :
+            {
+                return ShipBonusCB3;
+            }
+            case  908 :
+            {
+                return ShipMaintenanceBayCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  492 :
+            {
+                return ShipBonusAB;
+            }
+            case  585 :
+            {
+                return ShipBonusAB2;
+            }
+            case  500 :
+            {
+                return ShipBonusGB;
+            }
+            case  561 :
+            {
+                return ShipBonusGB2;
+            }
+            case  490 :
+            {
+                return ShipBonusMB;
+            }
+            case  518 :
+            {
+                return ShipBonusMB2;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
+            case  1688 :
+            {
+                return ShipBonusRole8;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -266,6 +268,168 @@ public class LogisticsFrigate
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/LogisticsFrigate.yaml";
     private static LinkedHashMap<String, LogisticsFrigate> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  216 :
+            {
+                return CapacitorNeedMultiplier;
+            }
+            case  2093 :
+            {
+                return EliteBonusLogiFrig2;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  485 :
+            {
+                return ShipBonus2AF;
+            }
+            case  464 :
+            {
+                return ShipBonusAF;
+            }
+            case  588 :
+            {
+                return ShipBonusCF2;
+            }
+            case  462 :
+            {
+                return ShipBonusGF;
+            }
+            case  586 :
+            {
+                return ShipBonusGF2;
+            }
+            case  460 :
+            {
+                return ShipBonusMF;
+            }
+            case  587 :
+            {
+                return ShipBonusMF2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2092 :
+            {
+                return EliteBonusLogiFrig1;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  463 :
+            {
+                return ShipBonusCF;
+            }
+            case  511 :
+            {
+                return ShipScanResistance;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

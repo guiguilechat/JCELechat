@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -367,6 +369,224 @@ public class SuperWeapon
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/module/SuperWeapon.yaml";
     private static LinkedHashMap<String, SuperWeapon> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2535 :
+            {
+                return BuffDuration;
+            }
+            case  1163 :
+            {
+                return CanCloak;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  714 :
+            {
+                return ConsumptionQuantity;
+            }
+            case  713 :
+            {
+                return ConsumptionType;
+            }
+            case  1839 :
+            {
+                return DamageDelayDuration;
+            }
+            case  1245 :
+            {
+                return DisallowActivateOnWarp;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  2279 :
+            {
+                return DoomsdayAOERange;
+            }
+            case  2429 :
+            {
+                return DoomsdayAOEShape;
+            }
+            case  2265 :
+            {
+                return DoomsdayDamageCycleTime;
+            }
+            case  2264 :
+            {
+                return DoomsdayDamageDuration;
+            }
+            case  2263 :
+            {
+                return DoomsdayDamageRadius;
+            }
+            case  2260 :
+            {
+                return DoomsdayEnergyNeutAmount;
+            }
+            case  2259 :
+            {
+                return DoomsdayEnergyNeutRadius;
+            }
+            case  2609 :
+            {
+                return DoomsdayEnergyNeutResistanceID;
+            }
+            case  2261 :
+            {
+                return DoomsdayEnergyNeutSignatureRadius;
+            }
+            case  2428 :
+            {
+                return DoomsdayImmobilityDuration;
+            }
+            case  2427 :
+            {
+                return DoomsdayNoJumpOrCloakDuration;
+            }
+            case  2430 :
+            {
+                return DoomsdayRangeIsFixed;
+            }
+            case  2262 :
+            {
+                return DoomsdayWarningDuration;
+            }
+            case  1579 :
+            {
+                return EffectDeactivationDelay;
+            }
+            case  2269 :
+            {
+                return IsPointTargeted;
+            }
+            case  1221 :
+            {
+                return JumpDelayDuration;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  2431 :
+            {
+                return MaxTypeFitted;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  852 :
+            {
+                return SiegeModeWarpStatus;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

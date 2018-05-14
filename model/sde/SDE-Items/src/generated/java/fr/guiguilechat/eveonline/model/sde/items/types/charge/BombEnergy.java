@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -182,6 +184,120 @@ public class BombEnergy
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/BombEnergy.yaml";
     private static LinkedHashMap<String, BombEnergy> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  644 :
+            {
+                return AimedLaunch;
+            }
+            case  654 :
+            {
+                return AoeCloudSize;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  108 :
+            {
+                return DetonationRange;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  99 :
+            {
+                return EmpFieldRange;
+            }
+            case  97 :
+            {
+                return EnergyNeutralizerAmount;
+            }
+            case  281 :
+            {
+                return ExplosionDelay;
+            }
+            case  107 :
+            {
+                return ExplosionRange;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

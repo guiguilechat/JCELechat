@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -238,6 +240,152 @@ public class CynosuralField
     public double SpeedFactor;
     public final static String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
     private static LinkedHashMap<String, CynosuralField> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1163 :
+            {
+                return CanCloak;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1301 :
+            {
+                return CanFitShipGroup04;
+            }
+            case  1872 :
+            {
+                return CanFitShipGroup05;
+            }
+            case  1879 :
+            {
+                return CanFitShipGroup06;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  714 :
+            {
+                return ConsumptionQuantity;
+            }
+            case  713 :
+            {
+                return ConsumptionType;
+            }
+            case  1870 :
+            {
+                return CovertCloakCPUAdd;
+            }
+            case  2455 :
+            {
+                return CynosuralFieldSpawnRadius;
+            }
+            case  801 :
+            {
+                return DeadspaceUnsafe;
+            }
+            case  1245 :
+            {
+                return DisallowActivateOnWarp;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  1252 :
+            {
+                return IsCovert;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1334 :
+            {
+                return MaxVelocityActivationLimit;
+            }
+            case  1333 :
+            {
+                return MaxVelocityLimited;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  852 :
+            {
+                return SiegeModeWarpStatus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

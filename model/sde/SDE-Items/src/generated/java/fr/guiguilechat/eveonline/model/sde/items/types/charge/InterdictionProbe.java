@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -105,6 +107,76 @@ public class InterdictionProbe
     public int WarpScrambleRange;
     public final static String RESOURCE_PATH = "SDE/items/charge/InterdictionProbe.yaml";
     private static LinkedHashMap<String, InterdictionProbe> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  281 :
+            {
+                return ExplosionDelay;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  103 :
+            {
+                return WarpScrambleRange;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

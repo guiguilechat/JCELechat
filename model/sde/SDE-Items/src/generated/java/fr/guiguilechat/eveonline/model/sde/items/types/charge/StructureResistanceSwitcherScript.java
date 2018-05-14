@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -105,6 +107,76 @@ public class StructureResistanceSwitcherScript
     public double ThermalDamageResonancePostAssignment;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureResistanceSwitcherScript.yaml";
     private static LinkedHashMap<String, StructureResistanceSwitcherScript> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2079 :
+            {
+                return ArmorEmDamageResonancePostAssignment;
+            }
+            case  2080 :
+            {
+                return ArmorExplosiveDamageResonancePostAssignment;
+            }
+            case  2081 :
+            {
+                return ArmorKineticDamageResonancePostAssignment;
+            }
+            case  2082 :
+            {
+                return ArmorThermalDamageResonancePostAssignment;
+            }
+            case  2087 :
+            {
+                return EmDamageResonancePostAssignment;
+            }
+            case  2088 :
+            {
+                return ExplosiveDamageResonancePostAssignment;
+            }
+            case  2090 :
+            {
+                return KineticDamageResonancePostAssignment;
+            }
+            case  2083 :
+            {
+                return ShieldEmDamageResonancePostAssignment;
+            }
+            case  2084 :
+            {
+                return ShieldExplosiveDamageResonancePostAssignment;
+            }
+            case  2085 :
+            {
+                return ShieldKineticDamageResonancePostAssignment;
+            }
+            case  2086 :
+            {
+                return ShieldThermalDamageResonancePostAssignment;
+            }
+            case  2089 :
+            {
+                return ThermalDamageResonancePostAssignment;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

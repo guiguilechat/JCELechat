@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -371,6 +373,228 @@ public class Cruiser
     public int WarpBubbleImmune;
     public final static String RESOURCE_PATH = "SDE/items/ship/Cruiser.yaml";
     private static LinkedHashMap<String, Cruiser> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1034 :
+            {
+                return CovertOpsAndReconOpsCloakModuleDelay;
+            }
+            case  872 :
+            {
+                return DisallowOffensiveModifiers;
+            }
+            case  1219 :
+            {
+                return DroneArmorDamageAmountBonus;
+            }
+            case  1220 :
+            {
+                return DroneShieldBonusBonus;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  769 :
+            {
+                return MaxRangeBonus2;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  1945 :
+            {
+                return NosOverride;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
+            }
+            case  1535 :
+            {
+                return ShipBonusCC3;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
+            case  1538 :
+            {
+                return WarpBubbleImmune;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1840 :
+            {
+                return EnergyTransferAmountBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
+            case  656 :
+            {
+                return ShipBonusAC2;
+            }
+            case  657 :
+            {
+                return ShipBonusCC2;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  658 :
+            {
+                return ShipBonusGC2;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
+            }
+            case  659 :
+            {
+                return ShipBonusMC2;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
+            case  1688 :
+            {
+                return ShipBonusRole8;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -244,6 +245,147 @@ public class MilitaryUpgrades
     public int SovUpgradeRequiredUpgradeID;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/MilitaryUpgrades.yaml";
     private static LinkedHashMap<String, MilitaryUpgrades> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1583 :
+            {
+                return DevIndexMilitary;
+            }
+            case  1755 :
+            {
+                return DistributionID01;
+            }
+            case  1695 :
+            {
+                return DistributionIDAngel01;
+            }
+            case  1696 :
+            {
+                return DistributionIDAngel02;
+            }
+            case  1697 :
+            {
+                return DistributionIDAngel03;
+            }
+            case  1698 :
+            {
+                return DistributionIDAngel04;
+            }
+            case  1699 :
+            {
+                return DistributionIDAngel05;
+            }
+            case  1705 :
+            {
+                return DistributionIDBlood01;
+            }
+            case  1706 :
+            {
+                return DistributionIDBlood02;
+            }
+            case  1707 :
+            {
+                return DistributionIDBlood03;
+            }
+            case  1708 :
+            {
+                return DistributionIDBlood04;
+            }
+            case  1709 :
+            {
+                return DistributionIDBlood05;
+            }
+            case  1715 :
+            {
+                return DistributionIDGurista01;
+            }
+            case  1716 :
+            {
+                return DistributionIDGurista02;
+            }
+            case  1717 :
+            {
+                return DistributionIDGurista03;
+            }
+            case  1718 :
+            {
+                return DistributionIDGurista04;
+            }
+            case  1719 :
+            {
+                return DistributionIDGurista05;
+            }
+            case  1725 :
+            {
+                return DistributionIDRogueDrone01;
+            }
+            case  1726 :
+            {
+                return DistributionIDRogueDrone02;
+            }
+            case  1727 :
+            {
+                return DistributionIDRogueDrone03;
+            }
+            case  1728 :
+            {
+                return DistributionIDRogueDrone04;
+            }
+            case  1729 :
+            {
+                return DistributionIDRogueDrone05;
+            }
+            case  1735 :
+            {
+                return DistributionIDSansha01;
+            }
+            case  1736 :
+            {
+                return DistributionIDSansha02;
+            }
+            case  1737 :
+            {
+                return DistributionIDSansha03;
+            }
+            case  1738 :
+            {
+                return DistributionIDSansha04;
+            }
+            case  1739 :
+            {
+                return DistributionIDSansha05;
+            }
+            case  1745 :
+            {
+                return DistributionIDSerpentis01;
+            }
+            case  1746 :
+            {
+                return DistributionIDSerpentis02;
+            }
+            case  1747 :
+            {
+                return DistributionIDSerpentis03;
+            }
+            case  1748 :
+            {
+                return DistributionIDSerpentis04;
+            }
+            case  1749 :
+            {
+                return DistributionIDSerpentis05;
+            }
+            case  1599 :
+            {
+                return SovUpgradeRequiredUpgradeID;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

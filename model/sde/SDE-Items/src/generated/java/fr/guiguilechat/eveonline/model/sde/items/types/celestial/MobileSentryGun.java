@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -252,6 +254,160 @@ public class MobileSentryGun
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/celestial/MobileSentryGun.yaml";
     private static LinkedHashMap<String, MobileSentryGun> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  64 :
+            {
+                return DamageMultiplier;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  55 :
+            {
+                return RechargeRate;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  245 :
+            {
+                return GfxTurretID;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  193 :
+            {
+                return MaxAttackTargets;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

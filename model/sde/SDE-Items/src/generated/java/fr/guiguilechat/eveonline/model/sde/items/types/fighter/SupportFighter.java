@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -189,6 +191,124 @@ public class SupportFighter
     public int FighterSquadronIsSupport;
     public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
     private static LinkedHashMap<String, SupportFighter> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2220 :
+            {
+                return FighterAbilityECMDuration;
+            }
+            case  2222 :
+            {
+                return FighterAbilityECMRangeFalloff;
+            }
+            case  2221 :
+            {
+                return FighterAbilityECMRangeOptimal;
+            }
+            case  2251 :
+            {
+                return FighterAbilityECMTargetJam;
+            }
+            case  2250 :
+            {
+                return FighterAbilityECMTargetSuccess;
+            }
+            case  2211 :
+            {
+                return FighterAbilityEnergyNeutralizerAmount;
+            }
+            case  2208 :
+            {
+                return FighterAbilityEnergyNeutralizerDuration;
+            }
+            case  2210 :
+            {
+                return FighterAbilityEnergyNeutralizerFalloffRange;
+            }
+            case  2209 :
+            {
+                return FighterAbilityEnergyNeutralizerOptimalRange;
+            }
+            case  2183 :
+            {
+                return FighterAbilityStasisWebifierDuration;
+            }
+            case  2187 :
+            {
+                return FighterAbilityStasisWebifierFalloffRange;
+            }
+            case  2186 :
+            {
+                return FighterAbilityStasisWebifierOptimalRange;
+            }
+            case  2188 :
+            {
+                return FighterAbilityStasisWebifierResistanceID;
+            }
+            case  2184 :
+            {
+                return FighterAbilityStasisWebifierSpeedPenalty;
+            }
+            case  2185 :
+            {
+                return FighterAbilityStasisWebifierSpeedPenaltyInterim;
+            }
+            case  2203 :
+            {
+                return FighterAbilityWarpDisruptionDuration;
+            }
+            case  2205 :
+            {
+                return FighterAbilityWarpDisruptionPointStrength;
+            }
+            case  2206 :
+            {
+                return FighterAbilityWarpDisruptionPointStrengthInterim;
+            }
+            case  2204 :
+            {
+                return FighterAbilityWarpDisruptionRange;
+            }
+            case  2741 :
+            {
+                return FighterSquadronIsStandupSupport;
+            }
+            case  2213 :
+            {
+                return FighterSquadronIsSupport;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2246 :
+            {
+                return FighterAbilityECMStrengthGravimetric;
+            }
+            case  2247 :
+            {
+                return FighterAbilityECMStrengthLadar;
+            }
+            case  2248 :
+            {
+                return FighterAbilityECMStrengthMagnetometric;
+            }
+            case  2249 :
+            {
+                return FighterAbilityECMStrengthRadar;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

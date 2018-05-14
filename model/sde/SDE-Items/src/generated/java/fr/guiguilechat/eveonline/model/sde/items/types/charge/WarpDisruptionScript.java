@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -97,6 +98,63 @@ public class WarpDisruptionScript
     public int WarpScrambleRangeBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/WarpDisruptionScript.yaml";
     private static LinkedHashMap<String, WarpDisruptionScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  1319 :
+            {
+                return CapacitorNeedHidden;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  1324 :
+            {
+                return MassBonusPercentageBonus;
+            }
+            case  1317 :
+            {
+                return MaxRangeHidden;
+            }
+            case  1227 :
+            {
+                return SignatureRadiusBonusBonus;
+            }
+            case  1325 :
+            {
+                return SpeedBoostFactorBonusBonus;
+            }
+            case  1326 :
+            {
+                return SpeedFactorBonusBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1327 :
+            {
+                return WarpScrambleRangeBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

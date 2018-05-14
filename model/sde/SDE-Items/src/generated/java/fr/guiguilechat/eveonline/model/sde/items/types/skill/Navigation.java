@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -154,6 +156,104 @@ public class Navigation
     public int WarpCapacitorNeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
     private static LinkedHashMap<String, Navigation> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  151 :
+            {
+                return AgilityBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            case  315 :
+            {
+                return VelocityBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  1775 :
+            {
+                return ConsumptionQuantityBonusPercent;
+            }
+            case  1296 :
+            {
+                return ConsumptionQuantityBonusPercentage;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  899 :
+            {
+                return JumpDriveCapacitorNeedBonus;
+            }
+            case  870 :
+            {
+                return JumpDriveRangeBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            case  318 :
+            {
+                return SpeedFBonus;
+            }
+            case  319 :
+            {
+                return WarpCapacitorNeedBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

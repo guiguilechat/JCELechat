@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -427,6 +429,260 @@ public class BlackOps
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/BlackOps.yaml";
     private static LinkedHashMap<String, BlackOps> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  861 :
+            {
+                return CanJump;
+            }
+            case  2620 :
+            {
+                return ConcordRoleBonusSecGain;
+            }
+            case  2622 :
+            {
+                return ConcordTankBonus;
+            }
+            case  1034 :
+            {
+                return CovertOpsAndReconOpsCloakModuleDelay;
+            }
+            case  1035 :
+            {
+                return CovertOpsStealthBomberTargettingDelay;
+            }
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  2627 :
+            {
+                return EliteBonusBlackOps3;
+            }
+            case  2628 :
+            {
+                return EliteBonusBlackOps4;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  2621 :
+            {
+                return InverseCappedSecStatus;
+            }
+            case  868 :
+            {
+                return JumpDriveConsumptionAmount;
+            }
+            case  866 :
+            {
+                return JumpDriveConsumptionType;
+            }
+            case  869 :
+            {
+                return JumpDriveDuration;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  2610 :
+            {
+                return PilotSecurityStatus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
+            }
+            case  1289 :
+            {
+                return RequiredSkill5;
+            }
+            case  1287 :
+            {
+                return RequiredSkill5Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  501 :
+            {
+                return ShipBonus2CB;
+            }
+            case  491 :
+            {
+                return ShipBonusCB;
+            }
+            case  598 :
+            {
+                return ShipBonusCB3;
+            }
+            case  1549 :
+            {
+                return SpecialFuelBayCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1257 :
+            {
+                return EliteBonusBlackOps1;
+            }
+            case  1258 :
+            {
+                return EliteBonusBlackOps2;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
+            }
+            case  867 :
+            {
+                return JumpDriveRange;
+            }
+            case  1971 :
+            {
+                return JumpFatigueMultiplier;
+            }
+            case  1001 :
+            {
+                return JumpPortalConsumptionMassFactor;
+            }
+            case  1972 :
+            {
+                return JumpThroughFatigueMultiplier;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  492 :
+            {
+                return ShipBonusAB;
+            }
+            case  585 :
+            {
+                return ShipBonusAB2;
+            }
+            case  500 :
+            {
+                return ShipBonusGB;
+            }
+            case  561 :
+            {
+                return ShipBonusGB2;
+            }
+            case  490 :
+            {
+                return ShipBonusMB;
+            }
+            case  518 :
+            {
+                return ShipBonusMB2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

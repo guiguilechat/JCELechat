@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -89,6 +91,64 @@ public class Crokite
     public double StasisWebifierResistance;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Crokite.yaml";
     private static LinkedHashMap<String, Crokite> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2727 :
+            {
+                return AsteroidMaxRadius;
+            }
+            case  2699 :
+            {
+                return AsteroidMetaLevel;
+            }
+            case  1981 :
+            {
+                return AsteroidRadiusUnitSize;
+            }
+            case  1941 :
+            {
+                return CompressionQuantityNeeded;
+            }
+            case  1940 :
+            {
+                return CompressionTypeID;
+            }
+            case  2711 :
+            {
+                return OreBasicType;
+            }
+            case  790 :
+            {
+                return ReprocessingSkillType;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1980 :
+            {
+                return AsteroidRadiusGrowthFactor;
+            }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -546,6 +548,328 @@ public class SiegeModule
     public double WeaponDisruptionResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
     private static LinkedHashMap<String, SiegeModule> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2253 :
+            {
+                return ECMResistance;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1255 :
+            {
+                return DroneDamageBonus;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  2342 :
+            {
+                return RemoteRepairImpedanceBonus;
+            }
+            case  565 :
+            {
+                return ScanResolutionMultiplier;
+            }
+            case  548 :
+            {
+                return ShieldBoostMultiplier;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  2353 :
+            {
+                return WeaponDisruptionResistanceBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1350 :
+            {
+                return ActivationBlockedStrenght;
+            }
+            case  895 :
+            {
+                return ArmorDamageAmountBonus;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1238 :
+            {
+                return CommandBonusEffectiveAdd;
+            }
+            case  714 :
+            {
+                return ConsumptionQuantity;
+            }
+            case  713 :
+            {
+                return ConsumptionType;
+            }
+            case  1934 :
+            {
+                return DeactivateIfOffensive;
+            }
+            case  1245 :
+            {
+                return DisallowActivateOnWarp;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  872 :
+            {
+                return DisallowOffensiveModifiers;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  1190 :
+            {
+                return EwCapacitorNeedBonus;
+            }
+            case  2588 :
+            {
+                return IndustrialCoreBonusCommandBurstRange;
+            }
+            case  2583 :
+            {
+                return IndustrialCoreBonusDroneDamageHP;
+            }
+            case  2586 :
+            {
+                return IndustrialCoreBonusDroneIceHarvesting;
+            }
+            case  2585 :
+            {
+                return IndustrialCoreBonusDroneMining;
+            }
+            case  2584 :
+            {
+                return IndustrialCoreBonusDroneVelocity;
+            }
+            case  2587 :
+            {
+                return IndustrialCoreBonusMiningBurstStrength;
+            }
+            case  2607 :
+            {
+                return IndustrialCoreLocalLogisticsAmountBonus;
+            }
+            case  2606 :
+            {
+                return IndustrialCoreLocalLogisticsDurationBonus;
+            }
+            case  2605 :
+            {
+                return IndustrialCoreRemoteLogisticsDurationBonus;
+            }
+            case  2604 :
+            {
+                return IndustrialCoreRemoteLogisticsRangeBonus;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  235 :
+            {
+                return MaxLockedTargetsBonus;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2352 :
+            {
+                return RemoteAssistanceImpedanceBonus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
+            }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
+            case  2351 :
+            {
+                return SensorDampenerResistanceBonus;
+            }
+            case  2305 :
+            {
+                return SiegeLauncherROFBonus;
+            }
+            case  2347 :
+            {
+                return SiegeLocalLogisticsAmountBonus;
+            }
+            case  2346 :
+            {
+                return SiegeLocalLogisticsDurationBonus;
+            }
+            case  1471 :
+            {
+                return SiegeMassMultiplier;
+            }
+            case  2306 :
+            {
+                return SiegeMissileDamageBonus;
+            }
+            case  852 :
+            {
+                return SiegeModeWarpStatus;
+            }
+            case  2345 :
+            {
+                return SiegeRemoteLogisticsAmountBonus;
+            }
+            case  2344 :
+            {
+                return SiegeRemoteLogisticsDurationBonus;
+            }
+            case  2348 :
+            {
+                return SiegeRemoteLogisticsRangeBonus;
+            }
+            case  2304 :
+            {
+                return SiegeTorpedoVelocityBonus;
+            }
+            case  2307 :
+            {
+                return SiegeTurretDamageBonus;
+            }
+            case  80 :
+            {
+                return SpeedBonus;
+            }
+            case  2424 :
+            {
+                return TargetPainterResistanceBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

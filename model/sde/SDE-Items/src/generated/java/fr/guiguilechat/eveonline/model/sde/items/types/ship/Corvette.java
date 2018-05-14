@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -357,6 +359,220 @@ public class Corvette
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/Corvette.yaml";
     private static LinkedHashMap<String, Corvette> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  1857 :
+            {
+                return RookieSETTracking;
+            }
+            case  1865 :
+            {
+                return RookieSHTTracking;
+            }
+            case  1868 :
+            {
+                return RookieSPTFalloff;
+            }
+            case  1869 :
+            {
+                return RookieSPTOptimal;
+            }
+            case  1867 :
+            {
+                return RookieSPTTracking;
+            }
+            case  1837 :
+            {
+                return RookieShieldBoostBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  1833 :
+            {
+                return RookieArmorRepBonus;
+            }
+            case  1825 :
+            {
+                return RookieArmorResistanceBonus;
+            }
+            case  1832 :
+            {
+                return RookieDampStrengthBonus;
+            }
+            case  1831 :
+            {
+                return RookieDroneBonus;
+            }
+            case  1864 :
+            {
+                return RookieDroneMWDspeed;
+            }
+            case  1828 :
+            {
+                return RookieECMStrengthBonus;
+            }
+            case  1862 :
+            {
+                return RookieLightMissileVelocity;
+            }
+            case  1827 :
+            {
+                return RookieMissileKinDamageBonus;
+            }
+            case  1860 :
+            {
+                return RookieNeutDrain;
+            }
+            case  1859 :
+            {
+                return RookieNosDrain;
+            }
+            case  1863 :
+            {
+                return RookieRocketVelocity;
+            }
+            case  1822 :
+            {
+                return RookieSETCapBonus;
+            }
+            case  1823 :
+            {
+                return RookieSETDamageBonus;
+            }
+            case  1858 :
+            {
+                return RookieSETOptimal;
+            }
+            case  1830 :
+            {
+                return RookieSHTDamageBonus;
+            }
+            case  1866 :
+            {
+                return RookieSHTFalloff;
+            }
+            case  1826 :
+            {
+                return RookieSHTOptimalBonus;
+            }
+            case  1836 :
+            {
+                return RookieSPTDamageBonus;
+            }
+            case  1829 :
+            {
+                return RookieShieldResistBonus;
+            }
+            case  1835 :
+            {
+                return RookieShipVelocityBonus;
+            }
+            case  1834 :
+            {
+                return RookieTargetPainterStrengthBonus;
+            }
+            case  1824 :
+            {
+                return RookieWeaponDisruptionBonus;
+            }
+            case  1861 :
+            {
+                return RookieWebAmount;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  511 :
+            {
+                return ShipScanResistance;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

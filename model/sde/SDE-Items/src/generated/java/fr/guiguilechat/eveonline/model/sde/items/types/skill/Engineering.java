@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -161,6 +163,108 @@ public class Engineering
     public int ThermodynamicsHeatDamage;
     public final static String RESOURCE_PATH = "SDE/items/skill/Engineering.yaml";
     private static LinkedHashMap<String, Engineering> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  1295 :
+            {
+                return ModuleRepairRateBonus;
+            }
+            case  323 :
+            {
+                return PowerNeedBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            case  1294 :
+            {
+                return ShipBrokenRepairCostMultiplierBonus;
+            }
+            case  1229 :
+            {
+                return ThermodynamicsHeatDamage;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  314 :
+            {
+                return CapRechargeBonus;
+            }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
+            case  424 :
+            {
+                return CpuOutputBonus2;
+            }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

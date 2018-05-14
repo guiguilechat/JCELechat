@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -322,6 +324,200 @@ public class UnpublishedStructureModules
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/UnpublishedStructureModules.yaml";
     private static LinkedHashMap<String, UnpublishedStructureModules> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  833 :
+            {
+                return CommandBonus;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1255 :
+            {
+                return DroneDamageBonus;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  84 :
+            {
+                return ArmorDamageAmount;
+            }
+            case  2071 :
+            {
+                return BumpingStrength;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  459 :
+            {
+                return DroneRangeBonus;
+            }
+            case  158 :
+            {
+                return Falloff;
+            }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  1045 :
+            {
+                return MaxTractorVelocity;
+            }
+            case  2431 :
+            {
+                return MaxTypeFitted;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  90 :
+            {
+                return PowerTransferAmount;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
+            }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
+            case  2109 :
+            {
+                return ServiceModuleFuelAmount;
+            }
+            case  2108 :
+            {
+                return ServiceModuleFuelConsumptionGroup;
+            }
+            case  2110 :
+            {
+                return ServiceModuleFuelOnlineAmount;
+            }
+            case  87 :
+            {
+                return ShieldTransferRange;
+            }
+            case  83 :
+            {
+                return StructureDamageAmount;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

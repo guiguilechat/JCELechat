@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -119,6 +121,84 @@ public class Missiles
     public double SpeedFactor;
     public final static String RESOURCE_PATH = "SDE/items/skill/Missiles.yaml";
     private static LinkedHashMap<String, Missiles> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  557 :
+            {
+                return MaxFlightTimeBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  293 :
+            {
+                return RofBonus;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

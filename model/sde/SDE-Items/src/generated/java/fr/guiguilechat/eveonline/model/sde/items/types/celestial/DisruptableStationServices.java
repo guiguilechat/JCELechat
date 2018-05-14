@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -27,6 +28,23 @@ public class DisruptableStationServices
     public int SignatureRadius;
     public final static String RESOURCE_PATH = "SDE/items/celestial/DisruptableStationServices.yaml";
     private static LinkedHashMap<String, DisruptableStationServices> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  589 :
+            {
+                return IsPlayerOwnable;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

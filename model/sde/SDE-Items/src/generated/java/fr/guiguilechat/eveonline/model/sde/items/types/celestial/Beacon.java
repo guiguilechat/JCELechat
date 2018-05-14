@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -98,6 +100,72 @@ public class Beacon
     public int Untargetable;
     public final static String RESOURCE_PATH = "SDE/items/celestial/Beacon.yaml";
     private static LinkedHashMap<String, Beacon> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  281 :
+            {
+                return ExplosionDelay;
+            }
+            case  107 :
+            {
+                return ExplosionRange;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1158 :
+            {
+                return Untargetable;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

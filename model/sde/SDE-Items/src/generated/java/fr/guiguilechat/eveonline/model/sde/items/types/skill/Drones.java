@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -175,6 +177,116 @@ public class Drones
     public double SkillTimeConstant;
     public final static String RESOURCE_PATH = "SDE/items/skill/Drones.yaml";
     private static LinkedHashMap<String, Drones> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  902 :
+            {
+                return AccessDifficultyBonus;
+            }
+            case  335 :
+            {
+                return ArmorHpBonus;
+            }
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  39 :
+            {
+                return DamageHP;
+            }
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  459 :
+            {
+                return DroneRangeBonus;
+            }
+            case  353 :
+            {
+                return MaxActiveDroneBonus;
+            }
+            case  2603 :
+            {
+                return MaxVelocityBonus;
+            }
+            case  434 :
+            {
+                return MiningAmountBonus;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  829 :
+            {
+                return PropulsionSkillPropulsionStrengthBonus;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  293 :
+            {
+                return RofBonus;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            case  2340 :
+            {
+                return SkillBonusFighterHangarSize;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  327 :
+            {
+                return HullHpBonus;
+            }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
+            case  337 :
+            {
+                return ShieldCapacityBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -76,6 +77,51 @@ public class CyberScanning
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
     private static LinkedHashMap<String, CyberScanning> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  902 :
+            {
+                return AccessDifficultyBonus;
+            }
+            case  1160 :
+            {
+                return AccessDifficultyBonusModifier;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  1156 :
+            {
+                return MaxScanDeviationModifier;
+            }
+            case  846 :
+            {
+                return ScanStrengthBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1915 :
+            {
+                return VirusCoherenceBonus;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

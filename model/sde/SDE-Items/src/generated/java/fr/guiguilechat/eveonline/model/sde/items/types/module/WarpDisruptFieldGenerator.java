@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -203,6 +205,132 @@ public class WarpDisruptFieldGenerator
     public int WarpScrambleStrength;
     public final static String RESOURCE_PATH = "SDE/items/module/WarpDisruptFieldGenerator.yaml";
     private static LinkedHashMap<String, WarpDisruptFieldGenerator> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1350 :
+            {
+                return ActivationBlockedStrenght;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  854 :
+            {
+                return DisallowAssistance;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1131 :
+            {
+                return MassBonusPercentage;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1212 :
+            {
+                return RequiredThermoDynamicsSkill;
+            }
+            case  1270 :
+            {
+                return SpeedBoostFactorBonus;
+            }
+            case  1164 :
+            {
+                return SpeedFactorBonus;
+            }
+            case  103 :
+            {
+                return WarpScrambleRange;
+            }
+            case  105 :
+            {
+                return WarpScrambleStrength;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
+            }
+            case  1076 :
+            {
+                return ImplantBonusVelocity;
+            }
+            case  1470 :
+            {
+                return MaxVelocityMultiplier;
+            }
+            case  1206 :
+            {
+                return OverloadSelfDurationBonus;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

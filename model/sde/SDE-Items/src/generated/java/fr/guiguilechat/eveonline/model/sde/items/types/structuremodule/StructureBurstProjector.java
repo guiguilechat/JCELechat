@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -427,6 +429,256 @@ public class StructureBurstProjector
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
     private static LinkedHashMap<String, StructureBurstProjector> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  2488 :
+            {
+                return CanFitShipType10;
+            }
+            case  2758 :
+            {
+                return CanFitShipType11;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  1305 :
+            {
+                return CanFitShipType4;
+            }
+            case  1944 :
+            {
+                return CanFitShipType5;
+            }
+            case  2103 :
+            {
+                return CanFitShipType6;
+            }
+            case  2463 :
+            {
+                return CanFitShipType7;
+            }
+            case  2486 :
+            {
+                return CanFitShipType8;
+            }
+            case  2487 :
+            {
+                return CanFitShipType9;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  2280 :
+            {
+                return DoomsdayAOEDuration;
+            }
+            case  2279 :
+            {
+                return DoomsdayAOERange;
+            }
+            case  2429 :
+            {
+                return DoomsdayAOEShape;
+            }
+            case  2281 :
+            {
+                return DoomsdayAOESignatureRadius;
+            }
+            case  2430 :
+            {
+                return DoomsdayRangeIsFixed;
+            }
+            case  2262 :
+            {
+                return DoomsdayWarningDuration;
+            }
+            case  2398 :
+            {
+                return DurationECMJammerBurstProjector;
+            }
+            case  2399 :
+            {
+                return DurationSensorDampeningBurstProjector;
+            }
+            case  2400 :
+            {
+                return DurationTargetIlluminationBurstProjector;
+            }
+            case  2745 :
+            {
+                return DurationTargetWarpableBeacon;
+            }
+            case  2397 :
+            {
+                return DurationWeaponDisruptionBurstProjector;
+            }
+            case  97 :
+            {
+                return EnergyNeutralizerAmount;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  2269 :
+            {
+                return IsPointTargeted;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  2431 :
+            {
+                return MaxTypeFitted;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  2581 :
+            {
+                return OnlineMaxSecurityClass;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

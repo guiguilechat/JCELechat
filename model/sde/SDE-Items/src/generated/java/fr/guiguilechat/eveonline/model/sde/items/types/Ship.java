@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -448,6 +450,248 @@ public abstract class Ship
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  1179 :
+            {
+                return HeatDissipationRateHi;
+            }
+            case  1198 :
+            {
+                return HeatDissipationRateLow;
+            }
+            case  1196 :
+            {
+                return HeatDissipationRateMed;
+            }
+            case  1224 :
+            {
+                return HeatGenerationMultiplier;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  55 :
+            {
+                return RechargeRate;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            case  153 :
+            {
+                return WarpCapacitorNeed;
+            }
+            case  600 :
+            {
+                return WarpSpeedMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  1281 :
+            {
+                return BaseWarpSpeed;
+            }
+            case  49 :
+            {
+                return CpuLoad;
+            }
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  3 :
+            {
+                return Damage;
+            }
+            case  1271 :
+            {
+                return DroneBandwidth;
+            }
+            case  283 :
+            {
+                return DroneCapacity;
+            }
+            case  246 :
+            {
+                return GfxBoosterID;
+            }
+            case  1178 :
+            {
+                return HeatCapacityHi;
+            }
+            case  1200 :
+            {
+                return HeatCapacityLow;
+            }
+            case  1199 :
+            {
+                return HeatCapacityMed;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  101 :
+            {
+                return LauncherSlotsLeft;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  15 :
+            {
+                return PowerLoad;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  19 :
+            {
+                return PowerToSpeed;
+            }
+            case  217 :
+            {
+                return PropulsionGraphicID;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  102 :
+            {
+                return TurretSlotsLeft;
+            }
+            case  21 :
+            {
+                return WarpFactor;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

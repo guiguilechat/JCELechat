@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -336,6 +338,208 @@ public class JumpFreighter
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/JumpFreighter.yaml";
     private static LinkedHashMap<String, JumpFreighter> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  853 :
+            {
+                return AdvancedAgility;
+            }
+            case  861 :
+            {
+                return CanJump;
+            }
+            case  849 :
+            {
+                return CanUseCargoInSpace;
+            }
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  1311 :
+            {
+                return EliteBonusJumpFreighter1;
+            }
+            case  1312 :
+            {
+                return EliteBonusJumpFreighter2;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  886 :
+            {
+                return FreighterBonusA1;
+            }
+            case  887 :
+            {
+                return FreighterBonusA2;
+            }
+            case  888 :
+            {
+                return FreighterBonusC1;
+            }
+            case  889 :
+            {
+                return FreighterBonusC2;
+            }
+            case  891 :
+            {
+                return FreighterBonusG1;
+            }
+            case  890 :
+            {
+                return FreighterBonusG2;
+            }
+            case  892 :
+            {
+                return FreighterBonusM1;
+            }
+            case  893 :
+            {
+                return FreighterBonusM2;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  1785 :
+            {
+                return IsCapitalSize;
+            }
+            case  868 :
+            {
+                return JumpDriveConsumptionAmount;
+            }
+            case  866 :
+            {
+                return JumpDriveConsumptionType;
+            }
+            case  869 :
+            {
+                return JumpDriveDuration;
+            }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  1549 :
+            {
+                return SpecialFuelBayCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
+            }
+            case  867 :
+            {
+                return JumpDriveRange;
+            }
+            case  1971 :
+            {
+                return JumpFatigueMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

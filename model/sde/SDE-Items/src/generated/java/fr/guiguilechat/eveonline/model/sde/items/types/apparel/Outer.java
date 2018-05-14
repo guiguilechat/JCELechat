@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -48,6 +49,35 @@ public class Outer
     public int ClothingRuleException;
     public final static String RESOURCE_PATH = "SDE/items/apparel/Outer.yaml";
     private static LinkedHashMap<String, Outer> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1797 :
+            {
+                return ClothingAlsoCoversCategory;
+            }
+            case  2058 :
+            {
+                return ClothingAlsoCoversCategory2;
+            }
+            case  1956 :
+            {
+                return ClothingRemovesCategory;
+            }
+            case  2063 :
+            {
+                return ClothingRemovesCategory2;
+            }
+            case  1957 :
+            {
+                return ClothingRuleException;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

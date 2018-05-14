@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -280,6 +282,176 @@ public class DeepSpaceTransport
     public int WarpScrambleStatus;
     public final static String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
     private static LinkedHashMap<String, DeepSpaceTransport> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2464 :
+            {
+                return AffectedByIndustrialInvulnModule;
+            }
+            case  1891 :
+            {
+                return AllowedInCapIndustrialMaintenanceBay;
+            }
+            case  807 :
+            {
+                return EliteBonusIndustrial1;
+            }
+            case  808 :
+            {
+                return EliteBonusIndustrial2;
+            }
+            case  912 :
+            {
+                return FleetHangarCapacity;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  911 :
+            {
+                return HasFleetHangars;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  2580 :
+            {
+                return IndustrialBonusDroneDamage;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  1949 :
+            {
+                return RoleBonusOverheatDST;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  494 :
+            {
+                return ShipBonusAI;
+            }
+            case  495 :
+            {
+                return ShipBonusCI;
+            }
+            case  496 :
+            {
+                return ShipBonusGI;
+            }
+            case  493 :
+            {
+                return ShipBonusMI;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  104 :
+            {
+                return WarpScrambleStatus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  1971 :
+            {
+                return JumpFatigueMultiplier;
+            }
+            case  809 :
+            {
+                return ShipBonusAI2;
+            }
+            case  811 :
+            {
+                return ShipBonusCI2;
+            }
+            case  813 :
+            {
+                return ShipBonusGI2;
+            }
+            case  814 :
+            {
+                return ShipBonusMI2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

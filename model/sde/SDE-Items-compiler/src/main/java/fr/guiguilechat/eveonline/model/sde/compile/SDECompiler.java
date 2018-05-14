@@ -34,6 +34,7 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JNarrowedClass;
 import com.helger.jcodemodel.JOp;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
@@ -73,6 +74,10 @@ public class SDECompiler {
 
 	protected JPackage itemPackage() {
 		return rootPackage().subPackage("types");
+	}
+
+	protected JPackage attributesPackage() {
+		return rootPackage().subPackage("attributes");
 	}
 
 	// following allow parallel pre-caching
@@ -127,6 +132,9 @@ public class SDECompiler {
 		public HashMap<JDefinedClass, Set<JDefinedClass>> cat2Groups = new HashMap<>();
 	}
 
+	JDefinedClass attributeClass;
+	JDefinedClass doubleAttribute, intAttribute;
+
 	public CompiledClassesData compile() {
 		long startTime = System.currentTimeMillis();
 		load();
@@ -134,11 +142,28 @@ public class SDECompiler {
 		cm = ret.model;
 		AbstractJClass strRef = cm.ref(String.class);
 
+		// create the attribute class
+		try {
+			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.INT, "getId");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.INT, "getCatId");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
+			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
+			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")
+					._extends(attributeClass);
+			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
+		} catch (JClassAlreadyExistsException e3) {
+			throw new UnsupportedOperationException("catch this", e3);
+		}
+
 		// for each group, list all the attributes
 		HashMap<Integer, HashSet<Integer>> groupAttributes = new HashMap<>();
 		// we also add all the attributes to the category of the group
 		HashMap<Integer, HashSet<Integer>> catAttributes = new HashMap<>();
 		HashSet<Integer> attributesWithFloatValue = new HashSet<>();
+		HashSet<Integer> allAttributesIds = new HashSet<>();
 		for (EdgmTypeAttributes attribute : typeAttributes) {
 			int attId = attribute.attributeID;
 			int typeID = attribute.typeID;
@@ -148,15 +173,9 @@ public class SDECompiler {
 				continue;
 			}
 			int groupID = type.groupID;
+			allAttributesIds.add(attribute.attributeID);
 			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
-				if (attributesWithFloatValue.add(attribute.attributeID)) {
-					// System.err.println("attribute " + attTypes.get(attId).attributeName
-					// + " has float value "
-					// + attribute.valueFloat + " for item " + type.enName());
-				}
-			}
-			if (attribute.valueInt != 0) {
-
+				attributesWithFloatValue.add(attribute.attributeID);
 			}
 			HashSet<Integer> groupAttribute = groupAttributes.get(groupID);
 			if (groupAttribute == null) {
@@ -172,6 +191,46 @@ public class SDECompiler {
 				catAttributes.put(catID, catAttribute);
 			}
 			catAttribute.add(attId);
+		}
+
+		// create the attributes
+		HashMap<Integer, JDefinedClass> idToAttribute = new HashMap<>();
+		for( int attId : allAttributesIds) {
+			EdgmAttributeTypes eattr = attTypes.get(attId);
+			String name = formatName(eattr.attributeName);
+			ret.attID2FieldName.put(attId, name);
+			JDefinedClass attClass;
+			try {
+				attClass = attributesPackage()._class(name);
+				if(attributesWithFloatValue.contains(attId)) {
+					attClass._extends(doubleAttribute);
+				} else {
+					attClass._extends(intAttribute);
+				}
+				JMethod meth = attClass.method(JMod.PUBLIC, cm.INT, "getId");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(attId));
+				meth = attClass.method(JMod.PUBLIC, cm.INT, "getCatId");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.categoryID));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getHighIsGood");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.highIsGood));
+				meth = attClass.method(JMod.PUBLIC, cm.DOUBLE, "getDefaultValue");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.defaultValue));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getPublished");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.published));
+				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getStackable");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(eattr.stackable));
+				attClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, attClass, "INSTANCE").init(JExpr._new(attClass));
+				attClass.javadoc().add(eattr.description);
+				idToAttribute.put(attId, attClass);
+			} catch (JClassAlreadyExistsException e1) {
+				throw new UnsupportedOperationException("catch this", e1);
+			}
 		}
 
 		// then for each cat we keep only the attributes that are present in every
@@ -213,7 +272,18 @@ public class SDECompiler {
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
-
+			{
+				JMethod attrint = typeClass.method(JMod.PUBLIC, cm.INT, "attributeInt");
+				JVar att = attrint.param(intAttribute, "attribute");
+				JSwitch js = attrint.body()._switch(att.invoke("getId"));
+				js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+			}
+			{
+				JMethod attrdouble = typeClass.method(JMod.PUBLIC, cm.DOUBLE, "attributeDouble");
+				JVar att = attrdouble.param(doubleAttribute, "attribute");
+				JSwitch js = attrdouble.body()._switch(att.invoke("getId"));
+				js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+			}
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
 			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
@@ -284,12 +354,6 @@ public class SDECompiler {
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}
-		}
-
-		// map all attributes ids to the fields names
-
-		for (Entry<Integer, EdgmAttributeTypes> e : attTypes.entrySet()) {
-			ret.attID2FieldName.put(e.getKey(), formatName(e.getValue().attributeName));
 		}
 
 		// create the metainf class
@@ -430,6 +494,9 @@ public class SDECompiler {
 		Integer[] sortedAttIds = attributeIDs.stream()
 				.sorted((i1, i2) -> attTypes.get(i1).attributeName.compareTo(attTypes.get(i2).attributeName))
 				.toArray(Integer[]::new);
+		JSwitch jsint = null;
+		JSwitch jsdouble = null;
+
 		for (Integer attributeID : sortedAttIds) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
 			boolean isDouble = attributesWithFloatValue.contains(attr.attributeID);
@@ -438,10 +505,28 @@ public class SDECompiler {
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (isDouble) {
 				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue);
+				if (jsdouble == null) {
+					JMethod attrdouble = cl.method(JMod.PUBLIC, cm.DOUBLE, "attributeDouble");
+					JVar att = attrdouble.param(doubleAttribute, "attribute");
+					jsdouble = attrdouble.body()._switch(att.invoke("getId"));
+				}
+				jsdouble._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			} else {
 				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
+				if (jsint == null) {
+					JMethod attrint = cl.method(JMod.PUBLIC, cm.INT, "attributeInt");
+					JVar att = attrint.param(intAttribute, "attribute");
+					jsint = attrint.body()._switch(att.invoke("getId"));
+				}
+				jsint._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			}
 			f.javadoc().add(attr.description);
+		}
+		if (jsint != null) {
+			jsint._default().body()._return(JExpr._super().invoke("attributeInt").arg(JExpr.direct("attribute")));
+		}
+		if (jsdouble != null) {
+			jsdouble._default().body()._return(JExpr._super().invoke("attributeDouble").arg(JExpr.direct("attribute")));
 		}
 	}
 

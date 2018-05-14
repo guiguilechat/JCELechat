@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -105,6 +107,76 @@ public class RigShield
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigShield.yaml";
     private static LinkedHashMap<String, RigShield> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  1138 :
+            {
+                return Drawback;
+            }
+            case  312 :
+            {
+                return DurationSkillBonus;
+            }
+            case  323 :
+            {
+                return PowerNeedBonus;
+            }
+            case  338 :
+            {
+                return Rechargeratebonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  851 :
+            {
+                return ShieldBoostCapacitorBonus;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  984 :
+            {
+                return EmDamageResistanceBonus;
+            }
+            case  985 :
+            {
+                return ExplosiveDamageResistanceBonus;
+            }
+            case  986 :
+            {
+                return KineticDamageResistanceBonus;
+            }
+            case  337 :
+            {
+                return ShieldCapacityBonus;
+            }
+            case  987 :
+            {
+                return ThermalDamageResistanceBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

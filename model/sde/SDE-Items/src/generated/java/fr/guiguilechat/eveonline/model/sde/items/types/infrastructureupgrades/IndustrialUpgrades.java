@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -90,6 +91,59 @@ public class IndustrialUpgrades
     public int SovUpgradeRequiredUpgradeID;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
     private static LinkedHashMap<String, IndustrialUpgrades> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1584 :
+            {
+                return DevIndexIndustrial;
+            }
+            case  1755 :
+            {
+                return DistributionID01;
+            }
+            case  1756 :
+            {
+                return DistributionID02;
+            }
+            case  1757 :
+            {
+                return DistributionID03;
+            }
+            case  1695 :
+            {
+                return DistributionIDAngel01;
+            }
+            case  1705 :
+            {
+                return DistributionIDBlood01;
+            }
+            case  1715 :
+            {
+                return DistributionIDGurista01;
+            }
+            case  1725 :
+            {
+                return DistributionIDRogueDrone01;
+            }
+            case  1735 :
+            {
+                return DistributionIDSansha01;
+            }
+            case  1745 :
+            {
+                return DistributionIDSerpentis01;
+            }
+            case  1599 :
+            {
+                return SovUpgradeRequiredUpgradeID;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

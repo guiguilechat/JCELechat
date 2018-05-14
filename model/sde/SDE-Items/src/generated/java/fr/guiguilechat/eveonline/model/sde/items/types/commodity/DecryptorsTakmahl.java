@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -41,6 +42,31 @@ public class DecryptorsTakmahl
     public double InventionTEModifier;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
     private static LinkedHashMap<String, DecryptorsTakmahl> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1113 :
+            {
+                return InventionMEModifier;
+            }
+            case  1124 :
+            {
+                return InventionMaxRunModifier;
+            }
+            case  1112 :
+            {
+                return InventionPropabilityMultiplier;
+            }
+            case  1114 :
+            {
+                return InventionTEModifier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

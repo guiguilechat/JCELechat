@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -133,6 +135,92 @@ public class MicroJumpFieldGenerators
     public int SignatureRadiusBonusPercent;
     public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
     private static LinkedHashMap<String, MicroJumpFieldGenerators> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  906 :
+            {
+                return DisallowEarlyDeactivation;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  1014 :
+            {
+                return DisallowRepeatingActivation;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  2066 :
+            {
+                return MjdJumpRange;
+            }
+            case  2067 :
+            {
+                return MjfgRadius;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  973 :
+            {
+                return SignatureRadiusBonusPercent;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

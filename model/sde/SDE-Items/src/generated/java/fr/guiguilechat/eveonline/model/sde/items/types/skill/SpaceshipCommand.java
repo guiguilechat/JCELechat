@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -147,6 +149,100 @@ public class SpaceshipCommand
     public int SubSystemSlot;
     public final static String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
     private static LinkedHashMap<String, SpaceshipCommand> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  151 :
+            {
+                return AgilityBonus;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1047 :
+            {
+                return CanNotBeTrainedOnTrial;
+            }
+            case  193 :
+            {
+                return MaxAttackTargets;
+            }
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
+            }
+            case  1289 :
+            {
+                return RequiredSkill5;
+            }
+            case  1287 :
+            {
+                return RequiredSkill5Level;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
+            case  334 :
+            {
+                return ShipPowerBonus;
+            }
+            case  2450 :
+            {
+                return SkillIsObsolete;
+            }
+            case  1366 :
+            {
+                return SubSystemSlot;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -45,6 +46,31 @@ public abstract class Decryptors
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1113 :
+            {
+                return InventionMEModifier;
+            }
+            case  1124 :
+            {
+                return InventionMaxRunModifier;
+            }
+            case  1112 :
+            {
+                return InventionPropabilityMultiplier;
+            }
+            case  1114 :
+            {
+                return InventionTEModifier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

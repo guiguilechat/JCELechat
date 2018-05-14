@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -196,6 +198,128 @@ public class Citadel
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/structure/Citadel.yaml";
     private static LinkedHashMap<String, Citadel> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2433 :
+            {
+                return FighterAbilityKamikazeResistance;
+            }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2739 :
+            {
+                return FighterStandupHeavySlots;
+            }
+            case  2737 :
+            {
+                return FighterStandupLightSlots;
+            }
+            case  2738 :
+            {
+                return FighterStandupSupportSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
+            }
+            case  1927 :
+            {
+                return Hackable;
+            }
+            case  2751 :
+            {
+                return HiddenArmorHPMultiplier;
+            }
+            case  2750 :
+            {
+                return HiddenMissileDamageMultiplier;
+            }
+            case  101 :
+            {
+                return LauncherSlotsLeft;
+            }
+            case  797 :
+            {
+                return MaximumRangeCap;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  2056 :
+            {
+                return ServiceSlots;
+            }
+            case  2749 :
+            {
+                return StructureAoERoFRoleBonus;
+            }
+            case  2743 :
+            {
+                return StructureFullPowerStateHitpointMultiplier;
+            }
+            case  2333 :
+            {
+                return StructureRoleBonus;
+            }
+            case  2339 :
+            {
+                return StructureServiceRoleBonus;
+            }
+            case  2268 :
+            {
+                return TetheringRange;
+            }
+            case  1919 :
+            {
+                return TierDifficulty;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

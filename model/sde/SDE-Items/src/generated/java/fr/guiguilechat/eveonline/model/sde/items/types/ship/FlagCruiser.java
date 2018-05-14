@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -301,6 +303,188 @@ public class FlagCruiser
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/FlagCruiser.yaml";
     private static LinkedHashMap<String, FlagCruiser> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2253 :
+            {
+                return ECMResistance;
+            }
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  2757 :
+            {
+                return FlagCruiserFittingBonusPainterProbes;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  2752 :
+            {
+                return EliteBonusFlagCruisers1;
+            }
+            case  2753 :
+            {
+                return FlagCruiserFittingBonusPropMods;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  2610 :
+            {
+                return PilotSecurityStatus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
+            }
+            case  1289 :
+            {
+                return RequiredSkill5;
+            }
+            case  1287 :
+            {
+                return RequiredSkill5Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
+            }
+            case  1573 :
+            {
+                return SpecialAmmoHoldCapacity;
+            }
+            case  2756 :
+            {
+                return TargetPainterRangeModifierFlagCruisers;
+            }
+            case  2755 :
+            {
+                return TargetPainterStrengthModifierFlagCruisers;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

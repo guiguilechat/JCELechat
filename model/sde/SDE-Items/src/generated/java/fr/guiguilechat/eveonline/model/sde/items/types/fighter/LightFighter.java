@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -280,6 +282,176 @@ public class LightFighter
     public int FighterSquadronIsStandupLight;
     public final static String RESOURCE_PATH = "SDE/items/fighter/LightFighter.yaml";
     private static LinkedHashMap<String, LightFighter> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2227 :
+            {
+                return FighterAbilityAttackMissileDamageEM;
+            }
+            case  2230 :
+            {
+                return FighterAbilityAttackMissileDamageExp;
+            }
+            case  2229 :
+            {
+                return FighterAbilityAttackMissileDamageKin;
+            }
+            case  2226 :
+            {
+                return FighterAbilityAttackMissileDamageMultiplier;
+            }
+            case  2228 :
+            {
+                return FighterAbilityAttackMissileDamageTherm;
+            }
+            case  2233 :
+            {
+                return FighterAbilityAttackMissileDuration;
+            }
+            case  2234 :
+            {
+                return FighterAbilityAttackMissileExplosionRadius;
+            }
+            case  2235 :
+            {
+                return FighterAbilityAttackMissileExplosionVelocity;
+            }
+            case  2237 :
+            {
+                return FighterAbilityAttackMissileRangeFalloff;
+            }
+            case  2236 :
+            {
+                return FighterAbilityAttackMissileRangeOptimal;
+            }
+            case  2123 :
+            {
+                return FighterAbilityEvasiveManeuversDuration;
+            }
+            case  2225 :
+            {
+                return FighterAbilityEvasiveManeuversSignatureRadiusBonus;
+            }
+            case  2224 :
+            {
+                return FighterAbilityEvasiveManeuversSpeedBonus;
+            }
+            case  2131 :
+            {
+                return FighterAbilityMissilesDamageEM;
+            }
+            case  2134 :
+            {
+                return FighterAbilityMissilesDamageExp;
+            }
+            case  2133 :
+            {
+                return FighterAbilityMissilesDamageKin;
+            }
+            case  2130 :
+            {
+                return FighterAbilityMissilesDamageMultiplier;
+            }
+            case  2132 :
+            {
+                return FighterAbilityMissilesDamageTherm;
+            }
+            case  2182 :
+            {
+                return FighterAbilityMissilesDuration;
+            }
+            case  2125 :
+            {
+                return FighterAbilityMissilesExplosionRadius;
+            }
+            case  2126 :
+            {
+                return FighterAbilityMissilesExplosionVelocity;
+            }
+            case  2149 :
+            {
+                return FighterAbilityMissilesRange;
+            }
+            case  2170 :
+            {
+                return FighterAbilityMissilesResistanceID;
+            }
+            case  2238 :
+            {
+                return FighterAbilityTackleDuration;
+            }
+            case  2239 :
+            {
+                return FighterAbilityTackleRange;
+            }
+            case  2425 :
+            {
+                return FighterAbilityTackleWarpDisruptionPointStrength;
+            }
+            case  2242 :
+            {
+                return FighterAbilityTackleWebSpeedPenalty;
+            }
+            case  2243 :
+            {
+                return FighterAbilityTackleWebSpeedPenaltyInterim;
+            }
+            case  2212 :
+            {
+                return FighterSquadronIsLight;
+            }
+            case  2740 :
+            {
+                return FighterSquadronIsStandupLight;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2231 :
+            {
+                return FighterAbilityAttackMissileReductionFactor;
+            }
+            case  2232 :
+            {
+                return FighterAbilityAttackMissileReductionSensitivity;
+            }
+            case  2118 :
+            {
+                return FighterAbilityEvasiveManeuversEmResonance;
+            }
+            case  2121 :
+            {
+                return FighterAbilityEvasiveManeuversExpResonance;
+            }
+            case  2120 :
+            {
+                return FighterAbilityEvasiveManeuversKinResonance;
+            }
+            case  2119 :
+            {
+                return FighterAbilityEvasiveManeuversThermResonance;
+            }
+            case  2127 :
+            {
+                return FighterAbilityMissilesDamageReductionFactor;
+            }
+            case  2128 :
+            {
+                return FighterAbilityMissilesDamageReductionSensitivity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

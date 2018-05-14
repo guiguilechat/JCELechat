@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -63,6 +65,52 @@ public class CyberResourceProcessing
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
     private static LinkedHashMap<String, CyberResourceProcessing> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  434 :
+            {
+                return MiningAmountBonus;
+            }
+            case  927 :
+            {
+                return MiningUpgradeCPUReductionBonus;
+            }
+            case  379 :
+            {
+                return RefiningYieldMutator;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  780 :
+            {
+                return IceHarvestCycleBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

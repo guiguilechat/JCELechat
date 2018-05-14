@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -55,6 +56,39 @@ public class ConstructionPlatform
     public int StationTypeID;
     public final static String RESOURCE_PATH = "SDE/items/celestial/ConstructionPlatform.yaml";
     private static LinkedHashMap<String, ConstructionPlatform> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  556 :
+            {
+                return AnchoringDelay;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1806 :
+            {
+                return RequiresSovereigntyDisplayOnly;
+            }
+            case  472 :
+            {
+                return StationTypeID;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

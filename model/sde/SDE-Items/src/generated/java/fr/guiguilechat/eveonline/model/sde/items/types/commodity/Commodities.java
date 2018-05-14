@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -70,6 +72,56 @@ public class Commodities
     public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/commodity/Commodities.yaml";
     private static LinkedHashMap<String, Commodities> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  522 :
+            {
+                return DamageCloudChance;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  546 :
+            {
+                return DamageCloudType;
+            }
+            case  457 :
+            {
+                return EntityEquipmentMax;
+            }
+            case  456 :
+            {
+                return EntityEquipmentMin;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  790 :
+            {
+                return ReprocessingSkillType;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

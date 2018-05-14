@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -55,6 +56,39 @@ public class StructureWarpDisruptorScript
     public int WarpScrambleRangeBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
     private static LinkedHashMap<String, StructureWarpDisruptorScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1350 :
+            {
+                return ActivationBlockedStrenght;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1327 :
+            {
+                return WarpScrambleRangeBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

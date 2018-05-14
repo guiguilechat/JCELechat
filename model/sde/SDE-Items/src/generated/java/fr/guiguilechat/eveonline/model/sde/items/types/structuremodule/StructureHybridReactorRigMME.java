@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -112,6 +114,80 @@ public class StructureHybridReactorRigMME
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureHybridReactorRigMME.yaml";
     private static LinkedHashMap<String, StructureHybridReactorRigMME> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2714 :
+            {
+                return RefRigMatBonus;
+            }
+            case  2356 :
+            {
+                return LowSecModifier;
+            }
+            case  2357 :
+            {
+                return NullSecModifier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  2358 :
+            {
+                return SecurityModifier;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

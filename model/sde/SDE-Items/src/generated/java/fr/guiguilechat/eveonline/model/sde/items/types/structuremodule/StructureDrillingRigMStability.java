@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -97,6 +98,63 @@ public class StructureDrillingRigMStability
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
     private static LinkedHashMap<String, StructureDrillingRigMStability> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  2708 :
+            {
+                return MoonRigAsteroidDecayBonus;
+            }
+            case  2707 :
+            {
+                return MoonRigFractureDelayBonus;
+            }
+            case  2709 :
+            {
+                return MoonRigSpewRadiusBonus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

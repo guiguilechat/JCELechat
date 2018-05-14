@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -203,6 +205,132 @@ public class TitanPhenomenaGenerator
     public double WarfareBuff4Value;
     public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
     private static LinkedHashMap<String, TitanPhenomenaGenerator> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2535 :
+            {
+                return BuffDuration;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  714 :
+            {
+                return ConsumptionQuantity;
+            }
+            case  713 :
+            {
+                return ConsumptionType;
+            }
+            case  1920 :
+            {
+                return DisallowActivateInForcefield;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  1544 :
+            {
+                return MaxGroupFitted;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  2468 :
+            {
+                return WarfareBuff1ID;
+            }
+            case  2470 :
+            {
+                return WarfareBuff2ID;
+            }
+            case  2472 :
+            {
+                return WarfareBuff3ID;
+            }
+            case  2536 :
+            {
+                return WarfareBuff4ID;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  2469 :
+            {
+                return WarfareBuff1Value;
+            }
+            case  2471 :
+            {
+                return WarfareBuff2Value;
+            }
+            case  2473 :
+            {
+                return WarfareBuff3Value;
+            }
+            case  2537 :
+            {
+                return WarfareBuff4Value;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

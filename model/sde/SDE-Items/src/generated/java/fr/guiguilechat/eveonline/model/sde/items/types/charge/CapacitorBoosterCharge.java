@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -55,6 +56,39 @@ public class CapacitorBoosterCharge
     public int MetaGroupID;
     public final static String RESOURCE_PATH = "SDE/items/charge/CapacitorBoosterCharge.yaml";
     private static LinkedHashMap<String, CapacitorBoosterCharge> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  67 :
+            {
+                return CapacitorBonus;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  602 :
+            {
+                return LauncherGroup2;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

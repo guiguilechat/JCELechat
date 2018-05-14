@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -379,6 +381,232 @@ public class CombatDrone
     public double TrackingSpeed;
     public final static String RESOURCE_PATH = "SDE/items/drone/CombatDrone.yaml";
     private static LinkedHashMap<String, CombatDrone> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  936 :
+            {
+                return ECMRangeOptimal;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  247 :
+            {
+                return EntityAttackRange;
+            }
+            case  580 :
+            {
+                return EntityChaseMaxDelay;
+            }
+            case  581 :
+            {
+                return EntityChaseMaxDelayChance;
+            }
+            case  665 :
+            {
+                return EntityChaseMaxDistance;
+            }
+            case  582 :
+            {
+                return EntityChaseMaxDuration;
+            }
+            case  583 :
+            {
+                return EntityChaseMaxDurationChance;
+            }
+            case  508 :
+            {
+                return EntityCruiseSpeed;
+            }
+            case  507 :
+            {
+                return EntityMissileTypeID;
+            }
+            case  252 :
+            {
+                return EntitySecurityStatusKillBonus;
+            }
+            case  945 :
+            {
+                return EntityTargetPaintDuration;
+            }
+            case  935 :
+            {
+                return EntityTargetPaintDurationChance;
+            }
+            case  954 :
+            {
+                return EntityTargetPaintFallOff;
+            }
+            case  158 :
+            {
+                return Falloff;
+            }
+            case  2189 :
+            {
+                return FighterAbilityAntiFighterMissileResistance;
+            }
+            case  245 :
+            {
+                return GfxTurretID;
+            }
+            case  193 :
+            {
+                return MaxAttackTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  506 :
+            {
+                return MissileLaunchDuration;
+            }
+            case  620 :
+            {
+                return OptimalSigRadius;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  70 :
+            {
+                return Agility;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  64 :
+            {
+                return DamageMultiplier;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  212 :
+            {
+                return MissileDamageMultiplier;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            case  160 :
+            {
+                return TrackingSpeed;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

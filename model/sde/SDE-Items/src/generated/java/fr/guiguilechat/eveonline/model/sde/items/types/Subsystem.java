@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -85,6 +86,55 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1380 :
+            {
+                return FitsToShipType;
+            }
+            case  1374 :
+            {
+                return HiSlotModifier;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  1376 :
+            {
+                return LowSlotModifier;
+            }
+            case  1375 :
+            {
+                return MedSlotModifier;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1366 :
+            {
+                return SubSystemSlot;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

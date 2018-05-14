@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -294,6 +296,184 @@ public class EffectBeacon
     public double TrackingSpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
     private static LinkedHashMap<String, EffectBeacon> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  169 :
+            {
+                return AgilityMultiplier;
+            }
+            case  1967 :
+            {
+                return AoeCloudSizeMultiplier;
+            }
+            case  1483 :
+            {
+                return AoeVelocityMultiplier;
+            }
+            case  1495 :
+            {
+                return ArmorDamageAmountMultiplier;
+            }
+            case  1498 :
+            {
+                return ArmorDamageAmountMultiplierRemote;
+            }
+            case  148 :
+            {
+                return ArmorHPMultiplier;
+            }
+            case  1499 :
+            {
+                return CapacitorCapacityMultiplierSystem;
+            }
+            case  1482 :
+            {
+                return DamageMultiplierMultiplier;
+            }
+            case  1487 :
+            {
+                return EmpFieldRangeMultiplier;
+            }
+            case  1840 :
+            {
+                return EnergyTransferAmountBonus;
+            }
+            case  1966 :
+            {
+                return EnergyWarfareStrengthMultiplier;
+            }
+            case  1485 :
+            {
+                return HeatDamageMultiplier;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  237 :
+            {
+                return MaxTargetRangeMultiplier;
+            }
+            case  306 :
+            {
+                return MaxVelocityModifier;
+            }
+            case  1470 :
+            {
+                return MaxVelocityMultiplier;
+            }
+            case  1469 :
+            {
+                return MissileVelocityMultiplier;
+            }
+            case  1486 :
+            {
+                return OverloadBonusMultiplier;
+            }
+            case  1500 :
+            {
+                return RechargeRateMultiplier;
+            }
+            case  1496 :
+            {
+                return ShieldBonusMultiplier;
+            }
+            case  1497 :
+            {
+                return ShieldBonusMultiplierRemote;
+            }
+            case  146 :
+            {
+                return ShieldCapacityMultiplier;
+            }
+            case  652 :
+            {
+                return SignatureRadiusMultiplier;
+            }
+            case  1493 :
+            {
+                return SmallWeaponDamageMultiplier;
+            }
+            case  1488 :
+            {
+                return SmartbombDamageMultiplier;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  1969 :
+            {
+                return StasisWebStrengthMultiplier;
+            }
+            case  1968 :
+            {
+                return TargetPainterStrengthMultiplier;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            case  244 :
+            {
+                return TrackingSpeedMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1465 :
+            {
+                return ArmorEmDamageResistanceBonus;
+            }
+            case  1468 :
+            {
+                return ArmorExplosiveDamageResistanceBonus;
+            }
+            case  1466 :
+            {
+                return ArmorKineticDamageResistanceBonus;
+            }
+            case  1467 :
+            {
+                return ArmorThermalDamageResistanceBonus;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  1489 :
+            {
+                return ShieldEmDamageResistanceBonus;
+            }
+            case  1490 :
+            {
+                return ShieldExplosiveDamageResistanceBonus;
+            }
+            case  1491 :
+            {
+                return ShieldKineticDamageResistanceBonus;
+            }
+            case  1492 :
+            {
+                return ShieldThermalDamageResistanceBonus;
+            }
+            case  1686 :
+            {
+                return SystemEffectDamageReduction;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

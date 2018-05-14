@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -105,6 +107,76 @@ public class RepairDrone
     public int StructureDamageAmount;
     public final static String RESOURCE_PATH = "SDE/items/drone/RepairDrone.yaml";
     private static LinkedHashMap<String, RepairDrone> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  84 :
+            {
+                return ArmorDamageAmount;
+            }
+            case  2189 :
+            {
+                return FighterAbilityAntiFighterMissileResistance;
+            }
+            case  193 :
+            {
+                return MaxAttackTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  157 :
+            {
+                return OrbitRange;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  83 :
+            {
+                return StructureDamageAmount;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  64 :
+            {
+                return DamageMultiplier;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

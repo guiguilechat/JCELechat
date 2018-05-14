@@ -64,10 +64,10 @@ items:
     id: 46267
     name: A3 Industrial Package
     volume: 50000.0
-  Alice Saki’s Good Posting Guide:
+  Alice Saki���s Good Posting Guide:
     CpuMultiplier: 1.0
     id: 34434
-    name: Alice Saki’s Good Posting Guide
+    name: Alice Saki���s Good Posting Guide
     volume: 3.0
   Alliance Tournament XV Meta:
     CpuMultiplier: 1.0
@@ -569,10 +569,10 @@ items:
     id: 34426
     name: Sort Dragon’s Guide To Diplomacy
     volume: 3.0
-  Soxfour���s Spaceboots:
+  Soxfour’s Spaceboots:
     CpuMultiplier: 1.0
     id: 34435
-    name: Soxfour���s Spaceboots
+    name: Soxfour’s Spaceboots
     volume: 3.0
   Starsi:
     CpuMultiplier: 1.0
@@ -689,15 +689,15 @@ items:
     id: 37895
     name: YC118 Succession Trial Champion’s Decree – House Kor-Azor
     volume: 0.01
+  YC118 Succession Trial Champion’s Decree – House Sarum:
+    CpuMultiplier: 1.0
+    id: 37896
+    name: YC118 Succession Trial Champion’s Decree – House Sarum
+    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Tash-Murkon:
     CpuMultiplier: 1.0
     id: 37889
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
-    volume: 0.01
-  YC118 Succession Trial Champion’s Decree ��� House Sarum:
-    CpuMultiplier: 1.0
-    id: 37896
-    name: YC118 Succession Trial Champion’s Decree ��� House Sarum
     volume: 0.01
   YC118 Succession Trial Champion��s Decree – House Kador:
     CpuMultiplier: 1.0

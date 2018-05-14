@@ -19,6 +19,7 @@
   	
   	<module>fightersbysensortype</module>
   	<module>GUIV2</module>
+  	<module>GUIMutaplasmids</module>
   </modules>
   <dependencyManagement>
   	<dependencies>

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -308,6 +310,192 @@ public class Industrial
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/Industrial.yaml";
     private static LinkedHashMap<String, Industrial> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2464 :
+            {
+                return AffectedByIndustrialInvulnModule;
+            }
+            case  1891 :
+            {
+                return AllowedInCapIndustrialMaintenanceBay;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  2580 :
+            {
+                return IndustrialBonusDroneDamage;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  494 :
+            {
+                return ShipBonusAI;
+            }
+            case  495 :
+            {
+                return ShipBonusCI;
+            }
+            case  496 :
+            {
+                return ShipBonusGI;
+            }
+            case  493 :
+            {
+                return ShipBonusMI;
+            }
+            case  1669 :
+            {
+                return ShipBonusOreIndustrial1;
+            }
+            case  1670 :
+            {
+                return ShipBonusOreIndustrial2;
+            }
+            case  1573 :
+            {
+                return SpecialAmmoHoldCapacity;
+            }
+            case  1646 :
+            {
+                return SpecialCommandCenterHoldCapacity;
+            }
+            case  1558 :
+            {
+                return SpecialMineralHoldCapacity;
+            }
+            case  1556 :
+            {
+                return SpecialOreHoldCapacity;
+            }
+            case  1653 :
+            {
+                return SpecialPlanetaryCommoditiesHoldCapacity;
+            }
+            case  1804 :
+            {
+                return SpecialQuafeHoldCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  1971 :
+            {
+                return JumpFatigueMultiplier;
+            }
+            case  809 :
+            {
+                return ShipBonusAI2;
+            }
+            case  811 :
+            {
+                return ShipBonusCI2;
+            }
+            case  813 :
+            {
+                return ShipBonusGI2;
+            }
+            case  814 :
+            {
+                return ShipBonusMI2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -70,6 +72,56 @@ public class CyberXSpecials
     public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
     private static LinkedHashMap<String, CyberXSpecials> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1083 :
+            {
+                return ArmorHpBonus2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  176 :
+            {
+                return IntelligenceBonus;
+            }
+            case  177 :
+            {
+                return MemoryBonus;
+            }
+            case  178 :
+            {
+                return PerceptionBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1084 :
+            {
+                return VelocityBonus2;
+            }
+            case  179 :
+            {
+                return WillpowerBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

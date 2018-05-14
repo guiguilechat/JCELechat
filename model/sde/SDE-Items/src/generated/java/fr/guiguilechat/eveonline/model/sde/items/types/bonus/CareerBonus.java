@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -48,6 +49,35 @@ public class CareerBonus
     public double WillpowerSkillTrainingTimeMultiplierBonus;
     public final static String RESOURCE_PATH = "SDE/items/bonus/CareerBonus.yaml";
     private static LinkedHashMap<String, CareerBonus> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  228 :
+            {
+                return CharismaSkillTrainingTimeMultiplierBonus;
+            }
+            case  229 :
+            {
+                return IntelligenceSkillTrainingTimeMultiplierBonus;
+            }
+            case  230 :
+            {
+                return MemorySkillTrainingTimeMultiplierBonus;
+            }
+            case  231 :
+            {
+                return PerceptionSkillTrainingTimeMultiplierBonus;
+            }
+            case  232 :
+            {
+                return WillpowerSkillTrainingTimeMultiplierBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

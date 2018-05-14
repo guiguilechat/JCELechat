@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -48,6 +49,35 @@ public class UnanchoringDrone
     public int UnanchoringDelay;
     public final static String RESOURCE_PATH = "SDE/items/drone/UnanchoringDrone.yaml";
     private static LinkedHashMap<String, UnanchoringDrone> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  157 :
+            {
+                return OrbitRange;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  676 :
+            {
+                return UnanchoringDelay;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

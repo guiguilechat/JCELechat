@@ -4641,7 +4641,7 @@ items:
     id: 17740
     name: Vindicator
     volume: 486000.0
-  万王宝座��YC117年特别版:
+  万王宝座级YC117年特别版:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4715,9 +4715,9 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34467
-    name: 万王宝座��YC117年特别版
+    name: 万王宝座级YC117年特别版
     volume: 486000.0
-  乌鸦级YC117年特别版:
+  乌���级YC117年特别版:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4792,7 +4792,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34469
-    name: 乌鸦级YC117年特别版
+    name: 乌���级YC117年特别版
     volume: 486000.0
   响尾蛇级YC117年特别版:
     Agility: 0.12800000607967377
@@ -4875,7 +4875,7 @@ items:
     id: 34463
     name: 响尾蛇级YC117年特别版
     volume: 486000.0
-  地狱天使级YC117年特别版:
+  地狱天使���YC117年特别版:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4949,7 +4949,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34459
-    name: 地狱天使级YC117年特别版
+    name: 地狱天使���YC117年特别版
     volume: 495000.0
   多米尼克斯级YC117年特别版:
     Agility: 0.12540000677108765
@@ -5103,7 +5103,7 @@ items:
     id: 34457
     name: 末日沙场级YC117年特别版
     volume: 486000.0
-  灾难级YC117年特别版:
+  灾难级YC117���特别版:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -5176,9 +5176,9 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34471
-    name: 灾难级YC117年特别版
+    name: 灾难级YC117���特别版
     volume: 495000.0
-  马克瑞级YC117年特别���:
+  马克瑞级YC117年特别版:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -5256,5 +5256,5 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
     id: 34461
-    name: 马克瑞级YC117年特别���
+    name: 马克瑞级YC117年特别版
     volume: 595000.0

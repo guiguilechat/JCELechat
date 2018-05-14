@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -69,6 +70,47 @@ public class SensorBoosterScript
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/SensorBoosterScript.yaml";
     private static LinkedHashMap<String, SensorBoosterScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  602 :
+            {
+                return LauncherGroup2;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  1313 :
+            {
+                return MaxTargetRangeBonusBonus;
+            }
+            case  1314 :
+            {
+                return ScanResolutionBonusBonus;
+            }
+            case  2282 :
+            {
+                return SensorStrengthBonusBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

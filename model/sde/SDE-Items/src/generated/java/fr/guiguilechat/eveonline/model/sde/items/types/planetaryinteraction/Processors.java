@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -34,6 +35,27 @@ public class Processors
     public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Processors.yaml";
     private static LinkedHashMap<String, Processors> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  49 :
+            {
+                return CpuLoad;
+            }
+            case  1632 :
+            {
+                return PlanetRestriction;
+            }
+            case  15 :
+            {
+                return PowerLoad;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

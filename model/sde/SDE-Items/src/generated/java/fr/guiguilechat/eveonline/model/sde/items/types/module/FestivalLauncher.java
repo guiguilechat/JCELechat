@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -70,6 +72,56 @@ public class FestivalLauncher
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/FestivalLauncher.yaml";
     private static LinkedHashMap<String, FestivalLauncher> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  56 :
+            {
+                return ChargeRate;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  47 :
+            {
+                return Slots;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -62,6 +63,43 @@ public class FlexShieldHardenerScript
     public int ThermalDamageResistanceBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
     private static LinkedHashMap<String, FlexShieldHardenerScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  2402 :
+            {
+                return EmDamageResistanceBonusBonus;
+            }
+            case  2403 :
+            {
+                return ExplosiveDamageResistanceBonusBonus;
+            }
+            case  2404 :
+            {
+                return KineticDamageResistanceBonusBonus;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  2405 :
+            {
+                return ThermalDamageResistanceBonusBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

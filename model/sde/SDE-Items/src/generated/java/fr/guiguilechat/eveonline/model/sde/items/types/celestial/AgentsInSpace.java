@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -127,6 +129,88 @@ public class AgentsInSpace
     public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/celestial/AgentsInSpace.yaml";
     private static LinkedHashMap<String, AgentsInSpace> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  844 :
+            {
+                return AgentAutoPopupRange;
+            }
+            case  841 :
+            {
+                return AgentCommRange;
+            }
+            case  840 :
+            {
+                return AgentID;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  457 :
+            {
+                return EntityEquipmentMax;
+            }
+            case  456 :
+            {
+                return EntityEquipmentMin;
+            }
+            case  481 :
+            {
+                return EntityKillBounty;
+            }
+            case  251 :
+            {
+                return EntityLootCountMax;
+            }
+            case  250 :
+            {
+                return EntityLootCountMin;
+            }
+            case  252 :
+            {
+                return EntitySecurityStatusKillBonus;
+            }
+            case  1341 :
+            {
+                return FactionID;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

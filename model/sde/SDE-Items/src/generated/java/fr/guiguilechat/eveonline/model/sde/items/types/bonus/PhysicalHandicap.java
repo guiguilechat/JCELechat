@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.bonus;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -27,6 +28,23 @@ public class PhysicalHandicap
     public double CapacitorNeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/bonus/PhysicalHandicap.yaml";
     private static LinkedHashMap<String, PhysicalHandicap> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  205 :
+            {
+                return AccuracyMultiplier;
+            }
+            case  216 :
+            {
+                return CapacitorNeedMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

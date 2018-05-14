@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -34,6 +35,27 @@ public class Miscellaneous
     public int ImportTaxMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
     private static LinkedHashMap<String, Miscellaneous> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1641 :
+            {
+                return ExportTaxMultiplier;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  1640 :
+            {
+                return ImportTaxMultiplier;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

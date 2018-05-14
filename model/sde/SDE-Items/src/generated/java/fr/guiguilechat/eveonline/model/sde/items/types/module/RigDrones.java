@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -112,6 +114,80 @@ public class RigDrones
     public int WebSpeedFactorBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/RigDrones.yaml";
     private static LinkedHashMap<String, RigDrones> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  39 :
+            {
+                return DamageHP;
+            }
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  432 :
+            {
+                return DefenderVelocityBonus;
+            }
+            case  1138 :
+            {
+                return Drawback;
+            }
+            case  591 :
+            {
+                return DroneMaxVelocityBonus;
+            }
+            case  459 :
+            {
+                return DroneRangeBonus;
+            }
+            case  434 :
+            {
+                return MiningAmountBonus;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  293 :
+            {
+                return RofBonus;
+            }
+            case  1164 :
+            {
+                return SpeedFactorBonus;
+            }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
+            case  1619 :
+            {
+                return WebSpeedFactorBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  327 :
+            {
+                return HullHpBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

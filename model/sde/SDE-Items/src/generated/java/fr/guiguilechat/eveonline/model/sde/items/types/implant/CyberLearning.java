@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -62,6 +63,43 @@ public class CyberLearning
     public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberLearning.yaml";
     private static LinkedHashMap<String, CyberLearning> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  175 :
+            {
+                return CharismaBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  176 :
+            {
+                return IntelligenceBonus;
+            }
+            case  177 :
+            {
+                return MemoryBonus;
+            }
+            case  178 :
+            {
+                return PerceptionBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  179 :
+            {
+                return WillpowerBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

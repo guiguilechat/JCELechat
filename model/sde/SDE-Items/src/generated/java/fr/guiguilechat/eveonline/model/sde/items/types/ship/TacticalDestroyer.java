@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -266,6 +268,168 @@ public class TacticalDestroyer
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
     private static LinkedHashMap<String, TacticalDestroyer> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  1989 :
+            {
+                return RoleBonusT3ProbeCPU;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  1986 :
+            {
+                return ShipBonusTacticalDestroyerAmarr1;
+            }
+            case  1987 :
+            {
+                return ShipBonusTacticalDestroyerAmarr2;
+            }
+            case  1988 :
+            {
+                return ShipBonusTacticalDestroyerAmarr3;
+            }
+            case  2015 :
+            {
+                return ShipBonusTacticalDestroyerCaldari1;
+            }
+            case  2016 :
+            {
+                return ShipBonusTacticalDestroyerCaldari2;
+            }
+            case  2017 :
+            {
+                return ShipBonusTacticalDestroyerCaldari3;
+            }
+            case  2027 :
+            {
+                return ShipBonusTacticalDestroyerGallente1;
+            }
+            case  2029 :
+            {
+                return ShipBonusTacticalDestroyerGallente3;
+            }
+            case  2004 :
+            {
+                return ShipBonusTacticalDestroyerMinmatar1;
+            }
+            case  2005 :
+            {
+                return ShipBonusTacticalDestroyerMinmatar2;
+            }
+            case  2006 :
+            {
+                return ShipBonusTacticalDestroyerMinmatar3;
+            }
+            case  1985 :
+            {
+                return StanceSwitchTime;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
+            case  2028 :
+            {
+                return ShipBonusTacticalDestroyerGallente2;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

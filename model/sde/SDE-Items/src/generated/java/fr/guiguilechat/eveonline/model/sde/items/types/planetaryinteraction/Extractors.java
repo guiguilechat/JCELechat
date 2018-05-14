@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -69,6 +70,47 @@ public class Extractors
     public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Extractors.yaml";
     private static LinkedHashMap<String, Extractors> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  49 :
+            {
+                return CpuLoad;
+            }
+            case  1644 :
+            {
+                return ExtractorDepletionRange;
+            }
+            case  1645 :
+            {
+                return ExtractorDepletionRate;
+            }
+            case  709 :
+            {
+                return HarvesterType;
+            }
+            case  1643 :
+            {
+                return PinCycleTime;
+            }
+            case  1642 :
+            {
+                return PinExtractionQuantity;
+            }
+            case  1632 :
+            {
+                return PlanetRestriction;
+            }
+            case  15 :
+            {
+                return PowerLoad;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

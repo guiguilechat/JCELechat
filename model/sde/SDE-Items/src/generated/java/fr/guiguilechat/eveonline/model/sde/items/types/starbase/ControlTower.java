@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -330,6 +332,204 @@ public class ControlTower
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
     private static LinkedHashMap<String, ControlTower> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  266 :
+            {
+                return ArmorDamage;
+            }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  1233 :
+            {
+                return CapacitySecondary;
+            }
+            case  770 :
+            {
+                return ControlTowerEwTargetSwitchDelayBonus;
+            }
+            case  766 :
+            {
+                return ControlTowerHybridDamageBonus;
+            }
+            case  728 :
+            {
+                return ControlTowerLaserDamageBonus;
+            }
+            case  750 :
+            {
+                return ControlTowerLaserOptimalBonus;
+            }
+            case  755 :
+            {
+                return ControlTowerMissileROFBonus;
+            }
+            case  792 :
+            {
+                return ControlTowerMissileVelocityBonus;
+            }
+            case  753 :
+            {
+                return ControlTowerProjectileFallOffBonus;
+            }
+            case  752 :
+            {
+                return ControlTowerProjectileOptimalBonus;
+            }
+            case  754 :
+            {
+                return ControlTowerProjectileROFBonus;
+            }
+            case  757 :
+            {
+                return ControlTowerSiloCapacityBonus;
+            }
+            case  1031 :
+            {
+                return ControlTowerSize;
+            }
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  650 :
+            {
+                return MaxStructureDistance;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  711 :
+            {
+                return MoonAnchorDistance;
+            }
+            case  722 :
+            {
+                return PosControlTowerPeriod;
+            }
+            case  1214 :
+            {
+                return PosStructureControlDistanceMax;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  473 :
+            {
+                return PrototypingBonus;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
+            }
+            case  680 :
+            {
+                return ShieldRadius;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

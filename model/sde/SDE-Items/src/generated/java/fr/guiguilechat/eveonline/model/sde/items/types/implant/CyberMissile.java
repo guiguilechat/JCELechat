@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -84,6 +86,64 @@ public class CyberMissile
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
     private static LinkedHashMap<String, CyberMissile> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  848 :
+            {
+                return AoeCloudSizeBonus;
+            }
+            case  847 :
+            {
+                return AoeVelocityBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  557 :
+            {
+                return MaxFlightTimeBonus;
+            }
+            case  293 :
+            {
+                return RofBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

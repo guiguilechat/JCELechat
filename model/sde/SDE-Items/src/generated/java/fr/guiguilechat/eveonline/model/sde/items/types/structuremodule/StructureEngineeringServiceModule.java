@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -200,6 +202,128 @@ public class StructureEngineeringServiceModule
     public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringServiceModule.yaml";
     private static LinkedHashMap<String, StructureEngineeringServiceModule> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1302 :
+            {
+                return CanFitShipType1;
+            }
+            case  2488 :
+            {
+                return CanFitShipType10;
+            }
+            case  1303 :
+            {
+                return CanFitShipType2;
+            }
+            case  1304 :
+            {
+                return CanFitShipType3;
+            }
+            case  1305 :
+            {
+                return CanFitShipType4;
+            }
+            case  1944 :
+            {
+                return CanFitShipType5;
+            }
+            case  2103 :
+            {
+                return CanFitShipType6;
+            }
+            case  2463 :
+            {
+                return CanFitShipType7;
+            }
+            case  2486 :
+            {
+                return CanFitShipType8;
+            }
+            case  2487 :
+            {
+                return CanFitShipType9;
+            }
+            case  1074 :
+            {
+                return DisallowInEmpireSpace;
+            }
+            case  1970 :
+            {
+                return DisallowInHighSec;
+            }
+            case  2431 :
+            {
+                return MaxTypeFitted;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  2581 :
+            {
+                return OnlineMaxSecurityClass;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  1595 :
+            {
+                return RequiresSovUpgrade1;
+            }
+            case  2109 :
+            {
+                return ServiceModuleFuelAmount;
+            }
+            case  2108 :
+            {
+                return ServiceModuleFuelConsumptionGroup;
+            }
+            case  2110 :
+            {
+                return ServiceModuleFuelOnlineAmount;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  2744 :
+            {
+                return ServiceModuleFullPowerStateHitpointMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

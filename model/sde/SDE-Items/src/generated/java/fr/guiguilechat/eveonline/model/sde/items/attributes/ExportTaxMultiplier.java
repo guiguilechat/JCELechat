@@ -1,0 +1,43 @@
+package fr.guiguilechat.eveonline.model.sde.items.attributes;
+
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+
+
+/**
+ * Export tax multiplier when exporting this commodity off a planet.
+ */
+public class ExportTaxMultiplier
+    extends IntAttribute
+{
+    public final static ExportTaxMultiplier INSTANCE = new ExportTaxMultiplier();
+
+    @Override
+    public int getId() {
+        return  1641;
+    }
+
+    @Override
+    public int getCatId() {
+        return  7;
+    }
+
+    @Override
+    public boolean getHighIsGood() {
+        return false;
+    }
+
+    @Override
+    public double getDefaultValue() {
+        return  1.0;
+    }
+
+    @Override
+    public boolean getPublished() {
+        return false;
+    }
+
+    @Override
+    public boolean getStackable() {
+        return true;
+    }
+}

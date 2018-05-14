@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -315,6 +317,196 @@ public class StrategicCruiser
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/StrategicCruiser.yaml";
     private static LinkedHashMap<String, StrategicCruiser> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1555 :
+            {
+                return FwLpKill;
+            }
+            case  14 :
+            {
+                return HiSlots;
+            }
+            case  12 :
+            {
+                return LowSlots;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  661 :
+            {
+                return MaxDirectionalVelocity;
+            }
+            case  129 :
+            {
+                return MaxPassengers;
+            }
+            case  1367 :
+            {
+                return MaxSubSystems;
+            }
+            case  13 :
+            {
+                return MedSlots;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1285 :
+            {
+                return RequiredSkill4;
+            }
+            case  1286 :
+            {
+                return RequiredSkill4Level;
+            }
+            case  1289 :
+            {
+                return RequiredSkill5;
+            }
+            case  1287 :
+            {
+                return RequiredSkill5Level;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
+            }
+            case  1989 :
+            {
+                return RoleBonusT3ProbeCPU;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  1503 :
+            {
+                return ShipBonusStrategicCruiserAmarr1;
+            }
+            case  2677 :
+            {
+                return ShipBonusStrategicCruiserAmarr2;
+            }
+            case  1504 :
+            {
+                return ShipBonusStrategicCruiserCaldari1;
+            }
+            case  2676 :
+            {
+                return ShipBonusStrategicCruiserCaldari2;
+            }
+            case  1505 :
+            {
+                return ShipBonusStrategicCruiserGallente1;
+            }
+            case  2678 :
+            {
+                return ShipBonusStrategicCruiserGallente2;
+            }
+            case  1506 :
+            {
+                return ShipBonusStrategicCruiserMinmatar1;
+            }
+            case  2679 :
+            {
+                return ShipBonusStrategicCruiserMinmatar2;
+            }
+            case  2675 :
+            {
+                return SpecialSubsystemHoldCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

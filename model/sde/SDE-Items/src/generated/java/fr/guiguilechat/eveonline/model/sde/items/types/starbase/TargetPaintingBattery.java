@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -259,6 +261,164 @@ public class TargetPaintingBattery
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/TargetPaintingBattery.yaml";
     private static LinkedHashMap<String, TargetPaintingBattery> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
+            }
+            case  476 :
+            {
+                return EntityAttackDelayMax;
+            }
+            case  475 :
+            {
+                return EntityAttackDelayMin;
+            }
+            case  158 :
+            {
+                return Falloff;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  1167 :
+            {
+                return PosPlayerControlStructure;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -224,6 +226,144 @@ public class GangCoordinator
     public int WarfareLinkCPUAdd;
     public final static String RESOURCE_PATH = "SDE/items/module/GangCoordinator.yaml";
     private static LinkedHashMap<String, GangCoordinator> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
+            }
+            case  1301 :
+            {
+                return CanFitShipGroup04;
+            }
+            case  1872 :
+            {
+                return CanFitShipGroup05;
+            }
+            case  1879 :
+            {
+                return CanFitShipGroup06;
+            }
+            case  1880 :
+            {
+                return CanFitShipGroup07;
+            }
+            case  1881 :
+            {
+                return CanFitShipGroup08;
+            }
+            case  2065 :
+            {
+                return CanFitShipGroup09;
+            }
+            case  2396 :
+            {
+                return CanFitShipGroup10;
+            }
+            case  1310 :
+            {
+                return CommandBonusHidden;
+            }
+            case  1321 :
+            {
+                return CommandBonusRSD;
+            }
+            case  1322 :
+            {
+                return CommandBonusTD;
+            }
+            case  1920 :
+            {
+                return DisallowActivateInForcefield;
+            }
+            case  2354 :
+            {
+                return DisallowDocking;
+            }
+            case  2343 :
+            {
+                return DisallowTethering;
+            }
+            case  435 :
+            {
+                return MaxGangModules;
+            }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1882 :
+            {
+                return WarfareLinkCPUAdd;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  833 :
+            {
+                return CommandBonus;
+            }
+            case  1320 :
+            {
+                return CommandBonusECM;
+            }
+            case  1323 :
+            {
+                return CommandBonusTP;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

@@ -3,6 +3,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -155,6 +157,100 @@ public abstract class Drone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
+            case  55 :
+            {
+                return RechargeRate;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  1272 :
+            {
+                return DroneBandwidthUsed;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  154 :
+            {
+                return ProximityRange;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getCategoryId() {

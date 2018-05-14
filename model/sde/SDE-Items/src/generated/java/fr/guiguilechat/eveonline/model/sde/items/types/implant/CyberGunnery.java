@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -77,6 +79,60 @@ public class CyberGunnery
     public int TurretSpeeBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberGunnery.yaml";
     private static LinkedHashMap<String, CyberGunnery> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  317 :
+            {
+                return CapNeedBonus;
+            }
+            case  310 :
+            {
+                return CpuNeedBonus;
+            }
+            case  292 :
+            {
+                return DamageMultiplierBonus;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  441 :
+            {
+                return TurretSpeeBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

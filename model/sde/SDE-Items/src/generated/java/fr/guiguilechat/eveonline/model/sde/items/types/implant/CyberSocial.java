@@ -2,6 +2,8 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -70,6 +72,56 @@ public class CyberSocial
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberSocial.yaml";
     private static LinkedHashMap<String, CyberSocial> cache = (null);
+
+    public double attributeDouble(DoubleAttribute attribute) {
+        switch (attribute.getId()) {
+            case  412 :
+            {
+                return ConnectionBonusMutator;
+            }
+            case  414 :
+            {
+                return DiplomacyMutator;
+            }
+            default:
+            {
+                return super.attributeDouble((attribute));
+            }
+        }
+    }
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  415 :
+            {
+                return FastTalkMutator;
+            }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  437 :
+            {
+                return NegotiationBonus;
+            }
+            case  362 :
+            {
+                return SocialBonus;
+            }
+            case  438 :
+            {
+                return SocialMutator;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {

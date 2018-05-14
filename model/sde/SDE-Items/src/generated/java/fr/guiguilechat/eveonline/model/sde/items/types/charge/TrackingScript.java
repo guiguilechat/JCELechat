@@ -2,6 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
+import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -90,6 +91,59 @@ public class TrackingScript
     public int TrackingSpeedBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/TrackingScript.yaml";
     private static LinkedHashMap<String, TrackingScript> cache = (null);
+
+    public int attributeInt(IntAttribute attribute) {
+        switch (attribute.getId()) {
+            case  2023 :
+            {
+                return AoeCloudSizeBonusBonus;
+            }
+            case  2024 :
+            {
+                return AoeVelocityBonusBonus;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
+            case  1332 :
+            {
+                return FalloffBonusBonus;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  602 :
+            {
+                return LauncherGroup2;
+            }
+            case  603 :
+            {
+                return LauncherGroup3;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
+            case  1315 :
+            {
+                return MaxRangeBonusBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
+            case  1316 :
+            {
+                return TrackingSpeedBonusBonus;
+            }
+            default:
+            {
+                return super.attributeInt((attribute));
+            }
+        }
+    }
 
     @Override
     public int getGroupId() {
