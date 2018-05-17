@@ -114,8 +114,8 @@ public class EveCharacter {
 				rolesHQCache = FXCollections.observableSet();
 				rolesBaseCache = FXCollections.observableSet();
 				rolesOtherCache = FXCollections.observableSet();
-				con.addFetchCacheObject((h) -> con.raw.get_characters_character_id_roles(con.characterId(), h),
-						this::handleNewRoles);
+				con.addFetchCacheObject(con.characterName() + ".roles",
+						(h) -> con.raw.get_characters_character_id_roles(con.characterId(), h), this::handleNewRoles);
 			}
 		}
 	}
@@ -173,18 +173,18 @@ public class EveCharacter {
 
 	private CountDownLatch jobLatch = new CountDownLatch(1);
 
-	/**
-	 * wait until the industry jobs are fetched
-	 */
-	public void ensureIndustryJobs() {
-		// otherwise latch is null
-		getIndustryJobs();
-		try {
-			jobLatch.await();
-		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-	}
+	// /**
+	// * wait until the industry jobs are fetched
+	// */
+	// public void ensureIndustryJobs() {
+	// // otherwise latch is null
+	// getIndustryJobs();
+	// try {
+	// jobLatch.await();
+	// } catch (InterruptedException e) {
+	// throw new UnsupportedOperationException("catch this", e);
+	// }
+	// }
 
 	/**
 	 * fetch the list of industry jobs for this character. If the cache delay is
@@ -198,7 +198,8 @@ public class EveCharacter {
 		synchronized (jobLatch) {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
-				con.addFetchCacheArray((p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
+				con.addFetchCacheArray(con.characterName() + ".industryjobs",
+						(p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
 						this::handleNewJobs);
 			}
 		}

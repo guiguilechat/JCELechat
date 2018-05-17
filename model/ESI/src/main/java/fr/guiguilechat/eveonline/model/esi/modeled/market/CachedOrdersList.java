@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
+import fr.guiguilechat.eveonline.model.esi.ESIAccount.SelfExecutable;
 import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
 import javafx.beans.binding.DoubleBinding;
@@ -65,10 +66,12 @@ public class CachedOrdersList {
 		if (selfOrdersStop != null) {
 			return;
 		}
-		selfOrdersStop = regionalMarket.markets.esiConnection.addFetchCacheArray(
+		SelfExecutable exec = regionalMarket.markets.esiConnection.addFetchCacheArray(
+				regionalMarket.markets.esiConnection.characterName() + ".orders_type" + typeID,
 				(p, h) -> regionalMarket.markets.esiConnection.raw
 				.get_markets_region_id_orders(Swagger.order_type.all, p, regionalMarket.regionID, typeID, h),
 				this::handleNewCache);
+		selfOrdersStop = exec::stop;
 	}
 
 	public synchronized void remFetcher() {

@@ -117,16 +117,16 @@ public class ESIAccount {
 	/**
 	 * class that uses the executor to schedule itself.
 	 * <p>
-	 * That class must be started . once started, it will schedule itself after
-	 * its execution
+	 * That class must be started. Once started, it will schedule itself after its
+	 * execution
 	 * </p>
 	 * <p>
 	 * It can also be paused. Pausing it prevents execution until resume is
-	 * called. If the class is started, it also resume it.
+	 * called. Paused and started are two different states,
 	 * </p>
 	 *
 	 */
-	protected abstract class SelfExecutable implements Runnable {
+	public abstract class SelfExecutable implements Runnable {
 
 		/**
 		 * is true when it is set to execute later on the executor
@@ -135,28 +135,45 @@ public class ESIAccount {
 		/**
 		 * is true when ordered to stop ASAP
 		 */
-		boolean stop = false;
+		boolean stop = true;
 
 		/** set to true to temporary prevent scheduling of this */
 		boolean paused = false;
 
 		public void stop() {
+			if (stop) {
+				return;
+			}
 			stop = true;
+			logState();
 		}
 
 		public void start() {
+			if (!stop) {
+				return;
+			}
 			stop = false;
-			paused = false;
-			schedule(0);
+			if (!paused) {
+				schedule(0);
+			}
+			logState();
 		}
 
 		public void pause() {
+			if (paused) {
+				return;
+			}
 			paused = true;
+			logState();
 		}
 
 		public void resume() {
+			if (!paused) {
+				return;
+			}
 			paused = false;
 			schedule(0);
+			logState();
 		}
 
 		public void schedule(long delay_ms) {
@@ -164,8 +181,21 @@ public class ESIAccount {
 				if (!scheduled && !stop && !paused) {
 					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					scheduled = true;
+					logState();
 				}
 			}
+		}
+
+		public String loggingName = "";
+
+		public SelfExecutable withName(String name) {
+			loggingName = name;
+			return this;
+		}
+
+		protected void logState() {
+			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started")
+					+ "|" + (paused ? "running" : "paused") + "|" + (scheduled ? "scheduled" : "unscheduled"));
 		}
 
 		@Override
@@ -205,14 +235,18 @@ public class ESIAccount {
 			BooleanBinding hasRolesVar = Bindings.createBooleanBinding(() -> hasRoles(character.getRoles(), requiredRoles),
 					character.getRoles());
 			hasRolesVar.addListener((ChangeListener<Boolean>) (observable, oldValue, newValue) -> {
-				System.err.println(
-						"roles required " + Arrays.asList(requiredRoles) + "are present from " + oldValue + " to " + newValue);
+				logger.info(
+						"roles required " + Arrays.asList(requiredRoles) + "are present on " + characterName() + " from " + oldValue
+						+ " to " + newValue);
 				if (newValue) {
 					resume();
 				} else {
 					pause();
 				}
 			});
+
+			logger.info("roles required " + Arrays.asList(requiredRoles) + "are present on " + characterName() + " ? "
+					+ hasRolesVar.get() + " : roles are " + character.getRoles());
 			if (hasRolesVar.get()) {
 				resume();
 			} else {
@@ -279,6 +313,7 @@ public class ESIAccount {
 
 		@Override
 		public void pause() {
+
 			super.pause();
 			cacheHandler.accept(null);
 		}
@@ -304,14 +339,14 @@ public class ESIAccount {
 	 * @param <T>
 	 *          the type of object the fetched array contains.
 	 */
-	public <T> Runnable addFetchCacheArray(BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+	public <T> SelfExecutable addFetchCacheArray(String name, BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
 			Consumer<List<T>> cacheHandler, String... requiredRoles) {
-		ArrayCacheUpdaterTask<T> t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler);
-		t.start();
+		SelfExecutable t = new ArrayCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
 		}
-		return t::stop;
+		t.start();
+		return t;
 	}
 
 	/**
@@ -372,14 +407,15 @@ public class ESIAccount {
 	 * @param <T>
 	 *          the type of object that represents the cache.
 	 */
-	public <T> Runnable addFetchCacheObject(Function<Map<String, List<String>>, T> fetcher, Consumer<T> cacheHandler,
+	public <T> SelfExecutable addFetchCacheObject(String name, Function<Map<String, List<String>>, T> fetcher,
+			Consumer<T> cacheHandler,
 			String... requiredRoles) {
-		ObjectCacheUpdaterTask<T> t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler);
-		t.start();
+		SelfExecutable t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
 		}
-		return t::stop;
+		t.start();
+		return t;
 	}
 
 }

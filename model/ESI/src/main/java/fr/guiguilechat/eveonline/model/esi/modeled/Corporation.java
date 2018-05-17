@@ -35,24 +35,24 @@ public class Corporation {
 
 	private CountDownLatch jobLatch = new CountDownLatch(1);
 
-	/**
-	 * wait until the industry jobs are fetched
-	 */
-	public void ensureIndustryJobs() {
-		// otherwise latch is null
-		getIndustryJobs();
-		try {
-			jobLatch.await();
-		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-	}
+	// /**
+	// * wait until the industry jobs are fetched
+	// */
+	// public void ensureIndustryJobs() {
+	// // otherwise latch is null
+	// getIndustryJobs();
+	// try {
+	// jobLatch.await();
+	// } catch (InterruptedException e) {
+	// throw new UnsupportedOperationException("catch this", e);
+	// }
+	// }
 
 	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
 		synchronized (jobLatch) {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
-				con.addFetchCacheArray((p, h) -> con.raw
+				con.addFetchCacheArray(con.characterName() + ".corporationjobs", (p, h) -> con.raw
 						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, p, h),
 						this::handleNewJobs, Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES);
 			}
