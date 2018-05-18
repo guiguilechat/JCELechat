@@ -1,6 +1,6 @@
 items:
   ♦ Badger:
-    id: 43612
+    id: 42656
     name: ♦ Badger
     volume: 250000.0
   ♦ Bestower:
@@ -27,7 +27,11 @@ items:
     id: 42661
     name: ♦ Mastodon
     volume: 385000.0
-  �� Occator:
+  ♦ Occator:
     id: 42659
-    name: �� Occator
+    name: ♦ Occator
     volume: 390000.0
+  �� Badger:
+    id: 43612
+    name: �� Badger
+    volume: 250000.0

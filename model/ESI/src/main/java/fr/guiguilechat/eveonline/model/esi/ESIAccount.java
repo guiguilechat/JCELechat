@@ -132,8 +132,9 @@ public class ESIAccount {
 		 * is true when it is set to execute later on the executor
 		 */
 		boolean scheduled = false;
+
 		/**
-		 * is true when ordered to stop ASAP
+		 * is true when ordered to stop ASAP ; or not started yet
 		 */
 		boolean stop = true;
 
@@ -181,7 +182,6 @@ public class ESIAccount {
 				if (!scheduled && !stop && !paused) {
 					exec.schedule(this, delay_ms, TimeUnit.MILLISECONDS);
 					scheduled = true;
-					logState();
 				}
 			}
 		}
@@ -195,7 +195,9 @@ public class ESIAccount {
 
 		protected void logState() {
 			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started")
-					+ "|" + (paused ? "running" : "paused") + "|" + (scheduled ? "scheduled" : "unscheduled"));
+					+ "|" + (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
+			// , new Exception()
+			);
 		}
 
 		@Override

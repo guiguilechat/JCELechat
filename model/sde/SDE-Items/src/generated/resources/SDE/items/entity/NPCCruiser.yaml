@@ -75,10 +75,6 @@ items:
     id: 43591
     name: ♦ Scythe
     volume: 89000.0
-  ♦ Stabber:
-    id: 43593
-    name: ♦ Stabber
-    volume: 80000.0
   ♦ Thorax:
     id: 46075
     name: ♦ Thorax
@@ -94,4 +90,8 @@ items:
   ♦ test_boss:
     id: 47198
     name: ♦ test_boss
+    volume: 80000.0
+  �� Stabber:
+    id: 43593
+    name: �� Stabber
     volume: 80000.0

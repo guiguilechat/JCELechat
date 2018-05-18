@@ -4717,7 +4717,7 @@ items:
     id: 34467
     name: 万王宝座级YC117年特别版
     volume: 486000.0
-  乌���级YC117年特别版:
+  乌鸦级YC117年特别版:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4792,7 +4792,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34469
-    name: 乌���级YC117年特别版
+    name: 乌鸦级YC117年特别版
     volume: 486000.0
   响尾蛇级YC117年特别版:
     Agility: 0.12800000607967377
@@ -5103,7 +5103,7 @@ items:
     id: 34457
     name: 末日沙场级YC117年特别版
     volume: 486000.0
-  灾难级YC117���特别版:
+  灾难级YC117年特别版:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -5176,7 +5176,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34471
-    name: 灾难级YC117���特别版
+    name: 灾难级YC117年特别版
     volume: 495000.0
   马克瑞级YC117年特别版:
     Agility: 0.09600000083446503
