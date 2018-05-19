@@ -274,9 +274,9 @@ public class SDECompiler {
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
 
-			JMethod attrdouble = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
-			JVar att = attrdouble.param(attributeClass, "attribute");
-			JSwitch js = attrdouble.body()._switch(att.invoke("getId"));
+			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+			JVar att = attrMeth.param(attributeClass, "attribute");
+			JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
 			js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
 
 			// create a method to load the values of the fields in root class from the
@@ -301,7 +301,19 @@ public class SDECompiler {
 
 			JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
 			JVar itemparam = valueMeth.param(typeClass, "item");
-			valueMeth.body()._return(itemparam.invoke(attrdouble).arg(JExpr._this()));
+			valueMeth.body()._return(itemparam.invoke(attrMeth).arg(JExpr._this()));
+
+			JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
+			valueDoubleMeth.annotate(Override.class);
+			JVar itemDoubleparam = valueDoubleMeth.param(typeClass, "item");
+			valueDoubleMeth.body()._return(JExpr._super().invoke("value").arg(itemDoubleparam).invoke("doubleValue"));
+
+			JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, cm.INT.boxify(), "value");
+			valueIntMeth.annotate(Override.class);
+			JVar itemIntparam = valueIntMeth.param(typeClass, "item");
+			valueIntMeth.body()._return(JExpr._super().invoke("value").arg(itemIntparam).invoke("intValue"));
+
+			// valueDoubleMeth = attr
 		} catch (JClassAlreadyExistsException e2) {
 			throw new UnsupportedOperationException("catch this", e2);
 		}
