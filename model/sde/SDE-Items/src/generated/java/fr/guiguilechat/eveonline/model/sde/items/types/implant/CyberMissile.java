@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -87,7 +86,8 @@ public class CyberMissile
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
     private static LinkedHashMap<String, CyberMissile> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -97,23 +97,6 @@ public class CyberMissile
             {
                 return AoeVelocityBonus;
             }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  310 :
             {
                 return CpuNeedBonus;
@@ -130,9 +113,17 @@ public class CyberMissile
             {
                 return MaxFlightTimeBonus;
             }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
             case  293 :
             {
                 return RofBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
             }
             case  422 :
             {
@@ -140,7 +131,7 @@ public class CyberMissile
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

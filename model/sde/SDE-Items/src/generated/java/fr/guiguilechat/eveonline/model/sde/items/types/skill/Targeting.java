@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -80,11 +79,16 @@ public class Targeting
     public final static String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
     private static LinkedHashMap<String, Targeting> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  311 :
             {
                 return MaxTargetBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
             }
             case  180 :
             {
@@ -98,6 +102,10 @@ public class Targeting
             {
                 return RequiredSkill1Level;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
             case  181 :
             {
                 return SecondaryAttribute;
@@ -106,30 +114,13 @@ public class Targeting
             {
                 return SensorStrengthBonus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
             case  275 :
             {
                 return SkillTimeConstant;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

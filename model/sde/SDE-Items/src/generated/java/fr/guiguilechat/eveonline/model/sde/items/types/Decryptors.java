@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -47,7 +47,8 @@ public abstract class Decryptors
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1113 :
             {
@@ -67,7 +68,7 @@ public abstract class Decryptors
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

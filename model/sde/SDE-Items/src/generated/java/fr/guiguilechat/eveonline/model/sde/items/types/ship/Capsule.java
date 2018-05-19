@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -45,21 +44,13 @@ public class Capsule
     public final static String RESOURCE_PATH = "SDE/items/ship/Capsule.yaml";
     private static LinkedHashMap<String, Capsule> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1971 :
             {
                 return JumpFatigueMultiplier;
             }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  129 :
             {
                 return MaxPassengers;
@@ -74,7 +65,7 @@ public class Capsule
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

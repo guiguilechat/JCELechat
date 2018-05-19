@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -227,69 +226,13 @@ public class AdvancedTorpedo
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
     private static LinkedHashMap<String, AdvancedTorpedo> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
             }
-            case  1353 :
-            {
-                return AoeDamageReductionFactor;
-            }
-            case  653 :
-            {
-                return AoeVelocity;
-            }
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  113 :
-            {
-                return EmDamageResonance;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  111 :
-            {
-                return ExplosiveDamageResonance;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
-            case  109 :
-            {
-                return KineticDamageResonance;
-            }
-            case  37 :
-            {
-                return MaxVelocity;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            case  118 :
-            {
-                return ThermalDamage;
-            }
-            case  110 :
-            {
-                return ThermalDamageResonance;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  644 :
             {
                 return AimedLaunch;
@@ -298,9 +241,17 @@ public class AdvancedTorpedo
             {
                 return AoeCloudSize;
             }
+            case  1353 :
+            {
+                return AoeDamageReductionFactor;
+            }
             case  655 :
             {
                 return AoeFalloff;
+            }
+            case  653 :
+            {
+                return AoeVelocity;
             }
             case  613 :
             {
@@ -314,17 +265,45 @@ public class AdvancedTorpedo
             {
                 return DetonationRange;
             }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
             case  281 :
             {
                 return ExplosionDelay;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
             }
             case  9 :
             {
                 return Hp;
             }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
+            }
             case  137 :
             {
                 return LauncherGroup;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
             }
             case  633 :
             {
@@ -354,13 +333,25 @@ public class AdvancedTorpedo
             {
                 return RequiredSkill3Level;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  422 :
             {
                 return TechLevel;
             }
+            case  118 :
+            {
+                return ThermalDamage;
+            }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

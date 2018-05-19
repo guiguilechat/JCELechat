@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -171,7 +170,8 @@ public class AdvancedAutocannonAmmo
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedAutocannonAmmo.yaml";
     private static LinkedHashMap<String, AdvancedAutocannonAmmo> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -181,50 +181,13 @@ public class AdvancedAutocannonAmmo
             {
                 return BaseShieldDamage;
             }
-            case  128 :
-            {
-                return ChargeSize;
-            }
-            case  137 :
-            {
-                return LauncherGroup;
-            }
-            case  124 :
-            {
-                return MainColor;
-            }
-            case  633 :
-            {
-                return MetaLevel;
-            }
-            case  608 :
-            {
-                return PowerNeedMultiplier;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  144 :
             {
                 return CapacitorRechargeRateMultiplier;
+            }
+            case  128 :
+            {
+                return ChargeSize;
             }
             case  202 :
             {
@@ -250,13 +213,41 @@ public class AdvancedAutocannonAmmo
             {
                 return KineticDamage;
             }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
+            case  124 :
+            {
+                return MainColor;
+            }
             case  306 :
             {
                 return MaxVelocityModifier;
             }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  608 :
+            {
+                return PowerNeedMultiplier;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  118 :
             {
@@ -272,7 +263,7 @@ public class AdvancedAutocannonAmmo
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

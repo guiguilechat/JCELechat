@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -171,7 +170,8 @@ public class StructureECMBattery
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureECMBattery.yaml";
     private static LinkedHashMap<String, StructureECMBattery> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -185,6 +185,10 @@ public class StructureECMBattery
             {
                 return CanFitShipGroup03;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  604 :
             {
                 return ChargeGroup1;
@@ -192,6 +196,14 @@ public class StructureECMBattery
             case  128 :
             {
                 return ChargeSize;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  2044 :
             {
@@ -217,42 +229,13 @@ public class StructureECMBattery
             {
                 return Power;
             }
-            case  2138 :
-            {
-                return RemoteResistanceID;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
             case  1795 :
             {
                 return ReloadTime;
+            }
+            case  2138 :
+            {
+                return RemoteResistanceID;
             }
             case  238 :
             {
@@ -270,9 +253,17 @@ public class StructureECMBattery
             {
                 return ScanRadarStrengthBonus;
             }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
+            case  422 :
+            {
+                return TechLevel;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

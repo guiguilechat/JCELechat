@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -192,7 +191,8 @@ public class Refinery
     public final static String RESOURCE_PATH = "SDE/items/structure/Refinery.yaml";
     private static LinkedHashMap<String, Refinery> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2698 :
             {
@@ -258,6 +258,10 @@ public class Refinery
             {
                 return ServiceSlots;
             }
+            case  2721 :
+            {
+                return StrReactionTimeMultiplier;
+            }
             case  2722 :
             {
                 return StrRefiningYieldBonus;
@@ -292,20 +296,7 @@ public class Refinery
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2721 :
-            {
-                return StrReactionTimeMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -122,7 +121,8 @@ public class TargetPainter
     public final static String RESOURCE_PATH = "SDE/items/module/TargetPainter.yaml";
     private static LinkedHashMap<String, TargetPainter> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -136,6 +136,10 @@ public class TargetPainter
             {
                 return Duration;
             }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
             case  1180 :
             {
                 return HeatAbsorbtionRateModifier;
@@ -143,23 +147,6 @@ public class TargetPainter
             case  1211 :
             {
                 return HeatDamage;
-            }
-            case  554 :
-            {
-                return SignatureRadiusBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2044 :
-            {
-                return FalloffEffectiveness;
             }
             case  54 :
             {
@@ -193,9 +180,13 @@ public class TargetPainter
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

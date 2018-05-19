@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,11 +149,16 @@ public class StructureEngineeringRigXLLaboratoryOptimization
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigXLLaboratoryOptimization.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigXLLaboratoryOptimization> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
                 return AttributeEngRigCostBonus;
+            }
+            case  2594 :
+            {
+                return AttributeEngRigMatBonus;
             }
             case  2593 :
             {
@@ -168,13 +172,25 @@ public class StructureEngineeringRigXLLaboratoryOptimization
             {
                 return CanFitShipGroup02;
             }
+            case  2355 :
+            {
+                return HiSecModifier;
+            }
             case  9 :
             {
                 return Hp;
             }
+            case  2356 :
+            {
+                return LowSecModifier;
+            }
             case  1544 :
             {
                 return MaxGroupFitted;
+            }
+            case  2357 :
+            {
+                return NullSecModifier;
             }
             case  182 :
             {
@@ -200,6 +216,10 @@ public class StructureEngineeringRigXLLaboratoryOptimization
             {
                 return StructureRigBonus1;
             }
+            case  2096 :
+            {
+                return StructureRigBonus2;
+            }
             case  422 :
             {
                 return TechLevel;
@@ -210,36 +230,7 @@ public class StructureEngineeringRigXLLaboratoryOptimization
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2594 :
-            {
-                return AttributeEngRigMatBonus;
-            }
-            case  2355 :
-            {
-                return HiSecModifier;
-            }
-            case  2356 :
-            {
-                return LowSecModifier;
-            }
-            case  2357 :
-            {
-                return NullSecModifier;
-            }
-            case  2096 :
-            {
-                return StructureRigBonus2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

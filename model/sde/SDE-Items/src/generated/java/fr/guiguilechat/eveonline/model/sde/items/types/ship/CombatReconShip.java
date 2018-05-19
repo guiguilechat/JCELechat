@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -241,7 +240,8 @@ public class CombatReconShip
     public final static String RESOURCE_PATH = "SDE/items/ship/CombatReconShip.yaml";
     private static LinkedHashMap<String, CombatReconShip> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1958 :
             {
@@ -255,9 +255,25 @@ public class CombatReconShip
             {
                 return EliteBonusReconShip2;
             }
+            case  1537 :
+            {
+                return EliteBonusReconShip3;
+            }
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -311,47 +327,6 @@ public class CombatReconShip
             {
                 return ScanSpeed;
             }
-            case  487 :
-            {
-                return ShipBonusCC;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1537 :
-            {
-                return EliteBonusReconShip3;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
             case  478 :
             {
                 return ShipBonusAC;
@@ -359,6 +334,10 @@ public class CombatReconShip
             case  656 :
             {
                 return ShipBonusAC2;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
             }
             case  657 :
             {
@@ -380,9 +359,21 @@ public class CombatReconShip
             {
                 return ShipBonusMC2;
             }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

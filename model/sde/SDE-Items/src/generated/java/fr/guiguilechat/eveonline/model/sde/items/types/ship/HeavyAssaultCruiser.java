@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -283,7 +282,8 @@ public class HeavyAssaultCruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/HeavyAssaultCruiser.yaml";
     private static LinkedHashMap<String, HeavyAssaultCruiser> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1803 :
             {
@@ -293,9 +293,25 @@ public class HeavyAssaultCruiser
             {
                 return EliteBonusHeavyGunship1;
             }
+            case  693 :
+            {
+                return EliteBonusHeavyGunship2;
+            }
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -324,6 +340,10 @@ public class HeavyAssaultCruiser
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -357,6 +377,14 @@ public class HeavyAssaultCruiser
             {
                 return ScanSpeed;
             }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
+            case  656 :
+            {
+                return ShipBonusAC2;
+            }
             case  2070 :
             {
                 return ShipBonusAC3;
@@ -373,9 +401,29 @@ public class HeavyAssaultCruiser
             {
                 return ShipBonusCC;
             }
+            case  657 :
+            {
+                return ShipBonusCC2;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  658 :
+            {
+                return ShipBonusGC2;
+            }
             case  2014 :
             {
                 return ShipBonusGC3;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
+            }
+            case  659 :
+            {
+                return ShipBonusMC2;
             }
             case  1768 :
             {
@@ -391,64 +439,7 @@ public class HeavyAssaultCruiser
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  693 :
-            {
-                return EliteBonusHeavyGunship2;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  478 :
-            {
-                return ShipBonusAC;
-            }
-            case  656 :
-            {
-                return ShipBonusAC2;
-            }
-            case  657 :
-            {
-                return ShipBonusCC2;
-            }
-            case  486 :
-            {
-                return ShipBonusGC;
-            }
-            case  658 :
-            {
-                return ShipBonusGC2;
-            }
-            case  489 :
-            {
-                return ShipBonusMC;
-            }
-            case  659 :
-            {
-                return ShipBonusMC2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

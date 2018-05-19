@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -276,7 +275,8 @@ public class Marauder
     public final static String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
     private static LinkedHashMap<String, Marauder> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1265 :
             {
@@ -286,55 +286,6 @@ public class Marauder
             {
                 return EliteBonusViolators2;
             }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  492 :
-            {
-                return ShipBonusAB;
-            }
-            case  585 :
-            {
-                return ShipBonusAB2;
-            }
-            case  500 :
-            {
-                return ShipBonusGB;
-            }
-            case  561 :
-            {
-                return ShipBonusGB2;
-            }
-            case  490 :
-            {
-                return ShipBonusMB;
-            }
-            case  518 :
-            {
-                return ShipBonusMB2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1268 :
             {
                 return EliteBonusViolatorsRole1;
@@ -350,6 +301,18 @@ public class Marauder
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -374,6 +337,10 @@ public class Marauder
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -415,6 +382,14 @@ public class Marauder
             {
                 return ShipBonus2CB;
             }
+            case  492 :
+            {
+                return ShipBonusAB;
+            }
+            case  585 :
+            {
+                return ShipBonusAB2;
+            }
             case  491 :
             {
                 return ShipBonusCB;
@@ -422,6 +397,22 @@ public class Marauder
             case  598 :
             {
                 return ShipBonusCB3;
+            }
+            case  500 :
+            {
+                return ShipBonusGB;
+            }
+            case  561 :
+            {
+                return ShipBonusGB2;
+            }
+            case  490 :
+            {
+                return ShipBonusMB;
+            }
+            case  518 :
+            {
+                return ShipBonusMB2;
             }
             case  1768 :
             {
@@ -437,7 +428,7 @@ public class Marauder
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -101,7 +100,8 @@ public class CountermeasureLauncher
     public final static String RESOURCE_PATH = "SDE/items/module/CountermeasureLauncher.yaml";
     private static LinkedHashMap<String, CountermeasureLauncher> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  604 :
             {
@@ -123,9 +123,17 @@ public class CountermeasureLauncher
             {
                 return ChargeRate;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -145,24 +153,7 @@ public class CountermeasureLauncher
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

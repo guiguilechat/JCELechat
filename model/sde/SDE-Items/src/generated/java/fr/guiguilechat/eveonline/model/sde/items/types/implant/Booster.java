@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -311,11 +310,36 @@ public class Booster
     public final static String RESOURCE_PATH = "SDE/items/implant/Booster.yaml";
     private static LinkedHashMap<String, Booster> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
                 return AoeCloudSizeBonus;
+            }
+            case  895 :
+            {
+                return ArmorDamageAmountBonus;
+            }
+            case  1147 :
+            {
+                return BoosterAOEVelocityPenalty;
+            }
+            case  1141 :
+            {
+                return BoosterArmorHPPenalty;
+            }
+            case  1142 :
+            {
+                return BoosterArmorRepairAmountPenalty;
+            }
+            case  1150 :
+            {
+                return BoosterCapacitorCapacityPenalty;
+            }
+            case  330 :
+            {
+                return BoosterDuration;
             }
             case  1089 :
             {
@@ -340,67 +364,6 @@ public class Booster
             case  2422 :
             {
                 return BoosterLastInjectionDatetime;
-            }
-            case  1079 :
-            {
-                return CapacitorCapacityBonus;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  548 :
-            {
-                return ShieldBoostMultiplier;
-            }
-            case  554 :
-            {
-                return SignatureRadiusBonus;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            case  315 :
-            {
-                return VelocityBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  895 :
-            {
-                return ArmorDamageAmountBonus;
-            }
-            case  1147 :
-            {
-                return BoosterAOEVelocityPenalty;
-            }
-            case  1141 :
-            {
-                return BoosterArmorHPPenalty;
-            }
-            case  1142 :
-            {
-                return BoosterArmorRepairAmountPenalty;
-            }
-            case  1150 :
-            {
-                return BoosterCapacitorCapacityPenalty;
-            }
-            case  330 :
-            {
-                return BoosterDuration;
             }
             case  1647 :
             {
@@ -442,6 +405,10 @@ public class Booster
             {
                 return Boosterness;
             }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
             case  175 :
             {
                 return CharismaBonus;
@@ -449,6 +416,10 @@ public class Booster
             case  292 :
             {
                 return DamageMultiplierBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
             }
             case  1916 :
             {
@@ -486,13 +457,33 @@ public class Booster
             {
                 return RofBonus;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  548 :
+            {
+                return ShieldBoostMultiplier;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
+            case  315 :
+            {
+                return VelocityBonus;
+            }
             case  179 :
             {
                 return WillpowerBonus;
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

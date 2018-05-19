@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -157,7 +156,8 @@ public class ShipModifiers
     public final static String RESOURCE_PATH = "SDE/items/module/ShipModifiers.yaml";
     private static LinkedHashMap<String, ShipModifiers> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2002 :
             {
@@ -175,6 +175,10 @@ public class ShipModifiers
             {
                 return ModeEmResistancePostDiv;
             }
+            case  2590 :
+            {
+                return ModeEwarResistancePostDiv;
+            }
             case  1998 :
             {
                 return ModeExplosiveResistancePostDiv;
@@ -190,6 +194,14 @@ public class ShipModifiers
             case  1994 :
             {
                 return ModeLadarStrengthPostDiv;
+            }
+            case  2032 :
+            {
+                return ModeMWDCapPostDiv;
+            }
+            case  2007 :
+            {
+                return ModeMWDSigPenaltyPostDiv;
             }
             case  2031 :
             {
@@ -229,28 +241,7 @@ public class ShipModifiers
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2590 :
-            {
-                return ModeEwarResistancePostDiv;
-            }
-            case  2032 :
-            {
-                return ModeMWDCapPostDiv;
-            }
-            case  2007 :
-            {
-                return ModeMWDSigPenaltyPostDiv;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

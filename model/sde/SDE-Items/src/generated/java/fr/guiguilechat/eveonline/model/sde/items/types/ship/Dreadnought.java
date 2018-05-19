@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -549,7 +548,8 @@ public class Dreadnought
     public final static String RESOURCE_PATH = "SDE/items/ship/Dreadnought.yaml";
     private static LinkedHashMap<String, Dreadnought> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -566,6 +566,14 @@ public class Dreadnought
             case  1970 :
             {
                 return DisallowInHighSec;
+            }
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  2754 :
+            {
+                return EntosisAssistanceImpedanceMultiplier;
             }
             case  2021 :
             {
@@ -611,6 +619,18 @@ public class Dreadnought
             {
                 return HasShipMaintenanceBay;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
@@ -618,6 +638,10 @@ public class Dreadnought
             case  1785 :
             {
                 return IsCapitalSize;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
             }
             case  868 :
             {
@@ -630,6 +654,10 @@ public class Dreadnought
             case  869 :
             {
                 return JumpDriveDuration;
+            }
+            case  867 :
+            {
+                return JumpDriveRange;
             }
             case  1253 :
             {
@@ -663,9 +691,21 @@ public class Dreadnought
             {
                 return MetaGroupID;
             }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
             case  1945 :
             {
                 return NosOverride;
+            }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
             }
             case  182 :
             {
@@ -715,6 +755,10 @@ public class Dreadnought
             {
                 return ScanSpeed;
             }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
             case  2283 :
             {
                 return ShipBonusDreadnoughtA1;
@@ -763,6 +807,10 @@ public class Dreadnought
             {
                 return ShipBonusDreadnoughtM3;
             }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
             case  2300 :
             {
                 return ShipBonusRole3;
@@ -783,6 +831,14 @@ public class Dreadnought
             {
                 return SpecialFuelBayCapacity;
             }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
+            }
             case  1768 :
             {
                 return TypeColorScheme;
@@ -795,78 +851,13 @@ public class Dreadnought
             {
                 return UpgradeSlotsLeft;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2045 :
-            {
-                return EnergyWarfareResistance;
-            }
-            case  2754 :
-            {
-                return EntosisAssistanceImpedanceMultiplier;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  898 :
-            {
-                return JumpDriveCapacitorNeed;
-            }
-            case  867 :
-            {
-                return JumpDriveRange;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  2135 :
-            {
-                return RemoteAssistanceImpedance;
-            }
-            case  2116 :
-            {
-                return RemoteRepairImpedance;
-            }
-            case  2112 :
-            {
-                return SensorDampenerResistance;
-            }
-            case  2298 :
-            {
-                return ShipBonusRole1;
-            }
-            case  2115 :
-            {
-                return StasisWebifierResistance;
-            }
-            case  2114 :
-            {
-                return TargetPainterResistance;
-            }
             case  2113 :
             {
                 return WeaponDisruptionResistance;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

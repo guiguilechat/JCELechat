@@ -13,4 +13,8 @@ public abstract class Attribute {
     public abstract boolean getPublished();
 
     public abstract boolean getStackable();
+
+    public Number value(Item item) {
+        return item.attribute(this);
+    }
 }

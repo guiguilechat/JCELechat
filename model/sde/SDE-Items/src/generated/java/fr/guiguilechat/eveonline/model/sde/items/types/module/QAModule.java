@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -647,173 +646,13 @@ public class QAModule
     public final static String RESOURCE_PATH = "SDE/items/module/QAModule.yaml";
     private static LinkedHashMap<String, QAModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
                 return AccessDifficultyBonus;
             }
-            case  84 :
-            {
-                return ArmorDamageAmount;
-            }
-            case  1159 :
-            {
-                return ArmorHPBonusAdd;
-            }
-            case  67 :
-            {
-                return CapacitorBonus;
-            }
-            case  872 :
-            {
-                return DisallowOffensiveModifiers;
-            }
-            case  1854 :
-            {
-                return DoesNotEmergencyWarp;
-            }
-            case  459 :
-            {
-                return DroneRangeBonus;
-            }
-            case  142 :
-            {
-                return EcmBurstRange;
-            }
-            case  99 :
-            {
-                return EmpFieldRange;
-            }
-            case  796 :
-            {
-                return MassAddition;
-            }
-            case  763 :
-            {
-                return MaxGroupActive;
-            }
-            case  235 :
-            {
-                return MaxLockedTargetsBonus;
-            }
-            case  54 :
-            {
-                return MaxRange;
-            }
-            case  1905 :
-            {
-                return MaxScanDeviationModifierModule;
-            }
-            case  1333 :
-            {
-                return MaxVelocityLimited;
-            }
-            case  434 :
-            {
-                return MiningAmountBonus;
-            }
-            case  1938 :
-            {
-                return MiningAmountBonusBonus;
-            }
-            case  669 :
-            {
-                return ModuleReactivationDelay;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  806 :
-            {
-                return RepairBonus;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
-            }
-            case  184 :
-            {
-                return RequiredSkill3;
-            }
-            case  279 :
-            {
-                return RequiredSkill3Level;
-            }
-            case  1212 :
-            {
-                return RequiredThermoDynamicsSkill;
-            }
-            case  1906 :
-            {
-                return ScanDurationBonus;
-            }
-            case  1027 :
-            {
-                return ScanGravimetricStrengthPercent;
-            }
-            case  1028 :
-            {
-                return ScanLadarStrengthPercent;
-            }
-            case  1029 :
-            {
-                return ScanMagnetometricStrengthPercent;
-            }
-            case  1030 :
-            {
-                return ScanRadarStrengthPercent;
-            }
-            case  846 :
-            {
-                return ScanStrengthBonus;
-            }
-            case  1907 :
-            {
-                return ScanStrengthBonusModule;
-            }
-            case  87 :
-            {
-                return ShieldTransferRange;
-            }
-            case  983 :
-            {
-                return SignatureRadiusAdd;
-            }
-            case  1909 :
-            {
-                return VirusCoherence;
-            }
-            case  1911 :
-            {
-                return VirusElementSlots;
-            }
-            case  1910 :
-            {
-                return VirusStrength;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  169 :
             {
                 return AgilityMultiplier;
@@ -826,9 +665,21 @@ public class QAModule
             {
                 return AoeVelocityBonus;
             }
+            case  84 :
+            {
+                return ArmorDamageAmount;
+            }
+            case  1159 :
+            {
+                return ArmorHPBonusAdd;
+            }
             case  148 :
             {
                 return ArmorHPMultiplier;
+            }
+            case  67 :
+            {
+                return CapacitorBonus;
             }
             case  147 :
             {
@@ -866,13 +717,29 @@ public class QAModule
             {
                 return DamageMultiplierMultiplier;
             }
+            case  872 :
+            {
+                return DisallowOffensiveModifiers;
+            }
+            case  1854 :
+            {
+                return DoesNotEmergencyWarp;
+            }
             case  1255 :
             {
                 return DroneDamageBonus;
             }
+            case  459 :
+            {
+                return DroneRangeBonus;
+            }
             case  73 :
             {
                 return Duration;
+            }
+            case  142 :
+            {
+                return EcmBurstRange;
             }
             case  114 :
             {
@@ -885,6 +752,10 @@ public class QAModule
             case  133 :
             {
                 return EmDamageResonanceMultiplier;
+            }
+            case  99 :
+            {
+                return EmpFieldRange;
             }
             case  116 :
             {
@@ -926,13 +797,33 @@ public class QAModule
             {
                 return KineticDamageResonanceMultiplier;
             }
+            case  796 :
+            {
+                return MassAddition;
+            }
             case  622 :
             {
                 return MassLimit;
             }
+            case  763 :
+            {
+                return MaxGroupActive;
+            }
+            case  235 :
+            {
+                return MaxLockedTargetsBonus;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
             case  351 :
             {
                 return MaxRangeBonus;
+            }
+            case  1905 :
+            {
+                return MaxScanDeviationModifierModule;
             }
             case  309 :
             {
@@ -942,37 +833,117 @@ public class QAModule
             {
                 return MaxTargetRangeMultiplier;
             }
+            case  1333 :
+            {
+                return MaxVelocityLimited;
+            }
+            case  434 :
+            {
+                return MiningAmountBonus;
+            }
+            case  1938 :
+            {
+                return MiningAmountBonusBonus;
+            }
             case  213 :
             {
                 return MissileDamageMultiplierBonus;
+            }
+            case  669 :
+            {
+                return ModuleReactivationDelay;
             }
             case  1206 :
             {
                 return OverloadSelfDurationBonus;
             }
+            case  30 :
+            {
+                return Power;
+            }
             case  145 :
             {
                 return PowerOutputMultiplier;
+            }
+            case  806 :
+            {
+                return RepairBonus;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
+            case  1212 :
+            {
+                return RequiredThermoDynamicsSkill;
+            }
+            case  1906 :
+            {
+                return ScanDurationBonus;
             }
             case  238 :
             {
                 return ScanGravimetricStrengthBonus;
             }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
             case  239 :
             {
                 return ScanLadarStrengthBonus;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
             }
             case  240 :
             {
                 return ScanMagnetometricStrengthBonus;
             }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
             case  241 :
             {
                 return ScanRadarStrengthBonus;
             }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
             case  566 :
             {
                 return ScanResolutionBonus;
+            }
+            case  846 :
+            {
+                return ScanStrengthBonus;
+            }
+            case  1907 :
+            {
+                return ScanStrengthBonusModule;
             }
             case  68 :
             {
@@ -993,6 +964,14 @@ public class QAModule
             case  134 :
             {
                 return ShieldRechargeRateMultiplier;
+            }
+            case  87 :
+            {
+                return ShieldTransferRange;
+            }
+            case  983 :
+            {
+                return SignatureRadiusAdd;
             }
             case  20 :
             {
@@ -1018,9 +997,21 @@ public class QAModule
             {
                 return TrackingSpeedBonus;
             }
+            case  1909 :
+            {
+                return VirusCoherence;
+            }
+            case  1911 :
+            {
+                return VirusElementSlots;
+            }
+            case  1910 :
+            {
+                return VirusStrength;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

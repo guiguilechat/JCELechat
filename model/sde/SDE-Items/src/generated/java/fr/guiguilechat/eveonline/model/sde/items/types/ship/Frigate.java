@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -549,7 +548,8 @@ public class Frigate
     public final static String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
     private static LinkedHashMap<String, Frigate> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2464 :
             {
@@ -559,6 +559,10 @@ public class Frigate
             {
                 return AllowedInCapIndustrialMaintenanceBay;
             }
+            case  216 :
+            {
+                return CapacitorNeedMultiplier;
+            }
             case  1034 :
             {
                 return CovertOpsAndReconOpsCloakModuleDelay;
@@ -566,6 +570,10 @@ public class Frigate
             case  1280 :
             {
                 return EliteBonusInterceptorRole;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
             }
             case  2055 :
             {
@@ -591,9 +599,37 @@ public class Frigate
             {
                 return FwLpKill;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
             }
             case  2580 :
             {
@@ -619,6 +655,10 @@ public class Frigate
             {
                 return MaxPassengers;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
             case  13 :
             {
                 return MedSlots;
@@ -627,9 +667,17 @@ public class Frigate
             {
                 return MetaGroupID;
             }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
             case  1838 :
             {
                 return MiniProfessionRangeBonus;
+            }
+            case  207 :
+            {
+                return MiningAmountMultiplier;
             }
             case  1945 :
             {
@@ -675,6 +723,10 @@ public class Frigate
             {
                 return ScanSpeed;
             }
+            case  485 :
+            {
+                return ShipBonus2AF;
+            }
             case  1624 :
             {
                 return ShipBonus3CF;
@@ -683,9 +735,33 @@ public class Frigate
             {
                 return ShipBonus3MF;
             }
+            case  464 :
+            {
+                return ShipBonusAF;
+            }
             case  463 :
             {
                 return ShipBonusCF;
+            }
+            case  588 :
+            {
+                return ShipBonusCF2;
+            }
+            case  462 :
+            {
+                return ShipBonusGF;
+            }
+            case  586 :
+            {
+                return ShipBonusGF2;
+            }
+            case  460 :
+            {
+                return ShipBonusMF;
+            }
+            case  587 :
+            {
+                return ShipBonusMF2;
             }
             case  1842 :
             {
@@ -694,6 +770,14 @@ public class Frigate
             case  1843 :
             {
                 return ShipBonusOREfrig2;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
+            case  1688 :
+            {
+                return ShipBonusRole8;
             }
             case  511 :
             {
@@ -773,100 +857,7 @@ public class Frigate
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  216 :
-            {
-                return CapacitorNeedMultiplier;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  207 :
-            {
-                return MiningAmountMultiplier;
-            }
-            case  485 :
-            {
-                return ShipBonus2AF;
-            }
-            case  464 :
-            {
-                return ShipBonusAF;
-            }
-            case  588 :
-            {
-                return ShipBonusCF2;
-            }
-            case  462 :
-            {
-                return ShipBonusGF;
-            }
-            case  586 :
-            {
-                return ShipBonusGF2;
-            }
-            case  460 :
-            {
-                return ShipBonusMF;
-            }
-            case  587 :
-            {
-                return ShipBonusMF2;
-            }
-            case  793 :
-            {
-                return ShipBonusRole7;
-            }
-            case  1688 :
-            {
-                return ShipBonusRole8;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

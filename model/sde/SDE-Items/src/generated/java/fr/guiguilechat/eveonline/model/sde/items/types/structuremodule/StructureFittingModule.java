@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -94,7 +93,8 @@ public class StructureFittingModule
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
     private static LinkedHashMap<String, StructureFittingModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -108,6 +108,14 @@ public class StructureFittingModule
             {
                 return CanFitShipGroup03;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  202 :
+            {
+                return CpuMultiplier;
+            }
             case  9 :
             {
                 return Hp;
@@ -120,6 +128,10 @@ public class StructureFittingModule
             {
                 return Power;
             }
+            case  145 :
+            {
+                return PowerOutputMultiplier;
+            }
             case  2334 :
             {
                 return StructureItemVisualFlag;
@@ -130,28 +142,7 @@ public class StructureFittingModule
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  202 :
-            {
-                return CpuMultiplier;
-            }
-            case  145 :
-            {
-                return PowerOutputMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -178,7 +177,8 @@ public class WeaponDisruptor
     public final static String RESOURCE_PATH = "SDE/items/module/WeaponDisruptor.yaml";
     private static LinkedHashMap<String, WeaponDisruptor> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -191,6 +191,14 @@ public class WeaponDisruptor
             case  6 :
             {
                 return CapacitorNeed;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
             }
             case  50 :
             {
@@ -208,6 +216,10 @@ public class WeaponDisruptor
             {
                 return FalloffBonus;
             }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
             case  1180 :
             {
                 return HeatAbsorbtionRateModifier;
@@ -216,50 +228,21 @@ public class WeaponDisruptor
             {
                 return HeatDamage;
             }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  604 :
-            {
-                return ChargeGroup1;
-            }
-            case  128 :
-            {
-                return ChargeSize;
-            }
-            case  2044 :
-            {
-                return FalloffEffectiveness;
-            }
             case  54 :
             {
                 return MaxRange;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
             }
             case  1935 :
             {
@@ -268,6 +251,10 @@ public class WeaponDisruptor
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -281,9 +268,13 @@ public class WeaponDisruptor
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

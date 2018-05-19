@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,35 +135,68 @@ public class StructureAntiSubcapitalMissile
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
     private static LinkedHashMap<String, StructureAntiSubcapitalMissile> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
             }
+            case  644 :
+            {
+                return AimedLaunch;
+            }
+            case  654 :
+            {
+                return AoeCloudSize;
+            }
             case  1353 :
             {
                 return AoeDamageReductionFactor;
+            }
+            case  655 :
+            {
+                return AoeFalloff;
             }
             case  653 :
             {
                 return AoeVelocity;
             }
+            case  108 :
+            {
+                return DetonationRange;
+            }
             case  114 :
             {
                 return EmDamage;
+            }
+            case  281 :
+            {
+                return ExplosionDelay;
             }
             case  116 :
             {
                 return ExplosiveDamage;
             }
+            case  9 :
+            {
+                return Hp;
+            }
             case  117 :
             {
                 return KineticDamage;
             }
+            case  137 :
+            {
+                return LauncherGroup;
+            }
             case  37 :
             {
                 return MaxVelocity;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
             }
             case  525 :
             {
@@ -176,48 +208,7 @@ public class StructureAntiSubcapitalMissile
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  644 :
-            {
-                return AimedLaunch;
-            }
-            case  654 :
-            {
-                return AoeCloudSize;
-            }
-            case  655 :
-            {
-                return AoeFalloff;
-            }
-            case  108 :
-            {
-                return DetonationRange;
-            }
-            case  281 :
-            {
-                return ExplosionDelay;
-            }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  137 :
-            {
-                return LauncherGroup;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,7 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
@@ -99,7 +99,8 @@ public class StructureDrillingRigMStability
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
     private static LinkedHashMap<String, StructureDrillingRigMStability> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1300 :
             {
@@ -151,7 +152,7 @@ public class StructureDrillingRigMStability
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

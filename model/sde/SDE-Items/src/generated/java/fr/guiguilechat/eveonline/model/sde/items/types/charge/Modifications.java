@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,7 +149,8 @@ public class Modifications
     public final static String RESOURCE_PATH = "SDE/items/charge/Modifications.yaml";
     private static LinkedHashMap<String, Modifications> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  67 :
             {
@@ -159,6 +159,14 @@ public class Modifications
             case  128 :
             {
                 return ChargeSize;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  958 :
+            {
+                return HardeningBonus;
             }
             case  9 :
             {
@@ -171,6 +179,10 @@ public class Modifications
             case  124 :
             {
                 return MainColor;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
             }
             case  294 :
             {
@@ -192,6 +204,10 @@ public class Modifications
             {
                 return RequiredSkill2;
             }
+            case  337 :
+            {
+                return ShieldCapacityBonus;
+            }
             case  280 :
             {
                 return SkillLevel;
@@ -208,38 +224,13 @@ public class Modifications
             {
                 return TurretSpeeBonus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  958 :
-            {
-                return HardeningBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  337 :
-            {
-                return ShieldCapacityBonus;
-            }
             case  315 :
             {
                 return VelocityBonus;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

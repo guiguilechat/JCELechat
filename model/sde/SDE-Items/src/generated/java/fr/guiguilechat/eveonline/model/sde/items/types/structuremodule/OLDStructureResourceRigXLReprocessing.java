@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -122,7 +121,8 @@ public class OLDStructureResourceRigXLReprocessing
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/OLDStructureResourceRigXLReprocessing.yaml";
     private static LinkedHashMap<String, OLDStructureResourceRigXLReprocessing> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -132,13 +132,29 @@ public class OLDStructureResourceRigXLReprocessing
             {
                 return CanFitShipGroup02;
             }
+            case  2355 :
+            {
+                return HiSecModifier;
+            }
             case  9 :
             {
                 return Hp;
             }
+            case  2356 :
+            {
+                return LowSecModifier;
+            }
             case  1544 :
             {
                 return MaxGroupFitted;
+            }
+            case  2357 :
+            {
+                return NullSecModifier;
+            }
+            case  717 :
+            {
+                return RefiningYieldMultiplier;
             }
             case  182 :
             {
@@ -170,32 +186,7 @@ public class OLDStructureResourceRigXLReprocessing
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2355 :
-            {
-                return HiSecModifier;
-            }
-            case  2356 :
-            {
-                return LowSecModifier;
-            }
-            case  2357 :
-            {
-                return NullSecModifier;
-            }
-            case  717 :
-            {
-                return RefiningYieldMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

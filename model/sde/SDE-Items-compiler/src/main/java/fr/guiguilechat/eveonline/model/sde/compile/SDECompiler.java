@@ -151,6 +151,7 @@ public class SDECompiler {
 			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
 			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
 			attributeClass.method(JMod.PUBLIC|JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
+
 			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")
 					._extends(attributeClass);
 			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
@@ -272,18 +273,12 @@ public class SDECompiler {
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
-			{
-				JMethod attrint = typeClass.method(JMod.PUBLIC, cm.INT, "attributeInt");
-				JVar att = attrint.param(intAttribute, "attribute");
-				JSwitch js = attrint.body()._switch(att.invoke("getId"));
-				js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
-			}
-			{
-				JMethod attrdouble = typeClass.method(JMod.PUBLIC, cm.DOUBLE, "attributeDouble");
-				JVar att = attrdouble.param(doubleAttribute, "attribute");
-				JSwitch js = attrdouble.body()._switch(att.invoke("getId"));
-				js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
-			}
+
+			JMethod attrdouble = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+			JVar att = attrdouble.param(attributeClass, "attribute");
+			JSwitch js = attrdouble.body()._switch(att.invoke("getId"));
+			js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
 			JMethod loadDefault = typeClass.method(JMod.PUBLIC, cm.VOID, "loadDefault");
@@ -303,6 +298,10 @@ public class SDECompiler {
 			tryblock.body().invoke(fr.var(), "setAccessible").arg(JExpr.lit(true));
 			tryblock.body().invoke(fr.var(), "set").arg(JExpr._this()).arg(JExpr.invoke(annotLong, "value"));
 			tryblock._catch(cm.ref(Exception.class));
+
+			JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
+			JVar itemparam = valueMeth.param(typeClass, "item");
+			valueMeth.body()._return(itemparam.invoke(attrdouble).arg(JExpr._this()));
 		} catch (JClassAlreadyExistsException e2) {
 			throw new UnsupportedOperationException("catch this", e2);
 		}
@@ -494,8 +493,7 @@ public class SDECompiler {
 		Integer[] sortedAttIds = attributeIDs.stream()
 				.sorted((i1, i2) -> attTypes.get(i1).attributeName.compareTo(attTypes.get(i2).attributeName))
 				.toArray(Integer[]::new);
-		JSwitch jsint = null;
-		JSwitch jsdouble = null;
+		JSwitch jsAttr = null;
 
 		for (Integer attributeID : sortedAttIds) {
 			EdgmAttributeTypes attr = attTypes.get(attributeID);
@@ -505,28 +503,21 @@ public class SDECompiler {
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (isDouble) {
 				f.annotate(getDefaultDoubleValueAnnotation()).param("value", attr.defaultValue);
-				if (jsdouble == null) {
-					JMethod attrdouble = cl.method(JMod.PUBLIC, cm.DOUBLE, "attributeDouble");
-					JVar att = attrdouble.param(doubleAttribute, "attribute");
-					jsdouble = attrdouble.body()._switch(att.invoke("getId"));
-				}
-				jsdouble._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			} else {
 				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
-				if (jsint == null) {
-					JMethod attrint = cl.method(JMod.PUBLIC, cm.INT, "attributeInt");
-					JVar att = attrint.param(intAttribute, "attribute");
-					jsint = attrint.body()._switch(att.invoke("getId"));
-				}
-				jsint._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			}
+			if (jsAttr == null) {
+				JMethod attrMeth = cl.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+				attrMeth.annotate(Override.class);
+				JVar att = attrMeth.param(attributeClass, "attribute");
+				jsAttr = attrMeth.body()._switch(att.invoke("getId"));
+			}
+			jsAttr._case(JExpr.lit(attr.attributeID)).body()._return(f);
 			f.javadoc().add(attr.description);
 		}
-		if (jsint != null) {
-			jsint._default().body()._return(JExpr._super().invoke("attributeInt").arg(JExpr.direct("attribute")));
-		}
-		if (jsdouble != null) {
-			jsdouble._default().body()._return(JExpr._super().invoke("attributeDouble").arg(JExpr.direct("attribute")));
+		if(jsAttr!=null)
+		{
+			jsAttr._default().body()._return(JExpr._super().invoke("attribute").arg(JExpr.direct("attribute")));
 		}
 	}
 

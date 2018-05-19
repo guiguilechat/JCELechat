@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,7 +149,8 @@ public class ECM
     public final static String RESOURCE_PATH = "SDE/items/module/ECM.yaml";
     private static LinkedHashMap<String, ECM> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -164,39 +164,6 @@ public class ECM
             {
                 return Duration;
             }
-            case  1180 :
-            {
-                return HeatAbsorbtionRateModifier;
-            }
-            case  1211 :
-            {
-                return HeatDamage;
-            }
-            case  238 :
-            {
-                return ScanGravimetricStrengthBonus;
-            }
-            case  239 :
-            {
-                return ScanLadarStrengthBonus;
-            }
-            case  240 :
-            {
-                return ScanMagnetometricStrengthBonus;
-            }
-            case  241 :
-            {
-                return ScanRadarStrengthBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  831 :
             {
                 return EwTargetJam;
@@ -204,6 +171,14 @@ public class ECM
             case  2044 :
             {
                 return FalloffEffectiveness;
+            }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
             }
             case  54 :
             {
@@ -237,9 +212,25 @@ public class ECM
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

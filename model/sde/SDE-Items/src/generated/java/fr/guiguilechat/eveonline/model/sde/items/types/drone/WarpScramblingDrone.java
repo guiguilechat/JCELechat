@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -269,7 +268,8 @@ public class WarpScramblingDrone
     public final static String RESOURCE_PATH = "SDE/items/drone/WarpScramblingDrone.yaml";
     private static LinkedHashMap<String, WarpScramblingDrone> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -282,6 +282,10 @@ public class WarpScramblingDrone
             case  268 :
             {
                 return ArmorExplosiveDamageResonance;
+            }
+            case  265 :
+            {
+                return ArmorHP;
             }
             case  269 :
             {
@@ -298,51 +302,6 @@ public class WarpScramblingDrone
             case  73 :
             {
                 return Duration;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
             }
             case  580 :
             {
@@ -367,6 +326,10 @@ public class WarpScramblingDrone
             case  508 :
             {
                 return EntityCruiseSpeed;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
             }
             case  2189 :
             {
@@ -404,9 +367,37 @@ public class WarpScramblingDrone
             {
                 return ShieldCapacity;
             }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
             case  552 :
             {
                 return SignatureRadius;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
             }
             case  422 :
             {
@@ -426,7 +417,7 @@ public class WarpScramblingDrone
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

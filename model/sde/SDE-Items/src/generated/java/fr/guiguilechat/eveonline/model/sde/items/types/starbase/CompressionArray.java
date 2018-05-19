@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,11 +149,16 @@ public class CompressionArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
     private static LinkedHashMap<String, CompressionArray> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
                 return AnchoringSecurityLevelMax;
+            }
+            case  265 :
+            {
+                return ArmorHP;
             }
             case  524 :
             {
@@ -163,47 +167,6 @@ public class CompressionArray
             case  50 :
             {
                 return Cpu;
-            }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  136 :
-            {
-                return Uniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
             }
             case  2244 :
             {
@@ -229,17 +192,45 @@ public class CompressionArray
             {
                 return RequiredSkill1Level;
             }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
             }
             case  552 :
             {
                 return SignatureRadius;
             }
+            case  136 :
+            {
+                return Uniformity;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

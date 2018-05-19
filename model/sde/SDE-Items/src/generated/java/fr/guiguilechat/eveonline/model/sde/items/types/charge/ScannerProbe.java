@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class ScannerProbe
     public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
     private static LinkedHashMap<String, ScannerProbe> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -150,27 +150,6 @@ public class ScannerProbe
             {
                 return BaseScanRange;
             }
-            case  37 :
-            {
-                return MaxVelocity;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            case  600 :
-            {
-                return WarpSpeedMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1371 :
             {
                 return BaseSensorStrength;
@@ -190,6 +169,10 @@ public class ScannerProbe
             case  137 :
             {
                 return LauncherGroup;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
             }
             case  1692 :
             {
@@ -211,13 +194,21 @@ public class ScannerProbe
             {
                 return RequiredSkill1Level;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  422 :
             {
                 return TechLevel;
             }
+            case  600 :
+            {
+                return WarpSpeedMultiplier;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

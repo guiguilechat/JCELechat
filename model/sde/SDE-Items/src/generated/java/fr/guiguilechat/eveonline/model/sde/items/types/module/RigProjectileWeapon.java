@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -87,36 +86,20 @@ public class RigProjectileWeapon
     public final static String RESOURCE_PATH = "SDE/items/module/RigProjectileWeapon.yaml";
     private static LinkedHashMap<String, RigProjectileWeapon> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  310 :
             {
                 return CpuNeedBonus;
             }
-            case  1138 :
-            {
-                return Drawback;
-            }
-            case  1547 :
-            {
-                return RigSize;
-            }
-            case  1153 :
-            {
-                return UpgradeCost;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  64 :
             {
                 return DamageMultiplier;
+            }
+            case  1138 :
+            {
+                return Drawback;
             }
             case  349 :
             {
@@ -125,6 +108,10 @@ public class RigProjectileWeapon
             case  351 :
             {
                 return MaxRangeBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
             }
             case  204 :
             {
@@ -138,9 +125,13 @@ public class RigProjectileWeapon
             {
                 return TrackingSpeedMultiplier;
             }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

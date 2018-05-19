@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -164,11 +163,20 @@ public class FlexArmorHardener
     public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
     private static LinkedHashMap<String, FlexArmorHardener> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
                 return CapacitorNeed;
+            }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
             }
             case  50 :
             {
@@ -198,31 +206,6 @@ public class FlexArmorHardener
             {
                 return KineticDamageResistanceBonus;
             }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            case  987 :
-            {
-                return ThermalDamageResistanceBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  604 :
-            {
-                return ChargeGroup1;
-            }
-            case  128 :
-            {
-                return ChargeSize;
-            }
             case  1544 :
             {
                 return MaxGroupFitted;
@@ -238,6 +221,10 @@ public class FlexArmorHardener
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -259,9 +246,13 @@ public class FlexArmorHardener
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  987 :
+            {
+                return ThermalDamageResistanceBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,7 +149,8 @@ public class Shields
     public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
     private static LinkedHashMap<String, Shields> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -163,6 +163,10 @@ public class Shields
             case  66 :
             {
                 return DurationBonus;
+            }
+            case  958 :
+            {
+                return HardeningBonus;
             }
             case  323 :
             {
@@ -212,19 +216,6 @@ public class Shields
             {
                 return ShieldBoostCapacitorBonus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  958 :
-            {
-                return HardeningBonus;
-            }
             case  337 :
             {
                 return ShieldCapacityBonus;
@@ -239,7 +230,7 @@ public class Shields
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

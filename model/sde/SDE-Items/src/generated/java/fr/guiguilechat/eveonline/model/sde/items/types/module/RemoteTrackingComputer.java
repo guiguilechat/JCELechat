@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -157,15 +156,28 @@ public class RemoteTrackingComputer
     public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
     private static LinkedHashMap<String, RemoteTrackingComputer> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
                 return CapacitorNeed;
             }
+            case  604 :
+            {
+                return ChargeGroup1;
+            }
+            case  128 :
+            {
+                return ChargeSize;
+            }
             case  50 :
             {
                 return Cpu;
+            }
+            case  1798 :
+            {
+                return DisallowAgainstEwImmuneTarget;
             }
             case  73 :
             {
@@ -175,6 +187,10 @@ public class RemoteTrackingComputer
             {
                 return FalloffBonus;
             }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
             case  1180 :
             {
                 return HeatAbsorbtionRateModifier;
@@ -183,46 +199,13 @@ public class RemoteTrackingComputer
             {
                 return HeatDamage;
             }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  604 :
-            {
-                return ChargeGroup1;
-            }
-            case  128 :
-            {
-                return ChargeSize;
-            }
-            case  1798 :
-            {
-                return DisallowAgainstEwImmuneTarget;
-            }
-            case  2044 :
-            {
-                return FalloffEffectiveness;
-            }
             case  54 :
             {
                 return MaxRange;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
             }
             case  1692 :
             {
@@ -236,6 +219,10 @@ public class RemoteTrackingComputer
             {
                 return Power;
             }
+            case  1795 :
+            {
+                return ReloadTime;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -248,9 +235,13 @@ public class RemoteTrackingComputer
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

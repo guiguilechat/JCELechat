@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,7 +149,8 @@ public class StructureEnergyNeutralizer
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
     private static LinkedHashMap<String, StructureEnergyNeutralizer> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -164,6 +164,18 @@ public class StructureEnergyNeutralizer
             {
                 return CanFitShipGroup03;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
             case  97 :
             {
                 return EnergyNeutralizerAmount;
@@ -171,6 +183,18 @@ public class StructureEnergyNeutralizer
             case  2451 :
             {
                 return EnergyNeutralizerSignatureResolution;
+            }
+            case  1897 :
+            {
+                return EntityCapacitorLevelModifierLarge;
+            }
+            case  1896 :
+            {
+                return EntityCapacitorLevelModifierMedium;
+            }
+            case  1895 :
+            {
+                return EntityCapacitorLevelModifierSmall;
             }
             case  2044 :
             {
@@ -206,40 +230,7 @@ public class StructureEnergyNeutralizer
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1897 :
-            {
-                return EntityCapacitorLevelModifierLarge;
-            }
-            case  1896 :
-            {
-                return EntityCapacitorLevelModifierMedium;
-            }
-            case  1895 :
-            {
-                return EntityCapacitorLevelModifierSmall;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

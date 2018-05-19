@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -178,15 +177,24 @@ public class DefensiveSystems
     public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
     private static LinkedHashMap<String, DefensiveSystems> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1159 :
             {
                 return ArmorHPBonusAdd;
             }
+            case  482 :
+            {
+                return CapacitorCapacity;
+            }
             case  2689 :
             {
                 return CargoCapacityAdd;
+            }
+            case  649 :
+            {
+                return CloakingCpuNeedBonus;
             }
             case  1871 :
             {
@@ -212,46 +220,13 @@ public class DefensiveSystems
             {
                 return StructureHPBonusAdd;
             }
-            case  1507 :
-            {
-                return SubsystemBonusAmarrDefensive2;
-            }
-            case  1516 :
-            {
-                return SubsystemBonusCaldariDefensive2;
-            }
-            case  1517 :
-            {
-                return SubsystemBonusGallenteDefensive2;
-            }
-            case  1526 :
-            {
-                return SubsystemBonusMinmatarDefensive2;
-            }
-            case  1918 :
-            {
-                return VirusStrengthBonus;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  482 :
-            {
-                return CapacitorCapacity;
-            }
-            case  649 :
-            {
-                return CloakingCpuNeedBonus;
-            }
             case  1433 :
             {
                 return SubsystemBonusAmarrDefensive;
+            }
+            case  1507 :
+            {
+                return SubsystemBonusAmarrDefensive2;
             }
             case  2680 :
             {
@@ -261,6 +236,10 @@ public class DefensiveSystems
             {
                 return SubsystemBonusCaldariDefensive;
             }
+            case  1516 :
+            {
+                return SubsystemBonusCaldariDefensive2;
+            }
             case  2682 :
             {
                 return SubsystemBonusCaldariDefensive3;
@@ -268,6 +247,10 @@ public class DefensiveSystems
             case  1438 :
             {
                 return SubsystemBonusGallenteDefensive;
+            }
+            case  1517 :
+            {
+                return SubsystemBonusGallenteDefensive2;
             }
             case  2684 :
             {
@@ -277,13 +260,21 @@ public class DefensiveSystems
             {
                 return SubsystemBonusMinmatarDefensive;
             }
+            case  1526 :
+            {
+                return SubsystemBonusMinmatarDefensive2;
+            }
             case  2686 :
             {
                 return SubsystemBonusMinmatarDefensive3;
             }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

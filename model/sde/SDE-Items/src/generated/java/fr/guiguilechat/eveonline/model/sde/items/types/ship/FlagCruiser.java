@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -304,11 +303,20 @@ public class FlagCruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/FlagCruiser.yaml";
     private static LinkedHashMap<String, FlagCruiser> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2253 :
             {
                 return ECMResistance;
+            }
+            case  66 :
+            {
+                return DurationBonus;
+            }
+            case  2752 :
+            {
+                return EliteBonusFlagCruisers1;
             }
             case  2045 :
             {
@@ -317,6 +325,14 @@ public class FlagCruiser
             case  2757 :
             {
                 return FlagCruiserFittingBonusPainterProbes;
+            }
+            case  2753 :
+            {
+                return FlagCruiserFittingBonusPropMods;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
             }
             case  1259 :
             {
@@ -329,51 +345,6 @@ public class FlagCruiser
             case  1261 :
             {
                 return HeatAttenuationMed;
-            }
-            case  2112 :
-            {
-                return SensorDampenerResistance;
-            }
-            case  478 :
-            {
-                return ShipBonusAC;
-            }
-            case  486 :
-            {
-                return ShipBonusGC;
-            }
-            case  489 :
-            {
-                return ShipBonusMC;
-            }
-            case  2114 :
-            {
-                return TargetPainterResistance;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  66 :
-            {
-                return DurationBonus;
-            }
-            case  2752 :
-            {
-                return EliteBonusFlagCruisers1;
-            }
-            case  2753 :
-            {
-                return FlagCruiserFittingBonusPropMods;
-            }
-            case  1555 :
-            {
-                return FwLpKill;
             }
             case  14 :
             {
@@ -451,9 +422,25 @@ public class FlagCruiser
             {
                 return ScanSpeed;
             }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
+            case  478 :
+            {
+                return ShipBonusAC;
+            }
             case  487 :
             {
                 return ShipBonusCC;
+            }
+            case  486 :
+            {
+                return ShipBonusGC;
+            }
+            case  489 :
+            {
+                return ShipBonusMC;
             }
             case  1573 :
             {
@@ -462,6 +449,10 @@ public class FlagCruiser
             case  2756 :
             {
                 return TargetPainterRangeModifierFlagCruisers;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
             }
             case  2755 :
             {
@@ -481,7 +472,7 @@ public class FlagCruiser
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

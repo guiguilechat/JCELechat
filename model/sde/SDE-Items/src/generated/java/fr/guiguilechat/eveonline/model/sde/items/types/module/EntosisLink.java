@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -178,11 +177,16 @@ public class EntosisLink
     public final static String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
     private static LinkedHashMap<String, EntosisLink> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1163 :
             {
                 return CanCloak;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
             }
             case  714 :
             {
@@ -192,9 +196,25 @@ public class EntosisLink
             {
                 return ConsumptionType;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  2754 :
+            {
+                return EntosisAssistanceImpedanceMultiplier;
+            }
             case  2041 :
             {
                 return EntosisCPUAdd;
+            }
+            case  1076 :
+            {
+                return ImplantBonusVelocity;
             }
             case  1544 :
             {
@@ -254,36 +274,7 @@ public class EntosisLink
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  2754 :
-            {
-                return EntosisAssistanceImpedanceMultiplier;
-            }
-            case  1076 :
-            {
-                return ImplantBonusVelocity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -73,7 +72,8 @@ public class RigTargeting
     public final static String RESOURCE_PATH = "SDE/items/module/RigTargeting.yaml";
     private static LinkedHashMap<String, RigTargeting> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  619 :
             {
@@ -83,6 +83,10 @@ public class RigTargeting
             {
                 return Drawback;
             }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
             case  294 :
             {
                 return RangeSkillBonus;
@@ -90,23 +94,6 @@ public class RigTargeting
             case  1547 :
             {
                 return RigSize;
-            }
-            case  1153 :
-            {
-                return UpgradeCost;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
             }
             case  566 :
             {
@@ -116,9 +103,13 @@ public class RigTargeting
             {
                 return ScanSkillEwStrengthBonus;
             }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

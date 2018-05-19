@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,11 +128,24 @@ public class AncillaryShieldBooster
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryShieldBooster.yaml";
     private static LinkedHashMap<String, AncillaryShieldBooster> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
                 return CapacitorNeed;
+            }
+            case  605 :
+            {
+                return ChargeGroup2;
+            }
+            case  56 :
+            {
+                return ChargeRate;
+            }
+            case  128 :
+            {
+                return ChargeSize;
             }
             case  50 :
             {
@@ -155,35 +167,6 @@ public class AncillaryShieldBooster
             {
                 return OverloadSelfDurationBonus;
             }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            case  68 :
-            {
-                return ShieldBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  605 :
-            {
-                return ChargeGroup2;
-            }
-            case  56 :
-            {
-                return ChargeRate;
-            }
-            case  128 :
-            {
-                return ChargeSize;
-            }
             case  1231 :
             {
                 return OverloadShieldBonus;
@@ -191,6 +174,10 @@ public class AncillaryShieldBooster
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -204,9 +191,13 @@ public class AncillaryShieldBooster
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

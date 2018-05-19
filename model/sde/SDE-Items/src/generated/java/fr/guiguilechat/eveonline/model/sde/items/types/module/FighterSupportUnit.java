@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -108,7 +107,8 @@ public class FighterSupportUnit
     public final static String RESOURCE_PATH = "SDE/items/module/FighterSupportUnit.yaml";
     private static LinkedHashMap<String, FighterSupportUnit> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -126,31 +126,6 @@ public class FighterSupportUnit
             {
                 return CanFitShipType2;
             }
-            case  1692 :
-            {
-                return MetaGroupID;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  50 :
             {
                 return Cpu;
@@ -171,9 +146,25 @@ public class FighterSupportUnit
             {
                 return FighterBonusVelocityPercent;
             }
+            case  1692 :
+            {
+                return MetaGroupID;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

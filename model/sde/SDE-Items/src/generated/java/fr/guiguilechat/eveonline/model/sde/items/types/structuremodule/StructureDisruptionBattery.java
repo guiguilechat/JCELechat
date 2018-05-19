@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -185,7 +184,8 @@ public class StructureDisruptionBattery
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDisruptionBattery.yaml";
     private static LinkedHashMap<String, StructureDisruptionBattery> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -194,6 +194,18 @@ public class StructureDisruptionBattery
             case  847 :
             {
                 return AoeVelocityBonus;
+            }
+            case  1298 :
+            {
+                return CanFitShipGroup01;
+            }
+            case  1299 :
+            {
+                return CanFitShipGroup02;
+            }
+            case  1300 :
+            {
+                return CanFitShipGroup03;
             }
             case  6 :
             {
@@ -215,51 +227,6 @@ public class StructureDisruptionBattery
             {
                 return FalloffBonus;
             }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  554 :
-            {
-                return SignatureRadiusBonus;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1298 :
-            {
-                return CanFitShipGroup01;
-            }
-            case  1299 :
-            {
-                return CanFitShipGroup02;
-            }
-            case  1300 :
-            {
-                return CanFitShipGroup03;
-            }
             case  2044 :
             {
                 return FalloffEffectiveness;
@@ -272,9 +239,21 @@ public class StructureDisruptionBattery
             {
                 return MaxRange;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
             }
             case  30 :
             {
@@ -284,6 +263,14 @@ public class StructureDisruptionBattery
             {
                 return RemoteResistanceID;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
             case  2334 :
             {
                 return StructureItemVisualFlag;
@@ -292,9 +279,13 @@ public class StructureDisruptionBattery
             {
                 return TechLevel;
             }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

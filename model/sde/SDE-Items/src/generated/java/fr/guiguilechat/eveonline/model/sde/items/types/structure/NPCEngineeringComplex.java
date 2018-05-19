@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -171,7 +170,8 @@ public class NPCEngineeringComplex
     public final static String RESOURCE_PATH = "SDE/items/structure/NPCEngineeringComplex.yaml";
     private static LinkedHashMap<String, NPCEngineeringComplex> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2613 :
             {
@@ -197,6 +197,18 @@ public class NPCEngineeringComplex
             {
                 return FighterTubes;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  1178 :
             {
                 return HeatCapacityHi;
@@ -212,6 +224,14 @@ public class NPCEngineeringComplex
             case  101 :
             {
                 return LauncherSlotsLeft;
+            }
+            case  2736 :
+            {
+                return NpcStructureEnergyWarfareBonus;
+            }
+            case  2735 :
+            {
+                return NpcStructureStasisWebificationBonus;
             }
             case  1547 :
             {
@@ -243,36 +263,7 @@ public class NPCEngineeringComplex
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  2736 :
-            {
-                return NpcStructureEnergyWarfareBonus;
-            }
-            case  2735 :
-            {
-                return NpcStructureStasisWebificationBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

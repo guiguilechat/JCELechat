@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -199,15 +198,24 @@ public class CynosuralGeneratorArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
     private static LinkedHashMap<String, CynosuralGeneratorArray> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
                 return AnchoringSecurityLevelMax;
             }
+            case  265 :
+            {
+                return ArmorHP;
+            }
             case  524 :
             {
                 return ArmorUniformity;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
             }
             case  50 :
             {
@@ -225,13 +233,33 @@ public class CynosuralGeneratorArray
             {
                 return ExplosiveDamageResonance;
             }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
             case  156 :
             {
                 return IncapacitationRatio;
             }
+            case  1253 :
+            {
+                return JumpHarmonics;
+            }
             case  109 :
             {
                 return KineticDamageResonance;
+            }
+            case  1195 :
+            {
+                return PosAnchoredPerSolarSystemAmount;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  1595 :
+            {
+                return RequiresSovUpgrade1;
             }
             case  211 :
             {
@@ -249,6 +277,14 @@ public class CynosuralGeneratorArray
             {
                 return ScanRadarStrength;
             }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -256,6 +292,10 @@ public class CynosuralGeneratorArray
             case  484 :
             {
                 return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
             }
             case  110 :
             {
@@ -267,56 +307,7 @@ public class CynosuralGeneratorArray
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  1165 :
-            {
-                return ControlTowerMinimumDistance;
-            }
-            case  2244 :
-            {
-                return FighterAbilityAntiCapitalMissileResistance;
-            }
-            case  1253 :
-            {
-                return JumpHarmonics;
-            }
-            case  1195 :
-            {
-                return PosAnchoredPerSolarSystemAmount;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  1595 :
-            {
-                return RequiresSovUpgrade1;
-            }
-            case  564 :
-            {
-                return ScanResolution;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

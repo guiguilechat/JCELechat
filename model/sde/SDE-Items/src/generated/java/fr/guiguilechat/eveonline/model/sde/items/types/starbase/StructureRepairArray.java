@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -143,52 +142,20 @@ public class StructureRepairArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/StructureRepairArray.yaml";
     private static LinkedHashMap<String, StructureRepairArray> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
                 return ArmorHP;
             }
-            case  1165 :
-            {
-                return ControlTowerMinimumDistance;
-            }
-            case  54 :
-            {
-                return MaxRange;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  1170 :
-            {
-                return StructureArmorRepairAmount;
-            }
-            case  1171 :
-            {
-                return StructureShieldRepairAmount;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  524 :
             {
                 return ArmorUniformity;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
             }
             case  50 :
             {
@@ -197,6 +164,14 @@ public class StructureRepairArray
             case  156 :
             {
                 return IncapacitationRatio;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  30 :
+            {
+                return Power;
             }
             case  211 :
             {
@@ -214,6 +189,10 @@ public class StructureRepairArray
             {
                 return ScanRadarStrength;
             }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -222,13 +201,25 @@ public class StructureRepairArray
             {
                 return ShieldUniformity;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  1170 :
+            {
+                return StructureArmorRepairAmount;
+            }
+            case  1171 :
+            {
+                return StructureShieldRepairAmount;
+            }
             case  136 :
             {
                 return Uniformity;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

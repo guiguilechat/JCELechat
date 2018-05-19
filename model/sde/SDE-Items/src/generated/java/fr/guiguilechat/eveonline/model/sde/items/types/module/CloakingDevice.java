@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -171,7 +170,8 @@ public class CloakingDevice
     public final static String RESOURCE_PATH = "SDE/items/module/CloakingDevice.yaml";
     private static LinkedHashMap<String, CloakingDevice> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -229,6 +229,14 @@ public class CloakingDevice
             {
                 return CovertCloakCPUAdd;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  306 :
+            {
+                return MaxVelocityModifier;
+            }
             case  1692 :
             {
                 return MetaGroupID;
@@ -249,30 +257,13 @@ public class CloakingDevice
             {
                 return RequiredSkill1Level;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  306 :
-            {
-                return MaxVelocityModifier;
-            }
             case  565 :
             {
                 return ScanResolutionMultiplier;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -283,11 +282,16 @@ public class LogisticDrone
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
     private static LinkedHashMap<String, LogisticDrone> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
+            }
+            case  84 :
+            {
+                return ArmorDamageAmount;
             }
             case  267 :
             {
@@ -296,6 +300,10 @@ public class LogisticDrone
             case  268 :
             {
                 return ArmorExplosiveDamageResonance;
+            }
+            case  265 :
+            {
+                return ArmorHP;
             }
             case  269 :
             {
@@ -316,55 +324,6 @@ public class LogisticDrone
             case  73 :
             {
                 return Duration;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  68 :
-            {
-                return ShieldBonus;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  84 :
-            {
-                return ArmorDamageAmount;
-            }
-            case  265 :
-            {
-                return ArmorHP;
             }
             case  580 :
             {
@@ -389,6 +348,10 @@ public class LogisticDrone
             case  508 :
             {
                 return EntityCruiseSpeed;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
             }
             case  2189 :
             {
@@ -430,9 +393,37 @@ public class LogisticDrone
             {
                 return ScanSpeed;
             }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
             }
             case  552 :
             {
@@ -448,7 +439,7 @@ public class LogisticDrone
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -17,16 +17,7 @@ public abstract class Item {
 
     public abstract Class<?> getGroup();
 
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            default:
-            {
-                throw new UnsupportedOperationException();
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             default:
             {

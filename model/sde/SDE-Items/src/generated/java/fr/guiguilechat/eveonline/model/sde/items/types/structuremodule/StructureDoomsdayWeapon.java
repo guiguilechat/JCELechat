@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -189,7 +188,8 @@ public class StructureDoomsdayWeapon
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDoomsdayWeapon.yaml";
     private static LinkedHashMap<String, StructureDoomsdayWeapon> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1302 :
             {
@@ -198,6 +198,14 @@ public class StructureDoomsdayWeapon
             case  1303 :
             {
                 return CanFitShipType2;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1839 :
             {
@@ -219,13 +227,33 @@ public class StructureDoomsdayWeapon
             {
                 return DisallowRepeatingActivation;
             }
+            case  73 :
+            {
+                return Duration;
+            }
             case  1579 :
             {
                 return EffectDeactivationDelay;
             }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
             case  9 :
             {
                 return Hp;
+            }
+            case  117 :
+            {
+                return KineticDamage;
+            }
+            case  2106 :
+            {
+                return LightningWeaponDamageLossTarget;
             }
             case  2104 :
             {
@@ -255,50 +283,13 @@ public class StructureDoomsdayWeapon
             {
                 return StructureItemVisualFlag;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
-            case  2106 :
-            {
-                return LightningWeaponDamageLossTarget;
-            }
             case  118 :
             {
                 return ThermalDamage;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

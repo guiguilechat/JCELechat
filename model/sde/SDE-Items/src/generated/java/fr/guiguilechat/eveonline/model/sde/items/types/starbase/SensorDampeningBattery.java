@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -290,15 +289,32 @@ public class SensorDampeningBattery
     public final static String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
     private static LinkedHashMap<String, SensorDampeningBattery> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
                 return ArmorHP;
             }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
             case  1165 :
             {
                 return ControlTowerMinimumDistance;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
             }
             case  476 :
             {
@@ -308,6 +324,18 @@ public class SensorDampeningBattery
             {
                 return EntityAttackDelayMin;
             }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
+            }
             case  2044 :
             {
                 return FalloffEffectiveness;
@@ -315,6 +343,14 @@ public class SensorDampeningBattery
             case  2244 :
             {
                 return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
             }
             case  192 :
             {
@@ -327,6 +363,10 @@ public class SensorDampeningBattery
             case  76 :
             {
                 return MaxTargetRange;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
             }
             case  1692 :
             {
@@ -356,71 +396,6 @@ public class SensorDampeningBattery
             {
                 return RequiredSkill1Level;
             }
-            case  564 :
-            {
-                return ScanResolution;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  691 :
-            {
-                return TargetSwitchDelay;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  113 :
-            {
-                return EmDamageResonance;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  466 :
-            {
-                return EntityReactionFactor;
-            }
-            case  111 :
-            {
-                return ExplosiveDamageResonance;
-            }
-            case  156 :
-            {
-                return IncapacitationRatio;
-            }
-            case  109 :
-            {
-                return KineticDamageResonance;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -437,9 +412,17 @@ public class SensorDampeningBattery
             {
                 return ScanRadarStrength;
             }
+            case  564 :
+            {
+                return ScanResolution;
+            }
             case  566 :
             {
                 return ScanResolutionBonus;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
             }
             case  479 :
             {
@@ -448,6 +431,14 @@ public class SensorDampeningBattery
             case  484 :
             {
                 return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
             }
             case  110 :
             {
@@ -459,7 +450,7 @@ public class SensorDampeningBattery
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -143,7 +142,8 @@ public class EnergyNeutralizer
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyNeutralizer.yaml";
     private static LinkedHashMap<String, EnergyNeutralizer> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -157,6 +157,14 @@ public class EnergyNeutralizer
             {
                 return Duration;
             }
+            case  97 :
+            {
+                return EnergyNeutralizerAmount;
+            }
+            case  2451 :
+            {
+                return EnergyNeutralizerSignatureResolution;
+            }
             case  1897 :
             {
                 return EntityCapacitorLevelModifierLarge;
@@ -169,6 +177,10 @@ public class EnergyNeutralizer
             {
                 return EntityCapacitorLevelModifierSmall;
             }
+            case  2044 :
+            {
+                return FalloffEffectiveness;
+            }
             case  1180 :
             {
                 return HeatAbsorbtionRateModifier;
@@ -177,31 +189,6 @@ public class EnergyNeutralizer
             {
                 return HeatDamage;
             }
-            case  1206 :
-            {
-                return OverloadSelfDurationBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  97 :
-            {
-                return EnergyNeutralizerAmount;
-            }
-            case  2451 :
-            {
-                return EnergyNeutralizerSignatureResolution;
-            }
-            case  2044 :
-            {
-                return FalloffEffectiveness;
-            }
             case  54 :
             {
                 return MaxRange;
@@ -209,6 +196,10 @@ public class EnergyNeutralizer
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  1206 :
+            {
+                return OverloadSelfDurationBonus;
             }
             case  30 :
             {
@@ -228,7 +219,7 @@ public class EnergyNeutralizer
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

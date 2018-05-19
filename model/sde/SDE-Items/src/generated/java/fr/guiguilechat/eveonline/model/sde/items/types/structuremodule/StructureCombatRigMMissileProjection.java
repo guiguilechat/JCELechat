@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,7 +128,8 @@ public class StructureCombatRigMMissileProjection
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileProjection.yaml";
     private static LinkedHashMap<String, StructureCombatRigMMissileProjection> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -143,13 +143,25 @@ public class StructureCombatRigMMissileProjection
             {
                 return CanFitShipGroup03;
             }
+            case  2355 :
+            {
+                return HiSecModifier;
+            }
             case  9 :
             {
                 return Hp;
             }
+            case  2356 :
+            {
+                return LowSecModifier;
+            }
             case  1544 :
             {
                 return MaxGroupFitted;
+            }
+            case  2357 :
+            {
+                return NullSecModifier;
             }
             case  182 :
             {
@@ -185,28 +197,7 @@ public class StructureCombatRigMMissileProjection
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2355 :
-            {
-                return HiSecModifier;
-            }
-            case  2356 :
-            {
-                return LowSecModifier;
-            }
-            case  2357 :
-            {
-                return NullSecModifier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

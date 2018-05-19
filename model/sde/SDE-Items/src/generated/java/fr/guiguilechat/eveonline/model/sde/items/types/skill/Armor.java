@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,7 +128,8 @@ public class Armor
     public final static String RESOURCE_PATH = "SDE/items/skill/Armor.yaml";
     private static LinkedHashMap<String, Armor> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  335 :
             {
@@ -146,6 +146,14 @@ public class Armor
             case  312 :
             {
                 return DurationSkillBonus;
+            }
+            case  958 :
+            {
+                return HardeningBonus;
+            }
+            case  327 :
+            {
+                return HullHpBonus;
             }
             case  1856 :
             {
@@ -183,30 +191,13 @@ public class Armor
             {
                 return SecondaryAttribute;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  958 :
-            {
-                return HardeningBonus;
-            }
-            case  327 :
-            {
-                return HullHpBonus;
-            }
             case  275 :
             {
                 return SkillTimeConstant;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

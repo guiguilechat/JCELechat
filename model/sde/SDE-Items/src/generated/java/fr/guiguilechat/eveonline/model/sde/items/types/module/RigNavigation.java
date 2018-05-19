@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -122,15 +121,28 @@ public class RigNavigation
     public final static String RESOURCE_PATH = "SDE/items/module/RigNavigation.yaml";
     private static LinkedHashMap<String, RigNavigation> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  624 :
             {
                 return WarpSBonus;
             }
+            case  151 :
+            {
+                return AgilityBonus;
+            }
+            case  169 :
+            {
+                return AgilityMultiplier;
+            }
             case  317 :
             {
                 return CapNeedBonus;
+            }
+            case  216 :
+            {
+                return CapacitorNeedMultiplier;
             }
             case  614 :
             {
@@ -143,6 +155,10 @@ public class RigNavigation
             case  66 :
             {
                 return DurationBonus;
+            }
+            case  1076 :
+            {
+                return ImplantBonusVelocity;
             }
             case  1131 :
             {
@@ -160,42 +176,17 @@ public class RigNavigation
             {
                 return UpgradeCost;
             }
+            case  315 :
+            {
+                return VelocityBonus;
+            }
             case  319 :
             {
                 return WarpCapacitorNeedBonus;
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  151 :
-            {
-                return AgilityBonus;
-            }
-            case  169 :
-            {
-                return AgilityMultiplier;
-            }
-            case  216 :
-            {
-                return CapacitorNeedMultiplier;
-            }
-            case  1076 :
-            {
-                return ImplantBonusVelocity;
-            }
-            case  315 :
-            {
-                return VelocityBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

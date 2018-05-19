@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -318,15 +317,44 @@ public class StrategicCruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/StrategicCruiser.yaml";
     private static LinkedHashMap<String, StrategicCruiser> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
                 return FwLpKill;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
             }
             case  12 :
             {
@@ -351,6 +379,10 @@ public class StrategicCruiser
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -462,48 +494,7 @@ public class StrategicCruiser
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

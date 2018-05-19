@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -130,7 +129,8 @@ public class AgentsInSpace
     public final static String RESOURCE_PATH = "SDE/items/celestial/AgentsInSpace.yaml";
     private static LinkedHashMap<String, AgentsInSpace> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  844 :
             {
@@ -184,22 +184,13 @@ public class AgentsInSpace
             {
                 return ShieldCapacity;
             }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  479 :
             {
                 return ShieldRechargeRate;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
             }
             case  525 :
             {
@@ -207,7 +198,7 @@ public class AgentsInSpace
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

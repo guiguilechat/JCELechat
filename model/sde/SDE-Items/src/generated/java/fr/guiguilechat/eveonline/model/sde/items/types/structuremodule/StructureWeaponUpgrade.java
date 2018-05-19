@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -122,7 +121,8 @@ public class StructureWeaponUpgrade
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureWeaponUpgrade.yaml";
     private static LinkedHashMap<String, StructureWeaponUpgrade> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -132,35 +132,6 @@ public class StructureWeaponUpgrade
             {
                 return AoeVelocityBonus;
             }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  596 :
-            {
-                return ExplosionDelayBonus;
-            }
-            case  213 :
-            {
-                return MissileDamageMultiplierBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  204 :
-            {
-                return SpeedMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1298 :
             {
                 return CanFitShipGroup01;
@@ -173,6 +144,14 @@ public class StructureWeaponUpgrade
             {
                 return CanFitShipGroup03;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
             case  9 :
             {
                 return Hp;
@@ -181,9 +160,21 @@ public class StructureWeaponUpgrade
             {
                 return MetaLevel;
             }
+            case  213 :
+            {
+                return MissileDamageMultiplierBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
             case  30 :
             {
                 return Power;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
             }
             case  2334 :
             {
@@ -195,7 +186,7 @@ public class StructureWeaponUpgrade
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

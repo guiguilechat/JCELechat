@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -52,7 +51,8 @@ public class Spaceports
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
     private static LinkedHashMap<String, Spaceports> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  49 :
             {
@@ -61,6 +61,10 @@ public class Spaceports
             case  1639 :
             {
                 return ExportTax;
+            }
+            case  1638 :
+            {
+                return ImportTax;
             }
             case  1632 :
             {
@@ -72,20 +76,7 @@ public class Spaceports
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1638 :
-            {
-                return ImportTax;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

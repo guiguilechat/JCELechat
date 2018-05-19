@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -87,7 +86,8 @@ public class RigLauncher
     public final static String RESOURCE_PATH = "SDE/items/module/RigLauncher.yaml";
     private static LinkedHashMap<String, RigLauncher> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -97,27 +97,6 @@ public class RigLauncher
             {
                 return AoeVelocityBonus;
             }
-            case  213 :
-            {
-                return MissileDamageMultiplierBonus;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            case  204 :
-            {
-                return SpeedMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  292 :
             {
                 return DamageMultiplierBonus;
@@ -130,9 +109,21 @@ public class RigLauncher
             {
                 return MaxFlightTimeBonus;
             }
+            case  213 :
+            {
+                return MissileDamageMultiplierBonus;
+            }
             case  1547 :
             {
                 return RigSize;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  204 :
+            {
+                return SpeedMultiplier;
             }
             case  1153 :
             {
@@ -140,7 +131,7 @@ public class RigLauncher
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

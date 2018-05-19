@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -157,7 +156,8 @@ public class FrequencyMiningLaser
     public final static String RESOURCE_PATH = "SDE/items/module/FrequencyMiningLaser.yaml";
     private static LinkedHashMap<String, FrequencyMiningLaser> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -166,6 +166,10 @@ public class FrequencyMiningLaser
             case  1299 :
             {
                 return CanFitShipGroup02;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
             }
             case  604 :
             {
@@ -179,6 +183,14 @@ public class FrequencyMiningLaser
             {
                 return ChargeSize;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
             case  54 :
             {
                 return MaxRange;
@@ -190,6 +202,10 @@ public class FrequencyMiningLaser
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -225,32 +241,7 @@ public class FrequencyMiningLaser
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,37 +128,13 @@ public class RigElectronicSystems
     public final static String RESOURCE_PATH = "SDE/items/module/RigElectronicSystems.yaml";
     private static LinkedHashMap<String, RigElectronicSystems> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
                 return AgilityMultiplier;
             }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  237 :
-            {
-                return MaxTargetRangeMultiplier;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  828 :
-            {
-                return ScanSkillEwStrengthBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  317 :
             {
                 return CapNeedBonus;
@@ -175,6 +150,14 @@ public class RigElectronicSystems
             case  66 :
             {
                 return DurationBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  237 :
+            {
+                return MaxTargetRangeMultiplier;
             }
             case  294 :
             {
@@ -200,13 +183,21 @@ public class RigElectronicSystems
             {
                 return ScanRadarStrengthPercent;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  828 :
+            {
+                return ScanSkillEwStrengthBonus;
+            }
             case  1153 :
             {
                 return UpgradeCost;
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

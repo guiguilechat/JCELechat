@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -633,11 +632,16 @@ public class DepricatedSubsystems
     public final static String RESOURCE_PATH = "SDE/items/commodity/DepricatedSubsystems.yaml";
     private static LinkedHashMap<String, DepricatedSubsystems> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
+            }
+            case  1159 :
+            {
+                return ArmorHPBonusAdd;
             }
             case  482 :
             {
@@ -646,151 +650,6 @@ public class DepricatedSubsystems
             case  649 :
             {
                 return CloakingCpuNeedBonus;
-            }
-            case  37 :
-            {
-                return MaxVelocity;
-            }
-            case  1418 :
-            {
-                return PassiveArmorEmDamageResonance;
-            }
-            case  1421 :
-            {
-                return PassiveArmorExplosiveDamageResonance;
-            }
-            case  1420 :
-            {
-                return PassiveArmorKineticDamageResonance;
-            }
-            case  1419 :
-            {
-                return PassiveArmorThermalDamageResonance;
-            }
-            case  1423 :
-            {
-                return PassiveShieldEmDamageResonance;
-            }
-            case  1422 :
-            {
-                return PassiveShieldExplosiveDamageResonance;
-            }
-            case  1424 :
-            {
-                return PassiveShieldKineticDamageResonance;
-            }
-            case  1425 :
-            {
-                return PassiveShieldThermalDamageResonance;
-            }
-            case  55 :
-            {
-                return RechargeRate;
-            }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  1433 :
-            {
-                return SubsystemBonusAmarrDefensive;
-            }
-            case  1531 :
-            {
-                return SubsystemBonusAmarrOffensive3;
-            }
-            case  1443 :
-            {
-                return SubsystemBonusCaldariDefensive;
-            }
-            case  1442 :
-            {
-                return SubsystemBonusCaldariElectronic;
-            }
-            case  1444 :
-            {
-                return SubsystemBonusCaldariOffensive;
-            }
-            case  1445 :
-            {
-                return SubsystemBonusCaldariPropulsion;
-            }
-            case  1513 :
-            {
-                return SubsystemBonusCaldariPropulsion2;
-            }
-            case  1436 :
-            {
-                return SubsystemBonusGallenteCore;
-            }
-            case  1519 :
-            {
-                return SubsystemBonusGallenteCore2;
-            }
-            case  1438 :
-            {
-                return SubsystemBonusGallenteDefensive;
-            }
-            case  1439 :
-            {
-                return SubsystemBonusGallenteOffensive;
-            }
-            case  1532 :
-            {
-                return SubsystemBonusGallenteOffensive3;
-            }
-            case  1440 :
-            {
-                return SubsystemBonusGallentePropulsion;
-            }
-            case  1520 :
-            {
-                return SubsystemBonusGallentePropulsion2;
-            }
-            case  1448 :
-            {
-                return SubsystemBonusMinmatarDefensive;
-            }
-            case  1449 :
-            {
-                return SubsystemBonusMinmatarOffensive;
-            }
-            case  1522 :
-            {
-                return SubsystemBonusMinmatarOffensive2;
-            }
-            case  1534 :
-            {
-                return SubsystemBonusMinmatarOffensive3;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1159 :
-            {
-                return ArmorHPBonusAdd;
             }
             case  1871 :
             {
@@ -848,6 +707,10 @@ public class DepricatedSubsystems
             {
                 return MaxTargetRange;
             }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
             case  1375 :
             {
                 return MedSlotModifier;
@@ -860,9 +723,45 @@ public class DepricatedSubsystems
             {
                 return ModuleIsObsolete;
             }
+            case  1418 :
+            {
+                return PassiveArmorEmDamageResonance;
+            }
+            case  1421 :
+            {
+                return PassiveArmorExplosiveDamageResonance;
+            }
+            case  1420 :
+            {
+                return PassiveArmorKineticDamageResonance;
+            }
+            case  1419 :
+            {
+                return PassiveArmorThermalDamageResonance;
+            }
+            case  1423 :
+            {
+                return PassiveShieldEmDamageResonance;
+            }
+            case  1422 :
+            {
+                return PassiveShieldExplosiveDamageResonance;
+            }
+            case  1424 :
+            {
+                return PassiveShieldKineticDamageResonance;
+            }
+            case  1425 :
+            {
+                return PassiveShieldThermalDamageResonance;
+            }
             case  11 :
             {
                 return PowerOutput;
+            }
+            case  55 :
+            {
+                return RechargeRate;
             }
             case  182 :
             {
@@ -876,6 +775,22 @@ public class DepricatedSubsystems
             {
                 return RoleBonusCommandBurstAoERange;
             }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
             case  564 :
             {
                 return ScanResolution;
@@ -883,6 +798,10 @@ public class DepricatedSubsystems
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
             }
             case  552 :
             {
@@ -895,6 +814,10 @@ public class DepricatedSubsystems
             case  1431 :
             {
                 return SubsystemBonusAmarrCore;
+            }
+            case  1433 :
+            {
+                return SubsystemBonusAmarrDefensive;
             }
             case  1507 :
             {
@@ -916,6 +839,10 @@ public class DepricatedSubsystems
             {
                 return SubsystemBonusAmarrOffensive2;
             }
+            case  1531 :
+            {
+                return SubsystemBonusAmarrOffensive3;
+            }
             case  1435 :
             {
                 return SubsystemBonusAmarrPropulsion;
@@ -924,13 +851,25 @@ public class DepricatedSubsystems
             {
                 return SubsystemBonusCaldariCore;
             }
+            case  1443 :
+            {
+                return SubsystemBonusCaldariDefensive;
+            }
             case  1516 :
             {
                 return SubsystemBonusCaldariDefensive2;
             }
+            case  1442 :
+            {
+                return SubsystemBonusCaldariElectronic;
+            }
             case  1514 :
             {
                 return SubsystemBonusCaldariElectronic2;
+            }
+            case  1444 :
+            {
+                return SubsystemBonusCaldariOffensive;
             }
             case  1510 :
             {
@@ -939,6 +878,26 @@ public class DepricatedSubsystems
             case  1533 :
             {
                 return SubsystemBonusCaldariOffensive3;
+            }
+            case  1445 :
+            {
+                return SubsystemBonusCaldariPropulsion;
+            }
+            case  1513 :
+            {
+                return SubsystemBonusCaldariPropulsion2;
+            }
+            case  1436 :
+            {
+                return SubsystemBonusGallenteCore;
+            }
+            case  1519 :
+            {
+                return SubsystemBonusGallenteCore2;
+            }
+            case  1438 :
+            {
+                return SubsystemBonusGallenteDefensive;
             }
             case  1517 :
             {
@@ -952,13 +911,33 @@ public class DepricatedSubsystems
             {
                 return SubsystemBonusGallenteElectronic2;
             }
+            case  1439 :
+            {
+                return SubsystemBonusGallenteOffensive;
+            }
             case  1521 :
             {
                 return SubsystemBonusGallenteOffensive2;
             }
+            case  1532 :
+            {
+                return SubsystemBonusGallenteOffensive3;
+            }
+            case  1440 :
+            {
+                return SubsystemBonusGallentePropulsion;
+            }
+            case  1520 :
+            {
+                return SubsystemBonusGallentePropulsion2;
+            }
             case  1446 :
             {
                 return SubsystemBonusMinmatarCore;
+            }
+            case  1448 :
+            {
+                return SubsystemBonusMinmatarDefensive;
             }
             case  1526 :
             {
@@ -971,6 +950,18 @@ public class DepricatedSubsystems
             case  1524 :
             {
                 return SubsystemBonusMinmatarElectronic2;
+            }
+            case  1449 :
+            {
+                return SubsystemBonusMinmatarOffensive;
+            }
+            case  1522 :
+            {
+                return SubsystemBonusMinmatarOffensive2;
+            }
+            case  1534 :
+            {
+                return SubsystemBonusMinmatarOffensive3;
             }
             case  1450 :
             {
@@ -998,7 +989,7 @@ public class DepricatedSubsystems
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

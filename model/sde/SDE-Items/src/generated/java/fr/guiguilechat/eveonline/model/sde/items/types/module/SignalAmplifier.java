@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -101,32 +100,20 @@ public class SignalAmplifier
     public final static String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
     private static LinkedHashMap<String, SignalAmplifier> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
                 return Cpu;
             }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  235 :
             {
                 return MaxLockedTargetsBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
             }
             case  1692 :
             {
@@ -160,9 +147,13 @@ public class SignalAmplifier
             {
                 return ScanRadarStrengthPercent;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

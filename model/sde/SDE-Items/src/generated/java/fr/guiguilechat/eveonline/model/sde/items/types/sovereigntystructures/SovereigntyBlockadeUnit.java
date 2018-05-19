@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,7 +128,8 @@ public class SovereigntyBlockadeUnit
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/SovereigntyBlockadeUnit.yaml";
     private static LinkedHashMap<String, SovereigntyBlockadeUnit> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -138,6 +138,10 @@ public class SovereigntyBlockadeUnit
             case  268 :
             {
                 return ArmorExplosiveDamageResonance;
+            }
+            case  265 :
+            {
+                return ArmorHP;
             }
             case  269 :
             {
@@ -150,6 +154,14 @@ public class SovereigntyBlockadeUnit
             case  524 :
             {
                 return ArmorUniformity;
+            }
+            case  9 :
+            {
+                return Hp;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
             }
             case  271 :
             {
@@ -185,28 +197,7 @@ public class SovereigntyBlockadeUnit
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

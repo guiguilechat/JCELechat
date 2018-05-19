@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -192,7 +191,8 @@ public class PropulsionModule
     public final static String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
     private static LinkedHashMap<String, PropulsionModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -218,9 +218,33 @@ public class PropulsionModule
             {
                 return CanFitShipGroup06;
             }
+            case  147 :
+            {
+                return CapacitorCapacityMultiplier;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  801 :
             {
                 return DeadspaceUnsafe;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
             }
             case  796 :
             {
@@ -258,46 +282,13 @@ public class PropulsionModule
             {
                 return RequiredThermoDynamicsSkill;
             }
-            case  567 :
-            {
-                return SpeedBoostFactor;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  147 :
-            {
-                return CapacitorCapacityMultiplier;
-            }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1180 :
-            {
-                return HeatAbsorbtionRateModifier;
-            }
-            case  1211 :
-            {
-                return HeatDamage;
-            }
             case  554 :
             {
                 return SignatureRadiusBonus;
+            }
+            case  567 :
+            {
+                return SpeedBoostFactor;
             }
             case  20 :
             {
@@ -305,7 +296,7 @@ public class PropulsionModule
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -276,11 +275,24 @@ public class Interdictor
     public final static String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
     private static LinkedHashMap<String, Interdictor> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  727 :
             {
                 return DestroyerROFpenality;
+            }
+            case  1012 :
+            {
+                return EliteBonusInterdictors1;
+            }
+            case  1013 :
+            {
+                return EliteBonusInterdictors2;
+            }
+            case  1555 :
+            {
+                return FwLpKill;
             }
             case  1259 :
             {
@@ -293,6 +305,10 @@ public class Interdictor
             case  1261 :
             {
                 return HeatAttenuationMed;
+            }
+            case  14 :
+            {
+                return HiSlots;
             }
             case  974 :
             {
@@ -309,35 +325,6 @@ public class Interdictor
             case  977 :
             {
                 return HullThermalDamageResonance;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1012 :
-            {
-                return EliteBonusInterdictors1;
-            }
-            case  1013 :
-            {
-                return EliteBonusInterdictors2;
-            }
-            case  1555 :
-            {
-                return FwLpKill;
-            }
-            case  14 :
-            {
-                return HiSlots;
             }
             case  12 :
             {
@@ -358,6 +345,10 @@ public class Interdictor
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -437,7 +428,7 @@ public class Interdictor
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

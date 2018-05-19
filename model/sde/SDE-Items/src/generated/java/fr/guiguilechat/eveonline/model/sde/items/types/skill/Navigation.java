@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -157,29 +156,13 @@ public class Navigation
     public final static String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
     private static LinkedHashMap<String, Navigation> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  151 :
             {
                 return AgilityBonus;
             }
-            case  275 :
-            {
-                return SkillTimeConstant;
-            }
-            case  315 :
-            {
-                return VelocityBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1047 :
             {
                 return CanNotBeTrainedOnTrial;
@@ -240,9 +223,17 @@ public class Navigation
             {
                 return SecondaryAttribute;
             }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
             case  318 :
             {
                 return SpeedFBonus;
+            }
+            case  315 :
+            {
+                return VelocityBonus;
             }
             case  319 :
             {
@@ -250,7 +241,7 @@ public class Navigation
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

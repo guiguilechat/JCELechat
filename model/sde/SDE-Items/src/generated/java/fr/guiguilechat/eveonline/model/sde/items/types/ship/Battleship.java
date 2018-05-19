@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -304,7 +303,8 @@ public class Battleship
     public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
     private static LinkedHashMap<String, Battleship> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
@@ -313,6 +313,18 @@ public class Battleship
             case  907 :
             {
                 return HasShipMaintenanceBay;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -349,6 +361,10 @@ public class Battleship
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  1945 :
             {
@@ -394,59 +410,6 @@ public class Battleship
             {
                 return ShipBonus2CB;
             }
-            case  491 :
-            {
-                return ShipBonusCB;
-            }
-            case  598 :
-            {
-                return ShipBonusCB3;
-            }
-            case  908 :
-            {
-                return ShipMaintenanceBayCapacity;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            case  1918 :
-            {
-                return VirusStrengthBonus;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
             case  492 :
             {
                 return ShipBonusAB;
@@ -454,6 +417,14 @@ public class Battleship
             case  585 :
             {
                 return ShipBonusAB2;
+            }
+            case  491 :
+            {
+                return ShipBonusCB;
+            }
+            case  598 :
+            {
+                return ShipBonusCB3;
             }
             case  500 :
             {
@@ -479,9 +450,29 @@ public class Battleship
             {
                 return ShipBonusRole8;
             }
+            case  908 :
+            {
+                return ShipMaintenanceBayCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

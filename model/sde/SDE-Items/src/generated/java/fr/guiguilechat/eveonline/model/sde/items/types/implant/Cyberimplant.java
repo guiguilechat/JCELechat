@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -472,11 +471,16 @@ public class Cyberimplant
     public final static String RESOURCE_PATH = "SDE/items/implant/Cyberimplant.yaml";
     private static LinkedHashMap<String, Cyberimplant> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  624 :
             {
                 return WarpSBonus;
+            }
+            case  151 :
+            {
+                return AgilityBonus;
             }
             case  335 :
             {
@@ -494,6 +498,10 @@ public class Cyberimplant
             {
                 return CharismaBonus;
             }
+            case  424 :
+            {
+                return CpuOutputBonus2;
+            }
             case  1048 :
             {
                 return DisallowOffensiveModifierBonus;
@@ -509,123 +517,6 @@ public class Cyberimplant
             case  1916 :
             {
                 return FollowsJumpClones;
-            }
-            case  331 :
-            {
-                return Implantness;
-            }
-            case  176 :
-            {
-                return IntelligenceBonus;
-            }
-            case  870 :
-            {
-                return JumpDriveRangeBonus;
-            }
-            case  177 :
-            {
-                return MemoryBonus;
-            }
-            case  1890 :
-            {
-                return Nondestructible;
-            }
-            case  994 :
-            {
-                return PassiveEmDamageResistanceBonus;
-            }
-            case  995 :
-            {
-                return PassiveExplosiveDamageResistanceBonus;
-            }
-            case  996 :
-            {
-                return PassiveKineticDamageResistanceBonus;
-            }
-            case  997 :
-            {
-                return PassiveThermicDamageResistanceBonus;
-            }
-            case  178 :
-            {
-                return PerceptionBonus;
-            }
-            case  294 :
-            {
-                return RangeSkillBonus;
-            }
-            case  806 :
-            {
-                return RepairBonus;
-            }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
-            }
-            case  1567 :
-            {
-                return ScanGravimetricStrengthModifier;
-            }
-            case  1027 :
-            {
-                return ScanGravimetricStrengthPercent;
-            }
-            case  1566 :
-            {
-                return ScanLadarStrengthModifier;
-            }
-            case  1028 :
-            {
-                return ScanLadarStrengthPercent;
-            }
-            case  1568 :
-            {
-                return ScanMagnetometricStrengthModifier;
-            }
-            case  1029 :
-            {
-                return ScanMagnetometricStrengthPercent;
-            }
-            case  1565 :
-            {
-                return ScanRadarStrengthModifier;
-            }
-            case  1030 :
-            {
-                return ScanRadarStrengthPercent;
-            }
-            case  846 :
-            {
-                return ScanStrengthBonus;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            case  179 :
-            {
-                return WillpowerBonus;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  151 :
-            {
-                return AgilityBonus;
-            }
-            case  424 :
-            {
-                return CpuOutputBonus2;
             }
             case  863 :
             {
@@ -707,6 +598,18 @@ public class Cyberimplant
             {
                 return ImplantSetWarpSpeed;
             }
+            case  331 :
+            {
+                return Implantness;
+            }
+            case  176 :
+            {
+                return IntelligenceBonus;
+            }
+            case  870 :
+            {
+                return JumpDriveRangeBonus;
+            }
             case  351 :
             {
                 return MaxRangeBonus;
@@ -715,9 +618,89 @@ public class Cyberimplant
             {
                 return MaxTargetRangeBonus;
             }
+            case  177 :
+            {
+                return MemoryBonus;
+            }
+            case  1890 :
+            {
+                return Nondestructible;
+            }
+            case  994 :
+            {
+                return PassiveEmDamageResistanceBonus;
+            }
+            case  995 :
+            {
+                return PassiveExplosiveDamageResistanceBonus;
+            }
+            case  996 :
+            {
+                return PassiveKineticDamageResistanceBonus;
+            }
+            case  997 :
+            {
+                return PassiveThermicDamageResistanceBonus;
+            }
+            case  178 :
+            {
+                return PerceptionBonus;
+            }
             case  313 :
             {
                 return PowerEngineeringOutputBonus;
+            }
+            case  294 :
+            {
+                return RangeSkillBonus;
+            }
+            case  806 :
+            {
+                return RepairBonus;
+            }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  1567 :
+            {
+                return ScanGravimetricStrengthModifier;
+            }
+            case  1027 :
+            {
+                return ScanGravimetricStrengthPercent;
+            }
+            case  1566 :
+            {
+                return ScanLadarStrengthModifier;
+            }
+            case  1028 :
+            {
+                return ScanLadarStrengthPercent;
+            }
+            case  1568 :
+            {
+                return ScanMagnetometricStrengthModifier;
+            }
+            case  1029 :
+            {
+                return ScanMagnetometricStrengthPercent;
+            }
+            case  1565 :
+            {
+                return ScanRadarStrengthModifier;
+            }
+            case  1030 :
+            {
+                return ScanRadarStrengthPercent;
+            }
+            case  846 :
+            {
+                return ScanStrengthBonus;
             }
             case  548 :
             {
@@ -735,6 +718,10 @@ public class Cyberimplant
             {
                 return SmugglingChanceBonus;
             }
+            case  422 :
+            {
+                return TechLevel;
+            }
             case  244 :
             {
                 return TrackingSpeedMultiplier;
@@ -743,9 +730,13 @@ public class Cyberimplant
             {
                 return VelocityBonus;
             }
+            case  179 :
+            {
+                return WillpowerBonus;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

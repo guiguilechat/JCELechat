@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -241,7 +240,8 @@ public class CynosuralField
     public final static String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
     private static LinkedHashMap<String, CynosuralField> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1163 :
             {
@@ -295,6 +295,10 @@ public class CynosuralField
             {
                 return CovertCloakCPUAdd;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  2455 :
             {
                 return CynosuralFieldSpawnRadius;
@@ -318,6 +322,10 @@ public class CynosuralField
             case  2343 :
             {
                 return DisallowTethering;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  1252 :
             {
@@ -359,30 +367,13 @@ public class CynosuralField
             {
                 return SiegeModeWarpStatus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
             case  20 :
             {
                 return SpeedFactor;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

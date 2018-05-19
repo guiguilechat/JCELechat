@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -430,7 +429,8 @@ public class BlackOps
     public final static String RESOURCE_PATH = "SDE/items/ship/BlackOps.yaml";
     private static LinkedHashMap<String, BlackOps> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  861 :
             {
@@ -456,6 +456,14 @@ public class BlackOps
             {
                 return CpuNeedBonus;
             }
+            case  1257 :
+            {
+                return EliteBonusBlackOps1;
+            }
+            case  1258 :
+            {
+                return EliteBonusBlackOps2;
+            }
             case  2627 :
             {
                 return EliteBonusBlackOps3;
@@ -468,6 +476,18 @@ public class BlackOps
             {
                 return FwLpKill;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
@@ -475,6 +495,10 @@ public class BlackOps
             case  2621 :
             {
                 return InverseCappedSecStatus;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
             }
             case  868 :
             {
@@ -488,9 +512,25 @@ public class BlackOps
             {
                 return JumpDriveDuration;
             }
+            case  867 :
+            {
+                return JumpDriveRange;
+            }
+            case  1971 :
+            {
+                return JumpFatigueMultiplier;
+            }
             case  1253 :
             {
                 return JumpHarmonics;
+            }
+            case  1001 :
+            {
+                return JumpPortalConsumptionMassFactor;
+            }
+            case  1972 :
+            {
+                return JumpThroughFatigueMultiplier;
             }
             case  12 :
             {
@@ -511,6 +551,10 @@ public class BlackOps
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  2610 :
             {
@@ -576,6 +620,14 @@ public class BlackOps
             {
                 return ShipBonus2CB;
             }
+            case  492 :
+            {
+                return ShipBonusAB;
+            }
+            case  585 :
+            {
+                return ShipBonusAB2;
+            }
             case  491 :
             {
                 return ShipBonusCB;
@@ -583,6 +635,22 @@ public class BlackOps
             case  598 :
             {
                 return ShipBonusCB3;
+            }
+            case  500 :
+            {
+                return ShipBonusGB;
+            }
+            case  561 :
+            {
+                return ShipBonusGB2;
+            }
+            case  490 :
+            {
+                return ShipBonusMB;
+            }
+            case  518 :
+            {
+                return ShipBonusMB2;
             }
             case  1549 :
             {
@@ -602,84 +670,7 @@ public class BlackOps
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1257 :
-            {
-                return EliteBonusBlackOps1;
-            }
-            case  1258 :
-            {
-                return EliteBonusBlackOps2;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  898 :
-            {
-                return JumpDriveCapacitorNeed;
-            }
-            case  867 :
-            {
-                return JumpDriveRange;
-            }
-            case  1971 :
-            {
-                return JumpFatigueMultiplier;
-            }
-            case  1001 :
-            {
-                return JumpPortalConsumptionMassFactor;
-            }
-            case  1972 :
-            {
-                return JumpThroughFatigueMultiplier;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  492 :
-            {
-                return ShipBonusAB;
-            }
-            case  585 :
-            {
-                return ShipBonusAB2;
-            }
-            case  500 :
-            {
-                return ShipBonusGB;
-            }
-            case  561 :
-            {
-                return ShipBonusGB2;
-            }
-            case  490 :
-            {
-                return ShipBonusMB;
-            }
-            case  518 :
-            {
-                return ShipBonusMB2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

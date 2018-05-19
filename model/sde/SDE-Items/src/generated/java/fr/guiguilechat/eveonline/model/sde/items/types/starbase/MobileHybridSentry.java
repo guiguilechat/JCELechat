@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -332,7 +331,8 @@ public class MobileHybridSentry
     public final static String RESOURCE_PATH = "SDE/items/starbase/MobileHybridSentry.yaml";
     private static LinkedHashMap<String, MobileHybridSentry> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  771 :
             {
@@ -341,6 +341,10 @@ public class MobileHybridSentry
             case  265 :
             {
                 return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
             }
             case  604 :
             {
@@ -358,6 +362,18 @@ public class MobileHybridSentry
             {
                 return ControlTowerMinimumDistance;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  64 :
+            {
+                return DamageMultiplier;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
+            }
             case  476 :
             {
                 return EntityAttackDelayMax;
@@ -365,6 +381,18 @@ public class MobileHybridSentry
             case  475 :
             {
                 return EntityAttackDelayMin;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
             }
             case  158 :
             {
@@ -377,6 +405,14 @@ public class MobileHybridSentry
             case  245 :
             {
                 return GfxTurretID;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
             }
             case  192 :
             {
@@ -418,75 +454,6 @@ public class MobileHybridSentry
             {
                 return RequiredSkill1Level;
             }
-            case  564 :
-            {
-                return ScanResolution;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  51 :
-            {
-                return Speed;
-            }
-            case  691 :
-            {
-                return TargetSwitchDelay;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  64 :
-            {
-                return DamageMultiplier;
-            }
-            case  113 :
-            {
-                return EmDamageResonance;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  466 :
-            {
-                return EntityReactionFactor;
-            }
-            case  111 :
-            {
-                return ExplosiveDamageResonance;
-            }
-            case  156 :
-            {
-                return IncapacitationRatio;
-            }
-            case  109 :
-            {
-                return KineticDamageResonance;
-            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -503,6 +470,14 @@ public class MobileHybridSentry
             {
                 return ScanRadarStrength;
             }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -510,6 +485,18 @@ public class MobileHybridSentry
             case  484 :
             {
                 return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  51 :
+            {
+                return Speed;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
             }
             case  110 :
             {
@@ -519,13 +506,17 @@ public class MobileHybridSentry
             {
                 return TrackingSpeed;
             }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
             case  136 :
             {
                 return Uniformity;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

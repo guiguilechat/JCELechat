@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -283,7 +282,8 @@ public class LightFighter
     public final static String RESOURCE_PATH = "SDE/items/fighter/LightFighter.yaml";
     private static LinkedHashMap<String, LightFighter> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2227 :
             {
@@ -325,9 +325,29 @@ public class LightFighter
             {
                 return FighterAbilityAttackMissileRangeOptimal;
             }
+            case  2231 :
+            {
+                return FighterAbilityAttackMissileReductionFactor;
+            }
+            case  2232 :
+            {
+                return FighterAbilityAttackMissileReductionSensitivity;
+            }
             case  2123 :
             {
                 return FighterAbilityEvasiveManeuversDuration;
+            }
+            case  2118 :
+            {
+                return FighterAbilityEvasiveManeuversEmResonance;
+            }
+            case  2121 :
+            {
+                return FighterAbilityEvasiveManeuversExpResonance;
+            }
+            case  2120 :
+            {
+                return FighterAbilityEvasiveManeuversKinResonance;
             }
             case  2225 :
             {
@@ -336,6 +356,10 @@ public class LightFighter
             case  2224 :
             {
                 return FighterAbilityEvasiveManeuversSpeedBonus;
+            }
+            case  2119 :
+            {
+                return FighterAbilityEvasiveManeuversThermResonance;
             }
             case  2131 :
             {
@@ -352,6 +376,14 @@ public class LightFighter
             case  2130 :
             {
                 return FighterAbilityMissilesDamageMultiplier;
+            }
+            case  2127 :
+            {
+                return FighterAbilityMissilesDamageReductionFactor;
+            }
+            case  2128 :
+            {
+                return FighterAbilityMissilesDamageReductionSensitivity;
             }
             case  2132 :
             {
@@ -407,48 +439,7 @@ public class LightFighter
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2231 :
-            {
-                return FighterAbilityAttackMissileReductionFactor;
-            }
-            case  2232 :
-            {
-                return FighterAbilityAttackMissileReductionSensitivity;
-            }
-            case  2118 :
-            {
-                return FighterAbilityEvasiveManeuversEmResonance;
-            }
-            case  2121 :
-            {
-                return FighterAbilityEvasiveManeuversExpResonance;
-            }
-            case  2120 :
-            {
-                return FighterAbilityEvasiveManeuversKinResonance;
-            }
-            case  2119 :
-            {
-                return FighterAbilityEvasiveManeuversThermResonance;
-            }
-            case  2127 :
-            {
-                return FighterAbilityMissilesDamageReductionFactor;
-            }
-            case  2128 :
-            {
-                return FighterAbilityMissilesDamageReductionSensitivity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

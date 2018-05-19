@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -115,11 +114,24 @@ public class Social
     public final static String RESOURCE_PATH = "SDE/items/skill/Social.yaml";
     private static LinkedHashMap<String, Social> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  627 :
             {
                 return BountySkillBonus;
+            }
+            case  412 :
+            {
+                return ConnectionBonusMutator;
+            }
+            case  413 :
+            {
+                return CriminalConnectionsMutator;
+            }
+            case  414 :
+            {
+                return DiplomacyMutator;
             }
             case  415 :
             {
@@ -153,38 +165,17 @@ public class Social
             {
                 return SecondaryAttribute;
             }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
             case  438 :
             {
                 return SocialMutator;
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  412 :
-            {
-                return ConnectionBonusMutator;
-            }
-            case  413 :
-            {
-                return CriminalConnectionsMutator;
-            }
-            case  414 :
-            {
-                return DiplomacyMutator;
-            }
-            case  275 :
-            {
-                return SkillTimeConstant;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

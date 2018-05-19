@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -367,7 +366,8 @@ public class ElectronicWarfareDrone
     public final static String RESOURCE_PATH = "SDE/items/drone/ElectronicWarfareDrone.yaml";
     private static LinkedHashMap<String, ElectronicWarfareDrone> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  929 :
             {
@@ -381,9 +381,41 @@ public class ElectronicWarfareDrone
             {
                 return ECMRangeOptimal;
             }
+            case  70 :
+            {
+                return Agility;
+            }
+            case  267 :
+            {
+                return ArmorEmDamageResonance;
+            }
+            case  268 :
+            {
+                return ArmorExplosiveDamageResonance;
+            }
             case  265 :
             {
                 return ArmorHP;
+            }
+            case  269 :
+            {
+                return ArmorKineticDamageResonance;
+            }
+            case  270 :
+            {
+                return ArmorThermalDamageResonance;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  247 :
             {
@@ -413,9 +445,17 @@ public class ElectronicWarfareDrone
             {
                 return EntityCruiseSpeed;
             }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
             case  831 :
             {
                 return EwTargetJam;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
             }
             case  2189 :
             {
@@ -428,6 +468,14 @@ public class ElectronicWarfareDrone
             case  54 :
             {
                 return MaxRange;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
             }
             case  620 :
             {
@@ -453,79 +501,6 @@ public class ElectronicWarfareDrone
             {
                 return RequiredSkill3Level;
             }
-            case  79 :
-            {
-                return ScanSpeed;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  70 :
-            {
-                return Agility;
-            }
-            case  267 :
-            {
-                return ArmorEmDamageResonance;
-            }
-            case  268 :
-            {
-                return ArmorExplosiveDamageResonance;
-            }
-            case  269 :
-            {
-                return ArmorKineticDamageResonance;
-            }
-            case  270 :
-            {
-                return ArmorThermalDamageResonance;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
             case  238 :
             {
                 return ScanGravimetricStrengthBonus;
@@ -545,6 +520,14 @@ public class ElectronicWarfareDrone
             case  566 :
             {
                 return ScanResolutionBonus;
+            }
+            case  79 :
+            {
+                return ScanSpeed;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
             }
             case  271 :
             {
@@ -570,9 +553,17 @@ public class ElectronicWarfareDrone
             {
                 return ShieldUniformity;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  554 :
             {
                 return SignatureRadiusBonus;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  767 :
             {
@@ -580,7 +571,7 @@ public class ElectronicWarfareDrone
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

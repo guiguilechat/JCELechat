@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -227,7 +226,8 @@ public class DamageControl
     public final static String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
     private static LinkedHashMap<String, DamageControl> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -245,63 +245,6 @@ public class DamageControl
             {
                 return ArmorThermalDamageResonance;
             }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
-            case  2746 :
-            {
-                return ResistanceMultiplier;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1298 :
             {
                 return CanFitShipGroup01;
@@ -326,9 +269,37 @@ public class DamageControl
             {
                 return CanFitShipGroup06;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  1014 :
             {
                 return DisallowRepeatingActivation;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
             }
             case  763 :
             {
@@ -358,9 +329,29 @@ public class DamageControl
             {
                 return RequiredSkill1Level;
             }
+            case  2746 :
+            {
+                return ResistanceMultiplier;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

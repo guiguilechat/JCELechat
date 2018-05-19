@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -381,7 +380,8 @@ public class ForceReconShip
     public final static String RESOURCE_PATH = "SDE/items/ship/ForceReconShip.yaml";
     private static LinkedHashMap<String, ForceReconShip> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2620 :
             {
@@ -411,9 +411,25 @@ public class ForceReconShip
             {
                 return EliteBonusReconShip2;
             }
+            case  1537 :
+            {
+                return EliteBonusReconShip3;
+            }
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -450,6 +466,10 @@ public class ForceReconShip
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  2610 :
             {
@@ -511,59 +531,6 @@ public class ForceReconShip
             {
                 return ScanSpeed;
             }
-            case  487 :
-            {
-                return ShipBonusCC;
-            }
-            case  2299 :
-            {
-                return ShipBonusRole2;
-            }
-            case  2657 :
-            {
-                return SpecialBoosterHoldCapacity;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1537 :
-            {
-                return EliteBonusReconShip3;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
             case  478 :
             {
                 return ShipBonusAC;
@@ -571,6 +538,10 @@ public class ForceReconShip
             case  656 :
             {
                 return ShipBonusAC2;
+            }
+            case  487 :
+            {
+                return ShipBonusCC;
             }
             case  657 :
             {
@@ -596,13 +567,33 @@ public class ForceReconShip
             {
                 return ShipBonusRole1;
             }
+            case  2299 :
+            {
+                return ShipBonusRole2;
+            }
             case  793 :
             {
                 return ShipBonusRole7;
             }
+            case  2657 :
+            {
+                return SpecialBoosterHoldCapacity;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

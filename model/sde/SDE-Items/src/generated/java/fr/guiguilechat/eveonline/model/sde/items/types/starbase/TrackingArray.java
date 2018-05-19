@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,37 +135,13 @@ public class TrackingArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
     private static LinkedHashMap<String, TrackingArray> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
                 return ArmorHP;
             }
-            case  769 :
-            {
-                return MaxRangeBonus2;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  524 :
             {
                 return ArmorUniformity;
@@ -182,6 +157,14 @@ public class TrackingArray
             case  156 :
             {
                 return IncapacitationRatio;
+            }
+            case  769 :
+            {
+                return MaxRangeBonus2;
+            }
+            case  30 :
+            {
+                return Power;
             }
             case  211 :
             {
@@ -199,6 +182,10 @@ public class TrackingArray
             {
                 return ScanRadarStrength;
             }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -206,6 +193,10 @@ public class TrackingArray
             case  484 :
             {
                 return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
             }
             case  767 :
             {
@@ -217,7 +208,7 @@ public class TrackingArray
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

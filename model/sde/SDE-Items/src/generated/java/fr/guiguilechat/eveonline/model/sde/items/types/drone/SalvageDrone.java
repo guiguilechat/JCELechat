@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,7 +149,8 @@ public class SalvageDrone
     public final static String RESOURCE_PATH = "SDE/items/drone/SalvageDrone.yaml";
     private static LinkedHashMap<String, SalvageDrone> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
@@ -159,6 +159,18 @@ public class SalvageDrone
             case  265 :
             {
                 return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  64 :
+            {
+                return DamageMultiplier;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  2189 :
             {
@@ -200,6 +212,14 @@ public class SalvageDrone
             {
                 return ShieldCapacity;
             }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
             case  552 :
             {
                 return SignatureRadius;
@@ -210,36 +230,7 @@ public class SalvageDrone
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  64 :
-            {
-                return DamageMultiplier;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

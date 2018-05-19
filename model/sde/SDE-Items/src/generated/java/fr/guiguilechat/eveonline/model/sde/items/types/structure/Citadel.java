@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -199,7 +198,8 @@ public class Citadel
     public final static String RESOURCE_PATH = "SDE/items/structure/Citadel.yaml";
     private static LinkedHashMap<String, Citadel> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2433 :
             {
@@ -285,6 +285,10 @@ public class Citadel
             {
                 return StructureServiceRoleBonus;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  2268 :
             {
                 return TetheringRange;
@@ -303,20 +307,7 @@ public class Citadel
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

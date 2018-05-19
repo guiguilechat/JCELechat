@@ -3,8 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -282,81 +281,13 @@ public abstract class Fighter
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
             }
-            case  37 :
-            {
-                return MaxVelocity;
-            }
-            case  2135 :
-            {
-                return RemoteAssistanceImpedance;
-            }
-            case  2116 :
-            {
-                return RemoteRepairImpedance;
-            }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            case  600 :
-            {
-                return WarpSpeedMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  2189 :
             {
                 return FighterAbilityAntiFighterMissileResistance;
@@ -401,9 +332,21 @@ public abstract class Fighter
             {
                 return MaxTargetRange;
             }
+            case  37 :
+            {
+                return MaxVelocity;
+            }
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
             }
             case  182 :
             {
@@ -421,6 +364,22 @@ public abstract class Fighter
             {
                 return RequiredSkill2Level;
             }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
             case  564 :
             {
                 return ScanResolution;
@@ -428,6 +387,30 @@ public abstract class Fighter
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
             }
             case  552 :
             {
@@ -437,13 +420,21 @@ public abstract class Fighter
             {
                 return StructureItemVisualFlag;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  422 :
             {
                 return TechLevel;
             }
+            case  600 :
+            {
+                return WarpSpeedMultiplier;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

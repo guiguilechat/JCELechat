@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -367,85 +366,13 @@ public class StealthBomber
     public final static String RESOURCE_PATH = "SDE/items/ship/StealthBomber.yaml";
     private static LinkedHashMap<String, StealthBomber> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  649 :
             {
                 return CloakingCpuNeedBonus;
             }
-            case  2731 :
-            {
-                return EliteBonusCovertOps4;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  485 :
-            {
-                return ShipBonus2AF;
-            }
-            case  464 :
-            {
-                return ShipBonusAF;
-            }
-            case  588 :
-            {
-                return ShipBonusCF2;
-            }
-            case  462 :
-            {
-                return ShipBonusGF;
-            }
-            case  586 :
-            {
-                return ShipBonusGF2;
-            }
-            case  460 :
-            {
-                return ShipBonusMF;
-            }
-            case  587 :
-            {
-                return ShipBonusMF2;
-            }
-            case  2298 :
-            {
-                return ShipBonusRole1;
-            }
-            case  793 :
-            {
-                return ShipBonusRole7;
-            }
-            case  2732 :
-            {
-                return StealthBomberLauncherCPU;
-            }
-            case  837 :
-            {
-                return StealthBomberLauncherPower;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1034 :
             {
                 return CovertOpsAndReconOpsCloakModuleDelay;
@@ -466,9 +393,25 @@ public class StealthBomber
             {
                 return EliteBonusCovertOps3;
             }
+            case  2731 :
+            {
+                return EliteBonusCovertOps4;
+            }
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -501,6 +444,10 @@ public class StealthBomber
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -546,9 +493,41 @@ public class StealthBomber
             {
                 return ScanSpeed;
             }
+            case  485 :
+            {
+                return ShipBonus2AF;
+            }
+            case  464 :
+            {
+                return ShipBonusAF;
+            }
             case  463 :
             {
                 return ShipBonusCF;
+            }
+            case  588 :
+            {
+                return ShipBonusCF2;
+            }
+            case  462 :
+            {
+                return ShipBonusGF;
+            }
+            case  586 :
+            {
+                return ShipBonusGF2;
+            }
+            case  460 :
+            {
+                return ShipBonusMF;
+            }
+            case  587 :
+            {
+                return ShipBonusMF2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
             }
             case  2299 :
             {
@@ -558,6 +537,10 @@ public class StealthBomber
             {
                 return ShipBonusRole3;
             }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
             case  511 :
             {
                 return ShipScanResistance;
@@ -565,6 +548,14 @@ public class StealthBomber
             case  2657 :
             {
                 return SpecialBoosterHoldCapacity;
+            }
+            case  2732 :
+            {
+                return StealthBomberLauncherCPU;
+            }
+            case  837 :
+            {
+                return StealthBomberLauncherPower;
             }
             case  1768 :
             {
@@ -580,7 +571,7 @@ public class StealthBomber
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

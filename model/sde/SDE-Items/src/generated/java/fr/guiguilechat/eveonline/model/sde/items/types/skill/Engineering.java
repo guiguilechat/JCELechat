@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -164,7 +163,8 @@ public class Engineering
     public final static String RESOURCE_PATH = "SDE/items/skill/Engineering.yaml";
     private static LinkedHashMap<String, Engineering> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -174,9 +174,21 @@ public class Engineering
             {
                 return CapNeedBonus;
             }
+            case  314 :
+            {
+                return CapRechargeBonus;
+            }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
             case  310 :
             {
                 return CpuNeedBonus;
+            }
+            case  424 :
+            {
+                return CpuOutputBonus2;
             }
             case  66 :
             {
@@ -185,6 +197,10 @@ public class Engineering
             case  1295 :
             {
                 return ModuleRepairRateBonus;
+            }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
             }
             case  323 :
             {
@@ -226,42 +242,17 @@ public class Engineering
             {
                 return ShipBrokenRepairCostMultiplierBonus;
             }
+            case  275 :
+            {
+                return SkillTimeConstant;
+            }
             case  1229 :
             {
                 return ThermodynamicsHeatDamage;
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  314 :
-            {
-                return CapRechargeBonus;
-            }
-            case  1079 :
-            {
-                return CapacitorCapacityBonus;
-            }
-            case  424 :
-            {
-                return CpuOutputBonus2;
-            }
-            case  313 :
-            {
-                return PowerEngineeringOutputBonus;
-            }
-            case  275 :
-            {
-                return SkillTimeConstant;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

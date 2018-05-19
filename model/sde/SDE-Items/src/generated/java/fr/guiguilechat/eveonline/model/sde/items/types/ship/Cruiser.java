@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -374,7 +373,8 @@ public class Cruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/Cruiser.yaml";
     private static LinkedHashMap<String, Cruiser> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1034 :
             {
@@ -392,13 +392,53 @@ public class Cruiser
             {
                 return DroneShieldBonusBonus;
             }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  1840 :
+            {
+                return EnergyTransferAmountBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
             case  1555 :
             {
                 return FwLpKill;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
             }
             case  1253 :
             {
@@ -420,6 +460,10 @@ public class Cruiser
             {
                 return MaxPassengers;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
             case  769 :
             {
                 return MaxRangeBonus2;
@@ -431,6 +475,10 @@ public class Cruiser
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  1945 :
             {
@@ -468,91 +516,6 @@ public class Cruiser
             {
                 return ScanSpeed;
             }
-            case  487 :
-            {
-                return ShipBonusCC;
-            }
-            case  1535 :
-            {
-                return ShipBonusCC3;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            case  1918 :
-            {
-                return VirusStrengthBonus;
-            }
-            case  1538 :
-            {
-                return WarpBubbleImmune;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1840 :
-            {
-                return EnergyTransferAmountBonus;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
             case  478 :
             {
                 return ShipBonusAC;
@@ -561,9 +524,17 @@ public class Cruiser
             {
                 return ShipBonusAC2;
             }
+            case  487 :
+            {
+                return ShipBonusCC;
+            }
             case  657 :
             {
                 return ShipBonusCC2;
+            }
+            case  1535 :
+            {
+                return ShipBonusCC3;
             }
             case  486 :
             {
@@ -589,9 +560,29 @@ public class Cruiser
             {
                 return ShipBonusRole8;
             }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
+            case  1918 :
+            {
+                return VirusStrengthBonus;
+            }
+            case  1538 :
+            {
+                return WarpBubbleImmune;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

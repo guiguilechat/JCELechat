@@ -3,8 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -53,7 +52,8 @@ public abstract class SovereigntyStructures
     @DefaultIntValue(100)
     public int SignatureRadius;
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  211 :
             {
@@ -71,22 +71,13 @@ public abstract class SovereigntyStructures
             {
                 return ScanRadarStrength;
             }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  552 :
             {
                 return SignatureRadius;
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

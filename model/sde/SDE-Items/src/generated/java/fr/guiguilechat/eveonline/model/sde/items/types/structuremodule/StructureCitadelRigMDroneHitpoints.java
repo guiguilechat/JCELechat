@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -73,7 +72,8 @@ public class StructureCitadelRigMDroneHitpoints
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelRigMDroneHitpoints.yaml";
     private static LinkedHashMap<String, StructureCitadelRigMDroneHitpoints> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -82,6 +82,10 @@ public class StructureCitadelRigMDroneHitpoints
             case  9 :
             {
                 return Hp;
+            }
+            case  327 :
+            {
+                return HullHpBonus;
             }
             case  1544 :
             {
@@ -105,20 +109,7 @@ public class StructureCitadelRigMDroneHitpoints
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  327 :
-            {
-                return HullHpBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

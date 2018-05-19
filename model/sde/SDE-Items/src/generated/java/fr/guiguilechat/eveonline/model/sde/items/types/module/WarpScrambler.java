@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -150,19 +149,44 @@ public class WarpScrambler
     public final static String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
     private static LinkedHashMap<String, WarpScrambler> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1350 :
             {
                 return ActivationBlockedStrenght;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
             case  158 :
             {
                 return Falloff;
             }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
+            }
             case  54 :
             {
                 return MaxRange;
+            }
+            case  1470 :
+            {
+                return MaxVelocityMultiplier;
             }
             case  1692 :
             {
@@ -206,40 +230,7 @@ public class WarpScrambler
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1180 :
-            {
-                return HeatAbsorbtionRateModifier;
-            }
-            case  1211 :
-            {
-                return HeatDamage;
-            }
-            case  1470 :
-            {
-                return MaxVelocityMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

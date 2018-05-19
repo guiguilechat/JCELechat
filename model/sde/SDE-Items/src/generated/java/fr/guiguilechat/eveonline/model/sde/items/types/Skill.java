@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -44,7 +44,8 @@ public abstract class Skill
     @DefaultIntValue(0)
     public int SkillLevel;
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  280 :
             {
@@ -52,7 +53,7 @@ public abstract class Skill
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

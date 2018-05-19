@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -297,7 +296,8 @@ public class EffectBeacon
     public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
     private static LinkedHashMap<String, EffectBeacon> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
@@ -319,9 +319,25 @@ public class EffectBeacon
             {
                 return ArmorDamageAmountMultiplierRemote;
             }
+            case  1465 :
+            {
+                return ArmorEmDamageResistanceBonus;
+            }
+            case  1468 :
+            {
+                return ArmorExplosiveDamageResistanceBonus;
+            }
             case  148 :
             {
                 return ArmorHPMultiplier;
+            }
+            case  1466 :
+            {
+                return ArmorKineticDamageResistanceBonus;
+            }
+            case  1467 :
+            {
+                return ArmorThermalDamageResistanceBonus;
             }
             case  1499 :
             {
@@ -330,6 +346,10 @@ public class EffectBeacon
             case  1482 :
             {
                 return DamageMultiplierMultiplier;
+            }
+            case  66 :
+            {
+                return DurationBonus;
             }
             case  1487 :
             {
@@ -387,6 +407,22 @@ public class EffectBeacon
             {
                 return ShieldCapacityMultiplier;
             }
+            case  1489 :
+            {
+                return ShieldEmDamageResistanceBonus;
+            }
+            case  1490 :
+            {
+                return ShieldExplosiveDamageResistanceBonus;
+            }
+            case  1491 :
+            {
+                return ShieldKineticDamageResistanceBonus;
+            }
+            case  1492 :
+            {
+                return ShieldThermalDamageResistanceBonus;
+            }
             case  652 :
             {
                 return SignatureRadiusMultiplier;
@@ -407,6 +443,10 @@ public class EffectBeacon
             {
                 return StasisWebStrengthMultiplier;
             }
+            case  1686 :
+            {
+                return SystemEffectDamageReduction;
+            }
             case  1968 :
             {
                 return TargetPainterStrengthMultiplier;
@@ -421,56 +461,7 @@ public class EffectBeacon
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1465 :
-            {
-                return ArmorEmDamageResistanceBonus;
-            }
-            case  1468 :
-            {
-                return ArmorExplosiveDamageResistanceBonus;
-            }
-            case  1466 :
-            {
-                return ArmorKineticDamageResistanceBonus;
-            }
-            case  1467 :
-            {
-                return ArmorThermalDamageResistanceBonus;
-            }
-            case  66 :
-            {
-                return DurationBonus;
-            }
-            case  1489 :
-            {
-                return ShieldEmDamageResistanceBonus;
-            }
-            case  1490 :
-            {
-                return ShieldExplosiveDamageResistanceBonus;
-            }
-            case  1491 :
-            {
-                return ShieldKineticDamageResistanceBonus;
-            }
-            case  1492 :
-            {
-                return ShieldThermalDamageResistanceBonus;
-            }
-            case  1686 :
-            {
-                return SystemEffectDamageReduction;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -171,7 +170,8 @@ public class StructureCitadelServiceModule
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCitadelServiceModule.yaml";
     private static LinkedHashMap<String, StructureCitadelServiceModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -229,6 +229,10 @@ public class StructureCitadelServiceModule
             {
                 return CanFitShipType9;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  2431 :
             {
                 return MaxTypeFitted;
@@ -249,30 +253,17 @@ public class StructureCitadelServiceModule
             {
                 return ServiceModuleFuelOnlineAmount;
             }
+            case  2744 :
+            {
+                return ServiceModuleFullPowerStateHitpointMultiplier;
+            }
             case  2334 :
             {
                 return StructureItemVisualFlag;
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  2744 :
-            {
-                return ServiceModuleFullPowerStateHitpointMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -255,11 +254,24 @@ public class CombatBattlecruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/CombatBattlecruiser.yaml";
     private static LinkedHashMap<String, CombatBattlecruiser> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -289,6 +301,10 @@ public class CombatBattlecruiser
             {
                 return MetaGroupID;
             }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -304,6 +320,10 @@ public class CombatBattlecruiser
             case  1137 :
             {
                 return RigSlots;
+            }
+            case  2043 :
+            {
+                return RoleBonusCBC;
             }
             case  2574 :
             {
@@ -321,62 +341,21 @@ public class CombatBattlecruiser
             {
                 return ScanSpeed;
             }
-            case  1889 :
-            {
-                return ShipBonusABC2;
-            }
-            case  745 :
-            {
-                return ShipBonusCBC2;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  2043 :
-            {
-                return RoleBonusCBC;
-            }
             case  795 :
             {
                 return ShipBonusABC1;
             }
+            case  1889 :
+            {
+                return ShipBonusABC2;
+            }
             case  743 :
             {
                 return ShipBonusCBC1;
+            }
+            case  745 :
+            {
+                return ShipBonusCBC2;
             }
             case  747 :
             {
@@ -402,9 +381,21 @@ public class CombatBattlecruiser
             {
                 return ShipBonusRole8;
             }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -122,29 +121,13 @@ public class SurveyProbe
     public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
     private static LinkedHashMap<String, SurveyProbe> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
             }
-            case  37 :
-            {
-                return MaxVelocity;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  281 :
             {
                 return ExplosionDelay;
@@ -164,6 +147,10 @@ public class SurveyProbe
             case  2697 :
             {
                 return MaxScanRange;
+            }
+            case  37 :
+            {
+                return MaxVelocity;
             }
             case  794 :
             {
@@ -189,13 +176,17 @@ public class SurveyProbe
             {
                 return ScanRange;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  422 :
             {
                 return TechLevel;
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

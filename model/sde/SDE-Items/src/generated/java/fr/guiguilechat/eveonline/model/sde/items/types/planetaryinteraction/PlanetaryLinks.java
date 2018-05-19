@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -66,11 +65,20 @@ public class PlanetaryLinks
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
     private static LinkedHashMap<String, PlanetaryLinks> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  49 :
             {
                 return CpuLoad;
+            }
+            case  1635 :
+            {
+                return CpuLoadLevelModifier;
+            }
+            case  1634 :
+            {
+                return CpuLoadPerKm;
             }
             case  1631 :
             {
@@ -79,23 +87,6 @@ public class PlanetaryLinks
             case  15 :
             {
                 return PowerLoad;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1635 :
-            {
-                return CpuLoadLevelModifier;
-            }
-            case  1634 :
-            {
-                return CpuLoadPerKm;
             }
             case  1636 :
             {
@@ -107,7 +98,7 @@ public class PlanetaryLinks
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

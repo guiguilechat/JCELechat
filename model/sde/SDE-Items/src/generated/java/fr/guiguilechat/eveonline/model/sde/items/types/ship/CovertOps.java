@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -381,7 +380,8 @@ public class CovertOps
     public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
     private static LinkedHashMap<String, CovertOps> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2620 :
             {
@@ -414,6 +414,18 @@ public class CovertOps
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -450,6 +462,10 @@ public class CovertOps
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  1945 :
             {
@@ -515,9 +531,41 @@ public class CovertOps
             {
                 return ScanSpeed;
             }
+            case  485 :
+            {
+                return ShipBonus2AF;
+            }
+            case  464 :
+            {
+                return ShipBonusAF;
+            }
             case  463 :
             {
                 return ShipBonusCF;
+            }
+            case  588 :
+            {
+                return ShipBonusCF2;
+            }
+            case  462 :
+            {
+                return ShipBonusGF;
+            }
+            case  586 :
+            {
+                return ShipBonusGF2;
+            }
+            case  460 :
+            {
+                return ShipBonusMF;
+            }
+            case  587 :
+            {
+                return ShipBonusMF2;
+            }
+            case  793 :
+            {
+                return ShipBonusRole7;
             }
             case  511 :
             {
@@ -545,64 +593,7 @@ public class CovertOps
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  485 :
-            {
-                return ShipBonus2AF;
-            }
-            case  464 :
-            {
-                return ShipBonusAF;
-            }
-            case  588 :
-            {
-                return ShipBonusCF2;
-            }
-            case  462 :
-            {
-                return ShipBonusGF;
-            }
-            case  586 :
-            {
-                return ShipBonusGF2;
-            }
-            case  460 :
-            {
-                return ShipBonusMF;
-            }
-            case  587 :
-            {
-                return ShipBonusMF2;
-            }
-            case  793 :
-            {
-                return ShipBonusRole7;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -26,7 +26,8 @@ public abstract class AncientRelics
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1955 :
             {
@@ -34,7 +35,7 @@ public abstract class AncientRelics
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -231,7 +230,8 @@ public class StructureAreaDenialModule
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
     private static LinkedHashMap<String, StructureAreaDenialModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1302 :
             {
@@ -277,6 +277,14 @@ public class StructureAreaDenialModule
             {
                 return CanFitShipType9;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  801 :
             {
                 return DeadspaceUnsafe;
@@ -285,13 +293,29 @@ public class StructureAreaDenialModule
             {
                 return DisallowInHighSec;
             }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
             case  99 :
             {
                 return EmpFieldRange;
             }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
             case  9 :
             {
                 return Hp;
+            }
+            case  117 :
+            {
+                return KineticDamage;
             }
             case  763 :
             {
@@ -325,46 +349,13 @@ public class StructureAreaDenialModule
             {
                 return TechLevel;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
             case  118 :
             {
                 return ThermalDamage;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

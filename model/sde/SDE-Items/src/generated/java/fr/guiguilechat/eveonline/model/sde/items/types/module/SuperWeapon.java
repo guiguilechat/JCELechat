@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -370,7 +369,8 @@ public class SuperWeapon
     public final static String RESOURCE_PATH = "SDE/items/module/SuperWeapon.yaml";
     private static LinkedHashMap<String, SuperWeapon> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -396,6 +396,10 @@ public class SuperWeapon
             {
                 return CanFitShipType3;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  714 :
             {
                 return ConsumptionQuantity;
@@ -403,6 +407,10 @@ public class SuperWeapon
             case  713 :
             {
                 return ConsumptionType;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1839 :
             {
@@ -480,9 +488,21 @@ public class SuperWeapon
             {
                 return DoomsdayWarningDuration;
             }
+            case  73 :
+            {
+                return Duration;
+            }
             case  1579 :
             {
                 return EffectDeactivationDelay;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
             }
             case  2269 :
             {
@@ -491,6 +511,10 @@ public class SuperWeapon
             case  1221 :
             {
                 return JumpDelayDuration;
+            }
+            case  117 :
+            {
+                return KineticDamage;
             }
             case  763 :
             {
@@ -540,39 +564,6 @@ public class SuperWeapon
             {
                 return SignatureRadius;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
             case  20 :
             {
                 return SpeedFactor;
@@ -583,7 +574,7 @@ public class SuperWeapon
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

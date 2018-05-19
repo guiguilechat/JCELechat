@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -349,7 +348,8 @@ public class BurstProjectors
     public final static String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
     private static LinkedHashMap<String, BurstProjectors> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -359,79 +359,6 @@ public class BurstProjectors
             {
                 return AoeVelocityBonus;
             }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  596 :
-            {
-                return ExplosionDelayBonus;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  238 :
-            {
-                return ScanGravimetricStrengthBonus;
-            }
-            case  239 :
-            {
-                return ScanLadarStrengthBonus;
-            }
-            case  240 :
-            {
-                return ScanMagnetometricStrengthBonus;
-            }
-            case  241 :
-            {
-                return ScanRadarStrengthBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  554 :
-            {
-                return SignatureRadiusBonus;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1163 :
             {
                 return CanCloak;
@@ -440,6 +367,10 @@ public class BurstProjectors
             {
                 return CanFitShipGroup01;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  714 :
             {
                 return ConsumptionQuantity;
@@ -447,6 +378,10 @@ public class BurstProjectors
             case  713 :
             {
                 return ConsumptionType;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  2354 :
             {
@@ -488,6 +423,10 @@ public class BurstProjectors
             {
                 return DoomsdayWarningDuration;
             }
+            case  73 :
+            {
+                return Duration;
+            }
             case  2398 :
             {
                 return DurationECMJammerBurstProjector;
@@ -508,6 +447,14 @@ public class BurstProjectors
             {
                 return EnergyNeutralizerAmount;
             }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
             case  2269 :
             {
                 return IsPointTargeted;
@@ -523,6 +470,18 @@ public class BurstProjectors
             case  54 :
             {
                 return MaxRange;
+            }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
             }
             case  30 :
             {
@@ -540,6 +499,26 @@ public class BurstProjectors
             {
                 return RequiredSkill1Level;
             }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
             case  852 :
             {
                 return SiegeModeWarpStatus;
@@ -548,9 +527,21 @@ public class BurstProjectors
             {
                 return SignatureRadius;
             }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

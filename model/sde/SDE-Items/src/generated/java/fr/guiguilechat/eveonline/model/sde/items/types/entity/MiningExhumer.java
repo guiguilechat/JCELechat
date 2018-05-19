@@ -5,11 +5,11 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCMiningExhumer
+public class MiningExhumer
     extends Entity
 {
-    public final static String RESOURCE_PATH = "SDE/items/entity/NPCMiningExhumer.yaml";
-    private static LinkedHashMap<String, NPCMiningExhumer> cache = (null);
+    public final static String RESOURCE_PATH = "SDE/items/entity/MiningExhumer.yaml";
+    private static LinkedHashMap<String, MiningExhumer> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -18,13 +18,13 @@ public class NPCMiningExhumer
 
     @Override
     public Class<?> getGroup() {
-        return NPCMiningExhumer.class;
+        return MiningExhumer.class;
     }
 
-    public static synchronized LinkedHashMap<String, NPCMiningExhumer> load() {
+    public static synchronized LinkedHashMap<String, MiningExhumer> load() {
         if (cache == null) {
             try {
-                cache = new Yaml().loadAs(new InputStreamReader(NPCMiningExhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                cache = new Yaml().loadAs(new InputStreamReader(MiningExhumer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
             } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
@@ -33,6 +33,6 @@ public class NPCMiningExhumer
     }
 
     private static class Container {
-        public LinkedHashMap<String, NPCMiningExhumer> items;
+        public LinkedHashMap<String, MiningExhumer> items;
     }
 }

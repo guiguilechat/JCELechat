@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -115,23 +114,44 @@ public class OrbitalAssaultUnit
     public final static String RESOURCE_PATH = "SDE/items/charge/OrbitalAssaultUnit.yaml";
     private static LinkedHashMap<String, OrbitalAssaultUnit> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
                 return Agility;
             }
+            case  108 :
+            {
+                return DetonationRange;
+            }
             case  114 :
             {
                 return EmDamage;
+            }
+            case  281 :
+            {
+                return ExplosionDelay;
+            }
+            case  107 :
+            {
+                return ExplosionRange;
             }
             case  116 :
             {
                 return ExplosiveDamage;
             }
+            case  9 :
+            {
+                return Hp;
+            }
             case  117 :
             {
                 return KineticDamage;
+            }
+            case  137 :
+            {
+                return LauncherGroup;
             }
             case  37 :
             {
@@ -145,46 +165,17 @@ public class OrbitalAssaultUnit
             {
                 return StructureUniformity;
             }
+            case  422 :
+            {
+                return TechLevel;
+            }
             case  118 :
             {
                 return ThermalDamage;
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  108 :
-            {
-                return DetonationRange;
-            }
-            case  281 :
-            {
-                return ExplosionDelay;
-            }
-            case  107 :
-            {
-                return ExplosionRange;
-            }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  137 :
-            {
-                return LauncherGroup;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

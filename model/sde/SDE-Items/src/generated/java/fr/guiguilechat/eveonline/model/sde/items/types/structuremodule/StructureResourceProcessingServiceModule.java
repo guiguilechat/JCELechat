@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -140,7 +139,8 @@ public class StructureResourceProcessingServiceModule
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceProcessingServiceModule.yaml";
     private static LinkedHashMap<String, StructureResourceProcessingServiceModule> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -153,6 +153,10 @@ public class StructureResourceProcessingServiceModule
             case  1300 :
             {
                 return CanFitShipGroup03;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1970 :
             {
@@ -170,35 +174,6 @@ public class StructureResourceProcessingServiceModule
             {
                 return Power;
             }
-            case  2109 :
-            {
-                return ServiceModuleFuelAmount;
-            }
-            case  2108 :
-            {
-                return ServiceModuleFuelConsumptionGroup;
-            }
-            case  2110 :
-            {
-                return ServiceModuleFuelOnlineAmount;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
             case  2448 :
             {
                 return RefiningYieldIce;
@@ -215,13 +190,29 @@ public class StructureResourceProcessingServiceModule
             {
                 return RefiningYieldNormalOres;
             }
+            case  2109 :
+            {
+                return ServiceModuleFuelAmount;
+            }
+            case  2108 :
+            {
+                return ServiceModuleFuelConsumptionGroup;
+            }
+            case  2110 :
+            {
+                return ServiceModuleFuelOnlineAmount;
+            }
             case  2744 :
             {
                 return ServiceModuleFullPowerStateHitpointMultiplier;
             }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -535,7 +534,8 @@ public class Carrier
     public final static String RESOURCE_PATH = "SDE/items/ship/Carrier.yaml";
     private static LinkedHashMap<String, Carrier> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -552,6 +552,14 @@ public class Carrier
             case  1970 :
             {
                 return DisallowInHighSec;
+            }
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  2754 :
+            {
+                return EntosisAssistanceImpedanceMultiplier;
             }
             case  2021 :
             {
@@ -601,6 +609,18 @@ public class Carrier
             {
                 return HasShipMaintenanceBay;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
@@ -608,6 +628,10 @@ public class Carrier
             case  1785 :
             {
                 return IsCapitalSize;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
             }
             case  868 :
             {
@@ -620,6 +644,10 @@ public class Carrier
             case  869 :
             {
                 return JumpDriveDuration;
+            }
+            case  867 :
+            {
+                return JumpDriveRange;
             }
             case  1253 :
             {
@@ -657,6 +685,14 @@ public class Carrier
             {
                 return MetaGroupID;
             }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -692,6 +728,10 @@ public class Carrier
             case  79 :
             {
                 return ScanSpeed;
+            }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
             }
             case  2359 :
             {
@@ -733,6 +773,10 @@ public class Carrier
             {
                 return ShipBonusCarrierG2;
             }
+            case  2369 :
+            {
+                return ShipBonusCarrierG3;
+            }
             case  2370 :
             {
                 return ShipBonusCarrierG4;
@@ -745,9 +789,17 @@ public class Carrier
             {
                 return ShipBonusCarrierM2;
             }
+            case  2373 :
+            {
+                return ShipBonusCarrierM3;
+            }
             case  2374 :
             {
                 return ShipBonusCarrierM4;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
             }
             case  908 :
             {
@@ -756,6 +808,14 @@ public class Carrier
             case  1549 :
             {
                 return SpecialFuelBayCapacity;
+            }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
             }
             case  1768 :
             {
@@ -769,82 +829,13 @@ public class Carrier
             {
                 return UpgradeSlotsLeft;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2045 :
-            {
-                return EnergyWarfareResistance;
-            }
-            case  2754 :
-            {
-                return EntosisAssistanceImpedanceMultiplier;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  898 :
-            {
-                return JumpDriveCapacitorNeed;
-            }
-            case  867 :
-            {
-                return JumpDriveRange;
-            }
-            case  2135 :
-            {
-                return RemoteAssistanceImpedance;
-            }
-            case  2116 :
-            {
-                return RemoteRepairImpedance;
-            }
-            case  2112 :
-            {
-                return SensorDampenerResistance;
-            }
-            case  2369 :
-            {
-                return ShipBonusCarrierG3;
-            }
-            case  2373 :
-            {
-                return ShipBonusCarrierM3;
-            }
-            case  2298 :
-            {
-                return ShipBonusRole1;
-            }
-            case  2115 :
-            {
-                return StasisWebifierResistance;
-            }
-            case  2114 :
-            {
-                return TargetPainterResistance;
-            }
             case  2113 :
             {
                 return WeaponDisruptionResistance;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

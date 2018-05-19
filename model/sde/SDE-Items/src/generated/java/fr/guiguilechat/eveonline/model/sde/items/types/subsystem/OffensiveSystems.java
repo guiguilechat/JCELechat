@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -241,49 +240,13 @@ public class OffensiveSystems
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
     private static LinkedHashMap<String, OffensiveSystems> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  482 :
             {
                 return CapacitorCapacity;
             }
-            case  1531 :
-            {
-                return SubsystemBonusAmarrOffensive3;
-            }
-            case  1444 :
-            {
-                return SubsystemBonusCaldariOffensive;
-            }
-            case  1439 :
-            {
-                return SubsystemBonusGallenteOffensive;
-            }
-            case  1532 :
-            {
-                return SubsystemBonusGallenteOffensive3;
-            }
-            case  1449 :
-            {
-                return SubsystemBonusMinmatarOffensive;
-            }
-            case  1522 :
-            {
-                return SubsystemBonusMinmatarOffensive2;
-            }
-            case  1534 :
-            {
-                return SubsystemBonusMinmatarOffensive3;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  48 :
             {
                 return CpuOutput;
@@ -332,6 +295,14 @@ public class OffensiveSystems
             {
                 return SubsystemBonusAmarrOffensive2;
             }
+            case  1531 :
+            {
+                return SubsystemBonusAmarrOffensive3;
+            }
+            case  1444 :
+            {
+                return SubsystemBonusCaldariOffensive;
+            }
             case  1510 :
             {
                 return SubsystemBonusCaldariOffensive2;
@@ -340,9 +311,29 @@ public class OffensiveSystems
             {
                 return SubsystemBonusCaldariOffensive3;
             }
+            case  1439 :
+            {
+                return SubsystemBonusGallenteOffensive;
+            }
             case  1521 :
             {
                 return SubsystemBonusGallenteOffensive2;
+            }
+            case  1532 :
+            {
+                return SubsystemBonusGallenteOffensive3;
+            }
+            case  1449 :
+            {
+                return SubsystemBonusMinmatarOffensive;
+            }
+            case  1522 :
+            {
+                return SubsystemBonusMinmatarOffensive2;
+            }
+            case  1534 :
+            {
+                return SubsystemBonusMinmatarOffensive3;
             }
             case  2692 :
             {
@@ -382,7 +373,7 @@ public class OffensiveSystems
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

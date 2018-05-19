@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -311,7 +310,8 @@ public class AssaultFrigate
     public final static String RESOURCE_PATH = "SDE/items/ship/AssaultFrigate.yaml";
     private static LinkedHashMap<String, AssaultFrigate> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1803 :
             {
@@ -333,9 +333,25 @@ public class AssaultFrigate
             {
                 return EliteBonusGunship1;
             }
+            case  675 :
+            {
+                return EliteBonusGunship2;
+            }
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -364,6 +380,10 @@ public class AssaultFrigate
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -397,9 +417,17 @@ public class AssaultFrigate
             {
                 return ScanSpeed;
             }
+            case  485 :
+            {
+                return ShipBonus2AF;
+            }
             case  1623 :
             {
                 return ShipBonus3AF;
+            }
+            case  464 :
+            {
+                return ShipBonusAF;
             }
             case  1576 :
             {
@@ -412,59 +440,6 @@ public class AssaultFrigate
             case  463 :
             {
                 return ShipBonusCF;
-            }
-            case  511 :
-            {
-                return ShipScanResistance;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
-            }
-            case  1154 :
-            {
-                return UpgradeSlotsLeft;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  675 :
-            {
-                return EliteBonusGunship2;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  485 :
-            {
-                return ShipBonus2AF;
-            }
-            case  464 :
-            {
-                return ShipBonusAF;
             }
             case  588 :
             {
@@ -490,9 +465,25 @@ public class AssaultFrigate
             {
                 return ShipBonusRole7;
             }
+            case  511 :
+            {
+                return ShipScanResistance;
+            }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

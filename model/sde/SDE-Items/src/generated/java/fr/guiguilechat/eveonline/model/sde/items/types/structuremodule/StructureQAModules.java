@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -101,7 +100,8 @@ public class StructureQAModules
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureQAModules.yaml";
     private static LinkedHashMap<String, StructureQAModules> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -115,27 +115,6 @@ public class StructureQAModules
             {
                 return CanFitShipGroup03;
             }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  30 :
-            {
-                return Power;
-            }
-            case  2334 :
-            {
-                return StructureItemVisualFlag;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  72 :
             {
                 return CapacityBonus;
@@ -152,9 +131,21 @@ public class StructureQAModules
             {
                 return ExplosiveDamageResistanceBonus;
             }
+            case  9 :
+            {
+                return Hp;
+            }
             case  986 :
             {
                 return KineticDamageResistanceBonus;
+            }
+            case  30 :
+            {
+                return Power;
+            }
+            case  2334 :
+            {
+                return StructureItemVisualFlag;
             }
             case  987 :
             {
@@ -162,7 +153,7 @@ public class StructureQAModules
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

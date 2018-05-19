@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -59,29 +58,13 @@ public class Wreck
     public final static String RESOURCE_PATH = "SDE/items/celestial/Wreck.yaml";
     private static LinkedHashMap<String, Wreck> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  901 :
             {
                 return AccessDifficulty;
             }
-            case  2115 :
-            {
-                return StasisWebifierResistance;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1162 :
             {
                 return ExplosionDelayWreck;
@@ -94,9 +77,17 @@ public class Wreck
             {
                 return SignatureRadius;
             }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -360,7 +359,8 @@ public class Corvette
     public final static String RESOURCE_PATH = "SDE/items/ship/Corvette.yaml";
     private static LinkedHashMap<String, Corvette> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1259 :
             {
@@ -374,43 +374,6 @@ public class Corvette
             {
                 return HeatAttenuationMed;
             }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  1857 :
-            {
-                return RookieSETTracking;
-            }
-            case  1865 :
-            {
-                return RookieSHTTracking;
-            }
-            case  1868 :
-            {
-                return RookieSPTFalloff;
-            }
-            case  1869 :
-            {
-                return RookieSPTOptimal;
-            }
-            case  1867 :
-            {
-                return RookieSPTTracking;
-            }
-            case  1837 :
-            {
-                return RookieShieldBoostBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  14 :
             {
                 return HiSlots;
@@ -434,6 +397,10 @@ public class Corvette
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -507,6 +474,10 @@ public class Corvette
             {
                 return RookieSETOptimal;
             }
+            case  1857 :
+            {
+                return RookieSETTracking;
+            }
             case  1830 :
             {
                 return RookieSHTDamageBonus;
@@ -519,9 +490,29 @@ public class Corvette
             {
                 return RookieSHTOptimalBonus;
             }
+            case  1865 :
+            {
+                return RookieSHTTracking;
+            }
             case  1836 :
             {
                 return RookieSPTDamageBonus;
+            }
+            case  1868 :
+            {
+                return RookieSPTFalloff;
+            }
+            case  1869 :
+            {
+                return RookieSPTOptimal;
+            }
+            case  1867 :
+            {
+                return RookieSPTTracking;
+            }
+            case  1837 :
+            {
+                return RookieShieldBoostBonus;
             }
             case  1829 :
             {
@@ -569,7 +560,7 @@ public class Corvette
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

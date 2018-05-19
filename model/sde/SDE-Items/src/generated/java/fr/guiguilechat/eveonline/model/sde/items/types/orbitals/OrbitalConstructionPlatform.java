@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,7 +128,8 @@ public class OrbitalConstructionPlatform
     public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalConstructionPlatform.yaml";
     private static LinkedHashMap<String, OrbitalConstructionPlatform> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  556 :
             {
@@ -163,27 +163,6 @@ public class OrbitalConstructionPlatform
             {
                 return RequiredSkill1Level;
             }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  1770 :
-            {
-                return SpecialMaterialBayCapacity;
-            }
-            case  676 :
-            {
-                return UnanchoringDelay;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -200,13 +179,25 @@ public class OrbitalConstructionPlatform
             {
                 return ScanRadarStrength;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  1770 :
+            {
+                return SpecialMaterialBayCapacity;
+            }
+            case  676 :
+            {
+                return UnanchoringDelay;
+            }
             case  136 :
             {
                 return Uniformity;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

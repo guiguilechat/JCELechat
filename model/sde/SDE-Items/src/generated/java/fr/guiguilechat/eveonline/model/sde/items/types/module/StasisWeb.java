@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -129,7 +128,8 @@ public class StasisWeb
     public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
     private static LinkedHashMap<String, StasisWeb> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -143,27 +143,6 @@ public class StasisWeb
             {
                 return Duration;
             }
-            case  1180 :
-            {
-                return HeatAbsorbtionRateModifier;
-            }
-            case  1211 :
-            {
-                return HeatDamage;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  158 :
             {
                 return Falloff;
@@ -171,6 +150,14 @@ public class StasisWeb
             case  2044 :
             {
                 return FalloffEffectiveness;
+            }
+            case  1180 :
+            {
+                return HeatAbsorbtionRateModifier;
+            }
+            case  1211 :
+            {
+                return HeatDamage;
             }
             case  54 :
             {
@@ -204,9 +191,13 @@ public class StasisWeb
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

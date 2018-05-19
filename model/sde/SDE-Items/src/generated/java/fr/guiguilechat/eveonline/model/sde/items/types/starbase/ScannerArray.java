@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -178,15 +177,36 @@ public class ScannerArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
     private static LinkedHashMap<String, ScannerArray> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
                 return ArmorHP;
             }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
             case  2244 :
             {
                 return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  788 :
+            {
+                return MaxScanDeviation;
             }
             case  787 :
             {
@@ -212,47 +232,6 @@ public class ScannerArray
             {
                 return RequiredSkill1Level;
             }
-            case  765 :
-            {
-                return ScanRange;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  156 :
-            {
-                return IncapacitationRatio;
-            }
-            case  788 :
-            {
-                return MaxScanDeviation;
-            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -269,6 +248,14 @@ public class ScannerArray
             {
                 return ScanRadarStrength;
             }
+            case  765 :
+            {
+                return ScanRange;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -277,13 +264,17 @@ public class ScannerArray
             {
                 return ShieldUniformity;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  136 :
             {
                 return Uniformity;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

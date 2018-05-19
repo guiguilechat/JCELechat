@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class PlanetSatellites
     public final static String RESOURCE_PATH = "SDE/items/charge/PlanetSatellites.yaml";
     private static LinkedHashMap<String, PlanetSatellites> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  317 :
             {
@@ -145,6 +145,14 @@ public class PlanetSatellites
             case  128 :
             {
                 return ChargeSize;
+            }
+            case  783 :
+            {
+                return CrystalVolatilityChance;
+            }
+            case  784 :
+            {
+                return CrystalVolatilityDamage;
             }
             case  786 :
             {
@@ -186,6 +194,10 @@ public class PlanetSatellites
             {
                 return SpecialisationAsteroidGroup;
             }
+            case  782 :
+            {
+                return SpecialisationAsteroidYieldMultiplier;
+            }
             case  422 :
             {
                 return TechLevel;
@@ -196,28 +208,7 @@ public class PlanetSatellites
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  783 :
-            {
-                return CrystalVolatilityChance;
-            }
-            case  784 :
-            {
-                return CrystalVolatilityDamage;
-            }
-            case  782 :
-            {
-                return SpecialisationAsteroidYieldMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -101,7 +100,8 @@ public class MobileTractorUnit
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
     private static LinkedHashMap<String, MobileTractorUnit> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -110,6 +110,26 @@ public class MobileTractorUnit
             case  73 :
             {
                 return Duration;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  54 :
+            {
+                return MaxRange;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
+            case  1045 :
+            {
+                return MaxTractorVelocity;
+            }
+            case  633 :
+            {
+                return MetaLevel;
             }
             case  211 :
             {
@@ -133,36 +153,7 @@ public class MobileTractorUnit
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  192 :
-            {
-                return MaxLockedTargets;
-            }
-            case  54 :
-            {
-                return MaxRange;
-            }
-            case  76 :
-            {
-                return MaxTargetRange;
-            }
-            case  1045 :
-            {
-                return MaxTractorVelocity;
-            }
-            case  633 :
-            {
-                return MetaLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

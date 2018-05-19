@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -262,7 +261,8 @@ public class CommandBurst
     public final static String RESOURCE_PATH = "SDE/items/module/CommandBurst.yaml";
     private static LinkedHashMap<String, CommandBurst> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -308,6 +308,10 @@ public class CommandBurst
             {
                 return CanFitShipGroup10;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  604 :
             {
                 return ChargeGroup1;
@@ -315,6 +319,10 @@ public class CommandBurst
             case  56 :
             {
                 return ChargeRate;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1920 :
             {
@@ -327,6 +335,10 @@ public class CommandBurst
             case  2343 :
             {
                 return DisallowTethering;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  763 :
             {
@@ -343,6 +355,10 @@ public class CommandBurst
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -368,35 +384,6 @@ public class CommandBurst
             {
                 return RequiredSkill3Level;
             }
-            case  1882 :
-            {
-                return WarfareLinkCPUAdd;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
             case  2469 :
             {
                 return WarfareBuff1Value;
@@ -413,9 +400,13 @@ public class CommandBurst
             {
                 return WarfareBuff4Value;
             }
+            case  1882 :
+            {
+                return WarfareLinkCPUAdd;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -206,7 +205,8 @@ public class TitanPhenomenaGenerator
     public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
     private static LinkedHashMap<String, TitanPhenomenaGenerator> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -224,6 +224,10 @@ public class TitanPhenomenaGenerator
             {
                 return CanFitShipType3;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  714 :
             {
                 return ConsumptionQuantity;
@@ -231,6 +235,10 @@ public class TitanPhenomenaGenerator
             case  713 :
             {
                 return ConsumptionType;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1920 :
             {
@@ -243,6 +251,10 @@ public class TitanPhenomenaGenerator
             case  2343 :
             {
                 return DisallowTethering;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  763 :
             {
@@ -276,50 +288,29 @@ public class TitanPhenomenaGenerator
             {
                 return WarfareBuff1ID;
             }
-            case  2470 :
-            {
-                return WarfareBuff2ID;
-            }
-            case  2472 :
-            {
-                return WarfareBuff3ID;
-            }
-            case  2536 :
-            {
-                return WarfareBuff4ID;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
             case  2469 :
             {
                 return WarfareBuff1Value;
+            }
+            case  2470 :
+            {
+                return WarfareBuff2ID;
             }
             case  2471 :
             {
                 return WarfareBuff2Value;
             }
+            case  2472 :
+            {
+                return WarfareBuff3ID;
+            }
             case  2473 :
             {
                 return WarfareBuff3Value;
+            }
+            case  2536 :
+            {
+                return WarfareBuff4ID;
             }
             case  2537 :
             {
@@ -327,7 +318,7 @@ public class TitanPhenomenaGenerator
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

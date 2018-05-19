@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -101,7 +100,8 @@ public class RigArmor
     public final static String RESOURCE_PATH = "SDE/items/module/RigArmor.yaml";
     private static LinkedHashMap<String, RigArmor> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  335 :
             {
@@ -119,27 +119,6 @@ public class RigArmor
             {
                 return DurationSkillBonus;
             }
-            case  806 :
-            {
-                return RepairBonus;
-            }
-            case  1547 :
-            {
-                return RigSize;
-            }
-            case  1153 :
-            {
-                return UpgradeCost;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
             case  984 :
             {
                 return EmDamageResistanceBonus;
@@ -156,13 +135,25 @@ public class RigArmor
             {
                 return KineticDamageResistanceBonus;
             }
+            case  806 :
+            {
+                return RepairBonus;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
             case  987 :
             {
                 return ThermalDamageResistanceBonus;
             }
+            case  1153 :
+            {
+                return UpgradeCost;
+            }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

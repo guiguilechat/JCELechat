@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -157,15 +156,24 @@ public class StructureEngineeringRigMAdvancedComponentME
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedComponentME.yaml";
     private static LinkedHashMap<String, StructureEngineeringRigMAdvancedComponentME> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
                 return AttributeEngRigCostBonus;
             }
+            case  2594 :
+            {
+                return AttributeEngRigMatBonus;
+            }
             case  2593 :
             {
                 return AttributeEngRigTimeBonus;
+            }
+            case  2653 :
+            {
+                return AttributeThukkerEngRigMatBonus;
             }
             case  1298 :
             {
@@ -179,9 +187,17 @@ public class StructureEngineeringRigMAdvancedComponentME
             {
                 return CanFitShipGroup03;
             }
+            case  2355 :
+            {
+                return HiSecModifier;
+            }
             case  9 :
             {
                 return Hp;
+            }
+            case  2356 :
+            {
+                return LowSecModifier;
             }
             case  1544 :
             {
@@ -190,6 +206,10 @@ public class StructureEngineeringRigMAdvancedComponentME
             case  1692 :
             {
                 return MetaGroupID;
+            }
+            case  2357 :
+            {
+                return NullSecModifier;
             }
             case  182 :
             {
@@ -221,36 +241,7 @@ public class StructureEngineeringRigMAdvancedComponentME
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2594 :
-            {
-                return AttributeEngRigMatBonus;
-            }
-            case  2653 :
-            {
-                return AttributeThukkerEngRigMatBonus;
-            }
-            case  2355 :
-            {
-                return HiSecModifier;
-            }
-            case  2356 :
-            {
-                return LowSecModifier;
-            }
-            case  2357 :
-            {
-                return NullSecModifier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

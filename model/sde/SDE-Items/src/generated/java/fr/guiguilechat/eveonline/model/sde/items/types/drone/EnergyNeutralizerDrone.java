@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -269,7 +268,8 @@ public class EnergyNeutralizerDrone
     public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
     private static LinkedHashMap<String, EnergyNeutralizerDrone> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -283,6 +283,10 @@ public class EnergyNeutralizerDrone
             {
                 return ArmorExplosiveDamageResonance;
             }
+            case  265 :
+            {
+                return ArmorHP;
+            }
             case  269 :
             {
                 return ArmorKineticDamageResonance;
@@ -294,47 +298,6 @@ public class EnergyNeutralizerDrone
             case  524 :
             {
                 return ArmorUniformity;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
             }
             case  97 :
             {
@@ -380,6 +343,10 @@ public class EnergyNeutralizerDrone
             {
                 return EntityCruiseSpeed;
             }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
             case  2189 :
             {
                 return FighterAbilityAntiFighterMissileResistance;
@@ -416,6 +383,30 @@ public class EnergyNeutralizerDrone
             {
                 return ShieldCapacity;
             }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
             case  552 :
             {
                 return SignatureRadius;
@@ -426,7 +417,7 @@ public class EnergyNeutralizerDrone
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

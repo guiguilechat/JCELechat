@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -92,7 +91,8 @@ public class Arkonor
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Arkonor.yaml";
     private static LinkedHashMap<String, Arkonor> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -101,6 +101,10 @@ public class Arkonor
             case  2699 :
             {
                 return AsteroidMetaLevel;
+            }
+            case  1980 :
+            {
+                return AsteroidRadiusGrowthFactor;
             }
             case  1981 :
             {
@@ -126,26 +130,13 @@ public class Arkonor
             {
                 return RequiredSkill1;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1980 :
-            {
-                return AsteroidRadiusGrowthFactor;
-            }
             case  2115 :
             {
                 return StasisWebifierResistance;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

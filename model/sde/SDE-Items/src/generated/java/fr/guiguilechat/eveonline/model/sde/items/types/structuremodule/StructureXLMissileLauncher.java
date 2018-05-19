@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -115,7 +114,8 @@ public class StructureXLMissileLauncher
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureXLMissileLauncher.yaml";
     private static LinkedHashMap<String, StructureXLMissileLauncher> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -137,6 +137,10 @@ public class StructureXLMissileLauncher
             {
                 return ChargeRate;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  9 :
             {
                 return Hp;
@@ -148,6 +152,10 @@ public class StructureXLMissileLauncher
             case  30 :
             {
                 return Power;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  47 :
             {
@@ -167,24 +175,7 @@ public class StructureXLMissileLauncher
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

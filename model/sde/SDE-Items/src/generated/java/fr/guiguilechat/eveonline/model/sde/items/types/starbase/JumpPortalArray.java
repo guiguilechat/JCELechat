@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -213,15 +212,24 @@ public class JumpPortalArray
     public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
     private static LinkedHashMap<String, JumpPortalArray> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
                 return AnchoringSecurityLevelMax;
             }
+            case  265 :
+            {
+                return ArmorHP;
+            }
             case  524 :
             {
                 return ArmorUniformity;
+            }
+            case  1165 :
+            {
+                return ControlTowerMinimumDistance;
             }
             case  50 :
             {
@@ -235,9 +243,21 @@ public class JumpPortalArray
             {
                 return ExplosiveDamageResonance;
             }
+            case  2244 :
+            {
+                return FighterAbilityAntiCapitalMissileResistance;
+            }
             case  156 :
             {
                 return IncapacitationRatio;
+            }
+            case  868 :
+            {
+                return JumpDriveConsumptionAmount;
+            }
+            case  866 :
+            {
+                return JumpDriveConsumptionType;
             }
             case  867 :
             {
@@ -250,63 +270,6 @@ public class JumpPortalArray
             case  109 :
             {
                 return KineticDamageResonance;
-            }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  110 :
-            {
-                return ThermalDamageResonance;
-            }
-            case  136 :
-            {
-                return Uniformity;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  1165 :
-            {
-                return ControlTowerMinimumDistance;
-            }
-            case  2244 :
-            {
-                return FighterAbilityAntiCapitalMissileResistance;
-            }
-            case  868 :
-            {
-                return JumpDriveConsumptionAmount;
-            }
-            case  866 :
-            {
-                return JumpDriveConsumptionType;
             }
             case  1195 :
             {
@@ -324,6 +287,22 @@ public class JumpPortalArray
             {
                 return RequiresSovUpgrade1;
             }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
             case  564 :
             {
                 return ScanResolution;
@@ -332,13 +311,25 @@ public class JumpPortalArray
             {
                 return ShieldCapacity;
             }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
             case  552 :
             {
                 return SignatureRadius;
             }
+            case  110 :
+            {
+                return ThermalDamageResonance;
+            }
+            case  136 :
+            {
+                return Uniformity;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

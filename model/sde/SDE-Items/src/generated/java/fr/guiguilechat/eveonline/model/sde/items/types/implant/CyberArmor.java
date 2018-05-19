@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -66,25 +65,13 @@ public class CyberArmor
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberArmor.yaml";
     private static LinkedHashMap<String, CyberArmor> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1083 :
             {
                 return ArmorHpBonus2;
             }
-            case  327 :
-            {
-                return HullHpBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  317 :
             {
                 return CapNeedBonus;
@@ -92,6 +79,10 @@ public class CyberArmor
             case  312 :
             {
                 return DurationSkillBonus;
+            }
+            case  327 :
+            {
+                return HullHpBonus;
             }
             case  331 :
             {
@@ -107,7 +98,7 @@ public class CyberArmor
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

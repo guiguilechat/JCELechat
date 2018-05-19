@@ -3,8 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -451,7 +450,8 @@ public abstract class Ship
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -465,6 +465,10 @@ public abstract class Ship
             {
                 return ArmorExplosiveDamageResonance;
             }
+            case  265 :
+            {
+                return ArmorHP;
+            }
             case  269 :
             {
                 return ArmorKineticDamageResonance;
@@ -477,9 +481,33 @@ public abstract class Ship
             {
                 return ArmorUniformity;
             }
+            case  1281 :
+            {
+                return BaseWarpSpeed;
+            }
             case  482 :
             {
                 return CapacitorCapacity;
+            }
+            case  49 :
+            {
+                return CpuLoad;
+            }
+            case  48 :
+            {
+                return CpuOutput;
+            }
+            case  3 :
+            {
+                return Damage;
+            }
+            case  1271 :
+            {
+                return DroneBandwidth;
+            }
+            case  283 :
+            {
+                return DroneCapacity;
             }
             case  113 :
             {
@@ -488,6 +516,22 @@ public abstract class Ship
             case  111 :
             {
                 return ExplosiveDamageResonance;
+            }
+            case  246 :
+            {
+                return GfxBoosterID;
+            }
+            case  1178 :
+            {
+                return HeatCapacityHi;
+            }
+            case  1200 :
+            {
+                return HeatCapacityLow;
+            }
+            case  1199 :
+            {
+                return HeatCapacityMed;
             }
             case  1179 :
             {
@@ -505,13 +549,49 @@ public abstract class Ship
             {
                 return HeatGenerationMultiplier;
             }
+            case  9 :
+            {
+                return Hp;
+            }
             case  109 :
             {
                 return KineticDamageResonance;
             }
+            case  101 :
+            {
+                return LauncherSlotsLeft;
+            }
+            case  192 :
+            {
+                return MaxLockedTargets;
+            }
+            case  76 :
+            {
+                return MaxTargetRange;
+            }
             case  37 :
             {
                 return MaxVelocity;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  15 :
+            {
+                return PowerLoad;
+            }
+            case  11 :
+            {
+                return PowerOutput;
+            }
+            case  19 :
+            {
+                return PowerToSpeed;
+            }
+            case  217 :
+            {
+                return PropulsionGraphicID;
             }
             case  55 :
             {
@@ -532,6 +612,10 @@ public abstract class Ship
             case  208 :
             {
                 return ScanRadarStrength;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
             }
             case  271 :
             {
@@ -557,13 +641,25 @@ public abstract class Ship
             {
                 return ShieldUniformity;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  525 :
             {
                 return StructureUniformity;
             }
+            case  422 :
+            {
+                return TechLevel;
+            }
             case  110 :
             {
                 return ThermalDamageResonance;
+            }
+            case  102 :
+            {
+                return TurretSlotsLeft;
             }
             case  136 :
             {
@@ -573,122 +669,17 @@ public abstract class Ship
             {
                 return WarpCapacitorNeed;
             }
+            case  21 :
+            {
+                return WarpFactor;
+            }
             case  600 :
             {
                 return WarpSpeedMultiplier;
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  1281 :
-            {
-                return BaseWarpSpeed;
-            }
-            case  49 :
-            {
-                return CpuLoad;
-            }
-            case  48 :
-            {
-                return CpuOutput;
-            }
-            case  3 :
-            {
-                return Damage;
-            }
-            case  1271 :
-            {
-                return DroneBandwidth;
-            }
-            case  283 :
-            {
-                return DroneCapacity;
-            }
-            case  246 :
-            {
-                return GfxBoosterID;
-            }
-            case  1178 :
-            {
-                return HeatCapacityHi;
-            }
-            case  1200 :
-            {
-                return HeatCapacityLow;
-            }
-            case  1199 :
-            {
-                return HeatCapacityMed;
-            }
-            case  9 :
-            {
-                return Hp;
-            }
-            case  101 :
-            {
-                return LauncherSlotsLeft;
-            }
-            case  192 :
-            {
-                return MaxLockedTargets;
-            }
-            case  76 :
-            {
-                return MaxTargetRange;
-            }
-            case  633 :
-            {
-                return MetaLevel;
-            }
-            case  15 :
-            {
-                return PowerLoad;
-            }
-            case  11 :
-            {
-                return PowerOutput;
-            }
-            case  19 :
-            {
-                return PowerToSpeed;
-            }
-            case  217 :
-            {
-                return PropulsionGraphicID;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            case  102 :
-            {
-                return TurretSlotsLeft;
-            }
-            case  21 :
-            {
-                return WarpFactor;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

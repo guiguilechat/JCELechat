@@ -3,8 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -454,7 +453,8 @@ public abstract class Owner
     @DefaultIntValue(0)
     public int Willpower;
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  442 :
             {
@@ -479,6 +479,14 @@ public abstract class Owner
             case  360 :
             {
                 return ConnectionsBonus;
+            }
+            case  723 :
+            {
+                return ContrabandDetectionChance;
+            }
+            case  444 :
+            {
+                return ContrabandFencingChance;
             }
             case  387 :
             {
@@ -515,6 +523,10 @@ public abstract class Owner
             case  171 :
             {
                 return CustomWillpowerBonus;
+            }
+            case  522 :
+            {
+                return DamageCloudChance;
             }
             case  356 :
             {
@@ -600,6 +612,10 @@ public abstract class Owner
             {
                 return MiningDroneAmountPercent;
             }
+            case  212 :
+            {
+                return MissileDamageMultiplier;
+            }
             case  406 :
             {
                 return MissileFOFVelocityPercent;
@@ -632,6 +648,10 @@ public abstract class Owner
             {
                 return RefiningYieldPercentage;
             }
+            case  187 :
+            {
+                return RepairCostMultiplier;
+            }
             case  396 :
             {
                 return RepairCostPercent;
@@ -643,6 +663,14 @@ public abstract class Owner
             case  551 :
             {
                 return RocketVelocityPercent;
+            }
+            case  1277 :
+            {
+                return ShipBrokenModuleRepairCostMultiplier;
+            }
+            case  445 :
+            {
+                return SmugglingChance;
             }
             case  362 :
             {
@@ -678,44 +706,7 @@ public abstract class Owner
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  723 :
-            {
-                return ContrabandDetectionChance;
-            }
-            case  444 :
-            {
-                return ContrabandFencingChance;
-            }
-            case  522 :
-            {
-                return DamageCloudChance;
-            }
-            case  212 :
-            {
-                return MissileDamageMultiplier;
-            }
-            case  187 :
-            {
-                return RepairCostMultiplier;
-            }
-            case  1277 :
-            {
-                return ShipBrokenModuleRepairCostMultiplier;
-            }
-            case  445 :
-            {
-                return SmugglingChance;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

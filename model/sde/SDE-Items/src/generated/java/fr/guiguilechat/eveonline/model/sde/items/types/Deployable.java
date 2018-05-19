@@ -3,8 +3,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
@@ -75,7 +74,8 @@ public abstract class Deployable
     @DefaultIntValue(1)
     public int TechLevel;
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -85,9 +85,17 @@ public abstract class Deployable
             {
                 return Hp;
             }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
             case  263 :
             {
                 return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
             }
             case  552 :
             {
@@ -99,24 +107,7 @@ public abstract class Deployable
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

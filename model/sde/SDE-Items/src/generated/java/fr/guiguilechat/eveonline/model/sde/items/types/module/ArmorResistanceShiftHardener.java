@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class ArmorResistanceShiftHardener
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorResistanceShiftHardener.yaml";
     private static LinkedHashMap<String, ArmorResistanceShiftHardener> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -174,19 +174,6 @@ public class ArmorResistanceShiftHardener
             {
                 return HeatDamage;
             }
-            case  1206 :
-            {
-                return OverloadSelfDurationBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  763 :
             {
                 return MaxGroupActive;
@@ -194,6 +181,10 @@ public class ArmorResistanceShiftHardener
             case  1544 :
             {
                 return MaxGroupFitted;
+            }
+            case  1206 :
+            {
+                return OverloadSelfDurationBonus;
             }
             case  30 :
             {
@@ -217,7 +208,7 @@ public class ArmorResistanceShiftHardener
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

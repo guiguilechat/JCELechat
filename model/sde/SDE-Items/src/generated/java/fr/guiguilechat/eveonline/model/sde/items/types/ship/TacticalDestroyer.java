@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -269,11 +268,24 @@ public class TacticalDestroyer
     public final static String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
     private static LinkedHashMap<String, TacticalDestroyer> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
                 return FwLpKill;
+            }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
             }
             case  14 :
             {
@@ -295,9 +307,17 @@ public class TacticalDestroyer
             {
                 return MaxPassengers;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
             case  13 :
             {
                 return MedSlots;
+            }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
             }
             case  182 :
             {
@@ -327,6 +347,10 @@ public class TacticalDestroyer
             {
                 return ScanSpeed;
             }
+            case  793 :
+            {
+                return ShipBonusRole7;
+            }
             case  1986 :
             {
                 return ShipBonusTacticalDestroyerAmarr1;
@@ -354,6 +378,10 @@ public class TacticalDestroyer
             case  2027 :
             {
                 return ShipBonusTacticalDestroyerGallente1;
+            }
+            case  2028 :
+            {
+                return ShipBonusTacticalDestroyerGallente2;
             }
             case  2029 :
             {
@@ -389,44 +417,7 @@ public class TacticalDestroyer
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  793 :
-            {
-                return ShipBonusRole7;
-            }
-            case  2028 :
-            {
-                return ShipBonusTacticalDestroyerGallente2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

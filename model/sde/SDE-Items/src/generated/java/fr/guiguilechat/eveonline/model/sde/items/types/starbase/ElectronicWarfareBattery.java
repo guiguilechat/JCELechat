@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -311,15 +310,32 @@ public class ElectronicWarfareBattery
     public final static String RESOURCE_PATH = "SDE/items/starbase/ElectronicWarfareBattery.yaml";
     private static LinkedHashMap<String, ElectronicWarfareBattery> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
                 return ArmorHP;
             }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
             case  1165 :
             {
                 return ControlTowerMinimumDistance;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  113 :
+            {
+                return EmDamageResonance;
             }
             case  476 :
             {
@@ -329,9 +345,21 @@ public class ElectronicWarfareBattery
             {
                 return EntityAttackDelayMin;
             }
+            case  416 :
+            {
+                return EntityFlyRange;
+            }
+            case  466 :
+            {
+                return EntityReactionFactor;
+            }
             case  831 :
             {
                 return EwTargetJam;
+            }
+            case  111 :
+            {
+                return ExplosiveDamageResonance;
             }
             case  2044 :
             {
@@ -340,6 +368,14 @@ public class ElectronicWarfareBattery
             case  2244 :
             {
                 return FighterAbilityAntiCapitalMissileResistance;
+            }
+            case  156 :
+            {
+                return IncapacitationRatio;
+            }
+            case  109 :
+            {
+                return KineticDamageResonance;
             }
             case  192 :
             {
@@ -381,67 +417,6 @@ public class ElectronicWarfareBattery
             {
                 return RequiredSkill1Level;
             }
-            case  564 :
-            {
-                return ScanResolution;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  691 :
-            {
-                return TargetSwitchDelay;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  113 :
-            {
-                return EmDamageResonance;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  466 :
-            {
-                return EntityReactionFactor;
-            }
-            case  111 :
-            {
-                return ExplosiveDamageResonance;
-            }
-            case  156 :
-            {
-                return IncapacitationRatio;
-            }
-            case  109 :
-            {
-                return KineticDamageResonance;
-            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -474,6 +449,14 @@ public class ElectronicWarfareBattery
             {
                 return ScanRadarStrengthBonus;
             }
+            case  564 :
+            {
+                return ScanResolution;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
             case  479 :
             {
                 return ShieldRechargeRate;
@@ -481,6 +464,14 @@ public class ElectronicWarfareBattery
             case  484 :
             {
                 return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
+            case  691 :
+            {
+                return TargetSwitchDelay;
             }
             case  110 :
             {
@@ -492,7 +483,7 @@ public class ElectronicWarfareBattery
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

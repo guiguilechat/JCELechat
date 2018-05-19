@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -80,15 +79,28 @@ public class CyberEngineering
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberEngineering.yaml";
     private static LinkedHashMap<String, CyberEngineering> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  317 :
             {
                 return CapNeedBonus;
             }
+            case  314 :
+            {
+                return CapRechargeBonus;
+            }
+            case  1079 :
+            {
+                return CapacitorCapacityBonus;
+            }
             case  310 :
             {
                 return CpuNeedBonus;
+            }
+            case  424 :
+            {
+                return CpuOutputBonus2;
             }
             case  66 :
             {
@@ -98,38 +110,17 @@ public class CyberEngineering
             {
                 return Implantness;
             }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
+            }
             case  422 :
             {
                 return TechLevel;
             }
             default:
             {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  314 :
-            {
-                return CapRechargeBonus;
-            }
-            case  1079 :
-            {
-                return CapacitorCapacityBonus;
-            }
-            case  424 :
-            {
-                return CpuOutputBonus2;
-            }
-            case  313 :
-            {
-                return PowerEngineeringOutputBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

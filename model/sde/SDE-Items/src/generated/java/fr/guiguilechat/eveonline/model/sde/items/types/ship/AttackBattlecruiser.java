@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -234,7 +233,8 @@ public class AttackBattlecruiser
     public final static String RESOURCE_PATH = "SDE/items/ship/AttackBattlecruiser.yaml";
     private static LinkedHashMap<String, AttackBattlecruiser> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  1787 :
             {
@@ -248,6 +248,10 @@ public class AttackBattlecruiser
             {
                 return BcLargeTurretPower;
             }
+            case  1555 :
+            {
+                return FwLpKill;
+            }
             case  1259 :
             {
                 return HeatAttenuationHi;
@@ -259,47 +263,6 @@ public class AttackBattlecruiser
             case  1261 :
             {
                 return HeatAttenuationMed;
-            }
-            case  662 :
-            {
-                return MinTargetVelDmgMultiplier;
-            }
-            case  795 :
-            {
-                return ShipBonusABC1;
-            }
-            case  743 :
-            {
-                return ShipBonusCBC1;
-            }
-            case  747 :
-            {
-                return ShipBonusGBC1;
-            }
-            case  746 :
-            {
-                return ShipBonusGBC2;
-            }
-            case  748 :
-            {
-                return ShipBonusMBC1;
-            }
-            case  749 :
-            {
-                return ShipBonusMBC2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1555 :
-            {
-                return FwLpKill;
             }
             case  14 :
             {
@@ -325,6 +288,10 @@ public class AttackBattlecruiser
             {
                 return MedSlots;
             }
+            case  662 :
+            {
+                return MinTargetVelDmgMultiplier;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -349,13 +316,37 @@ public class AttackBattlecruiser
             {
                 return ScanSpeed;
             }
+            case  795 :
+            {
+                return ShipBonusABC1;
+            }
             case  1889 :
             {
                 return ShipBonusABC2;
             }
+            case  743 :
+            {
+                return ShipBonusCBC1;
+            }
             case  745 :
             {
                 return ShipBonusCBC2;
+            }
+            case  747 :
+            {
+                return ShipBonusGBC1;
+            }
+            case  746 :
+            {
+                return ShipBonusGBC2;
+            }
+            case  748 :
+            {
+                return ShipBonusMBC1;
+            }
+            case  749 :
+            {
+                return ShipBonusMBC2;
             }
             case  1768 :
             {
@@ -371,7 +362,7 @@ public class AttackBattlecruiser
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

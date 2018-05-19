@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class CloneVatBay
     public final static String RESOURCE_PATH = "SDE/items/module/CloneVatBay.yaml";
     private static LinkedHashMap<String, CloneVatBay> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  981 :
             {
@@ -162,6 +162,10 @@ public class CloneVatBay
             {
                 return ConsumptionType;
             }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  801 :
             {
                 return DeadspaceUnsafe;
@@ -169,6 +173,10 @@ public class CloneVatBay
             case  906 :
             {
                 return DisallowEarlyDeactivation;
+            }
+            case  73 :
+            {
+                return Duration;
             }
             case  763 :
             {
@@ -194,30 +202,13 @@ public class CloneVatBay
             {
                 return SiegeModeWarpStatus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
             case  20 :
             {
                 return SpeedFactor;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

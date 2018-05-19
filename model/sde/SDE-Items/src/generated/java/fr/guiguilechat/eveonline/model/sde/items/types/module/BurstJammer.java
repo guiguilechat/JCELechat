@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class BurstJammer
     public final static String RESOURCE_PATH = "SDE/items/module/BurstJammer.yaml";
     private static LinkedHashMap<String, BurstJammer> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -150,6 +150,10 @@ public class BurstJammer
             {
                 return Duration;
             }
+            case  142 :
+            {
+                return EcmBurstRange;
+            }
             case  1180 :
             {
                 return HeatAbsorbtionRateModifier;
@@ -157,35 +161,6 @@ public class BurstJammer
             case  1211 :
             {
                 return HeatDamage;
-            }
-            case  238 :
-            {
-                return ScanGravimetricStrengthBonus;
-            }
-            case  239 :
-            {
-                return ScanLadarStrengthBonus;
-            }
-            case  240 :
-            {
-                return ScanMagnetometricStrengthBonus;
-            }
-            case  241 :
-            {
-                return ScanRadarStrengthBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  142 :
-            {
-                return EcmBurstRange;
             }
             case  763 :
             {
@@ -215,9 +190,25 @@ public class BurstJammer
             {
                 return RequiredThermoDynamicsSkill;
             }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

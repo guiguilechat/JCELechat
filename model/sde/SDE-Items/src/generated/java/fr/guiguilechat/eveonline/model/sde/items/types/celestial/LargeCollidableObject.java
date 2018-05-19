@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -216,11 +215,16 @@ public class LargeCollidableObject
     public final static String RESOURCE_PATH = "SDE/items/celestial/LargeCollidableObject.yaml";
     private static LinkedHashMap<String, LargeCollidableObject> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  901 :
             {
                 return AccessDifficulty;
+            }
+            case  265 :
+            {
+                return ArmorHP;
             }
             case  524 :
             {
@@ -229,35 +233,6 @@ public class LargeCollidableObject
             case  482 :
             {
                 return CapacitorCapacity;
-            }
-            case  416 :
-            {
-                return EntityFlyRange;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  525 :
-            {
-                return StructureUniformity;
-            }
-            case  160 :
-            {
-                return TrackingSpeed;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
             }
             case  854 :
             {
@@ -282,6 +257,10 @@ public class LargeCollidableObject
             case  456 :
             {
                 return EntityEquipmentMin;
+            }
+            case  416 :
+            {
+                return EntityFlyRange;
             }
             case  481 :
             {
@@ -327,6 +306,10 @@ public class LargeCollidableObject
             {
                 return ShieldCapacity;
             }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
             case  552 :
             {
                 return SignatureRadius;
@@ -335,13 +318,21 @@ public class LargeCollidableObject
             {
                 return SpawnWithoutGuardsToo;
             }
+            case  525 :
+            {
+                return StructureUniformity;
+            }
             case  1919 :
             {
                 return TierDifficulty;
             }
+            case  160 :
+            {
+                return TrackingSpeed;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

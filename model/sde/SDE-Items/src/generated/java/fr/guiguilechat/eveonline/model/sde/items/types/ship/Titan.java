@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -640,7 +639,8 @@ public class Titan
     public final static String RESOURCE_PATH = "SDE/items/ship/Titan.yaml";
     private static LinkedHashMap<String, Titan> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  63 :
             {
@@ -665,6 +665,14 @@ public class Titan
             case  1970 :
             {
                 return DisallowInHighSec;
+            }
+            case  2045 :
+            {
+                return EnergyWarfareResistance;
+            }
+            case  2754 :
+            {
+                return EntosisAssistanceImpedanceMultiplier;
             }
             case  2021 :
             {
@@ -714,6 +722,18 @@ public class Titan
             {
                 return HasShipMaintenanceBay;
             }
+            case  1259 :
+            {
+                return HeatAttenuationHi;
+            }
+            case  1262 :
+            {
+                return HeatAttenuationLow;
+            }
+            case  1261 :
+            {
+                return HeatAttenuationMed;
+            }
             case  14 :
             {
                 return HiSlots;
@@ -725,6 +745,10 @@ public class Titan
             case  1336 :
             {
                 return JumpClonesLeft;
+            }
+            case  898 :
+            {
+                return JumpDriveCapacitorNeed;
             }
             case  868 :
             {
@@ -738,6 +762,10 @@ public class Titan
             {
                 return JumpDriveDuration;
             }
+            case  867 :
+            {
+                return JumpDriveRange;
+            }
             case  1253 :
             {
                 return JumpHarmonics;
@@ -745,6 +773,10 @@ public class Titan
             case  1005 :
             {
                 return JumpPortalCapacitorNeed;
+            }
+            case  1001 :
+            {
+                return JumpPortalConsumptionMassFactor;
             }
             case  1002 :
             {
@@ -806,6 +838,14 @@ public class Titan
             {
                 return OnDeathSignatureRadius;
             }
+            case  2135 :
+            {
+                return RemoteAssistanceImpedance;
+            }
+            case  2116 :
+            {
+                return RemoteRepairImpedance;
+            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -845,6 +885,14 @@ public class Titan
             case  564 :
             {
                 return ScanResolution;
+            }
+            case  2112 :
+            {
+                return SensorDampenerResistance;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
             }
             case  2299 :
             {
@@ -922,6 +970,14 @@ public class Titan
             {
                 return SpecialFuelBayCapacity;
             }
+            case  2115 :
+            {
+                return StasisWebifierResistance;
+            }
+            case  2114 :
+            {
+                return TargetPainterResistance;
+            }
             case  1768 :
             {
                 return TypeColorScheme;
@@ -938,78 +994,13 @@ public class Titan
             {
                 return WarpScrambleStatus;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  2045 :
-            {
-                return EnergyWarfareResistance;
-            }
-            case  2754 :
-            {
-                return EntosisAssistanceImpedanceMultiplier;
-            }
-            case  1259 :
-            {
-                return HeatAttenuationHi;
-            }
-            case  1262 :
-            {
-                return HeatAttenuationLow;
-            }
-            case  1261 :
-            {
-                return HeatAttenuationMed;
-            }
-            case  898 :
-            {
-                return JumpDriveCapacitorNeed;
-            }
-            case  867 :
-            {
-                return JumpDriveRange;
-            }
-            case  1001 :
-            {
-                return JumpPortalConsumptionMassFactor;
-            }
-            case  2135 :
-            {
-                return RemoteAssistanceImpedance;
-            }
-            case  2116 :
-            {
-                return RemoteRepairImpedance;
-            }
-            case  2112 :
-            {
-                return SensorDampenerResistance;
-            }
-            case  2298 :
-            {
-                return ShipBonusRole1;
-            }
-            case  2115 :
-            {
-                return StasisWebifierResistance;
-            }
-            case  2114 :
-            {
-                return TargetPainterResistance;
-            }
             case  2113 :
             {
                 return WeaponDisruptionResistance;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

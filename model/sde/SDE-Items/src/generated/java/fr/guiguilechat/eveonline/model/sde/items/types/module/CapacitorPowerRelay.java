@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -66,7 +65,8 @@ public class CapacitorPowerRelay
     public final static String RESOURCE_PATH = "SDE/items/module/CapacitorPowerRelay.yaml";
     private static LinkedHashMap<String, CapacitorPowerRelay> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  144 :
             {
@@ -76,19 +76,6 @@ public class CapacitorPowerRelay
             {
                 return Cpu;
             }
-            case  548 :
-            {
-                return ShieldBoostMultiplier;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1692 :
             {
                 return MetaGroupID;
@@ -105,9 +92,13 @@ public class CapacitorPowerRelay
             {
                 return RequiredSkill1Level;
             }
+            case  548 :
+            {
+                return ShieldBoostMultiplier;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -115,7 +114,8 @@ public class ProjectileAmmo
     public final static String RESOURCE_PATH = "SDE/items/charge/ProjectileAmmo.yaml";
     private static LinkedHashMap<String, ProjectileAmmo> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -128,6 +128,22 @@ public class ProjectileAmmo
             case  128 :
             {
                 return ChargeSize;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  779 :
+            {
+                return EntityFlyRangeMultiplier;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  117 :
+            {
+                return KineticDamage;
             }
             case  137 :
             {
@@ -145,31 +161,6 @@ public class ProjectileAmmo
             {
                 return TechLevel;
             }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  779 :
-            {
-                return EntityFlyRangeMultiplier;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
             case  118 :
             {
                 return ThermalDamage;
@@ -184,7 +175,7 @@ public class ProjectileAmmo
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

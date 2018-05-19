@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -164,7 +163,8 @@ public class AdvancedBlasterCharge
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
     private static LinkedHashMap<String, AdvancedBlasterCharge> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -178,9 +178,33 @@ public class AdvancedBlasterCharge
             {
                 return CapNeedBonus;
             }
+            case  144 :
+            {
+                return CapacitorRechargeRateMultiplier;
+            }
             case  128 :
             {
                 return ChargeSize;
+            }
+            case  114 :
+            {
+                return EmDamage;
+            }
+            case  779 :
+            {
+                return EntityFlyRangeMultiplier;
+            }
+            case  116 :
+            {
+                return ExplosiveDamage;
+            }
+            case  517 :
+            {
+                return FallofMultiplier;
+            }
+            case  117 :
+            {
+                return KineticDamage;
             }
             case  137 :
             {
@@ -206,46 +230,13 @@ public class AdvancedBlasterCharge
             {
                 return RequiredSkill1Level;
             }
-            case  422 :
-            {
-                return TechLevel;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  144 :
-            {
-                return CapacitorRechargeRateMultiplier;
-            }
-            case  114 :
-            {
-                return EmDamage;
-            }
-            case  779 :
-            {
-                return EntityFlyRangeMultiplier;
-            }
-            case  116 :
-            {
-                return ExplosiveDamage;
-            }
-            case  517 :
-            {
-                return FallofMultiplier;
-            }
-            case  117 :
-            {
-                return KineticDamage;
-            }
             case  204 :
             {
                 return SpeedMultiplier;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  118 :
             {
@@ -261,7 +252,7 @@ public class AdvancedBlasterCharge
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

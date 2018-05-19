@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -325,7 +324,8 @@ public class UnpublishedStructureModules
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/UnpublishedStructureModules.yaml";
     private static LinkedHashMap<String, UnpublishedStructureModules> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -335,75 +335,6 @@ public class UnpublishedStructureModules
             {
                 return AoeVelocityBonus;
             }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  833 :
-            {
-                return CommandBonus;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  1255 :
-            {
-                return DroneDamageBonus;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  596 :
-            {
-                return ExplosionDelayBonus;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  1795 :
-            {
-                return ReloadTime;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  68 :
-            {
-                return ShieldBonus;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  84 :
             {
                 return ArmorDamageAmount;
@@ -420,6 +351,10 @@ public class UnpublishedStructureModules
             {
                 return CanFitShipGroup02;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
             case  604 :
             {
                 return ChargeGroup1;
@@ -428,13 +363,37 @@ public class UnpublishedStructureModules
             {
                 return ChargeSize;
             }
+            case  833 :
+            {
+                return CommandBonus;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
+            case  1255 :
+            {
+                return DroneDamageBonus;
+            }
             case  459 :
             {
                 return DroneRangeBonus;
             }
+            case  73 :
+            {
+                return Duration;
+            }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
             case  158 :
             {
                 return Falloff;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
             }
             case  2044 :
             {
@@ -448,6 +407,14 @@ public class UnpublishedStructureModules
             {
                 return MaxRange;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
             case  1045 :
             {
                 return MaxTractorVelocity;
@@ -456,6 +423,10 @@ public class UnpublishedStructureModules
             {
                 return MaxTypeFitted;
             }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
             case  30 :
             {
                 return Power;
@@ -463,6 +434,10 @@ public class UnpublishedStructureModules
             case  90 :
             {
                 return PowerTransferAmount;
+            }
+            case  1795 :
+            {
+                return ReloadTime;
             }
             case  182 :
             {
@@ -488,6 +463,10 @@ public class UnpublishedStructureModules
             {
                 return ScanRadarStrengthPercent;
             }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
             case  2109 :
             {
                 return ServiceModuleFuelAmount;
@@ -500,9 +479,17 @@ public class UnpublishedStructureModules
             {
                 return ServiceModuleFuelOnlineAmount;
             }
+            case  68 :
+            {
+                return ShieldBonus;
+            }
             case  87 :
             {
                 return ShieldTransferRange;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
             }
             case  83 :
             {
@@ -512,9 +499,13 @@ public class UnpublishedStructureModules
             {
                 return StructureItemVisualFlag;
             }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

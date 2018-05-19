@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -333,7 +332,8 @@ public class ControlTower
     public final static String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
     private static LinkedHashMap<String, ControlTower> cache = (null);
 
-    public int attributeInt(IntAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  266 :
             {
@@ -342,6 +342,10 @@ public class ControlTower
             case  265 :
             {
                 return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
             }
             case  1233 :
             {
@@ -399,6 +403,22 @@ public class ControlTower
             {
                 return FighterAbilityAntiCapitalMissileResistance;
             }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
+            }
             case  650 :
             {
                 return MaxStructureDistance;
@@ -435,51 +455,6 @@ public class ControlTower
             {
                 return ProximityRange;
             }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  264 :
-            {
-                return ShieldCharge;
-            }
-            case  680 :
-            {
-                return ShieldRadius;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
-            }
-        }
-    }
-
-    public double attributeDouble(DoubleAttribute attribute) {
-        switch (attribute.getId()) {
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -496,6 +471,14 @@ public class ControlTower
             {
                 return ScanRadarStrength;
             }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  264 :
+            {
+                return ShieldCharge;
+            }
             case  271 :
             {
                 return ShieldEmDamageResonance;
@@ -507,6 +490,10 @@ public class ControlTower
             case  273 :
             {
                 return ShieldKineticDamageResonance;
+            }
+            case  680 :
+            {
+                return ShieldRadius;
             }
             case  479 :
             {
@@ -520,13 +507,17 @@ public class ControlTower
             {
                 return ShieldUniformity;
             }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  136 :
             {
                 return Uniformity;
             }
             default:
             {
-                return super.attributeDouble((attribute));
+                return super.attribute((attribute));
             }
         }
     }

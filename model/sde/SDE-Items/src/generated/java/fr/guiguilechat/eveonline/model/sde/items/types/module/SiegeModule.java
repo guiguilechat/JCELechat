@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -549,11 +548,20 @@ public class SiegeModule
     public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
     private static LinkedHashMap<String, SiegeModule> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  2253 :
             {
                 return ECMResistance;
+            }
+            case  1350 :
+            {
+                return ActivationBlockedStrenght;
+            }
+            case  895 :
+            {
+                return ArmorDamageAmountBonus;
             }
             case  267 :
             {
@@ -571,106 +579,13 @@ public class SiegeModule
             {
                 return ArmorThermalDamageResonance;
             }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  1255 :
-            {
-                return DroneDamageBonus;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  974 :
-            {
-                return HullEmDamageResonance;
-            }
-            case  975 :
-            {
-                return HullExplosiveDamageResonance;
-            }
-            case  976 :
-            {
-                return HullKineticDamageResonance;
-            }
-            case  977 :
-            {
-                return HullThermalDamageResonance;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  2342 :
-            {
-                return RemoteRepairImpedanceBonus;
-            }
-            case  565 :
-            {
-                return ScanResolutionMultiplier;
-            }
-            case  548 :
-            {
-                return ShieldBoostMultiplier;
-            }
-            case  271 :
-            {
-                return ShieldEmDamageResonance;
-            }
-            case  272 :
-            {
-                return ShieldExplosiveDamageResonance;
-            }
-            case  273 :
-            {
-                return ShieldKineticDamageResonance;
-            }
-            case  274 :
-            {
-                return ShieldThermalDamageResonance;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            case  2353 :
-            {
-                return WeaponDisruptionResistanceBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  1350 :
-            {
-                return ActivationBlockedStrenght;
-            }
-            case  895 :
-            {
-                return ArmorDamageAmountBonus;
-            }
             case  1298 :
             {
                 return CanFitShipGroup01;
+            }
+            case  6 :
+            {
+                return CapacitorNeed;
             }
             case  1238 :
             {
@@ -683,6 +598,10 @@ public class SiegeModule
             case  713 :
             {
                 return ConsumptionType;
+            }
+            case  50 :
+            {
+                return Cpu;
             }
             case  1934 :
             {
@@ -708,9 +627,37 @@ public class SiegeModule
             {
                 return DisallowTethering;
             }
+            case  1255 :
+            {
+                return DroneDamageBonus;
+            }
+            case  73 :
+            {
+                return Duration;
+            }
             case  1190 :
             {
                 return EwCapacitorNeedBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
+            case  974 :
+            {
+                return HullEmDamageResonance;
+            }
+            case  975 :
+            {
+                return HullExplosiveDamageResonance;
+            }
+            case  976 :
+            {
+                return HullKineticDamageResonance;
+            }
+            case  977 :
+            {
+                return HullThermalDamageResonance;
             }
             case  2588 :
             {
@@ -768,6 +715,14 @@ public class SiegeModule
             {
                 return MaxLockedTargetsBonus;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
+            }
             case  30 :
             {
                 return Power;
@@ -775,6 +730,10 @@ public class SiegeModule
             case  2352 :
             {
                 return RemoteAssistanceImpedanceBonus;
+            }
+            case  2342 :
+            {
+                return RemoteRepairImpedanceBonus;
             }
             case  182 :
             {
@@ -808,9 +767,33 @@ public class SiegeModule
             {
                 return ScanRadarStrengthPercent;
             }
+            case  565 :
+            {
+                return ScanResolutionMultiplier;
+            }
             case  2351 :
             {
                 return SensorDampenerResistanceBonus;
+            }
+            case  548 :
+            {
+                return ShieldBoostMultiplier;
+            }
+            case  271 :
+            {
+                return ShieldEmDamageResonance;
+            }
+            case  272 :
+            {
+                return ShieldExplosiveDamageResonance;
+            }
+            case  273 :
+            {
+                return ShieldKineticDamageResonance;
+            }
+            case  274 :
+            {
+                return ShieldThermalDamageResonance;
             }
             case  2305 :
             {
@@ -860,13 +843,21 @@ public class SiegeModule
             {
                 return SpeedBonus;
             }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
             case  2424 :
             {
                 return TargetPainterResistanceBonus;
             }
+            case  2353 :
+            {
+                return WeaponDisruptionResistanceBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

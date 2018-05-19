@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -430,7 +429,8 @@ public class StructureBurstProjector
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBurstProjector.yaml";
     private static LinkedHashMap<String, StructureBurstProjector> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -440,79 +440,6 @@ public class StructureBurstProjector
             {
                 return AoeVelocityBonus;
             }
-            case  6 :
-            {
-                return CapacitorNeed;
-            }
-            case  50 :
-            {
-                return Cpu;
-            }
-            case  73 :
-            {
-                return Duration;
-            }
-            case  596 :
-            {
-                return ExplosionDelayBonus;
-            }
-            case  349 :
-            {
-                return FalloffBonus;
-            }
-            case  351 :
-            {
-                return MaxRangeBonus;
-            }
-            case  309 :
-            {
-                return MaxTargetRangeBonus;
-            }
-            case  547 :
-            {
-                return MissileVelocityBonus;
-            }
-            case  238 :
-            {
-                return ScanGravimetricStrengthBonus;
-            }
-            case  239 :
-            {
-                return ScanLadarStrengthBonus;
-            }
-            case  240 :
-            {
-                return ScanMagnetometricStrengthBonus;
-            }
-            case  241 :
-            {
-                return ScanRadarStrengthBonus;
-            }
-            case  566 :
-            {
-                return ScanResolutionBonus;
-            }
-            case  554 :
-            {
-                return SignatureRadiusBonus;
-            }
-            case  20 :
-            {
-                return SpeedFactor;
-            }
-            case  767 :
-            {
-                return TrackingSpeedBonus;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  1298 :
             {
                 return CanFitShipGroup01;
@@ -569,6 +496,14 @@ public class StructureBurstProjector
             {
                 return CanFitShipType9;
             }
+            case  6 :
+            {
+                return CapacitorNeed;
+            }
+            case  50 :
+            {
+                return Cpu;
+            }
             case  906 :
             {
                 return DisallowEarlyDeactivation;
@@ -609,6 +544,10 @@ public class StructureBurstProjector
             {
                 return DoomsdayWarningDuration;
             }
+            case  73 :
+            {
+                return Duration;
+            }
             case  2398 :
             {
                 return DurationECMJammerBurstProjector;
@@ -633,6 +572,14 @@ public class StructureBurstProjector
             {
                 return EnergyNeutralizerAmount;
             }
+            case  596 :
+            {
+                return ExplosionDelayBonus;
+            }
+            case  349 :
+            {
+                return FalloffBonus;
+            }
             case  9 :
             {
                 return Hp;
@@ -645,6 +592,14 @@ public class StructureBurstProjector
             {
                 return MaxRange;
             }
+            case  351 :
+            {
+                return MaxRangeBonus;
+            }
+            case  309 :
+            {
+                return MaxTargetRangeBonus;
+            }
             case  2431 :
             {
                 return MaxTypeFitted;
@@ -652,6 +607,10 @@ public class StructureBurstProjector
             case  633 :
             {
                 return MetaLevel;
+            }
+            case  547 :
+            {
+                return MissileVelocityBonus;
             }
             case  2581 :
             {
@@ -665,6 +624,34 @@ public class StructureBurstProjector
             {
                 return RemoteResistanceID;
             }
+            case  238 :
+            {
+                return ScanGravimetricStrengthBonus;
+            }
+            case  239 :
+            {
+                return ScanLadarStrengthBonus;
+            }
+            case  240 :
+            {
+                return ScanMagnetometricStrengthBonus;
+            }
+            case  241 :
+            {
+                return ScanRadarStrengthBonus;
+            }
+            case  566 :
+            {
+                return ScanResolutionBonus;
+            }
+            case  554 :
+            {
+                return SignatureRadiusBonus;
+            }
+            case  20 :
+            {
+                return SpeedFactor;
+            }
             case  2334 :
             {
                 return StructureItemVisualFlag;
@@ -673,9 +660,13 @@ public class StructureBurstProjector
             {
                 return TechLevel;
             }
+            case  767 :
+            {
+                return TrackingSpeedBonus;
+            }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

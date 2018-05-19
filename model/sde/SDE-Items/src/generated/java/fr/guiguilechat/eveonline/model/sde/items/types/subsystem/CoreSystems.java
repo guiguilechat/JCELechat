@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -136,7 +135,8 @@ public class CoreSystems
     public final static String RESOURCE_PATH = "SDE/items/subsystem/CoreSystems.yaml";
     private static LinkedHashMap<String, CoreSystems> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  482 :
             {
@@ -146,30 +146,13 @@ public class CoreSystems
             {
                 return CpuOutputBonus2;
             }
-            case  313 :
-            {
-                return PowerEngineeringOutputBonus;
-            }
-            case  1436 :
-            {
-                return SubsystemBonusGallenteCore;
-            }
-            case  1519 :
-            {
-                return SubsystemBonusGallenteCore2;
-            }
-            default:
-            {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
             case  235 :
             {
                 return MaxLockedTargetsBonus;
+            }
+            case  313 :
+            {
+                return PowerEngineeringOutputBonus;
             }
             case  1431 :
             {
@@ -195,6 +178,14 @@ public class CoreSystems
             {
                 return SubsystemBonusCaldariCore3;
             }
+            case  1436 :
+            {
+                return SubsystemBonusGallenteCore;
+            }
+            case  1519 :
+            {
+                return SubsystemBonusGallenteCore2;
+            }
             case  2685 :
             {
                 return SubsystemBonusGallenteCore3;
@@ -217,7 +208,7 @@ public class CoreSystems
             }
             default:
             {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }

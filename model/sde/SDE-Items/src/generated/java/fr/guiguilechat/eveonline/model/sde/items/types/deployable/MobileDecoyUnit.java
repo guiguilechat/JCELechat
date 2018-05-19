@@ -2,8 +2,7 @@ package fr.guiguilechat.eveonline.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
-import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
+import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
@@ -80,11 +79,24 @@ public class MobileDecoyUnit
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDecoyUnit.yaml";
     private static LinkedHashMap<String, MobileDecoyUnit> cache = (null);
 
-    public double attributeDouble(DoubleAttribute attribute) {
+    @Override
+    public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
                 return ArmorUniformity;
+            }
+            case  633 :
+            {
+                return MetaLevel;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
             }
             case  211 :
             {
@@ -108,28 +120,7 @@ public class MobileDecoyUnit
             }
             default:
             {
-                return super.attributeDouble((attribute));
-            }
-        }
-    }
-
-    public int attributeInt(IntAttribute attribute) {
-        switch (attribute.getId()) {
-            case  633 :
-            {
-                return MetaLevel;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
-            default:
-            {
-                return super.attributeInt((attribute));
+                return super.attribute((attribute));
             }
         }
     }
