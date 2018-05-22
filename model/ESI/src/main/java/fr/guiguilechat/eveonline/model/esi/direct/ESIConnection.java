@@ -375,7 +375,7 @@ public class ESIConnection implements Swagger {
 	 *         pages. Those values are only fetched on demand, store them using
 	 *         collect to avoid delay on iteration.
 	 */
-	public static <T> Stream<T> loadPages(BiFunction<Integer, Map<String, List<String>>, T[]> resourceAccess,
+	public static <T> List<T> loadPages(BiFunction<Integer, Map<String, List<String>>, T[]> resourceAccess,
 			LongConsumer cacheExpireStore) {
 		Map<String, List<String>> headerHandler = new HashMap<>();
 		T[] res = resourceAccess.apply(1, headerHandler);
@@ -387,7 +387,11 @@ public class ESIConnection implements Swagger {
 			long expire = ESIConnection.getCacheExpire(headerHandler);
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
-		return Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
-				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of));
+		List<T> ret = Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
+				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of)).collect(Collectors.toList());
+		if (ret.contains(null)) {
+			return null;
+		}
+		return ret;
 	}
 }

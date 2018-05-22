@@ -18,7 +18,7 @@
 		<artifactId>Common</artifactId>
 		<version>1.0.6</version>
 	</parent>
-	<version>3.2.2</version>
+	<version>3.2.3-SNAPSHOT</version>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>

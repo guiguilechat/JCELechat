@@ -257,12 +257,11 @@ public class EveCharacter {
 				Map<Integer, String> folders = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
 								l -> bookmarkCacheEnd = l)
-						.collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
+						.stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
 				cacheBookmarks.keySet().retainAll(folders.values());
 				List<R_get_characters_character_id_bookmarks> bms = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
-								l -> bookmarkCacheEnd = Math.min(l, bookmarkCacheEnd))
-						.collect(Collectors.toList());
+								l -> bookmarkCacheEnd = Math.min(l, bookmarkCacheEnd));
 				for (R_get_characters_character_id_bookmarks f : bms) {
 					String foldName = folders.get(f.folder_id);
 					ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
@@ -357,7 +356,7 @@ public class EveCharacter {
 				R_get_characters_character_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_characters_character_id_assets(con.characterId(), p, h),
 								l -> assetsExpire = l)
-						.filter(asset -> !"AutoFit".equals(asset.location_flag))
+						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(R_get_characters_character_id_assets[]::new);
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
@@ -461,10 +460,10 @@ public class EveCharacter {
 		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 			synchronized (cachedBlueprints) {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
-					Stream<R_get_characters_character_id_blueprints> bps = ESIConnection.loadPages(
+					List<R_get_characters_character_id_blueprints> bps = ESIConnection.loadPages(
 							(p, h) -> con.raw.get_characters_character_id_blueprints(con.characterId(), p, h),
 							l -> cachedBlueprintsExpire = l);
-					cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+					cachedBlueprints.setAll(bps);
 				}
 			}
 		}

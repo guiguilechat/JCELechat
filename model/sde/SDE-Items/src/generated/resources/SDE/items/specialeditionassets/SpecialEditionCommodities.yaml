@@ -64,10 +64,10 @@ items:
     id: 46267
     name: A3 Industrial Package
     volume: 50000.0
-  Alice Saki’s Good Posting Guide:
+  Alice Saki���s Good Posting Guide:
     CpuMultiplier: 1.0
     id: 34434
-    name: Alice Saki’s Good Posting Guide
+    name: Alice Saki���s Good Posting Guide
     volume: 3.0
   Alliance Tournament XV Meta:
     CpuMultiplier: 1.0
@@ -339,10 +339,10 @@ items:
     id: 46260
     name: Inception Skill Package
     volume: 6000.0
-  Jezaja’s Giant Secure Container:
+  Jezaja���s Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
-    name: Jezaja’s Giant Secure Container
+    name: Jezaja���s Giant Secure Container
     volume: 3.0
   Jump Fatigue Recovery Agent:
     CpuMultiplier: 1.0
@@ -684,11 +684,6 @@ items:
     id: 37893
     name: YC118 Succession Trial Champion’s Decree – House Kador
     volume: 0.01
-  YC118 Succession Trial Champion’s Decree – House Khanid:
-    CpuMultiplier: 1.0
-    id: 37894
-    name: YC118 Succession Trial Champion’s Decree – House Khanid
-    volume: 0.01
   YC118 Succession Trial Champion’s Decree – House Kor-Azor:
     CpuMultiplier: 1.0
     id: 37895
@@ -703,6 +698,11 @@ items:
     CpuMultiplier: 1.0
     id: 37889
     name: YC118 Succession Trial Champion’s Decree – House Tash-Murkon
+    volume: 0.01
+  YC118 Succession Trial Champion��s Decree – House Khanid:
+    CpuMultiplier: 1.0
+    id: 37894
+    name: YC118 Succession Trial Champion��s Decree – House Khanid
     volume: 0.01
   YC119 Yoiul Festival Day 1:
     CpuMultiplier: 1.0

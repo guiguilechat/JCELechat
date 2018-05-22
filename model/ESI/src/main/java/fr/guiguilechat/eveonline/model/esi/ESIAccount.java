@@ -11,8 +11,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -196,8 +194,8 @@ public class ESIAccount {
 		protected void logState() {
 			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started")
 					+ "|" + (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
-			// , new Exception()
-			);
+					// , new Exception()
+					);
 		}
 
 		@Override
@@ -302,20 +300,19 @@ public class ESIAccount {
 		@Override
 		protected long do_execute() {
 			LongProperty cachedExpire = new SimpleLongProperty();
-			Stream<T> arr = ESIConnection.loadPages(
+			List<T> arr = ESIConnection.loadPages(
 					fetcher,
 					cachedExpire::set);
 			long ret = 1000;
 			if (arr != null) {
 				ret += cachedExpire.get() - System.currentTimeMillis();
-				cacheHandler.accept(arr.collect(Collectors.toList()));
+				cacheHandler.accept(arr);
 			}
 			return ret;
 		}
 
 		@Override
 		public void pause() {
-
 			super.pause();
 			cacheHandler.accept(null);
 		}

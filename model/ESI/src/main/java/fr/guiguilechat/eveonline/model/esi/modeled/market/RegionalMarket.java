@@ -74,7 +74,7 @@ public class RegionalMarket {
 			return;
 		}
 
-		// first we retrieve all. We thus ensure none is null. it can be null if a
+		// ensure none is null. it can be null if a
 		// page was not found. Thus we don't handle the data, as it
 		// contains incomplete values.
 		if (cacheL.contains(null)) {

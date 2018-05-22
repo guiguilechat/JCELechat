@@ -106,11 +106,11 @@ public class Corporation {
 				// first we get all the folders.
 				Map<Integer, String> folders = ESIConnection.loadPages(
 						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks_folders(con.character.corporation_id(), p, h),
-						l -> bookmarkCacheExpire = l).collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
+						l -> bookmarkCacheExpire = l).stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
 				cacheBookmarks.keySet().retainAll(folders.values());
 				List<R_get_corporations_corporation_id_bookmarks> bms = ESIConnection.loadPages(
 						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks(con.character.corporation_id(), p, h),
-						l -> bookmarkCacheExpire = Math.min(l, bookmarkCacheExpire)).collect(Collectors.toList());
+						l -> bookmarkCacheExpire = Math.min(l, bookmarkCacheExpire));
 				for (R_get_corporations_corporation_id_bookmarks f : bms) {
 					String foldName = folders.get(f.folder_id);
 					ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks> m = cacheBookmarks.get(foldName);
@@ -140,7 +140,7 @@ public class Corporation {
 				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection
 						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.corporation_id(), p, h),
 								l -> assetsExpire = l)
-						.filter(asset -> !"AutoFit".equals(asset.location_flag))
+						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(R_get_corporations_corporation_id_assets[]::new);
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
@@ -194,11 +194,11 @@ public class Corporation {
 		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 			synchronized (cachedBlueprints) {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
-					Stream<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
+					List<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
 							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.corporation_id(), p, h),
 							l -> cachedBlueprintsExpire = l);
 					if (bps != null) {
-						cachedBlueprints.setAll(bps.collect(Collectors.toList()));
+						cachedBlueprints.setAll(bps);
 					}
 				}
 			}

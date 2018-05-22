@@ -532,8 +532,8 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs[].class));
     }
 
-    public default R_get_characters_character_id_killmails_recent[] get_characters_character_id_killmails_recent(int character_id, Integer max_count, Integer max_kill_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/killmails/recent/".replace("{character_id}", ""+character_id)+"?"+(max_count==null?"":"&max_count="+flatten(max_count))+(max_kill_id==null?"":"&max_kill_id="+flatten(max_kill_id)));
+    public default R_get_characters_character_id_killmails_recent[] get_characters_character_id_killmails_recent(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/characters/{character_id}/killmails/recent/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_killmails_recent[].class));
     }
@@ -919,8 +919,8 @@ public interface Swagger {
     /**
      * <p> require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_KILLMAILS_RECENT_ROLES here}</p>
      */
-    public default R_get_corporations_corporation_id_killmails_recent[] get_corporations_corporation_id_killmails_recent(int corporation_id, Integer max_kill_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/killmails/recent/".replace("{corporation_id}", ""+corporation_id)+"?"+(max_kill_id==null?"":"&max_kill_id="+flatten(max_kill_id)));
+    public default R_get_corporations_corporation_id_killmails_recent[] get_corporations_corporation_id_killmails_recent(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.tech.ccp.is/latest/corporations/{corporation_id}/killmails/recent/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_killmails_recent[].class));
     }
