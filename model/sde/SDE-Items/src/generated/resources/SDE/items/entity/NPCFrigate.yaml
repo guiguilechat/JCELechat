@@ -144,7 +144,7 @@ items:
     name: ♦ Vigil
     volume: 17400.0
   ♦ Worm:
-    id: 46053
+    id: 43617
     name: ♦ Worm
     volume: 16500.0
   ♦ test_damage:
@@ -163,7 +163,11 @@ items:
     id: 47197
     name: ♦ test_ewar
     volume: 27289.0
-  �� Bantam:
-    id: 43564
-    name: �� Bantam
-    volume: 20000.0
+  �� Worm:
+    id: 46053
+    name: �� Worm
+    volume: 16500.0
+  ��� Succubus:
+    id: 43653
+    name: ��� Succubus
+    volume: 28600.0

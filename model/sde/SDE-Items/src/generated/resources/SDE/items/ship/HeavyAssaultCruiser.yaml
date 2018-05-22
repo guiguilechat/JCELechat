@@ -966,7 +966,7 @@ items:
     id: 34479
     name: 伊什塔级YC117年特别版
     volume: 115000.0
-  银鹰级YC117年特���版:
+  银鹰级YC117年特别版:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -1043,5 +1043,5 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 34477
-    name: 银鹰级YC117年特���版
+    name: 银鹰级YC117年特别版
     volume: 101000.0

@@ -887,7 +887,7 @@ usages:
     materialManuf: !!set
       Abaddon Tash-Murkon Edition Blueprint: null
       Abaddon Kador Edition Blueprint: null
-      地狱天使��YC117年特别版蓝图: null
+      地��天使级YC117年特别版蓝图: null
     productManuf: !!set
       Abaddon Blueprint: null
   Abaddon Kador Edition:
@@ -1422,7 +1422,7 @@ usages:
       Apocalypse Blood Raider Edition Blueprint: null
       Apocalypse Kador Edition Blueprint: null
       Apocalypse Tash-Murkon Edition Blueprint: null
-      灾难级YC117年特别版蓝图: null
+      ���难级YC117年特别版蓝图: null
     productManuf: !!set
       Apocalypse Blueprint: null
   Apocalypse Blood Raider Edition:
@@ -1496,7 +1496,7 @@ usages:
   Armageddon:
     materialManuf: !!set
       Redeemer Blueprint: null
-      末��沙场级YC117年特别版蓝图: null
+      末日沙场级YC117年特���版蓝图: null
     productManuf: !!set
       Armageddon Blueprint: null
   Armageddon Navy Issue:
@@ -16065,7 +16065,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -18131,7 +18131,7 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
   Machariel:
     materialManuf: !!set
-      马���瑞级YC117年特别版蓝图: null
+      马克瑞级YC117年特别版蓝图: null
     productManuf: !!set
       Machariel Blueprint: null
   Mackinaw:
@@ -20234,7 +20234,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -20328,7 +20328,7 @@ usages:
       Megathron Quafe Edition Blueprint: null
       Megathron Police Edition Blueprint: null
       Megathron Inner Zone Shipping Edition Blueprint: null
-      万王宝座级YC117年特别版蓝图: null
+      万王宝座级YC117年特���版蓝图: null
     productManuf: !!set
       Megathron Blueprint: null
   Megathron Federate Issue:
@@ -21387,7 +21387,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -24232,7 +24232,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -27288,7 +27288,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -30894,7 +30894,7 @@ usages:
       Rare Moon Ore Mining Crystal I Blueprint: null
   Rattlesnake:
     materialManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇���YC117年特别版蓝图: null
     productManuf: !!set
       Rattlesnake Blueprint: null
   Raven:
@@ -40054,7 +40054,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -41728,7 +41728,7 @@ usages:
       ‘Geiravor’ Explosive Lance Blueprint: null
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
       ‘Guillotine’ Thermal Reaper Blueprint: null
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
       ‘Divine Harvest’ Electromagnetic Reaper Blueprint: null
       Bosonic Field Generator Blueprint: null
       Armor EM Resistance Script Blueprint: null
@@ -41836,43 +41836,43 @@ usages:
       ‘Iron Pike’ Kinetic Lance Blueprint: null
   ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
-      ‘Jormungandr�� Explosive Reaper Blueprint: null
-  ‘Phalarica’ Thermal Lance:
+      ‘Jormungandr’ Explosive Reaper Blueprint: null
+  ‘Phalarica�� Thermal Lance:
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
   万王宝座级YC117年特别版:
     productManuf: !!set
-      万王宝座级YC117年特别版蓝图: null
+      万王宝座级YC117年特���版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
       乌鸦级YC117年特别版蓝图: null
-  伊什塔级YC117年特���版:
+  伊什塔级YC117年特别版:
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇���YC117年特别版蓝图: null
+  地狱天使级YC117年特别版:
+    productManuf: !!set
+      地��天使级YC117年特别版蓝图: null
   多米尼克斯级YC117年特别版:
     productManuf: !!set
       多米尼克斯级YC117年特别版蓝图: null
-  幼龙级YC117年特别版:
+  幼龙级YC117年特��版:
     productManuf: !!set
       幼龙级YC117年特别版蓝图: null
   末日沙场级YC117年特别版:
     productManuf: !!set
-      末��沙场级YC117年特别版蓝图: null
+      末日沙场级YC117年特���版蓝图: null
   毒蜥级YC117年特别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
-  灾难级YC117���特别版:
+  灾难级YC117年特别版:
     productManuf: !!set
-      灾难级YC117年特别版蓝图: null
+      ���难级YC117年特别版蓝图: null
   银鹰级YC117年特别版:
     productManuf: !!set
       银鹰级YC117年特别版蓝图: null
-  马克瑞级YC117年特别版:
+  马克瑞���YC117年特别版:
     productManuf: !!set
-      马���瑞级YC117年特别版蓝图: null
-  ��狱天使级YC117年特别版:
-    productManuf: !!set
-      地狱天使��YC117年特别版蓝图: null
+      马克瑞级YC117年特别版蓝图: null
