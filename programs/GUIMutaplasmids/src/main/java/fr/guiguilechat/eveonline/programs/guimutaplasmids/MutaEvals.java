@@ -12,9 +12,7 @@ import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
-import javafx.beans.binding.ObjectBinding;
 import javafx.beans.property.ReadOnlyObjectWrapper;
-import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableDoubleValue;
@@ -94,6 +92,10 @@ public class MutaEvals extends Application {
 		probaCol.setCellValueFactory(lo -> lo.getValue().probability());
 		table.getColumns().add(probaCol);
 
+		TableColumn<ModifiedItemCost, Number> qtty = new TableColumn<>("qtty");
+		qtty.setCellValueFactory(lo -> lo.getValue().qtty());
+		table.getColumns().add(qtty);
+
 		TableColumn<ModifiedItemCost, Number> priceCol = new TableColumn<>("price");
 		priceCol.setCellValueFactory(lo -> lo.getValue().price());
 		table.getColumns().add(priceCol);
@@ -125,6 +127,7 @@ public class MutaEvals extends Application {
 				// System.err.println("attribute " + a.getClass().getSimpleName() + "
 				// from " + minValue + " to " + maxvalue);
 				Slider sl = new Slider(minValue, maxvalue, a.getHighIsGood() ? minValue : maxvalue);
+				sl.setBlockIncrement(0.1);
 				sl.setPrefWidth(250);
 				sl.setShowTickLabels(true);
 				sl.valueProperty().addListener((o, old, now) -> sortLater());
@@ -159,7 +162,7 @@ public class MutaEvals extends Application {
 		public HashMap<Attribute, ObservableDoubleValue> attValues = new HashMap<>();
 	}
 
-	protected static class ModifiedItemCost {
+	protected class ModifiedItemCost {
 		public ModifiedItemCost(ModifiedItem item2, RegionalMarket market2, Map<Attribute, ObservableDoubleValue> attValues,
 				SimpleIntegerProperty qttyVal) {
 			item = item2;
@@ -182,35 +185,30 @@ public class MutaEvals extends Application {
 			return probability;
 		}
 
-		private ObservableNumberValue price;
+		private DoubleBinding qtty;
 
-		public ObservableNumberValue price() {
-			if (price == null) {
-				DoubleBinding qtty = Bindings.createDoubleBinding(() -> {
+		public DoubleBinding qtty() {
+			if (qtty == null) {
+				qtty = Bindings.createDoubleBinding(() -> {
 					double ret = qttyVal.get() / probability().getValue().doubleValue();
 					// System.err
 					// .println("new required quantity of item " + item.item().name + "
 					// with " + item.strength() + " is " + ret);
 					return ret;
 				}, probability(), qttyVal);
-				ObjectBinding<ObservableDoubleValue> holder = Bindings.createObjectBinding(() -> {
-					ObservableDoubleValue ret = qtty.get() == Double.POSITIVE_INFINITY
-							? new SimpleDoubleProperty(Double.POSITIVE_INFINITY)
-									: market.getMarketOrders(item.item().id).getPrice(false, (int) Math.ceil(qtty.get()));
-							// System.err.println("price of " + qtty.get() + " items of " +
-							// item.item().name + " is " + ret.get());
-							return ret;
-				}, qtty);
-				SimpleDoubleProperty oprice = new SimpleDoubleProperty();
-				oprice.bind(holder.get());
-				price = oprice;
-				holder.addListener((ob, old, now) -> {
-					oprice.unbind();
-					oprice.bind(now);
-					System.err.println(
-							"price of " + item.item().name + " - " + item.strength() + " bound to qtty " + qttyVal.get()
-							+ " and value " + now.doubleValue());
-				});
+			}
+			return qtty;
+		}
+
+		private ObservableNumberValue price;
+
+		public ObservableNumberValue price() {
+			if (price == null) {
+				price = Bindings.createDoubleBinding(() ->
+				qtty().get() == Double.POSITIVE_INFINITY
+				? Double.POSITIVE_INFINITY
+						: market.getMarketOrders(item.item().id).getPrice(false, (int) Math.ceil(qtty().get())).get(), qtty(),
+						regionMarket.getSelectionModel().selectedItemProperty());
 			}
 			return price;
 		}
@@ -241,11 +239,11 @@ public class MutaEvals extends Application {
 	protected static class PriceCellFactory extends TableCell<ModifiedItemCost, Number> {
 		@Override
 		public void updateItem(Number value, boolean empty) {
-			System.err.println("update cell to number " + value);
 			super.updateItem(value, empty);
 			if (empty) {
 				setText(null);
 			} else {
+				// System.err.println("update cell to number " + value);
 				setText(formatPrice(value.doubleValue()));
 			}
 		}

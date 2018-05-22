@@ -1,7 +1,5 @@
 package fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids;
 
-import java.util.Map.Entry;
-
 import fr.guiguilechat.eveonline.model.sde.items.attributes.CapacitorNeed;
 import fr.guiguilechat.eveonline.model.sde.items.attributes.Cpu;
 import fr.guiguilechat.eveonline.model.sde.items.attributes.Power;
@@ -20,8 +18,8 @@ public class Muta1MN extends MutaplasmidFamily {
 
 	protected Muta1MN() {
 		super(
-				PropulsionModule.load().entrySet().stream()
-				.filter(e -> e.getKey().contains("1MN ") && !e.getKey().contains("Civilian")).map(Entry::getValue),
+				PropulsionModule.load().values().stream()
+						.filter(pm -> pm.name.contains("1MN ") && !pm.name.contains("Civilian")),
 				DATATABLE);
 	}
 

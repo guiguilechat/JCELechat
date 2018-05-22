@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.Muta1MN;
+import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.MutaWeb;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.SimpleDoubleProperty;
@@ -48,7 +49,7 @@ public abstract class MutaplasmidFamily {
 	private Map<Attribute, double[]> minmults = null;
 	private Map<Attribute, double[]> maxmults = null;
 
-	protected MutaplasmidFamily(Stream<Item> allowedItems, Object[][] data) {
+	protected MutaplasmidFamily(Stream<? extends Item> allowedItems, Object[][] data) {
 
 		this.allowedItems = Collections.unmodifiableSet(allowedItems.collect(Collectors.toSet()));
 		// System.err.println("allowed items are " + this.allowedItems);
@@ -173,6 +174,6 @@ public abstract class MutaplasmidFamily {
 		return ret;
 	}
 
-	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE };
+	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE, MutaWeb.INSTANCE };
 
 }
