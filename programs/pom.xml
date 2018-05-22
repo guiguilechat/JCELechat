@@ -37,7 +37,7 @@
   </dependencyManagement>
   <properties>
   	<model-version>18.01.10</model-version>
-  	<modelversion>3.2.2</modelversion>
+  	<modelversion>3.2.4-SNAPSHOT</modelversion>
   </properties>
   <dependencies>
   	<dependency>
