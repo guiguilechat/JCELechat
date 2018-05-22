@@ -40,4 +40,9 @@ public class SpecialGasHoldCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialGasHoldCapacity";
+    }
 }

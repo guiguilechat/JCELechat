@@ -40,4 +40,9 @@ public class StructureRigBonus1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureRigBonus1";
+    }
 }

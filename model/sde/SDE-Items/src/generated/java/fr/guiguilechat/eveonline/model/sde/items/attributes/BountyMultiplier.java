@@ -40,4 +40,9 @@ public class BountyMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BountyMultiplier";
+    }
 }

@@ -40,4 +40,9 @@ public class CapacitorCapacityMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CapacitorCapacityMultiplier";
+    }
 }

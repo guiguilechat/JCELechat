@@ -40,4 +40,9 @@ public class DistributionID03
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DistributionID03";
+    }
 }

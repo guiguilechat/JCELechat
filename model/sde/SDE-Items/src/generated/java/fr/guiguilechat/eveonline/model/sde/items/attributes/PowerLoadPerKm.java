@@ -40,4 +40,9 @@ public class PowerLoadPerKm
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PowerLoadPerKm";
+    }
 }

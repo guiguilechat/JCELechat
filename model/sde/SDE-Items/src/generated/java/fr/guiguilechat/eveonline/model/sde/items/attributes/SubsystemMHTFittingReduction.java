@@ -40,4 +40,9 @@ public class SubsystemMHTFittingReduction
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemMHTFittingReduction";
+    }
 }

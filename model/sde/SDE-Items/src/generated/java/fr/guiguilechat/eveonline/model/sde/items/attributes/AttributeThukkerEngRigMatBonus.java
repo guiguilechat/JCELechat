@@ -40,4 +40,9 @@ public class AttributeThukkerEngRigMatBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AttributeThukkerEngRigMatBonus";
+    }
 }

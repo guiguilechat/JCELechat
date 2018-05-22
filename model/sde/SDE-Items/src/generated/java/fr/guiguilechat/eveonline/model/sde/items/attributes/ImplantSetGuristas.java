@@ -40,4 +40,9 @@ public class ImplantSetGuristas
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ImplantSetGuristas";
+    }
 }

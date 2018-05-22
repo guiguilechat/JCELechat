@@ -40,4 +40,9 @@ public class PowerToSpeed
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PowerToSpeed";
+    }
 }

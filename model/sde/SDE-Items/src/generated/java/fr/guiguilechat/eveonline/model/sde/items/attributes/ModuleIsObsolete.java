@@ -40,4 +40,9 @@ public class ModuleIsObsolete
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModuleIsObsolete";
+    }
 }

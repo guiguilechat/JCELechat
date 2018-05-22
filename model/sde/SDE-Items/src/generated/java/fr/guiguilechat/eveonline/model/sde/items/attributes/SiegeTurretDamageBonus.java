@@ -40,4 +40,9 @@ public class SiegeTurretDamageBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SiegeTurretDamageBonus";
+    }
 }

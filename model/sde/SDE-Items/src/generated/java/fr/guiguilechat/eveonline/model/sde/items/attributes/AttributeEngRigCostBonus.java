@@ -40,4 +40,9 @@ public class AttributeEngRigCostBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AttributeEngRigCostBonus";
+    }
 }

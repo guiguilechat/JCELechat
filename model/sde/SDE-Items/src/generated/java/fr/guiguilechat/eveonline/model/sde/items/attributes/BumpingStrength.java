@@ -40,4 +40,9 @@ public class BumpingStrength
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BumpingStrength";
+    }
 }

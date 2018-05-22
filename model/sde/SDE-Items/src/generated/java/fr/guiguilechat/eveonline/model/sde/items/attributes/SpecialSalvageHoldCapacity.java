@@ -40,4 +40,9 @@ public class SpecialSalvageHoldCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialSalvageHoldCapacity";
+    }
 }

@@ -40,4 +40,9 @@ public class ConsumptionType
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ConsumptionType";
+    }
 }

@@ -40,4 +40,9 @@ public class SpeedFactorBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpeedFactorBonus";
+    }
 }

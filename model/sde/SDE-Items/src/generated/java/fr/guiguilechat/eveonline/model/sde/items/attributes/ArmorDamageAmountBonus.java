@@ -40,4 +40,9 @@ public class ArmorDamageAmountBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ArmorDamageAmountBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class ChargeGroup1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ChargeGroup1";
+    }
 }

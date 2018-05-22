@@ -40,4 +40,9 @@ public class ModeSignatureRadiusPostDiv
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModeSignatureRadiusPostDiv";
+    }
 }

@@ -40,4 +40,9 @@ public class UnanchoringDelay
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "UnanchoringDelay";
+    }
 }

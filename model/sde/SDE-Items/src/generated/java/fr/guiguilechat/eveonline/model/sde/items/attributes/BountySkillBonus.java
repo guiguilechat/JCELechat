@@ -40,4 +40,9 @@ public class BountySkillBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BountySkillBonus";
+    }
 }

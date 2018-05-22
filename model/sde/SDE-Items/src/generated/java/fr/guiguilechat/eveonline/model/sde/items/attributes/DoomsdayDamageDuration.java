@@ -40,4 +40,9 @@ public class DoomsdayDamageDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DoomsdayDamageDuration";
+    }
 }

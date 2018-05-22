@@ -40,4 +40,9 @@ public class FighterAbilityWarpDisruptionPointStrengthInterim
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityWarpDisruptionPointStrengthInterim";
+    }
 }

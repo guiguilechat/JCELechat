@@ -40,4 +40,9 @@ public class MaximumRangeCap
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaximumRangeCap";
+    }
 }

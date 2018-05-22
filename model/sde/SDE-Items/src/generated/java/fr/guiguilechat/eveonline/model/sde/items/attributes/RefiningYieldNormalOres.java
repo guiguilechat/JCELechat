@@ -40,4 +40,9 @@ public class RefiningYieldNormalOres
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefiningYieldNormalOres";
+    }
 }

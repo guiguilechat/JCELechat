@@ -40,4 +40,9 @@ public class EmDamageResonancePostAssignment
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EmDamageResonancePostAssignment";
+    }
 }

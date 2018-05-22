@@ -40,4 +40,9 @@ public class PropulsionGraphicID
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PropulsionGraphicID";
+    }
 }

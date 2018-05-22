@@ -40,4 +40,9 @@ public class WarpScrambleRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarpScrambleRange";
+    }
 }

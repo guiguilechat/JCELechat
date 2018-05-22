@@ -40,4 +40,9 @@ public class DoomsdayRangeIsFixed
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DoomsdayRangeIsFixed";
+    }
 }

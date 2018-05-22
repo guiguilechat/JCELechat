@@ -40,4 +40,9 @@ public class RookieSPTDamageBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieSPTDamageBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class BoosterDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterDuration";
+    }
 }

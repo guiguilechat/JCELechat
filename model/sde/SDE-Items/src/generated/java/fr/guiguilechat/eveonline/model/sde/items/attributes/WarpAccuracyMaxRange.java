@@ -40,4 +40,9 @@ public class WarpAccuracyMaxRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarpAccuracyMaxRange";
+    }
 }

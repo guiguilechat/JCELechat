@@ -40,4 +40,9 @@ public class EliteBonusEscorts
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusEscorts";
+    }
 }

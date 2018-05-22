@@ -40,4 +40,9 @@ public class RefiningTimePercentage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefiningTimePercentage";
+    }
 }

@@ -40,4 +40,9 @@ public class MissileEntityAoeCloudSizeMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MissileEntityAoeCloudSizeMultiplier";
+    }
 }

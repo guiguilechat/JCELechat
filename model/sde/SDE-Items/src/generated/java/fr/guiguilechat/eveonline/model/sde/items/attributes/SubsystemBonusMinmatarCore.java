@@ -40,4 +40,9 @@ public class SubsystemBonusMinmatarCore
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusMinmatarCore";
+    }
 }

@@ -40,4 +40,9 @@ public class EcuExtractorHeadPower
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EcuExtractorHeadPower";
+    }
 }

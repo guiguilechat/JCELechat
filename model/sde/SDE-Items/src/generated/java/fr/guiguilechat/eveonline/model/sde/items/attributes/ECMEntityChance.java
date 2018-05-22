@@ -40,4 +40,9 @@ public class ECMEntityChance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ECMEntityChance";
+    }
 }

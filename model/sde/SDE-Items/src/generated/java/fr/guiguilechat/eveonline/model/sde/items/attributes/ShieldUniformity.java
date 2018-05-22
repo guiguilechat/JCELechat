@@ -40,4 +40,9 @@ public class ShieldUniformity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShieldUniformity";
+    }
 }

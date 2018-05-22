@@ -40,4 +40,9 @@ public class ScanGravimetricStrengthPercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanGravimetricStrengthPercent";
+    }
 }

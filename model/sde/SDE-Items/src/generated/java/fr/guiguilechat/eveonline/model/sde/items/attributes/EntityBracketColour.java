@@ -42,4 +42,9 @@ public class EntityBracketColour
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityBracketColour";
+    }
 }

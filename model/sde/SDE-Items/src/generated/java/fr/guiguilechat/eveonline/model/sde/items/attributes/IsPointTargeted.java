@@ -40,4 +40,9 @@ public class IsPointTargeted
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "IsPointTargeted";
+    }
 }

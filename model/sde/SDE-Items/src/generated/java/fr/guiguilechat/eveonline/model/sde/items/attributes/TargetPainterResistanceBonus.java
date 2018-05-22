@@ -40,4 +40,9 @@ public class TargetPainterResistanceBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TargetPainterResistanceBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class WebSpeedFactorBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WebSpeedFactorBonus";
+    }
 }

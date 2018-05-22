@@ -40,4 +40,9 @@ public class FastTalkPercentage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FastTalkPercentage";
+    }
 }

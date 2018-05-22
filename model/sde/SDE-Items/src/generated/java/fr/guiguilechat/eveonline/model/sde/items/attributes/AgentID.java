@@ -40,4 +40,9 @@ public class AgentID
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AgentID";
+    }
 }

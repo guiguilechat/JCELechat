@@ -40,4 +40,9 @@ public class IndustrialCoreLocalLogisticsDurationBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IndustrialCoreLocalLogisticsDurationBonus";
+    }
 }

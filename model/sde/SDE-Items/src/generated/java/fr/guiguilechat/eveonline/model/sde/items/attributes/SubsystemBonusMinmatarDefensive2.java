@@ -40,4 +40,9 @@ public class SubsystemBonusMinmatarDefensive2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusMinmatarDefensive2";
+    }
 }

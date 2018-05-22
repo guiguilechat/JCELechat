@@ -40,4 +40,9 @@ public class CrystalsGetDamaged
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CrystalsGetDamaged";
+    }
 }

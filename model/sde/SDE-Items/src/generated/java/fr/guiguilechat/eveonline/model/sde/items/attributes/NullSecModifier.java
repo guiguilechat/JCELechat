@@ -40,4 +40,9 @@ public class NullSecModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "NullSecModifier";
+    }
 }

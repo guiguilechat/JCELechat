@@ -40,4 +40,9 @@ public class EliteBonusLogiFrig2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusLogiFrig2";
+    }
 }

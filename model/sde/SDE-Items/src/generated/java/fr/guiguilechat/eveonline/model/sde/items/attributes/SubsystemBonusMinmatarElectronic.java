@@ -40,4 +40,9 @@ public class SubsystemBonusMinmatarElectronic
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusMinmatarElectronic";
+    }
 }

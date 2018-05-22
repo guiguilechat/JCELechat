@@ -40,4 +40,9 @@ public class EntityTargetPaintDurationChance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityTargetPaintDurationChance";
+    }
 }

@@ -40,4 +40,9 @@ public class ShieldDamageLimit
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShieldDamageLimit";
+    }
 }

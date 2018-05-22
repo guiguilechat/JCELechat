@@ -40,4 +40,9 @@ public class HeatDamage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatDamage";
+    }
 }

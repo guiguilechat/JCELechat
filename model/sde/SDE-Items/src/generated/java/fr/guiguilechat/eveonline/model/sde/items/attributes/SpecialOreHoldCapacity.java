@@ -40,4 +40,9 @@ public class SpecialOreHoldCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialOreHoldCapacity";
+    }
 }

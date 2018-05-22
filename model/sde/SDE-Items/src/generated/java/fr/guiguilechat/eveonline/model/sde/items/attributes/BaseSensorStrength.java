@@ -40,4 +40,9 @@ public class BaseSensorStrength
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "BaseSensorStrength";
+    }
 }

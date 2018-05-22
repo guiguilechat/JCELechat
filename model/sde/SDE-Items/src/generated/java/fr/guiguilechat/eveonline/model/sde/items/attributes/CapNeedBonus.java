@@ -40,4 +40,9 @@ public class CapNeedBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CapNeedBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class EntityChaseMaxDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityChaseMaxDuration";
+    }
 }

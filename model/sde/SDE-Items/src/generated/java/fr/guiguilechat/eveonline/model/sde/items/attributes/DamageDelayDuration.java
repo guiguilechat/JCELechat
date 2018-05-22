@@ -40,4 +40,9 @@ public class DamageDelayDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DamageDelayDuration";
+    }
 }

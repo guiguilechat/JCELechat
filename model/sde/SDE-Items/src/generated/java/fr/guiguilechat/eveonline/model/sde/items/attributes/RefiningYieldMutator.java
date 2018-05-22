@@ -40,4 +40,9 @@ public class RefiningYieldMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefiningYieldMutator";
+    }
 }

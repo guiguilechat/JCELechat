@@ -40,4 +40,9 @@ public class FighterAbilityAttackMissileRangeOptimal
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityAttackMissileRangeOptimal";
+    }
 }

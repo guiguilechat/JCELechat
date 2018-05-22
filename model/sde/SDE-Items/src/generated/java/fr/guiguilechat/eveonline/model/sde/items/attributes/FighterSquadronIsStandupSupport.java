@@ -40,4 +40,9 @@ public class FighterSquadronIsStandupSupport
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterSquadronIsStandupSupport";
+    }
 }

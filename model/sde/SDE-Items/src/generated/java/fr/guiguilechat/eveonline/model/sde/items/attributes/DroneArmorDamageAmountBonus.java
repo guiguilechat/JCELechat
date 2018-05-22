@@ -40,4 +40,9 @@ public class DroneArmorDamageAmountBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DroneArmorDamageAmountBonus";
+    }
 }

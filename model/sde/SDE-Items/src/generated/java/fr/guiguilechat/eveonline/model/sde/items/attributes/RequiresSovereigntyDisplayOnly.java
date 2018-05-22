@@ -40,4 +40,9 @@ public class RequiresSovereigntyDisplayOnly
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RequiresSovereigntyDisplayOnly";
+    }
 }

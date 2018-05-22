@@ -40,4 +40,9 @@ public class DamageMultiplierMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DamageMultiplierMultiplier";
+    }
 }

@@ -40,4 +40,9 @@ public class ResistanceKillerHull
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ResistanceKillerHull";
+    }
 }

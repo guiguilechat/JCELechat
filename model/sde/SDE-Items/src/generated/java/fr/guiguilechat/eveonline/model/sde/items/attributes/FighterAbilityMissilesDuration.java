@@ -40,4 +40,9 @@ public class FighterAbilityMissilesDuration
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityMissilesDuration";
+    }
 }

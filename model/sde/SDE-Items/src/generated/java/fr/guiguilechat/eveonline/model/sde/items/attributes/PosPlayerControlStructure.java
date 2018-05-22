@@ -40,4 +40,9 @@ public class PosPlayerControlStructure
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PosPlayerControlStructure";
+    }
 }

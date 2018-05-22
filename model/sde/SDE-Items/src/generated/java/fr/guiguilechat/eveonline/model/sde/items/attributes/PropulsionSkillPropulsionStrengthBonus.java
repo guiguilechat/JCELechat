@@ -40,4 +40,9 @@ public class PropulsionSkillPropulsionStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PropulsionSkillPropulsionStrengthBonus";
+    }
 }

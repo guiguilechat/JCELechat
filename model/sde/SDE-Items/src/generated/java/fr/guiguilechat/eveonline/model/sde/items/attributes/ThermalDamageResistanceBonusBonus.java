@@ -40,4 +40,9 @@ public class ThermalDamageResistanceBonusBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ThermalDamageResistanceBonusBonus";
+    }
 }

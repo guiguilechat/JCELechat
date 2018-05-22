@@ -40,4 +40,9 @@ public class WarfareBuff3Value
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarfareBuff3Value";
+    }
 }

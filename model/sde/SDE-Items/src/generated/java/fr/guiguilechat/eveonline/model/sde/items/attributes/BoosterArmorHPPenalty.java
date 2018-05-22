@@ -40,4 +40,9 @@ public class BoosterArmorHPPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterArmorHPPenalty";
+    }
 }

@@ -40,4 +40,9 @@ public class MaxVelocityLimited
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxVelocityLimited";
+    }
 }

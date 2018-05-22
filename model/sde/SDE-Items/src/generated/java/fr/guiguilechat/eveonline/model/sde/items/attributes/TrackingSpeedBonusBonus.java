@@ -40,4 +40,9 @@ public class TrackingSpeedBonusBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TrackingSpeedBonusBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class PinCycleTime
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PinCycleTime";
+    }
 }

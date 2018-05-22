@@ -40,4 +40,9 @@ public class RangeSkillBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RangeSkillBonus";
+    }
 }

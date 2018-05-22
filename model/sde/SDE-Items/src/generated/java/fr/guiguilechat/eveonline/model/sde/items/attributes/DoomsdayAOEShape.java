@@ -43,4 +43,9 @@ public class DoomsdayAOEShape
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DoomsdayAOEShape";
+    }
 }

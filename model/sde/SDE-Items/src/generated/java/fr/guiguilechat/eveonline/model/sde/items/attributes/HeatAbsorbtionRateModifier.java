@@ -40,4 +40,9 @@ public class HeatAbsorbtionRateModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatAbsorbtionRateModifier";
+    }
 }

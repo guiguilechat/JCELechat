@@ -40,4 +40,9 @@ public class ClothingAlsoCoversCategory2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ClothingAlsoCoversCategory2";
+    }
 }

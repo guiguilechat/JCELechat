@@ -40,4 +40,9 @@ public class HiSecModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HiSecModifier";
+    }
 }

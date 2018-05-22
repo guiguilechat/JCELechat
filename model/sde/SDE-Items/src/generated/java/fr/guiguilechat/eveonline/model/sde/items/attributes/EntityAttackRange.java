@@ -40,4 +40,9 @@ public class EntityAttackRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityAttackRange";
+    }
 }

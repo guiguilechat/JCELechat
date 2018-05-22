@@ -40,4 +40,9 @@ public class FallofMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FallofMultiplier";
+    }
 }

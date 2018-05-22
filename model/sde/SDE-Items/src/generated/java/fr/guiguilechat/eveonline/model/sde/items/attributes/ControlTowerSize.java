@@ -41,4 +41,9 @@ public class ControlTowerSize
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ControlTowerSize";
+    }
 }

@@ -40,4 +40,9 @@ public class ImplantSetLGRepublicFleet
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ImplantSetLGRepublicFleet";
+    }
 }

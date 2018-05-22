@@ -41,4 +41,9 @@ public class EntitySecurityStatusKillBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntitySecurityStatusKillBonus";
+    }
 }

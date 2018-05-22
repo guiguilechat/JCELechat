@@ -40,4 +40,9 @@ public class SiegeRemoteLogisticsRangeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SiegeRemoteLogisticsRangeBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class BattleshipConstructionCost
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BattleshipConstructionCost";
+    }
 }

@@ -40,4 +40,9 @@ public class UpgradeSlotsLeft
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "UpgradeSlotsLeft";
+    }
 }

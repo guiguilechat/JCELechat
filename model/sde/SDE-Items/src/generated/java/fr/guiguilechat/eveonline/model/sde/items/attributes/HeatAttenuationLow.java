@@ -40,4 +40,9 @@ public class HeatAttenuationLow
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatAttenuationLow";
+    }
 }

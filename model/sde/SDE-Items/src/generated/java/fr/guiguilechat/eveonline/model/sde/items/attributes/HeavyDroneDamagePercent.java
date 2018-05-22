@@ -40,4 +40,9 @@ public class HeavyDroneDamagePercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeavyDroneDamagePercent";
+    }
 }

@@ -40,4 +40,9 @@ public class ServiceSlots
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ServiceSlots";
+    }
 }

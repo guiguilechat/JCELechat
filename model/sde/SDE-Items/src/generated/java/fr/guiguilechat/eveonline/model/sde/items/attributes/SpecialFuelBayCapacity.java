@@ -40,4 +40,9 @@ public class SpecialFuelBayCapacity
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialFuelBayCapacity";
+    }
 }

@@ -40,4 +40,9 @@ public class ChargeSize
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ChargeSize";
+    }
 }

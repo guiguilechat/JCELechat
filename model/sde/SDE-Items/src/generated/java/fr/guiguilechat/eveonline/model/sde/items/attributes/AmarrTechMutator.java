@@ -40,4 +40,9 @@ public class AmarrTechMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AmarrTechMutator";
+    }
 }

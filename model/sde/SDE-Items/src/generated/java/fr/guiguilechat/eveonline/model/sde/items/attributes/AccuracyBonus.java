@@ -40,4 +40,9 @@ public class AccuracyBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AccuracyBonus";
+    }
 }

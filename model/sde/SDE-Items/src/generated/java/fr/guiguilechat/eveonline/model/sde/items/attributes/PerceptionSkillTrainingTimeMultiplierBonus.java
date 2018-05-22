@@ -40,4 +40,9 @@ public class PerceptionSkillTrainingTimeMultiplierBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PerceptionSkillTrainingTimeMultiplierBonus";
+    }
 }

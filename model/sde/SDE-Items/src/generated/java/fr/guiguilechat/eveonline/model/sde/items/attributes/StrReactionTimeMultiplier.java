@@ -40,4 +40,9 @@ public class StrReactionTimeMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StrReactionTimeMultiplier";
+    }
 }

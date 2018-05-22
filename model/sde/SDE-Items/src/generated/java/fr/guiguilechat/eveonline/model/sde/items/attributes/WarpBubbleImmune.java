@@ -40,4 +40,9 @@ public class WarpBubbleImmune
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarpBubbleImmune";
+    }
 }

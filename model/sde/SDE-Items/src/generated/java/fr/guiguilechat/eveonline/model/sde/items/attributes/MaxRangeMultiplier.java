@@ -40,4 +40,9 @@ public class MaxRangeMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxRangeMultiplier";
+    }
 }

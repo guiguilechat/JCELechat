@@ -40,4 +40,9 @@ public class DscanImmune
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DscanImmune";
+    }
 }

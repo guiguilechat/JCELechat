@@ -17,7 +17,22 @@ public class Verify {
 
 	private R_Verify verify = null;
 
+	private static R_Verify NULLVERIFY = new R_Verify() {
+		{
+			CharacterID = 0;
+			CharacterName = "DISCONNECTED";
+			ExpiresOn = "";
+			Scopes = "";
+			TokenType = "";
+			CharacterOwnerHash = "";
+			IntellectualProperty = "";
+		}
+	};
+
 	protected synchronized R_Verify verify() {
+		if (raw.isNull()) {
+			return NULLVERIFY;
+		}
 		if (verify == null) {
 			verify = raw.verify();
 		}

@@ -40,4 +40,9 @@ public class ECMDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ECMDuration";
+    }
 }

@@ -40,4 +40,9 @@ public class ControlTowerMinimumDistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ControlTowerMinimumDistance";
+    }
 }

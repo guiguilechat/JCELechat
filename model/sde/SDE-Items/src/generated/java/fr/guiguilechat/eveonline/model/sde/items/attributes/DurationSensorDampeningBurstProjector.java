@@ -40,4 +40,9 @@ public class DurationSensorDampeningBurstProjector
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DurationSensorDampeningBurstProjector";
+    }
 }

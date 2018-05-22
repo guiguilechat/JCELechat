@@ -40,4 +40,9 @@ public class CargoGroup
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CargoGroup";
+    }
 }

@@ -40,4 +40,9 @@ public class CapacityBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CapacityBonus";
+    }
 }

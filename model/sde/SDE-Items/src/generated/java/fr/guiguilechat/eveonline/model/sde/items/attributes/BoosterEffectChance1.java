@@ -40,4 +40,9 @@ public class BoosterEffectChance1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterEffectChance1";
+    }
 }

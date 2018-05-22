@@ -40,4 +40,9 @@ public class MaxGroupOnline
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxGroupOnline";
+    }
 }

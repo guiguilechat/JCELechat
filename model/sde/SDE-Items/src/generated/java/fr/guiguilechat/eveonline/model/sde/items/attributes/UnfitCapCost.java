@@ -40,4 +40,9 @@ public class UnfitCapCost
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "UnfitCapCost";
+    }
 }

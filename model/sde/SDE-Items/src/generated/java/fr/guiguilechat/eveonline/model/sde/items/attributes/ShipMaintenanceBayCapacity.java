@@ -40,4 +40,9 @@ public class ShipMaintenanceBayCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShipMaintenanceBayCapacity";
+    }
 }

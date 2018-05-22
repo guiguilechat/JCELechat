@@ -40,4 +40,9 @@ public class BoosterMaxVelocityPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterMaxVelocityPenalty";
+    }
 }

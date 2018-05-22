@@ -40,4 +40,9 @@ public class RequiredSkill2Level
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RequiredSkill2Level";
+    }
 }

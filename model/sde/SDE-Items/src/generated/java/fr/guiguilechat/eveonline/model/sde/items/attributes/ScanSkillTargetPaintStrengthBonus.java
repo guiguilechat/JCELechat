@@ -40,4 +40,9 @@ public class ScanSkillTargetPaintStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanSkillTargetPaintStrengthBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class ControlTowerMissileROFBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ControlTowerMissileROFBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class CovertCloakCPUPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CovertCloakCPUPenalty";
+    }
 }

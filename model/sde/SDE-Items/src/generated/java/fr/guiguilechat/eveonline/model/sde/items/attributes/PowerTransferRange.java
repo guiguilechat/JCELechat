@@ -40,4 +40,9 @@ public class PowerTransferRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PowerTransferRange";
+    }
 }

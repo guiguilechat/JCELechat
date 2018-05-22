@@ -40,4 +40,9 @@ public class KineticDamageResistanceBonus
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "KineticDamageResistanceBonus";
+    }
 }

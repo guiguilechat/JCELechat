@@ -40,4 +40,9 @@ public class ModeMagnetometricStrengthPostDiv
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModeMagnetometricStrengthPostDiv";
+    }
 }

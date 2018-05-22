@@ -40,4 +40,9 @@ public class FighterAbilityStasisWebifierFalloffRange
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityStasisWebifierFalloffRange";
+    }
 }

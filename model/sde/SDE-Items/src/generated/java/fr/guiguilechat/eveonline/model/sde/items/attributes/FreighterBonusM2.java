@@ -40,4 +40,9 @@ public class FreighterBonusM2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FreighterBonusM2";
+    }
 }

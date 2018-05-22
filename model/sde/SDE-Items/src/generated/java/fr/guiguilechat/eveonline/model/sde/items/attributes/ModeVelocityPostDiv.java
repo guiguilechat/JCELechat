@@ -40,4 +40,9 @@ public class ModeVelocityPostDiv
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModeVelocityPostDiv";
+    }
 }

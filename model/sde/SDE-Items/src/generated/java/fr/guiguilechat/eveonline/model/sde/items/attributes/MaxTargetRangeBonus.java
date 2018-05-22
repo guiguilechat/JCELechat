@@ -40,4 +40,9 @@ public class MaxTargetRangeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxTargetRangeBonus";
+    }
 }

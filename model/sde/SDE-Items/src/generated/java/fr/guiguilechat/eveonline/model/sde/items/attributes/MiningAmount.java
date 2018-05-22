@@ -40,4 +40,9 @@ public class MiningAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MiningAmount";
+    }
 }

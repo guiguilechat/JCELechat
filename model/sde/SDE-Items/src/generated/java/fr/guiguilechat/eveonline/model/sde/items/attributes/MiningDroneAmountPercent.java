@@ -40,4 +40,9 @@ public class MiningDroneAmountPercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MiningDroneAmountPercent";
+    }
 }

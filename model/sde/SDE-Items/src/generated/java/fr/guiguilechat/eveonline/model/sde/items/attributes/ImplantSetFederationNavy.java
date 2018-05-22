@@ -40,4 +40,9 @@ public class ImplantSetFederationNavy
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ImplantSetFederationNavy";
+    }
 }

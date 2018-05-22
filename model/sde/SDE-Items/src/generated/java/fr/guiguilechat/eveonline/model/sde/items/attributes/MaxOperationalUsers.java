@@ -40,4 +40,9 @@ public class MaxOperationalUsers
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxOperationalUsers";
+    }
 }

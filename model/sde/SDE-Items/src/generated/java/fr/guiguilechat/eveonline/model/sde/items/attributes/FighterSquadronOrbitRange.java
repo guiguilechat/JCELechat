@@ -40,4 +40,9 @@ public class FighterSquadronOrbitRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterSquadronOrbitRange";
+    }
 }

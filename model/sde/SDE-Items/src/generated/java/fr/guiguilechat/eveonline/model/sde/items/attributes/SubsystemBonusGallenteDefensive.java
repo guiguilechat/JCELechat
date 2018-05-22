@@ -40,4 +40,9 @@ public class SubsystemBonusGallenteDefensive
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusGallenteDefensive";
+    }
 }

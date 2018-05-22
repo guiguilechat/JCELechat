@@ -40,4 +40,9 @@ public class ConnectionsBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ConnectionsBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class ScanLadarStrength
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "ScanLadarStrength";
+    }
 }

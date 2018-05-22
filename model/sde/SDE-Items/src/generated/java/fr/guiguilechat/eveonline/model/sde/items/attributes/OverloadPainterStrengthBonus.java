@@ -40,4 +40,9 @@ public class OverloadPainterStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OverloadPainterStrengthBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class OverloadECMStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OverloadECMStrengthBonus";
+    }
 }

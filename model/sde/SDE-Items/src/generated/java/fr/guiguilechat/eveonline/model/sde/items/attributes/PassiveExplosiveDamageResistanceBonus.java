@@ -40,4 +40,9 @@ public class PassiveExplosiveDamageResistanceBonus
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "PassiveExplosiveDamageResistanceBonus";
+    }
 }

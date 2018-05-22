@@ -40,4 +40,9 @@ public class SocialMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SocialMutator";
+    }
 }

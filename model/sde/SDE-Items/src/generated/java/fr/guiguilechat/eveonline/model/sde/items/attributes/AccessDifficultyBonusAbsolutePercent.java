@@ -40,4 +40,9 @@ public class AccessDifficultyBonusAbsolutePercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AccessDifficultyBonusAbsolutePercent";
+    }
 }

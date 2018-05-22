@@ -226,6 +226,9 @@ public class SDECompiler {
 				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getStackable");
 				meth.annotate(cm.ref(Override.class));
 				meth.body()._return(JExpr.lit(eattr.stackable));
+				meth = attClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
+				meth.annotate(cm.ref(Override.class));
+				meth.body()._return(JExpr.lit(name));
 				attClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, attClass, "INSTANCE").init(JExpr._new(attClass));
 				attClass.javadoc().add(eattr.description);
 				idToAttribute.put(attId, attClass);

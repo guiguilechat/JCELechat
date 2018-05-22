@@ -40,4 +40,9 @@ public class BoosterMaxCharAgeHours
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterMaxCharAgeHours";
+    }
 }

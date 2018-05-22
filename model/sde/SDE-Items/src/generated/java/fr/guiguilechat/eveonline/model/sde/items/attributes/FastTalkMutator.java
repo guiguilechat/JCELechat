@@ -40,4 +40,9 @@ public class FastTalkMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FastTalkMutator";
+    }
 }

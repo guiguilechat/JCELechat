@@ -40,4 +40,9 @@ public class MemorySkillTrainingTimeMultiplierBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MemorySkillTrainingTimeMultiplierBonus";
+    }
 }

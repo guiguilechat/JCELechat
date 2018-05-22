@@ -40,4 +40,9 @@ public class StrEngCostBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StrEngCostBonus";
+    }
 }

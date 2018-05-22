@@ -40,4 +40,9 @@ public class FighterAbilityKamikazeSignatureRadius
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityKamikazeSignatureRadius";
+    }
 }

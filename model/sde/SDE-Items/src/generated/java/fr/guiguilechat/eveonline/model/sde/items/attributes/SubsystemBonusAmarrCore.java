@@ -40,4 +40,9 @@ public class SubsystemBonusAmarrCore
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusAmarrCore";
+    }
 }

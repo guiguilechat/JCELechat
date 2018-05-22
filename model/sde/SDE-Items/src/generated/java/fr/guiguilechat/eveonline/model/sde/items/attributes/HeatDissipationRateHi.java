@@ -40,4 +40,9 @@ public class HeatDissipationRateHi
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatDissipationRateHi";
+    }
 }

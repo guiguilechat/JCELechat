@@ -40,4 +40,9 @@ public class AdvancedIndustrySkillIndustryJobTimeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AdvancedIndustrySkillIndustryJobTimeBonus";
+    }
 }

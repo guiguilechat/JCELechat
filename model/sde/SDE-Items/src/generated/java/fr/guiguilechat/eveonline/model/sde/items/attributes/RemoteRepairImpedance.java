@@ -40,4 +40,9 @@ public class RemoteRepairImpedance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RemoteRepairImpedance";
+    }
 }

@@ -40,4 +40,9 @@ public class DoomsdayDamageRadius
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DoomsdayDamageRadius";
+    }
 }

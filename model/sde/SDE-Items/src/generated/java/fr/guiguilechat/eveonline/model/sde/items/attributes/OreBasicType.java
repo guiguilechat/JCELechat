@@ -40,4 +40,9 @@ public class OreBasicType
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "OreBasicType";
+    }
 }

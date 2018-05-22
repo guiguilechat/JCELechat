@@ -40,4 +40,9 @@ public class IndustryJobCostMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IndustryJobCostMultiplier";
+    }
 }

@@ -40,4 +40,9 @@ public class EnergyWarfareResistanceBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EnergyWarfareResistanceBonus";
+    }
 }

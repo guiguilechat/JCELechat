@@ -40,4 +40,9 @@ public class FighterAbilityAfterburnerDuration
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityAfterburnerDuration";
+    }
 }

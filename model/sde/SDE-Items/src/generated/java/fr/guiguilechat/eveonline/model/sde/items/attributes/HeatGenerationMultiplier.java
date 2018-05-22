@@ -40,4 +40,9 @@ public class HeatGenerationMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatGenerationMultiplier";
+    }
 }

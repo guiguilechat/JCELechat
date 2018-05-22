@@ -40,4 +40,9 @@ public class EcmRangeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EcmRangeBonus";
+    }
 }

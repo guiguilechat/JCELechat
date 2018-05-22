@@ -40,4 +40,9 @@ public class EliteBonusLogistics2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusLogistics2";
+    }
 }

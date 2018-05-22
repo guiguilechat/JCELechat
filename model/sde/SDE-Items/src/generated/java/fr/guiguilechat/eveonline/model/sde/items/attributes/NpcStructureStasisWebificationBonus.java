@@ -40,4 +40,9 @@ public class NpcStructureStasisWebificationBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "NpcStructureStasisWebificationBonus";
+    }
 }

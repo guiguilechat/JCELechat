@@ -40,4 +40,9 @@ public class SovUpgradeRequiredUpgradeID
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SovUpgradeRequiredUpgradeID";
+    }
 }

@@ -40,4 +40,9 @@ public class HardeningBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HardeningBonus";
+    }
 }

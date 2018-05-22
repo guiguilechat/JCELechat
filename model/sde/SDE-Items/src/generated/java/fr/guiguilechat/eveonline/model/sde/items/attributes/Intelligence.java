@@ -40,4 +40,9 @@ public class Intelligence
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Intelligence";
+    }
 }

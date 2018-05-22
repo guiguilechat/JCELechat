@@ -40,4 +40,9 @@ public class FighterAbilityEvasiveManeuversExpResonance
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityEvasiveManeuversExpResonance";
+    }
 }

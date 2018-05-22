@@ -40,4 +40,9 @@ public class Boosterness
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Boosterness";
+    }
 }

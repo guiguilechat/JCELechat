@@ -40,4 +40,9 @@ public class SmallWeaponDamageMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SmallWeaponDamageMultiplier";
+    }
 }

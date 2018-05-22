@@ -40,4 +40,9 @@ public class ShieldThermalDamageResonancePostAssignment
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShieldThermalDamageResonancePostAssignment";
+    }
 }

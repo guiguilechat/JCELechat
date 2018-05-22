@@ -10,7 +10,7 @@ public class MutaAB1MNTest {
 
 	@Test
 	public void test() {
-		Assert.assertEquals(MutaAB1MN.INSTANCE.minMult(SpeedFactor.INSTANCE, MutaStr.DECAYED), 0.97);
+		Assert.assertEquals(Muta1MN.INSTANCE.minMult(SpeedFactor.INSTANCE, MutaStr.DECAYED), 0.97);
 	}
 
 }

@@ -40,4 +40,9 @@ public class SpecialisationAsteroidYieldMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialisationAsteroidYieldMultiplier";
+    }
 }

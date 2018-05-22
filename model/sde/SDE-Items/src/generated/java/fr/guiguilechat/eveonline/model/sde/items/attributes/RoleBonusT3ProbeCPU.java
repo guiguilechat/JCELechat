@@ -40,4 +40,9 @@ public class RoleBonusT3ProbeCPU
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RoleBonusT3ProbeCPU";
+    }
 }

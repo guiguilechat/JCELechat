@@ -40,4 +40,9 @@ public class RookieWebAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieWebAmount";
+    }
 }

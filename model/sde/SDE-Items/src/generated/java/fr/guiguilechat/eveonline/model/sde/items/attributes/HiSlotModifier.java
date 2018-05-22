@@ -40,4 +40,9 @@ public class HiSlotModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HiSlotModifier";
+    }
 }

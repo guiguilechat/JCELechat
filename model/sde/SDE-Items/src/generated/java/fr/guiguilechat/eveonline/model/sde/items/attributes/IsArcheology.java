@@ -40,4 +40,9 @@ public class IsArcheology
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IsArcheology";
+    }
 }

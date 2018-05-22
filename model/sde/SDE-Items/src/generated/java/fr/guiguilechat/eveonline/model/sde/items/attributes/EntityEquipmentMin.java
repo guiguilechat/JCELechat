@@ -40,4 +40,9 @@ public class EntityEquipmentMin
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityEquipmentMin";
+    }
 }

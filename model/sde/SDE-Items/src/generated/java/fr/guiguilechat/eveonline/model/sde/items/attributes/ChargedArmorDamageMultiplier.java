@@ -40,4 +40,9 @@ public class ChargedArmorDamageMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ChargedArmorDamageMultiplier";
+    }
 }

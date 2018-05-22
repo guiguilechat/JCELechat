@@ -40,4 +40,9 @@ public class SensorStrengthBonus
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "SensorStrengthBonus";
+    }
 }

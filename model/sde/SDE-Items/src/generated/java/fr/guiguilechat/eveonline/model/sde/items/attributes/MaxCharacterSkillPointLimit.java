@@ -40,4 +40,9 @@ public class MaxCharacterSkillPointLimit
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxCharacterSkillPointLimit";
+    }
 }

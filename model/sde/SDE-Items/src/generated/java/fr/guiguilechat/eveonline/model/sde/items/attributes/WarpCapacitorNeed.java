@@ -40,4 +40,9 @@ public class WarpCapacitorNeed
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarpCapacitorNeed";
+    }
 }

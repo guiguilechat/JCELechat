@@ -40,4 +40,9 @@ public class CpuOutputBonus2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CpuOutputBonus2";
+    }
 }

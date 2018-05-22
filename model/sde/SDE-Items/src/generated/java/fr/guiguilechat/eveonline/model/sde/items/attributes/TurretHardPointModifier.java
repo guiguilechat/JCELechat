@@ -40,4 +40,9 @@ public class TurretHardPointModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TurretHardPointModifier";
+    }
 }

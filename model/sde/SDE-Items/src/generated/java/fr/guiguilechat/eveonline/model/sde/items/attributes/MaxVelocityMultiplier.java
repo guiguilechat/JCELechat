@@ -40,4 +40,9 @@ public class MaxVelocityMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxVelocityMultiplier";
+    }
 }

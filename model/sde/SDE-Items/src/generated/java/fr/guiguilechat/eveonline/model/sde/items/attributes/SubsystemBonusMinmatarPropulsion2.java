@@ -40,4 +40,9 @@ public class SubsystemBonusMinmatarPropulsion2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusMinmatarPropulsion2";
+    }
 }

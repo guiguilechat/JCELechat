@@ -40,4 +40,9 @@ public class MindlinkBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MindlinkBonus";
+    }
 }

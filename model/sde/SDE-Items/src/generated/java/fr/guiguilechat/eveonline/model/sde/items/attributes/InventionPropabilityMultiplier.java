@@ -40,4 +40,9 @@ public class InventionPropabilityMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "InventionPropabilityMultiplier";
+    }
 }

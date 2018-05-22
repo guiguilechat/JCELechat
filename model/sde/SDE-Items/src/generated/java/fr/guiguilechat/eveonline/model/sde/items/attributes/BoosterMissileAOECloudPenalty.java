@@ -40,4 +40,9 @@ public class BoosterMissileAOECloudPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterMissileAOECloudPenalty";
+    }
 }

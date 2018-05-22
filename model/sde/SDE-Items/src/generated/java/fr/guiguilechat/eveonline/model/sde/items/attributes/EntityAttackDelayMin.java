@@ -40,4 +40,9 @@ public class EntityAttackDelayMin
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityAttackDelayMin";
+    }
 }

@@ -40,4 +40,9 @@ public class Untargetable
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Untargetable";
+    }
 }

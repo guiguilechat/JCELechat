@@ -40,4 +40,9 @@ public class ShipScanFalloff
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShipScanFalloff";
+    }
 }

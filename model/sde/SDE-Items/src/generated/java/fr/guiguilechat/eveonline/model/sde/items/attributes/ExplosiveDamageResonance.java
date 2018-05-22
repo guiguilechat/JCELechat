@@ -40,4 +40,9 @@ public class ExplosiveDamageResonance
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "ExplosiveDamageResonance";
+    }
 }

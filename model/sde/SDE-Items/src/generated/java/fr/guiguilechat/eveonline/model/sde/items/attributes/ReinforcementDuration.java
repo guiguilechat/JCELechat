@@ -40,4 +40,9 @@ public class ReinforcementDuration
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ReinforcementDuration";
+    }
 }

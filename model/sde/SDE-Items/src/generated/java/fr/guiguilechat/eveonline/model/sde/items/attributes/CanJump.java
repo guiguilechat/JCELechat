@@ -40,4 +40,9 @@ public class CanJump
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CanJump";
+    }
 }

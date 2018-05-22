@@ -40,4 +40,9 @@ public class EliteBonusInterdictors1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusInterdictors1";
+    }
 }

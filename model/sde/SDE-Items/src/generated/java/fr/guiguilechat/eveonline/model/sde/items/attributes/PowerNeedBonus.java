@@ -40,4 +40,9 @@ public class PowerNeedBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PowerNeedBonus";
+    }
 }

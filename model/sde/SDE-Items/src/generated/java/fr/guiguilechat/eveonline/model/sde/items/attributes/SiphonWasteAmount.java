@@ -40,4 +40,9 @@ public class SiphonWasteAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SiphonWasteAmount";
+    }
 }

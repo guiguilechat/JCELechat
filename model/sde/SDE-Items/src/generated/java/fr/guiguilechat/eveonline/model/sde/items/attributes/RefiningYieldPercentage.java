@@ -40,4 +40,9 @@ public class RefiningYieldPercentage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefiningYieldPercentage";
+    }
 }

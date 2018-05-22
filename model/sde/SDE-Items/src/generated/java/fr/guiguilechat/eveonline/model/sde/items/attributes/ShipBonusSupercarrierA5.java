@@ -40,4 +40,9 @@ public class ShipBonusSupercarrierA5
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShipBonusSupercarrierA5";
+    }
 }

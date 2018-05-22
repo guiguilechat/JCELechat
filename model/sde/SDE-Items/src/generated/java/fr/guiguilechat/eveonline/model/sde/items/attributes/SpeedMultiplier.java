@@ -40,4 +40,9 @@ public class SpeedMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpeedMultiplier";
+    }
 }

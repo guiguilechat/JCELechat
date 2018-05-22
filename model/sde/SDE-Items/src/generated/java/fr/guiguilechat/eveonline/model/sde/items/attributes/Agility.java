@@ -40,4 +40,9 @@ public class Agility
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Agility";
+    }
 }

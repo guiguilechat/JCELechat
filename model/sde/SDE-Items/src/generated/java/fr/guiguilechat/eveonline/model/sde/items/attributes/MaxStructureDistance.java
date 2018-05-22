@@ -40,4 +40,9 @@ public class MaxStructureDistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxStructureDistance";
+    }
 }

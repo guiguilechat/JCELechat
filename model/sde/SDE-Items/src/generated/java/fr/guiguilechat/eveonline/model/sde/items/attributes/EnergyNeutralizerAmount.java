@@ -40,4 +40,9 @@ public class EnergyNeutralizerAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EnergyNeutralizerAmount";
+    }
 }

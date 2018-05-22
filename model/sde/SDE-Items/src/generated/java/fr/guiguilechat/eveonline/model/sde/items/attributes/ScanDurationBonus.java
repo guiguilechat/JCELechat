@@ -40,4 +40,9 @@ public class ScanDurationBonus
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "ScanDurationBonus";
+    }
 }

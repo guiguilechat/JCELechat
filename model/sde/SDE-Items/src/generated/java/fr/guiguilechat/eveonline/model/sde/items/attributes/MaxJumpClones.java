@@ -40,4 +40,9 @@ public class MaxJumpClones
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxJumpClones";
+    }
 }

@@ -45,4 +45,9 @@ public class FighterSquadronRole
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterSquadronRole";
+    }
 }

@@ -40,4 +40,9 @@ public class ServiceModuleFuelOnlineAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ServiceModuleFuelOnlineAmount";
+    }
 }

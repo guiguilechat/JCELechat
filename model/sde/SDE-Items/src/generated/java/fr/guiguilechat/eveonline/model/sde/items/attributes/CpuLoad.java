@@ -40,4 +40,9 @@ public class CpuLoad
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CpuLoad";
+    }
 }

@@ -40,4 +40,9 @@ public class RequiresSovUpgrade1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RequiresSovUpgrade1";
+    }
 }

@@ -40,4 +40,9 @@ public class NegotiationBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "NegotiationBonus";
+    }
 }

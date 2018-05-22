@@ -40,4 +40,9 @@ public class AurumConversionRate
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AurumConversionRate";
+    }
 }

@@ -40,4 +40,9 @@ public class AoeFalloff
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AoeFalloff";
+    }
 }

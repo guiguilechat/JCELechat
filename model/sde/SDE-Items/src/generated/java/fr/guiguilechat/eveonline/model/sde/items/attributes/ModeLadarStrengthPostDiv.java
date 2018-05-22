@@ -40,4 +40,9 @@ public class ModeLadarStrengthPostDiv
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModeLadarStrengthPostDiv";
+    }
 }

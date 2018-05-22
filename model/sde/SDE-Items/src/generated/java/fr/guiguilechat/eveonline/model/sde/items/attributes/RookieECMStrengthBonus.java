@@ -40,4 +40,9 @@ public class RookieECMStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieECMStrengthBonus";
+    }
 }

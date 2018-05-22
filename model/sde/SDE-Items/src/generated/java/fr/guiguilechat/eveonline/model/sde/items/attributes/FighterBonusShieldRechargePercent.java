@@ -40,4 +40,9 @@ public class FighterBonusShieldRechargePercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterBonusShieldRechargePercent";
+    }
 }

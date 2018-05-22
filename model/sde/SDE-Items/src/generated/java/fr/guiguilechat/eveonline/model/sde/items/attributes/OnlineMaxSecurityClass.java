@@ -44,4 +44,9 @@ public class OnlineMaxSecurityClass
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OnlineMaxSecurityClass";
+    }
 }

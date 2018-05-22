@@ -40,4 +40,9 @@ public class EffectDeactivationDelay
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EffectDeactivationDelay";
+    }
 }

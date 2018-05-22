@@ -40,4 +40,9 @@ public class KineticDamageResonance
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "KineticDamageResonance";
+    }
 }

@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.programs.guimutaplasmids;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -10,6 +11,12 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.Muta1MN;
+import javafx.beans.binding.Bindings;
+import javafx.beans.binding.DoubleBinding;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ObservableNumberValue;
 
 /**
  * each mutaplasmid applies to a given list of types.
@@ -22,10 +29,9 @@ public abstract class MutaplasmidFamily {
 		DECAYED, GRAVID, UNSTABLE, ABNORMAL;
 	}
 
-	public static final MutaStr[] NONANCIL = { MutaStr.DECAYED, MutaStr.GRAVID,
-			MutaStr.UNSTABLE };
+	public static final MutaStr[] MUTASTR_NONANCIL = { MutaStr.DECAYED, MutaStr.GRAVID, MutaStr.UNSTABLE };
 
-	public static final MutaStr[] ANCIL = { MutaStr.ABNORMAL };
+	public static final MutaStr[] MUTASTR_ANCIL = { MutaStr.ABNORMAL };
 
 	private Set<MutaStr> strengths = null;
 
@@ -45,6 +51,7 @@ public abstract class MutaplasmidFamily {
 	protected MutaplasmidFamily(Stream<Item> allowedItems, Object[][] data) {
 
 		this.allowedItems = Collections.unmodifiableSet(allowedItems.collect(Collectors.toSet()));
+		// System.err.println("allowed items are " + this.allowedItems);
 		minmults = new HashMap<>();
 		maxmults = new HashMap<>();
 		strengths = new HashSet<>();
@@ -75,24 +82,97 @@ public abstract class MutaplasmidFamily {
 	}
 
 	public static class ModifiedItem {
-		public HashMap<Attribute, Double> minvalues = new HashMap<>();
-		public HashMap<Attribute, Double> maxvalues = new HashMap<>();
-		public Item item;
-		public MutaStr strength;
+		private HashMap<Attribute, Double> minvalues = new HashMap<>();
+
+		public HashMap<Attribute, Double> minvalues() {
+			return minvalues;
+		}
+
+		private HashMap<Attribute, Double> maxvalues = new HashMap<>();
+
+		public HashMap<Attribute, Double> maxvalues() {
+			return maxvalues;
+		}
+
+		private Item item;
+
+		public Item item() {
+			return item;
+		}
+
+		private MutaStr strength;
+
+		public MutaStr strength() {
+			return strength;
+		}
+
+		@Override
+		public String toString() {
+			return item.name + "-" + strength + " " + minvalues + maxvalues;
+		}
+
+		public ObservableNumberValue probability(Map<Attribute, ObservableDoubleValue> thresholds) {
+			ObservableNumberValue ret = new SimpleDoubleProperty(1.0);
+			for (Attribute att : minvalues.keySet()) {
+				ObservableDoubleValue threshold = thresholds.get(att);
+				if (threshold != null) {
+					DoubleBinding attMult;
+					if (att.getHighIsGood()) {
+						attMult = Bindings
+								.createDoubleBinding(
+										() -> Math.min(1.0,
+												Math.max(0.0,
+														(maxvalues.get(att) - threshold.get()) / (maxvalues.get(att) - minvalues.get(att)))),
+										threshold);
+					} else {
+						attMult = Bindings
+								.createDoubleBinding(
+										() -> Math.min(1.0,
+												Math.max(0.0,
+														(threshold.get() - minvalues.get(att)) / (maxvalues.get(att) - minvalues.get(att)))),
+										threshold);
+					}
+					ret = Bindings.multiply(ret, attMult);
+				}
+			}
+			return ret;
+		}
+
 	}
 
-	// public Stream<ModifiedItem> modifications() {
-	//
-	// }
+	protected Stream<ModifiedItem> modifications() {
+		return Stream.concat(strengths().stream(), Stream.of(new MutaStr[] { null }))
+				.flatMap(str -> allowedItems.stream().map(item -> modify(item, str)));
+	}
+
+	private List<ModifiedItem> results = null;
+
+	public List<ModifiedItem> results() {
+		if (results == null) {
+			results = Collections.unmodifiableList(modifications().collect(Collectors.toList()));
+			// System.err.println("modified items are " + results);
+		}
+		return results;
+	}
 
 	protected ModifiedItem modify(Item item, MutaStr str) {
 		ModifiedItem ret = new ModifiedItem();
 		ret.item = item;
 		ret.strength = str;
-		for (Attribute a : modifiedAttributes()) {
-			// ret.minvalues.put(a, item.attributeDouble(a));
+		if (str != null) {
+			for (Attribute a : modifiedAttributes()) {
+				ret.minvalues.put(a, a.value(item).doubleValue() * minMult(a, str));
+				ret.maxvalues.put(a, a.value(item).doubleValue() * maxMult(a, str));
+			}
+		} else {
+			for (Attribute a : modifiedAttributes()) {
+				ret.minvalues.put(a, a.value(item).doubleValue());
+				ret.maxvalues.put(a, a.value(item).doubleValue());
+			}
 		}
 		return ret;
 	}
+
+	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE };
 
 }

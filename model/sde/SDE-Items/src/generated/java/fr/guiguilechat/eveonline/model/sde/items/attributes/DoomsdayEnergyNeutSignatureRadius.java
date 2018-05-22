@@ -40,4 +40,9 @@ public class DoomsdayEnergyNeutSignatureRadius
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DoomsdayEnergyNeutSignatureRadius";
+    }
 }

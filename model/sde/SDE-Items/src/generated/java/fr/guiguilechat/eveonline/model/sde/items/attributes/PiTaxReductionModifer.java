@@ -40,4 +40,9 @@ public class PiTaxReductionModifer
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PiTaxReductionModifer";
+    }
 }

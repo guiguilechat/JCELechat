@@ -40,4 +40,9 @@ public class ReactionGroup1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ReactionGroup1";
+    }
 }

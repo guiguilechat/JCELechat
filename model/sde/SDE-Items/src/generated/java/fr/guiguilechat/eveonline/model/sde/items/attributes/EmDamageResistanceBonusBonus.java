@@ -40,4 +40,9 @@ public class EmDamageResistanceBonusBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EmDamageResistanceBonusBonus";
+    }
 }

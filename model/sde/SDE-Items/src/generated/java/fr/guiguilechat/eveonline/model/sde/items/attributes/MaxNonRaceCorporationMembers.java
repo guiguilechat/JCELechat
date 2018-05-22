@@ -40,4 +40,9 @@ public class MaxNonRaceCorporationMembers
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxNonRaceCorporationMembers";
+    }
 }

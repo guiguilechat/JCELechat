@@ -40,4 +40,9 @@ public class IndustrialCoreBonusDroneVelocity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IndustrialCoreBonusDroneVelocity";
+    }
 }

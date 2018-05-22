@@ -40,4 +40,9 @@ public class FighterAbilityECMRangeOptimal
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityECMRangeOptimal";
+    }
 }

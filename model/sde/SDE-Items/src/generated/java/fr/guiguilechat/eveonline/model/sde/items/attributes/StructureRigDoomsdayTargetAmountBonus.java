@@ -40,4 +40,9 @@ public class StructureRigDoomsdayTargetAmountBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureRigDoomsdayTargetAmountBonus";
+    }
 }

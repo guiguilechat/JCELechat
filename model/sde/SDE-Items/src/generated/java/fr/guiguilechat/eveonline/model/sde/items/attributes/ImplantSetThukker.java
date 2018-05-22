@@ -40,4 +40,9 @@ public class ImplantSetThukker
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ImplantSetThukker";
+    }
 }

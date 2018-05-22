@@ -40,4 +40,9 @@ public class DefenderVelocityBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DefenderVelocityBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class MissileNeverDoesDamage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MissileNeverDoesDamage";
+    }
 }

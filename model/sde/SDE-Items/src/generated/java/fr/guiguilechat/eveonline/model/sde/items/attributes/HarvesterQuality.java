@@ -40,4 +40,9 @@ public class HarvesterQuality
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HarvesterQuality";
+    }
 }

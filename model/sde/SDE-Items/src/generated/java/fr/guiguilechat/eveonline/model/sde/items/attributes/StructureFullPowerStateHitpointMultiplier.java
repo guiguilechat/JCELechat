@@ -40,4 +40,9 @@ public class StructureFullPowerStateHitpointMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureFullPowerStateHitpointMultiplier";
+    }
 }

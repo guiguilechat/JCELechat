@@ -40,4 +40,9 @@ public class FighterAbilityMissilesDamageMultiplier
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityMissilesDamageMultiplier";
+    }
 }

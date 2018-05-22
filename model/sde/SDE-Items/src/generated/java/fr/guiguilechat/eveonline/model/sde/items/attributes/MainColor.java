@@ -40,4 +40,9 @@ public class MainColor
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MainColor";
+    }
 }

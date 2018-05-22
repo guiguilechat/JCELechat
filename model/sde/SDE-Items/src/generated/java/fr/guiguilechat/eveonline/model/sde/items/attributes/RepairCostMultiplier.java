@@ -40,4 +40,9 @@ public class RepairCostMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RepairCostMultiplier";
+    }
 }

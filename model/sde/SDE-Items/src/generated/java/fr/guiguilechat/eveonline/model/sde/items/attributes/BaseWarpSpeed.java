@@ -40,4 +40,9 @@ public class BaseWarpSpeed
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BaseWarpSpeed";
+    }
 }

@@ -40,4 +40,9 @@ public class EntityKillBounty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityKillBounty";
+    }
 }

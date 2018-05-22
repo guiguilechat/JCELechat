@@ -40,4 +40,9 @@ public class BoosterShieldCapacityPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterShieldCapacityPenalty";
+    }
 }

@@ -40,4 +40,9 @@ public class FighterLightSlots
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterLightSlots";
+    }
 }

@@ -40,4 +40,9 @@ public class ServiceModuleFullPowerStateHitpointMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ServiceModuleFullPowerStateHitpointMultiplier";
+    }
 }

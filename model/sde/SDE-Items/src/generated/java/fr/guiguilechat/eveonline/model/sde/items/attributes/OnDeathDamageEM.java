@@ -40,4 +40,9 @@ public class OnDeathDamageEM
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OnDeathDamageEM";
+    }
 }

@@ -40,4 +40,9 @@ public class PassiveShieldKineticDamageResonance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PassiveShieldKineticDamageResonance";
+    }
 }

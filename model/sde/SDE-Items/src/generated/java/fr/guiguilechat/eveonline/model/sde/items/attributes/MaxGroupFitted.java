@@ -40,4 +40,9 @@ public class MaxGroupFitted
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxGroupFitted";
+    }
 }

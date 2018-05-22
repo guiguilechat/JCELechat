@@ -40,4 +40,9 @@ public class LowSecModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LowSecModifier";
+    }
 }

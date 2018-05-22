@@ -40,4 +40,9 @@ public class PinExtractionQuantity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PinExtractionQuantity";
+    }
 }

@@ -40,4 +40,9 @@ public class CovertOpsStealthBomberTargettingDelay
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CovertOpsStealthBomberTargettingDelay";
+    }
 }

@@ -40,4 +40,9 @@ public class HeatCapacityLow
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HeatCapacityLow";
+    }
 }

@@ -40,4 +40,9 @@ public class FighterAbilityECMStrengthMagnetometric
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityECMStrengthMagnetometric";
+    }
 }

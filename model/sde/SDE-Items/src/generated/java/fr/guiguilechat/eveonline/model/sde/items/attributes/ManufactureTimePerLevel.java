@@ -40,4 +40,9 @@ public class ManufactureTimePerLevel
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ManufactureTimePerLevel";
+    }
 }

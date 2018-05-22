@@ -40,4 +40,9 @@ public class FighterAbilityEnergyNeutralizerAmount
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityEnergyNeutralizerAmount";
+    }
 }

@@ -40,4 +40,9 @@ public class BlueprintmanufactureTimeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BlueprintmanufactureTimeBonus";
+    }
 }

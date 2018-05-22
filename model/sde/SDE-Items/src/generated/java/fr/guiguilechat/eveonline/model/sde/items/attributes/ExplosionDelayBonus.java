@@ -40,4 +40,9 @@ public class ExplosionDelayBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ExplosionDelayBonus";
+    }
 }

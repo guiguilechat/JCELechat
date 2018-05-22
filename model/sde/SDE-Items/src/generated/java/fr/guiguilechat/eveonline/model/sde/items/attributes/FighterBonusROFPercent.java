@@ -40,4 +40,9 @@ public class FighterBonusROFPercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterBonusROFPercent";
+    }
 }

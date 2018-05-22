@@ -40,4 +40,9 @@ public class SubsystemBonusGallentePropulsion2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusGallentePropulsion2";
+    }
 }

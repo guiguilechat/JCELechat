@@ -40,4 +40,9 @@ public class Damage
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Damage";
+    }
 }

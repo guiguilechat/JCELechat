@@ -40,4 +40,9 @@ public class PosStructureControlAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PosStructureControlAmount";
+    }
 }

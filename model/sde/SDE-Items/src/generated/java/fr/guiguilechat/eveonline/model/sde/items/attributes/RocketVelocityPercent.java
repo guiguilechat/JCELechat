@@ -40,4 +40,9 @@ public class RocketVelocityPercent
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RocketVelocityPercent";
+    }
 }

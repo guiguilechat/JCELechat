@@ -40,4 +40,9 @@ public class SubsystemCommandBurstFittingReduction
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemCommandBurstFittingReduction";
+    }
 }

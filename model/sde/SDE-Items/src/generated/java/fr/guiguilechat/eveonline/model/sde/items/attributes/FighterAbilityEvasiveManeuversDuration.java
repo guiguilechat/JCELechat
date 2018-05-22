@@ -40,4 +40,9 @@ public class FighterAbilityEvasiveManeuversDuration
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityEvasiveManeuversDuration";
+    }
 }

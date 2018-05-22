@@ -40,4 +40,9 @@ public class ShipBonusForceAuxiliaryG1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ShipBonusForceAuxiliaryG1";
+    }
 }

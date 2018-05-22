@@ -40,4 +40,9 @@ public class SurveyProbeDurationBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SurveyProbeDurationBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class BaseDefenderAllyCost
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BaseDefenderAllyCost";
+    }
 }

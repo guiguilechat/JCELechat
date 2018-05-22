@@ -40,4 +40,9 @@ public class RookieSETOptimal
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieSETOptimal";
+    }
 }

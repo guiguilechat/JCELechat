@@ -40,4 +40,9 @@ public class StructureDamageLimit
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureDamageLimit";
+    }
 }

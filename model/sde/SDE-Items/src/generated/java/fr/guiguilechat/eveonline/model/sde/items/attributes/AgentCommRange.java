@@ -40,4 +40,9 @@ public class AgentCommRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AgentCommRange";
+    }
 }

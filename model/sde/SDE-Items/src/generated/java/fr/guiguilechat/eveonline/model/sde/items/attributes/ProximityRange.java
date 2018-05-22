@@ -40,4 +40,9 @@ public class ProximityRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ProximityRange";
+    }
 }

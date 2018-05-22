@@ -40,4 +40,9 @@ public class CaldariTechMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CaldariTechMutator";
+    }
 }

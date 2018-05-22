@@ -40,4 +40,9 @@ public class CommandBonusTD
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CommandBonusTD";
+    }
 }

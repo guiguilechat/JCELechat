@@ -40,4 +40,9 @@ public class EntityChaseMaxDistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityChaseMaxDistance";
+    }
 }

@@ -40,4 +40,9 @@ public class GfxBoosterID
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "GfxBoosterID";
+    }
 }

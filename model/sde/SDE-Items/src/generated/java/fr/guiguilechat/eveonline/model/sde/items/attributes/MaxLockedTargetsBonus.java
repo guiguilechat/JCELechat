@@ -40,4 +40,9 @@ public class MaxLockedTargetsBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxLockedTargetsBonus";
+    }
 }

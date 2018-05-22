@@ -40,4 +40,9 @@ public class MoonRigFractureDelayBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MoonRigFractureDelayBonus";
+    }
 }

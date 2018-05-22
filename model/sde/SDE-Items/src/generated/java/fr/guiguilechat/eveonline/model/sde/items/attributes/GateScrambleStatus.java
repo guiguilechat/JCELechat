@@ -40,4 +40,9 @@ public class GateScrambleStatus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "GateScrambleStatus";
+    }
 }

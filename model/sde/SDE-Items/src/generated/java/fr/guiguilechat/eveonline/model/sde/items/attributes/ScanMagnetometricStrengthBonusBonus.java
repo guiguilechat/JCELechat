@@ -40,4 +40,9 @@ public class ScanMagnetometricStrengthBonusBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanMagnetometricStrengthBonusBonus";
+    }
 }

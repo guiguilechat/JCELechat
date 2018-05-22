@@ -40,4 +40,9 @@ public class CapacitorBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CapacitorBonus";
+    }
 }

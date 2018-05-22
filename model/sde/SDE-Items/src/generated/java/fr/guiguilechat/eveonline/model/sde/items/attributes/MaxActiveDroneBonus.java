@@ -40,4 +40,9 @@ public class MaxActiveDroneBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MaxActiveDroneBonus";
+    }
 }

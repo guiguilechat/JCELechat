@@ -40,4 +40,9 @@ public class EliteBonusCovertOps1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusCovertOps1";
+    }
 }

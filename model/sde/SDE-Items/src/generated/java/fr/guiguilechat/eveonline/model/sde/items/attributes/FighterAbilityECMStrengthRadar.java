@@ -40,4 +40,9 @@ public class FighterAbilityECMStrengthRadar
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityECMStrengthRadar";
+    }
 }

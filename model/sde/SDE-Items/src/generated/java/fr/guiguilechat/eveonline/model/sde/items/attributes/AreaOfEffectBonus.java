@@ -40,4 +40,9 @@ public class AreaOfEffectBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AreaOfEffectBonus";
+    }
 }

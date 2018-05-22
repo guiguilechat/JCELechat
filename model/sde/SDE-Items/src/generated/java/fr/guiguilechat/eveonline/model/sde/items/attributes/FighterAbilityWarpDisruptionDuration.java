@@ -40,4 +40,9 @@ public class FighterAbilityWarpDisruptionDuration
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityWarpDisruptionDuration";
+    }
 }

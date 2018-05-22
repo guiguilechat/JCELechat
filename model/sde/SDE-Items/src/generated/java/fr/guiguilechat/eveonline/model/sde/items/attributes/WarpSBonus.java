@@ -40,4 +40,9 @@ public class WarpSBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarpSBonus";
+    }
 }

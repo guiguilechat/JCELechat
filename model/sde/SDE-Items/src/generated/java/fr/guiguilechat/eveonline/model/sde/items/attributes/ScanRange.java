@@ -40,4 +40,9 @@ public class ScanRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanRange";
+    }
 }

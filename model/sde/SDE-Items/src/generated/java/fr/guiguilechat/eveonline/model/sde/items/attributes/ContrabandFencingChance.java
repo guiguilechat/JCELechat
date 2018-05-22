@@ -40,4 +40,9 @@ public class ContrabandFencingChance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ContrabandFencingChance";
+    }
 }

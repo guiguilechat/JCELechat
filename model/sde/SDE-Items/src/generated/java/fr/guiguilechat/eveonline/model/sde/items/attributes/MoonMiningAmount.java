@@ -40,4 +40,9 @@ public class MoonMiningAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MoonMiningAmount";
+    }
 }

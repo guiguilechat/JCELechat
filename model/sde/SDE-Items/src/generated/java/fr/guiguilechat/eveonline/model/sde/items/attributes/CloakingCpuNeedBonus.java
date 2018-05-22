@@ -40,4 +40,9 @@ public class CloakingCpuNeedBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CloakingCpuNeedBonus";
+    }
 }

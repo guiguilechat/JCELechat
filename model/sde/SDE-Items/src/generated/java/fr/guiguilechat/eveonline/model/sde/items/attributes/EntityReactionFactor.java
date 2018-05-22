@@ -40,4 +40,9 @@ public class EntityReactionFactor
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityReactionFactor";
+    }
 }

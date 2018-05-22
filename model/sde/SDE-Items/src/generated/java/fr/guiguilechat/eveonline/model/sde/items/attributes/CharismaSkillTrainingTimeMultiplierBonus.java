@@ -40,4 +40,9 @@ public class CharismaSkillTrainingTimeMultiplierBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CharismaSkillTrainingTimeMultiplierBonus";
+    }
 }

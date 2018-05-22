@@ -40,4 +40,9 @@ public class CovertOpsAndReconOpsCloakModuleDelay
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "CovertOpsAndReconOpsCloakModuleDelay";
+    }
 }

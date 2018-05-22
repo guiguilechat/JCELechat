@@ -40,4 +40,9 @@ public class IceHarvestCycleBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IceHarvestCycleBonus";
+    }
 }

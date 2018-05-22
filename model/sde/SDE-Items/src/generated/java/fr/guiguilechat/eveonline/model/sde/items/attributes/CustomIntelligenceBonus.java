@@ -40,4 +40,9 @@ public class CustomIntelligenceBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CustomIntelligenceBonus";
+    }
 }

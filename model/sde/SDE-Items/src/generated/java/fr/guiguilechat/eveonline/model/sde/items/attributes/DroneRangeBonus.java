@@ -40,4 +40,9 @@ public class DroneRangeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DroneRangeBonus";
+    }
 }

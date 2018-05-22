@@ -40,4 +40,9 @@ public class SensorDampenerResistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SensorDampenerResistance";
+    }
 }

@@ -40,4 +40,9 @@ public class TurretSpeeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TurretSpeeBonus";
+    }
 }

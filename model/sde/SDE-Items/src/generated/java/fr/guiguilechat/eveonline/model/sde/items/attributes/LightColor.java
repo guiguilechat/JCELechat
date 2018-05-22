@@ -40,4 +40,9 @@ public class LightColor
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LightColor";
+    }
 }

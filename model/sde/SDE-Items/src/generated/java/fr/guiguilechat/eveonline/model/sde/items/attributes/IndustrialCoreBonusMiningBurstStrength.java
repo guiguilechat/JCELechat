@@ -40,4 +40,9 @@ public class IndustrialCoreBonusMiningBurstStrength
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IndustrialCoreBonusMiningBurstStrength";
+    }
 }

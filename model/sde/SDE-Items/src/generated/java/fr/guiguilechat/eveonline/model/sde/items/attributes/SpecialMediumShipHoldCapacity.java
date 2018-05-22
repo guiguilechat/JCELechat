@@ -40,4 +40,9 @@ public class SpecialMediumShipHoldCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialMediumShipHoldCapacity";
+    }
 }

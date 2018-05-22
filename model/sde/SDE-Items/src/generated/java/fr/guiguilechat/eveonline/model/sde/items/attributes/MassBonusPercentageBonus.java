@@ -40,4 +40,9 @@ public class MassBonusPercentageBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MassBonusPercentageBonus";
+    }
 }

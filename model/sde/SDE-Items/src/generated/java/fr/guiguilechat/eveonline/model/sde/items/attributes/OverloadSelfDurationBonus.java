@@ -40,4 +40,9 @@ public class OverloadSelfDurationBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OverloadSelfDurationBonus";
+    }
 }

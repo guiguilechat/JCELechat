@@ -40,4 +40,9 @@ public class CpuMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CpuMultiplier";
+    }
 }

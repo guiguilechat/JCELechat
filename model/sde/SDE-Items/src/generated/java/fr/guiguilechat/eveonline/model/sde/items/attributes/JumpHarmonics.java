@@ -40,4 +40,9 @@ public class JumpHarmonics
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "JumpHarmonics";
+    }
 }

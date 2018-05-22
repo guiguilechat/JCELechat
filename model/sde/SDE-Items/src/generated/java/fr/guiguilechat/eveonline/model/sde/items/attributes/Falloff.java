@@ -40,4 +40,9 @@ public class Falloff
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Falloff";
+    }
 }

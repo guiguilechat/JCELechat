@@ -40,4 +40,9 @@ public class EntityFactionLoss
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityFactionLoss";
+    }
 }

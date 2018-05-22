@@ -40,4 +40,9 @@ public class SiphonProMaterial
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SiphonProMaterial";
+    }
 }

@@ -40,4 +40,9 @@ public class DamageCloudChanceReduction
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DamageCloudChanceReduction";
+    }
 }

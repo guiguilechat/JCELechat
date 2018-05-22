@@ -40,4 +40,9 @@ public class Memory
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Memory";
+    }
 }

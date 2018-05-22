@@ -40,4 +40,9 @@ public class ReactionSlotLimit
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ReactionSlotLimit";
+    }
 }

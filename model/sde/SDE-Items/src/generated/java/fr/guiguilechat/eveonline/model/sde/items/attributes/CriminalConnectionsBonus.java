@@ -40,4 +40,9 @@ public class CriminalConnectionsBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CriminalConnectionsBonus";
+    }
 }

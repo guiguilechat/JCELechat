@@ -40,4 +40,9 @@ public class CpuLoadLevelModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CpuLoadLevelModifier";
+    }
 }

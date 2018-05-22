@@ -40,4 +40,9 @@ public class CanFitShipGroup05
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CanFitShipGroup05";
+    }
 }

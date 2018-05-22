@@ -40,4 +40,9 @@ public class ReactionSlotBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ReactionSlotBonus";
+    }
 }

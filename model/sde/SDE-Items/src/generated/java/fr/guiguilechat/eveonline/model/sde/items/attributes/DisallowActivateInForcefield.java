@@ -40,4 +40,9 @@ public class DisallowActivateInForcefield
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DisallowActivateInForcefield";
+    }
 }

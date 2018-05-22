@@ -40,4 +40,9 @@ public class EntosisCPUAdd
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntosisCPUAdd";
+    }
 }

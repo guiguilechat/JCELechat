@@ -40,4 +40,9 @@ public class ArmorDamageLimit
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ArmorDamageLimit";
+    }
 }

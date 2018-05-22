@@ -40,4 +40,9 @@ public class ClothingRuleException
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ClothingRuleException";
+    }
 }

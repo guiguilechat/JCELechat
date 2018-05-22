@@ -40,4 +40,9 @@ public class MiniProfessionRangeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MiniProfessionRangeBonus";
+    }
 }

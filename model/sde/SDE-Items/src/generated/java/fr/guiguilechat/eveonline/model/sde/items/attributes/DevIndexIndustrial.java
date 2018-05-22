@@ -40,4 +40,9 @@ public class DevIndexIndustrial
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DevIndexIndustrial";
+    }
 }

@@ -40,4 +40,9 @@ public class Slots
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "Slots";
+    }
 }

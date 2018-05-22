@@ -40,4 +40,9 @@ public class RefRigTimeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefRigTimeBonus";
+    }
 }

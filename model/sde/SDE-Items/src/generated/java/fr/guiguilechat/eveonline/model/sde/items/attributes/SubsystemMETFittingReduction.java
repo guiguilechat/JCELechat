@@ -40,4 +40,9 @@ public class SubsystemMETFittingReduction
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemMETFittingReduction";
+    }
 }

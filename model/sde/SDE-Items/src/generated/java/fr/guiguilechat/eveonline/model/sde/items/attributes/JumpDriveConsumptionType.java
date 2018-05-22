@@ -40,4 +40,9 @@ public class JumpDriveConsumptionType
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "JumpDriveConsumptionType";
+    }
 }

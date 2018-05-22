@@ -40,4 +40,9 @@ public class ScanGravimetricStrengthBonusBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanGravimetricStrengthBonusBonus";
+    }
 }

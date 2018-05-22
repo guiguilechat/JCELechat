@@ -40,4 +40,9 @@ public class BoosterTurretFalloffPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterTurretFalloffPenalty";
+    }
 }

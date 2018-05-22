@@ -40,4 +40,9 @@ public class SubsystemBonusCaldariOffensive2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusCaldariOffensive2";
+    }
 }

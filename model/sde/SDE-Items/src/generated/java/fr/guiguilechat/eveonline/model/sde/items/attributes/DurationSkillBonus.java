@@ -40,4 +40,9 @@ public class DurationSkillBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DurationSkillBonus";
+    }
 }

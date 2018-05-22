@@ -40,4 +40,9 @@ public class EnergyNeutralizerRangeOptimal
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EnergyNeutralizerRangeOptimal";
+    }
 }

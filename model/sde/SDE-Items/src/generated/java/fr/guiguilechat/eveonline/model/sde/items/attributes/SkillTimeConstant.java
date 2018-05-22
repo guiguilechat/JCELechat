@@ -40,4 +40,9 @@ public class SkillTimeConstant
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SkillTimeConstant";
+    }
 }

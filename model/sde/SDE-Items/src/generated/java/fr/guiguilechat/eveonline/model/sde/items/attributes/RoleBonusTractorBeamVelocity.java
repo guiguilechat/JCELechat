@@ -40,4 +40,9 @@ public class RoleBonusTractorBeamVelocity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RoleBonusTractorBeamVelocity";
+    }
 }

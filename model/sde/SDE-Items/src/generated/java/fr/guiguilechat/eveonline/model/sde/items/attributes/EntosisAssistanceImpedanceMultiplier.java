@@ -40,4 +40,9 @@ public class EntosisAssistanceImpedanceMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntosisAssistanceImpedanceMultiplier";
+    }
 }

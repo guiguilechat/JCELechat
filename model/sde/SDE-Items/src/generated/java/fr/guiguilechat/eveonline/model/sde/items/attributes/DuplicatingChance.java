@@ -40,4 +40,9 @@ public class DuplicatingChance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DuplicatingChance";
+    }
 }

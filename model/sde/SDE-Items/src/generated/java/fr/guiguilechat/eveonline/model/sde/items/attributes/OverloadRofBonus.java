@@ -40,4 +40,9 @@ public class OverloadRofBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OverloadRofBonus";
+    }
 }

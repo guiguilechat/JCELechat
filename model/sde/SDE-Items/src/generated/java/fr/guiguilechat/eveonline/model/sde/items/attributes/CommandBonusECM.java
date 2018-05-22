@@ -40,4 +40,9 @@ public class CommandBonusECM
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CommandBonusECM";
+    }
 }

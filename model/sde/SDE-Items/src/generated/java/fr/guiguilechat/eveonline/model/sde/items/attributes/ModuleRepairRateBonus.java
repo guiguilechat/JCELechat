@@ -40,4 +40,9 @@ public class ModuleRepairRateBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ModuleRepairRateBonus";
+    }
 }

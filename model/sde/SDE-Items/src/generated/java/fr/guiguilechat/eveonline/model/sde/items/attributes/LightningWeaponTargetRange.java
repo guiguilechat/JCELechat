@@ -40,4 +40,9 @@ public class LightningWeaponTargetRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LightningWeaponTargetRange";
+    }
 }

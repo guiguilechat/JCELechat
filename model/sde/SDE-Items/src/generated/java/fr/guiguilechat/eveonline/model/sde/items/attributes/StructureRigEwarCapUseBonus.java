@@ -40,4 +40,9 @@ public class StructureRigEwarCapUseBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureRigEwarCapUseBonus";
+    }
 }

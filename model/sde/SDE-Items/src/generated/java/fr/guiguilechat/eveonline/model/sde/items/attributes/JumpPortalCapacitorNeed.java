@@ -40,4 +40,9 @@ public class JumpPortalCapacitorNeed
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "JumpPortalCapacitorNeed";
+    }
 }

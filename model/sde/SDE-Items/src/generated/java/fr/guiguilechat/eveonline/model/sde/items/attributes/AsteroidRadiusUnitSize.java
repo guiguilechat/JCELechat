@@ -40,4 +40,9 @@ public class AsteroidRadiusUnitSize
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AsteroidRadiusUnitSize";
+    }
 }

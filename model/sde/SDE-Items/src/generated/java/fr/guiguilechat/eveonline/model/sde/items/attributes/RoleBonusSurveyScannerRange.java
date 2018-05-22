@@ -40,4 +40,9 @@ public class RoleBonusSurveyScannerRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RoleBonusSurveyScannerRange";
+    }
 }

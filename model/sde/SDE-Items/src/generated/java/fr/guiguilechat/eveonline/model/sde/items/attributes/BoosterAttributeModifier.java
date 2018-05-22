@@ -40,4 +40,9 @@ public class BoosterAttributeModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterAttributeModifier";
+    }
 }

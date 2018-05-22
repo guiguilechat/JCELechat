@@ -40,4 +40,9 @@ public class TrackingSpeedMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TrackingSpeedMultiplier";
+    }
 }

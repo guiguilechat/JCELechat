@@ -40,4 +40,9 @@ public class SurveyScanRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SurveyScanRange";
+    }
 }

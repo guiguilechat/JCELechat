@@ -40,4 +40,9 @@ public class DiplomacyBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DiplomacyBonus";
+    }
 }

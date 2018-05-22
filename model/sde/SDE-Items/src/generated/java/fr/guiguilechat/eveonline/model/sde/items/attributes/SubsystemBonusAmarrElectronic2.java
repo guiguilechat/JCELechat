@@ -40,4 +40,9 @@ public class SubsystemBonusAmarrElectronic2
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SubsystemBonusAmarrElectronic2";
+    }
 }

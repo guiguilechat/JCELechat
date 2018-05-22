@@ -52,6 +52,10 @@ public class ESIConnection implements Swagger {
 		this.refreshToken = refreshToken;
 	}
 
+	public boolean isNull() {
+		return basicAuth == null || refreshToken == null;
+	}
+
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
 			logger.trace("fetching access token");

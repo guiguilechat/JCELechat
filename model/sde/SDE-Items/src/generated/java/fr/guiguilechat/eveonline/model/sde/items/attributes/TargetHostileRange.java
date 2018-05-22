@@ -40,4 +40,9 @@ public class TargetHostileRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TargetHostileRange";
+    }
 }

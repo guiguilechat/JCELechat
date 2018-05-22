@@ -40,4 +40,9 @@ public class DisallowAgainstEwImmuneTarget
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DisallowAgainstEwImmuneTarget";
+    }
 }

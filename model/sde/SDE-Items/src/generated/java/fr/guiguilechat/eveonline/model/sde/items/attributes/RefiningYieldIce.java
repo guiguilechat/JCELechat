@@ -40,4 +40,9 @@ public class RefiningYieldIce
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RefiningYieldIce";
+    }
 }

@@ -40,4 +40,9 @@ public class WeaponDisruptionResistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WeaponDisruptionResistance";
+    }
 }

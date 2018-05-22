@@ -40,4 +40,9 @@ public class PassiveShieldThermalDamageResonance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PassiveShieldThermalDamageResonance";
+    }
 }

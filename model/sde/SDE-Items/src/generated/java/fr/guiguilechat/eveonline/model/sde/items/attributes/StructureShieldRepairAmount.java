@@ -40,4 +40,9 @@ public class StructureShieldRepairAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "StructureShieldRepairAmount";
+    }
 }

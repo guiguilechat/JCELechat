@@ -40,4 +40,9 @@ public class RookieArmorRepBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieArmorRepBonus";
+    }
 }

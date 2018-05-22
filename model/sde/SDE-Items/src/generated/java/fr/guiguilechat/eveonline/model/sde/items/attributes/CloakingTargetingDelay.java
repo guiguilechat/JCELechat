@@ -40,4 +40,9 @@ public class CloakingTargetingDelay
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CloakingTargetingDelay";
+    }
 }

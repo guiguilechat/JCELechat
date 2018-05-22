@@ -40,4 +40,9 @@ public class SecurityProcessingFee
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SecurityProcessingFee";
+    }
 }

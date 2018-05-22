@@ -40,4 +40,9 @@ public class WarfareLinkCPUAdd
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "WarfareLinkCPUAdd";
+    }
 }

@@ -40,4 +40,9 @@ public class BoosterAOEVelocityPenalty
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BoosterAOEVelocityPenalty";
+    }
 }

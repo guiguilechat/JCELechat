@@ -40,4 +40,9 @@ public class ScanResolutionMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ScanResolutionMultiplier";
+    }
 }

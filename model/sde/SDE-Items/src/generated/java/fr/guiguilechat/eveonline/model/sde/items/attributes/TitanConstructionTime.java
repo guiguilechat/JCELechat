@@ -40,4 +40,9 @@ public class TitanConstructionTime
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TitanConstructionTime";
+    }
 }

@@ -40,4 +40,9 @@ public class FighterAbilityMicroJumpDriveDistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityMicroJumpDriveDistance";
+    }
 }

@@ -40,4 +40,9 @@ public class RookieRocketVelocity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RookieRocketVelocity";
+    }
 }

@@ -40,4 +40,9 @@ public class LauncherHardPointModifier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LauncherHardPointModifier";
+    }
 }

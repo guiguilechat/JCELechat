@@ -40,4 +40,9 @@ public class StructureRigPDRangeBonus
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "StructureRigPDRangeBonus";
+    }
 }

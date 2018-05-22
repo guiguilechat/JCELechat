@@ -40,4 +40,9 @@ public class FighterAbilityECMDuration
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityECMDuration";
+    }
 }

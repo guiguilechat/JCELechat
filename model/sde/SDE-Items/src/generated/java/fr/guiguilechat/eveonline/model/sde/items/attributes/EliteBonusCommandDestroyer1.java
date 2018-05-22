@@ -40,4 +40,9 @@ public class EliteBonusCommandDestroyer1
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EliteBonusCommandDestroyer1";
+    }
 }

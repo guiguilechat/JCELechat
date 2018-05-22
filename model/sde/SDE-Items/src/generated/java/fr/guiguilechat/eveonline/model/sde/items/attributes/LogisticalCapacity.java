@@ -40,4 +40,9 @@ public class LogisticalCapacity
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "LogisticalCapacity";
+    }
 }

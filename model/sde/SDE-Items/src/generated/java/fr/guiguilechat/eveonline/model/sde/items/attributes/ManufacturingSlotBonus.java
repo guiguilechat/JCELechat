@@ -40,4 +40,9 @@ public class ManufacturingSlotBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ManufacturingSlotBonus";
+    }
 }

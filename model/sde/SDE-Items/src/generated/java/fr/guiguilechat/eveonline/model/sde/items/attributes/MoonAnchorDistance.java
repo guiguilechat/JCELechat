@@ -40,4 +40,9 @@ public class MoonAnchorDistance
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "MoonAnchorDistance";
+    }
 }

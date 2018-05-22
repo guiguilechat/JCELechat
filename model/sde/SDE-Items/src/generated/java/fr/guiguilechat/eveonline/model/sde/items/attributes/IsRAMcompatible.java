@@ -40,4 +40,9 @@ public class IsRAMcompatible
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "IsRAMcompatible";
+    }
 }

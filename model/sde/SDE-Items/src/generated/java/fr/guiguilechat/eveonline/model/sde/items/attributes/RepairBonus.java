@@ -40,4 +40,9 @@ public class RepairBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RepairBonus";
+    }
 }

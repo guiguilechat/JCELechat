@@ -40,4 +40,9 @@ public class AllowedInCapIndustrialMaintenanceBay
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AllowedInCapIndustrialMaintenanceBay";
+    }
 }

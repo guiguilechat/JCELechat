@@ -40,4 +40,9 @@ public class SpecialtyMiningAmount
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SpecialtyMiningAmount";
+    }
 }

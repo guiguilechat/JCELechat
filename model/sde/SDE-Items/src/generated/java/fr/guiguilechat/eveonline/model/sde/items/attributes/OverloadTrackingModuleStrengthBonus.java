@@ -40,4 +40,9 @@ public class OverloadTrackingModuleStrengthBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "OverloadTrackingModuleStrengthBonus";
+    }
 }

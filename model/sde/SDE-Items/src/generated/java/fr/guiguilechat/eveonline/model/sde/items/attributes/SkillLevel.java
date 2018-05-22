@@ -40,4 +40,9 @@ public class SkillLevel
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SkillLevel";
+    }
 }

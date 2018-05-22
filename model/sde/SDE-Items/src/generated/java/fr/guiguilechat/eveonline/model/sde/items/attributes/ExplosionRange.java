@@ -40,4 +40,9 @@ public class ExplosionRange
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ExplosionRange";
+    }
 }

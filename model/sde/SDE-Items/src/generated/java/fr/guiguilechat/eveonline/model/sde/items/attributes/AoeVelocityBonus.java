@@ -40,4 +40,9 @@ public class AoeVelocityBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "AoeVelocityBonus";
+    }
 }

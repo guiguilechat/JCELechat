@@ -40,4 +40,9 @@ public class DeadspaceUnsafe
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DeadspaceUnsafe";
+    }
 }

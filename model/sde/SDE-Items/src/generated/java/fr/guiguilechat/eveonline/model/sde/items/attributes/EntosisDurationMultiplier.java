@@ -40,4 +40,9 @@ public class EntosisDurationMultiplier
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntosisDurationMultiplier";
+    }
 }

@@ -40,4 +40,9 @@ public class FighterAbilityAttackMissileRangeFalloff
     public boolean getStackable() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "FighterAbilityAttackMissileRangeFalloff";
+    }
 }

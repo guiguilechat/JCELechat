@@ -40,4 +40,9 @@ public class ResearchGangSizeBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ResearchGangSizeBonus";
+    }
 }

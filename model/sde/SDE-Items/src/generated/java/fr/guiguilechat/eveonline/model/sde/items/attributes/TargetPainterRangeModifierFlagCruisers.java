@@ -40,4 +40,9 @@ public class TargetPainterRangeModifierFlagCruisers
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "TargetPainterRangeModifierFlagCruisers";
+    }
 }

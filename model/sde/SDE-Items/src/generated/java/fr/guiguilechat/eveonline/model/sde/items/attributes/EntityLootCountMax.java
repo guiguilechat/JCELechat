@@ -40,4 +40,9 @@ public class EntityLootCountMax
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EntityLootCountMax";
+    }
 }

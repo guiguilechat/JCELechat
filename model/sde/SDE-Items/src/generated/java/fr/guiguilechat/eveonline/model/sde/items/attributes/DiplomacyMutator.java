@@ -40,4 +40,9 @@ public class DiplomacyMutator
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "DiplomacyMutator";
+    }
 }

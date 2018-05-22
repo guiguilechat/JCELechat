@@ -40,4 +40,9 @@ public class SiegeLauncherROFBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "SiegeLauncherROFBonus";
+    }
 }

@@ -40,4 +40,9 @@ public class RechargeRate
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "RechargeRate";
+    }
 }

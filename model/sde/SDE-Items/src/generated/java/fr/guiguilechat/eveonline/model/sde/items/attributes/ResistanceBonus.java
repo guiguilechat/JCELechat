@@ -40,4 +40,9 @@ public class ResistanceBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "ResistanceBonus";
+    }
 }

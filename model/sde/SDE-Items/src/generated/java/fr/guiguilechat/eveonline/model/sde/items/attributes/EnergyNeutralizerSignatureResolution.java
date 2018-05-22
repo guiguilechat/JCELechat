@@ -40,4 +40,9 @@ public class EnergyNeutralizerSignatureResolution
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "EnergyNeutralizerSignatureResolution";
+    }
 }

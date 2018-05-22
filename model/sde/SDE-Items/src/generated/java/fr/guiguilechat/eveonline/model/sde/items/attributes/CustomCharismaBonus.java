@@ -40,4 +40,9 @@ public class CustomCharismaBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CustomCharismaBonus";
+    }
 }

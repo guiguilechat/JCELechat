@@ -40,4 +40,9 @@ public class BcLargeTurretCPU
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "BcLargeTurretCPU";
+    }
 }

@@ -40,4 +40,9 @@ public class CustomPerceptionBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "CustomPerceptionBonus";
+    }
 }

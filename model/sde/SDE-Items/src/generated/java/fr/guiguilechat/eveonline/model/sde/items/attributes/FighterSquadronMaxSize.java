@@ -40,4 +40,9 @@ public class FighterSquadronMaxSize
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "FighterSquadronMaxSize";
+    }
 }

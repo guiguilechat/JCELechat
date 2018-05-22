@@ -40,4 +40,9 @@ public class PilotSecurityStatus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "PilotSecurityStatus";
+    }
 }

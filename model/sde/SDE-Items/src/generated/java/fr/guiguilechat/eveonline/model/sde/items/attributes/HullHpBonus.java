@@ -40,4 +40,9 @@ public class HullHpBonus
     public boolean getStackable() {
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "HullHpBonus";
+    }
 }
