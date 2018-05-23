@@ -23,6 +23,7 @@ import javafx.beans.value.ObservableIntegerValue;
 import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.geometry.Orientation;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
@@ -105,12 +106,24 @@ public class MutaEvals extends Application {
 			updateTableItems();
 		});
 
-		VBox topPane = new VBox();
-		topPane.getChildren().add(
-				new HBox(new Label("region:"), regionMarket, new Label("item:"), familychoice, new Label("qtty:"), qttyField));
-		topPane.getChildren()
-		.add(new HBox(new Label("prices (M)"), new Label("decayed"), decayedPriceField, new Label("gravid"),
-				gravidPriceField, new Label("unstable"), unstablePriceField, new Label("abnormal"), abnormalPriceField));
+		VBox topPane = new VBox(5);
+		HBox row1 = new HBox(10, regionMarket, new Label("item:"), familychoice, new Label("qtty:"), qttyField);
+		row1.setAlignment(Pos.BASELINE_CENTER);
+		topPane.getChildren().add(row1);
+		HBox row2 = new HBox(10,
+				new VBox(new Label("mutaplasmid :"), new Label("price (M) :")),
+				new VBox(new Label("decayed"), decayedPriceField),
+				new VBox(	new Label("gravid"),gravidPriceField),
+				new VBox(new Label("unstable"), unstablePriceField),
+				new VBox(	new Label("abnormal"), abnormalPriceField));
+		row2.setAlignment(Pos.BASELINE_CENTER);
+		topPane.getChildren().add(row2);
+
+		for (TextField tf : new TextField[] { abnormalPriceField, decayedPriceField, gravidPriceField, qttyField,
+				unstablePriceField }) {
+			tf.setMaxWidth(70);
+			tf.textProperty().addListener((o, old, now) -> sortLater());
+		}
 
 		TableColumn<ModifiedItemCost, String> itemCol = new TableColumn<>("item");
 		itemCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().item.item().name));
@@ -138,11 +151,6 @@ public class MutaEvals extends Application {
 		table.getSortOrder().addAll(priceCol, qttyCol);
 
 		// table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
-		for (TextField tf : new TextField[] { abnormalPriceField, decayedPriceField, gravidPriceField, qttyField,
-				unstablePriceField }) {
-			tf.setMaxWidth(50);
-			tf.textProperty().addListener((o, old, now) -> sortLater());
-		}
 
 		SplitPane mainLayout = new SplitPane(topPane, attributesPane, table);
 		mainLayout.setDividerPositions(0.0, 0.0);
