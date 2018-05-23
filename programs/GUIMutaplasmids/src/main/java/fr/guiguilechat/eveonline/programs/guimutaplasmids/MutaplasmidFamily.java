@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.Muta1MN;
+import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.MutaDisrupt;
+import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.MutaScram;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.MutaWeb;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
@@ -83,16 +85,16 @@ public abstract class MutaplasmidFamily {
 	}
 
 	public static class ModifiedItem {
-		private HashMap<Attribute, Double> minvalues = new HashMap<>();
+		private HashMap<Attribute, Double> lowRangeValues = new HashMap<>();
 
-		public HashMap<Attribute, Double> minvalues() {
-			return minvalues;
+		public HashMap<Attribute, Double> lowRangeValues() {
+			return lowRangeValues;
 		}
 
-		private HashMap<Attribute, Double> maxvalues = new HashMap<>();
+		private HashMap<Attribute, Double> highRangeValues = new HashMap<>();
 
-		public HashMap<Attribute, Double> maxvalues() {
-			return maxvalues;
+		public HashMap<Attribute, Double> highRangeValues() {
+			return highRangeValues;
 		}
 
 		private Item item;
@@ -109,30 +111,30 @@ public abstract class MutaplasmidFamily {
 
 		@Override
 		public String toString() {
-			return item.name + "-" + strength + " " + minvalues + maxvalues;
+			return item.name + "-" + strength + " " + lowRangeValues + highRangeValues;
 		}
 
 		public ObservableNumberValue probability(Map<Attribute, ObservableDoubleValue> thresholds) {
 			ObservableNumberValue ret = new SimpleDoubleProperty(1.0);
-			for (Attribute att : minvalues.keySet()) {
+			for (Attribute att : lowRangeValues.keySet()) {
 				ObservableDoubleValue threshold = thresholds.get(att);
+				double max = highRangeValues.get(att);
+				double min = lowRangeValues.get(att);
+				System.err.println("probability for " + att + " based on min:" + min + " max:" + max);
 				if (threshold != null) {
 					DoubleBinding attMult;
-					if (att.getHighIsGood()) {
-						attMult = Bindings
-								.createDoubleBinding(
-										() -> Math.min(1.0,
-												Math.max(0.0,
-														(maxvalues.get(att) - threshold.get()) / (maxvalues.get(att) - minvalues.get(att)))),
-										threshold);
-					} else {
-						attMult = Bindings
-								.createDoubleBinding(
-										() -> Math.min(1.0,
-												Math.max(0.0,
-														(threshold.get() - minvalues.get(att)) / (maxvalues.get(att) - minvalues.get(att)))),
-										threshold);
-					}
+					if (max == min) {
+						attMult = att.getHighIsGood()
+								? Bindings.createDoubleBinding(() -> threshold.get() / max >= 1.0 ? 0.0 : 1.0, threshold)
+										: Bindings.createDoubleBinding(() -> threshold.get() / max > 1 ? 1.0 : 0.0, threshold);
+					} else
+						if (att.getHighIsGood()) {
+							attMult = Bindings.createDoubleBinding(
+									() -> Math.min(1.0, Math.max(0.0, (max - threshold.get()) / (max - min))), threshold);
+						} else {
+							attMult = Bindings.createDoubleBinding(
+									() -> Math.min(1.0, Math.max(0.0, (threshold.get() - min) / (max - min))), threshold);
+						}
 					ret = Bindings.multiply(ret, attMult);
 				}
 			}
@@ -162,18 +164,23 @@ public abstract class MutaplasmidFamily {
 		ret.strength = str;
 		if (str != null) {
 			for (Attribute a : modifiedAttributes()) {
-				ret.minvalues.put(a, a.value(item).doubleValue() * minMult(a, str));
-				ret.maxvalues.put(a, a.value(item).doubleValue() * maxMult(a, str));
+				ret.lowRangeValues().put(a, a.value(item).doubleValue() * minMult(a, str));
+				ret.highRangeValues().put(a, a.value(item).doubleValue() * maxMult(a, str));
+				System.err.println("" + item.name + "-" + str + "." + a.toString() + " : " + ret.lowRangeValues().get(a) + " - "
+						+ ret.highRangeValues().get(a));
 			}
 		} else {
 			for (Attribute a : modifiedAttributes()) {
-				ret.minvalues.put(a, a.value(item).doubleValue());
-				ret.maxvalues.put(a, a.value(item).doubleValue());
+				ret.lowRangeValues().put(a, a.value(item).doubleValue());
+				ret.highRangeValues().put(a, a.value(item).doubleValue());
+				System.err.println("" + item.name + "-" + str + "." + a.toString() + " : " + ret.lowRangeValues().get(a) + " - "
+						+ ret.highRangeValues().get(a));
 			}
 		}
 		return ret;
 	}
 
-	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE, MutaWeb.INSTANCE };
+	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE, MutaWeb.INSTANCE,
+			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
 
 }

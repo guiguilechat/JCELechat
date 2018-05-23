@@ -2,20 +2,24 @@ package fr.guiguilechat.eveonline.programs.guimutaplasmids;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Function;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.modeled.market.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.MutaplasmidFamily.ModifiedItem;
+import fr.guiguilechat.eveonline.programs.guimutaplasmids.MutaplasmidFamily.MutaStr;
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.ReadOnlyObjectWrapper;
+import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ObservableIntegerValue;
 import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.geometry.Orientation;
@@ -31,6 +35,8 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -46,11 +52,44 @@ public class MutaEvals extends Application {
 	private ChoiceBox<MutaplasmidFamily> familychoice;
 	private BorderPane attributesPane = new BorderPane();
 	private TableView<ModifiedItemCost> table = new TableView<>();
-	private TextField qttyField;
-	private SimpleIntegerProperty qttyVal;
+	private TextField qttyField = new TextField("1");
+	private ObservableIntegerValue qttyVal = intEval(qttyField);
 	private ChoiceBox<String> regionMarket;
 	private RegionalMarket market;
+	private TextField decayedPriceField = new TextField("10");
+	private ObservableDoubleValue decayedPriceVal = doubleEval(decayedPriceField);
+	private TextField gravidPriceField = new TextField("100");
+	private ObservableDoubleValue gravidPriceVal = doubleEval(gravidPriceField);
+	private TextField unstablePriceField = new TextField("1000");
+	private ObservableDoubleValue unstablePriceVal = doubleEval(unstablePriceField);
+	private TextField abnormalPriceField = new TextField("100");
+	private ObservableDoubleValue abnormalPriceVal = doubleEval(abnormalPriceField);
 
+	/**
+	 * get the price, in M isk, of a mutaplasmid strength
+	 *
+	 * @param strength
+	 * @return
+	 */
+	public ObservableDoubleValue getPrice(MutaStr strength) {
+		if (strength == null) {
+			return new SimpleDoubleProperty(00);
+		}
+		switch (strength) {
+		case DECAYED:
+			return decayedPriceVal;
+		case GRAVID:
+			return gravidPriceVal;
+		case ABNORMAL:
+			return abnormalPriceVal;
+		case UNSTABLE:
+			return unstablePriceVal;
+		default:
+			throw new UnsupportedOperationException("doesnt handle " + strength);
+		}
+	}
+
+	@SuppressWarnings("unchecked")
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		primaryStage.setTitle("mutaplasmids evaluations");
@@ -66,21 +105,16 @@ public class MutaEvals extends Application {
 			updateTableItems();
 		});
 
-		qttyField = new TextField("10");
-		qttyVal = new SimpleIntegerProperty(10);
-		qttyField.textProperty().addListener((ob, old, now) -> {
-			try {
-				qttyVal.set(Integer.parseInt(now));
-			} catch (Exception e) {
-				qttyField.setText("" + qttyVal.get());
-			}
-		});
-
-		GridPane topPane = new GridPane();
-		topPane.addRow(0, regionMarket, familychoice, qttyField);
+		VBox topPane = new VBox();
+		topPane.getChildren().add(
+				new HBox(new Label("region:"), regionMarket, new Label("item:"), familychoice, new Label("qtty:"), qttyField));
+		topPane.getChildren()
+		.add(new HBox(new Label("prices (M)"), new Label("decayed"), decayedPriceField, new Label("gravid"),
+				gravidPriceField, new Label("unstable"), unstablePriceField, new Label("abnormal"), abnormalPriceField));
 
 		TableColumn<ModifiedItemCost, String> itemCol = new TableColumn<>("item");
 		itemCol.setCellValueFactory(lo -> new ReadOnlyObjectWrapper<>(lo.getValue().item.item().name));
+		itemCol.setMinWidth(300);
 		table.getColumns().add(itemCol);
 
 		TableColumn<ModifiedItemCost, String> mutaCol = new TableColumn<>("muta");
@@ -92,18 +126,23 @@ public class MutaEvals extends Application {
 		probaCol.setCellValueFactory(lo -> lo.getValue().probability());
 		table.getColumns().add(probaCol);
 
-		TableColumn<ModifiedItemCost, Number> qtty = new TableColumn<>("qtty");
-		qtty.setCellValueFactory(lo -> lo.getValue().qtty());
-		table.getColumns().add(qtty);
+		TableColumn<ModifiedItemCost, Number> qttyCol = new TableColumn<>("qtty");
+		qttyCol.setCellValueFactory(lo -> lo.getValue().qtty());
+		table.getColumns().add(qttyCol);
 
 		TableColumn<ModifiedItemCost, Number> priceCol = new TableColumn<>("price");
 		priceCol.setCellValueFactory(lo -> lo.getValue().price());
 		table.getColumns().add(priceCol);
 		priceCol.setSortType(SortType.ASCENDING);
 		priceCol.setCellFactory(col -> new PriceCellFactory());
-		table.getSortOrder().add(priceCol);
+		table.getSortOrder().addAll(priceCol, qttyCol);
 
-		table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+		// table.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+		for (TextField tf : new TextField[] { abnormalPriceField, decayedPriceField, gravidPriceField, qttyField,
+				unstablePriceField }) {
+			tf.setMaxWidth(50);
+			tf.textProperty().addListener((o, old, now) -> sortLater());
+		}
 
 		SplitPane mainLayout = new SplitPane(topPane, attributesPane, table);
 		mainLayout.setDividerPositions(0.0, 0.0);
@@ -122,21 +161,30 @@ public class MutaEvals extends Application {
 			atts = new FamilySliders(newValue);
 			int rowidx = 0;
 			for (Attribute a : newValue.modifiedAttributes()) {
-				double minValue = newValue.results().stream().mapToDouble(mod -> mod.minvalues().get(a)).min().getAsDouble();
-				double maxvalue = newValue.results().stream().mapToDouble(mod -> mod.maxvalues().get(a)).max().getAsDouble();
-				// System.err.println("attribute " + a.getClass().getSimpleName() + "
-				// from " + minValue + " to " + maxvalue);
-				Slider sl = new Slider(minValue, maxvalue, a.getHighIsGood() ? minValue : maxvalue);
-				sl.setBlockIncrement(0.1);
-				sl.setPrefWidth(250);
-				sl.setShowTickLabels(true);
-				sl.valueProperty().addListener((o, old, now) -> sortLater());
-				atts.attValues.put(a, sl.valueProperty());
-				Label valueLbl = new Label();
-				valueLbl.textProperty().bind(Bindings.createStringBinding(() -> "" + sl.getValue(), sl.valueProperty()));
-				atts.addRow(rowidx, new Label(a.getClass().getSimpleName()), sl, valueLbl);
+				boolean negRange = newValue.results().iterator().next().highRangeValues().get(a).doubleValue() < 0;
+				double lowRangeValue = (negRange
+						? newValue.results().stream().mapToDouble(mod -> mod.lowRangeValues().get(a)).max()
+								: newValue.results().stream().mapToDouble(mod -> mod.lowRangeValues().get(a)).min()).getAsDouble();
+				double highRangeValue = (negRange
+						? newValue.results().stream().mapToDouble(mod -> mod.highRangeValues().get(a)).min()
+								: newValue.results().stream().mapToDouble(mod -> mod.highRangeValues().get(a)).max()).getAsDouble();
+				System.err
+				.println("attribute " + a.getClass().getSimpleName() + " from " + lowRangeValue + " to " + highRangeValue);
 
-				rowidx++;
+				// if both values are negative, we set them to positive.
+				Slider sl = !negRange
+						? new Slider(lowRangeValue, highRangeValue, a.getHighIsGood() ? lowRangeValue : highRangeValue)
+								: new Slider(-lowRangeValue, -highRangeValue, a.getHighIsGood() ? -lowRangeValue : -highRangeValue);
+						sl.setBlockIncrement(0.1);
+						sl.setPrefWidth(250);
+						sl.setShowTickLabels(true);
+						sl.valueProperty().addListener((o, old, now) -> sortLater());
+						atts.attValues.put(a, negRange ? sl.valueProperty().negate() : sl.valueProperty());
+						Label valueLbl = new Label();
+						valueLbl.textProperty().bind(Bindings.createStringBinding(() -> "" + sl.getValue(), sl.valueProperty()));
+						atts.addRow(rowidx, new Label(a.getClass().getSimpleName()), sl, valueLbl);
+
+						rowidx++;
 			}
 			familyAttributes.put(newValue, atts);
 		}
@@ -164,17 +212,19 @@ public class MutaEvals extends Application {
 
 	protected class ModifiedItemCost {
 		public ModifiedItemCost(ModifiedItem item2, RegionalMarket market2, Map<Attribute, ObservableDoubleValue> attValues,
-				SimpleIntegerProperty qttyVal) {
+				ObservableIntegerValue qttyVal2, Function<MutaStr, ObservableDoubleValue> strengthPrice) {
 			item = item2;
 			market = market2;
 			this.attValues = attValues;
-			this.qttyVal = qttyVal;
+			qttyVal = qttyVal2;
+			strengthPrices = strengthPrice;
 		}
 
 		public ModifiedItem item;
 		public RegionalMarket market;
+		public Function<MutaStr, ObservableDoubleValue> strengthPrices;
 		public Map<Attribute, ObservableDoubleValue> attValues;
-		public SimpleIntegerProperty qttyVal;
+		public ObservableIntegerValue qttyVal;
 
 		private ObservableNumberValue probability;
 
@@ -204,11 +254,14 @@ public class MutaEvals extends Application {
 
 		public ObservableNumberValue price() {
 			if (price == null) {
-				price = Bindings.createDoubleBinding(() ->
-				qtty().get() == Double.POSITIVE_INFINITY
-				? Double.POSITIVE_INFINITY
-						: market.getMarketOrders(item.item().id).getPrice(false, (int) Math.ceil(qtty().get())).get(), qtty(),
-						regionMarket.getSelectionModel().selectedItemProperty());
+				ObservableDoubleValue mutraprice = strengthPrices.apply(item.strength());
+				price = Bindings
+						.createDoubleBinding(
+								() -> Double.isFinite(qtty().get())
+								? market.getMarketOrders(item.item().id).getPrice(false, (int) Math.ceil(qtty().get())).get()
+										+ qtty.get() * mutraprice.get() * 1000000
+										: Double.POSITIVE_INFINITY,
+										qtty(), regionMarket.getSelectionModel().selectedItemProperty(), mutraprice);
 			}
 			return price;
 		}
@@ -223,7 +276,7 @@ public class MutaEvals extends Application {
 		market = ESIAccount.DISCONNECTED.markets
 				.getMarket(Region.load().get(regionMarket.getSelectionModel().getSelectedItem()).id);
 		for (ModifiedItem item : presentSliders.family.results()) {
-			ModifiedItemCost added = new ModifiedItemCost(item, market, presentSliders.attValues, qttyVal);
+			ModifiedItemCost added = new ModifiedItemCost(item, market, presentSliders.attValues, qttyVal, this::getPrice);
 			table.getItems().add(added);
 		}
 		sortLater();
@@ -270,6 +323,32 @@ public class MutaEvals extends Application {
 		}
 		String rets = "" + prefix;
 		return (rets.length() > 4 ? rets.substring(0, 4).replaceAll("\\.$", "") : rets) + suffix;
+	}
+
+	public static ObservableDoubleValue doubleEval(TextField t) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		t.textProperty().addListener((ob, old, now) -> {
+			try {
+				ret.set(Double.parseDouble(now));
+			} catch (Exception e) {
+				t.textProperty().set(old);
+			}
+		});
+		ret.set(Double.parseDouble(t.getText()));
+		return ret;
+	}
+
+	public static ObservableIntegerValue intEval(TextField t) {
+		SimpleIntegerProperty ret = new SimpleIntegerProperty();
+		t.textProperty().addListener((ob, old, now) -> {
+			try {
+				ret.set(Integer.parseInt(now));
+			} catch (Exception e) {
+				t.textProperty().set(old);
+			}
+		});
+		ret.set(Integer.parseInt(t.getText()));
+		return ret;
 	}
 
 }
