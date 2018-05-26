@@ -3,10 +3,6 @@ items:
     id: 46069
     name: ♦ Apocalypse
     volume: 495000.0
-  ♦ Armageddon:
-    id: 43562
-    name: ♦ Armageddon
-    volume: 486000.0
   ♦ Bhaalgorn:
     id: 46055
     name: ♦ Bhaalgorn
@@ -54,4 +50,8 @@ items:
   ♦ Vindicator:
     id: 46060
     name: ♦ Vindicator
+    volume: 486000.0
+  �� Armageddon:
+    id: 43562
+    name: �� Armageddon
     volume: 486000.0

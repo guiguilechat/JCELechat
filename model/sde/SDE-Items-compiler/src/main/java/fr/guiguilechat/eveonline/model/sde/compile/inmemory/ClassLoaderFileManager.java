@@ -66,19 +66,12 @@ public class ClassLoaderFileManager extends ForwardingJavaFileManager<JavaFileMa
 	@Override
 	public Iterable<JavaFileObject> list(Location location, String packageName, Set<Kind> kinds, boolean recurse)
 			throws IOException {
-		if (location == StandardLocation.PLATFORM_CLASS_PATH) {
+		if (location == StandardLocation.PLATFORM_CLASS_PATH || packageName.startsWith("java")) {
 			// let standard manager handle
 			return super.list(location, packageName, kinds, recurse);
 		} else if (location == StandardLocation.CLASS_PATH && kinds.contains(JavaFileObject.Kind.CLASS)) {
-			if (packageName.startsWith("java")) {
-				// a hack to let standard manager handle locations like "java.lang" or
-				// "java.util". Prob would make sense to join results of standard
-				// manager with those of my finder here
-				return super.list(location, packageName, kinds, recurse);
-			} else {
-				// app specific classes are here
-				return find(packageName);
-			}
+			// app specific classes are here
+			return find(packageName);
 		}
 		return Collections.emptyList();
 	}
@@ -87,9 +80,7 @@ public class ClassLoaderFileManager extends ForwardingJavaFileManager<JavaFileMa
 
 	public List<JavaFileObject> find(String packageName) throws IOException {
 		String javaPackageName = packageName.replaceAll("\\.", "/");
-
 		List<JavaFileObject> result = new ArrayList<>();
-
 		Enumeration<URL> urlEnumeration = cl.getResources(javaPackageName);
 		while (urlEnumeration.hasMoreElements()) { // one URL for each jar on the
 			// classpath that has the given
@@ -171,7 +162,6 @@ public class ClassLoaderFileManager extends ForwardingJavaFileManager<JavaFileMa
 		}
 		return cl.customCompiledCode.get(className);
 	}
-
 
 	@Override
 	public String inferBinaryName(Location location, JavaFileObject file) {

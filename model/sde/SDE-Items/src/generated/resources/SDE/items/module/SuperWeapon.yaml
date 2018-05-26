@@ -563,7 +563,7 @@ items:
     id: 41444
     name: ‘Jormungandr’ Explosive Reaper
     volume: 8000.0
-  ‘Phalarica�� Thermal Lance:
+  ‘Phalarica’ Thermal Lance:
     CanFitShipType1: 671
     CanFitShipType2: 42126
     CanFitShipType3: 45649
@@ -605,5 +605,5 @@ items:
     TechLevel: 1
     ThermalDamage: 50000.0
     id: 41440
-    name: ‘Phalarica�� Thermal Lance
+    name: ‘Phalarica’ Thermal Lance
     volume: 8000.0

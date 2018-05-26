@@ -19,10 +19,6 @@ items:
     id: 42658
     name: ♦ Iteron Mark V
     volume: 275000.0
-  ♦ Mammoth:
-    id: 42660
-    name: ♦ Mammoth
-    volume: 255000.0
   ♦ Mastodon:
     id: 42661
     name: ♦ Mastodon
@@ -31,3 +27,7 @@ items:
     id: 42659
     name: ♦ Occator
     volume: 390000.0
+  ��� Mammoth:
+    id: 42660
+    name: ��� Mammoth
+    volume: 255000.0

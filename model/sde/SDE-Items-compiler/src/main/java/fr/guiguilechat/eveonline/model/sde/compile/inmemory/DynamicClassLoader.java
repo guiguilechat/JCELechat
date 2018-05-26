@@ -86,8 +86,10 @@ public class DynamicClassLoader extends ClassLoader {
 		}
 		try {
 			ForwardingJavaFileManager<JavaFileManager> fileManager = new ClassLoaderFileManager(
-					javac.getStandardFileManager(null, null, null), cl);
-			JavaCompiler.CompilationTask task = javac.getTask(null, fileManager, null, null, null, compilationUnits);
+					javac.getStandardFileManager(diagnostic -> System.err.println("file diagnostic " + diagnostic), null, null),
+					cl);
+			JavaCompiler.CompilationTask task = javac.getTask(null, fileManager,
+					diagnostic -> System.err.println(" compile diagnostic " + diagnostic), null, null, compilationUnits);
 			task.call();
 		} catch (Exception e1) {
 			throw new UnsupportedOperationException("catch this exception", e1);
@@ -102,6 +104,6 @@ public class DynamicClassLoader extends ClassLoader {
 	 * correct classloader
 	 */
 	public static DynamicClassLoader generate(JCodeModel cm) {
-		return generate(cm, new DynamicClassLoader(Compiler.class.getClassLoader()));
+		return generate(cm, new DynamicClassLoader(JavaCompiler.class.getClassLoader()));
 	}
 }

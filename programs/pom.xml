@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.eveonline</groupId>
     <artifactId>Common</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.7</version>
   </parent>
   <artifactId>programs</artifactId>
   <packaging>pom</packaging>
@@ -37,7 +37,7 @@
   </dependencyManagement>
   <properties>
   	<model-version>18.01.10</model-version>
-  	<modelversion>3.2.4</modelversion>
+  	<modelversion>3.2.6</modelversion>
   </properties>
   <dependencies>
   	<dependency>
@@ -49,7 +49,7 @@
   		<artifactId>ESI</artifactId>
   	</dependency>
   </dependencies>
-  <version>1.3.3</version>
+  <version>1.3.4</version>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>

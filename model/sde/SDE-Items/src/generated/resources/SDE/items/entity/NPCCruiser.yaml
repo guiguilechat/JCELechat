@@ -60,7 +60,7 @@ items:
     name: ♦ Omen
     volume: 118000.0
   ♦ Osprey:
-    id: 43623
+    id: 43569
     name: ♦ Osprey
     volume: 107000.0
   ♦ Phantasm:
@@ -75,14 +75,14 @@ items:
     id: 43591
     name: ♦ Scythe
     volume: 89000.0
-  ♦ Stabber:
-    id: 43593
-    name: ♦ Stabber
-    volume: 80000.0
   ♦ Thorax:
     id: 46075
     name: ♦ Thorax
     volume: 112000.0
+  ♦ Vexor:
+    id: 43582
+    name: ♦ Vexor
+    volume: 115000.0
   ♦ Vigilant:
     id: 46059
     name: ♦ Vigilant
@@ -91,7 +91,11 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 80000.0
-  ��� Vexor:
-    id: 43582
-    name: ��� Vexor
-    volume: 115000.0
+  �� Osprey:
+    id: 43623
+    name: �� Osprey
+    volume: 107000.0
+  ��� Stabber:
+    id: 43593
+    name: ��� Stabber
+    volume: 80000.0
