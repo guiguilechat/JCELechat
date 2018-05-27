@@ -147,21 +147,21 @@ public class EveCharacter {
 	}
 
 	public ObservableSet<String> getRolesHQ() {
-		if (rolesCache == null) {
+		if (rolesHQCache == null) {
 			makeRoleRetrieve();
 		}
 		return rolesHQCache;
 	}
 
 	public ObservableSet<String> getRolesBase() {
-		if (rolesCache == null) {
+		if (rolesBaseCache == null) {
 			makeRoleRetrieve();
 		}
 		return rolesBaseCache;
 	}
 
 	public ObservableSet<String> getRolesOther() {
-		if (rolesCache == null) {
+		if (rolesOtherCache == null) {
 			makeRoleRetrieve();
 		}
 		return rolesOtherCache;

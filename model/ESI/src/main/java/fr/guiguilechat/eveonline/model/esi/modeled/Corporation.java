@@ -49,12 +49,21 @@ public class Corporation {
 	// }
 
 	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
+		// this is to correct an ESI bug.
+		for (String role : Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES) {
+			if (role.equals("Factory_Manager")) {
+				throw new UnsupportedOperationException("remove the hack here");
+			}
+		}
 		synchronized (jobLatch) {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
 				con.addFetchCacheArray(con.characterName() + ".corporationjobs", (p, h) -> con.raw
 						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, p, h),
-						this::handleNewJobs, Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES);
+						this::handleNewJobs, "Factory_Manager"
+						// remove hack by replacing the hardcoded string with
+						// Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES
+						);
 			}
 		}
 		return jobsCache;

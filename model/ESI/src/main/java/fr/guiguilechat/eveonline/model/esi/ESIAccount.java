@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,11 +26,11 @@ import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Route;
 import fr.guiguilechat.eveonline.model.esi.modeled.Universe;
 import fr.guiguilechat.eveonline.model.esi.modeled.Verify;
-import javafx.beans.binding.Bindings;
-import javafx.beans.binding.BooleanBinding;
+import javafx.beans.InvalidationListener;
 import javafx.beans.property.LongProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleLongProperty;
-import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableBooleanValue;
 import javafx.collections.ObservableSet;
 
 /**
@@ -192,8 +193,8 @@ public class ESIAccount {
 		}
 
 		protected void logState() {
-			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started")
-					+ "|" + (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
+			logger.info("state of executable " + loggingName + " : " + (stop ? "stopped" : "started") + "|"
+					+ (paused ? "paused" : "running") + "|" + (scheduled ? "scheduled" : "unscheduled")
 					// , new Exception()
 					);
 		}
@@ -232,48 +233,36 @@ public class ESIAccount {
 		 *          acquired by the character to allow retrieval of data.
 		 */
 		protected void bindToRoles(String[] requiredRoles) {
-			BooleanBinding hasRolesVar = Bindings.createBooleanBinding(() -> hasRoles(character.getRoles(), requiredRoles),
-					character.getRoles());
-			hasRolesVar.addListener((ChangeListener<Boolean>) (observable, oldValue, newValue) -> {
-				logger.info(
-						"roles required " + Arrays.asList(requiredRoles) + "are present on " + characterName() + " from " + oldValue
-						+ " to " + newValue);
-				if (newValue) {
+			if (requiredRoles == null || requiredRoles.length == 0) {
+				resume();
+			} else {
+				ObservableBooleanValue hasRolesVar = bindContains(character.getRoles(), requiredRoles);
+				hasRolesVar.addListener((ob, old, now) -> {
+					if (now) {
+						resume();
+					} else {
+						pause();
+					}
+				});
+
+				logger.info("roles required " + Arrays.asList(requiredRoles) + "are present on " + characterName() + " ? "
+						+ hasRolesVar.get() + " : roles are " + character.getRoles());
+				if (hasRolesVar.get()) {
 					resume();
 				} else {
 					pause();
 				}
-			});
-
-			logger.info("roles required " + Arrays.asList(requiredRoles) + "are present on " + characterName() + " ? "
-					+ hasRolesVar.get() + " : roles are " + character.getRoles());
-			if (hasRolesVar.get()) {
-				resume();
-			} else {
-				pause();
 			}
 		}
 	}
 
-	/**
-	 * find out if at least one required role is present
-	 *
-	 * @param effectiveRoles
-	 * @param requiredRoles
-	 * @return
-	 */
-	protected static boolean hasRoles(ObservableSet<String> effectiveRoles, String[] requiredRoles) {
-		// we don't need any role
-		if (requiredRoles == null || requiredRoles.length == 0) {
-			return true;
-		}
-		// we need to have at least one role of the possible roles
-		for (String role : requiredRoles) {
-			if (effectiveRoles.contains(role)) {
-				return true;
-			}
-		}
-		return false;
+	@SuppressWarnings("unchecked")
+	public static <T> ObservableBooleanValue bindContains(ObservableSet<T> set, T... values) {
+		SimpleBooleanProperty ret = new SimpleBooleanProperty(true);
+		set.addListener(
+				(InvalidationListener) ob -> ret.set(Stream.of(values).filter(set::contains).findAny().isPresent()));
+		ret.set(Stream.of(values).filter(set::contains).findAny().isPresent());
+		return ret;
 	}
 
 	/**
@@ -300,9 +289,7 @@ public class ESIAccount {
 		@Override
 		protected long do_execute() {
 			LongProperty cachedExpire = new SimpleLongProperty();
-			List<T> arr = ESIConnection.loadPages(
-					fetcher,
-					cachedExpire::set);
+			List<T> arr = ESIConnection.loadPages(fetcher, cachedExpire::set);
 			long ret = 1000;
 			if (arr != null) {
 				ret += cachedExpire.get() - System.currentTimeMillis();
@@ -407,8 +394,7 @@ public class ESIAccount {
 	 *          the type of object that represents the cache.
 	 */
 	public <T> SelfExecutable addFetchCacheObject(String name, Function<Map<String, List<String>>, T> fetcher,
-			Consumer<T> cacheHandler,
-			String... requiredRoles) {
+			Consumer<T> cacheHandler, String... requiredRoles) {
 		SelfExecutable t = new ObjectCacheUpdaterTask<>(fetcher, cacheHandler).withName(name);
 		if (requiredRoles != null && requiredRoles.length > 0) {
 			t.bindToRoles(requiredRoles);
