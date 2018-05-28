@@ -335,6 +335,8 @@ public class ESIAccount {
 		return t;
 	}
 
+	public static final String[] NOROLE = {};
+
 	/**
 	 * class to fetch an object.
 	 *

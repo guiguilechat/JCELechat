@@ -59,7 +59,7 @@ public class Corporation {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
 				con.addFetchCacheArray(con.characterName() + ".corporationjobs", (p, h) -> con.raw
-						.get_corporations_corporation_id_industry_jobs(con.character.corporation_id(), false, p, h),
+						.get_corporations_corporation_id_industry_jobs(con.character.infos.corporationId().get(), false, p, h),
 						this::handleNewJobs, "Factory_Manager"
 						// remove hack by replacing the hardcoded string with
 						// Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES
@@ -114,11 +114,13 @@ public class Corporation {
 			if (System.currentTimeMillis() >= bookmarkCacheExpire) {
 				// first we get all the folders.
 				Map<Integer, String> folders = ESIConnection.loadPages(
-						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks_folders(con.character.corporation_id(), p, h),
+						(p, h) -> con.raw
+								.get_corporations_corporation_id_bookmarks_folders(con.character.infos.corporationId().get(), p, h),
 						l -> bookmarkCacheExpire = l).stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
 				cacheBookmarks.keySet().retainAll(folders.values());
 				List<R_get_corporations_corporation_id_bookmarks> bms = ESIConnection.loadPages(
-						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks(con.character.corporation_id(), p, h),
+						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks(con.character.infos.corporationId().get(), p,
+								h),
 						l -> bookmarkCacheExpire = Math.min(l, bookmarkCacheExpire));
 				for (R_get_corporations_corporation_id_bookmarks f : bms) {
 					String foldName = folders.get(f.folder_id);
@@ -147,7 +149,9 @@ public class Corporation {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
 				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection
-						.loadPages((p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.corporation_id(), p, h),
+						.loadPages(
+								(p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.infos.corporationId().get(), p,
+										h),
 								l -> assetsExpire = l)
 						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(R_get_corporations_corporation_id_assets[]::new);
@@ -204,7 +208,8 @@ public class Corporation {
 			synchronized (cachedBlueprints) {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 					List<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
-							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.corporation_id(), p, h),
+							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.infos.corporationId().get(), p,
+									h),
 							l -> cachedBlueprintsExpire = l);
 					if (bps != null) {
 						cachedBlueprints.setAll(bps);

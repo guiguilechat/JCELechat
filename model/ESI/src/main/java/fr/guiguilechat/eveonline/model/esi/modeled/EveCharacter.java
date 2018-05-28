@@ -16,16 +16,17 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.character.LocationCache;
+import fr.guiguilechat.eveonline.model.esi.modeled.evecharacter.Informations;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
 import javafx.beans.property.SimpleIntegerProperty;
@@ -41,64 +42,14 @@ public class EveCharacter {
 
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
+		infos = new Informations(con);
 	}
 
-	// character informations
+	public final Informations infos;
 
-	R_get_characters_character_id infos = null;
-
-	protected synchronized R_get_characters_character_id getInfos() {
-		if (infos == null) {
-			infos = con.raw.get_characters_character_id(con.characterId(), null);
-		}
-		return infos;
-	}
-
-	public String name() {
-		return getInfos().name;
-	}
-
-	public String description() {
-		return getInfos().description;
-	}
-
-	public int corporation_id() {
-		return getInfos().corporation_id;
-	}
-
-	public int alliance_id() {
-		return getInfos().alliance_id;
-	}
-
-	public String birthday() {
-		return getInfos().birthday;
-	}
-
-	public String gender() {
-		return getInfos().gender;
-	}
-
-	public long race_id() {
-		return getInfos().race_id;
-	}
-
-	public long bloodline_id() {
-		return getInfos().bloodline_id;
-	}
-
-	public long ancestry_id() {
-		return getInfos().ancestry_id;
-	}
-
-	public double security_status() {
-		return getInfos().security_status;
-	}
-
-	public long faction_id() {
-		return getInfos().faction_id;
-	}
-
+	//
 	// roles
+	//
 
 	private ObservableSet<String> rolesCache = null;
 	private ObservableSet<String> rolesHQCache = null;
@@ -143,12 +94,22 @@ public class EveCharacter {
 		if (rolesCache == null) {
 			makeRoleRetrieve();
 		}
+		try {
+			rolesLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
 		return rolesCache;
 	}
 
 	public ObservableSet<String> getRolesHQ() {
 		if (rolesHQCache == null) {
 			makeRoleRetrieve();
+		}
+		try {
+			rolesLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
 		}
 		return rolesHQCache;
 	}
@@ -157,6 +118,11 @@ public class EveCharacter {
 		if (rolesBaseCache == null) {
 			makeRoleRetrieve();
 		}
+		try {
+			rolesLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
 		return rolesBaseCache;
 	}
 
@@ -164,27 +130,34 @@ public class EveCharacter {
 		if (rolesOtherCache == null) {
 			makeRoleRetrieve();
 		}
+		try {
+			rolesLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
 		return rolesOtherCache;
 	}
 
+	//
 	// industry jobs
+	//
 
 	private ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobsCache = null;
 
 	private CountDownLatch jobLatch = new CountDownLatch(1);
 
-	// /**
-	// * wait until the industry jobs are fetched
-	// */
-	// public void ensureIndustryJobs() {
-	// // otherwise latch is null
-	// getIndustryJobs();
-	// try {
-	// jobLatch.await();
-	// } catch (InterruptedException e) {
-	// throw new UnsupportedOperationException("catch this", e);
-	// }
-	// }
+	/**
+	 * wait until the industry jobs are fetched
+	 */
+	public void waitIndustryJobs() {
+		// otherwise latch is null
+		getIndustryJobs();
+		try {
+			jobLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
 
 	/**
 	 * fetch the list of industry jobs for this character. If the cache delay is
@@ -239,42 +212,159 @@ public class EveCharacter {
 		return job.activity_id == 8;
 	}
 
+	public ObservableNumberValue availableResearchSlots() {
+		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobs = getIndustryJobs();
+		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (jobs) {
+				return jobs.values().stream().filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j)).count();
+			}
+		}, jobs);
+		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
+				.getIndustryJobs();
+		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (corpJobs) {
+				return corpJobs.values().stream().filter(j -> j.installer_id == con.characterId())
+						.filter(
+								j -> Corporation.isCopy(j) || Corporation.isInvetion(j) || Corporation.isME(j) || Corporation.isTE(j))
+						.count();
+			}
+		}, corpJobs);
+		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3406, 0) + getSkills().getOrDefault(24624, 0))
+				.subtract(charJobsVar).subtract(corpJobsVar);
+	}
+
+	public ObservableNumberValue availableManufSlots() {
+		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
+		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (charjobs) {
+				return charjobs.values().stream().filter(j -> isManufacture(j)).count();
+			}
+		}, charjobs);
+		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
+				.getIndustryJobs();
+		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
+			synchronized (corpJobs) {
+				return corpJobs.values().stream().filter(j -> j.installer_id == con.characterId())
+						.filter(j -> Corporation.isManufacture(j)).count();
+			}
+		}, corpJobs);
+		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3387, 0) + getSkills().getOrDefault(24625, 0))
+				.subtract(charJobsVar).subtract(corpJobsVar);
+	}
+
+	//
+	// blueprints
+	//
+
+	private ObservableList<R_get_characters_character_id_blueprints> cachedBlueprints = FXCollections
+			.observableArrayList();
+
+	private long cachedBlueprintsExpire = 0;
+
+	public ObservableList<R_get_characters_character_id_blueprints> getBlueprints() {
+		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+			synchronized (cachedBlueprints) {
+				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
+					List<R_get_characters_character_id_blueprints> bps = ESIConnection.loadPages(
+							(p, h) -> con.raw.get_characters_character_id_blueprints(con.characterId(), p, h),
+							l -> cachedBlueprintsExpire = l);
+					cachedBlueprints.setAll(bps);
+				}
+			}
+		}
+		return cachedBlueprints;
+	}
+
+	//
 	// bookmarks
+	//
 
-	private long bookmarkCacheEnd = 0;
+	private ObservableMap<Integer, String> folders = null;
 
-	private ObservableMap<String, ObservableMap<Integer, R_get_characters_character_id_bookmarks>> cacheBookmarks = FXCollections
-			.observableMap(new LinkedHashMap<>());
+	private CountDownLatch bmFoldersLatch = new CountDownLatch(1);
+
+	public void waitBMFolders() {
+		try {
+			bmFoldersLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	protected ObservableMap<Integer, String> getBMFolders() {
+		if (folders == null) {
+			synchronized (bmFoldersLatch) {
+				if (folders == null) {
+					folders = FXCollections.observableHashMap();
+					con.addFetchCacheArray(con.characterName() + ".bmFolders",
+							(p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
+							this::handleNewBMFolders, ESIAccount.NOROLE);
+				}
+			}
+		}
+		return folders;
+	}
+
+	protected void handleNewBMFolders(List<R_get_characters_character_id_bookmarks_folders> folder) {
+		Map<Integer, String> map = folder.stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
+		synchronized (folders) {
+			folders.keySet().retainAll(map.keySet());
+			folders.putAll(map);
+		}
+		bmFoldersLatch.countDown();
+	}
+
+	private ObservableMap<String, ObservableMap<Integer, R_get_characters_character_id_bookmarks>> cacheBookmarks = null;
+
+	private CountDownLatch bmLatch = new CountDownLatch(1);
+
+	public void waitBM() {
+		try {
+			bmLatch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
 
 	/**
 	 *
 	 * @return the cached list of observable bookmarks, by folder->id->bookmark.
 	 */
 	public ObservableMap<String, ObservableMap<Integer, R_get_characters_character_id_bookmarks>> getBookmarks() {
-		synchronized (cacheBookmarks) {
-			if (System.currentTimeMillis() >= bookmarkCacheEnd) {
-				// first we get all the folders.
-				Map<Integer, String> folders = ESIConnection
-						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
-								l -> bookmarkCacheEnd = l)
-						.stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
-				cacheBookmarks.keySet().retainAll(folders.values());
-				List<R_get_characters_character_id_bookmarks> bms = ESIConnection
-						.loadPages((p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
-								l -> bookmarkCacheEnd = Math.min(l, bookmarkCacheEnd));
-				for (R_get_characters_character_id_bookmarks f : bms) {
-					String foldName = folders.get(f.folder_id);
-					ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
-					if (m == null) {
-						m = FXCollections.observableMap(new LinkedHashMap<>());
-						cacheBookmarks.put(foldName, m);
-					}
-					m.put(f.bookmark_id, f);
+		if (cacheBookmarks == null) {
+			synchronized (cacheBookmarks) {
+				if (cacheBookmarks == null) {
+					cacheBookmarks = FXCollections.observableHashMap();
+					con.addFetchCacheArray(con.characterName() + ".bms",
+							(p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
+							this::handleNewBookmarks, ESIAccount.NOROLE);
 				}
 			}
 		}
 		return cacheBookmarks;
 	}
+
+	protected void handleNewBookmarks(List<R_get_characters_character_id_bookmarks> bms) {
+		ObservableMap<Integer, String> folds = getBMFolders();
+		waitBMFolders();
+		for (R_get_characters_character_id_bookmarks f : bms) {
+			String foldName = folds.get(f.folder_id);
+			if (foldName == null) {
+				continue;
+			}
+			ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
+			if (m == null) {
+				m = FXCollections.observableMap(new LinkedHashMap<>());
+				cacheBookmarks.put(foldName, m);
+			}
+			m.put(f.bookmark_id, f);
+		}
+		bmLatch.countDown();
+	}
+
+	//
+	// online state and position
+	//
 
 	protected R_get_characters_character_id_online cachedOnline = null;
 
@@ -340,6 +430,10 @@ public class EveCharacter {
 		return location;
 	}
 
+	//
+	// assets
+	//
+
 	// system->typeid->number
 	private ObservableMap<Long, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
 			.observableMap(new LinkedHashMap<>());
@@ -400,6 +494,10 @@ public class EveCharacter {
 		return m1;
 	}
 
+	//
+	// skills
+	//
+
 	private Map<Integer, Integer> skills = null;
 
 	public synchronized Map<Integer, Integer> getSkills() {
@@ -408,66 +506,6 @@ public class EveCharacter {
 					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
 		}
 		return skills;
-	}
-
-	public ObservableNumberValue availableResearchSlots() {
-		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> jobs = getIndustryJobs();
-		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (jobs) {
-				return jobs.values().stream().filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j)).count();
-			}
-		}, jobs);
-		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
-				.getIndustryJobs();
-		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (corpJobs) {
-				return corpJobs.values().stream().filter(j -> j.installer_id == con.characterId())
-						.filter(
-								j -> Corporation.isCopy(j) || Corporation.isInvetion(j) || Corporation.isME(j) || Corporation.isTE(j))
-						.count();
-			}
-		}, corpJobs);
-		return new SimpleIntegerProperty(1 + getSkills().getOrDefault(3406, 0) + getSkills().getOrDefault(24624, 0))
-				.subtract(charJobsVar).subtract(corpJobsVar);
-	}
-
-	public ObservableNumberValue availableManufSlots() {
-		ObservableMap<Integer, R_get_characters_character_id_industry_jobs> charjobs = getIndustryJobs();
-		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (charjobs) {
-				return charjobs.values().stream().filter(j -> isManufacture(j)).count();
-			}
-		}, charjobs);
-		ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation
-				.getIndustryJobs();
-		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (corpJobs) {
-				return corpJobs.values().stream()
-						.filter(j -> j.installer_id == con.characterId()).filter(j -> Corporation.isManufacture(j)).count();
-			}
-		}, corpJobs);
-		return new SimpleIntegerProperty(
-				1 + getSkills().getOrDefault(3387, 0) + getSkills().getOrDefault(24625, 0))
-				.subtract(charJobsVar).subtract(corpJobsVar);
-	}
-
-	private ObservableList<R_get_characters_character_id_blueprints> cachedBlueprints = FXCollections
-			.observableArrayList();
-
-	private long cachedBlueprintsExpire = 0;
-
-	public ObservableList<R_get_characters_character_id_blueprints> getBlueprints() {
-		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
-			synchronized (cachedBlueprints) {
-				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
-					List<R_get_characters_character_id_blueprints> bps = ESIConnection.loadPages(
-							(p, h) -> con.raw.get_characters_character_id_blueprints(con.characterId(), p, h),
-							l -> cachedBlueprintsExpire = l);
-					cachedBlueprints.setAll(bps);
-				}
-			}
-		}
-		return cachedBlueprints;
 	}
 
 }
