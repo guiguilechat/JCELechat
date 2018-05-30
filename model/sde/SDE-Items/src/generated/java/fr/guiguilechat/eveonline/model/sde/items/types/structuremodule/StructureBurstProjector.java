@@ -318,6 +318,7 @@ public class StructureBurstProjector
     @DefaultIntValue(0)
     public int MaxTypeFitted;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -413,6 +414,7 @@ public class StructureBurstProjector
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

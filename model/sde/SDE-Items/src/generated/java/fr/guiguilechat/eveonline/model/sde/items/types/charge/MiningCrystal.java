@@ -51,7 +51,7 @@ public class MiningCrystal
     /**
      * current damage dealt to module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Damage;
@@ -77,6 +77,7 @@ public class MiningCrystal
     @DefaultIntValue(0)
     public int MainColor;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -126,6 +127,7 @@ public class MiningCrystal
     @DefaultDoubleValue(0.0)
     public double SpecialisationAsteroidYieldMultiplier;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

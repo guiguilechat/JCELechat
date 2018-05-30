@@ -149,6 +149,10 @@ items:
   Crotalus:
     id: 364378
     name: Crotalus
+  DUST Prometheus:
+    id: 353881
+    name: DUST Prometheus
+    volume: 0.01
   Eryx:
     id: 353879
     name: Eryx
@@ -284,10 +288,6 @@ items:
   Onikuma Blueprint:
     id: 356875
     name: Onikuma Blueprint
-    volume: 0.01
-  Prometheus:
-    id: 353881
-    name: Prometheus
     volume: 0.01
   Python:
     id: 353884

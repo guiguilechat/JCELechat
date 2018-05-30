@@ -8,9 +8,9 @@ import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetLiquidGas;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetOrganic;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetSolid;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetLiquidGasRawResource;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetOrganicRawResource;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetaryresources.PlanetSolidRawResource;
 
 public abstract class PlanetaryResources
     extends Item
@@ -59,6 +59,6 @@ public abstract class PlanetaryResources
     }
 
     public static Map<String, ? extends PlanetaryResources> loadCategory() {
-        return Stream.of(PlanetLiquidGas.load(), PlanetOrganic.load(), PlanetSolid.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(PlanetLiquidGasRawResource.load(), PlanetOrganicRawResource.load(), PlanetSolidRawResource.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

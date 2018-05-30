@@ -158,6 +158,12 @@ items:
     id: 12037
     name: Dagger Blueprint
     volume: 0.01
+  Damavik Blueprint:
+    IndustryJobCostMultiplier: 1
+    TechLevel: 1
+    id: 47966
+    name: Damavik Blueprint
+    volume: 0.01
   Daredevil Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1

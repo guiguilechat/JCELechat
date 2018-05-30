@@ -241,6 +241,7 @@ items:
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30420
     name: Civilian EM Ward Field
@@ -258,6 +259,7 @@ items:
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30422
     name: Civilian Explosive Deflection Field
@@ -275,6 +277,7 @@ items:
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30424
     name: Civilian Kinetic Deflection Field
@@ -291,6 +294,7 @@ items:
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
+    RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.0
     id: 30342

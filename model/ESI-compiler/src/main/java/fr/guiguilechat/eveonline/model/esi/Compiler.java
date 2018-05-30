@@ -68,7 +68,7 @@ public class Compiler {
 		long startTime = System.currentTimeMillis();
 		logger.info("compiling esi with params " + Arrays.asList(args));
 		Compiler c = new Compiler();
-		c.setBaseURL(args[0]);
+		c.setSwaggerURL(args[0]);
 		JCodeModel cm = c.compile();
 		File dir = new File(args[1]);
 		delDir(dir);
@@ -88,16 +88,13 @@ public class Compiler {
 		}
 	}
 
-	protected String baseURL;
+	protected String swaggerURL;
 
-	public void setBaseURL(String url) {
-		if (url.endsWith("/")) {
-			url = url.substring(0, url.length() - 1);
-		}
-		baseURL = url;
+	public void setSwaggerURL(String url) {
+		swaggerURL = url;
 	}
 
-	protected String swaggerFile = "swagger.json";
+	protected String baseURL;
 
 	protected String responsesPackage = "responses";
 	protected String structuresPackage = "structures";
@@ -118,7 +115,11 @@ public class Compiler {
 	};
 
 	public JCodeModel compile() throws JClassAlreadyExistsException {
-		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(baseURL + "/" + swaggerFile);
+		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(swaggerURL);
+		baseURL = swagger.getSchemes().get(0).toValue()
+				+ "://"
+				+ swagger.getHost()
+				+ (swagger.getBasePath() == null ? "" : swagger.getBasePath());
 		cm = new JCodeModel();
 		String rootPackage = Compiler.class.getPackage().getName() + ".compiled";
 		// List<String> add = Arrays.asList(baseURL.split("/")[2].split("\\."));

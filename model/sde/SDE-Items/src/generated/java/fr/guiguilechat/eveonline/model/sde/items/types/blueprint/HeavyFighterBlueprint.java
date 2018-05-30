@@ -21,13 +21,22 @@ public class HeavyFighterBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

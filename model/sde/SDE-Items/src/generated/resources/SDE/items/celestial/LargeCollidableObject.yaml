@@ -3755,24 +3755,6 @@ items:
     StructureUniformity: 1.0
     id: 23535
     name: Huge Silvery White Stalagmite
-  Huge asteroid environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47416
-    name: Huge asteroid environment
-  Huge pillar environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47428
-    name: Huge pillar environment
   Human Farm:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -3921,24 +3903,6 @@ items:
     id: 42873
     name: Keepstar Wreck
     volume: 27500.0
-  Large asteroid environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47414
-    name: Large asteroid environment
-  Large pillar environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47425
-    name: Large pillar environment
   Leviathan Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4011,24 +3975,6 @@ items:
     StructureUniformity: 1.0
     id: 34389
     name: Matyrhan Lakat-Hro
-  Medium asteroid environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47410
-    name: Medium asteroid environment
-  Medium pillar environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47422
-    name: Medium pillar environment
   Megathron (Roden):
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -4718,6 +4664,42 @@ items:
     StructureUniformity: 1.0
     id: 21799
     name: Pleasure Hub
+  Preserved Amarr Outpost Platform:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 48267
+    name: Preserved Amarr Outpost Platform
+  Preserved Caldari Outpost Platform:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 48266
+    name: Preserved Caldari Outpost Platform
+  Preserved Gallente Outpost Platform:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 48268
+    name: Preserved Gallente Outpost Platform
+  Preserved Minmatar Outpost Platform:
+    EntityAttackRange: 15000
+    EntityChaseMaxDistance: 2500
+    EntityFlyRange: 500.0
+    Falloff: 1
+    SignatureRadius: 100
+    StructureUniformity: 1.0
+    id: 48269
+    name: Preserved Minmatar Outpost Platform
   Primae Wreck:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
@@ -5435,33 +5417,6 @@ items:
     StructureUniformity: 1.0
     id: 10784
     name: Small and Sharded Rock
-  Small asteroid environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47405
-    name: Small asteroid environment
-  'Small asteroid environment ':
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47403
-    name: 'Small asteroid environment '
-  Small pillar environment:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    id: 47419
-    name: Small pillar environment
   Smoldering Archive Ruins:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500

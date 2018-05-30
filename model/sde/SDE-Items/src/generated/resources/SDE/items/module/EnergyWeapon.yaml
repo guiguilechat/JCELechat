@@ -273,39 +273,6 @@ items:
     id: 23834
     name: '''Mace'' Dual Light Beam Laser I'
     volume: 5.0
-  ABC Large:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 47274
-    name: ABC Large
-    volume: 20.0
-  ABC Medium:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 47273
-    name: ABC Medium
-    volume: 10.0
-  ABC Small:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 47272
-    name: ABC Small
-    volume: 5.0
   Afocal Precise Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 520.0

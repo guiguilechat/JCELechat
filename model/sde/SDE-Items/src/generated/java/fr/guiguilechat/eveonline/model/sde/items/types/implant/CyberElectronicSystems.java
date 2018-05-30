@@ -34,6 +34,7 @@ public class CyberElectronicSystems
     @DefaultIntValue(0)
     public int StasisWebRangeBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

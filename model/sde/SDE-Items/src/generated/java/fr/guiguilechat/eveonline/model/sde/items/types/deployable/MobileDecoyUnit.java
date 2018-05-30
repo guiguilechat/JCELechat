@@ -21,6 +21,7 @@ public class MobileDecoyUnit
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)

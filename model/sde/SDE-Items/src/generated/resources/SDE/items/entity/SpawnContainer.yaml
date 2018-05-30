@@ -1331,6 +1331,10 @@ items:
     id: 28259
     name: colins test Hulk
     volume: 27500.0
+  unnamed_gid22125_sid0:
+    id: 48085
+    name: unnamed_gid22125_sid0
+    volume: 1.0
   weapon_container:
     id: 16725
     name: weapon_container

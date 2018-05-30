@@ -119,6 +119,7 @@ public class StructureCombatRigMBoostedSensors
     @DefaultIntValue(0)
     public int StructureRigScanResBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

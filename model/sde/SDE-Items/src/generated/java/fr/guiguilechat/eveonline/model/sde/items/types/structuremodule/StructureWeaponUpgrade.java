@@ -70,6 +70,7 @@ public class StructureWeaponUpgrade
     @DefaultIntValue(0)
     public int Hp;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -112,6 +113,7 @@ public class StructureWeaponUpgrade
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

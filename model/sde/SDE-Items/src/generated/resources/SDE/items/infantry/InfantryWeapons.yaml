@@ -317,10 +317,6 @@ items:
     id: 353119
     name: '''Hollowsight'' Carthum Assault Rifle'
     volume: 0.01
-  '''Horizon'' Kaalakiota Sniper Rifle':
-    id: 353172
-    name: '''Horizon'' Kaalakiota Sniper Rifle'
-    volume: 0.01
   '''Howlcage'' Core Flaylock Pistol':
     id: 363787
     name: '''Howlcage'' Core Flaylock Pistol'
@@ -1376,6 +1372,10 @@ items:
   DCMA-5 Breach Forge Gun:
     id: 353148
     name: DCMA-5 Breach Forge Gun
+    volume: 0.01
+  DUST 'Horizon' Kaalakiota Sniper Rifle:
+    id: 353172
+    name: DUST 'Horizon' Kaalakiota Sniper Rifle
     volume: 0.01
   Darth's GIO-66 Scrambler Rifle:
     id: 367528

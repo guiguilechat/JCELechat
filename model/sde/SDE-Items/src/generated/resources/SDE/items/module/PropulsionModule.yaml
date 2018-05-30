@@ -110,6 +110,15 @@ items:
     id: 41237
     name: 10000MN Y-S8 Compact Afterburner
     volume: 4000.0
+  100MN Abyssal Afterburner:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47757
+    name: 100MN Abyssal Afterburner
+    volume: 5.0
   100MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 320.0
@@ -220,6 +229,15 @@ items:
     id: 35657
     name: 100MN Y-S8 Compact Afterburner
     volume: 5.0
+  10MN Abyssal Afterburner:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47753
+    name: 10MN Abyssal Afterburner
+    volume: 5.0
   10MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 80.0
@@ -329,6 +347,15 @@ items:
     TechLevel: 1
     id: 35656
     name: 10MN Y-S8 Compact Afterburner
+    volume: 5.0
+  1MN Abyssal Afterburner:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3450
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47749
+    name: 1MN Abyssal Afterburner
     volume: 5.0
   1MN Afterburner I:
     CapacitorCapacityMultiplier: 1.0
@@ -609,6 +636,15 @@ items:
     id: 41250
     name: 50000MN Y-T8 Compact Microwarpdrive
     volume: 4000.0
+  500MN Abyssal Microwarpdrive:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47745
+    name: 500MN Abyssal Microwarpdrive
+    volume: 10.0
   500MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
     CapacitorNeed: 280.0
@@ -748,6 +784,15 @@ items:
     TechLevel: 1
     id: 35661
     name: 500MN Y-T8 Compact Microwarpdrive
+    volume: 10.0
+  50MN Abyssal Microwarpdrive:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47408
+    name: 50MN Abyssal Microwarpdrive
     volume: 10.0
   50MN Cold-Gas Enduring Microwarpdrive:
     CapacitorCapacityMultiplier: 0.75
@@ -1028,6 +1073,15 @@ items:
     TechLevel: 1
     id: 5973
     name: 5MN Y-T8 Compact Microwarpdrive
+    volume: 10.0
+  5mn Abyssal Microwarpdrive:
+    CapacitorCapacityMultiplier: 1.0
+    RequiredSkill1: 3454
+    RequiredSkill1Level: 3
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47740
+    name: 5mn Abyssal Microwarpdrive
     volume: 10.0
   Brynn's Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0

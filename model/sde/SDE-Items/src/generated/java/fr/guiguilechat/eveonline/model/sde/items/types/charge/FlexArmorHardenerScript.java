@@ -48,6 +48,7 @@ public class FlexArmorHardenerScript
     @DefaultIntValue(0)
     public int LauncherGroup;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

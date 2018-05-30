@@ -51,7 +51,7 @@ public class PlanetSatellites
     /**
      * current damage dealt to module
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int Damage;
@@ -119,6 +119,7 @@ public class PlanetSatellites
     @DefaultDoubleValue(0.0)
     public double SpecialisationAsteroidYieldMultiplier;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

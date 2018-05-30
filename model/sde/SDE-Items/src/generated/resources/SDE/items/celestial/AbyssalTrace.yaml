@@ -1,0 +1,8 @@
+items:
+  Abyssal Trace:
+    ScanGravimetricStrength: 13.0
+    SignatureRadius: 50
+    Untargetable: 1
+    id: 47834
+    name: Abyssal Trace
+    volume: 1.0

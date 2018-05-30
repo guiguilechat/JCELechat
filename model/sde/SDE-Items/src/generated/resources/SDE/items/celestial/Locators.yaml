@@ -11,6 +11,14 @@ items:
     id: 47462
     name: AOE_80k_locator
     volume: 1.0
+  AOE_structure_30k_locator:
+    id: 48093
+    name: AOE_structure_30k_locator
+    volume: 1.0
+  AOE_structure_80k_locator:
+    id: 48094
+    name: AOE_structure_80k_locator
+    volume: 1.0
   entry_locator:
     id: 47463
     name: entry_locator

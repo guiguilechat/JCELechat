@@ -27,6 +27,7 @@ public class CommandCenters
     @DefaultIntValue(0)
     public int ExportTax;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)

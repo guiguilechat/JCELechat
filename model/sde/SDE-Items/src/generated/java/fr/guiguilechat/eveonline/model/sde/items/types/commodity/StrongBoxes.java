@@ -13,7 +13,15 @@ public class StrongBoxes
     extends Commodity
 {
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)

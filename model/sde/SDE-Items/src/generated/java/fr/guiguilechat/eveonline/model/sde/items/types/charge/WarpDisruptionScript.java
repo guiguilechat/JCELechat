@@ -83,6 +83,7 @@ public class WarpDisruptionScript
     @DefaultIntValue(0)
     public int SpeedFactorBonusBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

@@ -48,6 +48,7 @@ public class SensorDampenerScript
     @DefaultIntValue(0)
     public int ScanResolutionBonusBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

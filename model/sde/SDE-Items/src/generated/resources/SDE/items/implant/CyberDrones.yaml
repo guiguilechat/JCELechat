@@ -1,0 +1,25 @@
+items:
+  Drone_Implant1:
+    id: 48148
+    name: Drone_Implant1
+    volume: 1.0
+  Drone_Implant2:
+    id: 48149
+    name: Drone_Implant2
+    volume: 1.0
+  Drone_Implant3:
+    id: 48150
+    name: Drone_Implant3
+    volume: 1.0
+  Drone_Implant4:
+    id: 48151
+    name: Drone_Implant4
+    volume: 1.0
+  Drone_Implant5:
+    id: 48152
+    name: Drone_Implant5
+    volume: 1.0
+  Drone_Implant6:
+    id: 48153
+    name: Drone_Implant6
+    volume: 1.0

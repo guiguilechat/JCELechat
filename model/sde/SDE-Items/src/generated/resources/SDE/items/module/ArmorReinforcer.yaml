@@ -739,6 +739,20 @@ items:
     id: 31916
     name: Imperial Navy 800mm Steel Plates
     volume: 50.0
+  Large Abyssal Armor Plates:
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 47820
+    name: Large Abyssal Armor Plates
+    volume: 20.0
+  Medium Abyssal Armor Plates:
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 47817
+    name: Medium Abyssal Armor Plates
+    volume: 10.0
   Shadow Serpentis 25000mm Steel Plates:
     ArmorHPBonusAdd: 82500
     Cpu: 40.0
@@ -753,6 +767,13 @@ items:
     id: 41458
     name: Shadow Serpentis 25000mm Steel Plates
     volume: 4000.0
+  Small Abyssal Armor Plates:
+    RequiredSkill1: 3394
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47812
+    name: Small Abyssal Armor Plates
+    volume: 5.0
   Syndicate 100mm Steel Plates:
     ArmorHPBonusAdd: 350
     Cpu: 10.0

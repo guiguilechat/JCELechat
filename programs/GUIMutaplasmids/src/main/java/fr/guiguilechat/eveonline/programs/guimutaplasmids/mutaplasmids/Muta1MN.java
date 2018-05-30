@@ -10,6 +10,7 @@ import fr.guiguilechat.eveonline.programs.guimutaplasmids.MutaplasmidFamily;
 public class Muta1MN extends MutaplasmidFamily {
 
 	private static final Object[][] DATATABLE = {
+			{ 47746, 47748, 47747, 0 },
 			{ SpeedFactor.INSTANCE, 0.97, 1.035, 0.95, 1.07, 0.9, 1.1, 0, 0 },
 			{ Cpu.INSTANCE, 0.95, 1.25, 0.85, 1.3, 0.8, 1.5, 0, 0 },
 			{ Power.INSTANCE, 0.95, 1.25, 0.85, 1.3, 0.8, 1.5, 0, 0 },
@@ -19,7 +20,7 @@ public class Muta1MN extends MutaplasmidFamily {
 	protected Muta1MN() {
 		super(
 				PropulsionModule.load().values().stream()
-						.filter(pm -> pm.name.contains("1MN ") && !pm.name.contains("Civilian")),
+				.filter(pm -> pm.name.contains("1MN ") && !pm.name.contains("Civilian")),
 				DATATABLE);
 	}
 

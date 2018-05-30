@@ -43,6 +43,24 @@ items:
     id: 21510
     name: '''Interruptive'' Warp Disruptor'
     volume: 5.0
+  Abyssal Warp Disruptor:
+    Falloff: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 2
+    TechLevel: 1
+    id: 47736
+    name: Abyssal Warp Disruptor
+    volume: 5.0
+  Abyssal Warp Scrambler:
+    Falloff: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 2
+    RequiredSkill2: 3449
+    RequiredSkill2Level: 1
+    TechLevel: 1
+    id: 47732
+    name: Abyssal Warp Scrambler
+    volume: 5.0
   CONCORD Modified Warp Scrambler:
     CapacitorNeed: 30.0
     Duration: 5000.0

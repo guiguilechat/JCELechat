@@ -62,6 +62,7 @@ public class MissileGuidanceScript
     @DefaultIntValue(1399)
     public int MissileVelocityBonusBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

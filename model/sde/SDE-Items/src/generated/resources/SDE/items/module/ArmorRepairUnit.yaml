@@ -1425,6 +1425,15 @@ items:
     id: 4621
     name: Large 'Reprieve' Vestment Reconstructer I
     volume: 50.0
+  Large Abyssal Armor Repairer:
+    RequiredSkill1: 3393
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3392
+    RequiredSkill2Level: 5
+    TechLevel: 1
+    id: 47777
+    name: Large Abyssal Armor Repairer
+    volume: 50.0
   Large Armor Repairer I:
     ArmorDamageAmount: 690
     CapacitorNeed: 400.0
@@ -1539,6 +1548,15 @@ items:
     TechLevel: 1
     id: 4573
     name: Medium 'Accommodation' Vestment Reconstructer I
+    volume: 10.0
+  Medium Abyssal Armor Repairer:
+    RequiredSkill1: 3393
+    RequiredSkill1Level: 4
+    RequiredSkill2: 3392
+    RequiredSkill2Level: 4
+    TechLevel: 1
+    id: 47773
+    name: Medium Abyssal Armor Repairer
     volume: 10.0
   Medium Armor Repairer I:
     ArmorDamageAmount: 276
@@ -1893,6 +1911,15 @@ items:
     TechLevel: 1
     id: 4533
     name: Small 'Accommodation' Vestment Reconstructer I
+    volume: 5.0
+  Small Abyssal Armor Repairer:
+    RequiredSkill1: 3393
+    RequiredSkill1Level: 3
+    RequiredSkill2: 3392
+    RequiredSkill2Level: 3
+    TechLevel: 1
+    id: 47769
+    name: Small Abyssal Armor Repairer
     volume: 5.0
   Small Armor Repairer I:
     ArmorDamageAmount: 69

@@ -14066,6 +14066,10 @@ corporations:
     faction: CONCORD Assembly
     id: 1000281
     name: Independent Gaming Commission
+  Infested Regions Hiveminds:
+    faction: Rogue Drones
+    id: 1000287
+    name: Infested Regions Hiveminds
   Inherent Implants:
     concordRate: 0.8
     faction: Amarr Empire
@@ -16339,6 +16343,10 @@ corporations:
     faction: Gallente Federation
     id: 1000249
     name: Kang Lo Directorate
+  Karybdis Infestation:
+    faction: Rogue Drones
+    id: 1000290
+    name: Karybdis Infestation
   Khanid Innovation:
     concordRate: 0.8
     faction: Khanid Kingdom
@@ -19461,6 +19469,10 @@ corporations:
     - 16200
     - 16202
     name: Native Freshfood
+  Navka Overminds:
+    faction: Rogue Drones
+    id: 1000288
+    name: Navka Overminds
   Nefantar Miner Association:
     concordRate: 0.8
     faction: Ammatar Mandate
@@ -21031,6 +21043,10 @@ corporations:
     - 16170
     - 16174
     name: Perkone
+  Perun Clade:
+    faction: Triglavian Collective
+    id: 1000293
+    name: Perun Clade
   Poksu Mineral Group:
     concordRate: 0.8
     faction: Caldari State
@@ -25184,6 +25200,10 @@ corporations:
     - 16170
     - 16174
     name: Science and Trade Institute
+  Scylla Infestation:
+    faction: Rogue Drones
+    id: 1000291
+    name: Scylla Infestation
   Sebiestor Field Sappers:
     concordRate: 0.8
     faction: Minmatar Republic
@@ -27796,6 +27816,10 @@ corporations:
     - 16194
     - 16195
     name: Supreme Court
+  Svarog Clade:
+    faction: Triglavian Collective
+    id: 1000294
+    name: Svarog Clade
   Tal-Romon Legion:
     concordRate: 0.8
     faction: Amarr Empire
@@ -29991,6 +30015,10 @@ corporations:
     - 16194
     - 16195
     name: University of Caille
+  Unshackled Overminds:
+    faction: Rogue Drones
+    id: 1000289
+    name: Unshackled Overminds
   Urban Management:
     concordRate: 0.8
     faction: Minmatar Republic
@@ -30152,6 +30180,10 @@ corporations:
     - 16200
     - 16202
     name: Urban Management
+  Veles Clade:
+    faction: Triglavian Collective
+    id: 1000292
+    name: Veles Clade
   Vherokior Combat Logistics:
     concordRate: 0.8
     faction: Minmatar Republic

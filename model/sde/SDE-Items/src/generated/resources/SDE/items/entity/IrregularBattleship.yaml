@@ -19,6 +19,10 @@ items:
     id: 46349
     name: Eosian Upholder
     volume: 1.9E7
+  GalFed_Boss2:
+    id: 48132
+    name: GalFed_Boss2
+    volume: 495000.0
   Guardian Angels Barachael:
     id: 47275
     name: Guardian Angels Barachael

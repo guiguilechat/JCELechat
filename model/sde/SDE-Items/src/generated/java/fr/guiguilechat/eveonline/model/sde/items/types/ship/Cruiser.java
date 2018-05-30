@@ -182,7 +182,15 @@ public class Cruiser
     @DefaultIntValue(0)
     public int MedSlots;
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -321,6 +329,34 @@ public class Cruiser
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShipBonusMC2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPC1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPC2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
     /**
      * Fixed Role Bonus on a ship.
      */
@@ -551,6 +587,22 @@ public class Cruiser
             case  659 :
             {
                 return ShipBonusMC2;
+            }
+            case  2764 :
+            {
+                return ShipBonusPC1;
+            }
+            case  2765 :
+            {
+                return ShipBonusPC2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  793 :
             {

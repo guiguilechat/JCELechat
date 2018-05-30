@@ -52,6 +52,7 @@ public abstract class Subsystem
     @DefaultIntValue(0)
     public int MedSlotModifier;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -80,6 +81,7 @@ public abstract class Subsystem
     @DefaultIntValue(0)
     public int SubSystemSlot;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

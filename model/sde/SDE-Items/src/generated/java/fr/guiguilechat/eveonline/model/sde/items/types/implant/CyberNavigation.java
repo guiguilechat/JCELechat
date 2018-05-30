@@ -63,6 +63,7 @@ public class CyberNavigation
     @DefaultIntValue(0)
     public int SpeedFBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

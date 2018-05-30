@@ -441,6 +441,7 @@ public class Cyberimplant
     @DefaultDoubleValue(0.0)
     public double SmugglingChanceBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

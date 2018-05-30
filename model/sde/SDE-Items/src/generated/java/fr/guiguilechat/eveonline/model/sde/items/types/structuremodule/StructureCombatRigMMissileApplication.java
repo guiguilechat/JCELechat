@@ -112,6 +112,7 @@ public class StructureCombatRigMMissileApplication
     @DefaultIntValue(0)
     public int StructureRigMissileExploVeloBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

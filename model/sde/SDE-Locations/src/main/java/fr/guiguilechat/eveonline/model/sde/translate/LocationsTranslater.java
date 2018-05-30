@@ -11,6 +11,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaOperationServices;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EstaServices;
@@ -33,6 +36,8 @@ import fr.guiguilechat.eveonline.model.sde.locations.Station;
  * If I could remove that class from package, that's would be better.
  */
 public class LocationsTranslater {
+
+	public static final Logger logger = LoggerFactory.getLogger(LocationsTranslater.class);
 
 	/**
 	 *
@@ -203,16 +208,26 @@ public class LocationsTranslater {
 		for (Entry<Long, Planet> ePlanet : system.planets.entrySet()) {
 			for (Entry<Integer, NPCStation> eSta : ePlanet.getValue().npcStations.entrySet()) {
 				addStation(eSta.getValue(), eSta.getKey(), name, stations);
+				if (addStation(eSta.getValue(), eSta.getKey(), name, stations) == null) {
+					logger.error("can't create station name=" + name + " id=" + eSta.getKey());
+				}
 			}
 			for (Entry<Integer, Moon> e4 : ePlanet.getValue().moons.entrySet()) {
 				for (Entry<Integer, NPCStation> eSta : e4.getValue().npcStations.entrySet()) {
-					addStation(eSta.getValue(), eSta.getKey(), name, stations);
+					if (addStation(eSta.getValue(), eSta.getKey(), name, stations) == null) {
+						logger.error("can't create station name=" + name + " id=" + eSta.getKey());
+					}
 				}
 			}
 		}
 		return s;
 	}
 
+	/**
+	 * translates an npc station into a station, add it to the stations lists
+	 *
+	 * @return null if an issue occured. In this case, the station is not added
+	 */
 	public static Station addStation(NPCStation npcsta, int id, String solarSystemName,
 			LinkedHashMap<String, Station> stations) {
 		Station added = new Station();
@@ -221,7 +236,12 @@ public class LocationsTranslater {
 		added.services.addAll(operationServices().get(npcsta.operationID));
 		EtypeIDs type = EtypeIDs.load().get(id);
 		added.name = type == null ? "missing_" + id : type.enName();
-		stations.put(stationsByID().get(id).stationName, added);
+		EstaStations esta = stationsByID().get(id);
+		if (esta == null) {
+			logger.error("station id " + id + " can't be retrieved from " + EstaStations.FILE);
+			return null;
+		}
+		stations.put(esta.stationName, added);
 		return added;
 	}
 

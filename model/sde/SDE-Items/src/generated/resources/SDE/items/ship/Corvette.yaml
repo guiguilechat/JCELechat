@@ -35,6 +35,8 @@ items:
     MaxTargetRange: 22000
     MaxVelocity: 360.0
     MedSlots: 3
+    MetaGroupID: 4
+    MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
     PowerOutput: 22
     PowerToSpeed: 1
@@ -102,6 +104,8 @@ items:
     MaxTargetRange: 24000
     MaxVelocity: 310.0
     MedSlots: 3
+    MetaGroupID: 4
+    MetaLevel: 7
     MinTargetVelDmgMultiplier: 1.0
     PowerOutput: 30
     PowerToSpeed: 1
@@ -242,6 +246,8 @@ items:
     MaxTargetRange: 30000
     MaxVelocity: 330.0
     MedSlots: 3
+    MetaGroupID: 4
+    MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
     PowerOutput: 27
     PowerToSpeed: 1
@@ -759,6 +765,8 @@ items:
     MaxTargetRange: 20000
     MaxVelocity: 295.0
     MedSlots: 3
+    MetaGroupID: 4
+    MetaLevel: 7
     MinTargetVelDmgMultiplier: 1.0
     PowerOutput: 23
     PowerToSpeed: 1
@@ -898,6 +906,8 @@ items:
     MaxTargetRange: 16000
     MaxVelocity: 340.0
     MedSlots: 2
+    MetaGroupID: 4
+    MetaLevel: 7
     MinTargetVelDmgMultiplier: 1.0
     PowerOutput: 24
     PowerToSpeed: 1

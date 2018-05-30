@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.programs.guimutaplasmids;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,6 +10,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_groups_group_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.mutaplasmids.Muta1MN;
@@ -50,6 +54,7 @@ public abstract class MutaplasmidFamily {
 
 	private Map<Attribute, double[]> minmults = null;
 	private Map<Attribute, double[]> maxmults = null;
+	private Map<MutaStr, Integer> strIDs = new HashMap<>();
 
 	protected MutaplasmidFamily(Stream<? extends Item> allowedItems, Object[][] data) {
 
@@ -59,7 +64,12 @@ public abstract class MutaplasmidFamily {
 		maxmults = new HashMap<>();
 		strengths = new HashSet<>();
 		modifiedAttributes = new HashSet<>();
-		for (Object[] line : data) {
+		for (int i = 0; i < data[0].length; i++) {
+			int id = (Integer) data[0][i];
+			strIDs.put(MutaStr.values()[i], id);
+		}
+		List<Object[]> lines = Arrays.asList(data).subList(1, data.length);
+		for (Object[] line : lines) {
 			Attribute att = (Attribute) line[0];
 			modifiedAttributes.add(att);
 			double[] min = new double[MutaStr.values().length];
@@ -182,5 +192,13 @@ public abstract class MutaplasmidFamily {
 
 	public static final MutaplasmidFamily[] INSTANCES = new MutaplasmidFamily[] { Muta1MN.INSTANCE, MutaWeb.INSTANCE,
 			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
+
+	public static void searchESI() {
+		R_get_universe_groups_group_id groups = ESIAccount.DISCONNECTED.raw.get_universe_groups_group_id(1964, null, null);
+		for (int mutaId : groups.types) {
+			R_get_universe_types_type_id type = ESIAccount.DISCONNECTED.raw.get_universe_types_type_id(null, mutaId, null);
+			System.err.println("" + mutaId + " " + type.name);
+		}
+	}
 
 }

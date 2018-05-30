@@ -23,7 +23,7 @@ public class MassAddition
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override

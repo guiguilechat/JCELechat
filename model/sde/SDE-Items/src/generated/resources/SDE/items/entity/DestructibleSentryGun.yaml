@@ -682,6 +682,10 @@ items:
     id: 16747
     name: Tower Sentry Serpentis III
     volume: 1000.0
+  Tower Structure:
+    id: 47488
+    name: Tower Structure
+    volume: 1000.0
   Vigilant Sentry Tower:
     id: 30460
     name: Vigilant Sentry Tower

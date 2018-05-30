@@ -119,6 +119,7 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @DefaultIntValue(0)
     public int StructureRigMissileVelocityBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

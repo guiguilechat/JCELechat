@@ -294,7 +294,6 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     ShieldBonus: 5.0
-    SkillLevel: 1
     SkillTimeConstant: 12.0
     id: 40573
     name: Support Fighters

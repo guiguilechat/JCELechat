@@ -140,6 +140,7 @@ public class StructureEngineeringRigMBasicMediumShipTE
     @DefaultDoubleValue(0.0)
     public double StructureRigBonus2;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

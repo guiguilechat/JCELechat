@@ -1944,6 +1944,15 @@ usages:
   Barrage XL Blueprint:
     productInvention: !!set
       Nuclear XL Blueprint: null
+  Baryon Exotic Plasma L:
+    productManuf: !!set
+      Baryon Exotic Plasma L Blueprint: null
+  Baryon Exotic Plasma M:
+    productManuf: !!set
+      Baryon Exotic Plasma M Blueprint: null
+  Baryon Exotic Plasma S:
+    productManuf: !!set
+      Baryon Exotic Plasma S Blueprint: null
   Basic Energized Adaptive Nano Membrane:
     productManuf: !!set
       Basic Energized Adaptive Nano Membrane Blueprint: null
@@ -6364,6 +6373,16 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
     materialTE: !!set
       Small Shield Extender II Blueprint: null
       Shield Recharger II Blueprint: null
@@ -7044,6 +7063,16 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Contaminated Lorentz Fluid:
     materialManuf: !!set
       Large Hybrid Discharge Elutriation I Blueprint: null
@@ -7457,6 +7486,29 @@ usages:
       Standup Layered Armor Plating II Blueprint: null
     productManuf: !!set
       Crystalline Carbonide Armor Plate Blueprint: null
+  Crystalline Isogen-10:
+    materialManuf: !!set
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Baryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Baryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Baryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Curator I:
     materialManuf: !!set
       Curator II Blueprint: null
@@ -7771,6 +7823,9 @@ usages:
       Standup L-Set Moon Drilling Proficiency I Blueprint: null
       Standup M-Set Moon Drilling Stability I Blueprint: null
       Standup M-Set Moon Drilling Efficiency I Blueprint: null
+  Damavik:
+    productManuf: !!set
+      Damavik Blueprint: null
   Damnation:
     productManuf: !!set
       Damnation Blueprint: null
@@ -8702,6 +8757,10 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
   Data Subverter I:
     productManuf: !!set
       Data Subverter I Blueprint: null
@@ -9181,6 +9240,7 @@ usages:
       Standup Termite I Blueprint: null
       Standup Antaeus I Blueprint: null
       Standup Gungnir I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   Datacore - Gallentean Starship Engineering:
     materialInvention: !!set
       Navitas Blueprint: null
@@ -9508,6 +9568,15 @@ usages:
       Exceptional Moon Ore Mining Crystal I Blueprint: null
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
   Datacore - Hydromagnetic Physics:
     materialInvention: !!set
       Small Shield Extender I Blueprint: null
@@ -9755,6 +9824,15 @@ usages:
       Standup M-Set Moon Ore Grading Processor I Blueprint: null
       Standup L-Set Reprocessing Monitor I Blueprint: null
       Standup XL-Set Reprocessing Monitor I Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
   Datacore - Mechanical Engineering:
     materialInvention: !!set
       Rifter Blueprint: null
@@ -9946,6 +10024,7 @@ usages:
       Standup Missile Guidance Enhancer I Blueprint: null
       Ice Mining Laser I Blueprint: null
       Quad 800mm Repeating Cannon I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   Datacore - Minmatar Starship Engineering:
     materialInvention: !!set
       Slasher Blueprint: null
@@ -11513,7 +11592,7 @@ usages:
       EMP XL Blueprint: null
   Eagle:
     materialManuf: !!set
-      银鹰级YC117年特别版蓝图: null
+      银���级YC117年特别版蓝图: null
     productManuf: !!set
       Eagle Blueprint: null
   Eagle Blueprint:
@@ -11995,6 +12074,17 @@ usages:
   Entrapment Array 5:
     productManuf: !!set
       Entrapment Array 5 Blueprint: null
+  Entropic Radiation Sink I:
+    materialManuf: !!set
+      Entropic Radiation Sink II Blueprint: null
+    productManuf: !!set
+      Entropic Radiation Sink I Blueprint: null
+  Entropic Radiation Sink II:
+    productManuf: !!set
+      Entropic Radiation Sink II Blueprint: null
+  Entropic Radiation Sink II Blueprint:
+    productInvention: !!set
+      Entropic Radiation Sink I Blueprint: null
   Enyo:
     productManuf: !!set
       Enyo Blueprint: null
@@ -12847,6 +12937,12 @@ usages:
       Conflagration XL Blueprint: null
       Gleam XL Blueprint: null
       Aurora XL Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Fulleroferrocene:
     materialManuf: !!set
       Fullerene Intercalated Sheets Blueprint: null
@@ -13739,6 +13835,17 @@ usages:
   Heavy Energy Nosferatu II Blueprint:
     productInvention: !!set
       Heavy Energy Nosferatu I Blueprint: null
+  Heavy Entropic Disintegrator I:
+    materialManuf: !!set
+      Heavy Entropic Disintegrator II Blueprint: null
+    productManuf: !!set
+      Heavy Entropic Disintegrator I Blueprint: null
+  Heavy Entropic Disintegrator II:
+    productManuf: !!set
+      Heavy Entropic Disintegrator II Blueprint: null
+  Heavy Entropic Disintegrator II Blueprint:
+    productInvention: !!set
+      Heavy Entropic Disintegrator I Blueprint: null
   Heavy Faint Epsilon Scoped Warp Scrambler:
     productManuf: !!set
       Heavy Faint Epsilon Scoped Warp Scrambler Blueprint: null
@@ -16168,6 +16275,13 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   Iteron Inner Zone Shipping Edition:
     productManuf: !!set
       Iteron Inner Zone Shipping Edition Blueprint: null
@@ -17472,6 +17586,9 @@ usages:
       Ice Harvesting Drone II Blueprint: null
       Standup Point Defense Battery II Blueprint: null
       Standup Target Painter II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
     productManuf: !!set
       Laser Focusing Crystals Blueprint: null
   Layered Plating I:
@@ -17604,6 +17721,9 @@ usages:
   Leopard:
     productManuf: !!set
       Leopard Blueprint: null
+  Leshak:
+    productManuf: !!set
+      Leshak Blueprint: null
   Leviathan:
     productManuf: !!set
       Leviathan Blueprint: null
@@ -17635,6 +17755,17 @@ usages:
   Light Electron Blaster II Blueprint:
     productInvention: !!set
       Light Electron Blaster I Blueprint: null
+  Light Entropic Disintegrator I:
+    materialManuf: !!set
+      Light Entropic Disintegrator II Blueprint: null
+    productManuf: !!set
+      Light Entropic Disintegrator I Blueprint: null
+  Light Entropic Disintegrator II:
+    productManuf: !!set
+      Light Entropic Disintegrator II Blueprint: null
+  Light Entropic Disintegrator II Blueprint:
+    productInvention: !!set
+      Light Entropic Disintegrator I Blueprint: null
   Light Hull Maintenance Bot I:
     materialManuf: !!set
       Light Hull Maintenance Bot II Blueprint: null
@@ -18469,6 +18600,7 @@ usages:
       Ice Mining Laser II Blueprint: null
       Capital Emergency Hull Energizer II Blueprint: null
       Assault Damage Control II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
   Medium 'Canyon' Shield Extender:
     productManuf: !!set
       Medium 'Canyon' Shield Extender Blueprint: null
@@ -20322,6 +20454,11 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
@@ -20401,6 +20538,15 @@ usages:
   Merlin Wiyrkomi Edition:
     productManuf: !!set
       Merlin Wiyrkomi Edition Blueprint: null
+  Meson Exotic Plasma L:
+    productManuf: !!set
+      Meson Exotic Plasma L Blueprint: null
+  Meson Exotic Plasma M:
+    productManuf: !!set
+      Meson Exotic Plasma M Blueprint: null
+  Meson Exotic Plasma S:
+    productManuf: !!set
+      Meson Exotic Plasma S Blueprint: null
   Metallofullerene Plating:
     materialManuf: !!set
       Tengu Blueprint: null
@@ -21468,6 +21614,13 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   Miasmos:
     productManuf: !!set
       Miasmos Blueprint: null
@@ -21836,6 +21989,7 @@ usages:
       Standup Weapon Disruptor II Blueprint: null
       Standup Target Painter II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
   Mining Drone I:
     materialManuf: !!set
       Mining Drone II Blueprint: null
@@ -22866,6 +23020,16 @@ usages:
       Standup Weapon Disruptor II Blueprint: null
       Standup Target Painter II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Multifrequency L:
     productManuf: !!set
       Multifrequency L Blueprint: null
@@ -22902,6 +23066,24 @@ usages:
       Eos Blueprint: null
     productManuf: !!set
       Myrmidon Blueprint: null
+  Mystic L:
+    productManuf: !!set
+      Mystic L Blueprint: null
+  Mystic L Blueprint:
+    productInvention: !!set
+      Meson Exotic Plasma L Blueprint: null
+  Mystic M:
+    productManuf: !!set
+      Mystic M Blueprint: null
+  Mystic M Blueprint:
+    productInvention: !!set
+      Meson Exotic Plasma M Blueprint: null
+  Mystic S:
+    productManuf: !!set
+      Mystic S Blueprint: null
+  Mystic S Blueprint:
+    productInvention: !!set
+      Meson Exotic Plasma S Blueprint: null
   N-1 Neon Type Rocket Bay:
     productManuf: !!set
       N-1 Neon Type Rocket Bay Blueprint: null
@@ -23184,6 +23366,7 @@ usages:
       Standup Cap Battery II Blueprint: null
       Standup Capacitor Power Relay II Blueprint: null
       Standup Weapon Disruptor II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
     productManuf: !!set
       Nanoelectrical Microprocessor Blueprint: null
   Nanofiber Internal Structure I:
@@ -24330,6 +24513,11 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
   Noir. Modified Entosis Link:
     productManuf: !!set
       Noir. Modified Entosis Link Blueprint: null
@@ -24603,6 +24791,24 @@ usages:
   Occult Data Interface:
     productManuf: !!set
       Occult Data Interface Blueprint: null
+  Occult L:
+    productManuf: !!set
+      Occult L Blueprint: null
+  Occult L Blueprint:
+    productInvention: !!set
+      Tetryon Exotic Plasma L Blueprint: null
+  Occult M:
+    productManuf: !!set
+      Occult M Blueprint: null
+  Occult M Blueprint:
+    productInvention: !!set
+      Tetryon Exotic Plasma M Blueprint: null
+  Occult S:
+    productManuf: !!set
+      Occult S Blueprint: null
+  Occult S Blueprint:
+    productInvention: !!set
+      Tetryon Exotic Plasma S Blueprint: null
   Occult Ship Data Interface:
     productManuf: !!set
       Occult Ship Data Interface Blueprint: null
@@ -27373,6 +27579,21 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Baryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Baryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Baryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
   Pyroxeres Mining Crystal I:
     materialManuf: !!set
       Pyroxeres Mining Crystal II Blueprint: null
@@ -27696,6 +27917,12 @@ usages:
       Standup M-Set Moon Ore Grading Processor II Blueprint: null
       Standup L-Set Reprocessing Monitor II Blueprint: null
       Standup XL-Set Reprocessing Monitor II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
     productManuf: !!set
       R.A.M.- Ammunition Tech Blueprint: null
   R.A.M.- Armor/Hull Tech:
@@ -28022,6 +28249,7 @@ usages:
       Standup Weapon Disruptor II Blueprint: null
       Standup Target Painter II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
     productManuf: !!set
       R.A.M.- Electronics Blueprint: null
   R.A.M.- Energy Tech:
@@ -28626,6 +28854,9 @@ usages:
       Standup Anticapital Missile Launcher II Blueprint: null
       Standup Guided Bomb Launcher II Blueprint: null
       Standup Point Defense Battery II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
     productManuf: !!set
       R.A.M.- Weapon Tech Blueprint: null
   R.Db - Boundless Creations:
@@ -28908,6 +29139,7 @@ usages:
       Standup L-Set Invention Optimization II Blueprint: null
       Standup L-Set ME Research Optimization II Blueprint: null
       Standup L-Set TE Research Optimization II Blueprint: null
+      Mystic S Blueprint: null
     materialME: !!set
       Miner II Blueprint: null
       Infiltrator II Blueprint: null
@@ -29014,6 +29246,7 @@ usages:
       Standup L-Set Invention Optimization II Blueprint: null
       Standup L-Set ME Research Optimization II Blueprint: null
       Standup L-Set TE Research Optimization II Blueprint: null
+      Mystic S Blueprint: null
     materialTE: !!set
       Miner II Blueprint: null
       Infiltrator II Blueprint: null
@@ -29120,6 +29353,7 @@ usages:
       Standup L-Set Invention Optimization II Blueprint: null
       Standup L-Set ME Research Optimization II Blueprint: null
       Standup L-Set TE Research Optimization II Blueprint: null
+      Mystic S Blueprint: null
     productManuf: !!set
       R.Db - Carthum Conglomerate Blueprint: null
   R.Db - Core Complexion:
@@ -29542,6 +29776,8 @@ usages:
       Polarized Heavy Neutron Blaster Blueprint: null
       Polarized Neutron Blaster Cannon Blueprint: null
       Endurance Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
     materialME: !!set
       Small Plasma Smartbomb II Blueprint: null
       150mm Railgun II Blueprint: null
@@ -29593,6 +29829,10 @@ usages:
       Polarized Light Neutron Blaster Blueprint: null
       Polarized Heavy Neutron Blaster Blueprint: null
       Polarized Neutron Blaster Cannon Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
     materialTE: !!set
       Small Plasma Smartbomb II Blueprint: null
       150mm Railgun II Blueprint: null
@@ -29644,6 +29884,10 @@ usages:
       Polarized Light Neutron Blaster Blueprint: null
       Polarized Heavy Neutron Blaster Blueprint: null
       Polarized Neutron Blaster Cannon Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
     productManuf: !!set
       R.Db - Duvolle Labs Blueprint: null
   R.Db - Ishukone:
@@ -29993,6 +30237,8 @@ usages:
       Standup L-Set EW Expert System II Blueprint: null
       Standup XL-Set EW and Emissions Co-ordinator II Blueprint: null
       Pontifex Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
     materialME: !!set
       Small Remote Capacitor Transmitter II Blueprint: null
       Capacitor Flux Coil II Blueprint: null
@@ -30048,6 +30294,8 @@ usages:
       Standup L-Set EW Expert System II Blueprint: null
       Standup XL-Set EW and Emissions Co-ordinator II Blueprint: null
       Pontifex Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
     materialTE: !!set
       Small Remote Capacitor Transmitter II Blueprint: null
       Capacitor Flux Coil II Blueprint: null
@@ -30100,6 +30348,8 @@ usages:
       Standup L-Set EW Expert System II Blueprint: null
       Standup XL-Set EW and Emissions Co-ordinator II Blueprint: null
       Pontifex Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
     productManuf: !!set
       R.Db - Khanid Innovation Blueprint: null
   R.Db - Lai Dai:
@@ -30125,6 +30375,8 @@ usages:
       Scan Rangefinding Array II Blueprint: null
       Standup XL-Set Laboratory Optimization I Blueprint: null
       Kirin Blueprint: null
+      Occult M Blueprint: null
+      Mystic L Blueprint: null
     materialME: !!set
       Auto Targeting System II Blueprint: null
       Passive Targeter II Blueprint: null
@@ -30741,6 +30993,19 @@ usages:
       Capital Energy Metastasis Adjuster II Blueprint: null
     productManuf: !!set
       R.Db - Viziam Blueprint: null
+  R.Db.- Hybrid Technology:
+    materialCopy: !!set
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+    materialME: !!set
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+    materialTE: !!set
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
   Rabisu:
     productManuf: !!set
       Rabisu Blueprint: null
@@ -30894,7 +31159,7 @@ usages:
       Rare Moon Ore Mining Crystal I Blueprint: null
   Rattlesnake:
     materialManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇���YC117年特别版蓝图: null
     productManuf: !!set
       Rattlesnake Blueprint: null
   Raven:
@@ -31849,6 +32114,16 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
     materialTE: !!set
       Miner II Blueprint: null
       Small Shield Extender II Blueprint: null
@@ -32536,6 +32811,16 @@ usages:
       Standup XL-Set Reprocessing Monitor II Blueprint: null
       Assault Damage Control II Blueprint: null
       Standup Remote Sensor Dampener II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
+      Entropic Radiation Sink II Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Reprocessing Array:
     materialManuf: !!set
       Reprocessing Array Blueprint: null
@@ -32859,6 +33144,9 @@ usages:
       Standup Multirole Missile Launcher II Blueprint: null
       Standup Anticapital Missile Launcher II Blueprint: null
       Standup Guided Bomb Launcher II Blueprint: null
+      Light Entropic Disintegrator II Blueprint: null
+      Heavy Entropic Disintegrator II Blueprint: null
+      Supratidal Entropic Disintegrator II Blueprint: null
   Rocket Fuel:
     materialManuf: !!set
       Mjolnir Fury Light Missile Blueprint: null
@@ -37311,6 +37599,17 @@ usages:
       Standup Reactor Control Unit II Blueprint: null
       Standup Cap Battery II Blueprint: null
       Standup Capacitor Power Relay II Blueprint: null
+  Supratidal Entropic Disintegrator I:
+    materialManuf: !!set
+      Supratidal Entropic Disintegrator II Blueprint: null
+    productManuf: !!set
+      Supratidal Entropic Disintegrator I Blueprint: null
+  Supratidal Entropic Disintegrator II:
+    productManuf: !!set
+      Supratidal Entropic Disintegrator II Blueprint: null
+  Supratidal Entropic Disintegrator II Blueprint:
+    productInvention: !!set
+      Supratidal Entropic Disintegrator I Blueprint: null
   Survey Networks 1:
     productManuf: !!set
       Survey Networks 1 Blueprint: null
@@ -38227,6 +38526,15 @@ usages:
       Standup Capacitor Power Relay II Blueprint: null
     productManuf: !!set
       Tesseract Capacitor Unit Blueprint: null
+  Tetryon Exotic Plasma L:
+    productManuf: !!set
+      Tetryon Exotic Plasma L Blueprint: null
+  Tetryon Exotic Plasma M:
+    productManuf: !!set
+      Tetryon Exotic Plasma M Blueprint: null
+  Tetryon Exotic Plasma S:
+    productManuf: !!set
+      Tetryon Exotic Plasma S Blueprint: null
   Thalia:
     productManuf: !!set
       Thalia Blueprint: null
@@ -40157,6 +40465,22 @@ usages:
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
       Praxis Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Baryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Baryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Baryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
   True Sansha Capital Capacitor Booster:
     productManuf: !!set
       True Sansha Capital Capacitor Booster Blueprint: null
@@ -40462,6 +40786,9 @@ usages:
   Vargur Nefantar Edition:
     productManuf: !!set
       Vargur Nefantar Edition Blueprint: null
+  Vedmak:
+    productManuf: !!set
+      Vedmak Blueprint: null
   Vehement:
     productManuf: !!set
       Vehement Blueprint: null
@@ -41092,6 +41419,29 @@ usages:
   Zealot Blueprint:
     productInvention: !!set
       Omen Blueprint: null
+  Zero-Point Condensate:
+    materialManuf: !!set
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Light Entropic Disintegrator I Blueprint: null
+      Heavy Entropic Disintegrator I Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Tetryon Exotic Plasma S Blueprint: null
+      Baryon Exotic Plasma S Blueprint: null
+      Meson Exotic Plasma S Blueprint: null
+      Occult S Blueprint: null
+      Mystic S Blueprint: null
+      Tetryon Exotic Plasma M Blueprint: null
+      Baryon Exotic Plasma M Blueprint: null
+      Meson Exotic Plasma M Blueprint: null
+      Occult M Blueprint: null
+      Mystic M Blueprint: null
+      Tetryon Exotic Plasma L Blueprint: null
+      Baryon Exotic Plasma L Blueprint: null
+      Meson Exotic Plasma L Blueprint: null
+      Occult L Blueprint: null
+      Mystic L Blueprint: null
   Zeugma Integrated Analyzer:
     productManuf: !!set
       Zeugma Integrated Analyzer Blueprint: null
@@ -41816,6 +42166,11 @@ usages:
       Standup Cap Battery I Blueprint: null
       Standup Capacitor Power Relay I Blueprint: null
       Standup Layered Armor Plating I Blueprint: null
+      Damavik Blueprint: null
+      Vedmak Blueprint: null
+      Leshak Blueprint: null
+      Supratidal Entropic Disintegrator I Blueprint: null
+      Entropic Radiation Sink I Blueprint: null
   ‘Cold Wind’ Kinetic Reaper:
     productManuf: !!set
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -41825,9 +42180,6 @@ usages:
   ‘Geiravor’ Explosive Lance:
     productManuf: !!set
       ‘Geiravor’ Explosive Lance Blueprint: null
-  ‘Guillotine’ Thermal Reaper:
-    productManuf: !!set
-      ‘Guillotine’ Thermal Reaper Blueprint: null
   ‘Holy Destiny’ Electromagnetic Lance:
     productManuf: !!set
       ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
@@ -41840,18 +42192,18 @@ usages:
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
-  万王宝座��YC117年特别版:
+  万王宝座级YC117年特别版:
     productManuf: !!set
       万王宝座级YC117年特别版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
       乌鸦级YC117年特别版蓝图: null
-  伊什塔级YC117年特别版:
+  伊什��级YC117年特别版:
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
-      响尾蛇级YC117年特别版蓝图: null
+      响尾蛇���YC117年特别版蓝图: null
   地狱天使级YC117年特别版:
     productManuf: !!set
       地狱天使级YC117年特别版蓝图: null
@@ -41872,7 +42224,10 @@ usages:
       灾难级YC117年特别版蓝图: null
   银鹰级YC117年特别版:
     productManuf: !!set
-      银鹰级YC117年特别版蓝图: null
+      银���级YC117年特别版蓝图: null
   马克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
+  ��Guillotine’ Thermal Reaper:
+    productManuf: !!set
+      ‘Guillotine’ Thermal Reaper Blueprint: null

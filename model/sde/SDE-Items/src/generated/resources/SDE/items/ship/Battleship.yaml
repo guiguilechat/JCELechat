@@ -1824,6 +1824,84 @@ items:
     id: 33637
     name: Hyperion Inner Zone Shipping Edition
     volume: 495000.0
+  Leshak:
+    Agility: 0.16300000250339508
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 10500
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    ArmorUniformity: 0.75
+    BaseWarpSpeed: 1
+    CapacitorCapacity: 6600.0
+    CpuOutput: 625
+    DroneBandwidth: 100
+    DroneCapacity: 250
+    EmDamageResonance: 0.6700000166893005
+    ExplosiveDamageResonance: 0.6700000166893005
+    FwLpKill: 500
+    GfxBoosterID: 394
+    HeatAttenuationHi: 0.8199999928474426
+    HeatAttenuationLow: 0.7900000214576721
+    HeatAttenuationMed: 0.7099999785423279
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HeatDissipationRateHi: 0.009999999776482582
+    HeatDissipationRateLow: 0.009999999776482582
+    HeatDissipationRateMed: 0.009999999776482582
+    HeatGenerationMultiplier: 0.5
+    HiSlots: 5
+    Hp: 8000
+    KineticDamageResonance: 0.6700000166893005
+    LowSlots: 8
+    MainColor: 16777215
+    MaxDirectionalVelocity: 1000
+    MaxLockedTargets: 7
+    MaxPassengers: 999
+    MaxTargetRange: 87000
+    MaxVelocity: 113.0
+    MedSlots: 4
+    MinTargetVelDmgMultiplier: 0.5
+    PowerOutput: 17000
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
+    RechargeRate: 1000000.0
+    RequiredSkill1: 47869
+    RequiredSkill1Level: 1
+    RigSize: 3
+    RigSlots: 3
+    ScanRadarStrength: 28.0
+    ScanResolution: 100
+    ScanSpeed: 7500
+    ShieldCapacity: 3500
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 2500000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
+    ShipBonusAB: 5.0
+    ShipBonusCB: 5
+    ShipBonusMB: 5.0
+    ShipBonusPBS1: -5
+    ShipBonusPBS2: 5
+    ShipBonusRole1: 100.0
+    ShipBonusRole2: -50
+    SignatureRadius: 370
+    StructureUniformity: 1.0
+    TechLevel: 1
+    ThermalDamageResonance: 0.6700000166893005
+    TurretSlotsLeft: 1
+    TypeColorScheme: 11313
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WarpCapacitorNeed: 1.3800000431274384E-7
+    WarpSpeedMultiplier: 2.0
+    id: 47271
+    name: Leshak
+    volume: 495000.0
   Machariel:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4379,35 +4457,6 @@ items:
     id: 26842
     name: Tempest Tribal Issue
     volume: 486000.0
-  Trig Large:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    ShipBonusAB: 5.0
-    ShipBonusCB: 5
-    ShipBonusMB: 5.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    id: 47271
-    name: Trig Large
-    volume: 495000.0
   Typhoon:
     Agility: 0.10999999940395355
     ArmorEmDamageResonance: 0.4000000059604645
@@ -4641,7 +4690,7 @@ items:
     id: 17740
     name: Vindicator
     volume: 486000.0
-  万王宝座��YC117年特别版:
+  万王宝座级YC117年特别版:
     Agility: 0.11400000005960464
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4715,7 +4764,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34467
-    name: 万王宝座��YC117年特别版
+    name: 万王宝座级YC117年特别版
     volume: 486000.0
   乌鸦级YC117年特别版:
     Agility: 0.11999999731779099

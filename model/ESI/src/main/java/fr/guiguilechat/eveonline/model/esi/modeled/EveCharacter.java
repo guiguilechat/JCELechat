@@ -18,14 +18,13 @@ import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.character.LocationCache;
+import fr.guiguilechat.eveonline.model.esi.modeled.evecharacter.Bookmarks;
 import fr.guiguilechat.eveonline.model.esi.modeled.evecharacter.Informations;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.LongBinding;
@@ -43,9 +42,12 @@ public class EveCharacter {
 	public EveCharacter(ESIAccount con) {
 		this.con = con;
 		infos = new Informations(con);
+		bms = new Bookmarks(con);
 	}
 
 	public final Informations infos;
+
+	public final Bookmarks bms;
 
 	//
 	// roles
@@ -273,93 +275,6 @@ public class EveCharacter {
 			}
 		}
 		return cachedBlueprints;
-	}
-
-	//
-	// bookmarks
-	//
-
-	private ObservableMap<Integer, String> folders = null;
-
-	private CountDownLatch bmFoldersLatch = new CountDownLatch(1);
-
-	public void waitBMFolders() {
-		try {
-			bmFoldersLatch.await();
-		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-	}
-
-	protected ObservableMap<Integer, String> getBMFolders() {
-		if (folders == null) {
-			synchronized (bmFoldersLatch) {
-				if (folders == null) {
-					folders = FXCollections.observableHashMap();
-					con.addFetchCacheArray(con.characterName() + ".bmFolders",
-							(p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
-							this::handleNewBMFolders, ESIAccount.NOROLE);
-				}
-			}
-		}
-		return folders;
-	}
-
-	protected void handleNewBMFolders(List<R_get_characters_character_id_bookmarks_folders> folder) {
-		Map<Integer, String> map = folder.stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
-		synchronized (folders) {
-			folders.keySet().retainAll(map.keySet());
-			folders.putAll(map);
-		}
-		bmFoldersLatch.countDown();
-	}
-
-	private ObservableMap<String, ObservableMap<Integer, R_get_characters_character_id_bookmarks>> cacheBookmarks = null;
-
-	private CountDownLatch bmLatch = new CountDownLatch(1);
-
-	public void waitBM() {
-		try {
-			bmLatch.await();
-		} catch (InterruptedException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
-	}
-
-	/**
-	 *
-	 * @return the cached list of observable bookmarks, by folder->id->bookmark.
-	 */
-	public ObservableMap<String, ObservableMap<Integer, R_get_characters_character_id_bookmarks>> getBookmarks() {
-		if (cacheBookmarks == null) {
-			synchronized (cacheBookmarks) {
-				if (cacheBookmarks == null) {
-					cacheBookmarks = FXCollections.observableHashMap();
-					con.addFetchCacheArray(con.characterName() + ".bms",
-							(p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
-							this::handleNewBookmarks, ESIAccount.NOROLE);
-				}
-			}
-		}
-		return cacheBookmarks;
-	}
-
-	protected void handleNewBookmarks(List<R_get_characters_character_id_bookmarks> bms) {
-		ObservableMap<Integer, String> folds = getBMFolders();
-		waitBMFolders();
-		for (R_get_characters_character_id_bookmarks f : bms) {
-			String foldName = folds.get(f.folder_id);
-			if (foldName == null) {
-				continue;
-			}
-			ObservableMap<Integer, R_get_characters_character_id_bookmarks> m = cacheBookmarks.get(foldName);
-			if (m == null) {
-				m = FXCollections.observableMap(new LinkedHashMap<>());
-				cacheBookmarks.put(foldName, m);
-			}
-			m.put(f.bookmark_id, f);
-		}
-		bmLatch.countDown();
 	}
 
 	//

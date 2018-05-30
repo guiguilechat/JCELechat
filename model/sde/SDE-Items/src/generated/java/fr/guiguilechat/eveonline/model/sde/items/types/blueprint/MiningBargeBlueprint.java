@@ -28,6 +28,7 @@ public class MiningBargeBlueprint
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

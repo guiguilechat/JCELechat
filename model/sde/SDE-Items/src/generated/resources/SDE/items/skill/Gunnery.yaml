@@ -212,6 +212,19 @@ items:
     id: 12212
     name: Large Blaster Specialization
     volume: 0.01
+  Large Disintegrator Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 167
+    RequiredSkill1: 3312
+    RequiredSkill1Level: 5
+    RequiredSkill2: 47872
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 8.0
+    id: 47875
+    name: Large Disintegrator Specialization
+    volume: 0.01
   Large Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -235,6 +248,18 @@ items:
     SkillTimeConstant: 5.0
     id: 3307
     name: Large Hybrid Turret
+    volume: 0.01
+  Large Precursor Weapon:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 167
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 5
+    RequiredSkill2: 47871
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5.0
+    id: 47872
+    name: Large Precursor Weapon
     volume: 0.01
   Large Projectile Turret:
     DamageMultiplierBonus: 5
@@ -326,6 +351,19 @@ items:
     id: 12211
     name: Medium Blaster Specialization
     volume: 0.01
+  Medium Disintegrator Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 167
+    RequiredSkill1: 3312
+    RequiredSkill1Level: 4
+    RequiredSkill2: 47871
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 5.0
+    id: 47874
+    name: Medium Disintegrator Specialization
+    volume: 0.01
   Medium Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -349,6 +387,18 @@ items:
     SkillTimeConstant: 3.0
     id: 3304
     name: Medium Hybrid Turret
+    volume: 0.01
+  Medium Precursor Weapon:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 167
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 3
+    RequiredSkill2: 47870
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 168
+    SkillTimeConstant: 3.0
+    id: 47871
+    name: Medium Precursor Weapon
     volume: 0.01
   Medium Projectile Turret:
     DamageMultiplierBonus: 5
@@ -470,6 +520,19 @@ items:
     id: 12210
     name: Small Blaster Specialization
     volume: 0.01
+  Small Disintegrator Specialization:
+    CanNotBeTrainedOnTrial: 1
+    DamageMultiplierBonus: 2
+    PrimaryAttribute: 167
+    RequiredSkill1: 3312
+    RequiredSkill1Level: 3
+    RequiredSkill2: 47870
+    RequiredSkill2Level: 5
+    SecondaryAttribute: 168
+    SkillTimeConstant: 3.0
+    id: 47873
+    name: Small Disintegrator Specialization
+    volume: 0.01
   Small Energy Turret:
     DamageMultiplierBonus: 5
     PrimaryAttribute: 167
@@ -489,6 +552,16 @@ items:
     SkillTimeConstant: 1.0
     id: 3301
     name: Small Hybrid Turret
+    volume: 0.01
+  Small Precursor Weapon:
+    DamageMultiplierBonus: 5
+    PrimaryAttribute: 167
+    RequiredSkill1: 3300
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 1.0
+    id: 47870
+    name: Small Precursor Weapon
     volume: 0.01
   Small Projectile Turret:
     DamageMultiplierBonus: 5

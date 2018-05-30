@@ -1152,6 +1152,10 @@ items:
     id: 17140
     name: Security Outpost
     volume: 1.0E8
+  Seeker Bunker:
+    id: 47401
+    name: Seeker Bunker
+    volume: 1000.0
   Serpentis Barricade:
     id: 23222
     name: Serpentis Barricade
@@ -1210,10 +1214,6 @@ items:
   Sleeper Archive Terminal:
     id: 30927
     name: Sleeper Archive Terminal
-    volume: 1.0E8
-  Sleeper Bunker:
-    id: 47401
-    name: Sleeper Bunker
     volume: 1.0E8
   Small Armory:
     id: 16215
@@ -1415,6 +1415,10 @@ items:
     id: 26737
     name: Tough Gallente Starbase Control Tower
     volume: 1150.0
+  Triglavian Bioadaptive Cache:
+    id: 47951
+    name: Triglavian Bioadaptive Cache
+    volume: 1.0E8
   Tutorial Fuel Depot:
     id: 3858
     name: Tutorial Fuel Depot

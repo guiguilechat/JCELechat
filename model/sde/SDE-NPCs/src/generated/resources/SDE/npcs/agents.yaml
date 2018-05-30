@@ -66439,8 +66439,6 @@ agents:
     isLocator: false
     level: 1
     name: Moodle Doodledoo
-    station: Polaris VI - Serpentis Corporation Manufacturing
-    system: Polaris
     type: EventMissionAgent
   Moolis Aulbie:
     corporation: Federation Navy

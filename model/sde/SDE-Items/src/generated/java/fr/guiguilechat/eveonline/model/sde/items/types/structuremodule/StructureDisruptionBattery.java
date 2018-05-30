@@ -119,6 +119,7 @@ public class StructureDisruptionBattery
     @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -168,6 +169,7 @@ public class StructureDisruptionBattery
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

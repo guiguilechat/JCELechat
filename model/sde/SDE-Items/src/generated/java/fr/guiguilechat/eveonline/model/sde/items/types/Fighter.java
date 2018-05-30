@@ -113,6 +113,7 @@ public abstract class Fighter
     @DefaultDoubleValue(0.0)
     public double MaxVelocity;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -267,6 +268,7 @@ public abstract class Fighter
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

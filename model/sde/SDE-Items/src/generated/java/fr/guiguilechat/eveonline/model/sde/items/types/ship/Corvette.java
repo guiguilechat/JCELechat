@@ -77,6 +77,21 @@ public class Corvette
     @DefaultIntValue(0)
     public int MedSlots;
     /**
+     * Authoring has been moved to FSD.
+     * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MetaGroupID;
+    /**
      * Deprecated.
      */
     @HighIsGood(true)
@@ -397,6 +412,10 @@ public class Corvette
             case  13 :
             {
                 return MedSlots;
+            }
+            case  1692 :
+            {
+                return MetaGroupID;
             }
             case  662 :
             {

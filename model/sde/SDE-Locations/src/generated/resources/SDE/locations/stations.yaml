@@ -1,37 +1,4 @@
 locations:
-  0-G8NO VIII - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014862
-    name: missing_60014862
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 0-G8NO
-  0-W778 VII - Moon 2 - Serpentis Corporation Refining:
-    id: 60014885
-    name: missing_60014885
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 0-W778
   0G-A25 VI - Moon 20 - True Power Mining Outpost:
     id: 60014338
     name: missing_60014338
@@ -304,22 +271,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 1-NKVT
-  111-F1 VIII - Moon 3 - Republic Military School Refining:
-    id: 60014895
-    name: missing_60014895
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 111-F1
   1C-TD6 VIII - Moon 2 - Jovian Directorate Treasury:
     id: 60013720
     name: missing_60013720
@@ -459,57 +410,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 1SR-HT
-  1V-LI2 III - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014911
-    name: missing_60014911
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 1V-LI2
-  2-RSC7 VI - Moon 2 - Serpentis Corporation Manufacturing:
-    id: 60014878
-    name: missing_60014878
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 2-RSC7
-  28Y9-P V - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014865
-    name: missing_60014865
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 28Y9-P
   2G38-I VI - Expert Distribution Warehouse:
     id: 60002530
     name: missing_60002530
@@ -544,23 +444,6 @@ locations:
     - Docking
     - Market
     solarSystem: 2G38-I
-  2O-EEW IV - Moon 3 - Serpentis Corporation Cloning:
-    id: 60014915
-    name: missing_60014915
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 2O-EEW
   2P-4LS VIII - Moon 10 - Quafe Company Factory:
     id: 60009943
     name: missing_60009943
@@ -904,38 +787,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 37S-KO
-  3BK-O7 VIII - Moon 1 - Serpentis Corporation Refining:
-    id: 60014898
-    name: missing_60014898
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 3BK-O7
-  3JN9-Q XII - Moon 3 - Serpentis Corporation Refining:
-    id: 60014894
-    name: missing_60014894
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 3JN9-Q
   3KNK-A IX - Moon 12 - Intaki Syndicate Bureau:
     id: 60013531
     name: missing_60013531
@@ -1014,23 +865,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: 3MOG-V
-  4-EFLU VII - Moon 3 - Serpentis Corporation Manufacturing:
-    id: 60014863
-    name: missing_60014863
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 4-EFLU
   42-UOW V - True Creations Shipyard:
     id: 60014185
     name: missing_60014185
@@ -1214,22 +1048,6 @@ locations:
     - Docking
     - Market
     solarSystem: 4L-E5P
-  5-6QW7 VII - Moon 3 - Serpentis Corporation Refining:
-    id: 60014903
-    name: missing_60014903
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 5-6QW7
   5-FGQI V - Moon 13 - Intaki Syndicate Academy:
     id: 60013534
     name: missing_60013534
@@ -1252,22 +1070,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: 5-FGQI
-  5-N2EY VIII - Moon 5 - Republic Military School Refining:
-    id: 60014891
-    name: missing_60014891
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 5-N2EY
   5-P3CQ VIII - Moon 5 - Prosper Depository:
     id: 60013924
     name: missing_60013924
@@ -1781,23 +1583,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: 6-QXE6
-  68FT-6 VI - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014916
-    name: missing_60014916
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 68FT-6
   69A-54 VIII - Jove Navy Assembly Plant:
     id: 60013582
     name: missing_60013582
@@ -1899,22 +1684,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 6NJ8-V
-  6OYQ-Z II - Moon 1 - Serpentis Corporation Refining:
-    id: 60014896
-    name: missing_60014896
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: 6OYQ-Z
   6QBH-S IV - Moon 13 - True Power Mining Outpost:
     id: 60014332
     name: missing_60014332
@@ -1933,23 +1702,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 6QBH-S
-  6T3I-L VII - Moon 5 - Serpentis Corporation Cloning:
-    id: 60014928
-    name: missing_60014928
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 6T3I-L
   6Y-0TW II - Moon 12 - True Creations Shipyard:
     id: 60014167
     name: missing_60014167
@@ -2189,23 +1941,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: 8-UWFS
-  9-4RP2 IV - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014922
-    name: missing_60014922
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 9-4RP2
   9-BUSQ VII - Moon 4 - Jove Navy Assembly Plant:
     id: 60013615
     name: missing_60013615
@@ -2373,40 +2108,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: 98Q-8O
-  995-3G V - Moon 5 - Serpentis Corporation Cloning:
-    id: 60014910
-    name: missing_60014910
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 995-3G
-  9CG6-H VIII - Moon 4 - Serpentis Corporation Cloning:
-    id: 60014921
-    name: missing_60014921
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: 9CG6-H
   9GYL-O V - Moon 13 - Intaki Space Police Assembly Plant:
     id: 60013435
     name: missing_60013435
@@ -15904,22 +15605,6 @@ locations:
     - Docking
     - Interbus
     solarSystem: BJC4-8
-  BKG-Q2 VIII - Moon 1 - Secure Commerce Commission Refining:
-    id: 60014900
-    name: missing_60014900
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: BKG-Q2
   BKK4-H IX - Moon 11 - Jovian Directorate Bureau:
     id: 60013795
     name: missing_60013795
@@ -16054,23 +15739,6 @@ locations:
     - Docking
     - Market
     solarSystem: BY-S36
-  BZ-0GW V - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014872
-    name: missing_60014872
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: BZ-0GW
   Babirmoult VI - Moon 15 - Material Acquisition Mineral Reserve:
     id: 60009544
     name: missing_60009544
@@ -18742,56 +18410,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: Bundindus
-  C-J6MT IV - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014912
-    name: missing_60014912
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: C-J6MT
-  C4C-Z4 VIII - Moon 3 - Serpentis Corporation Refining:
-    id: 60014897
-    name: missing_60014897
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: C4C-Z4
-  C9N-CC I - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014918
-    name: missing_60014918
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: C9N-CC
   CIS-7X IX - Moon 6 - Intaki Syndicate Bureau:
     id: 60013507
     name: missing_60013507
@@ -19139,23 +18757,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: CZ-CED
-  CZDJ-1 X - Moon 4 - Serpentis Corporation Manufacturing:
-    id: 60014871
-    name: missing_60014871
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: CZDJ-1
   Cadelanne V - Material Acquisition Mining Outpost:
     id: 60009439
     name: missing_60009439
@@ -21208,39 +20809,6 @@ locations:
     - Docking
     - Stock Exchange
     solarSystem: Cumemare
-  D2EZ-X VI - Moon 3 - Serpentis Corporation Refining:
-    id: 60014905
-    name: missing_60014905
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: D2EZ-X
-  D4R-H7 VII - Moon 2 - Serpentis Corporation Manufacturing:
-    id: 60014877
-    name: missing_60014877
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: D4R-H7
   D5IW-F VIII - Moon 2 - Chemal Tech Factory:
     id: 60010828
     name: missing_60010828
@@ -21270,22 +20838,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: D5IW-F
-  D7-ZAC VIII - Moon 1 - Serpentis Corporation Refining:
-    id: 60014890
-    name: missing_60014890
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: D7-ZAC
   D85-VD VII - Intaki Bank Vault:
     id: 60013378
     name: missing_60013378
@@ -21378,23 +20930,6 @@ locations:
     - Docking
     - Market
     solarSystem: DCHR-L
-  DG-8VJ IV - Moon 3 - Serpentis Corporation Cloning:
-    id: 60014908
-    name: missing_60014908
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: DG-8VJ
   DLY-RG VIII - Moon 3 - Jove Navy Assembly Plant:
     id: 60013570
     name: missing_60013570
@@ -21491,23 +21026,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: DSS-EZ
-  DZ6-I5 IV - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014927
-    name: missing_60014927
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: DZ6-I5
   Dabrid II - Moon 13 - Caldari Business Tribunal Accounting:
     id: 60003622
     name: missing_60003622
@@ -23649,22 +23167,6 @@ locations:
     - Market
     - Stock Exchange
     solarSystem: E2AX-5
-  E8-YS9 VI - Moon 4 - Serpentis Corporation Refining:
-    id: 60014892
-    name: missing_60014892
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: E8-YS9
   EF-F36 III - Moon 1 - Intaki Space Police Logistic Support:
     id: 60013429
     name: missing_60013429
@@ -28079,38 +27581,6 @@ locations:
     - Docking
     - Stock Exchange
     solarSystem: Eystur
-  F-EM4Q V - Moon 5 - Serpentis Corporation Refining:
-    id: 60014886
-    name: missing_60014886
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: F-EM4Q
-  F2A-GX IV - Moon 4 - Serpentis Corporation Refining:
-    id: 60014889
-    name: missing_60014889
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: F2A-GX
   F67E-Q VIII - Moon 2 - Intaki Commerce Trading Post:
     id: 60013381
     name: missing_60013381
@@ -28149,23 +27619,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: F9SX-1
-  FAT-6P VIII - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014868
-    name: missing_60014868
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: FAT-6P
   FD-MLJ VII - Moon 2 - Intaki Bank Depository:
     id: 60013360
     name: missing_60013360
@@ -28345,22 +27798,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: FO-3PJ
-  FR-B1H VII - Moon 1 - Serpentis Corporation Refining:
-    id: 60014893
-    name: missing_60014893
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: FR-B1H
   FR-RCH I - Moon 10 - Jovian Directorate Bureau:
     id: 60013672
     name: missing_60013672
@@ -30681,23 +30118,6 @@ locations:
     - Market
     - Stock Exchange
     solarSystem: G-N6MC
-  G-Q5JU VII - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014883
-    name: missing_60014883
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: G-Q5JU
   G-TT5V VII - Moon 11 - Blood Raiders Testing Facilities:
     id: 60014948
     name: missing_60014948
@@ -30759,22 +30179,6 @@ locations:
     - Docking
     - Interbus
     solarSystem: G1VU-H
-  G8AD-C XI - Moon 2 - Serpentis Corporation Refining:
-    id: 60014899
-    name: missing_60014899
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: G8AD-C
   GDO-7H VI - Moon 1 - True Creations Assembly Plant:
     id: 60014164
     name: missing_60014164
@@ -30794,22 +30198,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: GDO-7H
-  GQ2S-8 III - Moon 3 - Serpentis Corporation Refining:
-    id: 60014902
-    name: missing_60014902
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: GQ2S-8
   GRNJ-3 III - Intaki Space Police Testing Facilities:
     id: 60013432
     name: missing_60013432
@@ -34178,40 +33566,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: H-PA29
-  H-W9TY XII - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014913
-    name: missing_60014913
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: H-W9TY
-  H74-B0 III - Moon 4 - Serpentis Corporation Manufacturing:
-    id: 60014875
-    name: missing_60014875
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: H74-B0
   H7OL-I III - Moon 3 - Jovian Directorate Bureau:
     id: 60013717
     name: missing_60013717
@@ -34273,23 +33627,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: H7OL-I
-  H8-ZTO VI - Moon 5 - Serpentis Corporation Cloning:
-    id: 60014925
-    name: missing_60014925
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: H8-ZTO
   HD3-JK I - Academy of Aggressive Behaviour:
     id: 60014854
     name: missing_60014854
@@ -40333,23 +39670,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: I-ME3L
-  I-UUI5 IV - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014874
-    name: missing_60014874
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: I-UUI5
   I0AB-R II - Trust Partners Trading Post:
     id: 60014416
     name: missing_60014416
@@ -40631,23 +39951,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: IIRH-G
-  IMK-K1 IX - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014867
-    name: missing_60014867
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: IMK-K1
   Iaokit IX - Moon 7 - Ducia Foundry Mining Outpost:
     id: 60006862
     name: missing_60006862
@@ -46105,56 +45408,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: J7A-UR
-  JLO-Z3 IX - Moon 4 - Serpentis Corporation Refining:
-    id: 60014888
-    name: missing_60014888
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: JLO-Z3
-  JV1V-O IV - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014881
-    name: missing_60014881
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: JV1V-O
-  JZV-F4 V - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014861
-    name: missing_60014861
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: JZV-F4
   Jakanerva II - Moon 1 - Sukuuvestaa Corporation Production Plant:
     id: 60002743
     name: missing_60002743
@@ -48613,23 +47866,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: Juunigaishi
-  K-8SQS VI - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014923
-    name: missing_60014923
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: K-8SQS
   K-MGJ7 IV - Moon 11 - Archangels Testing Facilities:
     id: 60012184
     name: missing_60012184
@@ -54289,23 +53525,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: L-A9FS
-  L-C3O7 VII - Moon 5 - Serpentis Corporation Cloning:
-    id: 60014920
-    name: missing_60014920
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: L-C3O7
   L-TPN0 I - Jovian Directorate Academy:
     id: 60013792
     name: missing_60013792
@@ -54527,22 +53746,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: LJ-YSW
-  LS-JEP IX - Moon 1 - Serpentis Corporation Refining:
-    id: 60014884
-    name: missing_60014884
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: LS-JEP
   LSC4-P I - Quafe Company Warehouse:
     id: 60009940
     name: missing_60009940
@@ -56838,22 +56041,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: M2-CF1
-  M53-1V VI - Moon 4 - Serpentis Corporation Refining:
-    id: 60014887
-    name: missing_60014887
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: M53-1V
   M9-OS2 I - Moon 1 - Prosper Depository:
     id: 60013918
     name: missing_60013918
@@ -56927,40 +56114,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: MN5N-X
-  MO-GZ5 VIII - Moon 2 - Serpentis Corporation Manufacturing:
-    id: 60014880
-    name: missing_60014880
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: MO-GZ5
-  MP5-KR VI - Moon 1 - Republic Military School Manufacturing:
-    id: 60014879
-    name: missing_60014879
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: MP5-KR
   MXYS-8 II - Intaki Commerce Warehouse:
     id: 60013396
     name: missing_60013396
@@ -61076,23 +60229,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: N5Y-4N
-  N7-BIY IV - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014866
-    name: missing_60014866
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: N7-BIY
   NM-OEA V - Moon 4 - Outer Ring Excavations Mining Outpost:
     id: 60012589
     name: missing_60012589
@@ -61129,23 +60265,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: NM-OEA
-  NOL-M9 VI - Moon 2 - Serpentis Corporation Cloning:
-    id: 60014926
-    name: missing_60014926
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: NOL-M9
   NRT4-U II - True Power Logistic Support:
     id: 60014323
     name: missing_60014323
@@ -61225,22 +60344,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: NZG-LF
-  NZW-ZO VII - Moon 1 - Serpentis Corporation Refining:
-    id: 60014904
-    name: missing_60014904
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: NZW-ZO
   Nadohman IV - Moon 3 - Imperial Shipment Storage:
     id: 60007174
     name: missing_60007174
@@ -70870,23 +69973,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: P3UD-M
-  P7-45V IV - Moon 3 - Serpentis Corporation Manufacturing:
-    id: 60014864
-    name: missing_60014864
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: P7-45V
   PBXG-A IV - Jovian Directorate Bureau:
     id: 60013651
     name: missing_60013651
@@ -74436,56 +73522,6 @@ locations:
     - Docking
     - Market
     solarSystem: Polaris
-  Polaris VI - Serpentis Corporation Manufacturing:
-    id: 60014929
-    name: missing_60014929
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Polaris
-  Polaris VII - Serpentis Corporation Refining:
-    id: 60014930
-    name: missing_60014930
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: Polaris
-  Polaris VIII - Serpentis Corporation Cloning:
-    id: 60014931
-    name: missing_60014931
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Polaris
   Polfaly V - Moon 2 - Ministry of Internal Order Assembly Plant:
     id: 60008203
     name: missing_60008203
@@ -74977,23 +74013,6 @@ locations:
     - Market
     - Stock Exchange
     solarSystem: Purjola
-  Q-GQHN VIII - Moon 3 - Serpentis Corporation Cloning:
-    id: 60014909
-    name: missing_60014909
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Q-GQHN
   QFEW-K IV - Guardian Angels Assembly Plant:
     id: 60012895
     name: missing_60012895
@@ -78038,23 +77057,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: S-BWWQ
-  S-EVIQ III - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014919
-    name: missing_60014919
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: S-EVIQ
   S-U8A4 IV - Moon 1 - Expert Distribution Warehouse:
     id: 60002518
     name: missing_60002518
@@ -85822,22 +84824,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: TO21-U
-  TPAR-G IX - Moon 3 - Serpentis Corporation Refining:
-    id: 60014906
-    name: missing_60014906
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: TPAR-G
   TXW-EI I - Intaki Bank Depository:
     id: 60013369
     name: missing_60013369
@@ -90026,22 +89012,6 @@ locations:
     - Docking
     - Market
     solarSystem: U4-Q2V
-  UB5Z-3 II - Moon 1 - Serpentis Corporation Refining:
-    id: 60014901
-    name: missing_60014901
-    services:
-    - Courier Missions
-    - Office Rental
-    - Reprocessing Plant
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Docking
-    solarSystem: UB5Z-3
   UF-KKH III - Moon 2 - True Power Mineral Reserve:
     id: 60014356
     name: missing_60014356
@@ -92694,23 +91664,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: V-IUEL
-  V2-VC2 II - Moon 5 - Serpentis Corporation Cloning:
-    id: 60014914
-    name: missing_60014914
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: V2-VC2
   V4-L0X IV - Moon 1 - Intaki Space Police Assembly Plant:
     id: 60013441
     name: missing_60013441
@@ -92748,23 +91701,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: V4-L0X
-  V7-MID IX - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014873
-    name: missing_60014873
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: V7-MID
   V7D-JD IX - Moon 17 - Archangels Assembly Plant:
     id: 60012199
     name: missing_60012199
@@ -92784,23 +91720,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: V7D-JD
-  VFK-IV VI - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014917
-    name: missing_60014917
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: VFK-IV
   VLGD-R III - Moon 2 - Intaki Syndicate Academy:
     id: 60013477
     name: missing_60013477
@@ -92843,23 +91762,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: VLGD-R
-  VNGJ-U V - Moon 1 - Serpentis Corporation Cloning:
-    id: 60014924
-    name: missing_60014924
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: VNGJ-U
   VSIG-K V - Moon 8 - TransStellar Shipping Storage:
     id: 60009259
     name: missing_60009259
@@ -96599,23 +95501,6 @@ locations:
     - Docking
     - Market
     solarSystem: XYY-IA
-  XZH-4X VI - Moon 3 - Serpentis Corporation Manufacturing:
-    id: 60014876
-    name: missing_60014876
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: XZH-4X
   Y-4CFK V - Moon 17 - Guristas Testing Facilities:
     id: 60012559
     name: missing_60012559
@@ -98137,40 +97022,6 @@ locations:
     - Docking
     - Market
     solarSystem: Yvelet
-  Z-7OK1 III - Moon 2 - Serpentis Corporation Manufacturing:
-    id: 60014882
-    name: missing_60014882
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Z-7OK1
-  Z-H2MA IV - Moon 1 - Serpentis Corporation Manufacturing:
-    id: 60014869
-    name: missing_60014869
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Z-H2MA
   Z-KPAR VIII - Moon 21 - Jovian Directorate Academy:
     id: 60013735
     name: missing_60013735
@@ -98193,23 +97044,6 @@ locations:
     - Stock Exchange
     - Interbus
     solarSystem: Z-KPAR
-  Z-N9IP VII - Moon 2 - Serpentis Corporation Manufacturing:
-    id: 60014870
-    name: missing_60014870
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: Z-N9IP
   Z3V-1W VII - Blood Raiders Assembly Plant:
     id: 60014941
     name: missing_60014941
@@ -98268,23 +97102,6 @@ locations:
     - Bounty Missions
     - Docking
     solarSystem: ZH-KEV
-  ZLZ-1Z IV - Moon 3 - Serpentis Corporation Cloning:
-    id: 60014907
-    name: missing_60014907
-    services:
-    - Courier Missions
-    - Office Rental
-    - Navy Offices
-    - Fitting
-    - Cloning
-    - Insurance
-    - News
-    - Repair Facilities
-    - Bounty Missions
-    - Factory
-    - Docking
-    - Laboratory
-    solarSystem: ZLZ-1Z
   ZN0-SR III - Intaki Bank Depository:
     id: 60013366
     name: missing_60013366

@@ -1057,6 +1057,38 @@ items:
     id: 9955
     name: Polaris
     volume: 0.01
+  Precursor Battleship:
+    PrimaryAttribute: 167
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 5
+    RequiredSkill2: 47868
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 168
+    SkillTimeConstant: 8.0
+    id: 47869
+    name: Precursor Battleship
+    volume: 0.01
+  Precursor Cruiser:
+    PrimaryAttribute: 167
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 4
+    RequiredSkill2: 47867
+    RequiredSkill2Level: 3
+    SecondaryAttribute: 168
+    ShipPowerBonus: 2
+    SkillTimeConstant: 5.0
+    id: 47868
+    name: Precursor Cruiser
+    volume: 0.01
+  Precursor Frigate:
+    PrimaryAttribute: 167
+    RequiredSkill1: 3327
+    RequiredSkill1Level: 1
+    SecondaryAttribute: 168
+    SkillTimeConstant: 2.0
+    id: 47867
+    name: Precursor Frigate
+    volume: 0.01
   Recon Ships:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168

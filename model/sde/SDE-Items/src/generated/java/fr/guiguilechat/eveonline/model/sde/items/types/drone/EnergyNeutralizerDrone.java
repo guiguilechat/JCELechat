@@ -259,6 +259,7 @@ public class EnergyNeutralizerDrone
     @DefaultIntValue(100)
     public int SignatureRadius;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

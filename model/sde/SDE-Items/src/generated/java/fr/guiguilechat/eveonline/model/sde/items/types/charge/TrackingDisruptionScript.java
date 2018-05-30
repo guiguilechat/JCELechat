@@ -48,6 +48,7 @@ public class TrackingDisruptionScript
     @DefaultIntValue(0)
     public int MaxRangeBonusBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

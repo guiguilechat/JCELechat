@@ -180,6 +180,13 @@ items:
     id: 20631
     name: Large 'Sheriff' Shield Extender
     volume: 20.0
+  Large Abyssal Shield Extender:
+    RequiredSkill1: 3425
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47808
+    name: Large Abyssal Shield Extender
+    volume: 20.0
   Large Azeotropic Restrained Shield Extender:
     CapacityBonus: 2200.0
     Cpu: 40.0
@@ -276,6 +283,13 @@ items:
     TechLevel: 1
     id: 20629
     name: Medium 'Canyon' Shield Extender
+    volume: 10.0
+  Medium Abyssal Shield Extender:
+    RequiredSkill1: 3425
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47804
+    name: Medium Abyssal Shield Extender
     volume: 10.0
   Medium Azeotropic Restrained Shield Extender:
     CapacityBonus: 900.0
@@ -482,6 +496,13 @@ items:
     TechLevel: 1
     id: 20625
     name: Small 'Wolf' Shield Extender
+    volume: 5.0
+  Small Abyssal Shield Extender:
+    RequiredSkill1: 3425
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 47800
+    name: Small Abyssal Shield Extender
     volume: 5.0
   Small Azeotropic Restrained Shield Extender:
     CapacityBonus: 450.0

@@ -1,0 +1,77 @@
+items:
+  Blastgrip Tessera:
+    id: 48265
+    name: Blastgrip Tessera
+    volume: 60.0
+  Blastlance Tessella:
+    id: 47859
+    name: Blastlance Tessella
+    volume: 10.0
+  Blastneedle Tessella:
+    id: 47855
+    name: Blastneedle Tessella
+    volume: 10.0
+  Embergrip Tessera:
+    id: 48263
+    name: Embergrip Tessera
+    volume: 60.0
+  Emberlance Tessella:
+    id: 47857
+    name: Emberlance Tessella
+    volume: 10.0
+  Emberneedle Tessella:
+    id: 47848
+    name: Emberneedle Tessella
+    volume: 10.0
+  Fieldweaver Tessella:
+    id: 47850
+    name: Fieldweaver Tessella
+    volume: 10.0
+  Fogcaster Tessella:
+    id: 47852
+    name: Fogcaster Tessella
+    volume: 10.0
+  Gazedimmer Tessella:
+    id: 47853
+    name: Gazedimmer Tessella
+    volume: 10.0
+  Plateforger Tessella:
+    id: 47860
+    name: Plateforger Tessella
+    volume: 10.0
+  Snarecaster Tessella:
+    id: 47851
+    name: Snarecaster Tessella
+    volume: 10.0
+  Sparkgrip Tessera:
+    id: 48262
+    name: Sparkgrip Tessera
+    volume: 60.0
+  Sparklance Tessella:
+    id: 47856
+    name: Sparklance Tessella
+    volume: 10.0
+  Sparkneedle Tessella:
+    id: 47847
+    name: Sparkneedle Tessella
+    volume: 10.0
+  Spotlighter Tessella:
+    id: 47854
+    name: Spotlighter Tessella
+    volume: 10.0
+  Strikegrip Tessera:
+    id: 48264
+    name: Strikegrip Tessera
+    volume: 60.0
+  Strikelance Tessella:
+    id: 47858
+    name: Strikelance Tessella
+    volume: 10.0
+  Strikeneedle Tessella:
+    id: 47849
+    name: Strikeneedle Tessella
+    volume: 10.0
+  Vila Swarmer:
+    id: 48253
+    name: Vila Swarmer
+    volume: 5.0

@@ -56,6 +56,7 @@ public class CyberResourceProcessing
     @DefaultIntValue(0)
     public int RefiningYieldMutator;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

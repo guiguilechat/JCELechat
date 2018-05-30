@@ -28,6 +28,7 @@ public class ToolBlueprint
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

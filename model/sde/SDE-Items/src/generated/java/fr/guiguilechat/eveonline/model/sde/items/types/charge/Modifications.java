@@ -126,6 +126,7 @@ public class Modifications
     @DefaultIntValue(0)
     public int SpeedBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

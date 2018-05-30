@@ -44,6 +44,8 @@ import javafx.util.Duration;
 public class MutaEvals extends Application {
 
 	public static void main(String[] args) {
+		MutaplasmidFamily.searchESI();
+
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 50;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 

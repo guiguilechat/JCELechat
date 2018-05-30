@@ -55,6 +55,7 @@ public class CyberScanning
     @DefaultIntValue(0)
     public int ScanStrengthBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

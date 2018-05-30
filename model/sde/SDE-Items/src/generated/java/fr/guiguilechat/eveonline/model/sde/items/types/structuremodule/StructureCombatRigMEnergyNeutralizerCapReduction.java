@@ -112,6 +112,7 @@ public class StructureCombatRigMEnergyNeutralizerCapReduction
     @DefaultIntValue(0)
     public int StructureRigEwarCapUseBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

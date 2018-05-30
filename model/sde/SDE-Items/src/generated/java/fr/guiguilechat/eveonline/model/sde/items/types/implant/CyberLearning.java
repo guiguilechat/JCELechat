@@ -48,6 +48,7 @@ public class CyberLearning
     @DefaultIntValue(0)
     public int PerceptionBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

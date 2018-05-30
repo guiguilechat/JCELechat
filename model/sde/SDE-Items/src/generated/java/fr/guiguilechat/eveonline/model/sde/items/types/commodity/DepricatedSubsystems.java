@@ -154,6 +154,7 @@ public class DepricatedSubsystems
     @DefaultIntValue(0)
     public int MedSlotModifier;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -595,6 +596,7 @@ public class DepricatedSubsystems
     @DefaultIntValue(0)
     public int SubsystemBonusMinmatarPropulsion;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

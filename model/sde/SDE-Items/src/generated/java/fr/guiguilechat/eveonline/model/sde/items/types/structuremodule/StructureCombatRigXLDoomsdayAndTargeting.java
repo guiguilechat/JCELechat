@@ -128,7 +128,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureRigPDCapUseBonus;
@@ -147,6 +147,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     @DefaultIntValue(0)
     public int StructureRigScanResBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

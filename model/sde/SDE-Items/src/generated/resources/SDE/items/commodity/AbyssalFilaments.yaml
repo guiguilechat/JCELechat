@@ -1,0 +1,157 @@
+items:
+  Agitated Dark Filament:
+    DifficultyTier: 2
+    WeatherID: 47863
+    id: 47892
+    name: Agitated Dark Filament
+    volume: 10.0
+  Agitated Electrical Filament:
+    DifficultyTier: 2
+    WeatherID: 47865
+    id: 47904
+    name: Agitated Electrical Filament
+    volume: 10.0
+  Agitated Exotic Filament:
+    DifficultyTier: 2
+    WeatherID: 47862
+    id: 47888
+    name: Agitated Exotic Filament
+    volume: 10.0
+  Agitated Firestorm Filament:
+    DifficultyTier: 2
+    WeatherID: 47864
+    id: 47896
+    name: Agitated Firestorm Filament
+    volume: 10.0
+  Agitated Gamma Filament:
+    DifficultyTier: 2
+    WeatherID: 47866
+    id: 47900
+    name: Agitated Gamma Filament
+    volume: 10.0
+  Calm Dark Filament:
+    DifficultyTier: 1
+    WeatherID: 47863
+    id: 47762
+    name: Calm Dark Filament
+    volume: 10.0
+  Calm Electrical Filament:
+    DifficultyTier: 1
+    WeatherID: 47865
+    id: 47765
+    name: Calm Electrical Filament
+    volume: 10.0
+  Calm Exotic Filament:
+    DifficultyTier: 1
+    WeatherID: 47862
+    id: 47761
+    name: Calm Exotic Filament
+    volume: 10.0
+  Calm Firestorm Filament:
+    DifficultyTier: 1
+    WeatherID: 47864
+    id: 47763
+    name: Calm Firestorm Filament
+    volume: 10.0
+  Calm Gamma Filament:
+    DifficultyTier: 1
+    WeatherID: 47866
+    id: 47764
+    name: Calm Gamma Filament
+    volume: 10.0
+  Chaotic Dark Filament:
+    DifficultyTier: 5
+    WeatherID: 47863
+    id: 47895
+    name: Chaotic Dark Filament
+    volume: 10.0
+  Chaotic Electrical Filament:
+    DifficultyTier: 5
+    WeatherID: 47865
+    id: 47907
+    name: Chaotic Electrical Filament
+    volume: 10.0
+  Chaotic Exotic Filament:
+    DifficultyTier: 5
+    WeatherID: 47862
+    id: 47891
+    name: Chaotic Exotic Filament
+    volume: 10.0
+  Chaotic Firestorm Filament:
+    DifficultyTier: 5
+    WeatherID: 47864
+    id: 47899
+    name: Chaotic Firestorm Filament
+    volume: 10.0
+  Chaotic Gamma Filament:
+    DifficultyTier: 5
+    WeatherID: 47866
+    id: 47903
+    name: Chaotic Gamma Filament
+    volume: 10.0
+  Fierce Dark Filament:
+    DifficultyTier: 3
+    WeatherID: 47863
+    id: 47893
+    name: Fierce Dark Filament
+    volume: 10.0
+  Fierce Electrical Filament:
+    DifficultyTier: 3
+    WeatherID: 47865
+    id: 47905
+    name: Fierce Electrical Filament
+    volume: 10.0
+  Fierce Exotic Filament:
+    DifficultyTier: 3
+    WeatherID: 47862
+    id: 47889
+    name: Fierce Exotic Filament
+    volume: 10.0
+  Fierce Firestorm Filament:
+    DifficultyTier: 3
+    WeatherID: 47864
+    id: 47897
+    name: Fierce Firestorm Filament
+    volume: 10.0
+  Fierce Gamma Filament:
+    DifficultyTier: 3
+    WeatherID: 47866
+    id: 47901
+    name: Fierce Gamma Filament
+    volume: 10.0
+  Raging Dark Filament:
+    DifficultyTier: 4
+    WeatherID: 47863
+    id: 47894
+    name: Raging Dark Filament
+    volume: 10.0
+  Raging Electrical Filament:
+    DifficultyTier: 4
+    WeatherID: 47865
+    id: 47906
+    name: Raging Electrical Filament
+    volume: 10.0
+  Raging Exotic Filament:
+    DifficultyTier: 4
+    WeatherID: 47862
+    id: 47890
+    name: Raging Exotic Filament
+    volume: 10.0
+  Raging Firestorm Filament:
+    DifficultyTier: 4
+    WeatherID: 47864
+    id: 47898
+    name: Raging Firestorm Filament
+    volume: 10.0
+  Raging Gamma Filament:
+    DifficultyTier: 4
+    WeatherID: 47866
+    id: 47902
+    name: Raging Gamma Filament
+    volume: 10.0
+  basic_key_placeholder:
+    DifficultyTier: 4
+    WeatherID: 47866
+    id: 47711
+    name: basic_key_placeholder
+    volume: 10.0

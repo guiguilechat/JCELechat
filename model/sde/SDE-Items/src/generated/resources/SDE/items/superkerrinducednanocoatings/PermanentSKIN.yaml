@@ -147,6 +147,10 @@ items:
     id: 39264
     name: Absolution Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Absolution Star Captain SKIN (Permanent):
+    id: 48243
+    name: Absolution Star Captain SKIN (Permanent)
+    volume: 0.01
   Aeon Blood Raider Victory SKIN (Permanent):
     id: 43538
     name: Aeon Blood Raider Victory SKIN (Permanent)
@@ -219,6 +223,10 @@ items:
     id: 37948
     name: Aeon Sarum Serenity Only SKIN (Permanent)
     volume: 0.01
+  Aeon Star Captain SKIN (Permanent):
+    id: 48366
+    name: Aeon Star Captain SKIN (Permanent)
+    volume: 0.01
   Algos Exoplanets Hunter SKIN (Permanent):
     id: 45887
     name: Algos Exoplanets Hunter SKIN (Permanent)
@@ -250,6 +258,10 @@ items:
   Algos Kopis Edge SKIN (Permanent):
     id: 46399
     name: Algos Kopis Edge SKIN (Permanent)
+    volume: 0.01
+  Algos Luminaire Zenith SKIN (Permanent):
+    id: 48227
+    name: Algos Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Algos Ruby Sungrazer SKIN (Permanent):
     id: 45562
@@ -671,6 +683,10 @@ items:
     id: 37913
     name: Arbitrator Kador Serenity Only SKIN (Permanent)
     volume: 0.01
+  Arbitrator Luminaire Zenith SKIN (Permanent):
+    id: 48220
+    name: Arbitrator Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Arbitrator Purity of the Throne SKIN (Permanent):
     id: 42565
     name: Arbitrator Purity of the Throne SKIN (Permanent)
@@ -854,6 +870,10 @@ items:
   Ark Raata Sunset Serenity Only SKIN (Permanent):
     id: 39344
     name: Ark Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Ark Star Captain SKIN (Permanent):
+    id: 48368
+    name: Ark Star Captain SKIN (Permanent)
     volume: 0.01
   Armageddon "Blaze" Squadron SKIN (Permanent):
     id: 47102
@@ -1095,6 +1115,10 @@ items:
     id: 46383
     name: Atron Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Atron Luminaire Zenith SKIN (Permanent):
+    id: 48226
+    name: Atron Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Atron Serpentis SKIN (Permanent):
     id: 42147
     name: Atron Serpentis SKIN (Permanent)
@@ -1299,6 +1323,10 @@ items:
     id: 39314
     name: Avatar Raata Sunset Serenity Only SKIN (Permanent)
     volume: 0.01
+  Avatar Star Captain SKIN (Permanent):
+    id: 48367
+    name: Avatar Star Captain SKIN (Permanent)
+    volume: 0.01
   Badger Blue Tiger SKIN (Permanent):
     id: 36745
     name: Badger Blue Tiger SKIN (Permanent)
@@ -1310,6 +1338,10 @@ items:
   Badger Exoplanets Hunter SKIN (Permanent):
     id: 45863
     name: Badger Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Badger Ghostbird SKIN (Permanent):
+    id: 48206
+    name: Badger Ghostbird SKIN (Permanent)
     volume: 0.01
   Badger Glacial Drift SKIN (Permanent):
     id: 46867
@@ -1354,6 +1386,10 @@ items:
   Bantam Exoplanets Hunter SKIN (Permanent):
     id: 45812
     name: Bantam Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Bantam Ghostbird SKIN (Permanent):
+    id: 48155
+    name: Bantam Ghostbird SKIN (Permanent)
     volume: 0.01
   Bantam Glacial Drift SKIN (Permanent):
     id: 44148
@@ -1446,6 +1482,10 @@ items:
   Basilisk Exoplanets Hunter SKIN (Permanent):
     id: 45840
     name: Basilisk Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Basilisk Ghostbird SKIN (Permanent):
+    id: 48183
+    name: Basilisk Ghostbird SKIN (Permanent)
     volume: 0.01
   Basilisk Glacial Drift SKIN (Permanent):
     id: 46844
@@ -1635,9 +1675,17 @@ items:
     id: 45833
     name: Blackbird Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Blackbird Ghostbird SKIN (Permanent):
+    id: 48176
+    name: Blackbird Ghostbird SKIN (Permanent)
+    volume: 0.01
   Blackbird Glacial Drift SKIN (Permanent):
     id: 44157
     name: Blackbird Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Blackbird Luminaire Zenith SKIN (Permanent):
+    id: 48224
+    name: Blackbird Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Blackbird Matigu Seabeast SKIN (Permanent):
     id: 40597
@@ -1959,6 +2007,10 @@ items:
     id: 45866
     name: Bustard Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Bustard Ghostbird SKIN (Permanent):
+    id: 48209
+    name: Bustard Ghostbird SKIN (Permanent)
+    volume: 0.01
   Bustard Glacial Drift SKIN (Permanent):
     id: 46870
     name: Bustard Glacial Drift SKIN (Permanent)
@@ -2007,6 +2059,10 @@ items:
     id: 45820
     name: Buzzard Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Buzzard Ghostbird SKIN (Permanent):
+    id: 48163
+    name: Buzzard Ghostbird SKIN (Permanent)
+    volume: 0.01
   Buzzard Glacial Drift SKIN (Permanent):
     id: 46830
     name: Buzzard Glacial Drift SKIN (Permanent)
@@ -2046,6 +2102,10 @@ items:
   Caldari Navy Hookbill Exoplanets Hunter SKIN (Permanent):
     id: 45826
     name: Caldari Navy Hookbill Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Caldari Navy Hookbill Ghostbird SKIN (Permanent):
+    id: 48169
+    name: Caldari Navy Hookbill Ghostbird SKIN (Permanent)
     volume: 0.01
   Caldari Navy Hookbill Glacial Drift SKIN (Permanent):
     id: 46836
@@ -2115,6 +2175,10 @@ items:
     id: 45834
     name: Caracal Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Caracal Ghostbird SKIN (Permanent):
+    id: 48177
+    name: Caracal Ghostbird SKIN (Permanent)
+    volume: 0.01
   Caracal Glacial Drift SKIN (Permanent):
     id: 44158
     name: Caracal Glacial Drift SKIN (Permanent)
@@ -2142,6 +2206,10 @@ items:
   Caracal Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45844
     name: Caracal Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Caracal Navy Issue Ghostbird SKIN (Permanent):
+    id: 48187
+    name: Caracal Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Caracal Navy Issue Glacial Drift SKIN (Permanent):
     id: 46848
@@ -2351,6 +2419,10 @@ items:
     id: 45837
     name: Cerberus Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Cerberus Ghostbird SKIN (Permanent):
+    id: 48180
+    name: Cerberus Ghostbird SKIN (Permanent)
+    volume: 0.01
   Cerberus Glacial Drift SKIN (Permanent):
     id: 46841
     name: Cerberus Glacial Drift SKIN (Permanent)
@@ -2402,6 +2474,10 @@ items:
   Charon Exoplanets Hunter SKIN (Permanent):
     id: 45867
     name: Charon Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Charon Ghostbird SKIN (Permanent):
+    id: 48210
+    name: Charon Ghostbird SKIN (Permanent)
     volume: 0.01
   Charon Glacial Drift SKIN (Permanent):
     id: 46871
@@ -2490,6 +2566,10 @@ items:
   Chimera Exoplanets Hunter SKIN (Permanent):
     id: 45860
     name: Chimera Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Chimera Ghostbird SKIN (Permanent):
+    id: 48203
+    name: Chimera Ghostbird SKIN (Permanent)
     volume: 0.01
   Chimera Glacial Drift SKIN (Permanent):
     id: 46864
@@ -2671,6 +2751,10 @@ items:
     id: 44647
     name: Coercer Ironblood Serenity Only SKIN (Permanent)
     volume: 0.01
+  Coercer Luminaire Zenith SKIN (Permanent):
+    id: 48219
+    name: Coercer Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Coercer Purity of the Throne SKIN (Permanent):
     id: 42560
     name: Coercer Purity of the Throne SKIN (Permanent)
@@ -2706,6 +2790,10 @@ items:
   Condor Exoplanets Hunter SKIN (Permanent):
     id: 45813
     name: Condor Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Condor Ghostbird SKIN (Permanent):
+    id: 48156
+    name: Condor Ghostbird SKIN (Permanent)
     volume: 0.01
   Condor Glacial Drift SKIN (Permanent):
     id: 44152
@@ -2783,9 +2871,17 @@ items:
     id: 45828
     name: Corax Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Corax Ghostbird SKIN (Permanent):
+    id: 48171
+    name: Corax Ghostbird SKIN (Permanent)
+    volume: 0.01
   Corax Glacial Drift SKIN (Permanent):
     id: 44155
     name: Corax Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Corax Luminaire Zenith SKIN (Permanent):
+    id: 48223
+    name: Corax Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Corax Matigu Seabeast SKIN (Permanent):
     id: 40593
@@ -2826,6 +2922,10 @@ items:
   Cormorant Exoplanets Hunter SKIN (Permanent):
     id: 45829
     name: Cormorant Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Cormorant Ghostbird SKIN (Permanent):
+    id: 48172
+    name: Cormorant Ghostbird SKIN (Permanent)
     volume: 0.01
   Cormorant Glacial Drift SKIN (Permanent):
     id: 44154
@@ -2959,6 +3059,10 @@ items:
     id: 45865
     name: Crane Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Crane Ghostbird SKIN (Permanent):
+    id: 48208
+    name: Crane Ghostbird SKIN (Permanent)
+    volume: 0.01
   Crane Glacial Drift SKIN (Permanent):
     id: 46869
     name: Crane Glacial Drift SKIN (Permanent)
@@ -3006,6 +3110,10 @@ items:
   Crow Exoplanets Hunter SKIN (Permanent):
     id: 45823
     name: Crow Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Crow Ghostbird SKIN (Permanent):
+    id: 48166
+    name: Crow Ghostbird SKIN (Permanent)
     volume: 0.01
   Crow Glacial Drift SKIN (Permanent):
     id: 46833
@@ -3279,6 +3387,10 @@ items:
     id: 38620
     name: Cyclone Krusual Serenity Only SKIN (Permanent)
     volume: 0.01
+  Cyclone Luminaire Zenith SKIN (Permanent):
+    id: 48233
+    name: Cyclone Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Cyclone Thukker Tribe SKIN (Permanent):
     id: 34619
     name: Cyclone Thukker Tribe SKIN (Permanent)
@@ -3374,6 +3486,10 @@ items:
   Damnation Raata Sunset Serenity Only SKIN (Permanent):
     id: 39269
     name: Damnation Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Damnation Star Captain SKIN (Permanent):
+    id: 48244
+    name: Damnation Star Captain SKIN (Permanent)
     volume: 0.01
   Daredevil Glacial Drift SKIN (Permanent):
     id: 46996
@@ -3727,6 +3843,10 @@ items:
     id: 45846
     name: Drake Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Drake Ghostbird SKIN (Permanent):
+    id: 48189
+    name: Drake Ghostbird SKIN (Permanent)
+    volume: 0.01
   Drake Glacial Drift SKIN (Permanent):
     id: 46850
     name: Drake Glacial Drift SKIN (Permanent)
@@ -3750,6 +3870,10 @@ items:
   Drake Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45851
     name: Drake Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Drake Navy Issue Ghostbird SKIN (Permanent):
+    id: 48194
+    name: Drake Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Drake Navy Issue Glacial Drift SKIN (Permanent):
     id: 46855
@@ -3842,6 +3966,10 @@ items:
   Eagle Exoplanets Hunter SKIN (Permanent):
     id: 45838
     name: Eagle Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Eagle Ghostbird SKIN (Permanent):
+    id: 48181
+    name: Eagle Ghostbird SKIN (Permanent)
     volume: 0.01
   Eagle Glacial Drift SKIN (Permanent):
     id: 46842
@@ -4367,6 +4495,10 @@ items:
     id: 45841
     name: Falcon Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Falcon Ghostbird SKIN (Permanent):
+    id: 48184
+    name: Falcon Ghostbird SKIN (Permanent)
+    volume: 0.01
   Falcon Glacial Drift SKIN (Permanent):
     id: 46845
     name: Falcon Glacial Drift SKIN (Permanent)
@@ -4495,6 +4627,10 @@ items:
     id: 45847
     name: Ferox Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Ferox Ghostbird SKIN (Permanent):
+    id: 48190
+    name: Ferox Ghostbird SKIN (Permanent)
+    volume: 0.01
   Ferox Glacial Drift SKIN (Permanent):
     id: 46851
     name: Ferox Glacial Drift SKIN (Permanent)
@@ -4510,6 +4646,10 @@ items:
   Ferox Lai Dai Serenity Only SKIN (Permanent):
     id: 37959
     name: Ferox Lai Dai Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Ferox Luminaire Rising SKIN (Permanent):
+    id: 48217
+    name: Ferox Luminaire Rising SKIN (Permanent)
     volume: 0.01
   Ferox Matigu Seabeast SKIN (Permanent):
     id: 40608
@@ -4550,6 +4690,10 @@ items:
   Flycatcher Exoplanets Hunter SKIN (Permanent):
     id: 45831
     name: Flycatcher Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Flycatcher Ghostbird SKIN (Permanent):
+    id: 48174
+    name: Flycatcher Ghostbird SKIN (Permanent)
     volume: 0.01
   Flycatcher Glacial Drift SKIN (Permanent):
     id: 46839
@@ -4695,6 +4839,10 @@ items:
     id: 45856
     name: Golem Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Golem Ghostbird SKIN (Permanent):
+    id: 48199
+    name: Golem Ghostbird SKIN (Permanent)
+    volume: 0.01
   Golem Glacial Drift SKIN (Permanent):
     id: 46860
     name: Golem Glacial Drift SKIN (Permanent)
@@ -4763,9 +4911,17 @@ items:
     id: 45814
     name: Griffin Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Griffin Ghostbird SKIN (Permanent):
+    id: 48157
+    name: Griffin Ghostbird SKIN (Permanent)
+    volume: 0.01
   Griffin Glacial Drift SKIN (Permanent):
     id: 44151
     name: Griffin Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Griffin Luminaire Zenith SKIN (Permanent):
+    id: 48222
+    name: Griffin Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Griffin Matigu Seabeast SKIN (Permanent):
     id: 40581
@@ -4778,6 +4934,10 @@ items:
   Griffin Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45827
     name: Griffin Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Griffin Navy Issue Ghostbird SKIN (Permanent):
+    id: 48170
+    name: Griffin Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Griffin Navy Issue Glacial Drift SKIN (Permanent):
     id: 46837
@@ -4870,6 +5030,10 @@ items:
   Guardian Raata Sunset Serenity Only SKIN (Permanent):
     id: 39234
     name: Guardian Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Guardian Star Captain SKIN (Permanent):
+    id: 48242
+    name: Guardian Star Captain SKIN (Permanent)
     volume: 0.01
   Guristas Victory SKIN (Permanent):
     id: 45552
@@ -4999,6 +5163,10 @@ items:
     id: 45818
     name: Harpy Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Harpy Ghostbird SKIN (Permanent):
+    id: 48161
+    name: Harpy Ghostbird SKIN (Permanent)
+    volume: 0.01
   Harpy Glacial Drift SKIN (Permanent):
     id: 46828
     name: Harpy Glacial Drift SKIN (Permanent)
@@ -5042,6 +5210,10 @@ items:
   Hawk Exoplanets Hunter SKIN (Permanent):
     id: 45819
     name: Hawk Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Hawk Ghostbird SKIN (Permanent):
+    id: 48162
+    name: Hawk Ghostbird SKIN (Permanent)
     volume: 0.01
   Hawk Glacial Drift SKIN (Permanent):
     id: 46829
@@ -5286,6 +5458,10 @@ items:
   Heron Exoplanets Hunter SKIN (Permanent):
     id: 45815
     name: Heron Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Heron Ghostbird SKIN (Permanent):
+    id: 48158
+    name: Heron Ghostbird SKIN (Permanent)
     volume: 0.01
   Heron Glacial Drift SKIN (Permanent):
     id: 44149
@@ -6015,6 +6191,10 @@ items:
     id: 37945
     name: Inquisitor Khanid Serenity Only SKIN (Permanent)
     volume: 0.01
+  Inquisitor Luminaire Zenith SKIN (Permanent):
+    id: 48218
+    name: Inquisitor Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Inquisitor Purity of the Throne SKIN (Permanent):
     id: 42546
     name: Inquisitor Purity of the Throne SKIN (Permanent)
@@ -6219,6 +6399,10 @@ items:
     id: 45832
     name: Jackdaw Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Jackdaw Ghostbird SKIN (Permanent):
+    id: 48175
+    name: Jackdaw Ghostbird SKIN (Permanent)
+    volume: 0.01
   Jackdaw Glacial Drift SKIN (Permanent):
     id: 46840
     name: Jackdaw Glacial Drift SKIN (Permanent)
@@ -6331,6 +6515,10 @@ items:
     id: 45816
     name: Kestrel Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Kestrel Ghostbird SKIN (Permanent):
+    id: 48159
+    name: Kestrel Ghostbird SKIN (Permanent)
+    volume: 0.01
   Kestrel Glacial Drift SKIN (Permanent):
     id: 44150
     name: Kestrel Glacial Drift SKIN (Permanent)
@@ -6375,6 +6563,10 @@ items:
     id: 45825
     name: Kirin Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Kirin Ghostbird SKIN (Permanent):
+    id: 48168
+    name: Kirin Ghostbird SKIN (Permanent)
+    volume: 0.01
   Kirin Glacial Drift SKIN (Permanent):
     id: 46835
     name: Kirin Glacial Drift SKIN (Permanent)
@@ -6402,6 +6594,10 @@ items:
   Kitsune Exoplanets Hunter SKIN (Permanent):
     id: 45822
     name: Kitsune Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Kitsune Ghostbird SKIN (Permanent):
+    id: 48165
+    name: Kitsune Ghostbird SKIN (Permanent)
     volume: 0.01
   Kitsune Glacial Drift SKIN (Permanent):
     id: 46832
@@ -6618,6 +6814,10 @@ items:
   Leviathan Exoplanets Hunter SKIN (Permanent):
     id: 45862
     name: Leviathan Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Leviathan Ghostbird SKIN (Permanent):
+    id: 48205
+    name: Leviathan Ghostbird SKIN (Permanent)
     volume: 0.01
   Leviathan Glacial Drift SKIN (Permanent):
     id: 46866
@@ -7171,6 +7371,10 @@ items:
     id: 45821
     name: Manticore Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Manticore Ghostbird SKIN (Permanent):
+    id: 48164
+    name: Manticore Ghostbird SKIN (Permanent)
+    volume: 0.01
   Manticore Glacial Drift SKIN (Permanent):
     id: 46831
     name: Manticore Glacial Drift SKIN (Permanent)
@@ -7455,6 +7659,10 @@ items:
     id: 45817
     name: Merlin Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Merlin Ghostbird SKIN (Permanent):
+    id: 48160
+    name: Merlin Ghostbird SKIN (Permanent)
+    volume: 0.01
   Merlin Glacial Drift SKIN (Permanent):
     id: 44153
     name: Merlin Glacial Drift SKIN (Permanent)
@@ -7591,6 +7799,10 @@ items:
     id: 46147
     name: Minokawa Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Minokawa Ghostbird SKIN (Permanent):
+    id: 48212
+    name: Minokawa Ghostbird SKIN (Permanent)
+    volume: 0.01
   Minokawa Glacial Drift SKIN (Permanent):
     id: 47050
     name: Minokawa Glacial Drift SKIN (Permanent)
@@ -7626,6 +7838,10 @@ items:
   Moa Exoplanets Hunter SKIN (Permanent):
     id: 45835
     name: Moa Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Moa Ghostbird SKIN (Permanent):
+    id: 48178
+    name: Moa Ghostbird SKIN (Permanent)
     volume: 0.01
   Moa Glacial Drift SKIN (Permanent):
     id: 44159
@@ -7871,9 +8087,17 @@ items:
     id: 45848
     name: Naga Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Naga Ghostbird SKIN (Permanent):
+    id: 48191
+    name: Naga Ghostbird SKIN (Permanent)
+    volume: 0.01
   Naga Glacial Drift SKIN (Permanent):
     id: 46852
     name: Naga Glacial Drift SKIN (Permanent)
+    volume: 0.01
+  Naga Luminaire Zenith SKIN (Permanent):
+    id: 48225
+    name: Naga Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Naga Matigu Seabeast SKIN (Permanent):
     id: 40609
@@ -8203,6 +8427,10 @@ items:
     id: 45849
     name: Nighthawk Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Nighthawk Ghostbird SKIN (Permanent):
+    id: 48192
+    name: Nighthawk Ghostbird SKIN (Permanent)
+    volume: 0.01
   Nighthawk Glacial Drift SKIN (Permanent):
     id: 46853
     name: Nighthawk Glacial Drift SKIN (Permanent)
@@ -8326,6 +8554,10 @@ items:
   Nomad Valklear Glory Serenity Only SKIN (Permanent):
     id: 40051
     name: Nomad Valklear Glory Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Nyx Dos Rouvenor's Bequest SKIN (Permanent):
+    id: 48213
+    name: Nyx Dos Rouvenor's Bequest SKIN (Permanent)
     volume: 0.01
   Nyx Exoplanets Hunter SKIN (Permanent):
     id: 45920
@@ -8699,6 +8931,10 @@ items:
     id: 45839
     name: Onyx Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Onyx Ghostbird SKIN (Permanent):
+    id: 48182
+    name: Onyx Ghostbird SKIN (Permanent)
+    volume: 0.01
   Onyx Glacial Drift SKIN (Permanent):
     id: 46843
     name: Onyx Glacial Drift SKIN (Permanent)
@@ -8947,6 +9183,10 @@ items:
     id: 45836
     name: Osprey Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Osprey Ghostbird SKIN (Permanent):
+    id: 48179
+    name: Osprey Ghostbird SKIN (Permanent)
+    volume: 0.01
   Osprey Glacial Drift SKIN (Permanent):
     id: 44156
     name: Osprey Glacial Drift SKIN (Permanent)
@@ -8962,6 +9202,10 @@ items:
   Osprey Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45845
     name: Osprey Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Osprey Navy Issue Ghostbird SKIN (Permanent):
+    id: 48188
+    name: Osprey Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Osprey Navy Issue Glacial Drift SKIN (Permanent):
     id: 46849
@@ -9067,6 +9311,10 @@ items:
     id: 34811
     name: Paladin Kador SKIN (Permanent)
     volume: 0.01
+  Paladin Luminaire Rising SKIN (Permanent):
+    id: 48214
+    name: Paladin Luminaire Rising SKIN (Permanent)
+    volume: 0.01
   Paladin Purity of the Throne SKIN (Permanent):
     id: 42588
     name: Paladin Purity of the Throne SKIN (Permanent)
@@ -9118,6 +9366,10 @@ items:
   Panther Justice Serenity Only SKIN (Permanent):
     id: 38559
     name: Panther Justice Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Panther Luminaire Rising SKIN (Permanent):
+    id: 48216
+    name: Panther Luminaire Rising SKIN (Permanent)
     volume: 0.01
   Panther Nova Serenity Only SKIN (Permanent):
     id: 38190
@@ -9198,6 +9450,10 @@ items:
   Phoenix Exoplanets Hunter SKIN (Permanent):
     id: 45859
     name: Phoenix Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Phoenix Ghostbird SKIN (Permanent):
+    id: 48202
+    name: Phoenix Ghostbird SKIN (Permanent)
     volume: 0.01
   Phoenix Glacial Drift SKIN (Permanent):
     id: 46863
@@ -9559,6 +9815,10 @@ items:
     id: 37905
     name: Prophecy Kador Serenity Only SKIN (Permanent)
     volume: 0.01
+  Prophecy Luminaire Zenith SKIN (Permanent):
+    id: 48221
+    name: Prophecy Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Prophecy Purity of the Throne SKIN (Permanent):
     id: 42580
     name: Prophecy Purity of the Throne SKIN (Permanent)
@@ -9790,6 +10050,10 @@ items:
   Providence Raata Sunset Serenity Only SKIN (Permanent):
     id: 39339
     name: Providence Raata Sunset Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Providence Star Captain SKIN (Permanent):
+    id: 48369
+    name: Providence Star Captain SKIN (Permanent)
     volume: 0.01
   Prowler Blue Tiger SKIN (Permanent):
     id: 36841
@@ -10059,6 +10323,10 @@ items:
     id: 45824
     name: Raptor Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Raptor Ghostbird SKIN (Permanent):
+    id: 48167
+    name: Raptor Ghostbird SKIN (Permanent)
+    volume: 0.01
   Raptor Glacial Drift SKIN (Permanent):
     id: 46834
     name: Raptor Glacial Drift SKIN (Permanent)
@@ -10127,6 +10395,10 @@ items:
     id: 45852
     name: Raven Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Raven Ghostbird SKIN (Permanent):
+    id: 48195
+    name: Raven Ghostbird SKIN (Permanent)
+    volume: 0.01
   Raven Glacial Drift SKIN (Permanent):
     id: 46856
     name: Raven Glacial Drift SKIN (Permanent)
@@ -10162,6 +10434,10 @@ items:
   Raven Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45857
     name: Raven Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Raven Navy Issue Ghostbird SKIN (Permanent):
+    id: 48200
+    name: Raven Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Raven Navy Issue Glacial Drift SKIN (Permanent):
     id: 46861
@@ -10491,6 +10767,10 @@ items:
     id: 47308
     name: Revelation Spirit SKIN (Permanent)
     volume: 0.01
+  Revelation Star Captain SKIN (Permanent):
+    id: 48365
+    name: Revelation Star Captain SKIN (Permanent)
+    volume: 0.01
   Revenant Glacial Drift SKIN (Permanent):
     id: 47009
     name: Revenant Glacial Drift SKIN (Permanent)
@@ -10506,6 +10786,10 @@ items:
   Rhea Exoplanets Hunter SKIN (Permanent):
     id: 45868
     name: Rhea Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Rhea Ghostbird SKIN (Permanent):
+    id: 48211
+    name: Rhea Ghostbird SKIN (Permanent)
     volume: 0.01
   Rhea Glacial Drift SKIN (Permanent):
     id: 46872
@@ -10619,6 +10903,10 @@ items:
     id: 45853
     name: Rokh Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Rokh Ghostbird SKIN (Permanent):
+    id: 48196
+    name: Rokh Ghostbird SKIN (Permanent)
+    volume: 0.01
   Rokh Glacial Drift SKIN (Permanent):
     id: 46857
     name: Rokh Glacial Drift SKIN (Permanent)
@@ -10670,6 +10958,10 @@ items:
   Rook Exoplanets Hunter SKIN (Permanent):
     id: 45842
     name: Rook Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Rook Ghostbird SKIN (Permanent):
+    id: 48185
+    name: Rook Ghostbird SKIN (Permanent)
     volume: 0.01
   Rook Glacial Drift SKIN (Permanent):
     id: 46846
@@ -11023,6 +11315,10 @@ items:
     id: 45854
     name: Scorpion Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Scorpion Ghostbird SKIN (Permanent):
+    id: 48197
+    name: Scorpion Ghostbird SKIN (Permanent)
+    volume: 0.01
   Scorpion Glacial Drift SKIN (Permanent):
     id: 46858
     name: Scorpion Glacial Drift SKIN (Permanent)
@@ -11054,6 +11350,10 @@ items:
   Scorpion Navy Issue Exoplanets Hunter SKIN (Permanent):
     id: 45858
     name: Scorpion Navy Issue Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Scorpion Navy Issue Ghostbird SKIN (Permanent):
+    id: 48201
+    name: Scorpion Navy Issue Ghostbird SKIN (Permanent)
     volume: 0.01
   Scorpion Navy Issue Glacial Drift SKIN (Permanent):
     id: 46862
@@ -11447,6 +11747,10 @@ items:
     id: 38625
     name: Slasher Krusual Serenity Only SKIN (Permanent)
     volume: 0.01
+  Slasher Luminaire Zenith SKIN (Permanent):
+    id: 48230
+    name: Slasher Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Slasher Tronhadar Ink SKIN (Permanent):
     id: 40471
     name: Slasher Tronhadar Ink SKIN (Permanent)
@@ -11559,6 +11863,10 @@ items:
     id: 37103
     name: Stabber Krusual Serenity Only SKIN (Permanent)
     volume: 0.01
+  Stabber Luminaire Zenith SKIN (Permanent):
+    id: 48232
+    name: Stabber Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Stabber Nefantar SKIN (Permanent):
     id: 34699
     name: Stabber Nefantar SKIN (Permanent)
@@ -11638,6 +11946,10 @@ items:
   Stork Exoplanets Hunter SKIN (Permanent):
     id: 45830
     name: Stork Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Stork Ghostbird SKIN (Permanent):
+    id: 48173
+    name: Stork Ghostbird SKIN (Permanent)
     volume: 0.01
   Stork Glacial Drift SKIN (Permanent):
     id: 46838
@@ -11787,6 +12099,10 @@ items:
     id: 46419
     name: Talos Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Talos Luminaire Zenith SKIN (Permanent):
+    id: 48229
+    name: Talos Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Talos Serenity YC119 SKIN (Permanent):
     id: 47282
     name: Talos Serenity YC119 SKIN (Permanent)
@@ -11911,6 +12227,10 @@ items:
     id: 45864
     name: Tayra Exoplanets Hunter SKIN (Permanent)
     volume: 0.01
+  Tayra Ghostbird SKIN (Permanent):
+    id: 48207
+    name: Tayra Ghostbird SKIN (Permanent)
+    volume: 0.01
   Tayra Glacial Drift SKIN (Permanent):
     id: 46868
     name: Tayra Glacial Drift SKIN (Permanent)
@@ -12034,6 +12354,10 @@ items:
   Tengu Exoplanets Hunter SKIN (Permanent):
     id: 45843
     name: Tengu Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Tengu Ghostbird SKIN (Permanent):
+    id: 48186
+    name: Tengu Ghostbird SKIN (Permanent)
     volume: 0.01
   Tengu Glacial Drift SKIN (Permanent):
     id: 46847
@@ -12199,6 +12523,10 @@ items:
     id: 46406
     name: Thorax Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Thorax Luminaire Zenith SKIN (Permanent):
+    id: 48228
+    name: Thorax Luminaire Zenith SKIN (Permanent)
+    volume: 0.01
   Thorax Nova Serenity Only SKIN (Permanent):
     id: 38150
     name: Thorax Nova Serenity Only SKIN (Permanent)
@@ -12262,6 +12590,10 @@ items:
   Thrasher Justice Serenity Only SKIN (Permanent):
     id: 38479
     name: Thrasher Justice Serenity Only SKIN (Permanent)
+    volume: 0.01
+  Thrasher Luminaire Zenith SKIN (Permanent):
+    id: 48231
+    name: Thrasher Luminaire Zenith SKIN (Permanent)
     volume: 0.01
   Thrasher Nefantar SKIN (Permanent):
     id: 34715
@@ -12903,6 +13235,10 @@ items:
     id: 46416
     name: Vexor Navy Issue Kopis Edge SKIN (Permanent)
     volume: 0.01
+  Vexor Navy Issue Luminaire Rising SKIN (Permanent):
+    id: 48215
+    name: Vexor Navy Issue Luminaire Rising SKIN (Permanent)
+    volume: 0.01
   Vexor Navy Issue Ruby Sungrazer SKIN (Permanent):
     id: 45568
     name: Vexor Navy Issue Ruby Sungrazer SKIN (Permanent)
@@ -13087,6 +13423,14 @@ items:
     id: 46042
     name: Vindicator IGC SKIN (Permanent)
     volume: 0.01
+  Vindicator Sarpati's Revenge - Igil SKIN (Permanent):
+    id: 48146
+    name: Vindicator Sarpati's Revenge - Igil SKIN (Permanent)
+    volume: 0.01
+  Vindicator Sarpati's Revenge - Virge SKIN (Permanent):
+    id: 48147
+    name: Vindicator Sarpati's Revenge - Virge SKIN (Permanent)
+    volume: 0.01
   Violator IGC SKIN (Permanent):
     id: 46041
     name: Violator IGC SKIN (Permanent)
@@ -13102,6 +13446,10 @@ items:
   Vulture Exoplanets Hunter SKIN (Permanent):
     id: 45850
     name: Vulture Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Vulture Ghostbird SKIN (Permanent):
+    id: 48193
+    name: Vulture Ghostbird SKIN (Permanent)
     volume: 0.01
   Vulture Glacial Drift SKIN (Permanent):
     id: 46854
@@ -13146,6 +13494,10 @@ items:
   Widow Exoplanets Hunter SKIN (Permanent):
     id: 45855
     name: Widow Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Widow Ghostbird SKIN (Permanent):
+    id: 48198
+    name: Widow Ghostbird SKIN (Permanent)
     volume: 0.01
   Widow Glacial Drift SKIN (Permanent):
     id: 46859
@@ -13294,6 +13646,10 @@ items:
   Wyvern Exoplanets Hunter SKIN (Permanent):
     id: 45861
     name: Wyvern Exoplanets Hunter SKIN (Permanent)
+    volume: 0.01
+  Wyvern Ghostbird SKIN (Permanent):
+    id: 48204
+    name: Wyvern Ghostbird SKIN (Permanent)
     volume: 0.01
   Wyvern Glacial Drift SKIN (Permanent):
     id: 46865

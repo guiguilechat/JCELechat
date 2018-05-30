@@ -11,9 +11,15 @@ items:
   Background planet Plasma:
     id: 47454
     name: Background planet Plasma
+  Background planet Plasma Blood:
+    id: 47949
+    name: Background planet Plasma Blood
   Background planet Sandstorm:
     id: 47452
     name: Background planet Sandstorm
+  Background planet Sandstorm Yellow:
+    id: 47950
+    name: Background planet Sandstorm Yellow
   Background planet Terestrial:
     id: 47456
     name: Background planet Terestrial
@@ -26,54 +32,51 @@ items:
   TestBackground_02:
     id: 47205
     name: TestBackground_02
-  blue_1_PLACEHOLDER:
-    id: 47381
-    name: blue_1_PLACEHOLDER
-  blue_2_PLACEHOLDER:
-    id: 47382
-    name: blue_2_PLACEHOLDER
-  blue_3_PLACEHOLDER:
-    id: 47383
-    name: blue_3_PLACEHOLDER
-  green_1_PLACEHOLDER:
-    id: 47384
-    name: green_1_PLACEHOLDER
-  green_2_PLACEHOLDER:
-    id: 47385
-    name: green_2_PLACEHOLDER
-  green_3_PLACEHOLDER:
+  caustic_toxin_weather_3:
+    MaxRange: 2000000
+    Untargetable: 1
+    WarfareBuff1ID: 99
+    WarfareBuff1Value: 70.0
+    WarfareBuff2ID: 100
+    WarfareBuff2Value: 50.0
     id: 47386
-    name: green_3_PLACEHOLDER
-  orange_1_PLACEHOLDER:
-    id: 47390
-    name: orange_1_PLACEHOLDER
-  orange_2_PLACEHOLDER:
-    id: 47391
-    name: orange_2_PLACEHOLDER
-  orange_3_PLACEHOLDER:
-    id: 47392
-    name: orange_3_PLACEHOLDER
-  red_1_PLACEHOLDER:
-    id: 47378
-    name: red_1_PLACEHOLDER
-  red_2_PLACEHOLDER:
-    id: 47379
-    name: red_2_PLACEHOLDER
-  red_3_PLACEHOLDER:
+    name: caustic_toxin_weather_3
+  darkness_weather_3:
+    MaxRange: 2000000
+    Untargetable: 1
+    WarfareBuff1ID: 97
+    WarfareBuff1Value: -70.0
+    WarfareBuff2ID: 98
+    WarfareBuff2Value: 50.0
     id: 47380
-    name: red_3_PLACEHOLDER
+    name: darkness_weather_3
+  electric_storm_weather_3:
+    MaxRange: 2000000
+    Untargetable: 1
+    WarfareBuff1ID: 90
+    WarfareBuff1Value: 70.0
+    WarfareBuff2ID: 92
+    WarfareBuff2Value: -50.0
+    id: 47383
+    name: electric_storm_weather_3
+  infernal_weather_3:
+    MaxRange: 2000000
+    Untargetable: 1
+    WarfareBuff1ID: 95
+    WarfareBuff1Value: 70.0
+    WarfareBuff2ID: 96
+    WarfareBuff2Value: 50.0
+    id: 47392
+    name: infernal_weather_3
   unnamed_gid21177_sid20220:
     id: 36464
     name: unnamed_gid21177_sid20220
-  white_1_PLACEHOLDER:
-    id: 47393
-    name: white_1_PLACEHOLDER
-  yellow_1_PLACEHOLDER:
-    id: 47387
-    name: yellow_1_PLACEHOLDER
-  yellow_2_PLACEHOLDER:
-    id: 47388
-    name: yellow_2_PLACEHOLDER
-  yellow_3_PLACEHOLDER:
+  xenon_gas_weather_3:
+    MaxRange: 2000000
+    Untargetable: 1
+    WarfareBuff1ID: 93
+    WarfareBuff1Value: 70.0
+    WarfareBuff2ID: 94
+    WarfareBuff2Value: 50.0
     id: 47389
-    name: yellow_3_PLACEHOLDER
+    name: xenon_gas_weather_3

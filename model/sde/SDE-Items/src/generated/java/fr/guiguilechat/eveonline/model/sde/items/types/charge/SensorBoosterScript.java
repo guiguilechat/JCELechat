@@ -62,6 +62,7 @@ public class SensorBoosterScript
     @DefaultIntValue(0)
     public int SensorStrengthBonusBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

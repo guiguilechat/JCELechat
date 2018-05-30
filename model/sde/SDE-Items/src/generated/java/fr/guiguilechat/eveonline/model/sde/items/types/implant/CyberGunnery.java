@@ -56,6 +56,7 @@ public class CyberGunnery
     @DefaultIntValue(0)
     public int RangeSkillBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

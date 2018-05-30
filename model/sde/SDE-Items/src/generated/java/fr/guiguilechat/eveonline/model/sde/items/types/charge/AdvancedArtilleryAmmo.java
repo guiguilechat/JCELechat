@@ -91,6 +91,7 @@ public class AdvancedArtilleryAmmo
     @DefaultDoubleValue(1.0)
     public double MaxVelocityModifier;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -119,6 +120,7 @@ public class AdvancedArtilleryAmmo
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

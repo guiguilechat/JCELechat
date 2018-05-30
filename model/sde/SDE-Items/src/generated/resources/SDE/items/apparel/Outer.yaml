@@ -358,7 +358,7 @@ items:
     name: Men's Corporate Troubleshooter Gear
     volume: 0.1
   Men's Empyrean Dragons Jacket:
-    Gender: 2
+    Gender: 1
     id: 47032
     name: Men's Empyrean Dragons Jacket
     volume: 0.1
@@ -496,6 +496,11 @@ items:
     Gender: 2
     id: 46672
     name: Men's State Military Stockpile Jacket
+    volume: 0.1
+  Men's Triglavian Survival Suit (Bioadaptive):
+    Gender: 2
+    id: 48082
+    name: Men's Triglavian Survival Suit (Bioadaptive)
     volume: 0.1
   Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type:
     ClothingRemovesCategory: 2
@@ -989,7 +994,7 @@ items:
     name: Women's Corporate Troubleshooter Gear
     volume: 0.1
   Women's Empyrean Dragons Jacket:
-    Gender: 2
+    Gender: 3
     id: 47031
     name: Women's Empyrean Dragons Jacket
     volume: 0.1
@@ -1128,4 +1133,9 @@ items:
     Gender: 2
     id: 46671
     name: Women's State Military Stockpile Jacket
+    volume: 0.1
+  Women's Triglavian Survival Suit (Bioadaptive):
+    Gender: 2
+    id: 48081
+    name: Women's Triglavian Survival Suit (Bioadaptive)
     volume: 0.1

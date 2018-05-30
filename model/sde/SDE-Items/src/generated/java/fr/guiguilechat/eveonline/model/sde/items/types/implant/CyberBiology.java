@@ -41,6 +41,7 @@ public class CyberBiology
     @DefaultIntValue(0)
     public int Implantness;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

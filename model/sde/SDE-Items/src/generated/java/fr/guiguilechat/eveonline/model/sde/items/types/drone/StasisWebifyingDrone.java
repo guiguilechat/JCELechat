@@ -259,6 +259,7 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

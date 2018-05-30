@@ -41,6 +41,7 @@ public class CyberScience
     @DefaultIntValue(0)
     public int MineralNeedResearchBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

@@ -4,7 +4,15 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 
 /**
+ * Authoring has been moved to FSD.
  * meta group of type
+ * 
+ *  3: Story-line (Cosmos)
+ *  4: Faction
+ *  5: Officer (rare asteroid NPCs)
+ *  6: Deadspace
+ * 
+ * 
  */
 public class MetaGroupID
     extends IntAttribute

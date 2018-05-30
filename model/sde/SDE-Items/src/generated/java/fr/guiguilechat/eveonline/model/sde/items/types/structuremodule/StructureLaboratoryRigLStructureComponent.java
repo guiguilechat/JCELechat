@@ -41,6 +41,7 @@ public class StructureLaboratoryRigLStructureComponent
     @DefaultIntValue(0)
     public int StructureRigBonus1;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

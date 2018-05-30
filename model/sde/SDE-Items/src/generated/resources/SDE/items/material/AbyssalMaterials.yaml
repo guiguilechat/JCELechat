@@ -1,0 +1,13 @@
+items:
+  Crystalline Isogen-10:
+    id: 47975
+    name: Crystalline Isogen-10
+    volume: 0.35
+  Mutaplasmid Residue:
+    id: 48080
+    name: Mutaplasmid Residue
+    volume: 0.01
+  Zero-Point Condensate:
+    id: 48112
+    name: Zero-Point Condensate
+    volume: 0.25

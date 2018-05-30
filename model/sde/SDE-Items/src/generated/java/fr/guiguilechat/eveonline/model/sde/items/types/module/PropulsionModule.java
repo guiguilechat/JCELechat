@@ -107,7 +107,7 @@ public class PropulsionModule
     /**
      * Attribute for adding mass to a ship via an afterburner or MWD.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MassAddition;
@@ -119,7 +119,15 @@ public class PropulsionModule
     @DefaultIntValue(0)
     public int MaxGroupActive;
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)

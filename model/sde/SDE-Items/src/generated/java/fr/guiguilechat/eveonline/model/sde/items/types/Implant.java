@@ -11,6 +11,7 @@ import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.Booster;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberArmor;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberBiology;
+import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberDrones;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberElectronicSystems;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberEngineering;
 import fr.guiguilechat.eveonline.model.sde.items.types.implant.CyberGunnery;
@@ -76,6 +77,6 @@ public abstract class Implant
     }
 
     public static Map<String, ? extends Implant> loadCategory() {
-        return Stream.of(Booster.load(), CyberArmor.load(), CyberBiology.load(), CyberElectronicSystems.load(), CyberEngineering.load(), CyberGunnery.load(), CyberLeadership.load(), CyberLearning.load(), CyberMissile.load(), CyberNavigation.load(), CyberProduction.load(), CyberResourceProcessing.load(), CyberScanning.load(), CyberScience.load(), CyberShields.load(), CyberSocial.load(), CyberTargeting.load(), CyberXSpecials.load(), Cyberimplant.load(), SpecialEditionImplant.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Booster.load(), CyberArmor.load(), CyberBiology.load(), CyberDrones.load(), CyberElectronicSystems.load(), CyberEngineering.load(), CyberGunnery.load(), CyberLeadership.load(), CyberLearning.load(), CyberMissile.load(), CyberNavigation.load(), CyberProduction.load(), CyberResourceProcessing.load(), CyberScanning.load(), CyberScience.load(), CyberShields.load(), CyberSocial.load(), CyberTargeting.load(), CyberXSpecials.load(), Cyberimplant.load(), SpecialEditionImplant.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

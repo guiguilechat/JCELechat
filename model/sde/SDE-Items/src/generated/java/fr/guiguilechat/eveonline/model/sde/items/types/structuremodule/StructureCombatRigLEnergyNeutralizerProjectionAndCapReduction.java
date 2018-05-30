@@ -126,6 +126,7 @@ public class StructureCombatRigLEnergyNeutralizerProjectionAndCapReduction
     @DefaultIntValue(0)
     public int StructureRigEwarOptimalBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

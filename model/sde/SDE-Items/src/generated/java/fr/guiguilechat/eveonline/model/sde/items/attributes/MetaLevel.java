@@ -4,6 +4,7 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 
 /**
+ * Authoring has been moved to FSD
  * The ranking of the module within its tech level
  */
 public class MetaLevel

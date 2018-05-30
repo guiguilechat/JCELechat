@@ -27,6 +27,7 @@ public class CyberProduction
     @DefaultIntValue(0)
     public int ManufacturingTimeBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

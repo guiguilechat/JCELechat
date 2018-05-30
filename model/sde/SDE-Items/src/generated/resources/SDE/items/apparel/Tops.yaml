@@ -271,7 +271,7 @@ items:
     volume: 0.1
   Men's Caldari 'Patriot' T-Shirt:
     Gender: 2
-    id: 47189
+    id: 47188
     name: Men's Caldari 'Patriot' T-Shirt
     volume: 0.1
   Men's Capsuleer Elite XV T-Shirt:
@@ -666,7 +666,7 @@ items:
     volume: 0.1
   Women's Caldari 'Patriot' T-Shirt:
     Gender: 2
-    id: 47188
+    id: 47189
     name: Women's Caldari 'Patriot' T-Shirt
     volume: 0.1
   Women's Capsuleer Elite XV T-Shirt:

@@ -4,6 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.eveonline.model.sde.items.Item;
+import fr.guiguilechat.eveonline.model.sde.items.types.commodity.AbyssalFilaments;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.AccelerationGateKeys;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.AdvancedCapitalConstructionComponents;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.ArtifactsAndPrototypes;
@@ -26,11 +27,11 @@ import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Frozen;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.General;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.HybridTechComponents;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Identification;
-import fr.guiguilechat.eveonline.model.sde.items.types.commodity.KalliPLACEHOLDER;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Lease;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Livestock;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.MaterialsAndCompounds;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Miscellaneous;
+import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Mutaplasmids;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.ObsoleteBooks;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.OverseerPersonalEffects;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Radioactive;
@@ -45,6 +46,7 @@ import fr.guiguilechat.eveonline.model.sde.items.types.commodity.StrongBoxes;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.SurfaceInfrastructurePrefabUnits;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.TechnicalDataChips;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.Tool;
+import fr.guiguilechat.eveonline.model.sde.items.types.commodity.TriglavianData;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.TrinaryDataVaults;
 import fr.guiguilechat.eveonline.model.sde.items.types.commodity.UnknownComponents;
 
@@ -63,6 +65,6 @@ public abstract class Commodity
     }
 
     public static Map<String, ? extends Commodity> loadCategory() {
-        return Stream.of(AccelerationGateKeys.load(), AdvancedCapitalConstructionComponents.load(), ArtifactsAndPrototypes.load(), Biohazard.load(), CapitalConstructionComponents.load(), Commodities.load(), ConstructionComponents.load(), CriminalTags.load(), DataInterfaces.load(), Datacores.load(), DecryptorsSleepers.load(), DecryptorsTakmahl.load(), DecryptorsTalocan.load(), DecryptorsYanJung.load(), DepricatedSubsystems.load(), Drugs.load(), EmpireBountyReimbursementTags.load(), EmpireInsigniaDrops.load(), Frozen.load(), General.load(), HybridTechComponents.load(), Identification.load(), KalliPLACEHOLDER.load(), Lease.load(), Livestock.load(), MaterialsAndCompounds.load(), Miscellaneous.load(), ObsoleteBooks.load(), OverseerPersonalEffects.load(), Radioactive.load(), Refinables.load(), ResearchData.load(), SecurityTags.load(), ShipLogs.load(), SlaveReception.load(), SleeperComponents.load(), StationComponents.load(), StrongBoxes.load(), SurfaceInfrastructurePrefabUnits.load(), TechnicalDataChips.load(), Tool.load(), TrinaryDataVaults.load(), UnknownComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AbyssalFilaments.load(), AccelerationGateKeys.load(), AdvancedCapitalConstructionComponents.load(), ArtifactsAndPrototypes.load(), Biohazard.load(), CapitalConstructionComponents.load(), Commodities.load(), ConstructionComponents.load(), CriminalTags.load(), DataInterfaces.load(), Datacores.load(), DecryptorsSleepers.load(), DecryptorsTakmahl.load(), DecryptorsTalocan.load(), DecryptorsYanJung.load(), DepricatedSubsystems.load(), Drugs.load(), EmpireBountyReimbursementTags.load(), EmpireInsigniaDrops.load(), Frozen.load(), General.load(), HybridTechComponents.load(), Identification.load(), Lease.load(), Livestock.load(), MaterialsAndCompounds.load(), Miscellaneous.load(), Mutaplasmids.load(), ObsoleteBooks.load(), OverseerPersonalEffects.load(), Radioactive.load(), Refinables.load(), ResearchData.load(), SecurityTags.load(), ShipLogs.load(), SlaveReception.load(), SleeperComponents.load(), StationComponents.load(), StrongBoxes.load(), SurfaceInfrastructurePrefabUnits.load(), TechnicalDataChips.load(), Tool.load(), TriglavianData.load(), TrinaryDataVaults.load(), UnknownComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

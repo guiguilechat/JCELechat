@@ -1,4 +1,20 @@
 items:
+  Advanced 'Liberty' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17708.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 48117
+    name: Advanced 'Liberty' Cerebral Accelerator
+    volume: 1.0
   Advanced Cerebral Accelerator:
     BoosterMaxCharAgeHours: 168
     Boosterness: 4
@@ -31,28 +47,32 @@ items:
     name: Advanced X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
   Agency 'Hardshell' TB3 Dose I:
+    ArmorDamageAmountBonus: 3
     BoosterDuration: 1800000
     Boosterness: 11
-    RepairBonus: 3
     ShieldBoostMultiplier: 3.0
     id: 46001
     name: Agency 'Hardshell' TB3 Dose I
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
+    ArmorDamageAmountBonus: 5
     BoosterDuration: 1800000
     Boosterness: 11
-    RepairBonus: 5
     ShieldBoostMultiplier: 5.0
     id: 46002
     name: Agency 'Hardshell' TB5 Dose II
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
+    ArmorDamageAmountBonus: 7
     BoosterDuration: 1800000
     Boosterness: 11
-    RepairBonus: 7
     ShieldBoostMultiplier: 7.0
     id: 46003
     name: Agency 'Hardshell' TB7 Dose III
+    volume: 1.0
+  Agency 'Hardshell' TB9 Dose IV:
+    id: 48113
+    name: Agency 'Hardshell' TB9 Dose IV
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
     BoosterDuration: 1800000
@@ -75,6 +95,10 @@ items:
     id: 46006
     name: Agency 'Overclocker' SB7 Dose III
     volume: 1.0
+  Agency 'Overclocker' SB9 Dose IV:
+    id: 48114
+    name: Agency 'Overclocker' SB9 Dose IV
+    volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
     BoosterDuration: 1800000
     Boosterness: 11
@@ -95,6 +119,10 @@ items:
     DamageMultiplierBonus: 7
     id: 46000
     name: Agency 'Pyrolancea' DB7 Dose III
+    volume: 1.0
+  Agency 'Pyrolancea' DB9 Dose IV:
+    id: 48115
+    name: Agency 'Pyrolancea' DB9 Dose IV
     volume: 1.0
   Agency Standard Booster:
     id: 45733
@@ -161,22 +189,6 @@ items:
     id: 47705
     name: Basic X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
-  CDIA SPACE Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17652.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47481
-    name: CDIA SPACE Cerebral Accelerator
-    volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 86400000
     BoosterLastInjectionDatetime: 17645.458984375
@@ -192,6 +204,22 @@ items:
     WillpowerBonus: 12
     id: 47396
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    volume: 1.0
+  Expired CDIA SPACE Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17652.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47481
+    name: Expired CDIA SPACE Cerebral Accelerator
     volume: 1.0
   Expired Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -368,6 +396,22 @@ items:
     WillpowerBonus: 10
     id: 46009
     name: Expired Yoiul Cerebral Accelerator
+    volume: 1.0
+  Extended 'Liberty' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17708.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 48118
+    name: Extended 'Liberty' Cerebral Accelerator
     volume: 1.0
   Extended X-Sense 'Consciousness' Cerebral Accelerator:
     BoosterDuration: 259200000
@@ -637,6 +681,22 @@ items:
     VelocityBonus: 5.0
     id: 3898
     name: Quafe Zero
+    volume: 1.0
+  Standard 'Liberty' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17708.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 48116
+    name: Standard 'Liberty' Cerebral Accelerator
     volume: 1.0
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20

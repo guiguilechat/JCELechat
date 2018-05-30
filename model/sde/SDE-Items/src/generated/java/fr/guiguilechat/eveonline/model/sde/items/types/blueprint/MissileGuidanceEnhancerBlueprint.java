@@ -13,6 +13,7 @@ public class MissileGuidanceEnhancerBlueprint
     extends Blueprint
 {
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

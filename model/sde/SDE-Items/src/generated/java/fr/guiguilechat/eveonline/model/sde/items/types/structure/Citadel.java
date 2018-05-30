@@ -91,13 +91,22 @@ public class Citadel
     @DefaultIntValue(300000)
     public int MaximumRangeCap;
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -132,6 +141,27 @@ public class Citadel
     @Stackable(true)
     @DefaultIntValue(0)
     public int ServiceSlots;
+    /**
+     * Cost bonus for Engineering Complexes Structures
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StrEngCostBonus;
+    /**
+     * Time bonus for Engineering Complexes Structures
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(1.0)
+    public double StrEngTimeBonus;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StrRefiningYieldBonus;
     /**
      * 
      */
@@ -268,6 +298,18 @@ public class Citadel
             case  2056 :
             {
                 return ServiceSlots;
+            }
+            case  2601 :
+            {
+                return StrEngCostBonus;
+            }
+            case  2602 :
+            {
+                return StrEngTimeBonus;
+            }
+            case  2722 :
+            {
+                return StrRefiningYieldBonus;
             }
             case  2749 :
             {

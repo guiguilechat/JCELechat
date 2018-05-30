@@ -18,6 +18,10 @@ items:
     id: 46346
     name: Eosian Sentinel
     volume: 109000.0
+  GalFed_NPC3:
+    id: 48129
+    name: GalFed_NPC3
+    volume: 112000.0
   Guardian Angels Jehoel:
     id: 42128
     name: Guardian Angels Jehoel

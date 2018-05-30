@@ -140,6 +140,7 @@ public class CompactXLTorpedo
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

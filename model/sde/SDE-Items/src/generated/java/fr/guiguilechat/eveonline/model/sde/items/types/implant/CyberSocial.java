@@ -63,6 +63,7 @@ public class CyberSocial
     @DefaultIntValue(0)
     public int SocialMutator;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

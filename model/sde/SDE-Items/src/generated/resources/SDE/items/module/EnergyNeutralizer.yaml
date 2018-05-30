@@ -816,6 +816,16 @@ items:
     id: 15800
     name: Imperial Navy Small Energy Neutralizer
     volume: 5.0
+  Large Abyssal Energy Neutralizer:
+    EntityCapacitorLevelModifierLarge: 1.0
+    EntityCapacitorLevelModifierMedium: 1.0
+    EntityCapacitorLevelModifierSmall: 1.0
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 47832
+    name: Large Abyssal Energy Neutralizer
+    volume: 50.0
   Medium 'Ditch' Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0
@@ -838,6 +848,16 @@ items:
     TechLevel: 1
     id: 23817
     name: Medium 'Ditch' Energy Neutralizer
+    volume: 5.0
+  Medium Abyssal Energy Neutralizer:
+    EntityCapacitorLevelModifierLarge: 1.0
+    EntityCapacitorLevelModifierMedium: 1.0
+    EntityCapacitorLevelModifierSmall: 1.0
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47828
+    name: Medium Abyssal Energy Neutralizer
     volume: 5.0
   Medium Energy Neutralizer I:
     CapacitorNeed: 150.0
@@ -1042,6 +1062,16 @@ items:
     TechLevel: 1
     id: 23815
     name: Small 'Caltrop' Energy Neutralizer
+    volume: 5.0
+  Small Abyssal Energy Neutralizer:
+    EntityCapacitorLevelModifierLarge: 1.0
+    EntityCapacitorLevelModifierMedium: 1.0
+    EntityCapacitorLevelModifierSmall: 1.0
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 47824
+    name: Small Abyssal Energy Neutralizer
     volume: 5.0
   Small Energy Neutralizer I:
     CapacitorNeed: 45.0

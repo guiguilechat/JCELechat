@@ -275,7 +275,7 @@ public class QAModule
     /**
      * Attribute for adding mass to a ship via an afterburner or MWD.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int MassAddition;
@@ -576,7 +576,7 @@ public class QAModule
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SignatureRadiusAdd;

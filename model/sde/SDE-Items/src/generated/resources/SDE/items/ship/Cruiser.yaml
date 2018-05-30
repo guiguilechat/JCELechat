@@ -3340,38 +3340,87 @@ items:
     id: 33653
     name: Thorax Inner Zone Shipping Edition
     volume: 112000.0
-  Trig Medium:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
+  Vedmak:
+    Agility: 0.44999998807907104
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.800000011920929
+    ArmorHP: 3300
+    ArmorKineticDamageResonance: 0.75
+    ArmorThermalDamageResonance: 0.6499999761581421
+    ArmorUniformity: 0.75
+    BaseWarpSpeed: 1
+    CapacitorCapacity: 1500.0
     CovertOpsAndReconOpsCloakModuleDelay: 30000
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
+    CpuOutput: 365
+    DroneBandwidth: 50
+    DroneCapacity: 75
+    EmDamageResonance: 0.6700000166893005
+    ExplosiveDamageResonance: 0.6700000166893005
+    FwLpKill: 100
+    GfxBoosterID: 394
+    HeatAttenuationHi: 0.7099999785423279
+    HeatAttenuationLow: 0.7599999904632568
+    HeatAttenuationMed: 0.6299999952316284
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HeatDissipationRateHi: 0.009999999776482582
+    HeatDissipationRateLow: 0.009999999776482582
+    HeatDissipationRateMed: 0.009999999776482582
+    HeatGenerationMultiplier: 0.75
+    HiSlots: 4
+    Hp: 2000
     HullEmDamageResonance: 1.0
     HullExplosiveDamageResonance: 1.0
     HullKineticDamageResonance: 1.0
     HullThermalDamageResonance: 1.0
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
+    KineticDamageResonance: 0.6700000166893005
+    LowSlots: 6
+    MainColor: 16777215
+    MaxDirectionalVelocity: 2000
+    MaxLockedTargets: 7
+    MaxPassengers: 500
+    MaxTargetRange: 55000
+    MaxVelocity: 240.0
+    MedSlots: 4
+    MinTargetVelDmgMultiplier: 0.25
+    PowerOutput: 1030
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
+    RechargeRate: 526000.0
+    RequiredSkill1: 47868
+    RequiredSkill1Level: 1
+    RigSize: 2
+    RigSlots: 3
+    ScanRadarStrength: 20.0
+    ScanResolution: 300
+    ScanSpeed: 5000
+    ShieldCapacity: 800
     ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 1250000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 0.75
     ShipBonusCC: 5
     ShipBonusGC: 5.0
-    SignatureRadius: 100
+    ShipBonusPC1: 5
+    ShipBonusPC2: 5
+    ShipBonusRole1: 100.0
+    ShipBonusRole2: -50
+    SignatureRadius: 110
     StructureUniformity: 1.0
     TechLevel: 1
-    ThermalDamageResonance: 1.0
+    ThermalDamageResonance: 0.6700000166893005
+    TurretSlotsLeft: 1
+    TypeColorScheme: 11313
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 3
+    WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 47270
-    name: Trig Medium
+    name: Vedmak
     volume: 118000.0
   Vexor:
     Agility: 0.5600000023841858

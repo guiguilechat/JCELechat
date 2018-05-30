@@ -107,7 +107,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     /**
      * 
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureRigPDCapUseBonus;
@@ -119,6 +119,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     @DefaultIntValue(0)
     public int StructureRigPDRangeBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

@@ -8,10 +8,10 @@ import fr.guiguilechat.eveonline.model.sde.items.Item;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.eveonline.model.sde.items.annotations.Stackable;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.AdvancedCommodities;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.BasicCommodities;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.RefinedCommodities;
-import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.SpecializedCommodities;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.AdvancedCommoditiesTier4;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.BasicCommoditiesTier1;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.RefinedCommoditiesTier2;
+import fr.guiguilechat.eveonline.model.sde.items.types.planetarycommodities.SpecializedCommoditiesTier3;
 
 public abstract class PlanetaryCommodities
     extends Item
@@ -60,6 +60,6 @@ public abstract class PlanetaryCommodities
     }
 
     public static Map<String, ? extends PlanetaryCommodities> loadCategory() {
-        return Stream.of(AdvancedCommodities.load(), BasicCommodities.load(), RefinedCommodities.load(), SpecializedCommodities.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AdvancedCommoditiesTier4 .load(), BasicCommoditiesTier1 .load(), RefinedCommoditiesTier2 .load(), SpecializedCommoditiesTier3 .load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

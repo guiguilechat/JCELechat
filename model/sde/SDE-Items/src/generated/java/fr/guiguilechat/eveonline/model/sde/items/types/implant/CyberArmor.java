@@ -56,6 +56,7 @@ public class CyberArmor
     @DefaultIntValue(0)
     public int RepairBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

@@ -77,6 +77,7 @@ public class CyberShields
     @DefaultDoubleValue(0.0)
     public double ShieldCapacityBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

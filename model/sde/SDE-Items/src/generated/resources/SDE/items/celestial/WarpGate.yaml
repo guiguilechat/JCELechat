@@ -47,3 +47,9 @@ items:
     ProximityRange: 2500
     id: 42902
     name: Spatial Rift (Precise)
+  Triglavian Origin Conduit:
+    id: 47686
+    name: Triglavian Origin Conduit
+  Triglavian Transfer Conduit:
+    id: 47685
+    name: Triglavian Transfer Conduit

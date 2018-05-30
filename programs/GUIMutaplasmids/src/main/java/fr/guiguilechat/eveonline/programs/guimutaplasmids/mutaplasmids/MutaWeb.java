@@ -10,6 +10,7 @@ import fr.guiguilechat.eveonline.programs.guimutaplasmids.MutaplasmidFamily;
 public class MutaWeb extends MutaplasmidFamily {
 
 	private static final Object[][] DATATABLE = {
+			{ 47699, 47701, 47700, 0 },
 			{ Cpu.INSTANCE, 0.95, 1.25, 0.85, 1.3, 0.8, 1.5, 0, 0 },
 			{ SpeedFactor.INSTANCE, 0.97, 1.035, 0.95, 1.07, 0.9, 1.1, 0, 0 },
 			{ MaxRange.INSTANCE, 0.95, 1.075, 0.9, 1.15, 0.8, 1.2, 0, 0 },

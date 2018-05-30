@@ -19,6 +19,15 @@ items:
     id: 4029
     name: '''Langour'' Drive Disruptor I'
     volume: 5.0
+  Abyssal Stasis Webifier:
+    Falloff: 1
+    RequiredSkill1: 3435
+    RequiredSkill1Level: 4
+    SpeedFactor: 1.0
+    TechLevel: 1
+    id: 47702
+    name: Abyssal Stasis Webifier
+    volume: 5.0
   Caldari Navy Stasis Webifier:
     CapacitorNeed: 5.0
     Cpu: 16.0

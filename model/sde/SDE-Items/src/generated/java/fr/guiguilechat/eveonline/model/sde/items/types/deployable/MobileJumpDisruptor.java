@@ -20,6 +20,7 @@ public class MobileJumpDisruptor
     @DefaultIntValue(60000)
     public int AnchoringDelay;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)

@@ -35,6 +35,7 @@ public class CyberTargeting
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

@@ -105,7 +105,15 @@ public class Battleship
     @DefaultIntValue(0)
     public int MedSlots;
     /**
+     * Authoring has been moved to FSD.
      * meta group of type
+     * 
+     *  3: Story-line (Cosmos)
+     *  4: Faction
+     *  5: Officer (rare asteroid NPCs)
+     *  6: Deadspace
+     * 
+     * 
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -251,6 +259,34 @@ public class Battleship
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShipBonusMB2;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPBS1;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusPBS2;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShipBonusRole1;
+    /**
+     * Ship Role Bonus. Not multiplied by skills.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShipBonusRole2;
     /**
      * Fixed Role Bonus on a ship.
      */
@@ -441,6 +477,22 @@ public class Battleship
             case  518 :
             {
                 return ShipBonusMB2;
+            }
+            case  2766 :
+            {
+                return ShipBonusPBS1;
+            }
+            case  2767 :
+            {
+                return ShipBonusPBS2;
+            }
+            case  2298 :
+            {
+                return ShipBonusRole1;
+            }
+            case  2299 :
+            {
+                return ShipBonusRole2;
             }
             case  793 :
             {

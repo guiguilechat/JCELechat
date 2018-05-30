@@ -21,6 +21,17 @@ items:
     id: 41504
     name: Capital Ancillary Shield Booster
     volume: 4000.0
+  Large Abyssal Ancillary Shield Booster:
+    ChargeGroup2: 87
+    ChargeRate: 1
+    ChargeSize: 2
+    ReloadTime: 10000.0
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47838
+    name: Large Abyssal Ancillary Shield Booster
+    volume: 25.0
   Large Ancillary Shield Booster:
     CapacitorNeed: 528.0
     ChargeGroup2: 87
@@ -44,6 +55,17 @@ items:
     id: 4391
     name: Large Ancillary Shield Booster
     volume: 25.0
+  Medium Abyssal Ancillary Shield Booster:
+    ChargeGroup2: 87
+    ChargeRate: 1
+    ChargeSize: 1
+    ReloadTime: 10000.0
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47836
+    name: Medium Abyssal Ancillary Shield Booster
+    volume: 10.0
   Medium Ancillary Shield Booster:
     CapacitorNeed: 198.0
     ChargeGroup2: 87
@@ -89,6 +111,17 @@ items:
     id: 32774
     name: Small Ancillary Shield Booster
     volume: 5.0
+  X-Large Abyssal Ancillary Shield Booster:
+    ChargeGroup2: 87
+    ChargeRate: 1
+    ChargeSize: 3
+    ReloadTime: 10000.0
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 47840
+    name: X-Large Abyssal Ancillary Shield Booster
+    volume: 50.0
   X-Large Ancillary Shield Booster:
     CapacitorNeed: 1320.0
     ChargeGroup2: 87

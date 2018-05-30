@@ -761,6 +761,13 @@ items:
     id: 20621
     name: Large 'Outlaw' Shield Booster
     volume: 25.0
+  Large Abyssal Shield Booster:
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 47789
+    name: Large Abyssal Shield Booster
+    volume: 25.0
   Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 160.0
     Duration: 4000.0
@@ -886,6 +893,13 @@ items:
     TechLevel: 1
     id: 20619
     name: Medium 'Lone Ranger' Shield Booster
+    volume: 10.0
+  Medium Abyssal Shield Booster:
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 47785
+    name: Medium Abyssal Shield Booster
     volume: 10.0
   Medium C5-L Emergency Shield Overload I:
     CapacitorNeed: 60.0
@@ -1351,6 +1365,13 @@ items:
     id: 20617
     name: Small 'Settler' Shield Booster
     volume: 5.0
+  Small Abyssal Shield Booster:
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 3
+    TechLevel: 1
+    id: 47781
+    name: Small Abyssal Shield Booster
+    volume: 5.0
   Small C5-L Emergency Shield Overload I:
     CapacitorNeed: 20.0
     Duration: 2000.0
@@ -1606,6 +1627,13 @@ items:
     TechLevel: 1
     id: 20623
     name: X-Large 'Locomotive' Shield Booster
+    volume: 50.0
+  X-Large Abyssal Shield Booster:
+    RequiredSkill1: 3416
+    RequiredSkill1Level: 5
+    TechLevel: 2
+    id: 47793
+    name: X-Large Abyssal Shield Booster
     volume: 50.0
   X-Large C5-L Emergency Shield Overload I:
     CapacitorNeed: 400.0

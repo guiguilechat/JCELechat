@@ -1,8 +1,12 @@
 items:
   ♦ Apocalypse:
-    id: 46069
+    id: 45056
     name: ♦ Apocalypse
     volume: 495000.0
+  ♦ Armageddon:
+    id: 43562
+    name: ♦ Armageddon
+    volume: 486000.0
   ♦ Bhaalgorn:
     id: 46055
     name: ♦ Bhaalgorn
@@ -51,7 +55,11 @@ items:
     id: 46060
     name: ♦ Vindicator
     volume: 486000.0
-  �� Armageddon:
-    id: 43562
-    name: �� Armageddon
-    volume: 486000.0
+  ♦ test_boss:
+    id: 47198
+    name: ♦ test_boss
+    volume: 1010000.0
+  ��� Apocalypse:
+    id: 46069
+    name: ��� Apocalypse
+    volume: 495000.0

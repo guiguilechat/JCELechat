@@ -20,6 +20,7 @@ public class Tool
     @DefaultIntValue(0)
     public int Hp;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
@@ -27,6 +28,7 @@ public class Tool
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

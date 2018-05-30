@@ -169,17 +169,20 @@ public class ESIConnection implements Swagger {
 					Thread.sleep(1000 * waitS);
 				}
 			} catch (Exception e) {
-				logger.debug("while geting " + url, e);
+				logger.warn("while getting " + url, e);
 				return null;
 			}
 		}
+		logger.warn("too many retries, returning null for " + url);
 		return null;
 	}
 
 	private static void logConnectError(String method, String url, String transmit, int responseCode,
 			InputStream errorStream) {
 		StringBuilder sb = new StringBuilder("[" + method + ":" + responseCode + "]" + url + " data=" + transmit + " ");
-		new BufferedReader(new InputStreamReader(errorStream)).lines().forEach(sb::append);
+		if (errorStream != null) {
+			new BufferedReader(new InputStreamReader(errorStream)).lines().forEach(sb::append);
+		}
 		logger.warn(sb.toString());
 
 	}

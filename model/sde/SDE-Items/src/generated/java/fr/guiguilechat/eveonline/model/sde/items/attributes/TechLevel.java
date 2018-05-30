@@ -4,6 +4,7 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 
 /**
+ * Authoring has been moved to FSD
  * Tech level of an item
  */
 public class TechLevel

@@ -63,6 +63,7 @@ public class StructureCitadelRigLDroneHitpointsAndSpeed
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     /**
+     * Authoring has been moved to FSD
      * Tech level of an item
      */
     @HighIsGood(true)

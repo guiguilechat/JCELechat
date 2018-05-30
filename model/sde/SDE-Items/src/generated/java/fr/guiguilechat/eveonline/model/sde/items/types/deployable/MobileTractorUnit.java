@@ -56,6 +56,7 @@ public class MobileTractorUnit
     @DefaultIntValue(0)
     public int MaxTractorVelocity;
     /**
+     * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
     @HighIsGood(true)
