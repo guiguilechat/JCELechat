@@ -14,9 +14,9 @@ import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
+import fr.guiguilechat.eveonline.model.esi.modeled.corporation.Bookmarks;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
@@ -27,7 +27,10 @@ public class Corporation {
 
 	public Corporation(ESIAccount con) {
 		this.con = con;
+		bms = new Bookmarks(con);
 	}
+
+	public final Bookmarks bms;
 
 	// industry jobs
 
@@ -99,42 +102,6 @@ public class Corporation {
 	public static boolean isInvetion(R_get_corporations_corporation_id_industry_jobs job) {
 		return job.activity_id == 8;
 	}
-
-	private long bookmarkCacheExpire = 0;
-
-	private ObservableMap<String, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> cacheBookmarks = FXCollections
-			.observableMap(new LinkedHashMap<>());
-
-	/**
-	 *
-	 * @return the cached list of observable bookmarks, by folder->id->bookmark.
-	 */
-	public ObservableMap<String, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> getBookmarks() {
-		synchronized (cacheBookmarks) {
-			if (System.currentTimeMillis() >= bookmarkCacheExpire) {
-				// first we get all the folders.
-				Map<Integer, String> folders = ESIConnection.loadPages(
-						(p, h) -> con.raw
-								.get_corporations_corporation_id_bookmarks_folders(con.character.infos.corporationId().get(), p, h),
-						l -> bookmarkCacheExpire = l).stream().collect(Collectors.toMap(f -> f.folder_id, f -> f.name));
-				cacheBookmarks.keySet().retainAll(folders.values());
-				List<R_get_corporations_corporation_id_bookmarks> bms = ESIConnection.loadPages(
-						(p, h) -> con.raw.get_corporations_corporation_id_bookmarks(con.character.infos.corporationId().get(), p,
-								h),
-						l -> bookmarkCacheExpire = Math.min(l, bookmarkCacheExpire));
-				for (R_get_corporations_corporation_id_bookmarks f : bms) {
-					String foldName = folders.get(f.folder_id);
-					ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks> m = cacheBookmarks.get(foldName);
-					if (m == null) {
-						m = FXCollections.observableMap(new LinkedHashMap<>());
-						cacheBookmarks.put(foldName, m);
-					}
-					m.put(f.bookmark_id, f);
-				}
-			}
-		}
-		return cacheBookmarks;
-	} // system->typeid->number
 
 	private ObservableMap<Long, ObservableMap<Integer, Integer>> cachedAssets = FXCollections
 			.observableMap(new LinkedHashMap<>());
