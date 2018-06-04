@@ -5227,7 +5227,7 @@ items:
     id: 34471
     name: 灾难级YC117年特别版
     volume: 495000.0
-  马克瑞级YC117年特别版:
+  马克瑞级YC117年特��版:
     Agility: 0.09600000083446503
     ArmorEmDamageResonance: 0.4000000059604645
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -5305,5 +5305,5 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
     id: 34461
-    name: 马克瑞级YC117年特别版
+    name: 马克瑞级YC117年特��版
     volume: 595000.0

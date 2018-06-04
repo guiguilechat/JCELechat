@@ -80,7 +80,7 @@ items:
     name: ♦ Stabber
     volume: 80000.0
   ♦ Thorax:
-    id: 43579
+    id: 46075
     name: ♦ Thorax
     volume: 112000.0
   ♦ Vexor:
@@ -91,7 +91,3 @@ items:
     id: 46059
     name: ♦ Vigilant
     volume: 101000.0
-  �� Thorax:
-    id: 46075
-    name: �� Thorax
-    volume: 112000.0

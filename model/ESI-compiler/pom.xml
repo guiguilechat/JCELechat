@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.eveonline</groupId>
 		<artifactId>model</artifactId>
-		<version>3.2.6</version>
+		<version>3.3.1</version>
 	</parent>
 	<artifactId>ESI-compiler</artifactId>
 	<name>esi compiler</name>
@@ -31,7 +31,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<version>1.2.1</version>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

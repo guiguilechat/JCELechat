@@ -13,11 +13,10 @@
 	
 	<artifactId>model</artifactId>
 	<parent>
-		<groupId>fr.guiguilechat.eveonline</groupId>
-		<artifactId>Common</artifactId>
-		<version>1.0.7</version>
+		<groupId>fr.guiguilechat</groupId>
+		<artifactId>EveOnline</artifactId>
+		<version>3.3.1</version>
 	</parent>
-	<version>3.2.6</version>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
 		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
@@ -25,15 +24,6 @@
 		<tag>HEAD</tag>
 	</scm>
 	<groupId>fr.guiguilechat.eveonline</groupId>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>fr.guiguilechat.eveonline.model</groupId>
-				<artifactId>ESI</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>

@@ -537,7 +537,6 @@ group2class:
   entity/AsteroidSerpentisHauler: fr.guiguilechat.eveonline.model.sde.items.types.entity.AsteroidSerpentisHauler
   entity/AsteroidSerpentisOfficer: fr.guiguilechat.eveonline.model.sde.items.types.entity.AsteroidSerpentisOfficer
   entity/AsteroidSerpentisTitan: fr.guiguilechat.eveonline.model.sde.items.types.entity.AsteroidSerpentisTitan
-  entity/Battlecruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.Battlecruiser
   entity/Billboard: fr.guiguilechat.eveonline.model.sde.items.types.entity.Billboard
   entity/CapturePoint: fr.guiguilechat.eveonline.model.sde.items.types.entity.CapturePoint
   entity/ConcordDrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.ConcordDrone
@@ -705,6 +704,7 @@ group2class:
   entity/MissionMorduFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.MissionMorduFrigate
   entity/MissionThukkerCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.MissionThukkerCruiser
   entity/MissionThukkerFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.MissionThukkerFrigate
+  entity/NPCBattlecruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCBattlecruiser
   entity/NPCBattleship: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCBattleship
   entity/NPCCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCDreadnought
@@ -20822,7 +20822,7 @@ id2name:
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
   33857: 泰坦会战遗址
-  33858: 泰坦会战纪念碑
+  33858: 泰坦会战纪��碑
   33864: Mordu’s Special Warfare Unit Operative
   33865: Mordu’s Special Warfare Unit Specialist
   33866: Mordu’s Special Warfare Unit Commander
@@ -21364,10 +21364,10 @@ id2name:
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
-  34462: 马克瑞级YC117年特别版蓝图
+  34461: 马克瑞级YC117年特��版
+  34462: 马克瑞级YC117年特别版��图
   34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇���YC117年特别版蓝图
+  34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
@@ -21377,12 +21377,12 @@ id2name:
   34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年特别版蓝图
+  34474: ��龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: 银���级YC117年特别版蓝图
-  34479: 伊什��级YC117年特别版
+  34478: 银鹰级YC117年特���版蓝图
+  34479: 伊什塔级YC117年特��版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
@@ -27481,8 +27481,8 @@ id2name:
   41439: ‘Iron Pike’ Kinetic Lance
   41440: ‘Phalarica’ Thermal Lance
   41441: ‘Geiravor’ Explosive Lance
-  41442: ‘Cold Wind’ Kinetic Reaper
-  41443: ��Guillotine’ Thermal Reaper
+  41442: ��Cold Wind’ Kinetic Reaper
+  41443: ‘Guillotine’ Thermal Reaper
   41444: ‘Jormungandr’ Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
@@ -28563,7 +28563,7 @@ id2name:
   42656: ♦ Badger
   42657: ♦ Bustard
   42658: ♦ Iteron Mark V
-  42659: ♦ Occator
+  42659: �� Occator
   42660: ♦ Mammoth
   42661: ♦ Mastodon
   42662: Wrecked Amarr Battleship
@@ -28642,8 +28642,8 @@ id2name:
   42737: Beret Female Concord
   42738: Women's ‘Liberator’ Beret (Minmatar Republic)
   42739: Men's ‘Defender’ Beret (Gallente Federation)
-  42740: Women's ‘Protector’ Beret (Caldari State)
-  42741: Men’s ��Crusader’ Beret (Amarr Empire)
+  42740: Women's ��Protector’ Beret (Caldari State)
+  42741: Men’s ‘Crusader’ Beret (Amarr Empire)
   42742: Cap Female Concord
   42743: Cap Male Guristas
   42744: Women's 'Crusader' Beret (Amarr Empire)
@@ -29372,7 +29372,7 @@ id2name:
   43569: ♦ Osprey
   43570: ♦ Moa
   43571: ♦ Blackbird
-  43572: ♦ Raven
+  43572: �� Raven
   43573: ♦ Scorpion
   43574: ♦ Incursus
   43575: ♦ Navitas
@@ -31276,13 +31276,13 @@ id2name:
   46066: ♦ Punisher
   46067: ♦ Omen
   46068: ♦ Harbinger
-  46069: ��� Apocalypse
+  46069: ♦ Apocalypse
   46070: ♦ Merlin
   46071: ♦ Caracal
   46072: ♦ Drake
   46073: ♦ Raven
   46074: ♦ Incursus
-  46075: �� Thorax
+  46075: ♦ Thorax
   46076: ♦ Brutix
   46077: ♦ Megathron
   46078: ♦ Rifter
@@ -55978,7 +55978,7 @@ name2group:
   Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
-  Men’s ��Crusader’ Beret (Amarr Empire): apparel/Headwear
+  Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
   Mercenary Corporal: entity/MissionGenericCruisers
   Mercenary Elite Fighter: entity/MissionGenericFrigates
@@ -69410,8 +69410,8 @@ name2group:
   Women's YC119 Yoiul Festival T-shirt: apparel/Tops
   Women's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
   Women's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
-  Women's ‘Protector’ Beret (Caldari State): apparel/Headwear
   'Women''s “Mirelle” Upwell Executive Spectacles ': apparel/Eyewear
+  Women's ��Protector’ Beret (Caldari State): apparel/Headwear
   Worm: ship/Frigate
   Worm Ace of Podhunters SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Worm Blueprint: blueprint/FrigateBlueprint
@@ -70156,12 +70156,12 @@ name2group:
   xenon_gas_weather_1: celestial/NonInteractableObject
   xenon_gas_weather_2: celestial/NonInteractableObject
   xenon_gas_weather_3: celestial/MassiveEnvironments
-  ‘Cold Wind’ Kinetic Reaper: module/SuperWeapon
   ‘Cold Wind’ Kinetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Divine Harvest’ Electromagnetic Reaper: module/SuperWeapon
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Geiravor’ Explosive Lance: module/SuperWeapon
   ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
@@ -70186,7 +70186,7 @@ name2group:
   ♦ Bhaalgorn: entity/NPCBattleship
   ♦ Blackbird: entity/NPCCruiser
   ♦ Breacher: entity/NPCFrigate
-  ♦ Brutix: entity/Battlecruiser
+  ♦ Brutix: entity/NPCBattlecruiser
   ♦ Burst: entity/NPCFrigate
   ♦ Bustard: entity/NPCMiningHauler
   ♦ Caiman: entity/NPCDreadnought
@@ -70200,15 +70200,15 @@ name2group:
   ♦ Dagon: entity/NPCForceAuxiliary
   ♦ Daredevil: entity/NPCFrigate
   ♦ Dominix: entity/NPCBattleship
-  ♦ Drake: entity/Battlecruiser
+  ♦ Drake: entity/NPCBattlecruiser
   ♦ Dramiel: entity/NPCFrigate
   ♦ Executioner: entity/NPCFrigate
   ♦ Exequror: entity/NPCCruiser
   ♦ Fury: entity/NPCFrigate
   ♦ Gila: entity/NPCCruiser
   ♦ Griffin: entity/NPCFrigate
-  ♦ Harbinger: entity/Battlecruiser
-  ♦ Hurricane: entity/Battlecruiser
+  ♦ Harbinger: entity/NPCBattlecruiser
+  ♦ Hurricane: entity/NPCBattlecruiser
   ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
   ♦ Incursus: entity/NPCFrigate
@@ -70230,7 +70230,6 @@ name2group:
   ♦ Molok: entity/NPCTitan
   ♦ Navitas: entity/NPCFrigate
   ♦ Nightmare: entity/NPCBattleship
-  ♦ Occator: entity/NPCMiningHauler
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
   ♦ Osprey: entity/NPCCruiser
@@ -70272,28 +70271,28 @@ name2group:
   乌鸦级YC117年特别版: ship/Battleship
   乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  伊什��级YC117年特别版: ship/HeavyAssaultCruiser
+  伊什塔级YC117年特��版: ship/HeavyAssaultCruiser
   响尾蛇级YC117年特别版: ship/Battleship
-  响尾蛇���YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   多米尼克斯级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   幼龙级YC117年特别版: ship/CombatBattlecruiser
-  幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
   未来人类纪念章: specialeditionassets/SpecialEditionCommodities
   末日沙场级YC117年特别版: ship/Battleship
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   毒蜥级YC117年特别版: ship/Cruiser
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  泰坦会战纪念碑: celestial/LargeCollidableObject
+  泰坦会战纪��碑: celestial/LargeCollidableObject
   泰坦会战遗址: celestial/Beacon
   灾难级YC117年特别版: ship/Battleship
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
-  银���级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  马克瑞级YC117年特别版: ship/Battleship
-  马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Thorax: entity/NPCCruiser
-  ��Guillotine’ Thermal Reaper: module/SuperWeapon
-  ��� Apocalypse: entity/NPCBattleship
+  银鹰级YC117年特���版蓝图: blueprint/CruiserBlueprint
+  马克瑞级YC117年特别版��图: blueprint/BattleshipBlueprint
+  马克瑞级YC117年特��版: ship/Battleship
+  �� Occator: entity/NPCMiningHauler
+  �� Raven: entity/NPCBattleship
+  ��Cold Wind’ Kinetic Reaper: module/SuperWeapon
+  ��龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint

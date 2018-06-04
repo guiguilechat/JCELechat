@@ -230,7 +230,7 @@ public class ItemsTranslater {
 	protected Object makeObjectDefault(String string, DynamicClassLoader cl) {
 		try {
 			Class<?> clazz = cl.loadClass(string);
-			Object ret = clazz.newInstance();
+			Object ret = clazz.getDeclaredConstructor().newInstance();
 			ret.getClass().getMethod("loadDefault").invoke(ret);
 			return ret;
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | NoSuchMethodException
