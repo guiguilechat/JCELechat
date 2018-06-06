@@ -17,7 +17,7 @@ public class CachedOrdersList {
 	/**
 	 *
 	 */
-	private final RegionalMarket regionalMarket;
+	public final RegionalMarket regionalMarket;
 	public final int typeID;
 
 	private ObservableList<R_get_markets_region_id_orders> buyOrders = FXCollections.observableArrayList();
