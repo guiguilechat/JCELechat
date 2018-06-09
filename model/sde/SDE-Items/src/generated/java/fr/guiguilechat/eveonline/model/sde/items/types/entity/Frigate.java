@@ -5,11 +5,11 @@ import java.util.LinkedHashMap;
 import fr.guiguilechat.eveonline.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class NPCFrigate
+public class Frigate
     extends Entity
 {
-    public final static String RESOURCE_PATH = "SDE/items/entity/NPCFrigate.yaml";
-    private static LinkedHashMap<String, NPCFrigate> cache = (null);
+    public final static String RESOURCE_PATH = "SDE/items/entity/Frigate.yaml";
+    private static LinkedHashMap<String, Frigate> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -18,13 +18,13 @@ public class NPCFrigate
 
     @Override
     public Class<?> getGroup() {
-        return NPCFrigate.class;
+        return Frigate.class;
     }
 
-    public static synchronized LinkedHashMap<String, NPCFrigate> load() {
+    public static synchronized LinkedHashMap<String, Frigate> load() {
         if (cache == null) {
             try {
-                cache = new Yaml().loadAs(new InputStreamReader(NPCFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+                cache = new Yaml().loadAs(new InputStreamReader(Frigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
             } catch (final Exception exception) {
                 throw new UnsupportedOperationException("catch this", exception);
             }
@@ -33,6 +33,6 @@ public class NPCFrigate
     }
 
     private static class Container {
-        public LinkedHashMap<String, NPCFrigate> items;
+        public LinkedHashMap<String, Frigate> items;
     }
 }

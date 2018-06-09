@@ -359,10 +359,10 @@ items:
     id: 42738
     name: Women's ‘Liberator’ Beret (Minmatar Republic)
     volume: 0.1
-  Women's ��Protector’ Beret (Caldari State):
+  Women's ‘Protector’ Beret (Caldari State):
     Gender: 3
     id: 42740
-    name: Women's ��Protector’ Beret (Caldari State)
+    name: Women's ‘Protector’ Beret (Caldari State)
     volume: 0.1
   hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type:
     Gender: 3

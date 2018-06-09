@@ -221,7 +221,7 @@ public class Compiler {
 			case "X-User-Agent":
 			case "datasource":
 			case "If-None-Match":
-			case "Accept-language":
+			case "Accept-Language":
 				// case "page":
 				continue;
 			default:
@@ -230,6 +230,7 @@ public class Compiler {
 				JVar param;
 				switch (in) {
 				case "path":
+					meth.javadoc().addParam(p.getName()).add(p.getDescription());
 					PathParameter pp = (PathParameter) p;
 					pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
 					if (!pp.getRequired() && pt.isPrimitive()) {
@@ -238,6 +239,7 @@ public class Compiler {
 					pathparameters.add(meth.param(pt, pp.getName()));
 					break;
 				case "query":
+					meth.javadoc().addParam(p.getName()).add(p.getDescription());
 					QueryParameter qp = (QueryParameter) p;
 					param = meth.param(getExistingClass(qp), qp.getName());
 					queryparameters.add(param);
@@ -246,11 +248,13 @@ public class Compiler {
 					BodyParameter bp = (BodyParameter) p;
 					Model schema = bp.getSchema();
 					if (schema instanceof ArrayModel) {
+						meth.javadoc().addParam(p.getName()).add(p.getDescription());
 						pt = getExistingClass((ArrayModel) schema);
 						param = meth.param(pt, bp.getName());
 						bodyparameters.add(param);
 					} else {
 						for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+							meth.javadoc().addParam(e.getKey()).add(e.getValue().getDescription());
 							AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
 							param = meth.param(type, e.getKey());
 							bodyparameters.add(param);
@@ -262,7 +266,8 @@ public class Compiler {
 				}
 			}
 		}
-		meth.javadoc().add(("<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
+		meth.javadoc().append("" + operation.getSummary());
+		meth.javadoc().add(("\n<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
 				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
 		if (operation.getVendorExtensions().containsKey("x-required-roles")) {
 			Object extension = operation.getVendorExtensions().get("x-required-roles");

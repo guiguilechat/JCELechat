@@ -1283,7 +1283,7 @@ items:
     id: 33875
     name: Prophecy Blood Raiders Edition
     volume: 234000.0
-  幼龙级YC117年特别版:
+  幼龙���YC117年特别版:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -1356,5 +1356,5 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 34473
-    name: 幼龙级YC117年特别版
+    name: 幼龙���YC117年特别版
     volume: 252000.0

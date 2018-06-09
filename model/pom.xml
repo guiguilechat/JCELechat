@@ -15,7 +15,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>EveOnline</artifactId>
-		<version>3.3.1</version>
+		<version>3.3.2</version>
 	</parent>
 	<scm>
 		<url>https://github.com/guiguilechat/EveOnline</url>
