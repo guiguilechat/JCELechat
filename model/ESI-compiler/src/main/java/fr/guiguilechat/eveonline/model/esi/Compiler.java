@@ -149,11 +149,22 @@ public class Compiler {
 		coget.param(cm.BOOLEAN, "connected");
 		coget.param(headerhandlertype, "headerHandler");
 
+		JMethod codel = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectDel");
+		codel.param(cm.ref(String.class), "url");
+		codel.param(cm.BOOLEAN, "connected");
+		codel.param(headerhandlertype, "headerHandler");
+
 		JMethod copost = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
 		copost.param(cm.ref(String.class), "url");
 		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
 		copost.param(cm.BOOLEAN, "connected");
 		copost.param(headerhandlertype, "headerHandler");
+
+		JMethod coput = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPut");
+		coput.param(cm.ref(String.class), "url");
+		coput.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
+		coput.param(cm.BOOLEAN, "connected");
+		coput.param(headerhandlertype, "headerHandler");
 
 		JDirectClass genericType = cm.directClass("T");
 		JMethod convert = jc.method(JMod.PUBLIC, genericType, "convert");
@@ -170,153 +181,164 @@ public class Compiler {
 			// System.err.println(resource);
 			addPath(OpType.get, resource, p.getGet());
 			addPath(OpType.post, resource, p.getPost());
-			// addPath(OpType.delete, resource, p.getDelete());
-			// addPath(OpType.put, resource, p.getPut());
+			addPath(OpType.delete, resource, p.getDelete());
+			addPath(OpType.put, resource, p.getPut());
 
 		});
 		return cm;
 	}
 
 	protected void addPath(OpType optype, String path, Operation operation) {
-		if (operation != null) {
-			Response r = operation.getResponses().get("200");
-			if (r == null) {
-				r = operation.getResponses().get("201");
-			}
-			if (r == null) {
-				r = operation.getResponses().get("204");
-			}
-			if (r != null) {
-				Property s = r.getSchema();
-				AbstractJType retType = s == null ? cm.VOID : translateToClass(s, responsePackage, "R_" + s.getTitle());
-				JMethod meth = jc.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
-				List<JVar> pathparameters = new ArrayList<>();
-				List<JVar> queryparameters = new ArrayList<>();
-				List<JVar> bodyparameters = new ArrayList<>();
+		if (operation == null) {
+			return;
+		}
+		Response r = operation.getResponses().get("200");
+		if (r == null) {
+			r = operation.getResponses().get("201");
+		}
+		if (r == null) {
+			r = operation.getResponses().get("204");
+		}
+		if (r == null) {
+			logger.error("can't find response for path " + path);
+			return;
+		}
+		Property s = r.getSchema();
+		AbstractJType retType = s == null ? cm.VOID : translateToClass(s, responsePackage, "R_" + s.getTitle());
+		JMethod meth = jc.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
+		List<JVar> pathparameters = new ArrayList<>();
+		List<JVar> queryparameters = new ArrayList<>();
+		List<JVar> bodyparameters = new ArrayList<>();
 
-				boolean connected = false;
-				for (Parameter p : operation.getParameters()) {
-					switch (p.getName()) {
-					case "token":
-						connected = true;
-						break;
-						// we skip following parameters
-					case "user_agent":
-					case "X-User-Agent":
-					case "datasource":
-					case "If-None-Match":
-						// case "page":
-						continue;
-					default:
-						String in = p.getIn();
-						AbstractJType pt;
-						JVar param;
-						switch (in) {
-						case "path":
-							PathParameter pp = (PathParameter) p;
-							pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
-							if (!pp.getRequired() && pt.isPrimitive()) {
-								pt=pt.boxify();
-							}
-							pathparameters.add(meth.param(pt, pp.getName()));
-							break;
-						case "query":
-							QueryParameter qp = (QueryParameter) p;
-							param = meth.param(getExistingClass(qp), qp.getName());
-							queryparameters.add(param);
-							break;
-						case "body":
-							BodyParameter bp = (BodyParameter) p;
-							Model schema = bp.getSchema();
-							if (schema instanceof ArrayModel) {
-								pt = getExistingClass((ArrayModel) schema);
-								param = meth.param(pt, bp.getName());
-								bodyparameters.add(param);
-							} else {
-								for (Entry<String, Property> e : schema.getProperties().entrySet()) {
-									AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
-									param = meth.param(type, e.getKey());
-									bodyparameters.add(param);
-								}
-							}
-							break;
-						default:
-							logger.error("no matching type " + p.getIn() + " for parameter " + p.getName() + " in " + path);
-						}
+		boolean connected = false;
+		for (Parameter p : operation.getParameters()) {
+			switch (p.getName()) {
+			case "token":
+				connected = true;
+				break;
+				// we skip following parameters
+			case "user_agent":
+			case "X-User-Agent":
+			case "datasource":
+			case "If-None-Match":
+			case "Accept-language":
+				// case "page":
+				continue;
+			default:
+				String in = p.getIn();
+				AbstractJType pt;
+				JVar param;
+				switch (in) {
+				case "path":
+					PathParameter pp = (PathParameter) p;
+					pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
+					if (!pp.getRequired() && pt.isPrimitive()) {
+						pt=pt.boxify();
 					}
-				}
-				if (operation.getVendorExtensions().containsKey("x-required-roles")) {
-					Object extension = operation.getVendorExtensions().get("x-required-roles");
-					@SuppressWarnings("unchecked")
-					List<String> roles = (List<String>) extension;
-					if (!roles.isEmpty()) {
-						JFieldVar rolesfield = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class).array(),
-								(operation.getOperationId() + "_roles").toUpperCase());
-						JArray array = JExpr.newArray(cm.ref(String.class));
-						for (String role : roles) {
-							array.add(JExpr.lit(role));
-						}
-						rolesfield.init(array);
-						rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
-						meth.javadoc().add("<p> require the roles specified {@link #" + rolesfield.name() + " here}</p>");
-					}
-				}
-				JVar header = meth.param(headerhandlertype, "headerHandler");
-
-				String urlAssign = "\"" + baseURL + path + "\"";
-				for (JVar jv : pathparameters) {
-					urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
-				}
-				if (queryparameters.size() > 0) {
-					urlAssign += "+\"?\"";
-				}
-				for (int pi = 0; pi < queryparameters.size(); pi++) {
-					JVar qp = queryparameters.get(pi);
-					if (qp.type() instanceof JPrimitiveType) {
-						urlAssign += "+\"&" + qp.name() + "=\"+flatten(" + qp.name() + ")";
-					} else {
-						urlAssign += "+("+qp.name()+"==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
-					}
-				}
-				JVar url = meth.body().decl(cm.ref(String.class), "url");
-				url.init(JExpr.direct(urlAssign));
-				switch (optype) {
-				case post:
-					JVar content = null;
-					if (!bodyparameters.isEmpty()) {
-						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
-								"content");
-						content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
-						for (JVar p : bodyparameters) {
-							meth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
-						}
-					}
-					if (s == null) {
-						meth.body().invoke("connectPost").arg(url)
-						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-						.arg(JExpr.lit(connected)).arg(header);
-					} else {
-						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
-						fetched.init(JExpr.invoke("connectPost").arg(url)
-								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-								.arg(JExpr.lit(connected)).arg(header));
-					}
+					pathparameters.add(meth.param(pt, pp.getName()));
 					break;
-				case get:
-					meth.body().directStatement(
-							"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
+				case "query":
+					QueryParameter qp = (QueryParameter) p;
+					param = meth.param(getExistingClass(qp), qp.getName());
+					queryparameters.add(param);
+					break;
+				case "body":
+					BodyParameter bp = (BodyParameter) p;
+					Model schema = bp.getSchema();
+					if (schema instanceof ArrayModel) {
+						pt = getExistingClass((ArrayModel) schema);
+						param = meth.param(pt, bp.getName());
+						bodyparameters.add(param);
+					} else {
+						for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+							AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
+							param = meth.param(type, e.getKey());
+							bodyparameters.add(param);
+						}
+					}
 					break;
 				default:
-					throw new UnsupportedOperationException("unsupported type " + optype);
+					logger.error("no matching type " + p.getIn() + " for parameter " + p.getName() + " in " + path);
 				}
-				if (s != null) {
-					meth.body()._return(
-							JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(retType.binaryName() + ".class")));
-				}
-			} else {
-				logger.error("can't find response for path " + path);
 			}
 		}
+		meth.javadoc().add(("<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
+				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
+		if (operation.getVendorExtensions().containsKey("x-required-roles")) {
+			Object extension = operation.getVendorExtensions().get("x-required-roles");
+			@SuppressWarnings("unchecked")
+			List<String> roles = (List<String>) extension;
+			if (!roles.isEmpty()) {
+				JFieldVar rolesfield = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class).array(),
+						(operation.getOperationId() + "_roles").toUpperCase());
+				JArray array = JExpr.newArray(cm.ref(String.class));
+				for (String role : roles) {
+					array.add(JExpr.lit(role));
+				}
+				rolesfield.init(array);
+				rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
+				meth.javadoc().add("\n<p>\nrequire the roles specified {@link #" + rolesfield.name() + " here}\n</p>");
+			}
+		}
+		JVar header = meth.param(headerhandlertype, "headerHandler");
+
+		String urlAssign = "\"" + baseURL + path + "\"";
+		for (JVar jv : pathparameters) {
+			urlAssign += ".replace(\"{" + jv.name() + "}\", \"\"+" + jv.name() + ")";
+		}
+		if (queryparameters.size() > 0) {
+			urlAssign += "+\"?\"";
+		}
+		for (int pi = 0; pi < queryparameters.size(); pi++) {
+			JVar qp = queryparameters.get(pi);
+			if (qp.type() instanceof JPrimitiveType) {
+				urlAssign += "+\"&" + qp.name() + "=\"+flatten(" + qp.name() + ")";
+			} else {
+				urlAssign += "+("+qp.name()+"==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
+			}
+		}
+		JVar url = meth.body().decl(cm.ref(String.class), "url");
+		url.init(JExpr.direct(urlAssign));
+		switch (optype) {
+		case post:
+		case put:
+			String methName = optype == OpType.post ? "connectPost" : "connectPut";
+			JVar content = null;
+			if (!bodyparameters.isEmpty()) {
+				content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
+						"content");
+				content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+				for (JVar p : bodyparameters) {
+					meth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
+				}
+			}
+			if (s == null) {
+				meth.body().invoke(methName).arg(url)
+				.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
+				.arg(JExpr.lit(connected)).arg(header);
+			} else {
+				JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
+				fetched.init(JExpr.invoke(methName).arg(url)
+						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
+						.arg(JExpr.lit(connected)).arg(header));
+			}
+			break;
+		case get:
+			meth.body().directStatement(
+					"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
+			break;
+		case delete:
+			meth.body().directStatement(
+					"connectDel(url," + Boolean.toString(connected) + ", headerHandler);");
+			break;
+		default:
+			throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
+		}
+		if (s != null) {
+			meth.body()._return(
+					JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(retType.binaryName() + ".class")));
+		}
+
 	}
 
 	/**

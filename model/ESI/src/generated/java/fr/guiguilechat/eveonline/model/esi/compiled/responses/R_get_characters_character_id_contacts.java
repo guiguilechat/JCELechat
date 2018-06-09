@@ -5,6 +5,6 @@ public class R_get_characters_character_id_contacts {
     public String contact_type;
     public boolean is_blocked;
     public boolean is_watched;
-    public long label_id;
+    public long[] label_ids;
     public float standing;
 }

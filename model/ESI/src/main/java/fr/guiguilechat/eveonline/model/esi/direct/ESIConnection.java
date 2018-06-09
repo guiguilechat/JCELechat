@@ -208,6 +208,26 @@ public class ESIConnection implements Swagger {
 	}
 
 	/**
+	 * delete an url, using your authorization
+	 *
+	 * @param url
+	 *          the url to fetch
+	 * @return the line returned by the server as a response. null if there was an
+	 *         issue
+	 */
+	@Override
+	public String connectDel(String url, boolean connected, Map<String, List<String>> headerHandler) {
+		Map<String, String> props;
+		if (connected) {
+			props = new HashMap<>();
+			props.put("Authorization", getAuthorization());
+		} else {
+			props = Collections.emptyMap();
+		}
+		return connect(url, "DELETE", props, null, headerHandler);
+	}
+
+	/**
 	 * post an url, using your authorization
 	 *
 	 * @param url
@@ -244,6 +264,37 @@ public class ESIConnection implements Swagger {
 						connected, headerHandler);
 			} else {
 				return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
+			}
+		} catch (JsonProcessingException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	// copypasta of connectpost
+	public String connectPut(String url, String contentType, String transmit, boolean connected,
+			Map<String, List<String>> headerHandler) {
+		HashMap<String, String> props = new HashMap<>();
+		if (connected) {
+			props.put("Authorization", getAuthorization());
+		}
+		props.put("Content-Type", contentType);
+		return connect(url, "PUT", props, transmit, headerHandler);
+	}
+
+	// copypasta of connect post
+	@Override
+	public String connectPut(String url, Map<String, Object> transmit, boolean connected,
+			Map<String, List<String>> headerHandler) {
+		try {
+			// specific hack : if only one thing to transmit, eg ids:[1,2,3], you have
+			// to transmit the ids directly.
+			// that means "id:1" will be actually transmitted as "1",
+			// while "id:1,name:\"lol\"" will be transmited as is
+			if (transmit != null && transmit.size() == 1) {
+				return connectPut(url, "application/json", ow.writeValueAsString(transmit.values().iterator().next()),
+						connected, headerHandler);
+			} else {
+				return connectPut(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
 			}
 		} catch (JsonProcessingException e) {
 			throw new UnsupportedOperationException("catch this", e);
