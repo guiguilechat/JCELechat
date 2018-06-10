@@ -122,10 +122,6 @@ public class Compiler {
 				+ (swagger.getBasePath() == null ? "" : swagger.getBasePath());
 		cm = new JCodeModel();
 		String rootPackage = Compiler.class.getPackage().getName() + ".compiled";
-		// List<String> add = Arrays.asList(baseURL.split("/")[2].split("\\."));
-		// Collections.reverse(add);
-		// rootPackage = add.stream().collect(Collectors.joining("."));
-		// System.err.println("root package is " + rootPackage);
 
 		jc = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
 

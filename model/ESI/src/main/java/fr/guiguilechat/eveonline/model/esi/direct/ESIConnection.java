@@ -89,12 +89,15 @@ public class ESIConnection implements Swagger {
 	}
 
 	/**
-	 * connect to an url and retrieve the result.
+	 * connect to an url and retrieve the result.<br />
+	 * This is a static method, all the code to handle specific options (eg
+	 * connection, data type) must be handled before. That's why there is another
+	 * connect method that has more code.
 	 *
 	 * @param url
 	 *          the url to fetch
 	 * @param method
-	 *          the method to connect. must be POST or GET
+	 *          the method to connect. must be POST or GET, DELETE or UPDATE
 	 * @param properties
 	 *          the properties to transmit in the header
 	 * @param transmit
@@ -149,7 +152,7 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_NOT_FOUND:
 				case HttpsURLConnection.HTTP_BAD_METHOD:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
-					return null;
+					return "";
 					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				case HttpsURLConnection.HTTP_BAD_GATEWAY:
@@ -184,122 +187,79 @@ public class ESIConnection implements Swagger {
 			new BufferedReader(new InputStreamReader(errorStream)).lines().forEach(sb::append);
 		}
 		logger.warn(sb.toString());
-
 	}
 
 	/**
-	 * get an url, using your authorization
-	 *
-	 * @param url
-	 *          the url to fetch
-	 * @return the line returned by the server as a response. null if there was an
-	 *         issue
+	 * handle the connection and translation of data into the proper format
 	 */
-	@Override
-	public String connectGet(String url, boolean connected, Map<String, List<String>> headerHandler) {
-		Map<String, String> props;
-		if (connected) {
-			props = new HashMap<>();
-			props.put("Authorization", getAuthorization());
-		} else {
-			props = Collections.emptyMap();
-		}
-		return connect(url, "GET", props, null, headerHandler);
-	}
-
-	/**
-	 * delete an url, using your authorization
-	 *
-	 * @param url
-	 *          the url to fetch
-	 * @return the line returned by the server as a response. null if there was an
-	 *         issue
-	 */
-	@Override
-	public String connectDel(String url, boolean connected, Map<String, List<String>> headerHandler) {
-		Map<String, String> props;
-		if (connected) {
-			props = new HashMap<>();
-			props.put("Authorization", getAuthorization());
-		} else {
-			props = Collections.emptyMap();
-		}
-		return connect(url, "DELETE", props, null, headerHandler);
-	}
-
-	/**
-	 * post an url, using your authorization
-	 *
-	 * @param url
-	 *          the url to fetch
-	 * @param contentType
-	 *          the type of the data transmitted
-	 * @param transmit
-	 *          the data to transmit during the query
-	 * @return the line returned by the server as a response. null if there was an
-	 *         issue
-	 */
-	public String connectPost(String url, String contentType, String transmit, boolean connected,
+	public String connect(String url, String method, Map<String, Object> transmit, boolean connected,
 			Map<String, List<String>> headerHandler) {
 		HashMap<String, String> props = new HashMap<>();
+		String datastr = null;
 		if (connected) {
 			props.put("Authorization", getAuthorization());
 		}
-		props.put("Content-Type", contentType);
-		return connect(url, "POST", props, transmit, headerHandler);
+		if (transmit != null) {
+			props.put("Content-Type", "application/json");
+			datastr = mapToJSON(transmit);
+		}
+		return connect(url, method, props, datastr, headerHandler);
 	}
 
-	ObjectWriter ow = new ObjectMapper().writer();
+	static final ObjectWriter ow = new ObjectMapper().writer();
+
+	/**
+	 * translate a map to json attributes.
+	 * <p>
+	 * There is a specific hack in case the map only contains one value : we then
+	 * transmit directly this value.<br />
+	 * eg if the data to transmit is {a:b} we only transmit {b}. if the data is
+	 * {a:{k1:v1,k2:v2}} we transmit {k1:v1,k2:v2}
+	 * </p>
+	 *
+	 * @param transmit
+	 * @return
+	 */
+	protected static String mapToJSON(Map<String, Object> transmit) {
+		try {
+			// TODO check if Objectwriter is thread safe.
+			// few tests did not show concurrency corruption, but just in case I sync
+			// over it. If possible, use a thread-safe OW. If OW is already thread
+			// safe, remove this comment.
+			synchronized (ow) {
+				if (transmit != null && transmit.size() == 1) {
+					return ow.writeValueAsString(transmit.values().iterator().next());
+				} else {
+					return ow.writeValueAsString(transmit);
+				}
+			}
+		} catch (JsonProcessingException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	@Override
+	public String connectGet(String url, boolean connected, Map<String, List<String>> headerHandler) {
+		return connect(url, "GET", null, connected, headerHandler);
+	}
+
+	@Override
+	public String connectDel(String url, boolean connected, Map<String, List<String>> headerHandler) {
+		return connect(url, "DELETE", null, connected, headerHandler);
+	}
 
 	@Override
 	public String connectPost(String url, Map<String, Object> transmit, boolean connected,
 			Map<String, List<String>> headerHandler) {
-		try {
-			// specific hack : if only one thing to transmit, eg ids:[1,2,3], you have
-			// to transmit the ids directly.
-			// that means "id:1" will be actually transmitted as "1",
-			// while "id:1,name:\"lol\"" will be transmited as is
-			if (transmit != null && transmit.size() == 1) {
-				return connectPost(url, "application/json", ow.writeValueAsString(transmit.values().iterator().next()),
-						connected, headerHandler);
-			} else {
-				return connectPost(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
-			}
-		} catch (JsonProcessingException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
+		return connect(url, "POST", transmit, connected, headerHandler);
 	}
 
-	// copypasta of connectpost
-	public String connectPut(String url, String contentType, String transmit, boolean connected,
-			Map<String, List<String>> headerHandler) {
-		HashMap<String, String> props = new HashMap<>();
-		if (connected) {
-			props.put("Authorization", getAuthorization());
-		}
-		props.put("Content-Type", contentType);
-		return connect(url, "PUT", props, transmit, headerHandler);
-	}
-
-	// copypasta of connect post
 	@Override
 	public String connectPut(String url, Map<String, Object> transmit, boolean connected,
 			Map<String, List<String>> headerHandler) {
-		try {
-			// specific hack : if only one thing to transmit, eg ids:[1,2,3], you have
-			// to transmit the ids directly.
-			// that means "id:1" will be actually transmitted as "1",
-			// while "id:1,name:\"lol\"" will be transmited as is
-			if (transmit != null && transmit.size() == 1) {
-				return connectPut(url, "application/json", ow.writeValueAsString(transmit.values().iterator().next()),
-						connected, headerHandler);
-			} else {
-				return connectPut(url, "application/json", ow.writeValueAsString(transmit), connected, headerHandler);
-			}
-		} catch (JsonProcessingException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		}
+		return connect(url, "PUT", transmit, connected, headerHandler);
 	}
+
 
 	public static class R_Verify {
 		public int CharacterID;
