@@ -605,11 +605,11 @@ items:
     marketGroup: 1661
     name: Republic Civilian Container
     volume: 0.1
-  Rooks & Kings �� The Clarion Call Compilation:
+  Rooks & Kings – The Clarion Call Compilation:
     CpuMultiplier: 1.0
     id: 34422
     marketGroup: 1661
-    name: Rooks & Kings �� The Clarion Call Compilation
+    name: Rooks & Kings – The Clarion Call Compilation
     volume: 3.0
   Rorqual Design Change Log:
     CpuMultiplier: 1.0
@@ -946,9 +946,9 @@ items:
     marketGroup: 1661
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  未来人类��念章:
+  未来人类纪念章:
     CpuMultiplier: 1.0
     id: 41035
     marketGroup: 1661
-    name: 未来人类��念章
+    name: 未来人类纪念章
     volume: 3.0

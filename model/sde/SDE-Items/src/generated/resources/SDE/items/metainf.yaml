@@ -20821,7 +20821,7 @@ id2name:
   33850: Federation Navy Drone Navigation Computer
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
-  33857: 泰坦会战遗址
+  33857: 泰坦会战遗��
   33858: 泰坦会战纪念碑
   33864: Mordu’s Special Warfare Unit Operative
   33865: Mordu’s Special Warfare Unit Specialist
@@ -21325,7 +21325,7 @@ id2name:
   34419: Jump Fatigue Recovery Agent
   34420: Cooking With Veldspar
   34421: Chribba’s Modified Strip Miner
-  34422: Rooks & Kings �� The Clarion Call Compilation
+  34422: Rooks & Kings – The Clarion Call Compilation
   34423: Pre-Completed CSM 10 Ballot Paper
   34424: Titanium Plated Cranial Shielding
   34425: SCC Guidelines – Lotteries For Dummies
@@ -21367,23 +21367,23 @@ id2name:
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
-  34464: 响尾蛇级YC117年特别版蓝图
+  34464: 响尾蛇级YC117年���别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
-  34470: 乌鸦级YC117年特别���蓝图
-  34471: 灾难��YC117年特别版
+  34470: 乌鸦级YC117年特别版蓝图
+  34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
   34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
-  34476: 毒蜥级YC117年特别版蓝��
+  34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
-  34479: 伊什塔级YC117年特别版
-  34480: ���什塔级YC117年特别版蓝图
+  34479: 伊什���级YC117年特别版
+  34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
   34485: ORE Reinforced Bulkheads
@@ -27098,7 +27098,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来人类��念章
+  41035: 未来人类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -27482,8 +27482,8 @@ id2name:
   41440: ‘Phalarica’ Thermal Lance
   41441: ‘Geiravor’ Explosive Lance
   41442: ‘Cold Wind’ Kinetic Reaper
-  41443: ‘Guillotine’ Thermal Reaper
-  41444: ‘Jormungandr’ Explosive Reaper
+  41443: ‘Guillotine��� Thermal Reaper
+  41444: ‘Jormungandr�� Explosive Reaper
   41445: ‘Holy Destiny’ Electromagnetic Lance Blueprint
   41446: ‘Iron Pike’ Kinetic Lance Blueprint
   41447: ‘Phalarica’ Thermal Lance Blueprint
@@ -28614,7 +28614,7 @@ id2name:
   42709: Women's ‘Defender’ Beret (Gallente Federation)
   42710: Gallente Cap Male
   42711: Cap Male Green
-  42712: Men's ‘Liberator’ Beret (Minmatar Republic)
+  42712: Men's ���Liberator’ Beret (Minmatar Republic)
   42713: Cap Male Orange
   42714: Cap Male White/Black
   42715: Cap Female Minmatar
@@ -30695,7 +30695,7 @@ id2name:
   45467: Minmatar CA Frigate
   45468: Minmatar CA Destroyer
   45469: Minmatar CA Cruiser
-  45470: �� Chemosh
+  45470: ♦ Chemosh
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
@@ -31259,7 +31259,7 @@ id2name:
   46049: ♦ Orca
   46050: Superior Exoplanets Hunter Reward Crate
   46051: Daredevil IGC SKIN (Permanent)
-  46052: ♦ Cruor
+  46052: ��� Cruor
   46053: ♦ Worm
   46054: ♦ Ashimmu
   46055: ♦ Bhaalgorn
@@ -31267,7 +31267,7 @@ id2name:
   46057: ♦ Rattlesnake
   46058: ♦ Daredevil
   46059: ♦ Vigilant
-  46060: ��� Vindicator
+  46060: ♦ Vindicator
   46061: ♦ Dramiel
   46062: ♦ Cynabal
   46063: ♦ Machariel
@@ -31277,14 +31277,14 @@ id2name:
   46067: ♦ Omen
   46068: ♦ Harbinger
   46069: ♦ Apocalypse
-  46070: ♦ Merlin
+  46070: ��� Merlin
   46071: ♦ Caracal
   46072: ♦ Drake
   46073: ♦ Raven
   46074: ♦ Incursus
   46075: ♦ Thorax
   46076: ♦ Brutix
-  46077: �� Megathron
+  46077: ♦ Megathron
   46078: ♦ Rifter
   46079: ♦ Rupture
   46080: ♦ Hurricane
@@ -55975,9 +55975,9 @@ name2group:
   Men's YC119 Yoiul Festival Pants: apparel/Bottoms
   Men's YC119 Yoiul Festival T-shirt: apparel/Tops
   Men's ‘Defender’ Beret (Gallente Federation): apparel/Headwear
-  Men's ‘Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men's ‘Protector’ Beret (Caldari State): apparel/Headwear
   Men's “Mirelle” Upwell Executive Spectacles: apparel/Eyewear
+  Men's ���Liberator’ Beret (Minmatar Republic): apparel/Headwear
   Men’s ‘Crusader’ Beret (Amarr Empire): apparel/Headwear
   Mercenary Commander: entity/MissionGenericCruisers
   Mercenary Corporal: entity/MissionGenericCruisers
@@ -61712,7 +61712,7 @@ name2group:
   Rook Wiyrkomi Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Rook Wiyrkomi Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Rook Wiyrkomi Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
-  Rooks & Kings �� The Clarion Call Compilation: specialeditionassets/SpecialEditionCommodities
+  Rooks & Kings – The Clarion Call Compilation: specialeditionassets/SpecialEditionCommodities
   Rorqual: ship/CapitalIndustrialShip
   Rorqual Amarr Industrial Livery SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Rorqual Angel Industrial Livery SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -70162,14 +70162,14 @@ name2group:
   ‘Divine Harvest’ Electromagnetic Reaper Blueprint: blueprint/SuperWeaponBlueprint
   ‘Geiravor’ Explosive Lance: module/SuperWeapon
   ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Guillotine��� Thermal Reaper: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
-  ‘Jormungandr’ Explosive Reaper: module/SuperWeapon
   ‘Jormungandr’ Explosive Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Jormungandr�� Explosive Reaper: module/SuperWeapon
   ‘Phalarica’ Thermal Lance: module/SuperWeapon
   ‘Phalarica’ Thermal Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin
@@ -70261,6 +70261,7 @@ name2group:
   ♦ Vexor: entity/NPCCruiser
   ♦ Vigil: entity/NPCFrigate
   ♦ Vigilant: entity/NPCCruiser
+  ♦ Vindicator: entity/NPCBattleship
   ♦ Worm: entity/NPCFrigate
   ♦ test_boss: entity/NPCBattleship
   ♦ test_damage: entity/NPCFrigate
@@ -70270,30 +70271,29 @@ name2group:
   万王宝座级YC117年特别版: ship/Battleship
   万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   乌鸦级YC117年特别版: ship/Battleship
-  乌鸦级YC117年特别���蓝图: blueprint/BattleshipBlueprint
-  伊什塔级YC117年特别版: ship/HeavyAssaultCruiser
+  乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  伊什���级YC117年特别版: ship/HeavyAssaultCruiser
   响尾蛇级YC117年特别版: ship/Battleship
-  响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  响尾蛇级YC117年���别版蓝图: blueprint/BattleshipBlueprint
   地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   多米尼克斯级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   幼龙级YC117年特别版: ship/CombatBattlecruiser
   幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
-  未来人类��念章: specialeditionassets/SpecialEditionCommodities
+  未来人类纪念章: specialeditionassets/SpecialEditionCommodities
   末日沙场级YC117年特别版: ship/Battleship
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   毒蜥级YC117年特别版: ship/Cruiser
-  毒蜥级YC117年特别版蓝��: blueprint/CruiserBlueprint
+  毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
   泰坦会战纪念碑: celestial/LargeCollidableObject
-  泰坦会战遗址: celestial/Beacon
+  泰坦会战遗��: celestial/Beacon
+  灾难级YC117年特别版: ship/Battleship
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  灾难��YC117年特别版: ship/Battleship
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版: ship/Battleship
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Chemosh: entity/NPCDreadnought
-  �� Megathron: entity/NPCBattleship
-  ��� Vindicator: entity/NPCBattleship
-  ���什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  ��� Cruor: entity/NPCFrigate
+  ��� Merlin: entity/NPCFrigate

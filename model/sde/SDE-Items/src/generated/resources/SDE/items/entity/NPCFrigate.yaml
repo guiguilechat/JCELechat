@@ -44,7 +44,7 @@ items:
     name: ♦ Crucifier
     volume: 28100.0
   ♦ Cruor:
-    id: 46052
+    id: 45680
     name: ♦ Cruor
     volume: 28600.0
   ♦ Daredevil:
@@ -96,7 +96,7 @@ items:
     name: ♦ Medusa
     volume: 17500.0
   ♦ Merlin:
-    id: 46070
+    id: 43566
     name: ♦ Merlin
     volume: 16500.0
   ♦ Navitas:
@@ -163,3 +163,11 @@ items:
     id: 47197
     name: ♦ test_ewar
     volume: 27289.0
+  ��� Cruor:
+    id: 46052
+    name: ��� Cruor
+    volume: 28600.0
+  ��� Merlin:
+    id: 46070
+    name: ��� Merlin
+    volume: 16500.0

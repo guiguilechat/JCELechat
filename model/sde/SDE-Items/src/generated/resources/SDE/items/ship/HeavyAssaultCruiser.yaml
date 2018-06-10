@@ -896,7 +896,7 @@ items:
     marketGroup: 449
     name: Zealot
     volume: 118000.0
-  伊什塔级YC117年特别版:
+  伊什���级YC117年特别版:
     Agility: 0.5649999976158142
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -975,7 +975,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 34479
-    name: 伊什塔级YC117年特别版
+    name: 伊什���级YC117年特别版
     volume: 115000.0
   银鹰级YC117年特别版:
     Agility: 0.5759999752044678

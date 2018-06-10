@@ -24,7 +24,7 @@ items:
     name: ♦ Machariel
     volume: 595000.0
   ♦ Megathron:
-    id: 43583
+    id: 46077
     name: ♦ Megathron
     volume: 486000.0
   ♦ Nightmare:
@@ -51,15 +51,11 @@ items:
     id: 43595
     name: ♦ Typhoon
     volume: 414000.0
+  ♦ Vindicator:
+    id: 46060
+    name: ♦ Vindicator
+    volume: 486000.0
   ♦ test_boss:
     id: 47198
     name: ♦ test_boss
     volume: 1010000.0
-  �� Megathron:
-    id: 46077
-    name: �� Megathron
-    volume: 486000.0
-  ��� Vindicator:
-    id: 46060
-    name: ��� Vindicator
-    volume: 486000.0

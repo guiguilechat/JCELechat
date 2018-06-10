@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.eveonline</groupId>
     <artifactId>programs</artifactId>
-    <version>3.3.2</version>
+    <version>3.3.3</version>
   </parent>
   <artifactId>Optimize</artifactId>
   <name>Eve Online Optimize</name>

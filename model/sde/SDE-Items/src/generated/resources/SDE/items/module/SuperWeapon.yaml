@@ -399,7 +399,7 @@ items:
     marketGroup: 2270
     name: ‘Geiravor’ Explosive Lance
     volume: 8000.0
-  ‘Guillotine’ Thermal Reaper:
+  ‘Guillotine��� Thermal Reaper:
     CanFitShipType1: 671
     CanFitShipType2: 42126
     CanFitShipType3: 45649
@@ -442,7 +442,7 @@ items:
     ThermalDamage: 100000.0
     id: 41443
     marketGroup: 2269
-    name: ‘Guillotine’ Thermal Reaper
+    name: ‘Guillotine��� Thermal Reaper
     volume: 8000.0
   ‘Holy Destiny’ Electromagnetic Lance:
     CanFitShipType1: 11567
@@ -532,7 +532,7 @@ items:
     marketGroup: 2268
     name: ‘Iron Pike’ Kinetic Lance
     volume: 8000.0
-  ‘Jormungandr’ Explosive Reaper:
+  ‘Jormungandr�� Explosive Reaper:
     CanFitShipType1: 23773
     CanFitShipType2: 42126
     CanFitShipType3: 42241
@@ -575,7 +575,7 @@ items:
     TechLevel: 1
     id: 41444
     marketGroup: 2270
-    name: ‘Jormungandr’ Explosive Reaper
+    name: ‘Jormungandr�� Explosive Reaper
     volume: 8000.0
   ‘Phalarica’ Thermal Lance:
     CanFitShipType1: 671

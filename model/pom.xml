@@ -15,26 +15,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>EveOnline</artifactId>
-		<version>3.3.2</version>
+		<version>3.3.3</version>
 	</parent>
-	<scm>
-		<url>https://github.com/guiguilechat/EveOnline</url>
-		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
-		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
 	<groupId>fr.guiguilechat.eveonline</groupId>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<compilerArgs>
-						<arg>--add-modules</arg>
-						<arg>javafx.graphics</arg>
-					</compilerArgs>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 </project>
