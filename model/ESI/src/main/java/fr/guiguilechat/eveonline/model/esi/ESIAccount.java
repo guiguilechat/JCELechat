@@ -290,9 +290,8 @@ public class ESIAccount {
 		protected long do_execute() {
 			LongProperty cachedExpire = new SimpleLongProperty();
 			List<T> arr = ESIConnection.loadPages(fetcher, cachedExpire::set);
-			long ret = 1000;
+			long ret = 1000 + cachedExpire.get() - System.currentTimeMillis();
 			if (arr != null) {
-				ret += cachedExpire.get() - System.currentTimeMillis();
 				cacheHandler.accept(arr);
 			}
 			return ret;
@@ -361,9 +360,8 @@ public class ESIAccount {
 		protected long do_execute() throws Exception {
 			Map<String, List<String>> headerHandler = new HashMap<>();
 			T res = fetcher.apply(headerHandler);
-			long ret = 1000;
+			long ret = 1000 + ESIConnection.getCacheExpire(headerHandler);
 			if (res != null) {
-				ret += ESIConnection.getCacheExpire(headerHandler);
 				cacheHandler.accept(res);
 			}
 			return ret;

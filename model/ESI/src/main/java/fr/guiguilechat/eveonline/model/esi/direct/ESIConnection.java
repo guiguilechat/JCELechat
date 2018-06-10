@@ -6,8 +6,11 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
+import java.time.Period;
+import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -152,7 +155,21 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_NOT_FOUND:
 				case HttpsURLConnection.HTTP_BAD_METHOD:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
-					return "";
+					// hack : set the cache data to expire tomorrow
+					synchronized (ESIAccount.formatter) {
+						ZonedDateTime now = ZonedDateTime.now(ZoneId.of("UTC"));
+						List<String> dateArr = headerHandler.get("Date");
+						if (dateArr == null) {
+							headerHandler.put("Date", Arrays.asList(ESIAccount.formatter.format(now)));
+						}
+						List<String> expArr = headerHandler.get("Expires");
+						if (expArr == null) {
+							headerHandler.put("Expires", Arrays.asList(ESIAccount.formatter.format(now.plus(Period.ofDays(1)))));
+						}else {
+							expArr.add(0, ESIAccount.formatter.format(now.plus(Period.ofDays(1))));
+						}
+					}
+					return null;
 					// 5xx server error
 				case HttpsURLConnection.HTTP_INTERNAL_ERROR:
 				case HttpsURLConnection.HTTP_BAD_GATEWAY:
@@ -393,14 +410,14 @@ public class ESIConnection implements Swagger {
 			LongConsumer cacheExpireStore) {
 		Map<String, List<String>> headerHandler = new HashMap<>();
 		T[] res = resourceAccess.apply(1, headerHandler);
-		if (res == null) {
-			return null;
-		}
-		int nbpages = ESIConnection.getNbPages(headerHandler);
 		if (cacheExpireStore != null) {
 			long expire = ESIConnection.getCacheExpire(headerHandler);
 			cacheExpireStore.accept(System.currentTimeMillis() + expire);
 		}
+		if (res == null) {
+			return null;
+		}
+		int nbpages = ESIConnection.getNbPages(headerHandler);
 		List<T> ret = Stream.concat(Stream.of(res), IntStream.rangeClosed(2, nbpages).parallel()
 				.mapToObj(page -> resourceAccess.apply(page, null)).flatMap(Stream::of)).collect(Collectors.toList());
 		if (ret.contains(null)) {
