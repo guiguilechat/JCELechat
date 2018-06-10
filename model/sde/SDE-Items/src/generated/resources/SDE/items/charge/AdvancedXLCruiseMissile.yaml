@@ -22,6 +22,7 @@ items:
     TechLevel: 2
     ThermalDamage: 5700.0
     id: 41287
+    marketGroup: 2261
     name: Inferno Fury XL Cruise Missile
     volume: 0.3
   Inferno Precision XL Cruise Missile:
@@ -47,6 +48,7 @@ items:
     TechLevel: 2
     ThermalDamage: 4750.0
     id: 41286
+    marketGroup: 2260
     name: Inferno Precision XL Cruise Missile
     volume: 0.3
   Mjolnir Fury XL Cruise Missile:
@@ -72,6 +74,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41299
+    marketGroup: 2261
     name: Mjolnir Fury XL Cruise Missile
     volume: 0.3
   Mjolnir Precision XL Cruise Missile:
@@ -97,6 +100,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41298
+    marketGroup: 2260
     name: Mjolnir Precision XL Cruise Missile
     volume: 0.3
   Nova Fury XL Cruise Missile:
@@ -122,6 +126,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41294
+    marketGroup: 2261
     name: Nova Fury XL Cruise Missile
     volume: 0.3
   Nova Precision XL Cruise Missile:
@@ -147,6 +152,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41295
+    marketGroup: 2260
     name: Nova Precision XL Cruise Missile
     volume: 0.3
   Scourge Fury XL Cruise Missile:
@@ -172,6 +178,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41291
+    marketGroup: 2261
     name: Scourge Fury XL Cruise Missile
     volume: 0.3
   Scourge Precision XL Cruise Missile:
@@ -197,5 +204,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 2
     id: 41290
+    marketGroup: 2260
     name: Scourge Precision XL Cruise Missile
     volume: 0.3

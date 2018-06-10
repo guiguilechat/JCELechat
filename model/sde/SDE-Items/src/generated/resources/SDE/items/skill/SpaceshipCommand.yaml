@@ -8,6 +8,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 20342
+    marketGroup: 377
     name: Advanced Spaceship Command
     volume: 0.01
   Amarr Battlecruiser:
@@ -20,6 +21,7 @@ items:
     SkillTimeConstant: 6.0
     SubSystemSlot: 125
     id: 33095
+    marketGroup: 377
     name: Amarr Battlecruiser
     volume: 0.01
   Amarr Battleship:
@@ -31,6 +33,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 3339
+    marketGroup: 377
     name: Amarr Battleship
     volume: 0.01
   Amarr Carrier:
@@ -49,6 +52,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
     id: 24311
+    marketGroup: 377
     name: Amarr Carrier
     volume: 0.01
   Amarr Cruiser:
@@ -61,6 +65,7 @@ items:
     ShipPowerBonus: 2
     SkillTimeConstant: 5.0
     id: 3335
+    marketGroup: 377
     name: Amarr Cruiser
     volume: 0.01
   Amarr Destroyer:
@@ -70,6 +75,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 33091
+    marketGroup: 377
     name: Amarr Destroyer
     volume: 0.01
   Amarr Dreadnought:
@@ -84,6 +90,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 20525
+    marketGroup: 377
     name: Amarr Dreadnought
     volume: 0.01
   Amarr Force Auxiliary:
@@ -103,6 +110,7 @@ items:
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
     id: 40535
+    marketGroup: 377
     name: Amarr Force Auxiliary
     volume: 0.01
   Amarr Freighter:
@@ -115,6 +123,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 20524
+    marketGroup: 377
     name: Amarr Freighter
     volume: 0.01
   Amarr Frigate:
@@ -124,6 +133,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3331
+    marketGroup: 377
     name: Amarr Frigate
     volume: 0.01
   Amarr Industrial:
@@ -133,6 +143,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3343
+    marketGroup: 377
     name: Amarr Industrial
     volume: 0.01
   Amarr Strategic Cruiser:
@@ -143,6 +154,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 30650
+    marketGroup: 377
     name: Amarr Strategic Cruiser
     volume: 0.01
   Amarr Tactical Destroyer:
@@ -153,6 +165,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 34390
+    marketGroup: 377
     name: Amarr Tactical Destroyer
     volume: 0.01
   Amarr Titan:
@@ -169,6 +182,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
     id: 3347
+    marketGroup: 377
     name: Amarr Titan
     volume: 0.01
   Assault Frigates:
@@ -183,6 +197,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 12095
+    marketGroup: 377
     name: Assault Frigates
     volume: 0.01
   Battlecruisers:
@@ -206,6 +221,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 10.0
     id: 28656
+    marketGroup: 377
     name: Black Ops
     volume: 0.01
   Caldari Battlecruiser:
@@ -217,6 +233,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     id: 33096
+    marketGroup: 377
     name: Caldari Battlecruiser
     volume: 0.01
   Caldari Battleship:
@@ -228,6 +245,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 3338
+    marketGroup: 377
     name: Caldari Battleship
     volume: 0.01
   Caldari Carrier:
@@ -246,6 +264,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
     id: 24312
+    marketGroup: 377
     name: Caldari Carrier
     volume: 0.01
   Caldari Cruiser:
@@ -257,6 +276,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3334
+    marketGroup: 377
     name: Caldari Cruiser
     volume: 0.01
   Caldari Destroyer:
@@ -266,6 +286,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 33092
+    marketGroup: 377
     name: Caldari Destroyer
     volume: 0.01
   Caldari Dreadnought:
@@ -280,6 +301,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 20530
+    marketGroup: 377
     name: Caldari Dreadnought
     volume: 0.01
   Caldari Force Auxiliary:
@@ -299,6 +321,7 @@ items:
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
     id: 40536
+    marketGroup: 377
     name: Caldari Force Auxiliary
     volume: 0.01
   Caldari Freighter:
@@ -311,6 +334,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 20526
+    marketGroup: 377
     name: Caldari Freighter
     volume: 0.01
   Caldari Frigate:
@@ -320,6 +344,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3330
+    marketGroup: 377
     name: Caldari Frigate
     volume: 0.01
   Caldari Industrial:
@@ -329,6 +354,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3342
+    marketGroup: 377
     name: Caldari Industrial
     volume: 0.01
   Caldari Strategic Cruiser:
@@ -339,6 +365,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 30651
+    marketGroup: 377
     name: Caldari Strategic Cruiser
     volume: 0.01
   Caldari Tactical Destroyer:
@@ -349,6 +376,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 35680
+    marketGroup: 377
     name: Caldari Tactical Destroyer
     volume: 0.01
   Caldari Titan:
@@ -365,6 +393,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
     id: 3346
+    marketGroup: 377
     name: Caldari Titan
     volume: 0.01
   Capital Industrial Ships:
@@ -381,6 +410,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 28374
+    marketGroup: 377
     name: Capital Industrial Ships
     volume: 0.01
   Capital Ships:
@@ -392,6 +422,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
     id: 20533
+    marketGroup: 377
     name: Capital Ships
     volume: 0.01
   Command Destroyers:
@@ -404,6 +435,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 37615
+    marketGroup: 377
     name: Command Destroyers
     volume: 0.01
   Command Ships:
@@ -418,6 +450,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 8.0
     id: 23950
+    marketGroup: 377
     name: Command Ships
     volume: 0.01
   Concord:
@@ -441,6 +474,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 12093
+    marketGroup: 377
     name: Covert Ops
     volume: 0.01
   Destroyers:
@@ -462,6 +496,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 28615
+    marketGroup: 377
     name: Electronic Attack Ships
     volume: 0.01
   Exhumers:
@@ -476,6 +511,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 22551
+    marketGroup: 377
     name: Exhumers
     volume: 0.01
   Expedition Frigates:
@@ -490,6 +526,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 33856
+    marketGroup: 377
     name: Expedition Frigates
     volume: 0.01
   Flag Cruisers:
@@ -504,6 +541,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 8.0
     id: 47445
+    marketGroup: 377
     name: Flag Cruisers
     volume: 0.01
   Gallente Battlecruiser:
@@ -515,6 +553,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     id: 33097
+    marketGroup: 377
     name: Gallente Battlecruiser
     volume: 0.01
   Gallente Battleship:
@@ -526,6 +565,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 3336
+    marketGroup: 377
     name: Gallente Battleship
     volume: 0.01
   Gallente Carrier:
@@ -544,6 +584,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
     id: 24313
+    marketGroup: 377
     name: Gallente Carrier
     volume: 0.01
   Gallente Cruiser:
@@ -555,6 +596,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3332
+    marketGroup: 377
     name: Gallente Cruiser
     volume: 0.01
   Gallente Destroyer:
@@ -564,6 +606,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 33093
+    marketGroup: 377
     name: Gallente Destroyer
     volume: 0.01
   Gallente Dreadnought:
@@ -578,6 +621,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 20531
+    marketGroup: 377
     name: Gallente Dreadnought
     volume: 0.01
   Gallente Force Auxiliary:
@@ -597,6 +641,7 @@ items:
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
     id: 40537
+    marketGroup: 377
     name: Gallente Force Auxiliary
     volume: 0.01
   Gallente Freighter:
@@ -609,6 +654,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 20527
+    marketGroup: 377
     name: Gallente Freighter
     volume: 0.01
   Gallente Frigate:
@@ -618,6 +664,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3328
+    marketGroup: 377
     name: Gallente Frigate
     volume: 0.01
   Gallente Industrial:
@@ -627,6 +674,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3340
+    marketGroup: 377
     name: Gallente Industrial
     volume: 0.01
   Gallente Strategic Cruiser:
@@ -637,6 +685,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 30652
+    marketGroup: 377
     name: Gallente Strategic Cruiser
     volume: 0.01
   Gallente Tactical Destroyer:
@@ -647,6 +696,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 35685
+    marketGroup: 377
     name: Gallente Tactical Destroyer
     volume: 0.01
   Gallente Titan:
@@ -663,6 +713,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
     id: 3344
+    marketGroup: 377
     name: Gallente Titan
     volume: 0.01
   Heavy Assault Cruisers:
@@ -679,6 +730,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 16591
+    marketGroup: 377
     name: Heavy Assault Cruisers
     volume: 0.01
   Heavy Interdiction Cruisers:
@@ -693,6 +745,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 28609
+    marketGroup: 377
     name: Heavy Interdiction Cruisers
     volume: 0.01
   Industrial Command Ships:
@@ -707,6 +760,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 29637
+    marketGroup: 377
     name: Industrial Command Ships
     volume: 0.01
   Interceptors:
@@ -719,6 +773,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 12092
+    marketGroup: 377
     name: Interceptors
     volume: 0.01
   Interdictors:
@@ -733,6 +788,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 12098
+    marketGroup: 377
     name: Interdictors
     volume: 0.01
   Jove Battleship:
@@ -787,6 +843,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 14.0
     id: 29029
+    marketGroup: 377
     name: Jump Freighters
     volume: 0.01
   Logistics Cruisers:
@@ -801,6 +858,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 12096
+    marketGroup: 377
     name: Logistics Cruisers
     volume: 0.01
   Logistics Frigates:
@@ -815,6 +873,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 40328
+    marketGroup: 377
     name: Logistics Frigates
     volume: 0.01
   Marauders:
@@ -829,6 +888,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 10.0
     id: 28667
+    marketGroup: 377
     name: Marauders
     volume: 0.01
   Mining Barge:
@@ -843,6 +903,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 17940
+    marketGroup: 377
     name: Mining Barge
     volume: 0.01
   Mining Frigate:
@@ -852,6 +913,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 32918
+    marketGroup: 377
     name: Mining Frigate
     volume: 0.01
   Minmatar Battlecruiser:
@@ -863,6 +925,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     id: 33098
+    marketGroup: 377
     name: Minmatar Battlecruiser
     volume: 0.01
   Minmatar Battleship:
@@ -874,6 +937,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 3337
+    marketGroup: 377
     name: Minmatar Battleship
     volume: 0.01
   Minmatar Carrier:
@@ -892,6 +956,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 14.0
     id: 24314
+    marketGroup: 377
     name: Minmatar Carrier
     volume: 0.01
   Minmatar Cruiser:
@@ -903,6 +968,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3333
+    marketGroup: 377
     name: Minmatar Cruiser
     volume: 0.01
   Minmatar Destroyer:
@@ -912,6 +978,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 33094
+    marketGroup: 377
     name: Minmatar Destroyer
     volume: 0.01
   Minmatar Dreadnought:
@@ -926,6 +993,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 20532
+    marketGroup: 377
     name: Minmatar Dreadnought
     volume: 0.01
   Minmatar Force Auxiliary:
@@ -945,6 +1013,7 @@ items:
     SkillIsObsolete: 1
     SkillTimeConstant: 14.0
     id: 40538
+    marketGroup: 377
     name: Minmatar Force Auxiliary
     volume: 0.01
   Minmatar Freighter:
@@ -957,6 +1026,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 20528
+    marketGroup: 377
     name: Minmatar Freighter
     volume: 0.01
   Minmatar Frigate:
@@ -966,6 +1036,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3329
+    marketGroup: 377
     name: Minmatar Frigate
     volume: 0.01
   Minmatar Industrial:
@@ -975,6 +1046,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3341
+    marketGroup: 377
     name: Minmatar Industrial
     volume: 0.01
   Minmatar Strategic Cruiser:
@@ -985,6 +1057,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 30653
+    marketGroup: 377
     name: Minmatar Strategic Cruiser
     volume: 0.01
   Minmatar Tactical Destroyer:
@@ -995,6 +1068,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 34533
+    marketGroup: 377
     name: Minmatar Tactical Destroyer
     volume: 0.01
   Minmatar Titan:
@@ -1011,6 +1085,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 16.0
     id: 3345
+    marketGroup: 377
     name: Minmatar Titan
     volume: 0.01
   ORE Freighter:
@@ -1023,6 +1098,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 9.0
     id: 34327
+    marketGroup: 377
     name: ORE Freighter
     volume: 0.01
   ORE Industrial:
@@ -1033,6 +1109,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3184
+    marketGroup: 377
     name: ORE Industrial
     volume: 0.01
   Omnipotent:
@@ -1066,6 +1143,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 47869
+    marketGroup: 377
     name: Precursor Battleship
     volume: 0.01
   Precursor Cruiser:
@@ -1078,6 +1156,7 @@ items:
     ShipPowerBonus: 2
     SkillTimeConstant: 5.0
     id: 47868
+    marketGroup: 377
     name: Precursor Cruiser
     volume: 0.01
   Precursor Frigate:
@@ -1087,6 +1166,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 47867
+    marketGroup: 377
     name: Precursor Frigate
     volume: 0.01
   Recon Ships:
@@ -1103,6 +1183,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 22761
+    marketGroup: 377
     name: Recon Ships
     volume: 0.01
   Spaceship Command:
@@ -1112,6 +1193,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3327
+    marketGroup: 377
     name: Spaceship Command
     volume: 0.01
   Transport Ships:
@@ -1124,5 +1206,6 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 6.0
     id: 19719
+    marketGroup: 377
     name: Transport Ships
     volume: 0.01

@@ -19,6 +19,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12775
+    marketGroup: 857
     name: Barrage L
     volume: 0.025
   Barrage M:
@@ -41,6 +42,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12773
+    marketGroup: 858
     name: Barrage M
     volume: 0.0125
   Barrage S:
@@ -63,6 +65,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 12625
+    marketGroup: 859
     name: Barrage S
     volume: 0.0025
   Barrage XL:
@@ -85,6 +88,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.0
     id: 41316
+    marketGroup: 2253
     name: Barrage XL
     volume: 0.125
   Hail L:
@@ -107,6 +111,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12779
+    marketGroup: 857
     name: Hail L
     volume: 0.025
   Hail M:
@@ -129,6 +134,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12777
+    marketGroup: 858
     name: Hail M
     volume: 0.0125
   Hail S:
@@ -151,6 +157,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12608
+    marketGroup: 859
     name: Hail S
     volume: 0.0025
   Hail XL:
@@ -173,6 +180,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 41314
+    marketGroup: 2253
     name: Hail XL
     volume: 0.125
   Storm L:

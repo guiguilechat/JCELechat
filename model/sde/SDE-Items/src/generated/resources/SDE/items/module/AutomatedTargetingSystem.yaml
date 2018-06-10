@@ -11,6 +11,7 @@ items:
     TargetHostileRange: 50000
     TechLevel: 1
     id: 6043
+    marketGroup: 670
     name: '''Recusant'' Hostile Targeting Array I'
     volume: 5.0
   Auto Targeting System I:
@@ -24,6 +25,7 @@ items:
     TargetHostileRange: 50000
     TechLevel: 1
     id: 1182
+    marketGroup: 670
     name: Auto Targeting System I
     volume: 5.0
   Auto Targeting System II:
@@ -38,6 +40,7 @@ items:
     TargetHostileRange: 60000
     TechLevel: 2
     id: 1436
+    marketGroup: 670
     name: Auto Targeting System II
     volume: 5.0
   Automated Targeting Unit I:
@@ -52,6 +55,7 @@ items:
     TargetHostileRange: 50000
     TechLevel: 1
     id: 6047
+    marketGroup: 670
     name: Automated Targeting Unit I
     volume: 5.0
   Hostile Target Acquisition I:
@@ -66,6 +70,7 @@ items:
     TargetHostileRange: 50000
     TechLevel: 1
     id: 6041
+    marketGroup: 670
     name: Hostile Target Acquisition I
     volume: 5.0
   Responsive Auto-Targeting System I:
@@ -80,5 +85,6 @@ items:
     TargetHostileRange: 50000
     TechLevel: 1
     id: 6045
+    marketGroup: 670
     name: Responsive Auto-Targeting System I
     volume: 5.0

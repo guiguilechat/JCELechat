@@ -11,6 +11,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 41034
+    marketGroup: 938
     name: AE-K Compact Drone Damage Amplifier
     volume: 5.0
   Dread Guristas Drone Damage Amplifier:
@@ -26,6 +27,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 33846
+    marketGroup: 938
     name: Dread Guristas Drone Damage Amplifier
     volume: 5.0
   Drone Damage Amplifier I:
@@ -39,6 +41,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 4393
+    marketGroup: 938
     name: Drone Damage Amplifier I
     volume: 5.0
   Drone Damage Amplifier II:
@@ -53,6 +56,7 @@ items:
     RequiredSkill2Level: 4
     TechLevel: 2
     id: 4405
+    marketGroup: 938
     name: Drone Damage Amplifier II
     volume: 5.0
   Federation Navy Drone Damage Amplifier:
@@ -68,6 +72,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 33842
+    marketGroup: 938
     name: Federation Navy Drone Damage Amplifier
     volume: 5.0
   Imperial Navy Drone Damage Amplifier:
@@ -83,6 +88,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 33844
+    marketGroup: 938
     name: Imperial Navy Drone Damage Amplifier
     volume: 5.0
   Sentient Drone Damage Amplifier:
@@ -98,6 +104,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 33848
+    marketGroup: 938
     name: Sentient Drone Damage Amplifier
     volume: 5.0
   Unit D-34343's Modified Drone Damage Amplifier:
@@ -111,6 +118,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 32919
+    marketGroup: 938
     name: Unit D-34343's Modified Drone Damage Amplifier
     volume: 5.0
   Unit F-435454's Modified Drone Damage Amplifier:
@@ -124,6 +132,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 32921
+    marketGroup: 938
     name: Unit F-435454's Modified Drone Damage Amplifier
     volume: 5.0
   Unit P-343554's Modified Drone Damage Amplifier:
@@ -139,6 +148,7 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 32923
+    marketGroup: 938
     name: Unit P-343554's Modified Drone Damage Amplifier
     volume: 5.0
   Unit W-634's Modified Drone Damage Amplifier:
@@ -154,5 +164,6 @@ items:
     RequiredSkill2Level: 1
     TechLevel: 1
     id: 32925
+    marketGroup: 938
     name: Unit W-634's Modified Drone Damage Amplifier
     volume: 5.0

@@ -28,6 +28,7 @@ items:
     WarfareBuff4ID: 51
     WarfareBuff4Value: -10.0
     id: 43658
+    marketGroup: 2267
     name: Amarr Phenomena Generator
     volume: 8000.0
   Caldari Phenomena Generator:
@@ -59,6 +60,7 @@ items:
     WarfareBuff4ID: 53
     WarfareBuff4Value: -10.0
     id: 43660
+    marketGroup: 2268
     name: Caldari Phenomena Generator
     volume: 8000.0
   Gallente Phenomena Generator:
@@ -91,6 +93,7 @@ items:
     WarfareBuff4ID: 52
     WarfareBuff4Value: -10.0
     id: 43662
+    marketGroup: 2269
     name: Gallente Phenomena Generator
     volume: 8000.0
   Minmatar Phenomena Generator:
@@ -123,5 +126,6 @@ items:
     WarfareBuff4ID: 54
     WarfareBuff4Value: -10.0
     id: 43664
+    marketGroup: 2270
     name: Minmatar Phenomena Generator
     volume: 8000.0

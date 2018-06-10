@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11617
+    marketGroup: 343
     name: Remote Tracking Computer I Blueprint
     volume: 0.01
   Remote Tracking Computer II Blueprint:

@@ -7,5 +7,6 @@ items:
     TechLevel: 1
     WarpScrambleRangeBonus: -70
     id: 47336
+    marketGroup: 1094
     name: Standup Focused Warp Scrambling Script
     volume: 1.0

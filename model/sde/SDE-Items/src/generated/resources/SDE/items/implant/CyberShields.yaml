@@ -7,6 +7,7 @@ items:
     ShieldCapacityBonus: 3.0
     TechLevel: 1
     id: 32255
+    marketGroup: 1481
     name: Sansha Modified 'Gnome' Implant
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-801:
@@ -16,6 +17,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27106
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-801
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-802:
@@ -25,6 +27,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3085
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-802
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-803:
@@ -34,6 +37,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13262
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-803
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-804:
@@ -43,6 +47,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3086
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-804
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-805:
@@ -52,6 +57,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 16247
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-805
     volume: 1.0
   Zainou 'Gnome' Shield Emission Systems SE-806:
@@ -61,6 +67,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3087
+    marketGroup: 1482
     name: Zainou 'Gnome' Shield Emission Systems SE-806
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-701:
@@ -69,6 +76,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27105
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-701
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-702:
@@ -78,6 +86,7 @@ items:
     ShieldCapacityBonus: 2.0
     TechLevel: 1
     id: 3080
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-702
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-703:
@@ -86,6 +95,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 10228
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-703
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-704:
@@ -95,6 +105,7 @@ items:
     ShieldCapacityBonus: 4.0
     TechLevel: 1
     id: 3081
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-704
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-705:
@@ -103,6 +114,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 16246
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-705
     volume: 1.0
   Zainou 'Gnome' Shield Management SM-706:
@@ -112,6 +124,7 @@ items:
     ShieldCapacityBonus: 6.0
     TechLevel: 1
     id: 3084
+    marketGroup: 1481
     name: Zainou 'Gnome' Shield Management SM-706
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-901:
@@ -121,6 +134,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27107
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-901
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-902:
@@ -130,6 +144,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3088
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-902
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-903:
@@ -139,6 +154,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13263
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-903
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-904:
@@ -148,6 +164,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3089
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-904
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-905:
@@ -157,6 +174,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 16248
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-905
     volume: 1.0
   Zainou 'Gnome' Shield Operation SP-906:
@@ -166,6 +184,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3092
+    marketGroup: 1483
     name: Zainou 'Gnome' Shield Operation SP-906
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-601:
@@ -175,6 +194,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27104
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-601
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-602:
@@ -184,6 +204,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3077
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-602
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-603:
@@ -193,6 +214,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13253
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-603
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-604:
@@ -202,6 +224,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3078
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-604
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-605:
@@ -211,6 +234,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 16245
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-605
     volume: 1.0
   Zainou 'Gnome' Shield Upgrades SU-606:
@@ -220,5 +244,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3079
+    marketGroup: 1480
     name: Zainou 'Gnome' Shield Upgrades SU-606
     volume: 1.0

@@ -27,6 +27,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 19470
+    marketGroup: 482
     name: Intensive Reprocessing Array
     volume: 6000.0
   Reprocessing Array:
@@ -57,5 +58,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 12238
+    marketGroup: 482
     name: Reprocessing Array
     volume: 6000.0

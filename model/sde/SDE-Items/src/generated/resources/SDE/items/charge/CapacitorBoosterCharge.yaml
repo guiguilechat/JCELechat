@@ -6,6 +6,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 3554
+    marketGroup: 139
     name: Cap Booster 100
     volume: 4.0
   Cap Booster 150:
@@ -15,6 +16,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 11283
+    marketGroup: 139
     name: Cap Booster 150
     volume: 6.0
   Cap Booster 200:
@@ -24,6 +26,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 11285
+    marketGroup: 139
     name: Cap Booster 200
     volume: 8.0
   Cap Booster 25:
@@ -32,6 +35,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 263
+    marketGroup: 139
     name: Cap Booster 25
     volume: 1.0
   Cap Booster 3200:
@@ -41,6 +45,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 41489
+    marketGroup: 139
     name: Cap Booster 3200
     volume: 128.0
   Cap Booster 400:
@@ -50,6 +55,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 11287
+    marketGroup: 139
     name: Cap Booster 400
     volume: 16.0
   Cap Booster 50:
@@ -59,6 +65,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 264
+    marketGroup: 139
     name: Cap Booster 50
     volume: 2.0
   Cap Booster 75:
@@ -68,6 +75,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 3552
+    marketGroup: 139
     name: Cap Booster 75
     volume: 3.0
   Cap Booster 800:
@@ -77,6 +85,7 @@ items:
     LauncherGroup: 76
     LauncherGroup2: 1156
     id: 11289
+    marketGroup: 139
     name: Cap Booster 800
     volume: 32.0
   Navy Cap Booster 100:
@@ -87,6 +96,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 31982
+    marketGroup: 139
     name: Navy Cap Booster 100
     volume: 3.0
   Navy Cap Booster 150:
@@ -97,6 +107,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 31990
+    marketGroup: 139
     name: Navy Cap Booster 150
     volume: 4.5
   Navy Cap Booster 200:
@@ -107,6 +118,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 31998
+    marketGroup: 139
     name: Navy Cap Booster 200
     volume: 6.0
   Navy Cap Booster 25:
@@ -116,6 +128,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 33330
+    marketGroup: 139
     name: Navy Cap Booster 25
     volume: 0.75
   Navy Cap Booster 3200:
@@ -126,6 +139,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 41490
+    marketGroup: 139
     name: Navy Cap Booster 3200
     volume: 96.0
   Navy Cap Booster 400:
@@ -136,6 +150,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 32006
+    marketGroup: 139
     name: Navy Cap Booster 400
     volume: 12.0
   Navy Cap Booster 50:
@@ -146,6 +161,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 33332
+    marketGroup: 139
     name: Navy Cap Booster 50
     volume: 1.5
   Navy Cap Booster 75:
@@ -156,6 +172,7 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 33334
+    marketGroup: 139
     name: Navy Cap Booster 75
     volume: 2.25
   Navy Cap Booster 800:
@@ -166,5 +183,6 @@ items:
     LauncherGroup2: 1156
     MetaGroupID: 4
     id: 32014
+    marketGroup: 139
     name: Navy Cap Booster 800
     volume: 24.0

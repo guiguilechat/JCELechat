@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41175
+    marketGroup: 777
     name: Arbalest Compact XL Cruise Missile Launcher
     volume: 4000.0
   CONCORD XL Cruise Missile Launcher:
@@ -45,6 +46,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 3563
+    marketGroup: 777
     name: CONCORD XL Cruise Missile Launcher
     volume: 4000.0
   Dread Guristas XL Cruise Missile Launcher:
@@ -70,6 +72,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41174
+    marketGroup: 777
     name: Dread Guristas XL Cruise Missile Launcher
     volume: 4000.0
   TE-2100 Ample XL Cruise Missile Launcher:
@@ -93,6 +96,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41176
+    marketGroup: 777
     name: TE-2100 Ample XL Cruise Missile Launcher
     volume: 4000.0
   XL Cruise Missile Launcher I:
@@ -115,6 +119,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 32444
+    marketGroup: 777
     name: XL Cruise Missile Launcher I
     volume: 4000.0
   XL Cruise Missile Launcher II:
@@ -141,5 +146,6 @@ items:
     TechLevel: 2
     TypeColorScheme: 11324
     id: 37295
+    marketGroup: 777
     name: XL Cruise Missile Launcher II
     volume: 4000.0

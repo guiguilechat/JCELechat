@@ -52,5 +52,6 @@ items:
     WarpCapacitorNeed: 4.3126719538122416E-4
     WarpSpeedMultiplier: 5.0
     id: 2078
+    marketGroup: 1619
     name: Zephyr
     volume: 5000.0

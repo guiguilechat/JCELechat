@@ -9,6 +9,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1192
+    marketGroup: 1087
     name: '''Basic'' Overdrive Injector System'
     volume: 5.0
   Alpha Hull Mod Overdrive Injector:
@@ -42,6 +43,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14126
+    marketGroup: 1087
     name: Domination Overdrive Injector
     volume: 5.0
   Local Hull Conversion Overdrive Injector I:
@@ -84,6 +86,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1244
+    marketGroup: 1087
     name: Overdrive Injector System I
     volume: 5.0
   Overdrive Injector System II:
@@ -95,6 +98,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     id: 1236
+    marketGroup: 1087
     name: Overdrive Injector System II
     volume: 5.0
   Partial Hull Conversion Overdrive Injector:
@@ -117,6 +121,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15812
+    marketGroup: 1087
     name: Republic Fleet Overdrive Injector
     volume: 5.0
   Synthetic Hull Conversion Overdrive Injector:
@@ -129,6 +134,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 21491
+    marketGroup: 1087
     name: Synthetic Hull Conversion Overdrive Injector
     volume: 5.0
   Type-D Restrained Overdrive Injector:
@@ -140,6 +146,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 5631
+    marketGroup: 1087
     name: Type-D Restrained Overdrive Injector
     volume: 5.0
   Type-E Altered SS Overdrive Injector:

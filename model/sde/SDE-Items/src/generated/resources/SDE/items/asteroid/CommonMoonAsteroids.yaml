@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 45494
+    marketGroup: 2397
     name: Cobaltite
     volume: 10.0
   Copious Cobaltite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46288
+    marketGroup: 2397
     name: Copious Cobaltite
     volume: 10.0
   Copious Euxenite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46290
+    marketGroup: 2397
     name: Copious Euxenite
     volume: 10.0
   Copious Scheelite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46294
+    marketGroup: 2397
     name: Copious Scheelite
     volume: 10.0
   Copious Titanite:
@@ -52,6 +56,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46292
+    marketGroup: 2397
     name: Copious Titanite
     volume: 10.0
   Euxenite:
@@ -63,6 +68,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 45495
+    marketGroup: 2397
     name: Euxenite
     volume: 10.0
   Scheelite:
@@ -74,6 +80,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 45497
+    marketGroup: 2397
     name: Scheelite
     volume: 10.0
   Titanite:
@@ -85,6 +92,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 45496
+    marketGroup: 2397
     name: Titanite
     volume: 10.0
   Twinkling Cobaltite:
@@ -96,6 +104,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46289
+    marketGroup: 2397
     name: Twinkling Cobaltite
     volume: 10.0
   Twinkling Euxenite:
@@ -107,6 +116,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46291
+    marketGroup: 2397
     name: Twinkling Euxenite
     volume: 10.0
   Twinkling Scheelite:
@@ -118,6 +128,7 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46295
+    marketGroup: 2397
     name: Twinkling Scheelite
     volume: 10.0
   Twinkling Titanite:
@@ -129,5 +140,6 @@ items:
     ReprocessingSkillType: 46153
     RequiredSkill1: 3386
     id: 46293
+    marketGroup: 2397
     name: Twinkling Titanite
     volume: 10.0

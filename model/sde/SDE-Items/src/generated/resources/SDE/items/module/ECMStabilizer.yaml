@@ -9,6 +9,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 25565
+    marketGroup: 967
     name: '''Hypnos'' Signal Distortion Amplifier I'
     volume: 5.0
   Compulsive Signal Distortion Amplifier I:
@@ -21,6 +22,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 25567
+    marketGroup: 967
     name: Compulsive Signal Distortion Amplifier I
     volume: 5.0
   Induced Signal Distortion Amplifier I:
@@ -33,6 +35,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 25569
+    marketGroup: 967
     name: Induced Signal Distortion Amplifier I
     volume: 5.0
   Initiated Signal Distortion Amplifier I:
@@ -45,6 +48,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 25571
+    marketGroup: 967
     name: Initiated Signal Distortion Amplifier I
     volume: 5.0
   Signal Distortion Amplifier I:
@@ -56,6 +60,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 25561
+    marketGroup: 967
     name: Signal Distortion Amplifier I
     volume: 5.0
   Signal Distortion Amplifier II:
@@ -68,5 +73,6 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 25563
+    marketGroup: 967
     name: Signal Distortion Amplifier II
     volume: 5.0

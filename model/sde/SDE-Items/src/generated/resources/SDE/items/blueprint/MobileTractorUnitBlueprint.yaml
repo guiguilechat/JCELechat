@@ -12,5 +12,6 @@ items:
   Mobile Tractor Unit Blueprint:
     IndustryBlueprintRank: 20.0
     id: 33519
+    marketGroup: 1830
     name: Mobile Tractor Unit Blueprint
     volume: 0.01

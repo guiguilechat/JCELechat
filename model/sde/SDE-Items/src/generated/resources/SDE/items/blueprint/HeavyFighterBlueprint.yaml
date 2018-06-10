@@ -2,6 +2,7 @@ items:
   Ametat I Blueprint:
     TechLevel: 1
     id: 41355
+    marketGroup: 1313
     name: Ametat I Blueprint
     volume: 0.01
   Ametat II Blueprint:
@@ -12,6 +13,7 @@ items:
   Antaeus I Blueprint:
     TechLevel: 1
     id: 41363
+    marketGroup: 1313
     name: Antaeus I Blueprint
     volume: 0.01
   Antaeus II Blueprint:
@@ -23,6 +25,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 32326
+    marketGroup: 1313
     name: Cyclops I Blueprint
     volume: 0.01
   Cyclops II Blueprint:
@@ -33,14 +36,17 @@ items:
   DogBlueprint_PLACEHOLDER:
     TechLevel: 1
     id: 45674
+    marketGroup: 1313
     name: DogBlueprint_PLACEHOLDER
   EasyBlueprint_PLACEHOLDER:
     TechLevel: 1
     id: 45676
+    marketGroup: 1313
     name: EasyBlueprint_PLACEHOLDER
   Gungnir I Blueprint:
     TechLevel: 1
     id: 41365
+    marketGroup: 1313
     name: Gungnir I Blueprint
     volume: 0.01
   Gungnir II Blueprint:
@@ -52,6 +58,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 32341
+    marketGroup: 1313
     name: Malleus I Blueprint
     volume: 0.01
   Malleus II Blueprint:
@@ -63,6 +70,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 32345
+    marketGroup: 1313
     name: Mantis I Blueprint
     volume: 0.01
   Mantis II Blueprint:
@@ -79,6 +87,7 @@ items:
   Standup Ametat I Blueprint:
     TechLevel: 1
     id: 47241
+    marketGroup: 1313
     name: Standup Ametat I Blueprint
     volume: 0.01
   Standup Ametat II Blueprint:
@@ -89,6 +98,7 @@ items:
   Standup Antaeus I Blueprint:
     TechLevel: 1
     id: 47245
+    marketGroup: 1313
     name: Standup Antaeus I Blueprint
     volume: 0.01
   Standup Antaeus II Blueprint:
@@ -99,6 +109,7 @@ items:
   Standup Cyclops I Blueprint:
     TechLevel: 1
     id: 47233
+    marketGroup: 1313
     name: Standup Cyclops I Blueprint
     volume: 0.01
   Standup Cyclops II Blueprint:
@@ -109,6 +120,7 @@ items:
   Standup Gungnir I Blueprint:
     TechLevel: 1
     id: 47247
+    marketGroup: 1313
     name: Standup Gungnir I Blueprint
     volume: 0.01
   Standup Gungnir II Blueprint:
@@ -119,6 +131,7 @@ items:
   Standup Malleus I Blueprint:
     TechLevel: 1
     id: 47234
+    marketGroup: 1313
     name: Standup Malleus I Blueprint
     volume: 0.01
   Standup Malleus II Blueprint:
@@ -129,6 +142,7 @@ items:
   Standup Mantis I Blueprint:
     TechLevel: 1
     id: 47236
+    marketGroup: 1313
     name: Standup Mantis I Blueprint
     volume: 0.01
   Standup Mantis II Blueprint:
@@ -144,6 +158,7 @@ items:
   Standup Termite I Blueprint:
     TechLevel: 1
     id: 47243
+    marketGroup: 1313
     name: Standup Termite I Blueprint
     volume: 0.01
   Standup Termite II Blueprint:
@@ -154,6 +169,7 @@ items:
   Standup Tyrfing I Blueprint:
     TechLevel: 1
     id: 47235
+    marketGroup: 1313
     name: Standup Tyrfing I Blueprint
     volume: 0.01
   Standup Tyrfing II Blueprint:
@@ -164,6 +180,7 @@ items:
   Termite I Blueprint:
     TechLevel: 1
     id: 41361
+    marketGroup: 1313
     name: Termite I Blueprint
     volume: 0.01
   Termite II Blueprint:
@@ -175,6 +192,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 32343
+    marketGroup: 1313
     name: Tyrfing I Blueprint
     volume: 0.01
   Tyrfing II Blueprint:

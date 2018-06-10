@@ -30,6 +30,7 @@ items:
     TechLevel: 1
     ThermalDamage: 1000000.0
     id: 24554
+    marketGroup: 2269
     name: '''Aurora Ominae'' Thermal Doomsday'
     volume: 8000.0
   '''Gjallarhorn'' Explosive Doomsday':
@@ -63,6 +64,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 23674
+    marketGroup: 2270
     name: '''Gjallarhorn'' Explosive Doomsday'
     volume: 8000.0
   '''Judgment'' Electromagnetic Doomsday':
@@ -95,6 +97,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 24550
+    marketGroup: 2267
     name: '''Judgment'' Electromagnetic Doomsday'
     volume: 8000.0
   '''Oblivion'' Kinetic Doomsday':
@@ -127,6 +130,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 24552
+    marketGroup: 2268
     name: '''Oblivion'' Kinetic Doomsday'
     volume: 8000.0
   Bosonic Field Generator:
@@ -171,6 +175,7 @@ items:
     TechLevel: 1
     ThermalDamage: 10000.0
     id: 40633
+    marketGroup: 2276
     name: Bosonic Field Generator
     volume: 8000.0
   Catmageddon:
@@ -233,6 +238,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 40634
+    marketGroup: 2276
     name: Gravitational Transportation Field Oscillator
     volume: 8000.0
   Pulse Activated Nexus Invulnerability Core:
@@ -257,6 +263,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 42522
+    marketGroup: 2325
     name: Pulse Activated Nexus Invulnerability Core
     volume: 8000.0
   ‘Cold Wind’ Kinetic Reaper:
@@ -300,6 +307,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 41442
+    marketGroup: 2268
     name: ‘Cold Wind’ Kinetic Reaper
     volume: 8000.0
   ‘Divine Harvest’ Electromagnetic Reaper:
@@ -343,6 +351,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 40632
+    marketGroup: 2267
     name: ‘Divine Harvest’ Electromagnetic Reaper
     volume: 8000.0
   ‘Geiravor’ Explosive Lance:
@@ -387,6 +396,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 41441
+    marketGroup: 2270
     name: ‘Geiravor’ Explosive Lance
     volume: 8000.0
   ‘Guillotine’ Thermal Reaper:
@@ -431,6 +441,7 @@ items:
     TechLevel: 1
     ThermalDamage: 100000.0
     id: 41443
+    marketGroup: 2269
     name: ‘Guillotine’ Thermal Reaper
     volume: 8000.0
   ‘Holy Destiny’ Electromagnetic Lance:
@@ -474,6 +485,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 40631
+    marketGroup: 2267
     name: ‘Holy Destiny’ Electromagnetic Lance
     volume: 8000.0
   ‘Iron Pike’ Kinetic Lance:
@@ -517,6 +529,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 41439
+    marketGroup: 2268
     name: ‘Iron Pike’ Kinetic Lance
     volume: 8000.0
   ‘Jormungandr’ Explosive Reaper:
@@ -561,6 +574,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 41444
+    marketGroup: 2270
     name: ‘Jormungandr’ Explosive Reaper
     volume: 8000.0
   ‘Phalarica’ Thermal Lance:
@@ -605,5 +619,6 @@ items:
     TechLevel: 1
     ThermalDamage: 50000.0
     id: 41440
+    marketGroup: 2269
     name: ‘Phalarica’ Thermal Lance
     volume: 8000.0

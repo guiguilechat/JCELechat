@@ -42,6 +42,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27570
+    marketGroup: 481
     name: Angel Stasis Webification Battery
     volume: 4000.0
   Domination Stasis Webification Battery:
@@ -87,6 +88,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27573
+    marketGroup: 481
     name: Domination Stasis Webification Battery
     volume: 4000.0
   Stasis Webification Battery:
@@ -131,5 +133,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17178
+    marketGroup: 481
     name: Stasis Webification Battery
     volume: 4000.0

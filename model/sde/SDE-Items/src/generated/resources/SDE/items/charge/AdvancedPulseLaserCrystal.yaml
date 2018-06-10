@@ -86,6 +86,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12816
+    marketGroup: 869
     name: Conflagration L
     volume: 1.0
   Conflagration M:
@@ -109,6 +110,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12814
+    marketGroup: 870
     name: Conflagration M
     volume: 1.0
   Conflagration S:
@@ -132,6 +134,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 12565
+    marketGroup: 871
     name: Conflagration S
     volume: 1.0
   Conflagration XL:
@@ -155,6 +158,7 @@ items:
     TrackingSpeedMultiplier: 0.699999988079071
     WeaponRangeMultiplier: 0.5
     id: 41332
+    marketGroup: 2256
     name: Conflagration XL
     volume: 1.0
   Scorch L:
@@ -177,6 +181,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12820
+    marketGroup: 869
     name: Scorch L
     volume: 1.0
   Scorch M:
@@ -199,6 +204,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12818
+    marketGroup: 870
     name: Scorch M
     volume: 1.0
   Scorch S:
@@ -221,6 +227,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12563
+    marketGroup: 871
     name: Scorch S
     volume: 1.0
   Scorch XL:
@@ -243,5 +250,6 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 41330
+    marketGroup: 2256
     name: Scorch XL
     volume: 1.0

@@ -5,6 +5,7 @@ items:
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.800000011920929
     id: 23168
+    marketGroup: 1904
     name: Yan Jung Info Matrix
     volume: 1.0
   Yan Jung Semiotic Theory:
@@ -13,6 +14,7 @@ items:
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.4000000059604645
     id: 23171
+    marketGroup: 1904
     name: Yan Jung Semiotic Theory
     volume: 1.0
   Yan Jung Singularity Fact Sheet:
@@ -21,6 +23,7 @@ items:
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 2.0
     id: 23172
+    marketGroup: 1904
     name: Yan Jung Singularity Fact Sheet
     volume: 1.0
   Yan Jung Trigonometric Laws:
@@ -29,6 +32,7 @@ items:
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 1.5
     id: 23170
+    marketGroup: 1904
     name: Yan Jung Trigonometric Laws
     volume: 1.0
   Yan Jung Vellum Etch:
@@ -37,5 +41,6 @@ items:
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 0.8999999761581421
     id: 23169
+    marketGroup: 1904
     name: Yan Jung Vellum Etch
     volume: 1.0

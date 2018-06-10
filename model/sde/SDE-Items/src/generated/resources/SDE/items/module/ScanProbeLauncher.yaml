@@ -15,6 +15,7 @@ items:
     Speed: 2000
     TechLevel: 1
     id: 17938
+    marketGroup: 712
     name: Core Probe Launcher I
     volume: 5.0
   Core Probe Launcher II:
@@ -35,6 +36,7 @@ items:
     Speed: 1500
     TechLevel: 2
     id: 4258
+    marketGroup: 712
     name: Core Probe Launcher II
     volume: 5.0
   Expanded Probe Launcher I:
@@ -52,6 +54,7 @@ items:
     Speed: 2000
     TechLevel: 1
     id: 18639
+    marketGroup: 712
     name: Expanded Probe Launcher I
     volume: 5.0
   Expanded Probe Launcher II:
@@ -72,6 +75,7 @@ items:
     Speed: 2000
     TechLevel: 2
     id: 4260
+    marketGroup: 712
     name: Expanded Probe Launcher II
     volume: 5.0
   Prototype Iris Probe Launcher:
@@ -168,6 +172,7 @@ items:
     Speed: 1500
     TechLevel: 1
     id: 28758
+    marketGroup: 712
     name: Sisters Core Probe Launcher
     volume: 5.0
   Sisters Expanded Probe Launcher:
@@ -188,5 +193,6 @@ items:
     Speed: 1500
     TechLevel: 1
     id: 28756
+    marketGroup: 712
     name: Sisters Expanded Probe Launcher
     volume: 5.0

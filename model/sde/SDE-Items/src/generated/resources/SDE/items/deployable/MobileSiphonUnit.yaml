@@ -55,6 +55,7 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     id: 33581
+    marketGroup: 1835
     name: Small Mobile 'Hybrid' Siphon Unit
     volume: 35.0
   Small Mobile 'Rote' Siphon Unit:
@@ -80,6 +81,7 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     id: 33583
+    marketGroup: 1835
     name: Small Mobile 'Rote' Siphon Unit
     volume: 35.0
   Small Mobile Siphon Unit:
@@ -105,5 +107,6 @@ items:
     TechLevel: 1
     Uniformity: 1.0
     id: 33477
+    marketGroup: 1835
     name: Small Mobile Siphon Unit
     volume: 35.0

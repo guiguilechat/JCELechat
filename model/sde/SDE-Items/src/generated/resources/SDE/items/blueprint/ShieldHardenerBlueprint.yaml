@@ -33,6 +33,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1129
+    marketGroup: 1548
     name: Adaptive Invulnerability Field I Blueprint
     volume: 0.01
   Adaptive Invulnerability Field II Blueprint:
@@ -69,6 +70,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2294
+    marketGroup: 1548
     name: EM Ward Field I Blueprint
     volume: 0.01
   EM Ward Field II Blueprint:
@@ -81,6 +83,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2290
+    marketGroup: 1548
     name: Explosive Deflection Field I Blueprint
     volume: 0.01
   Explosive Deflection Field II Blueprint:
@@ -93,6 +96,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2292
+    marketGroup: 1548
     name: Kinetic Deflection Field I Blueprint
     volume: 0.01
   Kinetic Deflection Field II Blueprint:
@@ -105,6 +109,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2296
+    marketGroup: 1548
     name: Thermal Dissipation Field I Blueprint
     volume: 0.01
   Thermal Dissipation Field II Blueprint:
@@ -116,5 +121,6 @@ items:
   testShieldMod_Blueprint_PLACEHOLDER:
     TechLevel: 1
     id: 46011
+    marketGroup: 1548
     name: testShieldMod_Blueprint_PLACEHOLDER
     volume: 0.01

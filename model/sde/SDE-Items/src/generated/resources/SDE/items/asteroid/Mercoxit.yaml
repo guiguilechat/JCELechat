@@ -9,6 +9,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 28412
+    marketGroup: 530
     name: Compressed Magma Mercoxit
     volume: 0.1
   Compressed Mercoxit:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 28413
+    marketGroup: 530
     name: Compressed Mercoxit
     volume: 0.1
   Compressed Vitreous Mercoxit:
@@ -33,6 +35,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 28414
+    marketGroup: 530
     name: Compressed Vitreous Mercoxit
     volume: 0.1
   Magma Mercoxit:
@@ -47,6 +50,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 17869
+    marketGroup: 530
     name: Magma Mercoxit
     volume: 40.0
   Mercoxit:
@@ -61,6 +65,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 11396
+    marketGroup: 530
     name: Mercoxit
     volume: 40.0
   Vitreous Mercoxit:
@@ -75,6 +80,7 @@ items:
     ReprocessingSkillType: 12189
     RequiredSkill1: 11395
     id: 17870
+    marketGroup: 530
     name: Vitreous Mercoxit
     volume: 40.0
   Zuthrine:

@@ -4,6 +4,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
     id: 11584
+    marketGroup: 2152
     name: Anchoring
     volume: 0.01
   Starbase Defense Management:
@@ -14,6 +15,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 7.0
     id: 3373
+    marketGroup: 2152
     name: Starbase Defense Management
     volume: 0.01
   Structure Doomsday Operation:
@@ -26,6 +28,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 37797
+    marketGroup: 2152
     name: Structure Doomsday Operation
     volume: 0.01
   Structure Electronic Systems:
@@ -38,6 +41,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 37798
+    marketGroup: 2152
     name: Structure Electronic Systems
     volume: 0.01
   Structure Engineering Systems:
@@ -50,6 +54,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 37799
+    marketGroup: 2152
     name: Structure Engineering Systems
     volume: 0.01
   Structure Missile Systems:
@@ -62,5 +67,6 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 37796
+    marketGroup: 2152
     name: Structure Missile Systems
     volume: 0.01

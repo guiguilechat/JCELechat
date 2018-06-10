@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37220
+    marketGroup: 2344
     name: Standup M-Set Missile Projection I
     volume: 10.0
   Standup M-Set Missile Projection II:
@@ -37,5 +38,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37221
+    marketGroup: 2344
     name: Standup M-Set Missile Projection II
     volume: 10.0

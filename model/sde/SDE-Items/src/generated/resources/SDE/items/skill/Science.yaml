@@ -8,6 +8,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 24624
+    marketGroup: 375
     name: Advanced Laboratory Operation
     volume: 0.01
   Amarr Encryption Methods:
@@ -17,6 +18,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 23087
+    marketGroup: 375
     name: Amarr Encryption Methods
     volume: 0.01
   Amarr Starship Engineering:
@@ -29,6 +31,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11444
+    marketGroup: 375
     name: Amarr Starship Engineering
     volume: 0.01
   Astronautic Engineering:
@@ -41,6 +44,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11487
+    marketGroup: 375
     name: Astronautic Engineering
     volume: 0.01
   Caldari Encryption Methods:
@@ -50,6 +54,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 21790
+    marketGroup: 375
     name: Caldari Encryption Methods
     volume: 0.01
   Caldari Starship Engineering:
@@ -62,6 +67,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11454
+    marketGroup: 375
     name: Caldari Starship Engineering
     volume: 0.01
   Core Subsystem Technology:
@@ -73,6 +79,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 30325
+    marketGroup: 375
     name: Core Subsystem Technology
     volume: 0.01
   Defensive Subsystem Technology:
@@ -84,6 +91,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 30324
+    marketGroup: 375
     name: Defensive Subsystem Technology
     volume: 0.01
   Electromagnetic Physics:
@@ -96,6 +104,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11448
+    marketGroup: 375
     name: Electromagnetic Physics
     volume: 0.01
   Electronic Engineering:
@@ -108,6 +117,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11453
+    marketGroup: 375
     name: Electronic Engineering
     volume: 0.01
   Electronic Subsystem Technology:
@@ -129,6 +139,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 23121
+    marketGroup: 375
     name: Gallente Encryption Methods
     volume: 0.01
   Gallente Starship Engineering:
@@ -141,6 +152,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11450
+    marketGroup: 375
     name: Gallente Starship Engineering
     volume: 0.01
   Graviton Physics:
@@ -153,6 +165,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11446
+    marketGroup: 375
     name: Graviton Physics
     volume: 0.01
   High Energy Physics:
@@ -165,6 +178,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11433
+    marketGroup: 375
     name: High Energy Physics
     volume: 0.01
   Hydromagnetic Physics:
@@ -177,6 +191,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11443
+    marketGroup: 375
     name: Hydromagnetic Physics
     volume: 0.01
   Hypernet Science:
@@ -199,6 +214,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3406
+    marketGroup: 375
     name: Laboratory Operation
     volume: 0.01
   Laser Physics:
@@ -211,6 +227,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11447
+    marketGroup: 375
     name: Laser Physics
     volume: 0.01
   Mechanical Engineering:
@@ -223,6 +240,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11452
+    marketGroup: 375
     name: Mechanical Engineering
     volume: 0.01
   Metallurgy:
@@ -233,6 +251,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3409
+    marketGroup: 375
     name: Metallurgy
     volume: 0.01
   Minmatar Encryption Methods:
@@ -242,6 +261,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 21791
+    marketGroup: 375
     name: Minmatar Encryption Methods
     volume: 0.01
   Minmatar Starship Engineering:
@@ -254,6 +274,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11445
+    marketGroup: 375
     name: Minmatar Starship Engineering
     volume: 0.01
   Molecular Engineering:
@@ -266,6 +287,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11529
+    marketGroup: 375
     name: Molecular Engineering
     volume: 0.01
   Nanite Engineering:
@@ -278,6 +300,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11442
+    marketGroup: 375
     name: Nanite Engineering
     volume: 0.01
   Nuclear Physics:
@@ -290,6 +313,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11451
+    marketGroup: 375
     name: Nuclear Physics
     volume: 0.01
   Offensive Subsystem Technology:
@@ -301,6 +325,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 30327
+    marketGroup: 375
     name: Offensive Subsystem Technology
     volume: 0.01
   Plasma Physics:
@@ -313,6 +338,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11441
+    marketGroup: 375
     name: Plasma Physics
     volume: 0.01
   Propulsion Subsystem Technology:
@@ -324,6 +350,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 30788
+    marketGroup: 375
     name: Propulsion Subsystem Technology
     volume: 0.01
   Quantum Physics:
@@ -336,6 +363,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11455
+    marketGroup: 375
     name: Quantum Physics
     volume: 0.01
   Research:
@@ -346,6 +374,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3403
+    marketGroup: 375
     name: Research
     volume: 0.01
   Research Project Management:
@@ -359,6 +388,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
     id: 12179
+    marketGroup: 375
     name: Research Project Management
     volume: 0.01
   Rocket Science:
@@ -371,6 +401,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 11449
+    marketGroup: 375
     name: Rocket Science
     volume: 0.01
   Science:
@@ -379,6 +410,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3402
+    marketGroup: 375
     name: Science
     volume: 0.01
   Scientific Networking:
@@ -388,6 +420,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 24270
+    marketGroup: 375
     name: Scientific Networking
     volume: 0.01
   Sleeper Encryption Methods:
@@ -402,6 +435,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
     id: 3408
+    marketGroup: 375
     name: Sleeper Encryption Methods
     volume: 0.01
   Sleeper Technology:
@@ -411,6 +445,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 21789
+    marketGroup: 375
     name: Sleeper Technology
     volume: 0.01
   Takmahl Technology:
@@ -420,6 +455,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 23123
+    marketGroup: 375
     name: Takmahl Technology
     volume: 0.01
   Talocan Technology:
@@ -429,6 +465,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 20433
+    marketGroup: 375
     name: Talocan Technology
     volume: 0.01
   Yan Jung Technology:
@@ -438,5 +475,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 23124
+    marketGroup: 375
     name: Yan Jung Technology
     volume: 0.01

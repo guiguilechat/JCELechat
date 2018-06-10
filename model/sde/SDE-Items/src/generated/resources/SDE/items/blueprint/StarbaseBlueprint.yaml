@@ -22,6 +22,7 @@ items:
   Ballistic Deflection Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2755
+    marketGroup: 1354
     name: Ballistic Deflection Array Blueprint
     volume: 0.01
   Biochemical Reactor Array Blueprint:
@@ -62,6 +63,7 @@ items:
   Corporate Hangar Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2787
+    marketGroup: 1341
     name: Corporate Hangar Array Blueprint
     volume: 0.01
   Coupling Array Blueprint:
@@ -77,11 +79,13 @@ items:
   Cynosural Generator Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2788
+    marketGroup: 1342
     name: Cynosural Generator Array Blueprint
     volume: 0.01
   Cynosural System Jammer Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2789
+    marketGroup: 1343
     name: Cynosural System Jammer Blueprint
     volume: 0.01
   Drone Assembly Array Blueprint:
@@ -102,6 +106,7 @@ items:
   Explosion Dampening Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2757
+    marketGroup: 1354
     name: Explosion Dampening Array Blueprint
     volume: 0.01
   General Storage Blueprint:
@@ -117,6 +122,7 @@ items:
   Heat Dissipation Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2759
+    marketGroup: 1354
     name: Heat Dissipation Array Blueprint
     volume: 0.01
   Hybrid Polymer Silo Blueprint:
@@ -132,6 +138,7 @@ items:
   Jump Bridge Blueprint:
     IndustryBlueprintRank: 80.0
     id: 2800
+    marketGroup: 1346
     name: Jump Bridge Blueprint
     volume: 0.01
   Large Ship Assembly Array Blueprint:
@@ -157,11 +164,13 @@ items:
   Personal Hangar Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 33150
+    marketGroup: 1701
     name: Personal Hangar Array Blueprint
     volume: 0.01
   Photon Scattering Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 2761
+    marketGroup: 1354
     name: Photon Scattering Array Blueprint
     volume: 0.01
   Polymer Reactor Array Blueprint:
@@ -182,11 +191,13 @@ items:
   Sensor Dampening Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2763
+    marketGroup: 1344
     name: Sensor Dampening Battery Blueprint
     volume: 0.01
   Ship Maintenance Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2752
+    marketGroup: 1535
     name: Ship Maintenance Array Blueprint
     volume: 0.01
   Silo Blueprint:
@@ -222,5 +233,6 @@ items:
   X-Large Ship Maintenance Array Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2750
+    marketGroup: 1535
     name: X-Large Ship Maintenance Array Blueprint
     volume: 0.01

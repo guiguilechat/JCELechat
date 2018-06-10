@@ -14,6 +14,7 @@ items:
     SubsystemBonusAmarrCore2: -3
     TechLevel: 3
     id: 45623
+    marketGroup: 1122
     name: Legion Core - Augmented Antimatter Reactor
     volume: 40.0
   Legion Core - Dissolution Sequencer:
@@ -31,6 +32,7 @@ items:
     SubsystemBonusAmarrCore3: 15
     TechLevel: 3
     id: 45622
+    marketGroup: 1122
     name: Legion Core - Dissolution Sequencer
     volume: 40.0
   Legion Core - Energy Parasitic Complex:
@@ -49,6 +51,7 @@ items:
     SubsystemEnergyNeutFittingReduction: -50
     TechLevel: 3
     id: 45624
+    marketGroup: 1122
     name: Legion Core - Energy Parasitic Complex
     volume: 40.0
   Loki Core - Augmented Nuclear Reactor:
@@ -66,6 +69,7 @@ items:
     SubsystemBonusMinmatarCore2: -3
     TechLevel: 3
     id: 45632
+    marketGroup: 1125
     name: Loki Core - Augmented Nuclear Reactor
     volume: 40.0
   Loki Core - Dissolution Sequencer:
@@ -83,6 +87,7 @@ items:
     SubsystemBonusMinmatarCore3: 15
     TechLevel: 3
     id: 45631
+    marketGroup: 1125
     name: Loki Core - Dissolution Sequencer
     volume: 40.0
   Loki Core - Immobility Drivers:
@@ -99,6 +104,7 @@ items:
     SubsystemBonusMinmatarCore3: 10
     TechLevel: 3
     id: 45633
+    marketGroup: 1125
     name: Loki Core - Immobility Drivers
     volume: 40.0
   Proteus Core - Augmented Fusion Reactor:
@@ -116,6 +122,7 @@ items:
     SubsystemBonusGallenteCore2: -3.0
     TechLevel: 3
     id: 45629
+    marketGroup: 1124
     name: Proteus Core - Augmented Fusion Reactor
     volume: 40.0
   Proteus Core - Electronic Efficiency Gate:
@@ -133,6 +140,7 @@ items:
     SubsystemBonusGallenteCore2: 5.0
     TechLevel: 3
     id: 45628
+    marketGroup: 1124
     name: Proteus Core - Electronic Efficiency Gate
     volume: 40.0
   Proteus Core - Friction Extension Processor:
@@ -149,6 +157,7 @@ items:
     SubsystemBonusGallenteCore3: 15
     TechLevel: 3
     id: 45630
+    marketGroup: 1124
     name: Proteus Core - Friction Extension Processor
     volume: 40.0
   Tengu Core - Augmented Graviton Reactor:
@@ -166,6 +175,7 @@ items:
     SubsystemBonusCaldariCore2: -3
     TechLevel: 3
     id: 45626
+    marketGroup: 1123
     name: Tengu Core - Augmented Graviton Reactor
     volume: 40.0
   Tengu Core - Electronic Efficiency Gate:
@@ -183,6 +193,7 @@ items:
     SubsystemBonusCaldariCore2: 5
     TechLevel: 3
     id: 45625
+    marketGroup: 1123
     name: Tengu Core - Electronic Efficiency Gate
     volume: 40.0
   Tengu Core - Obfuscation Manifold:
@@ -199,5 +210,6 @@ items:
     SubsystemBonusCaldariCore3: 15
     TechLevel: 3
     id: 45627
+    marketGroup: 1123
     name: Tengu Core - Obfuscation Manifold
     volume: 40.0

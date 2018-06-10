@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 27914
+    marketGroup: 1014
     name: Bomb Launcher I
     volume: 50.0
   Bomb Launcher II:
@@ -52,5 +53,6 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 4256
+    marketGroup: 1014
     name: Bomb Launcher II
     volume: 50.0

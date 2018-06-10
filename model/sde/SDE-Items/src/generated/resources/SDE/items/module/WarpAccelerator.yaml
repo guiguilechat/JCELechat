@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     WarpSpeedAdd: 0.25
     id: 33983
+    marketGroup: 1931
     name: Experimental Hyperspatial Accelerator
     volume: 5.0
   Limited Hyperspatial Accelerator:
@@ -19,6 +20,7 @@ items:
     TechLevel: 1
     WarpSpeedAdd: 0.20000000298023224
     id: 33981
+    marketGroup: 1931
     name: Limited Hyperspatial Accelerator
     volume: 5.0
   Prototype Hyperspatial Accelerator:
@@ -30,5 +32,6 @@ items:
     TechLevel: 1
     WarpSpeedAdd: 0.30000001192092896
     id: 33985
+    marketGroup: 1931
     name: Prototype Hyperspatial Accelerator
     volume: 5.0

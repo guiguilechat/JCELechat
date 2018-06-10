@@ -81,6 +81,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11969
+    marketGroup: 833
     name: Arazu
     volume: 116000.0
   Chameleon:
@@ -167,6 +168,7 @@ items:
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
     id: 33675
+    marketGroup: 1837
     name: Chameleon
     volume: 96000.0
   Enforcer:
@@ -265,6 +267,7 @@ items:
     WarpCapacitorNeed: 1.249999968422344E-6
     WarpSpeedMultiplier: 3.299999952316284
     id: 44995
+    marketGroup: 1837
     name: Enforcer
     volume: 100000.0
   Falcon:
@@ -349,6 +352,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11957
+    marketGroup: 830
     name: Falcon
     volume: 96000.0
   Moracha:
@@ -435,6 +439,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 33395
+    marketGroup: 1837
     name: Moracha
     volume: 100000.0
   Pilgrim:
@@ -520,6 +525,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11965
+    marketGroup: 827
     name: Pilgrim
     volume: 120000.0
   Rapier:
@@ -605,6 +611,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11963
+    marketGroup: 836
     name: Rapier
     volume: 85000.0
   Victor:
@@ -697,5 +704,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 45531
+    marketGroup: 1837
     name: Victor
     volume: 116000.0

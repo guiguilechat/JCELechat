@@ -24,6 +24,7 @@ items:
     ThermalDamage: 115.0
     ThermalDamageResonance: 0.800000011920929
     id: 27405
+    marketGroup: 1003
     name: Caldari Navy Inferno Heavy Assault Missile
     volume: 0.015
   Caldari Navy Mjolnir Heavy Assault Missile:
@@ -51,6 +52,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27419
+    marketGroup: 1003
     name: Caldari Navy Mjolnir Heavy Assault Missile
     volume: 0.015
   Caldari Navy Nova Heavy Assault Missile:
@@ -78,6 +80,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27401
+    marketGroup: 1003
     name: Caldari Navy Nova Heavy Assault Missile
     volume: 0.015
   Caldari Navy Scourge Heavy Assault Missile:
@@ -105,6 +108,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27413
+    marketGroup: 1003
     name: Caldari Navy Scourge Heavy Assault Missile
     volume: 0.015
   Dread Guristas Inferno Heavy Assault Missile:
@@ -132,6 +136,7 @@ items:
     ThermalDamage: 120.0
     ThermalDamageResonance: 0.800000011920929
     id: 27407
+    marketGroup: 1003
     name: Dread Guristas Inferno Heavy Assault Missile
     volume: 0.015
   Dread Guristas Mjolnir Heavy Assault Missile:
@@ -159,6 +164,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27421
+    marketGroup: 1003
     name: Dread Guristas Mjolnir Heavy Assault Missile
     volume: 0.015
   Dread Guristas Nova Heavy Assault Missile:
@@ -186,6 +192,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27397
+    marketGroup: 1003
     name: Dread Guristas Nova Heavy Assault Missile
     volume: 0.015
   Dread Guristas Scourge Heavy Assault Missile:
@@ -213,6 +220,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27415
+    marketGroup: 1003
     name: Dread Guristas Scourge Heavy Assault Missile
     volume: 0.015
   Guristas Inferno Heavy Assault Missile:
@@ -240,6 +248,7 @@ items:
     ThermalDamage: 110.0
     ThermalDamageResonance: 0.800000011920929
     id: 27403
+    marketGroup: 1003
     name: Guristas Inferno Heavy Assault Missile
     volume: 0.015
   Guristas Mjolnir Heavy Assault Missile:
@@ -267,6 +276,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27417
+    marketGroup: 1003
     name: Guristas Mjolnir Heavy Assault Missile
     volume: 0.015
   Guristas Nova Heavy Assault Missile:
@@ -294,6 +304,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27393
+    marketGroup: 1003
     name: Guristas Nova Heavy Assault Missile
     volume: 0.015
   Guristas Scourge Heavy Assault Missile:
@@ -321,6 +332,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27411
+    marketGroup: 1003
     name: Guristas Scourge Heavy Assault Missile
     volume: 0.015
   Inferno Heavy Assault Missile:
@@ -346,6 +358,7 @@ items:
     ThermalDamage: 100.0
     ThermalDamageResonance: 0.800000011920929
     id: 20308
+    marketGroup: 971
     name: Inferno Heavy Assault Missile
     volume: 0.015
   Mjolnir Heavy Assault Missile:
@@ -371,6 +384,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 20306
+    marketGroup: 971
     name: Mjolnir Heavy Assault Missile
     volume: 0.015
   Nova Heavy Assault Missile:
@@ -396,6 +410,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 21867
+    marketGroup: 971
     name: Nova Heavy Assault Missile
     volume: 0.015
   Sansha Mjolnir Assault Missile:
@@ -446,6 +461,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 20307
+    marketGroup: 971
     name: Scourge Heavy Assault Missile
     volume: 0.015
   True Sansha Mjolnir Heavy Assault Missile:

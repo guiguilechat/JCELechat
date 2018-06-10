@@ -661,6 +661,7 @@ items:
     volume: 0.01
   Brutix Serpentis SKIN (30 Days):
     id: 35006
+    marketGroup: 1958
     name: Brutix Serpentis SKIN (30 Days)
     volume: 0.01
   Brutix Serpentis Serenity Only SKIN (30 Days):
@@ -787,6 +788,7 @@ items:
     volume: 0.01
   Catalyst Serpentis SKIN (30 Days):
     id: 35038
+    marketGroup: 1996
     name: Catalyst Serpentis SKIN (30 Days)
     volume: 0.01
   Catalyst Serpentis Serenity Only SKIN (30 Days):
@@ -919,6 +921,7 @@ items:
     volume: 0.01
   Coercer Blood Raiders SKIN (30 Days):
     id: 35062
+    marketGroup: 1994
     name: Coercer Blood Raiders SKIN (30 Days)
     volume: 0.01
   Coercer Cold Iron Serenity Only SKIN (30 Days):
@@ -991,6 +994,7 @@ items:
     volume: 0.01
   Cormorant Guristas SKIN (30 Days):
     id: 35074
+    marketGroup: 1995
     name: Cormorant Guristas SKIN (30 Days)
     volume: 0.01
   Cormorant Matigu Seabeast Serenity Only SKIN (30 Days):
@@ -1151,6 +1155,7 @@ items:
     volume: 0.01
   Cyclone Thukker Tribe SKIN (30 Days):
     id: 35090
+    marketGroup: 1959
     name: Cyclone Thukker Tribe SKIN (30 Days)
     volume: 0.01
   Cyclone Tronhadar Ink Serenity Only SKIN (30 Days):
@@ -1519,6 +1524,7 @@ items:
     volume: 0.01
   Ferox Guristas SKIN (30 Days):
     id: 35150
+    marketGroup: 1957
     name: Ferox Guristas SKIN (30 Days)
     volume: 0.01
   Ferox Lai Dai SKIN (30 Days):
@@ -3135,6 +3141,7 @@ items:
     volume: 0.01
   Prophecy Blood Raiders SKIN (30 Days):
     id: 35434
+    marketGroup: 1956
     name: Prophecy Blood Raiders SKIN (30 Days)
     volume: 0.01
   Prophecy Cold Iron Serenity Only SKIN (30 Days):
@@ -4039,6 +4046,7 @@ items:
     volume: 0.01
   Thrasher Thukker Tribe SKIN (30 Days):
     id: 35586
+    marketGroup: 1997
     name: Thrasher Thukker Tribe SKIN (30 Days)
     volume: 0.01
   Thrasher Tronhadar Ink Serenity Only SKIN (30 Days):

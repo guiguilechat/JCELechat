@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37170
+    marketGroup: 2348
     name: Standup L-Set Equipment Manufacturing Efficiency I
     volume: 20.0
   Standup L-Set Equipment Manufacturing Efficiency II:
@@ -43,5 +44,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37171
+    marketGroup: 2348
     name: Standup L-Set Equipment Manufacturing Efficiency II
     volume: 20.0

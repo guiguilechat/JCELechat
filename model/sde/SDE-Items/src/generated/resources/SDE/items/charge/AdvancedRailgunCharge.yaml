@@ -73,6 +73,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12803
+    marketGroup: 863
     name: Javelin L
     volume: 0.025
   Javelin M:
@@ -92,6 +93,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12801
+    marketGroup: 864
     name: Javelin M
     volume: 0.0125
   Javelin S:
@@ -111,6 +113,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12620
+    marketGroup: 865
     name: Javelin S
     volume: 0.0025
   Javelin XL:
@@ -130,6 +133,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 41326
+    marketGroup: 2255
     name: Javelin XL
     volume: 0.125
   Spike L:
@@ -149,6 +153,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12807
+    marketGroup: 863
     name: Spike L
     volume: 0.025
   Spike M:
@@ -168,6 +173,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12805
+    marketGroup: 864
     name: Spike M
     volume: 0.0125
   Spike S:
@@ -187,6 +193,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12618
+    marketGroup: 865
     name: Spike S
     volume: 0.0025
   Spike XL:
@@ -206,5 +213,6 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 41328
+    marketGroup: 2255
     name: Spike XL
     volume: 0.125

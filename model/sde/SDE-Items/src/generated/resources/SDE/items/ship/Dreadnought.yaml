@@ -108,6 +108,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 45647
+    marketGroup: 2288
     name: Caiman
     volume: 1.625E7
   Chemosh:
@@ -218,6 +219,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42243
+    marketGroup: 2288
     name: Chemosh
     volume: 1.85E7
   Moros:
@@ -322,6 +324,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 19724
+    marketGroup: 764
     name: Moros
     volume: 1.755E7
   Moros Interbus Edition:
@@ -466,6 +469,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 19722
+    marketGroup: 765
     name: Naglfar
     volume: 1.55E7
   Naglfar Justice Edition:
@@ -610,6 +614,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 19726
+    marketGroup: 763
     name: Phoenix
     volume: 1.625E7
   Phoenix Wiyrkomi Edition:
@@ -754,6 +759,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 19720
+    marketGroup: 762
     name: Revelation
     volume: 1.85E7
   Revelation Sarum Edition:
@@ -902,5 +908,6 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42124
+    marketGroup: 2288
     name: Vehement
     volume: 1.755E7

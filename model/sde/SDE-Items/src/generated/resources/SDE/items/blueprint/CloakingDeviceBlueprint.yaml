@@ -39,5 +39,6 @@ items:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
     id: 13000
+    marketGroup: 430
     name: Prototype Cloaking Device I Blueprint
     volume: 0.01

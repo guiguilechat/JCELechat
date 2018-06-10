@@ -52,6 +52,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23523
+    marketGroup: 842
     name: Heavy Armor Maintenance Bot I
     volume: 25.0
   Heavy Armor Maintenance Bot II:
@@ -108,6 +109,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28197
+    marketGroup: 842
     name: Heavy Armor Maintenance Bot II
     volume: 25.0
   Heavy Hull Maintenance Bot I:
@@ -164,6 +166,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33671
+    marketGroup: 842
     name: Heavy Hull Maintenance Bot I
     volume: 25.0
   Heavy Hull Maintenance Bot II:
@@ -221,6 +224,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33708
+    marketGroup: 842
     name: Heavy Hull Maintenance Bot II
     volume: 25.0
   Heavy Shield Maintenance Bot I:
@@ -276,6 +280,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 22765
+    marketGroup: 842
     name: Heavy Shield Maintenance Bot I
     volume: 25.0
   Heavy Shield Maintenance Bot II:
@@ -332,6 +337,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28199
+    marketGroup: 842
     name: Heavy Shield Maintenance Bot II
     volume: 25.0
   Light Armor Maintenance Bot I:
@@ -387,6 +393,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23711
+    marketGroup: 842
     name: Light Armor Maintenance Bot I
     volume: 5.0
   Light Armor Maintenance Bot II:
@@ -443,6 +450,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28201
+    marketGroup: 842
     name: Light Armor Maintenance Bot II
     volume: 5.0
   Light Hull Maintenance Bot I:
@@ -499,6 +507,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33706
+    marketGroup: 842
     name: Light Hull Maintenance Bot I
     volume: 5.0
   Light Hull Maintenance Bot II:
@@ -556,6 +565,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33712
+    marketGroup: 842
     name: Light Hull Maintenance Bot II
     volume: 5.0
   Light Shield Maintenance Bot I:
@@ -611,6 +621,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23719
+    marketGroup: 842
     name: Light Shield Maintenance Bot I
     volume: 5.0
   Light Shield Maintenance Bot II:
@@ -667,6 +678,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28203
+    marketGroup: 842
     name: Light Shield Maintenance Bot II
     volume: 5.0
   Medium Armor Maintenance Bot I:
@@ -722,6 +734,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23709
+    marketGroup: 842
     name: Medium Armor Maintenance Bot I
     volume: 10.0
   Medium Armor Maintenance Bot II:
@@ -778,6 +791,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28205
+    marketGroup: 842
     name: Medium Armor Maintenance Bot II
     volume: 10.0
   Medium Hull Maintenance Bot I:
@@ -834,6 +848,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33704
+    marketGroup: 842
     name: Medium Hull Maintenance Bot I
     volume: 10.0
   Medium Hull Maintenance Bot II:
@@ -891,6 +906,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 33710
+    marketGroup: 842
     name: Medium Hull Maintenance Bot II
     volume: 10.0
   Medium Shield Maintenance Bot I:
@@ -946,6 +962,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23717
+    marketGroup: 842
     name: Medium Shield Maintenance Bot I
     volume: 10.0
   Medium Shield Maintenance Bot II:
@@ -1002,5 +1019,6 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 28207
+    marketGroup: 842
     name: Medium Shield Maintenance Bot II
     volume: 10.0

@@ -93,12 +93,14 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17794
+    marketGroup: 738
     name: Amarr KIU-1 Nexus Chip
     volume: 0.1
   Amarr MIY-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17795
+    marketGroup: 738
     name: Amarr MIY-1 Nexus Chip
     volume: 0.1
   Amarr Religious Holoreels:
@@ -111,6 +113,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17793
+    marketGroup: 738
     name: Amarr TIL-1 Nexus Chip
     volume: 0.1
   'Amarr TIL-1A Nexus Chips ':
@@ -129,6 +132,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17424
+    marketGroup: 492
     name: Amarrian Wheat
     volume: 1.15
   Ammatar Transaction and salary logs:
@@ -201,6 +205,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 19463
+    marketGroup: 754
     name: Autrech Voucher
     volume: 0.5
   Badge of Prophet Kuria:
@@ -249,6 +254,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 19461
+    marketGroup: 754
     name: Blaque Voucher
     volume: 0.5
   Blood Drop:
@@ -291,12 +297,14 @@ items:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2375
+    marketGroup: 20
     name: Broken Broadcast Node
     volume: 100.0
   Broken Integrity Response Drones:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2376
+    marketGroup: 20
     name: Broken Integrity Response Drones
     volume: 100.0
   Broken Mining Equipment:
@@ -309,36 +317,42 @@ items:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2371
+    marketGroup: 20
     name: Broken Nano-Factory
     volume: 100.0
   Broken Organic Mortar Applicators:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2368
+    marketGroup: 20
     name: Broken Organic Mortar Applicators
     volume: 100.0
   Broken Recursive Computing Module:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2374
+    marketGroup: 20
     name: Broken Recursive Computing Module
     volume: 100.0
   Broken Self-Harmonizing Power Core:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2373
+    marketGroup: 20
     name: Broken Self-Harmonizing Power Core
     volume: 100.0
   Broken Sterile Conduits:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2369
+    marketGroup: 20
     name: Broken Sterile Conduits
     volume: 100.0
   Broken Wetware Mainframe:
     ExportTaxMultiplier: 250
     ImportTaxMultiplier: 250
     id: 2377
+    marketGroup: 20
     name: Broken Wetware Mainframe
     volume: 100.0
   Bronze Order of the Mountain:
@@ -375,18 +389,21 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17643
+    marketGroup: 738
     name: Caldari AZ-1 Nexus Chip
     volume: 0.1
   Caldari BY-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17647
+    marketGroup: 738
     name: Caldari BY-1 Nexus Chip
     volume: 0.1
   Caldari CU-1 Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17646
+    marketGroup: 738
     name: Caldari CU-1 Nexus Chip
     volume: 0.1
   Caldari Navy Overlay Transponder:
@@ -555,6 +572,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33577
+    marketGroup: 1840
     name: Covert Research Tools
     volume: 0.1
   Crate of Aerogel Counteragent:
@@ -1011,12 +1029,14 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 12250
+    marketGroup: 752
     name: Criminal DNA
     volume: 0.1
   Criminal Dog Tag:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11069
+    marketGroup: 492
     name: Criminal Dog Tag
     volume: 0.1
   Cross of the Sacred Throne Order:
@@ -1047,6 +1067,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 13288
+    marketGroup: 752
     name: DNA Sample
     volume: 0.1
   Dagger of Coricia:
@@ -1083,6 +1104,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11588
+    marketGroup: 20
     name: Defunct Drone Sensor Module
     volume: 0.1
   Dem's Galactical Botanical:
@@ -1137,6 +1159,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 14483
+    marketGroup: 752
     name: Drezin's DNA
     volume: 0.1
   Drill Parts:
@@ -1179,6 +1202,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17624
+    marketGroup: 752
     name: Elena Gazky's DNA
     volume: 0.1
   Empire Diplomatic Documents:
@@ -1305,6 +1329,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 19462
+    marketGroup: 754
     name: Foiritan Voucher
     volume: 0.5
   Folkloric Painting:
@@ -1401,24 +1426,28 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 15316
+    marketGroup: 492
     name: Galeptos Medicine
     volume: 1.0
   Gallente 106 Election Holoreel:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17423
+    marketGroup: 492
     name: Gallente 106 Election Holoreel
     volume: 0.5
   Gallente Alpha Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17850
+    marketGroup: 738
     name: Gallente Alpha Nexus Chip
     volume: 0.1
   Gallente Beta Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17849
+    marketGroup: 738
     name: Gallente Beta Nexus Chip
     volume: 0.1
   Gallente Federation Transaction And Salary Logs:
@@ -1431,12 +1460,14 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17848
+    marketGroup: 738
     name: Gallente Gamma Nexus Chip
     volume: 0.1
   Gallentean Planetary Vehicles:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17143
+    marketGroup: 492
     name: Gallentean Planetary Vehicles
     volume: 2.0
   Gallentean Viral Agent:
@@ -1551,6 +1582,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17893
+    marketGroup: 20
     name: High-Tech Data Chip
     volume: 0.01
   High-Tech Manufacturing Tools:
@@ -1558,18 +1590,21 @@ items:
     Hp: 100
     ImportTaxMultiplier: 1
     id: 17895
+    marketGroup: 20
     name: High-Tech Manufacturing Tools
     volume: 0.01
   High-Tech Scanner:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17894
+    marketGroup: 20
     name: High-Tech Scanner
     volume: 0.01
   High-Tech Small Arms:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17897
+    marketGroup: 20
     name: High-Tech Small Arms
     volume: 0.01
   Hive Mind CPU:
@@ -1673,6 +1708,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16713
+    marketGroup: 492
     name: Intermediate Medal
     volume: 0.1
   Intravenous Oscillation Fluid:
@@ -1721,6 +1757,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 12478
+    marketGroup: 492
     name: Khumaak
     volume: 0.3
   Kidnapping Evidence:
@@ -1751,18 +1788,21 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 13918
+    marketGroup: 752
     name: Korrani's DNA
     volume: 0.1
   Kruul's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 14292
+    marketGroup: 752
     name: Kruul's DNA
     volume: 0.1
   Large 'Fortizar' Citadel BPC Token:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 40549
+    marketGroup: 20
     name: Large 'Fortizar' Citadel BPC Token
     volume: 0.01
   Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
@@ -2105,6 +2145,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16714
+    marketGroup: 492
     name: Legends Medal
     volume: 0.1
   Letters of Bishop Dalamaid:
@@ -2160,6 +2201,7 @@ items:
     Hp: 100
     ImportTaxMultiplier: 1
     id: 16686
+    marketGroup: 20
     name: Manufacturing Tools
     volume: 100.0
   Massive Sealed Cargo Containers:
@@ -2178,6 +2220,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 40548
+    marketGroup: 20
     name: Medium 'Astrahus' Citadel BPC Token
     volume: 0.01
   Medium Sized Sealed Cargo Containers:
@@ -2214,18 +2257,21 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17815
+    marketGroup: 738
     name: Minmatar UUA Nexus Chip
     volume: 0.1
   Minmatar UUB Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17816
+    marketGroup: 738
     name: Minmatar UUB Nexus Chip
     volume: 0.1
   Minmatar UUC Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17814
+    marketGroup: 738
     name: Minmatar UUC Nexus Chip
     volume: 0.1
   Mizara's Doll:
@@ -2250,6 +2296,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17640
+    marketGroup: 752
     name: Mordur's DNA
     volume: 0.1
   Mysterious Statuette:
@@ -2274,6 +2321,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 15410
+    marketGroup: 492
     name: Neophite
     volume: 0.1
   Network Decryption Analyzer:
@@ -2328,6 +2376,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 16712
+    marketGroup: 492
     name: Novice Medal
     volume: 0.1
   Nugoeihuvi Data Chip:
@@ -2364,12 +2413,14 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32099
+    marketGroup: 754
     name: Olfei Medallion
     volume: 0.1
   Olufami's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 18655
+    marketGroup: 752
     name: Olufami's DNA
     volume: 0.1
   Onyx Heart of Valor:
@@ -2424,6 +2475,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11585
+    marketGroup: 492
     name: Pax Amarria
     volume: 0.1
   Pax Ammaria:
@@ -2472,6 +2524,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17755
+    marketGroup: 754
     name: Pro-Trade Pamphlets
     volume: 0.1
   'Proof of Discovery: Anomalies':
@@ -2514,6 +2567,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 12994
+    marketGroup: 492
     name: Quafe Ultra Special Edition
     volume: 0.1
   Quafe Unleashed formula:
@@ -2616,6 +2670,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 40456
+    marketGroup: 20
     name: Research Component
     volume: 1.0
   Research Data Fragment:
@@ -2628,6 +2683,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 15353
+    marketGroup: 20
     name: Research Tools
     volume: 1.0
   Riot Interdiction Team:
@@ -2646,18 +2702,21 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33620
+    marketGroup: 738
     name: Rogue Drone 42-X Nexus Chip
     volume: 0.1
   Rogue Drone 43-X Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33619
+    marketGroup: 738
     name: Rogue Drone 43-X Nexus Chip
     volume: 0.1
   Rogue Drone 46-X Nexus Chip:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 33618
+    marketGroup: 738
     name: Rogue Drone 46-X Nexus Chip
     volume: 0.1
   Rogue Drone A.I. Core:
@@ -2898,6 +2957,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 40701
+    marketGroup: 20
     name: Subcompact TEBS Interface
     volume: 0.01
   Survivor:
@@ -2922,6 +2982,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 11944
+    marketGroup: 492
     name: Synthetic Coffee
     volume: 0.2
   Tattered Doll:
@@ -2940,6 +3001,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 12302
+    marketGroup: 20
     name: Test Dummies
     volume: 2.0
   The Benevolent:
@@ -3018,6 +3080,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 12995
+    marketGroup: 492
     name: Ultra! Promotional Holoreel
     volume: 0.5
   Unassembled Energy Weapons:
@@ -3048,6 +3111,7 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17756
+    marketGroup: 754
     name: Virgin Forest Pulp
     volume: 2.0
   Whelan Machorin's Head:
@@ -3108,11 +3172,13 @@ items:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 14358
+    marketGroup: 492
     name: Zemnar
     volume: 0.2
   Zor's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 17840
+    marketGroup: 752
     name: Zor's DNA
     volume: 0.1

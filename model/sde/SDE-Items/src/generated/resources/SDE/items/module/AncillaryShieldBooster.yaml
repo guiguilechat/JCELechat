@@ -19,6 +19,7 @@ items:
     ShieldBonus: 6800.0
     TechLevel: 1
     id: 41504
+    marketGroup: 778
     name: Capital Ancillary Shield Booster
     volume: 4000.0
   Large Abyssal Ancillary Shield Booster:
@@ -53,6 +54,7 @@ items:
     ShieldBonus: 390.0
     TechLevel: 1
     id: 4391
+    marketGroup: 611
     name: Large Ancillary Shield Booster
     volume: 25.0
   Medium Abyssal Ancillary Shield Booster:
@@ -87,6 +89,7 @@ items:
     ShieldBonus: 146.0
     TechLevel: 1
     id: 32772
+    marketGroup: 610
     name: Medium Ancillary Shield Booster
     volume: 10.0
   Small Ancillary Shield Booster:
@@ -109,6 +112,7 @@ items:
     ShieldBonus: 52.0
     TechLevel: 1
     id: 32774
+    marketGroup: 609
     name: Small Ancillary Shield Booster
     volume: 5.0
   X-Large Abyssal Ancillary Shield Booster:
@@ -143,5 +147,6 @@ items:
     ShieldBonus: 980.0
     TechLevel: 1
     id: 32780
+    marketGroup: 612
     name: X-Large Ancillary Shield Booster
     volume: 50.0

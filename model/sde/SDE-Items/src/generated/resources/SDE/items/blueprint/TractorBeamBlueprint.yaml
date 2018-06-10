@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 24645
+    marketGroup: 905
     name: Capital Tractor Beam I Blueprint
     volume: 0.01
   Capital Tractor Beam II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 24349
+    marketGroup: 905
     name: Small Tractor Beam I Blueprint
     volume: 0.01
   Small Tractor Beam II Blueprint:

@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 45502
+    marketGroup: 2400
     name: Carnotite
     volume: 10.0
   Cinnabar:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 45506
+    marketGroup: 2400
     name: Cinnabar
     volume: 10.0
   Glowing Carnotite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46305
+    marketGroup: 2400
     name: Glowing Carnotite
     volume: 10.0
   Glowing Cinnabar:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46311
+    marketGroup: 2400
     name: Glowing Cinnabar
     volume: 10.0
   Glowing Pollucite:
@@ -52,6 +56,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46309
+    marketGroup: 2400
     name: Glowing Pollucite
     volume: 10.0
   Glowing Zircon:
@@ -63,6 +68,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46307
+    marketGroup: 2400
     name: Glowing Zircon
     volume: 10.0
   Pollucite:
@@ -74,6 +80,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 45504
+    marketGroup: 2400
     name: Pollucite
     volume: 10.0
   Replete Carnotite:
@@ -85,6 +92,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46304
+    marketGroup: 2400
     name: Replete Carnotite
     volume: 10.0
   Replete Cinnabar:
@@ -96,6 +104,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46310
+    marketGroup: 2400
     name: Replete Cinnabar
     volume: 10.0
   Replete Pollucite:
@@ -107,6 +116,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46308
+    marketGroup: 2400
     name: Replete Pollucite
     volume: 10.0
   Replete Zircon:
@@ -118,6 +128,7 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 46306
+    marketGroup: 2400
     name: Replete Zircon
     volume: 10.0
   Zircon:
@@ -129,5 +140,6 @@ items:
     ReprocessingSkillType: 46155
     RequiredSkill1: 3386
     id: 45503
+    marketGroup: 2400
     name: Zircon
     volume: 10.0

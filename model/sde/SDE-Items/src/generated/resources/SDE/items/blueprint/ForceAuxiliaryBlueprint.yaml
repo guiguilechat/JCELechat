@@ -2,6 +2,7 @@ items:
   Apostle Blueprint:
     IndustryBlueprintRank: 200.0
     id: 41582
+    marketGroup: 2263
     name: Apostle Blueprint
     volume: 0.01
   Dagon Blueprint:
@@ -11,6 +12,7 @@ items:
   Lif Blueprint:
     IndustryBlueprintRank: 200.0
     id: 41585
+    marketGroup: 2266
     name: Lif Blueprint
     volume: 0.01
   Loggerhead Blueprint:
@@ -20,11 +22,13 @@ items:
   Minokawa Blueprint:
     IndustryBlueprintRank: 200.0
     id: 41583
+    marketGroup: 2264
     name: Minokawa Blueprint
     volume: 0.01
   Ninazu Blueprint:
     IndustryBlueprintRank: 200.0
     id: 41584
+    marketGroup: 2265
     name: Ninazu Blueprint
     volume: 0.01
   Venerable Blueprint:

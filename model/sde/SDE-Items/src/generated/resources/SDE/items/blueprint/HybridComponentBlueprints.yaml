@@ -2,75 +2,91 @@ items:
   Electromechanical Interface Nexus Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30467
+    marketGroup: 1191
     name: Electromechanical Interface Nexus Blueprint
     volume: 0.01
   Emergent Neurovisual Interface Blueprint:
     IndustryBlueprintRank: 1.0
     id: 29997
+    marketGroup: 1191
     name: Emergent Neurovisual Interface Blueprint
     volume: 0.01
   Fullerene Intercalated Sheets Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30003
+    marketGroup: 1191
     name: Fullerene Intercalated Sheets Blueprint
     volume: 0.01
   Fulleroferrocene Power Conduits Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30477
+    marketGroup: 1191
     name: Fulleroferrocene Power Conduits Blueprint
     volume: 0.01
   Metallofullerene Plating Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30465
+    marketGroup: 1191
     name: Metallofullerene Plating Blueprint
     volume: 0.01
   Nanowire Composites Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30475
+    marketGroup: 1191
     name: Nanowire Composites Blueprint
     volume: 0.01
   Neurovisual Output Analyzer Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30471
+    marketGroup: 1191
     name: Neurovisual Output Analyzer Blueprint
     volume: 0.01
   Optimized Nano-Engines Blueprint:
     IndustryBlueprintRank: 1.0
     id: 29993
+    marketGroup: 1191
     name: Optimized Nano-Engines Blueprint
     volume: 0.01
   Reconfigured Subspace Calibrator Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30479
+    marketGroup: 1191
     name: Reconfigured Subspace Calibrator Blueprint
     volume: 0.01
   Reinforced Metallofullerene Alloys Blueprint:
     IndustryBlueprintRank: 1.0
     id: 30009
+    marketGroup: 1191
     name: Reinforced Metallofullerene Alloys Blueprint
     volume: 0.01
   Self-Assembling Nanolattice Blueprint:
     id: 34397
+    marketGroup: 1191
     name: Self-Assembling Nanolattice Blueprint
     volume: 0.01
   Superconducting Gravimetric Amplifier Blueprint:
     id: 45657
+    marketGroup: 1191
     name: Superconducting Gravimetric Amplifier Blueprint
     volume: 0.01
   Superconducting Ladar Amplifier Blueprint:
     id: 45659
+    marketGroup: 1191
     name: Superconducting Ladar Amplifier Blueprint
     volume: 0.01
   Superconducting Magnetometric Amplifier Blueprint:
     id: 45656
+    marketGroup: 1191
     name: Superconducting Magnetometric Amplifier Blueprint
     volume: 0.01
   Superconducting Radar Amplifier Blueprint:
     id: 45658
+    marketGroup: 1191
     name: Superconducting Radar Amplifier Blueprint
     volume: 0.01
   Warfare Computation Core Blueprint:
     IndustryBlueprintRank: 1.0
     id: 29995
+    marketGroup: 1191
     name: Warfare Computation Core Blueprint
     volume: 0.01

@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27090
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002:
@@ -15,6 +16,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3196
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003:
@@ -24,6 +26,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 13219
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004:
@@ -33,6 +36,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3197
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005:
@@ -42,6 +46,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19688
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1005
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006:
@@ -51,6 +56,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3198
+    marketGroup: 1502
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801:
@@ -60,6 +66,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27087
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802:
@@ -69,6 +76,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3185
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803:
@@ -78,6 +86,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13222
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804:
@@ -87,6 +96,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3188
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-804
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805:
@@ -96,6 +106,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19689
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-805
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806:
@@ -105,6 +116,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3189
+    marketGroup: 1500
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-806
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-701:
@@ -114,6 +126,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 1.0
     id: 27075
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-702:
@@ -123,6 +136,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 2.0
     id: 3190
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-703:
@@ -132,6 +146,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 3.0
     id: 9957
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-704:
@@ -141,6 +156,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 4.0
     id: 3191
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-705:
@@ -150,6 +166,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 5.0
     id: 19686
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-705
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Motion Prediction MR-706:
@@ -159,6 +176,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 6.0
     id: 3192
+    marketGroup: 1499
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601:
@@ -168,6 +186,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27084
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602:
@@ -177,6 +196,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3199
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603:
@@ -186,6 +206,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 13225
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604:
@@ -195,6 +216,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3200
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605:
@@ -204,6 +226,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 19690
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-605
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606:
@@ -213,6 +236,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3201
+    marketGroup: 1498
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-901:
@@ -222,6 +246,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27081
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-902:
@@ -231,6 +256,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3193
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-903:
@@ -240,6 +266,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13244
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-904:
@@ -249,6 +276,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3194
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-905:
@@ -258,6 +286,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19687
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-905
     volume: 1.0
   Eifyr and Co. 'Gunslinger' Surgical Strike SS-906:
@@ -267,6 +296,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3195
+    marketGroup: 1501
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-701:
@@ -276,6 +306,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27079
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-701
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-702:
@@ -285,6 +316,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3203
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-702
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-703:
@@ -294,6 +326,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 13246
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-703
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-704:
@@ -303,6 +336,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3208
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-704
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-705:
@@ -312,6 +346,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 19692
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-705
     volume: 1.0
   Inherent Implants 'Lancer' Controlled Bursts CB-706:
@@ -321,6 +356,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3213
+    marketGroup: 1499
     name: Inherent Implants 'Lancer' Controlled Bursts CB-706
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-901:
@@ -330,6 +366,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -1
     id: 27077
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-901
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-902:
@@ -339,6 +376,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -2
     id: 3204
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-902
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-903:
@@ -348,6 +386,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -3
     id: 13166
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-903
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-904:
@@ -357,6 +396,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -4
     id: 3209
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-904
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-905:
@@ -366,6 +406,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -5
     id: 19693
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-905
     volume: 1.0
   Inherent Implants 'Lancer' Gunnery RF-906:
@@ -375,6 +416,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -6
     id: 3214
+    marketGroup: 1501
     name: Inherent Implants 'Lancer' Gunnery RF-906
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1001:
@@ -384,6 +426,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27088
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1002:
@@ -393,6 +436,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3205
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1003:
@@ -402,6 +446,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 13217
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1004:
@@ -411,6 +456,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3210
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1005:
@@ -420,6 +466,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19694
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1005
     volume: 1.0
   Inherent Implants 'Lancer' Large Energy Turret LE-1006:
@@ -429,6 +476,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3215
+    marketGroup: 1502
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1006
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-801:
@@ -438,6 +486,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27085
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-802:
@@ -447,6 +496,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3206
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-803:
@@ -456,6 +506,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13220
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-804:
@@ -465,6 +516,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 3211
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-805:
@@ -474,6 +526,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19695
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-805
     volume: 1.0
   Inherent Implants 'Lancer' Medium Energy Turret ME-806:
@@ -483,6 +536,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 3216
+    marketGroup: 1500
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-806
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-601:
@@ -492,6 +546,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27082
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-601
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-602:
@@ -501,6 +556,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3202
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-602
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-603:
@@ -510,6 +566,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 13223
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-603
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-604:
@@ -519,6 +576,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3207
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-604
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-605:
@@ -528,6 +586,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 19691
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-605
     volume: 1.0
   Inherent Implants 'Lancer' Small Energy Turret SE-606:
@@ -537,6 +596,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3212
+    marketGroup: 1498
     name: Inherent Implants 'Lancer' Small Energy Turret SE-606
     volume: 1.0
   Ogdin's Eye Coordination Enhancer:
@@ -546,6 +606,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 6.0
     id: 20443
+    marketGroup: 1499
     name: Ogdin's Eye Coordination Enhancer
     volume: 1.0
   Pashan's Turret Customization Mindlink:
@@ -555,6 +616,7 @@ items:
     TechLevel: 1
     TurretSpeeBonus: -7
     id: 25868
+    marketGroup: 1501
     name: Pashan's Turret Customization Mindlink
     volume: 1.0
   Pashan's Turret Handling Mindlink:
@@ -564,6 +626,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 25867
+    marketGroup: 1502
     name: Pashan's Turret Handling Mindlink
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1001:
@@ -573,6 +636,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27089
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1002:
@@ -582,6 +646,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3222
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1003:
@@ -591,6 +656,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 13218
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1004:
@@ -600,6 +666,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3223
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1005:
@@ -609,6 +676,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19698
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1005
     volume: 1.0
   Zainou 'Deadeye' Large Hybrid Turret LH-1006:
@@ -618,6 +686,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3224
+    marketGroup: 1502
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1006
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-801:
@@ -627,6 +696,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27086
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-802:
@@ -636,6 +706,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3231
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-803:
@@ -645,6 +716,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13221
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-804:
@@ -654,6 +726,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 3232
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-805:
@@ -663,6 +736,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19699
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-805
     volume: 1.0
   Zainou 'Deadeye' Medium Hybrid Turret MH-806:
@@ -672,6 +746,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 3233
+    marketGroup: 1500
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-806
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-901:
@@ -681,6 +756,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27076
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-901
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-902:
@@ -690,6 +766,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3217
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-902
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-903:
@@ -699,6 +776,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 10204
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-903
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-904:
@@ -708,6 +786,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 3234
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-904
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-905:
@@ -717,6 +796,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19696
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-905
     volume: 1.0
   Zainou 'Deadeye' Sharpshooter ST-906:
@@ -726,6 +806,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 3235
+    marketGroup: 1501
     name: Zainou 'Deadeye' Sharpshooter ST-906
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-601:
@@ -735,6 +816,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27083
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-601
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-602:
@@ -744,6 +826,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3225
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-602
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-603:
@@ -753,6 +836,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 13224
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-603
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-604:
@@ -762,6 +846,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3226
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-604
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-605:
@@ -771,6 +856,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 19700
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-605
     volume: 1.0
   Zainou 'Deadeye' Small Hybrid Turret SH-606:
@@ -780,6 +866,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3227
+    marketGroup: 1498
     name: Zainou 'Deadeye' Small Hybrid Turret SH-606
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-701:
@@ -788,6 +875,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27078
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-701
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-702:
@@ -797,6 +885,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3236
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-702
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-703:
@@ -805,6 +894,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 13245
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-703
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-704:
@@ -814,6 +904,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3220
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-704
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-705:
@@ -822,6 +913,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 19697
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-705
     volume: 1.0
   Zainou 'Deadeye' Trajectory Analysis TA-706:
@@ -831,6 +923,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3221
+    marketGroup: 1499
     name: Zainou 'Deadeye' Trajectory Analysis TA-706
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1001:
@@ -840,6 +933,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27080
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1001
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1002:
@@ -849,6 +943,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3228
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1002
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1003:
@@ -858,6 +953,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 13252
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1003
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1004:
@@ -867,6 +963,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3229
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1004
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1005:
@@ -876,6 +973,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 16249
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1005
     volume: 1.0
   Zainou 'Gnome' Weapon Upgrades WU-1006:
@@ -885,5 +983,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3230
+    marketGroup: 1502
     name: Zainou 'Gnome' Weapon Upgrades WU-1006
     volume: 1.0

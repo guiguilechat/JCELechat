@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 22577
+    marketGroup: 937
     name: Ice Harvester Upgrade I Blueprint
     volume: 0.01
   Ice Harvester Upgrade II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 22543
+    marketGroup: 937
     name: Mining Laser Upgrade I Blueprint
     volume: 0.01
   Mining Laser Upgrade II Blueprint:

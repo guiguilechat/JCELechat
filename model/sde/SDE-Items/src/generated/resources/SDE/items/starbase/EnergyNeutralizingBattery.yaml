@@ -41,6 +41,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27857
+    marketGroup: 1009
     name: Blood Energy Neutralizing Battery
     volume: 4000.0
   Dark Blood Energy Neutralizing Battery:
@@ -85,6 +86,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27858
+    marketGroup: 1009
     name: Dark Blood Energy Neutralizing Battery
     volume: 4000.0
   Energy Neutralizing Battery:
@@ -128,6 +130,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27672
+    marketGroup: 1009
     name: Energy Neutralizing Battery
     volume: 4000.0
   Sansha Energy Neutralizing Battery:
@@ -172,6 +175,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27855
+    marketGroup: 1009
     name: Sansha Energy Neutralizing Battery
     volume: 4000.0
   True Sansha Energy Neutralizing Battery:
@@ -216,5 +220,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27856
+    marketGroup: 1009
     name: True Sansha Energy Neutralizing Battery
     volume: 4000.0

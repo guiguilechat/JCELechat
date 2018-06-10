@@ -111,6 +111,7 @@ items:
     VirusElementSlots: 3
     VirusStrength: 20
     id: 22175
+    marketGroup: 1718
     name: Data Analyzer I
     volume: 5.0
   Data Analyzer II:
@@ -129,6 +130,7 @@ items:
     VirusElementSlots: 3
     VirusStrength: 30
     id: 30834
+    marketGroup: 1718
     name: Data Analyzer II
     volume: 5.0
   Data Subverter I:
@@ -164,6 +166,7 @@ items:
     VirusElementSlots: 1
     VirusStrength: 20
     id: 41533
+    marketGroup: 1718
     name: Ligature Integrated Analyzer
     volume: 5.0
   Purloined Sansha Data Analyzer:
@@ -181,6 +184,7 @@ items:
     VirusElementSlots: 3
     VirusStrength: 40
     id: 3581
+    marketGroup: 1718
     name: Purloined Sansha Data Analyzer
     volume: 5.0
   Relic Analyzer I:
@@ -197,6 +201,7 @@ items:
     VirusElementSlots: 3
     VirusStrength: 20
     id: 22177
+    marketGroup: 1718
     name: Relic Analyzer I
     volume: 5.0
   Relic Analyzer II:
@@ -215,6 +220,7 @@ items:
     VirusElementSlots: 3
     VirusStrength: 30
     id: 30832
+    marketGroup: 1718
     name: Relic Analyzer II
     volume: 5.0
   Sleeper Data Analyzer I:
@@ -304,5 +310,6 @@ items:
     VirusElementSlots: 1
     VirusStrength: 30
     id: 41534
+    marketGroup: 1718
     name: Zeugma Integrated Analyzer
     volume: 5.0

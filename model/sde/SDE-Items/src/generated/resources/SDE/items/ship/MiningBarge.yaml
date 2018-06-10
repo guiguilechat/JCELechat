@@ -74,6 +74,7 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
     id: 17476
+    marketGroup: 494
     name: Covetor
     volume: 200000.0
   Procurer:
@@ -153,6 +154,7 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
     id: 17480
+    marketGroup: 494
     name: Procurer
     volume: 100000.0
   Retriever:
@@ -229,5 +231,6 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.0
     id: 17478
+    marketGroup: 494
     name: Retriever
     volume: 150000.0

@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 45492
+    marketGroup: 2396
     name: Bitumens
     volume: 10.0
   Brimful Bitumens:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46284
+    marketGroup: 2396
     name: Brimful Bitumens
     volume: 10.0
   Brimful Coesite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46286
+    marketGroup: 2396
     name: Brimful Coesite
     volume: 10.0
   Brimful Sylvite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46282
+    marketGroup: 2396
     name: Brimful Sylvite
     volume: 10.0
   Brimful Zeolites:
@@ -52,6 +56,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46280
+    marketGroup: 2396
     name: Brimful Zeolites
     volume: 10.0
   Coesite:
@@ -63,6 +68,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 45493
+    marketGroup: 2396
     name: Coesite
     volume: 10.0
   Glistening Bitumens:
@@ -74,6 +80,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46285
+    marketGroup: 2396
     name: Glistening Bitumens
     volume: 10.0
   Glistening Coesite:
@@ -85,6 +92,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46287
+    marketGroup: 2396
     name: Glistening Coesite
     volume: 10.0
   Glistening Sylvite:
@@ -96,6 +104,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46283
+    marketGroup: 2396
     name: Glistening Sylvite
     volume: 10.0
   Glistening Zeolites:
@@ -107,6 +116,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 46281
+    marketGroup: 2396
     name: Glistening Zeolites
     volume: 10.0
   Sylvite:
@@ -118,6 +128,7 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 45491
+    marketGroup: 2396
     name: Sylvite
     volume: 10.0
   Zeolites:
@@ -129,5 +140,6 @@ items:
     ReprocessingSkillType: 46152
     RequiredSkill1: 3386
     id: 45490
+    marketGroup: 2396
     name: Zeolites
     volume: 10.0

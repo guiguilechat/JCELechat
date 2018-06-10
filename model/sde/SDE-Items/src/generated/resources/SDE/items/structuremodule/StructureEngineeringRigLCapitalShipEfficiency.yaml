@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37173
+    marketGroup: 2348
     name: Standup L-Set Capital Ship Manufacturing Efficiency I
     volume: 20.0
   Standup L-Set Capital Ship Manufacturing Efficiency II:
@@ -43,5 +44,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37172
+    marketGroup: 2348
     name: Standup L-Set Capital Ship Manufacturing Efficiency II
     volume: 20.0

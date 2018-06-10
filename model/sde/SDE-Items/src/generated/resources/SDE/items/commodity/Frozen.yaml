@@ -1,14 +1,17 @@
 items:
   Dairy Products:
     id: 3717
+    marketGroup: 492
     name: Dairy Products
     volume: 0.5
   Frozen Food:
     id: 3715
+    marketGroup: 492
     name: Frozen Food
     volume: 0.5
   Frozen Plant Seeds:
     id: 45
+    marketGroup: 492
     name: Frozen Plant Seeds
     volume: 0.5
   Ghalen Dumplings:
@@ -21,6 +24,7 @@ items:
     volume: 1.0
   Long-limb Roes:
     id: 3777
+    marketGroup: 492
     name: Long-limb Roes
     volume: 1.0
   Milk:
@@ -29,6 +33,7 @@ items:
     volume: 0.5
   Protein Delicacies:
     id: 11855
+    marketGroup: 492
     name: Protein Delicacies
     volume: 0.5
   Starcakes:

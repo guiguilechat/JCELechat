@@ -22,5 +22,6 @@ items:
     Speed: 5000
     TechLevel: 1
     id: 22782
+    marketGroup: 1937
     name: Interdiction Sphere Launcher I
     volume: 50.0

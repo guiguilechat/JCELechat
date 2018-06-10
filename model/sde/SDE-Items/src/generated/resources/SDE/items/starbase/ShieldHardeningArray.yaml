@@ -26,6 +26,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17184
+    marketGroup: 485
     name: Ballistic Deflection Array
     volume: 4000.0
   Explosion Dampening Array:
@@ -55,6 +56,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17185
+    marketGroup: 485
     name: Explosion Dampening Array
     volume: 4000.0
   Heat Dissipation Array:
@@ -84,6 +86,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17186
+    marketGroup: 485
     name: Heat Dissipation Array
     volume: 4000.0
   Photon Scattering Array:
@@ -113,5 +116,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17187
+    marketGroup: 485
     name: Photon Scattering Array
     volume: 4000.0

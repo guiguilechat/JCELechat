@@ -32,5 +32,6 @@ items:
     UnanchoringDelay: 60000
     Uniformity: 1.0
     id: 27674
+    marketGroup: 1012
     name: Cynosural System Jammer
     volume: 4000.0

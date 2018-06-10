@@ -27,5 +27,6 @@ items:
     TechLevel: 1
     ThermalDamage: 7.0
     id: 27922
+    marketGroup: 1015
     name: Lockbreaker Bomb
     volume: 75.0

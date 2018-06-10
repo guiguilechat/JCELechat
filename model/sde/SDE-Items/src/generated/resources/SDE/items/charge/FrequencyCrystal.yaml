@@ -15,6 +15,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
     id: 21236
+    marketGroup: 995
     name: Blood Gamma L
     volume: 1.0
   Blood Gamma M:
@@ -33,6 +34,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
     id: 21220
+    marketGroup: 996
     name: Blood Gamma M
     volume: 1.0
   Blood Gamma S:
@@ -51,6 +53,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
     id: 21206
+    marketGroup: 997
     name: Blood Gamma S
     volume: 1.0
   Blood Gamma XL:
@@ -69,6 +72,7 @@ items:
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
     id: 21252
+    marketGroup: 1007
     name: Blood Gamma XL
     volume: 1.0
   Blood Infrared L:
@@ -87,6 +91,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21228
+    marketGroup: 995
     name: Blood Infrared L
     volume: 1.0
   Blood Infrared M:
@@ -105,6 +110,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21212
+    marketGroup: 996
     name: Blood Infrared M
     volume: 1.0
   Blood Infrared S:
@@ -123,6 +129,7 @@ items:
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21198
+    marketGroup: 997
     name: Blood Infrared S
     volume: 1.0
   Blood Infrared XL:
@@ -141,6 +148,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21244
+    marketGroup: 1007
     name: Blood Infrared XL
     volume: 1.0
   Blood Microwave L:
@@ -159,6 +167,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
     id: 21226
+    marketGroup: 995
     name: Blood Microwave L
     volume: 1.0
   Blood Microwave M:
@@ -177,6 +186,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
     id: 21210
+    marketGroup: 996
     name: Blood Microwave M
     volume: 1.0
   Blood Microwave S:
@@ -195,6 +205,7 @@ items:
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
     id: 21196
+    marketGroup: 997
     name: Blood Microwave S
     volume: 1.0
   Blood Microwave XL:
@@ -213,6 +224,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
     id: 21242
+    marketGroup: 1007
     name: Blood Microwave XL
     volume: 1.0
   Blood Multifrequency L:
@@ -230,6 +242,7 @@ items:
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
     id: 21238
+    marketGroup: 995
     name: Blood Multifrequency L
     volume: 1.0
   Blood Multifrequency M:
@@ -247,6 +260,7 @@ items:
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
     id: 21222
+    marketGroup: 996
     name: Blood Multifrequency M
     volume: 1.0
   Blood Multifrequency S:
@@ -264,6 +278,7 @@ items:
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
     id: 21208
+    marketGroup: 997
     name: Blood Multifrequency S
     volume: 1.0
   Blood Multifrequency XL:
@@ -281,6 +296,7 @@ items:
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
     id: 21254
+    marketGroup: 1007
     name: Blood Multifrequency XL
     volume: 1.0
   Blood Radio L:
@@ -298,6 +314,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21224
+    marketGroup: 995
     name: Blood Radio L
     volume: 1.0
   Blood Radio M:
@@ -315,6 +332,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21450
+    marketGroup: 996
     name: Blood Radio M
     volume: 1.0
   Blood Radio S:
@@ -332,6 +350,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21194
+    marketGroup: 997
     name: Blood Radio S
     volume: 1.0
   Blood Radio XL:
@@ -349,6 +368,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21240
+    marketGroup: 1007
     name: Blood Radio XL
     volume: 1.0
   Blood Standard L:
@@ -367,6 +387,7 @@ items:
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
     id: 21230
+    marketGroup: 995
     name: Blood Standard L
     volume: 1.0
   Blood Standard M:
@@ -385,6 +406,7 @@ items:
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
     id: 21214
+    marketGroup: 996
     name: Blood Standard M
     volume: 1.0
   Blood Standard S:
@@ -403,6 +425,7 @@ items:
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
     id: 21200
+    marketGroup: 997
     name: Blood Standard S
     volume: 1.0
   Blood Standard XL:
@@ -421,6 +444,7 @@ items:
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
     id: 21246
+    marketGroup: 1007
     name: Blood Standard XL
     volume: 1.0
   Blood Ultraviolet L:
@@ -439,6 +463,7 @@ items:
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
     id: 21232
+    marketGroup: 995
     name: Blood Ultraviolet L
     volume: 1.0
   Blood Ultraviolet M:
@@ -457,6 +482,7 @@ items:
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
     id: 21216
+    marketGroup: 996
     name: Blood Ultraviolet M
     volume: 1.0
   Blood Ultraviolet S:
@@ -475,6 +501,7 @@ items:
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
     id: 21202
+    marketGroup: 997
     name: Blood Ultraviolet S
     volume: 1.0
   Blood Ultraviolet XL:
@@ -493,6 +520,7 @@ items:
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
     id: 21248
+    marketGroup: 1007
     name: Blood Ultraviolet XL
     volume: 1.0
   Blood Xray L:
@@ -511,6 +539,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
     id: 21234
+    marketGroup: 995
     name: Blood Xray L
     volume: 1.0
   Blood Xray M:
@@ -529,6 +558,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
     id: 21218
+    marketGroup: 996
     name: Blood Xray M
     volume: 1.0
   Blood Xray S:
@@ -547,6 +577,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
     id: 21204
+    marketGroup: 997
     name: Blood Xray S
     volume: 1.0
   Blood Xray XL:
@@ -565,6 +596,7 @@ items:
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
     id: 21250
+    marketGroup: 1007
     name: Blood Xray XL
     volume: 1.0
   Civilian Autocannon Ammo:
@@ -635,6 +667,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
     id: 21300
+    marketGroup: 995
     name: Dark Blood Gamma L
     volume: 1.0
   Dark Blood Gamma M:
@@ -653,6 +686,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
     id: 21284
+    marketGroup: 996
     name: Dark Blood Gamma M
     volume: 1.0
   Dark Blood Gamma S:
@@ -671,6 +705,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
     id: 21268
+    marketGroup: 997
     name: Dark Blood Gamma S
     volume: 1.0
   Dark Blood Gamma XL:
@@ -689,6 +724,7 @@ items:
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
     id: 21316
+    marketGroup: 1007
     name: Dark Blood Gamma XL
     volume: 1.0
   Dark Blood Infrared L:
@@ -707,6 +743,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21292
+    marketGroup: 995
     name: Dark Blood Infrared L
     volume: 1.0
   Dark Blood Infrared M:
@@ -725,6 +762,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21276
+    marketGroup: 996
     name: Dark Blood Infrared M
     volume: 1.0
   Dark Blood Infrared S:
@@ -743,6 +781,7 @@ items:
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21260
+    marketGroup: 997
     name: Dark Blood Infrared S
     volume: 1.0
   Dark Blood Infrared XL:
@@ -761,6 +800,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
     id: 21308
+    marketGroup: 1007
     name: Dark Blood Infrared XL
     volume: 1.0
   Dark Blood Microwave L:
@@ -779,6 +819,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
     id: 21290
+    marketGroup: 995
     name: Dark Blood Microwave L
     volume: 1.0
   Dark Blood Microwave M:
@@ -797,6 +838,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
     id: 21274
+    marketGroup: 996
     name: Dark Blood Microwave M
     volume: 1.0
   Dark Blood Microwave S:
@@ -815,6 +857,7 @@ items:
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
     id: 21258
+    marketGroup: 997
     name: Dark Blood Microwave S
     volume: 1.0
   Dark Blood Microwave XL:
@@ -833,6 +876,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
     id: 21306
+    marketGroup: 1007
     name: Dark Blood Microwave XL
     volume: 1.0
   Dark Blood Multifrequency L:
@@ -850,6 +894,7 @@ items:
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
     id: 21302
+    marketGroup: 995
     name: Dark Blood Multifrequency L
     volume: 1.0
   Dark Blood Multifrequency M:
@@ -867,6 +912,7 @@ items:
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
     id: 21286
+    marketGroup: 996
     name: Dark Blood Multifrequency M
     volume: 1.0
   Dark Blood Multifrequency S:
@@ -884,6 +930,7 @@ items:
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
     id: 21270
+    marketGroup: 997
     name: Dark Blood Multifrequency S
     volume: 1.0
   Dark Blood Multifrequency XL:
@@ -901,6 +948,7 @@ items:
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
     id: 21318
+    marketGroup: 1007
     name: Dark Blood Multifrequency XL
     volume: 1.0
   Dark Blood Radio L:
@@ -918,6 +966,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21288
+    marketGroup: 995
     name: Dark Blood Radio L
     volume: 1.0
   Dark Blood Radio M:
@@ -935,6 +984,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21272
+    marketGroup: 996
     name: Dark Blood Radio M
     volume: 1.0
   Dark Blood Radio S:
@@ -952,6 +1002,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21256
+    marketGroup: 997
     name: Dark Blood Radio S
     volume: 1.0
   Dark Blood Radio XL:
@@ -969,6 +1020,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 21304
+    marketGroup: 1007
     name: Dark Blood Radio XL
     volume: 1.0
   Dark Blood Standard L:
@@ -987,6 +1039,7 @@ items:
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
     id: 21294
+    marketGroup: 995
     name: Dark Blood Standard L
     volume: 1.0
   Dark Blood Standard M:
@@ -1005,6 +1058,7 @@ items:
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
     id: 21278
+    marketGroup: 996
     name: Dark Blood Standard M
     volume: 1.0
   Dark Blood Standard S:
@@ -1023,6 +1077,7 @@ items:
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
     id: 21262
+    marketGroup: 997
     name: Dark Blood Standard S
     volume: 1.0
   Dark Blood Standard XL:
@@ -1041,6 +1096,7 @@ items:
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
     id: 21310
+    marketGroup: 1007
     name: Dark Blood Standard XL
     volume: 1.0
   Dark Blood Ultraviolet L:
@@ -1059,6 +1115,7 @@ items:
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
     id: 21296
+    marketGroup: 995
     name: Dark Blood Ultraviolet L
     volume: 1.0
   Dark Blood Ultraviolet M:
@@ -1077,6 +1134,7 @@ items:
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
     id: 21280
+    marketGroup: 996
     name: Dark Blood Ultraviolet M
     volume: 1.0
   Dark Blood Ultraviolet S:
@@ -1095,6 +1153,7 @@ items:
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
     id: 21264
+    marketGroup: 997
     name: Dark Blood Ultraviolet S
     volume: 1.0
   Dark Blood Ultraviolet XL:
@@ -1113,6 +1172,7 @@ items:
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
     id: 21312
+    marketGroup: 1007
     name: Dark Blood Ultraviolet XL
     volume: 1.0
   Dark Blood Xray L:
@@ -1131,6 +1191,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
     id: 21298
+    marketGroup: 995
     name: Dark Blood Xray L
     volume: 1.0
   Dark Blood Xray M:
@@ -1149,6 +1210,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
     id: 21282
+    marketGroup: 996
     name: Dark Blood Xray M
     volume: 1.0
   Dark Blood Xray S:
@@ -1167,6 +1229,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
     id: 21266
+    marketGroup: 997
     name: Dark Blood Xray S
     volume: 1.0
   Dark Blood Xray XL:
@@ -1185,6 +1248,7 @@ items:
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
     id: 21314
+    marketGroup: 1007
     name: Dark Blood Xray XL
     volume: 1.0
   Gamma L:
@@ -1201,6 +1265,7 @@ items:
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.625
     id: 261
+    marketGroup: 105
     name: Gamma L
     volume: 1.0
   Gamma M:
@@ -1217,6 +1282,7 @@ items:
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.625
     id: 253
+    marketGroup: 103
     name: Gamma M
     volume: 1.0
   Gamma S:
@@ -1233,6 +1299,7 @@ items:
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.625
     id: 245
+    marketGroup: 102
     name: Gamma S
     volume: 1.0
   Gamma XL:
@@ -1249,6 +1316,7 @@ items:
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.625
     id: 17680
+    marketGroup: 503
     name: Gamma XL
     volume: 1.0
   Imperial Navy Gamma L:
@@ -1267,6 +1335,7 @@ items:
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.625
     id: 23107
+    marketGroup: 995
     name: Imperial Navy Gamma L
     volume: 1.0
   Imperial Navy Gamma M:
@@ -1285,6 +1354,7 @@ items:
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.625
     id: 23091
+    marketGroup: 996
     name: Imperial Navy Gamma M
     volume: 1.0
   Imperial Navy Gamma S:
@@ -1303,6 +1373,7 @@ items:
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.625
     id: 23073
+    marketGroup: 997
     name: Imperial Navy Gamma S
     volume: 1.0
   Imperial Navy Infrared L:
@@ -1321,6 +1392,7 @@ items:
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23115
+    marketGroup: 995
     name: Imperial Navy Infrared L
     volume: 1.0
   Imperial Navy Infrared M:
@@ -1339,6 +1411,7 @@ items:
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23099
+    marketGroup: 996
     name: Imperial Navy Infrared M
     volume: 1.0
   Imperial Navy Infrared S:
@@ -1357,6 +1430,7 @@ items:
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.2000000476837158
     id: 23081
+    marketGroup: 997
     name: Imperial Navy Infrared S
     volume: 1.0
   Imperial Navy Microwave L:
@@ -1375,6 +1449,7 @@ items:
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 1.399999976158142
     id: 23117
+    marketGroup: 995
     name: Imperial Navy Microwave L
     volume: 1.0
   Imperial Navy Microwave M:
@@ -1393,6 +1468,7 @@ items:
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 1.399999976158142
     id: 23101
+    marketGroup: 996
     name: Imperial Navy Microwave M
     volume: 1.0
   Imperial Navy Microwave S:
@@ -1411,6 +1487,7 @@ items:
     ThermalDamage: 2.299999952316284
     WeaponRangeMultiplier: 1.399999976158142
     id: 23083
+    marketGroup: 997
     name: Imperial Navy Microwave S
     volume: 1.0
   Imperial Navy Multifrequency L:
@@ -1428,6 +1505,7 @@ items:
     ThermalDamage: 23.0
     WeaponRangeMultiplier: 0.5
     id: 23105
+    marketGroup: 995
     name: Imperial Navy Multifrequency L
     volume: 1.0
   Imperial Navy Multifrequency M:
@@ -1445,6 +1523,7 @@ items:
     ThermalDamage: 11.5
     WeaponRangeMultiplier: 0.5
     id: 23089
+    marketGroup: 996
     name: Imperial Navy Multifrequency M
     volume: 1.0
   Imperial Navy Multifrequency S:
@@ -1462,6 +1541,7 @@ items:
     ThermalDamage: 5.75
     WeaponRangeMultiplier: 0.5
     id: 23071
+    marketGroup: 997
     name: Imperial Navy Multifrequency S
     volume: 1.0
   Imperial Navy Radio L:
@@ -1479,6 +1559,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 23119
+    marketGroup: 995
     name: Imperial Navy Radio L
     volume: 1.0
   Imperial Navy Radio M:
@@ -1496,6 +1577,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 23103
+    marketGroup: 996
     name: Imperial Navy Radio M
     volume: 1.0
   Imperial Navy Radio S:
@@ -1513,6 +1595,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 23085
+    marketGroup: 997
     name: Imperial Navy Radio S
     volume: 1.0
   Imperial Navy Standard L:
@@ -1531,6 +1614,7 @@ items:
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 1.0
     id: 23113
+    marketGroup: 995
     name: Imperial Navy Standard L
     volume: 1.0
   Imperial Navy Standard M:
@@ -1549,6 +1633,7 @@ items:
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 1.0
     id: 23097
+    marketGroup: 996
     name: Imperial Navy Standard M
     volume: 1.0
   Imperial Navy Standard S:
@@ -1567,6 +1652,7 @@ items:
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 1.0
     id: 23079
+    marketGroup: 997
     name: Imperial Navy Standard S
     volume: 1.0
   Imperial Navy Ultraviolet L:
@@ -1585,6 +1671,7 @@ items:
     ThermalDamage: 13.800000190734863
     WeaponRangeMultiplier: 0.875
     id: 23111
+    marketGroup: 995
     name: Imperial Navy Ultraviolet L
     volume: 1.0
   Imperial Navy Ultraviolet M:
@@ -1603,6 +1690,7 @@ items:
     ThermalDamage: 6.900000095367432
     WeaponRangeMultiplier: 0.875
     id: 23095
+    marketGroup: 996
     name: Imperial Navy Ultraviolet M
     volume: 1.0
   Imperial Navy Ultraviolet S:
@@ -1621,6 +1709,7 @@ items:
     ThermalDamage: 3.450000047683716
     WeaponRangeMultiplier: 0.875
     id: 23077
+    marketGroup: 997
     name: Imperial Navy Ultraviolet S
     volume: 1.0
   Imperial Navy Xray L:
@@ -1639,6 +1728,7 @@ items:
     ThermalDamage: 18.399999618530273
     WeaponRangeMultiplier: 0.75
     id: 23109
+    marketGroup: 995
     name: Imperial Navy Xray L
     volume: 1.0
   Imperial Navy Xray M:
@@ -1657,6 +1747,7 @@ items:
     ThermalDamage: 9.199999809265137
     WeaponRangeMultiplier: 0.75
     id: 23093
+    marketGroup: 996
     name: Imperial Navy Xray M
     volume: 1.0
   Imperial Navy Xray S:
@@ -1675,6 +1766,7 @@ items:
     ThermalDamage: 4.599999904632568
     WeaponRangeMultiplier: 0.75
     id: 23075
+    marketGroup: 997
     name: Imperial Navy Xray S
     volume: 1.0
   Infrared L:
@@ -1691,6 +1783,7 @@ items:
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 257
+    marketGroup: 105
     name: Infrared L
     volume: 1.0
   Infrared M:
@@ -1707,6 +1800,7 @@ items:
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 249
+    marketGroup: 103
     name: Infrared M
     volume: 1.0
   Infrared S:
@@ -1723,6 +1817,7 @@ items:
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 241
+    marketGroup: 102
     name: Infrared S
     volume: 1.0
   Infrared XL:
@@ -1739,6 +1834,7 @@ items:
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.2000000476837158
     id: 17682
+    marketGroup: 503
     name: Infrared XL
     volume: 1.0
   Microwave L:
@@ -1755,6 +1851,7 @@ items:
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 256
+    marketGroup: 105
     name: Microwave L
     volume: 1.0
   Microwave M:
@@ -1771,6 +1868,7 @@ items:
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 248
+    marketGroup: 103
     name: Microwave M
     volume: 1.0
   Microwave S:
@@ -1787,6 +1885,7 @@ items:
     ThermalDamage: 2.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 240
+    marketGroup: 102
     name: Microwave S
     volume: 1.0
   Microwave XL:
@@ -1803,6 +1902,7 @@ items:
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 1.399999976158142
     id: 17684
+    marketGroup: 503
     name: Microwave XL
     volume: 1.0
   Multifrequency L:
@@ -1818,6 +1918,7 @@ items:
     ThermalDamage: 20.0
     WeaponRangeMultiplier: 0.5
     id: 262
+    marketGroup: 105
     name: Multifrequency L
     volume: 1.0
   Multifrequency M:
@@ -1833,6 +1934,7 @@ items:
     ThermalDamage: 10.0
     WeaponRangeMultiplier: 0.5
     id: 254
+    marketGroup: 103
     name: Multifrequency M
     volume: 1.0
   Multifrequency S:
@@ -1848,6 +1950,7 @@ items:
     ThermalDamage: 5.0
     WeaponRangeMultiplier: 0.5
     id: 246
+    marketGroup: 102
     name: Multifrequency S
     volume: 1.0
   Multifrequency XL:
@@ -1863,6 +1966,7 @@ items:
     ThermalDamage: 40.0
     WeaponRangeMultiplier: 0.5
     id: 17686
+    marketGroup: 503
     name: Multifrequency XL
     volume: 1.0
   Orbital Laser S:
@@ -1892,6 +1996,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 255
+    marketGroup: 105
     name: Radio L
     volume: 1.0
   Radio M:
@@ -1907,6 +2012,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 247
+    marketGroup: 103
     name: Radio M
     volume: 1.0
   Radio S:
@@ -1922,6 +2028,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 239
+    marketGroup: 102
     name: Radio S
     volume: 1.0
   Radio XL:
@@ -1937,6 +2044,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 17688
+    marketGroup: 503
     name: Radio XL
     volume: 1.0
   Sanshas Gamma L:
@@ -1955,6 +2063,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.625
     id: 20837
+    marketGroup: 995
     name: Sanshas Gamma L
     volume: 1.0
   Sanshas Gamma M:
@@ -1973,6 +2082,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.625
     id: 20829
+    marketGroup: 996
     name: Sanshas Gamma M
     volume: 1.0
   Sanshas Gamma S:
@@ -1991,6 +2101,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.625
     id: 20821
+    marketGroup: 997
     name: Sanshas Gamma S
     volume: 1.0
   Sanshas Gamma XL:
@@ -2009,6 +2120,7 @@ items:
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.625
     id: 20845
+    marketGroup: 1007
     name: Sanshas Gamma XL
     volume: 1.0
   Sanshas Infrared L:
@@ -2027,6 +2139,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20022
+    marketGroup: 995
     name: Sanshas Infrared L
     volume: 1.0
   Sanshas Infrared M:
@@ -2045,6 +2158,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20014
+    marketGroup: 996
     name: Sanshas Infrared M
     volume: 1.0
   Sanshas Infrared S:
@@ -2063,6 +2177,7 @@ items:
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.2000000476837158
     id: 19982
+    marketGroup: 997
     name: Sanshas Infrared S
     volume: 1.0
   Sanshas Infrared XL:
@@ -2081,6 +2196,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20030
+    marketGroup: 1007
     name: Sanshas Infrared XL
     volume: 1.0
   Sanshas Microwave L:
@@ -2099,6 +2215,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
     id: 20020
+    marketGroup: 995
     name: Sanshas Microwave L
     volume: 1.0
   Sanshas Microwave M:
@@ -2117,6 +2234,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 1.399999976158142
     id: 20012
+    marketGroup: 996
     name: Sanshas Microwave M
     volume: 1.0
   Sanshas Microwave S:
@@ -2135,6 +2253,7 @@ items:
     ThermalDamage: 2.200000047683716
     WeaponRangeMultiplier: 1.399999976158142
     id: 19980
+    marketGroup: 997
     name: Sanshas Microwave S
     volume: 1.0
   Sanshas Microwave XL:
@@ -2153,6 +2272,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
     id: 20028
+    marketGroup: 1007
     name: Sanshas Microwave XL
     volume: 1.0
   Sanshas Multifrequency L:
@@ -2170,6 +2290,7 @@ items:
     ThermalDamage: 22.0
     WeaponRangeMultiplier: 0.5
     id: 20839
+    marketGroup: 995
     name: Sanshas Multifrequency L
     volume: 1.0
   Sanshas Multifrequency M:
@@ -2187,6 +2308,7 @@ items:
     ThermalDamage: 11.0
     WeaponRangeMultiplier: 0.5
     id: 20831
+    marketGroup: 996
     name: Sanshas Multifrequency M
     volume: 1.0
   Sanshas Multifrequency S:
@@ -2204,6 +2326,7 @@ items:
     ThermalDamage: 5.5
     WeaponRangeMultiplier: 0.5
     id: 20823
+    marketGroup: 997
     name: Sanshas Multifrequency S
     volume: 1.0
   Sanshas Multifrequency XL:
@@ -2221,6 +2344,7 @@ items:
     ThermalDamage: 44.0
     WeaponRangeMultiplier: 0.5
     id: 20847
+    marketGroup: 1007
     name: Sanshas Multifrequency XL
     volume: 1.0
   Sanshas Radio L:
@@ -2238,6 +2362,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20018
+    marketGroup: 995
     name: Sanshas Radio L
     volume: 1.0
   Sanshas Radio M:
@@ -2255,6 +2380,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20010
+    marketGroup: 996
     name: Sanshas Radio M
     volume: 1.0
   Sanshas Radio S:
@@ -2272,6 +2398,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 19978
+    marketGroup: 997
     name: Sanshas Radio S
     volume: 1.0
   Sanshas Radio XL:
@@ -2289,6 +2416,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20026
+    marketGroup: 1007
     name: Sanshas Radio XL
     volume: 1.0
   Sanshas Standard L:
@@ -2307,6 +2435,7 @@ items:
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 1.0
     id: 20024
+    marketGroup: 995
     name: Sanshas Standard L
     volume: 1.0
   Sanshas Standard M:
@@ -2325,6 +2454,7 @@ items:
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 1.0
     id: 20016
+    marketGroup: 996
     name: Sanshas Standard M
     volume: 1.0
   Sanshas Standard S:
@@ -2343,6 +2473,7 @@ items:
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 1.0
     id: 19984
+    marketGroup: 997
     name: Sanshas Standard S
     volume: 1.0
   Sanshas Standard XL:
@@ -2361,6 +2492,7 @@ items:
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 1.0
     id: 20032
+    marketGroup: 1007
     name: Sanshas Standard XL
     volume: 1.0
   Sanshas Ultraviolet L:
@@ -2379,6 +2511,7 @@ items:
     ThermalDamage: 13.199999809265137
     WeaponRangeMultiplier: 0.875
     id: 20833
+    marketGroup: 995
     name: Sanshas Ultraviolet L
     volume: 1.0
   Sanshas Ultraviolet M:
@@ -2397,6 +2530,7 @@ items:
     ThermalDamage: 6.599999904632568
     WeaponRangeMultiplier: 0.875
     id: 20825
+    marketGroup: 996
     name: Sanshas Ultraviolet M
     volume: 1.0
   Sanshas Ultraviolet S:
@@ -2415,6 +2549,7 @@ items:
     ThermalDamage: 3.299999952316284
     WeaponRangeMultiplier: 0.875
     id: 20817
+    marketGroup: 997
     name: Sanshas Ultraviolet S
     volume: 1.0
   Sanshas Ultraviolet XL:
@@ -2433,6 +2568,7 @@ items:
     ThermalDamage: 26.399999618530273
     WeaponRangeMultiplier: 0.875
     id: 20841
+    marketGroup: 1007
     name: Sanshas Ultraviolet XL
     volume: 1.0
   Sanshas Xray L:
@@ -2451,6 +2587,7 @@ items:
     ThermalDamage: 17.600000381469727
     WeaponRangeMultiplier: 0.75
     id: 20835
+    marketGroup: 995
     name: Sanshas Xray L
     volume: 1.0
   Sanshas Xray M:
@@ -2469,6 +2606,7 @@ items:
     ThermalDamage: 8.800000190734863
     WeaponRangeMultiplier: 0.75
     id: 20827
+    marketGroup: 996
     name: Sanshas Xray M
     volume: 1.0
   Sanshas Xray S:
@@ -2487,6 +2625,7 @@ items:
     ThermalDamage: 4.400000095367432
     WeaponRangeMultiplier: 0.75
     id: 20819
+    marketGroup: 997
     name: Sanshas Xray S
     volume: 1.0
   Sanshas Xray XL:
@@ -2505,6 +2644,7 @@ items:
     ThermalDamage: 35.20000076293945
     WeaponRangeMultiplier: 0.75
     id: 20843
+    marketGroup: 1007
     name: Sanshas Xray XL
     volume: 1.0
   Standard L:
@@ -2521,6 +2661,7 @@ items:
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 1.0
     id: 258
+    marketGroup: 105
     name: Standard L
     volume: 1.0
   Standard M:
@@ -2537,6 +2678,7 @@ items:
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 1.0
     id: 250
+    marketGroup: 103
     name: Standard M
     volume: 1.0
   Standard S:
@@ -2553,6 +2695,7 @@ items:
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 1.0
     id: 242
+    marketGroup: 102
     name: Standard S
     volume: 1.0
   Standard XL:
@@ -2569,6 +2712,7 @@ items:
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 1.0
     id: 17690
+    marketGroup: 503
     name: Standard XL
     volume: 1.0
   True Sanshas Gamma L:
@@ -2587,6 +2731,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.625
     id: 20893
+    marketGroup: 995
     name: True Sanshas Gamma L
     volume: 1.0
   True Sanshas Gamma M:
@@ -2605,6 +2750,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.625
     id: 20877
+    marketGroup: 996
     name: True Sanshas Gamma M
     volume: 1.0
   True Sanshas Gamma S:
@@ -2623,6 +2769,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.625
     id: 20861
+    marketGroup: 997
     name: True Sanshas Gamma S
     volume: 1.0
   True Sanshas Gamma XL:
@@ -2641,6 +2788,7 @@ items:
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.625
     id: 20909
+    marketGroup: 1007
     name: True Sanshas Gamma XL
     volume: 1.0
   True Sanshas Infrared L:
@@ -2659,6 +2807,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20885
+    marketGroup: 995
     name: True Sanshas Infrared L
     volume: 1.0
   True Sanshas Infrared M:
@@ -2677,6 +2826,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20869
+    marketGroup: 996
     name: True Sanshas Infrared M
     volume: 1.0
   True Sanshas Infrared S:
@@ -2695,6 +2845,7 @@ items:
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20853
+    marketGroup: 997
     name: True Sanshas Infrared S
     volume: 1.0
   True Sanshas Infrared XL:
@@ -2713,6 +2864,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.2000000476837158
     id: 20901
+    marketGroup: 1007
     name: True Sanshas Infrared XL
     volume: 1.0
   True Sanshas Microwave L:
@@ -2731,6 +2883,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 1.399999976158142
     id: 20883
+    marketGroup: 995
     name: True Sanshas Microwave L
     volume: 1.0
   True Sanshas Microwave M:
@@ -2749,6 +2902,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 1.399999976158142
     id: 20867
+    marketGroup: 996
     name: True Sanshas Microwave M
     volume: 1.0
   True Sanshas Microwave S:
@@ -2767,6 +2921,7 @@ items:
     ThermalDamage: 2.4000000953674316
     WeaponRangeMultiplier: 1.399999976158142
     id: 20851
+    marketGroup: 997
     name: True Sanshas Microwave S
     volume: 1.0
   True Sanshas Microwave XL:
@@ -2785,6 +2940,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 1.399999976158142
     id: 20899
+    marketGroup: 1007
     name: True Sanshas Microwave XL
     volume: 1.0
   True Sanshas Multifrequency L:
@@ -2802,6 +2958,7 @@ items:
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.5
     id: 20895
+    marketGroup: 995
     name: True Sanshas Multifrequency L
     volume: 1.0
   True Sanshas Multifrequency M:
@@ -2819,6 +2976,7 @@ items:
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.5
     id: 20879
+    marketGroup: 996
     name: True Sanshas Multifrequency M
     volume: 1.0
   True Sanshas Multifrequency S:
@@ -2836,6 +2994,7 @@ items:
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.5
     id: 20863
+    marketGroup: 997
     name: True Sanshas Multifrequency S
     volume: 1.0
   True Sanshas Multifrequency XL:
@@ -2853,6 +3012,7 @@ items:
     ThermalDamage: 48.0
     WeaponRangeMultiplier: 0.5
     id: 20911
+    marketGroup: 1007
     name: True Sanshas Multifrequency XL
     volume: 1.0
   True Sanshas Radio L:
@@ -2870,6 +3030,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20881
+    marketGroup: 995
     name: True Sanshas Radio L
     volume: 1.0
   True Sanshas Radio M:
@@ -2887,6 +3048,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20865
+    marketGroup: 996
     name: True Sanshas Radio M
     volume: 1.0
   True Sanshas Radio S:
@@ -2904,6 +3066,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20849
+    marketGroup: 997
     name: True Sanshas Radio S
     volume: 1.0
   True Sanshas Radio XL:
@@ -2921,6 +3084,7 @@ items:
     TechLevel: 1
     WeaponRangeMultiplier: 1.600000023841858
     id: 20897
+    marketGroup: 1007
     name: True Sanshas Radio XL
     volume: 1.0
   True Sanshas Standard L:
@@ -2939,6 +3103,7 @@ items:
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 1.0
     id: 20887
+    marketGroup: 995
     name: True Sanshas Standard L
     volume: 1.0
   True Sanshas Standard M:
@@ -2957,6 +3122,7 @@ items:
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 1.0
     id: 20871
+    marketGroup: 996
     name: True Sanshas Standard M
     volume: 1.0
   True Sanshas Standard S:
@@ -2975,6 +3141,7 @@ items:
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 1.0
     id: 20855
+    marketGroup: 997
     name: True Sanshas Standard S
     volume: 1.0
   True Sanshas Standard XL:
@@ -2993,6 +3160,7 @@ items:
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 1.0
     id: 20903
+    marketGroup: 1007
     name: True Sanshas Standard XL
     volume: 1.0
   True Sanshas Ultraviolet L:
@@ -3011,6 +3179,7 @@ items:
     ThermalDamage: 14.399999618530273
     WeaponRangeMultiplier: 0.875
     id: 20889
+    marketGroup: 995
     name: True Sanshas Ultraviolet L
     volume: 1.0
   True Sanshas Ultraviolet M:
@@ -3029,6 +3198,7 @@ items:
     ThermalDamage: 7.199999809265137
     WeaponRangeMultiplier: 0.875
     id: 20873
+    marketGroup: 996
     name: True Sanshas Ultraviolet M
     volume: 1.0
   True Sanshas Ultraviolet S:
@@ -3047,6 +3217,7 @@ items:
     ThermalDamage: 3.5999999046325684
     WeaponRangeMultiplier: 0.875
     id: 20857
+    marketGroup: 997
     name: True Sanshas Ultraviolet S
     volume: 1.0
   True Sanshas Ultraviolet XL:
@@ -3065,6 +3236,7 @@ items:
     ThermalDamage: 28.799999237060547
     WeaponRangeMultiplier: 0.875
     id: 20905
+    marketGroup: 1007
     name: True Sanshas Ultraviolet XL
     volume: 1.0
   True Sanshas Xray L:
@@ -3083,6 +3255,7 @@ items:
     ThermalDamage: 19.200000762939453
     WeaponRangeMultiplier: 0.75
     id: 20891
+    marketGroup: 995
     name: True Sanshas Xray L
     volume: 1.0
   True Sanshas Xray M:
@@ -3101,6 +3274,7 @@ items:
     ThermalDamage: 9.600000381469727
     WeaponRangeMultiplier: 0.75
     id: 20875
+    marketGroup: 996
     name: True Sanshas Xray M
     volume: 1.0
   True Sanshas Xray S:
@@ -3119,6 +3293,7 @@ items:
     ThermalDamage: 4.800000190734863
     WeaponRangeMultiplier: 0.75
     id: 20859
+    marketGroup: 997
     name: True Sanshas Xray S
     volume: 1.0
   True Sanshas Xray XL:
@@ -3137,6 +3312,7 @@ items:
     ThermalDamage: 38.400001525878906
     WeaponRangeMultiplier: 0.75
     id: 20907
+    marketGroup: 1007
     name: True Sanshas Xray XL
     volume: 1.0
   Ultraviolet L:
@@ -3153,6 +3329,7 @@ items:
     ThermalDamage: 12.0
     WeaponRangeMultiplier: 0.875
     id: 259
+    marketGroup: 105
     name: Ultraviolet L
     volume: 1.0
   Ultraviolet M:
@@ -3169,6 +3346,7 @@ items:
     ThermalDamage: 6.0
     WeaponRangeMultiplier: 0.875
     id: 251
+    marketGroup: 103
     name: Ultraviolet M
     volume: 1.0
   Ultraviolet S:
@@ -3185,6 +3363,7 @@ items:
     ThermalDamage: 3.0
     WeaponRangeMultiplier: 0.875
     id: 243
+    marketGroup: 102
     name: Ultraviolet S
     volume: 1.0
   Ultraviolet XL:
@@ -3201,6 +3380,7 @@ items:
     ThermalDamage: 24.0
     WeaponRangeMultiplier: 0.875
     id: 17692
+    marketGroup: 503
     name: Ultraviolet XL
     volume: 1.0
   Xray L:
@@ -3217,6 +3397,7 @@ items:
     ThermalDamage: 16.0
     WeaponRangeMultiplier: 0.75
     id: 260
+    marketGroup: 105
     name: Xray L
     volume: 1.0
   Xray M:
@@ -3233,6 +3414,7 @@ items:
     ThermalDamage: 8.0
     WeaponRangeMultiplier: 0.75
     id: 252
+    marketGroup: 103
     name: Xray M
     volume: 1.0
   Xray S:
@@ -3249,6 +3431,7 @@ items:
     ThermalDamage: 4.0
     WeaponRangeMultiplier: 0.75
     id: 244
+    marketGroup: 102
     name: Xray S
     volume: 1.0
   Xray XL:
@@ -3265,5 +3448,6 @@ items:
     ThermalDamage: 32.0
     WeaponRangeMultiplier: 0.75
     id: 17694
+    marketGroup: 503
     name: Xray XL
     volume: 1.0

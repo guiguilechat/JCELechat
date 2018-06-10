@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 10.0
     id: 33830
+    marketGroup: 938
     name: Dread Guristas Omnidirectional Tracking Enhancer
     volume: 5.0
   Imperial Navy Omnidirectional Tracking Enhancer:
@@ -31,6 +32,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 10.0
     id: 33832
+    marketGroup: 938
     name: Imperial Navy Omnidirectional Tracking Enhancer
     volume: 5.0
   N-JM Compact Omnidirectional Tracking Enhancer:
@@ -47,6 +49,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 8.0
     id: 41033
+    marketGroup: 938
     name: N-JM Compact Omnidirectional Tracking Enhancer
     volume: 5.0
   Omnidirectional Tracking Enhancer I:
@@ -62,6 +65,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 7.0
     id: 33822
+    marketGroup: 938
     name: Omnidirectional Tracking Enhancer I
     volume: 5.0
   Omnidirectional Tracking Enhancer II:
@@ -78,6 +82,7 @@ items:
     TechLevel: 2
     TrackingSpeedBonus: 9.5
     id: 33824
+    marketGroup: 938
     name: Omnidirectional Tracking Enhancer II
     volume: 5.0
   Sentient Omnidirectional Tracking Enhancer:
@@ -95,6 +100,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 10.0
     id: 33828
+    marketGroup: 938
     name: Sentient Omnidirectional Tracking Enhancer
     volume: 5.0
   Unit D-34343's Modified Omnidirectional Tracking Enhancer:
@@ -112,6 +118,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.5
     id: 33834
+    marketGroup: 938
     name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
     volume: 5.0
   Unit F-435454's Modified Omnidirectional Tracking Enhancer:
@@ -129,6 +136,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 15.0
     id: 33836
+    marketGroup: 938
     name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
     volume: 5.0
   Unit P-343554's Modified Omnidirectional Tracking Enhancer:
@@ -146,6 +154,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 33838
+    marketGroup: 938
     name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
     volume: 5.0
   Unit W-634's Modified Omnidirectional Tracking Enhancer:
@@ -163,5 +172,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 20.0
     id: 33840
+    marketGroup: 938
     name: Unit W-634's Modified Omnidirectional Tracking Enhancer
     volume: 5.0

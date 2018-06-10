@@ -19,6 +19,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 27911
+    marketGroup: 367
     name: Burst Projector Operation
     volume: 0.01
   Cloaking:
@@ -30,6 +31,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
     id: 11579
+    marketGroup: 367
     name: Cloaking
     volume: 0.01
   Electronic Warfare:
@@ -40,6 +42,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3427
+    marketGroup: 367
     name: Electronic Warfare
     volume: 0.01
   Frequency Modulation:
@@ -51,6 +54,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 19760
+    marketGroup: 367
     name: Frequency Modulation
     volume: 0.01
   Hypereuclidean Navigation:
@@ -82,6 +86,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
     id: 19759
+    marketGroup: 367
     name: Long Distance Jamming
     volume: 0.01
   Propulsion Jamming:
@@ -94,6 +99,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3435
+    marketGroup: 367
     name: Propulsion Jamming
     volume: 0.01
   Sensor Linking:
@@ -104,6 +110,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3433
+    marketGroup: 367
     name: Sensor Linking
     volume: 0.01
   Signal Dispersion:
@@ -116,6 +123,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 19761
+    marketGroup: 367
     name: Signal Dispersion
     volume: 0.01
   Signal Suppression:
@@ -128,6 +136,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 19766
+    marketGroup: 367
     name: Signal Suppression
     volume: 0.01
   Signature Focusing:
@@ -140,6 +149,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 19922
+    marketGroup: 367
     name: Signature Focusing
     volume: 0.01
   Tactical Logistics Reconfiguration:
@@ -151,6 +161,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 27906
+    marketGroup: 367
     name: Tactical Logistics Reconfiguration
     volume: 0.01
   Target Breaker Amplification:
@@ -162,6 +173,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 4411
+    marketGroup: 367
     name: Target Breaker Amplification
     volume: 0.01
   Target Painting:
@@ -172,6 +184,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 19921
+    marketGroup: 367
     name: Target Painting
     volume: 0.01
   Tournament Observation:
@@ -194,6 +207,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 19767
+    marketGroup: 367
     name: Weapon Destabilization
     volume: 0.01
   Weapon Disruption:
@@ -204,5 +218,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3434
+    marketGroup: 367
     name: Weapon Disruption
     volume: 0.01

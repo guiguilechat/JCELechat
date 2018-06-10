@@ -318,6 +318,7 @@ items:
     EntityEquipmentMax: 1
     EntityEquipmentMin: 1
     id: 47450
+    marketGroup: 614
     name: Compressed Capsule Shell
     volume: 0.1
   Construction Tools:
@@ -531,6 +532,7 @@ items:
     volume: 0.1
   Fedo:
     id: 26902
+    marketGroup: 23
     name: Fedo
     volume: 0.5
   Fedo Blood:
@@ -627,6 +629,7 @@ items:
     volume: 0.1
   Guristas Data Sequence:
     id: 33988
+    marketGroup: 1840
     name: Guristas Data Sequence
     volume: 0.1
   Guristas Outlaw Dogtag:
@@ -863,6 +866,7 @@ items:
     volume: 0.2
   Metal Scraps:
     id: 15331
+    marketGroup: 20
     name: Metal Scraps
     volume: 0.01
   Methros Enhanced Decoding Device:
@@ -1139,6 +1143,7 @@ items:
     volume: 0.1
   Reinforced Metal Scraps:
     id: 30497
+    marketGroup: 20
     name: Reinforced Metal Scraps
     volume: 0.01
   Rekker's Keycard:
@@ -1295,6 +1300,7 @@ items:
     volume: 1.0
   Shattered Villard Wheel:
     id: 33539
+    marketGroup: 20
     name: Shattered Villard Wheel
     volume: 0.1
   Ship logs:

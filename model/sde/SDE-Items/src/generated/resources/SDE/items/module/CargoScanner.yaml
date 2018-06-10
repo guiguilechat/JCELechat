@@ -11,6 +11,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 442
+    marketGroup: 711
     name: Cargo Scanner I
     volume: 5.0
   Cargo Scanner II:
@@ -25,6 +26,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     id: 2038
+    marketGroup: 711
     name: Cargo Scanner II
     volume: 5.0
   Interior Type-E Cargo Identifier:
@@ -53,6 +55,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 6135
+    marketGroup: 711
     name: PL-0 Scoped Cargo Scanner
     volume: 5.0
   Surface Cargo Scanner I:
@@ -81,5 +84,6 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 6131
+    marketGroup: 711
     name: Type-E Enduring Cargo Scanner
     volume: 5.0

@@ -23,6 +23,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41503
+    marketGroup: 1052
     name: Capital Ancillary Armor Repairer
     volume: 4000.0
   Large Abyssal Ancillary Armor Repairer:
@@ -61,6 +62,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 33103
+    marketGroup: 1051
     name: Large Ancillary Armor Repairer
     volume: 50.0
   Medium Abyssal Ancillary Armor Repairer:
@@ -99,6 +101,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 33101
+    marketGroup: 1050
     name: Medium Ancillary Armor Repairer
     volume: 10.0
   Small Abyssal Ancillary Armor Repairer:
@@ -137,5 +140,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 33076
+    marketGroup: 1049
     name: Small Ancillary Armor Repairer
     volume: 5.0

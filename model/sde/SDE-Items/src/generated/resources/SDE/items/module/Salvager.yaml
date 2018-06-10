@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 25861
+    marketGroup: 1715
     name: Salvager I
     volume: 5.0
   Salvager II:
@@ -39,5 +40,6 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 30836
+    marketGroup: 1715
     name: Salvager II
     volume: 5.0

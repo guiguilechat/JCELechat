@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20113
     id: 16519
+    marketGroup: 643
     name: '''Arbalest'' Cruise Launcher I'
     volume: 20.0
   '''Limos'' Cruise Launcher I':
@@ -43,6 +44,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 16515
+    marketGroup: 643
     name: '''Limos'' Cruise Launcher I'
     volume: 20.0
   '''Malkuth'' Cruise Launcher I':
@@ -66,6 +68,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20123
     id: 16513
+    marketGroup: 643
     name: '''Malkuth'' Cruise Launcher I'
     volume: 20.0
   '''Noose'' Cruise Missile Launcher':
@@ -90,6 +93,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20117
     id: 20601
+    marketGroup: 643
     name: '''Noose'' Cruise Missile Launcher'
     volume: 20.0
   CONCORD Cruise Missile Launcher:
@@ -137,6 +141,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16062
+    marketGroup: 643
     name: Caldari Navy Cruise Missile Launcher
     volume: 20.0
   Cruise Missile Launcher I:
@@ -159,6 +164,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 13320
+    marketGroup: 643
     name: Cruise Missile Launcher I
     volume: 20.0
   Cruise Missile Launcher II:
@@ -183,6 +189,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 19739
+    marketGroup: 643
     name: Cruise Missile Launcher II
     volume: 20.0
   Domination Cruise Missile Launcher:
@@ -207,6 +214,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13927
+    marketGroup: 643
     name: Domination Cruise Missile Launcher
     volume: 20.0
   Dread Guristas Cruise Missile Launcher:
@@ -231,6 +239,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13929
+    marketGroup: 643
     name: Dread Guristas Cruise Missile Launcher
     volume: 20.0
   Estamel's Modified Cruise Missile Launcher:
@@ -255,6 +264,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14678
+    marketGroup: 643
     name: Estamel's Modified Cruise Missile Launcher
     volume: 20.0
   Gotan's Modified Cruise Missile Launcher:
@@ -279,6 +289,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14520
+    marketGroup: 643
     name: Gotan's Modified Cruise Missile Launcher
     volume: 20.0
   Hakim's Modified Cruise Missile Launcher:
@@ -303,6 +314,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14518
+    marketGroup: 643
     name: Hakim's Modified Cruise Missile Launcher
     volume: 20.0
   Kaikka's Modified Cruise Missile Launcher:
@@ -327,6 +339,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14672
+    marketGroup: 643
     name: Kaikka's Modified Cruise Missile Launcher
     volume: 20.0
   Mizuro's Modified Cruise Missile Launcher:
@@ -351,6 +364,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14516
+    marketGroup: 643
     name: Mizuro's Modified Cruise Missile Launcher
     volume: 20.0
   Republic Fleet Cruise Missile Launcher:
@@ -375,6 +389,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17485
+    marketGroup: 643
     name: Republic Fleet Cruise Missile Launcher
     volume: 20.0
   Shaqil's Modified Cruise Missile Launcher:
@@ -422,6 +437,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14674
+    marketGroup: 643
     name: Thon's Modified Cruise Missile Launcher
     volume: 20.0
   Tobias' Modified Cruise Missile Launcher:
@@ -446,6 +462,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14522
+    marketGroup: 643
     name: Tobias' Modified Cruise Missile Launcher
     volume: 20.0
   True Sansha Cruise Missile Launcher:
@@ -470,6 +487,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22568
+    marketGroup: 643
     name: True Sansha Cruise Missile Launcher
     volume: 20.0
   Vepas' Modified Cruise Missile Launcher:
@@ -494,6 +512,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14676
+    marketGroup: 643
     name: Vepas' Modified Cruise Missile Launcher
     volume: 20.0
   XT-9000 Cruise Launcher:
@@ -517,5 +536,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 20116
     id: 16517
+    marketGroup: 643
     name: XT-9000 Cruise Launcher
     volume: 20.0

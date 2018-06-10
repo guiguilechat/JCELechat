@@ -47,6 +47,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 17500
+    marketGroup: 683
     name: Caldari Navy Stasis Webifier
     volume: 5.0
   Civilian Stasis Webifier:
@@ -64,6 +65,7 @@ items:
     SpeedFactor: -35.0
     TechLevel: 1
     id: 30328
+    marketGroup: 683
     name: Civilian Stasis Webifier
     volume: 5.0
   Dark Blood Stasis Webifier:
@@ -85,6 +87,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 14262
+    marketGroup: 683
     name: Dark Blood Stasis Webifier
     volume: 5.0
   Domination Stasis Webifier:
@@ -106,6 +109,7 @@ items:
     SpeedFactor: -50.0
     TechLevel: 1
     id: 14264
+    marketGroup: 683
     name: Domination Stasis Webifier
     volume: 5.0
   Dread Guristas Stasis Webifier:
@@ -127,6 +131,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 14266
+    marketGroup: 683
     name: Dread Guristas Stasis Webifier
     volume: 5.0
   Federation Navy Stasis Webifier:
@@ -148,6 +153,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 17559
+    marketGroup: 683
     name: Federation Navy Stasis Webifier
     volume: 5.0
   Fleeting Compact Stasis Webifier:
@@ -168,6 +174,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 4027
+    marketGroup: 683
     name: Fleeting Compact Stasis Webifier
     volume: 5.0
   Gotan's Modified Stasis Webifier:
@@ -189,6 +196,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 14652
+    marketGroup: 683
     name: Gotan's Modified Stasis Webifier
     volume: 5.0
   Hakim's Modified Stasis Webifier:
@@ -210,6 +218,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 14650
+    marketGroup: 683
     name: Hakim's Modified Stasis Webifier
     volume: 5.0
   Khanid Navy Stasis Webifier:
@@ -231,6 +240,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 28514
+    marketGroup: 683
     name: Khanid Navy Stasis Webifier
     volume: 5.0
   Mizuro's Modified Stasis Webifier:
@@ -252,6 +262,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 14648
+    marketGroup: 683
     name: Mizuro's Modified Stasis Webifier
     volume: 5.0
   Naiyon's Modified Stasis Webifier:
@@ -313,6 +324,7 @@ items:
     SpeedFactor: -50.0
     TechLevel: 1
     id: 41038
+    marketGroup: 683
     name: Republic Fleet Stasis Webifier
     volume: 5.0
   Shadow Serpentis Stasis Webifier:
@@ -334,6 +346,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 14270
+    marketGroup: 683
     name: Shadow Serpentis Stasis Webifier
     volume: 5.0
   Stasis Webifier I:
@@ -353,6 +366,7 @@ items:
     SpeedFactor: -50.0
     TechLevel: 1
     id: 526
+    marketGroup: 683
     name: Stasis Webifier I
     volume: 5.0
   Stasis Webifier II:
@@ -373,6 +387,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 2
     id: 527
+    marketGroup: 683
     name: Stasis Webifier II
     volume: 5.0
   Tobias' Modified Stasis Webifier:
@@ -394,6 +409,7 @@ items:
     SpeedFactor: -60.0
     TechLevel: 1
     id: 14654
+    marketGroup: 683
     name: Tobias' Modified Stasis Webifier
     volume: 5.0
   True Sansha Stasis Webifier:
@@ -415,6 +431,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 14268
+    marketGroup: 683
     name: True Sansha Stasis Webifier
     volume: 5.0
   X5 Enduring Stasis Webifier:
@@ -435,5 +452,6 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 4025
+    marketGroup: 683
     name: X5 Enduring Stasis Webifier
     volume: 5.0

@@ -38,6 +38,7 @@ items:
   Capital Capacitor Booster I Blueprint:
     TechLevel: 1
     id: 41644
+    marketGroup: 1563
     name: Capital Capacitor Booster I Blueprint
     volume: 0.01
   Capital Capacitor Booster II Blueprint:
@@ -48,6 +49,7 @@ items:
   Capital F-RX Compact Capacitor Booster Blueprint:
     TechLevel: 1
     id: 41645
+    marketGroup: 1563
     name: Capital F-RX Compact Capacitor Booster Blueprint
     volume: 0.01
   Dark Blood Capital Capacitor Booster Blueprint:
@@ -65,6 +67,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3577
+    marketGroup: 1563
     name: Heavy Capacitor Booster I Blueprint
     volume: 0.01
   Heavy Capacitor Booster II Blueprint:
@@ -107,6 +110,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1128
+    marketGroup: 1563
     name: Medium Capacitor Booster I Blueprint
     volume: 0.01
   Medium Capacitor Booster II Blueprint:
@@ -125,6 +129,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 3567
+    marketGroup: 1563
     name: Small Capacitor Booster I Blueprint
     volume: 0.01
   Small Capacitor Booster II Blueprint:

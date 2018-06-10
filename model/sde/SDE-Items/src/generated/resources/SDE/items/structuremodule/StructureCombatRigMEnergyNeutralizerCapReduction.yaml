@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37222
+    marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Economy I
     volume: 10.0
   Standup M-Set Energy Neutralizer Economy II:
@@ -37,5 +38,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37223
+    marketGroup: 2344
     name: Standup M-Set Energy Neutralizer Economy II
     volume: 10.0

@@ -75,6 +75,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 47513
+    marketGroup: 2200
     name: '''Draccous'' Fortizar'
     volume: 80000.0
   '''Horizon'' Fortizar':
@@ -153,6 +154,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 47514
+    marketGroup: 2200
     name: '''Horizon'' Fortizar'
     volume: 80000.0
   '''Marginis'' Fortizar':
@@ -231,6 +233,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 47515
+    marketGroup: 2200
     name: '''Marginis'' Fortizar'
     volume: 80000.0
   '''Moreau'' Fortizar':
@@ -310,6 +313,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 47512
+    marketGroup: 2200
     name: '''Moreau'' Fortizar'
     volume: 80000.0
   '''Prometheus'' Fortizar':
@@ -389,6 +393,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 47516
+    marketGroup: 2200
     name: '''Prometheus'' Fortizar'
     volume: 80000.0
   Astrahus:
@@ -463,6 +468,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35832
+    marketGroup: 2201
     name: Astrahus
     volume: 8000.0
   Fortizar:
@@ -539,6 +545,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35833
+    marketGroup: 2201
     name: Fortizar
     volume: 80000.0
   Keepstar:
@@ -615,6 +622,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35834
+    marketGroup: 2201
     name: Keepstar
     volume: 800000.0
   Upwell Palatine Keepstar:
@@ -693,5 +701,6 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 40340
+    marketGroup: 2200
     name: Upwell Palatine Keepstar
     volume: 800000.0

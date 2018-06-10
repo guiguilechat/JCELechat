@@ -22,6 +22,7 @@ items:
     SpeedLimit: 4000
     TechLevel: 1
     id: 40309
+    marketGroup: 2018
     name: Affirmative. Modified Entosis Link
     volume: 10.0
   Entosis Link I:
@@ -46,6 +47,7 @@ items:
     SpeedLimit: 4000
     TechLevel: 1
     id: 34593
+    marketGroup: 2018
     name: Entosis Link I
     volume: 20.0
   Entosis Link II:
@@ -71,6 +73,7 @@ items:
     SpeedLimit: 4000
     TechLevel: 2
     id: 34595
+    marketGroup: 2018
     name: Entosis Link II
     volume: 20.0
   Noir. Modified Entosis Link:
@@ -96,6 +99,7 @@ items:
     SpeedLimit: 4200
     TechLevel: 1
     id: 40307
+    marketGroup: 2018
     name: Noir. Modified Entosis Link
     volume: 10.0
   Pandemic SPHERE Modified Entosis Link:
@@ -121,6 +125,7 @@ items:
     SpeedLimit: 4000
     TechLevel: 1
     id: 40310
+    marketGroup: 2018
     name: Pandemic SPHERE Modified Entosis Link
     volume: 10.0
   QA Entosis Link:
@@ -172,5 +177,6 @@ items:
     SpeedLimit: 4000
     TechLevel: 1
     id: 40308
+    marketGroup: 2018
     name: Spectre Fleet's Modified Entosis Link
     volume: 10.0

@@ -12,6 +12,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35894
+    marketGroup: 2232
     name: Standup Cloning Center I
     volume: 4000.0
   Standup Market Hub I:
@@ -35,5 +36,6 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35892
+    marketGroup: 2232
     name: Standup Market Hub I
     volume: 32000.0

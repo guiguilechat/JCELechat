@@ -11,6 +11,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35959
+    marketGroup: 2234
     name: Standup Ballistic Control System I
     volume: 4000.0
   Standup Ballistic Control System II:
@@ -26,6 +27,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47342
+    marketGroup: 2234
     name: Standup Ballistic Control System II
     volume: 4000.0
   Standup Missile Guidance Enhancer I:
@@ -43,6 +45,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35962
+    marketGroup: 2235
     name: Standup Missile Guidance Enhancer I
     volume: 4000.0
   Standup Missile Guidance Enhancer II:
@@ -61,5 +64,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47340
+    marketGroup: 2235
     name: Standup Missile Guidance Enhancer II
     volume: 4000.0

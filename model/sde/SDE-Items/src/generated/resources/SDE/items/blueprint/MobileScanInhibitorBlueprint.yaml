@@ -2,5 +2,6 @@ items:
   Mobile Scan Inhibitor Blueprint:
     IndustryBlueprintRank: 60.0
     id: 33590
+    marketGroup: 1843
     name: Mobile Scan Inhibitor Blueprint
     volume: 0.01

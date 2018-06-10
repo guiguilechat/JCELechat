@@ -1,6 +1,7 @@
 items:
   Heavy Entropic Disintegrator I Blueprint:
     id: 47971
+    marketGroup: 293
     name: Heavy Entropic Disintegrator I Blueprint
     volume: 0.01
   Heavy Entropic Disintegrator II Blueprint:
@@ -9,6 +10,7 @@ items:
     volume: 0.01
   Light Entropic Disintegrator I Blueprint:
     id: 47969
+    marketGroup: 292
     name: Light Entropic Disintegrator I Blueprint
     volume: 0.01
   Light Entropic Disintegrator II Blueprint:
@@ -17,6 +19,7 @@ items:
     volume: 0.01
   Supratidal Entropic Disintegrator I Blueprint:
     id: 47973
+    marketGroup: 295
     name: Supratidal Entropic Disintegrator I Blueprint
     volume: 0.01
   Supratidal Entropic Disintegrator II Blueprint:

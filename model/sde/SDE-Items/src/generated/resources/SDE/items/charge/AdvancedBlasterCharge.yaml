@@ -77,6 +77,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12787
+    marketGroup: 860
     name: Null L
     volume: 0.025
   Null M:
@@ -97,6 +98,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12785
+    marketGroup: 861
     name: Null M
     volume: 0.0125
   Null S:
@@ -117,6 +119,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 12614
+    marketGroup: 862
     name: Null S
     volume: 0.0025
   Null XL:
@@ -137,6 +140,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 1.399999976158142
     id: 41324
+    marketGroup: 2254
     name: Null XL
     volume: 0.125
   Void L:
@@ -158,6 +162,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12791
+    marketGroup: 860
     name: Void L
     volume: 0.025
   Void M:
@@ -179,6 +184,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12789
+    marketGroup: 861
     name: Void M
     volume: 0.0125
   Void S:
@@ -200,6 +206,7 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 12612
+    marketGroup: 862
     name: Void S
     volume: 0.0025
   Void XL:
@@ -221,5 +228,6 @@ items:
     TrackingSpeedMultiplier: 0.75
     WeaponRangeMultiplier: 0.75
     id: 41322
+    marketGroup: 2254
     name: Void XL
     volume: 0.125

@@ -45,6 +45,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16696
+    marketGroup: 479
     name: Cruise Missile Battery
     volume: 500.0
   Dread Guristas Cruise Missile Battery:
@@ -94,6 +95,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27640
+    marketGroup: 479
     name: Dread Guristas Cruise Missile Battery
     volume: 500.0
   Dread Guristas Torpedo Battery:
@@ -143,6 +145,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27643
+    marketGroup: 479
     name: Dread Guristas Torpedo Battery
     volume: 1000.0
   Dread Guristas XL Torpedo Battery:
@@ -192,6 +195,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27562
+    marketGroup: 479
     name: Dread Guristas XL Torpedo Battery
     volume: 5000.0
   Guristas Cruise Missile Battery:
@@ -241,6 +245,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27638
+    marketGroup: 479
     name: Guristas Cruise Missile Battery
     volume: 500.0
   Guristas Torpedo Battery:
@@ -290,6 +295,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27641
+    marketGroup: 479
     name: Guristas Torpedo Battery
     volume: 1000.0
   Guristas XL Torpedo Battery:
@@ -339,6 +345,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27560
+    marketGroup: 479
     name: Guristas XL Torpedo Battery
     volume: 5000.0
   Heavy Missile Battery:
@@ -477,6 +484,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16697
+    marketGroup: 479
     name: Torpedo Battery
     volume: 1000.0
   XL Torpedo Battery:
@@ -525,5 +533,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17773
+    marketGroup: 479
     name: XL Torpedo Battery
     volume: 5000.0

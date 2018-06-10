@@ -21,6 +21,7 @@ items:
     TechLevel: 1
     ThermalDamage: 5225.0
     id: 2182
+    marketGroup: 1317
     name: Guristas Inferno XL Cruise Missile
     volume: 0.3
   Guristas Mjolnir XL Cruise Missile:
@@ -45,6 +46,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 2188
+    marketGroup: 1317
     name: Guristas Mjolnir XL Cruise Missile
     volume: 0.3
   Guristas Nova XL Cruise Missile:
@@ -69,6 +71,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 2178
+    marketGroup: 1317
     name: Guristas Nova XL Cruise Missile
     volume: 0.3
   Guristas Scourge XL Cruise Missile:
@@ -93,6 +96,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 2180
+    marketGroup: 1317
     name: Guristas Scourge XL Cruise Missile
     volume: 0.3
   Inferno XL Cruise Missile:
@@ -115,6 +119,7 @@ items:
     TechLevel: 1
     ThermalDamage: 4750.0
     id: 32440
+    marketGroup: 1287
     name: Inferno XL Cruise Missile
     volume: 0.3
   Mjolnir XL Cruise Missile:
@@ -137,6 +142,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32442
+    marketGroup: 1287
     name: Mjolnir XL Cruise Missile
     volume: 0.3
   Nova XL Cruise Missile:
@@ -159,6 +165,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32438
+    marketGroup: 1287
     name: Nova XL Cruise Missile
     volume: 0.3
   Scourge XL Cruise Missile:
@@ -181,5 +188,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32436
+    marketGroup: 1287
     name: Scourge XL Cruise Missile
     volume: 0.3

@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22621
+    marketGroup: 935
     name: '''Anguis'' Ice Harvester Upgrade'
     volume: 5.0
   '''Aoede'' Mining Laser Upgrade':
@@ -24,6 +25,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22615
+    marketGroup: 935
     name: '''Aoede'' Mining Laser Upgrade'
     volume: 5.0
   '''Carpo'' Mining Laser Upgrade':
@@ -37,6 +39,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22613
+    marketGroup: 935
     name: '''Carpo'' Mining Laser Upgrade'
     volume: 5.0
   '''Ingenii'' Ice Harvester Upgrade':
@@ -51,6 +54,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22623
+    marketGroup: 935
     name: '''Ingenii'' Ice Harvester Upgrade'
     volume: 5.0
   Crisium Ice Harvester Upgrade:
@@ -76,6 +80,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22611
+    marketGroup: 935
     name: Elara Restrained Mining Laser Upgrade
     volume: 5.0
   Erin Mining Laser Upgrade:
@@ -101,6 +106,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22619
+    marketGroup: 935
     name: Frigoris Restrained Ice Harvester Upgrade
     volume: 5.0
   Ice Harvester Upgrade I:
@@ -112,6 +118,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22576
+    marketGroup: 935
     name: Ice Harvester Upgrade I
     volume: 5.0
   Ice Harvester Upgrade II:
@@ -124,6 +131,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 28578
+    marketGroup: 935
     name: Ice Harvester Upgrade II
     volume: 5.0
   Mining Laser Upgrade I:
@@ -135,6 +143,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 22542
+    marketGroup: 935
     name: Mining Laser Upgrade I
     volume: 5.0
   Mining Laser Upgrade II:
@@ -147,5 +156,6 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 28576
+    marketGroup: 935
     name: Mining Laser Upgrade II
     volume: 5.0

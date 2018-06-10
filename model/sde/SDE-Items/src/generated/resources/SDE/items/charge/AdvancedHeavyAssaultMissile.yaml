@@ -26,6 +26,7 @@ items:
     ThermalDamage: 90.0
     ThermalDamageResonance: 0.800000011920929
     id: 24494
+    marketGroup: 972
     name: Inferno Javelin Heavy Assault Missile
     volume: 0.015
   Inferno Rage Heavy Assault Missile:
@@ -55,6 +56,7 @@ items:
     ThermalDamage: 135.0
     ThermalDamageResonance: 0.800000011920929
     id: 24486
+    marketGroup: 973
     name: Inferno Rage Heavy Assault Missile
     volume: 0.015
   Mjolnir Javelin Heavy Assault Missile:
@@ -84,6 +86,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24493
+    marketGroup: 972
     name: Mjolnir Javelin Heavy Assault Missile
     volume: 0.015
   Mjolnir Rage Heavy Assault Missile:
@@ -113,6 +116,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24490
+    marketGroup: 973
     name: Mjolnir Rage Heavy Assault Missile
     volume: 0.015
   Nova Javelin Heavy Assault Missile:
@@ -142,6 +146,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 13856
+    marketGroup: 972
     name: Nova Javelin Heavy Assault Missile
     volume: 0.015
   Nova Rage Heavy Assault Missile:
@@ -171,6 +176,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24488
+    marketGroup: 973
     name: Nova Rage Heavy Assault Missile
     volume: 0.015
   Scourge Javelin Heavy Assault Missile:
@@ -200,6 +206,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24492
+    marketGroup: 972
     name: Scourge Javelin Heavy Assault Missile
     volume: 0.015
   Scourge Rage Heavy Assault Missile:
@@ -229,5 +236,6 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 2679
+    marketGroup: 973
     name: Scourge Rage Heavy Assault Missile
     volume: 0.015

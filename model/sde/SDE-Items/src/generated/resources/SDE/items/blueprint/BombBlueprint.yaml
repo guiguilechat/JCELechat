@@ -2,30 +2,36 @@ items:
   Concussion Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27913
+    marketGroup: 1016
     name: Concussion Bomb Blueprint
     volume: 0.01
   Electron Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27921
+    marketGroup: 1016
     name: Electron Bomb Blueprint
     volume: 0.01
   Lockbreaker Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27923
+    marketGroup: 1016
     name: Lockbreaker Bomb Blueprint
     volume: 0.01
   Scorch Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27917
+    marketGroup: 1016
     name: Scorch Bomb Blueprint
     volume: 0.01
   Shrapnel Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27919
+    marketGroup: 1016
     name: Shrapnel Bomb Blueprint
     volume: 0.01
   Void Bomb Blueprint:
     IndustryBlueprintRank: 2.0
     id: 27925
+    marketGroup: 1016
     name: Void Bomb Blueprint
     volume: 0.01

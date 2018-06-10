@@ -28,6 +28,7 @@ items:
     ScanResolutionBonus: 6.0
     TechLevel: 1
     id: 1949
+    marketGroup: 669
     name: '''Basic'' Signal Amplifier'
     volume: 5.0
   '''Firewall'' Signal Amplifier':
@@ -47,6 +48,7 @@ items:
     ScanResolutionBonus: 15.0
     TechLevel: 1
     id: 21527
+    marketGroup: 669
     name: '''Firewall'' Signal Amplifier'
     volume: 20.0
   '''Mendicant'' Signal Booster I':
@@ -90,6 +92,7 @@ items:
     ScanResolutionBonus: 13.0
     TechLevel: 1
     id: 6296
+    marketGroup: 669
     name: F-89 Compact Signal Amplifier
     volume: 5.0
   F-90 Positional Signal Amplifier:
@@ -121,6 +124,7 @@ items:
     ScanResolutionBonus: 16.0
     TechLevel: 1
     id: 41196
+    marketGroup: 669
     name: Sentient Signal Amplifier
     volume: 5.0
   Signal Amplifier I:
@@ -137,6 +141,7 @@ items:
     ScanResolutionBonus: 12.0
     TechLevel: 1
     id: 1986
+    marketGroup: 669
     name: Signal Amplifier I
     volume: 5.0
   Signal Amplifier II:
@@ -155,6 +160,7 @@ items:
     ScanResolutionBonus: 15.0
     TechLevel: 2
     id: 1987
+    marketGroup: 669
     name: Signal Amplifier II
     volume: 5.0
   Syndicate Signal Amplifier:
@@ -174,6 +180,7 @@ items:
     ScanResolutionBonus: 16.0
     TechLevel: 1
     id: 41197
+    marketGroup: 669
     name: Syndicate Signal Amplifier
     volume: 5.0
   Type-D Attenuation Signal Augmentation:

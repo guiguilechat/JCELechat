@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 15.0
     id: 22937
+    marketGroup: 708
     name: '''Enterprise'' Remote Tracking Computer'
     volume: 5.0
   '''Prayer'' Remote Tracking Computer':
@@ -97,6 +98,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 13.5
     id: 5342
+    marketGroup: 708
     name: Alfven Enduring Remote Tracking Computer
     volume: 5.0
   F-293 Scoped Remote Tracking Computer:
@@ -122,6 +124,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 13.5
     id: 5339
+    marketGroup: 708
     name: F-293 Scoped Remote Tracking Computer
     volume: 5.0
   Federation Navy Remote Tracking Computer:
@@ -147,6 +150,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 15967
+    marketGroup: 708
     name: Federation Navy Remote Tracking Computer
     volume: 5.0
   P-S Compact Remote Tracking Computer:
@@ -172,6 +176,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 13.5
     id: 5340
+    marketGroup: 708
     name: P-S Compact Remote Tracking Computer
     volume: 5.0
   Remote Tracking Computer I:
@@ -195,6 +200,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.0
     id: 2103
+    marketGroup: 708
     name: Remote Tracking Computer I
     volume: 25.0
   Remote Tracking Computer II:
@@ -221,6 +227,7 @@ items:
     TechLevel: 2
     TrackingSpeedBonus: 15.0
     id: 2104
+    marketGroup: 708
     name: Remote Tracking Computer II
     volume: 5.0
   Shadow Serpentis Remote Tracking Computer:
@@ -246,5 +253,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 14240
+    marketGroup: 708
     name: Shadow Serpentis Remote Tracking Computer
     volume: 5.0

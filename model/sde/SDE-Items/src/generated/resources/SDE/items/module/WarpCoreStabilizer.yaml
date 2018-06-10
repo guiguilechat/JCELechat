@@ -9,6 +9,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 16297
+    marketGroup: 1088
     name: '''Accord'' Core Compensation'
     volume: 5.0
   '''Aura'' Warp Core Stabilizer I':
@@ -23,6 +24,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 22875
+    marketGroup: 1088
     name: '''Aura'' Warp Core Stabilizer I'
     volume: 5.0
   '''Halcyon'' Core Equalizer I':
@@ -35,6 +37,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 16303
+    marketGroup: 1088
     name: '''Halcyon'' Core Equalizer I'
     volume: 5.0
   '''Natura'' Warp Core Stabilizer I':
@@ -48,6 +51,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 22877
+    marketGroup: 1088
     name: '''Natura'' Warp Core Stabilizer I'
     volume: 5.0
   '''Repose'' Core Compensation':
@@ -60,6 +64,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 16299
+    marketGroup: 1088
     name: '''Repose'' Core Compensation'
     volume: 5.0
   '''Stoic'' Core Equalizer I':
@@ -72,6 +77,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 16301
+    marketGroup: 1088
     name: '''Stoic'' Core Equalizer I'
     volume: 5.0
   Warp Core Stabilizer I:
@@ -83,6 +89,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: -1
     id: 10998
+    marketGroup: 1088
     name: Warp Core Stabilizer I
     volume: 5.0
   Warp Core Stabilizer II:
@@ -95,5 +102,6 @@ items:
     TechLevel: 2
     WarpScrambleStrength: -1
     id: 11640
+    marketGroup: 1088
     name: Warp Core Stabilizer II
     volume: 5.0

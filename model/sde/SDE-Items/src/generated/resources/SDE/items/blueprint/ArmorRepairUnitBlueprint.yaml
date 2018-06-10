@@ -44,12 +44,14 @@ items:
   Capital ACM Compact Armor Repairer Blueprint:
     TechLevel: 1
     id: 41615
+    marketGroup: 1536
     name: Capital ACM Compact Armor Repairer Blueprint
     volume: 0.01
   Capital Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 20702
+    marketGroup: 1536
     name: Capital Armor Repairer I Blueprint
     volume: 0.01
   Capital Armor Repairer II Blueprint:
@@ -60,12 +62,14 @@ items:
   Capital I-a Enduring Armor Repairer Blueprint:
     TechLevel: 1
     id: 41614
+    marketGroup: 1536
     name: Capital I-a Enduring Armor Repairer Blueprint
     volume: 0.01
   Civilian Armor Repairer Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 21854
+    marketGroup: 1536
     name: Civilian Armor Repairer Blueprint
     volume: 0.01
   Dark Blood Capital Armor Repairer Blueprint:
@@ -77,6 +81,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3539
+    marketGroup: 1536
     name: Large Armor Repairer I Blueprint
     volume: 0.01
   Large Armor Repairer II Blueprint:
@@ -89,6 +94,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3529
+    marketGroup: 1536
     name: Medium Armor Repairer I Blueprint
     volume: 0.01
   Medium Armor Repairer II Blueprint:
@@ -106,6 +112,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1099
+    marketGroup: 1536
     name: Small Armor Repairer I Blueprint
     volume: 0.01
   Small Armor Repairer II Blueprint:

@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43883
+    marketGroup: 2347
     name: Standup M-Set ME Research Accelerator I
     volume: 10.0
   Standup M-Set ME Research Accelerator II:
@@ -37,5 +38,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 43882
+    marketGroup: 2347
     name: Standup M-Set ME Research Accelerator II
     volume: 10.0

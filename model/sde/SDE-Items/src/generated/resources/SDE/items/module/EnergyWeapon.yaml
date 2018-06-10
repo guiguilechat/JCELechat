@@ -28,6 +28,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11312
     id: 23844
+    marketGroup: 568
     name: '''Arquebus'' Heavy Beam Laser I'
     volume: 10.0
   '''Ballista'' Tachyon Beam Laser I':
@@ -58,6 +59,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11312
     id: 23850
+    marketGroup: 569
     name: '''Ballista'' Tachyon Beam Laser I'
     volume: 20.0
   '''Catapult'' Mega Beam Laser I':
@@ -88,6 +90,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11312
     id: 23848
+    marketGroup: 569
     name: '''Catapult'' Mega Beam Laser I'
     volume: 20.0
   '''Crossbow'' Focused Medium Beam Laser I':
@@ -119,6 +122,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11312
     id: 23840
+    marketGroup: 568
     name: '''Crossbow'' Focused Medium Beam Laser I'
     volume: 10.0
   '''Gauntlet'' Small Focused Beam Laser I':
@@ -150,6 +154,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11312
     id: 23838
+    marketGroup: 567
     name: '''Gauntlet'' Small Focused Beam Laser I'
     volume: 5.0
   '''Halberd'' Mega Pulse Laser I':
@@ -179,6 +184,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11312
     id: 23846
+    marketGroup: 573
     name: '''Halberd'' Mega Pulse Laser I'
     volume: 20.0
   '''Joust'' Heavy Pulse Laser I':
@@ -209,6 +215,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11312
     id: 23842
+    marketGroup: 572
     name: '''Joust'' Heavy Pulse Laser I'
     volume: 10.0
   '''Longbow'' Small Focused Pulse Laser I':
@@ -240,6 +247,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11312
     id: 23836
+    marketGroup: 570
     name: '''Longbow'' Small Focused Pulse Laser I'
     volume: 5.0
   '''Mace'' Dual Light Beam Laser I':
@@ -271,6 +279,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11312
     id: 23834
+    marketGroup: 567
     name: '''Mace'' Dual Light Beam Laser I'
     volume: 5.0
   Afocal Precise Dual Giga Beam Laser:
@@ -301,6 +310,7 @@ items:
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
     id: 41117
+    marketGroup: 773
     name: Afocal Precise Dual Giga Beam Laser
     volume: 4000.0
   Afocal Precise Dual Giga Pulse Laser:
@@ -331,6 +341,7 @@ items:
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
     id: 41102
+    marketGroup: 774
     name: Afocal Precise Dual Giga Pulse Laser
     volume: 4000.0
   Afocal Precise Quad Mega Pulse Laser:
@@ -361,6 +372,7 @@ items:
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
     id: 41065
+    marketGroup: 774
     name: Afocal Precise Quad Mega Pulse Laser
     volume: 4000.0
   Ahremen's Modified Dual Heavy Pulse Laser:
@@ -391,6 +403,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
     id: 14427
+    marketGroup: 573
     name: Ahremen's Modified Dual Heavy Pulse Laser
     volume: 20.0
   Ahremen's Modified Mega Pulse Laser:
@@ -421,6 +434,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
     id: 14443
+    marketGroup: 573
     name: Ahremen's Modified Mega Pulse Laser
     volume: 20.0
   Ammatar Navy Dual Heavy Beam Laser:
@@ -451,6 +465,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11317
     id: 15859
+    marketGroup: 569
     name: Ammatar Navy Dual Heavy Beam Laser
     volume: 20.0
   Ammatar Navy Dual Heavy Pulse Laser:
@@ -481,6 +496,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11317
     id: 15858
+    marketGroup: 573
     name: Ammatar Navy Dual Heavy Pulse Laser
     volume: 20.0
   Ammatar Navy Dual Light Beam Laser:
@@ -512,6 +528,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11317
     id: 15857
+    marketGroup: 567
     name: Ammatar Navy Dual Light Beam Laser
     volume: 5.0
   Ammatar Navy Dual Light Pulse Laser:
@@ -542,6 +559,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11317
     id: 15856
+    marketGroup: 570
     name: Ammatar Navy Dual Light Pulse Laser
     volume: 5.0
   Ammatar Navy Focused Medium Beam Laser:
@@ -573,6 +591,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11317
     id: 15855
+    marketGroup: 568
     name: Ammatar Navy Focused Medium Beam Laser
     volume: 10.0
   Ammatar Navy Focused Medium Pulse Laser:
@@ -603,6 +622,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11317
     id: 15854
+    marketGroup: 572
     name: Ammatar Navy Focused Medium Pulse Laser
     volume: 10.0
   Ammatar Navy Gatling Pulse Laser:
@@ -633,6 +653,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11317
     id: 15853
+    marketGroup: 570
     name: Ammatar Navy Gatling Pulse Laser
     volume: 5.0
   Ammatar Navy Heavy Beam Laser:
@@ -664,6 +685,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11317
     id: 15852
+    marketGroup: 568
     name: Ammatar Navy Heavy Beam Laser
     volume: 10.0
   Ammatar Navy Heavy Pulse Laser:
@@ -694,6 +716,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11317
     id: 15851
+    marketGroup: 572
     name: Ammatar Navy Heavy Pulse Laser
     volume: 10.0
   Ammatar Navy Mega Beam Laser:
@@ -724,6 +747,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11317
     id: 15848
+    marketGroup: 569
     name: Ammatar Navy Mega Beam Laser
     volume: 20.0
   Ammatar Navy Mega Pulse Laser:
@@ -754,6 +778,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11317
     id: 15847
+    marketGroup: 573
     name: Ammatar Navy Mega Pulse Laser
     volume: 20.0
   Ammatar Navy Quad Beam Laser:
@@ -785,6 +810,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11317
     id: 15846
+    marketGroup: 568
     name: Ammatar Navy Quad Beam Laser
     volume: 10.0
   Ammatar Navy Small Focused Beam Laser:
@@ -816,6 +842,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11317
     id: 15850
+    marketGroup: 567
     name: Ammatar Navy Small Focused Beam Laser
     volume: 5.0
   Ammatar Navy Small Focused Pulse Laser:
@@ -847,6 +874,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11317
     id: 15849
+    marketGroup: 570
     name: Ammatar Navy Small Focused Pulse Laser
     volume: 5.0
   Ammatar Navy Tachyon Beam Laser:
@@ -877,6 +905,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11317
     id: 15845
+    marketGroup: 569
     name: Ammatar Navy Tachyon Beam Laser
     volume: 20.0
   Anode Scoped Dual Giga Beam Laser:
@@ -907,6 +936,7 @@ items:
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
     id: 41116
+    marketGroup: 773
     name: Anode Scoped Dual Giga Beam Laser
     volume: 4000.0
   Anode Scoped Dual Giga Pulse Laser:
@@ -937,6 +967,7 @@ items:
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
     id: 41101
+    marketGroup: 774
     name: Anode Scoped Dual Giga Pulse Laser
     volume: 4000.0
   Anode Scoped Quad Mega Pulse Laser:
@@ -967,6 +998,7 @@ items:
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
     id: 41064
+    marketGroup: 774
     name: Anode Scoped Quad Mega Pulse Laser
     volume: 4000.0
   Brokara's Modified Dual Heavy Pulse Laser:
@@ -997,6 +1029,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
     id: 14429
+    marketGroup: 573
     name: Brokara's Modified Dual Heavy Pulse Laser
     volume: 20.0
   Brokara's Modified Mega Pulse Laser:
@@ -1027,6 +1060,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
     id: 14445
+    marketGroup: 573
     name: Brokara's Modified Mega Pulse Laser
     volume: 20.0
   CONCORD Dual Giga Beam Laser:
@@ -1060,6 +1094,7 @@ items:
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
     id: 3561
+    marketGroup: 773
     name: CONCORD Dual Giga Beam Laser
     volume: 4000.0
   CONCORD Dual Giga Pulse Laser:
@@ -1092,6 +1127,7 @@ items:
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
     id: 3559
+    marketGroup: 774
     name: CONCORD Dual Giga Pulse Laser
     volume: 4000.0
   CONCORD Dual Heavy Pulse Laser:
@@ -1155,6 +1191,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
     id: 14419
+    marketGroup: 569
     name: Chelm's Modified Dual Heavy Beam Laser
     volume: 20.0
   Chelm's Modified Mega Beam Laser:
@@ -1185,6 +1222,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
     id: 14435
+    marketGroup: 569
     name: Chelm's Modified Mega Beam Laser
     volume: 20.0
   Chelm's Modified Tachyon Beam Laser:
@@ -1215,6 +1253,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
     id: 14451
+    marketGroup: 569
     name: Chelm's Modified Tachyon Beam Laser
     volume: 20.0
   Civilian Gatling Autocannon:
@@ -1353,6 +1392,7 @@ items:
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
     id: 41118
+    marketGroup: 773
     name: Dark Blood Dual Giga Beam Laser
     volume: 4000.0
   Dark Blood Dual Giga Pulse Laser:
@@ -1385,6 +1425,7 @@ items:
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
     id: 41103
+    marketGroup: 774
     name: Dark Blood Dual Giga Pulse Laser
     volume: 4000.0
   Dark Blood Dual Heavy Beam Laser:
@@ -1415,6 +1456,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11320
     id: 13793
+    marketGroup: 569
     name: Dark Blood Dual Heavy Beam Laser
     volume: 20.0
   Dark Blood Dual Heavy Pulse Laser:
@@ -1445,6 +1487,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11320
     id: 13791
+    marketGroup: 573
     name: Dark Blood Dual Heavy Pulse Laser
     volume: 20.0
   Dark Blood Dual Light Beam Laser:
@@ -1476,6 +1519,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11320
     id: 13795
+    marketGroup: 567
     name: Dark Blood Dual Light Beam Laser
     volume: 5.0
   Dark Blood Dual Light Pulse Laser:
@@ -1506,6 +1550,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11320
     id: 13797
+    marketGroup: 570
     name: Dark Blood Dual Light Pulse Laser
     volume: 5.0
   Dark Blood Focused Medium Beam Laser:
@@ -1537,6 +1582,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11320
     id: 13799
+    marketGroup: 568
     name: Dark Blood Focused Medium Beam Laser
     volume: 10.0
   Dark Blood Focused Medium Pulse Laser:
@@ -1567,6 +1613,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11320
     id: 13801
+    marketGroup: 572
     name: Dark Blood Focused Medium Pulse Laser
     volume: 10.0
   Dark Blood Gatling Pulse Laser:
@@ -1597,6 +1644,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11320
     id: 13803
+    marketGroup: 570
     name: Dark Blood Gatling Pulse Laser
     volume: 5.0
   Dark Blood Heavy Beam Laser:
@@ -1628,6 +1676,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11320
     id: 13805
+    marketGroup: 568
     name: Dark Blood Heavy Beam Laser
     volume: 10.0
   Dark Blood Heavy Pulse Laser:
@@ -1658,6 +1707,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11320
     id: 13807
+    marketGroup: 572
     name: Dark Blood Heavy Pulse Laser
     volume: 10.0
   Dark Blood Mega Beam Laser:
@@ -1688,6 +1738,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11320
     id: 13813
+    marketGroup: 569
     name: Dark Blood Mega Beam Laser
     volume: 20.0
   Dark Blood Mega Pulse Laser:
@@ -1718,6 +1769,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11320
     id: 13815
+    marketGroup: 573
     name: Dark Blood Mega Pulse Laser
     volume: 20.0
   Dark Blood Quad Beam Laser:
@@ -1749,6 +1801,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11320
     id: 13819
+    marketGroup: 568
     name: Dark Blood Quad Beam Laser
     volume: 10.0
   Dark Blood Quad Mega Pulse Laser:
@@ -1781,6 +1834,7 @@ items:
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
     id: 41066
+    marketGroup: 774
     name: Dark Blood Quad Mega Pulse Laser
     volume: 4000.0
   Dark Blood Small Focused Beam Laser:
@@ -1812,6 +1866,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11320
     id: 13809
+    marketGroup: 567
     name: Dark Blood Small Focused Beam Laser
     volume: 5.0
   Dark Blood Small Focused Pulse Laser:
@@ -1843,6 +1898,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11320
     id: 13811
+    marketGroup: 570
     name: Dark Blood Small Focused Pulse Laser
     volume: 5.0
   Dark Blood Tachyon Beam Laser:
@@ -1873,6 +1929,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11320
     id: 13817
+    marketGroup: 569
     name: Dark Blood Tachyon Beam Laser
     volume: 20.0
   Draclira's Modified Dual Heavy Beam Laser:
@@ -1903,6 +1960,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
     id: 14423
+    marketGroup: 569
     name: Draclira's Modified Dual Heavy Beam Laser
     volume: 20.0
   Draclira's Modified Mega Beam Laser:
@@ -1933,6 +1991,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
     id: 14439
+    marketGroup: 569
     name: Draclira's Modified Mega Beam Laser
     volume: 20.0
   Draclira's Modified Tachyon Beam Laser:
@@ -1963,6 +2022,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
     id: 14455
+    marketGroup: 569
     name: Draclira's Modified Tachyon Beam Laser
     volume: 20.0
   Dual Afocal Heavy Maser I:
@@ -1992,6 +2052,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
     id: 7045
+    marketGroup: 569
     name: Dual Afocal Heavy Maser I
     volume: 20.0
   Dual Afocal Light Maser I:
@@ -2022,6 +2083,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
     id: 6633
+    marketGroup: 567
     name: Dual Afocal Light Maser I
     volume: 5.0
   Dual Afocal Pulse Maser I:
@@ -2051,6 +2113,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
     id: 5217
+    marketGroup: 570
     name: Dual Afocal Pulse Maser I
     volume: 5.0
   Dual Anode Heavy Particle Stream I:
@@ -2080,6 +2143,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
     id: 7049
+    marketGroup: 569
     name: Dual Anode Heavy Particle Stream I
     volume: 20.0
   Dual Anode Light Particle Stream I:
@@ -2110,6 +2174,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
     id: 6637
+    marketGroup: 567
     name: Dual Anode Light Particle Stream I
     volume: 5.0
   Dual Anode Pulse Particle Stream I:
@@ -2139,6 +2204,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
     id: 5221
+    marketGroup: 570
     name: Dual Anode Pulse Particle Stream I
     volume: 5.0
   Dual Giga Beam Laser I:
@@ -2168,6 +2234,7 @@ items:
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
     id: 20446
+    marketGroup: 773
     name: Dual Giga Beam Laser I
     volume: 4000.0
   Dual Giga Beam Laser II:
@@ -2201,6 +2268,7 @@ items:
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
     id: 37299
+    marketGroup: 773
     name: Dual Giga Beam Laser II
     volume: 4000.0
   Dual Giga Pulse Laser I:
@@ -2230,6 +2298,7 @@ items:
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
     id: 20444
+    marketGroup: 774
     name: Dual Giga Pulse Laser I
     volume: 4000.0
   Dual Giga Pulse Laser II:
@@ -2263,6 +2332,7 @@ items:
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
     id: 37298
+    marketGroup: 774
     name: Dual Giga Pulse Laser II
     volume: 4000.0
   Dual Heavy Afocal Pulse Maser I:
@@ -2292,6 +2362,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
     id: 7001
+    marketGroup: 573
     name: Dual Heavy Afocal Pulse Maser I
     volume: 20.0
   Dual Heavy Anode Pulse Particle Stream I:
@@ -2321,6 +2392,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
     id: 7005
+    marketGroup: 573
     name: Dual Heavy Anode Pulse Particle Stream I
     volume: 20.0
   Dual Heavy Beam Laser I:
@@ -2349,6 +2421,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
     id: 461
+    marketGroup: 569
     name: Dual Heavy Beam Laser I
     volume: 50.0
   Dual Heavy Beam Laser II:
@@ -2381,6 +2454,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11314
     id: 2985
+    marketGroup: 569
     name: Dual Heavy Beam Laser II
     volume: 20.0
   Dual Heavy Modal Pulse Laser I:
@@ -2410,6 +2484,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
     id: 6999
+    marketGroup: 573
     name: Dual Heavy Modal Pulse Laser I
     volume: 20.0
   Dual Heavy Modulated Pulse Energy Beam I:
@@ -2439,6 +2514,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
     id: 7003
+    marketGroup: 573
     name: Dual Heavy Modulated Pulse Energy Beam I
     volume: 20.0
   Dual Heavy Pulse Laser I:
@@ -2467,6 +2543,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11313
     id: 460
+    marketGroup: 573
     name: Dual Heavy Pulse Laser I
     volume: 20.0
   Dual Heavy Pulse Laser II:
@@ -2499,6 +2576,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11314
     id: 4147
+    marketGroup: 573
     name: Dual Heavy Pulse Laser II
     volume: 20.0
   Dual Light Beam Laser I:
@@ -2528,6 +2606,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
     id: 452
+    marketGroup: 567
     name: Dual Light Beam Laser I
     volume: 5.0
   Dual Light Beam Laser II:
@@ -2561,6 +2640,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11314
     id: 2993
+    marketGroup: 567
     name: Dual Light Beam Laser II
     volume: 5.0
   Dual Light Pulse Laser I:
@@ -2589,6 +2669,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
     id: 451
+    marketGroup: 570
     name: Dual Light Pulse Laser I
     volume: 5.0
   Dual Light Pulse Laser II:
@@ -2621,6 +2702,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11314
     id: 3001
+    marketGroup: 570
     name: Dual Light Pulse Laser II
     volume: 5.0
   Dual Modal Heavy Laser I:
@@ -2650,6 +2732,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
     id: 7043
+    marketGroup: 569
     name: Dual Modal Heavy Laser I
     volume: 20.0
   Dual Modal Light Laser I:
@@ -2680,6 +2763,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
     id: 6631
+    marketGroup: 567
     name: Dual Modal Light Laser I
     volume: 5.0
   Dual Modal Pulse Laser I:
@@ -2709,6 +2793,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
     id: 5215
+    marketGroup: 570
     name: Dual Modal Pulse Laser I
     volume: 5.0
   Dual Modulated Heavy Energy Beam I:
@@ -2738,6 +2823,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11313
     id: 7047
+    marketGroup: 569
     name: Dual Modulated Heavy Energy Beam I
     volume: 20.0
   Dual Modulated Light Energy Beam I:
@@ -2767,6 +2853,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11313
     id: 6635
+    marketGroup: 567
     name: Dual Modulated Light Energy Beam I
     volume: 5.0
   Dual Modulated Pulse Energy Beam I:
@@ -2796,6 +2883,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11313
     id: 5219
+    marketGroup: 570
     name: Dual Modulated Pulse Energy Beam I
     volume: 5.0
   Focused Afocal Medium Maser I:
@@ -2826,6 +2914,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
     id: 6861
+    marketGroup: 568
     name: Focused Afocal Medium Maser I
     volume: 10.0
   Focused Afocal Pulse Maser I:
@@ -2855,6 +2944,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
     id: 6807
+    marketGroup: 572
     name: Focused Afocal Pulse Maser I
     volume: 10.0
   Focused Anode Medium Particle Stream I:
@@ -2885,6 +2975,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
     id: 6865
+    marketGroup: 568
     name: Focused Anode Medium Particle Stream I
     volume: 10.0
   Focused Anode Pulse Particle Stream I:
@@ -2914,6 +3005,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
     id: 6811
+    marketGroup: 572
     name: Focused Anode Pulse Particle Stream I
     volume: 10.0
   Focused Medium Beam Laser I:
@@ -2943,6 +3035,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
     id: 457
+    marketGroup: 568
     name: Focused Medium Beam Laser I
     volume: 10.0
   Focused Medium Beam Laser II:
@@ -2976,6 +3069,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11314
     id: 3009
+    marketGroup: 568
     name: Focused Medium Beam Laser II
     volume: 10.0
   Focused Medium Pulse Laser I:
@@ -3004,6 +3098,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
     id: 456
+    marketGroup: 572
     name: Focused Medium Pulse Laser I
     volume: 10.0
   Focused Medium Pulse Laser II:
@@ -3036,6 +3131,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11314
     id: 3512
+    marketGroup: 572
     name: Focused Medium Pulse Laser II
     volume: 10.0
   Focused Modal Medium Laser I:
@@ -3066,6 +3162,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
     id: 6859
+    marketGroup: 568
     name: Focused Modal Medium Laser I
     volume: 10.0
   Focused Modal Pulse Laser I:
@@ -3095,6 +3192,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
     id: 6805
+    marketGroup: 572
     name: Focused Modal Pulse Laser I
     volume: 10.0
   Focused Modulated Medium Energy Beam I:
@@ -3125,6 +3223,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11313
     id: 6863
+    marketGroup: 568
     name: Focused Modulated Medium Energy Beam I
     volume: 10.0
   Focused Modulated Pulse Energy Beam I:
@@ -3154,6 +3253,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11313
     id: 6809
+    marketGroup: 572
     name: Focused Modulated Pulse Energy Beam I
     volume: 10.0
   Gatling Afocal Maser I:
@@ -3183,6 +3283,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
     id: 5177
+    marketGroup: 570
     name: Gatling Afocal Maser I
     volume: 5.0
   Gatling Anode Particle Stream I:
@@ -3212,6 +3313,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
     id: 5181
+    marketGroup: 570
     name: Gatling Anode Particle Stream I
     volume: 5.0
   Gatling Modal Laser I:
@@ -3241,6 +3343,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
     id: 5175
+    marketGroup: 570
     name: Gatling Modal Laser I
     volume: 5.0
   Gatling Modulated Energy Beam I:
@@ -3270,6 +3373,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
     id: 5179
+    marketGroup: 570
     name: Gatling Modulated Energy Beam I
     volume: 5.0
   Gatling Pulse Laser I:
@@ -3298,6 +3402,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11313
     id: 450
+    marketGroup: 570
     name: Gatling Pulse Laser I
     volume: 5.0
   Gatling Pulse Laser II:
@@ -3330,6 +3435,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11314
     id: 3017
+    marketGroup: 570
     name: Gatling Pulse Laser II
     volume: 5.0
   Heavy Afocal Maser I:
@@ -3360,6 +3466,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
     id: 6961
+    marketGroup: 568
     name: Heavy Afocal Maser I
     volume: 10.0
   Heavy Afocal Pulse Maser I:
@@ -3389,6 +3496,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
     id: 6921
+    marketGroup: 572
     name: Heavy Afocal Pulse Maser I
     volume: 10.0
   Heavy Anode Particle Stream I:
@@ -3419,6 +3527,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
     id: 6965
+    marketGroup: 568
     name: Heavy Anode Particle Stream I
     volume: 10.0
   Heavy Anode Pulse Particle Stream I:
@@ -3448,6 +3557,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
     id: 6925
+    marketGroup: 572
     name: Heavy Anode Pulse Particle Stream I
     volume: 10.0
   Heavy Beam Laser I:
@@ -3477,6 +3587,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
     id: 459
+    marketGroup: 568
     name: Heavy Beam Laser I
     volume: 25.0
   Heavy Beam Laser II:
@@ -3510,6 +3621,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11314
     id: 3025
+    marketGroup: 568
     name: Heavy Beam Laser II
     volume: 10.0
   Heavy Modal Laser I:
@@ -3540,6 +3652,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
     id: 6959
+    marketGroup: 568
     name: Heavy Modal Laser I
     volume: 10.0
   Heavy Modal Pulse Laser I:
@@ -3569,6 +3682,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
     id: 6919
+    marketGroup: 572
     name: Heavy Modal Pulse Laser I
     volume: 10.0
   Heavy Modulated Energy Beam I:
@@ -3599,6 +3713,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11313
     id: 6963
+    marketGroup: 568
     name: Heavy Modulated Energy Beam I
     volume: 10.0
   Heavy Modulated Pulse Energy Beam I:
@@ -3628,6 +3743,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
     id: 6923
+    marketGroup: 572
     name: Heavy Modulated Pulse Energy Beam I
     volume: 10.0
   Heavy Pulse Laser I:
@@ -3656,6 +3772,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11313
     id: 458
+    marketGroup: 572
     name: Heavy Pulse Laser I
     volume: 25.0
   Heavy Pulse Laser II:
@@ -3688,6 +3805,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11314
     id: 3520
+    marketGroup: 572
     name: Heavy Pulse Laser II
     volume: 10.0
   Imperial Navy Dual Heavy Beam Laser:
@@ -3718,6 +3836,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11310
     id: 15874
+    marketGroup: 569
     name: Imperial Navy Dual Heavy Beam Laser
     volume: 20.0
   Imperial Navy Dual Heavy Pulse Laser:
@@ -3748,6 +3867,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11310
     id: 15873
+    marketGroup: 573
     name: Imperial Navy Dual Heavy Pulse Laser
     volume: 20.0
   Imperial Navy Dual Light Beam Laser:
@@ -3779,6 +3899,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11310
     id: 15872
+    marketGroup: 567
     name: Imperial Navy Dual Light Beam Laser
     volume: 5.0
   Imperial Navy Dual Light Pulse Laser:
@@ -3809,6 +3930,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11310
     id: 15871
+    marketGroup: 570
     name: Imperial Navy Dual Light Pulse Laser
     volume: 5.0
   Imperial Navy Focused Medium Beam Laser:
@@ -3840,6 +3962,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11310
     id: 15870
+    marketGroup: 568
     name: Imperial Navy Focused Medium Beam Laser
     volume: 10.0
   Imperial Navy Focused Medium Pulse Laser:
@@ -3870,6 +3993,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11310
     id: 15869
+    marketGroup: 572
     name: Imperial Navy Focused Medium Pulse Laser
     volume: 10.0
   Imperial Navy Gatling Pulse Laser:
@@ -3900,6 +4024,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11310
     id: 15868
+    marketGroup: 570
     name: Imperial Navy Gatling Pulse Laser
     volume: 5.0
   Imperial Navy Heavy Beam Laser:
@@ -3931,6 +4056,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11310
     id: 15867
+    marketGroup: 568
     name: Imperial Navy Heavy Beam Laser
     volume: 10.0
   Imperial Navy Heavy Pulse Laser:
@@ -3961,6 +4087,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11310
     id: 15866
+    marketGroup: 572
     name: Imperial Navy Heavy Pulse Laser
     volume: 10.0
   Imperial Navy Mega Beam Laser:
@@ -3991,6 +4118,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11310
     id: 15863
+    marketGroup: 569
     name: Imperial Navy Mega Beam Laser
     volume: 20.0
   Imperial Navy Mega Pulse Laser:
@@ -4021,6 +4149,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11310
     id: 15862
+    marketGroup: 573
     name: Imperial Navy Mega Pulse Laser
     volume: 20.0
   Imperial Navy Quad Beam Laser:
@@ -4052,6 +4181,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11310
     id: 15861
+    marketGroup: 568
     name: Imperial Navy Quad Beam Laser
     volume: 10.0
   Imperial Navy Small Focused Beam Laser:
@@ -4083,6 +4213,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11310
     id: 15865
+    marketGroup: 567
     name: Imperial Navy Small Focused Beam Laser
     volume: 5.0
   Imperial Navy Small Focused Pulse Laser:
@@ -4114,6 +4245,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11310
     id: 15864
+    marketGroup: 570
     name: Imperial Navy Small Focused Pulse Laser
     volume: 5.0
   Imperial Navy Tachyon Beam Laser:
@@ -4144,6 +4276,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11310
     id: 15860
+    marketGroup: 569
     name: Imperial Navy Tachyon Beam Laser
     volume: 20.0
   Luther Veron's Modified Dual Heavy Beam Laser:
@@ -4305,6 +4438,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
     id: 7125
+    marketGroup: 569
     name: Mega Afocal Maser I
     volume: 20.0
   Mega Afocal Pulse Maser I:
@@ -4334,6 +4468,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
     id: 7085
+    marketGroup: 573
     name: Mega Afocal Pulse Maser I
     volume: 20.0
   Mega Anode Particle Stream I:
@@ -4363,6 +4498,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
     id: 7131
+    marketGroup: 569
     name: Mega Anode Particle Stream I
     volume: 20.0
   Mega Anode Pulse Particle Stream I:
@@ -4392,6 +4528,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
     id: 7089
+    marketGroup: 573
     name: Mega Anode Pulse Particle Stream I
     volume: 20.0
   Mega Beam Laser I:
@@ -4420,6 +4557,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
     id: 463
+    marketGroup: 569
     name: Mega Beam Laser I
     volume: 50.0
   Mega Beam Laser II:
@@ -4452,6 +4590,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11314
     id: 3049
+    marketGroup: 569
     name: Mega Beam Laser II
     volume: 20.0
   Mega Modal Laser I:
@@ -4481,6 +4620,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
     id: 7123
+    marketGroup: 569
     name: Mega Modal Laser I
     volume: 20.0
   Mega Modal Pulse Laser I:
@@ -4510,6 +4650,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
     id: 7083
+    marketGroup: 573
     name: Mega Modal Pulse Laser I
     volume: 20.0
   Mega Modulated Energy Beam I:
@@ -4539,6 +4680,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11313
     id: 7127
+    marketGroup: 569
     name: Mega Modulated Energy Beam I
     volume: 20.0
   Mega Modulated Pulse Energy Beam I:
@@ -4568,6 +4710,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
     id: 7087
+    marketGroup: 573
     name: Mega Modulated Pulse Energy Beam I
     volume: 20.0
   Mega Pulse Laser I:
@@ -4596,6 +4739,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11313
     id: 462
+    marketGroup: 573
     name: Mega Pulse Laser I
     volume: 50.0
   Mega Pulse Laser II:
@@ -4628,6 +4772,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11314
     id: 3057
+    marketGroup: 573
     name: Mega Pulse Laser II
     volume: 20.0
   Modal Enduring Dual Giga Beam Laser:
@@ -4658,6 +4803,7 @@ items:
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
     id: 41115
+    marketGroup: 773
     name: Modal Enduring Dual Giga Beam Laser
     volume: 4000.0
   Modal Enduring Dual Giga Pulse Laser:
@@ -4688,6 +4834,7 @@ items:
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
     id: 41100
+    marketGroup: 774
     name: Modal Enduring Dual Giga Pulse Laser
     volume: 4000.0
   Modal Enduring Quad Mega Pulse Laser:
@@ -4718,6 +4865,7 @@ items:
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
     id: 41063
+    marketGroup: 774
     name: Modal Enduring Quad Mega Pulse Laser
     volume: 4000.0
   Modulated Compact Dual Giga Beam Laser:
@@ -4748,6 +4896,7 @@ items:
     TrackingSpeed: 0.0218203105032444
     TypeColorScheme: 11313
     id: 41114
+    marketGroup: 773
     name: Modulated Compact Dual Giga Beam Laser
     volume: 4000.0
   Modulated Compact Dual Giga Pulse Laser:
@@ -4778,6 +4927,7 @@ items:
     TrackingSpeed: 0.03848639875650406
     TypeColorScheme: 11313
     id: 41099
+    marketGroup: 774
     name: Modulated Compact Dual Giga Pulse Laser
     volume: 4000.0
   Modulated Compact Quad Mega Pulse Laser:
@@ -4808,6 +4958,7 @@ items:
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
     id: 37297
+    marketGroup: 774
     name: Modulated Compact Quad Mega Pulse Laser
     volume: 4000.0
   Polarized Heavy Pulse Laser:
@@ -4843,6 +4994,7 @@ items:
     TrackingSpeed: 29.90015983581543
     TypeColorScheme: 11461
     id: 34274
+    marketGroup: 572
     name: Polarized Heavy Pulse Laser
     volume: 10.0
   Polarized Mega Pulse Laser:
@@ -4878,6 +5030,7 @@ items:
     TrackingSpeed: 3.8812999725341797
     TypeColorScheme: 11461
     id: 34276
+    marketGroup: 573
     name: Polarized Mega Pulse Laser
     volume: 20.0
   Polarized Small Focused Pulse Laser:
@@ -4913,6 +5066,7 @@ items:
     TrackingSpeed: 283.18798828125
     TypeColorScheme: 11461
     id: 34272
+    marketGroup: 570
     name: Polarized Small Focused Pulse Laser
     volume: 5.0
   Quad Afocal Light Maser I:
@@ -4943,6 +5097,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
     id: 6759
+    marketGroup: 568
     name: Quad Afocal Light Maser I
     volume: 10.0
   Quad Anode Light Particle Stream I:
@@ -4973,6 +5128,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
     id: 6763
+    marketGroup: 568
     name: Quad Anode Light Particle Stream I
     volume: 10.0
   Quad Light Beam Laser I:
@@ -5002,6 +5158,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
     id: 455
+    marketGroup: 568
     name: Quad Light Beam Laser I
     volume: 10.0
   Quad Light Beam Laser II:
@@ -5035,6 +5192,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11314
     id: 3285
+    marketGroup: 568
     name: Quad Light Beam Laser II
     volume: 10.0
   Quad Mega Pulse Laser I:
@@ -5064,6 +5222,7 @@ items:
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
     id: 37290
+    marketGroup: 774
     name: Quad Mega Pulse Laser I
     volume: 4000.0
   Quad Mega Pulse Laser II:
@@ -5097,6 +5256,7 @@ items:
     TrackingSpeed: 1.5
     TypeColorScheme: 11313
     id: 37296
+    marketGroup: 774
     name: Quad Mega Pulse Laser II
     volume: 4000.0
   Quad Modal Light Laser I:
@@ -5127,6 +5287,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
     id: 6757
+    marketGroup: 568
     name: Quad Modal Light Laser I
     volume: 10.0
   Quad Modulated Light Energy Beam I:
@@ -5157,6 +5318,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11313
     id: 6761
+    marketGroup: 568
     name: Quad Modulated Light Energy Beam I
     volume: 10.0
   Raysere's Modified Dual Heavy Beam Laser:
@@ -5187,6 +5349,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
     id: 14421
+    marketGroup: 569
     name: Raysere's Modified Dual Heavy Beam Laser
     volume: 20.0
   Raysere's Modified Mega Beam Laser:
@@ -5217,6 +5380,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
     id: 14437
+    marketGroup: 569
     name: Raysere's Modified Mega Beam Laser
     volume: 20.0
   Raysere's Modified Tachyon Beam Laser:
@@ -5246,6 +5410,7 @@ items:
     TechLevel: 1
     TrackingSpeed: 1.39205002784729
     id: 14453
+    marketGroup: 569
     name: Raysere's Modified Tachyon Beam Laser
     volume: 20.0
   Selynne's Modified Dual Heavy Beam Laser:
@@ -5276,6 +5441,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11311
     id: 14417
+    marketGroup: 569
     name: Selynne's Modified Dual Heavy Beam Laser
     volume: 20.0
   Selynne's Modified Mega Beam Laser:
@@ -5306,6 +5472,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11311
     id: 14433
+    marketGroup: 569
     name: Selynne's Modified Mega Beam Laser
     volume: 20.0
   Selynne's Modified Tachyon Beam Laser:
@@ -5336,6 +5503,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11311
     id: 14449
+    marketGroup: 569
     name: Selynne's Modified Tachyon Beam Laser
     volume: 20.0
   Sleeper Turret Large:
@@ -5399,6 +5567,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
     id: 6717
+    marketGroup: 567
     name: Small Focused Afocal Maser I
     volume: 5.0
   Small Focused Afocal Pulse Maser I:
@@ -5429,6 +5598,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
     id: 6673
+    marketGroup: 570
     name: Small Focused Afocal Pulse Maser I
     volume: 5.0
   Small Focused Anode Particle Stream I:
@@ -5459,6 +5629,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
     id: 6721
+    marketGroup: 567
     name: Small Focused Anode Particle Stream I
     volume: 5.0
   Small Focused Anode Pulse Particle Stream I:
@@ -5489,6 +5660,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
     id: 6677
+    marketGroup: 570
     name: Small Focused Anode Pulse Particle Stream I
     volume: 5.0
   Small Focused Beam Laser I:
@@ -5518,6 +5690,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
     id: 454
+    marketGroup: 567
     name: Small Focused Beam Laser I
     volume: 5.0
   Small Focused Beam Laser II:
@@ -5551,6 +5724,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11314
     id: 3033
+    marketGroup: 567
     name: Small Focused Beam Laser II
     volume: 5.0
   Small Focused Modal Laser I:
@@ -5581,6 +5755,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
     id: 6715
+    marketGroup: 567
     name: Small Focused Modal Laser I
     volume: 5.0
   Small Focused Modal Pulse Laser I:
@@ -5611,6 +5786,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
     id: 6671
+    marketGroup: 570
     name: Small Focused Modal Pulse Laser I
     volume: 5.0
   Small Focused Modulated Energy Beam I:
@@ -5641,6 +5817,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11313
     id: 6719
+    marketGroup: 567
     name: Small Focused Modulated Energy Beam I
     volume: 5.0
   Small Focused Modulated Pulse Energy Beam I:
@@ -5671,6 +5848,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
     id: 6675
+    marketGroup: 570
     name: Small Focused Modulated Pulse Energy Beam I
     volume: 5.0
   Small Focused Pulse Laser I:
@@ -5700,6 +5878,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11313
     id: 453
+    marketGroup: 570
     name: Small Focused Pulse Laser I
     volume: 5.0
   Small Focused Pulse Laser II:
@@ -5733,6 +5912,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11314
     id: 3041
+    marketGroup: 570
     name: Small Focused Pulse Laser II
     volume: 5.0
   Tachyon Afocal Maser I:
@@ -5762,6 +5942,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
     id: 7169
+    marketGroup: 569
     name: Tachyon Afocal Maser I
     volume: 20.0
   Tachyon Anode Particle Stream I:
@@ -5791,6 +5972,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
     id: 7173
+    marketGroup: 569
     name: Tachyon Anode Particle Stream I
     volume: 20.0
   Tachyon Beam Laser I:
@@ -5819,6 +6001,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
     id: 464
+    marketGroup: 569
     name: Tachyon Beam Laser I
     volume: 50.0
   Tachyon Beam Laser II:
@@ -5851,6 +6034,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11314
     id: 3065
+    marketGroup: 569
     name: Tachyon Beam Laser II
     volume: 20.0
   Tachyon Modal Laser I:
@@ -5880,6 +6064,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
     id: 7167
+    marketGroup: 569
     name: Tachyon Modal Laser I
     volume: 20.0
   Tachyon Modulated Energy Beam I:
@@ -5909,6 +6094,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11313
     id: 7171
+    marketGroup: 569
     name: Tachyon Modulated Energy Beam I
     volume: 20.0
   Tairei's Modified Dual Heavy Pulse Laser:
@@ -5939,6 +6125,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
     id: 14425
+    marketGroup: 573
     name: Tairei's Modified Dual Heavy Pulse Laser
     volume: 20.0
   Tairei's Modified Mega Pulse Laser:
@@ -5969,6 +6156,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
     id: 14441
+    marketGroup: 573
     name: Tairei's Modified Mega Pulse Laser
     volume: 20.0
   Test Resistance Small Laser 2:
@@ -6030,6 +6218,7 @@ items:
     TrackingSpeed: 0.022911325097084045
     TypeColorScheme: 11313
     id: 41119
+    marketGroup: 773
     name: True Sansha Dual Giga Beam Laser
     volume: 4000.0
   True Sansha Dual Giga Pulse Laser:
@@ -6062,6 +6251,7 @@ items:
     TrackingSpeed: 0.04041071981191635
     TypeColorScheme: 11313
     id: 41104
+    marketGroup: 774
     name: True Sansha Dual Giga Pulse Laser
     volume: 4000.0
   True Sansha Dual Heavy Beam Laser:
@@ -6092,6 +6282,7 @@ items:
     TrackingSpeed: 1.75
     TypeColorScheme: 11349
     id: 13820
+    marketGroup: 569
     name: True Sansha Dual Heavy Beam Laser
     volume: 20.0
   True Sansha Dual Heavy Pulse Laser:
@@ -6122,6 +6313,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11349
     id: 13821
+    marketGroup: 573
     name: True Sansha Dual Heavy Pulse Laser
     volume: 20.0
   True Sansha Dual Light Beam Laser:
@@ -6153,6 +6345,7 @@ items:
     TrackingSpeed: 117.0
     TypeColorScheme: 11349
     id: 13822
+    marketGroup: 567
     name: True Sansha Dual Light Beam Laser
     volume: 5.0
   True Sansha Dual Light Pulse Laser:
@@ -6183,6 +6376,7 @@ items:
     TrackingSpeed: 273.75
     TypeColorScheme: 11349
     id: 13823
+    marketGroup: 570
     name: True Sansha Dual Light Pulse Laser
     volume: 5.0
   True Sansha Focused Medium Beam Laser:
@@ -6214,6 +6408,7 @@ items:
     TrackingSpeed: 12.095999717712402
     TypeColorScheme: 11349
     id: 13824
+    marketGroup: 568
     name: True Sansha Focused Medium Beam Laser
     volume: 10.0
   True Sansha Focused Medium Pulse Laser:
@@ -6244,6 +6439,7 @@ items:
     TrackingSpeed: 28.799999237060547
     TypeColorScheme: 11349
     id: 13825
+    marketGroup: 572
     name: True Sansha Focused Medium Pulse Laser
     volume: 10.0
   True Sansha Gatling Pulse Laser:
@@ -6274,6 +6470,7 @@ items:
     TrackingSpeed: 308.125
     TypeColorScheme: 11349
     id: 13826
+    marketGroup: 570
     name: True Sansha Gatling Pulse Laser
     volume: 5.0
   True Sansha Heavy Beam Laser:
@@ -6305,6 +6502,7 @@ items:
     TrackingSpeed: 9.503999710083008
     TypeColorScheme: 11349
     id: 13827
+    marketGroup: 568
     name: True Sansha Heavy Beam Laser
     volume: 10.0
   True Sansha Heavy Pulse Laser:
@@ -6335,6 +6533,7 @@ items:
     TrackingSpeed: 26.0
     TypeColorScheme: 11349
     id: 13828
+    marketGroup: 572
     name: True Sansha Heavy Pulse Laser
     volume: 10.0
   True Sansha Mega Beam Laser:
@@ -6365,6 +6564,7 @@ items:
     TrackingSpeed: 1.53125
     TypeColorScheme: 11349
     id: 13831
+    marketGroup: 569
     name: True Sansha Mega Beam Laser
     volume: 20.0
   True Sansha Mega Pulse Laser:
@@ -6395,6 +6595,7 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11349
     id: 13832
+    marketGroup: 573
     name: True Sansha Mega Pulse Laser
     volume: 20.0
   True Sansha Quad Beam Laser:
@@ -6426,6 +6627,7 @@ items:
     TrackingSpeed: 23.327999114990234
     TypeColorScheme: 11349
     id: 13833
+    marketGroup: 568
     name: True Sansha Quad Beam Laser
     volume: 10.0
   True Sansha Quad Mega Pulse Laser:
@@ -6458,6 +6660,7 @@ items:
     TrackingSpeed: 1.5750000476837158
     TypeColorScheme: 11313
     id: 41067
+    marketGroup: 774
     name: True Sansha Quad Mega Pulse Laser
     volume: 4000.0
   True Sansha Small Focused Beam Laser:
@@ -6489,6 +6692,7 @@ items:
     TrackingSpeed: 90.0
     TypeColorScheme: 11349
     id: 13829
+    marketGroup: 567
     name: True Sansha Small Focused Beam Laser
     volume: 5.0
   True Sansha Small Focused Pulse Laser:
@@ -6520,6 +6724,7 @@ items:
     TrackingSpeed: 246.25
     TypeColorScheme: 11349
     id: 13830
+    marketGroup: 570
     name: True Sansha Small Focused Pulse Laser
     volume: 5.0
   True Sansha Tachyon Beam Laser:
@@ -6550,6 +6755,7 @@ items:
     TrackingSpeed: 1.39205002784729
     TypeColorScheme: 11349
     id: 13834
+    marketGroup: 569
     name: True Sansha Tachyon Beam Laser
     volume: 20.0
   Vizan's Modified Dual Heavy Pulse Laser:
@@ -6580,6 +6786,7 @@ items:
     TrackingSpeed: 3.75
     TypeColorScheme: 11311
     id: 14431
+    marketGroup: 573
     name: Vizan's Modified Dual Heavy Pulse Laser
     volume: 20.0
   Vizan's Modified Mega Pulse Laser:
@@ -6610,5 +6817,6 @@ items:
     TrackingSpeed: 3.375
     TypeColorScheme: 11311
     id: 14447
+    marketGroup: 573
     name: Vizan's Modified Mega Pulse Laser
     volume: 20.0

@@ -73,6 +73,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 24692
+    marketGroup: 79
     name: Abaddon
     volume: 495000.0
   Abaddon Kador Edition:
@@ -300,6 +301,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 642
+    marketGroup: 79
     name: Apocalypse
     volume: 495000.0
   Apocalypse Blood Raider Edition:
@@ -450,6 +452,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 11936
+    marketGroup: 1620
     name: Apocalypse Imperial Issue
     volume: 495000.0
   Apocalypse Kador Edition:
@@ -602,6 +605,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17726
+    marketGroup: 1379
     name: Apocalypse Navy Issue
     volume: 495000.0
   Apocalypse Tash-Murkon Edition:
@@ -753,6 +757,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 643
+    marketGroup: 79
     name: Armageddon
     volume: 486000.0
   Armageddon Imperial Issue:
@@ -828,6 +833,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 11938
+    marketGroup: 1620
     name: Armageddon Imperial Issue
     volume: 486000.0
   Armageddon Navy Issue:
@@ -905,6 +911,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 32305
+    marketGroup: 1379
     name: Armageddon Navy Issue
     volume: 486000.0
   Barghest:
@@ -986,6 +993,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 33820
+    marketGroup: 1380
     name: Barghest
     volume: 595000.0
   Bhaalgorn:
@@ -1066,6 +1074,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17920
+    marketGroup: 1380
     name: Bhaalgorn
     volume: 486000.0
   Concord Army Battleship:
@@ -1437,6 +1446,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 645
+    marketGroup: 81
     name: Dominix
     volume: 454500.0
   Dominix Navy Issue:
@@ -1515,6 +1525,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 32307
+    marketGroup: 1379
     name: Dominix Navy Issue
     volume: 454500.0
   Dominix Quafe Edition:
@@ -1668,6 +1679,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 24690
+    marketGroup: 81
     name: Hyperion
     volume: 495000.0
   Hyperion Aliastra Edition:
@@ -1900,6 +1912,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 47271
+    marketGroup: 2430
     name: Leshak
     volume: 495000.0
   Machariel:
@@ -1979,6 +1992,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 3.0
     id: 17738
+    marketGroup: 1380
     name: Machariel
     volume: 595000.0
   Maelstrom:
@@ -2054,6 +2068,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 24694
+    marketGroup: 78
     name: Maelstrom
     volume: 472500.0
   Maelstrom Krusual Edition:
@@ -2280,6 +2295,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 641
+    marketGroup: 81
     name: Megathron
     volume: 486000.0
   Megathron Federate Issue:
@@ -2359,6 +2375,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 13202
+    marketGroup: 1620
     name: Megathron Federate Issue
     volume: 486000.0
   Megathron Inner Zone Shipping Edition:
@@ -2514,6 +2531,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17728
+    marketGroup: 1379
     name: Megathron Navy Issue
     volume: 486000.0
   Megathron Police Edition:
@@ -2752,6 +2770,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.5
     id: 33472
+    marketGroup: 1380
     name: Nestor
     volume: 486000.0
   Nightmare:
@@ -2833,6 +2852,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17736
+    marketGroup: 1380
     name: Nightmare
     volume: 486000.0
   Praxis:
@@ -2912,6 +2932,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 47466
+    marketGroup: 1620
     name: Praxis
     volume: 500000.0
   Rattlesnake:
@@ -2993,6 +3014,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17918
+    marketGroup: 1380
     name: Rattlesnake
     volume: 486000.0
   Rattlesnake Victory Edition:
@@ -3151,6 +3173,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 638
+    marketGroup: 80
     name: Raven
     volume: 486000.0
   Raven Guristas Edition:
@@ -3383,6 +3406,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17636
+    marketGroup: 1379
     name: Raven Navy Issue
     volume: 486000.0
   Raven Nugoeihuvi Edition:
@@ -3539,6 +3563,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 26840
+    marketGroup: 1620
     name: Raven State Issue
     volume: 486000.0
   Rokh:
@@ -3615,6 +3640,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 24688
+    marketGroup: 80
     name: Rokh
     volume: 486000.0
   Rokh Nugoeihuvi Edition:
@@ -3843,6 +3869,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 640
+    marketGroup: 80
     name: Scorpion
     volume: 468000.0
   Scorpion Ishukone Watch:
@@ -3920,6 +3947,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 4005
+    marketGroup: 1620
     name: Scorpion Ishukone Watch
     volume: 468000.0
   Scorpion Navy Issue:
@@ -3998,6 +4026,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 32309
+    marketGroup: 1379
     name: Scorpion Navy Issue
     volume: 468000.0
   Tempest:
@@ -4073,6 +4102,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 639
+    marketGroup: 78
     name: Tempest
     volume: 450000.0
   Tempest Fleet Issue:
@@ -4150,6 +4180,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17732
+    marketGroup: 1379
     name: Tempest Fleet Issue
     volume: 486000.0
   Tempest Justice Edition:
@@ -4455,6 +4486,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 26842
+    marketGroup: 1620
     name: Tempest Tribal Issue
     volume: 486000.0
   Typhoon:
@@ -4530,6 +4562,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 644
+    marketGroup: 78
     name: Typhoon
     volume: 414000.0
   Typhoon Fleet Issue:
@@ -4608,6 +4641,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 32311
+    marketGroup: 1379
     name: Typhoon Fleet Issue
     volume: 414000.0
   Vindicator:
@@ -4688,6 +4722,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 17740
+    marketGroup: 1380
     name: Vindicator
     volume: 486000.0
   万王宝座级YC117年特别版:
@@ -4766,7 +4801,7 @@ items:
     id: 34467
     name: 万王宝座级YC117年特别版
     volume: 486000.0
-  乌鸦级YC117年��别版:
+  乌鸦级YC117年特别版:
     Agility: 0.11999999731779099
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -4841,7 +4876,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34469
-    name: 乌鸦级YC117年��别版
+    name: 乌鸦级YC117年特别版
     volume: 486000.0
   响尾蛇级YC117年特别版:
     Agility: 0.12800000607967377
@@ -4924,7 +4959,7 @@ items:
     id: 34463
     name: 响尾蛇级YC117年特别版
     volume: 486000.0
-  地狱天使级YC117年���别版:
+  地狱天使级YC117年特别版:
     Agility: 0.14000000059604645
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -4998,7 +5033,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34459
-    name: 地狱天使级YC117年���别版
+    name: 地狱天使级YC117年特别版
     volume: 495000.0
   多米尼克斯级YC117年特别版:
     Agility: 0.12540000677108765
@@ -5076,7 +5111,7 @@ items:
     id: 34465
     name: 多米尼克斯级YC117年特别版
     volume: 454500.0
-  末日沙��级YC117年特别版:
+  末日沙场级YC117年特别版:
     Agility: 0.12999999523162842
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -5150,9 +5185,9 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34457
-    name: 末日沙��级YC117年特别版
+    name: 末日沙场级YC117年特别版
     volume: 486000.0
-  灾难级YC117年特别版:
+  灾难��YC117年特别版:
     Agility: 0.11900000274181366
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.800000011920929
@@ -5225,7 +5260,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.0
     id: 34471
-    name: 灾难级YC117年特别版
+    name: 灾难��YC117年特别版
     volume: 495000.0
   马克瑞级YC117年特别版:
     Agility: 0.09600000083446503

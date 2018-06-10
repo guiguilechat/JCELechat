@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1074
+    marketGroup: 325
     name: Cargo Scanner I Blueprint
     volume: 0.01
   Cargo Scanner II Blueprint:

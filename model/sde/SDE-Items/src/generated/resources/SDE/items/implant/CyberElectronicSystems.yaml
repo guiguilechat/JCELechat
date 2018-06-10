@@ -6,6 +6,7 @@ items:
     StasisWebRangeBonus: 3
     TechLevel: 1
     id: 47261
+    marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-803
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-805:
@@ -15,6 +16,7 @@ items:
     StasisWebRangeBonus: 5
     TechLevel: 1
     id: 47262
+    marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-805
     volume: 1.0
   Inquest 'Eros' Stasis Webifier MR-807:
@@ -24,6 +26,7 @@ items:
     StasisWebRangeBonus: 7
     TechLevel: 1
     id: 47263
+    marketGroup: 1512
     name: Inquest 'Eros' Stasis Webifier MR-807
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-901:
@@ -33,6 +36,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27226
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-901
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-902:
@@ -42,6 +46,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3271
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-902
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-903:
@@ -51,6 +56,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13232
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-903
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-904:
@@ -60,6 +66,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3272
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-904
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-905:
@@ -69,6 +76,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27225
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-905
     volume: 1.0
   Zainou 'Gypsy' Electronic Warfare EW-906:
@@ -78,6 +86,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3273
+    marketGroup: 1513
     name: Zainou 'Gypsy' Electronic Warfare EW-906
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-801:
@@ -87,6 +96,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27231
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-801
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-802:
@@ -96,6 +106,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3277
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-802
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-803:
@@ -105,6 +116,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13234
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-803
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-804:
@@ -114,6 +126,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3278
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-804
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-805:
@@ -123,6 +136,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27230
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-805
     volume: 1.0
   Zainou 'Gypsy' Propulsion Jamming PJ-806:
@@ -132,6 +146,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3279
+    marketGroup: 1512
     name: Zainou 'Gypsy' Propulsion Jamming PJ-806
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-901:
@@ -141,6 +156,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27233
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-901
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-902:
@@ -150,6 +166,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3280
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-902
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-903:
@@ -159,6 +176,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13235
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-903
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-904:
@@ -168,6 +186,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3281
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-904
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-905:
@@ -177,6 +196,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27232
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-905
     volume: 1.0
   Zainou 'Gypsy' Sensor Linking SL-906:
@@ -186,6 +206,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3282
+    marketGroup: 1513
     name: Zainou 'Gypsy' Sensor Linking SL-906
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-901:
@@ -195,6 +216,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27237
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-901
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-902:
@@ -204,6 +226,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3288
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-902
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-903:
@@ -213,6 +236,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 27224
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-903
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-904:
@@ -222,6 +246,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3289
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-904
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-905:
@@ -231,6 +256,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27236
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-905
     volume: 1.0
   Zainou 'Gypsy' Target Painting TG-906:
@@ -240,6 +266,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3290
+    marketGroup: 1513
     name: Zainou 'Gypsy' Target Painting TG-906
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-901:
@@ -249,6 +276,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27235
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-901
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-902:
@@ -258,6 +286,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3283
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-902
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-903:
@@ -267,6 +296,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13236
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-903
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-904:
@@ -276,6 +306,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3284
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-904
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-905:
@@ -285,6 +316,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27234
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-905
     volume: 1.0
   Zainou 'Gypsy' Weapon Disruption WD-906:
@@ -294,5 +326,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3287
+    marketGroup: 1513
     name: Zainou 'Gypsy' Weapon Disruption WD-906
     volume: 1.0

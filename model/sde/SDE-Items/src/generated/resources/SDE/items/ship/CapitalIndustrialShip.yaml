@@ -104,6 +104,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.5
     id: 28352
+    marketGroup: 1048
     name: Rorqual
     volume: 1.45E7
   Rorqual ORE Development Edition:

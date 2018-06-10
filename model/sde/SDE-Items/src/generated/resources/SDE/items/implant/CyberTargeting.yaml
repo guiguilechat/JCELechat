@@ -5,6 +5,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27229
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-801
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-802:
@@ -14,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3274
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-802
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-803:
@@ -22,6 +24,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13233
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-803
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-804:
@@ -31,6 +34,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3275
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-804
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-805:
@@ -39,6 +43,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27227
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-805
     volume: 1.0
   Zainou 'Gypsy' Long Range Targeting LT-806:
@@ -48,6 +53,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3276
+    marketGroup: 1766
     name: Zainou 'Gypsy' Long Range Targeting LT-806
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-701:
@@ -56,6 +62,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27131
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-701
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-702:
@@ -65,6 +72,7 @@ items:
     ScanResolutionBonus: 2.0
     TechLevel: 1
     id: 3268
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-702
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-703:
@@ -73,6 +81,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 10244
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-703
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-704:
@@ -82,6 +91,7 @@ items:
     ScanResolutionBonus: 4.0
     TechLevel: 1
     id: 3269
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-704
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-705:
@@ -90,6 +100,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27130
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-705
     volume: 1.0
   Zainou 'Gypsy' Signature Analysis SA-706:
@@ -99,5 +110,6 @@ items:
     ScanResolutionBonus: 6.0
     TechLevel: 1
     id: 3270
+    marketGroup: 1765
     name: Zainou 'Gypsy' Signature Analysis SA-706
     volume: 1.0

@@ -21,5 +21,6 @@ items:
     ResistanceShiftAmount: 6
     TechLevel: 1
     id: 4403
+    marketGroup: 1416
     name: Reactive Armor Hardener
     volume: 25.0

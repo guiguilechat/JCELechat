@@ -51,6 +51,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24684
+    marketGroup: 490
     name: Biochemical Reactor Array
     volume: 4000.0
   Complex Reactor Array:
@@ -79,6 +80,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16869
+    marketGroup: 490
     name: Complex Reactor Array
     volume: 4000.0
   Medium Biochemical Reactor Array:
@@ -106,6 +108,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 22634
+    marketGroup: 490
     name: Medium Biochemical Reactor Array
     volume: 4000.0
   Polymer Reactor Array:
@@ -134,6 +137,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 30656
+    marketGroup: 490
     name: Polymer Reactor Array
     volume: 4000.0
   Simple Reactor Array:
@@ -161,6 +165,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 20175
+    marketGroup: 490
     name: Simple Reactor Array
     volume: 4000.0
   Trauma Treatment Facility:

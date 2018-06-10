@@ -43,6 +43,7 @@ items:
     WarpScrambleRange: 150000
     WarpScrambleStrength: 4
     id: 27563
+    marketGroup: 481
     name: Serpentis Warp Disruption Battery
     volume: 4000.0
   Serpentis Warp Scrambling Battery:
@@ -89,6 +90,7 @@ items:
     WarpScrambleRange: 82500
     WarpScrambleStrength: 6
     id: 27567
+    marketGroup: 481
     name: Serpentis Warp Scrambling Battery
     volume: 4000.0
   Shadow Warp Disruption Battery:
@@ -135,6 +137,7 @@ items:
     WarpScrambleRange: 150000
     WarpScrambleStrength: 5
     id: 27565
+    marketGroup: 481
     name: Shadow Warp Disruption Battery
     volume: 4000.0
   Shadow Warp Scrambling Battery:
@@ -181,6 +184,7 @@ items:
     WarpScrambleRange: 97500
     WarpScrambleStrength: 6
     id: 27569
+    marketGroup: 481
     name: Shadow Warp Scrambling Battery
     volume: 4000.0
   Warp Disruption Battery:
@@ -226,6 +230,7 @@ items:
     WarpScrambleRange: 150000
     WarpScrambleStrength: 3
     id: 17181
+    marketGroup: 481
     name: Warp Disruption Battery
     volume: 4000.0
   Warp Scrambling Battery:
@@ -271,5 +276,6 @@ items:
     WarpScrambleRange: 75000
     WarpScrambleStrength: 6
     id: 17182
+    marketGroup: 481
     name: Warp Scrambling Battery
     volume: 4000.0

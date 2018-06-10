@@ -9,6 +9,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 23566
+    marketGroup: 366
     name: Advanced Drone Avionics
     volume: 0.01
   Amarr Drone Specialization:
@@ -20,6 +21,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 12484
+    marketGroup: 366
     name: Amarr Drone Specialization
     volume: 0.01
   Caldari Drone Specialization:
@@ -31,6 +33,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 12487
+    marketGroup: 366
     name: Caldari Drone Specialization
     volume: 0.01
   Drone Avionics:
@@ -41,6 +44,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
     id: 3437
+    marketGroup: 366
     name: Drone Avionics
     volume: 0.01
   Drone Durability:
@@ -51,6 +55,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 23618
+    marketGroup: 366
     name: Drone Durability
     volume: 0.01
   Drone Interfacing:
@@ -62,6 +67,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 3442
+    marketGroup: 366
     name: Drone Interfacing
     volume: 0.01
   Drone Navigation:
@@ -72,6 +78,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
     id: 12305
+    marketGroup: 366
     name: Drone Navigation
     volume: 0.01
   Drone Sharpshooting:
@@ -82,6 +89,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
     id: 23606
+    marketGroup: 366
     name: Drone Sharpshooting
     volume: 0.01
   Drones:
@@ -90,6 +98,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
     id: 3436
+    marketGroup: 366
     name: Drones
     volume: 0.01
   Fighter Hangar Management:
@@ -100,6 +109,7 @@ items:
     SkillBonusFighterHangarSize: 5
     SkillTimeConstant: 8.0
     id: 24613
+    marketGroup: 366
     name: Fighter Hangar Management
     volume: 0.01
   Fighters:
@@ -113,6 +123,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
     id: 23069
+    marketGroup: 366
     name: Fighters
     volume: 0.01
   Gallente Drone Specialization:
@@ -124,6 +135,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 12486
+    marketGroup: 366
     name: Gallente Drone Specialization
     volume: 0.01
   Heavy Drone Operation:
@@ -134,6 +146,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 3441
+    marketGroup: 366
     name: Heavy Drone Operation
     volume: 0.01
   Heavy Fighters:
@@ -145,6 +158,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
     id: 32339
+    marketGroup: 366
     name: Heavy Fighters
     volume: 0.01
   Ice Harvesting Drone Operation:
@@ -157,6 +171,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
     id: 43702
+    marketGroup: 366
     name: Ice Harvesting Drone Operation
     volume: 0.01
   Ice Harvesting Drone Specialization:
@@ -170,6 +185,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 43703
+    marketGroup: 366
     name: Ice Harvesting Drone Specialization
     volume: 0.01
   Light Drone Operation:
@@ -180,6 +196,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 1.0
     id: 24241
+    marketGroup: 366
     name: Light Drone Operation
     volume: 0.01
   Light Fighters:
@@ -191,6 +208,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 12.0
     id: 40572
+    marketGroup: 366
     name: Light Fighters
     volume: 0.01
   Medium Drone Operation:
@@ -201,6 +219,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
     id: 33699
+    marketGroup: 366
     name: Medium Drone Operation
     volume: 0.01
   Mining Drone Operation:
@@ -213,6 +232,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 2.0
     id: 3438
+    marketGroup: 366
     name: Mining Drone Operation
     volume: 0.01
   Mining Drone Specialization:
@@ -226,6 +246,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 22541
+    marketGroup: 366
     name: Mining Drone Specialization
     volume: 0.01
   Minmatar Drone Specialization:
@@ -237,6 +258,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 12485
+    marketGroup: 366
     name: Minmatar Drone Specialization
     volume: 0.01
   Propulsion Jamming Drone Interfacing:
@@ -261,6 +283,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 3.0
     id: 3439
+    marketGroup: 366
     name: Repair Drone Operation
     volume: 0.01
   Salvage Drone Operation:
@@ -273,6 +296,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 4.0
     id: 3440
+    marketGroup: 366
     name: Salvage Drone Operation
     volume: 0.01
   Sentry Drone Interfacing:
@@ -285,6 +309,7 @@ items:
     SecondaryAttribute: 167
     SkillTimeConstant: 5.0
     id: 23594
+    marketGroup: 366
     name: Sentry Drone Interfacing
     volume: 0.01
   Support Fighters:
@@ -296,6 +321,7 @@ items:
     ShieldBonus: 5.0
     SkillTimeConstant: 12.0
     id: 40573
+    marketGroup: 366
     name: Support Fighters
     volume: 0.01
   TEST Drone Skill:

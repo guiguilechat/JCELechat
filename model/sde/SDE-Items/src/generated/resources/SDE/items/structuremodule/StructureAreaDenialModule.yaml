@@ -30,6 +30,7 @@ items:
     TechLevel: 1
     ThermalDamage: 500.0
     id: 35926
+    marketGroup: 2221
     name: Standup Point Defense Battery I
     volume: 8000.0
   Standup Point Defense Battery II:
@@ -64,5 +65,6 @@ items:
     TechLevel: 2
     ThermalDamage: 625.0
     id: 47327
+    marketGroup: 2221
     name: Standup Point Defense Battery II
     volume: 8000.0

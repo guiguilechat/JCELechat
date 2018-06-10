@@ -18,6 +18,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37258
+    marketGroup: 2345
     name: Standup L-Set Point Defense Battery Control I
     volume: 20.0
   Standup L-Set Point Defense Battery Control II:
@@ -39,5 +40,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37259
+    marketGroup: 2345
     name: Standup L-Set Point Defense Battery Control II
     volume: 20.0

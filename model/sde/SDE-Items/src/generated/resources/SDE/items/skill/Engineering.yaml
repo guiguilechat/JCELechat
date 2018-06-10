@@ -19,6 +19,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     id: 11207
+    marketGroup: 368
     name: Advanced Weapon Upgrades
     volume: 0.01
   CPU Management:
@@ -26,6 +27,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3426
+    marketGroup: 368
     name: CPU Management
     volume: 0.01
   Capacitor Emission Systems:
@@ -38,6 +40,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3423
+    marketGroup: 368
     name: Capacitor Emission Systems
     volume: 0.01
   Capacitor Management:
@@ -47,6 +50,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3418
+    marketGroup: 368
     name: Capacitor Management
     volume: 0.01
   Capacitor Systems Operation:
@@ -56,6 +60,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3417
+    marketGroup: 368
     name: Capacitor Systems Operation
     volume: 0.01
   Capital Capacitor Emission Systems:
@@ -69,6 +74,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
     id: 24572
+    marketGroup: 368
     name: Capital Capacitor Emission Systems
     volume: 0.01
   Electronics Upgrades:
@@ -81,6 +87,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3432
+    marketGroup: 368
     name: Electronics Upgrades
     volume: 0.01
   Energy Grid Upgrades:
@@ -93,6 +100,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3424
+    marketGroup: 368
     name: Energy Grid Upgrades
     volume: 0.01
   Energy Pulse Weapons:
@@ -105,6 +113,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3421
+    marketGroup: 368
     name: Energy Pulse Weapons
     volume: 0.01
   Nanite Interfacing:
@@ -115,6 +124,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 28880
+    marketGroup: 368
     name: Nanite Interfacing
     volume: 0.01
   Nanite Operation:
@@ -125,6 +135,7 @@ items:
     ShipBrokenRepairCostMultiplierBonus: -5
     SkillTimeConstant: 2.0
     id: 28879
+    marketGroup: 368
     name: Nanite Operation
     volume: 0.01
   Power Grid Management:
@@ -132,6 +143,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3413
+    marketGroup: 368
     name: Power Grid Management
     volume: 0.01
   Resistance Phasing:
@@ -143,6 +155,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 32797
+    marketGroup: 368
     name: Resistance Phasing
     volume: 0.01
   Thermodynamics:
@@ -157,6 +170,7 @@ items:
     SkillTimeConstant: 3.0
     ThermodynamicsHeatDamage: -5
     id: 28164
+    marketGroup: 368
     name: Thermodynamics
     volume: 0.01
   Weapon Upgrades:
@@ -167,5 +181,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3318
+    marketGroup: 368
     name: Weapon Upgrades
     volume: 0.01

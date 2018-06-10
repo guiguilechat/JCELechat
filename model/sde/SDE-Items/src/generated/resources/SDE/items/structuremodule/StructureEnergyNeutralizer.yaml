@@ -19,6 +19,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 46575
+    marketGroup: 2223
     name: Dark Blood Standup Heavy Energy Neutralizer
     volume: 8000.0
   Standup Heavy Energy Neutralizer I:
@@ -39,6 +40,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35925
+    marketGroup: 2223
     name: Standup Heavy Energy Neutralizer I
     volume: 8000.0
   Standup Heavy Energy Neutralizer II:
@@ -60,6 +62,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47332
+    marketGroup: 2223
     name: Standup Heavy Energy Neutralizer II
     volume: 8000.0
   Standup XL Energy Neutralizer I:
@@ -81,6 +84,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35924
+    marketGroup: 2223
     name: Standup XL Energy Neutralizer I
     volume: 8000.0
   Standup XL Energy Neutralizer II:
@@ -103,5 +107,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47330
+    marketGroup: 2223
     name: Standup XL Energy Neutralizer II
     volume: 8000.0

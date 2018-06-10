@@ -9,6 +9,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1318
+    marketGroup: 335
     name: Expanded Cargohold I Blueprint
     volume: 0.01
   Expanded Cargohold II Blueprint:
@@ -33,6 +34,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1404
+    marketGroup: 332
     name: Inertial Stabilizers I Blueprint
     volume: 0.01
   Inertial Stabilizers II Blueprint:
@@ -63,6 +65,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2604
+    marketGroup: 335
     name: Nanofiber Internal Structure I Blueprint
     volume: 0.01
   Nanofiber Internal Structure II Blueprint:
@@ -76,6 +79,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1245
+    marketGroup: 332
     name: Overdrive Injector System I Blueprint
     volume: 0.01
   Overdrive Injector System II Blueprint:
@@ -100,6 +104,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1334
+    marketGroup: 335
     name: Reinforced Bulkheads I Blueprint
     volume: 0.01
   Reinforced Bulkheads II Blueprint:

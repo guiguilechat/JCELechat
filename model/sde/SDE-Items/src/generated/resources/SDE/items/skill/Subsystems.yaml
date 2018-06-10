@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30539
+    marketGroup: 1824
     name: Amarr Core Systems
     volume: 0.01
   Amarr Defensive Systems:
@@ -19,6 +20,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30532
+    marketGroup: 1824
     name: Amarr Defensive Systems
     volume: 0.01
   Amarr Electronic Systems:
@@ -42,6 +44,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30537
+    marketGroup: 1824
     name: Amarr Offensive Systems
     volume: 0.01
   Amarr Propulsion Systems:
@@ -52,6 +55,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30538
+    marketGroup: 1824
     name: Amarr Propulsion Systems
     volume: 0.01
   Caldari Core Systems:
@@ -62,6 +66,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30548
+    marketGroup: 1824
     name: Caldari Core Systems
     volume: 0.01
   Caldari Defensive Systems:
@@ -74,6 +79,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30544
+    marketGroup: 1824
     name: Caldari Defensive Systems
     volume: 0.01
   Caldari Electronic Systems:
@@ -97,6 +103,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30549
+    marketGroup: 1824
     name: Caldari Offensive Systems
     volume: 0.01
   Caldari Propulsion Systems:
@@ -107,6 +114,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30552
+    marketGroup: 1824
     name: Caldari Propulsion Systems
     volume: 0.01
   Gallente Core Systems:
@@ -117,6 +125,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30546
+    marketGroup: 1824
     name: Gallente Core Systems
     volume: 0.01
   Gallente Defensive Systems:
@@ -129,6 +138,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30540
+    marketGroup: 1824
     name: Gallente Defensive Systems
     volume: 0.01
   Gallente Electronic Systems:
@@ -152,6 +162,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30550
+    marketGroup: 1824
     name: Gallente Offensive Systems
     volume: 0.01
   Gallente Propulsion Systems:
@@ -162,6 +173,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30553
+    marketGroup: 1824
     name: Gallente Propulsion Systems
     volume: 0.01
   Minmatar Core Systems:
@@ -172,6 +184,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30547
+    marketGroup: 1824
     name: Minmatar Core Systems
     volume: 0.01
   Minmatar Defensive Systems:
@@ -184,6 +197,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 30545
+    marketGroup: 1824
     name: Minmatar Defensive Systems
     volume: 0.01
   Minmatar Electronic Systems:
@@ -207,6 +221,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30551
+    marketGroup: 1824
     name: Minmatar Offensive Systems
     volume: 0.01
   Minmatar Propulsion Systems:
@@ -217,5 +232,6 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 30554
+    marketGroup: 1824
     name: Minmatar Propulsion Systems
     volume: 0.01

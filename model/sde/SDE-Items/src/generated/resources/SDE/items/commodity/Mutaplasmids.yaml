@@ -1,325 +1,406 @@
 items:
   Abnormal Large Ancillary Armor Repairer Mutaplasmid:
     id: 47845
+    marketGroup: 2445
     name: Abnormal Large Ancillary Armor Repairer Mutaplasmid
     volume: 1.0
   Abnormal Large Ancillary Shield Booster Mutaplasmid:
     id: 47837
+    marketGroup: 2448
     name: Abnormal Large Ancillary Shield Booster Mutaplasmid
     volume: 1.0
   Abnormal Medium Ancillary Armor Repairer Mutaplasmid:
     id: 47843
+    marketGroup: 2444
     name: Abnormal Medium Ancillary Armor Repairer Mutaplasmid
     volume: 1.0
   Abnormal Medium Ancillary Shield Booster Mutaplasmid:
     id: 47835
+    marketGroup: 2447
     name: Abnormal Medium Ancillary Shield Booster Mutaplasmid
     volume: 1.0
   Abnormal Small Ancillary Armor Repairer Mutaplasmid:
     id: 47841
+    marketGroup: 2443
     name: Abnormal Small Ancillary Armor Repairer Mutaplasmid
     volume: 1.0
   Abnormal X-Large Ancillary Shield Booster Mutaplasmid:
     id: 47839
+    marketGroup: 2449
     name: Abnormal X-Large Ancillary Shield Booster Mutaplasmid
     volume: 1.0
   Decayed 100MN Afterburner Mutaplasmid:
     id: 47754
+    marketGroup: 2452
     name: Decayed 100MN Afterburner Mutaplasmid
     volume: 1.0
   Decayed 10MN Afterburner Mutaplasmid:
     id: 47750
+    marketGroup: 2451
     name: Decayed 10MN Afterburner Mutaplasmid
     volume: 1.0
   Decayed 1MN Afterburner Mutaplasmid:
     id: 47746
+    marketGroup: 2450
     name: Decayed 1MN Afterburner Mutaplasmid
     volume: 1.0
   Decayed 500MN Microwarpdrive Mutaplasmid:
     id: 47299
+    marketGroup: 2452
     name: Decayed 500MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Decayed 50MN Microwarpdrive Mutaplasmid:
     id: 47742
+    marketGroup: 2451
     name: Decayed 50MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Decayed 5MN Microwarpdrive Mutaplasmid:
     id: 47737
+    marketGroup: 2450
     name: Decayed 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Decayed Large Armor Plate Mutaplasmid:
     id: 47816
+    marketGroup: 2445
     name: Decayed Large Armor Plate Mutaplasmid
     volume: 1.0
   Decayed Large Armor Repairer Mutaplasmid:
     id: 47774
+    marketGroup: 2445
     name: Decayed Large Armor Repairer Mutaplasmid
     volume: 1.0
   Decayed Large Energy Neutralizer Mutaplasmid:
     id: 47829
+    marketGroup: 2455
     name: Decayed Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Decayed Large Shield Booster Mutaplasmid:
     id: 47786
+    marketGroup: 2448
     name: Decayed Large Shield Booster Mutaplasmid
     volume: 1.0
   Decayed Large Shield Extender Mutaplasmid:
     id: 47805
+    marketGroup: 2448
     name: Decayed Large Shield Extender Mutaplasmid
     volume: 1.0
   Decayed Medium Armor Plate Mutaplasmid:
     id: 47813
+    marketGroup: 2444
     name: Decayed Medium Armor Plate Mutaplasmid
     volume: 1.0
   Decayed Medium Armor Repairer Mutaplasmid:
     id: 47770
+    marketGroup: 2444
     name: Decayed Medium Armor Repairer Mutaplasmid
     volume: 1.0
   Decayed Medium Energy Neutralizer Mutaplasmid:
     id: 47825
+    marketGroup: 2454
     name: Decayed Medium Energy Neutralizer Mutaplasmid
     volume: 1.0
   Decayed Medium Shield Booster Mutaplasmid:
     id: 47782
+    marketGroup: 2447
     name: Decayed Medium Shield Booster Mutaplasmid
     volume: 1.0
   Decayed Medium Shield Extender Mutaplasmid:
     id: 47801
+    marketGroup: 2447
     name: Decayed Medium Shield Extender Mutaplasmid
     volume: 1.0
   Decayed Small Armor Plate Mutaplasmid:
     id: 47809
+    marketGroup: 2443
     name: Decayed Small Armor Plate Mutaplasmid
     volume: 1.0
   Decayed Small Armor Repairer Mutaplasmid:
     id: 47766
+    marketGroup: 2443
     name: Decayed Small Armor Repairer Mutaplasmid
     volume: 1.0
   Decayed Small Energy Neutralizer Mutaplasmid:
     id: 47821
+    marketGroup: 2453
     name: Decayed Small Energy Neutralizer Mutaplasmid
     volume: 1.0
   Decayed Small Shield Booster Mutaplasmid:
     id: 47778
+    marketGroup: 2446
     name: Decayed Small Shield Booster Mutaplasmid
     volume: 1.0
   Decayed Small Shield Extender Mutaplasmid:
     id: 47797
+    marketGroup: 2446
     name: Decayed Small Shield Extender Mutaplasmid
     volume: 1.0
   Decayed Stasis Webifier Mutaplasmid:
     id: 47699
+    marketGroup: 2442
     name: Decayed Stasis Webifier Mutaplasmid
     volume: 1.0
   Decayed Warp Disruptor Mutaplasmid:
     id: 47733
+    marketGroup: 2441
     name: Decayed Warp Disruptor Mutaplasmid
     volume: 1.0
   Decayed Warp Scrambler Mutaplasmid:
     id: 47729
+    marketGroup: 2441
     name: Decayed Warp Scrambler Mutaplasmid
     volume: 1.0
   Decayed X-Large Shield Booster Mutaplasmid:
     id: 47790
+    marketGroup: 2449
     name: Decayed X-Large Shield Booster Mutaplasmid
     volume: 1.0
   Gravid 100MN Afterburner Mutaplasmid:
     id: 47756
+    marketGroup: 2452
     name: Gravid 100MN Afterburner Mutaplasmid
     volume: 1.0
   Gravid 10MN Afterburner Mutaplasmid:
     id: 47752
+    marketGroup: 2451
     name: Gravid 10MN Afterburner Mutaplasmid
     volume: 1.0
   Gravid 1MN Afterburner MutaPlasmid:
     id: 47748
+    marketGroup: 2450
     name: Gravid 1MN Afterburner MutaPlasmid
     volume: 1.0
   Gravid 500MN Microwarpdrive Mutaplasmid:
     id: 47744
+    marketGroup: 2452
     name: Gravid 500MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Gravid 50MN Microwarpdrive Mutaplasmid:
     id: 47741
+    marketGroup: 2451
     name: Gravid 50MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Gravid 5MN Microwarpdrive Mutaplasmid:
     id: 47739
+    marketGroup: 2450
     name: Gravid 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Gravid Large Armor Plate Mutaplasmid:
     id: 47819
+    marketGroup: 2445
     name: Gravid Large Armor Plate Mutaplasmid
     volume: 1.0
   Gravid Large Armor Repairer Mutaplasmid:
     id: 47776
+    marketGroup: 2445
     name: Gravid Large Armor Repairer Mutaplasmid
     volume: 1.0
   Gravid Large Energy Neutralizer Mutaplasmid:
     id: 47831
+    marketGroup: 2455
     name: Gravid Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Gravid Large Shield Booster Mutaplasmid:
     id: 47788
+    marketGroup: 2448
     name: Gravid Large Shield Booster Mutaplasmid
     volume: 1.0
   Gravid Large Shield Extender Mutaplasmid:
     id: 47807
+    marketGroup: 2448
     name: Gravid Large Shield Extender Mutaplasmid
     volume: 1.0
   Gravid Medium Armor Plate Mutaplasmid:
     id: 47815
+    marketGroup: 2444
     name: Gravid Medium Armor Plate Mutaplasmid
     volume: 1.0
   Gravid Medium Armor Repairer Mutaplasmid:
     id: 47772
+    marketGroup: 2444
     name: Gravid Medium Armor Repairer Mutaplasmid
     volume: 1.0
   Gravid Medium Energy Neutralizer Mutaplasmid:
     id: 47827
+    marketGroup: 2454
     name: Gravid Medium Energy Neutralizer Mutaplasmid
     volume: 1.0
   Gravid Medium Shield Booster Mutaplasmid:
     id: 47784
+    marketGroup: 2447
     name: Gravid Medium Shield Booster Mutaplasmid
     volume: 1.0
   Gravid Medium Shield Extender Mutaplasmid:
     id: 47803
+    marketGroup: 2447
     name: Gravid Medium Shield Extender Mutaplasmid
     volume: 1.0
   Gravid Small Armor Plate Mutaplasmid:
     id: 47811
+    marketGroup: 2443
     name: Gravid Small Armor Plate Mutaplasmid
     volume: 1.0
   Gravid Small Armor Repairer Mutaplasmid:
     id: 47768
+    marketGroup: 2443
     name: Gravid Small Armor Repairer Mutaplasmid
     volume: 1.0
   Gravid Small Energy Neutralizer Mutaplasmid:
     id: 47823
+    marketGroup: 2453
     name: Gravid Small Energy Neutralizer Mutaplasmid
     volume: 1.0
   Gravid Small Shield Booster Mutaplasmid:
     id: 47780
+    marketGroup: 2446
     name: Gravid Small Shield Booster Mutaplasmid
     volume: 1.0
   Gravid Small Shield Extender Mutaplasmid:
     id: 47799
+    marketGroup: 2446
     name: Gravid Small Shield Extender Mutaplasmid
     volume: 1.0
   Gravid Stasis Webifier Mutaplasmid:
     id: 47701
+    marketGroup: 2442
     name: Gravid Stasis Webifier Mutaplasmid
     volume: 1.0
   Gravid Warp Disruptor Mutaplasmid:
     id: 47735
+    marketGroup: 2441
     name: Gravid Warp Disruptor Mutaplasmid
     volume: 1.0
   Gravid Warp Scrambler Mutaplasmid:
     id: 47731
+    marketGroup: 2441
     name: Gravid Warp Scrambler Mutaplasmid
     volume: 1.0
   Gravid X-Large Shield Booster Mutaplasmid:
     id: 47792
+    marketGroup: 2449
     name: Gravid X-Large Shield Booster Mutaplasmid
     volume: 1.0
   Unstable 100MN Afterburner Mutaplasmid:
     id: 47755
+    marketGroup: 2452
     name: Unstable 100MN Afterburner Mutaplasmid
     volume: 1.0
   Unstable 10MN Afterburner Mutaplasmid:
     id: 47751
+    marketGroup: 2451
     name: Unstable 10MN Afterburner Mutaplasmid
     volume: 1.0
   Unstable 1MN Afterburner Mutaplasmid:
     id: 47747
+    marketGroup: 2450
     name: Unstable 1MN Afterburner Mutaplasmid
     volume: 1.0
   Unstable 500MN Microwarpdrive Mutaplasmid:
     id: 47743
+    marketGroup: 2452
     name: Unstable 500MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Unstable 50MN Microwarpdrive Mutaplasmid:
     id: 47297
+    marketGroup: 2451
     name: Unstable 50MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Unstable 5MN Microwarpdrive Mutaplasmid:
     id: 47738
+    marketGroup: 2450
     name: Unstable 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
   Unstable Large Armor Plate Mutaplasmid:
     id: 47818
+    marketGroup: 2445
     name: Unstable Large Armor Plate Mutaplasmid
     volume: 1.0
   Unstable Large Armor Repairer Mutaplasmid:
     id: 47775
+    marketGroup: 2445
     name: Unstable Large Armor Repairer Mutaplasmid
     volume: 1.0
   Unstable Large Energy Neutralizer Mutaplasmid:
     id: 47830
+    marketGroup: 2455
     name: Unstable Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Unstable Large Shield Booster Mutaplasmid:
     id: 47787
+    marketGroup: 2448
     name: Unstable Large Shield Booster Mutaplasmid
     volume: 1.0
   Unstable Large Shield Extender Mutaplasmid:
     id: 47806
+    marketGroup: 2448
     name: Unstable Large Shield Extender Mutaplasmid
     volume: 1.0
   Unstable Medium Armor Plate Mutaplasmid:
     id: 47814
+    marketGroup: 2444
     name: Unstable Medium Armor Plate Mutaplasmid
     volume: 1.0
   Unstable Medium Armor Repairer Mutaplasmid:
     id: 47771
+    marketGroup: 2444
     name: Unstable Medium Armor Repairer Mutaplasmid
     volume: 1.0
   Unstable Medium Energy Neutralizer Mutaplasmid:
     id: 47826
+    marketGroup: 2454
     name: Unstable Medium Energy Neutralizer Mutaplasmid
     volume: 1.0
   Unstable Medium Shield Booster Mutaplasmid:
     id: 47783
+    marketGroup: 2447
     name: Unstable Medium Shield Booster Mutaplasmid
     volume: 1.0
   Unstable Medium Shield Extender Mutaplasmid:
     id: 47802
+    marketGroup: 2447
     name: Unstable Medium Shield Extender Mutaplasmid
     volume: 1.0
   Unstable Small Armor Plate Mutaplasmid:
     id: 47810
+    marketGroup: 2443
     name: Unstable Small Armor Plate Mutaplasmid
     volume: 1.0
   Unstable Small Armor Repairer Mutaplasmid:
     id: 47767
+    marketGroup: 2443
     name: Unstable Small Armor Repairer Mutaplasmid
     volume: 1.0
   Unstable Small Energy Neutralizer Mutaplasmid:
     id: 47822
+    marketGroup: 2453
     name: Unstable Small Energy Neutralizer Mutaplasmid
     volume: 1.0
   Unstable Small Shield Booster Mutaplasmid:
     id: 47779
+    marketGroup: 2446
     name: Unstable Small Shield Booster Mutaplasmid
     volume: 1.0
   Unstable Small Shield Extender Mutaplasmid:
     id: 47798
+    marketGroup: 2446
     name: Unstable Small Shield Extender Mutaplasmid
     volume: 1.0
   Unstable Stasis Webifier Mutaplasmid:
     id: 47700
+    marketGroup: 2442
     name: Unstable Stasis Webifier Mutaplasmid
     volume: 1.0
   Unstable Warp Disruptor Mutaplasmid:
     id: 47734
+    marketGroup: 2441
     name: Unstable Warp Disruptor Mutaplasmid
     volume: 1.0
   Unstable Warp Scrambler Mutaplasmid:
     id: 47730
+    marketGroup: 2441
     name: Unstable Warp Scrambler Mutaplasmid
     volume: 1.0
   Unstable X-Large Shield Booster Mutaplasmid:
     id: 47791
+    marketGroup: 2449
     name: Unstable X-Large Shield Booster Mutaplasmid
     volume: 1.0

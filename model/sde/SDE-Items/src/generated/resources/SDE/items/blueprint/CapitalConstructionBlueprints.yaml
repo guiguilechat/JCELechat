@@ -2,95 +2,114 @@ items:
   Capital Armor Plates Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21018
+    marketGroup: 796
     name: Capital Armor Plates Blueprint
     volume: 0.01
   Capital Capacitor Battery Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21020
+    marketGroup: 796
     name: Capital Capacitor Battery Blueprint
     volume: 0.01
   Capital Cargo Bay Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21028
+    marketGroup: 796
     name: Capital Cargo Bay Blueprint
     volume: 0.01
   Capital Clone Vat Bay Blueprint:
     IndustryBlueprintRank: 60.0
     id: 24548
+    marketGroup: 796
     name: Capital Clone Vat Bay Blueprint
     volume: 0.01
   Capital Computer System Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21036
+    marketGroup: 796
     name: Capital Computer System Blueprint
     volume: 0.01
   Capital Construction Parts Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21038
+    marketGroup: 796
     name: Capital Construction Parts Blueprint
     volume: 0.01
   Capital Corporate Hangar Bay Blueprint:
     IndustryBlueprintRank: 60.0
     id: 24561
+    marketGroup: 796
     name: Capital Corporate Hangar Bay Blueprint
     volume: 0.01
   Capital Doomsday Weapon Mount Blueprint:
     IndustryBlueprintRank: 60.0
     id: 24557
+    marketGroup: 796
     name: Capital Doomsday Weapon Mount Blueprint
     volume: 0.01
   Capital Drone Bay Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21030
+    marketGroup: 796
     name: Capital Drone Bay Blueprint
     volume: 0.01
   Capital Jump Bridge Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 24546
+    marketGroup: 796
     name: Capital Jump Bridge Array Blueprint
     volume: 0.01
   Capital Jump Drive Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21026
+    marketGroup: 796
     name: Capital Jump Drive Blueprint
     volume: 0.01
   Capital Launcher Hardpoint Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21042
+    marketGroup: 796
     name: Capital Launcher Hardpoint Blueprint
     volume: 0.01
   Capital Power Generator Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21022
+    marketGroup: 796
     name: Capital Power Generator Blueprint
     volume: 0.01
   Capital Propulsion Engine Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21010
+    marketGroup: 796
     name: Capital Propulsion Engine Blueprint
     volume: 0.01
   Capital Sensor Cluster Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21014
+    marketGroup: 796
     name: Capital Sensor Cluster Blueprint
     volume: 0.01
   Capital Shield Emitter Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21024
+    marketGroup: 796
     name: Capital Shield Emitter Blueprint
     volume: 0.01
   Capital Ship Maintenance Bay Blueprint:
     IndustryBlueprintRank: 60.0
     id: 24559
+    marketGroup: 796
     name: Capital Ship Maintenance Bay Blueprint
     volume: 0.01
   Capital Siege Array Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21040
+    marketGroup: 796
     name: Capital Siege Array Blueprint
     volume: 0.01
   Capital Turret Hardpoint Blueprint:
     IndustryBlueprintRank: 60.0
     id: 21012
+    marketGroup: 796
     name: Capital Turret Hardpoint Blueprint
     volume: 0.01

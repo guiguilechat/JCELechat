@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43887
+    marketGroup: 2347
     name: Standup M-Set TE Research Cost Optimization I
     volume: 10.0
   Standup M-Set TE Research Cost Optimization II:
@@ -37,5 +38,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 43886
+    marketGroup: 2347
     name: Standup M-Set TE Research Cost Optimization II
     volume: 10.0

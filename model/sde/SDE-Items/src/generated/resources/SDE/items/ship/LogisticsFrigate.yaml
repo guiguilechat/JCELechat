@@ -77,6 +77,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
     id: 37457
+    marketGroup: 2147
     name: Deacon
     volume: 28700.0
   Kirin:
@@ -159,6 +160,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
     id: 37458
+    marketGroup: 2148
     name: Kirin
     volume: 20000.0
   Scalpel:
@@ -241,6 +243,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
     id: 37460
+    marketGroup: 2150
     name: Scalpel
     volume: 17100.0
   Thalia:
@@ -323,5 +326,6 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
     id: 37459
+    marketGroup: 2149
     name: Thalia
     volume: 10000.0

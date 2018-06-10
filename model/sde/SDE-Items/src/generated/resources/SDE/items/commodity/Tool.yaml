@@ -55,12 +55,14 @@ items:
     Hp: 100
     TechLevel: 1
     id: 11476
+    marketGroup: 1908
     name: R.A.M.- Ammunition Tech
     volume: 0.04
   R.A.M.- Armor/Hull Tech:
     Hp: 100
     TechLevel: 1
     id: 11475
+    marketGroup: 1908
     name: R.A.M.- Armor/Hull Tech
     volume: 0.04
   R.A.M.- Battlecruiser Tech:
@@ -85,18 +87,21 @@ items:
     Hp: 100
     TechLevel: 1
     id: 11485
+    marketGroup: 1908
     name: R.A.M.- Cybernetics
     volume: 0.04
   R.A.M.- Electronics:
     Hp: 100
     TechLevel: 1
     id: 11483
+    marketGroup: 1908
     name: R.A.M.- Electronics
     volume: 0.04
   R.A.M.- Energy Tech:
     Hp: 100
     TechLevel: 1
     id: 11482
+    marketGroup: 1908
     name: R.A.M.- Energy Tech
     volume: 0.04
   R.A.M.- Hypernet Tech:
@@ -127,96 +132,112 @@ items:
     Hp: 100
     TechLevel: 1
     id: 11481
+    marketGroup: 1908
     name: R.A.M.- Robotics
     volume: 0.04
   R.A.M.- Shield Tech:
     Hp: 100
     TechLevel: 1
     id: 11484
+    marketGroup: 1908
     name: R.A.M.- Shield Tech
     volume: 0.04
   R.A.M.- Starship Tech:
     Hp: 100
     TechLevel: 1
     id: 11478
+    marketGroup: 1908
     name: R.A.M.- Starship Tech
     volume: 0.04
   R.A.M.- Weapon Tech:
     Hp: 100
     TechLevel: 1
     id: 11486
+    marketGroup: 1908
     name: R.A.M.- Weapon Tech
     volume: 0.04
   R.Db - Boundless Creations:
     Hp: 100
     TechLevel: 1
     id: 11461
+    marketGroup: 1907
     name: R.Db - Boundless Creations
     volume: 0.04
   R.Db - Carthum Conglomerate:
     Hp: 100
     TechLevel: 1
     id: 11459
+    marketGroup: 1907
     name: R.Db - Carthum Conglomerate
     volume: 0.04
   R.Db - Core Complexion:
     Hp: 100
     TechLevel: 1
     id: 11462
+    marketGroup: 1907
     name: R.Db - Core Complexion
     volume: 0.04
   R.Db - CreoDron:
     Hp: 100
     TechLevel: 1
     id: 11466
+    marketGroup: 1907
     name: R.Db - CreoDron
     volume: 0.04
   R.Db - Duvolle Labs:
     Hp: 100
     TechLevel: 1
     id: 11467
+    marketGroup: 1907
     name: R.Db - Duvolle Labs
     volume: 0.04
   R.Db - Ishukone:
     Hp: 100
     TechLevel: 1
     id: 11463
+    marketGroup: 1907
     name: R.Db - Ishukone
     volume: 0.04
   R.Db - Kaalakiota:
     Hp: 100
     TechLevel: 1
     id: 11464
+    marketGroup: 1907
     name: R.Db - Kaalakiota
     volume: 0.04
   R.Db - Khanid Innovation:
     Hp: 100
     TechLevel: 1
     id: 11458
+    marketGroup: 1907
     name: R.Db - Khanid Innovation
     volume: 0.04
   R.Db - Lai Dai:
     Hp: 100
     TechLevel: 1
     id: 11746
+    marketGroup: 1907
     name: R.Db - Lai Dai
     volume: 0.04
   R.Db - Roden Shipyards:
     Hp: 100
     TechLevel: 1
     id: 11465
+    marketGroup: 1907
     name: R.Db - Roden Shipyards
     volume: 0.04
   R.Db - Thukker Mix:
     Hp: 100
     TechLevel: 1
     id: 11460
+    marketGroup: 1907
     name: R.Db - Thukker Mix
     volume: 0.04
   R.Db - Viziam:
     Hp: 100
     TechLevel: 1
     id: 11457
+    marketGroup: 1907
     name: R.Db - Viziam
     volume: 0.04
   Terran Molecular Sequencer:

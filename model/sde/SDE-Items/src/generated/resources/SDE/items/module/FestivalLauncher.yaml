@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 44109
+    marketGroup: 1663
     name: Display Launcher
     volume: 20.0
   Festival Launcher:
@@ -24,5 +25,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 19660
+    marketGroup: 1663
     name: Festival Launcher
     volume: 20.0

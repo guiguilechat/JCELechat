@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 46488
+    marketGroup: 2341
     name: Standup M-Set Hybrid Reactor Time Efficiency I
     volume: 10.0
   Standup M-Set Hybrid Reactor Time Efficiency II:
@@ -33,5 +34,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 46489
+    marketGroup: 2341
     name: Standup M-Set Hybrid Reactor Time Efficiency II
     volume: 10.0

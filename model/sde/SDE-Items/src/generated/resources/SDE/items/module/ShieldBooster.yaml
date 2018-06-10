@@ -17,6 +17,7 @@ items:
     ShieldBonus: 9750.0
     TechLevel: 1
     id: 3542
+    marketGroup: 778
     name: CONCORD Capital Shield Booster
     volume: 4000.0
   Caldari Navy Large Shield Booster:
@@ -35,6 +36,7 @@ items:
     ShieldBonus: 252.0
     TechLevel: 1
     id: 15900
+    marketGroup: 611
     name: Caldari Navy Large Shield Booster
     volume: 25.0
   Caldari Navy Medium Shield Booster:
@@ -53,6 +55,7 @@ items:
     ShieldBonus: 95.0
     TechLevel: 1
     id: 15899
+    marketGroup: 610
     name: Caldari Navy Medium Shield Booster
     volume: 10.0
   Caldari Navy Small Shield Booster:
@@ -71,6 +74,7 @@ items:
     ShieldBonus: 32.0
     TechLevel: 1
     id: 15898
+    marketGroup: 609
     name: Caldari Navy Small Shield Booster
     volume: 5.0
   Caldari Navy X-Large Shield Booster:
@@ -89,6 +93,7 @@ items:
     ShieldBonus: 630.0
     TechLevel: 1
     id: 15897
+    marketGroup: 612
     name: Caldari Navy X-Large Shield Booster
     volume: 50.0
   Capital C-5L Compact Shield Booster:
@@ -108,6 +113,7 @@ items:
     ShieldBonus: 7920.0
     TechLevel: 1
     id: 41505
+    marketGroup: 778
     name: Capital C-5L Compact Shield Booster
     volume: 4000.0
   Capital Clarity Ward Enduring Shield Booster:
@@ -127,6 +133,7 @@ items:
     ShieldBonus: 7920.0
     TechLevel: 1
     id: 41506
+    marketGroup: 778
     name: Capital Clarity Ward Enduring Shield Booster
     volume: 4000.0
   Capital Shield Booster I:
@@ -144,6 +151,7 @@ items:
     ShieldBonus: 7200.0
     TechLevel: 1
     id: 20703
+    marketGroup: 778
     name: Capital Shield Booster I
     volume: 4000.0
   Capital Shield Booster II:
@@ -163,6 +171,7 @@ items:
     ShieldBonus: 8640.0
     TechLevel: 2
     id: 41507
+    marketGroup: 778
     name: Capital Shield Booster II
     volume: 4000.0
   Civilian Shield Booster:
@@ -180,6 +189,7 @@ items:
     ShieldBonus: 7.0
     TechLevel: 1
     id: 10039
+    marketGroup: 609
     name: Civilian Shield Booster
     volume: 5.0
   Domination Capital Shield Booster:
@@ -200,6 +210,7 @@ items:
     ShieldBonus: 9400.0
     TechLevel: 1
     id: 41510
+    marketGroup: 778
     name: Domination Capital Shield Booster
     volume: 4000.0
   Domination Large Shield Booster:
@@ -218,6 +229,7 @@ items:
     ShieldBonus: 221.0
     TechLevel: 1
     id: 13948
+    marketGroup: 611
     name: Domination Large Shield Booster
     volume: 25.0
   Domination Medium Shield Booster:
@@ -236,6 +248,7 @@ items:
     ShieldBonus: 83.0
     TechLevel: 1
     id: 13950
+    marketGroup: 610
     name: Domination Medium Shield Booster
     volume: 10.0
   Domination Small Shield Booster:
@@ -254,6 +267,7 @@ items:
     ShieldBonus: 28.0
     TechLevel: 1
     id: 13952
+    marketGroup: 609
     name: Domination Small Shield Booster
     volume: 5.0
   Domination X-Large Shield Booster:
@@ -272,6 +286,7 @@ items:
     ShieldBonus: 552.0
     TechLevel: 1
     id: 13954
+    marketGroup: 612
     name: Domination X-Large Shield Booster
     volume: 50.0
   Dread Guristas Capital Shield Booster:
@@ -292,6 +307,7 @@ items:
     ShieldBonus: 10000.0
     TechLevel: 1
     id: 41509
+    marketGroup: 778
     name: Dread Guristas Capital Shield Booster
     volume: 4000.0
   Dread Guristas Large Shield Booster:
@@ -310,6 +326,7 @@ items:
     ShieldBonus: 252.0
     TechLevel: 1
     id: 13947
+    marketGroup: 611
     name: Dread Guristas Large Shield Booster
     volume: 25.0
   Dread Guristas Medium Shield Booster:
@@ -328,6 +345,7 @@ items:
     ShieldBonus: 95.0
     TechLevel: 1
     id: 13949
+    marketGroup: 610
     name: Dread Guristas Medium Shield Booster
     volume: 10.0
   Dread Guristas Small Shield Booster:
@@ -346,6 +364,7 @@ items:
     ShieldBonus: 32.0
     TechLevel: 1
     id: 13951
+    marketGroup: 609
     name: Dread Guristas Small Shield Booster
     volume: 5.0
   Dread Guristas X-Large Shield Booster:
@@ -364,6 +383,7 @@ items:
     ShieldBonus: 630.0
     TechLevel: 1
     id: 13953
+    marketGroup: 612
     name: Dread Guristas X-Large Shield Booster
     volume: 50.0
   Estamel's Modified Large Shield Booster:
@@ -382,6 +402,7 @@ items:
     ShieldBonus: 370.0
     TechLevel: 1
     id: 14703
+    marketGroup: 611
     name: Estamel's Modified Large Shield Booster
     volume: 25.0
   Estamel's Modified X-Large Shield Booster:
@@ -400,6 +421,7 @@ items:
     ShieldBonus: 924.0
     TechLevel: 1
     id: 14707
+    marketGroup: 612
     name: Estamel's Modified X-Large Shield Booster
     volume: 50.0
   Gist A-Type Large Shield Booster:
@@ -419,6 +441,7 @@ items:
     ShieldBonus: 270.0
     TechLevel: 1
     id: 19199
+    marketGroup: 611
     name: Gist A-Type Large Shield Booster
     volume: 25.0
   Gist A-Type X-Large Shield Booster:
@@ -438,6 +461,7 @@ items:
     ShieldBonus: 682.0
     TechLevel: 1
     id: 19197
+    marketGroup: 612
     name: Gist A-Type X-Large Shield Booster
     volume: 50.0
   Gist B-Type Large Shield Booster:
@@ -457,6 +481,7 @@ items:
     ShieldBonus: 253.0
     TechLevel: 1
     id: 19194
+    marketGroup: 611
     name: Gist B-Type Large Shield Booster
     volume: 25.0
   Gist B-Type X-Large Shield Booster:
@@ -476,6 +501,7 @@ items:
     ShieldBonus: 634.0
     TechLevel: 1
     id: 19196
+    marketGroup: 612
     name: Gist B-Type X-Large Shield Booster
     volume: 50.0
   Gist C-Type Large Shield Booster:
@@ -495,6 +521,7 @@ items:
     ShieldBonus: 237.0
     TechLevel: 1
     id: 19193
+    marketGroup: 611
     name: Gist C-Type Large Shield Booster
     volume: 25.0
   Gist C-Type X-Large Shield Booster:
@@ -514,6 +541,7 @@ items:
     ShieldBonus: 578.0
     TechLevel: 1
     id: 19195
+    marketGroup: 612
     name: Gist C-Type X-Large Shield Booster
     volume: 50.0
   Gist X-Type Large Shield Booster:
@@ -533,6 +561,7 @@ items:
     ShieldBonus: 296.0
     TechLevel: 1
     id: 19200
+    marketGroup: 611
     name: Gist X-Type Large Shield Booster
     volume: 25.0
   Gist X-Type X-Large Shield Booster:
@@ -552,6 +581,7 @@ items:
     ShieldBonus: 739.0
     TechLevel: 1
     id: 19198
+    marketGroup: 612
     name: Gist X-Type X-Large Shield Booster
     volume: 50.0
   Gistii A-Type Small Shield Booster:
@@ -571,6 +601,7 @@ items:
     ShieldBonus: 57.0
     TechLevel: 1
     id: 19173
+    marketGroup: 609
     name: Gistii A-Type Small Shield Booster
     volume: 5.0
   Gistii B-Type Small Shield Booster:
@@ -590,6 +621,7 @@ items:
     ShieldBonus: 41.0
     TechLevel: 1
     id: 19171
+    marketGroup: 609
     name: Gistii B-Type Small Shield Booster
     volume: 5.0
   Gistii C-Type Small Shield Booster:
@@ -609,6 +641,7 @@ items:
     ShieldBonus: 39.0
     TechLevel: 1
     id: 19169
+    marketGroup: 609
     name: Gistii C-Type Small Shield Booster
     volume: 5.0
   Gistum A-Type Medium Shield Booster:
@@ -628,6 +661,7 @@ items:
     ShieldBonus: 170.0
     TechLevel: 1
     id: 19185
+    marketGroup: 610
     name: Gistum A-Type Medium Shield Booster
     volume: 10.0
   Gistum B-Type Medium Shield Booster:
@@ -647,6 +681,7 @@ items:
     ShieldBonus: 124.0
     TechLevel: 1
     id: 19183
+    marketGroup: 610
     name: Gistum B-Type Medium Shield Booster
     volume: 10.0
   Gistum C-Type Medium Shield Booster:
@@ -666,6 +701,7 @@ items:
     ShieldBonus: 116.0
     TechLevel: 1
     id: 19181
+    marketGroup: 610
     name: Gistum C-Type Medium Shield Booster
     volume: 10.0
   Hakim's Modified Large Shield Booster:
@@ -685,6 +721,7 @@ items:
     ShieldBonus: 253.0
     TechLevel: 1
     id: 14597
+    marketGroup: 611
     name: Hakim's Modified Large Shield Booster
     volume: 25.0
   Hakim's Modified X-Large Shield Booster:
@@ -704,6 +741,7 @@ items:
     ShieldBonus: 634.0
     TechLevel: 1
     id: 14601
+    marketGroup: 612
     name: Hakim's Modified X-Large Shield Booster
     volume: 50.0
   Kaikka's Modified Large Shield Booster:
@@ -722,6 +760,7 @@ items:
     ShieldBonus: 290.0
     TechLevel: 1
     id: 14700
+    marketGroup: 611
     name: Kaikka's Modified Large Shield Booster
     volume: 25.0
   Kaikka's Modified X-Large Shield Booster:
@@ -740,6 +779,7 @@ items:
     ShieldBonus: 726.0
     TechLevel: 1
     id: 14704
+    marketGroup: 612
     name: Kaikka's Modified X-Large Shield Booster
     volume: 50.0
   Large 'Outlaw' Shield Booster:
@@ -759,6 +799,7 @@ items:
     ShieldBonus: 221.0
     TechLevel: 1
     id: 20621
+    marketGroup: 611
     name: Large 'Outlaw' Shield Booster
     volume: 25.0
   Large Abyssal Shield Booster:
@@ -784,6 +825,7 @@ items:
     ShieldBonus: 248.0
     TechLevel: 1
     id: 10880
+    marketGroup: 611
     name: Large C5-L Emergency Shield Overload I
     volume: 25.0
   Large Clarity Ward Booster I:
@@ -802,6 +844,7 @@ items:
     ShieldBonus: 238.0
     TechLevel: 1
     id: 10876
+    marketGroup: 611
     name: Large Clarity Ward Booster I
     volume: 25.0
   Large Converse Deflection Catalyzer:
@@ -820,6 +863,7 @@ items:
     ShieldBonus: 217.0
     TechLevel: 1
     id: 10878
+    marketGroup: 611
     name: Large Converse Deflection Catalyzer
     volume: 25.0
   Large Neutron Saturation Injector I:
@@ -838,6 +882,7 @@ items:
     ShieldBonus: 228.0
     TechLevel: 1
     id: 10874
+    marketGroup: 611
     name: Large Neutron Saturation Injector I
     volume: 25.0
   Large Shield Booster I:
@@ -855,6 +900,7 @@ items:
     ShieldBonus: 207.0
     TechLevel: 1
     id: 10838
+    marketGroup: 611
     name: Large Shield Booster I
     volume: 25.0
   Large Shield Booster II:
@@ -873,6 +919,7 @@ items:
     ShieldBonus: 276.0
     TechLevel: 2
     id: 10858
+    marketGroup: 611
     name: Large Shield Booster II
     volume: 10.0
   Medium 'Lone Ranger' Shield Booster:
@@ -892,6 +939,7 @@ items:
     ShieldBonus: 83.0
     TechLevel: 1
     id: 20619
+    marketGroup: 610
     name: Medium 'Lone Ranger' Shield Booster
     volume: 10.0
   Medium Abyssal Shield Booster:
@@ -917,6 +965,7 @@ items:
     ShieldBonus: 93.0
     TechLevel: 1
     id: 10872
+    marketGroup: 610
     name: Medium C5-L Emergency Shield Overload I
     volume: 10.0
   Medium Clarity Ward Booster I:
@@ -935,6 +984,7 @@ items:
     ShieldBonus: 90.0
     TechLevel: 1
     id: 10868
+    marketGroup: 610
     name: Medium Clarity Ward Booster I
     volume: 10.0
   Medium Converse Deflection Catalyzer:
@@ -953,6 +1003,7 @@ items:
     ShieldBonus: 82.0
     TechLevel: 1
     id: 10870
+    marketGroup: 610
     name: Medium Converse Deflection Catalyzer
     volume: 10.0
   Medium Neutron Saturation Injector I:
@@ -971,6 +1022,7 @@ items:
     ShieldBonus: 85.0
     TechLevel: 1
     id: 10866
+    marketGroup: 610
     name: Medium Neutron Saturation Injector I
     volume: 10.0
   Medium Shield Booster I:
@@ -988,6 +1040,7 @@ items:
     ShieldBonus: 78.0
     TechLevel: 1
     id: 10836
+    marketGroup: 610
     name: Medium Shield Booster I
     volume: 10.0
   Medium Shield Booster II:
@@ -1006,6 +1059,7 @@ items:
     ShieldBonus: 104.0
     TechLevel: 2
     id: 10850
+    marketGroup: 610
     name: Medium Shield Booster II
     volume: 10.0
   Pith A-Type Large Shield Booster:
@@ -1025,6 +1079,7 @@ items:
     ShieldBonus: 343.0
     TechLevel: 1
     id: 19205
+    marketGroup: 611
     name: Pith A-Type Large Shield Booster
     volume: 25.0
   Pith A-Type X-Large Shield Booster:
@@ -1044,6 +1099,7 @@ items:
     ShieldBonus: 858.0
     TechLevel: 1
     id: 19206
+    marketGroup: 612
     name: Pith A-Type X-Large Shield Booster
     volume: 50.0
   Pith B-Type Large Shield Booster:
@@ -1063,6 +1119,7 @@ items:
     ShieldBonus: 317.0
     TechLevel: 1
     id: 19203
+    marketGroup: 611
     name: Pith B-Type Large Shield Booster
     volume: 25.0
   Pith B-Type X-Large Shield Booster:
@@ -1082,6 +1139,7 @@ items:
     ShieldBonus: 792.0
     TechLevel: 1
     id: 19204
+    marketGroup: 612
     name: Pith B-Type X-Large Shield Booster
     volume: 50.0
   Pith C-Type Large Shield Booster:
@@ -1101,6 +1159,7 @@ items:
     ShieldBonus: 290.0
     TechLevel: 1
     id: 19201
+    marketGroup: 611
     name: Pith C-Type Large Shield Booster
     volume: 25.0
   Pith C-Type X-Large Shield Booster:
@@ -1120,6 +1179,7 @@ items:
     ShieldBonus: 726.0
     TechLevel: 1
     id: 19202
+    marketGroup: 612
     name: Pith C-Type X-Large Shield Booster
     volume: 50.0
   Pith X-Type Large Shield Booster:
@@ -1139,6 +1199,7 @@ items:
     ShieldBonus: 370.0
     TechLevel: 1
     id: 19207
+    marketGroup: 611
     name: Pith X-Type Large Shield Booster
     volume: 25.0
   Pith X-Type X-Large Shield Booster:
@@ -1158,6 +1219,7 @@ items:
     ShieldBonus: 924.0
     TechLevel: 1
     id: 19208
+    marketGroup: 612
     name: Pith X-Type X-Large Shield Booster
     volume: 50.0
   Pithi A-Type Small Shield Booster:
@@ -1177,6 +1239,7 @@ items:
     ShieldBonus: 76.0
     TechLevel: 1
     id: 19179
+    marketGroup: 609
     name: Pithi A-Type Small Shield Booster
     volume: 5.0
   Pithi B-Type Small Shield Booster:
@@ -1196,6 +1259,7 @@ items:
     ShieldBonus: 65.0
     TechLevel: 1
     id: 19177
+    marketGroup: 609
     name: Pithi B-Type Small Shield Booster
     volume: 5.0
   Pithi C-Type Small Shield Booster:
@@ -1215,6 +1279,7 @@ items:
     ShieldBonus: 55.0
     TechLevel: 1
     id: 19175
+    marketGroup: 609
     name: Pithi C-Type Small Shield Booster
     volume: 5.0
   Pithum A-Type Medium Shield Booster:
@@ -1234,6 +1299,7 @@ items:
     ShieldBonus: 228.0
     TechLevel: 1
     id: 19191
+    marketGroup: 610
     name: Pithum A-Type Medium Shield Booster
     volume: 10.0
   Pithum B-Type Medium Shield Booster:
@@ -1253,6 +1319,7 @@ items:
     ShieldBonus: 194.0
     TechLevel: 1
     id: 19189
+    marketGroup: 610
     name: Pithum B-Type Medium Shield Booster
     volume: 10.0
   Pithum C-Type Medium Shield Booster:
@@ -1272,6 +1339,7 @@ items:
     ShieldBonus: 163.0
     TechLevel: 1
     id: 19187
+    marketGroup: 610
     name: Pithum C-Type Medium Shield Booster
     volume: 10.0
   Republic Fleet Large Shield Booster:
@@ -1290,6 +1358,7 @@ items:
     ShieldBonus: 221.0
     TechLevel: 1
     id: 15904
+    marketGroup: 611
     name: Republic Fleet Large Shield Booster
     volume: 25.0
   Republic Fleet Medium Shield Booster:
@@ -1308,6 +1377,7 @@ items:
     ShieldBonus: 83.0
     TechLevel: 1
     id: 15903
+    marketGroup: 610
     name: Republic Fleet Medium Shield Booster
     volume: 10.0
   Republic Fleet Small Shield Booster:
@@ -1326,6 +1396,7 @@ items:
     ShieldBonus: 28.0
     TechLevel: 1
     id: 15902
+    marketGroup: 609
     name: Republic Fleet Small Shield Booster
     volume: 5.0
   Republic Fleet X-Large Shield Booster:
@@ -1344,6 +1415,7 @@ items:
     ShieldBonus: 552.0
     TechLevel: 1
     id: 15901
+    marketGroup: 612
     name: Republic Fleet X-Large Shield Booster
     volume: 50.0
   Small 'Settler' Shield Booster:
@@ -1363,6 +1435,7 @@ items:
     ShieldBonus: 28.0
     TechLevel: 1
     id: 20617
+    marketGroup: 609
     name: Small 'Settler' Shield Booster
     volume: 5.0
   Small Abyssal Shield Booster:
@@ -1388,6 +1461,7 @@ items:
     ShieldBonus: 31.0
     TechLevel: 1
     id: 6437
+    marketGroup: 609
     name: Small C5-L Emergency Shield Overload I
     volume: 5.0
   Small Clarity Ward Booster I:
@@ -1406,6 +1480,7 @@ items:
     ShieldBonus: 30.0
     TechLevel: 1
     id: 6441
+    marketGroup: 609
     name: Small Clarity Ward Booster I
     volume: 5.0
   Small Converse Deflection Catalyzer:
@@ -1424,6 +1499,7 @@ items:
     ShieldBonus: 28.0
     TechLevel: 1
     id: 6443
+    marketGroup: 609
     name: Small Converse Deflection Catalyzer
     volume: 5.0
   Small Neutron Saturation Injector I:
@@ -1442,6 +1518,7 @@ items:
     ShieldBonus: 29.0
     TechLevel: 1
     id: 6439
+    marketGroup: 609
     name: Small Neutron Saturation Injector I
     volume: 5.0
   Small Shield Booster I:
@@ -1459,6 +1536,7 @@ items:
     ShieldBonus: 26.0
     TechLevel: 1
     id: 399
+    marketGroup: 609
     name: Small Shield Booster I
     volume: 5.0
   Small Shield Booster II:
@@ -1477,6 +1555,7 @@ items:
     ShieldBonus: 35.0
     TechLevel: 2
     id: 400
+    marketGroup: 609
     name: Small Shield Booster II
     volume: 5.0
   Thon's Modified Large Shield Booster:
@@ -1495,6 +1574,7 @@ items:
     ShieldBonus: 317.0
     TechLevel: 1
     id: 14701
+    marketGroup: 611
     name: Thon's Modified Large Shield Booster
     volume: 25.0
   Thon's Modified X-Large Shield Booster:
@@ -1513,6 +1593,7 @@ items:
     ShieldBonus: 792.0
     TechLevel: 1
     id: 14705
+    marketGroup: 612
     name: Thon's Modified X-Large Shield Booster
     volume: 50.0
   Tobias' Modified Large Shield Booster:
@@ -1532,6 +1613,7 @@ items:
     ShieldBonus: 296.0
     TechLevel: 1
     id: 14599
+    marketGroup: 611
     name: Tobias' Modified Large Shield Booster
     volume: 25.0
   Tobias' Modified X-Large Shield Booster:
@@ -1551,6 +1633,7 @@ items:
     ShieldBonus: 739.0
     TechLevel: 1
     id: 14603
+    marketGroup: 612
     name: Tobias' Modified X-Large Shield Booster
     volume: 50.0
   True Sansha Capital Shield Booster:
@@ -1571,6 +1654,7 @@ items:
     ShieldBonus: 9400.0
     TechLevel: 1
     id: 41508
+    marketGroup: 778
     name: True Sansha Capital Shield Booster
     volume: 4000.0
   Vepas' Modified Large Shield Booster:
@@ -1589,6 +1673,7 @@ items:
     ShieldBonus: 343.0
     TechLevel: 1
     id: 14702
+    marketGroup: 611
     name: Vepas' Modified Large Shield Booster
     volume: 25.0
   Vepas' Modified X-Large Shield Booster:
@@ -1607,6 +1692,7 @@ items:
     ShieldBonus: 858.0
     TechLevel: 1
     id: 14706
+    marketGroup: 612
     name: Vepas' Modified X-Large Shield Booster
     volume: 50.0
   X-Large 'Locomotive' Shield Booster:
@@ -1626,6 +1712,7 @@ items:
     ShieldBonus: 552.0
     TechLevel: 1
     id: 20623
+    marketGroup: 612
     name: X-Large 'Locomotive' Shield Booster
     volume: 50.0
   X-Large Abyssal Shield Booster:
@@ -1651,6 +1738,7 @@ items:
     ShieldBonus: 621.0
     TechLevel: 1
     id: 10888
+    marketGroup: 612
     name: X-Large C5-L Emergency Shield Overload I
     volume: 50.0
   X-Large Clarity Ward Booster I:
@@ -1669,6 +1757,7 @@ items:
     ShieldBonus: 596.0
     TechLevel: 1
     id: 10884
+    marketGroup: 612
     name: X-Large Clarity Ward Booster I
     volume: 50.0
   X-Large Converse Deflection Catalyzer:
@@ -1687,6 +1776,7 @@ items:
     ShieldBonus: 544.0
     TechLevel: 1
     id: 10886
+    marketGroup: 612
     name: X-Large Converse Deflection Catalyzer
     volume: 50.0
   X-Large Neutron Saturation Injector I:
@@ -1705,6 +1795,7 @@ items:
     ShieldBonus: 569.0
     TechLevel: 1
     id: 10882
+    marketGroup: 612
     name: X-Large Neutron Saturation Injector I
     volume: 50.0
   X-Large Shield Booster I:
@@ -1722,6 +1813,7 @@ items:
     ShieldBonus: 518.0
     TechLevel: 1
     id: 10840
+    marketGroup: 612
     name: X-Large Shield Booster I
     volume: 50.0
   X-Large Shield Booster II:
@@ -1740,5 +1832,6 @@ items:
     ShieldBonus: 690.0
     TechLevel: 2
     id: 10842
+    marketGroup: 612
     name: X-Large Shield Booster II
     volume: 50.0

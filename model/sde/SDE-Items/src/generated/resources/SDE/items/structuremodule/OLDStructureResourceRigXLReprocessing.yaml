@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37284
+    marketGroup: 2343
     name: OLD XL-Set Reprocessing Monitor I
     volume: 40.0
   OLD XL-Set Reprocessing Monitor II:
@@ -35,5 +36,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37285
+    marketGroup: 2343
     name: OLD XL-Set Reprocessing Monitor II
     volume: 40.0

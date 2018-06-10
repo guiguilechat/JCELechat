@@ -14,18 +14,21 @@ items:
   Bowhead Blueprint:
     TechLevel: 1
     id: 34329
+    marketGroup: 1949
     name: Bowhead Blueprint
     volume: 0.01
   Charon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 20186
+    marketGroup: 789
     name: Charon Blueprint
     volume: 0.01
   Fenrir Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 20190
+    marketGroup: 791
     name: Fenrir Blueprint
     volume: 0.01
   Nomad Blueprint:
@@ -38,12 +41,14 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 20188
+    marketGroup: 790
     name: Obelisk Blueprint
     volume: 0.01
   Providence Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 20184
+    marketGroup: 788
     name: Providence Blueprint
     volume: 0.01
   Rhea Blueprint:

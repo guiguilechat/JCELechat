@@ -10,6 +10,7 @@ items:
     ScanDurationBonus: -10
     TechLevel: 1
     id: 33176
+    marketGroup: 1709
     name: Scan Acquisition Array I
     volume: 5.0
   Scan Acquisition Array II:
@@ -24,5 +25,6 @@ items:
     ScanDurationBonus: -20
     TechLevel: 2
     id: 33197
+    marketGroup: 1709
     name: Scan Acquisition Array II
     volume: 5.0

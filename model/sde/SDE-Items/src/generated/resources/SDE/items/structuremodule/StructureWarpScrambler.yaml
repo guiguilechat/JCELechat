@@ -22,6 +22,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 100
     id: 35949
+    marketGroup: 2216
     name: Standup Focused Warp Disruptor I
     volume: 4000.0
   Standup Focused Warp Disruptor II:
@@ -48,5 +49,6 @@ items:
     TechLevel: 2
     WarpScrambleStrength: 100
     id: 47334
+    marketGroup: 2216
     name: Standup Focused Warp Disruptor II
     volume: 4000.0

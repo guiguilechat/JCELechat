@@ -7,6 +7,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31278
+    marketGroup: 1793
     name: Capital Ionic Field Projector I
     volume: 40.0
   Capital Ionic Field Projector II:
@@ -18,6 +19,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31284
+    marketGroup: 1793
     name: Capital Ionic Field Projector II
     volume: 40.0
   Capital Targeting System Subcontroller I:
@@ -28,6 +30,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31326
+    marketGroup: 1793
     name: Capital Targeting System Subcontroller I
     volume: 40.0
   Capital Targeting System Subcontroller II:
@@ -39,6 +42,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31332
+    marketGroup: 1793
     name: Capital Targeting System Subcontroller II
     volume: 40.0
   Large Ionic Field Projector I:
@@ -49,6 +53,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26102
+    marketGroup: 1792
     name: Large Ionic Field Projector I
     volume: 20.0
   Large Ionic Field Projector II:
@@ -60,6 +65,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26358
+    marketGroup: 1792
     name: Large Ionic Field Projector II
     volume: 20.0
   Large Targeting System Subcontroller I:
@@ -70,6 +76,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26100
+    marketGroup: 1792
     name: Large Targeting System Subcontroller I
     volume: 20.0
   Large Targeting System Subcontroller II:
@@ -81,6 +88,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26364
+    marketGroup: 1792
     name: Large Targeting System Subcontroller II
     volume: 20.0
   Medium Ionic Field Projector I:
@@ -91,6 +99,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31276
+    marketGroup: 1791
     name: Medium Ionic Field Projector I
     volume: 10.0
   Medium Ionic Field Projector II:
@@ -102,6 +111,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31282
+    marketGroup: 1791
     name: Medium Ionic Field Projector II
     volume: 10.0
   Medium Targeting System Subcontroller I:
@@ -112,6 +122,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31324
+    marketGroup: 1791
     name: Medium Targeting System Subcontroller I
     volume: 10.0
   Medium Targeting System Subcontroller II:
@@ -123,6 +134,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31330
+    marketGroup: 1791
     name: Medium Targeting System Subcontroller II
     volume: 10.0
   Small Ionic Field Projector I:
@@ -133,6 +145,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31274
+    marketGroup: 1790
     name: Small Ionic Field Projector I
     volume: 5.0
   Small Ionic Field Projector II:
@@ -144,6 +157,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31280
+    marketGroup: 1790
     name: Small Ionic Field Projector II
     volume: 5.0
   Small Targeting System Subcontroller I:
@@ -154,6 +168,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31322
+    marketGroup: 1790
     name: Small Targeting System Subcontroller I
     volume: 5.0
   Small Targeting System Subcontroller II:
@@ -165,5 +180,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31328
+    marketGroup: 1790
     name: Small Targeting System Subcontroller II
     volume: 5.0

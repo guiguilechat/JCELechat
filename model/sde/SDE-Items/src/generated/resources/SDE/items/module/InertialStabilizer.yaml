@@ -9,6 +9,7 @@ items:
     SignatureRadiusBonus: 5.0
     TechLevel: 1
     id: 1401
+    marketGroup: 1086
     name: '''Basic'' Inertial Stabilizers'
     volume: 5.0
   Alpha Hull Mod Inertial Stabilizers:
@@ -42,6 +43,7 @@ items:
     SignatureRadiusBonus: 7.0
     TechLevel: 1
     id: 34481
+    marketGroup: 1086
     name: Domination Inertial Stabilizers
     volume: 5.0
   Inertial Stabilizers I:
@@ -52,6 +54,7 @@ items:
     SignatureRadiusBonus: 10.0
     TechLevel: 1
     id: 1403
+    marketGroup: 1086
     name: Inertial Stabilizers I
     volume: 5.0
   Inertial Stabilizers II:
@@ -63,6 +66,7 @@ items:
     SignatureRadiusBonus: 11.0
     TechLevel: 2
     id: 1405
+    marketGroup: 1086
     name: Inertial Stabilizers II
     volume: 5.0
   Local Hull Conversion Inertial Stabilizers I:
@@ -118,6 +122,7 @@ items:
     SignatureRadiusBonus: 10.0
     TechLevel: 1
     id: 34483
+    marketGroup: 1086
     name: Shadow Serpentis Inertial Stabilizers
     volume: 5.0
   Synthetic Hull Conversion Inertia Stabilizers:
@@ -130,6 +135,7 @@ items:
     SignatureRadiusBonus: 6.0
     TechLevel: 1
     id: 21498
+    marketGroup: 1086
     name: Synthetic Hull Conversion Inertia Stabilizers
     volume: 5.0
   Type-D Restrained Inertial Stabilizers:
@@ -141,6 +147,7 @@ items:
     SignatureRadiusBonus: 8.0
     TechLevel: 1
     id: 5533
+    marketGroup: 1086
     name: Type-D Restrained Inertial Stabilizers
     volume: 5.0
   Type-E Altered SS Inertial Stabilizers:

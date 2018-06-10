@@ -44,12 +44,14 @@ items:
   Networked Sensor Array Blueprint:
     TechLevel: 1
     id: 41412
+    marketGroup: 1581
     name: Networked Sensor Array Blueprint
     volume: 0.01
   Remote Sensor Booster I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11798
+    marketGroup: 1580
     name: Remote Sensor Booster I Blueprint
     volume: 0.01
   Remote Sensor Booster II Blueprint:
@@ -62,6 +64,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11803
+    marketGroup: 1576
     name: Remote Sensor Dampener I Blueprint
     volume: 0.01
   Remote Sensor Dampener II Blueprint:
@@ -74,6 +77,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11620
+    marketGroup: 1581
     name: Sensor Booster I Blueprint
     volume: 0.01
   Sensor Booster II Blueprint:

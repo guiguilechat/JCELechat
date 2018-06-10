@@ -13,6 +13,7 @@ items:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
     id: 19725
+    marketGroup: 785
     name: Moros Blueprint
     volume: 0.01
   Moros Interbus Edition Blueprint:
@@ -23,6 +24,7 @@ items:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
     id: 19723
+    marketGroup: 786
     name: Naglfar Blueprint
     volume: 0.01
   Naglfar Justice Edition Blueprint:
@@ -33,6 +35,7 @@ items:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
     id: 19727
+    marketGroup: 784
     name: Phoenix Blueprint
     volume: 0.01
   Phoenix Wiyrkomi Edition Blueprint:
@@ -43,6 +46,7 @@ items:
     IndustryBlueprintRank: 200.0
     IndustryJobCostMultiplier: 1
     id: 19721
+    marketGroup: 783
     name: Revelation Blueprint
     volume: 0.01
   Revelation Sarum Edition Blueprint:

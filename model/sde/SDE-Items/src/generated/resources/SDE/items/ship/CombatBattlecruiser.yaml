@@ -72,6 +72,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 16229
+    marketGroup: 472
     name: Brutix
     volume: 270000.0
   Brutix Navy Issue:
@@ -149,6 +150,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 33151
+    marketGroup: 1704
     name: Brutix Navy Issue
     volume: 270000.0
   Brutix Serpentis Edition:
@@ -299,6 +301,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 16231
+    marketGroup: 473
     name: Cyclone
     volume: 216000.0
   Cyclone Thukker Tribe Edition:
@@ -449,6 +452,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 24698
+    marketGroup: 471
     name: Drake
     volume: 252000.0
   Drake Navy Issue:
@@ -526,6 +530,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 33153
+    marketGroup: 1704
     name: Drake Navy Issue
     volume: 252000.0
   Ferox:
@@ -601,6 +606,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 16227
+    marketGroup: 471
     name: Ferox
     volume: 252000.0
   Ferox Guristas Edition:
@@ -749,6 +755,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 3756
+    marketGroup: 1698
     name: Gnosis
     volume: 101000.0
   Harbinger:
@@ -824,6 +831,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 24696
+    marketGroup: 470
     name: Harbinger
     volume: 234000.0
   Harbinger Navy Issue:
@@ -901,6 +909,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 33155
+    marketGroup: 1704
     name: Harbinger Navy Issue
     volume: 234000.0
   Hurricane:
@@ -977,6 +986,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 24702
+    marketGroup: 473
     name: Hurricane
     volume: 216000.0
   Hurricane Fleet Issue:
@@ -1055,6 +1065,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 33157
+    marketGroup: 1704
     name: Hurricane Fleet Issue
     volume: 216000.0
   Myrmidon:
@@ -1130,6 +1141,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 24700
+    marketGroup: 472
     name: Myrmidon
     volume: 270000.0
   Prophecy:
@@ -1206,6 +1218,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 16233
+    marketGroup: 470
     name: Prophecy
     volume: 234000.0
   Prophecy Blood Raiders Edition:
@@ -1283,7 +1296,7 @@ items:
     id: 33875
     name: Prophecy Blood Raiders Edition
     volume: 234000.0
-  幼龙���YC117年特别版:
+  幼龙级YC117年特别版:
     Agility: 0.6499999761581421
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -1356,5 +1369,5 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 34473
-    name: 幼龙���YC117年特别版
+    name: 幼龙级YC117年特别版
     volume: 252000.0

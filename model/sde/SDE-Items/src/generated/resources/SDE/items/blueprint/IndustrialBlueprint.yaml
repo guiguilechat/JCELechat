@@ -3,12 +3,14 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 983
+    marketGroup: 284
     name: Badger Blueprint
     volume: 0.01
   Bestower Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 1945
+    marketGroup: 285
     name: Bestower Blueprint
     volume: 0.01
   Bestower Tash-Murkon Edition Blueprint:
@@ -20,12 +22,14 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 990
+    marketGroup: 283
     name: Epithal Blueprint
     volume: 0.01
   Hoarder Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 986
+    marketGroup: 282
     name: Hoarder Blueprint
     volume: 0.01
   Iteron Inner Zone Shipping Edition Blueprint:
@@ -37,18 +41,21 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 992
+    marketGroup: 283
     name: Iteron Mark V Blueprint
     volume: 0.01
   Kryos Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 989
+    marketGroup: 283
     name: Kryos Blueprint
     volume: 0.01
   Mammoth Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 987
+    marketGroup: 282
     name: Mammoth Blueprint
     volume: 0.01
   Mammoth Nefantar Edition Blueprint:
@@ -65,6 +72,7 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 991
+    marketGroup: 283
     name: Miasmos Blueprint
     volume: 0.01
   Miasmos Quafe Ultra Edition Blueprint:
@@ -81,12 +89,14 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 985
+    marketGroup: 283
     name: Nereus Blueprint
     volume: 0.01
   Noctis Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 3039
+    marketGroup: 1389
     name: Noctis Blueprint
     volume: 0.01
   Primae Blueprint:
@@ -99,12 +109,14 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 19745
+    marketGroup: 285
     name: Sigil Blueprint
     volume: 0.01
   Tayra Blueprint:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 984
+    marketGroup: 284
     name: Tayra Blueprint
     volume: 0.01
   Tayra Wiyrkomi Edition Blueprint:
@@ -116,5 +128,6 @@ items:
     IndustryBlueprintRank: 40.0
     IndustryJobCostMultiplier: 1
     id: 988
+    marketGroup: 282
     name: Wreathe Blueprint
     volume: 0.01

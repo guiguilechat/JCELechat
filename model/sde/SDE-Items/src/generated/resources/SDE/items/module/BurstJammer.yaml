@@ -21,6 +21,7 @@ items:
     ScanRadarStrengthBonus: 7.0
     TechLevel: 1
     id: 20581
+    marketGroup: 678
     name: '''Ghost'' Burst Jammer'
     volume: 5.0
   1Z-3 Subversive ECM Eruption:
@@ -64,6 +65,7 @@ items:
     ScanRadarStrengthBonus: 6.0
     TechLevel: 1
     id: 580
+    marketGroup: 678
     name: Burst Jammer I
     volume: 5.0
   Burst Jammer II:
@@ -87,6 +89,7 @@ items:
     ScanRadarStrengthBonus: 7.199999809265137
     TechLevel: 2
     id: 2117
+    marketGroup: 678
     name: Burst Jammer II
     volume: 5.0
   Cetus Scoped Burst Jammer:
@@ -110,6 +113,7 @@ items:
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
     id: 5365
+    marketGroup: 678
     name: Cetus Scoped Burst Jammer
     volume: 5.0
   Deluge Enduring Burst Jammer:
@@ -133,6 +137,7 @@ items:
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
     id: 5361
+    marketGroup: 678
     name: Deluge Enduring Burst Jammer
     volume: 5.0
   Rash Compact Burst Jammer:
@@ -155,6 +160,7 @@ items:
     ScanRadarStrengthBonus: 6.599999904632568
     TechLevel: 1
     id: 5363
+    marketGroup: 678
     name: Rash Compact Burst Jammer
     volume: 5.0
   Sentient Burst Jammer:
@@ -179,6 +185,7 @@ items:
     ScanRadarStrengthBonus: 8.0
     TechLevel: 1
     id: 40690
+    marketGroup: 678
     name: Sentient Burst Jammer
     volume: 5.0
   Unit D-34343's Modified Burst Jammer:
@@ -203,6 +210,7 @@ items:
     ScanRadarStrengthBonus: 9.0
     TechLevel: 1
     id: 40691
+    marketGroup: 678
     name: Unit D-34343's Modified Burst Jammer
     volume: 5.0
   Unit F-435454's Modified Burst Jammer:
@@ -227,6 +235,7 @@ items:
     ScanRadarStrengthBonus: 9.5
     TechLevel: 1
     id: 40692
+    marketGroup: 678
     name: Unit F-435454's Modified Burst Jammer
     volume: 5.0
   Unit P-343554's Modified Burst Jammer:
@@ -251,6 +260,7 @@ items:
     ScanRadarStrengthBonus: 10.0
     TechLevel: 1
     id: 40693
+    marketGroup: 678
     name: Unit P-343554's Modified Burst Jammer
     volume: 5.0
   Unit W-634's Modified Burst Jammer:
@@ -275,5 +285,6 @@ items:
     ScanRadarStrengthBonus: 10.5
     TechLevel: 1
     id: 40694
+    marketGroup: 678
     name: Unit W-634's Modified Burst Jammer
     volume: 5.0

@@ -8,6 +8,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33178
+    marketGroup: 1709
     name: Scan Pinpointing Array I
     volume: 5.0
   Scan Pinpointing Array II:
@@ -20,6 +21,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 33199
+    marketGroup: 1709
     name: Scan Pinpointing Array II
     volume: 5.0
   Scan Rangefinding Array I:
@@ -31,6 +33,7 @@ items:
     ScanStrengthBonusModule: 5
     TechLevel: 1
     id: 33180
+    marketGroup: 1709
     name: Scan Rangefinding Array I
     volume: 5.0
   Scan Rangefinding Array II:
@@ -44,5 +47,6 @@ items:
     ScanStrengthBonusModule: 10
     TechLevel: 2
     id: 33201
+    marketGroup: 1709
     name: Scan Rangefinding Array II
     volume: 5.0

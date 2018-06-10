@@ -250,6 +250,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 28710
+    marketGroup: 1082
     name: Golem
     volume: 486000.0
   Golem Guristas Edition:
@@ -590,6 +591,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 28661
+    marketGroup: 1083
     name: Kronos
     volume: 486000.0
   Kronos Inner Zone Shipping Edition:
@@ -929,6 +931,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 28659
+    marketGroup: 1081
     name: Paladin
     volume: 495000.0
   Paladin Blood Raider Edition:
@@ -1265,6 +1268,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 28665
+    marketGroup: 1084
     name: Vargur
     volume: 450000.0
   Vargur Justice Edition:

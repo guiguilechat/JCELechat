@@ -8,6 +8,7 @@ public abstract class Item {
     public int id;
     public double volume;
     public String name;
+    public int marketGroup;
 
     public abstract int getCategoryId();
 

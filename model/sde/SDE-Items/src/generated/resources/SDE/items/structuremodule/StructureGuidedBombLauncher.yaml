@@ -19,6 +19,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35923
+    marketGroup: 2229
     name: Standup Guided Bomb Launcher I
     volume: 8000.0
   Standup Guided Bomb Launcher II:
@@ -42,5 +43,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47325
+    marketGroup: 2229
     name: Standup Guided Bomb Launcher II
     volume: 8000.0

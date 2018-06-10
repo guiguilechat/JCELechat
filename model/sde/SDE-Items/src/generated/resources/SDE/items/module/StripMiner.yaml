@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 16278
+    marketGroup: 1038
     name: Ice Harvester I
     volume: 25.0
   Ice Harvester II:
@@ -34,6 +35,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 22229
+    marketGroup: 1038
     name: Ice Harvester II
     volume: 5.0
   ORE Ice Harvester:
@@ -54,6 +56,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 28752
+    marketGroup: 1038
     name: ORE Ice Harvester
     volume: 5.0
   ORE Strip Miner:
@@ -74,6 +77,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 28754
+    marketGroup: 1040
     name: ORE Strip Miner
     volume: 5.0
   Strip Miner I:
@@ -92,5 +96,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 17482
+    marketGroup: 1040
     name: Strip Miner I
     volume: 25.0

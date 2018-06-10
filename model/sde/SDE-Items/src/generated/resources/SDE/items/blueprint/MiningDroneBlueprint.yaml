@@ -23,6 +23,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 1218
+    marketGroup: 358
     name: Civilian Mining Drone Blueprint
     volume: 0.01
   Harvester Mining Drone Blueprint:
@@ -33,6 +34,7 @@ items:
   Ice Harvesting Drone I Blueprint:
     TechLevel: 1
     id: 43911
+    marketGroup: 358
     name: Ice Harvesting Drone I Blueprint
     volume: 0.01
   Ice Harvesting Drone II Blueprint:
@@ -44,6 +46,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 10247
+    marketGroup: 358
     name: Mining Drone I Blueprint
     volume: 0.01
   Mining Drone II Blueprint:

@@ -27,6 +27,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24657
+    marketGroup: 932
     name: Advanced Large Ship Assembly Array
     volume: 25000.0
   Advanced Medium Ship Assembly Array:
@@ -57,6 +58,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24655
+    marketGroup: 932
     name: Advanced Medium Ship Assembly Array
     volume: 17000.0
   Advanced Small Ship Assembly Array:
@@ -87,6 +89,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24653
+    marketGroup: 932
     name: Advanced Small Ship Assembly Array
     volume: 10000.0
   Ammunition Assembly Array:
@@ -117,6 +120,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24658
+    marketGroup: 932
     name: Ammunition Assembly Array
     volume: 1250.0
   Capital Ship Assembly Array:
@@ -147,6 +151,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24656
+    marketGroup: 932
     name: Capital Ship Assembly Array
     volume: 25000.0
   Component Assembly Array:
@@ -177,6 +182,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24660
+    marketGroup: 932
     name: Component Assembly Array
     volume: 12500.0
   Drone Assembly Array:
@@ -207,6 +213,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24659
+    marketGroup: 932
     name: Drone Assembly Array
     volume: 1250.0
   Drug Lab:
@@ -237,6 +244,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 25305
+    marketGroup: 933
     name: Drug Lab
     volume: 1250.0
   Equipment Assembly Array:
@@ -267,6 +275,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 13780
+    marketGroup: 932
     name: Equipment Assembly Array
     volume: 6250.0
   Large Ship Assembly Array:
@@ -298,6 +307,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 29613
+    marketGroup: 932
     name: Large Ship Assembly Array
     volume: 25000.0
   Medium Ship Assembly Array:
@@ -328,6 +338,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24654
+    marketGroup: 932
     name: Medium Ship Assembly Array
     volume: 17000.0
   Rapid Equipment Assembly Array:
@@ -358,6 +369,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16220
+    marketGroup: 932
     name: Rapid Equipment Assembly Array
     volume: 6250.0
   Small Ship Assembly Array:
@@ -388,6 +400,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 24574
+    marketGroup: 932
     name: Small Ship Assembly Array
     volume: 10000.0
   Subsystem Assembly Array:
@@ -419,6 +432,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 30389
+    marketGroup: 932
     name: Subsystem Assembly Array
     volume: 17000.0
   Supercapital Ship Assembly Array:
@@ -449,6 +463,7 @@ items:
     UnanchoringDelay: 600000
     Uniformity: 1.0
     id: 24575
+    marketGroup: 932
     name: Supercapital Ship Assembly Array
     volume: 850000.0
   Thukker Component Assembly Array:
@@ -481,5 +496,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 33867
+    marketGroup: 932
     name: Thukker Component Assembly Array
     volume: 12500.0

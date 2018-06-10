@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1075
+    marketGroup: 325
     name: Ship Scanner I Blueprint
     volume: 0.01
   Ship Scanner II Blueprint:

@@ -148,6 +148,7 @@ items:
     WarpCapacitorNeed: 1.369999949929479E-6
     WarpSpeedMultiplier: 5.5
     id: 32788
+    marketGroup: 1623
     name: Cambion
     volume: 16500.0
   Dagger:
@@ -302,6 +303,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 12044
+    marketGroup: 435
     name: Enyo
     volume: 29500.0
   Erinye:
@@ -451,6 +453,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 32207
+    marketGroup: 1623
     name: Freki
     volume: 27289.0
   Gatherer:
@@ -601,6 +604,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11381
+    marketGroup: 434
     name: Harpy
     volume: 16500.0
   Hawk:
@@ -682,6 +686,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11379
+    marketGroup: 434
     name: Hawk
     volume: 16500.0
   Ishkur:
@@ -764,6 +769,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 12042
+    marketGroup: 435
     name: Ishkur
     volume: 29500.0
   Jaguar:
@@ -847,6 +853,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11400
+    marketGroup: 436
     name: Jaguar
     volume: 27289.0
   Kishar:
@@ -997,6 +1004,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 3516
+    marketGroup: 1623
     name: Malice
     volume: 28600.0
   Retribution:
@@ -1075,6 +1083,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11393
+    marketGroup: 433
     name: Retribution
     volume: 28600.0
   Utu:
@@ -1154,6 +1163,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
     id: 2834
+    marketGroup: 1623
     name: Utu
     volume: 29500.0
   Vengeance:
@@ -1233,6 +1243,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11365
+    marketGroup: 433
     name: Vengeance
     volume: 28600.0
   Wolf:
@@ -1313,5 +1324,6 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.5
     id: 11371
+    marketGroup: 436
     name: Wolf
     volume: 27289.0

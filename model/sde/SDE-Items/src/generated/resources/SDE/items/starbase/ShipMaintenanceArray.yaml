@@ -25,6 +25,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 12237
+    marketGroup: 484
     name: Ship Maintenance Array
     volume: 8000.0
   X-Large Ship Maintenance Array:
@@ -53,5 +54,6 @@ items:
     UnanchoringDelay: 600000
     Uniformity: 1.0
     id: 24646
+    marketGroup: 484
     name: X-Large Ship Maintenance Array
     volume: 40000.0

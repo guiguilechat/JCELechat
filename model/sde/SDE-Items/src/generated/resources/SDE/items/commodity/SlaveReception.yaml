@@ -1,5 +1,6 @@
 items:
   Freed Slaves:
     id: 18029
+    marketGroup: 23
     name: Freed Slaves
     volume: 1.0

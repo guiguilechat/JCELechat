@@ -31,6 +31,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 27678
+    marketGroup: 2249
     name: ECM Jammer Burst Projector
     volume: 8000.0
   Energy Neutralization Burst Projector:
@@ -62,6 +63,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40636
+    marketGroup: 2249
     name: Energy Neutralization Burst Projector
     volume: 8000.0
   Sensor Dampening Burst Projector:
@@ -94,6 +96,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40697
+    marketGroup: 2249
     name: Sensor Dampening Burst Projector
     volume: 8000.0
   Stasis Webification Burst Projector:
@@ -124,6 +127,7 @@ items:
     SpeedFactor: -55.0
     TechLevel: 1
     id: 40635
+    marketGroup: 2249
     name: Stasis Webification Burst Projector
     volume: 8000.0
   Superweapon_AOEECM:
@@ -156,6 +160,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 41350
+    marketGroup: 678
     name: Superweapon_AOEECM
     volume: 4000.0
   Superweapon_AOEGuide:
@@ -189,6 +194,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40700
+    marketGroup: 2249
     name: Superweapon_AOEGuide
     volume: 8000.0
   Target Illumination Burst Projector:
@@ -220,6 +226,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40698
+    marketGroup: 2249
     name: Target Illumination Burst Projector
     volume: 8000.0
   Warp Disruption Burst Projector:
@@ -250,6 +257,7 @@ items:
     SpeedFactor: 1.0
     TechLevel: 1
     id: 40696
+    marketGroup: 2249
     name: Warp Disruption Burst Projector
     volume: 8000.0
   Weapon Disruption Burst Projector:
@@ -287,5 +295,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -20.0
     id: 40699
+    marketGroup: 2249
     name: Weapon Disruption Burst Projector
     volume: 8000.0

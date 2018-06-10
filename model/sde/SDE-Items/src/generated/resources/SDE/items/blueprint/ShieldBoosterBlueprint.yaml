@@ -8,17 +8,20 @@ items:
   Capital C-5L Compact Shield Booster Blueprint:
     TechLevel: 1
     id: 41632
+    marketGroup: 1552
     name: Capital C-5L Compact Shield Booster Blueprint
     volume: 0.01
   Capital Clarity Ward Enduring Shield Booster Blueprint:
     TechLevel: 1
     id: 41633
+    marketGroup: 1552
     name: Capital Clarity Ward Enduring Shield Booster Blueprint
     volume: 0.01
   Capital Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 20704
+    marketGroup: 1552
     name: Capital Shield Booster I Blueprint
     volume: 0.01
   Capital Shield Booster II Blueprint:
@@ -30,6 +33,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 10040
+    marketGroup: 1552
     name: Civilian Shield Booster Blueprint
     volume: 0.01
   Domination Capital Shield Booster Blueprint:
@@ -64,6 +68,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 10839
+    marketGroup: 1552
     name: Large Shield Booster I Blueprint
     volume: 0.01
   Large Shield Booster II Blueprint:
@@ -88,6 +93,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 10837
+    marketGroup: 1552
     name: Medium Shield Booster I Blueprint
     volume: 0.01
   Medium Shield Booster II Blueprint:
@@ -112,6 +118,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1032
+    marketGroup: 1552
     name: Small Shield Booster I Blueprint
     volume: 0.01
   Small Shield Booster II Blueprint:
@@ -147,6 +154,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 10841
+    marketGroup: 1552
     name: X-Large Shield Booster I Blueprint
     volume: 0.01
   X-Large Shield Booster II Blueprint:

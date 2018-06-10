@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 1208
+    marketGroup: 1579
     name: Auto Targeting System I Blueprint
     volume: 0.01
   Auto Targeting System II Blueprint:

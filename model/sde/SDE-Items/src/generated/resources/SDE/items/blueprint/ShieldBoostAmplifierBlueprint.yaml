@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11562
+    marketGroup: 1552
     name: Shield Boost Amplifier I Blueprint
     volume: 0.01
   Shield Boost Amplifier II Blueprint:

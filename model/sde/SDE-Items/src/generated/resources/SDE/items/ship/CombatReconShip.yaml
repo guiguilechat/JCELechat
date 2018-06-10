@@ -78,6 +78,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 20125
+    marketGroup: 827
     name: Curse
     volume: 120000.0
   Huginn:
@@ -157,6 +158,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11961
+    marketGroup: 836
     name: Huginn
     volume: 85000.0
   Lachesis:
@@ -236,6 +238,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11971
+    marketGroup: 833
     name: Lachesis
     volume: 116000.0
   Rook:
@@ -315,5 +318,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11959
+    marketGroup: 830
     name: Rook
     volume: 96000.0

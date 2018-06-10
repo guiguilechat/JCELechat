@@ -29,5 +29,6 @@ items:
     UnanchoringDelay: 600000
     Uniformity: 1.0
     id: 27675
+    marketGroup: 1010
     name: System Scanning Array
     volume: 4000.0

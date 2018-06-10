@@ -7,6 +7,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31590
+    marketGroup: 1733
     name: Capital Bay Loading Accelerator I
     volume: 40.0
   Capital Bay Loading Accelerator II:
@@ -18,6 +19,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31596
+    marketGroup: 1733
     name: Capital Bay Loading Accelerator II
     volume: 40.0
   Capital Hydraulic Bay Thrusters I:
@@ -29,6 +31,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31602
+    marketGroup: 1733
     name: Capital Hydraulic Bay Thrusters I
     volume: 40.0
   Capital Hydraulic Bay Thrusters II:
@@ -41,6 +44,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 33301
+    marketGroup: 1733
     name: Capital Hydraulic Bay Thrusters II
     volume: 40.0
   Capital Rocket Fuel Cache Partition I:
@@ -52,6 +56,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31612
+    marketGroup: 1733
     name: Capital Rocket Fuel Cache Partition I
     volume: 40.0
   Capital Rocket Fuel Cache Partition II:
@@ -64,6 +69,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31618
+    marketGroup: 1733
     name: Capital Rocket Fuel Cache Partition II
     volume: 40.0
   Capital Warhead Calefaction Catalyst I:
@@ -75,6 +81,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31624
+    marketGroup: 1733
     name: Capital Warhead Calefaction Catalyst I
     volume: 40.0
   Capital Warhead Calefaction Catalyst II:
@@ -87,6 +94,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31630
+    marketGroup: 1733
     name: Capital Warhead Calefaction Catalyst II
     volume: 40.0
   Capital Warhead Flare Catalyst I:
@@ -98,6 +106,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31636
+    marketGroup: 1733
     name: Capital Warhead Flare Catalyst I
     volume: 40.0
   Capital Warhead Flare Catalyst II:
@@ -110,6 +119,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31642
+    marketGroup: 1733
     name: Capital Warhead Flare Catalyst II
     volume: 40.0
   Capital Warhead Rigor Catalyst I:
@@ -121,6 +131,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31648
+    marketGroup: 1733
     name: Capital Warhead Rigor Catalyst I
     volume: 40.0
   Capital Warhead Rigor Catalyst II:
@@ -133,6 +144,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31654
+    marketGroup: 1733
     name: Capital Warhead Rigor Catalyst II
     volume: 40.0
   Large Bay Loading Accelerator I:
@@ -144,6 +156,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 26026
+    marketGroup: 1233
     name: Large Bay Loading Accelerator I
     volume: 20.0
   Large Bay Loading Accelerator II:
@@ -156,6 +169,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26406
+    marketGroup: 1233
     name: Large Bay Loading Accelerator II
     volume: 20.0
   Large Hydraulic Bay Thrusters I:
@@ -167,6 +181,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26016
+    marketGroup: 1233
     name: Large Hydraulic Bay Thrusters I
     volume: 20.0
   Large Hydraulic Bay Thrusters II:
@@ -179,6 +194,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26416
+    marketGroup: 1233
     name: Large Hydraulic Bay Thrusters II
     volume: 20.0
   Large Rocket Fuel Cache Partition I:
@@ -191,6 +207,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26022
+    marketGroup: 1233
     name: Large Rocket Fuel Cache Partition I
     volume: 20.0
   Large Rocket Fuel Cache Partition II:
@@ -204,6 +221,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26418
+    marketGroup: 1233
     name: Large Rocket Fuel Cache Partition II
     volume: 20.0
   Large Warhead Calefaction Catalyst I:
@@ -216,6 +234,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 26030
+    marketGroup: 1233
     name: Large Warhead Calefaction Catalyst I
     volume: 20.0
   Large Warhead Calefaction Catalyst II:
@@ -229,6 +248,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26420
+    marketGroup: 1233
     name: Large Warhead Calefaction Catalyst II
     volume: 20.0
   Large Warhead Flare Catalyst I:
@@ -241,6 +261,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26028
+    marketGroup: 1233
     name: Large Warhead Flare Catalyst I
     volume: 20.0
   Large Warhead Flare Catalyst II:
@@ -254,6 +275,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26412
+    marketGroup: 1233
     name: Large Warhead Flare Catalyst II
     volume: 20.0
   Large Warhead Rigor Catalyst I:
@@ -266,6 +288,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26020
+    marketGroup: 1233
     name: Large Warhead Rigor Catalyst I
     volume: 20.0
   Large Warhead Rigor Catalyst II:
@@ -279,6 +302,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26414
+    marketGroup: 1233
     name: Large Warhead Rigor Catalyst II
     volume: 20.0
   Launcher Processor Rig I:
@@ -311,6 +335,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31588
+    marketGroup: 1232
     name: Medium Bay Loading Accelerator I
     volume: 10.0
   Medium Bay Loading Accelerator II:
@@ -323,6 +348,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31594
+    marketGroup: 1232
     name: Medium Bay Loading Accelerator II
     volume: 10.0
   Medium Hydraulic Bay Thrusters I:
@@ -334,6 +360,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31600
+    marketGroup: 1232
     name: Medium Hydraulic Bay Thrusters I
     volume: 10.0
   Medium Hydraulic Bay Thrusters II:
@@ -346,6 +373,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31606
+    marketGroup: 1232
     name: Medium Hydraulic Bay Thrusters II
     volume: 10.0
   Medium Rocket Fuel Cache Partition I:
@@ -358,6 +386,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31610
+    marketGroup: 1232
     name: Medium Rocket Fuel Cache Partition I
     volume: 10.0
   Medium Rocket Fuel Cache Partition II:
@@ -371,6 +400,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31616
+    marketGroup: 1232
     name: Medium Rocket Fuel Cache Partition II
     volume: 10.0
   Medium Warhead Calefaction Catalyst I:
@@ -383,6 +413,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31622
+    marketGroup: 1232
     name: Medium Warhead Calefaction Catalyst I
     volume: 10.0
   Medium Warhead Calefaction Catalyst II:
@@ -396,6 +427,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31628
+    marketGroup: 1232
     name: Medium Warhead Calefaction Catalyst II
     volume: 10.0
   Medium Warhead Flare Catalyst I:
@@ -408,6 +440,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31634
+    marketGroup: 1232
     name: Medium Warhead Flare Catalyst I
     volume: 10.0
   Medium Warhead Flare Catalyst II:
@@ -421,6 +454,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31640
+    marketGroup: 1232
     name: Medium Warhead Flare Catalyst II
     volume: 10.0
   Medium Warhead Rigor Catalyst I:
@@ -433,6 +467,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31646
+    marketGroup: 1232
     name: Medium Warhead Rigor Catalyst I
     volume: 10.0
   Medium Warhead Rigor Catalyst II:
@@ -446,6 +481,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31652
+    marketGroup: 1232
     name: Medium Warhead Rigor Catalyst II
     volume: 10.0
   Missile Guidance System Rig I:
@@ -478,6 +514,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31586
+    marketGroup: 1231
     name: Small Bay Loading Accelerator I
     volume: 5.0
   Small Bay Loading Accelerator II:
@@ -490,6 +527,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31592
+    marketGroup: 1231
     name: Small Bay Loading Accelerator II
     volume: 5.0
   Small Hydraulic Bay Thrusters I:
@@ -501,6 +539,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31598
+    marketGroup: 1231
     name: Small Hydraulic Bay Thrusters I
     volume: 5.0
   Small Hydraulic Bay Thrusters II:
@@ -513,6 +552,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31604
+    marketGroup: 1231
     name: Small Hydraulic Bay Thrusters II
     volume: 5.0
   Small Rocket Fuel Cache Partition I:
@@ -525,6 +565,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31608
+    marketGroup: 1231
     name: Small Rocket Fuel Cache Partition I
     volume: 5.0
   Small Rocket Fuel Cache Partition II:
@@ -538,6 +579,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31614
+    marketGroup: 1231
     name: Small Rocket Fuel Cache Partition II
     volume: 5.0
   Small Warhead Calefaction Catalyst I:
@@ -550,6 +592,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31620
+    marketGroup: 1231
     name: Small Warhead Calefaction Catalyst I
     volume: 5.0
   Small Warhead Calefaction Catalyst II:
@@ -563,6 +606,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31626
+    marketGroup: 1231
     name: Small Warhead Calefaction Catalyst II
     volume: 5.0
   Small Warhead Flare Catalyst I:
@@ -575,6 +619,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31632
+    marketGroup: 1231
     name: Small Warhead Flare Catalyst I
     volume: 5.0
   Small Warhead Flare Catalyst II:
@@ -588,6 +633,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31638
+    marketGroup: 1231
     name: Small Warhead Flare Catalyst II
     volume: 5.0
   Small Warhead Rigor Catalyst I:
@@ -600,6 +646,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31644
+    marketGroup: 1231
     name: Small Warhead Rigor Catalyst I
     volume: 5.0
   Small Warhead Rigor Catalyst II:
@@ -613,5 +660,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31650
+    marketGroup: 1231
     name: Small Warhead Rigor Catalyst II
     volume: 5.0

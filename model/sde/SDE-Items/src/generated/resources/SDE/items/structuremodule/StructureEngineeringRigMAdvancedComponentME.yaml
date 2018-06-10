@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43867
+    marketGroup: 2347
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency I
     volume: 10.0
   Standup M-Set Advanced Component Manufacturing Material Efficiency II:
@@ -37,6 +38,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 43866
+    marketGroup: 2347
     name: Standup M-Set Advanced Component Manufacturing Material Efficiency II
     volume: 10.0
   Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency:
@@ -59,5 +61,6 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 45640
+    marketGroup: 2347
     name: Standup M-Set Thukker Advanced Component Manufacturing Material Efficiency
     volume: 10.0

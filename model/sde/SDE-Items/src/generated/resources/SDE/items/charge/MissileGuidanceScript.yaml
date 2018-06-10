@@ -9,6 +9,7 @@ items:
     MissileVelocityBonusBonus: -100
     TechLevel: 1
     id: 35795
+    marketGroup: 1094
     name: Missile Precision Script
     volume: 1.0
   Missile Range Script:
@@ -21,5 +22,6 @@ items:
     MissileVelocityBonusBonus: 100
     TechLevel: 1
     id: 35794
+    marketGroup: 1094
     name: Missile Range Script
     volume: 1.0

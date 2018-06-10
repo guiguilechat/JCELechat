@@ -29,6 +29,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11323
     id: 22899
+    marketGroup: 561
     name: '''Corporate'' Light Electron Blaster I'
     volume: 5.0
   '''Dealer'' Light Ion Blaster I':
@@ -61,6 +62,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11323
     id: 22901
+    marketGroup: 561
     name: '''Dealer'' Light Ion Blaster I'
     volume: 5.0
   '''Felon'' Ion Blaster Cannon I':
@@ -93,6 +95,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11323
     id: 22913
+    marketGroup: 563
     name: '''Felon'' Ion Blaster Cannon I'
     volume: 20.0
   '''Hooligan'' Heavy Ion Blaster I':
@@ -125,6 +128,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11323
     id: 22907
+    marketGroup: 562
     name: '''Hooligan'' Heavy Ion Blaster I'
     volume: 10.0
   '''Hustler'' Heavy Neutron Blaster I':
@@ -157,6 +161,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11323
     id: 22909
+    marketGroup: 562
     name: '''Hustler'' Heavy Neutron Blaster I'
     volume: 10.0
   '''Racket'' Light Neutron Blaster I':
@@ -189,6 +194,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11323
     id: 22903
+    marketGroup: 561
     name: '''Racket'' Light Neutron Blaster I'
     volume: 5.0
   '''Slither'' Heavy Electron Blaster I':
@@ -221,6 +227,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11323
     id: 22905
+    marketGroup: 562
     name: '''Slither'' Heavy Electron Blaster I'
     volume: 10.0
   '''Swindler'' Electron Blaster Cannon I':
@@ -253,6 +260,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11323
     id: 22911
+    marketGroup: 563
     name: '''Swindler'' Electron Blaster Cannon I'
     volume: 20.0
   '''Underhand'' Neutron Blaster Cannon I':
@@ -285,6 +293,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
     id: 22915
+    marketGroup: 563
     name: '''Underhand'' Neutron Blaster Cannon I'
     volume: 20.0
   125mm 'Scout' Accelerator Cannon:
@@ -316,6 +325,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
     id: 10688
+    marketGroup: 564
     name: 125mm 'Scout' Accelerator Cannon
     volume: 5.0
   125mm Carbide Railgun I:
@@ -347,6 +357,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
     id: 10690
+    marketGroup: 564
     name: 125mm Carbide Railgun I
     volume: 5.0
   125mm Compressed Coil Gun I:
@@ -378,6 +389,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
     id: 10692
+    marketGroup: 564
     name: 125mm Compressed Coil Gun I
     volume: 5.0
   125mm Prototype Gauss Gun:
@@ -409,6 +421,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
     id: 10694
+    marketGroup: 564
     name: 125mm Prototype Gauss Gun
     volume: 5.0
   125mm Railgun I:
@@ -439,6 +452,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11324
     id: 10678
+    marketGroup: 564
     name: 125mm Railgun I
     volume: 5.0
   125mm Railgun II:
@@ -473,6 +487,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11325
     id: 10680
+    marketGroup: 564
     name: 125mm Railgun II
     volume: 5.0
   150mm 'Musket' Railgun:
@@ -505,6 +520,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11323
     id: 20587
+    marketGroup: 564
     name: 150mm 'Musket' Railgun
     volume: 5.0
   150mm 'Scout' Accelerator Cannon:
@@ -536,6 +552,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
     id: 7289
+    marketGroup: 564
     name: 150mm 'Scout' Accelerator Cannon
     volume: 5.0
   150mm Carbide Railgun I:
@@ -567,6 +584,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
     id: 7291
+    marketGroup: 564
     name: 150mm Carbide Railgun I
     volume: 5.0
   150mm Compressed Coil Gun I:
@@ -598,6 +616,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
     id: 7293
+    marketGroup: 564
     name: 150mm Compressed Coil Gun I
     volume: 5.0
   150mm Prototype Gauss Gun:
@@ -629,6 +648,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
     id: 7287
+    marketGroup: 564
     name: 150mm Prototype Gauss Gun
     volume: 5.0
   150mm Railgun I:
@@ -659,6 +679,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11324
     id: 565
+    marketGroup: 564
     name: 150mm Railgun I
     volume: 5.0
   150mm Railgun II:
@@ -693,6 +714,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11325
     id: 3074
+    marketGroup: 564
     name: 150mm Railgun II
     volume: 5.0
   200mm 'Scout' Accelerator Cannon:
@@ -724,6 +746,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
     id: 14274
+    marketGroup: 565
     name: 200mm 'Scout' Accelerator Cannon
     volume: 10.0
   200mm Carbide Railgun I:
@@ -755,6 +778,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
     id: 14272
+    marketGroup: 565
     name: 200mm Carbide Railgun I
     volume: 10.0
   200mm Compressed Coil Gun I:
@@ -786,6 +810,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
     id: 14276
+    marketGroup: 565
     name: 200mm Compressed Coil Gun I
     volume: 10.0
   200mm Prototype Gauss Gun:
@@ -817,6 +842,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
     id: 14278
+    marketGroup: 565
     name: 200mm Prototype Gauss Gun
     volume: 10.0
   200mm Railgun I:
@@ -847,6 +873,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11324
     id: 12344
+    marketGroup: 565
     name: 200mm Railgun I
     volume: 10.0
   200mm Railgun II:
@@ -881,6 +908,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11325
     id: 12346
+    marketGroup: 565
     name: 200mm Railgun II
     volume: 10.0
   250mm 'Flintlock' Railgun:
@@ -913,6 +941,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11323
     id: 20589
+    marketGroup: 565
     name: 250mm 'Flintlock' Railgun
     volume: 10.0
   250mm 'Scout' Accelerator Cannon:
@@ -944,6 +973,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
     id: 7369
+    marketGroup: 565
     name: 250mm 'Scout' Accelerator Cannon
     volume: 10.0
   250mm Carbide Railgun I:
@@ -975,6 +1005,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
     id: 7371
+    marketGroup: 565
     name: 250mm Carbide Railgun I
     volume: 10.0
   250mm Compressed Coil Gun I:
@@ -1006,6 +1037,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
     id: 7373
+    marketGroup: 565
     name: 250mm Compressed Coil Gun I
     volume: 10.0
   250mm Prototype Gauss Gun:
@@ -1037,6 +1069,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
     id: 7367
+    marketGroup: 565
     name: 250mm Prototype Gauss Gun
     volume: 10.0
   250mm Railgun I:
@@ -1067,6 +1100,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11324
     id: 570
+    marketGroup: 565
     name: 250mm Railgun I
     volume: 25.0
   250mm Railgun II:
@@ -1101,6 +1135,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11325
     id: 3082
+    marketGroup: 565
     name: 250mm Railgun II
     volume: 10.0
   350mm 'Scout' Accelerator Cannon:
@@ -1132,6 +1167,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
     id: 14282
+    marketGroup: 566
     name: 350mm 'Scout' Accelerator Cannon
     volume: 20.0
   350mm Carbide Railgun I:
@@ -1163,6 +1199,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
     id: 14280
+    marketGroup: 566
     name: 350mm Carbide Railgun I
     volume: 20.0
   350mm Compressed Coil Gun I:
@@ -1194,6 +1231,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
     id: 14284
+    marketGroup: 566
     name: 350mm Compressed Coil Gun I
     volume: 20.0
   350mm Prototype Gauss Gun:
@@ -1225,6 +1263,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
     id: 14286
+    marketGroup: 566
     name: 350mm Prototype Gauss Gun
     volume: 20.0
   350mm Railgun I:
@@ -1255,6 +1294,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11324
     id: 12354
+    marketGroup: 566
     name: 350mm Railgun I
     volume: 50.0
   350mm Railgun II:
@@ -1289,6 +1329,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11325
     id: 12356
+    marketGroup: 566
     name: 350mm Railgun II
     volume: 20.0
   425mm 'Popper' Railgun:
@@ -1321,6 +1362,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11323
     id: 20591
+    marketGroup: 566
     name: 425mm 'Popper' Railgun
     volume: 20.0
   425mm 'Scout' Accelerator Cannon:
@@ -1352,6 +1394,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
     id: 7449
+    marketGroup: 566
     name: 425mm 'Scout' Accelerator Cannon
     volume: 20.0
   425mm Carbide Railgun I:
@@ -1383,6 +1426,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
     id: 7451
+    marketGroup: 566
     name: 425mm Carbide Railgun I
     volume: 20.0
   425mm Compressed Coil Gun I:
@@ -1414,6 +1458,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
     id: 7453
+    marketGroup: 566
     name: 425mm Compressed Coil Gun I
     volume: 20.0
   425mm Prototype Gauss Gun:
@@ -1445,6 +1490,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
     id: 7447
+    marketGroup: 566
     name: 425mm Prototype Gauss Gun
     volume: 20.0
   425mm Railgun I:
@@ -1475,6 +1521,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11324
     id: 574
+    marketGroup: 566
     name: 425mm Railgun I
     volume: 50.0
   425mm Railgun II:
@@ -1509,6 +1556,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11325
     id: 3090
+    marketGroup: 566
     name: 425mm Railgun II
     volume: 20.0
   75mm 'Scout' Accelerator Cannon:
@@ -1539,6 +1587,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
     id: 7249
+    marketGroup: 564
     name: 75mm 'Scout' Accelerator Cannon
     volume: 5.0
   75mm Carbide Railgun I:
@@ -1569,6 +1618,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
     id: 7251
+    marketGroup: 564
     name: 75mm Carbide Railgun I
     volume: 5.0
   75mm Compressed Coil Gun I:
@@ -1599,6 +1649,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
     id: 7253
+    marketGroup: 564
     name: 75mm Compressed Coil Gun I
     volume: 5.0
   75mm Gatling Rail I:
@@ -1628,6 +1679,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
     id: 561
+    marketGroup: 564
     name: 75mm Gatling Rail I
     volume: 5.0
   75mm Gatling Rail II:
@@ -1661,6 +1713,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11325
     id: 3098
+    marketGroup: 564
     name: 75mm Gatling Rail II
     volume: 5.0
   75mm Prototype Gauss Gun:
@@ -1691,6 +1744,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11324
     id: 7247
+    marketGroup: 564
     name: 75mm Prototype Gauss Gun
     volume: 5.0
   Anode Electron Particle Cannon I:
@@ -1722,6 +1776,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
     id: 7625
+    marketGroup: 562
     name: Anode Electron Particle Cannon I
     volume: 10.0
   Anode Ion Particle Cannon I:
@@ -1753,6 +1808,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 7669
+    marketGroup: 562
     name: Anode Ion Particle Cannon I
     volume: 10.0
   Anode Light Electron Particle Cannon I:
@@ -1784,6 +1840,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
     id: 7493
+    marketGroup: 561
     name: Anode Light Electron Particle Cannon I
     volume: 5.0
   Anode Light Ion Particle Cannon I:
@@ -1815,6 +1872,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
     id: 7541
+    marketGroup: 561
     name: Anode Light Ion Particle Cannon I
     volume: 5.0
   Anode Light Neutron Particle Cannon I:
@@ -1846,6 +1904,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
     id: 7585
+    marketGroup: 561
     name: Anode Light Neutron Particle Cannon I
     volume: 5.0
   Anode Mega Electron Particle Cannon I:
@@ -1877,6 +1936,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
     id: 7749
+    marketGroup: 563
     name: Anode Mega Electron Particle Cannon I
     volume: 20.0
   Anode Mega Ion Particle Cannon I:
@@ -1908,6 +1968,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
     id: 7833
+    marketGroup: 563
     name: Anode Mega Ion Particle Cannon I
     volume: 20.0
   Anode Mega Neutron Particle Cannon I:
@@ -1939,6 +2000,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
     id: 7789
+    marketGroup: 563
     name: Anode Mega Neutron Particle Cannon I
     volume: 20.0
   Anode Neutron Particle Cannon I:
@@ -1970,6 +2032,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
     id: 7709
+    marketGroup: 562
     name: Anode Neutron Particle Cannon I
     volume: 10.0
   Anode Scoped Ion Siege Blaster:
@@ -2001,6 +2064,7 @@ items:
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
     id: 41128
+    marketGroup: 771
     name: Anode Scoped Ion Siege Blaster
     volume: 4000.0
   Anode Scoped Triple Neutron Blaster Cannon:
@@ -2032,6 +2096,7 @@ items:
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
     id: 41077
+    marketGroup: 771
     name: Anode Scoped Triple Neutron Blaster Cannon
     volume: 4000.0
   Brynn's Modified 350mm Railgun:
@@ -2064,6 +2129,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
     id: 14387
+    marketGroup: 566
     name: Brynn's Modified 350mm Railgun
     volume: 20.0
   Brynn's Modified 425mm Railgun:
@@ -2096,6 +2162,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
     id: 14397
+    marketGroup: 566
     name: Brynn's Modified 425mm Railgun
     volume: 20.0
   Brynn's Modified Dual 250mm Railgun:
@@ -2128,6 +2195,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
     id: 14407
+    marketGroup: 566
     name: Brynn's Modified Dual 250mm Railgun
     volume: 20.0
   CONCORD 150mm Railgun:
@@ -2194,6 +2262,7 @@ items:
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
     id: 3550
+    marketGroup: 772
     name: CONCORD Dual 1000mm Railgun
     volume: 4000.0
   CONCORD Ion Siege Blaster:
@@ -2227,6 +2296,7 @@ items:
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
     id: 3546
+    marketGroup: 771
     name: CONCORD Ion Siege Blaster
     volume: 4000.0
   Caldari Navy 125mm Railgun:
@@ -2259,6 +2329,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11321
     id: 15824
+    marketGroup: 564
     name: Caldari Navy 125mm Railgun
     volume: 5.0
   Caldari Navy 150mm Railgun:
@@ -2291,6 +2362,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11321
     id: 15823
+    marketGroup: 564
     name: Caldari Navy 150mm Railgun
     volume: 5.0
   Caldari Navy 200mm Railgun:
@@ -2323,6 +2395,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11321
     id: 15821
+    marketGroup: 565
     name: Caldari Navy 200mm Railgun
     volume: 10.0
   Caldari Navy 250mm Railgun:
@@ -2355,6 +2428,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11321
     id: 15820
+    marketGroup: 565
     name: Caldari Navy 250mm Railgun
     volume: 10.0
   Caldari Navy 350mm Railgun:
@@ -2387,6 +2461,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11321
     id: 15818
+    marketGroup: 566
     name: Caldari Navy 350mm Railgun
     volume: 20.0
   Caldari Navy 425mm Railgun:
@@ -2419,6 +2494,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11321
     id: 15817
+    marketGroup: 566
     name: Caldari Navy 425mm Railgun
     volume: 20.0
   Caldari Navy 75mm Railgun:
@@ -2451,6 +2527,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11321
     id: 15816
+    marketGroup: 564
     name: Caldari Navy 75mm Railgun
     volume: 5.0
   Caldari Navy Dual 150mm Railgun:
@@ -2483,6 +2560,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11321
     id: 15815
+    marketGroup: 565
     name: Caldari Navy Dual 150mm Railgun
     volume: 10.0
   Caldari Navy Dual 250mm Railgun:
@@ -2515,6 +2593,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11321
     id: 15814
+    marketGroup: 566
     name: Caldari Navy Dual 250mm Railgun
     volume: 20.0
   Carbide Compact Dual 1000mm Railgun:
@@ -2546,6 +2625,7 @@ items:
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
     id: 41138
+    marketGroup: 772
     name: Carbide Compact Dual 1000mm Railgun
     volume: 4000.0
   Compressed Enduring Dual 1000mm Railgun:
@@ -2577,6 +2657,7 @@ items:
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
     id: 41139
+    marketGroup: 772
     name: Compressed Enduring Dual 1000mm Railgun
     volume: 4000.0
   Cormack's Modified Electron Blaster Cannon:
@@ -2609,6 +2690,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11322
     id: 14377
+    marketGroup: 563
     name: Cormack's Modified Electron Blaster Cannon
     volume: 20.0
   Cormack's Modified Ion Blaster Cannon:
@@ -2641,6 +2723,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11322
     id: 14379
+    marketGroup: 563
     name: Cormack's Modified Ion Blaster Cannon
     volume: 20.0
   Cormack's Modified Neutron Blaster Cannon:
@@ -2673,6 +2756,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
     id: 14385
+    marketGroup: 563
     name: Cormack's Modified Neutron Blaster Cannon
     volume: 20.0
   Dread Guristas 125mm Railgun:
@@ -2705,6 +2789,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11335
     id: 13865
+    marketGroup: 564
     name: Dread Guristas 125mm Railgun
     volume: 5.0
   Dread Guristas 150mm Railgun:
@@ -2737,6 +2822,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11335
     id: 13867
+    marketGroup: 564
     name: Dread Guristas 150mm Railgun
     volume: 5.0
   Dread Guristas 200mm Railgun:
@@ -2769,6 +2855,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11335
     id: 13870
+    marketGroup: 565
     name: Dread Guristas 200mm Railgun
     volume: 10.0
   Dread Guristas 250mm Railgun:
@@ -2801,6 +2888,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11335
     id: 13873
+    marketGroup: 565
     name: Dread Guristas 250mm Railgun
     volume: 10.0
   Dread Guristas 350mm Railgun:
@@ -2833,6 +2921,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11335
     id: 13876
+    marketGroup: 566
     name: Dread Guristas 350mm Railgun
     volume: 20.0
   Dread Guristas 425mm Railgun:
@@ -2865,6 +2954,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11335
     id: 13879
+    marketGroup: 566
     name: Dread Guristas 425mm Railgun
     volume: 20.0
   Dread Guristas 75mm Railgun:
@@ -2897,6 +2987,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11335
     id: 13893
+    marketGroup: 564
     name: Dread Guristas 75mm Railgun
     volume: 5.0
   Dread Guristas Dual 150mm Railgun:
@@ -2929,6 +3020,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11335
     id: 13881
+    marketGroup: 565
     name: Dread Guristas Dual 150mm Railgun
     volume: 10.0
   Dread Guristas Dual 250mm Railgun:
@@ -2961,6 +3053,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11335
     id: 13883
+    marketGroup: 566
     name: Dread Guristas Dual 250mm Railgun
     volume: 20.0
   Dual 1000mm Railgun I:
@@ -2991,6 +3084,7 @@ items:
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
     id: 20448
+    marketGroup: 772
     name: Dual 1000mm Railgun I
     volume: 4000.0
   Dual 1000mm Railgun II:
@@ -3025,6 +3119,7 @@ items:
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
     id: 37303
+    marketGroup: 772
     name: Dual 1000mm Railgun II
     volume: 4000.0
   Dual 150mm 'Scout' Accelerator Cannon:
@@ -3056,6 +3151,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
     id: 7329
+    marketGroup: 565
     name: Dual 150mm 'Scout' Accelerator Cannon
     volume: 10.0
   Dual 150mm Carbide Railgun I:
@@ -3087,6 +3183,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
     id: 7331
+    marketGroup: 565
     name: Dual 150mm Carbide Railgun I
     volume: 10.0
   Dual 150mm Compressed Coil Gun I:
@@ -3118,6 +3215,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
     id: 7333
+    marketGroup: 565
     name: Dual 150mm Compressed Coil Gun I
     volume: 10.0
   Dual 150mm Prototype Gauss Gun:
@@ -3149,6 +3247,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
     id: 7327
+    marketGroup: 565
     name: Dual 150mm Prototype Gauss Gun
     volume: 10.0
   Dual 150mm Railgun I:
@@ -3179,6 +3278,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11324
     id: 567
+    marketGroup: 565
     name: Dual 150mm Railgun I
     volume: 10.0
   Dual 150mm Railgun II:
@@ -3213,6 +3313,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11325
     id: 3106
+    marketGroup: 565
     name: Dual 150mm Railgun II
     volume: 10.0
   Dual 250mm 'Scout' Accelerator Cannon:
@@ -3244,6 +3345,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
     id: 7409
+    marketGroup: 566
     name: Dual 250mm 'Scout' Accelerator Cannon
     volume: 20.0
   Dual 250mm Carbide Railgun I:
@@ -3275,6 +3377,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
     id: 7411
+    marketGroup: 566
     name: Dual 250mm Carbide Railgun I
     volume: 20.0
   Dual 250mm Compressed Coil Gun I:
@@ -3306,6 +3409,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
     id: 7413
+    marketGroup: 566
     name: Dual 250mm Compressed Coil Gun I
     volume: 20.0
   Dual 250mm Prototype Gauss Gun:
@@ -3337,6 +3441,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
     id: 7407
+    marketGroup: 566
     name: Dual 250mm Prototype Gauss Gun
     volume: 20.0
   Dual 250mm Railgun I:
@@ -3367,6 +3472,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11324
     id: 572
+    marketGroup: 566
     name: Dual 250mm Railgun I
     volume: 20.0
   Dual 250mm Railgun II:
@@ -3401,6 +3507,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11325
     id: 3114
+    marketGroup: 566
     name: Dual 250mm Railgun II
     volume: 20.0
   Electron Blaster Cannon I:
@@ -3431,6 +3538,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
     id: 571
+    marketGroup: 563
     name: Electron Blaster Cannon I
     volume: 50.0
   Electron Blaster Cannon II:
@@ -3465,6 +3573,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11332
     id: 3122
+    marketGroup: 563
     name: Electron Blaster Cannon II
     volume: 20.0
   Estamel's Modified 350mm Railgun:
@@ -3497,6 +3606,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
     id: 14395
+    marketGroup: 566
     name: Estamel's Modified 350mm Railgun
     volume: 20.0
   Estamel's Modified 425mm Railgun:
@@ -3529,6 +3639,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
     id: 14405
+    marketGroup: 566
     name: Estamel's Modified 425mm Railgun
     volume: 20.0
   Estamel's Modified Dual 250mm Railgun:
@@ -3561,6 +3672,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
     id: 14415
+    marketGroup: 566
     name: Estamel's Modified Dual 250mm Railgun
     volume: 20.0
   Federation Navy 125mm Railgun:
@@ -3593,6 +3705,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11328
     id: 15844
+    marketGroup: 564
     name: Federation Navy 125mm Railgun
     volume: 5.0
   Federation Navy 150mm Railgun:
@@ -3625,6 +3738,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11328
     id: 15843
+    marketGroup: 564
     name: Federation Navy 150mm Railgun
     volume: 5.0
   Federation Navy 200mm Railgun:
@@ -3657,6 +3771,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11328
     id: 15841
+    marketGroup: 565
     name: Federation Navy 200mm Railgun
     volume: 10.0
   Federation Navy 250mm Railgun:
@@ -3689,6 +3804,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11328
     id: 15840
+    marketGroup: 565
     name: Federation Navy 250mm Railgun
     volume: 10.0
   Federation Navy 350mm Railgun:
@@ -3721,6 +3837,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11328
     id: 15838
+    marketGroup: 566
     name: Federation Navy 350mm Railgun
     volume: 20.0
   Federation Navy 425mm Railgun:
@@ -3753,6 +3870,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11328
     id: 15837
+    marketGroup: 566
     name: Federation Navy 425mm Railgun
     volume: 20.0
   Federation Navy 75mm Railgun:
@@ -3785,6 +3903,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11328
     id: 15836
+    marketGroup: 564
     name: Federation Navy 75mm Railgun
     volume: 5.0
   Federation Navy Dual 150mm Railgun:
@@ -3817,6 +3936,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11328
     id: 15835
+    marketGroup: 565
     name: Federation Navy Dual 150mm Railgun
     volume: 10.0
   Federation Navy Dual 250mm Railgun:
@@ -3849,6 +3969,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11328
     id: 15834
+    marketGroup: 566
     name: Federation Navy Dual 250mm Railgun
     volume: 20.0
   Federation Navy Electron Blaster Cannon:
@@ -3881,6 +4002,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11328
     id: 15833
+    marketGroup: 563
     name: Federation Navy Electron Blaster Cannon
     volume: 20.0
   Federation Navy Heavy Electron Blaster:
@@ -3913,6 +4035,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11328
     id: 15832
+    marketGroup: 562
     name: Federation Navy Heavy Electron Blaster
     volume: 10.0
   Federation Navy Heavy Ion Blaster:
@@ -3945,6 +4068,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11328
     id: 15831
+    marketGroup: 562
     name: Federation Navy Heavy Ion Blaster
     volume: 10.0
   Federation Navy Heavy Neutron Blaster:
@@ -3977,6 +4101,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11328
     id: 15830
+    marketGroup: 562
     name: Federation Navy Heavy Neutron Blaster
     volume: 10.0
   Federation Navy Ion Blaster Cannon:
@@ -4009,6 +4134,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11328
     id: 15829
+    marketGroup: 563
     name: Federation Navy Ion Blaster Cannon
     volume: 20.0
   Federation Navy Light Electron Blaster:
@@ -4041,6 +4167,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11328
     id: 15828
+    marketGroup: 561
     name: Federation Navy Light Electron Blaster
     volume: 5.0
   Federation Navy Light Ion Blaster:
@@ -4073,6 +4200,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11328
     id: 15827
+    marketGroup: 561
     name: Federation Navy Light Ion Blaster
     volume: 5.0
   Federation Navy Light Neutron Blaster:
@@ -4105,6 +4233,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11328
     id: 15826
+    marketGroup: 561
     name: Federation Navy Light Neutron Blaster
     volume: 5.0
   Federation Navy Neutron Blaster Cannon:
@@ -4137,6 +4266,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11328
     id: 15825
+    marketGroup: 563
     name: Federation Navy Neutron Blaster Cannon
     volume: 20.0
   Heavy Electron Blaster I:
@@ -4167,6 +4297,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
     id: 566
+    marketGroup: 562
     name: Heavy Electron Blaster I
     volume: 10.0
   Heavy Electron Blaster II:
@@ -4201,6 +4332,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11332
     id: 3130
+    marketGroup: 562
     name: Heavy Electron Blaster II
     volume: 10.0
   Heavy Ion Blaster I:
@@ -4231,6 +4363,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 569
+    marketGroup: 562
     name: Heavy Ion Blaster I
     volume: 10.0
   Heavy Ion Blaster II:
@@ -4265,6 +4398,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 3138
+    marketGroup: 562
     name: Heavy Ion Blaster II
     volume: 10.0
   Heavy Neutron Blaster I:
@@ -4295,6 +4429,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
     id: 568
+    marketGroup: 562
     name: Heavy Neutron Blaster I
     volume: 25.0
   Heavy Neutron Blaster II:
@@ -4329,6 +4464,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11332
     id: 3146
+    marketGroup: 562
     name: Heavy Neutron Blaster II
     volume: 10.0
   Ion Blaster Cannon I:
@@ -4359,6 +4495,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
     id: 575
+    marketGroup: 563
     name: Ion Blaster Cannon I
     volume: 50.0
   Ion Blaster Cannon II:
@@ -4393,6 +4530,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11332
     id: 3154
+    marketGroup: 563
     name: Ion Blaster Cannon II
     volume: 20.0
   Ion Siege Blaster I:
@@ -4423,6 +4561,7 @@ items:
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
     id: 20450
+    marketGroup: 771
     name: Ion Siege Blaster I
     volume: 4000.0
   Ion Siege Blaster II:
@@ -4457,6 +4596,7 @@ items:
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
     id: 37302
+    marketGroup: 771
     name: Ion Siege Blaster II
     volume: 4000.0
   Kaikka's Modified 350mm Railgun:
@@ -4489,6 +4629,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
     id: 14391
+    marketGroup: 566
     name: Kaikka's Modified 350mm Railgun
     volume: 20.0
   Kaikka's Modified 425mm Railgun:
@@ -4521,6 +4662,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
     id: 14401
+    marketGroup: 566
     name: Kaikka's Modified 425mm Railgun
     volume: 20.0
   Kaikka's Modified Dual 250mm Railgun:
@@ -4553,6 +4695,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
     id: 14411
+    marketGroup: 566
     name: Kaikka's Modified Dual 250mm Railgun
     volume: 20.0
   Light Electron Blaster I:
@@ -4583,6 +4726,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
     id: 562
+    marketGroup: 561
     name: Light Electron Blaster I
     volume: 5.0
   Light Electron Blaster II:
@@ -4617,6 +4761,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11332
     id: 3162
+    marketGroup: 561
     name: Light Electron Blaster II
     volume: 5.0
   Light Ion Blaster I:
@@ -4647,6 +4792,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
     id: 563
+    marketGroup: 561
     name: Light Ion Blaster I
     volume: 5.0
   Light Ion Blaster II:
@@ -4681,6 +4827,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11332
     id: 3170
+    marketGroup: 561
     name: Light Ion Blaster II
     volume: 5.0
   Light Neutron Blaster I:
@@ -4711,6 +4858,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
     id: 564
+    marketGroup: 561
     name: Light Neutron Blaster I
     volume: 5.0
   Light Neutron Blaster II:
@@ -4745,6 +4893,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11332
     id: 3178
+    marketGroup: 561
     name: Light Neutron Blaster II
     volume: 5.0
   Limited Electron Blaster Cannon I:
@@ -4776,6 +4925,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
     id: 7745
+    marketGroup: 563
     name: Limited Electron Blaster Cannon I
     volume: 20.0
   Limited Electron Blaster I:
@@ -4807,6 +4957,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
     id: 7621
+    marketGroup: 562
     name: Limited Electron Blaster I
     volume: 10.0
   Limited Ion Blaster I:
@@ -4838,6 +4989,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 7665
+    marketGroup: 562
     name: Limited Ion Blaster I
     volume: 10.0
   Limited Light Electron Blaster I:
@@ -4869,6 +5021,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
     id: 7489
+    marketGroup: 561
     name: Limited Light Electron Blaster I
     volume: 5.0
   Limited Light Ion Blaster I:
@@ -4900,6 +5053,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
     id: 7537
+    marketGroup: 561
     name: Limited Light Ion Blaster I
     volume: 5.0
   Limited Light Neutron Blaster I:
@@ -4931,6 +5085,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
     id: 7581
+    marketGroup: 561
     name: Limited Light Neutron Blaster I
     volume: 5.0
   Limited Mega Ion Blaster I:
@@ -4962,6 +5117,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
     id: 7829
+    marketGroup: 563
     name: Limited Mega Ion Blaster I
     volume: 20.0
   Limited Mega Neutron Blaster I:
@@ -4993,6 +5149,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
     id: 7785
+    marketGroup: 563
     name: Limited Mega Neutron Blaster I
     volume: 20.0
   Limited Neutron Blaster I:
@@ -5024,6 +5181,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
     id: 7705
+    marketGroup: 562
     name: Limited Neutron Blaster I
     volume: 10.0
   Limited Precise Ion Siege Blaster:
@@ -5055,6 +5213,7 @@ items:
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
     id: 41129
+    marketGroup: 771
     name: Limited Precise Ion Siege Blaster
     volume: 4000.0
   Limited Precise Triple Neutron Blaster Cannon:
@@ -5086,6 +5245,7 @@ items:
     TrackingSpeed: 2.4149999618530273
     TypeColorScheme: 11331
     id: 41078
+    marketGroup: 771
     name: Limited Precise Triple Neutron Blaster Cannon
     volume: 4000.0
   Modal Electron Particle Accelerator I:
@@ -5117,6 +5277,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
     id: 7619
+    marketGroup: 562
     name: Modal Electron Particle Accelerator I
     volume: 10.0
   Modal Enduring Ion Siege Blaster:
@@ -5148,6 +5309,7 @@ items:
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
     id: 41127
+    marketGroup: 771
     name: Modal Enduring Ion Siege Blaster
     volume: 4000.0
   Modal Enduring Triple Neutron Blaster Cannon:
@@ -5179,6 +5341,7 @@ items:
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
     id: 41076
+    marketGroup: 771
     name: Modal Enduring Triple Neutron Blaster Cannon
     volume: 4000.0
   Modal Ion Particle Accelerator I:
@@ -5210,6 +5373,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 7663
+    marketGroup: 562
     name: Modal Ion Particle Accelerator I
     volume: 10.0
   Modal Light Electron Particle Accelerator I:
@@ -5241,6 +5405,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
     id: 7487
+    marketGroup: 561
     name: Modal Light Electron Particle Accelerator I
     volume: 5.0
   Modal Light Ion Particle Accelerator I:
@@ -5272,6 +5437,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
     id: 7535
+    marketGroup: 561
     name: Modal Light Ion Particle Accelerator I
     volume: 5.0
   Modal Light Neutron Particle Accelerator I:
@@ -5303,6 +5469,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
     id: 7579
+    marketGroup: 561
     name: Modal Light Neutron Particle Accelerator I
     volume: 5.0
   Modal Mega Electron Particle Accelerator I:
@@ -5334,6 +5501,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
     id: 7743
+    marketGroup: 563
     name: Modal Mega Electron Particle Accelerator I
     volume: 20.0
   Modal Mega Ion Particle Accelerator I:
@@ -5365,6 +5533,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
     id: 7827
+    marketGroup: 563
     name: Modal Mega Ion Particle Accelerator I
     volume: 20.0
   Modal Mega Neutron Particle Accelerator I:
@@ -5396,6 +5565,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
     id: 7783
+    marketGroup: 563
     name: Modal Mega Neutron Particle Accelerator I
     volume: 20.0
   Modal Neutron Particle Accelerator I:
@@ -5427,6 +5597,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
     id: 7703
+    marketGroup: 562
     name: Modal Neutron Particle Accelerator I
     volume: 10.0
   Naiyon's Modified 350mm Railgun:
@@ -5479,6 +5650,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11323
     id: 573
+    marketGroup: 563
     name: Neutron Blaster Cannon I
     volume: 50.0
   Neutron Blaster Cannon II:
@@ -5513,6 +5685,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11332
     id: 3186
+    marketGroup: 563
     name: Neutron Blaster Cannon II
     volume: 20.0
   Polarized Heavy Neutron Blaster:
@@ -5549,6 +5722,7 @@ items:
     TrackingSpeed: 44.15999984741211
     TypeColorScheme: 11461
     id: 34280
+    marketGroup: 562
     name: Polarized Heavy Neutron Blaster
     volume: 10.0
   Polarized Light Neutron Blaster:
@@ -5585,6 +5759,7 @@ items:
     TrackingSpeed: 436.7699890136719
     TypeColorScheme: 11461
     id: 34278
+    marketGroup: 561
     name: Polarized Light Neutron Blaster
     volume: 5.0
   Polarized Neutron Blaster Cannon:
@@ -5621,6 +5796,7 @@ items:
     TrackingSpeed: 5.975399971008301
     TypeColorScheme: 11461
     id: 34282
+    marketGroup: 563
     name: Polarized Neutron Blaster Cannon
     volume: 20.0
   Prototype Precise Dual 1000mm Railgun:
@@ -5652,6 +5828,7 @@ items:
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
     id: 41141
+    marketGroup: 772
     name: Prototype Precise Dual 1000mm Railgun
     volume: 4000.0
   Regulated Compact Ion Siege Blaster:
@@ -5683,6 +5860,7 @@ items:
     TrackingSpeed: 0.043699998408555984
     TypeColorScheme: 11331
     id: 41126
+    marketGroup: 771
     name: Regulated Compact Ion Siege Blaster
     volume: 4000.0
   Regulated Compact Triple Neutron Blaster Cannon:
@@ -5714,6 +5892,7 @@ items:
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
     id: 37301
+    marketGroup: 771
     name: Regulated Compact Triple Neutron Blaster Cannon
     volume: 4000.0
   Regulated Electron Phase Cannon I:
@@ -5745,6 +5924,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11331
     id: 7623
+    marketGroup: 562
     name: Regulated Electron Phase Cannon I
     volume: 10.0
   Regulated Ion Phase Cannon I:
@@ -5776,6 +5956,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11331
     id: 7667
+    marketGroup: 562
     name: Regulated Ion Phase Cannon I
     volume: 10.0
   Regulated Light Electron Phase Cannon I:
@@ -5807,6 +5988,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11331
     id: 7491
+    marketGroup: 561
     name: Regulated Light Electron Phase Cannon I
     volume: 5.0
   Regulated Light Ion Phase Cannon I:
@@ -5838,6 +6020,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11331
     id: 7539
+    marketGroup: 561
     name: Regulated Light Ion Phase Cannon I
     volume: 5.0
   Regulated Light Neutron Phase Cannon I:
@@ -5869,6 +6052,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11331
     id: 7583
+    marketGroup: 561
     name: Regulated Light Neutron Phase Cannon I
     volume: 5.0
   Regulated Mega Electron Phase Cannon I:
@@ -5900,6 +6084,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11331
     id: 7747
+    marketGroup: 563
     name: Regulated Mega Electron Phase Cannon I
     volume: 20.0
   Regulated Mega Ion Phase Cannon I:
@@ -5931,6 +6116,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11331
     id: 7831
+    marketGroup: 563
     name: Regulated Mega Ion Phase Cannon I
     volume: 20.0
   Regulated Mega Neutron Phase Cannon I:
@@ -5962,6 +6148,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11331
     id: 7787
+    marketGroup: 563
     name: Regulated Mega Neutron Phase Cannon I
     volume: 20.0
   Regulated Neutron Phase Cannon I:
@@ -5993,6 +6180,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11331
     id: 7707
+    marketGroup: 562
     name: Regulated Neutron Phase Cannon I
     volume: 10.0
   Scout Scoped Dual 1000mm Railgun:
@@ -6024,6 +6212,7 @@ items:
     TrackingSpeed: 0.018287500366568565
     TypeColorScheme: 11324
     id: 41140
+    marketGroup: 772
     name: Scout Scoped Dual 1000mm Railgun
     volume: 4000.0
   Setele's Modified 350mm Railgun:
@@ -6056,6 +6245,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
     id: 14389
+    marketGroup: 566
     name: Setele's Modified 350mm Railgun
     volume: 20.0
   Setele's Modified 425mm Railgun:
@@ -6088,6 +6278,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
     id: 14399
+    marketGroup: 566
     name: Setele's Modified 425mm Railgun
     volume: 20.0
   Setele's Modified Dual 250mm Railgun:
@@ -6120,6 +6311,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
     id: 14409
+    marketGroup: 566
     name: Setele's Modified Dual 250mm Railgun
     volume: 20.0
   Shadow Serpentis 125mm Railgun:
@@ -6152,6 +6344,7 @@ items:
     TrackingSpeed: 89.25
     TypeColorScheme: 11351
     id: 13864
+    marketGroup: 564
     name: Shadow Serpentis 125mm Railgun
     volume: 5.0
   Shadow Serpentis 150mm Railgun:
@@ -6184,6 +6377,7 @@ items:
     TrackingSpeed: 73.5
     TypeColorScheme: 11351
     id: 13866
+    marketGroup: 564
     name: Shadow Serpentis 150mm Railgun
     volume: 5.0
   Shadow Serpentis 200mm Railgun:
@@ -6216,6 +6410,7 @@ items:
     TrackingSpeed: 8.0
     TypeColorScheme: 11351
     id: 13868
+    marketGroup: 565
     name: Shadow Serpentis 200mm Railgun
     volume: 10.0
   Shadow Serpentis 250mm Railgun:
@@ -6248,6 +6443,7 @@ items:
     TrackingSpeed: 6.559999942779541
     TypeColorScheme: 11351
     id: 13872
+    marketGroup: 565
     name: Shadow Serpentis 250mm Railgun
     volume: 10.0
   Shadow Serpentis 350mm Railgun:
@@ -6280,6 +6476,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11351
     id: 13874
+    marketGroup: 566
     name: Shadow Serpentis 350mm Railgun
     volume: 20.0
   Shadow Serpentis 425mm Railgun:
@@ -6312,6 +6509,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11351
     id: 13878
+    marketGroup: 566
     name: Shadow Serpentis 425mm Railgun
     volume: 20.0
   Shadow Serpentis 75mm Railgun:
@@ -6344,6 +6542,7 @@ items:
     TrackingSpeed: 136.5
     TypeColorScheme: 11351
     id: 13894
+    marketGroup: 564
     name: Shadow Serpentis 75mm Railgun
     volume: 5.0
   Shadow Serpentis Dual 1000mm Railgun:
@@ -6377,6 +6576,7 @@ items:
     TrackingSpeed: 0.01920187473297119
     TypeColorScheme: 11324
     id: 41142
+    marketGroup: 772
     name: Shadow Serpentis Dual 1000mm Railgun
     volume: 4000.0
   Shadow Serpentis Dual 150mm Railgun:
@@ -6409,6 +6609,7 @@ items:
     TrackingSpeed: 12.0
     TypeColorScheme: 11351
     id: 13880
+    marketGroup: 565
     name: Shadow Serpentis Dual 150mm Railgun
     volume: 10.0
   Shadow Serpentis Dual 250mm Railgun:
@@ -6441,6 +6642,7 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11351
     id: 13882
+    marketGroup: 566
     name: Shadow Serpentis Dual 250mm Railgun
     volume: 20.0
   Shadow Serpentis Electron Blaster Cannon:
@@ -6473,6 +6675,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11351
     id: 13889
+    marketGroup: 563
     name: Shadow Serpentis Electron Blaster Cannon
     volume: 20.0
   Shadow Serpentis Heavy Electron Blaster:
@@ -6505,6 +6708,7 @@ items:
     TrackingSpeed: 46.08000183105469
     TypeColorScheme: 11351
     id: 13884
+    marketGroup: 562
     name: Shadow Serpentis Heavy Electron Blaster
     volume: 10.0
   Shadow Serpentis Heavy Ion Blaster:
@@ -6537,6 +6741,7 @@ items:
     TrackingSpeed: 42.2400016784668
     TypeColorScheme: 11351
     id: 13885
+    marketGroup: 562
     name: Shadow Serpentis Heavy Ion Blaster
     volume: 10.0
   Shadow Serpentis Heavy Neutron Blaster:
@@ -6569,6 +6774,7 @@ items:
     TrackingSpeed: 38.400001525878906
     TypeColorScheme: 11351
     id: 13892
+    marketGroup: 562
     name: Shadow Serpentis Heavy Neutron Blaster
     volume: 10.0
   Shadow Serpentis Ion Blaster Cannon:
@@ -6601,6 +6807,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11351
     id: 13890
+    marketGroup: 563
     name: Shadow Serpentis Ion Blaster Cannon
     volume: 20.0
   Shadow Serpentis Ion Siege Blaster:
@@ -6634,6 +6841,7 @@ items:
     TrackingSpeed: 0.04588500037789345
     TypeColorScheme: 11331
     id: 41130
+    marketGroup: 771
     name: Shadow Serpentis Ion Siege Blaster
     volume: 4000.0
   Shadow Serpentis Light Electron Blaster:
@@ -6666,6 +6874,7 @@ items:
     TrackingSpeed: 438.0
     TypeColorScheme: 11351
     id: 13886
+    marketGroup: 561
     name: Shadow Serpentis Light Electron Blaster
     volume: 5.0
   Shadow Serpentis Light Ion Blaster:
@@ -6698,6 +6907,7 @@ items:
     TrackingSpeed: 403.20001220703125
     TypeColorScheme: 11351
     id: 13887
+    marketGroup: 561
     name: Shadow Serpentis Light Ion Blaster
     volume: 5.0
   Shadow Serpentis Light Neutron Blaster:
@@ -6730,6 +6940,7 @@ items:
     TrackingSpeed: 379.79998779296875
     TypeColorScheme: 11351
     id: 13888
+    marketGroup: 561
     name: Shadow Serpentis Light Neutron Blaster
     volume: 5.0
   Shadow Serpentis Neutron Blaster Cannon:
@@ -6762,6 +6973,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11351
     id: 13891
+    marketGroup: 563
     name: Shadow Serpentis Neutron Blaster Cannon
     volume: 20.0
   Shadow Serpentis Triple Neutron Blaster Cannon:
@@ -6795,6 +7007,7 @@ items:
     TrackingSpeed: 2.4149999618530273
     TypeColorScheme: 11331
     id: 41079
+    marketGroup: 771
     name: Shadow Serpentis Triple Neutron Blaster Cannon
     volume: 4000.0
   Triple Neutron Blaster Cannon I:
@@ -6825,6 +7038,7 @@ items:
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
     id: 37291
+    marketGroup: 771
     name: Triple Neutron Blaster Cannon I
     volume: 4000.0
   Triple Neutron Blaster Cannon II:
@@ -6859,6 +7073,7 @@ items:
     TrackingSpeed: 2.299999952316284
     TypeColorScheme: 11331
     id: 37300
+    marketGroup: 771
     name: Triple Neutron Blaster Cannon II
     volume: 4000.0
   Tuvan's Modified Electron Blaster Cannon:
@@ -6891,6 +7106,7 @@ items:
     TrackingSpeed: 6.0
     TypeColorScheme: 11322
     id: 14375
+    marketGroup: 563
     name: Tuvan's Modified Electron Blaster Cannon
     volume: 20.0
   Tuvan's Modified Ion Blaster Cannon:
@@ -6923,6 +7139,7 @@ items:
     TrackingSpeed: 5.519999980926514
     TypeColorScheme: 11322
     id: 14381
+    marketGroup: 563
     name: Tuvan's Modified Ion Blaster Cannon
     volume: 20.0
   Tuvan's Modified Neutron Blaster Cannon:
@@ -6955,6 +7172,7 @@ items:
     TrackingSpeed: 5.196000099182129
     TypeColorScheme: 11322
     id: 14383
+    marketGroup: 563
     name: Tuvan's Modified Neutron Blaster Cannon
     volume: 20.0
   Vepas' Modified 350mm Railgun:
@@ -6987,6 +7205,7 @@ items:
     TrackingSpeed: 1.225350022315979
     TypeColorScheme: 11322
     id: 14393
+    marketGroup: 566
     name: Vepas' Modified 350mm Railgun
     volume: 20.0
   Vepas' Modified 425mm Railgun:
@@ -7019,6 +7238,7 @@ items:
     TrackingSpeed: 1.0106250047683716
     TypeColorScheme: 11322
     id: 14403
+    marketGroup: 566
     name: Vepas' Modified 425mm Railgun
     volume: 20.0
   Vepas' Modified Dual 250mm Railgun:
@@ -7051,5 +7271,6 @@ items:
     TrackingSpeed: 1.837499976158142
     TypeColorScheme: 11322
     id: 14413
+    marketGroup: 566
     name: Vepas' Modified Dual 250mm Railgun
     volume: 20.0

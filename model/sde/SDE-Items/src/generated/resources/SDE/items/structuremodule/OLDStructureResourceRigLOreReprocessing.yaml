@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37282
+    marketGroup: 2342
     name: OLD L-Set Ore Grading Processor I
     volume: 20.0
   OLD L-Set Ore Grading Processor II:
@@ -37,5 +38,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37283
+    marketGroup: 2342
     name: OLD L-Set Ore Grading Processor II
     volume: 20.0

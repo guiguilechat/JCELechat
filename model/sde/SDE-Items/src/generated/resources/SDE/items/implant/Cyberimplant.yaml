@@ -225,6 +225,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33516
+    marketGroup: 618
     name: High-grade Ascendancy Alpha
     volume: 1.0
   High-grade Ascendancy Beta:
@@ -253,6 +254,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33525
+    marketGroup: 619
     name: High-grade Ascendancy Beta
     volume: 1.0
   High-grade Ascendancy Delta:
@@ -281,6 +283,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33526
+    marketGroup: 621
     name: High-grade Ascendancy Delta
     volume: 1.0
   High-grade Ascendancy Epsilon:
@@ -309,6 +312,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33527
+    marketGroup: 622
     name: High-grade Ascendancy Epsilon
     volume: 1.0
   High-grade Ascendancy Gamma:
@@ -337,6 +341,7 @@ items:
     WarpSBonus: 3
     WillpowerBonus: 4
     id: 33528
+    marketGroup: 620
     name: High-grade Ascendancy Gamma
     volume: 1.0
   High-grade Ascendancy Omega:
@@ -363,6 +368,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33529
+    marketGroup: 1506
     name: High-grade Ascendancy Omega
     volume: 1.0
   High-grade Asklepian Alpha:
@@ -392,6 +398,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42210
+    marketGroup: 618
     name: High-grade Asklepian Alpha
     volume: 1.0
   High-grade Asklepian Beta:
@@ -421,6 +428,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42211
+    marketGroup: 619
     name: High-grade Asklepian Beta
     volume: 1.0
   High-grade Asklepian Delta:
@@ -450,6 +458,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42213
+    marketGroup: 621
     name: High-grade Asklepian Delta
     volume: 1.0
   High-grade Asklepian Epsilon:
@@ -479,6 +488,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42214
+    marketGroup: 622
     name: High-grade Asklepian Epsilon
     volume: 1.0
   High-grade Asklepian Gamma:
@@ -508,6 +518,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 42212
+    marketGroup: 620
     name: High-grade Asklepian Gamma
     volume: 1.0
   High-grade Asklepian Omega:
@@ -535,6 +546,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42215
+    marketGroup: 1506
     name: High-grade Asklepian Omega
     volume: 1.0
   High-grade Crystal Alpha:
@@ -563,6 +575,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20121
+    marketGroup: 618
     name: High-grade Crystal Alpha
     volume: 1.0
   High-grade Crystal Beta:
@@ -591,6 +604,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20157
+    marketGroup: 619
     name: High-grade Crystal Beta
     volume: 1.0
   High-grade Crystal Delta:
@@ -619,6 +633,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20159
+    marketGroup: 621
     name: High-grade Crystal Delta
     volume: 1.0
   High-grade Crystal Epsilon:
@@ -647,6 +662,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20160
+    marketGroup: 622
     name: High-grade Crystal Epsilon
     volume: 1.0
   High-grade Crystal Gamma:
@@ -675,6 +691,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20158
+    marketGroup: 620
     name: High-grade Crystal Gamma
     volume: 1.0
   High-grade Crystal Omega:
@@ -701,6 +718,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20161
+    marketGroup: 1506
     name: High-grade Crystal Omega
     volume: 1.0
   High-grade Grail Alpha:
@@ -729,6 +747,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31954
+    marketGroup: 618
     name: High-grade Grail Alpha
     volume: 1.0
   High-grade Grail Beta:
@@ -757,6 +776,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31955
+    marketGroup: 619
     name: High-grade Grail Beta
     volume: 1.0
   High-grade Grail Delta:
@@ -785,6 +805,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31956
+    marketGroup: 621
     name: High-grade Grail Delta
     volume: 1.0
   High-grade Grail Epsilon:
@@ -813,6 +834,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31957
+    marketGroup: 622
     name: High-grade Grail Epsilon
     volume: 1.0
   High-grade Grail Gamma:
@@ -841,6 +863,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31958
+    marketGroup: 620
     name: High-grade Grail Gamma
     volume: 1.0
   High-grade Grail Omega:
@@ -867,6 +890,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31959
+    marketGroup: 1506
     name: High-grade Grail Omega
     volume: 1.0
   High-grade Halo Alpha:
@@ -895,6 +919,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20498
+    marketGroup: 618
     name: High-grade Halo Alpha
     volume: 1.0
   High-grade Halo Beta:
@@ -923,6 +948,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20500
+    marketGroup: 619
     name: High-grade Halo Beta
     volume: 1.0
   High-grade Halo Delta:
@@ -951,6 +977,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20502
+    marketGroup: 621
     name: High-grade Halo Delta
     volume: 1.0
   High-grade Halo Epsilon:
@@ -979,6 +1006,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20504
+    marketGroup: 622
     name: High-grade Halo Epsilon
     volume: 1.0
   High-grade Halo Gamma:
@@ -1007,6 +1035,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20506
+    marketGroup: 620
     name: High-grade Halo Gamma
     volume: 1.0
   High-grade Halo Omega:
@@ -1033,6 +1062,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20508
+    marketGroup: 1506
     name: High-grade Halo Omega
     volume: 1.0
   High-grade Jackal Alpha:
@@ -1061,6 +1091,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31974
+    marketGroup: 618
     name: High-grade Jackal Alpha
     volume: 1.0
   High-grade Jackal Beta:
@@ -1089,6 +1120,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31975
+    marketGroup: 619
     name: High-grade Jackal Beta
     volume: 1.0
   High-grade Jackal Delta:
@@ -1117,6 +1149,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31976
+    marketGroup: 621
     name: High-grade Jackal Delta
     volume: 1.0
   High-grade Jackal Epsilon:
@@ -1145,6 +1178,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31977
+    marketGroup: 622
     name: High-grade Jackal Epsilon
     volume: 1.0
   High-grade Jackal Gamma:
@@ -1173,6 +1207,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31978
+    marketGroup: 620
     name: High-grade Jackal Gamma
     volume: 1.0
   High-grade Jackal Omega:
@@ -1199,6 +1234,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31979
+    marketGroup: 1506
     name: High-grade Jackal Omega
     volume: 1.0
   High-grade Slave Alpha:
@@ -1228,6 +1264,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20499
+    marketGroup: 618
     name: High-grade Slave Alpha
     volume: 1.0
   High-grade Slave Beta:
@@ -1257,6 +1294,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20501
+    marketGroup: 619
     name: High-grade Slave Beta
     volume: 1.0
   High-grade Slave Delta:
@@ -1286,6 +1324,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20503
+    marketGroup: 621
     name: High-grade Slave Delta
     volume: 1.0
   High-grade Slave Epsilon:
@@ -1315,6 +1354,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20505
+    marketGroup: 622
     name: High-grade Slave Epsilon
     volume: 1.0
   High-grade Slave Gamma:
@@ -1344,6 +1384,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20507
+    marketGroup: 620
     name: High-grade Slave Gamma
     volume: 1.0
   High-grade Slave Omega:
@@ -1371,6 +1412,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 20509
+    marketGroup: 1506
     name: High-grade Slave Omega
     volume: 1.0
   High-grade Snake Alpha:
@@ -1401,6 +1443,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 19540
+    marketGroup: 618
     name: High-grade Snake Alpha
     volume: 1.0
   High-grade Snake Beta:
@@ -1431,6 +1474,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 19551
+    marketGroup: 619
     name: High-grade Snake Beta
     volume: 1.0
   High-grade Snake Delta:
@@ -1461,6 +1505,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 19554
+    marketGroup: 621
     name: High-grade Snake Delta
     volume: 1.0
   High-grade Snake Epsilon:
@@ -1491,6 +1536,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 19555
+    marketGroup: 622
     name: High-grade Snake Epsilon
     volume: 1.0
   High-grade Snake Gamma:
@@ -1521,6 +1567,7 @@ items:
     VelocityBonus: 0.75
     WillpowerBonus: 4
     id: 19553
+    marketGroup: 620
     name: High-grade Snake Gamma
     volume: 1.0
   High-grade Snake Omega:
@@ -1548,6 +1595,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19556
+    marketGroup: 1506
     name: High-grade Snake Omega
     volume: 1.0
   High-grade Spur Alpha:
@@ -1576,6 +1624,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31968
+    marketGroup: 618
     name: High-grade Spur Alpha
     volume: 1.0
   High-grade Spur Beta:
@@ -1604,6 +1653,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31969
+    marketGroup: 619
     name: High-grade Spur Beta
     volume: 1.0
   High-grade Spur Delta:
@@ -1632,6 +1682,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31970
+    marketGroup: 621
     name: High-grade Spur Delta
     volume: 1.0
   High-grade Spur Epsilon:
@@ -1660,6 +1711,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31971
+    marketGroup: 622
     name: High-grade Spur Epsilon
     volume: 1.0
   High-grade Spur Gamma:
@@ -1688,6 +1740,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31972
+    marketGroup: 620
     name: High-grade Spur Gamma
     volume: 1.0
   High-grade Spur Omega:
@@ -1714,6 +1767,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31973
+    marketGroup: 1506
     name: High-grade Spur Omega
     volume: 1.0
   High-grade Talisman Alpha:
@@ -1742,6 +1796,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19534
+    marketGroup: 618
     name: High-grade Talisman Alpha
     volume: 1.0
   High-grade Talisman Beta:
@@ -1770,6 +1825,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19535
+    marketGroup: 619
     name: High-grade Talisman Beta
     volume: 1.0
   High-grade Talisman Delta:
@@ -1798,6 +1854,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19537
+    marketGroup: 621
     name: High-grade Talisman Delta
     volume: 1.0
   High-grade Talisman Epsilon:
@@ -1826,6 +1883,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19538
+    marketGroup: 622
     name: High-grade Talisman Epsilon
     volume: 1.0
   High-grade Talisman Gamma:
@@ -1854,6 +1912,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 19536
+    marketGroup: 620
     name: High-grade Talisman Gamma
     volume: 1.0
   High-grade Talisman Omega:
@@ -1880,6 +1939,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 19539
+    marketGroup: 1506
     name: High-grade Talisman Omega
     volume: 1.0
   High-grade Talon Alpha:
@@ -1908,6 +1968,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31962
+    marketGroup: 618
     name: High-grade Talon Alpha
     volume: 1.0
   High-grade Talon Beta:
@@ -1936,6 +1997,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31963
+    marketGroup: 619
     name: High-grade Talon Beta
     volume: 1.0
   High-grade Talon Delta:
@@ -1964,6 +2026,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31964
+    marketGroup: 621
     name: High-grade Talon Delta
     volume: 1.0
   High-grade Talon Epsilon:
@@ -1992,6 +2055,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31965
+    marketGroup: 622
     name: High-grade Talon Epsilon
     volume: 1.0
   High-grade Talon Gamma:
@@ -2020,6 +2084,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31966
+    marketGroup: 620
     name: High-grade Talon Gamma
     volume: 1.0
   High-grade Talon Omega:
@@ -2046,6 +2111,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 31967
+    marketGroup: 1506
     name: High-grade Talon Omega
     volume: 1.0
   Low-grade Asklepian Alpha:
@@ -2075,6 +2141,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42145
+    marketGroup: 618
     name: Low-grade Asklepian Alpha
     volume: 1.0
   Low-grade Asklepian Beta:
@@ -2104,6 +2171,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42146
+    marketGroup: 619
     name: Low-grade Asklepian Beta
     volume: 1.0
   Low-grade Asklepian Delta:
@@ -2133,6 +2201,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42200
+    marketGroup: 621
     name: Low-grade Asklepian Delta
     volume: 1.0
   Low-grade Asklepian Epsilon:
@@ -2162,6 +2231,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42201
+    marketGroup: 622
     name: Low-grade Asklepian Epsilon
     volume: 1.0
   Low-grade Asklepian Gamma:
@@ -2191,6 +2261,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 42202
+    marketGroup: 620
     name: Low-grade Asklepian Gamma
     volume: 1.0
   Low-grade Asklepian Omega:
@@ -2218,6 +2289,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42203
+    marketGroup: 1506
     name: Low-grade Asklepian Omega
     volume: 1.0
   Low-grade Centurion Alpha:
@@ -2246,6 +2318,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33917
+    marketGroup: 618
     name: Low-grade Centurion Alpha
     volume: 1.0
   Low-grade Centurion Beta:
@@ -2274,6 +2347,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33918
+    marketGroup: 619
     name: Low-grade Centurion Beta
     volume: 1.0
   Low-grade Centurion Delta:
@@ -2302,6 +2376,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33919
+    marketGroup: 621
     name: Low-grade Centurion Delta
     volume: 1.0
   Low-grade Centurion Epsilon:
@@ -2330,6 +2405,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33920
+    marketGroup: 622
     name: Low-grade Centurion Epsilon
     volume: 1.0
   Low-grade Centurion Gamma:
@@ -2358,6 +2434,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33921
+    marketGroup: 620
     name: Low-grade Centurion Gamma
     volume: 1.0
   Low-grade Centurion Omega:
@@ -2384,6 +2461,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33922
+    marketGroup: 1506
     name: Low-grade Centurion Omega
     volume: 1.0
   Low-grade Crystal Alpha:
@@ -2412,6 +2490,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33923
+    marketGroup: 618
     name: Low-grade Crystal Alpha
     volume: 1.0
   Low-grade Crystal Beta:
@@ -2440,6 +2519,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33924
+    marketGroup: 619
     name: Low-grade Crystal Beta
     volume: 1.0
   Low-grade Crystal Delta:
@@ -2468,6 +2548,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33925
+    marketGroup: 621
     name: Low-grade Crystal Delta
     volume: 1.0
   Low-grade Crystal Epsilon:
@@ -2496,6 +2577,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33926
+    marketGroup: 622
     name: Low-grade Crystal Epsilon
     volume: 1.0
   Low-grade Crystal Gamma:
@@ -2524,6 +2606,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33927
+    marketGroup: 620
     name: Low-grade Crystal Gamma
     volume: 1.0
   Low-grade Crystal Omega:
@@ -2550,6 +2633,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33928
+    marketGroup: 1506
     name: Low-grade Crystal Omega
     volume: 1.0
   Low-grade Edge Alpha:
@@ -2578,6 +2662,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33929
+    marketGroup: 618
     name: Low-grade Edge Alpha
     volume: 1.0
   Low-grade Edge Beta:
@@ -2606,6 +2691,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33930
+    marketGroup: 619
     name: Low-grade Edge Beta
     volume: 1.0
   Low-grade Edge Delta:
@@ -2634,6 +2720,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33931
+    marketGroup: 621
     name: Low-grade Edge Delta
     volume: 1.0
   Low-grade Edge Epsilon:
@@ -2662,6 +2749,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33932
+    marketGroup: 622
     name: Low-grade Edge Epsilon
     volume: 1.0
   Low-grade Edge Gamma:
@@ -2690,6 +2778,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33933
+    marketGroup: 620
     name: Low-grade Edge Gamma
     volume: 1.0
   Low-grade Edge Omega:
@@ -2716,6 +2805,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33934
+    marketGroup: 1506
     name: Low-grade Edge Omega
     volume: 1.0
   Low-grade Grail Alpha:
@@ -2744,6 +2834,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32101
+    marketGroup: 618
     name: Low-grade Grail Alpha
     volume: 1.0
   Low-grade Grail Beta:
@@ -2772,6 +2863,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32102
+    marketGroup: 619
     name: Low-grade Grail Beta
     volume: 1.0
   Low-grade Grail Delta:
@@ -2800,6 +2892,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32103
+    marketGroup: 621
     name: Low-grade Grail Delta
     volume: 1.0
   Low-grade Grail Epsilon:
@@ -2828,6 +2921,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32104
+    marketGroup: 622
     name: Low-grade Grail Epsilon
     volume: 1.0
   Low-grade Grail Gamma:
@@ -2856,6 +2950,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32105
+    marketGroup: 620
     name: Low-grade Grail Gamma
     volume: 1.0
   Low-grade Grail Omega:
@@ -2882,6 +2977,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32122
+    marketGroup: 1506
     name: Low-grade Grail Omega
     volume: 1.0
   Low-grade Halo Alpha:
@@ -2910,6 +3006,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33935
+    marketGroup: 618
     name: Low-grade Halo Alpha
     volume: 1.0
   Low-grade Halo Beta:
@@ -2938,6 +3035,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33936
+    marketGroup: 619
     name: Low-grade Halo Beta
     volume: 1.0
   Low-grade Halo Delta:
@@ -2966,6 +3064,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33937
+    marketGroup: 621
     name: Low-grade Halo Delta
     volume: 1.0
   Low-grade Halo Epsilon:
@@ -2994,6 +3093,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33938
+    marketGroup: 622
     name: Low-grade Halo Epsilon
     volume: 1.0
   Low-grade Halo Gamma:
@@ -3022,6 +3122,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33939
+    marketGroup: 620
     name: Low-grade Halo Gamma
     volume: 1.0
   Low-grade Halo Omega:
@@ -3048,6 +3149,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33940
+    marketGroup: 1506
     name: Low-grade Halo Omega
     volume: 1.0
   Low-grade Harvest Alpha:
@@ -3076,6 +3178,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33941
+    marketGroup: 618
     name: Low-grade Harvest Alpha
     volume: 1.0
   Low-grade Harvest Beta:
@@ -3104,6 +3207,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33942
+    marketGroup: 619
     name: Low-grade Harvest Beta
     volume: 1.0
   Low-grade Harvest Delta:
@@ -3132,6 +3236,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33943
+    marketGroup: 621
     name: Low-grade Harvest Delta
     volume: 1.0
   Low-grade Harvest Epsilon:
@@ -3160,6 +3265,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33944
+    marketGroup: 622
     name: Low-grade Harvest Epsilon
     volume: 1.0
   Low-grade Harvest Gamma:
@@ -3188,6 +3294,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33945
+    marketGroup: 620
     name: Low-grade Harvest Gamma
     volume: 1.0
   Low-grade Harvest Omega:
@@ -3214,6 +3321,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33946
+    marketGroup: 1506
     name: Low-grade Harvest Omega
     volume: 1.0
   Low-grade Jackal Alpha:
@@ -3242,6 +3350,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32117
+    marketGroup: 618
     name: Low-grade Jackal Alpha
     volume: 1.0
   Low-grade Jackal Beta:
@@ -3270,6 +3379,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32118
+    marketGroup: 619
     name: Low-grade Jackal Beta
     volume: 1.0
   Low-grade Jackal Delta:
@@ -3298,6 +3408,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32119
+    marketGroup: 621
     name: Low-grade Jackal Delta
     volume: 1.0
   Low-grade Jackal Epsilon:
@@ -3326,6 +3437,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32120
+    marketGroup: 622
     name: Low-grade Jackal Epsilon
     volume: 1.0
   Low-grade Jackal Gamma:
@@ -3354,6 +3466,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32121
+    marketGroup: 620
     name: Low-grade Jackal Gamma
     volume: 1.0
   Low-grade Jackal Omega:
@@ -3380,6 +3493,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32123
+    marketGroup: 1506
     name: Low-grade Jackal Omega
     volume: 1.0
   Low-grade Nomad Alpha:
@@ -3408,6 +3522,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33947
+    marketGroup: 618
     name: Low-grade Nomad Alpha
     volume: 1.0
   Low-grade Nomad Beta:
@@ -3436,6 +3551,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33948
+    marketGroup: 619
     name: Low-grade Nomad Beta
     volume: 1.0
   Low-grade Nomad Delta:
@@ -3464,6 +3580,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33949
+    marketGroup: 621
     name: Low-grade Nomad Delta
     volume: 1.0
   Low-grade Nomad Epsilon:
@@ -3492,6 +3609,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33950
+    marketGroup: 622
     name: Low-grade Nomad Epsilon
     volume: 1.0
   Low-grade Nomad Gamma:
@@ -3520,6 +3638,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33951
+    marketGroup: 620
     name: Low-grade Nomad Gamma
     volume: 1.0
   Low-grade Nomad Omega:
@@ -3546,6 +3665,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33952
+    marketGroup: 1506
     name: Low-grade Nomad Omega
     volume: 1.0
   Low-grade Slave Alpha:
@@ -3575,6 +3695,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33953
+    marketGroup: 618
     name: Low-grade Slave Alpha
     volume: 1.0
   Low-grade Slave Beta:
@@ -3604,6 +3725,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33954
+    marketGroup: 619
     name: Low-grade Slave Beta
     volume: 1.0
   Low-grade Slave Delta:
@@ -3633,6 +3755,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33955
+    marketGroup: 621
     name: Low-grade Slave Delta
     volume: 1.0
   Low-grade Slave Epsilon:
@@ -3662,6 +3785,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33956
+    marketGroup: 622
     name: Low-grade Slave Epsilon
     volume: 1.0
   Low-grade Slave Gamma:
@@ -3691,6 +3815,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33957
+    marketGroup: 620
     name: Low-grade Slave Gamma
     volume: 1.0
   Low-grade Slave Omega:
@@ -3718,6 +3843,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33958
+    marketGroup: 1506
     name: Low-grade Slave Omega
     volume: 1.0
   Low-grade Snake Alpha:
@@ -3748,6 +3874,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 33959
+    marketGroup: 618
     name: Low-grade Snake Alpha
     volume: 1.0
   Low-grade Snake Beta:
@@ -3778,6 +3905,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 33960
+    marketGroup: 619
     name: Low-grade Snake Beta
     volume: 1.0
   Low-grade Snake Delta:
@@ -3808,6 +3936,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 33961
+    marketGroup: 621
     name: Low-grade Snake Delta
     volume: 1.0
   Low-grade Snake Epsilon:
@@ -3838,6 +3967,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 33962
+    marketGroup: 622
     name: Low-grade Snake Epsilon
     volume: 1.0
   Low-grade Snake Gamma:
@@ -3868,6 +3998,7 @@ items:
     VelocityBonus: 0.75
     WillpowerBonus: 2
     id: 33963
+    marketGroup: 620
     name: Low-grade Snake Gamma
     volume: 1.0
   Low-grade Snake Omega:
@@ -3895,6 +4026,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33964
+    marketGroup: 1506
     name: Low-grade Snake Omega
     volume: 1.0
   Low-grade Spur Alpha:
@@ -3923,6 +4055,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32107
+    marketGroup: 618
     name: Low-grade Spur Alpha
     volume: 1.0
   Low-grade Spur Beta:
@@ -3951,6 +4084,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32108
+    marketGroup: 619
     name: Low-grade Spur Beta
     volume: 1.0
   Low-grade Spur Delta:
@@ -3979,6 +4113,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32109
+    marketGroup: 621
     name: Low-grade Spur Delta
     volume: 1.0
   Low-grade Spur Epsilon:
@@ -4007,6 +4142,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32110
+    marketGroup: 622
     name: Low-grade Spur Epsilon
     volume: 1.0
   Low-grade Spur Gamma:
@@ -4035,6 +4171,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32111
+    marketGroup: 620
     name: Low-grade Spur Gamma
     volume: 1.0
   Low-grade Spur Omega:
@@ -4061,6 +4198,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32124
+    marketGroup: 1506
     name: Low-grade Spur Omega
     volume: 1.0
   Low-grade Talisman Alpha:
@@ -4089,6 +4227,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33965
+    marketGroup: 618
     name: Low-grade Talisman Alpha
     volume: 1.0
   Low-grade Talisman Beta:
@@ -4117,6 +4256,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33966
+    marketGroup: 619
     name: Low-grade Talisman Beta
     volume: 1.0
   Low-grade Talisman Delta:
@@ -4145,6 +4285,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33967
+    marketGroup: 621
     name: Low-grade Talisman Delta
     volume: 1.0
   Low-grade Talisman Epsilon:
@@ -4173,6 +4314,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33968
+    marketGroup: 622
     name: Low-grade Talisman Epsilon
     volume: 1.0
   Low-grade Talisman Gamma:
@@ -4201,6 +4343,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33969
+    marketGroup: 620
     name: Low-grade Talisman Gamma
     volume: 1.0
   Low-grade Talisman Omega:
@@ -4227,6 +4370,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33970
+    marketGroup: 1506
     name: Low-grade Talisman Omega
     volume: 1.0
   Low-grade Talon Alpha:
@@ -4255,6 +4399,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32112
+    marketGroup: 618
     name: Low-grade Talon Alpha
     volume: 1.0
   Low-grade Talon Beta:
@@ -4283,6 +4428,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32113
+    marketGroup: 619
     name: Low-grade Talon Beta
     volume: 1.0
   Low-grade Talon Delta:
@@ -4311,6 +4457,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32114
+    marketGroup: 621
     name: Low-grade Talon Delta
     volume: 1.0
   Low-grade Talon Epsilon:
@@ -4339,6 +4486,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32115
+    marketGroup: 622
     name: Low-grade Talon Epsilon
     volume: 1.0
   Low-grade Talon Gamma:
@@ -4367,6 +4515,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32116
+    marketGroup: 620
     name: Low-grade Talon Gamma
     volume: 1.0
   Low-grade Talon Omega:
@@ -4393,6 +4542,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 32125
+    marketGroup: 1506
     name: Low-grade Talon Omega
     volume: 1.0
   Low-grade Virtue Alpha:
@@ -4421,6 +4571,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33971
+    marketGroup: 618
     name: Low-grade Virtue Alpha
     volume: 1.0
   Low-grade Virtue Beta:
@@ -4449,6 +4600,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33972
+    marketGroup: 619
     name: Low-grade Virtue Beta
     volume: 1.0
   Low-grade Virtue Delta:
@@ -4477,6 +4629,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33973
+    marketGroup: 621
     name: Low-grade Virtue Delta
     volume: 1.0
   Low-grade Virtue Epsilon:
@@ -4505,6 +4658,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33974
+    marketGroup: 622
     name: Low-grade Virtue Epsilon
     volume: 1.0
   Low-grade Virtue Gamma:
@@ -4533,6 +4687,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33975
+    marketGroup: 620
     name: Low-grade Virtue Gamma
     volume: 1.0
   Low-grade Virtue Omega:
@@ -4559,6 +4714,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33976
+    marketGroup: 1506
     name: Low-grade Virtue Omega
     volume: 1.0
   Mid-grade Ascendancy Alpha:
@@ -4587,6 +4743,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33555
+    marketGroup: 618
     name: Mid-grade Ascendancy Alpha
     volume: 1.0
   Mid-grade Ascendancy Beta:
@@ -4615,6 +4772,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33557
+    marketGroup: 619
     name: Mid-grade Ascendancy Beta
     volume: 1.0
   Mid-grade Ascendancy Delta:
@@ -4643,6 +4801,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33559
+    marketGroup: 621
     name: Mid-grade Ascendancy Delta
     volume: 1.0
   Mid-grade Ascendancy Epsilon:
@@ -4671,6 +4830,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33561
+    marketGroup: 622
     name: Mid-grade Ascendancy Epsilon
     volume: 1.0
   Mid-grade Ascendancy Gamma:
@@ -4699,6 +4859,7 @@ items:
     WarpSBonus: 3
     WillpowerBonus: 3
     id: 33563
+    marketGroup: 620
     name: Mid-grade Ascendancy Gamma
     volume: 1.0
   Mid-grade Ascendancy Omega:
@@ -4725,6 +4886,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 33565
+    marketGroup: 1506
     name: Mid-grade Ascendancy Omega
     volume: 1.0
   Mid-grade Asklepian Alpha:
@@ -4754,6 +4916,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42204
+    marketGroup: 618
     name: Mid-grade Asklepian Alpha
     volume: 1.0
   Mid-grade Asklepian Beta:
@@ -4783,6 +4946,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42205
+    marketGroup: 619
     name: Mid-grade Asklepian Beta
     volume: 1.0
   Mid-grade Asklepian Delta:
@@ -4812,6 +4976,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42207
+    marketGroup: 621
     name: Mid-grade Asklepian Delta
     volume: 1.0
   Mid-grade Asklepian Epsilon:
@@ -4841,6 +5006,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42208
+    marketGroup: 622
     name: Mid-grade Asklepian Epsilon
     volume: 1.0
   Mid-grade Asklepian Gamma:
@@ -4870,6 +5036,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 42206
+    marketGroup: 620
     name: Mid-grade Asklepian Gamma
     volume: 1.0
   Mid-grade Asklepian Omega:
@@ -4897,6 +5064,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 42209
+    marketGroup: 1506
     name: Mid-grade Asklepian Omega
     volume: 1.0
   Mid-grade Centurion Alpha:
@@ -4925,6 +5093,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28790
+    marketGroup: 618
     name: Mid-grade Centurion Alpha
     volume: 1.0
   Mid-grade Centurion Beta:
@@ -4953,6 +5122,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28791
+    marketGroup: 619
     name: Mid-grade Centurion Beta
     volume: 1.0
   Mid-grade Centurion Delta:
@@ -4981,6 +5151,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28792
+    marketGroup: 621
     name: Mid-grade Centurion Delta
     volume: 1.0
   Mid-grade Centurion Epsilon:
@@ -5009,6 +5180,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28793
+    marketGroup: 622
     name: Mid-grade Centurion Epsilon
     volume: 1.0
   Mid-grade Centurion Gamma:
@@ -5037,6 +5209,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28794
+    marketGroup: 620
     name: Mid-grade Centurion Gamma
     volume: 1.0
   Mid-grade Centurion Omega:
@@ -5063,6 +5236,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28795
+    marketGroup: 1506
     name: Mid-grade Centurion Omega
     volume: 1.0
   Mid-grade Crystal Alpha:
@@ -5091,6 +5265,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22107
+    marketGroup: 618
     name: Mid-grade Crystal Alpha
     volume: 1.0
   Mid-grade Crystal Beta:
@@ -5119,6 +5294,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22108
+    marketGroup: 619
     name: Mid-grade Crystal Beta
     volume: 1.0
   Mid-grade Crystal Delta:
@@ -5147,6 +5323,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22109
+    marketGroup: 621
     name: Mid-grade Crystal Delta
     volume: 1.0
   Mid-grade Crystal Epsilon:
@@ -5175,6 +5352,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22110
+    marketGroup: 622
     name: Mid-grade Crystal Epsilon
     volume: 1.0
   Mid-grade Crystal Gamma:
@@ -5203,6 +5381,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22111
+    marketGroup: 620
     name: Mid-grade Crystal Gamma
     volume: 1.0
   Mid-grade Crystal Omega:
@@ -5229,6 +5408,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22112
+    marketGroup: 1506
     name: Mid-grade Crystal Omega
     volume: 1.0
   Mid-grade Edge Alpha:
@@ -5257,6 +5437,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28814
+    marketGroup: 618
     name: Mid-grade Edge Alpha
     volume: 1.0
   Mid-grade Edge Beta:
@@ -5285,6 +5466,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28815
+    marketGroup: 619
     name: Mid-grade Edge Beta
     volume: 1.0
   Mid-grade Edge Delta:
@@ -5313,6 +5495,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28816
+    marketGroup: 621
     name: Mid-grade Edge Delta
     volume: 1.0
   Mid-grade Edge Epsilon:
@@ -5341,6 +5524,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28817
+    marketGroup: 622
     name: Mid-grade Edge Epsilon
     volume: 1.0
   Mid-grade Edge Gamma:
@@ -5369,6 +5553,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28818
+    marketGroup: 620
     name: Mid-grade Edge Gamma
     volume: 1.0
   Mid-grade Edge Omega:
@@ -5395,6 +5580,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28819
+    marketGroup: 1506
     name: Mid-grade Edge Omega
     volume: 1.0
   Mid-grade Halo Alpha:
@@ -5423,6 +5609,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22113
+    marketGroup: 618
     name: Mid-grade Halo Alpha
     volume: 1.0
   Mid-grade Halo Beta:
@@ -5451,6 +5638,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22114
+    marketGroup: 619
     name: Mid-grade Halo Beta
     volume: 1.0
   Mid-grade Halo Delta:
@@ -5479,6 +5667,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22115
+    marketGroup: 621
     name: Mid-grade Halo Delta
     volume: 1.0
   Mid-grade Halo Epsilon:
@@ -5507,6 +5696,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22116
+    marketGroup: 622
     name: Mid-grade Halo Epsilon
     volume: 1.0
   Mid-grade Halo Gamma:
@@ -5535,6 +5725,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22117
+    marketGroup: 620
     name: Mid-grade Halo Gamma
     volume: 1.0
   Mid-grade Halo Omega:
@@ -5561,6 +5752,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22118
+    marketGroup: 1506
     name: Mid-grade Halo Omega
     volume: 1.0
   Mid-grade Harvest Alpha:
@@ -5589,6 +5781,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28802
+    marketGroup: 618
     name: Mid-grade Harvest Alpha
     volume: 1.0
   Mid-grade Harvest Beta:
@@ -5617,6 +5810,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28803
+    marketGroup: 619
     name: Mid-grade Harvest Beta
     volume: 1.0
   Mid-grade Harvest Delta:
@@ -5645,6 +5839,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28804
+    marketGroup: 621
     name: Mid-grade Harvest Delta
     volume: 1.0
   Mid-grade Harvest Epsilon:
@@ -5673,6 +5868,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28805
+    marketGroup: 622
     name: Mid-grade Harvest Epsilon
     volume: 1.0
   Mid-grade Harvest Gamma:
@@ -5701,6 +5897,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28806
+    marketGroup: 620
     name: Mid-grade Harvest Gamma
     volume: 1.0
   Mid-grade Harvest Omega:
@@ -5727,6 +5924,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28807
+    marketGroup: 1506
     name: Mid-grade Harvest Omega
     volume: 1.0
   Mid-grade Nomad Alpha:
@@ -5755,6 +5953,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28796
+    marketGroup: 618
     name: Mid-grade Nomad Alpha
     volume: 1.0
   Mid-grade Nomad Beta:
@@ -5783,6 +5982,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28797
+    marketGroup: 619
     name: Mid-grade Nomad Beta
     volume: 1.0
   Mid-grade Nomad Delta:
@@ -5811,6 +6011,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28798
+    marketGroup: 621
     name: Mid-grade Nomad Delta
     volume: 1.0
   Mid-grade Nomad Epsilon:
@@ -5839,6 +6040,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28799
+    marketGroup: 622
     name: Mid-grade Nomad Epsilon
     volume: 1.0
   Mid-grade Nomad Gamma:
@@ -5867,6 +6069,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28800
+    marketGroup: 620
     name: Mid-grade Nomad Gamma
     volume: 1.0
   Mid-grade Nomad Omega:
@@ -5893,6 +6096,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28801
+    marketGroup: 1506
     name: Mid-grade Nomad Omega
     volume: 1.0
   Mid-grade Slave Alpha:
@@ -5922,6 +6126,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22119
+    marketGroup: 618
     name: Mid-grade Slave Alpha
     volume: 1.0
   Mid-grade Slave Beta:
@@ -5951,6 +6156,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22120
+    marketGroup: 619
     name: Mid-grade Slave Beta
     volume: 1.0
   Mid-grade Slave Delta:
@@ -5980,6 +6186,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22121
+    marketGroup: 621
     name: Mid-grade Slave Delta
     volume: 1.0
   Mid-grade Slave Epsilon:
@@ -6009,6 +6216,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22122
+    marketGroup: 622
     name: Mid-grade Slave Epsilon
     volume: 1.0
   Mid-grade Slave Gamma:
@@ -6038,6 +6246,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22123
+    marketGroup: 620
     name: Mid-grade Slave Gamma
     volume: 1.0
   Mid-grade Slave Omega:
@@ -6065,6 +6274,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22124
+    marketGroup: 1506
     name: Mid-grade Slave Omega
     volume: 1.0
   Mid-grade Snake Alpha:
@@ -6095,6 +6305,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 22125
+    marketGroup: 618
     name: Mid-grade Snake Alpha
     volume: 1.0
   Mid-grade Snake Beta:
@@ -6125,6 +6336,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 22126
+    marketGroup: 619
     name: Mid-grade Snake Beta
     volume: 1.0
   Mid-grade Snake Delta:
@@ -6155,6 +6367,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 22127
+    marketGroup: 621
     name: Mid-grade Snake Delta
     volume: 1.0
   Mid-grade Snake Epsilon:
@@ -6185,6 +6398,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 22128
+    marketGroup: 622
     name: Mid-grade Snake Epsilon
     volume: 1.0
   Mid-grade Snake Gamma:
@@ -6215,6 +6429,7 @@ items:
     VelocityBonus: 0.75
     WillpowerBonus: 3
     id: 22129
+    marketGroup: 620
     name: Mid-grade Snake Gamma
     volume: 1.0
   Mid-grade Snake Omega:
@@ -6242,6 +6457,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22130
+    marketGroup: 1506
     name: Mid-grade Snake Omega
     volume: 1.0
   Mid-grade Talisman Alpha:
@@ -6270,6 +6486,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22131
+    marketGroup: 618
     name: Mid-grade Talisman Alpha
     volume: 1.0
   Mid-grade Talisman Beta:
@@ -6298,6 +6515,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22133
+    marketGroup: 619
     name: Mid-grade Talisman Beta
     volume: 1.0
   Mid-grade Talisman Delta:
@@ -6326,6 +6544,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22134
+    marketGroup: 621
     name: Mid-grade Talisman Delta
     volume: 1.0
   Mid-grade Talisman Epsilon:
@@ -6354,6 +6573,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22135
+    marketGroup: 622
     name: Mid-grade Talisman Epsilon
     volume: 1.0
   Mid-grade Talisman Gamma:
@@ -6382,6 +6602,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22136
+    marketGroup: 620
     name: Mid-grade Talisman Gamma
     volume: 1.0
   Mid-grade Talisman Omega:
@@ -6408,6 +6629,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 22137
+    marketGroup: 1506
     name: Mid-grade Talisman Omega
     volume: 1.0
   Mid-grade Virtue Alpha:
@@ -6436,6 +6658,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28808
+    marketGroup: 618
     name: Mid-grade Virtue Alpha
     volume: 1.0
   Mid-grade Virtue Beta:
@@ -6464,6 +6687,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28809
+    marketGroup: 619
     name: Mid-grade Virtue Beta
     volume: 1.0
   Mid-grade Virtue Delta:
@@ -6492,6 +6716,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28810
+    marketGroup: 621
     name: Mid-grade Virtue Delta
     volume: 1.0
   Mid-grade Virtue Epsilon:
@@ -6520,6 +6745,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28811
+    marketGroup: 622
     name: Mid-grade Virtue Epsilon
     volume: 1.0
   Mid-grade Virtue Gamma:
@@ -6548,6 +6774,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28812
+    marketGroup: 620
     name: Mid-grade Virtue Gamma
     volume: 1.0
   Mid-grade Virtue Omega:
@@ -6574,6 +6801,7 @@ items:
     TechLevel: 2
     TrackingSpeedMultiplier: 1.0
     id: 28813
+    marketGroup: 1506
     name: Mid-grade Virtue Omega
     volume: 1.0
   QA SpaceAnchor Implant:

@@ -7,6 +7,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31720
+    marketGroup: 1732
     name: Capital Anti-EM Screen Reinforcer I
     volume: 40.0
   Capital Anti-EM Screen Reinforcer II:
@@ -18,6 +19,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31726
+    marketGroup: 1732
     name: Capital Anti-EM Screen Reinforcer II
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer I:
@@ -28,6 +30,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31732
+    marketGroup: 1732
     name: Capital Anti-Explosive Screen Reinforcer I
     volume: 40.0
   Capital Anti-Explosive Screen Reinforcer II:
@@ -39,6 +42,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31738
+    marketGroup: 1732
     name: Capital Anti-Explosive Screen Reinforcer II
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer I:
@@ -49,6 +53,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31744
+    marketGroup: 1732
     name: Capital Anti-Kinetic Screen Reinforcer I
     volume: 40.0
   Capital Anti-Kinetic Screen Reinforcer II:
@@ -60,6 +65,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31750
+    marketGroup: 1732
     name: Capital Anti-Kinetic Screen Reinforcer II
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer I:
@@ -70,6 +76,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
     id: 31756
+    marketGroup: 1732
     name: Capital Anti-Thermal Screen Reinforcer I
     volume: 40.0
   Capital Anti-Thermal Screen Reinforcer II:
@@ -81,6 +88,7 @@ items:
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
     id: 31762
+    marketGroup: 1732
     name: Capital Anti-Thermal Screen Reinforcer II
     volume: 40.0
   Capital Core Defense Capacitor Safeguard I:
@@ -91,6 +99,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31768
+    marketGroup: 1732
     name: Capital Core Defense Capacitor Safeguard I
     volume: 40.0
   Capital Core Defense Capacitor Safeguard II:
@@ -102,6 +111,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31774
+    marketGroup: 1732
     name: Capital Core Defense Capacitor Safeguard II
     volume: 40.0
   Capital Core Defense Charge Economizer I:
@@ -112,6 +122,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31780
+    marketGroup: 1732
     name: Capital Core Defense Charge Economizer I
     volume: 40.0
   Capital Core Defense Charge Economizer II:
@@ -123,6 +134,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31786
+    marketGroup: 1732
     name: Capital Core Defense Charge Economizer II
     volume: 40.0
   Capital Core Defense Field Extender I:
@@ -133,6 +145,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31792
+    marketGroup: 1732
     name: Capital Core Defense Field Extender I
     volume: 40.0
   Capital Core Defense Field Extender II:
@@ -144,6 +157,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31798
+    marketGroup: 1732
     name: Capital Core Defense Field Extender II
     volume: 40.0
   Capital Core Defense Field Purger I:
@@ -154,6 +168,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31804
+    marketGroup: 1732
     name: Capital Core Defense Field Purger I
     volume: 40.0
   Capital Core Defense Field Purger II:
@@ -165,6 +180,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31814
+    marketGroup: 1732
     name: Capital Core Defense Field Purger II
     volume: 40.0
   Capital Core Defense Operational Solidifier I:
@@ -175,6 +191,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31820
+    marketGroup: 1732
     name: Capital Core Defense Operational Solidifier I
     volume: 40.0
   Capital Core Defense Operational Solidifier II:
@@ -186,6 +203,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31826
+    marketGroup: 1732
     name: Capital Core Defense Operational Solidifier II
     volume: 40.0
   Large Anti-EM Screen Reinforcer I:
@@ -196,6 +214,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26076
+    marketGroup: 1236
     name: Large Anti-EM Screen Reinforcer I
     volume: 20.0
   Large Anti-EM Screen Reinforcer II:
@@ -207,6 +226,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26436
+    marketGroup: 1236
     name: Large Anti-EM Screen Reinforcer II
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer I:
@@ -217,6 +237,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26078
+    marketGroup: 1236
     name: Large Anti-Explosive Screen Reinforcer I
     volume: 20.0
   Large Anti-Explosive Screen Reinforcer II:
@@ -228,6 +249,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26438
+    marketGroup: 1236
     name: Large Anti-Explosive Screen Reinforcer II
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer I:
@@ -238,6 +260,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26080
+    marketGroup: 1236
     name: Large Anti-Kinetic Screen Reinforcer I
     volume: 20.0
   Large Anti-Kinetic Screen Reinforcer II:
@@ -249,6 +272,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26440
+    marketGroup: 1236
     name: Large Anti-Kinetic Screen Reinforcer II
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer I:
@@ -259,6 +283,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
     id: 26082
+    marketGroup: 1236
     name: Large Anti-Thermal Screen Reinforcer I
     volume: 20.0
   Large Anti-Thermal Screen Reinforcer II:
@@ -270,6 +295,7 @@ items:
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
     id: 26442
+    marketGroup: 1236
     name: Large Anti-Thermal Screen Reinforcer II
     volume: 20.0
   Large Core Defense Capacitor Safeguard I:
@@ -280,6 +306,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 25906
+    marketGroup: 1236
     name: Large Core Defense Capacitor Safeguard I
     volume: 20.0
   Large Core Defense Capacitor Safeguard II:
@@ -291,6 +318,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26444
+    marketGroup: 1236
     name: Large Core Defense Capacitor Safeguard II
     volume: 20.0
   Large Core Defense Charge Economizer I:
@@ -301,6 +329,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26090
+    marketGroup: 1236
     name: Large Core Defense Charge Economizer I
     volume: 20.0
   Large Core Defense Charge Economizer II:
@@ -312,6 +341,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26446
+    marketGroup: 1236
     name: Large Core Defense Charge Economizer II
     volume: 20.0
   Large Core Defense Field Extender I:
@@ -321,6 +351,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26088
+    marketGroup: 1236
     name: Large Core Defense Field Extender I
     volume: 20.0
   Large Core Defense Field Extender II:
@@ -331,6 +362,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26448
+    marketGroup: 1236
     name: Large Core Defense Field Extender II
     volume: 20.0
   Large Core Defense Field Purger I:
@@ -341,6 +373,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26084
+    marketGroup: 1236
     name: Large Core Defense Field Purger I
     volume: 20.0
   Large Core Defense Field Purger II:
@@ -352,6 +385,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26450
+    marketGroup: 1236
     name: Large Core Defense Field Purger II
     volume: 20.0
   Large Core Defense Operational Solidifier I:
@@ -362,6 +396,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26086
+    marketGroup: 1236
     name: Large Core Defense Operational Solidifier I
     volume: 20.0
   Large Core Defense Operational Solidifier II:
@@ -373,6 +408,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26452
+    marketGroup: 1236
     name: Large Core Defense Operational Solidifier II
     volume: 20.0
   Medium Anti-EM Screen Reinforcer I:
@@ -383,6 +419,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31718
+    marketGroup: 1235
     name: Medium Anti-EM Screen Reinforcer I
     volume: 10.0
   Medium Anti-EM Screen Reinforcer II:
@@ -394,6 +431,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31724
+    marketGroup: 1235
     name: Medium Anti-EM Screen Reinforcer II
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer I:
@@ -404,6 +442,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31730
+    marketGroup: 1235
     name: Medium Anti-Explosive Screen Reinforcer I
     volume: 10.0
   Medium Anti-Explosive Screen Reinforcer II:
@@ -415,6 +454,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31736
+    marketGroup: 1235
     name: Medium Anti-Explosive Screen Reinforcer II
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer I:
@@ -425,6 +465,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31742
+    marketGroup: 1235
     name: Medium Anti-Kinetic Screen Reinforcer I
     volume: 10.0
   Medium Anti-Kinetic Screen Reinforcer II:
@@ -436,6 +477,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31748
+    marketGroup: 1235
     name: Medium Anti-Kinetic Screen Reinforcer II
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer I:
@@ -446,6 +488,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
     id: 31754
+    marketGroup: 1235
     name: Medium Anti-Thermal Screen Reinforcer I
     volume: 10.0
   Medium Anti-Thermal Screen Reinforcer II:
@@ -457,6 +500,7 @@ items:
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
     id: 31760
+    marketGroup: 1235
     name: Medium Anti-Thermal Screen Reinforcer II
     volume: 10.0
   Medium Core Defense Capacitor Safeguard I:
@@ -467,6 +511,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31766
+    marketGroup: 1235
     name: Medium Core Defense Capacitor Safeguard I
     volume: 10.0
   Medium Core Defense Capacitor Safeguard II:
@@ -478,6 +523,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31772
+    marketGroup: 1235
     name: Medium Core Defense Capacitor Safeguard II
     volume: 10.0
   Medium Core Defense Charge Economizer I:
@@ -488,6 +534,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31778
+    marketGroup: 1235
     name: Medium Core Defense Charge Economizer I
     volume: 10.0
   Medium Core Defense Charge Economizer II:
@@ -499,6 +546,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31784
+    marketGroup: 1235
     name: Medium Core Defense Charge Economizer II
     volume: 10.0
   Medium Core Defense Field Extender I:
@@ -509,6 +557,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31790
+    marketGroup: 1235
     name: Medium Core Defense Field Extender I
     volume: 10.0
   Medium Core Defense Field Extender II:
@@ -520,6 +569,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31796
+    marketGroup: 1235
     name: Medium Core Defense Field Extender II
     volume: 10.0
   Medium Core Defense Field Purger I:
@@ -530,6 +580,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31802
+    marketGroup: 1235
     name: Medium Core Defense Field Purger I
     volume: 10.0
   Medium Core Defense Field Purger II:
@@ -541,6 +592,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31812
+    marketGroup: 1235
     name: Medium Core Defense Field Purger II
     volume: 10.0
   Medium Core Defense Operational Solidifier I:
@@ -551,6 +603,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31818
+    marketGroup: 1235
     name: Medium Core Defense Operational Solidifier I
     volume: 10.0
   Medium Core Defense Operational Solidifier II:
@@ -562,6 +615,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31824
+    marketGroup: 1235
     name: Medium Core Defense Operational Solidifier II
     volume: 10.0
   Shield Transporter Rig I:
@@ -592,6 +646,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31716
+    marketGroup: 1234
     name: Small Anti-EM Screen Reinforcer I
     volume: 5.0
   Small Anti-EM Screen Reinforcer II:
@@ -603,6 +658,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31722
+    marketGroup: 1234
     name: Small Anti-EM Screen Reinforcer II
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer I:
@@ -613,6 +669,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31728
+    marketGroup: 1234
     name: Small Anti-Explosive Screen Reinforcer I
     volume: 5.0
   Small Anti-Explosive Screen Reinforcer II:
@@ -624,6 +681,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31734
+    marketGroup: 1234
     name: Small Anti-Explosive Screen Reinforcer II
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer I:
@@ -634,6 +692,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31740
+    marketGroup: 1234
     name: Small Anti-Kinetic Screen Reinforcer I
     volume: 5.0
   Small Anti-Kinetic Screen Reinforcer II:
@@ -645,6 +704,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31746
+    marketGroup: 1234
     name: Small Anti-Kinetic Screen Reinforcer II
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer I:
@@ -655,6 +715,7 @@ items:
     ThermalDamageResistanceBonus: -30.0
     UpgradeCost: 50
     id: 31752
+    marketGroup: 1234
     name: Small Anti-Thermal Screen Reinforcer I
     volume: 5.0
   Small Anti-Thermal Screen Reinforcer II:
@@ -666,6 +727,7 @@ items:
     ThermalDamageResistanceBonus: -35.0
     UpgradeCost: 75
     id: 31758
+    marketGroup: 1234
     name: Small Anti-Thermal Screen Reinforcer II
     volume: 5.0
   Small Core Defense Capacitor Safeguard I:
@@ -676,6 +738,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31764
+    marketGroup: 1234
     name: Small Core Defense Capacitor Safeguard I
     volume: 5.0
   Small Core Defense Capacitor Safeguard II:
@@ -687,6 +750,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31770
+    marketGroup: 1234
     name: Small Core Defense Capacitor Safeguard II
     volume: 5.0
   Small Core Defense Charge Economizer I:
@@ -697,6 +761,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31776
+    marketGroup: 1234
     name: Small Core Defense Charge Economizer I
     volume: 5.0
   Small Core Defense Charge Economizer II:
@@ -708,6 +773,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31782
+    marketGroup: 1234
     name: Small Core Defense Charge Economizer II
     volume: 5.0
   Small Core Defense Field Extender I:
@@ -718,6 +784,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31788
+    marketGroup: 1234
     name: Small Core Defense Field Extender I
     volume: 5.0
   Small Core Defense Field Extender II:
@@ -729,6 +796,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31794
+    marketGroup: 1234
     name: Small Core Defense Field Extender II
     volume: 5.0
   Small Core Defense Field Purger I:
@@ -739,6 +807,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31800
+    marketGroup: 1234
     name: Small Core Defense Field Purger I
     volume: 5.0
   Small Core Defense Field Purger II:
@@ -750,6 +819,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31810
+    marketGroup: 1234
     name: Small Core Defense Field Purger II
     volume: 5.0
   Small Core Defense Operational Solidifier I:
@@ -760,6 +830,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31816
+    marketGroup: 1234
     name: Small Core Defense Operational Solidifier I
     volume: 5.0
   Small Core Defense Operational Solidifier II:
@@ -771,5 +842,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31822
+    marketGroup: 1234
     name: Small Core Defense Operational Solidifier II
     volume: 5.0

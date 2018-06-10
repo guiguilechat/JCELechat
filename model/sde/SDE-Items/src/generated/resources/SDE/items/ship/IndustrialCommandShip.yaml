@@ -88,6 +88,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 2.0
     id: 28606
+    marketGroup: 2336
     name: Orca
     volume: 1.025E7
   Orca ORE Development Edition:
@@ -256,5 +257,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 42244
+    marketGroup: 2336
     name: Porpoise
     volume: 400000.0

@@ -45,6 +45,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40362
+    marketGroup: 1310
     name: Ametat I
     volume: 2000.0
   Ametat II:
@@ -94,6 +95,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40560
+    marketGroup: 1310
     name: Ametat II
     volume: 2000.0
   Antaeus I:
@@ -142,6 +144,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40364
+    marketGroup: 1310
     name: Antaeus I
     volume: 2000.0
   Antaeus II:
@@ -191,6 +194,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40562
+    marketGroup: 1310
     name: Antaeus II
     volume: 2000.0
   Cyclops I:
@@ -246,6 +250,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 32325
+    marketGroup: 1310
     name: Cyclops I
     volume: 1800.0
   Cyclops II:
@@ -302,6 +307,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40563
+    marketGroup: 1310
     name: Cyclops II
     volume: 1800.0
   Dog_PLACEHOLDER:
@@ -318,6 +324,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
     id: 45673
+    marketGroup: 1310
     name: Dog_PLACEHOLDER
     volume: 1.0
   Easy_PLACEHOLDER:
@@ -334,6 +341,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
     id: 45675
+    marketGroup: 1310
     name: Easy_PLACEHOLDER
     volume: 1.0
   Gungnir I:
@@ -382,6 +390,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40365
+    marketGroup: 1310
     name: Gungnir I
     volume: 2000.0
   Gungnir II:
@@ -431,6 +440,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40564
+    marketGroup: 1310
     name: Gungnir II
     volume: 2000.0
   Malleus I:
@@ -486,6 +496,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 32340
+    marketGroup: 1310
     name: Malleus I
     volume: 1800.0
   Malleus II:
@@ -542,6 +553,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40561
+    marketGroup: 1310
     name: Malleus II
     volume: 1800.0
   Mantis I:
@@ -597,6 +609,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 32344
+    marketGroup: 1310
     name: Mantis I
     volume: 1800.0
   Mantis II:
@@ -653,6 +666,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40567
+    marketGroup: 1310
     name: Mantis II
     volume: 1800.0
   Shadow:
@@ -706,6 +720,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 2948
+    marketGroup: 1310
     name: Shadow
     volume: 1800.0
   Standup Ametat I:
@@ -749,6 +764,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47124
+    marketGroup: 2412
     name: Standup Ametat I
     volume: 4000.0
   Standup Ametat II:
@@ -793,6 +809,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47127
+    marketGroup: 2412
     name: Standup Ametat II
     volume: 4000.0
   Standup Antaeus I:
@@ -836,6 +853,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47126
+    marketGroup: 2412
     name: Standup Antaeus I
     volume: 4000.0
   Standup Antaeus II:
@@ -880,6 +898,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47129
+    marketGroup: 2412
     name: Standup Antaeus II
     volume: 4000.0
   Standup Cyclops I:
@@ -930,6 +949,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47117
+    marketGroup: 2412
     name: Standup Cyclops I
     volume: 3600.0
   Standup Cyclops II:
@@ -981,6 +1001,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47121
+    marketGroup: 2412
     name: Standup Cyclops II
     volume: 3600.0
   Standup Gungnir I:
@@ -1024,6 +1045,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47039
+    marketGroup: 2412
     name: Standup Gungnir I
     volume: 4000.0
   Standup Gungnir II:
@@ -1068,6 +1090,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47130
+    marketGroup: 2412
     name: Standup Gungnir II
     volume: 4000.0
   Standup Malleus I:
@@ -1118,6 +1141,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47116
+    marketGroup: 2412
     name: Standup Malleus I
     volume: 3600.0
   Standup Malleus II:
@@ -1169,6 +1193,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47119
+    marketGroup: 2412
     name: Standup Malleus II
     volume: 3600.0
   Standup Mantis I:
@@ -1219,6 +1244,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47038
+    marketGroup: 2412
     name: Standup Mantis I
     volume: 3600.0
   Standup Mantis II:
@@ -1270,6 +1296,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47120
+    marketGroup: 2412
     name: Standup Mantis II
     volume: 3600.0
   Standup Shadow:
@@ -1320,6 +1347,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47123
+    marketGroup: 2412
     name: Standup Shadow
     volume: 3600.0
   Standup Termite I:
@@ -1363,6 +1391,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47125
+    marketGroup: 2412
     name: Standup Termite I
     volume: 4000.0
   Standup Termite II:
@@ -1407,6 +1436,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47128
+    marketGroup: 2412
     name: Standup Termite II
     volume: 4000.0
   Standup Tyrfing I:
@@ -1457,6 +1487,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47118
+    marketGroup: 2412
     name: Standup Tyrfing I
     volume: 3600.0
   Standup Tyrfing II:
@@ -1508,6 +1539,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47122
+    marketGroup: 2412
     name: Standup Tyrfing II
     volume: 3600.0
   Termite I:
@@ -1556,6 +1588,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40363
+    marketGroup: 1310
     name: Termite I
     volume: 2000.0
   Termite II:
@@ -1605,6 +1638,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40566
+    marketGroup: 1310
     name: Termite II
     volume: 2000.0
   Tyrfing I:
@@ -1660,6 +1694,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 32342
+    marketGroup: 1310
     name: Tyrfing I
     volume: 1800.0
   Tyrfing II:
@@ -1716,5 +1751,6 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40565
+    marketGroup: 1310
     name: Tyrfing II
     volume: 1800.0

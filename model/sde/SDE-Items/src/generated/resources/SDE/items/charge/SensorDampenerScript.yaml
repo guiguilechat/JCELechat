@@ -7,6 +7,7 @@ items:
     ScanResolutionBonusBonus: 100
     TechLevel: 1
     id: 29013
+    marketGroup: 1094
     name: Scan Resolution Dampening Script
     volume: 1.0
   Targeting Range Dampening Script:
@@ -17,5 +18,6 @@ items:
     ScanResolutionBonusBonus: -100
     TechLevel: 1
     id: 29015
+    marketGroup: 1094
     name: Targeting Range Dampening Script
     volume: 1.0

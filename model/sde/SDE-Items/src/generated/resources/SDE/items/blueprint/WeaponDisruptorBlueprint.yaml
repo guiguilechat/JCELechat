@@ -14,6 +14,7 @@ items:
   Guidance Disruptor I Blueprint:
     TechLevel: 1
     id: 40338
+    marketGroup: 1574
     name: Guidance Disruptor I Blueprint
     volume: 0.01
   Guidance Disruptor II Blueprint:
@@ -25,6 +26,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11614
+    marketGroup: 1574
     name: Tracking Disruptor I Blueprint
     volume: 0.01
   Tracking Disruptor II Blueprint:

@@ -10,6 +10,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 22
+    marketGroup: 512
     name: Arkonor
     volume: 16.0
   Compressed Arkonor:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 28367
+    marketGroup: 512
     name: Compressed Arkonor
     volume: 8.8
   Compressed Crimson Arkonor:
@@ -32,6 +34,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 28385
+    marketGroup: 512
     name: Compressed Crimson Arkonor
     volume: 8.8
   Compressed Flawless Arkonor:
@@ -43,6 +46,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 46691
+    marketGroup: 512
     name: Compressed Flawless Arkonor
     volume: 8.8
   Compressed Prime Arkonor:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 28387
+    marketGroup: 512
     name: Compressed Prime Arkonor
     volume: 8.8
   Crimson Arkonor:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 17425
+    marketGroup: 512
     name: Crimson Arkonor
     volume: 16.0
   Flawed Arkonor:
@@ -90,6 +96,7 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 46678
+    marketGroup: 512
     name: Flawless Arkonor
     volume: 16.0
   Polygypsum:
@@ -113,5 +120,6 @@ items:
     ReprocessingSkillType: 12180
     RequiredSkill1: 3386
     id: 17426
+    marketGroup: 512
     name: Prime Arkonor
     volume: 16.0

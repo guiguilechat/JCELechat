@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 421
+    marketGroup: 665
     name: '''Basic'' Capacitor Recharger'
     volume: 5.0
   '''Palisade'' Cap Recharger I':
@@ -22,6 +23,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 23813
+    marketGroup: 665
     name: '''Palisade'' Cap Recharger I'
     volume: 5.0
   AGM Capacitor Charge Array:
@@ -44,6 +46,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 21818
+    marketGroup: 665
     name: Ahremen's Modified Cap Recharger
     volume: 5.0
   Ammatar Navy Cap Recharger:
@@ -56,6 +59,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 15788
+    marketGroup: 665
     name: Ammatar Navy Cap Recharger
     volume: 5.0
   Barton Reactor Capacitor Recharger I:
@@ -79,6 +83,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 16599
+    marketGroup: 665
     name: Brokara's Modified Cap Recharger
     volume: 5.0
   Cap Recharger I:
@@ -89,6 +94,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 1195
+    marketGroup: 665
     name: Cap Recharger I
     volume: 5.0
   Cap Recharger II:
@@ -100,6 +106,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     id: 2032
+    marketGroup: 665
     name: Cap Recharger II
     volume: 5.0
   Chelm's Modified Cap Recharger:
@@ -112,6 +119,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 16605
+    marketGroup: 665
     name: Chelm's Modified Cap Recharger
     volume: 5.0
   Dark Blood Cap Recharger:
@@ -124,6 +132,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 14142
+    marketGroup: 665
     name: Dark Blood Cap Recharger
     volume: 5.0
   Draclira's Modified Cap Recharger:
@@ -136,6 +145,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 21819
+    marketGroup: 665
     name: Draclira's Modified Cap Recharger
     volume: 5.0
   Eutectic Compact Cap Recharger:
@@ -147,6 +157,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 4435
+    marketGroup: 665
     name: Eutectic Compact Cap Recharger
     volume: 5.0
   F-a10 Buffer Capacitor Regenerator:
@@ -191,6 +202,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 17526
+    marketGroup: 665
     name: Imperial Navy Cap Recharger
     volume: 5.0
   Industrial Capacitor Recharger:
@@ -213,6 +225,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 28530
+    marketGroup: 665
     name: Khanid Navy Cap Recharger
     volume: 5.0
   Raysere's Modified Cap Recharger:
@@ -225,6 +238,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 21817
+    marketGroup: 665
     name: Raysere's Modified Cap Recharger
     volume: 5.0
   Secondary Parallel Link-Capacitor:
@@ -247,6 +261,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 16601
+    marketGroup: 665
     name: Selynne's Modified Cap Recharger
     volume: 5.0
   Tairei's Modified Cap Recharger:
@@ -259,6 +274,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 21816
+    marketGroup: 665
     name: Tairei's Modified Cap Recharger
     volume: 5.0
   True Sansha Cap Recharger:
@@ -271,6 +287,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 14140
+    marketGroup: 665
     name: True Sansha Cap Recharger
     volume: 5.0
   Vizan's Modified Cap Recharger:
@@ -283,5 +300,6 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 16603
+    marketGroup: 665
     name: Vizan's Modified Cap Recharger
     volume: 5.0

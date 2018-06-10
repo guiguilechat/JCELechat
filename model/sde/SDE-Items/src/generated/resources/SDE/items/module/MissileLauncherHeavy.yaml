@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20113
     id: 8105
+    marketGroup: 642
     name: '''Arbalest'' Heavy Missile Launcher'
     volume: 10.0
   '''Malkuth'' Heavy Missile Launcher I':
@@ -43,6 +44,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8101
+    marketGroup: 642
     name: '''Malkuth'' Heavy Missile Launcher I'
     volume: 10.0
   '''Undertaker'' Heavy Missile Launcher':
@@ -67,6 +69,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20118
     id: 20599
+    marketGroup: 642
     name: '''Undertaker'' Heavy Missile Launcher'
     volume: 10.0
   Advanced 'Limos' Heavy Missile Bay I:
@@ -90,6 +93,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8103
+    marketGroup: 642
     name: Advanced 'Limos' Heavy Missile Bay I
     volume: 10.0
   CONCORD Heavy Missile Launcher:
@@ -136,6 +140,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16064
+    marketGroup: 642
     name: Caldari Navy Heavy Missile Launcher
     volume: 10.0
   Domination Heavy Missile Launcher:
@@ -160,6 +165,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13921
+    marketGroup: 642
     name: Domination Heavy Missile Launcher
     volume: 10.0
   Dread Guristas Heavy Missile Launcher:
@@ -184,6 +190,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13922
+    marketGroup: 642
     name: Dread Guristas Heavy Missile Launcher
     volume: 10.0
   Heavy Missile Launcher I:
@@ -206,6 +213,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 501
+    marketGroup: 642
     name: Heavy Missile Launcher I
     volume: 10.0
   Heavy Missile Launcher II:
@@ -230,6 +238,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 2410
+    marketGroup: 642
     name: Heavy Missile Launcher II
     volume: 10.0
   Republic Fleet Heavy Missile Launcher:
@@ -254,6 +263,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17487
+    marketGroup: 642
     name: Republic Fleet Heavy Missile Launcher
     volume: 10.0
   True Sansha Heavy Missile Launcher:
@@ -278,6 +288,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22567
+    marketGroup: 642
     name: True Sansha Heavy Missile Launcher
     volume: 10.0
   XR-3200 Heavy Missile Bay:
@@ -301,5 +312,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 20116
     id: 7997
+    marketGroup: 642
     name: XR-3200 Heavy Missile Bay
     volume: 10.0

@@ -104,6 +104,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 44996
+    marketGroup: 1620
     name: Marshal
     volume: 450000.0
   Panther:
@@ -197,6 +198,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 22440
+    marketGroup: 1079
     name: Panther
     volume: 414000.0
   Redeemer:
@@ -290,6 +292,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 22428
+    marketGroup: 1076
     name: Redeemer
     volume: 486000.0
   Sin:
@@ -384,6 +387,7 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 22430
+    marketGroup: 1078
     name: Sin
     volume: 454500.0
   Widow:
@@ -478,5 +482,6 @@ items:
     WarpCapacitorNeed: 1.3800000431274384E-7
     WarpSpeedMultiplier: 2.200000047683716
     id: 22436
+    marketGroup: 1077
     name: Widow
     volume: 468000.0

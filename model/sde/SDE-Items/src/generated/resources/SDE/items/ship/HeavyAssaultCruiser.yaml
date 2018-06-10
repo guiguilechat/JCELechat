@@ -76,6 +76,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 2836
+    marketGroup: 1621
     name: Adrestia
     volume: 112000.0
   Cerberus:
@@ -156,6 +157,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11993
+    marketGroup: 450
     name: Cerberus
     volume: 92000.0
   Deimos:
@@ -235,6 +237,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12023
+    marketGroup: 451
     name: Deimos
     volume: 112000.0
   Eagle:
@@ -316,6 +319,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12011
+    marketGroup: 450
     name: Eagle
     volume: 101000.0
   Ishtar:
@@ -397,6 +401,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12005
+    marketGroup: 451
     name: Ishtar
     volume: 115000.0
   Mimir:
@@ -479,6 +484,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 32209
+    marketGroup: 1621
     name: Mimir
     volume: 96000.0
   Muninn:
@@ -561,6 +567,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12015
+    marketGroup: 452
     name: Muninn
     volume: 96000.0
   Sacrilege:
@@ -642,6 +649,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12019
+    marketGroup: 449
     name: Sacrilege
     volume: 118000.0
   Vagabond:
@@ -723,6 +731,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11999
+    marketGroup: 452
     name: Vagabond
     volume: 80000.0
   Vangel:
@@ -805,6 +814,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 3518
+    marketGroup: 1621
     name: Vangel
     volume: 118000.0
   Zealot:
@@ -883,8 +893,90 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12003
+    marketGroup: 449
     name: Zealot
     volume: 118000.0
+  伊什塔级YC117年特别版:
+    Agility: 0.5649999976158142
+    ArmorEmDamageResonance: 0.5
+    ArmorExplosiveDamageResonance: 0.8999999761581421
+    ArmorHP: 1600
+    ArmorKineticDamageResonance: 0.16249999403953552
+    ArmorThermalDamageResonance: 0.32499998807907104
+    ArmorUniformity: 0.75
+    BaseWarpSpeed: 1
+    CapacitorCapacity: 1400.0
+    CpuOutput: 340
+    DroneBandwidth: 125
+    DroneCapacity: 375
+    EliteBonusHeavyGunship1: 5000
+    EliteBonusHeavyGunship2: 5.0
+    EmDamageResonance: 0.6700000166893005
+    ExplosiveDamageResonance: 0.6700000166893005
+    FwLpKill: 200
+    GfxBoosterID: 394
+    HeatAttenuationHi: 0.6299999952316284
+    HeatAttenuationLow: 0.7070000171661377
+    HeatAttenuationMed: 0.7070000171661377
+    HeatCapacityHi: 100
+    HeatCapacityLow: 100
+    HeatCapacityMed: 100
+    HeatDissipationRateHi: 0.009999999776482582
+    HeatDissipationRateLow: 0.009999999776482582
+    HeatDissipationRateMed: 0.009999999776482582
+    HeatGenerationMultiplier: 0.75
+    HiSlots: 4
+    Hp: 2300
+    KineticDamageResonance: 0.6700000166893005
+    LowSlots: 6
+    MWDSignatureRadiusBonus: -50
+    MainColor: 16777215
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxPassengers: 580
+    MaxTargetRange: 80000
+    MaxVelocity: 175.0
+    MedSlots: 4
+    MetaLevel: 5
+    MinTargetVelDmgMultiplier: 1.0
+    PowerOutput: 740
+    PowerToSpeed: 1
+    PropulsionGraphicID: 394
+    RechargeRate: 265000.0
+    RequiredSkill1: 3332
+    RequiredSkill1Level: 5
+    RequiredSkill2: 16591
+    RequiredSkill2Level: 1
+    RigSize: 2
+    RigSlots: 2
+    ScanMagnetometricStrength: 23.0
+    ScanResolution: 294
+    ScanSpeed: 4500
+    ShieldCapacity: 1400
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.15000000596046448
+    ShieldRechargeRate: 1250000.0
+    ShieldThermalDamageResonance: 0.4000000059604645
+    ShieldUniformity: 0.75
+    ShipBonusCC: 5
+    ShipBonusGC: 7.5
+    ShipBonusGC2: 10.0
+    ShipBonusGC3: 5
+    SignatureRadius: 145
+    StructureUniformity: 1.0
+    TechLevel: 2
+    ThermalDamageResonance: 0.6700000166893005
+    TurretSlotsLeft: 4
+    TypeColorScheme: 11406
+    Uniformity: 1.0
+    UpgradeCapacity: 400
+    UpgradeSlotsLeft: 2
+    WarpCapacitorNeed: 8.12999985555507E-7
+    WarpSpeedMultiplier: 3.299999952316284
+    id: 34479
+    name: 伊什塔级YC117年特别版
+    volume: 115000.0
   银鹰级YC117年特别版:
     Agility: 0.5759999752044678
     ArmorEmDamageResonance: 0.5
@@ -964,84 +1056,3 @@ items:
     id: 34477
     name: 银鹰级YC117年特别版
     volume: 101000.0
-  ��什塔级YC117年特别版:
-    Agility: 0.5649999976158142
-    ArmorEmDamageResonance: 0.5
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 1600
-    ArmorKineticDamageResonance: 0.16249999403953552
-    ArmorThermalDamageResonance: 0.32499998807907104
-    ArmorUniformity: 0.75
-    BaseWarpSpeed: 1
-    CapacitorCapacity: 1400.0
-    CpuOutput: 340
-    DroneBandwidth: 125
-    DroneCapacity: 375
-    EliteBonusHeavyGunship1: 5000
-    EliteBonusHeavyGunship2: 5.0
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    FwLpKill: 200
-    GfxBoosterID: 394
-    HeatAttenuationHi: 0.6299999952316284
-    HeatAttenuationLow: 0.7070000171661377
-    HeatAttenuationMed: 0.7070000171661377
-    HeatCapacityHi: 100
-    HeatCapacityLow: 100
-    HeatCapacityMed: 100
-    HeatDissipationRateHi: 0.009999999776482582
-    HeatDissipationRateLow: 0.009999999776482582
-    HeatDissipationRateMed: 0.009999999776482582
-    HeatGenerationMultiplier: 0.75
-    HiSlots: 4
-    Hp: 2300
-    KineticDamageResonance: 0.6700000166893005
-    LowSlots: 6
-    MWDSignatureRadiusBonus: -50
-    MainColor: 16777215
-    MaxDirectionalVelocity: 1
-    MaxLockedTargets: 7
-    MaxPassengers: 580
-    MaxTargetRange: 80000
-    MaxVelocity: 175.0
-    MedSlots: 4
-    MetaLevel: 5
-    MinTargetVelDmgMultiplier: 1.0
-    PowerOutput: 740
-    PowerToSpeed: 1
-    PropulsionGraphicID: 394
-    RechargeRate: 265000.0
-    RequiredSkill1: 3332
-    RequiredSkill1Level: 5
-    RequiredSkill2: 16591
-    RequiredSkill2Level: 1
-    RigSize: 2
-    RigSlots: 2
-    ScanMagnetometricStrength: 23.0
-    ScanResolution: 294
-    ScanSpeed: 4500
-    ShieldCapacity: 1400
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.15000000596046448
-    ShieldRechargeRate: 1250000.0
-    ShieldThermalDamageResonance: 0.4000000059604645
-    ShieldUniformity: 0.75
-    ShipBonusCC: 5
-    ShipBonusGC: 7.5
-    ShipBonusGC2: 10.0
-    ShipBonusGC3: 5
-    SignatureRadius: 145
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 0.6700000166893005
-    TurretSlotsLeft: 4
-    TypeColorScheme: 11406
-    Uniformity: 1.0
-    UpgradeCapacity: 400
-    UpgradeSlotsLeft: 2
-    WarpCapacitorNeed: 8.12999985555507E-7
-    WarpSpeedMultiplier: 3.299999952316284
-    id: 34479
-    name: ��什塔级YC117年特别版
-    volume: 115000.0

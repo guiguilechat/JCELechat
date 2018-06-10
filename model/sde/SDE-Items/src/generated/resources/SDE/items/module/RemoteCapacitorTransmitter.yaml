@@ -17,6 +17,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23856
+    marketGroup: 697
     name: '''Chivalry'' Large Remote Capacitor Transmitter'
     volume: 5.0
   '''Knight'' Medium Remote Capacitor Transmitter':
@@ -37,6 +38,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23854
+    marketGroup: 696
     name: '''Knight'' Medium Remote Capacitor Transmitter'
     volume: 5.0
   '''Squire'' Small Remote Capacitor Transmitter':
@@ -57,6 +59,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23852
+    marketGroup: 695
     name: '''Squire'' Small Remote Capacitor Transmitter'
     volume: 5.0
   CONCORD Capital Remote Capacitor Transmitter:
@@ -80,6 +83,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3575
+    marketGroup: 910
     name: CONCORD Capital Remote Capacitor Transmitter
     volume: 4000.0
   Capital Inductive Compact Remote Capacitor Transmitter:
@@ -102,6 +106,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41566
+    marketGroup: 910
     name: Capital Inductive Compact Remote Capacitor Transmitter
     volume: 4000.0
   Capital Radiative Scoped Remote Capacitor Transmitter:
@@ -124,6 +129,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41565
+    marketGroup: 910
     name: Capital Radiative Scoped Remote Capacitor Transmitter
     volume: 4000.0
   Capital Remote Capacitor Transmitter I:
@@ -144,6 +150,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 12219
+    marketGroup: 910
     name: Capital Remote Capacitor Transmitter I
     volume: 4000.0
   Capital Remote Capacitor Transmitter II:
@@ -166,6 +173,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 12223
+    marketGroup: 910
     name: Capital Remote Capacitor Transmitter II
     volume: 4000.0
   Centii A-Type Small Remote Capacitor Transmitter:
@@ -186,6 +194,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19075
+    marketGroup: 695
     name: Centii A-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Centii B-Type Small Remote Capacitor Transmitter:
@@ -206,6 +215,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19073
+    marketGroup: 695
     name: Centii B-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Centii C-Type Small Remote Capacitor Transmitter:
@@ -226,6 +236,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19071
+    marketGroup: 695
     name: Centii C-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Centum A-Type Medium Remote Capacitor Transmitter:
@@ -246,6 +257,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19087
+    marketGroup: 696
     name: Centum A-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Centum B-Type Medium Remote Capacitor Transmitter:
@@ -266,6 +278,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19085
+    marketGroup: 696
     name: Centum B-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Centum C-Type Medium Remote Capacitor Transmitter:
@@ -286,6 +299,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19083
+    marketGroup: 696
     name: Centum C-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Corpii A-Type Small Remote Capacitor Transmitter:
@@ -306,6 +320,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19069
+    marketGroup: 695
     name: Corpii A-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Corpii B-Type Small Remote Capacitor Transmitter:
@@ -326,6 +341,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19067
+    marketGroup: 695
     name: Corpii B-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Corpii C-Type Small Remote Capacitor Transmitter:
@@ -346,6 +362,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19065
+    marketGroup: 695
     name: Corpii C-Type Small Remote Capacitor Transmitter
     volume: 5.0
   Corpum A-Type Medium Remote Capacitor Transmitter:
@@ -366,6 +383,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19081
+    marketGroup: 696
     name: Corpum A-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Corpum B-Type Medium Remote Capacitor Transmitter:
@@ -386,6 +404,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19079
+    marketGroup: 696
     name: Corpum B-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Corpum C-Type Medium Remote Capacitor Transmitter:
@@ -406,6 +425,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19077
+    marketGroup: 696
     name: Corpum C-Type Medium Remote Capacitor Transmitter
     volume: 5.0
   Imperial Navy Large Remote Capacitor Transmitter:
@@ -427,6 +447,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 31946
+    marketGroup: 697
     name: Imperial Navy Large Remote Capacitor Transmitter
     volume: 5.0
   Imperial Navy Medium Remote Capacitor Transmitter:
@@ -448,6 +469,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 31948
+    marketGroup: 696
     name: Imperial Navy Medium Remote Capacitor Transmitter
     volume: 25.0
   Imperial Navy Small Remote Capacitor Transmitter:
@@ -469,6 +491,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 31950
+    marketGroup: 695
     name: Imperial Navy Small Remote Capacitor Transmitter
     volume: 25.0
   Large 'Regard' Remote Capacitor Transmitter:
@@ -488,6 +511,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16487
+    marketGroup: 697
     name: Large 'Regard' Remote Capacitor Transmitter
     volume: 5.0
   Large Asymmetric Remote Capacitor Transmitter:
@@ -507,6 +531,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16481
+    marketGroup: 697
     name: Large Asymmetric Remote Capacitor Transmitter
     volume: 5.0
   Large Murky Remote Capacitor Transmitter:
@@ -526,6 +551,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16483
+    marketGroup: 697
     name: Large Murky Remote Capacitor Transmitter
     volume: 5.0
   Large Partial E95c Remote Capacitor Transmitter:
@@ -545,6 +571,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16485
+    marketGroup: 697
     name: Large Partial E95c Remote Capacitor Transmitter
     volume: 5.0
   Large Remote Capacitor Transmitter I:
@@ -563,6 +590,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 12225
+    marketGroup: 697
     name: Large Remote Capacitor Transmitter I
     volume: 5.0
   Large Remote Capacitor Transmitter II:
@@ -582,6 +610,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 12102
+    marketGroup: 697
     name: Large Remote Capacitor Transmitter II
     volume: 5.0
   Medium 'Regard' Remote Capacitor Transmitter:
@@ -601,6 +630,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16495
+    marketGroup: 696
     name: Medium 'Regard' Remote Capacitor Transmitter
     volume: 5.0
   Medium Asymmetric Remote Capacitor Transmitter:
@@ -620,6 +650,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16489
+    marketGroup: 696
     name: Medium Asymmetric Remote Capacitor Transmitter
     volume: 5.0
   Medium Murky Remote Capacitor Transmitter:
@@ -639,6 +670,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16491
+    marketGroup: 696
     name: Medium Murky Remote Capacitor Transmitter
     volume: 5.0
   Medium Partial E95b Remote Capacitor Transmitter:
@@ -658,6 +690,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16493
+    marketGroup: 696
     name: Medium Partial E95b Remote Capacitor Transmitter
     volume: 5.0
   Medium Remote Capacitor Transmitter I:
@@ -676,6 +709,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 12217
+    marketGroup: 696
     name: Medium Remote Capacitor Transmitter I
     volume: 25.0
   Medium Remote Capacitor Transmitter II:
@@ -695,6 +729,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 12221
+    marketGroup: 696
     name: Medium Remote Capacitor Transmitter II
     volume: 5.0
   Small 'Regard' Remote Capacitor Transmitter:
@@ -714,6 +749,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5091
+    marketGroup: 695
     name: Small 'Regard' Remote Capacitor Transmitter
     volume: 5.0
   Small Asymmetric Remote Capacitor Transmitter:
@@ -733,6 +769,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5093
+    marketGroup: 695
     name: Small Asymmetric Remote Capacitor Transmitter
     volume: 5.0
   Small Murky Remote Capacitor Transmitter:
@@ -752,6 +789,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5089
+    marketGroup: 695
     name: Small Murky Remote Capacitor Transmitter
     volume: 5.0
   Small Partial E95a Remote Capacitor Transmitter:
@@ -771,6 +809,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5087
+    marketGroup: 695
     name: Small Partial E95a Remote Capacitor Transmitter
     volume: 5.0
   Small Remote Capacitor Transmitter I:
@@ -789,6 +828,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 529
+    marketGroup: 695
     name: Small Remote Capacitor Transmitter I
     volume: 25.0
   Small Remote Capacitor Transmitter II:
@@ -808,5 +848,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 1190
+    marketGroup: 695
     name: Small Remote Capacitor Transmitter II
     volume: 5.0

@@ -21,6 +21,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
     id: 24571
+    marketGroup: 1747
     name: Capital Shield Emission Systems
     volume: 0.01
   Capital Shield Operation:
@@ -36,6 +37,7 @@ items:
     ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 8.0
     id: 21802
+    marketGroup: 1747
     name: Capital Shield Operation
     volume: 0.01
   EM Shield Compensation:
@@ -46,6 +48,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 12365
+    marketGroup: 1747
     name: EM Shield Compensation
     volume: 0.01
   Explosive Shield Compensation:
@@ -56,6 +59,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 12367
+    marketGroup: 1747
     name: Explosive Shield Compensation
     volume: 0.01
   Invulnerability Core Operation:
@@ -68,6 +72,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 44067
+    marketGroup: 1747
     name: Invulnerability Core Operation
     volume: 0.01
   Kinetic Shield Compensation:
@@ -78,6 +83,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 12366
+    marketGroup: 1747
     name: Kinetic Shield Compensation
     volume: 0.01
   Shield Compensation:
@@ -88,6 +94,7 @@ items:
     ShieldBoostCapacitorBonus: -2
     SkillTimeConstant: 2.0
     id: 21059
+    marketGroup: 1747
     name: Shield Compensation
     volume: 0.01
   Shield Emission Systems:
@@ -100,6 +107,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3422
+    marketGroup: 1747
     name: Shield Emission Systems
     volume: 0.01
   Shield Management:
@@ -109,6 +117,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3419
+    marketGroup: 1747
     name: Shield Management
     volume: 0.01
   Shield Operation:
@@ -119,6 +128,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3416
+    marketGroup: 1747
     name: Shield Operation
     volume: 0.01
   Shield Upgrades:
@@ -131,6 +141,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3425
+    marketGroup: 1747
     name: Shield Upgrades
     volume: 0.01
   Tactical Shield Manipulation:
@@ -141,6 +152,7 @@ items:
     SkillTimeConstant: 4.0
     UniformityBonus: 0.05000000074505806
     id: 3420
+    marketGroup: 1747
     name: Tactical Shield Manipulation
     volume: 0.01
   Thermal Shield Compensation:
@@ -151,5 +163,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 11566
+    marketGroup: 1747
     name: Thermal Shield Compensation
     volume: 0.01

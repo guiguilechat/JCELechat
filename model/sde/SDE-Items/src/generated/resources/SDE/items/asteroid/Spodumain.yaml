@@ -10,6 +10,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 17466
+    marketGroup: 517
     name: Bright Spodumain
     volume: 16.0
   Compressed Bright Spodumain:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 28418
+    marketGroup: 517
     name: Compressed Bright Spodumain
     volume: 28.0
   Compressed Dazzling Spodumain:
@@ -32,6 +34,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 46704
+    marketGroup: 517
     name: Compressed Dazzling Spodumain
     volume: 28.0
   Compressed Gleaming Spodumain:
@@ -43,6 +46,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 28419
+    marketGroup: 517
     name: Compressed Gleaming Spodumain
     volume: 28.0
   Compressed Spodumain:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 28420
+    marketGroup: 517
     name: Compressed Spodumain
     volume: 28.0
   Dazzling Spodumain:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 46688
+    marketGroup: 517
     name: Dazzling Spodumain
     volume: 16.0
   Gleaming Spodumain:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 17467
+    marketGroup: 517
     name: Gleaming Spodumain
     volume: 16.0
   Spodumain:
@@ -93,5 +100,6 @@ items:
     ReprocessingSkillType: 12194
     RequiredSkill1: 3386
     id: 19
+    marketGroup: 517
     name: Spodumain
     volume: 16.0

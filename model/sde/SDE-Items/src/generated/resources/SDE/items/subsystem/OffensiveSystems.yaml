@@ -19,6 +19,7 @@ items:
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
     id: 45599
+    marketGroup: 1130
     name: Legion Offensive - Assault Optimization
     volume: 40.0
   Legion Offensive - Liquid Crystal Magnifiers:
@@ -40,6 +41,7 @@ items:
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
     id: 45598
+    marketGroup: 1130
     name: Legion Offensive - Liquid Crystal Magnifiers
     volume: 40.0
   Legion Offensive - Support Processor:
@@ -65,6 +67,7 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 4
     id: 45600
+    marketGroup: 1130
     name: Legion Offensive - Support Processor
     volume: 40.0
   Loki Offensive - Launcher Efficiency Configuration:
@@ -88,6 +91,7 @@ items:
     TurretHardPointModifier: 2
     WarfareLinkCPUPenalty: 10000
     id: 45608
+    marketGroup: 1133
     name: Loki Offensive - Launcher Efficiency Configuration
     volume: 40.0
   Loki Offensive - Projectile Scoping Array:
@@ -111,6 +115,7 @@ items:
     TurretHardPointModifier: 5
     WarfareLinkCPUPenalty: 10000
     id: 45607
+    marketGroup: 1133
     name: Loki Offensive - Projectile Scoping Array
     volume: 40.0
   Loki Offensive - Support Processor:
@@ -138,6 +143,7 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 4
     id: 45609
+    marketGroup: 1133
     name: Loki Offensive - Support Processor
     volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
@@ -160,6 +166,7 @@ items:
     TurretHardPointModifier: 5
     WarfareLinkCPUPenalty: 10000
     id: 45605
+    marketGroup: 1132
     name: Proteus Offensive - Drone Synthesis Projector
     volume: 40.0
   Proteus Offensive - Hybrid Encoding Platform:
@@ -183,6 +190,7 @@ items:
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
     id: 45604
+    marketGroup: 1132
     name: Proteus Offensive - Hybrid Encoding Platform
     volume: 40.0
   Proteus Offensive - Support Processor:
@@ -208,6 +216,7 @@ items:
     TechLevel: 3
     TurretHardPointModifier: 4
     id: 45606
+    marketGroup: 1132
     name: Proteus Offensive - Support Processor
     volume: 40.0
   Tengu Offensive - Accelerated Ejection Bay:
@@ -228,6 +237,7 @@ items:
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
     id: 45601
+    marketGroup: 1131
     name: Tengu Offensive - Accelerated Ejection Bay
     volume: 40.0
   Tengu Offensive - Magnetic Infusion Basin:
@@ -248,6 +258,7 @@ items:
     TurretHardPointModifier: 6
     WarfareLinkCPUPenalty: 10000
     id: 45602
+    marketGroup: 1131
     name: Tengu Offensive - Magnetic Infusion Basin
     volume: 40.0
   Tengu Offensive - Support Processor:
@@ -272,5 +283,6 @@ items:
     SubsystemMRSBFittingReduction: -75
     TechLevel: 3
     id: 45603
+    marketGroup: 1131
     name: Tengu Offensive - Support Processor
     volume: 40.0

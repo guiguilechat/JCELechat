@@ -42,20 +42,24 @@ items:
   Ion Field Projection Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2792
+    marketGroup: 1344
     name: Ion Field Projection Battery Blueprint
     volume: 0.01
   Phase Inversion Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2794
+    marketGroup: 1344
     name: Phase Inversion Battery Blueprint
     volume: 0.01
   Spatial Destabilization Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2796
+    marketGroup: 1344
     name: Spatial Destabilization Battery Blueprint
     volume: 0.01
   White Noise Generation Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2798
+    marketGroup: 1344
     name: White Noise Generation Battery Blueprint
     volume: 0.01

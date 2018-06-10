@@ -49,6 +49,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17402
+    marketGroup: 595
     name: Large Blaster Battery
     volume: 5000.0
   Large Railgun Battery:
@@ -101,6 +102,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16692
+    marketGroup: 595
     name: Large Railgun Battery
     volume: 5000.0
   Medium Blaster Battery:
@@ -153,6 +155,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17403
+    marketGroup: 595
     name: Medium Blaster Battery
     volume: 1000.0
   Medium Railgun Battery:
@@ -205,6 +208,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16691
+    marketGroup: 595
     name: Medium Railgun Battery
     volume: 1000.0
   Serpentis Large Blaster Battery:
@@ -258,6 +262,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27542
+    marketGroup: 595
     name: Serpentis Large Blaster Battery
     volume: 5000.0
   Serpentis Large Railgun Battery:
@@ -311,6 +316,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27545
+    marketGroup: 595
     name: Serpentis Large Railgun Battery
     volume: 5000.0
   Serpentis Medium Blaster Battery:
@@ -364,6 +370,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27613
+    marketGroup: 595
     name: Serpentis Medium Blaster Battery
     volume: 1000.0
   Serpentis Medium Railgun Battery:
@@ -417,6 +424,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27616
+    marketGroup: 595
     name: Serpentis Medium Railgun Battery
     volume: 1000.0
   Serpentis Small Blaster Battery:
@@ -470,6 +478,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27619
+    marketGroup: 595
     name: Serpentis Small Blaster Battery
     volume: 500.0
   Serpentis Small Railgun Battery:
@@ -523,6 +532,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27622
+    marketGroup: 595
     name: Serpentis Small Railgun Battery
     volume: 500.0
   Shadow Large Blaster Battery:
@@ -576,6 +586,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27544
+    marketGroup: 595
     name: Shadow Large Blaster Battery
     volume: 5000.0
   Shadow Large Railgun Battery:
@@ -629,6 +640,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27547
+    marketGroup: 595
     name: Shadow Large Railgun Battery
     volume: 5000.0
   Shadow Medium Blaster Battery:
@@ -682,6 +694,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27615
+    marketGroup: 595
     name: Shadow Medium Blaster Battery
     volume: 1000.0
   Shadow Medium Railgun Battery:
@@ -735,6 +748,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27618
+    marketGroup: 595
     name: Shadow Medium Railgun Battery
     volume: 1000.0
   Shadow Small Blaster Battery:
@@ -788,6 +802,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27621
+    marketGroup: 595
     name: Shadow Small Blaster Battery
     volume: 500.0
   Shadow Small Railgun Battery:
@@ -841,6 +856,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27624
+    marketGroup: 595
     name: Shadow Small Railgun Battery
     volume: 500.0
   Small Blaster Battery:
@@ -893,6 +909,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17404
+    marketGroup: 595
     name: Small Blaster Battery
     volume: 500.0
   Small Railgun Battery:
@@ -945,5 +962,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 16690
+    marketGroup: 595
     name: Small Railgun Battery
     volume: 500.0

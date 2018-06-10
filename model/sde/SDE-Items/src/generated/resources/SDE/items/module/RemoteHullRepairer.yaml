@@ -14,6 +14,7 @@ items:
     StructureDamageAmount: 360
     TechLevel: 1
     id: 27934
+    marketGroup: 1063
     name: Capital Remote Hull Repairer I
     volume: 4000.0
   Capital Remote Hull Repairer II:
@@ -32,6 +33,7 @@ items:
     StructureDamageAmount: 430
     TechLevel: 2
     id: 41475
+    marketGroup: 1063
     name: Capital Remote Hull Repairer II
     volume: 4000.0
   Large Remote Hull Repairer I:
@@ -46,6 +48,7 @@ items:
     StructureDamageAmount: 192
     TechLevel: 1
     id: 27904
+    marketGroup: 1062
     name: Large Remote Hull Repairer I
     volume: 50.0
   Large Remote Hull Repairer II:
@@ -62,6 +65,7 @@ items:
     StructureDamageAmount: 230
     TechLevel: 2
     id: 3986
+    marketGroup: 1062
     name: Large Remote Hull Repairer II
     volume: 50.0
   Medium Remote Hull Repairer I:
@@ -76,6 +80,7 @@ items:
     StructureDamageAmount: 96
     TechLevel: 1
     id: 27930
+    marketGroup: 1061
     name: Medium Remote Hull Repairer I
     volume: 10.0
   Medium Remote Hull Repairer II:
@@ -92,6 +97,7 @@ items:
     StructureDamageAmount: 115
     TechLevel: 2
     id: 4296
+    marketGroup: 1061
     name: Medium Remote Hull Repairer II
     volume: 10.0
   Small Remote Hull Repairer I:
@@ -106,6 +112,7 @@ items:
     StructureDamageAmount: 48
     TechLevel: 1
     id: 27932
+    marketGroup: 1060
     name: Small Remote Hull Repairer I
     volume: 5.0
   Small Remote Hull Repairer II:
@@ -122,5 +129,6 @@ items:
     StructureDamageAmount: 58
     TechLevel: 2
     id: 4299
+    marketGroup: 1060
     name: Small Remote Hull Repairer II
     volume: 5.0

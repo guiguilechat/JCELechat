@@ -13,17 +13,20 @@ items:
   Capital Asymmetric Enduring Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41666
+    marketGroup: 1553
     name: Capital Asymmetric Enduring Remote Shield Booster Blueprint
     volume: 0.01
   Capital Murky Compact Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41667
+    marketGroup: 1553
     name: Capital Murky Compact Remote Shield Booster Blueprint
     volume: 0.01
   Capital Remote Shield Booster I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 3617
+    marketGroup: 1553
     name: Capital Remote Shield Booster I Blueprint
     volume: 0.01
   Capital Remote Shield Booster II Blueprint:
@@ -35,6 +38,7 @@ items:
   Capital S95a Scoped Remote Shield Booster Blueprint:
     TechLevel: 1
     id: 41668
+    marketGroup: 1553
     name: Capital S95a Scoped Remote Shield Booster Blueprint
     volume: 0.01
   Domination Capital Remote Shield Booster Blueprint:
@@ -56,6 +60,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3607
+    marketGroup: 1553
     name: Large Remote Shield Booster I Blueprint
     volume: 0.01
   Large Remote Shield Booster II Blueprint:
@@ -73,6 +78,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3597
+    marketGroup: 1553
     name: Medium Remote Shield Booster I Blueprint
     volume: 0.01
   Medium Remote Shield Booster II Blueprint:
@@ -90,6 +96,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 3587
+    marketGroup: 1553
     name: Small Remote Shield Booster I Blueprint
     volume: 0.01
   Small Remote Shield Booster II Blueprint:

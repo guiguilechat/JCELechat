@@ -8,6 +8,7 @@ items:
     VirusCoherenceBonus: -40
     VirusStrengthBonus: 20
     id: 47028
+    marketGroup: 1773
     name: Neural Lace 'Blackglass' Net Intrusion 920-40
     volume: 1.0
   Poteque 'Prospector' Archaeology AC-905:
@@ -18,6 +19,7 @@ items:
     TechLevel: 1
     VirusCoherenceBonus: 5
     id: 27196
+    marketGroup: 1773
     name: Poteque 'Prospector' Archaeology AC-905
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-702:
@@ -27,6 +29,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27193
+    marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-702
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-706:
@@ -36,6 +39,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27187
+    marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-706
     volume: 1.0
   Poteque 'Prospector' Astrometric Acquisition AQ-710:
@@ -45,6 +49,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27192
+    marketGroup: 1771
     name: Poteque 'Prospector' Astrometric Acquisition AQ-710
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-602:
@@ -54,6 +59,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27191
+    marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-602
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-606:
@@ -63,6 +69,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27186
+    marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-606
     volume: 1.0
   Poteque 'Prospector' Astrometric Pinpointing AP-610:
@@ -72,6 +79,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 27190
+    marketGroup: 1770
     name: Poteque 'Prospector' Astrometric Pinpointing AP-610
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-802:
@@ -81,6 +89,7 @@ items:
     ScanStrengthBonus: 2
     TechLevel: 1
     id: 27195
+    marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-802
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-806:
@@ -90,6 +99,7 @@ items:
     ScanStrengthBonus: 6
     TechLevel: 1
     id: 27188
+    marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-806
     volume: 1.0
   Poteque 'Prospector' Astrometric Rangefinding AR-810:
@@ -99,6 +109,7 @@ items:
     ScanStrengthBonus: 10
     TechLevel: 1
     id: 27194
+    marketGroup: 1772
     name: Poteque 'Prospector' Astrometric Rangefinding AR-810
     volume: 1.0
   Poteque 'Prospector' Environmental Analysis EY-1005:
@@ -110,6 +121,7 @@ items:
     TechLevel: 1
     VirusCoherenceBonus: 5
     id: 27260
+    marketGroup: 1774
     name: Poteque 'Prospector' Environmental Analysis EY-1005
     volume: 1.0
   Poteque 'Prospector' Hacking HC-905:
@@ -120,6 +132,7 @@ items:
     TechLevel: 1
     VirusCoherenceBonus: 5
     id: 27197
+    marketGroup: 1773
     name: Poteque 'Prospector' Hacking HC-905
     volume: 1.0
   Poteque 'Prospector' Salvaging SV-905:
@@ -129,5 +142,6 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27198
+    marketGroup: 1773
     name: Poteque 'Prospector' Salvaging SV-905
     volume: 1.0

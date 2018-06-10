@@ -26,6 +26,7 @@ items:
     ThermalDamage: 191.0
     ThermalDamageResonance: 0.800000011920929
     id: 24511
+    marketGroup: 926
     name: Inferno Fury Heavy Missile
     volume: 0.03
   Inferno Precision Heavy Missile:
@@ -55,6 +56,7 @@ items:
     ThermalDamage: 142.0
     ThermalDamageResonance: 0.800000011920929
     id: 24515
+    marketGroup: 919
     name: Inferno Precision Heavy Missile
     volume: 0.03
   Mjolnir Fury Heavy Missile:
@@ -84,6 +86,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24509
+    marketGroup: 926
     name: Mjolnir Fury Heavy Missile
     volume: 0.03
   Mjolnir Precision Heavy Missile:
@@ -113,6 +116,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24517
+    marketGroup: 919
     name: Mjolnir Precision Heavy Missile
     volume: 0.03
   Nova Fury Heavy Missile:
@@ -142,6 +146,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24507
+    marketGroup: 926
     name: Nova Fury Heavy Missile
     volume: 0.03
   Nova Precision Heavy Missile:
@@ -171,6 +176,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 2655
+    marketGroup: 919
     name: Nova Precision Heavy Missile
     volume: 0.03
   Scourge Fury Heavy Missile:
@@ -200,6 +206,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 2629
+    marketGroup: 926
     name: Scourge Fury Heavy Missile
     volume: 0.03
   Scourge Precision Heavy Missile:
@@ -229,5 +236,6 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24513
+    marketGroup: 919
     name: Scourge Precision Heavy Missile
     volume: 0.03

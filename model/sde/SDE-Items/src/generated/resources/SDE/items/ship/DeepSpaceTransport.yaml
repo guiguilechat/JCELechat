@@ -81,6 +81,7 @@ items:
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
     id: 12731
+    marketGroup: 631
     name: Bustard
     volume: 390000.0
   Impel:
@@ -165,6 +166,7 @@ items:
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
     id: 12753
+    marketGroup: 630
     name: Impel
     volume: 400000.0
   Mastodon:
@@ -249,6 +251,7 @@ items:
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
     id: 12747
+    marketGroup: 633
     name: Mastodon
     volume: 385000.0
   Occator:
@@ -333,5 +336,6 @@ items:
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 3.299999952316284
     id: 12745
+    marketGroup: 632
     name: Occator
     volume: 390000.0

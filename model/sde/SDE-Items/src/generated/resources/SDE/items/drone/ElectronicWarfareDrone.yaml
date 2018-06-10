@@ -54,6 +54,7 @@ items:
     TrackingSpeedBonus: -5.0
     Uniformity: 0.75
     id: 23727
+    marketGroup: 841
     name: Acolyte TD-300
     volume: 5.0
   Berserker TP-900:
@@ -109,6 +110,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23512
+    marketGroup: 841
     name: Berserker TP-900
     volume: 25.0
   Hammerhead SD-600:
@@ -165,6 +167,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23713
+    marketGroup: 841
     name: Hammerhead SD-600
     volume: 10.0
   Hobgoblin SD-300:
@@ -221,6 +224,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23715
+    marketGroup: 841
     name: Hobgoblin SD-300
     volume: 5.0
   Hornet EC-300:
@@ -277,6 +281,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23707
+    marketGroup: 841
     name: Hornet EC-300
     volume: 5.0
   Infiltrator TD-600:
@@ -334,6 +339,7 @@ items:
     TrackingSpeedBonus: -12.0
     Uniformity: 0.75
     id: 23725
+    marketGroup: 841
     name: Infiltrator TD-600
     volume: 10.0
   Ogre SD-900:
@@ -390,6 +396,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23506
+    marketGroup: 841
     name: Ogre SD-900
     volume: 25.0
   Praetor TD-900:
@@ -447,6 +454,7 @@ items:
     TrackingSpeedBonus: -25.0
     Uniformity: 0.75
     id: 23510
+    marketGroup: 841
     name: Praetor TD-900
     volume: 25.0
   Valkyrie TP-600:
@@ -502,6 +510,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23721
+    marketGroup: 841
     name: Valkyrie TP-600
     volume: 10.0
   Vespa EC-600:
@@ -560,6 +569,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23705
+    marketGroup: 841
     name: Vespa EC-600
     volume: 10.0
   Warrior TP-300:
@@ -615,6 +625,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23723
+    marketGroup: 841
     name: Warrior TP-300
     volume: 5.0
   Wasp EC-900:
@@ -673,5 +684,6 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23473
+    marketGroup: 841
     name: Wasp EC-900
     volume: 25.0

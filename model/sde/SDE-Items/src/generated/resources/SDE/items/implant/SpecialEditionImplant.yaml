@@ -7,6 +7,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33807
+    marketGroup: 621
     name: Cybernetic 'Source' Subprocessor
     volume: 1.0
   Genolution 'Auroral' AU-79:
@@ -16,6 +17,7 @@ items:
     Nondestructible: 1
     TechLevel: 1
     id: 33329
+    marketGroup: 1814
     name: Genolution 'Auroral' AU-79
     volume: 1.0
   Genolution Core Augmentation CA-1:
@@ -28,6 +30,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 2082
+    marketGroup: 618
     name: Genolution Core Augmentation CA-1
     volume: 1.0
   Genolution Core Augmentation CA-2:
@@ -40,6 +43,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 2589
+    marketGroup: 621
     name: Genolution Core Augmentation CA-2
     volume: 1.0
   Genolution Core Augmentation CA-3:
@@ -52,6 +56,7 @@ items:
     TechLevel: 1
     WillpowerBonus: 3
     id: 33393
+    marketGroup: 620
     name: Genolution Core Augmentation CA-3
     volume: 1.0
   Genolution Core Augmentation CA-4:
@@ -64,6 +69,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 33394
+    marketGroup: 619
     name: Genolution Core Augmentation CA-4
     volume: 1.0
   Neural 'Source' Boost:
@@ -74,5 +80,6 @@ items:
     TechLevel: 1
     WillpowerBonus: 4
     id: 33808
+    marketGroup: 620
     name: Neural 'Source' Boost
     volume: 1.0

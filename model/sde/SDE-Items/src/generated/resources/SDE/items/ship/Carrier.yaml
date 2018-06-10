@@ -104,6 +104,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23757
+    marketGroup: 818
     name: Archon
     volume: 1.395E7
   Chimera:
@@ -211,6 +212,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23915
+    marketGroup: 819
     name: Chimera
     volume: 1.1925E7
   Nidhoggur:
@@ -319,6 +321,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 24483
+    marketGroup: 821
     name: Nidhoggur
     volume: 1.125E7
   Thanatos:
@@ -427,6 +430,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23911
+    marketGroup: 820
     name: Thanatos
     volume: 1.3095E7
   Vanguard:
@@ -533,5 +537,6 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42132
+    marketGroup: 820
     name: Vanguard
     volume: 1.3095E7

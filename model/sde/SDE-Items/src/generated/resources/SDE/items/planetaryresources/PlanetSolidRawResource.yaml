@@ -3,29 +3,34 @@ items:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
     id: 2267
+    marketGroup: 1333
     name: Base Metals
     volume: 0.01
   Felsic Magma:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
     id: 2307
+    marketGroup: 1333
     name: Felsic Magma
     volume: 0.01
   Heavy Metals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
     id: 2272
+    marketGroup: 1333
     name: Heavy Metals
     volume: 0.01
   Noble Metals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
     id: 2270
+    marketGroup: 1333
     name: Noble Metals
     volume: 0.01
   Non-CS Crystals:
     ExportTaxMultiplier: 5
     ImportTaxMultiplier: 5
     id: 2306
+    marketGroup: 1333
     name: Non-CS Crystals
     volume: 0.01

@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23524
+    marketGroup: 1030
     name: Heavy Armor Maintenance Bot I Blueprint
     volume: 0.01
   Heavy Armor Maintenance Bot II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 33672
+    marketGroup: 1030
     name: Heavy Hull Maintenance Bot I Blueprint
     volume: 0.01
   Heavy Hull Maintenance Bot II Blueprint:
@@ -27,6 +29,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 22766
+    marketGroup: 1030
     name: Heavy Shield Maintenance Bot I Blueprint
     volume: 0.01
   Heavy Shield Maintenance Bot II Blueprint:
@@ -39,6 +42,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 23712
+    marketGroup: 1030
     name: Light Armor Maintenance Bot I Blueprint
     volume: 0.01
   Light Armor Maintenance Bot II Blueprint:
@@ -51,6 +55,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 33707
+    marketGroup: 1030
     name: Light Hull Maintenance Bot I Blueprint
     volume: 0.01
   Light Hull Maintenance Bot II Blueprint:
@@ -63,6 +68,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 23720
+    marketGroup: 1030
     name: Light Shield Maintenance Bot I Blueprint
     volume: 0.01
   Light Shield Maintenance Bot II Blueprint:
@@ -75,6 +81,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 23710
+    marketGroup: 1030
     name: Medium Armor Maintenance Bot I Blueprint
     volume: 0.01
   Medium Armor Maintenance Bot II Blueprint:
@@ -87,6 +94,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 33705
+    marketGroup: 1030
     name: Medium Hull Maintenance Bot I Blueprint
     volume: 0.01
   Medium Hull Maintenance Bot II Blueprint:
@@ -99,6 +107,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 23718
+    marketGroup: 1030
     name: Medium Shield Maintenance Bot I Blueprint
     volume: 0.01
   Medium Shield Maintenance Bot II Blueprint:

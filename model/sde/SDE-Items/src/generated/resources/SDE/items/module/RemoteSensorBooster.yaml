@@ -28,6 +28,7 @@ items:
     ScanResolutionBonus: 33.0
     TechLevel: 1
     id: 22925
+    marketGroup: 673
     name: '''Bootleg'' Remote Sensor Booster'
     volume: 5.0
   '''Boss'' Remote Sensor Booster':
@@ -108,6 +109,7 @@ items:
     ScanResolutionBonus: 30.0
     TechLevel: 1
     id: 5281
+    marketGroup: 673
     name: Coadjunct Scoped Remote Sensor Booster
     volume: 5.0
   Connected Remote Sensor Booster:
@@ -162,6 +164,7 @@ items:
     ScanResolutionBonus: 30.0
     TechLevel: 1
     id: 5279
+    marketGroup: 673
     name: F-23 Compact Remote Sensor Booster
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
@@ -192,6 +195,7 @@ items:
     ScanResolutionBonus: 30.0
     TechLevel: 1
     id: 5282
+    marketGroup: 673
     name: Linked Enduring Remote Sensor Booster
     volume: 5.0
   Remote Sensor Booster I:
@@ -221,6 +225,7 @@ items:
     ScanResolutionBonus: 28.0
     TechLevel: 1
     id: 1963
+    marketGroup: 673
     name: Remote Sensor Booster I
     volume: 25.0
   Remote Sensor Booster II:
@@ -251,6 +256,7 @@ items:
     ScanResolutionBonus: 33.0
     TechLevel: 2
     id: 1964
+    marketGroup: 673
     name: Remote Sensor Booster II
     volume: 5.0
   Sentient Remote Sensor Booster:
@@ -282,6 +288,7 @@ items:
     ScanResolutionBonus: 34.0
     TechLevel: 1
     id: 41198
+    marketGroup: 673
     name: Sentient Remote Sensor Booster
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
@@ -313,5 +320,6 @@ items:
     ScanResolutionBonus: 34.0
     TechLevel: 1
     id: 41199
+    marketGroup: 673
     name: Shadow Serpentis Remote Sensor Booster
     volume: 25.0

@@ -72,6 +72,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 32872
+    marketGroup: 467
     name: Algos
     volume: 55000.0
   Aliastra Catalyst:
@@ -216,6 +217,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 16240
+    marketGroup: 467
     name: Catalyst
     volume: 55000.0
   Catalyst Serpentis Edition:
@@ -359,6 +361,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 16236
+    marketGroup: 465
     name: Coercer
     volume: 47000.0
   Coercer Blood Raiders Edition:
@@ -504,6 +507,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 32876
+    marketGroup: 466
     name: Corax
     volume: 52000.0
   Cormorant:
@@ -576,6 +580,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 16238
+    marketGroup: 466
     name: Cormorant
     volume: 52000.0
   Cormorant Guristas Edition:
@@ -726,6 +731,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 32874
+    marketGroup: 465
     name: Dragoon
     volume: 47000.0
   Inner Zone Shipping Catalyst:
@@ -1167,6 +1173,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 42685
+    marketGroup: 2350
     name: Sunesis
     volume: 55000.0
   Talwar:
@@ -1240,6 +1247,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 32878
+    marketGroup: 468
     name: Talwar
     volume: 43000.0
   Thrasher:
@@ -1312,6 +1320,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 16242
+    marketGroup: 468
     name: Thrasher
     volume: 43000.0
   Thrasher Thukker Tribe Edition:

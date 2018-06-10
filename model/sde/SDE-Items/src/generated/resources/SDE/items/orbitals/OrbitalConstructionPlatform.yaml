@@ -24,5 +24,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 3962
+    marketGroup: 1410
     name: Customs Office Gantry
     volume: 7600.0

@@ -79,6 +79,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
     id: 22460
+    marketGroup: 832
     name: Eris
     volume: 55000.0
   Flycatcher:
@@ -160,6 +161,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
     id: 22464
+    marketGroup: 829
     name: Flycatcher
     volume: 52000.0
   Heretic:
@@ -242,6 +244,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
     id: 22452
+    marketGroup: 826
     name: Heretic
     volume: 47000.0
   Sabre:
@@ -324,5 +327,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 5.5
     id: 22456
+    marketGroup: 835
     name: Sabre
     volume: 43000.0

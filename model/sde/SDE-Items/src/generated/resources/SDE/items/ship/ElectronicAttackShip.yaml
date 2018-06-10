@@ -75,6 +75,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.5
     id: 11387
+    marketGroup: 1069
     name: Hyena
     volume: 17400.0
   Keres:
@@ -154,6 +155,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.5
     id: 11174
+    marketGroup: 1068
     name: Keres
     volume: 23000.0
   Kitsune:
@@ -231,6 +233,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.5
     id: 11194
+    marketGroup: 1067
     name: Kitsune
     volume: 19400.0
   Sentinel:
@@ -310,5 +313,6 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.5
     id: 11190
+    marketGroup: 1066
     name: Sentinel
     volume: 28100.0

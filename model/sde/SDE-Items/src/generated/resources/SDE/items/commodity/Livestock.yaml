@@ -5,6 +5,7 @@ items:
     volume: 1.0
   Activists:
     id: 17754
+    marketGroup: 754
     name: Activists
     volume: 1.0
   'Admiral Meledier ':
@@ -201,6 +202,7 @@ items:
     volume: 1.0
   Elite Slaves:
     id: 17796
+    marketGroup: 23
     name: Elite Slaves
     volume: 1.0
   Engineer Tahaki Karin:
@@ -209,10 +211,12 @@ items:
     volume: 1.0
   Exotic Dancers, Female:
     id: 17765
+    marketGroup: 23
     name: Exotic Dancers, Female
     volume: 1.0
   Exotic Dancers, Male:
     id: 4358
+    marketGroup: 23
     name: Exotic Dancers, Male
     volume: 1.0
   FR Personnel:
@@ -237,6 +241,7 @@ items:
     volume: 1.0
   Freedom Fighters:
     id: 17791
+    marketGroup: 23
     name: Freedom Fighters
     volume: 2.0
   Fugitive Slaves:
@@ -365,6 +370,7 @@ items:
     volume: 300.0
   Homeless:
     id: 12110
+    marketGroup: 23
     name: Homeless
     volume: 3.0
   Hostages:
@@ -393,6 +399,7 @@ items:
     volume: 0.1
   Janitor:
     id: 13267
+    marketGroup: 23
     name: Janitor
     volume: 3.0
   Jark Makon:
@@ -405,6 +412,7 @@ items:
     volume: 1.0
   Kameiras:
     id: 17767
+    marketGroup: 23
     name: Kameiras
     volume: 1.0
   Kardimo Palettan:
@@ -521,6 +529,7 @@ items:
     volume: 2.0
   Marines:
     id: 3810
+    marketGroup: 23
     name: Marines
     volume: 2.0
   Mercenary Pilot:
@@ -641,6 +650,7 @@ items:
     volume: 3.0
   Refugees:
     id: 3806
+    marketGroup: 23
     name: Refugees
     volume: 1.0
   Regiment of Marines:
@@ -657,6 +667,7 @@ items:
     volume: 1.0
   Science Graduates:
     id: 12243
+    marketGroup: 23
     name: Science Graduates
     volume: 3.0
   Scientist:
@@ -689,14 +700,17 @@ items:
     volume: 1.0
   Slaver:
     id: 12049
+    marketGroup: 23
     name: Slaver
     volume: 2.0
   Slaver Hound:
     id: 3723
+    marketGroup: 23
     name: Slaver Hound
     volume: 1.0
   Slaves:
     id: 3721
+    marketGroup: 23
     name: Slaves
     volume: 5.0
   Smugglers:
@@ -761,6 +775,7 @@ items:
     volume: 5.0
   Tourists:
     id: 3719
+    marketGroup: 23
     name: Tourists
     volume: 1.0
   Troubled Miner:

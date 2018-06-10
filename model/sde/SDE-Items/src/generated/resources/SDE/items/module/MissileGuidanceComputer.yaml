@@ -21,6 +21,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 35789
+    marketGroup: 2032
     name: Astro-Inertial Compact Missile Guidance Computer
     volume: 5.0
   Missile Guidance Computer I:
@@ -44,6 +45,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 35788
+    marketGroup: 2032
     name: Missile Guidance Computer I
     volume: 5.0
   Missile Guidance Computer II:
@@ -68,5 +70,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 35790
+    marketGroup: 2032
     name: Missile Guidance Computer II
     volume: 5.0

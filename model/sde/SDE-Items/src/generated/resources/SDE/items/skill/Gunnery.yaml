@@ -10,6 +10,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41404
+    marketGroup: 364
     name: Capital Artillery Specialization
     volume: 0.01
   Capital Autocannon Specialization:
@@ -23,6 +24,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41403
+    marketGroup: 364
     name: Capital Autocannon Specialization
     volume: 0.01
   Capital Beam Laser Specialization:
@@ -36,6 +38,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41408
+    marketGroup: 364
     name: Capital Beam Laser Specialization
     volume: 0.01
   Capital Blaster Specialization:
@@ -49,6 +52,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41405
+    marketGroup: 364
     name: Capital Blaster Specialization
     volume: 0.01
   Capital Energy Turret:
@@ -62,6 +66,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     id: 20327
+    marketGroup: 364
     name: Capital Energy Turret
     volume: 0.01
   Capital Hybrid Turret:
@@ -75,6 +80,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     id: 21666
+    marketGroup: 364
     name: Capital Hybrid Turret
     volume: 0.01
   Capital Projectile Turret:
@@ -88,6 +94,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 7.0
     id: 21667
+    marketGroup: 364
     name: Capital Projectile Turret
     volume: 0.01
   Capital Pulse Laser Specialization:
@@ -101,6 +108,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41407
+    marketGroup: 364
     name: Capital Pulse Laser Specialization
     volume: 0.01
   Capital Railgun Specialization:
@@ -114,6 +122,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 41406
+    marketGroup: 364
     name: Capital Railgun Specialization
     volume: 0.01
   Controlled Bursts:
@@ -124,6 +133,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3316
+    marketGroup: 364
     name: Controlled Bursts
     volume: 0.01
   Doomsday Operation:
@@ -139,6 +149,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 14.0
     id: 24563
+    marketGroup: 364
     name: Doomsday Operation
     volume: 0.01
   Doomsday Rapid Firing:
@@ -150,6 +161,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 14.0
     id: 41537
+    marketGroup: 364
     name: Doomsday Rapid Firing
     volume: 0.01
   Gunnery:
@@ -158,6 +170,7 @@ items:
     SkillTimeConstant: 1.0
     TurretSpeeBonus: -2
     id: 3300
+    marketGroup: 364
     name: Gunnery
     volume: 0.01
   Large Artillery Specialization:
@@ -171,6 +184,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12203
+    marketGroup: 364
     name: Large Artillery Specialization
     volume: 0.01
   Large Autocannon Specialization:
@@ -184,6 +198,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12209
+    marketGroup: 364
     name: Large Autocannon Specialization
     volume: 0.01
   Large Beam Laser Specialization:
@@ -197,6 +212,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12205
+    marketGroup: 364
     name: Large Beam Laser Specialization
     volume: 0.01
   Large Blaster Specialization:
@@ -210,6 +226,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12212
+    marketGroup: 364
     name: Large Blaster Specialization
     volume: 0.01
   Large Disintegrator Specialization:
@@ -223,6 +240,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 47875
+    marketGroup: 364
     name: Large Disintegrator Specialization
     volume: 0.01
   Large Energy Turret:
@@ -235,6 +253,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3309
+    marketGroup: 364
     name: Large Energy Turret
     volume: 0.01
   Large Hybrid Turret:
@@ -247,6 +266,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3307
+    marketGroup: 364
     name: Large Hybrid Turret
     volume: 0.01
   Large Precursor Weapon:
@@ -259,6 +279,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 47872
+    marketGroup: 364
     name: Large Precursor Weapon
     volume: 0.01
   Large Projectile Turret:
@@ -271,6 +292,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3308
+    marketGroup: 364
     name: Large Projectile Turret
     volume: 0.01
   Large Pulse Laser Specialization:
@@ -284,6 +306,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12215
+    marketGroup: 364
     name: Large Pulse Laser Specialization
     volume: 0.01
   Large Railgun Specialization:
@@ -297,6 +320,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 12207
+    marketGroup: 364
     name: Large Railgun Specialization
     volume: 0.01
   Medium Artillery Specialization:
@@ -310,6 +334,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12202
+    marketGroup: 364
     name: Medium Artillery Specialization
     volume: 0.01
   Medium Autocannon Specialization:
@@ -323,6 +348,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12208
+    marketGroup: 364
     name: Medium Autocannon Specialization
     volume: 0.01
   Medium Beam Laser Specialization:
@@ -336,6 +362,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12204
+    marketGroup: 364
     name: Medium Beam Laser Specialization
     volume: 0.01
   Medium Blaster Specialization:
@@ -349,6 +376,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12211
+    marketGroup: 364
     name: Medium Blaster Specialization
     volume: 0.01
   Medium Disintegrator Specialization:
@@ -362,6 +390,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 47874
+    marketGroup: 364
     name: Medium Disintegrator Specialization
     volume: 0.01
   Medium Energy Turret:
@@ -374,6 +403,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 3306
+    marketGroup: 364
     name: Medium Energy Turret
     volume: 0.01
   Medium Hybrid Turret:
@@ -386,6 +416,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 3304
+    marketGroup: 364
     name: Medium Hybrid Turret
     volume: 0.01
   Medium Precursor Weapon:
@@ -398,6 +429,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 47871
+    marketGroup: 364
     name: Medium Precursor Weapon
     volume: 0.01
   Medium Projectile Turret:
@@ -410,6 +442,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 3305
+    marketGroup: 364
     name: Medium Projectile Turret
     volume: 0.01
   Medium Pulse Laser Specialization:
@@ -423,6 +456,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12214
+    marketGroup: 364
     name: Medium Pulse Laser Specialization
     volume: 0.01
   Medium Railgun Specialization:
@@ -436,6 +470,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 12206
+    marketGroup: 364
     name: Medium Railgun Specialization
     volume: 0.01
   Motion Prediction:
@@ -446,6 +481,7 @@ items:
     SkillTimeConstant: 2.0
     TrackingSpeedBonus: 5.0
     id: 3312
+    marketGroup: 364
     name: Motion Prediction
     volume: 0.01
   Rapid Firing:
@@ -456,6 +492,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3310
+    marketGroup: 364
     name: Rapid Firing
     volume: 0.01
   Sharpshooter:
@@ -466,6 +503,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3311
+    marketGroup: 364
     name: Sharpshooter
     volume: 0.01
   Small Artillery Specialization:
@@ -479,6 +517,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 12201
+    marketGroup: 364
     name: Small Artillery Specialization
     volume: 0.01
   Small Autocannon Specialization:
@@ -492,6 +531,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 11084
+    marketGroup: 364
     name: Small Autocannon Specialization
     volume: 0.01
   Small Beam Laser Specialization:
@@ -505,6 +545,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 11083
+    marketGroup: 364
     name: Small Beam Laser Specialization
     volume: 0.01
   Small Blaster Specialization:
@@ -518,6 +559,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 12210
+    marketGroup: 364
     name: Small Blaster Specialization
     volume: 0.01
   Small Disintegrator Specialization:
@@ -531,6 +573,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 47873
+    marketGroup: 364
     name: Small Disintegrator Specialization
     volume: 0.01
   Small Energy Turret:
@@ -541,6 +584,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3303
+    marketGroup: 364
     name: Small Energy Turret
     volume: 0.01
   Small Hybrid Turret:
@@ -551,6 +595,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3301
+    marketGroup: 364
     name: Small Hybrid Turret
     volume: 0.01
   Small Precursor Weapon:
@@ -561,6 +606,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 47870
+    marketGroup: 364
     name: Small Precursor Weapon
     volume: 0.01
   Small Projectile Turret:
@@ -571,6 +617,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3302
+    marketGroup: 364
     name: Small Projectile Turret
     volume: 0.01
   Small Pulse Laser Specialization:
@@ -584,6 +631,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 12213
+    marketGroup: 364
     name: Small Pulse Laser Specialization
     volume: 0.01
   Small Railgun Specialization:
@@ -597,6 +645,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 11082
+    marketGroup: 364
     name: Small Railgun Specialization
     volume: 0.01
   Surgical Strike:
@@ -607,6 +656,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 4.0
     id: 3315
+    marketGroup: 364
     name: Surgical Strike
     volume: 0.01
   Tactical Strike:
@@ -626,6 +676,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 22043
+    marketGroup: 364
     name: Tactical Weapon Reconfiguration
     volume: 0.01
   Trajectory Analysis:
@@ -635,5 +686,6 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3317
+    marketGroup: 364
     name: Trajectory Analysis
     volume: 0.01

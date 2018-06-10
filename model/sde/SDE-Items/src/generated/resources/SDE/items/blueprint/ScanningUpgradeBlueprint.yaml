@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 33179
+    marketGroup: 1707
     name: Scan Pinpointing Array I Blueprint
     volume: 0.01
   Scan Pinpointing Array II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 33181
+    marketGroup: 1707
     name: Scan Rangefinding Array I Blueprint
     volume: 0.01
   Scan Rangefinding Array II Blueprint:

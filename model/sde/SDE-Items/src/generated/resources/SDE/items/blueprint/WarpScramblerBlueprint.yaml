@@ -38,36 +38,43 @@ items:
   Heavy Faint Epsilon Scoped Warp Scrambler Blueprint:
     TechLevel: 1
     id: 40757
+    marketGroup: 1939
     name: Heavy Faint Epsilon Scoped Warp Scrambler Blueprint
     volume: 0.01
   Heavy Faint Scoped Warp Disruptor Blueprint:
     TechLevel: 1
     id: 40743
+    marketGroup: 1938
     name: Heavy Faint Scoped Warp Disruptor Blueprint
     volume: 0.01
   Heavy Fleeting Compact Warp Disruptor Blueprint:
     TechLevel: 1
     id: 40741
+    marketGroup: 1938
     name: Heavy Fleeting Compact Warp Disruptor Blueprint
     volume: 0.01
   Heavy Initiated Compact Warp Scrambler Blueprint:
     TechLevel: 1
     id: 40753
+    marketGroup: 1939
     name: Heavy Initiated Compact Warp Scrambler Blueprint
     volume: 0.01
   Heavy J5 Enduring Warp Disruptor Blueprint:
     TechLevel: 1
     id: 40742
+    marketGroup: 1938
     name: Heavy J5 Enduring Warp Disruptor Blueprint
     volume: 0.01
   Heavy J5b Enduring Warp Scrambler Blueprint:
     TechLevel: 1
     id: 40755
+    marketGroup: 1939
     name: Heavy J5b Enduring Warp Scrambler Blueprint
     volume: 0.01
   Heavy Warp Disruptor I Blueprint:
     TechLevel: 1
     id: 40740
+    marketGroup: 1938
     name: Heavy Warp Disruptor I Blueprint
     volume: 0.01
   Heavy Warp Disruptor II Blueprint:
@@ -78,6 +85,7 @@ items:
   Heavy Warp Scrambler I Blueprint:
     TechLevel: 1
     id: 40751
+    marketGroup: 1939
     name: Heavy Warp Scrambler I Blueprint
     volume: 0.01
   Heavy Warp Scrambler II Blueprint:
@@ -125,6 +133,7 @@ items:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 28655
+    marketGroup: 1572
     name: Warp Disruption Field Generator I Blueprint
     volume: 0.01
   Warp Disruption Field Generator II Blueprint:
@@ -137,6 +146,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3243
+    marketGroup: 1938
     name: Warp Disruptor I Blueprint
     volume: 0.01
   Warp Disruptor II Blueprint:
@@ -155,6 +165,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1079
+    marketGroup: 1939
     name: Warp Scrambler I Blueprint
     volume: 0.01
   Warp Scrambler II Blueprint:

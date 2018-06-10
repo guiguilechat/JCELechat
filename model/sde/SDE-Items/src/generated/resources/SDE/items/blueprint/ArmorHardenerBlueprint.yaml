@@ -27,6 +27,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11302
+    marketGroup: 1540
     name: Armor EM Hardener I Blueprint
     volume: 0.01
   Armor EM Hardener II Blueprint:
@@ -39,6 +40,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11304
+    marketGroup: 1540
     name: Armor Explosive Hardener I Blueprint
     volume: 0.01
   Armor Explosive Hardener II Blueprint:
@@ -51,6 +53,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11306
+    marketGroup: 1540
     name: Armor Kinetic Hardener I Blueprint
     volume: 0.01
   Armor Kinetic Hardener II Blueprint:
@@ -63,6 +66,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11278
+    marketGroup: 1540
     name: Armor Thermal Hardener I Blueprint
     volume: 0.01
   Armor Thermal Hardener II Blueprint:

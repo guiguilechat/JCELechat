@@ -85,6 +85,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
     id: 37135
+    marketGroup: 1924
     name: Endurance
     volume: 50000.0
   Prospect:
@@ -169,5 +170,6 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 5.5
     id: 33697
+    marketGroup: 1924
     name: Prospect
     volume: 50000.0

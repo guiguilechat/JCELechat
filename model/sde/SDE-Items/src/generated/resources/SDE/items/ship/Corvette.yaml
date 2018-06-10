@@ -67,6 +67,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 617
+    marketGroup: 1619
     name: Echo
     volume: 17660.0
   Hematos:
@@ -138,6 +139,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33079
+    marketGroup: 1619
     name: Hematos
     volume: 28100.0
   Ibis:
@@ -209,6 +211,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 601
+    marketGroup: 1817
     name: Ibis
     volume: 15000.0
   Immolator:
@@ -278,6 +281,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 615
+    marketGroup: 1619
     name: Immolator
     volume: 17400.0
   Impairor:
@@ -349,6 +353,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 596
+    marketGroup: 1816
     name: Impairor
     volume: 28100.0
   Polaris Centurion Frigate:
@@ -725,6 +730,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 588
+    marketGroup: 1819
     name: Reaper
     volume: 15800.0
   Taipan:
@@ -798,6 +804,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33081
+    marketGroup: 1619
     name: Taipan
     volume: 15000.0
   Velator:
@@ -869,6 +876,7 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 606
+    marketGroup: 1818
     name: Velator
     volume: 24500.0
   Violator:
@@ -939,5 +947,6 @@ items:
     WarpCapacitorNeed: 8.659999934934604E-7
     WarpSpeedMultiplier: 3.0
     id: 33083
+    marketGroup: 1619
     name: Violator
     volume: 24500.0

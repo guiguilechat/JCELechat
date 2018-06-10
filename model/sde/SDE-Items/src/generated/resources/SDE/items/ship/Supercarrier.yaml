@@ -108,6 +108,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23919
+    marketGroup: 818
     name: Aeon
     volume: 6.2E7
   Hel:
@@ -220,6 +221,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 22852
+    marketGroup: 821
     name: Hel
     volume: 5.1E7
   Nation:
@@ -373,6 +375,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23913
+    marketGroup: 820
     name: Nyx
     volume: 5.82E7
   Revenant:
@@ -490,6 +493,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 3514
+    marketGroup: 1392
     name: Revenant
     volume: 6.2E7
   Vendetta:
@@ -606,6 +610,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42125
+    marketGroup: 1392
     name: Vendetta
     volume: 5.82E7
   Wyvern:
@@ -717,5 +722,6 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 23917
+    marketGroup: 819
     name: Wyvern
     volume: 5.3E7

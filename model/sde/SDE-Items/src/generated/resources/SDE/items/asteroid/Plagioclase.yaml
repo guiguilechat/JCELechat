@@ -10,6 +10,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 17455
+    marketGroup: 516
     name: Azure Plagioclase
     volume: 0.35
   Compressed Azure Plagioclase:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 28421
+    marketGroup: 516
     name: Compressed Azure Plagioclase
     volume: 0.15
   Compressed Plagioclase:
@@ -32,6 +34,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 28422
+    marketGroup: 516
     name: Compressed Plagioclase
     volume: 0.15
   Compressed Rich Plagioclase:
@@ -43,6 +46,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 28423
+    marketGroup: 516
     name: Compressed Rich Plagioclase
     volume: 0.15
   Compressed Sparkling Plagioclase:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 46701
+    marketGroup: 516
     name: Compressed Sparkling Plagioclase
     volume: 0.15
   Plagioclase:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 18
+    marketGroup: 516
     name: Plagioclase
     volume: 0.35
   Rich Plagioclase:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 17456
+    marketGroup: 516
     name: Rich Plagioclase
     volume: 0.35
   Sparkling Plagioclase:
@@ -93,5 +100,6 @@ items:
     ReprocessingSkillType: 12191
     RequiredSkill1: 3386
     id: 46685
+    marketGroup: 516
     name: Sparkling Plagioclase
     volume: 0.35

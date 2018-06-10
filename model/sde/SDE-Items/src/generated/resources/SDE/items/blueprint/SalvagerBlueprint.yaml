@@ -9,6 +9,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 25862
+    marketGroup: 1712
     name: Salvager I Blueprint
     volume: 0.01
   Salvager II Blueprint:

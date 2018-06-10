@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 32262
+    marketGroup: 938
     name: Black Eagle Drone Link Augmentor
     volume: 25.0
   Drone Link Augmentor I:
@@ -20,6 +21,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 23527
+    marketGroup: 938
     name: Drone Link Augmentor I
     volume: 25.0
   Drone Link Augmentor II:
@@ -31,6 +33,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 24427
+    marketGroup: 938
     name: Drone Link Augmentor II
     volume: 25.0
   Unit D-34343's Modified Drone Link Augmentor:
@@ -44,6 +47,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 32927
+    marketGroup: 938
     name: Unit D-34343's Modified Drone Link Augmentor
     volume: 25.0
   Unit F-435454's Modified Drone Link Augmentor:
@@ -57,6 +61,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 32929
+    marketGroup: 938
     name: Unit F-435454's Modified Drone Link Augmentor
     volume: 25.0
   Unit P-343554's Modified Drone Link Augmentor:
@@ -70,6 +75,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 32931
+    marketGroup: 938
     name: Unit P-343554's Modified Drone Link Augmentor
     volume: 25.0
   Unit W-634's Modified Drone Link Augmentor:
@@ -83,5 +89,6 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 32933
+    marketGroup: 938
     name: Unit W-634's Modified Drone Link Augmentor
     volume: 25.0

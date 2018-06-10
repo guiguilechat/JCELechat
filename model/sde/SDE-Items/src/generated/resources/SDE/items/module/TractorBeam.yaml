@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 24644
+    marketGroup: 872
     name: Capital Tractor Beam I
     volume: 4000.0
   Capital Tractor Beam II:
@@ -33,6 +34,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11346
     id: 4252
+    marketGroup: 872
     name: Capital Tractor Beam II
     volume: 4000.0
   Large Tractor Beam I:
@@ -79,6 +81,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 24348
+    marketGroup: 872
     name: Small Tractor Beam I
     volume: 50.0
   Small Tractor Beam II:
@@ -97,5 +100,6 @@ items:
     TechLevel: 2
     TypeColorScheme: 11346
     id: 4250
+    marketGroup: 872
     name: Small Tractor Beam II
     volume: 50.0

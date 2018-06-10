@@ -15,6 +15,7 @@ items:
     Speed: 2000
     TechLevel: 1
     id: 33270
+    marketGroup: 1717
     name: Survey Probe Launcher I
     volume: 5.0
   Survey Probe Launcher II:
@@ -35,5 +36,6 @@ items:
     SurveyProbeDurationBonus: -10
     TechLevel: 2
     id: 33272
+    marketGroup: 1717
     name: Survey Probe Launcher II
     volume: 5.0

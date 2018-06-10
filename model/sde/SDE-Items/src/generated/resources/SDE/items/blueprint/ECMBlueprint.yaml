@@ -27,6 +27,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11631
+    marketGroup: 1567
     name: Gravimetric ECM I Blueprint
     volume: 0.01
   Gravimetric ECM II Blueprint:
@@ -39,6 +40,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11630
+    marketGroup: 1567
     name: Ladar ECM I Blueprint
     volume: 0.01
   Ladar ECM II Blueprint:
@@ -81,6 +83,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11628
+    marketGroup: 1567
     name: Magnetometric ECM I Blueprint
     volume: 0.01
   Magnetometric ECM II Blueprint:
@@ -93,6 +96,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11629
+    marketGroup: 1567
     name: Multispectral ECM I Blueprint
     volume: 0.01
   Multispectral ECM II Blueprint:
@@ -105,6 +109,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11632
+    marketGroup: 1567
     name: Radar ECM I Blueprint
     volume: 0.01
   Radar ECM II Blueprint:

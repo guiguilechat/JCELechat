@@ -21,6 +21,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 25270
+    marketGroup: 483
     name: Biochemical Silo
     volume: 4000.0
   Catalyst Silo:
@@ -45,6 +46,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 25271
+    marketGroup: 483
     name: Catalyst Silo
     volume: 4000.0
   Coupling Array:
@@ -68,6 +70,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17982
+    marketGroup: 483
     name: Coupling Array
     volume: 4000.0
   Expanded Silo:
@@ -140,6 +143,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 25821
+    marketGroup: 483
     name: General Storage
     volume: 4000.0
   Hazardous Chemical Silo:
@@ -164,6 +168,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 25280
+    marketGroup: 483
     name: Hazardous Chemical Silo
     volume: 4000.0
   Holding Pen:
@@ -213,6 +218,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 30655
+    marketGroup: 483
     name: Hybrid Polymer Silo
     volume: 4000.0
   Reception Center:
@@ -260,6 +266,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 14343
+    marketGroup: 483
     name: Silo
     volume: 4000.0
   Slave Pen:

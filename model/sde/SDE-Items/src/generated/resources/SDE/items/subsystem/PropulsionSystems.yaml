@@ -12,6 +12,7 @@ items:
     SubsystemBonusAmarrPropulsion2: -5
     TechLevel: 3
     id: 45611
+    marketGroup: 1134
     name: Legion Propulsion - Intercalated Nanofibers
     volume: 40.0
   Legion Propulsion - Interdiction Nullifier:
@@ -30,6 +31,7 @@ items:
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
     id: 45610
+    marketGroup: 1134
     name: Legion Propulsion - Interdiction Nullifier
     volume: 40.0
   Legion Propulsion - Wake Limiter:
@@ -46,6 +48,7 @@ items:
     SubsystemBonusAmarrPropulsion2: -10
     TechLevel: 3
     id: 45612
+    marketGroup: 1134
     name: Legion Propulsion - Wake Limiter
     volume: 40.0
   Loki Propulsion - Intercalated Nanofibers:
@@ -61,6 +64,7 @@ items:
     SubsystemBonusMinmatarPropulsion2: -5
     TechLevel: 3
     id: 45620
+    marketGroup: 1137
     name: Loki Propulsion - Intercalated Nanofibers
     volume: 40.0
   Loki Propulsion - Interdiction Nullifier:
@@ -79,6 +83,7 @@ items:
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
     id: 45619
+    marketGroup: 1137
     name: Loki Propulsion - Interdiction Nullifier
     volume: 40.0
   Loki Propulsion - Wake Limiter:
@@ -94,6 +99,7 @@ items:
     SubsystemBonusMinmatarPropulsion2: -10
     TechLevel: 3
     id: 45621
+    marketGroup: 1137
     name: Loki Propulsion - Wake Limiter
     volume: 40.0
   Proteus Propulsion - Hyperspatial Optimization:
@@ -109,6 +115,7 @@ items:
     SubsystemBonusGallentePropulsion2: -7.5
     TechLevel: 3
     id: 45617
+    marketGroup: 1136
     name: Proteus Propulsion - Hyperspatial Optimization
     volume: 40.0
   Proteus Propulsion - Interdiction Nullifier:
@@ -127,6 +134,7 @@ items:
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
     id: 45616
+    marketGroup: 1136
     name: Proteus Propulsion - Interdiction Nullifier
     volume: 40.0
   Proteus Propulsion - Localized Injectors:
@@ -143,6 +151,7 @@ items:
     SubsystemBonusGallentePropulsion2: 10.0
     TechLevel: 3
     id: 45618
+    marketGroup: 1136
     name: Proteus Propulsion - Localized Injectors
     volume: 40.0
   Tengu Propulsion - Chassis Optimization:
@@ -159,6 +168,7 @@ items:
     SubsystemBonusCaldariPropulsion2: -7.5
     TechLevel: 3
     id: 45614
+    marketGroup: 1135
     name: Tengu Propulsion - Chassis Optimization
     volume: 40.0
   Tengu Propulsion - Fuel Catalyst:
@@ -174,6 +184,7 @@ items:
     SubsystemBonusCaldariPropulsion2: 10.0
     TechLevel: 3
     id: 45615
+    marketGroup: 1135
     name: Tengu Propulsion - Fuel Catalyst
     volume: 40.0
   Tengu Propulsion - Interdiction Nullifier:
@@ -192,5 +203,6 @@ items:
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
     id: 45613
+    marketGroup: 1135
     name: Tengu Propulsion - Interdiction Nullifier
     volume: 40.0

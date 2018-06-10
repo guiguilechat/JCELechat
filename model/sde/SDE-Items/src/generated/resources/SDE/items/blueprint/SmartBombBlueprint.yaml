@@ -129,6 +129,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3994
+    marketGroup: 341
     name: Large EMP Smartbomb I Blueprint
     volume: 0.01
   Large EMP Smartbomb II Blueprint:
@@ -141,6 +142,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3982
+    marketGroup: 341
     name: Large Graviton Smartbomb I Blueprint
     volume: 0.01
   Large Graviton Smartbomb II Blueprint:
@@ -153,6 +155,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3988
+    marketGroup: 341
     name: Large Plasma Smartbomb I Blueprint
     volume: 0.01
   Large Plasma Smartbomb II Blueprint:
@@ -165,6 +168,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 3978
+    marketGroup: 341
     name: Large Proton Smartbomb I Blueprint
     volume: 0.01
   Large Proton Smartbomb II Blueprint:
@@ -183,6 +187,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3954
+    marketGroup: 341
     name: Medium EMP Smartbomb I Blueprint
     volume: 0.01
   Medium EMP Smartbomb II Blueprint:
@@ -195,6 +200,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3942
+    marketGroup: 341
     name: Medium Graviton Smartbomb I Blueprint
     volume: 0.01
   Medium Graviton Smartbomb II Blueprint:
@@ -207,6 +213,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3948
+    marketGroup: 341
     name: Medium Plasma Smartbomb I Blueprint
     volume: 0.01
   Medium Plasma Smartbomb II Blueprint:
@@ -219,6 +226,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3938
+    marketGroup: 341
     name: Medium Proton Smartbomb I Blueprint
     volume: 0.01
   Medium Proton Smartbomb II Blueprint:
@@ -255,6 +263,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1564
+    marketGroup: 341
     name: Small EMP Smartbomb I Blueprint
     volume: 0.01
   Small EMP Smartbomb II Blueprint:
@@ -267,6 +276,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1552
+    marketGroup: 341
     name: Small Graviton Smartbomb I Blueprint
     volume: 0.01
   Small Graviton Smartbomb II Blueprint:
@@ -279,6 +289,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1558
+    marketGroup: 341
     name: Small Plasma Smartbomb I Blueprint
     volume: 0.01
   Small Plasma Smartbomb II Blueprint:
@@ -291,6 +302,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1548
+    marketGroup: 341
     name: Small Proton Smartbomb I Blueprint
     volume: 0.01
   Small Proton Smartbomb II Blueprint:

@@ -25,6 +25,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41479
+    marketGroup: 1056
     name: Capital Ancillary Remote Armor Repairer
     volume: 4000.0
   Large Ancillary Remote Armor Repairer:
@@ -51,6 +52,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41478
+    marketGroup: 1057
     name: Large Ancillary Remote Armor Repairer
     volume: 25.0
   Medium Ancillary Remote Armor Repairer:
@@ -77,6 +79,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41477
+    marketGroup: 1058
     name: Medium Ancillary Remote Armor Repairer
     volume: 10.0
   Small Ancillary Remote Armor Repairer:
@@ -103,5 +106,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41476
+    marketGroup: 1059
     name: Small Ancillary Remote Armor Repairer
     volume: 5.0

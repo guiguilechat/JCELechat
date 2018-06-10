@@ -15,6 +15,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 47300
+    marketGroup: 1663
     name: Capsuleer Dawn Firework (Large)
     volume: 0.1
   Crimson Helix Firework (Large):
@@ -33,6 +34,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 47301
+    marketGroup: 1663
     name: Crimson Helix Firework (Large)
     volume: 0.1
   Yoiul Blizzard Firework (Large):
@@ -51,5 +53,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 47302
+    marketGroup: 1663
     name: Yoiul Blizzard Firework (Large)
     volume: 0.1

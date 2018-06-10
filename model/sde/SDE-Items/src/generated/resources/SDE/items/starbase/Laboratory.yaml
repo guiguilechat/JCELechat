@@ -24,6 +24,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     id: 28351
+    marketGroup: 933
     name: Design Laboratory
     volume: 3000.0
   Experimental Laboratory:
@@ -49,6 +50,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     id: 24567
+    marketGroup: 933
     name: Experimental Laboratory
     volume: 3000.0
   Hyasyoda Research Laboratory:
@@ -77,6 +79,7 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     id: 32245
+    marketGroup: 933
     name: Hyasyoda Research Laboratory
     volume: 3000.0
   Research Laboratory:
@@ -104,5 +107,6 @@ items:
     StructureUniformity: 1.0
     UnanchoringDelay: 5000
     id: 16216
+    marketGroup: 933
     name: Research Laboratory
     volume: 3000.0

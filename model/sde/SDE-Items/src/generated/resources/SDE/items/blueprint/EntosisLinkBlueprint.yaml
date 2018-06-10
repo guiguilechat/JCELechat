@@ -7,6 +7,7 @@ items:
   Entosis Link I Blueprint:
     TechLevel: 1
     id: 34594
+    marketGroup: 2020
     name: Entosis Link I Blueprint
     volume: 0.01
   Entosis Link II Blueprint:

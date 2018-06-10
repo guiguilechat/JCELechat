@@ -70,6 +70,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27489
+    marketGroup: 1192
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
     volume: 0.03
   Dark Blood Mjolnir F.O.F. Heavy Missile I:
@@ -167,6 +168,7 @@ items:
     TechLevel: 1
     ThermalDamage: 122.0
     id: 27495
+    marketGroup: 1192
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
     volume: 0.03
   Guardian Inferno F.O.F. Heavy Missile I:
@@ -240,6 +242,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27483
+    marketGroup: 1192
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
     volume: 0.03
   Inferno Auto-Targeting Heavy Missile I:
@@ -264,6 +267,7 @@ items:
     TechLevel: 1
     ThermalDamage: 107.0
     id: 1824
+    marketGroup: 914
     name: Inferno Auto-Targeting Heavy Missile I
     volume: 0.03
   Mjolnir Auto-Targeting Heavy Missile I:
@@ -288,6 +292,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 1820
+    marketGroup: 914
     name: Mjolnir Auto-Targeting Heavy Missile I
     volume: 0.03
   Nova Auto-Targeting Heavy Missile I:
@@ -312,6 +317,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 1822
+    marketGroup: 914
     name: Nova Auto-Targeting Heavy Missile I
     volume: 0.03
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
@@ -337,6 +343,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27501
+    marketGroup: 1192
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
     volume: 0.03
   Scourge Auto-Targeting Heavy Missile I:
@@ -361,6 +368,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 1818
+    marketGroup: 914
     name: Scourge Auto-Targeting Heavy Missile I
     volume: 0.03
   Shadow Inferno F.O.F. Heavy Missile I:

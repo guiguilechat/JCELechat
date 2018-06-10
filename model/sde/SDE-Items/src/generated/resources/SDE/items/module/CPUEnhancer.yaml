@@ -9,6 +9,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 20569
+    marketGroup: 676
     name: '''Deuce'' Co-Processor I'
     volume: 5.0
   '''Dyad'' Co-Processor I':
@@ -21,6 +22,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 20567
+    marketGroup: 676
     name: '''Dyad'' Co-Processor I'
     volume: 5.0
   Basic Co-Processor:
@@ -33,6 +35,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 3469
+    marketGroup: 676
     name: Basic Co-Processor
     volume: 5.0
   Brynn's Modified Co-Processor:
@@ -45,6 +48,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15308
+    marketGroup: 676
     name: Brynn's Modified Co-Processor
     volume: 5.0
   Caldari Navy Co-Processor:
@@ -57,6 +61,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15675
+    marketGroup: 676
     name: Caldari Navy Co-Processor
     volume: 5.0
   Co-Processor I:
@@ -67,6 +72,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3887
+    marketGroup: 676
     name: Co-Processor I
     volume: 5.0
   Co-Processor II:
@@ -78,6 +84,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 3888
+    marketGroup: 676
     name: Co-Processor II
     volume: 5.0
   Cormack's Modified Co-Processor:
@@ -90,6 +97,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15314
+    marketGroup: 676
     name: Cormack's Modified Co-Processor
     volume: 5.0
   Dread Guristas Co-Processor:
@@ -102,6 +110,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14230
+    marketGroup: 676
     name: Dread Guristas Co-Processor
     volume: 5.0
   Estamel's Modified Co-Processor:
@@ -114,6 +123,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14774
+    marketGroup: 676
     name: Estamel's Modified Co-Processor
     volume: 5.0
   Federation Navy Co-Processor:
@@ -126,6 +136,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15677
+    marketGroup: 676
     name: Federation Navy Co-Processor
     volume: 5.0
   Kaikka's Modified Co-Processor:
@@ -138,6 +149,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14768
+    marketGroup: 676
     name: Kaikka's Modified Co-Processor
     volume: 5.0
   Khanid Navy Co-Processor:
@@ -150,6 +162,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 28561
+    marketGroup: 676
     name: Khanid Navy Co-Processor
     volume: 5.0
   Naiyon's Modified Co-Processor:
@@ -225,6 +238,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 8748
+    marketGroup: 676
     name: Photonic Upgraded Co-Processor
     volume: 5.0
   Quantum Co-Processor:
@@ -258,6 +272,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15312
+    marketGroup: 676
     name: Setele's Modified Co-Processor
     volume: 5.0
   Shadow Serpentis Co-Processor:
@@ -270,6 +285,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14232
+    marketGroup: 676
     name: Shadow Serpentis Co-Processor
     volume: 5.0
   Thon's Modified Co-Processor:
@@ -282,6 +298,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14770
+    marketGroup: 676
     name: Thon's Modified Co-Processor
     volume: 5.0
   Tuvan's Modified Co-Processor:
@@ -294,6 +311,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15310
+    marketGroup: 676
     name: Tuvan's Modified Co-Processor
     volume: 5.0
   Vepas' Modified Co-Processor:
@@ -306,5 +324,6 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14772
+    marketGroup: 676
     name: Vepas' Modified Co-Processor
     volume: 5.0

@@ -2,16 +2,19 @@ items:
   Amarr Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
     id: 2774
+    marketGroup: 1339
     name: Amarr Control Tower Blueprint
     volume: 0.01
   Amarr Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
     id: 2775
+    marketGroup: 1339
     name: Amarr Control Tower Medium Blueprint
     volume: 0.01
   Amarr Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
     id: 2776
+    marketGroup: 1339
     name: Amarr Control Tower Small Blueprint
     volume: 0.01
   Angel Control Tower Blueprint:
@@ -47,16 +50,19 @@ items:
   Caldari Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
     id: 2777
+    marketGroup: 1339
     name: Caldari Control Tower Blueprint
     volume: 0.01
   Caldari Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
     id: 2778
+    marketGroup: 1339
     name: Caldari Control Tower Medium Blueprint
     volume: 0.01
   Caldari Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
     id: 2779
+    marketGroup: 1339
     name: Caldari Control Tower Small Blueprint
     volume: 0.01
   Dark Blood Control Tower Blueprint:
@@ -107,16 +113,19 @@ items:
   Gallente Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
     id: 2780
+    marketGroup: 1339
     name: Gallente Control Tower Blueprint
     volume: 0.01
   Gallente Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
     id: 2781
+    marketGroup: 1339
     name: Gallente Control Tower Medium Blueprint
     volume: 0.01
   Gallente Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
     id: 2782
+    marketGroup: 1339
     name: Gallente Control Tower Small Blueprint
     volume: 0.01
   Guristas Control Tower Blueprint:
@@ -137,16 +146,19 @@ items:
   Minmatar Control Tower Blueprint:
     IndustryBlueprintRank: 300.0
     id: 2783
+    marketGroup: 1339
     name: Minmatar Control Tower Blueprint
     volume: 0.01
   Minmatar Control Tower Medium Blueprint:
     IndustryBlueprintRank: 200.0
     id: 2784
+    marketGroup: 1339
     name: Minmatar Control Tower Medium Blueprint
     volume: 0.01
   Minmatar Control Tower Small Blueprint:
     IndustryBlueprintRank: 100.0
     id: 2785
+    marketGroup: 1339
     name: Minmatar Control Tower Small Blueprint
     volume: 0.01
   Sansha Control Tower Blueprint:

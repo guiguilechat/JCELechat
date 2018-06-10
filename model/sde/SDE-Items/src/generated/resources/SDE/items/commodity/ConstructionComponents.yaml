@@ -2,185 +2,222 @@ items:
   Antimatter Reactor Unit:
     MoonMiningAmount: 100
     id: 11549
+    marketGroup: 802
     name: Antimatter Reactor Unit
     volume: 1.0
   Crystalline Carbonide Armor Plate:
     MoonMiningAmount: 100
     id: 11545
+    marketGroup: 1888
     name: Crystalline Carbonide Armor Plate
     volume: 1.0
   Deflection Shield Emitter:
     MoonMiningAmount: 100
     id: 11555
+    marketGroup: 1889
     name: Deflection Shield Emitter
     volume: 1.0
   EM Pulse Generator:
     MoonMiningAmount: 100
     id: 11694
+    marketGroup: 802
     name: EM Pulse Generator
     volume: 1.0
   Electrolytic Capacitor Unit:
     MoonMiningAmount: 100
     id: 11551
+    marketGroup: 1889
     name: Electrolytic Capacitor Unit
     volume: 1.0
   Fernite Carbide Composite Armor Plate:
     MoonMiningAmount: 100
     id: 11542
+    marketGroup: 1889
     name: Fernite Carbide Composite Armor Plate
     volume: 1.0
   Fusion Reactor Unit:
     MoonMiningAmount: 100
     id: 11547
+    marketGroup: 1888
     name: Fusion Reactor Unit
     volume: 1.0
   Fusion Thruster:
     MoonMiningAmount: 100
     id: 11532
+    marketGroup: 802
     name: Fusion Thruster
     volume: 1.0
   Gravimetric Sensor Cluster:
     MoonMiningAmount: 100
     id: 11534
+    marketGroup: 803
     name: Gravimetric Sensor Cluster
     volume: 1.0
   Graviton Pulse Generator:
     MoonMiningAmount: 100
     id: 11693
+    marketGroup: 803
     name: Graviton Pulse Generator
     volume: 1.0
   Graviton Reactor Unit:
     MoonMiningAmount: 100
     id: 11550
+    marketGroup: 803
     name: Graviton Reactor Unit
     volume: 1.0
   Ion Thruster:
     MoonMiningAmount: 100
     id: 11531
+    marketGroup: 1888
     name: Ion Thruster
     volume: 1.0
   Ladar Sensor Cluster:
     MoonMiningAmount: 100
     id: 11536
+    marketGroup: 1889
     name: Ladar Sensor Cluster
     volume: 1.0
   Laser Focusing Crystals:
     MoonMiningAmount: 100
     id: 11689
+    marketGroup: 802
     name: Laser Focusing Crystals
     volume: 1.0
   Linear Shield Emitter:
     MoonMiningAmount: 100
     id: 11557
+    marketGroup: 802
     name: Linear Shield Emitter
     volume: 1.0
   Magnetometric Sensor Cluster:
     MoonMiningAmount: 100
     id: 11535
+    marketGroup: 1888
     name: Magnetometric Sensor Cluster
     volume: 1.0
   Magpulse Thruster:
     MoonMiningAmount: 100
     id: 11533
+    marketGroup: 803
     name: Magpulse Thruster
     volume: 1.0
   Nanoelectrical Microprocessor:
     MoonMiningAmount: 100
     id: 11539
+    marketGroup: 802
     name: Nanoelectrical Microprocessor
     volume: 1.0
   Nanomechanical Microprocessor:
     MoonMiningAmount: 100
     id: 11538
+    marketGroup: 1889
     name: Nanomechanical Microprocessor
     volume: 1.0
   Nuclear Pulse Generator:
     MoonMiningAmount: 100
     id: 11692
+    marketGroup: 1889
     name: Nuclear Pulse Generator
     volume: 1.0
   Nuclear Reactor Unit:
     MoonMiningAmount: 100
     id: 11548
+    marketGroup: 1889
     name: Nuclear Reactor Unit
     volume: 1.0
   Oscillator Capacitor Unit:
     MoonMiningAmount: 100
     id: 11553
+    marketGroup: 1888
     name: Oscillator Capacitor Unit
     volume: 1.0
   Particle Accelerator Unit:
     MoonMiningAmount: 100
     id: 11688
+    marketGroup: 1888
     name: Particle Accelerator Unit
     volume: 1.0
   Photon Microprocessor:
     MoonMiningAmount: 100
     id: 11541
+    marketGroup: 1888
     name: Photon Microprocessor
     volume: 1.0
   Plasma Pulse Generator:
     MoonMiningAmount: 100
     id: 11695
+    marketGroup: 1888
     name: Plasma Pulse Generator
     volume: 1.0
   Plasma Thruster:
     MoonMiningAmount: 100
     id: 11530
+    marketGroup: 1889
     name: Plasma Thruster
     volume: 1.0
   Pulse Shield Emitter:
     MoonMiningAmount: 100
     id: 11556
+    marketGroup: 1888
     name: Pulse Shield Emitter
     volume: 1.0
   Quantum Microprocessor:
     MoonMiningAmount: 100
     id: 11540
+    marketGroup: 803
     name: Quantum Microprocessor
     volume: 1.0
   Radar Sensor Cluster:
     MoonMiningAmount: 100
     id: 11537
+    marketGroup: 802
     name: Radar Sensor Cluster
     volume: 1.0
   Scalar Capacitor Unit:
     MoonMiningAmount: 100
     id: 11552
+    marketGroup: 803
     name: Scalar Capacitor Unit
     volume: 1.0
   Spatial Attunement Unit:
     MoonMiningAmount: 1
     id: 33195
+    marketGroup: 1147
     name: Spatial Attunement Unit
     volume: 1.0
   Superconductor Rails:
     MoonMiningAmount: 100
     id: 11690
+    marketGroup: 803
     name: Superconductor Rails
     volume: 1.0
   Sustained Shield Emitter:
     MoonMiningAmount: 100
     id: 11558
+    marketGroup: 803
     name: Sustained Shield Emitter
     volume: 1.0
   Tesseract Capacitor Unit:
     MoonMiningAmount: 100
     id: 11554
+    marketGroup: 802
     name: Tesseract Capacitor Unit
     volume: 1.0
   Thermonuclear Trigger Unit:
     MoonMiningAmount: 100
     id: 11691
+    marketGroup: 1889
     name: Thermonuclear Trigger Unit
     volume: 1.0
   Titanium Diborite Armor Plate:
     MoonMiningAmount: 100
     id: 11544
+    marketGroup: 803
     name: Titanium Diborite Armor Plate
     volume: 1.0
   Tungsten Carbide Armor Plate:
     MoonMiningAmount: 100
     id: 11543
+    marketGroup: 802
     name: Tungsten Carbide Armor Plate
     volume: 1.0

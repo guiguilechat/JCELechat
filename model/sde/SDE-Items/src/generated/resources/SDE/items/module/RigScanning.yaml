@@ -8,6 +8,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31205
+    marketGroup: 1789
     name: Capital Emission Scope Sharpener I
     volume: 40.0
   Capital Emission Scope Sharpener II:
@@ -20,6 +21,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31211
+    marketGroup: 1789
     name: Capital Emission Scope Sharpener II
     volume: 40.0
   Capital Gravity Capacitor Upgrade I:
@@ -30,6 +32,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31217
+    marketGroup: 1789
     name: Capital Gravity Capacitor Upgrade I
     volume: 40.0
   Capital Gravity Capacitor Upgrade II:
@@ -41,6 +44,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31224
+    marketGroup: 1789
     name: Capital Gravity Capacitor Upgrade II
     volume: 40.0
   Capital Memetic Algorithm Bank I:
@@ -52,6 +56,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31242
+    marketGroup: 1789
     name: Capital Memetic Algorithm Bank I
     volume: 40.0
   Capital Memetic Algorithm Bank II:
@@ -64,6 +69,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31248
+    marketGroup: 1789
     name: Capital Memetic Algorithm Bank II
     volume: 40.0
   Capital Signal Focusing Kit I:
@@ -74,6 +80,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31314
+    marketGroup: 1789
     name: Capital Signal Focusing Kit I
     volume: 40.0
   Capital Signal Focusing Kit II:
@@ -85,6 +92,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31320
+    marketGroup: 1789
     name: Capital Signal Focusing Kit II
     volume: 40.0
   Large Emission Scope Sharpener I:
@@ -96,6 +104,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 25930
+    marketGroup: 1788
     name: Large Emission Scope Sharpener I
     volume: 20.0
   Large Emission Scope Sharpener II:
@@ -108,6 +117,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 26342
+    marketGroup: 1788
     name: Large Emission Scope Sharpener II
     volume: 20.0
   Large Gravity Capacitor Upgrade I:
@@ -118,6 +128,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 25936
+    marketGroup: 1788
     name: Large Gravity Capacitor Upgrade I
     volume: 20.0
   Large Gravity Capacitor Upgrade II:
@@ -129,6 +140,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26350
+    marketGroup: 1788
     name: Large Gravity Capacitor Upgrade II
     volume: 20.0
   Large Memetic Algorithm Bank I:
@@ -140,6 +152,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 25932
+    marketGroup: 1788
     name: Large Memetic Algorithm Bank I
     volume: 20.0
   Large Memetic Algorithm Bank II:
@@ -152,6 +165,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 26346
+    marketGroup: 1788
     name: Large Memetic Algorithm Bank II
     volume: 20.0
   Large Signal Focusing Kit I:
@@ -162,6 +176,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26104
+    marketGroup: 1788
     name: Large Signal Focusing Kit I
     volume: 20.0
   Large Signal Focusing Kit II:
@@ -173,6 +188,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26362
+    marketGroup: 1788
     name: Large Signal Focusing Kit II
     volume: 20.0
   Medium Emission Scope Sharpener I:
@@ -184,6 +200,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31203
+    marketGroup: 1787
     name: Medium Emission Scope Sharpener I
     volume: 10.0
   Medium Emission Scope Sharpener II:
@@ -196,6 +213,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31209
+    marketGroup: 1787
     name: Medium Emission Scope Sharpener II
     volume: 10.0
   Medium Gravity Capacitor Upgrade I:
@@ -206,6 +224,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31215
+    marketGroup: 1787
     name: Medium Gravity Capacitor Upgrade I
     volume: 10.0
   Medium Gravity Capacitor Upgrade II:
@@ -217,6 +236,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31222
+    marketGroup: 1787
     name: Medium Gravity Capacitor Upgrade II
     volume: 10.0
   Medium Memetic Algorithm Bank I:
@@ -228,6 +248,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31240
+    marketGroup: 1787
     name: Medium Memetic Algorithm Bank I
     volume: 10.0
   Medium Memetic Algorithm Bank II:
@@ -240,6 +261,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31246
+    marketGroup: 1787
     name: Medium Memetic Algorithm Bank II
     volume: 10.0
   Medium Signal Focusing Kit I:
@@ -250,6 +272,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31312
+    marketGroup: 1787
     name: Medium Signal Focusing Kit I
     volume: 10.0
   Medium Signal Focusing Kit II:
@@ -261,6 +284,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31318
+    marketGroup: 1787
     name: Medium Signal Focusing Kit II
     volume: 10.0
   Small Emission Scope Sharpener I:
@@ -272,6 +296,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31201
+    marketGroup: 1786
     name: Small Emission Scope Sharpener I
     volume: 5.0
   Small Emission Scope Sharpener II:
@@ -284,6 +309,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31207
+    marketGroup: 1786
     name: Small Emission Scope Sharpener II
     volume: 5.0
   Small Gravity Capacitor Upgrade I:
@@ -294,6 +320,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31213
+    marketGroup: 1786
     name: Small Gravity Capacitor Upgrade I
     volume: 5.0
   Small Gravity Capacitor Upgrade II:
@@ -305,6 +332,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31220
+    marketGroup: 1786
     name: Small Gravity Capacitor Upgrade II
     volume: 5.0
   Small Memetic Algorithm Bank I:
@@ -316,6 +344,7 @@ items:
     UpgradeCost: 200
     VirusCoherenceBonus: 10
     id: 31238
+    marketGroup: 1786
     name: Small Memetic Algorithm Bank I
     volume: 5.0
   Small Memetic Algorithm Bank II:
@@ -328,6 +357,7 @@ items:
     UpgradeCost: 300
     VirusCoherenceBonus: 20
     id: 31244
+    marketGroup: 1786
     name: Small Memetic Algorithm Bank II
     volume: 5.0
   Small Signal Focusing Kit I:
@@ -338,6 +368,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31310
+    marketGroup: 1786
     name: Small Signal Focusing Kit I
     volume: 5.0
   Small Signal Focusing Kit II:
@@ -349,5 +380,6 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31316
+    marketGroup: 1786
     name: Small Signal Focusing Kit II
     volume: 5.0

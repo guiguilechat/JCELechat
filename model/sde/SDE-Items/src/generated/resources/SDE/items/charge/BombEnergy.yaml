@@ -24,6 +24,7 @@ items:
     TechLevel: 1
     ThermalDamage: 7.0
     id: 34264
+    marketGroup: 1015
     name: Focused Void Bomb
     volume: 75.0
   Void Bomb:
@@ -51,5 +52,6 @@ items:
     TechLevel: 1
     ThermalDamage: 7.0
     id: 27924
+    marketGroup: 1015
     name: Void Bomb
     volume: 75.0

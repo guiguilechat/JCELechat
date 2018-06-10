@@ -66,6 +66,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35835
+    marketGroup: 2327
     name: Athanor
     volume: 8000.0
   Tatara:
@@ -140,5 +141,6 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35836
+    marketGroup: 2327
     name: Tatara
     volume: 80000.0

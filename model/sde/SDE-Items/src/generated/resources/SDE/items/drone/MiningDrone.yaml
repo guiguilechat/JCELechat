@@ -46,6 +46,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 43701
+    marketGroup: 158
     name: '''Augmented'' Ice Harvesting Drone'
     volume: 50.0
   '''Augmented'' Mining Drone':
@@ -95,6 +96,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 43694
+    marketGroup: 158
     name: '''Augmented'' Mining Drone'
     volume: 5.0
   '''Excavator'' Ice Harvesting Drone':
@@ -144,6 +146,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 43681
+    marketGroup: 158
     name: '''Excavator'' Ice Harvesting Drone'
     volume: 750.0
   '''Excavator'' Mining Drone':
@@ -193,6 +196,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 41030
+    marketGroup: 158
     name: '''Excavator'' Mining Drone'
     volume: 750.0
   Civilian Mining Drone:
@@ -236,6 +240,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 1202
+    marketGroup: 158
     name: Civilian Mining Drone
     volume: 5.0
   Harvester Mining Drone:
@@ -282,6 +287,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 3218
+    marketGroup: 158
     name: Harvester Mining Drone
     volume: 10.0
   Ice Harvesting Drone I:
@@ -327,6 +333,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 43699
+    marketGroup: 158
     name: Ice Harvesting Drone I
     volume: 50.0
   Ice Harvesting Drone II:
@@ -375,6 +382,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 43700
+    marketGroup: 158
     name: Ice Harvesting Drone II
     volume: 50.0
   Mining Drone - Elite:
@@ -503,6 +511,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 10246
+    marketGroup: 158
     name: Mining Drone I
     volume: 5.0
   Mining Drone II:
@@ -550,5 +559,6 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 10250
+    marketGroup: 158
     name: Mining Drone II
     volume: 5.0

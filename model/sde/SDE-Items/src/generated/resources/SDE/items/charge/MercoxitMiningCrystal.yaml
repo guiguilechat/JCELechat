@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UnfitCapCost: 80
     id: 18054
+    marketGroup: 593
     name: Mercoxit Mining Crystal I
     volume: 6.0
   Mercoxit Mining Crystal II:
@@ -38,5 +39,6 @@ items:
     TechLevel: 2
     UnfitCapCost: 80
     id: 18608
+    marketGroup: 593
     name: Mercoxit Mining Crystal II
     volume: 10.0

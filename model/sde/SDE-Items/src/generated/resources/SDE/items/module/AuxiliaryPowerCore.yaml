@@ -17,6 +17,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 11563
+    marketGroup: 660
     name: Micro Auxiliary Power Core I
     volume: 20.0
   Micro Auxiliary Power Core II:
@@ -28,6 +29,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 4254
+    marketGroup: 660
     name: Micro Auxiliary Power Core II
     volume: 20.0
   Micro B88 Core Augmentation:
@@ -60,6 +62,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 31936
+    marketGroup: 660
     name: Navy Micro Auxiliary Power Core
     volume: 20.0
   Thukker Micro Auxiliary Power Core:
@@ -72,6 +75,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 28740
+    marketGroup: 660
     name: Thukker Micro Auxiliary Power Core
     volume: 5.0
   Vigor Compact Micro Auxiliary Power Core:
@@ -83,5 +87,6 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 16537
+    marketGroup: 660
     name: Vigor Compact Micro Auxiliary Power Core
     volume: 5.0

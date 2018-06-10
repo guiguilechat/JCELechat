@@ -105,6 +105,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 37604
+    marketGroup: 2272
     name: Apostle
     volume: 1.8135E7
   Dagon:
@@ -220,6 +221,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42242
+    marketGroup: 2357
     name: Dagon
     volume: 1.8135E7
   Lif:
@@ -328,6 +330,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 37606
+    marketGroup: 2275
     name: Lif
     volume: 1.4625E7
   Loggerhead:
@@ -438,6 +441,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 45645
+    marketGroup: 2357
     name: Loggerhead
     volume: 1.55E7
   Minokawa:
@@ -546,6 +550,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 37605
+    marketGroup: 2273
     name: Minokawa
     volume: 1.55E7
   Ninazu:
@@ -654,6 +659,7 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 37607
+    marketGroup: 2274
     name: Ninazu
     volume: 1.702E7
   Venerable:
@@ -760,5 +766,6 @@ items:
     WarpSpeedMultiplier: 1.5
     WeaponDisruptionResistance: 1.0
     id: 42133
+    marketGroup: 2274
     name: Venerable
     volume: 1.702E7

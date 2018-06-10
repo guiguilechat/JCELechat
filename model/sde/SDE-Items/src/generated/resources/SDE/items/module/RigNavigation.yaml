@@ -7,6 +7,7 @@ items:
     UpgradeCost: 100
     VelocityBonus: 7.25
     id: 31109
+    marketGroup: 1740
     name: Capital Auxiliary Thrusters I
     volume: 40.0
   Capital Auxiliary Thrusters II:
@@ -18,6 +19,7 @@ items:
     UpgradeCost: 150
     VelocityBonus: 8.75
     id: 31115
+    marketGroup: 1740
     name: Capital Auxiliary Thrusters II
     volume: 40.0
   Capital Cargohold Optimization I:
@@ -28,6 +30,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31121
+    marketGroup: 1740
     name: Capital Cargohold Optimization I
     volume: 40.0
   Capital Cargohold Optimization II:
@@ -39,6 +42,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31127
+    marketGroup: 1740
     name: Capital Cargohold Optimization II
     volume: 40.0
   Capital Dynamic Fuel Valve I:
@@ -49,6 +53,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31133
+    marketGroup: 1740
     name: Capital Dynamic Fuel Valve I
     volume: 40.0
   Capital Dynamic Fuel Valve II:
@@ -60,6 +65,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31139
+    marketGroup: 1740
     name: Capital Dynamic Fuel Valve II
     volume: 40.0
   Capital Engine Thermal Shielding I:
@@ -70,6 +76,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31145
+    marketGroup: 1740
     name: Capital Engine Thermal Shielding I
     volume: 40.0
   Capital Engine Thermal Shielding II:
@@ -81,6 +88,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31151
+    marketGroup: 1740
     name: Capital Engine Thermal Shielding II
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer I:
@@ -91,6 +99,7 @@ items:
     UpgradeCost: 50
     WarpSBonus: 20
     id: 31163
+    marketGroup: 1740
     name: Capital Hyperspatial Velocity Optimizer I
     volume: 40.0
   Capital Hyperspatial Velocity Optimizer II:
@@ -102,6 +111,7 @@ items:
     UpgradeCost: 75
     WarpSBonus: 25
     id: 31169
+    marketGroup: 1740
     name: Capital Hyperspatial Velocity Optimizer II
     volume: 40.0
   Capital Low Friction Nozzle Joints I:
@@ -112,6 +122,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31157
+    marketGroup: 1740
     name: Capital Low Friction Nozzle Joints I
     volume: 40.0
   Capital Low Friction Nozzle Joints II:
@@ -123,6 +134,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31175
+    marketGroup: 1740
     name: Capital Low Friction Nozzle Joints II
     volume: 40.0
   Capital Polycarbon Engine Housing I:
@@ -134,6 +146,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31181
+    marketGroup: 1740
     name: Capital Polycarbon Engine Housing I
     volume: 40.0
   Capital Polycarbon Engine Housing II:
@@ -146,6 +159,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31187
+    marketGroup: 1740
     name: Capital Polycarbon Engine Housing II
     volume: 40.0
   Capital Warp Core Optimizer I:
@@ -156,6 +170,7 @@ items:
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
     id: 31193
+    marketGroup: 1740
     name: Capital Warp Core Optimizer I
     volume: 40.0
   Capital Warp Core Optimizer II:
@@ -167,6 +182,7 @@ items:
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
     id: 31199
+    marketGroup: 1740
     name: Capital Warp Core Optimizer II
     volume: 40.0
   Large Auxiliary Thrusters I:
@@ -177,6 +193,7 @@ items:
     UpgradeCost: 100
     VelocityBonus: 7.25
     id: 26060
+    marketGroup: 1212
     name: Large Auxiliary Thrusters I
     volume: 20.0
   Large Auxiliary Thrusters II:
@@ -188,6 +205,7 @@ items:
     UpgradeCost: 150
     VelocityBonus: 8.75
     id: 26318
+    marketGroup: 1212
     name: Large Auxiliary Thrusters II
     volume: 20.0
   Large Cargohold Optimization I:
@@ -198,6 +216,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26072
+    marketGroup: 1212
     name: Large Cargohold Optimization I
     volume: 20.0
   Large Cargohold Optimization II:
@@ -209,6 +228,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26304
+    marketGroup: 1212
     name: Large Cargohold Optimization II
     volume: 20.0
   Large Dynamic Fuel Valve I:
@@ -219,6 +239,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26056
+    marketGroup: 1212
     name: Large Dynamic Fuel Valve I
     volume: 20.0
   Large Dynamic Fuel Valve II:
@@ -230,6 +251,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26306
+    marketGroup: 1212
     name: Large Dynamic Fuel Valve II
     volume: 20.0
   Large Engine Thermal Shielding I:
@@ -240,6 +262,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26062
+    marketGroup: 1212
     name: Large Engine Thermal Shielding I
     volume: 20.0
   Large Engine Thermal Shielding II:
@@ -251,6 +274,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26308
+    marketGroup: 1212
     name: Large Engine Thermal Shielding II
     volume: 20.0
   Large Hyperspatial Velocity Optimizer I:
@@ -261,6 +285,7 @@ items:
     UpgradeCost: 50
     WarpSBonus: 20
     id: 26068
+    marketGroup: 1212
     name: Large Hyperspatial Velocity Optimizer I
     volume: 20.0
   Large Hyperspatial Velocity Optimizer II:
@@ -272,6 +297,7 @@ items:
     UpgradeCost: 75
     WarpSBonus: 25
     id: 26322
+    marketGroup: 1212
     name: Large Hyperspatial Velocity Optimizer II
     volume: 20.0
   Large Low Friction Nozzle Joints I:
@@ -282,6 +308,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26058
+    marketGroup: 1212
     name: Large Low Friction Nozzle Joints I
     volume: 20.0
   Large Low Friction Nozzle Joints II:
@@ -293,6 +320,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26310
+    marketGroup: 1212
     name: Large Low Friction Nozzle Joints II
     volume: 20.0
   Large Polycarbon Engine Housing I:
@@ -304,6 +332,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26070
+    marketGroup: 1212
     name: Large Polycarbon Engine Housing I
     volume: 20.0
   Large Polycarbon Engine Housing II:
@@ -316,6 +345,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26312
+    marketGroup: 1212
     name: Large Polycarbon Engine Housing II
     volume: 20.0
   Large Warp Core Optimizer I:
@@ -326,6 +356,7 @@ items:
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
     id: 26066
+    marketGroup: 1212
     name: Large Warp Core Optimizer I
     volume: 20.0
   Large Warp Core Optimizer II:
@@ -337,6 +368,7 @@ items:
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
     id: 26320
+    marketGroup: 1212
     name: Large Warp Core Optimizer II
     volume: 20.0
   Medium Auxiliary Thrusters I:
@@ -347,6 +379,7 @@ items:
     UpgradeCost: 100
     VelocityBonus: 7.25
     id: 31107
+    marketGroup: 1211
     name: Medium Auxiliary Thrusters I
     volume: 10.0
   Medium Auxiliary Thrusters II:
@@ -358,6 +391,7 @@ items:
     UpgradeCost: 150
     VelocityBonus: 8.75
     id: 31113
+    marketGroup: 1211
     name: Medium Auxiliary Thrusters II
     volume: 10.0
   Medium Cargohold Optimization I:
@@ -368,6 +402,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31119
+    marketGroup: 1211
     name: Medium Cargohold Optimization I
     volume: 10.0
   Medium Cargohold Optimization II:
@@ -379,6 +414,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31125
+    marketGroup: 1211
     name: Medium Cargohold Optimization II
     volume: 10.0
   Medium Dynamic Fuel Valve I:
@@ -389,6 +425,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31131
+    marketGroup: 1211
     name: Medium Dynamic Fuel Valve I
     volume: 10.0
   Medium Dynamic Fuel Valve II:
@@ -400,6 +437,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31137
+    marketGroup: 1211
     name: Medium Dynamic Fuel Valve II
     volume: 10.0
   Medium Engine Thermal Shielding I:
@@ -410,6 +448,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31143
+    marketGroup: 1211
     name: Medium Engine Thermal Shielding I
     volume: 10.0
   Medium Engine Thermal Shielding II:
@@ -421,6 +460,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31149
+    marketGroup: 1211
     name: Medium Engine Thermal Shielding II
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer I:
@@ -431,6 +471,7 @@ items:
     UpgradeCost: 50
     WarpSBonus: 20
     id: 31161
+    marketGroup: 1211
     name: Medium Hyperspatial Velocity Optimizer I
     volume: 10.0
   Medium Hyperspatial Velocity Optimizer II:
@@ -442,6 +483,7 @@ items:
     UpgradeCost: 75
     WarpSBonus: 25
     id: 31167
+    marketGroup: 1211
     name: Medium Hyperspatial Velocity Optimizer II
     volume: 10.0
   Medium Low Friction Nozzle Joints I:
@@ -452,6 +494,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31155
+    marketGroup: 1211
     name: Medium Low Friction Nozzle Joints I
     volume: 10.0
   Medium Low Friction Nozzle Joints II:
@@ -463,6 +506,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31173
+    marketGroup: 1211
     name: Medium Low Friction Nozzle Joints II
     volume: 10.0
   Medium Polycarbon Engine Housing I:
@@ -474,6 +518,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31179
+    marketGroup: 1211
     name: Medium Polycarbon Engine Housing I
     volume: 10.0
   Medium Polycarbon Engine Housing II:
@@ -486,6 +531,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31185
+    marketGroup: 1211
     name: Medium Polycarbon Engine Housing II
     volume: 10.0
   Medium Warp Core Optimizer I:
@@ -496,6 +542,7 @@ items:
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
     id: 31191
+    marketGroup: 1211
     name: Medium Warp Core Optimizer I
     volume: 10.0
   Medium Warp Core Optimizer II:
@@ -507,6 +554,7 @@ items:
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
     id: 31197
+    marketGroup: 1211
     name: Medium Warp Core Optimizer II
     volume: 10.0
   Propellant Injection Vent I:
@@ -536,6 +584,7 @@ items:
     UpgradeCost: 100
     VelocityBonus: 7.25
     id: 31105
+    marketGroup: 1210
     name: Small Auxiliary Thrusters I
     volume: 5.0
   Small Auxiliary Thrusters II:
@@ -547,6 +596,7 @@ items:
     UpgradeCost: 150
     VelocityBonus: 8.75
     id: 31111
+    marketGroup: 1210
     name: Small Auxiliary Thrusters II
     volume: 5.0
   Small Cargohold Optimization I:
@@ -557,6 +607,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31117
+    marketGroup: 1210
     name: Small Cargohold Optimization I
     volume: 5.0
   Small Cargohold Optimization II:
@@ -568,6 +619,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31123
+    marketGroup: 1210
     name: Small Cargohold Optimization II
     volume: 5.0
   Small Dynamic Fuel Valve I:
@@ -578,6 +630,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31129
+    marketGroup: 1210
     name: Small Dynamic Fuel Valve I
     volume: 5.0
   Small Dynamic Fuel Valve II:
@@ -589,6 +642,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31135
+    marketGroup: 1210
     name: Small Dynamic Fuel Valve II
     volume: 5.0
   Small Engine Thermal Shielding I:
@@ -599,6 +653,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31141
+    marketGroup: 1210
     name: Small Engine Thermal Shielding I
     volume: 5.0
   Small Engine Thermal Shielding II:
@@ -610,6 +665,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31147
+    marketGroup: 1210
     name: Small Engine Thermal Shielding II
     volume: 5.0
   Small Hyperspatial Velocity Optimizer I:
@@ -620,6 +676,7 @@ items:
     UpgradeCost: 50
     WarpSBonus: 20
     id: 31159
+    marketGroup: 1210
     name: Small Hyperspatial Velocity Optimizer I
     volume: 5.0
   Small Hyperspatial Velocity Optimizer II:
@@ -631,6 +688,7 @@ items:
     UpgradeCost: 75
     WarpSBonus: 25
     id: 31165
+    marketGroup: 1210
     name: Small Hyperspatial Velocity Optimizer II
     volume: 5.0
   Small Low Friction Nozzle Joints I:
@@ -641,6 +699,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31153
+    marketGroup: 1210
     name: Small Low Friction Nozzle Joints I
     volume: 5.0
   Small Low Friction Nozzle Joints II:
@@ -652,6 +711,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31171
+    marketGroup: 1210
     name: Small Low Friction Nozzle Joints II
     volume: 5.0
   Small Polycarbon Engine Housing I:
@@ -663,6 +723,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31177
+    marketGroup: 1210
     name: Small Polycarbon Engine Housing I
     volume: 5.0
   Small Polycarbon Engine Housing II:
@@ -675,6 +736,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31183
+    marketGroup: 1210
     name: Small Polycarbon Engine Housing II
     volume: 5.0
   Small Warp Core Optimizer I:
@@ -685,6 +747,7 @@ items:
     UpgradeCost: 50
     WarpCapacitorNeedBonus: -40
     id: 31189
+    marketGroup: 1210
     name: Small Warp Core Optimizer I
     volume: 5.0
   Small Warp Core Optimizer II:
@@ -696,5 +759,6 @@ items:
     UpgradeCost: 75
     WarpCapacitorNeedBonus: -50
     id: 31195
+    marketGroup: 1210
     name: Small Warp Core Optimizer II
     volume: 5.0

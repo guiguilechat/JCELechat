@@ -33,12 +33,14 @@ items:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
     id: 12109
+    marketGroup: 338
     name: Deep Core Mining Laser I Blueprint
     volume: 0.01
   Gas Cloud Harvester I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 25267
+    marketGroup: 338
     name: Gas Cloud Harvester I Blueprint
     volume: 0.01
   Gas Cloud Harvester II Blueprint:
@@ -50,6 +52,7 @@ items:
   Ice Mining Laser I Blueprint:
     TechLevel: 1
     id: 38660
+    marketGroup: 338
     name: Ice Mining Laser I Blueprint
     volume: 0.01
   Ice Mining Laser II Blueprint:
@@ -61,6 +64,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 785
+    marketGroup: 338
     name: Miner I Blueprint
     volume: 0.01
   Miner II Blueprint:

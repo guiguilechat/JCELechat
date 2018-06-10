@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46316
+    marketGroup: 2401
     name: Bountiful Loparite
     volume: 10.0
   Bountiful Monazite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46314
+    marketGroup: 2401
     name: Bountiful Monazite
     volume: 10.0
   Bountiful Xenotime:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46312
+    marketGroup: 2401
     name: Bountiful Xenotime
     volume: 10.0
   Bountiful Ytterbite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46318
+    marketGroup: 2401
     name: Bountiful Ytterbite
     volume: 10.0
   Loparite:
@@ -52,6 +56,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 45512
+    marketGroup: 2401
     name: Loparite
     volume: 10.0
   Monazite:
@@ -63,6 +68,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 45511
+    marketGroup: 2401
     name: Monazite
     volume: 10.0
   Shining Loparite:
@@ -74,6 +80,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46317
+    marketGroup: 2401
     name: Shining Loparite
     volume: 10.0
   Shining Monazite:
@@ -85,6 +92,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46315
+    marketGroup: 2401
     name: Shining Monazite
     volume: 10.0
   Shining Xenotime:
@@ -96,6 +104,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46313
+    marketGroup: 2401
     name: Shining Xenotime
     volume: 10.0
   Shining Ytterbite:
@@ -107,6 +116,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 46319
+    marketGroup: 2401
     name: Shining Ytterbite
     volume: 10.0
   Xenotime:
@@ -118,6 +128,7 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 45510
+    marketGroup: 2401
     name: Xenotime
     volume: 10.0
   Ytterbite:
@@ -129,5 +140,6 @@ items:
     ReprocessingSkillType: 46156
     RequiredSkill1: 3386
     id: 45513
+    marketGroup: 2401
     name: Ytterbite
     volume: 10.0

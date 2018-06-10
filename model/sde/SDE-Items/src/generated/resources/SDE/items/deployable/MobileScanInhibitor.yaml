@@ -17,6 +17,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33589
+    marketGroup: 1845
     name: Mobile Scan Inhibitor
     volume: 100.0
   Tournament Practice Unit:

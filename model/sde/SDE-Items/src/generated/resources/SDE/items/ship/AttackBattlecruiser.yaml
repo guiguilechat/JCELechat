@@ -71,6 +71,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 4306
+    marketGroup: 471
     name: Naga
     volume: 252000.0
   Oracle:
@@ -145,6 +146,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 4302
+    marketGroup: 470
     name: Oracle
     volume: 234000.0
   Talos:
@@ -221,6 +223,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 4308
+    marketGroup: 472
     name: Talos
     volume: 270000.0
   Tornado:
@@ -295,5 +298,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 2.700000047683716
     id: 4310
+    marketGroup: 473
     name: Tornado
     volume: 216000.0

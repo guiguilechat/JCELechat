@@ -80,6 +80,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
     id: 12034
+    marketGroup: 424
     name: Hound
     volume: 28100.0
   Manticore:
@@ -163,6 +164,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
     id: 12032
+    marketGroup: 422
     name: Manticore
     volume: 28100.0
   Nemesis:
@@ -246,6 +248,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
     id: 11377
+    marketGroup: 423
     name: Nemesis
     volume: 28100.0
   Purifier:
@@ -328,6 +331,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
     id: 12038
+    marketGroup: 421
     name: Purifier
     volume: 28100.0
   Virtuoso:
@@ -423,5 +427,6 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 4.5
     id: 45530
+    marketGroup: 1838
     name: Virtuoso
     volume: 28100.0

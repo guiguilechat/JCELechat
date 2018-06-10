@@ -23,6 +23,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 46577
+    marketGroup: 2211
     name: Dread Guristas Standup Variable Spectrum ECM
     volume: 4000.0
   Standup Variable Spectrum ECM I:
@@ -47,6 +48,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35940
+    marketGroup: 2211
     name: Standup Variable Spectrum ECM I
     volume: 4000.0
   Standup Variable Spectrum ECM II:
@@ -72,5 +74,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47338
+    marketGroup: 2211
     name: Standup Variable Spectrum ECM II
     volume: 4000.0

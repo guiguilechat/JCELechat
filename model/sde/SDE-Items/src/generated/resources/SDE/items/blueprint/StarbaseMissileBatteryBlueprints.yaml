@@ -2,6 +2,7 @@ items:
   Cruise Missile Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2823
+    marketGroup: 1349
     name: Cruise Missile Battery Blueprint
     volume: 0.01
   Dread Guristas Cruise Missile Battery Blueprint:
@@ -37,10 +38,12 @@ items:
   Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2824
+    marketGroup: 1349
     name: Torpedo Battery Blueprint
     volume: 0.01
   XL Torpedo Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2822
+    marketGroup: 1349
     name: XL Torpedo Battery Blueprint
     volume: 0.01

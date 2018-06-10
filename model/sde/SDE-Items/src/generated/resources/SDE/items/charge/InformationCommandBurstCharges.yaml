@@ -10,6 +10,7 @@ items:
     WarfareBuff2ID: 19
     WarfareBuff2Multiplier: -9
     id: 42837
+    marketGroup: 2299
     name: Electronic Hardening Charge
     volume: 0.01
   Electronic Superiority Charge:
@@ -21,6 +22,7 @@ items:
     WarfareBuff1ID: 17
     WarfareBuff1Multiplier: 9
     id: 42836
+    marketGroup: 2299
     name: Electronic Superiority Charge
     volume: 0.01
   Sensor Optimization Charge:
@@ -34,5 +36,6 @@ items:
     WarfareBuff2ID: 26
     WarfareBuff2Multiplier: 18
     id: 42835
+    marketGroup: 2299
     name: Sensor Optimization Charge
     volume: 0.01

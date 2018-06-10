@@ -83,6 +83,9 @@ public class ItemsTranslater {
 				Field volumeField = item.getClass().getField("volume");
 				volumeField.setAccessible(true);
 				volumeField.set(item, type.volume);
+				Field marketGroupField = item.getClass().getField("marketGroup");
+				marketGroupField.setAccessible(true);
+				marketGroupField.set(item, type.marketGroupID);
 			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e1) {
 				throw new UnsupportedOperationException("for class " + item.getClass(), e1);
 			}

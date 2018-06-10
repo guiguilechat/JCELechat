@@ -79,6 +79,7 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 22544
+    marketGroup: 874
     name: Hulk
     volume: 200000.0
   Mackinaw:
@@ -160,6 +161,7 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 22548
+    marketGroup: 874
     name: Mackinaw
     volume: 150000.0
   Mackinaw ORE Development Edition:
@@ -325,5 +327,6 @@ items:
     WarpCapacitorNeed: 3.330000026835478E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 22546
+    marketGroup: 874
     name: Skiff
     volume: 100000.0

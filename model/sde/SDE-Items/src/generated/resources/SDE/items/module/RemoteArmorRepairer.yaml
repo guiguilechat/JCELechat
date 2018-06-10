@@ -19,6 +19,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 22947
+    marketGroup: 1059
     name: '''Beatnik'' Small Remote Armor Repairer'
     volume: 5.0
   '''Brotherhood'' Small Remote Armor Repairer':
@@ -62,6 +63,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 22949
+    marketGroup: 1058
     name: '''Love'' Medium Remote Armor Repairer'
     volume: 10.0
   '''Pacifier'' Large Remote Armor Repairer':
@@ -104,6 +106,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23416
+    marketGroup: 1057
     name: '''Peace'' Large Remote Armor Repairer'
     volume: 25.0
   CONCORD Capital Remote Armor Repairer:
@@ -128,6 +131,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3536
+    marketGroup: 1056
     name: CONCORD Capital Remote Armor Repairer
     volume: 4000.0
   Capital Coaxial Compact Remote Armor Repairer:
@@ -151,6 +155,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41464
+    marketGroup: 1056
     name: Capital Coaxial Compact Remote Armor Repairer
     volume: 4000.0
   Capital I-ax Enduring Remote Armor Repairer:
@@ -174,6 +179,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41463
+    marketGroup: 1056
     name: Capital I-ax Enduring Remote Armor Repairer
     volume: 4000.0
   Capital Remote Armor Repairer I:
@@ -195,6 +201,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 24569
+    marketGroup: 1056
     name: Capital Remote Armor Repairer I
     volume: 4000.0
   Capital Remote Armor Repairer II:
@@ -218,6 +225,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 41466
+    marketGroup: 1056
     name: Capital Remote Armor Repairer II
     volume: 4000.0
   Capital Solace Scoped Remote Armor Repairer:
@@ -241,6 +249,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41465
+    marketGroup: 1056
     name: Capital Solace Scoped Remote Armor Repairer
     volume: 4000.0
   Centii A-Type Small Remote Armor Repairer:
@@ -263,6 +272,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19051
+    marketGroup: 1059
     name: Centii A-Type Small Remote Armor Repairer
     volume: 5.0
   Centii B-Type Small Remote Armor Repairer:
@@ -285,6 +295,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19049
+    marketGroup: 1059
     name: Centii B-Type Small Remote Armor Repairer
     volume: 5.0
   Centii C-Type Small Remote Armor Repairer:
@@ -307,6 +318,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19047
+    marketGroup: 1059
     name: Centii C-Type Small Remote Armor Repairer
     volume: 5.0
   Centum A-Type Medium Remote Armor Repairer:
@@ -329,6 +341,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19057
+    marketGroup: 1058
     name: Centum A-Type Medium Remote Armor Repairer
     volume: 10.0
   Centum B-Type Medium Remote Armor Repairer:
@@ -351,6 +364,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19055
+    marketGroup: 1058
     name: Centum B-Type Medium Remote Armor Repairer
     volume: 10.0
   Centum C-Type Medium Remote Armor Repairer:
@@ -373,6 +387,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19053
+    marketGroup: 1058
     name: Centum C-Type Medium Remote Armor Repairer
     volume: 10.0
   Civilian Small Remote Armor Repairer:
@@ -413,6 +428,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18985
+    marketGroup: 1059
     name: Coreli A-Type Small Remote Armor Repairer
     volume: 5.0
   Coreli B-Type Small Remote Armor Repairer:
@@ -435,6 +451,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18983
+    marketGroup: 1059
     name: Coreli B-Type Small Remote Armor Repairer
     volume: 5.0
   Coreli C-Type Small Remote Armor Repairer:
@@ -457,6 +474,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18981
+    marketGroup: 1059
     name: Coreli C-Type Small Remote Armor Repairer
     volume: 5.0
   Corelum A-Type Medium Remote Armor Repairer:
@@ -479,6 +497,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18991
+    marketGroup: 1058
     name: Corelum A-Type Medium Remote Armor Repairer
     volume: 10.0
   Corelum B-Type Medium Remote Armor Repairer:
@@ -501,6 +520,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18989
+    marketGroup: 1058
     name: Corelum B-Type Medium Remote Armor Repairer
     volume: 10.0
   Corelum C-Type Medium Remote Armor Repairer:
@@ -523,6 +543,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 18987
+    marketGroup: 1058
     name: Corelum C-Type Medium Remote Armor Repairer
     volume: 10.0
   Dark Blood Capital Remote Armor Repairer:
@@ -547,6 +568,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41467
+    marketGroup: 1056
     name: Dark Blood Capital Remote Armor Repairer
     volume: 4000.0
   Large 'Arup' Remote Armor Repairer:
@@ -587,6 +609,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16451
+    marketGroup: 1057
     name: Large Coaxial Compact Remote Armor Repairer
     volume: 25.0
   Large I-ax Enduring Remote Armor Repairer:
@@ -608,6 +631,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16449
+    marketGroup: 1057
     name: Large I-ax Enduring Remote Armor Repairer
     volume: 25.0
   Large Remote Armor Repairer I:
@@ -627,6 +651,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 11359
+    marketGroup: 1057
     name: Large Remote Armor Repairer I
     volume: 25.0
   Large Remote Armor Repairer II:
@@ -647,6 +672,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 26914
+    marketGroup: 1057
     name: Large Remote Armor Repairer II
     volume: 25.0
   Large Solace Scoped Remote Armor Repairer:
@@ -668,6 +694,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16455
+    marketGroup: 1057
     name: Large Solace Scoped Remote Armor Repairer
     volume: 25.0
   Medium 'Arup' Remote Armor Repairer:
@@ -709,6 +736,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16443
+    marketGroup: 1058
     name: Medium Coaxial Compact Remote Armor Repairer
     volume: 10.0
   Medium I-ax Enduring Remote Armor Repairer:
@@ -730,6 +758,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16441
+    marketGroup: 1058
     name: Medium I-ax Enduring Remote Armor Repairer
     volume: 10.0
   Medium Remote Armor Repairer I:
@@ -750,6 +779,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 11357
+    marketGroup: 1058
     name: Medium Remote Armor Repairer I
     volume: 10.0
   Medium Remote Armor Repairer II:
@@ -771,6 +801,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 26913
+    marketGroup: 1058
     name: Medium Remote Armor Repairer II
     volume: 10.0
   Medium Solace Scoped Remote Armor Repairer:
@@ -792,6 +823,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16447
+    marketGroup: 1058
     name: Medium Solace Scoped Remote Armor Repairer
     volume: 10.0
   Shadow Serpentis Capital Remote Armor Repairer:
@@ -816,6 +848,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41468
+    marketGroup: 1056
     name: Shadow Serpentis Capital Remote Armor Repairer
     volume: 4000.0
   Small 'Arup' Remote Armor Repairer:
@@ -857,6 +890,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16435
+    marketGroup: 1059
     name: Small Coaxial Compact Remote Armor Repairer
     volume: 5.0
   Small I-ax Enduring Remote Armor Repairer:
@@ -878,6 +912,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16433
+    marketGroup: 1059
     name: Small I-ax Enduring Remote Armor Repairer
     volume: 5.0
   Small Remote Armor Repairer I:
@@ -898,6 +933,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 11355
+    marketGroup: 1059
     name: Small Remote Armor Repairer I
     volume: 5.0
   Small Remote Armor Repairer II:
@@ -919,6 +955,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 26912
+    marketGroup: 1059
     name: Small Remote Armor Repairer II
     volume: 5.0
   Small Solace Scoped Remote Armor Repairer:
@@ -940,5 +977,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16439
+    marketGroup: 1059
     name: Small Solace Scoped Remote Armor Repairer
     volume: 5.0

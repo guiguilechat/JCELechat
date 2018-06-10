@@ -28,6 +28,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 28430
+    marketGroup: 518
     name: Compressed Concentrated Veldspar
     volume: 0.15
   Compressed Dense Veldspar:
@@ -39,6 +40,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 28431
+    marketGroup: 518
     name: Compressed Dense Veldspar
     volume: 0.15
   Compressed Stable Veldspar:
@@ -50,6 +52,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 46705
+    marketGroup: 518
     name: Compressed Stable Veldspar
     volume: 0.15
   Compressed Veldspar:
@@ -61,6 +64,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 28432
+    marketGroup: 518
     name: Compressed Veldspar
     volume: 0.15
   Concentrated Veldspar:
@@ -74,6 +78,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 17470
+    marketGroup: 518
     name: Concentrated Veldspar
     volume: 0.1
   Dense Veldspar:
@@ -87,6 +92,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 17471
+    marketGroup: 518
     name: Dense Veldspar
     volume: 0.1
   Stable Veldspar:
@@ -100,6 +106,7 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 46689
+    marketGroup: 518
     name: Stable Veldspar
     volume: 0.1
   Veldspar:
@@ -113,5 +120,6 @@ items:
     ReprocessingSkillType: 12195
     RequiredSkill1: 3386
     id: 1230
+    marketGroup: 518
     name: Veldspar
     volume: 0.1

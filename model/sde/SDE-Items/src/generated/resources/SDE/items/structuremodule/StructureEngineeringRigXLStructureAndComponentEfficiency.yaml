@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43704
+    marketGroup: 2349
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
     volume: 40.0
   Standup XL-Set Structure and Component Manufacturing Efficiency II:
@@ -37,6 +38,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 43705
+    marketGroup: 2349
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
     volume: 40.0
   Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
@@ -59,5 +61,6 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 45548
+    marketGroup: 2349
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
     volume: 40.0

@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 28400
+    marketGroup: 527
     name: Compressed Glazed Hedbergite
     volume: 0.47
   Compressed Hedbergite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 28401
+    marketGroup: 527
     name: Compressed Hedbergite
     volume: 0.47
   Compressed Lustrous Hedbergite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 46696
+    marketGroup: 527
     name: Compressed Lustrous Hedbergite
     volume: 0.47
   Compressed Vitric Hedbergite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 28402
+    marketGroup: 527
     name: Compressed Vitric Hedbergite
     volume: 0.47
   Glazed Hedbergite:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 17441
+    marketGroup: 527
     name: Glazed Hedbergite
     volume: 3.0
   Hedbergite:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 21
+    marketGroup: 527
     name: Hedbergite
     volume: 3.0
   Lustrous Hedbergite:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 46680
+    marketGroup: 527
     name: Lustrous Hedbergite
     volume: 3.0
   Vitric Hedbergite:
@@ -93,5 +100,6 @@ items:
     ReprocessingSkillType: 12185
     RequiredSkill1: 3386
     id: 17440
+    marketGroup: 527
     name: Vitric Hedbergite
     volume: 3.0

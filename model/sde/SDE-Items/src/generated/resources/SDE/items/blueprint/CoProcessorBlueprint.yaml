@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11619
+    marketGroup: 1584
     name: Co-Processor I Blueprint
     volume: 0.01
   Co-Processor II Blueprint:

@@ -3,47 +3,55 @@ items:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12732
+    marketGroup: 636
     name: Bustard Blueprint
     volume: 0.01
   Crane Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12730
+    marketGroup: 636
     name: Crane Blueprint
     volume: 0.01
   Impel Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12754
+    marketGroup: 635
     name: Impel Blueprint
     volume: 0.01
   Mastodon Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12748
+    marketGroup: 638
     name: Mastodon Blueprint
     volume: 0.01
   Occator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12746
+    marketGroup: 637
     name: Occator Blueprint
     volume: 0.01
   Prorator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12734
+    marketGroup: 635
     name: Prorator Blueprint
     volume: 0.01
   Prowler Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12736
+    marketGroup: 638
     name: Prowler Blueprint
     volume: 0.01
   Viator Blueprint:
     IndustryBlueprintRank: 800.0
     TechLevel: 2
     id: 12744
+    marketGroup: 637
     name: Viator Blueprint
     volume: 0.01

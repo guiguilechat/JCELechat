@@ -38,6 +38,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27182
+    marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-701
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-703:
@@ -47,6 +48,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27176
+    marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-703
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-705:
@@ -56,6 +58,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 27181
+    marketGroup: 1485
     name: Zainou 'Beancounter' Metallurgy MY-705
     volume: 1.0
   Zainou 'Beancounter' Research RR-601:
@@ -65,6 +68,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27180
+    marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
     volume: 1.0
   Zainou 'Beancounter' Research RR-603:
@@ -74,6 +78,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27177
+    marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
     volume: 1.0
   Zainou 'Beancounter' Research RR-605:
@@ -83,6 +88,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 27179
+    marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
     volume: 1.0
   Zainou 'Beancounter' Science SC-801:
@@ -92,6 +98,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27185
+    marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
     volume: 1.0
   Zainou 'Beancounter' Science SC-803:
@@ -101,6 +108,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 27178
+    marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
     volume: 1.0
   Zainou 'Beancounter' Science SC-805:
@@ -110,5 +118,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 27184
+    marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
     volume: 1.0

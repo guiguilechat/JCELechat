@@ -17,6 +17,7 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 23000.0
     id: 37845
+    marketGroup: 2197
     name: Standup AXL-SR Missile
     volume: 0.5
   Standup Super-heavy Torpedo:
@@ -38,6 +39,7 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 18000.0
     id: 37843
+    marketGroup: 2197
     name: Standup Super-heavy Torpedo
     volume: 0.5
   Standup XL Cruise Missile:
@@ -59,5 +61,6 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 12000.0
     id: 37844
+    marketGroup: 2197
     name: Standup XL Cruise Missile
     volume: 0.5

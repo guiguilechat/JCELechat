@@ -39,24 +39,28 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41226
+    marketGroup: 340
     name: Arbalest Compact Rapid Torpedo Launcher Blueprint
     volume: 0.01
   Arbalest Compact XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41177
+    marketGroup: 340
     name: Arbalest Compact XL Cruise Missile Launcher Blueprint
     volume: 0.01
   Arbalest Compact XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41183
+    marketGroup: 340
     name: Arbalest Compact XL Torpedo Launcher Blueprint
     volume: 0.01
   Bomb Launcher I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 27915
+    marketGroup: 1019
     name: Bomb Launcher I Blueprint
     volume: 0.01
   Bomb Launcher II Blueprint:
@@ -113,6 +117,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 13321
+    marketGroup: 340
     name: Cruise Missile Launcher I Blueprint
     volume: 0.01
   Cruise Missile Launcher II Blueprint:
@@ -124,6 +129,7 @@ items:
   Defender Launcher I Blueprint:
     TechLevel: 1
     id: 44103
+    marketGroup: 340
     name: Defender Launcher I Blueprint
     volume: 0.01
   Demo Probe Launcher Blueprint:
@@ -169,6 +175,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 26759
+    marketGroup: 340
     name: Heavy Assault Missile Launcher I Blueprint
     volume: 0.01
   Heavy Assault Missile Launcher II Blueprint:
@@ -181,6 +188,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 788
+    marketGroup: 340
     name: Heavy Missile Launcher I Blueprint
     volume: 0.01
   Heavy Missile Launcher II Blueprint:
@@ -193,6 +201,7 @@ items:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 22783
+    marketGroup: 1940
     name: Interdiction Sphere Launcher I Blueprint
     volume: 0.01
   Khanid Navy Heavy Assault Missile Launcher Blueprint:
@@ -211,6 +220,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 786
+    marketGroup: 340
     name: Light Missile Launcher I Blueprint
     volume: 0.01
   Light Missile Launcher II Blueprint:
@@ -244,6 +254,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 33449
+    marketGroup: 340
     name: Rapid Heavy Missile Launcher I Blueprint
     volume: 0.01
   Rapid Heavy Missile Launcher II Blueprint:
@@ -256,6 +267,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1876
+    marketGroup: 340
     name: Rapid Light Missile Launcher I Blueprint
     volume: 0.01
   Rapid Light Missile Launcher II Blueprint:
@@ -268,6 +280,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 41225
+    marketGroup: 340
     name: Rapid Torpedo Launcher I Blueprint
     volume: 0.01
   Rapid Torpedo Launcher II Blueprint:
@@ -304,6 +317,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 10630
+    marketGroup: 340
     name: Rocket Launcher I Blueprint
     volume: 0.01
   Rocket Launcher II Blueprint:
@@ -316,24 +330,28 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41227
+    marketGroup: 340
     name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
     volume: 0.01
   TE-2100 Ample XL Cruise Missile Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41178
+    marketGroup: 340
     name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
     volume: 0.01
   TE-2100 Ample XL Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41184
+    marketGroup: 340
     name: TE-2100 Ample XL Torpedo Launcher Blueprint
     volume: 0.01
   Torpedo Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 790
+    marketGroup: 340
     name: Torpedo Launcher I Blueprint
     volume: 0.01
   Torpedo Launcher II Blueprint:
@@ -352,6 +370,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 32445
+    marketGroup: 340
     name: XL Cruise Missile Launcher I Blueprint
     volume: 0.01
   XL Cruise Missile Launcher II Blueprint:
@@ -364,6 +383,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 20540
+    marketGroup: 340
     name: XL Torpedo Launcher I Blueprint
     volume: 0.01
   XL Torpedo Launcher II Blueprint:

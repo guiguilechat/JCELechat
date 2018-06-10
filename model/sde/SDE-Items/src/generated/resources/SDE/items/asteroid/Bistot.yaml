@@ -10,6 +10,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 1223
+    marketGroup: 514
     name: Bistot
     volume: 16.0
   Compressed Bistot:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 28388
+    marketGroup: 514
     name: Compressed Bistot
     volume: 4.4
   Compressed Cubic Bistot:
@@ -32,6 +34,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 46692
+    marketGroup: 514
     name: Compressed Cubic Bistot
     volume: 4.4
   Compressed Monoclinic Bistot:
@@ -43,6 +46,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 28389
+    marketGroup: 514
     name: Compressed Monoclinic Bistot
     volume: 4.4
   Compressed Triclinic Bistot:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 28390
+    marketGroup: 514
     name: Compressed Triclinic Bistot
     volume: 4.4
   Cubic Bistot:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 46676
+    marketGroup: 514
     name: Cubic Bistot
     volume: 16.0
   Monoclinic Bistot:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 17429
+    marketGroup: 514
     name: Monoclinic Bistot
     volume: 16.0
   Triclinic Bistot:
@@ -93,5 +100,6 @@ items:
     ReprocessingSkillType: 12181
     RequiredSkill1: 3386
     id: 17428
+    marketGroup: 514
     name: Triclinic Bistot
     volume: 16.0

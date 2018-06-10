@@ -62,21 +62,25 @@ items:
   Large Beam Laser Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2830
+    marketGroup: 1348
     name: Large Beam Laser Battery Blueprint
     volume: 0.01
   Large Pulse Laser Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2829
+    marketGroup: 1348
     name: Large Pulse Laser Battery Blueprint
     volume: 0.01
   Medium Beam Laser Battery Blueprint:
     IndustryBlueprintRank: 30.0
     id: 2828
+    marketGroup: 1348
     name: Medium Beam Laser Battery Blueprint
     volume: 0.01
   Medium Pulse Laser Battery Blueprint:
     IndustryBlueprintRank: 30.0
     id: 2827
+    marketGroup: 1348
     name: Medium Pulse Laser Battery Blueprint
     volume: 0.01
   Sansha Large Beam Laser Battery Blueprint:
@@ -112,11 +116,13 @@ items:
   Small Beam Laser Battery Blueprint:
     IndustryBlueprintRank: 20.0
     id: 2826
+    marketGroup: 1348
     name: Small Beam Laser Battery Blueprint
     volume: 0.01
   Small Pulse Laser Battery Blueprint:
     IndustryBlueprintRank: 20.0
     id: 2825
+    marketGroup: 1348
     name: Small Pulse Laser Battery Blueprint
     volume: 0.01
   True Sansha Large Beam Laser Battery Blueprint:

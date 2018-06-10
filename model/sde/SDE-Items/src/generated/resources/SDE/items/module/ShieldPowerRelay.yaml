@@ -12,6 +12,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 1419
+    marketGroup: 688
     name: '''Basic'' Shield Power Relay'
     volume: 5.0
   Alpha Reactor Shield Power Relay:
@@ -55,6 +56,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 37820
+    marketGroup: 688
     name: Caldari Navy Shield Power Relay
     volume: 5.0
   'Local Power Plant Manager: Reaction Shield Power Relay I':
@@ -84,6 +86,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 8337
+    marketGroup: 688
     name: Mark I Compact Shield Power Relay
     volume: 5.0
   'Marked Generator Refitting: Shield Power Relay':
@@ -123,6 +126,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 2331
+    marketGroup: 688
     name: Shield Power Relay I
     volume: 5.0
   Shield Power Relay II:
@@ -138,6 +142,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 2
     id: 1422
+    marketGroup: 688
     name: Shield Power Relay II
     volume: 5.0
   Type-D Restrained Shield Power Relay:
@@ -153,6 +158,7 @@ items:
     ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 8335
+    marketGroup: 688
     name: Type-D Restrained Shield Power Relay
     volume: 5.0
   'Type-E Power Core Modification: Shield Power Relay':

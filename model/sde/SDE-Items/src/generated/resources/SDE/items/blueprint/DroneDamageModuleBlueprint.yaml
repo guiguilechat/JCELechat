@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 4394
+    marketGroup: 939
     name: Drone Damage Amplifier I Blueprint
     volume: 0.01
   Drone Damage Amplifier II Blueprint:

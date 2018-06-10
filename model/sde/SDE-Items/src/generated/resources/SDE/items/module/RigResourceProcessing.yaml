@@ -7,6 +7,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31087
+    marketGroup: 1785
     name: Capital Salvage Tackle I
     volume: 40.0
   Capital Salvage Tackle II:
@@ -18,6 +19,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31093
+    marketGroup: 1785
     name: Capital Salvage Tackle II
     volume: 40.0
   Large Salvage Tackle I:
@@ -28,6 +30,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 25902
+    marketGroup: 1784
     name: Large Salvage Tackle I
     volume: 20.0
   Large Salvage Tackle II:
@@ -39,6 +42,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26300
+    marketGroup: 1784
     name: Large Salvage Tackle II
     volume: 20.0
   Medium Ice Harvester Accelerator I:
@@ -49,6 +53,7 @@ items:
     TechLevel: 1
     UpgradeCost: 250
     id: 32819
+    marketGroup: 1783
     name: Medium Ice Harvester Accelerator I
     volume: 10.0
   Medium Mercoxit Mining Crystal Optimization I:
@@ -59,6 +64,7 @@ items:
     TechLevel: 1
     UpgradeCost: 250
     id: 32817
+    marketGroup: 1783
     name: Medium Mercoxit Mining Crystal Optimization I
     volume: 10.0
   Medium Salvage Tackle I:
@@ -69,6 +75,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31085
+    marketGroup: 1783
     name: Medium Salvage Tackle I
     volume: 10.0
   Medium Salvage Tackle II:
@@ -80,6 +87,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31091
+    marketGroup: 1783
     name: Medium Salvage Tackle II
     volume: 10.0
   Small Salvage Tackle I:
@@ -90,6 +98,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31083
+    marketGroup: 1782
     name: Small Salvage Tackle I
     volume: 5.0
   Small Salvage Tackle II:
@@ -101,5 +110,6 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31089
+    marketGroup: 1782
     name: Small Salvage Tackle II
     volume: 5.0

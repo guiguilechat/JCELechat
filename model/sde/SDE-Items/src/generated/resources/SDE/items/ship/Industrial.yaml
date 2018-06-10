@@ -72,6 +72,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 648
+    marketGroup: 84
     name: Badger
     volume: 250000.0
   Bestower:
@@ -146,6 +147,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 1944
+    marketGroup: 85
     name: Bestower
     volume: 260000.0
   Bestower Tash-Murkon Edition:
@@ -296,6 +298,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 655
+    marketGroup: 83
     name: Epithal
     volume: 250000.0
   Hoarder:
@@ -371,6 +374,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 651
+    marketGroup: 82
     name: Hoarder
     volume: 400000.0
   Iteron Inner Zone Shipping Edition:
@@ -519,6 +523,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 657
+    marketGroup: 83
     name: Iteron Mark V
     volume: 275000.0
   Kryos:
@@ -594,6 +599,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 654
+    marketGroup: 83
     name: Kryos
     volume: 245000.0
   Mammoth:
@@ -668,6 +674,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 652
+    marketGroup: 82
     name: Mammoth
     volume: 255000.0
   Mammoth Nefantar Edition:
@@ -817,6 +824,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 656
+    marketGroup: 83
     name: Miasmos
     volume: 265000.0
   Miasmos Amastris Edition:
@@ -891,6 +899,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 32811
+    marketGroup: 1614
     name: Miasmos Amastris Edition
     volume: 265000.0
   Miasmos Quafe Ultra Edition:
@@ -965,6 +974,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 4363
+    marketGroup: 1614
     name: Miasmos Quafe Ultra Edition
     volume: 265000.0
   Miasmos Quafe Ultramarine Edition:
@@ -1039,6 +1049,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 4388
+    marketGroup: 1614
     name: Miasmos Quafe Ultramarine Edition
     volume: 265000.0
   Nereus:
@@ -1115,6 +1126,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 650
+    marketGroup: 83
     name: Nereus
     volume: 240000.0
   Noctis:
@@ -1195,6 +1207,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 2998
+    marketGroup: 1390
     name: Noctis
     volume: 270000.0
   Primae:
@@ -1260,6 +1273,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 2863
+    marketGroup: 1614
     name: Primae
     volume: 270000.0
   Sigil:
@@ -1334,6 +1348,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 19744
+    marketGroup: 85
     name: Sigil
     volume: 230000.0
   Tayra:
@@ -1409,6 +1424,7 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 3.0
     id: 649
+    marketGroup: 84
     name: Tayra
     volume: 270000.0
   Tayra Wiyrkomi Edition:
@@ -1558,5 +1574,6 @@ items:
     WarpCapacitorNeed: 1.0891100288290545E-7
     WarpSpeedMultiplier: 4.5
     id: 653
+    marketGroup: 82
     name: Wreathe
     volume: 225000.0

@@ -9,6 +9,7 @@ items:
     RequiredSkill1: 11444
     RequiredSkill1Level: 1
     id: 20421
+    marketGroup: 1880
     name: Datacore - Amarrian Starship Engineering
     volume: 0.1
   Datacore - Basic Civilian Tech:
@@ -21,30 +22,35 @@ items:
     RequiredSkill1: 11454
     RequiredSkill1Level: 1
     id: 25887
+    marketGroup: 1880
     name: Datacore - Caldari Starship Engineering
     volume: 0.1
   Datacore - Core Subsystems Engineering:
     RequiredSkill1: 30325
     RequiredSkill1Level: 1
     id: 20115
+    marketGroup: 1880
     name: Datacore - Core Subsystems Engineering
     volume: 0.1
   Datacore - Defensive Subsystems Engineering:
     RequiredSkill1: 30324
     RequiredSkill1Level: 1
     id: 11496
+    marketGroup: 1880
     name: Datacore - Defensive Subsystems Engineering
     volume: 0.1
   Datacore - Electromagnetic Physics:
     RequiredSkill1: 11448
     RequiredSkill1Level: 1
     id: 20417
+    marketGroup: 1880
     name: Datacore - Electromagnetic Physics
     volume: 0.1
   Datacore - Electronic Engineering:
     RequiredSkill1: 11453
     RequiredSkill1Level: 1
     id: 20418
+    marketGroup: 1880
     name: Datacore - Electronic Engineering
     volume: 0.1
   Datacore - Electronic Subsystems Engineering:
@@ -63,24 +69,28 @@ items:
     RequiredSkill1: 11450
     RequiredSkill1Level: 1
     id: 20410
+    marketGroup: 1880
     name: Datacore - Gallentean Starship Engineering
     volume: 0.1
   Datacore - Graviton Physics:
     RequiredSkill1: 11446
     RequiredSkill1Level: 1
     id: 20419
+    marketGroup: 1880
     name: Datacore - Graviton Physics
     volume: 0.1
   Datacore - High Energy Physics:
     RequiredSkill1: 11433
     RequiredSkill1Level: 1
     id: 20411
+    marketGroup: 1880
     name: Datacore - High Energy Physics
     volume: 0.1
   Datacore - Hydromagnetic Physics:
     RequiredSkill1: 11443
     RequiredSkill1Level: 1
     id: 20171
+    marketGroup: 1880
     name: Datacore - Hydromagnetic Physics
     volume: 0.1
   Datacore - Jove Tech 1:
@@ -92,66 +102,77 @@ items:
     RequiredSkill1: 11447
     RequiredSkill1Level: 1
     id: 20413
+    marketGroup: 1880
     name: Datacore - Laser Physics
     volume: 0.1
   Datacore - Mechanical Engineering:
     RequiredSkill1: 11452
     RequiredSkill1Level: 1
     id: 20424
+    marketGroup: 1880
     name: Datacore - Mechanical Engineering
     volume: 0.1
   Datacore - Minmatar Starship Engineering:
     RequiredSkill1: 11445
     RequiredSkill1Level: 1
     id: 20172
+    marketGroup: 1880
     name: Datacore - Minmatar Starship Engineering
     volume: 0.1
   Datacore - Molecular Engineering:
     RequiredSkill1: 11529
     RequiredSkill1Level: 1
     id: 20415
+    marketGroup: 1880
     name: Datacore - Molecular Engineering
     volume: 0.1
   Datacore - Nanite Engineering:
     RequiredSkill1: 11442
     RequiredSkill1Level: 1
     id: 20416
+    marketGroup: 1880
     name: Datacore - Nanite Engineering
     volume: 0.1
   Datacore - Nuclear Physics:
     RequiredSkill1: 11451
     RequiredSkill1Level: 1
     id: 20423
+    marketGroup: 1880
     name: Datacore - Nuclear Physics
     volume: 0.1
   Datacore - Offensive Subsystems Engineering:
     RequiredSkill1: 30327
     RequiredSkill1Level: 1
     id: 20425
+    marketGroup: 1880
     name: Datacore - Offensive Subsystems Engineering
     volume: 0.1
   Datacore - Plasma Physics:
     RequiredSkill1: 11441
     RequiredSkill1Level: 1
     id: 20412
+    marketGroup: 1880
     name: Datacore - Plasma Physics
     volume: 0.1
   Datacore - Propulsion Subsystems Engineering:
     RequiredSkill1: 30788
     RequiredSkill1Level: 1
     id: 20114
+    marketGroup: 1880
     name: Datacore - Propulsion Subsystems Engineering
     volume: 0.1
   Datacore - Quantum Physics:
     RequiredSkill1: 11455
     RequiredSkill1Level: 1
     id: 20414
+    marketGroup: 1880
     name: Datacore - Quantum Physics
     volume: 0.1
   Datacore - Rocket Science:
     RequiredSkill1: 11449
     RequiredSkill1Level: 1
     id: 20420
+    marketGroup: 1880
     name: Datacore - Rocket Science
     volume: 0.1
   Datacore - Sleeper Tech 3:

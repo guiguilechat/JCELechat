@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 33078
+    marketGroup: 1745
     name: Armor Layering
     volume: 0.01
   Capital Remote Armor Repair Systems:
@@ -18,6 +19,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
     id: 24568
+    marketGroup: 1745
     name: Capital Remote Armor Repair Systems
     volume: 0.01
   Capital Remote Hull Repair Systems:
@@ -29,6 +31,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
     id: 27936
+    marketGroup: 1745
     name: Capital Remote Hull Repair Systems
     volume: 0.01
   Capital Repair Systems:
@@ -44,6 +47,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 21803
+    marketGroup: 1745
     name: Capital Repair Systems
     volume: 0.01
   EM Armor Compensation:
@@ -54,6 +58,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 22806
+    marketGroup: 1745
     name: EM Armor Compensation
     volume: 0.01
   Explosive Armor Compensation:
@@ -64,6 +69,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 22807
+    marketGroup: 1745
     name: Explosive Armor Compensation
     volume: 0.01
   Hull Upgrades:
@@ -74,6 +80,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3394
+    marketGroup: 1745
     name: Hull Upgrades
     volume: 0.01
   Kinetic Armor Compensation:
@@ -84,6 +91,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 22808
+    marketGroup: 1745
     name: Kinetic Armor Compensation
     volume: 0.01
   Mechanics:
@@ -91,6 +99,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3392
+    marketGroup: 1745
     name: Mechanics
     volume: 0.01
   Remote Armor Repair Systems:
@@ -103,6 +112,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 16069
+    marketGroup: 1745
     name: Remote Armor Repair Systems
     volume: 0.01
   Remote Hull Repair Systems:
@@ -113,6 +123,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 27902
+    marketGroup: 1745
     name: Remote Hull Repair Systems
     volume: 0.01
   Repair Systems:
@@ -123,6 +134,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3393
+    marketGroup: 1745
     name: Repair Systems
     volume: 0.01
   Thermal Armor Compensation:
@@ -133,5 +145,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 22809
+    marketGroup: 1745
     name: Thermal Armor Compensation
     volume: 0.01

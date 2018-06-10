@@ -2,11 +2,13 @@ items:
   Avatar Blueprint:
     IndustryBlueprintRank: 600.0
     id: 11568
+    marketGroup: 884
     name: Avatar Blueprint
     volume: 0.01
   Erebus Blueprint:
     IndustryBlueprintRank: 600.0
     id: 1002
+    marketGroup: 886
     name: Erebus Blueprint
     volume: 0.01
   Komodo Blueprint:
@@ -16,6 +18,7 @@ items:
   Leviathan Blueprint:
     IndustryBlueprintRank: 600.0
     id: 3765
+    marketGroup: 885
     name: Leviathan Blueprint
     volume: 0.01
   Molok Blueprint:
@@ -25,6 +28,7 @@ items:
   Ragnarok Blueprint:
     IndustryBlueprintRank: 600.0
     id: 23774
+    marketGroup: 887
     name: Ragnarok Blueprint
     volume: 0.01
   Vanquisher Blueprint:

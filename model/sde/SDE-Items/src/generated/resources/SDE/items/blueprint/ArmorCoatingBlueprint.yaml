@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1305
+    marketGroup: 1544
     name: Adaptive Nano Plating I Blueprint
     volume: 0.01
   Adaptive Nano Plating II Blueprint:
@@ -129,6 +130,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1204
+    marketGroup: 1544
     name: EM Plating I Blueprint
     volume: 0.01
   EM Plating II Blueprint:
@@ -141,6 +143,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11268
+    marketGroup: 1543
     name: Energized Adaptive Nano Membrane I Blueprint
     volume: 0.01
   Energized Adaptive Nano Membrane II Blueprint:
@@ -153,6 +156,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11238
+    marketGroup: 1543
     name: Energized Armor Layering Membrane I Blueprint
     volume: 0.01
   Energized Armor Layering Membrane II Blueprint:
@@ -165,6 +169,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11218
+    marketGroup: 1543
     name: Energized EM Membrane I Blueprint
     volume: 0.01
   Energized EM Membrane II Blueprint:
@@ -177,6 +182,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11228
+    marketGroup: 1543
     name: Energized Explosive Membrane I Blueprint
     volume: 0.01
   Energized Explosive Membrane II Blueprint:
@@ -189,6 +195,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11248
+    marketGroup: 1543
     name: Energized Kinetic Membrane I Blueprint
     volume: 0.01
   Energized Kinetic Membrane II Blueprint:
@@ -201,6 +208,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11258
+    marketGroup: 1543
     name: Energized Thermal Membrane I Blueprint
     volume: 0.01
   Energized Thermal Membrane II Blueprint:
@@ -213,6 +221,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1265
+    marketGroup: 1544
     name: Explosive Plating I Blueprint
     volume: 0.01
   Explosive Plating II Blueprint:
@@ -405,6 +414,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1285
+    marketGroup: 1544
     name: Kinetic Plating I Blueprint
     volume: 0.01
   Kinetic Plating II Blueprint:
@@ -417,6 +427,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1275
+    marketGroup: 1544
     name: Layered Plating I Blueprint
     volume: 0.01
   Layered Plating II Blueprint:
@@ -459,6 +470,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1295
+    marketGroup: 1544
     name: Thermal Plating I Blueprint
     volume: 0.01
   Thermal Plating II Blueprint:
@@ -470,5 +482,6 @@ items:
   testArmorMod_Blueprint_PLACEHOLDER:
     TechLevel: 1
     id: 46013
+    marketGroup: 1543
     name: testArmorMod_Blueprint_PLACEHOLDER
     volume: 0.01

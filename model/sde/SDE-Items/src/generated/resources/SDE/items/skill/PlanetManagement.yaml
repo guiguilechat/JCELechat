@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 2403
+    marketGroup: 1823
     name: Advanced Planetology
     volume: 0.01
   Command Center Upgrades:
@@ -14,6 +15,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 2505
+    marketGroup: 1823
     name: Command Center Upgrades
     volume: 0.01
   Interplanetary Consolidation:
@@ -21,6 +23,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 2495
+    marketGroup: 1823
     name: Interplanetary Consolidation
     volume: 0.01
   Planetology:
@@ -32,6 +35,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 2406
+    marketGroup: 1823
     name: Planetology
     volume: 0.01
   Remote Sensing:
@@ -41,5 +45,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 13279
+    marketGroup: 1823
     name: Remote Sensing
     volume: 0.01

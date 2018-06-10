@@ -7,6 +7,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 47360
+    marketGroup: 2414
     name: Standup Layered Armor Plating I
     volume: 4000.0
   Standup Layered Armor Plating II:
@@ -18,5 +19,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47362
+    marketGroup: 2414
     name: Standup Layered Armor Plating II
     volume: 4000.0

@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 150.0
     TechLevel: 1
     id: 40672
+    marketGroup: 1565
     name: Capital Energy Neutralizer I Blueprint
     volume: 0.01
   Capital Energy Neutralizer II Blueprint:
@@ -33,12 +34,14 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 40673
+    marketGroup: 1565
     name: Capital Gremlin Compact Energy Neutralizer Blueprint
     volume: 0.01
   Capital Infectious Scoped Energy Neutralizer Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 40674
+    marketGroup: 1565
     name: Capital Infectious Scoped Energy Neutralizer Blueprint
     volume: 0.01
   Dark Blood Capital Energy Neutralizer Blueprint:
@@ -57,6 +60,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 12270
+    marketGroup: 1565
     name: Heavy Energy Neutralizer I Blueprint
     volume: 0.01
   Heavy Energy Neutralizer II Blueprint:
@@ -93,6 +97,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 12266
+    marketGroup: 1565
     name: Medium Energy Neutralizer I Blueprint
     volume: 0.01
   Medium Energy Neutralizer II Blueprint:
@@ -111,6 +116,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1109
+    marketGroup: 1565
     name: Small Energy Neutralizer I Blueprint
     volume: 0.01
   Small Energy Neutralizer II Blueprint:

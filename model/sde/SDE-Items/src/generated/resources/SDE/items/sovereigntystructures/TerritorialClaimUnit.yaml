@@ -15,5 +15,6 @@ items:
     ScanRadarStrength: 400.0
     SignatureRadius: 4000
     id: 32226
+    marketGroup: 1273
     name: Territorial Claim Unit
     volume: 5000.0

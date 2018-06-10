@@ -7,6 +7,7 @@ items:
     SpeedFactor: 25.0
     TechLevel: 1
     id: 24395
+    marketGroup: 938
     name: Drone Navigation Computer I
     volume: 25.0
   Drone Navigation Computer II:
@@ -19,6 +20,7 @@ items:
     SpeedFactor: 30.0
     TechLevel: 2
     id: 24417
+    marketGroup: 938
     name: Drone Navigation Computer II
     volume: 5.0
   Federation Navy Drone Navigation Computer:
@@ -32,6 +34,7 @@ items:
     SpeedFactor: 32.0
     TechLevel: 1
     id: 33850
+    marketGroup: 938
     name: Federation Navy Drone Navigation Computer
     volume: 25.0
   Sentient Drone Navigation Computer:
@@ -45,6 +48,7 @@ items:
     SpeedFactor: 32.0
     TechLevel: 1
     id: 33852
+    marketGroup: 938
     name: Sentient Drone Navigation Computer
     volume: 25.0
   Unit D-34343's Modified Drone Navigation Computer:
@@ -58,6 +62,7 @@ items:
     SpeedFactor: 35.0
     TechLevel: 1
     id: 32943
+    marketGroup: 938
     name: Unit D-34343's Modified Drone Navigation Computer
     volume: 25.0
   Unit F-435454's Modified Drone Navigation Computer:
@@ -71,6 +76,7 @@ items:
     SpeedFactor: 36.0
     TechLevel: 1
     id: 32945
+    marketGroup: 938
     name: Unit F-435454's Modified Drone Navigation Computer
     volume: 25.0
   Unit P-343554's Modified Drone Navigation Computer:
@@ -84,6 +90,7 @@ items:
     SpeedFactor: 37.0
     TechLevel: 1
     id: 32947
+    marketGroup: 938
     name: Unit P-343554's Modified Drone Navigation Computer
     volume: 25.0
   Unit W-634's Modified Drone Navigation Computer:
@@ -97,5 +104,6 @@ items:
     SpeedFactor: 38.0
     TechLevel: 1
     id: 32949
+    marketGroup: 938
     name: Unit W-634's Modified Drone Navigation Computer
     volume: 25.0

@@ -2,16 +2,19 @@ items:
   BakerBlueprint_PLACEHOLDER:
     TechLevel: 1
     id: 45670
+    marketGroup: 1028
     name: BakerBlueprint_PLACEHOLDER
   CharlieBlueprint_PLACEHOLDER:
     TechLevel: 1
     id: 45672
+    marketGroup: 1028
     name: CharlieBlueprint_PLACEHOLDER
     volume: 0.01
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 23058
+    marketGroup: 1028
     name: Dragonfly I Blueprint
     volume: 0.01
   Dragonfly II Blueprint:
@@ -23,6 +26,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 23062
+    marketGroup: 1028
     name: Einherji I Blueprint
     volume: 0.01
   Einherji II Blueprint:
@@ -33,6 +37,7 @@ items:
   Equite I Blueprint:
     TechLevel: 1
     id: 41376
+    marketGroup: 1028
     name: Equite I Blueprint
     volume: 0.01
   Equite II Blueprint:
@@ -44,6 +49,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 23060
+    marketGroup: 1028
     name: Firbolg I Blueprint
     volume: 0.01
   Firbolg II Blueprint:
@@ -54,6 +60,7 @@ items:
   Gram I Blueprint:
     TechLevel: 1
     id: 41385
+    marketGroup: 1028
     name: Gram I Blueprint
     volume: 0.01
   Gram II Blueprint:
@@ -64,6 +71,7 @@ items:
   Locust I Blueprint:
     TechLevel: 1
     id: 41379
+    marketGroup: 1028
     name: Locust I Blueprint
     volume: 0.01
   Locust II Blueprint:
@@ -74,6 +82,7 @@ items:
   Satyr I Blueprint:
     TechLevel: 1
     id: 41382
+    marketGroup: 1028
     name: Satyr I Blueprint
     volume: 0.01
   Satyr II Blueprint:
@@ -84,6 +93,7 @@ items:
   Standup Dragonfly I Blueprint:
     TechLevel: 1
     id: 47209
+    marketGroup: 1028
     name: Standup Dragonfly I Blueprint
     volume: 0.01
   Standup Dragonfly II Blueprint:
@@ -94,6 +104,7 @@ items:
   Standup Einherji I Blueprint:
     TechLevel: 1
     id: 47211
+    marketGroup: 1028
     name: Standup Einherji I Blueprint
     volume: 0.01
   Standup Einherji II Blueprint:
@@ -104,6 +115,7 @@ items:
   Standup Equite I Blueprint:
     TechLevel: 1
     id: 47213
+    marketGroup: 1028
     name: Standup Equite I Blueprint
     volume: 0.01
   Standup Equite II Blueprint:
@@ -114,6 +126,7 @@ items:
   Standup Firbolg I Blueprint:
     TechLevel: 1
     id: 47210
+    marketGroup: 1028
     name: Standup Firbolg I Blueprint
     volume: 0.01
   Standup Firbolg II Blueprint:
@@ -124,6 +137,7 @@ items:
   Standup Gram I Blueprint:
     TechLevel: 1
     id: 47222
+    marketGroup: 1028
     name: Standup Gram I Blueprint
     volume: 0.01
   Standup Gram II Blueprint:
@@ -134,6 +148,7 @@ items:
   Standup Locust I Blueprint:
     TechLevel: 1
     id: 47216
+    marketGroup: 1028
     name: Standup Locust I Blueprint
     volume: 0.01
   Standup Locust II Blueprint:
@@ -144,6 +159,7 @@ items:
   Standup Satyr I Blueprint:
     TechLevel: 1
     id: 47219
+    marketGroup: 1028
     name: Standup Satyr I Blueprint
     volume: 0.01
   Standup Satyr II Blueprint:
@@ -154,6 +170,7 @@ items:
   Standup Templar I Blueprint:
     TechLevel: 1
     id: 47208
+    marketGroup: 1028
     name: Standup Templar I Blueprint
     volume: 0.01
   Standup Templar II Blueprint:
@@ -165,6 +182,7 @@ items:
     IndustryBlueprintRank: 40.0
     TechLevel: 1
     id: 23056
+    marketGroup: 1028
     name: Templar I Blueprint
     volume: 0.01
   Templar II Blueprint:

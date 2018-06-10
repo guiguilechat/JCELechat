@@ -27,6 +27,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 27015
+    marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
     volume: 0.01
   Civilian Relic Analyzer Blueprint:
@@ -39,6 +40,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 22176
+    marketGroup: 1809
     name: Data Analyzer I Blueprint
     volume: 0.01
   Data Analyzer II Blueprint:
@@ -75,6 +77,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 22178
+    marketGroup: 1809
     name: Relic Analyzer I Blueprint
     volume: 0.01
   Relic Analyzer II Blueprint:

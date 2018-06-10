@@ -17,6 +17,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14826
+    marketGroup: 694
     name: Ahremen's Modified Heavy Energy Nosferatu
     volume: 5.0
   Ammatar Navy Heavy Energy Nosferatu:
@@ -37,6 +38,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15879
+    marketGroup: 694
     name: Ammatar Navy Heavy Energy Nosferatu
     volume: 5.0
   Ammatar Navy Medium Energy Nosferatu:
@@ -57,6 +59,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15877
+    marketGroup: 693
     name: Ammatar Navy Medium Energy Nosferatu
     volume: 5.0
   Ammatar Navy Small Energy Nosferatu:
@@ -77,6 +80,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15875
+    marketGroup: 692
     name: Ammatar Navy Small Energy Nosferatu
     volume: 5.0
   Brokara's Modified Heavy Energy Nosferatu:
@@ -97,6 +101,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14816
+    marketGroup: 694
     name: Brokara's Modified Heavy Energy Nosferatu
     volume: 5.0
   Capital Energy Nosferatu I:
@@ -117,6 +122,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 40665
+    marketGroup: 2251
     name: Capital Energy Nosferatu I
     volume: 4000.0
   Capital Energy Nosferatu II:
@@ -138,6 +144,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 40668
+    marketGroup: 2251
     name: Capital Energy Nosferatu II
     volume: 4000.0
   Capital Ghoul Compact Energy Nosferatu:
@@ -159,6 +166,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 40666
+    marketGroup: 2251
     name: Capital Ghoul Compact Energy Nosferatu
     volume: 4000.0
   Capital Knave Scoped Energy Nosferatu:
@@ -180,6 +188,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 40667
+    marketGroup: 2251
     name: Capital Knave Scoped Energy Nosferatu
     volume: 4000.0
   Chelm's Modified Heavy Energy Nosferatu:
@@ -200,6 +209,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14828
+    marketGroup: 694
     name: Chelm's Modified Heavy Energy Nosferatu
     volume: 5.0
   Corpii A-Type Small Energy Nosferatu:
@@ -220,6 +230,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19105
+    marketGroup: 692
     name: Corpii A-Type Small Energy Nosferatu
     volume: 5.0
   Corpii B-Type Small Energy Nosferatu:
@@ -240,6 +251,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19103
+    marketGroup: 692
     name: Corpii B-Type Small Energy Nosferatu
     volume: 5.0
   Corpii C-Type Small Energy Nosferatu:
@@ -260,6 +272,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19101
+    marketGroup: 692
     name: Corpii C-Type Small Energy Nosferatu
     volume: 5.0
   Corpum A-Type Medium Energy Nosferatu:
@@ -280,6 +293,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19111
+    marketGroup: 693
     name: Corpum A-Type Medium Energy Nosferatu
     volume: 5.0
   Corpum B-Type Medium Energy Nosferatu:
@@ -300,6 +314,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19109
+    marketGroup: 693
     name: Corpum B-Type Medium Energy Nosferatu
     volume: 5.0
   Corpum C-Type Medium Energy Nosferatu:
@@ -320,6 +335,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19107
+    marketGroup: 693
     name: Corpum C-Type Medium Energy Nosferatu
     volume: 5.0
   Corpus A-Type Heavy Energy Nosferatu:
@@ -340,6 +356,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19117
+    marketGroup: 694
     name: Corpus A-Type Heavy Energy Nosferatu
     volume: 5.0
   Corpus B-Type Heavy Energy Nosferatu:
@@ -360,6 +377,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19115
+    marketGroup: 694
     name: Corpus B-Type Heavy Energy Nosferatu
     volume: 5.0
   Corpus C-Type Heavy Energy Nosferatu:
@@ -380,6 +398,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19113
+    marketGroup: 694
     name: Corpus C-Type Heavy Energy Nosferatu
     volume: 5.0
   Corpus X-Type Heavy Energy Nosferatu:
@@ -400,6 +419,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19119
+    marketGroup: 694
     name: Corpus X-Type Heavy Energy Nosferatu
     volume: 5.0
   Dark Blood Capital Energy Nosferatu:
@@ -422,6 +442,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 40670
+    marketGroup: 2251
     name: Dark Blood Capital Energy Nosferatu
     volume: 4000.0
   Dark Blood Heavy Energy Nosferatu:
@@ -442,6 +463,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14152
+    marketGroup: 694
     name: Dark Blood Heavy Energy Nosferatu
     volume: 5.0
   Dark Blood Medium Energy Nosferatu:
@@ -462,6 +484,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14156
+    marketGroup: 693
     name: Dark Blood Medium Energy Nosferatu
     volume: 5.0
   Dark Blood Small Energy Nosferatu:
@@ -482,6 +505,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14148
+    marketGroup: 692
     name: Dark Blood Small Energy Nosferatu
     volume: 5.0
   Draclira's Modified Heavy Energy Nosferatu:
@@ -502,6 +526,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14830
+    marketGroup: 694
     name: Draclira's Modified Heavy Energy Nosferatu
     volume: 5.0
   E5 Prototype Energy Vampire:
@@ -581,6 +606,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23829
+    marketGroup: 694
     name: Heavy 'Vrykolakas' Energy Nosferatu
     volume: 5.0
   Heavy Diminishing Power System Drain I:
@@ -619,6 +645,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 12261
+    marketGroup: 694
     name: Heavy Energy Nosferatu I
     volume: 5.0
   Heavy Energy Nosferatu II:
@@ -638,6 +665,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 12263
+    marketGroup: 694
     name: Heavy Energy Nosferatu II
     volume: 5.0
   Heavy Ghoul Compact Energy Nosferatu:
@@ -658,6 +686,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16497
+    marketGroup: 694
     name: Heavy Ghoul Compact Energy Nosferatu
     volume: 5.0
   Heavy Knave Scoped Energy Nosferatu:
@@ -678,6 +707,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16499
+    marketGroup: 694
     name: Heavy Knave Scoped Energy Nosferatu
     volume: 5.0
   Imperial Navy Heavy Energy Nosferatu:
@@ -698,6 +728,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15885
+    marketGroup: 694
     name: Imperial Navy Heavy Energy Nosferatu
     volume: 5.0
   Imperial Navy Medium Energy Nosferatu:
@@ -718,6 +749,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15883
+    marketGroup: 693
     name: Imperial Navy Medium Energy Nosferatu
     volume: 5.0
   Imperial Navy Small Energy Nosferatu:
@@ -738,6 +770,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15881
+    marketGroup: 692
     name: Imperial Navy Small Energy Nosferatu
     volume: 5.0
   Medium 'Strigoi' Energy Nosferatu:
@@ -758,6 +791,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23824
+    marketGroup: 693
     name: Medium 'Strigoi' Energy Nosferatu
     volume: 5.0
   Medium Diminishing Power System Drain I:
@@ -796,6 +830,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 12257
+    marketGroup: 693
     name: Medium Energy Nosferatu I
     volume: 5.0
   Medium Energy Nosferatu II:
@@ -815,6 +850,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 12259
+    marketGroup: 693
     name: Medium Energy Nosferatu II
     volume: 5.0
   Medium Ghoul Compact Energy Nosferatu:
@@ -835,6 +871,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16505
+    marketGroup: 693
     name: Medium Ghoul Compact Energy Nosferatu
     volume: 5.0
   Medium Knave Scoped Energy Nosferatu:
@@ -855,6 +892,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 16507
+    marketGroup: 693
     name: Medium Knave Scoped Energy Nosferatu
     volume: 5.0
   Raysere's Modified Heavy Energy Nosferatu:
@@ -875,6 +913,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14822
+    marketGroup: 694
     name: Raysere's Modified Heavy Energy Nosferatu
     volume: 5.0
   Selynne's Modified Heavy Energy Nosferatu:
@@ -895,6 +934,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14820
+    marketGroup: 694
     name: Selynne's Modified Heavy Energy Nosferatu
     volume: 5.0
   Shaqil's Modified Heavy Energy Nosferatu:
@@ -935,6 +975,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23821
+    marketGroup: 692
     name: Small 'Upir' Energy Nosferatu
     volume: 5.0
   Small Diminishing Power System Drain I:
@@ -972,6 +1013,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 530
+    marketGroup: 692
     name: Small Energy Nosferatu I
     volume: 5.0
   Small Energy Nosferatu II:
@@ -991,6 +1033,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 13001
+    marketGroup: 692
     name: Small Energy Nosferatu II
     volume: 5.0
   Small Ghoul Compact Energy Nosferatu:
@@ -1011,6 +1054,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5141
+    marketGroup: 692
     name: Small Ghoul Compact Energy Nosferatu
     volume: 5.0
   Small Knave Scoped Energy Nosferatu:
@@ -1030,6 +1074,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5137
+    marketGroup: 692
     name: Small Knave Scoped Energy Nosferatu
     volume: 5.0
   Tairei's Modified Heavy Energy Nosferatu:
@@ -1050,6 +1095,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14818
+    marketGroup: 694
     name: Tairei's Modified Heavy Energy Nosferatu
     volume: 5.0
   True Sansha Capital Energy Nosferatu:
@@ -1072,6 +1118,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 40669
+    marketGroup: 2251
     name: True Sansha Capital Energy Nosferatu
     volume: 4000.0
   True Sansha Heavy Energy Nosferatu:
@@ -1092,6 +1139,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14154
+    marketGroup: 694
     name: True Sansha Heavy Energy Nosferatu
     volume: 5.0
   True Sansha Medium Energy Nosferatu:
@@ -1112,6 +1160,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14158
+    marketGroup: 693
     name: True Sansha Medium Energy Nosferatu
     volume: 5.0
   True Sansha Small Energy Nosferatu:
@@ -1132,6 +1181,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14150
+    marketGroup: 692
     name: True Sansha Small Energy Nosferatu
     volume: 5.0
   Vizan's Modified Heavy Energy Nosferatu:
@@ -1152,5 +1202,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14824
+    marketGroup: 694
     name: Vizan's Modified Heavy Energy Nosferatu
     volume: 5.0

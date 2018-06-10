@@ -22,6 +22,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.0
     id: 41031
+    marketGroup: 938
     name: AML Compact Omnidirectional Tracking Link
     volume: 5.0
   Denny Enduring Omnidirectional Tracking Link:
@@ -47,6 +48,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.0
     id: 41032
+    marketGroup: 938
     name: Denny Enduring Omnidirectional Tracking Link
     volume: 5.0
   Federation Navy Omnidirectional Tracking Link:
@@ -73,6 +75,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 31942
+    marketGroup: 938
     name: Federation Navy Omnidirectional Tracking Link
     volume: 5.0
   Omnidirectional Tracking Link I:
@@ -96,6 +99,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 10.0
     id: 23533
+    marketGroup: 938
     name: Omnidirectional Tracking Link I
     volume: 5.0
   Omnidirectional Tracking Link II:
@@ -121,6 +125,7 @@ items:
     TechLevel: 2
     TrackingSpeedBonus: 15.0
     id: 24438
+    marketGroup: 938
     name: Omnidirectional Tracking Link II
     volume: 5.0
   Sentient Omnidirectional Tracking Link:
@@ -147,6 +152,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 33826
+    marketGroup: 938
     name: Sentient Omnidirectional Tracking Link
     volume: 5.0
   Unit D-34343's Modified Omnidirectional Tracking Link:
@@ -173,6 +179,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 18.399999618530273
     id: 32935
+    marketGroup: 938
     name: Unit D-34343's Modified Omnidirectional Tracking Link
     volume: 5.0
   Unit F-435454's Modified Omnidirectional Tracking Link:
@@ -199,6 +206,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 19.299999237060547
     id: 32937
+    marketGroup: 938
     name: Unit F-435454's Modified Omnidirectional Tracking Link
     volume: 5.0
   Unit P-343554's Modified Omnidirectional Tracking Link:
@@ -225,6 +233,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 20.100000381469727
     id: 32939
+    marketGroup: 938
     name: Unit P-343554's Modified Omnidirectional Tracking Link
     volume: 5.0
   Unit W-634's Modified Omnidirectional Tracking Link:
@@ -251,5 +260,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 21.0
     id: 32941
+    marketGroup: 938
     name: Unit W-634's Modified Omnidirectional Tracking Link
     volume: 5.0

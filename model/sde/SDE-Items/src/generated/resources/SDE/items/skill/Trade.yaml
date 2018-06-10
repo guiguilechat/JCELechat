@@ -6,6 +6,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 16622
+    marketGroup: 378
     name: Accounting
     volume: 0.01
   Black Market Trading:
@@ -27,6 +28,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
     id: 3446
+    marketGroup: 378
     name: Broker Relations
     volume: 0.01
   Consumable Freight:
@@ -46,6 +48,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 25235
+    marketGroup: 378
     name: Contracting
     volume: 0.01
   Corporation Contracting:
@@ -56,6 +59,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 3.0
     id: 25233
+    marketGroup: 378
     name: Corporation Contracting
     volume: 0.01
   Customs Code Expertise:
@@ -66,6 +70,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 33467
+    marketGroup: 378
     name: Customs Code Expertise
     volume: 0.01
   Daytrading:
@@ -75,6 +80,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 16595
+    marketGroup: 378
     name: Daytrading
     volume: 0.01
   Drone Freight:
@@ -110,6 +116,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 16597
+    marketGroup: 378
     name: Margin Trading
     volume: 0.01
   Marketing:
@@ -119,6 +126,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 16598
+    marketGroup: 378
     name: Marketing
     volume: 0.01
   Mineral Freight:
@@ -146,6 +154,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 16594
+    marketGroup: 378
     name: Procurement
     volume: 0.01
   Raw Material Freight:
@@ -165,6 +174,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 2.0
     id: 3444
+    marketGroup: 378
     name: Retail
     volume: 0.01
   Smuggling:
@@ -208,6 +218,7 @@ items:
     SkillTimeConstant: 1.0
     TradePremiumBonus: -5
     id: 3443
+    marketGroup: 378
     name: Trade
     volume: 0.01
   Tycoon:
@@ -220,6 +231,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 6.0
     id: 18580
+    marketGroup: 378
     name: Tycoon
     volume: 0.01
   Visibility:
@@ -229,6 +241,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3447
+    marketGroup: 378
     name: Visibility
     volume: 0.01
   Wholesale:
@@ -241,5 +254,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 4.0
     id: 16596
+    marketGroup: 378
     name: Wholesale
     volume: 0.01

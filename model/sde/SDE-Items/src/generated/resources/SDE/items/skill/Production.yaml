@@ -9,6 +9,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3396
+    marketGroup: 369
     name: Advanced Industrial Ship Construction
     volume: 0.01
   Advanced Industry:
@@ -19,6 +20,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 3388
+    marketGroup: 369
     name: Advanced Industry
     volume: 0.01
   Advanced Large Ship Construction:
@@ -29,6 +31,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 8.0
     id: 3398
+    marketGroup: 369
     name: Advanced Large Ship Construction
     volume: 0.01
   Advanced Mass Production:
@@ -40,6 +43,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
     id: 24625
+    marketGroup: 369
     name: Advanced Mass Production
     volume: 0.01
   Advanced Medium Ship Construction:
@@ -52,6 +56,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 3397
+    marketGroup: 369
     name: Advanced Medium Ship Construction
     volume: 0.01
   Advanced Small Ship Construction:
@@ -64,6 +69,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 3395
+    marketGroup: 369
     name: Advanced Small Ship Construction
     volume: 0.01
   Amarr Tech:
@@ -98,6 +104,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 14.0
     id: 22242
+    marketGroup: 369
     name: Capital Ship Construction
     volume: 0.01
   Drug Manufacturing:
@@ -107,6 +114,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 26224
+    marketGroup: 369
     name: Drug Manufacturing
     volume: 0.01
   Gallente Tech:
@@ -125,6 +133,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 3380
+    marketGroup: 369
     name: Industry
     volume: 0.01
   Mass Production:
@@ -135,6 +144,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 3387
+    marketGroup: 369
     name: Mass Production
     volume: 0.01
   Minmatar Tech:
@@ -166,6 +176,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 16.0
     id: 3400
+    marketGroup: 369
     name: Outpost Construction
     volume: 0.01
   Supply Chain Management:
@@ -175,5 +186,6 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 24268
+    marketGroup: 369
     name: Supply Chain Management
     volume: 0.01

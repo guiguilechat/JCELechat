@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 832
+    marketGroup: 298
     name: 1200mm Artillery Cannon I Blueprint
     volume: 0.01
   1200mm Artillery Cannon II Blueprint:
@@ -21,6 +22,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 819
+    marketGroup: 296
     name: 125mm Gatling AutoCannon I Blueprint
     volume: 0.01
   125mm Gatling AutoCannon II Blueprint:
@@ -39,6 +41,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 833
+    marketGroup: 298
     name: 1400mm Howitzer Artillery I Blueprint
     volume: 0.01
   1400mm Howitzer Artillery II Blueprint:
@@ -51,6 +54,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 820
+    marketGroup: 296
     name: 150mm Light AutoCannon I Blueprint
     volume: 0.01
   150mm Light AutoCannon II Blueprint:
@@ -63,6 +67,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 821
+    marketGroup: 296
     name: 200mm AutoCannon I Blueprint
     volume: 0.01
   200mm AutoCannon II Blueprint:
@@ -81,6 +86,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 825
+    marketGroup: 297
     name: 220mm Vulcan AutoCannon I Blueprint
     volume: 0.01
   220mm Vulcan AutoCannon II Blueprint:
@@ -99,6 +105,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 822
+    marketGroup: 296
     name: 250mm Light Artillery Cannon I Blueprint
     volume: 0.01
   250mm Light Artillery Cannon II Blueprint:
@@ -117,6 +124,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 823
+    marketGroup: 296
     name: 280mm Howitzer Artillery I Blueprint
     volume: 0.01
   280mm Howitzer Artillery II Blueprint:
@@ -129,6 +137,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 826
+    marketGroup: 297
     name: 425mm AutoCannon I Blueprint
     volume: 0.01
   425mm AutoCannon II Blueprint:
@@ -147,6 +156,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 827
+    marketGroup: 297
     name: 650mm Artillery Cannon I Blueprint
     volume: 0.01
   650mm Artillery Cannon II Blueprint:
@@ -171,6 +181,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 828
+    marketGroup: 297
     name: 720mm Howitzer Artillery I Blueprint
     volume: 0.01
   720mm Howitzer Artillery II Blueprint:
@@ -189,6 +200,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 831
+    marketGroup: 298
     name: 800mm Repeating Cannon I Blueprint
     volume: 0.01
   800mm Repeating Cannon II Blueprint:
@@ -201,6 +213,7 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41094
+    marketGroup: 793
     name: Ample Gallium Quad 800mm Repeating Cannon Blueprint
     volume: 0.01
   CONCORD Hexa 2500mm Repeating Cannon Blueprint:
@@ -221,18 +234,21 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41168
+    marketGroup: 793
     name: Carbide Compact Quad 3500mm Siege Artillery Blueprint
     volume: 0.01
   Carbine Compact Hexa 2500mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41161
+    marketGroup: 793
     name: Carbine Compact Hexa 2500mm Repeating Cannon Blueprint
     volume: 0.01
   Compact Carbine Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41093
+    marketGroup: 793
     name: Compact Carbine Quad 800mm Repeating Cannon Blueprint
     volume: 0.01
   Domination Hexa 2500mm Repeating Cannon Blueprint:
@@ -260,6 +276,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 824
+    marketGroup: 297
     name: Dual 180mm AutoCannon I Blueprint
     volume: 0.01
   Dual 180mm AutoCannon II Blueprint:
@@ -272,6 +289,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 829
+    marketGroup: 298
     name: Dual 425mm AutoCannon I Blueprint
     volume: 0.01
   Dual 425mm AutoCannon II Blueprint:
@@ -284,6 +302,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 830
+    marketGroup: 298
     name: Dual 650mm Repeating Cannon I Blueprint
     volume: 0.01
   Dual 650mm Repeating Cannon II Blueprint:
@@ -296,18 +315,21 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41162
+    marketGroup: 793
     name: Gallium Ample Hexa 2500mm Repeating Cannon Blueprint
     volume: 0.01
   Gallium Ample Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41169
+    marketGroup: 793
     name: Gallium Ample Quad 3500mm Siege Artillery Blueprint
     volume: 0.01
   Hexa 2500mm Repeating Cannon I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 20453
+    marketGroup: 793
     name: Hexa 2500mm Repeating Cannon I Blueprint
     volume: 0.01
   Hexa 2500mm Repeating Cannon II Blueprint:
@@ -335,24 +357,28 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41165
+    marketGroup: 793
     name: Prototype Precise Hexa 2500mm Repeating Cannon Blueprint
     volume: 0.01
   Prototype Precise Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41171
+    marketGroup: 793
     name: Prototype Precise Quad 3500mm Siege Artillery Blueprint
     volume: 0.01
   Prototype Precise Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41096
+    marketGroup: 793
     name: Prototype Precise Quad 800mm Repeating Cannon Blueprint
     volume: 0.01
   Quad 3500mm Siege Artillery I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 20455
+    marketGroup: 793
     name: Quad 3500mm Siege Artillery I Blueprint
     volume: 0.01
   Quad 3500mm Siege Artillery II Blueprint:
@@ -365,6 +391,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 41092
+    marketGroup: 793
     name: Quad 800mm Repeating Cannon I Blueprint
     volume: 0.01
   Quad 800mm Repeating Cannon II Blueprint:
@@ -377,17 +404,20 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41163
+    marketGroup: 793
     name: Scout Scoped Hexa 2500mm Repeating Cannon Blueprint
     volume: 0.01
   Scout Scoped Quad 3500mm Siege Artillery Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41170
+    marketGroup: 793
     name: Scout Scoped Quad 3500mm Siege Artillery Blueprint
     volume: 0.01
   Scout Scoped Quad 800mm Repeating Cannon Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41095
+    marketGroup: 793
     name: Scout Scoped Quad 800mm Repeating Cannon Blueprint
     volume: 0.01

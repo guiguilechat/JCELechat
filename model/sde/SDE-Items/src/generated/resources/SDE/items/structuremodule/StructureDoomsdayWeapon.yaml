@@ -25,5 +25,6 @@ items:
     StructureItemVisualFlag: 1
     ThermalDamage: 1000000.0
     id: 35928
+    marketGroup: 2228
     name: Standup Arcing Vorton Projector I
     volume: 64000.0

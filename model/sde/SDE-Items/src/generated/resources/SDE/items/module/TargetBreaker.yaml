@@ -20,5 +20,6 @@ items:
     ScanResolutionMultiplier: 0.75
     TechLevel: 1
     id: 4409
+    marketGroup: 1426
     name: Target Spectrum Breaker
     volume: 5.0

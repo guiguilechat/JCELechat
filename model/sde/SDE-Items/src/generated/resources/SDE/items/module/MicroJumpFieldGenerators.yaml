@@ -21,5 +21,6 @@ items:
     SignatureRadiusBonusPercent: 150
     TechLevel: 1
     id: 37479
+    marketGroup: 2135
     name: Micro Jump Field Generator
     volume: 10.0

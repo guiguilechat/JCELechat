@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 26500
     id: 12200
+    marketGroup: 405
     name: Mobile Large Warp Disruptor I
     volume: 585.0
   Mobile Large Warp Disruptor II:
@@ -34,6 +35,7 @@ items:
     TechLevel: 2
     WarpScrambleRange: 40000
     id: 26888
+    marketGroup: 405
     name: Mobile Large Warp Disruptor II
     volume: 585.0
   Mobile Medium Warp Disruptor I:
@@ -52,6 +54,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 11500
     id: 12199
+    marketGroup: 405
     name: Mobile Medium Warp Disruptor I
     volume: 195.0
   Mobile Medium Warp Disruptor II:
@@ -71,6 +74,7 @@ items:
     TechLevel: 2
     WarpScrambleRange: 17500
     id: 26890
+    marketGroup: 405
     name: Mobile Medium Warp Disruptor II
     volume: 195.0
   Mobile Small Warp Disruptor I:
@@ -89,6 +93,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 5000
     id: 12198
+    marketGroup: 405
     name: Mobile Small Warp Disruptor I
     volume: 65.0
   Mobile Small Warp Disruptor II:
@@ -108,6 +113,7 @@ items:
     TechLevel: 2
     WarpScrambleRange: 7500
     id: 26892
+    marketGroup: 405
     name: Mobile Small Warp Disruptor II
     volume: 65.0
   Syndicate Mobile Large Warp Disruptor:
@@ -128,6 +134,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 40000
     id: 28770
+    marketGroup: 405
     name: Syndicate Mobile Large Warp Disruptor
     volume: 585.0
   Syndicate Mobile Medium Warp Disruptor:
@@ -148,6 +155,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 17500
     id: 28772
+    marketGroup: 405
     name: Syndicate Mobile Medium Warp Disruptor
     volume: 195.0
   Syndicate Mobile Small Warp Disruptor:
@@ -168,6 +176,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 7500
     id: 28774
+    marketGroup: 405
     name: Syndicate Mobile Small Warp Disruptor
     volume: 65.0
   Tournament Bubble TEST:

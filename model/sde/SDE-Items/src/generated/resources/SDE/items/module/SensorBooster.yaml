@@ -24,6 +24,7 @@ items:
     ScanResolutionBonus: 30.0
     TechLevel: 1
     id: 22895
+    marketGroup: 671
     name: '''Shady'' Sensor Booster'
     volume: 5.0
   Alumel-Wired Enduring Sensor Booster:
@@ -50,6 +51,7 @@ items:
     ScanResolutionBonus: 27.5
     TechLevel: 1
     id: 6159
+    marketGroup: 671
     name: Alumel-Wired Enduring Sensor Booster
     volume: 5.0
   Brynn's Modified Sensor Booster:
@@ -77,6 +79,7 @@ items:
     ScanResolutionBonus: 34.0
     TechLevel: 1
     id: 15276
+    marketGroup: 671
     name: Brynn's Modified Sensor Booster
     volume: 5.0
   Cormack's Modified Sensor Booster:
@@ -104,6 +107,7 @@ items:
     ScanResolutionBonus: 39.0
     TechLevel: 1
     id: 15282
+    marketGroup: 671
     name: Cormack's Modified Sensor Booster
     volume: 5.0
   F-90 Compact Sensor Booster:
@@ -130,6 +134,7 @@ items:
     ScanResolutionBonus: 27.5
     TechLevel: 1
     id: 6160
+    marketGroup: 671
     name: F-90 Compact Sensor Booster
     volume: 5.0
   Federation Navy Sensor Booster:
@@ -157,6 +162,7 @@ items:
     ScanResolutionBonus: 32.5
     TechLevel: 1
     id: 17520
+    marketGroup: 671
     name: Federation Navy Sensor Booster
     volume: 5.0
   Prototype Sensor Booster:
@@ -203,6 +209,7 @@ items:
     ScanResolutionBonus: 25.0
     TechLevel: 1
     id: 1973
+    marketGroup: 671
     name: Sensor Booster I
     volume: 5.0
   Sensor Booster II:
@@ -229,6 +236,7 @@ items:
     ScanResolutionBonus: 30.0
     TechLevel: 2
     id: 1952
+    marketGroup: 671
     name: Sensor Booster II
     volume: 5.0
   Sentient Sensor Booster:
@@ -256,6 +264,7 @@ items:
     ScanResolutionBonus: 32.5
     TechLevel: 1
     id: 41191
+    marketGroup: 671
     name: Sentient Sensor Booster
     volume: 5.0
   Setele's Modified Sensor Booster:
@@ -282,6 +291,7 @@ items:
     ScanResolutionBonus: 37.5
     TechLevel: 1
     id: 15280
+    marketGroup: 671
     name: Setele's Modified Sensor Booster
     volume: 5.0
   Shadow Serpentis Sensor Booster:
@@ -309,6 +319,7 @@ items:
     ScanResolutionBonus: 32.5
     TechLevel: 1
     id: 14236
+    marketGroup: 671
     name: Shadow Serpentis Sensor Booster
     volume: 5.0
   Supplemental Scanning CPU I:
@@ -356,6 +367,7 @@ items:
     ScanResolutionBonus: 36.0
     TechLevel: 1
     id: 15278
+    marketGroup: 671
     name: Tuvan's Modified Sensor Booster
     volume: 5.0
   Unit D-34343's Modified Sensor Booster:
@@ -383,6 +395,7 @@ items:
     ScanResolutionBonus: 34.0
     TechLevel: 1
     id: 41192
+    marketGroup: 671
     name: Unit D-34343's Modified Sensor Booster
     volume: 5.0
   Unit F-435454's Modified Sensor Booster:
@@ -410,6 +423,7 @@ items:
     ScanResolutionBonus: 36.0
     TechLevel: 1
     id: 41193
+    marketGroup: 671
     name: Unit F-435454's Modified Sensor Booster
     volume: 5.0
   Unit P-343554's Modified Sensor Booster:
@@ -437,6 +451,7 @@ items:
     ScanResolutionBonus: 37.5
     TechLevel: 1
     id: 41194
+    marketGroup: 671
     name: Unit P-343554's Modified Sensor Booster
     volume: 5.0
   Unit W-634's Modified Sensor Booster:
@@ -464,5 +479,6 @@ items:
     ScanResolutionBonus: 39.0
     TechLevel: 1
     id: 41195
+    marketGroup: 671
     name: Unit W-634's Modified Sensor Booster
     volume: 5.0

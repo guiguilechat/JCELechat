@@ -39,6 +39,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11294
+    marketGroup: 1541
     name: 100mm Steel Plates I Blueprint
     volume: 0.01
   100mm Steel Plates II Blueprint:
@@ -51,6 +52,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 11280
+    marketGroup: 1541
     name: 1600mm Steel Plates I Blueprint
     volume: 0.01
   1600mm Steel Plates II Blueprint:
@@ -63,6 +65,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11296
+    marketGroup: 1541
     name: 200mm Steel Plates I Blueprint
     volume: 0.01
   200mm Steel Plates II Blueprint:
@@ -74,16 +77,19 @@ items:
   25000mm Crystalline Carbonide Restrained Plates Blueprint:
     TechLevel: 1
     id: 41609
+    marketGroup: 1541
     name: 25000mm Crystalline Carbonide Restrained Plates Blueprint
     volume: 0.01
   25000mm Rolled Tungsten Compact Plates Blueprint:
     TechLevel: 1
     id: 41608
+    marketGroup: 1541
     name: 25000mm Rolled Tungsten Compact Plates Blueprint
     volume: 0.01
   25000mm Steel Plates I Blueprint:
     TechLevel: 1
     id: 41607
+    marketGroup: 1541
     name: 25000mm Steel Plates I Blueprint
     volume: 0.01
   25000mm Steel Plates II Blueprint:
@@ -95,6 +101,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11298
+    marketGroup: 1541
     name: 400mm Steel Plates I Blueprint
     volume: 0.01
   400mm Steel Plates II Blueprint:
@@ -107,6 +114,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11292
+    marketGroup: 1541
     name: 50mm Steel Plates I Blueprint
     volume: 0.01
   50mm Steel Plates II Blueprint:
@@ -119,6 +127,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11300
+    marketGroup: 1541
     name: 800mm Steel Plates I Blueprint
     volume: 0.01
   800mm Steel Plates II Blueprint:

@@ -1,6 +1,7 @@
 items:
   Entropic Radiation Sink I Blueprint:
     id: 48095
+    marketGroup: 343
     name: Entropic Radiation Sink I Blueprint
     volume: 0.01
   Entropic Radiation Sink II Blueprint:

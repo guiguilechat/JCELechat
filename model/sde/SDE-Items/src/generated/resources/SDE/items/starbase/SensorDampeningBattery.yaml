@@ -43,6 +43,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17180
+    marketGroup: 481
     name: Sensor Dampening Battery
     volume: 4000.0
   Serpentis Sensor Dampening Battery:
@@ -90,6 +91,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27778
+    marketGroup: 481
     name: Serpentis Sensor Dampening Battery
     volume: 4000.0
   Shadow Sensor Dampening Battery:
@@ -137,5 +139,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27779
+    marketGroup: 481
     name: Shadow Sensor Dampening Battery
     volume: 4000.0

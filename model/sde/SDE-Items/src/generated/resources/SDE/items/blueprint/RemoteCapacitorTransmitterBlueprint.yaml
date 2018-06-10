@@ -26,17 +26,20 @@ items:
   Capital Inductive Compact Remote Capacitor Transmitter Blueprint:
     TechLevel: 1
     id: 41698
+    marketGroup: 1562
     name: Capital Inductive Compact Remote Capacitor Transmitter Blueprint
     volume: 0.01
   Capital Radiative Scoped Remote Capacitor Transmitter Blueprint:
     TechLevel: 1
     id: 41697
+    marketGroup: 1562
     name: Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
     volume: 0.01
   Capital Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 12220
+    marketGroup: 1562
     name: Capital Remote Capacitor Transmitter I Blueprint
     volume: 0.01
   Capital Remote Capacitor Transmitter II Blueprint:
@@ -67,6 +70,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 12226
+    marketGroup: 1562
     name: Large Remote Capacitor Transmitter I Blueprint
     volume: 0.01
   Large Remote Capacitor Transmitter II Blueprint:
@@ -79,6 +83,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 12218
+    marketGroup: 1562
     name: Medium Remote Capacitor Transmitter I Blueprint
     volume: 0.01
   Medium Remote Capacitor Transmitter II Blueprint:
@@ -91,6 +96,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1105
+    marketGroup: 1562
     name: Small Remote Capacitor Transmitter I Blueprint
     volume: 0.01
   Small Remote Capacitor Transmitter II Blueprint:

@@ -107,6 +107,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 11567
+    marketGroup: 813
     name: Avatar
     volume: 1.55E8
   Erebus:
@@ -217,6 +218,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 671
+    marketGroup: 815
     name: Erebus
     volume: 1.455E8
   Komodo:
@@ -341,6 +343,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 45649
+    marketGroup: 2287
     name: Komodo
     volume: 1.325E8
   Leviathan:
@@ -453,6 +456,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 3764
+    marketGroup: 814
     name: Leviathan
     volume: 1.325E8
   Molok:
@@ -572,6 +576,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 42241
+    marketGroup: 2287
     name: Molok
     volume: 1.55E8
   Ragnarok:
@@ -681,6 +686,7 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 23773
+    marketGroup: 816
     name: Ragnarok
     volume: 1.0E8
   Vanquisher:
@@ -799,5 +805,6 @@ items:
     WarpSpeedMultiplier: 1.3700000047683716
     WeaponDisruptionResistance: 0.20000000298023224
     id: 42126
+    marketGroup: 2287
     name: Vanquisher
     volume: 1.455E8

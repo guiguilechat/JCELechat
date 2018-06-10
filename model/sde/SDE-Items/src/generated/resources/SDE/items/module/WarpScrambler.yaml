@@ -21,6 +21,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 21512
+    marketGroup: 1936
     name: '''Delineative'' Warp Scrambler'
     volume: 5.0
   '''Interruptive'' Warp Disruptor':
@@ -41,6 +42,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 21510
+    marketGroup: 1935
     name: '''Interruptive'' Warp Disruptor'
     volume: 5.0
   Abyssal Warp Disruptor:
@@ -77,6 +79,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 16140
+    marketGroup: 1936
     name: CONCORD Modified Warp Scrambler
     volume: 5.0
   Caldari Navy Warp Disruptor:
@@ -97,6 +100,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 15889
+    marketGroup: 1935
     name: Caldari Navy Warp Disruptor
     volume: 5.0
   Caldari Navy Warp Scrambler:
@@ -121,6 +125,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 15887
+    marketGroup: 1936
     name: Caldari Navy Warp Scrambler
     volume: 5.0
   Civilian Warp Disruptor:
@@ -133,6 +138,7 @@ items:
     Power: 1
     TechLevel: 1
     id: 32459
+    marketGroup: 1935
     name: Civilian Warp Disruptor
     volume: 5.0
   Dark Blood Warp Disruptor:
@@ -153,6 +159,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 14242
+    marketGroup: 1935
     name: Dark Blood Warp Disruptor
     volume: 5.0
   Dark Blood Warp Scrambler:
@@ -177,6 +184,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 14252
+    marketGroup: 1936
     name: Dark Blood Warp Scrambler
     volume: 5.0
   Domination Heavy Warp Disruptor:
@@ -197,6 +205,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 4
     id: 40737
+    marketGroup: 1935
     name: Domination Heavy Warp Disruptor
     volume: 100.0
   Domination Heavy Warp Scrambler:
@@ -221,6 +230,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 8
     id: 40764
+    marketGroup: 1936
     name: Domination Heavy Warp Scrambler
     volume: 100.0
   Domination Warp Disruptor:
@@ -241,6 +251,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 14244
+    marketGroup: 1935
     name: Domination Warp Disruptor
     volume: 5.0
   Domination Warp Scrambler:
@@ -265,6 +276,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 14254
+    marketGroup: 1936
     name: Domination Warp Scrambler
     volume: 5.0
   Dread Guristas Warp Disruptor:
@@ -285,6 +297,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 14246
+    marketGroup: 1935
     name: Dread Guristas Warp Disruptor
     volume: 5.0
   Dread Guristas Warp Scrambler:
@@ -309,6 +322,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 14256
+    marketGroup: 1936
     name: Dread Guristas Warp Scrambler
     volume: 5.0
   Faint Epsilon Scoped Warp Scrambler:
@@ -332,6 +346,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 5443
+    marketGroup: 1936
     name: Faint Epsilon Scoped Warp Scrambler
     volume: 5.0
   Faint Scoped Warp Disruptor:
@@ -351,6 +366,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 5403
+    marketGroup: 1935
     name: Faint Scoped Warp Disruptor
     volume: 5.0
   Federation Navy Warp Disruptor:
@@ -371,6 +387,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 41062
+    marketGroup: 1935
     name: Federation Navy Warp Disruptor
     volume: 5.0
   Federation Navy Warp Scrambler:
@@ -395,6 +412,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 41061
+    marketGroup: 1936
     name: Federation Navy Warp Scrambler
     volume: 5.0
   Fleeting Progressive Warp Scrambler I:
@@ -456,6 +474,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 5
     id: 14660
+    marketGroup: 1935
     name: Gotan's Modified Heavy Warp Disruptor
     volume: 5.0
   Gotan's Modified Heavy Warp Scrambler:
@@ -480,6 +499,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 10
     id: 14668
+    marketGroup: 1936
     name: Gotan's Modified Heavy Warp Scrambler
     volume: 5.0
   Hakim's Modified Heavy Warp Disruptor:
@@ -500,6 +520,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 5
     id: 14658
+    marketGroup: 1935
     name: Hakim's Modified Heavy Warp Disruptor
     volume: 5.0
   Hakim's Modified Heavy Warp Scrambler:
@@ -524,6 +545,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 10
     id: 14666
+    marketGroup: 1936
     name: Hakim's Modified Heavy Warp Scrambler
     volume: 5.0
   Heavy Faint Epsilon Scoped Warp Scrambler:
@@ -547,6 +569,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 6
     id: 40756
+    marketGroup: 1936
     name: Heavy Faint Epsilon Scoped Warp Scrambler
     volume: 100.0
   Heavy Faint Scoped Warp Disruptor:
@@ -566,6 +589,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 40733
+    marketGroup: 1935
     name: Heavy Faint Scoped Warp Disruptor
     volume: 100.0
   Heavy Fleeting Compact Warp Disruptor:
@@ -585,6 +609,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 40731
+    marketGroup: 1935
     name: Heavy Fleeting Compact Warp Disruptor
     volume: 100.0
   Heavy Initiated Compact Warp Scrambler:
@@ -608,6 +633,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 6
     id: 40752
+    marketGroup: 1936
     name: Heavy Initiated Compact Warp Scrambler
     volume: 100.0
   Heavy J5 Enduring Warp Disruptor:
@@ -627,6 +653,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 40732
+    marketGroup: 1935
     name: Heavy J5 Enduring Warp Disruptor
     volume: 100.0
   Heavy J5b Enduring Warp Scrambler:
@@ -650,6 +677,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 6
     id: 40754
+    marketGroup: 1936
     name: Heavy J5b Enduring Warp Scrambler
     volume: 100.0
   Heavy Warp Disruptor I:
@@ -668,6 +696,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 40730
+    marketGroup: 1935
     name: Heavy Warp Disruptor I
     volume: 100.0
   Heavy Warp Disruptor II:
@@ -687,6 +716,7 @@ items:
     TechLevel: 2
     WarpScrambleStrength: 3
     id: 40734
+    marketGroup: 1935
     name: Heavy Warp Disruptor II
     volume: 100.0
   Heavy Warp Scrambler I:
@@ -709,6 +739,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 6
     id: 40750
+    marketGroup: 1936
     name: Heavy Warp Scrambler I
     volume: 100.0
   Heavy Warp Scrambler II:
@@ -732,6 +763,7 @@ items:
     TechLevel: 2
     WarpScrambleStrength: 6
     id: 40758
+    marketGroup: 1936
     name: Heavy Warp Scrambler II
     volume: 100.0
   Initiated Compact Warp Disruptor:
@@ -751,6 +783,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 5405
+    marketGroup: 1935
     name: Initiated Compact Warp Disruptor
     volume: 5.0
   Initiated Compact Warp Scrambler:
@@ -774,6 +807,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 5445
+    marketGroup: 1936
     name: Initiated Compact Warp Scrambler
     volume: 5.0
   J5 Enduring Warp Disruptor:
@@ -793,6 +827,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 5399
+    marketGroup: 1935
     name: J5 Enduring Warp Disruptor
     volume: 5.0
   J5b Enduring Warp Scrambler:
@@ -816,6 +851,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 5439
+    marketGroup: 1936
     name: J5b Enduring Warp Scrambler
     volume: 5.0
   Khanid Navy Warp Disruptor:
@@ -836,6 +872,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 28516
+    marketGroup: 1935
     name: Khanid Navy Warp Disruptor
     volume: 5.0
   Khanid Navy Warp Scrambler:
@@ -860,6 +897,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 28518
+    marketGroup: 1936
     name: Khanid Navy Warp Scrambler
     volume: 5.0
   Makur's Modified Warp Disruptor:
@@ -878,6 +916,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 15431
+    marketGroup: 1935
     name: Makur's Modified Warp Disruptor
     volume: 5.0
   Makur's Modified Warp Scrambler:
@@ -901,6 +940,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 15433
+    marketGroup: 1936
     name: Makur's Modified Warp Scrambler
     volume: 5.0
   Mizuro's Modified Heavy Warp Disruptor:
@@ -921,6 +961,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 5
     id: 14656
+    marketGroup: 1935
     name: Mizuro's Modified Heavy Warp Disruptor
     volume: 5.0
   Mizuro's Modified Heavy Warp Scrambler:
@@ -945,6 +986,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 10
     id: 14664
+    marketGroup: 1936
     name: Mizuro's Modified Heavy Warp Scrambler
     volume: 5.0
   Republic Fleet Warp Disruptor:
@@ -965,6 +1007,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 15891
+    marketGroup: 1935
     name: Republic Fleet Warp Disruptor
     volume: 5.0
   Republic Fleet Warp Scrambler:
@@ -989,6 +1032,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 15893
+    marketGroup: 1936
     name: Republic Fleet Warp Scrambler
     volume: 5.0
   Shadow Serpentis Heavy Warp Disruptor:
@@ -1009,6 +1053,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 4
     id: 40736
+    marketGroup: 1935
     name: Shadow Serpentis Heavy Warp Disruptor
     volume: 100.0
   Shadow Serpentis Heavy Warp Scrambler:
@@ -1033,6 +1078,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 8
     id: 40762
+    marketGroup: 1936
     name: Shadow Serpentis Heavy Warp Scrambler
     volume: 100.0
   Shadow Serpentis Warp Disruptor:
@@ -1053,6 +1099,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 14250
+    marketGroup: 1935
     name: Shadow Serpentis Warp Disruptor
     volume: 5.0
   Shadow Serpentis Warp Scrambler:
@@ -1077,6 +1124,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 14260
+    marketGroup: 1936
     name: Shadow Serpentis Warp Scrambler
     volume: 5.0
   Tobias' Modified Heavy Warp Disruptor:
@@ -1097,6 +1145,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 5
     id: 14662
+    marketGroup: 1935
     name: Tobias' Modified Heavy Warp Disruptor
     volume: 5.0
   Tobias' Modified Heavy Warp Scrambler:
@@ -1121,6 +1170,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 10
     id: 14670
+    marketGroup: 1936
     name: Tobias' Modified Heavy Warp Scrambler
     volume: 5.0
   True Sansha Warp Disruptor:
@@ -1141,6 +1191,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 14248
+    marketGroup: 1935
     name: True Sansha Warp Disruptor
     volume: 5.0
   True Sansha Warp Scrambler:
@@ -1165,6 +1216,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 3
     id: 14258
+    marketGroup: 1936
     name: True Sansha Warp Scrambler
     volume: 5.0
   Warp Disruptor I:
@@ -1182,6 +1234,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 1
     id: 3242
+    marketGroup: 1935
     name: Warp Disruptor I
     volume: 5.0
   Warp Disruptor II:
@@ -1200,6 +1253,7 @@ items:
     TechLevel: 2
     WarpScrambleStrength: 1
     id: 3244
+    marketGroup: 1935
     name: Warp Disruptor II
     volume: 5.0
   Warp Prohibitor I:
@@ -1242,6 +1296,7 @@ items:
     TechLevel: 1
     WarpScrambleStrength: 2
     id: 447
+    marketGroup: 1936
     name: Warp Scrambler I
     volume: 5.0
   Warp Scrambler II:
@@ -1265,5 +1320,6 @@ items:
     TechLevel: 2
     WarpScrambleStrength: 2
     id: 448
+    marketGroup: 1936
     name: Warp Scrambler II
     volume: 5.0

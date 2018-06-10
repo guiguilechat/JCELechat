@@ -14,6 +14,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 19658
+    marketGroup: 1663
     name: Melted Snowball CVII
     volume: 1.0
   Melted Snowball CX:
@@ -33,5 +34,6 @@ items:
     TechLevel: 1
     ThermalDamage: -10.0
     id: 30222
+    marketGroup: 1663
     name: Melted Snowball CX
     volume: 1.0

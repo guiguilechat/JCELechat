@@ -19,5 +19,6 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 23735
+    marketGroup: 1642
     name: Clone Vat Bay I
     volume: 4000.0

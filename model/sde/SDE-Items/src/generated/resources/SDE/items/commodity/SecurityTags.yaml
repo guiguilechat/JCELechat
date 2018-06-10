@@ -2,20 +2,24 @@ items:
   Clone Soldier Negotiator Tag:
     SecurityProcessingFee: 6000000
     id: 33141
+    marketGroup: 1700
     name: Clone Soldier Negotiator Tag
     volume: 0.1
   Clone Soldier Recruiter Tag:
     SecurityProcessingFee: 4000000
     id: 33139
+    marketGroup: 1700
     name: Clone Soldier Recruiter Tag
     volume: 0.1
   Clone Soldier Trainer Tag:
     SecurityProcessingFee: 3000000
     id: 33138
+    marketGroup: 1700
     name: Clone Soldier Trainer Tag
     volume: 0.1
   Clone Soldier Transporter Tag:
     SecurityProcessingFee: 5000000
     id: 33140
+    marketGroup: 1700
     name: Clone Soldier Transporter Tag
     volume: 0.1

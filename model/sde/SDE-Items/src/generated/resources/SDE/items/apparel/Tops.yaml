@@ -2,700 +2,840 @@ items:
   Men's 'Emergent Threats' T-shirt YC 117:
     Gender: 1
     id: 34824
+    marketGroup: 1398
     name: Men's 'Emergent Threats' T-shirt YC 117
     volume: 0.1
   Men's 'Form' T-shirt (Blood Raiders):
     Gender: 1
     id: 42704
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (Blood Raiders)
     volume: 0.1
   Men's 'Form' T-shirt (black):
     Gender: 1
     id: 4180
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (black)
     volume: 0.1
   Men's 'Form' T-shirt (blue):
     Gender: 1
     id: 4181
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (blue)
     volume: 0.1
   Men's 'Form' T-shirt (brown):
     Gender: 1
     id: 4182
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (brown)
     volume: 0.1
   Men's 'Form' T-shirt (dark blue):
     Gender: 1
     id: 4183
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (dark blue)
     volume: 0.1
   Men's 'Form' T-shirt (dark camo):
     Gender: 1
     id: 4188
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (dark camo)
     volume: 0.1
   Men's 'Form' T-shirt (dark red):
     Gender: 1
     id: 4184
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (dark red)
     volume: 0.1
   Men's 'Form' T-shirt (desert camo):
     Gender: 1
     id: 4189
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (desert camo)
     volume: 0.1
   Men's 'Form' T-shirt (khaki):
     Gender: 1
     id: 4185
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (khaki)
     volume: 0.1
   Men's 'Form' T-shirt (light gray):
     Gender: 1
     id: 4186
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (light gray)
     volume: 0.1
   Men's 'Form' T-shirt (olive):
     Gender: 1
     id: 4187
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (olive)
     volume: 0.1
   Men's 'Form' T-shirt (white):
     Gender: 1
     id: 4190
+    marketGroup: 1398
     name: Men's 'Form' T-shirt (white)
     volume: 0.1
   Men's 'Hephaestus' Shirt (blue):
     Gender: 1
     id: 36480
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (blue)
     volume: 0.1
   Men's 'Hephaestus' Shirt (cyan):
     Gender: 1
     id: 36483
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (cyan)
     volume: 0.1
   Men's 'Hephaestus' Shirt (desert):
     Gender: 1
     id: 36482
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (desert)
     volume: 0.1
   Men's 'Hephaestus' Shirt (gray/orange):
     Gender: 1
     id: 36485
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (gray/orange)
     volume: 0.1
   Men's 'Hephaestus' Shirt (green):
     Gender: 1
     id: 36484
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (green)
     volume: 0.1
   Men's 'Hephaestus' Shirt (white/red):
     Gender: 1
     id: 36481
+    marketGroup: 1398
     name: Men's 'Hephaestus' Shirt (white/red)
     volume: 0.1
   Men's 'Humanitarian' T-shirt YC 115:
     Gender: 1
     id: 33578
+    marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 115
     volume: 0.1
   Men's 'Humanitarian' T-shirt YC 117:
     Gender: 1
     id: 35681
+    marketGroup: 1398
     name: Men's 'Humanitarian' T-shirt YC 117
     volume: 0.1
   Men's 'Luxury' T-shirt:
     Gender: 1
     id: 33488
+    marketGroup: 1398
     name: Men's 'Luxury' T-shirt
     volume: 0.1
   Men's 'Mirelle' T-Shirt (Upwell):
     Gender: 1
     id: 40526
+    marketGroup: 1398
     name: Men's 'Mirelle' T-Shirt (Upwell)
     volume: 0.1
   Men's 'New Eden Open I' T-shirt YC 114:
     Gender: 1
     id: 33769
+    marketGroup: 1662
     name: Men's 'New Eden Open I' T-shirt YC 114
     volume: 0.1
   Men's 'New Eden Open II' T-shirt YC 116:
     Gender: 1
     id: 33770
+    marketGroup: 1662
     name: Men's 'New Eden Open II' T-shirt YC 116
     volume: 0.1
   Men's 'Quafe' T-shirt YC 113:
     Gender: 1
     id: 4067
+    marketGroup: 1398
     name: Men's 'Quafe' T-shirt YC 113
     volume: 0.1
   Men's 'Quafe' T-shirt YC 114:
     Gender: 1
     id: 4365
+    marketGroup: 1398
     name: Men's 'Quafe' T-shirt YC 114
     volume: 0.1
   Men's 'Quafe' T-shirt YC 115:
     Gender: 2
     id: 33107
+    marketGroup: 1398
     name: Men's 'Quafe' T-shirt YC 115
     volume: 0.1
   Men's 'Quafe' T-shirt YC 116:
     Gender: 1
     id: 33812
+    marketGroup: 1662
     name: Men's 'Quafe' T-shirt YC 116
     volume: 0.1
   Men's 'Quafethron' T-shirt:
     Gender: 1
     id: 34210
+    marketGroup: 1662
     name: Men's 'Quafethron' T-shirt
     volume: 0.1
   Men's 'Red Star' T-shirt:
     Gender: 1
     id: 33062
+    marketGroup: 1398
     name: Men's 'Red Star' T-shirt
     volume: 0.1
   Men's 'Serpentis' T-shirt (olive/black):
     Gender: 1
     id: 37866
+    marketGroup: 1398
     name: Men's 'Serpentis' T-shirt (olive/black)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (Ishukone Special Edition):
     Gender: 1
     id: 4068
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (Ishukone Special Edition)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (black):
     Gender: 1
     id: 4057
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (black)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (dust):
     Gender: 1
     id: 4059
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (dust)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (gold leather):
     Gender: 1
     id: 4240
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (gold leather)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (gray):
     Gender: 1
     id: 4241
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (gray)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (navy):
     Gender: 1
     id: 4058
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (navy)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (olive):
     Gender: 1
     id: 4060
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (olive)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (red/black leather):
     Gender: 1
     id: 4242
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (red/black leather)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (white):
     Gender: 1
     id: 4367
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (white)
     volume: 0.1
   Men's 'Sterling' Dress Shirt (white/blue):
     Gender: 1
     id: 4243
+    marketGroup: 1398
     name: Men's 'Sterling' Dress Shirt (white/blue)
     volume: 0.1
   Men's 'Street' Shirt (black):
     Gender: 1
     id: 4191
+    marketGroup: 1398
     name: Men's 'Street' Shirt (black)
     volume: 0.1
   Men's 'Street' Shirt (blue):
     Gender: 1
     id: 4192
+    marketGroup: 1398
     name: Men's 'Street' Shirt (blue)
     volume: 0.1
   Men's 'Street' Shirt (brown camo):
     Gender: 1
     id: 4197
+    marketGroup: 1398
     name: Men's 'Street' Shirt (brown camo)
     volume: 0.1
   Men's 'Street' Shirt (brown):
     Gender: 1
     id: 4193
+    marketGroup: 1398
     name: Men's 'Street' Shirt (brown)
     volume: 0.1
   Men's 'Street' Shirt (gray urban camo):
     Gender: 1
     id: 4196
+    marketGroup: 1398
     name: Men's 'Street' Shirt (gray urban camo)
     volume: 0.1
   Men's 'Street' Shirt (gray):
     Gender: 1
     id: 4194
+    marketGroup: 1398
     name: Men's 'Street' Shirt (gray)
     volume: 0.1
   Men's 'Street' Shirt (green camo):
     Gender: 1
     id: 4199
+    marketGroup: 1398
     name: Men's 'Street' Shirt (green camo)
     volume: 0.1
   Men's 'Street' Shirt (green):
     Gender: 1
     id: 4195
+    marketGroup: 1398
     name: Men's 'Street' Shirt (green)
     volume: 0.1
   Men's 'Street' Shirt (urban camo):
     Gender: 1
     id: 4198
+    marketGroup: 1398
     name: Men's 'Street' Shirt (urban camo)
     volume: 0.1
   Men's 'Street' Shirt (white):
     Gender: 1
     id: 4200
+    marketGroup: 1398
     name: Men's 'Street' Shirt (white)
     volume: 0.1
   Men's Amarr 'Loyalist' T-Shirt:
     Gender: 2
     id: 47182
+    marketGroup: 1398
     name: Men's Amarr 'Loyalist' T-Shirt
     volume: 0.1
   Men's CONCORD Test Pilot T-Shirt:
     Gender: 1
     id: 37809
+    marketGroup: 1398
     name: Men's CONCORD Test Pilot T-Shirt
     volume: 0.1
   Men's Caldari 'Patriot' T-Shirt:
     Gender: 2
     id: 47188
+    marketGroup: 1398
     name: Men's Caldari 'Patriot' T-Shirt
     volume: 0.1
   Men's Capsuleer Elite XV T-Shirt:
     Gender: 2
     id: 47190
+    marketGroup: 1398
     name: Men's Capsuleer Elite XV T-Shirt
     volume: 0.1
   Men's Capsuleer Networker XV T-Shirt:
     Gender: 2
     id: 47480
+    marketGroup: 1398
     name: Men's Capsuleer Networker XV T-Shirt
     volume: 0.1
   Men's Exoplanets Hunter T-shirt:
     Gender: 2
     id: 45743
+    marketGroup: 1398
     name: Men's Exoplanets Hunter T-shirt
     volume: 0.1
   Men's Gallente 'Defender' T-Shirt:
     Gender: 2
     id: 47184
+    marketGroup: 1398
     name: Men's Gallente 'Defender' T-Shirt
     volume: 0.1
   Men's Minmatar 'Liberator' T-Shirt:
     Gender: 2
     id: 47183
+    marketGroup: 1398
     name: Men's Minmatar 'Liberator' T-Shirt
     volume: 0.1
   Men's YC119 Yoiul Festival T-shirt:
     Gender: 1
     id: 44123
+    marketGroup: 1398
     name: Men's YC119 Yoiul Festival T-shirt
     volume: 0.1
   Women's 'Avenue' Shirt (black and dark red):
     Gender: 3
     id: 4229
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (black and dark red)
     volume: 0.1
   Women's 'Avenue' Shirt (black leather):
     Gender: 3
     id: 4217
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (black leather)
     volume: 0.1
   Women's 'Avenue' Shirt (black):
     Gender: 3
     id: 4216
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (black)
     volume: 0.1
   Women's 'Avenue' Shirt (blue):
     Gender: 3
     id: 4218
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (blue)
     volume: 0.1
   Women's 'Avenue' Shirt (brown):
     Gender: 3
     id: 4219
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (brown)
     volume: 0.1
   Women's 'Avenue' Shirt (camo):
     Gender: 3
     id: 4226
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (camo)
     volume: 0.1
   Women's 'Avenue' Shirt (gray camo):
     Gender: 3
     id: 4223
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (gray camo)
     volume: 0.1
   Women's 'Avenue' Shirt (gray):
     Gender: 3
     id: 4220
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (gray)
     volume: 0.1
   Women's 'Avenue' Shirt (green):
     Gender: 3
     id: 4221
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (green)
     volume: 0.1
   Women's 'Avenue' Shirt (lined brown):
     Gender: 3
     id: 4227
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (lined brown)
     volume: 0.1
   Women's 'Avenue' Shirt (orange camo):
     Gender: 3
     id: 4224
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (orange camo)
     volume: 0.1
   Women's 'Avenue' Shirt (orange):
     Gender: 3
     id: 4222
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (orange)
     volume: 0.1
   Women's 'Avenue' Shirt (pink camo):
     Gender: 3
     id: 4230
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (pink camo)
     volume: 0.1
   Women's 'Avenue' Shirt (purple mesh):
     Gender: 3
     id: 4228
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (purple mesh)
     volume: 0.1
   Women's 'Avenue' Shirt (red patterned):
     Gender: 3
     id: 4225
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (red patterned)
     volume: 0.1
   Women's 'Avenue' Shirt (red):
     Gender: 3
     id: 4231
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (red)
     volume: 0.1
   Women's 'Avenue' Shirt (white):
     Gender: 3
     id: 4232
+    marketGroup: 1406
     name: Women's 'Avenue' Shirt (white)
     volume: 0.1
   Women's 'Emergent Threats' T-shirt YC 117:
     Gender: 3
     id: 34825
+    marketGroup: 1406
     name: Women's 'Emergent Threats' T-shirt YC 117
     volume: 0.1
   Women's 'Function' T-shirt (Blood Raiders):
     Gender: 3
     id: 42700
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (Blood Raiders)
     volume: 0.1
   Women's 'Function' T-shirt (black):
     Gender: 3
     id: 4201
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (black)
     volume: 0.1
   Women's 'Function' T-shirt (blue):
     Gender: 3
     id: 4202
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (blue)
     volume: 0.1
   Women's 'Function' T-shirt (brown):
     Gender: 3
     id: 4203
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (brown)
     volume: 0.1
   Women's 'Function' T-shirt (cream):
     Gender: 3
     id: 4204
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (cream)
     volume: 0.1
   Women's 'Function' T-shirt (dark blue):
     Gender: 3
     id: 4205
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (dark blue)
     volume: 0.1
   Women's 'Function' T-shirt (dark camo):
     Gender: 3
     id: 4212
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (dark camo)
     volume: 0.1
   Women's 'Function' T-shirt (dark red):
     Gender: 3
     id: 4206
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (dark red)
     volume: 0.1
   Women's 'Function' T-shirt (desert camo):
     Gender: 3
     id: 4213
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (desert camo)
     volume: 0.1
   Women's 'Function' T-shirt (gray):
     Gender: 3
     id: 4207
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (gray)
     volume: 0.1
   Women's 'Function' T-shirt (green):
     Gender: 3
     id: 4208
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (green)
     volume: 0.1
   Women's 'Function' T-shirt (khaki):
     Gender: 3
     id: 4209
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (khaki)
     volume: 0.1
   Women's 'Function' T-shirt (olive):
     Gender: 3
     id: 4210
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (olive)
     volume: 0.1
   Women's 'Function' T-shirt (orange):
     Gender: 3
     id: 4211
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (orange)
     volume: 0.1
   Women's 'Function' T-shirt (red):
     Gender: 3
     id: 4214
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (red)
     volume: 0.1
   Women's 'Function' T-shirt (white):
     Gender: 3
     id: 4215
+    marketGroup: 1406
     name: Women's 'Function' T-shirt (white)
     volume: 0.1
   Women's 'Hephaestus' Shirt (blue):
     Gender: 3
     id: 36486
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (blue)
     volume: 0.1
   Women's 'Hephaestus' Shirt (cyan):
     Gender: 3
     id: 36489
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (cyan)
     volume: 0.1
   Women's 'Hephaestus' Shirt (desert):
     Gender: 3
     id: 36488
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (desert)
     volume: 0.1
   Women's 'Hephaestus' Shirt (gray/orange):
     Gender: 3
     id: 36491
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (gray/orange)
     volume: 0.1
   Women's 'Hephaestus' Shirt (green):
     Gender: 3
     id: 36490
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (green)
     volume: 0.1
   Women's 'Hephaestus' Shirt (white/red):
     Gender: 3
     id: 36487
+    marketGroup: 1406
     name: Women's 'Hephaestus' Shirt (white/red)
     volume: 0.1
   Women's 'Humanitarian' T-shirt YC 115:
     Gender: 3
     id: 33579
+    marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 115
     volume: 0.1
   Women's 'Humanitarian' T-shirt YC 117:
     Gender: 3
     id: 35682
+    marketGroup: 1406
     name: Women's 'Humanitarian' T-shirt YC 117
     volume: 0.1
   Women's 'Luxury' T-shirt:
     Gender: 3
     id: 33487
+    marketGroup: 1406
     name: Women's 'Luxury' T-shirt
     volume: 0.1
   Women's 'Mirelle' T-Shirt (Upwell):
     Gender: 3
     id: 40527
+    marketGroup: 1406
     name: Women's 'Mirelle' T-Shirt (Upwell)
     volume: 0.1
   Women's 'New Eden Open I' T-shirt YC 114:
     Gender: 3
     id: 33767
+    marketGroup: 1662
     name: Women's 'New Eden Open I' T-shirt YC 114
     volume: 0.1
   Women's 'New Eden Open II' T-shirt YC 116:
     Gender: 3
     id: 33768
+    marketGroup: 1662
     name: Women's 'New Eden Open II' T-shirt YC 116
     volume: 0.1
   Women's 'Quafe' T-shirt YC 113:
     Gender: 3
     id: 4066
+    marketGroup: 1406
     name: Women's 'Quafe' T-shirt YC 113
     volume: 0.1
   Women's 'Quafe' T-shirt YC 114:
     Gender: 3
     id: 4366
+    marketGroup: 1406
     name: Women's 'Quafe' T-shirt YC 114
     volume: 0.1
   Women's 'Quafe' T-shirt YC 115:
     Gender: 2
     id: 33109
+    marketGroup: 1406
     name: Women's 'Quafe' T-shirt YC 115
     volume: 0.1
   Women's 'Quafe' T-shirt YC 116:
     Gender: 3
     id: 33813
+    marketGroup: 1662
     name: Women's 'Quafe' T-shirt YC 116
     volume: 0.1
   Women's 'Quafethron' T-shirt:
     Gender: 3
     id: 34211
+    marketGroup: 1662
     name: Women's 'Quafethron' T-shirt
     volume: 0.1
   Women's 'Red Star' T-shirt:
     Gender: 3
     id: 33063
+    marketGroup: 1406
     name: Women's 'Red Star' T-shirt
     volume: 0.1
   Women's 'Serpentis' T-shirt (olive/black):
     Gender: 3
     id: 37865
+    marketGroup: 1406
     name: Women's 'Serpentis' T-shirt (olive/black)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (Blood Raider):
     Gender: 3
     id: 42707
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (Blood Raider)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (black leather):
     Gender: 3
     id: 4155
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (black leather)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (black):
     Gender: 3
     id: 4061
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (black)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (black/white):
     Gender: 3
     id: 4156
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (black/white)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (dust):
     Gender: 3
     id: 4063
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (dust)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (gold):
     Gender: 3
     id: 4157
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (gold)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (graphite):
     Gender: 3
     id: 4158
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (graphite)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (green satin):
     Gender: 3
     id: 4159
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (green satin)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (matte black):
     Gender: 3
     id: 4160
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (matte black)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (matte blue):
     Gender: 3
     id: 4161
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (matte blue)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (matte olive):
     Gender: 3
     id: 4162
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (matte olive)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (navy):
     Gender: 3
     id: 4062
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (navy)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (olive):
     Gender: 3
     id: 4064
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (olive)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (orange satin):
     Gender: 3
     id: 4163
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (orange satin)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (platinum):
     Gender: 3
     id: 4065
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (platinum)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (red satin):
     Gender: 3
     id: 4164
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (red satin)
     volume: 0.1
   Women's 'Sterling' Dress Blouse (white):
     Gender: 3
     id: 4368
+    marketGroup: 1406
     name: Women's 'Sterling' Dress Blouse (white)
     volume: 0.1
   Women's Amarr 'Loyalist' T-Shirt:
     Gender: 2
     id: 47186
+    marketGroup: 1406
     name: Women's Amarr 'Loyalist' T-Shirt
     volume: 0.1
   Women's CONCORD Test Pilot T-Shirt:
     Gender: 3
     id: 37808
+    marketGroup: 1406
     name: Women's CONCORD Test Pilot T-Shirt
     volume: 0.1
   Women's Caldari 'Patriot' T-Shirt:
     Gender: 2
     id: 47189
+    marketGroup: 1406
     name: Women's Caldari 'Patriot' T-Shirt
     volume: 0.1
   Women's Capsuleer Elite XV T-Shirt:
     Gender: 2
     id: 47192
+    marketGroup: 1406
     name: Women's Capsuleer Elite XV T-Shirt
     volume: 0.1
   Women's Capsuleer Networker XV T-Shirt:
     Gender: 2
     id: 47479
+    marketGroup: 1406
     name: Women's Capsuleer Networker XV T-Shirt
     volume: 0.1
   Women's Exoplanets Hunter T-shirt:
     Gender: 2
     id: 45734
+    marketGroup: 1406
     name: Women's Exoplanets Hunter T-shirt
     volume: 0.1
   Women's Gallente 'Defender' T-Shirt:
     Gender: 2
     id: 47185
+    marketGroup: 1406
     name: Women's Gallente 'Defender' T-Shirt
     volume: 0.1
   Women's Minmatar 'Liberator' T-Shirt:
     Gender: 2
     id: 47187
+    marketGroup: 1406
     name: Women's Minmatar 'Liberator' T-Shirt
     volume: 0.1
   Women's YC119 Yoiul Festival T-shirt:
     Gender: 3
     id: 44120
+    marketGroup: 1406
     name: Women's YC119 Yoiul Festival T-shirt
     volume: 0.1

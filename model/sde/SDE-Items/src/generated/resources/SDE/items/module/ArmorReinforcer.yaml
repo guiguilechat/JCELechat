@@ -11,6 +11,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 23783
+    marketGroup: 1672
     name: '''Abatis'' 100mm Steel Plates'
     volume: 5.0
   '''Bailey'' 1600mm Steel Plates':
@@ -25,6 +26,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 23785
+    marketGroup: 1676
     name: '''Bailey'' 1600mm Steel Plates'
     volume: 20.0
   '''Barbican'' 800mm Steel Plates':
@@ -39,6 +41,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 23793
+    marketGroup: 1675
     name: '''Barbican'' 800mm Steel Plates'
     volume: 20.0
   '''Bastion'' 400mm Steel Plates':
@@ -53,6 +56,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 23789
+    marketGroup: 1674
     name: '''Bastion'' 400mm Steel Plates'
     volume: 10.0
   '''Chainmail'' 200mm Steel Plates':
@@ -67,6 +71,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 23787
+    marketGroup: 1673
     name: '''Chainmail'' 200mm Steel Plates'
     volume: 10.0
   '''Citadella'' 100mm Steel Plates':
@@ -80,6 +85,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 23791
+    marketGroup: 1672
     name: '''Citadella'' 100mm Steel Plates'
     volume: 5.0
   100mm Crystalline Carbonide Restrained Plates:
@@ -93,6 +99,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 11343
+    marketGroup: 1672
     name: 100mm Crystalline Carbonide Restrained Plates
     volume: 5.0
   100mm Reinforced Nanofiber Plates I:
@@ -129,6 +136,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 11341
+    marketGroup: 1672
     name: 100mm Rolled Tungsten Compact Plates
     volume: 5.0
   100mm Steel Plates I:
@@ -140,6 +148,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 11293
+    marketGroup: 1672
     name: 100mm Steel Plates I
     volume: 5.0
   100mm Steel Plates II:
@@ -153,6 +162,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 2
     id: 20345
+    marketGroup: 1672
     name: 100mm Steel Plates II
     volume: 5.0
   1600mm Crystalline Carbonide Restrained Plates:
@@ -166,6 +176,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11327
+    marketGroup: 1676
     name: 1600mm Crystalline Carbonide Restrained Plates
     volume: 20.0
   1600mm Reinforced Nanofiber Plates I:
@@ -203,6 +214,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11325
+    marketGroup: 1676
     name: 1600mm Rolled Tungsten Compact Plates
     volume: 20.0
   1600mm Steel Plates I:
@@ -214,6 +226,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11279
+    marketGroup: 1676
     name: 1600mm Steel Plates I
     volume: 20.0
   1600mm Steel Plates II:
@@ -227,6 +240,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 20353
+    marketGroup: 1676
     name: 1600mm Steel Plates II
     volume: 20.0
   200mm Crystalline Carbonide Restrained Plates:
@@ -240,6 +254,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 11351
+    marketGroup: 1673
     name: 200mm Crystalline Carbonide Restrained Plates
     volume: 10.0
   200mm Reinforced Nanofiber Plates I:
@@ -277,6 +292,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 11349
+    marketGroup: 1673
     name: 200mm Rolled Tungsten Compact Plates
     volume: 10.0
   200mm Steel Plates I:
@@ -288,6 +304,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 11295
+    marketGroup: 1673
     name: 200mm Steel Plates I
     volume: 10.0
   200mm Steel Plates II:
@@ -301,6 +318,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 20347
+    marketGroup: 1673
     name: 200mm Steel Plates II
     volume: 10.0
   25000mm Crystalline Carbonide Restrained Plates:
@@ -314,6 +332,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 40349
+    marketGroup: 2240
     name: 25000mm Crystalline Carbonide Restrained Plates
     volume: 4000.0
   25000mm Rolled Tungsten Compact Plates:
@@ -327,6 +346,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 40350
+    marketGroup: 2240
     name: 25000mm Rolled Tungsten Compact Plates
     volume: 4000.0
   25000mm Steel Plates I:
@@ -339,6 +359,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 40348
+    marketGroup: 2240
     name: 25000mm Steel Plates I
     volume: 4000.0
   25000mm Steel Plates II:
@@ -352,6 +373,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 40351
+    marketGroup: 2240
     name: 25000mm Steel Plates II
     volume: 4000.0
   400mm Crystalline Carbonide Restrained Plates:
@@ -365,6 +387,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11311
+    marketGroup: 1674
     name: 400mm Crystalline Carbonide Restrained Plates
     volume: 10.0
   400mm Reinforced Nanofiber Plates I:
@@ -402,6 +425,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11309
+    marketGroup: 1674
     name: 400mm Rolled Tungsten Compact Plates
     volume: 10.0
   400mm Steel Plates I:
@@ -413,6 +437,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 11297
+    marketGroup: 1674
     name: 400mm Steel Plates I
     volume: 25.0
   400mm Steel Plates II:
@@ -425,6 +450,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 20349
+    marketGroup: 1674
     name: 400mm Steel Plates II
     volume: 10.0
   50mm Reinforced Crystalline Carbonide Plates I:
@@ -509,6 +535,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11319
+    marketGroup: 1675
     name: 800mm Crystalline Carbonide Restrained Plates
     volume: 20.0
   800mm Reinforced Nanofiber Plates I:
@@ -546,6 +573,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11317
+    marketGroup: 1675
     name: 800mm Rolled Tungsten Compact Plates
     volume: 20.0
   800mm Steel Plates I:
@@ -557,6 +585,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 11299
+    marketGroup: 1675
     name: 800mm Steel Plates I
     volume: 50.0
   800mm Steel Plates II:
@@ -569,6 +598,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 2
     id: 20351
+    marketGroup: 1675
     name: 800mm Steel Plates II
     volume: 20.0
   CONCORD 25000mm Steel Plates:
@@ -583,6 +613,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 41456
+    marketGroup: 2240
     name: CONCORD 25000mm Steel Plates
     volume: 4000.0
   Dark Blood 25000mm Steel Plates:
@@ -597,6 +628,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 41457
+    marketGroup: 2240
     name: Dark Blood 25000mm Steel Plates
     volume: 4000.0
   Federation Navy 100mm Steel Plates:
@@ -611,6 +643,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 31898
+    marketGroup: 1672
     name: Federation Navy 100mm Steel Plates
     volume: 5.0
   Federation Navy 1600mm Steel Plates:
@@ -625,6 +658,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 31902
+    marketGroup: 1676
     name: Federation Navy 1600mm Steel Plates
     volume: 20.0
   Federation Navy 200mm Steel Plates:
@@ -639,6 +673,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 31906
+    marketGroup: 1673
     name: Federation Navy 200mm Steel Plates
     volume: 10.0
   Federation Navy 400mm Steel Plates:
@@ -653,6 +688,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 31910
+    marketGroup: 1674
     name: Federation Navy 400mm Steel Plates
     volume: 25.0
   Federation Navy 800mm Steel Plates:
@@ -667,6 +703,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 31918
+    marketGroup: 1675
     name: Federation Navy 800mm Steel Plates
     volume: 50.0
   Imperial Navy 100mm Steel Plates:
@@ -681,6 +718,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 31896
+    marketGroup: 1672
     name: Imperial Navy 100mm Steel Plates
     volume: 5.0
   Imperial Navy 1600mm Steel Plates:
@@ -695,6 +733,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 31900
+    marketGroup: 1676
     name: Imperial Navy 1600mm Steel Plates
     volume: 20.0
   Imperial Navy 200mm Steel Plates:
@@ -709,6 +748,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 31904
+    marketGroup: 1673
     name: Imperial Navy 200mm Steel Plates
     volume: 10.0
   Imperial Navy 400mm Steel Plates:
@@ -723,6 +763,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 31908
+    marketGroup: 1674
     name: Imperial Navy 400mm Steel Plates
     volume: 25.0
   Imperial Navy 800mm Steel Plates:
@@ -737,6 +778,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 31916
+    marketGroup: 1675
     name: Imperial Navy 800mm Steel Plates
     volume: 50.0
   Large Abyssal Armor Plates:
@@ -765,6 +807,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 41458
+    marketGroup: 2240
     name: Shadow Serpentis 25000mm Steel Plates
     volume: 4000.0
   Small Abyssal Armor Plates:
@@ -786,6 +829,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 28778
+    marketGroup: 1672
     name: Syndicate 100mm Steel Plates
     volume: 5.0
   Syndicate 1600mm Steel Plates:
@@ -800,6 +844,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 28780
+    marketGroup: 1676
     name: Syndicate 1600mm Steel Plates
     volume: 20.0
   Syndicate 200mm Steel Plates:
@@ -814,6 +859,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 28782
+    marketGroup: 1673
     name: Syndicate 200mm Steel Plates
     volume: 10.0
   Syndicate 400mm Steel Plates:
@@ -828,6 +874,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 28784
+    marketGroup: 1674
     name: Syndicate 400mm Steel Plates
     volume: 10.0
   Syndicate 800mm Steel Plates:
@@ -841,5 +888,6 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 28786
+    marketGroup: 1675
     name: Syndicate 800mm Steel Plates
     volume: 20.0

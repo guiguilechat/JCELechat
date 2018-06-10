@@ -13,6 +13,7 @@ items:
     ShieldRechargeRateMultiplier: 0.949999988079071
     TechLevel: 1
     id: 1537
+    marketGroup: 658
     name: '''Basic'' Power Diagnostic System'
     volume: 5.0
   '''Cartel'' Power Diagnostic System I':
@@ -29,6 +30,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
     id: 22953
+    marketGroup: 658
     name: '''Cartel'' Power Diagnostic System I'
     volume: 5.0
   Ahremen's Modified Power Diagnostic System:
@@ -44,6 +46,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
     id: 15106
+    marketGroup: 658
     name: Ahremen's Modified Power Diagnostic System
     volume: 5.0
   'Alpha Reactor Control: Diagnostic System':
@@ -72,6 +75,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
     id: 17524
+    marketGroup: 658
     name: Ammatar Navy Power Diagnostic System
     volume: 5.0
   'Beta Reactor Control: Diagnostic System I':
@@ -101,6 +105,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
     id: 15096
+    marketGroup: 658
     name: Brokara's Modified Power Diagnostic System
     volume: 5.0
   Brynn's Modified Power Diagnostic System:
@@ -117,6 +122,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
     id: 15292
+    marketGroup: 658
     name: Brynn's Modified Power Diagnostic System
     volume: 5.0
   Caldari Navy Power Diagnostic System:
@@ -133,6 +139,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9120000004768372
     TechLevel: 1
     id: 31952
+    marketGroup: 658
     name: Caldari Navy Power Diagnostic System
     volume: 5.0
   Chelm's Modified Power Diagnostic System:
@@ -148,6 +155,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
     id: 15108
+    marketGroup: 658
     name: Chelm's Modified Power Diagnostic System
     volume: 5.0
   Cormack's Modified Power Diagnostic System:
@@ -164,6 +172,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
     id: 15298
+    marketGroup: 658
     name: Cormack's Modified Power Diagnostic System
     volume: 5.0
   Dark Blood Power Diagnostic System:
@@ -179,6 +188,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
     id: 14134
+    marketGroup: 658
     name: Dark Blood Power Diagnostic System
     volume: 5.0
   Draclira's Modified Power Diagnostic System:
@@ -194,6 +204,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8234999775886536
     TechLevel: 1
     id: 15110
+    marketGroup: 658
     name: Draclira's Modified Power Diagnostic System
     volume: 5.0
   'Local Power Plant Manager: Diagnostic System I':
@@ -236,6 +247,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9200000166893005
     TechLevel: 1
     id: 8225
+    marketGroup: 658
     name: Mark I Compact Power Diagnostic System
     volume: 5.0
   'Marked Generator Refitting: Diagnostic System':
@@ -276,6 +288,7 @@ items:
     ShieldRechargeRateMultiplier: 0.925000011920929
     TechLevel: 1
     id: 1539
+    marketGroup: 658
     name: Power Diagnostic System I
     volume: 5.0
   Power Diagnostic System II:
@@ -291,6 +304,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 2
     id: 1541
+    marketGroup: 658
     name: Power Diagnostic System II
     volume: 5.0
   Raysere's Modified Power Diagnostic System:
@@ -306,6 +320,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
     id: 15102
+    marketGroup: 658
     name: Raysere's Modified Power Diagnostic System
     volume: 5.0
   Selynne's Modified Power Diagnostic System:
@@ -321,6 +336,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
     id: 15100
+    marketGroup: 658
     name: Selynne's Modified Power Diagnostic System
     volume: 5.0
   Setele's Modified Power Diagnostic System:
@@ -337,6 +353,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
     id: 15296
+    marketGroup: 658
     name: Setele's Modified Power Diagnostic System
     volume: 5.0
   Shadow Serpentis Power Diagnostic System:
@@ -353,6 +370,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
     id: 14138
+    marketGroup: 658
     name: Shadow Serpentis Power Diagnostic System
     volume: 5.0
   Tairei's Modified Power Diagnostic System:
@@ -368,6 +386,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8921250104904175
     TechLevel: 1
     id: 15098
+    marketGroup: 658
     name: Tairei's Modified Power Diagnostic System
     volume: 5.0
   Thukker Power Diagnostic System:
@@ -384,6 +403,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9120000004768372
     TechLevel: 1
     id: 28739
+    marketGroup: 658
     name: Thukker Power Diagnostic System
     volume: 5.0
   True Sansha Power Diagnostic System:
@@ -399,6 +419,7 @@ items:
     ShieldRechargeRateMultiplier: 0.9150000214576721
     TechLevel: 1
     id: 14136
+    marketGroup: 658
     name: True Sansha Power Diagnostic System
     volume: 5.0
   Tuvan's Modified Power Diagnostic System:
@@ -415,6 +436,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8692499995231628
     TechLevel: 1
     id: 15294
+    marketGroup: 658
     name: Tuvan's Modified Power Diagnostic System
     volume: 5.0
   'Type-D Power Core Modification: Diagnostic System':
@@ -470,5 +492,6 @@ items:
     ShieldRechargeRateMultiplier: 0.8463749885559082
     TechLevel: 1
     id: 15104
+    marketGroup: 658
     name: Vizan's Modified Power Diagnostic System
     volume: 5.0

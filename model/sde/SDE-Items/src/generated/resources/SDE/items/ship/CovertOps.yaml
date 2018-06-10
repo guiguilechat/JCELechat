@@ -77,6 +77,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 8.0
     id: 11188
+    marketGroup: 421
     name: Anathema
     volume: 28100.0
   Buzzard:
@@ -159,6 +160,7 @@ items:
     WarpCapacitorNeed: 2.1645000742864795E-6
     WarpSpeedMultiplier: 8.0
     id: 11192
+    marketGroup: 422
     name: Buzzard
     volume: 19400.0
   Caedes:
@@ -248,6 +250,7 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 8.0
     id: 42246
+    marketGroup: 1838
     name: Caedes
     volume: 28600.0
   Cheetah:
@@ -329,6 +332,7 @@ items:
     WarpCapacitorNeed: 1.803750024009787E-6
     WarpSpeedMultiplier: 8.0
     id: 11182
+    marketGroup: 424
     name: Cheetah
     volume: 17400.0
   Chremoas:
@@ -416,6 +420,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 8.0
     id: 33397
+    marketGroup: 1838
     name: Chremoas
     volume: 28000.0
   Helios:
@@ -498,6 +503,7 @@ items:
     WarpCapacitorNeed: 1.285710027332243E-6
     WarpSpeedMultiplier: 8.0
     id: 11172
+    marketGroup: 423
     name: Helios
     volume: 23000.0
   Pacifier:
@@ -596,5 +602,6 @@ items:
     WarpCapacitorNeed: 1.3500000477506546E-6
     WarpSpeedMultiplier: 8.0
     id: 44993
+    marketGroup: 1838
     name: Pacifier
     volume: 20000.0

@@ -72,6 +72,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     id: 34328
+    marketGroup: 1950
     name: Bowhead
     volume: 1.755E7
   Charon:
@@ -137,6 +138,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     id: 20185
+    marketGroup: 768
     name: Charon
     volume: 1.625E7
   Fenrir:
@@ -202,6 +204,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     id: 20189
+    marketGroup: 770
     name: Fenrir
     volume: 1.55E7
   Obelisk:
@@ -267,6 +270,7 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     id: 20187
+    marketGroup: 769
     name: Obelisk
     volume: 1.755E7
   Providence:
@@ -332,5 +336,6 @@ items:
     WarpCapacitorNeed: 1.38000002536387E-8
     WarpSpeedMultiplier: 1.3700000047683716
     id: 20183
+    marketGroup: 767
     name: Providence
     volume: 1.85E7

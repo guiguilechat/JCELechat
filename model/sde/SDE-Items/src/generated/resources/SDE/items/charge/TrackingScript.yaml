@@ -12,6 +12,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonusBonus: -100
     id: 28999
+    marketGroup: 1094
     name: Optimal Range Script
     volume: 1.0
   Tracking Speed Script:
@@ -27,5 +28,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonusBonus: 100
     id: 29001
+    marketGroup: 1094
     name: Tracking Speed Script
     volume: 1.0

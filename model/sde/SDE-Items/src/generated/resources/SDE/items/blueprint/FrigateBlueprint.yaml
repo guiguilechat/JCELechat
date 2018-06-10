@@ -11,6 +11,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11189
+    marketGroup: 425
     name: Anathema Blueprint
     volume: 0.01
   Ares Blueprint:
@@ -18,6 +19,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11203
+    marketGroup: 412
     name: Ares Blueprint
     volume: 0.01
   Astero Blueprint:
@@ -32,6 +34,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 955
+    marketGroup: 277
     name: Atron Blueprint
     volume: 0.01
   Bantam Blueprint:
@@ -39,6 +42,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 683
+    marketGroup: 261
     name: Bantam Blueprint
     volume: 0.01
   Blade Blueprint:
@@ -53,6 +57,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 945
+    marketGroup: 264
     name: Breacher Blueprint
     volume: 0.01
   Burst Blueprint:
@@ -60,6 +65,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 946
+    marketGroup: 264
     name: Burst Blueprint
     volume: 0.01
   Buzzard Blueprint:
@@ -67,6 +73,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11193
+    marketGroup: 427
     name: Buzzard Blueprint
     volume: 0.01
   Caedes Blueprint:
@@ -94,6 +101,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11183
+    marketGroup: 429
     name: Cheetah Blueprint
     volume: 0.01
   Chremoas Blueprint:
@@ -108,6 +116,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11197
+    marketGroup: 413
     name: Claw Blueprint
     volume: 0.01
   Condor Blueprint:
@@ -115,6 +124,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 684
+    marketGroup: 261
     name: Condor Blueprint
     volume: 0.01
   Crow Blueprint:
@@ -122,6 +132,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11177
+    marketGroup: 411
     name: Crow Blueprint
     volume: 0.01
   Crucifier Blueprint:
@@ -129,6 +140,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 2162
+    marketGroup: 272
     name: Crucifier Blueprint
     volume: 0.01
   Crucifier Navy Issue Blueprint:
@@ -149,6 +161,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11185
+    marketGroup: 410
     name: Crusader Blueprint
     volume: 0.01
   Dagger Blueprint:
@@ -218,6 +231,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12045
+    marketGroup: 462
     name: Enyo Blueprint
     volume: 0.01
   Erinye Blueprint:
@@ -232,6 +246,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 936
+    marketGroup: 272
     name: Executioner Blueprint
     volume: 0.01
   Federation Navy Comet Blueprint:
@@ -274,6 +289,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 685
+    marketGroup: 261
     name: Griffin Blueprint
     volume: 0.01
   Griffin Navy Issue Blueprint:
@@ -287,6 +303,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11382
+    marketGroup: 461
     name: Harpy Blueprint
     volume: 0.01
   Hawk Blueprint:
@@ -294,6 +311,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11380
+    marketGroup: 461
     name: Hawk Blueprint
     volume: 0.01
   Helios Blueprint:
@@ -301,6 +319,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11173
+    marketGroup: 428
     name: Helios Blueprint
     volume: 0.01
   Hematos Blueprint:
@@ -315,6 +334,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 952
+    marketGroup: 261
     name: Heron Blueprint
     volume: 0.01
   Hound Blueprint:
@@ -322,6 +342,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12035
+    marketGroup: 429
     name: Hound Blueprint
     volume: 0.01
   Hyena Blueprint:
@@ -343,6 +364,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 954
+    marketGroup: 277
     name: Imicus Blueprint
     volume: 0.01
   Immolator Blueprint:
@@ -383,6 +405,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 941
+    marketGroup: 277
     name: Incursus Blueprint
     volume: 0.01
   Incursus Inner Zone Shipping Edition Blueprint:
@@ -403,6 +426,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 937
+    marketGroup: 272
     name: Inquisitor Blueprint
     volume: 0.01
   Ishkur Blueprint:
@@ -410,6 +434,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12043
+    marketGroup: 462
     name: Ishkur Blueprint
     volume: 0.01
   Jaguar Blueprint:
@@ -417,6 +442,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11401
+    marketGroup: 463
     name: Jaguar Blueprint
     volume: 0.01
   Keres Blueprint:
@@ -431,6 +457,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 949
+    marketGroup: 261
     name: Kestrel Blueprint
     volume: 0.01
   Khanid Navy Frigate Blueprint:
@@ -473,6 +500,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 29249
+    marketGroup: 272
     name: Magnate Blueprint
     volume: 0.01
   Malediction Blueprint:
@@ -480,6 +508,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11187
+    marketGroup: 410
     name: Malediction Blueprint
     volume: 0.01
   Malice Blueprint:
@@ -494,6 +523,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12031
+    marketGroup: 427
     name: Manticore Blueprint
     volume: 0.01
   Maulus Blueprint:
@@ -501,6 +531,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 956
+    marketGroup: 277
     name: Maulus Blueprint
     volume: 0.01
   Maulus Navy Issue Blueprint:
@@ -521,6 +552,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 950
+    marketGroup: 261
     name: Merlin Blueprint
     volume: 0.01
   Merlin Nugoeihuvi Edition Blueprint:
@@ -554,6 +586,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 939
+    marketGroup: 277
     name: Navitas Blueprint
     volume: 0.01
   Nemesis Blueprint:
@@ -561,6 +594,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11378
+    marketGroup: 428
     name: Nemesis Blueprint
     volume: 0.01
   Pacifier Blueprint:
@@ -580,6 +614,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 690
+    marketGroup: 264
     name: Probe Blueprint
     volume: 0.01
   Prospect Blueprint:
@@ -594,6 +629,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 944
+    marketGroup: 272
     name: Punisher Blueprint
     volume: 0.01
   Punisher Kador Edition Blueprint:
@@ -613,6 +649,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 12041
+    marketGroup: 425
     name: Purifier Blueprint
     volume: 0.01
   Raptor Blueprint:
@@ -620,6 +657,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11179
+    marketGroup: 411
     name: Raptor Blueprint
     volume: 0.01
   Reaper Blueprint:
@@ -641,6 +679,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11394
+    marketGroup: 459
     name: Retribution Blueprint
     volume: 0.01
   Rifter Blueprint:
@@ -648,6 +687,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 691
+    marketGroup: 264
     name: Rifter Blueprint
     volume: 0.01
   Rifter Krusual Edition Blueprint:
@@ -702,6 +742,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 689
+    marketGroup: 264
     name: Slasher Blueprint
     volume: 0.01
   Stiletto Blueprint:
@@ -709,6 +750,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11199
+    marketGroup: 413
     name: Stiletto Blueprint
     volume: 0.01
   Succubus Blueprint:
@@ -744,6 +786,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11201
+    marketGroup: 412
     name: Taranis Blueprint
     volume: 0.01
   Tash-Murkon Magnate Blueprint:
@@ -765,6 +808,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 938
+    marketGroup: 272
     name: Tormentor Blueprint
     volume: 0.01
   Tristan Blueprint:
@@ -772,6 +816,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 940
+    marketGroup: 277
     name: Tristan Blueprint
     volume: 0.01
   Tristan Quafe Edition Blueprint:
@@ -799,6 +844,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11366
+    marketGroup: 459
     name: Vengeance Blueprint
     volume: 0.01
   Venture Blueprint:
@@ -806,6 +852,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 32881
+    marketGroup: 1617
     name: Venture Blueprint
     volume: 0.01
   Vherokior Probe Blueprint:
@@ -820,6 +867,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 3767
+    marketGroup: 264
     name: Vigil Blueprint
     volume: 0.01
   Vigil Fleet Issue Blueprint:
@@ -853,6 +901,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11372
+    marketGroup: 463
     name: Wolf Blueprint
     volume: 0.01
   Worm Blueprint:

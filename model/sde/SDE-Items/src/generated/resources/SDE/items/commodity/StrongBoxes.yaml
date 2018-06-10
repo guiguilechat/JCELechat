@@ -1,10 +1,12 @@
 items:
   Agency Support Drop:
     id: 46381
+    marketGroup: 1661
     name: Agency Support Drop
     volume: 1.0
   Allotek Industries Strong Box:
     id: 43690
+    marketGroup: 2317
     name: Allotek Industries Strong Box
     volume: 0.1
   Apocalypse Imperial War Reserves Pack:
@@ -13,35 +15,43 @@ items:
     volume: 500000.0
   'Arms Race Battlecruiser Assembler ':
     id: 46771
+    marketGroup: 1661
     name: 'Arms Race Battlecruiser Assembler '
     volume: 15000.0
   Arms Race Battleship Assembler:
     id: 46772
+    marketGroup: 1661
     name: Arms Race Battleship Assembler
     volume: 50000.0
   Astral Mining Inc. Strong Box:
     id: 43688
+    marketGroup: 2317
     name: Astral Mining Inc. Strong Box
     volume: 0.1
   Blood Raider Chemosh Blueprint Armored Cache:
     id: 45678
+    marketGroup: 2317
     name: Blood Raider Chemosh Blueprint Armored Cache
     volume: 20000.0
   Blood Raider Dagon Blueprint Armored Cache:
     id: 45679
+    marketGroup: 2317
     name: Blood Raider Dagon Blueprint Armored Cache
     volume: 20000.0
   Blood Raider Molok Blueprint Armored Cache:
     id: 45677
+    marketGroup: 2317
     name: Blood Raider Molok Blueprint Armored Cache
     volume: 20000.0
   Blood Raider Standup Module Blueprint Armored Cache:
     id: 46579
+    marketGroup: 2317
     name: Blood Raider Standup Module Blueprint Armored Cache
     volume: 20000.0
   Blood Raider Strong Box:
     MetaGroupID: 4
     id: 43696
+    marketGroup: 2317
     name: Blood Raider Strong Box
     volume: 0.1
   Brutix Federal Strategic Materiel Pack:
@@ -66,6 +76,7 @@ items:
     volume: 53000.0
   Deep Core Mining Inc. Strong Box:
     id: 43685
+    marketGroup: 2317
     name: Deep Core Mining Inc. Strong Box
     volume: 0.1
   Drake State Military Stockpile Pack:
@@ -74,6 +85,7 @@ items:
     volume: 260000.0
   Ducia Foundry Strong Box:
     id: 43682
+    marketGroup: 2317
     name: Ducia Foundry Strong Box
     volume: 0.1
   Federal Strategic Materiel Package 10:
@@ -102,27 +114,33 @@ items:
     volume: 2520.0
   Guristas Caiman Blueprint Armored Cache:
     id: 46602
+    marketGroup: 2317
     name: Guristas Caiman Blueprint Armored Cache
     volume: 20000.0
   Guristas Komodo Blueprint Armored Cache:
     id: 46603
+    marketGroup: 2317
     name: Guristas Komodo Blueprint Armored Cache
     volume: 20000.0
   Guristas Loggerhead Blueprint Armored Cache:
     id: 46601
+    marketGroup: 2317
     name: Guristas Loggerhead Blueprint Armored Cache
     volume: 20000.0
   Guristas Production Strong Box:
     MetaGroupID: 4
     id: 43697
+    marketGroup: 2317
     name: Guristas Production Strong Box
     volume: 0.1
   Guristas Standup Module Blueprint Armored Cache:
     id: 46580
+    marketGroup: 2317
     name: Guristas Standup Module Blueprint Armored Cache
     volume: 20000.0
   HZO Refinery Strong Box:
     id: 43684
+    marketGroup: 2317
     name: HZO Refinery Strong Box
     volume: 0.1
   Harbinger Imperial War Reserves Pack:
@@ -139,10 +157,12 @@ items:
     volume: 30000.0
   Joint Harvesting Strong Box:
     id: 43683
+    marketGroup: 2317
     name: Joint Harvesting Strong Box
     volume: 0.1
   Material Acquisition Strong Box:
     id: 43689
+    marketGroup: 2317
     name: Material Acquisition Strong Box
     volume: 0.1
   Megathron Federal Strategic Materiel Pack:
@@ -155,10 +175,12 @@ items:
     volume: 17000.0
   Minedrill Strong Box:
     id: 43687
+    marketGroup: 2317
     name: Minedrill Strong Box
     volume: 0.1
   Minmatar Mining Corporation Strong Box:
     id: 43691
+    marketGroup: 2317
     name: Minmatar Mining Corporation Strong Box
     volume: 0.1
   Omen Imperial War Reserves Pack:
@@ -167,6 +189,7 @@ items:
     volume: 120000.0
   Poksu Mineral Group Strong Box:
     id: 43686
+    marketGroup: 2317
     name: Poksu Mineral Group Strong Box
     volume: 0.1
   Procurer Mining Barge Pack:
@@ -216,6 +239,7 @@ items:
   Salvation Angels Strong Box:
     MetaGroupID: 4
     id: 43698
+    marketGroup: 2317
     name: Salvation Angels Strong Box
     volume: 0.1
   State Military Stockpile Package 10:
@@ -256,11 +280,13 @@ items:
     volume: 44000.0
   Thukker Mix Strong Box:
     id: 43693
+    marketGroup: 2317
     name: Thukker Mix Strong Box
     volume: 0.1
   True Creations Strong Box:
     MetaGroupID: 4
     id: 43695
+    marketGroup: 2317
     name: True Creations Strong Box
     volume: 0.1
   Venture Mining Pack:
@@ -269,5 +295,6 @@ items:
     volume: 30000.0
   Vherokior Tribe Strong Box:
     id: 43692
+    marketGroup: 2317
     name: Vherokior Tribe Strong Box
     volume: 0.1

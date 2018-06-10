@@ -11,6 +11,7 @@ items:
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
     id: 10188
+    marketGroup: 648
     name: '''Basic'' Magnetic Field Stabilizer'
     volume: 5.0
   '''Capitalist'' Magnetic Field Stabilizer I':
@@ -38,6 +39,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
     id: 22919
+    marketGroup: 648
     name: '''Monopoly'' Magnetic Field Stabilizer'
     volume: 5.0
   Brynn's Modified Magnetic Field Stabilizer:
@@ -51,6 +53,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15144
+    marketGroup: 648
     name: Brynn's Modified Magnetic Field Stabilizer
     volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
@@ -64,6 +67,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15150
+    marketGroup: 648
     name: Cormack's Modified Magnetic Field Stabilizer
     volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
@@ -77,6 +81,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15895
+    marketGroup: 648
     name: Federation Navy Magnetic Field Stabilizer
     volume: 5.0
   Gauss Field Balancer:
@@ -137,6 +142,7 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 44113
+    marketGroup: 648
     name: Kaatara's Custom Magnetic Field Stabilizer
     volume: 5.0
   Linear Flux Stabilizer:
@@ -172,6 +178,7 @@ items:
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
     id: 9944
+    marketGroup: 648
     name: Magnetic Field Stabilizer I
     volume: 5.0
   Magnetic Field Stabilizer II:
@@ -184,6 +191,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
     id: 10190
+    marketGroup: 648
     name: Magnetic Field Stabilizer II
     volume: 5.0
   Magnetic Vortex Stabilizer:
@@ -208,6 +216,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
     id: 15416
+    marketGroup: 648
     name: Naiyon's Modified Magnetic Field Stabilizer
     volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
@@ -221,6 +230,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15148
+    marketGroup: 648
     name: Setele's Modified Magnetic Field Stabilizer
     volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
@@ -234,6 +244,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 13945
+    marketGroup: 648
     name: Shadow Serpentis Magnetic Field Stabilizer
     volume: 5.0
   Torelle's Custom Magnetic Field Stabilizer:
@@ -248,6 +259,7 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 44114
+    marketGroup: 648
     name: Torelle's Custom Magnetic Field Stabilizer
     volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
@@ -261,6 +273,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15146
+    marketGroup: 648
     name: Tuvan's Modified Magnetic Field Stabilizer
     volume: 5.0
   Vortex Compact Magnetic Field Stabilizer:
@@ -274,5 +287,6 @@ items:
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
     id: 11105
+    marketGroup: 648
     name: Vortex Compact Magnetic Field Stabilizer
     volume: 5.0

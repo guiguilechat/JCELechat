@@ -15,6 +15,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44261
+    marketGroup: 1663
     name: Angels Arisen Firework
     volume: 0.1
   Barium Firework:
@@ -33,6 +34,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33572
+    marketGroup: 1663
     name: Barium Firework
     volume: 0.1
   Barium Firework CXIV:
@@ -51,6 +53,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32994
+    marketGroup: 1663
     name: Barium Firework CXIV
     volume: 0.1
   Blood Dagger Firework:
@@ -69,6 +72,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44262
+    marketGroup: 1663
     name: Blood Dagger Firework
     volume: 0.1
   Copper Firework:
@@ -87,6 +91,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33573
+    marketGroup: 1663
     name: Copper Firework
     volume: 0.1
   Copper Firework CXIV:
@@ -105,6 +110,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32995
+    marketGroup: 1663
     name: Copper Firework CXIV
     volume: 0.1
   Crimson Scythes Firework:
@@ -123,6 +129,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44267
+    marketGroup: 1663
     name: Crimson Scythes Firework
     volume: 0.1
   Crown Imperial Firework:
@@ -141,6 +148,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44260
+    marketGroup: 1663
     name: Crown Imperial Firework
     volume: 0.1
   Eros Blossom Firework:
@@ -159,6 +167,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 47264
+    marketGroup: 1663
     name: Eros Blossom Firework
     volume: 0.1
   Fangs of the Serpent Firework:
@@ -177,6 +186,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44272
+    marketGroup: 1663
     name: Fangs of the Serpent Firework
     volume: 0.1
   Flames of the Rebellion Firework:
@@ -195,6 +205,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44270
+    marketGroup: 1663
     name: Flames of the Rebellion Firework
     volume: 0.1
   Four Freedoms Firework:
@@ -213,6 +224,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44268
+    marketGroup: 1663
     name: Four Freedoms Firework
     volume: 0.1
   Nation Uplifts Firework:
@@ -231,6 +243,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44271
+    marketGroup: 1663
     name: Nation Uplifts Firework
     volume: 0.1
   Naughty People Firework:
@@ -249,6 +262,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44269
+    marketGroup: 1663
     name: Naughty People Firework
     volume: 0.1
   Pulsar Flare Firework:
@@ -267,6 +281,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44264
+    marketGroup: 1663
     name: Pulsar Flare Firework
     volume: 0.1
   Snowball:
@@ -286,6 +301,7 @@ items:
     TechLevel: 1
     ThermalDamage: -10.0
     id: 33569
+    marketGroup: 1663
     name: Snowball
     volume: 0.1
   Snowball CXIV:
@@ -305,6 +321,7 @@ items:
     TechLevel: 1
     ThermalDamage: -10.0
     id: 30221
+    marketGroup: 1663
     name: Snowball CXIV
     volume: 0.1
   SnowballNewEffect:
@@ -340,6 +357,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 33571
+    marketGroup: 1663
     name: Sodium Firework
     volume: 0.1
   Sodium Firework CXIV:
@@ -358,6 +376,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 32993
+    marketGroup: 1663
     name: Sodium Firework CXIV
     volume: 0.1
   Spacetime Singularity Firework:
@@ -376,6 +395,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44266
+    marketGroup: 1663
     name: Spacetime Singularity Firework
     volume: 0.1
   Wheel of Prosperity Firework:
@@ -394,6 +414,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44263
+    marketGroup: 1663
     name: Wheel of Prosperity Firework
     volume: 0.1
   Wings of Victory Firework:
@@ -412,6 +433,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44265
+    marketGroup: 1663
     name: Wings of Victory Firework
     volume: 0.1
   Yoiul Festival Firework:
@@ -430,5 +452,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 44110
+    marketGroup: 1663
     name: Yoiul Festival Firework
     volume: 0.1

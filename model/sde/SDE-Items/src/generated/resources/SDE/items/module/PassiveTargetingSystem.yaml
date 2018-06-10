@@ -8,6 +8,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 5871
+    marketGroup: 672
     name: 41F Veiled Targeting Unit
     volume: 5.0
   Indirect Target Acquisition I:
@@ -19,6 +20,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 5865
+    marketGroup: 672
     name: Indirect Target Acquisition I
     volume: 5.0
   Passive Targeter I:
@@ -29,6 +31,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 581
+    marketGroup: 672
     name: Passive Targeter I
     volume: 25.0
   Passive Targeter II:
@@ -40,6 +43,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 2
     id: 2341
+    marketGroup: 672
     name: Passive Targeter II
     volume: 5.0
   Passive Targeting Array I:
@@ -51,6 +55,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 5867
+    marketGroup: 672
     name: Passive Targeting Array I
     volume: 5.0
   Suppressed Targeting System I:
@@ -62,5 +67,6 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 5869
+    marketGroup: 672
     name: Suppressed Targeting System I
     volume: 5.0

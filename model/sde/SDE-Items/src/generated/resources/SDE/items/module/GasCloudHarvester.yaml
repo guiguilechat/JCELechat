@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 25540
+    marketGroup: 1037
     name: '''Crop'' Gas Cloud Harvester'
     volume: 5.0
   '''Plow'' Gas Cloud Harvester':
@@ -33,6 +34,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 25542
+    marketGroup: 1037
     name: '''Plow'' Gas Cloud Harvester'
     volume: 5.0
   Gas Cloud Harvester I:
@@ -50,6 +52,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 25266
+    marketGroup: 1037
     name: Gas Cloud Harvester I
     volume: 5.0
   Gas Cloud Harvester II:
@@ -69,6 +72,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 25812
+    marketGroup: 1037
     name: Gas Cloud Harvester II
     volume: 5.0
   Syndicate Gas Cloud Harvester:
@@ -88,5 +92,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11353
     id: 28788
+    marketGroup: 1037
     name: Syndicate Gas Cloud Harvester
     volume: 5.0

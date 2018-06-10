@@ -21,6 +21,7 @@ items:
     IndustryBlueprintRank: 150.0
     TechLevel: 1
     id: 40684
+    marketGroup: 1564
     name: Capital Energy Nosferatu I Blueprint
     volume: 0.01
   Capital Energy Nosferatu II Blueprint:
@@ -33,12 +34,14 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 40685
+    marketGroup: 1564
     name: Capital Ghoul Compact Energy Nosferatu Blueprint
     volume: 0.01
   Capital Knave Scoped Energy Nosferatu Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 40686
+    marketGroup: 1564
     name: Capital Knave Scoped Energy Nosferatu Blueprint
     volume: 0.01
   Dark Blood Capital Energy Nosferatu Blueprint:
@@ -57,6 +60,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 12262
+    marketGroup: 1564
     name: Heavy Energy Nosferatu I Blueprint
     volume: 0.01
   Heavy Energy Nosferatu II Blueprint:
@@ -93,6 +97,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 12258
+    marketGroup: 1564
     name: Medium Energy Nosferatu I Blueprint
     volume: 0.01
   Medium Energy Nosferatu II Blueprint:
@@ -111,6 +116,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1106
+    marketGroup: 1564
     name: Small Energy Nosferatu I Blueprint
     volume: 0.01
   Small Energy Nosferatu II Blueprint:

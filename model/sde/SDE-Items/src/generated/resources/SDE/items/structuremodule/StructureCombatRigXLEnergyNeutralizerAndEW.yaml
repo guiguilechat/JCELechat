@@ -18,6 +18,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37272
+    marketGroup: 2346
     name: Standup XL-Set EW and Emissions Co-ordinator I
     volume: 40.0
   Standup XL-Set EW and Emissions Co-ordinator II:
@@ -39,5 +40,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37273
+    marketGroup: 2346
     name: Standup XL-Set EW and Emissions Co-ordinator II
     volume: 40.0

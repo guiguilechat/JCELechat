@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 23528
+    marketGroup: 939
     name: Drone Link Augmentor I Blueprint
     volume: 0.01
   Drone Link Augmentor II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 24396
+    marketGroup: 939
     name: Drone Navigation Computer I Blueprint
     volume: 0.01
   Drone Navigation Computer II Blueprint:
@@ -33,6 +35,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 24284
+    marketGroup: 939
     name: Fighter Support Unit I Blueprint
     volume: 0.01
   Fighter Support Unit II Blueprint:
@@ -43,12 +46,14 @@ items:
   Hermes Compact Fighter Support Unit Blueprint:
     TechLevel: 1
     id: 41413
+    marketGroup: 939
     name: Hermes Compact Fighter Support Unit Blueprint
     volume: 0.01
   Omnidirectional Tracking Enhancer I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 33823
+    marketGroup: 939
     name: Omnidirectional Tracking Enhancer I Blueprint
     volume: 0.01
   Omnidirectional Tracking Enhancer II Blueprint:
@@ -61,6 +66,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 23534
+    marketGroup: 939
     name: Omnidirectional Tracking Link I Blueprint
     volume: 0.01
   Omnidirectional Tracking Link II Blueprint:

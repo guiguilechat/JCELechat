@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37166
+    marketGroup: 2348
     name: Standup L-Set Basic Large Ship Manufacturing Efficiency I
     volume: 20.0
   Standup L-Set Basic Large Ship Manufacturing Efficiency II:
@@ -43,5 +44,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37167
+    marketGroup: 2348
     name: Standup L-Set Basic Large Ship Manufacturing Efficiency II
     volume: 20.0

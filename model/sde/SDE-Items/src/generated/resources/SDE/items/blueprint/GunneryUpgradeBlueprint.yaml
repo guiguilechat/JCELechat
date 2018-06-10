@@ -27,6 +27,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1096
+    marketGroup: 343
     name: Gyrostabilizer I Blueprint
     volume: 0.01
   Gyrostabilizer II Blueprint:
@@ -44,6 +45,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 9945
+    marketGroup: 343
     name: Magnetic Field Stabilizer I Blueprint
     volume: 0.01
   Magnetic Field Stabilizer II Blueprint:

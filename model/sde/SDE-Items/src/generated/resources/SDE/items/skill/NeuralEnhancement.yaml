@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 33407
+    marketGroup: 1746
     name: Advanced Infomorph Psychology
     volume: 0.01
   Biology:
@@ -17,6 +18,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 1.0
     id: 3405
+    marketGroup: 1746
     name: Biology
     volume: 0.01
   Cloning Facility Operation:
@@ -29,6 +31,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 10.0
     id: 24606
+    marketGroup: 1746
     name: Cloning Facility Operation
     volume: 0.01
   Cybernetics:
@@ -38,6 +41,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3411
+    marketGroup: 1746
     name: Cybernetics
     volume: 0.01
   Infomorph Psychology:
@@ -46,6 +50,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 24242
+    marketGroup: 1746
     name: Infomorph Psychology
     volume: 0.01
   Infomorph Synchronizing:
@@ -55,6 +60,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 33399
+    marketGroup: 1746
     name: Infomorph Synchronizing
     volume: 0.01
   Neurotoxin Control:
@@ -67,6 +73,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 2.0
     id: 25538
+    marketGroup: 1746
     name: Neurotoxin Control
     volume: 0.01
   Neurotoxin Recovery:
@@ -77,5 +84,6 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 5.0
     id: 25530
+    marketGroup: 1746
     name: Neurotoxin Recovery
     volume: 0.01

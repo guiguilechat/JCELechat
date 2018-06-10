@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31660
+    marketGroup: 1731
     name: Capital Projectile Ambit Extension I
     volume: 40.0
   Capital Projectile Ambit Extension II:
@@ -20,6 +21,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31666
+    marketGroup: 1731
     name: Capital Projectile Ambit Extension II
     volume: 40.0
   Capital Projectile Burst Aerator I:
@@ -30,6 +32,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31672
+    marketGroup: 1731
     name: Capital Projectile Burst Aerator I
     volume: 40.0
   Capital Projectile Burst Aerator II:
@@ -41,6 +44,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31678
+    marketGroup: 1731
     name: Capital Projectile Burst Aerator II
     volume: 40.0
   Capital Projectile Collision Accelerator I:
@@ -52,6 +56,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31684
+    marketGroup: 1731
     name: Capital Projectile Collision Accelerator I
     volume: 40.0
   Capital Projectile Collision Accelerator II:
@@ -64,6 +69,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31690
+    marketGroup: 1731
     name: Capital Projectile Collision Accelerator II
     volume: 40.0
   Capital Projectile Locus Coordinator I:
@@ -75,6 +81,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31696
+    marketGroup: 1731
     name: Capital Projectile Locus Coordinator I
     volume: 40.0
   Capital Projectile Locus Coordinator II:
@@ -87,6 +94,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31702
+    marketGroup: 1731
     name: Capital Projectile Locus Coordinator II
     volume: 40.0
   Capital Projectile Metastasis Adjuster I:
@@ -99,6 +107,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31708
+    marketGroup: 1731
     name: Capital Projectile Metastasis Adjuster I
     volume: 40.0
   Capital Projectile Metastasis Adjuster II:
@@ -112,6 +121,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31714
+    marketGroup: 1731
     name: Capital Projectile Metastasis Adjuster II
     volume: 40.0
   Large Projectile Ambit Extension I:
@@ -124,6 +134,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 26038
+    marketGroup: 1239
     name: Large Projectile Ambit Extension I
     volume: 20.0
   Large Projectile Ambit Extension II:
@@ -137,6 +148,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 26428
+    marketGroup: 1239
     name: Large Projectile Ambit Extension II
     volume: 20.0
   Large Projectile Burst Aerator I:
@@ -149,6 +161,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 26046
+    marketGroup: 1239
     name: Large Projectile Burst Aerator I
     volume: 20.0
   Large Projectile Burst Aerator II:
@@ -162,6 +175,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 26430
+    marketGroup: 1239
     name: Large Projectile Burst Aerator II
     volume: 20.0
   Large Projectile Collision Accelerator I:
@@ -174,6 +188,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 26048
+    marketGroup: 1239
     name: Large Projectile Collision Accelerator I
     volume: 20.0
   Large Projectile Collision Accelerator II:
@@ -187,6 +202,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 26424
+    marketGroup: 1239
     name: Large Projectile Collision Accelerator II
     volume: 20.0
   Large Projectile Locus Coordinator I:
@@ -200,6 +216,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 26040
+    marketGroup: 1239
     name: Large Projectile Locus Coordinator I
     volume: 20.0
   Large Projectile Locus Coordinator II:
@@ -214,6 +231,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 26432
+    marketGroup: 1239
     name: Large Projectile Locus Coordinator II
     volume: 20.0
   Large Projectile Metastasis Adjuster I:
@@ -227,6 +245,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 26042
+    marketGroup: 1239
     name: Large Projectile Metastasis Adjuster I
     volume: 20.0
   Large Projectile Metastasis Adjuster II:
@@ -241,6 +260,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 26434
+    marketGroup: 1239
     name: Large Projectile Metastasis Adjuster II
     volume: 20.0
   Medium Projectile Ambit Extension I:
@@ -254,6 +274,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31658
+    marketGroup: 1238
     name: Medium Projectile Ambit Extension I
     volume: 10.0
   Medium Projectile Ambit Extension II:
@@ -268,6 +289,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31664
+    marketGroup: 1238
     name: Medium Projectile Ambit Extension II
     volume: 10.0
   Medium Projectile Burst Aerator I:
@@ -280,6 +302,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31670
+    marketGroup: 1238
     name: Medium Projectile Burst Aerator I
     volume: 10.0
   Medium Projectile Burst Aerator II:
@@ -293,6 +316,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31676
+    marketGroup: 1238
     name: Medium Projectile Burst Aerator II
     volume: 10.0
   Medium Projectile Collision Accelerator I:
@@ -305,6 +329,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31682
+    marketGroup: 1238
     name: Medium Projectile Collision Accelerator I
     volume: 10.0
   Medium Projectile Collision Accelerator II:
@@ -318,6 +343,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31688
+    marketGroup: 1238
     name: Medium Projectile Collision Accelerator II
     volume: 10.0
   Medium Projectile Locus Coordinator I:
@@ -331,6 +357,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31694
+    marketGroup: 1238
     name: Medium Projectile Locus Coordinator I
     volume: 10.0
   Medium Projectile Locus Coordinator II:
@@ -345,6 +372,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31700
+    marketGroup: 1238
     name: Medium Projectile Locus Coordinator II
     volume: 10.0
   Medium Projectile Metastasis Adjuster I:
@@ -358,6 +386,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31706
+    marketGroup: 1238
     name: Medium Projectile Metastasis Adjuster I
     volume: 10.0
   Medium Projectile Metastasis Adjuster II:
@@ -372,6 +401,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31712
+    marketGroup: 1238
     name: Medium Projectile Metastasis Adjuster II
     volume: 10.0
   Projectile Cache Distributor I:
@@ -429,6 +459,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31656
+    marketGroup: 1237
     name: Small Projectile Ambit Extension I
     volume: 5.0
   Small Projectile Ambit Extension II:
@@ -443,6 +474,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31662
+    marketGroup: 1237
     name: Small Projectile Ambit Extension II
     volume: 5.0
   Small Projectile Burst Aerator I:
@@ -455,6 +487,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31668
+    marketGroup: 1237
     name: Small Projectile Burst Aerator I
     volume: 5.0
   Small Projectile Burst Aerator II:
@@ -468,6 +501,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31674
+    marketGroup: 1237
     name: Small Projectile Burst Aerator II
     volume: 5.0
   Small Projectile Collision Accelerator I:
@@ -480,6 +514,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 200
     id: 31680
+    marketGroup: 1237
     name: Small Projectile Collision Accelerator I
     volume: 5.0
   Small Projectile Collision Accelerator II:
@@ -493,6 +528,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 300
     id: 31686
+    marketGroup: 1237
     name: Small Projectile Collision Accelerator II
     volume: 5.0
   Small Projectile Locus Coordinator I:
@@ -506,6 +542,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31692
+    marketGroup: 1237
     name: Small Projectile Locus Coordinator I
     volume: 5.0
   Small Projectile Locus Coordinator II:
@@ -520,6 +557,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31698
+    marketGroup: 1237
     name: Small Projectile Locus Coordinator II
     volume: 5.0
   Small Projectile Metastasis Adjuster I:
@@ -533,6 +571,7 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 100
     id: 31704
+    marketGroup: 1237
     name: Small Projectile Metastasis Adjuster I
     volume: 5.0
   Small Projectile Metastasis Adjuster II:
@@ -547,5 +586,6 @@ items:
     TrackingSpeedMultiplier: 1.0
     UpgradeCost: 150
     id: 31710
+    marketGroup: 1237
     name: Small Projectile Metastasis Adjuster II
     volume: 5.0

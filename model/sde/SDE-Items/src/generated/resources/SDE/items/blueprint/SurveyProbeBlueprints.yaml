@@ -2,15 +2,18 @@ items:
   Discovery Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
     id: 32854
+    marketGroup: 1521
     name: Discovery Survey Probe I Blueprint
     volume: 0.01
   Gaze Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
     id: 32855
+    marketGroup: 1521
     name: Gaze Survey Probe I Blueprint
     volume: 0.01
   Quest Survey Probe I Blueprint:
     IndustryBlueprintRank: 3.0
     id: 32839
+    marketGroup: 1521
     name: Quest Survey Probe I Blueprint
     volume: 0.01

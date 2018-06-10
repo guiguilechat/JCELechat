@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 28391
+    marketGroup: 521
     name: Compressed Crokite
     volume: 7.81
   Compressed Crystalline Crokite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 28392
+    marketGroup: 521
     name: Compressed Crystalline Crokite
     volume: 7.81
   Compressed Pellucid Crokite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 46693
+    marketGroup: 521
     name: Compressed Pellucid Crokite
     volume: 7.81
   Compressed Sharp Crokite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 28393
+    marketGroup: 521
     name: Compressed Sharp Crokite
     volume: 7.81
   Crokite:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 1225
+    marketGroup: 521
     name: Crokite
     volume: 16.0
   Crystalline Crokite:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 17433
+    marketGroup: 521
     name: Crystalline Crokite
     volume: 16.0
   Fools Crokite:
@@ -100,6 +106,7 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 46677
+    marketGroup: 521
     name: Pellucid Crokite
     volume: 16.0
   Sharp Crokite:
@@ -113,5 +120,6 @@ items:
     ReprocessingSkillType: 12182
     RequiredSkill1: 3386
     id: 17432
+    marketGroup: 521
     name: Sharp Crokite
     volume: 16.0

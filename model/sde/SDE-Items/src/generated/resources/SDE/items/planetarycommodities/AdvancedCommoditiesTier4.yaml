@@ -3,47 +3,55 @@ items:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2867
+    marketGroup: 1337
     name: Broadcast Node
     volume: 100.0
   Integrity Response Drones:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2868
+    marketGroup: 1337
     name: Integrity Response Drones
     volume: 100.0
   Nano-Factory:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2869
+    marketGroup: 1337
     name: Nano-Factory
     volume: 100.0
   Organic Mortar Applicators:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2870
+    marketGroup: 1337
     name: Organic Mortar Applicators
     volume: 100.0
   Recursive Computing Module:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2871
+    marketGroup: 1337
     name: Recursive Computing Module
     volume: 100.0
   Self-Harmonizing Power Core:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2872
+    marketGroup: 1337
     name: Self-Harmonizing Power Core
     volume: 100.0
   Sterile Conduits:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2875
+    marketGroup: 1337
     name: Sterile Conduits
     volume: 100.0
   Wetware Mainframe:
     ExportTaxMultiplier: 1200000
     ImportTaxMultiplier: 1200000
     id: 2876
+    marketGroup: 1337
     name: Wetware Mainframe
     volume: 100.0

@@ -5,6 +5,7 @@ items:
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.0
     id: 21572
+    marketGroup: 1902
     name: Sleeper Data Crystals
     volume: 1.0
   Sleeper Data Interface Protocol:
@@ -13,6 +14,7 @@ items:
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 1.0
     id: 21568
+    marketGroup: 1902
     name: Sleeper Data Interface Protocol
     volume: 1.0
   Sleeper Manuscripts:
@@ -21,6 +23,7 @@ items:
     InventionPropabilityMultiplier: 3.0
     InventionTEModifier: 0.800000011920929
     id: 21570
+    marketGroup: 1902
     name: Sleeper Manuscripts
     volume: 1.0
   Sleeper Profound Research Notes:
@@ -29,6 +32,7 @@ items:
     InventionPropabilityMultiplier: 2.0
     InventionTEModifier: 2.0
     id: 21569
+    marketGroup: 1902
     name: Sleeper Profound Research Notes
     volume: 1.0
   Sleeper Technical Schematics:
@@ -37,5 +41,6 @@ items:
     InventionPropabilityMultiplier: 5.0
     InventionTEModifier: 0.4000000059604645
     id: 21571
+    marketGroup: 1902
     name: Sleeper Technical Schematics
     volume: 1.0

@@ -5,6 +5,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 41402
+    marketGroup: 1201
     name: Phobetor Warp Disrupt Probe
     volume: 5.0
   Surgical Warp Disrupt Probe:
@@ -21,6 +22,7 @@ items:
     TechLevel: 1
     WarpScrambleRange: 10000
     id: 34260
+    marketGroup: 1201
     name: Surgical Warp Disrupt Probe
     volume: 5.0
   Warp Disrupt Probe:
@@ -37,5 +39,6 @@ items:
     TechLevel: 1
     WarpScrambleRange: 20000
     id: 22778
+    marketGroup: 1201
     name: Warp Disrupt Probe
     volume: 5.0

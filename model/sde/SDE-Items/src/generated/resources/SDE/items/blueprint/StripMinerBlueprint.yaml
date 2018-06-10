@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
     id: 16279
+    marketGroup: 338
     name: Ice Harvester I Blueprint
     volume: 0.01
   Ice Harvester II Blueprint:
@@ -39,5 +40,6 @@ items:
     IndustryBlueprintRank: 7.0
     TechLevel: 1
     id: 17483
+    marketGroup: 338
     name: Strip Miner I Blueprint
     volume: 0.01

@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 22.5
     id: 30028
+    marketGroup: 1199
     name: Combat Scanner Probe I
     volume: 1.0
   Core Scanner Probe I:
@@ -34,6 +35,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
     id: 30013
+    marketGroup: 1199
     name: Core Scanner Probe I
     volume: 0.1
   RSS Core Scanner Probe:
@@ -53,6 +55,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
     id: 32246
+    marketGroup: 1199
     name: RSS Core Scanner Probe
     volume: 0.1
   Sisters Combat Scanner Probe:
@@ -73,6 +76,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 22.5
     id: 30486
+    marketGroup: 1199
     name: Sisters Combat Scanner Probe
     volume: 1.0
   Sisters Core Scanner Probe:
@@ -92,5 +96,6 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 15.0
     id: 30488
+    marketGroup: 1199
     name: Sisters Core Scanner Probe
     volume: 0.1

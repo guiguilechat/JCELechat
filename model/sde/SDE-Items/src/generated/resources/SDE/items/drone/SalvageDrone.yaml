@@ -73,5 +73,6 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 32787
+    marketGroup: 1646
     name: Salvage Drone I
     volume: 5.0

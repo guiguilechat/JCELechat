@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -52.5
     id: 20635
+    marketGroup: 1692
     name: '''Desert Heat'' Thermal Dissipation Field'
     volume: 5.0
   '''Nugget'' Kinetic Deflection Field':
@@ -33,6 +34,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20633
+    marketGroup: 1693
     name: '''Nugget'' Kinetic Deflection Field'
     volume: 5.0
   '''Poacher'' EM Ward Field':
@@ -51,6 +53,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20639
+    marketGroup: 1695
     name: '''Poacher'' EM Ward Field'
     volume: 5.0
   '''Posse'' Adaptive Invulnerability Field':
@@ -73,6 +76,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -27.5
     id: 20637
+    marketGroup: 1696
     name: '''Posse'' Adaptive Invulnerability Field'
     volume: 5.0
   '''Snake Eyes'' Explosive Deflection Field':
@@ -91,6 +95,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20641
+    marketGroup: 1694
     name: '''Snake Eyes'' Explosive Deflection Field'
     volume: 5.0
   Adaptive Invulnerability Field I:
@@ -111,6 +116,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
     id: 578
+    marketGroup: 1696
     name: Adaptive Invulnerability Field I
     volume: 20.0
   Adaptive Invulnerability Field II:
@@ -132,6 +138,7 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -30.0
     id: 2281
+    marketGroup: 1696
     name: Adaptive Invulnerability Field II
     volume: 5.0
   Caldari Navy Adaptive Invulnerability Field:
@@ -154,6 +161,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 17498
+    marketGroup: 1696
     name: Caldari Navy Adaptive Invulnerability Field
     volume: 5.0
   Caldari Navy EM Ward Field:
@@ -172,6 +180,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 17499
+    marketGroup: 1695
     name: Caldari Navy EM Ward Field
     volume: 5.0
   Caldari Navy Explosive Deflection Field:
@@ -190,6 +199,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 17496
+    marketGroup: 1694
     name: Caldari Navy Explosive Deflection Field
     volume: 5.0
   Caldari Navy Kinetic Deflection Field:
@@ -208,6 +218,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 17495
+    marketGroup: 1693
     name: Caldari Navy Kinetic Deflection Field
     volume: 5.0
   Caldari Navy Thermal Dissipation Field:
@@ -226,6 +237,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
     id: 17497
+    marketGroup: 1692
     name: Caldari Navy Thermal Dissipation Field
     volume: 5.0
   Civilian EM Ward Field:
@@ -244,6 +256,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30420
+    marketGroup: 1695
     name: Civilian EM Ward Field
     volume: 20.0
   Civilian Explosive Deflection Field:
@@ -262,6 +275,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30422
+    marketGroup: 1694
     name: Civilian Explosive Deflection Field
     volume: 20.0
   Civilian Kinetic Deflection Field:
@@ -280,6 +294,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 30424
+    marketGroup: 1693
     name: Civilian Kinetic Deflection Field
     volume: 20.0
   Civilian Thermal Dissipation Field:
@@ -298,6 +313,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -35.0
     id: 30342
+    marketGroup: 1692
     name: Civilian Thermal Dissipation Field
     volume: 20.0
   Domination Adaptive Invulnerability Field:
@@ -320,6 +336,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
     id: 13998
+    marketGroup: 1696
     name: Domination Adaptive Invulnerability Field
     volume: 5.0
   Domination EM Ward Field:
@@ -338,6 +355,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13994
+    marketGroup: 1695
     name: Domination EM Ward Field
     volume: 5.0
   Domination Explosive Deflection Field:
@@ -356,6 +374,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13996
+    marketGroup: 1694
     name: Domination Explosive Deflection Field
     volume: 5.0
   Domination Kinetic Deflection Field:
@@ -374,6 +393,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13997
+    marketGroup: 1693
     name: Domination Kinetic Deflection Field
     volume: 5.0
   Domination Thermal Dissipation Field:
@@ -392,6 +412,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
     id: 13995
+    marketGroup: 1692
     name: Domination Thermal Dissipation Field
     volume: 5.0
   Dread Guristas Adaptive Invulnerability Field:
@@ -414,6 +435,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 13969
+    marketGroup: 1696
     name: Dread Guristas Adaptive Invulnerability Field
     volume: 5.0
   Dread Guristas EM Ward Field:
@@ -432,6 +454,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13965
+    marketGroup: 1695
     name: Dread Guristas EM Ward Field
     volume: 5.0
   Dread Guristas Explosive Deflection Field:
@@ -450,6 +473,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13967
+    marketGroup: 1694
     name: Dread Guristas Explosive Deflection Field
     volume: 5.0
   Dread Guristas Kinetic Deflection Field:
@@ -468,6 +492,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 13968
+    marketGroup: 1693
     name: Dread Guristas Kinetic Deflection Field
     volume: 5.0
   Dread Guristas Thermal Dissipation Field:
@@ -486,6 +511,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -55.0
     id: 13966
+    marketGroup: 1692
     name: Dread Guristas Thermal Dissipation Field
     volume: 5.0
   EM Ward Field I:
@@ -502,6 +528,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 2293
+    marketGroup: 1695
     name: EM Ward Field I
     volume: 20.0
   EM Ward Field II:
@@ -519,6 +546,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 2301
+    marketGroup: 1695
     name: EM Ward Field II
     volume: 5.0
   Estamel's Modified Adaptive Invulnerability Field:
@@ -541,6 +569,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
     id: 14767
+    marketGroup: 1696
     name: Estamel's Modified Adaptive Invulnerability Field
     volume: 5.0
   Estamel's Modified EM Ward Field:
@@ -559,6 +588,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14755
+    marketGroup: 1695
     name: Estamel's Modified EM Ward Field
     volume: 5.0
   Estamel's Modified Explosive Deflection Field:
@@ -577,6 +607,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14759
+    marketGroup: 1694
     name: Estamel's Modified Explosive Deflection Field
     volume: 5.0
   Estamel's Modified Kinetic Deflection Field:
@@ -595,6 +626,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14751
+    marketGroup: 1693
     name: Estamel's Modified Kinetic Deflection Field
     volume: 5.0
   Estamel's Modified Thermal Dissipation Field:
@@ -613,6 +645,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
     id: 14763
+    marketGroup: 1692
     name: Estamel's Modified Thermal Dissipation Field
     volume: 5.0
   Explosive Deflection Field I:
@@ -629,6 +662,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 2289
+    marketGroup: 1694
     name: Explosive Deflection Field I
     volume: 20.0
   Explosive Deflection Field II:
@@ -646,6 +680,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 2297
+    marketGroup: 1694
     name: Explosive Deflection Field II
     volume: 5.0
   Gist A-Type EM Ward Field:
@@ -665,6 +700,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19279
+    marketGroup: 1695
     name: Gist A-Type EM Ward Field
     volume: 5.0
   Gist A-Type Explosive Deflection Field:
@@ -684,6 +720,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19275
+    marketGroup: 1694
     name: Gist A-Type Explosive Deflection Field
     volume: 5.0
   Gist A-Type Kinetic Deflection Field:
@@ -703,6 +740,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19273
+    marketGroup: 1693
     name: Gist A-Type Kinetic Deflection Field
     volume: 5.0
   Gist A-Type Thermal Dissipation Field:
@@ -722,6 +760,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
     id: 19277
+    marketGroup: 1692
     name: Gist A-Type Thermal Dissipation Field
     volume: 5.0
   Gist B-Type EM Ward Field:
@@ -741,6 +780,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19265
+    marketGroup: 1695
     name: Gist B-Type EM Ward Field
     volume: 5.0
   Gist B-Type Explosive Deflection Field:
@@ -760,6 +800,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19269
+    marketGroup: 1694
     name: Gist B-Type Explosive Deflection Field
     volume: 5.0
   Gist B-Type Kinetic Deflection Field:
@@ -779,6 +820,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19271
+    marketGroup: 1693
     name: Gist B-Type Kinetic Deflection Field
     volume: 5.0
   Gist B-Type Thermal Dissipation Field:
@@ -798,6 +840,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
     id: 19267
+    marketGroup: 1692
     name: Gist B-Type Thermal Dissipation Field
     volume: 5.0
   Gist C-Type EM Ward Field:
@@ -817,6 +860,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19263
+    marketGroup: 1695
     name: Gist C-Type EM Ward Field
     volume: 5.0
   Gist C-Type Explosive Deflection Field:
@@ -836,6 +880,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19259
+    marketGroup: 1694
     name: Gist C-Type Explosive Deflection Field
     volume: 5.0
   Gist C-Type Kinetic Deflection Field:
@@ -855,6 +900,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19257
+    marketGroup: 1693
     name: Gist C-Type Kinetic Deflection Field
     volume: 5.0
   Gist C-Type Thermal Dissipation Field:
@@ -874,6 +920,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -54.5
     id: 19261
+    marketGroup: 1692
     name: Gist C-Type Thermal Dissipation Field
     volume: 5.0
   Gist X-Type EM Ward Field:
@@ -893,6 +940,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19281
+    marketGroup: 1695
     name: Gist X-Type EM Ward Field
     volume: 5.0
   Gist X-Type Explosive Deflection Field:
@@ -912,6 +960,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19285
+    marketGroup: 1694
     name: Gist X-Type Explosive Deflection Field
     volume: 5.0
   Gist X-Type Kinetic Deflection Field:
@@ -931,6 +980,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19287
+    marketGroup: 1693
     name: Gist X-Type Kinetic Deflection Field
     volume: 5.0
   Gist X-Type Thermal Dissipation Field:
@@ -950,6 +1000,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
     id: 19283
+    marketGroup: 1692
     name: Gist X-Type Thermal Dissipation Field
     volume: 5.0
   Gistum A-Type Adaptive Invulnerability Field:
@@ -973,6 +1024,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -43.75
     id: 4346
+    marketGroup: 1696
     name: Gistum A-Type Adaptive Invulnerability Field
     volume: 5.0
   Gistum B-Type Adaptive Invulnerability Field:
@@ -996,6 +1048,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -40.625
     id: 4345
+    marketGroup: 1696
     name: Gistum B-Type Adaptive Invulnerability Field
     volume: 5.0
   Gistum C-Type Adaptive Invulnerability Field:
@@ -1019,6 +1072,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 2050
+    marketGroup: 1696
     name: Gistum C-Type Adaptive Invulnerability Field
     volume: 5.0
   Kaikka's Modified Adaptive Invulnerability Field:
@@ -1041,6 +1095,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -40.625
     id: 14764
+    marketGroup: 1696
     name: Kaikka's Modified Adaptive Invulnerability Field
     volume: 5.0
   Kaikka's Modified EM Ward Field:
@@ -1059,6 +1114,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14752
+    marketGroup: 1695
     name: Kaikka's Modified EM Ward Field
     volume: 5.0
   Kaikka's Modified Explosive Deflection Field:
@@ -1077,6 +1133,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14756
+    marketGroup: 1694
     name: Kaikka's Modified Explosive Deflection Field
     volume: 5.0
   Kaikka's Modified Kinetic Deflection Field:
@@ -1095,6 +1152,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14748
+    marketGroup: 1693
     name: Kaikka's Modified Kinetic Deflection Field
     volume: 5.0
   Kaikka's Modified Thermal Dissipation Field:
@@ -1113,6 +1171,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
     id: 14760
+    marketGroup: 1692
     name: Kaikka's Modified Thermal Dissipation Field
     volume: 5.0
   Kinetic Deflection Field I:
@@ -1129,6 +1188,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 2291
+    marketGroup: 1693
     name: Kinetic Deflection Field I
     volume: 20.0
   Kinetic Deflection Field II:
@@ -1146,6 +1206,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 2299
+    marketGroup: 1693
     name: Kinetic Deflection Field II
     volume: 5.0
   Limited 'Anointed' EM Ward Field:
@@ -1163,6 +1224,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9622
+    marketGroup: 1695
     name: Limited 'Anointed' EM Ward Field
     volume: 5.0
   Limited Adaptive Invulnerability Field I:
@@ -1184,6 +1246,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
     id: 9632
+    marketGroup: 1696
     name: Limited Adaptive Invulnerability Field I
     volume: 5.0
   Limited Explosive Deflection Field I:
@@ -1201,6 +1264,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9646
+    marketGroup: 1694
     name: Limited Explosive Deflection Field I
     volume: 5.0
   Limited Kinetic Deflection Field I:
@@ -1218,6 +1282,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9608
+    marketGroup: 1693
     name: Limited Kinetic Deflection Field I
     volume: 5.0
   Limited Thermal Dissipation Field I:
@@ -1235,6 +1300,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
     id: 9660
+    marketGroup: 1692
     name: Limited Thermal Dissipation Field I
     volume: 5.0
   Luther Veron's Modified Adaptive Invulnerability Field:
@@ -1295,6 +1361,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19280
+    marketGroup: 1695
     name: Pith A-Type EM Ward Field
     volume: 5.0
   Pith A-Type Explosive Deflection Field:
@@ -1313,6 +1380,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19276
+    marketGroup: 1694
     name: Pith A-Type Explosive Deflection Field
     volume: 5.0
   Pith A-Type Kinetic Deflection Field:
@@ -1331,6 +1399,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19274
+    marketGroup: 1693
     name: Pith A-Type Kinetic Deflection Field
     volume: 5.0
   Pith A-Type Thermal Dissipation Field:
@@ -1349,6 +1418,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
     id: 19278
+    marketGroup: 1692
     name: Pith A-Type Thermal Dissipation Field
     volume: 5.0
   Pith B-Type EM Ward Field:
@@ -1367,6 +1437,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19266
+    marketGroup: 1695
     name: Pith B-Type EM Ward Field
     volume: 5.0
   Pith B-Type Explosive Deflection Field:
@@ -1385,6 +1456,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19270
+    marketGroup: 1694
     name: Pith B-Type Explosive Deflection Field
     volume: 5.0
   Pith B-Type Kinetic Deflection Field:
@@ -1403,6 +1475,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19272
+    marketGroup: 1693
     name: Pith B-Type Kinetic Deflection Field
     volume: 5.0
   Pith B-Type Thermal Dissipation Field:
@@ -1421,6 +1494,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
     id: 19268
+    marketGroup: 1692
     name: Pith B-Type Thermal Dissipation Field
     volume: 5.0
   Pith C-Type EM Ward Field:
@@ -1439,6 +1513,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19264
+    marketGroup: 1695
     name: Pith C-Type EM Ward Field
     volume: 5.0
   Pith C-Type Explosive Deflection Field:
@@ -1457,6 +1532,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19260
+    marketGroup: 1694
     name: Pith C-Type Explosive Deflection Field
     volume: 5.0
   Pith C-Type Kinetic Deflection Field:
@@ -1475,6 +1551,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19258
+    marketGroup: 1693
     name: Pith C-Type Kinetic Deflection Field
     volume: 5.0
   Pith C-Type Thermal Dissipation Field:
@@ -1493,6 +1570,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -57.25
     id: 19262
+    marketGroup: 1692
     name: Pith C-Type Thermal Dissipation Field
     volume: 5.0
   Pith X-Type EM Ward Field:
@@ -1511,6 +1589,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19282
+    marketGroup: 1695
     name: Pith X-Type EM Ward Field
     volume: 5.0
   Pith X-Type Explosive Deflection Field:
@@ -1529,6 +1608,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19286
+    marketGroup: 1694
     name: Pith X-Type Explosive Deflection Field
     volume: 5.0
   Pith X-Type Kinetic Deflection Field:
@@ -1547,6 +1627,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 19288
+    marketGroup: 1693
     name: Pith X-Type Kinetic Deflection Field
     volume: 5.0
   Pith X-Type Thermal Dissipation Field:
@@ -1565,6 +1646,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -64.0
     id: 19284
+    marketGroup: 1692
     name: Pith X-Type Thermal Dissipation Field
     volume: 5.0
   Pithum A-Type Adaptive Invulnerability Field:
@@ -1588,6 +1670,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -46.875
     id: 4347
+    marketGroup: 1696
     name: Pithum A-Type Adaptive Invulnerability Field
     volume: 5.0
   Pithum B-Type Adaptive Invulnerability Field:
@@ -1611,6 +1694,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -43.75
     id: 4348
+    marketGroup: 1696
     name: Pithum B-Type Adaptive Invulnerability Field
     volume: 5.0
   Pithum C-Type Adaptive Invulnerability Field:
@@ -1634,6 +1718,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -40.625
     id: 4349
+    marketGroup: 1696
     name: Pithum C-Type Adaptive Invulnerability Field
     volume: 5.0
   Thermal Dissipation Field I:
@@ -1650,6 +1735,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -50.0
     id: 2295
+    marketGroup: 1692
     name: Thermal Dissipation Field I
     volume: 20.0
   Thermal Dissipation Field II:
@@ -1667,6 +1753,7 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -55.0
     id: 2303
+    marketGroup: 1692
     name: Thermal Dissipation Field II
     volume: 5.0
   Thon's Modified Adaptive Invulnerability Field:
@@ -1689,6 +1776,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -43.75
     id: 14765
+    marketGroup: 1696
     name: Thon's Modified Adaptive Invulnerability Field
     volume: 5.0
   Thon's Modified EM Ward Field:
@@ -1707,6 +1795,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14753
+    marketGroup: 1695
     name: Thon's Modified EM Ward Field
     volume: 5.0
   Thon's Modified Explosive Deflection Field:
@@ -1725,6 +1814,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14757
+    marketGroup: 1694
     name: Thon's Modified Explosive Deflection Field
     volume: 5.0
   Thon's Modified Kinetic Deflection Field:
@@ -1743,6 +1833,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14749
+    marketGroup: 1693
     name: Thon's Modified Kinetic Deflection Field
     volume: 5.0
   Thon's Modified Thermal Dissipation Field:
@@ -1761,6 +1852,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -59.5
     id: 14761
+    marketGroup: 1692
     name: Thon's Modified Thermal Dissipation Field
     volume: 5.0
   Vepas's Modified Adaptive Invulnerability Field:
@@ -1783,6 +1875,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -46.875
     id: 14766
+    marketGroup: 1696
     name: Vepas's Modified Adaptive Invulnerability Field
     volume: 5.0
   Vepas's Modified EM Ward Field:
@@ -1801,6 +1894,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14754
+    marketGroup: 1695
     name: Vepas's Modified EM Ward Field
     volume: 5.0
   Vepas's Modified Explosive Deflection Field:
@@ -1819,6 +1913,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14758
+    marketGroup: 1694
     name: Vepas's Modified Explosive Deflection Field
     volume: 5.0
   Vepas's Modified Kinetic Deflection Field:
@@ -1837,6 +1932,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14750
+    marketGroup: 1693
     name: Vepas's Modified Kinetic Deflection Field
     volume: 5.0
   Vepas's Modified Thermal Dissipation Field:
@@ -1855,5 +1951,6 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -61.75
     id: 14762
+    marketGroup: 1692
     name: Vepas's Modified Thermal Dissipation Field
     volume: 5.0

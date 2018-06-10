@@ -12,6 +12,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37532
+    marketGroup: 2219
     name: Standup Signal Amplifier I
     volume: 4000.0
   Standup Signal Amplifier II:
@@ -28,5 +29,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47348
+    marketGroup: 2219
     name: Standup Signal Amplifier II
     volume: 4000.0

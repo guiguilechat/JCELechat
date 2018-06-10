@@ -20,6 +20,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41223
+    marketGroup: 2247
     name: Arbalest Compact Rapid Torpedo Launcher
     volume: 4000.0
   Dread Guristas Rapid Torpedo Launcher:
@@ -45,6 +46,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 37293
+    marketGroup: 2247
     name: Dread Guristas Rapid Torpedo Launcher
     volume: 4000.0
   Rapid Torpedo Launcher I:
@@ -67,6 +69,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 37288
+    marketGroup: 2247
     name: Rapid Torpedo Launcher I
     volume: 4000.0
   Rapid Torpedo Launcher II:
@@ -93,6 +96,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11324
     id: 37292
+    marketGroup: 2247
     name: Rapid Torpedo Launcher II
     volume: 4000.0
   TE-2100 Ample Rapid Torpedo Launcher:
@@ -116,5 +120,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 41224
+    marketGroup: 2247
     name: TE-2100 Ample Rapid Torpedo Launcher
     volume: 4000.0

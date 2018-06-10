@@ -10,6 +10,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 20609
+    marketGroup: 1689
     name: '''Cactus'' Modified Kinetic Deflection Amplifier'
     volume: 5.0
   '''High Noon'' Thermal Dissipation Amplifier':
@@ -23,6 +24,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 20607
+    marketGroup: 1688
     name: '''High Noon'' Thermal Dissipation Amplifier'
     volume: 5.0
   '''Prospector'' EM Ward Amplifier':
@@ -36,6 +38,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 20611
+    marketGroup: 1691
     name: '''Prospector'' EM Ward Amplifier'
     volume: 5.0
   '''Whiskey'' Explosive Deflection Amplifier':
@@ -49,6 +52,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 20605
+    marketGroup: 1690
     name: '''Whiskey'' Explosive Deflection Amplifier'
     volume: 5.0
   Basic EM Ward Amplifier:
@@ -58,6 +62,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1798
+    marketGroup: 1691
     name: Basic EM Ward Amplifier
     volume: 5.0
   Basic Explosive Deflection Amplifier:
@@ -67,6 +72,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1804
+    marketGroup: 1690
     name: Basic Explosive Deflection Amplifier
     volume: 5.0
   Basic Kinetic Deflection Amplifier:
@@ -76,6 +82,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1802
+    marketGroup: 1689
     name: Basic Kinetic Deflection Amplifier
     volume: 5.0
   Basic Thermal Dissipation Amplifier:
@@ -85,6 +92,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
     id: 1800
+    marketGroup: 1688
     name: Basic Thermal Dissipation Amplifier
     volume: 5.0
   Caldari Navy EM Ward Amplifier:
@@ -98,6 +106,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15909
+    marketGroup: 1691
     name: Caldari Navy EM Ward Amplifier
     volume: 5.0
   Caldari Navy Explosive Deflection Amplifier:
@@ -111,6 +120,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15915
+    marketGroup: 1690
     name: Caldari Navy Explosive Deflection Amplifier
     volume: 5.0
   Caldari Navy Kinetic Deflection Amplifier:
@@ -124,6 +134,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15911
+    marketGroup: 1689
     name: Caldari Navy Kinetic Deflection Amplifier
     volume: 5.0
   Caldari Navy Thermal Dissipation Amplifier:
@@ -137,6 +148,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -39.400001525878906
     id: 15913
+    marketGroup: 1688
     name: Caldari Navy Thermal Dissipation Amplifier
     volume: 5.0
   Domination EM Ward Amplifier:
@@ -150,6 +162,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14041
+    marketGroup: 1691
     name: Domination EM Ward Amplifier
     volume: 5.0
   Domination Explosive Deflection Amplifier:
@@ -163,6 +176,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14029
+    marketGroup: 1690
     name: Domination Explosive Deflection Amplifier
     volume: 5.0
   Domination Kinetic Deflection Amplifier:
@@ -176,6 +190,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14037
+    marketGroup: 1689
     name: Domination Kinetic Deflection Amplifier
     volume: 5.0
   Domination Thermal Dissipation Amplifier:
@@ -189,6 +204,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 14033
+    marketGroup: 1688
     name: Domination Thermal Dissipation Amplifier
     volume: 5.0
   Dread Guristas EM Ward Amplifier:
@@ -202,6 +218,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14043
+    marketGroup: 1691
     name: Dread Guristas EM Ward Amplifier
     volume: 5.0
   Dread Guristas Explosive Deflection Amplifier:
@@ -215,6 +232,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14031
+    marketGroup: 1690
     name: Dread Guristas Explosive Deflection Amplifier
     volume: 5.0
   Dread Guristas Kinetic Deflection Amplifier:
@@ -228,6 +246,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14039
+    marketGroup: 1689
     name: Dread Guristas Kinetic Deflection Amplifier
     volume: 5.0
   Dread Guristas Thermal Dissipation Amplifier:
@@ -241,6 +260,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -39.400001525878906
     id: 14035
+    marketGroup: 1688
     name: Dread Guristas Thermal Dissipation Amplifier
     volume: 5.0
   EM Ward Amplifier I:
@@ -251,6 +271,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 1808
+    marketGroup: 1691
     name: EM Ward Amplifier I
     volume: 5.0
   EM Ward Amplifier II:
@@ -262,6 +283,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 2553
+    marketGroup: 1691
     name: EM Ward Amplifier II
     volume: 5.0
   Estamel's Modified EM Ward Amplifier:
@@ -275,6 +297,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14746
+    marketGroup: 1691
     name: Estamel's Modified EM Ward Amplifier
     volume: 5.0
   Estamel's Modified Explosive Deflection Amplifier:
@@ -288,6 +311,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14722
+    marketGroup: 1690
     name: Estamel's Modified Explosive Deflection Amplifier
     volume: 5.0
   Estamel's Modified Kinetic Deflection Amplifier:
@@ -301,6 +325,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14738
+    marketGroup: 1689
     name: Estamel's Modified Kinetic Deflection Amplifier
     volume: 5.0
   Estamel's Modified Thermal Dissipation Amplifier:
@@ -314,6 +339,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -46.0
     id: 14730
+    marketGroup: 1688
     name: Estamel's Modified Thermal Dissipation Amplifier
     volume: 5.0
   Explosive Deflection Amplifier I:
@@ -324,6 +350,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 2529
+    marketGroup: 1690
     name: Explosive Deflection Amplifier I
     volume: 5.0
   Explosive Deflection Amplifier II:
@@ -335,6 +362,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 2531
+    marketGroup: 1690
     name: Explosive Deflection Amplifier II
     volume: 5.0
   Gistum A-Type EM Ward Amplifier:
@@ -348,6 +376,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19255
+    marketGroup: 1691
     name: Gistum A-Type EM Ward Amplifier
     volume: 5.0
   Gistum A-Type Explosive Deflection Amplifier:
@@ -361,6 +390,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19249
+    marketGroup: 1690
     name: Gistum A-Type Explosive Deflection Amplifier
     volume: 5.0
   Gistum A-Type Kinetic Deflection Amplifier:
@@ -374,6 +404,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19253
+    marketGroup: 1689
     name: Gistum A-Type Kinetic Deflection Amplifier
     volume: 5.0
   Gistum A-Type Thermal Dissipation Amplifier:
@@ -387,6 +418,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -43.20000076293945
     id: 19251
+    marketGroup: 1688
     name: Gistum A-Type Thermal Dissipation Amplifier
     volume: 5.0
   Gistum B-Type EM Ward Amplifier:
@@ -400,6 +432,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19247
+    marketGroup: 1691
     name: Gistum B-Type EM Ward Amplifier
     volume: 5.0
   Gistum B-Type Explosive Deflection Amplifier:
@@ -413,6 +446,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19235
+    marketGroup: 1690
     name: Gistum B-Type Explosive Deflection Amplifier
     volume: 5.0
   Gistum B-Type Kinetic Deflection Amplifier:
@@ -426,6 +460,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19243
+    marketGroup: 1689
     name: Gistum B-Type Kinetic Deflection Amplifier
     volume: 5.0
   Gistum B-Type Thermal Dissipation Amplifier:
@@ -439,6 +474,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -42.20000076293945
     id: 19239
+    marketGroup: 1688
     name: Gistum B-Type Thermal Dissipation Amplifier
     volume: 5.0
   Gistum C-Type EM Ward Amplifier:
@@ -452,6 +488,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19245
+    marketGroup: 1691
     name: Gistum C-Type EM Ward Amplifier
     volume: 5.0
   Gistum C-Type Explosive Deflection Amplifier:
@@ -465,6 +502,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19233
+    marketGroup: 1690
     name: Gistum C-Type Explosive Deflection Amplifier
     volume: 5.0
   Gistum C-Type Kinetic Deflection Amplifier:
@@ -478,6 +516,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19241
+    marketGroup: 1689
     name: Gistum C-Type Kinetic Deflection Amplifier
     volume: 5.0
   Gistum C-Type Thermal Dissipation Amplifier:
@@ -491,6 +530,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -40.29999923706055
     id: 19237
+    marketGroup: 1688
     name: Gistum C-Type Thermal Dissipation Amplifier
     volume: 5.0
   Hakim's Modified EM Ward Amplifier:
@@ -504,6 +544,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14630
+    marketGroup: 1691
     name: Hakim's Modified EM Ward Amplifier
     volume: 5.0
   Hakim's Modified Explosive Deflection Amplifier:
@@ -517,6 +558,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14606
+    marketGroup: 1690
     name: Hakim's Modified Explosive Deflection Amplifier
     volume: 5.0
   Hakim's Modified Kinetic Deflection Amplifier:
@@ -530,6 +572,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14622
+    marketGroup: 1689
     name: Hakim's Modified Kinetic Deflection Amplifier
     volume: 5.0
   Hakim's Modified Thermal Dissipation Amplifier:
@@ -543,6 +586,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -42.20000076293945
     id: 14614
+    marketGroup: 1688
     name: Hakim's Modified Thermal Dissipation Amplifier
     volume: 5.0
   Kaikka's Modified EM Ward Amplifier:
@@ -556,6 +600,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14740
+    marketGroup: 1691
     name: Kaikka's Modified EM Ward Amplifier
     volume: 5.0
   Kaikka's Modified Explosive Deflection Amplifier:
@@ -569,6 +614,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14716
+    marketGroup: 1690
     name: Kaikka's Modified Explosive Deflection Amplifier
     volume: 5.0
   Kaikka's Modified Kinetic Deflection Amplifier:
@@ -582,6 +628,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14732
+    marketGroup: 1689
     name: Kaikka's Modified Kinetic Deflection Amplifier
     volume: 5.0
   Kaikka's Modified Thermal Dissipation Amplifier:
@@ -595,6 +642,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -41.29999923706055
     id: 14724
+    marketGroup: 1688
     name: Kaikka's Modified Thermal Dissipation Amplifier
     volume: 5.0
   Kinetic Deflection Amplifier I:
@@ -605,6 +653,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 2545
+    marketGroup: 1689
     name: Kinetic Deflection Amplifier I
     volume: 5.0
   Kinetic Deflection Amplifier II:
@@ -616,6 +665,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 2547
+    marketGroup: 1689
     name: Kinetic Deflection Amplifier II
     volume: 5.0
   Pithum A-Type EM Ward Amplifier:
@@ -629,6 +679,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19231
+    marketGroup: 1691
     name: Pithum A-Type EM Ward Amplifier
     volume: 5.0
   Pithum A-Type Explosive Deflection Amplifier:
@@ -642,6 +693,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19225
+    marketGroup: 1690
     name: Pithum A-Type Explosive Deflection Amplifier
     volume: 5.0
   Pithum A-Type Kinetic Deflection Amplifier:
@@ -655,6 +707,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19229
+    marketGroup: 1689
     name: Pithum A-Type Kinetic Deflection Amplifier
     volume: 5.0
   Pithum A-Type Thermal Dissipation Amplifier:
@@ -668,6 +721,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -45.099998474121094
     id: 19227
+    marketGroup: 1688
     name: Pithum A-Type Thermal Dissipation Amplifier
     volume: 5.0
   Pithum B-Type EM Ward Amplifier:
@@ -681,6 +735,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19223
+    marketGroup: 1691
     name: Pithum B-Type EM Ward Amplifier
     volume: 5.0
   Pithum B-Type Explosive Deflection Amplifier:
@@ -694,6 +749,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19217
+    marketGroup: 1690
     name: Pithum B-Type Explosive Deflection Amplifier
     volume: 5.0
   Pithum B-Type Kinetic Deflection Amplifier:
@@ -707,6 +763,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19221
+    marketGroup: 1689
     name: Pithum B-Type Kinetic Deflection Amplifier
     volume: 5.0
   Pithum B-Type Thermal Dissipation Amplifier:
@@ -720,6 +777,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
     id: 19219
+    marketGroup: 1688
     name: Pithum B-Type Thermal Dissipation Amplifier
     volume: 5.0
   Pithum C-Type EM Ward Amplifier:
@@ -733,6 +791,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19215
+    marketGroup: 1691
     name: Pithum C-Type EM Ward Amplifier
     volume: 5.0
   Pithum C-Type Explosive Deflection Amplifier:
@@ -746,6 +805,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19209
+    marketGroup: 1690
     name: Pithum C-Type Explosive Deflection Amplifier
     volume: 5.0
   Pithum C-Type Kinetic Deflection Amplifier:
@@ -759,6 +819,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 19213
+    marketGroup: 1689
     name: Pithum C-Type Kinetic Deflection Amplifier
     volume: 5.0
   Pithum C-Type Thermal Dissipation Amplifier:
@@ -772,6 +833,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -41.29999923706055
     id: 19211
+    marketGroup: 1688
     name: Pithum C-Type Thermal Dissipation Amplifier
     volume: 5.0
   Republic Fleet EM Ward Amplifier:
@@ -785,6 +847,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15917
+    marketGroup: 1691
     name: Republic Fleet EM Ward Amplifier
     volume: 5.0
   Republic Fleet Explosive Deflection Amplifier:
@@ -798,6 +861,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15923
+    marketGroup: 1690
     name: Republic Fleet Explosive Deflection Amplifier
     volume: 5.0
   Republic Fleet Kinetic Deflection Amplifier:
@@ -811,6 +875,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 15919
+    marketGroup: 1689
     name: Republic Fleet Kinetic Deflection Amplifier
     volume: 5.0
   Republic Fleet Thermal Dissipation Amplifier:
@@ -824,6 +889,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -37.5
     id: 15921
+    marketGroup: 1688
     name: Republic Fleet Thermal Dissipation Amplifier
     volume: 5.0
   Supplemental EM Ward Amplifier:
@@ -833,6 +899,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9562
+    marketGroup: 1691
     name: Supplemental EM Ward Amplifier
     volume: 5.0
   Supplemental Explosive Deflection Amplifier:
@@ -842,6 +909,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9574
+    marketGroup: 1690
     name: Supplemental Explosive Deflection Amplifier
     volume: 5.0
   Supplemental Kinetic Deflection Amplifier:
@@ -851,6 +919,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9570
+    marketGroup: 1689
     name: Supplemental Kinetic Deflection Amplifier
     volume: 5.0
   Supplemental Thermal Dissipation Amplifier:
@@ -860,6 +929,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -25.0
     id: 9566
+    marketGroup: 1688
     name: Supplemental Thermal Dissipation Amplifier
     volume: 5.0
   Thermal Dissipation Amplifier I:
@@ -870,6 +940,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -32.5
     id: 2537
+    marketGroup: 1688
     name: Thermal Dissipation Amplifier I
     volume: 5.0
   Thermal Dissipation Amplifier II:
@@ -881,6 +952,7 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -37.5
     id: 2539
+    marketGroup: 1688
     name: Thermal Dissipation Amplifier II
     volume: 5.0
   Thon's Modified EM Ward Amplifier:
@@ -894,6 +966,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14742
+    marketGroup: 1691
     name: Thon's Modified EM Ward Amplifier
     volume: 5.0
   Thon's Modified Explosive Deflection Amplifier:
@@ -907,6 +980,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14718
+    marketGroup: 1690
     name: Thon's Modified Explosive Deflection Amplifier
     volume: 5.0
   Thon's Modified Kinetic Deflection Amplifier:
@@ -920,6 +994,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14734
+    marketGroup: 1689
     name: Thon's Modified Kinetic Deflection Amplifier
     volume: 5.0
   Thon's Modified Thermal Dissipation Amplifier:
@@ -933,6 +1008,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
     id: 14726
+    marketGroup: 1688
     name: Thon's Modified Thermal Dissipation Amplifier
     volume: 5.0
   Tobias' Modified EM Ward Amplifier:
@@ -946,6 +1022,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14634
+    marketGroup: 1691
     name: Tobias' Modified EM Ward Amplifier
     volume: 5.0
   Tobias' Modified Explosive Deflection Amplifier:
@@ -959,6 +1036,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14610
+    marketGroup: 1690
     name: Tobias' Modified Explosive Deflection Amplifier
     volume: 5.0
   Tobias' Modified Kinetic Deflection Amplifier:
@@ -972,6 +1050,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14626
+    marketGroup: 1689
     name: Tobias' Modified Kinetic Deflection Amplifier
     volume: 5.0
   Tobias' Modified Thermal Dissipation Amplifier:
@@ -985,6 +1064,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -44.099998474121094
     id: 14618
+    marketGroup: 1688
     name: Tobias' Modified Thermal Dissipation Amplifier
     volume: 5.0
   Upgraded EM Ward Amplifier I:
@@ -996,6 +1076,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9580
+    marketGroup: 1691
     name: Upgraded EM Ward Amplifier I
     volume: 5.0
   Upgraded Explosive Deflection Amplifier I:
@@ -1007,6 +1088,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9556
+    marketGroup: 1690
     name: Upgraded Explosive Deflection Amplifier I
     volume: 5.0
   Upgraded Kinetic Deflection Amplifier I:
@@ -1018,6 +1100,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 9582
+    marketGroup: 1689
     name: Upgraded Kinetic Deflection Amplifier I
     volume: 5.0
   Upgraded Thermal Dissipation Amplifier I:
@@ -1029,6 +1112,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -32.5
     id: 9568
+    marketGroup: 1688
     name: Upgraded Thermal Dissipation Amplifier I
     volume: 5.0
   Vepas' Modified EM Ward Amplifier:
@@ -1042,6 +1126,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14744
+    marketGroup: 1691
     name: Vepas' Modified EM Ward Amplifier
     volume: 5.0
   Vepas' Modified Explosive Deflection Amplifier:
@@ -1055,6 +1140,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14720
+    marketGroup: 1690
     name: Vepas' Modified Explosive Deflection Amplifier
     volume: 5.0
   Vepas' Modified Kinetic Deflection Amplifier:
@@ -1068,6 +1154,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 14736
+    marketGroup: 1689
     name: Vepas' Modified Kinetic Deflection Amplifier
     volume: 5.0
   Vepas' Modified Thermal Dissipation Amplifier:
@@ -1081,5 +1168,6 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -45.099998474121094
     id: 14728
+    marketGroup: 1688
     name: Vepas' Modified Thermal Dissipation Amplifier
     volume: 5.0

@@ -10,6 +10,7 @@ items:
     ShieldBoostMultiplier: -5.0
     TechLevel: 1
     id: 506
+    marketGroup: 667
     name: '''Basic'' Capacitor Power Relay'
     volume: 5.0
   '''Motte'' Capacitor Power Relay I':
@@ -23,6 +24,7 @@ items:
     ShieldBoostMultiplier: -7.0
     TechLevel: 1
     id: 23896
+    marketGroup: 667
     name: '''Motte'' Capacitor Power Relay I'
     volume: 5.0
   Ahremen's Modified Capacitor Power Relay:
@@ -35,6 +37,7 @@ items:
     ShieldBoostMultiplier: -11.5
     TechLevel: 1
     id: 15090
+    marketGroup: 667
     name: Ahremen's Modified Capacitor Power Relay
     volume: 5.0
   'Alpha Reactor Control: Capacitor Power Relay':
@@ -57,6 +60,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 17510
+    marketGroup: 667
     name: Ammatar Navy Capacitor Power Relay
     volume: 5.0
   'Beta Reactor Control: Capacitor Power Relay I':
@@ -80,6 +84,7 @@ items:
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
     id: 15080
+    marketGroup: 667
     name: Brokara's Modified Capacitor Power Relay
     volume: 5.0
   Capacitor Power Relay I:
@@ -90,6 +95,7 @@ items:
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
     id: 1445
+    marketGroup: 667
     name: Capacitor Power Relay I
     volume: 5.0
   Capacitor Power Relay II:
@@ -101,6 +107,7 @@ items:
     ShieldBoostMultiplier: -11.0
     TechLevel: 2
     id: 1447
+    marketGroup: 667
     name: Capacitor Power Relay II
     volume: 5.0
   Chelm's Modified Capacitor Power Relay:
@@ -113,6 +120,7 @@ items:
     ShieldBoostMultiplier: -12.0
     TechLevel: 1
     id: 15092
+    marketGroup: 667
     name: Chelm's Modified Capacitor Power Relay
     volume: 5.0
   Dark Blood Capacitor Power Relay:
@@ -125,6 +133,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 14144
+    marketGroup: 667
     name: Dark Blood Capacitor Power Relay
     volume: 5.0
   Draclira's Modified Capacitor Power Relay:
@@ -137,6 +146,7 @@ items:
     ShieldBoostMultiplier: -12.0
     TechLevel: 1
     id: 15094
+    marketGroup: 667
     name: Draclira's Modified Capacitor Power Relay
     volume: 5.0
   Imperial Navy Capacitor Power Relay:
@@ -149,6 +159,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 17528
+    marketGroup: 667
     name: Imperial Navy Capacitor Power Relay
     volume: 5.0
   Khanid Navy Capacitor Power Relay:
@@ -161,6 +172,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 28532
+    marketGroup: 667
     name: Khanid Navy Capacitor Power Relay
     volume: 5.0
   'Local Power Plant Manager: Capacity Power Relay I':
@@ -184,6 +196,7 @@ items:
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
     id: 15437
+    marketGroup: 667
     name: Makur's Modified Capacitor Power Relay
     volume: 5.0
   Mark I Compact Capacitor Power Relay:
@@ -196,6 +209,7 @@ items:
     ShieldBoostMultiplier: -10.0
     TechLevel: 1
     id: 8177
+    marketGroup: 667
     name: Mark I Compact Capacitor Power Relay
     volume: 5.0
   'Marked Generator Refitting: Capacitor Power Relay':
@@ -228,6 +242,7 @@ items:
     ShieldBoostMultiplier: -11.0
     TechLevel: 1
     id: 15086
+    marketGroup: 667
     name: Raysere's Modified Capacitor Power Relay
     volume: 5.0
   Selynne's Modified Capacitor Power Relay:
@@ -240,6 +255,7 @@ items:
     ShieldBoostMultiplier: -11.0
     TechLevel: 1
     id: 15084
+    marketGroup: 667
     name: Selynne's Modified Capacitor Power Relay
     volume: 5.0
   Tairei's Modified Capacitor Power Relay:
@@ -252,6 +268,7 @@ items:
     ShieldBoostMultiplier: -10.5
     TechLevel: 1
     id: 15082
+    marketGroup: 667
     name: Tairei's Modified Capacitor Power Relay
     volume: 5.0
   True Sansha Capacitor Power Relay:
@@ -264,6 +281,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 14146
+    marketGroup: 667
     name: True Sansha Capacitor Power Relay
     volume: 5.0
   Type-D Restrained Capacitor Power Relay:
@@ -276,6 +294,7 @@ items:
     ShieldBoostMultiplier: -8.0
     TechLevel: 1
     id: 8175
+    marketGroup: 667
     name: Type-D Restrained Capacitor Power Relay
     volume: 5.0
   'Type-E Power Core Modification: Capacitor Power Relay':
@@ -298,5 +317,6 @@ items:
     ShieldBoostMultiplier: -11.5
     TechLevel: 1
     id: 15088
+    marketGroup: 667
     name: Vizan's Modified Capacitor Power Relay
     volume: 5.0

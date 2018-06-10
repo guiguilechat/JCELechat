@@ -20,6 +20,7 @@ items:
     ShieldBonus: 44.0
     TechLevel: 1
     id: 405
+    marketGroup: 603
     name: '''Micro'' Remote Shield Booster'
     volume: 2.5
   CONCORD Capital Remote Shield Booster:
@@ -45,6 +46,7 @@ items:
     ShieldBonus: 1250.0
     TechLevel: 1
     id: 3544
+    marketGroup: 600
     name: CONCORD Capital Remote Shield Booster
     volume: 4000.0
   Capital Asymmetric Enduring Remote Shield Booster:
@@ -69,6 +71,7 @@ items:
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41469
+    marketGroup: 600
     name: Capital Asymmetric Enduring Remote Shield Booster
     volume: 4000.0
   Capital Murky Compact Remote Shield Booster:
@@ -93,6 +96,7 @@ items:
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41470
+    marketGroup: 600
     name: Capital Murky Compact Remote Shield Booster
     volume: 4000.0
   Capital Remote Shield Booster I:
@@ -116,6 +120,7 @@ items:
     ShieldBonus: 960.0
     TechLevel: 1
     id: 3616
+    marketGroup: 600
     name: Capital Remote Shield Booster I
     volume: 4000.0
   Capital Remote Shield Booster II:
@@ -140,6 +145,7 @@ items:
     ShieldBonus: 1150.0
     TechLevel: 2
     id: 3618
+    marketGroup: 600
     name: Capital Remote Shield Booster II
     volume: 4000.0
   Capital S95a Scoped Remote Shield Booster:
@@ -164,6 +170,7 @@ items:
     ShieldBonus: 1055.0
     TechLevel: 1
     id: 41471
+    marketGroup: 600
     name: Capital S95a Scoped Remote Shield Booster
     volume: 4000.0
   Civilian Small Remote Shield Booster:
@@ -208,6 +215,7 @@ items:
     ShieldBonus: 1100.0
     TechLevel: 1
     id: 41474
+    marketGroup: 600
     name: Domination Capital Remote Shield Booster
     volume: 4000.0
   Dread Guristas Capital Remote Shield Booster:
@@ -233,6 +241,7 @@ items:
     ShieldBonus: 1300.0
     TechLevel: 1
     id: 41473
+    marketGroup: 600
     name: Dread Guristas Capital Remote Shield Booster
     volume: 4000.0
   Gistii A-Type Small Remote Shield Booster:
@@ -256,6 +265,7 @@ items:
     ShieldBonus: 102.0
     TechLevel: 1
     id: 19133
+    marketGroup: 603
     name: Gistii A-Type Small Remote Shield Booster
     volume: 5.0
   Gistii B-Type Small Remote Shield Booster:
@@ -279,6 +289,7 @@ items:
     ShieldBonus: 95.0
     TechLevel: 1
     id: 19131
+    marketGroup: 603
     name: Gistii B-Type Small Remote Shield Booster
     volume: 5.0
   Gistii C-Type Small Remote Shield Booster:
@@ -302,6 +313,7 @@ items:
     ShieldBonus: 86.0
     TechLevel: 1
     id: 19129
+    marketGroup: 603
     name: Gistii C-Type Small Remote Shield Booster
     volume: 5.0
   Gistum A-Type Medium Remote Shield Booster:
@@ -325,6 +337,7 @@ items:
     ShieldBonus: 408.0
     TechLevel: 1
     id: 19145
+    marketGroup: 602
     name: Gistum A-Type Medium Remote Shield Booster
     volume: 10.0
   Gistum B-Type Medium Remote Shield Booster:
@@ -348,6 +361,7 @@ items:
     ShieldBonus: 380.0
     TechLevel: 1
     id: 19143
+    marketGroup: 602
     name: Gistum B-Type Medium Remote Shield Booster
     volume: 10.0
   Gistum C-Type Medium Remote Shield Booster:
@@ -371,6 +385,7 @@ items:
     ShieldBonus: 344.0
     TechLevel: 1
     id: 19141
+    marketGroup: 602
     name: Gistum C-Type Medium Remote Shield Booster
     volume: 10.0
   Large 'Atonement' Remote Shield Booster:
@@ -412,6 +427,7 @@ items:
     ShieldBonus: 600.0
     TechLevel: 1
     id: 8639
+    marketGroup: 601
     name: Large Asymmetric Enduring Remote Shield Booster
     volume: 25.0
   Large Murky Compact Remote Shield Booster:
@@ -434,6 +450,7 @@ items:
     ShieldBonus: 600.0
     TechLevel: 1
     id: 8635
+    marketGroup: 601
     name: Large Murky Compact Remote Shield Booster
     volume: 25.0
   Large Remote Shield Booster I:
@@ -455,6 +472,7 @@ items:
     ShieldBonus: 520.0
     TechLevel: 1
     id: 3606
+    marketGroup: 601
     name: Large Remote Shield Booster I
     volume: 25.0
   Large Remote Shield Booster II:
@@ -477,6 +495,7 @@ items:
     ShieldBonus: 680.0
     TechLevel: 2
     id: 3608
+    marketGroup: 601
     name: Large Remote Shield Booster II
     volume: 25.0
   Large S95a Scoped Remote Shield Booster:
@@ -499,6 +518,7 @@ items:
     ShieldBonus: 600.0
     TechLevel: 1
     id: 8641
+    marketGroup: 601
     name: Large S95a Scoped Remote Shield Booster
     volume: 25.0
   Medium 'Atonement' Remote Shield Booster:
@@ -541,6 +561,7 @@ items:
     ShieldBonus: 300.0
     TechLevel: 1
     id: 8583
+    marketGroup: 602
     name: Medium Asymmetric Enduring Remote Shield Booster
     volume: 10.0
   Medium Murky Compact Remote Shield Booster:
@@ -563,6 +584,7 @@ items:
     ShieldBonus: 300.0
     TechLevel: 1
     id: 8579
+    marketGroup: 602
     name: Medium Murky Compact Remote Shield Booster
     volume: 10.0
   Medium Remote Shield Booster I:
@@ -584,6 +606,7 @@ items:
     ShieldBonus: 260.0
     TechLevel: 1
     id: 3596
+    marketGroup: 602
     name: Medium Remote Shield Booster I
     volume: 10.0
   Medium Remote Shield Booster II:
@@ -606,6 +629,7 @@ items:
     ShieldBonus: 340.0
     TechLevel: 2
     id: 3598
+    marketGroup: 602
     name: Medium Remote Shield Booster II
     volume: 10.0
   Medium S95a Scoped Remote Shield Booster:
@@ -628,6 +652,7 @@ items:
     ShieldBonus: 300.0
     TechLevel: 1
     id: 8585
+    marketGroup: 602
     name: Medium S95a Scoped Remote Shield Booster
     volume: 10.0
   Micro 'Atonement' Remote Shield Booster:
@@ -704,6 +729,7 @@ items:
     ShieldBonus: 48.0
     TechLevel: 2
     id: 406
+    marketGroup: 604
     name: Micro Remote Shield Booster II
     volume: 2.5
   Micro S95a Remote Shield Booster:
@@ -746,6 +772,7 @@ items:
     ShieldBonus: 127.0
     TechLevel: 1
     id: 19139
+    marketGroup: 603
     name: Pithi A-Type Small Remote Shield Booster
     volume: 5.0
   Pithi B-Type Small Remote Shield Booster:
@@ -769,6 +796,7 @@ items:
     ShieldBonus: 117.0
     TechLevel: 1
     id: 19137
+    marketGroup: 603
     name: Pithi B-Type Small Remote Shield Booster
     volume: 5.0
   Pithi C-Type Small Remote Shield Booster:
@@ -792,6 +820,7 @@ items:
     ShieldBonus: 107.0
     TechLevel: 1
     id: 19135
+    marketGroup: 603
     name: Pithi C-Type Small Remote Shield Booster
     volume: 5.0
   Pithum A-Type Medium Remote Shield Booster:
@@ -815,6 +844,7 @@ items:
     ShieldBonus: 508.0
     TechLevel: 1
     id: 19151
+    marketGroup: 602
     name: Pithum A-Type Medium Remote Shield Booster
     volume: 10.0
   Pithum B-Type Medium Remote Shield Booster:
@@ -838,6 +868,7 @@ items:
     ShieldBonus: 468.0
     TechLevel: 1
     id: 19149
+    marketGroup: 602
     name: Pithum B-Type Medium Remote Shield Booster
     volume: 10.0
   Pithum C-Type Medium Remote Shield Booster:
@@ -861,6 +892,7 @@ items:
     ShieldBonus: 428.0
     TechLevel: 1
     id: 19147
+    marketGroup: 602
     name: Pithum C-Type Medium Remote Shield Booster
     volume: 10.0
   Small 'Atonement' Remote Shield Booster:
@@ -903,6 +935,7 @@ items:
     ShieldBonus: 75.0
     TechLevel: 1
     id: 8535
+    marketGroup: 603
     name: Small Asymmetric Enduring Remote Shield Booster
     volume: 5.0
   Small Murky Compact Remote Shield Booster:
@@ -925,6 +958,7 @@ items:
     ShieldBonus: 75.0
     TechLevel: 1
     id: 8531
+    marketGroup: 603
     name: Small Murky Compact Remote Shield Booster
     volume: 5.0
   Small Remote Shield Booster I:
@@ -946,6 +980,7 @@ items:
     ShieldBonus: 65.0
     TechLevel: 1
     id: 3586
+    marketGroup: 603
     name: Small Remote Shield Booster I
     volume: 5.0
   Small Remote Shield Booster II:
@@ -968,6 +1003,7 @@ items:
     ShieldBonus: 85.0
     TechLevel: 2
     id: 3588
+    marketGroup: 603
     name: Small Remote Shield Booster II
     volume: 5.0
   Small S95a Scoped Remote Shield Booster:
@@ -990,6 +1026,7 @@ items:
     ShieldBonus: 75.0
     TechLevel: 1
     id: 8537
+    marketGroup: 603
     name: Small S95a Scoped Remote Shield Booster
     volume: 5.0
   True Sansha Capital Remote Shield Booster:
@@ -1015,6 +1052,7 @@ items:
     ShieldBonus: 1100.0
     TechLevel: 1
     id: 41472
+    marketGroup: 600
     name: True Sansha Capital Remote Shield Booster
     volume: 4000.0
   X-Large 'Atonement' Remote Shield Booster:

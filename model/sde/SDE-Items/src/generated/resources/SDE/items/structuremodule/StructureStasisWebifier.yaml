@@ -19,6 +19,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35943
+    marketGroup: 2213
     name: Standup Stasis Webifier I
     volume: 4000.0
   Standup Stasis Webifier II:
@@ -42,5 +43,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47351
+    marketGroup: 2213
     name: Standup Stasis Webifier II
     volume: 4000.0

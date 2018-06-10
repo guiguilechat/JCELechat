@@ -34,6 +34,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 1.0
     id: 3363
+    marketGroup: 365
     name: Corporation Management
     volume: 0.01
   Diplomatic Relations:
@@ -47,6 +48,7 @@ items:
     SkillAllyCostModifierBonus: -5
     SkillTimeConstant: 2.0
     id: 3368
+    marketGroup: 365
     name: Diplomatic Relations
     volume: 0.01
   Empire Control:
@@ -59,6 +61,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 5.0
     id: 3732
+    marketGroup: 365
     name: Empire Control
     volume: 0.01
   Factory Management:
@@ -95,6 +98,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 3.0
     id: 3731
+    marketGroup: 365
     name: Megacorp Management
     volume: 0.01
   Public Relations:
@@ -131,6 +135,7 @@ items:
     SecondaryAttribute: 164
     SkillTimeConstant: 8.0
     id: 12241
+    marketGroup: 365
     name: Sovereignty
     volume: 0.01
   Starbase Management:

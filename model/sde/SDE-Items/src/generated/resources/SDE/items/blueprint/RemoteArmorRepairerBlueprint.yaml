@@ -43,17 +43,20 @@ items:
   Capital Coaxial Compact Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41622
+    marketGroup: 1539
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
     volume: 0.01
   Capital I-ax Enduring Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41621
+    marketGroup: 1539
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
     volume: 0.01
   Capital Remote Armor Repairer I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 24570
+    marketGroup: 1539
     name: Capital Remote Armor Repairer I Blueprint
     volume: 0.01
   Capital Remote Armor Repairer II Blueprint:
@@ -64,6 +67,7 @@ items:
   Capital Solace Scoped Remote Armor Repairer Blueprint:
     TechLevel: 1
     id: 41624
+    marketGroup: 1539
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
     volume: 0.01
   Dark Blood Capital Remote Armor Repairer Blueprint:
@@ -80,6 +84,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 11360
+    marketGroup: 1539
     name: Large Remote Armor Repairer I Blueprint
     volume: 0.01
   Large Remote Armor Repairer II Blueprint:
@@ -97,6 +102,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 11358
+    marketGroup: 1539
     name: Medium Remote Armor Repairer I Blueprint
     volume: 0.01
   Medium Remote Armor Repairer II Blueprint:
@@ -119,6 +125,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11356
+    marketGroup: 1539
     name: Small Remote Armor Repairer I Blueprint
     volume: 0.01
   Small Remote Armor Repairer II Blueprint:

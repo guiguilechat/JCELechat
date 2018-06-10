@@ -93,6 +93,7 @@ items:
     PlanetRestriction: 2016
     PowerOutput: 6000
     id: 2524
+    marketGroup: 1322
     name: Barren Command Center
     volume: 1000.0
   Elite Barren Command Center:
@@ -189,6 +190,7 @@ items:
     PlanetRestriction: 13
     PowerOutput: 6000
     id: 2534
+    marketGroup: 1322
     name: Gas Command Center
     volume: 1000.0
   Ice Command Center:
@@ -197,6 +199,7 @@ items:
     PlanetRestriction: 12
     PowerOutput: 6000
     id: 2533
+    marketGroup: 1322
     name: Ice Command Center
     volume: 1000.0
   Improved Barren Command Center:
@@ -293,6 +296,7 @@ items:
     PlanetRestriction: 2015
     PowerOutput: 6000
     id: 2549
+    marketGroup: 1322
     name: Lava Command Center
     volume: 1000.0
   Limited Barren Command Center:
@@ -389,6 +393,7 @@ items:
     PlanetRestriction: 2014
     PowerOutput: 6000
     id: 2525
+    marketGroup: 1322
     name: Oceanic Command Center
     volume: 1000.0
   Plasma Command Center:
@@ -397,6 +402,7 @@ items:
     PlanetRestriction: 2063
     PowerOutput: 6000
     id: 2551
+    marketGroup: 1322
     name: Plasma Command Center
     volume: 1000.0
   Standard Barren Command Center:
@@ -493,6 +499,7 @@ items:
     PlanetRestriction: 2017
     PowerOutput: 6000
     id: 2550
+    marketGroup: 1322
     name: Storm Command Center
     volume: 1000.0
   Temperate Command Center:
@@ -501,5 +508,6 @@ items:
     PlanetRestriction: 11
     PowerOutput: 6000
     id: 2254
+    marketGroup: 1322
     name: Temperate Command Center
     volume: 1000.0

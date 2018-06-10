@@ -6209,7 +6209,7 @@ items:
     StructureUniformity: 1.0
     id: 30439
     name: mobilestorage
-  ��坦会战纪念碑:
+  泰坦会战纪念碑:
     EntityAttackRange: 15000
     EntityChaseMaxDistance: 2500
     EntityFlyRange: 500.0
@@ -6218,4 +6218,4 @@ items:
     SignatureRadius: 100
     StructureUniformity: 1.0
     id: 33858
-    name: ��坦会战纪念碑
+    name: 泰坦会战纪念碑

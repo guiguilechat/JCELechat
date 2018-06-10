@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 46496
+    marketGroup: 2342
     name: Standup L-Set Reactor Efficiency I
     volume: 20.0
   Standup L-Set Reactor Efficiency II:
@@ -35,5 +36,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 46497
+    marketGroup: 2342
     name: Standup L-Set Reactor Efficiency II
     volume: 20.0

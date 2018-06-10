@@ -73,6 +73,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 34317
+    marketGroup: 1952
     name: Confessor
     volume: 47000.0
   Hecate:
@@ -150,6 +151,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 35683
+    marketGroup: 2034
     name: Hecate
     volume: 47000.0
   Jackdaw:
@@ -227,6 +229,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 34828
+    marketGroup: 2021
     name: Jackdaw
     volume: 47000.0
   Svipul:
@@ -304,5 +307,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 34562
+    marketGroup: 1953
     name: Svipul
     volume: 47000.0

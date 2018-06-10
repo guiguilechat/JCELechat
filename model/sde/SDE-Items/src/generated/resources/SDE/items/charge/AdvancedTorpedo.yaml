@@ -26,6 +26,7 @@ items:
     ThermalDamage: 405.0
     ThermalDamageResonance: 0.800000011920929
     id: 24525
+    marketGroup: 929
     name: Inferno Javelin Torpedo
     volume: 0.05
   Inferno Rage Torpedo:
@@ -54,6 +55,7 @@ items:
     ThermalDamage: 608.0
     ThermalDamageResonance: 0.800000011920929
     id: 2811
+    marketGroup: 931
     name: Inferno Rage Torpedo
     volume: 0.05
   Mjolnir Javelin Torpedo:
@@ -83,6 +85,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24527
+    marketGroup: 929
     name: Mjolnir Javelin Torpedo
     volume: 0.05
   Mjolnir Rage Torpedo:
@@ -111,6 +114,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24523
+    marketGroup: 931
     name: Mjolnir Rage Torpedo
     volume: 0.05
   Nova Javelin Torpedo:
@@ -140,6 +144,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 2801
+    marketGroup: 929
     name: Nova Javelin Torpedo
     volume: 0.05
   Nova Rage Torpedo:
@@ -168,6 +173,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24519
+    marketGroup: 931
     name: Nova Rage Torpedo
     volume: 0.05
   Scourge Javelin Torpedo:
@@ -197,6 +203,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24529
+    marketGroup: 929
     name: Scourge Javelin Torpedo
     volume: 0.05
   Scourge Rage Torpedo:
@@ -225,5 +232,6 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24521
+    marketGroup: 931
     name: Scourge Rage Torpedo
     volume: 0.05

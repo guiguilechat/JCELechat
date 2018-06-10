@@ -1,6 +1,7 @@
 items:
   Capital Flex Shield Hardener I Blueprint:
     id: 41662
+    marketGroup: 1548
     name: Capital Flex Shield Hardener I Blueprint
     volume: 0.01
   Capital Flex Shield Hardener II Blueprint:

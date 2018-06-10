@@ -69,6 +69,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35826
+    marketGroup: 2324
     name: Azbel
     volume: 80000.0
   Raitaru:
@@ -136,6 +137,7 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35825
+    marketGroup: 2324
     name: Raitaru
     volume: 8000.0
   Sotiyo:
@@ -209,5 +211,6 @@ items:
     UpgradeSlotsLeft: 3
     WeaponDisruptionResistance: 9.999999747378752E-6
     id: 35827
+    marketGroup: 2324
     name: Sotiyo
     volume: 800000.0

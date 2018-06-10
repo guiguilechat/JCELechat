@@ -19,6 +19,7 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 3000.0
     id: 37849
+    marketGroup: 2198
     name: Standup Heavy Guided Bomb
     volume: 100.0
   Standup Light Guided Bomb:
@@ -41,6 +42,7 @@ items:
     StructureUniformity: 0.75
     ThermalDamage: 850.0
     id: 37850
+    marketGroup: 2198
     name: Standup Light Guided Bomb
     volume: 100.0
   Standup Void Guided Bomb:

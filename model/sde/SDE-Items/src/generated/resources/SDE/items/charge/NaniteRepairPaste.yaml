@@ -2,5 +2,6 @@ items:
   Nanite Repair Paste:
     Hp: 1
     id: 28668
+    marketGroup: 1103
     name: Nanite Repair Paste
     volume: 0.01

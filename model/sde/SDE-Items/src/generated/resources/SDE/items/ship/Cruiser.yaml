@@ -78,6 +78,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 628
+    marketGroup: 74
     name: Arbitrator
     volume: 120000.0
   Ashimmu:
@@ -164,6 +165,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17922
+    marketGroup: 1371
     name: Ashimmu
     volume: 118000.0
   Augoror:
@@ -248,6 +250,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 625
+    marketGroup: 74
     name: Augoror
     volume: 115000.0
   Augoror Navy Issue:
@@ -330,6 +333,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29337
+    marketGroup: 1370
     name: Augoror Navy Issue
     volume: 101000.0
   Bellicose:
@@ -410,6 +414,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 630
+    marketGroup: 73
     name: Bellicose
     volume: 85000.0
   Blackbird:
@@ -490,6 +495,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 632
+    marketGroup: 75
     name: Blackbird
     volume: 96000.0
   Caracal:
@@ -569,6 +575,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 621
+    marketGroup: 75
     name: Caracal
     volume: 92000.0
   Caracal Navy Issue:
@@ -648,6 +655,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17634
+    marketGroup: 1370
     name: Caracal Navy Issue
     volume: 101000.0
   Caracal Nugoeihuvi Edition:
@@ -886,6 +894,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 633
+    marketGroup: 76
     name: Celestis
     volume: 116000.0
   Concord Police Cruiser:
@@ -1048,6 +1057,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 4.5
     id: 17720
+    marketGroup: 1371
     name: Cynabal
     volume: 101000.0
   Exequror:
@@ -1131,6 +1141,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 634
+    marketGroup: 76
     name: Exequror
     volume: 113000.0
   Exequror Navy Issue:
@@ -1212,6 +1223,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29344
+    marketGroup: 1370
     name: Exequror Navy Issue
     volume: 112000.0
   Gila:
@@ -1297,6 +1309,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17715
+    marketGroup: 1371
     name: Gila
     volume: 101000.0
   Guardian-Vexor:
@@ -1378,6 +1391,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 11011
+    marketGroup: 1699
     name: Guardian-Vexor
     volume: 115000.0
   Maller:
@@ -1458,6 +1472,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 624
+    marketGroup: 74
     name: Maller
     volume: 118000.0
   Moa:
@@ -1537,6 +1552,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 623
+    marketGroup: 75
     name: Moa
     volume: 101000.0
   Omen:
@@ -1616,6 +1632,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 2006
+    marketGroup: 74
     name: Omen
     volume: 118000.0
   Omen Kador Edition:
@@ -1778,6 +1795,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17709
+    marketGroup: 1370
     name: Omen Navy Issue
     volume: 101000.0
   Omen Tash-Murkon Edition:
@@ -2014,6 +2032,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 635
+    marketGroup: 1699
     name: Opux Luxury Yacht
     volume: 115000.0
   Orthrus:
@@ -2099,6 +2118,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 33818
+    marketGroup: 1371
     name: Orthrus
     volume: 101000.0
   Osprey:
@@ -2183,6 +2203,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 620
+    marketGroup: 75
     name: Osprey
     volume: 107000.0
   Osprey Navy Issue:
@@ -2267,6 +2288,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29340
+    marketGroup: 1370
     name: Osprey Navy Issue
     volume: 107000.0
   Phantasm:
@@ -2352,6 +2374,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17718
+    marketGroup: 1371
     name: Phantasm
     volume: 101000.0
   Rupture:
@@ -2432,6 +2455,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 629
+    marketGroup: 73
     name: Rupture
     volume: 96000.0
   Scythe:
@@ -2517,6 +2541,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 631
+    marketGroup: 73
     name: Scythe
     volume: 89000.0
   Scythe Fleet Issue:
@@ -2601,6 +2626,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29336
+    marketGroup: 1370
     name: Scythe Fleet Issue
     volume: 89000.0
   Stabber:
@@ -2682,6 +2708,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 622
+    marketGroup: 73
     name: Stabber
     volume: 80000.0
   Stabber Fleet Issue:
@@ -2764,6 +2791,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17713
+    marketGroup: 1370
     name: Stabber Fleet Issue
     volume: 101000.0
   Stabber Krusual Edition:
@@ -3014,6 +3042,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 33470
+    marketGroup: 1371
     name: Stratios
     volume: 101000.0
   Stratios Emergency Responder:
@@ -3180,6 +3209,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 627
+    marketGroup: 76
     name: Thorax
     volume: 112000.0
   Thorax Aliastra Edition:
@@ -3420,6 +3450,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 47270
+    marketGroup: 2428
     name: Vedmak
     volume: 118000.0
   Vexor:
@@ -3498,6 +3529,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 626
+    marketGroup: 76
     name: Vexor
     volume: 115000.0
   Vexor Navy Issue:
@@ -3578,6 +3610,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17843
+    marketGroup: 1370
     name: Vexor Navy Issue
     volume: 112000.0
   Vexor Quafe Edition:
@@ -3734,6 +3767,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 6.0
     id: 34590
+    marketGroup: 1699
     name: Victorieux Luxury Yacht
     volume: 115000.0
   Vigilant:
@@ -3818,6 +3852,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 17722
+    marketGroup: 1371
     name: Vigilant
     volume: 101000.0
   毒蜥级YC117年特别版:

@@ -7,6 +7,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 47356
+    marketGroup: 2220
     name: Standup Capacitor Power Relay I
     volume: 4000.0
   Standup Capacitor Power Relay II:
@@ -18,5 +19,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47358
+    marketGroup: 2220
     name: Standup Capacitor Power Relay II
     volume: 4000.0

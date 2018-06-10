@@ -8,6 +8,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31266
+    marketGroup: 1737
     name: Capital Inverted Signal Field Projector I
     volume: 40.0
   Capital Inverted Signal Field Projector II:
@@ -20,6 +21,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31272
+    marketGroup: 1737
     name: Capital Inverted Signal Field Projector II
     volume: 40.0
   Capital Particle Dispersion Augmentor I:
@@ -31,6 +33,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31290
+    marketGroup: 1737
     name: Capital Particle Dispersion Augmentor I
     volume: 40.0
   Capital Particle Dispersion Augmentor II:
@@ -43,6 +46,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31296
+    marketGroup: 1737
     name: Capital Particle Dispersion Augmentor II
     volume: 40.0
   Capital Particle Dispersion Projector I:
@@ -54,6 +58,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31302
+    marketGroup: 1737
     name: Capital Particle Dispersion Projector I
     volume: 40.0
   Capital Particle Dispersion Projector II:
@@ -66,6 +71,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31308
+    marketGroup: 1737
     name: Capital Particle Dispersion Projector II
     volume: 40.0
   Capital Signal Disruption Amplifier I:
@@ -77,6 +83,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31254
+    marketGroup: 1737
     name: Capital Signal Disruption Amplifier I
     volume: 40.0
   Capital Signal Disruption Amplifier II:
@@ -89,6 +96,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31260
+    marketGroup: 1737
     name: Capital Signal Disruption Amplifier II
     volume: 40.0
   Capital Targeting Systems Stabilizer I:
@@ -100,6 +108,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31338
+    marketGroup: 1737
     name: Capital Targeting Systems Stabilizer I
     volume: 40.0
   Capital Targeting Systems Stabilizer II:
@@ -112,6 +121,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31344
+    marketGroup: 1737
     name: Capital Targeting Systems Stabilizer II
     volume: 40.0
   Capital Tracking Diagnostic Subroutines I:
@@ -123,6 +133,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31350
+    marketGroup: 1737
     name: Capital Tracking Diagnostic Subroutines I
     volume: 40.0
   Capital Tracking Diagnostic Subroutines II:
@@ -135,6 +146,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31356
+    marketGroup: 1737
     name: Capital Tracking Diagnostic Subroutines II
     volume: 40.0
   Large Inverted Signal Field Projector I:
@@ -146,6 +158,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 26110
+    marketGroup: 1221
     name: Large Inverted Signal Field Projector I
     volume: 20.0
   Large Inverted Signal Field Projector II:
@@ -158,6 +171,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26354
+    marketGroup: 1221
     name: Large Inverted Signal Field Projector II
     volume: 20.0
   Large Particle Dispersion Augmentor I:
@@ -169,6 +183,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 26106
+    marketGroup: 1221
     name: Large Particle Dispersion Augmentor I
     volume: 20.0
   Large Particle Dispersion Augmentor II:
@@ -181,6 +196,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26352
+    marketGroup: 1221
     name: Large Particle Dispersion Augmentor II
     volume: 20.0
   Large Particle Dispersion Projector I:
@@ -192,6 +208,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 26108
+    marketGroup: 1221
     name: Large Particle Dispersion Projector I
     volume: 20.0
   Large Particle Dispersion Projector II:
@@ -204,6 +221,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26360
+    marketGroup: 1221
     name: Large Particle Dispersion Projector II
     volume: 20.0
   Large Signal Disruption Amplifier I:
@@ -215,6 +233,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 25928
+    marketGroup: 1221
     name: Large Signal Disruption Amplifier I
     volume: 20.0
   Large Signal Disruption Amplifier II:
@@ -227,6 +246,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 26344
+    marketGroup: 1221
     name: Large Signal Disruption Amplifier II
     volume: 20.0
   Large Targeting Systems Stabilizer I:
@@ -238,6 +258,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 26096
+    marketGroup: 1221
     name: Large Targeting Systems Stabilizer I
     volume: 20.0
   Large Targeting Systems Stabilizer II:
@@ -250,6 +271,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 26366
+    marketGroup: 1221
     name: Large Targeting Systems Stabilizer II
     volume: 20.0
   Large Tracking Diagnostic Subroutines I:
@@ -261,6 +283,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 26112
+    marketGroup: 1221
     name: Large Tracking Diagnostic Subroutines I
     volume: 20.0
   Large Tracking Diagnostic Subroutines II:
@@ -273,6 +296,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 26356
+    marketGroup: 1221
     name: Large Tracking Diagnostic Subroutines II
     volume: 20.0
   Medium Inverted Signal Field Projector I:
@@ -284,6 +308,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31264
+    marketGroup: 1220
     name: Medium Inverted Signal Field Projector I
     volume: 10.0
   Medium Inverted Signal Field Projector II:
@@ -296,6 +321,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31270
+    marketGroup: 1220
     name: Medium Inverted Signal Field Projector II
     volume: 10.0
   Medium Particle Dispersion Augmentor I:
@@ -307,6 +333,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31288
+    marketGroup: 1220
     name: Medium Particle Dispersion Augmentor I
     volume: 10.0
   Medium Particle Dispersion Augmentor II:
@@ -319,6 +346,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31294
+    marketGroup: 1220
     name: Medium Particle Dispersion Augmentor II
     volume: 10.0
   Medium Particle Dispersion Projector I:
@@ -330,6 +358,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31300
+    marketGroup: 1220
     name: Medium Particle Dispersion Projector I
     volume: 10.0
   Medium Particle Dispersion Projector II:
@@ -342,6 +371,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31306
+    marketGroup: 1220
     name: Medium Particle Dispersion Projector II
     volume: 10.0
   Medium Signal Disruption Amplifier I:
@@ -353,6 +383,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31252
+    marketGroup: 1220
     name: Medium Signal Disruption Amplifier I
     volume: 10.0
   Medium Signal Disruption Amplifier II:
@@ -365,6 +396,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31258
+    marketGroup: 1220
     name: Medium Signal Disruption Amplifier II
     volume: 10.0
   Medium Targeting Systems Stabilizer I:
@@ -376,6 +408,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31336
+    marketGroup: 1220
     name: Medium Targeting Systems Stabilizer I
     volume: 10.0
   Medium Targeting Systems Stabilizer II:
@@ -388,6 +421,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31342
+    marketGroup: 1220
     name: Medium Targeting Systems Stabilizer II
     volume: 10.0
   Medium Tracking Diagnostic Subroutines I:
@@ -399,6 +433,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31348
+    marketGroup: 1220
     name: Medium Tracking Diagnostic Subroutines I
     volume: 10.0
   Medium Tracking Diagnostic Subroutines II:
@@ -411,6 +446,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31354
+    marketGroup: 1220
     name: Medium Tracking Diagnostic Subroutines II
     volume: 10.0
   Sensor Strength Rig I:
@@ -450,6 +486,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31262
+    marketGroup: 1219
     name: Small Inverted Signal Field Projector I
     volume: 5.0
   Small Inverted Signal Field Projector II:
@@ -462,6 +499,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31268
+    marketGroup: 1219
     name: Small Inverted Signal Field Projector II
     volume: 5.0
   Small Particle Dispersion Augmentor I:
@@ -473,6 +511,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31286
+    marketGroup: 1219
     name: Small Particle Dispersion Augmentor I
     volume: 5.0
   Small Particle Dispersion Augmentor II:
@@ -485,6 +524,7 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31292
+    marketGroup: 1219
     name: Small Particle Dispersion Augmentor II
     volume: 5.0
   Small Particle Dispersion Projector I:
@@ -496,6 +536,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31298
+    marketGroup: 1219
     name: Small Particle Dispersion Projector I
     volume: 5.0
   Small Particle Dispersion Projector II:
@@ -508,6 +549,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31304
+    marketGroup: 1219
     name: Small Particle Dispersion Projector II
     volume: 5.0
   Small Signal Disruption Amplifier I:
@@ -519,6 +561,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 31250
+    marketGroup: 1219
     name: Small Signal Disruption Amplifier I
     volume: 5.0
   Small Signal Disruption Amplifier II:
@@ -531,6 +574,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 31256
+    marketGroup: 1219
     name: Small Signal Disruption Amplifier II
     volume: 5.0
   Small Targeting Amplifier I:
@@ -553,6 +597,7 @@ items:
     TechLevel: 1
     UpgradeCost: 50
     id: 31334
+    marketGroup: 1219
     name: Small Targeting Systems Stabilizer I
     volume: 5.0
   Small Targeting Systems Stabilizer II:
@@ -565,6 +610,7 @@ items:
     TechLevel: 2
     UpgradeCost: 75
     id: 31340
+    marketGroup: 1219
     name: Small Targeting Systems Stabilizer II
     volume: 5.0
   Small Tracking Diagnostic Subroutines I:
@@ -576,6 +622,7 @@ items:
     TechLevel: 1
     UpgradeCost: 200
     id: 31346
+    marketGroup: 1219
     name: Small Tracking Diagnostic Subroutines I
     volume: 5.0
   Small Tracking Diagnostic Subroutines II:
@@ -588,5 +635,6 @@ items:
     TechLevel: 2
     UpgradeCost: 300
     id: 31352
+    marketGroup: 1219
     name: Small Tracking Diagnostic Subroutines II
     volume: 5.0

@@ -23,5 +23,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 33149
+    marketGroup: 1702
     name: Personal Hangar Array
     volume: 4000.0

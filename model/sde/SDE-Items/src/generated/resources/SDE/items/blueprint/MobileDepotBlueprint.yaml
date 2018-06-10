@@ -12,5 +12,6 @@ items:
   Mobile Depot Blueprint:
     IndustryBlueprintRank: 40.0
     id: 33517
+    marketGroup: 1828
     name: Mobile Depot Blueprint
     volume: 0.01

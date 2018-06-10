@@ -5,6 +5,7 @@ items:
     InventionPropabilityMultiplier: 4.5
     InventionTEModifier: 0.5
     id: 21085
+    marketGroup: 1903
     name: Talocan Automation Accounts
     volume: 1.0
   Talocan Info Shards:
@@ -13,6 +14,7 @@ items:
     InventionPropabilityMultiplier: 2.5
     InventionTEModifier: 1.0
     id: 21077
+    marketGroup: 1903
     name: Talocan Info Shards
     volume: 1.0
   Talocan Intricate Formulas:
@@ -21,6 +23,7 @@ items:
     InventionPropabilityMultiplier: 1.5
     InventionTEModifier: 1.2000000476837158
     id: 21087
+    marketGroup: 1903
     name: Talocan Intricate Formulas
     volume: 1.0
   Talocan Mathematical Schematics:
@@ -29,6 +32,7 @@ items:
     InventionPropabilityMultiplier: 4.0
     InventionTEModifier: 0.5
     id: 21084
+    marketGroup: 1903
     name: Talocan Mathematical Schematics
     volume: 1.0
   Talocan Sketch Books:
@@ -37,5 +41,6 @@ items:
     InventionPropabilityMultiplier: 3.5
     InventionTEModifier: 0.6000000238418579
     id: 21074
+    marketGroup: 1903
     name: Talocan Sketch Books
     volume: 1.0

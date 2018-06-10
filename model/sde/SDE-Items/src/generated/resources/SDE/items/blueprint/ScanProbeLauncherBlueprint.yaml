@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 17939
+    marketGroup: 1198
     name: Core Probe Launcher I Blueprint
     volume: 0.01
   Core Probe Launcher II Blueprint:
@@ -15,6 +16,7 @@ items:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 18640
+    marketGroup: 1198
     name: Expanded Probe Launcher I Blueprint
     volume: 0.01
   Expanded Probe Launcher II Blueprint:

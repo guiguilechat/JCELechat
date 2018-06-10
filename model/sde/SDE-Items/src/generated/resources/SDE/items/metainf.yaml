@@ -613,7 +613,6 @@ group2class:
   entity/FWMinmatarRepublicDestroyer: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicDestroyer
   entity/FWMinmatarRepublicFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.FWMinmatarRepublicFrigate
   entity/FactionDrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.FactionDrone
-  entity/Frigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.Frigate
   entity/GhostSitesAngelCartelCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesAngelCartelCruiser
   entity/GhostSitesBloodRaidersCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesBloodRaidersCruiser
   entity/GhostSitesGuristasCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.GhostSitesGuristasCruiser
@@ -710,6 +709,7 @@ group2class:
   entity/NPCCruiser: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCCruiser
   entity/NPCDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCDreadnought
   entity/NPCForceAuxiliary: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCForceAuxiliary
+  entity/NPCFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCFrigate
   entity/NPCIndustrialCommand: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCIndustrialCommand
   entity/NPCMiningBarge: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCMiningBarge
   entity/NPCMiningExhumer: fr.guiguilechat.eveonline.model.sde.items.types.entity.NPCMiningExhumer
@@ -20822,7 +20822,7 @@ id2name:
   33852: Sentient Drone Navigation Computer
   33856: Expedition Frigates
   33857: 泰坦会战遗址
-  33858: ��坦会战纪念碑
+  33858: 泰坦会战纪念碑
   33864: Mordu’s Special Warfare Unit Operative
   33865: Mordu’s Special Warfare Unit Specialist
   33866: Mordu’s Special Warfare Unit Commander
@@ -21325,11 +21325,11 @@ id2name:
   34419: Jump Fatigue Recovery Agent
   34420: Cooking With Veldspar
   34421: Chribba’s Modified Strip Miner
-  34422: Rooks & Kings – The Clarion Call Compilation
+  34422: Rooks & Kings �� The Clarion Call Compilation
   34423: Pre-Completed CSM 10 Ballot Paper
   34424: Titanium Plated Cranial Shielding
   34425: SCC Guidelines – Lotteries For Dummies
-  34426: Sort Dragon��s Guide To Diplomacy
+  34426: Sort Dragon’s Guide To Diplomacy
   34427: Polaris Eviction Notice
   34428: Jump Portal Generation Instruction Holoreel
   34429: Vincent Pryce’s Warp Disruption Field Generator
@@ -21360,9 +21360,9 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: 末日沙��级YC117年特别版
+  34457: 末日沙场级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
-  34459: 地狱天使级YC117年���别版
+  34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
   34461: 马克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
@@ -21371,19 +21371,19 @@ id2name:
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
   34467: 万王宝座级YC117年特别版
-  34468: 万王宝座级YC117年特别版���图
-  34469: 乌鸦级YC117年��别版
-  34470: 乌鸦级YC117年特别版蓝图
-  34471: 灾难级YC117年特别版
+  34468: 万王宝座级YC117年特别版蓝图
+  34469: 乌鸦级YC117年特别版
+  34470: 乌鸦级YC117年特别���蓝图
+  34471: 灾难��YC117年特别版
   34472: 灾难级YC117年特别版蓝图
-  34473: 幼龙���YC117年特别版
+  34473: 幼龙级YC117年特别版
   34474: 幼龙级YC117年特别版蓝图
   34475: 毒蜥级YC117年特别版
-  34476: 毒蜥级YC117年特别版蓝图
+  34476: 毒蜥级YC117年特别版蓝��
   34477: 银鹰级YC117年特别版
   34478: 银鹰级YC117年特别版蓝图
-  34479: ��什塔级YC117年特别版
-  34480: 伊什塔级YC117年特别版蓝图
+  34479: 伊什塔级YC117年特别版
+  34480: ���什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
   34483: Shadow Serpentis Inertial Stabilizers
   34485: ORE Reinforced Bulkheads
@@ -27098,7 +27098,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来人类纪念章
+  41035: 未来人类��念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -28465,7 +28465,7 @@ id2name:
   42531: Expired Cerebral Accelerator
   42532: Effect NPE Vortex
   42533: ♦ Venture
-  42534: ��� Retriever
+  42534: ♦ Retriever
   42535: ♦ Skiff
   42536: MidPoint Effect
   42538: Drifter Hive
@@ -30695,7 +30695,7 @@ id2name:
   45467: Minmatar CA Frigate
   45468: Minmatar CA Destroyer
   45469: Minmatar CA Cruiser
-  45470: ♦ Chemosh
+  45470: �� Chemosh
   45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
@@ -31267,7 +31267,7 @@ id2name:
   46057: ♦ Rattlesnake
   46058: ♦ Daredevil
   46059: ♦ Vigilant
-  46060: ♦ Vindicator
+  46060: ��� Vindicator
   46061: ♦ Dramiel
   46062: ♦ Cynabal
   46063: ♦ Machariel
@@ -31284,7 +31284,7 @@ id2name:
   46074: ♦ Incursus
   46075: ♦ Thorax
   46076: ♦ Brutix
-  46077: ♦ Megathron
+  46077: �� Megathron
   46078: ♦ Rifter
   46079: ♦ Rupture
   46080: ♦ Hurricane
@@ -39702,7 +39702,7 @@ name2group:
   Atma Aulato's Falcon: celestial/AgentsInSpace
   Atmospheric Gases: material/MoonMaterials
   Atomizer Alvum: entity/DeadspaceRogueDroneCruiser
-  Atomizer Drone: entity/Frigate
+  Atomizer Drone: entity/NPCFrigate
   Aton Hordner's Tempest: celestial/AgentsInSpace
   Atron: ship/Frigate
   Atron Blueprint: blueprint/FrigateBlueprint
@@ -40108,7 +40108,7 @@ name2group:
   Barou Lardoss: celestial/AgentsInSpace
   Barou Lardoss's Iteron: entity/DeadspaceOverseerSStructure
   Barracuda Alvi: entity/DeadspaceRogueDroneFrigate
-  Barracuda Drone: entity/Frigate
+  Barracuda Drone: entity/NPCFrigate
   Barrage L: charge/AdvancedAutocannonAmmo
   Barrage L Blueprint: blueprint/AdvancedProjectileAmmoBlueprint
   Barrage M: charge/AdvancedAutocannonAmmo
@@ -52027,7 +52027,7 @@ name2group:
   Infested Lookout Ruins: celestial/LargeCollidableObject
   Infested station ruins: entity/DeadspaceOverseerSStructure
   Infester Alvi: entity/DeadspaceRogueDroneFrigate
-  Infester Drone: entity/Frigate
+  Infester Drone: entity/NPCFrigate
   Infiltrator EV-600: drone/EnergyNeutralizerDrone
   Infiltrator EV-600 Blueprint: blueprint/EnergyNeutralizerDroneBlueprint
   Infiltrator I: drone/CombatDrone
@@ -61712,7 +61712,7 @@ name2group:
   Rook Wiyrkomi Serenity Only SKIN (7 Days): superkerrinducednanocoatings/Max7DaySKIN
   Rook Wiyrkomi Serenity Only SKIN (90 Days): superkerrinducednanocoatings/Max90DaySKIN
   Rook Wiyrkomi Serenity Only SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
-  Rooks & Kings – The Clarion Call Compilation: specialeditionassets/SpecialEditionCommodities
+  Rooks & Kings �� The Clarion Call Compilation: specialeditionassets/SpecialEditionCommodities
   Rorqual: ship/CapitalIndustrialShip
   Rorqual Amarr Industrial Livery SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Rorqual Angel Industrial Livery SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -64552,7 +64552,7 @@ name2group:
   Soma Blueprint: infantry/InfantryVehicles
   Sooth Sayer: commodity/Drugs
   Soran's Passkey: commodity/AccelerationGateKeys
-  Sort Dragon��s Guide To Diplomacy: specialeditionassets/SpecialEditionCommodities
+  Sort Dragon’s Guide To Diplomacy: specialeditionassets/SpecialEditionCommodities
   Sotiyo: structure/EngineeringComplex
   Sotiyo Blueprint: blueprint/StructureBlueprints
   Sotiyo Wreck: celestial/Wreck
@@ -64623,7 +64623,7 @@ name2group:
   Spitek's Bellicose: celestial/AgentsInSpace
   Splinter Alvi: entity/DeadspaceRogueDroneFrigate
   Splinter Bodyguard: commodity/Miscellaneous
-  Splinter Drone: entity/Frigate
+  Splinter Drone: entity/NPCFrigate
   Splinter Smuggler: entity/StorylineMissionCruiser
   Spodumain: asteroid/Spodumain
   Spodumain Mining Crystal I: charge/MiningCrystal
@@ -66052,7 +66052,7 @@ name2group:
   Sun M0 (Orange radiant): celestial/Sun
   Sun O1 (Blue Bright): celestial/Sun
   Sunder Alvi: entity/DeadspaceRogueDroneFrigate
-  Sunder Drone: entity/Frigate
+  Sunder Drone: entity/NPCFrigate
   Sunesis: ship/Destroyer
   Sunesis Blueprint: blueprint/DestroyerBlueprint
   Sunesis Capsuleer Elite XV SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -70178,120 +70178,122 @@ name2group:
   ♦ Arbitrator: entity/NPCCruiser
   ♦ Armageddon: entity/NPCBattleship
   ♦ Ashimmu: entity/NPCCruiser
-  ♦ Atron: entity/Frigate
+  ♦ Atron: entity/NPCFrigate
   ♦ Augoror: entity/NPCCruiser
   ♦ Badger: entity/NPCMiningHauler
-  ♦ Bantam: entity/Frigate
+  ♦ Bantam: entity/NPCFrigate
   ♦ Bellicose: entity/NPCCruiser
   ♦ Bestower: entity/NPCMiningHauler
   ♦ Bhaalgorn: entity/NPCBattleship
   ♦ Blackbird: entity/NPCCruiser
-  ♦ Breacher: entity/Frigate
+  ♦ Breacher: entity/NPCFrigate
   ♦ Brutix: entity/NPCBattlecruiser
-  ♦ Burst: entity/Frigate
+  ♦ Burst: entity/NPCFrigate
   ♦ Bustard: entity/NPCMiningHauler
   ♦ Caiman: entity/NPCDreadnought
   ♦ Caracal: entity/NPCCruiser
   ♦ Celestis: entity/NPCCruiser
   ♦ Chemosh: entity/NPCDreadnought
-  ♦ Condor: entity/Frigate
-  ♦ Crucifier: entity/Frigate
-  ♦ Cruor: entity/Frigate
+  ♦ Condor: entity/NPCFrigate
+  ♦ Crucifier: entity/NPCFrigate
+  ♦ Cruor: entity/NPCFrigate
   ♦ Cynabal: entity/NPCCruiser
   ♦ Dagon: entity/NPCForceAuxiliary
-  ♦ Daredevil: entity/Frigate
+  ♦ Daredevil: entity/NPCFrigate
   ♦ Dominix: entity/NPCBattleship
   ♦ Drake: entity/NPCBattlecruiser
-  ♦ Dramiel: entity/Frigate
-  ♦ Executioner: entity/Frigate
+  ♦ Dramiel: entity/NPCFrigate
+  ♦ Executioner: entity/NPCFrigate
   ♦ Exequror: entity/NPCCruiser
-  ♦ Fury: entity/Frigate
+  ♦ Fury: entity/NPCFrigate
   ♦ Gila: entity/NPCCruiser
-  ♦ Griffin: entity/Frigate
+  ♦ Griffin: entity/NPCFrigate
   ♦ Harbinger: entity/NPCBattlecruiser
   ♦ Hurricane: entity/NPCBattlecruiser
-  ♦ Imp: entity/Frigate
+  ♦ Imp: entity/NPCFrigate
   ♦ Impel: entity/NPCMiningHauler
-  ♦ Incursus: entity/Frigate
+  ♦ Incursus: entity/NPCFrigate
   ♦ Infested Dominix: entity/NPCBattleship
-  ♦ Inquisitor: entity/Frigate
+  ♦ Inquisitor: entity/NPCFrigate
   ♦ Iteron Mark V: entity/NPCMiningHauler
   ♦ Ixion: entity/NPCCruiser
-  ♦ Kestrel: entity/Frigate
-  ♦ Lynx: entity/Frigate
+  ♦ Kestrel: entity/NPCFrigate
+  ♦ Lynx: entity/NPCFrigate
   ♦ Machariel: entity/NPCBattleship
   ♦ Maller: entity/NPCCruiser
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
-  ♦ Maulus: entity/Frigate
-  ♦ Medusa: entity/Frigate
+  ♦ Maulus: entity/NPCFrigate
+  ♦ Medusa: entity/NPCFrigate
   ♦ Megathron: entity/NPCBattleship
-  ♦ Merlin: entity/Frigate
+  ♦ Merlin: entity/NPCFrigate
   ♦ Moa: entity/NPCCruiser
   ♦ Molok: entity/NPCTitan
-  ♦ Navitas: entity/Frigate
+  ♦ Navitas: entity/NPCFrigate
   ♦ Nightmare: entity/NPCBattleship
   ♦ Occator: entity/NPCMiningHauler
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
   ♦ Osprey: entity/NPCCruiser
   ♦ Phantasm: entity/NPCCruiser
-  ♦ Punisher: entity/Frigate
-  ♦ Purifier: entity/Frigate
+  ♦ Punisher: entity/NPCFrigate
+  ♦ Purifier: entity/NPCFrigate
   ♦ Rattlesnake: entity/NPCBattleship
   ♦ Raven: entity/NPCBattleship
-  ♦ Ravener: entity/Frigate
-  ♦ Rifter: entity/Frigate
+  ♦ Ravener: entity/NPCFrigate
+  ♦ Retriever: entity/NPCMiningBarge
+  ♦ Rifter: entity/NPCFrigate
   ♦ Rupture: entity/NPCCruiser
   ♦ Scorpion: entity/NPCBattleship
   ♦ Scythe: entity/NPCCruiser
   ♦ Skiff: entity/NPCMiningExhumer
-  ♦ Slasher: entity/Frigate
+  ♦ Slasher: entity/NPCFrigate
   ♦ Sotiyo: structure/NPCEngineeringComplex
   ♦ Stabber: entity/NPCCruiser
-  ♦ Succubus: entity/Frigate
-  ♦ Swordspine: entity/Frigate
+  ♦ Succubus: entity/NPCFrigate
+  ♦ Swordspine: entity/NPCFrigate
   ♦ Tempest: entity/NPCBattleship
   ♦ Thorax: entity/NPCCruiser
-  ♦ Tormentor: entity/Frigate
-  ♦ Tristan: entity/Frigate
+  ♦ Tormentor: entity/NPCFrigate
+  ♦ Tristan: entity/NPCFrigate
   ♦ Typhoon: entity/NPCBattleship
   ♦ Venture: entity/NPCMiningFrigate
   ♦ Vexor: entity/NPCCruiser
-  ♦ Vigil: entity/Frigate
+  ♦ Vigil: entity/NPCFrigate
   ♦ Vigilant: entity/NPCCruiser
-  ♦ Vindicator: entity/NPCBattleship
-  ♦ Worm: entity/Frigate
+  ♦ Worm: entity/NPCFrigate
   ♦ test_boss: entity/NPCBattleship
-  ♦ test_damage: entity/Frigate
-  ♦ test_drone_damage: entity/Frigate
-  ♦ test_drone_logi: entity/Frigate
-  ♦ test_ewar: entity/Frigate
+  ♦ test_damage: entity/NPCFrigate
+  ♦ test_drone_damage: entity/NPCFrigate
+  ♦ test_drone_logi: entity/NPCFrigate
+  ♦ test_ewar: entity/NPCFrigate
   万王宝座级YC117年特别版: ship/Battleship
-  万王宝座级YC117年特别版���图: blueprint/BattleshipBlueprint
-  乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  乌鸦级YC117年��别版: ship/Battleship
-  伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  乌鸦级YC117年特别版: ship/Battleship
+  乌鸦级YC117年特别���蓝图: blueprint/BattleshipBlueprint
+  伊什塔级YC117年特别版: ship/HeavyAssaultCruiser
   响尾蛇级YC117年特别版: ship/Battleship
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  地狱天使级YC117年���别版: ship/Battleship
   多米尼克斯级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  幼龙级YC117年特别版: ship/CombatBattlecruiser
   幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
-  幼龙���YC117年特别版: ship/CombatBattlecruiser
-  未来人类纪念章: specialeditionassets/SpecialEditionCommodities
+  未来人类��念章: specialeditionassets/SpecialEditionCommodities
+  末日沙场级YC117年特别版: ship/Battleship
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  末日沙��级YC117年特别版: ship/Battleship
   毒蜥级YC117年特别版: ship/Cruiser
-  毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  毒蜥级YC117年特别版蓝��: blueprint/CruiserBlueprint
+  泰坦会战纪念碑: celestial/LargeCollidableObject
   泰坦会战遗址: celestial/Beacon
-  灾难级YC117年特别版: ship/Battleship
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  灾难��YC117年特别版: ship/Battleship
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
   银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版: ship/Battleship
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  ��什塔级YC117年特别版: ship/HeavyAssaultCruiser
-  ��坦会战纪念碑: celestial/LargeCollidableObject
-  ��� Retriever: entity/NPCMiningBarge
+  �� Chemosh: entity/NPCDreadnought
+  �� Megathron: entity/NPCBattleship
+  ��� Vindicator: entity/NPCBattleship
+  ���什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint

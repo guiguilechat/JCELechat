@@ -8,6 +8,7 @@ items:
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
     id: 37821
+    marketGroup: 1094
     name: Standup Gravimetric ECM Script
     volume: 1.0
   Standup Ladar ECM Script:
@@ -19,6 +20,7 @@ items:
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
     id: 37822
+    marketGroup: 1094
     name: Standup Ladar ECM Script
     volume: 1.0
   Standup Magnetometric ECM Script:
@@ -30,6 +32,7 @@ items:
     ScanRadarStrengthBonusBonus: -50
     StructureItemVisualFlag: 1
     id: 37823
+    marketGroup: 1094
     name: Standup Magnetometric ECM Script
     volume: 1.0
   Standup Radar ECM Script:
@@ -41,5 +44,6 @@ items:
     ScanRadarStrengthBonusBonus: 100
     StructureItemVisualFlag: 1
     id: 37824
+    marketGroup: 1094
     name: Standup Radar ECM Script
     volume: 1.0

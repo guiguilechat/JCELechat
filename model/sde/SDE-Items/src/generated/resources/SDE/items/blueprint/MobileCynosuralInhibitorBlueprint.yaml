@@ -6,5 +6,6 @@ items:
   Mobile Cynosural Inhibitor Blueprint:
     IndustryBlueprintRank: 40.0
     id: 33518
+    marketGroup: 1829
     name: Mobile Cynosural Inhibitor Blueprint
     volume: 0.01

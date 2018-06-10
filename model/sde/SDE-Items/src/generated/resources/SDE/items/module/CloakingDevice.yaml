@@ -24,6 +24,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 20563
+    marketGroup: 675
     name: '''Smokescreen'' Covert Ops Cloaking Device II'
     volume: 100.0
   CONCORD Modified Cloaking Device:
@@ -39,6 +40,7 @@ items:
     ScanResolutionMultiplier: 0.7149999737739563
     TechLevel: 1
     id: 16126
+    marketGroup: 675
     name: CONCORD Modified Cloaking Device
     volume: 100.0
   Caldari Navy Cloaking Device:
@@ -54,6 +56,7 @@ items:
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 1
     id: 15790
+    marketGroup: 675
     name: Caldari Navy Cloaking Device
     volume: 100.0
   Covert Ops Cloaking Device II:
@@ -80,6 +83,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 11578
+    marketGroup: 675
     name: Covert Ops Cloaking Device II
     volume: 100.0
   Dread Guristas Cloaking Device:
@@ -95,6 +99,7 @@ items:
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 1
     id: 14234
+    marketGroup: 675
     name: Dread Guristas Cloaking Device
     volume: 100.0
   Estamel's Modified Cloaking Device:
@@ -110,6 +115,7 @@ items:
     ScanResolutionMultiplier: 0.7799999713897705
     TechLevel: 1
     id: 14782
+    marketGroup: 675
     name: Estamel's Modified Cloaking Device
     volume: 100.0
   Improved 'Guise' Cloaking Device II:
@@ -125,6 +131,7 @@ items:
     ScanResolutionMultiplier: 0.6499999761581421
     TechLevel: 2
     id: 20565
+    marketGroup: 675
     name: Improved 'Guise' Cloaking Device II
     volume: 100.0
   Improved Cloaking Device II:
@@ -139,6 +146,7 @@ items:
     ScanResolutionMultiplier: 0.6000000238418579
     TechLevel: 2
     id: 11577
+    marketGroup: 675
     name: Improved Cloaking Device II
     volume: 100.0
   Kaikka's Modified Cloaking Device:
@@ -154,6 +162,7 @@ items:
     ScanResolutionMultiplier: 0.6825000047683716
     TechLevel: 1
     id: 14776
+    marketGroup: 675
     name: Kaikka's Modified Cloaking Device
     volume: 100.0
   Prototype 'Poncho' Cloaking Device I:
@@ -169,6 +178,7 @@ items:
     ScanResolutionMultiplier: 0.550000011920929
     TechLevel: 1
     id: 20561
+    marketGroup: 675
     name: Prototype 'Poncho' Cloaking Device I
     volume: 100.0
   Prototype Cloaking Device I:
@@ -182,6 +192,7 @@ items:
     ScanResolutionMultiplier: 0.5
     TechLevel: 1
     id: 11370
+    marketGroup: 675
     name: Prototype Cloaking Device I
     volume: 100.0
   Syndicate Cloaking Device:
@@ -198,6 +209,7 @@ items:
     ScanResolutionMultiplier: 0.699999988079071
     TechLevel: 1
     id: 32260
+    marketGroup: 675
     name: Syndicate Cloaking Device
     volume: 100.0
   Thon's Modified Cloaking Device:
@@ -213,6 +225,7 @@ items:
     ScanResolutionMultiplier: 0.7149999737739563
     TechLevel: 1
     id: 14778
+    marketGroup: 675
     name: Thon's Modified Cloaking Device
     volume: 100.0
   Vepas' Modified Cloaking Device:
@@ -228,5 +241,6 @@ items:
     ScanResolutionMultiplier: 0.7475000023841858
     TechLevel: 1
     id: 14780
+    marketGroup: 675
     name: Vepas' Modified Cloaking Device
     volume: 100.0

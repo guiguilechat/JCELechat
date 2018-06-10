@@ -33,6 +33,7 @@ items:
     UnanchoringDelay: 60000
     Uniformity: 0.75
     id: 27897
+    marketGroup: 1011
     name: Jump Bridge
     volume: 100000.0
   QA Jump Bridge:

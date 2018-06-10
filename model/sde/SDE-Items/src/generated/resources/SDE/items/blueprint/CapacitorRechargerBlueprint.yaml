@@ -15,6 +15,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1196
+    marketGroup: 1555
     name: Cap Recharger I Blueprint
     volume: 0.01
   Cap Recharger II Blueprint:

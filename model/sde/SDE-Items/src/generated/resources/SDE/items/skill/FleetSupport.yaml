@@ -7,6 +7,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 20494
+    marketGroup: 370
     name: Armored Command
     volume: 0.01
   Armored Command Specialist:
@@ -19,6 +20,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 11569
+    marketGroup: 370
     name: Armored Command Specialist
     volume: 0.01
   Command Burst Specialist:
@@ -29,6 +31,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 6.0
     id: 3354
+    marketGroup: 370
     name: Command Burst Specialist
     volume: 0.01
   Fleet Command:
@@ -40,6 +43,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 12.0
     id: 24764
+    marketGroup: 370
     name: Fleet Command
     volume: 0.01
   Information Command:
@@ -50,6 +54,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 20495
+    marketGroup: 370
     name: Information Command
     volume: 0.01
   Information Command Specialist:
@@ -62,6 +67,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3352
+    marketGroup: 370
     name: Information Command Specialist
     volume: 0.01
   Leadership:
@@ -70,6 +76,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 1.0
     id: 3348
+    marketGroup: 370
     name: Leadership
     volume: 0.01
   Mining Director:
@@ -82,6 +89,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 22552
+    marketGroup: 370
     name: Mining Director
     volume: 0.01
   Mining Foreman:
@@ -92,6 +100,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 22536
+    marketGroup: 370
     name: Mining Foreman
     volume: 0.01
   Shield Command:
@@ -102,6 +111,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3350
+    marketGroup: 370
     name: Shield Command
     volume: 0.01
   Shield Command Specialist:
@@ -114,6 +124,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 3351
+    marketGroup: 370
     name: Shield Command Specialist
     volume: 0.01
   Skirmish Command:
@@ -124,6 +135,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 2.0
     id: 3349
+    marketGroup: 370
     name: Skirmish Command
     volume: 0.01
   Skirmish Command Specialist:
@@ -136,6 +148,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 5.0
     id: 11572
+    marketGroup: 370
     name: Skirmish Command Specialist
     volume: 0.01
   Spatial Phenomena Generation:
@@ -149,6 +162,7 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 10.0
     id: 43728
+    marketGroup: 370
     name: Spatial Phenomena Generation
     volume: 0.01
   Wing Command:
@@ -160,5 +174,6 @@ items:
     SecondaryAttribute: 168
     SkillTimeConstant: 8.0
     id: 11574
+    marketGroup: 370
     name: Wing Command
     volume: 0.01

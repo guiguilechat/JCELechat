@@ -25,6 +25,7 @@ items:
     ShieldBonus: 1700.0
     TechLevel: 1
     id: 41483
+    marketGroup: 600
     name: Capital Ancillary Remote Shield Booster
     volume: 4000.0
   Large Ancillary Remote Shield Booster:
@@ -51,6 +52,7 @@ items:
     ShieldBonus: 950.0
     TechLevel: 1
     id: 41482
+    marketGroup: 601
     name: Large Ancillary Remote Shield Booster
     volume: 25.0
   Medium Ancillary Remote Shield Booster:
@@ -77,6 +79,7 @@ items:
     ShieldBonus: 475.0
     TechLevel: 1
     id: 41481
+    marketGroup: 602
     name: Medium Ancillary Remote Shield Booster
     volume: 10.0
   Small Ancillary Remote Shield Booster:
@@ -102,5 +105,6 @@ items:
     ShieldBonus: 125.0
     TechLevel: 1
     id: 41480
+    marketGroup: 603
     name: Small Ancillary Remote Shield Booster
     volume: 5.0

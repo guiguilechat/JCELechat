@@ -229,6 +229,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37415
+    marketGroup: 2159
     name: Standup L-Set Fighter Mission Control I Blueprint
     volume: 0.01
   Standup L-Set Fighter Mission Control II Blueprint:
@@ -241,6 +242,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37388
+    marketGroup: 2159
     name: Standup M-Set Fighter Navigation I Blueprint
     volume: 0.01
   Standup M-Set Fighter Navigation II Blueprint:
@@ -253,6 +255,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37386
+    marketGroup: 2159
     name: Standup M-Set Fighter Survival I Blueprint
     volume: 0.01
   Standup M-Set Fighter Survival II Blueprint:
@@ -281,6 +284,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 37433
+    marketGroup: 2159
     name: Standup XL-Set Integrated Fighter and PD Network I Blueprint
     volume: 0.01
   Standup XL-Set Integrated Fighter and PD Network II Blueprint:

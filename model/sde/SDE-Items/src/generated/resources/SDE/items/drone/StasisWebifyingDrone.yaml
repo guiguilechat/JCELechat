@@ -51,6 +51,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23536
+    marketGroup: 843
     name: Berserker SW-900
     volume: 25.0
   Valkyrie SW-600:
@@ -105,6 +106,7 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23729
+    marketGroup: 843
     name: Valkyrie SW-600
     volume: 10.0
   Warrior SW-300:
@@ -159,5 +161,6 @@ items:
     ThermalDamageResonance: 1.0
     Uniformity: 0.75
     id: 23731
+    marketGroup: 843
     name: Warrior SW-300
     volume: 5.0

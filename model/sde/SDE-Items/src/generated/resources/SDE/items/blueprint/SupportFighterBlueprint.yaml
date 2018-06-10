@@ -2,11 +2,13 @@ items:
   AbleBlueprint_PLACEHOLDER:
     TechLevel: 1
     id: 45650
+    marketGroup: 2238
     name: AbleBlueprint_PLACEHOLDER
     volume: 0.01
   Cenobite I Blueprint:
     TechLevel: 1
     id: 41367
+    marketGroup: 2238
     name: Cenobite I Blueprint
     volume: 0.01
   Cenobite II Blueprint:
@@ -17,6 +19,7 @@ items:
   Dromi I Blueprint:
     TechLevel: 1
     id: 41373
+    marketGroup: 2238
     name: Dromi I Blueprint
     volume: 0.01
   Dromi II Blueprint:
@@ -27,6 +30,7 @@ items:
   Scarab I Blueprint:
     TechLevel: 1
     id: 41369
+    marketGroup: 2238
     name: Scarab I Blueprint
     volume: 0.01
   Scarab II Blueprint:
@@ -37,6 +41,7 @@ items:
   Siren I Blueprint:
     TechLevel: 1
     id: 41371
+    marketGroup: 2238
     name: Siren I Blueprint
     volume: 0.01
   Siren II Blueprint:
@@ -47,6 +52,7 @@ items:
   Standup Cenobite I Blueprint:
     TechLevel: 1
     id: 47224
+    marketGroup: 2238
     name: Standup Cenobite I Blueprint
     volume: 0.01
   Standup Cenobite II Blueprint:
@@ -57,6 +63,7 @@ items:
   Standup Dromi I Blueprint:
     TechLevel: 1
     id: 47230
+    marketGroup: 2238
     name: Standup Dromi I Blueprint
     volume: 0.01
   Standup Dromi II Blueprint:
@@ -67,6 +74,7 @@ items:
   Standup Scarab I Blueprint:
     TechLevel: 1
     id: 47226
+    marketGroup: 2238
     name: Standup Scarab I Blueprint
     volume: 0.01
   Standup Scarab II Blueprint:
@@ -77,6 +85,7 @@ items:
   Standup Siren I Blueprint:
     TechLevel: 1
     id: 47228
+    marketGroup: 2238
     name: Standup Siren I Blueprint
     volume: 0.01
   Standup Siren II Blueprint:

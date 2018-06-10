@@ -24,6 +24,7 @@ items:
     ThermalDamage: 95.0
     ThermalDamageResonance: 0.800000011920929
     id: 27371
+    marketGroup: 998
     name: Caldari Navy Inferno Light Missile
     volume: 0.015
   Caldari Navy Mjolnir Light Missile:
@@ -51,6 +52,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27387
+    marketGroup: 998
     name: Caldari Navy Mjolnir Light Missile
     volume: 0.015
   Caldari Navy Nova Light Missile:
@@ -78,6 +80,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27381
+    marketGroup: 998
     name: Caldari Navy Nova Light Missile
     volume: 0.015
   Caldari Navy Scourge Light Missile:
@@ -105,6 +108,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27361
+    marketGroup: 998
     name: Caldari Navy Scourge Light Missile
     volume: 0.015
   Civilian Scourge Light Missile:
@@ -176,6 +180,7 @@ items:
     ThermalDamage: 99.0
     ThermalDamageResonance: 0.800000011920929
     id: 27369
+    marketGroup: 998
     name: Dread Guristas Inferno Light Missile
     volume: 0.015
   Dread Guristas Mjolnir Light Missile:
@@ -203,6 +208,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27385
+    marketGroup: 998
     name: Dread Guristas Mjolnir Light Missile
     volume: 0.015
   Dread Guristas Nova Light Missile:
@@ -230,6 +236,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27375
+    marketGroup: 998
     name: Dread Guristas Nova Light Missile
     volume: 0.015
   Dread Guristas Scourge Light Missile:
@@ -257,6 +264,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27365
+    marketGroup: 998
     name: Dread Guristas Scourge Light Missile
     volume: 0.015
   Guristas Inferno Light Missile:
@@ -284,6 +292,7 @@ items:
     ThermalDamage: 90.0
     ThermalDamageResonance: 0.800000011920929
     id: 27367
+    marketGroup: 998
     name: Guristas Inferno Light Missile
     volume: 0.015
   Guristas Mjolnir Light Missile:
@@ -311,6 +320,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27383
+    marketGroup: 998
     name: Guristas Mjolnir Light Missile
     volume: 0.015
   Guristas Nova Light Missile:
@@ -338,6 +348,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27379
+    marketGroup: 998
     name: Guristas Nova Light Missile
     volume: 0.015
   Guristas Scourge Light Missile:
@@ -365,6 +376,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27353
+    marketGroup: 998
     name: Guristas Scourge Light Missile
     volume: 0.015
   Inferno Light Missile:
@@ -390,6 +402,7 @@ items:
     ThermalDamage: 83.0
     ThermalDamageResonance: 0.800000011920929
     id: 211
+    marketGroup: 920
     name: Inferno Light Missile
     volume: 0.015
   Mjolnir Light Missile:
@@ -415,6 +428,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 212
+    marketGroup: 920
     name: Mjolnir Light Missile
     volume: 0.015
   Nova Light Missile:
@@ -440,6 +454,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 213
+    marketGroup: 920
     name: Nova Light Missile
     volume: 0.015
   Oneiric Missile:
@@ -517,6 +532,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 210
+    marketGroup: 920
     name: Scourge Light Missile
     volume: 0.015
   True Sansha Sabretooth Light Missile:

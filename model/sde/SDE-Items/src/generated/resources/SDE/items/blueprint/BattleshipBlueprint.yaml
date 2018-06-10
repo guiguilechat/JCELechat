@@ -4,6 +4,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24693
+    marketGroup: 279
     name: Abaddon Blueprint
     volume: 0.01
   Abaddon Kador Edition Blueprint:
@@ -28,6 +29,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 996
+    marketGroup: 279
     name: Apocalypse Blueprint
     volume: 0.01
   Apocalypse Imperial Issue Blueprint:
@@ -59,6 +61,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 997
+    marketGroup: 279
     name: Armageddon Blueprint
     volume: 0.01
   Armageddon Imperial Issue Blueprint:
@@ -94,6 +97,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 999
+    marketGroup: 281
     name: Dominix Blueprint
     volume: 0.01
   Dominix Navy Issue Blueprint:
@@ -141,6 +145,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24691
+    marketGroup: 281
     name: Hyperion Blueprint
     volume: 0.01
   Hyperion Inner Zone Shipping Edition Blueprint:
@@ -189,6 +194,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24695
+    marketGroup: 278
     name: Maelstrom Blueprint
     volume: 0.01
   Maelstrom Krusual Edition Blueprint:
@@ -214,6 +220,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 995
+    marketGroup: 281
     name: Megathron Blueprint
     volume: 0.01
   Megathron Federate Issue Blueprint:
@@ -313,6 +320,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 688
+    marketGroup: 280
     name: Raven Blueprint
     volume: 0.01
   Raven Guristas Edition Blueprint:
@@ -349,6 +357,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24689
+    marketGroup: 280
     name: Rokh Blueprint
     volume: 0.01
   Rokh Nugoeihuvi Edition Blueprint:
@@ -368,6 +377,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 994
+    marketGroup: 280
     name: Scorpion Blueprint
     volume: 0.01
   Scorpion Ishukone Watch Blueprint:
@@ -396,6 +406,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 693
+    marketGroup: 278
     name: Tempest Blueprint
     volume: 0.01
   Tempest Fleet Issue Blueprint:
@@ -432,6 +443,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 998
+    marketGroup: 278
     name: Typhoon Blueprint
     volume: 0.01
   Typhoon Fleet Issue Blueprint:
@@ -477,15 +489,15 @@ items:
     id: 22437
     name: Widow Blueprint
     volume: 0.01
-  万王宝座级YC117年特别版���图:
+  万王宝座级YC117年特别版蓝图:
     TechLevel: 1
     id: 34468
-    name: 万王宝座级YC117年特别版���图
+    name: 万王宝座级YC117年特别版蓝图
     volume: 0.01
-  乌鸦级YC117年特别版蓝图:
+  乌鸦级YC117年特别���蓝图:
     TechLevel: 1
     id: 34470
-    name: 乌鸦级YC117年特别版蓝图
+    name: 乌鸦级YC117年特别���蓝图
     volume: 0.01
   响尾蛇级YC117年特别版蓝图:
     TechLevel: 1

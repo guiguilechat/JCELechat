@@ -2,10 +2,12 @@ items:
   Daily Alpha Injector:
     ContainedSkillPoints: 50000
     id: 46375
+    marketGroup: 2358
     name: Daily Alpha Injector
     volume: 0.01
   Large Skill Injector:
     id: 40520
+    marketGroup: 2358
     name: Large Skill Injector
     volume: 0.01
   Mini Skill Injector:
@@ -22,5 +24,6 @@ items:
     volume: 0.01
   Small Skill Injector:
     id: 45635
+    marketGroup: 2358
     name: Small Skill Injector
     volume: 0.002

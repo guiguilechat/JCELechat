@@ -9,6 +9,7 @@ items:
     MissileVelocityBonusBonus: -100
     TechLevel: 1
     id: 40335
+    marketGroup: 1094
     name: Missile Precision Disruption Script
     volume: 1.0
   Missile Range Disruption Script:
@@ -21,5 +22,6 @@ items:
     MissileVelocityBonusBonus: 100
     TechLevel: 1
     id: 40334
+    marketGroup: 1094
     name: Missile Range Disruption Script
     volume: 1.0

@@ -26,5 +26,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 12239
+    marketGroup: 1921
     name: Compression Array
     volume: 6000.0

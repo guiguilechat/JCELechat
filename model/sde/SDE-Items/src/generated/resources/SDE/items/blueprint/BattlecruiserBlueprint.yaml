@@ -4,6 +4,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22449
+    marketGroup: 896
     name: Absolution Blueprint
     volume: 0.01
   Astarte Blueprint:
@@ -11,6 +12,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22467
+    marketGroup: 898
     name: Astarte Blueprint
     volume: 0.01
   Brutix Blueprint:
@@ -18,6 +20,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16230
+    marketGroup: 591
     name: Brutix Blueprint
     volume: 0.01
   Brutix Navy Issue Blueprint:
@@ -38,6 +41,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22469
+    marketGroup: 899
     name: Claymore Blueprint
     volume: 0.01
   Cyclone Blueprint:
@@ -45,6 +49,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16232
+    marketGroup: 592
     name: Cyclone Blueprint
     volume: 0.01
   Cyclone Thukker Tribe Edition Blueprint:
@@ -58,6 +63,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22475
+    marketGroup: 896
     name: Damnation Blueprint
     volume: 0.01
   Drake Blueprint:
@@ -65,6 +71,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24699
+    marketGroup: 590
     name: Drake Blueprint
     volume: 0.01
   Drake Navy Issue Blueprint:
@@ -79,6 +86,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22443
+    marketGroup: 898
     name: Eos Blueprint
     volume: 0.01
   Ferox Blueprint:
@@ -86,6 +94,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16228
+    marketGroup: 590
     name: Ferox Blueprint
     volume: 0.01
   Ferox Guristas Edition Blueprint:
@@ -106,6 +115,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24697
+    marketGroup: 589
     name: Harbinger Blueprint
     volume: 0.01
   Harbinger Navy Issue Blueprint:
@@ -120,6 +130,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24703
+    marketGroup: 592
     name: Hurricane Blueprint
     volume: 0.01
   Hurricane Fleet Issue Blueprint:
@@ -134,6 +145,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 24701
+    marketGroup: 591
     name: Myrmidon Blueprint
     volume: 0.01
   Naga Blueprint:
@@ -141,6 +153,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4307
+    marketGroup: 590
     name: Naga Blueprint
     volume: 0.01
   Nighthawk Blueprint:
@@ -148,6 +161,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22471
+    marketGroup: 897
     name: Nighthawk Blueprint
     volume: 0.01
   Oracle Blueprint:
@@ -155,6 +169,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4305
+    marketGroup: 589
     name: Oracle Blueprint
     volume: 0.01
   Prophecy Blood Raiders Edition Blueprint:
@@ -168,6 +183,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 16234
+    marketGroup: 589
     name: Prophecy Blueprint
     volume: 0.01
   Sleipnir Blueprint:
@@ -175,6 +191,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22445
+    marketGroup: 899
     name: Sleipnir Blueprint
     volume: 0.01
   Talos Blueprint:
@@ -182,6 +199,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4309
+    marketGroup: 591
     name: Talos Blueprint
     volume: 0.01
   Tornado Blueprint:
@@ -189,6 +207,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 4311
+    marketGroup: 592
     name: Tornado Blueprint
     volume: 0.01
   Vulture Blueprint:
@@ -196,6 +215,7 @@ items:
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 22447
+    marketGroup: 897
     name: Vulture Blueprint
     volume: 0.01
   幼龙级YC117年特别版蓝图:

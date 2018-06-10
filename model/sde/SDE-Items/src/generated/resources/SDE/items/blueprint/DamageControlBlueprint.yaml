@@ -14,6 +14,7 @@ items:
   Assault Damage Control I Blueprint:
     TechLevel: 1
     id: 47259
+    marketGroup: 1542
     name: Assault Damage Control I Blueprint
     volume: 0.01
   Assault Damage Control II Blueprint:
@@ -24,6 +25,7 @@ items:
   Capital Emergency Hull Energizer I Blueprint:
     TechLevel: 1
     id: 40719
+    marketGroup: 1542
     name: Capital Emergency Hull Energizer I Blueprint
     volume: 0.01
   Capital Emergency Hull Energizer II Blueprint:
@@ -34,11 +36,13 @@ items:
   Capital Implacable Compact Emergency Hull Energizer Blueprint:
     TechLevel: 1
     id: 40720
+    marketGroup: 1542
     name: Capital Implacable Compact Emergency Hull Energizer Blueprint
     volume: 0.01
   Capital Indefatigable Enduring Emergency Hull Energizer Blueprint:
     TechLevel: 1
     id: 40721
+    marketGroup: 1542
     name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
     volume: 0.01
   Civilian Damage Control Blueprint:
@@ -51,6 +55,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2047
+    marketGroup: 1542
     name: Damage Control I Blueprint
     volume: 0.01
   Damage Control II Blueprint:

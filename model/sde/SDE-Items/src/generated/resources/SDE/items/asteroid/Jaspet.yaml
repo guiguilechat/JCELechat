@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 46698
+    marketGroup: 529
     name: Compressed Immaculate Jaspet
     volume: 0.15
   Compressed Jaspet:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 28406
+    marketGroup: 529
     name: Compressed Jaspet
     volume: 0.15
   Compressed Pristine Jaspet:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 28407
+    marketGroup: 529
     name: Compressed Pristine Jaspet
     volume: 0.15
   Compressed Pure Jaspet:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 28408
+    marketGroup: 529
     name: Compressed Pure Jaspet
     volume: 0.15
   Flawed Jaspet:
@@ -64,6 +68,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 46682
+    marketGroup: 529
     name: Immaculate Jaspet
     volume: 2.0
   Jaspet:
@@ -77,6 +82,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 1226
+    marketGroup: 529
     name: Jaspet
     volume: 2.0
   Pithix:
@@ -100,6 +106,7 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 17449
+    marketGroup: 529
     name: Pristine Jaspet
     volume: 2.0
   Pure Jaspet:
@@ -113,5 +120,6 @@ items:
     ReprocessingSkillType: 12187
     RequiredSkill1: 3386
     id: 17448
+    marketGroup: 529
     name: Pure Jaspet
     volume: 2.0

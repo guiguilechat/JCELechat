@@ -42,6 +42,7 @@ items:
     UnanchoringDelay: 3600000
     Uniformity: 1.0
     id: 12235
+    marketGroup: 478
     name: Amarr Control Tower
     volume: 8000.0
   Amarr Control Tower Medium:
@@ -87,6 +88,7 @@ items:
     UnanchoringDelay: 1800000
     Uniformity: 1.0
     id: 20059
+    marketGroup: 478
     name: Amarr Control Tower Medium
     volume: 4000.0
   Amarr Control Tower Small:
@@ -132,6 +134,7 @@ items:
     UnanchoringDelay: 900000
     Uniformity: 1.0
     id: 20060
+    marketGroup: 478
     name: Amarr Control Tower Small
     volume: 2000.0
   Angel Control Tower:
@@ -178,6 +181,7 @@ items:
     UnanchoringDelay: 3240000
     Uniformity: 1.0
     id: 27539
+    marketGroup: 478
     name: Angel Control Tower
     volume: 8000.0
   Angel Control Tower Medium:
@@ -224,6 +228,7 @@ items:
     UnanchoringDelay: 1620000
     Uniformity: 1.0
     id: 27607
+    marketGroup: 478
     name: Angel Control Tower Medium
     volume: 4000.0
   Angel Control Tower Small:
@@ -270,6 +275,7 @@ items:
     UnanchoringDelay: 810000
     Uniformity: 1.0
     id: 27610
+    marketGroup: 478
     name: Angel Control Tower Small
     volume: 2000.0
   Blood Control Tower:
@@ -316,6 +322,7 @@ items:
     UnanchoringDelay: 3240000
     Uniformity: 1.0
     id: 27530
+    marketGroup: 478
     name: Blood Control Tower
     volume: 8000.0
   Blood Control Tower Medium:
@@ -362,6 +369,7 @@ items:
     UnanchoringDelay: 1620000
     Uniformity: 1.0
     id: 27589
+    marketGroup: 478
     name: Blood Control Tower Medium
     volume: 4000.0
   Blood Control Tower Small:
@@ -408,6 +416,7 @@ items:
     UnanchoringDelay: 810000
     Uniformity: 1.0
     id: 27592
+    marketGroup: 478
     name: Blood Control Tower Small
     volume: 2000.0
   Caldari Control Tower:
@@ -453,6 +462,7 @@ items:
     UnanchoringDelay: 3600000
     Uniformity: 1.0
     id: 16213
+    marketGroup: 478
     name: Caldari Control Tower
     volume: 8000.0
   Caldari Control Tower Medium:
@@ -498,6 +508,7 @@ items:
     UnanchoringDelay: 1800000
     Uniformity: 1.0
     id: 20061
+    marketGroup: 478
     name: Caldari Control Tower Medium
     volume: 4000.0
   Caldari Control Tower Small:
@@ -543,6 +554,7 @@ items:
     UnanchoringDelay: 900000
     Uniformity: 1.0
     id: 20062
+    marketGroup: 478
     name: Caldari Control Tower Small
     volume: 2000.0
   Dark Blood Control Tower:
@@ -589,6 +601,7 @@ items:
     UnanchoringDelay: 2880000
     Uniformity: 1.0
     id: 27532
+    marketGroup: 478
     name: Dark Blood Control Tower
     volume: 8000.0
   Dark Blood Control Tower Medium:
@@ -635,6 +648,7 @@ items:
     UnanchoringDelay: 1440000
     Uniformity: 1.0
     id: 27591
+    marketGroup: 478
     name: Dark Blood Control Tower Medium
     volume: 4000.0
   Dark Blood Control Tower Small:
@@ -681,6 +695,7 @@ items:
     UnanchoringDelay: 720000
     Uniformity: 1.0
     id: 27594
+    marketGroup: 478
     name: Dark Blood Control Tower Small
     volume: 2000.0
   Domination Control Tower:
@@ -727,6 +742,7 @@ items:
     UnanchoringDelay: 2880000
     Uniformity: 1.0
     id: 27540
+    marketGroup: 478
     name: Domination Control Tower
     volume: 8000.0
   Domination Control Tower Medium:
@@ -773,6 +789,7 @@ items:
     UnanchoringDelay: 1440000
     Uniformity: 1.0
     id: 27609
+    marketGroup: 478
     name: Domination Control Tower Medium
     volume: 4000.0
   Domination Control Tower Small:
@@ -819,6 +836,7 @@ items:
     UnanchoringDelay: 720000
     Uniformity: 1.0
     id: 27612
+    marketGroup: 478
     name: Domination Control Tower Small
     volume: 2000.0
   Dread Guristas Control Tower:
@@ -865,6 +883,7 @@ items:
     UnanchoringDelay: 2880000
     Uniformity: 1.0
     id: 27535
+    marketGroup: 478
     name: Dread Guristas Control Tower
     volume: 8000.0
   Dread Guristas Control Tower Medium:
@@ -911,6 +930,7 @@ items:
     UnanchoringDelay: 1440000
     Uniformity: 1.0
     id: 27597
+    marketGroup: 478
     name: Dread Guristas Control Tower Medium
     volume: 4000.0
   Dread Guristas Control Tower Small:
@@ -957,6 +977,7 @@ items:
     UnanchoringDelay: 720000
     Uniformity: 1.0
     id: 27600
+    marketGroup: 478
     name: Dread Guristas Control Tower Small
     volume: 2000.0
   Gallente Control Tower:
@@ -1001,6 +1022,7 @@ items:
     UnanchoringDelay: 3600000
     Uniformity: 1.0
     id: 12236
+    marketGroup: 478
     name: Gallente Control Tower
     volume: 8000.0
   Gallente Control Tower Medium:
@@ -1045,6 +1067,7 @@ items:
     UnanchoringDelay: 1800000
     Uniformity: 1.0
     id: 20063
+    marketGroup: 478
     name: Gallente Control Tower Medium
     volume: 4000.0
   Gallente Control Tower Small:
@@ -1089,6 +1112,7 @@ items:
     UnanchoringDelay: 900000
     Uniformity: 1.0
     id: 20064
+    marketGroup: 478
     name: Gallente Control Tower Small
     volume: 2000.0
   Guristas Control Tower:
@@ -1135,6 +1159,7 @@ items:
     UnanchoringDelay: 3240000
     Uniformity: 1.0
     id: 27533
+    marketGroup: 478
     name: Guristas Control Tower
     volume: 8000.0
   Guristas Control Tower Medium:
@@ -1181,6 +1206,7 @@ items:
     UnanchoringDelay: 1620000
     Uniformity: 1.0
     id: 27595
+    marketGroup: 478
     name: Guristas Control Tower Medium
     volume: 4000.0
   Guristas Control Tower Small:
@@ -1227,6 +1253,7 @@ items:
     UnanchoringDelay: 810000
     Uniformity: 1.0
     id: 27598
+    marketGroup: 478
     name: Guristas Control Tower Small
     volume: 2000.0
   Minmatar Control Tower:
@@ -1272,6 +1299,7 @@ items:
     UnanchoringDelay: 3600000
     Uniformity: 1.0
     id: 16214
+    marketGroup: 478
     name: Minmatar Control Tower
     volume: 8000.0
   Minmatar Control Tower Medium:
@@ -1317,6 +1345,7 @@ items:
     UnanchoringDelay: 1800000
     Uniformity: 1.0
     id: 20065
+    marketGroup: 478
     name: Minmatar Control Tower Medium
     volume: 4000.0
   Minmatar Control Tower Small:
@@ -1362,6 +1391,7 @@ items:
     UnanchoringDelay: 900000
     Uniformity: 1.0
     id: 20066
+    marketGroup: 478
     name: Minmatar Control Tower Small
     volume: 2000.0
   QA Control Tower:
@@ -1495,6 +1525,7 @@ items:
     UnanchoringDelay: 3240000
     Uniformity: 1.0
     id: 27780
+    marketGroup: 478
     name: Sansha Control Tower
     volume: 8000.0
   Sansha Control Tower Medium:
@@ -1541,6 +1572,7 @@ items:
     UnanchoringDelay: 1620000
     Uniformity: 1.0
     id: 27782
+    marketGroup: 478
     name: Sansha Control Tower Medium
     volume: 4000.0
   Sansha Control Tower Small:
@@ -1587,6 +1619,7 @@ items:
     UnanchoringDelay: 810000
     Uniformity: 1.0
     id: 27784
+    marketGroup: 478
     name: Sansha Control Tower Small
     volume: 2000.0
   Serpentis Control Tower:
@@ -1632,6 +1665,7 @@ items:
     UnanchoringDelay: 3240000
     Uniformity: 1.0
     id: 27536
+    marketGroup: 478
     name: Serpentis Control Tower
     volume: 8000.0
   Serpentis Control Tower Medium:
@@ -1677,6 +1711,7 @@ items:
     UnanchoringDelay: 1620000
     Uniformity: 1.0
     id: 27601
+    marketGroup: 478
     name: Serpentis Control Tower Medium
     volume: 4000.0
   Serpentis Control Tower Small:
@@ -1722,6 +1757,7 @@ items:
     UnanchoringDelay: 810000
     Uniformity: 1.0
     id: 27604
+    marketGroup: 478
     name: Serpentis Control Tower Small
     volume: 2000.0
   Shadow Control Tower:
@@ -1767,6 +1803,7 @@ items:
     UnanchoringDelay: 2880000
     Uniformity: 1.0
     id: 27538
+    marketGroup: 478
     name: Shadow Control Tower
     volume: 8000.0
   Shadow Control Tower Medium:
@@ -1812,6 +1849,7 @@ items:
     UnanchoringDelay: 1440000
     Uniformity: 1.0
     id: 27603
+    marketGroup: 478
     name: Shadow Control Tower Medium
     volume: 4000.0
   Shadow Control Tower Small:
@@ -1857,6 +1895,7 @@ items:
     UnanchoringDelay: 720000
     Uniformity: 1.0
     id: 27606
+    marketGroup: 478
     name: Shadow Control Tower Small
     volume: 2000.0
   True Sansha Control Tower:
@@ -1903,6 +1942,7 @@ items:
     UnanchoringDelay: 2880000
     Uniformity: 1.0
     id: 27786
+    marketGroup: 478
     name: True Sansha Control Tower
     volume: 8000.0
   True Sansha Control Tower Medium:
@@ -1949,6 +1989,7 @@ items:
     UnanchoringDelay: 1440000
     Uniformity: 1.0
     id: 27788
+    marketGroup: 478
     name: True Sansha Control Tower Medium
     volume: 4000.0
   True Sansha Control Tower Small:
@@ -1995,5 +2036,6 @@ items:
     UnanchoringDelay: 720000
     Uniformity: 1.0
     id: 27790
+    marketGroup: 478
     name: True Sansha Control Tower Small
     volume: 2000.0

@@ -7,6 +7,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 32254
+    marketGroup: 1518
     name: Imperial Navy Modified 'Noble' Implant
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1001:
@@ -15,6 +16,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27074
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1002:
@@ -24,6 +26,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3479
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1003:
@@ -32,6 +35,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13256
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1004:
@@ -41,6 +45,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3481
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1005:
@@ -49,6 +54,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19550
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1005
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1006:
@@ -58,6 +64,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3482
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1006
     volume: 1.0
   Inherent Implants 'Noble' Hull Upgrades HG-1008:
@@ -66,6 +73,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 21606
+    marketGroup: 1518
     name: Inherent Implants 'Noble' Hull Upgrades HG-1008
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-801:
@@ -74,6 +82,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27072
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-801
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
@@ -83,6 +92,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3471
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-802
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
@@ -91,6 +101,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13257
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-803
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
@@ -100,6 +111,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3474
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-804
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
@@ -108,6 +120,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19549
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-805
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-806:
@@ -117,6 +130,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3475
+    marketGroup: 1516
     name: Inherent Implants 'Noble' Mechanic MC-806
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-701:
@@ -126,6 +140,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27071
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-701
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-702:
@@ -135,6 +150,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3414
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-702
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-703:
@@ -144,6 +160,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 17871
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-703
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-704:
@@ -153,6 +170,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3415
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-704
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-705:
@@ -162,6 +180,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19548
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-705
     volume: 1.0
   Inherent Implants 'Noble' Remote Armor Repair Systems RA-706:
@@ -171,6 +190,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3470
+    marketGroup: 1515
     name: Inherent Implants 'Noble' Remote Armor Repair Systems RA-706
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-901:
@@ -180,6 +200,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27073
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-901
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-902:
@@ -189,6 +210,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3476
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-902
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-903:
@@ -198,6 +220,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 19684
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-903
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-904:
@@ -207,6 +230,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3477
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-904
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-905:
@@ -216,6 +240,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19685
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-905
     volume: 1.0
   Inherent Implants 'Noble' Repair Proficiency RP-906:
@@ -225,6 +250,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3478
+    marketGroup: 1517
     name: Inherent Implants 'Noble' Repair Proficiency RP-906
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-601:
@@ -234,6 +260,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27070
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-601
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-602:
@@ -243,6 +270,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3291
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-602
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-603:
@@ -252,6 +280,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13258
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-603
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-604:
@@ -261,6 +290,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3292
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-604
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-605:
@@ -270,6 +300,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 19547
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-605
     volume: 1.0
   Inherent Implants 'Noble' Repair Systems RS-606:
@@ -279,6 +310,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3299
+    marketGroup: 1514
     name: Inherent Implants 'Noble' Repair Systems RS-606
     volume: 1.0
   Numon Family Heirloom:
@@ -288,5 +320,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 20358
+    marketGroup: 1514
     name: Numon Family Heirloom
     volume: 1.0

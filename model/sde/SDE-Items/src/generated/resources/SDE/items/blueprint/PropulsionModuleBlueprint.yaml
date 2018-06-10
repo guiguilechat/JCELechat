@@ -3,6 +3,7 @@ items:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 41242
+    marketGroup: 1525
     name: 10000MN Afterburner I Blueprint
     volume: 0.01
   10000MN Afterburner II Blueprint:
@@ -15,18 +16,21 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41244
+    marketGroup: 1525
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
     volume: 0.01
   10000MN Y-S8 Compact Afterburner Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41243
+    marketGroup: 1525
     name: 10000MN Y-S8 Compact Afterburner Blueprint
     volume: 0.01
   100MN Afterburner I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 12067
+    marketGroup: 1525
     name: 100MN Afterburner I Blueprint
     volume: 0.01
   100MN Afterburner II Blueprint:
@@ -45,6 +49,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 12057
+    marketGroup: 1525
     name: 10MN Afterburner I Blueprint
     volume: 0.01
   10MN Afterburner II Blueprint:
@@ -63,6 +68,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1072
+    marketGroup: 1525
     name: 1MN Afterburner I Blueprint
     volume: 0.01
   1MN Afterburner II Blueprint:
@@ -87,12 +93,14 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41313
+    marketGroup: 331
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
     volume: 0.01
   50000MN Microwarpdrive I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1
     id: 41256
+    marketGroup: 331
     name: 50000MN Microwarpdrive I Blueprint
     volume: 0.01
   50000MN Microwarpdrive II Blueprint:
@@ -105,12 +113,14 @@ items:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41258
+    marketGroup: 331
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
     volume: 0.01
   50000MN Y-T8 Compact Microwarpdrive Blueprint:
     IndustryBlueprintRank: 200.0
     TechLevel: 1
     id: 41257
+    marketGroup: 331
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
     volume: 0.01
   500MN Digital Booster Microwarpdrive Blueprint:
@@ -123,6 +133,7 @@ items:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
     id: 12055
+    marketGroup: 331
     name: 500MN Microwarpdrive I Blueprint
     volume: 0.01
   500MN Microwarpdrive II Blueprint:
@@ -141,6 +152,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 12053
+    marketGroup: 331
     name: 50MN Microwarpdrive I Blueprint
     volume: 0.01
   50MN Microwarpdrive II Blueprint:
@@ -159,6 +171,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1067
+    marketGroup: 331
     name: 5MN Microwarpdrive I Blueprint
     volume: 0.01
   5MN Microwarpdrive II Blueprint:

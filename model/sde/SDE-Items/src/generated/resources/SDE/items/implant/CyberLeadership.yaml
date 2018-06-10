@@ -8,6 +8,7 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     id: 13209
+    marketGroup: 1505
     name: Armored Command Mindlink
     volume: 1.0
   Caldari Navy Command Mindlink:
@@ -22,6 +23,7 @@ items:
     RequiredSkill3Level: 5
     TechLevel: 1
     id: 33406
+    marketGroup: 1505
     name: Caldari Navy Command Mindlink
     volume: 1.0
   Federation Navy Command Mindlink:
@@ -36,6 +38,7 @@ items:
     RequiredSkill3Level: 5
     TechLevel: 1
     id: 33404
+    marketGroup: 1505
     name: Federation Navy Command Mindlink
     volume: 1.0
   Imperial Navy Command Mindlink:
@@ -50,6 +53,7 @@ items:
     RequiredSkill3Level: 5
     TechLevel: 1
     id: 33403
+    marketGroup: 1505
     name: Imperial Navy Command Mindlink
     volume: 1.0
   Information Command Mindlink:
@@ -61,6 +65,7 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     id: 21889
+    marketGroup: 1505
     name: Information Command Mindlink
     volume: 1.0
   Mining Foreman Mindlink:
@@ -72,6 +77,7 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     id: 22559
+    marketGroup: 1505
     name: Mining Foreman Mindlink
     volume: 1.0
   ORE Mining Director Mindlink:
@@ -86,6 +92,7 @@ items:
     RequiredSkill3Level: 5
     TechLevel: 1
     id: 43775
+    marketGroup: 1505
     name: ORE Mining Director Mindlink
     volume: 1.0
   Republic Fleet Command Mindlink:
@@ -100,6 +107,7 @@ items:
     RequiredSkill3Level: 5
     TechLevel: 1
     id: 33405
+    marketGroup: 1505
     name: Republic Fleet Command Mindlink
     volume: 1.0
   Shield Command Mindlink:
@@ -111,6 +119,7 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     id: 21888
+    marketGroup: 1505
     name: Shield Command Mindlink
     volume: 1.0
   Skirmish Command Mindlink:
@@ -122,5 +131,6 @@ items:
     RequiredSkill2Level: 5
     TechLevel: 2
     id: 21890
+    marketGroup: 1505
     name: Skirmish Command Mindlink
     volume: 1.0

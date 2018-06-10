@@ -78,6 +78,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12013
+    marketGroup: 1074
     name: Broadsword
     volume: 96000.0
   Devoter:
@@ -160,6 +161,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12017
+    marketGroup: 1071
     name: Devoter
     volume: 118000.0
   Fiend:
@@ -241,6 +243,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 35781
+    marketGroup: 2115
     name: Fiend
     volume: 101000.0
   Onyx:
@@ -320,6 +323,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11995
+    marketGroup: 1072
     name: Onyx
     volume: 92000.0
   Phobos:
@@ -399,5 +403,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 12021
+    marketGroup: 1073
     name: Phobos
     volume: 112000.0

@@ -25,6 +25,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27912
+    marketGroup: 1015
     name: Concussion Bomb
     volume: 75.0
   Electron Bomb:
@@ -53,6 +54,7 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27920
+    marketGroup: 1015
     name: Electron Bomb
     volume: 75.0
   Micro Concussion Bomb:
@@ -193,6 +195,7 @@ items:
     TechLevel: 1
     ThermalDamage: 6400.0
     id: 27916
+    marketGroup: 1015
     name: Scorch Bomb
     volume: 75.0
   Shrapnel Bomb:
@@ -221,5 +224,6 @@ items:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 27918
+    marketGroup: 1015
     name: Shrapnel Bomb
     volume: 75.0

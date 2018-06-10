@@ -22,6 +22,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20122
     id: 20595
+    marketGroup: 640
     name: '''Gallows'' Light Missile Launcher'
     volume: 5.0
   Arbalest Compact Light Missile Launcher:
@@ -46,6 +47,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8089
+    marketGroup: 640
     name: Arbalest Compact Light Missile Launcher
     volume: 5.0
   CONCORD Light Missile Launcher:
@@ -95,6 +97,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16068
+    marketGroup: 640
     name: Caldari Navy Light Missile Launcher
     volume: 5.0
   Civilian Light Missile Launcher:
@@ -136,6 +139,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13925
+    marketGroup: 640
     name: Domination Light Missile Launcher
     volume: 5.0
   Dread Guristas Light Missile Launcher:
@@ -161,6 +165,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13926
+    marketGroup: 640
     name: Dread Guristas Light Missile Launcher
     volume: 5.0
   Experimental TE-2100 Light Missile Launcher:
@@ -208,6 +213,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 499
+    marketGroup: 640
     name: Light Missile Launcher I
     volume: 5.0
   Light Missile Launcher II:
@@ -233,6 +239,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 2404
+    marketGroup: 640
     name: Light Missile Launcher II
     volume: 5.0
   Prototype 'Arbalest' Light Missile Launcher:
@@ -282,6 +289,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17491
+    marketGroup: 640
     name: Republic Fleet Light Missile Launcher
     volume: 5.0
   TE-2100 Ample Light Missile Launcher:
@@ -306,6 +314,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8091
+    marketGroup: 640
     name: TE-2100 Ample Light Missile Launcher
     volume: 5.0
   True Sansha Light Missile Launcher:
@@ -331,5 +340,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22565
+    marketGroup: 640
     name: True Sansha Light Missile Launcher
     volume: 5.0

@@ -43,6 +43,7 @@ items:
     Slots: 1
     TechLevel: 1
     id: 443
+    marketGroup: 713
     name: Ship Scanner I
     volume: 5.0
   Ship Scanner II:
@@ -59,6 +60,7 @@ items:
     Slots: 1
     TechLevel: 2
     id: 1855
+    marketGroup: 713
     name: Ship Scanner II
     volume: 5.0
   Speculative Ship Identifier I:
@@ -90,6 +92,7 @@ items:
     Slots: 1
     TechLevel: 1
     id: 6527
+    marketGroup: 713
     name: Ta3 Compact Ship Scanner
     volume: 5.0
   Ta3 Perfunctory Vessel Probe:

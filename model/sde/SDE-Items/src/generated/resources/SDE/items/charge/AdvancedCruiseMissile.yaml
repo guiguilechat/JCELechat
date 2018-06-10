@@ -26,6 +26,7 @@ items:
     ThermalDamage: 525.0
     ThermalDamageResonance: 0.800000011920929
     id: 2621
+    marketGroup: 925
     name: Inferno Fury Cruise Missile
     volume: 0.05
   Inferno Precision Cruise Missile:
@@ -55,6 +56,7 @@ items:
     ThermalDamage: 375.0
     ThermalDamageResonance: 0.800000011920929
     id: 2637
+    marketGroup: 918
     name: Inferno Precision Cruise Missile
     volume: 0.05
   Mjolnir Fury Cruise Missile:
@@ -84,6 +86,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24535
+    marketGroup: 925
     name: Mjolnir Fury Cruise Missile
     volume: 0.05
   Mjolnir Precision Cruise Missile:
@@ -113,6 +116,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24539
+    marketGroup: 918
     name: Mjolnir Precision Cruise Missile
     volume: 0.05
   Nova Fury Cruise Missile:
@@ -142,6 +146,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24531
+    marketGroup: 925
     name: Nova Fury Cruise Missile
     volume: 0.05
   Nova Precision Cruise Missile:
@@ -171,6 +176,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24537
+    marketGroup: 918
     name: Nova Precision Cruise Missile
     volume: 0.05
   Scourge Fury Cruise Missile:
@@ -200,6 +206,7 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24533
+    marketGroup: 925
     name: Scourge Fury Cruise Missile
     volume: 0.05
   Scourge Precision Cruise Missile:
@@ -229,5 +236,6 @@ items:
     TechLevel: 2
     ThermalDamageResonance: 1.0
     id: 24541
+    marketGroup: 918
     name: Scourge Precision Cruise Missile
     volume: 0.05

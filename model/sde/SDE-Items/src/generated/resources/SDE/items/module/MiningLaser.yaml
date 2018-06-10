@@ -46,6 +46,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 3651
+    marketGroup: 1039
     name: Civilian Miner
     volume: 5.0
   Deep Core Mining Laser I:
@@ -66,6 +67,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 12108
+    marketGroup: 1039
     name: Deep Core Mining Laser I
     volume: 5.0
   Dual Diode Mining Laser I:
@@ -116,6 +118,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 5239
+    marketGroup: 1039
     name: EP-S Gaussian Scoped Mining Laser
     volume: 5.0
   Gallente Mining Laser:
@@ -135,6 +138,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11330
     id: 21841
+    marketGroup: 1039
     name: Gallente Mining Laser
     volume: 5.0
   Ice Mining Laser I:
@@ -153,6 +157,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 37450
+    marketGroup: 2151
     name: Ice Mining Laser I
     volume: 5.0
   Ice Mining Laser II:
@@ -172,6 +177,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11346
     id: 37451
+    marketGroup: 2151
     name: Ice Mining Laser II
     volume: 5.0
   Miner I:
@@ -188,6 +194,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 483
+    marketGroup: 1039
     name: Miner I
     volume: 5.0
   Miner II:
@@ -205,6 +212,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 482
+    marketGroup: 1039
     name: Miner II
     volume: 5.0
   Miner II (China):
@@ -243,6 +251,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 28748
+    marketGroup: 1039
     name: ORE Deep Core Mining Laser
     volume: 5.0
   ORE Ice Mining Laser:
@@ -263,6 +272,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 37452
+    marketGroup: 2151
     name: ORE Ice Mining Laser
     volume: 5.0
   ORE Miner:
@@ -281,6 +291,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 28750
+    marketGroup: 1039
     name: ORE Miner
     volume: 5.0
   Particle Bore Compact Mining Laser:
@@ -299,6 +310,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11346
     id: 5245
+    marketGroup: 1039
     name: Particle Bore Compact Mining Laser
     volume: 5.0
   Rubin Basic Particle Bore Stream:
@@ -330,6 +342,7 @@ items:
     TargetGroup: 11
     TechLevel: 1
     id: 5233
+    marketGroup: 1039
     name: Single Diode Basic Mining Laser
     volume: 5.0
   XeCl Drilling Beam I:

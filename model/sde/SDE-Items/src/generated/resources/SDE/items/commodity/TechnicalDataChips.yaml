@@ -1,9 +1,11 @@
 items:
   Hyasyoda Research Lab Technical Data Chip:
     id: 45584
+    marketGroup: 2317
     name: Hyasyoda Research Lab Technical Data Chip
     volume: 0.1
   Thukker Capital Component Manufacturing Technical Data Chip:
     id: 45585
+    marketGroup: 2317
     name: Thukker Capital Component Manufacturing Technical Data Chip
     volume: 0.1

@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -16.0
     id: 41516
+    marketGroup: 2246
     name: Capital Flex Shield Hardener I
     volume: 4000.0
   Capital Flex Shield Hardener II:
@@ -50,6 +51,7 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -19.0
     id: 41528
+    marketGroup: 2246
     name: Capital Flex Shield Hardener II
     volume: 4000.0
   Domination Capital Flex Shield Hardener:
@@ -78,6 +80,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
     id: 41531
+    marketGroup: 2246
     name: Domination Capital Flex Shield Hardener
     volume: 4000.0
   Dread Guristas Capital Flex Shield Hardener:
@@ -106,6 +109,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
     id: 41530
+    marketGroup: 2246
     name: Dread Guristas Capital Flex Shield Hardener
     volume: 4000.0
   True Sansha Capital Flex Shield Hardener:
@@ -134,5 +138,6 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
     id: 41529
+    marketGroup: 2246
     name: True Sansha Capital Flex Shield Hardener
     volume: 4000.0

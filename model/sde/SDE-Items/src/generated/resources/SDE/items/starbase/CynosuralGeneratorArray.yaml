@@ -30,5 +30,6 @@ items:
     UnanchoringDelay: 10000
     Uniformity: 1.0
     id: 27673
+    marketGroup: 1013
     name: Cynosural Generator Array
     volume: 4000.0

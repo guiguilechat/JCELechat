@@ -8,6 +8,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
     id: 45749
+    marketGroup: 1323
     name: Advanced Mass Reactions
     volume: 0.01
   Arkonor Processing:
@@ -20,6 +21,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 12180
+    marketGroup: 1323
     name: Arkonor Processing
     volume: 0.01
   Astrogeology:
@@ -32,6 +34,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 3410
+    marketGroup: 1323
     name: Astrogeology
     volume: 0.01
   Bistot Processing:
@@ -44,6 +47,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 12181
+    marketGroup: 1323
     name: Bistot Processing
     volume: 0.01
   Common Moon Ore Processing:
@@ -56,6 +60,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
     id: 46153
+    marketGroup: 1323
     name: Common Moon Ore Processing
     volume: 0.01
   Crokite Processing:
@@ -68,6 +73,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 12182
+    marketGroup: 1323
     name: Crokite Processing
     volume: 0.01
   Dark Ochre Processing:
@@ -80,6 +86,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 12183
+    marketGroup: 1323
     name: Dark Ochre Processing
     volume: 0.01
   Deep Core Mining:
@@ -93,6 +100,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 6.0
     id: 11395
+    marketGroup: 1323
     name: Deep Core Mining
     volume: 0.01
   Exceptional Moon Ore Processing:
@@ -105,6 +113,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
     id: 46156
+    marketGroup: 1323
     name: Exceptional Moon Ore Processing
     volume: 0.01
   Gas Cloud Harvesting:
@@ -114,6 +123,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 25544
+    marketGroup: 1323
     name: Gas Cloud Harvesting
     volume: 0.01
   Gneiss Processing:
@@ -126,6 +136,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 12184
+    marketGroup: 1323
     name: Gneiss Processing
     volume: 0.01
   Hedbergite Processing:
@@ -138,6 +149,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 12185
+    marketGroup: 1323
     name: Hedbergite Processing
     volume: 0.01
   Hemorphite Processing:
@@ -150,6 +162,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 12186
+    marketGroup: 1323
     name: Hemorphite Processing
     volume: 0.01
   Ice Harvesting:
@@ -160,6 +173,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 16281
+    marketGroup: 1323
     name: Ice Harvesting
     volume: 0.01
   Ice Processing:
@@ -172,6 +186,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
     id: 18025
+    marketGroup: 1323
     name: Ice Processing
     volume: 0.01
   Industrial Reconfiguration:
@@ -182,6 +197,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 8.0
     id: 28585
+    marketGroup: 1323
     name: Industrial Reconfiguration
     volume: 0.01
   Jaspet Processing:
@@ -194,6 +210,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 12187
+    marketGroup: 1323
     name: Jaspet Processing
     volume: 0.01
   Kernite Processing:
@@ -206,6 +223,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 12188
+    marketGroup: 1323
     name: Kernite Processing
     volume: 0.01
   Mass Reactions:
@@ -217,6 +235,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 45748
+    marketGroup: 1323
     name: Mass Reactions
     volume: 0.01
   Mercoxit Processing:
@@ -229,6 +248,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
     id: 12189
+    marketGroup: 1323
     name: Mercoxit Processing
     volume: 0.01
   Mining:
@@ -237,6 +257,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 3386
+    marketGroup: 1323
     name: Mining
     volume: 0.01
   Mining Upgrades:
@@ -247,6 +268,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 22578
+    marketGroup: 1323
     name: Mining Upgrades
     volume: 0.01
   Mobile Refinery Operation:
@@ -270,6 +292,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 2.0
     id: 12190
+    marketGroup: 1323
     name: Omber Processing
     volume: 0.01
   Ore Compression:
@@ -295,6 +318,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 12191
+    marketGroup: 1323
     name: Plagioclase Processing
     volume: 0.01
   Pyroxeres Processing:
@@ -307,6 +331,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 12192
+    marketGroup: 1323
     name: Pyroxeres Processing
     volume: 0.01
   Rare Moon Ore Processing:
@@ -319,6 +344,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 7.0
     id: 46155
+    marketGroup: 1323
     name: Rare Moon Ore Processing
     volume: 0.01
   Reactions:
@@ -327,6 +353,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 45746
+    marketGroup: 1323
     name: Reactions
     volume: 0.01
   Remote Reactions:
@@ -337,6 +364,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 45750
+    marketGroup: 1323
     name: Remote Reactions
     volume: 0.01
   Reprocessing:
@@ -347,6 +375,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 3385
+    marketGroup: 1323
     name: Reprocessing
     volume: 0.01
   Reprocessing Efficiency:
@@ -357,6 +386,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 3389
+    marketGroup: 1323
     name: Reprocessing Efficiency
     volume: 0.01
   Salvaging:
@@ -369,6 +399,7 @@ items:
     SecondaryAttribute: 166
     SkillTimeConstant: 3.0
     id: 25863
+    marketGroup: 1323
     name: Salvaging
     volume: 0.01
   Scordite Processing:
@@ -381,6 +412,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 12193
+    marketGroup: 1323
     name: Scordite Processing
     volume: 0.01
   Scrapmetal Processing:
@@ -393,6 +425,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 5.0
     id: 12196
+    marketGroup: 1323
     name: Scrapmetal Processing
     volume: 0.01
   Spodumain Processing:
@@ -405,6 +438,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 3.0
     id: 12194
+    marketGroup: 1323
     name: Spodumain Processing
     volume: 0.01
   Ubiquitous Moon Ore Processing:
@@ -417,6 +451,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 4.0
     id: 46152
+    marketGroup: 1323
     name: Ubiquitous Moon Ore Processing
     volume: 0.01
   Uncommon Moon Ore Processing:
@@ -429,6 +464,7 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 6.0
     id: 46154
+    marketGroup: 1323
     name: Uncommon Moon Ore Processing
     volume: 0.01
   Veldspar Processing:
@@ -441,5 +477,6 @@ items:
     SecondaryAttribute: 165
     SkillTimeConstant: 1.0
     id: 12195
+    marketGroup: 1323
     name: Veldspar Processing
     volume: 0.01

@@ -11,6 +11,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 35770
+    marketGroup: 2033
     name: Missile Guidance Enhancer I
     volume: 5.0
   Missile Guidance Enhancer II:
@@ -26,6 +27,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 2
     id: 35771
+    marketGroup: 2033
     name: Missile Guidance Enhancer II
     volume: 5.0
   Pro-Nav Compact Missile Guidance Enhancer:
@@ -41,5 +43,6 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 35774
+    marketGroup: 2033
     name: Pro-Nav Compact Missile Guidance Enhancer
     volume: 5.0

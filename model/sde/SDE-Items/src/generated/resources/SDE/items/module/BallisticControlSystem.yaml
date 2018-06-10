@@ -11,6 +11,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
     id: 21484
+    marketGroup: 645
     name: '''Full Duplex'' Ballistic Control System'
     volume: 5.0
   '''Pandemonium'' Ballistic Enhancement':
@@ -47,6 +48,7 @@ items:
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
     id: 12274
+    marketGroup: 645
     name: Ballistic Control System I
     volume: 5.0
   Ballistic Control System II:
@@ -59,6 +61,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
     id: 22291
+    marketGroup: 645
     name: Ballistic Control System II
     volume: 5.0
   C3-A 'Hivaa Saitsuo' Ballistic Control System:
@@ -76,6 +79,7 @@ items:
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
     id: 47447
+    marketGroup: 645
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
     volume: 5.0
   C3-X 'Hivaa Saitsuo' Ballistic Control System:
@@ -93,6 +97,7 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 47448
+    marketGroup: 645
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
     volume: 5.0
   Caldari Navy Ballistic Control System:
@@ -106,6 +111,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15681
+    marketGroup: 645
     name: Caldari Navy Ballistic Control System
     volume: 5.0
   Crosslink Compact Ballistic Control System:
@@ -119,6 +125,7 @@ items:
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
     id: 16457
+    marketGroup: 645
     name: Crosslink Compact Ballistic Control System
     volume: 5.0
   Domination Ballistic Control System:
@@ -133,6 +140,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 13935
+    marketGroup: 645
     name: Domination Ballistic Control System
     volume: 5.0
   Dread Guristas Ballistic Control System:
@@ -146,6 +154,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 13937
+    marketGroup: 645
     name: Dread Guristas Ballistic Control System
     volume: 5.0
   Estamel's Modified Ballistic Control System:
@@ -159,6 +168,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14690
+    marketGroup: 645
     name: Estamel's Modified Ballistic Control System
     volume: 5.0
   Gotan's Modified Ballistic Control System:
@@ -173,6 +183,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14532
+    marketGroup: 645
     name: Gotan's Modified Ballistic Control System
     volume: 5.0
   Hakim's Modified Ballistic Control System:
@@ -187,6 +198,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14528
+    marketGroup: 645
     name: Hakim's Modified Ballistic Control System
     volume: 5.0
   Kaatara's Custom Ballistic Control System:
@@ -201,6 +213,7 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 46270
+    marketGroup: 645
     name: Kaatara's Custom Ballistic Control System
     volume: 5.0
   Kaikka's Modified Ballistic Control System:
@@ -214,6 +227,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14684
+    marketGroup: 645
     name: Kaikka's Modified Ballistic Control System
     volume: 5.0
   Khanid Navy Ballistic Control System:
@@ -227,6 +241,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 28563
+    marketGroup: 645
     name: Khanid Navy Ballistic Control System
     volume: 5.0
   Mizuro's Modified Ballistic Control System:
@@ -241,6 +256,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14530
+    marketGroup: 645
     name: Mizuro's Modified Ballistic Control System
     volume: 5.0
   Multiphasic Bolt Array I:
@@ -279,6 +295,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15683
+    marketGroup: 645
     name: Republic Fleet Ballistic Control System
     volume: 5.0
   Thon's Modified Ballistic Control System:
@@ -292,6 +309,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14686
+    marketGroup: 645
     name: Thon's Modified Ballistic Control System
     volume: 5.0
   Tobias' Modified Ballistic Control System:
@@ -306,6 +324,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14534
+    marketGroup: 645
     name: Tobias' Modified Ballistic Control System
     volume: 5.0
   Vepas' Modified Ballistic Control System:
@@ -319,5 +338,6 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14688
+    marketGroup: 645
     name: Vepas' Modified Ballistic Control System
     volume: 5.0

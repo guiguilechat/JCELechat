@@ -2,21 +2,25 @@ items:
   Archon Blueprint:
     IndustryBlueprintRank: 200.0
     id: 23758
+    marketGroup: 888
     name: Archon Blueprint
     volume: 0.01
   Chimera Blueprint:
     IndustryBlueprintRank: 200.0
     id: 23916
+    marketGroup: 889
     name: Chimera Blueprint
     volume: 0.01
   Nidhoggur Blueprint:
     IndustryBlueprintRank: 200.0
     id: 24484
+    marketGroup: 891
     name: Nidhoggur Blueprint
     volume: 0.01
   Thanatos Blueprint:
     IndustryBlueprintRank: 200.0
     id: 23912
+    marketGroup: 890
     name: Thanatos Blueprint
     volume: 0.01
   Vanguard Blueprint:

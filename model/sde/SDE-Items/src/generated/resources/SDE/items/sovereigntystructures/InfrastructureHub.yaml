@@ -7,6 +7,7 @@ items:
     ScanRadarStrength: 25.0
     SignatureRadius: 4000
     id: 32458
+    marketGroup: 1275
     name: Infrastructure Hub
     volume: 60000.0
   QA Infrastructure Hub:

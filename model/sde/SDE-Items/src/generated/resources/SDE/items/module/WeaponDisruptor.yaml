@@ -24,6 +24,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 22931
+    marketGroup: 680
     name: '''Distributor'' Guidance Disruptor'
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
@@ -50,6 +51,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -17.190000534057617
     id: 22933
+    marketGroup: 680
     name: '''Investor'' Tracking Disruptor I'
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
@@ -76,6 +78,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 37545
+    marketGroup: 680
     name: A-211 Enduring Guidance Disruptor
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
@@ -101,6 +104,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
     id: 5319
+    marketGroup: 680
     name: Baker Nunn Enduring Tracking Disruptor I
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
@@ -125,6 +129,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
     id: 5320
+    marketGroup: 680
     name: Balmer Series Compact Tracking Disruptor I
     volume: 5.0
   C-IR Compact Guidance Disruptor:
@@ -151,6 +156,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5321
+    marketGroup: 680
     name: C-IR Compact Guidance Disruptor
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
@@ -176,6 +182,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -16.239999771118164
     id: 5322
+    marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
     volume: 5.0
   Dark Blood Tracking Disruptor:
@@ -225,6 +232,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 37543
+    marketGroup: 680
     name: Guidance Disruptor I
     volume: 5.0
   Guidance Disruptor II:
@@ -251,6 +259,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 37546
+    marketGroup: 680
     name: Guidance Disruptor II
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
@@ -277,6 +286,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 37544
+    marketGroup: 680
     name: Highstroke Scoped Guidance Disruptor
     volume: 5.0
   Tracking Disruptor I:
@@ -300,6 +310,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: -15.300000190734863
     id: 2108
+    marketGroup: 680
     name: Tracking Disruptor I
     volume: 5.0
   Tracking Disruptor II:
@@ -324,6 +335,7 @@ items:
     TechLevel: 2
     TrackingSpeedBonus: -17.190000534057617
     id: 2109
+    marketGroup: 680
     name: Tracking Disruptor II
     volume: 5.0
   True Sansha Tracking Disruptor:

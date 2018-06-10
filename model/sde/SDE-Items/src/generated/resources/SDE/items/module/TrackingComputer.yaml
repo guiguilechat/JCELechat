@@ -44,6 +44,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 15.0
     id: 22929
+    marketGroup: 706
     name: '''Marketeer'' Tracking Computer'
     volume: 5.0
   '''Orion'' Tracking CPU I':
@@ -90,6 +91,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 18.399999618530273
     id: 15284
+    marketGroup: 706
     name: Brynn's Modified Tracking Computer
     volume: 5.0
   Cormack's Modified Tracking Computer:
@@ -114,6 +116,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 21.0
     id: 15290
+    marketGroup: 706
     name: Cormack's Modified Tracking Computer
     volume: 5.0
   F-12 Enduring Tracking Computer:
@@ -137,6 +140,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.0
     id: 6176
+    marketGroup: 706
     name: F-12 Enduring Tracking Computer
     volume: 5.0
   Federation Navy Tracking Computer:
@@ -161,6 +165,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 15792
+    marketGroup: 706
     name: Federation Navy Tracking Computer
     volume: 5.0
   Monopulse Tracking Mechanism I:
@@ -206,6 +211,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 12.0
     id: 6173
+    marketGroup: 706
     name: Optical Compact Tracking Computer
     volume: 5.0
   Setele's Modified Tracking Computer:
@@ -230,6 +236,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 20.100000381469727
     id: 15288
+    marketGroup: 706
     name: Setele's Modified Tracking Computer
     volume: 5.0
   Shadow Serpentis Tracking Computer:
@@ -254,6 +261,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 17.5
     id: 14238
+    marketGroup: 706
     name: Shadow Serpentis Tracking Computer
     volume: 5.0
   Tracking Computer I:
@@ -276,6 +284,7 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 10.0
     id: 1977
+    marketGroup: 706
     name: Tracking Computer I
     volume: 5.0
   Tracking Computer II:
@@ -298,6 +307,7 @@ items:
     TechLevel: 2
     TrackingSpeedBonus: 15.0
     id: 1978
+    marketGroup: 706
     name: Tracking Computer II
     volume: 5.0
   Tuvan's Modified Tracking Computer:
@@ -322,5 +332,6 @@ items:
     TechLevel: 1
     TrackingSpeedBonus: 19.299999237060547
     id: 15286
+    marketGroup: 706
     name: Tuvan's Modified Tracking Computer
     volume: 5.0

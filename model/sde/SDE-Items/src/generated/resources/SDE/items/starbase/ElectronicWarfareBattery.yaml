@@ -46,6 +46,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27576
+    marketGroup: 481
     name: Dread Guristas Ion Field Projection Battery
     volume: 4000.0
   Dread Guristas Phase Inversion Battery:
@@ -95,6 +96,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27579
+    marketGroup: 481
     name: Dread Guristas Phase Inversion Battery
     volume: 4000.0
   Dread Guristas Spatial Destabilization Battery:
@@ -144,6 +146,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27582
+    marketGroup: 481
     name: Dread Guristas Spatial Destabilization Battery
     volume: 4000.0
   Dread Guristas White Noise Generation Battery:
@@ -193,6 +196,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27585
+    marketGroup: 481
     name: Dread Guristas White Noise Generation Battery
     volume: 4000.0
   Guristas Ion Field Projection Battery:
@@ -242,6 +246,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27574
+    marketGroup: 481
     name: Guristas Ion Field Projection Battery
     volume: 4000.0
   Guristas Phase Inversion Battery:
@@ -291,6 +296,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27577
+    marketGroup: 481
     name: Guristas Phase Inversion Battery
     volume: 4000.0
   Guristas Spatial Destabilization Battery:
@@ -340,6 +346,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27580
+    marketGroup: 481
     name: Guristas Spatial Destabilization Battery
     volume: 4000.0
   Guristas White Noise Generation Battery:
@@ -389,6 +396,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 27583
+    marketGroup: 481
     name: Guristas White Noise Generation Battery
     volume: 4000.0
   Ion Field Projection Battery:
@@ -437,6 +445,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17174
+    marketGroup: 481
     name: Ion Field Projection Battery
     volume: 4000.0
   Phase Inversion Battery:
@@ -485,6 +494,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17175
+    marketGroup: 481
     name: Phase Inversion Battery
     volume: 4000.0
   Spatial Destabilization Battery:
@@ -533,6 +543,7 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17176
+    marketGroup: 481
     name: Spatial Destabilization Battery
     volume: 4000.0
   White Noise Generation Battery:
@@ -581,5 +592,6 @@ items:
     UnanchoringDelay: 5000
     Uniformity: 1.0
     id: 17177
+    marketGroup: 481
     name: White Noise Generation Battery
     volume: 4000.0

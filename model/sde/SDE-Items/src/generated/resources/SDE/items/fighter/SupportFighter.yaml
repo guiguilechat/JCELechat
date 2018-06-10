@@ -11,6 +11,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
     id: 45651
+    marketGroup: 2239
     name: Able_PLACEHOLDER
     volume: 1.0
   Cenobite I:
@@ -50,6 +51,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 37599
+    marketGroup: 2239
     name: Cenobite I
     volume: 3000.0
   Cenobite II:
@@ -90,6 +92,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40568
+    marketGroup: 2239
     name: Cenobite II
     volume: 3000.0
   Dromi I:
@@ -129,6 +132,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40347
+    marketGroup: 2239
     name: Dromi I
     volume: 3000.0
   Dromi II:
@@ -169,6 +173,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40571
+    marketGroup: 2239
     name: Dromi II
     volume: 3000.0
   Scarab I:
@@ -211,6 +216,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40345
+    marketGroup: 2239
     name: Scarab I
     volume: 3000.0
   Scarab II:
@@ -254,6 +260,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40569
+    marketGroup: 2239
     name: Scarab II
     volume: 3000.0
   Siren I:
@@ -292,6 +299,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40346
+    marketGroup: 2239
     name: Siren I
     volume: 3000.0
   Siren II:
@@ -331,6 +339,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40570
+    marketGroup: 2239
     name: Siren II
     volume: 3000.0
   Standup Cenobite I:
@@ -367,6 +376,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47131
+    marketGroup: 2413
     name: Standup Cenobite I
     volume: 6000.0
   Standup Cenobite II:
@@ -404,6 +414,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47134
+    marketGroup: 2413
     name: Standup Cenobite II
     volume: 6000.0
   Standup Dromi I:
@@ -440,6 +451,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47133
+    marketGroup: 2413
     name: Standup Dromi I
     volume: 6000.0
   Standup Dromi II:
@@ -477,6 +489,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47137
+    marketGroup: 2413
     name: Standup Dromi II
     volume: 6000.0
   Standup Scarab I:
@@ -516,6 +529,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47132
+    marketGroup: 2413
     name: Standup Scarab I
     volume: 6000.0
   Standup Scarab II:
@@ -556,6 +570,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47135
+    marketGroup: 2413
     name: Standup Scarab II
     volume: 6000.0
   Standup Siren I:
@@ -591,6 +606,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47037
+    marketGroup: 2413
     name: Standup Siren I
     volume: 6000.0
   Standup Siren II:
@@ -627,5 +643,6 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47136
+    marketGroup: 2413
     name: Standup Siren II
     volume: 6000.0

@@ -160,6 +160,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 33468
+    marketGroup: 1365
     name: Astero
     volume: 16500.0
   Atron:
@@ -237,6 +238,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 608
+    marketGroup: 77
     name: Atron
     volume: 22500.0
   Bantam:
@@ -319,6 +321,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 582
+    marketGroup: 61
     name: Bantam
     volume: 20000.0
   Breacher:
@@ -398,6 +401,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 598
+    marketGroup: 64
     name: Breacher
     volume: 20000.0
   Burst:
@@ -480,6 +484,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 599
+    marketGroup: 64
     name: Burst
     volume: 17100.0
   Caldari Navy Hookbill:
@@ -561,6 +566,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 17619
+    marketGroup: 1366
     name: Caldari Navy Hookbill
     volume: 16500.0
   Cockroach:
@@ -1049,6 +1055,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 583
+    marketGroup: 61
     name: Condor
     volume: 18000.0
   Crucifier:
@@ -1127,6 +1134,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 2161
+    marketGroup: 72
     name: Crucifier
     volume: 28100.0
   Crucifier Navy Issue:
@@ -1208,6 +1216,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 37453
+    marketGroup: 1366
     name: Crucifier Navy Issue
     volume: 28100.0
   Cruor:
@@ -1294,6 +1303,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 17926
+    marketGroup: 1365
     name: Cruor
     volume: 28600.0
   Damavik:
@@ -1376,6 +1386,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 47269
+    marketGroup: 2426
     name: Damavik
     volume: 28600.0
   Daredevil:
@@ -1459,6 +1470,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 17928
+    marketGroup: 1365
     name: Daredevil
     volume: 26500.0
   Devourer:
@@ -1621,6 +1633,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 7.5
     id: 17932
+    marketGroup: 1365
     name: Dramiel
     volume: 27289.0
   Echelon:
@@ -1689,6 +1702,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 3532
+    marketGroup: 1619
     name: Echelon
     volume: 28100.0
   Executioner:
@@ -1765,6 +1779,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 589
+    marketGroup: 72
     name: Executioner
     volume: 28100.0
   Federation Navy Comet:
@@ -1847,6 +1862,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 17841
+    marketGroup: 1366
     name: Federation Navy Comet
     volume: 16500.0
   Fury:
@@ -2082,6 +2098,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 33816
+    marketGroup: 1365
     name: Garmur
     volume: 27289.0
   Gold Magnate:
@@ -2162,6 +2179,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 11940
+    marketGroup: 1619
     name: Gold Magnate
     volume: 22100.0
   Griffin:
@@ -2242,6 +2260,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 584
+    marketGroup: 61
     name: Griffin
     volume: 19400.0
   Griffin Navy Issue:
@@ -2326,6 +2345,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 37455
+    marketGroup: 1366
     name: Griffin Navy Issue
     volume: 19400.0
   Heron:
@@ -2410,6 +2430,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 605
+    marketGroup: 61
     name: Heron
     volume: 18900.0
   Imicus:
@@ -2493,6 +2514,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 607
+    marketGroup: 77
     name: Imicus
     volume: 21500.0
   Immovable Enigma:
@@ -2647,6 +2669,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 17703
+    marketGroup: 1366
     name: Imperial Navy Slicer
     volume: 16500.0
   Incursus:
@@ -2726,6 +2749,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 594
+    marketGroup: 77
     name: Incursus
     volume: 29500.0
   Incursus Aliastra Edition:
@@ -3051,6 +3075,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 590
+    marketGroup: 72
     name: Inquisitor
     volume: 28700.0
   Kestrel:
@@ -3128,6 +3153,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 602
+    marketGroup: 61
     name: Kestrel
     volume: 19700.0
   Khanid Navy Frigate:
@@ -3360,6 +3386,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 29248
+    marketGroup: 72
     name: Magnate
     volume: 22100.0
   Maulus:
@@ -3440,6 +3467,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 609
+    marketGroup: 77
     name: Maulus
     volume: 23000.0
   Maulus Navy Issue:
@@ -3523,6 +3551,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 37456
+    marketGroup: 1366
     name: Maulus Navy Issue
     volume: 23000.0
   Medusa:
@@ -3676,6 +3705,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 603
+    marketGroup: 61
     name: Merlin
     volume: 16500.0
   Merlin Nugoeihuvi Edition:
@@ -4067,6 +4097,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 592
+    marketGroup: 77
     name: Navitas
     volume: 10000.0
   Police Pursuit Comet:
@@ -4149,6 +4180,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 33677
+    marketGroup: 1366
     name: Police Pursuit Comet
     volume: 16500.0
   Probe:
@@ -4233,6 +4265,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 586
+    marketGroup: 64
     name: Probe
     volume: 19500.0
   Punisher:
@@ -4310,6 +4343,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 597
+    marketGroup: 72
     name: Punisher
     volume: 28600.0
   Punisher Kador Edition:
@@ -4545,6 +4579,7 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 17812
+    marketGroup: 1366
     name: Republic Fleet Firetail
     volume: 16500.0
   Rifter:
@@ -4623,6 +4658,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 587
+    marketGroup: 64
     name: Rifter
     volume: 27289.0
   Rifter Krusual Edition:
@@ -5096,6 +5132,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 11942
+    marketGroup: 1619
     name: Silver Magnate
     volume: 22100.0
   Slasher:
@@ -5174,6 +5211,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 585
+    marketGroup: 64
     name: Slasher
     volume: 17400.0
   Succubus:
@@ -5257,6 +5295,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 5.0
     id: 17924
+    marketGroup: 1365
     name: Succubus
     volume: 28600.0
   Sukuuvestaa Heron:
@@ -5580,6 +5619,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 591
+    marketGroup: 72
     name: Tormentor
     volume: 24398.0
   Tristan:
@@ -5660,6 +5700,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 593
+    marketGroup: 77
     name: Tristan
     volume: 26500.0
   Tristan Quafe Edition:
@@ -5826,6 +5867,7 @@ items:
     WarpScrambleStatus: -2
     WarpSpeedMultiplier: 5.0
     id: 32880
+    marketGroup: 1616
     name: Venture
     volume: 29500.0
   Vherokior Probe:
@@ -5991,6 +6033,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 3766
+    marketGroup: 64
     name: Vigil
     volume: 17400.0
   Vigil Fleet Issue:
@@ -6076,6 +6119,7 @@ items:
     WarpCapacitorNeed: 2.2399999579647556E-6
     WarpSpeedMultiplier: 5.0
     id: 37454
+    marketGroup: 1366
     name: Vigil Fleet Issue
     volume: 17400.0
   Worm:
@@ -6161,5 +6205,6 @@ items:
     WarpCapacitorNeed: 2.680000079635647E-6
     WarpSpeedMultiplier: 5.0
     id: 17930
+    marketGroup: 1365
     name: Worm
     volume: 16500.0

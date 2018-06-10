@@ -25,6 +25,7 @@ items:
     ThermalDamage: 37.0
     ThermalDamageResonance: 0.800000011920929
     id: 27315
+    marketGroup: 999
     name: Caldari Navy Inferno Rocket
     volume: 0.005
   Caldari Navy Mjolnir Rocket:
@@ -53,6 +54,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27321
+    marketGroup: 999
     name: Caldari Navy Mjolnir Rocket
     volume: 0.005
   Caldari Navy Nova Rocket:
@@ -81,6 +83,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27327
+    marketGroup: 999
     name: Caldari Navy Nova Rocket
     volume: 0.005
   Caldari Navy Scourge Rocket:
@@ -109,6 +112,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27333
+    marketGroup: 999
     name: Caldari Navy Scourge Rocket
     volume: 0.005
   Dread Guristas Inferno Rocket:
@@ -137,6 +141,7 @@ items:
     ThermalDamage: 39.599998474121094
     ThermalDamageResonance: 0.800000011920929
     id: 27317
+    marketGroup: 999
     name: Dread Guristas Inferno Rocket
     volume: 0.005
   Dread Guristas Mjolnir Rocket:
@@ -165,6 +170,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27323
+    marketGroup: 999
     name: Dread Guristas Mjolnir Rocket
     volume: 0.005
   Dread Guristas Nova Rocket:
@@ -193,6 +199,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27329
+    marketGroup: 999
     name: Dread Guristas Nova Rocket
     volume: 0.005
   Dread Guristas Scourge Rocket:
@@ -221,6 +228,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27335
+    marketGroup: 999
     name: Dread Guristas Scourge Rocket
     volume: 0.005
   Guristas Inferno Rocket:
@@ -249,6 +257,7 @@ items:
     ThermalDamage: 35.599998474121094
     ThermalDamageResonance: 0.800000011920929
     id: 27313
+    marketGroup: 999
     name: Guristas Inferno Rocket
     volume: 0.005
   Guristas Mjolnir Rocket:
@@ -277,6 +286,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27319
+    marketGroup: 999
     name: Guristas Mjolnir Rocket
     volume: 0.005
   Guristas Nova Rocket:
@@ -305,6 +315,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27325
+    marketGroup: 999
     name: Guristas Nova Rocket
     volume: 0.005
   Guristas Scourge Rocket:
@@ -333,6 +344,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27331
+    marketGroup: 999
     name: Guristas Scourge Rocket
     volume: 0.005
   Inferno Rocket:
@@ -359,6 +371,7 @@ items:
     ThermalDamage: 33.0
     ThermalDamageResonance: 0.800000011920929
     id: 2514
+    marketGroup: 922
     name: Inferno Rocket
     volume: 0.005
   Mjolnir Rocket:
@@ -385,6 +398,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 2512
+    marketGroup: 922
     name: Mjolnir Rocket
     volume: 0.005
   Nova Rocket:
@@ -411,6 +425,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 2516
+    marketGroup: 922
     name: Nova Rocket
     volume: 0.005
   Sansha Mjolnir Rocket:
@@ -463,6 +478,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 266
+    marketGroup: 922
     name: Scourge Rocket
     volume: 0.005
   True Sansha Mjolnir Rocket:

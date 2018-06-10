@@ -49,6 +49,7 @@ items:
     TechLevel: 1
     WeaponDisruptionResistanceBonus: -99.9999008178711
     id: 33400
+    marketGroup: 801
     name: Bastion Module I
     volume: 200.0
   Industrial Core I:
@@ -100,6 +101,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 28583
+    marketGroup: 801
     name: Industrial Core I
     volume: 4000.0
   Industrial Core II:
@@ -153,6 +155,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 2
     id: 42890
+    marketGroup: 801
     name: Industrial Core II
     volume: 4000.0
   Siege Module I:
@@ -200,6 +203,7 @@ items:
     TechLevel: 1
     WeaponDisruptionResistanceBonus: -60.0
     id: 20280
+    marketGroup: 801
     name: Siege Module I
     volume: 4000.0
   Siege Module II:
@@ -248,6 +252,7 @@ items:
     TechLevel: 2
     WeaponDisruptionResistanceBonus: -70.0
     id: 4292
+    marketGroup: 801
     name: Siege Module II
     volume: 4000.0
   Triage Module I:
@@ -297,6 +302,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 27951
+    marketGroup: 801
     name: Triage Module I
     volume: 4000.0
   Triage Module II:
@@ -346,5 +352,6 @@ items:
     SpeedFactor: -100.0
     TechLevel: 2
     id: 4294
+    marketGroup: 801
     name: Triage Module II
     volume: 4000.0

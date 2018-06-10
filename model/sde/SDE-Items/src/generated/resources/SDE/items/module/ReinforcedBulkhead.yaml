@@ -12,6 +12,7 @@ items:
     StructureHPMultiplier: 1.100000023841858
     TechLevel: 1
     id: 1240
+    marketGroup: 1195
     name: '''Basic'' Reinforced Bulkheads'
     volume: 5.0
   Alpha Hull Mod Reinforced Bulkheads:
@@ -64,6 +65,7 @@ items:
     StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1
     id: 5649
+    marketGroup: 1195
     name: Mark I Compact Reinforced Bulkheads
     volume: 5.0
   Marked Modified SS Reinforced Bulkheads:
@@ -91,6 +93,7 @@ items:
     StructureHPMultiplier: 1.2699999809265137
     TechLevel: 1
     id: 34485
+    marketGroup: 1195
     name: ORE Reinforced Bulkheads
     volume: 5.0
   Ore compression thingie:
@@ -126,6 +129,7 @@ items:
     StructureHPMultiplier: 1.149999976158142
     TechLevel: 1
     id: 1333
+    marketGroup: 1195
     name: Reinforced Bulkheads I
     volume: 25.0
   Reinforced Bulkheads II:
@@ -139,6 +143,7 @@ items:
     StructureHPMultiplier: 1.25
     TechLevel: 2
     id: 1335
+    marketGroup: 1195
     name: Reinforced Bulkheads II
     volume: 5.0
   Syndicate Reinforced Bulkheads:
@@ -154,6 +159,7 @@ items:
     StructureHPMultiplier: 1.2699999809265137
     TechLevel: 1
     id: 34487
+    marketGroup: 1195
     name: Syndicate Reinforced Bulkheads
     volume: 5.0
   Synthetic Hull Conversion Reinforced Bulkheads:
@@ -169,6 +175,7 @@ items:
     StructureHPMultiplier: 1.2000000476837158
     TechLevel: 1
     id: 21496
+    marketGroup: 1195
     name: Synthetic Hull Conversion Reinforced Bulkheads
     volume: 5.0
   Type-D Restrained Reinforced Bulkheads:
@@ -183,6 +190,7 @@ items:
     StructureHPMultiplier: 1.1799999475479126
     TechLevel: 1
     id: 5647
+    marketGroup: 1195
     name: Type-D Restrained Reinforced Bulkheads
     volume: 5.0
   Type-E Altered SS Reinforced Bulkheads:

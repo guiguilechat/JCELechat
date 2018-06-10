@@ -21,6 +21,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20121
     id: 20603
+    marketGroup: 644
     name: '''Barrage'' Torpedo Launcher'
     volume: 20.0
   Caldari Navy Torpedo Launcher:
@@ -45,6 +46,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16067
+    marketGroup: 644
     name: Caldari Navy Torpedo Launcher
     volume: 20.0
   Domination Torpedo Launcher:
@@ -69,6 +71,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13923
+    marketGroup: 644
     name: Domination Torpedo Launcher
     volume: 20.0
   Dread Guristas Torpedo Launcher:
@@ -93,6 +96,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13924
+    marketGroup: 644
     name: Dread Guristas Torpedo Launcher
     volume: 20.0
   Estamel's Modified Torpedo Launcher:
@@ -117,6 +121,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14683
+    marketGroup: 644
     name: Estamel's Modified Torpedo Launcher
     volume: 20.0
   Experimental ZW-4100 Torpedo Launcher:
@@ -140,6 +145,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20116
     id: 8001
+    marketGroup: 644
     name: Experimental ZW-4100 Torpedo Launcher
     volume: 20.0
   Gotan's Modified Torpedo Launcher:
@@ -164,6 +170,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14526
+    marketGroup: 644
     name: Gotan's Modified Torpedo Launcher
     volume: 20.0
   Hakim's Modified Torpedo Launcher:
@@ -188,6 +195,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14525
+    marketGroup: 644
     name: Hakim's Modified Torpedo Launcher
     volume: 20.0
   Kaikka's Modified Torpedo Launcher:
@@ -212,6 +220,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14680
+    marketGroup: 644
     name: Kaikka's Modified Torpedo Launcher
     volume: 20.0
   Khanid Navy Torpedo Launcher:
@@ -258,6 +267,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8115
+    marketGroup: 644
     name: Limited 'Limos' Torpedo Launcher
     volume: 20.0
   Mizuro's Modified Torpedo Launcher:
@@ -282,6 +292,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14524
+    marketGroup: 644
     name: Mizuro's Modified Torpedo Launcher
     volume: 20.0
   Polarized Torpedo Launcher:
@@ -309,6 +320,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11461
     id: 34294
+    marketGroup: 644
     name: Polarized Torpedo Launcher
     volume: 20.0
   Prototype 'Arbalest' Torpedo Launcher:
@@ -332,6 +344,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20113
     id: 8117
+    marketGroup: 644
     name: Prototype 'Arbalest' Torpedo Launcher
     volume: 20.0
   Republic Fleet Torpedo Launcher:
@@ -356,6 +369,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17490
+    marketGroup: 644
     name: Republic Fleet Torpedo Launcher
     volume: 20.0
   Thon's Modified Torpedo Launcher:
@@ -380,6 +394,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14681
+    marketGroup: 644
     name: Thon's Modified Torpedo Launcher
     volume: 20.0
   Tobias's Modified Torpedo Launcher:
@@ -404,6 +419,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14527
+    marketGroup: 644
     name: Tobias's Modified Torpedo Launcher
     volume: 20.0
   Torpedo Launcher I:
@@ -426,6 +442,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 503
+    marketGroup: 644
     name: Torpedo Launcher I
     volume: 20.0
   Torpedo Launcher II:
@@ -450,6 +467,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 2420
+    marketGroup: 644
     name: Torpedo Launcher II
     volume: 20.0
   True Sansha Torpedo Launcher:
@@ -474,6 +492,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22569
+    marketGroup: 644
     name: True Sansha Torpedo Launcher
     volume: 20.0
   Upgraded 'Malkuth' Torpedo Launcher:
@@ -497,6 +516,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8113
+    marketGroup: 644
     name: Upgraded 'Malkuth' Torpedo Launcher
     volume: 20.0
   Vepas's Modified Torpedo Launcher:
@@ -521,5 +541,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 11323
     id: 14682
+    marketGroup: 644
     name: Vepas's Modified Torpedo Launcher
     volume: 20.0

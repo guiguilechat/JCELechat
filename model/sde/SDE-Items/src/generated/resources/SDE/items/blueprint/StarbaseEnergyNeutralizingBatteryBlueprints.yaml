@@ -12,6 +12,7 @@ items:
   Energy Neutralizing Battery Blueprint:
     IndustryBlueprintRank: 40.0
     id: 2799
+    marketGroup: 1345
     name: Energy Neutralizing Battery Blueprint
     volume: 0.01
   Sansha Energy Neutralizing Battery Blueprint:

@@ -39,6 +39,7 @@ items:
     IndustryBlueprintRank: 180.0
     TechLevel: 1
     id: 23736
+    marketGroup: 799
     name: Clone Vat Bay I Blueprint
     volume: 0.01
   Command Processor I Blueprint:
@@ -51,6 +52,7 @@ items:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 28647
+    marketGroup: 799
     name: Covert Cynosural Field Generator I Blueprint
     volume: 0.01
   Covert Cynosural Field I Blueprint:
@@ -63,6 +65,7 @@ items:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 21604
+    marketGroup: 799
     name: Cynosural Field Generator I Blueprint
     volume: 0.01
   Cynosural Field I Blueprint:

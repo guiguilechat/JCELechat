@@ -2,5 +2,6 @@ items:
   Salvage Drone I Blueprint:
     IndustryBlueprintRank: 1.0
     id: 32982
+    marketGroup: 1643
     name: Salvage Drone I Blueprint
     volume: 0.01

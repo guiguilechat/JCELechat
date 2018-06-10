@@ -1,6 +1,7 @@
 items:
   Capital Flex Armor Hardener I Blueprint:
     id: 41657
+    marketGroup: 1540
     name: Capital Flex Armor Hardener I Blueprint
     volume: 0.01
   Capital Flex Armor Hardener II Blueprint:

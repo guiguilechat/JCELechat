@@ -11,5 +11,6 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45009
+    marketGroup: 2233
     name: Standup Moon Drill I
     volume: 8000.0

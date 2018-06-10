@@ -16,6 +16,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 46641
+    marketGroup: 2343
     name: Standup XL-Set Reprocessing Monitor I
     volume: 40.0
   Standup XL-Set Reprocessing Monitor II:
@@ -35,5 +36,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 46642
+    marketGroup: 2343
     name: Standup XL-Set Reprocessing Monitor II
     volume: 40.0

@@ -6,6 +6,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 22760
+    marketGroup: 618
     name: Imperial Special Ops Field Enhancer - Standard
     volume: 1.0
   Republic Special Ops Field Enhancer - Gamma:
@@ -16,5 +17,6 @@ items:
     VelocityBonus2: 5
     WillpowerBonus: 4
     id: 22715
+    marketGroup: 620
     name: Republic Special Ops Field Enhancer - Gamma
     volume: 1.0

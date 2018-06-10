@@ -9,6 +9,7 @@ items:
     SpeedMultiplier: 0.9599999785423279
     TechLevel: 1
     id: 47909
+    marketGroup: 2471
     name: Compact Entropic Radiation Sink
     volume: 5.0
   Entropic Radiation Sink I:
@@ -21,6 +22,7 @@ items:
     SpeedMultiplier: 0.9599999785423279
     TechLevel: 1
     id: 47908
+    marketGroup: 2471
     name: Entropic Radiation Sink I
     volume: 5.0
   Entropic Radiation Sink II:
@@ -34,5 +36,6 @@ items:
     SpeedMultiplier: 0.9399999976158142
     TechLevel: 2
     id: 47911
+    marketGroup: 2471
     name: Entropic Radiation Sink II
     volume: 5.0

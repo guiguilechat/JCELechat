@@ -16,6 +16,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23809
+    marketGroup: 700
     name: '''Harness'' Medium Capacitor Booster I'
     volume: 10.0
   '''Plough'' Heavy Capacitor Booster I':
@@ -35,6 +36,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23811
+    marketGroup: 701
     name: '''Plough'' Heavy Capacitor Booster I'
     volume: 20.0
   '''Saddle'' Small Capacitor Booster I':
@@ -54,6 +56,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23807
+    marketGroup: 699
     name: '''Saddle'' Small Capacitor Booster I'
     volume: 5.0
   Ahremen's Modified Heavy Capacitor Booster:
@@ -73,6 +76,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15138
+    marketGroup: 701
     name: Ahremen's Modified Heavy Capacitor Booster
     volume: 20.0
   Ammatar Navy Heavy Capacitor Booster:
@@ -92,6 +96,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15778
+    marketGroup: 701
     name: Ammatar Navy Heavy Capacitor Booster
     volume: 20.0
   Ammatar Navy Medium Capacitor Booster:
@@ -111,6 +116,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15776
+    marketGroup: 700
     name: Ammatar Navy Medium Capacitor Booster
     volume: 10.0
   Ammatar Navy Micro Capacitor Booster:
@@ -130,6 +136,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15774
+    marketGroup: 698
     name: Ammatar Navy Micro Capacitor Booster
     volume: 2.5
   Ammatar Navy Small Capacitor Booster:
@@ -149,6 +156,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15772
+    marketGroup: 699
     name: Ammatar Navy Small Capacitor Booster
     volume: 5.0
   Brokara's Modified Heavy Capacitor Booster:
@@ -168,6 +176,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15128
+    marketGroup: 701
     name: Brokara's Modified Heavy Capacitor Booster
     volume: 20.0
   Capital Capacitor Booster I:
@@ -186,6 +195,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41491
+    marketGroup: 2243
     name: Capital Capacitor Booster I
     volume: 4000.0
   Capital Capacitor Booster II:
@@ -205,6 +215,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 41493
+    marketGroup: 2243
     name: Capital Capacitor Booster II
     volume: 4000.0
   Capital F-RX Compact Capacitor Booster:
@@ -224,6 +235,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41492
+    marketGroup: 2243
     name: Capital F-RX Compact Capacitor Booster
     volume: 4000.0
   Chelm's Modified Heavy Capacitor Booster:
@@ -243,6 +255,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15140
+    marketGroup: 701
     name: Chelm's Modified Heavy Capacitor Booster
     volume: 20.0
   Dark Blood Capital Capacitor Booster:
@@ -263,6 +276,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41494
+    marketGroup: 2243
     name: Dark Blood Capital Capacitor Booster
     volume: 4000.0
   Dark Blood Heavy Capacitor Booster:
@@ -282,6 +296,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14172
+    marketGroup: 701
     name: Dark Blood Heavy Capacitor Booster
     volume: 20.0
   Dark Blood Medium Capacitor Booster:
@@ -301,6 +316,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14176
+    marketGroup: 700
     name: Dark Blood Medium Capacitor Booster
     volume: 10.0
   Dark Blood Micro Capacitor Booster:
@@ -320,6 +336,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14180
+    marketGroup: 698
     name: Dark Blood Micro Capacitor Booster
     volume: 2.5
   Dark Blood Small Capacitor Booster:
@@ -339,6 +356,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14184
+    marketGroup: 699
     name: Dark Blood Small Capacitor Booster
     volume: 5.0
   Draclira's Modified Heavy Capacitor Booster:
@@ -358,6 +376,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15142
+    marketGroup: 701
     name: Draclira's Modified Heavy Capacitor Booster
     volume: 20.0
   Heavy 'Brave' Capacitor Booster:
@@ -377,6 +396,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20559
+    marketGroup: 701
     name: Heavy 'Brave' Capacitor Booster
     volume: 20.0
   Heavy Brief Capacitor Overcharge I:
@@ -395,6 +415,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5049
+    marketGroup: 701
     name: Heavy Brief Capacitor Overcharge I
     volume: 20.0
   Heavy Capacitor Booster I:
@@ -412,6 +433,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3576
+    marketGroup: 701
     name: Heavy Capacitor Booster I
     volume: 20.0
   Heavy Capacitor Booster II:
@@ -430,6 +452,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3578
+    marketGroup: 701
     name: Heavy Capacitor Booster II
     volume: 20.0
   Heavy Electrochemical Capacitor Booster I:
@@ -448,6 +471,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5051
+    marketGroup: 701
     name: Heavy Electrochemical Capacitor Booster I
     volume: 20.0
   Heavy F-RX Prototype Capacitor Boost:
@@ -466,6 +490,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5047
+    marketGroup: 701
     name: Heavy F-RX Prototype Capacitor Boost
     volume: 20.0
   Heavy Tapered Capacitor Infusion I:
@@ -484,6 +509,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5053
+    marketGroup: 701
     name: Heavy Tapered Capacitor Infusion I
     volume: 20.0
   Imperial Navy Heavy Capacitor Booster:
@@ -503,6 +529,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15786
+    marketGroup: 701
     name: Imperial Navy Heavy Capacitor Booster
     volume: 20.0
   Imperial Navy Medium Capacitor Booster:
@@ -522,6 +549,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15784
+    marketGroup: 700
     name: Imperial Navy Medium Capacitor Booster
     volume: 10.0
   Imperial Navy Micro Capacitor Booster:
@@ -541,6 +569,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15782
+    marketGroup: 698
     name: Imperial Navy Micro Capacitor Booster
     volume: 2.5
   Imperial Navy Small Capacitor Booster:
@@ -560,6 +589,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15780
+    marketGroup: 699
     name: Imperial Navy Small Capacitor Booster
     volume: 5.0
   Medium 'Gattotte' Capacitor Booster:
@@ -579,6 +609,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20557
+    marketGroup: 700
     name: Medium 'Gattotte' Capacitor Booster
     volume: 10.0
   Medium Brief Capacitor Overcharge I:
@@ -597,6 +628,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4831
+    marketGroup: 700
     name: Medium Brief Capacitor Overcharge I
     volume: 10.0
   Medium Capacitor Booster I:
@@ -614,6 +646,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 577
+    marketGroup: 700
     name: Medium Capacitor Booster I
     volume: 10.0
   Medium Capacitor Booster II:
@@ -632,6 +665,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 2024
+    marketGroup: 700
     name: Medium Capacitor Booster II
     volume: 10.0
   Medium Electrochemical Capacitor Booster I:
@@ -650,6 +684,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4833
+    marketGroup: 700
     name: Medium Electrochemical Capacitor Booster I
     volume: 10.0
   Medium F-RX Prototype Capacitor Boost:
@@ -668,6 +703,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4829
+    marketGroup: 700
     name: Medium F-RX Prototype Capacitor Boost
     volume: 10.0
   Medium Tapered Capacitor Infusion I:
@@ -686,6 +722,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4835
+    marketGroup: 700
     name: Medium Tapered Capacitor Infusion I
     volume: 10.0
   Micro Brief Capacitor Overcharge I:
@@ -704,6 +741,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4957
+    marketGroup: 698
     name: Micro Brief Capacitor Overcharge I
     volume: 2.5
   Micro Capacitor Booster I:
@@ -721,6 +759,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3556
+    marketGroup: 698
     name: Micro Capacitor Booster I
     volume: 2.5
   Micro Capacitor Booster II:
@@ -739,6 +778,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3558
+    marketGroup: 698
     name: Micro Capacitor Booster II
     volume: 2.5
   Micro Electrochemical Capacitor Booster I:
@@ -757,6 +797,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4959
+    marketGroup: 698
     name: Micro Electrochemical Capacitor Booster I
     volume: 2.5
   Micro F-RX Prototype Capacitor Boost:
@@ -775,6 +816,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4955
+    marketGroup: 698
     name: Micro F-RX Prototype Capacitor Boost
     volume: 2.5
   Micro Tapered Capacitor Infusion I:
@@ -793,6 +835,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 4961
+    marketGroup: 698
     name: Micro Tapered Capacitor Infusion I
     volume: 2.5
   Raysere's Modified Heavy Capacitor Booster:
@@ -812,6 +855,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15134
+    marketGroup: 701
     name: Raysere's Modified Heavy Capacitor Booster
     volume: 20.0
   Selynne's Modified Heavy Capacitor Booster:
@@ -831,6 +875,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15132
+    marketGroup: 701
     name: Selynne's Modified Heavy Capacitor Booster
     volume: 20.0
   Small 'Siesta' Capacitor Booster:
@@ -850,6 +895,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 20555
+    marketGroup: 699
     name: Small 'Siesta' Capacitor Booster
     volume: 5.0
   Small Brief Capacitor Overcharge I:
@@ -868,6 +914,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5009
+    marketGroup: 699
     name: Small Brief Capacitor Overcharge I
     volume: 5.0
   Small Capacitor Booster I:
@@ -885,6 +932,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3566
+    marketGroup: 699
     name: Small Capacitor Booster I
     volume: 5.0
   Small Capacitor Booster II:
@@ -903,6 +951,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3568
+    marketGroup: 699
     name: Small Capacitor Booster II
     volume: 5.0
   Small Electrochemical Capacitor Booster I:
@@ -921,6 +970,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5011
+    marketGroup: 699
     name: Small Electrochemical Capacitor Booster I
     volume: 5.0
   Small F-RX Prototype Capacitor Boost:
@@ -939,6 +989,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5007
+    marketGroup: 699
     name: Small F-RX Prototype Capacitor Boost
     volume: 5.0
   Small Perishable Capacitor Overcharge II:
@@ -975,6 +1026,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 5013
+    marketGroup: 699
     name: Small Tapered Capacitor Infusion I
     volume: 5.0
   Tairei's Modified Heavy Capacitor Booster:
@@ -994,6 +1046,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15130
+    marketGroup: 701
     name: Tairei's Modified Heavy Capacitor Booster
     volume: 20.0
   True Sansha Capital Capacitor Booster:
@@ -1014,6 +1067,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 41495
+    marketGroup: 2243
     name: True Sansha Capital Capacitor Booster
     volume: 4000.0
   True Sansha Heavy Capacitor Booster:
@@ -1033,6 +1087,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14174
+    marketGroup: 701
     name: True Sansha Heavy Capacitor Booster
     volume: 20.0
   True Sansha Medium Capacitor Booster:
@@ -1052,6 +1107,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14178
+    marketGroup: 700
     name: True Sansha Medium Capacitor Booster
     volume: 10.0
   True Sansha Micro Capacitor Booster:
@@ -1071,6 +1127,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14182
+    marketGroup: 698
     name: True Sansha Micro Capacitor Booster
     volume: 2.5
   True Sansha Small Capacitor Booster:
@@ -1090,6 +1147,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14186
+    marketGroup: 699
     name: True Sansha Small Capacitor Booster
     volume: 5.0
   Vizan's Modified Heavy Capacitor Booster:
@@ -1109,5 +1167,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15136
+    marketGroup: 701
     name: Vizan's Modified Heavy Capacitor Booster
     volume: 20.0

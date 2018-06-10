@@ -19,6 +19,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37178
+    marketGroup: 2349
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency I
     volume: 40.0
   Standup XL-Set Equipment and Consumable Manufacturing Efficiency II:
@@ -41,5 +42,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37179
+    marketGroup: 2349
     name: Standup XL-Set Equipment and Consumable Manufacturing Efficiency II
     volume: 40.0

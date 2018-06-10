@@ -51,6 +51,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1809
+    marketGroup: 1554
     name: EM Ward Amplifier I Blueprint
     volume: 0.01
   EM Ward Amplifier II Blueprint:
@@ -63,6 +64,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2530
+    marketGroup: 1554
     name: Explosive Deflection Amplifier I Blueprint
     volume: 0.01
   Explosive Deflection Amplifier II Blueprint:
@@ -75,6 +77,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2546
+    marketGroup: 1554
     name: Kinetic Deflection Amplifier I Blueprint
     volume: 0.01
   Kinetic Deflection Amplifier II Blueprint:
@@ -111,6 +114,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 2538
+    marketGroup: 1554
     name: Thermal Dissipation Amplifier I Blueprint
     volume: 0.01
   Thermal Dissipation Amplifier II Blueprint:

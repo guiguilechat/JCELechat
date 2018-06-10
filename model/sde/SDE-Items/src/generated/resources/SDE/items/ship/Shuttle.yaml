@@ -107,6 +107,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 11134
+    marketGroup: 393
     name: Amarr Shuttle
     volume: 5000.0
   Apotheosis:
@@ -167,6 +168,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 29266
+    marketGroup: 1618
     name: Apotheosis
     volume: 17400.0
   Caldari Media Shuttle:
@@ -277,6 +279,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 672
+    marketGroup: 396
     name: Caldari Shuttle
     volume: 5000.0
   Civilian Amarr Shuttle:
@@ -552,6 +555,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 34496
+    marketGroup: 1618
     name: Council Diplomatic Shuttle
     volume: 5000.0
   Gallente Media Shuttle:
@@ -662,6 +666,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 11129
+    marketGroup: 395
     name: Gallente Shuttle
     volume: 5000.0
   Goru's Shuttle:
@@ -718,6 +723,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 21097
+    marketGroup: 1631
     name: Goru's Shuttle
     volume: 5000.0
   Guristas Shuttle:
@@ -774,6 +780,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 21628
+    marketGroup: 1631
     name: Guristas Shuttle
     volume: 5000.0
   InterBus Shuttle:
@@ -830,6 +837,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 30842
+    marketGroup: 1618
     name: InterBus Shuttle
     volume: 5000.0
   Leopard:
@@ -886,6 +894,7 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 20.0
     id: 33513
+    marketGroup: 1618
     name: Leopard
     volume: 5000.0
   Minmatar Media Shuttle:
@@ -996,5 +1005,6 @@ items:
     WarpCapacitorNeed: 1.3477100537784281E-6
     WarpSpeedMultiplier: 5.0
     id: 11132
+    marketGroup: 394
     name: Minmatar Shuttle
     volume: 5000.0

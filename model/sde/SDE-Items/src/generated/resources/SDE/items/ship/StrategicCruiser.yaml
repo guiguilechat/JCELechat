@@ -79,6 +79,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29986
+    marketGroup: 1139
     name: Legion
     volume: 118000.0
   Loki:
@@ -161,6 +162,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29990
+    marketGroup: 1142
     name: Loki
     volume: 80000.0
   Proteus:
@@ -243,6 +245,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29988
+    marketGroup: 1141
     name: Proteus
     volume: 115000.0
   Tengu:
@@ -325,5 +328,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 29984
+    marketGroup: 1140
     name: Tengu
     volume: 92000.0

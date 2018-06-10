@@ -1,29 +1,36 @@
 items:
   Heavy Water:
     id: 16272
+    marketGroup: 1033
     name: Heavy Water
     volume: 0.4
   Helium Isotopes:
     id: 16274
+    marketGroup: 1033
     name: Helium Isotopes
     volume: 0.03
   Hydrogen Isotopes:
     id: 17889
+    marketGroup: 1033
     name: Hydrogen Isotopes
     volume: 0.03
   Liquid Ozone:
     id: 16273
+    marketGroup: 1033
     name: Liquid Ozone
     volume: 0.4
   Nitrogen Isotopes:
     id: 17888
+    marketGroup: 1033
     name: Nitrogen Isotopes
     volume: 0.03
   Oxygen Isotopes:
     id: 17887
+    marketGroup: 1033
     name: Oxygen Isotopes
     volume: 0.03
   Strontium Clathrates:
     id: 16275
+    marketGroup: 1033
     name: Strontium Clathrates
     volume: 3.0

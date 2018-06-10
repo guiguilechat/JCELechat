@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 28427
+    marketGroup: 519
     name: Compressed Condensed Scordite
     volume: 0.19
   Compressed Glossy Scordite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 46703
+    marketGroup: 519
     name: Compressed Glossy Scordite
     volume: 0.19
   Compressed Massive Scordite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 28428
+    marketGroup: 519
     name: Compressed Massive Scordite
     volume: 0.19
   Compressed Scordite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 28429
+    marketGroup: 519
     name: Compressed Scordite
     volume: 0.19
   Condensed Scordite:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 17463
+    marketGroup: 519
     name: Condensed Scordite
     volume: 0.15
   Glossy Scordite:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 46687
+    marketGroup: 519
     name: Glossy Scordite
     volume: 0.15
   Massive Scordite:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 17464
+    marketGroup: 519
     name: Massive Scordite
     volume: 0.15
   Scordite:
@@ -93,5 +100,6 @@ items:
     ReprocessingSkillType: 12193
     RequiredSkill1: 3386
     id: 1228
+    marketGroup: 519
     name: Scordite
     volume: 0.15

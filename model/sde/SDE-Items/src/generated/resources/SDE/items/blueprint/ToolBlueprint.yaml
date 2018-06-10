@@ -181,6 +181,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11872
+    marketGroup: 1918
     name: R.A.M.- Ammunition Tech Blueprint
     volume: 0.01
   R.A.M.- Armor/Hull Tech Blueprint:
@@ -188,6 +189,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11873
+    marketGroup: 1918
     name: R.A.M.- Armor/Hull Tech Blueprint
     volume: 0.01
   R.A.M.- Battlecruiser Tech Blueprint:
@@ -223,6 +225,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11870
+    marketGroup: 1918
     name: R.A.M.- Electronics Blueprint
     volume: 0.01
   R.A.M.- Energy Tech Blueprint:
@@ -230,6 +233,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11859
+    marketGroup: 1918
     name: R.A.M.- Energy Tech Blueprint
     volume: 0.01
   R.A.M.- Hypernet Tech Blueprint:
@@ -265,6 +269,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11887
+    marketGroup: 1918
     name: R.A.M.- Robotics Blueprint
     volume: 0.01
   R.A.M.- Shield Tech Blueprint:
@@ -272,6 +277,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11889
+    marketGroup: 1918
     name: R.A.M.- Shield Tech Blueprint
     volume: 0.01
   R.A.M.- Starship Tech Blueprint:
@@ -279,6 +285,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11890
+    marketGroup: 1918
     name: R.A.M.- Starship Tech Blueprint
     volume: 0.01
   R.A.M.- Weapon Tech Blueprint:
@@ -286,6 +293,7 @@ items:
     IndustryBlueprintRank: 20.0
     TechLevel: 1
     id: 11891
+    marketGroup: 1918
     name: R.A.M.- Weapon Tech Blueprint
     volume: 0.01
   R.Db - Boundless Creations Blueprint:
@@ -293,6 +301,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11876
+    marketGroup: 1919
     name: R.Db - Boundless Creations Blueprint
     volume: 0.01
   R.Db - Carthum Conglomerate Blueprint:
@@ -300,6 +309,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11880
+    marketGroup: 1919
     name: R.Db - Carthum Conglomerate Blueprint
     volume: 0.01
   R.Db - Core Complexion Blueprint:
@@ -307,6 +317,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11877
+    marketGroup: 1919
     name: R.Db - Core Complexion Blueprint
     volume: 0.01
   R.Db - CreoDron Blueprint:
@@ -314,6 +325,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11878
+    marketGroup: 1919
     name: R.Db - CreoDron Blueprint
     volume: 0.01
   R.Db - Duvolle Labs Blueprint:
@@ -321,6 +333,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11879
+    marketGroup: 1919
     name: R.Db - Duvolle Labs Blueprint
     volume: 0.01
   R.Db - Ishukone Blueprint:
@@ -328,6 +341,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11885
+    marketGroup: 1919
     name: R.Db - Ishukone Blueprint
     volume: 0.01
   R.Db - Kaalakiota Blueprint:
@@ -335,6 +349,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11881
+    marketGroup: 1919
     name: R.Db - Kaalakiota Blueprint
     volume: 0.01
   R.Db - Khanid Innovation Blueprint:
@@ -342,6 +357,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11882
+    marketGroup: 1919
     name: R.Db - Khanid Innovation Blueprint
     volume: 0.01
   R.Db - Lai Dai Blueprint:
@@ -349,6 +365,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11886
+    marketGroup: 1919
     name: R.Db - Lai Dai Blueprint
     volume: 0.01
   R.Db - Roden Shipyards Blueprint:
@@ -356,6 +373,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11857
+    marketGroup: 1919
     name: R.Db - Roden Shipyards Blueprint
     volume: 0.01
   R.Db - Thukker Mix Blueprint:
@@ -363,6 +381,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11883
+    marketGroup: 1919
     name: R.Db - Thukker Mix Blueprint
     volume: 0.01
   R.Db - Viziam Blueprint:
@@ -370,6 +389,7 @@ items:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
     id: 11884
+    marketGroup: 1919
     name: R.Db - Viziam Blueprint
     volume: 0.01
   R.Db.- Hybrid Technology Blueprint:

@@ -51,6 +51,7 @@ items:
     ThermalDamage: 517.0
     ThermalDamageResonance: 0.800000011920929
     id: 27351
+    marketGroup: 1000
     name: Caldari Navy Inferno Torpedo
     volume: 0.05
   Caldari Navy Mjolnir Torpedo:
@@ -78,6 +79,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27339
+    marketGroup: 1000
     name: Caldari Navy Mjolnir Torpedo
     volume: 0.05
   Caldari Navy Nova Torpedo:
@@ -105,6 +107,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27359
+    marketGroup: 1000
     name: Caldari Navy Nova Torpedo
     volume: 0.05
   Caldari Navy Scourge Torpedo:
@@ -132,6 +135,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27345
+    marketGroup: 1000
     name: Caldari Navy Scourge Torpedo
     volume: 0.05
   Dread Guristas Inferno Torpedo:
@@ -159,6 +163,7 @@ items:
     ThermalDamage: 540.0
     ThermalDamageResonance: 0.800000011920929
     id: 27355
+    marketGroup: 1000
     name: Dread Guristas Inferno Torpedo
     volume: 0.05
   Dread Guristas Mjolnir Torpedo:
@@ -186,6 +191,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27341
+    marketGroup: 1000
     name: Dread Guristas Mjolnir Torpedo
     volume: 0.05
   Dread Guristas Nova Torpedo:
@@ -213,6 +219,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27363
+    marketGroup: 1000
     name: Dread Guristas Nova Torpedo
     volume: 0.05
   Dread Guristas Scourge Torpedo:
@@ -240,6 +247,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27347
+    marketGroup: 1000
     name: Dread Guristas Scourge Torpedo
     volume: 0.05
   Guristas Inferno Torpedo:
@@ -267,6 +275,7 @@ items:
     ThermalDamage: 495.0
     ThermalDamageResonance: 0.800000011920929
     id: 27349
+    marketGroup: 1000
     name: Guristas Inferno Torpedo
     volume: 0.05
   Guristas Mjolnir Torpedo:
@@ -294,6 +303,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27337
+    marketGroup: 1000
     name: Guristas Mjolnir Torpedo
     volume: 0.05
   Guristas Nova Torpedo:
@@ -321,6 +331,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27357
+    marketGroup: 1000
     name: Guristas Nova Torpedo
     volume: 0.05
   Guristas Scourge Torpedo:
@@ -348,6 +359,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 27343
+    marketGroup: 1000
     name: Guristas Scourge Torpedo
     volume: 0.05
   Inferno Torpedo:
@@ -373,6 +385,7 @@ items:
     ThermalDamage: 450.0
     ThermalDamageResonance: 0.800000011920929
     id: 2510
+    marketGroup: 923
     name: Inferno Torpedo
     volume: 0.05
   Mjolnir Torpedo:
@@ -398,6 +411,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 2506
+    marketGroup: 923
     name: Mjolnir Torpedo
     volume: 0.05
   Nova Torpedo:
@@ -423,6 +437,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 2508
+    marketGroup: 923
     name: Nova Torpedo
     volume: 0.05
   Sansha Mjolnir Torpedo:
@@ -473,6 +488,7 @@ items:
     TechLevel: 1
     ThermalDamageResonance: 1.0
     id: 267
+    marketGroup: 923
     name: Scourge Torpedo
     volume: 0.05
   True Sansha Mjolnir Torpedo:

@@ -78,6 +78,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 22448
+    marketGroup: 825
     name: Absolution
     volume: 234000.0
   Astarte:
@@ -160,6 +161,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 22466
+    marketGroup: 831
     name: Astarte
     volume: 270000.0
   Claymore:
@@ -243,6 +245,7 @@ items:
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
     id: 22468
+    marketGroup: 834
     name: Claymore
     volume: 216000.0
   Damnation:
@@ -326,6 +329,7 @@ items:
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
     id: 22474
+    marketGroup: 825
     name: Damnation
     volume: 234000.0
   Eos:
@@ -408,6 +412,7 @@ items:
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
     id: 22442
+    marketGroup: 831
     name: Eos
     volume: 270000.0
   Nighthawk:
@@ -490,6 +495,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 22470
+    marketGroup: 828
     name: Nighthawk
     volume: 252000.0
   Sleipnir:
@@ -572,6 +578,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 22444
+    marketGroup: 834
     name: Sleipnir
     volume: 216000.0
   Vulture:
@@ -655,5 +662,6 @@ items:
     WarpSpeedMultiplier: 3.0
     WingCommandBonus: 5
     id: 22446
+    marketGroup: 828
     name: Vulture
     volume: 252000.0

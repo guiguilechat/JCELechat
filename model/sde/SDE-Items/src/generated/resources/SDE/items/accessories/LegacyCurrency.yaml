@@ -2,11 +2,13 @@ items:
   100 Aurum Token:
     AurumConversionRate: 100
     id: 32792
+    marketGroup: 1427
     name: 100 Aurum Token
     volume: 0.01
   1000 Aurum Token:
     AurumConversionRate: 1000
     id: 2833
+    marketGroup: 1427
     name: 1000 Aurum Token
     volume: 0.01
   30 Day Pilot's License Extension (PLEX):
@@ -18,10 +20,12 @@ items:
   300 Aurum Token:
     AurumConversionRate: 300
     id: 44204
+    marketGroup: 1427
     name: 300 Aurum Token
     volume: 0.01
   500 Aurum Token:
     AurumConversionRate: 500
     id: 32793
+    marketGroup: 1427
     name: 500 Aurum Token
     volume: 0.01

@@ -18,6 +18,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16264
+    marketGroup: 1855
     name: Blue Ice
     volume: 1000.0
   Clear Icicle:
@@ -30,6 +31,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16262
+    marketGroup: 1855
     name: Clear Icicle
     volume: 1000.0
   Compressed Blue Ice:
@@ -40,6 +42,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28433
+    marketGroup: 1855
     name: Compressed Blue Ice
     volume: 100.0
   Compressed Clear Icicle:
@@ -50,6 +53,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28434
+    marketGroup: 1855
     name: Compressed Clear Icicle
     volume: 100.0
   Compressed Dark Glitter:
@@ -60,6 +64,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28435
+    marketGroup: 1855
     name: Compressed Dark Glitter
     volume: 100.0
   Compressed Enriched Clear Icicle:
@@ -70,6 +75,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28436
+    marketGroup: 1855
     name: Compressed Enriched Clear Icicle
     volume: 100.0
   Compressed Gelidus:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28437
+    marketGroup: 1855
     name: Compressed Gelidus
     volume: 100.0
   Compressed Glacial Mass:
@@ -90,6 +97,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28438
+    marketGroup: 1855
     name: Compressed Glacial Mass
     volume: 100.0
   Compressed Glare Crust:
@@ -100,6 +108,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28439
+    marketGroup: 1855
     name: Compressed Glare Crust
     volume: 100.0
   Compressed Krystallos:
@@ -110,6 +119,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28440
+    marketGroup: 1855
     name: Compressed Krystallos
     volume: 100.0
   Compressed Pristine White Glaze:
@@ -120,6 +130,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28441
+    marketGroup: 1855
     name: Compressed Pristine White Glaze
     volume: 100.0
   Compressed Smooth Glacial Mass:
@@ -130,6 +141,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28442
+    marketGroup: 1855
     name: Compressed Smooth Glacial Mass
     volume: 100.0
   Compressed Thick Blue Ice:
@@ -140,6 +152,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28443
+    marketGroup: 1855
     name: Compressed Thick Blue Ice
     volume: 100.0
   Compressed White Glaze:
@@ -150,6 +163,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 28444
+    marketGroup: 1855
     name: Compressed White Glaze
     volume: 100.0
   Crystalline Icicle:
@@ -171,6 +185,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16267
+    marketGroup: 1855
     name: Dark Glitter
     volume: 1000.0
   Enriched Clear Icicle:
@@ -183,6 +198,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 17978
+    marketGroup: 1855
     name: Enriched Clear Icicle
     volume: 1000.0
   Gelidus:
@@ -195,6 +211,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16268
+    marketGroup: 1855
     name: Gelidus
     volume: 1000.0
   Glacial Mass:
@@ -207,6 +224,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16263
+    marketGroup: 1855
     name: Glacial Mass
     volume: 1000.0
   Glare Crust:
@@ -219,6 +237,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16266
+    marketGroup: 1855
     name: Glare Crust
     volume: 1000.0
   Krystallos:
@@ -231,6 +250,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16269
+    marketGroup: 1855
     name: Krystallos
     volume: 1000.0
   Pristine White Glaze:
@@ -243,6 +263,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 17976
+    marketGroup: 1855
     name: Pristine White Glaze
     volume: 1000.0
   Smooth Glacial Mass:
@@ -255,6 +276,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 17977
+    marketGroup: 1855
     name: Smooth Glacial Mass
     volume: 1000.0
   Thick Blue Ice:
@@ -267,6 +289,7 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 17975
+    marketGroup: 1855
     name: Thick Blue Ice
     volume: 1000.0
   White Glaze:
@@ -279,5 +302,6 @@ items:
     ReprocessingSkillType: 18025
     RequiredSkill1: 16281
     id: 16265
+    marketGroup: 1855
     name: White Glaze
     volume: 1000.0

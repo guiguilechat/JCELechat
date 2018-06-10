@@ -19,6 +19,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37183
+    marketGroup: 2349
     name: Standup XL-Set Laboratory Optimization I
     volume: 40.0
   Standup XL-Set Laboratory Optimization II:
@@ -41,5 +42,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37182
+    marketGroup: 2349
     name: Standup XL-Set Laboratory Optimization II
     volume: 40.0

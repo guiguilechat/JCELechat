@@ -3,23 +3,27 @@ items:
     DevIndexSovereignty: 3
     SovBillSystemCost: 10000000
     id: 32422
+    marketGroup: 1282
     name: Advanced Logistics Network
     volume: 200000.0
   Cynosural Navigation:
     DevIndexSovereignty: 2
     SovBillSystemCost: 2000000
     id: 2008
+    marketGroup: 1282
     name: Cynosural Navigation
     volume: 200000.0
   Cynosural Suppression:
     DevIndexSovereignty: 3
     SovBillSystemCost: 20000000
     id: 2001
+    marketGroup: 1282
     name: Cynosural Suppression
     volume: 200000.0
   Supercapital Construction Facilities:
     DevIndexSovereignty: 1
     SovBillSystemCost: 1000000
     id: 2009
+    marketGroup: 1282
     name: Supercapital Construction Facilities
     volume: 200000.0

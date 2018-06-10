@@ -10,6 +10,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 46679
+    marketGroup: 525
     name: Brilliant Gneiss
     volume: 5.0
   Compressed Brilliant Gneiss:
@@ -21,6 +22,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 46695
+    marketGroup: 525
     name: Compressed Brilliant Gneiss
     volume: 1.8
   Compressed Gneiss:
@@ -32,6 +34,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 28397
+    marketGroup: 525
     name: Compressed Gneiss
     volume: 1.8
   Compressed Iridescent Gneiss:
@@ -43,6 +46,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 28398
+    marketGroup: 525
     name: Compressed Iridescent Gneiss
     volume: 1.8
   Compressed Prismatic Gneiss:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 28399
+    marketGroup: 525
     name: Compressed Prismatic Gneiss
     volume: 1.8
   Flawed Gneiss:
@@ -77,6 +82,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 1229
+    marketGroup: 525
     name: Gneiss
     volume: 5.0
   Green Arisite:
@@ -100,6 +106,7 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 17865
+    marketGroup: 525
     name: Iridescent Gneiss
     volume: 5.0
   Prismatic Gneiss:
@@ -113,5 +120,6 @@ items:
     ReprocessingSkillType: 12184
     RequiredSkill1: 3386
     id: 17866
+    marketGroup: 525
     name: Prismatic Gneiss
     volume: 5.0

@@ -19,6 +19,7 @@ items:
     SignatureRadiusBonus: 30.0
     TechLevel: 1
     id: 21540
+    marketGroup: 757
     name: '''Inception'' Target Painter'
     volume: 5.0
   Domination Target Painter:
@@ -41,6 +42,7 @@ items:
     SignatureRadiusBonus: 33.0
     TechLevel: 1
     id: 32414
+    marketGroup: 757
     name: Domination Target Painter
     volume: 5.0
   Parallel Enduring Target Painter:
@@ -62,6 +64,7 @@ items:
     SignatureRadiusBonus: 27.5
     TechLevel: 1
     id: 19812
+    marketGroup: 757
     name: Parallel Enduring Target Painter
     volume: 5.0
   Partial Weapon Navigation:
@@ -103,6 +106,7 @@ items:
     SignatureRadiusBonus: 27.5
     TechLevel: 1
     id: 19810
+    marketGroup: 757
     name: Peripheral Compact Target Painter
     volume: 5.0
   Phased Scoped Target Painter:
@@ -124,6 +128,7 @@ items:
     SignatureRadiusBonus: 27.5
     TechLevel: 1
     id: 19814
+    marketGroup: 757
     name: Phased Scoped Target Painter
     volume: 5.0
   Republic Fleet Target Painter:
@@ -146,6 +151,7 @@ items:
     SignatureRadiusBonus: 33.0
     TechLevel: 1
     id: 31944
+    marketGroup: 757
     name: Republic Fleet Target Painter
     volume: 5.0
   Target Painter I:
@@ -165,6 +171,7 @@ items:
     SignatureRadiusBonus: 25.0
     TechLevel: 1
     id: 12709
+    marketGroup: 757
     name: Target Painter I
     volume: 5.0
   Target Painter II:
@@ -185,5 +192,6 @@ items:
     SignatureRadiusBonus: 30.0
     TechLevel: 2
     id: 19806
+    marketGroup: 757
     name: Target Painter II
     volume: 5.0

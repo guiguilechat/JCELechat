@@ -9,6 +9,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11820
+    marketGroup: 1583
     name: Gravimetric Backup Array I Blueprint
     volume: 0.01
   Gravimetric Backup Array II Blueprint:
@@ -27,6 +28,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11824
+    marketGroup: 1583
     name: Ladar Backup Array I Blueprint
     volume: 0.01
   Ladar Backup Array II Blueprint:
@@ -45,6 +47,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11828
+    marketGroup: 1583
     name: Magnetometric Backup Array I Blueprint
     volume: 0.01
   Magnetometric Backup Array II Blueprint:
@@ -63,6 +66,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11832
+    marketGroup: 1583
     name: Multi Sensor Backup Array I Blueprint
     volume: 0.01
   Multi Sensor Backup Array II Blueprint:
@@ -75,6 +79,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11836
+    marketGroup: 1583
     name: RADAR Backup Array I Blueprint
     volume: 0.01
   RADAR Backup Array II Blueprint:
@@ -141,6 +146,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 11634
+    marketGroup: 1585
     name: Signal Amplifier I Blueprint
     volume: 0.01
   Signal Amplifier II Blueprint:

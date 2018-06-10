@@ -10,6 +10,7 @@ items:
     StructureHPMultiplier: 0.949999988079071
     TechLevel: 1
     id: 1315
+    marketGroup: 1197
     name: '''Basic'' Expanded Cargohold'
     volume: 5.0
   Alpha Hull Mod Expanded Cargo:
@@ -43,6 +44,7 @@ items:
     StructureHPMultiplier: 0.699999988079071
     TechLevel: 1
     id: 21855
+    marketGroup: 1197
     name: Civilian Expanded Cargohold
     volume: 5.0
   Expanded Cargohold I:
@@ -54,6 +56,7 @@ items:
     StructureHPMultiplier: 0.800000011920929
     TechLevel: 1
     id: 1317
+    marketGroup: 1197
     name: Expanded Cargohold I
     volume: 5.0
   Expanded Cargohold II:
@@ -66,6 +69,7 @@ items:
     StructureHPMultiplier: 0.7699999809265137
     TechLevel: 2
     id: 1319
+    marketGroup: 1197
     name: Expanded Cargohold II
     volume: 5.0
   Limited Expanded 'Archiver' Cargo:
@@ -79,6 +83,7 @@ items:
     StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1
     id: 21493
+    marketGroup: 1197
     name: Limited Expanded 'Archiver' Cargo
     volume: 5.0
   Local Hull Conversion Expanded Cargo I:
@@ -127,6 +132,7 @@ items:
     StructureHPMultiplier: 0.800000011920929
     TechLevel: 1
     id: 34489
+    marketGroup: 1197
     name: ORE Expanded Cargohold
     volume: 5.0
   Partial Hull Conversion Expanded Cargo:
@@ -150,6 +156,7 @@ items:
     StructureHPMultiplier: 0.8500000238418579
     TechLevel: 1
     id: 5493
+    marketGroup: 1197
     name: Type-D Restrained Expanded Cargo
     volume: 5.0
   Type-E Altered SS Expanded Cargo:

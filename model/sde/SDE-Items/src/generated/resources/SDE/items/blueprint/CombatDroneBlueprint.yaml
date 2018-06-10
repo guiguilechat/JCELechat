@@ -147,6 +147,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 2204
+    marketGroup: 1531
     name: Acolyte I Blueprint
     volume: 0.01
   Acolyte II Blueprint:
@@ -159,6 +160,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2477
+    marketGroup: 359
     name: Berserker I Blueprint
     volume: 0.01
   Berserker II Blueprint:
@@ -171,6 +173,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23564
+    marketGroup: 1533
     name: Bouncer I Blueprint
     volume: 0.01
   Bouncer II Blueprint:
@@ -207,6 +210,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23526
+    marketGroup: 1533
     name: Curator I Blueprint
     volume: 0.01
   Curator II Blueprint:
@@ -255,6 +259,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23562
+    marketGroup: 1533
     name: Garde I Blueprint
     volume: 0.01
   Garde II Blueprint:
@@ -273,6 +278,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 2184
+    marketGroup: 1532
     name: Hammerhead I Blueprint
     volume: 0.01
   Hammerhead II Blueprint:
@@ -285,6 +291,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 2455
+    marketGroup: 1531
     name: Hobgoblin I Blueprint
     volume: 0.01
   Hobgoblin II Blueprint:
@@ -297,6 +304,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 2465
+    marketGroup: 1531
     name: Hornet I Blueprint
     volume: 0.01
   Hornet II Blueprint:
@@ -333,6 +341,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 2174
+    marketGroup: 1532
     name: Infiltrator I Blueprint
     volume: 0.01
   Infiltrator II Blueprint:
@@ -345,6 +354,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2445
+    marketGroup: 359
     name: Ogre I Blueprint
     volume: 0.01
   Ogre II Blueprint:
@@ -357,6 +367,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 2194
+    marketGroup: 359
     name: Praetor I Blueprint
     volume: 0.01
   Praetor II Blueprint:
@@ -393,6 +404,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 15511
+    marketGroup: 1532
     name: Valkyrie I Blueprint
     volume: 0.01
   Valkyrie II Blueprint:
@@ -405,6 +417,7 @@ items:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
     id: 15509
+    marketGroup: 1532
     name: Vespa I Blueprint
     volume: 0.01
   Vespa II Blueprint:
@@ -417,6 +430,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 23560
+    marketGroup: 1533
     name: Warden I Blueprint
     volume: 0.01
   Warden II Blueprint:
@@ -429,6 +443,7 @@ items:
     IndustryBlueprintRank: 1.0
     TechLevel: 1
     id: 2487
+    marketGroup: 1531
     name: Warrior I Blueprint
     volume: 0.01
   Warrior II Blueprint:
@@ -441,6 +456,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1214
+    marketGroup: 359
     name: Wasp I Blueprint
     volume: 0.01
   Wasp II Blueprint:

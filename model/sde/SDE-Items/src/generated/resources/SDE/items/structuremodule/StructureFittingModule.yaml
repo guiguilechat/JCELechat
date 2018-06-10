@@ -10,6 +10,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35963
+    marketGroup: 2218
     name: Standup Co-Processor Array I
     volume: 4000.0
   Standup Co-Processor Array II:
@@ -24,6 +25,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47344
+    marketGroup: 2218
     name: Standup Co-Processor Array II
     volume: 4000.0
   Standup Reactor Control Unit I:
@@ -37,6 +39,7 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 1
     id: 35965
+    marketGroup: 2222
     name: Standup Reactor Control Unit I
     volume: 4000.0
   Standup Reactor Control Unit II:
@@ -51,5 +54,6 @@ items:
     StructureItemVisualFlag: 1
     TechLevel: 2
     id: 47347
+    marketGroup: 2222
     name: Standup Reactor Control Unit II
     volume: 4000.0

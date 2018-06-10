@@ -2,6 +2,7 @@ items:
   Capital Hull Repairer I Blueprint:
     TechLevel: 1
     id: 41627
+    marketGroup: 1537
     name: Capital Hull Repairer I Blueprint
     volume: 0.01
   Capital Hull Repairer II Blueprint:
@@ -12,11 +13,13 @@ items:
   Capital I-b Enduring Hull Repairer Blueprint:
     TechLevel: 1
     id: 41628
+    marketGroup: 1537
     name: Capital I-b Enduring Hull Repairer Blueprint
     volume: 0.01
   Capital IEF Compact Hull Repairer Blueprint:
     TechLevel: 1
     id: 41629
+    marketGroup: 1537
     name: Capital IEF Compact Hull Repairer Blueprint
     volume: 0.01
   Large 'Integrative' Hull Repair Unit Blueprint:
@@ -29,6 +32,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3664
+    marketGroup: 1537
     name: Large Hull Repairer I Blueprint
     volume: 0.01
   Large Hull Repairer II Blueprint:
@@ -47,6 +51,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3654
+    marketGroup: 1537
     name: Medium Hull Repairer I Blueprint
     volume: 0.01
   Medium Hull Repairer II Blueprint:
@@ -65,6 +70,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1100
+    marketGroup: 1537
     name: Small Hull Repairer I Blueprint
     volume: 0.01
   Small Hull Repairer II Blueprint:

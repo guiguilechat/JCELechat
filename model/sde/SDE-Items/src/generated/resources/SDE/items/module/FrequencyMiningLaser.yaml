@@ -21,6 +21,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 18068
+    marketGroup: 1039
     name: Modulated Deep Core Miner II
     volume: 5.0
   Modulated Deep Core Strip Miner II:
@@ -48,6 +49,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 24305
+    marketGroup: 1040
     name: Modulated Deep Core Strip Miner II
     volume: 5.0
   Modulated Strip Miner II:
@@ -72,5 +74,6 @@ items:
     TechLevel: 2
     TypeColorScheme: 11347
     id: 17912
+    marketGroup: 1040
     name: Modulated Strip Miner II
     volume: 5.0

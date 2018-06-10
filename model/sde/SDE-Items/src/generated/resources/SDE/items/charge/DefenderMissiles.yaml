@@ -17,5 +17,6 @@ items:
     TechLevel: 1
     ThermalDamage: 200.0
     id: 32782
+    marketGroup: 116
     name: Defender Missile I
     volume: 0.015

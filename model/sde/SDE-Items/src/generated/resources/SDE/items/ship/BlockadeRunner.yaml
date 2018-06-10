@@ -79,6 +79,7 @@ items:
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
     id: 12729
+    marketGroup: 631
     name: Crane
     volume: 195000.0
   Prorator:
@@ -162,6 +163,7 @@ items:
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
     id: 12733
+    marketGroup: 630
     name: Prorator
     volume: 200000.0
   Prowler:
@@ -246,6 +248,7 @@ items:
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
     id: 12735
+    marketGroup: 633
     name: Prowler
     volume: 180000.0
   Viator:
@@ -329,5 +332,6 @@ items:
     WarpCapacitorNeed: 1.089999983605594E-7
     WarpSpeedMultiplier: 6.0
     id: 12743
+    marketGroup: 632
     name: Viator
     volume: 190000.0

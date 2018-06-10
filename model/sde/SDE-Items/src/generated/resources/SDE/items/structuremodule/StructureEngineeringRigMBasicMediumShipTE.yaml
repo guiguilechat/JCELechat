@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43919
+    marketGroup: 2347
     name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency I
     volume: 10.0
   Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II:
@@ -39,5 +40,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37153
+    marketGroup: 2347
     name: Standup M-Set Basic Medium Ship Manufacturing Time Efficiency II
     volume: 10.0

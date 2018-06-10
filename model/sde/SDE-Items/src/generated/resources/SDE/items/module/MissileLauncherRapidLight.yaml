@@ -21,6 +21,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20114
     id: 20597
+    marketGroup: 641
     name: '''Pickaxe'' Rapid Light Missile Launcher'
     volume: 10.0
   Caldari Navy Rapid Light Missile Launcher:
@@ -45,6 +46,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11321
     id: 16061
+    marketGroup: 641
     name: Caldari Navy Rapid Light Missile Launcher
     volume: 10.0
   Domination Rapid Light Missile Launcher:
@@ -69,6 +71,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11318
     id: 13919
+    marketGroup: 641
     name: Domination Rapid Light Missile Launcher
     volume: 10.0
   Dread Guristas Rapid Light Missile Launcher:
@@ -93,6 +96,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11335
     id: 13920
+    marketGroup: 641
     name: Dread Guristas Rapid Light Missile Launcher
     volume: 10.0
   Experimental SV-2000 Rapid Light Missile Launcher:
@@ -116,6 +120,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20116
     id: 8007
+    marketGroup: 641
     name: Experimental SV-2000 Rapid Light Missile Launcher
     volume: 10.0
   Limited 'Limos' Rapid Light Missile Launcher:
@@ -139,6 +144,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20115
     id: 8025
+    marketGroup: 641
     name: Limited 'Limos' Rapid Light Missile Launcher
     volume: 10.0
   Prototype 'Arbalest' Rapid Light Missile Launcher:
@@ -162,6 +168,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 20113
     id: 8027
+    marketGroup: 641
     name: Prototype 'Arbalest' Rapid Light Missile Launcher
     volume: 10.0
   Rapid Light Missile Launcher I:
@@ -184,6 +191,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11324
     id: 1875
+    marketGroup: 641
     name: Rapid Light Missile Launcher I
     volume: 10.0
   Rapid Light Missile Launcher II:
@@ -208,6 +216,7 @@ items:
     TechLevel: 2
     TypeColorScheme: 11325
     id: 1877
+    marketGroup: 641
     name: Rapid Light Missile Launcher II
     volume: 10.0
   Republic Fleet Rapid Light Missile Launcher:
@@ -232,6 +241,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11339
     id: 17484
+    marketGroup: 641
     name: Republic Fleet Rapid Light Missile Launcher
     volume: 10.0
   True Sansha Rapid Light Missile Launcher:
@@ -256,6 +266,7 @@ items:
     TechLevel: 1
     TypeColorScheme: 11349
     id: 22566
+    marketGroup: 641
     name: True Sansha Rapid Light Missile Launcher
     volume: 10.0
   Upgraded 'Malkuth' Rapid Light Missile Launcher:
@@ -279,5 +290,6 @@ items:
     TechLevel: 1
     TypeColorScheme: 20123
     id: 8023
+    marketGroup: 641
     name: Upgraded 'Malkuth' Rapid Light Missile Launcher
     volume: 10.0

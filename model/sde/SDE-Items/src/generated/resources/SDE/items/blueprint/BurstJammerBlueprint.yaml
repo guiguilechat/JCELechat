@@ -9,6 +9,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 1210
+    marketGroup: 1568
     name: Burst Jammer I Blueprint
     volume: 0.01
   Burst Jammer II Blueprint:

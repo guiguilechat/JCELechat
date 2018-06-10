@@ -1,6 +1,7 @@
 items:
   Plutonium:
     id: 3727
+    marketGroup: 22
     name: Plutonium
     volume: 1.0
   Radioactive Waste:
@@ -9,5 +10,6 @@ items:
     volume: 1.0
   Toxic Waste:
     id: 3729
+    marketGroup: 22
     name: Toxic Waste
     volume: 1.0

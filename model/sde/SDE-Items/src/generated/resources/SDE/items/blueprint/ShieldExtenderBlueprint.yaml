@@ -25,16 +25,19 @@ items:
   Capital Azeotropic Restrained Shield Extender Blueprint:
     TechLevel: 1
     id: 41601
+    marketGroup: 1549
     name: Capital Azeotropic Restrained Shield Extender Blueprint
     volume: 0.01
   Capital F-S9 Regolith Compact Shield Extender Blueprint:
     TechLevel: 1
     id: 41600
+    marketGroup: 1549
     name: Capital F-S9 Regolith Compact Shield Extender Blueprint
     volume: 0.01
   Capital Shield Extender I Blueprint:
     TechLevel: 1
     id: 41599
+    marketGroup: 1549
     name: Capital Shield Extender I Blueprint
     volume: 0.01
   Capital Shield Extender II Blueprint:
@@ -62,6 +65,7 @@ items:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
     id: 3840
+    marketGroup: 1549
     name: Large Shield Extender I Blueprint
     volume: 0.01
   Large Shield Extender II Blueprint:
@@ -80,6 +84,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 3830
+    marketGroup: 1549
     name: Medium Shield Extender I Blueprint
     volume: 0.01
   Medium Shield Extender II Blueprint:
@@ -122,6 +127,7 @@ items:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
     id: 1010
+    marketGroup: 1549
     name: Small Shield Extender I Blueprint
     volume: 0.01
   Small Shield Extender II Blueprint:

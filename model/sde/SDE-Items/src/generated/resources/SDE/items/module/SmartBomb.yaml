@@ -16,6 +16,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23866
+    marketGroup: 383
     name: '''Lance'' Medium EMP Smartbomb I'
     volume: 10.0
   '''Pike'' Small EMP Smartbomb I':
@@ -35,6 +36,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23864
+    marketGroup: 382
     name: '''Pike'' Small EMP Smartbomb I'
     volume: 5.0
   '''Warhammer'' Large EMP Smartbomb I':
@@ -54,6 +56,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 23868
+    marketGroup: 381
     name: '''Warhammer'' Large EMP Smartbomb I'
     volume: 50.0
   Ahremen's Modified Large EMP Smartbomb:
@@ -71,6 +74,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14794
+    marketGroup: 381
     name: Ahremen's Modified Large EMP Smartbomb
     volume: 50.0
   Ammatar Navy Large EMP Smartbomb:
@@ -88,6 +92,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15947
+    marketGroup: 381
     name: Ammatar Navy Large EMP Smartbomb
     volume: 50.0
   Ammatar Navy Medium EMP Smartbomb:
@@ -105,6 +110,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15945
+    marketGroup: 383
     name: Ammatar Navy Medium EMP Smartbomb
     volume: 10.0
   Ammatar Navy Micro EMP Smartbomb:
@@ -122,6 +128,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15943
+    marketGroup: 380
     name: Ammatar Navy Micro EMP Smartbomb
     volume: 2.5
   Ammatar Navy Small EMP Smartbomb:
@@ -139,6 +146,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15941
+    marketGroup: 382
     name: Ammatar Navy Small EMP Smartbomb
     volume: 5.0
   Brokara's Modified Large EMP Smartbomb:
@@ -156,6 +164,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14784
+    marketGroup: 381
     name: Brokara's Modified Large EMP Smartbomb
     volume: 50.0
   Brynn's Modified Large Plasma Smartbomb:
@@ -173,6 +182,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15152
+    marketGroup: 381
     name: Brynn's Modified Large Plasma Smartbomb
     volume: 50.0
   Caldari Navy Large Graviton Smartbomb:
@@ -190,6 +200,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15931
+    marketGroup: 381
     name: Caldari Navy Large Graviton Smartbomb
     volume: 50.0
   Caldari Navy Medium Graviton Smartbomb:
@@ -207,6 +218,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15929
+    marketGroup: 383
     name: Caldari Navy Medium Graviton Smartbomb
     volume: 10.0
   Caldari Navy Micro Graviton Smartbomb:
@@ -224,6 +236,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15927
+    marketGroup: 380
     name: Caldari Navy Micro Graviton Smartbomb
     volume: 2.5
   Caldari Navy Small Graviton Smartbomb:
@@ -241,6 +254,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15925
+    marketGroup: 382
     name: Caldari Navy Small Graviton Smartbomb
     volume: 5.0
   Chelm's Modified Large EMP Smartbomb:
@@ -258,6 +272,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14796
+    marketGroup: 381
     name: Chelm's Modified Large EMP Smartbomb
     volume: 50.0
   Cormack's Modified Large Plasma Smartbomb:
@@ -275,6 +290,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15158
+    marketGroup: 381
     name: Cormack's Modified Large Plasma Smartbomb
     volume: 50.0
   Dark Blood Large EMP Smartbomb:
@@ -292,6 +308,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14188
+    marketGroup: 381
     name: Dark Blood Large EMP Smartbomb
     volume: 50.0
   Dark Blood Medium EMP Smartbomb:
@@ -309,6 +326,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14192
+    marketGroup: 383
     name: Dark Blood Medium EMP Smartbomb
     volume: 10.0
   Dark Blood Micro EMP Smartbomb:
@@ -326,6 +344,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14196
+    marketGroup: 380
     name: Dark Blood Micro EMP Smartbomb
     volume: 2.5
   Dark Blood Small EMP Smartbomb:
@@ -343,6 +362,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14200
+    marketGroup: 382
     name: Dark Blood Small EMP Smartbomb
     volume: 5.0
   Domination Large Proton Smartbomb:
@@ -360,6 +380,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14208
+    marketGroup: 381
     name: Domination Large Proton Smartbomb
     volume: 50.0
   Domination Medium Proton Smartbomb:
@@ -377,6 +398,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14222
+    marketGroup: 383
     name: Domination Medium Proton Smartbomb
     volume: 10.0
   Domination Micro Proton Smartbomb:
@@ -394,6 +416,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14224
+    marketGroup: 380
     name: Domination Micro Proton Smartbomb
     volume: 2.5
   Domination Small Proton Smartbomb:
@@ -411,6 +434,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14226
+    marketGroup: 382
     name: Domination Small Proton Smartbomb
     volume: 5.0
   Draclira's Modified Large EMP Smartbomb:
@@ -428,6 +452,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14798
+    marketGroup: 381
     name: Draclira's Modified Large EMP Smartbomb
     volume: 50.0
   Dread Guristas Large Graviton Smartbomb:
@@ -445,6 +470,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14204
+    marketGroup: 381
     name: Dread Guristas Large Graviton Smartbomb
     volume: 50.0
   Dread Guristas Medium Graviton Smartbomb:
@@ -462,6 +488,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14210
+    marketGroup: 383
     name: Dread Guristas Medium Graviton Smartbomb
     volume: 10.0
   Dread Guristas Micro Graviton Smartbomb:
@@ -479,6 +506,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14212
+    marketGroup: 380
     name: Dread Guristas Micro Graviton Smartbomb
     volume: 2.5
   Dread Guristas Small Graviton Smartbomb:
@@ -496,6 +524,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14214
+    marketGroup: 382
     name: Dread Guristas Small Graviton Smartbomb
     volume: 5.0
   Estamel's Modified Large Graviton Smartbomb:
@@ -513,6 +542,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14698
+    marketGroup: 381
     name: Estamel's Modified Large Graviton Smartbomb
     volume: 50.0
   Federation Navy Large Plasma Smartbomb:
@@ -530,6 +560,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15955
+    marketGroup: 381
     name: Federation Navy Large Plasma Smartbomb
     volume: 50.0
   Federation Navy Medium Plasma Smartbomb:
@@ -547,6 +578,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15953
+    marketGroup: 383
     name: Federation Navy Medium Plasma Smartbomb
     volume: 10.0
   Federation Navy Micro Plasma Smartbomb:
@@ -564,6 +596,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15951
+    marketGroup: 380
     name: Federation Navy Micro Plasma Smartbomb
     volume: 2.5
   Federation Navy Small Plasma Smartbomb:
@@ -581,6 +614,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15949
+    marketGroup: 382
     name: Federation Navy Small Plasma Smartbomb
     volume: 5.0
   Gotan's Modified Large Proton Smartbomb:
@@ -598,6 +632,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14548
+    marketGroup: 381
     name: Gotan's Modified Large Proton Smartbomb
     volume: 50.0
   Hakim's Modified Large Proton Smartbomb:
@@ -615,6 +650,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14546
+    marketGroup: 381
     name: Hakim's Modified Large Proton Smartbomb
     volume: 50.0
   Imperial Navy Large EMP Smartbomb:
@@ -632,6 +668,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15963
+    marketGroup: 381
     name: Imperial Navy Large EMP Smartbomb
     volume: 50.0
   Imperial Navy Medium EMP Smartbomb:
@@ -649,6 +686,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15961
+    marketGroup: 383
     name: Imperial Navy Medium EMP Smartbomb
     volume: 10.0
   Imperial Navy Micro EMP Smartbomb:
@@ -666,6 +704,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15959
+    marketGroup: 380
     name: Imperial Navy Micro EMP Smartbomb
     volume: 2.5
   Imperial Navy Small EMP Smartbomb:
@@ -683,6 +722,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15957
+    marketGroup: 382
     name: Imperial Navy Small EMP Smartbomb
     volume: 5.0
   Kaikka's Modified Large Graviton Smartbomb:
@@ -700,6 +740,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14692
+    marketGroup: 381
     name: Kaikka's Modified Large Graviton Smartbomb
     volume: 50.0
   Khanid Navy Large EMP Smartbomb:
@@ -717,6 +758,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 28545
+    marketGroup: 381
     name: Khanid Navy Large EMP Smartbomb
     volume: 50.0
   Khanid Navy Medium EMP Smartbomb:
@@ -734,6 +776,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 28550
+    marketGroup: 383
     name: Khanid Navy Medium EMP Smartbomb
     volume: 10.0
   Khanid Navy Small EMP Smartbomb:
@@ -751,6 +794,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 28557
+    marketGroup: 382
     name: Khanid Navy Small EMP Smartbomb
     volume: 5.0
   Large 'Notos' Explosive Charge I:
@@ -767,6 +811,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9772
+    marketGroup: 381
     name: Large 'Notos' Explosive Charge I
     volume: 50.0
   Large 'Vehemence' Shockwave Charge:
@@ -783,6 +828,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9678
+    marketGroup: 381
     name: Large 'Vehemence' Shockwave Charge
     volume: 50.0
   Large Degenerative Concussion Bomb I:
@@ -802,6 +848,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 21538
+    marketGroup: 381
     name: Large Degenerative Concussion Bomb I
     volume: 50.0
   Large EMP Smartbomb I:
@@ -818,6 +865,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3993
+    marketGroup: 381
     name: Large EMP Smartbomb I
     volume: 50.0
   Large EMP Smartbomb II:
@@ -836,6 +884,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3995
+    marketGroup: 381
     name: Large EMP Smartbomb II
     volume: 50.0
   Large Graviton Smartbomb I:
@@ -852,6 +901,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3981
+    marketGroup: 381
     name: Large Graviton Smartbomb I
     volume: 50.0
   Large Graviton Smartbomb II:
@@ -870,6 +920,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3983
+    marketGroup: 381
     name: Large Graviton Smartbomb II
     volume: 50.0
   Large Plasma Smartbomb I:
@@ -886,6 +937,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3987
+    marketGroup: 381
     name: Large Plasma Smartbomb I
     volume: 50.0
   Large Plasma Smartbomb II:
@@ -904,6 +956,7 @@ items:
     TechLevel: 2
     ThermalDamage: 300.0
     id: 3989
+    marketGroup: 381
     name: Large Plasma Smartbomb II
     volume: 50.0
   Large Proton Smartbomb I:
@@ -921,6 +974,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3977
+    marketGroup: 381
     name: Large Proton Smartbomb I
     volume: 50.0
   Large Proton Smartbomb II:
@@ -939,6 +993,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3979
+    marketGroup: 381
     name: Large Proton Smartbomb II
     volume: 50.0
   Large Rudimentary Concussion Bomb I:
@@ -955,6 +1010,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9668
+    marketGroup: 381
     name: Large Rudimentary Concussion Bomb I
     volume: 50.0
   Large YF-12a Smartbomb:
@@ -971,6 +1027,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9808
+    marketGroup: 381
     name: Large YF-12a Smartbomb
     volume: 50.0
   Luther Veron's Modified Large EMP Smartbomb:
@@ -1004,6 +1061,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9762
+    marketGroup: 383
     name: Medium 'Notos' Explosive Charge I
     volume: 10.0
   Medium 'Vehemence' Shockwave Charge:
@@ -1020,6 +1078,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9734
+    marketGroup: 383
     name: Medium 'Vehemence' Shockwave Charge
     volume: 10.0
   Medium Degenerative Concussion Bomb I:
@@ -1039,6 +1098,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 21536
+    marketGroup: 383
     name: Medium Degenerative Concussion Bomb I
     volume: 10.0
   Medium EMP Smartbomb I:
@@ -1055,6 +1115,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3953
+    marketGroup: 383
     name: Medium EMP Smartbomb I
     volume: 25.0
   Medium EMP Smartbomb II:
@@ -1072,6 +1133,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3955
+    marketGroup: 383
     name: Medium EMP Smartbomb II
     volume: 10.0
   Medium Graviton Smartbomb I:
@@ -1088,6 +1150,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3941
+    marketGroup: 383
     name: Medium Graviton Smartbomb I
     volume: 25.0
   Medium Graviton Smartbomb II:
@@ -1105,6 +1168,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3943
+    marketGroup: 383
     name: Medium Graviton Smartbomb II
     volume: 10.0
   Medium Plasma Smartbomb I:
@@ -1121,6 +1185,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3947
+    marketGroup: 383
     name: Medium Plasma Smartbomb I
     volume: 25.0
   Medium Plasma Smartbomb II:
@@ -1138,6 +1203,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3949
+    marketGroup: 383
     name: Medium Plasma Smartbomb II
     volume: 10.0
   Medium Proton Smartbomb I:
@@ -1155,6 +1221,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3937
+    marketGroup: 383
     name: Medium Proton Smartbomb I
     volume: 25.0
   Medium Proton Smartbomb II:
@@ -1173,6 +1240,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3939
+    marketGroup: 383
     name: Medium Proton Smartbomb II
     volume: 10.0
   Medium Rudimentary Concussion Bomb I:
@@ -1189,6 +1257,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9728
+    marketGroup: 383
     name: Medium Rudimentary Concussion Bomb I
     volume: 10.0
   Medium YF-12a Smartbomb:
@@ -1205,6 +1274,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9800
+    marketGroup: 383
     name: Medium YF-12a Smartbomb
     volume: 10.0
   Micro 'Notos' Explosive Charge I:
@@ -1221,6 +1291,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9750
+    marketGroup: 380
     name: Micro 'Notos' Explosive Charge I
     volume: 2.5
   Micro 'Vehemence' Shockwave Charge:
@@ -1237,6 +1308,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9706
+    marketGroup: 380
     name: Micro 'Vehemence' Shockwave Charge
     volume: 2.5
   Micro Degenerative Concussion Bomb I:
@@ -1256,6 +1328,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 21532
+    marketGroup: 380
     name: Micro Degenerative Concussion Bomb I
     volume: 5.0
   Micro EMP Smartbomb I:
@@ -1272,6 +1345,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3913
+    marketGroup: 380
     name: Micro EMP Smartbomb I
     volume: 2.5
   Micro EMP Smartbomb II:
@@ -1289,6 +1363,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3915
+    marketGroup: 380
     name: Micro EMP Smartbomb II
     volume: 2.5
   Micro Graviton Smartbomb I:
@@ -1305,6 +1380,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3901
+    marketGroup: 380
     name: Micro Graviton Smartbomb I
     volume: 2.5
   Micro Graviton Smartbomb II:
@@ -1322,6 +1398,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3903
+    marketGroup: 380
     name: Micro Graviton Smartbomb II
     volume: 2.5
   Micro Plasma Smartbomb I:
@@ -1338,6 +1415,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3907
+    marketGroup: 380
     name: Micro Plasma Smartbomb I
     volume: 2.5
   Micro Plasma Smartbomb II:
@@ -1355,6 +1433,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3909
+    marketGroup: 380
     name: Micro Plasma Smartbomb II
     volume: 2.5
   Micro Proton Smartbomb I:
@@ -1372,6 +1451,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 3897
+    marketGroup: 380
     name: Micro Proton Smartbomb I
     volume: 2.5
   Micro Proton Smartbomb II:
@@ -1390,6 +1470,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 3899
+    marketGroup: 380
     name: Micro Proton Smartbomb II
     volume: 2.5
   Micro Rudimentary Concussion Bomb I:
@@ -1406,6 +1487,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9702
+    marketGroup: 380
     name: Micro Rudimentary Concussion Bomb I
     volume: 2.5
   Micro YF-12a Smartbomb:
@@ -1422,6 +1504,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9790
+    marketGroup: 380
     name: Micro YF-12a Smartbomb
     volume: 2.5
   Mizuro's Modified Large Proton Smartbomb:
@@ -1439,6 +1522,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14544
+    marketGroup: 381
     name: Mizuro's Modified Large Proton Smartbomb
     volume: 50.0
   Raysere's Modified Large EMP Smartbomb:
@@ -1456,6 +1540,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14790
+    marketGroup: 381
     name: Raysere's Modified Large EMP Smartbomb
     volume: 50.0
   Republic Fleet Large Proton Smartbomb:
@@ -1473,6 +1558,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15939
+    marketGroup: 381
     name: Republic Fleet Large Proton Smartbomb
     volume: 50.0
   Republic Fleet Medium Proton Smartbomb:
@@ -1490,6 +1576,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15937
+    marketGroup: 383
     name: Republic Fleet Medium Proton Smartbomb
     volume: 10.0
   Republic Fleet Micro Proton Smartbomb:
@@ -1507,6 +1594,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15933
+    marketGroup: 380
     name: Republic Fleet Micro Proton Smartbomb
     volume: 2.5
   Republic Fleet Small Proton Smartbomb:
@@ -1524,6 +1612,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15935
+    marketGroup: 382
     name: Republic Fleet Small Proton Smartbomb
     volume: 5.0
   Selynne's Modified Large EMP Smartbomb:
@@ -1541,6 +1630,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14788
+    marketGroup: 381
     name: Selynne's Modified Large EMP Smartbomb
     volume: 50.0
   Setele's Modified Large Plasma Smartbomb:
@@ -1558,6 +1648,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15156
+    marketGroup: 381
     name: Setele's Modified Large Plasma Smartbomb
     volume: 50.0
   Shadow Serpentis Large Plasma Smartbomb:
@@ -1575,6 +1666,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14206
+    marketGroup: 381
     name: Shadow Serpentis Large Plasma Smartbomb
     volume: 50.0
   Shadow Serpentis Medium Plasma Smartbomb:
@@ -1592,6 +1684,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14220
+    marketGroup: 383
     name: Shadow Serpentis Medium Plasma Smartbomb
     volume: 10.0
   Shadow Serpentis Micro Plasma Smartbomb:
@@ -1609,6 +1702,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14218
+    marketGroup: 380
     name: Shadow Serpentis Micro Plasma Smartbomb
     volume: 2.5
   Shadow Serpentis Small Plasma Smartbomb:
@@ -1626,6 +1720,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14228
+    marketGroup: 382
     name: Shadow Serpentis Small Plasma Smartbomb
     volume: 5.0
   Small 'Notos' Explosive Charge I:
@@ -1642,6 +1737,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9744
+    marketGroup: 382
     name: Small 'Notos' Explosive Charge I
     volume: 5.0
   Small 'Vehemence' Shockwave Charge:
@@ -1658,6 +1754,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9680
+    marketGroup: 382
     name: Small 'Vehemence' Shockwave Charge
     volume: 5.0
   Small Degenerative Concussion Bomb I:
@@ -1677,6 +1774,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 21534
+    marketGroup: 382
     name: Small Degenerative Concussion Bomb I
     volume: 2.5
   Small EMP Smartbomb I:
@@ -1693,6 +1791,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 1563
+    marketGroup: 382
     name: Small EMP Smartbomb I
     volume: 12.5
   Small EMP Smartbomb II:
@@ -1710,6 +1809,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 1565
+    marketGroup: 382
     name: Small EMP Smartbomb II
     volume: 5.0
   Small Graviton Smartbomb I:
@@ -1726,6 +1826,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 1551
+    marketGroup: 382
     name: Small Graviton Smartbomb I
     volume: 12.5
   Small Graviton Smartbomb II:
@@ -1743,6 +1844,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 1553
+    marketGroup: 382
     name: Small Graviton Smartbomb II
     volume: 5.0
   Small Plasma Smartbomb I:
@@ -1759,6 +1861,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 1557
+    marketGroup: 382
     name: Small Plasma Smartbomb I
     volume: 12.5
   Small Plasma Smartbomb II:
@@ -1776,6 +1879,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 1559
+    marketGroup: 382
     name: Small Plasma Smartbomb II
     volume: 5.0
   Small Proton Smartbomb I:
@@ -1793,6 +1897,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 1547
+    marketGroup: 382
     name: Small Proton Smartbomb I
     volume: 12.5
   Small Proton Smartbomb II:
@@ -1811,6 +1916,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 2
     id: 1549
+    marketGroup: 382
     name: Small Proton Smartbomb II
     volume: 5.0
   Small Rudimentary Concussion Bomb I:
@@ -1827,6 +1933,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9670
+    marketGroup: 382
     name: Small Rudimentary Concussion Bomb I
     volume: 5.0
   Small YF-12a Smartbomb:
@@ -1843,6 +1950,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 9784
+    marketGroup: 382
     name: Small YF-12a Smartbomb
     volume: 5.0
   Tairei's Modified Large EMP Smartbomb:
@@ -1860,6 +1968,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14786
+    marketGroup: 381
     name: Tairei's Modified Large EMP Smartbomb
     volume: 50.0
   Thon's Modified Large Graviton Smartbomb:
@@ -1877,6 +1986,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14694
+    marketGroup: 381
     name: Thon's Modified Large Graviton Smartbomb
     volume: 50.0
   Tobias' Modified Large Proton Smartbomb:
@@ -1894,6 +2004,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14550
+    marketGroup: 381
     name: Tobias' Modified Large Proton Smartbomb
     volume: 50.0
   True Sansha Large EMP Smartbomb:
@@ -1912,6 +2023,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14190
+    marketGroup: 381
     name: True Sansha Large EMP Smartbomb
     volume: 50.0
   True Sansha Medium EMP Smartbomb:
@@ -1930,6 +2042,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14194
+    marketGroup: 383
     name: True Sansha Medium EMP Smartbomb
     volume: 10.0
   True Sansha Micro EMP Smartbomb:
@@ -1948,6 +2061,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14198
+    marketGroup: 380
     name: True Sansha Micro EMP Smartbomb
     volume: 2.5
   True Sansha Small EMP Smartbomb:
@@ -1966,6 +2080,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14202
+    marketGroup: 382
     name: True Sansha Small EMP Smartbomb
     volume: 5.0
   Tuvan's Modified Large Plasma Smartbomb:
@@ -1983,6 +2098,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 15154
+    marketGroup: 381
     name: Tuvan's Modified Large Plasma Smartbomb
     volume: 50.0
   Vepas' Modified Large Graviton Smartbomb:
@@ -2000,6 +2116,7 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14696
+    marketGroup: 381
     name: Vepas' Modified Large Graviton Smartbomb
     volume: 50.0
   Vizan's Modified Large EMP Smartbomb:
@@ -2017,5 +2134,6 @@ items:
     RequiredThermoDynamicsSkill: 1
     TechLevel: 1
     id: 14792
+    marketGroup: 381
     name: Vizan's Modified Large EMP Smartbomb
     volume: 50.0

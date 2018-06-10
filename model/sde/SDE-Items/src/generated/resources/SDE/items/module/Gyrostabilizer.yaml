@@ -11,6 +11,7 @@ items:
     SpeedMultiplier: 0.9300000071525574
     TechLevel: 1
     id: 518
+    marketGroup: 646
     name: '''Basic'' Gyrostabilizer'
     volume: 5.0
   '''Kindred'' Gyrostabilizer':
@@ -25,6 +26,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
     id: 21486
+    marketGroup: 646
     name: '''Kindred'' Gyrostabilizer'
     volume: 5.0
   Counterbalanced Compact Gyrostabilizer:
@@ -38,6 +40,7 @@ items:
     SpeedMultiplier: 0.9049999713897705
     TechLevel: 1
     id: 5933
+    marketGroup: 646
     name: Counterbalanced Compact Gyrostabilizer
     volume: 5.0
   Cross-Lateral Gyrostabilizer I:
@@ -63,6 +66,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 13939
+    marketGroup: 646
     name: Domination Gyrostabilizer
     volume: 5.0
   F-M2 Weapon Inertial Suspensor:
@@ -99,6 +103,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14540
+    marketGroup: 646
     name: Gotan's Modified Gyrostabilizer
     volume: 5.0
   Gyrostabilizer I:
@@ -111,6 +116,7 @@ items:
     SpeedMultiplier: 0.9200000166893005
     TechLevel: 1
     id: 520
+    marketGroup: 646
     name: Gyrostabilizer I
     volume: 5.0
   Gyrostabilizer II:
@@ -123,6 +129,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 2
     id: 519
+    marketGroup: 646
     name: Gyrostabilizer II
     volume: 5.0
   Hakim's Modified Gyrostabilizer:
@@ -136,6 +143,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14538
+    marketGroup: 646
     name: Hakim's Modified Gyrostabilizer
     volume: 5.0
   Hydraulic Stabilization Actuator:
@@ -171,6 +179,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14536
+    marketGroup: 646
     name: Mizuro's Modified Gyrostabilizer
     volume: 5.0
   Monophonic Stabilization Actuator I:
@@ -209,6 +218,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 15806
+    marketGroup: 646
     name: Republic Fleet Gyrostabilizer
     volume: 5.0
   Shaqil's Modified Gyrostabilizer:
@@ -222,6 +232,7 @@ items:
     SpeedMultiplier: 0.8949999809265137
     TechLevel: 1
     id: 15447
+    marketGroup: 646
     name: Shaqil's Modified Gyrostabilizer
     volume: 5.0
   Stabilized Weapon Mounts:
@@ -246,6 +257,7 @@ items:
     SpeedMultiplier: 0.8899999856948853
     TechLevel: 1
     id: 14542
+    marketGroup: 646
     name: Tobias' Modified Gyrostabilizer
     volume: 5.0
   Vadari's Custom Gyrostabilizer:
@@ -260,5 +272,6 @@ items:
     SpeedMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 44112
+    marketGroup: 646
     name: Vadari's Custom Gyrostabilizer
     volume: 5.0

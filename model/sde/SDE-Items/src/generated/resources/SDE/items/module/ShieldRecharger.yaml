@@ -19,6 +19,7 @@ items:
     ShieldRechargeRateMultiplier: 0.875
     TechLevel: 1
     id: 6485
+    marketGroup: 126
     name: M51 Benefactor Compact Shield Recharger
     volume: 5.0
   Passive Barrier Compensator I:
@@ -43,6 +44,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8399999737739563
     TechLevel: 1
     id: 37805
+    marketGroup: 126
     name: Republic Fleet Shield Recharger
     volume: 5.0
   Shield Recharger I:
@@ -53,6 +55,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8999999761581421
     TechLevel: 1
     id: 393
+    marketGroup: 126
     name: Shield Recharger I
     volume: 5.0
   Shield Recharger II:
@@ -64,6 +67,7 @@ items:
     ShieldRechargeRateMultiplier: 0.8500000238418579
     TechLevel: 2
     id: 394
+    marketGroup: 126
     name: Shield Recharger II
     volume: 5.0
   Supplemental Screen Generator I:

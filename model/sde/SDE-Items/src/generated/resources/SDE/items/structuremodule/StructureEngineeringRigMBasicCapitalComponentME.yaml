@@ -17,6 +17,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 43870
+    marketGroup: 2347
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I
     volume: 10.0
@@ -38,6 +39,7 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 43871
+    marketGroup: 2347
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II
     volume: 10.0
@@ -60,5 +62,6 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 45544
+    marketGroup: 2347
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency
     volume: 10.0

@@ -21,6 +21,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35881
+    marketGroup: 2332
     name: Standup Capital Shipyard I
     volume: 32000.0
   Standup Hyasyoda Research Lab:
@@ -38,6 +39,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 45550
+    marketGroup: 2332
     name: Standup Hyasyoda Research Lab
     volume: 4000.0
   Standup Invention Lab I:
@@ -54,6 +56,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35886
+    marketGroup: 2332
     name: Standup Invention Lab I
     volume: 4000.0
   Standup Manufacturing Plant I:
@@ -70,6 +73,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35878
+    marketGroup: 2332
     name: Standup Manufacturing Plant I
     volume: 4000.0
   Standup Research Lab I:
@@ -86,6 +90,7 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35891
+    marketGroup: 2332
     name: Standup Research Lab I
     volume: 4000.0
   Standup Supercapital Shipyard I:
@@ -102,5 +107,6 @@ items:
     ServiceModuleFullPowerStateHitpointMultiplier: 1.5
     StructureItemVisualFlag: 1
     id: 35877
+    marketGroup: 2332
     name: Standup Supercapital Shipyard I
     volume: 64000.0

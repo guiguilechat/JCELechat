@@ -15,6 +15,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
     id: 45669
+    marketGroup: 840
     name: Baker_PLACEHOLDER
     volume: 1.0
   Charlie_PLACEHOLDER:
@@ -33,6 +34,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 3.0
     id: 45671
+    marketGroup: 840
     name: Charlie_PLACEHOLDER
     volume: 1.0
   Dragonfly I:
@@ -89,6 +91,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 23057
+    marketGroup: 840
     name: Dragonfly I
     volume: 1000.0
   Dragonfly II:
@@ -146,6 +149,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40557
+    marketGroup: 840
     name: Dragonfly II
     volume: 1000.0
   Einherji I:
@@ -202,6 +206,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 23061
+    marketGroup: 840
     name: Einherji I
     volume: 1000.0
   Einherji II:
@@ -259,6 +264,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40559
+    marketGroup: 840
     name: Einherji II
     volume: 1000.0
   Equite I:
@@ -311,6 +317,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40358
+    marketGroup: 840
     name: Equite I
     volume: 800.0
   Equite II:
@@ -364,6 +371,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40552
+    marketGroup: 840
     name: Equite II
     volume: 800.0
   Firbolg I:
@@ -420,6 +428,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 23059
+    marketGroup: 840
     name: Firbolg I
     volume: 1000.0
   Firbolg II:
@@ -477,6 +486,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40558
+    marketGroup: 840
     name: Firbolg II
     volume: 1000.0
   Gram I:
@@ -529,6 +539,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40361
+    marketGroup: 840
     name: Gram I
     volume: 800.0
   Gram II:
@@ -582,6 +593,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40553
+    marketGroup: 840
     name: Gram II
     volume: 800.0
   Locust I:
@@ -634,6 +646,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40359
+    marketGroup: 840
     name: Locust I
     volume: 800.0
   Locust II:
@@ -687,6 +700,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40554
+    marketGroup: 840
     name: Locust II
     volume: 800.0
   Satyr I:
@@ -739,6 +753,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 40360
+    marketGroup: 840
     name: Satyr I
     volume: 800.0
   Satyr II:
@@ -792,6 +807,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40555
+    marketGroup: 840
     name: Satyr II
     volume: 800.0
   Standup Dragonfly I:
@@ -841,6 +857,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47138
+    marketGroup: 2411
     name: Standup Dragonfly I
     volume: 2000.0
   Standup Dragonfly II:
@@ -891,6 +908,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47142
+    marketGroup: 2411
     name: Standup Dragonfly II
     volume: 2000.0
   Standup Einherji I:
@@ -940,6 +958,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47140
+    marketGroup: 2411
     name: Standup Einherji I
     volume: 2000.0
   Standup Einherji II:
@@ -990,6 +1009,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47144
+    marketGroup: 2411
     name: Standup Einherji II
     volume: 2000.0
   Standup Equite I:
@@ -1039,6 +1059,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47145
+    marketGroup: 2411
     name: Standup Equite I
     volume: 1600.0
   Standup Equite II:
@@ -1089,6 +1110,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47148
+    marketGroup: 2411
     name: Standup Equite II
     volume: 1600.0
   Standup Firbolg I:
@@ -1138,6 +1160,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47139
+    marketGroup: 2411
     name: Standup Firbolg I
     volume: 2000.0
   Standup Firbolg II:
@@ -1188,6 +1211,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47143
+    marketGroup: 2411
     name: Standup Firbolg II
     volume: 2000.0
   Standup Gram I:
@@ -1237,6 +1261,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47036
+    marketGroup: 2411
     name: Standup Gram I
     volume: 1600.0
   Standup Gram II:
@@ -1287,6 +1312,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47151
+    marketGroup: 2411
     name: Standup Gram II
     volume: 1600.0
   Standup Locust I:
@@ -1336,6 +1362,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47146
+    marketGroup: 2411
     name: Standup Locust I
     volume: 1600.0
   Standup Locust II:
@@ -1386,6 +1413,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47149
+    marketGroup: 2411
     name: Standup Locust II
     volume: 1600.0
   Standup Satyr I:
@@ -1435,6 +1463,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47147
+    marketGroup: 2411
     name: Standup Satyr I
     volume: 1600.0
   Standup Satyr II:
@@ -1485,6 +1514,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47150
+    marketGroup: 2411
     name: Standup Satyr II
     volume: 1600.0
   Standup Templar I:
@@ -1534,6 +1564,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 47035
+    marketGroup: 2411
     name: Standup Templar I
     volume: 2000.0
   Standup Templar II:
@@ -1584,6 +1615,7 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 47141
+    marketGroup: 2411
     name: Standup Templar II
     volume: 2000.0
   Templar I:
@@ -1640,6 +1672,7 @@ items:
     TechLevel: 1
     WarpSpeedMultiplier: 1.5
     id: 23055
+    marketGroup: 840
     name: Templar I
     volume: 1000.0
   Templar II:
@@ -1697,5 +1730,6 @@ items:
     TechLevel: 2
     WarpSpeedMultiplier: 1.5
     id: 40556
+    marketGroup: 840
     name: Templar II
     volume: 1000.0

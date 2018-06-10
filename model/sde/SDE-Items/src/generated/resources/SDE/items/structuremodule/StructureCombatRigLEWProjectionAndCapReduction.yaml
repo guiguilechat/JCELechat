@@ -19,6 +19,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 37254
+    marketGroup: 2345
     name: Standup L-Set EW Expert System I
     volume: 20.0
   Standup L-Set EW Expert System II:
@@ -41,5 +42,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 37255
+    marketGroup: 2345
     name: Standup L-Set EW Expert System II
     volume: 20.0

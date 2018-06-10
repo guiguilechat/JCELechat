@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 28409
+    marketGroup: 523
     name: Compressed Fiery Kernite
     volume: 0.19
   Compressed Kernite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 28410
+    marketGroup: 523
     name: Compressed Kernite
     volume: 0.19
   Compressed Luminous Kernite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 28411
+    marketGroup: 523
     name: Compressed Luminous Kernite
     volume: 0.19
   Compressed Resplendant Kernite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 46699
+    marketGroup: 523
     name: Compressed Resplendant Kernite
     volume: 0.19
   Fiery Kernite:
@@ -54,6 +58,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 17453
+    marketGroup: 523
     name: Fiery Kernite
     volume: 1.2
   Kernite:
@@ -67,6 +72,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 20
+    marketGroup: 523
     name: Kernite
     volume: 1.2
   Luminous Kernite:
@@ -80,6 +86,7 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 17452
+    marketGroup: 523
     name: Luminous Kernite
     volume: 1.2
   Lyavite:
@@ -103,5 +110,6 @@ items:
     ReprocessingSkillType: 12188
     RequiredSkill1: 3386
     id: 46683
+    marketGroup: 523
     name: Resplendant Kernite
     volume: 1.2

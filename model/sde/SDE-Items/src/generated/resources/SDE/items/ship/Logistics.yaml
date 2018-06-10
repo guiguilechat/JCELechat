@@ -81,6 +81,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11985
+    marketGroup: 439
     name: Basilisk
     volume: 107000.0
   Etana:
@@ -167,6 +168,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 32790
+    marketGroup: 1624
     name: Etana
     volume: 107000.0
   Guardian:
@@ -250,6 +252,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11987
+    marketGroup: 438
     name: Guardian
     volume: 115000.0
   Oneiros:
@@ -332,6 +335,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11989
+    marketGroup: 440
     name: Oneiros
     volume: 113000.0
   Rabisu:
@@ -426,6 +430,7 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 42245
+    marketGroup: 1624
     name: Rabisu
     volume: 115000.0
   Scimitar:
@@ -510,5 +515,6 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.299999952316284
     id: 11978
+    marketGroup: 441
     name: Scimitar
     volume: 89000.0

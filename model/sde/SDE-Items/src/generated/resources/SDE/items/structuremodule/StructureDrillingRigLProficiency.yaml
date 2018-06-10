@@ -14,6 +14,7 @@ items:
     TechLevel: 1
     UpgradeCost: 100
     id: 46327
+    marketGroup: 2342
     name: Standup L-Set Moon Drilling Proficiency I
     volume: 20.0
   Standup L-Set Moon Drilling Proficiency II:
@@ -31,5 +32,6 @@ items:
     TechLevel: 2
     UpgradeCost: 150
     id: 46328
+    marketGroup: 2342
     name: Standup L-Set Moon Drilling Proficiency II
     volume: 20.0

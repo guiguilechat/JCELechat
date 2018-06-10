@@ -3,125 +3,146 @@ items:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2358
+    marketGroup: 1336
     name: Biotech Research Reports
     volume: 6.0
   Camera Drones:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2345
+    marketGroup: 1336
     name: Camera Drones
     volume: 6.0
   Condensates:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2344
+    marketGroup: 1336
     name: Condensates
     volume: 6.0
   Cryoprotectant Solution:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2367
+    marketGroup: 1336
     name: Cryoprotectant Solution
     volume: 6.0
   Data Chips:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 17392
+    marketGroup: 1336
     name: Data Chips
     volume: 6.0
   Gel-Matrix Biopaste:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2348
+    marketGroup: 1336
     name: Gel-Matrix Biopaste
     volume: 6.0
   Guidance Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 9834
+    marketGroup: 1336
     name: Guidance Systems
     volume: 6.0
   Hazmat Detection Systems:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2366
+    marketGroup: 1336
     name: Hazmat Detection Systems
     volume: 6.0
   Hermetic Membranes:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2361
+    marketGroup: 1336
     name: Hermetic Membranes
     volume: 6.0
   High-Tech Transmitters:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 17898
+    marketGroup: 1336
     name: High-Tech Transmitters
     volume: 6.0
   Industrial Explosives:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2360
+    marketGroup: 1336
     name: Industrial Explosives
     volume: 6.0
   Neocoms:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2354
+    marketGroup: 1336
     name: Neocoms
     volume: 6.0
   Nuclear Reactors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2352
+    marketGroup: 1336
     name: Nuclear Reactors
     volume: 6.0
   Planetary Vehicles:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 9846
+    marketGroup: 1336
     name: Planetary Vehicles
     volume: 6.0
   Robotics:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 9848
+    marketGroup: 1336
     name: Robotics
     volume: 6.0
   Smartfab Units:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2351
+    marketGroup: 1336
     name: Smartfab Units
     volume: 6.0
   Supercomputers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2349
+    marketGroup: 1336
     name: Supercomputers
     volume: 6.0
   Synthetic Synapses:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 2346
+    marketGroup: 1336
     name: Synthetic Synapses
     volume: 6.0
   Transcranial Microcontrollers:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 12836
+    marketGroup: 1336
     name: Transcranial Microcontrollers
     volume: 6.0
   Ukomi Superconductors:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 17136
+    marketGroup: 1336
     name: Ukomi Superconductors
     volume: 6.0
   Vaccines:
     ExportTaxMultiplier: 60000
     ImportTaxMultiplier: 60000
     id: 28974
+    marketGroup: 1336
     name: Vaccines
     volume: 6.0

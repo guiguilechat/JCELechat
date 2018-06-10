@@ -16,6 +16,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12761
+    marketGroup: 854
     name: Quake L
     volume: 0.025
   Quake M:
@@ -35,6 +36,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12767
+    marketGroup: 855
     name: Quake M
     volume: 0.0125
   Quake S:
@@ -54,6 +56,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 12631
+    marketGroup: 856
     name: Quake S
     volume: 0.0025
   Quake XL:
@@ -73,6 +76,7 @@ items:
     TrackingSpeedMultiplier: 1.25
     WeaponRangeMultiplier: 0.25
     id: 41320
+    marketGroup: 2252
     name: Quake XL
     volume: 0.125
   Shock L:
@@ -152,6 +156,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12765
+    marketGroup: 854
     name: Tremor L
     volume: 0.025
   Tremor M:
@@ -171,6 +176,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12771
+    marketGroup: 855
     name: Tremor M
     volume: 0.0125
   Tremor S:
@@ -190,6 +196,7 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 12633
+    marketGroup: 856
     name: Tremor S
     volume: 0.0025
   Tremor XL:
@@ -209,5 +216,6 @@ items:
     TrackingSpeedMultiplier: 0.25
     WeaponRangeMultiplier: 1.7999999523162842
     id: 41318
+    marketGroup: 2252
     name: Tremor XL
     volume: 0.125

@@ -23,6 +23,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -16.0
     id: 41515
+    marketGroup: 2245
     name: Capital Flex Armor Hardener I
     volume: 4000.0
   Capital Flex Armor Hardener II:
@@ -50,6 +51,7 @@ items:
     TechLevel: 2
     ThermalDamageResistanceBonus: -19.0
     id: 41525
+    marketGroup: 2245
     name: Capital Flex Armor Hardener II
     volume: 4000.0
   Dark Blood Capital Flex Armor Hardener:
@@ -78,6 +80,7 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
     id: 41526
+    marketGroup: 2245
     name: Dark Blood Capital Flex Armor Hardener
     volume: 4000.0
   Shadow Serpentis Capital Flex Armor Hardener:
@@ -106,5 +109,6 @@ items:
     TechLevel: 1
     ThermalDamageResistanceBonus: -20.0
     id: 41527
+    marketGroup: 2245
     name: Shadow Serpentis Capital Flex Armor Hardener
     volume: 4000.0

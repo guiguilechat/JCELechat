@@ -15,6 +15,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27120
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-701
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-702:
@@ -24,6 +25,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3247
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-702
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-703:
@@ -33,6 +35,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13265
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-703
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-704:
@@ -42,6 +45,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3248
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-704
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-705:
@@ -51,6 +55,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27121
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-705
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-706:
@@ -60,6 +65,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3249
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Capacitor Emission Systems ES-706
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-801:
@@ -68,6 +74,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27117
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-801
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-802:
@@ -77,6 +84,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3237
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-802
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-803:
@@ -85,6 +93,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13259
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-803
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-804:
@@ -94,6 +103,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3238
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-804
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-805:
@@ -102,6 +112,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27116
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-805
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Management EM-806:
@@ -111,6 +122,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3239
+    marketGroup: 1509
     name: Inherent Implants 'Squire' Capacitor Management EM-806
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-601:
@@ -119,6 +131,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27119
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-601
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-602:
@@ -128,6 +141,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3240
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-602
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-603:
@@ -136,6 +150,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13260
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-603
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-604:
@@ -145,6 +160,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3241
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-604
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-605:
@@ -153,6 +169,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27118
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-605
     volume: 1.0
   Inherent Implants 'Squire' Capacitor Systems Operation EO-606:
@@ -162,6 +179,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3246
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Capacitor Systems Operation EO-606
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-701:
@@ -171,6 +189,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27125
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-701
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-702:
@@ -180,6 +199,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3253
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-702
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-703:
@@ -189,6 +209,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13255
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-703
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-704:
@@ -198,6 +219,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3254
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-704
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-705:
@@ -207,6 +229,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27124
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-705
     volume: 1.0
   Inherent Implants 'Squire' Energy Grid Upgrades EU-706:
@@ -216,6 +239,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3255
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Grid Upgrades EU-706
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-701:
@@ -225,6 +249,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27123
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-701
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-702:
@@ -234,6 +259,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3250
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-702
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-703:
@@ -243,6 +269,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13251
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-703
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-704:
@@ -252,6 +279,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3251
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-704
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-705:
@@ -261,6 +289,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27122
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-705
     volume: 1.0
   Inherent Implants 'Squire' Energy Pulse Weapons EP-706:
@@ -270,6 +299,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3252
+    marketGroup: 1508
     name: Inherent Implants 'Squire' Energy Pulse Weapons EP-706
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-601:
@@ -278,6 +308,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27127
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-601
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-602:
@@ -287,6 +318,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3256
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-602
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-603:
@@ -295,6 +327,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13261
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-603
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-604:
@@ -304,6 +337,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3257
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-604
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-605:
@@ -312,6 +346,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27126
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-605
     volume: 1.0
   Inherent Implants 'Squire' Power Grid Management EG-606:
@@ -321,6 +356,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3258
+    marketGroup: 1507
     name: Inherent Implants 'Squire' Power Grid Management EG-606
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-601:
@@ -329,6 +365,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27143
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-601
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-602:
@@ -338,6 +375,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3265
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-602
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-603:
@@ -346,6 +384,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13216
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-603
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-604:
@@ -355,6 +394,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3266
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-604
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-605:
@@ -363,6 +403,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27142
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-605
     volume: 1.0
   Zainou 'Gypsy' CPU Management EE-606:
@@ -372,6 +413,7 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3267
+    marketGroup: 1507
     name: Zainou 'Gypsy' CPU Management EE-606
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-601:
@@ -381,6 +423,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 27129
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-601
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-602:
@@ -390,6 +433,7 @@ items:
     RequiredSkill1Level: 1
     TechLevel: 1
     id: 3262
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-602
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-603:
@@ -399,6 +443,7 @@ items:
     RequiredSkill1Level: 2
     TechLevel: 1
     id: 13254
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-603
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-604:
@@ -408,6 +453,7 @@ items:
     RequiredSkill1Level: 3
     TechLevel: 1
     id: 3263
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-604
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-605:
@@ -417,6 +463,7 @@ items:
     RequiredSkill1Level: 4
     TechLevel: 1
     id: 27128
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-605
     volume: 1.0
   Zainou 'Gypsy' Electronics Upgrades EU-606:
@@ -426,5 +473,6 @@ items:
     RequiredSkill1Level: 5
     TechLevel: 1
     id: 3264
+    marketGroup: 1507
     name: Zainou 'Gypsy' Electronics Upgrades EU-606
     volume: 1.0

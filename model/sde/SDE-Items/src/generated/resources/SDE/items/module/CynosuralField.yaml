@@ -32,6 +32,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 28646
+    marketGroup: 1641
     name: Covert Cynosural Field Generator I
     volume: 25.0
   Cynosural Field Generator I:
@@ -57,5 +58,6 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 21096
+    marketGroup: 1641
     name: Cynosural Field Generator I
     volume: 50.0

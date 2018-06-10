@@ -19,6 +19,7 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 28652
+    marketGroup: 1640
     name: Covert Jump Portal Generator I
     volume: 125.0
   Jump Portal Generator I:
@@ -43,5 +44,6 @@ items:
     SpeedFactor: -100.0
     TechLevel: 1
     id: 23953
+    marketGroup: 1640
     name: Jump Portal Generator I
     volume: 10000.0

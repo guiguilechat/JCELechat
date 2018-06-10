@@ -78,6 +78,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11202
+    marketGroup: 402
     name: Ares
     volume: 22500.0
   Claw:
@@ -159,6 +160,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11196
+    marketGroup: 403
     name: Claw
     volume: 17400.0
   Crow:
@@ -239,6 +241,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11176
+    marketGroup: 401
     name: Crow
     volume: 18000.0
   Crusader:
@@ -316,6 +319,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11184
+    marketGroup: 400
     name: Crusader
     volume: 28100.0
   Imp:
@@ -398,6 +402,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 35779
+    marketGroup: 1932
     name: Imp
     volume: 28600.0
   Malediction:
@@ -478,6 +483,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11186
+    marketGroup: 400
     name: Malediction
     volume: 28100.0
   Raptor:
@@ -558,6 +564,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11178
+    marketGroup: 401
     name: Raptor
     volume: 18000.0
   Stiletto:
@@ -639,6 +646,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11198
+    marketGroup: 403
     name: Stiletto
     volume: 17400.0
   Taranis:
@@ -720,6 +728,7 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 11200
+    marketGroup: 402
     name: Taranis
     volume: 22500.0
   Whiptail:
@@ -805,5 +814,6 @@ items:
     WarpCapacitorNeed: 1.6699999605407356E-6
     WarpSpeedMultiplier: 8.0
     id: 33673
+    marketGroup: 1932
     name: Whiptail
     volume: 18000.0

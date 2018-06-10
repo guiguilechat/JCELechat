@@ -8,6 +8,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 45501
+    marketGroup: 2398
     name: Chromite
     volume: 10.0
   Lavish Chromite:
@@ -19,6 +20,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46302
+    marketGroup: 2398
     name: Lavish Chromite
     volume: 10.0
   Lavish Otavite:
@@ -30,6 +32,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46296
+    marketGroup: 2398
     name: Lavish Otavite
     volume: 10.0
   Lavish Sperrylite:
@@ -41,6 +44,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46298
+    marketGroup: 2398
     name: Lavish Sperrylite
     volume: 10.0
   Lavish Vanadinite:
@@ -52,6 +56,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46300
+    marketGroup: 2398
     name: Lavish Vanadinite
     volume: 10.0
   Otavite:
@@ -63,6 +68,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 45498
+    marketGroup: 2398
     name: Otavite
     volume: 10.0
   Shimmering Chromite:
@@ -74,6 +80,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46303
+    marketGroup: 2398
     name: Shimmering Chromite
     volume: 10.0
   Shimmering Otavite:
@@ -85,6 +92,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46297
+    marketGroup: 2398
     name: Shimmering Otavite
     volume: 10.0
   Shimmering Sperrylite:
@@ -96,6 +104,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46299
+    marketGroup: 2398
     name: Shimmering Sperrylite
     volume: 10.0
   Shimmering Vanadinite:
@@ -107,6 +116,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 46301
+    marketGroup: 2398
     name: Shimmering Vanadinite
     volume: 10.0
   Sperrylite:
@@ -118,6 +128,7 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 45499
+    marketGroup: 2398
     name: Sperrylite
     volume: 10.0
   Vanadinite:
@@ -129,5 +140,6 @@ items:
     ReprocessingSkillType: 46154
     RequiredSkill1: 3386
     id: 45500
+    marketGroup: 2398
     name: Vanadinite
     volume: 10.0
