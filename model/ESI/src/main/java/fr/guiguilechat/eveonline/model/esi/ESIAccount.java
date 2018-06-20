@@ -21,7 +21,6 @@ import fr.guiguilechat.eveonline.model.esi.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.modeled.EveCharacter;
 import fr.guiguilechat.eveonline.model.esi.modeled.Industry;
 import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
-import fr.guiguilechat.eveonline.model.esi.modeled.Names;
 import fr.guiguilechat.eveonline.model.esi.modeled.PI;
 import fr.guiguilechat.eveonline.model.esi.modeled.Route;
 import fr.guiguilechat.eveonline.model.esi.modeled.Universe;
@@ -51,7 +50,6 @@ public class ESIAccount {
 	public ESIAccount(ESIConnection raw) {
 		this.raw = raw;
 		verify = new Verify(raw);
-		names = new Names(raw);
 	}
 
 	public ESIAccount(String refresh, String base) {
@@ -67,8 +65,6 @@ public class ESIAccount {
 	public final EveCharacter character = new EveCharacter(this);
 
 	public final Verify verify;
-
-	public final Names names;
 
 	public final Markets markets = new Markets(this);
 

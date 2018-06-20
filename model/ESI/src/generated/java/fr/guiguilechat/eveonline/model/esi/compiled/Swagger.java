@@ -59,7 +59,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_c
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_titles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_transactions;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
@@ -100,7 +99,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_effects_effect_id;
@@ -377,22 +375,6 @@ public interface Swagger {
         content.put("characters", characters);
         String fetched = connectPost(url, content, false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_affiliation[].class));
-    }
-
-    /**
-     * Get character names
-     * <p>
-     * Resolve a set of character IDs to character names<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param character_ids
-     *     A comma separated list of character IDs
-     */
-    public default R_get_characters_names[] get_characters_names(long[] character_ids, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/characters/names/"+"?"+(character_ids==null?"":"&character_ids="+flatten(character_ids)));
-        String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_names[].class));
     }
 
     /**
@@ -1560,7 +1542,8 @@ public interface Swagger {
      * <p>
      * Get a list of corporation outpost IDs Note: This endpoint will be removed once outposts are migrated to Citadels as talked about in this blog: https://community.eveonline.com/news/dev-blogs/the-next-steps-in-structure-transition/<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director
+     * Requires one of the following EVE corporation role(s): Director<br />
+     * Warning: Outposts have been removed, this route will be deleted on 2018-07-08
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_ROLES here}
@@ -1582,7 +1565,8 @@ public interface Swagger {
      * <p>
      * Get details about a given outpost. Note: This endpoint will be removed once outposts are migrated to Citadels as talked about in this blog: https://community.eveonline.com/news/dev-blogs/the-next-steps-in-structure-transition/<br />
      * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director
+     * Requires one of the following EVE corporation role(s): Director<br />
+     * Warning: Outposts have been removed, this route will be deleted on 2018-07-08
      * </p>
      * <p>
      * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_OUTPOST_ID_ROLES here}
@@ -3034,7 +3018,8 @@ public interface Swagger {
      * Get alliance names
      * <p>
      * Resolve a set of alliance IDs to alliance names<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * Warning: This route will be deleted on June 21st, 2018
      * </p>
      * 
      * @param alliance_ids
@@ -3352,22 +3337,6 @@ public interface Swagger {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/stats/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_stats[].class));
-    }
-
-    /**
-     * Get corporation names
-     * <p>
-     * Resolve a set of corporation IDs to corporation names<br />
-     * This route is cached for up to 3600 seconds
-     * </p>
-     * 
-     * @param corporation_ids
-     *     A comma separated list of corporation IDs
-     */
-    public default R_get_corporations_names[] get_corporations_names(int[] corporation_ids, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/corporations/names/"+"?"+(corporation_ids==null?"":"&corporation_ids="+flatten(corporation_ids)));
-        String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_names[].class));
     }
 
     /**

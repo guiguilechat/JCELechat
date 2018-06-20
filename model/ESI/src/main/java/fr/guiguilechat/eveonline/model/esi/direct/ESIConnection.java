@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.time.Period;
@@ -156,17 +157,19 @@ public class ESIConnection implements Swagger {
 				case HttpsURLConnection.HTTP_BAD_METHOD:
 					logConnectError(method, url, transmit, responseCode, con.getErrorStream());
 					// hack : set the cache data to expire tomorrow
-					synchronized (ESIAccount.formatter) {
-						ZonedDateTime now = ZonedDateTime.now(ZoneId.of("UTC"));
-						List<String> dateArr = headerHandler.get("Date");
-						if (dateArr == null) {
-							headerHandler.put("Date", Arrays.asList(ESIAccount.formatter.format(now)));
-						}
-						List<String> expArr = headerHandler.get("Expires");
-						if (expArr == null) {
-							headerHandler.put("Expires", Arrays.asList(ESIAccount.formatter.format(now.plus(Period.ofDays(1)))));
-						}else {
-							expArr.add(0, ESIAccount.formatter.format(now.plus(Period.ofDays(1))));
+					if (headerHandler != null) {
+						synchronized (ESIAccount.formatter) {
+							ZonedDateTime now = ZonedDateTime.now(ZoneId.of("UTC"));
+							List<String> dateArr = headerHandler.get("Date");
+							if (dateArr == null) {
+								headerHandler.put("Date", Arrays.asList(ESIAccount.formatter.format(now)));
+							}
+							List<String> expArr = headerHandler.get("Expires");
+							if (expArr == null) {
+								headerHandler.put("Expires", Arrays.asList(ESIAccount.formatter.format(now.plus(Period.ofDays(1)))));
+							}else {
+								expArr.add(0, ESIAccount.formatter.format(now.plus(Period.ofDays(1))));
+							}
 						}
 					}
 					return null;
@@ -296,10 +299,14 @@ public class ESIConnection implements Swagger {
 
 	@Override
 	public <T> T convert(String line, Class<? extends T> clazz) {
-		if (line == null || line.length() == 0) {
-			return null;
-		}
 		try {
+			if (line == null || line.length() == 0) {
+				if (clazz.isArray()) {
+					return (T) Array.newInstance(clazz.getComponentType(), 0);
+				} else {
+					return null;
+				}
+			}
 			return mapper.readerFor(clazz).readValue(line);
 		} catch (Exception e) {
 			throw new UnsupportedOperationException("while converting line " + line + "to class" + clazz.getName(), e);

@@ -27,10 +27,6 @@ items:
     id: 46077
     name: ♦ Megathron
     volume: 486000.0
-  ♦ Nightmare:
-    id: 43657
-    name: ♦ Nightmare
-    volume: 486000.0
   ♦ Rattlesnake:
     id: 46523
     name: ♦ Rattlesnake
@@ -59,3 +55,11 @@ items:
     id: 47198
     name: ♦ test_boss
     volume: 1010000.0
+  �� Raven:
+    id: 43626
+    name: �� Raven
+    volume: 486000.0
+  ��� Nightmare:
+    id: 43657
+    name: ��� Nightmare
+    volume: 486000.0

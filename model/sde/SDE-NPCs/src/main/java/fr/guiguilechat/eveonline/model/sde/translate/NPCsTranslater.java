@@ -108,8 +108,8 @@ public class NPCsTranslater {
 		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.raw.get_universe_factions(null, null))
 				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
 		Map<Integer, String> agentNames = Stream
-				.of(esi.names.characterNames(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
-				.collect(Collectors.toMap(n -> (int) n.character_id, n -> n.character_name));
+				.of(esi.universe.names(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
+				.collect(Collectors.toMap(n -> (int) n.id, n -> n.name));
 
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();

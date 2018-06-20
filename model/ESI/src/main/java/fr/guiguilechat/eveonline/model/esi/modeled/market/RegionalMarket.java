@@ -120,15 +120,15 @@ public class RegionalMarket {
 	// history
 	//
 
-	private final HashMap<Integer, CachedHistory> histories = new HashMap<>();
+	private final HashMap<Integer, CachedHistory> historiesByTypeID = new HashMap<>();
 
 	public CachedHistory getHistory(int typeID) {
-		CachedHistory ret = histories.get(typeID);
+		CachedHistory ret = historiesByTypeID.get(typeID);
 		if (ret == null) {
-			synchronized (histories) {
+			synchronized (historiesByTypeID) {
 				if (ret == null) {
 					ret = new CachedHistory(this, typeID);
-					histories.put(typeID, ret);
+					historiesByTypeID.put(typeID, ret);
 				}
 			}
 		}

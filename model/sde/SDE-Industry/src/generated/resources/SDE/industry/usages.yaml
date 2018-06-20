@@ -11027,7 +11027,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙级YC117年特别版蓝图: null
+      幼龙级YC117年��别版蓝图: null
     productManuf: !!set
       Drake Blueprint: null
   Drake Navy Issue:
@@ -31159,7 +31159,7 @@ usages:
       Rare Moon Ore Mining Crystal I Blueprint: null
   Rattlesnake:
     materialManuf: !!set
-      响尾蛇级YC117年���别版蓝图: null
+      响尾蛇级YC117年特别版蓝图: null
     productManuf: !!set
       Rattlesnake Blueprint: null
   Raven:
@@ -31168,7 +31168,7 @@ usages:
       Raven Guristas Edition Blueprint: null
       Raven Kaalakiota Edition Blueprint: null
       Raven Nugoeihuvi Edition Blueprint: null
-      乌鸦级YC117年特别版蓝图: null
+      乌鸦级YC117年特别版蓝��: null
     productManuf: !!set
       Raven Blueprint: null
   Raven Guristas Edition:
@@ -42180,16 +42180,13 @@ usages:
   ‘Geiravor’ Explosive Lance:
     productManuf: !!set
       ‘Geiravor’ Explosive Lance Blueprint: null
-  ‘Guillotine��� Thermal Reaper:
+  ‘Guillotine’ Thermal Reaper:
     productManuf: !!set
       ‘Guillotine’ Thermal Reaper Blueprint: null
-  ‘Holy Destiny’ Electromagnetic Lance:
-    productManuf: !!set
-      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
   ‘Iron Pike’ Kinetic Lance:
     productManuf: !!set
       ‘Iron Pike’ Kinetic Lance Blueprint: null
-  ‘Jormungandr�� Explosive Reaper:
+  ‘Jormungandr’ Explosive Reaper:
     productManuf: !!set
       ‘Jormungandr’ Explosive Reaper Blueprint: null
   ‘Phalarica’ Thermal Lance:
@@ -42200,29 +42197,29 @@ usages:
       万王宝座级YC117年特别版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
-      乌鸦级YC117年特别版蓝图: null
-  伊什���级YC117年特别版:
+      乌鸦级YC117年特别版蓝��: null
+  伊什塔级YC117年特别版:
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
-      响尾蛇级YC117年���别版蓝图: null
-  地狱天使级YC117年特别版:
+      响尾蛇级YC117年特别版蓝图: null
+  地狱天���级YC117年特别版:
     productManuf: !!set
       地狱天使级YC117年特别版蓝图: null
-  多米尼克斯级YC117年特别版:
+  多米尼��斯级YC117年特别版:
     productManuf: !!set
       多米尼克斯级YC117年特别版蓝图: null
   幼龙级YC117年特别版:
     productManuf: !!set
-      幼龙级YC117年特别版蓝图: null
+      幼龙级YC117年��别版蓝图: null
   末日沙场级YC117年特别版:
     productManuf: !!set
       末日沙场级YC117年特别版蓝图: null
   毒蜥级YC117年特别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
-  灾难级YC117年特别版:
+  灾难级YC117���特别版:
     productManuf: !!set
       灾难级YC117年特别版蓝图: null
   银鹰级YC117年特别版:
@@ -42231,3 +42228,6 @@ usages:
   马克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
+  ���Holy Destiny’ Electromagnetic Lance:
+    productManuf: !!set
+      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null

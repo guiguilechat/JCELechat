@@ -1536,11 +1536,11 @@ items:
     id: 25382
     name: Guristas War Plans
     volume: 0.1
-  Guristas ‘Dirty' Explosive System:
+  Guristas ���Dirty' Explosive System:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32383
-    name: Guristas ‘Dirty' Explosive System
+    name: Guristas ���Dirty' Explosive System
     volume: 0.1
   Hand of Arzad:
     ExportTaxMultiplier: 1
