@@ -4,6 +4,7 @@ import java.util.concurrent.CountDownLatch;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id;
+import fr.guiguilechat.eveonline.model.esi.direct.Cache;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
@@ -94,8 +95,8 @@ public class Informations {
 		if (dataLatch == null) {
 			synchronized (this) {
 				if (dataLatch == null) {
-					con.addFetchCacheObject(con.characterName() + ".infos",
-							h -> con.raw.get_characters_character_id(con.characterId(), h), this::handleData, ESIAccount.NOROLE);
+					con.raw.cache.addFetchCacheObject(con.characterName() + ".infos",
+							h -> con.raw.get_characters_character_id(con.characterId(), h), this::handleData, Cache.NOROLE);
 					dataLatch = new CountDownLatch(1);
 				}
 			}

@@ -11,7 +11,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.function.BiFunction;
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,18 +24,22 @@ import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.EClassType;
 import com.helger.jcodemodel.JArray;
+import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JDirectClass;
 import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JFieldVar;
+import com.helger.jcodemodel.JInvocation;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JPrimitiveType;
+import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
 
+import javafx.beans.property.SimpleObjectProperty;
 import v2.io.swagger.models.ArrayModel;
 import v2.io.swagger.models.Model;
 import v2.io.swagger.models.Operation;
@@ -98,11 +106,17 @@ public class Compiler {
 
 	protected String responsesPackage = "responses";
 	protected String structuresPackage = "structures";
-	JDefinedClass jc;
+	protected JDefinedClass swaggerClass;
+
+	protected JDefinedClass cacheClass;
+	protected JMethod methFetchCacheObject;
+	protected JMethod methFetchCacheArray;
 
 	public Compiler() {
 
 	}
+
+	v2.io.swagger.models.Swagger swagger;
 
 	JCodeModel cm = null;
 	JPackage responsePackage = null;
@@ -115,7 +129,7 @@ public class Compiler {
 	};
 
 	public JCodeModel compile() throws JClassAlreadyExistsException {
-		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(swaggerURL);
+		swagger = new SwaggerParser().read(swaggerURL);
 		baseURL = swagger.getSchemes().get(0).toValue()
 				+ "://"
 				+ swagger.getHost()
@@ -123,50 +137,11 @@ public class Compiler {
 		cm = new JCodeModel();
 		String rootPackage = Compiler.class.getPackage().getName() + ".compiled";
 
-		jc = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
+		swaggerClass = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
+		createSwaggerCalls();
 
-		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
-				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
-				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
-		JFieldVar scopesField = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class), "SCOPES");
-		JArray scopesinit = JExpr.newArray(cm.ref(String.class));
-		for (String scope : allScopes) {
-			scopesinit.add(JExpr.lit(scope));
-		}
-		scopesField.init(scopesinit);
-
-		JMethod flatten = jc.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
-		flatten.param(cm.ref(Object.class), "o");
-
-		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
-
-		JMethod coget = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectGet");
-		coget.param(cm.ref(String.class), "url");
-		coget.param(cm.BOOLEAN, "connected");
-		coget.param(headerhandlertype, "headerHandler");
-
-		JMethod codel = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectDel");
-		codel.param(cm.ref(String.class), "url");
-		codel.param(cm.BOOLEAN, "connected");
-		codel.param(headerhandlertype, "headerHandler");
-
-		JMethod copost = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
-		copost.param(cm.ref(String.class), "url");
-		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
-		copost.param(cm.BOOLEAN, "connected");
-		copost.param(headerhandlertype, "headerHandler");
-
-		JMethod coput = jc.method(JMod.PUBLIC, cm.ref(String.class), "connectPut");
-		coput.param(cm.ref(String.class), "url");
-		coput.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
-		coput.param(cm.BOOLEAN, "connected");
-		coput.param(headerhandlertype, "headerHandler");
-
-		JDirectClass genericType = cm.directClass("T");
-		JMethod convert = jc.method(JMod.PUBLIC, genericType, "convert");
-		convert.generify("T");
-		convert.param(cm.ref(String.class), "line");
-		convert.param(cm.ref(Class.class).narrow(genericType.wildcardExtends()), "clazz");
+		cacheClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + "SwaggerCache", EClassType.CLASS);
+		createCacheMethods();
 
 		responsePackage = cm._package(rootPackage + "." + responsesPackage);
 		structurePackage = cm._package(rootPackage + "." + structuresPackage);
@@ -182,6 +157,103 @@ public class Compiler {
 
 		});
 		return cm;
+	}
+
+	public void createSwaggerCalls() {
+
+		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
+				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
+				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
+		JFieldVar scopesField = swaggerClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class),
+				"SCOPES");
+		JArray scopesinit = JExpr.newArray(cm.ref(String.class));
+		for (String scope : allScopes) {
+			scopesinit.add(JExpr.lit(scope));
+		}
+		scopesField.init(scopesinit);
+
+		JMethod flatten = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
+		flatten.param(cm.ref(Object.class), "o");
+
+		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
+
+		JMethod coget = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectGet");
+		coget.param(cm.ref(String.class), "url");
+		coget.param(cm.BOOLEAN, "connected");
+		coget.param(headerhandlertype, "headerHandler");
+
+		JMethod codel = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectDel");
+		codel.param(cm.ref(String.class), "url");
+		codel.param(cm.BOOLEAN, "connected");
+		codel.param(headerhandlertype, "headerHandler");
+
+		JMethod copost = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
+		copost.param(cm.ref(String.class), "url");
+		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
+		copost.param(cm.BOOLEAN, "connected");
+		copost.param(headerhandlertype, "headerHandler");
+
+		JMethod coput = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectPut");
+		coput.param(cm.ref(String.class), "url");
+		coput.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
+		coput.param(cm.BOOLEAN, "connected");
+		coput.param(headerhandlertype, "headerHandler");
+
+		JDirectClass genericType = cm.directClass("T");
+		JMethod convert = swaggerClass.method(JMod.PUBLIC, genericType, "convert");
+		convert.generify("T");
+		convert.param(cm.ref(String.class), "line");
+		convert.param(cm.ref(Class.class).narrow(genericType.wildcardExtends()), "clazz");
+	}
+
+	public void createCacheMethods() throws JClassAlreadyExistsException {
+		JTypeVar cacheMainType = cacheClass.generify("T", swaggerClass);
+		cacheClass.javadoc().addParam(cacheMainType.binaryName()).add(
+				"the type of Swagger this refers to. this parameter allows to work on specific implementation of Swagger, thus call its methdos instead of having to cast.");
+		JFieldVar cacheParent = cacheClass.field(JMod.PUBLIC | JMod.FINAL, cacheMainType, "swagger");
+
+		// add a constructor with swagger param
+		JMethod cachecons = cacheClass.constructor(JMod.PUBLIC);
+		JVar swag = cachecons.param(cacheMainType, "swag");
+		cachecons.body().assign(cacheParent, swag);
+
+		// add the pausable interface
+		JDefinedClass pausable = cacheClass._class(JMod.PUBLIC, "Pausable", EClassType.INTERFACE);
+		pausable.method(JMod.PUBLIC, cm.VOID, "pause");
+		pausable.method(JMod.PUBLIC, cm.VOID, "resume");
+
+		{
+			// add
+			// public <T> Pausable addFetchCacheArray(String name,
+			// BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+			// Consumer<List<T>> cacheHandler, String... requiredRoles)
+			methFetchCacheArray = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable,
+					"addFetchCacheArray");
+			JTypeVar typeVar = methFetchCacheArray.generify("U");
+			methFetchCacheArray.param(cm.ref(String.class), "name");
+			methFetchCacheArray.param(
+					cm.ref(BiFunction.class).narrow(cm.ref(Integer.class),
+							cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(String.class)), typeVar.array()),
+					"fetcher");
+			methFetchCacheArray.param(cm.ref(Consumer.class).narrow(cm.ref(List.class).narrow(typeVar)), "cacheHandler");
+			methFetchCacheArray.varParam(cm.ref(String.class), "requiredRoles");
+		}
+
+		{
+			// add
+			// public <T> Pausable addFetchCacheObject(String name,
+			// Function<Map<String, List<String>>,T> fetcher,
+			// Consumer<T> cacheHandler, String... requiredRoles)
+			methFetchCacheObject = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable, "addFetchCacheObject");
+			JTypeVar typeVar = methFetchCacheObject.generify("U");
+			methFetchCacheObject.param(cm.ref(String.class), "name");
+			methFetchCacheObject.param(
+					cm.ref(Function.class).narrow(
+							cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(String.class)), typeVar),
+					"fetcher");
+			methFetchCacheObject.param(cm.ref(Consumer.class).narrow(typeVar), "cacheHandler");
+			methFetchCacheObject.varParam(cm.ref(String.class), "requiredRoles");
+		}
 	}
 
 	protected void addPath(OpType optype, String path, Operation operation) {
@@ -201,86 +273,20 @@ public class Compiler {
 		}
 		Property s = r.getSchema();
 		AbstractJType retType = s == null ? cm.VOID : translateToClass(s, responsePackage, "R_" + s.getTitle());
-		JMethod meth = jc.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
+		JMethod meth = swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
+
 		List<JVar> pathparameters = new ArrayList<>();
 		List<JVar> queryparameters = new ArrayList<>();
 		List<JVar> bodyparameters = new ArrayList<>();
+		boolean connected = extractParameters(meth, operation, pathparameters, queryparameters, bodyparameters);
 
-		boolean connected = false;
-		for (Parameter p : operation.getParameters()) {
-			switch (p.getName()) {
-			case "token":
-				connected = true;
-				break;
-				// we skip following parameters
-			case "user_agent":
-			case "X-User-Agent":
-			case "datasource":
-			case "If-None-Match":
-			case "Accept-Language":
-				// case "page":
-				continue;
-			default:
-				String in = p.getIn();
-				AbstractJType pt;
-				JVar param;
-				switch (in) {
-				case "path":
-					meth.javadoc().addParam(p.getName()).add(p.getDescription());
-					PathParameter pp = (PathParameter) p;
-					pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
-					if (!pp.getRequired() && pt.isPrimitive()) {
-						pt=pt.boxify();
-					}
-					pathparameters.add(meth.param(pt, pp.getName()));
-					break;
-				case "query":
-					meth.javadoc().addParam(p.getName()).add(p.getDescription());
-					QueryParameter qp = (QueryParameter) p;
-					param = meth.param(getExistingClass(qp), qp.getName());
-					queryparameters.add(param);
-					break;
-				case "body":
-					BodyParameter bp = (BodyParameter) p;
-					Model schema = bp.getSchema();
-					if (schema instanceof ArrayModel) {
-						meth.javadoc().addParam(p.getName()).add(p.getDescription());
-						pt = getExistingClass((ArrayModel) schema);
-						param = meth.param(pt, bp.getName());
-						bodyparameters.add(param);
-					} else {
-						for (Entry<String, Property> e : schema.getProperties().entrySet()) {
-							meth.javadoc().addParam(e.getKey()).add(e.getValue().getDescription());
-							AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
-							param = meth.param(type, e.getKey());
-							bodyparameters.add(param);
-						}
-					}
-					break;
-				default:
-					logger.error("no matching type " + p.getIn() + " for parameter " + p.getName() + " in " + path);
-				}
-			}
-		}
-		meth.javadoc().append("" + operation.getSummary());
-		meth.javadoc().add(("\n<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
-				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
-		if (operation.getVendorExtensions().containsKey("x-required-roles")) {
-			Object extension = operation.getVendorExtensions().get("x-required-roles");
-			@SuppressWarnings("unchecked")
-			List<String> roles = (List<String>) extension;
-			if (!roles.isEmpty()) {
-				JFieldVar rolesfield = jc.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class).array(),
-						(operation.getOperationId() + "_roles").toUpperCase());
-				JArray array = JExpr.newArray(cm.ref(String.class));
-				for (String role : roles) {
-					array.add(JExpr.lit(role));
-				}
-				rolesfield.init(array);
-				rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
-				meth.javadoc().add("\n<p>\nrequire the roles specified {@link #" + rolesfield.name() + " here}\n</p>");
-			}
-		}
+		@SuppressWarnings("unchecked")
+		List<String> requiredRoles = operation.getVendorExtensions().containsKey("x-required-roles")
+		? (List<String>) operation.getVendorExtensions().get("x-required-roles")
+				: Collections.emptyList();
+
+		addPathJavadoc(meth, operation, requiredRoles);
+
 		JVar header = meth.param(headerhandlertype, "headerHandler");
 
 		String urlAssign = "\"" + baseURL + path + "\"";
@@ -327,6 +333,11 @@ public class Compiler {
 		case get:
 			meth.body().directStatement(
 					"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
+			if (pathparameters.size() + queryparameters.size() < 2) {
+				addCacheRetrieve(operation, meth, retType,
+						Stream.concat(pathparameters.stream(), queryparameters.stream()).findFirst().orElse(null),
+						requiredRoles);
+			}
 			break;
 		case delete:
 			meth.body().directStatement(
@@ -340,6 +351,88 @@ public class Compiler {
 					JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(retType.binaryName() + ".class")));
 		}
 
+	}
+
+	protected boolean extractParameters(JMethod meth, Operation operation, List<JVar> pathparameters,
+			List<JVar> queryparameters, List<JVar> bodyparameters) {
+		boolean connected = false;
+		for (Parameter p : operation.getParameters()) {
+			switch (p.getName()) {
+			case "token":
+				connected = true;
+				break;
+				// we skip following parameters
+			case "user_agent":
+			case "X-User-Agent":
+			case "datasource":
+			case "If-None-Match":
+			case "Accept-Language":
+				// case "page":
+				continue;
+			default:
+				String in = p.getIn();
+				AbstractJType pt;
+				JVar param;
+				switch (in) {
+				case "path":
+					meth.javadoc().addParam(p.getName()).add(p.getDescription());
+					PathParameter pp = (PathParameter) p;
+					pt = getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
+					if (!pp.getRequired() && pt.isPrimitive()) {
+						pt = pt.boxify();
+					}
+					pathparameters.add(meth.param(pt, pp.getName()));
+					break;
+				case "query":
+					meth.javadoc().addParam(p.getName()).add(p.getDescription());
+					QueryParameter qp = (QueryParameter) p;
+					param = meth.param(getExistingClass(qp), qp.getName());
+					queryparameters.add(param);
+					break;
+				case "body":
+					BodyParameter bp = (BodyParameter) p;
+					Model schema = bp.getSchema();
+					if (schema instanceof ArrayModel) {
+						meth.javadoc().addParam(p.getName()).add(p.getDescription());
+						pt = getExistingClass((ArrayModel) schema);
+						param = meth.param(pt, bp.getName());
+						bodyparameters.add(param);
+					} else {
+						for (Entry<String, Property> e : schema.getProperties().entrySet()) {
+							meth.javadoc().addParam(e.getKey()).add(e.getValue().getDescription());
+							AbstractJType type = translateToClass(e.getValue(), structurePackage, e.getKey());
+							param = meth.param(type, e.getKey());
+							bodyparameters.add(param);
+						}
+					}
+					break;
+				default:
+					logger.error(
+							"no matching type " + p.getIn() + " for parameter " + p.getName() + " in operation "
+									+ operation.getOperationId());
+				}
+			}
+		}
+		return connected;
+	}
+
+	protected void addPathJavadoc(JMethod meth, Operation operation, List<String> requiredRoles) {
+		meth.javadoc().append("" + operation.getSummary());
+		meth.javadoc().add(("\n<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
+				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
+		if (!requiredRoles.isEmpty()) {
+			if (!requiredRoles.isEmpty()) {
+				JFieldVar rolesfield = swaggerClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class).array(),
+						(operation.getOperationId() + "_roles").toUpperCase());
+				JArray array = JExpr.newArray(cm.ref(String.class));
+				for (String role : requiredRoles) {
+					array.add(JExpr.lit(role));
+				}
+				rolesfield.init(array);
+				rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
+				meth.javadoc().add("\n<p>\nrequire the roles specified {@link #" + rolesfield.name() + " here}\n</p>");
+			}
+		}
 	}
 
 	/**
@@ -408,7 +501,7 @@ public class Compiler {
 	protected AbstractJType getStringEnum(String name, List<String> enums) {
 		JDefinedClass ret = null;
 		try {
-			ret = jc._enum(JMod.PUBLIC | JMod.STATIC, name);
+			ret = swaggerClass._enum(JMod.PUBLIC | JMod.STATIC, name);
 			JFieldVar toStringf = ret.field(JMod.PUBLIC | JMod.FINAL, cm.ref(String.class), "toString");
 			JMethod constr = ret.constructor(0);
 			JVar toStringp = constr.param(cm.ref(String.class), "toString");
@@ -423,7 +516,7 @@ public class Compiler {
 			return ret;
 		} catch (JClassAlreadyExistsException e) {
 			// logger.info("can't recreate enum " + name + " with values " + enums);
-			for (JDefinedClass cl : jc.classes()) {
+			for (JDefinedClass cl : swaggerClass.classes()) {
 				if (cl.name().equals(name)) {
 					return cl;
 				}
@@ -483,4 +576,60 @@ public class Compiler {
 		AbstractJType arraCl = translateToClass(p.getItems(), pck, name);
 		return arraCl.array();
 	}
+
+	protected void addCacheRetrieve(Operation operation, JMethod meth, AbstractJType retType, JVar parameter,
+			List<String> requiredRoles) {
+		String fieldName = operation.getOperationId().split("_")[1];
+		JDefinedClass containerClass = getCacheSubClass(fieldName);
+		if (retType.isArray()) {
+
+		} else {
+			if (parameter == null) {
+				JVar container = containerClass.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(retType),
+						operation.getOperationId() + "_container").init(JExpr._null());
+				JMethod retrieveMeth = containerClass.method(JMod.PUBLIC,
+						cm.ref(javafx.beans.property.Property.class).narrow(retType), operation.getOperationId());
+				JBlock instanceBlock = retrieveMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+						._if(container.eqNull())._then();
+				instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+				JInvocation invoke = instanceBlock.invoke(methFetchCacheObject).arg(operation.getOperationId());
+				invoke.arg(JExpr.direct("m->swagger." + meth.name() + "(m)"));
+				invoke.arg(JExpr.direct(container.name() + "::set"));
+				if (!requiredRoles.isEmpty()) {
+					JArray array = JExpr.newArray(cm.ref(String.class));
+					for (String s : requiredRoles) {
+						array.add(JExpr.lit(s));
+					}
+					invoke.arg(array);
+				}
+				retrieveMeth.body()._return(container);
+			}
+		}
+	}
+
+	protected Map<String, JDefinedClass> cacheSubClasses = new HashMap<>();
+
+	/**
+	 * get the subclass for given path. Instead of putting all methods in the same
+	 *
+	 * @param path
+	 * @return
+	 */
+	public JDefinedClass getCacheSubClass(String path) {
+		JDefinedClass ret = cacheSubClasses.get(path);
+		if (ret == null) {
+			try {
+				ret = cacheClass._class(JMod.PUBLIC, path);
+				cacheSubClasses.put(path, ret);
+				// need to make direct call or the generated class is ugly(makes
+				// reference to the enclosing unparametrized class)
+				JDirectClass direct = cm.directClass(path);
+				cacheClass.field(JMod.PUBLIC | JMod.FINAL, direct, path).init(JExpr._new(direct));
+			} catch (JClassAlreadyExistsException e) {
+				throw new UnsupportedOperationException("catch this", e);
+			}
+		}
+		return ret;
+	}
+
 }

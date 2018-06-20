@@ -134,6 +134,11 @@
 				<artifactId>SDE-Full</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.helger</groupId>
+				<artifactId>jcodemodel</artifactId>
+				<version>3.0.3</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<scm>

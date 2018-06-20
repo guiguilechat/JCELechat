@@ -61,7 +61,8 @@ public class Corporation {
 		synchronized (jobLatch) {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
-				con.addFetchCacheArray(con.characterName() + ".corporationjobs", (p, h) -> con.raw
+				con.raw.cache.addFetchCacheArray(
+						con.characterName() + ".corporationjobs", (p, h) -> con.raw
 						.get_corporations_corporation_id_industry_jobs(con.character.infos.corporationId().get(), false, p, h),
 						this::handleNewJobs, "Factory_Manager"
 						// remove hack by replacing the hardcoded string with

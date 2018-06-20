@@ -19,7 +19,7 @@ public class LocationCache {
 
 	public LocationCache(ESIAccount acc) {
 		account = acc;
-		acc.addFetchCacheObject(account.characterName() + ".locations",
+		acc.raw.cache.addFetchCacheObject(account.characterName() + ".locations",
 				h -> acc.raw.get_characters_character_id_location(acc.characterId(), h),
 				this::handleNewCache);
 	}

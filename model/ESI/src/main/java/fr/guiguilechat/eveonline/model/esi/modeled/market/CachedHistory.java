@@ -25,7 +25,7 @@ public class CachedHistory {
 		this.regionalMarket = regionalMarket;
 		this.typeID = typeID;
 		ESIAccount acc = regionalMarket.markets.esiConnection;
-		acc.addFetchCacheArray(acc.characterName() + ".history_r" + regionalMarket.regionID + "_i" + typeID,
+		acc.raw.cache.addFetchCacheArray(acc.characterName() + ".history_r" + regionalMarket.regionID + "_i" + typeID,
 				(p, h) -> acc.raw.get_markets_region_id_history(regionalMarket.regionID, typeID, h), this::handleHistory);
 	}
 

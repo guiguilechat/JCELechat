@@ -51,6 +51,8 @@ public class ESIConnection implements Swagger {
 
 	protected AccessToken accessToken = null;
 
+	public final Cache cache = new Cache(this);
+
 	public ESIConnection(String refreshToken, String basicAuth) {
 		this.basicAuth = basicAuth;
 		this.refreshToken = refreshToken;
@@ -291,12 +293,22 @@ public class ESIConnection implements Swagger {
 		public String IntellectualProperty;
 	}
 
+	private R_Verify verify;
+
 	public R_Verify verify() {
-		return convert(connectGet("https://login.eveonline.com/oauth/verify", true, null), R_Verify.class);
+		if (verify == null) {
+			synchronized (this) {
+				if (verify == null) {
+					verify = convert(connectGet("https://login.eveonline.com/oauth/verify", true, null), R_Verify.class);
+				}
+			}
+		}
+		return verify;
 	}
 
 	private final ObjectMapper mapper = new ObjectMapper();
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public <T> T convert(String line, Class<? extends T> clazz) {
 		try {

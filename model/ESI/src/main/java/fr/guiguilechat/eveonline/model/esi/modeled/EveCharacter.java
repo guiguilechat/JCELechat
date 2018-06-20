@@ -67,7 +67,7 @@ public class EveCharacter {
 				rolesHQCache = FXCollections.observableSet();
 				rolesBaseCache = FXCollections.observableSet();
 				rolesOtherCache = FXCollections.observableSet();
-				con.addFetchCacheObject(con.characterName() + ".roles",
+				con.raw.cache.addFetchCacheObject(con.characterName() + ".roles",
 						(h) -> con.raw.get_characters_character_id_roles(con.characterId(), h), this::handleNewRoles);
 			}
 		}
@@ -173,7 +173,7 @@ public class EveCharacter {
 		synchronized (jobLatch) {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
-				con.addFetchCacheArray(con.characterName() + ".industryjobs",
+				con.raw.cache.addFetchCacheArray(con.characterName() + ".industryjobs",
 						(p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
 						this::handleNewJobs);
 			}
