@@ -585,26 +585,61 @@ public class Compiler {
 
 		} else {
 			if (parameter == null) {
-				JVar container = containerClass.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(retType),
-						operation.getOperationId() + "_container").init(JExpr._null());
-				JMethod retrieveMeth = containerClass.method(JMod.PUBLIC,
-						cm.ref(javafx.beans.property.Property.class).narrow(retType), operation.getOperationId());
-				JBlock instanceBlock = retrieveMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
-						._if(container.eqNull())._then();
-				instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
-				JInvocation invoke = instanceBlock.invoke(methFetchCacheObject).arg(operation.getOperationId());
-				invoke.arg(JExpr.direct("m->swagger." + meth.name() + "(m)"));
-				invoke.arg(JExpr.direct(container.name() + "::set"));
-				if (!requiredRoles.isEmpty()) {
-					JArray array = JExpr.newArray(cm.ref(String.class));
-					for (String s : requiredRoles) {
-						array.add(JExpr.lit(s));
-					}
-					invoke.arg(array);
-				}
-				retrieveMeth.body()._return(container);
+				addCacheFetchObject(operation, meth, retType, requiredRoles, containerClass);
+			} else {
+				addCacheFetchObject(operation, meth, retType, requiredRoles, containerClass, parameter);
 			}
 		}
+	}
+
+	protected void addCacheFetchObject(Operation operation, JMethod meth, AbstractJType retType,
+			List<String> requiredRoles, JDefinedClass containerClass) {
+		JVar container = containerClass.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(retType),
+				operation.getOperationId() + "_container").init(JExpr._null());
+		JMethod retrieveMeth = containerClass.method(JMod.PUBLIC,
+				cm.ref(javafx.beans.property.Property.class).narrow(retType), operation.getOperationId());
+		JBlock instanceBlock = retrieveMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+				._if(container.eqNull())._then();
+		instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+		JInvocation invoke = instanceBlock.invoke(methFetchCacheObject).arg(operation.getOperationId());
+		invoke.arg(JExpr.direct("m->swagger." + meth.name() + "(m)"));
+		invoke.arg(JExpr.direct(container.name() + "::set"));
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		retrieveMeth.body()._return(container);
+	}
+
+	protected void addCacheFetchObject(Operation operation, JMethod meth, AbstractJType retType,
+			List<String> requiredRoles, JDefinedClass containerClass, JVar parameter) {
+		AbstractJClass mapKeyType = parameter.type().boxify();
+		JVar container = containerClass.field(JMod.PRIVATE,
+				cm.ref(HashMap.class).narrow(mapKeyType, cm.ref(SimpleObjectProperty.class).narrow(retType)),
+				operation.getOperationId() + "_container").init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+		JMethod retrieveMeth = containerClass.method(JMod.PUBLIC,
+				cm.ref(javafx.beans.property.Property.class).narrow(retType), operation.getOperationId());
+		JVar param = retrieveMeth.param(parameter.type(), "param");
+		JVar holder = retrieveMeth.body().decl(cm.ref(SimpleObjectProperty.class).narrow(retType), "holder");
+		holder.init(container.invoke("get").arg(param));
+		JBlock instanceBlock = retrieveMeth.body()._if(holder.eqNull())._then().synchronizedBlock(container).body()
+				.assign(holder, container.invoke("get").arg(param))._if(holder.eqNull())._then();
+		instanceBlock.assign(holder, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+		instanceBlock.invoke(container, "put").arg(param).arg(holder);
+		JInvocation invoke = instanceBlock.invoke(methFetchCacheObject).arg(operation.getOperationId());
+		invoke.arg(JExpr.direct("m->swagger." + meth.name() + "(param, m)"));
+		invoke.arg(JExpr.direct(holder.name() + "::set"));
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		retrieveMeth.body()._return(holder);
 	}
 
 	protected Map<String, JDefinedClass> cacheSubClasses = new HashMap<>();
