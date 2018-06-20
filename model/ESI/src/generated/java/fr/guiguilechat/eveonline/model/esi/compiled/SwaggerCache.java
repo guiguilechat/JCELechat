@@ -53,22 +53,22 @@ import javafx.beans.property.SimpleObjectProperty;
  */
 public abstract class SwaggerCache<T extends Swagger> {
     public final T swagger;
-    public final alliances alliances = new alliances();
-    public final characters characters = new characters();
-    public final corporations corporations = new corporations();
-    public final dogma dogma = new dogma();
-    public final fleets fleets = new fleets();
-    public final fw fw = new fw();
-    public final incursions incursions = new incursions();
-    public final industry industry = new industry();
-    public final insurance insurance = new insurance();
-    public final loyalty loyalty = new loyalty();
-    public final markets markets = new markets();
-    public final opportunities opportunities = new opportunities();
-    public final sovereignty sovereignty = new sovereignty();
-    public final status status = new status();
-    public final universe universe = new universe();
-    public final wars wars = new wars();
+    public final Alliances alliances = new Alliances();
+    public final Characters characters = new Characters();
+    public final Corporations corporations = new Corporations();
+    public final Dogma dogma = new Dogma();
+    public final Fleets fleets = new Fleets();
+    public final Fw fw = new Fw();
+    public final Incursions incursions = new Incursions();
+    public final Industry industry = new Industry();
+    public final Insurance insurance = new Insurance();
+    public final Loyalty loyalty = new Loyalty();
+    public final Markets markets = new Markets();
+    public final Opportunities opportunities = new Opportunities();
+    public final Sovereignty sovereignty = new Sovereignty();
+    public final Status status = new Status();
+    public final Universe universe = new Universe();
+    public final Wars wars = new Wars();
 
     public SwaggerCache(T swag) {
         swagger = swag;
@@ -78,7 +78,7 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public abstract<U> SwaggerCache.Pausable addFetchCacheObject(String name, Function<Map<String, List<String>> , U> fetcher, Consumer<U> cacheHandler, String... requiredRoles);
 
-    public class alliances {
+    public class Alliances {
         private HashMap<Integer, SimpleObjectProperty<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_alliances_alliance_id>> get_alliances_alliance_id_container = new HashMap<>();
 
@@ -115,7 +115,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class characters {
+    public class Characters {
         private HashMap<Integer, SimpleObjectProperty<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_container = new HashMap<>();
@@ -356,7 +356,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class corporations {
+    public class Corporations {
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_container = new HashMap<>();
@@ -444,7 +444,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class dogma {
+    public class Dogma {
         private HashMap<Integer, SimpleObjectProperty<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_container = new HashMap<>();
 
@@ -481,7 +481,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class fleets {
+    public class Fleets {
         private HashMap<Long, SimpleObjectProperty<R_get_fleets_fleet_id>> get_fleets_fleet_id_container = new HashMap<>();
 
         public Property<R_get_fleets_fleet_id> get_fleets_fleet_id(long param) {
@@ -501,7 +501,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class fw {
+    public class Fw {
         private SimpleObjectProperty<R_get_fw_leaderboards> get_fw_leaderboards_container = null;
         private SimpleObjectProperty<R_get_fw_leaderboards_characters> get_fw_leaderboards_characters_container = null;
         private SimpleObjectProperty<R_get_fw_leaderboards_corporations> get_fw_leaderboards_corporations_container = null;
@@ -546,22 +546,22 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class incursions {
+    public class Incursions {
     }
 
-    public class industry {
+    public class Industry {
     }
 
-    public class insurance {
+    public class Insurance {
     }
 
-    public class loyalty {
+    public class Loyalty {
     }
 
-    public class markets {
+    public class Markets {
     }
 
-    public class opportunities {
+    public class Opportunities {
         private HashMap<Integer, SimpleObjectProperty<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_container = new HashMap<>();
 
         public Property<R_get_opportunities_tasks_task_id> get_opportunities_tasks_task_id(int param) {
@@ -588,10 +588,10 @@ public abstract class SwaggerCache<T extends Swagger> {
         public void resume();
     }
 
-    public class sovereignty {
+    public class Sovereignty {
     }
 
-    public class status {
+    public class Status {
         private SimpleObjectProperty<R_get_status> get_status_container = null;
 
         public Property<R_get_status> get_status() {
@@ -608,7 +608,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class universe {
+    public class Universe {
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id>> get_universe_asteroid_belts_asteroid_belt_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_graphics_graphic_id>> get_universe_graphics_graphic_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_moons_moon_id>> get_universe_moons_moon_id_container = new HashMap<>();
@@ -764,7 +764,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
-    public class wars {
+    public class Wars {
         private HashMap<Integer, SimpleObjectProperty<R_get_wars_war_id>> get_wars_war_id_container = new HashMap<>();
 
         public Property<R_get_wars_war_id> get_wars_war_id(int param) {

@@ -582,7 +582,7 @@ public class Compiler {
 		String fieldName = operation.getOperationId().split("_")[1];
 		JDefinedClass containerClass = getCacheSubClass(fieldName);
 		if (retType.isArray()) {
-
+			// TODO if return an array of items
 		} else {
 			if (parameter == null) {
 				addCacheFetchObject(operation, meth, retType, requiredRoles, containerClass);
@@ -654,11 +654,11 @@ public class Compiler {
 		JDefinedClass ret = cacheSubClasses.get(path);
 		if (ret == null) {
 			try {
-				ret = cacheClass._class(JMod.PUBLIC, path);
+				ret = cacheClass._class(JMod.PUBLIC, path.substring(0, 1).toUpperCase() + path.substring(1));
 				cacheSubClasses.put(path, ret);
 				// need to make direct call or the generated class is ugly(makes
 				// reference to the enclosing unparametrized class)
-				JDirectClass direct = cm.directClass(path);
+				JDirectClass direct = cm.directClass(ret.name());
 				cacheClass.field(JMod.PUBLIC | JMod.FINAL, direct, path).init(JExpr._new(direct));
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("catch this", e);
