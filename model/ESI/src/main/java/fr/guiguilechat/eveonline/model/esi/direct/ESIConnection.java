@@ -295,11 +295,24 @@ public class ESIConnection implements Swagger {
 
 	private R_Verify verify;
 
+	private static final R_Verify NULLVERIFY = new R_Verify() {
+		{
+			CharacterID = 0;
+			CharacterName = "DISCONNECTED";
+			ExpiresOn = "";
+			Scopes = "";
+			TokenType = "";
+			CharacterOwnerHash = "";
+			IntellectualProperty = "";
+		}
+	};
+
 	public R_Verify verify() {
 		if (verify == null) {
 			synchronized (this) {
 				if (verify == null) {
-					verify = convert(connectGet("https://login.eveonline.com/oauth/verify", true, null), R_Verify.class);
+					verify = isNull() ? NULLVERIFY
+							: convert(connectGet("https://login.eveonline.com/oauth/verify", true, null), R_Verify.class);
 				}
 			}
 		}

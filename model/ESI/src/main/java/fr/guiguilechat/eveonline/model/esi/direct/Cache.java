@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.esi.compiled.SwaggerCache;
+import fr.guiguilechat.tools.JavaFxTools;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleBooleanProperty;
@@ -41,9 +42,18 @@ public class Cache extends SwaggerCache<ESIConnection> {
 
 	// execution of data retrieval
 
+	private ObservableSet<String> roles;
+
 	public ObservableSet<String> getRoles() {
-		// TODO
-		return null;
+		if (roles == null) {
+			synchronized (swagger) {
+				if (roles == null) {
+					roles = JavaFxTools.makeSet(characters.get_characters_character_id_roles(swagger.verify().CharacterID),
+							r -> Arrays.asList(r.roles));
+				}
+			}
+		}
+		return roles;
 	}
 
 	// we set daemon otherwise the thread will prevent jvm from running.
