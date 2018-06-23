@@ -16,9 +16,9 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.model.Tools;
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_corporation_2;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers_required_items;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_factions;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
@@ -193,7 +193,7 @@ public class NPCsTranslater {
 		lpo.name = typesbyID.get(o.type_id).enName();
 		lpo.id = o.offer_id;
 
-		for (R_get_loyalty_stores_corporation_id_offers_required_items ir : o.required_items) {
+		for (M_get_corporation_2 ir : o.required_items) {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
 			translated.item = typesbyID.get(ir.type_id).enName();

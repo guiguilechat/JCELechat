@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_bookmarks_9;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener.Change;
@@ -35,19 +35,19 @@ public class Bookmarks {
 		}
 	}
 
-	private ObservableMap<Integer, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> bookmarksByFolderId = FXCollections
+	private ObservableMap<Integer, ObservableMap<Integer, M_get_bookmarks_9>> bookmarksByFolderId = FXCollections
 			.observableHashMap();
 
-	protected void handleNewBookmarks(List<R_get_corporations_corporation_id_bookmarks> bms) {
+	protected void handleNewBookmarks(List<M_get_bookmarks_9> bms) {
 		synchronized (bookmarksByFolderId) {
-			for (R_get_corporations_corporation_id_bookmarks f : bms) {
-				ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks> m = bookmarksByFolderId.get(f.folder_id);
+			for (M_get_bookmarks_9 f : bms) {
+				ObservableMap<Integer, M_get_bookmarks_9> m = bookmarksByFolderId.get(f.folder_id);
 				if (m == null) {
 					m = FXCollections.observableMap(new LinkedHashMap<>());
 					bookmarksByFolderId.put(f.folder_id, m);
 				}
 				m.put(f.bookmark_id, f);
-				for (Entry<Integer, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> e : bookmarksByFolderId
+				for (Entry<Integer, ObservableMap<Integer, M_get_bookmarks_9>> e : bookmarksByFolderId
 						.entrySet()) {
 					if (e.getKey() != f.folder_id) {
 						e.getValue().remove(f.bookmark_id);
@@ -57,13 +57,13 @@ public class Bookmarks {
 		}
 	}
 
-	private ObservableMap<String, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> bookmarks = null;
+	private ObservableMap<String, ObservableMap<Integer, M_get_bookmarks_9>> bookmarks = null;
 
 	/**
 	 *
 	 * @return the cached list of observable bookmarks, by folder->id->bookmark.
 	 */
-	public ObservableMap<String, ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> getBookmarks() {
+	public ObservableMap<String, ObservableMap<Integer, M_get_bookmarks_9>> getBookmarks() {
 		if (bookmarks == null) {
 			synchronized (this) {
 				if (bookmarks == null) {
@@ -99,7 +99,7 @@ public class Bookmarks {
 				bookmarks.remove(change.getValueRemoved());
 			} else {
 				if (change.wasAdded()) {
-					ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks> add = bookmarksByFolderId
+					ObservableMap<Integer, M_get_bookmarks_9> add = bookmarksByFolderId
 							.get(change.getKey());
 					if (add == null) {
 						add = FXCollections.observableHashMap();
@@ -114,7 +114,7 @@ public class Bookmarks {
 
 	/** listener when a folder is added */
 	private void onBMChange(
-			Change<? extends Integer, ? extends ObservableMap<Integer, R_get_corporations_corporation_id_bookmarks>> change) {
+			Change<? extends Integer, ? extends ObservableMap<Integer, M_get_bookmarks_9>> change) {
 		synchronized (bookmarks) {
 			if (change.wasAdded()) {
 				String name = foldersById.get(change.getKey());

@@ -12,8 +12,8 @@ import java.util.stream.Stream;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.Swagger;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.esi.modeled.corporation.Bookmarks;
@@ -116,13 +116,13 @@ public class Corporation {
 	public ObservableMap<Long, ObservableMap<Integer, Integer>> getAssets() {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
-				R_get_corporations_corporation_id_assets[] itemsArr = ESIConnection
+				M_get_assets_8[] itemsArr = ESIConnection
 						.loadPages(
 								(p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.infos.corporationId().get(), p,
 										h),
 								l -> assetsExpire = l)
 						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
-						.toArray(R_get_corporations_corporation_id_assets[]::new);
+						.toArray(M_get_assets_8[]::new);
 				// we make the map of itemid->locations. if a location is actually an
 				// asset, we
 				// iterally map it to this asset's location instead
@@ -153,7 +153,7 @@ public class Corporation {
 		return cachedAssets;
 	}
 
-	private static Map<Integer, Integer> makeMap(R_get_corporations_corporation_id_assets asset) {
+	private static Map<Integer, Integer> makeMap(M_get_assets_8 asset) {
 		Map<Integer, Integer> ret = new HashMap<>();
 		ret.put(asset.type_id, asset.quantity);
 		return ret;
@@ -166,19 +166,20 @@ public class Corporation {
 		return m1;
 	}
 
-	private ObservableList<R_get_corporations_corporation_id_blueprints> cachedBlueprints = FXCollections
+	private ObservableList<M_get_blueprints_8> cachedBlueprints = FXCollections
 			.observableArrayList();
 
 	private long cachedBlueprintsExpire = 0;
 
-	public ObservableList<R_get_corporations_corporation_id_blueprints> getBlueprints() {
+	public ObservableList<M_get_blueprints_8> getBlueprints() {
 		if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 			synchronized (cachedBlueprints) {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
-					List<R_get_corporations_corporation_id_blueprints> bps = ESIConnection.loadPages(
-							(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.infos.corporationId().get(), p,
-									h),
-							l -> cachedBlueprintsExpire = l);
+					List<M_get_blueprints_8> bps = ESIConnection
+							.loadPages(
+									(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.infos.corporationId().get(), p,
+											h),
+									l -> cachedBlueprintsExpire = l);
 					if (bps != null) {
 						cachedBlueprints.setAll(bps);
 					}

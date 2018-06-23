@@ -1,8 +1,20 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
 public class R_get_universe_moons_moon_id {
+    /**
+     * moon_id integer
+     */
     public int moon_id;
+    /**
+     * name string
+     */
     public String name;
-    public R_get_universe_moons_moon_id_position position;
+    /**
+     * position object
+     */
+    public M_3_xnumber_ynumber_znumber position;
+    /**
+     * The solar system this moon is in
+     */
     public int system_id;
 }

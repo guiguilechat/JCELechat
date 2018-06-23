@@ -1,14 +1,44 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
 public class R_post_universe_ids {
-    public R_post_universe_ids_agents[] agents;
-    public R_post_universe_ids_alliances[] alliances;
-    public R_post_universe_ids_characters[] characters;
-    public R_post_universe_ids_constellations[] constellations;
-    public R_post_universe_ids_corporations[] corporations;
-    public R_post_universe_ids_factions[] factions;
-    public R_post_universe_ids_inventory_types[] inventory_types;
-    public R_post_universe_ids_regions[] regions;
-    public R_post_universe_ids_stations[] stations;
-    public R_post_universe_ids_systems[] systems;
+    /**
+     * agents array
+     */
+    public M_2_namestring_idinteger[] agents;
+    /**
+     * alliances array
+     */
+    public M_2_namestring_idinteger[] alliances;
+    /**
+     * characters array
+     */
+    public M_2_namestring_idinteger[] characters;
+    /**
+     * constellations array
+     */
+    public M_2_namestring_idinteger[] constellations;
+    /**
+     * corporations array
+     */
+    public M_2_namestring_idinteger[] corporations;
+    /**
+     * factions array
+     */
+    public M_2_namestring_idinteger[] factions;
+    /**
+     * inventory_types array
+     */
+    public M_2_namestring_idinteger[] inventory_types;
+    /**
+     * regions array
+     */
+    public M_2_namestring_idinteger[] regions;
+    /**
+     * stations array
+     */
+    public M_2_namestring_idinteger[] stations;
+    /**
+     * systems array
+     */
+    public M_2_namestring_idinteger[] systems;
 }

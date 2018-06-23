@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -15,7 +16,6 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -146,6 +146,19 @@ public class Compiler {
 		responsePackage = cm._package(rootPackage + "." + responsesPackage);
 		structurePackage = cm._package(rootPackage + "." + structuresPackage);
 
+		// first pass to fetch all the responses
+		for (Path path : swagger.getPaths().values()) {
+			addResponseType(path.getGet());
+			addResponseType(path.getPost());
+		}
+		// then we merge all response types that have same structure.
+		// this makes a map of renames
+		mergeResponseTypes();
+
+		for (Entry<String, String> e : structureRenames.entrySet()) {
+			System.err.println(e.getKey() + "->" + e.getValue());
+		}
+
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
@@ -256,10 +269,30 @@ public class Compiler {
 		}
 	}
 
-	protected void addPath(OpType optype, String path, Operation operation) {
+	protected void addResponseType(Operation operation) {
 		if (operation == null) {
 			return;
 		}
+		Response r = getResponse(operation);
+		if (r == null) {
+			return;
+		}
+		Property prop = r.getSchema();
+		ObjectProperty op = getPropertyObject(prop);
+		if (op != null) {
+			System.err.println("prop " + op.getTitle());
+			registerResponseType(prop.getTitle(), op);
+			for (Property subprop : op.getProperties().values()) {
+				ObjectProperty subop = getPropertyObject(subprop);
+				if (subop != null) {
+					System.err.println(" subprop " + subop.getTitle());
+					registerResponseType(subprop.getTitle(), subop);
+				}
+			}
+		}
+	}
+
+	protected Response getResponse(Operation operation) {
 		Response r = operation.getResponses().get("200");
 		if (r == null) {
 			r = operation.getResponses().get("201");
@@ -267,12 +300,116 @@ public class Compiler {
 		if (r == null) {
 			r = operation.getResponses().get("204");
 		}
+		return r;
+	}
+
+	/**
+	 * get an ObjectProperty if the property is already {@link ObjectProperty} or
+	 * an {@link ArrayProperty} containing an {@link ObjectProperty}
+	 *
+	 * @param s
+	 * @return the corresponding object property, or null.
+	 */
+	protected ObjectProperty getPropertyObject(Property s) {
+		if (s == null) {
+			return null;
+		}
+		switch (s.getType()) {
+		case ObjectProperty.TYPE:
+			return (ObjectProperty) s;
+		case ArrayProperty.TYPE:
+			Property second = ((ArrayProperty) s).getItems();
+			if (second.getType() == ObjectProperty.TYPE) {
+				return (ObjectProperty) second;
+			}
+		default:
+			return null;
+		}
+	}
+
+	protected HashMap<Map<String, String>, Set<String>> knownStructures = new HashMap<>();
+
+	protected void registerResponseType(String name, ObjectProperty structure) {
+		Map<String, String> classDef = structure.getProperties().entrySet().stream()
+				.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().getType()));
+		Set<String> set = knownStructures.get(classDef);
+		if (set == null) {
+			set = new HashSet<>();
+			knownStructures.put(classDef, set);
+		}
+		System.err.println("  registering " + name + " among set size " + set.size());
+		set.add(name);
+	}
+
+	protected HashMap<String, String> structureRenames = new HashMap<>();
+
+	protected void mergeResponseTypes() {
+		for (Entry<Map<String, String>, Set<String>> e : knownStructures.entrySet()) {
+			String newName = mergeClassesNames(e.getKey(), e.getValue());
+			for (String oldName : e.getValue()) {
+				structureRenames.put(oldName, newName);
+			}
+		}
+	}
+
+	/**
+	 * try find a common name for several classes that have same structure.
+	 * <p>
+	 * first try to use common parts.<br />
+	 * ex R_get_bla_bli and R_get_bla_blo will result in R_get_bla.
+	 * </p>
+	 * <p>
+	 * then if too small, add in the structure of the class<br />
+	 * ex {i:int j:char} will be translated in iint_jchar and appended to the
+	 * name.
+	 * </p>
+	 *
+	 * @param classDef
+	 *          the structural definition of the classes
+	 * @param names
+	 *          the list of names of classes that have this structure
+	 * @return the common name to use
+	 */
+	protected String mergeClassesNames(Map<String, String> classDef, Set<String> names) {
+		if (names.size() == 1) {
+			return ("R_" + names.iterator().next()).replaceAll("_ok", "");
+		}
+		ArrayList<String> tokens = new ArrayList<>(Arrays.asList(names.iterator().next().split("_")));
+		for (String name : names) {
+			tokens.retainAll(Arrays.asList(name.split("_")));
+		}
+		tokens.removeIf(s -> s.equals("id") || s.equals("R") || s.equals("ok"));
+		tokens.add(0, "M");
+		tokens.add("" + classDef.size());
+		String common = tokens.stream().collect(Collectors.joining("_"));
+		if (tokens.size() < 3) {
+			common += "_" + classDef.entrySet().stream().map(e -> e.getKey() + e.getValue()).collect(Collectors.joining("_"));
+		}
+		logger.debug("merging " + names + " into " + common);
+		return common;
+	}
+
+	protected String headerHandlerName = "headerHandler";
+
+	protected void addPath(OpType optype, String path, Operation operation) {
+		if (operation == null) {
+			return;
+		}
+		Response r = getResponse(operation);
 		if (r == null) {
-			logger.error("can't find response for path " + path);
+			logger.error("can't find response for path " + path + " " + optype);
 			return;
 		}
 		Property s = r.getSchema();
-		AbstractJType retType = s == null ? cm.VOID : translateToClass(s, responsePackage, "R_" + s.getTitle());
+
+
+		AbstractJType retType;
+		if (s == null) {
+			retType= cm.VOID;
+		} else {
+			String className = structureRenames.get(s.getTitle());
+			retType= translateToClass(s, responsePackage, className);
+		}
 		JMethod meth = swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
 
 		List<JVar> pathparameters = new ArrayList<>();
@@ -287,7 +424,7 @@ public class Compiler {
 
 		addPathJavadoc(meth, operation, requiredRoles);
 
-		JVar header = meth.param(headerhandlertype, "headerHandler");
+		JVar header = meth.param(headerhandlertype, headerHandlerName);
 
 		String urlAssign = "\"" + baseURL + path + "\"";
 		for (JVar jv : pathparameters) {
@@ -332,16 +469,12 @@ public class Compiler {
 			break;
 		case get:
 			meth.body().directStatement(
-					"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", headerHandler);");
-			if (pathparameters.size() + queryparameters.size() < 2) {
-				addCacheRetrieve(operation, meth, retType,
-						Stream.concat(pathparameters.stream(), queryparameters.stream()).findFirst().orElse(null),
-						requiredRoles);
-			}
+					"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
+			createCache(operation, meth, r, retType, requiredRoles);
 			break;
 		case delete:
 			meth.body().directStatement(
-					"connectDel(url," + Boolean.toString(connected) + ", headerHandler);");
+					"connectDel(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
 			break;
 		default:
 			throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
@@ -353,6 +486,22 @@ public class Compiler {
 
 	}
 
+	/**
+	 * extract the parameters from an operation and put them in corresponding
+	 * list. also add javadoc on the method.
+	 *
+	 * @param meth
+	 *          the method wed are creating, to add the javadoc.
+	 * @param operation
+	 *          the operation we create the method from.
+	 * @param pathparameters
+	 *          the list to add the path parameters into.
+	 * @param queryparameters
+	 *          the list to add the query parameters into.
+	 * @param bodyparameters
+	 *          the list to add body parameters into.
+	 * @return true if the parameters deduced the path requires to be connected
+	 */
 	protected boolean extractParameters(JMethod meth, Operation operation, List<JVar> pathparameters,
 			List<JVar> queryparameters, List<JVar> bodyparameters) {
 		boolean connected = false;
@@ -526,7 +675,7 @@ public class Compiler {
 	}
 
 	protected AbstractJType getExistingClass(ArrayModel model) {
-		return translateToClass(model.getItems(), structurePackage, "S_" + model.getTitle()).array();
+		return translateToClass(model.getItems(), structurePackage, model.getTitle()).array();
 	}
 
 	protected AbstractJType getExistingClass(QueryParameter pp) {
@@ -550,22 +699,29 @@ public class Compiler {
 		}
 	}
 
-	protected HashMap<Map<String, String>, AbstractJClass> createdClasses = new HashMap<>();
+	protected HashMap<Map<String, String>, JDefinedClass> createdClasses = new HashMap<>();
 
-	protected AbstractJClass translateToClass(ObjectProperty p, JPackage pck, String name) {
+	protected JDefinedClass translateToClass(ObjectProperty p, JPackage pck, String name) {
 		Map<String, String> classDef = p.getProperties().entrySet().stream()
 				.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().getType()));
-		AbstractJClass createdClass = createdClasses.get(classDef);
+		JDefinedClass createdClass = createdClasses.get(classDef);
+		if (createdClass != null) {
+			return createdClass;
+		}
 		try {
 			JDefinedClass cl = pck._class(name.replaceAll("_ok", ""));
-			if (createdClass != null) {
-				cl._extends(createdClass);
-			} else {
-				for (Entry<String, Property> e : p.getProperties().entrySet()) {
-					cl.field(JMod.PUBLIC, translateToClass(e.getValue(), pck, name + "_" + e.getKey()), e.getKey());
-				}
-				createdClasses.put(classDef, cl);
+			// if (createdClass != null) {
+			// cl._extends(createdClass);
+			// } else {
+			for (Entry<String, Property> e : p.getProperties().entrySet()) {
+				Property prop = e.getValue();
+				JFieldVar field = cl.field(JMod.PUBLIC,
+						translateToClass(prop, pck, structureRenames.getOrDefault(prop.getTitle(), prop.getTitle())),
+						e.getKey());
+				field.javadoc().add(prop.getDescription());
 			}
+			createdClasses.put(classDef, cl);
+			// }
 			return cl;
 		} catch (JClassAlreadyExistsException e) {
 			throw new UnsupportedOperationException("catch this", e);
@@ -577,22 +733,54 @@ public class Compiler {
 		return arraCl.array();
 	}
 
-	protected void addCacheRetrieve(Operation operation, JMethod meth, AbstractJType retType, JVar parameter,
+	protected void createCache(Operation operation, JMethod meth, Response r, AbstractJType retType,
 			List<String> requiredRoles) {
 		String fieldName = operation.getOperationId().split("_")[1];
 		JDefinedClass containerClass = getCacheSubClass(fieldName);
 		if (retType.isArray()) {
-			// TODO if return an array of items
+			List<JVar> remainingArgs = meth.params().stream()
+					.filter(p -> !p.name().equals(headerHandlerName) && !p.name().equals("page"))
+					.collect(Collectors.toList());
+			if (remainingArgs.size() > 1) {
+				logger.debug("skipping method " + meth.name() + " : too many arguments to create an array cache : "
+						+ remainingArgs.stream().map(JVar::name).collect(Collectors.toList()));
+				return;
+			}
+			createCacheArray(operation, meth, retType.elementType(), requiredRoles, containerClass);
 		} else {
+			List<JVar> remainingArgs = meth.params().stream().filter(p -> !p.name().equals(headerHandlerName))
+					.collect(Collectors.toList());
+			if (remainingArgs.size() > 1) {
+				logger.debug("skipping method " + meth.name() + " : too many arguments to create a cache : "
+						+ remainingArgs.stream().map(JVar::name).collect(Collectors.toList()));
+				return;
+			}
+			JVar parameter = meth.params().stream().filter(p -> p.name() != headerHandlerName).findFirst().orElse(null);
 			if (parameter == null) {
-				addCacheFetchObject(operation, meth, retType, requiredRoles, containerClass);
+				createCacheObject(operation, meth, retType, requiredRoles, containerClass);
 			} else {
-				addCacheFetchObject(operation, meth, retType, requiredRoles, containerClass, parameter);
+				createCacheObject(operation, meth, retType, requiredRoles, containerClass, parameter);
 			}
 		}
 	}
 
-	protected void addCacheFetchObject(Operation operation, JMethod meth, AbstractJType retType,
+	protected void createCacheArray(Operation operation, JMethod meth, AbstractJType elementType,
+			List<String> requiredRoles, JDefinedClass containerClass) {
+		// List<JVar> uniqueParams = new ArrayList<>();
+		// for (Parameter p : elementType.) {
+		// if (p.getDescription() != null && p.getDescription().contains("Unique"))
+		// {
+		// logger.info("unique parameter for " + meth.name() + " : " + p.getName());
+		// uniqueParams.add(meth.params().stream().filter(pa ->
+		// pa.name().equals(p.getName())).findFirst().get());
+		// }
+		// }
+		// logger.info(meth.name() + " unique params = " + uniqueParams);
+		// // TODO Auto-generated method stub
+
+	}
+
+	protected void createCacheObject(Operation operation, JMethod meth, AbstractJType retType,
 			List<String> requiredRoles, JDefinedClass containerClass) {
 		JVar container = containerClass.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(retType),
 				operation.getOperationId() + "_container").init(JExpr._null());
@@ -614,7 +802,7 @@ public class Compiler {
 		retrieveMeth.body()._return(container);
 	}
 
-	protected void addCacheFetchObject(Operation operation, JMethod meth, AbstractJType retType,
+	protected void createCacheObject(Operation operation, JMethod meth, AbstractJType retType,
 			List<String> requiredRoles, JDefinedClass containerClass, JVar parameter) {
 		AbstractJClass mapKeyType = parameter.type().boxify();
 		JVar container = containerClass.field(JMod.PRIVATE,

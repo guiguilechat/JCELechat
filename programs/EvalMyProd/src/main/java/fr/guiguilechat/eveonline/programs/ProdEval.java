@@ -19,7 +19,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.Module;
 
 import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.eveonline.model.esi.modeled.market.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint;
 import fr.guiguilechat.eveonline.model.sde.industry.Blueprint.MaterialProd;
@@ -122,7 +122,7 @@ public class ProdEval {
 	 * @param skills
 	 * @return
 	 */
-	protected BPEval evalBP(R_get_characters_character_id_blueprints bp, Map<String, Integer> skills) {
+	protected BPEval evalBP(M_get_blueprints_8 bp, Map<String, Integer> skills) {
 		Map<Integer, Blueprint> bps = Blueprint.loadById();
 
 		// blueprint unknown ??

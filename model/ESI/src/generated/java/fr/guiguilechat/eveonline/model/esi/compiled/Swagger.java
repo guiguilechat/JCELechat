@@ -4,34 +4,39 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_bookmarks_9;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_characters_character_mail_recipients_2;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contacts_labels_2;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_22;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_bids_4;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_items_6;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_fw_leaderboards_2;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_journal_13;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_killmails_2;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_standings_3;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_locations_2;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id_contacts;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id_contacts_labels;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id_icons;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_agents_research;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_attributes;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks_folders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_calendar;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_calendar_event_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_calendar_event_id_attendees;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_clones;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contacts;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contacts_labels;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts_contract_id_bids;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts_contract_id_items;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_corporationhistory;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_fatigue;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_fittings;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_fittings_items;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_fleet;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_fw_stats;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_killmails_recent;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_location;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_mail;
@@ -54,33 +59,23 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_c
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_ship;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_skills;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_standings;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_stats;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_titles;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_alliancehistory;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks_folders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contacts;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contacts_labels;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_containers_logs;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts_contract_id_bids;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts_contract_id_items;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_customs_offices;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_divisions;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_facilities;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_fw_stats;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_icons;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_killmails_recent;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_medals;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_medals_issued;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_members_titles;
@@ -91,13 +86,11 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles_history;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_shareholders;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_standings;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_starbases;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_starbases_starbase_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_titles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id;
@@ -105,9 +98,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_effect
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id_members;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id_wings;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_characters;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_corporations;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_stats;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_systems;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_wars;
@@ -151,13 +141,8 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_sys
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_wars_war_id;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_wars_war_id_killmails;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_affiliation;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_character_id_assets_locations;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_character_id_assets_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_character_id_fittings_created;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_locations;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_names;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_created;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_wing_id_squads_created;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_ids;
@@ -321,10 +306,10 @@ public interface Swagger {
      * @param alliance_id
      *     An EVE alliance ID
      */
-    public default R_get_alliances_alliance_id_contacts_labels[] get_alliances_alliance_id_contacts_labels(int alliance_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contacts_labels_2 [] get_alliances_alliance_id_contacts_labels(int alliance_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/alliances/{alliance_id}/contacts/labels/".replace("{alliance_id}", ""+alliance_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id_contacts_labels[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contacts_labels_2[].class));
     }
 
     /**
@@ -404,12 +389,12 @@ public interface Swagger {
      * @param item_ids
      *     A list of item ids
      */
-    public default R_post_characters_character_id_assets_names[] post_characters_character_id_assets_names(int character_id, long[] item_ids, Map<String, List<String>> headerHandler) {
+    public default M_post_assets_names_2 [] post_characters_character_id_assets_names(int character_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/assets/names/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("item_ids", item_ids);
         String fetched = connectPost(url, content, true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_character_id_assets_names[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_names_2[].class));
     }
 
     /**
@@ -474,10 +459,10 @@ public interface Swagger {
      * @param character_id
      *     An EVE character ID
      */
-    public default R_get_characters_character_id_contacts_labels[] get_characters_character_id_contacts_labels(int character_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contacts_labels_2 [] get_characters_character_id_contacts_labels(int character_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/contacts/labels/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contacts_labels[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contacts_labels_2[].class));
     }
 
     /**
@@ -492,10 +477,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_contracts[] get_characters_character_id_contracts(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_22 [] get_characters_character_id_contracts(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/contracts/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_22[].class));
     }
 
     /**
@@ -510,10 +495,10 @@ public interface Swagger {
      * @param contract_id
      *     ID of a contract
      */
-    public default R_get_characters_character_id_contracts_contract_id_bids[] get_characters_character_id_contracts_contract_id_bids(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_bids_4 [] get_characters_character_id_contracts_contract_id_bids(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/contracts/{contract_id}/bids/".replace("{character_id}", ""+character_id).replace("{contract_id}", ""+contract_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts_contract_id_bids[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_bids_4[].class));
     }
 
     /**
@@ -528,10 +513,10 @@ public interface Swagger {
      * @param contract_id
      *     ID of a contract
      */
-    public default R_get_characters_character_id_contracts_contract_id_items[] get_characters_character_id_contracts_contract_id_items(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_items_6 [] get_characters_character_id_contracts_contract_id_items(int character_id, int contract_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/contracts/{contract_id}/items/".replace("{character_id}", ""+character_id).replace("{contract_id}", ""+contract_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_contracts_contract_id_items[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_items_6[].class));
     }
 
     /**
@@ -599,7 +584,7 @@ public interface Swagger {
      * @param ship_type_id
      *     ship_type_id integer
      */
-    public default R_post_characters_character_id_fittings_created post_characters_character_id_fittings(int character_id, String description, fr.guiguilechat.eveonline.model.esi.compiled.structures.items[] items, String name, int ship_type_id, Map<String, List<String>> headerHandler) {
+    public default R_post_characters_character_id_fittings_created post_characters_character_id_fittings(int character_id, String description, R_get_characters_character_id_fittings_items[] items, String name, int ship_type_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/fittings/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("description", description);
@@ -704,10 +689,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_killmails_recent[] get_characters_character_id_killmails_recent(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_killmails_2 [] get_characters_character_id_killmails_recent(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/killmails/recent/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_killmails_recent[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_killmails_2[].class));
     }
 
     /**
@@ -779,7 +764,7 @@ public interface Swagger {
      * @param subject
      *     subject string
      */
-    public default int post_characters_character_id_mail(int character_id, long approved_cost, String body, fr.guiguilechat.eveonline.model.esi.compiled.structures.recipients[] recipients, String subject, Map<String, List<String>> headerHandler) {
+    public default int post_characters_character_id_mail(int character_id, long approved_cost, String body, M_get_characters_character_mail_recipients_2 [] recipients, String subject, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("approved_cost", approved_cost);
@@ -1005,10 +990,10 @@ public interface Swagger {
      * @param character_id
      *     An EVE character ID
      */
-    public default R_get_characters_character_id_standings[] get_characters_character_id_standings(int character_id, Map<String, List<String>> headerHandler) {
+    public default M_get_standings_3 [] get_characters_character_id_standings(int character_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/characters/{character_id}/standings/".replace("{character_id}", ""+character_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_standings[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_standings_3[].class));
     }
 
     /**
@@ -1157,12 +1142,12 @@ public interface Swagger {
      * @param item_ids
      *     A list of item ids
      */
-    public default R_post_corporations_corporation_id_assets_names[] post_corporations_corporation_id_assets_names(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
+    public default M_post_assets_names_2 [] post_corporations_corporation_id_assets_names(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/assets/names/".replace("{corporation_id}", ""+corporation_id));
         Map<String, Object> content = new HashMap<>();
         content.put("item_ids", item_ids);
         String fetched = connectPost(url, content, true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_names[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_names_2[].class));
     }
 
     /**
@@ -1177,10 +1162,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_bookmarks[] get_corporations_corporation_id_bookmarks(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_bookmarks_9 [] get_corporations_corporation_id_bookmarks(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/bookmarks/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_bookmarks[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_bookmarks_9[].class));
     }
 
     /**
@@ -1211,10 +1196,10 @@ public interface Swagger {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_corporations_corporation_id_contacts_labels[] get_corporations_corporation_id_contacts_labels(int corporation_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contacts_labels_2 [] get_corporations_corporation_id_contacts_labels(int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contacts/labels/".replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contacts_labels[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contacts_labels_2[].class));
     }
 
     /**
@@ -1229,10 +1214,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_contracts[] get_corporations_corporation_id_contracts(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_22 [] get_corporations_corporation_id_contracts(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contracts/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_22[].class));
     }
 
     /**
@@ -1249,10 +1234,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_contracts_contract_id_bids[] get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_bids_4 [] get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contracts/{contract_id}/bids/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts_contract_id_bids[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_bids_4[].class));
     }
 
     /**
@@ -1267,10 +1252,10 @@ public interface Swagger {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public default R_get_corporations_corporation_id_contracts_contract_id_items[] get_corporations_corporation_id_contracts_contract_id_items(int contract_id, int corporation_id, Map<String, List<String>> headerHandler) {
+    public default M_get_contracts_contract_items_6 [] get_corporations_corporation_id_contracts_contract_id_items(int contract_id, int corporation_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/contracts/{contract_id}/items/".replace("{contract_id}", ""+contract_id).replace("{corporation_id}", ""+corporation_id));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_contracts_contract_id_items[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_contracts_contract_items_6[].class));
     }
 
     /**
@@ -1407,10 +1392,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_killmails_recent[] get_corporations_corporation_id_killmails_recent(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_killmails_2 [] get_corporations_corporation_id_killmails_recent(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/killmails/recent/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_killmails_recent[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_killmails_2[].class));
     }
 
     /**
@@ -1655,10 +1640,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_standings[] get_corporations_corporation_id_standings(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_standings_3 [] get_corporations_corporation_id_standings(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/standings/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_standings[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_standings_3[].class));
     }
 
     /**
@@ -2084,10 +2069,10 @@ public interface Swagger {
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_fw_leaderboards get_fw_leaderboards(Map<String, List<String>> headerHandler) {
+    public default M_get_fw_leaderboards_2 get_fw_leaderboards(Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/");
         String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards.class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -2097,10 +2082,10 @@ public interface Swagger {
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_fw_leaderboards_characters get_fw_leaderboards_characters(Map<String, List<String>> headerHandler) {
+    public default M_get_fw_leaderboards_2 get_fw_leaderboards_characters(Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/characters/");
         String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_characters.class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -2110,10 +2095,10 @@ public interface Swagger {
      * This route expires daily at 11:05
      * </p>
      */
-    public default R_get_fw_leaderboards_corporations get_fw_leaderboards_corporations(Map<String, List<String>> headerHandler) {
+    public default M_get_fw_leaderboards_2 get_fw_leaderboards_corporations(Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/fw/leaderboards/corporations/");
         String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_corporations.class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_fw_leaderboards_2.class));
     }
 
     /**
@@ -3008,27 +2993,10 @@ public interface Swagger {
      * @param war_id
      *     A valid war ID
      */
-    public default R_get_wars_war_id_killmails[] get_wars_war_id_killmails(Integer page, int war_id, Map<String, List<String>> headerHandler) {
+    public default M_get_killmails_2 [] get_wars_war_id_killmails(Integer page, int war_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/wars/{war_id}/killmails/".replace("{war_id}", ""+war_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_wars_war_id_killmails[].class));
-    }
-
-    /**
-     * Get alliance names
-     * <p>
-     * Resolve a set of alliance IDs to alliance names<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Warning: This route will be deleted on June 21st, 2018
-     * </p>
-     * 
-     * @param alliance_ids
-     *     A comma separated list of alliance IDs
-     */
-    public default R_get_alliances_names[] get_alliances_names(int[] alliance_ids, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/alliances/names/"+"?"+(alliance_ids==null?"":"&alliance_ids="+flatten(alliance_ids)));
-        String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_names[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_killmails_2[].class));
     }
 
     /**
@@ -3060,12 +3028,12 @@ public interface Swagger {
      * @param item_ids
      *     A list of item ids
      */
-    public default R_post_characters_character_id_assets_locations[] post_characters_character_id_assets_locations(int character_id, long[] item_ids, Map<String, List<String>> headerHandler) {
+    public default M_post_assets_locations_2 [] post_characters_character_id_assets_locations(int character_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/assets/locations/".replace("{character_id}", ""+character_id));
         Map<String, Object> content = new HashMap<>();
         content.put("item_ids", item_ids);
         String fetched = connectPost(url, content, true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_character_id_assets_locations[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_locations_2[].class));
     }
 
     /**
@@ -3080,10 +3048,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_blueprints[] get_characters_character_id_blueprints(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_blueprints_8 [] get_characters_character_id_blueprints(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/blueprints/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_blueprints[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8[].class));
     }
 
     /**
@@ -3098,10 +3066,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_bookmarks[] get_characters_character_id_bookmarks(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_bookmarks_9 [] get_characters_character_id_bookmarks(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/characters/{character_id}/bookmarks/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_bookmarks[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_bookmarks_9[].class));
     }
 
     /**
@@ -3370,12 +3338,12 @@ public interface Swagger {
      * @param item_ids
      *     A list of item ids
      */
-    public default R_post_corporations_corporation_id_assets_locations[] post_corporations_corporation_id_assets_locations(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
+    public default M_post_assets_locations_2 [] post_corporations_corporation_id_assets_locations(int corporation_id, long[] item_ids, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/assets/locations/".replace("{corporation_id}", ""+corporation_id));
         Map<String, Object> content = new HashMap<>();
         content.put("item_ids", item_ids);
         String fetched = connectPost(url, content, true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_corporations_corporation_id_assets_locations[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_post_assets_locations_2[].class));
     }
 
     /**
@@ -3394,10 +3362,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_blueprints[] get_corporations_corporation_id_blueprints(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_blueprints_8 [] get_corporations_corporation_id_blueprints(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/blueprints/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_blueprints[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8[].class));
     }
 
     /**
@@ -3634,10 +3602,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_assets[] get_characters_character_id_assets(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_assets_8 [] get_characters_character_id_assets(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/characters/{character_id}/assets/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_assets[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8[].class));
     }
 
     /**
@@ -3768,10 +3736,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_assets[] get_corporations_corporation_id_assets(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_assets_8 [] get_corporations_corporation_id_assets(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/assets/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_assets[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8[].class));
     }
 
     /**
@@ -3808,10 +3776,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_wallets_division_journal[] get_corporations_corporation_id_wallets_division_journal(int corporation_id, int division, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_journal_13 [] get_corporations_corporation_id_wallets_division_journal(int corporation_id, int division, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/wallets/{division}/journal/".replace("{corporation_id}", ""+corporation_id).replace("{division}", ""+division)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_journal_13[].class));
     }
 
     /**
@@ -3915,10 +3883,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_characters_character_id_wallet_journal[] get_characters_character_id_wallet_journal(int character_id, Integer page, Map<String, List<String>> headerHandler) {
+    public default M_get_journal_13 [] get_characters_character_id_wallet_journal(int character_id, Integer page, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v4/characters/{character_id}/wallet/journal/".replace("{character_id}", ""+character_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_wallet_journal[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_journal_13[].class));
     }
 
     /**

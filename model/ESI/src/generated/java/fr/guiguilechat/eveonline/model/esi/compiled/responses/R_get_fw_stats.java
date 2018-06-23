@@ -1,9 +1,24 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
 public class R_get_fw_stats {
+    /**
+     * faction_id integer
+     */
     public int faction_id;
-    public R_get_fw_stats_kills kills;
+    /**
+     * Summary of kills against an enemy faction for the given faction
+     */
+    public M_get_fw_stats_3 kills;
+    /**
+     * How many pilots fight for the given faction
+     */
     public int pilots;
+    /**
+     * The number of solar systems controlled by the given faction
+     */
     public int systems_controlled;
-    public R_get_fw_stats_victory_points victory_points;
+    /**
+     * Summary of victory points gained for the given faction
+     */
+    public M_get_fw_stats_3 victory_points;
 }

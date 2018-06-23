@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_alliances_alliance_id_icons;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id;
@@ -28,9 +29,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_effects_effect_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_characters;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_leaderboards_corporations;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_opportunities_tasks_task_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_status;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;
@@ -55,6 +53,7 @@ public abstract class SwaggerCache<T extends Swagger> {
     public final T swagger;
     public final Alliances alliances = new Alliances();
     public final Characters characters = new Characters();
+    public final Corporation corporation = new Corporation();
     public final Corporations corporations = new Corporations();
     public final Dogma dogma = new Dogma();
     public final Fleets fleets = new Fleets();
@@ -62,13 +61,16 @@ public abstract class SwaggerCache<T extends Swagger> {
     public final Incursions incursions = new Incursions();
     public final Industry industry = new Industry();
     public final Insurance insurance = new Insurance();
+    public final Killmails killmails = new Killmails();
     public final Loyalty loyalty = new Loyalty();
     public final Markets markets = new Markets();
     public final Opportunities opportunities = new Opportunities();
+    public final Route route = new Route();
     public final Sovereignty sovereignty = new Sovereignty();
     public final Status status = new Status();
     public final Universe universe = new Universe();
     public final Wars wars = new Wars();
+    public final Search search = new Search();
 
     public SwaggerCache(T swag) {
         swagger = swag;
@@ -356,6 +358,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
     }
 
+    public class Corporation {
+    }
+
     public class Corporations {
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_container = new HashMap<>();
@@ -502,11 +507,11 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Fw {
-        private SimpleObjectProperty<R_get_fw_leaderboards> get_fw_leaderboards_container = null;
-        private SimpleObjectProperty<R_get_fw_leaderboards_characters> get_fw_leaderboards_characters_container = null;
-        private SimpleObjectProperty<R_get_fw_leaderboards_corporations> get_fw_leaderboards_corporations_container = null;
+        private SimpleObjectProperty<M_get_fw_leaderboards_2> get_fw_leaderboards_container = null;
+        private SimpleObjectProperty<M_get_fw_leaderboards_2> get_fw_leaderboards_characters_container = null;
+        private SimpleObjectProperty<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations_container = null;
 
-        public Property<R_get_fw_leaderboards> get_fw_leaderboards() {
+        public Property<M_get_fw_leaderboards_2> get_fw_leaderboards() {
             if (get_fw_leaderboards_container == null) {
                 synchronized (this)
                 {
@@ -519,7 +524,7 @@ public abstract class SwaggerCache<T extends Swagger> {
             return get_fw_leaderboards_container;
         }
 
-        public Property<R_get_fw_leaderboards_characters> get_fw_leaderboards_characters() {
+        public Property<M_get_fw_leaderboards_2> get_fw_leaderboards_characters() {
             if (get_fw_leaderboards_characters_container == null) {
                 synchronized (this)
                 {
@@ -532,7 +537,7 @@ public abstract class SwaggerCache<T extends Swagger> {
             return get_fw_leaderboards_characters_container;
         }
 
-        public Property<R_get_fw_leaderboards_corporations> get_fw_leaderboards_corporations() {
+        public Property<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations() {
             if (get_fw_leaderboards_corporations_container == null) {
                 synchronized (this)
                 {
@@ -553,6 +558,9 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Insurance {
+    }
+
+    public class Killmails {
     }
 
     public class Loyalty {
@@ -586,6 +594,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         public void pause();
 
         public void resume();
+    }
+
+    public class Route {
+    }
+
+    public class Search {
     }
 
     public class Sovereignty {
