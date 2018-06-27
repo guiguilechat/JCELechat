@@ -155,14 +155,9 @@ public class Compiler {
 		// this makes a map of renames
 		mergeResponseTypes();
 
-		for (Entry<String, String> e : structureRenames.entrySet()) {
-			System.err.println(e.getKey() + "->" + e.getValue());
-		}
-
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
-			// System.err.println(resource);
 			addPath(OpType.get, resource, p.getGet());
 			addPath(OpType.post, resource, p.getPost());
 			addPath(OpType.delete, resource, p.getDelete());
@@ -280,12 +275,10 @@ public class Compiler {
 		Property prop = r.getSchema();
 		ObjectProperty op = getPropertyObject(prop);
 		if (op != null) {
-			System.err.println("prop " + op.getTitle());
 			registerResponseType(prop.getTitle(), op);
 			for (Property subprop : op.getProperties().values()) {
 				ObjectProperty subop = getPropertyObject(subprop);
 				if (subop != null) {
-					System.err.println(" subprop " + subop.getTitle());
 					registerResponseType(subprop.getTitle(), subop);
 				}
 			}
@@ -337,7 +330,6 @@ public class Compiler {
 			set = new HashSet<>();
 			knownStructures.put(classDef, set);
 		}
-		System.err.println("  registering " + name + " among set size " + set.size());
 		set.add(name);
 	}
 
@@ -385,7 +377,7 @@ public class Compiler {
 		if (tokens.size() < 3) {
 			common += "_" + classDef.entrySet().stream().map(e -> e.getKey() + e.getValue()).collect(Collectors.joining("_"));
 		}
-		logger.debug("merging " + names + " into " + common);
+		logger.info("merging " + names + " into " + common);
 		return common;
 	}
 
