@@ -29,17 +29,25 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_dogma_effects_effect_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_groups_market_group_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_opportunities_groups_group_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_opportunities_tasks_task_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_status;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_categories_category_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_graphics_graphic_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_moons_moon_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_planets_planet_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_regions_region_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_schematics_schematic_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_stargates_stargate_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_stars_star_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_systems_system_id;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_wars_war_id;
 import javafx.beans.property.Property;
 import javafx.beans.property.SimpleObjectProperty;
@@ -84,32 +92,34 @@ public abstract class SwaggerCache<T extends Swagger> {
         private HashMap<Integer, SimpleObjectProperty<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_alliances_alliance_id>> get_alliances_alliance_id_container = new HashMap<>();
 
-        public Property<R_get_alliances_alliance_id_icons> get_alliances_alliance_id_icons(int param) {
-            SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = get_alliances_alliance_id_icons_container.get(param);
+        public Property<R_get_alliances_alliance_id_icons> get_alliances_alliance_id_icons(int alliance_id) {
+            SimpleObjectProperty<R_get_alliances_alliance_id_icons> holder = get_alliances_alliance_id_icons_container.get(alliance_id);
             if (holder == null) {
                 synchronized (get_alliances_alliance_id_icons_container)
                 {
-                    holder = get_alliances_alliance_id_icons_container.get(param);
+                    holder = get_alliances_alliance_id_icons_container.get(alliance_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_alliances_alliance_id_icons_container.put(param, holder);
-                        addFetchCacheObject("get_alliances_alliance_id_icons", (m->swagger.get_alliances_alliance_id_icons(param, m)), (holder::set));
+                        get_alliances_alliance_id_icons_container.put(alliance_id, holder);
+                        SimpleObjectProperty<R_get_alliances_alliance_id_icons> holderf = holder;
+                        addFetchCacheObject("get_alliances_alliance_id_icons", (m->swagger.get_alliances_alliance_id_icons(alliance_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_alliances_alliance_id> get_alliances_alliance_id(int param) {
-            SimpleObjectProperty<R_get_alliances_alliance_id> holder = get_alliances_alliance_id_container.get(param);
+        public Property<R_get_alliances_alliance_id> get_alliances_alliance_id(int alliance_id) {
+            SimpleObjectProperty<R_get_alliances_alliance_id> holder = get_alliances_alliance_id_container.get(alliance_id);
             if (holder == null) {
                 synchronized (get_alliances_alliance_id_container)
                 {
-                    holder = get_alliances_alliance_id_container.get(param);
+                    holder = get_alliances_alliance_id_container.get(alliance_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_alliances_alliance_id_container.put(param, holder);
-                        addFetchCacheObject("get_alliances_alliance_id", (m->swagger.get_alliances_alliance_id(param, m)), (holder::set));
+                        get_alliances_alliance_id_container.put(alliance_id, holder);
+                        SimpleObjectProperty<R_get_alliances_alliance_id> holderf = holder;
+                        addFetchCacheObject("get_alliances_alliance_id", (m->swagger.get_alliances_alliance_id(alliance_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -133,224 +143,238 @@ public abstract class SwaggerCache<T extends Swagger> {
         private HashMap<Integer, SimpleObjectProperty<R_get_characters_character_id>> get_characters_character_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_characters_character_id_skills>> get_characters_character_id_skills_container = new HashMap<>();
 
-        public Property<R_get_characters_character_id_attributes> get_characters_character_id_attributes(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_attributes> holder = get_characters_character_id_attributes_container.get(param);
+        public Property<R_get_characters_character_id_attributes> get_characters_character_id_attributes(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_attributes> holder = get_characters_character_id_attributes_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_attributes_container)
                 {
-                    holder = get_characters_character_id_attributes_container.get(param);
+                    holder = get_characters_character_id_attributes_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_attributes_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_attributes", (m->swagger.get_characters_character_id_attributes(param, m)), (holder::set));
+                        get_characters_character_id_attributes_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_attributes> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_attributes", (m->swagger.get_characters_character_id_attributes(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_fatigue> get_characters_character_id_fatigue(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_fatigue> holder = get_characters_character_id_fatigue_container.get(param);
+        public Property<R_get_characters_character_id_fatigue> get_characters_character_id_fatigue(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_fatigue> holder = get_characters_character_id_fatigue_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_fatigue_container)
                 {
-                    holder = get_characters_character_id_fatigue_container.get(param);
+                    holder = get_characters_character_id_fatigue_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_fatigue_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_fatigue", (m->swagger.get_characters_character_id_fatigue(param, m)), (holder::set));
+                        get_characters_character_id_fatigue_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_fatigue> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_fatigue", (m->swagger.get_characters_character_id_fatigue(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_fleet> get_characters_character_id_fleet(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_fleet> holder = get_characters_character_id_fleet_container.get(param);
+        public Property<R_get_characters_character_id_fleet> get_characters_character_id_fleet(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_fleet> holder = get_characters_character_id_fleet_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_fleet_container)
                 {
-                    holder = get_characters_character_id_fleet_container.get(param);
+                    holder = get_characters_character_id_fleet_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_fleet_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_fleet", (m->swagger.get_characters_character_id_fleet(param, m)), (holder::set));
+                        get_characters_character_id_fleet_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_fleet> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_fleet", (m->swagger.get_characters_character_id_fleet(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_fw_stats> get_characters_character_id_fw_stats(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_fw_stats> holder = get_characters_character_id_fw_stats_container.get(param);
+        public Property<R_get_characters_character_id_fw_stats> get_characters_character_id_fw_stats(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_fw_stats> holder = get_characters_character_id_fw_stats_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_fw_stats_container)
                 {
-                    holder = get_characters_character_id_fw_stats_container.get(param);
+                    holder = get_characters_character_id_fw_stats_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_fw_stats_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_fw_stats", (m->swagger.get_characters_character_id_fw_stats(param, m)), (holder::set));
+                        get_characters_character_id_fw_stats_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_fw_stats> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_fw_stats", (m->swagger.get_characters_character_id_fw_stats(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_location> get_characters_character_id_location(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_location> holder = get_characters_character_id_location_container.get(param);
+        public Property<R_get_characters_character_id_location> get_characters_character_id_location(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_location> holder = get_characters_character_id_location_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_location_container)
                 {
-                    holder = get_characters_character_id_location_container.get(param);
+                    holder = get_characters_character_id_location_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_location_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_location", (m->swagger.get_characters_character_id_location(param, m)), (holder::set));
+                        get_characters_character_id_location_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_location> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_location", (m->swagger.get_characters_character_id_location(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_ship> get_characters_character_id_ship(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_ship> holder = get_characters_character_id_ship_container.get(param);
+        public Property<R_get_characters_character_id_ship> get_characters_character_id_ship(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_ship> holder = get_characters_character_id_ship_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_ship_container)
                 {
-                    holder = get_characters_character_id_ship_container.get(param);
+                    holder = get_characters_character_id_ship_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_ship_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_ship", (m->swagger.get_characters_character_id_ship(param, m)), (holder::set));
+                        get_characters_character_id_ship_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_ship> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_ship", (m->swagger.get_characters_character_id_ship(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<Double> get_characters_character_id_wallet(int param) {
-            SimpleObjectProperty<Double> holder = get_characters_character_id_wallet_container.get(param);
+        public Property<Double> get_characters_character_id_wallet(int character_id) {
+            SimpleObjectProperty<Double> holder = get_characters_character_id_wallet_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_wallet_container)
                 {
-                    holder = get_characters_character_id_wallet_container.get(param);
+                    holder = get_characters_character_id_wallet_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_wallet_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_wallet", (m->swagger.get_characters_character_id_wallet(param, m)), (holder::set));
+                        get_characters_character_id_wallet_container.put(character_id, holder);
+                        SimpleObjectProperty<Double> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_wallet", (m->swagger.get_characters_character_id_wallet(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_online> get_characters_character_id_online(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_online> holder = get_characters_character_id_online_container.get(param);
+        public Property<R_get_characters_character_id_online> get_characters_character_id_online(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_online> holder = get_characters_character_id_online_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_online_container)
                 {
-                    holder = get_characters_character_id_online_container.get(param);
+                    holder = get_characters_character_id_online_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_online_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_online", (m->swagger.get_characters_character_id_online(param, m)), (holder::set));
+                        get_characters_character_id_online_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_online> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_online", (m->swagger.get_characters_character_id_online(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_portrait> get_characters_character_id_portrait(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_portrait> holder = get_characters_character_id_portrait_container.get(param);
+        public Property<R_get_characters_character_id_portrait> get_characters_character_id_portrait(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_portrait> holder = get_characters_character_id_portrait_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_portrait_container)
                 {
-                    holder = get_characters_character_id_portrait_container.get(param);
+                    holder = get_characters_character_id_portrait_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_portrait_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_portrait", (m->swagger.get_characters_character_id_portrait(param, m)), (holder::set));
+                        get_characters_character_id_portrait_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_portrait> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_portrait", (m->swagger.get_characters_character_id_portrait(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_roles> get_characters_character_id_roles(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_roles> holder = get_characters_character_id_roles_container.get(param);
+        public Property<R_get_characters_character_id_roles> get_characters_character_id_roles(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_roles> holder = get_characters_character_id_roles_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_roles_container)
                 {
-                    holder = get_characters_character_id_roles_container.get(param);
+                    holder = get_characters_character_id_roles_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_roles_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_roles", (m->swagger.get_characters_character_id_roles(param, m)), (holder::set));
+                        get_characters_character_id_roles_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_roles> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_roles", (m->swagger.get_characters_character_id_roles(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_clones> get_characters_character_id_clones(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_clones> holder = get_characters_character_id_clones_container.get(param);
+        public Property<R_get_characters_character_id_clones> get_characters_character_id_clones(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_clones> holder = get_characters_character_id_clones_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_clones_container)
                 {
-                    holder = get_characters_character_id_clones_container.get(param);
+                    holder = get_characters_character_id_clones_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_clones_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_clones", (m->swagger.get_characters_character_id_clones(param, m)), (holder::set));
+                        get_characters_character_id_clones_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_clones> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_clones", (m->swagger.get_characters_character_id_clones(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_mail_labels> get_characters_character_id_mail_labels(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_mail_labels> holder = get_characters_character_id_mail_labels_container.get(param);
+        public Property<R_get_characters_character_id_mail_labels> get_characters_character_id_mail_labels(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_mail_labels> holder = get_characters_character_id_mail_labels_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_mail_labels_container)
                 {
-                    holder = get_characters_character_id_mail_labels_container.get(param);
+                    holder = get_characters_character_id_mail_labels_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_mail_labels_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_mail_labels", (m->swagger.get_characters_character_id_mail_labels(param, m)), (holder::set));
+                        get_characters_character_id_mail_labels_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_mail_labels> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_mail_labels", (m->swagger.get_characters_character_id_mail_labels(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id> get_characters_character_id(int param) {
-            SimpleObjectProperty<R_get_characters_character_id> holder = get_characters_character_id_container.get(param);
+        public Property<R_get_characters_character_id> get_characters_character_id(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id> holder = get_characters_character_id_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_container)
                 {
-                    holder = get_characters_character_id_container.get(param);
+                    holder = get_characters_character_id_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id", (m->swagger.get_characters_character_id(param, m)), (holder::set));
+                        get_characters_character_id_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id", (m->swagger.get_characters_character_id(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_characters_character_id_skills> get_characters_character_id_skills(int param) {
-            SimpleObjectProperty<R_get_characters_character_id_skills> holder = get_characters_character_id_skills_container.get(param);
+        public Property<R_get_characters_character_id_skills> get_characters_character_id_skills(int character_id) {
+            SimpleObjectProperty<R_get_characters_character_id_skills> holder = get_characters_character_id_skills_container.get(character_id);
             if (holder == null) {
                 synchronized (get_characters_character_id_skills_container)
                 {
-                    holder = get_characters_character_id_skills_container.get(param);
+                    holder = get_characters_character_id_skills_container.get(character_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_characters_character_id_skills_container.put(param, holder);
-                        addFetchCacheObject("get_characters_character_id_skills", (m->swagger.get_characters_character_id_skills(param, m)), (holder::set));
+                        get_characters_character_id_skills_container.put(character_id, holder);
+                        SimpleObjectProperty<R_get_characters_character_id_skills> holderf = holder;
+                        addFetchCacheObject("get_characters_character_id_skills", (m->swagger.get_characters_character_id_skills(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -368,80 +392,85 @@ public abstract class SwaggerCache<T extends Swagger> {
         private HashMap<Integer, SimpleObjectProperty<Integer>> get_corporations_corporation_id_members_limit_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_corporations_corporation_id>> get_corporations_corporation_id_container = new HashMap<>();
 
-        public Property<R_get_corporations_corporation_id_divisions> get_corporations_corporation_id_divisions(int param) {
-            SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holder = get_corporations_corporation_id_divisions_container.get(param);
+        public Property<R_get_corporations_corporation_id_divisions> get_corporations_corporation_id_divisions(int corporation_id) {
+            SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holder = get_corporations_corporation_id_divisions_container.get(corporation_id);
             if (holder == null) {
                 synchronized (get_corporations_corporation_id_divisions_container)
                 {
-                    holder = get_corporations_corporation_id_divisions_container.get(param);
+                    holder = get_corporations_corporation_id_divisions_container.get(corporation_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_corporations_corporation_id_divisions_container.put(param, holder);
-                        addFetchCacheObject("get_corporations_corporation_id_divisions", (m->swagger.get_corporations_corporation_id_divisions(param, m)), (holder::set), new String[] {"Director"});
+                        get_corporations_corporation_id_divisions_container.put(corporation_id, holder);
+                        SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holderf = holder;
+                        addFetchCacheObject("get_corporations_corporation_id_divisions", (m->swagger.get_corporations_corporation_id_divisions(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_corporations_corporation_id_fw_stats> get_corporations_corporation_id_fw_stats(int param) {
-            SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holder = get_corporations_corporation_id_fw_stats_container.get(param);
+        public Property<R_get_corporations_corporation_id_fw_stats> get_corporations_corporation_id_fw_stats(int corporation_id) {
+            SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holder = get_corporations_corporation_id_fw_stats_container.get(corporation_id);
             if (holder == null) {
                 synchronized (get_corporations_corporation_id_fw_stats_container)
                 {
-                    holder = get_corporations_corporation_id_fw_stats_container.get(param);
+                    holder = get_corporations_corporation_id_fw_stats_container.get(corporation_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_corporations_corporation_id_fw_stats_container.put(param, holder);
-                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (m->swagger.get_corporations_corporation_id_fw_stats(param, m)), (holder::set));
+                        get_corporations_corporation_id_fw_stats_container.put(corporation_id, holder);
+                        SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holderf = holder;
+                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (m->swagger.get_corporations_corporation_id_fw_stats(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_corporations_corporation_id_icons> get_corporations_corporation_id_icons(int param) {
-            SimpleObjectProperty<R_get_corporations_corporation_id_icons> holder = get_corporations_corporation_id_icons_container.get(param);
+        public Property<R_get_corporations_corporation_id_icons> get_corporations_corporation_id_icons(int corporation_id) {
+            SimpleObjectProperty<R_get_corporations_corporation_id_icons> holder = get_corporations_corporation_id_icons_container.get(corporation_id);
             if (holder == null) {
                 synchronized (get_corporations_corporation_id_icons_container)
                 {
-                    holder = get_corporations_corporation_id_icons_container.get(param);
+                    holder = get_corporations_corporation_id_icons_container.get(corporation_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_corporations_corporation_id_icons_container.put(param, holder);
-                        addFetchCacheObject("get_corporations_corporation_id_icons", (m->swagger.get_corporations_corporation_id_icons(param, m)), (holder::set));
+                        get_corporations_corporation_id_icons_container.put(corporation_id, holder);
+                        SimpleObjectProperty<R_get_corporations_corporation_id_icons> holderf = holder;
+                        addFetchCacheObject("get_corporations_corporation_id_icons", (m->swagger.get_corporations_corporation_id_icons(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<Integer> get_corporations_corporation_id_members_limit(int param) {
-            SimpleObjectProperty<Integer> holder = get_corporations_corporation_id_members_limit_container.get(param);
+        public Property<Integer> get_corporations_corporation_id_members_limit(int corporation_id) {
+            SimpleObjectProperty<Integer> holder = get_corporations_corporation_id_members_limit_container.get(corporation_id);
             if (holder == null) {
                 synchronized (get_corporations_corporation_id_members_limit_container)
                 {
-                    holder = get_corporations_corporation_id_members_limit_container.get(param);
+                    holder = get_corporations_corporation_id_members_limit_container.get(corporation_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_corporations_corporation_id_members_limit_container.put(param, holder);
-                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (m->swagger.get_corporations_corporation_id_members_limit(param, m)), (holder::set), new String[] {"Director"});
+                        get_corporations_corporation_id_members_limit_container.put(corporation_id, holder);
+                        SimpleObjectProperty<Integer> holderf = holder;
+                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (m->swagger.get_corporations_corporation_id_members_limit(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_corporations_corporation_id> get_corporations_corporation_id(int param) {
-            SimpleObjectProperty<R_get_corporations_corporation_id> holder = get_corporations_corporation_id_container.get(param);
+        public Property<R_get_corporations_corporation_id> get_corporations_corporation_id(int corporation_id) {
+            SimpleObjectProperty<R_get_corporations_corporation_id> holder = get_corporations_corporation_id_container.get(corporation_id);
             if (holder == null) {
                 synchronized (get_corporations_corporation_id_container)
                 {
-                    holder = get_corporations_corporation_id_container.get(param);
+                    holder = get_corporations_corporation_id_container.get(corporation_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_corporations_corporation_id_container.put(param, holder);
-                        addFetchCacheObject("get_corporations_corporation_id", (m->swagger.get_corporations_corporation_id(param, m)), (holder::set));
+                        get_corporations_corporation_id_container.put(corporation_id, holder);
+                        SimpleObjectProperty<R_get_corporations_corporation_id> holderf = holder;
+                        addFetchCacheObject("get_corporations_corporation_id", (m->swagger.get_corporations_corporation_id(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -453,32 +482,34 @@ public abstract class SwaggerCache<T extends Swagger> {
         private HashMap<Integer, SimpleObjectProperty<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_container = new HashMap<>();
 
-        public Property<R_get_dogma_attributes_attribute_id> get_dogma_attributes_attribute_id(int param) {
-            SimpleObjectProperty<R_get_dogma_attributes_attribute_id> holder = get_dogma_attributes_attribute_id_container.get(param);
+        public Property<R_get_dogma_attributes_attribute_id> get_dogma_attributes_attribute_id(int attribute_id) {
+            SimpleObjectProperty<R_get_dogma_attributes_attribute_id> holder = get_dogma_attributes_attribute_id_container.get(attribute_id);
             if (holder == null) {
                 synchronized (get_dogma_attributes_attribute_id_container)
                 {
-                    holder = get_dogma_attributes_attribute_id_container.get(param);
+                    holder = get_dogma_attributes_attribute_id_container.get(attribute_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_dogma_attributes_attribute_id_container.put(param, holder);
-                        addFetchCacheObject("get_dogma_attributes_attribute_id", (m->swagger.get_dogma_attributes_attribute_id(param, m)), (holder::set));
+                        get_dogma_attributes_attribute_id_container.put(attribute_id, holder);
+                        SimpleObjectProperty<R_get_dogma_attributes_attribute_id> holderf = holder;
+                        addFetchCacheObject("get_dogma_attributes_attribute_id", (m->swagger.get_dogma_attributes_attribute_id(attribute_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_dogma_effects_effect_id> get_dogma_effects_effect_id(int param) {
-            SimpleObjectProperty<R_get_dogma_effects_effect_id> holder = get_dogma_effects_effect_id_container.get(param);
+        public Property<R_get_dogma_effects_effect_id> get_dogma_effects_effect_id(int effect_id) {
+            SimpleObjectProperty<R_get_dogma_effects_effect_id> holder = get_dogma_effects_effect_id_container.get(effect_id);
             if (holder == null) {
                 synchronized (get_dogma_effects_effect_id_container)
                 {
-                    holder = get_dogma_effects_effect_id_container.get(param);
+                    holder = get_dogma_effects_effect_id_container.get(effect_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_dogma_effects_effect_id_container.put(param, holder);
-                        addFetchCacheObject("get_dogma_effects_effect_id", (m->swagger.get_dogma_effects_effect_id(param, m)), (holder::set));
+                        get_dogma_effects_effect_id_container.put(effect_id, holder);
+                        SimpleObjectProperty<R_get_dogma_effects_effect_id> holderf = holder;
+                        addFetchCacheObject("get_dogma_effects_effect_id", (m->swagger.get_dogma_effects_effect_id(effect_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -489,16 +520,17 @@ public abstract class SwaggerCache<T extends Swagger> {
     public class Fleets {
         private HashMap<Long, SimpleObjectProperty<R_get_fleets_fleet_id>> get_fleets_fleet_id_container = new HashMap<>();
 
-        public Property<R_get_fleets_fleet_id> get_fleets_fleet_id(long param) {
-            SimpleObjectProperty<R_get_fleets_fleet_id> holder = get_fleets_fleet_id_container.get(param);
+        public Property<R_get_fleets_fleet_id> get_fleets_fleet_id(long fleet_id) {
+            SimpleObjectProperty<R_get_fleets_fleet_id> holder = get_fleets_fleet_id_container.get(fleet_id);
             if (holder == null) {
                 synchronized (get_fleets_fleet_id_container)
                 {
-                    holder = get_fleets_fleet_id_container.get(param);
+                    holder = get_fleets_fleet_id_container.get(fleet_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_fleets_fleet_id_container.put(param, holder);
-                        addFetchCacheObject("get_fleets_fleet_id", (m->swagger.get_fleets_fleet_id(param, m)), (holder::set));
+                        get_fleets_fleet_id_container.put(fleet_id, holder);
+                        SimpleObjectProperty<R_get_fleets_fleet_id> holderf = holder;
+                        addFetchCacheObject("get_fleets_fleet_id", (m->swagger.get_fleets_fleet_id(fleet_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -567,21 +599,58 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Markets {
+        private HashMap<Integer, SimpleObjectProperty<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_container = new HashMap<>();
+
+        public Property<R_get_markets_groups_market_group_id> get_markets_groups_market_group_id(int market_group_id) {
+            SimpleObjectProperty<R_get_markets_groups_market_group_id> holder = get_markets_groups_market_group_id_container.get(market_group_id);
+            if (holder == null) {
+                synchronized (get_markets_groups_market_group_id_container)
+                {
+                    holder = get_markets_groups_market_group_id_container.get(market_group_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_markets_groups_market_group_id_container.put(market_group_id, holder);
+                        SimpleObjectProperty<R_get_markets_groups_market_group_id> holderf = holder;
+                        addFetchCacheObject("get_markets_groups_market_group_id", (m->swagger.get_markets_groups_market_group_id(market_group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
     }
 
     public class Opportunities {
+        private HashMap<Integer, SimpleObjectProperty<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_container = new HashMap<>();
 
-        public Property<R_get_opportunities_tasks_task_id> get_opportunities_tasks_task_id(int param) {
-            SimpleObjectProperty<R_get_opportunities_tasks_task_id> holder = get_opportunities_tasks_task_id_container.get(param);
+        public Property<R_get_opportunities_groups_group_id> get_opportunities_groups_group_id(int group_id) {
+            SimpleObjectProperty<R_get_opportunities_groups_group_id> holder = get_opportunities_groups_group_id_container.get(group_id);
+            if (holder == null) {
+                synchronized (get_opportunities_groups_group_id_container)
+                {
+                    holder = get_opportunities_groups_group_id_container.get(group_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_opportunities_groups_group_id_container.put(group_id, holder);
+                        SimpleObjectProperty<R_get_opportunities_groups_group_id> holderf = holder;
+                        addFetchCacheObject("get_opportunities_groups_group_id", (m->swagger.get_opportunities_groups_group_id(group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_opportunities_tasks_task_id> get_opportunities_tasks_task_id(int task_id) {
+            SimpleObjectProperty<R_get_opportunities_tasks_task_id> holder = get_opportunities_tasks_task_id_container.get(task_id);
             if (holder == null) {
                 synchronized (get_opportunities_tasks_task_id_container)
                 {
-                    holder = get_opportunities_tasks_task_id_container.get(param);
+                    holder = get_opportunities_tasks_task_id_container.get(task_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_opportunities_tasks_task_id_container.put(param, holder);
-                        addFetchCacheObject("get_opportunities_tasks_task_id", (m->swagger.get_opportunities_tasks_task_id(param, m)), (holder::set));
+                        get_opportunities_tasks_task_id_container.put(task_id, holder);
+                        SimpleObjectProperty<R_get_opportunities_tasks_task_id> holderf = holder;
+                        addFetchCacheObject("get_opportunities_tasks_task_id", (m->swagger.get_opportunities_tasks_task_id(task_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -624,153 +693,270 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Universe {
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id>> get_universe_asteroid_belts_asteroid_belt_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_categories_category_id>> get_universe_categories_category_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_constellations_constellation_id>> get_universe_constellations_constellation_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_graphics_graphic_id>> get_universe_graphics_graphic_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_groups_group_id>> get_universe_groups_group_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_moons_moon_id>> get_universe_moons_moon_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_planets_planet_id>> get_universe_planets_planet_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_regions_region_id>> get_universe_regions_region_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_schematics_schematic_id>> get_universe_schematics_schematic_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_stargates_stargate_id>> get_universe_stargates_stargate_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_stars_star_id>> get_universe_stars_star_id_container = new HashMap<>();
-        private HashMap<Long, SimpleObjectProperty<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_container = new HashMap<>();
         private HashMap<Integer, SimpleObjectProperty<R_get_universe_stations_station_id>> get_universe_stations_station_id_container = new HashMap<>();
+        private HashMap<Long, SimpleObjectProperty<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_types_type_id>> get_universe_types_type_id_container = new HashMap<>();
+        private HashMap<Integer, SimpleObjectProperty<R_get_universe_systems_system_id>> get_universe_systems_system_id_container = new HashMap<>();
 
-        public Property<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts_asteroid_belt_id(int param) {
-            SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> holder = get_universe_asteroid_belts_asteroid_belt_id_container.get(param);
+        public Property<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts_asteroid_belt_id(int asteroid_belt_id) {
+            SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> holder = get_universe_asteroid_belts_asteroid_belt_id_container.get(asteroid_belt_id);
             if (holder == null) {
                 synchronized (get_universe_asteroid_belts_asteroid_belt_id_container)
                 {
-                    holder = get_universe_asteroid_belts_asteroid_belt_id_container.get(param);
+                    holder = get_universe_asteroid_belts_asteroid_belt_id_container.get(asteroid_belt_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_asteroid_belts_asteroid_belt_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (m->swagger.get_universe_asteroid_belts_asteroid_belt_id(param, m)), (holder::set));
+                        get_universe_asteroid_belts_asteroid_belt_id_container.put(asteroid_belt_id, holder);
+                        SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> holderf = holder;
+                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (m->swagger.get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_graphics_graphic_id> get_universe_graphics_graphic_id(int param) {
-            SimpleObjectProperty<R_get_universe_graphics_graphic_id> holder = get_universe_graphics_graphic_id_container.get(param);
+        public Property<R_get_universe_categories_category_id> get_universe_categories_category_id(int category_id) {
+            SimpleObjectProperty<R_get_universe_categories_category_id> holder = get_universe_categories_category_id_container.get(category_id);
+            if (holder == null) {
+                synchronized (get_universe_categories_category_id_container)
+                {
+                    holder = get_universe_categories_category_id_container.get(category_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_categories_category_id_container.put(category_id, holder);
+                        SimpleObjectProperty<R_get_universe_categories_category_id> holderf = holder;
+                        addFetchCacheObject("get_universe_categories_category_id", (m->swagger.get_universe_categories_category_id(category_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_constellations_constellation_id> get_universe_constellations_constellation_id(int constellation_id) {
+            SimpleObjectProperty<R_get_universe_constellations_constellation_id> holder = get_universe_constellations_constellation_id_container.get(constellation_id);
+            if (holder == null) {
+                synchronized (get_universe_constellations_constellation_id_container)
+                {
+                    holder = get_universe_constellations_constellation_id_container.get(constellation_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_constellations_constellation_id_container.put(constellation_id, holder);
+                        SimpleObjectProperty<R_get_universe_constellations_constellation_id> holderf = holder;
+                        addFetchCacheObject("get_universe_constellations_constellation_id", (m->swagger.get_universe_constellations_constellation_id(constellation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_graphics_graphic_id> get_universe_graphics_graphic_id(int graphic_id) {
+            SimpleObjectProperty<R_get_universe_graphics_graphic_id> holder = get_universe_graphics_graphic_id_container.get(graphic_id);
             if (holder == null) {
                 synchronized (get_universe_graphics_graphic_id_container)
                 {
-                    holder = get_universe_graphics_graphic_id_container.get(param);
+                    holder = get_universe_graphics_graphic_id_container.get(graphic_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_graphics_graphic_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_graphics_graphic_id", (m->swagger.get_universe_graphics_graphic_id(param, m)), (holder::set));
+                        get_universe_graphics_graphic_id_container.put(graphic_id, holder);
+                        SimpleObjectProperty<R_get_universe_graphics_graphic_id> holderf = holder;
+                        addFetchCacheObject("get_universe_graphics_graphic_id", (m->swagger.get_universe_graphics_graphic_id(graphic_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_moons_moon_id> get_universe_moons_moon_id(int param) {
-            SimpleObjectProperty<R_get_universe_moons_moon_id> holder = get_universe_moons_moon_id_container.get(param);
+        public Property<R_get_universe_groups_group_id> get_universe_groups_group_id(int group_id) {
+            SimpleObjectProperty<R_get_universe_groups_group_id> holder = get_universe_groups_group_id_container.get(group_id);
+            if (holder == null) {
+                synchronized (get_universe_groups_group_id_container)
+                {
+                    holder = get_universe_groups_group_id_container.get(group_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_groups_group_id_container.put(group_id, holder);
+                        SimpleObjectProperty<R_get_universe_groups_group_id> holderf = holder;
+                        addFetchCacheObject("get_universe_groups_group_id", (m->swagger.get_universe_groups_group_id(group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_moons_moon_id> get_universe_moons_moon_id(int moon_id) {
+            SimpleObjectProperty<R_get_universe_moons_moon_id> holder = get_universe_moons_moon_id_container.get(moon_id);
             if (holder == null) {
                 synchronized (get_universe_moons_moon_id_container)
                 {
-                    holder = get_universe_moons_moon_id_container.get(param);
+                    holder = get_universe_moons_moon_id_container.get(moon_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_moons_moon_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_moons_moon_id", (m->swagger.get_universe_moons_moon_id(param, m)), (holder::set));
+                        get_universe_moons_moon_id_container.put(moon_id, holder);
+                        SimpleObjectProperty<R_get_universe_moons_moon_id> holderf = holder;
+                        addFetchCacheObject("get_universe_moons_moon_id", (m->swagger.get_universe_moons_moon_id(moon_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_planets_planet_id> get_universe_planets_planet_id(int param) {
-            SimpleObjectProperty<R_get_universe_planets_planet_id> holder = get_universe_planets_planet_id_container.get(param);
+        public Property<R_get_universe_planets_planet_id> get_universe_planets_planet_id(int planet_id) {
+            SimpleObjectProperty<R_get_universe_planets_planet_id> holder = get_universe_planets_planet_id_container.get(planet_id);
             if (holder == null) {
                 synchronized (get_universe_planets_planet_id_container)
                 {
-                    holder = get_universe_planets_planet_id_container.get(param);
+                    holder = get_universe_planets_planet_id_container.get(planet_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_planets_planet_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_planets_planet_id", (m->swagger.get_universe_planets_planet_id(param, m)), (holder::set));
+                        get_universe_planets_planet_id_container.put(planet_id, holder);
+                        SimpleObjectProperty<R_get_universe_planets_planet_id> holderf = holder;
+                        addFetchCacheObject("get_universe_planets_planet_id", (m->swagger.get_universe_planets_planet_id(planet_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_schematics_schematic_id> get_universe_schematics_schematic_id(int param) {
-            SimpleObjectProperty<R_get_universe_schematics_schematic_id> holder = get_universe_schematics_schematic_id_container.get(param);
+        public Property<R_get_universe_regions_region_id> get_universe_regions_region_id(int region_id) {
+            SimpleObjectProperty<R_get_universe_regions_region_id> holder = get_universe_regions_region_id_container.get(region_id);
+            if (holder == null) {
+                synchronized (get_universe_regions_region_id_container)
+                {
+                    holder = get_universe_regions_region_id_container.get(region_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_regions_region_id_container.put(region_id, holder);
+                        SimpleObjectProperty<R_get_universe_regions_region_id> holderf = holder;
+                        addFetchCacheObject("get_universe_regions_region_id", (m->swagger.get_universe_regions_region_id(region_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_schematics_schematic_id> get_universe_schematics_schematic_id(int schematic_id) {
+            SimpleObjectProperty<R_get_universe_schematics_schematic_id> holder = get_universe_schematics_schematic_id_container.get(schematic_id);
             if (holder == null) {
                 synchronized (get_universe_schematics_schematic_id_container)
                 {
-                    holder = get_universe_schematics_schematic_id_container.get(param);
+                    holder = get_universe_schematics_schematic_id_container.get(schematic_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_schematics_schematic_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_schematics_schematic_id", (m->swagger.get_universe_schematics_schematic_id(param, m)), (holder::set));
+                        get_universe_schematics_schematic_id_container.put(schematic_id, holder);
+                        SimpleObjectProperty<R_get_universe_schematics_schematic_id> holderf = holder;
+                        addFetchCacheObject("get_universe_schematics_schematic_id", (m->swagger.get_universe_schematics_schematic_id(schematic_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_stargates_stargate_id> get_universe_stargates_stargate_id(int param) {
-            SimpleObjectProperty<R_get_universe_stargates_stargate_id> holder = get_universe_stargates_stargate_id_container.get(param);
+        public Property<R_get_universe_stargates_stargate_id> get_universe_stargates_stargate_id(int stargate_id) {
+            SimpleObjectProperty<R_get_universe_stargates_stargate_id> holder = get_universe_stargates_stargate_id_container.get(stargate_id);
             if (holder == null) {
                 synchronized (get_universe_stargates_stargate_id_container)
                 {
-                    holder = get_universe_stargates_stargate_id_container.get(param);
+                    holder = get_universe_stargates_stargate_id_container.get(stargate_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_stargates_stargate_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_stargates_stargate_id", (m->swagger.get_universe_stargates_stargate_id(param, m)), (holder::set));
+                        get_universe_stargates_stargate_id_container.put(stargate_id, holder);
+                        SimpleObjectProperty<R_get_universe_stargates_stargate_id> holderf = holder;
+                        addFetchCacheObject("get_universe_stargates_stargate_id", (m->swagger.get_universe_stargates_stargate_id(stargate_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_stars_star_id> get_universe_stars_star_id(int param) {
-            SimpleObjectProperty<R_get_universe_stars_star_id> holder = get_universe_stars_star_id_container.get(param);
+        public Property<R_get_universe_stars_star_id> get_universe_stars_star_id(int star_id) {
+            SimpleObjectProperty<R_get_universe_stars_star_id> holder = get_universe_stars_star_id_container.get(star_id);
             if (holder == null) {
                 synchronized (get_universe_stars_star_id_container)
                 {
-                    holder = get_universe_stars_star_id_container.get(param);
+                    holder = get_universe_stars_star_id_container.get(star_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_stars_star_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_stars_star_id", (m->swagger.get_universe_stars_star_id(param, m)), (holder::set));
+                        get_universe_stars_star_id_container.put(star_id, holder);
+                        SimpleObjectProperty<R_get_universe_stars_star_id> holderf = holder;
+                        addFetchCacheObject("get_universe_stars_star_id", (m->swagger.get_universe_stars_star_id(star_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
             return holder;
         }
 
-        public Property<R_get_universe_structures_structure_id> get_universe_structures_structure_id(long param) {
-            SimpleObjectProperty<R_get_universe_structures_structure_id> holder = get_universe_structures_structure_id_container.get(param);
-            if (holder == null) {
-                synchronized (get_universe_structures_structure_id_container)
-                {
-                    holder = get_universe_structures_structure_id_container.get(param);
-                    if (holder == null) {
-                        holder = new SimpleObjectProperty<>();
-                        get_universe_structures_structure_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_structures_structure_id", (m->swagger.get_universe_structures_structure_id(param, m)), (holder::set));
-                    }
-                }
-            }
-            return holder;
-        }
-
-        public Property<R_get_universe_stations_station_id> get_universe_stations_station_id(int param) {
-            SimpleObjectProperty<R_get_universe_stations_station_id> holder = get_universe_stations_station_id_container.get(param);
+        public Property<R_get_universe_stations_station_id> get_universe_stations_station_id(int station_id) {
+            SimpleObjectProperty<R_get_universe_stations_station_id> holder = get_universe_stations_station_id_container.get(station_id);
             if (holder == null) {
                 synchronized (get_universe_stations_station_id_container)
                 {
-                    holder = get_universe_stations_station_id_container.get(param);
+                    holder = get_universe_stations_station_id_container.get(station_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_universe_stations_station_id_container.put(param, holder);
-                        addFetchCacheObject("get_universe_stations_station_id", (m->swagger.get_universe_stations_station_id(param, m)), (holder::set));
+                        get_universe_stations_station_id_container.put(station_id, holder);
+                        SimpleObjectProperty<R_get_universe_stations_station_id> holderf = holder;
+                        addFetchCacheObject("get_universe_stations_station_id", (m->swagger.get_universe_stations_station_id(station_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_structures_structure_id> get_universe_structures_structure_id(long structure_id) {
+            SimpleObjectProperty<R_get_universe_structures_structure_id> holder = get_universe_structures_structure_id_container.get(structure_id);
+            if (holder == null) {
+                synchronized (get_universe_structures_structure_id_container)
+                {
+                    holder = get_universe_structures_structure_id_container.get(structure_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_structures_structure_id_container.put(structure_id, holder);
+                        SimpleObjectProperty<R_get_universe_structures_structure_id> holderf = holder;
+                        addFetchCacheObject("get_universe_structures_structure_id", (m->swagger.get_universe_structures_structure_id(structure_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_types_type_id> get_universe_types_type_id(int type_id) {
+            SimpleObjectProperty<R_get_universe_types_type_id> holder = get_universe_types_type_id_container.get(type_id);
+            if (holder == null) {
+                synchronized (get_universe_types_type_id_container)
+                {
+                    holder = get_universe_types_type_id_container.get(type_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_types_type_id_container.put(type_id, holder);
+                        SimpleObjectProperty<R_get_universe_types_type_id> holderf = holder;
+                        addFetchCacheObject("get_universe_types_type_id", (m->swagger.get_universe_types_type_id(type_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                    }
+                }
+            }
+            return holder;
+        }
+
+        public Property<R_get_universe_systems_system_id> get_universe_systems_system_id(int system_id) {
+            SimpleObjectProperty<R_get_universe_systems_system_id> holder = get_universe_systems_system_id_container.get(system_id);
+            if (holder == null) {
+                synchronized (get_universe_systems_system_id_container)
+                {
+                    holder = get_universe_systems_system_id_container.get(system_id);
+                    if (holder == null) {
+                        holder = new SimpleObjectProperty<>();
+                        get_universe_systems_system_id_container.put(system_id, holder);
+                        SimpleObjectProperty<R_get_universe_systems_system_id> holderf = holder;
+                        addFetchCacheObject("get_universe_systems_system_id", (m->swagger.get_universe_systems_system_id(system_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -781,16 +967,17 @@ public abstract class SwaggerCache<T extends Swagger> {
     public class Wars {
         private HashMap<Integer, SimpleObjectProperty<R_get_wars_war_id>> get_wars_war_id_container = new HashMap<>();
 
-        public Property<R_get_wars_war_id> get_wars_war_id(int param) {
-            SimpleObjectProperty<R_get_wars_war_id> holder = get_wars_war_id_container.get(param);
+        public Property<R_get_wars_war_id> get_wars_war_id(int war_id) {
+            SimpleObjectProperty<R_get_wars_war_id> holder = get_wars_war_id_container.get(war_id);
             if (holder == null) {
                 synchronized (get_wars_war_id_container)
                 {
-                    holder = get_wars_war_id_container.get(param);
+                    holder = get_wars_war_id_container.get(war_id);
                     if (holder == null) {
                         holder = new SimpleObjectProperty<>();
-                        get_wars_war_id_container.put(param, holder);
-                        addFetchCacheObject("get_wars_war_id", (m->swagger.get_wars_war_id(param, m)), (holder::set));
+                        get_wars_war_id_container.put(war_id, holder);
+                        SimpleObjectProperty<R_get_wars_war_id> holderf = holder;
+                        addFetchCacheObject("get_wars_war_id", (m->swagger.get_wars_war_id(war_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }

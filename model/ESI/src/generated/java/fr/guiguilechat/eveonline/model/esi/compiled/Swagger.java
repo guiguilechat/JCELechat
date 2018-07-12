@@ -82,7 +82,6 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_membertracking;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders_history;
-import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_outposts_outpost_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_roles_history;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_shareholders;
@@ -149,7 +148,7 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_id
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_names;
 
 public interface Swagger {
-    public static final String[] SCOPES = new String[] {"esi-characters.write_contacts.v1", "esi-skills.read_skills.v1", "esi-characters.read_fatigue.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_corporation_membership.v1", "esi-bookmarks.read_character_bookmarks.v1", "esi-assets.read_corporation_assets.v1", "esi-fittings.read_fittings.v1", "esi-contracts.read_corporation_contracts.v1", "esi-fleets.write_fleet.v1", "esi-ui.write_waypoint.v1", "esi-industry.read_character_jobs.v1", "esi-bookmarks.read_corporation_bookmarks.v1", "esi-industry.read_character_mining.v1", "esi-clones.read_clones.v1", "esi-characters.read_agents_research.v1", "esi-calendar.respond_calendar_events.v1", "esi-location.read_online.v1", "esi-mail.read_mail.v1", "esi-characterstats.read.v1", "esi-search.search_structures.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-characters.read_contacts.v1", "esi-fittings.write_fittings.v1", "esi-markets.structure_markets.v1", "esi-wallet.read_corporation_wallets.v1", "esi-characters.read_corporation_roles.v1", "esi-wallet.read_character_wallet.v1", "esi-assets.read_assets.v1", "esi-killmails.read_killmails.v1", "esi-characters.read_medals.v1", "esi-location.read_ship_type.v1", "esi-skills.read_skillqueue.v1", "esi-contracts.read_character_contracts.v1", "esi-mail.send_mail.v1", "esi-alliances.read_contacts.v1", "esi-location.read_location.v1", "esi-ui.open_window.v1", "esi-fleets.read_fleet.v1", "esi-industry.read_corporation_mining.v1", "esi-corporations.read_blueprints.v1", "esi-calendar.read_calendar_events.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-characters.read_notifications.v1", "esi-characters.read_standings.v1", "esi-characters.read_opportunities.v1", "esi-corporations.read_standings.v1", "esi-industry.read_corporation_jobs.v1", "esi-characters.read_fw_stats.v1", "esi-corporations.read_titles.v1", "esi-universe.read_structures.v1", "esi-corporations.track_members.v1", "esi-corporations.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-mail.organize_mail.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_outposts.v1", "esi-corporations.read_starbases.v1", "esi-clones.read_implants.v1", "esi-killmails.read_corporation_killmails.v1", "esi-corporations.read_medals.v1", "esi-planets.manage_planets.v1", "esi-characters.read_titles.v1", "esi-corporations.read_facilities.v1", "esi-planets.read_customs_offices.v1", "esi-characters.read_blueprints.v1"};
+    public static final String[] SCOPES = new String[] {"esi-characters.write_contacts.v1", "esi-skills.read_skills.v1", "esi-characters.read_fatigue.v1", "esi-corporations.read_divisions.v1", "esi-corporations.read_corporation_membership.v1", "esi-bookmarks.read_character_bookmarks.v1", "esi-assets.read_corporation_assets.v1", "esi-fittings.read_fittings.v1", "esi-contracts.read_corporation_contracts.v1", "esi-fleets.write_fleet.v1", "esi-ui.write_waypoint.v1", "esi-industry.read_character_jobs.v1", "esi-bookmarks.read_corporation_bookmarks.v1", "esi-industry.read_character_mining.v1", "esi-clones.read_clones.v1", "esi-characters.read_agents_research.v1", "esi-calendar.respond_calendar_events.v1", "esi-location.read_online.v1", "esi-mail.read_mail.v1", "esi-characterstats.read.v1", "esi-search.search_structures.v1", "esi-corporations.read_contacts.v1", "esi-corporations.read_container_logs.v1", "esi-characters.read_contacts.v1", "esi-fittings.write_fittings.v1", "esi-markets.structure_markets.v1", "esi-wallet.read_corporation_wallets.v1", "esi-characters.read_corporation_roles.v1", "esi-wallet.read_character_wallet.v1", "esi-assets.read_assets.v1", "esi-killmails.read_killmails.v1", "esi-characters.read_medals.v1", "esi-location.read_ship_type.v1", "esi-skills.read_skillqueue.v1", "esi-contracts.read_character_contracts.v1", "esi-mail.send_mail.v1", "esi-alliances.read_contacts.v1", "esi-location.read_location.v1", "esi-ui.open_window.v1", "esi-fleets.read_fleet.v1", "esi-industry.read_corporation_mining.v1", "esi-corporations.read_blueprints.v1", "esi-calendar.read_calendar_events.v1", "esi-markets.read_character_orders.v1", "esi-markets.read_corporation_orders.v1", "esi-characters.read_notifications.v1", "esi-characters.read_standings.v1", "esi-characters.read_opportunities.v1", "esi-corporations.read_standings.v1", "esi-industry.read_corporation_jobs.v1", "esi-characters.read_fw_stats.v1", "esi-corporations.read_titles.v1", "esi-universe.read_structures.v1", "esi-corporations.track_members.v1", "esi-corporations.read_fw_stats.v1", "esi-characters.read_loyalty.v1", "esi-mail.organize_mail.v1", "esi-corporations.read_structures.v1", "esi-corporations.read_starbases.v1", "esi-clones.read_implants.v1", "esi-killmails.read_corporation_killmails.v1", "esi-corporations.read_medals.v1", "esi-planets.manage_planets.v1", "esi-characters.read_titles.v1", "esi-corporations.read_facilities.v1", "esi-planets.read_customs_offices.v1", "esi-characters.read_blueprints.v1"};
     /**
      * the roles required for {@link #get_corporation_corporation_id_mining_extractions this method}
      */
@@ -203,18 +202,6 @@ public interface Swagger {
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_MEMBERTRACKING_ROLES = new String[] {"Director"};
     /**
-     * the roles required for {@link #get_corporations_corporation_id_orders_history this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
-    /**
-     * the roles required for {@link #get_corporations_corporation_id_outposts this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_ROLES = new String[] {"Director"};
-    /**
-     * the roles required for {@link #get_corporations_corporation_id_outposts_outpost_id this method}
-     */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_OUTPOST_ID_ROLES = new String[] {"Director"};
-    /**
      * the roles required for {@link #get_corporations_corporation_id_roles_history this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ROLES_HISTORY_ROLES = new String[] {"Director"};
@@ -255,9 +242,9 @@ public interface Swagger {
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_CONTAINERS_LOGS_ROLES = new String[] {"Director"};
     /**
-     * the roles required for {@link #get_corporations_corporation_id_orders this method}
+     * the roles required for {@link #get_corporations_corporation_id_orders_history this method}
      */
-    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES = new String[] {"Accountant", "Trader"};
     /**
      * the roles required for {@link #get_corporations_corporation_id_structures this method}
      */
@@ -266,6 +253,10 @@ public interface Swagger {
      * the roles required for {@link #get_corporations_corporation_id_assets this method}
      */
     public static final String[] GET_CORPORATIONS_CORPORATION_ID_ASSETS_ROLES = new String[] {"Director"};
+    /**
+     * the roles required for {@link #get_corporations_corporation_id_orders this method}
+     */
+    public static final String[] GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES = new String[] {"Accountant", "Trader"};
     /**
      * the roles required for {@link #get_corporations_corporation_id_wallets_division_journal this method}
      */
@@ -1499,76 +1490,6 @@ public interface Swagger {
     }
 
     /**
-     * List historical orders from a corporation
-     * <p>
-     * List cancelled and expired market orders placed on behalf of a corporation up to 90 days in the past.<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Accountant, Trader<br />
-     * Warning: This route has an upgrade available.<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/orders/history/)
-     * </p>
-     * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES here}
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default R_get_corporations_corporation_id_orders_history[] get_corporations_corporation_id_orders_history(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/orders/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders_history[].class));
-    }
-
-    /**
-     * Get corporation outposts
-     * <p>
-     * Get a list of corporation outpost IDs Note: This endpoint will be removed once outposts are migrated to Citadels as talked about in this blog: https://community.eveonline.com/news/dev-blogs/the-next-steps-in-structure-transition/<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * Warning: Outposts have been removed, this route will be deleted on 2018-07-08
-     * </p>
-     * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_ROLES here}
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param page
-     *     Which page of results to return
-     */
-    public default int[] get_corporations_corporation_id_outposts(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/outposts/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (int[].class));
-    }
-
-    /**
-     * Get corporation outpost details
-     * <p>
-     * Get details about a given outpost. Note: This endpoint will be removed once outposts are migrated to Citadels as talked about in this blog: https://community.eveonline.com/news/dev-blogs/the-next-steps-in-structure-transition/<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Requires one of the following EVE corporation role(s): Director<br />
-     * Warning: Outposts have been removed, this route will be deleted on 2018-07-08
-     * </p>
-     * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_OUTPOSTS_OUTPOST_ID_ROLES here}
-     * </p>
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param outpost_id
-     *     A station (outpost) ID
-     */
-    public default R_get_corporations_corporation_id_outposts_outpost_id get_corporations_corporation_id_outposts_outpost_id(int corporation_id, int outpost_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/corporations/{corporation_id}/outposts/{outpost_id}/".replace("{corporation_id}", ""+corporation_id).replace("{outpost_id}", ""+outpost_id));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_outposts_outpost_id.class));
-    }
-
-    /**
      * Get corporation member roles
      * <p>
      * Return the roles of all members if the character has the personnel manager role or any grantable role.<br />
@@ -1862,11 +1783,9 @@ public interface Swagger {
      * 
      * @param fleet_id
      *     ID for a fleet
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_fleets_fleet_id_members[] get_fleets_fleet_id_members(long fleet_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/".replace("{fleet_id}", ""+fleet_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_fleets_fleet_id_members[] get_fleets_fleet_id_members(long fleet_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/".replace("{fleet_id}", ""+fleet_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id_members[].class));
     }
@@ -1985,11 +1904,9 @@ public interface Swagger {
      * 
      * @param fleet_id
      *     ID for a fleet
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_fleets_fleet_id_wings[] get_fleets_fleet_id_wings(long fleet_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/wings/".replace("{fleet_id}", ""+fleet_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_fleets_fleet_id_wings[] get_fleets_fleet_id_wings(long fleet_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/wings/".replace("{fleet_id}", ""+fleet_id));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fleets_fleet_id_wings[].class));
     }
@@ -2115,21 +2032,6 @@ public interface Swagger {
     }
 
     /**
-     * Ownership of faction warfare systems
-     * <p>
-     * An overview of the current ownership of faction warfare solar systems<br />
-     * This route is cached for up to 1800 seconds<br />
-     * Warning: This route has an upgrade available.<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/fw/systems/)
-     * </p>
-     */
-    public default R_get_fw_systems[] get_fw_systems(Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fw/systems/");
-        String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_systems[].class));
-    }
-
-    /**
      * Data about which NPC factions are at war
      * <p>
      * Data about which NPC factions are at war<br />
@@ -2187,12 +2089,9 @@ public interface Swagger {
      * Return available insurance levels for all ship types<br />
      * This route is cached for up to 3600 seconds
      * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_insurance_prices[] get_insurance_prices(Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/insurance/prices/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_insurance_prices[] get_insurance_prices(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/insurance/prices/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_insurance_prices[].class));
     }
@@ -2251,13 +2150,11 @@ public interface Swagger {
      * This route expires daily at 11:05
      * </p>
      * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param market_group_id
      *     An Eve item group ID
      */
-    public default R_get_markets_groups_market_group_id get_markets_groups_market_group_id(Swagger.language language, int market_group_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_markets_groups_market_group_id get_markets_groups_market_group_id(int market_group_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/markets/groups/{market_group_id}/".replace("{market_group_id}", ""+market_group_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_groups_market_group_id.class));
     }
@@ -2373,11 +2270,9 @@ public interface Swagger {
      * 
      * @param group_id
      *     ID of an opportunities group
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_opportunities_groups_group_id get_opportunities_groups_group_id(int group_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/opportunities/groups/{group_id}/".replace("{group_id}", ""+group_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_opportunities_groups_group_id get_opportunities_groups_group_id(int group_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/opportunities/groups/{group_id}/".replace("{group_id}", ""+group_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_opportunities_groups_group_id.class));
     }
@@ -2563,12 +2458,9 @@ public interface Swagger {
      * Get all character ancestries<br />
      * This route expires daily at 11:05
      * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_ancestries[] get_universe_ancestries(Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/ancestries/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_ancestries[] get_universe_ancestries(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/ancestries/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_ancestries[].class));
     }
@@ -2595,12 +2487,9 @@ public interface Swagger {
      * Get a list of bloodlines<br />
      * This route expires daily at 11:05
      * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_bloodlines[] get_universe_bloodlines(Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/bloodlines/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_bloodlines[] get_universe_bloodlines(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/bloodlines/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_bloodlines[].class));
     }
@@ -2627,11 +2516,9 @@ public interface Swagger {
      * 
      * @param category_id
      *     An Eve item category ID
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_categories_category_id get_universe_categories_category_id(int category_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/categories/{category_id}/".replace("{category_id}", ""+category_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_categories_category_id get_universe_categories_category_id(int category_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/categories/{category_id}/".replace("{category_id}", ""+category_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_categories_category_id.class));
     }
@@ -2658,11 +2545,9 @@ public interface Swagger {
      * 
      * @param constellation_id
      *     constellation_id integer
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_constellations_constellation_id get_universe_constellations_constellation_id(int constellation_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_constellations_constellation_id get_universe_constellations_constellation_id(int constellation_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/constellations/{constellation_id}/".replace("{constellation_id}", ""+constellation_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_constellations_constellation_id.class));
     }
@@ -2721,11 +2606,9 @@ public interface Swagger {
      * 
      * @param group_id
      *     An Eve item group ID
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_groups_group_id get_universe_groups_group_id(int group_id, Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/groups/{group_id}/".replace("{group_id}", ""+group_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_groups_group_id get_universe_groups_group_id(int group_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/groups/{group_id}/".replace("{group_id}", ""+group_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_groups_group_id.class));
     }
@@ -2736,13 +2619,11 @@ public interface Swagger {
      * Resolve a set of names to IDs in the following categories: agents, alliances, characters, constellations, corporations factions, inventory_types, regions, stations, and systems. Only exact matches will be returned. All names searched for are cached for 12 hours.
      * </p>
      * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param names
      *     The names to resolve
      */
-    public default R_post_universe_ids post_universe_ids(Swagger.language language, String[] names, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/ids/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_post_universe_ids post_universe_ids(String[] names, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/ids/");
         Map<String, Object> content = new HashMap<>();
         content.put("names", names);
         String fetched = connectPost(url, content, false, headerHandler);
@@ -2787,12 +2668,9 @@ public interface Swagger {
      * Get a list of character races<br />
      * This route expires daily at 11:05
      * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_races[] get_universe_races(Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/races/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_races[] get_universe_races(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/races/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_races[].class));
     }
@@ -2817,13 +2695,11 @@ public interface Swagger {
      * This route expires daily at 11:05
      * </p>
      * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param region_id
      *     region_id integer
      */
-    public default R_get_universe_regions_region_id get_universe_regions_region_id(Swagger.language language, int region_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/regions/{region_id}/".replace("{region_id}", ""+region_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_regions_region_id get_universe_regions_region_id(int region_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/universe/regions/{region_id}/".replace("{region_id}", ""+region_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_regions_region_id.class));
     }
@@ -2887,24 +2763,6 @@ public interface Swagger {
         String url = ("https://esi.evetech.net/v1/universe/structures/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (long[].class));
-    }
-
-    /**
-     * Get structure information
-     * <p>
-     * Returns information on requested structure, if you are on the ACL. Otherwise, returns "Forbidden" for all inputs.<br />
-     * This route is cached for up to 3600 seconds<br />
-     * Warning: This route has an upgrade available.<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/universe/structures/{structure_id}/)
-     * </p>
-     * 
-     * @param structure_id
-     *     An Eve structure ID
-     */
-    public default R_get_universe_structures_structure_id get_universe_structures_structure_id(long structure_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/universe/structures/{structure_id}/".replace("{structure_id}", ""+structure_id));
-        String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id.class));
     }
 
     /**
@@ -3409,16 +3267,14 @@ public interface Swagger {
     }
 
     /**
-     * List open orders from a corporation
+     * List historical orders from a corporation
      * <p>
-     * List open market orders placed on behalf of a corporation<br />
-     * This route is cached for up to 1200 seconds<br />
-     * Requires one of the following EVE corporation role(s): Accountant, Trader<br />
-     * Warning: This route has an upgrade available.<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/corporations/{corporation_id}/orders/)
+     * List cancelled and expired market orders placed on behalf of a corporation up to 90 days in the past.<br />
+     * This route is cached for up to 3600 seconds<br />
+     * Requires one of the following EVE corporation role(s): Accountant, Trader
      * </p>
      * <p>
-     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES here}
+     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_HISTORY_ROLES here}
      * </p>
      * 
      * @param corporation_id
@@ -3426,10 +3282,10 @@ public interface Swagger {
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_orders[] get_corporations_corporation_id_orders(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/orders/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+    public default R_get_corporations_corporation_id_orders_history[] get_corporations_corporation_id_orders_history(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/orders/history/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders[].class));
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders_history[].class));
     }
 
     /**
@@ -3445,13 +3301,11 @@ public interface Swagger {
      * 
      * @param corporation_id
      *     An EVE corporation ID
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param page
      *     Which page of results to return
      */
-    public default R_get_corporations_corporation_id_structures[] get_corporations_corporation_id_structures(int corporation_id, Swagger.language language, Integer page, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?"+(language==null?"":"&language="+flatten(language))+(page==null?"":"&page="+flatten(page)));
+    public default R_get_corporations_corporation_id_structures[] get_corporations_corporation_id_structures(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/corporations/{corporation_id}/structures/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_structures[].class));
     }
@@ -3473,6 +3327,19 @@ public interface Swagger {
     }
 
     /**
+     * Ownership of faction warfare systems
+     * <p>
+     * An overview of the current ownership of faction warfare solar systems<br />
+     * This route is cached for up to 1800 seconds
+     * </p>
+     */
+    public default R_get_fw_systems[] get_fw_systems(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/fw/systems/");
+        String fetched=connectGet(url,false, headerHandler);
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_fw_systems[].class));
+    }
+
+    /**
      * Search on a string
      * <p>
      * Search for entities that match a given sub-string.<br />
@@ -3481,15 +3348,13 @@ public interface Swagger {
      * 
      * @param categories
      *     Type of entities to search for
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param search
      *     The string to search on
      * @param strict
      *     Whether the search should be a strict match
      */
-    public default R_get_search get_search(String[] categories, Swagger.language language, String search, Boolean strict, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/search/"+"?"+(categories==null?"":"&categories="+flatten(categories))+(language==null?"":"&language="+flatten(language))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
+    public default R_get_search get_search(String[] categories, String search, Boolean strict, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/search/"+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_search.class));
     }
@@ -3518,12 +3383,9 @@ public interface Swagger {
      * Get a list of factions<br />
      * This route expires daily at 11:05
      * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      */
-    public default R_get_universe_factions[] get_universe_factions(Swagger.language language, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/universe/factions/"+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_factions[] get_universe_factions(Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/universe/factions/");
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_factions[].class));
     }
@@ -3559,6 +3421,22 @@ public interface Swagger {
         String url = ("https://esi.evetech.net/v2/universe/stations/{station_id}/".replace("{station_id}", ""+station_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_stations_station_id.class));
+    }
+
+    /**
+     * Get structure information
+     * <p>
+     * Returns information on requested structure if you are on the ACL. Otherwise, returns "Forbidden" for all inputs.<br />
+     * This route is cached for up to 3600 seconds
+     * </p>
+     * 
+     * @param structure_id
+     *     An Eve structure ID
+     */
+    public default R_get_universe_structures_structure_id get_universe_structures_structure_id(long structure_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/universe/structures/{structure_id}/".replace("{structure_id}", ""+structure_id));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_structures_structure_id.class));
     }
 
     /**
@@ -3707,15 +3585,13 @@ public interface Swagger {
      *     Type of entities to search for
      * @param character_id
      *     An EVE character ID
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param search
      *     The string to search on
      * @param strict
      *     Whether the search should be a strict match
      */
-    public default R_get_characters_character_id_search get_characters_character_id_search(String[] categories, int character_id, Swagger.language language, String search, Boolean strict, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v3/characters/{character_id}/search/".replace("{character_id}", ""+character_id)+"?"+(categories==null?"":"&categories="+flatten(categories))+(language==null?"":"&language="+flatten(language))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
+    public default R_get_characters_character_id_search get_characters_character_id_search(String[] categories, int character_id, String search, Boolean strict, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v3/characters/{character_id}/search/".replace("{character_id}", ""+character_id)+"?"+(categories==null?"":"&categories="+flatten(categories))+(search==null?"":"&search="+flatten(search))+(strict==null?"":"&strict="+flatten(strict)));
         String fetched=connectGet(url,true, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_search.class));
     }
@@ -3759,6 +3635,28 @@ public interface Swagger {
     }
 
     /**
+     * List open orders from a corporation
+     * <p>
+     * List open market orders placed on behalf of a corporation<br />
+     * This route is cached for up to 1200 seconds<br />
+     * Requires one of the following EVE corporation role(s): Accountant, Trader
+     * </p>
+     * <p>
+     * require the roles specified {@link #GET_CORPORATIONS_CORPORATION_ID_ORDERS_ROLES here}
+     * </p>
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     * @param page
+     *     Which page of results to return
+     */
+    public default R_get_corporations_corporation_id_orders[] get_corporations_corporation_id_orders(int corporation_id, Integer page, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v3/corporations/{corporation_id}/orders/".replace("{corporation_id}", ""+corporation_id)+"?"+(page==null?"":"&page="+flatten(page)));
+        String fetched=connectGet(url,true, headerHandler);
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_orders[].class));
+    }
+
+    /**
      * Get corporation wallet journal
      * <p>
      * Retrieve the given corporation's wallet journal for the given division going 30 days back<br />
@@ -3783,39 +3681,17 @@ public interface Swagger {
     }
 
     /**
-     * Get solar system information
-     * <p>
-     * Get information on a solar system. NOTE: This route does not work with abyssal systems.<br />
-     * This route expires daily at 11:05<br />
-     * Warning: This route has an upgrade available.<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/universe/systems/{system_id}/)
-     * </p>
-     * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
-     * @param system_id
-     *     system_id integer
-     */
-    public default R_get_universe_systems_system_id get_universe_systems_system_id(Swagger.language language, int system_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v3/universe/systems/{system_id}/".replace("{system_id}", ""+system_id)+"?"+(language==null?"":"&language="+flatten(language)));
-        String fetched=connectGet(url,false, headerHandler);
-        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_systems_system_id.class));
-    }
-
-    /**
      * Get type information
      * <p>
      * Get information on a type<br />
      * This route expires daily at 11:05
      * </p>
      * 
-     * @param language
-     *     Language to use in the response, takes precedence over Accept-Language
      * @param type_id
      *     An Eve item type ID
      */
-    public default R_get_universe_types_type_id get_universe_types_type_id(Swagger.language language, int type_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v3/universe/types/{type_id}/".replace("{type_id}", ""+type_id)+"?"+(language==null?"":"&language="+flatten(language)));
+    public default R_get_universe_types_type_id get_universe_types_type_id(int type_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v3/universe/types/{type_id}/".replace("{type_id}", ""+type_id));
         String fetched=connectGet(url,false, headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_types_type_id.class));
     }
@@ -3905,6 +3781,22 @@ public interface Swagger {
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id.class));
     }
 
+    /**
+     * Get solar system information
+     * <p>
+     * Get information on a solar system.<br />
+     * This route expires daily at 11:05
+     * </p>
+     * 
+     * @param system_id
+     *     system_id integer
+     */
+    public default R_get_universe_systems_system_id get_universe_systems_system_id(int system_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v4/universe/systems/{system_id}/".replace("{system_id}", ""+system_id));
+        String fetched=connectGet(url,false, headerHandler);
+        return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_systems_system_id.class));
+    }
+
     public static enum flag {
         shortest("shortest"),
         secure("secure"),
@@ -3912,25 +3804,6 @@ public interface Swagger {
         public final String toString;
 
         flag(String toString) {
-            this.toString = toString;
-        }
-
-        @Override
-        public String toString() {
-            return toString;
-        }
-    }
-
-    public static enum language {
-        de("de"),
-        en_us("en-us"),
-        fr("fr"),
-        ja("ja"),
-        ru("ru"),
-        zh("zh");
-        public final String toString;
-
-        language(String toString) {
             this.toString = toString;
         }
 

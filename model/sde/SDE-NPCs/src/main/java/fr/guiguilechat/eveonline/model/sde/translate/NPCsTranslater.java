@@ -105,7 +105,7 @@ public class NPCsTranslater {
 		} else {
 			System.err.println("npc alliances are " + Arrays.asList(allyIds));
 		}
-		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.raw.get_universe_factions(null, null))
+		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.raw.get_universe_factions(null))
 				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
 		Map<Integer, String> agentNames = Stream
 				.of(esi.universe.names(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))

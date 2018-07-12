@@ -6,6 +6,10 @@ public class R_get_universe_structures_structure_id {
      */
     public String name;
     /**
+     * The ID of the corporation who owns this particular structure
+     */
+    public int owner_id;
+    /**
      * Coordinates of the structure in Cartesian space relative to the Sun, in metres.
      * 
      */

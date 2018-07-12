@@ -2,9 +2,9 @@ package fr.guiguilechat.eveonline.model.esi.compiled.responses;
 
 public class R_get_fw_systems {
     /**
-     * contested boolean
+     * contested string
      */
-    public boolean contested;
+    public String contested;
     /**
      * occupier_faction_id integer
      */

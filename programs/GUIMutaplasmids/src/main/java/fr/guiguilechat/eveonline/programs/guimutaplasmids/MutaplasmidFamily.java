@@ -194,9 +194,9 @@ public abstract class MutaplasmidFamily {
 			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
 
 	public static void searchESI() {
-		R_get_universe_groups_group_id groups = ESIAccount.DISCONNECTED.raw.get_universe_groups_group_id(1964, null, null);
+		R_get_universe_groups_group_id groups = ESIAccount.DISCONNECTED.raw.get_universe_groups_group_id(1964, null);
 		for (int mutaId : groups.types) {
-			R_get_universe_types_type_id type = ESIAccount.DISCONNECTED.raw.get_universe_types_type_id(null, mutaId, null);
+			R_get_universe_types_type_id type = ESIAccount.DISCONNECTED.raw.get_universe_types_type_id(mutaId, null);
 			System.err.println("" + mutaId + " " + type.name);
 		}
 	}

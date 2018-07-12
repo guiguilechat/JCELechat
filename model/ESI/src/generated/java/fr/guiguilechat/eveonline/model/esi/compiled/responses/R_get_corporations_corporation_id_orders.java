@@ -18,6 +18,10 @@ public class R_get_corporations_corporation_id_orders {
      */
     public String issued;
     /**
+     * The character who issued this order
+     */
+    public int issued_by;
+    /**
      * ID of the location where order was placed
      */
     public long location_id;
