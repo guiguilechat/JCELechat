@@ -102,7 +102,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_alliances_alliance_id_icons_container.put(alliance_id, holder);
                         SimpleObjectProperty<R_get_alliances_alliance_id_icons> holderf = holder;
-                        addFetchCacheObject("get_alliances_alliance_id_icons", (m->swagger.get_alliances_alliance_id_icons(alliance_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_alliances_alliance_id_icons", (header->swagger.get_alliances_alliance_id_icons(alliance_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -119,7 +119,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_alliances_alliance_id_container.put(alliance_id, holder);
                         SimpleObjectProperty<R_get_alliances_alliance_id> holderf = holder;
-                        addFetchCacheObject("get_alliances_alliance_id", (m->swagger.get_alliances_alliance_id(alliance_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_alliances_alliance_id", (header->swagger.get_alliances_alliance_id(alliance_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -153,7 +153,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_attributes_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_attributes> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_attributes", (m->swagger.get_characters_character_id_attributes(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_attributes", (header->swagger.get_characters_character_id_attributes(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -170,7 +170,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_fatigue_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_fatigue> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_fatigue", (m->swagger.get_characters_character_id_fatigue(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_fatigue", (header->swagger.get_characters_character_id_fatigue(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -187,7 +187,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_fleet_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_fleet> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_fleet", (m->swagger.get_characters_character_id_fleet(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_fleet", (header->swagger.get_characters_character_id_fleet(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -204,7 +204,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_fw_stats_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_fw_stats> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_fw_stats", (m->swagger.get_characters_character_id_fw_stats(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_fw_stats", (header->swagger.get_characters_character_id_fw_stats(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -221,7 +221,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_location_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_location> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_location", (m->swagger.get_characters_character_id_location(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_location", (header->swagger.get_characters_character_id_location(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -238,7 +238,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_ship_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_ship> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_ship", (m->swagger.get_characters_character_id_ship(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_ship", (header->swagger.get_characters_character_id_ship(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -255,7 +255,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_wallet_container.put(character_id, holder);
                         SimpleObjectProperty<Double> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_wallet", (m->swagger.get_characters_character_id_wallet(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_wallet", (header->swagger.get_characters_character_id_wallet(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -272,7 +272,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_online_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_online> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_online", (m->swagger.get_characters_character_id_online(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_online", (header->swagger.get_characters_character_id_online(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -289,7 +289,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_portrait_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_portrait> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_portrait", (m->swagger.get_characters_character_id_portrait(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_portrait", (header->swagger.get_characters_character_id_portrait(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -306,7 +306,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_roles_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_roles> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_roles", (m->swagger.get_characters_character_id_roles(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_roles", (header->swagger.get_characters_character_id_roles(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -323,7 +323,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_clones_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_clones> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_clones", (m->swagger.get_characters_character_id_clones(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_clones", (header->swagger.get_characters_character_id_clones(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -340,7 +340,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_mail_labels_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_mail_labels> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_mail_labels", (m->swagger.get_characters_character_id_mail_labels(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_mail_labels", (header->swagger.get_characters_character_id_mail_labels(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -357,7 +357,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id", (m->swagger.get_characters_character_id(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id", (header->swagger.get_characters_character_id(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -374,7 +374,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_characters_character_id_skills_container.put(character_id, holder);
                         SimpleObjectProperty<R_get_characters_character_id_skills> holderf = holder;
-                        addFetchCacheObject("get_characters_character_id_skills", (m->swagger.get_characters_character_id_skills(character_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_characters_character_id_skills", (header->swagger.get_characters_character_id_skills(character_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -402,7 +402,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_corporations_corporation_id_divisions_container.put(corporation_id, holder);
                         SimpleObjectProperty<R_get_corporations_corporation_id_divisions> holderf = holder;
-                        addFetchCacheObject("get_corporations_corporation_id_divisions", (m->swagger.get_corporations_corporation_id_divisions(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
+                        addFetchCacheObject("get_corporations_corporation_id_divisions", (header->swagger.get_corporations_corporation_id_divisions(corporation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
                     }
                 }
             }
@@ -419,7 +419,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_corporations_corporation_id_fw_stats_container.put(corporation_id, holder);
                         SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> holderf = holder;
-                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (m->swagger.get_corporations_corporation_id_fw_stats(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (header->swagger.get_corporations_corporation_id_fw_stats(corporation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -436,7 +436,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_corporations_corporation_id_icons_container.put(corporation_id, holder);
                         SimpleObjectProperty<R_get_corporations_corporation_id_icons> holderf = holder;
-                        addFetchCacheObject("get_corporations_corporation_id_icons", (m->swagger.get_corporations_corporation_id_icons(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_corporations_corporation_id_icons", (header->swagger.get_corporations_corporation_id_icons(corporation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -453,7 +453,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_corporations_corporation_id_members_limit_container.put(corporation_id, holder);
                         SimpleObjectProperty<Integer> holderf = holder;
-                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (m->swagger.get_corporations_corporation_id_members_limit(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
+                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (header->swagger.get_corporations_corporation_id_members_limit(corporation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}), new String[] {"Director"});
                     }
                 }
             }
@@ -470,7 +470,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_corporations_corporation_id_container.put(corporation_id, holder);
                         SimpleObjectProperty<R_get_corporations_corporation_id> holderf = holder;
-                        addFetchCacheObject("get_corporations_corporation_id", (m->swagger.get_corporations_corporation_id(corporation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_corporations_corporation_id", (header->swagger.get_corporations_corporation_id(corporation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -492,7 +492,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_dogma_attributes_attribute_id_container.put(attribute_id, holder);
                         SimpleObjectProperty<R_get_dogma_attributes_attribute_id> holderf = holder;
-                        addFetchCacheObject("get_dogma_attributes_attribute_id", (m->swagger.get_dogma_attributes_attribute_id(attribute_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_dogma_attributes_attribute_id", (header->swagger.get_dogma_attributes_attribute_id(attribute_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -509,7 +509,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_dogma_effects_effect_id_container.put(effect_id, holder);
                         SimpleObjectProperty<R_get_dogma_effects_effect_id> holderf = holder;
-                        addFetchCacheObject("get_dogma_effects_effect_id", (m->swagger.get_dogma_effects_effect_id(effect_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_dogma_effects_effect_id", (header->swagger.get_dogma_effects_effect_id(effect_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -530,7 +530,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_fleets_fleet_id_container.put(fleet_id, holder);
                         SimpleObjectProperty<R_get_fleets_fleet_id> holderf = holder;
-                        addFetchCacheObject("get_fleets_fleet_id", (m->swagger.get_fleets_fleet_id(fleet_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_fleets_fleet_id", (header->swagger.get_fleets_fleet_id(fleet_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -611,7 +611,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_markets_groups_market_group_id_container.put(market_group_id, holder);
                         SimpleObjectProperty<R_get_markets_groups_market_group_id> holderf = holder;
-                        addFetchCacheObject("get_markets_groups_market_group_id", (m->swagger.get_markets_groups_market_group_id(market_group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_markets_groups_market_group_id", (header->swagger.get_markets_groups_market_group_id(market_group_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -633,7 +633,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_opportunities_groups_group_id_container.put(group_id, holder);
                         SimpleObjectProperty<R_get_opportunities_groups_group_id> holderf = holder;
-                        addFetchCacheObject("get_opportunities_groups_group_id", (m->swagger.get_opportunities_groups_group_id(group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_opportunities_groups_group_id", (header->swagger.get_opportunities_groups_group_id(group_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -650,7 +650,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_opportunities_tasks_task_id_container.put(task_id, holder);
                         SimpleObjectProperty<R_get_opportunities_tasks_task_id> holderf = holder;
-                        addFetchCacheObject("get_opportunities_tasks_task_id", (m->swagger.get_opportunities_tasks_task_id(task_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_opportunities_tasks_task_id", (header->swagger.get_opportunities_tasks_task_id(task_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -718,7 +718,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_asteroid_belts_asteroid_belt_id_container.put(asteroid_belt_id, holder);
                         SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> holderf = holder;
-                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (m->swagger.get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (header->swagger.get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -735,7 +735,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_categories_category_id_container.put(category_id, holder);
                         SimpleObjectProperty<R_get_universe_categories_category_id> holderf = holder;
-                        addFetchCacheObject("get_universe_categories_category_id", (m->swagger.get_universe_categories_category_id(category_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_categories_category_id", (header->swagger.get_universe_categories_category_id(category_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -752,7 +752,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_constellations_constellation_id_container.put(constellation_id, holder);
                         SimpleObjectProperty<R_get_universe_constellations_constellation_id> holderf = holder;
-                        addFetchCacheObject("get_universe_constellations_constellation_id", (m->swagger.get_universe_constellations_constellation_id(constellation_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_constellations_constellation_id", (header->swagger.get_universe_constellations_constellation_id(constellation_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -769,7 +769,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_graphics_graphic_id_container.put(graphic_id, holder);
                         SimpleObjectProperty<R_get_universe_graphics_graphic_id> holderf = holder;
-                        addFetchCacheObject("get_universe_graphics_graphic_id", (m->swagger.get_universe_graphics_graphic_id(graphic_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_graphics_graphic_id", (header->swagger.get_universe_graphics_graphic_id(graphic_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -786,7 +786,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_groups_group_id_container.put(group_id, holder);
                         SimpleObjectProperty<R_get_universe_groups_group_id> holderf = holder;
-                        addFetchCacheObject("get_universe_groups_group_id", (m->swagger.get_universe_groups_group_id(group_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_groups_group_id", (header->swagger.get_universe_groups_group_id(group_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -803,7 +803,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_moons_moon_id_container.put(moon_id, holder);
                         SimpleObjectProperty<R_get_universe_moons_moon_id> holderf = holder;
-                        addFetchCacheObject("get_universe_moons_moon_id", (m->swagger.get_universe_moons_moon_id(moon_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_moons_moon_id", (header->swagger.get_universe_moons_moon_id(moon_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -820,7 +820,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_planets_planet_id_container.put(planet_id, holder);
                         SimpleObjectProperty<R_get_universe_planets_planet_id> holderf = holder;
-                        addFetchCacheObject("get_universe_planets_planet_id", (m->swagger.get_universe_planets_planet_id(planet_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_planets_planet_id", (header->swagger.get_universe_planets_planet_id(planet_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -837,7 +837,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_regions_region_id_container.put(region_id, holder);
                         SimpleObjectProperty<R_get_universe_regions_region_id> holderf = holder;
-                        addFetchCacheObject("get_universe_regions_region_id", (m->swagger.get_universe_regions_region_id(region_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_regions_region_id", (header->swagger.get_universe_regions_region_id(region_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -854,7 +854,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_schematics_schematic_id_container.put(schematic_id, holder);
                         SimpleObjectProperty<R_get_universe_schematics_schematic_id> holderf = holder;
-                        addFetchCacheObject("get_universe_schematics_schematic_id", (m->swagger.get_universe_schematics_schematic_id(schematic_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_schematics_schematic_id", (header->swagger.get_universe_schematics_schematic_id(schematic_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -871,7 +871,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_stargates_stargate_id_container.put(stargate_id, holder);
                         SimpleObjectProperty<R_get_universe_stargates_stargate_id> holderf = holder;
-                        addFetchCacheObject("get_universe_stargates_stargate_id", (m->swagger.get_universe_stargates_stargate_id(stargate_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_stargates_stargate_id", (header->swagger.get_universe_stargates_stargate_id(stargate_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -888,7 +888,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_stars_star_id_container.put(star_id, holder);
                         SimpleObjectProperty<R_get_universe_stars_star_id> holderf = holder;
-                        addFetchCacheObject("get_universe_stars_star_id", (m->swagger.get_universe_stars_star_id(star_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_stars_star_id", (header->swagger.get_universe_stars_star_id(star_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -905,7 +905,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_stations_station_id_container.put(station_id, holder);
                         SimpleObjectProperty<R_get_universe_stations_station_id> holderf = holder;
-                        addFetchCacheObject("get_universe_stations_station_id", (m->swagger.get_universe_stations_station_id(station_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_stations_station_id", (header->swagger.get_universe_stations_station_id(station_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -922,7 +922,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_structures_structure_id_container.put(structure_id, holder);
                         SimpleObjectProperty<R_get_universe_structures_structure_id> holderf = holder;
-                        addFetchCacheObject("get_universe_structures_structure_id", (m->swagger.get_universe_structures_structure_id(structure_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_structures_structure_id", (header->swagger.get_universe_structures_structure_id(structure_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -939,7 +939,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_types_type_id_container.put(type_id, holder);
                         SimpleObjectProperty<R_get_universe_types_type_id> holderf = holder;
-                        addFetchCacheObject("get_universe_types_type_id", (m->swagger.get_universe_types_type_id(type_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_types_type_id", (header->swagger.get_universe_types_type_id(type_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -956,7 +956,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_universe_systems_system_id_container.put(system_id, holder);
                         SimpleObjectProperty<R_get_universe_systems_system_id> holderf = holder;
-                        addFetchCacheObject("get_universe_systems_system_id", (m->swagger.get_universe_systems_system_id(system_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_universe_systems_system_id", (header->swagger.get_universe_systems_system_id(system_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }
@@ -977,7 +977,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         holder = new SimpleObjectProperty<>();
                         get_wars_war_id_container.put(war_id, holder);
                         SimpleObjectProperty<R_get_wars_war_id> holderf = holder;
-                        addFetchCacheObject("get_wars_war_id", (m->swagger.get_wars_war_id(war_id, m)), (o-> {synchronized(holderf){holderf.set(o);}}));
+                        addFetchCacheObject("get_wars_war_id", (header->swagger.get_wars_war_id(war_id, header)), (o-> {synchronized(holderf){holderf.set(o);}}));
                     }
                 }
             }

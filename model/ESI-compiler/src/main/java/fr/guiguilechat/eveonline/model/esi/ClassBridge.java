@@ -8,6 +8,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.function.BiFunction;
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
@@ -26,6 +29,7 @@ import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
 
 import v2.io.swagger.models.ArrayModel;
@@ -51,8 +55,8 @@ public class ClassBridge {
 
 	private static final Logger logger = LoggerFactory.getLogger(ClassBridge.class);
 
-	private final JCodeModel cm;
-	private final v2.io.swagger.models.Swagger swagger;
+	public final JCodeModel cm;
+	public final v2.io.swagger.models.Swagger swagger;
 
 	protected JPackage responsePackage = null;
 	protected JPackage structurePackage = null;
@@ -83,6 +87,13 @@ public class ClassBridge {
 		// then we merge all response types that have same structure.
 		// this makes a map of renames
 		mergeResponseTypes();
+
+		try {
+			cacheClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + cacheClassName, EClassType.CLASS);
+			createCacheMethods();
+		} catch (JClassAlreadyExistsException e) {
+			throw new UnsupportedOperationException("while creating cache classes and methods", e);
+		}
 	}
 
 	private AbstractJClass headerhandlertype;
@@ -92,7 +103,6 @@ public class ClassBridge {
 	}
 
 	protected void createSwaggerCalls() {
-
 		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
 				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
 				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
@@ -407,5 +417,109 @@ public class ClassBridge {
 			String className = structureRenames.get(s.getTitle());
 			return translateToClass(s, responsePackage, className);
 		}
+	}
+
+	////
+	// cache generation classes
+	////
+
+	protected String cacheClassName = "SwaggerCache";
+
+	private JDefinedClass cacheClass;
+
+	public JDefinedClass cacheClass() {
+		return cacheClass;
+	}
+
+	private JMethod methFetchCacheObject;
+
+	public JMethod methFetchCacheObject() {
+		return methFetchCacheObject;
+	}
+
+	private JMethod methFetchCacheArray;
+
+	public JMethod methFetchCacheArray() {
+		return methFetchCacheArray;
+	}
+
+	public void createCacheMethods() throws JClassAlreadyExistsException {
+		JTypeVar cacheMainType = cacheClass.generify("T", swaggerClass);
+		cacheClass.javadoc().addParam(cacheMainType.binaryName()).add(
+				"the type of Swagger this refers to. this parameter allows to work on specific implementation of Swagger, thus call its methdos instead of having to cast.");
+		JFieldVar cacheParent = cacheClass.field(JMod.PUBLIC | JMod.FINAL, cacheMainType, "swagger");
+
+		// add a constructor with swagger param
+		JMethod cachecons = cacheClass.constructor(JMod.PUBLIC);
+		JVar swag = cachecons.param(cacheMainType, "swag");
+		cachecons.body().assign(cacheParent, swag);
+
+		// add the pausable interface
+		JDefinedClass pausable = cacheClass._class(JMod.PUBLIC, "Pausable", EClassType.INTERFACE);
+		pausable.method(JMod.PUBLIC, cm.VOID, "pause");
+		pausable.method(JMod.PUBLIC, cm.VOID, "resume");
+
+		{
+			// add
+			// public <T> Pausable addFetchCacheArray(String name,
+			// BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
+			// Consumer<List<T>> cacheHandler, String... requiredRoles)
+			methFetchCacheArray = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable, "addFetchCacheArray");
+			JTypeVar typeVar = methFetchCacheArray.generify("U");
+			methFetchCacheArray.param(cm.ref(String.class), "name");
+			methFetchCacheArray.param(
+					cm.ref(BiFunction.class).narrow(cm.ref(Integer.class),
+							cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(String.class)), typeVar.array()),
+					"fetcher");
+			methFetchCacheArray.param(cm.ref(Consumer.class).narrow(cm.ref(List.class).narrow(typeVar)), "cacheHandler");
+			methFetchCacheArray.varParam(cm.ref(String.class), "requiredRoles");
+		}
+
+		{
+			// add
+			// public <T> Pausable addFetchCacheObject(String name,
+			// Function<Map<String, List<String>>,T> fetcher,
+			// Consumer<T> cacheHandler, String... requiredRoles)
+			methFetchCacheObject = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable, "addFetchCacheObject");
+			JTypeVar typeVar = methFetchCacheObject.generify("U");
+			methFetchCacheObject.param(cm.ref(String.class), "name");
+			methFetchCacheObject.param(
+					cm.ref(Function.class)
+					.narrow(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(String.class)), typeVar),
+					"fetcher");
+			methFetchCacheObject.param(cm.ref(Consumer.class).narrow(typeVar), "cacheHandler");
+			methFetchCacheObject.varParam(cm.ref(String.class), "requiredRoles");
+		}
+	}
+
+	protected Map<String, JDefinedClass> cacheGroupClasses = new HashMap<>();
+
+	/**
+	 * get the group cache class for given group name. also create a field of
+	 * given type in the {@link #cacheClassName} class .
+	 *
+	 * <br />
+	 * eg calling this with "bla" will create a Bla class in the
+	 * {@link #cacheClassName} class, as well as a field
+	 * <code>public final bla = new Bla();</code> in it.
+	 *
+	 * @param groupName
+	 * @return
+	 */
+	public JDefinedClass getCacheGroupClass(String groupName) {
+		JDefinedClass ret = cacheGroupClasses.get(groupName);
+		if (ret == null) {
+			try {
+				ret = cacheClass()._class(JMod.PUBLIC, groupName.substring(0, 1).toUpperCase() + groupName.substring(1));
+				cacheGroupClasses.put(groupName, ret);
+				// need to make direct call or the generated class is ugly(makes
+				// reference to the enclosing unparametrized class)
+				JDirectClass direct = cm.directClass(ret.name());
+				cacheClass().field(JMod.PUBLIC | JMod.FINAL, direct, groupName).init(JExpr._new(direct));
+			} catch (JClassAlreadyExistsException e) {
+				throw new UnsupportedOperationException("while getting cache group for " + groupName, e);
+			}
+		}
+		return ret;
 	}
 }

@@ -817,22 +817,6 @@ public interface Swagger {
     }
 
     /**
-     * Delete a mail
-     * <p>
-     * Delete a mail
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param mail_id
-     *     An EVE mail ID
-     */
-    public default void delete_characters_character_id_mail_mail_id(int character_id, int mail_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/{mail_id}/".replace("{character_id}", ""+character_id).replace("{mail_id}", ""+mail_id));
-        connectDel(url,true, headerHandler);
-    }
-
-    /**
      * Update metadata about a mail
      * <p>
      * Update metadata about a mail
@@ -853,6 +837,22 @@ public interface Swagger {
         content.put("labels", labels);
         content.put("read", read);
         connectPut(url, content, true, headerHandler);
+    }
+
+    /**
+     * Delete a mail
+     * <p>
+     * Delete a mail
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param mail_id
+     *     An EVE mail ID
+     */
+    public default void delete_characters_character_id_mail_mail_id(int character_id, int mail_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/characters/{character_id}/mail/{mail_id}/".replace("{character_id}", ""+character_id).replace("{mail_id}", ""+mail_id));
+        connectDel(url,true, headerHandler);
     }
 
     /**
@@ -1818,22 +1818,6 @@ public interface Swagger {
     }
 
     /**
-     * Kick fleet member
-     * <p>
-     * Kick a fleet member
-     * </p>
-     * 
-     * @param fleet_id
-     *     ID for a fleet
-     * @param member_id
-     *     The character ID of a member in this fleet
-     */
-    public default void delete_fleets_fleet_id_members_member_id(long fleet_id, int member_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/{member_id}/".replace("{fleet_id}", ""+fleet_id).replace("{member_id}", ""+member_id));
-        connectDel(url,true, headerHandler);
-    }
-
-    /**
      * Move fleet member
      * <p>
      * Move a fleet member around
@@ -1860,18 +1844,18 @@ public interface Swagger {
     }
 
     /**
-     * Delete fleet squad
+     * Kick fleet member
      * <p>
-     * Delete a fleet squad, only empty squads can be deleted
+     * Kick a fleet member
      * </p>
      * 
      * @param fleet_id
      *     ID for a fleet
-     * @param squad_id
-     *     The squad to delete
+     * @param member_id
+     *     The character ID of a member in this fleet
      */
-    public default void delete_fleets_fleet_id_squads_squad_id(long fleet_id, long squad_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/squads/{squad_id}/".replace("{fleet_id}", ""+fleet_id).replace("{squad_id}", ""+squad_id));
+    public default void delete_fleets_fleet_id_members_member_id(long fleet_id, int member_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/members/{member_id}/".replace("{fleet_id}", ""+fleet_id).replace("{member_id}", ""+member_id));
         connectDel(url,true, headerHandler);
     }
 
@@ -1893,6 +1877,22 @@ public interface Swagger {
         Map<String, Object> content = new HashMap<>();
         content.put("name", name);
         connectPut(url, content, true, headerHandler);
+    }
+
+    /**
+     * Delete fleet squad
+     * <p>
+     * Delete a fleet squad, only empty squads can be deleted
+     * </p>
+     * 
+     * @param fleet_id
+     *     ID for a fleet
+     * @param squad_id
+     *     The squad to delete
+     */
+    public default void delete_fleets_fleet_id_squads_squad_id(long fleet_id, long squad_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/squads/{squad_id}/".replace("{fleet_id}", ""+fleet_id).replace("{squad_id}", ""+squad_id));
+        connectDel(url,true, headerHandler);
     }
 
     /**
@@ -1927,22 +1927,6 @@ public interface Swagger {
     }
 
     /**
-     * Delete fleet wing
-     * <p>
-     * Delete a fleet wing, only empty wings can be deleted. The wing may contain squads, but the squads must be empty
-     * </p>
-     * 
-     * @param fleet_id
-     *     ID for a fleet
-     * @param wing_id
-     *     The wing to delete
-     */
-    public default void delete_fleets_fleet_id_wings_wing_id(long fleet_id, long wing_id, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/wings/{wing_id}/".replace("{fleet_id}", ""+fleet_id).replace("{wing_id}", ""+wing_id));
-        connectDel(url,true, headerHandler);
-    }
-
-    /**
      * Rename fleet wing
      * <p>
      * Rename a fleet wing
@@ -1960,6 +1944,22 @@ public interface Swagger {
         Map<String, Object> content = new HashMap<>();
         content.put("name", name);
         connectPut(url, content, true, headerHandler);
+    }
+
+    /**
+     * Delete fleet wing
+     * <p>
+     * Delete a fleet wing, only empty wings can be deleted. The wing may contain squads, but the squads must be empty
+     * </p>
+     * 
+     * @param fleet_id
+     *     ID for a fleet
+     * @param wing_id
+     *     The wing to delete
+     */
+    public default void delete_fleets_fleet_id_wings_wing_id(long fleet_id, long wing_id, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v1/fleets/{fleet_id}/wings/{wing_id}/".replace("{fleet_id}", ""+fleet_id).replace("{wing_id}", ""+wing_id));
+        connectDel(url,true, headerHandler);
     }
 
     /**
@@ -2967,6 +2967,46 @@ public interface Swagger {
     }
 
     /**
+     * Edit contacts
+     * <p>
+     * Bulk edit contacts with same settings
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param contact_ids
+     *     A list of contacts
+     * @param label_ids
+     *     Add custom labels to the contact
+     * @param standing
+     *     Standing for the contact
+     * @param watched
+     *     Whether the contact should be watched, note this is only effective on characters
+     */
+    public default void put_characters_character_id_contacts(int character_id, int[] contact_ids, long[] label_ids, float standing, Boolean watched, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(label_ids==null?"":"&label_ids="+flatten(label_ids))+"&standing="+flatten(standing)+(watched==null?"":"&watched="+flatten(watched)));
+        Map<String, Object> content = new HashMap<>();
+        content.put("contact_ids", contact_ids);
+        connectPut(url, content, true, headerHandler);
+    }
+
+    /**
+     * Delete contacts
+     * <p>
+     * Bulk delete contacts
+     * </p>
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param contact_ids
+     *     A list of contacts to delete
+     */
+    public default void delete_characters_character_id_contacts(int character_id, int[] contact_ids, Map<String, List<String>> headerHandler) {
+        String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(contact_ids==null?"":"&contact_ids="+flatten(contact_ids)));
+        connectDel(url,true, headerHandler);
+    }
+
+    /**
      * Add contacts
      * <p>
      * Bulk add contacts with same settings
@@ -2989,46 +3029,6 @@ public interface Swagger {
         content.put("contact_ids", contact_ids);
         String fetched = connectPost(url, content, true, headerHandler);
         return convert((fetched), (int[].class));
-    }
-
-    /**
-     * Delete contacts
-     * <p>
-     * Bulk delete contacts
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param contact_ids
-     *     A list of contacts to delete
-     */
-    public default void delete_characters_character_id_contacts(int character_id, int[] contact_ids, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(contact_ids==null?"":"&contact_ids="+flatten(contact_ids)));
-        connectDel(url,true, headerHandler);
-    }
-
-    /**
-     * Edit contacts
-     * <p>
-     * Bulk edit contacts with same settings
-     * </p>
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param contact_ids
-     *     A list of contacts
-     * @param label_ids
-     *     Add custom labels to the contact
-     * @param standing
-     *     Standing for the contact
-     * @param watched
-     *     Whether the contact should be watched, note this is only effective on characters
-     */
-    public default void put_characters_character_id_contacts(int character_id, int[] contact_ids, long[] label_ids, float standing, Boolean watched, Map<String, List<String>> headerHandler) {
-        String url = ("https://esi.evetech.net/v2/characters/{character_id}/contacts/".replace("{character_id}", ""+character_id)+"?"+(label_ids==null?"":"&label_ids="+flatten(label_ids))+"&standing="+flatten(standing)+(watched==null?"":"&watched="+flatten(watched)));
-        Map<String, Object> content = new HashMap<>();
-        content.put("contact_ids", contact_ids);
-        connectPut(url, content, true, headerHandler);
     }
 
     /**
