@@ -59,27 +59,15 @@ public class Compiler {
 		swaggerURL = url;
 	}
 
-	protected String baseURL;
-
-	public Compiler() {
-
-	}
-
-	v2.io.swagger.models.Swagger swagger;
-
-	JCodeModel cm = null;
-
-	ClassBridge cltrans;
-
 	public JCodeModel compile() throws JClassAlreadyExistsException {
-		swagger = new SwaggerParser().read(swaggerURL);
-		baseURL = swagger.getSchemes().get(0).toValue()
+		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(swaggerURL);
+		String baseURL = swagger.getSchemes().get(0).toValue()
 				+ "://"
 				+ swagger.getHost()
 				+ (swagger.getBasePath() == null ? "" : swagger.getBasePath());
-		cm = new JCodeModel();
+		JCodeModel cm = new JCodeModel();
 
-		cltrans = new ClassBridge(cm, swagger);
+		ClassBridge cltrans = new ClassBridge(cm, swagger);
 
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
