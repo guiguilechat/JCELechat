@@ -7,19 +7,25 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
+import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JArray;
+import com.helger.jcodemodel.JArrayClass;
 import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
 import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JInvocation;
+import com.helger.jcodemodel.JLambda;
+import com.helger.jcodemodel.JLambdaParam;
 import com.helger.jcodemodel.JMethod;
 import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JPrimitiveType;
@@ -28,6 +34,7 @@ import com.helger.jcodemodel.JVar;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.collections.ObservableMap;
 import v2.io.swagger.models.ArrayModel;
 import v2.io.swagger.models.Model;
 import v2.io.swagger.models.Operation;
@@ -44,12 +51,12 @@ public class PathTranslator {
 
 	private static final Logger logger = LoggerFactory.getLogger(PathTranslator.class);
 
-	private final Operation operation;
-	private final OpType optype;
-	private final String path;
-	private final ClassBridge bridge;
+	protected final Operation operation;
+	protected final OpType optype;
+	protected final String path;
+	protected final ClassBridge bridge;
 
-	private final JCodeModel cm;
+	protected final JCodeModel cm;
 
 	public static enum OpType {
 		get, post, put, delete;
@@ -66,11 +73,21 @@ public class PathTranslator {
 
 	}
 
-	private Response response;
-	private AbstractJType retType;
-	private JMethod meth;
+	protected Response response;
+	protected Property responseSchema;
+	/**
+	 * the type of resource produced by the http fetch. if the fetch actually
+	 * produces an array, this is the item type of the array, eg int[] will
+	 * resolve to int.
+	 */
+	protected AbstractJType resourceType;
+	/**
+	 * return type of the fetch method.
+	 */
+	protected AbstractJType fetchRetType;
+	protected JMethod fetchMeth;
 
-	private List<String> requiredRoles;
+	protected List<String> requiredRoles;
 
 	@SuppressWarnings("unchecked")
 	public void apply() {
@@ -82,14 +99,19 @@ public class PathTranslator {
 			logger.error("can't find response for path " + path + " " + optype);
 			return;
 		}
-		Property s = response.getSchema();
+		responseSchema = response.getSchema();
 
 		// get the existing class for this response.
-		retType = bridge.getReponseClass(s);
-		//create the method
-		meth = bridge.swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, retType, operation.getOperationId());
-		//add the parameters
-		extractParameters();
+		fetchRetType = bridge.getReponseClass(responseSchema);
+		if (fetchRetType instanceof JArrayClass) {
+			resourceType = ((JArrayClass) fetchRetType).elementType();
+		} else {
+			resourceType = fetchRetType;
+		}
+		// create the method
+		fetchMeth = bridge.swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, fetchRetType, operation.getOperationId());
+		// add the parameters
+		extractFetchParameters();
 
 		requiredRoles = operation.getVendorExtensions().containsKey("x-required-roles")
 				? (List<String>) operation.getVendorExtensions().get("x-required-roles")
@@ -97,7 +119,7 @@ public class PathTranslator {
 
 				addPathJavadoc();
 
-				headerParam = meth.param(bridge.headerhandlertype(), headerHandlerName);
+				headerParam = fetchMeth.param(bridge.headerhandlertype(), headerHandlerName);
 
 				String urlAssign = "\"" + path + "\"";
 				for (JVar jv : pathparameters) {
@@ -114,7 +136,7 @@ public class PathTranslator {
 						urlAssign += "+(" + qp.name() + "==null?\"\":\"&" + qp.name() + "=\"+flatten(" + qp.name() + "))";
 					}
 				}
-				JVar url = meth.body().decl(cm.ref(String.class), "url");
+				JVar url = fetchMeth.body().decl(cm.ref(String.class), "url");
 				url.init(JExpr.direct(urlAssign));
 				switch (optype) {
 				case post:
@@ -122,38 +144,39 @@ public class PathTranslator {
 					String methName = optype == OpType.post ? "connectPost" : "connectPut";
 					JVar content = null;
 					if (!bodyparameters.isEmpty()) {
-						content = meth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
+						content = fetchMeth.body().decl(cm.ref(Map.class).narrow(cm.ref(String.class)).narrow(cm.ref(Object.class)),
 								"content");
 						content.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 						for (JVar p : bodyparameters) {
-							meth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
+							fetchMeth.body().directStatement("content.put(\"" + p.name() + "\", " + p.name() + ");");
 						}
 					}
-					if (s == null) {
-						meth.body().invoke(methName).arg(url)
+					if (responseSchema == null) {
+						fetchMeth.body().invoke(methName).arg(url)
 						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
 						.arg(JExpr.lit(connected)).arg(headerParam);
 					} else {
-						JVar fetched = meth.body().decl(cm.ref(String.class), "fetched");
+						JVar fetched = fetchMeth.body().decl(cm.ref(String.class), "fetched");
 						fetched.init(JExpr.invoke(methName).arg(url)
 								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
 								.arg(JExpr.lit(connected)).arg(headerParam));
 					}
 					break;
 				case get:
-					meth.body().directStatement(
+					fetchMeth.body().directStatement(
 							"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
 					createCache();
 					break;
 				case delete:
-					meth.body().directStatement("connectDel(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
+					fetchMeth.body()
+					.directStatement("connectDel(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
 					break;
 				default:
 					throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
 				}
-				if (s != null) {
-					meth.body()._return(
-							JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(retType.binaryName() + ".class")));
+				if (responseSchema != null) {
+					fetchMeth.body()._return(
+							JExpr.invoke("convert").arg(JExpr.direct("fetched")).arg(JExpr.direct(fetchRetType.binaryName() + ".class")));
 				}
 	}
 
@@ -188,7 +211,7 @@ public class PathTranslator {
 	 * extract the parameters from an operation and put them in corresponding
 	 * list. also add javadoc on the method for those parameters.
 	 */
-	protected void extractParameters() {
+	protected void extractFetchParameters() {
 		connected = false;
 		for (Parameter p : operation.getParameters()) {
 			switch (p.getName()) {
@@ -210,20 +233,20 @@ public class PathTranslator {
 				JVar param;
 				switch (in) {
 				case "path":
-					meth.javadoc().addParam(p.getName()).add(p.getDescription());
+					fetchMeth.javadoc().addParam(p.getName()).add(p.getDescription());
 					PathParameter pp = (PathParameter) p;
 					pt = bridge.getExistingClass(pp.getType(), pp.getName(), pp.getFormat(), pp.getEnum());
 					if (!pp.getRequired() && pt.isPrimitive()) {
 						pt = pt.boxify();
 					}
-					param = meth.param(pt, pp.getName());
+					param = fetchMeth.param(pt, pp.getName());
 					pathparameters.add(param);
 					allParams.add(param);
 					break;
 				case "query":
-					meth.javadoc().addParam(p.getName()).add(p.getDescription());
+					fetchMeth.javadoc().addParam(p.getName()).add(p.getDescription());
 					QueryParameter qp = (QueryParameter) p;
-					param = meth.param(bridge.getExistingClass(qp), qp.getName());
+					param = fetchMeth.param(bridge.getExistingClass(qp), qp.getName());
 					queryparameters.add(param);
 					allParams.add(param);
 					break;
@@ -231,16 +254,16 @@ public class PathTranslator {
 					BodyParameter bp = (BodyParameter) p;
 					Model schema = bp.getSchema();
 					if (schema instanceof ArrayModel) {
-						meth.javadoc().addParam(p.getName()).add(p.getDescription());
+						fetchMeth.javadoc().addParam(p.getName()).add(p.getDescription());
 						pt = bridge.getExistingClass((ArrayModel) schema);
-						param = meth.param(pt, bp.getName());
+						param = fetchMeth.param(pt, bp.getName());
 						bodyparameters.add(param);
 						allParams.add(param);
 					} else {
 						for (Entry<String, Property> e : schema.getProperties().entrySet()) {
-							meth.javadoc().addParam(e.getKey()).add(e.getValue().getDescription());
+							fetchMeth.javadoc().addParam(e.getKey()).add(e.getValue().getDescription());
 							AbstractJType type = bridge.translateToClass(e.getValue(), bridge.structurePackage, e.getKey());
-							param = meth.param(type, e.getKey());
+							param = fetchMeth.param(type, e.getKey());
 							bodyparameters.add(param);
 							allParams.add(param);
 						}
@@ -255,8 +278,8 @@ public class PathTranslator {
 	}
 
 	protected void addPathJavadoc() {
-		meth.javadoc().append("" + operation.getSummary());
-		meth.javadoc().add(("\n<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
+		fetchMeth.javadoc().append("" + operation.getSummary());
+		fetchMeth.javadoc().add(("\n<p>\n" + ("" + operation.getDescription()).replaceAll("---", "<br />") + "\n</p>")
 				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
 		if (!requiredRoles.isEmpty()) {
 			if (!requiredRoles.isEmpty()) {
@@ -267,8 +290,8 @@ public class PathTranslator {
 					array.add(JExpr.lit(role));
 				}
 				rolesfield.init(array);
-				rolesfield.javadoc().add("the roles required for {@link #" + meth.name() + " this method}");
-				meth.javadoc().add("\n<p>\nrequire the roles specified {@link #" + rolesfield.name() + " here}\n</p>");
+				rolesfield.javadoc().add("the roles required for {@link #" + fetchMeth.name() + " this method}");
+				fetchMeth.javadoc().add("\n<p>\nrequire the roles specified {@link #" + rolesfield.name() + " here}\n</p>");
 			}
 		}
 	}
@@ -277,122 +300,216 @@ public class PathTranslator {
 	// creation of cache method based on fetch method
 	////
 
+	protected JDefinedClass cacheGroup;
+
+	protected List<JVar> cacheParams = new ArrayList<>();
+
+	protected AbstractJType cacheRetType;
+
+	protected JMethod cacheMeth;
+
+	/**
+	 * how to handle the result of the fetch method in the cache method :
+	 * Container puts in it a property, list put all the results in an observable
+	 * list, and map puts the results in a map , with the key being specified by
+	 * {@link #cacheRetUniqueField}
+	 */
+	protected static enum RETURNTYPE {
+		CONTAINER, LIST, MAP
+	}
+
+	protected RETURNTYPE cacheRetTransform;
+
+	protected AbstractJType cacheKeyType;
+
 	protected void createCache() {
 		String fieldName = operation.getOperationId().split("_")[1];
-		JDefinedClass cacheGroup = bridge.getCacheGroupClass(fieldName);
-		List<Parameter> remainingArgs = operation.getParameters().stream()
-				.filter(p -> !p.getName().equals(headerHandlerName) && !p.getName().equals("page") && p.getRequired())
-				.collect(Collectors.toList());
-		if (remainingArgs.size() > 1) {
-			logger.debug("skip obj met " + meth.name() + " : too many arguments to create a cache : "
-					+ remainingArgs.stream().map(Parameter::getName).collect(Collectors.toList()));
-			return;
-		}
-		if (retType.isArray()) {
-			createCacheArray(operation, meth, ((ArrayProperty) response.getSchema()).getItems(), retType.elementType(),
-					requiredRoles, cacheGroup, headerParam);
-		} else {
-			if (headerParam == null) {
-				createCacheObject(operation, meth, retType, requiredRoles, cacheGroup);
+		cacheGroup = bridge.getCacheGroupClass(fieldName);
+
+		// first we need to know the result.
+		if (responseSchema.getType().equals(ArrayProperty.TYPE)) {
+			findCacheRetUniqueField();
+			if (cacheRetUniqueField != null) {
+				cacheRetType = cm.ref(ObservableMap.class).narrow(cacheRetUniqueField.type().boxify(), resourceType.boxify());
+				cacheRetTransform = RETURNTYPE.MAP;
 			} else {
-				createCacheObject(operation, meth, retType, requiredRoles, cacheGroup, headerParam);
+				cacheRetType = cm.ref(ObservableList.class).narrow(resourceType.boxify());
+				cacheRetTransform = RETURNTYPE.LIST;
 			}
+		} else {
+			cacheRetType = cm.ref(javafx.beans.property.Property.class).narrow(resourceType.boxify());
+			cacheRetTransform = RETURNTYPE.CONTAINER;
+		}
+
+		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, operation.getOperationId());
+		cacheMeth.javadoc().addTag("see").add(fetchMeth.name());
+
+		// after that we need to know the parameters
+
+		for (JVar v : allParams) {
+			if (!v.name().equals(headerHandlerName) && !v.name().equals("page")) {
+				cacheParams.add(cacheMeth.param(v.type(), v.name()));
+			}
+		}
+
+		switch (cacheParams.size()) {
+		case 0:
+			cacheKeyType = null;
+			createCacheNoParam();
+			break;
+		case 1:
+			cacheKeyType = cacheParams.get(0).type().boxify();
+			createCacheSimpleMap();
+			break;
+		default:
+			cacheKeyType = makeKeyParam(cacheParams);
+			createCacheComplexMap();
 		}
 	}
 
 	/**
-	 * create a caching method.
-	 *
-	 * @param operation
-	 *          the swagger operation for which we make a cache
-	 * @param meth
-	 *          the Swagger method we created that actually represents this
-	 *          operation
-	 * @param responseSchema
-	 *          the schema for the item in the array (eg if the path returns
-	 *          int[], this should be int)
-	 * @param elementType
-	 *          the class we created to represent this response element.
-	 * @param requiredRoles
-	 *          the roles required in order to fetch this path.
-	 * @param cacheGroup
-	 *          the class in which we create the cache method.
-	 * @param parameter
-	 *          the optional parameter to consider as unique id. we assume there
-	 *          is also a page and a
+	 * if the returned type of fetch is an array, the field of the subtype that
+	 * should be used as key for the cache return map. Null if returns is not an
+	 * array, or if 0 ore more than one fields are designated to be unique.
 	 */
-	protected void createCacheArray(Operation operation, JMethod meth, Property responseSchema, AbstractJType elementType,
-			List<String> requiredRoles, JDefinedClass cacheGroup, JVar parameter) {
-		// find out the response fields that are unique
-		// so far CCP add "U|unique " in the property description for those fields.
+	protected JFieldVar cacheRetUniqueField = null;
+
+	/** find out the correct field to identify a result of the fetch */
+	protected void findCacheRetUniqueField() {
 		List<String> uniqueFields = new ArrayList<>();
 		// we only have fields for reponses that are of type Object[], eg int[]
 		// can't have a unique field, nor Object[][]
-		if (responseSchema.getType().equals(ObjectProperty.TYPE)) {
-			ObjectProperty op = (ObjectProperty) responseSchema;
+		ArrayProperty ap = (ArrayProperty) responseSchema;
+		if (ap.getItems().getType().equals(ObjectProperty.TYPE)) {
+			ObjectProperty op = (ObjectProperty) ap.getItems();
 			for (Entry<String, Property> esp : op.getProperties().entrySet()) {
 				if (esp.getValue().getDescription().toLowerCase().contains("unique ")) {
 					uniqueFields.add(esp.getKey());
 				}
 			}
 		}
-		if (uniqueFields.size() == 0 && parameter == null) {
-			// createCacheArrayNoUnique(operation, meth, responseSchema, elementType,
-			// requiredRoles, cacheGroup);
-		} else if (parameter == null) {
-			// createCacheArrayWithUnique(operation, meth, responseSchema,
-			// elementType, requiredRoles, cacheGroup,
-			// uniqueFields.get(0));
-		} else {
+		if (uniqueFields.size() == 1) {
+			String name = uniqueFields.get(0);
+			AbstractJType fetchSub = ((JArrayClass) fetchRetType).elementType();
+			if (fetchSub instanceof JDefinedClass) {
+				cacheRetUniqueField = ((JDefinedClass) fetchSub).fields().get(name);
+			} else {
+				logger.error("can't manage type " + fetchSub);
+			}
+		}
+		// System.err.println("path " + path + " response unique=" + uniqueFields);
+	}
 
-			System.err.println("can't use more than one unique field + param " + meth.name() + " unique fields="
-					+ uniqueFields + " params=" + parameter);
+	protected AbstractJType makeKeyParam(List<JVar> cacheParams2) {
+		JDefinedClass ret = bridge
+				.getCacheKeyClass(cacheParams2.stream().collect(Collectors.toMap(JVar::name, JVar::type)));
+		ret.javadoc().append("@see " + path + "\n");
+		return ret;
+	}
+
+	/**
+	 * create the cache body when no parameter.
+	 */
+	protected void createCacheNoParam() {
+		JFieldVar container;
+		JBlock instanceBlock;
+		JInvocation invoke;
+		switch (cacheRetTransform) {
+		case CONTAINER:
+			container = cacheGroup.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()),
+					cacheMeth.name() + "_holder");
+			instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+					._if(container.eqNull())._then();
+			instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+			invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
+			invoke.arg(JExpr.direct("m->swagger." + fetchMeth.name() + "(m)"));
+			invoke.arg(JExpr.direct(container.name() + "::set"));
+			if (!requiredRoles.isEmpty()) {
+				JArray array = JExpr.newArray(cm.ref(String.class));
+				for (String s : requiredRoles) {
+					array.add(JExpr.lit(s));
+				}
+				invoke.arg(array);
+			}
+			cacheMeth.body()._return(container);
+			break;
+		case LIST:
+			container = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
+			instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+					._if(container.eqNull())._then();
+			// _holder = FXCollections.observableArrayList();
+			instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
+			invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
+
+			JLambda lambdaFetch = new JLambda();
+			JLambdaParam page = lambdaFetch.addParam("page");
+			JLambdaParam head = lambdaFetch.addParam("header");
+			JInvocation callmeth = JExpr.direct("swagger").invoke(fetchMeth);
+			if (fetchMeth.params().size() == 2) {
+				callmeth.arg(page);
+				callmeth.arg(head);
+			} else {
+				callmeth.arg(head);
+			}
+			if (resourceType.isPrimitive()) {
+				IJExpression convert, toArr;
+				AbstractJClass streamType;
+				if (resourceType == cm.INT) {
+					convert = JExpr.direct("Integer::valueOf");
+					toArr = JExpr.direct("Integer[]::new");
+					streamType = cm.ref(IntStream.class);
+				} else if (resourceType == cm.LONG) {
+					convert = JExpr.direct("Long::valueOf");
+					toArr = JExpr.direct("Long[]::new");
+					streamType = cm.ref(LongStream.class);
+				} else {
+					throw new UnsupportedOperationException("handle type " + resourceType);
+				}
+				callmeth = streamType.staticInvoke("of").arg(callmeth).invoke("mapToObj").arg(convert)
+						.invoke("toArray").arg(toArr);
+			}
+			lambdaFetch.body().add(callmeth);
+			invoke.arg(lambdaFetch);
+
+			JLambda lambdaSet = new JLambda();
+			JLambdaParam arr = lambdaSet.addParam("arr");
+			lambdaSet.body().add(container.invoke("setAll").arg(arr));
+			// .arg(cm.ref(IntStream.class).staticInvoke("of").arg(arr).invoke("mapToObj")
+			// .arg(convert).invoke("toArray").arg(toArr)));
+			invoke.arg(lambdaSet);
+			if (!requiredRoles.isEmpty()) {
+				JArray array = JExpr.newArray(cm.ref(String.class));
+				for (String s : requiredRoles) {
+					array.add(JExpr.lit(s));
+				}
+				invoke.arg(array);
+			}
+			cacheMeth.body()._return(container);
+			break;
+		case MAP:
+			cacheMeth.body()._return(JExpr._null());
+			break;
+		default:
+			break;
 		}
 	}
 
 	/**
-	 * create a cache for a path that returns an array of items, the items having
-	 * no unique field
+	 * create the cache body when only one parameter.
 	 */
-	protected void createCacheArrayNoUnique(Operation operation, JMethod meth, Property responseSchema,
-			AbstractJType elementType, List<String> requiredRoles, JDefinedClass cacheGroup) {
-		// we have no unique field to identify the returned values. thus we return
-		// a new observableList, that will be cleared on new cache data.
+	protected void createCacheSimpleMap() {
 
-		// private ObservableList<U> operationid_container = null
-		JVar container = cacheGroup.field(JMod.PRIVATE, cm.ref(ObservableList.class).narrow(elementType),
-				operation.getOperationId() + "_container").init(JExpr._null());
-
-		// public ObservableList<U> operationId(){
-		JMethod retrieveMeth = cacheGroup.method(JMod.PUBLIC, cm.ref(ObservableList.class).narrow(elementType),
-				operation.getOperationId());
-
-		// if(container==null) synchronized(this){if(container==null){
-		JBlock instanceBlock = retrieveMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
-				._if(container.eqNull())._then();
-
-		// container= FXCollections.observableArrayList();
-		instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
-
-		// addFetchCacheArray(operationid,
-		// JInvocation invoke =
-		// instanceBlock.invoke(methFetchCacheArray).arg(operation.getOperationId());
-
-		// }} return container;
-		retrieveMeth.body()._return(container);
+		cacheMeth.body()._return(JExpr._null());
 	}
 
-	/**
-	 * create a cache for a path that returns an array of items, the items having
-	 * a unique field
-	 */
-	protected void createCacheArrayWithUnique(Operation operation, JMethod meth, Property responseSchema,
-			AbstractJType elementType, List<String> requiredRoles, JDefinedClass cacheGroup, String uniqFieldName) {
-		// we have one response field that is unique. The cache is thus a
-		// map<fieldtype, elementType>.
+	/** create the cache body when several parameter */
+	protected void createCacheComplexMap() {
+
+		cacheMeth.body()._return(JExpr._null());
 
 	}
 
+	// code to remove later
 	protected void createCacheObject(Operation operation, JMethod meth, AbstractJType retType, List<String> requiredRoles,
 			JDefinedClass cacheGroup) {
 		JVar container = cacheGroup.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(retType),
@@ -415,6 +532,7 @@ public class PathTranslator {
 		retrieveMeth.body()._return(container);
 	}
 
+	// code to remove later.
 	protected void createCacheObject(Operation operation, JMethod meth, AbstractJType retType, List<String> requiredRoles,
 			JDefinedClass containerClass, JVar parameter) {
 		AbstractJClass mapKeyType = parameter.type().boxify();

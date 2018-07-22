@@ -19,7 +19,9 @@ import org.slf4j.LoggerFactory;
 import com.helger.jcodemodel.AbstractJClass;
 import com.helger.jcodemodel.AbstractJType;
 import com.helger.jcodemodel.EClassType;
+import com.helger.jcodemodel.IJExpression;
 import com.helger.jcodemodel.JArray;
+import com.helger.jcodemodel.JArrayClass;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JDefinedClass;
@@ -60,9 +62,11 @@ public class ClassBridge {
 
 	protected JPackage responsePackage = null;
 	protected JPackage structurePackage = null;
+	protected JPackage keyPackage = null;
 
-	protected String responsesPackage = "responses";
-	protected String structuresPackage = "structures";
+	protected String responsesPackageName = "responses";
+	protected String structuresPackageName = "structures";
+	protected String keysPackageName = "keys";
 	protected JDefinedClass swaggerClass;
 
 	public ClassBridge(JCodeModel cm, Swagger swagger) {
@@ -76,8 +80,9 @@ public class ClassBridge {
 		}
 		createSwaggerCalls();
 
-		responsePackage = cm._package(rootPackage + "." + responsesPackage);
-		structurePackage = cm._package(rootPackage + "." + structuresPackage);
+		responsePackage = cm._package(rootPackage + "." + responsesPackageName);
+		structurePackage = cm._package(rootPackage + "." + structuresPackageName);
+		keyPackage = cm._package(rootPackage + "." + keysPackageName);
 
 		// first pass to fetch all the responses
 		for (Path path : swagger.getPaths().values()) {
@@ -521,5 +526,80 @@ public class ClassBridge {
 			}
 		}
 		return ret;
+	}
+
+	////
+	// cache key classes
+	////
+
+	Map<Map<String, AbstractJType>, JDefinedClass> existingKeyTypes = new HashMap<>();
+
+	public JDefinedClass getCacheKeyClass(Map<String, AbstractJType> map) {
+		JDefinedClass ret = existingKeyTypes.get(map);
+		if (ret == null) {
+			synchronized (existingKeyTypes) {
+				if (ret == null) {
+					try {
+						String className = "K_" + existingKeyTypes.size();
+						for (AbstractJType v : map.values()) {
+							className += "_" + compilableName(v);
+						}
+						ret = keyPackage._class(className);
+
+						JMethod methcons = ret.constructor(JMod.PUBLIC);
+
+						JMethod methEq = ret.method(JMod.PUBLIC, cm.BOOLEAN, "equals");
+						JVar methOther = methEq.param(cm.ref(Object.class), "other");
+						// if o==this reutrn true;
+						methEq.body()._if(methOther.eq(JExpr._this()))._then()._return(JExpr.TRUE);
+						// if o==null || o.getclass!=this.getClass return false;
+						methEq.body()._if(methOther.eqNull().cor(methOther.invoke("getClass").ne(JExpr._this().invoke("getClass"))))
+						._then()._return(JExpr.FALSE);
+						methOther = methEq.body().decl(ret, "other2").init(JExpr.cast(ret, methOther));
+						IJExpression testeq = null;
+
+						JMethod methHashCode = ret.method(JMod.PUBLIC, cm.INT, "hashCode");
+						IJExpression retHashCode = JExpr.lit(0);
+
+						for (Entry<String, AbstractJType> e : map.entrySet()) {
+							JFieldVar field = ret.field(JMod.PUBLIC|JMod.FINAL, e.getValue(), e.getKey());
+
+							JVar consParam = methcons.param(e.getValue(), e.getKey());
+							methcons.body().assign(JExpr.refthis(field), consParam);
+
+							IJExpression addedtest = null;
+							// test field==other.field
+							addedtest = field.eq(methOther.ref(field));
+							if (!e.getValue().isPrimitive()) {
+								IJExpression objectTest = field.neNull().cand(field.invoke("equals").arg(methOther.ref(field)));
+								// test field==other.field || field!=null &&
+								// field.equals(other.field)
+								addedtest = addedtest.cor(objectTest);
+							}
+							testeq=testeq==null? addedtest:testeq.cand(addedtest);
+
+							retHashCode = retHashCode.plus(e.getValue().isPrimitive() ? field
+									: JExpr.cond(field.eqNull(), JExpr.lit(0), field.invoke("hashCode")));
+						}
+
+						methEq.body()._return(testeq);
+						methHashCode.body()._return(JExpr.cast(cm.INT, retHashCode));
+
+						existingKeyTypes.put(map, ret);
+					} catch (JClassAlreadyExistsException e) {
+						throw new UnsupportedOperationException("catch this", e);
+					}
+				}
+			}
+		}
+		return ret;
+	}
+
+	protected String compilableName(AbstractJType t) {
+		if (t.isArray()) {
+			return "L" + compilableName(((JArrayClass) t).elementType());
+		} else {
+			return t.name();
+		}
 	}
 }
