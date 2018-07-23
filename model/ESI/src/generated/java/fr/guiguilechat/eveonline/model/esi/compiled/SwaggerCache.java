@@ -193,7 +193,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_alliances_holder == null) {
                         get_alliances_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_alliances", (page, header) -> IntStream.of((swagger).get_alliances(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_alliances_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_alliances_holder;
+                        addFetchCacheArray("get_alliances", (page, header) -> IntStream.of((swagger).get_alliances(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -639,7 +646,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_corporations_npccorps_holder == null) {
                         get_corporations_npccorps_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_corporations_npccorps", (page, header) -> IntStream.of((swagger).get_corporations_npccorps(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_corporations_npccorps_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_corporations_npccorps_holder;
+                        addFetchCacheArray("get_corporations_npccorps", (page, header) -> IntStream.of((swagger).get_corporations_npccorps(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -926,7 +940,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_dogma_attributes_holder == null) {
                         get_dogma_attributes_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_dogma_attributes", (page, header) -> IntStream.of((swagger).get_dogma_attributes(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_dogma_attributes_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_dogma_attributes_holder;
+                        addFetchCacheArray("get_dogma_attributes", (page, header) -> IntStream.of((swagger).get_dogma_attributes(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -956,7 +977,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_dogma_effects_holder == null) {
                         get_dogma_effects_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_dogma_effects", (page, header) -> IntStream.of((swagger).get_dogma_effects(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_dogma_effects_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_dogma_effects_holder;
+                        addFetchCacheArray("get_dogma_effects", (page, header) -> IntStream.of((swagger).get_dogma_effects(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1012,7 +1040,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_leaderboards_holder == null) {
                         get_fw_leaderboards_holder = new SimpleObjectProperty<>();
-                        addFetchCacheObject("get_fw_leaderboards", (m->swagger.get_fw_leaderboards(m)), (get_fw_leaderboards_holder::set));
+                        SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_holder;
+                        addFetchCacheObject("get_fw_leaderboards", (m->swagger.get_fw_leaderboards(m)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.set(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1028,7 +1063,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_leaderboards_characters_holder == null) {
                         get_fw_leaderboards_characters_holder = new SimpleObjectProperty<>();
-                        addFetchCacheObject("get_fw_leaderboards_characters", (m->swagger.get_fw_leaderboards_characters(m)), (get_fw_leaderboards_characters_holder::set));
+                        SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_characters_holder;
+                        addFetchCacheObject("get_fw_leaderboards_characters", (m->swagger.get_fw_leaderboards_characters(m)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.set(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1044,7 +1086,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_leaderboards_corporations_holder == null) {
                         get_fw_leaderboards_corporations_holder = new SimpleObjectProperty<>();
-                        addFetchCacheObject("get_fw_leaderboards_corporations", (m->swagger.get_fw_leaderboards_corporations(m)), (get_fw_leaderboards_corporations_holder::set));
+                        SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_corporations_holder;
+                        addFetchCacheObject("get_fw_leaderboards_corporations", (m->swagger.get_fw_leaderboards_corporations(m)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.set(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1060,7 +1109,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_stats_holder == null) {
                         get_fw_stats_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_fw_stats", (page, header) -> (swagger).get_fw_stats(header), arr -> get_fw_stats_holder.setAll(arr));
+                        ObservableList<R_get_fw_stats> finalContainer = get_fw_stats_holder;
+                        addFetchCacheArray("get_fw_stats", (page, header) -> (swagger).get_fw_stats(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1076,7 +1132,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_wars_holder == null) {
                         get_fw_wars_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_fw_wars", (page, header) -> (swagger).get_fw_wars(header), arr -> get_fw_wars_holder.setAll(arr));
+                        ObservableList<R_get_fw_wars> finalContainer = get_fw_wars_holder;
+                        addFetchCacheArray("get_fw_wars", (page, header) -> (swagger).get_fw_wars(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1092,7 +1155,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_fw_systems_holder == null) {
                         get_fw_systems_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_fw_systems", (page, header) -> (swagger).get_fw_systems(header), arr -> get_fw_systems_holder.setAll(arr));
+                        ObservableList<R_get_fw_systems> finalContainer = get_fw_systems_holder;
+                        addFetchCacheArray("get_fw_systems", (page, header) -> (swagger).get_fw_systems(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1112,7 +1182,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_incursions_holder == null) {
                         get_incursions_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_incursions", (page, header) -> (swagger).get_incursions(header), arr -> get_incursions_holder.setAll(arr));
+                        ObservableList<R_get_incursions> finalContainer = get_incursions_holder;
+                        addFetchCacheArray("get_incursions", (page, header) -> (swagger).get_incursions(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1133,7 +1210,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_industry_facilities_holder == null) {
                         get_industry_facilities_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_industry_facilities", (page, header) -> (swagger).get_industry_facilities(header), arr -> get_industry_facilities_holder.setAll(arr));
+                        ObservableList<R_get_industry_facilities> finalContainer = get_industry_facilities_holder;
+                        addFetchCacheArray("get_industry_facilities", (page, header) -> (swagger).get_industry_facilities(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1149,7 +1233,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_industry_systems_holder == null) {
                         get_industry_systems_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_industry_systems", (page, header) -> (swagger).get_industry_systems(header), arr -> get_industry_systems_holder.setAll(arr));
+                        ObservableList<R_get_industry_systems> finalContainer = get_industry_systems_holder;
+                        addFetchCacheArray("get_industry_systems", (page, header) -> (swagger).get_industry_systems(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1169,7 +1260,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_insurance_prices_holder == null) {
                         get_insurance_prices_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_insurance_prices", (page, header) -> (swagger).get_insurance_prices(header), arr -> get_insurance_prices_holder.setAll(arr));
+                        ObservableList<R_get_insurance_prices> finalContainer = get_insurance_prices_holder;
+                        addFetchCacheArray("get_insurance_prices", (page, header) -> (swagger).get_insurance_prices(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1210,7 +1308,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_markets_groups_holder == null) {
                         get_markets_groups_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_markets_groups", (page, header) -> IntStream.of((swagger).get_markets_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_markets_groups_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_markets_groups_holder;
+                        addFetchCacheArray("get_markets_groups", (page, header) -> IntStream.of((swagger).get_markets_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1233,7 +1338,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_markets_prices_holder == null) {
                         get_markets_prices_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_markets_prices", (page, header) -> (swagger).get_markets_prices(header), arr -> get_markets_prices_holder.setAll(arr));
+                        ObservableList<R_get_markets_prices> finalContainer = get_markets_prices_holder;
+                        addFetchCacheArray("get_markets_prices", (page, header) -> (swagger).get_markets_prices(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1282,7 +1394,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_opportunities_groups_holder == null) {
                         get_opportunities_groups_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_opportunities_groups", (page, header) -> IntStream.of((swagger).get_opportunities_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_opportunities_groups_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_opportunities_groups_holder;
+                        addFetchCacheArray("get_opportunities_groups", (page, header) -> IntStream.of((swagger).get_opportunities_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1305,7 +1424,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_opportunities_tasks_holder == null) {
                         get_opportunities_tasks_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_opportunities_tasks", (page, header) -> IntStream.of((swagger).get_opportunities_tasks(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_opportunities_tasks_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_opportunities_tasks_holder;
+                        addFetchCacheArray("get_opportunities_tasks", (page, header) -> IntStream.of((swagger).get_opportunities_tasks(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1366,7 +1492,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_sovereignty_map_holder == null) {
                         get_sovereignty_map_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_sovereignty_map", (page, header) -> (swagger).get_sovereignty_map(header), arr -> get_sovereignty_map_holder.setAll(arr));
+                        ObservableList<R_get_sovereignty_map> finalContainer = get_sovereignty_map_holder;
+                        addFetchCacheArray("get_sovereignty_map", (page, header) -> (swagger).get_sovereignty_map(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1393,7 +1526,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_status_holder == null) {
                         get_status_holder = new SimpleObjectProperty<>();
-                        addFetchCacheObject("get_status", (m->swagger.get_status(m)), (get_status_holder::set));
+                        SimpleObjectProperty<R_get_status> finalContainer = get_status_holder;
+                        addFetchCacheObject("get_status", (m->swagger.get_status(m)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.set(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1425,7 +1565,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_ancestries_holder == null) {
                         get_universe_ancestries_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_ancestries", (page, header) -> (swagger).get_universe_ancestries(header), arr -> get_universe_ancestries_holder.setAll(arr));
+                        ObservableList<R_get_universe_ancestries> finalContainer = get_universe_ancestries_holder;
+                        addFetchCacheArray("get_universe_ancestries", (page, header) -> (swagger).get_universe_ancestries(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1448,7 +1595,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_bloodlines_holder == null) {
                         get_universe_bloodlines_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_bloodlines", (page, header) -> (swagger).get_universe_bloodlines(header), arr -> get_universe_bloodlines_holder.setAll(arr));
+                        ObservableList<R_get_universe_bloodlines> finalContainer = get_universe_bloodlines_holder;
+                        addFetchCacheArray("get_universe_bloodlines", (page, header) -> (swagger).get_universe_bloodlines(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1464,7 +1618,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_categories_holder == null) {
                         get_universe_categories_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_categories", (page, header) -> IntStream.of((swagger).get_universe_categories(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_categories_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_categories_holder;
+                        addFetchCacheArray("get_universe_categories", (page, header) -> IntStream.of((swagger).get_universe_categories(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1487,7 +1648,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_constellations_holder == null) {
                         get_universe_constellations_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_constellations", (page, header) -> IntStream.of((swagger).get_universe_constellations(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_constellations_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_constellations_holder;
+                        addFetchCacheArray("get_universe_constellations", (page, header) -> IntStream.of((swagger).get_universe_constellations(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1510,7 +1678,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_graphics_holder == null) {
                         get_universe_graphics_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_graphics", (page, header) -> IntStream.of((swagger).get_universe_graphics(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_graphics_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_graphics_holder;
+                        addFetchCacheArray("get_universe_graphics", (page, header) -> IntStream.of((swagger).get_universe_graphics(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1533,7 +1708,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_groups_holder == null) {
                         get_universe_groups_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_groups", (page, header) -> IntStream.of((swagger).get_universe_groups(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_groups_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_groups_holder;
+                        addFetchCacheArray("get_universe_groups", (page, header) -> IntStream.of((swagger).get_universe_groups(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1570,7 +1752,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_races_holder == null) {
                         get_universe_races_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_races", (page, header) -> (swagger).get_universe_races(header), arr -> get_universe_races_holder.setAll(arr));
+                        ObservableList<R_get_universe_races> finalContainer = get_universe_races_holder;
+                        addFetchCacheArray("get_universe_races", (page, header) -> (swagger).get_universe_races(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1586,7 +1775,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_regions_holder == null) {
                         get_universe_regions_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_regions", (page, header) -> IntStream.of((swagger).get_universe_regions(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_regions_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_regions_holder;
+                        addFetchCacheArray("get_universe_regions", (page, header) -> IntStream.of((swagger).get_universe_regions(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1630,7 +1826,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_structures_holder == null) {
                         get_universe_structures_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_structures", (page, header) -> LongStream.of((swagger).get_universe_structures(header)).mapToObj((Long::valueOf)).toArray((Long[]::new)), arr -> get_universe_structures_holder.setAll(arr));
+                        ObservableList<Long> finalContainer = get_universe_structures_holder;
+                        addFetchCacheArray("get_universe_structures", (page, header) -> LongStream.of((swagger).get_universe_structures(header)).mapToObj((Long::valueOf)).toArray((Long[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1646,7 +1849,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_system_jumps_holder == null) {
                         get_universe_system_jumps_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_system_jumps", (page, header) -> (swagger).get_universe_system_jumps(header), arr -> get_universe_system_jumps_holder.setAll(arr));
+                        ObservableList<R_get_universe_system_jumps> finalContainer = get_universe_system_jumps_holder;
+                        addFetchCacheArray("get_universe_system_jumps", (page, header) -> (swagger).get_universe_system_jumps(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1662,7 +1872,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_systems_holder == null) {
                         get_universe_systems_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_systems", (page, header) -> IntStream.of((swagger).get_universe_systems(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_systems_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_systems_holder;
+                        addFetchCacheArray("get_universe_systems", (page, header) -> IntStream.of((swagger).get_universe_systems(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1678,7 +1895,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_types_holder == null) {
                         get_universe_types_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_types", (page, header) -> IntStream.of((swagger).get_universe_types(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> get_universe_types_holder.setAll(arr));
+                        ObservableList<Integer> finalContainer = get_universe_types_holder;
+                        addFetchCacheArray("get_universe_types", (page, header) -> IntStream.of((swagger).get_universe_types(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }
@@ -1715,7 +1939,14 @@ public abstract class SwaggerCache<T extends Swagger> {
                 {
                     if (get_universe_system_kills_holder == null) {
                         get_universe_system_kills_holder = FXCollections.observableArrayList();
-                        addFetchCacheArray("get_universe_system_kills", (page, header) -> (swagger).get_universe_system_kills(header), arr -> get_universe_system_kills_holder.setAll(arr));
+                        ObservableList<R_get_universe_system_kills> finalContainer = get_universe_system_kills_holder;
+                        addFetchCacheArray("get_universe_system_kills", (page, header) -> (swagger).get_universe_system_kills(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
                     }
                 }
             }

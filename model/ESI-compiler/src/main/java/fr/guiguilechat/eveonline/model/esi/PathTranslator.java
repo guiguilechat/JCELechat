@@ -355,7 +355,19 @@ public class PathTranslator {
 		switch (cacheParams.size()) {
 		case 0:
 			cacheKeyType = null;
-			createCacheNoParam();
+			switch (cacheRetTransform) {
+			case CONTAINER:
+				createCache_NoParam_Container();
+				break;
+			case LIST:
+				createCache_NoParam_List();
+				break;
+			case MAP:
+				createCache_NoParam_Map();
+				break;
+			default:
+				throw new UnsupportedOperationException("handle case " + cacheRetTransform);
+			}
 			break;
 		case 1:
 			cacheKeyType = cacheParams.get(0).type().boxify();
@@ -408,90 +420,94 @@ public class PathTranslator {
 	}
 
 	/**
-	 * create the cache body when no parameter.
+	 * create the cache body when cache has no parameter and the fetch method
+	 * returns an object
 	 */
-	protected void createCacheNoParam() {
-		JFieldVar container;
-		JBlock instanceBlock;
-		JInvocation invoke;
-		switch (cacheRetTransform) {
-		case CONTAINER:
-			container = cacheGroup.field(JMod.PRIVATE, cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()),
-					cacheMeth.name() + "_holder");
-			instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
-					._if(container.eqNull())._then();
-			instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
-			invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
-			invoke.arg(JExpr.direct("m->swagger." + fetchMeth.name() + "(m)"));
-			invoke.arg(JExpr.direct(container.name() + "::set"));
-			if (!requiredRoles.isEmpty()) {
-				JArray array = JExpr.newArray(cm.ref(String.class));
-				for (String s : requiredRoles) {
-					array.add(JExpr.lit(s));
-				}
-				invoke.arg(array);
+	protected void createCache_NoParam_Container() {
+		JFieldVar container = cacheGroup.field(JMod.PRIVATE,
+				cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()),
+				cacheMeth.name() + "_holder");
+		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+				._if(container.eqNull())._then();
+		instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+		JVar finalcontainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
+		invoke.arg(JExpr.direct("m->swagger." + fetchMeth.name() + "(m)"));
+		JLambda lambdaset = new JLambda();
+		JLambdaParam arr = lambdaset.addParam("arr");
+		lambdaset.body().synchronizedBlock(finalcontainer).body().invoke(finalcontainer, "set").arg(arr);
+		invoke.arg(lambdaset);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
 			}
-			cacheMeth.body()._return(container);
-			break;
-		case LIST:
-			container = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
-			instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
-					._if(container.eqNull())._then();
-			// _holder = FXCollections.observableArrayList();
-			instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
-			invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
-
-			JLambda lambdaFetch = new JLambda();
-			JLambdaParam page = lambdaFetch.addParam("page");
-			JLambdaParam head = lambdaFetch.addParam("header");
-			JInvocation callmeth = JExpr.direct("swagger").invoke(fetchMeth);
-			if (fetchMeth.params().size() == 2) {
-				callmeth.arg(page);
-				callmeth.arg(head);
-			} else {
-				callmeth.arg(head);
-			}
-			if (resourceType.isPrimitive()) {
-				IJExpression convert, toArr;
-				AbstractJClass streamType;
-				if (resourceType == cm.INT) {
-					convert = JExpr.direct("Integer::valueOf");
-					toArr = JExpr.direct("Integer[]::new");
-					streamType = cm.ref(IntStream.class);
-				} else if (resourceType == cm.LONG) {
-					convert = JExpr.direct("Long::valueOf");
-					toArr = JExpr.direct("Long[]::new");
-					streamType = cm.ref(LongStream.class);
-				} else {
-					throw new UnsupportedOperationException("handle type " + resourceType);
-				}
-				callmeth = streamType.staticInvoke("of").arg(callmeth).invoke("mapToObj").arg(convert)
-						.invoke("toArray").arg(toArr);
-			}
-			lambdaFetch.body().add(callmeth);
-			invoke.arg(lambdaFetch);
-
-			JLambda lambdaSet = new JLambda();
-			JLambdaParam arr = lambdaSet.addParam("arr");
-			lambdaSet.body().add(container.invoke("setAll").arg(arr));
-			// .arg(cm.ref(IntStream.class).staticInvoke("of").arg(arr).invoke("mapToObj")
-			// .arg(convert).invoke("toArray").arg(toArr)));
-			invoke.arg(lambdaSet);
-			if (!requiredRoles.isEmpty()) {
-				JArray array = JExpr.newArray(cm.ref(String.class));
-				for (String s : requiredRoles) {
-					array.add(JExpr.lit(s));
-				}
-				invoke.arg(array);
-			}
-			cacheMeth.body()._return(container);
-			break;
-		case MAP:
-			cacheMeth.body()._return(JExpr._null());
-			break;
-		default:
-			break;
+			invoke.arg(array);
 		}
+		cacheMeth.body()._return(container);
+	}
+
+	/**
+	 * create the cache body when no parameter and the fetch method returns a list
+	 * of items with no unique field.
+	 */
+	protected void createCache_NoParam_List() {
+		// translate no param into an observableList
+		JFieldVar container = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
+		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+				._if(container.eqNull())._then();
+		// _holder = FXCollections.observableArrayList();
+		instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
+		JVar finalContainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
+
+		JLambda lambdaFetch = new JLambda();
+		JLambdaParam page = lambdaFetch.addParam("page");
+		JLambdaParam head = lambdaFetch.addParam("header");
+		JInvocation callmeth = JExpr.direct("swagger").invoke(fetchMeth);
+		if (fetchMeth.params().size() == 2) {
+			callmeth.arg(page);
+			callmeth.arg(head);
+		} else {
+			callmeth.arg(head);
+		}
+		if (resourceType.isPrimitive()) {
+			IJExpression convert, toArr;
+			AbstractJClass streamType;
+			if (resourceType == cm.INT) {
+				convert = JExpr.direct("Integer::valueOf");
+				toArr = JExpr.direct("Integer[]::new");
+				streamType = cm.ref(IntStream.class);
+			} else if (resourceType == cm.LONG) {
+				convert = JExpr.direct("Long::valueOf");
+				toArr = JExpr.direct("Long[]::new");
+				streamType = cm.ref(LongStream.class);
+			} else {
+				throw new UnsupportedOperationException("handle type " + resourceType);
+			}
+			callmeth = streamType.staticInvoke("of").arg(callmeth).invoke("mapToObj").arg(convert)
+					.invoke("toArray").arg(toArr);
+		}
+		lambdaFetch.body().add(callmeth);
+		invoke.arg(lambdaFetch);
+
+		JLambda lambdaSet = new JLambda();
+		JLambdaParam arr = lambdaSet.addParam("arr");
+		lambdaSet.body().synchronizedBlock(finalContainer).body().invoke(finalContainer, "setAll").arg(arr);
+		invoke.arg(lambdaSet);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		cacheMeth.body()._return(container);
+	}
+
+	protected void createCache_NoParam_Map() {
+
+		cacheMeth.body()._return(JExpr._null());
 	}
 
 	/**
