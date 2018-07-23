@@ -185,7 +185,10 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Alliances {
         private ObservableList<Integer> get_alliances_holder;
+        private final Map<Integer, ObservableList<M_get_contacts_labels_2>> get_alliances_alliance_id_contacts_labels_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<Integer>> get_alliances_alliance_id_corporations_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_alliances_alliance_id_contacts>> get_alliances_alliance_id_contacts_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_alliances_alliance_id>> get_alliances_alliance_id_holder = new HashMap<>();
 
         /**
@@ -196,9 +199,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_alliances_holder == null) {
-                        get_alliances_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_alliances_holder;
-                        addFetchCacheArray("get_alliances", (page, header) -> IntStream.of((swagger).get_alliances(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_alliances_holder = finalContainer;
+                        addFetchCacheArray("get_alliances", (page, headerHandler) -> IntStream.of((swagger).get_alliances(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -215,16 +218,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_alliances_alliance_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_alliances_alliance_id_contacts_labels(int alliance_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_contacts_labels_2> ret = get_alliances_alliance_id_contacts_labels_holder.get(alliance_id);
+            if (ret == null) {
+                synchronized (get_alliances_alliance_id_contacts_labels_holder)
+                {
+                    ret = get_alliances_alliance_id_contacts_labels_holder.get(alliance_id);
+                    if (ret == null) {
+                        ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (swagger).get_alliances_alliance_id_contacts_labels(alliance_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_alliances_alliance_id_corporations
          */
         public ObservableList<Integer> get_alliances_alliance_id_corporations(int alliance_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<Integer> ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
+            if (ret == null) {
+                synchronized (get_alliances_alliance_id_corporations_holder)
+                {
+                    ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_alliances_alliance_id_corporations", (page, headerHandler) -> IntStream.of((swagger).get_alliances_alliance_id_corporations(alliance_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -256,8 +293,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_alliances_alliance_id_contacts
          */
         public ObservableList<R_get_alliances_alliance_id_contacts> get_alliances_alliance_id_contacts(int alliance_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_alliances_alliance_id_contacts> ret = get_alliances_alliance_id_contacts_holder.get(alliance_id);
+            if (ret == null) {
+                synchronized (get_alliances_alliance_id_contacts_holder)
+                {
+                    ret = get_alliances_alliance_id_contacts_holder.get(alliance_id);
+                    if (ret == null) {
+                        ObservableList<R_get_alliances_alliance_id_contacts> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (swagger).get_alliances_alliance_id_contacts(alliance_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -287,16 +341,39 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Characters {
+        private final Map<Integer, ObservableList<R_get_characters_character_id_agents_research>> get_characters_character_id_agents_research_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_contacts_labels_2>> get_characters_character_id_contacts_labels_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_contracts_22>> get_characters_character_id_contracts_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_corporationhistory>> get_characters_character_id_corporationhistory_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<Integer>> get_characters_character_id_implants_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_killmails_2>> get_characters_character_id_killmails_recent_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_loyalty_points>> get_characters_character_id_loyalty_points_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_mail_lists>> get_characters_character_id_mail_lists_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_medals>> get_characters_character_id_medals_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_mining>> get_characters_character_id_mining_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_notifications_contacts>> get_characters_character_id_notifications_contacts_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_opportunities>> get_characters_character_id_opportunities_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_planets>> get_characters_character_id_planets_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_standings_3>> get_characters_character_id_standings_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_titles>> get_characters_character_id_titles_holder = new HashMap<>();
         private final Map<Integer, Property<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_bookmarks_9>> get_characters_character_id_bookmarks_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_bookmarks_folders>> get_characters_character_id_bookmarks_folders_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_contacts>> get_characters_character_id_contacts_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_online>> get_characters_character_id_online_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_portrait>> get_characters_character_id_portrait_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_skillqueue>> get_characters_character_id_skillqueue_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_characters_character_id_stats>> get_characters_character_id_stats_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_assets_8>> get_characters_character_id_assets_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id>> get_characters_character_id_holder = new HashMap<>();
@@ -306,8 +383,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_agents_research
          */
         public ObservableList<R_get_characters_character_id_agents_research> get_characters_character_id_agents_research(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_agents_research> ret = get_characters_character_id_agents_research_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_agents_research_holder)
+                {
+                    ret = get_characters_character_id_agents_research_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_agents_research> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_agents_research", (page, headerHandler) -> (swagger).get_characters_character_id_agents_research(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -355,16 +449,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_characters_character_id_contacts_labels(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_contacts_labels_2> ret = get_characters_character_id_contacts_labels_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_contacts_labels_holder)
+                {
+                    ret = get_characters_character_id_contacts_labels_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_contacts_labels", (page, headerHandler) -> (swagger).get_characters_character_id_contacts_labels(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_contracts
          */
         public ObservableList<M_get_contracts_22> get_characters_character_id_contracts(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_contracts_22> ret = get_characters_character_id_contracts_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_contracts_holder)
+                {
+                    ret = get_characters_character_id_contracts_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_contracts", (page, headerHandler) -> (swagger).get_characters_character_id_contracts(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -387,8 +515,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_corporationhistory
          */
         public ObservableList<R_get_characters_character_id_corporationhistory> get_characters_character_id_corporationhistory(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_corporationhistory> ret = get_characters_character_id_corporationhistory_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_corporationhistory_holder)
+                {
+                    ret = get_characters_character_id_corporationhistory_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_corporationhistory> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_corporationhistory", (page, headerHandler) -> (swagger).get_characters_character_id_corporationhistory(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -420,8 +565,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_fittings
          */
         public ObservableList<R_get_characters_character_id_fittings> get_characters_character_id_fittings(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_fittings> ret = get_characters_character_id_fittings_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_fittings_holder)
+                {
+                    ret = get_characters_character_id_fittings_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_fittings> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_fittings", (page, headerHandler) -> (swagger).get_characters_character_id_fittings(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -478,8 +640,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_implants
          */
         public ObservableList<Integer> get_characters_character_id_implants(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<Integer> ret = get_characters_character_id_implants_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_implants_holder)
+                {
+                    ret = get_characters_character_id_implants_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_implants", (page, headerHandler) -> IntStream.of((swagger).get_characters_character_id_implants(character_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -494,8 +673,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_killmails_recent
          */
         public ObservableList<M_get_killmails_2> get_characters_character_id_killmails_recent(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_killmails_2> ret = get_characters_character_id_killmails_recent_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_killmails_recent_holder)
+                {
+                    ret = get_characters_character_id_killmails_recent_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_killmails_recent", (page, headerHandler) -> (swagger).get_characters_character_id_killmails_recent(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -527,8 +723,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_loyalty_points
          */
         public ObservableList<R_get_characters_character_id_loyalty_points> get_characters_character_id_loyalty_points(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_loyalty_points> ret = get_characters_character_id_loyalty_points_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_loyalty_points_holder)
+                {
+                    ret = get_characters_character_id_loyalty_points_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_loyalty_points> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_loyalty_points", (page, headerHandler) -> (swagger).get_characters_character_id_loyalty_points(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -543,8 +756,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_mail_lists
          */
         public ObservableList<R_get_characters_character_id_mail_lists> get_characters_character_id_mail_lists(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_mail_lists> ret = get_characters_character_id_mail_lists_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_mail_lists_holder)
+                {
+                    ret = get_characters_character_id_mail_lists_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_mail_lists> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_mail_lists", (page, headerHandler) -> (swagger).get_characters_character_id_mail_lists(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -559,32 +789,100 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_medals
          */
         public ObservableList<R_get_characters_character_id_medals> get_characters_character_id_medals(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_medals> ret = get_characters_character_id_medals_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_medals_holder)
+                {
+                    ret = get_characters_character_id_medals_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_medals> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_medals", (page, headerHandler) -> (swagger).get_characters_character_id_medals(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_mining
          */
         public ObservableList<R_get_characters_character_id_mining> get_characters_character_id_mining(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_mining> ret = get_characters_character_id_mining_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_mining_holder)
+                {
+                    ret = get_characters_character_id_mining_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_mining> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_mining", (page, headerHandler) -> (swagger).get_characters_character_id_mining(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_notifications_contacts
          */
         public ObservableList<R_get_characters_character_id_notifications_contacts> get_characters_character_id_notifications_contacts(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_notifications_contacts> ret = get_characters_character_id_notifications_contacts_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_notifications_contacts_holder)
+                {
+                    ret = get_characters_character_id_notifications_contacts_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_notifications_contacts> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_notifications_contacts", (page, headerHandler) -> (swagger).get_characters_character_id_notifications_contacts(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_opportunities
          */
         public ObservableList<R_get_characters_character_id_opportunities> get_characters_character_id_opportunities(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_opportunities> ret = get_characters_character_id_opportunities_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_opportunities_holder)
+                {
+                    ret = get_characters_character_id_opportunities_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_opportunities> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_opportunities", (page, headerHandler) -> (swagger).get_characters_character_id_opportunities(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -599,8 +897,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_planets
          */
         public ObservableList<R_get_characters_character_id_planets> get_characters_character_id_planets(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_planets> ret = get_characters_character_id_planets_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_planets_holder)
+                {
+                    ret = get_characters_character_id_planets_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_planets> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_planets", (page, headerHandler) -> (swagger).get_characters_character_id_planets(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -632,16 +947,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_standings
          */
         public ObservableList<M_get_standings_3> get_characters_character_id_standings(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_standings_3> ret = get_characters_character_id_standings_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_standings_holder)
+                {
+                    ret = get_characters_character_id_standings_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_standings", (page, headerHandler) -> (swagger).get_characters_character_id_standings(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_titles
          */
         public ObservableList<R_get_characters_character_id_titles> get_characters_character_id_titles(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_titles> ret = get_characters_character_id_titles_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_titles_holder)
+                {
+                    ret = get_characters_character_id_titles_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_titles> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_titles", (page, headerHandler) -> (swagger).get_characters_character_id_titles(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -689,32 +1038,100 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_bookmarks
          */
         public ObservableList<M_get_bookmarks_9> get_characters_character_id_bookmarks(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_bookmarks_holder)
+                {
+                    ret = get_characters_character_id_bookmarks_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_bookmarks", (page, headerHandler) -> (swagger).get_characters_character_id_bookmarks(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_bookmarks_folders
          */
         public ObservableList<R_get_characters_character_id_bookmarks_folders> get_characters_character_id_bookmarks_folders(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_bookmarks_folders_holder)
+                {
+                    ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_characters_character_id_bookmarks_folders(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_contacts
          */
         public ObservableList<R_get_characters_character_id_contacts> get_characters_character_id_contacts(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_contacts> ret = get_characters_character_id_contacts_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_contacts_holder)
+                {
+                    ret = get_characters_character_id_contacts_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_contacts> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_contacts", (page, headerHandler) -> (swagger).get_characters_character_id_contacts(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_notifications
          */
         public ObservableList<R_get_characters_character_id_notifications> get_characters_character_id_notifications(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_notifications_holder)
+                {
+                    ret = get_characters_character_id_notifications_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_notifications> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_notifications", (page, headerHandler) -> (swagger).get_characters_character_id_notifications(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -804,24 +1221,75 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_skillqueue
          */
         public ObservableList<R_get_characters_character_id_skillqueue> get_characters_character_id_skillqueue(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_skillqueue> ret = get_characters_character_id_skillqueue_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_skillqueue_holder)
+                {
+                    ret = get_characters_character_id_skillqueue_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_skillqueue> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_skillqueue", (page, headerHandler) -> (swagger).get_characters_character_id_skillqueue(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_stats
          */
         public ObservableList<R_get_characters_character_id_stats> get_characters_character_id_stats(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_characters_character_id_stats> ret = get_characters_character_id_stats_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_stats_holder)
+                {
+                    ret = get_characters_character_id_stats_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_stats> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_stats", (page, headerHandler) -> (swagger).get_characters_character_id_stats(character_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_assets
          */
         public ObservableList<M_get_assets_8> get_characters_character_id_assets(int character_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_assets_8> ret = get_characters_character_id_assets_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_assets_holder)
+                {
+                    ret = get_characters_character_id_assets_holder.get(character_id);
+                    if (ret == null) {
+                        ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_assets", (page, headerHandler) -> (swagger).get_characters_character_id_assets(character_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -958,21 +1426,57 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Corporation {
+        private final Map<Integer, ObservableList<R_get_corporation_corporation_id_mining_extractions>> get_corporation_corporation_id_mining_extractions_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporation_corporation_id_mining_observers>> get_corporation_corporation_id_mining_observers_holder = new HashMap<>();
 
         /**
          * @see get_corporation_corporation_id_mining_extractions
          */
         public ObservableList<R_get_corporation_corporation_id_mining_extractions> get_corporation_corporation_id_mining_extractions(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporation_corporation_id_mining_extractions> ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporation_corporation_id_mining_extractions_holder)
+                {
+                    ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporation_corporation_id_mining_extractions> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_extractions(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Structure_manager"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporation_corporation_id_mining_observers
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers> get_corporation_corporation_id_mining_observers(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporation_corporation_id_mining_observers> ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporation_corporation_id_mining_observers_holder)
+                {
+                    ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporation_corporation_id_mining_observers> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_observers(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Accountant"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -986,10 +1490,32 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Corporations {
         private ObservableList<Integer> get_corporations_npccorps_holder;
+        private final Map<Integer, ObservableList<M_get_bookmarks_9>> get_corporations_corporation_id_bookmarks_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_bookmarks_folders>> get_corporations_corporation_id_bookmarks_folders_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_contacts_labels_2>> get_corporations_corporation_id_contacts_labels_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_contracts_22>> get_corporations_corporation_id_contracts_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_killmails_2>> get_corporations_corporation_id_killmails_recent_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_medals>> get_corporations_corporation_id_medals_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_medals_issued>> get_corporations_corporation_id_medals_issued_holder = new HashMap<>();
         private final Map<Integer, Property<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_members_titles>> get_corporations_corporation_id_members_titles_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_membertracking>> get_corporations_corporation_id_membertracking_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_roles>> get_corporations_corporation_id_roles_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_roles_history>> get_corporations_corporation_id_roles_history_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_standings_3>> get_corporations_corporation_id_standings_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_alliancehistory>> get_corporations_corporation_id_alliancehistory_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_assets_8>> get_corporations_corporation_id_assets_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 
         /**
@@ -1000,9 +1526,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_corporations_npccorps_holder == null) {
-                        get_corporations_npccorps_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_corporations_npccorps_holder;
-                        addFetchCacheArray("get_corporations_npccorps", (page, header) -> IntStream.of((swagger).get_corporations_npccorps(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_corporations_npccorps_holder = finalContainer;
+                        addFetchCacheArray("get_corporations_npccorps", (page, headerHandler) -> IntStream.of((swagger).get_corporations_npccorps(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1019,32 +1545,100 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_bookmarks
          */
         public ObservableList<M_get_bookmarks_9> get_corporations_corporation_id_bookmarks(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_bookmarks_9> ret = get_corporations_corporation_id_bookmarks_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_bookmarks_holder)
+                {
+                    ret = get_corporations_corporation_id_bookmarks_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, headerHandler) -> (swagger).get_corporations_corporation_id_bookmarks(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_bookmarks_folders
          */
         public ObservableList<R_get_corporations_corporation_id_bookmarks_folders> get_corporations_corporation_id_bookmarks_folders(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_bookmarks_folders> ret = get_corporations_corporation_id_bookmarks_folders_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_bookmarks_folders_holder)
+                {
+                    ret = get_corporations_corporation_id_bookmarks_folders_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_corporations_corporation_id_bookmarks_folders(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_corporations_corporation_id_contacts_labels(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_contacts_labels_2> ret = get_corporations_corporation_id_contacts_labels_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_contacts_labels_holder)
+                {
+                    ret = get_corporations_corporation_id_contacts_labels_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contacts_labels(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_contracts
          */
         public ObservableList<M_get_contracts_22> get_corporations_corporation_id_contracts(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_contracts_22> ret = get_corporations_corporation_id_contracts_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_contracts_holder)
+                {
+                    ret = get_corporations_corporation_id_contracts_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_contracts", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1100,8 +1694,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_facilities
          */
         public ObservableList<R_get_corporations_corporation_id_facilities> get_corporations_corporation_id_facilities(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_facilities> ret = get_corporations_corporation_id_facilities_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_facilities_holder)
+                {
+                    ret = get_corporations_corporation_id_facilities_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_facilities> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_facilities", (page, headerHandler) -> (swagger).get_corporations_corporation_id_facilities(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Factory_Manager"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1166,24 +1777,75 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_killmails_recent
          */
         public ObservableList<M_get_killmails_2> get_corporations_corporation_id_killmails_recent(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_killmails_2> ret = get_corporations_corporation_id_killmails_recent_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_killmails_recent_holder)
+                {
+                    ret = get_corporations_corporation_id_killmails_recent_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, headerHandler) -> (swagger).get_corporations_corporation_id_killmails_recent(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_medals
          */
         public ObservableList<R_get_corporations_corporation_id_medals> get_corporations_corporation_id_medals(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_medals> ret = get_corporations_corporation_id_medals_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_medals_holder)
+                {
+                    ret = get_corporations_corporation_id_medals_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_medals> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_medals", (page, headerHandler) -> (swagger).get_corporations_corporation_id_medals(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_medals_issued
          */
         public ObservableList<R_get_corporations_corporation_id_medals_issued> get_corporations_corporation_id_medals_issued(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_medals_issued> ret = get_corporations_corporation_id_medals_issued_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_medals_issued_holder)
+                {
+                    ret = get_corporations_corporation_id_medals_issued_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_medals_issued> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, headerHandler) -> (swagger).get_corporations_corporation_id_medals_issued(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1215,48 +1877,150 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_members_titles
          */
         public ObservableList<R_get_corporations_corporation_id_members_titles> get_corporations_corporation_id_members_titles(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_members_titles> ret = get_corporations_corporation_id_members_titles_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_members_titles_holder)
+                {
+                    ret = get_corporations_corporation_id_members_titles_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_members_titles> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_members_titles(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_membertracking
          */
         public ObservableList<R_get_corporations_corporation_id_membertracking> get_corporations_corporation_id_membertracking(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_membertracking> ret = get_corporations_corporation_id_membertracking_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_membertracking_holder)
+                {
+                    ret = get_corporations_corporation_id_membertracking_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_membertracking> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, headerHandler) -> (swagger).get_corporations_corporation_id_membertracking(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_roles
          */
         public ObservableList<R_get_corporations_corporation_id_roles> get_corporations_corporation_id_roles(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_roles> ret = get_corporations_corporation_id_roles_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_roles_holder)
+                {
+                    ret = get_corporations_corporation_id_roles_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_roles> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_roles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_roles(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_roles_history
          */
         public ObservableList<R_get_corporations_corporation_id_roles_history> get_corporations_corporation_id_roles_history(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_roles_history> ret = get_corporations_corporation_id_roles_history_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_roles_history_holder)
+                {
+                    ret = get_corporations_corporation_id_roles_history_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_roles_history> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, headerHandler) -> (swagger).get_corporations_corporation_id_roles_history(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_shareholders
          */
         public ObservableList<R_get_corporations_corporation_id_shareholders> get_corporations_corporation_id_shareholders(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_shareholders> ret = get_corporations_corporation_id_shareholders_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_shareholders_holder)
+                {
+                    ret = get_corporations_corporation_id_shareholders_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_shareholders> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, headerHandler) -> (swagger).get_corporations_corporation_id_shareholders(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_standings
          */
         public ObservableList<M_get_standings_3> get_corporations_corporation_id_standings(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_standings_3> ret = get_corporations_corporation_id_standings_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_standings_holder)
+                {
+                    ret = get_corporations_corporation_id_standings_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_standings", (page, headerHandler) -> (swagger).get_corporations_corporation_id_standings(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1279,16 +2043,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_titles
          */
         public ObservableList<R_get_corporations_corporation_id_titles> get_corporations_corporation_id_titles(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_titles> ret = get_corporations_corporation_id_titles_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_titles_holder)
+                {
+                    ret = get_corporations_corporation_id_titles_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_titles> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_titles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_titles(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_wallets
          */
         public ObservableList<R_get_corporations_corporation_id_wallets> get_corporations_corporation_id_wallets(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_wallets> ret = get_corporations_corporation_id_wallets_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_wallets_holder)
+                {
+                    ret = get_corporations_corporation_id_wallets_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_wallets> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_wallets", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Accountant", "Junior_Accountant"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1303,8 +2101,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_alliancehistory
          */
         public ObservableList<R_get_corporations_corporation_id_alliancehistory> get_corporations_corporation_id_alliancehistory(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_alliancehistory> ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_alliancehistory_holder)
+                {
+                    ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_alliancehistory> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, headerHandler) -> (swagger).get_corporations_corporation_id_alliancehistory(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1319,16 +2134,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_contacts
          */
         public ObservableList<R_get_corporations_corporation_id_contacts> get_corporations_corporation_id_contacts(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_contacts> ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_contacts_holder)
+                {
+                    ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_contacts> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_contacts", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contacts(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_containers_logs
          */
         public ObservableList<R_get_corporations_corporation_id_containers_logs> get_corporations_corporation_id_containers_logs(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_containers_logs> ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_containers_logs_holder)
+                {
+                    ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_containers_logs> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, headerHandler) -> (swagger).get_corporations_corporation_id_containers_logs(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1343,24 +2192,75 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_structures
          */
         public ObservableList<R_get_corporations_corporation_id_structures> get_corporations_corporation_id_structures(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_structures_holder)
+                {
+                    ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_corporations_corporation_id_structures> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_structures", (page, headerHandler) -> (swagger).get_corporations_corporation_id_structures(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"StationManager"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_assets
          */
         public ObservableList<M_get_assets_8> get_corporations_corporation_id_assets(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_assets_8> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_assets_holder)
+                {
+                    ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (swagger).get_corporations_corporation_id_assets(corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_members
          */
         public ObservableList<Integer> get_corporations_corporation_id_members(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<Integer> ret = get_corporations_corporation_id_members_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_members_holder)
+                {
+                    ret = get_corporations_corporation_id_members_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_members", (page, headerHandler) -> IntStream.of((swagger).get_corporations_corporation_id_members(corporation_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1419,9 +2319,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_dogma_attributes_holder == null) {
-                        get_dogma_attributes_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_dogma_attributes_holder;
-                        addFetchCacheArray("get_dogma_attributes", (page, header) -> IntStream.of((swagger).get_dogma_attributes(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_dogma_attributes_holder = finalContainer;
+                        addFetchCacheArray("get_dogma_attributes", (page, headerHandler) -> IntStream.of((swagger).get_dogma_attributes(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1475,9 +2375,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_dogma_effects_holder == null) {
-                        get_dogma_effects_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_dogma_effects_holder;
-                        addFetchCacheArray("get_dogma_effects", (page, header) -> IntStream.of((swagger).get_dogma_effects(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_dogma_effects_holder = finalContainer;
+                        addFetchCacheArray("get_dogma_effects", (page, headerHandler) -> IntStream.of((swagger).get_dogma_effects(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1518,6 +2418,8 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Fleets {
         private final Map<Long, Property<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
+        private final Map<Long, ObservableList<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
+        private final Map<Long, ObservableList<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
 
         /**
          * @see get_fleets_fleet_id
@@ -1548,16 +2450,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_fleets_fleet_id_members
          */
         public ObservableList<R_get_fleets_fleet_id_members> get_fleets_fleet_id_members(long fleet_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
+            if (ret == null) {
+                synchronized (get_fleets_fleet_id_members_holder)
+                {
+                    ret = get_fleets_fleet_id_members_holder.get(fleet_id);
+                    if (ret == null) {
+                        ObservableList<R_get_fleets_fleet_id_members> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_fleets_fleet_id_members", (page, headerHandler) -> (swagger).get_fleets_fleet_id_members(fleet_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_fleets_fleet_id_wings
          */
         public ObservableList<R_get_fleets_fleet_id_wings> get_fleets_fleet_id_wings(long fleet_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
+            if (ret == null) {
+                synchronized (get_fleets_fleet_id_wings_holder)
+                {
+                    ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
+                    if (ret == null) {
+                        ObservableList<R_get_fleets_fleet_id_wings> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_fleets_fleet_id_wings", (page, headerHandler) -> (swagger).get_fleets_fleet_id_wings(fleet_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -1646,9 +2582,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_fw_stats_holder == null) {
-                        get_fw_stats_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_fw_stats> finalContainer = get_fw_stats_holder;
-                        addFetchCacheArray("get_fw_stats", (page, header) -> (swagger).get_fw_stats(header), arr -> {
+                        ObservableList<R_get_fw_stats> finalContainer = FXCollections.observableArrayList();
+                        get_fw_stats_holder = finalContainer;
+                        addFetchCacheArray("get_fw_stats", (page, headerHandler) -> (swagger).get_fw_stats(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1669,9 +2605,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_fw_wars_holder == null) {
-                        get_fw_wars_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_fw_wars> finalContainer = get_fw_wars_holder;
-                        addFetchCacheArray("get_fw_wars", (page, header) -> (swagger).get_fw_wars(header), arr -> {
+                        ObservableList<R_get_fw_wars> finalContainer = FXCollections.observableArrayList();
+                        get_fw_wars_holder = finalContainer;
+                        addFetchCacheArray("get_fw_wars", (page, headerHandler) -> (swagger).get_fw_wars(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1692,9 +2628,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_fw_systems_holder == null) {
-                        get_fw_systems_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_fw_systems> finalContainer = get_fw_systems_holder;
-                        addFetchCacheArray("get_fw_systems", (page, header) -> (swagger).get_fw_systems(header), arr -> {
+                        ObservableList<R_get_fw_systems> finalContainer = FXCollections.observableArrayList();
+                        get_fw_systems_holder = finalContainer;
+                        addFetchCacheArray("get_fw_systems", (page, headerHandler) -> (swagger).get_fw_systems(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1719,9 +2655,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_incursions_holder == null) {
-                        get_incursions_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_incursions> finalContainer = get_incursions_holder;
-                        addFetchCacheArray("get_incursions", (page, header) -> (swagger).get_incursions(header), arr -> {
+                        ObservableList<R_get_incursions> finalContainer = FXCollections.observableArrayList();
+                        get_incursions_holder = finalContainer;
+                        addFetchCacheArray("get_incursions", (page, headerHandler) -> (swagger).get_incursions(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1747,9 +2683,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_industry_facilities_holder == null) {
-                        get_industry_facilities_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_industry_facilities> finalContainer = get_industry_facilities_holder;
-                        addFetchCacheArray("get_industry_facilities", (page, header) -> (swagger).get_industry_facilities(header), arr -> {
+                        ObservableList<R_get_industry_facilities> finalContainer = FXCollections.observableArrayList();
+                        get_industry_facilities_holder = finalContainer;
+                        addFetchCacheArray("get_industry_facilities", (page, headerHandler) -> (swagger).get_industry_facilities(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1770,9 +2706,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_industry_systems_holder == null) {
-                        get_industry_systems_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_industry_systems> finalContainer = get_industry_systems_holder;
-                        addFetchCacheArray("get_industry_systems", (page, header) -> (swagger).get_industry_systems(header), arr -> {
+                        ObservableList<R_get_industry_systems> finalContainer = FXCollections.observableArrayList();
+                        get_industry_systems_holder = finalContainer;
+                        addFetchCacheArray("get_industry_systems", (page, headerHandler) -> (swagger).get_industry_systems(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1797,9 +2733,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_insurance_prices_holder == null) {
-                        get_insurance_prices_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_insurance_prices> finalContainer = get_insurance_prices_holder;
-                        addFetchCacheArray("get_insurance_prices", (page, header) -> (swagger).get_insurance_prices(header), arr -> {
+                        ObservableList<R_get_insurance_prices> finalContainer = FXCollections.observableArrayList();
+                        get_insurance_prices_holder = finalContainer;
+                        addFetchCacheArray("get_insurance_prices", (page, headerHandler) -> (swagger).get_insurance_prices(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1825,13 +2761,31 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Loyalty {
+        private final Map<Integer, ObservableList<R_get_loyalty_stores_corporation_id_offers>> get_loyalty_stores_corporation_id_offers_holder = new HashMap<>();
 
         /**
          * @see get_loyalty_stores_corporation_id_offers
          */
         public ObservableList<R_get_loyalty_stores_corporation_id_offers> get_loyalty_stores_corporation_id_offers(int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_loyalty_stores_corporation_id_offers> ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_loyalty_stores_corporation_id_offers_holder)
+                {
+                    ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
+                    if (ret == null) {
+                        ObservableList<R_get_loyalty_stores_corporation_id_offers> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, headerHandler) -> (swagger).get_loyalty_stores_corporation_id_offers(corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -1839,6 +2793,8 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<Integer> get_markets_groups_holder;
         private final Map<Integer, Property<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
         private ObservableList<R_get_markets_prices> get_markets_prices_holder;
+        private final Map<Long, ObservableList<R_get_markets_structures_structure_id>> get_markets_structures_structure_id_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<Integer>> get_markets_region_id_types_holder = new HashMap<>();
 
         /**
          * @see get_markets_groups
@@ -1848,9 +2804,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_markets_groups_holder == null) {
-                        get_markets_groups_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_markets_groups_holder;
-                        addFetchCacheArray("get_markets_groups", (page, header) -> IntStream.of((swagger).get_markets_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_markets_groups_holder = finalContainer;
+                        addFetchCacheArray("get_markets_groups", (page, headerHandler) -> IntStream.of((swagger).get_markets_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1896,9 +2852,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_markets_prices_holder == null) {
-                        get_markets_prices_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_markets_prices> finalContainer = get_markets_prices_holder;
-                        addFetchCacheArray("get_markets_prices", (page, header) -> (swagger).get_markets_prices(header), arr -> {
+                        ObservableList<R_get_markets_prices> finalContainer = FXCollections.observableArrayList();
+                        get_markets_prices_holder = finalContainer;
+                        addFetchCacheArray("get_markets_prices", (page, headerHandler) -> (swagger).get_markets_prices(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -1915,8 +2871,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_markets_structures_structure_id
          */
         public ObservableList<R_get_markets_structures_structure_id> get_markets_structures_structure_id(long structure_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<R_get_markets_structures_structure_id> ret = get_markets_structures_structure_id_holder.get(structure_id);
+            if (ret == null) {
+                synchronized (get_markets_structures_structure_id_holder)
+                {
+                    ret = get_markets_structures_structure_id_holder.get(structure_id);
+                    if (ret == null) {
+                        ObservableList<R_get_markets_structures_structure_id> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_markets_structures_structure_id", (page, headerHandler) -> (swagger).get_markets_structures_structure_id(page, structure_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1939,8 +2912,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_markets_region_id_types
          */
         public ObservableList<Integer> get_markets_region_id_types(int region_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<Integer> ret = get_markets_region_id_types_holder.get(region_id);
+            if (ret == null) {
+                synchronized (get_markets_region_id_types_holder)
+                {
+                    ret = get_markets_region_id_types_holder.get(region_id);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_markets_region_id_types", (page, headerHandler) -> IntStream.of((swagger).get_markets_region_id_types(page, region_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -1958,9 +2948,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_opportunities_groups_holder == null) {
-                        get_opportunities_groups_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_opportunities_groups_holder;
-                        addFetchCacheArray("get_opportunities_groups", (page, header) -> IntStream.of((swagger).get_opportunities_groups(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_opportunities_groups_holder = finalContainer;
+                        addFetchCacheArray("get_opportunities_groups", (page, headerHandler) -> IntStream.of((swagger).get_opportunities_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2006,9 +2996,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_opportunities_tasks_holder == null) {
-                        get_opportunities_tasks_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_opportunities_tasks_holder;
-                        addFetchCacheArray("get_opportunities_tasks", (page, header) -> IntStream.of((swagger).get_opportunities_tasks(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_opportunities_tasks_holder = finalContainer;
+                        addFetchCacheArray("get_opportunities_tasks", (page, headerHandler) -> IntStream.of((swagger).get_opportunities_tasks(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2091,7 +3081,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_sovereignty_campaigns_holder == null) {
                         get_sovereignty_campaigns_holder = FXCollections.observableHashMap();
                         ObservableMap<Integer, R_get_sovereignty_campaigns> finalContainer = get_sovereignty_campaigns_holder;
-                        addFetchCacheArray("get_sovereignty_campaigns", (page, header) -> (swagger).get_sovereignty_campaigns(header), arr -> {
+                        addFetchCacheArray("get_sovereignty_campaigns", (page, headerHandler) -> (swagger).get_sovereignty_campaigns(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 LinkedHashMap<Integer, R_get_sovereignty_campaigns> newmap = new LinkedHashMap<>();
@@ -2117,9 +3107,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_sovereignty_map_holder == null) {
-                        get_sovereignty_map_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_sovereignty_map> finalContainer = get_sovereignty_map_holder;
-                        addFetchCacheArray("get_sovereignty_map", (page, header) -> (swagger).get_sovereignty_map(header), arr -> {
+                        ObservableList<R_get_sovereignty_map> finalContainer = FXCollections.observableArrayList();
+                        get_sovereignty_map_holder = finalContainer;
+                        addFetchCacheArray("get_sovereignty_map", (page, headerHandler) -> (swagger).get_sovereignty_map(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2142,7 +3132,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_sovereignty_structures_holder == null) {
                         get_sovereignty_structures_holder = FXCollections.observableHashMap();
                         ObservableMap<Long, R_get_sovereignty_structures> finalContainer = get_sovereignty_structures_holder;
-                        addFetchCacheArray("get_sovereignty_structures", (page, header) -> (swagger).get_sovereignty_structures(header), arr -> {
+                        addFetchCacheArray("get_sovereignty_structures", (page, headerHandler) -> (swagger).get_sovereignty_structures(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 LinkedHashMap<Long, R_get_sovereignty_structures> newmap = new LinkedHashMap<>();
@@ -2227,9 +3217,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_ancestries_holder == null) {
-                        get_universe_ancestries_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_ancestries> finalContainer = get_universe_ancestries_holder;
-                        addFetchCacheArray("get_universe_ancestries", (page, header) -> (swagger).get_universe_ancestries(header), arr -> {
+                        ObservableList<R_get_universe_ancestries> finalContainer = FXCollections.observableArrayList();
+                        get_universe_ancestries_holder = finalContainer;
+                        addFetchCacheArray("get_universe_ancestries", (page, headerHandler) -> (swagger).get_universe_ancestries(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2275,9 +3265,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_bloodlines_holder == null) {
-                        get_universe_bloodlines_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_bloodlines> finalContainer = get_universe_bloodlines_holder;
-                        addFetchCacheArray("get_universe_bloodlines", (page, header) -> (swagger).get_universe_bloodlines(header), arr -> {
+                        ObservableList<R_get_universe_bloodlines> finalContainer = FXCollections.observableArrayList();
+                        get_universe_bloodlines_holder = finalContainer;
+                        addFetchCacheArray("get_universe_bloodlines", (page, headerHandler) -> (swagger).get_universe_bloodlines(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2298,9 +3288,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_categories_holder == null) {
-                        get_universe_categories_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_categories_holder;
-                        addFetchCacheArray("get_universe_categories", (page, header) -> IntStream.of((swagger).get_universe_categories(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_categories_holder = finalContainer;
+                        addFetchCacheArray("get_universe_categories", (page, headerHandler) -> IntStream.of((swagger).get_universe_categories(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2346,9 +3336,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_constellations_holder == null) {
-                        get_universe_constellations_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_constellations_holder;
-                        addFetchCacheArray("get_universe_constellations", (page, header) -> IntStream.of((swagger).get_universe_constellations(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_constellations_holder = finalContainer;
+                        addFetchCacheArray("get_universe_constellations", (page, headerHandler) -> IntStream.of((swagger).get_universe_constellations(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2394,9 +3384,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_graphics_holder == null) {
-                        get_universe_graphics_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_graphics_holder;
-                        addFetchCacheArray("get_universe_graphics", (page, header) -> IntStream.of((swagger).get_universe_graphics(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_graphics_holder = finalContainer;
+                        addFetchCacheArray("get_universe_graphics", (page, headerHandler) -> IntStream.of((swagger).get_universe_graphics(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2442,9 +3432,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_groups_holder == null) {
-                        get_universe_groups_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_groups_holder;
-                        addFetchCacheArray("get_universe_groups", (page, header) -> IntStream.of((swagger).get_universe_groups(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_groups_holder = finalContainer;
+                        addFetchCacheArray("get_universe_groups", (page, headerHandler) -> IntStream.of((swagger).get_universe_groups(page, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2540,9 +3530,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_races_holder == null) {
-                        get_universe_races_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_races> finalContainer = get_universe_races_holder;
-                        addFetchCacheArray("get_universe_races", (page, header) -> (swagger).get_universe_races(header), arr -> {
+                        ObservableList<R_get_universe_races> finalContainer = FXCollections.observableArrayList();
+                        get_universe_races_holder = finalContainer;
+                        addFetchCacheArray("get_universe_races", (page, headerHandler) -> (swagger).get_universe_races(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2563,9 +3553,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_regions_holder == null) {
-                        get_universe_regions_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_regions_holder;
-                        addFetchCacheArray("get_universe_regions", (page, header) -> IntStream.of((swagger).get_universe_regions(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_regions_holder = finalContainer;
+                        addFetchCacheArray("get_universe_regions", (page, headerHandler) -> IntStream.of((swagger).get_universe_regions(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2686,9 +3676,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_structures_holder == null) {
-                        get_universe_structures_holder = FXCollections.observableArrayList();
-                        ObservableList<Long> finalContainer = get_universe_structures_holder;
-                        addFetchCacheArray("get_universe_structures", (page, header) -> LongStream.of((swagger).get_universe_structures(header)).mapToObj((Long::valueOf)).toArray((Long[]::new)), arr -> {
+                        ObservableList<Long> finalContainer = FXCollections.observableArrayList();
+                        get_universe_structures_holder = finalContainer;
+                        addFetchCacheArray("get_universe_structures", (page, headerHandler) -> LongStream.of((swagger).get_universe_structures(headerHandler)).mapToObj((Long::valueOf)).toArray((Long[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2709,9 +3699,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_system_jumps_holder == null) {
-                        get_universe_system_jumps_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_system_jumps> finalContainer = get_universe_system_jumps_holder;
-                        addFetchCacheArray("get_universe_system_jumps", (page, header) -> (swagger).get_universe_system_jumps(header), arr -> {
+                        ObservableList<R_get_universe_system_jumps> finalContainer = FXCollections.observableArrayList();
+                        get_universe_system_jumps_holder = finalContainer;
+                        addFetchCacheArray("get_universe_system_jumps", (page, headerHandler) -> (swagger).get_universe_system_jumps(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2732,9 +3722,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_systems_holder == null) {
-                        get_universe_systems_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_systems_holder;
-                        addFetchCacheArray("get_universe_systems", (page, header) -> IntStream.of((swagger).get_universe_systems(header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_systems_holder = finalContainer;
+                        addFetchCacheArray("get_universe_systems", (page, headerHandler) -> IntStream.of((swagger).get_universe_systems(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2755,9 +3745,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_types_holder == null) {
-                        get_universe_types_holder = FXCollections.observableArrayList();
-                        ObservableList<Integer> finalContainer = get_universe_types_holder;
-                        addFetchCacheArray("get_universe_types", (page, header) -> IntStream.of((swagger).get_universe_types(page, header)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
+                        get_universe_types_holder = finalContainer;
+                        addFetchCacheArray("get_universe_types", (page, headerHandler) -> IntStream.of((swagger).get_universe_types(page, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2778,9 +3768,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_factions_holder == null) {
-                        get_universe_factions_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_factions> finalContainer = get_universe_factions_holder;
-                        addFetchCacheArray("get_universe_factions", (page, header) -> (swagger).get_universe_factions(header), arr -> {
+                        ObservableList<R_get_universe_factions> finalContainer = FXCollections.observableArrayList();
+                        get_universe_factions_holder = finalContainer;
+                        addFetchCacheArray("get_universe_factions", (page, headerHandler) -> (swagger).get_universe_factions(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2851,9 +3841,9 @@ public abstract class SwaggerCache<T extends Swagger> {
                 synchronized (this)
                 {
                     if (get_universe_system_kills_holder == null) {
-                        get_universe_system_kills_holder = FXCollections.observableArrayList();
-                        ObservableList<R_get_universe_system_kills> finalContainer = get_universe_system_kills_holder;
-                        addFetchCacheArray("get_universe_system_kills", (page, header) -> (swagger).get_universe_system_kills(header), arr -> {
+                        ObservableList<R_get_universe_system_kills> finalContainer = FXCollections.observableArrayList();
+                        get_universe_system_kills_holder = finalContainer;
+                        addFetchCacheArray("get_universe_system_kills", (page, headerHandler) -> (swagger).get_universe_system_kills(headerHandler), arr -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.setAll(arr);
@@ -2918,14 +3908,33 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Wars {
+        private final Map<Integer, ObservableList<Integer>> get_wars_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
+        private final Map<Integer, ObservableList<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
 
         /**
          * @see get_wars
          */
         public ObservableList<Integer> get_wars(Integer max_war_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<Integer> ret = get_wars_holder.get(max_war_id);
+            if (ret == null) {
+                synchronized (get_wars_holder)
+                {
+                    ret = get_wars_holder.get(max_war_id);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_wars", (page, headerHandler) -> IntStream.of((swagger).get_wars(max_war_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2957,8 +3966,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_wars_war_id_killmails
          */
         public ObservableList<M_get_killmails_2> get_wars_war_id_killmails(int war_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            ObservableList<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
+            if (ret == null) {
+                synchronized (get_wars_war_id_killmails_holder)
+                {
+                    ret = get_wars_war_id_killmails_holder.get(war_id);
+                    if (ret == null) {
+                        ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_wars_war_id_killmails", (page, headerHandler) -> (swagger).get_wars_war_id_killmails(page, war_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 }

@@ -374,13 +374,13 @@ public class PathTranslator {
 			cacheKeyType = cacheParams.get(0).type().boxify();
 			switch (cacheRetTransform) {
 			case CONTAINER:
-				createCache_SimpleMap_Container();
+				createCache_SingleParam_Container();
 				break;
 			case LIST:
-				createCache_SimpleMap_List();
+				createCache_SingleParam_List();
 				break;
 			case MAP:
-				createCache_SimpleMap_Map();
+				createCache_SingleParam_Map();
 				break;
 			default:
 				throw new UnsupportedOperationException("handle case " + cacheRetTransform);
@@ -475,8 +475,9 @@ public class PathTranslator {
 		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(container.eqNull())._then();
 		// _holder = FXCollections.observableArrayList();
-		instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
-		JVar finalContainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
+		JVar finalContainer = instanceBlock.decl(container.type(), "finalContainer")
+				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
+		instanceBlock.assign(container, finalContainer);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
 
 		invoke.arg(lambdaFetch());
@@ -495,16 +496,21 @@ public class PathTranslator {
 		cacheMeth.body()._return(container);
 	}
 
-	protected JLambda lambdaFetch() {
+	protected JLambda lambdaFetch(JVar... params) {
 		JLambda lambdaFetch = new JLambda();
 		JLambdaParam page = lambdaFetch.addParam("page");
-		JLambdaParam head = lambdaFetch.addParam("header");
+		JLambdaParam head = lambdaFetch.addParam("headerHandler");
+		Map<String, IJExpression> paramsByName = new HashMap<>();
+		paramsByName.put(page.name(), page);
+		paramsByName.put(head.name(), head);
+		for(JVar p : params) {
+			paramsByName.put(p.name(), p);
+		}
 		JInvocation callmeth = JExpr.direct("swagger").invoke(fetchMeth);
-		if (fetchMeth.params().size() == 2) {
-			callmeth.arg(page);
-			callmeth.arg(head);
-		} else {
-			callmeth.arg(head);
+		for (JVar v : fetchMeth.params()) {
+			// System.err.println("getting arg " + v.name() + " from " +
+			// paramsByName);
+			callmeth.arg(paramsByName.get(v.name()));
 		}
 		if (resourceType.isPrimitive()) {
 			IJExpression convert, toArr;
@@ -569,7 +575,7 @@ public class PathTranslator {
 	 * resourcetype.<br />
 	 * Typically produces a map<cachekey, cacheret>
 	 */
-	protected void createCache_SimpleMap_Container() {
+	protected void createCache_SingleParam_Container() {
 		JVar container = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
 				cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
 				.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
@@ -600,21 +606,48 @@ public class PathTranslator {
 	/**
 	 * create the cache body when only one parameter.
 	 */
-	protected void createCache_SimpleMap_List() {
-		cacheMeth.body().addSingleLineComment("TODO ");
-		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+	protected void createCache_SingleParam_List() {
+		JVar container = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
+				cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
+				.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+		JVar arg = cacheParams.get(0);
+		JVar ret = cacheMeth.body().decl(cacheRetType, "ret").init(container.invoke("get").arg(arg));
+		JBlock instanceBlock = cacheMeth.body()._if(ret.eqNull())._then().synchronizedBlock(container).body()
+				.add(JExpr.assign(ret, container.invoke("get").arg(arg)))._if(ret.eqNull())._then();
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalret")
+				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
+		instanceBlock.assign(ret, finalRet);
+		container.invoke("put").arg(arg).arg(ret);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
+
+		invoke.arg(lambdaFetch(arg));
+
+		JLambda lambdaSet = new JLambda();
+		JLambdaParam arr = lambdaSet.addParam("arr");
+		lambdaSet.body().synchronizedBlock(finalRet).body().invoke(finalRet, "setAll").arg(arr);
+		invoke.arg(lambdaSet);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		cacheMeth.body()._return(ret);
 	}
 
 	/**
 	 * create the cache body when only one parameter.
 	 */
-	protected void createCache_SimpleMap_Map() {
+	protected void createCache_SingleParam_Map() {
+		// TODO
 		cacheMeth.body().addSingleLineComment("TODO ");
 		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
 	}
 
 	/** create the cache body when several parameter */
 	protected void createCacheComplexMap() {
+		// TODO
 		cacheMeth.body().addSingleLineComment("TODO ");
 		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
 	}
