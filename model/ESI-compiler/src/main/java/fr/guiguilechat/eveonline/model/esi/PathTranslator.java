@@ -372,7 +372,19 @@ public class PathTranslator {
 			break;
 		case 1:
 			cacheKeyType = cacheParams.get(0).type().boxify();
-			createCacheSimpleMap();
+			switch (cacheRetTransform) {
+			case CONTAINER:
+				createCache_SimpleMap_Container();
+				break;
+			case LIST:
+				createCache_SimpleMap_List();
+				break;
+			case MAP:
+				createCache_SimpleMap_Map();
+				break;
+			default:
+				throw new UnsupportedOperationException("handle case " + cacheRetTransform);
+			}
 			break;
 		default:
 			cacheKeyType = makeKeyParam(cacheParams);
@@ -436,12 +448,13 @@ public class PathTranslator {
 		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(container.eqNull())._then();
 		instanceBlock.assign(container, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+
 		JVar finalcontainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
 		invoke.arg(JExpr.direct("m->swagger." + fetchMeth.name() + "(m)"));
 		JLambda lambdaset = new JLambda();
-		JLambdaParam arr = lambdaset.addParam("arr");
-		lambdaset.body().synchronizedBlock(finalcontainer).body().invoke(finalcontainer, "set").arg(arr);
+		JLambdaParam item = lambdaset.addParam("item");
+		lambdaset.body().synchronizedBlock(finalcontainer).body().invoke(finalcontainer, "set").arg(item);
 		invoke.arg(lambdaset);
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -552,17 +565,58 @@ public class PathTranslator {
 	}
 
 	/**
+	 * Create the cache body when only one parameter and return a container of
+	 * resourcetype.<br />
+	 * Typically produces a map<cachekey, cacheret>
+	 */
+	protected void createCache_SimpleMap_Container() {
+		JVar container = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
+				cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
+				.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+		JVar arg = cacheParams.get(0);
+		JVar ret = cacheMeth.body().decl(cacheRetType, "ret").init(container.invoke("get").arg(arg));
+		JBlock instanceBlock = cacheMeth.body()._if(ret.eqNull())._then().synchronizedBlock(container).body()
+				.add(JExpr.assign(ret, container.invoke("get").arg(arg)))._if(ret.eqNull())._then();
+
+		JVar finalret = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceType), "finalret").init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
+		instanceBlock.assign(ret, finalret);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
+		invoke.arg(JExpr.direct("h->swagger." + fetchMeth.name() + "(" + arg.name() + ",h)"));
+		JLambda lambdaset = new JLambda();
+		JLambdaParam item = lambdaset.addParam("item");
+		lambdaset.body().synchronizedBlock(finalret).body().invoke(finalret, "set").arg(item);
+		invoke.arg(lambdaset);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+
+		cacheMeth.body()._return(ret);
+	}
+
+	/**
 	 * create the cache body when only one parameter.
 	 */
-	protected void createCacheSimpleMap() {
-		cacheMeth.body()._return(JExpr._null());
+	protected void createCache_SimpleMap_List() {
+		cacheMeth.body().addSingleLineComment("TODO ");
+		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+	}
+
+	/**
+	 * create the cache body when only one parameter.
+	 */
+	protected void createCache_SimpleMap_Map() {
+		cacheMeth.body().addSingleLineComment("TODO ");
+		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
 	}
 
 	/** create the cache body when several parameter */
 	protected void createCacheComplexMap() {
-
-		cacheMeth.body()._return(JExpr._null());
-
+		cacheMeth.body().addSingleLineComment("TODO ");
+		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
 	}
 
 	// code to remove later

@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -184,6 +185,8 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Alliances {
         private ObservableList<Integer> get_alliances_holder;
+        private final Map<Integer, Property<R_get_alliances_alliance_id_icons>> get_alliances_alliance_id_icons_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_alliances_alliance_id>> get_alliances_alliance_id_holder = new HashMap<>();
 
         /**
          * @see get_alliances
@@ -212,402 +215,745 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_alliances_alliance_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_alliances_alliance_id_contacts_labels(int alliance_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_alliances_alliance_id_corporations
          */
         public ObservableList<Integer> get_alliances_alliance_id_corporations(int alliance_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_alliances_alliance_id_icons
          */
         public Property<R_get_alliances_alliance_id_icons> get_alliances_alliance_id_icons(int alliance_id) {
-            return null;
+            Property<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+            if (ret == null) {
+                synchronized (get_alliances_alliance_id_icons_holder)
+                {
+                    ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_alliances_alliance_id_icons> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_alliances_alliance_id_icons", (h->swagger.get_alliances_alliance_id_icons(alliance_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_alliances_alliance_id_contacts
          */
         public ObservableList<R_get_alliances_alliance_id_contacts> get_alliances_alliance_id_contacts(int alliance_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_alliances_alliance_id
          */
         public Property<R_get_alliances_alliance_id> get_alliances_alliance_id(int alliance_id) {
-            return null;
+            Property<R_get_alliances_alliance_id> ret = get_alliances_alliance_id_holder.get(alliance_id);
+            if (ret == null) {
+                synchronized (get_alliances_alliance_id_holder)
+                {
+                    ret = get_alliances_alliance_id_holder.get(alliance_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_alliances_alliance_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_alliances_alliance_id", (h->swagger.get_alliances_alliance_id(alliance_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
     public class Characters {
+        private final Map<Integer, Property<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_ship>> get_characters_character_id_ship_holder = new HashMap<>();
+        private final Map<Integer, Property<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_online>> get_characters_character_id_online_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_portrait>> get_characters_character_id_portrait_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id>> get_characters_character_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
 
         /**
          * @see get_characters_character_id_agents_research
          */
         public ObservableList<R_get_characters_character_id_agents_research> get_characters_character_id_agents_research(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_attributes
          */
         public Property<R_get_characters_character_id_attributes> get_characters_character_id_attributes(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_attributes> ret = get_characters_character_id_attributes_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_attributes_holder)
+                {
+                    ret = get_characters_character_id_attributes_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_attributes> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_attributes", (h->swagger.get_characters_character_id_attributes(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_calendar
          */
         public ObservableList<R_get_characters_character_id_calendar> get_characters_character_id_calendar(int character_id, Integer from_event) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_calendar_event_id_attendees
          */
         public ObservableList<R_get_characters_character_id_calendar_event_id_attendees> get_characters_character_id_calendar_event_id_attendees(int character_id, int event_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_characters_character_id_contacts_labels(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_contracts
          */
         public ObservableList<M_get_contracts_22> get_characters_character_id_contracts(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_contracts_contract_id_bids
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> get_characters_character_id_contracts_contract_id_bids(int character_id, int contract_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_contracts_contract_id_items
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> get_characters_character_id_contracts_contract_id_items(int character_id, int contract_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_corporationhistory
          */
         public ObservableList<R_get_characters_character_id_corporationhistory> get_characters_character_id_corporationhistory(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_fatigue
          */
         public Property<R_get_characters_character_id_fatigue> get_characters_character_id_fatigue(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_fatigue> ret = get_characters_character_id_fatigue_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_fatigue_holder)
+                {
+                    ret = get_characters_character_id_fatigue_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_fatigue> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_fatigue", (h->swagger.get_characters_character_id_fatigue(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_fittings
          */
         public ObservableList<R_get_characters_character_id_fittings> get_characters_character_id_fittings(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_fleet
          */
         public Property<R_get_characters_character_id_fleet> get_characters_character_id_fleet(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_fleet> ret = get_characters_character_id_fleet_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_fleet_holder)
+                {
+                    ret = get_characters_character_id_fleet_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_fleet> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_fleet", (h->swagger.get_characters_character_id_fleet(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_fw_stats
          */
         public Property<R_get_characters_character_id_fw_stats> get_characters_character_id_fw_stats(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_fw_stats> ret = get_characters_character_id_fw_stats_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_fw_stats_holder)
+                {
+                    ret = get_characters_character_id_fw_stats_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_fw_stats> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_fw_stats", (h->swagger.get_characters_character_id_fw_stats(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_implants
          */
         public ObservableList<Integer> get_characters_character_id_implants(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_industry_jobs
          */
         public ObservableMap<Integer, R_get_characters_character_id_industry_jobs> get_characters_character_id_industry_jobs(int character_id, Boolean include_completed) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_killmails_recent
          */
         public ObservableList<M_get_killmails_2> get_characters_character_id_killmails_recent(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_location
          */
         public Property<R_get_characters_character_id_location> get_characters_character_id_location(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_location> ret = get_characters_character_id_location_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_location_holder)
+                {
+                    ret = get_characters_character_id_location_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_location> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_location", (h->swagger.get_characters_character_id_location(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_loyalty_points
          */
         public ObservableList<R_get_characters_character_id_loyalty_points> get_characters_character_id_loyalty_points(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_mail
          */
         public ObservableList<R_get_characters_character_id_mail> get_characters_character_id_mail(int character_id, int[] labels, Integer last_mail_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_mail_lists
          */
         public ObservableList<R_get_characters_character_id_mail_lists> get_characters_character_id_mail_lists(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_mail_mail_id
          */
         public Property<R_get_characters_character_id_mail_mail_id> get_characters_character_id_mail_mail_id(int character_id, int mail_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_medals
          */
         public ObservableList<R_get_characters_character_id_medals> get_characters_character_id_medals(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_mining
          */
         public ObservableList<R_get_characters_character_id_mining> get_characters_character_id_mining(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_notifications_contacts
          */
         public ObservableList<R_get_characters_character_id_notifications_contacts> get_characters_character_id_notifications_contacts(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_opportunities
          */
         public ObservableList<R_get_characters_character_id_opportunities> get_characters_character_id_opportunities(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_orders_history
          */
         public ObservableMap<Long, R_get_characters_character_id_orders_history> get_characters_character_id_orders_history(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_planets
          */
         public ObservableList<R_get_characters_character_id_planets> get_characters_character_id_planets(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_ship
          */
         public Property<R_get_characters_character_id_ship> get_characters_character_id_ship(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_ship> ret = get_characters_character_id_ship_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_ship_holder)
+                {
+                    ret = get_characters_character_id_ship_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_ship> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_ship", (h->swagger.get_characters_character_id_ship(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_standings
          */
         public ObservableList<M_get_standings_3> get_characters_character_id_standings(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_titles
          */
         public ObservableList<R_get_characters_character_id_titles> get_characters_character_id_titles(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_wallet
          */
         public Property<Double> get_characters_character_id_wallet(int character_id) {
-            return null;
+            Property<Double> ret = get_characters_character_id_wallet_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_wallet_holder)
+                {
+                    ret = get_characters_character_id_wallet_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<Double> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_wallet", (h->swagger.get_characters_character_id_wallet(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_wallet_transactions
          */
         public ObservableMap<Long, R_get_characters_character_id_wallet_transactions> get_characters_character_id_wallet_transactions(int character_id, Long from_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_blueprints
          */
         public ObservableMap<Long, M_get_blueprints_8> get_characters_character_id_blueprints(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_bookmarks
          */
         public ObservableList<M_get_bookmarks_9> get_characters_character_id_bookmarks(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_bookmarks_folders
          */
         public ObservableList<R_get_characters_character_id_bookmarks_folders> get_characters_character_id_bookmarks_folders(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_contacts
          */
         public ObservableList<R_get_characters_character_id_contacts> get_characters_character_id_contacts(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_notifications
          */
         public ObservableList<R_get_characters_character_id_notifications> get_characters_character_id_notifications(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_online
          */
         public Property<R_get_characters_character_id_online> get_characters_character_id_online(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_online_holder)
+                {
+                    ret = get_characters_character_id_online_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_online> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_online", (h->swagger.get_characters_character_id_online(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_orders
          */
         public ObservableMap<Long, R_get_characters_character_id_orders> get_characters_character_id_orders(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_portrait
          */
         public Property<R_get_characters_character_id_portrait> get_characters_character_id_portrait(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_portrait_holder)
+                {
+                    ret = get_characters_character_id_portrait_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_portrait> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_portrait", (h->swagger.get_characters_character_id_portrait(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_roles
          */
         public Property<R_get_characters_character_id_roles> get_characters_character_id_roles(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_roles_holder)
+                {
+                    ret = get_characters_character_id_roles_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_roles> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_roles", (h->swagger.get_characters_character_id_roles(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_skillqueue
          */
         public ObservableList<R_get_characters_character_id_skillqueue> get_characters_character_id_skillqueue(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_stats
          */
         public ObservableList<R_get_characters_character_id_stats> get_characters_character_id_stats(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_assets
          */
         public ObservableList<M_get_assets_8> get_characters_character_id_assets(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_calendar_event_id
          */
         public Property<R_get_characters_character_id_calendar_event_id> get_characters_character_id_calendar_event_id(int character_id, int event_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_clones
          */
         public Property<R_get_characters_character_id_clones> get_characters_character_id_clones(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_clones_holder)
+                {
+                    ret = get_characters_character_id_clones_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_clones> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_clones", (h->swagger.get_characters_character_id_clones(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_mail_labels
          */
         public Property<R_get_characters_character_id_mail_labels> get_characters_character_id_mail_labels(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_mail_labels_holder)
+                {
+                    ret = get_characters_character_id_mail_labels_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_mail_labels> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_mail_labels", (h->swagger.get_characters_character_id_mail_labels(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_planets_planet_id
          */
         public Property<R_get_characters_character_id_planets_planet_id> get_characters_character_id_planets_planet_id(int character_id, int planet_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id_search
          */
         public Property<R_get_characters_character_id_search> get_characters_character_id_search(String[] categories, int character_id, String search, Boolean strict) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_characters_character_id
          */
         public Property<R_get_characters_character_id> get_characters_character_id(int character_id) {
-            return null;
+            Property<R_get_characters_character_id> ret = get_characters_character_id_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_holder)
+                {
+                    ret = get_characters_character_id_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id", (h->swagger.get_characters_character_id(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_skills
          */
         public Property<R_get_characters_character_id_skills> get_characters_character_id_skills(int character_id) {
-            return null;
+            Property<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
+            if (ret == null) {
+                synchronized (get_characters_character_id_skills_holder)
+                {
+                    ret = get_characters_character_id_skills_holder.get(character_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_skills> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_skills", (h->swagger.get_characters_character_id_skills(character_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_wallet_journal
          */
         public ObservableMap<Long, M_get_journal_13> get_characters_character_id_wallet_journal(int character_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
@@ -617,26 +963,34 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporation_corporation_id_mining_extractions
          */
         public ObservableList<R_get_corporation_corporation_id_mining_extractions> get_corporation_corporation_id_mining_extractions(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporation_corporation_id_mining_observers
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers> get_corporation_corporation_id_mining_observers(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporation_corporation_id_mining_observers_observer_id
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> get_corporation_corporation_id_mining_observers_observer_id(int corporation_id, long observer_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
     public class Corporations {
         private ObservableList<Integer> get_corporations_npccorps_holder;
+        private final Map<Integer, Property<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
+        private final Map<Integer, Property<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 
         /**
          * @see get_corporations_npccorps
@@ -665,272 +1019,397 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_bookmarks
          */
         public ObservableList<M_get_bookmarks_9> get_corporations_corporation_id_bookmarks(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_bookmarks_folders
          */
         public ObservableList<R_get_corporations_corporation_id_bookmarks_folders> get_corporations_corporation_id_bookmarks_folders(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_contacts_labels
          */
         public ObservableList<M_get_contacts_labels_2> get_corporations_corporation_id_contacts_labels(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_contracts
          */
         public ObservableList<M_get_contracts_22> get_corporations_corporation_id_contracts(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_contracts_contract_id_bids
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_contracts_contract_id_items
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> get_corporations_corporation_id_contracts_contract_id_items(int contract_id, int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_customs_offices
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_customs_offices> get_corporations_corporation_id_customs_offices(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_divisions
          */
         public Property<R_get_corporations_corporation_id_divisions> get_corporations_corporation_id_divisions(int corporation_id) {
-            return null;
+            Property<R_get_corporations_corporation_id_divisions> ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_divisions_holder)
+                {
+                    ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_corporations_corporation_id_divisions> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id_divisions", (h->swagger.get_corporations_corporation_id_divisions(corporation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_facilities
          */
         public ObservableList<R_get_corporations_corporation_id_facilities> get_corporations_corporation_id_facilities(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_fw_stats
          */
         public Property<R_get_corporations_corporation_id_fw_stats> get_corporations_corporation_id_fw_stats(int corporation_id) {
-            return null;
+            Property<R_get_corporations_corporation_id_fw_stats> ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_fw_stats_holder)
+                {
+                    ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (h->swagger.get_corporations_corporation_id_fw_stats(corporation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_icons
          */
         public Property<R_get_corporations_corporation_id_icons> get_corporations_corporation_id_icons(int corporation_id) {
-            return null;
+            Property<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_icons_holder)
+                {
+                    ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_corporations_corporation_id_icons> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id_icons", (h->swagger.get_corporations_corporation_id_icons(corporation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_industry_jobs
          */
         public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> get_corporations_corporation_id_industry_jobs(int corporation_id, Boolean include_completed) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_killmails_recent
          */
         public ObservableList<M_get_killmails_2> get_corporations_corporation_id_killmails_recent(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_medals
          */
         public ObservableList<R_get_corporations_corporation_id_medals> get_corporations_corporation_id_medals(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_medals_issued
          */
         public ObservableList<R_get_corporations_corporation_id_medals_issued> get_corporations_corporation_id_medals_issued(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_members_limit
          */
         public Property<Integer> get_corporations_corporation_id_members_limit(int corporation_id) {
-            return null;
+            Property<Integer> ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_members_limit_holder)
+                {
+                    ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<Integer> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (h->swagger.get_corporations_corporation_id_members_limit(corporation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_members_titles
          */
         public ObservableList<R_get_corporations_corporation_id_members_titles> get_corporations_corporation_id_members_titles(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_membertracking
          */
         public ObservableList<R_get_corporations_corporation_id_membertracking> get_corporations_corporation_id_membertracking(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_roles
          */
         public ObservableList<R_get_corporations_corporation_id_roles> get_corporations_corporation_id_roles(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_roles_history
          */
         public ObservableList<R_get_corporations_corporation_id_roles_history> get_corporations_corporation_id_roles_history(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_shareholders
          */
         public ObservableList<R_get_corporations_corporation_id_shareholders> get_corporations_corporation_id_shareholders(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_standings
          */
         public ObservableList<M_get_standings_3> get_corporations_corporation_id_standings(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_starbases
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_starbases> get_corporations_corporation_id_starbases(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_starbases_starbase_id
          */
         public Property<R_get_corporations_corporation_id_starbases_starbase_id> get_corporations_corporation_id_starbases_starbase_id(int corporation_id, long starbase_id, int system_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_titles
          */
         public ObservableList<R_get_corporations_corporation_id_titles> get_corporations_corporation_id_titles(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_wallets
          */
         public ObservableList<R_get_corporations_corporation_id_wallets> get_corporations_corporation_id_wallets(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_wallets_division_transactions
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> get_corporations_corporation_id_wallets_division_transactions(int corporation_id, int division, Long from_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_alliancehistory
          */
         public ObservableList<R_get_corporations_corporation_id_alliancehistory> get_corporations_corporation_id_alliancehistory(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_blueprints
          */
         public ObservableMap<Long, M_get_blueprints_8> get_corporations_corporation_id_blueprints(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_contacts
          */
         public ObservableList<R_get_corporations_corporation_id_contacts> get_corporations_corporation_id_contacts(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_containers_logs
          */
         public ObservableList<R_get_corporations_corporation_id_containers_logs> get_corporations_corporation_id_containers_logs(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_orders_history
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_orders_history> get_corporations_corporation_id_orders_history(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_structures
          */
         public ObservableList<R_get_corporations_corporation_id_structures> get_corporations_corporation_id_structures(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_assets
          */
         public ObservableList<M_get_assets_8> get_corporations_corporation_id_assets(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_members
          */
         public ObservableList<Integer> get_corporations_corporation_id_members(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_orders
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_orders> get_corporations_corporation_id_orders(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id_wallets_division_journal
          */
         public ObservableMap<Long, M_get_journal_13> get_corporations_corporation_id_wallets_division_journal(int corporation_id, int division) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_corporations_corporation_id
          */
         public Property<R_get_corporations_corporation_id> get_corporations_corporation_id(int corporation_id) {
-            return null;
+            Property<R_get_corporations_corporation_id> ret = get_corporations_corporation_id_holder.get(corporation_id);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_holder)
+                {
+                    ret = get_corporations_corporation_id_holder.get(corporation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_corporations_corporation_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id", (h->swagger.get_corporations_corporation_id(corporation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
     public class Dogma {
         private ObservableList<Integer> get_dogma_attributes_holder;
+        private final Map<Integer, Property<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_holder = new HashMap<>();
         private ObservableList<Integer> get_dogma_effects_holder;
+        private final Map<Integer, Property<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
 
         /**
          * @see get_dogma_attributes
@@ -959,14 +1438,33 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_dogma_attributes_attribute_id
          */
         public Property<R_get_dogma_attributes_attribute_id> get_dogma_attributes_attribute_id(int attribute_id) {
-            return null;
+            Property<R_get_dogma_attributes_attribute_id> ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
+            if (ret == null) {
+                synchronized (get_dogma_attributes_attribute_id_holder)
+                {
+                    ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_dogma_attributes_attribute_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_dogma_attributes_attribute_id", (h->swagger.get_dogma_attributes_attribute_id(attribute_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_dogma_dynamic_items_type_id_item_id
          */
         public Property<R_get_dogma_dynamic_items_type_id_item_id> get_dogma_dynamic_items_type_id_item_id(long item_id, int type_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
@@ -996,31 +1494,70 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_dogma_effects_effect_id
          */
         public Property<R_get_dogma_effects_effect_id> get_dogma_effects_effect_id(int effect_id) {
-            return null;
+            Property<R_get_dogma_effects_effect_id> ret = get_dogma_effects_effect_id_holder.get(effect_id);
+            if (ret == null) {
+                synchronized (get_dogma_effects_effect_id_holder)
+                {
+                    ret = get_dogma_effects_effect_id_holder.get(effect_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_dogma_effects_effect_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_dogma_effects_effect_id", (h->swagger.get_dogma_effects_effect_id(effect_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
     public class Fleets {
+        private final Map<Long, Property<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
 
         /**
          * @see get_fleets_fleet_id
          */
         public Property<R_get_fleets_fleet_id> get_fleets_fleet_id(long fleet_id) {
-            return null;
+            Property<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
+            if (ret == null) {
+                synchronized (get_fleets_fleet_id_holder)
+                {
+                    ret = get_fleets_fleet_id_holder.get(fleet_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_fleets_fleet_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_fleets_fleet_id", (h->swagger.get_fleets_fleet_id(fleet_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_fleets_fleet_id_members
          */
         public ObservableList<R_get_fleets_fleet_id_members> get_fleets_fleet_id_members(long fleet_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_fleets_fleet_id_wings
          */
         public ObservableList<R_get_fleets_fleet_id_wings> get_fleets_fleet_id_wings(long fleet_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
@@ -1042,10 +1579,10 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_holder == null) {
                         get_fw_leaderboards_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_holder;
-                        addFetchCacheObject("get_fw_leaderboards", (m->swagger.get_fw_leaderboards(m)), arr -> {
+                        addFetchCacheObject("get_fw_leaderboards", (m->swagger.get_fw_leaderboards(m)), item -> {
                             synchronized (finalContainer)
                             {
-                                finalContainer.set(arr);
+                                finalContainer.set(item);
                             }
                         }
                         );
@@ -1065,10 +1602,10 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_characters_holder == null) {
                         get_fw_leaderboards_characters_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_characters_holder;
-                        addFetchCacheObject("get_fw_leaderboards_characters", (m->swagger.get_fw_leaderboards_characters(m)), arr -> {
+                        addFetchCacheObject("get_fw_leaderboards_characters", (m->swagger.get_fw_leaderboards_characters(m)), item -> {
                             synchronized (finalContainer)
                             {
-                                finalContainer.set(arr);
+                                finalContainer.set(item);
                             }
                         }
                         );
@@ -1088,10 +1625,10 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_corporations_holder == null) {
                         get_fw_leaderboards_corporations_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_corporations_holder;
-                        addFetchCacheObject("get_fw_leaderboards_corporations", (m->swagger.get_fw_leaderboards_corporations(m)), arr -> {
+                        addFetchCacheObject("get_fw_leaderboards_corporations", (m->swagger.get_fw_leaderboards_corporations(m)), item -> {
                             synchronized (finalContainer)
                             {
-                                finalContainer.set(arr);
+                                finalContainer.set(item);
                             }
                         }
                         );
@@ -1282,7 +1819,8 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_killmails_killmail_id_killmail_hash
          */
         public Property<R_get_killmails_killmail_id_killmail_hash> get_killmails_killmail_id_killmail_hash(String killmail_hash, int killmail_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
@@ -1292,12 +1830,14 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_loyalty_stores_corporation_id_offers
          */
         public ObservableList<R_get_loyalty_stores_corporation_id_offers> get_loyalty_stores_corporation_id_offers(int corporation_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
     public class Markets {
         private ObservableList<Integer> get_markets_groups_holder;
+        private final Map<Integer, Property<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
         private ObservableList<R_get_markets_prices> get_markets_prices_holder;
 
         /**
@@ -1327,7 +1867,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_markets_groups_market_group_id
          */
         public Property<R_get_markets_groups_market_group_id> get_markets_groups_market_group_id(int market_group_id) {
-            return null;
+            Property<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
+            if (ret == null) {
+                synchronized (get_markets_groups_market_group_id_holder)
+                {
+                    ret = get_markets_groups_market_group_id_holder.get(market_group_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_markets_groups_market_group_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_markets_groups_market_group_id", (h->swagger.get_markets_groups_market_group_id(market_group_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1357,34 +1915,40 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_markets_structures_structure_id
          */
         public ObservableList<R_get_markets_structures_structure_id> get_markets_structures_structure_id(long structure_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_markets_region_id_history
          */
         public ObservableList<R_get_markets_region_id_history> get_markets_region_id_history(int region_id, int type_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_markets_region_id_orders
          */
         public ObservableList<R_get_markets_region_id_orders> get_markets_region_id_orders(Swagger.order_type order_type, int region_id, Integer type_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_markets_region_id_types
          */
         public ObservableList<Integer> get_markets_region_id_types(int region_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
     public class Opportunities {
         private ObservableList<Integer> get_opportunities_groups_holder;
+        private final Map<Integer, Property<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_holder = new HashMap<>();
         private ObservableList<Integer> get_opportunities_tasks_holder;
+        private final Map<Integer, Property<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
 
         /**
          * @see get_opportunities_groups
@@ -1413,7 +1977,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_opportunities_groups_group_id
          */
         public Property<R_get_opportunities_groups_group_id> get_opportunities_groups_group_id(int group_id) {
-            return null;
+            Property<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
+            if (ret == null) {
+                synchronized (get_opportunities_groups_group_id_holder)
+                {
+                    ret = get_opportunities_groups_group_id_holder.get(group_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_opportunities_groups_group_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_opportunities_groups_group_id", (h->swagger.get_opportunities_groups_group_id(group_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1443,7 +2025,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_opportunities_tasks_task_id
          */
         public Property<R_get_opportunities_tasks_task_id> get_opportunities_tasks_task_id(int task_id) {
-            return null;
+            Property<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
+            if (ret == null) {
+                synchronized (get_opportunities_tasks_task_id_holder)
+                {
+                    ret = get_opportunities_tasks_task_id_holder.get(task_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_opportunities_tasks_task_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_opportunities_tasks_task_id", (h->swagger.get_opportunities_tasks_task_id(task_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -1460,7 +2060,8 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_route_origin_destination
          */
         public ObservableList<Integer> get_route_origin_destination(int[] avoid, int[][] connections, int destination, Swagger.flag flag, int origin) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
@@ -1470,7 +2071,8 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_search
          */
         public Property<R_get_search> get_search(String[] categories, String search, Boolean strict) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 
@@ -1572,10 +2174,10 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_status_holder == null) {
                         get_status_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<R_get_status> finalContainer = get_status_holder;
-                        addFetchCacheObject("get_status", (m->swagger.get_status(m)), arr -> {
+                        addFetchCacheObject("get_status", (m->swagger.get_status(m)), item -> {
                             synchronized (finalContainer)
                             {
-                                finalContainer.set(arr);
+                                finalContainer.set(item);
                             }
                         }
                         );
@@ -1588,19 +2190,34 @@ public abstract class SwaggerCache<T extends Swagger> {
 
     public class Universe {
         private ObservableList<R_get_universe_ancestries> get_universe_ancestries_holder;
+        private final Map<Integer, Property<R_get_universe_asteroid_belts_asteroid_belt_id>> get_universe_asteroid_belts_asteroid_belt_id_holder = new HashMap<>();
         private ObservableList<R_get_universe_bloodlines> get_universe_bloodlines_holder;
         private ObservableList<Integer> get_universe_categories_holder;
+        private final Map<Integer, Property<R_get_universe_categories_category_id>> get_universe_categories_category_id_holder = new HashMap<>();
         private ObservableList<Integer> get_universe_constellations_holder;
+        private final Map<Integer, Property<R_get_universe_constellations_constellation_id>> get_universe_constellations_constellation_id_holder = new HashMap<>();
         private ObservableList<Integer> get_universe_graphics_holder;
+        private final Map<Integer, Property<R_get_universe_graphics_graphic_id>> get_universe_graphics_graphic_id_holder = new HashMap<>();
         private ObservableList<Integer> get_universe_groups_holder;
+        private final Map<Integer, Property<R_get_universe_groups_group_id>> get_universe_groups_group_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_moons_moon_id>> get_universe_moons_moon_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_planets_planet_id>> get_universe_planets_planet_id_holder = new HashMap<>();
         private ObservableList<R_get_universe_races> get_universe_races_holder;
         private ObservableList<Integer> get_universe_regions_holder;
+        private final Map<Integer, Property<R_get_universe_regions_region_id>> get_universe_regions_region_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_schematics_schematic_id>> get_universe_schematics_schematic_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_stargates_stargate_id>> get_universe_stargates_stargate_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_stars_star_id>> get_universe_stars_star_id_holder = new HashMap<>();
         private ObservableList<Long> get_universe_structures_holder;
         private ObservableList<R_get_universe_system_jumps> get_universe_system_jumps_holder;
         private ObservableList<Integer> get_universe_systems_holder;
         private ObservableList<Integer> get_universe_types_holder;
         private ObservableList<R_get_universe_factions> get_universe_factions_holder;
+        private final Map<Integer, Property<R_get_universe_stations_station_id>> get_universe_stations_station_id_holder = new HashMap<>();
+        private final Map<Long, Property<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_holder = new HashMap<>();
         private ObservableList<R_get_universe_system_kills> get_universe_system_kills_holder;
+        private final Map<Integer, Property<R_get_universe_types_type_id>> get_universe_types_type_id_holder = new HashMap<>();
+        private final Map<Integer, Property<R_get_universe_systems_system_id>> get_universe_systems_system_id_holder = new HashMap<>();
 
         /**
          * @see get_universe_ancestries
@@ -1629,7 +2246,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_asteroid_belts_asteroid_belt_id
          */
         public Property<R_get_universe_asteroid_belts_asteroid_belt_id> get_universe_asteroid_belts_asteroid_belt_id(int asteroid_belt_id) {
-            return null;
+            Property<R_get_universe_asteroid_belts_asteroid_belt_id> ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
+            if (ret == null) {
+                synchronized (get_universe_asteroid_belts_asteroid_belt_id_holder)
+                {
+                    ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (h->swagger.get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1682,7 +2317,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_categories_category_id
          */
         public Property<R_get_universe_categories_category_id> get_universe_categories_category_id(int category_id) {
-            return null;
+            Property<R_get_universe_categories_category_id> ret = get_universe_categories_category_id_holder.get(category_id);
+            if (ret == null) {
+                synchronized (get_universe_categories_category_id_holder)
+                {
+                    ret = get_universe_categories_category_id_holder.get(category_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_categories_category_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_categories_category_id", (h->swagger.get_universe_categories_category_id(category_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1712,7 +2365,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_constellations_constellation_id
          */
         public Property<R_get_universe_constellations_constellation_id> get_universe_constellations_constellation_id(int constellation_id) {
-            return null;
+            Property<R_get_universe_constellations_constellation_id> ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
+            if (ret == null) {
+                synchronized (get_universe_constellations_constellation_id_holder)
+                {
+                    ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_constellations_constellation_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_constellations_constellation_id", (h->swagger.get_universe_constellations_constellation_id(constellation_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1742,7 +2413,25 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_graphics_graphic_id
          */
         public Property<R_get_universe_graphics_graphic_id> get_universe_graphics_graphic_id(int graphic_id) {
-            return null;
+            Property<R_get_universe_graphics_graphic_id> ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
+            if (ret == null) {
+                synchronized (get_universe_graphics_graphic_id_holder)
+                {
+                    ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_graphics_graphic_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_graphics_graphic_id", (h->swagger.get_universe_graphics_graphic_id(graphic_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1772,21 +2461,75 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_groups_group_id
          */
         public Property<R_get_universe_groups_group_id> get_universe_groups_group_id(int group_id) {
-            return null;
+            Property<R_get_universe_groups_group_id> ret = get_universe_groups_group_id_holder.get(group_id);
+            if (ret == null) {
+                synchronized (get_universe_groups_group_id_holder)
+                {
+                    ret = get_universe_groups_group_id_holder.get(group_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_groups_group_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_groups_group_id", (h->swagger.get_universe_groups_group_id(group_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_moons_moon_id
          */
         public Property<R_get_universe_moons_moon_id> get_universe_moons_moon_id(int moon_id) {
-            return null;
+            Property<R_get_universe_moons_moon_id> ret = get_universe_moons_moon_id_holder.get(moon_id);
+            if (ret == null) {
+                synchronized (get_universe_moons_moon_id_holder)
+                {
+                    ret = get_universe_moons_moon_id_holder.get(moon_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_moons_moon_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_moons_moon_id", (h->swagger.get_universe_moons_moon_id(moon_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_planets_planet_id
          */
         public Property<R_get_universe_planets_planet_id> get_universe_planets_planet_id(int planet_id) {
-            return null;
+            Property<R_get_universe_planets_planet_id> ret = get_universe_planets_planet_id_holder.get(planet_id);
+            if (ret == null) {
+                synchronized (get_universe_planets_planet_id_holder)
+                {
+                    ret = get_universe_planets_planet_id_holder.get(planet_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_planets_planet_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_planets_planet_id", (h->swagger.get_universe_planets_planet_id(planet_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1839,28 +2582,100 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_regions_region_id
          */
         public Property<R_get_universe_regions_region_id> get_universe_regions_region_id(int region_id) {
-            return null;
+            Property<R_get_universe_regions_region_id> ret = get_universe_regions_region_id_holder.get(region_id);
+            if (ret == null) {
+                synchronized (get_universe_regions_region_id_holder)
+                {
+                    ret = get_universe_regions_region_id_holder.get(region_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_regions_region_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_regions_region_id", (h->swagger.get_universe_regions_region_id(region_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_schematics_schematic_id
          */
         public Property<R_get_universe_schematics_schematic_id> get_universe_schematics_schematic_id(int schematic_id) {
-            return null;
+            Property<R_get_universe_schematics_schematic_id> ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
+            if (ret == null) {
+                synchronized (get_universe_schematics_schematic_id_holder)
+                {
+                    ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_schematics_schematic_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_schematics_schematic_id", (h->swagger.get_universe_schematics_schematic_id(schematic_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_stargates_stargate_id
          */
         public Property<R_get_universe_stargates_stargate_id> get_universe_stargates_stargate_id(int stargate_id) {
-            return null;
+            Property<R_get_universe_stargates_stargate_id> ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
+            if (ret == null) {
+                synchronized (get_universe_stargates_stargate_id_holder)
+                {
+                    ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_stargates_stargate_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_stargates_stargate_id", (h->swagger.get_universe_stargates_stargate_id(stargate_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_stars_star_id
          */
         public Property<R_get_universe_stars_star_id> get_universe_stars_star_id(int star_id) {
-            return null;
+            Property<R_get_universe_stars_star_id> ret = get_universe_stars_star_id_holder.get(star_id);
+            if (ret == null) {
+                synchronized (get_universe_stars_star_id_holder)
+                {
+                    ret = get_universe_stars_star_id_holder.get(star_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_stars_star_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_stars_star_id", (h->swagger.get_universe_stars_star_id(star_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1982,14 +2797,50 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_stations_station_id
          */
         public Property<R_get_universe_stations_station_id> get_universe_stations_station_id(int station_id) {
-            return null;
+            Property<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
+            if (ret == null) {
+                synchronized (get_universe_stations_station_id_holder)
+                {
+                    ret = get_universe_stations_station_id_holder.get(station_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_stations_station_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_stations_station_id", (h->swagger.get_universe_stations_station_id(station_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_structures_structure_id
          */
         public Property<R_get_universe_structures_structure_id> get_universe_structures_structure_id(long structure_id) {
-            return null;
+            Property<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
+            if (ret == null) {
+                synchronized (get_universe_structures_structure_id_holder)
+                {
+                    ret = get_universe_structures_structure_id_holder.get(structure_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_structures_structure_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_structures_structure_id", (h->swagger.get_universe_structures_structure_id(structure_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2019,38 +2870,95 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_universe_types_type_id
          */
         public Property<R_get_universe_types_type_id> get_universe_types_type_id(int type_id) {
-            return null;
+            Property<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
+            if (ret == null) {
+                synchronized (get_universe_types_type_id_holder)
+                {
+                    ret = get_universe_types_type_id_holder.get(type_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_types_type_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_types_type_id", (h->swagger.get_universe_types_type_id(type_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_universe_systems_system_id
          */
         public Property<R_get_universe_systems_system_id> get_universe_systems_system_id(int system_id) {
-            return null;
+            Property<R_get_universe_systems_system_id> ret = get_universe_systems_system_id_holder.get(system_id);
+            if (ret == null) {
+                synchronized (get_universe_systems_system_id_holder)
+                {
+                    ret = get_universe_systems_system_id_holder.get(system_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_universe_systems_system_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_universe_systems_system_id", (h->swagger.get_universe_systems_system_id(system_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
     public class Wars {
+        private final Map<Integer, Property<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
 
         /**
          * @see get_wars
          */
         public ObservableList<Integer> get_wars(Integer max_war_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
 
         /**
          * @see get_wars_war_id
          */
         public Property<R_get_wars_war_id> get_wars_war_id(int war_id) {
-            return null;
+            Property<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
+            if (ret == null) {
+                synchronized (get_wars_war_id_holder)
+                {
+                    ret = get_wars_war_id_holder.get(war_id);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_wars_war_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_wars_war_id", (h->swagger.get_wars_war_id(war_id,h)), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_wars_war_id_killmails
          */
         public ObservableList<M_get_killmails_2> get_wars_war_id_killmails(int war_id) {
-            return null;
+            // TODO 
+            throw new UnsupportedOperationException();
         }
     }
 }
