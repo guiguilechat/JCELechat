@@ -3,6 +3,7 @@ package fr.guiguilechat.eveonline.model.esi;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -395,8 +396,10 @@ public class PathTranslator {
 		if (ap.getItems().getType().equals(ObjectProperty.TYPE)) {
 			ObjectProperty op = (ObjectProperty) ap.getItems();
 			for (Entry<String, Property> esp : op.getProperties().entrySet()) {
-				if (esp.getValue().getDescription().toLowerCase().contains("unique ")) {
+				if (esp.getValue().getDescription().toLowerCase().startsWith("unique ")) {
 					uniqueFields.add(esp.getKey());
+					// System.err.println("accepted description " +
+					// esp.getValue().getDescription());
 				}
 			}
 		}
@@ -409,7 +412,10 @@ public class PathTranslator {
 				logger.error("can't manage type " + fetchSub);
 			}
 		}
-		// System.err.println("path " + path + " response unique=" + uniqueFields);
+		if (uniqueFields.size() > 0) {
+			// System.err.println("path " + path + " response unique=" +
+			// uniqueFields);
+		}
 	}
 
 	protected AbstractJType makeKeyParam(List<JVar> cacheParams2) {
@@ -452,7 +458,6 @@ public class PathTranslator {
 	 * of items with no unique field.
 	 */
 	protected void createCache_NoParam_List() {
-		// translate no param into an observableList
 		JFieldVar container = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
 		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(container.eqNull())._then();
@@ -461,6 +466,23 @@ public class PathTranslator {
 		JVar finalContainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
 
+		invoke.arg(lambdaFetch());
+
+		JLambda lambdaSet = new JLambda();
+		JLambdaParam arr = lambdaSet.addParam("arr");
+		lambdaSet.body().synchronizedBlock(finalContainer).body().invoke(finalContainer, "setAll").arg(arr);
+		invoke.arg(lambdaSet);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		cacheMeth.body()._return(container);
+	}
+
+	protected JLambda lambdaFetch() {
 		JLambda lambdaFetch = new JLambda();
 		JLambdaParam page = lambdaFetch.addParam("page");
 		JLambdaParam head = lambdaFetch.addParam("header");
@@ -489,12 +511,35 @@ public class PathTranslator {
 					.invoke("toArray").arg(toArr);
 		}
 		lambdaFetch.body().add(callmeth);
-		invoke.arg(lambdaFetch);
+		return lambdaFetch;
+	}
+
+	protected void createCache_NoParam_Map() {
+		JFieldVar container = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
+		JBlock instanceBlock = cacheMeth.body()._if(container.eqNull())._then().synchronizedBlock(JExpr._this()).body()
+				._if(container.eqNull())._then();
+		// _holder = FXCollections.observableHashMap();
+		instanceBlock.assign(container, cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
+		JVar finalContainer = instanceBlock.decl(container.type(), "finalContainer").init(container);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
+
+		invoke.arg(lambdaFetch());
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		lambdaSet.body().synchronizedBlock(finalContainer).body().invoke(finalContainer, "setAll").arg(arr);
+		JBlock setBody = lambdaSet.body().synchronizedBlock(finalContainer).body();
+		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
+		JVar newmap = setBody.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
+				.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+		// for (val : arr) newmap.put(val.unique, val)
+		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
+		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
+		// container.entrySet().retainAll(newMap.entrySet())
+		setBody.invoke(finalContainer, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet"));
+		// container.putAll(newmap)
+		setBody.invoke(finalContainer, "putAll").arg(newmap);
 		invoke.arg(lambdaSet);
+
 		if (!requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
 			for (String s : requiredRoles) {
@@ -502,19 +547,14 @@ public class PathTranslator {
 			}
 			invoke.arg(array);
 		}
+
 		cacheMeth.body()._return(container);
-	}
-
-	protected void createCache_NoParam_Map() {
-
-		cacheMeth.body()._return(JExpr._null());
 	}
 
 	/**
 	 * create the cache body when only one parameter.
 	 */
 	protected void createCacheSimpleMap() {
-
 		cacheMeth.body()._return(JExpr._null());
 	}
 

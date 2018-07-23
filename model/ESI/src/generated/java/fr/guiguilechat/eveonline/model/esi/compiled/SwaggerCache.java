@@ -1,5 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiFunction;
@@ -1474,13 +1475,36 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Sovereignty {
+        private ObservableMap<Integer, R_get_sovereignty_campaigns> get_sovereignty_campaigns_holder;
         private ObservableList<R_get_sovereignty_map> get_sovereignty_map_holder;
+        private ObservableMap<Long, R_get_sovereignty_structures> get_sovereignty_structures_holder;
 
         /**
          * @see get_sovereignty_campaigns
          */
         public ObservableMap<Integer, R_get_sovereignty_campaigns> get_sovereignty_campaigns() {
-            return null;
+            if (get_sovereignty_campaigns_holder == null) {
+                synchronized (this)
+                {
+                    if (get_sovereignty_campaigns_holder == null) {
+                        get_sovereignty_campaigns_holder = FXCollections.observableHashMap();
+                        ObservableMap<Integer, R_get_sovereignty_campaigns> finalContainer = get_sovereignty_campaigns_holder;
+                        addFetchCacheArray("get_sovereignty_campaigns", (page, header) -> (swagger).get_sovereignty_campaigns(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                LinkedHashMap<Integer, R_get_sovereignty_campaigns> newmap = new LinkedHashMap<>();
+                                for (R_get_sovereignty_campaigns val: arr) {
+                                    newmap.put((val.campaign_id), (val));
+                                }
+                                finalContainer.entrySet();
+                                finalContainer.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return get_sovereignty_campaigns_holder;
         }
 
         /**
@@ -1510,7 +1534,28 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_sovereignty_structures
          */
         public ObservableMap<Long, R_get_sovereignty_structures> get_sovereignty_structures() {
-            return null;
+            if (get_sovereignty_structures_holder == null) {
+                synchronized (this)
+                {
+                    if (get_sovereignty_structures_holder == null) {
+                        get_sovereignty_structures_holder = FXCollections.observableHashMap();
+                        ObservableMap<Long, R_get_sovereignty_structures> finalContainer = get_sovereignty_structures_holder;
+                        addFetchCacheArray("get_sovereignty_structures", (page, header) -> (swagger).get_sovereignty_structures(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                LinkedHashMap<Long, R_get_sovereignty_structures> newmap = new LinkedHashMap<>();
+                                for (R_get_sovereignty_structures val: arr) {
+                                    newmap.put((val.structure_id), (val));
+                                }
+                                finalContainer.entrySet();
+                                finalContainer.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return get_sovereignty_structures_holder;
         }
     }
 
@@ -1554,6 +1599,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<R_get_universe_system_jumps> get_universe_system_jumps_holder;
         private ObservableList<Integer> get_universe_systems_holder;
         private ObservableList<Integer> get_universe_types_holder;
+        private ObservableList<R_get_universe_factions> get_universe_factions_holder;
         private ObservableList<R_get_universe_system_kills> get_universe_system_kills_holder;
 
         /**
@@ -1912,8 +1958,24 @@ public abstract class SwaggerCache<T extends Swagger> {
         /**
          * @see get_universe_factions
          */
-        public ObservableMap<Boolean, R_get_universe_factions> get_universe_factions() {
-            return null;
+        public ObservableList<R_get_universe_factions> get_universe_factions() {
+            if (get_universe_factions_holder == null) {
+                synchronized (this)
+                {
+                    if (get_universe_factions_holder == null) {
+                        get_universe_factions_holder = FXCollections.observableArrayList();
+                        ObservableList<R_get_universe_factions> finalContainer = get_universe_factions_holder;
+                        addFetchCacheArray("get_universe_factions", (page, header) -> (swagger).get_universe_factions(header), arr -> {
+                            synchronized (finalContainer)
+                            {
+                                finalContainer.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return get_universe_factions_holder;
         }
 
         /**
