@@ -48,7 +48,7 @@ public class Cache extends SwaggerCache<ESIConnection> {
 		if (roles == null) {
 			synchronized (swagger) {
 				if (roles == null) {
-					roles = JavaFxTools.makeSet(characters.get_characters_character_id_roles(swagger.verify().CharacterID),
+					roles = JavaFxTools.makeSet(characters.roles(swagger.verify().CharacterID),
 							r -> Arrays.asList(r.roles));
 				}
 			}

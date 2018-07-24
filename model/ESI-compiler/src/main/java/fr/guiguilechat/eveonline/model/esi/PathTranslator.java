@@ -345,7 +345,15 @@ public class PathTranslator {
 			cacheRetTransform = RETURNTYPE.CONTAINER;
 		}
 
-		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, operation.getOperationId());
+		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + fieldName + "_", "");
+		for (JVar v : allParams) {
+			methName = methName.replaceAll("_" + v.name(), "").replaceAll(v.name() + "_", "");
+		}
+		if (methName.length() == 0) {
+			methName = "get";
+		}
+
+		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, methName);
 		cacheMeth.javadoc().addTag("see").add(fetchMeth.name());
 
 		// after that we need to know the parameters
@@ -376,7 +384,7 @@ public class PathTranslator {
 		case 1:
 			cacheKeyType = cacheParams.get(0).type().boxify();
 			cacheContainer = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
-					cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
+					cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), operation.getOperationId() + "_holder")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 			cacheParam = cacheParams.get(0);
 			switch (cacheRetTransform) {
@@ -396,7 +404,7 @@ public class PathTranslator {
 		default:
 			cacheKeyType = makeKeyParam(cacheParams);
 			cacheContainer = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
-					cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
+					cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), operation.getOperationId() + "_holder")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
 			cacheParam = cacheMeth.body().decl(cacheKeyType, "param");
 			JMethod cons = ((JDefinedClass)cacheKeyType).constructors().next();
@@ -473,7 +481,7 @@ public class PathTranslator {
 	protected void createCache_NoParam_Container() {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE,
 				cm.ref(SimpleObjectProperty.class).narrow(resourceType.boxify()),
-				cacheMeth.name() + "_holder");
+				operation.getOperationId() + "_holder");
 		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		instanceBlock.assign(cacheContainer, JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
@@ -500,7 +508,7 @@ public class PathTranslator {
 	 * of items with no unique field.
 	 */
 	protected void createCache_NoParam_List() {
-		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
+		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
 		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableArrayList();
@@ -579,7 +587,7 @@ public class PathTranslator {
 	}
 
 	protected void createCache_NoParam_Map() {
-		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, cacheMeth.name() + "_holder");
+		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
 		JBlock instanceBlock = cacheMeth.body()._if(cacheContainer.eqNull())._then().synchronizedBlock(JExpr._this()).body()
 				._if(cacheContainer.eqNull())._then();
 		// _holder = FXCollections.observableHashMap();
