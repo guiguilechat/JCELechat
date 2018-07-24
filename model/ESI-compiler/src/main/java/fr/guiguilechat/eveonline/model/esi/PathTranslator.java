@@ -634,6 +634,7 @@ public class PathTranslator {
 				cacheContainer);
 		JVar finalret = instanceBlock.decl(cm.ref(SimpleObjectProperty.class).narrow(resourceType), "finalret").init(JExpr._new(cm.ref(SimpleObjectProperty.class).narrowEmpty()));
 		instanceBlock.assign(ret, finalret);
+		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheObject()).arg(operation.getOperationId());
 
 		invoke.arg(lambdaFetch());
@@ -676,7 +677,7 @@ public class PathTranslator {
 		JVar finalRet = instanceBlock.decl(cacheRetType, "finalret")
 				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
 		instanceBlock.assign(ret, finalRet);
-		cacheContainer.invoke("put").arg(cacheParam).arg(ret);
+		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
 
 		invoke.arg(lambdaFetch());
@@ -706,7 +707,7 @@ public class PathTranslator {
 		JVar finalRet = instanceBlock.decl(cacheRetType, "finalret")
 				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
 		instanceBlock.assign(ret, finalRet);
-		cacheContainer.invoke("put").arg(cacheParam).arg(ret);
+		instanceBlock.invoke(cacheContainer, "put").arg(cacheParam).arg(ret);
 		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
 
 		invoke.arg(lambdaFetch());
