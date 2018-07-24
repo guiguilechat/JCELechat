@@ -637,12 +637,48 @@ public class PathTranslator {
 	}
 
 	/**
-	 * create the cache body when only one parameter.
+	 * create the cache body when only one parameter and returns an array of
+	 * resources with a unique field, so a map of this field to the resources.
 	 */
 	protected void createCache_SingleParam_Map() {
-		// TODO
-		cacheMeth.body().addSingleLineComment("TODO ");
-		cacheMeth.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+		JVar container = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
+				cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), cacheMeth.name() + "_holder")
+				.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
+		JVar arg = cacheParams.get(0);
+		JVar ret = cacheMeth.body().decl(cacheRetType, "ret").init(container.invoke("get").arg(arg));
+		JBlock instanceBlock = cacheMeth.body()._if(ret.eqNull())._then().synchronizedBlock(container).body()
+				.add(JExpr.assign(ret, container.invoke("get").arg(arg)))._if(ret.eqNull())._then();
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalret")
+				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
+		instanceBlock.assign(ret, finalRet);
+		container.invoke("put").arg(arg).arg(ret);
+		JInvocation invoke = instanceBlock.invoke(bridge.methFetchCacheArray()).arg(operation.getOperationId());
+
+		invoke.arg(lambdaFetch(arg));
+
+		JLambda lambdaSet = new JLambda();
+		JLambdaParam arr = lambdaSet.addParam("arr");
+		JBlock setBody = lambdaSet.body().synchronizedBlock(finalRet).body();
+		// linkedhashmap<key, resource> newmap = new linkedhashmap<>();
+		JVar newmap = setBody
+				.decl(cm.ref(LinkedHashMap.class).narrow(cacheRetUniqueField.type()).narrow(resourceType), "newmap")
+				.init(JExpr._new(cm.ref(LinkedHashMap.class).narrowEmpty()));
+		// for (val : arr) newmap.put(val.unique, val)
+		setBody.forEach(resourceType, "val", arr).body().invoke(newmap, "put")
+		.arg(JExpr.direct("val." + cacheRetUniqueField.name())).arg(JExpr.direct("val"));
+		// container.entrySet().retainAll(newMap.entrySet())
+		setBody.invoke(finalRet, "entrySet").invoke("retainAll").arg(newmap.invoke("entrySet"));
+		// container.putAll(newmap)
+		setBody.invoke(finalRet, "putAll").arg(newmap);
+		invoke.arg(lambdaSet);
+		if (!requiredRoles.isEmpty()) {
+			JArray array = JExpr.newArray(cm.ref(String.class));
+			for (String s : requiredRoles) {
+				array.add(JExpr.lit(s));
+			}
+			invoke.arg(array);
+		}
+		cacheMeth.body()._return(ret);
 	}
 
 	/** create the cache body when several parameter */
