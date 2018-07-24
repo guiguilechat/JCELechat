@@ -26,7 +26,7 @@ public class CachedHistory {
 		this.typeID = typeID;
 		ESIAccount acc = regionalMarket.markets.esiConnection;
 		acc.raw.cache.addFetchCacheArray(acc.characterName() + ".history_r" + regionalMarket.regionID + "_i" + typeID,
-				(p, h) -> acc.raw.get_markets_region_id_history(regionalMarket.regionID, typeID, h), this::handleHistory);
+				(p, h) -> acc.raw.get_markets_history(regionalMarket.regionID, typeID, h), this::handleHistory);
 	}
 
 	private final ObservableList<R_get_markets_region_id_history> cache = FXCollections.observableArrayList();

@@ -31,7 +31,7 @@ public class RegionalMarket {
 		this.regionID = regionID;
 		markets.esiConnection.raw.cache.addFetchCacheArray(
 				markets.esiConnection.characterName() + ".regionalMarket_" + regionID,
-				(p, h) -> markets.esiConnection.raw.get_markets_region_id_orders(Swagger.order_type.all, p, regionID, null, h),
+				(p, h) -> markets.esiConnection.raw.get_markets_orders(Swagger.order_type.all, p, regionID, null, h),
 				this::handleNewCache);
 	}
 

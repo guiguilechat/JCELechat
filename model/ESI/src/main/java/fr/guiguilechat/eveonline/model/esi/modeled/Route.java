@@ -39,7 +39,7 @@ public class Route {
 	}
 
 	public int[] makeRoute(int origin, int destination, boolean secure) {
-		return con.raw.get_route_origin_destination(null, null, destination,
+		return con.raw.get_route(null, null, destination,
 				secure ? flag.secure : flag.shortest, origin, null);
 	}
 

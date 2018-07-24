@@ -110,8 +110,13 @@ public class PathTranslator {
 		} else {
 			resourceType = fetchRetType;
 		}
+		String fetchMethName = operation.getOperationId();
+		for (Parameter p : operation.getParameters()) {
+			fetchMethName = fetchMethName.replaceAll(p.getName(), "");
+		}
+		fetchMethName = fetchMethName.replaceAll("__", "_").replaceAll("_$", "");
 		// create the method
-		fetchMeth = bridge.swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, fetchRetType, operation.getOperationId());
+		fetchMeth = bridge.swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, fetchRetType, fetchMethName);
 		// add the parameters
 		extractFetchParameters();
 
@@ -347,20 +352,28 @@ public class PathTranslator {
 
 		String methName = operation.getOperationId().replaceAll("^get_", "").replaceAll("^" + fieldName + "_", "");
 		for (JVar v : allParams) {
-			methName = methName.replaceAll("_" + v.name(), "").replaceAll(v.name() + "_", "");
+			methName = methName.replaceAll(v.name(), "");
 		}
-		if (methName.length() == 0) {
+		methName = methName.replaceAll("__", "_").replaceAll("^_", "").replaceAll("_$", "");
+		if (methName.length() < 2) {
 			methName = "get";
 		}
 
 		cacheMeth = cacheGroup.method(JMod.PUBLIC, cacheRetType, methName);
-		cacheMeth.javadoc().addTag("see").add(fetchMeth.name());
+		cacheMeth.javadoc().add(operation.getDescription().split("---")[0]);
+		cacheMeth.javadoc().add("cache over {@link Swagger#" + fetchMeth.name() + "}<br />");
+
 
 		// after that we need to know the parameters
 
 		for (JVar v : allParams) {
 			if (!v.name().equals(headerHandlerName) && !v.name().equals("page")) {
 				cacheParams.add(cacheMeth.param(v.type(), v.name()));
+				Parameter vp = operation.getParameters().stream().filter(p -> p.getName().equals(v.name())).findFirst()
+						.orElse(null);
+				if (vp != null) {
+					cacheMeth.javadoc().addParam(v).add(vp.getDescription());
+				}
 			}
 		}
 

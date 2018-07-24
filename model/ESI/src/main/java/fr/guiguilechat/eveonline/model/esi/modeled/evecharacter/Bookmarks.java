@@ -73,10 +73,10 @@ public class Bookmarks {
 					bookmarksByFolderId.addListener(this::onBMChange);
 
 					con.raw.cache.addFetchCacheArray(con.characterName() + ".bmFolders",
-							(p, h) -> con.raw.get_characters_character_id_bookmarks_folders(con.characterId(), p, h),
+							(p, h) -> con.raw.get_characters_bookmarks_folders(con.characterId(), p, h),
 							this::handleNewBMFolders);
 					con.raw.cache.addFetchCacheArray(con.characterName() + ".bms",
-							(p, h) -> con.raw.get_characters_character_id_bookmarks(con.characterId(), p, h),
+							(p, h) -> con.raw.get_characters_bookmarks(con.characterId(), p, h),
 							this::handleNewBookmarks);
 
 				}

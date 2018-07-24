@@ -94,7 +94,7 @@ public class NPCsTranslater {
 		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
 		Map<Integer, R_get_corporations_corporation_id> npcCorps = IntStream.of(esi.raw.get_corporations_npccorps(null))
 				.parallel().mapToObj(l -> l)
-				.collect(Collectors.toMap(l -> l, l -> esi.raw.get_corporations_corporation_id(l, null)));
+				.collect(Collectors.toMap(l -> l, l -> esi.raw.get_corporations(l, null)));
 		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
 				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
 		if (allyIds.length == 0) {
@@ -150,7 +150,7 @@ public class NPCsTranslater {
 			corporations.put(e.getValue().name, add);
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
-			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_corporation_id_offers(c.id,
+			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_offers(c.id,
 					null);
 			return values == null ? Stream.empty() : Stream.of(values);
 		}).forEachOrdered(o -> {
@@ -222,7 +222,7 @@ public class NPCsTranslater {
 	}
 
 	protected static void loadCorpOffers(Corporation c, ESIConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
-		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_corporation_id_offers(c.id, null);
+		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_offers(c.id, null);
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {
 				c.lpoffers.add(o.offer_id);

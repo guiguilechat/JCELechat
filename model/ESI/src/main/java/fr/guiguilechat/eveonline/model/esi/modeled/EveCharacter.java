@@ -68,7 +68,7 @@ public class EveCharacter {
 				rolesBaseCache = FXCollections.observableSet();
 				rolesOtherCache = FXCollections.observableSet();
 				con.raw.cache.addFetchCacheObject(con.characterName() + ".roles",
-						(h) -> con.raw.get_characters_character_id_roles(con.characterId(), h), this::handleNewRoles);
+						(h) -> con.raw.get_characters_roles(con.characterId(), h), this::handleNewRoles);
 			}
 		}
 	}
@@ -174,7 +174,7 @@ public class EveCharacter {
 			if (jobsCache == null) {
 				jobsCache = FXCollections.observableHashMap();
 				con.raw.cache.addFetchCacheArray(con.characterName() + ".industryjobs",
-						(p, h) -> con.raw.get_characters_character_id_industry_jobs(con.characterId(), false, h),
+						(p, h) -> con.raw.get_characters_industry_jobs(con.characterId(), false, h),
 						this::handleNewJobs);
 			}
 		}
@@ -268,7 +268,7 @@ public class EveCharacter {
 			synchronized (cachedBlueprints) {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 					List<M_get_blueprints_8> bps = ESIConnection.loadPages(
-							(p, h) -> con.raw.get_characters_character_id_blueprints(con.characterId(), p, h),
+							(p, h) -> con.raw.get_characters_blueprints(con.characterId(), p, h),
 							l -> cachedBlueprintsExpire = l);
 					cachedBlueprints.setAll(bps);
 				}
@@ -290,7 +290,7 @@ public class EveCharacter {
 			synchronized (this) {
 				if (cacheOnlineExpire <= System.currentTimeMillis()) {
 					Map<String, List<String>> headerHandler = new HashMap<>();
-					cachedOnline = con.raw.get_characters_character_id_online(con.characterId(), headerHandler);
+					cachedOnline = con.raw.get_characters_online(con.characterId(), headerHandler);
 					cacheOnlineExpire = System.currentTimeMillis() + ESIConnection.getCacheExpire(headerHandler);
 				}
 			}
@@ -363,7 +363,7 @@ public class EveCharacter {
 		synchronized (cachedAssets) {
 			if (assetsExpire < System.currentTimeMillis()) {
 				M_get_assets_8[] itemsArr = ESIConnection
-						.loadPages((p, h) -> con.raw.get_characters_character_id_assets(con.characterId(), p, h),
+						.loadPages((p, h) -> con.raw.get_characters_assets(con.characterId(), p, h),
 								l -> assetsExpire = l)
 						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
 						.toArray(M_get_assets_8[]::new);
@@ -417,7 +417,7 @@ public class EveCharacter {
 
 	public synchronized Map<Integer, Integer> getSkills() {
 		if (skills == null) {
-			skills = Stream.of(con.raw.get_characters_character_id_skills(con.characterId(), null).skills)
+			skills = Stream.of(con.raw.get_characters_skills(con.characterId(), null).skills)
 					.collect(Collectors.toMap(s -> s.skill_id, s -> s.active_skill_level));
 		}
 		return skills;

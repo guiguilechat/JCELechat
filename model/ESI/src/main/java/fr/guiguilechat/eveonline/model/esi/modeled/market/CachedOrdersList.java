@@ -70,7 +70,7 @@ public class CachedOrdersList {
 				.addFetchCacheArray(
 						regionalMarket.markets.esiConnection.characterName() + ".orders_type" + typeID,
 						(p, h) -> regionalMarket.markets.esiConnection.raw
-						.get_markets_region_id_orders(Swagger.order_type.all, p, regionalMarket.regionID, typeID, h),
+								.get_markets_orders(Swagger.order_type.all, p, regionalMarket.regionID, typeID, h),
 						this::handleNewCache);
 		selfOrdersStop = exec::stop;
 	}

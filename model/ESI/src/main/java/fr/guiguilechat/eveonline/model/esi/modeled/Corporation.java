@@ -63,7 +63,7 @@ public class Corporation {
 				jobsCache = FXCollections.observableHashMap();
 				con.raw.cache.addFetchCacheArray(
 						con.characterName() + ".corporationjobs", (p, h) -> con.raw
-						.get_corporations_corporation_id_industry_jobs(con.character.infos.corporationId().get(), false, p, h),
+						.get_corporations_industry_jobs(con.character.infos.corporationId().get(), false, p, h),
 						this::handleNewJobs, "Factory_Manager"
 						// remove hack by replacing the hardcoded string with
 						// Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES
@@ -118,7 +118,7 @@ public class Corporation {
 			if (assetsExpire < System.currentTimeMillis()) {
 				M_get_assets_8[] itemsArr = ESIConnection
 						.loadPages(
-								(p, h) -> con.raw.get_corporations_corporation_id_assets(con.character.infos.corporationId().get(), p,
+								(p, h) -> con.raw.get_corporations_assets(con.character.infos.corporationId().get(), p,
 										h),
 								l -> assetsExpire = l)
 						.stream().filter(asset -> !"AutoFit".equals(asset.location_flag))
@@ -177,7 +177,7 @@ public class Corporation {
 				if (cachedBlueprintsExpire <= System.currentTimeMillis()) {
 					List<M_get_blueprints_8> bps = ESIConnection
 							.loadPages(
-									(p, h) -> con.raw.get_corporations_corporation_id_blueprints(con.character.infos.corporationId().get(), p,
+									(p, h) -> con.raw.get_corporations_blueprints(con.character.infos.corporationId().get(), p,
 											h),
 									l -> cachedBlueprintsExpire = l);
 					if (bps != null) {

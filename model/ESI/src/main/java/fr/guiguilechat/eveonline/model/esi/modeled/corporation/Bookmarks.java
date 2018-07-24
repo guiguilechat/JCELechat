@@ -76,11 +76,11 @@ public class Bookmarks {
 
 					con.raw.cache.addFetchCacheArray(con.characterName() + ".corpBMsFolders",
 							(p, h) -> con.raw
-							.get_corporations_corporation_id_bookmarks_folders(con.character.infos.corporationId().get(), p, h),
+									.get_corporations_bookmarks_folders(con.character.infos.corporationId().get(), p, h),
 							this::handleNewBMFolders);
 					con.raw.cache.addFetchCacheArray(
 							con.characterName() + ".corpBMs",
-							(p, h) -> con.raw.get_corporations_corporation_id_bookmarks(con.character.infos.corporationId().get(), p,
+							(p, h) -> con.raw.get_corporations_bookmarks(con.character.infos.corporationId().get(), p,
 									h),
 							this::handleNewBookmarks);
 

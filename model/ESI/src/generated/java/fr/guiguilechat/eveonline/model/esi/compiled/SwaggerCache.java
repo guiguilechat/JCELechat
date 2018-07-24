@@ -213,7 +213,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_alliances_alliance_id>> get_alliances_alliance_id_holder = new HashMap<>();
 
         /**
-         * @see get_alliances
+         * List all active player alliances
+         * 
+         * cache over {@link Swagger#get_alliances}<br />
          */
         public ObservableList<Integer> alliances() {
             if (get_alliances_holder == null) {
@@ -236,7 +238,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_alliances_alliance_id_contacts_labels
+         * Return custom labels for an alliance's contacts
+         * 
+         * cache over {@link Swagger#get_alliances_contacts_labels}<br />
+         * 
+         * @param alliance_id
+         *     An EVE alliance ID
          */
         public ObservableList<M_get_contacts_labels_2> contacts_labels(int alliance_id) {
             ObservableList<M_get_contacts_labels_2> ret = get_alliances_alliance_id_contacts_labels_holder.get(alliance_id);
@@ -248,7 +255,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_alliances_alliance_id_contacts_labels_holder.put(alliance_id, ret);
-                        addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (swagger).get_alliances_alliance_id_contacts_labels(alliance_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (swagger).get_alliances_contacts_labels(alliance_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -262,7 +269,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_alliances_alliance_id_corporations
+         * List all current member corporations of an alliance
+         * 
+         * cache over {@link Swagger#get_alliances_corporations}<br />
+         * 
+         * @param alliance_id
+         *     An EVE alliance ID
          */
         public ObservableList<Integer> corporations(int alliance_id) {
             ObservableList<Integer> ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
@@ -274,7 +286,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<Integer> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
-                        addFetchCacheArray("get_alliances_alliance_id_corporations", (page, headerHandler) -> IntStream.of((swagger).get_alliances_alliance_id_corporations(alliance_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        addFetchCacheArray("get_alliances_alliance_id_corporations", (page, headerHandler) -> IntStream.of((swagger).get_alliances_corporations(alliance_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -288,7 +300,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_alliances_alliance_id_icons
+         * Get the icon urls for a alliance
+         * 
+         * cache over {@link Swagger#get_alliances_icons}<br />
+         * 
+         * @param alliance_id
+         *     An EVE alliance ID
          */
         public Property<R_get_alliances_alliance_id_icons> icons(int alliance_id) {
             Property<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
@@ -300,7 +317,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_alliances_alliance_id_icons> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
-                        addFetchCacheObject("get_alliances_alliance_id_icons", headerHandler -> (swagger).get_alliances_alliance_id_icons(alliance_id, headerHandler), item -> {
+                        addFetchCacheObject("get_alliances_alliance_id_icons", headerHandler -> (swagger).get_alliances_icons(alliance_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -314,7 +331,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_alliances_alliance_id_contacts
+         * Return contacts of an alliance
+         * 
+         * cache over {@link Swagger#get_alliances_contacts}<br />
+         * 
+         * @param alliance_id
+         *     An EVE alliance ID
          */
         public ObservableList<R_get_alliances_alliance_id_contacts> contacts(int alliance_id) {
             ObservableList<R_get_alliances_alliance_id_contacts> ret = get_alliances_alliance_id_contacts_holder.get(alliance_id);
@@ -326,7 +348,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_alliances_alliance_id_contacts> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_alliances_alliance_id_contacts_holder.put(alliance_id, ret);
-                        addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (swagger).get_alliances_alliance_id_contacts(alliance_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (swagger).get_alliances_contacts(alliance_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -340,9 +362,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_alliances_alliance_id
+         * Public information about an alliance
+         * 
+         * cache over {@link Swagger#get_alliances}<br />
+         * 
+         * @param alliance_id
+         *     An EVE alliance ID
          */
-        public Property<R_get_alliances_alliance_id> alliance_id(int alliance_id) {
+        public Property<R_get_alliances_alliance_id> get(int alliance_id) {
             Property<R_get_alliances_alliance_id> ret = get_alliances_alliance_id_holder.get(alliance_id);
             if (ret == null) {
                 synchronized (get_alliances_alliance_id_holder)
@@ -352,7 +379,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_alliances_alliance_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_alliances_alliance_id_holder.put(alliance_id, ret);
-                        addFetchCacheObject("get_alliances_alliance_id", headerHandler -> (swagger).get_alliances_alliance_id(alliance_id, headerHandler), item -> {
+                        addFetchCacheObject("get_alliances_alliance_id", headerHandler -> (swagger).get_alliances(alliance_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -421,7 +448,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableMap<Long, M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
         /**
-         * @see get_characters_character_id_agents_research
+         * Return a list of agents research information for a character. The formula for finding the current research points with an agent is: currentPoints = remainderPoints + pointsPerDay * days(currentTime - researchStartDate)
+         * 
+         * cache over {@link Swagger#get_characters_agents_research}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_agents_research> agents_research(int character_id) {
             ObservableList<R_get_characters_character_id_agents_research> ret = get_characters_character_id_agents_research_holder.get(character_id);
@@ -433,7 +465,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_agents_research> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_agents_research_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_agents_research", (page, headerHandler) -> (swagger).get_characters_character_id_agents_research(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_agents_research", (page, headerHandler) -> (swagger).get_characters_agents_research(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -447,7 +479,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_attributes
+         * Return attributes of a character
+         * 
+         * cache over {@link Swagger#get_characters_attributes}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_attributes> attributes(int character_id) {
             Property<R_get_characters_character_id_attributes> ret = get_characters_character_id_attributes_holder.get(character_id);
@@ -459,7 +496,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_attributes> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_attributes_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_attributes", headerHandler -> (swagger).get_characters_character_id_attributes(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_attributes", headerHandler -> (swagger).get_characters_attributes(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -473,7 +510,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_calendar
+         * Get 50 event summaries from the calendar. If no from_event ID is given, the resource will return the next 50 chronological event summaries from now. If a from_event ID is specified, it will return the next 50 chronological event summaries from after that event.
+         * 
+         * cache over {@link Swagger#get_characters_calendar}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param from_event
+         *     The event ID to retrieve events from
          */
         public ObservableList<R_get_characters_character_id_calendar> calendar(int character_id, Integer from_event) {
             K_0_int_Integer param = new K_0_int_Integer(character_id, from_event);
@@ -486,7 +530,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_calendar> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_calendar_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_calendar", (page, headerHandler) -> (swagger).get_characters_character_id_calendar(character_id, from_event, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_calendar", (page, headerHandler) -> (swagger).get_characters_calendar(character_id, from_event, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -500,7 +544,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_calendar_event_id_attendees
+         * Get all invited attendees for a given event
+         * 
+         * cache over {@link Swagger#get_characters_calendar_attendees}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param event_id
+         *     The id of the event requested
          */
         public ObservableList<R_get_characters_character_id_calendar_event_id_attendees> calendar_attendees(int character_id, int event_id) {
             K_1_int_int param = new K_1_int_int(event_id, character_id);
@@ -513,7 +564,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_calendar_event_id_attendees> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_calendar_event_id_attendees_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_calendar_event_id_attendees", (page, headerHandler) -> (swagger).get_characters_character_id_calendar_event_id_attendees(character_id, event_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_calendar_event_id_attendees", (page, headerHandler) -> (swagger).get_characters_calendar_attendees(character_id, event_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -527,7 +578,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_contacts_labels
+         * Return custom labels for a character's contacts
+         * 
+         * cache over {@link Swagger#get_characters_contacts_labels}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_contacts_labels_2> contacts_labels(int character_id) {
             ObservableList<M_get_contacts_labels_2> ret = get_characters_character_id_contacts_labels_holder.get(character_id);
@@ -539,7 +595,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_contacts_labels_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_contacts_labels", (page, headerHandler) -> (swagger).get_characters_character_id_contacts_labels(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_contacts_labels", (page, headerHandler) -> (swagger).get_characters_contacts_labels(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -553,7 +609,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_contracts
+         * Returns contracts available to a character, only if the character is issuer, acceptor or assignee. Only returns contracts no older than 30 days, or if the status is "in_progress".
+         * 
+         * cache over {@link Swagger#get_characters_contracts}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_contracts_22> contracts(int character_id) {
             ObservableList<M_get_contracts_22> ret = get_characters_character_id_contracts_holder.get(character_id);
@@ -565,7 +626,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_contracts_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_contracts", (page, headerHandler) -> (swagger).get_characters_character_id_contracts(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_contracts", (page, headerHandler) -> (swagger).get_characters_contracts(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -579,7 +640,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_contracts_contract_id_bids
+         * Lists bids on a particular auction contract
+         * 
+         * cache over {@link Swagger#get_characters_contracts_bids}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param contract_id
+         *     ID of a contract
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> contracts_bids(int character_id, int contract_id) {
             K_2_int_int param = new K_2_int_int(contract_id, character_id);
@@ -592,7 +660,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_contracts_contract_id_bids_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_characters_character_id_contracts_contract_id_bids(character_id, contract_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_characters_contracts_bids(character_id, contract_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
@@ -611,7 +679,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_contracts_contract_id_items
+         * Lists items of a particular contract
+         * 
+         * cache over {@link Swagger#get_characters_contracts_items}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param contract_id
+         *     ID of a contract
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> contracts_items(int character_id, int contract_id) {
             K_2_int_int param = new K_2_int_int(contract_id, character_id);
@@ -624,7 +699,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_contracts_contract_id_items_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_characters_character_id_contracts_contract_id_items(character_id, contract_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_characters_contracts_items(character_id, contract_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
@@ -643,7 +718,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_corporationhistory
+         * Get a list of all the corporations a character has been a member of
+         * 
+         * cache over {@link Swagger#get_characters_corporationhistory}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_corporationhistory> corporationhistory(int character_id) {
             ObservableList<R_get_characters_character_id_corporationhistory> ret = get_characters_character_id_corporationhistory_holder.get(character_id);
@@ -655,7 +735,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_corporationhistory> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_corporationhistory_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_corporationhistory", (page, headerHandler) -> (swagger).get_characters_character_id_corporationhistory(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_corporationhistory", (page, headerHandler) -> (swagger).get_characters_corporationhistory(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -669,7 +749,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_fatigue
+         * Return a character's jump activation and fatigue information
+         * 
+         * cache over {@link Swagger#get_characters_fatigue}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_fatigue> fatigue(int character_id) {
             Property<R_get_characters_character_id_fatigue> ret = get_characters_character_id_fatigue_holder.get(character_id);
@@ -681,7 +766,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_fatigue> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_fatigue_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_fatigue", headerHandler -> (swagger).get_characters_character_id_fatigue(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_fatigue", headerHandler -> (swagger).get_characters_fatigue(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -695,7 +780,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_fittings
+         * Return fittings of a character
+         * 
+         * cache over {@link Swagger#get_characters_fittings}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_fittings> fittings(int character_id) {
             ObservableList<R_get_characters_character_id_fittings> ret = get_characters_character_id_fittings_holder.get(character_id);
@@ -707,7 +797,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_fittings> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_fittings_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_fittings", (page, headerHandler) -> (swagger).get_characters_character_id_fittings(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_fittings", (page, headerHandler) -> (swagger).get_characters_fittings(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -721,7 +811,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_fleet
+         * Return the fleet ID the character is in, if any.
+         * 
+         * cache over {@link Swagger#get_characters_fleet}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_fleet> fleet(int character_id) {
             Property<R_get_characters_character_id_fleet> ret = get_characters_character_id_fleet_holder.get(character_id);
@@ -733,7 +828,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_fleet> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_fleet_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_fleet", headerHandler -> (swagger).get_characters_character_id_fleet(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_fleet", headerHandler -> (swagger).get_characters_fleet(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -747,7 +842,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_fw_stats
+         * Statistical overview of a character involved in faction warfare
+         * 
+         * cache over {@link Swagger#get_characters_fw_stats}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_fw_stats> fw_stats(int character_id) {
             Property<R_get_characters_character_id_fw_stats> ret = get_characters_character_id_fw_stats_holder.get(character_id);
@@ -759,7 +859,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_fw_stats> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_fw_stats_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_fw_stats", headerHandler -> (swagger).get_characters_character_id_fw_stats(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_fw_stats", headerHandler -> (swagger).get_characters_fw_stats(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -773,7 +873,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_implants
+         * Return implants on the active clone of a character
+         * 
+         * cache over {@link Swagger#get_characters_implants}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<Integer> implants(int character_id) {
             ObservableList<Integer> ret = get_characters_character_id_implants_holder.get(character_id);
@@ -785,7 +890,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<Integer> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_implants_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_implants", (page, headerHandler) -> IntStream.of((swagger).get_characters_character_id_implants(character_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        addFetchCacheArray("get_characters_character_id_implants", (page, headerHandler) -> IntStream.of((swagger).get_characters_implants(character_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -799,7 +904,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_industry_jobs
+         * List industry jobs placed by a character
+         * 
+         * cache over {@link Swagger#get_characters_industry_jobs}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param include_completed
+         *     Whether retrieve completed character industry jobs as well
          */
         public ObservableMap<Integer, R_get_characters_character_id_industry_jobs> industry_jobs(int character_id, Boolean include_completed) {
             K_3_Boolean_int param = new K_3_Boolean_int(include_completed, character_id);
@@ -812,7 +924,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Integer, R_get_characters_character_id_industry_jobs> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_industry_jobs_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_industry_jobs", (page, headerHandler) -> (swagger).get_characters_character_id_industry_jobs(character_id, include_completed, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_industry_jobs", (page, headerHandler) -> (swagger).get_characters_industry_jobs(character_id, include_completed, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Integer, R_get_characters_character_id_industry_jobs> newmap = new LinkedHashMap<>();
@@ -831,7 +943,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_killmails_recent
+         * Return a list of a character's kills and losses going back 90 days
+         * 
+         * cache over {@link Swagger#get_characters_killmails_recent}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_killmails_2> killmails_recent(int character_id) {
             ObservableList<M_get_killmails_2> ret = get_characters_character_id_killmails_recent_holder.get(character_id);
@@ -843,7 +960,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_killmails_recent_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_killmails_recent", (page, headerHandler) -> (swagger).get_characters_character_id_killmails_recent(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_killmails_recent", (page, headerHandler) -> (swagger).get_characters_killmails_recent(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -857,7 +974,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_location
+         * Information about the characters current location. Returns the current solar system id, and also the current station or structure ID if applicable.
+         * 
+         * cache over {@link Swagger#get_characters_location}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_location> location(int character_id) {
             Property<R_get_characters_character_id_location> ret = get_characters_character_id_location_holder.get(character_id);
@@ -869,7 +991,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_location> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_location_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_location", headerHandler -> (swagger).get_characters_character_id_location(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_location", headerHandler -> (swagger).get_characters_location(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -883,7 +1005,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_loyalty_points
+         * Return a list of loyalty points for all corporations the character has worked for
+         * 
+         * cache over {@link Swagger#get_characters_loyalty_points}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_loyalty_points> loyalty_points(int character_id) {
             ObservableList<R_get_characters_character_id_loyalty_points> ret = get_characters_character_id_loyalty_points_holder.get(character_id);
@@ -895,7 +1022,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_loyalty_points> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_loyalty_points_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_loyalty_points", (page, headerHandler) -> (swagger).get_characters_character_id_loyalty_points(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_loyalty_points", (page, headerHandler) -> (swagger).get_characters_loyalty_points(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -909,7 +1036,16 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_mail
+         * Return the 50 most recent mail headers belonging to the character that match the query criteria. Queries can be filtered by label, and last_mail_id can be used to paginate backwards.
+         * 
+         * cache over {@link Swagger#get_characters_mail}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param labels
+         *     Fetch only mails that match one or more of the given labels
+         * @param last_mail_id
+         *     List only mail with an ID lower than the given ID, if present
          */
         public ObservableList<R_get_characters_character_id_mail> mail(int character_id, int[] labels, Integer last_mail_id) {
             K_4_Integer_int_Lint param = new K_4_Integer_int_Lint(last_mail_id, character_id, labels);
@@ -922,7 +1058,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_mail> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_mail_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_mail", (page, headerHandler) -> (swagger).get_characters_character_id_mail(character_id, labels, last_mail_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_mail", (page, headerHandler) -> (swagger).get_characters_mail(character_id, labels, last_mail_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -936,7 +1072,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_mail_lists
+         * Return all mailing lists that the character is subscribed to
+         * 
+         * cache over {@link Swagger#get_characters_mail_lists}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_mail_lists> mail_lists(int character_id) {
             ObservableList<R_get_characters_character_id_mail_lists> ret = get_characters_character_id_mail_lists_holder.get(character_id);
@@ -948,7 +1089,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_mail_lists> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_mail_lists_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_mail_lists", (page, headerHandler) -> (swagger).get_characters_character_id_mail_lists(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_mail_lists", (page, headerHandler) -> (swagger).get_characters_mail_lists(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -962,7 +1103,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_mail_mail_id
+         * Return the contents of an EVE mail
+         * 
+         * cache over {@link Swagger#get_characters_mail}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param mail_id
+         *     An EVE mail ID
          */
         public Property<R_get_characters_character_id_mail_mail_id> mail(int character_id, int mail_id) {
             K_5_int_int param = new K_5_int_int(mail_id, character_id);
@@ -975,7 +1123,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_mail_mail_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_mail_mail_id_holder.put(param, ret);
-                        addFetchCacheObject("get_characters_character_id_mail_mail_id", headerHandler -> (swagger).get_characters_character_id_mail_mail_id(character_id, mail_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_mail_mail_id", headerHandler -> (swagger).get_characters_mail(character_id, mail_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -989,7 +1137,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_medals
+         * Return a list of medals the character has
+         * 
+         * cache over {@link Swagger#get_characters_medals}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_medals> medals(int character_id) {
             ObservableList<R_get_characters_character_id_medals> ret = get_characters_character_id_medals_holder.get(character_id);
@@ -1001,7 +1154,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_medals> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_medals_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_medals", (page, headerHandler) -> (swagger).get_characters_character_id_medals(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_medals", (page, headerHandler) -> (swagger).get_characters_medals(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1015,7 +1168,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_mining
+         * Paginated record of all mining done by a character for the past 30 days
+         * 
+         * cache over {@link Swagger#get_characters_mining}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_mining> mining(int character_id) {
             ObservableList<R_get_characters_character_id_mining> ret = get_characters_character_id_mining_holder.get(character_id);
@@ -1027,7 +1185,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_mining> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_mining_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_mining", (page, headerHandler) -> (swagger).get_characters_character_id_mining(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_mining", (page, headerHandler) -> (swagger).get_characters_mining(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1041,7 +1199,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_notifications_contacts
+         * Return notifications about having been added to someone's contact list
+         * 
+         * cache over {@link Swagger#get_characters_notifications_contacts}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_notifications_contacts> notifications_contacts(int character_id) {
             ObservableList<R_get_characters_character_id_notifications_contacts> ret = get_characters_character_id_notifications_contacts_holder.get(character_id);
@@ -1053,7 +1216,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_notifications_contacts> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_notifications_contacts_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_notifications_contacts", (page, headerHandler) -> (swagger).get_characters_character_id_notifications_contacts(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_notifications_contacts", (page, headerHandler) -> (swagger).get_characters_notifications_contacts(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1067,7 +1230,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_opportunities
+         * Return a list of tasks finished by a character
+         * 
+         * cache over {@link Swagger#get_characters_opportunities}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_opportunities> opportunities(int character_id) {
             ObservableList<R_get_characters_character_id_opportunities> ret = get_characters_character_id_opportunities_holder.get(character_id);
@@ -1079,7 +1247,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_opportunities> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_opportunities_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_opportunities", (page, headerHandler) -> (swagger).get_characters_character_id_opportunities(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_opportunities", (page, headerHandler) -> (swagger).get_characters_opportunities(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1093,7 +1261,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_orders_history
+         * List cancelled and expired market orders placed by a character up to 90 days in the past.
+         * 
+         * cache over {@link Swagger#get_characters_orders_history}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableMap<Long, R_get_characters_character_id_orders_history> orders_history(int character_id) {
             ObservableMap<Long, R_get_characters_character_id_orders_history> ret = get_characters_character_id_orders_history_holder.get(character_id);
@@ -1105,7 +1278,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_characters_character_id_orders_history> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_orders_history_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_orders_history", (page, headerHandler) -> (swagger).get_characters_character_id_orders_history(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_orders_history", (page, headerHandler) -> (swagger).get_characters_orders_history(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_characters_character_id_orders_history> newmap = new LinkedHashMap<>();
@@ -1124,7 +1297,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_planets
+         * Returns a list of all planetary colonies owned by a character.
+         * 
+         * cache over {@link Swagger#get_characters_planets}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_planets> planets(int character_id) {
             ObservableList<R_get_characters_character_id_planets> ret = get_characters_character_id_planets_holder.get(character_id);
@@ -1136,7 +1314,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_planets> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_planets_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_planets", (page, headerHandler) -> (swagger).get_characters_character_id_planets(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_planets", (page, headerHandler) -> (swagger).get_characters_planets(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1150,7 +1328,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_ship
+         * Get the current ship type, name and id
+         * 
+         * cache over {@link Swagger#get_characters_ship}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_ship> ship(int character_id) {
             Property<R_get_characters_character_id_ship> ret = get_characters_character_id_ship_holder.get(character_id);
@@ -1162,7 +1345,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_ship> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_ship_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_ship", headerHandler -> (swagger).get_characters_character_id_ship(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_ship", headerHandler -> (swagger).get_characters_ship(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1176,7 +1359,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_standings
+         * Return character standings from agents, NPC corporations, and factions
+         * 
+         * cache over {@link Swagger#get_characters_standings}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_standings_3> standings(int character_id) {
             ObservableList<M_get_standings_3> ret = get_characters_character_id_standings_holder.get(character_id);
@@ -1188,7 +1376,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_standings_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_standings", (page, headerHandler) -> (swagger).get_characters_character_id_standings(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_standings", (page, headerHandler) -> (swagger).get_characters_standings(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1202,7 +1390,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_titles
+         * Returns a character's titles
+         * 
+         * cache over {@link Swagger#get_characters_titles}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_titles> titles(int character_id) {
             ObservableList<R_get_characters_character_id_titles> ret = get_characters_character_id_titles_holder.get(character_id);
@@ -1214,7 +1407,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_titles> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_titles_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_titles", (page, headerHandler) -> (swagger).get_characters_character_id_titles(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_titles", (page, headerHandler) -> (swagger).get_characters_titles(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1228,7 +1421,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_wallet
+         * Returns a character's wallet balance
+         * 
+         * cache over {@link Swagger#get_characters_wallet}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<Double> wallet(int character_id) {
             Property<Double> ret = get_characters_character_id_wallet_holder.get(character_id);
@@ -1240,7 +1438,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<Double> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_wallet_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_wallet", headerHandler -> (swagger).get_characters_character_id_wallet(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_wallet", headerHandler -> (swagger).get_characters_wallet(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1254,7 +1452,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_wallet_transactions
+         * Get wallet transactions of a character
+         * 
+         * cache over {@link Swagger#get_characters_wallet_transactions}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param from_id
+         *     Only show transactions happened before the one referenced by this id
          */
         public ObservableMap<Long, R_get_characters_character_id_wallet_transactions> wallet_transactions(int character_id, Long from_id) {
             K_6_Long_int param = new K_6_Long_int(from_id, character_id);
@@ -1267,7 +1472,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_characters_character_id_wallet_transactions> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_wallet_transactions_holder.put(param, ret);
-                        addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, headerHandler) -> (swagger).get_characters_character_id_wallet_transactions(character_id, from_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, headerHandler) -> (swagger).get_characters_wallet_transactions(character_id, from_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_characters_character_id_wallet_transactions> newmap = new LinkedHashMap<>();
@@ -1286,7 +1491,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_blueprints
+         * Return a list of blueprints the character owns
+         * 
+         * cache over {@link Swagger#get_characters_blueprints}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableMap<Long, M_get_blueprints_8> blueprints(int character_id) {
             ObservableMap<Long, M_get_blueprints_8> ret = get_characters_character_id_blueprints_holder.get(character_id);
@@ -1298,7 +1508,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_blueprints_8> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_blueprints_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_blueprints", (page, headerHandler) -> (swagger).get_characters_character_id_blueprints(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_blueprints", (page, headerHandler) -> (swagger).get_characters_blueprints(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_blueprints_8> newmap = new LinkedHashMap<>();
@@ -1317,7 +1527,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_bookmarks
+         * A list of your character's personal bookmarks
+         * 
+         * cache over {@link Swagger#get_characters_bookmarks}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_bookmarks_9> bookmarks(int character_id) {
             ObservableList<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
@@ -1329,7 +1544,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_bookmarks_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_bookmarks", (page, headerHandler) -> (swagger).get_characters_character_id_bookmarks(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_bookmarks", (page, headerHandler) -> (swagger).get_characters_bookmarks(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1343,7 +1558,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_bookmarks_folders
+         * A list of your character's personal bookmark folders
+         * 
+         * cache over {@link Swagger#get_characters_bookmarks_folders}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_bookmarks_folders> bookmarks_folders(int character_id) {
             ObservableList<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
@@ -1355,7 +1575,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_characters_character_id_bookmarks_folders(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_characters_bookmarks_folders(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1369,7 +1589,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_contacts
+         * Return contacts of a character
+         * 
+         * cache over {@link Swagger#get_characters_contacts}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_contacts> contacts(int character_id) {
             ObservableList<R_get_characters_character_id_contacts> ret = get_characters_character_id_contacts_holder.get(character_id);
@@ -1381,7 +1606,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_contacts> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_contacts_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_contacts", (page, headerHandler) -> (swagger).get_characters_character_id_contacts(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_contacts", (page, headerHandler) -> (swagger).get_characters_contacts(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1395,7 +1620,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_notifications
+         * Return character notifications
+         * 
+         * cache over {@link Swagger#get_characters_notifications}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_notifications> notifications(int character_id) {
             ObservableList<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
@@ -1407,7 +1637,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_notifications> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_notifications_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_notifications", (page, headerHandler) -> (swagger).get_characters_character_id_notifications(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_notifications", (page, headerHandler) -> (swagger).get_characters_notifications(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1421,7 +1651,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_online
+         * Checks if the character is currently online
+         * 
+         * cache over {@link Swagger#get_characters_online}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_online> online(int character_id) {
             Property<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
@@ -1433,7 +1668,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_online> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_online_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_online", headerHandler -> (swagger).get_characters_character_id_online(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_online", headerHandler -> (swagger).get_characters_online(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1447,7 +1682,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_orders
+         * List open market orders placed by a character
+         * 
+         * cache over {@link Swagger#get_characters_orders}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableMap<Long, R_get_characters_character_id_orders> orders(int character_id) {
             ObservableMap<Long, R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
@@ -1459,7 +1699,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_characters_character_id_orders> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_orders_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_orders", (page, headerHandler) -> (swagger).get_characters_character_id_orders(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_orders", (page, headerHandler) -> (swagger).get_characters_orders(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_characters_character_id_orders> newmap = new LinkedHashMap<>();
@@ -1478,7 +1718,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_portrait
+         * Get portrait urls for a character
+         * 
+         * cache over {@link Swagger#get_characters_portrait}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_portrait> portrait(int character_id) {
             Property<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
@@ -1490,7 +1735,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_portrait> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_portrait_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_portrait", headerHandler -> (swagger).get_characters_character_id_portrait(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_portrait", headerHandler -> (swagger).get_characters_portrait(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1504,7 +1749,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_roles
+         * Returns a character's corporation roles
+         * 
+         * cache over {@link Swagger#get_characters_roles}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_roles> roles(int character_id) {
             Property<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
@@ -1516,7 +1766,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_roles> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_roles_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_roles", headerHandler -> (swagger).get_characters_character_id_roles(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_roles", headerHandler -> (swagger).get_characters_roles(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1530,7 +1780,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_skillqueue
+         * List the configured skill queue for the given character
+         * 
+         * cache over {@link Swagger#get_characters_skillqueue}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_skillqueue> skillqueue(int character_id) {
             ObservableList<R_get_characters_character_id_skillqueue> ret = get_characters_character_id_skillqueue_holder.get(character_id);
@@ -1542,7 +1797,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_skillqueue> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_skillqueue_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_skillqueue", (page, headerHandler) -> (swagger).get_characters_character_id_skillqueue(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_skillqueue", (page, headerHandler) -> (swagger).get_characters_skillqueue(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1556,7 +1811,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_stats
+         * Returns aggregate yearly stats for a character
+         * 
+         * cache over {@link Swagger#get_characters_stats}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<R_get_characters_character_id_stats> stats(int character_id) {
             ObservableList<R_get_characters_character_id_stats> ret = get_characters_character_id_stats_holder.get(character_id);
@@ -1568,7 +1828,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_characters_character_id_stats> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_stats_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_stats", (page, headerHandler) -> (swagger).get_characters_character_id_stats(character_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_stats", (page, headerHandler) -> (swagger).get_characters_stats(character_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1582,7 +1842,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_assets
+         * Return a list of the characters assets
+         * 
+         * cache over {@link Swagger#get_characters_assets}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableList<M_get_assets_8> assets(int character_id) {
             ObservableList<M_get_assets_8> ret = get_characters_character_id_assets_holder.get(character_id);
@@ -1594,7 +1859,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_characters_character_id_assets_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_assets", (page, headerHandler) -> (swagger).get_characters_character_id_assets(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_assets", (page, headerHandler) -> (swagger).get_characters_assets(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1608,7 +1873,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_calendar_event_id
+         * Get all the information for a specific event
+         * 
+         * cache over {@link Swagger#get_characters_calendar}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param event_id
+         *     The id of the event requested
          */
         public Property<R_get_characters_character_id_calendar_event_id> calendar(int character_id, int event_id) {
             K_1_int_int param = new K_1_int_int(event_id, character_id);
@@ -1621,7 +1893,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_calendar_event_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_calendar_event_id_holder.put(param, ret);
-                        addFetchCacheObject("get_characters_character_id_calendar_event_id", headerHandler -> (swagger).get_characters_character_id_calendar_event_id(character_id, event_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_calendar_event_id", headerHandler -> (swagger).get_characters_calendar(character_id, event_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1635,7 +1907,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_clones
+         * A list of the character's clones
+         * 
+         * cache over {@link Swagger#get_characters_clones}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_clones> clones(int character_id) {
             Property<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
@@ -1647,7 +1924,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_clones> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_clones_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_clones", headerHandler -> (swagger).get_characters_character_id_clones(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_clones", headerHandler -> (swagger).get_characters_clones(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1661,7 +1938,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_mail_labels
+         * Return a list of the users mail labels, unread counts for each label and a total unread count.
+         * 
+         * cache over {@link Swagger#get_characters_mail_labels}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_mail_labels> mail_labels(int character_id) {
             Property<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
@@ -1673,7 +1955,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_mail_labels> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_mail_labels_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_mail_labels", headerHandler -> (swagger).get_characters_character_id_mail_labels(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_mail_labels", headerHandler -> (swagger).get_characters_mail_labels(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1687,7 +1969,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_planets_planet_id
+         * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.
+         * 
+         * cache over {@link Swagger#get_characters_planets}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
+         * @param planet_id
+         *     Planet id of the target planet
          */
         public Property<R_get_characters_character_id_planets_planet_id> planets(int character_id, int planet_id) {
             K_18_int_int param = new K_18_int_int(planet_id, character_id);
@@ -1700,7 +1989,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_planets_planet_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_planets_planet_id_holder.put(param, ret);
-                        addFetchCacheObject("get_characters_character_id_planets_planet_id", headerHandler -> (swagger).get_characters_character_id_planets_planet_id(character_id, planet_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_planets_planet_id", headerHandler -> (swagger).get_characters_planets(character_id, planet_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1714,9 +2003,20 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_search
+         * Search for entities that match a given sub-string.
+         * 
+         * cache over {@link Swagger#get_characters}<br />
+         * 
+         * @param categories
+         *     Type of entities to search for
+         * @param character_id
+         *     An EVE character ID
+         * @param search
+         *     The string to search on
+         * @param strict
+         *     Whether the search should be a strict match
          */
-        public Property<R_get_characters_character_id_search> search(String[] categories, int character_id, String search, Boolean strict) {
+        public Property<R_get_characters_character_id_search> get(String[] categories, int character_id, String search, Boolean strict) {
             K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
             Property<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
             if (ret == null) {
@@ -1727,7 +2027,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_search> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_search_holder.put(param, ret);
-                        addFetchCacheObject("get_characters_character_id_search", headerHandler -> (swagger).get_characters_character_id_search(categories, character_id, search, strict, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_search", headerHandler -> (swagger).get_characters(categories, character_id, search, strict, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1741,9 +2041,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id
+         * Public information about a character
+         * 
+         * cache over {@link Swagger#get_characters}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
-        public Property<R_get_characters_character_id> character_id(int character_id) {
+        public Property<R_get_characters_character_id> get(int character_id) {
             Property<R_get_characters_character_id> ret = get_characters_character_id_holder.get(character_id);
             if (ret == null) {
                 synchronized (get_characters_character_id_holder)
@@ -1753,7 +2058,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id", headerHandler -> (swagger).get_characters_character_id(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id", headerHandler -> (swagger).get_characters(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1767,7 +2072,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_skills
+         * List all trained skills for the given character
+         * 
+         * cache over {@link Swagger#get_characters_skills}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public Property<R_get_characters_character_id_skills> skills(int character_id) {
             Property<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
@@ -1779,7 +2089,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_characters_character_id_skills> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_characters_character_id_skills_holder.put(character_id, ret);
-                        addFetchCacheObject("get_characters_character_id_skills", headerHandler -> (swagger).get_characters_character_id_skills(character_id, headerHandler), item -> {
+                        addFetchCacheObject("get_characters_character_id_skills", headerHandler -> (swagger).get_characters_skills(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1793,7 +2103,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_characters_character_id_wallet_journal
+         * Retrieve the given character's wallet journal going 30 days back
+         * 
+         * cache over {@link Swagger#get_characters_wallet_journal}<br />
+         * 
+         * @param character_id
+         *     An EVE character ID
          */
         public ObservableMap<Long, M_get_journal_13> wallet_journal(int character_id) {
             ObservableMap<Long, M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
@@ -1805,7 +2120,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_journal_13> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_characters_character_id_wallet_journal_holder.put(character_id, ret);
-                        addFetchCacheArray("get_characters_character_id_wallet_journal", (page, headerHandler) -> (swagger).get_characters_character_id_wallet_journal(character_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_characters_character_id_wallet_journal", (page, headerHandler) -> (swagger).get_characters_wallet_journal(character_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_journal_13> newmap = new LinkedHashMap<>();
@@ -1830,7 +2145,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<K_7_int_long, ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id>> get_corporation_corporation_id_mining_observers_observer_id_holder = new HashMap<>();
 
         /**
-         * @see get_corporation_corporation_id_mining_extractions
+         * Extraction timers for all moon chunks being extracted by refineries belonging to a corporation.
+         * 
+         * cache over {@link Swagger#get_corporation_mining_extractions}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporation_corporation_id_mining_extractions> mining_extractions(int corporation_id) {
             ObservableList<R_get_corporation_corporation_id_mining_extractions> ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
@@ -1842,7 +2162,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporation_corporation_id_mining_extractions> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_extractions(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, headerHandler) -> (swagger).get_corporation_mining_extractions(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1856,7 +2176,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporation_corporation_id_mining_observers
+         * Paginated list of all entities capable of observing and recording mining for a corporation
+         * 
+         * cache over {@link Swagger#get_corporation_mining_observers}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers> mining_observers(int corporation_id) {
             ObservableList<R_get_corporation_corporation_id_mining_observers> ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
@@ -1868,7 +2193,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporation_corporation_id_mining_observers> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_observers(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, headerHandler) -> (swagger).get_corporation_mining_observers(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1882,7 +2207,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporation_corporation_id_mining_observers_observer_id
+         * Paginated record of all mining seen by an observer
+         * 
+         * cache over {@link Swagger#get_corporation_mining_observers}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
+         * @param observer_id
+         *     A mining observer id
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> mining_observers(int corporation_id, long observer_id) {
             K_7_int_long param = new K_7_int_long(corporation_id, observer_id);
@@ -1895,7 +2227,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
-                        addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_observers_observer_id(corporation_id, observer_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, headerHandler) -> (swagger).get_corporation_mining_observers(corporation_id, observer_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -1951,7 +2283,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 
         /**
-         * @see get_corporations_npccorps
+         * Get a list of npc corporations
+         * 
+         * cache over {@link Swagger#get_corporations_npccorps}<br />
          */
         public ObservableList<Integer> npccorps() {
             if (get_corporations_npccorps_holder == null) {
@@ -1974,7 +2308,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_bookmarks
+         * A list of your corporation's bookmarks
+         * 
+         * cache over {@link Swagger#get_corporations_bookmarks}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_bookmarks_9> bookmarks(int corporation_id) {
             ObservableList<M_get_bookmarks_9> ret = get_corporations_corporation_id_bookmarks_holder.get(corporation_id);
@@ -1986,7 +2325,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_bookmarks_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, headerHandler) -> (swagger).get_corporations_corporation_id_bookmarks(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, headerHandler) -> (swagger).get_corporations_bookmarks(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2000,7 +2339,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_bookmarks_folders
+         * A list of your corporation's bookmark folders
+         * 
+         * cache over {@link Swagger#get_corporations_bookmarks_folders}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_bookmarks_folders> bookmarks_folders(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_bookmarks_folders> ret = get_corporations_corporation_id_bookmarks_folders_holder.get(corporation_id);
@@ -2012,7 +2356,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_bookmarks_folders_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_corporations_corporation_id_bookmarks_folders(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, headerHandler) -> (swagger).get_corporations_bookmarks_folders(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2026,7 +2370,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_contacts_labels
+         * Return custom labels for a corporation's contacts
+         * 
+         * cache over {@link Swagger#get_corporations_contacts_labels}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_contacts_labels_2> contacts_labels(int corporation_id) {
             ObservableList<M_get_contacts_labels_2> ret = get_corporations_corporation_id_contacts_labels_holder.get(corporation_id);
@@ -2038,7 +2387,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_contacts_labels_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contacts_labels(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, headerHandler) -> (swagger).get_corporations_contacts_labels(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2052,7 +2401,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_contracts
+         * Returns contracts available to a corporation, only if the corporation is issuer, acceptor or assignee. Only returns contracts no older than 30 days, or if the status is "in_progress".
+         * 
+         * cache over {@link Swagger#get_corporations_contracts}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_contracts_22> contracts(int corporation_id) {
             ObservableList<M_get_contracts_22> ret = get_corporations_corporation_id_contracts_holder.get(corporation_id);
@@ -2064,7 +2418,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_contracts_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_contracts", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_contracts", (page, headerHandler) -> (swagger).get_corporations_contracts(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2078,7 +2432,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_contracts_contract_id_bids
+         * Lists bids on a particular auction contract
+         * 
+         * cache over {@link Swagger#get_corporations_contracts_bids}<br />
+         * 
+         * @param contract_id
+         *     ID of a contract
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> contracts_bids(int contract_id, int corporation_id) {
             K_8_int_int param = new K_8_int_int(corporation_id, contract_id);
@@ -2091,7 +2452,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_contracts_contract_id_bids_holder.put(param, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts_contract_id_bids(contract_id, corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_corporations_contracts_bids(contract_id, corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
@@ -2110,7 +2471,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_contracts_contract_id_items
+         * Lists items of a particular contract
+         * 
+         * cache over {@link Swagger#get_corporations_contracts_items}<br />
+         * 
+         * @param contract_id
+         *     ID of a contract
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> contracts_items(int contract_id, int corporation_id) {
             K_8_int_int param = new K_8_int_int(corporation_id, contract_id);
@@ -2123,7 +2491,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_contracts_contract_id_items_holder.put(param, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts_contract_id_items(contract_id, corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_corporations_contracts_items(contract_id, corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
@@ -2142,7 +2510,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_customs_offices
+         * List customs offices owned by a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_customs_offices}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_customs_offices> customs_offices(int corporation_id) {
             ObservableMap<Long, R_get_corporations_corporation_id_customs_offices> ret = get_corporations_corporation_id_customs_offices_holder.get(corporation_id);
@@ -2154,7 +2527,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_corporations_corporation_id_customs_offices> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_customs_offices_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_customs_offices", (page, headerHandler) -> (swagger).get_corporations_corporation_id_customs_offices(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_customs_offices", (page, headerHandler) -> (swagger).get_corporations_customs_offices(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_corporations_corporation_id_customs_offices> newmap = new LinkedHashMap<>();
@@ -2173,7 +2546,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_divisions
+         * Return corporation hangar and wallet division names, only show if a division is not using the default name
+         * 
+         * cache over {@link Swagger#get_corporations_divisions}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public Property<R_get_corporations_corporation_id_divisions> divisions(int corporation_id) {
             Property<R_get_corporations_corporation_id_divisions> ret = get_corporations_corporation_id_divisions_holder.get(corporation_id);
@@ -2185,7 +2563,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_corporations_corporation_id_divisions> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_divisions_holder.put(corporation_id, ret);
-                        addFetchCacheObject("get_corporations_corporation_id_divisions", headerHandler -> (swagger).get_corporations_corporation_id_divisions(corporation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_divisions", headerHandler -> (swagger).get_corporations_divisions(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2199,7 +2577,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_facilities
+         * Return a corporation's facilities
+         * 
+         * cache over {@link Swagger#get_corporations_facilities}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_facilities> facilities(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_facilities> ret = get_corporations_corporation_id_facilities_holder.get(corporation_id);
@@ -2211,7 +2594,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_facilities> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_facilities_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_facilities", (page, headerHandler) -> (swagger).get_corporations_corporation_id_facilities(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_facilities", (page, headerHandler) -> (swagger).get_corporations_facilities(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2225,7 +2608,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_fw_stats
+         * Statistics about a corporation involved in faction warfare
+         * 
+         * cache over {@link Swagger#get_corporations_fw_stats}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public Property<R_get_corporations_corporation_id_fw_stats> fw_stats(int corporation_id) {
             Property<R_get_corporations_corporation_id_fw_stats> ret = get_corporations_corporation_id_fw_stats_holder.get(corporation_id);
@@ -2237,7 +2625,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_fw_stats_holder.put(corporation_id, ret);
-                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", headerHandler -> (swagger).get_corporations_corporation_id_fw_stats(corporation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", headerHandler -> (swagger).get_corporations_fw_stats(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2251,7 +2639,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_icons
+         * Get the icon urls for a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_icons}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public Property<R_get_corporations_corporation_id_icons> icons(int corporation_id) {
             Property<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
@@ -2263,7 +2656,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_corporations_corporation_id_icons> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
-                        addFetchCacheObject("get_corporations_corporation_id_icons", headerHandler -> (swagger).get_corporations_corporation_id_icons(corporation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_icons", headerHandler -> (swagger).get_corporations_icons(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2277,7 +2670,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_industry_jobs
+         * List industry jobs run by a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_industry_jobs}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
+         * @param include_completed
+         *     Whether retrieve completed industry jobs as well
          */
         public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> industry_jobs(int corporation_id, Boolean include_completed) {
             K_9_int_Boolean param = new K_9_int_Boolean(corporation_id, include_completed);
@@ -2290,7 +2690,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_industry_jobs_holder.put(param, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, headerHandler) -> (swagger).get_corporations_corporation_id_industry_jobs(corporation_id, include_completed, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, headerHandler) -> (swagger).get_corporations_industry_jobs(corporation_id, include_completed, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Integer, R_get_corporations_corporation_id_industry_jobs> newmap = new LinkedHashMap<>();
@@ -2309,7 +2709,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_killmails_recent
+         * Get a list of a corporation's kills and losses going back 90 days
+         * 
+         * cache over {@link Swagger#get_corporations_killmails_recent}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_killmails_2> killmails_recent(int corporation_id) {
             ObservableList<M_get_killmails_2> ret = get_corporations_corporation_id_killmails_recent_holder.get(corporation_id);
@@ -2321,7 +2726,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_killmails_recent_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, headerHandler) -> (swagger).get_corporations_corporation_id_killmails_recent(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, headerHandler) -> (swagger).get_corporations_killmails_recent(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2335,7 +2740,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_medals
+         * Returns a corporation's medals
+         * 
+         * cache over {@link Swagger#get_corporations_medals}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_medals> medals(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_medals> ret = get_corporations_corporation_id_medals_holder.get(corporation_id);
@@ -2347,7 +2757,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_medals> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_medals_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_medals", (page, headerHandler) -> (swagger).get_corporations_corporation_id_medals(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_medals", (page, headerHandler) -> (swagger).get_corporations_medals(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2361,7 +2771,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_medals_issued
+         * Returns medals issued by a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_medals_issued}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_medals_issued> medals_issued(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_medals_issued> ret = get_corporations_corporation_id_medals_issued_holder.get(corporation_id);
@@ -2373,7 +2788,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_medals_issued> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_medals_issued_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, headerHandler) -> (swagger).get_corporations_corporation_id_medals_issued(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, headerHandler) -> (swagger).get_corporations_medals_issued(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2387,7 +2802,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_members_limit
+         * Return a corporation's member limit, not including CEO himself
+         * 
+         * cache over {@link Swagger#get_corporations_members_limit}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public Property<Integer> members_limit(int corporation_id) {
             Property<Integer> ret = get_corporations_corporation_id_members_limit_holder.get(corporation_id);
@@ -2399,7 +2819,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<Integer> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_members_limit_holder.put(corporation_id, ret);
-                        addFetchCacheObject("get_corporations_corporation_id_members_limit", headerHandler -> (swagger).get_corporations_corporation_id_members_limit(corporation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_members_limit", headerHandler -> (swagger).get_corporations_members_limit(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2413,7 +2833,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_members_titles
+         * Returns a corporation's members' titles
+         * 
+         * cache over {@link Swagger#get_corporations_members_titles}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_members_titles> members_titles(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_members_titles> ret = get_corporations_corporation_id_members_titles_holder.get(corporation_id);
@@ -2425,7 +2850,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_members_titles> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_members_titles_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_members_titles(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, headerHandler) -> (swagger).get_corporations_members_titles(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2439,7 +2864,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_membertracking
+         * Returns additional information about a corporation's members which helps tracking their activities
+         * 
+         * cache over {@link Swagger#get_corporations_membertracking}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_membertracking> membertracking(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_membertracking> ret = get_corporations_corporation_id_membertracking_holder.get(corporation_id);
@@ -2451,7 +2881,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_membertracking> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_membertracking_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, headerHandler) -> (swagger).get_corporations_corporation_id_membertracking(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, headerHandler) -> (swagger).get_corporations_membertracking(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2465,7 +2895,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_roles
+         * Return the roles of all members if the character has the personnel manager role or any grantable role.
+         * 
+         * cache over {@link Swagger#get_corporations_roles}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_roles> roles(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_roles> ret = get_corporations_corporation_id_roles_holder.get(corporation_id);
@@ -2477,7 +2912,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_roles> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_roles_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_roles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_roles(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_roles", (page, headerHandler) -> (swagger).get_corporations_roles(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2491,7 +2926,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_roles_history
+         * Return how roles have changed for a coporation's members, up to a month
+         * 
+         * cache over {@link Swagger#get_corporations_roles_history}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_roles_history> roles_history(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_roles_history> ret = get_corporations_corporation_id_roles_history_holder.get(corporation_id);
@@ -2503,7 +2943,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_roles_history> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_roles_history_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, headerHandler) -> (swagger).get_corporations_corporation_id_roles_history(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, headerHandler) -> (swagger).get_corporations_roles_history(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2517,7 +2957,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_shareholders
+         * Return the current shareholders of a corporation.
+         * 
+         * cache over {@link Swagger#get_corporations_shareholders}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_shareholders> shareholders(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_shareholders> ret = get_corporations_corporation_id_shareholders_holder.get(corporation_id);
@@ -2529,7 +2974,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_shareholders> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_shareholders_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, headerHandler) -> (swagger).get_corporations_corporation_id_shareholders(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, headerHandler) -> (swagger).get_corporations_shareholders(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2543,7 +2988,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_standings
+         * Return corporation standings from agents, NPC corporations, and factions
+         * 
+         * cache over {@link Swagger#get_corporations_standings}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_standings_3> standings(int corporation_id) {
             ObservableList<M_get_standings_3> ret = get_corporations_corporation_id_standings_holder.get(corporation_id);
@@ -2555,7 +3005,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_standings_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_standings", (page, headerHandler) -> (swagger).get_corporations_corporation_id_standings(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_standings", (page, headerHandler) -> (swagger).get_corporations_standings(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2569,7 +3019,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_starbases
+         * Returns list of corporation starbases (POSes)
+         * 
+         * cache over {@link Swagger#get_corporations_starbases}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_starbases> starbases(int corporation_id) {
             ObservableMap<Long, R_get_corporations_corporation_id_starbases> ret = get_corporations_corporation_id_starbases_holder.get(corporation_id);
@@ -2581,7 +3036,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_corporations_corporation_id_starbases> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_starbases_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_starbases", (page, headerHandler) -> (swagger).get_corporations_corporation_id_starbases(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_starbases", (page, headerHandler) -> (swagger).get_corporations_starbases(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_corporations_corporation_id_starbases> newmap = new LinkedHashMap<>();
@@ -2600,7 +3055,16 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_starbases_starbase_id
+         * Returns various settings and fuels of a starbase (POS)
+         * 
+         * cache over {@link Swagger#get_corporations_starbases}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
+         * @param starbase_id
+         *     An EVE starbase (POS) ID
+         * @param system_id
+         *     The solar system this starbase (POS) is located in,
          */
         public Property<R_get_corporations_corporation_id_starbases_starbase_id> starbases(int corporation_id, long starbase_id, int system_id) {
             K_10_int_long_int param = new K_10_int_long_int(corporation_id, starbase_id, system_id);
@@ -2613,7 +3077,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_corporations_corporation_id_starbases_starbase_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_starbases_starbase_id_holder.put(param, ret);
-                        addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", headerHandler -> (swagger).get_corporations_corporation_id_starbases_starbase_id(corporation_id, starbase_id, system_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", headerHandler -> (swagger).get_corporations_starbases(corporation_id, starbase_id, system_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2627,7 +3091,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_titles
+         * Returns a corporation's titles
+         * 
+         * cache over {@link Swagger#get_corporations_titles}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_titles> titles(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_titles> ret = get_corporations_corporation_id_titles_holder.get(corporation_id);
@@ -2639,7 +3108,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_titles> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_titles_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_titles", (page, headerHandler) -> (swagger).get_corporations_corporation_id_titles(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_titles", (page, headerHandler) -> (swagger).get_corporations_titles(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2653,7 +3122,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_wallets
+         * Get a corporation's wallets
+         * 
+         * cache over {@link Swagger#get_corporations_wallets}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_wallets> wallets(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_wallets> ret = get_corporations_corporation_id_wallets_holder.get(corporation_id);
@@ -2665,7 +3139,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_wallets> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_wallets_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_wallets", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_wallets", (page, headerHandler) -> (swagger).get_corporations_wallets(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2679,7 +3153,16 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_wallets_division_transactions
+         * Get wallet transactions of a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_wallets_transactions}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
+         * @param division
+         *     Wallet key of the division to fetch journals from
+         * @param from_id
+         *     Only show journal entries happened before the transaction referenced by this id
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> wallets_transactions(int corporation_id, int division, Long from_id) {
             K_11_int_int_Long param = new K_11_int_int_Long(division, corporation_id, from_id);
@@ -2692,7 +3175,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_wallets_division_transactions_holder.put(param, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets_division_transactions(corporation_id, division, from_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, headerHandler) -> (swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> newmap = new LinkedHashMap<>();
@@ -2711,7 +3194,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_alliancehistory
+         * Get a list of all the alliances a corporation has been a member of
+         * 
+         * cache over {@link Swagger#get_corporations_alliancehistory}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_alliancehistory> alliancehistory(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_alliancehistory> ret = get_corporations_corporation_id_alliancehistory_holder.get(corporation_id);
@@ -2723,7 +3211,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_alliancehistory> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, headerHandler) -> (swagger).get_corporations_corporation_id_alliancehistory(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, headerHandler) -> (swagger).get_corporations_alliancehistory(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2737,7 +3225,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_blueprints
+         * Returns a list of blueprints the corporation owns
+         * 
+         * cache over {@link Swagger#get_corporations_blueprints}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, M_get_blueprints_8> blueprints(int corporation_id) {
             ObservableMap<Long, M_get_blueprints_8> ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
@@ -2749,7 +3242,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_blueprints_8> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, headerHandler) -> (swagger).get_corporations_corporation_id_blueprints(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, headerHandler) -> (swagger).get_corporations_blueprints(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_blueprints_8> newmap = new LinkedHashMap<>();
@@ -2768,7 +3261,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_contacts
+         * Return contacts of a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_contacts}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_contacts> contacts(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_contacts> ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
@@ -2780,7 +3278,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_contacts> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_contacts_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_contacts", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contacts(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_contacts", (page, headerHandler) -> (swagger).get_corporations_contacts(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2794,7 +3292,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_containers_logs
+         * Returns logs recorded in the past seven days from all audit log secure containers (ALSC) owned by a given corporation
+         * 
+         * cache over {@link Swagger#get_corporations_containers_logs}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_containers_logs> containers_logs(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_containers_logs> ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
@@ -2806,7 +3309,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_containers_logs> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_containers_logs_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, headerHandler) -> (swagger).get_corporations_corporation_id_containers_logs(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, headerHandler) -> (swagger).get_corporations_containers_logs(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2820,7 +3323,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_orders_history
+         * List cancelled and expired market orders placed on behalf of a corporation up to 90 days in the past.
+         * 
+         * cache over {@link Swagger#get_corporations_orders_history}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_orders_history> orders_history(int corporation_id) {
             ObservableMap<Long, R_get_corporations_corporation_id_orders_history> ret = get_corporations_corporation_id_orders_history_holder.get(corporation_id);
@@ -2832,7 +3340,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_corporations_corporation_id_orders_history> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_orders_history_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, headerHandler) -> (swagger).get_corporations_corporation_id_orders_history(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, headerHandler) -> (swagger).get_corporations_orders_history(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_corporations_corporation_id_orders_history> newmap = new LinkedHashMap<>();
@@ -2851,7 +3359,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_structures
+         * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th
+         * 
+         * cache over {@link Swagger#get_corporations_structures}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_corporations_corporation_id_structures> structures(int corporation_id) {
             ObservableList<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
@@ -2863,7 +3376,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_corporations_corporation_id_structures> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_structures", (page, headerHandler) -> (swagger).get_corporations_corporation_id_structures(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_structures", (page, headerHandler) -> (swagger).get_corporations_structures(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2877,7 +3390,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_assets
+         * Return a list of the corporation assets
+         * 
+         * cache over {@link Swagger#get_corporations_assets}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<M_get_assets_8> assets(int corporation_id) {
             ObservableList<M_get_assets_8> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
@@ -2889,7 +3407,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (swagger).get_corporations_corporation_id_assets(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (swagger).get_corporations_assets(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2903,7 +3421,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_members
+         * Return the current member list of a corporation, the token's character need to be a member of the corporation.
+         * 
+         * cache over {@link Swagger#get_corporations_members}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<Integer> members(int corporation_id) {
             ObservableList<Integer> ret = get_corporations_corporation_id_members_holder.get(corporation_id);
@@ -2915,7 +3438,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<Integer> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_corporations_corporation_id_members_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_members", (page, headerHandler) -> IntStream.of((swagger).get_corporations_corporation_id_members(corporation_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_members", (page, headerHandler) -> IntStream.of((swagger).get_corporations_members(corporation_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -2929,7 +3452,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_orders
+         * List open market orders placed on behalf of a corporation
+         * 
+         * cache over {@link Swagger#get_corporations_orders}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_orders> orders(int corporation_id) {
             ObservableMap<Long, R_get_corporations_corporation_id_orders> ret = get_corporations_corporation_id_orders_holder.get(corporation_id);
@@ -2941,7 +3469,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, R_get_corporations_corporation_id_orders> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_orders_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_orders", (page, headerHandler) -> (swagger).get_corporations_corporation_id_orders(corporation_id, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_orders", (page, headerHandler) -> (swagger).get_corporations_orders(corporation_id, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, R_get_corporations_corporation_id_orders> newmap = new LinkedHashMap<>();
@@ -2960,7 +3488,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id_wallets_division_journal
+         * Retrieve the given corporation's wallet journal for the given division going 30 days back
+         * 
+         * cache over {@link Swagger#get_corporations_wallets_journal}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
+         * @param division
+         *     Wallet key of the division to fetch journals from
          */
         public ObservableMap<Long, M_get_journal_13> wallets_journal(int corporation_id, int division) {
             K_20_int_int param = new K_20_int_int(division, corporation_id);
@@ -2973,7 +3508,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableMap<Long, M_get_journal_13> finalret = FXCollections.observableHashMap();
                         ret = finalret;
                         get_corporations_corporation_id_wallets_division_journal_holder.put(param, ret);
-                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets_division_journal(corporation_id, division, page, headerHandler), arr -> {
+                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, headerHandler) -> (swagger).get_corporations_wallets_journal(corporation_id, division, page, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 LinkedHashMap<Long, M_get_journal_13> newmap = new LinkedHashMap<>();
@@ -2992,9 +3527,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_corporations_corporation_id
+         * Public information about a corporation
+         * 
+         * cache over {@link Swagger#get_corporations}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
-        public Property<R_get_corporations_corporation_id> corporation_id(int corporation_id) {
+        public Property<R_get_corporations_corporation_id> get(int corporation_id) {
             Property<R_get_corporations_corporation_id> ret = get_corporations_corporation_id_holder.get(corporation_id);
             if (ret == null) {
                 synchronized (get_corporations_corporation_id_holder)
@@ -3004,7 +3544,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_corporations_corporation_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_corporations_corporation_id_holder.put(corporation_id, ret);
-                        addFetchCacheObject("get_corporations_corporation_id", headerHandler -> (swagger).get_corporations_corporation_id(corporation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id", headerHandler -> (swagger).get_corporations(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3026,7 +3566,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
 
         /**
-         * @see get_dogma_attributes
+         * Get a list of dogma attribute ids
+         * 
+         * cache over {@link Swagger#get_dogma_attributes}<br />
          */
         public ObservableList<Integer> attributes() {
             if (get_dogma_attributes_holder == null) {
@@ -3049,7 +3591,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_dogma_attributes_attribute_id
+         * Get information on a dogma attribute
+         * 
+         * cache over {@link Swagger#get_dogma_attributes}<br />
+         * 
+         * @param attribute_id
+         *     A dogma attribute ID
          */
         public Property<R_get_dogma_attributes_attribute_id> attributes(int attribute_id) {
             Property<R_get_dogma_attributes_attribute_id> ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
@@ -3061,7 +3608,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_dogma_attributes_attribute_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_dogma_attributes_attribute_id_holder.put(attribute_id, ret);
-                        addFetchCacheObject("get_dogma_attributes_attribute_id", headerHandler -> (swagger).get_dogma_attributes_attribute_id(attribute_id, headerHandler), item -> {
+                        addFetchCacheObject("get_dogma_attributes_attribute_id", headerHandler -> (swagger).get_dogma_attributes(attribute_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3075,7 +3622,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_dogma_dynamic_items_type_id_item_id
+         * Returns info about a dynamic item resulting from mutation with a mutaplasmid.
+         * 
+         * cache over {@link Swagger#get_dogma_dynamic_items}<br />
+         * 
+         * @param item_id
+         *     item_id integer
+         * @param type_id
+         *     type_id integer
          */
         public Property<R_get_dogma_dynamic_items_type_id_item_id> dynamic_items(long item_id, int type_id) {
             K_12_long_int param = new K_12_long_int(item_id, type_id);
@@ -3088,7 +3642,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_dogma_dynamic_items_type_id_item_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_dogma_dynamic_items_type_id_item_id_holder.put(param, ret);
-                        addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", headerHandler -> (swagger).get_dogma_dynamic_items_type_id_item_id(item_id, type_id, headerHandler), item -> {
+                        addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", headerHandler -> (swagger).get_dogma_dynamic_items(item_id, type_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3102,7 +3656,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_dogma_effects
+         * Get a list of dogma effect ids
+         * 
+         * cache over {@link Swagger#get_dogma_effects}<br />
          */
         public ObservableList<Integer> effects() {
             if (get_dogma_effects_holder == null) {
@@ -3125,7 +3681,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_dogma_effects_effect_id
+         * Get information on a dogma effect
+         * 
+         * cache over {@link Swagger#get_dogma_effects}<br />
+         * 
+         * @param effect_id
+         *     A dogma effect ID
          */
         public Property<R_get_dogma_effects_effect_id> effects(int effect_id) {
             Property<R_get_dogma_effects_effect_id> ret = get_dogma_effects_effect_id_holder.get(effect_id);
@@ -3137,7 +3698,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_dogma_effects_effect_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_dogma_effects_effect_id_holder.put(effect_id, ret);
-                        addFetchCacheObject("get_dogma_effects_effect_id", headerHandler -> (swagger).get_dogma_effects_effect_id(effect_id, headerHandler), item -> {
+                        addFetchCacheObject("get_dogma_effects_effect_id", headerHandler -> (swagger).get_dogma_effects(effect_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3157,9 +3718,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Long, ObservableList<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
 
         /**
-         * @see get_fleets_fleet_id
+         * Return details about a fleet
+         * 
+         * cache over {@link Swagger#get_fleets}<br />
+         * 
+         * @param fleet_id
+         *     ID for a fleet
          */
-        public Property<R_get_fleets_fleet_id> fleet_id(long fleet_id) {
+        public Property<R_get_fleets_fleet_id> get(long fleet_id) {
             Property<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
             if (ret == null) {
                 synchronized (get_fleets_fleet_id_holder)
@@ -3169,7 +3735,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_fleets_fleet_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_fleets_fleet_id_holder.put(fleet_id, ret);
-                        addFetchCacheObject("get_fleets_fleet_id", headerHandler -> (swagger).get_fleets_fleet_id(fleet_id, headerHandler), item -> {
+                        addFetchCacheObject("get_fleets_fleet_id", headerHandler -> (swagger).get_fleets(fleet_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3183,7 +3749,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fleets_fleet_id_members
+         * Return information about fleet members
+         * 
+         * cache over {@link Swagger#get_fleets_members}<br />
+         * 
+         * @param fleet_id
+         *     ID for a fleet
          */
         public ObservableList<R_get_fleets_fleet_id_members> members(long fleet_id) {
             ObservableList<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
@@ -3195,7 +3766,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_fleets_fleet_id_members> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_fleets_fleet_id_members_holder.put(fleet_id, ret);
-                        addFetchCacheArray("get_fleets_fleet_id_members", (page, headerHandler) -> (swagger).get_fleets_fleet_id_members(fleet_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_fleets_fleet_id_members", (page, headerHandler) -> (swagger).get_fleets_members(fleet_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3209,7 +3780,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fleets_fleet_id_wings
+         * Return information about wings in a fleet
+         * 
+         * cache over {@link Swagger#get_fleets_wings}<br />
+         * 
+         * @param fleet_id
+         *     ID for a fleet
          */
         public ObservableList<R_get_fleets_fleet_id_wings> wings(long fleet_id) {
             ObservableList<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
@@ -3221,7 +3797,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_fleets_fleet_id_wings> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
-                        addFetchCacheArray("get_fleets_fleet_id_wings", (page, headerHandler) -> (swagger).get_fleets_fleet_id_wings(fleet_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_fleets_fleet_id_wings", (page, headerHandler) -> (swagger).get_fleets_wings(fleet_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3244,7 +3820,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<R_get_fw_systems> get_fw_systems_holder;
 
         /**
-         * @see get_fw_leaderboards
+         * Top 4 leaderboard of factions for kills and victory points separated by total, last week and yesterday.
+         * 
+         * cache over {@link Swagger#get_fw_leaderboards}<br />
          */
         public Property<M_get_fw_leaderboards_2> leaderboards() {
             if (get_fw_leaderboards_holder == null) {
@@ -3267,7 +3845,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fw_leaderboards_characters
+         * Top 100 leaderboard of pilots for kills and victory points separated by total, last week and yesterday.
+         * 
+         * cache over {@link Swagger#get_fw_leaderboards_characters}<br />
          */
         public Property<M_get_fw_leaderboards_2> leaderboards_characters() {
             if (get_fw_leaderboards_characters_holder == null) {
@@ -3290,7 +3870,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fw_leaderboards_corporations
+         * Top 10 leaderboard of corporations for kills and victory points separated by total, last week and yesterday.
+         * 
+         * cache over {@link Swagger#get_fw_leaderboards_corporations}<br />
          */
         public Property<M_get_fw_leaderboards_2> leaderboards_corporations() {
             if (get_fw_leaderboards_corporations_holder == null) {
@@ -3313,7 +3895,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fw_stats
+         * Statistical overviews of factions involved in faction warfare
+         * 
+         * cache over {@link Swagger#get_fw_stats}<br />
          */
         public ObservableList<R_get_fw_stats> stats() {
             if (get_fw_stats_holder == null) {
@@ -3336,7 +3920,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fw_wars
+         * Data about which NPC factions are at war
+         * 
+         * cache over {@link Swagger#get_fw_wars}<br />
          */
         public ObservableList<R_get_fw_wars> wars() {
             if (get_fw_wars_holder == null) {
@@ -3359,7 +3945,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_fw_systems
+         * An overview of the current ownership of faction warfare solar systems
+         * 
+         * cache over {@link Swagger#get_fw_systems}<br />
          */
         public ObservableList<R_get_fw_systems> systems() {
             if (get_fw_systems_holder == null) {
@@ -3386,7 +3974,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<R_get_incursions> get_incursions_holder;
 
         /**
-         * @see get_incursions
+         * Return a list of current incursions
+         * 
+         * cache over {@link Swagger#get_incursions}<br />
          */
         public ObservableList<R_get_incursions> incursions() {
             if (get_incursions_holder == null) {
@@ -3414,7 +4004,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<R_get_industry_systems> get_industry_systems_holder;
 
         /**
-         * @see get_industry_facilities
+         * Return a list of industry facilities
+         * 
+         * cache over {@link Swagger#get_industry_facilities}<br />
          */
         public ObservableList<R_get_industry_facilities> facilities() {
             if (get_industry_facilities_holder == null) {
@@ -3437,7 +4029,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_industry_systems
+         * Return cost indices for solar systems
+         * 
+         * cache over {@link Swagger#get_industry_systems}<br />
          */
         public ObservableList<R_get_industry_systems> systems() {
             if (get_industry_systems_holder == null) {
@@ -3464,7 +4058,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableList<R_get_insurance_prices> get_insurance_prices_holder;
 
         /**
-         * @see get_insurance_prices
+         * Return available insurance levels for all ship types
+         * 
+         * cache over {@link Swagger#get_insurance_prices}<br />
          */
         public ObservableList<R_get_insurance_prices> prices() {
             if (get_insurance_prices_holder == null) {
@@ -3491,9 +4087,16 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<K_13_String_int, Property<R_get_killmails_killmail_id_killmail_hash>> get_killmails_killmail_id_killmail_hash_holder = new HashMap<>();
 
         /**
-         * @see get_killmails_killmail_id_killmail_hash
+         * Return a single killmail from its ID and hash
+         * 
+         * cache over {@link Swagger#get_killmails}<br />
+         * 
+         * @param killmail_hash
+         *     The killmail hash for verification
+         * @param killmail_id
+         *     The killmail ID to be queried
          */
-        public Property<R_get_killmails_killmail_id_killmail_hash> killmail_id(String killmail_hash, int killmail_id) {
+        public Property<R_get_killmails_killmail_id_killmail_hash> get(String killmail_hash, int killmail_id) {
             K_13_String_int param = new K_13_String_int(killmail_hash, killmail_id);
             Property<R_get_killmails_killmail_id_killmail_hash> ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
             if (ret == null) {
@@ -3504,7 +4107,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_killmails_killmail_id_killmail_hash> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
-                        addFetchCacheObject("get_killmails_killmail_id_killmail_hash", headerHandler -> (swagger).get_killmails_killmail_id_killmail_hash(killmail_hash, killmail_id, headerHandler), item -> {
+                        addFetchCacheObject("get_killmails_killmail_id_killmail_hash", headerHandler -> (swagger).get_killmails(killmail_hash, killmail_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3522,7 +4125,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<R_get_loyalty_stores_corporation_id_offers>> get_loyalty_stores_corporation_id_offers_holder = new HashMap<>();
 
         /**
-         * @see get_loyalty_stores_corporation_id_offers
+         * Return a list of offers from a specific corporation's loyalty store
+         * 
+         * cache over {@link Swagger#get_loyalty_stores_offers}<br />
+         * 
+         * @param corporation_id
+         *     An EVE corporation ID
          */
         public ObservableList<R_get_loyalty_stores_corporation_id_offers> stores_offers(int corporation_id) {
             ObservableList<R_get_loyalty_stores_corporation_id_offers> ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
@@ -3534,7 +4142,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_loyalty_stores_corporation_id_offers> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_loyalty_stores_corporation_id_offers_holder.put(corporation_id, ret);
-                        addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, headerHandler) -> (swagger).get_loyalty_stores_corporation_id_offers(corporation_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, headerHandler) -> (swagger).get_loyalty_stores_offers(corporation_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3558,7 +4166,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<Integer>> get_markets_region_id_types_holder = new HashMap<>();
 
         /**
-         * @see get_markets_groups
+         * Get a list of item groups
+         * 
+         * cache over {@link Swagger#get_markets_groups}<br />
          */
         public ObservableList<Integer> groups() {
             if (get_markets_groups_holder == null) {
@@ -3581,7 +4191,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_groups_market_group_id
+         * Get information on an item group
+         * 
+         * cache over {@link Swagger#get_markets_groups}<br />
+         * 
+         * @param market_group_id
+         *     An Eve item group ID
          */
         public Property<R_get_markets_groups_market_group_id> groups(int market_group_id) {
             Property<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
@@ -3593,7 +4208,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_markets_groups_market_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_markets_groups_market_group_id_holder.put(market_group_id, ret);
-                        addFetchCacheObject("get_markets_groups_market_group_id", headerHandler -> (swagger).get_markets_groups_market_group_id(market_group_id, headerHandler), item -> {
+                        addFetchCacheObject("get_markets_groups_market_group_id", headerHandler -> (swagger).get_markets_groups(market_group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3607,7 +4222,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_prices
+         * Return a list of prices
+         * 
+         * cache over {@link Swagger#get_markets_prices}<br />
          */
         public ObservableList<R_get_markets_prices> prices() {
             if (get_markets_prices_holder == null) {
@@ -3630,7 +4247,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_structures_structure_id
+         * Return all orders in a structure
+         * 
+         * cache over {@link Swagger#get_markets_structures}<br />
+         * 
+         * @param structure_id
+         *     Return orders in this structure
          */
         public ObservableList<R_get_markets_structures_structure_id> structures(long structure_id) {
             ObservableList<R_get_markets_structures_structure_id> ret = get_markets_structures_structure_id_holder.get(structure_id);
@@ -3642,7 +4264,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_markets_structures_structure_id> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_markets_structures_structure_id_holder.put(structure_id, ret);
-                        addFetchCacheArray("get_markets_structures_structure_id", (page, headerHandler) -> (swagger).get_markets_structures_structure_id(page, structure_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_markets_structures_structure_id", (page, headerHandler) -> (swagger).get_markets_structures(page, structure_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3656,7 +4278,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_region_id_history
+         * Return a list of historical market statistics for the specified type in a region
+         * 
+         * cache over {@link Swagger#get_markets_history}<br />
+         * 
+         * @param region_id
+         *     Return statistics in this region
+         * @param type_id
+         *     Return statistics for this type
          */
         public ObservableList<R_get_markets_region_id_history> history(int region_id, int type_id) {
             K_14_int_int param = new K_14_int_int(type_id, region_id);
@@ -3669,7 +4298,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_markets_region_id_history> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_markets_region_id_history_holder.put(param, ret);
-                        addFetchCacheArray("get_markets_region_id_history", (page, headerHandler) -> (swagger).get_markets_region_id_history(region_id, type_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_markets_region_id_history", (page, headerHandler) -> (swagger).get_markets_history(region_id, type_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3683,7 +4312,16 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_region_id_orders
+         * Return a list of orders in a region
+         * 
+         * cache over {@link Swagger#get_markets_orders}<br />
+         * 
+         * @param order_type
+         *     Filter buy/sell orders, return all orders by default. If you query without type_id, we always return both buy and sell orders.
+         * @param region_id
+         *     Return orders in this region
+         * @param type_id
+         *     Return orders only for this type
          */
         public ObservableList<R_get_markets_region_id_orders> orders(Swagger.order_type order_type, int region_id, Integer type_id) {
             K_15_Integer_int_order_type param = new K_15_Integer_int_order_type(type_id, region_id, order_type);
@@ -3696,7 +4334,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<R_get_markets_region_id_orders> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_markets_region_id_orders_holder.put(param, ret);
-                        addFetchCacheArray("get_markets_region_id_orders", (page, headerHandler) -> (swagger).get_markets_region_id_orders(order_type, page, region_id, type_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_markets_region_id_orders", (page, headerHandler) -> (swagger).get_markets_orders(order_type, page, region_id, type_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3710,7 +4348,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_markets_region_id_types
+         * Return a list of type IDs that have active orders in the region, for efficient market indexing.
+         * 
+         * cache over {@link Swagger#get_markets_types}<br />
+         * 
+         * @param region_id
+         *     Return statistics in this region
          */
         public ObservableList<Integer> types(int region_id) {
             ObservableList<Integer> ret = get_markets_region_id_types_holder.get(region_id);
@@ -3722,7 +4365,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<Integer> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_markets_region_id_types_holder.put(region_id, ret);
-                        addFetchCacheArray("get_markets_region_id_types", (page, headerHandler) -> IntStream.of((swagger).get_markets_region_id_types(page, region_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        addFetchCacheArray("get_markets_region_id_types", (page, headerHandler) -> IntStream.of((swagger).get_markets_types(page, region_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3743,7 +4386,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
 
         /**
-         * @see get_opportunities_groups
+         * Return a list of opportunities groups
+         * 
+         * cache over {@link Swagger#get_opportunities_groups}<br />
          */
         public ObservableList<Integer> groups() {
             if (get_opportunities_groups_holder == null) {
@@ -3766,7 +4411,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_opportunities_groups_group_id
+         * Return information of an opportunities group
+         * 
+         * cache over {@link Swagger#get_opportunities_groups}<br />
+         * 
+         * @param group_id
+         *     ID of an opportunities group
          */
         public Property<R_get_opportunities_groups_group_id> groups(int group_id) {
             Property<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
@@ -3778,7 +4428,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_opportunities_groups_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_opportunities_groups_group_id_holder.put(group_id, ret);
-                        addFetchCacheObject("get_opportunities_groups_group_id", headerHandler -> (swagger).get_opportunities_groups_group_id(group_id, headerHandler), item -> {
+                        addFetchCacheObject("get_opportunities_groups_group_id", headerHandler -> (swagger).get_opportunities_groups(group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3792,7 +4442,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_opportunities_tasks
+         * Return a list of opportunities tasks
+         * 
+         * cache over {@link Swagger#get_opportunities_tasks}<br />
          */
         public ObservableList<Integer> tasks() {
             if (get_opportunities_tasks_holder == null) {
@@ -3815,7 +4467,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_opportunities_tasks_task_id
+         * Return information of an opportunities task
+         * 
+         * cache over {@link Swagger#get_opportunities_tasks}<br />
+         * 
+         * @param task_id
+         *     ID of an opportunities task
          */
         public Property<R_get_opportunities_tasks_task_id> tasks(int task_id) {
             Property<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
@@ -3827,7 +4484,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_opportunities_tasks_task_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_opportunities_tasks_task_id_holder.put(task_id, ret);
-                        addFetchCacheObject("get_opportunities_tasks_task_id", headerHandler -> (swagger).get_opportunities_tasks_task_id(task_id, headerHandler), item -> {
+                        addFetchCacheObject("get_opportunities_tasks_task_id", headerHandler -> (swagger).get_opportunities_tasks(task_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3852,9 +4509,22 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<K_16_flag_int_int_Lint_LLint, ObservableList<Integer>> get_route_origin_destination_holder = new HashMap<>();
 
         /**
-         * @see get_route_origin_destination
+         * Get the systems between origin and destination
+         * 
+         * cache over {@link Swagger#get_route}<br />
+         * 
+         * @param avoid
+         *     avoid solar system ID(s)
+         * @param connections
+         *     connected solar system pairs
+         * @param destination
+         *     destination solar system ID
+         * @param flag
+         *     route security preference
+         * @param origin
+         *     origin solar system ID
          */
-        public ObservableList<Integer> origin(int[] avoid, int[][] connections, int destination, Swagger.flag flag, int origin) {
+        public ObservableList<Integer> get(int[] avoid, int[][] connections, int destination, Swagger.flag flag, int origin) {
             K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
             ObservableList<Integer> ret = get_route_origin_destination_holder.get(param);
             if (ret == null) {
@@ -3865,7 +4535,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<Integer> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_route_origin_destination_holder.put(param, ret);
-                        addFetchCacheArray("get_route_origin_destination", (page, headerHandler) -> IntStream.of((swagger).get_route_origin_destination(avoid, connections, destination, flag, origin, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                        addFetchCacheArray("get_route_origin_destination", (page, headerHandler) -> IntStream.of((swagger).get_route(avoid, connections, destination, flag, origin, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);
@@ -3883,9 +4553,18 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<K_17_String_LString_Boolean, Property<R_get_search>> get_search_holder = new HashMap<>();
 
         /**
-         * @see get_search
+         * Search for entities that match a given sub-string.
+         * 
+         * cache over {@link Swagger#get}<br />
+         * 
+         * @param categories
+         *     Type of entities to search for
+         * @param search
+         *     The string to search on
+         * @param strict
+         *     Whether the search should be a strict match
          */
-        public Property<R_get_search> search(String[] categories, String search, Boolean strict) {
+        public Property<R_get_search> get(String[] categories, String search, Boolean strict) {
             K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
             Property<R_get_search> ret = get_search_holder.get(param);
             if (ret == null) {
@@ -3896,7 +4575,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_search> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_search_holder.put(param, ret);
-                        addFetchCacheObject("get_search", headerHandler -> (swagger).get_search(categories, search, strict, headerHandler), item -> {
+                        addFetchCacheObject("get_search", headerHandler -> (swagger).get(categories, search, strict, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3916,7 +4595,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private ObservableMap<Long, R_get_sovereignty_structures> get_sovereignty_structures_holder;
 
         /**
-         * @see get_sovereignty_campaigns
+         * Shows sovereignty data for campaigns.
+         * 
+         * cache over {@link Swagger#get_sovereignty_campaigns}<br />
          */
         public ObservableMap<Integer, R_get_sovereignty_campaigns> campaigns() {
             if (get_sovereignty_campaigns_holder == null) {
@@ -3944,7 +4625,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_sovereignty_map
+         * Shows sovereignty information for solar systems
+         * 
+         * cache over {@link Swagger#get_sovereignty_map}<br />
          */
         public ObservableList<R_get_sovereignty_map> map() {
             if (get_sovereignty_map_holder == null) {
@@ -3967,7 +4650,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_sovereignty_structures
+         * Shows sovereignty data for structures.
+         * 
+         * cache over {@link Swagger#get_sovereignty_structures}<br />
          */
         public ObservableMap<Long, R_get_sovereignty_structures> structures() {
             if (get_sovereignty_structures_holder == null) {
@@ -3999,7 +4684,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private SimpleObjectProperty<R_get_status> get_status_holder;
 
         /**
-         * @see get_status
+         * EVE Server status
+         * 
+         * cache over {@link Swagger#get_status}<br />
          */
         public Property<R_get_status> status() {
             if (get_status_holder == null) {
@@ -4054,7 +4741,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_universe_systems_system_id>> get_universe_systems_system_id_holder = new HashMap<>();
 
         /**
-         * @see get_universe_ancestries
+         * Get all character ancestries
+         * 
+         * cache over {@link Swagger#get_universe_ancestries}<br />
          */
         public ObservableList<R_get_universe_ancestries> ancestries() {
             if (get_universe_ancestries_holder == null) {
@@ -4077,7 +4766,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_asteroid_belts_asteroid_belt_id
+         * Get information on an asteroid belt
+         * 
+         * cache over {@link Swagger#get_universe_asteroid_belts}<br />
+         * 
+         * @param asteroid_belt_id
+         *     asteroid_belt_id integer
          */
         public Property<R_get_universe_asteroid_belts_asteroid_belt_id> asteroid_belts(int asteroid_belt_id) {
             Property<R_get_universe_asteroid_belts_asteroid_belt_id> ret = get_universe_asteroid_belts_asteroid_belt_id_holder.get(asteroid_belt_id);
@@ -4089,7 +4783,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_asteroid_belts_asteroid_belt_id_holder.put(asteroid_belt_id, ret);
-                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", headerHandler -> (swagger).get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", headerHandler -> (swagger).get_universe_asteroid_belts(asteroid_belt_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4103,7 +4797,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_bloodlines
+         * Get a list of bloodlines
+         * 
+         * cache over {@link Swagger#get_universe_bloodlines}<br />
          */
         public ObservableList<R_get_universe_bloodlines> bloodlines() {
             if (get_universe_bloodlines_holder == null) {
@@ -4126,7 +4822,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_categories
+         * Get a list of item categories
+         * 
+         * cache over {@link Swagger#get_universe_categories}<br />
          */
         public ObservableList<Integer> categories() {
             if (get_universe_categories_holder == null) {
@@ -4149,7 +4847,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_categories_category_id
+         * Get information of an item category
+         * 
+         * cache over {@link Swagger#get_universe_categories}<br />
+         * 
+         * @param category_id
+         *     An Eve item category ID
          */
         public Property<R_get_universe_categories_category_id> categories(int category_id) {
             Property<R_get_universe_categories_category_id> ret = get_universe_categories_category_id_holder.get(category_id);
@@ -4161,7 +4864,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_categories_category_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_categories_category_id_holder.put(category_id, ret);
-                        addFetchCacheObject("get_universe_categories_category_id", headerHandler -> (swagger).get_universe_categories_category_id(category_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_categories_category_id", headerHandler -> (swagger).get_universe_categories(category_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4175,7 +4878,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_constellations
+         * Get a list of constellations
+         * 
+         * cache over {@link Swagger#get_universe_constellations}<br />
          */
         public ObservableList<Integer> constellations() {
             if (get_universe_constellations_holder == null) {
@@ -4198,7 +4903,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_constellations_constellation_id
+         * Get information on a constellation
+         * 
+         * cache over {@link Swagger#get_universe_constellations}<br />
+         * 
+         * @param constellation_id
+         *     constellation_id integer
          */
         public Property<R_get_universe_constellations_constellation_id> constellations(int constellation_id) {
             Property<R_get_universe_constellations_constellation_id> ret = get_universe_constellations_constellation_id_holder.get(constellation_id);
@@ -4210,7 +4920,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_constellations_constellation_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_constellations_constellation_id_holder.put(constellation_id, ret);
-                        addFetchCacheObject("get_universe_constellations_constellation_id", headerHandler -> (swagger).get_universe_constellations_constellation_id(constellation_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_constellations_constellation_id", headerHandler -> (swagger).get_universe_constellations(constellation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4224,7 +4934,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_graphics
+         * Get a list of graphics
+         * 
+         * cache over {@link Swagger#get_universe_graphics}<br />
          */
         public ObservableList<Integer> graphics() {
             if (get_universe_graphics_holder == null) {
@@ -4247,7 +4959,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_graphics_graphic_id
+         * Get information on a graphic
+         * 
+         * cache over {@link Swagger#get_universe_graphics}<br />
+         * 
+         * @param graphic_id
+         *     graphic_id integer
          */
         public Property<R_get_universe_graphics_graphic_id> graphics(int graphic_id) {
             Property<R_get_universe_graphics_graphic_id> ret = get_universe_graphics_graphic_id_holder.get(graphic_id);
@@ -4259,7 +4976,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_graphics_graphic_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_graphics_graphic_id_holder.put(graphic_id, ret);
-                        addFetchCacheObject("get_universe_graphics_graphic_id", headerHandler -> (swagger).get_universe_graphics_graphic_id(graphic_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_graphics_graphic_id", headerHandler -> (swagger).get_universe_graphics(graphic_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4273,7 +4990,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_groups
+         * Get a list of item groups
+         * 
+         * cache over {@link Swagger#get_universe_groups}<br />
          */
         public ObservableList<Integer> groups() {
             if (get_universe_groups_holder == null) {
@@ -4296,7 +5015,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_groups_group_id
+         * Get information on an item group
+         * 
+         * cache over {@link Swagger#get_universe_groups}<br />
+         * 
+         * @param group_id
+         *     An Eve item group ID
          */
         public Property<R_get_universe_groups_group_id> groups(int group_id) {
             Property<R_get_universe_groups_group_id> ret = get_universe_groups_group_id_holder.get(group_id);
@@ -4308,7 +5032,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_groups_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_groups_group_id_holder.put(group_id, ret);
-                        addFetchCacheObject("get_universe_groups_group_id", headerHandler -> (swagger).get_universe_groups_group_id(group_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_groups_group_id", headerHandler -> (swagger).get_universe_groups(group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4322,7 +5046,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_moons_moon_id
+         * Get information on a moon
+         * 
+         * cache over {@link Swagger#get_universe_moons}<br />
+         * 
+         * @param moon_id
+         *     moon_id integer
          */
         public Property<R_get_universe_moons_moon_id> moons(int moon_id) {
             Property<R_get_universe_moons_moon_id> ret = get_universe_moons_moon_id_holder.get(moon_id);
@@ -4334,7 +5063,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_moons_moon_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_moons_moon_id_holder.put(moon_id, ret);
-                        addFetchCacheObject("get_universe_moons_moon_id", headerHandler -> (swagger).get_universe_moons_moon_id(moon_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_moons_moon_id", headerHandler -> (swagger).get_universe_moons(moon_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4348,7 +5077,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_planets_planet_id
+         * Get information on a planet
+         * 
+         * cache over {@link Swagger#get_universe_planets}<br />
+         * 
+         * @param planet_id
+         *     planet_id integer
          */
         public Property<R_get_universe_planets_planet_id> planets(int planet_id) {
             Property<R_get_universe_planets_planet_id> ret = get_universe_planets_planet_id_holder.get(planet_id);
@@ -4360,7 +5094,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_planets_planet_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_planets_planet_id_holder.put(planet_id, ret);
-                        addFetchCacheObject("get_universe_planets_planet_id", headerHandler -> (swagger).get_universe_planets_planet_id(planet_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_planets_planet_id", headerHandler -> (swagger).get_universe_planets(planet_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4374,7 +5108,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_races
+         * Get a list of character races
+         * 
+         * cache over {@link Swagger#get_universe_races}<br />
          */
         public ObservableList<R_get_universe_races> races() {
             if (get_universe_races_holder == null) {
@@ -4397,7 +5133,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_regions
+         * Get a list of regions
+         * 
+         * cache over {@link Swagger#get_universe_regions}<br />
          */
         public ObservableList<Integer> regions() {
             if (get_universe_regions_holder == null) {
@@ -4420,7 +5158,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_regions_region_id
+         * Get information on a region
+         * 
+         * cache over {@link Swagger#get_universe_regions}<br />
+         * 
+         * @param region_id
+         *     region_id integer
          */
         public Property<R_get_universe_regions_region_id> regions(int region_id) {
             Property<R_get_universe_regions_region_id> ret = get_universe_regions_region_id_holder.get(region_id);
@@ -4432,7 +5175,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_regions_region_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_regions_region_id_holder.put(region_id, ret);
-                        addFetchCacheObject("get_universe_regions_region_id", headerHandler -> (swagger).get_universe_regions_region_id(region_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_regions_region_id", headerHandler -> (swagger).get_universe_regions(region_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4446,7 +5189,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_schematics_schematic_id
+         * Get information on a planetary factory schematic
+         * 
+         * cache over {@link Swagger#get_universe_schematics}<br />
+         * 
+         * @param schematic_id
+         *     A PI schematic ID
          */
         public Property<R_get_universe_schematics_schematic_id> schematics(int schematic_id) {
             Property<R_get_universe_schematics_schematic_id> ret = get_universe_schematics_schematic_id_holder.get(schematic_id);
@@ -4458,7 +5206,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_schematics_schematic_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_schematics_schematic_id_holder.put(schematic_id, ret);
-                        addFetchCacheObject("get_universe_schematics_schematic_id", headerHandler -> (swagger).get_universe_schematics_schematic_id(schematic_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_schematics_schematic_id", headerHandler -> (swagger).get_universe_schematics(schematic_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4472,7 +5220,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_stargates_stargate_id
+         * Get information on a stargate
+         * 
+         * cache over {@link Swagger#get_universe_stargates}<br />
+         * 
+         * @param stargate_id
+         *     stargate_id integer
          */
         public Property<R_get_universe_stargates_stargate_id> stargates(int stargate_id) {
             Property<R_get_universe_stargates_stargate_id> ret = get_universe_stargates_stargate_id_holder.get(stargate_id);
@@ -4484,7 +5237,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_stargates_stargate_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_stargates_stargate_id_holder.put(stargate_id, ret);
-                        addFetchCacheObject("get_universe_stargates_stargate_id", headerHandler -> (swagger).get_universe_stargates_stargate_id(stargate_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_stargates_stargate_id", headerHandler -> (swagger).get_universe_stargates(stargate_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4498,7 +5251,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_stars_star_id
+         * Get information on a star
+         * 
+         * cache over {@link Swagger#get_universe_stars}<br />
+         * 
+         * @param star_id
+         *     star_id integer
          */
         public Property<R_get_universe_stars_star_id> stars(int star_id) {
             Property<R_get_universe_stars_star_id> ret = get_universe_stars_star_id_holder.get(star_id);
@@ -4510,7 +5268,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_stars_star_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_stars_star_id_holder.put(star_id, ret);
-                        addFetchCacheObject("get_universe_stars_star_id", headerHandler -> (swagger).get_universe_stars_star_id(star_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_stars_star_id", headerHandler -> (swagger).get_universe_stars(star_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4524,7 +5282,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_structures
+         * List all public structures
+         * 
+         * cache over {@link Swagger#get_universe_structures}<br />
          */
         public ObservableList<Long> structures() {
             if (get_universe_structures_holder == null) {
@@ -4547,7 +5307,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_system_jumps
+         * Get the number of jumps in solar systems within the last hour ending at the timestamp of the Last-Modified header, excluding wormhole space. Only systems with jumps will be listed
+         * 
+         * cache over {@link Swagger#get_universe_system_jumps}<br />
          */
         public ObservableList<R_get_universe_system_jumps> system_jumps() {
             if (get_universe_system_jumps_holder == null) {
@@ -4570,7 +5332,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_systems
+         * Get a list of solar systems
+         * 
+         * cache over {@link Swagger#get_universe_systems}<br />
          */
         public ObservableList<Integer> systems() {
             if (get_universe_systems_holder == null) {
@@ -4593,7 +5357,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_types
+         * Get a list of type ids
+         * 
+         * cache over {@link Swagger#get_universe_types}<br />
          */
         public ObservableList<Integer> types() {
             if (get_universe_types_holder == null) {
@@ -4616,7 +5382,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_factions
+         * Get a list of factions
+         * 
+         * cache over {@link Swagger#get_universe_factions}<br />
          */
         public ObservableList<R_get_universe_factions> factions() {
             if (get_universe_factions_holder == null) {
@@ -4639,7 +5407,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_stations_station_id
+         * Get information on a station
+         * 
+         * cache over {@link Swagger#get_universe_stations}<br />
+         * 
+         * @param station_id
+         *     station_id integer
          */
         public Property<R_get_universe_stations_station_id> stations(int station_id) {
             Property<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
@@ -4651,7 +5424,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_stations_station_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_stations_station_id_holder.put(station_id, ret);
-                        addFetchCacheObject("get_universe_stations_station_id", headerHandler -> (swagger).get_universe_stations_station_id(station_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_stations_station_id", headerHandler -> (swagger).get_universe_stations(station_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4665,7 +5438,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_structures_structure_id
+         * Returns information on requested structure if you are on the ACL. Otherwise, returns "Forbidden" for all inputs.
+         * 
+         * cache over {@link Swagger#get_universe_structures}<br />
+         * 
+         * @param structure_id
+         *     An Eve structure ID
          */
         public Property<R_get_universe_structures_structure_id> structures(long structure_id) {
             Property<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
@@ -4677,7 +5455,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_structures_structure_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_structures_structure_id_holder.put(structure_id, ret);
-                        addFetchCacheObject("get_universe_structures_structure_id", headerHandler -> (swagger).get_universe_structures_structure_id(structure_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_structures_structure_id", headerHandler -> (swagger).get_universe_structures(structure_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4691,7 +5469,9 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_system_kills
+         * Get the number of ship, pod and NPC kills per solar system within the last hour ending at the timestamp of the Last-Modified header, excluding wormhole space. Only systems with kills will be listed
+         * 
+         * cache over {@link Swagger#get_universe_system_kills}<br />
          */
         public ObservableList<R_get_universe_system_kills> system_kills() {
             if (get_universe_system_kills_holder == null) {
@@ -4714,7 +5494,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_types_type_id
+         * Get information on a type
+         * 
+         * cache over {@link Swagger#get_universe_types}<br />
+         * 
+         * @param type_id
+         *     An Eve item type ID
          */
         public Property<R_get_universe_types_type_id> types(int type_id) {
             Property<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
@@ -4726,7 +5511,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_types_type_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_types_type_id_holder.put(type_id, ret);
-                        addFetchCacheObject("get_universe_types_type_id", headerHandler -> (swagger).get_universe_types_type_id(type_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_types_type_id", headerHandler -> (swagger).get_universe_types(type_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4740,7 +5525,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_universe_systems_system_id
+         * Get information on a solar system.
+         * 
+         * cache over {@link Swagger#get_universe_systems}<br />
+         * 
+         * @param system_id
+         *     system_id integer
          */
         public Property<R_get_universe_systems_system_id> systems(int system_id) {
             Property<R_get_universe_systems_system_id> ret = get_universe_systems_system_id_holder.get(system_id);
@@ -4752,7 +5542,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_universe_systems_system_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_universe_systems_system_id_holder.put(system_id, ret);
-                        addFetchCacheObject("get_universe_systems_system_id", headerHandler -> (swagger).get_universe_systems_system_id(system_id, headerHandler), item -> {
+                        addFetchCacheObject("get_universe_systems_system_id", headerHandler -> (swagger).get_universe_systems(system_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4772,7 +5562,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
 
         /**
-         * @see get_wars
+         * Return a list of wars
+         * 
+         * cache over {@link Swagger#get_wars}<br />
+         * 
+         * @param max_war_id
+         *     Only return wars with ID smaller than this.
          */
         public ObservableList<Integer> wars(Integer max_war_id) {
             ObservableList<Integer> ret = get_wars_holder.get(max_war_id);
@@ -4798,9 +5593,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_wars_war_id
+         * Return details about a war
+         * 
+         * cache over {@link Swagger#get_wars}<br />
+         * 
+         * @param war_id
+         *     ID for a war
          */
-        public Property<R_get_wars_war_id> war_id(int war_id) {
+        public Property<R_get_wars_war_id> get(int war_id) {
             Property<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
             if (ret == null) {
                 synchronized (get_wars_war_id_holder)
@@ -4810,7 +5610,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         SimpleObjectProperty<R_get_wars_war_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
                         get_wars_war_id_holder.put(war_id, ret);
-                        addFetchCacheObject("get_wars_war_id", headerHandler -> (swagger).get_wars_war_id(war_id, headerHandler), item -> {
+                        addFetchCacheObject("get_wars_war_id", headerHandler -> (swagger).get_wars(war_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4824,7 +5624,12 @@ public abstract class SwaggerCache<T extends Swagger> {
         }
 
         /**
-         * @see get_wars_war_id_killmails
+         * Return a list of kills related to a war
+         * 
+         * cache over {@link Swagger#get_wars_killmails}<br />
+         * 
+         * @param war_id
+         *     A valid war ID
          */
         public ObservableList<M_get_killmails_2> killmails(int war_id) {
             ObservableList<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
@@ -4836,7 +5641,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                         ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                         ret = finalret;
                         get_wars_war_id_killmails_holder.put(war_id, ret);
-                        addFetchCacheArray("get_wars_war_id_killmails", (page, headerHandler) -> (swagger).get_wars_war_id_killmails(page, war_id, headerHandler), arr -> {
+                        addFetchCacheArray("get_wars_war_id_killmails", (page, headerHandler) -> (swagger).get_wars_killmails(page, war_id, headerHandler), arr -> {
                             synchronized (finalret)
                             {
                                 finalret.setAll(arr);

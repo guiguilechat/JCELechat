@@ -69,7 +69,7 @@ public class PI {
 			if (planetCacheExpiry <= System.currentTimeMillis()) {
 				Map<String, List<String>> headerHandler = new HashMap<>();
 				R_get_characters_character_id_planets[] planetIds = acc.raw
-						.get_characters_character_id_planets(acc.characterId(), headerHandler);
+						.get_characters_planets(acc.characterId(), headerHandler);
 				Set<Integer> pids = planetIds == null ? Collections.emptySet()
 						: Stream.of(planetIds).parallel().map(pli -> pli.planet_id).collect(Collectors.toSet());
 				cachedPlanets.keySet().retainAll(pids);
@@ -77,7 +77,7 @@ public class PI {
 				if (planetIds != null) {
 					Stream.of(planetIds).parallel().map(pli -> {
 						R_get_characters_character_id_planets_planet_id planet = acc.raw
-								.get_characters_character_id_planets_planet_id(acc.characterId(), pli.planet_id, null);
+								.get_characters_planets(acc.characterId(), pli.planet_id, null);
 						if (planet != null) {
 							ColonyInfo ret = new ColonyInfo(planet);
 							ret.addInfo(pli);

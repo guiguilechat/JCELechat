@@ -96,7 +96,7 @@ public class Informations {
 			synchronized (this) {
 				if (dataLatch == null) {
 					con.raw.cache.addFetchCacheObject(con.characterName() + ".infos",
-							h -> con.raw.get_characters_character_id(con.characterId(), h), this::handleData, Cache.NOROLE);
+							h -> con.raw.get_characters(con.characterId(), h), this::handleData, Cache.NOROLE);
 					dataLatch = new CountDownLatch(1);
 				}
 			}
