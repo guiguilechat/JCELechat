@@ -9,6 +9,27 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_0_int_Integer;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_10_int_long_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_11_int_int_Long;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_12_long_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_13_String_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_14_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_15_Integer_int_order_type;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_16_flag_int_int_Lint_LLint;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_17_String_LString_Boolean;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_18_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_19_String_LString_int_Boolean;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_1_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_20_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_2_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_3_Boolean_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_4_Integer_int_Lint;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_5_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_6_Long_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_7_int_long;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_8_int_int;
+import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_9_int_Boolean;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_bookmarks_9;
@@ -276,7 +297,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_alliances_alliance_id_icons> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_alliances_alliance_id_icons", (h->swagger.get_alliances_alliance_id_icons(alliance_id,h)), item -> {
+                        addFetchCacheObject("get_alliances_alliance_id_icons", headerHandler -> (swagger).get_alliances_alliance_id_icons(alliance_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -326,7 +347,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_alliances_alliance_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_alliances_alliance_id", (h->swagger.get_alliances_alliance_id(alliance_id,h)), item -> {
+                        addFetchCacheObject("get_alliances_alliance_id", headerHandler -> (swagger).get_alliances_alliance_id(alliance_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -343,18 +364,25 @@ public abstract class SwaggerCache<T extends Swagger> {
     public class Characters {
         private final Map<Integer, ObservableList<R_get_characters_character_id_agents_research>> get_characters_character_id_agents_research_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_attributes>> get_characters_character_id_attributes_holder = new HashMap<>();
+        private final Map<K_0_int_Integer, ObservableList<R_get_characters_character_id_calendar>> get_characters_character_id_calendar_holder = new HashMap<>();
+        private final Map<K_1_int_int, ObservableList<R_get_characters_character_id_calendar_event_id_attendees>> get_characters_character_id_calendar_event_id_attendees_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_contacts_labels_2>> get_characters_character_id_contacts_labels_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_contracts_22>> get_characters_character_id_contracts_holder = new HashMap<>();
+        private final Map<K_2_int_int, ObservableMap<Integer, M_get_contracts_contract_bids_4>> get_characters_character_id_contracts_contract_id_bids_holder = new HashMap<>();
+        private final Map<K_2_int_int, ObservableMap<Long, M_get_contracts_contract_items_6>> get_characters_character_id_contracts_contract_id_items_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_corporationhistory>> get_characters_character_id_corporationhistory_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fatigue>> get_characters_character_id_fatigue_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_fittings>> get_characters_character_id_fittings_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fleet>> get_characters_character_id_fleet_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_fw_stats>> get_characters_character_id_fw_stats_holder = new HashMap<>();
         private final Map<Integer, ObservableList<Integer>> get_characters_character_id_implants_holder = new HashMap<>();
+        private final Map<K_3_Boolean_int, ObservableMap<Integer, R_get_characters_character_id_industry_jobs>> get_characters_character_id_industry_jobs_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_killmails_2>> get_characters_character_id_killmails_recent_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_location>> get_characters_character_id_location_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_loyalty_points>> get_characters_character_id_loyalty_points_holder = new HashMap<>();
+        private final Map<K_4_Integer_int_Lint, ObservableList<R_get_characters_character_id_mail>> get_characters_character_id_mail_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_mail_lists>> get_characters_character_id_mail_lists_holder = new HashMap<>();
+        private final Map<K_5_int_int, Property<R_get_characters_character_id_mail_mail_id>> get_characters_character_id_mail_mail_id_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_medals>> get_characters_character_id_medals_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_mining>> get_characters_character_id_mining_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_notifications_contacts>> get_characters_character_id_notifications_contacts_holder = new HashMap<>();
@@ -365,6 +393,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<M_get_standings_3>> get_characters_character_id_standings_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_titles>> get_characters_character_id_titles_holder = new HashMap<>();
         private final Map<Integer, Property<Double>> get_characters_character_id_wallet_holder = new HashMap<>();
+        private final Map<K_6_Long_int, ObservableMap<Long, R_get_characters_character_id_wallet_transactions>> get_characters_character_id_wallet_transactions_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, M_get_blueprints_8>> get_characters_character_id_blueprints_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_bookmarks_9>> get_characters_character_id_bookmarks_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_bookmarks_folders>> get_characters_character_id_bookmarks_folders_holder = new HashMap<>();
@@ -377,8 +406,11 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<R_get_characters_character_id_skillqueue>> get_characters_character_id_skillqueue_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_characters_character_id_stats>> get_characters_character_id_stats_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_assets_8>> get_characters_character_id_assets_holder = new HashMap<>();
+        private final Map<K_1_int_int, Property<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
+        private final Map<K_18_int_int, Property<R_get_characters_character_id_planets_planet_id>> get_characters_character_id_planets_planet_id_holder = new HashMap<>();
+        private final Map<K_19_String_LString_int_Boolean, Property<R_get_characters_character_id_search>> get_characters_character_id_search_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id>> get_characters_character_id_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
@@ -420,7 +452,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_attributes> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_attributes", (h->swagger.get_characters_character_id_attributes(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_attributes", headerHandler -> (swagger).get_characters_character_id_attributes(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -437,16 +469,52 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_calendar
          */
         public ObservableList<R_get_characters_character_id_calendar> get_characters_character_id_calendar(int character_id, Integer from_event) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_0_int_Integer param = new K_0_int_Integer(character_id, from_event);
+            ObservableList<R_get_characters_character_id_calendar> ret = get_characters_character_id_calendar_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_calendar_holder)
+                {
+                    ret = get_characters_character_id_calendar_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_calendar> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_calendar", (page, headerHandler) -> (swagger).get_characters_character_id_calendar(character_id, from_event, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_calendar_event_id_attendees
          */
         public ObservableList<R_get_characters_character_id_calendar_event_id_attendees> get_characters_character_id_calendar_event_id_attendees(int character_id, int event_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_1_int_int param = new K_1_int_int(event_id, character_id);
+            ObservableList<R_get_characters_character_id_calendar_event_id_attendees> ret = get_characters_character_id_calendar_event_id_attendees_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_calendar_event_id_attendees_holder)
+                {
+                    ret = get_characters_character_id_calendar_event_id_attendees_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_calendar_event_id_attendees> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_calendar_event_id_attendees", (page, headerHandler) -> (swagger).get_characters_character_id_calendar_event_id_attendees(character_id, event_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -503,16 +571,62 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_contracts_contract_id_bids
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> get_characters_character_id_contracts_contract_id_bids(int character_id, int contract_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_2_int_int param = new K_2_int_int(contract_id, character_id);
+            ObservableMap<Integer, M_get_contracts_contract_bids_4> ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_contracts_contract_id_bids_holder)
+                {
+                    ret = get_characters_character_id_contracts_contract_id_bids_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_characters_character_id_contracts_contract_id_bids(character_id, contract_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
+                                for (M_get_contracts_contract_bids_4 val: arr) {
+                                    newmap.put((val.bid_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_contracts_contract_id_items
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> get_characters_character_id_contracts_contract_id_items(int character_id, int contract_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_2_int_int param = new K_2_int_int(contract_id, character_id);
+            ObservableMap<Long, M_get_contracts_contract_items_6> ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_contracts_contract_id_items_holder)
+                {
+                    ret = get_characters_character_id_contracts_contract_id_items_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_characters_character_id_contracts_contract_id_items(character_id, contract_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
+                                for (M_get_contracts_contract_items_6 val: arr) {
+                                    newmap.put((val.record_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -552,7 +666,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_fatigue> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_fatigue", (h->swagger.get_characters_character_id_fatigue(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_fatigue", headerHandler -> (swagger).get_characters_character_id_fatigue(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -602,7 +716,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_fleet> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_fleet", (h->swagger.get_characters_character_id_fleet(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_fleet", headerHandler -> (swagger).get_characters_character_id_fleet(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -627,7 +741,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_fw_stats> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_fw_stats", (h->swagger.get_characters_character_id_fw_stats(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_fw_stats", headerHandler -> (swagger).get_characters_character_id_fw_stats(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -669,8 +783,31 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_industry_jobs
          */
         public ObservableMap<Integer, R_get_characters_character_id_industry_jobs> get_characters_character_id_industry_jobs(int character_id, Boolean include_completed) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_3_Boolean_int param = new K_3_Boolean_int(include_completed, character_id);
+            ObservableMap<Integer, R_get_characters_character_id_industry_jobs> ret = get_characters_character_id_industry_jobs_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_industry_jobs_holder)
+                {
+                    ret = get_characters_character_id_industry_jobs_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Integer, R_get_characters_character_id_industry_jobs> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_industry_jobs", (page, headerHandler) -> (swagger).get_characters_character_id_industry_jobs(character_id, include_completed, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Integer, R_get_characters_character_id_industry_jobs> newmap = new LinkedHashMap<>();
+                                for (R_get_characters_character_id_industry_jobs val: arr) {
+                                    newmap.put((val.job_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -710,7 +847,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_location> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_location", (h->swagger.get_characters_character_id_location(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_location", headerHandler -> (swagger).get_characters_character_id_location(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -752,8 +889,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_mail
          */
         public ObservableList<R_get_characters_character_id_mail> get_characters_character_id_mail(int character_id, int[] labels, Integer last_mail_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_4_Integer_int_Lint param = new K_4_Integer_int_Lint(last_mail_id, character_id, labels);
+            ObservableList<R_get_characters_character_id_mail> ret = get_characters_character_id_mail_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_mail_holder)
+                {
+                    ret = get_characters_character_id_mail_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_characters_character_id_mail> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_mail", (page, headerHandler) -> (swagger).get_characters_character_id_mail(character_id, labels, last_mail_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -785,8 +940,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_mail_mail_id
          */
         public Property<R_get_characters_character_id_mail_mail_id> get_characters_character_id_mail_mail_id(int character_id, int mail_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_5_int_int param = new K_5_int_int(mail_id, character_id);
+            Property<R_get_characters_character_id_mail_mail_id> ret = get_characters_character_id_mail_mail_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_mail_mail_id_holder)
+                {
+                    ret = get_characters_character_id_mail_mail_id_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_mail_mail_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_mail_mail_id", headerHandler -> (swagger).get_characters_character_id_mail_mail_id(character_id, mail_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -956,7 +1129,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_ship> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_ship", (h->swagger.get_characters_character_id_ship(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_ship", headerHandler -> (swagger).get_characters_character_id_ship(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1031,7 +1204,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<Double> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_wallet", (h->swagger.get_characters_character_id_wallet(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_wallet", headerHandler -> (swagger).get_characters_character_id_wallet(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1048,8 +1221,31 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_wallet_transactions
          */
         public ObservableMap<Long, R_get_characters_character_id_wallet_transactions> get_characters_character_id_wallet_transactions(int character_id, Long from_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_6_Long_int param = new K_6_Long_int(from_id, character_id);
+            ObservableMap<Long, R_get_characters_character_id_wallet_transactions> ret = get_characters_character_id_wallet_transactions_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_wallet_transactions_holder)
+                {
+                    ret = get_characters_character_id_wallet_transactions_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Long, R_get_characters_character_id_wallet_transactions> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, headerHandler) -> (swagger).get_characters_character_id_wallet_transactions(character_id, from_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Long, R_get_characters_character_id_wallet_transactions> newmap = new LinkedHashMap<>();
+                                for (R_get_characters_character_id_wallet_transactions val: arr) {
+                                    newmap.put((val.transaction_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1194,7 +1390,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_online> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_online", (h->swagger.get_characters_character_id_online(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_online", headerHandler -> (swagger).get_characters_character_id_online(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1249,7 +1445,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_portrait> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_portrait", (h->swagger.get_characters_character_id_portrait(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_portrait", headerHandler -> (swagger).get_characters_character_id_portrait(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1274,7 +1470,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_roles> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_roles", (h->swagger.get_characters_character_id_roles(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_roles", headerHandler -> (swagger).get_characters_character_id_roles(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1366,8 +1562,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_calendar_event_id
          */
         public Property<R_get_characters_character_id_calendar_event_id> get_characters_character_id_calendar_event_id(int character_id, int event_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_1_int_int param = new K_1_int_int(event_id, character_id);
+            Property<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_calendar_event_id_holder)
+                {
+                    ret = get_characters_character_id_calendar_event_id_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_calendar_event_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_calendar_event_id", headerHandler -> (swagger).get_characters_character_id_calendar_event_id(character_id, event_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1382,7 +1596,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_clones> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_clones", (h->swagger.get_characters_character_id_clones(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_clones", headerHandler -> (swagger).get_characters_character_id_clones(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1407,7 +1621,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_mail_labels> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_mail_labels", (h->swagger.get_characters_character_id_mail_labels(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_mail_labels", headerHandler -> (swagger).get_characters_character_id_mail_labels(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1424,16 +1638,52 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_characters_character_id_planets_planet_id
          */
         public Property<R_get_characters_character_id_planets_planet_id> get_characters_character_id_planets_planet_id(int character_id, int planet_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_18_int_int param = new K_18_int_int(planet_id, character_id);
+            Property<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_planets_planet_id_holder)
+                {
+                    ret = get_characters_character_id_planets_planet_id_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_planets_planet_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_planets_planet_id", headerHandler -> (swagger).get_characters_character_id_planets_planet_id(character_id, planet_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_characters_character_id_search
          */
         public Property<R_get_characters_character_id_search> get_characters_character_id_search(String[] categories, int character_id, String search, Boolean strict) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
+            Property<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
+            if (ret == null) {
+                synchronized (get_characters_character_id_search_holder)
+                {
+                    ret = get_characters_character_id_search_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_characters_character_id_search> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_characters_character_id_search", headerHandler -> (swagger).get_characters_character_id_search(categories, character_id, search, strict, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1448,7 +1698,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id", (h->swagger.get_characters_character_id(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id", headerHandler -> (swagger).get_characters_character_id(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1473,7 +1723,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_characters_character_id_skills> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_characters_character_id_skills", (h->swagger.get_characters_character_id_skills(character_id,h)), item -> {
+                        addFetchCacheObject("get_characters_character_id_skills", headerHandler -> (swagger).get_characters_character_id_skills(character_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1520,6 +1770,7 @@ public abstract class SwaggerCache<T extends Swagger> {
     public class Corporation {
         private final Map<Integer, ObservableList<R_get_corporation_corporation_id_mining_extractions>> get_corporation_corporation_id_mining_extractions_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporation_corporation_id_mining_observers>> get_corporation_corporation_id_mining_observers_holder = new HashMap<>();
+        private final Map<K_7_int_long, ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id>> get_corporation_corporation_id_mining_observers_observer_id_holder = new HashMap<>();
 
         /**
          * @see get_corporation_corporation_id_mining_extractions
@@ -1575,8 +1826,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporation_corporation_id_mining_observers_observer_id
          */
         public ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> get_corporation_corporation_id_mining_observers_observer_id(int corporation_id, long observer_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_7_int_long param = new K_7_int_long(corporation_id, observer_id);
+            ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporation_corporation_id_mining_observers_observer_id_holder)
+                {
+                    ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, headerHandler) -> (swagger).get_corporation_corporation_id_mining_observers_observer_id(corporation_id, observer_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        , new String[] {"Accountant"});
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -1586,11 +1855,14 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_bookmarks_folders>> get_corporations_corporation_id_bookmarks_folders_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_contacts_labels_2>> get_corporations_corporation_id_contacts_labels_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_contracts_22>> get_corporations_corporation_id_contracts_holder = new HashMap<>();
+        private final Map<K_8_int_int, ObservableMap<Integer, M_get_contracts_contract_bids_4>> get_corporations_corporation_id_contracts_contract_id_bids_holder = new HashMap<>();
+        private final Map<K_8_int_int, ObservableMap<Long, M_get_contracts_contract_items_6>> get_corporations_corporation_id_contracts_contract_id_items_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, R_get_corporations_corporation_id_customs_offices>> get_corporations_corporation_id_customs_offices_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id_icons>> get_corporations_corporation_id_icons_holder = new HashMap<>();
+        private final Map<K_9_int_Boolean, ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs>> get_corporations_corporation_id_industry_jobs_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_killmails_2>> get_corporations_corporation_id_killmails_recent_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_medals>> get_corporations_corporation_id_medals_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_medals_issued>> get_corporations_corporation_id_medals_issued_holder = new HashMap<>();
@@ -1602,8 +1874,10 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
         private final Map<Integer, ObservableList<M_get_standings_3>> get_corporations_corporation_id_standings_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, R_get_corporations_corporation_id_starbases>> get_corporations_corporation_id_starbases_holder = new HashMap<>();
+        private final Map<K_10_int_long_int, Property<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
+        private final Map<K_11_int_int_Long, ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_alliancehistory>> get_corporations_corporation_id_alliancehistory_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, M_get_blueprints_8>> get_corporations_corporation_id_blueprints_holder = new HashMap<>();
         private final Map<Integer, ObservableList<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
@@ -1613,6 +1887,7 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, ObservableList<M_get_assets_8>> get_corporations_corporation_id_assets_holder = new HashMap<>();
         private final Map<Integer, ObservableList<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
         private final Map<Integer, ObservableMap<Long, R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
+        private final Map<K_20_int_int, ObservableMap<Long, M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
         private final Map<Integer, Property<R_get_corporations_corporation_id>> get_corporations_corporation_id_holder = new HashMap<>();
 
         /**
@@ -1742,16 +2017,62 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_contracts_contract_id_bids
          */
         public ObservableMap<Integer, M_get_contracts_contract_bids_4> get_corporations_corporation_id_contracts_contract_id_bids(int contract_id, int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_8_int_int param = new K_8_int_int(corporation_id, contract_id);
+            ObservableMap<Integer, M_get_contracts_contract_bids_4> ret = get_corporations_corporation_id_contracts_contract_id_bids_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_contracts_contract_id_bids_holder)
+                {
+                    ret = get_corporations_corporation_id_contracts_contract_id_bids_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts_contract_id_bids(contract_id, corporation_id, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Integer, M_get_contracts_contract_bids_4> newmap = new LinkedHashMap<>();
+                                for (M_get_contracts_contract_bids_4 val: arr) {
+                                    newmap.put((val.bid_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_corporations_corporation_id_contracts_contract_id_items
          */
         public ObservableMap<Long, M_get_contracts_contract_items_6> get_corporations_corporation_id_contracts_contract_id_items(int contract_id, int corporation_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_8_int_int param = new K_8_int_int(corporation_id, contract_id);
+            ObservableMap<Long, M_get_contracts_contract_items_6> ret = get_corporations_corporation_id_contracts_contract_id_items_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_contracts_contract_id_items_holder)
+                {
+                    ret = get_corporations_corporation_id_contracts_contract_id_items_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, headerHandler) -> (swagger).get_corporations_corporation_id_contracts_contract_id_items(contract_id, corporation_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Long, M_get_contracts_contract_items_6> newmap = new LinkedHashMap<>();
+                                for (M_get_contracts_contract_items_6 val: arr) {
+                                    newmap.put((val.record_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1796,7 +2117,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_corporations_corporation_id_divisions> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_corporations_corporation_id_divisions", (h->swagger.get_corporations_corporation_id_divisions(corporation_id,h)), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_divisions", headerHandler -> (swagger).get_corporations_corporation_id_divisions(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1846,7 +2167,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", (h->swagger.get_corporations_corporation_id_fw_stats(corporation_id,h)), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_fw_stats", headerHandler -> (swagger).get_corporations_corporation_id_fw_stats(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1871,7 +2192,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_corporations_corporation_id_icons> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_corporations_corporation_id_icons", (h->swagger.get_corporations_corporation_id_icons(corporation_id,h)), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_icons", headerHandler -> (swagger).get_corporations_corporation_id_icons(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -1888,8 +2209,31 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_industry_jobs
          */
         public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> get_corporations_corporation_id_industry_jobs(int corporation_id, Boolean include_completed) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_9_int_Boolean param = new K_9_int_Boolean(corporation_id, include_completed);
+            ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> ret = get_corporations_corporation_id_industry_jobs_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_industry_jobs_holder)
+                {
+                    ret = get_corporations_corporation_id_industry_jobs_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, headerHandler) -> (swagger).get_corporations_corporation_id_industry_jobs(corporation_id, include_completed, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Integer, R_get_corporations_corporation_id_industry_jobs> newmap = new LinkedHashMap<>();
+                                for (R_get_corporations_corporation_id_industry_jobs val: arr) {
+                                    newmap.put((val.job_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        , new String[] {"FactoryManager"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -1979,7 +2323,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<Integer> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_corporations_corporation_id_members_limit", (h->swagger.get_corporations_corporation_id_members_limit(corporation_id,h)), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id_members_limit", headerHandler -> (swagger).get_corporations_corporation_id_members_limit(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2176,8 +2520,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_starbases_starbase_id
          */
         public Property<R_get_corporations_corporation_id_starbases_starbase_id> get_corporations_corporation_id_starbases_starbase_id(int corporation_id, long starbase_id, int system_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_10_int_long_int param = new K_10_int_long_int(corporation_id, starbase_id, system_id);
+            Property<R_get_corporations_corporation_id_starbases_starbase_id> ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_starbases_starbase_id_holder)
+                {
+                    ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_corporations_corporation_id_starbases_starbase_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", headerHandler -> (swagger).get_corporations_corporation_id_starbases_starbase_id(corporation_id, starbase_id, system_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        , new String[] {"Director"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2234,8 +2596,31 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_wallets_division_transactions
          */
         public ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> get_corporations_corporation_id_wallets_division_transactions(int corporation_id, int division, Long from_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_11_int_int_Long param = new K_11_int_int_Long(division, corporation_id, from_id);
+            ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_wallets_division_transactions_holder)
+                {
+                    ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets_division_transactions(corporation_id, division, from_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> newmap = new LinkedHashMap<>();
+                                for (R_get_corporations_corporation_id_wallets_division_transactions val: arr) {
+                                    newmap.put((val.transaction_id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        , new String[] {"Accountant", "Junior_Accountant"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2482,8 +2867,31 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_corporations_corporation_id_wallets_division_journal
          */
         public ObservableMap<Long, M_get_journal_13> get_corporations_corporation_id_wallets_division_journal(int corporation_id, int division) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_20_int_int param = new K_20_int_int(division, corporation_id);
+            ObservableMap<Long, M_get_journal_13> ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
+            if (ret == null) {
+                synchronized (get_corporations_corporation_id_wallets_division_journal_holder)
+                {
+                    ret = get_corporations_corporation_id_wallets_division_journal_holder.get(param);
+                    if (ret == null) {
+                        ObservableMap<Long, M_get_journal_13> finalret = FXCollections.observableHashMap();
+                        ret = finalret;
+                        addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, headerHandler) -> (swagger).get_corporations_corporation_id_wallets_division_journal(corporation_id, division, page, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                LinkedHashMap<Long, M_get_journal_13> newmap = new LinkedHashMap<>();
+                                for (M_get_journal_13 val: arr) {
+                                    newmap.put((val.id), (val));
+                                }
+                                finalret.entrySet();
+                                finalret.putAll(newmap);
+                            }
+                        }
+                        , new String[] {"Accountant", "Junior_Accountant"});
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2498,7 +2906,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_corporations_corporation_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_corporations_corporation_id", (h->swagger.get_corporations_corporation_id(corporation_id,h)), item -> {
+                        addFetchCacheObject("get_corporations_corporation_id", headerHandler -> (swagger).get_corporations_corporation_id(corporation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2515,6 +2923,7 @@ public abstract class SwaggerCache<T extends Swagger> {
     public class Dogma {
         private ObservableList<Integer> get_dogma_attributes_holder;
         private final Map<Integer, Property<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_holder = new HashMap<>();
+        private final Map<K_12_long_int, Property<R_get_dogma_dynamic_items_type_id_item_id>> get_dogma_dynamic_items_type_id_item_id_holder = new HashMap<>();
         private ObservableList<Integer> get_dogma_effects_holder;
         private final Map<Integer, Property<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
 
@@ -2553,7 +2962,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_dogma_attributes_attribute_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_dogma_attributes_attribute_id", (h->swagger.get_dogma_attributes_attribute_id(attribute_id,h)), item -> {
+                        addFetchCacheObject("get_dogma_attributes_attribute_id", headerHandler -> (swagger).get_dogma_attributes_attribute_id(attribute_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2570,8 +2979,26 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_dogma_dynamic_items_type_id_item_id
          */
         public Property<R_get_dogma_dynamic_items_type_id_item_id> get_dogma_dynamic_items_type_id_item_id(long item_id, int type_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_12_long_int param = new K_12_long_int(item_id, type_id);
+            Property<R_get_dogma_dynamic_items_type_id_item_id> ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
+            if (ret == null) {
+                synchronized (get_dogma_dynamic_items_type_id_item_id_holder)
+                {
+                    ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_dogma_dynamic_items_type_id_item_id> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", headerHandler -> (swagger).get_dogma_dynamic_items_type_id_item_id(item_id, type_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -2609,7 +3036,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_dogma_effects_effect_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_dogma_effects_effect_id", (h->swagger.get_dogma_effects_effect_id(effect_id,h)), item -> {
+                        addFetchCacheObject("get_dogma_effects_effect_id", headerHandler -> (swagger).get_dogma_effects_effect_id(effect_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2640,7 +3067,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_fleets_fleet_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_fleets_fleet_id", (h->swagger.get_fleets_fleet_id(fleet_id,h)), item -> {
+                        addFetchCacheObject("get_fleets_fleet_id", headerHandler -> (swagger).get_fleets_fleet_id(fleet_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -2722,7 +3149,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_holder == null) {
                         get_fw_leaderboards_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_holder;
-                        addFetchCacheObject("get_fw_leaderboards", (m->swagger.get_fw_leaderboards(m)), item -> {
+                        addFetchCacheObject("get_fw_leaderboards", headerHandler -> (swagger).get_fw_leaderboards(headerHandler), item -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.set(item);
@@ -2745,7 +3172,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_characters_holder == null) {
                         get_fw_leaderboards_characters_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_characters_holder;
-                        addFetchCacheObject("get_fw_leaderboards_characters", (m->swagger.get_fw_leaderboards_characters(m)), item -> {
+                        addFetchCacheObject("get_fw_leaderboards_characters", headerHandler -> (swagger).get_fw_leaderboards_characters(headerHandler), item -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.set(item);
@@ -2768,7 +3195,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_fw_leaderboards_corporations_holder == null) {
                         get_fw_leaderboards_corporations_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_corporations_holder;
-                        addFetchCacheObject("get_fw_leaderboards_corporations", (m->swagger.get_fw_leaderboards_corporations(m)), item -> {
+                        addFetchCacheObject("get_fw_leaderboards_corporations", headerHandler -> (swagger).get_fw_leaderboards_corporations(headerHandler), item -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.set(item);
@@ -2957,13 +3384,32 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Killmails {
+        private final Map<K_13_String_int, Property<R_get_killmails_killmail_id_killmail_hash>> get_killmails_killmail_id_killmail_hash_holder = new HashMap<>();
 
         /**
          * @see get_killmails_killmail_id_killmail_hash
          */
         public Property<R_get_killmails_killmail_id_killmail_hash> get_killmails_killmail_id_killmail_hash(String killmail_hash, int killmail_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_13_String_int param = new K_13_String_int(killmail_hash, killmail_id);
+            Property<R_get_killmails_killmail_id_killmail_hash> ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
+            if (ret == null) {
+                synchronized (get_killmails_killmail_id_killmail_hash_holder)
+                {
+                    ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_killmails_killmail_id_killmail_hash> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_killmails_killmail_id_killmail_hash", headerHandler -> (swagger).get_killmails_killmail_id_killmail_hash(killmail_hash, killmail_id, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -3001,6 +3447,8 @@ public abstract class SwaggerCache<T extends Swagger> {
         private final Map<Integer, Property<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
         private ObservableList<R_get_markets_prices> get_markets_prices_holder;
         private final Map<Long, ObservableList<R_get_markets_structures_structure_id>> get_markets_structures_structure_id_holder = new HashMap<>();
+        private final Map<K_14_int_int, ObservableList<R_get_markets_region_id_history>> get_markets_region_id_history_holder = new HashMap<>();
+        private final Map<K_15_Integer_int_order_type, ObservableList<R_get_markets_region_id_orders>> get_markets_region_id_orders_holder = new HashMap<>();
         private final Map<Integer, ObservableList<Integer>> get_markets_region_id_types_holder = new HashMap<>();
 
         /**
@@ -3038,7 +3486,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_markets_groups_market_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_markets_groups_market_group_id", (h->swagger.get_markets_groups_market_group_id(market_group_id,h)), item -> {
+                        addFetchCacheObject("get_markets_groups_market_group_id", headerHandler -> (swagger).get_markets_groups_market_group_id(market_group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3103,16 +3551,52 @@ public abstract class SwaggerCache<T extends Swagger> {
          * @see get_markets_region_id_history
          */
         public ObservableList<R_get_markets_region_id_history> get_markets_region_id_history(int region_id, int type_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_14_int_int param = new K_14_int_int(type_id, region_id);
+            ObservableList<R_get_markets_region_id_history> ret = get_markets_region_id_history_holder.get(param);
+            if (ret == null) {
+                synchronized (get_markets_region_id_history_holder)
+                {
+                    ret = get_markets_region_id_history_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_markets_region_id_history> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_markets_region_id_history", (page, headerHandler) -> (swagger).get_markets_region_id_history(region_id, type_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
          * @see get_markets_region_id_orders
          */
         public ObservableList<R_get_markets_region_id_orders> get_markets_region_id_orders(Swagger.order_type order_type, int region_id, Integer type_id) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_15_Integer_int_order_type param = new K_15_Integer_int_order_type(type_id, region_id, order_type);
+            ObservableList<R_get_markets_region_id_orders> ret = get_markets_region_id_orders_holder.get(param);
+            if (ret == null) {
+                synchronized (get_markets_region_id_orders_holder)
+                {
+                    ret = get_markets_region_id_orders_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<R_get_markets_region_id_orders> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_markets_region_id_orders", (page, headerHandler) -> (swagger).get_markets_region_id_orders(order_type, page, region_id, type_id, headerHandler), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
 
         /**
@@ -3182,7 +3666,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_opportunities_groups_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_opportunities_groups_group_id", (h->swagger.get_opportunities_groups_group_id(group_id,h)), item -> {
+                        addFetchCacheObject("get_opportunities_groups_group_id", headerHandler -> (swagger).get_opportunities_groups_group_id(group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3230,7 +3714,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_opportunities_tasks_task_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_opportunities_tasks_task_id", (h->swagger.get_opportunities_tasks_task_id(task_id,h)), item -> {
+                        addFetchCacheObject("get_opportunities_tasks_task_id", headerHandler -> (swagger).get_opportunities_tasks_task_id(task_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3252,24 +3736,62 @@ public abstract class SwaggerCache<T extends Swagger> {
     }
 
     public class Route {
+        private final Map<K_16_flag_int_int_Lint_LLint, ObservableList<Integer>> get_route_origin_destination_holder = new HashMap<>();
 
         /**
          * @see get_route_origin_destination
          */
         public ObservableList<Integer> get_route_origin_destination(int[] avoid, int[][] connections, int destination, Swagger.flag flag, int origin) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
+            ObservableList<Integer> ret = get_route_origin_destination_holder.get(param);
+            if (ret == null) {
+                synchronized (get_route_origin_destination_holder)
+                {
+                    ret = get_route_origin_destination_holder.get(param);
+                    if (ret == null) {
+                        ObservableList<Integer> finalret = FXCollections.observableArrayList();
+                        ret = finalret;
+                        addFetchCacheArray("get_route_origin_destination", (page, headerHandler) -> IntStream.of((swagger).get_route_origin_destination(avoid, connections, destination, flag, origin, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
+                            synchronized (finalret)
+                            {
+                                finalret.setAll(arr);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
     public class Search {
+        private final Map<K_17_String_LString_Boolean, Property<R_get_search>> get_search_holder = new HashMap<>();
 
         /**
          * @see get_search
          */
         public Property<R_get_search> get_search(String[] categories, String search, Boolean strict) {
-            // TODO 
-            throw new UnsupportedOperationException();
+            K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
+            Property<R_get_search> ret = get_search_holder.get(param);
+            if (ret == null) {
+                synchronized (get_search_holder)
+                {
+                    ret = get_search_holder.get(param);
+                    if (ret == null) {
+                        SimpleObjectProperty<R_get_search> finalret = new SimpleObjectProperty<>();
+                        ret = finalret;
+                        addFetchCacheObject("get_search", headerHandler -> (swagger).get_search(categories, search, strict, headerHandler), item -> {
+                            synchronized (finalret)
+                            {
+                                finalret.set(item);
+                            }
+                        }
+                        );
+                    }
+                }
+            }
+            return ret;
         }
     }
 
@@ -3371,7 +3893,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (get_status_holder == null) {
                         get_status_holder = new SimpleObjectProperty<>();
                         SimpleObjectProperty<R_get_status> finalContainer = get_status_holder;
-                        addFetchCacheObject("get_status", (m->swagger.get_status(m)), item -> {
+                        addFetchCacheObject("get_status", headerHandler -> (swagger).get_status(headerHandler), item -> {
                             synchronized (finalContainer)
                             {
                                 finalContainer.set(item);
@@ -3451,7 +3973,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_asteroid_belts_asteroid_belt_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", (h->swagger.get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id,h)), item -> {
+                        addFetchCacheObject("get_universe_asteroid_belts_asteroid_belt_id", headerHandler -> (swagger).get_universe_asteroid_belts_asteroid_belt_id(asteroid_belt_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3522,7 +4044,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_categories_category_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_categories_category_id", (h->swagger.get_universe_categories_category_id(category_id,h)), item -> {
+                        addFetchCacheObject("get_universe_categories_category_id", headerHandler -> (swagger).get_universe_categories_category_id(category_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3570,7 +4092,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_constellations_constellation_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_constellations_constellation_id", (h->swagger.get_universe_constellations_constellation_id(constellation_id,h)), item -> {
+                        addFetchCacheObject("get_universe_constellations_constellation_id", headerHandler -> (swagger).get_universe_constellations_constellation_id(constellation_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3618,7 +4140,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_graphics_graphic_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_graphics_graphic_id", (h->swagger.get_universe_graphics_graphic_id(graphic_id,h)), item -> {
+                        addFetchCacheObject("get_universe_graphics_graphic_id", headerHandler -> (swagger).get_universe_graphics_graphic_id(graphic_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3666,7 +4188,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_groups_group_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_groups_group_id", (h->swagger.get_universe_groups_group_id(group_id,h)), item -> {
+                        addFetchCacheObject("get_universe_groups_group_id", headerHandler -> (swagger).get_universe_groups_group_id(group_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3691,7 +4213,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_moons_moon_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_moons_moon_id", (h->swagger.get_universe_moons_moon_id(moon_id,h)), item -> {
+                        addFetchCacheObject("get_universe_moons_moon_id", headerHandler -> (swagger).get_universe_moons_moon_id(moon_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3716,7 +4238,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_planets_planet_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_planets_planet_id", (h->swagger.get_universe_planets_planet_id(planet_id,h)), item -> {
+                        addFetchCacheObject("get_universe_planets_planet_id", headerHandler -> (swagger).get_universe_planets_planet_id(planet_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3787,7 +4309,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_regions_region_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_regions_region_id", (h->swagger.get_universe_regions_region_id(region_id,h)), item -> {
+                        addFetchCacheObject("get_universe_regions_region_id", headerHandler -> (swagger).get_universe_regions_region_id(region_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3812,7 +4334,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_schematics_schematic_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_schematics_schematic_id", (h->swagger.get_universe_schematics_schematic_id(schematic_id,h)), item -> {
+                        addFetchCacheObject("get_universe_schematics_schematic_id", headerHandler -> (swagger).get_universe_schematics_schematic_id(schematic_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3837,7 +4359,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_stargates_stargate_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_stargates_stargate_id", (h->swagger.get_universe_stargates_stargate_id(stargate_id,h)), item -> {
+                        addFetchCacheObject("get_universe_stargates_stargate_id", headerHandler -> (swagger).get_universe_stargates_stargate_id(stargate_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -3862,7 +4384,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_stars_star_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_stars_star_id", (h->swagger.get_universe_stars_star_id(star_id,h)), item -> {
+                        addFetchCacheObject("get_universe_stars_star_id", headerHandler -> (swagger).get_universe_stars_star_id(star_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4002,7 +4524,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_stations_station_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_stations_station_id", (h->swagger.get_universe_stations_station_id(station_id,h)), item -> {
+                        addFetchCacheObject("get_universe_stations_station_id", headerHandler -> (swagger).get_universe_stations_station_id(station_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4027,7 +4549,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_structures_structure_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_structures_structure_id", (h->swagger.get_universe_structures_structure_id(structure_id,h)), item -> {
+                        addFetchCacheObject("get_universe_structures_structure_id", headerHandler -> (swagger).get_universe_structures_structure_id(structure_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4075,7 +4597,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_types_type_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_types_type_id", (h->swagger.get_universe_types_type_id(type_id,h)), item -> {
+                        addFetchCacheObject("get_universe_types_type_id", headerHandler -> (swagger).get_universe_types_type_id(type_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4100,7 +4622,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_universe_systems_system_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_universe_systems_system_id", (h->swagger.get_universe_systems_system_id(system_id,h)), item -> {
+                        addFetchCacheObject("get_universe_systems_system_id", headerHandler -> (swagger).get_universe_systems_system_id(system_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
@@ -4156,7 +4678,7 @@ public abstract class SwaggerCache<T extends Swagger> {
                     if (ret == null) {
                         SimpleObjectProperty<R_get_wars_war_id> finalret = new SimpleObjectProperty<>();
                         ret = finalret;
-                        addFetchCacheObject("get_wars_war_id", (h->swagger.get_wars_war_id(war_id,h)), item -> {
+                        addFetchCacheObject("get_wars_war_id", headerHandler -> (swagger).get_wars_war_id(war_id, headerHandler), item -> {
                             synchronized (finalret)
                             {
                                 finalret.set(item);
