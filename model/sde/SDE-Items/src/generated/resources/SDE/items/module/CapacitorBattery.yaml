@@ -607,3 +607,10 @@ items:
     id: 4913
     name: X-Large Peroxide Capacitor Power Cell
     volume: 20.0
+  unnamed_gid0_sid0:
+    RequiredSkill1: 3424
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 48439
+    name: unnamed_gid0_sid0
+    volume: 50.0

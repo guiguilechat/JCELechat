@@ -1205,3 +1205,10 @@ items:
     marketGroup: 694
     name: Vizan's Modified Heavy Energy Nosferatu
     volume: 5.0
+  unnamed_gid0_sid0:
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 4
+    TechLevel: 1
+    id: 48427
+    name: unnamed_gid0_sid0
+    volume: 50.0

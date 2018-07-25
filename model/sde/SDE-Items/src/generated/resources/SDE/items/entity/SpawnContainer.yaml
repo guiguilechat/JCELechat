@@ -535,6 +535,9 @@ items:
     id: 12556
     name: Frequency Crystal Storage
     volume: 1200.0
+  GalFed_Boss3:
+    id: 48133
+    name: GalFed_Boss3
   Gallente Academy Office:
     id: 3835
     name: Gallente Academy Office

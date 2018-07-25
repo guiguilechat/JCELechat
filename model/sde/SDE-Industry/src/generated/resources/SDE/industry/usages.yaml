@@ -7509,6 +7509,7 @@ usages:
       Meson Exotic Plasma L Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      unnamed_gid0_sid0: null
   Curator I:
     materialManuf: !!set
       Curator II Blueprint: null
@@ -11027,7 +11028,7 @@ usages:
   Drake:
     materialManuf: !!set
       Nighthawk Blueprint: null
-      幼龙级YC117年��别版蓝图: null
+      幼龙级YC117年特别版蓝图: null
     productManuf: !!set
       Drake Blueprint: null
   Drake Navy Issue:
@@ -11592,7 +11593,7 @@ usages:
       EMP XL Blueprint: null
   Eagle:
     materialManuf: !!set
-      银鹰级YC117年特别版蓝图: null
+      银鹰级YC117年特别��蓝图: null
     productManuf: !!set
       Eagle Blueprint: null
   Eagle Blueprint:
@@ -13801,6 +13802,9 @@ usages:
   Heavy Capacitor Booster II Blueprint:
     productInvention: !!set
       Heavy Capacitor Booster I Blueprint: null
+  Heavy Compact Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Heavy Electron Blaster I:
     materialManuf: !!set
       Heavy Electron Blaster II Blueprint: null
@@ -13926,6 +13930,9 @@ usages:
   Heavy Pulse Laser II Blueprint:
     productInvention: !!set
       Heavy Pulse Laser I Blueprint: null
+  Heavy Scoped Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Heavy Shield Maintenance Bot I:
     materialManuf: !!set
       Heavy Shield Maintenance Bot II Blueprint: null
@@ -16282,6 +16289,7 @@ usages:
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
+      unnamed_gid0_sid0: null
   Iteron Inner Zone Shipping Edition:
     productManuf: !!set
       Iteron Inner Zone Shipping Edition Blueprint: null
@@ -17744,6 +17752,9 @@ usages:
   Light Armor Maintenance Bot II Blueprint:
     productInvention: !!set
       Light Armor Maintenance Bot I Blueprint: null
+  Light Compact Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Light Electron Blaster I:
     materialManuf: !!set
       Light Electron Blaster II Blueprint: null
@@ -17813,6 +17824,9 @@ usages:
   Light Neutron Blaster II Blueprint:
     productInvention: !!set
       Light Neutron Blaster I Blueprint: null
+  Light Scoped Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Light Shield Maintenance Bot I:
     materialManuf: !!set
       Light Shield Maintenance Bot II Blueprint: null
@@ -20459,6 +20473,7 @@ usages:
       Leshak Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
+      unnamed_gid0_sid0: null
   Megathron:
     materialManuf: !!set
       Kronos Blueprint: null
@@ -21621,6 +21636,7 @@ usages:
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
+      unnamed_gid0_sid0: null
   Miasmos:
     productManuf: !!set
       Miasmos Blueprint: null
@@ -24518,6 +24534,7 @@ usages:
       Leshak Blueprint: null
       Heavy Entropic Disintegrator I Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
+      unnamed_gid0_sid0: null
   Noir. Modified Entosis Link:
     productManuf: !!set
       Noir. Modified Entosis Link Blueprint: null
@@ -27594,6 +27611,7 @@ usages:
       Tetryon Exotic Plasma L Blueprint: null
       Baryon Exotic Plasma L Blueprint: null
       Meson Exotic Plasma L Blueprint: null
+      unnamed_gid0_sid0: null
   Pyroxeres Mining Crystal I:
     materialManuf: !!set
       Pyroxeres Mining Crystal II Blueprint: null
@@ -31168,7 +31186,7 @@ usages:
       Raven Guristas Edition Blueprint: null
       Raven Kaalakiota Edition Blueprint: null
       Raven Nugoeihuvi Edition Blueprint: null
-      乌鸦级YC117年特别版蓝��: null
+      乌鸦级YC117年特别版蓝图: null
     productManuf: !!set
       Raven Blueprint: null
   Raven Guristas Edition:
@@ -37599,6 +37617,9 @@ usages:
       Standup Reactor Control Unit II Blueprint: null
       Standup Cap Battery II Blueprint: null
       Standup Capacitor Power Relay II Blueprint: null
+  Supratidal Compact Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Supratidal Entropic Disintegrator I:
     materialManuf: !!set
       Supratidal Entropic Disintegrator II Blueprint: null
@@ -37610,6 +37631,9 @@ usages:
   Supratidal Entropic Disintegrator II Blueprint:
     productInvention: !!set
       Supratidal Entropic Disintegrator I Blueprint: null
+  Supratidal Scoped Entropic Disintegrator:
+    productManuf: !!set
+      unnamed_gid0_sid0: null
   Survey Networks 1:
     productManuf: !!set
       Survey Networks 1 Blueprint: null
@@ -40481,6 +40505,7 @@ usages:
       Tetryon Exotic Plasma L Blueprint: null
       Baryon Exotic Plasma L Blueprint: null
       Meson Exotic Plasma L Blueprint: null
+      unnamed_gid0_sid0: null
   True Sansha Capital Capacitor Booster:
     productManuf: !!set
       True Sansha Capital Capacitor Booster Blueprint: null
@@ -41442,6 +41467,7 @@ usages:
       Meson Exotic Plasma L Blueprint: null
       Occult L Blueprint: null
       Mystic L Blueprint: null
+      unnamed_gid0_sid0: null
   Zeugma Integrated Analyzer:
     productManuf: !!set
       Zeugma Integrated Analyzer Blueprint: null
@@ -42171,6 +42197,7 @@ usages:
       Leshak Blueprint: null
       Supratidal Entropic Disintegrator I Blueprint: null
       Entropic Radiation Sink I Blueprint: null
+      unnamed_gid0_sid0: null
   ‘Cold Wind’ Kinetic Reaper:
     productManuf: !!set
       ‘Cold Wind’ Kinetic Reaper Blueprint: null
@@ -42183,6 +42210,9 @@ usages:
   ‘Guillotine’ Thermal Reaper:
     productManuf: !!set
       ‘Guillotine’ Thermal Reaper Blueprint: null
+  ‘Holy Destiny’ Electromagnetic Lance:
+    productManuf: !!set
+      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null
   ‘Iron Pike’ Kinetic Lance:
     productManuf: !!set
       ‘Iron Pike’ Kinetic Lance Blueprint: null
@@ -42192,42 +42222,39 @@ usages:
   ‘Phalarica’ Thermal Lance:
     productManuf: !!set
       ‘Phalarica’ Thermal Lance Blueprint: null
-  万王宝座级YC117年特别版:
+  万��宝座级YC117年特别版:
     productManuf: !!set
       万王宝座级YC117年特别版蓝图: null
   乌鸦级YC117年特别版:
     productManuf: !!set
-      乌鸦级YC117年特别版蓝��: null
+      乌鸦级YC117年特别版蓝图: null
   伊什塔级YC117年特别版:
     productManuf: !!set
       伊什塔级YC117年特别版蓝图: null
   响尾蛇级YC117年特别版:
     productManuf: !!set
       响尾蛇级YC117年特别版蓝图: null
-  地狱天���级YC117年特别版:
+  地狱天使级YC117年特别版:
     productManuf: !!set
       地狱天使级YC117年特别版蓝图: null
-  多米尼��斯级YC117年特别版:
+  多米��克斯级YC117年特别版:
     productManuf: !!set
       多米尼克斯级YC117年特别版蓝图: null
   幼龙级YC117年特别版:
     productManuf: !!set
-      幼龙级YC117年��别版蓝图: null
+      幼龙级YC117年特别版蓝图: null
   末日沙场级YC117年特别版:
     productManuf: !!set
       末日沙场级YC117年特别版蓝图: null
-  毒蜥级YC117年特别版:
+  毒蜥级YC117年���别版:
     productManuf: !!set
       毒蜥级YC117年特别版蓝图: null
-  灾难级YC117���特别版:
+  灾难级YC117年特别版:
     productManuf: !!set
       灾难级YC117年特别版蓝图: null
   银鹰级YC117年特别版:
     productManuf: !!set
-      银鹰级YC117年特别版蓝图: null
-  马克瑞级YC117年特别版:
+      银鹰级YC117年特别��蓝图: null
+  ���克瑞级YC117年特别版:
     productManuf: !!set
       马克瑞级YC117年特别版蓝图: null
-  ���Holy Destiny’ Electromagnetic Lance:
-    productManuf: !!set
-      ‘Holy Destiny’ Electromagnetic Lance Blueprint: null

@@ -19,6 +19,13 @@ public class StationConversionMonuments
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    /**
+     * This is used to connect the alliance logos to the monuments that were placed as part of the outpost and conquerable station phaseout process in 2018
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MonumentAllianceID;
     public final static String RESOURCE_PATH = "SDE/items/celestial/StationConversionMonuments.yaml";
     private static LinkedHashMap<String, StationConversionMonuments> cache = (null);
 
@@ -28,6 +35,10 @@ public class StationConversionMonuments
             case  9 :
             {
                 return Hp;
+            }
+            case  2787 :
+            {
+                return MonumentAllianceID;
             }
             default:
             {

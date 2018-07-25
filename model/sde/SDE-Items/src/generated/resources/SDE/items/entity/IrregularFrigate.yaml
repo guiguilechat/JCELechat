@@ -7,10 +7,10 @@ items:
     id: 46344
     name: Eosian Defender
     volume: 19100.0
-  GalFed_NPC1:
-    id: 48119
-    name: GalFed_NPC1
-    volume: 26500.0
+  GalFed_NPC3:
+    id: 48129
+    name: GalFed_NPC3
+    volume: 28100.0
   Guardian Angels Jeremael:
     id: 42127
     name: Guardian Angels Jeremael

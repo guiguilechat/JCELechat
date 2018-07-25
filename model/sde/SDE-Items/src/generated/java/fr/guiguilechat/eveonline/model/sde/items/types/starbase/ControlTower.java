@@ -14,7 +14,7 @@ public class ControlTower
     extends Starbase
 {
     /**
-     * DO NOT MESS WITH. The amount of damage done to the entities armor hit points.
+     * DO NOT MESS WITH. The amount of damage done to the entities armor hit points. Starting armor damage.
      */
     @HighIsGood(true)
     @Stackable(true)
@@ -269,6 +269,7 @@ public class ControlTower
     public int ShieldCapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+     * The amount of starting shield capacity of the NPC.
      */
     @HighIsGood(true)
     @Stackable(true)

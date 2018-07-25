@@ -242,6 +242,7 @@ group2class:
   bonus/PhysicalBenefit: fr.guiguilechat.eveonline.model.sde.items.types.bonus.PhysicalBenefit
   bonus/PhysicalHandicap: fr.guiguilechat.eveonline.model.sde.items.types.bonus.PhysicalHandicap
   celestial/AbyssalEnvironment: fr.guiguilechat.eveonline.model.sde.items.types.celestial.AbyssalEnvironment
+  celestial/AbyssalHazards: fr.guiguilechat.eveonline.model.sde.items.types.celestial.AbyssalHazards
   celestial/AbyssalTrace: fr.guiguilechat.eveonline.model.sde.items.types.celestial.AbyssalTrace
   celestial/AgentsInSpace: fr.guiguilechat.eveonline.model.sde.items.types.celestial.AgentsInSpace
   celestial/AsteroidBelt: fr.guiguilechat.eveonline.model.sde.items.types.celestial.AsteroidBelt
@@ -291,7 +292,6 @@ group2class:
   celestial/Sun: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Sun
   celestial/SuperWeaponBeacon: fr.guiguilechat.eveonline.model.sde.items.types.celestial.SuperWeaponBeacon
   celestial/TriglavianSupportPylons: fr.guiguilechat.eveonline.model.sde.items.types.celestial.TriglavianSupportPylons
-  celestial/UninteractableLocalizedEffectBeacon: fr.guiguilechat.eveonline.model.sde.items.types.celestial.UninteractableLocalizedEffectBeacon
   celestial/WarpGate: fr.guiguilechat.eveonline.model.sde.items.types.celestial.WarpGate
   celestial/Wormhole: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Wormhole
   celestial/Wreck: fr.guiguilechat.eveonline.model.sde.items.types.celestial.Wreck
@@ -648,7 +648,8 @@ group2class:
   entity/IrregularDreadnought: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularDreadnought
   entity/IrregularFighter: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularFighter
   entity/IrregularFrigate: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularFrigate
-  entity/IrregularSuperCarrier: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularSuperCarrier
+  entity/IrregularIndustrial: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularIndustrial
+  entity/IrregularShuttle: fr.guiguilechat.eveonline.model.sde.items.types.entity.IrregularShuttle
   entity/LCODrone: fr.guiguilechat.eveonline.model.sde.items.types.entity.LCODrone
   entity/LargeCollidableShip: fr.guiguilechat.eveonline.model.sde.items.types.entity.LargeCollidableShip
   entity/LargeCollidableStructure: fr.guiguilechat.eveonline.model.sde.items.types.entity.LargeCollidableStructure
@@ -19775,7 +19776,7 @@ id2name:
   32380: Roden Police Major
   32381: Roden Police Sergeant
   32382: Damaged Caldari Shuttle
-  32383: Guristas ���Dirty' Explosive System
+  32383: Guristas ‘Dirty' Explosive System
   32384: Captured Caldari State Shuttle
   32385: Guristas Battleship Vessel
   32386: Violent Wormhole
@@ -20166,7 +20167,7 @@ id2name:
   33045: 'NEO YC 114: Goggle Wearing Internet Crime Fighters'
   33046: 'NEO YC 114: ISN – Incursion Shiny Network'
   33047: 'NEO YC 114: Baaaramu'
-  33048: 'NEO YC 114: Asine Hitama��s team'
+  33048: 'NEO YC 114: Asine Hitama‘s team'
   33049: 'NEO YC 114: EFS'
   33050: 'NEO YC 114: Much Crying Old Experts'
   33051: 'NEO YC 114: DeepWater'
@@ -21362,26 +21363,26 @@ id2name:
   34456: Angel Fence
   34457: 末日沙场级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
-  34459: 地狱天���级YC117年特别版
+  34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
+  34461: ���克瑞级YC117年特别版
   34462: 马克瑞级YC117年特别版蓝图
   34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
-  34465: 多米尼��斯级YC117年特别版
+  34465: 多米��克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
-  34467: 万王宝座级YC117年特别版
+  34467: 万��宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
   34469: 乌鸦级YC117年特别版
-  34470: 乌鸦级YC117年特别版蓝��
-  34471: 灾难级YC117���特别版
+  34470: 乌鸦级YC117年特别版蓝图
+  34471: 灾难级YC117年特别版
   34472: 灾难级YC117年特别版蓝图
   34473: 幼龙级YC117年特别版
-  34474: 幼龙级YC117年��别版蓝图
-  34475: 毒蜥级YC117年特别版
+  34474: 幼龙级YC117年特别版蓝图
+  34475: 毒蜥级YC117年���别版
   34476: 毒蜥级YC117年特别版蓝图
   34477: 银鹰级YC117年特别版
-  34478: 银鹰级YC117年特别版蓝图
+  34478: 银鹰级YC117年特别��蓝图
   34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
@@ -26734,7 +26735,7 @@ id2name:
   40624: Bustard Matigu Seabeast SKIN (Permanent)
   40625: Charon Matigu Seabeast SKIN (Permanent)
   40626: Rhea Matigu Seabeast SKIN (Permanent)
-  40631: ���Holy Destiny’ Electromagnetic Lance
+  40631: ‘Holy Destiny’ Electromagnetic Lance
   40632: ‘Divine Harvest’ Electromagnetic Reaper
   40633: Bosonic Field Generator
   40634: Gravitational Transportation Field Oscillator
@@ -27098,7 +27099,7 @@ id2name:
   41032: Denny Enduring Omnidirectional Tracking Link
   41033: N-JM Compact Omnidirectional Tracking Enhancer
   41034: AE-K Compact Drone Damage Amplifier
-  41035: 未来人类纪念章
+  41035: 未来��类纪念章
   41036: Men's 'Boneweld' Facial Augmentation
   41038: Republic Fleet Stasis Webifier
   41040: Heavy Stasis Grappler I
@@ -28612,7 +28613,7 @@ id2name:
   42707: Women's 'Sterling' Dress Blouse (Blood Raider)
   42708: Men's Beret (Blood Raiders)
   42709: Women's ‘Defender’ Beret (Gallente Federation)
-  42710: Gallente Cap Male
+  42710: Men's Federation Grand Prix 'Pit Stop' Cap
   42711: Cap Male Green
   42712: Men's ‘Liberator’ Beret (Minmatar Republic)
   42713: Cap Male Orange
@@ -28647,7 +28648,7 @@ id2name:
   42742: Cap Female Concord
   42743: Cap Male Guristas
   42744: Women's 'Crusader' Beret (Amarr Empire)
-  42745: Cap Female Gallente
+  42745: Women's Federation Grand Prix 'Pit Stop' Cap
   42746: Crucifier Cold Iron SKIN (Permanent)
   42747: Executioner Cold Iron SKIN (Permanent)
   42748: Inquisitor Cold Iron SKIN (Permanent)
@@ -28731,7 +28732,7 @@ id2name:
   42840: Rapid Deployment Charge
   42841: ♦ Tormentor
   42842: ♦ Inquisitor
-  42843: ♦ Executioner
+  42843: �� Executioner
   42844: Amarr Apostle
   42845: ♦ Crucifier
   42846: ♦ Punisher
@@ -29360,12 +29361,12 @@ id2name:
   43557: ♦ Omen
   43558: ♦ Augoror
   43559: ♦ Arbitrator
-  43560: ��� Maller
+  43560: ♦ Maller
   43561: ♦ Apocalypse
   43562: ♦ Armageddon
   43563: ♦ Kestrel
   43564: ♦ Bantam
-  43565: ♦ Condor
+  43565: ��� Condor
   43566: ♦ Merlin
   43567: ♦ Griffin
   43568: ♦ Caracal
@@ -29423,7 +29424,7 @@ id2name:
   43623: ♦ Osprey
   43624: ♦ Gila
   43625: ♦ Blackbird
-  43626: �� Raven
+  43626: ♦ Raven
   43627: ♦ Rattlesnake
   43630: Mini Skill Injector
   43633: ♦ Dramiel
@@ -29446,7 +29447,7 @@ id2name:
   43654: ♦ Ravener
   43655: ♦ Imp
   43656: ♦ Phantasm
-  43657: ��� Nightmare
+  43657: ♦ Nightmare
   43658: Amarr Phenomena Generator
   43659: Amarr Phenomena Generator Blueprint
   43660: Caldari Phenomena Generator
@@ -30696,7 +30697,7 @@ id2name:
   45468: Minmatar CA Destroyer
   45469: Minmatar CA Cruiser
   45470: ♦ Chemosh
-  45471: �� Molok
+  45471: ♦ Molok
   45472: ♦ Molok
   45473: ♦ Dagon
   45474: ♦ Chemosh
@@ -32806,10 +32807,10 @@ id2name:
   47700: Unstable Stasis Webifier Mutaplasmid
   47701: Gravid Stasis Webifier Mutaplasmid
   47702: Abyssal Stasis Webifier
-  47705: Basic X-Sense 'Consciousness' Cerebral Accelerator
-  47706: Improved X-Sense 'Consciousness' Cerebral Accelerator
-  47707: Advanced X-Sense 'Consciousness' Cerebral Accelerator
-  47708: Extended X-Sense 'Consciousness' Cerebral Accelerator
+  47705: Expired Basic X-Sense 'Consciousness' Cerebral Accelerator
+  47706: Expired Improved X-Sense 'Consciousness' Cerebral Accelerator
+  47707: Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator
+  47708: Expired Extended X-Sense 'Consciousness' Cerebral Accelerator
   47710: Upwell General Industrial Support Facility
   47711: basic_key_placeholder
   47712: Upwell Advanced Manufacturing Support Facility
@@ -32923,10 +32924,10 @@ id2name:
   47826: Unstable Medium Energy Neutralizer Mutaplasmid
   47827: Gravid Medium Energy Neutralizer Mutaplasmid
   47828: Medium Abyssal Energy Neutralizer
-  47829: Decayed Large Energy Neutralizer Mutaplasmid
-  47830: Unstable Large Energy Neutralizer Mutaplasmid
-  47831: Gravid Large Energy Neutralizer Mutaplasmid
-  47832: Large Abyssal Energy Neutralizer
+  47829: Decayed Heavy Energy Neutralizer Mutaplasmid
+  47830: Unstable Heavy Energy Neutralizer Mutaplasmid
+  47831: Gravid Heavy Energy Neutralizer Mutaplasmid
+  47832: Heavy Abyssal Energy Neutralizer
   47833: Abyssal Trace
   47834: Abyssal Trace
   47835: Abnormal Medium Ancillary Shield Booster Mutaplasmid
@@ -33210,7 +33211,7 @@ id2name:
   48116: Standard 'Liberty' Cerebral Accelerator
   48117: Advanced 'Liberty' Cerebral Accelerator
   48118: Extended 'Liberty' Cerebral Accelerator
-  48119: GalFed_NPC1
+  48119: Official Federation Grand Prix Transport Ship
   48120: Triglavian Bioadaptive Cache Wreck
   48121: Triglavian Survey Database
   48122: Striking Leshak
@@ -33219,27 +33220,27 @@ id2name:
   48125: Starving Leshak
   48126: Warding Leshak
   48127: Blinding Leshak
-  48128: GalFed_NPC2
+  48128: Official Federation Grand Prix Passenger Yacht
   48129: GalFed_NPC3
   48130: GalFed_NPC4
   48131: GalFed_Boss1
   48132: GalFed_Boss2
   48133: GalFed_Boss3
   48134: GalFed_Boss4
-  48135: GalFed_Trinket1
-  48136: GalFed_Trinket2
-  48137: GalFed_Trinket3
-  48138: GalFed_Trinket4
-  48139: GalFed_Trinket5
-  48140: GalFed_Trinket6
-  48141: GalFed_Trinket7
-  48142: GalFed_Trinket8
-  48143: GalFed_Trinket9
-  48144: GalFed_Trinket10
+  48135: Copy of the Gallente Federation Constitution
+  48136: Replica Mister Federation Trophy
+  48137: Replica Miss Federation Trophy
+  48138: Impetus Trading Cards
+  48139: Mannar Hair Gel
+  48140: Intaki Cycle of Ida Bracelet
+  48141: Raata Wind Chimes
+  48142: Jin-Mei Silk Cord
+  48143: Intaki Spiced Tea
+  48144: Replica of the ISCSS Venture
   48146: Vindicator Sarpati's Revenge - Igil SKIN (Permanent)
   48147: Vindicator Sarpati's Revenge - Virge SKIN (Permanent)
-  48148: Drone_Implant1
-  48149: Drone_Implant2
+  48148: CreoDron 'Yellowjacket' Drone Tuner D5-10T
+  48149: CreoDron 'Bumblebee' Drone Tuner T10-5D
   48150: Drone_Implant3
   48151: Drone_Implant4
   48152: Drone_Implant5
@@ -33461,6 +33462,143 @@ id2name:
   48369: Providence Star Captain SKIN (Permanent)
   48372: Triglavian Cruiser Wreck
   48373: Triglavian Frigate Wreck
+  48374: Federation Grand Prix Impetus Package
+  48375: Federation Grand Prix Bronze Package
+  48376: Federation Grand Prix CreoDron Package
+  48377: Federation Grand Prix Silver Package
+  48378: Federation Grand Prix Quafe Package
+  48379: Federation Grand Prix Gold Package
+  48380: unnamed_gid0_sid0
+  48381: unnamed_gid0_sid0
+  48382: unnamed_gid0_sid0
+  48383: unnamed_gid0_sid0
+  48384: unnamed_gid0_sid0
+  48385: unnamed_gid0_sid0
+  48386: unnamed_gid0_sid0
+  48387: unnamed_gid0_sid0
+  48416: unnamed_gid0_sid0
+  48417: unnamed_gid0_sid0
+  48418: unnamed_gid0_sid0
+  48419: unnamed_gid0_sid0
+  48420: unnamed_gid0_sid0
+  48421: unnamed_gid0_sid0
+  48422: unnamed_gid0_sid0
+  48423: unnamed_gid0_sid0
+  48424: unnamed_gid0_sid0
+  48425: unnamed_gid0_sid0
+  48426: unnamed_gid0_sid0
+  48427: unnamed_gid0_sid0
+  48428: unnamed_gid0_sid0
+  48429: unnamed_gid0_sid0
+  48430: unnamed_gid0_sid0
+  48431: unnamed_gid0_sid0
+  48432: unnamed_gid0_sid0
+  48433: unnamed_gid0_sid0
+  48434: unnamed_gid0_sid0
+  48435: unnamed_gid0_sid0
+  48436: unnamed_gid0_sid0
+  48437: unnamed_gid0_sid0
+  48438: unnamed_gid0_sid0
+  48439: unnamed_gid0_sid0
+  48463: unnamed_gid3827_sid35
+  48469: unnamed_gid0_sid0
+  48470: unnamed_gid0_sid0
+  48471: unnamed_gid0_sid0
+  48472: unnamed_gid0_sid0
+  48473: unnamed_gid0_sid0
+  48474: unnamed_gid0_sid0
+  48485: unnamed_gid0_sid0
+  48486: unnamed_gid0_sid0
+  48487: unnamed_gid0_sid0
+  48488: unnamed_gid0_sid0
+  48489: unnamed_gid0_sid0
+  48490: unnamed_gid0_sid0
+  48491: unnamed_gid0_sid0
+  48492: unnamed_gid0_sid0
+  48493: unnamed_gid0_sid0
+  48494: unnamed_gid0_sid0
+  48495: unnamed_gid0_sid0
+  48496: unnamed_gid0_sid0
+  48497: unnamed_gid0_sid0
+  48498: unnamed_gid0_sid0
+  48499: unnamed_gid0_sid0
+  48500: unnamed_gid0_sid0
+  48501: unnamed_gid0_sid0
+  48502: unnamed_gid0_sid0
+  48503: unnamed_gid0_sid0
+  48504: unnamed_gid0_sid0
+  48505: unnamed_gid0_sid0
+  48506: unnamed_gid0_sid0
+  48507: unnamed_gid0_sid0
+  48508: unnamed_gid0_sid0
+  48509: unnamed_gid0_sid0
+  48510: unnamed_gid0_sid0
+  48511: unnamed_gid0_sid0
+  48512: unnamed_gid0_sid0
+  48513: unnamed_gid0_sid0
+  48514: unnamed_gid0_sid0
+  48515: unnamed_gid0_sid0
+  48516: unnamed_gid0_sid0
+  48517: unnamed_gid0_sid0
+  48518: unnamed_gid0_sid0
+  48519: unnamed_gid0_sid0
+  48520: unnamed_gid0_sid0
+  48521: unnamed_gid0_sid0
+  48522: unnamed_gid0_sid0
+  48523: unnamed_gid0_sid0
+  48524: unnamed_gid0_sid0
+  48525: unnamed_gid0_sid0
+  48526: unnamed_gid0_sid0
+  48527: unnamed_gid0_sid0
+  48528: unnamed_gid0_sid0
+  48529: unnamed_gid0_sid0
+  48530: unnamed_gid0_sid0
+  48531: unnamed_gid0_sid0
+  48532: unnamed_gid0_sid0
+  48533: unnamed_gid0_sid0
+  48534: unnamed_gid0_sid0
+  48535: unnamed_gid0_sid0
+  48536: unnamed_gid0_sid0
+  48543: unnamed_gid0_sid0
+  48544: unnamed_gid0_sid0
+  48546: unnamed_gid0_sid0
+  48547: unnamed_gid0_sid0
+  48548: unnamed_gid0_sid0
+  48549: unnamed_gid0_sid0
+  48550: unnamed_gid0_sid0
+  48551: unnamed_gid0_sid0
+  48552: unnamed_gid0_sid0
+  48553: unnamed_gid0_sid0
+  48554: unnamed_gid0_sid0
+  48555: unnamed_gid0_sid0
+  48556: unnamed_gid0_sid0
+  48557: unnamed_gid0_sid0
+  48558: unnamed_gid0_sid0
+  48559: unnamed_gid0_sid0
+  48560: unnamed_gid0_sid0
+  48561: unnamed_gid0_sid0
+  48562: unnamed_gid0_sid0
+  48563: unnamed_gid0_sid0
+  48564: unnamed_gid0_sid0
+  48565: unnamed_gid0_sid0
+  48566: unnamed_gid0_sid0
+  48576: unnamed_gid0_sid0
+  48577: unnamed_gid0_sid0
+  48578: unnamed_gid0_sid0
+  48579: unnamed_gid0_sid0
+  48580: unnamed_gid0_sid0
+  48581: unnamed_gid0_sid0
+  48582: unnamed_gid0_sid0
+  48584: unnamed_gid0_sid0
+  48585: unnamed_gid0_sid0
+  48586: unnamed_gid0_sid0
+  48587: unnamed_gid0_sid0
+  48588: unnamed_gid0_sid0
+  48589: unnamed_gid0_sid0
+  48590: unnamed_gid0_sid0
+  48591: unnamed_gid0_sid0
+  48592: unnamed_gid0_sid0
+  48593: unnamed_gid0_sid0
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -37841,7 +37979,6 @@ name2group:
   Advanced Target Management: skill/Targeting
   Advanced Temperate Command Center: planetaryinteraction/CommandCenters
   Advanced Weapon Upgrades: skill/Engineering
-  Advanced X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Advisory Notes: commodity/Miscellaneous
   Aeon: ship/Supercarrier
   Aeon Blood Raider Victory SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -40236,7 +40373,6 @@ name2group:
   Basic Sidearm Damage Modifier: infantry/InfantryModules
   Basic Thermal Dissipation Amplifier: module/ShieldResistanceAmplifier
   Basic Thermal Plating: module/ArmorCoating
-  Basic X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Basilisk: ship/Logistics
   Basilisk Blue Tiger SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
   Basilisk Blue Tiger Serenity Only SKIN (30 Days): superkerrinducednanocoatings/Max30DaySKIN
@@ -41967,7 +42103,6 @@ name2group:
   Cap Female Black/White: apparel/Headwear
   Cap Female Caldari: apparel/Headwear
   Cap Female Concord: apparel/Headwear
-  Cap Female Gallente: apparel/Headwear
   Cap Female Green: apparel/Headwear
   Cap Female Guristas: apparel/Headwear
   Cap Female Minmatar: apparel/Headwear
@@ -43959,6 +44094,7 @@ name2group:
   Copper Firework: charge/FestivalCharges
   Copper Firework CXIV: charge/FestivalCharges
   Copper Ouroboros: specialeditionassets/SpecialEditionCommodities
+  Copy of the Gallente Federation Constitution: specialeditionassets/SpecialEditionCommodities
   Cora Chaktaren Armageddon: celestial/AgentsInSpace
   Coral Rock Formation: celestial/LargeCollidableObject
   Corax: ship/Destroyer
@@ -44634,6 +44770,8 @@ name2group:
   Credits: material/Money
   Creo-Synchronization Pass: commodity/AccelerationGateKeys
   CreoCorp Main Factory: entity/DeadspaceOverseerSStructure
+  CreoDron 'Bumblebee' Drone Tuner T10-5D: implant/CyberDrones
+  CreoDron 'Yellowjacket' Drone Tuner D5-10T: implant/CyberDrones
   CreoDron Active Scanner: infantry/InfantryEquipment
   CreoDron Breach Assault Rifle: infantry/InfantryWeapons
   CreoDron Breach HAV: infantry/InfantryVehicles
@@ -45501,9 +45639,9 @@ name2group:
   Decayed 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
+  Decayed Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Armor Repairer Mutaplasmid: commodity/Mutaplasmids
-  Decayed Large Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Shield Extender Mutaplasmid: commodity/Mutaplasmids
   Decayed Medium Armor Plate Mutaplasmid: commodity/Mutaplasmids
@@ -46593,12 +46731,10 @@ name2group:
   Drone Wall: entity/LargeCollidableStructure
   Drone Wall Sentry Gun: entity/DestructibleSentryGun
   Drone Worker: entity/DeadspaceRogueDroneCruiser
-  Drone_Implant1: implant/CyberDrones
-  Drone_Implant2: implant/CyberDrones
-  Drone_Implant3: implant/CyberDrones
-  Drone_Implant4: implant/CyberDrones
-  Drone_Implant5: implant/CyberDrones
-  Drone_Implant6: implant/CyberDrones
+  Drone_Implant3: implant/Booster
+  Drone_Implant4: implant/Booster
+  Drone_Implant5: implant/Booster
+  Drone_Implant6: implant/Booster
   Drones: skill/Drones
   Drones Rigging: skill/Rigging
   Drop: commodity/Drugs
@@ -47673,13 +47809,17 @@ name2group:
   Experimental XT-2800 Heavy Assault Missile Launcher I: module/MissileLauncherHeavyAssault
   Experimental ZW-4100 Torpedo Launcher: module/MissileLauncherTorpedo
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
+  Expired Basic X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Expired CDIA SPACE Cerebral Accelerator: implant/Booster
   Expired Cerebral Accelerator: implant/Booster
   Expired Crimson Cerebral Accelerator: implant/Booster
   Expired Extended 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Expired Extended X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Expired Gold Ouroboros Accelerator: implant/Booster
   Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
+  Expired Improved X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Expired Rogue Swarm Cerebral Accelerator: implant/Booster
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
@@ -47707,7 +47847,6 @@ name2group:
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   'Exsanguinator ': entity/DeadspaceOverseerCruiser
   Extended 'Liberty' Cerebral Accelerator: implant/Booster
-  Extended X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extra Gravimetric ECCM Scanning Array I: module/ECCM
@@ -47940,6 +48079,12 @@ name2group:
   Federation Frigate: entity/FWGallenteFederationFrigate
   Federation GEK-38 Assault Rifle: infantry/InfantryWeapons
   Federation GK-13 Burst Assault Rifle: infantry/InfantryWeapons
+  Federation Grand Prix Bronze Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix CreoDron Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix Gold Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix Impetus Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix Quafe Package: specialeditionassets/SpecialEditionCommodities
+  Federation Grand Prix Silver Package: specialeditionassets/SpecialEditionCommodities
   Federation Grimsnes: infantry/InfantryVehicles
   Federation Hastarius: entity/MissionGallenteFederationCruiser
   Federation Hastatus: entity/MissionGallenteFederationCruiser
@@ -48704,24 +48849,12 @@ name2group:
   Gaabu Moniq: entity/MissionGenericCruisers
   Gadget Casket: entity/ScatterContainer
   Gadolinium Array: infantry/InfantryModules
-  GalFed_Boss1: entity/IrregularBattlecruiser
-  GalFed_Boss2: entity/IrregularBattleship
-  GalFed_Boss3: entity/IrregularDreadnought
-  GalFed_Boss4: entity/IrregularSuperCarrier
-  GalFed_NPC1: entity/IrregularFrigate
-  GalFed_NPC2: entity/IrregularDestroyer
-  GalFed_NPC3: entity/IrregularCruiser
-  GalFed_NPC4: entity/IrregularBattlecruiser
-  GalFed_Trinket1: commodity/Miscellaneous
-  GalFed_Trinket10: commodity/Miscellaneous
-  GalFed_Trinket2: commodity/Miscellaneous
-  GalFed_Trinket3: commodity/Miscellaneous
-  GalFed_Trinket4: commodity/Miscellaneous
-  GalFed_Trinket5: commodity/Miscellaneous
-  GalFed_Trinket6: commodity/Miscellaneous
-  GalFed_Trinket7: commodity/Miscellaneous
-  GalFed_Trinket8: commodity/Miscellaneous
-  GalFed_Trinket9: commodity/Miscellaneous
+  GalFed_Boss1: entity/IrregularBattleship
+  GalFed_Boss2: entity/IrregularIndustrial
+  GalFed_Boss3: entity/SpawnContainer
+  GalFed_Boss4: entity/NPCIndustrialCommand
+  GalFed_NPC3: entity/IrregularFrigate
+  GalFed_NPC4: entity/IrregularCruiser
   Galaxy Pack - Crystal: specialeditionassets/SpecialEditionCommodities
   Galaxy Pack - Spectral: specialeditionassets/SpecialEditionCommodities
   Galeptos Medicine: commodity/Miscellaneous
@@ -48793,7 +48926,6 @@ name2group:
   Gallente CA Cruiser: entity/MissionGallenteFederationCruiser
   Gallente CA Destroyer: entity/MissionGallenteFederationDestroyer
   Gallente CA Frigate: entity/MissionGallenteFederationFrigate
-  Gallente Cap Male: apparel/Headwear
   Gallente Captains Quarters: worldspace/WorldSpace
   Gallente Cargo Rig: entity/SpawnContainer
   Gallente Carrier: skill/SpaceshipCommand
@@ -49526,9 +49658,9 @@ name2group:
   Gravid 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
+  Gravid Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Armor Repairer Mutaplasmid: commodity/Mutaplasmids
-  Gravid Large Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Shield Extender Mutaplasmid: commodity/Mutaplasmids
   Gravid Medium Armor Plate Mutaplasmid: commodity/Mutaplasmids
@@ -50061,7 +50193,7 @@ name2group:
   Guristas Wrecker: entity/AsteroidGuristasFrigate
   Guristas XL Torpedo Battery: starbase/MobileMissileSentry
   Guristas XL Torpedo Battery Blueprint: blueprint/StarbaseMissileBatteryBlueprints
-  Guristas ���Dirty' Explosive System: commodity/Miscellaneous
+  Guristas ‘Dirty' Explosive System: commodity/Miscellaneous
   Guristas_Small Armory: entity/DeadspaceOverseerSStructure
   Gurmurkur's Vagabond: celestial/AgentsInSpace
   Gyrostabilizer I: module/Gyrostabilizer
@@ -50396,6 +50528,7 @@ name2group:
   Heavy 'Moat' Energy Neutralizer Blueprint: blueprint/EnergyNeutralizerBlueprint
   Heavy 'Vrykolakas' Energy Nosferatu: module/EnergyNosferatu
   Heavy 'Vrykolakas' Energy Nosferatu Blueprint: blueprint/EnergyNosferatuBlueprint
+  Heavy Abyssal Energy Neutralizer: module/EnergyNeutralizer
   Heavy Afocal Maser I: module/EnergyWeapon
   Heavy Afocal Pulse Maser I: module/EnergyWeapon
   Heavy Amarr SKIN - Yellow: infantry/InfantryColorSkin
@@ -51393,7 +51526,7 @@ name2group:
   Imperial Exarp: entity/MissionAmarrEmpireDestroyer
   Imperial Felix: entity/MissionAmarrEmpireFrigate
   Imperial Felix_old: entity/MissionAmarrEmpireFrigate
-  Imperial Fighter: entity/MissionFighterDrone
+  Imperial Fighter: entity/MissionDrone
   Imperial Forian: entity/MissionAmarrEmpireFrigate
   Imperial Forian_old: entity/MissionAmarrEmpireFrigate
   Imperial Freighter: entity/MissionFactionTransports
@@ -51665,6 +51798,7 @@ name2group:
   Imperial Viziam Specialist Laser Rifle: infantry/InfantryWeapons
   Imperial Viziam Specialist Scrambler Rifle: infantry/InfantryWeapons
   Impetus Console: material/SalvagedMaterials
+  Impetus Trading Cards: specialeditionassets/SpecialEditionCommodities
   Important Surveillance Data: commodity/Commodities
   Impregnable Safe: commodity/Commodities
   Improved 'Guise' Cloaking Device II: module/CloakingDevice
@@ -51711,7 +51845,6 @@ name2group:
   Improved X-Instinct Booster Blueprint: blueprint/BoosterBlueprints
   Improved X-Instinct Booster Reaction: reaction/ComplexBiochemicalReactions
   Improved X-Instinct Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
-  Improved X-Sense 'Consciousness' Cerebral Accelerator: implant/Booster
   Inactive Drone Sentry: entity/LargeCollidableStructure
   Inactive Sentry Gun: celestial/LargeCollidableObject
   Inception Skill Package: specialeditionassets/SpecialEditionCommodities
@@ -52272,12 +52405,14 @@ name2group:
   Intaki Bonus: bonus/BloodlineBonus
   Intaki Clackers: commodity/Miscellaneous
   Intaki Colliculus: entity/IncursionSanshaSNationBattleship
+  Intaki Cycle of Ida Bracelet: specialeditionassets/SpecialEditionCommodities
   Intaki Defense Command Sergeant Major: entity/FactionDrone
   Intaki Defense First Sergeant: entity/FactionDrone
   Intaki Defense Fleet Captain: entity/FactionDrone
   Intaki Defense Fleet Colonel: entity/FactionDrone
   Intaki Defense Fleet Major: entity/FactionDrone
   Intaki Defense Sergeant Major: entity/FactionDrone
+  Intaki Spiced Tea: specialeditionassets/SpecialEditionCommodities
   Intaki Syndicate Catalyst: ship/Destroyer
   Intaki Syndicate Catalyst Blueprint: blueprint/DestroyerBlueprint
   Integrity Response Drones: planetarycommodities/AdvancedCommoditiesTier4
@@ -52594,6 +52729,7 @@ name2group:
   Jezaja’s Giant Secure Container: specialeditionassets/SpecialEditionCommodities
   Jhelom Marek: entity/MissionGenericFrigates
   Jihar Okham: entity/StorylineMissionCruiser
+  Jin-Mei Silk Cord: specialeditionassets/SpecialEditionCommodities
   Jitainen's Probe: celestial/AgentsInSpace
   Jogmundt's Probe: celestial/AgentsInSpace
   Joint Harvesting Strong Box: commodity/StrongBoxes
@@ -53199,7 +53335,6 @@ name2group:
   Large Abyssal Ancillary Shield Booster: module/AncillaryShieldBooster
   Large Abyssal Armor Plates: module/ArmorReinforcer
   Large Abyssal Armor Repairer: module/ArmorRepairUnit
-  Large Abyssal Energy Neutralizer: module/EnergyNeutralizer
   Large Abyssal Shield Booster: module/ShieldBooster
   Large Abyssal Shield Extender: module/ShieldExtender
   Large Acceleration Gate: celestial/WarpGate
@@ -53294,7 +53429,7 @@ name2group:
   Large Beam Laser Battery: starbase/MobileLaserSentry
   Large Beam Laser Battery Blueprint: blueprint/StarbaseLaserBatteryBlueprints
   Large Beam Laser Specialization: skill/Gunnery
-  Large Bioluminescence Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Large Bioluminescence Cloud: celestial/AbyssalHazards
   Large Blaster Ammo Capacity: infantry/InfantrySkills
   Large Blaster Battery: starbase/MobileHybridSentry
   Large Blaster Battery Blueprint: blueprint/StarbaseHybridBatteryBlueprints
@@ -53319,7 +53454,7 @@ name2group:
   Large Cargohold Optimization I Blueprint: blueprint/RigBlueprint
   Large Cargohold Optimization II: module/RigNavigation
   Large Cargohold Optimization II Blueprint: blueprint/RigBlueprint
-  Large Caustic Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Large Caustic Cloud: celestial/AbyssalHazards
   Large Clarity Ward Booster I: module/ShieldBooster
   Large Coaxial Compact Remote Armor Repairer: module/RemoteArmorRepairer
   Large Command Processor I: module/RigCore
@@ -53482,7 +53617,7 @@ name2group:
   Large Engine Thermal Shielding II Blueprint: blueprint/RigBlueprint
   Large F-4a Ld-Sulfate Capacitor Charge Unit: module/CapacitorBattery
   Large F-S9 Regolith Compact Shield Extender: module/ShieldExtender
-  Large Filament Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Large Filament Cloud: celestial/AbyssalHazards
   Large Freight Container: celestial/FreightContainer
   Large Freight Container Blueprint: blueprint/ContainerBlueprints
   Large GA Railgun Installation: infantry/InfantryInstallations
@@ -54805,6 +54940,7 @@ name2group:
   Mangled Sansha Data Analyzer Blueprint: blueprint/DataMinerBlueprint
   Mangled Storage Depot: entity/SpawnContainer
   Manifest – Cargo 118/01/06 – CLEARENCE 1B: commodity/General
+  Mannar Hair Gel: specialeditionassets/SpecialEditionCommodities
   'Manportable Electromagnetic Pulse Weapons ': commodity/Miscellaneous
   Manticore: ship/StealthBomber
   Manticore Blue Tiger SKIN (Permanent): superkerrinducednanocoatings/PermanentSKIN
@@ -55147,7 +55283,7 @@ name2group:
   Medium Beam Laser Specialization: skill/Gunnery
   Medium Biochemical Reactor Array: starbase/MobileReactor
   Medium Biochemical Reactor Array Blueprint: blueprint/StarbaseBlueprint
-  Medium Bioluminescence Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Medium Bioluminescence Cloud: celestial/AbyssalHazards
   Medium Blaster Battery: starbase/MobileHybridSentry
   Medium Blaster Battery Blueprint: blueprint/StarbaseHybridBatteryBlueprints
   Medium Blaster Specialization: skill/Gunnery
@@ -55171,7 +55307,7 @@ name2group:
   Medium Cargohold Optimization I Blueprint: blueprint/RigBlueprint
   Medium Cargohold Optimization II: module/RigNavigation
   Medium Cargohold Optimization II Blueprint: blueprint/RigBlueprint
-  Medium Caustic Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Medium Caustic Cloud: celestial/AbyssalHazards
   Medium Clarity Ward Booster I: module/ShieldBooster
   Medium Coaxial Compact Remote Armor Repairer: module/RemoteArmorRepairer
   Medium Command Processor I: module/RigCore
@@ -55307,7 +55443,7 @@ name2group:
   Medium F-4a Ld-Sulfate Capacitor Charge Unit: module/CapacitorBattery
   Medium F-RX Prototype Capacitor Boost: module/CapacitorBooster
   Medium F-S9 Regolith Compact Shield Extender: module/ShieldExtender
-  Medium Filament Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Medium Filament Cloud: celestial/AbyssalHazards
   Medium Freight Container: celestial/FreightContainer
   Medium Freight Container Blueprint: blueprint/ContainerBlueprints
   Medium Ghoul Compact Energy Nosferatu: module/EnergyNosferatu
@@ -55952,6 +56088,7 @@ name2group:
   Men's Exoplanets Hunter T-shirt: apparel/Tops
   Men's Exoplanets Program Director Coat: apparel/Outer
   Men's Federal Strategic Materiel Jacket: apparel/Outer
+  Men's Federation Grand Prix 'Pit Stop' Cap: apparel/Headwear
   Men's Gallente 'Defender' T-Shirt: apparel/Tops
   Men's Gallente Federation Command Jacket: apparel/Outer
   Men's Gallente Federation Exploration Suit: apparel/Outer
@@ -57359,7 +57496,7 @@ name2group:
   N7-BIY Station Monument: celestial/StationConversionMonuments
   'NEO YC 114: 8 CAS': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: Africa‘s Finest': specialeditionassets/TournamentCardsNewEdenOpenYC114
-  'NEO YC 114: Asine Hitama��s team': specialeditionassets/TournamentCardsNewEdenOpenYC114
+  'NEO YC 114: Asine Hitama‘s team': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: Baaaramu': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: Blue Ballers': specialeditionassets/TournamentCardsNewEdenOpenYC114
   'NEO YC 114: DeepWater': specialeditionassets/TournamentCardsNewEdenOpenYC114
@@ -58342,6 +58479,8 @@ name2group:
   Office Facility: entity/SpawnContainer
   Office Folder: station/StationServices
   Officers Quarters: entity/DeadspaceOverseerSStructure
+  Official Federation Grand Prix Passenger Yacht: entity/IrregularShuttle
+  Official Federation Grand Prix Transport Ship: entity/IrregularIndustrial
   Offline Talocan Reactor Spire: entity/LargeCollidableStructure
   Ogdin's Eye Coordination Enhancer: implant/CyberGunnery
   Oggenon Shafi: entity/MissionGenericFrigates
@@ -60389,6 +60528,7 @@ name2group:
   RSS Core Scanner Probe: charge/ScannerProbe
   RSS Radio Telescope: entity/SpawnContainer
   Raa Thalamus: entity/IncursionSanshaSNationCruiser
+  Raata Wind Chimes: specialeditionassets/SpecialEditionCommodities
   RabaRaba ChooChoo: entity/StorylineMissionCruiser
   Rabisu: ship/Logistics
   Rabisu Blueprint: blueprint/CruiserBlueprint
@@ -60907,6 +61047,9 @@ name2group:
   Replete Zircon: asteroid/RareMoonAsteroids
   Replica Gallente Cruiser: specialeditionassets/SpecialEditionCommodities
   Replica Gold Magnate Decorative Plating: specialeditionassets/SpecialEditionCommodities
+  Replica Miss Federation Trophy: specialeditionassets/SpecialEditionCommodities
+  Replica Mister Federation Trophy: specialeditionassets/SpecialEditionCommodities
+  Replica of the ISCSS Venture: specialeditionassets/SpecialEditionCommodities
   Report R:081-9560: commodity/Miscellaneous
   'Report R:081-9568 ': commodity/Miscellaneous
   Reports: commodity/General
@@ -64021,7 +64164,7 @@ name2group:
   Small Beam Laser Battery: starbase/MobileLaserSentry
   Small Beam Laser Battery Blueprint: blueprint/StarbaseLaserBatteryBlueprints
   Small Beam Laser Specialization: skill/Gunnery
-  Small Bioluminescence Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Small Bioluminescence Cloud: celestial/AbyssalHazards
   Small Blaster Ammo Capacity: infantry/InfantrySkills
   Small Blaster Battery: starbase/MobileHybridSentry
   Small Blaster Battery Blueprint: blueprint/StarbaseHybridBatteryBlueprints
@@ -64053,7 +64196,7 @@ name2group:
   Small Cargohold Optimization I Blueprint: blueprint/RigBlueprint
   Small Cargohold Optimization II: module/RigNavigation
   Small Cargohold Optimization II Blueprint: blueprint/RigBlueprint
-  Small Caustic Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Small Caustic Cloud: celestial/AbyssalHazards
   Small Clarity Ward Booster I: module/ShieldBooster
   Small Coaxial Compact Remote Armor Repairer: module/RemoteArmorRepairer
   Small Command Processor I: module/RigCore
@@ -64175,7 +64318,7 @@ name2group:
   Small F-4a Ld-Sulfate Capacitor Charge Unit: module/CapacitorBattery
   Small F-RX Prototype Capacitor Boost: module/CapacitorBooster
   Small F-S9 Regolith Compact Shield Extender: module/ShieldExtender
-  Small Filament Cloud: celestial/UninteractableLocalizedEffectBeacon
+  Small Filament Cloud: celestial/AbyssalHazards
   Small Focused Afocal Maser I: module/EnergyWeapon
   Small Focused Afocal Pulse Maser I: module/EnergyWeapon
   Small Focused Anode Particle Stream I: module/EnergyWeapon
@@ -68089,10 +68232,10 @@ name2group:
   Unstable 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
-  Unstable Abyssal Depths: celestial/UninteractableLocalizedEffectBeacon
+  Unstable Abyssal Depths: celestial/AbyssalHazards
+  Unstable Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Armor Repairer Mutaplasmid: commodity/Mutaplasmids
-  Unstable Large Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Shield Extender Mutaplasmid: commodity/Mutaplasmids
   Unstable Medium Armor Plate Mutaplasmid: commodity/Mutaplasmids
@@ -69386,6 +69529,7 @@ name2group:
   Women's Exoplanets Hunter T-shirt: apparel/Tops
   Women's Exoplanets Program Director Coat: apparel/Outer
   Women's Federal Strategic Materiel Jacket: apparel/Outer
+  Women's Federation Grand Prix 'Pit Stop' Cap: apparel/Headwear
   Women's Gallente 'Defender' T-Shirt: apparel/Tops
   Women's Gallente Federation Command Jacket: apparel/Outer
   Women's Gallente Federation Exploration Suit: apparel/Outer
@@ -70148,9 +70292,10 @@ name2group:
   testShieldMod_Blueprint_PLACEHOLDER: blueprint/ShieldHardenerBlueprint
   testShieldMod_PLACEHOLDER: module/NonRepeatingHardeners
   testing group: entity/MissionGenericBattleCruisers
-  unnamed_gid0_sid0: commodity/Commodities
+  unnamed_gid0_sid0: specialeditionassets/SpecialEditionCommodities
   unnamed_gid21177_sid20220: celestial/MassiveEnvironments
   unnamed_gid22125_sid0: entity/SpawnContainer
+  unnamed_gid3827_sid35: sovereigntystructures/InfrastructureHub
   weapon_container: entity/SpawnContainer
   wrecktest: worldspace/WorldSpace
   xenon_gas_weather_1: celestial/NonInteractableObject
@@ -70164,6 +70309,7 @@ name2group:
   ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
@@ -70219,6 +70365,7 @@ name2group:
   ♦ Kestrel: entity/NPCFrigate
   ♦ Lynx: entity/NPCFrigate
   ♦ Machariel: entity/NPCBattleship
+  ♦ Maller: entity/NPCCruiser
   ♦ Mammoth: entity/NPCMiningHauler
   ♦ Mastodon: entity/NPCMiningHauler
   ♦ Maulus: entity/NPCFrigate
@@ -70228,6 +70375,7 @@ name2group:
   ♦ Moa: entity/NPCCruiser
   ♦ Molok: entity/NPCTitan
   ♦ Navitas: entity/NPCFrigate
+  ♦ Nightmare: entity/NPCBattleship
   ♦ Occator: entity/NPCMiningHauler
   ♦ Omen: entity/NPCCruiser
   ♦ Orca: entity/NPCIndustrialCommand
@@ -70265,35 +70413,32 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  万王宝座级YC117年特别版: ship/Battleship
   万王宝座级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  万��宝座级YC117年特别版: ship/Battleship
   乌鸦级YC117年特别版: ship/Battleship
-  乌鸦级YC117年特别版蓝��: blueprint/BattleshipBlueprint
+  乌鸦级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   伊什塔级YC117年特别版: ship/HeavyAssaultCruiser
   伊什塔级YC117年特别版蓝图: blueprint/CruiserBlueprint
   响尾蛇级YC117年特别版: ship/Battleship
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  地狱天使级YC117年特别版: ship/Battleship
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  地狱天���级YC117年特别版: ship/Battleship
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  多米尼��斯级YC117年特别版: ship/Battleship
+  多米��克斯级YC117年特别版: ship/Battleship
   幼龙级YC117年特别版: ship/CombatBattlecruiser
-  幼龙级YC117年��别版蓝图: blueprint/BattlecruiserBlueprint
-  未来人类纪念章: specialeditionassets/SpecialEditionCommodities
+  幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
+  未来��类纪念章: specialeditionassets/SpecialEditionCommodities
   末日沙场级YC117年特别版: ship/Battleship
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  毒蜥级YC117年特别版: ship/Cruiser
   毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  毒蜥级YC117年���别版: ship/Cruiser
   泰坦会战纪念碑: celestial/LargeCollidableObject
   泰坦会战遗址: celestial/Beacon
+  灾难级YC117年特别版: ship/Battleship
   灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  灾难级YC117���特别版: ship/Battleship
   银鹰级YC117年特别版: ship/HeavyAssaultCruiser
-  银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  马克瑞级YC117年特别版: ship/Battleship
+  银鹰级YC117年特别��蓝图: blueprint/CruiserBlueprint
   马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  �� Molok: entity/NPCTitan
-  �� Raven: entity/NPCBattleship
-  ��� Maller: entity/NPCCruiser
-  ��� Nightmare: entity/NPCBattleship
-  ���Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
+  �� Executioner: entity/NPCFrigate
+  ��� Condor: entity/NPCFrigate
+  ���克瑞级YC117年特别版: ship/Battleship

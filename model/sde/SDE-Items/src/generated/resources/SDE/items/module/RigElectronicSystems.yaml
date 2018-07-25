@@ -578,7 +578,7 @@ items:
     name: Small Signal Disruption Amplifier II
     volume: 5.0
   Small Targeting Amplifier I:
-    AgilityMultiplier: -25.0
+    AgilityBonus: -25.0
     Drawback: -25
     Hp: 40
     MaxTargetRangeMultiplier: 1.75

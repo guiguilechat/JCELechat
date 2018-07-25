@@ -135,7 +135,7 @@ public abstract class Ship
     @DefaultIntValue(0)
     public int CpuOutput;
     /**
-     * current damage dealt to module
+     * current structure damage dealt to module
      */
     @HighIsGood(false)
     @Stackable(true)

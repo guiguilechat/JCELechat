@@ -59,6 +59,11 @@ items:
     marketGroup: 2450
     name: Decayed 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
+  Decayed Heavy Energy Neutralizer Mutaplasmid:
+    id: 47829
+    marketGroup: 2455
+    name: Decayed Heavy Energy Neutralizer Mutaplasmid
+    volume: 1.0
   Decayed Large Armor Plate Mutaplasmid:
     id: 47816
     marketGroup: 2445
@@ -68,11 +73,6 @@ items:
     id: 47774
     marketGroup: 2445
     name: Decayed Large Armor Repairer Mutaplasmid
-    volume: 1.0
-  Decayed Large Energy Neutralizer Mutaplasmid:
-    id: 47829
-    marketGroup: 2455
-    name: Decayed Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Decayed Large Shield Booster Mutaplasmid:
     id: 47786
@@ -184,6 +184,11 @@ items:
     marketGroup: 2450
     name: Gravid 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
+  Gravid Heavy Energy Neutralizer Mutaplasmid:
+    id: 47831
+    marketGroup: 2455
+    name: Gravid Heavy Energy Neutralizer Mutaplasmid
+    volume: 1.0
   Gravid Large Armor Plate Mutaplasmid:
     id: 47819
     marketGroup: 2445
@@ -193,11 +198,6 @@ items:
     id: 47776
     marketGroup: 2445
     name: Gravid Large Armor Repairer Mutaplasmid
-    volume: 1.0
-  Gravid Large Energy Neutralizer Mutaplasmid:
-    id: 47831
-    marketGroup: 2455
-    name: Gravid Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Gravid Large Shield Booster Mutaplasmid:
     id: 47788
@@ -309,6 +309,11 @@ items:
     marketGroup: 2450
     name: Unstable 5MN Microwarpdrive Mutaplasmid
     volume: 1.0
+  Unstable Heavy Energy Neutralizer Mutaplasmid:
+    id: 47830
+    marketGroup: 2455
+    name: Unstable Heavy Energy Neutralizer Mutaplasmid
+    volume: 1.0
   Unstable Large Armor Plate Mutaplasmid:
     id: 47818
     marketGroup: 2445
@@ -318,11 +323,6 @@ items:
     id: 47775
     marketGroup: 2445
     name: Unstable Large Armor Repairer Mutaplasmid
-    volume: 1.0
-  Unstable Large Energy Neutralizer Mutaplasmid:
-    id: 47830
-    marketGroup: 2455
-    name: Unstable Large Energy Neutralizer Mutaplasmid
     volume: 1.0
   Unstable Large Shield Booster Mutaplasmid:
     id: 47787
@@ -403,4 +403,9 @@ items:
     id: 47791
     marketGroup: 2449
     name: Unstable X-Large Shield Booster Mutaplasmid
+    volume: 1.0
+  unnamed_gid0_sid0:
+    id: 48438
+    marketGroup: 2455
+    name: unnamed_gid0_sid0
     volume: 1.0

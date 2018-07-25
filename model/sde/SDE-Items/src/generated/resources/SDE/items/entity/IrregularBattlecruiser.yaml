@@ -3,14 +3,6 @@ items:
     id: 36941
     name: Blood Raider Battlecruiser
     volume: 118000.0
-  GalFed_Boss1:
-    id: 48131
-    name: GalFed_Boss1
-    volume: 270000.0
-  GalFed_NPC4:
-    id: 48130
-    name: GalFed_NPC4
-    volume: 270000.0
   Guardian Angels Hanael:
     id: 42129
     name: Guardian Angels Hanael

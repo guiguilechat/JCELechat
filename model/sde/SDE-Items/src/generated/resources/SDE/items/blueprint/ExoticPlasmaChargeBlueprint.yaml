@@ -1,46 +1,37 @@
 items:
   Baryon Exotic Plasma L Blueprint:
     id: 48108
-    marketGroup: 308
     name: Baryon Exotic Plasma L Blueprint
     volume: 0.01
   Baryon Exotic Plasma M Blueprint:
     id: 48103
-    marketGroup: 308
     name: Baryon Exotic Plasma M Blueprint
     volume: 0.01
   Baryon Exotic Plasma S Blueprint:
     id: 48098
-    marketGroup: 307
     name: Baryon Exotic Plasma S Blueprint
     volume: 0.01
   Meson Exotic Plasma L Blueprint:
     id: 48109
-    marketGroup: 306
     name: Meson Exotic Plasma L Blueprint
     volume: 0.01
   Meson Exotic Plasma M Blueprint:
     id: 48104
-    marketGroup: 308
     name: Meson Exotic Plasma M Blueprint
     volume: 0.01
   Meson Exotic Plasma S Blueprint:
     id: 48099
-    marketGroup: 307
     name: Meson Exotic Plasma S Blueprint
     volume: 0.01
   Tetryon Exotic Plasma L Blueprint:
     id: 48107
-    marketGroup: 306
     name: Tetryon Exotic Plasma L Blueprint
     volume: 0.01
   Tetryon Exotic Plasma M Blueprint:
     id: 48102
-    marketGroup: 308
     name: Tetryon Exotic Plasma M Blueprint
     volume: 0.01
   Tetryon Exotic Plasma S Blueprint:
     id: 48097
-    marketGroup: 307
     name: Tetryon Exotic Plasma S Blueprint
     volume: 0.01

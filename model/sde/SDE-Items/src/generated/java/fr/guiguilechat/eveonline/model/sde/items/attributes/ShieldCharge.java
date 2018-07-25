@@ -5,6 +5,7 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 /**
  * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
+ * The amount of starting shield capacity of the NPC.
  */
 public class ShieldCharge
     extends IntAttribute

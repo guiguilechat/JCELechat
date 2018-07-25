@@ -1362,66 +1362,6 @@ items:
     id: 3844
     name: Freedom of Operation License
     volume: 0.1
-  GalFed_Trinket1:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48135
-    name: GalFed_Trinket1
-    volume: 0.1
-  GalFed_Trinket10:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48144
-    name: GalFed_Trinket10
-    volume: 0.1
-  GalFed_Trinket2:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48136
-    name: GalFed_Trinket2
-    volume: 0.1
-  GalFed_Trinket3:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48137
-    name: GalFed_Trinket3
-    volume: 0.1
-  GalFed_Trinket4:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48138
-    name: GalFed_Trinket4
-    volume: 0.1
-  GalFed_Trinket5:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48139
-    name: GalFed_Trinket5
-    volume: 0.1
-  GalFed_Trinket6:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48140
-    name: GalFed_Trinket6
-    volume: 0.1
-  GalFed_Trinket7:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48141
-    name: GalFed_Trinket7
-    volume: 0.1
-  GalFed_Trinket8:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48142
-    name: GalFed_Trinket8
-    volume: 0.1
-  GalFed_Trinket9:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 48143
-    name: GalFed_Trinket9
-    volume: 0.1
   Galeptos Medicine:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -1536,11 +1476,11 @@ items:
     id: 25382
     name: Guristas War Plans
     volume: 0.1
-  Guristas ���Dirty' Explosive System:
+  Guristas ‘Dirty' Explosive System:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
     id: 32383
-    name: Guristas ���Dirty' Explosive System
+    name: Guristas ‘Dirty' Explosive System
     volume: 0.1
   Hand of Arzad:
     ExportTaxMultiplier: 1

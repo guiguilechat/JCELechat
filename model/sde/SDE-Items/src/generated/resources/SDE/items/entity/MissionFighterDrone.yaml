@@ -15,10 +15,6 @@ items:
     id: 30995
     name: Gallente Federation Civilians
     volume: 5000.0
-  Imperial Fighter:
-    id: 27898
-    name: Imperial Fighter
-    volume: 5000.0
   Outpost Defender:
     id: 29025
     name: Outpost Defender

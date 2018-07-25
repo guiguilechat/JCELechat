@@ -567,7 +567,7 @@ items:
     name: Men's State Military Stockpile Jacket
     volume: 0.1
   Men's Triglavian Survival Suit (Bioadaptive):
-    Gender: 2
+    Gender: 1
     id: 48082
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Bioadaptive)
@@ -1296,8 +1296,14 @@ items:
     name: Women's State Military Stockpile Jacket
     volume: 0.1
   Women's Triglavian Survival Suit (Bioadaptive):
-    Gender: 2
+    Gender: 3
     id: 48081
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Bioadaptive)
+    volume: 0.1
+  unnamed_gid0_sid0:
+    Gender: 2
+    id: 48387
+    marketGroup: 1399
+    name: unnamed_gid0_sid0
     volume: 0.1

@@ -4,7 +4,7 @@ import fr.guiguilechat.eveonline.model.sde.items.DoubleAttribute;
 
 
 /**
- * The last allowed injection date.  After this date the booster can no longer be consumed.
+ * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
  */
 public class BoosterLastInjectionDatetime
     extends DoubleAttribute

@@ -1,381 +1,476 @@
 items:
   0-G8NO Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003584
     id: 48290
     name: 0-G8NO Station Monument
   0-W778 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48288
     name: 0-W778 Station Monument
   0OYZ-G Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003584
     id: 48340
     name: 0OYZ-G Outpost Monument
   111-F1 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48293
     name: 111-F1 Station Monument
   16P-PX Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48359
     name: 16P-PX Outpost Monument
   1A8-6G Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007376
     id: 48363
     name: 1A8-6G Outpost Monument
   1V-LI2 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48320
     name: 1V-LI2 Station Monument
   2-RSC7 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48299
     name: 2-RSC7 Station Monument
   28Y9-P Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48322
     name: 28Y9-P Station Monument
   2O-EEW Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005840
     id: 48302
     name: 2O-EEW Station Monument
   3BK-O7 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48318
     name: 3BK-O7 Station Monument
   3JN9-Q Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005952
     id: 48283
     name: 3JN9-Q Station Monument
   4-EFLU Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007496
     id: 48335
     name: 4-EFLU Station Monument
   5-6QW7 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48287
     name: 5-6QW7 Station Monument
   5-N2EY Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007752
     id: 48277
     name: 5-N2EY Station Monument
   5P-AIP Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48338
     name: 5P-AIP Outpost Monument
   68FT-6 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003216
     id: 48303
     name: 68FT-6 Station Monument
   6OYQ-Z Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48324
     name: 6OYQ-Z Station Monument
   6T3I-L Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005440
     id: 48310
     name: 6T3I-L Station Monument
   6VDT-H Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1900696704
     id: 48349
     name: 6VDT-H Outpost Monument
   77S8-E Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003584
     id: 48356
     name: 77S8-E Outpost Monument
   9-4RP2 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1900696704
     id: 48279
     name: 9-4RP2 Station Monument
   9-980U Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99008256
     id: 48361
     name: 9-980U Outpost Monument
   995-3G Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005840
     id: 48273
     name: 995-3G Station Monument
   9CG6-H Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48317
     name: 9CG6-H Station Monument
   9UY4-H Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1966049536
     id: 48344
     name: 9UY4-H Outpost Monument
   B-R5RB Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002368
     id: 48357
     name: B-R5RB Outpost Monument
   BKG-Q2 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007200
     id: 48270
     name: BKG-Q2 Station Monument
   BWF-ZZ Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005336
     id: 48342
     name: BWF-ZZ Outpost Monument
   BZ-0GW Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48292
     name: BZ-0GW Station Monument
   C-J6MT Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1220922752
     id: 48306
     name: C-J6MT Station Monument
   C4C-Z4 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005952
     id: 48295
     name: C4C-Z4 Station Monument
   C9N-CC Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48291
     name: C9N-CC Station Monument
   CZDJ-1 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002936
     id: 48284
     name: CZDJ-1 Station Monument
   D2EZ-X Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005440
     id: 48309
     name: D2EZ-X Station Monument
   D4R-H7 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002936
     id: 48272
     name: D4R-H7 Station Monument
   D7-ZAC Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48330
     name: D7-ZAC Station Monument
   DG-8VJ Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48289
     name: DG-8VJ Station Monument
   DZ6-I5 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48326
     name: DZ6-I5 Station Monument
   E8-YS9 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007360
     id: 48301
     name: E8-YS9 Station Monument
   EC-P8R Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1838908032
     id: 48341
     name: EC-P8R Outpost Monument
   F-EM4Q Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007496
     id: 48336
     name: F-EM4Q Station Monument
   F2A-GX Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48307
     name: F2A-GX Station Monument
   FAT-6P Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002368
     id: 48278
     name: FAT-6P Station Monument
   FR-B1H Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99006296
     id: 48305
     name: FR-B1H Station Monument
   G-Q5JU Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99004480
     id: 48316
     name: G-Q5JU Station Monument
   G8AD-C Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1900696704
     id: 48280
     name: G8AD-C Station Monument
   GE-8JV Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003216
     id: 48345
     name: GE-8JV Outpost Monument
   GHZ-SJ Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48343
     name: GHZ-SJ Outpost Monument
   GQ2S-8 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48313
     name: GQ2S-8 Station Monument
   H-W9TY Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1727758848
     id: 48329
     name: H-W9TY Station Monument
   H74-B0 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1900696704
     id: 48319
     name: H74-B0 Station Monument
   H8-ZTO Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48312
     name: H8-ZTO Station Monument
   HED-GP Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48351
     name: HED-GP Outpost Monument
   I-UUI5 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005952
     id: 48296
     name: I-UUI5 Station Monument
   IMK-K1 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48331
     name: IMK-K1 Station Monument
   J-LPX7 Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48358
     name: J-LPX7 Outpost Monument
   JLO-Z3 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48321
     name: JLO-Z3 Station Monument
   JU-OWQ Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1042504576
     id: 48355
     name: JU-OWQ Outpost Monument
   JV1V-O Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005440
     id: 48328
     name: JV1V-O Station Monument
   JZV-F4 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1695357440
     id: 48334
     name: JZV-F4 Station Monument
   K-8SQS Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002936
     id: 48271
     name: K-8SQS Station Monument
   KDF-GY Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99006072
     id: 48339
     name: KDF-GY Outpost Monument
   L-C3O7 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005952
     id: 48294
     name: L-C3O7 Station Monument
   LS-JEP Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1548582912
     id: 48333
     name: LS-JEP Station Monument
   LX5K-W Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48360
     name: LX5K-W Outpost Monument
   LXQ2-T Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99004904
     id: 48352
     name: LXQ2-T Outpost Monument
   M-OEE8 Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48350
     name: M-OEE8 Outpost Monument
   M53-1V Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007376
     id: 48274
     name: M53-1V Station Monument
   MO-GZ5 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48286
     name: MO-GZ5 Station Monument
   MP5-KR Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48314
     name: MP5-KR Station Monument
   N-I024 Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007376
     id: 48362
     name: N-I024 Outpost Monument
   N7-BIY Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 933731584
     id: 48308
     name: N7-BIY Station Monument
   NOL-M9 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48285
     name: NOL-M9 Station Monument
   NZW-ZO Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48327
     name: NZW-ZO Station Monument
   P-2TTL Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99001320
     id: 48347
     name: P-2TTL Outpost Monument
   P7-45V Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007376
     id: 48275
     name: P7-45V Station Monument
   Q-GQHN Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007360
     id: 48337
     name: Q-GQHN Station Monument
   QYZM-W Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99002936
     id: 48364
     name: QYZM-W Outpost Monument
   S-E6ES Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003584
     id: 48354
     name: S-E6ES Outpost Monument
   S-EVIQ Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48323
     name: S-EVIQ Station Monument
   TPAR-G Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99004480
     id: 48315
     name: TPAR-G Station Monument
   TVN-FM Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 386292992
     id: 48348
     name: TVN-FM Outpost Monument
   UB5Z-3 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48298
     name: UB5Z-3 Station Monument
   V2-VC2 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99007752
     id: 48276
     name: V2-VC2 Station Monument
   V7-MID Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99001952
     id: 48325
     name: V7-MID Station Monument
   VFK-IV Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1354830080
     id: 48282
     name: VFK-IV Station Monument
   VNGJ-U Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 498125248
     id: 48297
     name: VNGJ-U Station Monument
   X-R3NM Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1988009472
     id: 48346
     name: X-R3NM Outpost Monument
   XZH-4X Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1900696704
     id: 48281
     name: XZH-4X Station Monument
   Y-CWQY Outpost Monument:
     Hp: 100000000
+    MonumentAllianceID: 1220922752
     id: 48353
     name: Y-CWQY Outpost Monument
   Z-7OK1 Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005440
     id: 48311
     name: Z-7OK1 Station Monument
   Z-H2MA Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99005488
     id: 48300
     name: Z-H2MA Station Monument
   Z-N9IP Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 99003840
     id: 48304
     name: Z-N9IP Station Monument
   ZLZ-1Z Station Monument:
     Hp: 100000000
+    MonumentAllianceID: 1727758848
     id: 48332
     name: ZLZ-1Z Station Monument

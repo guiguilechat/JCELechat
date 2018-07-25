@@ -222,7 +222,7 @@ items:
     StructureDamageLimit: 15000
     StructureFullPowerStateHitpointMultiplier: 1
     StructureRoleBonus: 25
-    StructureServiceRoleBonus: -25
+    StructureServiceRoleBonus: -50
     StructureUniformity: 1.0
     TargetPainterResistance: 9.999999747378752E-6
     TetheringRange: 10000

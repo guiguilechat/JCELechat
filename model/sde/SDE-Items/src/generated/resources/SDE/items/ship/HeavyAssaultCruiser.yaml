@@ -828,6 +828,8 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 1500.0
     CpuOutput: 340
+    DroneBandwidth: 25
+    DroneCapacity: 50
     EliteBonusHeavyGunship1: 10
     EliteBonusHeavyGunship2: 5.0
     EmDamageResonance: 0.6700000166893005

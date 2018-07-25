@@ -66439,6 +66439,8 @@ agents:
     isLocator: false
     level: 1
     name: Moodle Doodledoo
+    station: Polaris I - Polaris Corporation Plantation
+    system: Polaris
     type: EventMissionAgent
   Moolis Aulbie:
     corporation: Federation Navy

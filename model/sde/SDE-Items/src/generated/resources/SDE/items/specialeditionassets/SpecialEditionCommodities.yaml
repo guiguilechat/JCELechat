@@ -253,6 +253,12 @@ items:
     marketGroup: 1661
     name: Copper Ouroboros
     volume: 0.1
+  Copy of the Gallente Federation Constitution:
+    CpuMultiplier: 1.0
+    id: 48135
+    marketGroup: 1661
+    name: Copy of the Gallente Federation Constitution
+    volume: 1.0
   Counterfeit Dominix Model:
     CpuMultiplier: 1.0
     id: 37887
@@ -307,6 +313,42 @@ items:
     marketGroup: 1661
     name: Federation Civilian Container
     volume: 0.1
+  Federation Grand Prix Bronze Package:
+    CpuMultiplier: 1.0
+    id: 48375
+    marketGroup: 1661
+    name: Federation Grand Prix Bronze Package
+    volume: 10000.0
+  Federation Grand Prix CreoDron Package:
+    CpuMultiplier: 1.0
+    id: 48376
+    marketGroup: 1661
+    name: Federation Grand Prix CreoDron Package
+    volume: 10000.0
+  Federation Grand Prix Gold Package:
+    CpuMultiplier: 1.0
+    id: 48379
+    marketGroup: 1661
+    name: Federation Grand Prix Gold Package
+    volume: 10000.0
+  Federation Grand Prix Impetus Package:
+    CpuMultiplier: 1.0
+    id: 48374
+    marketGroup: 1661
+    name: Federation Grand Prix Impetus Package
+    volume: 10000.0
+  Federation Grand Prix Quafe Package:
+    CpuMultiplier: 1.0
+    id: 48378
+    marketGroup: 1661
+    name: Federation Grand Prix Quafe Package
+    volume: 10000.0
+  Federation Grand Prix Silver Package:
+    CpuMultiplier: 1.0
+    id: 48377
+    marketGroup: 1661
+    name: Federation Grand Prix Silver Package
+    volume: 10000.0
   Festive Firecrackers:
     CpuMultiplier: 1.0
     id: 37879
@@ -397,17 +439,41 @@ items:
     marketGroup: 1661
     name: IGC Garment Keeper
     volume: 0.1
+  Impetus Trading Cards:
+    CpuMultiplier: 1.0
+    id: 48138
+    marketGroup: 1661
+    name: Impetus Trading Cards
+    volume: 1.0
   Inception Skill Package:
     CpuMultiplier: 1.0
     id: 46260
     name: Inception Skill Package
     volume: 6000.0
+  Intaki Cycle of Ida Bracelet:
+    CpuMultiplier: 1.0
+    id: 48140
+    marketGroup: 1661
+    name: Intaki Cycle of Ida Bracelet
+    volume: 1.0
+  Intaki Spiced Tea:
+    CpuMultiplier: 1.0
+    id: 48143
+    marketGroup: 1661
+    name: Intaki Spiced Tea
+    volume: 1.0
   Jezaja’s Giant Secure Container:
     CpuMultiplier: 1.0
     id: 44205
     marketGroup: 1661
     name: Jezaja’s Giant Secure Container
     volume: 3.0
+  Jin-Mei Silk Cord:
+    CpuMultiplier: 1.0
+    id: 48142
+    marketGroup: 1661
+    name: Jin-Mei Silk Cord
+    volume: 1.0
   Jump Fatigue Recovery Agent:
     CpuMultiplier: 1.0
     id: 34419
@@ -461,6 +527,12 @@ items:
     id: 28840
     marketGroup: 1661
     name: Magic Crystal Ball
+    volume: 1.0
+  Mannar Hair Gel:
+    CpuMultiplier: 1.0
+    id: 48139
+    marketGroup: 1661
+    name: Mannar Hair Gel
     volume: 1.0
   Manufacturing Union’s Placard:
     CpuMultiplier: 1.0
@@ -575,6 +647,12 @@ items:
     marketGroup: 1661
     name: 'Public Portrait: How To'
     volume: 0.01
+  Raata Wind Chimes:
+    CpuMultiplier: 1.0
+    id: 48141
+    marketGroup: 1661
+    name: Raata Wind Chimes
+    volume: 1.0
   Rejected Ship Replacement Program Request:
     CpuMultiplier: 1.0
     id: 44211
@@ -599,6 +677,24 @@ items:
     marketGroup: 1661
     name: Replica Gold Magnate Decorative Plating
     volume: 0.01
+  Replica Miss Federation Trophy:
+    CpuMultiplier: 1.0
+    id: 48137
+    marketGroup: 1661
+    name: Replica Miss Federation Trophy
+    volume: 1.0
+  Replica Mister Federation Trophy:
+    CpuMultiplier: 1.0
+    id: 48136
+    marketGroup: 1661
+    name: Replica Mister Federation Trophy
+    volume: 1.0
+  Replica of the ISCSS Venture:
+    CpuMultiplier: 1.0
+    id: 48144
+    marketGroup: 1661
+    name: Replica of the ISCSS Venture
+    volume: 1.0
   Republic Civilian Container:
     CpuMultiplier: 1.0
     id: 43679
@@ -946,9 +1042,15 @@ items:
     marketGroup: 1661
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  未来人类纪念章:
+  unnamed_gid0_sid0:
+    CpuMultiplier: 1.0
+    id: 48593
+    marketGroup: 1661
+    name: unnamed_gid0_sid0
+    volume: 1.0
+  未来��类纪念章:
     CpuMultiplier: 1.0
     id: 41035
     marketGroup: 1661
-    name: 未来人类纪念章
+    name: 未来��类纪念章
     volume: 3.0

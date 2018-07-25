@@ -49,7 +49,7 @@ public class MiningCrystal
     @DefaultIntValue(0)
     public int CrystalsGetDamaged;
     /**
-     * current damage dealt to module
+     * current structure damage dealt to module
      */
     @HighIsGood(false)
     @Stackable(true)

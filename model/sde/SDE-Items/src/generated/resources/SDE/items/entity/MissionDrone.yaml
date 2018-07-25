@@ -11,6 +11,10 @@ items:
     id: 15395
     name: Construction Freight
     volume: 1105000.0
+  Imperial Fighter:
+    id: 27898
+    name: Imperial Fighter
+    volume: 5000.0
   Ore Supply Freight:
     id: 16102
     name: Ore Supply Freight

@@ -98,7 +98,7 @@ public class Booster
     @DefaultDoubleValue(0.0)
     public double BoosterEffectChance5;
     /**
-     * The last allowed injection date.  After this date the booster can no longer be consumed.
+     * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
      */
     @HighIsGood(true)
     @Stackable(true)

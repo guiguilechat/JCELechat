@@ -1,7 +1,7 @@
 items:
   Advanced 'Liberty' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17708.458984375
+    BoosterLastInjectionDatetime: 17715.458984375
     Boosterness: 10
     CharismaBonus: 12
     FollowsJumpClones: 1
@@ -13,7 +13,6 @@ items:
     RequiredSkill1Level: 1
     WillpowerBonus: 12
     id: 48117
-    marketGroup: 977
     name: Advanced 'Liberty' Cerebral Accelerator
     volume: 1.0
   Advanced Cerebral Accelerator:
@@ -31,30 +30,13 @@ items:
     id: 33087
     name: Advanced Cerebral Accelerator
     volume: 1.0
-  Advanced X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47707
-    marketGroup: 977
-    name: Advanced X-Sense 'Consciousness' Cerebral Accelerator
-    volume: 1.0
   Agency 'Hardshell' TB3 Dose I:
     ArmorDamageAmountBonus: 3
     BoosterDuration: 1800000
     Boosterness: 11
     ShieldBoostMultiplier: 3.0
     id: 46001
-    marketGroup: 977
+    marketGroup: 2503
     name: Agency 'Hardshell' TB3 Dose I
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
@@ -63,7 +45,7 @@ items:
     Boosterness: 11
     ShieldBoostMultiplier: 5.0
     id: 46002
-    marketGroup: 977
+    marketGroup: 2503
     name: Agency 'Hardshell' TB5 Dose II
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
@@ -72,12 +54,16 @@ items:
     Boosterness: 11
     ShieldBoostMultiplier: 7.0
     id: 46003
-    marketGroup: 977
+    marketGroup: 2503
     name: Agency 'Hardshell' TB7 Dose III
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
+    ArmorDamageAmountBonus: 9
+    BoosterDuration: 1800000
+    Boosterness: 11
+    ShieldBoostMultiplier: 9.0
     id: 48113
-    marketGroup: 977
+    marketGroup: 2503
     name: Agency 'Hardshell' TB9 Dose IV
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
@@ -85,7 +71,7 @@ items:
     Boosterness: 11
     VelocityBonus: 3.0
     id: 46004
-    marketGroup: 977
+    marketGroup: 2504
     name: Agency 'Overclocker' SB3 Dose I
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
@@ -93,7 +79,7 @@ items:
     Boosterness: 11
     VelocityBonus: 5.0
     id: 46005
-    marketGroup: 977
+    marketGroup: 2504
     name: Agency 'Overclocker' SB5 Dose II
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
@@ -101,12 +87,15 @@ items:
     Boosterness: 11
     VelocityBonus: 7.0
     id: 46006
-    marketGroup: 977
+    marketGroup: 2504
     name: Agency 'Overclocker' SB7 Dose III
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    VelocityBonus: 9.0
     id: 48114
-    marketGroup: 977
+    marketGroup: 2504
     name: Agency 'Overclocker' SB9 Dose IV
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
@@ -114,7 +103,7 @@ items:
     Boosterness: 11
     DamageMultiplierBonus: 3
     id: 45998
-    marketGroup: 977
+    marketGroup: 2505
     name: Agency 'Pyrolancea' DB3 Dose I
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
@@ -122,7 +111,7 @@ items:
     Boosterness: 11
     DamageMultiplierBonus: 5
     id: 45999
-    marketGroup: 977
+    marketGroup: 2505
     name: Agency 'Pyrolancea' DB5 Dose II
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
@@ -130,17 +119,19 @@ items:
     Boosterness: 11
     DamageMultiplierBonus: 7
     id: 46000
-    marketGroup: 977
+    marketGroup: 2505
     name: Agency 'Pyrolancea' DB7 Dose III
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
+    BoosterDuration: 1800000
+    Boosterness: 11
+    DamageMultiplierBonus: 9
     id: 48115
-    marketGroup: 977
+    marketGroup: 2505
     name: Agency 'Pyrolancea' DB9 Dose IV
     volume: 1.0
   Agency Standard Booster:
     id: 45733
-    marketGroup: 977
     name: Agency Standard Booster
     volume: 1.0
   Antipharmakon Aeolis:
@@ -150,7 +141,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 36912
-    marketGroup: 977
+    marketGroup: 2495
     name: Antipharmakon Aeolis
     volume: 1.0
   Antipharmakon Iokira:
@@ -160,7 +151,7 @@ items:
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 8.0
     id: 36910
-    marketGroup: 977
+    marketGroup: 2499
     name: Antipharmakon Iokira
     volume: 1.0
   Antipharmakon Kosybo:
@@ -170,7 +161,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 36909
-    marketGroup: 977
+    marketGroup: 2495
     name: Antipharmakon Kosybo
     volume: 1.0
   Antipharmakon Thureo:
@@ -180,7 +171,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 8.0
     id: 36908
-    marketGroup: 977
+    marketGroup: 2495
     name: Antipharmakon Thureo
     volume: 1.0
   Antipharmakon Toxot:
@@ -190,12 +181,12 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 36911
-    marketGroup: 977
+    marketGroup: 2501
     name: Antipharmakon Toxot
     volume: 1.0
-  Basic X-Sense 'Consciousness' Cerebral Accelerator:
+  Drone_Implant3:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
+    BoosterLastInjectionDatetime: 17750.458984375
     Boosterness: 10
     CharismaBonus: 6
     FollowsJumpClones: 1
@@ -206,9 +197,60 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 1
     WillpowerBonus: 6
-    id: 47705
-    marketGroup: 977
-    name: Basic X-Sense 'Consciousness' Cerebral Accelerator
+    id: 48150
+    marketGroup: 2487
+    name: Drone_Implant3
+    volume: 1.0
+  Drone_Implant4:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17750.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 48151
+    marketGroup: 2487
+    name: Drone_Implant4
+    volume: 1.0
+  Drone_Implant5:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17750.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 48152
+    marketGroup: 2487
+    name: Drone_Implant5
+    volume: 1.0
+  Drone_Implant6:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17750.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 48153
+    marketGroup: 2487
+    name: Drone_Implant6
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -225,6 +267,38 @@ items:
     WillpowerBonus: 12
     id: 47396
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    volume: 1.0
+  Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17688.458984375
+    Boosterness: 10
+    CharismaBonus: 12
+    FollowsJumpClones: 1
+    IntelligenceBonus: 12
+    MemoryBonus: 12
+    Nondestructible: 1
+    PerceptionBonus: 12
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 12
+    id: 47707
+    name: Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator
+    volume: 1.0
+  Expired Basic X-Sense 'Consciousness' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17688.458984375
+    Boosterness: 10
+    CharismaBonus: 6
+    FollowsJumpClones: 1
+    IntelligenceBonus: 6
+    MemoryBonus: 6
+    Nondestructible: 1
+    PerceptionBonus: 6
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 6
+    id: 47705
+    name: Expired Basic X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
   Expired CDIA SPACE Cerebral Accelerator:
     BoosterDuration: 259200000
@@ -290,6 +364,22 @@ items:
     id: 47397
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
     volume: 1.0
+  Expired Extended X-Sense 'Consciousness' Cerebral Accelerator:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 17688.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 47708
+    name: Expired Extended X-Sense 'Consciousness' Cerebral Accelerator
+    volume: 1.0
   Expired Gold Ouroboros Accelerator:
     BoosterDuration: 432000000
     BoosterLastInjectionDatetime: 17032.0
@@ -337,6 +427,22 @@ items:
     WillpowerBonus: 10
     id: 47265
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    volume: 1.0
+  Expired Improved X-Sense 'Consciousness' Cerebral Accelerator:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 17688.458984375
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 47706
+    name: Expired Improved X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
   Expired Rogue Swarm Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -420,7 +526,7 @@ items:
     volume: 1.0
   Extended 'Liberty' Cerebral Accelerator:
     BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17708.458984375
+    BoosterLastInjectionDatetime: 17715.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -432,25 +538,7 @@ items:
     RequiredSkill1Level: 1
     WillpowerBonus: 10
     id: 48118
-    marketGroup: 977
     name: Extended 'Liberty' Cerebral Accelerator
-    volume: 1.0
-  Extended X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 47708
-    marketGroup: 977
-    name: Extended X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
@@ -468,7 +556,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 25.0
     id: 10155
-    marketGroup: 977
+    marketGroup: 2491
     name: Improved Blue Pill Booster
     volume: 1.0
   Improved Crash Booster:
@@ -487,7 +575,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     id: 10151
-    marketGroup: 977
+    marketGroup: 2500
     name: Improved Crash Booster
     volume: 1.0
   Improved Drop Booster:
@@ -506,7 +594,7 @@ items:
     RequiredSkill1Level: 2
     TrackingSpeedBonus: 31.25
     id: 15477
-    marketGroup: 977
+    marketGroup: 2496
     name: Improved Drop Booster
     volume: 1.0
   Improved Exile Booster:
@@ -525,7 +613,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     id: 15480
-    marketGroup: 977
+    marketGroup: 2492
     name: Improved Exile Booster
     volume: 1.0
   Improved Frentix Booster:
@@ -544,7 +632,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     id: 15461
-    marketGroup: 977
+    marketGroup: 2497
     name: Improved Frentix Booster
     volume: 1.0
   Improved Mindflood Booster:
@@ -563,7 +651,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     id: 15464
-    marketGroup: 977
+    marketGroup: 2493
     name: Improved Mindflood Booster
     volume: 1.0
   Improved Sooth Sayer Booster:
@@ -582,7 +670,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 2
     id: 10165
-    marketGroup: 977
+    marketGroup: 2498
     name: Improved Sooth Sayer Booster
     volume: 1.0
   Improved X-Instinct Booster:
@@ -601,25 +689,8 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -11.25
     id: 15458
-    marketGroup: 977
+    marketGroup: 2494
     name: Improved X-Instinct Booster
-    volume: 1.0
-  Improved X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 47706
-    marketGroup: 977
-    name: Improved X-Sense 'Consciousness' Cerebral Accelerator
     volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     BoosterDuration: 1980000
@@ -628,7 +699,7 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 5.0
     id: 32248
-    marketGroup: 977
+    marketGroup: 2491
     name: Nugoehuvi Synth Blue Pill Booster
     volume: 1.0
   Prototype Cerebral Accelerator:
@@ -713,12 +784,12 @@ items:
     ScanResolutionBonus: 5.0
     VelocityBonus: 5.0
     id: 3898
-    marketGroup: 977
+    marketGroup: 2506
     name: Quafe Zero
     volume: 1.0
   Standard 'Liberty' Cerebral Accelerator:
     BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17708.458984375
+    BoosterLastInjectionDatetime: 17715.458984375
     Boosterness: 10
     CharismaBonus: 10
     FollowsJumpClones: 1
@@ -730,7 +801,6 @@ items:
     RequiredSkill1Level: 1
     WillpowerBonus: 10
     id: 48116
-    marketGroup: 977
     name: Standard 'Liberty' Cerebral Accelerator
     volume: 1.0
   Standard Blue Pill Booster:
@@ -749,7 +819,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 20.0
     id: 9950
-    marketGroup: 977
+    marketGroup: 2491
     name: Standard Blue Pill Booster
     volume: 1.0
   Standard Cerebral Accelerator:
@@ -785,7 +855,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 9947
-    marketGroup: 977
+    marketGroup: 2500
     name: Standard Crash Booster
     volume: 1.0
   Standard Drop Booster:
@@ -804,7 +874,7 @@ items:
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 25.0
     id: 15466
-    marketGroup: 977
+    marketGroup: 2496
     name: Standard Drop Booster
     volume: 1.0
   Standard Exile Booster:
@@ -823,7 +893,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 15479
-    marketGroup: 977
+    marketGroup: 2492
     name: Standard Exile Booster
     volume: 1.0
   Standard Frentix Booster:
@@ -842,7 +912,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 15460
-    marketGroup: 977
+    marketGroup: 2497
     name: Standard Frentix Booster
     volume: 1.0
   Standard Mindflood Booster:
@@ -861,7 +931,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 15463
-    marketGroup: 977
+    marketGroup: 2493
     name: Standard Mindflood Booster
     volume: 1.0
   Standard Sooth Sayer Booster:
@@ -880,7 +950,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 10164
-    marketGroup: 977
+    marketGroup: 2498
     name: Standard Sooth Sayer Booster
     volume: 1.0
   Standard X-Instinct Booster:
@@ -899,7 +969,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -7.5
     id: 15457
-    marketGroup: 977
+    marketGroup: 2494
     name: Standard X-Instinct Booster
     volume: 1.0
   Strong Blue Pill Booster:
@@ -918,7 +988,7 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 30.0
     id: 10156
-    marketGroup: 977
+    marketGroup: 2491
     name: Strong Blue Pill Booster
     volume: 1.0
   Strong Crash Booster:
@@ -937,7 +1007,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     id: 10152
-    marketGroup: 977
+    marketGroup: 2500
     name: Strong Crash Booster
     volume: 1.0
   Strong Drop Booster:
@@ -956,7 +1026,7 @@ items:
     RequiredSkill1Level: 3
     TrackingSpeedBonus: 37.5
     id: 15478
-    marketGroup: 977
+    marketGroup: 2496
     name: Strong Drop Booster
     volume: 1.0
   Strong Exile Booster:
@@ -975,7 +1045,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     id: 25349
-    marketGroup: 977
+    marketGroup: 2492
     name: Strong Exile Booster
     volume: 1.0
   Strong Frentix Booster:
@@ -994,7 +1064,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     id: 15462
-    marketGroup: 977
+    marketGroup: 2497
     name: Strong Frentix Booster
     volume: 1.0
   Strong Mindflood Booster:
@@ -1013,7 +1083,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     id: 15465
-    marketGroup: 977
+    marketGroup: 2493
     name: Strong Mindflood Booster
     volume: 1.0
   Strong Sooth Sayer Booster:
@@ -1032,7 +1102,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 3
     id: 10166
-    marketGroup: 977
+    marketGroup: 2498
     name: Strong Sooth Sayer Booster
     volume: 1.0
   Strong X-Instinct Booster:
@@ -1051,7 +1121,7 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -15.0
     id: 15459
-    marketGroup: 977
+    marketGroup: 2494
     name: Strong X-Instinct Booster
     volume: 1.0
   Synth Blue Pill Booster:
@@ -1061,7 +1131,7 @@ items:
     RequiredSkill1Level: 1
     ShieldBoostMultiplier: 3.0
     id: 28670
-    marketGroup: 977
+    marketGroup: 2491
     name: Synth Blue Pill Booster
     volume: 1.0
   Synth Crash Booster:
@@ -1071,7 +1141,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 28672
-    marketGroup: 977
+    marketGroup: 2500
     name: Synth Crash Booster
     volume: 1.0
   Synth Drop Booster:
@@ -1081,7 +1151,7 @@ items:
     RequiredSkill1Level: 1
     TrackingSpeedBonus: 3.0
     id: 28674
-    marketGroup: 977
+    marketGroup: 2496
     name: Synth Drop Booster
     volume: 1.0
   Synth Exile Booster:
@@ -1091,7 +1161,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 28676
-    marketGroup: 977
+    marketGroup: 2492
     name: Synth Exile Booster
     volume: 1.0
   Synth Frentix Booster:
@@ -1101,7 +1171,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 28678
-    marketGroup: 977
+    marketGroup: 2497
     name: Synth Frentix Booster
     volume: 1.0
   Synth Mindflood Booster:
@@ -1111,7 +1181,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 28680
-    marketGroup: 977
+    marketGroup: 2493
     name: Synth Mindflood Booster
     volume: 1.0
   Synth Sooth Sayer Booster:
@@ -1121,7 +1191,7 @@ items:
     RequiredSkill1: 3405
     RequiredSkill1Level: 1
     id: 28684
-    marketGroup: 977
+    marketGroup: 2498
     name: Synth Sooth Sayer Booster
     volume: 1.0
   Synth X-Instinct Booster:
@@ -1131,6 +1201,22 @@ items:
     RequiredSkill1Level: 1
     SignatureRadiusBonus: -2.25
     id: 28682
-    marketGroup: 977
+    marketGroup: 2494
     name: Synth X-Instinct Booster
+    volume: 1.0
+  unnamed_gid0_sid0:
+    BoosterDuration: 86400000
+    Boosterness: 10
+    CharismaBonus: 10
+    FollowsJumpClones: 1
+    IntelligenceBonus: 10
+    MemoryBonus: 10
+    Nondestructible: 1
+    PerceptionBonus: 10
+    RequiredSkill1: 3402
+    RequiredSkill1Level: 1
+    WillpowerBonus: 10
+    id: 48582
+    marketGroup: 2487
+    name: unnamed_gid0_sid0
     volume: 1.0

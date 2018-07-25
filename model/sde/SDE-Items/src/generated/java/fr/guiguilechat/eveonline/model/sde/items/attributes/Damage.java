@@ -4,7 +4,7 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 
 /**
- * current damage dealt to module
+ * current structure damage dealt to module
  */
 public class Damage
     extends IntAttribute

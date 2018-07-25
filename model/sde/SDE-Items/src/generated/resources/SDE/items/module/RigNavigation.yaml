@@ -138,7 +138,7 @@ items:
     name: Capital Low Friction Nozzle Joints II
     volume: 40.0
   Capital Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
+    AgilityBonus: -9.100000381469727
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 5.5
@@ -150,7 +150,7 @@ items:
     name: Capital Polycarbon Engine Housing I
     volume: 40.0
   Capital Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
+    AgilityBonus: -11.0
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 6.599999904632568
@@ -324,7 +324,7 @@ items:
     name: Large Low Friction Nozzle Joints II
     volume: 20.0
   Large Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
+    AgilityBonus: -9.100000381469727
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 5.5
@@ -336,7 +336,7 @@ items:
     name: Large Polycarbon Engine Housing I
     volume: 20.0
   Large Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
+    AgilityBonus: -11.0
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 6.599999904632568
@@ -510,7 +510,7 @@ items:
     name: Medium Low Friction Nozzle Joints II
     volume: 10.0
   Medium Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
+    AgilityBonus: -9.100000381469727
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 5.5
@@ -522,7 +522,7 @@ items:
     name: Medium Polycarbon Engine Housing I
     volume: 10.0
   Medium Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
+    AgilityBonus: -11.0
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 6.599999904632568
@@ -715,7 +715,7 @@ items:
     name: Small Low Friction Nozzle Joints II
     volume: 5.0
   Small Polycarbon Engine Housing I:
-    AgilityMultiplier: -9.100000381469727
+    AgilityBonus: -9.100000381469727
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 5.5
@@ -727,7 +727,7 @@ items:
     name: Small Polycarbon Engine Housing I
     volume: 5.0
   Small Polycarbon Engine Housing II:
-    AgilityMultiplier: -11.0
+    AgilityBonus: -11.0
     Drawback: -10
     Hp: 40
     ImplantBonusVelocity: 6.599999904632568

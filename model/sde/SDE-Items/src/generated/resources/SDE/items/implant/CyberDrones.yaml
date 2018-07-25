@@ -1,25 +1,25 @@
 items:
-  Drone_Implant1:
-    id: 48148
-    name: Drone_Implant1
-    volume: 1.0
-  Drone_Implant2:
+  CreoDron 'Bumblebee' Drone Tuner T10-5D:
+    ArmorHpBonus: 10
+    DamageMultiplierBonus: -5
+    HullHpBonus: 10.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: 10.0
     id: 48149
-    name: Drone_Implant2
+    marketGroup: 2477
+    name: CreoDron 'Bumblebee' Drone Tuner T10-5D
     volume: 1.0
-  Drone_Implant3:
-    id: 48150
-    name: Drone_Implant3
-    volume: 1.0
-  Drone_Implant4:
-    id: 48151
-    name: Drone_Implant4
-    volume: 1.0
-  Drone_Implant5:
-    id: 48152
-    name: Drone_Implant5
-    volume: 1.0
-  Drone_Implant6:
-    id: 48153
-    name: Drone_Implant6
+  CreoDron 'Yellowjacket' Drone Tuner D5-10T:
+    ArmorHpBonus: -10
+    DamageMultiplierBonus: 5
+    HullHpBonus: -10.0
+    Implantness: 9
+    RequiredSkill1: 3411
+    RequiredSkill1Level: 3
+    ShieldCapacityBonus: -10.0
+    id: 48148
+    marketGroup: 2477
+    name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
     volume: 1.0

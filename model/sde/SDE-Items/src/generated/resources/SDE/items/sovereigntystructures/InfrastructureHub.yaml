@@ -20,3 +20,13 @@ items:
     id: 32313
     name: QA Infrastructure Hub
     volume: 1.0
+  unnamed_gid3827_sid35:
+    PlanetAnchorDistance: 100000
+    ScanGravimetricStrength: 2000.0
+    ScanLadarStrength: 2000.0
+    ScanMagnetometricStrength: 2000.0
+    ScanRadarStrength: 2000.0
+    SignatureRadius: 4000
+    id: 48463
+    name: unnamed_gid3827_sid35
+    volume: 60000.0

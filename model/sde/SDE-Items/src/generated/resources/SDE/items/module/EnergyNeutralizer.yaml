@@ -638,6 +638,16 @@ items:
     marketGroup: 691
     name: Heavy 'Moat' Energy Neutralizer
     volume: 5.0
+  Heavy Abyssal Energy Neutralizer:
+    EntityCapacitorLevelModifierLarge: 1.0
+    EntityCapacitorLevelModifierMedium: 1.0
+    EntityCapacitorLevelModifierSmall: 1.0
+    RequiredSkill1: 3423
+    RequiredSkill1Level: 5
+    TechLevel: 1
+    id: 47832
+    name: Heavy Abyssal Energy Neutralizer
+    volume: 50.0
   Heavy Energy Neutralizer I:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -849,16 +859,6 @@ items:
     marketGroup: 689
     name: Imperial Navy Small Energy Neutralizer
     volume: 5.0
-  Large Abyssal Energy Neutralizer:
-    EntityCapacitorLevelModifierLarge: 1.0
-    EntityCapacitorLevelModifierMedium: 1.0
-    EntityCapacitorLevelModifierSmall: 1.0
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 47832
-    name: Large Abyssal Energy Neutralizer
-    volume: 50.0
   Medium 'Ditch' Energy Neutralizer:
     CapacitorNeed: 150.0
     Duration: 12000.0

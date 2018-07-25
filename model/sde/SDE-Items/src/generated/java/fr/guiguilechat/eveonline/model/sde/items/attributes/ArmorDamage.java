@@ -4,7 +4,7 @@ import fr.guiguilechat.eveonline.model.sde.items.IntAttribute;
 
 
 /**
- * DO NOT MESS WITH. The amount of damage done to the entities armor hit points.
+ * DO NOT MESS WITH. The amount of damage done to the entities armor hit points. Starting armor damage.
  */
 public class ArmorDamage
     extends IntAttribute

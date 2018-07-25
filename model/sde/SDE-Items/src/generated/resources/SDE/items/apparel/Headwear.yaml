@@ -29,11 +29,6 @@ items:
     id: 42742
     name: Cap Female Concord
     volume: 0.1
-  Cap Female Gallente:
-    Gender: 2
-    id: 42745
-    name: Cap Female Gallente
-    volume: 0.1
   Cap Female Green:
     Gender: 2
     id: 42727
@@ -48,6 +43,7 @@ items:
   Cap Female Minmatar:
     Gender: 2
     id: 42715
+    marketGroup: 1943
     name: Cap Female Minmatar
     volume: 0.1
   Cap Female Orange:
@@ -79,6 +75,7 @@ items:
   Cap Male Minmatar:
     Gender: 2
     id: 42730
+    marketGroup: 1943
     name: Cap Male Minmatar
     volume: 0.1
   Cap Male Orange:
@@ -100,11 +97,6 @@ items:
     Gender: 3
     id: 4088
     name: Curly Shoulder Length
-    volume: 0.1
-  Gallente Cap Male:
-    Gender: 2
-    id: 42710
-    name: Gallente Cap Male
     volume: 0.1
   Hair_Stubble_01:
     Gender: 1
@@ -212,6 +204,12 @@ items:
     id: 45740
     marketGroup: 1943
     name: Men's Exoplanets Hunter Cap
+    volume: 0.1
+  Men's Federation Grand Prix 'Pit Stop' Cap:
+    Gender: 2
+    id: 42710
+    marketGroup: 1943
+    name: Men's Federation Grand Prix 'Pit Stop' Cap
     volume: 0.1
   Men's YC119 Yoiul Festival Cap:
     Gender: 1
@@ -391,6 +389,12 @@ items:
     id: 45739
     marketGroup: 1943
     name: Women's Exoplanets Hunter Cap
+    volume: 0.1
+  Women's Federation Grand Prix 'Pit Stop' Cap:
+    Gender: 2
+    id: 42745
+    marketGroup: 1943
+    name: Women's Federation Grand Prix 'Pit Stop' Cap
     volume: 0.1
   Women's YC119 Yoiul Festival Cap:
     Gender: 3
