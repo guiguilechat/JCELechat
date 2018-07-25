@@ -1,5 +1,9 @@
 package fr.guiguilechat.eveonline.model.esi;
 
+import java.util.stream.Collectors;
+
+import fr.guiguilechat.eveonline.model.esi.compiled.Swagger.order_type;
+import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_status;
 import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import javafx.beans.property.Property;
@@ -38,6 +42,20 @@ public class CacheTester {
 
 		// noparam-> map
 		// can't find any
+
+		// params->list
+		System.out.println("params->list started");
+		// vni sell orders in sinq laison
+		ObservableList<R_get_markets_region_id_orders> orders = con.cache.markets.orders(order_type.sell, 10000032, 17843);
+		synchronized (orders) {
+			for (R_get_markets_region_id_orders i : orders) {
+				System.out.println("got order price " + i.price);
+			}
+			orders.addListener((ListChangeListener<R_get_markets_region_id_orders>) li -> System.out.println("params->list "
+					+ li.next() + " added " + li.getAddedSubList().stream().map(order -> order.price).collect(Collectors.toList())
+					+ " ; removed " + li.getRemoved() + " hasnext" + li.next()));
+		}
+
 		while (true) {
 			Thread.yield();
 		}
