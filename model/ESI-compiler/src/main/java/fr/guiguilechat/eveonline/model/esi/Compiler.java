@@ -15,6 +15,7 @@ import fr.guiguilechat.eveonline.model.esi.PathTranslator.OpType;
 import v2.io.swagger.models.Operation;
 import v2.io.swagger.models.Path;
 import v2.io.swagger.models.Response;
+import v2.io.swagger.models.Swagger;
 import v2.io.swagger.parser.SwaggerParser;
 
 public class Compiler {
@@ -60,14 +61,14 @@ public class Compiler {
 	}
 
 	public JCodeModel compile() throws JClassAlreadyExistsException {
-		v2.io.swagger.models.Swagger swagger = new SwaggerParser().read(swaggerURL);
+		Swagger swagger = new SwaggerParser().read(swaggerURL);
 		String baseURL = swagger.getSchemes().get(0).toValue()
 				+ "://"
 				+ swagger.getHost()
 				+ (swagger.getBasePath() == null ? "" : swagger.getBasePath());
-		JCodeModel cm = new JCodeModel();
 
-		ClassBridge cltrans = new ClassBridge(cm, swagger);
+		JCodeModel cm = new JCodeModel();
+		ClassBridge cltrans = makeClassBridge(cm, swagger);
 
 		swagger.getPaths().entrySet().forEach(e -> {
 			String resource = e.getKey();
@@ -78,6 +79,11 @@ public class Compiler {
 			new PathTranslator(p.getPost(), OpType.post, baseURL + resource, cltrans).apply();
 		});
 		return cm;
+	}
+
+	/** Override to change the way to generate a classBridge */
+	protected ClassBridge makeClassBridge(JCodeModel cm, Swagger swagger) {
+		return new ClassBridge(cm, swagger);
 	}
 
 	public static Response getResponse(Operation operation) {

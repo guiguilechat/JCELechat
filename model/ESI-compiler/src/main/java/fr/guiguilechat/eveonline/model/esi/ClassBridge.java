@@ -63,10 +63,12 @@ public class ClassBridge {
 	protected JPackage responsePackage = null;
 	protected JPackage structurePackage = null;
 	protected JPackage keyPackage = null;
+	protected JPackage cacheGroupPackage = null;
 
 	protected String responsesPackageName = "responses";
 	protected String structuresPackageName = "structures";
 	protected String keysPackageName = "keys";
+	protected String cacheGroupName = "cacheGroups";
 	protected JDefinedClass swaggerClass;
 
 	public ClassBridge(JCodeModel cm, Swagger swagger) {
@@ -83,6 +85,7 @@ public class ClassBridge {
 		responsePackage = cm._package(rootPackage + "." + responsesPackageName);
 		structurePackage = cm._package(rootPackage + "." + structuresPackageName);
 		keyPackage = cm._package(rootPackage + "." + keysPackageName);
+		cacheGroupPackage = cm._package(rootPackage + "." + cacheGroupName);
 
 		// first pass to fetch all the responses
 		for (Path path : swagger.getPaths().values()) {
@@ -448,8 +451,10 @@ public class ClassBridge {
 		return methFetchCacheArray;
 	}
 
+	protected JTypeVar cacheMainType;
+
 	public void createCacheMethods() throws JClassAlreadyExistsException {
-		JTypeVar cacheMainType = cacheClass.generify("T", swaggerClass);
+		cacheMainType = cacheClass.generify("T", swaggerClass);
 		cacheClass.javadoc().addParam(cacheMainType.binaryName()).add(
 				"the type of Swagger this refers to. this parameter allows to work on specific implementation of Swagger, thus call its methdos instead of having to cast.");
 		JFieldVar cacheParent = cacheClass.field(JMod.PUBLIC | JMod.FINAL, cacheMainType, "swagger");
@@ -515,12 +520,17 @@ public class ClassBridge {
 		JDefinedClass ret = cacheGroupClasses.get(groupName);
 		if (ret == null) {
 			try {
-				ret = cacheClass()._class(JMod.PUBLIC, groupName.substring(0, 1).toUpperCase() + groupName.substring(1));
+				ret = cacheGroupPackage._class(JMod.PUBLIC, groupName.substring(0, 1).toUpperCase() + groupName.substring(1));
+				// add a final field swagger and constructor Ret(Swagger){this.swagger =
+				// swagger;}
+				JFieldVar cacheField = ret.field(JMod.PUBLIC | JMod.FINAL, cacheClass.narrowAny(), "cache");
+				JMethod groupCons = ret.constructor(JMod.PUBLIC);
+				JVar swagParam = groupCons.param(cacheClass.narrowAny(), "parent");
+				groupCons.body().assign(cacheField, swagParam);
 				cacheGroupClasses.put(groupName, ret);
 				// need to make direct call or the generated class is ugly(makes
 				// reference to the enclosing unparametrized class)
-				JDirectClass direct = cm.directClass(ret.name());
-				cacheClass().field(JMod.PUBLIC | JMod.FINAL, direct, groupName).init(JExpr._new(direct));
+				cacheClass().field(JMod.PUBLIC | JMod.FINAL, ret, groupName).init(JExpr._new(ret).arg(JExpr._this()));
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("while getting cache group for " + groupName, e);
 			}

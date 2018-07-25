@@ -20,6 +20,7 @@
   	<module>fightersbysensortype</module>
   	<module>GUIV2</module>
   	<module>GUIMutaplasmids</module>
+  	<module>OreWorth</module>
   </modules>
   <dependencies>
   	<dependency>
