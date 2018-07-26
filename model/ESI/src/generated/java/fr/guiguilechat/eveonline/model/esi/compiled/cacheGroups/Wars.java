@@ -38,6 +38,7 @@ public class Wars {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_wars_holder.put(max_war_id, ret);
                     (cache).addFetchCacheArray("get_wars", (page, headerHandler) -> IntStream.of((cache.swagger).get_wars(max_war_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)
@@ -69,6 +70,7 @@ public class Wars {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_wars_war_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_wars_war_id_holder.put(war_id, ret);
                     (cache).addFetchCacheObject("get_wars_war_id", headerHandler -> (cache.swagger).get_wars(war_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -100,6 +102,7 @@ public class Wars {
                 if (ret == null) {
                     ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_wars_war_id_killmails_holder.put(war_id, ret);
                     (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, headerHandler) -> (cache.swagger).get_wars_killmails(page, war_id, headerHandler), arr -> {
                         synchronized (finalret)

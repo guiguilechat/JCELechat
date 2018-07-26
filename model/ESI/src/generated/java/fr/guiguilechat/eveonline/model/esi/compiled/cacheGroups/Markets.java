@@ -43,6 +43,7 @@ public class Markets {
                 if (get_markets_groups_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_markets_groups_holder = finalContainer;
+                    get_markets_groups_holder.add(null);
                     (cache).addFetchCacheArray("get_markets_groups", (page, headerHandler) -> IntStream.of((cache.swagger).get_markets_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -73,6 +74,7 @@ public class Markets {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_markets_groups_market_group_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_markets_groups_market_group_id_holder.put(market_group_id, ret);
                     (cache).addFetchCacheObject("get_markets_groups_market_group_id", headerHandler -> (cache.swagger).get_markets_groups(market_group_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -99,6 +101,7 @@ public class Markets {
                 if (get_markets_prices_holder == null) {
                     ObservableList<R_get_markets_prices> finalContainer = FXCollections.observableArrayList();
                     get_markets_prices_holder = finalContainer;
+                    get_markets_prices_holder.add(null);
                     (cache).addFetchCacheArray("get_markets_prices", (page, headerHandler) -> (cache.swagger).get_markets_prices(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {
@@ -129,6 +132,7 @@ public class Markets {
                 if (ret == null) {
                     ObservableList<R_get_markets_structures_structure_id> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_markets_structures_structure_id_holder.put(structure_id, ret);
                     (cache).addFetchCacheArray("get_markets_structures_structure_id", (page, headerHandler) -> (cache.swagger).get_markets_structures(page, structure_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -163,6 +167,7 @@ public class Markets {
                 if (ret == null) {
                     ObservableList<R_get_markets_region_id_history> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_markets_region_id_history_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_markets_region_id_history", (page, headerHandler) -> (cache.swagger).get_markets_history(region_id, type_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -199,6 +204,7 @@ public class Markets {
                 if (ret == null) {
                     ObservableList<R_get_markets_region_id_orders> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_markets_region_id_orders_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_markets_region_id_orders", (page, headerHandler) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -230,6 +236,7 @@ public class Markets {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_markets_region_id_types_holder.put(region_id, ret);
                     (cache).addFetchCacheArray("get_markets_region_id_types", (page, headerHandler) -> IntStream.of((cache.swagger).get_markets_types(page, region_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)

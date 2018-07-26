@@ -38,6 +38,7 @@ public class Fleets {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_fleets_fleet_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_fleets_fleet_id_holder.put(fleet_id, ret);
                     (cache).addFetchCacheObject("get_fleets_fleet_id", headerHandler -> (cache.swagger).get_fleets(fleet_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -69,6 +70,7 @@ public class Fleets {
                 if (ret == null) {
                     ObservableList<R_get_fleets_fleet_id_members> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_fleets_fleet_id_members_holder.put(fleet_id, ret);
                     (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, headerHandler) -> (cache.swagger).get_fleets_members(fleet_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -100,6 +102,7 @@ public class Fleets {
                 if (ret == null) {
                     ObservableList<R_get_fleets_fleet_id_wings> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
                     (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, headerHandler) -> (cache.swagger).get_fleets_wings(fleet_id, headerHandler), arr -> {
                         synchronized (finalret)

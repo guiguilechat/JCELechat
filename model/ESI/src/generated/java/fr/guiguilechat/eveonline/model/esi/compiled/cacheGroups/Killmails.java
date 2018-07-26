@@ -36,6 +36,7 @@ public class Killmails {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_killmails_killmail_id_killmail_hash> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", headerHandler -> (cache.swagger).get_killmails(killmail_hash, killmail_id, headerHandler), item -> {
                         synchronized (finalret)

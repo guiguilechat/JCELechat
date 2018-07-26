@@ -37,6 +37,7 @@ public class Corporation {
                 if (ret == null) {
                     ObservableList<R_get_corporation_corporation_id_mining_extractions> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, headerHandler) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -68,6 +69,7 @@ public class Corporation {
                 if (ret == null) {
                     ObservableList<R_get_corporation_corporation_id_mining_observers> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, headerHandler) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -102,6 +104,7 @@ public class Corporation {
                 if (ret == null) {
                     ObservableList<R_get_corporation_corporation_id_mining_observers_observer_id> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, headerHandler) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, headerHandler), arr -> {
                         synchronized (finalret)

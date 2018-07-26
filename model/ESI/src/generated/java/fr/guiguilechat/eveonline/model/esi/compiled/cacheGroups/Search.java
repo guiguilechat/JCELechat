@@ -38,6 +38,7 @@ public class Search {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_search> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_search_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_search", headerHandler -> (cache.swagger).get(categories, search, strict, headerHandler), item -> {
                         synchronized (finalret)

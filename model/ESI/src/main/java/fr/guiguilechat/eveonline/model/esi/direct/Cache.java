@@ -4,12 +4,15 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -21,7 +24,14 @@ import javafx.beans.InvalidationListener;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleLongProperty;
+import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableBooleanValue;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
+import javafx.collections.MapChangeListener;
+import javafx.collections.ObservableList;
+import javafx.collections.ObservableMap;
 import javafx.collections.ObservableSet;
 
 /**
@@ -358,6 +368,139 @@ public class Cache extends SwaggerCache<ESIConnection> {
 		}
 		t.start();
 		return t;
+	}
+
+	/**
+	 * apply the existing map to the listener, then register the listener.
+	 *
+	 * @param map
+	 * @param listener
+	 */
+	public static <U, V> void listen(ObservableMap<U, V> map, MapChangeListener<U, V> listener) {
+		synchronized (map) {
+			ObservableMap<U, V> other = FXCollections.observableHashMap();
+			other.addListener(listener);
+			other.putAll(map.entrySet().stream().filter(e -> e.getKey() != null)
+					.collect(Collectors.toMap(Entry::getKey, Entry::getValue)));
+			map.addListener(listener);
+		}
+	}
+
+	/**
+	 * wait for the map to acquire data
+	 *
+	 * @param map
+	 */
+	public static <U, V> void wait(ObservableMap<U, V> map) {
+		CountDownLatch latch;
+		synchronized (map) {
+			if (map.size() != 1 || !map.containsKey(null)) {
+				return;
+			}
+			latch = new CountDownLatch(1);
+			map.addListener(new MapChangeListener<U, V>() {
+
+				@Override
+				public void onChanged(Change<? extends U, ? extends V> change) {
+					map.removeListener(this);
+					latch.countDown();
+				}
+
+			});
+		}
+		try {
+			latch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	/**
+	 * apply the existing list to the listener, then register the listener.
+	 *
+	 * @param list
+	 * @param listener
+	 */
+	public static <U> void listen(ObservableList<U> list, ListChangeListener<U> listener) {
+		synchronized (list) {
+			ObservableList<U> other = FXCollections.observableArrayList();
+			other.addListener(listener);
+			other.addAll(list.stream().filter(item -> item != null).collect(Collectors.toList()));
+			list.addListener(listener);
+		}
+	}
+
+	/**
+	 * wait for the list to acquire data
+	 *
+	 * @param map
+	 */
+	public static <U> void wait(ObservableList<U> list) {
+		CountDownLatch latch;
+		synchronized (list) {
+			if (list.size() != 1 || list.get(0) != null) {
+				return;
+			}
+			latch = new CountDownLatch(1);
+			list.addListener(new ListChangeListener<U>() {
+
+				@Override
+				public void onChanged(Change<? extends U> change) {
+					list.removeListener(this);
+					latch.countDown();
+				}
+
+			});
+		}
+		try {
+			latch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
+	}
+
+	/**
+	 * apply the existing item to the listener, then register the listener.
+	 *
+	 * @param obs
+	 * @param listener
+	 */
+	public static <U> void listen(ObservableValue<U> obs, ChangeListener<U> listener) {
+		synchronized (obs) {
+			if (obs.getValue() != null) {
+				listener.changed(obs, null, obs.getValue());
+			}
+			obs.addListener(listener);
+		}
+	}
+
+	/**
+	 * wait for the observablevalue to acquire data
+	 *
+	 * @param map
+	 */
+	public static <U> void wait(ObservableValue<U> obs) {
+		CountDownLatch latch;
+		synchronized (obs) {
+			if (obs.getValue() != null) {
+				return;
+			}
+			latch = new CountDownLatch(1);
+			obs.addListener(new ChangeListener<U>() {
+
+				@Override
+				public void changed(ObservableValue<? extends U> observable, U oldValue, U newValue) {
+					obs.removeListener(this);
+					latch.countDown();
+				}
+
+			});
+		}
+		try {
+			latch.await();
+		} catch (InterruptedException e) {
+			throw new UnsupportedOperationException("catch this", e);
+		}
 	}
 
 }

@@ -27,6 +27,7 @@ public class Industry {
                 if (get_industry_facilities_holder == null) {
                     ObservableList<R_get_industry_facilities> finalContainer = FXCollections.observableArrayList();
                     get_industry_facilities_holder = finalContainer;
+                    get_industry_facilities_holder.add(null);
                     (cache).addFetchCacheArray("get_industry_facilities", (page, headerHandler) -> (cache.swagger).get_industry_facilities(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {
@@ -52,6 +53,7 @@ public class Industry {
                 if (get_industry_systems_holder == null) {
                     ObservableList<R_get_industry_systems> finalContainer = FXCollections.observableArrayList();
                     get_industry_systems_holder = finalContainer;
+                    get_industry_systems_holder.add(null);
                     (cache).addFetchCacheArray("get_industry_systems", (page, headerHandler) -> (cache.swagger).get_industry_systems(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {

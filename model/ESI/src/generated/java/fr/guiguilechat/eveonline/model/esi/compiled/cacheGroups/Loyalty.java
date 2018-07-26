@@ -32,6 +32,7 @@ public class Loyalty {
                 if (ret == null) {
                     ObservableList<R_get_loyalty_stores_corporation_id_offers> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_loyalty_stores_corporation_id_offers_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, headerHandler) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)

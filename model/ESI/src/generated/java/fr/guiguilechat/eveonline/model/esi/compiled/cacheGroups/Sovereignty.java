@@ -30,6 +30,7 @@ public class Sovereignty {
             {
                 if (get_sovereignty_campaigns_holder == null) {
                     get_sovereignty_campaigns_holder = FXCollections.observableHashMap();
+                    get_sovereignty_campaigns_holder.put(null, null);
                     ObservableMap<Integer, R_get_sovereignty_campaigns> finalContainer = get_sovereignty_campaigns_holder;
                     (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, headerHandler) -> (cache.swagger).get_sovereignty_campaigns(headerHandler), arr -> {
                         synchronized (finalContainer)
@@ -61,6 +62,7 @@ public class Sovereignty {
                 if (get_sovereignty_map_holder == null) {
                     ObservableList<R_get_sovereignty_map> finalContainer = FXCollections.observableArrayList();
                     get_sovereignty_map_holder = finalContainer;
+                    get_sovereignty_map_holder.add(null);
                     (cache).addFetchCacheArray("get_sovereignty_map", (page, headerHandler) -> (cache.swagger).get_sovereignty_map(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {
@@ -85,6 +87,7 @@ public class Sovereignty {
             {
                 if (get_sovereignty_structures_holder == null) {
                     get_sovereignty_structures_holder = FXCollections.observableHashMap();
+                    get_sovereignty_structures_holder.put(null, null);
                     ObservableMap<Long, R_get_sovereignty_structures> finalContainer = get_sovereignty_structures_holder;
                     (cache).addFetchCacheArray("get_sovereignty_structures", (page, headerHandler) -> (cache.swagger).get_sovereignty_structures(headerHandler), arr -> {
                         synchronized (finalContainer)

@@ -25,6 +25,7 @@ public class Incursions {
                 if (get_incursions_holder == null) {
                     ObservableList<R_get_incursions> finalContainer = FXCollections.observableArrayList();
                     get_incursions_holder = finalContainer;
+                    get_incursions_holder.add(null);
                     (cache).addFetchCacheArray("get_incursions", (page, headerHandler) -> (cache.swagger).get_incursions(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {

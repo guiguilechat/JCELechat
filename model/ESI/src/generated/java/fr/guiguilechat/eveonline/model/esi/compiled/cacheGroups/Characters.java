@@ -146,6 +146,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_agents_research> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_agents_research_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_agents_research", (page, headerHandler) -> (cache.swagger).get_characters_agents_research(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -177,6 +178,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_attributes> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_attributes_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_attributes", headerHandler -> (cache.swagger).get_characters_attributes(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -211,6 +213,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_calendar> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_calendar_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_calendar", (page, headerHandler) -> (cache.swagger).get_characters_calendar(character_id, from_event, headerHandler), arr -> {
                         synchronized (finalret)
@@ -245,6 +248,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_calendar_event_id_attendees> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_calendar_event_id_attendees_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_calendar_event_id_attendees", (page, headerHandler) -> (cache.swagger).get_characters_calendar_attendees(character_id, event_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -276,6 +280,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_contacts_labels_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_characters_contacts_labels(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -307,6 +312,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_contracts_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_contracts", (page, headerHandler) -> (cache.swagger).get_characters_contracts(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -341,6 +347,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_contracts_contract_id_bids_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_bids", (page, headerHandler) -> (cache.swagger).get_characters_contracts_bids(character_id, contract_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -380,6 +387,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_contracts_contract_id_items_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_contracts_contract_id_items", (page, headerHandler) -> (cache.swagger).get_characters_contracts_items(character_id, contract_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -416,6 +424,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_corporationhistory> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_corporationhistory_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_corporationhistory", (page, headerHandler) -> (cache.swagger).get_characters_corporationhistory(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -447,6 +456,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fatigue> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_fatigue_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fatigue", headerHandler -> (cache.swagger).get_characters_fatigue(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -478,6 +488,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_fittings> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_fittings_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_fittings", (page, headerHandler) -> (cache.swagger).get_characters_fittings(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -509,6 +520,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fleet> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_fleet_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fleet", headerHandler -> (cache.swagger).get_characters_fleet(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -540,6 +552,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_fw_stats> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_fw_stats_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_fw_stats", headerHandler -> (cache.swagger).get_characters_fw_stats(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -571,6 +584,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_implants_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_implants", (page, headerHandler) -> IntStream.of((cache.swagger).get_characters_implants(character_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)
@@ -605,6 +619,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Integer, R_get_characters_character_id_industry_jobs> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_industry_jobs_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_industry_jobs", (page, headerHandler) -> (cache.swagger).get_characters_industry_jobs(character_id, include_completed, headerHandler), arr -> {
                         synchronized (finalret)
@@ -641,6 +656,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_killmails_recent_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_killmails_recent", (page, headerHandler) -> (cache.swagger).get_characters_killmails_recent(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -672,6 +688,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_location> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_location_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_location", headerHandler -> (cache.swagger).get_characters_location(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -703,6 +720,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_loyalty_points> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_loyalty_points_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_loyalty_points", (page, headerHandler) -> (cache.swagger).get_characters_loyalty_points(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -739,6 +757,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mail> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_mail_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_mail", (page, headerHandler) -> (cache.swagger).get_characters_mail(character_id, labels, last_mail_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -770,6 +789,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mail_lists> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_mail_lists_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_mail_lists", (page, headerHandler) -> (cache.swagger).get_characters_mail_lists(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -804,6 +824,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_mail_mail_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_mail_mail_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_mail_mail_id", headerHandler -> (cache.swagger).get_characters_mail(character_id, mail_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -835,6 +856,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_medals> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_medals_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_medals", (page, headerHandler) -> (cache.swagger).get_characters_medals(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -866,6 +888,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_mining> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_mining_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_mining", (page, headerHandler) -> (cache.swagger).get_characters_mining(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -897,6 +920,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_notifications_contacts> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_notifications_contacts_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_notifications_contacts", (page, headerHandler) -> (cache.swagger).get_characters_notifications_contacts(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -928,6 +952,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_opportunities> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_opportunities_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_opportunities", (page, headerHandler) -> (cache.swagger).get_characters_opportunities(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -959,6 +984,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_orders_history> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_orders_history_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_orders_history", (page, headerHandler) -> (cache.swagger).get_characters_orders_history(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -995,6 +1021,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_planets> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_planets_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_planets", (page, headerHandler) -> (cache.swagger).get_characters_planets(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1026,6 +1053,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_ship> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_ship_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_ship", headerHandler -> (cache.swagger).get_characters_ship(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1057,6 +1085,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_standings_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_standings", (page, headerHandler) -> (cache.swagger).get_characters_standings(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1088,6 +1117,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_titles> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_titles_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_titles", (page, headerHandler) -> (cache.swagger).get_characters_titles(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1119,6 +1149,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<Double> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_wallet_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_wallet", headerHandler -> (cache.swagger).get_characters_wallet(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1153,6 +1184,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_wallet_transactions> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_wallet_transactions_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_transactions", (page, headerHandler) -> (cache.swagger).get_characters_wallet_transactions(character_id, from_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1189,6 +1221,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, M_get_blueprints_8> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_blueprints_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_blueprints", (page, headerHandler) -> (cache.swagger).get_characters_blueprints(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1225,6 +1258,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_bookmarks_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_bookmarks", (page, headerHandler) -> (cache.swagger).get_characters_bookmarks(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1256,6 +1290,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, headerHandler) -> (cache.swagger).get_characters_bookmarks_folders(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1287,6 +1322,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_contacts> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_contacts_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_contacts", (page, headerHandler) -> (cache.swagger).get_characters_contacts(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1318,6 +1354,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_notifications> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_notifications_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, headerHandler) -> (cache.swagger).get_characters_notifications(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1349,6 +1386,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_online> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_online_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_online", headerHandler -> (cache.swagger).get_characters_online(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1380,6 +1418,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, R_get_characters_character_id_orders> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_orders_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_orders", (page, headerHandler) -> (cache.swagger).get_characters_orders(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1416,6 +1455,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_portrait> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_portrait_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_portrait", headerHandler -> (cache.swagger).get_characters_portrait(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1447,6 +1487,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_roles> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_roles_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_roles", headerHandler -> (cache.swagger).get_characters_roles(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1478,6 +1519,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_skillqueue> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_skillqueue_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_skillqueue", (page, headerHandler) -> (cache.swagger).get_characters_skillqueue(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1509,6 +1551,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<R_get_characters_character_id_stats> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_stats_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_stats", (page, headerHandler) -> (cache.swagger).get_characters_stats(character_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1540,6 +1583,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_characters_character_id_assets_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_assets", (page, headerHandler) -> (cache.swagger).get_characters_assets(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1574,6 +1618,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_calendar_event_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_calendar_event_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_calendar_event_id", headerHandler -> (cache.swagger).get_characters_calendar(character_id, event_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1605,6 +1650,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_clones> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_clones_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_clones", headerHandler -> (cache.swagger).get_characters_clones(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1636,6 +1682,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_mail_labels> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_mail_labels_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_mail_labels", headerHandler -> (cache.swagger).get_characters_mail_labels(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1670,6 +1717,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_planets_planet_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_planets_planet_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_planets_planet_id", headerHandler -> (cache.swagger).get_characters_planets(character_id, planet_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1708,6 +1756,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_search> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_search_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_search", headerHandler -> (cache.swagger).get_characters(categories, character_id, search, strict, headerHandler), item -> {
                         synchronized (finalret)
@@ -1739,6 +1788,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id", headerHandler -> (cache.swagger).get_characters(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1770,6 +1820,7 @@ public class Characters {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_characters_character_id_skills> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_characters_character_id_skills_holder.put(character_id, ret);
                     (cache).addFetchCacheObject("get_characters_character_id_skills", headerHandler -> (cache.swagger).get_characters_skills(character_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -1801,6 +1852,7 @@ public class Characters {
                 if (ret == null) {
                     ObservableMap<Long, M_get_journal_13> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_characters_character_id_wallet_journal_holder.put(character_id, ret);
                     (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, headerHandler) -> (cache.swagger).get_characters_wallet_journal(character_id, page, headerHandler), arr -> {
                         synchronized (finalret)

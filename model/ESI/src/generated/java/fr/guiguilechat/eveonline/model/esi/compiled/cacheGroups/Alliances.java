@@ -38,6 +38,7 @@ public class Alliances {
                 if (get_alliances_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_alliances_holder = finalContainer;
+                    get_alliances_holder.add(null);
                     (cache).addFetchCacheArray("get_alliances", (page, headerHandler) -> IntStream.of((cache.swagger).get_alliances(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -68,6 +69,7 @@ public class Alliances {
                 if (ret == null) {
                     ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_alliances_alliance_id_contacts_labels_holder.put(alliance_id, ret);
                     (cache).addFetchCacheArray("get_alliances_alliance_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_alliances_contacts_labels(alliance_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -99,6 +101,7 @@ public class Alliances {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
                     (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, headerHandler) -> IntStream.of((cache.swagger).get_alliances_corporations(alliance_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)
@@ -130,6 +133,7 @@ public class Alliances {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_alliances_alliance_id_icons> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
                     (cache).addFetchCacheObject("get_alliances_alliance_id_icons", headerHandler -> (cache.swagger).get_alliances_icons(alliance_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -161,6 +165,7 @@ public class Alliances {
                 if (ret == null) {
                     ObservableList<R_get_alliances_alliance_id_contacts> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_alliances_alliance_id_contacts_holder.put(alliance_id, ret);
                     (cache).addFetchCacheArray("get_alliances_alliance_id_contacts", (page, headerHandler) -> (cache.swagger).get_alliances_contacts(alliance_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -192,6 +197,7 @@ public class Alliances {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_alliances_alliance_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_alliances_alliance_id_holder.put(alliance_id, ret);
                     (cache).addFetchCacheObject("get_alliances_alliance_id", headerHandler -> (cache.swagger).get_alliances(alliance_id, headerHandler), item -> {
                         synchronized (finalret)

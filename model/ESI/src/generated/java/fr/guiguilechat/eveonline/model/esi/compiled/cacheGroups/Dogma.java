@@ -37,6 +37,7 @@ public class Dogma {
                 if (get_dogma_attributes_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_dogma_attributes_holder = finalContainer;
+                    get_dogma_attributes_holder.add(null);
                     (cache).addFetchCacheArray("get_dogma_attributes", (page, headerHandler) -> IntStream.of((cache.swagger).get_dogma_attributes(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -67,6 +68,7 @@ public class Dogma {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_dogma_attributes_attribute_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_dogma_attributes_attribute_id_holder.put(attribute_id, ret);
                     (cache).addFetchCacheObject("get_dogma_attributes_attribute_id", headerHandler -> (cache.swagger).get_dogma_attributes(attribute_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -101,6 +103,7 @@ public class Dogma {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_dogma_dynamic_items_type_id_item_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_dogma_dynamic_items_type_id_item_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", headerHandler -> (cache.swagger).get_dogma_dynamic_items(item_id, type_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -127,6 +130,7 @@ public class Dogma {
                 if (get_dogma_effects_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_dogma_effects_holder = finalContainer;
+                    get_dogma_effects_holder.add(null);
                     (cache).addFetchCacheArray("get_dogma_effects", (page, headerHandler) -> IntStream.of((cache.swagger).get_dogma_effects(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -157,6 +161,7 @@ public class Dogma {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_dogma_effects_effect_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_dogma_effects_effect_id_holder.put(effect_id, ret);
                     (cache).addFetchCacheObject("get_dogma_effects_effect_id", headerHandler -> (cache.swagger).get_dogma_effects(effect_id, headerHandler), item -> {
                         synchronized (finalret)

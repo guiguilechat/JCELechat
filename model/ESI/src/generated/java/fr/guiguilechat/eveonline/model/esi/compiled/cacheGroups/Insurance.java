@@ -25,6 +25,7 @@ public class Insurance {
                 if (get_insurance_prices_holder == null) {
                     ObservableList<R_get_insurance_prices> finalContainer = FXCollections.observableArrayList();
                     get_insurance_prices_holder = finalContainer;
+                    get_insurance_prices_holder.add(null);
                     (cache).addFetchCacheArray("get_insurance_prices", (page, headerHandler) -> (cache.swagger).get_insurance_prices(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {

@@ -43,6 +43,7 @@ public class Route {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_route_origin_destination_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_route_origin_destination", (page, headerHandler) -> IntStream.of((cache.swagger).get_route(avoid, connections, destination, flag, origin, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)

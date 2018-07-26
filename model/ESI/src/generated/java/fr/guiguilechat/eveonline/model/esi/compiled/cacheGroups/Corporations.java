@@ -110,6 +110,7 @@ public class Corporations {
                 if (get_corporations_npccorps_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_corporations_npccorps_holder = finalContainer;
+                    get_corporations_npccorps_holder.add(null);
                     (cache).addFetchCacheArray("get_corporations_npccorps", (page, headerHandler) -> IntStream.of((cache.swagger).get_corporations_npccorps(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -140,6 +141,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_bookmarks_9> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_bookmarks_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks", (page, headerHandler) -> (cache.swagger).get_corporations_bookmarks(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -171,6 +173,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_bookmarks_folders> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_bookmarks_folders_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_bookmarks_folders", (page, headerHandler) -> (cache.swagger).get_corporations_bookmarks_folders(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -202,6 +205,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_contacts_labels_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_contacts_labels_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_contacts_labels", (page, headerHandler) -> (cache.swagger).get_corporations_contacts_labels(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -233,6 +237,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_contracts_22> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_contracts_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_contracts", (page, headerHandler) -> (cache.swagger).get_corporations_contracts(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -267,6 +272,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Integer, M_get_contracts_contract_bids_4> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_contracts_contract_id_bids_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_bids", (page, headerHandler) -> (cache.swagger).get_corporations_contracts_bids(contract_id, corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -306,6 +312,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, M_get_contracts_contract_items_6> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_contracts_contract_id_items_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_contracts_contract_id_items", (page, headerHandler) -> (cache.swagger).get_corporations_contracts_items(contract_id, corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -342,6 +349,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, R_get_corporations_corporation_id_customs_offices> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_customs_offices_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_customs_offices", (page, headerHandler) -> (cache.swagger).get_corporations_customs_offices(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -378,6 +386,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_corporations_corporation_id_divisions> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_divisions_holder.put(corporation_id, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id_divisions", headerHandler -> (cache.swagger).get_corporations_divisions(corporation_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -409,6 +418,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_facilities> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_facilities_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_facilities", (page, headerHandler) -> (cache.swagger).get_corporations_facilities(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -440,6 +450,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_corporations_corporation_id_fw_stats> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_fw_stats_holder.put(corporation_id, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id_fw_stats", headerHandler -> (cache.swagger).get_corporations_fw_stats(corporation_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -471,6 +482,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_corporations_corporation_id_icons> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id_icons", headerHandler -> (cache.swagger).get_corporations_icons(corporation_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -505,6 +517,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_industry_jobs_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_industry_jobs", (page, headerHandler) -> (cache.swagger).get_corporations_industry_jobs(corporation_id, include_completed, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -541,6 +554,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_killmails_2> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_killmails_recent_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_killmails_recent", (page, headerHandler) -> (cache.swagger).get_corporations_killmails_recent(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -572,6 +586,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_medals> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_medals_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_medals", (page, headerHandler) -> (cache.swagger).get_corporations_medals(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -603,6 +618,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_medals_issued> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_medals_issued_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_medals_issued", (page, headerHandler) -> (cache.swagger).get_corporations_medals_issued(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -634,6 +650,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<Integer> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_members_limit_holder.put(corporation_id, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id_members_limit", headerHandler -> (cache.swagger).get_corporations_members_limit(corporation_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -665,6 +682,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_members_titles> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_members_titles_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_members_titles", (page, headerHandler) -> (cache.swagger).get_corporations_members_titles(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -696,6 +714,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_membertracking> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_membertracking_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_membertracking", (page, headerHandler) -> (cache.swagger).get_corporations_membertracking(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -727,6 +746,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_roles> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_roles_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_roles", (page, headerHandler) -> (cache.swagger).get_corporations_roles(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -758,6 +778,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_roles_history> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_roles_history_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_roles_history", (page, headerHandler) -> (cache.swagger).get_corporations_roles_history(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -789,6 +810,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_shareholders> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_shareholders_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_shareholders", (page, headerHandler) -> (cache.swagger).get_corporations_shareholders(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -820,6 +842,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_standings_3> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_standings_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_standings", (page, headerHandler) -> (cache.swagger).get_corporations_standings(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -851,6 +874,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, R_get_corporations_corporation_id_starbases> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_starbases_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_starbases", (page, headerHandler) -> (cache.swagger).get_corporations_starbases(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -892,6 +916,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_corporations_corporation_id_starbases_starbase_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_starbases_starbase_id_holder.put(param, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id_starbases_starbase_id", headerHandler -> (cache.swagger).get_corporations_starbases(corporation_id, starbase_id, system_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -923,6 +948,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_titles> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_titles_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_titles", (page, headerHandler) -> (cache.swagger).get_corporations_titles(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -954,6 +980,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_wallets> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_wallets_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_wallets", (page, headerHandler) -> (cache.swagger).get_corporations_wallets(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -990,6 +1017,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, R_get_corporations_corporation_id_wallets_division_transactions> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_wallets_division_transactions_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, headerHandler) -> (cache.swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1026,6 +1054,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_alliancehistory> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_alliancehistory_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_alliancehistory", (page, headerHandler) -> (cache.swagger).get_corporations_alliancehistory(corporation_id, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1057,6 +1086,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, M_get_blueprints_8> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, headerHandler) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1093,6 +1123,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_contacts> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_contacts_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_contacts", (page, headerHandler) -> (cache.swagger).get_corporations_contacts(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1124,6 +1155,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_containers_logs> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_containers_logs_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, headerHandler) -> (cache.swagger).get_corporations_containers_logs(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1155,6 +1187,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, R_get_corporations_corporation_id_orders_history> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_orders_history_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, headerHandler) -> (cache.swagger).get_corporations_orders_history(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1191,6 +1224,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<R_get_corporations_corporation_id_structures> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, headerHandler) -> (cache.swagger).get_corporations_structures(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1222,6 +1256,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<M_get_assets_8> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, headerHandler) -> (cache.swagger).get_corporations_assets(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1253,6 +1288,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableList<Integer> finalret = FXCollections.observableArrayList();
                     ret = finalret;
+                    ret.add(null);
                     get_corporations_corporation_id_members_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_members", (page, headerHandler) -> IntStream.of((cache.swagger).get_corporations_members(corporation_id, headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalret)
@@ -1284,6 +1320,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, R_get_corporations_corporation_id_orders> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_orders_holder.put(corporation_id, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_orders", (page, headerHandler) -> (cache.swagger).get_corporations_orders(corporation_id, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1323,6 +1360,7 @@ public class Corporations {
                 if (ret == null) {
                     ObservableMap<Long, M_get_journal_13> finalret = FXCollections.observableHashMap();
                     ret = finalret;
+                    ret.put(null, null);
                     get_corporations_corporation_id_wallets_division_journal_holder.put(param, ret);
                     (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_journal", (page, headerHandler) -> (cache.swagger).get_corporations_wallets_journal(corporation_id, division, page, headerHandler), arr -> {
                         synchronized (finalret)
@@ -1359,6 +1397,7 @@ public class Corporations {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_corporations_corporation_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_corporations_corporation_id_holder.put(corporation_id, ret);
                     (cache).addFetchCacheObject("get_corporations_corporation_id", headerHandler -> (cache.swagger).get_corporations(corporation_id, headerHandler), item -> {
                         synchronized (finalret)

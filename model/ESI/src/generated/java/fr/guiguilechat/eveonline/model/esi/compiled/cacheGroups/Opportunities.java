@@ -34,6 +34,7 @@ public class Opportunities {
                 if (get_opportunities_groups_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_opportunities_groups_holder = finalContainer;
+                    get_opportunities_groups_holder.add(null);
                     (cache).addFetchCacheArray("get_opportunities_groups", (page, headerHandler) -> IntStream.of((cache.swagger).get_opportunities_groups(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -64,6 +65,7 @@ public class Opportunities {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_opportunities_groups_group_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_opportunities_groups_group_id_holder.put(group_id, ret);
                     (cache).addFetchCacheObject("get_opportunities_groups_group_id", headerHandler -> (cache.swagger).get_opportunities_groups(group_id, headerHandler), item -> {
                         synchronized (finalret)
@@ -90,6 +92,7 @@ public class Opportunities {
                 if (get_opportunities_tasks_holder == null) {
                     ObservableList<Integer> finalContainer = FXCollections.observableArrayList();
                     get_opportunities_tasks_holder = finalContainer;
+                    get_opportunities_tasks_holder.add(null);
                     (cache).addFetchCacheArray("get_opportunities_tasks", (page, headerHandler) -> IntStream.of((cache.swagger).get_opportunities_tasks(headerHandler)).mapToObj((Integer::valueOf)).toArray((Integer[]::new)), arr -> {
                         synchronized (finalContainer)
                         {
@@ -120,6 +123,7 @@ public class Opportunities {
                 if (ret == null) {
                     SimpleObjectProperty<R_get_opportunities_tasks_task_id> finalret = new SimpleObjectProperty<>();
                     ret = finalret;
+                    ret.setValue(null);
                     get_opportunities_tasks_task_id_holder.put(task_id, ret);
                     (cache).addFetchCacheObject("get_opportunities_tasks_task_id", headerHandler -> (cache.swagger).get_opportunities_tasks(task_id, headerHandler), item -> {
                         synchronized (finalret)

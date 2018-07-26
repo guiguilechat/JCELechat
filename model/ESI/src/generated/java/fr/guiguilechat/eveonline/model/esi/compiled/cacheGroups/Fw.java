@@ -34,6 +34,7 @@ public class Fw {
             {
                 if (get_fw_leaderboards_holder == null) {
                     get_fw_leaderboards_holder = new SimpleObjectProperty<>();
+                    get_fw_leaderboards_holder.setValue(null);
                     SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_holder;
                     (cache).addFetchCacheObject("get_fw_leaderboards", headerHandler -> (cache.swagger).get_fw_leaderboards(headerHandler), item -> {
                         synchronized (finalContainer)
@@ -59,6 +60,7 @@ public class Fw {
             {
                 if (get_fw_leaderboards_characters_holder == null) {
                     get_fw_leaderboards_characters_holder = new SimpleObjectProperty<>();
+                    get_fw_leaderboards_characters_holder.setValue(null);
                     SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_characters_holder;
                     (cache).addFetchCacheObject("get_fw_leaderboards_characters", headerHandler -> (cache.swagger).get_fw_leaderboards_characters(headerHandler), item -> {
                         synchronized (finalContainer)
@@ -84,6 +86,7 @@ public class Fw {
             {
                 if (get_fw_leaderboards_corporations_holder == null) {
                     get_fw_leaderboards_corporations_holder = new SimpleObjectProperty<>();
+                    get_fw_leaderboards_corporations_holder.setValue(null);
                     SimpleObjectProperty<M_get_fw_leaderboards_2> finalContainer = get_fw_leaderboards_corporations_holder;
                     (cache).addFetchCacheObject("get_fw_leaderboards_corporations", headerHandler -> (cache.swagger).get_fw_leaderboards_corporations(headerHandler), item -> {
                         synchronized (finalContainer)
@@ -110,6 +113,7 @@ public class Fw {
                 if (get_fw_stats_holder == null) {
                     ObservableList<R_get_fw_stats> finalContainer = FXCollections.observableArrayList();
                     get_fw_stats_holder = finalContainer;
+                    get_fw_stats_holder.add(null);
                     (cache).addFetchCacheArray("get_fw_stats", (page, headerHandler) -> (cache.swagger).get_fw_stats(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {
@@ -135,6 +139,7 @@ public class Fw {
                 if (get_fw_wars_holder == null) {
                     ObservableList<R_get_fw_wars> finalContainer = FXCollections.observableArrayList();
                     get_fw_wars_holder = finalContainer;
+                    get_fw_wars_holder.add(null);
                     (cache).addFetchCacheArray("get_fw_wars", (page, headerHandler) -> (cache.swagger).get_fw_wars(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {
@@ -160,6 +165,7 @@ public class Fw {
                 if (get_fw_systems_holder == null) {
                     ObservableList<R_get_fw_systems> finalContainer = FXCollections.observableArrayList();
                     get_fw_systems_holder = finalContainer;
+                    get_fw_systems_holder.add(null);
                     (cache).addFetchCacheArray("get_fw_systems", (page, headerHandler) -> (cache.swagger).get_fw_systems(headerHandler), arr -> {
                         synchronized (finalContainer)
                         {

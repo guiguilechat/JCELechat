@@ -24,6 +24,7 @@ public class Status {
             {
                 if (get_status_holder == null) {
                     get_status_holder = new SimpleObjectProperty<>();
+                    get_status_holder.setValue(null);
                     SimpleObjectProperty<R_get_status> finalContainer = get_status_holder;
                     (cache).addFetchCacheObject("get_status", headerHandler -> (cache.swagger).get_status(headerHandler), item -> {
                         synchronized (finalContainer)
