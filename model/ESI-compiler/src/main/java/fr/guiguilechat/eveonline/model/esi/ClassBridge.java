@@ -63,20 +63,26 @@ public class ClassBridge {
 	protected JPackage responsePackage = null;
 	protected JPackage structurePackage = null;
 	protected JPackage keyPackage = null;
-	protected JPackage cacheGroupPackage = null;
+	protected JPackage connectedPackage = null;
+	protected JPackage disconnectedPackage = null;
 
 	protected String responsesPackageName = "responses";
 	protected String structuresPackageName = "structures";
 	protected String keysPackageName = "keys";
-	protected String cacheGroupName = "cacheGroups";
-	protected JDefinedClass swaggerClass;
+	protected String connectedPackageName = "connected";
+	protected String disconnectedPackageName = "disconnected";
+	protected JDefinedClass swaggerItf;
+	protected JDefinedClass swaggerCOClass;
+	protected JDefinedClass swaggerDCClass;
 
 	public ClassBridge(JCodeModel cm, Swagger swagger) {
 		this.cm = cm;
 		this.swagger = swagger;
 
 		try {
-			swaggerClass = cm._class(rootPackage + "." + "Swagger", EClassType.INTERFACE);
+			swaggerItf = cm._class(rootPackage + "." + "IConnected", EClassType.INTERFACE);
+			swaggerCOClass = cm._class(rootPackage + "." + "SwaggerCO", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerDCClass = cm._class(rootPackage + "." + "SwaggerDC", EClassType.INTERFACE)._extends(swaggerItf);
 		} catch (JClassAlreadyExistsException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -85,7 +91,8 @@ public class ClassBridge {
 		responsePackage = cm._package(rootPackage + "." + responsesPackageName);
 		structurePackage = cm._package(rootPackage + "." + structuresPackageName);
 		keyPackage = cm._package(rootPackage + "." + keysPackageName);
-		cacheGroupPackage = cm._package(rootPackage + "." + cacheGroupName);
+		connectedPackage = cm._package(rootPackage + "." + connectedPackageName);
+		disconnectedPackage = cm._package(rootPackage + "." + disconnectedPackageName);
 
 		// first pass to fetch all the responses
 		for (Path path : swagger.getPaths().values()) {
@@ -97,10 +104,9 @@ public class ClassBridge {
 		mergeResponseTypes();
 
 		try {
-			cacheClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + cacheClassName, EClassType.CLASS);
 			createCacheMethods();
 		} catch (JClassAlreadyExistsException e) {
-			throw new UnsupportedOperationException("while creating cache classes and methods", e);
+			throw new UnsupportedOperationException("catch this", e);
 		}
 	}
 
@@ -114,7 +120,7 @@ public class ClassBridge {
 		Set<String> allScopes = swagger.getPaths().values().stream().flatMap(p -> p.getOperations().stream())
 				.filter(ope -> ope.getSecurity() != null).flatMap(ope -> ope.getSecurity().stream())
 				.flatMap(m -> m.values().stream()).flatMap(l -> l.stream()).collect(Collectors.toSet());
-		JFieldVar scopesField = swaggerClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class),
+		JFieldVar scopesField = swaggerItf.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String[].class),
 				"SCOPES");
 		JArray scopesinit = JExpr.newArray(cm.ref(String.class));
 		for (String scope : allScopes) {
@@ -122,35 +128,31 @@ public class ClassBridge {
 		}
 		scopesField.init(scopesinit);
 
-		JMethod flatten = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
+		JMethod flatten = swaggerItf.method(JMod.PUBLIC, cm.ref(String.class), "flatten");
 		flatten.param(cm.ref(Object.class), "o");
 
 		headerhandlertype = cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(List.class).narrow(cm.ref(String.class)));
 
-		JMethod coget = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectGet");
+		JMethod coget = swaggerItf.method(JMod.PUBLIC, cm.ref(String.class), "connectGet");
 		coget.param(cm.ref(String.class), "url");
-		coget.param(cm.BOOLEAN, "connected");
 		coget.param(headerhandlertype, "headerHandler");
 
-		JMethod codel = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectDel");
+		JMethod codel = swaggerItf.method(JMod.PUBLIC, cm.ref(String.class), "connectDel");
 		codel.param(cm.ref(String.class), "url");
-		codel.param(cm.BOOLEAN, "connected");
 		codel.param(headerhandlertype, "headerHandler");
 
-		JMethod copost = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
+		JMethod copost = swaggerItf.method(JMod.PUBLIC, cm.ref(String.class), "connectPost");
 		copost.param(cm.ref(String.class), "url");
 		copost.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
-		copost.param(cm.BOOLEAN, "connected");
 		copost.param(headerhandlertype, "headerHandler");
 
-		JMethod coput = swaggerClass.method(JMod.PUBLIC, cm.ref(String.class), "connectPut");
+		JMethod coput = swaggerItf.method(JMod.PUBLIC, cm.ref(String.class), "connectPut");
 		coput.param(cm.ref(String.class), "url");
 		coput.param(cm.ref(Map.class).narrow(cm.ref(String.class), cm.ref(Object.class)), "content");
-		coput.param(cm.BOOLEAN, "connected");
 		coput.param(headerhandlertype, "headerHandler");
 
 		JDirectClass genericType = cm.directClass("T");
-		JMethod convert = swaggerClass.method(JMod.PUBLIC, genericType, "convert");
+		JMethod convert = swaggerItf.method(JMod.PUBLIC, genericType, "convert");
 		convert.generify("T");
 		convert.param(cm.ref(String.class), "line");
 		convert.param(cm.ref(Class.class).narrow(genericType.wildcardExtends()), "clazz");
@@ -336,7 +338,7 @@ public class ClassBridge {
 	protected AbstractJType getStringEnum(String name, List<String> enums) {
 		JDefinedClass ret = null;
 		try {
-			ret = swaggerClass._enum(JMod.PUBLIC | JMod.STATIC, name);
+			ret = swaggerItf._enum(JMod.PUBLIC | JMod.STATIC, name);
 			JFieldVar toStringf = ret.field(JMod.PUBLIC | JMod.FINAL, cm.ref(String.class), "toString");
 			JMethod constr = ret.constructor(0);
 			JVar toStringp = constr.param(cm.ref(String.class), "toString");
@@ -351,7 +353,7 @@ public class ClassBridge {
 			return ret;
 		} catch (JClassAlreadyExistsException e) {
 			// logger.info("can't recreate enum " + name + " with values " + enums);
-			for (JDefinedClass cl : swaggerClass.classes()) {
+			for (JDefinedClass cl : swaggerItf.classes()) {
 				if (cl.name().equals(name)) {
 					return cl;
 				}
@@ -431,12 +433,16 @@ public class ClassBridge {
 	// cache generation classes
 	////
 
-	protected String cacheClassName = "SwaggerCache";
+	protected String cacheITfName = "ISwaggerCache";
+	protected String cacheCOName = "SwaggerCOCache";
+	protected String cacheDCName = "SwaggerDCCache";
 
-	private JDefinedClass cacheClass;
+	private JDefinedClass cacheItf;
+	private JDefinedClass cacheCOClass;
+	private JDefinedClass cacheDCClass;
 
-	public JDefinedClass cacheClass() {
-		return cacheClass;
+	public JDefinedClass cacheClass(boolean connected) {
+		return connected ? cacheCOClass : cacheDCClass;
 	}
 
 	private JMethod methFetchCacheObject;
@@ -451,21 +457,33 @@ public class ClassBridge {
 		return methFetchCacheArray;
 	}
 
-	protected JTypeVar cacheMainType;
-
 	public void createCacheMethods() throws JClassAlreadyExistsException {
-		cacheMainType = cacheClass.generify("T", swaggerClass);
-		cacheClass.javadoc().addParam(cacheMainType.binaryName()).add(
-				"the type of Swagger this refers to. this parameter allows to work on specific implementation of Swagger, thus call its methdos instead of having to cast.");
-		JFieldVar cacheParent = cacheClass.field(JMod.PUBLIC | JMod.FINAL, cacheMainType, "swagger");
 
+		cacheItf = cm._class(JMod.PUBLIC, rootPackage + "." + cacheITfName, EClassType.INTERFACE);
+		cacheCOClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + cacheCOName, EClassType.CLASS)
+				._implements(cacheItf);
+		cacheDCClass = cm._class(JMod.PUBLIC | JMod.ABSTRACT, rootPackage + "." + cacheDCName, EClassType.CLASS)
+				._implements(cacheItf);
+
+		// we need to add generics to allow the cache to be built on a more specific
+		// class, ie to bring more functions to be called.
+
+		JTypeVar cacheCOParam = cacheCOClass.generify("T", swaggerCOClass);
+		JFieldVar cacheParent = cacheCOClass.field(JMod.PUBLIC | JMod.FINAL, cacheCOParam, "swagger");
 		// add a constructor with swagger param
-		JMethod cachecons = cacheClass.constructor(JMod.PUBLIC);
-		JVar swag = cachecons.param(cacheMainType, "swag");
+		JMethod cachecons = cacheCOClass.constructor(JMod.PUBLIC);
+		JVar swag = cachecons.param(cacheCOParam, "swag");
+		cachecons.body().assign(cacheParent, swag);
+
+		JTypeVar cacheDCParam = cacheDCClass.generify("T", swaggerDCClass);
+		cacheParent = cacheDCClass.field(JMod.PUBLIC | JMod.FINAL, cacheDCParam, "swagger");
+		// add a constructor with swagger param
+		cachecons = cacheDCClass.constructor(JMod.PUBLIC);
+		swag = cachecons.param(cacheDCParam, "swag");
 		cachecons.body().assign(cacheParent, swag);
 
 		// add the pausable interface
-		JDefinedClass pausable = cacheClass._class(JMod.PUBLIC, "Pausable", EClassType.INTERFACE);
+		JDefinedClass pausable = cacheItf._class(JMod.PUBLIC, "Pausable", EClassType.INTERFACE);
 		pausable.method(JMod.PUBLIC, cm.VOID, "pause");
 		pausable.method(JMod.PUBLIC, cm.VOID, "resume");
 
@@ -474,7 +492,7 @@ public class ClassBridge {
 			// public <T> Pausable addFetchCacheArray(String name,
 			// BiFunction<Integer, Map<String, List<String>>, T[]> fetcher,
 			// Consumer<List<T>> cacheHandler, String... requiredRoles)
-			methFetchCacheArray = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable, "addFetchCacheArray");
+			methFetchCacheArray = cacheItf.method(JMod.PUBLIC, pausable, "addFetchCacheArray");
 			JTypeVar typeVar = methFetchCacheArray.generify("U");
 			methFetchCacheArray.param(cm.ref(String.class), "name");
 			methFetchCacheArray.param(
@@ -490,7 +508,7 @@ public class ClassBridge {
 			// public <T> Pausable addFetchCacheObject(String name,
 			// Function<Map<String, List<String>>,T> fetcher,
 			// Consumer<T> cacheHandler, String... requiredRoles)
-			methFetchCacheObject = cacheClass.method(JMod.PUBLIC | JMod.ABSTRACT, pausable, "addFetchCacheObject");
+			methFetchCacheObject = cacheItf.method(JMod.PUBLIC, pausable, "addFetchCacheObject");
 			JTypeVar typeVar = methFetchCacheObject.generify("U");
 			methFetchCacheObject.param(cm.ref(String.class), "name");
 			methFetchCacheObject.param(
@@ -502,35 +520,39 @@ public class ClassBridge {
 		}
 	}
 
-	protected Map<String, JDefinedClass> cacheGroupClasses = new HashMap<>();
+	protected Map<String, JDefinedClass> cacheCOGroups = new HashMap<>();
+	protected Map<String, JDefinedClass> cacheDCGroups = new HashMap<>();
 
 	/**
 	 * get the group cache class for given group name. also create a field of
-	 * given type in the {@link #cacheClassName} class .
+	 * given type in the {@link #cacheCOName} class .
 	 *
 	 * <br />
 	 * eg calling this with "bla" will create a Bla class in the
-	 * {@link #cacheClassName} class, as well as a field
+	 * {@link #cacheCOName} class, as well as a field
 	 * <code>public final bla = new Bla();</code> in it.
 	 *
 	 * @param groupName
 	 * @return
 	 */
-	public JDefinedClass getCacheGroupClass(String groupName) {
-		JDefinedClass ret = cacheGroupClasses.get(groupName);
+	public JDefinedClass getCacheGroupClass(String groupName, boolean connected) {
+		Map<String, JDefinedClass> map = connected ? cacheCOGroups : cacheDCGroups;
+		JDefinedClass ret = map.get(groupName);
 		if (ret == null) {
 			try {
-				ret = cacheGroupPackage._class(JMod.PUBLIC, groupName.substring(0, 1).toUpperCase() + groupName.substring(1));
+				ret = (connected ? connectedPackage : disconnectedPackage)._class(JMod.PUBLIC,
+						groupName.substring(0, 1).toUpperCase() + groupName.substring(1));
+				JDefinedClass cachecl = cacheClass(connected);
 				// add a final field swagger and constructor Ret(Swagger){this.swagger =
 				// swagger;}
-				JFieldVar cacheField = ret.field(JMod.PUBLIC | JMod.FINAL, cacheClass.narrowAny(), "cache");
+				JFieldVar cacheField = ret.field(JMod.PUBLIC | JMod.FINAL, cachecl.narrowAny(), "cache");
 				JMethod groupCons = ret.constructor(JMod.PUBLIC);
-				JVar swagParam = groupCons.param(cacheClass.narrowAny(), "parent");
+				JVar swagParam = groupCons.param(cachecl.narrowAny(), "parent");
 				groupCons.body().assign(cacheField, swagParam);
-				cacheGroupClasses.put(groupName, ret);
+				map.put(groupName, ret);
 				// need to make direct call or the generated class is ugly(makes
 				// reference to the enclosing unparametrized class)
-				cacheClass().field(JMod.PUBLIC | JMod.FINAL, ret, groupName).init(JExpr._new(ret).arg(JExpr._this()));
+				cacheClass(connected).field(JMod.PUBLIC | JMod.FINAL, ret, groupName).init(JExpr._new(ret).arg(JExpr._this()));
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("while getting cache group for " + groupName, e);
 			}

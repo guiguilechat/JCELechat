@@ -1,8 +1,9 @@
 package fr.guiguilechat.eveonline.model.esi.modeled.market;
 
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.market.CachedHistory;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.market.Markets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_history;
-import fr.guiguilechat.eveonline.model.esi.modeled.Markets;
 
 public class CachedHistoryMain {
 

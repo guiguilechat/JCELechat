@@ -3,10 +3,10 @@ package fr.guiguilechat.eveonline.model.esi.modeled;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import fr.guiguilechat.eveonline.esi.connected.modeled.PI.ColonyInfo;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_planets_planet_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_planets_planet_id_pins;
-import fr.guiguilechat.eveonline.model.esi.modeled.PI.ColonyInfo;
 
 public class PlanetTest {
 

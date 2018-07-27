@@ -1,0 +1,26 @@
+package fr.guiguilechat.eveonline.esi.disconnected;
+
+import fr.guiguilechat.eveonline.esi.ConnectedImpl;
+import fr.guiguilechat.eveonline.model.esi.compiled.SwaggerDC;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableSet;
+
+/**
+ * singleton fo access to static (disconnected) calls.
+ *
+ */
+public class ESIStatic extends ConnectedImpl implements SwaggerDC {
+
+	public static final ESIStatic INSTANCE = new ESIStatic();
+
+	public final CacheStatic cache = new CacheStatic(this);
+
+	private ESIStatic() {
+	}
+
+	@Override
+	public ObservableSet<String> getRoles() {
+		return FXCollections.emptyObservableSet();
+	};
+
+}

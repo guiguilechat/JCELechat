@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.modeled.market.RegionalMarket;
+import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 import fr.guiguilechat.eveonline.programs.guimutaplasmids.MutaplasmidFamily.ModifiedItem;

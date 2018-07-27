@@ -3,13 +3,13 @@ package fr.guiguilechat.eveonline.model.esi;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
+import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
 
 public class RequestHandlerTest {
 
 	@Test
 	public void testFlatten() {
-		ESIConnection rh = new ESIConnection(null, null);
+		ESIConnected rh = new ESIConnected(null, null);
 		Assert.assertEquals(rh.flatten(null), null);
 		Assert.assertEquals(rh.flatten("lol"), "lol");
 		Assert.assertEquals(rh.flatten(12), "12");

@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
+import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
 
 public class MarketsMain {
 

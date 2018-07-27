@@ -115,8 +115,10 @@ public class PathTranslator {
 			fetchMethName = fetchMethName.replaceAll(p.getName(), "");
 		}
 		fetchMethName = fetchMethName.replaceAll("__", "_").replaceAll("_$", "");
+		findConnected();
 		// create the method
-		fetchMeth = bridge.swaggerClass.method(JMod.PUBLIC | JMod.DEFAULT, fetchRetType, fetchMethName);
+		fetchMeth = (connected ? bridge.swaggerCOClass : bridge.swaggerDCClass).method(JMod.PUBLIC | JMod.DEFAULT,
+				fetchRetType, fetchMethName);
 		// add the parameters
 		extractFetchParameters();
 
@@ -161,22 +163,22 @@ public class PathTranslator {
 					if (responseSchema == null) {
 						fetchMeth.body().invoke(methName).arg(url)
 						.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-						.arg(JExpr.lit(connected)).arg(headerParam);
+						.arg(headerParam);
 					} else {
 						JVar fetched = fetchMeth.body().decl(cm.ref(String.class), "fetched");
 						fetched.init(JExpr.invoke(methName).arg(url)
 								.arg(content == null ? cm.ref(Collections.class).staticInvoke("emptyMap") : content)
-								.arg(JExpr.lit(connected)).arg(headerParam));
+						.arg(headerParam));
 					}
 					break;
 				case get:
 					fetchMeth.body().directStatement(
-							"String fetched=" + "connectGet(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
+					"String fetched=" + "connectGet(url," + headerHandlerName + ");");
 					createCache();
 					break;
 				case delete:
 					fetchMeth.body()
-					.directStatement("connectDel(url," + Boolean.toString(connected) + ", " + headerHandlerName + ");");
+					.directStatement("connectDel(url," + headerHandlerName + ");");
 					break;
 				default:
 					throw new UnsupportedOperationException("unsupported type " + optype + " for path " + path);
@@ -211,6 +213,10 @@ public class PathTranslator {
 	/** true iff the path requires connection */
 	private boolean connected;
 
+	protected void findConnected() {
+		connected = operation.getParameters().stream().filter(p -> p.getName().equals("token")).findAny().isPresent();
+	}
+
 	/** argument of the fetch method for the header handler */
 	JVar headerParam;
 
@@ -219,13 +225,10 @@ public class PathTranslator {
 	 * list. also add javadoc on the method for those parameters.
 	 */
 	protected void extractFetchParameters() {
-		connected = false;
 		for (Parameter p : operation.getParameters()) {
 			switch (p.getName()) {
+			// we skip following parameters
 			case "token":
-				connected = true;
-				break;
-				// we skip following parameters
 			case "user_agent":
 			case "X-User-Agent":
 			case "datasource":
@@ -290,7 +293,8 @@ public class PathTranslator {
 				.replaceAll("\n\n", "\n").replaceAll("<br />\n<", "<").replaceAll("\n<br />\n", "<br />\n"));
 		if (!requiredRoles.isEmpty()) {
 			if (!requiredRoles.isEmpty()) {
-				JFieldVar rolesfield = bridge.swaggerClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL,
+				JFieldVar rolesfield = (connected ? bridge.swaggerCOClass : bridge.swaggerDCClass).field(
+						JMod.PUBLIC | JMod.STATIC | JMod.FINAL,
 						cm.ref(String.class).array(), (operation.getOperationId() + "_roles").toUpperCase());
 				JArray array = JExpr.newArray(cm.ref(String.class));
 				for (String role : requiredRoles) {
@@ -333,7 +337,7 @@ public class PathTranslator {
 
 	protected void createCache() {
 		String fieldName = operation.getOperationId().split("_")[1];
-		cacheGroup = bridge.getCacheGroupClass(fieldName);
+		cacheGroup = bridge.getCacheGroupClass(fieldName, connected);
 
 		// first we need to know the result.
 		if (responseSchema.getType().equals(ArrayProperty.TYPE)) {

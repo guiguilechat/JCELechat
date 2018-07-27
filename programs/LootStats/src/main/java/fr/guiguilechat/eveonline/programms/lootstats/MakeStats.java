@@ -32,8 +32,8 @@ import org.jfree.data.time.Week;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.modeled.market.RegionalMarket;
+import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.eveonline.model.sde.locations.Region;
 
 public class MakeStats {
