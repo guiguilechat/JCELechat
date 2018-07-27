@@ -80,9 +80,9 @@ public class ClassBridge {
 		this.swagger = swagger;
 
 		try {
-			swaggerItf = cm._class(rootPackage + "." + "IConnected", EClassType.INTERFACE);
-			swaggerCOClass = cm._class(rootPackage + "." + "SwaggerCO", EClassType.INTERFACE)._extends(swaggerItf);
-			swaggerDCClass = cm._class(rootPackage + "." + "SwaggerDC", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerItf = cm._class(rootPackage + "." + "G_ITransfer", EClassType.INTERFACE);
+			swaggerCOClass = cm._class(rootPackage + "." + "G_ICOAccess", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerDCClass = cm._class(rootPackage + "." + "G_IDCAccess", EClassType.INTERFACE)._extends(swaggerItf);
 		} catch (JClassAlreadyExistsException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}

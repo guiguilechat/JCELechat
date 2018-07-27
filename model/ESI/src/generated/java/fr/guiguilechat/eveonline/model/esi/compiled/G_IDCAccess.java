@@ -61,8 +61,8 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_ids;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_universe_names;
 
-public interface SwaggerDC
-    extends IConnected
+public interface G_IDCAccess
+    extends G_ITransfer
 {
 
     /**
@@ -460,7 +460,7 @@ public interface SwaggerDC
      * @param type_id
      *     Return orders only for this type
      */
-    public default R_get_markets_region_id_orders[] get_markets_orders(IConnected.order_type order_type, Integer page, int region_id, Integer type_id, Map<String, List<String>> headerHandler) {
+    public default R_get_markets_region_id_orders[] get_markets_orders(G_ITransfer.order_type order_type, Integer page, int region_id, Integer type_id, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/markets/{region_id}/orders/".replace("{region_id}", ""+region_id)+"?"+(order_type==null?"":"&order_type="+flatten(order_type))+(page==null?"":"&page="+flatten(page))+(type_id==null?"":"&type_id="+flatten(type_id)));
         String fetched=connectGet(url,headerHandler);
         return convert((fetched), (fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders[].class));
@@ -560,7 +560,7 @@ public interface SwaggerDC
      * @param origin
      *     origin solar system ID
      */
-    public default int[] get_route(int[] avoid, int[][] connections, int destination, IConnected.flag flag, int origin, Map<String, List<String>> headerHandler) {
+    public default int[] get_route(int[] avoid, int[][] connections, int destination, G_ITransfer.flag flag, int origin, Map<String, List<String>> headerHandler) {
         String url = ("https://esi.evetech.net/v1/route/{origin}/{destination}/".replace("{destination}", ""+destination).replace("{origin}", ""+origin)+"?"+(avoid==null?"":"&avoid="+flatten(avoid))+(connections==null?"":"&connections="+flatten(connections))+(flag==null?"":"&flag="+flatten(flag)));
         String fetched=connectGet(url,headerHandler);
         return convert((fetched), (int[].class));

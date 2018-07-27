@@ -26,6 +26,4 @@ public class CacheStatic extends SwaggerDCCache<ESIStatic> {
 		return swagger.addFetchCacheObject("STATIC_" + name, fetcher, cacheHandler, requiredRoles);
 	}
 
-	public static final CacheStatic INSTANCE = ESIStatic.INSTANCE.cache;
-
 }

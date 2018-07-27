@@ -6,10 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
-import fr.guiguilechat.eveonline.esi.modeled.Corporation;
-import fr.guiguilechat.eveonline.esi.modeled.Industry;
-import fr.guiguilechat.eveonline.esi.modeled.Route;
-import fr.guiguilechat.eveonline.esi.modeled.Universe;
 
 /**
  * encapsulation of a raw connection to have better modeling
@@ -36,8 +32,6 @@ public class ESIAccount {
 		this(new ESIConnected(refresh, base));
 	}
 
-	public static final ESIAccount DISCONNECTED = new ESIAccount(null, null);
-
 	public ESIConnected getConnection() {
 		return raw;
 	}
@@ -45,8 +39,6 @@ public class ESIAccount {
 	public final EveCharacter character = new EveCharacter(this);
 
 	public final Verify verify;
-
-	public final Industry industry = new Industry(this);
 
 	public final PI pi = new PI(this);
 

@@ -43,7 +43,7 @@ public class PI {
 			}
 		}
 
-		protected void addInfo(R_get_characters_character_id_planets info) {
+		public void addInfo(R_get_characters_character_id_planets info) {
 			for (Field f : info.getClass().getFields()) {
 				try {
 					getClass().getField(f.getName()).set(this, f.get(info));

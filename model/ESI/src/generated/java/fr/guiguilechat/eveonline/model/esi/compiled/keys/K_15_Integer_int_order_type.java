@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.keys;
 
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 
 
 /**
@@ -10,9 +10,9 @@ import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
 public class K_15_Integer_int_order_type {
     public final Integer type_id;
     public final int region_id;
-    public final IConnected.order_type order_type;
+    public final G_ITransfer.order_type order_type;
 
-    public K_15_Integer_int_order_type(Integer type_id, int region_id, IConnected.order_type order_type) {
+    public K_15_Integer_int_order_type(Integer type_id, int region_id, G_ITransfer.order_type order_type) {
         this.type_id = type_id;
         this.region_id = region_id;
         this.order_type = order_type;

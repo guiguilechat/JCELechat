@@ -14,13 +14,13 @@ import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.eveonline.esi.disconnected.ESIStatic;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.eveonline.model.Tools;
-import fr.guiguilechat.eveonline.model.esi.ESIAccount;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_corporation_2;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_factions;
-import fr.guiguilechat.eveonline.model.esi.direct.ESIConnection;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.eveonline.model.sde.load.bsd.EcrpNPCCorporations;
@@ -88,13 +88,14 @@ public class NPCsTranslater {
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
 			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
-		ESIAccount esi = new ESIAccount(null, null);
+		ESIAccess esi = ESIAccess.INSTANCE;
 		Map<Integer, String> stationsByID = Station.loadById();
 		LinkedHashMap<String, Station> stations = Station.load();
 		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
-		Map<Integer, R_get_corporations_corporation_id> npcCorps = IntStream.of(esi.raw.get_corporations_npccorps(null))
+		Map<Integer, R_get_corporations_corporation_id> npcCorps = IntStream
+				.of(esi.connection.get_corporations_npccorps(null))
 				.parallel().mapToObj(l -> l)
-				.collect(Collectors.toMap(l -> l, l -> esi.raw.get_corporations(l, null)));
+				.collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null)));
 		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
 				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
 		if (allyIds.length == 0) {
@@ -105,7 +106,7 @@ public class NPCsTranslater {
 		} else {
 			System.err.println("npc alliances are " + Arrays.asList(allyIds));
 		}
-		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.raw.get_universe_factions(null))
+		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.connection.get_universe_factions(null))
 				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
 		Map<Integer, String> agentNames = Stream
 				.of(esi.universe.names(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
@@ -150,7 +151,7 @@ public class NPCsTranslater {
 			corporations.put(e.getValue().name, add);
 		}
 		corporations.values().stream().parallel().flatMap(c -> {
-			R_get_loyalty_stores_corporation_id_offers[] values = esi.raw.get_loyalty_stores_offers(c.id,
+			R_get_loyalty_stores_corporation_id_offers[] values = esi.connection.get_loyalty_stores_offers(c.id,
 					null);
 			return values == null ? Stream.empty() : Stream.of(values);
 		}).forEachOrdered(o -> {
@@ -158,7 +159,7 @@ public class NPCsTranslater {
 				offers.put(o.offer_id, makeOffer(o));
 			}
 		});
-		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.raw, offers));
+		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.connection, offers));
 	}
 
 	private static double convertConcordRate(String name, String alliance, String fw) {
@@ -221,7 +222,7 @@ public class NPCsTranslater {
 		return lpo;
 	}
 
-	protected static void loadCorpOffers(Corporation c, ESIConnection raw, LinkedHashMap<Integer, LPOffer> alloffers) {
+	protected static void loadCorpOffers(Corporation c, ESIStatic raw, LinkedHashMap<Integer, LPOffer> alloffers) {
 		R_get_loyalty_stores_corporation_id_offers[] offers = raw.get_loyalty_stores_offers(c.id, null);
 		if (offers != null) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers) {

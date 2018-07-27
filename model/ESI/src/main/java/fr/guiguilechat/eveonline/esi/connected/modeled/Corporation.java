@@ -1,4 +1,4 @@
-package fr.guiguilechat.eveonline.esi.modeled;
+package fr.guiguilechat.eveonline.esi.connected.modeled;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -10,10 +10,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.esi.compiled.Swagger;
 import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
-import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
-import fr.guiguilechat.eveonline.esi.modeled.corporation.Bookmarks;
+import fr.guiguilechat.eveonline.esi.connected.modeled.corporation.Bookmarks;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ICOAccess;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -38,22 +37,9 @@ public class Corporation {
 
 	private CountDownLatch jobLatch = new CountDownLatch(1);
 
-	// /**
-	// * wait until the industry jobs are fetched
-	// */
-	// public void ensureIndustryJobs() {
-	// // otherwise latch is null
-	// getIndustryJobs();
-	// try {
-	// jobLatch.await();
-	// } catch (InterruptedException e) {
-	// throw new UnsupportedOperationException("catch this", e);
-	// }
-	// }
-
 	public ObservableMap<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
 		// this is to correct an ESI bug.
-		for (String role : Swagger.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES) {
+		for (String role : G_ICOAccess.GET_CORPORATIONS_CORPORATION_ID_INDUSTRY_JOBS_ROLES) {
 			if (role.equals("Factory_Manager")) {
 				throw new UnsupportedOperationException("remove the hack here");
 			}

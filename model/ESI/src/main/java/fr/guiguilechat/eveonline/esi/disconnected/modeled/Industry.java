@@ -1,19 +1,19 @@
-package fr.guiguilechat.eveonline.esi.modeled;
+package fr.guiguilechat.eveonline.esi.disconnected.modeled;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
-import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_IDCAccess;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_industry_systems_cost_indices;
 
 public class Industry {
 
-	protected final ESIAccount con;
+	public final G_IDCAccess con;
 
-	public Industry(ESIAccount conn) {
+	public Industry(G_IDCAccess conn) {
 		con = conn;
 	}
 
@@ -37,7 +37,7 @@ public class Industry {
 				return;
 			}
 			Map<String, List<String>> headers = new HashMap<>();
-			R_get_industry_systems[] results = con.raw.get_industry_systems(headers);
+			R_get_industry_systems[] results = con.get_industry_systems(headers);
 			systemIndicesCache.clear();
 			for (R_get_industry_systems r : results) {
 				int sysid = r.solar_system_id;

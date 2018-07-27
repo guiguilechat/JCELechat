@@ -91,8 +91,8 @@ import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_characters_
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_created;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_wing_id_squads_created;
 
-public interface SwaggerCO
-    extends IConnected
+public interface G_ICOAccess
+    extends G_ITransfer
 {
     /**
      * the roles required for {@link #get_corporation_mining_extractions this method}

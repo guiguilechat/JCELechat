@@ -19,13 +19,15 @@ import javafx.collections.ObservableList;
  */
 public class CachedHistory {
 
+	public final CacheStatic caches;
 	public final int regionalID;
 	public final int typeID;
 
-	public CachedHistory(int regionID, int typeID) {
+	public CachedHistory(CacheStatic cache, int regionID, int typeID) {
+		caches = cache;
 		regionalID = regionID;
 		this.typeID = typeID;
-		ConnectedImpl.listen(CacheStatic.INSTANCE.markets.history(regionID, typeID), this::handleHistory);
+		ConnectedImpl.listen(caches.markets.history(regionID, typeID), this::handleHistory);
 	}
 
 	private final ObservableList<R_get_markets_region_id_history> cache = FXCollections.observableArrayList();
@@ -36,7 +38,8 @@ public class CachedHistory {
 
 	protected void handleHistory(Change<? extends R_get_markets_region_id_history> change) {
 		// we should only have new values
-		boolean modif = change.next();
+		boolean modif = false;
+		change.next();
 		for (R_get_markets_region_id_history it : change.getAddedSubList()) {
 			if (cache.isEmpty() || cache.get(0).date.compareTo(it.date) < 0) {
 				// synchronized to avoid concurrent modification and iteration

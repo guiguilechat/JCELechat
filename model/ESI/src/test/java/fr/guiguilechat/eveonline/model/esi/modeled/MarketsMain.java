@@ -1,13 +1,13 @@
 package fr.guiguilechat.eveonline.model.esi.modeled;
 
-import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.ESIAccess;
 
 public class MarketsMain {
 
 	public static void main(String[] args) throws InterruptedException {
 
 		int region = 10000002;
-		ESIAccount acc = ESIAccount.DISCONNECTED;
+		ESIAccess acc = ESIAccess.INSTANCE;
 		// acc.addFetchCache((p, h) ->
 		// acc.raw.get_markets_region_id_orders(order_type.all, p, region, null, h),
 		// s -> {

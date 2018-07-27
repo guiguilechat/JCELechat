@@ -8,7 +8,7 @@ import fr.guiguilechat.eveonline.model.esi.compiled.connected.Fleets;
 import fr.guiguilechat.eveonline.model.esi.compiled.connected.Markets;
 import fr.guiguilechat.eveonline.model.esi.compiled.connected.Universe;
 
-public abstract class SwaggerCOCache<T extends SwaggerCO>
+public abstract class SwaggerCOCache<T extends G_ICOAccess>
     implements ISwaggerCache
 {
     public final T swagger;

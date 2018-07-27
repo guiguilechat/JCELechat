@@ -42,7 +42,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 
 import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
 import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.eveonline.model.esi.compiled.ISwaggerCache.Pausable;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.LongProperty;
@@ -58,7 +58,7 @@ import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 import javafx.collections.ObservableSet;
 
-public abstract class ConnectedImpl implements IConnected {
+public abstract class ConnectedImpl implements G_ITransfer {
 
 	private static final Logger logger = LoggerFactory.getLogger(ConnectedImpl.class);
 

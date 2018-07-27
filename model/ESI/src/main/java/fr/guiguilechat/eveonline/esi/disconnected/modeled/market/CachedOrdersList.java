@@ -4,8 +4,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import fr.guiguilechat.eveonline.esi.compiled.Swagger;
-import fr.guiguilechat.eveonline.esi.connected.CacheConnected.SelfExecutable;
+import fr.guiguilechat.eveonline.esi.disconnected.ESIStatic;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
+import fr.guiguilechat.eveonline.model.esi.compiled.ISwaggerCache.Pausable;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_markets_region_id_orders;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.value.ObservableDoubleValue;
@@ -66,13 +67,12 @@ public class CachedOrdersList {
 		if (selfOrdersStop != null) {
 			return;
 		}
-		SelfExecutable exec = regionalMarket.markets.esiConnection.raw.cache
-				.addFetchCacheArray(
-						regionalMarket.markets.esiConnection.characterName() + ".orders_type" + typeID,
-						(p, h) -> regionalMarket.markets.esiConnection.raw
-								.get_markets_orders(Swagger.order_type.all, p, regionalMarket.regionID, typeID, h),
+		Pausable exec = ESIStatic.INSTANCE.cache
+				.addFetchCacheArray("orders_type" + typeID,
+						(p, h) -> ESIStatic.INSTANCE
+						.get_markets_orders(G_ITransfer.order_type.all, p, regionalMarket.regionID, typeID, h),
 						this::handleNewCache);
-		selfOrdersStop = exec::stop;
+		selfOrdersStop = exec::pause;
 	}
 
 	public synchronized void remFetcher() {

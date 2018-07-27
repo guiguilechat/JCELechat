@@ -30,7 +30,7 @@ public class Markets {
 		if (rm == null) {
 			synchronized (regionMarkets) {
 				if (regionMarkets.get(regionID) == null) {
-					rm = new RegionalMarket(this, regionID);
+					rm = new RegionalMarket(esiConnection.cache, regionID);
 					regionMarkets.put(regionID, rm);
 				} else {
 					rm = regionMarkets.get(regionID);

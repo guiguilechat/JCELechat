@@ -1,7 +1,4 @@
-package fr.guiguilechat.eveonline.esi.modeled;
-
-import fr.guiguilechat.eveonline.esi.compiled.Swagger.flag;
-import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+package fr.guiguilechat.eveonline.esi.connected.modeled;
 
 public class Route {
 
@@ -36,11 +33,6 @@ public class Route {
 			}
 			cleared = true;
 		}
-	}
-
-	public int[] makeRoute(int origin, int destination, boolean secure) {
-		return con.raw.get_route(null, null, destination,
-				secure ? flag.secure : flag.shortest, origin, null);
 	}
 
 }

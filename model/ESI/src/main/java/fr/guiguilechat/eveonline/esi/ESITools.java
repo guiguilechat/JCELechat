@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 
 /**
  * code to make a sso key
@@ -85,7 +85,7 @@ public class ESITools {
 		System.out.println("acces token is " + accessToken);
 	}
 
-	public static final String[] SCOPES = IConnected.SCOPES;
+	public static final String[] SCOPES = G_ITransfer.SCOPES;
 
 	public static boolean openBrowserForApp(String appID, String appCalllback, String... scopes) {
 		String uri = "https://login.eveonline.com/oauth/authorize/?response_type=code&redirect_uri=" + appCalllback

@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.eveonline.esi.ConnectedImpl;
 import fr.guiguilechat.eveonline.esi.ESITools;
 import fr.guiguilechat.eveonline.esi.ESITools.AccessToken;
-import fr.guiguilechat.eveonline.model.esi.compiled.SwaggerCO;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ICOAccess;
 import fr.guiguilechat.tools.JavaFxTools;
 import javafx.collections.ObservableSet;
 
@@ -17,7 +17,7 @@ import javafx.collections.ObservableSet;
  * raw access to the esi services using a connection.
  *
  */
-public class ESIConnected extends ConnectedImpl implements SwaggerCO {
+public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	private static final Logger logger = LoggerFactory.getLogger(ESIConnected.class);
 

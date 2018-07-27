@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.esi.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.eveonline.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_14_int_int;
 import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_15_Integer_int_order_type;
@@ -160,7 +160,7 @@ public class Markets {
      * @param type_id
      *     Return orders only for this type
      */
-    public ObservableList<R_get_markets_region_id_orders> orders(IConnected.order_type order_type, int region_id, Integer type_id) {
+    public ObservableList<R_get_markets_region_id_orders> orders(G_ITransfer.order_type order_type, int region_id, Integer type_id) {
         K_15_Integer_int_order_type param = new K_15_Integer_int_order_type(type_id, region_id, order_type);
         ObservableList<R_get_markets_region_id_orders> ret = get_markets_region_id_orders_holder.get(param);
         if (ret == null) {

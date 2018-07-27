@@ -19,7 +19,7 @@ import fr.guiguilechat.eveonline.model.esi.compiled.disconnected.Status;
 import fr.guiguilechat.eveonline.model.esi.compiled.disconnected.Universe;
 import fr.guiguilechat.eveonline.model.esi.compiled.disconnected.Wars;
 
-public abstract class SwaggerDCCache<T extends SwaggerDC>
+public abstract class SwaggerDCCache<T extends G_IDCAccess>
     implements ISwaggerCache
 {
     public final T swagger;

@@ -1,6 +1,6 @@
 package fr.guiguilechat.eveonline.model.esi.compiled.keys;
 
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 
 
 /**
@@ -8,13 +8,13 @@ import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
  * 
  */
 public class K_16_flag_int_int_Lint_LLint {
-    public final IConnected.flag flag;
+    public final G_ITransfer.flag flag;
     public final int origin;
     public final int destination;
     public final int[] avoid;
     public final int[][] connections;
 
-    public K_16_flag_int_int_Lint_LLint(IConnected.flag flag, int origin, int destination, int[] avoid, int[][] connections) {
+    public K_16_flag_int_int_Lint_LLint(G_ITransfer.flag flag, int origin, int destination, int[] avoid, int[][] connections) {
         this.flag = flag;
         this.origin = origin;
         this.destination = destination;

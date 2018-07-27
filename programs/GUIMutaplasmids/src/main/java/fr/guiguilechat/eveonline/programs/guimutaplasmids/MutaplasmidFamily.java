@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.eveonline.esi.connected.modeled.ESIAccount;
+import fr.guiguilechat.eveonline.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.eveonline.model.sde.items.Attribute;
@@ -194,9 +194,9 @@ public abstract class MutaplasmidFamily {
 			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
 
 	public static void searchESI() {
-		R_get_universe_groups_group_id groups = ESIAccount.DISCONNECTED.raw.get_universe_groups(1964, null);
+		R_get_universe_groups_group_id groups = ESIAccess.INSTANCE.connection.get_universe_groups(1964, null);
 		for (int mutaId : groups.types) {
-			R_get_universe_types_type_id type = ESIAccount.DISCONNECTED.raw.get_universe_types(mutaId, null);
+			R_get_universe_types_type_id type = ESIAccess.INSTANCE.connection.get_universe_types(mutaId, null);
 			System.err.println("" + mutaId + " " + type.name);
 		}
 	}

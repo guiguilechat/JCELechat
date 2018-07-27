@@ -19,7 +19,6 @@ import fr.guiguilechat.eveonline.esi.connected.ESIConnected;
 import fr.guiguilechat.eveonline.esi.connected.modeled.character.Bookmarks;
 import fr.guiguilechat.eveonline.esi.connected.modeled.character.Informations;
 import fr.guiguilechat.eveonline.esi.connected.modeled.character.LocationCache;
-import fr.guiguilechat.eveonline.esi.modeled.Corporation;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_assets_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.eveonline.model.esi.compiled.responses.R_get_characters_character_id_industry_jobs;

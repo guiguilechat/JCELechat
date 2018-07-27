@@ -3,7 +3,7 @@ package fr.guiguilechat.eveonline.model.esi.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
-import fr.guiguilechat.eveonline.model.esi.compiled.IConnected;
+import fr.guiguilechat.eveonline.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.eveonline.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.eveonline.model.esi.compiled.keys.K_16_flag_int_int_Lint_LLint;
 import javafx.collections.FXCollections;
@@ -33,7 +33,7 @@ public class Route {
      * @param origin
      *     origin solar system ID
      */
-    public ObservableList<Integer> get(int[] avoid, int[][] connections, int destination, IConnected.flag flag, int origin) {
+    public ObservableList<Integer> get(int[] avoid, int[][] connections, int destination, G_ITransfer.flag flag, int origin) {
         K_16_flag_int_int_Lint_LLint param = new K_16_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
         ObservableList<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {
