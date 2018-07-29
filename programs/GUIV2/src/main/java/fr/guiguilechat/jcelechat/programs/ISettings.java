@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 
 import org.yaml.snakeyaml.DumperOptions;
 import org.yaml.snakeyaml.Yaml;
@@ -94,8 +95,9 @@ public interface ISettings {
 	public static <T extends ISettings> T load(Class<T> clazz) {
 		T inst = null;
 		try {
-			inst = clazz.newInstance();
-		} catch (InstantiationException | IllegalAccessException e1) {
+			inst = clazz.getConstructor().newInstance();
+		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
+				| NoSuchMethodException | SecurityException e1) {
 			throw new UnsupportedOperationException("catch this", e1);
 		}
 		File f = inst.getFile();

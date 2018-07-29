@@ -98,7 +98,7 @@ public class Informations {
 			synchronized (this) {
 				if (!connected) {
 					dataLatch = new CountDownLatch(1);
-					ConnectedImpl.listen(ESIStatic.INSTANCE.cache.characters.get(con.characterId()), this::handleData);
+					ConnectedImpl.listenO(ESIStatic.INSTANCE.cache.characters.get(con.characterId()), this::handleData);
 					connected = true;
 				}
 			}

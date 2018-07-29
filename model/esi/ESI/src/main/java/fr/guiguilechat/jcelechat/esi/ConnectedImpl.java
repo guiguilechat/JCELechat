@@ -707,7 +707,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 * @param map
 	 * @param listener
 	 */
-	public static <U, V> void listen(ObservableMap<U, V> map, MapChangeListener<U, V> listener) {
+	public static <U, V> void listenM(ObservableMap<U, V> map, MapChangeListener<U, V> listener) {
 		synchronized (map) {
 			ObservableMap<U, V> other = FXCollections.observableHashMap();
 			other.addListener(listener);
@@ -722,7 +722,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 *
 	 * @param map
 	 */
-	public static <U, V> void wait(ObservableMap<U, V> map) {
+	public static <U, V> void waitM(ObservableMap<U, V> map) {
 		CountDownLatch latch;
 		synchronized (map) {
 			if (map.size() != 1 || !map.containsKey(null)) {
@@ -752,7 +752,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 * @param list
 	 * @param listener
 	 */
-	public static <U> void listen(ObservableList<U> list, ListChangeListener<U> listener) {
+	public static <U> void listenL(ObservableList<U> list, ListChangeListener<U> listener) {
 		synchronized (list) {
 			ObservableList<U> other = FXCollections.observableArrayList();
 			other.addListener(listener);
@@ -766,7 +766,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 *
 	 * @param map
 	 */
-	public static <U> void wait(ObservableList<U> list) {
+	public static <U> void waitL(ObservableList<U> list) {
 		CountDownLatch latch;
 		synchronized (list) {
 			if (list.size() != 1 || list.get(0) != null) {
@@ -796,7 +796,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 * @param obs
 	 * @param listener
 	 */
-	public static <U> void listen(ObservableValue<U> obs, ChangeListener<U> listener) {
+	public static <U> void listenO(ObservableValue<U> obs, ChangeListener<U> listener) {
 		synchronized (obs) {
 			if (obs.getValue() != null) {
 				listener.changed(obs, null, obs.getValue());
@@ -810,7 +810,7 @@ public abstract class ConnectedImpl implements G_ITransfer {
 	 *
 	 * @param map
 	 */
-	public static <U> void wait(ObservableValue<U> obs) {
+	public static <U> void waitO(ObservableValue<U> obs) {
 		CountDownLatch latch;
 		synchronized (obs) {
 			if (obs.getValue() != null) {

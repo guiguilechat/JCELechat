@@ -27,7 +27,7 @@ public class CachedHistory {
 		caches = cache;
 		regionalID = regionID;
 		this.typeID = typeID;
-		ConnectedImpl.listen(caches.markets.history(regionID, typeID), this::handleHistory);
+		ConnectedImpl.listenL(caches.markets.history(regionID, typeID), this::handleHistory);
 	}
 
 	private final ObservableList<R_get_markets_region_id_history> cache = FXCollections.observableArrayList();

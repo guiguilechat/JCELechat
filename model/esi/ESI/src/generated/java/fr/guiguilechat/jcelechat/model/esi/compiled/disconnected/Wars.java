@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.esi.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_wars_war_id;

@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.esi.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.keys.K_14_int_int;

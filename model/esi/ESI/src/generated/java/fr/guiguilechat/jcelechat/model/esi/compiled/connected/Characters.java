@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.keys.K_0_int_Integer;
 import fr.guiguilechat.jcelechat.model.esi.compiled.keys.K_18_int_int;

@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.esi.compiled;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_fw_leaderboards_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_alliances_alliance_id;

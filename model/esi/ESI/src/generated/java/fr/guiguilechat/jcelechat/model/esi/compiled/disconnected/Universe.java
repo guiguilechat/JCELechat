@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_universe_ancestries;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_universe_asteroid_belts_asteroid_belt_id;

@@ -29,7 +29,7 @@ public class RegionalMarket {
 	public RegionalMarket(CacheStatic cache, int regionID) {
 		this.regionID = regionID;
 		this.cache=cache;
-		ConnectedImpl.listen(cache.markets.orders(G_ITransfer.order_type.all, regionID, null),
+		ConnectedImpl.listenL(cache.markets.orders(G_ITransfer.order_type.all, regionID, null),
 				this::handleNewCache);
 	}
 

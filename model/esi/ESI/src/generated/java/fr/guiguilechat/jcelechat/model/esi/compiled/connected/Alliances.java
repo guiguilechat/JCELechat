@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.esi.compiled.connected;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_contacts_labels_2;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_alliances_alliance_id_contacts;

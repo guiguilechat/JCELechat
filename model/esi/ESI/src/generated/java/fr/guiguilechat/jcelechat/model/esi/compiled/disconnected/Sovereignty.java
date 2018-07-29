@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.model.esi.compiled.disconnected;
 
 import java.util.LinkedHashMap;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_sovereignty_campaigns;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_sovereignty_map;

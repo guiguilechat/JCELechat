@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.esi.compiled.disconnected;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.esi.compiled.keys.K_13_String_int;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_killmails_killmail_id_killmail_hash;

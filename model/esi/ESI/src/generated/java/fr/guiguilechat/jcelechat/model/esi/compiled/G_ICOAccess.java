@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_assets_8;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_blueprints_8;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.M_get_bookmarks_9;
