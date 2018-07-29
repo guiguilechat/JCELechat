@@ -2,15 +2,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat.eveonline.model</groupId>
+		<groupId>fr.guiguilechat.jcelechat.model</groupId>
 		<version>3.4.1</version>
 		<artifactId>sde</artifactId>
 	</parent>
-	<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 	<artifactId>SDE-Locations</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Raw</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
@@ -41,7 +41,7 @@
 						</goals>
 						<configuration>
 <!-- 							<includePluginDependencies>true</includePluginDependencies> -->
-							<mainClass>fr.guiguilechat.eveonline.model.sde.translate.LocationsTranslater</mainClass>
+							<mainClass>fr.guiguilechat.jcelechat.model.sde.translate.LocationsTranslater</mainClass>
 							<arguments>
 								<!-- resource folder to put database in -->
 								<argument>${project.basedir}/src/generated/resources/</argument>

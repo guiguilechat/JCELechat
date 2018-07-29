@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
-	<artifactId>EveOnline</artifactId>
+	<artifactId>JCELechat</artifactId>
 	<version>3.4.1</version>
 	<licenses>
 		<license>
@@ -125,12 +125,12 @@
 				<version>1.8.0-beta2</version>
 			</dependency>
 			<dependency>
-				<groupId>fr.guiguilechat.eveonline.model</groupId>
+				<groupId>fr.guiguilechat.jcelechat.model</groupId>
 				<artifactId>ESI</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 				<artifactId>SDE-Full</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -142,9 +142,9 @@
 		</dependencies>
 	</dependencyManagement>
 	<scm>
-		<url>https://github.com/guiguilechat/EveOnline</url>
-		<connection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</connection>
-		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
+		<url>https://github.com/guiguilechat/JCELechat</url>
+		<connection>scm:git:git@github.com-lechat:guiguilechat/JCELechat.git</connection>
+		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/JCELechat.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 	<packaging>pom</packaging>

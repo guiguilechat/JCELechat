@@ -1,0 +1,40 @@
+package fr.guiguilechat.jcelechat.model.sde.items.types.infantry;
+
+import java.io.InputStreamReader;
+import java.util.LinkedHashMap;
+
+import org.yaml.snakeyaml.Yaml;
+
+import fr.guiguilechat.jcelechat.model.sde.items.types.Infantry;
+
+public class BattleSalvage
+    extends Infantry
+{
+    public final static String RESOURCE_PATH = "SDE/items/infantry/BattleSalvage.yaml";
+    private static LinkedHashMap<String, BattleSalvage> cache = (null);
+
+    @Override
+    public int getGroupId() {
+        return  368656;
+    }
+
+    @Override
+    public Class<?> getGroup() {
+        return BattleSalvage.class;
+    }
+
+    public static synchronized LinkedHashMap<String, BattleSalvage> load() {
+        if (cache == null) {
+            try {
+                cache = new Yaml().loadAs(new InputStreamReader(BattleSalvage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
+            } catch (final Exception exception) {
+                throw new UnsupportedOperationException("catch this", exception);
+            }
+        }
+        return (cache);
+    }
+
+    private static class Container {
+        public LinkedHashMap<String, BattleSalvage> items;
+    }
+}

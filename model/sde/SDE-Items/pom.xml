@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>fr.guiguilechat.eveonline.model</groupId>
+    <groupId>fr.guiguilechat.jcelechat.model</groupId>
     <version>3.4.1</version>
     <artifactId>sde</artifactId>
   </parent>
-  <groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  <groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
   <artifactId>SDE-Items</artifactId>
 	<dependencies>
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Items-compiler</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>
@@ -25,7 +25,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Tools</artifactId>
 		</dependency>
 	</dependencies>
@@ -43,7 +43,7 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>fr.guiguilechat.eveonline.model.sde.compile.SDECompiler</mainClass>
+							<mainClass>fr.guiguilechat.jcelechat.model.sde.compile.SDECompiler</mainClass>
 							<arguments>
 								<!-- source folder to put classes in -->
 								<argument>${project.basedir}/src/generated/java</argument>

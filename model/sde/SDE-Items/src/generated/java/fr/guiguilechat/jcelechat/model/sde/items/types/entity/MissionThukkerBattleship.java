@@ -1,0 +1,18 @@
+package fr.guiguilechat.jcelechat.model.sde.items.types.entity;
+
+import fr.guiguilechat.jcelechat.model.sde.items.types.Entity;
+
+public class MissionThukkerBattleship
+    extends Entity
+{
+
+    @Override
+    public int getGroupId() {
+        return  823;
+    }
+
+    @Override
+    public Class<?> getGroup() {
+        return MissionThukkerBattleship.class;
+    }
+}

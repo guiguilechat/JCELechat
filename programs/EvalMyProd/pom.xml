@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>fr.guiguilechat.eveonline</groupId>
+    <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>programs</artifactId>
     <version>3.4.1</version>
   </parent>
-  <groupId>fr.guiguilechat.eveonline.programs</groupId>
+  <groupId>fr.guiguilechat.jcelechat.programs</groupId>
   <artifactId>EvalMyProd</artifactId>
   <name>EvalMyProd</name>
   <description>evaluate the blueprints production of a toon</description>
@@ -35,7 +35,7 @@
             <configuration>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>fr.guiguilechat.eveonline.programs.ProdEval</mainClass>
+                  <mainClass>fr.guiguilechat.jcelechat.programs.ProdEval</mainClass>
                 </transformer>
               </transformers>
             </configuration>

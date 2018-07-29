@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>fr.guiguilechat</groupId>
-    <artifactId>EveOnline</artifactId>
+    <artifactId>JCELechat</artifactId>
     <version>3.4.1</version>
   </parent>
   <artifactId>programs</artifactId>
@@ -14,7 +14,7 @@
   	
   	<module>StatsBurnerDest</module>
   	<module>LootStats</module>
-  	<module>Optimize</module>
+  	
   	<module>EvalMyProd</module>
   	
   	<module>fightersbysensortype</module>
@@ -24,11 +24,11 @@
   </modules>
   <dependencies>
   	<dependency>
-  		<groupId>fr.guiguilechat.eveonline.model.sde</groupId>
+  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
   		<artifactId>SDE-Full</artifactId>
   	</dependency>
   	<dependency>
-  		<groupId>fr.guiguilechat.eveonline.model</groupId>
+  		<groupId>fr.guiguilechat.jcelechat.model</groupId>
   		<artifactId>ESI</artifactId>
   	</dependency>
   </dependencies>
@@ -38,5 +38,5 @@
 		<developerConnection>scm:git:git@github.com-lechat:guiguilechat/EveOnline.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-	<groupId>fr.guiguilechat.eveonline</groupId>
+	<groupId>fr.guiguilechat.jcelechat</groupId>
 </project>
