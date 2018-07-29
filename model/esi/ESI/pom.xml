@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>fr.guiguilechat.jcelechat</groupId>
-		<artifactId>model</artifactId>
+		<groupId>fr.guiguilechat.jcelechat.model</groupId>
+		<artifactId>esi</artifactId>
 		<version>3.4.1</version>
 	</parent>
-	<groupId>fr.guiguilechat.jcelechat.model</groupId>
+	<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 	<artifactId>ESI</artifactId>
 	<dependencies>
 		<dependency>
@@ -19,7 +19,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model</groupId>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>ESI-compiler</artifactId>
 			<version>${project.version}</version>
 			<optional>true</optional>

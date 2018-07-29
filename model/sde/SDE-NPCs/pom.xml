@@ -35,7 +35,7 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model</groupId>
+			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>ESI</artifactId>
 			<optional>true</optional>
 		</dependency>

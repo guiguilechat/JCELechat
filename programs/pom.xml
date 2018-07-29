@@ -28,7 +28,7 @@
   		<artifactId>SDE-Full</artifactId>
   	</dependency>
   	<dependency>
-  		<groupId>fr.guiguilechat.jcelechat.model</groupId>
+  		<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
   		<artifactId>ESI</artifactId>
   	</dependency>
   </dependencies>

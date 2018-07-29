@@ -6,8 +6,7 @@
 	<name>model</name>
 
 	<modules>
-		<module>ESI</module>
-		<module>ESI-compiler</module>
+		<module>esi</module>
 		<module>sde</module>
 	</modules>
 	
