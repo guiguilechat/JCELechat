@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.placeables;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.Placeables;
+import org.yaml.snakeyaml.Yaml;
 
 public class Generic
     extends Placeables

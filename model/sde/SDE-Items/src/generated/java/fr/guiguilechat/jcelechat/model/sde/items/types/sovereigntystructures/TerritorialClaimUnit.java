@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.SovereigntyStructures;
+import org.yaml.snakeyaml.Yaml;
 
 public class TerritorialClaimUnit
     extends SovereigntyStructures

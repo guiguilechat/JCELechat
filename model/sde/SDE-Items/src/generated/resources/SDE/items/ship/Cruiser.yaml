@@ -3855,7 +3855,7 @@ items:
     marketGroup: 1371
     name: Vigilant
     volume: 101000.0
-  毒蜥级YC117年���别版:
+  毒��级YC117年特别版:
     Agility: 0.6600000262260437
     ArmorEmDamageResonance: 0.5
     ArmorExplosiveDamageResonance: 0.8999999761581421
@@ -3938,5 +3938,5 @@ items:
     WarpCapacitorNeed: 8.12999985555507E-7
     WarpSpeedMultiplier: 3.0
     id: 34475
-    name: 毒蜥级YC117年���别版
+    name: 毒��级YC117年特别版
     volume: 101000.0

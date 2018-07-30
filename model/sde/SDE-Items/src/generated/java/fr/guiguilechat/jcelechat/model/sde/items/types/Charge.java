@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.items.types.charge.AdvancedArtilleryAmmo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.charge.AdvancedAutocannonAmmo;

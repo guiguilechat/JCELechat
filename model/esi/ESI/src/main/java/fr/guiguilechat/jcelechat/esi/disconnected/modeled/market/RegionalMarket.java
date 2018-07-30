@@ -16,6 +16,7 @@ import fr.guiguilechat.jcelechat.esi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.model.esi.compiled.G_ITransfer;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_get_markets_region_id_orders;
 import javafx.beans.value.ObservableDoubleValue;
+import javafx.collections.ListChangeListener;
 import javafx.collections.ListChangeListener.Change;
 
 public class RegionalMarket {
@@ -30,7 +31,7 @@ public class RegionalMarket {
 		this.regionID = regionID;
 		this.cache=cache;
 		ConnectedImpl.listenL(cache.markets.orders(G_ITransfer.order_type.all, regionID, null),
-				this::handleNewCache);
+				(ListChangeListener<R_get_markets_region_id_orders>) this::handleNewCache);
 	}
 
 	// typeid-> cached orders

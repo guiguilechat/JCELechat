@@ -8,13 +8,13 @@ import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 
-public class JavaFxTools {
+public class JFXTools {
 
 	/**
 	 * Make a set from a observablevalue of something we can extract an iterable
 	 * from<br />
 	 * <p>
-	 * exampole of code :
+	 * example of code :
 	 *
 	 * <pre>
 	 * {

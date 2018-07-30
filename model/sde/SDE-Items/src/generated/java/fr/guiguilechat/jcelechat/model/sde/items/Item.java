@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.items;
 
 import java.lang.reflect.Field;
-
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 

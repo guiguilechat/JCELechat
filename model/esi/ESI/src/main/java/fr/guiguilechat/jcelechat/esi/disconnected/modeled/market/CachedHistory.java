@@ -10,6 +10,7 @@ import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableLongValue;
 import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
 import javafx.collections.ListChangeListener.Change;
 import javafx.collections.ObservableList;
 
@@ -27,7 +28,8 @@ public class CachedHistory {
 		caches = cache;
 		regionalID = regionID;
 		this.typeID = typeID;
-		ConnectedImpl.listenL(caches.markets.history(regionID, typeID), this::handleHistory);
+		ConnectedImpl.listenL(caches.markets.history(regionID, typeID),
+				(ListChangeListener<R_get_markets_region_id_history>) this::handleHistory);
 	}
 
 	private final ObservableList<R_get_markets_region_id_history> cache = FXCollections.observableArrayList();

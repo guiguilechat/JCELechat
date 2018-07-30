@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
+import org.yaml.snakeyaml.Yaml;
 
 public class ShieldResistanceShiftHardenerBlueprint
     extends Blueprint

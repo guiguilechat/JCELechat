@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.Skill;
+import org.yaml.snakeyaml.Yaml;
 
 public class FakeSkills
     extends Skill

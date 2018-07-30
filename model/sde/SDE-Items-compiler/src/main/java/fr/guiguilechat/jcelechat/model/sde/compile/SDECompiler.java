@@ -65,7 +65,7 @@ public class SDECompiler {
 	protected JCodeModel cm;
 
 	protected JPackage rootPackage() {
-		return cm._package("fr.guiguilechat.eveonline.model.sde.items");
+		return cm._package("fr.guiguilechat.jcelechat.model.sde.items");
 	}
 
 	protected JPackage annotationsPackage() {
@@ -346,13 +346,19 @@ public class SDECompiler {
 			}
 		}
 
-		// then create all groups
+		// then create all typeid groups
 
 		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
 			String newName = formatName(groupEntry.getValue().enName());
 			JDefinedClass catClass = catIDToClass.get(groupEntry.getValue().categoryID);
 			try {
-				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(formatName(newName));
+				String name = formatName(newName);
+				// System.err
+				// .println("creating typeid group " + catClass.name().toLowerCase() +
+				// "." + name + "(" + groupEntry.getKey()
+				// + ") for cat " + name + "(" + groupEntry.getValue().categoryID +
+				// ")");
+				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
 

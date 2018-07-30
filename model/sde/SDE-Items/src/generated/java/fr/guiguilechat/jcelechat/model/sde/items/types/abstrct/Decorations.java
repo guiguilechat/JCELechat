@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.abstrct;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.Abstrct;
+import org.yaml.snakeyaml.Yaml;
 
 public class Decorations
     extends Abstrct

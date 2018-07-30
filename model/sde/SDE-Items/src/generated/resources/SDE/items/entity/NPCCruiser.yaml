@@ -83,11 +83,11 @@ items:
     id: 46075
     name: ♦ Thorax
     volume: 112000.0
-  ♦ Vexor:
-    id: 43582
-    name: ♦ Vexor
-    volume: 115000.0
   ♦ Vigilant:
     id: 46059
     name: ♦ Vigilant
     volume: 101000.0
+  �� Vexor:
+    id: 43582
+    name: �� Vexor
+    volume: 115000.0

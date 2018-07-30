@@ -2,10 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.cells;
 
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
-
-import org.yaml.snakeyaml.Yaml;
-
 import fr.guiguilechat.jcelechat.model.sde.items.types.Cells;
+import org.yaml.snakeyaml.Yaml;
 
 public class PhysicalPortals
     extends Cells

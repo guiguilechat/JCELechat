@@ -16,7 +16,7 @@ public class JavaFxToolsTest {
 		Map<String, String> map = new HashMap<>();
 		map.put("a", "aa");
 		SimpleObjectProperty<Map<String, String>> obs = new SimpleObjectProperty<>(map);
-		ObservableSet<String> created = JavaFxTools.makeSet(obs, Map::keySet);
+		ObservableSet<String> created = JFXTools.makeSet(obs, Map::keySet);
 		Assert.assertTrue(created.contains("a"));
 		Assert.assertFalse(created.contains("b"));
 		map = new HashMap<>();

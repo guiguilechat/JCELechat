@@ -27,7 +27,7 @@ public class MetaInf {
         Map<String, ? extends Item> map = groupcache.get(group);
         if (map == null) {
             try {
-                String className = ("fr.guiguilechat.eveonline.model.sde.items.types."+ group.replaceAll("/", "."));
+                String className = ("fr.guiguilechat.jcelechat.model.sde.items.types."+ group.replaceAll("/", "."));
                 Class<?> loadclass = MetaInf.class.getClassLoader().loadClass(className);
                 if (loadclass!= null) {
                     map = ((Map<String, ? extends Item> ) loadclass.getMethod("load").invoke(null));

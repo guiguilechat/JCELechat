@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.esi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.esi.ESITools;
 import fr.guiguilechat.jcelechat.esi.ESITools.AccessToken;
 import fr.guiguilechat.jcelechat.model.esi.compiled.G_ICOAccess;
-import fr.guiguilechat.tools.JavaFxTools;
+import fr.guiguilechat.tools.JFXTools;
 import javafx.collections.ObservableSet;
 
 /**
@@ -111,7 +111,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		if (roles == null) {
 			synchronized (this) {
 				if (roles == null) {
-					roles = JavaFxTools.makeSet(cache.characters.roles(verify().CharacterID), r -> Arrays.asList(r.roles));
+					roles = JFXTools.makeSet(cache.characters.roles(verify().CharacterID), r -> Arrays.asList(r.roles));
 				}
 			}
 		}
