@@ -1,11 +1,9 @@
-# EveOnline
+# JCELechat
+
+Java Compiled Eve Library by Lechat
 Eve Online database and service interaction.
 
-This project is split in three
-
-## Common
-
-Contains common meta informations. This project should not be modified often. Contains eg deployment, csm, dependencies.
+This project is split in
 
 ## model
 
