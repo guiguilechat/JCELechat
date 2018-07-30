@@ -1,9 +1,11 @@
 # JCELechat
 
-Java Compiled Eve Library by Lechat
+Java Compiled Eve Library by Lechat. 
+
 Eve Online database and service interaction.
 
-This project is split in
+This project contains auto-generated libraries to acces Eve Online's static data and dynamic data.
+Static data is in the SDE sub project, dynamic is in the ESI sub project, though the ESI allows to acces static data too.
 
 ## model
 
@@ -12,25 +14,30 @@ Contains the SDE and ESI specific project.
 ### SDE
 
 Static Data Export is a set of files provided by CCP that contain a representation of static data of the game.
-Typically this gives access to ship data.
-The access uses static synchronized singleton classes, so loading the data several times should not impact performances - unless done in several classloaders. 
+Typically this gives access to ships, modules, blueprints, etc. data.
+
+In those modules I give acces to the data in a java ish way. For this, programs compile the SDE in java classes, then translate the SDE data into items of those classes. Those items are then saved in the module resources directory, to be loaded on usage.
+
+The libs are accesses through static synchronized singleton classes, so loading the data several times should not impact performances - unless done in several classloaders. 
 
 It is split in several modules.
 
 #### SDE-Industry
 
-This module gives access to blueprints, invention decryptors, and for each item, its uses in for industry.
+This module gives access to blueprints, invention decryptors, and for each item, its uses in industry.
 
 #### SDE-Items
 
-This modules compiles the categories and groups of items, then allows to load the items in the game .
+This modules compiles the categories and groups of items, then allows to load the items in the game.
+
 The parsing of data is dynamically compiled.
 
-example of code :
+example of usage :
 
 ```java
 // get an item by name.
-Asteroid veld = (Asteroid) fr.guiguilechat.eveonline.model.sde.items.MetaInf.getItem("Veldspar");
+Asteroid veld = (Asteroid) fr.guiguilechat.jcelechat.model.sde.items.MetaInf.getItem("Veldspar");
+// access to the compression variable of veldspar.
 veld.CompressionQuantityNeeded;
 ```
 
@@ -43,6 +50,7 @@ This module is only supposed to be used during compilation phase of SDE-Items.
 #### SDE-Locations
 
 Give access to the stations, systems, constellations, and regions.
+
 Also provides an algorithm to compute distances.
 
 #### SDE-NPCs
@@ -57,7 +65,7 @@ Contains the above mentioned modules.
 
 This module is responsible for downloading, caching, and parsing CCP files.
 
-You should not use it, it is not in dependency of other modules.
+You should not use it, it is not required as dependency of other modules.
 
 #### SDE-Tools
 
@@ -76,6 +84,7 @@ compiles the Swagger.json from CCP and creates
  - the classes for to the required/returned structure
  - a Swagger interface that requires GET and POST implementation
  - the methods in the Swagger interface corresponding to the Swagger.json paths.
+ - abstract cache classes for the methods that are generated (only GET ) 
  
 #### ESI
 
@@ -90,3 +99,5 @@ This way, GUI that use data won't need to wait for the data to be fetched, but i
 ## programs
 
 Basically those drive the development of the ESI. My own personal programs that I used are removed from this, because they bring me isks and I don't want to waste my work.
+
+Still some part are present, eg to visually check if I can load data.
