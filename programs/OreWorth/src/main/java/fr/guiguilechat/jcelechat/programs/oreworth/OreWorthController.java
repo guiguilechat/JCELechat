@@ -93,10 +93,14 @@ public class OreWorthController {
 	protected DoubleProperty getItemSO(int typeID) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		synchronized (marketHolder) {
-			ret.bind(marketHolder.getValue().getSO(typeID, 1));
+			if (marketHolder.getValue() != null) {
+				ret.bind(marketHolder.getValue().getSO(typeID, 1));
+			}
 			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
 				ret.unbind();
-				ret.bind(newValue.getSO(typeID, 1));
+				if (newValue != null) {
+					ret.bind(newValue.getSO(typeID, 1));
+				}
 			});
 		}
 		return ret;
@@ -105,10 +109,14 @@ public class OreWorthController {
 	protected DoubleProperty getItemBO(int typeID) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		synchronized (marketHolder) {
-			ret.bind(marketHolder.getValue().getBO(typeID, 1));
+			if (marketHolder.getValue() != null) {
+				ret.bind(marketHolder.getValue().getBO(typeID, 1));
+			}
 			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
 				ret.unbind();
-				ret.bind(newValue.getBO(typeID, 1));
+				if (newValue != null) {
+					ret.bind(newValue.getBO(typeID, 1));
+				}
 			});
 		}
 		return ret;
@@ -117,10 +125,14 @@ public class OreWorthController {
 	protected DoubleProperty getItemAVG(int typeID) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		synchronized (marketHolder) {
-			ret.bind(marketHolder.getValue().getHistory(typeID).dailyAverage());
+			if (marketHolder.getValue() != null) {
+				ret.bind(marketHolder.getValue().getHistory(typeID).dailyAverage());
+			}
 			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
 				ret.unbind();
-				ret.bind(newValue.getHistory(typeID).dailyAverage());
+				if (newValue != null) {
+					ret.bind(newValue.getHistory(typeID).dailyAverage());
+				}
 			});
 		}
 		return ret;
