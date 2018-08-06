@@ -22,14 +22,6 @@ import javafx.util.StringConverter;
 
 public class OreWorthController {
 
-	public static class OreData {
-		public ObservableValue<String> name;
-		public ObservableValue<Double> so;
-		public ObservableValue<Double> avg;
-		public ObservableValue<Double> bo;
-		public ObservableValue<Double> minedVolume;
-	}
-
 	@FXML
 	private ChoiceBox<Region> regionSelect;
 
