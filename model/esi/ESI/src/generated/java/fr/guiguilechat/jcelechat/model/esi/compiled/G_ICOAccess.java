@@ -2032,7 +2032,9 @@ public interface G_ICOAccess
      * Get character notifications
      * <p>
      * Return character notifications<br />
-     * This route is cached for up to 600 seconds
+     * This route is cached for up to 600 seconds<br />
+     * Warning: This route has an upgrade available.<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/notifications/)
      * </p>
      * 
      * @param character_id

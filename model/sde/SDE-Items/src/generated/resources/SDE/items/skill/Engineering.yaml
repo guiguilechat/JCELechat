@@ -6,7 +6,7 @@ items:
     RequiredSkill1: 3318
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 11207
     marketGroup: 368
     name: Advanced Weapon Upgrades
@@ -14,7 +14,7 @@ items:
   CPU Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3426
     marketGroup: 368
     name: CPU Management
@@ -27,7 +27,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3423
     marketGroup: 368
     name: Capacitor Emission Systems
@@ -37,7 +37,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3418
     marketGroup: 368
     name: Capacitor Management
@@ -47,7 +47,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3417
     marketGroup: 368
     name: Capacitor Systems Operation
@@ -61,7 +61,7 @@ items:
     RequiredSkill2: 3423
     RequiredSkill2Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 24572
     marketGroup: 368
     name: Capital Capacitor Emission Systems
@@ -74,7 +74,7 @@ items:
     RequiredSkill2: 3413
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3432
     marketGroup: 368
     name: Electronics Upgrades
@@ -87,7 +87,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3424
     marketGroup: 368
     name: Energy Grid Upgrades
@@ -100,7 +100,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3421
     marketGroup: 368
     name: Energy Pulse Weapons
@@ -111,7 +111,7 @@ items:
     RequiredSkill1: 28879
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 28880
     marketGroup: 368
     name: Nanite Interfacing
@@ -122,7 +122,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     ShipBrokenRepairCostMultiplierBonus: -5
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 28879
     marketGroup: 368
     name: Nanite Operation
@@ -130,7 +130,7 @@ items:
   Power Grid Management:
     PrimaryAttribute: 165
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3413
     marketGroup: 368
     name: Power Grid Management
@@ -142,7 +142,7 @@ items:
     RequiredSkill1: 3394
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 32797
     marketGroup: 368
     name: Resistance Phasing
@@ -156,7 +156,7 @@ items:
     RequiredSkill3: 3402
     RequiredSkill3Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     ThermodynamicsHeatDamage: -5
     id: 28164
     marketGroup: 368
@@ -168,7 +168,7 @@ items:
     RequiredSkill1: 3300
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3318
     marketGroup: 368
     name: Weapon Upgrades

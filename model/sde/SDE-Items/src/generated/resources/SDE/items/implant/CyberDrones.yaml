@@ -2,7 +2,7 @@ items:
   CreoDron 'Bumblebee' Drone Tuner T10-5D:
     ArmorHpBonus: 10
     DamageMultiplierBonus: -5
-    HullHpBonus: 10.0
+    HullHpBonus: 10
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
@@ -14,7 +14,7 @@ items:
   CreoDron 'Yellowjacket' Drone Tuner D5-10T:
     ArmorHpBonus: -10
     DamageMultiplierBonus: 5
-    HullHpBonus: -10.0
+    HullHpBonus: -10
     Implantness: 9
     RequiredSkill1: 3411
     RequiredSkill1Level: 3

@@ -47,7 +47,7 @@ items:
     MedSlots: 4
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 4.0
+    MiningAmountMultiplier: 4
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -133,7 +133,7 @@ items:
     MedSlots: 3
     MetaLevel: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 2.0
+    MiningAmountMultiplier: 2
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394

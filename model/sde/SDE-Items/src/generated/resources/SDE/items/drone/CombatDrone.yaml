@@ -20,7 +20,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -32,8 +31,6 @@ items:
     MaxVelocity: 5082.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -84,7 +81,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 35.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -98,8 +94,6 @@ items:
     MaxVelocity: 1980.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -149,7 +143,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -162,8 +155,6 @@ items:
     MaxVelocity: 2218.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -214,7 +205,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 792
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -227,8 +217,6 @@ items:
     MaxVelocity: 3696.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -279,7 +267,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -292,8 +279,6 @@ items:
     MaxVelocity: 4158.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -345,7 +330,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -357,8 +341,6 @@ items:
     MaxVelocity: 3036.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -409,7 +391,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -422,8 +403,6 @@ items:
     MaxVelocity: 1320.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -475,7 +454,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -487,8 +465,6 @@ items:
     MaxVelocity: 1822.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -539,7 +515,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 19.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -553,8 +528,6 @@ items:
     MaxVelocity: 3300.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -604,7 +577,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -617,8 +589,6 @@ items:
     MaxVelocity: 2495.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -669,7 +639,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 1080
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 13.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -683,8 +652,6 @@ items:
     MaxVelocity: 5544.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -734,7 +701,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -747,8 +713,6 @@ items:
     MaxVelocity: 1485.0
     MetaGroupID: 4
     MetaLevel: 8
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -800,7 +764,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 913
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -812,8 +775,6 @@ items:
     MaxVelocity: 4235.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -862,7 +823,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 385
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 35.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -876,8 +836,6 @@ items:
     MaxVelocity: 1650.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -925,7 +883,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 484
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -938,8 +895,6 @@ items:
     MaxVelocity: 1848.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -988,7 +943,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 726
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1001,8 +955,6 @@ items:
     MaxVelocity: 3080.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1051,7 +1003,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 820
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1064,8 +1015,6 @@ items:
     MaxVelocity: 3465.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1115,7 +1064,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 523
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1127,8 +1075,6 @@ items:
     MaxVelocity: 2530.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1177,7 +1123,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 275
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1190,8 +1135,6 @@ items:
     MaxVelocity: 1100.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1241,7 +1184,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 352
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1253,8 +1195,6 @@ items:
     MaxVelocity: 1518.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1303,7 +1243,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 605
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 19.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -1317,8 +1256,6 @@ items:
     MaxVelocity: 2750.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1366,7 +1303,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 468
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1379,8 +1315,6 @@ items:
     MaxVelocity: 2079.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -1429,7 +1363,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 990
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 13.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -1443,8 +1376,6 @@ items:
     MaxVelocity: 4620.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1492,7 +1423,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 308
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1505,8 +1435,6 @@ items:
     MaxVelocity: 1238.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1556,7 +1484,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 830
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1566,8 +1493,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2400
     MaxVelocity: 3850.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1616,7 +1541,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1627,8 +1551,6 @@ items:
     MaxRange: 2400
     MaxVelocity: 4620.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1678,7 +1600,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 350
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -1689,8 +1610,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1500.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1738,7 +1657,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -1750,8 +1668,6 @@ items:
     MaxRange: 4200
     MaxVelocity: 1800.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -1799,7 +1715,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 45000
@@ -1810,8 +1725,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 30000
     MaxVelocity: 9.999999747378752E-6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -1857,7 +1770,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 54000
@@ -1869,8 +1781,6 @@ items:
     MaxRange: 36000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -1920,7 +1830,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1933,8 +1842,6 @@ items:
     MaxVelocity: 3780.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -1982,7 +1889,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -1995,8 +1901,6 @@ items:
     MaxVelocity: 2268.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2042,7 +1946,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 42000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2055,8 +1958,6 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2104,7 +2005,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2117,8 +2017,6 @@ items:
     MaxVelocity: 1350.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2166,7 +2064,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 550
     EntityFlyRange: 500.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2176,8 +2073,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 1000
     MaxVelocity: 1400.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2222,7 +2117,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 10000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2232,8 +2126,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 35000
     MaxVelocity: 9.999999747378752E-6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2280,7 +2172,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 12000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2291,8 +2182,6 @@ items:
     MaxRange: 42000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2340,7 +2229,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 30000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2353,8 +2241,6 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2403,7 +2289,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2415,8 +2300,6 @@ items:
     MaxVelocity: 2016.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2465,7 +2348,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 792
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2477,8 +2359,6 @@ items:
     MaxVelocity: 3360.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2527,7 +2407,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2539,8 +2418,6 @@ items:
     MaxVelocity: 1200.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2587,7 +2464,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 25000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2598,8 +2474,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 15000
     MaxVelocity: 9.999999747378752E-6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2646,7 +2520,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 30000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2658,8 +2531,6 @@ items:
     MaxRange: 18000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -2711,7 +2582,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 400
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -2725,8 +2595,6 @@ items:
     MaxVelocity: 1820.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -2775,7 +2643,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 440
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2785,8 +2652,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1680.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2835,7 +2700,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 528
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2846,8 +2710,6 @@ items:
     MaxRange: 4200
     MaxVelocity: 2016.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -2898,7 +2760,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2908,8 +2769,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2100
     MaxVelocity: 2800.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -2958,7 +2817,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -2969,8 +2827,6 @@ items:
     MaxRange: 2100
     MaxVelocity: 3360.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3021,7 +2877,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 745
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3032,8 +2887,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2400
     MaxVelocity: 3150.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3081,7 +2934,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 894
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3093,8 +2945,6 @@ items:
     MaxRange: 2400
     MaxVelocity: 3780.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3145,7 +2995,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 996
     EntityFlyRange: 800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3157,8 +3006,6 @@ items:
     MaxVelocity: 4620.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -3205,7 +3052,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 12000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3217,8 +3063,6 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -3267,7 +3111,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3279,8 +3122,6 @@ items:
     MaxVelocity: 2760.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3329,7 +3170,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3341,8 +3181,6 @@ items:
     MaxVelocity: 1656.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3391,7 +3229,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 525
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3401,8 +3238,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 2300.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3451,7 +3286,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 630
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3462,8 +3296,6 @@ items:
     MaxRange: 4800
     MaxVelocity: 2760.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3513,7 +3345,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 250
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3523,8 +3354,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 1000.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3573,7 +3402,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 300
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3584,8 +3412,6 @@ items:
     MaxRange: 4200
     MaxVelocity: 1200.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3637,7 +3463,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 320
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3647,8 +3472,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1380.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3697,7 +3520,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 384
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -3708,8 +3530,6 @@ items:
     MaxRange: 4800
     MaxVelocity: 1656.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3759,7 +3579,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 420
     EntityFlyRange: 2800.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
@@ -3772,8 +3591,6 @@ items:
     MaxVelocity: 1800.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -3819,7 +3636,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 64.0
     ExplosiveDamageResonance: 1.0
     Falloff: 54000
@@ -3832,8 +3648,6 @@ items:
     MaxVelocity: 9.999999747378752E-6
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -3881,7 +3695,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -3894,8 +3707,6 @@ items:
     MaxVelocity: 3000.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -3943,7 +3754,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 1080
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -3956,8 +3766,6 @@ items:
     MaxVelocity: 5040.0
     MetaGroupID: 4
     MetaLevel: 6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -4005,7 +3813,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 550
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -4016,8 +3823,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4200
     MaxVelocity: 2500.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -4065,7 +3870,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 660
     EntityFlyRange: 1400.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 32.0
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
@@ -4077,8 +3881,6 @@ items:
     MaxRange: 4200
     MaxVelocity: 3000.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -4128,7 +3930,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 470
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4139,8 +3940,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1890.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -4188,7 +3987,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 564
     EntityFlyRange: 1600.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 3000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4200,8 +3998,6 @@ items:
     MaxRange: 4800
     MaxVelocity: 2268.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 125
     ProximityRange: 2000
     RechargeRate: 2500000.0
@@ -4249,7 +4045,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 35000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4260,8 +4055,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 50000
     MaxVelocity: 9.999999747378752E-6
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -4307,7 +4100,6 @@ items:
     EntityChaseMaxDuration: 5000
     EntityChaseMaxDurationChance: 1
     EntityFlyRange: 9.999999747378752E-6
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 42000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4319,8 +4111,6 @@ items:
     MaxRange: 60000
     MaxVelocity: 9.999999747378752E-6
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 250000
     RechargeRate: 2500000.0
@@ -4370,7 +4160,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 900
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -4381,8 +4170,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 2100
     MaxVelocity: 4200.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -4430,7 +4217,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 900
     EntityFlyRange: 700.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamage: 20.0
     ExplosiveDamageResonance: 1.0
     Falloff: 2000
@@ -4442,8 +4228,6 @@ items:
     MaxRange: 2100
     MaxVelocity: 5040.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 25
     ProximityRange: 1000
     RechargeRate: 2500000.0
@@ -4493,7 +4277,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 280
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4504,8 +4287,6 @@ items:
     MaxLockedTargets: 8
     MaxRange: 4800
     MaxVelocity: 1125.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0
@@ -4553,7 +4334,6 @@ items:
     EntityChaseMaxDurationChance: 1
     EntityCruiseSpeed: 336
     EntityFlyRange: 3200.0
-    EntityTargetPaintDuration: 30000
     ExplosiveDamageResonance: 1.0
     Falloff: 5000
     FighterAbilityAntiFighterMissileResistance: 1
@@ -4565,8 +4345,6 @@ items:
     MaxRange: 4800
     MaxVelocity: 1350.0
     MetaLevel: 5
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 20000
     OptimalSigRadius: 400
     ProximityRange: 4000
     RechargeRate: 2500000.0

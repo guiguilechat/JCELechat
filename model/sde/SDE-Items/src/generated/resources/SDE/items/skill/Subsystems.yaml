@@ -5,7 +5,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30539
     marketGroup: 1824
     name: Amarr Core Systems
@@ -18,7 +18,7 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30532
     marketGroup: 1824
     name: Amarr Defensive Systems
@@ -31,7 +31,7 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30537
     marketGroup: 1824
     name: Amarr Offensive Systems
@@ -42,7 +42,7 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30538
     marketGroup: 1824
     name: Amarr Propulsion Systems
@@ -53,7 +53,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30548
     marketGroup: 1824
     name: Caldari Core Systems
@@ -66,7 +66,7 @@ items:
     RequiredSkill2: 3392
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30544
     marketGroup: 1824
     name: Caldari Defensive Systems
@@ -79,7 +79,7 @@ items:
     RequiredSkill2: 3300
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30549
     marketGroup: 1824
     name: Caldari Offensive Systems
@@ -90,7 +90,7 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30552
     marketGroup: 1824
     name: Caldari Propulsion Systems
@@ -101,7 +101,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30546
     marketGroup: 1824
     name: Gallente Core Systems
@@ -114,7 +114,7 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30540
     marketGroup: 1824
     name: Gallente Defensive Systems
@@ -127,7 +127,7 @@ items:
     RequiredSkill2: 3436
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30550
     marketGroup: 1824
     name: Gallente Offensive Systems
@@ -138,7 +138,7 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30553
     marketGroup: 1824
     name: Gallente Propulsion Systems
@@ -149,7 +149,7 @@ items:
     RequiredSkill1: 3413
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30547
     marketGroup: 1824
     name: Minmatar Core Systems
@@ -162,7 +162,7 @@ items:
     RequiredSkill2: 3416
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30545
     marketGroup: 1824
     name: Minmatar Defensive Systems
@@ -175,7 +175,7 @@ items:
     RequiredSkill2: 3319
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30551
     marketGroup: 1824
     name: Minmatar Offensive Systems
@@ -186,7 +186,7 @@ items:
     RequiredSkill1: 3449
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 30554
     marketGroup: 1824
     name: Minmatar Propulsion Systems

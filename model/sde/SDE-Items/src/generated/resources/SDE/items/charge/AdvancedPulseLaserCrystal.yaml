@@ -5,7 +5,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 30.799999237060547
     EntityFlyRangeMultiplier: 0.5
     Hp: 1
@@ -14,7 +13,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12215
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 30.799999237060547
     TrackingSpeedMultiplier: 0.699999988079071
@@ -29,7 +27,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 15.399999618530273
     EntityFlyRangeMultiplier: 0.5
     Hp: 1
@@ -38,7 +35,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12214
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 15.399999618530273
     TrackingSpeedMultiplier: 0.699999988079071
@@ -53,7 +49,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 7.699999809265137
     EntityFlyRangeMultiplier: 0.5
     Hp: 1
@@ -62,7 +57,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12213
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 7.699999809265137
     TrackingSpeedMultiplier: 0.699999988079071
@@ -77,7 +71,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 61.599998474121094
     EntityFlyRangeMultiplier: 0.5
     Hp: 1
@@ -86,7 +79,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 41407
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 61.599998474121094
     TrackingSpeedMultiplier: 0.699999988079071
@@ -100,7 +92,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 36.0
     EntityFlyRangeMultiplier: 1.5
     Hp: 1
@@ -109,7 +100,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12215
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 8.0
     TrackingSpeedMultiplier: 0.75
@@ -123,7 +113,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 18.0
     EntityFlyRangeMultiplier: 1.5
     Hp: 1
@@ -132,7 +121,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12214
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 4.0
     TrackingSpeedMultiplier: 0.75
@@ -146,7 +134,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 9.0
     EntityFlyRangeMultiplier: 1.5
     Hp: 1
@@ -155,7 +142,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12213
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 2.0
     TrackingSpeedMultiplier: 0.75
@@ -169,7 +155,6 @@ items:
     CrystalVolatilityChance: 0.10000000149011612
     CrystalVolatilityDamage: 0.009999999776482582
     CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
     EmDamage: 72.0
     EntityFlyRangeMultiplier: 1.5
     Hp: 1
@@ -178,7 +163,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 41407
     RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 16.0
     TrackingSpeedMultiplier: 0.75

@@ -14,7 +14,7 @@ items:
     SubSystemSlot: 127
     SubsystemBonusAmarrOffensive: -5
     SubsystemBonusAmarrOffensive2: 5
-    SubsystemBonusAmarrOffensive3: 10.0
+    SubsystemBonusAmarrOffensive3: 10
     SubsystemMMissileFittingReduction: -25
     TechLevel: 3
     WarfareLinkCPUPenalty: 10000
@@ -35,7 +35,7 @@ items:
     SubSystemSlot: 127
     SubsystemBonusAmarrOffensive: 10
     SubsystemBonusAmarrOffensive2: -10
-    SubsystemBonusAmarrOffensive3: 10.0
+    SubsystemBonusAmarrOffensive3: 10
     SubsystemMETFittingReduction: -25
     TechLevel: 3
     TurretHardPointModifier: 6
@@ -61,7 +61,7 @@ items:
     SubSystemSlot: 127
     SubsystemBonusAmarrOffensive: 2
     SubsystemBonusAmarrOffensive2: -5
-    SubsystemBonusAmarrOffensive3: 10.0
+    SubsystemBonusAmarrOffensive3: 10
     SubsystemCommandBurstFittingReduction: -95
     SubsystemMRARFittingReduction: -75
     TechLevel: 3
@@ -83,7 +83,7 @@ items:
     RequiredSkill1: 30551
     RequiredSkill1Level: 1
     SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 5.0
+    SubsystemBonusMinmatarOffensive: 5
     SubsystemBonusMinmatarOffensive2: -10.0
     SubsystemBonusMinmatarOffensive3: 5.0
     SubsystemMMissileFittingReduction: -25
@@ -107,7 +107,7 @@ items:
     RequiredSkill1: 30551
     RequiredSkill1Level: 1
     SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 10.0
+    SubsystemBonusMinmatarOffensive: 10
     SubsystemBonusMinmatarOffensive2: 17.5
     SubsystemBonusMinmatarOffensive3: 7.5
     SubsystemMPTFittingReduction: -25
@@ -134,7 +134,7 @@ items:
     RequiredSkill1Level: 1
     RoleBonusCommandBurstAoERange: 50
     SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 2.0
+    SubsystemBonusMinmatarOffensive: 2
     SubsystemBonusMinmatarOffensive2: -5.0
     SubsystemBonusMinmatarOffensive3: 10.0
     SubsystemCommandBurstFittingReduction: -95
@@ -158,7 +158,7 @@ items:
     RequiredSkill1: 30550
     RequiredSkill1Level: 1
     SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 10.0
+    SubsystemBonusGallenteOffensive: 10
     SubsystemBonusGallenteOffensive2: 5
     SubsystemBonusGallenteOffensive3: 10.0
     SubsystemMHTFittingReduction: -25
@@ -182,7 +182,7 @@ items:
     RequiredSkill1: 30550
     RequiredSkill1Level: 1
     SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 10.0
+    SubsystemBonusGallenteOffensive: 10
     SubsystemBonusGallenteOffensive2: 10
     SubsystemBonusGallenteOffensive3: 7.5
     SubsystemMHTFittingReduction: -25
@@ -208,7 +208,7 @@ items:
     RequiredSkill1Level: 1
     RoleBonusCommandBurstAoERange: 50
     SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 2.0
+    SubsystemBonusGallenteOffensive: 2
     SubsystemBonusGallenteOffensive2: -5
     SubsystemBonusGallenteOffensive3: 10.0
     SubsystemCommandBurstFittingReduction: -95

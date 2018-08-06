@@ -111,7 +111,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 100
     SubSystemSlot: 128
-    SubsystemBonusGallentePropulsion: 10.0
+    SubsystemBonusGallentePropulsion: 10
     SubsystemBonusGallentePropulsion2: -7.5
     TechLevel: 3
     id: 45617
@@ -129,7 +129,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 20
     SubSystemSlot: 128
-    SubsystemBonusGallentePropulsion: -15.0
+    SubsystemBonusGallentePropulsion: -15
     SubsystemBonusGallentePropulsion2: 10.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1
@@ -147,7 +147,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 100
     SubSystemSlot: 128
-    SubsystemBonusGallentePropulsion: -15.0
+    SubsystemBonusGallentePropulsion: -15
     SubsystemBonusGallentePropulsion2: 10.0
     TechLevel: 3
     id: 45618
@@ -164,7 +164,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 100
     SubSystemSlot: 128
-    SubsystemBonusCaldariPropulsion: 3.0
+    SubsystemBonusCaldariPropulsion: 3
     SubsystemBonusCaldariPropulsion2: -7.5
     TechLevel: 3
     id: 45614
@@ -180,7 +180,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 100
     SubSystemSlot: 128
-    SubsystemBonusCaldariPropulsion: 10.0
+    SubsystemBonusCaldariPropulsion: 10
     SubsystemBonusCaldariPropulsion2: 10.0
     TechLevel: 3
     id: 45615
@@ -198,7 +198,7 @@ items:
     RequiredSkill1Level: 1
     SignatureRadius: 20
     SubSystemSlot: 128
-    SubsystemBonusCaldariPropulsion: -15.0
+    SubsystemBonusCaldariPropulsion: -15
     SubsystemBonusCaldariPropulsion2: 10.0
     TechLevel: 3
     WarpBubbleImmuneModifier: 1

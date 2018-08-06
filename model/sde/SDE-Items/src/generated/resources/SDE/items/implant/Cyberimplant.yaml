@@ -22,7 +22,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33516
     marketGroup: 618
@@ -51,7 +50,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33525
     marketGroup: 619
@@ -80,7 +78,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33526
     marketGroup: 621
@@ -109,7 +106,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33527
     marketGroup: 622
@@ -137,7 +133,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 4
     id: 33528
@@ -166,7 +161,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33529
     marketGroup: 1506
     name: High-grade Ascendancy Omega
@@ -196,7 +190,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42210
     marketGroup: 618
     name: High-grade Asklepian Alpha
@@ -226,7 +219,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42211
     marketGroup: 619
     name: High-grade Asklepian Beta
@@ -256,7 +248,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42213
     marketGroup: 621
     name: High-grade Asklepian Delta
@@ -286,7 +277,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42214
     marketGroup: 622
     name: High-grade Asklepian Epsilon
@@ -315,7 +305,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 42212
     marketGroup: 620
@@ -344,7 +333,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42215
     marketGroup: 1506
     name: High-grade Asklepian Omega
@@ -373,7 +361,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20121
     marketGroup: 618
     name: High-grade Crystal Alpha
@@ -402,7 +389,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20157
     marketGroup: 619
     name: High-grade Crystal Beta
@@ -431,7 +417,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20159
     marketGroup: 621
     name: High-grade Crystal Delta
@@ -460,7 +445,6 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20160
     marketGroup: 622
     name: High-grade Crystal Epsilon
@@ -488,7 +472,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20158
     marketGroup: 620
@@ -516,7 +499,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20161
     marketGroup: 1506
     name: High-grade Crystal Omega
@@ -545,7 +527,6 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31954
     marketGroup: 618
     name: High-grade Grail Alpha
@@ -574,7 +555,6 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthPercent: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31955
     marketGroup: 619
     name: High-grade Grail Beta
@@ -603,7 +583,6 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31956
     marketGroup: 621
     name: High-grade Grail Delta
@@ -632,7 +611,6 @@ items:
     RequiredSkill1Level: 4
     ScanRadarStrengthPercent: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31957
     marketGroup: 622
     name: High-grade Grail Epsilon
@@ -660,7 +638,6 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthPercent: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31958
     marketGroup: 620
@@ -688,7 +665,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31959
     marketGroup: 1506
     name: High-grade Grail Omega
@@ -717,7 +693,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20498
     marketGroup: 618
     name: High-grade Halo Alpha
@@ -746,7 +721,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20500
     marketGroup: 619
     name: High-grade Halo Beta
@@ -775,7 +749,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20502
     marketGroup: 621
     name: High-grade Halo Delta
@@ -804,7 +777,6 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20504
     marketGroup: 622
     name: High-grade Halo Epsilon
@@ -832,7 +804,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20506
     marketGroup: 620
@@ -860,7 +831,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20508
     marketGroup: 1506
     name: High-grade Halo Omega
@@ -889,7 +859,6 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31974
     marketGroup: 618
     name: High-grade Jackal Alpha
@@ -918,7 +887,6 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthPercent: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31975
     marketGroup: 619
     name: High-grade Jackal Beta
@@ -947,7 +915,6 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31976
     marketGroup: 621
     name: High-grade Jackal Delta
@@ -976,7 +943,6 @@ items:
     RequiredSkill1Level: 4
     ScanLadarStrengthPercent: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31977
     marketGroup: 622
     name: High-grade Jackal Epsilon
@@ -1004,7 +970,6 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthPercent: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31978
     marketGroup: 620
@@ -1032,7 +997,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31979
     marketGroup: 1506
     name: High-grade Jackal Omega
@@ -1062,7 +1026,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20499
     marketGroup: 618
     name: High-grade Slave Alpha
@@ -1092,7 +1055,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20501
     marketGroup: 619
     name: High-grade Slave Beta
@@ -1122,7 +1084,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20503
     marketGroup: 621
     name: High-grade Slave Delta
@@ -1152,7 +1113,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20505
     marketGroup: 622
     name: High-grade Slave Epsilon
@@ -1181,7 +1141,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 20507
     marketGroup: 620
@@ -1210,7 +1169,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 20509
     marketGroup: 1506
     name: High-grade Slave Omega
@@ -1240,7 +1198,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 19540
     marketGroup: 618
@@ -1271,7 +1228,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 19551
     marketGroup: 619
@@ -1302,7 +1258,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.03999999910593033
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 19554
     marketGroup: 621
@@ -1333,7 +1288,6 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 19555
     marketGroup: 622
@@ -1363,7 +1317,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 4
     id: 19553
@@ -1393,7 +1346,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19556
     marketGroup: 1506
     name: High-grade Snake Omega
@@ -1422,7 +1374,6 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31968
     marketGroup: 618
     name: High-grade Spur Alpha
@@ -1451,7 +1402,6 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthPercent: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31969
     marketGroup: 619
     name: High-grade Spur Beta
@@ -1480,7 +1430,6 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31970
     marketGroup: 621
     name: High-grade Spur Delta
@@ -1509,7 +1458,6 @@ items:
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthPercent: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31971
     marketGroup: 622
     name: High-grade Spur Epsilon
@@ -1537,7 +1485,6 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthPercent: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31972
     marketGroup: 620
@@ -1565,7 +1512,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31973
     marketGroup: 1506
     name: High-grade Spur Omega
@@ -1594,7 +1540,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19534
     marketGroup: 618
     name: High-grade Talisman Alpha
@@ -1623,7 +1568,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19535
     marketGroup: 619
     name: High-grade Talisman Beta
@@ -1652,7 +1596,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19537
     marketGroup: 621
     name: High-grade Talisman Delta
@@ -1681,7 +1624,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19538
     marketGroup: 622
     name: High-grade Talisman Epsilon
@@ -1709,7 +1651,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 19536
     marketGroup: 620
@@ -1737,7 +1678,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 19539
     marketGroup: 1506
     name: High-grade Talisman Omega
@@ -1766,7 +1706,6 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31962
     marketGroup: 618
     name: High-grade Talon Alpha
@@ -1795,7 +1734,6 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthPercent: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31963
     marketGroup: 619
     name: High-grade Talon Beta
@@ -1824,7 +1762,6 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31964
     marketGroup: 621
     name: High-grade Talon Delta
@@ -1853,7 +1790,6 @@ items:
     RequiredSkill1Level: 4
     ScanGravimetricStrengthPercent: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31965
     marketGroup: 622
     name: High-grade Talon Epsilon
@@ -1881,7 +1817,6 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthPercent: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 4
     id: 31966
     marketGroup: 620
@@ -1909,7 +1844,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 31967
     marketGroup: 1506
     name: High-grade Talon Omega
@@ -1939,7 +1873,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42145
     marketGroup: 618
     name: Low-grade Asklepian Alpha
@@ -1969,7 +1902,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42146
     marketGroup: 619
     name: Low-grade Asklepian Beta
@@ -1999,7 +1931,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42200
     marketGroup: 621
     name: Low-grade Asklepian Delta
@@ -2029,7 +1960,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42201
     marketGroup: 622
     name: Low-grade Asklepian Epsilon
@@ -2058,7 +1988,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 42202
     marketGroup: 620
@@ -2087,7 +2016,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42203
     marketGroup: 1506
     name: Low-grade Asklepian Omega
@@ -2116,7 +2044,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33917
     marketGroup: 618
     name: Low-grade Centurion Alpha
@@ -2145,7 +2072,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33918
     marketGroup: 619
     name: Low-grade Centurion Beta
@@ -2174,7 +2100,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33919
     marketGroup: 621
     name: Low-grade Centurion Delta
@@ -2203,7 +2128,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33920
     marketGroup: 622
     name: Low-grade Centurion Epsilon
@@ -2231,7 +2155,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33921
     marketGroup: 620
@@ -2259,7 +2182,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33922
     marketGroup: 1506
     name: Low-grade Centurion Omega
@@ -2288,7 +2210,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33923
     marketGroup: 618
     name: Low-grade Crystal Alpha
@@ -2317,7 +2238,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33924
     marketGroup: 619
     name: Low-grade Crystal Beta
@@ -2346,7 +2266,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33925
     marketGroup: 621
     name: Low-grade Crystal Delta
@@ -2375,7 +2294,6 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33926
     marketGroup: 622
     name: Low-grade Crystal Epsilon
@@ -2403,7 +2321,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33927
     marketGroup: 620
@@ -2431,7 +2348,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33928
     marketGroup: 1506
     name: Low-grade Crystal Omega
@@ -2460,7 +2376,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33929
     marketGroup: 618
     name: Low-grade Edge Alpha
@@ -2489,7 +2404,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33930
     marketGroup: 619
     name: Low-grade Edge Beta
@@ -2518,7 +2432,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33931
     marketGroup: 621
     name: Low-grade Edge Delta
@@ -2547,7 +2460,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33932
     marketGroup: 622
     name: Low-grade Edge Epsilon
@@ -2575,7 +2487,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33933
     marketGroup: 620
@@ -2603,7 +2514,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33934
     marketGroup: 1506
     name: Low-grade Edge Omega
@@ -2632,7 +2542,6 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32101
     marketGroup: 618
     name: Low-grade Grail Alpha
@@ -2661,7 +2570,6 @@ items:
     RequiredSkill1Level: 2
     ScanRadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32102
     marketGroup: 619
     name: Low-grade Grail Beta
@@ -2690,7 +2598,6 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32103
     marketGroup: 621
     name: Low-grade Grail Delta
@@ -2719,7 +2626,6 @@ items:
     RequiredSkill1Level: 4
     ScanRadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32104
     marketGroup: 622
     name: Low-grade Grail Epsilon
@@ -2747,7 +2653,6 @@ items:
     RequiredSkill1Level: 3
     ScanRadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32105
     marketGroup: 620
@@ -2775,7 +2680,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32122
     marketGroup: 1506
     name: Low-grade Grail Omega
@@ -2804,7 +2708,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33935
     marketGroup: 618
     name: Low-grade Halo Alpha
@@ -2833,7 +2736,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33936
     marketGroup: 619
     name: Low-grade Halo Beta
@@ -2862,7 +2764,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33937
     marketGroup: 621
     name: Low-grade Halo Delta
@@ -2891,7 +2792,6 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33938
     marketGroup: 622
     name: Low-grade Halo Epsilon
@@ -2919,7 +2819,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33939
     marketGroup: 620
@@ -2947,7 +2846,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33940
     marketGroup: 1506
     name: Low-grade Halo Omega
@@ -2976,7 +2874,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33941
     marketGroup: 618
     name: Low-grade Harvest Alpha
@@ -3005,7 +2902,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33942
     marketGroup: 619
     name: Low-grade Harvest Beta
@@ -3034,7 +2930,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33943
     marketGroup: 621
     name: Low-grade Harvest Delta
@@ -3063,7 +2958,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33944
     marketGroup: 622
     name: Low-grade Harvest Epsilon
@@ -3091,7 +2985,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33945
     marketGroup: 620
@@ -3119,7 +3012,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33946
     marketGroup: 1506
     name: Low-grade Harvest Omega
@@ -3148,7 +3040,6 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32117
     marketGroup: 618
     name: Low-grade Jackal Alpha
@@ -3177,7 +3068,6 @@ items:
     RequiredSkill1Level: 2
     ScanLadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32118
     marketGroup: 619
     name: Low-grade Jackal Beta
@@ -3206,7 +3096,6 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32119
     marketGroup: 621
     name: Low-grade Jackal Delta
@@ -3235,7 +3124,6 @@ items:
     RequiredSkill1Level: 4
     ScanLadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32120
     marketGroup: 622
     name: Low-grade Jackal Epsilon
@@ -3263,7 +3151,6 @@ items:
     RequiredSkill1Level: 3
     ScanLadarStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32121
     marketGroup: 620
@@ -3291,7 +3178,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32123
     marketGroup: 1506
     name: Low-grade Jackal Omega
@@ -3320,7 +3206,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33947
     marketGroup: 618
     name: Low-grade Nomad Alpha
@@ -3349,7 +3234,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33948
     marketGroup: 619
     name: Low-grade Nomad Beta
@@ -3378,7 +3262,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33949
     marketGroup: 621
     name: Low-grade Nomad Delta
@@ -3407,7 +3290,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33950
     marketGroup: 622
     name: Low-grade Nomad Epsilon
@@ -3435,7 +3317,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33951
     marketGroup: 620
@@ -3463,7 +3344,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33952
     marketGroup: 1506
     name: Low-grade Nomad Omega
@@ -3493,7 +3373,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33953
     marketGroup: 618
     name: Low-grade Slave Alpha
@@ -3523,7 +3402,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33954
     marketGroup: 619
     name: Low-grade Slave Beta
@@ -3553,7 +3431,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33955
     marketGroup: 621
     name: Low-grade Slave Delta
@@ -3583,7 +3460,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33956
     marketGroup: 622
     name: Low-grade Slave Epsilon
@@ -3612,7 +3488,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33957
     marketGroup: 620
@@ -3641,7 +3516,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33958
     marketGroup: 1506
     name: Low-grade Slave Omega
@@ -3671,7 +3545,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 33959
     marketGroup: 618
@@ -3702,7 +3575,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 33960
     marketGroup: 619
@@ -3733,7 +3605,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 33961
     marketGroup: 621
@@ -3764,7 +3635,6 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 33962
     marketGroup: 622
@@ -3794,7 +3664,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 2
     id: 33963
@@ -3824,7 +3693,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33964
     marketGroup: 1506
     name: Low-grade Snake Omega
@@ -3853,7 +3721,6 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32107
     marketGroup: 618
     name: Low-grade Spur Alpha
@@ -3882,7 +3749,6 @@ items:
     RequiredSkill1Level: 2
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32108
     marketGroup: 619
     name: Low-grade Spur Beta
@@ -3911,7 +3777,6 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32109
     marketGroup: 621
     name: Low-grade Spur Delta
@@ -3940,7 +3805,6 @@ items:
     RequiredSkill1Level: 4
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32110
     marketGroup: 622
     name: Low-grade Spur Epsilon
@@ -3968,7 +3832,6 @@ items:
     RequiredSkill1Level: 3
     ScanMagnetometricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32111
     marketGroup: 620
@@ -3996,7 +3859,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32124
     marketGroup: 1506
     name: Low-grade Spur Omega
@@ -4025,7 +3887,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33965
     marketGroup: 618
     name: Low-grade Talisman Alpha
@@ -4054,7 +3915,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33966
     marketGroup: 619
     name: Low-grade Talisman Beta
@@ -4083,7 +3943,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33967
     marketGroup: 621
     name: Low-grade Talisman Delta
@@ -4112,7 +3971,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33968
     marketGroup: 622
     name: Low-grade Talisman Epsilon
@@ -4140,7 +3998,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33969
     marketGroup: 620
@@ -4168,7 +4025,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33970
     marketGroup: 1506
     name: Low-grade Talisman Omega
@@ -4197,7 +4053,6 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32112
     marketGroup: 618
     name: Low-grade Talon Alpha
@@ -4226,7 +4081,6 @@ items:
     RequiredSkill1Level: 2
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32113
     marketGroup: 619
     name: Low-grade Talon Beta
@@ -4255,7 +4109,6 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32114
     marketGroup: 621
     name: Low-grade Talon Delta
@@ -4284,7 +4137,6 @@ items:
     RequiredSkill1Level: 4
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32115
     marketGroup: 622
     name: Low-grade Talon Epsilon
@@ -4312,7 +4164,6 @@ items:
     RequiredSkill1Level: 3
     ScanGravimetricStrengthModifier: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 32116
     marketGroup: 620
@@ -4340,7 +4191,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 32125
     marketGroup: 1506
     name: Low-grade Talon Omega
@@ -4369,7 +4219,6 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33971
     marketGroup: 618
     name: Low-grade Virtue Alpha
@@ -4398,7 +4247,6 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33972
     marketGroup: 619
     name: Low-grade Virtue Beta
@@ -4427,7 +4275,6 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33973
     marketGroup: 621
     name: Low-grade Virtue Delta
@@ -4456,7 +4303,6 @@ items:
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33974
     marketGroup: 622
     name: Low-grade Virtue Epsilon
@@ -4484,7 +4330,6 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 2
     id: 33975
     marketGroup: 620
@@ -4512,7 +4357,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33976
     marketGroup: 1506
     name: Low-grade Virtue Omega
@@ -4540,7 +4384,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 1
     id: 33555
     marketGroup: 618
@@ -4569,7 +4412,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 2
     id: 33557
     marketGroup: 619
@@ -4598,7 +4440,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 4
     id: 33559
     marketGroup: 621
@@ -4627,7 +4468,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 5
     id: 33561
     marketGroup: 622
@@ -4655,7 +4495,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WarpSBonus: 3
     WillpowerBonus: 3
     id: 33563
@@ -4684,7 +4523,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 33565
     marketGroup: 1506
     name: Mid-grade Ascendancy Omega
@@ -4714,7 +4552,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42204
     marketGroup: 618
     name: Mid-grade Asklepian Alpha
@@ -4744,7 +4581,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42205
     marketGroup: 619
     name: Mid-grade Asklepian Beta
@@ -4774,7 +4610,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42207
     marketGroup: 621
     name: Mid-grade Asklepian Delta
@@ -4804,7 +4639,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42208
     marketGroup: 622
     name: Mid-grade Asklepian Epsilon
@@ -4833,7 +4667,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 42206
     marketGroup: 620
@@ -4862,7 +4695,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 42209
     marketGroup: 1506
     name: Mid-grade Asklepian Omega
@@ -4891,7 +4723,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28790
     marketGroup: 618
     name: Mid-grade Centurion Alpha
@@ -4920,7 +4751,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28791
     marketGroup: 619
     name: Mid-grade Centurion Beta
@@ -4949,7 +4779,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28792
     marketGroup: 621
     name: Mid-grade Centurion Delta
@@ -4978,7 +4807,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28793
     marketGroup: 622
     name: Mid-grade Centurion Epsilon
@@ -5006,7 +4834,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28794
     marketGroup: 620
@@ -5034,7 +4861,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28795
     marketGroup: 1506
     name: Mid-grade Centurion Omega
@@ -5063,7 +4889,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22107
     marketGroup: 618
     name: Mid-grade Crystal Alpha
@@ -5092,7 +4917,6 @@ items:
     RequiredSkill1Level: 2
     ShieldBoostMultiplier: 2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22108
     marketGroup: 619
     name: Mid-grade Crystal Beta
@@ -5121,7 +4945,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 4.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22109
     marketGroup: 621
     name: Mid-grade Crystal Delta
@@ -5150,7 +4973,6 @@ items:
     RequiredSkill1Level: 4
     ShieldBoostMultiplier: 5.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22110
     marketGroup: 622
     name: Mid-grade Crystal Epsilon
@@ -5178,7 +5000,6 @@ items:
     RequiredSkill1Level: 3
     ShieldBoostMultiplier: 3.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22111
     marketGroup: 620
@@ -5206,7 +5027,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22112
     marketGroup: 1506
     name: Mid-grade Crystal Omega
@@ -5235,7 +5055,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28814
     marketGroup: 618
     name: Mid-grade Edge Alpha
@@ -5264,7 +5083,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28815
     marketGroup: 619
     name: Mid-grade Edge Beta
@@ -5293,7 +5111,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28816
     marketGroup: 621
     name: Mid-grade Edge Delta
@@ -5322,7 +5139,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28817
     marketGroup: 622
     name: Mid-grade Edge Epsilon
@@ -5350,7 +5166,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28818
     marketGroup: 620
@@ -5378,7 +5193,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28819
     marketGroup: 1506
     name: Mid-grade Edge Omega
@@ -5407,7 +5221,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22113
     marketGroup: 618
     name: Mid-grade Halo Alpha
@@ -5436,7 +5249,6 @@ items:
     RequiredSkill1Level: 2
     SignatureRadiusBonus: -1.25
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22114
     marketGroup: 619
     name: Mid-grade Halo Beta
@@ -5465,7 +5277,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22115
     marketGroup: 621
     name: Mid-grade Halo Delta
@@ -5494,7 +5305,6 @@ items:
     RequiredSkill1Level: 4
     SignatureRadiusBonus: -2.0
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22116
     marketGroup: 622
     name: Mid-grade Halo Epsilon
@@ -5522,7 +5332,6 @@ items:
     RequiredSkill1Level: 3
     SignatureRadiusBonus: -1.75
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22117
     marketGroup: 620
@@ -5550,7 +5359,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22118
     marketGroup: 1506
     name: Mid-grade Halo Omega
@@ -5579,7 +5387,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28802
     marketGroup: 618
     name: Mid-grade Harvest Alpha
@@ -5608,7 +5415,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28803
     marketGroup: 619
     name: Mid-grade Harvest Beta
@@ -5637,7 +5443,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28804
     marketGroup: 621
     name: Mid-grade Harvest Delta
@@ -5666,7 +5471,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28805
     marketGroup: 622
     name: Mid-grade Harvest Epsilon
@@ -5694,7 +5498,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28806
     marketGroup: 620
@@ -5722,7 +5525,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28807
     marketGroup: 1506
     name: Mid-grade Harvest Omega
@@ -5751,7 +5553,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28796
     marketGroup: 618
     name: Mid-grade Nomad Alpha
@@ -5780,7 +5581,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28797
     marketGroup: 619
     name: Mid-grade Nomad Beta
@@ -5809,7 +5609,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28798
     marketGroup: 621
     name: Mid-grade Nomad Delta
@@ -5838,7 +5637,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28799
     marketGroup: 622
     name: Mid-grade Nomad Epsilon
@@ -5866,7 +5664,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28800
     marketGroup: 620
@@ -5894,7 +5691,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28801
     marketGroup: 1506
     name: Mid-grade Nomad Omega
@@ -5924,7 +5720,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22119
     marketGroup: 618
     name: Mid-grade Slave Alpha
@@ -5954,7 +5749,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22120
     marketGroup: 619
     name: Mid-grade Slave Beta
@@ -5984,7 +5778,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22121
     marketGroup: 621
     name: Mid-grade Slave Delta
@@ -6014,7 +5807,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22122
     marketGroup: 622
     name: Mid-grade Slave Epsilon
@@ -6043,7 +5835,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22123
     marketGroup: 620
@@ -6072,7 +5863,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22124
     marketGroup: 1506
     name: Mid-grade Slave Omega
@@ -6102,7 +5892,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.009999999776482582
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.5
     id: 22125
     marketGroup: 618
@@ -6133,7 +5922,6 @@ items:
     RequiredSkill1Level: 2
     SmugglingChanceBonus: 0.019999999552965164
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.625
     id: 22126
     marketGroup: 619
@@ -6164,7 +5952,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.875
     id: 22127
     marketGroup: 621
@@ -6195,7 +5982,6 @@ items:
     RequiredSkill1Level: 4
     SmugglingChanceBonus: 0.05000000074505806
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 1.0
     id: 22128
     marketGroup: 622
@@ -6225,7 +6011,6 @@ items:
     RequiredSkill1Level: 3
     SmugglingChanceBonus: 0.029999999329447746
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     VelocityBonus: 0.75
     WillpowerBonus: 3
     id: 22129
@@ -6255,7 +6040,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22130
     marketGroup: 1506
     name: Mid-grade Snake Omega
@@ -6284,7 +6068,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22131
     marketGroup: 618
     name: Mid-grade Talisman Alpha
@@ -6313,7 +6096,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22133
     marketGroup: 619
     name: Mid-grade Talisman Beta
@@ -6342,7 +6124,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22134
     marketGroup: 621
     name: Mid-grade Talisman Delta
@@ -6371,7 +6152,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22135
     marketGroup: 622
     name: Mid-grade Talisman Epsilon
@@ -6399,7 +6179,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 22136
     marketGroup: 620
@@ -6427,7 +6206,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 22137
     marketGroup: 1506
     name: Mid-grade Talisman Omega
@@ -6456,7 +6234,6 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 1
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28808
     marketGroup: 618
     name: Mid-grade Virtue Alpha
@@ -6485,7 +6262,6 @@ items:
     RequiredSkill1Level: 2
     ScanStrengthBonus: 2
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28809
     marketGroup: 619
     name: Mid-grade Virtue Beta
@@ -6514,7 +6290,6 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 4
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28810
     marketGroup: 621
     name: Mid-grade Virtue Delta
@@ -6543,7 +6318,6 @@ items:
     RequiredSkill1Level: 4
     ScanStrengthBonus: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28811
     marketGroup: 622
     name: Mid-grade Virtue Epsilon
@@ -6571,7 +6345,6 @@ items:
     RequiredSkill1Level: 3
     ScanStrengthBonus: 3
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     WillpowerBonus: 3
     id: 28812
     marketGroup: 620
@@ -6599,7 +6372,6 @@ items:
     RequiredSkill1: 3411
     RequiredSkill1Level: 5
     TechLevel: 2
-    TrackingSpeedMultiplier: 1.0
     id: 28813
     marketGroup: 1506
     name: Mid-grade Virtue Omega

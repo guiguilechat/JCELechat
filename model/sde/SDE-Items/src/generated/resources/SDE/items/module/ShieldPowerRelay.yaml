@@ -1,94 +1,76 @@
 items:
   '''Basic'' Shield Power Relay':
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
     Hp: 40
     MetaGroupID: 3
     MetaLevel: 6
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -15
     RequiredSkill1: 3424
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 1419
     marketGroup: 688
     name: '''Basic'' Shield Power Relay'
     volume: 5.0
   Caldari Navy Shield Power Relay:
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 25.0
     Hp: 40
     MetaGroupID: 4
     MetaLevel: 8
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -26
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 37820
     marketGroup: 688
     name: Caldari Navy Shield Power Relay
     volume: 5.0
   Mark I Compact Shield Power Relay:
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Cpu: 15.0
     Hp: 40
     MetaLevel: 1
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -22
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 8337
     marketGroup: 688
     name: Mark I Compact Shield Power Relay
     volume: 5.0
   Shield Power Relay I:
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2999999523162842
     Hp: 40
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -20
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 2331
     marketGroup: 688
     name: Shield Power Relay I
     volume: 5.0
   Shield Power Relay II:
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.350000023841858
     Cpu: 25.0
     Hp: 40
     MetaLevel: 5
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -25
     RequiredSkill1: 3424
     RequiredSkill1Level: 4
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 2
     id: 1422
     marketGroup: 688
     name: Shield Power Relay II
     volume: 5.0
   Type-D Restrained Shield Power Relay:
-    CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.2000000476837158
     Cpu: 20.0
     Hp: 40
     MetaLevel: 1
-    PowerOutputMultiplier: 1.0
     Rechargeratebonus: -22
     RequiredSkill1: 3424
     RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
     TechLevel: 1
     id: 8335
     marketGroup: 688

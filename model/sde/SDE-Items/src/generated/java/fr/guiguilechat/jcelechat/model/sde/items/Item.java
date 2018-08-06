@@ -22,7 +22,7 @@ public abstract class Item {
         switch (attribute.getId()) {
             default:
             {
-                throw new UnsupportedOperationException();
+                throw new UnsupportedOperationException(((("can't load attribute id "+ attribute.getId())+" on type id ")+(((id)+" ")+(name))));
             }
         }
     }

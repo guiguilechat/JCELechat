@@ -173,12 +173,12 @@ public class SDECompiler {
 				logger.warn("can't find type entry for id " + typeID);
 				continue;
 			}
+			int groupID = type.groupID;
 			if (!type.published) {
-				logger.debug("skipping " + attribute.attributeID + " attribute for type " + type.enName()
+				logger.debug("skipping attr " + attribute.attributeID + " for type " + type.enName()
 				+ " as type is not published ");
 				continue;
 			}
-			int groupID = type.groupID;
 			allAttributesIds.add(attribute.attributeID);
 			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
 				attributesWithFloatValue.add(attribute.attributeID);
@@ -291,7 +291,9 @@ public class SDECompiler {
 			JMethod attrMeth = typeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
 			JVar att = attrMeth.param(attributeClass, "attribute");
 			JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
-			js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)));
+			js._default().body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr
+					.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
+					.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
 
 			// create a method to load the values of the fields in root class from the
 			// actual fields, when they are annotated
@@ -360,6 +362,14 @@ public class SDECompiler {
 
 		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
 			EgroupIDs group = groupEntry.getValue();
+			// skip the group that have no published item and that are unpublished
+			if (!EtypeIDs.load().values().stream()
+					.filter(eti -> eti.published && eti.groupID == groupEntry.getKey())
+					.findAny().isPresent()) {
+				logger.debug("skipped group " + group.enName() + "(" + groupEntry.getKey()
+				+ "), has no item published");
+				continue;
+			}
 			String newName = formatName(group.enName());
 			JDefinedClass catClass = catIDToClass.get(group.categoryID);
 			if (catClass == null) {

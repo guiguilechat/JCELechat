@@ -46,7 +46,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 32
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -131,7 +131,7 @@ items:
     MaxVelocity: 420.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -212,7 +212,7 @@ items:
     MaxVelocity: 370.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 39
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -293,7 +293,7 @@ items:
     MaxVelocity: 365.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -375,7 +375,7 @@ items:
     MaxVelocity: 415.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -457,7 +457,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -538,7 +538,7 @@ items:
     MaxVelocity: 400.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -617,7 +617,7 @@ items:
     MaxVelocity: 350.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 27
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -698,7 +698,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 42
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -780,7 +780,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     NosOverride: 1
     PowerOutput: 57
     PowerToSpeed: 1
@@ -865,7 +865,7 @@ items:
     MaxVelocity: 350.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -948,7 +948,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1035,7 +1035,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 37
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -1116,7 +1116,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 6
     MinTargetVelDmgMultiplier: 1.0
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerToSpeed: 1
     PropulsionGraphicID: 394
     RechargeRate: 140625.0
@@ -1187,7 +1187,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1267,7 +1267,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1349,7 +1349,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 38
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -1434,7 +1434,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 65
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1515,7 +1515,7 @@ items:
     MaxVelocity: 325.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 24
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1598,7 +1598,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1683,7 +1683,7 @@ items:
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 24
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1767,7 +1767,7 @@ items:
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 21
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -1849,7 +1849,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -1929,7 +1929,7 @@ items:
     MaxVelocity: 340.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2011,7 +2011,7 @@ items:
     MaxVelocity: 405.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 51
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2090,7 +2090,7 @@ items:
     MaxVelocity: 325.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2172,7 +2172,7 @@ items:
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 26
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2253,7 +2253,7 @@ items:
     MaxVelocity: 375.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 28
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2336,7 +2336,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2416,7 +2416,7 @@ items:
     MaxVelocity: 310.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2500,7 +2500,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 49
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2584,7 +2584,7 @@ items:
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
     MiniProfessionRangeBonus: 50
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 25
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -2664,7 +2664,7 @@ items:
     MaxVelocity: 355.0
     MedSlots: 2
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 67
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2745,7 +2745,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395
@@ -2825,7 +2825,7 @@ items:
     MaxVelocity: 365.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 41
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -2906,7 +2906,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 60
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -2985,7 +2985,7 @@ items:
     MaxVelocity: 430.0
     MedSlots: 4
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 36
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3065,7 +3065,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 44
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3150,7 +3150,7 @@ items:
     MaxVelocity: 335.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 50
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3230,7 +3230,7 @@ items:
     MaxVelocity: 315.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 35
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3313,7 +3313,7 @@ items:
     MaxVelocity: 335.0
     MedSlots: 3
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 2.0
+    MiningAmountMultiplier: 2
     PowerOutput: 45
     PowerToSpeed: 1
     PropulsionGraphicID: 394
@@ -3399,7 +3399,7 @@ items:
     MaxVelocity: 410.0
     MedSlots: 5
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 26
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3482,7 +3482,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 7
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 38
     PowerToSpeed: 1
     PropulsionGraphicID: 397
@@ -3568,7 +3568,7 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     MinTargetVelDmgMultiplier: 0.05000000074505806
-    MiningAmountMultiplier: 1.0
+    MiningAmountMultiplier: 1
     PowerOutput: 40
     PowerToSpeed: 1
     PropulsionGraphicID: 395

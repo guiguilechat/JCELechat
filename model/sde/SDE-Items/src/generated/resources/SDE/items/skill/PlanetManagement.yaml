@@ -5,7 +5,7 @@ items:
     RequiredSkill1: 2406
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
@@ -13,7 +13,7 @@ items:
   Command Center Upgrades:
     PrimaryAttribute: 164
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 2505
     marketGroup: 1823
     name: Command Center Upgrades
@@ -21,7 +21,7 @@ items:
   Interplanetary Consolidation:
     PrimaryAttribute: 164
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 2495
     marketGroup: 1823
     name: Interplanetary Consolidation
@@ -33,7 +33,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 2406
     marketGroup: 1823
     name: Planetology
@@ -43,7 +43,7 @@ items:
     RequiredSkill1: 3402
     RequiredSkill1Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 13279
     marketGroup: 1823
     name: Remote Sensing

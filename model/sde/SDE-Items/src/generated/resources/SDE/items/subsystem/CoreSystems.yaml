@@ -118,7 +118,7 @@ items:
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
-    SubsystemBonusGallenteCore: -5.0
+    SubsystemBonusGallenteCore: -5
     SubsystemBonusGallenteCore2: -3.0
     TechLevel: 3
     id: 45629
@@ -136,7 +136,7 @@ items:
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
-    SubsystemBonusGallenteCore: 15.0
+    SubsystemBonusGallenteCore: 15
     SubsystemBonusGallenteCore2: 5.0
     TechLevel: 3
     id: 45628
@@ -152,7 +152,7 @@ items:
     RequiredSkill1: 30546
     RequiredSkill1Level: 1
     SubSystemSlot: 125
-    SubsystemBonusGallenteCore: -5.0
+    SubsystemBonusGallenteCore: -5
     SubsystemBonusGallenteCore2: 7.5
     SubsystemBonusGallenteCore3: 15
     TechLevel: 3

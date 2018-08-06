@@ -12,8 +12,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12205
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 12.0
     TrackingSpeedMultiplier: 0.25
@@ -35,8 +33,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12204
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 6.0
     TrackingSpeedMultiplier: 0.25
@@ -58,8 +54,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 11083
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 3.0
     TrackingSpeedMultiplier: 0.25
@@ -81,8 +75,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 41408
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 24.0
     TrackingSpeedMultiplier: 0.25
@@ -104,8 +96,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12205
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 28.0
     TrackingSpeedMultiplier: 1.25
@@ -127,8 +117,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 12204
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 14.0
     TrackingSpeedMultiplier: 1.25
@@ -150,8 +138,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 11083
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 7.0
     TrackingSpeedMultiplier: 1.25
@@ -173,8 +159,6 @@ items:
     MetaLevel: 5
     RequiredSkill1: 41408
     RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    SpeedMultiplier: 1.0
     TechLevel: 2
     ThermalDamage: 56.0
     TrackingSpeedMultiplier: 1.25

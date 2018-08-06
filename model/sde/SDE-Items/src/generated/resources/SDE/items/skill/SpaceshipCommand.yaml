@@ -6,7 +6,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 20342
     marketGroup: 377
     name: Advanced Spaceship Command
@@ -18,7 +18,7 @@ items:
     RequiredSkill2: 3335
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     SubSystemSlot: 125
     id: 33095
     marketGroup: 377
@@ -31,7 +31,7 @@ items:
     RequiredSkill2: 33095
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 3339
     marketGroup: 377
     name: Amarr Battleship
@@ -50,7 +50,7 @@ items:
     RequiredSkill5: 21611
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 24311
     marketGroup: 377
     name: Amarr Carrier
@@ -63,7 +63,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     ShipPowerBonus: 2
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3335
     marketGroup: 377
     name: Amarr Cruiser
@@ -73,7 +73,7 @@ items:
     RequiredSkill1: 3331
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33091
     marketGroup: 377
     name: Amarr Destroyer
@@ -88,7 +88,7 @@ items:
     RequiredSkill3: 22043
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 20525
     marketGroup: 377
     name: Amarr Dreadnought
@@ -101,7 +101,7 @@ items:
     RequiredSkill2: 3343
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 20524
     marketGroup: 377
     name: Amarr Freighter
@@ -111,7 +111,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3331
     marketGroup: 377
     name: Amarr Frigate
@@ -121,7 +121,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3343
     marketGroup: 377
     name: Amarr Industrial
@@ -132,7 +132,7 @@ items:
     RequiredSkill1: 3335
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 30650
     marketGroup: 377
     name: Amarr Strategic Cruiser
@@ -143,7 +143,7 @@ items:
     RequiredSkill1: 33091
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 34390
     marketGroup: 377
     name: Amarr Tactical Destroyer
@@ -160,7 +160,7 @@ items:
     RequiredSkill4: 24562
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 16
     id: 3347
     marketGroup: 377
     name: Amarr Titan
@@ -175,7 +175,7 @@ items:
     RequiredSkill3: 3392
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12095
     marketGroup: 377
     name: Assault Frigates
@@ -190,7 +190,7 @@ items:
     RequiredSkill3: 3327
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 28656
     marketGroup: 377
     name: Black Ops
@@ -202,7 +202,7 @@ items:
     RequiredSkill2: 3334
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 33096
     marketGroup: 377
     name: Caldari Battlecruiser
@@ -214,7 +214,7 @@ items:
     RequiredSkill2: 33096
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 3338
     marketGroup: 377
     name: Caldari Battleship
@@ -233,7 +233,7 @@ items:
     RequiredSkill5: 21611
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 24312
     marketGroup: 377
     name: Caldari Carrier
@@ -245,7 +245,7 @@ items:
     RequiredSkill2: 33092
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3334
     marketGroup: 377
     name: Caldari Cruiser
@@ -255,7 +255,7 @@ items:
     RequiredSkill1: 3330
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33092
     marketGroup: 377
     name: Caldari Destroyer
@@ -270,7 +270,7 @@ items:
     RequiredSkill3: 22043
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 20530
     marketGroup: 377
     name: Caldari Dreadnought
@@ -283,7 +283,7 @@ items:
     RequiredSkill2: 3342
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 20526
     marketGroup: 377
     name: Caldari Freighter
@@ -293,7 +293,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3330
     marketGroup: 377
     name: Caldari Frigate
@@ -303,7 +303,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3342
     marketGroup: 377
     name: Caldari Industrial
@@ -314,7 +314,7 @@ items:
     RequiredSkill1: 3334
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 30651
     marketGroup: 377
     name: Caldari Strategic Cruiser
@@ -325,7 +325,7 @@ items:
     RequiredSkill1: 33092
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 35680
     marketGroup: 377
     name: Caldari Tactical Destroyer
@@ -342,7 +342,7 @@ items:
     RequiredSkill4: 24562
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 16
     id: 3346
     marketGroup: 377
     name: Caldari Titan
@@ -359,7 +359,7 @@ items:
     RequiredSkill4: 28585
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 28374
     marketGroup: 377
     name: Capital Industrial Ships
@@ -371,7 +371,7 @@ items:
     RequiredSkill1: 20342
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 20533
     marketGroup: 377
     name: Capital Ships
@@ -384,7 +384,7 @@ items:
     RequiredSkill2: 3354
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 37615
     marketGroup: 377
     name: Command Destroyers
@@ -399,7 +399,7 @@ items:
     RequiredSkill3: 11574
     RequiredSkill3Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 23950
     marketGroup: 377
     name: Command Ships
@@ -412,7 +412,7 @@ items:
     RequiredSkill2: 3432
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12093
     marketGroup: 377
     name: Covert Ops
@@ -425,7 +425,7 @@ items:
     RequiredSkill2: 3428
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 28615
     marketGroup: 377
     name: Electronic Attack Ships
@@ -440,7 +440,7 @@ items:
     RequiredSkill3: 3410
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 22551
     marketGroup: 377
     name: Exhumers
@@ -455,7 +455,7 @@ items:
     RequiredSkill3: 3380
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 33856
     marketGroup: 377
     name: Expedition Frigates
@@ -470,7 +470,7 @@ items:
     RequiredSkill3: 3430
     RequiredSkill3Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 47445
     marketGroup: 377
     name: Flag Cruisers
@@ -482,7 +482,7 @@ items:
     RequiredSkill2: 3332
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 33097
     marketGroup: 377
     name: Gallente Battlecruiser
@@ -494,7 +494,7 @@ items:
     RequiredSkill2: 33097
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 3336
     marketGroup: 377
     name: Gallente Battleship
@@ -513,7 +513,7 @@ items:
     RequiredSkill5: 21611
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 24313
     marketGroup: 377
     name: Gallente Carrier
@@ -525,7 +525,7 @@ items:
     RequiredSkill2: 33093
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3332
     marketGroup: 377
     name: Gallente Cruiser
@@ -535,7 +535,7 @@ items:
     RequiredSkill1: 3328
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33093
     marketGroup: 377
     name: Gallente Destroyer
@@ -550,7 +550,7 @@ items:
     RequiredSkill3: 22043
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 20531
     marketGroup: 377
     name: Gallente Dreadnought
@@ -563,7 +563,7 @@ items:
     RequiredSkill2: 3340
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 20527
     marketGroup: 377
     name: Gallente Freighter
@@ -573,7 +573,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3328
     marketGroup: 377
     name: Gallente Frigate
@@ -583,7 +583,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3340
     marketGroup: 377
     name: Gallente Industrial
@@ -594,7 +594,7 @@ items:
     RequiredSkill1: 3332
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 30652
     marketGroup: 377
     name: Gallente Strategic Cruiser
@@ -605,7 +605,7 @@ items:
     RequiredSkill1: 33093
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 35685
     marketGroup: 377
     name: Gallente Tactical Destroyer
@@ -622,7 +622,7 @@ items:
     RequiredSkill4: 24562
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 16
     id: 3344
     marketGroup: 377
     name: Gallente Titan
@@ -639,7 +639,7 @@ items:
     RequiredSkill4: 3418
     RequiredSkill4Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 16591
     marketGroup: 377
     name: Heavy Assault Cruisers
@@ -654,7 +654,7 @@ items:
     RequiredSkill3: 3327
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 28609
     marketGroup: 377
     name: Heavy Interdiction Cruisers
@@ -669,7 +669,7 @@ items:
     RequiredSkill3: 22552
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 29637
     marketGroup: 377
     name: Industrial Command Ships
@@ -682,7 +682,7 @@ items:
     RequiredSkill2: 3453
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12092
     marketGroup: 377
     name: Interceptors
@@ -697,7 +697,7 @@ items:
     RequiredSkill3: 3435
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12098
     marketGroup: 377
     name: Interdictors
@@ -710,7 +710,7 @@ items:
     RequiredSkill2: 20342
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 29029
     marketGroup: 377
     name: Jump Freighters
@@ -725,7 +725,7 @@ items:
     RequiredSkill3: 3428
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 12096
     marketGroup: 377
     name: Logistics Cruisers
@@ -740,7 +740,7 @@ items:
     RequiredSkill3: 3428
     RequiredSkill3Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 40328
     marketGroup: 377
     name: Logistics Frigates
@@ -755,7 +755,7 @@ items:
     RequiredSkill3: 3327
     RequiredSkill3Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 28667
     marketGroup: 377
     name: Marauders
@@ -770,7 +770,7 @@ items:
     RequiredSkill3: 32918
     RequiredSkill3Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 17940
     marketGroup: 377
     name: Mining Barge
@@ -780,7 +780,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 32918
     marketGroup: 377
     name: Mining Frigate
@@ -792,7 +792,7 @@ items:
     RequiredSkill2: 3333
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 33098
     marketGroup: 377
     name: Minmatar Battlecruiser
@@ -804,7 +804,7 @@ items:
     RequiredSkill2: 33098
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 3337
     marketGroup: 377
     name: Minmatar Battleship
@@ -823,7 +823,7 @@ items:
     RequiredSkill5: 21611
     RequiredSkill5Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 24314
     marketGroup: 377
     name: Minmatar Carrier
@@ -835,7 +835,7 @@ items:
     RequiredSkill2: 33094
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3333
     marketGroup: 377
     name: Minmatar Cruiser
@@ -845,7 +845,7 @@ items:
     RequiredSkill1: 3329
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33094
     marketGroup: 377
     name: Minmatar Destroyer
@@ -860,7 +860,7 @@ items:
     RequiredSkill3: 22043
     RequiredSkill3Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 20532
     marketGroup: 377
     name: Minmatar Dreadnought
@@ -873,7 +873,7 @@ items:
     RequiredSkill2: 3341
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     id: 20528
     marketGroup: 377
     name: Minmatar Freighter
@@ -883,7 +883,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3329
     marketGroup: 377
     name: Minmatar Frigate
@@ -893,7 +893,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3341
     marketGroup: 377
     name: Minmatar Industrial
@@ -904,7 +904,7 @@ items:
     RequiredSkill1: 3333
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 30653
     marketGroup: 377
     name: Minmatar Strategic Cruiser
@@ -915,7 +915,7 @@ items:
     RequiredSkill1: 33094
     RequiredSkill1Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 34533
     marketGroup: 377
     name: Minmatar Tactical Destroyer
@@ -932,7 +932,7 @@ items:
     RequiredSkill4: 24562
     RequiredSkill4Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 16
     id: 3345
     marketGroup: 377
     name: Minmatar Titan
@@ -945,7 +945,7 @@ items:
     RequiredSkill2: 3184
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 9.0
+    SkillTimeConstant: 9
     id: 34327
     marketGroup: 377
     name: ORE Freighter
@@ -956,7 +956,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3184
     marketGroup: 377
     name: ORE Industrial
@@ -968,7 +968,7 @@ items:
     RequiredSkill2: 47868
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 47869
     marketGroup: 377
     name: Precursor Battleship
@@ -981,7 +981,7 @@ items:
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
     ShipPowerBonus: 2
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 47868
     marketGroup: 377
     name: Precursor Cruiser
@@ -991,7 +991,7 @@ items:
     RequiredSkill1: 3327
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 47867
     marketGroup: 377
     name: Precursor Frigate
@@ -1008,7 +1008,7 @@ items:
     RequiredSkill4: 3432
     RequiredSkill4Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 22761
     marketGroup: 377
     name: Recon Ships
@@ -1018,7 +1018,7 @@ items:
     MaxAttackTargets: 1
     PrimaryAttribute: 167
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3327
     marketGroup: 377
     name: Spaceship Command
@@ -1031,7 +1031,7 @@ items:
     RequiredSkill2: 3380
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 19719
     marketGroup: 377
     name: Transport Ships

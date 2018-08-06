@@ -68,7 +68,7 @@ public class ItemsTranslater {
 		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
 			EtypeIDs type = e.getValue();
 			if (!type.published) {
-				logger.debug("type " + type.enName() + " is not published");
+				logger.debug("type " + type.enName() + "(" + e.getKey() + ") is not published");
 				continue;
 			}
 			String className = classes.groupID2ClassName.get(type.groupID);
@@ -79,8 +79,7 @@ public class ItemsTranslater {
 			}
 			Object item = makeObjectDefault(className, cl);
 			String fileName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
-					+ item.getClass().getSimpleName()
-					+ ".yaml";
+					+ item.getClass().getSimpleName() + ".yaml";
 			// set the name by introspection
 			try {
 				Field nameField = item.getClass().getField("name");
@@ -132,14 +131,14 @@ public class ItemsTranslater {
 						f.set(built, c.getValue().valueFloat);
 					} else {
 						if (c.getValue().valueFloat != 0) {
-							f.set(built, (int)c.getValue().valueFloat);
+							f.set(built, (int) c.getValue().valueFloat);
 						} else {
 							f.set(built, c.getValue().valueInt);
 						}
 					}
 				}
 			} catch (Exception ex) {
-				throw new UnsupportedOperationException(ex);
+				throw new UnsupportedOperationException("while loading " + e, ex);
 			}
 		}
 
@@ -168,7 +167,7 @@ public class ItemsTranslater {
 			}
 		}
 
-		//write metadata
+		// write metadata
 		// meta informations. we need to be able to find an item name, and its
 		// class, from its id.
 		LinkedHashMap<Integer, String> id2Name = new LinkedHashMap<>();
@@ -252,8 +251,7 @@ public class ItemsTranslater {
 	}
 
 	protected void makeLoadMethod(JDefinedClass clazz, JCodeModel cm, String resPath, boolean container) {
-		clazz.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH")
-		.init(JExpr.lit(resPath));
+		clazz.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, cm.ref(String.class), "RESOURCE_PATH").init(JExpr.lit(resPath));
 
 		if (container) {
 			// create a Container class that contains only a field
@@ -270,17 +268,15 @@ public class ItemsTranslater {
 		// create the load method
 		AbstractJClass retType = container ? cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz) : clazz;
 		// the cache of the load
-		JVar cache = clazz
-				.field(JMod.PRIVATE | JMod.STATIC, retType, "cache")
-				.init(JExpr.direct("null"));
+		JVar cache = clazz.field(JMod.PRIVATE | JMod.STATIC, retType, "cache").init(JExpr.direct("null"));
 		// body method for load
 		JMethod load = clazz.method(JMod.PUBLIC | JMod.STATIC | JMod.SYNCHRONIZED, retType, "load");
 		JBlock ifblock = load.body()._if(cache.eq(JExpr._null()))._then();
 		JTryBlock tryblock = ifblock._try();
 		IJExpression class2cast = container ? JExpr.direct("Container.class") : clazz.dotclass();
 		IJExpression assign = JExpr._new(cm.ref(Yaml.class)).invoke("loadAs")
-				.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(clazz.dotclass().invoke("getClassLoader")
-						.invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
+				.arg(JExpr._new(cm.ref(InputStreamReader.class)).arg(
+						clazz.dotclass().invoke("getClassLoader").invoke("getResourceAsStream").arg(JExpr.direct("RESOURCE_PATH"))))
 				.arg(class2cast);
 		if (container) {
 			assign = assign.ref("items");

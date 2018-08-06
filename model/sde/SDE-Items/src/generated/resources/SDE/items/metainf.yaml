@@ -20872,28 +20872,28 @@ id2name:
   34454: Archive Sentry Tower
   34455: Impaired Archive Sentry Tower
   34456: Angel Fence
-  34457: 末日���场级YC117年特别版
+  34457: 末日沙场级YC117年特别版
   34458: 末日沙场级YC117年特别版蓝图
   34459: 地狱天使级YC117年特别版
   34460: 地狱天使级YC117年特别版蓝图
-  34461: 马克瑞级YC117年特别版
-  34462: 马克瑞级YC117年特别版蓝图
-  34463: 响尾蛇级YC117年特���版
+  34461: 马克��级YC117年特别版
+  34462: 马克瑞��YC117年特别版蓝图
+  34463: 响尾蛇级YC117年特别版
   34464: 响尾蛇级YC117年特别版蓝图
   34465: 多米尼克斯级YC117年特别版
   34466: 多米尼克斯级YC117年特别版蓝图
-  34467: 万��宝座级YC117年特别版
+  34467: 万王宝座级YC117年特别版
   34468: 万王宝座级YC117年特别版蓝图
-  34469: 乌鸦级YC117年特别版
+  34469: 乌鸦级YC117年特���版
   34470: 乌鸦级YC117年特别版蓝图
   34471: 灾难级YC117年特别版
-  34472: ���难级YC117年特别版蓝图
-  34473: 幼龙级YC117年特��版
-  34474: ��龙级YC117年特别版蓝图
-  34475: 毒蜥级YC117年特别版
-  34476: 毒���级YC117年特别版蓝图
-  34477: 银鹰级YC117年特别��
-  34478: 银��级YC117年特别版蓝图
+  34472: 灾难级YC117年特别版蓝图
+  34473: 幼龙级YC117年特别版
+  34474: 幼龙级YC117年特别版蓝图
+  34475: 毒��级YC117年特别版
+  34476: 毒蜥级YC117年特别版蓝图
+  34477: 银鹰级YC117年特别版
+  34478: 银鹰级YC117年特别版蓝图
   34479: 伊什塔级YC117年特别版
   34480: 伊什塔级YC117年特别版蓝图
   34481: Domination Inertial Stabilizers
@@ -26246,7 +26246,7 @@ id2name:
   40624: Bustard Matigu Seabeast SKIN (Permanent)
   40625: Charon Matigu Seabeast SKIN (Permanent)
   40626: Rhea Matigu Seabeast SKIN (Permanent)
-  40631: ��Holy Destiny’ Electromagnetic Lance
+  40631: ‘Holy Destiny’ Electromagnetic Lance
   40632: ‘Divine Harvest’ Electromagnetic Reaper
   40633: Bosonic Field Generator
   40634: Gravitational Transportation Field Oscillator
@@ -28072,7 +28072,7 @@ id2name:
   42653: Apostle Purity of the Throne SKIN (Permanent)
   42654: ♦ Bestower
   42655: ♦ Impel
-  42656: ��� Badger
+  42656: ♦ Badger
   42657: ♦ Bustard
   42658: ♦ Iteron Mark V
   42659: ♦ Occator
@@ -28894,7 +28894,7 @@ id2name:
   43579: ♦ Thorax
   43580: ♦ Exequror
   43581: ♦ Celestis
-  43582: ♦ Vexor
+  43582: �� Vexor
   43583: ♦ Megathron
   43584: ♦ Dominix
   43585: ♦ Rifter
@@ -28904,7 +28904,7 @@ id2name:
   43589: ♦ Breacher
   43590: ♦ Rupture
   43591: ♦ Scythe
-  43592: �� Bellicose
+  43592: ♦ Bellicose
   43593: ♦ Stabber
   43594: ♦ Tempest
   43595: ♦ Typhoon
@@ -28933,7 +28933,7 @@ id2name:
   43618: ♦ Griffin
   43622: ♦ Caracal
   43623: ♦ Osprey
-  43624: ��� Gila
+  43624: ♦ Gila
   43625: ♦ Blackbird
   43626: ♦ Raven
   43627: ♦ Rattlesnake
@@ -30143,7 +30143,7 @@ id2name:
   44949: Machariel Spirit SKIN (Permanent)
   44950: Cynabal Spirit SKIN (Permanent)
   44951: Dramiel Spirit SKIN (Permanent)
-  44953: �� Purifier
+  44953: ♦ Purifier
   44992: PLEX
   44993: Pacifier
   44995: Enforcer
@@ -30209,7 +30209,7 @@ id2name:
   45469: Minmatar CA Cruiser
   45470: ♦ Chemosh
   45471: ♦ Molok
-  45472: ♦ Molok
+  45472: �� Molok
   45473: ♦ Dagon
   45474: ♦ Chemosh
   45480: Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent)
@@ -30782,7 +30782,7 @@ id2name:
   46060: ♦ Vindicator
   46061: ♦ Dramiel
   46062: ♦ Cynabal
-  46063: �� Machariel
+  46063: ♦ Machariel
   46064: Medium Refinery Placement State Default
   46065: Large Refinery Placement State Default
   46066: ♦ Punisher
@@ -53486,6 +53486,7 @@ name2group:
   ‘Geiravor’ Explosive Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Guillotine’ Thermal Reaper: module/SuperWeapon
   ‘Guillotine’ Thermal Reaper Blueprint: blueprint/SuperWeaponBlueprint
+  ‘Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
   ‘Holy Destiny’ Electromagnetic Lance Blueprint: blueprint/SuperWeaponBlueprint
   ‘Iron Pike’ Kinetic Lance: module/SuperWeapon
   ‘Iron Pike’ Kinetic Lance Blueprint: blueprint/SuperWeaponBlueprint
@@ -53499,10 +53500,9 @@ name2group:
   响尾蛇级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   地狱天使级YC117年特别版蓝图: blueprint/BattleshipBlueprint
   多米尼克斯级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  幼龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
   末日沙场级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  毒���级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  银��级YC117年特别版蓝图: blueprint/CruiserBlueprint
-  马克瑞级YC117年特别版蓝图: blueprint/BattleshipBlueprint
-  ��Holy Destiny’ Electromagnetic Lance: module/SuperWeapon
-  ��龙级YC117年特别版蓝图: blueprint/BattlecruiserBlueprint
-  ���难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  毒蜥级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  灾难级YC117年特别版蓝图: blueprint/BattleshipBlueprint
+  银鹰级YC117年特别版蓝图: blueprint/CruiserBlueprint
+  马克瑞��YC117年特别版蓝图: blueprint/BattleshipBlueprint

@@ -7,7 +7,6 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -27,7 +26,6 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -46,7 +44,6 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -68,7 +65,6 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -88,7 +84,6 @@ items:
     MetaGroupID: 3
     MetaLevel: 6
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -108,7 +103,6 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -25.0
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -130,7 +124,6 @@ items:
     KineticDamageResistanceBonus: -30.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -153,7 +146,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -173,7 +165,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -192,7 +183,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -211,7 +201,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -229,7 +218,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -249,7 +237,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -268,7 +255,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -287,7 +273,6 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -35.0
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -305,7 +290,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3413
     RequiredSkill1Level: 1
@@ -328,7 +312,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -348,7 +331,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -367,7 +349,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -386,7 +367,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -404,7 +384,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 8
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -427,7 +406,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -447,7 +425,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -466,7 +443,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -485,7 +461,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -503,7 +478,6 @@ items:
     MetaGroupID: 4
     MetaLevel: 9
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -521,7 +495,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -539,7 +512,6 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -561,7 +533,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -581,7 +552,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -600,7 +570,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -619,7 +588,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -637,7 +605,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -655,7 +622,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -673,7 +639,6 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -693,7 +658,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -713,7 +677,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -733,7 +696,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -752,7 +714,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -773,7 +734,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -793,7 +753,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -813,7 +772,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -832,7 +790,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -853,7 +810,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -873,7 +829,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -893,7 +848,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -912,7 +866,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -933,7 +886,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -953,7 +905,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -973,7 +924,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -992,7 +942,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1016,7 +965,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1040,7 +988,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1064,7 +1011,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1087,7 +1033,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1107,7 +1052,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1126,7 +1070,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1145,7 +1088,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1163,7 +1105,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1181,7 +1122,6 @@ items:
     Hp: 40
     KineticDamageResistanceBonus: -50.0
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1199,7 +1139,6 @@ items:
     KineticDamageResistanceBonus: -55.0
     MetaLevel: 5
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -1217,7 +1156,6 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1238,7 +1176,6 @@ items:
     KineticDamageResistanceBonus: -25.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1257,7 +1194,6 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1275,7 +1211,6 @@ items:
     KineticDamageResistanceBonus: -50.0
     MetaLevel: 2
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1292,7 +1227,6 @@ items:
     Hp: 40
     MetaLevel: 2
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1312,7 +1246,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1331,7 +1264,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1350,7 +1282,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1368,7 +1299,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1388,7 +1318,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1407,7 +1336,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1426,7 +1354,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1444,7 +1371,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1464,7 +1390,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1483,7 +1408,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1502,7 +1426,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1520,7 +1443,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1540,7 +1462,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1559,7 +1480,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1578,7 +1498,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1596,7 +1515,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 14
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1620,7 +1538,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1644,7 +1561,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1668,7 +1584,6 @@ items:
     MetaGroupID: 6
     MetaLevel: 11
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1685,7 +1600,6 @@ items:
     HeatDamage: 3.4000000953674316
     Hp: 40
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1703,7 +1617,6 @@ items:
     Hp: 40
     MetaLevel: 5
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 4
@@ -1726,7 +1639,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1746,7 +1658,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1765,7 +1676,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1784,7 +1694,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1802,7 +1711,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 12
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1825,7 +1733,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1845,7 +1752,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1864,7 +1770,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1883,7 +1788,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1
@@ -1901,7 +1805,6 @@ items:
     MetaGroupID: 5
     MetaLevel: 13
     OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
     Power: 1
     RequiredSkill1: 3420
     RequiredSkill1Level: 1

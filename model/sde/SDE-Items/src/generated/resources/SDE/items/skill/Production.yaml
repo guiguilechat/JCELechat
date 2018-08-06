@@ -7,7 +7,7 @@ items:
     RequiredSkill2: 3380
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3396
     marketGroup: 369
     name: Advanced Industrial Ship Construction
@@ -18,7 +18,7 @@ items:
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3388
     marketGroup: 369
     name: Advanced Industry
@@ -29,7 +29,7 @@ items:
     RequiredSkill1: 3397
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 3398
     marketGroup: 369
     name: Advanced Large Ship Construction
@@ -41,7 +41,7 @@ items:
     RequiredSkill1: 3387
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 24625
     marketGroup: 369
     name: Advanced Mass Production
@@ -54,7 +54,7 @@ items:
     RequiredSkill2: 3395
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3397
     marketGroup: 369
     name: Advanced Medium Ship Construction
@@ -67,7 +67,7 @@ items:
     RequiredSkill2: 3380
     RequiredSkill2Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3395
     marketGroup: 369
     name: Advanced Small Ship Construction
@@ -82,7 +82,7 @@ items:
     RequiredSkill3: 3388
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 14.0
+    SkillTimeConstant: 14
     id: 22242
     marketGroup: 369
     name: Capital Ship Construction
@@ -92,7 +92,7 @@ items:
     DurationSkillBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 26224
     marketGroup: 369
     name: Drug Manufacturing
@@ -101,7 +101,7 @@ items:
     ManufacturingTimeBonus: -4
     PrimaryAttribute: 166
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3380
     marketGroup: 369
     name: Industry
@@ -112,7 +112,7 @@ items:
     RequiredSkill1: 3380
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3387
     marketGroup: 369
     name: Mass Production
@@ -126,7 +126,7 @@ items:
     RequiredSkill3: 11584
     RequiredSkill3Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 16.0
+    SkillTimeConstant: 16
     id: 3400
     marketGroup: 369
     name: Outpost Construction
@@ -136,7 +136,7 @@ items:
     RequiredSkill1: 3387
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 24268
     marketGroup: 369
     name: Supply Chain Management

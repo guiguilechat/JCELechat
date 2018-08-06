@@ -7,7 +7,7 @@ items:
     RequiredSkill2: 3427
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 23566
     marketGroup: 366
     name: Advanced Drone Avionics
@@ -19,7 +19,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
@@ -31,7 +31,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
@@ -42,18 +42,19 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3437
     marketGroup: 366
     name: Drone Avionics
     volume: 0.01
   Drone Durability:
     ArmorHpBonus: 5
+    HullHpBonus: 5
     PrimaryAttribute: 166
     RequiredSkill1: 3436
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 23618
     marketGroup: 366
     name: Drone Durability
@@ -65,7 +66,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3442
     marketGroup: 366
     name: Drone Interfacing
@@ -76,7 +77,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 12305
     marketGroup: 366
     name: Drone Navigation
@@ -87,7 +88,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 23606
     marketGroup: 366
     name: Drone Sharpshooting
@@ -96,7 +97,7 @@ items:
     MaxActiveDroneBonus: 1
     PrimaryAttribute: 166
     SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3436
     marketGroup: 366
     name: Drones
@@ -107,7 +108,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     SkillBonusFighterHangarSize: 5
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 24613
     marketGroup: 366
     name: Fighter Hangar Management
@@ -121,7 +122,7 @@ items:
     RequiredSkill2: 3348
     RequiredSkill2Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 23069
     marketGroup: 366
     name: Fighters
@@ -133,7 +134,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
@@ -144,7 +145,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
@@ -156,7 +157,7 @@ items:
     RequiredSkill1: 23069
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
@@ -169,7 +170,7 @@ items:
     RequiredSkill2Level: 2
     RofBonus: -5
     SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 43702
     marketGroup: 366
     name: Ice Harvesting Drone Operation
@@ -183,7 +184,7 @@ items:
     RequiredSkill2Level: 4
     RofBonus: -2
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 43703
     marketGroup: 366
     name: Ice Harvesting Drone Specialization
@@ -194,7 +195,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
@@ -206,7 +207,7 @@ items:
     RequiredSkill1: 23069
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 40572
     marketGroup: 366
     name: Light Fighters
@@ -217,7 +218,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 3
     SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
@@ -230,7 +231,7 @@ items:
     RequiredSkill2: 3386
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3438
     marketGroup: 366
     name: Mining Drone Operation
@@ -244,7 +245,7 @@ items:
     RequiredSkill2: 3386
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 22541
     marketGroup: 366
     name: Mining Drone Specialization
@@ -256,7 +257,7 @@ items:
     RequiredSkill1: 3436
     RequiredSkill1Level: 5
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
@@ -269,7 +270,7 @@ items:
     RequiredSkill2: 23618
     RequiredSkill2Level: 1
     SecondaryAttribute: 167
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3439
     marketGroup: 366
     name: Repair Drone Operation
@@ -282,7 +283,7 @@ items:
     RequiredSkill2: 25863
     RequiredSkill2Level: 2
     SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 3440
     marketGroup: 366
     name: Salvage Drone Operation
@@ -295,7 +296,7 @@ items:
     RequiredSkill2: 23606
     RequiredSkill2Level: 4
     SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
@@ -307,7 +308,7 @@ items:
     RequiredSkill1Level: 1
     SecondaryAttribute: 167
     ShieldBonus: 5.0
-    SkillTimeConstant: 12.0
+    SkillTimeConstant: 12
     id: 40573
     marketGroup: 366
     name: Support Fighters

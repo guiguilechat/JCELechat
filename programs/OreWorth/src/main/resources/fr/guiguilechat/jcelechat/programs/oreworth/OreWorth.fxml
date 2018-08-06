@@ -10,12 +10,12 @@
       <ChoiceBox fx:id="regionSelect" minWidth="-Infinity" BorderPane.alignment="TOP_CENTER" />
    </top>
    <center>
-      <TableView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
         <columns>
-          <TableColumn prefWidth="75.0" text="ore" />
-          <TableColumn prefWidth="75.0" text="SO" />
-            <TableColumn prefWidth="75.0" text="avg" />
-            <TableColumn prefWidth="75.0" text="BO" />
+          <TableColumn fx:id="orename" editable="false" prefWidth="75.0" sortType="DESCENDING" text="ore" />
+          <TableColumn fx:id="oreso" editable="false" prefWidth="75.0" sortType="DESCENDING" text="SO" />
+            <TableColumn fx:id="oreavg" editable="false" prefWidth="75.0" sortType="DESCENDING" text="avg" />
+            <TableColumn fx:id="orebo" editable="false" prefWidth="75.0" sortType="DESCENDING" text="BO" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />

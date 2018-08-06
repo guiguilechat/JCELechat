@@ -1,7 +1,6 @@
 items:
   Large Standard Container:
     Hp: 10
-    SignatureRadius: 100
     StructureUniformity: 1.0
     id: 3296
     marketGroup: 1657
@@ -9,7 +8,6 @@ items:
     volume: 650.0
   Medium Standard Container:
     Hp: 10
-    SignatureRadius: 100
     StructureUniformity: 1.0
     id: 3293
     marketGroup: 1657
@@ -17,7 +15,6 @@ items:
     volume: 325.0
   Small Standard Container:
     Hp: 10
-    SignatureRadius: 100
     StructureUniformity: 1.0
     id: 3297
     marketGroup: 1657

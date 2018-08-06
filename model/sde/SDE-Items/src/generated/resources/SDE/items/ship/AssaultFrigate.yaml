@@ -10,7 +10,6 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 400.0
     CpuOutput: 225
-    EliteBonusEscorts: 10
     EliteBonusGunship1: -5
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
@@ -96,7 +95,6 @@ items:
     DroneBandwidth: 5
     DroneCapacity: 5
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -176,7 +174,6 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 350.0
     CpuOutput: 187
-    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -258,7 +255,6 @@ items:
     CapacitorCapacity: 450.0
     CpuOutput: 185
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -340,7 +336,6 @@ items:
     CapacitorCapacity: 406.29998779296875
     CpuOutput: 190
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -424,7 +419,6 @@ items:
     DroneBandwidth: 25
     DroneCapacity: 50
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 7.5
     EmDamageResonance: 0.6700000166893005
@@ -507,7 +501,6 @@ items:
     DroneBandwidth: 10
     DroneCapacity: 20
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 5
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -588,7 +581,6 @@ items:
     BaseWarpSpeed: 1
     CapacitorCapacity: 612.0
     CpuOutput: 178
-    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -668,7 +660,6 @@ items:
     CapacitorCapacity: 568.7999877929688
     CpuOutput: 140
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 10
     EliteBonusGunship2: 5.0
     EmDamageResonance: 0.6700000166893005
@@ -748,7 +739,6 @@ items:
     CpuOutput: 225
     DroneBandwidth: 25
     DroneCapacity: 75
-    EliteBonusEscorts: 10
     EmDamageResonance: 0.6700000166893005
     ExplosiveDamageResonance: 0.6700000166893005
     FwLpKill: 50
@@ -827,7 +817,6 @@ items:
     CapacitorCapacity: 487.5
     CpuOutput: 170
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: -4
     EliteBonusGunship2: -5.0
     EmDamageResonance: 0.6700000166893005
@@ -907,7 +896,6 @@ items:
     CapacitorCapacity: 357.5
     CpuOutput: 135
     EliteBonusAssaultShips1: 75
-    EliteBonusEscorts: 10
     EliteBonusGunship1: 5
     EliteBonusGunship2: 10.0
     EmDamageResonance: 0.6700000166893005

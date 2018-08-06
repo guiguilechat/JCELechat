@@ -5,7 +5,7 @@ items:
     RequiredSkill1: 3429
     RequiredSkill1Level: 5
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3430
     marketGroup: 1748
     name: Advanced Target Management
@@ -16,7 +16,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
@@ -27,7 +27,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
@@ -37,7 +37,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 2
     SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 3428
     marketGroup: 1748
     name: Long Range Targeting
@@ -48,7 +48,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
@@ -59,7 +59,7 @@ items:
     RequiredSkill1Level: 4
     SecondaryAttribute: 166
     SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
@@ -69,7 +69,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
@@ -80,7 +80,7 @@ items:
     RequiredSkill1: 3426
     RequiredSkill1Level: 1
     SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3429
     marketGroup: 1748
     name: Target Management

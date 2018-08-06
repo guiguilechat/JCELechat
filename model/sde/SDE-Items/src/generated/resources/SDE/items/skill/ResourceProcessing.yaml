@@ -6,7 +6,7 @@ items:
     RequiredSkill1: 45748
     RequiredSkill1Level: 5
     SecondaryAttribute: 165
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 45749
     marketGroup: 1323
     name: Advanced Mass Reactions
@@ -19,7 +19,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12180
     marketGroup: 1323
     name: Arkonor Processing
@@ -32,7 +32,7 @@ items:
     RequiredSkill2: 3386
     RequiredSkill2Level: 4
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3410
     marketGroup: 1323
     name: Astrogeology
@@ -45,7 +45,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12181
     marketGroup: 1323
     name: Bistot Processing
@@ -58,7 +58,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 46153
     marketGroup: 1323
     name: Common Moon Ore Processing
@@ -71,7 +71,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 12182
     marketGroup: 1323
     name: Crokite Processing
@@ -84,7 +84,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 12183
     marketGroup: 1323
     name: Dark Ochre Processing
@@ -98,7 +98,7 @@ items:
     RequiredSkill2: 3410
     RequiredSkill2Level: 5
     SecondaryAttribute: 165
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 11395
     marketGroup: 1323
     name: Deep Core Mining
@@ -111,7 +111,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 46156
     marketGroup: 1323
     name: Exceptional Moon Ore Processing
@@ -121,7 +121,7 @@ items:
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 25544
     marketGroup: 1323
     name: Gas Cloud Harvesting
@@ -134,7 +134,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 12184
     marketGroup: 1323
     name: Gneiss Processing
@@ -147,7 +147,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 12185
     marketGroup: 1323
     name: Hedbergite Processing
@@ -160,7 +160,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 12186
     marketGroup: 1323
     name: Hemorphite Processing
@@ -171,7 +171,7 @@ items:
     RequiredSkill1: 3386
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 16281
     marketGroup: 1323
     name: Ice Harvesting
@@ -184,7 +184,7 @@ items:
     RequiredSkill2: 11443
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 18025
     marketGroup: 1323
     name: Ice Processing
@@ -195,7 +195,7 @@ items:
     RequiredSkill1: 24625
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     id: 28585
     marketGroup: 1323
     name: Industrial Reconfiguration
@@ -208,7 +208,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 12187
     marketGroup: 1323
     name: Jaspet Processing
@@ -221,7 +221,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 12188
     marketGroup: 1323
     name: Kernite Processing
@@ -233,7 +233,7 @@ items:
     RequiredSkill1: 45746
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 45748
     marketGroup: 1323
     name: Mass Reactions
@@ -246,7 +246,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12189
     marketGroup: 1323
     name: Mercoxit Processing
@@ -255,7 +255,7 @@ items:
     MiningAmountBonus: 5
     PrimaryAttribute: 166
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3386
     marketGroup: 1323
     name: Mining
@@ -266,7 +266,7 @@ items:
     RequiredSkill1: 3386
     RequiredSkill1Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 22578
     marketGroup: 1323
     name: Mining Upgrades
@@ -279,7 +279,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     id: 12190
     marketGroup: 1323
     name: Omber Processing
@@ -292,7 +292,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 12191
     marketGroup: 1323
     name: Plagioclase Processing
@@ -305,7 +305,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 12192
     marketGroup: 1323
     name: Pyroxeres Processing
@@ -318,7 +318,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 7.0
+    SkillTimeConstant: 7
     id: 46155
     marketGroup: 1323
     name: Rare Moon Ore Processing
@@ -327,7 +327,7 @@ items:
     PrimaryAttribute: 166
     ReactionTimeBonus: -4
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 45746
     marketGroup: 1323
     name: Reactions
@@ -338,7 +338,7 @@ items:
     RequiredSkill1: 45746
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 45750
     marketGroup: 1323
     name: Remote Reactions
@@ -349,7 +349,7 @@ items:
     RequiredSkill1: 3380
     RequiredSkill1Level: 1
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 3385
     marketGroup: 1323
     name: Reprocessing
@@ -360,7 +360,7 @@ items:
     RequiredSkill1: 3385
     RequiredSkill1Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 3389
     marketGroup: 1323
     name: Reprocessing Efficiency
@@ -373,7 +373,7 @@ items:
     RequiredSkill2: 3551
     RequiredSkill2Level: 3
     SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 25863
     marketGroup: 1323
     name: Salvaging
@@ -386,7 +386,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 12193
     marketGroup: 1323
     name: Scordite Processing
@@ -399,7 +399,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 5
     SecondaryAttribute: 165
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     id: 12196
     marketGroup: 1323
     name: Scrapmetal Processing
@@ -412,7 +412,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     id: 12194
     marketGroup: 1323
     name: Spodumain Processing
@@ -425,7 +425,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     id: 46152
     marketGroup: 1323
     name: Ubiquitous Moon Ore Processing
@@ -438,7 +438,7 @@ items:
     RequiredSkill2: 3409
     RequiredSkill2Level: 4
     SecondaryAttribute: 165
-    SkillTimeConstant: 6.0
+    SkillTimeConstant: 6
     id: 46154
     marketGroup: 1323
     name: Uncommon Moon Ore Processing
@@ -451,7 +451,7 @@ items:
     RequiredSkill2: 3402
     RequiredSkill2Level: 3
     SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     id: 12195
     marketGroup: 1323
     name: Veldspar Processing

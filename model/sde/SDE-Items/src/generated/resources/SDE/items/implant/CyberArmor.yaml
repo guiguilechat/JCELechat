@@ -77,6 +77,7 @@ items:
     name: Inherent Implants 'Noble' Hull Upgrades HG-1008
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-801:
+    HullHpBonus: 1
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -86,7 +87,7 @@ items:
     name: Inherent Implants 'Noble' Mechanic MC-801
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-802:
-    HullHpBonus: 2.0
+    HullHpBonus: 2
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 1
@@ -96,6 +97,7 @@ items:
     name: Inherent Implants 'Noble' Mechanic MC-802
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-803:
+    HullHpBonus: 3
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 2
@@ -105,7 +107,7 @@ items:
     name: Inherent Implants 'Noble' Mechanic MC-803
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-804:
-    HullHpBonus: 4.0
+    HullHpBonus: 4
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 3
@@ -115,6 +117,7 @@ items:
     name: Inherent Implants 'Noble' Mechanic MC-804
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-805:
+    HullHpBonus: 5
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 4
@@ -124,7 +127,7 @@ items:
     name: Inherent Implants 'Noble' Mechanic MC-805
     volume: 1.0
   Inherent Implants 'Noble' Mechanic MC-806:
-    HullHpBonus: 6.0
+    HullHpBonus: 6
     Implantness: 8
     RequiredSkill1: 3411
     RequiredSkill1Level: 5

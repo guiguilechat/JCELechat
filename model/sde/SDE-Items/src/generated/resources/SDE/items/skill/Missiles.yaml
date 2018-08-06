@@ -5,7 +5,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     SpeedFactor: 1.0
     id: 3322
     marketGroup: 373
@@ -17,7 +17,7 @@ items:
     RequiredSkill1Level: 4
     RofBonus: -10
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     SpeedFactor: 1.0
     id: 28073
     marketGroup: 373
@@ -32,7 +32,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     SpeedFactor: 1.0
     id: 20212
     marketGroup: 373
@@ -46,7 +46,7 @@ items:
     RequiredSkill2: 3324
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     SpeedFactor: 1.0
     id: 3326
     marketGroup: 373
@@ -56,7 +56,7 @@ items:
     MissileVelocityBonus: 10.0
     PrimaryAttribute: 167
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     SpeedFactor: 1.0
     id: 3323
     marketGroup: 373
@@ -68,7 +68,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     SpeedFactor: 1.0
     id: 20312
     marketGroup: 373
@@ -83,7 +83,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     SpeedFactor: 1.0
     id: 25718
     marketGroup: 373
@@ -97,7 +97,7 @@ items:
     RequiredSkill2: 3321
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     SpeedFactor: 1.0
     id: 25719
     marketGroup: 373
@@ -112,7 +112,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     SpeedFactor: 1.0
     id: 20211
     marketGroup: 373
@@ -126,7 +126,7 @@ items:
     RequiredSkill2: 3321
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     SpeedFactor: 1.0
     id: 3324
     marketGroup: 373
@@ -141,7 +141,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     SpeedFactor: 1.0
     id: 20210
     marketGroup: 373
@@ -153,7 +153,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     SpeedFactor: 1.0
     id: 3321
     marketGroup: 373
@@ -165,7 +165,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     SpeedFactor: 1.0
     id: 12441
     marketGroup: 373
@@ -175,7 +175,7 @@ items:
     PrimaryAttribute: 167
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     SpeedFactor: 1.0
     id: 3319
     marketGroup: 373
@@ -186,7 +186,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     SpeedFactor: 10.0
     id: 12442
     marketGroup: 373
@@ -198,7 +198,7 @@ items:
     RequiredSkill1Level: 2
     RofBonus: -3
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     SpeedFactor: 1.0
     id: 21071
     marketGroup: 373
@@ -213,7 +213,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    SkillTimeConstant: 3
     SpeedFactor: 1.0
     id: 20209
     marketGroup: 373
@@ -225,7 +225,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 1
     SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    SkillTimeConstant: 1
     SpeedFactor: 1.0
     id: 3320
     marketGroup: 373
@@ -237,7 +237,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 2
     SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    SkillTimeConstant: 2
     SpeedFactor: 1.0
     id: 20314
     marketGroup: 373
@@ -252,7 +252,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    SkillTimeConstant: 8
     SpeedFactor: 1.0
     id: 20213
     marketGroup: 373
@@ -266,7 +266,7 @@ items:
     RequiredSkill2: 3324
     RequiredSkill2Level: 3
     SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    SkillTimeConstant: 4
     SpeedFactor: 1.0
     id: 3325
     marketGroup: 373
@@ -278,7 +278,7 @@ items:
     RequiredSkill1: 3319
     RequiredSkill1Level: 4
     SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    SkillTimeConstant: 5
     SpeedFactor: 1.0
     id: 20315
     marketGroup: 373
@@ -293,7 +293,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     SpeedFactor: 1.0
     id: 41410
     marketGroup: 373
@@ -308,7 +308,7 @@ items:
     RequiredSkill2: 3326
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    SkillTimeConstant: 7
     SpeedFactor: 1.0
     id: 32435
     marketGroup: 373
@@ -323,7 +323,7 @@ items:
     RequiredSkill2Level: 5
     RofBonus: -2
     SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    SkillTimeConstant: 10
     SpeedFactor: 1.0
     id: 41409
     marketGroup: 373
@@ -338,7 +338,7 @@ items:
     RequiredSkill2: 3325
     RequiredSkill2Level: 5
     SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    SkillTimeConstant: 7
     SpeedFactor: 1.0
     id: 21668
     marketGroup: 373
