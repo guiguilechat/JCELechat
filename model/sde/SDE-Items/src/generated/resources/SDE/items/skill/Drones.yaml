@@ -261,18 +261,6 @@ items:
     marketGroup: 366
     name: Minmatar Drone Specialization
     volume: 0.01
-  Propulsion Jamming Drone Interfacing:
-    PrimaryAttribute: 166
-    PropulsionSkillPropulsionStrengthBonus: 5
-    RequiredSkill1: 3442
-    RequiredSkill1Level: 4
-    RequiredSkill2: 12305
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
-    id: 23599
-    name: Propulsion Jamming Drone Interfacing
-    volume: 0.01
   Repair Drone Operation:
     DamageHP: 5
     PrimaryAttribute: 166
@@ -323,13 +311,4 @@ items:
     id: 40573
     marketGroup: 366
     name: Support Fighters
-    volume: 0.01
-  TEST Drone Skill:
-    PrimaryAttribute: 166
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
-    id: 22172
-    name: TEST Drone Skill
     volume: 0.01

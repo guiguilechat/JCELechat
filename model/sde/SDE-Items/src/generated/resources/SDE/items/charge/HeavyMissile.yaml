@@ -231,33 +231,6 @@ items:
     marketGroup: 1002
     name: Dread Guristas Scourge Heavy Missile
     volume: 0.03
-  Ghost Heavy Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 10000
-    ExplosiveDamage: 79.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 120
-    KineticDamage: 79.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 510
-    MaxVelocity: 3750.0
-    RequiredSkill1: 3324
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 2212
-    name: Ghost Heavy Missile
-    volume: 0.03
   Guristas Inferno Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -455,58 +428,6 @@ items:
     marketGroup: 924
     name: Nova Heavy Missile
     volume: 0.03
-  Praedormitan Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 10000
-    ExplosiveDamage: 79.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 500
-    KineticDamage: 79.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 510
-    MaxVelocity: 3750.0
-    RequiredSkill1: 3324
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 30428
-    name: Praedormitan Missile
-    volume: 0.03
-  Sansha Thunderbolt Heavy Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamage: 173.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 10000
-    ExplosiveDamageResonance: 1.0
-    Hp: 120
-    KineticDamageResonance: 1.0
-    LauncherGroup: 510
-    RequiredSkill1: 3324
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27889
-    name: Sansha Thunderbolt Heavy Missile
-    volume: 0.03
   Scourge Heavy Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -533,29 +454,4 @@ items:
     id: 209
     marketGroup: 924
     name: Scourge Heavy Missile
-    volume: 0.03
-  True Sansha Thunderbolt Heavy Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamage: 189.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 10000
-    ExplosiveDamageResonance: 1.0
-    Hp: 120
-    KineticDamageResonance: 1.0
-    LauncherGroup: 510
-    RequiredSkill1: 3324
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27890
-    name: True Sansha Thunderbolt Heavy Missile
     volume: 0.03

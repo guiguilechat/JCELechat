@@ -359,34 +359,6 @@ items:
     marketGroup: 1001
     name: Guristas Scourge Cruise Missile
     volume: 0.05
-  Haunter Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000
-    ExplosiveDamage: 188.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240
-    KineticDamage: 188.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 506
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 2165
-    name: Haunter Cruise Missile
-    volume: 0.05
   Inferno Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -471,85 +443,6 @@ items:
     marketGroup: 921
     name: Nova Cruise Missile
     volume: 0.05
-  Phantasmata Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000
-    ExplosiveDamage: 188.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 600
-    KineticDamage: 188.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 30426
-    name: Phantasmata Missile
-    volume: 0.05
-  QA Cruise Missile:
-    AimedLaunch: 1
-    AoeCloudSize: 1
-    AoeDamageReductionFactor: 0.5
-    AoeFalloff: 10000
-    AoeVelocity: 10000.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 5000
-    ExplosiveDamageResonance: 1.0
-    Hp: 1000
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506
-    MaxVelocity: 100000.0
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    SpeedFactor: 1000.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 17908
-    name: QA Cruise Missile
-    volume: 0.001
-  Sansha Paradise Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 110
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 14000
-    ExplosiveDamage: 263.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 240
-    KineticDamage: 225.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 506
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27893
-    name: Sansha Paradise Cruise Missile
-    volume: 0.05
   Scourge Cruise Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -577,31 +470,4 @@ items:
     id: 203
     marketGroup: 921
     name: Scourge Cruise Missile
-    volume: 0.05
-  True Sansha Paradise Cruise Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamage: 450.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 14000
-    ExplosiveDamageResonance: 1.0
-    Hp: 240
-    KineticDamageResonance: 1.0
-    LauncherGroup: 506
-    MaxVelocity: 4700.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    SpeedFactor: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27894
-    name: True Sansha Paradise Cruise Missile
     volume: 0.05

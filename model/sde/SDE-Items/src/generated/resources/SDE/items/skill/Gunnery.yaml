@@ -659,14 +659,6 @@ items:
     marketGroup: 364
     name: Surgical Strike
     volume: 0.01
-  Tactical Strike:
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
-    id: 32856
-    name: Tactical Strike
-    volume: 0.01
   Tactical Weapon Reconfiguration:
     CanNotBeTrainedOnTrial: 1
     ConsumptionQuantityBonus: 25

@@ -529,65 +529,6 @@ items:
     marketGroup: 694
     name: Draclira's Modified Heavy Energy Nosferatu
     volume: 5.0
-  E5 Prototype Energy Vampire:
-    Duration: 2500.0
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 4000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 9
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5135
-    name: E5 Prototype Energy Vampire
-    volume: 5.0
-  E50 Prototype Energy Vampire:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 8000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 33
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16509
-    name: E50 Prototype Energy Vampire
-    volume: 5.0
-  E500 Prototype Energy Vampire:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 110
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16501
-    name: E500 Prototype Energy Vampire
-    volume: 5.0
   Heavy 'Vrykolakas' Energy Nosferatu:
     Duration: 10000.0
     FalloffEffectiveness: 10000
@@ -608,26 +549,6 @@ items:
     id: 23829
     marketGroup: 694
     name: Heavy 'Vrykolakas' Energy Nosferatu
-    volume: 5.0
-  Heavy Diminishing Power System Drain I:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 16000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 110
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16503
-    name: Heavy Diminishing Power System Drain I
     volume: 5.0
   Heavy Energy Nosferatu I:
     Duration: 10000.0
@@ -794,26 +715,6 @@ items:
     marketGroup: 693
     name: Medium 'Strigoi' Energy Nosferatu
     volume: 5.0
-  Medium Diminishing Power System Drain I:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40
-    MaxRange: 8000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 33
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16511
-    name: Medium Diminishing Power System Drain I
-    volume: 5.0
   Medium Energy Nosferatu I:
     Duration: 5000.0
     FalloffEffectiveness: 4000
@@ -937,26 +838,6 @@ items:
     marketGroup: 694
     name: Selynne's Modified Heavy Energy Nosferatu
     volume: 5.0
-  Shaqil's Modified Heavy Energy Nosferatu:
-    Duration: 10000.0
-    FalloffEffectiveness: 16000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40
-    MaxRange: 32000
-    MetaGroupID: 5
-    MetaLevel: 17
-    OverloadSelfDurationBonus: -15.0
-    Power: 2800
-    PowerTransferAmount: 130
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 15451
-    name: Shaqil's Modified Heavy Energy Nosferatu
-    volume: 5.0
   Small 'Upir' Energy Nosferatu:
     Duration: 2500.0
     FalloffEffectiveness: 2500
@@ -977,25 +858,6 @@ items:
     id: 23821
     marketGroup: 692
     name: Small 'Upir' Energy Nosferatu
-    volume: 5.0
-  Small Diminishing Power System Drain I:
-    Duration: 2500.0
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40
-    MaxRange: 4000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 9
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 5139
-    name: Small Diminishing Power System Drain I
     volume: 5.0
   Small Energy Nosferatu I:
     Duration: 2500.0

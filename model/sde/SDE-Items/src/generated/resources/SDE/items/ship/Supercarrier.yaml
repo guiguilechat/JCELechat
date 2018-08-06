@@ -224,48 +224,6 @@ items:
     marketGroup: 821
     name: Hel
     volume: 5.1E7
-  Nation:
-    AdvancedAgility: 1
-    AdvancedCapitalAgility: 1
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    EntosisDurationMultiplier: 1
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityKamikazeResistance: 1
-    GateScrambleStatus: -1000
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000
-    KineticDamageResonance: 1.0
-    MaximumRangeCap: 300000
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    RoleBonusCommandBurstAoERange: 200
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    ShipBonusRole1: 1.0
-    SignatureRadius: 100
-    StasisWebifierResistance: 1.0
-    StructureUniformity: 1.0
-    TargetPainterResistance: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    WeaponDisruptionResistance: 1.0
-    id: 3628
-    name: Nation
-    volume: 6.2E7
   Nyx:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1

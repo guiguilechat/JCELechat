@@ -92,13 +92,6 @@ public class WarpScrambler
     @DefaultIntValue(0)
     public int MetaGroupID;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MinRange;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -199,10 +192,6 @@ public class WarpScrambler
             case  1692 :
             {
                 return MetaGroupID;
-            }
-            case  8 :
-            {
-                return MinRange;
             }
             case  1222 :
             {

@@ -1,9 +1,4 @@
 items:
-  Black Morphite:
-    MoonMiningAmount: 100
-    id: 20431
-    name: Black Morphite
-    volume: 0.01
   Caesarium Cadmide:
     MoonMiningAmount: 100
     id: 16663

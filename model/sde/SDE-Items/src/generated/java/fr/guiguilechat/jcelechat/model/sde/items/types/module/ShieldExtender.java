@@ -18,8 +18,8 @@ public class ShieldExtender
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CapacityBonus;
+    @DefaultIntValue(0)
+    public int CapacityBonus;
     /**
      * CPU need of module
      */

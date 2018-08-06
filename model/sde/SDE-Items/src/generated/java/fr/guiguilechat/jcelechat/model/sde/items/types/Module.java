@@ -34,7 +34,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.CargoScanner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.CloakingDevice;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.CloneVatBay;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.CommandBurst;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.CountermeasureLauncher;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.CynosuralField;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.DamageControl;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.DataMiners;
@@ -43,7 +42,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.DroneDamageModules
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.DroneNavigationComputer;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.DroneTrackingEnhancer;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.DroneTrackingModules;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.ECCM;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ECM;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ECMStabilizer;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.EnergyNeutralizer;
@@ -88,15 +86,12 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherTor
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherXLCruise;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.MissileLauncherXLTorpedo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.NanofiberInternalStructure;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.NonRepeatingHardeners;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.OverdriveInjectorSystem;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.PassiveTargetingSystem;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.PowerDiagnosticSystem;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.PrecursorWeapon;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.ProjectedECCM;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ProjectileWeapon;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.PropulsionModule;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.QAModule;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ReactorControlUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ReinforcedBulkhead;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RemoteArmorRepairer;
@@ -113,7 +108,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigElectronicSyste
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigEnergyWeapon;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigHybridWeapon;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigLauncher;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigMining;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigNavigation;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigProjectileWeapon;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.RigResourceProcessing;
@@ -124,7 +118,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.Salvager;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ScanProbeLauncher;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ScanningUpgrade;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ScanningUpgradeTime;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.SensorBackupArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SensorBooster;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SensorDampener;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShieldBoostAmplifier;
@@ -135,11 +128,9 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShieldHardener;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShieldPowerRelay;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShieldRecharger;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShieldResistanceAmplifier;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShipModifiers;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.ShipScanner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SiegeModule;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SignalAmplifier;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.SignatureScrambling;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SmartBomb;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.StasisGrappler;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.StasisWeb;
@@ -147,7 +138,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.module.StripMiner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SuperWeapon;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SurveyProbeLauncher;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.SurveyScanner;
-import fr.guiguilechat.jcelechat.model.sde.items.types.module.SystemScanner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.TargetBreaker;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.TargetPainter;
 import fr.guiguilechat.jcelechat.model.sde.items.types.module.TitanPhenomenaGenerator;
@@ -220,6 +210,6 @@ public abstract class Module
     }
 
     public static Map<String, ? extends Module> loadCategory() {
-        return Stream.of(AncillaryArmorRepairer.load(), AncillaryRemoteArmorRepairer.load(), AncillaryRemoteShieldBooster.load(), AncillaryShieldBooster.load(), ArmorCoating.load(), ArmorHardener.load(), ArmorPlatingEnergized.load(), ArmorReinforcer.load(), ArmorRepairUnit.load(), ArmorResistanceShiftHardener.load(), AutomatedTargetingSystem.load(), AuxiliaryPowerCore.load(), BallisticControlSystem.load(), BurstJammer.load(), BurstProjectors.load(), CPUEnhancer.load(), CapacitorBattery.load(), CapacitorBooster.load(), CapacitorFluxCoil.load(), CapacitorPowerRelay.load(), CapacitorRecharger.load(), CapitalSensorArray.load(), CargoScanner.load(), CloakingDevice.load(), CloneVatBay.load(), CommandBurst.load(), CountermeasureLauncher.load(), CynosuralField.load(), DamageControl.load(), DataMiners.load(), DroneControlRangeModule.load(), DroneDamageModules.load(), DroneNavigationComputer.load(), DroneTrackingEnhancer.load(), DroneTrackingModules.load(), ECCM.load(), ECM.load(), ECMStabilizer.load(), EnergyNeutralizer.load(), EnergyNosferatu.load(), EnergyWeapon.load(), EntosisLink.load(), EntropicRadiationSink.load(), ExpandedCargohold.load(), FestivalLauncher.load(), FighterSupportUnit.load(), FlexArmorHardener.load(), FlexShieldHardener.load(), FrequencyMiningLaser.load(), GangCoordinator.load(), GasCloudHarvester.load(), Gyrostabilizer.load(), HeatSink.load(), HullRepairUnit.load(), HybridWeapon.load(), InertialStabilizer.load(), InterdictionSphereLauncher.load(), JumpDriveEconomizer.load(), JumpPortalGenerator.load(), MagneticFieldStabilizer.load(), MicroJumpDrive.load(), MicroJumpFieldGenerators.load(), MiningLaser.load(), MiningUpgrade.load(), MissileGuidanceComputer.load(), MissileGuidanceEnhancer.load(), MissileLauncherBomb.load(), MissileLauncherCruise.load(), MissileLauncherDefender.load(), MissileLauncherHeavy.load(), MissileLauncherHeavyAssault.load(), MissileLauncherLight.load(), MissileLauncherRapidHeavy.load(), MissileLauncherRapidLight.load(), MissileLauncherRapidTorpedo.load(), MissileLauncherRocket.load(), MissileLauncherTorpedo.load(), MissileLauncherXLCruise.load(), MissileLauncherXLTorpedo.load(), NanofiberInternalStructure.load(), NonRepeatingHardeners.load(), OverdriveInjectorSystem.load(), PassiveTargetingSystem.load(), PowerDiagnosticSystem.load(), PrecursorWeapon.load(), ProjectedECCM.load(), ProjectileWeapon.load(), PropulsionModule.load(), QAModule.load(), ReactorControlUnit.load(), ReinforcedBulkhead.load(), RemoteArmorRepairer.load(), RemoteCapacitorTransmitter.load(), RemoteHullRepairer.load(), RemoteSensorBooster.load(), RemoteShieldBooster.load(), RemoteTrackingComputer.load(), RigAnchor.load(), RigArmor.load(), RigCore.load(), RigDrones.load(), RigElectronicSystems.load(), RigEnergyWeapon.load(), RigHybridWeapon.load(), RigLauncher.load(), RigMining.load(), RigNavigation.load(), RigProjectileWeapon.load(), RigResourceProcessing.load(), RigScanning.load(), RigShield.load(), RigTargeting.load(), Salvager.load(), ScanProbeLauncher.load(), ScanningUpgrade.load(), ScanningUpgradeTime.load(), SensorBackupArray.load(), SensorBooster.load(), SensorDampener.load(), ShieldBoostAmplifier.load(), ShieldBooster.load(), ShieldExtender.load(), ShieldFluxCoil.load(), ShieldHardener.load(), ShieldPowerRelay.load(), ShieldRecharger.load(), ShieldResistanceAmplifier.load(), ShipModifiers.load(), ShipScanner.load(), SiegeModule.load(), SignalAmplifier.load(), SignatureScrambling.load(), SmartBomb.load(), StasisGrappler.load(), StasisWeb.load(), StripMiner.load(), SuperWeapon.load(), SurveyProbeLauncher.load(), SurveyScanner.load(), SystemScanner.load(), TargetBreaker.load(), TargetPainter.load(), TitanPhenomenaGenerator.load(), TrackingComputer.load(), TrackingEnhancer.load(), TractorBeam.load(), WarpAccelerator.load(), WarpCoreStabilizer.load(), WarpDisruptFieldGenerator.load(), WarpScrambler.load(), WeaponDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AncillaryArmorRepairer.load(), AncillaryRemoteArmorRepairer.load(), AncillaryRemoteShieldBooster.load(), AncillaryShieldBooster.load(), ArmorCoating.load(), ArmorHardener.load(), ArmorPlatingEnergized.load(), ArmorReinforcer.load(), ArmorRepairUnit.load(), ArmorResistanceShiftHardener.load(), AutomatedTargetingSystem.load(), AuxiliaryPowerCore.load(), BallisticControlSystem.load(), BurstJammer.load(), BurstProjectors.load(), CPUEnhancer.load(), CapacitorBattery.load(), CapacitorBooster.load(), CapacitorFluxCoil.load(), CapacitorPowerRelay.load(), CapacitorRecharger.load(), CapitalSensorArray.load(), CargoScanner.load(), CloakingDevice.load(), CloneVatBay.load(), CommandBurst.load(), CynosuralField.load(), DamageControl.load(), DataMiners.load(), DroneControlRangeModule.load(), DroneDamageModules.load(), DroneNavigationComputer.load(), DroneTrackingEnhancer.load(), DroneTrackingModules.load(), ECM.load(), ECMStabilizer.load(), EnergyNeutralizer.load(), EnergyNosferatu.load(), EnergyWeapon.load(), EntosisLink.load(), EntropicRadiationSink.load(), ExpandedCargohold.load(), FestivalLauncher.load(), FighterSupportUnit.load(), FlexArmorHardener.load(), FlexShieldHardener.load(), FrequencyMiningLaser.load(), GangCoordinator.load(), GasCloudHarvester.load(), Gyrostabilizer.load(), HeatSink.load(), HullRepairUnit.load(), HybridWeapon.load(), InertialStabilizer.load(), InterdictionSphereLauncher.load(), JumpDriveEconomizer.load(), JumpPortalGenerator.load(), MagneticFieldStabilizer.load(), MicroJumpDrive.load(), MicroJumpFieldGenerators.load(), MiningLaser.load(), MiningUpgrade.load(), MissileGuidanceComputer.load(), MissileGuidanceEnhancer.load(), MissileLauncherBomb.load(), MissileLauncherCruise.load(), MissileLauncherDefender.load(), MissileLauncherHeavy.load(), MissileLauncherHeavyAssault.load(), MissileLauncherLight.load(), MissileLauncherRapidHeavy.load(), MissileLauncherRapidLight.load(), MissileLauncherRapidTorpedo.load(), MissileLauncherRocket.load(), MissileLauncherTorpedo.load(), MissileLauncherXLCruise.load(), MissileLauncherXLTorpedo.load(), NanofiberInternalStructure.load(), OverdriveInjectorSystem.load(), PassiveTargetingSystem.load(), PowerDiagnosticSystem.load(), PrecursorWeapon.load(), ProjectileWeapon.load(), PropulsionModule.load(), ReactorControlUnit.load(), ReinforcedBulkhead.load(), RemoteArmorRepairer.load(), RemoteCapacitorTransmitter.load(), RemoteHullRepairer.load(), RemoteSensorBooster.load(), RemoteShieldBooster.load(), RemoteTrackingComputer.load(), RigAnchor.load(), RigArmor.load(), RigCore.load(), RigDrones.load(), RigElectronicSystems.load(), RigEnergyWeapon.load(), RigHybridWeapon.load(), RigLauncher.load(), RigNavigation.load(), RigProjectileWeapon.load(), RigResourceProcessing.load(), RigScanning.load(), RigShield.load(), RigTargeting.load(), Salvager.load(), ScanProbeLauncher.load(), ScanningUpgrade.load(), ScanningUpgradeTime.load(), SensorBooster.load(), SensorDampener.load(), ShieldBoostAmplifier.load(), ShieldBooster.load(), ShieldExtender.load(), ShieldFluxCoil.load(), ShieldHardener.load(), ShieldPowerRelay.load(), ShieldRecharger.load(), ShieldResistanceAmplifier.load(), ShipScanner.load(), SiegeModule.load(), SignalAmplifier.load(), SmartBomb.load(), StasisGrappler.load(), StasisWeb.load(), StripMiner.load(), SuperWeapon.load(), SurveyProbeLauncher.load(), SurveyScanner.load(), TargetBreaker.load(), TargetPainter.load(), TitanPhenomenaGenerator.load(), TrackingComputer.load(), TrackingEnhancer.load(), TractorBeam.load(), WarpAccelerator.load(), WarpCoreStabilizer.load(), WarpDisruptFieldGenerator.load(), WarpScrambler.load(), WeaponDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

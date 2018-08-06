@@ -1,15 +1,4 @@
 items:
-  BakerBlueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 45670
-    marketGroup: 1028
-    name: BakerBlueprint_PLACEHOLDER
-  CharlieBlueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 45672
-    marketGroup: 1028
-    name: CharlieBlueprint_PLACEHOLDER
-    volume: 0.01
   Dragonfly I Blueprint:
     IndustryBlueprintRank: 40.0
     TechLevel: 1

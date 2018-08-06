@@ -1,11 +1,4 @@
 items:
-  Adrestia Blueprint:
-    IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 2837
-    name: Adrestia Blueprint
-    volume: 0.01
   Arazu Blueprint:
     IndustryBlueprintRank: 800.0
     IndustryJobCostMultiplier: 1
@@ -258,13 +251,6 @@ items:
     id: 969
     marketGroup: 274
     name: Maller Blueprint
-    volume: 0.01
-  Mimir Blueprint:
-    IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 32210
-    name: Mimir Blueprint
     volume: 0.01
   Moa Blueprint:
     IndustryBlueprintRank: 40.0
@@ -577,13 +563,13 @@ items:
     id: 34480
     name: 伊什塔级YC117年特别版蓝图
     volume: 0.01
-  毒蜥级YC117年特别版蓝图:
+  毒���级YC117年特别版蓝图:
     TechLevel: 1
     id: 34476
-    name: 毒蜥级YC117年特别版蓝图
+    name: 毒���级YC117年特别版蓝图
     volume: 0.01
-  银鹰级YC117年特别版蓝图:
+  银��级YC117年特别版蓝图:
     TechLevel: 1
     id: 34478
-    name: 银鹰级YC117年特别版蓝图
+    name: 银��级YC117年特别版蓝图
     volume: 0.01

@@ -23,11 +23,6 @@ items:
     marketGroup: 599
     name: Gamma XL Blueprint
     volume: 0.01
-  Imperial Navy Multifrequency S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 23072
-    name: Imperial Navy Multifrequency S Blueprint
-    volume: 0.01
   Infrared L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1172
@@ -99,11 +94,6 @@ items:
     id: 17687
     marketGroup: 599
     name: Multifrequency XL Blueprint
-    volume: 0.01
-  Orbital Laser S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 32800
-    name: Orbital Laser S Blueprint
     volume: 0.01
   Radio L Blueprint:
     IndustryBlueprintRank: 3.0

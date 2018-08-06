@@ -24,46 +24,6 @@ items:
     marketGroup: 2156
     name: Keepstar Blueprint
     volume: 0.01
-  Large Administration Hub Blueprint:
-    id: 36963
-    name: Large Administration Hub Blueprint
-    volume: 0.01
-  Large Advertisement Center Blueprint:
-    id: 37540
-    name: Large Advertisement Center Blueprint
-    volume: 0.01
-  Large Laboratory Blueprint:
-    id: 36975
-    name: Large Laboratory Blueprint
-    volume: 0.01
-  Large Observatory Array Blueprint:
-    id: 36981
-    name: Large Observatory Array Blueprint
-    volume: 0.01
-  Large Stargate Blueprint:
-    id: 37538
-    name: Large Stargate Blueprint
-    volume: 0.01
-  Medium Administration Hub Blueprint:
-    id: 36962
-    name: Medium Administration Hub Blueprint
-    volume: 0.01
-  Medium Advertisement Center Blueprint:
-    id: 37539
-    name: Medium Advertisement Center Blueprint
-    volume: 0.01
-  Medium Laboratory Blueprint:
-    id: 36974
-    name: Medium Laboratory Blueprint
-    volume: 0.01
-  Medium Observatory Array Blueprint:
-    id: 36980
-    name: Medium Observatory Array Blueprint
-    volume: 0.01
-  Medium Stargate blueprint:
-    id: 36960
-    name: Medium Stargate blueprint
-    volume: 0.01
   Raitaru Blueprint:
     id: 36971
     marketGroup: 2322
@@ -82,28 +42,4 @@ items:
   Upwell Palatine Keepstar Blueprint:
     id: 40521
     name: Upwell Palatine Keepstar Blueprint
-    volume: 0.01
-  X-Large Administration Hub Blueprint:
-    id: 36964
-    name: X-Large Administration Hub Blueprint
-    volume: 0.01
-  X-Large Advertisement Center Blueprint:
-    id: 36965
-    name: X-Large Advertisement Center Blueprint
-    volume: 0.01
-  X-Large Drilling Platform Blueprint:
-    id: 36979
-    name: X-Large Drilling Platform Blueprint
-    volume: 0.01
-  X-Large Laboratory Blueprint:
-    id: 36976
-    name: X-Large Laboratory Blueprint
-    volume: 0.01
-  X-Large Observatory Array Blueprint:
-    id: 37537
-    name: X-Large Observatory Array Blueprint
-    volume: 0.01
-  X-Large Stargate Blueprint:
-    id: 36961
-    name: X-Large Stargate Blueprint
     volume: 0.01

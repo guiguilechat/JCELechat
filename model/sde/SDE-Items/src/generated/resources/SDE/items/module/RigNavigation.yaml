@@ -557,25 +557,6 @@ items:
     marketGroup: 1211
     name: Medium Warp Core Optimizer II
     volume: 10.0
-  Propellant Injection Vent I:
-    Drawback: -10
-    Hp: 40
-    SpeedFBonus: 15
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 26064
-    name: Propellant Injection Vent I
-    volume: 5.0
-  Propellant Injection Vent II:
-    Drawback: -10
-    Hp: 40
-    MetaLevel: 5
-    SpeedFBonus: 20
-    TechLevel: 2
-    UpgradeCost: 150
-    id: 26314
-    name: Propellant Injection Vent II
-    volume: 5.0
   Small Auxiliary Thrusters I:
     Drawback: -10
     Hp: 40

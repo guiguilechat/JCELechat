@@ -92,13 +92,6 @@ public class ShieldHardener
     @DefaultIntValue(0)
     public int OverloadHardeningBonus;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(1)
-    public int PassiveExplosiveDamageResonanceMultiplier;
-    /**
      * current power need
      */
     @HighIsGood(false)
@@ -178,10 +171,6 @@ public class ShieldHardener
             case  1208 :
             {
                 return OverloadHardeningBonus;
-            }
-            case  967 :
-            {
-                return PassiveExplosiveDamageResonanceMultiplier;
             }
             case  30 :
             {

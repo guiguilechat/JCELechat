@@ -40,16 +40,6 @@ items:
     marketGroup: 667
     name: Ahremen's Modified Capacitor Power Relay
     volume: 5.0
-  'Alpha Reactor Control: Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Hp: 40
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1
-    id: 8205
-    name: 'Alpha Reactor Control: Capacitor Power Relay'
-    volume: 5.0
   Ammatar Navy Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.75
     Hp: 40
@@ -62,17 +52,6 @@ items:
     id: 17510
     marketGroup: 667
     name: Ammatar Navy Capacitor Power Relay
-    volume: 5.0
-  'Beta Reactor Control: Capacitor Power Relay I':
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
-    Hp: 40
-    MetaLevel: 4
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldBoostMultiplier: -10.0
-    TechLevel: 1
-    id: 8173
-    name: 'Beta Reactor Control: Capacitor Power Relay I'
     volume: 5.0
   Brokara's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.731249988079071
@@ -175,17 +154,6 @@ items:
     marketGroup: 667
     name: Khanid Navy Capacitor Power Relay
     volume: 5.0
-  'Local Power Plant Manager: Capacity Power Relay I':
-    CapacitorRechargeRateMultiplier: 0.7799999713897705
-    Hp: 40
-    MetaLevel: 2
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldBoostMultiplier: -10.0
-    TechLevel: 1
-    id: 8171
-    name: 'Local Power Plant Manager: Capacity Power Relay I'
-    volume: 5.0
   Makur's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579
     Hp: 40
@@ -211,26 +179,6 @@ items:
     id: 8177
     marketGroup: 667
     name: Mark I Compact Capacitor Power Relay
-    volume: 5.0
-  'Marked Generator Refitting: Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Hp: 40
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1
-    id: 8209
-    name: 'Marked Generator Refitting: Capacitor Power Relay'
-    volume: 5.0
-  'Partial Power Plant Manager: Capacity Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Hp: 40
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1
-    id: 8203
-    name: 'Partial Power Plant Manager: Capacity Power Relay'
     volume: 5.0
   Raysere's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.7124999761581421
@@ -296,16 +244,6 @@ items:
     id: 8175
     marketGroup: 667
     name: Type-D Restrained Capacitor Power Relay
-    volume: 5.0
-  'Type-E Power Core Modification: Capacitor Power Relay':
-    CapacitorRechargeRateMultiplier: 0.8999999761581421
-    Hp: 40
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: -5.0
-    TechLevel: 1
-    id: 8207
-    name: 'Type-E Power Core Modification: Capacitor Power Relay'
     volume: 5.0
   Vizan's Modified Capacitor Power Relay:
     CapacitorRechargeRateMultiplier: 0.6937500238418579

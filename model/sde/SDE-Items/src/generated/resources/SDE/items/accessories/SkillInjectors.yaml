@@ -16,12 +16,6 @@ items:
     id: 43630
     name: Mini Skill Injector
     volume: 0.01
-  QA Skill Injector:
-    ContainedSkillPoints: 150000
-    MaxCharacterSkillPointLimit: 5000000
-    id: 42523
-    name: QA Skill Injector
-    volume: 0.01
   Small Skill Injector:
     id: 45635
     marketGroup: 2358

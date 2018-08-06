@@ -155,12 +155,6 @@ items:
     id: 3245
     name: Warp Disruptor II Blueprint
     volume: 0.01
-  Warp Prohibitor I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 22477
-    name: Warp Prohibitor I Blueprint
-    volume: 0.01
   Warp Scrambler I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1

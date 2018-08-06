@@ -17,17 +17,13 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.CynosuralGenerat
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.CynosuralSystemJammer;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.ElectronicWarfareBattery;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.EnergyNeutralizingBattery;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.ForceFieldArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.JumpPortalArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.Laboratory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileHybridSentry;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileLaserSentry;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileMissileSentry;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobilePowerCore;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileProjectileSentry;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileReactor;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileShieldGenerator;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MobileStorage;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.MoonMining;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.PersonalHangar;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.ReprocessingArray;
@@ -37,9 +33,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.ShieldHardeningA
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.ShipMaintenanceArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.Silo;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.StasisWebificationBattery;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.StealthEmitterArray;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.StructureRepairArray;
-import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.TargetPaintingBattery;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.TrackingArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.starbase.WarpScramblingBattery;
 
@@ -53,6 +46,20 @@ public abstract class Starbase
     @Stackable(true)
     @DefaultIntValue(60000)
     public int AnchoringDelay;
+    /**
+     * The number of hit points on the entities armor.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ArmorHP;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      */
@@ -75,6 +82,55 @@ public abstract class Starbase
     @DefaultIntValue(60000)
     public int OnliningDelay;
     /**
+     * Gravimetric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanGravimetricStrength;
+    /**
+     * Ladar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanLadarStrength;
+    /**
+     * Magnetometric strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanMagnetometricStrength;
+    /**
+     * Radar strength.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ScanRadarStrength;
+    /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
+    /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -96,6 +152,14 @@ public abstract class Starbase
             {
                 return AnchoringDelay;
             }
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
             case  872 :
             {
                 return DisallowOffensiveModifiers;
@@ -107,6 +171,34 @@ public abstract class Starbase
             case  677 :
             {
                 return OnliningDelay;
+            }
+            case  211 :
+            {
+                return ScanGravimetricStrength;
+            }
+            case  209 :
+            {
+                return ScanLadarStrength;
+            }
+            case  210 :
+            {
+                return ScanMagnetometricStrength;
+            }
+            case  208 :
+            {
+                return ScanRadarStrength;
+            }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
             }
             case  525 :
             {
@@ -134,6 +226,6 @@ public abstract class Starbase
     }
 
     public static Map<String, ? extends Starbase> loadCategory() {
-        return Stream.of(AssemblyArray.load(), CompressionArray.load(), ControlTower.load(), CorporateHangarArray.load(), CynosuralGeneratorArray.load(), CynosuralSystemJammer.load(), ElectronicWarfareBattery.load(), EnergyNeutralizingBattery.load(), ForceFieldArray.load(), JumpPortalArray.load(), Laboratory.load(), MobileHybridSentry.load(), MobileLaserSentry.load(), MobileMissileSentry.load(), MobilePowerCore.load(), MobileProjectileSentry.load(), MobileReactor.load(), MobileShieldGenerator.load(), MobileStorage.load(), MoonMining.load(), PersonalHangar.load(), ReprocessingArray.load(), ScannerArray.load(), SensorDampeningBattery.load(), ShieldHardeningArray.load(), ShipMaintenanceArray.load(), Silo.load(), StasisWebificationBattery.load(), StealthEmitterArray.load(), StructureRepairArray.load(), TargetPaintingBattery.load(), TrackingArray.load(), WarpScramblingBattery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AssemblyArray.load(), CompressionArray.load(), ControlTower.load(), CorporateHangarArray.load(), CynosuralGeneratorArray.load(), CynosuralSystemJammer.load(), ElectronicWarfareBattery.load(), EnergyNeutralizingBattery.load(), JumpPortalArray.load(), Laboratory.load(), MobileHybridSentry.load(), MobileLaserSentry.load(), MobileMissileSentry.load(), MobileProjectileSentry.load(), MobileReactor.load(), MoonMining.load(), PersonalHangar.load(), ReprocessingArray.load(), ScannerArray.load(), SensorDampeningBattery.load(), ShieldHardeningArray.load(), ShipMaintenanceArray.load(), Silo.load(), StasisWebificationBattery.load(), TrackingArray.load(), WarpScramblingBattery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

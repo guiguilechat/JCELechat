@@ -1,13 +1,4 @@
 items:
-  Inherent Implants 'Sergeant' XE4:
-    CapNeedBonus: -3
-    Implantness: 7
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 27223
-    name: Inherent Implants 'Sergeant' XE4
-    volume: 1.0
   Inherent Implants 'Squire' Capacitor Emission Systems ES-701:
     CapNeedBonus: -1
     Implantness: 7

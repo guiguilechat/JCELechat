@@ -23,7 +23,3 @@ items:
     marketGroup: 890
     name: Thanatos Blueprint
     volume: 0.01
-  Vanguard Blueprint:
-    id: 42134
-    name: Vanguard Blueprint
-    volume: 0.01

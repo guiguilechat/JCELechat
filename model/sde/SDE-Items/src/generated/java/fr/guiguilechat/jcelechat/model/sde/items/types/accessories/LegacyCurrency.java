@@ -19,13 +19,6 @@ public class LegacyCurrency
     @Stackable(true)
     @DefaultIntValue(0)
     public int AurumConversionRate;
-    /**
-     * Number of days that this PLEX adds to your account
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int NumDays;
     public final static String RESOURCE_PATH = "SDE/items/accessories/LegacyCurrency.yaml";
     private static LinkedHashMap<String, LegacyCurrency> cache = (null);
 
@@ -35,10 +28,6 @@ public class LegacyCurrency
             case  1818 :
             {
                 return AurumConversionRate;
-            }
-            case  1551 :
-            {
-                return NumDays;
             }
             default:
             {

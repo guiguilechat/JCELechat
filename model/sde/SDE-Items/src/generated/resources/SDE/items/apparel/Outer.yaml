@@ -5,67 +5,6 @@ items:
     marketGroup: 1399
     name: '''Silvershore'' Greatcoat'
     volume: 0.1
-  ArmorSuitCF01_Copper.type:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    id: 37602
-    name: ArmorSuitCF01_Copper.type
-    volume: 0.1
-  'ArmorSuitMM01_Copper.type ':
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    id: 37811
-    name: 'ArmorSuitMM01_Copper.type '
-    volume: 0.1
-  JacketCLM01_Concord.type:
-    Gender: 1
-    id: 37807
-    name: JacketCLM01_Concord.type
-    volume: 0.1
-  JacketFBR01_concord.type:
-    Gender: 3
-    id: 37806
-    name: JacketFBR01_concord.type
-    volume: 0.1
-  LabCoatF01_Cyan.type:
-    ClothingAlsoCoversCategory: 25
-    Gender: 3
-    id: 40458
-    name: LabCoatF01_Cyan.type
-    volume: 0.1
-  LabCoatF01_Green.type:
-    ClothingAlsoCoversCategory: 25
-    Gender: 3
-    id: 40459
-    name: LabCoatF01_Green.type
-    volume: 0.1
-  LabCoatF01_Orange.type:
-    ClothingAlsoCoversCategory: 25
-    Gender: 3
-    id: 40460
-    name: LabCoatF01_Orange.type
-    volume: 0.1
-  LabCoatM01_Cyan.type:
-    Gender: 1
-    id: 40462
-    name: LabCoatM01_Cyan.type
-    volume: 0.1
-  LabCoatM01_Green.type:
-    Gender: 1
-    id: 40463
-    name: LabCoatM01_Green.type
-    volume: 0.1
-  LabCoatM01_Orange:
-    Gender: 1
-    id: 40464
-    name: LabCoatM01_Orange
-    volume: 0.1
   Men's 'Curate' Coat (black/silver):
     Gender: 1
     id: 33800
@@ -546,20 +485,6 @@ items:
     marketGroup: 1399
     name: Men's Scope Network Special Correspondent Suit
     volume: 0.1
-  Men's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    id: 37815
-    name: Men's Sisters of EVE Advanced Combat Suit
-    volume: 0.1
-  Men's Sisters of EVE Analysis Coat:
-    Gender: 1
-    id: 40461
-    name: Men's Sisters of EVE Analysis Coat
-    volume: 0.1
   Men's State Military Stockpile Jacket:
     Gender: 2
     id: 46672
@@ -571,48 +496,6 @@ items:
     id: 48082
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Bioadaptive)
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34090
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_black.type
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_blue.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34092
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_blue.type
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_brown.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34093
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_brown.type
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_orange.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34095
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_orange.type
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_red.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34096
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_red.type
-    volume: 0.1
-  Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_stealth.type:
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    id: 34098
-    name: Outer/SpaceSuit_Top_01/Types/spacesuit_01_top_f_stealth.type
     volume: 0.1
   Women's 'Eternity' Suit Top (Black/Gold):
     ClothingRemovesCategory: 2
@@ -1273,21 +1156,6 @@ items:
     id: 37863
     marketGroup: 1405
     name: Women's Scope Network Special Correspondent Suit
-    volume: 0.1
-  Women's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    id: 37603
-    name: Women's Sisters of EVE Advanced Combat Suit
-    volume: 0.1
-  Women's Sisters of EVE Analysis Coat:
-    ClothingAlsoCoversCategory: 25
-    Gender: 3
-    id: 40457
-    name: Women's Sisters of EVE Analysis Coat
     volume: 0.1
   Women's State Military Stockpile Jacket:
     Gender: 2

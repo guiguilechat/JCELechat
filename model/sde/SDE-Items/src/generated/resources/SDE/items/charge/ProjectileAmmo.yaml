@@ -1263,17 +1263,6 @@ items:
     marketGroup: 502
     name: Nuclear XL
     volume: 0.125
-  Orbital EMP S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    LauncherGroup: 55
-    MainColor: 16763512
-    TechLevel: 1
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.5
-    id: 32801
-    name: Orbital EMP S
-    volume: 0.0025
   Phased Plasma L:
     ChargeSize: 3
     EntityFlyRangeMultiplier: 0.625

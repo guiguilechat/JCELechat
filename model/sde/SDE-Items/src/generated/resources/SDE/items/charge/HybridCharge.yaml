@@ -2329,17 +2329,6 @@ items:
     marketGroup: 504
     name: Lead Charge XL
     volume: 0.125
-  Orbital Hybrid S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 32803
-    name: Orbital Hybrid S
-    volume: 0.0025
   Plutonium Charge L:
     CapNeedBonus: -5
     ChargeSize: 3

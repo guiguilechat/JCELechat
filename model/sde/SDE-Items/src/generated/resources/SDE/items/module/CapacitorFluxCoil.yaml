@@ -33,19 +33,6 @@ items:
     marketGroup: 666
     name: '''Page'' Capacitor Flux Coil I'
     volume: 5.0
-  'Alpha Reactor Control: Capacitor Flux':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Hp: 40
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8165
-    name: 'Alpha Reactor Control: Capacitor Flux'
-    volume: 5.0
   Capacitor Flux Coil I:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6399999856948853
@@ -77,20 +64,6 @@ items:
     marketGroup: 666
     name: Capacitor Flux Coil II
     volume: 5.0
-  'Local Power Plant Manager: Capacitor Flux I':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.7699999809265137
-    Hp: 40
-    MetaLevel: 2
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8131
-    name: 'Local Power Plant Manager: Capacitor Flux I'
-    volume: 5.0
   Mark I Compact Capacitor Flux Coil:
     CapacitorCapacityMultiplier: 0.800000011920929
     CapacitorRechargeRateMultiplier: 0.6299999952316284
@@ -107,46 +80,6 @@ items:
     marketGroup: 666
     name: Mark I Compact Capacitor Flux Coil
     volume: 5.0
-  'Mark I Generator Refitting: Capacitor Flux':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
-    Hp: 40
-    MetaLevel: 3
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8137
-    name: 'Mark I Generator Refitting: Capacitor Flux'
-    volume: 5.0
-  'Marked Generator Refitting: Capacitor Flux':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Hp: 40
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8169
-    name: 'Marked Generator Refitting: Capacitor Flux'
-    volume: 5.0
-  'Partial Power Plant Manager: Capacitor Flux':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Hp: 40
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8163
-    name: 'Partial Power Plant Manager: Capacitor Flux'
-    volume: 5.0
   Type-D Restrained Capacitor Flux Coil:
     CapacitorCapacityMultiplier: 0.8999999761581421
     CapacitorRechargeRateMultiplier: 0.7200000286102295
@@ -162,17 +95,4 @@ items:
     id: 8135
     marketGroup: 666
     name: Type-D Restrained Capacitor Flux Coil
-    volume: 5.0
-  'Type-E Power Core Modification: Capacitor Flux':
-    CapacitorCapacityMultiplier: 0.8999999761581421
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Hp: 40
-    PowerOutputMultiplier: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8167
-    name: 'Type-E Power Core Modification: Capacitor Flux'
     volume: 5.0

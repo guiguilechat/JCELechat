@@ -21,13 +21,6 @@ public class CargoContainer
     @DefaultIntValue(0)
     public int Hp;
     /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -43,10 +36,6 @@ public class CargoContainer
             case  9 :
             {
                 return Hp;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
             }
             case  525 :
             {

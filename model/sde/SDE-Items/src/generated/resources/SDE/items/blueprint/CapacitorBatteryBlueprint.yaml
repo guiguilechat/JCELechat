@@ -83,15 +83,3 @@ items:
     id: 3489
     name: Small Cap Battery II Blueprint
     volume: 0.01
-  X-Large Capacitor Battery I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 2023
-    name: X-Large Capacitor Battery I Blueprint
-    volume: 0.01
-  X-Large Capacitor Battery II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    TechLevel: 2
-    id: 3473
-    name: X-Large Capacitor Battery II Blueprint
-    volume: 0.01

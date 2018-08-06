@@ -154,10 +154,6 @@ items:
     marketGroup: 2403
     name: Terahertz Metamaterials Reaction Formula
     volume: 0.01
-  Test Reaction Blueprint:
-    id: 45732
-    name: Test Reaction Blueprint
-    volume: 0.01
   Thulium Hafnite Reaction Formula:
     id: 46185
     marketGroup: 2403

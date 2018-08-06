@@ -24,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberResourceProc
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberScanning;
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberScience;
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberShields;
-import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberSocial;
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberTargeting;
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.CyberXSpecials;
 import fr.guiguilechat.jcelechat.model.sde.items.types.implant.Cyberimplant;
@@ -77,6 +76,6 @@ public abstract class Implant
     }
 
     public static Map<String, ? extends Implant> loadCategory() {
-        return Stream.of(Booster.load(), CyberArmor.load(), CyberBiology.load(), CyberDrones.load(), CyberElectronicSystems.load(), CyberEngineering.load(), CyberGunnery.load(), CyberLeadership.load(), CyberLearning.load(), CyberMissile.load(), CyberNavigation.load(), CyberProduction.load(), CyberResourceProcessing.load(), CyberScanning.load(), CyberScience.load(), CyberShields.load(), CyberSocial.load(), CyberTargeting.load(), CyberXSpecials.load(), Cyberimplant.load(), SpecialEditionImplant.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Booster.load(), CyberArmor.load(), CyberBiology.load(), CyberDrones.load(), CyberElectronicSystems.load(), CyberEngineering.load(), CyberGunnery.load(), CyberLeadership.load(), CyberLearning.load(), CyberMissile.load(), CyberNavigation.load(), CyberProduction.load(), CyberResourceProcessing.load(), CyberScanning.load(), CyberScience.load(), CyberShields.load(), CyberTargeting.load(), CyberXSpecials.load(), Cyberimplant.load(), SpecialEditionImplant.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

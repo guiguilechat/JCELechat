@@ -1,27 +1,4 @@
 items:
-  '''Economist'' Tracking Computer I':
-    CapacitorNeed: 7.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Duration: 10000.0
-    FalloffBonus: 14.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40
-    MaxRangeBonus: 7.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3317
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 13.5
-    id: 22927
-    name: '''Economist'' Tracking Computer I'
-    volume: 5.0
   '''Marketeer'' Tracking Computer':
     CapacitorNeed: 4.0
     ChargeGroup1: 907
@@ -46,28 +23,6 @@ items:
     id: 22929
     marketGroup: 706
     name: '''Marketeer'' Tracking Computer'
-    volume: 5.0
-  '''Orion'' Tracking CPU I':
-    CapacitorNeed: 7.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Duration: 10000.0
-    FalloffBonus: 11.600000381469727
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40
-    MaxRangeBonus: 5.800000190734863
-    MetaLevel: 3
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3317
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 11.5
-    id: 6175
-    name: '''Orion'' Tracking CPU I'
     volume: 5.0
   Brynn's Modified Tracking Computer:
     CapacitorNeed: 11.0
@@ -167,28 +122,6 @@ items:
     id: 15792
     marketGroup: 706
     name: Federation Navy Tracking Computer
-    volume: 5.0
-  Monopulse Tracking Mechanism I:
-    CapacitorNeed: 7.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Duration: 10000.0
-    FalloffBonus: 10.600000381469727
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.299999952316284
-    Hp: 40
-    MaxRangeBonus: 5.300000190734863
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3317
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 10.5
-    id: 6174
-    name: Monopulse Tracking Mechanism I
     volume: 5.0
   Optical Compact Tracking Computer:
     CapacitorNeed: 7.0

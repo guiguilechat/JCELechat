@@ -1039,18 +1039,6 @@ items:
     id: 31200
     name: Capital Warp Core Optimizer II Blueprint
     volume: 0.01
-  Drone Damage Rig I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 26926
-    name: Drone Damage Rig I Blueprint
-    volume: 0.01
-  Drone Damage Rig II Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 2
-    id: 26928
-    name: Drone Damage Rig II Blueprint
-    volume: 0.01
   Large Algid Energy Administrations Unit I Blueprint:
     IndustryBlueprintRank: 15.0
     TechLevel: 1
@@ -1420,18 +1408,6 @@ items:
     TechLevel: 2
     id: 26307
     name: Large Dynamic Fuel Valve II Blueprint
-    volume: 0.01
-  Large EW Drone Range Augmentor I Blueprint:
-    IndustryBlueprintRank: 15.0
-    TechLevel: 1
-    id: 25923
-    name: Large EW Drone Range Augmentor I Blueprint
-    volume: 0.01
-  Large EW Drone Range Augmentor II Blueprint:
-    IndustryBlueprintRank: 150.0
-    TechLevel: 2
-    id: 26337
-    name: Large EW Drone Range Augmentor II Blueprint
     volume: 0.01
   Large Egress Port Maximizer I Blueprint:
     IndustryBlueprintRank: 15.0
@@ -2103,18 +2079,6 @@ items:
     id: 26321
     name: Large Warp Core Optimizer II Blueprint
     volume: 0.01
-  Launcher Processor Rig I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 26019
-    name: Launcher Processor Rig I Blueprint
-    volume: 0.01
-  Launcher Processor Rig II Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 2
-    id: 26409
-    name: Launcher Processor Rig II Blueprint
-    volume: 0.01
   Medium Algid Energy Administrations Unit I Blueprint:
     IndustryBlueprintRank: 10.0
     TechLevel: 1
@@ -2484,18 +2448,6 @@ items:
     TechLevel: 2
     id: 31138
     name: Medium Dynamic Fuel Valve II Blueprint
-    volume: 0.01
-  Medium EW Drone Range Augmentor I Blueprint:
-    IndustryBlueprintRank: 10.0
-    TechLevel: 1
-    id: 32068
-    name: Medium EW Drone Range Augmentor I Blueprint
-    volume: 0.01
-  Medium EW Drone Range Augmentor II Blueprint:
-    IndustryBlueprintRank: 100.0
-    TechLevel: 2
-    id: 32080
-    name: Medium EW Drone Range Augmentor II Blueprint
     volume: 0.01
   Medium Egress Port Maximizer I Blueprint:
     IndustryBlueprintRank: 10.0
@@ -3180,90 +3132,6 @@ items:
     TechLevel: 2
     id: 31198
     name: Medium Warp Core Optimizer II Blueprint
-    volume: 0.01
-  Mining Laser Optimization I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28889
-    name: Mining Laser Optimization I Blueprint
-    volume: 0.01
-  Mining Laser Optimization II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2
-    id: 28891
-    name: Mining Laser Optimization II Blueprint
-    volume: 0.01
-  Mining Laser Range I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28893
-    name: Mining Laser Range I Blueprint
-    volume: 0.01
-  Mining Laser Range II Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 2
-    id: 28895
-    name: Mining Laser Range II Blueprint
-    volume: 0.01
-  Missile Guidance System Rig I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 26025
-    name: Missile Guidance System Rig I Blueprint
-    volume: 0.01
-  Missile Guidance System Rig II Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 2
-    id: 26411
-    name: Missile Guidance System Rig II Blueprint
-    volume: 0.01
-  Projectile Cache Distributor II Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 2
-    id: 26423
-    name: Projectile Cache Distributor II Blueprint
-    volume: 0.01
-  Projectile Consumption Elutriator II Blueprint:
-    IndustryBlueprintRank: 50.0
-    TechLevel: 2
-    id: 26427
-    name: Projectile Consumption Elutriator II Blueprint
-    volume: 0.01
-  Propellant Injection Vent I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 26065
-    name: Propellant Injection Vent I Blueprint
-    volume: 0.01
-  Propellant Injection Vent II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2
-    id: 26315
-    name: Propellant Injection Vent II Blueprint
-    volume: 0.01
-  Sensor Strength Rig I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 26961
-    name: Sensor Strength Rig I Blueprint
-    volume: 0.01
-  Sensor Strength Rig II Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 2
-    id: 26963
-    name: Sensor Strength Rig II Blueprint
-    volume: 0.01
-  Shield Transporter Rig I Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 1
-    id: 26965
-    name: Shield Transporter Rig I Blueprint
-    volume: 0.01
-  Shield Transporter Rig II Blueprint:
-    IndustryBlueprintRank: 5.0
-    TechLevel: 2
-    id: 26967
-    name: Shield Transporter Rig II Blueprint
     volume: 0.01
   Small Algid Energy Administrations Unit I Blueprint:
     IndustryBlueprintRank: 5.0

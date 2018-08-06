@@ -1,34 +1,4 @@
 items:
-  '''Dactyl'' Type-E Asteroid Analyzer':
-    CapacitorNeed: 5.0
-    DisallowRepeatingActivation: 1
-    Duration: 4200.0
-    Hp: 40
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    SurveyScanRange: 18000
-    TargetGroup: 11
-    TechLevel: 1
-    id: 6573
-    name: '''Dactyl'' Type-E Asteroid Analyzer'
-    volume: 5.0
-  ML-3 Amphilotite Mining Probe:
-    CapacitorNeed: 5.0
-    DisallowRepeatingActivation: 1
-    Duration: 4250.0
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    SurveyScanRange: 17250
-    TargetGroup: 11
-    TechLevel: 1
-    id: 6567
-    name: ML-3 Amphilotite Mining Probe
-    volume: 5.0
   ML-3 Scoped Survey Scanner:
     CapacitorNeed: 5.0
     DisallowRepeatingActivation: 1
@@ -44,21 +14,6 @@ items:
     id: 6569
     marketGroup: 714
     name: ML-3 Scoped Survey Scanner
-    volume: 5.0
-  Rock-Scanning Sensor Array I:
-    CapacitorNeed: 5.0
-    DisallowRepeatingActivation: 1
-    Duration: 4750.0
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    SurveyScanRange: 15750
-    TargetGroup: 11
-    TechLevel: 1
-    id: 6571
-    name: Rock-Scanning Sensor Array I
     volume: 5.0
   Survey Scanner I:
     CapacitorNeed: 5.0

@@ -404,50 +404,6 @@ items:
     marketGroup: 1238
     name: Medium Projectile Metastasis Adjuster II
     volume: 10.0
-  Projectile Cache Distributor I:
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 26036
-    name: Projectile Cache Distributor I
-    volume: 5.0
-  Projectile Cache Distributor II:
-    Drawback: 10
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    UpgradeCost: 200
-    id: 26422
-    name: Projectile Cache Distributor II
-    volume: 5.0
-  Projectile Consumption Elutriator I:
-    CpuNeedBonus: -10
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 1
-    UpgradeCost: 50
-    id: 26044
-    name: Projectile Consumption Elutriator I
-    volume: 5.0
-  Projectile Consumption Elutriator II:
-    CpuNeedBonus: -15
-    Drawback: 10
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    UpgradeCost: 75
-    id: 26426
-    name: Projectile Consumption Elutriator II
-    volume: 5.0
   Small Projectile Ambit Extension I:
     DamageMultiplier: 1.0
     Drawback: 10

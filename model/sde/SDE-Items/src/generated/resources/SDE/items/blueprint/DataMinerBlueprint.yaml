@@ -30,12 +30,6 @@ items:
     marketGroup: 1809
     name: Civilian Data Analyzer Blueprint
     volume: 0.01
-  Civilian Relic Analyzer Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 27020
-    name: Civilian Relic Analyzer Blueprint
-    volume: 0.01
   Data Analyzer I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1

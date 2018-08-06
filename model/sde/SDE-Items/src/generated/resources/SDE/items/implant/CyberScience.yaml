@@ -1,36 +1,4 @@
 items:
-  Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-1:
-    Implantness: 9
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    id: 27265
-    name: Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-1
-    volume: 1.0
-  Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-2:
-    Implantness: 9
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 27268
-    name: Hardwiring - Poteque Pharmaceuticals 'Draftsman' GI-2
-    volume: 1.0
-  Hardwiring - Zainou 'Beancounter' CI-1:
-    Implantness: 9
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    id: 27264
-    name: Hardwiring - Zainou 'Beancounter' CI-1
-    volume: 1.0
-  Hardwiring - Zainou 'Beancounter' CI-2:
-    Implantness: 9
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 27267
-    name: Hardwiring - Zainou 'Beancounter' CI-2
-    volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-701:
     Implantness: 7
     MineralNeedResearchBonus: -1

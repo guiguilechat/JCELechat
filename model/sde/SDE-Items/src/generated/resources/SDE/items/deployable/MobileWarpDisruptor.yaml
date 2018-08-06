@@ -179,20 +179,3 @@ items:
     marketGroup: 405
     name: Syndicate Mobile Small Warp Disruptor
     volume: 65.0
-  Tournament Bubble TEST:
-    AnchoringDelay: 2000
-    ArmorHP: 60000
-    DisallowInEmpireSpace: 1
-    Hp: 120000
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3435
-    RequiredSkill2Level: 5
-    ShieldCapacity: 40000
-    ShieldRechargeRate: 1200000.0
-    SignatureRadius: 50
-    TechLevel: 1
-    WarpScrambleRange: 125000
-    id: 26849
-    name: Tournament Bubble TEST
-    volume: 5000000.0

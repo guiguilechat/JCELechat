@@ -141,22 +141,6 @@ items:
     marketGroup: 1105
     name: Standup Radar ECM Script Blueprint
     volume: 0.01
-  Structure EM Hardener Script Blueprint:
-    id: 37837
-    name: Structure EM Hardener Script Blueprint
-    volume: 0.01
-  Structure Explosive Hardener Script Blueprint:
-    id: 37838
-    name: Structure Explosive Hardener Script Blueprint
-    volume: 0.01
-  Structure Kinetic Resistance Script Blueprint:
-    id: 37839
-    name: Structure Kinetic Resistance Script Blueprint
-    volume: 0.01
-  Structure Thermal Resistance Script Blueprint:
-    id: 37840
-    name: Structure Thermal Resistance Script Blueprint
-    volume: 0.01
   Targeting Range Dampening Script Blueprint:
     IndustryBlueprintRank: 1.0
     id: 29016

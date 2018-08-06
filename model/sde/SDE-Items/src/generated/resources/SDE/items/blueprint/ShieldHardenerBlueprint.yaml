@@ -118,9 +118,3 @@ items:
     id: 2304
     name: Thermal Dissipation Field II Blueprint
     volume: 0.01
-  testShieldMod_Blueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 46011
-    marketGroup: 1548
-    name: testShieldMod_Blueprint_PLACEHOLDER
-    volume: 0.01

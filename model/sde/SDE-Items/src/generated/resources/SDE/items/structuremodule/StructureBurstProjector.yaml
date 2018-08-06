@@ -58,67 +58,6 @@ items:
     marketGroup: 2408
     name: Standup Energy Neutralization Burst Projector
     volume: 4000.0
-  Standup Gravitational Transportation Field Oscillator:
-    CanFitShipType1: 35833
-    CanFitShipType2: 35834
-    CanFitShipType3: 40340
-    CanFitShipType4: 35826
-    CanFitShipType5: 35827
-    CanFitShipType6: 35836
-    CapacitorNeed: 20000.0
-    Cpu: 2000.0
-    DisallowEarlyDeactivation: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    Duration: 90000.0
-    Hp: 40
-    IsPointTargeted: 1
-    MaxRange: 300000
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 200000
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 47068
-    name: Standup Gravitational Transportation Field Oscillator
-    volume: 8000.0
-  Standup Remote Beacon Burst Projector:
-    CanFitShipType1: 35833
-    CanFitShipType10: 47515
-    CanFitShipType11: 47516
-    CanFitShipType2: 35834
-    CanFitShipType3: 40340
-    CanFitShipType4: 35826
-    CanFitShipType5: 35827
-    CanFitShipType6: 35836
-    CanFitShipType7: 47512
-    CanFitShipType8: 47513
-    CanFitShipType9: 47514
-    CapacitorNeed: 3000.0
-    Cpu: 500.0
-    DisallowInHighSec: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 60000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 60000
-    DurationTargetWarpableBeacon: 60000
-    Hp: 40
-    IsPointTargeted: 1
-    MaxRange: 300000
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 20000
-    RemoteResistanceID: 2114
-    SignatureRadiusBonus: 50.0
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    id: 47252
-    name: Standup Remote Beacon Burst Projector
-    volume: 4000.0
   Standup Sensor Dampening Burst Projector:
     CanFitShipGroup01: 1657
     CanFitShipGroup02: 1404

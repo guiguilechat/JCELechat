@@ -4,11 +4,6 @@ items:
     id: 33088
     name: Advanced Cerebral Accelerator Blueprint
     volume: 0.01
-  Cerebral Accelerator Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 2839
-    name: Cerebral Accelerator Blueprint
-    volume: 0.01
   Improved Blue Pill Booster Blueprint:
     IndustryBlueprintRank: 3.0
     id: 25307

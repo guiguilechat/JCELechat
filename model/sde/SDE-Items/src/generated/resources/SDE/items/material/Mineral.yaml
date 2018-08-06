@@ -1,8 +1,4 @@
 items:
-  Chalcopyrite:
-    id: 27029
-    name: Chalcopyrite
-    volume: 0.01
   Isogen:
     id: 37
     marketGroup: 1857

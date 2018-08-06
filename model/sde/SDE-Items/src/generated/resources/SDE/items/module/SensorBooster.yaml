@@ -165,27 +165,6 @@ items:
     marketGroup: 671
     name: Federation Navy Sensor Booster
     volume: 5.0
-  Prototype Sensor Booster:
-    CapacitorNeed: 10.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxTargetRangeBonus: 26.299999237060547
-    MetaLevel: 1
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionBonus: 26.299999237060547
-    TechLevel: 1
-    id: 6158
-    name: Prototype Sensor Booster
-    volume: 5.0
   Sensor Booster I:
     CapacitorNeed: 10.0
     ChargeGroup1: 910
@@ -321,27 +300,6 @@ items:
     id: 14236
     marketGroup: 671
     name: Shadow Serpentis Sensor Booster
-    volume: 5.0
-  Supplemental Scanning CPU I:
-    CapacitorNeed: 9.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxTargetRangeBonus: 27.5
-    MetaLevel: 2
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3428
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionBonus: 27.5
-    TechLevel: 1
-    id: 6157
-    name: Supplemental Scanning CPU I
     volume: 5.0
   Tuvan's Modified Sensor Booster:
     CapacitorNeed: 10.0

@@ -128,32 +128,6 @@ items:
     marketGroup: 2018
     name: Pandemic SPHERE Modified Entosis Link
     volume: 10.0
-  QA Entosis Link:
-    CapacitorNeed: 10.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 20000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999
-    MaxGroupFitted: 1
-    MaxRange: 250000
-    Power: 1
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    RequiredSkill2: 9955
-    RequiredSkill2Level: 1
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 1
-    id: 34826
-    name: QA Entosis Link
-    volume: 20.0
   Spectre Fleet's Modified Entosis Link:
     CapacitorNeed: 50.0
     ConsumptionQuantity: 1

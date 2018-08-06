@@ -1,15 +1,4 @@
 items:
-  Advanced Sensor Upgrades:
-    PrimaryAttribute: 165
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3432
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 6.0
-    id: 11208
-    name: Advanced Sensor Upgrades
-    volume: 0.01
   Burst Projector Operation:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -56,25 +45,6 @@ items:
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
-    volume: 0.01
-  Hypereuclidean Navigation:
-    DurationBonus: 5
-    PrimaryAttribute: 165
-    RequiredSkill1: 3449
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11579
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 6.0
-    id: 12368
-    name: Hypereuclidean Navigation
-    volume: 0.01
-  Imperial Navy Security Clearance:
-    PrimaryAttribute: 165
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
-    id: 28631
-    name: Imperial Navy Security Clearance
     volume: 0.01
   Long Distance Jamming:
     PrimaryAttribute: 165
@@ -186,16 +156,6 @@ items:
     id: 19921
     marketGroup: 367
     name: Target Painting
-    volume: 0.01
-  Tournament Observation:
-    MaxTargetBonus: 3
-    PrimaryAttribute: 165
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
-    id: 28604
-    name: Tournament Observation
     volume: 0.01
   Weapon Destabilization:
     PrimaryAttribute: 165

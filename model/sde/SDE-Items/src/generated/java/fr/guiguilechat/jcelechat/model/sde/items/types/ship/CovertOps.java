@@ -91,13 +91,6 @@ public class CovertOps
     @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -111,13 +104,6 @@ public class CovertOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int JumpHarmonics;
-    /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
     /**
      * The main color of a ship type.
      */
@@ -139,13 +125,6 @@ public class CovertOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxPassengers;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -182,20 +161,6 @@ public class CovertOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int PilotSecurityStatus;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -358,20 +323,6 @@ public class CovertOps
     @DefaultIntValue(0)
     public int SpecialCorpseHoldCapacity;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
      * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
@@ -435,10 +386,6 @@ public class CovertOps
             {
                 return HeatAttenuationMed;
             }
-            case  14 :
-            {
-                return HiSlots;
-            }
             case  2621 :
             {
                 return InverseCappedSecStatus;
@@ -446,10 +393,6 @@ public class CovertOps
             case  1253 :
             {
                 return JumpHarmonics;
-            }
-            case  12 :
-            {
-                return LowSlots;
             }
             case  124 :
             {
@@ -462,10 +405,6 @@ public class CovertOps
             case  129 :
             {
                 return MaxPassengers;
-            }
-            case  13 :
-            {
-                return MedSlots;
             }
             case  1692 :
             {
@@ -482,14 +421,6 @@ public class CovertOps
             case  2610 :
             {
                 return PilotSecurityStatus;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             case  183 :
             {
@@ -582,14 +513,6 @@ public class CovertOps
             case  2467 :
             {
                 return SpecialCorpseHoldCapacity;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
             }
             case  1154 :
             {

@@ -185,30 +185,6 @@ items:
     marketGroup: 680
     name: DDO Scoped Tracking Disruptor I
     volume: 5.0
-  Dark Blood Tracking Disruptor:
-    CapacitorNeed: 14.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -18.809999465942383
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
-    MaxRangeBonus: -18.809999465942383
-    MetaLevel: 9
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -18.809999465942383
-    id: 32416
-    name: Dark Blood Tracking Disruptor
-    volume: 5.0
   Guidance Disruptor I:
     AoeCloudSizeBonus: 10.0
     AoeVelocityBonus: -10.0
@@ -337,28 +313,4 @@ items:
     id: 2109
     marketGroup: 680
     name: Tracking Disruptor II
-    volume: 5.0
-  True Sansha Tracking Disruptor:
-    CapacitorNeed: 14.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -18.809999465942383
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 48000
-    MaxRangeBonus: -18.809999465942383
-    MetaLevel: 9
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -18.809999465942383
-    id: 32417
-    name: True Sansha Tracking Disruptor
     volume: 5.0

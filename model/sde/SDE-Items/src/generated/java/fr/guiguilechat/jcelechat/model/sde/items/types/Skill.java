@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.skill.CorporationManageme
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.Drones;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.ElectronicSystems;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.Engineering;
-import fr.guiguilechat.jcelechat.model.sde.items.types.skill.FakeSkills;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.FleetSupport;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.Gunnery;
 import fr.guiguilechat.jcelechat.model.sde.items.types.skill.Missiles;
@@ -37,19 +36,74 @@ public abstract class Skill
     extends Item
 {
     /**
+     * Only refers to another dogma attribute.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int PrimaryAttribute;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
+    /**
+     * Only refers to another dogma attribute.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SecondaryAttribute;
+    /**
      * Level of skill
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillLevel;
+    /**
+     * Time constant for skill training
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int SkillTimeConstant;
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  180 :
+            {
+                return PrimaryAttribute;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
+            }
+            case  181 :
+            {
+                return SecondaryAttribute;
+            }
             case  280 :
             {
                 return SkillLevel;
+            }
+            case  275 :
+            {
+                return SkillTimeConstant;
             }
             default:
             {
@@ -69,6 +123,6 @@ public abstract class Skill
     }
 
     public static Map<String, ? extends Skill> loadCategory() {
-        return Stream.of(Armor.load(), CorporationManagement.load(), Drones.load(), ElectronicSystems.load(), Engineering.load(), FakeSkills.load(), FleetSupport.load(), Gunnery.load(), Missiles.load(), Navigation.load(), NeuralEnhancement.load(), PlanetManagement.load(), Production.load(), ResourceProcessing.load(), Rigging.load(), Scanning.load(), Science.load(), Shields.load(), Social.load(), SpaceshipCommand.load(), StructureManagement.load(), Subsystems.load(), Targeting.load(), Trade.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Armor.load(), CorporationManagement.load(), Drones.load(), ElectronicSystems.load(), Engineering.load(), FleetSupport.load(), Gunnery.load(), Missiles.load(), Navigation.load(), NeuralEnhancement.load(), PlanetManagement.load(), Production.load(), ResourceProcessing.load(), Rigging.load(), Scanning.load(), Science.load(), Shields.load(), Social.load(), SpaceshipCommand.load(), StructureManagement.load(), Subsystems.load(), Targeting.load(), Trade.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

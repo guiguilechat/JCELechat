@@ -37,36 +37,6 @@ items:
     marketGroup: 872
     name: Capital Tractor Beam II
     volume: 4000.0
-  Large Tractor Beam I:
-    CapacitorNeed: 5.0
-    Duration: 20000.0
-    Hp: 40
-    MainColor: 8627698
-    MaxRange: 80000
-    MaxTractorVelocity: 500
-    Power: 700
-    RequiredSkill1: 11446
-    RequiredSkill1Level: 4
-    Slots: 1
-    TechLevel: 1
-    id: 24622
-    name: Large Tractor Beam I
-    volume: 10.0
-  Medium Tractor Beam I:
-    CapacitorNeed: 5.0
-    Duration: 20000.0
-    Hp: 40
-    MainColor: 8627698
-    MaxRange: 40000
-    MaxTractorVelocity: 500
-    Power: 70
-    RequiredSkill1: 11446
-    RequiredSkill1Level: 2
-    Slots: 1
-    TechLevel: 1
-    id: 24620
-    name: Medium Tractor Beam I
-    volume: 10.0
   Small Tractor Beam I:
     CapacitorNeed: 5.0
     Duration: 5000.0

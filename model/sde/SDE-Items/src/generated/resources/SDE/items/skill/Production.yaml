@@ -72,26 +72,6 @@ items:
     marketGroup: 369
     name: Advanced Small Ship Construction
     volume: 0.01
-  Amarr Tech:
-    AmarrTechMutator: -5
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
-    id: 3381
-    name: Amarr Tech
-    volume: 0.01
-  Caldari Tech:
-    CaldariTechMutator: -5
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
-    id: 3382
-    name: Caldari Tech
-    volume: 0.01
   Capital Ship Construction:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 165
@@ -117,16 +97,6 @@ items:
     marketGroup: 369
     name: Drug Manufacturing
     volume: 0.01
-  Gallente Tech:
-    GallenteTechMutator: -5
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
-    id: 3383
-    name: Gallente Tech
-    volume: 0.01
   Industry:
     ManufacturingTimeBonus: -4
     PrimaryAttribute: 166
@@ -146,24 +116,6 @@ items:
     id: 3387
     marketGroup: 369
     name: Mass Production
-    volume: 0.01
-  Minmatar Tech:
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
-    id: 3384
-    name: Minmatar Tech
-    volume: 0.01
-  Mobile Factory Operation:
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 165
-    SkillTimeConstant: 5.0
-    id: 3391
-    name: Mobile Factory Operation
     volume: 0.01
   Outpost Construction:
     PrimaryAttribute: 165

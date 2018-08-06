@@ -107,12 +107,6 @@ items:
     id: 16066
     name: Caldari Navy Rocket Launcher Blueprint
     volume: 0.01
-  Countermeasure Launcher I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 10643
-    name: Countermeasure Launcher I Blueprint
-    volume: 0.01
   Cruise Missile Launcher I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1
@@ -131,24 +125,6 @@ items:
     id: 44103
     marketGroup: 340
     name: Defender Launcher I Blueprint
-    volume: 0.01
-  Demo Probe Launcher Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 26174
-    name: Demo Probe Launcher Blueprint
-    volume: 0.01
-  Domination Heavy Assault Missile Launcher Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28380
-    name: Domination Heavy Assault Missile Launcher Blueprint
-    volume: 0.01
-  Dread Guristas Heavy Assault Missile Launcher Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28382
-    name: Dread Guristas Heavy Assault Missile Launcher Blueprint
     volume: 0.01
   Dread Guristas Rapid Torpedo Launcher Blueprint:
     IndustryBlueprintRank: 400.0
@@ -359,12 +335,6 @@ items:
     TechLevel: 2
     id: 2421
     name: Torpedo Launcher II Blueprint
-    volume: 0.01
-  True Sansha Heavy Assault Missile Launcher Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28384
-    name: True Sansha Heavy Assault Missile Launcher Blueprint
     volume: 0.01
   XL Cruise Missile Launcher I Blueprint:
     IndustryBlueprintRank: 120.0

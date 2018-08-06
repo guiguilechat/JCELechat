@@ -4,26 +4,11 @@ items:
     marketGroup: 492
     name: Antibiotics
     volume: 0.2
-  Audio Log Backup – 115/11/11 A-0477:
-    id: 41024
-    marketGroup: 20
-    name: Audio Log Backup – 115/11/11 A-0477
-    volume: 0.1
-  Audio Log Backup – 117/07/01 G-6640:
-    id: 41025
-    marketGroup: 20
-    name: Audio Log Backup – 117/07/01 G-6640
-    volume: 0.1
   Carbon:
     id: 9826
     marketGroup: 20
     name: Carbon
     volume: 0.01
-  Convoy Hawk 6 Escort Roster:
-    id: 41023
-    marketGroup: 20
-    name: Convoy Hawk 6 Escort Roster
-    volume: 0.1
   Data Sheets:
     id: 3812
     marketGroup: 20
@@ -39,14 +24,6 @@ items:
     marketGroup: 20
     name: Garbage
     volume: 0.25
-  Gleaned Information:
-    id: 34883
-    name: Gleaned Information
-    volume: 0.1
-  Hardware:
-    id: 3922
-    name: Hardware
-    volume: 2.0
   Holoreel GRS-81A:
     id: 32374
     name: Holoreel GRS-81A
@@ -65,21 +42,6 @@ items:
     id: 4090
     name: Large Crates of Quafe
     volume: 500.0
-  Manifest – Cargo 118/01/06 – CLEARENCE 1B:
-    id: 41026
-    marketGroup: 20
-    name: Manifest – Cargo 118/01/06 – CLEARENCE 1B
-    volume: 0.1
-  Medical Report 0401A – 117/01/19:
-    id: 41028
-    marketGroup: 20
-    name: Medical Report 0401A – 117/01/19
-    volume: 0.1
-  Progress Report 0466B – 117/02/28:
-    id: 41029
-    marketGroup: 20
-    name: Progress Report 0466B – 117/02/28
-    volume: 0.1
   Quafe:
     id: 3699
     marketGroup: 492
@@ -94,11 +56,6 @@ items:
     id: 3814
     marketGroup: 20
     name: Reports
-    volume: 0.1
-  Secure Comms Uplink ALPHA-6:
-    id: 41027
-    marketGroup: 20
-    name: Secure Comms Uplink ALPHA-6
     volume: 0.1
   Small Arms:
     id: 9844

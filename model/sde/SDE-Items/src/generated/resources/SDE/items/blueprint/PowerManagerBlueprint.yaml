@@ -41,12 +41,6 @@ items:
     id: 17523
     name: Ammatar Navy Reactor Control Unit Blueprint
     volume: 0.01
-  Caldari Navy Power Diagnostic System Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31953
-    name: Caldari Navy Power Diagnostic System Blueprint
-    volume: 0.01
   Capacitor Flux Coil I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
@@ -136,10 +130,4 @@ items:
     TechLevel: 2
     id: 1423
     name: Shield Power Relay II Blueprint
-    volume: 0.01
-  Syndicate Reactor Control Unit Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28777
-    name: Syndicate Reactor Control Unit Blueprint
     volume: 0.01

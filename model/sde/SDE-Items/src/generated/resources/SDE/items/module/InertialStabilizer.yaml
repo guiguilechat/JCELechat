@@ -12,27 +12,6 @@ items:
     marketGroup: 1086
     name: '''Basic'' Inertial Stabilizers'
     volume: 5.0
-  Alpha Hull Mod Inertial Stabilizers:
-    AgilityMultiplier: -15.300000190734863
-    Hp: 40
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 8.5
-    TechLevel: 1
-    id: 5523
-    name: Alpha Hull Mod Inertial Stabilizers
-    volume: 5.0
-  Beta Hull Mod Inertial Stabilizers:
-    AgilityMultiplier: -19.200000762939453
-    Hp: 40
-    MetaLevel: 3
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 8.5
-    TechLevel: 1
-    id: 5531
-    name: Beta Hull Mod Inertial Stabilizers
-    volume: 5.0
   Domination Inertial Stabilizers:
     AgilityMultiplier: -20.5
     Hp: 40
@@ -68,49 +47,6 @@ items:
     id: 1405
     marketGroup: 1086
     name: Inertial Stabilizers II
-    volume: 5.0
-  Local Hull Conversion Inertial Stabilizers I:
-    AgilityMultiplier: -20.0
-    Hp: 40
-    MetaLevel: 4
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 8.0
-    TechLevel: 1
-    id: 5529
-    name: Local Hull Conversion Inertial Stabilizers I
-    volume: 5.0
-  Mark I Modified SS Inertial Stabilizers:
-    AgilityMultiplier: -17.5
-    Hp: 40
-    MetaLevel: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 9.5
-    TechLevel: 1
-    id: 5527
-    name: Mark I Modified SS Inertial Stabilizers
-    volume: 5.0
-  Marked Modified SS Inertial Stabilizers:
-    AgilityMultiplier: -14.0
-    Hp: 40
-    MetaLevel: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 9.5
-    TechLevel: 1
-    id: 5519
-    name: Marked Modified SS Inertial Stabilizers
-    volume: 5.0
-  Partial Hull Conversion Inertial Stabilizers:
-    AgilityMultiplier: -16.0
-    Hp: 40
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 8.0
-    TechLevel: 1
-    id: 5521
-    name: Partial Hull Conversion Inertial Stabilizers
     volume: 5.0
   Shadow Serpentis Inertial Stabilizers:
     AgilityMultiplier: -21.5
@@ -149,14 +85,4 @@ items:
     id: 5533
     marketGroup: 1086
     name: Type-D Restrained Inertial Stabilizers
-    volume: 5.0
-  Type-E Altered SS Inertial Stabilizers:
-    AgilityMultiplier: -14.699999809265137
-    Hp: 40
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: 9.0
-    TechLevel: 1
-    id: 5525
-    name: Type-E Altered SS Inertial Stabilizers
     volume: 5.0

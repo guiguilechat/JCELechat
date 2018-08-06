@@ -50,30 +50,6 @@ items:
     marketGroup: 640
     name: Arbalest Compact Light Missile Launcher
     volume: 5.0
-  CONCORD Light Missile Launcher:
-    ChargeGroup1: 384
-    ChargeGroup2: 394
-    ChargeRate: 1
-    Cpu: 24.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5999999046325684
-    Hp: 40
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 5
-    ReloadTime: 10000.0
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 10000
-    TechLevel: 1
-    TypeColorScheme: 20111
-    id: 16136
-    name: CONCORD Light Missile Launcher
-    volume: 5.0
   Caldari Navy Light Missile Launcher:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -168,30 +144,6 @@ items:
     marketGroup: 640
     name: Dread Guristas Light Missile Launcher
     volume: 5.0
-  Experimental TE-2100 Light Missile Launcher:
-    ChargeGroup1: 384
-    ChargeGroup2: 394
-    ChargeRate: 1
-    Cpu: 21.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MetaLevel: 1
-    OverloadRofBonus: -15
-    Power: 6
-    ReloadTime: 10000.0
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 13600
-    TechLevel: 1
-    TypeColorScheme: 20116
-    id: 7993
-    name: Experimental TE-2100 Light Missile Launcher
-    volume: 5.0
   Light Missile Launcher I:
     ChargeGroup1: 384
     ChargeGroup2: 394
@@ -241,30 +193,6 @@ items:
     id: 2404
     marketGroup: 640
     name: Light Missile Launcher II
-    volume: 5.0
-  Prototype 'Arbalest' Light Missile Launcher:
-    ChargeGroup1: 384
-    ChargeGroup2: 394
-    ChargeRate: 1
-    Cpu: 17.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.0
-    Hp: 40
-    MetaLevel: 4
-    OverloadRofBonus: -15
-    Power: 6
-    ReloadTime: 10000.0
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 12000
-    TechLevel: 1
-    TypeColorScheme: 20113
-    id: 8093
-    name: Prototype 'Arbalest' Light Missile Launcher
     volume: 5.0
   Republic Fleet Light Missile Launcher:
     ChargeGroup1: 384

@@ -42,13 +42,6 @@ public class LogisticDrone
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
@@ -62,13 +55,6 @@ public class LogisticDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
@@ -133,13 +119,6 @@ public class LogisticDrone
     @DefaultDoubleValue(500.0)
     public double EntityFlyRange;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiFighterMissileResistance;
-    /**
      * The maximum number of their targets that the character can attack at a given time.
      */
     @HighIsGood(true)
@@ -169,34 +148,6 @@ public class LogisticDrone
     @DefaultIntValue(0)
     public int RemoteResistanceID;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
@@ -210,13 +161,6 @@ public class LogisticDrone
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -239,13 +183,6 @@ public class LogisticDrone
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -253,34 +190,12 @@ public class LogisticDrone
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
      * An amount to modify the structural damage by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
     private static LinkedHashMap<String, LogisticDrone> cache = (null);
 
@@ -303,10 +218,6 @@ public class LogisticDrone
             {
                 return ArmorExplosiveDamageResonance;
             }
-            case  265 :
-            {
-                return ArmorHP;
-            }
             case  269 :
             {
                 return ArmorKineticDamageResonance;
@@ -314,10 +225,6 @@ public class LogisticDrone
             case  270 :
             {
                 return ArmorThermalDamageResonance;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
             }
             case  6 :
             {
@@ -355,10 +262,6 @@ public class LogisticDrone
             {
                 return EntityFlyRange;
             }
-            case  2189 :
-            {
-                return FighterAbilityAntiFighterMissileResistance;
-            }
             case  193 :
             {
                 return MaxAttackTargets;
@@ -375,22 +278,6 @@ public class LogisticDrone
             {
                 return RemoteResistanceID;
             }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
-            }
-            case  184 :
-            {
-                return RequiredSkill3;
-            }
-            case  279 :
-            {
-                return RequiredSkill3Level;
-            }
             case  79 :
             {
                 return ScanSpeed;
@@ -398,10 +285,6 @@ public class LogisticDrone
             case  68 :
             {
                 return ShieldBonus;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
             }
             case  271 :
             {
@@ -415,29 +298,13 @@ public class LogisticDrone
             {
                 return ShieldKineticDamageResonance;
             }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
             case  274 :
             {
                 return ShieldThermalDamageResonance;
             }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
             case  83 :
             {
                 return StructureDamageAmount;
-            }
-            case  422 :
-            {
-                return TechLevel;
             }
             default:
             {

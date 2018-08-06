@@ -120,18 +120,6 @@ items:
     marketGroup: 375
     name: Electronic Engineering
     volume: 0.01
-  Electronic Subsystem Technology:
-    PrimaryAttribute: 165
-    RequiredSkill1: 3403
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11453
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillIsObsolete: 1
-    SkillTimeConstant: 5.0
-    id: 30326
-    name: Electronic Subsystem Technology
-    volume: 0.01
   Gallente Encryption Methods:
     PrimaryAttribute: 165
     RequiredSkill1: 21718
@@ -193,17 +181,6 @@ items:
     id: 11443
     marketGroup: 375
     name: Hydromagnetic Physics
-    volume: 0.01
-  Hypernet Science:
-    PrimaryAttribute: 165
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3426
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
-    id: 11858
-    name: Hypernet Science
     volume: 0.01
   Laboratory Operation:
     CanNotBeTrainedOnTrial: 1

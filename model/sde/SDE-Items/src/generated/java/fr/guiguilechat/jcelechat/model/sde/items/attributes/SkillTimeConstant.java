@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.items.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
  * Time constant for skill training
  */
 public class SkillTimeConstant
-    extends DoubleAttribute
+    extends IntAttribute
 {
     public final static SkillTimeConstant INSTANCE = new SkillTimeConstant();
 

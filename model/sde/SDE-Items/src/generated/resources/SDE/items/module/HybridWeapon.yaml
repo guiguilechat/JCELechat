@@ -2198,39 +2198,6 @@ items:
     marketGroup: 566
     name: Brynn's Modified Dual 250mm Railgun
     volume: 20.0
-  CONCORD 150mm Railgun:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16132
-    name: CONCORD 150mm Railgun
-    volume: 5.0
-  CONCORD 250mm Railgun:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16133
-    name: CONCORD 250mm Railgun
-    volume: 10.0
-  CONCORD 350mm Railgun:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16134
-    name: CONCORD 350mm Railgun
-    volume: 20.0
   CONCORD Dual 1000mm Railgun:
     CapacitorNeed: 171.36000061035156
     ChargeGroup1: 85
@@ -5600,28 +5567,6 @@ items:
     marketGroup: 562
     name: Modal Neutron Particle Accelerator I
     volume: 10.0
-  Naiyon's Modified 350mm Railgun:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15423
-    name: Naiyon's Modified 350mm Railgun
-    volume: 20.0
-  Naiyon's Modified 425mm Railgun:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15421
-    name: Naiyon's Modified 425mm Railgun
-    volume: 20.0
   Neutron Blaster Cannon I:
     CapacitorNeed: 12.739999771118164
     ChargeGroup1: 85

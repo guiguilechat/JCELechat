@@ -1,31 +1,4 @@
 items:
-  Academy:
-    AnchoringDelay: 600000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000
-    ArmorUniformity: 0.75
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 180000
-    Power: 250000
-    ReactionGroup1: 436
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 1200000
-    Uniformity: 1.0
-    id: 20176
-    name: Academy
-    volume: 4000.0
   Biochemical Reactor Array:
     AnchoringDelay: 5000
     AnchoringSecurityLevelMax: 0.4000000059604645
@@ -167,58 +140,4 @@ items:
     id: 20175
     marketGroup: 490
     name: Simple Reactor Array
-    volume: 4000.0
-  Trauma Treatment Facility:
-    AnchoringDelay: 600000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000
-    ArmorUniformity: 0.75
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 180000
-    Power: 250000
-    ReactionGroup1: 881
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 1200000
-    Uniformity: 1.0
-    id: 28318
-    name: Trauma Treatment Facility
-    volume: 4000.0
-  Vitoc Injection Center:
-    AnchoringDelay: 600000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000
-    ArmorUniformity: 0.75
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 180000
-    Power: 250000
-    ReactionGroup1: 882
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 1200000
-    Uniformity: 1.0
-    id: 28319
-    name: Vitoc Injection Center
     volume: 4000.0

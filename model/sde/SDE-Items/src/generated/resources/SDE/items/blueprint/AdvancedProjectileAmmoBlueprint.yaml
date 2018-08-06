@@ -68,42 +68,6 @@ items:
     id: 41321
     name: Quake XL Blueprint
     volume: 0.01
-  Shock L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2
-    id: 12764
-    name: Shock L Blueprint
-    volume: 0.01
-  Shock M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2
-    id: 12770
-    name: Shock M Blueprint
-    volume: 0.01
-  Shock S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2
-    id: 12630
-    name: Shock S Blueprint
-    volume: 0.01
-  Storm L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2
-    id: 12784
-    name: Storm L Blueprint
-    volume: 0.01
-  Storm M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2
-    id: 12782
-    name: Storm M Blueprint
-    volume: 0.01
-  Storm S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2
-    id: 12628
-    name: Storm S Blueprint
-    volume: 0.01
   Tremor L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2

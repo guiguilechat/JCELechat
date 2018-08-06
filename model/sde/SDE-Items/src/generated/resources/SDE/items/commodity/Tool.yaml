@@ -1,56 +1,4 @@
 items:
-  Data Interface - Talocan Weapon Systems:
-    TechLevel: 1
-    id: 20422
-    name: Data Interface - Talocan Weapon Systems
-    volume: 1.0
-  Hacker Deck - Alpha:
-    Hp: 110
-    TechLevel: 1
-    id: 11653
-    name: Hacker Deck - Alpha
-    volume: 15.0
-  Hacker Deck - Codex:
-    Hp: 100
-    TechLevel: 1
-    id: 11468
-    name: Hacker Deck - Codex
-    volume: 15.0
-  Hacker Deck - Hermes:
-    Hp: 100
-    TechLevel: 1
-    id: 11470
-    name: Hacker Deck - Hermes
-    volume: 15.0
-  Hacker Deck - LXD-27:
-    Hp: 100
-    TechLevel: 1
-    id: 11471
-    name: Hacker Deck - LXD-27
-    volume: 15.0
-  Hacker Deck - Shaman:
-    Hp: 100
-    TechLevel: 1
-    id: 11469
-    name: Hacker Deck - Shaman
-    volume: 15.0
-  Hyper Net Uplink:
-    Hp: 100
-    TechLevel: 1
-    id: 11472
-    name: Hyper Net Uplink
-    volume: 15.0
-  Perpetual Motion Unit I:
-    TechLevel: 1
-    id: 27021
-    name: Perpetual Motion Unit I
-    volume: 100.0
-  Perpetual Motion Unit II:
-    MetaLevel: 5
-    TechLevel: 2
-    id: 27023
-    name: Perpetual Motion Unit II
-    volume: 100.0
   R.A.M.- Ammunition Tech:
     Hp: 100
     TechLevel: 1
@@ -65,24 +13,6 @@ items:
     marketGroup: 1908
     name: R.A.M.- Armor/Hull Tech
     volume: 0.04
-  R.A.M.- Battlecruiser Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 24468
-    name: R.A.M.- Battlecruiser Tech
-    volume: 15.0
-  R.A.M.- Battleship Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 11480
-    name: R.A.M.- Battleship Tech
-    volume: 15.0
-  R.A.M.- Cruiser Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 11479
-    name: R.A.M.- Cruiser Tech
-    volume: 15.0
   R.A.M.- Cybernetics:
     Hp: 100
     TechLevel: 1
@@ -104,30 +34,6 @@ items:
     marketGroup: 1908
     name: R.A.M.- Energy Tech
     volume: 0.04
-  R.A.M.- Hypernet Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 11514
-    name: R.A.M.- Hypernet Tech
-    volume: 15.0
-  R.A.M.- Industrial Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 11474
-    name: R.A.M.- Industrial Tech
-    volume: 15.0
-  R.A.M.- Pharmaceuticals:
-    Hp: 100
-    TechLevel: 1
-    id: 11513
-    name: R.A.M.- Pharmaceuticals
-    volume: 15.0
-  R.A.M.- Platform Tech:
-    Hp: 100
-    TechLevel: 1
-    id: 11477
-    name: R.A.M.- Platform Tech
-    volume: 15.0
   R.A.M.- Robotics:
     Hp: 100
     TechLevel: 1
@@ -240,9 +146,3 @@ items:
     marketGroup: 1907
     name: R.Db - Viziam
     volume: 0.04
-  Terran Molecular Sequencer:
-    Hp: 100
-    TechLevel: 1
-    id: 11473
-    name: Terran Molecular Sequencer
-    volume: 100.0

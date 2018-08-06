@@ -25,30 +25,6 @@ items:
     marketGroup: 615
     name: '''Basic'' Damage Control'
     volume: 5.0
-  '''Gonzo'' Damage Control I':
-    ArmorEmDamageResonance: 0.8700000047683716
-    ArmorExplosiveDamageResonance: 0.8700000047683716
-    ArmorKineticDamageResonance: 0.8700000047683716
-    ArmorThermalDamageResonance: 0.8700000047683716
-    Hp: 40
-    HullEmDamageResonance: 0.4399999976158142
-    HullExplosiveDamageResonance: 0.4399999976158142
-    HullKineticDamageResonance: 0.4399999976158142
-    HullThermalDamageResonance: 0.4399999976158142
-    MaxGroupFitted: 1
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.8949999809265137
-    ShieldExplosiveDamageResonance: 0.8949999809265137
-    ShieldKineticDamageResonance: 0.8949999809265137
-    ShieldThermalDamageResonance: 0.8949999809265137
-    TechLevel: 1
-    id: 22893
-    name: '''Gonzo'' Damage Control I'
-    volume: 5.0
   '''Radical'' Damage Control':
     ArmorEmDamageResonance: 0.8500000238418579
     ArmorExplosiveDamageResonance: 0.8500000238418579
@@ -431,74 +407,6 @@ items:
     marketGroup: 615
     name: EFFA Compact Assault Damage Control
     volume: 5.0
-  Emergency Damage Control I:
-    ArmorEmDamageResonance: 0.8899999856948853
-    ArmorExplosiveDamageResonance: 0.8899999856948853
-    ArmorKineticDamageResonance: 0.8899999856948853
-    ArmorThermalDamageResonance: 0.8899999856948853
-    Hp: 40
-    HullEmDamageResonance: 0.47999998927116394
-    HullExplosiveDamageResonance: 0.47999998927116394
-    HullKineticDamageResonance: 0.47999998927116394
-    HullThermalDamageResonance: 0.47999998927116394
-    MaxGroupFitted: 1
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.9150000214576721
-    ShieldExplosiveDamageResonance: 0.9150000214576721
-    ShieldKineticDamageResonance: 0.9150000214576721
-    ShieldThermalDamageResonance: 0.9150000214576721
-    TechLevel: 1
-    id: 5841
-    name: Emergency Damage Control I
-    volume: 5.0
-  F84 Local Damage System:
-    ArmorEmDamageResonance: 0.925000011920929
-    ArmorExplosiveDamageResonance: 0.925000011920929
-    ArmorKineticDamageResonance: 0.925000011920929
-    ArmorThermalDamageResonance: 0.925000011920929
-    Hp: 40
-    HullEmDamageResonance: 0.550000011920929
-    HullExplosiveDamageResonance: 0.550000011920929
-    HullKineticDamageResonance: 0.550000011920929
-    HullThermalDamageResonance: 0.550000011920929
-    MaxGroupFitted: 1
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.949999988079071
-    ShieldExplosiveDamageResonance: 0.949999988079071
-    ShieldKineticDamageResonance: 0.949999988079071
-    ShieldThermalDamageResonance: 0.949999988079071
-    TechLevel: 1
-    id: 5835
-    name: F84 Local Damage System
-    volume: 5.0
-  F85 Peripheral Damage System I:
-    ArmorEmDamageResonance: 0.8799999952316284
-    ArmorExplosiveDamageResonance: 0.8799999952316284
-    ArmorKineticDamageResonance: 0.8799999952316284
-    ArmorThermalDamageResonance: 0.8799999952316284
-    Hp: 40
-    HullEmDamageResonance: 0.46000000834465027
-    HullExplosiveDamageResonance: 0.46000000834465027
-    HullKineticDamageResonance: 0.46000000834465027
-    HullThermalDamageResonance: 0.46000000834465027
-    MaxGroupFitted: 1
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.9049999713897705
-    ShieldExplosiveDamageResonance: 0.9049999713897705
-    ShieldKineticDamageResonance: 0.9049999713897705
-    ShieldThermalDamageResonance: 0.9049999713897705
-    TechLevel: 1
-    id: 5843
-    name: F85 Peripheral Damage System I
-    volume: 5.0
   FFR Enduring Assault Damage Control:
     ArmorEmDamageResonance: 0.925000011920929
     ArmorExplosiveDamageResonance: 0.925000011920929
@@ -530,28 +438,6 @@ items:
     marketGroup: 615
     name: FFR Enduring Assault Damage Control
     volume: 5.0
-  GLFF Containment Field:
-    ArmorEmDamageResonance: 0.925000011920929
-    ArmorExplosiveDamageResonance: 0.925000011920929
-    ArmorKineticDamageResonance: 0.925000011920929
-    ArmorThermalDamageResonance: 0.925000011920929
-    Hp: 40
-    HullEmDamageResonance: 0.550000011920929
-    HullExplosiveDamageResonance: 0.550000011920929
-    HullKineticDamageResonance: 0.550000011920929
-    HullThermalDamageResonance: 0.550000011920929
-    MaxGroupFitted: 1
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.949999988079071
-    ShieldExplosiveDamageResonance: 0.949999988079071
-    ShieldKineticDamageResonance: 0.949999988079071
-    ShieldThermalDamageResonance: 0.949999988079071
-    TechLevel: 1
-    id: 5829
-    name: GLFF Containment Field
-    volume: 5.0
   IFFA Compact Damage Control:
     ArmorEmDamageResonance: 0.875
     ArmorExplosiveDamageResonance: 0.875
@@ -576,51 +462,6 @@ items:
     id: 5839
     marketGroup: 615
     name: IFFA Compact Damage Control
-    volume: 5.0
-  Interior Force Field Array:
-    ArmorEmDamageResonance: 0.925000011920929
-    ArmorExplosiveDamageResonance: 0.925000011920929
-    ArmorKineticDamageResonance: 0.925000011920929
-    ArmorThermalDamageResonance: 0.925000011920929
-    Hp: 40
-    HullEmDamageResonance: 0.550000011920929
-    HullExplosiveDamageResonance: 0.550000011920929
-    HullKineticDamageResonance: 0.550000011920929
-    HullThermalDamageResonance: 0.550000011920929
-    MaxGroupFitted: 1
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.949999988079071
-    ShieldExplosiveDamageResonance: 0.949999988079071
-    ShieldKineticDamageResonance: 0.949999988079071
-    ShieldThermalDamageResonance: 0.949999988079071
-    TechLevel: 1
-    id: 5831
-    name: Interior Force Field Array
-    volume: 5.0
-  Pseudoelectron Containment Field I:
-    ArmorEmDamageResonance: 0.8700000047683716
-    ArmorExplosiveDamageResonance: 0.8700000047683716
-    ArmorKineticDamageResonance: 0.8700000047683716
-    ArmorThermalDamageResonance: 0.8700000047683716
-    Hp: 40
-    HullEmDamageResonance: 0.4399999976158142
-    HullExplosiveDamageResonance: 0.4399999976158142
-    HullKineticDamageResonance: 0.4399999976158142
-    HullThermalDamageResonance: 0.4399999976158142
-    MaxGroupFitted: 1
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.8949999809265137
-    ShieldExplosiveDamageResonance: 0.8949999809265137
-    ShieldKineticDamageResonance: 0.8949999809265137
-    ShieldThermalDamageResonance: 0.8949999809265137
-    TechLevel: 1
-    id: 5837
-    name: Pseudoelectron Containment Field I
     volume: 5.0
   Sentient Damage Control:
     ArmorEmDamageResonance: 0.8349999785423279
@@ -794,28 +635,6 @@ items:
     id: 41201
     marketGroup: 615
     name: Syndicate Damage Control
-    volume: 5.0
-  Systematic Damage Control:
-    ArmorEmDamageResonance: 0.925000011920929
-    ArmorExplosiveDamageResonance: 0.925000011920929
-    ArmorKineticDamageResonance: 0.925000011920929
-    ArmorThermalDamageResonance: 0.925000011920929
-    Hp: 40
-    HullEmDamageResonance: 0.550000011920929
-    HullExplosiveDamageResonance: 0.550000011920929
-    HullKineticDamageResonance: 0.550000011920929
-    HullThermalDamageResonance: 0.550000011920929
-    MaxGroupFitted: 1
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    ShieldEmDamageResonance: 0.949999988079071
-    ShieldExplosiveDamageResonance: 0.949999988079071
-    ShieldKineticDamageResonance: 0.949999988079071
-    ShieldThermalDamageResonance: 0.949999988079071
-    TechLevel: 1
-    id: 5833
-    name: Systematic Damage Control
     volume: 5.0
   Tuvan's Modified Damage Control:
     ArmorEmDamageResonance: 0.800000011920929

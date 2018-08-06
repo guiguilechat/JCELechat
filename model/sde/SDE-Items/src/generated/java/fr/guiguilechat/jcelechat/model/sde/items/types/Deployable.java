@@ -13,12 +13,10 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.EncounterSurve
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileCynoInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileDecoyUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileDepot;
-import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileJumpDisruptor;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileMicroJumpUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileScanInhibitor;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileSiphonUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileTractorUnit;
-import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileVault;
 import fr.guiguilechat.jcelechat.model.sde.items.types.deployable.MobileWarpDisruptor;
 
 public abstract class Deployable
@@ -124,6 +122,6 @@ public abstract class Deployable
     }
 
     public static Map<String, ? extends Deployable> loadCategory() {
-        return Stream.of(EncounterSurveillanceSystem.load(), MobileCynoInhibitor.load(), MobileDecoyUnit.load(), MobileDepot.load(), MobileJumpDisruptor.load(), MobileMicroJumpUnit.load(), MobileScanInhibitor.load(), MobileSiphonUnit.load(), MobileTractorUnit.load(), MobileVault.load(), MobileWarpDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(EncounterSurveillanceSystem.load(), MobileCynoInhibitor.load(), MobileDecoyUnit.load(), MobileDepot.load(), MobileMicroJumpUnit.load(), MobileScanInhibitor.load(), MobileSiphonUnit.load(), MobileTractorUnit.load(), MobileWarpDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

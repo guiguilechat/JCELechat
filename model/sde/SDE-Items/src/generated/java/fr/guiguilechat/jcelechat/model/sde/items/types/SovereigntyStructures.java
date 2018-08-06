@@ -10,7 +10,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.sovereigntystructures.InfrastructureHub;
-import fr.guiguilechat.jcelechat.model.sde.items.types.sovereigntystructures.SovereigntyBlockadeUnit;
 import fr.guiguilechat.jcelechat.model.sde.items.types.sovereigntystructures.TerritorialClaimUnit;
 
 public abstract class SovereigntyStructures
@@ -93,6 +92,6 @@ public abstract class SovereigntyStructures
     }
 
     public static Map<String, ? extends SovereigntyStructures> loadCategory() {
-        return Stream.of(InfrastructureHub.load(), SovereigntyBlockadeUnit.load(), TerritorialClaimUnit.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(InfrastructureHub.load(), TerritorialClaimUnit.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

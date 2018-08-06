@@ -57,18 +57,6 @@ items:
     marketGroup: 935
     name: '''Ingenii'' Ice Harvester Upgrade'
     volume: 5.0
-  Crisium Ice Harvester Upgrade:
-    CpuPenaltyPercent: 9.0
-    Hp: 40
-    IceHarvestCycleBonus: -6.0
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 22617
-    name: Crisium Ice Harvester Upgrade
-    volume: 5.0
   Elara Restrained Mining Laser Upgrade:
     Cpu: 35.0
     CpuPenaltyPercent: 8.0
@@ -82,18 +70,6 @@ items:
     id: 22611
     marketGroup: 935
     name: Elara Restrained Mining Laser Upgrade
-    volume: 5.0
-  Erin Mining Laser Upgrade:
-    CpuPenaltyPercent: 9.0
-    Hp: 40
-    MetaLevel: 1
-    MiningAmountBonus: 6
-    Power: 1
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 22609
-    name: Erin Mining Laser Upgrade
     volume: 5.0
   Frigoris Restrained Ice Harvester Upgrade:
     Cpu: 35.0

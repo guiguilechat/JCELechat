@@ -79,66 +79,6 @@ items:
     marketGroup: 2252
     name: Quake XL
     volume: 0.125
-  Shock L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    EmDamage: 20.0
-    EntityFlyRangeMultiplier: 0.8500000238418579
-    ExplosiveDamage: 8.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    RequiredSkill1: 12203
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 20.0
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.8500000238418579
-    id: 12763
-    name: Shock L
-    volume: 0.025
-  Shock M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    EmDamage: 10.0
-    EntityFlyRangeMultiplier: 0.8500000238418579
-    ExplosiveDamage: 4.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    RequiredSkill1: 12202
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 10.0
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.8500000238418579
-    id: 12769
-    name: Shock M
-    volume: 0.0125
-  Shock S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    EmDamage: 5.0
-    EntityFlyRangeMultiplier: 0.8500000238418579
-    ExplosiveDamage: 2.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    RequiredSkill1: 12201
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 5.0
-    TrackingSpeedMultiplier: 1.0
-    WeaponRangeMultiplier: 0.8500000238418579
-    id: 12629
-    name: Shock S
-    volume: 0.0025
   Tremor L:
     CapacitorRechargeRateMultiplier: 1.0
     ChargeSize: 3

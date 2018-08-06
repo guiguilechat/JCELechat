@@ -29,20 +29,6 @@ items:
     marketGroup: 711
     name: Cargo Scanner II
     volume: 5.0
-  Interior Type-E Cargo Identifier:
-    CapacitorNeed: 4.0
-    CargoScanRange: 65000
-    DisallowRepeatingActivation: 1
-    Duration: 3500.0
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 6133
-    name: Interior Type-E Cargo Identifier
-    volume: 5.0
   PL-0 Scoped Cargo Scanner:
     CapacitorNeed: 4.0
     CargoScanRange: 65000
@@ -57,20 +43,6 @@ items:
     id: 6135
     marketGroup: 711
     name: PL-0 Scoped Cargo Scanner
-    volume: 5.0
-  Surface Cargo Scanner I:
-    CapacitorNeed: 4.0
-    CargoScanRange: 60000
-    DisallowRepeatingActivation: 1
-    Duration: 4500.0
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 6129
-    name: Surface Cargo Scanner I
     volume: 5.0
   Type-E Enduring Cargo Scanner:
     CapacitorNeed: 3.0

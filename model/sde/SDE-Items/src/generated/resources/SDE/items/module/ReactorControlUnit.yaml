@@ -33,19 +33,6 @@ items:
     marketGroup: 659
     name: Ahremen's Modified Reactor Control Unit
     volume: 5.0
-  'Alpha Reactor Control: Reaction Control':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8253
-    name: 'Alpha Reactor Control: Reaction Control'
-    volume: 5.0
   Ammatar Navy Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -79,20 +66,6 @@ items:
     id: 1351
     marketGroup: 659
     name: Basic Reactor Control Unit
-    volume: 5.0
-  'Beta Reactor Control: Reaction Control I':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    MetaLevel: 4
-    PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8261
-    name: 'Beta Reactor Control: Reaction Control I'
     volume: 5.0
   Brokara's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
@@ -196,20 +169,6 @@ items:
     marketGroup: 659
     name: Draclira's Modified Reactor Control Unit
     volume: 5.0
-  'Local Power Plant Manager: Reaction Control I':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    MetaLevel: 2
-    PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8259
-    name: 'Local Power Plant Manager: Reaction Control I'
-    volume: 5.0
   Mark I Compact Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0
     CapacitorRechargeRateMultiplier: 1.0
@@ -225,46 +184,6 @@ items:
     id: 8263
     marketGroup: 659
     name: Mark I Compact Reactor Control Unit
-    volume: 5.0
-  'Mark I Generator Refitting: Reaction Control':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    MetaLevel: 3
-    PowerOutputMultiplier: 1.100000023841858
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8265
-    name: 'Mark I Generator Refitting: Reaction Control'
-    volume: 5.0
-  'Marked Generator Refitting: Reaction Control':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8257
-    name: 'Marked Generator Refitting: Reaction Control'
-    volume: 5.0
-  'Partial Power Plant Manager: Reaction Control':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Hp: 40
-    PowerOutputMultiplier: 1.0499999523162842
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
-    id: 8251
-    name: 'Partial Power Plant Manager: Reaction Control'
     volume: 5.0
   Raysere's Modified Reactor Control Unit:
     CapacitorCapacityMultiplier: 1.0

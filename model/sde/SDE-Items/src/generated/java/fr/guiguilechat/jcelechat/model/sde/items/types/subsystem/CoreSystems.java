@@ -88,8 +88,8 @@ public class CoreSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteCore;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallenteCore;
     /**
      * 
      */

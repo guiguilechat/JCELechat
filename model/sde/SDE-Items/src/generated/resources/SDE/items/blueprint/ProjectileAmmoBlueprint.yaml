@@ -1,14 +1,4 @@
 items:
-  Arch Angel Carbonized Lead M Blueprint:
-    IndustryBlueprintRank: 2.0
-    id: 19995
-    name: Arch Angel Carbonized Lead M Blueprint
-    volume: 0.01
-  Arch Angel Titanium Sabot M Blueprint:
-    IndustryBlueprintRank: 2.0
-    id: 20003
-    name: Arch Angel Titanium Sabot M Blueprint
-    volume: 0.01
   Carbonized Lead L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 895
@@ -129,11 +119,6 @@ items:
     marketGroup: 597
     name: Nuclear XL Blueprint
     volume: 0.01
-  Orbital EMP S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 32802
-    name: Orbital EMP S Blueprint
-    volume: 0.01
   Phased Plasma L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 901
@@ -181,46 +166,6 @@ items:
     id: 17677
     marketGroup: 597
     name: Proton XL Blueprint
-    volume: 0.01
-  Republic Fleet Carbonized Lead L Blueprint:
-    IndustryBlueprintRank: 3.0
-    id: 28325
-    name: Republic Fleet Carbonized Lead L Blueprint
-    volume: 0.01
-  Republic Fleet Carbonized Lead M Blueprint:
-    IndustryBlueprintRank: 2.0
-    id: 28327
-    name: Republic Fleet Carbonized Lead M Blueprint
-    volume: 0.01
-  Republic Fleet Carbonized Lead S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 28329
-    name: Republic Fleet Carbonized Lead S Blueprint
-    volume: 0.01
-  Republic Fleet Carbonized Lead XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    id: 28331
-    name: Republic Fleet Carbonized Lead XL Blueprint
-    volume: 0.01
-  Republic Fleet Depleted Uranium L Blueprint:
-    IndustryBlueprintRank: 3.0
-    id: 28333
-    name: Republic Fleet Depleted Uranium L Blueprint
-    volume: 0.01
-  Republic Fleet Depleted Uranium M Blueprint:
-    IndustryBlueprintRank: 2.0
-    id: 28335
-    name: Republic Fleet Depleted Uranium M Blueprint
-    volume: 0.01
-  Republic Fleet Depleted Uranium S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 28337
-    name: Republic Fleet Depleted Uranium S Blueprint
-    volume: 0.01
-  Republic Fleet Depleted Uranium XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    id: 28339
-    name: Republic Fleet Depleted Uranium XL Blueprint
     volume: 0.01
   Titanium Sabot L Blueprint:
     IndustryBlueprintRank: 3.0

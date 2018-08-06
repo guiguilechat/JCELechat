@@ -4,24 +4,6 @@ items:
     id: 41603
     name: CONCORD Capital Shield Extender Blueprint
     volume: 0.01
-  Caldari Navy Large Shield Extender Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31931
-    name: Caldari Navy Large Shield Extender Blueprint
-    volume: 0.01
-  Caldari Navy Medium Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31927
-    name: Caldari Navy Medium Shield Extender Blueprint
-    volume: 0.01
-  Caldari Navy Small Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31923
-    name: Caldari Navy Small Shield Extender Blueprint
-    volume: 0.01
   Capital Azeotropic Restrained Shield Extender Blueprint:
     TechLevel: 1
     id: 41601
@@ -93,30 +75,6 @@ items:
     id: 3832
     name: Medium Shield Extender II Blueprint
     volume: 0.01
-  Republic Fleet Large Shield Extender Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31933
-    name: Republic Fleet Large Shield Extender Blueprint
-    volume: 0.01
-  Republic Fleet Medium Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31929
-    name: Republic Fleet Medium Shield Extender Blueprint
-    volume: 0.01
-  Republic Fleet Small Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31925
-    name: Republic Fleet Small Shield Extender Blueprint
-    volume: 0.01
-  Small 'Trapper' Shield Extender Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 20628
-    name: Small 'Trapper' Shield Extender Blueprint
-    volume: 0.01
   Small 'Wolf' Shield Extender Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
@@ -135,24 +93,6 @@ items:
     TechLevel: 2
     id: 1013
     name: Small Shield Extender II Blueprint
-    volume: 0.01
-  Thukker Medium Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28747
-    name: Thukker Medium Shield Extender Blueprint
-    volume: 0.01
-  Thukker Shield Extender I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28745
-    name: Thukker Shield Extender I Blueprint
-    volume: 0.01
-  Thukker Small Shield Extender Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28743
-    name: Thukker Small Shield Extender Blueprint
     volume: 0.01
   True Sansha Capital Shield Extender Blueprint:
     TechLevel: 1

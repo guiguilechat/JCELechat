@@ -63,25 +63,6 @@ items:
     id: 47732
     name: Abyssal Warp Scrambler
     volume: 5.0
-  CONCORD Modified Warp Scrambler:
-    CapacitorNeed: 30.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 24800
-    MetaLevel: 14
-    OverloadRangeBonus: 20
-    Power: 4000
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 3
-    id: 16140
-    marketGroup: 1936
-    name: CONCORD Modified Warp Scrambler
-    volume: 5.0
   Caldari Navy Warp Disruptor:
     CapacitorNeed: 20.0
     Cpu: 23.0
@@ -414,47 +395,6 @@ items:
     id: 41061
     marketGroup: 1936
     name: Federation Navy Warp Scrambler
-    volume: 5.0
-  Fleeting Progressive Warp Scrambler I:
-    ActivationBlockedStrenght: 1
-    CapacitorNeed: 4.0
-    Cpu: 29.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 8250
-    MaxVelocityMultiplier: 1.0
-    MetaLevel: 2
-    OverloadRangeBonus: 20
-    Power: 1
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3449
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 2
-    id: 5441
-    name: Fleeting Progressive Warp Scrambler I
-    volume: 5.0
-  Fleeting Warp Disruptor I:
-    CapacitorNeed: 20.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 20000
-    MetaLevel: 2
-    OverloadRangeBonus: 20
-    Power: 1
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 1
-    id: 5401
-    name: Fleeting Warp Disruptor I
     volume: 5.0
   Gotan's Modified Heavy Warp Disruptor:
     CapacitorNeed: 70.0
@@ -900,49 +840,6 @@ items:
     marketGroup: 1936
     name: Khanid Navy Warp Scrambler
     volume: 5.0
-  Makur's Modified Warp Disruptor:
-    CapacitorNeed: 70.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 36000
-    MetaLevel: 13
-    OverloadRangeBonus: 20
-    Power: 3500
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 2
-    id: 15431
-    marketGroup: 1935
-    name: Makur's Modified Warp Disruptor
-    volume: 5.0
-  Makur's Modified Warp Scrambler:
-    ActivationBlockedStrenght: 1
-    CapacitorNeed: 10.0
-    Cpu: 30.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 14250
-    MaxVelocityMultiplier: 1.0
-    MetaLevel: 13
-    OverloadRangeBonus: 20
-    Power: 2000
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3449
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 3
-    id: 15433
-    marketGroup: 1936
-    name: Makur's Modified Warp Scrambler
-    volume: 5.0
   Mizuro's Modified Heavy Warp Disruptor:
     CapacitorNeed: 50.0
     Cpu: 46.0
@@ -1255,26 +1152,6 @@ items:
     id: 3244
     marketGroup: 1935
     name: Warp Disruptor II
-    volume: 5.0
-  Warp Prohibitor I:
-    CapacitorNeed: 50.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40
-    MaxRange: 75000
-    MinRange: 20000
-    OverloadRangeBonus: 20
-    Power: 1
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 5
-    RequiredSkill2: 12098
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    WarpScrambleStrength: 1
-    id: 22476
-    name: Warp Prohibitor I
     volume: 5.0
   Warp Scrambler I:
     ActivationBlockedStrenght: 1

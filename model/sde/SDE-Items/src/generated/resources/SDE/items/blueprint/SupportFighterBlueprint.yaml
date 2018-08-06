@@ -1,10 +1,4 @@
 items:
-  AbleBlueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 45650
-    marketGroup: 2238
-    name: AbleBlueprint_PLACEHOLDER
-    volume: 0.01
   Cenobite I Blueprint:
     TechLevel: 1
     id: 41367

@@ -96,63 +96,6 @@ items:
     id: 2083
     name: Prototype Iris Probe Launcher
     volume: 5.0
-  QA Probe Launcher:
-    ChargeGroup1: 479
-    ChargeGroup2: 492
-    DisallowRepeatingActivation: 1
-    Duration: 5000.0
-    Hp: 40
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    ReloadTime: 10000.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 2
-    RequiredSkill2: 9955
-    RequiredSkill2Level: 5
-    Slots: 1
-    Speed: 2500
-    TechLevel: 1
-    id: 26173
-    name: QA Probe Launcher
-    volume: 5.0
-  Recon Probe Launcher II:
-    ChargeGroup1: 479
-    ChargeGroup2: 492
-    DisallowRepeatingActivation: 1
-    Duration: 96000.0
-    Hp: 40
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MetaLevel: 5
-    Power: 3
-    ReloadTime: 10000.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 5
-    Slots: 1
-    Speed: 1875
-    TechLevel: 2
-    id: 25771
-    name: Recon Probe Launcher II
-    volume: 5.0
-  Scan Probe Launcher II:
-    ChargeGroup1: 479
-    ChargeGroup2: 492
-    DisallowRepeatingActivation: 1
-    Duration: 450000.0
-    Hp: 40
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MetaLevel: 5
-    Power: 2
-    ReloadTime: 10000.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 4
-    Slots: 1
-    Speed: 12000
-    TechLevel: 1
-    id: 17901
-    name: Scan Probe Launcher II
-    volume: 5.0
   Sisters Core Probe Launcher:
     ChargeGroup1: 479
     Cpu: 10.0

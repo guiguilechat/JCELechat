@@ -14,42 +14,6 @@ items:
     marketGroup: 647
     name: '''Basic'' Heat Sink'
     volume: 5.0
-  '''Boreas'' Coolant System':
-    DamageMultiplier: 1.065000057220459
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9350000023841858
-    TechLevel: 1
-    id: 5855
-    name: '''Boreas'' Coolant System'
-    volume: 5.0
-  '''Mangonel'' Heat Sink I':
-    DamageMultiplier: 1.0850000381469727
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9049999713897705
-    TechLevel: 1
-    id: 23900
-    name: '''Mangonel'' Heat Sink I'
-    volume: 5.0
-  '''Skadi'' Coolant System I':
-    DamageMultiplier: 1.090999960899353
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9024999737739563
-    TechLevel: 1
-    id: 5857
-    name: '''Skadi'' Coolant System I'
-    volume: 5.0
   '''Trebuchet'' Heat Sink I':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
@@ -107,29 +71,6 @@ items:
     marketGroup: 647
     name: Brokara's Modified Heat Sink
     volume: 5.0
-  C3S Convection Thermal Radiator:
-    DamageMultiplier: 1.059999942779541
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9399999976158142
-    TechLevel: 1
-    id: 5856
-    name: C3S Convection Thermal Radiator
-    volume: 5.0
-  C4S Coiled Circuit Thermal Radiator:
-    DamageMultiplier: 1.0839999914169312
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9100000262260437
-    TechLevel: 1
-    id: 5858
-    name: C4S Coiled Circuit Thermal Radiator
-    volume: 5.0
   Chelm's Modified Heat Sink:
     DamageMultiplier: 1.1449999809265137
     Hp: 40
@@ -186,17 +127,6 @@ items:
     marketGroup: 647
     name: Extruded Compact Heat Sink
     volume: 5.0
-  Heat Exhaust System:
-    DamageMultiplier: 1.0549999475479126
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9449999928474426
-    TechLevel: 1
-    id: 5845
-    name: Heat Exhaust System
-    volume: 5.0
   Heat Sink I:
     Cpu: 27.0
     DamageMultiplier: 1.0700000524520874
@@ -237,32 +167,6 @@ items:
     marketGroup: 647
     name: Imperial Navy Heat Sink
     volume: 5.0
-  Luther Veron's Modified Heat Sink:
-    DamageMultiplier: 1.149999976158142
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 14
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1
-    id: 15397
-    name: Luther Veron's Modified Heat Sink
-    volume: 5.0
-  Makur's Modified Heat Sink:
-    DamageMultiplier: 1.149999976158142
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 14
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1
-    id: 15435
-    name: Makur's Modified Heat Sink
-    volume: 5.0
   Raysere's Modified Heat Sink:
     DamageMultiplier: 1.1349999904632568
     Hp: 40
@@ -290,17 +194,6 @@ items:
     id: 14804
     marketGroup: 647
     name: Selynne's Modified Heat Sink
-    volume: 5.0
-  Stamped Heat Sink:
-    DamageMultiplier: 1.0700000524520874
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9300000071525574
-    TechLevel: 1
-    id: 5854
-    name: Stamped Heat Sink
     volume: 5.0
   Tahron's Custom Heat Sink:
     Cpu: 29.0
@@ -330,18 +223,6 @@ items:
     id: 14802
     marketGroup: 647
     name: Tairei's Modified Heat Sink
-    volume: 5.0
-  Thermal Exhaust System I:
-    DamageMultiplier: 1.0770000219345093
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9175000190734863
-    TechLevel: 1
-    id: 5846
-    name: Thermal Exhaust System I
     volume: 5.0
   True Sansha Heat Sink:
     DamageMultiplier: 1.1200000047683716

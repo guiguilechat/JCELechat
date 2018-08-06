@@ -9,7 +9,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics.SleeperDefensiveRelics;
-import fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics.SleeperElectronicsRelics;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics.SleeperEngineeringRelics;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics.SleeperHullRelics;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics.SleeperOffensiveRelics;
@@ -51,6 +50,6 @@ public abstract class AncientRelics
     }
 
     public static Map<String, ? extends AncientRelics> loadCategory() {
-        return Stream.of(SleeperDefensiveRelics.load(), SleeperElectronicsRelics.load(), SleeperEngineeringRelics.load(), SleeperHullRelics.load(), SleeperOffensiveRelics.load(), SleeperPropulsionRelics.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(SleeperDefensiveRelics.load(), SleeperEngineeringRelics.load(), SleeperHullRelics.load(), SleeperOffensiveRelics.load(), SleeperPropulsionRelics.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

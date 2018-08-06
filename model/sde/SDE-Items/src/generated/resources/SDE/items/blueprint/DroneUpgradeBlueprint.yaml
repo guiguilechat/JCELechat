@@ -25,12 +25,6 @@ items:
     id: 24418
     name: Drone Navigation Computer II Blueprint
     volume: 0.01
-  Federation Navy Omnidirectional Tracking Link Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31943
-    name: Federation Navy Omnidirectional Tracking Link Blueprint
-    volume: 0.01
   Fighter Support Unit I Blueprint:
     IndustryBlueprintRank: 120.0
     TechLevel: 1

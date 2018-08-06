@@ -173,6 +173,11 @@ public class SDECompiler {
 				logger.warn("can't find type entry for id " + typeID);
 				continue;
 			}
+			if (!type.published) {
+				logger.debug("skipping " + attribute.attributeID + " attribute for type " + type.enName()
+				+ " as type is not published ");
+				continue;
+			}
 			int groupID = type.groupID;
 			allAttributesIds.add(attribute.attributeID);
 			if (attribute.valueFloat != 0 && Math.round(attribute.valueFloat) != attribute.valueFloat) {
@@ -244,6 +249,11 @@ public class SDECompiler {
 			int catID = groupids.get(e.getKey()).categoryID;
 			if (catAttributes.containsKey(catID)) {
 				catAttributes.get(catID).retainAll(e.getValue());
+				// if (catID == 25) {
+				// logger.info(
+				// "applied group " + e.getKey() + " to cat asteroid : attributes are
+				// now " + catAttributes.get(catID));
+				// }
 			} else {
 				System.err.println("error : can't find cat id  " + catID);
 			}
@@ -349,8 +359,14 @@ public class SDECompiler {
 		// then create all typeid groups
 
 		for (Entry<Integer, EgroupIDs> groupEntry : groupids.entrySet()) {
-			String newName = formatName(groupEntry.getValue().enName());
-			JDefinedClass catClass = catIDToClass.get(groupEntry.getValue().categoryID);
+			EgroupIDs group = groupEntry.getValue();
+			String newName = formatName(group.enName());
+			JDefinedClass catClass = catIDToClass.get(group.categoryID);
+			if (catClass == null) {
+				logger.warn("can't resolve category " + group.categoryID + " for group " + group.enName()
+				+ "(" + groupEntry.getKey() + ")");
+				continue;
+			}
 			try {
 				String name = formatName(newName);
 				// System.err

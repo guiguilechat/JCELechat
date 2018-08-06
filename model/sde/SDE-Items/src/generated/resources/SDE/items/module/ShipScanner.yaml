@@ -1,36 +1,4 @@
 items:
-  BH Ship Scanner:
-    CapacitorNeed: 5.0
-    DisallowRepeatingActivation: 1
-    Duration: 2000.0
-    Hp: 40
-    MetaLevel: 20
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ShipScanFalloff: 250000
-    ShipScanRange: 250000
-    Slots: 1
-    TechLevel: 1
-    id: 12604
-    name: BH Ship Scanner
-    volume: 5.0
-  Practical Type-E Ship Probe:
-    Cpu: 16.0
-    DisallowRepeatingActivation: 1
-    Duration: 1600.0
-    Hp: 40
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ShipScanFalloff: 33000
-    ShipScanRange: 55000
-    Slots: 1
-    TechLevel: 1
-    id: 6531
-    name: Practical Type-E Ship Probe
-    volume: 5.0
   Ship Scanner I:
     DisallowRepeatingActivation: 1
     Duration: 2000.0
@@ -63,21 +31,6 @@ items:
     marketGroup: 713
     name: Ship Scanner II
     volume: 5.0
-  Speculative Ship Identifier I:
-    DisallowRepeatingActivation: 1
-    Duration: 1800.0
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ShipScanFalloff: 33000
-    ShipScanRange: 55000
-    Slots: 1
-    TechLevel: 1
-    id: 6529
-    name: Speculative Ship Identifier I
-    volume: 5.0
   Ta3 Compact Ship Scanner:
     Cpu: 11.0
     DisallowRepeatingActivation: 1
@@ -94,19 +47,4 @@ items:
     id: 6527
     marketGroup: 713
     name: Ta3 Compact Ship Scanner
-    volume: 5.0
-  Ta3 Perfunctory Vessel Probe:
-    DisallowRepeatingActivation: 1
-    Duration: 1700.0
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ShipScanFalloff: 30000
-    ShipScanRange: 56000
-    Slots: 1
-    TechLevel: 1
-    id: 6525
-    name: Ta3 Perfunctory Vessel Probe
     volume: 5.0

@@ -165,70 +165,6 @@ items:
     marketGroup: 676
     name: Khanid Navy Co-Processor
     volume: 5.0
-  Naiyon's Modified Co-Processor:
-    CpuMultiplier: 1.159999966621399
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 11
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 15425
-    name: Naiyon's Modified Co-Processor
-    volume: 5.0
-  Nanoelectrical Co-Processor:
-    CpuMultiplier: 1.062999963760376
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 8744
-    name: Nanoelectrical Co-Processor
-    volume: 5.0
-  Nanomechanical CPU Enhancer:
-    CpuMultiplier: 1.065999984741211
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 8743
-    name: Nanomechanical CPU Enhancer
-    volume: 5.0
-  Nanomechanical CPU Enhancer I:
-    CpuMultiplier: 1.0770000219345093
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 8747
-    name: Nanomechanical CPU Enhancer I
-    volume: 5.0
-  Photonic CPU Enhancer:
-    CpuMultiplier: 1.0720000267028809
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 8745
-    name: Photonic CPU Enhancer
-    volume: 5.0
-  Photonic CPU Enhancer I:
-    CpuMultiplier: 1.0839999914169312
-    Hp: 40
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 8749
-    name: Photonic CPU Enhancer I
-    volume: 5.0
   Photonic Upgraded Co-Processor:
     CpuMultiplier: 1.090000033378601
     Hp: 40
@@ -240,27 +176,6 @@ items:
     id: 8748
     marketGroup: 676
     name: Photonic Upgraded Co-Processor
-    volume: 5.0
-  Quantum Co-Processor:
-    CpuMultiplier: 1.069000005722046
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 8746
-    name: Quantum Co-Processor
-    volume: 5.0
-  Quantum Co-Processor I:
-    CpuMultiplier: 1.0805000066757202
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 8750
-    name: Quantum Co-Processor I
     volume: 5.0
   Setele's Modified Co-Processor:
     CpuMultiplier: 1.1799999475479126

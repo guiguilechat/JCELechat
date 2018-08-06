@@ -96,29 +96,6 @@ items:
     marketGroup: 643
     name: '''Noose'' Cruise Missile Launcher'
     volume: 20.0
-  CONCORD Cruise Missile Launcher:
-    ChargeGroup1: 386
-    ChargeGroup2: 396
-    ChargeRate: 1
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7000000476837158
-    Hp: 40
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 1325
-    ReloadTime: 10000.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 14475
-    TechLevel: 1
-    TypeColorScheme: 20111
-    id: 16138
-    name: CONCORD Cruise Missile Launcher
-    volume: 20.0
   Caldari Navy Cruise Missile Launcher:
     ChargeGroup1: 386
     ChargeGroup2: 396
@@ -391,29 +368,6 @@ items:
     id: 17485
     marketGroup: 643
     name: Republic Fleet Cruise Missile Launcher
-    volume: 20.0
-  Shaqil's Modified Cruise Missile Launcher:
-    ChargeGroup1: 386
-    ChargeGroup2: 396
-    ChargeRate: 1
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.5
-    Hp: 40
-    MetaLevel: 14
-    OverloadRofBonus: -15
-    Power: 1325
-    ReloadTime: 10000.0
-    RequiredSkill1: 3326
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 13235
-    TechLevel: 1
-    TypeColorScheme: 11323
-    id: 15449
-    name: Shaqil's Modified Cruise Missile Launcher
     volume: 20.0
   Thon's Modified Cruise Missile Launcher:
     ChargeGroup1: 386

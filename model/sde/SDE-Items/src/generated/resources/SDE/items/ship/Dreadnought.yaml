@@ -327,46 +327,6 @@ items:
     marketGroup: 764
     name: Moros
     volume: 1.755E7
-  Moros Interbus Edition:
-    AdvancedAgility: 1
-    AdvancedCapitalAgility: 1
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    EntosisDurationMultiplier: 1
-    ExplosiveDamageResonance: 1.0
-    GateScrambleStatus: -1000
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StasisWebifierResistance: 1.0
-    StructureUniformity: 1.0
-    TargetPainterResistance: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    WeaponDisruptionResistance: 1.0
-    id: 34339
-    name: Moros Interbus Edition
-    volume: 1.755E7
   Naglfar:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -471,46 +431,6 @@ items:
     id: 19722
     marketGroup: 765
     name: Naglfar
-    volume: 1.55E7
-  Naglfar Justice Edition:
-    AdvancedAgility: 1
-    AdvancedCapitalAgility: 1
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    EntosisDurationMultiplier: 1
-    ExplosiveDamageResonance: 1.0
-    GateScrambleStatus: -1000
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StasisWebifierResistance: 1.0
-    StructureUniformity: 1.0
-    TargetPainterResistance: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    WeaponDisruptionResistance: 1.0
-    id: 34341
-    name: Naglfar Justice Edition
     volume: 1.55E7
   Phoenix:
     AdvancedAgility: 1
@@ -617,46 +537,6 @@ items:
     marketGroup: 763
     name: Phoenix
     volume: 1.625E7
-  Phoenix Wiyrkomi Edition:
-    AdvancedAgility: 1
-    AdvancedCapitalAgility: 1
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    EntosisDurationMultiplier: 1
-    ExplosiveDamageResonance: 1.0
-    GateScrambleStatus: -1000
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StasisWebifierResistance: 1.0
-    StructureUniformity: 1.0
-    TargetPainterResistance: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    WeaponDisruptionResistance: 1.0
-    id: 34343
-    name: Phoenix Wiyrkomi Edition
-    volume: 1.625E7
   Revelation:
     AdvancedAgility: 1
     AdvancedCapitalAgility: 1
@@ -761,46 +641,6 @@ items:
     id: 19720
     marketGroup: 762
     name: Revelation
-    volume: 1.85E7
-  Revelation Sarum Edition:
-    AdvancedAgility: 1
-    AdvancedCapitalAgility: 1
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    EmDamageResonance: 1.0
-    EnergyWarfareResistance: 1.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    EntosisDurationMultiplier: 1
-    ExplosiveDamageResonance: 1.0
-    GateScrambleStatus: -1000
-    HeatAttenuationHi: 1.0
-    HeatAttenuationLow: 1.0
-    HeatAttenuationMed: 1.0
-    HeatGenerationMultiplier: 1.0
-    JumpDriveCapacitorNeed: 1.0
-    JumpDriveDuration: 300000
-    KineticDamageResonance: 1.0
-    MaxDirectionalVelocity: 1
-    MinTargetVelDmgMultiplier: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    SensorDampenerResistance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StasisWebifierResistance: 1.0
-    StructureUniformity: 1.0
-    TargetPainterResistance: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    WarpSpeedMultiplier: 3.0
-    WeaponDisruptionResistance: 1.0
-    id: 34345
-    name: Revelation Sarum Edition
     volume: 1.85E7
   Vehement:
     AdvancedAgility: 1

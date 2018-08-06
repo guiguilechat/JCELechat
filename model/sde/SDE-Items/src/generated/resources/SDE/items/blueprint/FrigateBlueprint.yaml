@@ -1,11 +1,4 @@
 items:
-  Amarr Police Frigate Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 3769
-    name: Amarr Police Frigate Blueprint
-    volume: 0.01
   Anathema Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
@@ -44,13 +37,6 @@ items:
     id: 683
     marketGroup: 261
     name: Bantam Blueprint
-    volume: 0.01
-  Blade Blueprint:
-    IndustryBlueprintRank: 400.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 11374
-    name: Blade Blueprint
     volume: 0.01
   Breacher Blueprint:
     IndustryBlueprintRank: 20.0
@@ -164,13 +150,6 @@ items:
     marketGroup: 410
     name: Crusader Blueprint
     volume: 0.01
-  Dagger Blueprint:
-    IndustryBlueprintRank: 400.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 12037
-    name: Dagger Blueprint
-    volume: 0.01
   Damavik Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
@@ -191,13 +170,6 @@ items:
     id: 39580
     name: Deacon Blueprint
     volume: 0.01
-  Devourer Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 960
-    name: Devourer Blueprint
-    volume: 0.01
   Dramiel Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -211,13 +183,6 @@ items:
     TechLevel: 1
     id: 3533
     name: Echelon Blueprint
-    volume: 0.01
-  Echo Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 964
-    name: Echo Blueprint
     volume: 0.01
   Endurance Blueprint:
     IndustryBlueprintRank: 400.0
@@ -234,13 +199,6 @@ items:
     marketGroup: 462
     name: Enyo Blueprint
     volume: 0.01
-  Erinye Blueprint:
-    IndustryBlueprintRank: 400.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 11376
-    name: Erinye Blueprint
-    volume: 0.01
   Executioner Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -256,33 +214,12 @@ items:
     id: 17842
     name: Federation Navy Comet Blueprint
     volume: 0.01
-  Freki Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 32208
-    name: Freki Blueprint
-    volume: 0.01
-  Fury Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 961
-    name: Fury Blueprint
-    volume: 0.01
   Garmur Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 33817
     name: Garmur Blueprint
-    volume: 0.01
-  Gatherer Blueprint:
-    IndustryBlueprintRank: 400.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 11384
-    name: Gatherer Blueprint
     volume: 0.01
   Griffin Blueprint:
     IndustryBlueprintRank: 20.0
@@ -322,13 +259,6 @@ items:
     marketGroup: 428
     name: Helios Blueprint
     volume: 0.01
-  Hematos Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 33080
-    name: Hematos Blueprint
-    volume: 0.01
   Heron Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -352,13 +282,6 @@ items:
     id: 11388
     name: Hyena Blueprint
     volume: 0.01
-  Ibis Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 948
-    name: Ibis Blueprint
-    volume: 0.01
   Imicus Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -367,25 +290,11 @@ items:
     marketGroup: 277
     name: Imicus Blueprint
     volume: 0.01
-  Immolator Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 962
-    name: Immolator Blueprint
-    volume: 0.01
   Imp Blueprint:
     IndustryJobCostMultiplier: 1
     TechLevel: 1
     id: 35780
     name: Imp Blueprint
-    volume: 0.01
-  Impairor Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 943
-    name: Impairor Blueprint
     volume: 0.01
   Imperial Navy Slicer Blueprint:
     IndustryBlueprintRank: 20.0
@@ -460,13 +369,6 @@ items:
     marketGroup: 261
     name: Kestrel Blueprint
     volume: 0.01
-  Khanid Navy Frigate Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 17706
-    name: Khanid Navy Frigate Blueprint
-    volume: 0.01
   Kirin Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
@@ -474,26 +376,12 @@ items:
     id: 39581
     name: Kirin Blueprint
     volume: 0.01
-  Kishar Blueprint:
-    IndustryBlueprintRank: 400.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 11390
-    name: Kishar Blueprint
-    volume: 0.01
   Kitsune Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
     TechLevel: 2
     id: 11195
     name: Kitsune Blueprint
-    volume: 0.01
-  Lynx Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 965
-    name: Lynx Blueprint
     volume: 0.01
   Magnate Blueprint:
     IndustryBlueprintRank: 20.0
@@ -540,13 +428,6 @@ items:
     id: 40315
     name: Maulus Navy Issue Blueprint
     volume: 0.01
-  Medusa Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 963
-    name: Medusa Blueprint
-    volume: 0.01
   Merlin Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -566,20 +447,6 @@ items:
     TechLevel: 1
     id: 33662
     name: Merlin Wiyrkomi Edition Blueprint
-    volume: 0.01
-  Minmatar Peacekeeper Ship Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 947
-    name: Minmatar Peacekeeper Ship Blueprint
-    volume: 0.01
-  Mordus Frigate Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 17708
-    name: Mordus Frigate Blueprint
     volume: 0.01
   Navitas Blueprint:
     IndustryBlueprintRank: 20.0
@@ -660,13 +527,6 @@ items:
     marketGroup: 411
     name: Raptor Blueprint
     volume: 0.01
-  Reaper Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 935
-    name: Reaper Blueprint
-    volume: 0.01
   Republic Fleet Firetail Blueprint:
     IndustryBlueprintRank: 20.0
     IndustryJobCostMultiplier: 1
@@ -701,20 +561,6 @@ items:
     TechLevel: 1
     id: 33664
     name: Rifter Nefantar Edition Blueprint
-    volume: 0.01
-  SOCT 1 Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 3752
-    name: SOCT 1 Blueprint
-    volume: 0.01
-  SOCT 2 Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 3754
-    name: SOCT 2 Blueprint
     volume: 0.01
   Sarum Magnate Blueprint:
     IndustryBlueprintRank: 20.0
@@ -767,20 +613,6 @@ items:
     id: 32984
     name: Sukuuvestaa Heron Blueprint
     volume: 0.01
-  Swordspine Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 966
-    name: Swordspine Blueprint
-    volume: 0.01
-  Taipan Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 33082
-    name: Taipan Blueprint
-    volume: 0.01
   Taranis Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
@@ -825,20 +657,6 @@ items:
     id: 34444
     name: Tristan Quafe Edition Blueprint
     volume: 0.01
-  Utu Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 2835
-    name: Utu Blueprint
-    volume: 0.01
-  Velator Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 953
-    name: Velator Blueprint
-    volume: 0.01
   Vengeance Blueprint:
     IndustryBlueprintRank: 400.0
     IndustryJobCostMultiplier: 1
@@ -875,13 +693,6 @@ items:
     TechLevel: 1
     id: 40317
     name: Vigil Fleet Issue Blueprint
-    volume: 0.01
-  Violator Blueprint:
-    IndustryBlueprintRank: 20.0
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
-    id: 33084
-    name: Violator Blueprint
     volume: 0.01
   Virtuoso Blueprint:
     IndustryJobCostMultiplier: 1

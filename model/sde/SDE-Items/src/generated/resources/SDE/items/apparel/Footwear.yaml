@@ -5,36 +5,6 @@ items:
     marketGroup: 1662
     name: Boots.ini
     volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_black.type:
-    Gender: 3
-    id: 34079
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_black.type
-    volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_blue.type:
-    Gender: 3
-    id: 34081
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_blue.type
-    volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_brown.type:
-    Gender: 3
-    id: 34082
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_brown.type
-    volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_orange.type:
-    Gender: 3
-    id: 34084
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_orange.type
-    volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_red.type:
-    Gender: 3
-    id: 34085
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_red.type
-    volume: 0.1
-  Feet/SpaceBoots01F/Types/spaceboots01f_stealth.type:
-    Gender: 3
-    id: 34087
-    name: Feet/SpaceBoots01F/Types/spaceboots01f_stealth.type
-    volume: 0.1
   Men's 'Ascend' Boots (brown/gold):
     Gender: 1
     id: 33780

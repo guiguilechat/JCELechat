@@ -3,13 +3,6 @@ items:
     id: 26124
     name: 17 Successful Torture Techniques
     volume: 0.1
-  250,000 Skill Points:
-    id: 43680
-    name: 250,000 Skill Points
-  7th Fleet Data Fragment:
-    id: 29030
-    name: 7th Fleet Data Fragment
-    volume: 1.0
   Abufyr Joek's Head:
     id: 26120
     name: Abufyr Joek's Head
@@ -146,10 +139,6 @@ items:
     id: 21620
     name: Assistant's Keychain
     volume: 0.1
-  Augmented Stem Cells:
-    id: 3926
-    name: Augmented Stem Cells
-    volume: 0.38
   Avrue's Token:
     id: 24730
     name: Avrue's Token
@@ -1129,10 +1118,6 @@ items:
     id: 22056
     name: Rebel Biomass
     volume: 0.1
-  Reclaimed Organics:
-    id: 3925
-    name: Reclaimed Organics
-    volume: 2.0
   Recon Speeders:
     id: 23739
     name: Recon Speeders
@@ -1549,7 +1534,3 @@ items:
     id: 29483
     name: Zydrine Wine
     volume: 1.0
-  unnamed_gid0_sid0:
-    id: 44247
-    name: unnamed_gid0_sid0
-    volume: 0.01

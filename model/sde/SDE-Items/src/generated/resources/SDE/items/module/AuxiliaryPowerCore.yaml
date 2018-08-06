@@ -1,14 +1,4 @@
 items:
-  Micro 'Vigor' Core Augmentation:
-    Hp: 40
-    MetaLevel: 4
-    PowerIncrease: 12
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 16543
-    name: Micro 'Vigor' Core Augmentation
-    volume: 5.0
   Micro Auxiliary Power Core I:
     Cpu: 15.0
     Hp: 40
@@ -32,26 +22,6 @@ items:
     marketGroup: 660
     name: Micro Auxiliary Power Core II
     volume: 20.0
-  Micro B88 Core Augmentation:
-    Hp: 40
-    MetaLevel: 2
-    PowerIncrease: 11
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 16539
-    name: Micro B88 Core Augmentation
-    volume: 5.0
-  Micro K-Exhaust Core Augmentation:
-    Hp: 40
-    MetaLevel: 3
-    PowerIncrease: 12
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 16541
-    name: Micro K-Exhaust Core Augmentation
-    volume: 5.0
   Navy Micro Auxiliary Power Core:
     Cpu: 18.0
     Hp: 40

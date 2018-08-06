@@ -70,38 +70,6 @@ items:
     marketGroup: 1039
     name: Deep Core Mining Laser I
     volume: 5.0
-  Dual Diode Mining Laser I:
-    CapacitorNeed: 10.0
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 11200
-    MetaLevel: 2
-    MiningAmount: 44
-    Power: 2
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
-    id: 5241
-    name: Dual Diode Mining Laser I
-    volume: 5.0
-  EP-R Argon Ion Basic Excavation Pulse:
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 10600
-    MiningAmount: 21
-    Power: 2
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
-    id: 5231
-    name: EP-R Argon Ion Basic Excavation Pulse
-    volume: 5.0
   EP-S Gaussian Scoped Mining Laser:
     CapacitorNeed: 20.0
     Cpu: 65.0
@@ -215,22 +183,6 @@ items:
     marketGroup: 1039
     name: Miner II
     volume: 5.0
-  Miner II (China):
-    CapacitorNeed: 90.0
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 12000
-    MetaLevel: 5
-    MiningAmount: 60
-    Power: 4
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 4
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 2
-    id: 28369
-    name: Miner II (China)
-    volume: 5.0
   ORE Deep Core Mining Laser:
     CapacitorNeed: 240.0
     CrystalsGetDamaged: 1
@@ -313,20 +265,6 @@ items:
     marketGroup: 1039
     name: Particle Bore Compact Mining Laser
     volume: 5.0
-  Rubin Basic Particle Bore Stream:
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 12400
-    MiningAmount: 24
-    Power: 2
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    id: 5237
-    name: Rubin Basic Particle Bore Stream
-    volume: 5.0
   Single Diode Basic Mining Laser:
     Cpu: 45.0
     Duration: 60000.0
@@ -344,35 +282,4 @@ items:
     id: 5233
     marketGroup: 1039
     name: Single Diode Basic Mining Laser
-    volume: 5.0
-  XeCl Drilling Beam I:
-    CapacitorNeed: 10.0
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 11800
-    MetaLevel: 3
-    MiningAmount: 47
-    Power: 2
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
-    id: 5243
-    name: XeCl Drilling Beam I
-    volume: 5.0
-  Xenon Basic Drilling Beam:
-    Duration: 60000.0
-    Hp: 40
-    MaxRange: 11800
-    MiningAmount: 23
-    Power: 2
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    id: 5235
-    name: Xenon Basic Drilling Beam
     volume: 5.0

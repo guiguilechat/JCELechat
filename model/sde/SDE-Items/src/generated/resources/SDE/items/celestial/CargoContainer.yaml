@@ -1,18 +1,4 @@
 items:
-  Cargo Container:
-    Hp: 500
-    SignatureRadius: 5000
-    StructureUniformity: 1.0
-    id: 23
-    name: Cargo Container
-    volume: 27500.0
-  Hangar Container:
-    Hp: 500000
-    SignatureRadius: 5000
-    StructureUniformity: 1.0
-    id: 41567
-    name: Hangar Container
-    volume: 27500.0
   Large Standard Container:
     Hp: 10
     SignatureRadius: 100
@@ -29,13 +15,6 @@ items:
     marketGroup: 1657
     name: Medium Standard Container
     volume: 325.0
-  Planetary Launch Container:
-    Hp: 500
-    SignatureRadius: 5000
-    StructureUniformity: 1.0
-    id: 2263
-    name: Planetary Launch Container
-    volume: 27500.0
   Small Standard Container:
     Hp: 10
     SignatureRadius: 100

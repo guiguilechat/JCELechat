@@ -63,13 +63,6 @@ public class AdvancedPulseLaserCrystal
     @DefaultIntValue(0)
     public int CrystalsGetDamaged;
     /**
-     * Damage multiplier.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
-    /**
      * EM damage done.
      */
     @HighIsGood(true)
@@ -141,13 +134,6 @@ public class AdvancedPulseLaserCrystal
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double SpeedMultiplier;
-    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -210,10 +196,6 @@ public class AdvancedPulseLaserCrystal
             {
                 return CrystalsGetDamaged;
             }
-            case  64 :
-            {
-                return DamageMultiplier;
-            }
             case  114 :
             {
                 return EmDamage;
@@ -253,10 +235,6 @@ public class AdvancedPulseLaserCrystal
             case  277 :
             {
                 return RequiredSkill1Level;
-            }
-            case  204 :
-            {
-                return SpeedMultiplier;
             }
             case  422 :
             {

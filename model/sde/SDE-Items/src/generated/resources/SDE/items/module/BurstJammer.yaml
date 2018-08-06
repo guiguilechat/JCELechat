@@ -24,28 +24,6 @@ items:
     marketGroup: 678
     name: '''Ghost'' Burst Jammer'
     volume: 5.0
-  1Z-3 Subversive ECM Eruption:
-    CapacitorNeed: 204.0
-    Duration: 30000.0
-    EcmBurstRange: 5750
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 10.0
-    Hp: 40
-    MaxGroupActive: 1
-    MetaLevel: 3
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 6.900000095367432
-    ScanLadarStrengthBonus: 6.900000095367432
-    ScanMagnetometricStrengthBonus: 6.900000095367432
-    ScanRadarStrengthBonus: 6.900000095367432
-    TechLevel: 1
-    id: 5359
-    name: 1Z-3 Subversive ECM Eruption
-    volume: 5.0
   Burst Jammer I:
     CapacitorNeed: 240.0
     Duration: 30000.0

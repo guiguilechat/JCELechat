@@ -1,10 +1,4 @@
 items:
-  '''Capitalist'' Magnetic Field Stabilizer I Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 22918
-    name: '''Capitalist'' Magnetic Field Stabilizer I Blueprint'
-    volume: 0.01
   '''Kindred'' Gyrostabilizer Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1
@@ -53,12 +47,6 @@ items:
     TechLevel: 2
     id: 10191
     name: Magnetic Field Stabilizer II Blueprint
-    volume: 0.01
-  Monophonic Stabilization Actuator I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 21489
-    name: Monophonic Stabilization Actuator I Blueprint
     volume: 0.01
   Republic Fleet Gyrostabilizer Blueprint:
     IndustryBlueprintRank: 3.0

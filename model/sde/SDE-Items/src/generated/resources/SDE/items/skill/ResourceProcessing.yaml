@@ -271,17 +271,6 @@ items:
     marketGroup: 1323
     name: Mining Upgrades
     volume: 0.01
-  Mobile Refinery Operation:
-    PrimaryAttribute: 166
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3385
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
-    id: 3390
-    name: Mobile Refinery Operation
-    volume: 0.01
   Omber Processing:
     PrimaryAttribute: 166
     RefiningYieldMutator: 2
@@ -294,19 +283,6 @@ items:
     id: 12190
     marketGroup: 1323
     name: Omber Processing
-    volume: 0.01
-  Ore Compression:
-    PrimaryAttribute: 165
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3389
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3402
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
-    id: 28373
-    name: Ore Compression
     volume: 0.01
   Plagioclase Processing:
     PrimaryAttribute: 166

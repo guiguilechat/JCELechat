@@ -28,13 +28,6 @@ public class ScanProbeLauncher
     @DefaultIntValue(0)
     public int ChargeGroup1;
     /**
-     * One of the groups of charge this launcher can be loaded with.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ChargeGroup2;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -113,20 +106,6 @@ public class ScanProbeLauncher
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -160,10 +139,6 @@ public class ScanProbeLauncher
             case  604 :
             {
                 return ChargeGroup1;
-            }
-            case  605 :
-            {
-                return ChargeGroup2;
             }
             case  50 :
             {
@@ -204,14 +179,6 @@ public class ScanProbeLauncher
             case  277 :
             {
                 return RequiredSkill1Level;
-            }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
             }
             case  846 :
             {

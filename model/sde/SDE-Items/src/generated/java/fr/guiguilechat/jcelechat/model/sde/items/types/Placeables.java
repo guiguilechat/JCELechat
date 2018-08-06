@@ -1,11 +1,8 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Collections;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.types.placeables.Furniture;
-import fr.guiguilechat.jcelechat.model.sde.items.types.placeables.Generic;
 
 public abstract class Placeables
     extends Item
@@ -22,6 +19,6 @@ public abstract class Placeables
     }
 
     public static Map<String, ? extends Placeables> loadCategory() {
-        return Stream.of(Furniture.load(), Generic.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Collections.emptyMap();
     }
 }

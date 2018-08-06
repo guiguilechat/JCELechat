@@ -96,28 +96,6 @@ items:
     marketGroup: 642
     name: Advanced 'Limos' Heavy Missile Bay I
     volume: 10.0
-  CONCORD Heavy Missile Launcher:
-    ChargeGroup1: 385
-    ChargeGroup2: 395
-    ChargeRate: 1
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.600000023841858
-    Hp: 40
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 90
-    ReloadTime: 10000.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 5
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 10500
-    TechLevel: 1
-    TypeColorScheme: 20111
-    id: 16137
-    name: CONCORD Heavy Missile Launcher
-    volume: 10.0
   Caldari Navy Heavy Missile Launcher:
     ChargeGroup1: 385
     ChargeGroup2: 395

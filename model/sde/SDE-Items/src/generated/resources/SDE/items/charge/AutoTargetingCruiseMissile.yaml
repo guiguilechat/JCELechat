@@ -1,56 +1,4 @@
 items:
-  Arch Angel Nova F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    ExplosiveDamage: 309.0
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27475
-    name: Arch Angel Nova F.O.F. Cruise Missile I
-    volume: 0.05
-  Blood Mjolnir F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamage: 309.0
-    ExplosionDelay: 14000
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27457
-    name: Blood Mjolnir F.O.F. Cruise Missile I
-    volume: 0.05
   Caldari Navy Scourge Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -78,84 +26,6 @@ items:
     marketGroup: 1192
     name: Caldari Navy Scourge Auto-Targeting Cruise Missile I
     volume: 0.05
-  Dark Blood Mjolnir F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    EmDamage: 338.0
-    ExplosionDelay: 14000
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27461
-    name: Dark Blood Mjolnir F.O.F. Cruise Missile I
-    volume: 0.05
-  Domination Nova F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    ExplosiveDamage: 338.0
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27479
-    name: Domination Nova F.O.F. Cruise Missile I
-    volume: 0.05
-  Dread Guristas Scourge F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    Hp: 70
-    KineticDamage: 338.0
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27467
-    name: Dread Guristas Scourge F.O.F. Cruise Missile I
-    volume: 0.05
   Federation Navy Inferno Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -182,58 +52,6 @@ items:
     id: 27471
     marketGroup: 1192
     name: Federation Navy Inferno Auto-Targeting Cruise Missile I
-    volume: 0.05
-  Guardian Inferno F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 338.0
-    id: 27473
-    name: Guardian Inferno F.O.F. Cruise Missile I
-    volume: 0.05
-  Guristas Scourge F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    Hp: 70
-    KineticDamage: 309.0
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 27463
-    name: Guristas Scourge F.O.F. Cruise Missile I
     volume: 0.05
   Imperial Navy Mjolnir Auto-Targeting Cruise Missile I:
     Agility: 1.4449800073634833E-4
@@ -392,30 +210,4 @@ items:
     id: 1826
     marketGroup: 914
     name: Scourge Auto-Targeting Cruise Missile I
-    volume: 0.05
-  Shadow Inferno F.O.F. Cruise Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 330
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 69.0
-    DetonationRange: 35
-    ExplosionDelay: 14000
-    Hp: 70
-    LauncherGroup: 506
-    MaxFOFTargetRange: 200000
-    MaxVelocity: 4700.0
-    MetaGroupID: 4
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 309.0
-    id: 27469
-    name: Shadow Inferno F.O.F. Cruise Missile I
     volume: 0.05

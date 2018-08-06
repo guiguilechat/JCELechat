@@ -175,13 +175,6 @@ public class Titan
     @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
      * 
      */
     @HighIsGood(true)
@@ -259,13 +252,6 @@ public class Titan
     @DefaultIntValue(300000)
     public int JumpPortalDuration;
     /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
      * The maximum amount of jump clones that the character may have in existence or ship may have stored.
      */
     @HighIsGood(true)
@@ -293,13 +279,6 @@ public class Titan
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxPassengers;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -378,20 +357,6 @@ public class Titan
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double RemoteRepairImpedance;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -610,20 +575,6 @@ public class Titan
     @DefaultDoubleValue(1.0)
     public double TargetPainterResistance;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
      * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
@@ -742,10 +693,6 @@ public class Titan
             {
                 return HeatAttenuationMed;
             }
-            case  14 :
-            {
-                return HiSlots;
-            }
             case  1785 :
             {
                 return IsCapitalSize;
@@ -790,10 +737,6 @@ public class Titan
             {
                 return JumpPortalDuration;
             }
-            case  12 :
-            {
-                return LowSlots;
-            }
             case  979 :
             {
                 return MaxJumpClones;
@@ -809,10 +752,6 @@ public class Titan
             case  129 :
             {
                 return MaxPassengers;
-            }
-            case  13 :
-            {
-                return MedSlots;
             }
             case  1692 :
             {
@@ -853,14 +792,6 @@ public class Titan
             case  2116 :
             {
                 return RemoteRepairImpedance;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             case  183 :
             {
@@ -985,14 +916,6 @@ public class Titan
             case  2114 :
             {
                 return TargetPainterResistance;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
             }
             case  1154 :
             {

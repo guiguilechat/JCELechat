@@ -5,12 +5,6 @@ items:
     id: 21485
     name: '''Full Duplex'' Ballistic Control System Blueprint'
     volume: 0.01
-  Ballistic 'Purge' Targeting System I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 21483
-    name: Ballistic 'Purge' Targeting System I Blueprint
-    volume: 0.01
   Ballistic Control System I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1

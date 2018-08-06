@@ -1,13 +1,4 @@
 items:
-  Cybernetic Subprocessor - Advanced:
-    Implantness: 4
-    IntelligenceBonus: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 10223
-    name: Cybernetic Subprocessor - Advanced
-    volume: 1.0
   Cybernetic Subprocessor - Basic:
     Implantness: 4
     IntelligenceBonus: 3
@@ -17,15 +8,6 @@ items:
     id: 9943
     marketGroup: 621
     name: Cybernetic Subprocessor - Basic
-    volume: 1.0
-  Cybernetic Subprocessor - Elite:
-    Implantness: 4
-    IntelligenceBonus: 7
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 10224
-    name: Cybernetic Subprocessor - Elite
     volume: 1.0
   Cybernetic Subprocessor - Improved:
     Implantness: 4
@@ -147,15 +129,6 @@ items:
     marketGroup: 622
     name: Limited Social Adaptation Chip - Beta
     volume: 1.0
-  Memory Augmentation - Advanced:
-    Implantness: 2
-    MemoryBonus: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 10210
-    name: Memory Augmentation - Advanced
-    volume: 1.0
   Memory Augmentation - Basic:
     Implantness: 2
     MemoryBonus: 3
@@ -165,15 +138,6 @@ items:
     id: 9941
     marketGroup: 619
     name: Memory Augmentation - Basic
-    volume: 1.0
-  Memory Augmentation - Elite:
-    Implantness: 2
-    MemoryBonus: 7
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 10211
-    name: Memory Augmentation - Elite
     volume: 1.0
   Memory Augmentation - Improved:
     Implantness: 2
@@ -195,15 +159,6 @@ items:
     marketGroup: 619
     name: Memory Augmentation - Standard
     volume: 1.0
-  Neural Boost - Advanced:
-    Implantness: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    WillpowerBonus: 6
-    id: 10214
-    name: Neural Boost - Advanced
-    volume: 1.0
   Neural Boost - Basic:
     Implantness: 3
     RequiredSkill1: 3411
@@ -213,15 +168,6 @@ items:
     id: 9942
     marketGroup: 620
     name: Neural Boost - Basic
-    volume: 1.0
-  Neural Boost - Elite:
-    Implantness: 3
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    WillpowerBonus: 7
-    id: 10215
-    name: Neural Boost - Elite
     volume: 1.0
   Neural Boost - Improved:
     Implantness: 3
@@ -243,15 +189,6 @@ items:
     marketGroup: 620
     name: Neural Boost - Standard
     volume: 1.0
-  Ocular Filter - Advanced:
-    Implantness: 1
-    PerceptionBonus: 6
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 10218
-    name: Ocular Filter - Advanced
-    volume: 1.0
   Ocular Filter - Basic:
     Implantness: 1
     PerceptionBonus: 3
@@ -261,15 +198,6 @@ items:
     id: 9899
     marketGroup: 618
     name: Ocular Filter - Basic
-    volume: 1.0
-  Ocular Filter - Elite:
-    Implantness: 1
-    PerceptionBonus: 7
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 10219
-    name: Ocular Filter - Elite
     volume: 1.0
   Ocular Filter - Improved:
     Implantness: 1
@@ -290,15 +218,6 @@ items:
     id: 10216
     marketGroup: 618
     name: Ocular Filter - Standard
-    volume: 1.0
-  Social Adaptation Chip - Advanced:
-    CharismaBonus: 6
-    Implantness: 5
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 10227
-    name: Social Adaptation Chip - Advanced
     volume: 1.0
   Social Adaptation Chip - Basic:
     CharismaBonus: 3

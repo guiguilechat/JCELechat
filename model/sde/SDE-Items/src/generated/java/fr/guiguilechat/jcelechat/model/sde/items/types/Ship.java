@@ -15,7 +15,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.ship.Battleship;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.BlackOps;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.BlockadeRunner;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.CapitalIndustrialShip;
-import fr.guiguilechat.jcelechat.model.sde.items.types.ship.Capsule;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.Carrier;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.CombatBattlecruiser;
 import fr.guiguilechat.jcelechat.model.sde.items.types.ship.CombatReconShip;
@@ -226,6 +225,13 @@ public abstract class Ship
     @DefaultDoubleValue(1.0)
     public double HeatGenerationMultiplier;
     /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int HiSlots;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
@@ -247,6 +253,13 @@ public abstract class Ship
     @DefaultIntValue(0)
     public int LauncherSlotsLeft;
     /**
+     * The number of low power slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LowSlots;
+    /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
@@ -267,6 +280,13 @@ public abstract class Ship
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double MaxVelocity;
+    /**
+     * tbd
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int MedSlots;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -310,6 +330,20 @@ public abstract class Ship
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double RechargeRate;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1;
+    /**
+     * Required skill level for skill 1
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill1Level;
     /**
      * Gravimetric strength.
      */
@@ -424,12 +458,26 @@ public abstract class Ship
     @DefaultIntValue(0)
     public int TurretSlotsLeft;
     /**
+     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(0)
+    public int TypeColorScheme;
+    /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    /**
+     * Attribute on ships used for ship upgrades
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
     /**
      * The power cost to warp per one kg per AU (floats do not have the resolution for meters).
      */
@@ -551,6 +599,10 @@ public abstract class Ship
             {
                 return HeatGenerationMultiplier;
             }
+            case  14 :
+            {
+                return HiSlots;
+            }
             case  9 :
             {
                 return Hp;
@@ -563,6 +615,10 @@ public abstract class Ship
             {
                 return LauncherSlotsLeft;
             }
+            case  12 :
+            {
+                return LowSlots;
+            }
             case  192 :
             {
                 return MaxLockedTargets;
@@ -574,6 +630,10 @@ public abstract class Ship
             case  37 :
             {
                 return MaxVelocity;
+            }
+            case  13 :
+            {
+                return MedSlots;
             }
             case  633 :
             {
@@ -598,6 +658,14 @@ public abstract class Ship
             case  55 :
             {
                 return RechargeRate;
+            }
+            case  182 :
+            {
+                return RequiredSkill1;
+            }
+            case  277 :
+            {
+                return RequiredSkill1Level;
             }
             case  211 :
             {
@@ -663,9 +731,17 @@ public abstract class Ship
             {
                 return TurretSlotsLeft;
             }
+            case  1768 :
+            {
+                return TypeColorScheme;
+            }
             case  136 :
             {
                 return Uniformity;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
             }
             case  153 :
             {
@@ -697,6 +773,6 @@ public abstract class Ship
     }
 
     public static Map<String, ? extends Ship> loadCategory() {
-        return Stream.of(AssaultFrigate.load(), AttackBattlecruiser.load(), Battleship.load(), BlackOps.load(), BlockadeRunner.load(), CapitalIndustrialShip.load(), Capsule.load(), Carrier.load(), CombatBattlecruiser.load(), CombatReconShip.load(), CommandDestroyer.load(), CommandShip.load(), Corvette.load(), CovertOps.load(), Cruiser.load(), DeepSpaceTransport.load(), Destroyer.load(), Dreadnought.load(), ElectronicAttackShip.load(), Exhumer.load(), ExpeditionFrigate.load(), FlagCruiser.load(), ForceAuxiliary.load(), ForceReconShip.load(), Freighter.load(), Frigate.load(), HeavyAssaultCruiser.load(), HeavyInterdictionCruiser.load(), Industrial.load(), IndustrialCommandShip.load(), Interceptor.load(), Interdictor.load(), JumpFreighter.load(), Logistics.load(), LogisticsFrigate.load(), Marauder.load(), MiningBarge.load(), PrototypeExplorationShip.load(), Shuttle.load(), StealthBomber.load(), StrategicCruiser.load(), Supercarrier.load(), TacticalDestroyer.load(), Titan.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AssaultFrigate.load(), AttackBattlecruiser.load(), Battleship.load(), BlackOps.load(), BlockadeRunner.load(), CapitalIndustrialShip.load(), Carrier.load(), CombatBattlecruiser.load(), CombatReconShip.load(), CommandDestroyer.load(), CommandShip.load(), Corvette.load(), CovertOps.load(), Cruiser.load(), DeepSpaceTransport.load(), Destroyer.load(), Dreadnought.load(), ElectronicAttackShip.load(), Exhumer.load(), ExpeditionFrigate.load(), FlagCruiser.load(), ForceAuxiliary.load(), ForceReconShip.load(), Freighter.load(), Frigate.load(), HeavyAssaultCruiser.load(), HeavyInterdictionCruiser.load(), Industrial.load(), IndustrialCommandShip.load(), Interceptor.load(), Interdictor.load(), JumpFreighter.load(), Logistics.load(), LogisticsFrigate.load(), Marauder.load(), MiningBarge.load(), PrototypeExplorationShip.load(), Shuttle.load(), StealthBomber.load(), StrategicCruiser.load(), Supercarrier.load(), TacticalDestroyer.load(), Titan.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

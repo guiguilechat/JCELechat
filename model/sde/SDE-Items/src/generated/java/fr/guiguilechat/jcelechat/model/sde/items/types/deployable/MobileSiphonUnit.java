@@ -14,13 +14,6 @@ public class MobileSiphonUnit
     extends Deployable
 {
     /**
-     * How long it takes to anchor or unanchor this object.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(60000)
-    public int AnchoringDelay;
-    /**
      * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
      */
     @HighIsGood(true)
@@ -34,13 +27,6 @@ public class MobileSiphonUnit
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ArmorUniformity;
-    /**
-     * Minimum distance where a starbase structure can be anchored at from the control tower shield extremity in meters.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ControlTowerMinimumDistance;
     /**
      * The type ID of the skill that is required.
      */
@@ -131,10 +117,6 @@ public class MobileSiphonUnit
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
-            case  556 :
-            {
-                return AnchoringDelay;
-            }
             case  1032 :
             {
                 return AnchoringSecurityLevelMax;
@@ -142,10 +124,6 @@ public class MobileSiphonUnit
             case  524 :
             {
                 return ArmorUniformity;
-            }
-            case  1165 :
-            {
-                return ControlTowerMinimumDistance;
             }
             case  182 :
             {

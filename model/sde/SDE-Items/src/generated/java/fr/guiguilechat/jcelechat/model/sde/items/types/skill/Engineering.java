@@ -84,27 +84,6 @@ public class Engineering
     @DefaultIntValue(0)
     public int PowerNeedBonus;
     /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PrimaryAttribute;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -133,26 +112,12 @@ public class Engineering
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
     /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SecondaryAttribute;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ShipBrokenRepairCostMultiplierBonus;
-    /**
-     * Time constant for skill training
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SkillTimeConstant;
     /**
      * 
      */
@@ -206,18 +171,6 @@ public class Engineering
             {
                 return PowerNeedBonus;
             }
-            case  180 :
-            {
-                return PrimaryAttribute;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
             case  183 :
             {
                 return RequiredSkill2;
@@ -234,17 +187,9 @@ public class Engineering
             {
                 return RequiredSkill3Level;
             }
-            case  181 :
-            {
-                return SecondaryAttribute;
-            }
             case  1294 :
             {
                 return ShipBrokenRepairCostMultiplierBonus;
-            }
-            case  275 :
-            {
-                return SkillTimeConstant;
             }
             case  1229 :
             {

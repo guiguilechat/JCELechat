@@ -35,13 +35,6 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(1.0)
     public double ArmorExplosiveDamageResonance;
     /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
@@ -55,13 +48,6 @@ public class StasisWebifyingDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ArmorThermalDamageResonance;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
     /**
      * Length of activation time.
      */
@@ -126,13 +112,6 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(500.0)
     public double EntityFlyRange;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiFighterMissileResistance;
-    /**
      * The maximum number of their targets that the character can attack at a given time.
      */
     @HighIsGood(true)
@@ -161,47 +140,12 @@ public class StasisWebifyingDrone
     @DefaultIntValue(0)
     public int RemoteResistanceID;
     /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
     public int ScanSpeed;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
     /**
      * Multiplies EM damage taken by shield
      */
@@ -224,13 +168,6 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(1.0)
     public double ShieldKineticDamageResonance;
     /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -238,34 +175,12 @@ public class StasisWebifyingDrone
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
     /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
     private static LinkedHashMap<String, StasisWebifyingDrone> cache = (null);
 
@@ -284,10 +199,6 @@ public class StasisWebifyingDrone
             {
                 return ArmorExplosiveDamageResonance;
             }
-            case  265 :
-            {
-                return ArmorHP;
-            }
             case  269 :
             {
                 return ArmorKineticDamageResonance;
@@ -295,10 +206,6 @@ public class StasisWebifyingDrone
             case  270 :
             {
                 return ArmorThermalDamageResonance;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
             }
             case  73 :
             {
@@ -336,10 +243,6 @@ public class StasisWebifyingDrone
             {
                 return EntityFlyRange;
             }
-            case  2189 :
-            {
-                return FighterAbilityAntiFighterMissileResistance;
-            }
             case  193 :
             {
                 return MaxAttackTargets;
@@ -356,29 +259,9 @@ public class StasisWebifyingDrone
             {
                 return RemoteResistanceID;
             }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
-            }
-            case  184 :
-            {
-                return RequiredSkill3;
-            }
-            case  279 :
-            {
-                return RequiredSkill3Level;
-            }
             case  79 :
             {
                 return ScanSpeed;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
             }
             case  271 :
             {
@@ -392,29 +275,13 @@ public class StasisWebifyingDrone
             {
                 return ShieldKineticDamageResonance;
             }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
             case  274 :
             {
                 return ShieldThermalDamageResonance;
             }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
             case  20 :
             {
                 return SpeedFactor;
-            }
-            case  422 :
-            {
-                return TechLevel;
             }
             default:
             {

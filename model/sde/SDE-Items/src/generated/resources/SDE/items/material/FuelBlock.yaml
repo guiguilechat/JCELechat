@@ -1,8 +1,4 @@
 items:
-  Generic Fuel Block:
-    id: 36945
-    name: Generic Fuel Block
-    volume: 5.0
   Helium Fuel Block:
     id: 4247
     marketGroup: 1870

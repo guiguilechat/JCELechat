@@ -3,7 +3,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 import java.io.InputStreamReader;
 import java.util.LinkedHashMap;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
-import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -42,33 +41,12 @@ public class FleetSupport
     @DefaultIntValue(0)
     public int DurationBonus;
     /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PrimaryAttribute;
-    /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int ReloadTimeBonus;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -83,20 +61,6 @@ public class FleetSupport
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
-    /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SecondaryAttribute;
-    /**
-     * Time constant for skill training
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SkillTimeConstant;
     public final static String RESOURCE_PATH = "SDE/items/skill/FleetSupport.yaml";
     private static LinkedHashMap<String, FleetSupport> cache = (null);
 
@@ -119,21 +83,9 @@ public class FleetSupport
             {
                 return DurationBonus;
             }
-            case  180 :
-            {
-                return PrimaryAttribute;
-            }
             case  2573 :
             {
                 return ReloadTimeBonus;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             case  183 :
             {
@@ -142,14 +94,6 @@ public class FleetSupport
             case  278 :
             {
                 return RequiredSkill2Level;
-            }
-            case  181 :
-            {
-                return SecondaryAttribute;
-            }
-            case  275 :
-            {
-                return SkillTimeConstant;
             }
             default:
             {

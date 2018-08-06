@@ -14,15 +14,26 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.drone.ElectronicWarfareDr
 import fr.guiguilechat.jcelechat.model.sde.items.types.drone.EnergyNeutralizerDrone;
 import fr.guiguilechat.jcelechat.model.sde.items.types.drone.LogisticDrone;
 import fr.guiguilechat.jcelechat.model.sde.items.types.drone.MiningDrone;
-import fr.guiguilechat.jcelechat.model.sde.items.types.drone.RepairDrone;
 import fr.guiguilechat.jcelechat.model.sde.items.types.drone.SalvageDrone;
 import fr.guiguilechat.jcelechat.model.sde.items.types.drone.StasisWebifyingDrone;
-import fr.guiguilechat.jcelechat.model.sde.items.types.drone.UnanchoringDrone;
-import fr.guiguilechat.jcelechat.model.sde.items.types.drone.WarpScramblingDrone;
 
 public abstract class Drone
     extends Item
 {
+    /**
+     * The number of hit points on the entities armor.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ArmorHP;
+    /**
+     * DO NOT MESS WITH
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ArmorUniformity;
     /**
      * Capacitor capacity
      */
@@ -51,6 +62,13 @@ public abstract class Drone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ExplosiveDamageResonance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterAbilityAntiFighterMissileResistance;
     /**
      * The maximum hitpoints of an object.
      */
@@ -108,6 +126,34 @@ public abstract class Drone
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2;
+    /**
+     * Required skill level for skill 2
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill2Level;
+    /**
+     * The type ID of the skill that is required.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3;
+    /**
+     * Required skill level for skill 3
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RequiredSkill3Level;
+    /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
@@ -136,12 +182,48 @@ public abstract class Drone
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrength;
     /**
+     * Amount of maximum shield HP on the item.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ShieldCapacity;
+    /**
+     * Amount of time taken to fully recharge the shield.
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldRechargeRate;
+    /**
+     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double ShieldUniformity;
+    /**
+     * Signature Radius is used for turret tracking and scanning.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultIntValue(100)
+    public int SignatureRadius;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    /**
+     * Authoring has been moved to FSD
+     * Tech level of an item
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int TechLevel;
     /**
      * damage multiplier vs. thermal.
      */
@@ -160,6 +242,14 @@ public abstract class Drone
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  265 :
+            {
+                return ArmorHP;
+            }
+            case  524 :
+            {
+                return ArmorUniformity;
+            }
             case  482 :
             {
                 return CapacitorCapacity;
@@ -175,6 +265,10 @@ public abstract class Drone
             case  111 :
             {
                 return ExplosiveDamageResonance;
+            }
+            case  2189 :
+            {
+                return FighterAbilityAntiFighterMissileResistance;
             }
             case  9 :
             {
@@ -208,6 +302,22 @@ public abstract class Drone
             {
                 return RequiredSkill1Level;
             }
+            case  183 :
+            {
+                return RequiredSkill2;
+            }
+            case  278 :
+            {
+                return RequiredSkill2Level;
+            }
+            case  184 :
+            {
+                return RequiredSkill3;
+            }
+            case  279 :
+            {
+                return RequiredSkill3Level;
+            }
             case  211 :
             {
                 return ScanGravimetricStrength;
@@ -224,9 +334,29 @@ public abstract class Drone
             {
                 return ScanRadarStrength;
             }
+            case  263 :
+            {
+                return ShieldCapacity;
+            }
+            case  479 :
+            {
+                return ShieldRechargeRate;
+            }
+            case  484 :
+            {
+                return ShieldUniformity;
+            }
+            case  552 :
+            {
+                return SignatureRadius;
+            }
             case  525 :
             {
                 return StructureUniformity;
+            }
+            case  422 :
+            {
+                return TechLevel;
             }
             case  110 :
             {
@@ -254,6 +384,6 @@ public abstract class Drone
     }
 
     public static Map<String, ? extends Drone> loadCategory() {
-        return Stream.of(CombatDrone.load(), ElectronicWarfareDrone.load(), EnergyNeutralizerDrone.load(), LogisticDrone.load(), MiningDrone.load(), RepairDrone.load(), SalvageDrone.load(), StasisWebifyingDrone.load(), UnanchoringDrone.load(), WarpScramblingDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(CombatDrone.load(), ElectronicWarfareDrone.load(), EnergyNeutralizerDrone.load(), LogisticDrone.load(), MiningDrone.load(), SalvageDrone.load(), StasisWebifyingDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

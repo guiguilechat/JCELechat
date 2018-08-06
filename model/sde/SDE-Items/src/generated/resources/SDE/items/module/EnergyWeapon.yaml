@@ -1130,39 +1130,6 @@ items:
     marketGroup: 774
     name: CONCORD Dual Giga Pulse Laser
     volume: 4000.0
-  CONCORD Dual Heavy Pulse Laser:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16129
-    name: CONCORD Dual Heavy Pulse Laser
-    volume: 20.0
-  CONCORD Heavy Pulse Laser:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16131
-    name: CONCORD Heavy Pulse Laser
-    volume: 10.0
-  CONCORD Medium Pulse Laser:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16128
-    name: CONCORD Medium Pulse Laser
-    volume: 5.0
   Chelm's Modified Dual Heavy Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 22.399999618530273
@@ -1256,112 +1223,6 @@ items:
     marketGroup: 569
     name: Chelm's Modified Tachyon Beam Laser
     volume: 20.0
-  Civilian Gatling Autocannon:
-    AITankingModifierDrone: 0.7
-    AmmoLoaded: 20130
-    CapacitorNeed: 1.0
-    DamageMultiplier: 1.350000023841858
-    ExplosiveDamage: 3.0
-    Falloff: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.6000000238418579
-    Hp: 40
-    KineticDamage: 2.0
-    MaxRange: 750
-    OptimalSigRadius: 40000
-    Power: 6
-    ReloadTime: 0.009999999776482582
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 2000
-    TechLevel: 1
-    TrackingSpeed: 650.0
-    TypeColorScheme: 11342
-    id: 3636
-    name: Civilian Gatling Autocannon
-    volume: 5.0
-  Civilian Gatling Pulse Laser:
-    AITankingModifierDrone: 0.7
-    AmmoLoaded: 20128
-    CapacitorNeed: 1.0
-    DamageMultiplier: 1.2999999523162842
-    EmDamage: 3.0
-    Falloff: 1000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.6000000238418579
-    Hp: 40
-    MaxRange: 3300
-    OptimalSigRadius: 40000
-    Power: 6
-    ReloadTime: 0.009999999776482582
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 2000
-    TechLevel: 1
-    ThermalDamage: 2.0
-    TrackingSpeed: 625.0
-    TypeColorScheme: 11313
-    id: 3634
-    name: Civilian Gatling Pulse Laser
-    volume: 5.0
-  Civilian Gatling Railgun:
-    AITankingModifierDrone: 0.7
-    AmmoLoaded: 20132
-    CapacitorNeed: 1.0
-    DamageMultiplier: 1.25
-    Falloff: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.6000000238418579
-    Hp: 40
-    KineticDamage: 3.0
-    MaxRange: 4800
-    OptimalSigRadius: 40000
-    Power: 6
-    ReloadTime: 0.009999999776482582
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 2000
-    TechLevel: 1
-    ThermalDamage: 2.0
-    TrackingSpeed: 500.0
-    TypeColorScheme: 11324
-    id: 3638
-    name: Civilian Gatling Railgun
-    volume: 5.0
-  Civilian Light Electron Blaster:
-    AITankingModifierDrone: 0.7
-    AmmoLoaded: 20134
-    CapacitorNeed: 1.0
-    DamageMultiplier: 1.5
-    Falloff: 2500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.6000000238418579
-    Hp: 40
-    KineticDamage: 2.0
-    MaxRange: 1000
-    OptimalSigRadius: 40000
-    Power: 6
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3301
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 2000
-    TechLevel: 1
-    ThermalDamage: 3.0
-    TrackingSpeed: 700.0
-    TypeColorScheme: 11331
-    id: 3640
-    name: Civilian Light Electron Blaster
-    volume: 5.0
   Dark Blood Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 468.0
@@ -4279,96 +4140,6 @@ items:
     marketGroup: 569
     name: Imperial Navy Tachyon Beam Laser
     volume: 20.0
-  Luther Veron's Modified Dual Heavy Beam Laser:
-    AITankingModifierDrone: 0.7
-    CapacitorNeed: 22.399999618530273
-    ChargeGroup1: 86
-    ChargeSize: 3
-    DamageMultiplier: 3.0
-    Falloff: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.800000011920929
-    Hp: 40
-    MaxRange: 42000
-    MetaGroupID: 3
-    MetaLevel: 14
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 1732
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3309
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 7200
-    TechLevel: 1
-    TrackingSpeed: 1.75
-    TypeColorScheme: 11312
-    id: 15399
-    name: Luther Veron's Modified Dual Heavy Beam Laser
-    volume: 20.0
-  Luther Veron's Modified Mega Beam Laser:
-    AITankingModifierDrone: 0.7
-    CapacitorNeed: 41.599998474121094
-    ChargeGroup1: 86
-    ChargeSize: 3
-    DamageMultiplier: 4.5
-    Falloff: 16000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MaxRange: 50000
-    MetaGroupID: 3
-    MetaLevel: 14
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 3217
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3309
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 9000
-    TechLevel: 1
-    TrackingSpeed: 1.53125
-    TypeColorScheme: 11312
-    id: 15401
-    name: Luther Veron's Modified Mega Beam Laser
-    volume: 20.0
-  Luther Veron's Modified Tachyon Beam Laser:
-    AITankingModifierDrone: 0.7
-    CapacitorNeed: 59.20000076293945
-    ChargeGroup1: 86
-    ChargeSize: 3
-    DamageMultiplier: 6.75
-    Falloff: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40
-    MaxRange: 52800
-    MetaGroupID: 3
-    MetaLevel: 14
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 3600
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3309
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 12500
-    TechLevel: 1
-    TrackingSpeed: 1.39205002784729
-    TypeColorScheme: 11312
-    id: 15403
-    name: Luther Veron's Modified Tachyon Beam Laser
-    volume: 20.0
   Lux Kontos:
     AITankingModifierDrone: 0.7
     DamageMultiplier: 1.0
@@ -4389,28 +4160,6 @@ items:
     TechLevel: 1
     id: 47446
     name: Lux Xiphos
-  Makur's Modified Dual Heavy Beam Laser:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15427
-    name: Makur's Modified Dual Heavy Beam Laser
-    volume: 20.0
-  Makur's Modified Mega Beam Laser:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15429
-    name: Makur's Modified Mega Beam Laser
-    volume: 20.0
   Mega Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 49.400001525878906
@@ -5506,39 +5255,6 @@ items:
     marketGroup: 569
     name: Selynne's Modified Tachyon Beam Laser
     volume: 20.0
-  Sleeper Turret Large:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 0.009999999776482582
-    Slots: 1
-    TechLevel: 1
-    id: 4049
-    name: Sleeper Turret Large
-    volume: 50.0
-  Sleeper Turret Medium:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 0.009999999776482582
-    Slots: 1
-    TechLevel: 1
-    id: 4045
-    name: Sleeper Turret Medium
-    volume: 25.0
-  Sleeper Turret Small:
-    AITankingModifierDrone: 0.7
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 0.009999999776482582
-    Slots: 1
-    TechLevel: 1
-    id: 4044
-    name: Sleeper Turret Small
-    volume: 5.0
   Small Focused Afocal Maser I:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 8.573749542236328
@@ -6159,35 +5875,6 @@ items:
     marketGroup: 573
     name: Tairei's Modified Mega Pulse Laser
     volume: 20.0
-  Test Resistance Small Laser 2:
-    AITankingModifierDrone: 0.7
-    CapacitorNeed: 3.3299999237060547
-    ChargeGroup1: 86
-    ChargeSize: 1
-    Cpu: 11.0
-    DamageMultiplier: 3.75
-    Falloff: 2000
-    Hp: 40
-    MaxRange: 6250
-    MetaGroupID: 4
-    MetaLevel: 8
-    OptimalSigRadius: 40000
-    Power: 10
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3303
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    ResistanceKiller: 100
-    ResistanceKillerHull: 1
-    Slots: 1
-    Speed: 3500
-    TechLevel: 1
-    TrackingSpeed: 246.25
-    TypeColorScheme: 11320
-    id: 34271
-    name: Test Resistance Small Laser 2
-    volume: 5.0
   True Sansha Dual Giga Beam Laser:
     AITankingModifierDrone: 0.7
     CapacitorNeed: 468.0

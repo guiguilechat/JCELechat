@@ -1,10 +1,8 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Collections;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.types.cells.PhysicalPortals;
 
 public abstract class Cells
     extends Item
@@ -21,6 +19,6 @@ public abstract class Cells
     }
 
     public static Map<String, ? extends Cells> loadCategory() {
-        return Stream.of(PhysicalPortals.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Collections.emptyMap();
     }
 }

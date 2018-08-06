@@ -1,19 +1,4 @@
 items:
-  Able_PLACEHOLDER:
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 45651
-    marketGroup: 2239
-    name: Able_PLACEHOLDER
-    volume: 1.0
   Cenobite I:
     Agility: 500.0
     FighterAbilityAntiFighterMissileResistance: 1

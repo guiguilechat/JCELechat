@@ -992,24 +992,6 @@ items:
     marketGroup: 699
     name: Small F-RX Prototype Capacitor Boost
     volume: 5.0
-  Small Perishable Capacitor Overcharge II:
-    ChargeGroup1: 87
-    ChargeRate: 1
-    Duration: 14250.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 6.300000190734863
-    Hp: 40
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -20.0
-    Power: 5
-    ReloadTime: 10000.0
-    RequiredSkill1: 3417
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
-    id: 5017
-    name: Small Perishable Capacitor Overcharge II
-    volume: 5.0
   Small Tapered Capacitor Infusion I:
     ChargeGroup1: 87
     ChargeRate: 1

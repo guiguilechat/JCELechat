@@ -98,54 +98,12 @@ public class GangCoordinator
     @DefaultDoubleValue(0.0)
     public double CommandBonus;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CommandBonusECM;
-    /**
-     * commandBonusHidden
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CommandBonusHidden;
-    /**
-     * Remote Sensor Dampening Command Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CommandBonusRSD;
-    /**
-     * Tracking Disruption Command Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int CommandBonusTD;
-    /**
-     * Target Painting Command Bonus
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double CommandBonusTP;
-    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Cpu;
-    /**
-     * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowActivateInForcefield;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
@@ -154,26 +112,12 @@ public class GangCoordinator
     @DefaultIntValue(0)
     public int DisallowDocking;
     /**
-     * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowTethering;
-    /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Duration;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(3)
-    public int MaxGangModules;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -277,49 +221,17 @@ public class GangCoordinator
             {
                 return CommandBonus;
             }
-            case  1320 :
-            {
-                return CommandBonusECM;
-            }
-            case  1310 :
-            {
-                return CommandBonusHidden;
-            }
-            case  1321 :
-            {
-                return CommandBonusRSD;
-            }
-            case  1322 :
-            {
-                return CommandBonusTD;
-            }
-            case  1323 :
-            {
-                return CommandBonusTP;
-            }
             case  50 :
             {
                 return Cpu;
-            }
-            case  1920 :
-            {
-                return DisallowActivateInForcefield;
             }
             case  2354 :
             {
                 return DisallowDocking;
             }
-            case  2343 :
-            {
-                return DisallowTethering;
-            }
             case  73 :
             {
                 return Duration;
-            }
-            case  435 :
-            {
-                return MaxGangModules;
             }
             case  763 :
             {

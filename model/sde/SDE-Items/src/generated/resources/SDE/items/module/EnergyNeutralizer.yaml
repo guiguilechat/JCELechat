@@ -741,52 +741,6 @@ items:
     marketGroup: 691
     name: Heavy Infectious Scoped Energy Neutralizer
     volume: 5.0
-  Heavy Rudimentary Energy Destabilizer I:
-    CapacitorNeed: 500.0
-    Cpu: 40.0
-    Duration: 24000.0
-    EnergyNeutralizerAmount: 525
-    EntityCapacitorLevelModifierLarge: 0.8802083134651184
-    EntityCapacitorLevelModifierMedium: 0.5208333134651184
-    EntityCapacitorLevelModifierSmall: 0.26350462436676025
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 16000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16473
-    name: Heavy Rudimentary Energy Destabilizer I
-    volume: 5.0
-  Heavy Unstable Power Fluctuator I:
-    CapacitorNeed: 500.0
-    Cpu: 40.0
-    Duration: 24000.0
-    EnergyNeutralizerAmount: 600
-    EntityCapacitorLevelModifierLarge: 0.8802083134651184
-    EntityCapacitorLevelModifierMedium: 0.5208333134651184
-    EntityCapacitorLevelModifierSmall: 0.26350462436676025
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.599999904632568
-    Hp: 40
-    MaxRange: 16000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16479
-    name: Heavy Unstable Power Fluctuator I
-    volume: 5.0
   Imperial Navy Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -986,52 +940,6 @@ items:
     marketGroup: 690
     name: Medium Infectious Scoped Energy Neutralizer
     volume: 5.0
-  Medium Rudimentary Energy Destabilizer I:
-    CapacitorNeed: 150.0
-    Cpu: 20.0
-    Duration: 12000.0
-    EnergyNeutralizerAmount: 165
-    EntityCapacitorLevelModifierLarge: 0.9639583230018616
-    EntityCapacitorLevelModifierMedium: 0.8558333516120911
-    EntityCapacitorLevelModifierSmall: 0.49117645621299744
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 8000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16465
-    name: Medium Rudimentary Energy Destabilizer I
-    volume: 5.0
-  Medium Unstable Power Fluctuator I:
-    CapacitorNeed: 150.0
-    Cpu: 20.0
-    Duration: 12000.0
-    EnergyNeutralizerAmount: 165
-    EntityCapacitorLevelModifierLarge: 0.9639583230018616
-    EntityCapacitorLevelModifierMedium: 0.8558333516120911
-    EntityCapacitorLevelModifierSmall: 0.49117645621299744
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.200000047683716
-    Hp: 40
-    MaxRange: 8000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16471
-    name: Medium Unstable Power Fluctuator I
-    volume: 5.0
   Raysere's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0
     Duration: 24000.0
@@ -1206,52 +1114,6 @@ items:
     id: 4471
     marketGroup: 689
     name: Small Infectious Scoped Energy Neutralizer
-    volume: 5.0
-  Small Rudimentary Energy Destabilizer I:
-    CapacitorNeed: 45.0
-    Cpu: 10.0
-    Duration: 6000.0
-    EnergyNeutralizerAmount: 50
-    EntityCapacitorLevelModifierLarge: 0.9904166460037231
-    EntityCapacitorLevelModifierMedium: 0.9616666436195374
-    EntityCapacitorLevelModifierSmall: 0.8647058606147766
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 4000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4473
-    name: Small Rudimentary Energy Destabilizer I
-    volume: 5.0
-  Small Unstable Power Fluctuator I:
-    CapacitorNeed: 45.0
-    Cpu: 10.0
-    Duration: 6000.0
-    EnergyNeutralizerAmount: 50
-    EntityCapacitorLevelModifierLarge: 0.9904166460037231
-    EntityCapacitorLevelModifierMedium: 0.9616666436195374
-    EntityCapacitorLevelModifierSmall: 0.8647058606147766
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5999999046325684
-    Hp: 40
-    MaxRange: 4000
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 4475
-    name: Small Unstable Power Fluctuator I
     volume: 5.0
   Tairei's Modified Heavy Energy Neutralizer:
     CapacitorNeed: 500.0

@@ -599,58 +599,6 @@ items:
     marketGroup: 1007
     name: Blood Xray XL
     volume: 1.0
-  Civilian Autocannon Ammo:
-    ChargeSize: 1
-    CrystalVolatilityChance: 1.0
-    CrystalVolatilityDamage: 2.500000118743628E-4
-    EntityFlyRangeMultiplier: 1.0
-    Hp: 1
-    LauncherGroup: 53
-    MainColor: 5215864
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 20130
-    name: Civilian Autocannon Ammo
-    volume: 1.0
-  Civilian Blaster Charge:
-    ChargeSize: 1
-    CrystalVolatilityChance: 1.0
-    CrystalVolatilityDamage: 2.500000118743628E-4
-    EntityFlyRangeMultiplier: 1.0
-    Hp: 1
-    LauncherGroup: 53
-    MainColor: 5215864
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 20134
-    name: Civilian Blaster Charge
-    volume: 1.0
-  Civilian Pulse Crystal:
-    ChargeSize: 1
-    CrystalVolatilityChance: 1.0
-    CrystalVolatilityDamage: 2.500000118743628E-4
-    EntityFlyRangeMultiplier: 1.0
-    Hp: 1
-    LauncherGroup: 53
-    MainColor: 5215864
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 20128
-    name: Civilian Pulse Crystal
-    volume: 1.0
-  Civilian Railgun Charge:
-    ChargeSize: 1
-    CrystalVolatilityChance: 1.0
-    CrystalVolatilityDamage: 2.500000118743628E-4
-    EntityFlyRangeMultiplier: 1.0
-    Hp: 1
-    LauncherGroup: 53
-    MainColor: 5215864
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 20132
-    name: Civilian Railgun Charge
-    volume: 1.0
   Dark Blood Gamma L:
     CapNeedBonus: -15
     ChargeSize: 3
@@ -1968,20 +1916,6 @@ items:
     id: 17686
     marketGroup: 503
     name: Multifrequency XL
-    volume: 1.0
-  Orbital Laser S:
-    CapNeedBonus: -45
-    ChargeSize: 1
-    CrystalVolatilityChance: 1.0
-    CrystalVolatilityDamage: 2.500000118743628E-4
-    EntityFlyRangeMultiplier: 1.0
-    Hp: 1
-    LauncherGroup: 53
-    MainColor: 5215864
-    TechLevel: 1
-    WeaponRangeMultiplier: 1.0
-    id: 32799
-    name: Orbital Laser S
     volume: 1.0
   Radio L:
     CapNeedBonus: -15

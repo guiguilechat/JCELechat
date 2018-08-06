@@ -9,16 +9,9 @@ import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.AdministrationHub;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.AdvertisementCenter;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Citadel;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.EngineeringComplex;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Laboratory;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.NPCEngineeringComplex;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.NPCForwardOperatingBase;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.ObservatoryArray;
 import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Refinery;
-import fr.guiguilechat.jcelechat.model.sde.items.types.structure.Stargate;
 
 public abstract class Structure
     extends Item
@@ -122,12 +115,68 @@ public abstract class Structure
     @DefaultIntValue(0)
     public int FighterAbilityAntiCapitalMissileResistance;
     /**
+     * This defines the total capacity of fighters allowed in the fighter bay of the ship
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterCapacity;
+    /**
+     * Number of Heavy Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupHeavySlots;
+    /**
+     * Number of Light Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupLightSlots;
+    /**
+     * Number of Support Fighters the structure can launch.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterStandupSupportSlots;
+    /**
+     * This defines the total number of fighter launch tubes on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int FighterTubes;
+    /**
+     * Defines whether an entity can be hacked or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int Hackable;
+    /**
      * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int HiSlots;
+    /**
+     * Armor hitpoint attribute used by structures as a workaround for implementing Standup layered plating stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenArmorHPMultiplier;
+    /**
+     * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultIntValue(1)
+    public int HiddenMissileDamageMultiplier;
     /**
      * The maximum hitpoints of an object.
      */
@@ -142,6 +191,13 @@ public abstract class Structure
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double KineticDamageResonance;
+    /**
+     * The number of remaining unused launcher slots.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int LauncherSlotsLeft;
     /**
      * The number of low power slots on the ship.
      */
@@ -163,6 +219,13 @@ public abstract class Structure
     @Stackable(false)
     @DefaultIntValue(0)
     public int MaxTargetRange;
+    /**
+     * The maximum possible target range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300000)
+    public int MaximumRangeCap;
     /**
      * tbd
      */
@@ -198,6 +261,20 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double RemoteRepairImpedance;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSize;
+    /**
+     * The number of rig slots on the ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int RigSlots;
     /**
      * Gravimetric strength.
      */
@@ -240,6 +317,13 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SensorDampenerResistance;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int ServiceSlots;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -313,10 +397,31 @@ public abstract class Structure
     /**
      * 
      */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureAoERoFRoleBonus;
+    /**
+     * 
+     */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageLimit;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(1)
+    public int StructureFullPowerStateHitpointMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int StructureServiceRoleBonus;
     /**
      * Resistance against Target Painters
      */
@@ -325,6 +430,13 @@ public abstract class Structure
     @DefaultDoubleValue(1.0)
     public double TargetPainterResistance;
     /**
+     * Distance which tethering will engage / disengage piloted ships.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TetheringRange;
+    /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
@@ -332,12 +444,33 @@ public abstract class Structure
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int TierDifficulty;
+    /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    /**
+     * Attribute on ships used for ship upgrades
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeCapacity;
+    /**
+     * How many upgrades can by fitted to this ship.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int UpgradeSlotsLeft;
     /**
      * Resistance against Remote Weapon Disruptors.
      */
@@ -405,9 +538,41 @@ public abstract class Structure
             {
                 return FighterAbilityAntiCapitalMissileResistance;
             }
+            case  2055 :
+            {
+                return FighterCapacity;
+            }
+            case  2739 :
+            {
+                return FighterStandupHeavySlots;
+            }
+            case  2737 :
+            {
+                return FighterStandupLightSlots;
+            }
+            case  2738 :
+            {
+                return FighterStandupSupportSlots;
+            }
+            case  2216 :
+            {
+                return FighterTubes;
+            }
+            case  1927 :
+            {
+                return Hackable;
+            }
             case  14 :
             {
                 return HiSlots;
+            }
+            case  2751 :
+            {
+                return HiddenArmorHPMultiplier;
+            }
+            case  2750 :
+            {
+                return HiddenMissileDamageMultiplier;
             }
             case  9 :
             {
@@ -416,6 +581,10 @@ public abstract class Structure
             case  109 :
             {
                 return KineticDamageResonance;
+            }
+            case  101 :
+            {
+                return LauncherSlotsLeft;
             }
             case  12 :
             {
@@ -428,6 +597,10 @@ public abstract class Structure
             case  76 :
             {
                 return MaxTargetRange;
+            }
+            case  797 :
+            {
+                return MaximumRangeCap;
             }
             case  13 :
             {
@@ -448,6 +621,14 @@ public abstract class Structure
             case  2116 :
             {
                 return RemoteRepairImpedance;
+            }
+            case  1547 :
+            {
+                return RigSize;
+            }
+            case  1137 :
+            {
+                return RigSlots;
             }
             case  211 :
             {
@@ -472,6 +653,10 @@ public abstract class Structure
             case  2112 :
             {
                 return SensorDampenerResistance;
+            }
+            case  2056 :
+            {
+                return ServiceSlots;
             }
             case  263 :
             {
@@ -513,21 +698,49 @@ public abstract class Structure
             {
                 return StasisWebifierResistance;
             }
+            case  2749 :
+            {
+                return StructureAoERoFRoleBonus;
+            }
             case  2036 :
             {
                 return StructureDamageLimit;
+            }
+            case  2743 :
+            {
+                return StructureFullPowerStateHitpointMultiplier;
+            }
+            case  2339 :
+            {
+                return StructureServiceRoleBonus;
             }
             case  2114 :
             {
                 return TargetPainterResistance;
             }
+            case  2268 :
+            {
+                return TetheringRange;
+            }
             case  110 :
             {
                 return ThermalDamageResonance;
             }
+            case  1919 :
+            {
+                return TierDifficulty;
+            }
             case  136 :
             {
                 return Uniformity;
+            }
+            case  1132 :
+            {
+                return UpgradeCapacity;
+            }
+            case  1154 :
+            {
+                return UpgradeSlotsLeft;
             }
             case  2113 :
             {
@@ -551,6 +764,6 @@ public abstract class Structure
     }
 
     public static Map<String, ? extends Structure> loadCategory() {
-        return Stream.of(AdministrationHub.load(), AdvertisementCenter.load(), Citadel.load(), EngineeringComplex.load(), Laboratory.load(), NPCEngineeringComplex.load(), NPCForwardOperatingBase.load(), ObservatoryArray.load(), Refinery.load(), Stargate.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Citadel.load(), EngineeringComplex.load(), Refinery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

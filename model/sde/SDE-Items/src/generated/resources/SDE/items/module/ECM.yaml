@@ -51,28 +51,6 @@ items:
     marketGroup: 718
     name: '''Heist'' Radar ECM'
     volume: 5.0
-  '''Hypnos'' Multispectral ECM I':
-    CapacitorNeed: 57.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40
-    MaxRange: 19246
-    MetaLevel: 4
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2253
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 2.4000000953674316
-    ScanLadarStrengthBonus: 2.4000000953674316
-    ScanMagnetometricStrengthBonus: 2.4000000953674316
-    ScanRadarStrengthBonus: 2.4000000953674316
-    TechLevel: 1
-    id: 19933
-    name: '''Hypnos'' Multispectral ECM I'
-    volume: 5.0
   '''Marshall'' Magnetometric ECM':
     CapacitorNeed: 32.0
     Cpu: 30.0
@@ -98,28 +76,6 @@ items:
     id: 20573
     marketGroup: 715
     name: '''Marshall'' Magnetometric ECM'
-    volume: 5.0
-  '''Penumbra'' White Noise ECM':
-    CapacitorNeed: 45.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40
-    MaxRange: 25260
-    MetaLevel: 1
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2253
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0499999523162842
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 1.0499999523162842
-    ScanRadarStrengthBonus: 3.1500000953674316
-    TechLevel: 1
-    id: 9520
-    name: '''Penumbra'' White Noise ECM'
     volume: 5.0
   '''Plunderer'' Gravimetric ECM':
     CapacitorNeed: 32.0
@@ -323,28 +279,6 @@ items:
     marketGroup: 719
     name: Estamel's Modified Multispectral ECM
     volume: 5.0
-  FZ-3 Subversive Spatial Destabilizer ECM:
-    CapacitorNeed: 45.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40
-    MaxRange: 25260
-    MetaLevel: 1
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2253
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 3.1500000953674316
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 1.0499999523162842
-    ScanRadarStrengthBonus: 1.0499999523162842
-    TechLevel: 1
-    id: 9519
-    name: FZ-3 Subversive Spatial Destabilizer ECM
-    volume: 5.0
   FZ-3a Enduring Gravimetric ECM:
     CapacitorNeed: 38.0
     Cpu: 40.0
@@ -369,28 +303,6 @@ items:
     id: 19942
     marketGroup: 717
     name: FZ-3a Enduring Gravimetric ECM
-    volume: 5.0
-  Faint Phase Inversion ECM I:
-    CapacitorNeed: 45.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40
-    MaxRange: 25260
-    MetaLevel: 1
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2253
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0499999523162842
-    ScanLadarStrengthBonus: 3.1500000953674316
-    ScanMagnetometricStrengthBonus: 1.0499999523162842
-    ScanRadarStrengthBonus: 1.0499999523162842
-    TechLevel: 1
-    id: 9522
-    name: Faint Phase Inversion ECM I
     volume: 5.0
   Gloom Enduring Radar ECM:
     CapacitorNeed: 38.0
@@ -563,28 +475,6 @@ items:
     id: 9521
     marketGroup: 719
     name: Initiated Enduring Multispectral ECM
-    volume: 5.0
-  Initiated Ion Field ECM I:
-    CapacitorNeed: 45.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.599999904632568
-    Hp: 40
-    MaxRange: 25260
-    MetaLevel: 1
-    OverloadECMStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2253
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthBonus: 1.0499999523162842
-    ScanLadarStrengthBonus: 1.0499999523162842
-    ScanMagnetometricStrengthBonus: 3.1500000953674316
-    ScanRadarStrengthBonus: 1.0499999523162842
-    TechLevel: 1
-    id: 9518
-    name: Initiated Ion Field ECM I
     volume: 5.0
   Kaikka's Modified Multispectral ECM:
     CapacitorNeed: 93.0

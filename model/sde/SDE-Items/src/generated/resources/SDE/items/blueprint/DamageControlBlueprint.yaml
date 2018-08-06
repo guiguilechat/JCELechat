@@ -1,10 +1,4 @@
 items:
-  '''Gonzo'' Damage Control I Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 22894
-    name: '''Gonzo'' Damage Control I Blueprint'
-    volume: 0.01
   '''Radical'' Damage Control Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1

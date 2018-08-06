@@ -43,18 +43,6 @@ items:
     marketGroup: 646
     name: Counterbalanced Compact Gyrostabilizer
     volume: 5.0
-  Cross-Lateral Gyrostabilizer I:
-    DamageMultiplier: 1.0770000219345093
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9175000190734863
-    TechLevel: 1
-    id: 5931
-    name: Cross-Lateral Gyrostabilizer I
-    volume: 5.0
   Domination Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
     Hp: 40
@@ -68,29 +56,6 @@ items:
     id: 13939
     marketGroup: 646
     name: Domination Gyrostabilizer
-    volume: 5.0
-  F-M2 Weapon Inertial Suspensor:
-    DamageMultiplier: 1.059999942779541
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9399999976158142
-    TechLevel: 1
-    id: 5919
-    name: F-M2 Weapon Inertial Suspensor
-    volume: 5.0
-  F-M3 Munition Inertial Suspensor:
-    DamageMultiplier: 1.0839999914169312
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9100000262260437
-    TechLevel: 1
-    id: 5935
-    name: F-M3 Munition Inertial Suspensor
     volume: 5.0
   Gotan's Modified Gyrostabilizer:
     DamageMultiplier: 1.1399999856948853
@@ -146,28 +111,6 @@ items:
     marketGroup: 646
     name: Hakim's Modified Gyrostabilizer
     volume: 5.0
-  Hydraulic Stabilization Actuator:
-    DamageMultiplier: 1.065000057220459
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9350000023841858
-    TechLevel: 1
-    id: 5913
-    name: Hydraulic Stabilization Actuator
-    volume: 5.0
-  Lateral Gyrostabilizer:
-    DamageMultiplier: 1.0549999475479126
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9449999928474426
-    TechLevel: 1
-    id: 5915
-    name: Lateral Gyrostabilizer
-    volume: 5.0
   Mizuro's Modified Gyrostabilizer:
     DamageMultiplier: 1.1299999952316284
     Hp: 40
@@ -181,31 +124,6 @@ items:
     id: 14536
     marketGroup: 646
     name: Mizuro's Modified Gyrostabilizer
-    volume: 5.0
-  Monophonic Stabilization Actuator I:
-    DamageMultiplier: 1.100000023841858
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.925000011920929
-    TechLevel: 1
-    id: 21488
-    name: Monophonic Stabilization Actuator I
-    volume: 5.0
-  Pneumatic Stabilization Actuator I:
-    DamageMultiplier: 1.090999960899353
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9024999737739563
-    TechLevel: 1
-    id: 5929
-    name: Pneumatic Stabilization Actuator I
     volume: 5.0
   Republic Fleet Gyrostabilizer:
     DamageMultiplier: 1.1200000047683716
@@ -234,17 +152,6 @@ items:
     id: 15447
     marketGroup: 646
     name: Shaqil's Modified Gyrostabilizer
-    volume: 5.0
-  Stabilized Weapon Mounts:
-    DamageMultiplier: 1.0700000524520874
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9300000071525574
-    TechLevel: 1
-    id: 5917
-    name: Stabilized Weapon Mounts
     volume: 5.0
   Tobias' Modified Gyrostabilizer:
     DamageMultiplier: 1.1449999809265137

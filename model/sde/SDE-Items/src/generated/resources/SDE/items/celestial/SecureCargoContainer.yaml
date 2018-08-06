@@ -1,13 +1,4 @@
 items:
-  Colossal Secure Container:
-    Hp: 500000
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    SignatureRadius: 6000
-    StructureUniformity: 1.0
-    id: 11490
-    name: Colossal Secure Container
-    volume: 6000.0
   Giant Secure Container:
     Hp: 500000
     RequiredSkill1: 11584

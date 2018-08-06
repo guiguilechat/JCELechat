@@ -67,7 +67,16 @@ public class ItemsTranslater {
 		LinkedHashMap<Integer, EtypeIDs> typeids = EtypeIDs.load();
 		for (Entry<Integer, EtypeIDs> e : typeids.entrySet()) {
 			EtypeIDs type = e.getValue();
+			if (!type.published) {
+				logger.debug("type " + type.enName() + " is not published");
+				continue;
+			}
 			String className = classes.groupID2ClassName.get(type.groupID);
+			if (className == null) {
+				logger.debug("type " + type.enName() + " has unpublished group class");
+				continue;
+
+			}
 			Object item = makeObjectDefault(className, cl);
 			String fileName = item.getClass().getSuperclass().getSimpleName().toLowerCase() + "/"
 					+ item.getClass().getSimpleName()
@@ -112,7 +121,7 @@ public class ItemsTranslater {
 			try {
 				Object built = builtItems.get(e.getKey());
 				if (built == null) {
-					logger.warn("cannot find item built for id " + e.getKey());
+					logger.debug("cannot find item built for id " + e.getKey());
 					continue;
 				}
 				for (Entry<Integer, EdgmTypeAttributes> c : e.getValue().entrySet()) {

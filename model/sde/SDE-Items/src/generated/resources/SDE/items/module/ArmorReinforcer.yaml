@@ -102,30 +102,6 @@ items:
     marketGroup: 1672
     name: 100mm Crystalline Carbonide Restrained Plates
     volume: 5.0
-  100mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 206
-    Hp: 40
-    MassAddition: 35000
-    MetaLevel: 1
-    Power: 5
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11345
-    name: 100mm Reinforced Nanofiber Plates I
-    volume: 5.0
-  100mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 225
-    Hp: 40
-    MassAddition: 32500
-    MetaLevel: 2
-    Power: 5
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11339
-    name: 100mm Reinforced Titanium Plates I
-    volume: 5.0
   100mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 250
     Hp: 40
@@ -178,30 +154,6 @@ items:
     id: 11327
     marketGroup: 1676
     name: 1600mm Crystalline Carbonide Restrained Plates
-    volume: 20.0
-  1600mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 3300
-    Hp: 40
-    MassAddition: 3500000
-    MetaLevel: 1
-    Power: 500
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11329
-    name: 1600mm Reinforced Nanofiber Plates I
-    volume: 20.0
-  1600mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 3600
-    Hp: 40
-    MassAddition: 3250000
-    MetaLevel: 2
-    Power: 500
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11323
-    name: 1600mm Reinforced Titanium Plates I
     volume: 20.0
   1600mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 4000
@@ -256,30 +208,6 @@ items:
     id: 11351
     marketGroup: 1673
     name: 200mm Crystalline Carbonide Restrained Plates
-    volume: 10.0
-  200mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 413
-    Hp: 40
-    MassAddition: 140000
-    MetaLevel: 1
-    Power: 10
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 11353
-    name: 200mm Reinforced Nanofiber Plates I
-    volume: 10.0
-  200mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 450
-    Hp: 40
-    MassAddition: 130000
-    MetaLevel: 2
-    Power: 10
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 11347
-    name: 200mm Reinforced Titanium Plates I
     volume: 10.0
   200mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 500
@@ -390,30 +318,6 @@ items:
     marketGroup: 1674
     name: 400mm Crystalline Carbonide Restrained Plates
     volume: 10.0
-  400mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 825
-    Hp: 40
-    MassAddition: 350000
-    MetaLevel: 1
-    Power: 30
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11313
-    name: 400mm Reinforced Nanofiber Plates I
-    volume: 10.0
-  400mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 900
-    Hp: 40
-    MassAddition: 325000
-    MetaLevel: 2
-    Power: 30
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11307
-    name: 400mm Reinforced Titanium Plates I
-    volume: 10.0
   400mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 1100
     Cpu: 17.0
@@ -453,77 +357,6 @@ items:
     marketGroup: 1674
     name: 400mm Steel Plates II
     volume: 10.0
-  50mm Reinforced Crystalline Carbonide Plates I:
-    ArmorHPBonusAdd: 123
-    Hp: 40
-    MassAddition: 12000
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11335
-    name: 50mm Reinforced Crystalline Carbonide Plates I
-    volume: 5.0
-  50mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 104
-    Hp: 40
-    MassAddition: 14000
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11337
-    name: 50mm Reinforced Nanofiber Plates I
-    volume: 5.0
-  50mm Reinforced Rolled Tungsten Plates I:
-    ArmorHPBonusAdd: 131
-    Hp: 40
-    MassAddition: 11000
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11333
-    name: 50mm Reinforced Rolled Tungsten Plates I
-    volume: 5.0
-  50mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 113
-    Hp: 40
-    MassAddition: 13000
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11331
-    name: 50mm Reinforced Titanium Plates I
-    volume: 5.0
-  50mm Steel Plates I:
-    ArmorHPBonusAdd: 94
-    Hp: 40
-    MassAddition: 15000
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 11291
-    name: 50mm Steel Plates I
-    volume: 5.0
-  50mm Steel Plates II:
-    ArmorHPBonusAdd: 150
-    Hp: 40
-    MassAddition: 15000
-    MetaLevel: 5
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 2
-    id: 20343
-    name: 50mm Steel Plates II
-    volume: 5.0
   800mm Crystalline Carbonide Restrained Plates:
     ArmorHPBonusAdd: 2000
     Cpu: 25.0
@@ -537,30 +370,6 @@ items:
     id: 11319
     marketGroup: 1675
     name: 800mm Crystalline Carbonide Restrained Plates
-    volume: 20.0
-  800mm Reinforced Nanofiber Plates I:
-    ArmorHPBonusAdd: 1650
-    Hp: 40
-    MassAddition: 1400000
-    MetaLevel: 1
-    Power: 200
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11321
-    name: 800mm Reinforced Nanofiber Plates I
-    volume: 20.0
-  800mm Reinforced Titanium Plates I:
-    ArmorHPBonusAdd: 1800
-    Hp: 40
-    MassAddition: 1300000
-    MetaLevel: 2
-    Power: 200
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 11315
-    name: 800mm Reinforced Titanium Plates I
     volume: 20.0
   800mm Rolled Tungsten Compact Plates:
     ArmorHPBonusAdd: 2000

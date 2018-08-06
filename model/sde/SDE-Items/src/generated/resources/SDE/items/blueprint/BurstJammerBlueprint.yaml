@@ -18,9 +18,3 @@ items:
     id: 2118
     name: Burst Jammer II Blueprint
     volume: 0.01
-  Tournament ECM Burst Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 26870
-    name: Tournament ECM Burst Blueprint
-    volume: 0.01

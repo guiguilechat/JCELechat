@@ -34,12 +34,6 @@ items:
     marketGroup: 1653
     name: Medium Freight Container
     volume: 5000.0
-  Plastic Wrap:
-    Hp: 10
-    StructureUniformity: 1.0
-    id: 3468
-    name: Plastic Wrap
-    volume: 0.01
   Small Freight Container:
     Hp: 10
     StructureUniformity: 1.0

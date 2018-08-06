@@ -413,31 +413,6 @@ items:
     marketGroup: 971
     name: Nova Heavy Assault Missile
     volume: 0.015
-  Sansha Mjolnir Assault Missile:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamage: 110.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 180
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27887
-    name: Sansha Mjolnir Assault Missile
-    volume: 0.015
   Scourge Heavy Assault Missile:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -463,29 +438,4 @@ items:
     id: 20307
     marketGroup: 971
     name: Scourge Heavy Assault Missile
-    volume: 0.015
-  True Sansha Mjolnir Heavy Assault Missile:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamage: 120.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 180
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27888
-    name: True Sansha Mjolnir Heavy Assault Missile
     volume: 0.015

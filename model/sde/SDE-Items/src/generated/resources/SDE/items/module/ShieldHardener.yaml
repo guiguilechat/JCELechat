@@ -1303,48 +1303,6 @@ items:
     marketGroup: 1692
     name: Limited Thermal Dissipation Field I
     volume: 5.0
-  Luther Veron's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Duration: 12000.0
-    EmDamageResistanceBonus: -44.75
-    ExplosiveDamageResistanceBonus: -44.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    KineticDamageResistanceBonus: -44.75
-    MetaLevel: 13
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -44.75
-    id: 15407
-    name: Luther Veron's Modified Adaptive Invulnerability Field
-    volume: 5.0
-  Naiyon's Modified Adaptive Invulnerability Field:
-    CapacitorNeed: 40.0
-    Duration: 12800.0
-    EmDamageResistanceBonus: -43.75
-    ExplosiveDamageResistanceBonus: -43.75
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.199999809265137
-    Hp: 40
-    KineticDamageResistanceBonus: -43.75
-    MetaLevel: 12
-    OverloadHardeningBonus: 20
-    PassiveExplosiveDamageResonanceMultiplier: 1
-    Power: 1
-    RequiredSkill1: 3420
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -43.75
-    id: 15418
-    name: Naiyon's Modified Adaptive Invulnerability Field
-    volume: 5.0
   Pith A-Type EM Ward Field:
     Duration: 12000.0
     EmDamageResistanceBonus: -61.75

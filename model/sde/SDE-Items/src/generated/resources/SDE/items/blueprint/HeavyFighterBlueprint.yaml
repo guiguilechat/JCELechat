@@ -33,16 +33,6 @@ items:
     id: 41351
     name: Cyclops II Blueprint
     volume: 0.01
-  DogBlueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 45674
-    marketGroup: 1313
-    name: DogBlueprint_PLACEHOLDER
-  EasyBlueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 45676
-    marketGroup: 1313
-    name: EasyBlueprint_PLACEHOLDER
   Gungnir I Blueprint:
     TechLevel: 1
     id: 41365

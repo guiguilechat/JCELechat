@@ -26,16 +26,6 @@ items:
     marketGroup: 665
     name: '''Palisade'' Cap Recharger I'
     volume: 5.0
-  AGM Capacitor Charge Array:
-    CapacitorRechargeRateMultiplier: 0.8799999952316284
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4425
-    name: AGM Capacitor Charge Array
-    volume: 5.0
   Ahremen's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.6800000071525574
     Hp: 40
@@ -61,17 +51,6 @@ items:
     id: 15788
     marketGroup: 665
     name: Ammatar Navy Cap Recharger
-    volume: 5.0
-  Barton Reactor Capacitor Recharger I:
-    CapacitorRechargeRateMultiplier: 0.8424999713897705
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4433
-    name: Barton Reactor Capacitor Recharger I
     volume: 5.0
   Brokara's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7599999904632568
@@ -160,38 +139,6 @@ items:
     marketGroup: 665
     name: Eutectic Compact Cap Recharger
     volume: 5.0
-  F-a10 Buffer Capacitor Regenerator:
-    CapacitorRechargeRateMultiplier: 0.8849999904632568
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4421
-    name: F-a10 Buffer Capacitor Regenerator
-    volume: 5.0
-  F-b10 Nominal Capacitor Regenerator:
-    CapacitorRechargeRateMultiplier: 0.8274999856948853
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4431
-    name: F-b10 Nominal Capacitor Regenerator
-    volume: 5.0
-  Fixed Parallel Link-Capacitor I:
-    CapacitorRechargeRateMultiplier: 0.8349999785423279
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4437
-    name: Fixed Parallel Link-Capacitor I
-    volume: 5.0
   Imperial Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
     Hp: 40
@@ -204,16 +151,6 @@ items:
     id: 17526
     marketGroup: 665
     name: Imperial Navy Cap Recharger
-    volume: 5.0
-  Industrial Capacitor Recharger:
-    CapacitorRechargeRateMultiplier: 0.8949999809265137
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4423
-    name: Industrial Capacitor Recharger
     volume: 5.0
   Khanid Navy Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7900000214576721
@@ -240,16 +177,6 @@ items:
     id: 21817
     marketGroup: 665
     name: Raysere's Modified Cap Recharger
-    volume: 5.0
-  Secondary Parallel Link-Capacitor:
-    CapacitorRechargeRateMultiplier: 0.8899999856948853
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4427
-    name: Secondary Parallel Link-Capacitor
     volume: 5.0
   Selynne's Modified Cap Recharger:
     CapacitorRechargeRateMultiplier: 0.7200000286102295

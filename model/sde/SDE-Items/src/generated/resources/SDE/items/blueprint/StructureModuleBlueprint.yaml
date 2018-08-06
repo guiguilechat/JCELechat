@@ -109,10 +109,6 @@ items:
     id: 47335
     name: Standup Focused Warp Disruptor II Blueprint
     volume: 0.01
-  Standup Gravitational Transportation Field Oscillator Blueprint:
-    id: 47115
-    name: Standup Gravitational Transportation Field Oscillator Blueprint
-    volume: 0.01
   Standup Guided Bomb Launcher I Blueprint:
     StructureItemVisualFlag: 1
     id: 37008

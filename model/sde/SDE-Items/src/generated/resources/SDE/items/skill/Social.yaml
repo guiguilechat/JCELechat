@@ -21,16 +21,6 @@ items:
     marketGroup: 376
     name: Criminal Connections
     volume: 0.01
-  DED Connections:
-    BountySkillBonus: 1500
-    PrimaryAttribute: 164
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
-    id: 3362
-    name: DED Connections
-    volume: 0.01
   Diplomacy:
     DiplomacyMutator: 0.4000000059604645
     PrimaryAttribute: 164

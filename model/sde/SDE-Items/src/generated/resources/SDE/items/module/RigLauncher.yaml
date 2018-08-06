@@ -305,27 +305,6 @@ items:
     marketGroup: 1233
     name: Large Warhead Rigor Catalyst II
     volume: 20.0
-  Launcher Processor Rig I:
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 1
-    UpgradeCost: 75
-    id: 26018
-    name: Launcher Processor Rig I
-    volume: 5.0
-  Launcher Processor Rig II:
-    Drawback: 10
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    UpgradeCost: 150
-    id: 26408
-    name: Launcher Processor Rig II
-    volume: 5.0
   Medium Bay Loading Accelerator I:
     Drawback: 10
     Hp: 40
@@ -484,27 +463,6 @@ items:
     marketGroup: 1232
     name: Medium Warhead Rigor Catalyst II
     volume: 10.0
-  Missile Guidance System Rig I:
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 26024
-    name: Missile Guidance System Rig I
-    volume: 5.0
-  Missile Guidance System Rig II:
-    Drawback: 10
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    UpgradeCost: 200
-    id: 26410
-    name: Missile Guidance System Rig II
-    volume: 5.0
   Small Bay Loading Accelerator I:
     Drawback: 10
     Hp: 40

@@ -19,7 +19,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.DecryptorsSleep
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.DecryptorsTakmahl;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.DecryptorsTalocan;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.DecryptorsYanJung;
-import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.DepricatedSubsystems;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.Drugs;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.EmpireBountyReimbursementTags;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.EmpireInsigniaDrops;
@@ -43,11 +42,9 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.SlaveReception;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.SleeperComponents;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.StationComponents;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.StrongBoxes;
-import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.SurfaceInfrastructurePrefabUnits;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TechnicalDataChips;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.Tool;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TriglavianData;
-import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.TrinaryDataVaults;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.UnknownComponents;
 
 public abstract class Commodity
@@ -65,6 +62,6 @@ public abstract class Commodity
     }
 
     public static Map<String, ? extends Commodity> loadCategory() {
-        return Stream.of(AbyssalFilaments.load(), AccelerationGateKeys.load(), AdvancedCapitalConstructionComponents.load(), ArtifactsAndPrototypes.load(), Biohazard.load(), CapitalConstructionComponents.load(), Commodities.load(), ConstructionComponents.load(), CriminalTags.load(), DataInterfaces.load(), Datacores.load(), DecryptorsSleepers.load(), DecryptorsTakmahl.load(), DecryptorsTalocan.load(), DecryptorsYanJung.load(), DepricatedSubsystems.load(), Drugs.load(), EmpireBountyReimbursementTags.load(), EmpireInsigniaDrops.load(), Frozen.load(), General.load(), HybridTechComponents.load(), Identification.load(), Lease.load(), Livestock.load(), MaterialsAndCompounds.load(), Miscellaneous.load(), Mutaplasmids.load(), ObsoleteBooks.load(), OverseerPersonalEffects.load(), Radioactive.load(), Refinables.load(), ResearchData.load(), SecurityTags.load(), ShipLogs.load(), SlaveReception.load(), SleeperComponents.load(), StationComponents.load(), StrongBoxes.load(), SurfaceInfrastructurePrefabUnits.load(), TechnicalDataChips.load(), Tool.load(), TriglavianData.load(), TrinaryDataVaults.load(), UnknownComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(AbyssalFilaments.load(), AccelerationGateKeys.load(), AdvancedCapitalConstructionComponents.load(), ArtifactsAndPrototypes.load(), Biohazard.load(), CapitalConstructionComponents.load(), Commodities.load(), ConstructionComponents.load(), CriminalTags.load(), DataInterfaces.load(), Datacores.load(), DecryptorsSleepers.load(), DecryptorsTakmahl.load(), DecryptorsTalocan.load(), DecryptorsYanJung.load(), Drugs.load(), EmpireBountyReimbursementTags.load(), EmpireInsigniaDrops.load(), Frozen.load(), General.load(), HybridTechComponents.load(), Identification.load(), Lease.load(), Livestock.load(), MaterialsAndCompounds.load(), Miscellaneous.load(), Mutaplasmids.load(), ObsoleteBooks.load(), OverseerPersonalEffects.load(), Radioactive.load(), Refinables.load(), ResearchData.load(), SecurityTags.load(), ShipLogs.load(), SlaveReception.load(), SleeperComponents.load(), StationComponents.load(), StrongBoxes.load(), TechnicalDataChips.load(), Tool.load(), TriglavianData.load(), UnknownComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

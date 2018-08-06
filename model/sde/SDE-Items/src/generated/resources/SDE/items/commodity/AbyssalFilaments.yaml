@@ -174,9 +174,3 @@ items:
     marketGroup: 2460
     name: Raging Gamma Filament
     volume: 0.1
-  basic_key_placeholder:
-    DifficultyTier: 4
-    WeatherID: 47866
-    id: 47711
-    name: basic_key_placeholder
-    volume: 0.1

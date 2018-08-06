@@ -618,26 +618,6 @@ items:
     marketGroup: 1235
     name: Medium Core Defense Operational Solidifier II
     volume: 10.0
-  Shield Transporter Rig I:
-    CapNeedBonus: -20
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 26964
-    name: Shield Transporter Rig I
-    volume: 5.0
-  Shield Transporter Rig II:
-    CapNeedBonus: -25
-    Drawback: 10
-    Hp: 40
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 150
-    id: 26966
-    name: Shield Transporter Rig II
-    volume: 5.0
   Small Anti-EM Screen Reinforcer I:
     Drawback: 10
     EmDamageResistanceBonus: -30.0

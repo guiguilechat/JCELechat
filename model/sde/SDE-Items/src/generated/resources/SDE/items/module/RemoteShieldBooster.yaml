@@ -388,25 +388,6 @@ items:
     marketGroup: 602
     name: Gistum C-Type Medium Remote Shield Booster
     volume: 10.0
-  Large 'Atonement' Remote Shield Booster:
-    CapacitorNeed: 280.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 160
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 368.0
-    TechLevel: 1
-    id: 8637
-    name: Large 'Atonement' Remote Shield Booster
-    volume: 25.0
   Large Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 441.0
     Cpu: 112.0
@@ -521,26 +502,6 @@ items:
     marketGroup: 601
     name: Large S95a Scoped Remote Shield Booster
     volume: 25.0
-  Medium 'Atonement' Remote Shield Booster:
-    CapacitorNeed: 132.0
-    Cpu: 50.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 40
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 184.0
-    TechLevel: 1
-    id: 8581
-    name: Medium 'Atonement' Remote Shield Booster
-    volume: 10.0
   Medium Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 208.0
     Cpu: 50.0
@@ -655,102 +616,6 @@ items:
     marketGroup: 602
     name: Medium S95a Scoped Remote Shield Booster
     volume: 10.0
-  Micro 'Atonement' Remote Shield Booster:
-    CapacitorNeed: 33.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.200000047683716
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 4
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 46.0
-    TechLevel: 1
-    id: 8629
-    name: Micro 'Atonement' Remote Shield Booster
-    volume: 2.5
-  Micro Asymmetric Remote Shield Booster:
-    CapacitorNeed: 33.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.200000047683716
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 4
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 42.0
-    TechLevel: 1
-    id: 8631
-    name: Micro Asymmetric Remote Shield Booster
-    volume: 2.5
-  Micro Murky Remote Shield Booster:
-    CapacitorNeed: 33.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.200000047683716
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -15.0
-    Power: 4
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 44.0
-    TechLevel: 1
-    id: 8627
-    name: Micro Murky Remote Shield Booster
-    volume: 2.5
-  Micro Remote Shield Booster II:
-    CapacitorNeed: 30.0
-    Duration: 4500.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 2.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 5
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 48.0
-    TechLevel: 2
-    id: 406
-    marketGroup: 604
-    name: Micro Remote Shield Booster II
-    volume: 2.5
-  Micro S95a Remote Shield Booster:
-    CapacitorNeed: 33.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.200000047683716
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 4
-    OverloadSelfDurationBonus: -15.0
-    Power: 4
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 48.0
-    TechLevel: 1
-    id: 8633
-    name: Micro S95a Remote Shield Booster
-    volume: 2.5
   Pithi A-Type Small Remote Shield Booster:
     CapacitorNeed: 67.0
     Cpu: 42.0
@@ -895,26 +760,6 @@ items:
     marketGroup: 602
     name: Pithum C-Type Medium Remote Shield Booster
     volume: 10.0
-  Small 'Atonement' Remote Shield Booster:
-    CapacitorNeed: 33.0
-    Cpu: 28.0
-    Duration: 2500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.200000047683716
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 46.0
-    TechLevel: 1
-    id: 8533
-    name: Small 'Atonement' Remote Shield Booster
-    volume: 5.0
   Small Asymmetric Enduring Remote Shield Booster:
     CapacitorNeed: 52.0
     Cpu: 28.0
@@ -1055,79 +900,3 @@ items:
     marketGroup: 600
     name: True Sansha Capital Remote Shield Booster
     volume: 4000.0
-  X-Large 'Atonement' Remote Shield Booster:
-    CapacitorNeed: 528.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 320
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 736.0
-    TechLevel: 1
-    id: 8685
-    name: X-Large 'Atonement' Remote Shield Booster
-    volume: 50.0
-  X-Large Asymmetric Remote Shield Booster:
-    CapacitorNeed: 528.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 320
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 672.0
-    TechLevel: 1
-    id: 8687
-    name: X-Large Asymmetric Remote Shield Booster
-    volume: 50.0
-  X-Large Murky Remote Shield Booster:
-    CapacitorNeed: 528.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 2
-    OverloadSelfDurationBonus: -15.0
-    Power: 320
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 704.0
-    TechLevel: 1
-    id: 8683
-    name: X-Large Murky Remote Shield Booster
-    volume: 50.0
-  X-Large S95a Remote Shield Booster:
-    CapacitorNeed: 528.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 4
-    OverloadSelfDurationBonus: -15.0
-    Power: 320
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 768.0
-    TechLevel: 1
-    id: 8689
-    name: X-Large S95a Remote Shield Booster
-    volume: 50.0

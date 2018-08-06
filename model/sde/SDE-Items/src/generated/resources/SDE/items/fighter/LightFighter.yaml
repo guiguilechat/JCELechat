@@ -1,42 +1,4 @@
 items:
-  Baker_PLACEHOLDER:
-    FighterAbilityEvasiveManeuversEmResonance: 1.0
-    FighterAbilityEvasiveManeuversExpResonance: 1.0
-    FighterAbilityEvasiveManeuversKinResonance: 1.0
-    FighterAbilityEvasiveManeuversThermResonance: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 45669
-    marketGroup: 840
-    name: Baker_PLACEHOLDER
-    volume: 1.0
-  Charlie_PLACEHOLDER:
-    FighterAbilityEvasiveManeuversEmResonance: 1.0
-    FighterAbilityEvasiveManeuversExpResonance: 1.0
-    FighterAbilityEvasiveManeuversKinResonance: 1.0
-    FighterAbilityEvasiveManeuversThermResonance: 1.0
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 45671
-    marketGroup: 840
-    name: Charlie_PLACEHOLDER
-    volume: 1.0
   Dragonfly I:
     Agility: 700.0
     FighterAbilityAntiFighterMissileResistance: 1

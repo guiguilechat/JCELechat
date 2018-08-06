@@ -182,30 +182,6 @@ items:
     id: 28216
     name: Bouncer II Blueprint
     volume: 0.01
-  Caldari Navy Hornet Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 31873
-    name: Caldari Navy Hornet Blueprint
-    volume: 0.01
-  Caldari Navy Vespa Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 31875
-    name: Caldari Navy Vespa Blueprint
-    volume: 0.01
-  Caldari Navy Warden Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31879
-    name: Caldari Navy Warden Blueprint
-    volume: 0.01
-  Caldari Navy Wasp Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31877
-    name: Caldari Navy Wasp Blueprint
-    volume: 0.01
   Curator I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
@@ -218,42 +194,6 @@ items:
     TechLevel: 2
     id: 28214
     name: Curator II Blueprint
-    volume: 0.01
-  FA-14 Templar Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 23760
-    name: FA-14 Templar Blueprint
-    volume: 0.01
-  Federation Navy Garde Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31887
-    name: Federation Navy Garde Blueprint
-    volume: 0.01
-  Federation Navy Hammerhead Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 31883
-    name: Federation Navy Hammerhead Blueprint
-    volume: 0.01
-  Federation Navy Hobgoblin Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 31881
-    name: Federation Navy Hobgoblin Blueprint
-    volume: 0.01
-  Federation Navy Ogre Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31885
-    name: Federation Navy Ogre Blueprint
-    volume: 0.01
-  Fighter Uno Blueprint:
-    IndustryBlueprintRank: 40.0
-    TechLevel: 1
-    id: 22781
-    name: Fighter Uno Blueprint
     volume: 0.01
   Garde I Blueprint:
     IndustryBlueprintRank: 3.0
@@ -313,30 +253,6 @@ items:
     id: 2467
     name: Hornet II Blueprint
     volume: 0.01
-  Imperial Navy Acolyte Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 31865
-    name: Imperial Navy Acolyte Blueprint
-    volume: 0.01
-  Imperial Navy Curator Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31869
-    name: Imperial Navy Curator Blueprint
-    volume: 0.01
-  Imperial Navy Infiltrator Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 31867
-    name: Imperial Navy Infiltrator Blueprint
-    volume: 0.01
-  Imperial Navy Praetor Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31871
-    name: Imperial Navy Praetor Blueprint
-    volume: 0.01
   Infiltrator I Blueprint:
     IndustryBlueprintRank: 2.0
     TechLevel: 1
@@ -375,30 +291,6 @@ items:
     TechLevel: 2
     id: 2196
     name: Praetor II Blueprint
-    volume: 0.01
-  Republic Fleet Berserker Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31893
-    name: Republic Fleet Berserker Blueprint
-    volume: 0.01
-  Republic Fleet Bouncer Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31895
-    name: Republic Fleet Bouncer Blueprint
-    volume: 0.01
-  Republic Fleet Valkyrie Blueprint:
-    IndustryBlueprintRank: 2.0
-    TechLevel: 1
-    id: 31891
-    name: Republic Fleet Valkyrie Blueprint
-    volume: 0.01
-  Republic Fleet Warrior Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 31889
-    name: Republic Fleet Warrior Blueprint
     volume: 0.01
   Valkyrie I Blueprint:
     IndustryBlueprintRank: 2.0

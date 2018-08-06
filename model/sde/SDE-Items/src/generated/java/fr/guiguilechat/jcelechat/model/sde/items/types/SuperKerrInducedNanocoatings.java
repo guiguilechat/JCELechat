@@ -9,7 +9,6 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoati
 import fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings.Max7DaySKIN;
 import fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings.Max90DaySKIN;
 import fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings.PermanentSKIN;
-import fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings.VolatileSKIN;
 
 public abstract class SuperKerrInducedNanocoatings
     extends Item
@@ -26,6 +25,6 @@ public abstract class SuperKerrInducedNanocoatings
     }
 
     public static Map<String, ? extends SuperKerrInducedNanocoatings> loadCategory() {
-        return Stream.of(Max1YearSKIN.load(), Max30DaySKIN.load(), Max7DaySKIN.load(), Max90DaySKIN.load(), PermanentSKIN.load(), VolatileSKIN.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Stream.of(Max1YearSKIN.load(), Max30DaySKIN.load(), Max7DaySKIN.load(), Max90DaySKIN.load(), PermanentSKIN.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
     }
 }

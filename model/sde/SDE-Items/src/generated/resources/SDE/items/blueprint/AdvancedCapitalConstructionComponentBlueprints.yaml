@@ -215,13 +215,3 @@ items:
     marketGroup: 1587
     name: Capital Tungsten Carbide Armor Plate Blueprint
     volume: 0.01
-  Clones Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 3927
-    name: Clones Blueprint
-    volume: 0.01
-  Hardware Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 3928
-    name: Hardware Blueprint
-    volume: 0.01

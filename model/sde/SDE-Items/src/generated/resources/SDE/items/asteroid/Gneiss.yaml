@@ -61,16 +61,6 @@ items:
     marketGroup: 525
     name: Compressed Prismatic Gneiss
     volume: 1.8
-  Flawed Gneiss:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    OreBasicType: 1229
-    ReprocessingSkillType: 12184
-    RequiredSkill1: 3386
-    id: 26713
-    name: Flawed Gneiss
-    volume: 5.0
   Gneiss:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 1

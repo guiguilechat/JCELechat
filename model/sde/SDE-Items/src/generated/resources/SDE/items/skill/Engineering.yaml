@@ -1,15 +1,4 @@
 items:
-  Advanced Energy Grid Upgrades:
-    PrimaryAttribute: 165
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3402
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 6.0
-    id: 11204
-    name: Advanced Energy Grid Upgrades
-    volume: 0.01
   Advanced Weapon Upgrades:
     CanNotBeTrainedOnTrial: 1
     PowerNeedBonus: -2

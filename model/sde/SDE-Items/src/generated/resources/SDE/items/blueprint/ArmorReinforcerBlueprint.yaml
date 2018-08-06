@@ -110,19 +110,6 @@ items:
     id: 20350
     name: 400mm Steel Plates II Blueprint
     volume: 0.01
-  50mm Steel Plates I Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 11292
-    marketGroup: 1541
-    name: 50mm Steel Plates I Blueprint
-    volume: 0.01
-  50mm Steel Plates II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    TechLevel: 2
-    id: 20344
-    name: 50mm Steel Plates II Blueprint
-    volume: 0.01
   800mm Steel Plates I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1
@@ -146,98 +133,8 @@ items:
     id: 41612
     name: Dark Blood 25000mm Steel Plates Blueprint
     volume: 0.01
-  Federation Navy 100mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31899
-    name: Federation Navy 100mm Steel Plates Blueprint
-    volume: 0.01
-  Federation Navy 1600mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 31903
-    name: Federation Navy 1600mm Steel Plates Blueprint
-    volume: 0.01
-  Federation Navy 200mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31907
-    name: Federation Navy 200mm Steel Plates Blueprint
-    volume: 0.01
-  Federation Navy 400mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31911
-    name: Federation Navy 400mm Steel Plates Blueprint
-    volume: 0.01
-  Federation Navy 800mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31919
-    name: Federation Navy 800mm Steel Plates Blueprint
-    volume: 0.01
-  Imperial Navy 100mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31897
-    name: Imperial Navy 100mm Steel Plates Blueprint
-    volume: 0.01
-  Imperial Navy 1600mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 31901
-    name: Imperial Navy 1600mm Steel Plates Blueprint
-    volume: 0.01
-  Imperial Navy 200mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31905
-    name: Imperial Navy 200mm Steel Plates Blueprint
-    volume: 0.01
-  Imperial Navy 400mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31909
-    name: Imperial Navy 400mm Steel Plates Blueprint
-    volume: 0.01
-  Imperial Navy 800mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31917
-    name: Imperial Navy 800mm Steel Plates Blueprint
-    volume: 0.01
   Shadow Serpentis 25000mm Steel Plates Blueprint:
     TechLevel: 1
     id: 41613
     name: Shadow Serpentis 25000mm Steel Plates Blueprint
-    volume: 0.01
-  Syndicate 100mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28779
-    name: Syndicate 100mm Steel Plates Blueprint
-    volume: 0.01
-  Syndicate 1600mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 28781
-    name: Syndicate 1600mm Steel Plates Blueprint
-    volume: 0.01
-  Syndicate 200mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28783
-    name: Syndicate 200mm Steel Plates Blueprint
-    volume: 0.01
-  Syndicate 400mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28785
-    name: Syndicate 400mm Steel Plates Blueprint
-    volume: 0.01
-  Syndicate 800mm Steel Plates Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28787
-    name: Syndicate 800mm Steel Plates Blueprint
     volume: 0.01

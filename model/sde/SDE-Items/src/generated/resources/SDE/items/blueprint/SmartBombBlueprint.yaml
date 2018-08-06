@@ -113,12 +113,6 @@ items:
     id: 28551
     name: Khanid Navy Medium EMP Smartbomb Blueprint
     volume: 0.01
-  Khanid Navy Small EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28558
-    name: Khanid Navy Small EMP Smartbomb Blueprint
-    volume: 0.01
   Large Degenerative Concussion Bomb I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1

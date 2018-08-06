@@ -57,13 +57,6 @@ public class CapacitorFluxCoil
     @DefaultIntValue(0)
     public int Power;
     /**
-     * Multipier to power core output.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double PowerOutputMultiplier;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -77,20 +70,6 @@ public class CapacitorFluxCoil
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    /**
-     * Multiplier to the capacity of a shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ShieldCapacityMultiplier;
-    /**
-     * Multiplier to a recharge rate time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double ShieldRechargeRateMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
     private static LinkedHashMap<String, CapacitorFluxCoil> cache = (null);
 
@@ -117,10 +96,6 @@ public class CapacitorFluxCoil
             {
                 return Power;
             }
-            case  145 :
-            {
-                return PowerOutputMultiplier;
-            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -128,14 +103,6 @@ public class CapacitorFluxCoil
             case  277 :
             {
                 return RequiredSkill1Level;
-            }
-            case  146 :
-            {
-                return ShieldCapacityMultiplier;
-            }
-            case  134 :
-            {
-                return ShieldRechargeRateMultiplier;
             }
             default:
             {

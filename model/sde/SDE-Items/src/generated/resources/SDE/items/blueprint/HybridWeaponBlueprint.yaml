@@ -29,12 +29,6 @@ items:
     id: 22910
     name: '''Hustler'' Heavy Neutron Blaster I Blueprint'
     volume: 0.01
-  '''Racket'' Light Neutron Blaster I Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 22904
-    name: '''Racket'' Light Neutron Blaster I Blueprint'
-    volume: 0.01
   '''Slither'' Heavy Electron Blaster I Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1
@@ -345,12 +339,6 @@ items:
     id: 41136
     name: Ion Siege Blaster II Blueprint
     volume: 0.01
-  Large Tractor Beam I Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 24623
-    name: Large Tractor Beam I Blueprint
-    volume: 0.01
   Light Electron Blaster I Blueprint:
     IndustryBlueprintRank: 3.0
     TechLevel: 1
@@ -403,12 +391,6 @@ items:
     id: 41089
     marketGroup: 792
     name: Limited Precise Triple Neutron Blaster Cannon Blueprint
-    volume: 0.01
-  Medium Tractor Beam I Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 24621
-    name: Medium Tractor Beam I Blueprint
     volume: 0.01
   Modal Enduring Ion Siege Blaster Blueprint:
     IndustryBlueprintRank: 200.0

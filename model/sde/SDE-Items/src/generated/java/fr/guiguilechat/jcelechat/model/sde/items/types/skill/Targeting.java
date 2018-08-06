@@ -28,27 +28,6 @@ public class Targeting
     @DefaultDoubleValue(0.0)
     public double MaxTargetRangeBonus;
     /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int PrimaryAttribute;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
-    /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
@@ -56,26 +35,12 @@ public class Targeting
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     /**
-     * Only refers to another dogma attribute.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int SecondaryAttribute;
-    /**
      * Bonus for Sensor Strength
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
     public int SensorStrengthBonus;
-    /**
-     * Time constant for skill training
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SkillTimeConstant;
     public final static String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
     private static LinkedHashMap<String, Targeting> cache = (null);
 
@@ -90,33 +55,13 @@ public class Targeting
             {
                 return MaxTargetRangeBonus;
             }
-            case  180 :
-            {
-                return PrimaryAttribute;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
-            }
             case  566 :
             {
                 return ScanResolutionBonus;
             }
-            case  181 :
-            {
-                return SecondaryAttribute;
-            }
             case  1851 :
             {
                 return SensorStrengthBonus;
-            }
-            case  275 :
-            {
-                return SkillTimeConstant;
             }
             default:
             {

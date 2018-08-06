@@ -185,26 +185,6 @@ items:
     marketGroup: 1739
     name: Capital Stasis Drone Augmentor II
     volume: 40.0
-  Drone Damage Rig I:
-    DamageMultiplierBonus: 10
-    Drawback: -10
-    Hp: 40
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 200
-    id: 26925
-    name: Drone Damage Rig I
-    volume: 5.0
-  Drone Damage Rig II:
-    DamageMultiplierBonus: 15
-    Drawback: -10
-    Hp: 40
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 300
-    id: 26927
-    name: Drone Damage Rig II
-    volume: 5.0
   Large Drone Control Range Augmentor I:
     Drawback: -10
     DroneRangeBonus: 15000
@@ -343,27 +323,6 @@ items:
     id: 26334
     marketGroup: 1215
     name: Large Drone Speed Augmentor II
-    volume: 20.0
-  Large EW Drone Range Augmentor I:
-    Drawback: -10
-    DroneRangeBonus: 10000
-    Hp: 40
-    RigSize: 3
-    TechLevel: 1
-    UpgradeCost: 50
-    id: 25922
-    name: Large EW Drone Range Augmentor I
-    volume: 20.0
-  Large EW Drone Range Augmentor II:
-    Drawback: -10
-    DroneRangeBonus: 12000
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 3
-    TechLevel: 2
-    UpgradeCost: 100
-    id: 26336
-    name: Large EW Drone Range Augmentor II
     volume: 20.0
   Large Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
@@ -552,27 +511,6 @@ items:
     marketGroup: 1214
     name: Medium Drone Speed Augmentor II
     volume: 10.0
-  Medium EW Drone Range Augmentor I:
-    Drawback: -10
-    DroneRangeBonus: 10000
-    Hp: 40
-    RigSize: 2
-    TechLevel: 1
-    UpgradeCost: 50
-    id: 32067
-    name: Medium EW Drone Range Augmentor I
-    volume: 10.0
-  Medium EW Drone Range Augmentor II:
-    Drawback: -10
-    DroneRangeBonus: 12000
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 2
-    TechLevel: 2
-    UpgradeCost: 100
-    id: 32079
-    name: Medium EW Drone Range Augmentor II
-    volume: 10.0
   Medium Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10
     Drawback: -10
@@ -759,27 +697,6 @@ items:
     id: 32061
     marketGroup: 1213
     name: Small Drone Speed Augmentor II
-    volume: 5.0
-  Small EW Drone Range Augmentor I:
-    Drawback: -10
-    DroneRangeBonus: 10000
-    Hp: 40
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 50
-    id: 32065
-    name: Small EW Drone Range Augmentor I
-    volume: 5.0
-  Small EW Drone Range Augmentor II:
-    Drawback: -10
-    DroneRangeBonus: 12000
-    Hp: 40
-    MetaLevel: 5
-    RigSize: 1
-    TechLevel: 2
-    UpgradeCost: 100
-    id: 32077
-    name: Small EW Drone Range Augmentor II
     volume: 5.0
   Small Sentry Damage Augmentor I:
     DamageMultiplierBonus: 10

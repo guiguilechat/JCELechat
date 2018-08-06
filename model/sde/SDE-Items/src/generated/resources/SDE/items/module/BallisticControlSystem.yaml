@@ -14,31 +14,6 @@ items:
     marketGroup: 645
     name: '''Full Duplex'' Ballistic Control System'
     volume: 5.0
-  '''Pandemonium'' Ballistic Enhancement':
-    Hp: 40
-    MetaLevel: 4
-    MissileDamageMultiplierBonus: 1.0980000495910645
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1
-    id: 16463
-    name: '''Pandemonium'' Ballistic Enhancement'
-    volume: 5.0
-  Ballistic 'Purge' Targeting System I:
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 6
-    MissileDamageMultiplierBonus: 1.100000023841858
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.925000011920929
-    TechLevel: 1
-    id: 21482
-    name: Ballistic 'Purge' Targeting System I
-    volume: 5.0
   Ballistic Control System I:
     Hp: 40
     MissileDamageMultiplierBonus: 1.0700000524520874
@@ -258,30 +233,6 @@ items:
     id: 14530
     marketGroup: 645
     name: Mizuro's Modified Ballistic Control System
-    volume: 5.0
-  Multiphasic Bolt Array I:
-    Hp: 40
-    MetaLevel: 3
-    MissileDamageMultiplierBonus: 1.090999960899353
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9024999737739563
-    TechLevel: 1
-    id: 16461
-    name: Multiphasic Bolt Array I
-    volume: 5.0
-  Muon Coil Bolt Array I:
-    Hp: 40
-    MetaLevel: 2
-    MissileDamageMultiplierBonus: 1.0839999914169312
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9100000262260437
-    TechLevel: 1
-    id: 16459
-    name: Muon Coil Bolt Array I
     volume: 5.0
   Republic Fleet Ballistic Control System:
     Cpu: 24.0

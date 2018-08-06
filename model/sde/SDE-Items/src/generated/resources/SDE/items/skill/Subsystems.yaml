@@ -23,17 +23,6 @@ items:
     marketGroup: 1824
     name: Amarr Defensive Systems
     volume: 0.01
-  Amarr Electronic Systems:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillIsObsolete: 1
-    SkillTimeConstant: 1.0
-    id: 30536
-    name: Amarr Electronic Systems
-    volume: 0.01
   Amarr Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -81,17 +70,6 @@ items:
     id: 30544
     marketGroup: 1824
     name: Caldari Defensive Systems
-    volume: 0.01
-  Caldari Electronic Systems:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillIsObsolete: 1
-    SkillTimeConstant: 1.0
-    id: 30542
-    name: Caldari Electronic Systems
     volume: 0.01
   Caldari Offensive Systems:
     CanNotBeTrainedOnTrial: 1
@@ -141,17 +119,6 @@ items:
     marketGroup: 1824
     name: Gallente Defensive Systems
     volume: 0.01
-  Gallente Electronic Systems:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillIsObsolete: 1
-    SkillTimeConstant: 1.0
-    id: 30541
-    name: Gallente Electronic Systems
-    volume: 0.01
   Gallente Offensive Systems:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -199,17 +166,6 @@ items:
     id: 30545
     marketGroup: 1824
     name: Minmatar Defensive Systems
-    volume: 0.01
-  Minmatar Electronic Systems:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillIsObsolete: 1
-    SkillTimeConstant: 1.0
-    id: 30543
-    name: Minmatar Electronic Systems
     volume: 0.01
   Minmatar Offensive Systems:
     CanNotBeTrainedOnTrial: 1

@@ -31,7 +31,3 @@ items:
     marketGroup: 2265
     name: Ninazu Blueprint
     volume: 0.01
-  Venerable Blueprint:
-    id: 42135
-    name: Venerable Blueprint
-    volume: 0.01

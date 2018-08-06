@@ -1,13 +1,4 @@
 items:
-  Phobetor Warp Disrupt Probe:
-    SignatureRadius: 100
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    id: 41402
-    marketGroup: 1201
-    name: Phobetor Warp Disrupt Probe
-    volume: 5.0
   Surgical Warp Disrupt Probe:
     Agility: 1000.0
     DisallowInEmpireSpace: 1

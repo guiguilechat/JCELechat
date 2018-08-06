@@ -173,11 +173,6 @@ items:
     marketGroup: 1401
     name: Men's YC119 Yoiul Festival Pants
     volume: 0.1
-  PantsEngM01_silver.type:
-    Gender: 2
-    id: 48083
-    name: PantsEngM01_silver.type
-    volume: 0.1
   Women's 'Eternity' Suit (Black/Gold):
     ClothingAlsoCoversCategory: 26
     Gender: 3
@@ -722,41 +717,4 @@ items:
     id: 44121
     marketGroup: 1403
     name: Women's YC119 Yoiul Festival Pants
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type:
-    ClothingAlsoCoversCategory: 26
-    Gender: 3
-    id: 34101
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_black.type
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type:
-    ClothingAlsoCoversCategory: 26
-    Gender: 3
-    id: 34103
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_blue.type
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type:
-    ClothingAlsoCoversCategory: 26
-    Gender: 3
-    id: 34104
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_brown.type
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_orange.type:
-    ClothingAlsoCoversCategory: 26
-    ClothingRemovesCategory: 26
-    Gender: 3
-    id: 34106
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_orange.type
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_red.type:
-    ClothingAlsoCoversCategory: 26
-    Gender: 3
-    id: 34107
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_red.type
-    volume: 0.1
-  bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_stealth.type:
-    ClothingAlsoCoversCategory: 26
-    Gender: 3
-    id: 34109
-    name: bottomOuter/SpaceSuit_01/Types/spacesuit_01_f_stealth.type
     volume: 0.1

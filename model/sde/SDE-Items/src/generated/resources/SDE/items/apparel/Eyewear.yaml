@@ -1,14 +1,4 @@
 items:
-  Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type:
-    Gender: 2
-    id: 33992
-    name: Accessories/Glasses/Monocle_01/Types/MonocleM01_RightBlack.type
-    volume: 0.1
-  Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type:
-    Gender: 2
-    id: 33993
-    name: Accessories/Glasses/Monocle_F_T02/Types/Monocle_F_T02_black_left.type
-    volume: 0.1
   GDN-9 "Nightstalker" Combat Goggles:
     Gender: 2
     id: 3958
@@ -98,17 +88,6 @@ items:
     id: 32853
     marketGroup: 1408
     name: SPZ-3 "Torch" Laser Sight Combat Ocular Enhancer (right/black)
-    volume: 0.1
-  Test Item:
-    Gender: 2
-    id: 40344
-    name: Test Item
-    volume: 0.1
-  Women's 'Farsight' Augmented Spectacles:
-    Gender: 3
-    id: 45736
-    marketGroup: 1408
-    name: Women's 'Farsight' Augmented Spectacles
     volume: 0.1
   Women's Genolution Tactical Goggles:
     Gender: 2

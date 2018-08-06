@@ -53,8 +53,8 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariPropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusCaldariPropulsion;
     /**
      * 
      */
@@ -67,8 +67,8 @@ public class PropulsionSystems
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallentePropulsion;
+    @DefaultIntValue(0)
+    public int SubsystemBonusGallentePropulsion;
     /**
      * 
      */

@@ -27,53 +27,6 @@ items:
     marketGroup: 708
     name: '''Enterprise'' Remote Tracking Computer'
     volume: 5.0
-  '''Prayer'' Remote Tracking Computer':
-    ChargeGroup1: 907
-    ChargeSize: 1
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10500.0
-    FalloffBonus: 10.600000381469727
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5
-    Hp: 40
-    MaxRange: 5250
-    MaxRangeBonus: 5.300000190734863
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 10.5
-    id: 5341
-    name: '''Prayer'' Remote Tracking Computer'
-    volume: 5.0
-  '''Tycoon'' Remote Tracking Computer':
-    ChargeGroup1: 907
-    ChargeSize: 1
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 14.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40
-    MaxRange: 6000
-    MaxRangeBonus: 7.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 13.5
-    id: 22935
-    name: '''Tycoon'' Remote Tracking Computer'
-    volume: 5.0
   Alfven Enduring Remote Tracking Computer:
     CapacitorNeed: 16.0
     ChargeGroup1: 907

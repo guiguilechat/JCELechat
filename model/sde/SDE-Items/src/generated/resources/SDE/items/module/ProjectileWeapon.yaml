@@ -181,35 +181,6 @@ items:
     marketGroup: 579
     name: 1200mm Heavy Gallium Cannon
     volume: 20.0
-  1200mm Heavy Prototype Artillery:
-    ChargeGroup1: 83
-    ChargeRate: 1
-    ChargeSize: 3
-    Cpu: 35.0
-    DamageMultiplier: 5.843999862670898
-    Falloff: 35000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 37030
-    MetaLevel: 3
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 2750
-    ReloadTime: 10000.0
-    RequiredSkill1: 3308
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 21038
-    TechLevel: 1
-    TrackingSpeed: 1.125
-    id: 9373
-    marketGroup: 579
-    name: 1200mm Heavy Prototype Artillery
-    volume: 20.0
   1200mm Heavy Prototype Siege Cannon:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2095,33 +2066,6 @@ items:
     marketGroup: 578
     name: 720mm 'Jolt' Artillery I
     volume: 10.0
-  720mm 'Probe' Artillery I:
-    ChargeGroup1: 83
-    ChargeRate: 1
-    ChargeSize: 2
-    DamageMultiplier: 1.25
-    Falloff: 1
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 4.5
-    Hp: 40
-    MaxRange: 1
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 350
-    ReloadTime: 10000.0
-    RequiredSkill1: 3305
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 37500
-    TechLevel: 2
-    TrackingSpeed: 3.9000000953674316
-    TypeColorScheme: 11342
-    id: 9419
-    name: 720mm 'Probe' Artillery I
-    volume: 10.0
   720mm 'Scout' Artillery I:
     ChargeGroup1: 83
     ChargeRate: 1
@@ -2181,33 +2125,6 @@ items:
     id: 9453
     marketGroup: 578
     name: 720mm Carbine Howitzer I
-    volume: 10.0
-  720mm Cordite Howitzer I:
-    ChargeGroup1: 83
-    ChargeRate: 1
-    ChargeSize: 2
-    DamageMultiplier: 1.25
-    Falloff: 1
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 4.5
-    Hp: 40
-    MaxRange: 1
-    OptimalSigRadius: 40000
-    OverloadRofBonus: -15
-    Power: 350
-    ReloadTime: 10000.0
-    RequiredSkill1: 3305
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3300
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 37500
-    TechLevel: 2
-    TrackingSpeed: 3.9000000953674316
-    TypeColorScheme: 11342
-    id: 9421
-    name: 720mm Cordite Howitzer I
     volume: 10.0
   720mm Gallium Cannon:
     ChargeGroup1: 83
@@ -2574,39 +2491,6 @@ items:
     marketGroup: 776
     name: Ample Gallium Quad 800mm Repeating Cannon
     volume: 4000.0
-  CONCORD 1200mm Artillery:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16148
-    name: CONCORD 1200mm Artillery
-    volume: 20.0
-  CONCORD 200mm Autocannon:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16150
-    name: CONCORD 200mm Autocannon
-    volume: 5.0
-  CONCORD 650mm Artillery:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 16149
-    name: CONCORD 650mm Artillery
-    volume: 10.0
   CONCORD Hexa 2500mm Repeating Cannon:
     ChargeGroup1: 83
     ChargeGroup2: 372
@@ -5112,28 +4996,6 @@ items:
     marketGroup: 776
     name: Scout Scoped Quad 800mm Repeating Cannon
     volume: 4000.0
-  Shaqil's Modified 1200mm Artillery Cannon:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15443
-    name: Shaqil's Modified 1200mm Artillery Cannon
-    volume: 20.0
-  Shaqil's Modified 1400mm Howitzer Artillery:
-    ChargeRate: 1
-    DamageMultiplier: 1.0
-    Falloff: 1
-    OptimalSigRadius: 1000
-    ReloadTime: 10000.0
-    Slots: 1
-    TechLevel: 1
-    id: 15445
-    name: Shaqil's Modified 1400mm Howitzer Artillery
-    volume: 20.0
   Tobias' Modified 1200mm Artillery Cannon:
     ChargeGroup1: 83
     ChargeRate: 1

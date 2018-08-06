@@ -1,10 +1,4 @@
 items:
-  '''Mangonel'' Heat Sink I Blueprint':
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 23901
-    name: '''Mangonel'' Heat Sink I Blueprint'
-    volume: 0.01
   '''Trebuchet'' Heat Sink Blueprint':
     IndustryBlueprintRank: 3.0
     TechLevel: 1

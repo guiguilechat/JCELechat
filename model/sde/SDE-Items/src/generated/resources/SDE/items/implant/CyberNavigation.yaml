@@ -479,25 +479,6 @@ items:
     marketGroup: 1489
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-618
     volume: 1.0
-  QA Agility Booster:
-    AgilityBonus: -99.0
-    Implantness: 22
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 33512
-    name: QA Agility Booster
-    volume: 1.0
-  QA Warp Accelerator:
-    Implantness: 21
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    WarpCapacitorNeedBonus: -99
-    WarpSpeedBonus: 1000
-    id: 33486
-    name: QA Warp Accelerator
-    volume: 1.0
   Shaqil's Speed Enhancer:
     ImplantBonusVelocity: 8.0
     Implantness: 6

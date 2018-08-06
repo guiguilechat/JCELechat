@@ -1,31 +1,4 @@
 items:
-  Banshee Torpedo:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 450
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 71.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 6000
-    ExplosiveDamage: 225.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 360
-    KineticDamage: 225.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 508
-    MaxVelocity: 1500.0
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 2210
-    name: Banshee Torpedo
-    volume: 0.05
   Caldari Navy Inferno Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -440,31 +413,6 @@ items:
     marketGroup: 923
     name: Nova Torpedo
     volume: 0.05
-  Sansha Mjolnir Torpedo:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 450
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 71.0
-    DetonationRange: 35
-    EmDamage: 495.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000
-    ExplosiveDamageResonance: 1.0
-    Hp: 360
-    KineticDamageResonance: 1.0
-    LauncherGroup: 508
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27891
-    name: Sansha Mjolnir Torpedo
-    volume: 0.05
   Scourge Torpedo:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -490,29 +438,4 @@ items:
     id: 267
     marketGroup: 923
     name: Scourge Torpedo
-    volume: 0.05
-  True Sansha Mjolnir Torpedo:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 450
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 71.0
-    DetonationRange: 35
-    EmDamage: 540.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 6000
-    ExplosiveDamageResonance: 1.0
-    Hp: 360
-    KineticDamageResonance: 1.0
-    LauncherGroup: 508
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27892
-    name: True Sansha Mjolnir Torpedo
     volume: 0.05

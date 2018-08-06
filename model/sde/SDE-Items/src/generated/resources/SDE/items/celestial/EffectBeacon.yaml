@@ -684,24 +684,6 @@ items:
     id: 30874
     name: Red Giant Beacon Class 6
     volume: 20.0
-  Tournament Resistance Lowering Beacon:
-    ArmorEmDamageResistanceBonus: 50
-    ArmorExplosiveDamageResistanceBonus: 50
-    ArmorHPMultiplier: 1.0
-    ArmorKineticDamageResistanceBonus: 50
-    ArmorThermalDamageResistanceBonus: 50
-    MaxTargetRangeMultiplier: 1.0
-    MaxVelocityModifier: 1.0
-    ShieldCapacityMultiplier: 1.0
-    ShieldEmDamageResistanceBonus: 50
-    ShieldExplosiveDamageResistanceBonus: 50
-    ShieldKineticDamageResistanceBonus: 50
-    ShieldThermalDamageResistanceBonus: 50
-    SpeedFactor: 1.0
-    TrackingSpeedMultiplier: 1.0
-    id: 37542
-    name: Tournament Resistance Lowering Beacon
-    volume: 20.0
   Wolf Rayet Effect Beacon Class 1:
     ArmorHPMultiplier: 1.2999999523162842
     MaxTargetRangeMultiplier: 1.0

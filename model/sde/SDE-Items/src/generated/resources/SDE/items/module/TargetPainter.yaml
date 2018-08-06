@@ -67,26 +67,6 @@ items:
     marketGroup: 757
     name: Parallel Enduring Target Painter
     volume: 5.0
-  Partial Weapon Navigation:
-    CapacitorNeed: 10.0
-    Duration: 5000.0
-    FalloffEffectiveness: 75000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7000000476837158
-    Hp: 40
-    MaxRange: 26250
-    MetaLevel: 1
-    OverloadPainterStrengthBonus: 20
-    Power: 1
-    RemoteResistanceID: 2114
-    RequiredSkill2: 19921
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SignatureRadiusBonus: 26.25
-    TechLevel: 1
-    id: 19808
-    name: Partial Weapon Navigation
-    volume: 5.0
   Peripheral Compact Target Painter:
     CapacitorNeed: 10.0
     Cpu: 16.0

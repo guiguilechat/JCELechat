@@ -61,9 +61,3 @@ items:
     TechLevel: 2
     id: 33566
     name: Mid-grade Ascendancy Omega Blueprint
-  Talisman Alpha Blueprint:
-    IndustryBlueprintRank: 30.0
-    TechLevel: 1
-    id: 11074
-    name: Talisman Alpha Blueprint
-    volume: 0.01

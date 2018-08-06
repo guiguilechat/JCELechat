@@ -21,20 +21,6 @@ public class ControlTower
     @DefaultIntValue(0)
     public int ArmorDamage;
     /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
      * Secondary cargo space allowed, meant to supplement capacity. This is currently used exclusively for Strontium storage on starbases.
      */
     @HighIsGood(true)
@@ -233,41 +219,6 @@ public class ControlTower
     @DefaultIntValue(0)
     public int ProximityRange;
     /**
-     * Gravimetric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
-    /**
-     * Ladar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanLadarStrength;
-    /**
-     * Magnetometric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
-    /**
-     * Radar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
      * The amount of starting shield capacity of the NPC.
      */
@@ -304,13 +255,6 @@ public class ControlTower
     @DefaultIntValue(0)
     public int ShieldRadius;
     /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
@@ -324,13 +268,6 @@ public class ControlTower
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
@@ -347,14 +284,6 @@ public class ControlTower
             case  266 :
             {
                 return ArmorDamage;
-            }
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
             }
             case  1233 :
             {
@@ -464,26 +393,6 @@ public class ControlTower
             {
                 return ProximityRange;
             }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
             case  264 :
             {
                 return ShieldCharge;
@@ -504,10 +413,6 @@ public class ControlTower
             {
                 return ShieldRadius;
             }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
             case  274 :
             {
                 return ShieldThermalDamageResonance;
@@ -515,10 +420,6 @@ public class ControlTower
             case  484 :
             {
                 return ShieldUniformity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
             }
             case  136 :
             {

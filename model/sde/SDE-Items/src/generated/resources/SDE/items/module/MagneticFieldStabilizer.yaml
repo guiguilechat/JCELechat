@@ -14,19 +14,6 @@ items:
     marketGroup: 648
     name: '''Basic'' Magnetic Field Stabilizer'
     volume: 5.0
-  '''Capitalist'' Magnetic Field Stabilizer I':
-    DamageMultiplier: 1.090000033378601
-    Hp: 40
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1
-    id: 22917
-    name: '''Capitalist'' Magnetic Field Stabilizer I'
-    volume: 5.0
   '''Monopoly'' Magnetic Field Stabilizer':
     Cpu: 18.0
     DamageMultiplier: 1.100000023841858
@@ -84,52 +71,6 @@ items:
     marketGroup: 648
     name: Federation Navy Magnetic Field Stabilizer
     volume: 5.0
-  Gauss Field Balancer:
-    DamageMultiplier: 1.065000057220459
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9350000023841858
-    TechLevel: 1
-    id: 11115
-    name: Gauss Field Balancer
-    volume: 5.0
-  Gauss Field Balancer I:
-    DamageMultiplier: 1.090999960899353
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9024999737739563
-    TechLevel: 1
-    id: 11107
-    name: Gauss Field Balancer I
-    volume: 5.0
-  Insulated Stabilizer Array:
-    DamageMultiplier: 1.0549999475479126
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9449999928474426
-    TechLevel: 1
-    id: 11111
-    name: Insulated Stabilizer Array
-    volume: 5.0
-  Insulated Stabilizer Array I:
-    DamageMultiplier: 1.0770000219345093
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9175000190734863
-    TechLevel: 1
-    id: 11103
-    name: Insulated Stabilizer Array I
-    volume: 5.0
   Kaatara's Custom Magnetic Field Stabilizer:
     Cpu: 29.0
     DamageMultiplier: 1.100000023841858
@@ -144,29 +85,6 @@ items:
     id: 44113
     marketGroup: 648
     name: Kaatara's Custom Magnetic Field Stabilizer
-    volume: 5.0
-  Linear Flux Stabilizer:
-    DamageMultiplier: 1.059999942779541
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9399999976158142
-    TechLevel: 1
-    id: 11109
-    name: Linear Flux Stabilizer
-    volume: 5.0
-  Linear Flux Stabilizer I:
-    DamageMultiplier: 1.0839999914169312
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9100000262260437
-    TechLevel: 1
-    id: 11101
-    name: Linear Flux Stabilizer I
     volume: 5.0
   Magnetic Field Stabilizer I:
     Cpu: 27.0
@@ -193,17 +111,6 @@ items:
     id: 10190
     marketGroup: 648
     name: Magnetic Field Stabilizer II
-    volume: 5.0
-  Magnetic Vortex Stabilizer:
-    DamageMultiplier: 1.0700000524520874
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9300000071525574
-    TechLevel: 1
-    id: 11113
-    name: Magnetic Vortex Stabilizer
     volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
     DamageMultiplier: 1.1375000476837158

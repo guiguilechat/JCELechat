@@ -47,16 +47,6 @@ items:
     marketGroup: 529
     name: Compressed Pure Jaspet
     volume: 0.15
-  Flawed Jaspet:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    OreBasicType: 1226
-    ReprocessingSkillType: 12187
-    RequiredSkill1: 3386
-    id: 26868
-    name: Flawed Jaspet
-    volume: 2.0
   Immaculate Jaspet:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4

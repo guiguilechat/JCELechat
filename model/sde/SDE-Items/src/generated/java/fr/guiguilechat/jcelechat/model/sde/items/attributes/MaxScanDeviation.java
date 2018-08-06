@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.items.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.items.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.items.IntAttribute;
 
 
 /**
  * Maximum scan error
  */
 public class MaxScanDeviation
-    extends DoubleAttribute
+    extends IntAttribute
 {
     public final static MaxScanDeviation INSTANCE = new MaxScanDeviation();
 

@@ -1,107 +1,15 @@
 items:
-  Beret Female Concord:
-    Gender: 2
-    id: 42737
-    name: Beret Female Concord
-    volume: 0.1
-  Beret Male Concord:
-    Gender: 2
-    id: 42724
-    name: Beret Male Concord
-    volume: 0.1
-  Cap Female Amarr:
-    Gender: 2
-    id: 42725
-    name: Cap Female Amarr
-    volume: 0.1
-  Cap Female Black/White:
-    Gender: 2
-    id: 42716
-    name: Cap Female Black/White
-    volume: 0.1
-  Cap Female Caldari:
-    Gender: 2
-    id: 42720
-    name: Cap Female Caldari
-    volume: 0.1
-  Cap Female Concord:
-    Gender: 2
-    id: 42742
-    name: Cap Female Concord
-    volume: 0.1
-  Cap Female Green:
-    Gender: 2
-    id: 42727
-    name: Cap Female Green
-    volume: 0.1
-  Cap Female Guristas:
-    Gender: 2
-    id: 42722
-    marketGroup: 1943
-    name: Cap Female Guristas
-    volume: 0.1
   Cap Female Minmatar:
     Gender: 2
     id: 42715
     marketGroup: 1943
     name: Cap Female Minmatar
     volume: 0.1
-  Cap Female Orange:
-    Gender: 2
-    id: 42735
-    name: Cap Female Orange
-    volume: 0.1
-  Cap Male Amarr:
-    Gender: 2
-    id: 42728
-    name: Cap Male Amarr
-    volume: 0.1
-  Cap Male Caldari:
-    Gender: 2
-    id: 42731
-    name: Cap Male Caldari
-    volume: 0.1
-  Cap Male Green:
-    Gender: 2
-    id: 42711
-    name: Cap Male Green
-    volume: 0.1
-  Cap Male Guristas:
-    Gender: 2
-    id: 42743
-    marketGroup: 1943
-    name: Cap Male Guristas
-    volume: 0.1
   Cap Male Minmatar:
     Gender: 2
     id: 42730
     marketGroup: 1943
     name: Cap Male Minmatar
-    volume: 0.1
-  Cap Male Orange:
-    Gender: 2
-    id: 42713
-    name: Cap Male Orange
-    volume: 0.1
-  Cap Male White/Black:
-    Gender: 2
-    id: 42714
-    name: Cap Male White/Black
-    volume: 0.1
-  Concord Cap Male:
-    Gender: 2
-    id: 42719
-    name: Concord Cap Male
-    volume: 0.1
-  Curly Shoulder Length:
-    Gender: 3
-    id: 4088
-    name: Curly Shoulder Length
-    volume: 0.1
-  Hair_Stubble_01:
-    Gender: 1
-    id: 4096
-    name: Hair_Stubble_01
     volume: 0.1
   Men's 'Boarder' Cap (Digital Camo):
     Gender: 1
@@ -240,11 +148,6 @@ items:
     id: 42741
     marketGroup: 1943
     name: Men’s ‘Crusader’ Beret (Amarr Empire)
-    volume: 0.1
-  Short Pixie Hair:
-    Gender: 3
-    id: 4086
-    name: Short Pixie Hair
     volume: 0.1
   Women's 'Aeriform' Headwear (black):
     Gender: 3
@@ -419,9 +322,4 @@ items:
     id: 42740
     marketGroup: 1943
     name: Women's ‘Protector’ Beret (Caldari State)
-    volume: 0.1
-  hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type:
-    Gender: 3
-    id: 34075
-    name: hair/Hair_Medium_Hp_01/Types/Hair_Medium_Hp_01_Simple.type
     volume: 0.1

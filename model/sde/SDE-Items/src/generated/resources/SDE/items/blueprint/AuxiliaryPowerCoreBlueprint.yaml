@@ -12,9 +12,3 @@ items:
     id: 4255
     name: Micro Auxiliary Power Core II Blueprint
     volume: 0.01
-  Thukker Micro Auxiliary Power Core Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 28741
-    name: Thukker Micro Auxiliary Power Core Blueprint
-    volume: 0.01

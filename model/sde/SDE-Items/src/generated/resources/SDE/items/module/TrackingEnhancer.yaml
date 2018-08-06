@@ -15,55 +15,6 @@ items:
     marketGroup: 707
     name: '''Basic'' Tracking Enhancer'
     volume: 5.0
-  Auto-Gain Control Tracking Enhancer I:
-    FalloffBonus: 14.600000381469727
-    Hp: 40
-    MaxRangeBonus: 7.300000190734863
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 7.699999809265137
-    id: 6327
-    name: Auto-Gain Control Tracking Enhancer I
-    volume: 5.0
-  Azimuth Descalloping Tracking Enhancer:
-    FalloffBonus: 7.400000095367432
-    Hp: 40
-    MaxRangeBonus: 3.700000047683716
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 5.5
-    id: 6323
-    name: Azimuth Descalloping Tracking Enhancer
-    volume: 5.0
-  Beam Parallax Tracking Program:
-    FalloffBonus: 8.0
-    Hp: 40
-    MaxRangeBonus: 4.0
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 6.0
-    id: 6321
-    name: Beam Parallax Tracking Program
-    volume: 5.0
-  Beta-Nought Tracking Mode:
-    FalloffBonus: 7.0
-    Hp: 40
-    MaxRangeBonus: 3.5
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 5.25
-    id: 6322
-    name: Beta-Nought Tracking Mode
-    volume: 5.0
   Domination Tracking Enhancer:
     FalloffBonus: 21.0
     Hp: 40
@@ -78,31 +29,6 @@ items:
     id: 14100
     marketGroup: 707
     name: Domination Tracking Enhancer
-    volume: 5.0
-  F-AQ Delay-Line Scan Tracking Subroutines:
-    FalloffBonus: 7.599999904632568
-    Hp: 40
-    MaxRangeBonus: 3.799999952316284
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 5.75
-    id: 6324
-    name: F-AQ Delay-Line Scan Tracking Subroutines
-    volume: 5.0
-  F-aQ Phase Code Tracking Subroutines:
-    FalloffBonus: 15.399999618530273
-    Hp: 40
-    MaxRangeBonus: 7.699999809265137
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 8.050000190734863
-    id: 6328
-    name: F-aQ Phase Code Tracking Subroutines
     volume: 5.0
   Fourier Compact Tracking Enhancer:
     Cpu: 8.0
@@ -178,19 +104,6 @@ items:
     id: 15965
     marketGroup: 707
     name: Republic Fleet Tracking Enhancer
-    volume: 5.0
-  Sigma-Nought Tracking Mode I:
-    FalloffBonus: 14.0
-    Hp: 40
-    MaxRangeBonus: 7.0
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 7.349999904632568
-    id: 6326
-    name: Sigma-Nought Tracking Mode I
     volume: 5.0
   Tobias' Modified Tracking Enhancer:
     FalloffBonus: 25.0

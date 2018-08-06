@@ -5,24 +5,6 @@ items:
     id: 22926
     name: '''Bootleg'' Remote Sensor Booster Blueprint'
     volume: 0.01
-  '''Boss'' Remote Sensor Booster I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22940
-    name: '''Boss'' Remote Sensor Booster I Blueprint'
-    volume: 0.01
-  '''Broker'' Remote Sensor Dampener I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22944
-    name: '''Broker'' Remote Sensor Dampener I Blueprint'
-    volume: 0.01
-  '''Entrepreneur'' Remote Sensor Booster I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22942
-    name: '''Entrepreneur'' Remote Sensor Booster I Blueprint'
-    volume: 0.01
   '''Executive'' Remote Sensor Dampener Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1

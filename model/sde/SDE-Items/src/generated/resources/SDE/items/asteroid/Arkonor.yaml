@@ -75,16 +75,6 @@ items:
     marketGroup: 512
     name: Crimson Arkonor
     volume: 16.0
-  Flawed Arkonor:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    OreBasicType: 22
-    ReprocessingSkillType: 12180
-    RequiredSkill1: 3386
-    id: 26852
-    name: Flawed Arkonor
-    volume: 16.0
   Flawless Arkonor:
     AsteroidMaxRadius: 5000
     AsteroidMetaLevel: 4

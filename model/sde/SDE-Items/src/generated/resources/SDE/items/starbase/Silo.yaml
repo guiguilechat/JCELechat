@@ -73,53 +73,6 @@ items:
     marketGroup: 483
     name: Coupling Array
     volume: 4000.0
-  Expanded Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000
-    ArmorUniformity: 0.75
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 3000
-    Power: 55000
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
-    id: 28884
-    name: Expanded Silo
-    volume: 8000.0
-  Freedom Hospital:
-    AnchoringDelay: 5000
-    ArmorHP: 15000
-    ArmorUniformity: 0.75
-    CargoGroup: 880
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 3000
-    Power: 50000
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
-    id: 28317
-    name: Freedom Hospital
-    volume: 4000.0
   General Storage:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -171,30 +124,6 @@ items:
     marketGroup: 483
     name: Hazardous Chemical Silo
     volume: 4000.0
-  Holding Pen:
-    AnchoringDelay: 5000
-    ArmorHP: 15000
-    ArmorUniformity: 0.75
-    CargoGroup: 879
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 3000
-    Power: 50000
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
-    id: 28315
-    name: Holding Pen
-    volume: 4000.0
   Hybrid Polymer Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -221,30 +150,6 @@ items:
     marketGroup: 483
     name: Hybrid Polymer Silo
     volume: 4000.0
-  Reception Center:
-    AnchoringDelay: 5000
-    ArmorHP: 15000
-    ArmorUniformity: 0.75
-    CargoGroup: 879
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 3000
-    Power: 50000
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
-    id: 28314
-    name: Reception Center
-    volume: 4000.0
   Silo:
     AnchoringDelay: 5000
     ArmorHP: 15000
@@ -269,44 +174,3 @@ items:
     marketGroup: 483
     name: Silo
     volume: 4000.0
-  Slave Pen:
-    AnchoringDelay: 5000
-    ArmorHP: 15000
-    ArmorUniformity: 0.75
-    CargoGroup: 880
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000
-    OnliningDelay: 3000
-    Power: 50000
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
-    id: 28316
-    name: Slave Pen
-    volume: 4000.0
-  Ultra Fast Silo:
-    AnchoringDelay: 10000
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 1000
-    OnliningDelay: 10000
-    Power: 50
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    SignatureRadius: 2000
-    StructureUniformity: 1.0
-    UnanchoringDelay: 10000
-    id: 17764
-    name: Ultra Fast Silo
-    volume: 1150.0

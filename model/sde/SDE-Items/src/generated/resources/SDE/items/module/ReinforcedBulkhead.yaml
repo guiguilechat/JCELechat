@@ -15,44 +15,6 @@ items:
     marketGroup: 1195
     name: '''Basic'' Reinforced Bulkheads'
     volume: 5.0
-  Alpha Hull Mod Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.0800000429153442
-    TechLevel: 1
-    id: 5677
-    name: Alpha Hull Mod Reinforced Bulkheads
-    volume: 5.0
-  Beta Hull Mod Reinforced Bulkheads:
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.9300000071525574
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.1799999475479126
-    TechLevel: 1
-    id: 5645
-    name: Beta Hull Mod Reinforced Bulkheads
-    volume: 5.0
-  Local Hull Conversion Reinforced Bulkheads I:
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.9399999976158142
-    Hp: 40
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.190000057220459
-    TechLevel: 1
-    id: 5643
-    name: Local Hull Conversion Reinforced Bulkheads I
-    volume: 5.0
   Mark I Compact Reinforced Bulkheads:
     AgilityMultiplier: 3.0
     CargoCapacityMultiplier: 0.9300000071525574
@@ -67,18 +29,6 @@ items:
     id: 5649
     marketGroup: 1195
     name: Mark I Compact Reinforced Bulkheads
-    volume: 5.0
-  Marked Modified SS Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.059999942779541
-    TechLevel: 1
-    id: 5681
-    name: Marked Modified SS Reinforced Bulkheads
     volume: 5.0
   ORE Reinforced Bulkheads:
     AgilityMultiplier: 4.0
@@ -95,29 +45,6 @@ items:
     id: 34485
     marketGroup: 1195
     name: ORE Reinforced Bulkheads
-    volume: 5.0
-  Ore compression thingie:
-    CargoCapacityMultiplier: 0.8999999761581421
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8500000238418579
-    TechLevel: 1
-    id: 22537
-    name: Ore compression thingie
-    volume: 5.0
-  Partial Hull Conversion Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.090000033378601
-    TechLevel: 1
-    id: 5675
-    name: Partial Hull Conversion Reinforced Bulkheads
     volume: 5.0
   Reinforced Bulkheads I:
     AgilityMultiplier: 3.0
@@ -192,16 +119,4 @@ items:
     id: 5647
     marketGroup: 1195
     name: Type-D Restrained Reinforced Bulkheads
-    volume: 5.0
-  Type-E Altered SS Reinforced Bulkheads:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.0700000524520874
-    TechLevel: 1
-    id: 5679
-    name: Type-E Altered SS Reinforced Bulkheads
     volume: 5.0

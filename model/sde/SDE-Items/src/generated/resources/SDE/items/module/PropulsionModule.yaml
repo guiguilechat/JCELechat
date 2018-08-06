@@ -3124,29 +3124,6 @@ items:
     marketGroup: 131
     name: Shadow Serpentis 5MN Microwarpdrive
     volume: 10.0
-  Thukker Modified 100MN Afterburner:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorNeed: 241.0
-    Cpu: 60.0
-    Duration: 10000.0
-    HeatAbsorbtionRateModifier: 0.03999999910593033
-    HeatDamage: 4.099999904632568
-    Hp: 40
-    MassAddition: 50000000
-    MaxGroupActive: 1
-    MetaGroupID: 4
-    MetaLevel: 16
-    OverloadSpeedFactorBonus: 50
-    Power: 625
-    RequiredSkill1: 3450
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedBoostFactor: 150000000
-    SpeedFactor: 165.0
-    TechLevel: 1
-    id: 19491
-    name: Thukker Modified 100MN Afterburner
-    volume: 5.0
   Tobias' Modified 100MN Afterburner:
     CapacitorCapacityMultiplier: 1.0
     CapacitorNeed: 290.0

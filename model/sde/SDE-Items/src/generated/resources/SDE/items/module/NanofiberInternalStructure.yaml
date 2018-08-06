@@ -13,29 +13,6 @@ items:
     marketGroup: 1196
     name: '''Basic'' Nanofiber Internal Structure'
     volume: 5.0
-  Alpha Hull Mod Nanofiber Structure:
-    AgilityMultiplier: -12.0
-    Hp: 40
-    ImplantBonusVelocity: 6.050000190734863
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8999999761581421
-    TechLevel: 1
-    id: 5591
-    name: Alpha Hull Mod Nanofiber Structure
-    volume: 5.0
-  Beta Hull Mod Nanofiber Structure:
-    AgilityMultiplier: -15.149999618530273
-    Hp: 40
-    ImplantBonusVelocity: 8.600000381469727
-    MetaLevel: 3
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8500000238418579
-    TechLevel: 1
-    id: 5597
-    name: Beta Hull Mod Nanofiber Structure
-    volume: 5.0
   Domination Nanofiber Structure:
     AgilityMultiplier: -16.0
     Hp: 40
@@ -49,41 +26,6 @@ items:
     id: 14127
     marketGroup: 1196
     name: Domination Nanofiber Structure
-    volume: 5.0
-  Local Hull Conversion Nanofiber Structure I:
-    AgilityMultiplier: -15.800000190734863
-    Hp: 40
-    ImplantBonusVelocity: 8.899999618530273
-    MetaLevel: 4
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8500000238418579
-    TechLevel: 1
-    id: 5561
-    name: Local Hull Conversion Nanofiber Structure I
-    volume: 5.0
-  Mark I Modified SS Nanofiber Structure:
-    AgilityMultiplier: -14.0
-    Hp: 40
-    ImplantBonusVelocity: 8.100000381469727
-    MetaLevel: 1
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8500000238418579
-    TechLevel: 1
-    id: 5601
-    name: Mark I Modified SS Nanofiber Structure
-    volume: 5.0
-  Marked Modified SS Nanofiber Structure:
-    AgilityMultiplier: -10.899999618530273
-    Hp: 40
-    ImplantBonusVelocity: 5.550000190734863
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8999999761581421
-    TechLevel: 1
-    id: 5595
-    name: Marked Modified SS Nanofiber Structure
     volume: 5.0
   Nanofiber Internal Structure I:
     AgilityMultiplier: -13.0
@@ -109,17 +51,6 @@ items:
     id: 2605
     marketGroup: 1196
     name: Nanofiber Internal Structure II
-    volume: 5.0
-  Partial Hull Conversion Nanofiber Structure:
-    AgilityMultiplier: -12.550000190734863
-    Hp: 40
-    ImplantBonusVelocity: 6.300000190734863
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8999999761581421
-    TechLevel: 1
-    id: 5559
-    name: Partial Hull Conversion Nanofiber Structure
     volume: 5.0
   Republic Fleet Nanofiber Structure:
     AgilityMultiplier: -16.0
@@ -161,15 +92,4 @@ items:
     id: 5599
     marketGroup: 1196
     name: Type-D Restrained Nanofiber Structure
-    volume: 5.0
-  Type-E Altered SS Nanofiber Structure:
-    AgilityMultiplier: -11.5
-    Hp: 40
-    ImplantBonusVelocity: 5.75
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 0.8999999761581421
-    TechLevel: 1
-    id: 5593
-    name: Type-E Altered SS Nanofiber Structure
     volume: 5.0

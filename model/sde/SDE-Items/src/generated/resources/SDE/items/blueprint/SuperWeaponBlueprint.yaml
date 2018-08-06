@@ -38,11 +38,6 @@ items:
     marketGroup: 913
     name: Pulse Activated Nexus Invulnerability Core Blueprint
     volume: 0.01
-  Superweapon_AOEECM Blueprint:
-    id: 41395
-    marketGroup: 1568
-    name: Superweapon_AOEECM Blueprint
-    volume: 0.01
   ‘Cold Wind’ Kinetic Reaper Blueprint:
     id: 41449
     marketGroup: 913

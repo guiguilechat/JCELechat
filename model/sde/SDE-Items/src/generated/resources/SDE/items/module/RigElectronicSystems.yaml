@@ -449,34 +449,6 @@ items:
     marketGroup: 1220
     name: Medium Tracking Diagnostic Subroutines II
     volume: 10.0
-  Sensor Strength Rig I:
-    Drawback: -10
-    Hp: 40
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 26960
-    name: Sensor Strength Rig I
-    volume: 5.0
-  Sensor Strength Rig II:
-    Drawback: -10
-    Hp: 40
-    MaxTargetRangeMultiplier: 1.0
-    RigSize: 1
-    ScanGravimetricStrengthPercent: 120
-    ScanLadarStrengthPercent: 120
-    ScanMagnetometricStrengthPercent: 120
-    ScanRadarStrengthPercent: 120
-    TechLevel: 1
-    UpgradeCost: 150
-    id: 26962
-    name: Sensor Strength Rig II
-    volume: 5.0
   Small Inverted Signal Field Projector I:
     Drawback: -10
     Hp: 40
@@ -576,17 +548,6 @@ items:
     id: 31256
     marketGroup: 1219
     name: Small Signal Disruption Amplifier II
-    volume: 5.0
-  Small Targeting Amplifier I:
-    AgilityBonus: -25.0
-    Drawback: -25
-    Hp: 40
-    MaxTargetRangeMultiplier: 1.75
-    RigSize: 1
-    TechLevel: 1
-    UpgradeCost: 100
-    id: 4369
-    name: Small Targeting Amplifier I
     volume: 5.0
   Small Targeting Systems Stabilizer I:
     CloakingTargetingDelayBonus: -10

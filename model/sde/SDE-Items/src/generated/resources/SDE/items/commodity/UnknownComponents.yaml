@@ -49,11 +49,6 @@ items:
     marketGroup: 2013
     name: Conflux Sequence 1
     volume: 0.1
-  Jovian DNA Strand:
-    id: 40541
-    marketGroup: 2013
-    name: Jovian DNA Strand
-    volume: 0.1
   Redoubt Element:
     id: 34560
     marketGroup: 2013
@@ -93,10 +88,6 @@ items:
     id: 34541
     marketGroup: 2013
     name: Sentinel Sequence 1
-    volume: 0.1
-  Unknown Sequence:
-    id: 42640
-    name: Unknown Sequence
     volume: 0.1
   Vidette Element:
     id: 34558

@@ -20,11 +20,6 @@ items:
     marketGroup: 2248
     name: Stasis Webification Burst Projector Blueprint
     volume: 0.01
-  Superweapon_AOEGuide Blueprint:
-    id: 41389
-    marketGroup: 2248
-    name: Superweapon_AOEGuide Blueprint
-    volume: 0.01
   Target Illumination Burst Projector Blueprint:
     id: 41391
     marketGroup: 2248

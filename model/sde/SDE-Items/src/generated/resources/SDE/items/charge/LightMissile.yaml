@@ -133,28 +133,6 @@ items:
     id: 32463
     name: Civilian Scourge Light Missile
     volume: 0.015
-  Decapitator Light Missile:
-    Agility: 29.312231063842773
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 1.0
-    DetonationRange: 35
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 25000
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 509
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 0.800000011920929
-    id: 16025
-    name: Decapitator Light Missile
-    volume: 0.015
   Dread Guristas Inferno Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -457,58 +435,6 @@ items:
     marketGroup: 920
     name: Nova Light Missile
     volume: 0.015
-  Oneiric Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 5000
-    ExplosiveDamage: 37.5
-    ExplosiveDamageResonance: 1.0
-    Hp: 400
-    KineticDamage: 37.5
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    MaxVelocity: 3750.0
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 30430
-    name: Oneiric Missile
-    volume: 0.015
-  Sansha Sabretooth Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    EmDamage: 82.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 5000
-    ExplosiveDamageResonance: 1.0
-    Hp: 60
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27885
-    name: Sansha Sabretooth Light Missile
-    volume: 0.015
   Scourge Light Missile:
     Agility: 1.4449800073634833E-4
     AimedLaunch: 1
@@ -534,29 +460,4 @@ items:
     id: 210
     marketGroup: 920
     name: Scourge Light Missile
-    volume: 0.015
-  True Sansha Sabretooth Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    EmDamage: 90.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 5000
-    ExplosiveDamageResonance: 1.0
-    Hp: 60
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    RequiredSkill1: 3321
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27886
-    name: True Sansha Sabretooth Light Missile
     volume: 0.015

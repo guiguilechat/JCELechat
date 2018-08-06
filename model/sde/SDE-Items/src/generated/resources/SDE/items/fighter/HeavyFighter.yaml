@@ -310,40 +310,6 @@ items:
     marketGroup: 1310
     name: Cyclops II
     volume: 1800.0
-  Dog_PLACEHOLDER:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 45673
-    marketGroup: 1310
-    name: Dog_PLACEHOLDER
-    volume: 1.0
-  Easy_PLACEHOLDER:
-    FighterAbilityAfterburnerSpeedBonus: 100
-    FighterAbilityKamikazeRange: 500
-    RemoteAssistanceImpedance: 1.0
-    RemoteRepairImpedance: 1.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 1.0
-    ShieldKineticDamageResonance: 1.0
-    ShieldThermalDamageResonance: 1.0
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    WarpSpeedMultiplier: 3.0
-    id: 45675
-    marketGroup: 1310
-    name: Easy_PLACEHOLDER
-    volume: 1.0
   Gungnir I:
     Agility: 500.0
     FighterAbilityAfterburnerSpeedBonus: 100

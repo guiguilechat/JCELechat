@@ -9,16 +9,6 @@ items:
     id: 28617
     name: Banidine
     volume: 0.1
-  Chondrite:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    OreBasicType: 1230
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    id: 27028
-    name: Chondrite
-    volume: 0.1
   Compressed Concentrated Veldspar:
     AsteroidMaxRadius: 16255
     AsteroidMetaLevel: 2

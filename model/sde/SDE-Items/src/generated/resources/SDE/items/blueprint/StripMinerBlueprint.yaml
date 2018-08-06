@@ -24,18 +24,6 @@ items:
     id: 17913
     name: Modulated Strip Miner II Blueprint
     volume: 0.01
-  ORE Ice Harvester Blueprint:
-    IndustryBlueprintRank: 7.0
-    TechLevel: 1
-    id: 28753
-    name: ORE Ice Harvester Blueprint
-    volume: 0.01
-  ORE Strip Miner Blueprint:
-    IndustryBlueprintRank: 7.0
-    TechLevel: 1
-    id: 28755
-    name: ORE Strip Miner Blueprint
-    volume: 0.01
   Strip Miner I Blueprint:
     IndustryBlueprintRank: 7.0
     TechLevel: 1

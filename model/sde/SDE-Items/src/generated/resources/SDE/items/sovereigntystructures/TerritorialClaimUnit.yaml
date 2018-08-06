@@ -1,13 +1,4 @@
 items:
-  QA Territorial Claim Unit:
-    ScanGravimetricStrength: 2000.0
-    ScanLadarStrength: 2000.0
-    ScanMagnetometricStrength: 2000.0
-    ScanRadarStrength: 2000.0
-    SignatureRadius: 4000
-    id: 32300
-    name: QA Territorial Claim Unit
-    volume: 1.0
   Territorial Claim Unit:
     ScanGravimetricStrength: 400.0
     ScanLadarStrength: 400.0

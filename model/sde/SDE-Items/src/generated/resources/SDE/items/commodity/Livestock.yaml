@@ -152,10 +152,6 @@ items:
     id: 22210
     name: Cloned SOE officer
     volume: 1.0
-  Clones:
-    id: 3923
-    name: Clones
-    volume: 1000.0
   Comatose Alena Karyn:
     id: 11709
     name: Comatose Alena Karyn
@@ -584,10 +580,6 @@ items:
     id: 30757
     name: Nebben Centrien, Janitor
     volume: 3.0
-  Okelle Alash:
-    id: 26846
-    name: Okelle Alash
-    volume: 5.0
   Oura Madusaari:
     id: 2239
     name: Oura Madusaari

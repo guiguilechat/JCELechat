@@ -479,9 +479,3 @@ items:
     id: 1297
     name: Thermal Plating II Blueprint
     volume: 0.01
-  testArmorMod_Blueprint_PLACEHOLDER:
-    TechLevel: 1
-    id: 46013
-    marketGroup: 1543
-    name: testArmorMod_Blueprint_PLACEHOLDER
-    volume: 0.01

@@ -33,20 +33,6 @@ public class AssaultFrigate
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EliteBonusBombers;
-    /**
-     * bonus for escort class frigates
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(10)
-    public int EliteBonusEscorts;
-    /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
     public int EliteBonusGunship1;
     /**
      * 
@@ -84,20 +70,6 @@ public class AssaultFrigate
     @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
-    /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
@@ -118,13 +90,6 @@ public class AssaultFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int MaxPassengers;
-    /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -147,20 +112,6 @@ public class AssaultFrigate
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double MinTargetVelDmgMultiplier;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -295,20 +246,6 @@ public class AssaultFrigate
     @DefaultIntValue(0)
     public int ShipScanResistance;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
      * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
@@ -328,14 +265,6 @@ public class AssaultFrigate
             case  1581 :
             {
                 return EliteBonusAssaultShips1;
-            }
-            case  570 :
-            {
-                return EliteBonusBombers;
-            }
-            case  597 :
-            {
-                return EliteBonusEscorts;
             }
             case  673 :
             {
@@ -361,14 +290,6 @@ public class AssaultFrigate
             {
                 return HeatAttenuationMed;
             }
-            case  14 :
-            {
-                return HiSlots;
-            }
-            case  12 :
-            {
-                return LowSlots;
-            }
             case  124 :
             {
                 return MainColor;
@@ -381,10 +302,6 @@ public class AssaultFrigate
             {
                 return MaxPassengers;
             }
-            case  13 :
-            {
-                return MedSlots;
-            }
             case  1692 :
             {
                 return MetaGroupID;
@@ -392,14 +309,6 @@ public class AssaultFrigate
             case  662 :
             {
                 return MinTargetVelDmgMultiplier;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             case  183 :
             {
@@ -476,14 +385,6 @@ public class AssaultFrigate
             case  511 :
             {
                 return ShipScanResistance;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
             }
             case  1154 :
             {

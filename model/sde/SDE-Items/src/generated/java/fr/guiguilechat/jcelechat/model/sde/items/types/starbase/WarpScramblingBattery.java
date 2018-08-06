@@ -14,20 +14,6 @@ public class WarpScramblingBattery
     extends Starbase
 {
     /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
      * Minimum distance where a starbase structure can be anchored at from the control tower shield extremity in meters.
      */
     @HighIsGood(true)
@@ -183,34 +169,6 @@ public class WarpScramblingBattery
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     /**
-     * Gravimetric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
-    /**
-     * Ladar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanLadarStrength;
-    /**
-     * Magnetometric strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
-    /**
-     * Radar strength.
-     */
-    @HighIsGood(true)
-    @Stackable(false)
-    @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
-    /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
@@ -218,33 +176,12 @@ public class WarpScramblingBattery
     @DefaultIntValue(0)
     public int ScanResolution;
     /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
     /**
      * The amount of time after attacking a target that an entity will wait before switching to a new one.
      */
@@ -293,14 +230,6 @@ public class WarpScramblingBattery
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
             case  1165 :
             {
                 return ControlTowerMinimumDistance;
@@ -385,41 +314,13 @@ public class WarpScramblingBattery
             {
                 return RequiredSkill1Level;
             }
-            case  211 :
-            {
-                return ScanGravimetricStrength;
-            }
-            case  209 :
-            {
-                return ScanLadarStrength;
-            }
-            case  210 :
-            {
-                return ScanMagnetometricStrength;
-            }
-            case  208 :
-            {
-                return ScanRadarStrength;
-            }
             case  564 :
             {
                 return ScanResolution;
             }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
             case  484 :
             {
                 return ShieldUniformity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
             }
             case  691 :
             {

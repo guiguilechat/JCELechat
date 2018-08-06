@@ -49,36 +49,6 @@ items:
     id: 11783
     name: Ladar ECM II Blueprint
     volume: 0.01
-  Legion Gravimetric ECM Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28736
-    name: Legion Gravimetric ECM Blueprint
-    volume: 0.01
-  Legion Ladar ECM Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28734
-    name: Legion Ladar ECM Blueprint
-    volume: 0.01
-  Legion Magnetometric ECM Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28730
-    name: Legion Magnetometric ECM Blueprint
-    volume: 0.01
-  Legion Multispectral ECM Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28732
-    name: Legion Multispectral ECM Blueprint
-    volume: 0.01
-  Legion Radar ECM Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 28738
-    name: Legion Radar ECM Blueprint
-    volume: 0.01
   Magnetometric ECM I Blueprint:
     IndustryBlueprintRank: 6.0
     TechLevel: 1

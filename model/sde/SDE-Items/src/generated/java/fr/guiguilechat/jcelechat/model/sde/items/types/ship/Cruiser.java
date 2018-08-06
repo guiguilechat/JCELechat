@@ -21,13 +21,6 @@ public class Cruiser
     @DefaultIntValue(30000)
     public int CovertOpsAndReconOpsCloakModuleDelay;
     /**
-     * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int DisallowOffensiveModifiers;
-    /**
      * Bonus to drone armor repair amount
      */
     @HighIsGood(true)
@@ -41,13 +34,6 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int DroneShieldBonusBonus;
-    /**
-     * Length of activation time.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double Duration;
     /**
      * 
      */
@@ -91,13 +77,6 @@ public class Cruiser
     @DefaultDoubleValue(1.0)
     public double HeatAttenuationMed;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int HiSlots;
-    /**
      * 
      */
     @HighIsGood(false)
@@ -132,13 +111,6 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int JumpHarmonics;
-    /**
-     * The number of low power slots on the ship.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int LowSlots;
     /**
      * The main color of a ship type.
      */
@@ -175,13 +147,6 @@ public class Cruiser
     @DefaultIntValue(0)
     public int MaxRangeBonus2;
     /**
-     * tbd
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int MedSlots;
-    /**
      * Authoring has been moved to FSD.
      * meta group of type
      * 
@@ -210,20 +175,6 @@ public class Cruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int NosOverride;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1;
-    /**
-     * Required skill level for skill 1
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill1Level;
     /**
      * The type ID of the skill that is required.
      */
@@ -372,20 +323,6 @@ public class Cruiser
     @DefaultDoubleValue(0.0)
     public double ShipBonusRole8;
     /**
-     * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(0)
-    public int TypeColorScheme;
-    /**
-     * Attribute on ships used for ship upgrades
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int UpgradeCapacity;
-    /**
      * How many upgrades can by fitted to this ship.
      */
     @HighIsGood(true)
@@ -416,10 +353,6 @@ public class Cruiser
             {
                 return CovertOpsAndReconOpsCloakModuleDelay;
             }
-            case  872 :
-            {
-                return DisallowOffensiveModifiers;
-            }
             case  1219 :
             {
                 return DroneArmorDamageAmountBonus;
@@ -427,10 +360,6 @@ public class Cruiser
             case  1220 :
             {
                 return DroneShieldBonusBonus;
-            }
-            case  73 :
-            {
-                return Duration;
             }
             case  1840 :
             {
@@ -456,10 +385,6 @@ public class Cruiser
             {
                 return HeatAttenuationMed;
             }
-            case  14 :
-            {
-                return HiSlots;
-            }
             case  974 :
             {
                 return HullEmDamageResonance;
@@ -479,10 +404,6 @@ public class Cruiser
             case  1253 :
             {
                 return JumpHarmonics;
-            }
-            case  12 :
-            {
-                return LowSlots;
             }
             case  124 :
             {
@@ -504,10 +425,6 @@ public class Cruiser
             {
                 return MaxRangeBonus2;
             }
-            case  13 :
-            {
-                return MedSlots;
-            }
             case  1692 :
             {
                 return MetaGroupID;
@@ -519,14 +436,6 @@ public class Cruiser
             case  1945 :
             {
                 return NosOverride;
-            }
-            case  182 :
-            {
-                return RequiredSkill1;
-            }
-            case  277 :
-            {
-                return RequiredSkill1Level;
             }
             case  183 :
             {
@@ -611,14 +520,6 @@ public class Cruiser
             case  1688 :
             {
                 return ShipBonusRole8;
-            }
-            case  1768 :
-            {
-                return TypeColorScheme;
-            }
-            case  1132 :
-            {
-                return UpgradeCapacity;
             }
             case  1154 :
             {

@@ -1,20 +1,4 @@
 items:
-  Advanced 'Liberty' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17715.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 48117
-    name: Advanced 'Liberty' Cerebral Accelerator
-    volume: 1.0
   Advanced Cerebral Accelerator:
     BoosterMaxCharAgeHours: 168
     Boosterness: 4
@@ -129,10 +113,6 @@ items:
     id: 48115
     marketGroup: 2505
     name: Agency 'Pyrolancea' DB9 Dose IV
-    volume: 1.0
-  Agency Standard Booster:
-    id: 45733
-    name: Agency Standard Booster
     volume: 1.0
   Antipharmakon Aeolis:
     BoosterDuration: 1800000
@@ -268,38 +248,6 @@ items:
     id: 47396
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
     volume: 1.0
-  Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47707
-    name: Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator
-    volume: 1.0
-  Expired Basic X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 6
-    FollowsJumpClones: 1
-    IntelligenceBonus: 6
-    MemoryBonus: 6
-    Nondestructible: 1
-    PerceptionBonus: 6
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 6
-    id: 47705
-    name: Expired Basic X-Sense 'Consciousness' Cerebral Accelerator
-    volume: 1.0
   Expired CDIA SPACE Cerebral Accelerator:
     BoosterDuration: 259200000
     BoosterLastInjectionDatetime: 17652.458984375
@@ -316,38 +264,6 @@ items:
     id: 47481
     name: Expired CDIA SPACE Cerebral Accelerator
     volume: 1.0
-  Expired Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17187.0
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 44217
-    name: Expired Cerebral Accelerator
-    volume: 1.0
-  Expired Crimson Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17498.0
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 46008
-    name: Expired Crimson Cerebral Accelerator
-    volume: 1.0
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
     BoosterDuration: 259200000
     BoosterLastInjectionDatetime: 17645.458984375
@@ -363,38 +279,6 @@ items:
     WillpowerBonus: 10
     id: 47397
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
-    volume: 1.0
-  Expired Extended X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 47708
-    name: Expired Extended X-Sense 'Consciousness' Cerebral Accelerator
-    volume: 1.0
-  Expired Gold Ouroboros Accelerator:
-    BoosterDuration: 432000000
-    BoosterLastInjectionDatetime: 17032.0
-    Boosterness: 12
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 42232
-    name: Expired Gold Ouroboros Accelerator
     volume: 1.0
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
     BoosterDuration: 86400000
@@ -428,38 +312,6 @@ items:
     id: 47265
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
     volume: 1.0
-  Expired Improved X-Sense 'Consciousness' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17688.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 47706
-    name: Expired Improved X-Sense 'Consciousness' Cerebral Accelerator
-    volume: 1.0
-  Expired Rogue Swarm Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17561.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    MemoryBonus: 12
-    Nondestructible: 1
-    PerceptionBonus: 12
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 12
-    id: 47016
-    name: Expired Rogue Swarm Cerebral Accelerator
-    volume: 1.0
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
     BoosterDuration: 259200000
     BoosterLastInjectionDatetime: 17610.458984375
@@ -491,54 +343,6 @@ items:
     WillpowerBonus: 10
     id: 47395
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
-    volume: 1.0
-  Expired Valkyrie Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17463.0
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 46007
-    name: Expired Valkyrie Cerebral Accelerator
-    volume: 1.0
-  Expired Yoiul Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17561.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 46009
-    name: Expired Yoiul Cerebral Accelerator
-    volume: 1.0
-  Extended 'Liberty' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17715.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 48118
-    name: Extended 'Liberty' Cerebral Accelerator
     volume: 1.0
   Improved Blue Pill Booster:
     BoosterAOEVelocityPenalty: -25
@@ -717,67 +521,6 @@ items:
     id: 33111
     name: Prototype Cerebral Accelerator
     volume: 1.0
-  QA Cerebral Accelerator - (128):
-    BoosterDuration: 43200000
-    Boosterness: 12
-    CharismaBonus: 128
-    FollowsJumpClones: 1
-    IntelligenceBonus: 128
-    MemoryBonus: 128
-    Nondestructible: 1
-    PerceptionBonus: 128
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    WillpowerBonus: 128
-    id: 42123
-    name: QA Cerebral Accelerator - (128)
-    volume: 1.0
-  QA Cerebral Accelerator - (16):
-    BoosterDuration: 600000
-    Boosterness: 4
-    CharismaBonus: 16
-    FollowsJumpClones: 1
-    IntelligenceBonus: 16
-    MemoryBonus: 16
-    Nondestructible: 1
-    PerceptionBonus: 16
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    WillpowerBonus: 16
-    id: 42120
-    name: QA Cerebral Accelerator - (16)
-    volume: 1.0
-  QA Cerebral Accelerator - (32):
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17486.5
-    Boosterness: 10
-    CharismaBonus: 32
-    FollowsJumpClones: 1
-    IntelligenceBonus: 32
-    MemoryBonus: 32
-    Nondestructible: 1
-    PerceptionBonus: 32
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    WillpowerBonus: 32
-    id: 42121
-    name: QA Cerebral Accelerator - (32)
-    volume: 1.0
-  QA Cerebral Accelerator - (64):
-    BoosterDuration: 86400000
-    Boosterness: 8
-    CharismaBonus: 64
-    FollowsJumpClones: 1
-    IntelligenceBonus: 64
-    MemoryBonus: 64
-    Nondestructible: 1
-    PerceptionBonus: 64
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    WillpowerBonus: 64
-    id: 42122
-    name: QA Cerebral Accelerator - (64)
-    volume: 1.0
   Quafe Zero:
     BoosterDuration: 3600000
     Boosterness: 1
@@ -786,22 +529,6 @@ items:
     id: 3898
     marketGroup: 2506
     name: Quafe Zero
-    volume: 1.0
-  Standard 'Liberty' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17715.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    Nondestructible: 1
-    PerceptionBonus: 10
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    WillpowerBonus: 10
-    id: 48116
-    name: Standard 'Liberty' Cerebral Accelerator
     volume: 1.0
   Standard Blue Pill Booster:
     BoosterAOEVelocityPenalty: -20

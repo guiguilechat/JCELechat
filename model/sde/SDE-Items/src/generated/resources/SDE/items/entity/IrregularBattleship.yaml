@@ -1,32 +1,4 @@
 items:
-  Blood Raider Battleship:
-    id: 42238
-    name: Blood Raider Battleship
-    volume: 1150000.0
-  Drifter Strike Battleship:
-    id: 47723
-    name: Drifter Strike Battleship
-    volume: 109000.0
-  Drifter Strike Commander:
-    id: 47724
-    name: Drifter Strike Commander
-    volume: 109000.0
-  Eosian Safeguard:
-    id: 46348
-    name: Eosian Safeguard
-    volume: 1.9E7
-  Eosian Upholder:
-    id: 46349
-    name: Eosian Upholder
-    volume: 1.9E7
-  GalFed_Boss1:
-    id: 48131
-    name: GalFed_Boss1
-    volume: 495000.0
-  Guardian Angels Barachael:
-    id: 47275
-    name: Guardian Angels Barachael
-    volume: 595000.0
   Guri Hivaa Rokosabai:
     id: 40727
     name: Guri Hivaa Rokosabai

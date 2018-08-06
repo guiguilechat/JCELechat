@@ -1,25 +1,4 @@
 items:
-  Standup AXL-SR Missile:
-    Agility: 1000.0
-    AimedLaunch: 1
-    AoeCloudSize: 20000
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 70.0
-    DetonationRange: 35
-    EmDamage: 23000.0
-    ExplosionDelay: 140000
-    ExplosiveDamage: 23000.0
-    Hp: 4000000
-    KineticDamage: 23000.0
-    MaxVelocity: 5000.0
-    StructureItemVisualFlag: 1
-    StructureUniformity: 0.75
-    ThermalDamage: 23000.0
-    id: 37845
-    marketGroup: 2197
-    name: Standup AXL-SR Missile
-    volume: 0.5
   Standup Super-heavy Torpedo:
     Agility: 1000.0
     AimedLaunch: 1

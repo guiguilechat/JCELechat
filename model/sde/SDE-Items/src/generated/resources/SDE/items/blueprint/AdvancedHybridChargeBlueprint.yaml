@@ -1,40 +1,4 @@
 items:
-  Bolt L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2
-    id: 12800
-    name: Bolt L Blueprint
-    volume: 0.01
-  Bolt M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2
-    id: 12798
-    name: Bolt M Blueprint
-    volume: 0.01
-  Bolt S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2
-    id: 12617
-    name: Bolt S Blueprint
-    volume: 0.01
-  Desolation L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    TechLevel: 2
-    id: 12796
-    name: Desolation L Blueprint
-    volume: 0.01
-  Desolation M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    TechLevel: 2
-    id: 12794
-    name: Desolation M Blueprint
-    volume: 0.01
-  Desolation S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    TechLevel: 2
-    id: 12611
-    name: Desolation S Blueprint
-    volume: 0.01
   Javelin L Blueprint:
     IndustryBlueprintRank: 4.800000190734863
     TechLevel: 2

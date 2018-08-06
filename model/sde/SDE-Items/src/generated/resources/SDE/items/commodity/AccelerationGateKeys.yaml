@@ -43,10 +43,6 @@ items:
     id: 25551
     name: Blood Raider Shipyard Keycard
     volume: 0.1
-  Carry On Token:
-    id: 32242
-    name: Carry On Token
-    volume: 0.1
   Coded Research Zone Key:
     id: 26245
     name: Coded Research Zone Key
@@ -322,10 +318,6 @@ items:
   Supply Ship Pass:
     id: 17911
     name: Supply Ship Pass
-    volume: 0.1
-  TestMeetingKeycard:
-    id: 25807
-    name: TestMeetingKeycard
     volume: 0.1
   The Red Card:
     id: 25281

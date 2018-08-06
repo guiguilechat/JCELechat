@@ -428,32 +428,6 @@ items:
     marketGroup: 922
     name: Nova Rocket
     volume: 0.005
-  Sansha Mjolnir Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamage: 35.599998474121094
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    RequiredSkill1: 3320
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27883
-    name: Sansha Mjolnir Rocket
-    volume: 0.005
   Scourge Rocket:
     Agility: 5.220125675201416
     AimedLaunch: 1
@@ -480,30 +454,4 @@ items:
     id: 266
     marketGroup: 922
     name: Scourge Rocket
-    volume: 0.005
-  True Sansha Mjolnir Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6439999938011169
-    AoeFalloff: 1500
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamage: 39.599998474121094
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    RequiredSkill1: 3320
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    id: 27884
-    name: True Sansha Mjolnir Rocket
     volume: 0.005

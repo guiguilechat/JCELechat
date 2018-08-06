@@ -1,29 +1,4 @@
 items:
-  '''Broker'' Remote Sensor Dampener I':
-    CapacitorNeed: 27.0
-    ChargeGroup1: 911
-    ChargeSize: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 30000
-    MaxTargetRangeBonus: -15.300000190734863
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSensorModuleStrengthBonus: 20
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2112
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionBonus: -15.300000190734863
-    TechLevel: 1
-    id: 22943
-    name: '''Broker'' Remote Sensor Dampener I'
-    volume: 5.0
   '''Executive'' Remote Sensor Dampener':
     CapacitorNeed: 20.0
     ChargeGroup1: 911
@@ -49,30 +24,6 @@ items:
     id: 22945
     marketGroup: 679
     name: '''Executive'' Remote Sensor Dampener'
-    volume: 5.0
-  Indirect Scanning Dampening Unit I:
-    CapacitorNeed: 27.0
-    ChargeGroup1: 911
-    ChargeSize: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 27500
-    MaxTargetRangeBonus: -14.489999771118164
-    MetaLevel: 2
-    OverloadSensorModuleStrengthBonus: 20
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2112
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionBonus: -14.489999771118164
-    TechLevel: 1
-    id: 5300
-    name: Indirect Scanning Dampening Unit I
     volume: 5.0
   Kapteyn Compact Sensor Dampener:
     CapacitorNeed: 30.0
@@ -200,30 +151,4 @@ items:
     id: 1969
     marketGroup: 679
     name: Remote Sensor Dampener II
-    volume: 5.0
-  Shadow Serpentis Remote Sensor Dampener:
-    CapacitorNeed: 24.0
-    ChargeGroup1: 911
-    ChargeSize: 1
-    Cpu: 30.0
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40
-    MaxRange: 30000
-    MaxTargetRangeBonus: -15.84000015258789
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSensorModuleStrengthBonus: 20
-    Power: 1
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2112
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionBonus: -15.84000015258789
-    TechLevel: 1
-    id: 32413
-    name: Shadow Serpentis Remote Sensor Dampener
     volume: 5.0

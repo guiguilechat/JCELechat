@@ -27,14 +27,6 @@ public class ToolBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ToolBlueprint.yaml";
     private static LinkedHashMap<String, ToolBlueprint> cache = (null);
 
@@ -48,10 +40,6 @@ public class ToolBlueprint
             case  1955 :
             {
                 return IndustryBlueprintRank;
-            }
-            case  422 :
-            {
-                return TechLevel;
             }
             default:
             {

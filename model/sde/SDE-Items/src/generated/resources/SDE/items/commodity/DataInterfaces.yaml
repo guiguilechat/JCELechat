@@ -1,12 +1,4 @@
 items:
-  Civilian Data Interface:
-    DecryptorID: 729
-    Hp: 100
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    id: 27026
-    name: Civilian Data Interface
-    volume: 1.0
   Cryptic Data Interface:
     DecryptorID: 729
     Hp: 100
@@ -30,14 +22,6 @@ items:
     RequiredSkill1Level: 1
     id: 26597
     name: Cryptic Tuner Data Interface
-    volume: 1.0
-  Data Interface - Basic:
-    DecryptorID: 728
-    Hp: 100
-    RequiredSkill1: 3410
-    RequiredSkill1Level: 1
-    id: 20426
-    name: Data Interface - Basic
     volume: 1.0
   Esoteric Data Interface:
     DecryptorID: 731

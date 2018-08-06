@@ -255,13 +255,6 @@ public class SuperWeapon
     @DefaultIntValue(0)
     public int IsPointTargeted;
     /**
-     * Delay in seconds; until you can jump again.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int JumpDelayDuration;
-    /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
@@ -507,10 +500,6 @@ public class SuperWeapon
             case  2269 :
             {
                 return IsPointTargeted;
-            }
-            case  1221 :
-            {
-                return JumpDelayDuration;
             }
             case  117 :
             {

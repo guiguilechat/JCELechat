@@ -550,12 +550,6 @@ items:
     id: 46278
     name: Corrupted Trinary Relics
     volume: 0.1
-  Counterfeit Minmatar Faction Ammo:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32253
-    name: Counterfeit Minmatar Faction Ammo
-    volume: 2.5
   Counterfeit Voluval Tattoo Chemicals:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2112,12 +2106,6 @@ items:
     id: 19382
     name: Luther Veron's Head
     volume: 0.1
-  Major Effects:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 29268
-    name: Major Effects
-    volume: 0.2
   Manchura's Logs:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2226,12 +2214,6 @@ items:
     id: 29202
     name: Modified Augumene Antidote
     volume: 5.0
-  Modified G-67 Nexus Chip:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 45536
-    name: Modified G-67 Nexus Chip
-    volume: 0.1
   Mordur's DNA:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2447,12 +2429,6 @@ items:
     ImportTaxMultiplier: 1
     id: 33124
     name: Platinum Medallion of Freedom
-    volume: 1.0
-  Primordial Biomass:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32272
-    name: Primordial Biomass
     volume: 1.0
   Privateer Commander's Head:
     ExportTaxMultiplier: 1
@@ -2815,12 +2791,6 @@ items:
     id: 32265
     name: Spintric Coin
     volume: 1.0
-  Spintrixiate Rewards Coin:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 32266
-    name: Spintrixiate Rewards Coin
-    volume: 1.0
   Splinter Bodyguard:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1
@@ -2900,12 +2870,6 @@ items:
     marketGroup: 20
     name: Subcompact TEBS Interface
     volume: 0.01
-  Survivor:
-    ExportTaxMultiplier: 1
-    ImportTaxMultiplier: 1
-    id: 42683
-    name: Survivor
-    volume: 1.0
   Survivors:
     ExportTaxMultiplier: 1
     ImportTaxMultiplier: 1

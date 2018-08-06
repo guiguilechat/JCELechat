@@ -1,52 +1,10 @@
 items:
-  Armored Warfare Link - Damage Control I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22299
-    name: Armored Warfare Link - Damage Control I Blueprint
-    volume: 0.01
-  Armored Warfare Link - Damage Control II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4263
-    name: Armored Warfare Link - Damage Control II Blueprint
-    volume: 0.01
-  Armored Warfare Link - Passive Defense I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22300
-    name: Armored Warfare Link - Passive Defense I Blueprint
-    volume: 0.01
-  Armored Warfare Link - Passive Defense II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4265
-    name: Armored Warfare Link - Passive Defense II Blueprint
-    volume: 0.01
-  Armored Warfare Link - Rapid Repair I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22301
-    name: Armored Warfare Link - Rapid Repair I Blueprint
-    volume: 0.01
-  Armored Warfare Link - Rapid Repair II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4267
-    name: Armored Warfare Link - Rapid Repair II Blueprint
-    volume: 0.01
   Clone Vat Bay I Blueprint:
     IndustryBlueprintRank: 180.0
     TechLevel: 1
     id: 23736
     marketGroup: 799
     name: Clone Vat Bay I Blueprint
-    volume: 0.01
-  Command Processor I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22302
-    name: Command Processor I Blueprint
     volume: 0.01
   Covert Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
@@ -55,60 +13,12 @@ items:
     marketGroup: 799
     name: Covert Cynosural Field Generator I Blueprint
     volume: 0.01
-  Covert Cynosural Field I Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 28651
-    name: Covert Cynosural Field I Blueprint
-    volume: 0.01
   Cynosural Field Generator I Blueprint:
     IndustryBlueprintRank: 12.0
     TechLevel: 1
     id: 21604
     marketGroup: 799
     name: Cynosural Field Generator I Blueprint
-    volume: 0.01
-  Cynosural Field I Blueprint:
-    IndustryBlueprintRank: 1.0
-    TechLevel: 1
-    id: 21095
-    name: Cynosural Field I Blueprint
-    volume: 0.01
-  Information Warfare Link - Electronic Superiority I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22303
-    name: Information Warfare Link - Electronic Superiority I Blueprint
-    volume: 0.01
-  Information Warfare Link - Electronic Superiority II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4269
-    name: Information Warfare Link - Electronic Superiority II Blueprint
-    volume: 0.01
-  Information Warfare Link - Recon Operation I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22304
-    name: Information Warfare Link - Recon Operation I Blueprint
-    volume: 0.01
-  Information Warfare Link - Recon Operation II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4271
-    name: Information Warfare Link - Recon Operation II Blueprint
-    volume: 0.01
-  Information Warfare Link - Sensor Integrity I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22305
-    name: Information Warfare Link - Sensor Integrity I Blueprint
-    volume: 0.01
-  Information Warfare Link - Sensor Integrity II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4273
-    name: Information Warfare Link - Sensor Integrity II Blueprint
     volume: 0.01
   Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint:
     IndustryBlueprintRank: 12.0
@@ -145,76 +55,4 @@ items:
     TechLevel: 2
     id: 4279
     name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
-    volume: 0.01
-  Siege Warfare Link - Active Shielding I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22307
-    name: Siege Warfare Link - Active Shielding I Blueprint
-    volume: 0.01
-  Siege Warfare Link - Active Shielding II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4281
-    name: Siege Warfare Link - Active Shielding II Blueprint
-    volume: 0.01
-  Siege Warfare Link - Shield Efficiency I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22308
-    name: Siege Warfare Link - Shield Efficiency I Blueprint
-    volume: 0.01
-  Siege Warfare Link - Shield Efficiency II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4283
-    name: Siege Warfare Link - Shield Efficiency II Blueprint
-    volume: 0.01
-  Siege Warfare Link - Shield Harmonizing I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22306
-    name: Siege Warfare Link - Shield Harmonizing I Blueprint
-    volume: 0.01
-  Siege Warfare Link - Shield Harmonizing II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4285
-    name: Siege Warfare Link - Shield Harmonizing II Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Evasive Maneuvers I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22309
-    name: Skirmish Warfare Link - Evasive Maneuvers I Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Evasive Maneuvers II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4287
-    name: Skirmish Warfare Link - Evasive Maneuvers II Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Interdiction Maneuvers I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22310
-    name: Skirmish Warfare Link - Interdiction Maneuvers I Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Interdiction Maneuvers II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4289
-    name: Skirmish Warfare Link - Interdiction Maneuvers II Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Rapid Deployment I Blueprint:
-    IndustryBlueprintRank: 12.0
-    TechLevel: 1
-    id: 22311
-    name: Skirmish Warfare Link - Rapid Deployment I Blueprint
-    volume: 0.01
-  Skirmish Warfare Link - Rapid Deployment II Blueprint:
-    IndustryBlueprintRank: 31.200000762939453
-    TechLevel: 2
-    id: 4291
-    name: Skirmish Warfare Link - Rapid Deployment II Blueprint
     volume: 0.01

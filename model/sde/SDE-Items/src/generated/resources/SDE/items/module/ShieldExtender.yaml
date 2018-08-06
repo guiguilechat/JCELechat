@@ -14,38 +14,6 @@ items:
     marketGroup: 2241
     name: CONCORD Capital Shield Extender
     volume: 4000.0
-  CONCORD Large Shield Extender:
-    Hp: 40
-    MetaLevel: 8
-    Power: 143
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 5
-    SignatureRadiusAdd: 20
-    TechLevel: 1
-    id: 16146
-    name: CONCORD Large Shield Extender
-    volume: 20.0
-  CONCORD Medium Shield Extender:
-    Hp: 40
-    MetaLevel: 8
-    Power: 26
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 5
-    SignatureRadiusAdd: 4
-    TechLevel: 1
-    id: 16144
-    name: CONCORD Medium Shield Extender
-    volume: 10.0
-  CONCORD Micro Shield Extender:
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 5
-    SignatureRadiusAdd: 2
-    TechLevel: 1
-    id: 16142
-    name: CONCORD Micro Shield Extender
-    volume: 2.5
   Caldari Navy Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 35.0
@@ -252,39 +220,6 @@ items:
     marketGroup: 608
     name: Large Shield Extender II
     volume: 20.0
-  Large Subordinate Screen Stabilizer I:
-    Hp: 40
-    MetaLevel: 2
-    Power: 150
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 23
-    TechLevel: 1
-    id: 8409
-    name: Large Subordinate Screen Stabilizer I
-    volume: 20.0
-  Large Supplemental Barrier Emitter I:
-    Hp: 40
-    MetaLevel: 1
-    Power: 150
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 24
-    TechLevel: 1
-    id: 8489
-    name: Large Supplemental Barrier Emitter I
-    volume: 20.0
-  Luther Veron's Modified Shield Extender:
-    Hp: 40
-    MetaLevel: 11
-    Power: 150
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 2
-    SignatureRadiusAdd: 20
-    TechLevel: 1
-    id: 15408
-    name: Luther Veron's Modified Shield Extender
-    volume: 20.0
   Medium 'Canyon' Shield Extender:
     CapacityBonus: 1000.0
     Cpu: 26.0
@@ -361,93 +296,6 @@ items:
     marketGroup: 606
     name: Medium Shield Extender II
     volume: 10.0
-  Medium Subordinate Screen Stabilizer I:
-    Hp: 40
-    MetaLevel: 2
-    Power: 28
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 6
-    TechLevel: 1
-    id: 8397
-    name: Medium Subordinate Screen Stabilizer I
-    volume: 10.0
-  Medium Supplemental Barrier Emitter I:
-    Hp: 40
-    MetaLevel: 1
-    Power: 28
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 6
-    TechLevel: 1
-    id: 8477
-    name: Medium Supplemental Barrier Emitter I
-    volume: 10.0
-  Micro Azeotropic Ward Salubrity I:
-    Hp: 40
-    MetaLevel: 3
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 1
-    TechLevel: 1
-    id: 8437
-    name: Micro Azeotropic Ward Salubrity I
-    volume: 2.5
-  Micro F-S9 Regolith Shield Induction:
-    Hp: 40
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 1
-    TechLevel: 1
-    id: 8505
-    name: Micro F-S9 Regolith Shield Induction
-    volume: 2.5
-  Micro Shield Extender I:
-    Hp: 40
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 1
-    TechLevel: 1
-    id: 3849
-    name: Micro Shield Extender I
-    volume: 2.5
-  Micro Shield Extender II:
-    Hp: 40
-    MetaLevel: 5
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 2
-    SignatureRadiusAdd: 1
-    TechLevel: 2
-    id: 3851
-    name: Micro Shield Extender II
-    volume: 2.5
-  Micro Subordinate Screen Stabilizer I:
-    Hp: 40
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 1
-    TechLevel: 1
-    id: 8387
-    name: Micro Subordinate Screen Stabilizer I
-    volume: 2.5
-  Micro Supplemental Barrier Emitter I:
-    Hp: 40
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 1
-    TechLevel: 1
-    id: 8465
-    name: Micro Supplemental Barrier Emitter I
-    volume: 2.5
   Republic Fleet Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 40.0
@@ -581,28 +429,6 @@ items:
     marketGroup: 605
     name: Small Shield Extender II
     volume: 5.0
-  Small Subordinate Screen Stabilizer I:
-    Hp: 40
-    MetaLevel: 2
-    Power: 2
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 2
-    TechLevel: 1
-    id: 8401
-    name: Small Subordinate Screen Stabilizer I
-    volume: 5.0
-  Small Supplemental Barrier Emitter I:
-    Hp: 40
-    MetaLevel: 1
-    Power: 2
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    SignatureRadiusAdd: 2
-    TechLevel: 1
-    id: 8481
-    name: Small Supplemental Barrier Emitter I
-    volume: 5.0
   Thukker Large Shield Extender:
     CapacityBonus: 2750.0
     Cpu: 40.0
@@ -632,17 +458,6 @@ items:
     id: 28746
     marketGroup: 606
     name: Thukker Medium Shield Extender
-    volume: 10.0
-  Thukker Modified Medium Shield Extender:
-    Hp: 40
-    MetaLevel: 9
-    Power: 28
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    SignatureRadiusAdd: 4
-    TechLevel: 1
-    id: 19489
-    name: Thukker Modified Medium Shield Extender
     volume: 10.0
   Thukker Small Shield Extender:
     CapacityBonus: 550.0

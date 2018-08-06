@@ -1,38 +1,4 @@
 items:
-  Large Mobile Siphon Unit:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 1000
-    ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 50000
-    Hp: 1000
-    ShieldCapacity: 1000
-    ShieldRechargeRate: 20000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    id: 33479
-    name: Large Mobile Siphon Unit
-    volume: 500.0
-  Medium Mobile Siphon Unit:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 1000
-    ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 50000
-    Hp: 1000
-    ShieldCapacity: 1000
-    ShieldRechargeRate: 20000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 100
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    id: 33478
-    name: Medium Mobile Siphon Unit
-    volume: 100.0
   Small Mobile 'Hybrid' Siphon Unit:
     AnchoringDelay: 60000
     AnchoringSecurityLevelMax: 0.4000000059604645

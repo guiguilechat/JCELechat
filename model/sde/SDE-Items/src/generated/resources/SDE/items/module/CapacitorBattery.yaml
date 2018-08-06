@@ -216,39 +216,6 @@ items:
     marketGroup: 705
     name: Large Compact Pb-Acid Cap Battery
     volume: 15.0
-  Large F-4a Ld-Sulfate Capacitor Charge Unit:
-    CapacitorBonus: 575
-    Hp: 40
-    MetaLevel: 3
-    Power: 250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 4869
-    name: Large F-4a Ld-Sulfate Capacitor Charge Unit
-    volume: 15.0
-  Large Ohm Capacitor Reserve I:
-    CapacitorBonus: 550
-    Hp: 40
-    MetaLevel: 2
-    Power: 250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4875
-    name: Large Ohm Capacitor Reserve I
-    volume: 15.0
-  Large Peroxide Capacitor Power Cell:
-    CapacitorBonus: 600
-    Hp: 40
-    MetaLevel: 4
-    Power: 250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    id: 4873
-    name: Large Peroxide Capacitor Power Cell
-    volume: 15.0
   Medium Cap Battery I:
     CapacitorBonus: 500
     Cpu: 35.0
@@ -290,94 +257,6 @@ items:
     marketGroup: 704
     name: Medium Compact Pb-Acid Cap Battery
     volume: 10.0
-  Medium F-4a Ld-Sulfate Capacitor Charge Unit:
-    CapacitorBonus: 345
-    Hp: 40
-    MetaLevel: 3
-    Power: 75
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 6111
-    name: Medium F-4a Ld-Sulfate Capacitor Charge Unit
-    volume: 10.0
-  Medium Ohm Capacitor Reserve I:
-    CapacitorBonus: 330
-    Hp: 40
-    MetaLevel: 2
-    Power: 75
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 6097
-    name: Medium Ohm Capacitor Reserve I
-    volume: 10.0
-  Medium Peroxide Capacitor Power Cell:
-    CapacitorBonus: 360
-    Hp: 40
-    MetaLevel: 4
-    Power: 75
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 6083
-    name: Medium Peroxide Capacitor Power Cell
-    volume: 10.0
-  Micro Capacitor Battery II:
-    CapacitorBonus: 53
-    Hp: 40
-    MetaLevel: 5
-    Power: 5
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 2
-    id: 3480
-    name: Micro Capacitor Battery II
-    volume: 2.5
-  Micro F-4a Ld-Sulfate Capacitor Charge Unit:
-    CapacitorBonus: 43
-    Hp: 40
-    MetaLevel: 3
-    Power: 5
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4745
-    name: Micro F-4a Ld-Sulfate Capacitor Charge Unit
-    volume: 2.5
-  Micro Ld-Acid Capacitor Battery I:
-    CapacitorBonus: 39
-    Hp: 40
-    MetaLevel: 1
-    Power: 5
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4747
-    name: Micro Ld-Acid Capacitor Battery I
-    volume: 2.5
-  Micro Ohm Capacitor Reserve I:
-    CapacitorBonus: 41
-    Hp: 40
-    MetaLevel: 2
-    Power: 5
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4751
-    name: Micro Ohm Capacitor Reserve I
-    volume: 2.5
-  Micro Peroxide Capacitor Power Cell:
-    CapacitorBonus: 45
-    Hp: 40
-    MetaLevel: 4
-    Power: 5
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4749
-    name: Micro Peroxide Capacitor Power Cell
-    volume: 2.5
   Republic Fleet Large Cap Battery:
     CapacitorBonus: 1820
     Cpu: 40.0
@@ -464,39 +343,6 @@ items:
     marketGroup: 703
     name: Small Compact Pb-Acid Cap Battery
     volume: 5.0
-  Small F-4a Ld-Sulfate Capacitor Charge Unit:
-    CapacitorBonus: 86
-    Hp: 40
-    MetaLevel: 3
-    Power: 10
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4785
-    name: Small F-4a Ld-Sulfate Capacitor Charge Unit
-    volume: 5.0
-  Small Ohm Capacitor Reserve I:
-    CapacitorBonus: 83
-    Hp: 40
-    MetaLevel: 2
-    Power: 10
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    id: 4791
-    name: Small Ohm Capacitor Reserve I
-    volume: 5.0
-  Small Peroxide Capacitor Power Cell:
-    CapacitorBonus: 90
-    Hp: 40
-    MetaLevel: 4
-    Power: 10
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4789
-    name: Small Peroxide Capacitor Power Cell
-    volume: 5.0
   Thukker Large Cap Battery:
     CapacitorBonus: 1755
     Cpu: 42.0
@@ -542,71 +388,6 @@ items:
     marketGroup: 703
     name: Thukker Small Cap Battery
     volume: 5.0
-  X-Large Capacitor Battery I:
-    CapacitorBonus: 1250
-    Hp: 40
-    Power: 1250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 2022
-    name: X-Large Capacitor Battery I
-    volume: 20.0
-  X-Large Capacitor Battery II:
-    CapacitorBonus: 1750
-    Hp: 40
-    MetaLevel: 5
-    Power: 1375
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    TechLevel: 2
-    id: 3472
-    name: X-Large Capacitor Battery II
-    volume: 20.0
-  X-Large F-4a Ld-Sulfate Capacitor Charge Unit:
-    CapacitorBonus: 1438
-    Hp: 40
-    MetaLevel: 3
-    Power: 1250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    id: 4909
-    name: X-Large F-4a Ld-Sulfate Capacitor Charge Unit
-    volume: 20.0
-  X-Large Ld-Acid Capacitor Battery I:
-    CapacitorBonus: 1313
-    Hp: 40
-    MetaLevel: 1
-    Power: 1250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    id: 4911
-    name: X-Large Ld-Acid Capacitor Battery I
-    volume: 20.0
-  X-Large Ohm Capacitor Reserve I:
-    CapacitorBonus: 1375
-    Hp: 40
-    MetaLevel: 2
-    Power: 1250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    TechLevel: 1
-    id: 4915
-    name: X-Large Ohm Capacitor Reserve I
-    volume: 20.0
-  X-Large Peroxide Capacitor Power Cell:
-    CapacitorBonus: 1500
-    Hp: 40
-    MetaLevel: 4
-    Power: 1250
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    id: 4913
-    name: X-Large Peroxide Capacitor Power Cell
-    volume: 20.0
   unnamed_gid0_sid0:
     RequiredSkill1: 3424
     RequiredSkill1Level: 4

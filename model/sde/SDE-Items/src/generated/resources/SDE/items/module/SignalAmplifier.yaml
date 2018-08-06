@@ -1,16 +1,4 @@
 items:
-  '''Acolyth'' Signal Booster':
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 21.0
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 5.25
-    TechLevel: 1
-    id: 6310
-    name: '''Acolyth'' Signal Booster'
-    volume: 5.0
   '''Basic'' Signal Amplifier':
     Cpu: 8.0
     Hp: 40
@@ -51,31 +39,6 @@ items:
     marketGroup: 669
     name: '''Firewall'' Signal Amplifier'
     volume: 20.0
-  '''Mendicant'' Signal Booster I':
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 26.299999237060547
-    MetaLevel: 1
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 10.5
-    TechLevel: 1
-    id: 6294
-    name: '''Mendicant'' Signal Booster I'
-    volume: 5.0
-  Amplitude Signal Enhancer:
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 22.0
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 5.5
-    TechLevel: 1
-    id: 6309
-    name: Amplitude Signal Enhancer
-    volume: 5.0
   F-89 Compact Signal Amplifier:
     Cpu: 16.0
     Hp: 40
@@ -94,18 +57,6 @@ items:
     id: 6296
     marketGroup: 669
     name: F-89 Compact Signal Amplifier
-    volume: 5.0
-  F-90 Positional Signal Amplifier:
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 23.0
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 5.75
-    TechLevel: 1
-    id: 6312
-    name: F-90 Positional Signal Amplifier
     volume: 5.0
   Sentient Signal Amplifier:
     Cpu: 16.0
@@ -182,42 +133,4 @@ items:
     id: 41197
     marketGroup: 669
     name: Syndicate Signal Amplifier
-    volume: 5.0
-  Type-D Attenuation Signal Augmentation:
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 30.0
-    MetaLevel: 4
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 12.0
-    TechLevel: 1
-    id: 6295
-    name: Type-D Attenuation Signal Augmentation
-    volume: 5.0
-  Type-E Discriminative Signal Augmentation:
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 24.0
-    Power: 1
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 6.0
-    TechLevel: 1
-    id: 6311
-    name: Type-E Discriminative Signal Augmentation
-    volume: 5.0
-  Wavelength Signal Enhancer I:
-    Hp: 40
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 27.5
-    MetaLevel: 2
-    Power: 1
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 11.0
-    TechLevel: 1
-    id: 6293
-    name: Wavelength Signal Enhancer I
     volume: 5.0

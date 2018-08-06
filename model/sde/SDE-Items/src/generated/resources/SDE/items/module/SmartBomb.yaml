@@ -1030,23 +1030,6 @@ items:
     marketGroup: 381
     name: Large YF-12a Smartbomb
     volume: 50.0
-  Luther Veron's Modified Large EMP Smartbomb:
-    CapacitorNeed: 115.0
-    Duration: 10000.0
-    EmpFieldRange: 10500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 6.699999809265137
-    Hp: 40
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2150
-    RequiredSkill1: 3421
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 15405
-    name: Luther Veron's Modified Large EMP Smartbomb
-    volume: 50.0
   Medium 'Notos' Explosive Charge I:
     Duration: 10000.0
     EmpFieldRange: 4000

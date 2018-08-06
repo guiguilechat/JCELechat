@@ -21,20 +21,6 @@ public class SalvageDrone
     @DefaultIntValue(0)
     public int AccessDifficultyBonus;
     /**
-     * The number of hit points on the entities armor.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ArmorHP;
-    /**
-     * DO NOT MESS WITH
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
-    /**
      * Damage multiplier.
      */
     @HighIsGood(true)
@@ -49,13 +35,6 @@ public class SalvageDrone
     @DefaultDoubleValue(0.0)
     public double Duration;
     /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int FighterAbilityAntiFighterMissileResistance;
-    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -69,84 +48,6 @@ public class SalvageDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int OrbitRange;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2;
-    /**
-     * Required skill level for skill 2
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill2Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3;
-    /**
-     * Required skill level for skill 3
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill3Level;
-    /**
-     * The type ID of the skill that is required.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill4;
-    /**
-     * Required skill level for skill 4
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RequiredSkill4Level;
-    /**
-     * Amount of maximum shield HP on the item.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int ShieldCapacity;
-    /**
-     * Amount of time taken to fully recharge the shield.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
-    /**
-     * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
-    /**
-     * Signature Radius is used for turret tracking and scanning.
-     */
-    @HighIsGood(false)
-    @Stackable(false)
-    @DefaultIntValue(100)
-    public int SignatureRadius;
-    /**
-     * Authoring has been moved to FSD
-     * Tech level of an item
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/drone/SalvageDrone.yaml";
     private static LinkedHashMap<String, SalvageDrone> cache = (null);
 
@@ -157,14 +58,6 @@ public class SalvageDrone
             {
                 return AccessDifficultyBonus;
             }
-            case  265 :
-            {
-                return ArmorHP;
-            }
-            case  524 :
-            {
-                return ArmorUniformity;
-            }
             case  64 :
             {
                 return DamageMultiplier;
@@ -173,10 +66,6 @@ public class SalvageDrone
             {
                 return Duration;
             }
-            case  2189 :
-            {
-                return FighterAbilityAntiFighterMissileResistance;
-            }
             case  54 :
             {
                 return MaxRange;
@@ -184,50 +73,6 @@ public class SalvageDrone
             case  157 :
             {
                 return OrbitRange;
-            }
-            case  183 :
-            {
-                return RequiredSkill2;
-            }
-            case  278 :
-            {
-                return RequiredSkill2Level;
-            }
-            case  184 :
-            {
-                return RequiredSkill3;
-            }
-            case  279 :
-            {
-                return RequiredSkill3Level;
-            }
-            case  1285 :
-            {
-                return RequiredSkill4;
-            }
-            case  1286 :
-            {
-                return RequiredSkill4Level;
-            }
-            case  263 :
-            {
-                return ShieldCapacity;
-            }
-            case  479 :
-            {
-                return ShieldRechargeRate;
-            }
-            case  484 :
-            {
-                return ShieldUniformity;
-            }
-            case  552 :
-            {
-                return SignatureRadius;
-            }
-            case  422 :
-            {
-                return TechLevel;
             }
             default:
             {

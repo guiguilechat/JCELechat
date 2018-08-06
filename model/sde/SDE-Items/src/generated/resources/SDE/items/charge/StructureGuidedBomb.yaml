@@ -45,27 +45,3 @@ items:
     marketGroup: 2198
     name: Standup Light Guided Bomb
     volume: 100.0
-  Standup Void Guided Bomb:
-    Agility: 1000.0
-    AimedLaunch: 1
-    AoeCloudSize: 300
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeVelocity: 100.0
-    DetonationRange: 35
-    EmDamage: 1.0
-    EmpFieldRange: 20000
-    EnergyNeutralizerAmount: 6000
-    ExplosionDelay: 500000
-    ExplosionRange: 20000
-    ExplosiveDamage: 1.0
-    Hp: 4000000
-    KineticDamage: 1.0
-    LauncherGroup: 1328
-    MaxVelocity: 2000.0
-    RemoteResistanceID: 2045
-    StructureItemVisualFlag: 1
-    StructureUniformity: 1.0
-    ThermalDamage: 1.0
-    id: 37851
-    name: Standup Void Guided Bomb
-    volume: 100.0

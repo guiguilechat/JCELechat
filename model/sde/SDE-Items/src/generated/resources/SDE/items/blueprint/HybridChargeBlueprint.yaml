@@ -23,11 +23,6 @@ items:
     marketGroup: 598
     name: Antimatter Charge XL Blueprint
     volume: 0.01
-  Guristas Antimatter Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 21335
-    name: Guristas Antimatter Charge S Blueprint
-    volume: 0.01
   Iridium Charge L Blueprint:
     IndustryBlueprintRank: 3.0
     id: 1148
@@ -99,11 +94,6 @@ items:
     id: 17655
     marketGroup: 598
     name: Lead Charge XL Blueprint
-    volume: 0.01
-  Orbital Hybrid S Blueprint:
-    IndustryBlueprintRank: 1.0
-    id: 32804
-    name: Orbital Hybrid S Blueprint
     volume: 0.01
   Plutonium Charge L Blueprint:
     IndustryBlueprintRank: 3.0

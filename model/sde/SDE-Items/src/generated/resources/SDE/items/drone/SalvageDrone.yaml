@@ -1,43 +1,4 @@
 items:
-  QA Salvage Drone:
-    AccessDifficultyBonus: 75
-    ArmorHP: 3000
-    ArmorUniformity: 0.75
-    CapacitorCapacity: 1.0
-    DamageMultiplier: 1.0
-    DroneBandwidthUsed: 1
-    Duration: 1000.0
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 3000
-    KineticDamageResonance: 1.0
-    MaxLockedTargets: 8
-    MaxRange: 5000
-    MaxVelocity: 1250.0
-    OrbitRange: 100
-    ProximityRange: 500
-    RechargeRate: 60000.0
-    RequiredSkill1: 9955
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3440
-    RequiredSkill2Level: 1
-    RequiredSkill3: 25863
-    RequiredSkill3Level: 2
-    RequiredSkill4: 3436
-    RequiredSkill4Level: 4
-    ScanMagnetometricStrength: 1.0
-    ShieldCapacity: 3000
-    ShieldRechargeRate: 60000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 25
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    Uniformity: 0.75
-    id: 44274
-    name: QA Salvage Drone
-    volume: 5.0
   Salvage Drone I:
     AccessDifficultyBonus: 3
     ArmorHP: 20

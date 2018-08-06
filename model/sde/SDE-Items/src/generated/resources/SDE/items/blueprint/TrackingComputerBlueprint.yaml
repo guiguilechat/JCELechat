@@ -1,10 +1,4 @@
 items:
-  '''Economist'' Tracking Computer I Blueprint':
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 22928
-    name: '''Economist'' Tracking Computer I Blueprint'
-    volume: 0.01
   '''Marketeer'' Tracking Computer Blueprint':
     IndustryBlueprintRank: 6.0
     TechLevel: 1

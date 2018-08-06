@@ -1,10 +1,8 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Collections;
 import java.util.Map;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
-import fr.guiguilechat.jcelechat.model.sde.items.types.trading.TradeSession;
 
 public abstract class Trading
     extends Item
@@ -21,6 +19,6 @@ public abstract class Trading
     }
 
     public static Map<String, ? extends Trading> loadCategory() {
-        return Stream.of(TradeSession.load(), fr.guiguilechat.jcelechat.model.sde.items.types.trading.Trading.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        return Collections.emptyMap();
     }
 }

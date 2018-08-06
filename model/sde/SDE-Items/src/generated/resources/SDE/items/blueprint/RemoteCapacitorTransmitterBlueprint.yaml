@@ -48,24 +48,6 @@ items:
     id: 12224
     name: Capital Remote Capacitor Transmitter II Blueprint
     volume: 0.01
-  Imperial Navy Large Remote Capacitor Transmitter Blueprint:
-    IndustryBlueprintRank: 9.0
-    TechLevel: 1
-    id: 31947
-    name: Imperial Navy Large Remote Capacitor Transmitter Blueprint
-    volume: 0.01
-  Imperial Navy Medium Remote Capacitor Transmitter Blueprint:
-    IndustryBlueprintRank: 6.0
-    TechLevel: 1
-    id: 31949
-    name: Imperial Navy Medium Remote Capacitor Transmitter Blueprint
-    volume: 0.01
-  Imperial Navy Small Remote Capacitor Transmitter Blueprint:
-    IndustryBlueprintRank: 3.0
-    TechLevel: 1
-    id: 31951
-    name: Imperial Navy Small Remote Capacitor Transmitter Blueprint
-    volume: 0.01
   Large Remote Capacitor Transmitter I Blueprint:
     IndustryBlueprintRank: 9.0
     TechLevel: 1

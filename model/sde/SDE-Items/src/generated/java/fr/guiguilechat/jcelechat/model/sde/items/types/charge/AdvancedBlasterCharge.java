@@ -35,13 +35,6 @@ public class AdvancedBlasterCharge
     @DefaultIntValue(0)
     public int CapNeedBonus;
     /**
-     * Multiplier to the capacitors recharge rate.
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double CapacitorRechargeRateMultiplier;
-    /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
@@ -106,13 +99,6 @@ public class AdvancedBlasterCharge
     @DefaultIntValue(0)
     public int MetaLevel;
     /**
-     * 
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(1)
-    public int PowerNeedMultiplier;
-    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -126,13 +112,6 @@ public class AdvancedBlasterCharge
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
-    /**
-     * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultDoubleValue(1.0)
-    public double SpeedMultiplier;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -180,10 +159,6 @@ public class AdvancedBlasterCharge
             {
                 return CapNeedBonus;
             }
-            case  144 :
-            {
-                return CapacitorRechargeRateMultiplier;
-            }
             case  128 :
             {
                 return ChargeSize;
@@ -220,10 +195,6 @@ public class AdvancedBlasterCharge
             {
                 return MetaLevel;
             }
-            case  608 :
-            {
-                return PowerNeedMultiplier;
-            }
             case  182 :
             {
                 return RequiredSkill1;
@@ -231,10 +202,6 @@ public class AdvancedBlasterCharge
             case  277 :
             {
                 return RequiredSkill1Level;
-            }
-            case  204 :
-            {
-                return SpeedMultiplier;
             }
             case  422 :
             {

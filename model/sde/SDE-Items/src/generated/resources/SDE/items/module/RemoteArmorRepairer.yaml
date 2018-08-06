@@ -22,27 +22,6 @@ items:
     marketGroup: 1059
     name: '''Beatnik'' Small Remote Armor Repairer'
     volume: 5.0
-  '''Brotherhood'' Small Remote Armor Repairer':
-    ArmorDamageAmount: 40
-    CapacitorNeed: 29.0
-    Cpu: 10.0
-    Duration: 2500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 4000
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -15.0
-    Power: 6
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 23414
-    name: '''Brotherhood'' Small Remote Armor Repairer'
-    volume: 5.0
   '''Love'' Medium Remote Armor Repairer':
     ArmorDamageAmount: 228
     CapacitorNeed: 110.0
@@ -66,26 +45,6 @@ items:
     marketGroup: 1058
     name: '''Love'' Medium Remote Armor Repairer'
     volume: 10.0
-  '''Pacifier'' Large Remote Armor Repairer':
-    ArmorDamageAmount: 384
-    CapacitorNeed: 252.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.5
-    Hp: 40
-    MaxRange: 8400
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 3
-    MetaLevel: 7
-    OverloadSelfDurationBonus: -15.0
-    Power: 520
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 22951
-    name: '''Pacifier'' Large Remote Armor Repairer'
-    volume: 50.0
   '''Peace'' Large Remote Armor Repairer':
     ArmorDamageAmount: 456
     CapacitorNeed: 234.0
@@ -571,25 +530,6 @@ items:
     marketGroup: 1056
     name: Dark Blood Capital Remote Armor Repairer
     volume: 4000.0
-  Large 'Arup' Remote Armor Repairer:
-    ArmorDamageAmount: 368
-    CapacitorNeed: 252.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.5
-    Hp: 40
-    MaxRange: 8050
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 600
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16453
-    name: Large 'Arup' Remote Armor Repairer
-    volume: 50.0
   Large Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 448
     CapacitorNeed: 330.0
@@ -697,26 +637,6 @@ items:
     marketGroup: 1057
     name: Large Solace Scoped Remote Armor Repairer
     volume: 25.0
-  Medium 'Arup' Remote Armor Repairer:
-    ArmorDamageAmount: 184
-    CapacitorNeed: 118.0
-    Cpu: 17.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0999999046325684
-    Hp: 40
-    MaxRange: 5750
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 120
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16445
-    name: Medium 'Arup' Remote Armor Repairer
-    volume: 10.0
   Medium Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 224
     CapacitorNeed: 155.0
@@ -851,26 +771,6 @@ items:
     marketGroup: 1056
     name: Shadow Serpentis Capital Remote Armor Repairer
     volume: 4000.0
-  Small 'Arup' Remote Armor Repairer:
-    ArmorDamageAmount: 46
-    CapacitorNeed: 29.0
-    Cpu: 8.0
-    Duration: 2500.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.5999999046325684
-    Hp: 40
-    MaxRange: 4600
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 3
-    OverloadSelfDurationBonus: -15.0
-    Power: 6
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    id: 16437
-    name: Small 'Arup' Remote Armor Repairer
-    volume: 5.0
   Small Coaxial Compact Remote Armor Repairer:
     ArmorDamageAmount: 56
     CapacitorNeed: 38.0

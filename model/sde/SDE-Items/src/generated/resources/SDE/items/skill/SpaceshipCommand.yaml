@@ -93,26 +93,6 @@ items:
     marketGroup: 377
     name: Amarr Dreadnought
     volume: 0.01
-  Amarr Force Auxiliary:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3339
-    RequiredSkill2Level: 3
-    RequiredSkill3: 27906
-    RequiredSkill3Level: 1
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillIsObsolete: 1
-    SkillTimeConstant: 14.0
-    id: 40535
-    marketGroup: 377
-    name: Amarr Force Auxiliary
-    volume: 0.01
   Amarr Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -199,15 +179,6 @@ items:
     id: 12095
     marketGroup: 377
     name: Assault Frigates
-    volume: 0.01
-  Battlecruisers:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
-    id: 12099
-    name: Battlecruisers
     volume: 0.01
   Black Ops:
     CanNotBeTrainedOnTrial: 1
@@ -303,26 +274,6 @@ items:
     id: 20530
     marketGroup: 377
     name: Caldari Dreadnought
-    volume: 0.01
-  Caldari Force Auxiliary:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3338
-    RequiredSkill2Level: 3
-    RequiredSkill3: 27906
-    RequiredSkill3Level: 1
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillIsObsolete: 1
-    SkillTimeConstant: 14.0
-    id: 40536
-    marketGroup: 377
-    name: Caldari Force Auxiliary
     volume: 0.01
   Caldari Freighter:
     CanNotBeTrainedOnTrial: 1
@@ -453,17 +404,6 @@ items:
     marketGroup: 377
     name: Command Ships
     volume: 0.01
-  Concord:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 9955
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
-    id: 10264
-    name: Concord
-    volume: 0.01
   Covert Ops:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 168
@@ -476,15 +416,6 @@ items:
     id: 12093
     marketGroup: 377
     name: Covert Ops
-    volume: 0.01
-  Destroyers:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    id: 12097
-    name: Destroyers
     volume: 0.01
   Electronic Attack Ships:
     CanNotBeTrainedOnTrial: 1
@@ -623,26 +554,6 @@ items:
     id: 20531
     marketGroup: 377
     name: Gallente Dreadnought
-    volume: 0.01
-  Gallente Force Auxiliary:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3336
-    RequiredSkill2Level: 3
-    RequiredSkill3: 27906
-    RequiredSkill3Level: 1
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillIsObsolete: 1
-    SkillTimeConstant: 14.0
-    id: 40537
-    marketGroup: 377
-    name: Gallente Force Auxiliary
     volume: 0.01
   Gallente Freighter:
     CanNotBeTrainedOnTrial: 1
@@ -790,48 +701,6 @@ items:
     id: 12098
     marketGroup: 377
     name: Interdictors
-    volume: 0.01
-  Jove Battleship:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3758
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
-    id: 11078
-    name: Jove Battleship
-    volume: 0.01
-  Jove Cruiser:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3330
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
-    id: 3758
-    name: Jove Cruiser
-    volume: 0.01
-  Jove Frigate:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
-    id: 3755
-    name: Jove Frigate
-    volume: 0.01
-  Jove Industrial:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3755
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
-    id: 11075
-    name: Jove Industrial
     volume: 0.01
   Jump Freighters:
     CanNotBeTrainedOnTrial: 1
@@ -996,26 +865,6 @@ items:
     marketGroup: 377
     name: Minmatar Dreadnought
     volume: 0.01
-  Minmatar Force Auxiliary:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3337
-    RequiredSkill2Level: 3
-    RequiredSkill3: 27906
-    RequiredSkill3Level: 1
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillIsObsolete: 1
-    SkillTimeConstant: 14.0
-    id: 40538
-    marketGroup: 377
-    name: Minmatar Force Auxiliary
-    volume: 0.01
   Minmatar Freighter:
     CanNotBeTrainedOnTrial: 1
     PrimaryAttribute: 167
@@ -1111,28 +960,6 @@ items:
     id: 3184
     marketGroup: 377
     name: ORE Industrial
-    volume: 0.01
-  Omnipotent:
-    PrimaryAttribute: 167
-    RequiredSkill1: 19430
-    RequiredSkill1Level: 5
-    RequiredSkill2: 9955
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 42.0
-    id: 19430
-    name: Omnipotent
-    volume: 0.01
-  Polaris:
-    PrimaryAttribute: 167
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 9955
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 0.5
-    id: 9955
-    name: Polaris
     volume: 0.01
   Precursor Battleship:
     PrimaryAttribute: 167

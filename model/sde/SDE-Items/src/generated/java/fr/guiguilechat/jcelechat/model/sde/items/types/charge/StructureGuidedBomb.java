@@ -70,13 +70,6 @@ public class StructureGuidedBomb
     @DefaultIntValue(0)
     public int EmpFieldRange;
     /**
-     * An amount to modify the power of the target by.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int EnergyNeutralizerAmount;
-    /**
      * The amount of milliseconds before the object explodes.
      */
     @HighIsGood(true)
@@ -125,13 +118,6 @@ public class StructureGuidedBomb
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double MaxVelocity;
-    /**
-     * Attribute ID of the resistance type v's this Ewar module.
-     */
-    @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int RemoteResistanceID;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
@@ -191,10 +177,6 @@ public class StructureGuidedBomb
             {
                 return EmpFieldRange;
             }
-            case  97 :
-            {
-                return EnergyNeutralizerAmount;
-            }
             case  281 :
             {
                 return ExplosionDelay;
@@ -222,10 +204,6 @@ public class StructureGuidedBomb
             case  37 :
             {
                 return MaxVelocity;
-            }
-            case  2138 :
-            {
-                return RemoteResistanceID;
             }
             case  2334 :
             {
