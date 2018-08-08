@@ -404,8 +404,33 @@ items:
     marketGroup: 2449
     name: Unstable X-Large Shield Booster Mutaplasmid
     volume: 1.0
-  unnamed_gid0_sid0:
+  unnamed_g1964_ic21988:
+    id: 48424
+    marketGroup: 2455
+    name: unnamed_g1964_ic21988
+    volume: 1.0
+  unnamed_g1964_ic21999:
+    id: 48425
+    marketGroup: 2455
+    name: unnamed_g1964_ic21999
+    volume: 1.0
+  unnamed_g1964_ic22010:
+    id: 48426
+    marketGroup: 2455
+    name: unnamed_g1964_ic22010
+    volume: 1.0
+  unnamed_g1964_ic22029:
+    id: 48436
+    marketGroup: 2455
+    name: unnamed_g1964_ic22029
+    volume: 1.0
+  unnamed_g1964_ic22030:
+    id: 48437
+    marketGroup: 2455
+    name: unnamed_g1964_ic22030
+    volume: 1.0
+  unnamed_g1964_ic22031:
     id: 48438
     marketGroup: 2455
-    name: unnamed_gid0_sid0
+    name: unnamed_g1964_ic22031
     volume: 1.0

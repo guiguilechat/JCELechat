@@ -102,7 +102,7 @@ public class EtypeIDs {
 			ret = description.get("en");
 		}
 		if (ret == null) {
-			ret = "unnamed_gid" + graphicID + "_sid" + soundID;
+			ret = "unnamed_g" + groupID + "_ic" + iconID;
 		}
 		return ret;
 	}

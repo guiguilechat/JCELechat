@@ -79,9 +79,30 @@ public class CachedHistory {
 		return dailyVolume;
 	}
 
+	private SimpleDoubleProperty weeklyAverage = new SimpleDoubleProperty();
+
+	public ObservableDoubleValue weeklyAverage() {
+		return weeklyAverage;
+	}
+
+	private SimpleLongProperty weeklyVolume = new SimpleLongProperty();
+
+	public ObservableLongValue weeklyVolume() {
+		return weeklyVolume;
+	}
+
 	protected void updateAggregates() {
 		R_get_markets_region_id_history daily = cache.get(0);
 		dailyAverage.set(daily.average);
 		dailyVolume.set(daily.volume);
+		int volume = 0;
+		double isks = 0.0;
+		for (int i = 0; i < 7 && i < cache.size(); i++) {
+			R_get_markets_region_id_history orders = cache.get(i);
+			volume += orders.volume;
+			isks += orders.volume * orders.average;
+		}
+		weeklyVolume.set(volume);
+		weeklyAverage.set(isks / volume);
 	}
 }

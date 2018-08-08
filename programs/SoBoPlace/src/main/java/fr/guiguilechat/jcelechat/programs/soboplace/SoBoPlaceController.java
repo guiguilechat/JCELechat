@@ -1,11 +1,11 @@
-package fr.guiguilechat.jcelechat.programs.oreworth;
+package fr.guiguilechat.jcelechat.programs.soboplace;
 
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
-import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
-import fr.guiguilechat.jcelechat.model.sde.items.attributes.CompressionQuantityNeeded;
-import fr.guiguilechat.jcelechat.model.sde.items.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import javafx.beans.binding.Bindings;
+import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.Property;
 import javafx.beans.property.ReadOnlyObjectWrapper;
@@ -20,25 +20,28 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.util.StringConverter;
 
-public class OreWorthController {
+public class SoBoPlaceController {
 
 	@FXML
 	private ChoiceBox<Region> regionSelect;
 
 	@FXML
-	private TableView<Asteroid> table;
+	private TableView<Item> table;
 
 	@FXML
-	private TableColumn<Asteroid, String> orename;
+	private TableColumn<Item, String> itemname;
 
 	@FXML
-	private TableColumn<Asteroid, Double> oreso;
+	private TableColumn<Item, Double> itemDayVol;
 
 	@FXML
-	private TableColumn<Asteroid, Double> oreavg;
+	private TableColumn<Item, Double> itemDayGain;
 
 	@FXML
-	private TableColumn<Asteroid, Double> orebo;
+	private TableColumn<Item, Double> itemWeekVol;
+
+	@FXML
+	private TableColumn<Item, Double> itemWeekGain;
 
 	private Property<RegionalMarket> marketHolder = new SimpleObjectProperty<>();
 
@@ -58,13 +61,15 @@ public class OreWorthController {
 		regionSelect.getSelectionModel().selectedItemProperty().addListener(this::changeRegion);
 
 		// make the columns access
-		orename.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().name));
+		itemname.setCellValueFactory(cell -> new ReadOnlyObjectWrapper<>(cell.getValue().name));
 
-		oreso.setCellValueFactory(cell -> getItemSO(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		itemDayVol.setCellValueFactory(cell -> getItemDailyVol(cell.getValue().id).asObject());
 
-		orebo.setCellValueFactory(cell -> getItemBO(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		itemDayGain.setCellValueFactory(cell -> getItemDailyGain(cell.getValue().id).asObject());
 
-		oreavg.setCellValueFactory(cell -> getItemAVG(cell.getValue().id).divide(mineVolume(cell.getValue())).asObject());
+		itemWeekVol.setCellValueFactory(cell -> getItemWeeklyVol(cell.getValue().id).asObject());
+
+		itemWeekGain.setCellValueFactory(cell -> getItemWeeklyGain(cell.getValue().id).asObject());
 
 		table.setItems(FXCollections.observableArrayList());
 
@@ -74,7 +79,8 @@ public class OreWorthController {
 
 	protected void load() {
 		regionSelect.setItems(FXCollections.observableArrayList(Region.load().values()));
-		Asteroid.loadCategory().values().stream().filter(a -> a.AsteroidMetaLevel != 0)
+		fr.guiguilechat.jcelechat.model.sde.items.types.Module.loadCategory().values().stream()
+		.filter(a -> a.marketGroup != 0)
 		.forEachOrdered(table.getItems()::add);
 	}
 
@@ -84,14 +90,6 @@ public class OreWorthController {
 		} else {
 			marketHolder.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
 		}
-	}
-
-	protected double mineVolume(Asteroid ore) {
-		if (ore.name.startsWith("Compressed ")) {
-			Asteroid basic = (Asteroid) MetaInf.getItem(ore.OreBasicType);
-			return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
-		}
-		return ore.volume;
 	}
 
 	protected DoubleProperty getItemSO(int typeID) {
@@ -110,6 +108,29 @@ public class OreWorthController {
 		return ret;
 	}
 
+	/**
+	 * get the gain when buyingan item at BO, and selling it at BO
+	 *
+	 * @param typeid
+	 * @return
+	 */
+	protected DoubleBinding getItemGain(int typeID) {
+		return getItemSO(typeID).multiply(0.97).subtract(getItemBO(typeID).multiply(1.02));
+	}
+
+	protected DoubleBinding getItemDailyGain(int typeID) {
+		return getItemGain(getItemDailyVol(typeID), getItemGain(typeID));
+	}
+
+	protected DoubleBinding getItemGain(DoubleProperty vol, DoubleBinding gain) {
+		return Bindings.createDoubleBinding(() -> {
+			if (vol.get() == 0 || !Double.isFinite(gain.get())) {
+				return 0.0;
+			}
+			return vol.get() / (20 + vol.get()) * vol.get() * gain.get();
+		}, vol, gain);
+	}
+
 	protected DoubleProperty getItemBO(int typeID) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		synchronized (marketHolder) {
@@ -126,7 +147,7 @@ public class OreWorthController {
 		return ret;
 	}
 
-	protected DoubleProperty getItemAVG(int typeID) {
+	protected DoubleProperty getItemDailyAVG(int typeID) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		synchronized (marketHolder) {
 			if (marketHolder.getValue() != null) {
@@ -140,6 +161,42 @@ public class OreWorthController {
 			});
 		}
 		return ret;
+	}
+
+	protected DoubleProperty getItemDailyVol(int typeID) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		synchronized (marketHolder) {
+			if (marketHolder.getValue() != null) {
+				ret.bind(marketHolder.getValue().getHistory(typeID).dailyVolume());
+			}
+			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
+				ret.unbind();
+				if (newValue != null) {
+					ret.bind(newValue.getHistory(typeID).dailyVolume());
+				}
+			});
+		}
+		return ret;
+	}
+
+	protected DoubleProperty getItemWeeklyVol(int typeID) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		synchronized (marketHolder) {
+			if (marketHolder.getValue() != null) {
+				ret.bind(marketHolder.getValue().getHistory(typeID).weeklyVolume());
+			}
+			marketHolder.addListener((ChangeListener<RegionalMarket>) (observable, oldValue, newValue) -> {
+				ret.unbind();
+				if (newValue != null) {
+					ret.bind(newValue.getHistory(typeID).weeklyVolume());
+				}
+			});
+		}
+		return ret;
+	}
+
+	protected DoubleBinding getItemWeeklyGain(int typeID) {
+		return getItemGain(getItemWeeklyVol(typeID), getItemGain(typeID));
 	}
 
 }

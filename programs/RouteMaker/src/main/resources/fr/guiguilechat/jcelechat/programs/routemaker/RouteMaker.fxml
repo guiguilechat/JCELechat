@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<fx:root type="BorderPane" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="fr.guiguilechat.jcelechat.programs.routemaker.RouteMakerController">
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ChoiceBox fx:id="fromregion" prefWidth="150.0" />
+                  <ChoiceBox fx:id="fromsystem" prefWidth="150.0" />
+               </children>
+            </HBox>
+            <ChoiceBox prefWidth="150.0" />
+         </children>
+      </VBox>
+   </top>
+</fx:root>

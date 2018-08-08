@@ -1169,9 +1169,51 @@ items:
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Bioadaptive)
     volume: 0.1
-  unnamed_gid0_sid0:
+  unnamed_g1088_ic22021:
+    Gender: 2
+    id: 48386
+    marketGroup: 1405
+    name: unnamed_g1088_ic22021
+    volume: 0.1
+  unnamed_g1088_ic22022:
+    Gender: 2
+    id: 48380
+    marketGroup: 1405
+    name: unnamed_g1088_ic22022
+    volume: 0.1
+  unnamed_g1088_ic22023:
+    Gender: 2
+    id: 48381
+    marketGroup: 1405
+    name: unnamed_g1088_ic22023
+    volume: 0.1
+  unnamed_g1088_ic22024:
+    Gender: 2
+    id: 48382
+    marketGroup: 1405
+    name: unnamed_g1088_ic22024
+    volume: 0.1
+  unnamed_g1088_ic22025:
+    Gender: 2
+    id: 48383
+    marketGroup: 1399
+    name: unnamed_g1088_ic22025
+    volume: 0.1
+  unnamed_g1088_ic22026:
+    Gender: 2
+    id: 48384
+    marketGroup: 1399
+    name: unnamed_g1088_ic22026
+    volume: 0.1
+  unnamed_g1088_ic22027:
+    Gender: 2
+    id: 48385
+    marketGroup: 1399
+    name: unnamed_g1088_ic22027
+    volume: 0.1
+  unnamed_g1088_ic22028:
     Gender: 2
     id: 48387
     marketGroup: 1399
-    name: unnamed_gid0_sid0
+    name: unnamed_g1088_ic22028
     volume: 0.1

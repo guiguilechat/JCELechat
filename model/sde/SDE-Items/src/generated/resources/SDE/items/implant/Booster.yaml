@@ -931,7 +931,7 @@ items:
     marketGroup: 2494
     name: Synth X-Instinct Booster
     volume: 1.0
-  unnamed_gid0_sid0:
+  unnamed_g303_ic10144:
     BoosterDuration: 86400000
     Boosterness: 10
     CharismaBonus: 10
@@ -945,5 +945,5 @@ items:
     WillpowerBonus: 10
     id: 48582
     marketGroup: 2487
-    name: unnamed_gid0_sid0
+    name: unnamed_g303_ic10144
     volume: 1.0

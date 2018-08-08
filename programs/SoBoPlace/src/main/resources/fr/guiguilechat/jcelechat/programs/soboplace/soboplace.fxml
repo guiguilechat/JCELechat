@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minHeight="800.0" minWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.guiguilechat.jcelechat.programs.soboplace.SoBoPlaceController">
+   <top>
+      <ChoiceBox fx:id="regionSelect" minWidth="-Infinity" BorderPane.alignment="TOP_CENTER" />
+   </top>
+   <center>
+      <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="itemname" editable="false" prefWidth="75.0" sortType="DESCENDING" text="item" />
+            <TableColumn fx:id="itemDayVol" prefWidth="75.0" text="daily volume" />
+            <TableColumn fx:id="itemDayGain" prefWidth="75.0" text="daily gain" />
+            <TableColumn fx:id="itemWeekVol" prefWidth="75.0" text="weekly volume" />
+            <TableColumn fx:id="itemWeekGain" prefWidth="75.0" text="weekly gain" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+</BorderPane>

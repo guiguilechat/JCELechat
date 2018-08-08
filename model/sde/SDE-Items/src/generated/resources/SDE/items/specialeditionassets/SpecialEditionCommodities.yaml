@@ -954,9 +954,87 @@ items:
     marketGroup: 1661
     name: '[CNS] Kiirasha Final Broadcast Fragment'
     volume: 3.0
-  unnamed_gid0_sid0:
+  unnamed_g1194_ic1193:
+    CpuMultiplier: 1.0
+    id: 48586
+    marketGroup: 1661
+    name: unnamed_g1194_ic1193
+    volume: 1.0
+  unnamed_g1194_ic2100:
     CpuMultiplier: 1.0
     id: 48593
     marketGroup: 1661
-    name: unnamed_gid0_sid0
+    name: unnamed_g1194_ic2100
+    volume: 1.0
+  unnamed_g1194_ic21000:
+    CpuMultiplier: 1.0
+    id: 48591
+    marketGroup: 1661
+    name: unnamed_g1194_ic21000
+    volume: 1.0
+  unnamed_g1194_ic21060:
+    CpuMultiplier: 1.0
+    id: 48584
+    marketGroup: 1661
+    name: unnamed_g1194_ic21060
+    volume: 0.1
+  unnamed_g1194_ic21620:
+    CpuMultiplier: 1.0
+    id: 48534
+    marketGroup: 1661
+    name: unnamed_g1194_ic21620
+    volume: 10000.0
+  unnamed_g1194_ic21621:
+    CpuMultiplier: 1.0
+    id: 48535
+    marketGroup: 1661
+    name: unnamed_g1194_ic21621
+    volume: 10000.0
+  unnamed_g1194_ic21622:
+    CpuMultiplier: 1.0
+    id: 48536
+    marketGroup: 1661
+    name: unnamed_g1194_ic21622
+    volume: 10000.0
+  unnamed_g1194_ic21833:
+    CpuMultiplier: 1.0
+    id: 48533
+    marketGroup: 1661
+    name: unnamed_g1194_ic21833
+    volume: 10000.0
+  unnamed_g1194_ic21843:
+    CpuMultiplier: 1.0
+    id: 48592
+    marketGroup: 1661
+    name: unnamed_g1194_ic21843
+    volume: 0.1
+  unnamed_g1194_ic22034:
+    CpuMultiplier: 1.0
+    id: 48587
+    marketGroup: 1661
+    name: unnamed_g1194_ic22034
+    volume: 1.0
+  unnamed_g1194_ic22036:
+    CpuMultiplier: 1.0
+    id: 48585
+    marketGroup: 1661
+    name: unnamed_g1194_ic22036
+    volume: 1.0
+  unnamed_g1194_ic22041:
+    CpuMultiplier: 1.0
+    id: 48588
+    marketGroup: 1661
+    name: unnamed_g1194_ic22041
+    volume: 1.0
+  unnamed_g1194_ic3435:
+    CpuMultiplier: 1.0
+    id: 48590
+    marketGroup: 1661
+    name: unnamed_g1194_ic3435
+    volume: 1.0
+  unnamed_g1194_ic3441:
+    CpuMultiplier: 1.0
+    id: 48589
+    marketGroup: 1661
+    name: unnamed_g1194_ic3441
     volume: 1.0

@@ -21,6 +21,8 @@
   	<module>GUIV2</module>
   	<module>GUIMutaplasmids</module>
   	<module>OreWorth</module>
+  	<module>SoBoPlace</module>
+  	<module>RouteMaker</module>
   </modules>
   <dependencies>
   	<dependency>
