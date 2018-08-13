@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -232,7 +234,7 @@ public class SensorDampeningBattery
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
-    private static LinkedHashMap<String, SensorDampeningBattery> cache = (null);
+    private static Map<String, SensorDampeningBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -374,7 +376,7 @@ public class SensorDampeningBattery
         return SensorDampeningBattery.class;
     }
 
-    public static synchronized LinkedHashMap<String, SensorDampeningBattery> load() {
+    public static synchronized Map<String, SensorDampeningBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorDampeningBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -382,7 +384,7 @@ public class SensorDampeningBattery
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

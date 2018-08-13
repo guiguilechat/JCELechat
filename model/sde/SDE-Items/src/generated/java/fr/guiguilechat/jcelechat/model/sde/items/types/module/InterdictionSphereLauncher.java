@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -147,7 +149,7 @@ public class InterdictionSphereLauncher
     @DefaultIntValue(0)
     public int Speed;
     public final static String RESOURCE_PATH = "SDE/items/module/InterdictionSphereLauncher.yaml";
-    private static LinkedHashMap<String, InterdictionSphereLauncher> cache = (null);
+    private static Map<String, InterdictionSphereLauncher> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -245,7 +247,7 @@ public class InterdictionSphereLauncher
         return InterdictionSphereLauncher.class;
     }
 
-    public static synchronized LinkedHashMap<String, InterdictionSphereLauncher> load() {
+    public static synchronized Map<String, InterdictionSphereLauncher> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InterdictionSphereLauncher.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -253,7 +255,7 @@ public class InterdictionSphereLauncher
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

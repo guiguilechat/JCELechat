@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -71,7 +73,7 @@ public class ShieldFluxCoil
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldFluxCoil.yaml";
-    private static LinkedHashMap<String, ShieldFluxCoil> cache = (null);
+    private static Map<String, ShieldFluxCoil> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -121,7 +123,7 @@ public class ShieldFluxCoil
         return ShieldFluxCoil.class;
     }
 
-    public static synchronized LinkedHashMap<String, ShieldFluxCoil> load() {
+    public static synchronized Map<String, ShieldFluxCoil> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldFluxCoil.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -129,7 +131,7 @@ public class ShieldFluxCoil
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -274,7 +276,7 @@ public class MobileLaserSentry
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/MobileLaserSentry.yaml";
-    private static LinkedHashMap<String, MobileLaserSentry> cache = (null);
+    private static Map<String, MobileLaserSentry> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -440,7 +442,7 @@ public class MobileLaserSentry
         return MobileLaserSentry.class;
     }
 
-    public static synchronized LinkedHashMap<String, MobileLaserSentry> load() {
+    public static synchronized Map<String, MobileLaserSentry> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileLaserSentry.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -448,7 +450,7 @@ public class MobileLaserSentry
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

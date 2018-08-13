@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -21,7 +23,7 @@ public class SupportFighterBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/SupportFighterBlueprint.yaml";
-    private static LinkedHashMap<String, SupportFighterBlueprint> cache = (null);
+    private static Map<String, SupportFighterBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -47,7 +49,7 @@ public class SupportFighterBlueprint
         return SupportFighterBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, SupportFighterBlueprint> load() {
+    public static synchronized Map<String, SupportFighterBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SupportFighterBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -55,7 +57,7 @@ public class SupportFighterBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

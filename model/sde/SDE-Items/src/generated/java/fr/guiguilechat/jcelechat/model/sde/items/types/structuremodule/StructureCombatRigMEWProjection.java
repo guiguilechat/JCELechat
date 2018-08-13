@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -134,7 +136,7 @@ public class StructureCombatRigMEWProjection
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWProjection.yaml";
-    private static LinkedHashMap<String, StructureCombatRigMEWProjection> cache = (null);
+    private static Map<String, StructureCombatRigMEWProjection> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -224,7 +226,7 @@ public class StructureCombatRigMEWProjection
         return StructureCombatRigMEWProjection.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureCombatRigMEWProjection> load() {
+    public static synchronized Map<String, StructureCombatRigMEWProjection> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMEWProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -232,7 +234,7 @@ public class StructureCombatRigMEWProjection
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

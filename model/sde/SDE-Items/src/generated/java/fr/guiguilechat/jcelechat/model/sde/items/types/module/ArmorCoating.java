@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -92,7 +94,7 @@ public class ArmorCoating
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorCoating.yaml";
-    private static LinkedHashMap<String, ArmorCoating> cache = (null);
+    private static Map<String, ArmorCoating> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -154,7 +156,7 @@ public class ArmorCoating
         return ArmorCoating.class;
     }
 
-    public static synchronized LinkedHashMap<String, ArmorCoating> load() {
+    public static synchronized Map<String, ArmorCoating> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorCoating.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -162,7 +164,7 @@ public class ArmorCoating
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

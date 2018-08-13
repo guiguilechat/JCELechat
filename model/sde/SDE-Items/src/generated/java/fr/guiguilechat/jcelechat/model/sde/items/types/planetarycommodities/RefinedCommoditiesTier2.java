@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetarycommodities;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.PlanetaryCommodities;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class RefinedCommoditiesTier2
     extends PlanetaryCommodities
 {
     public final static String RESOURCE_PATH = "SDE/items/planetarycommodities/RefinedCommoditiesTier2.yaml";
-    private static LinkedHashMap<String, RefinedCommoditiesTier2> cache = (null);
+    private static Map<String, RefinedCommoditiesTier2> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class RefinedCommoditiesTier2
         return RefinedCommoditiesTier2 .class;
     }
 
-    public static synchronized LinkedHashMap<String, RefinedCommoditiesTier2> load() {
+    public static synchronized Map<String, RefinedCommoditiesTier2> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RefinedCommoditiesTier2 .class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class RefinedCommoditiesTier2
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

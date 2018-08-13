@@ -4,6 +4,7 @@ import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.tools.PriceCellFactory;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.DoubleBinding;
 import javafx.beans.property.DoubleProperty;
@@ -66,10 +67,12 @@ public class SoBoPlaceController {
 		itemDayVol.setCellValueFactory(cell -> getItemDailyVol(cell.getValue().id).asObject());
 
 		itemDayGain.setCellValueFactory(cell -> getItemDailyGain(cell.getValue().id).asObject());
+		itemDayGain.setCellFactory(PriceCellFactory::create);
 
 		itemWeekVol.setCellValueFactory(cell -> getItemWeeklyVol(cell.getValue().id).asObject());
 
 		itemWeekGain.setCellValueFactory(cell -> getItemWeeklyGain(cell.getValue().id).asObject());
+		itemWeekGain.setCellFactory(PriceCellFactory::create);
 
 		table.setItems(FXCollections.observableArrayList());
 

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -175,7 +177,7 @@ public class DefensiveSystems
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/DefensiveSystems.yaml";
-    private static LinkedHashMap<String, DefensiveSystems> cache = (null);
+    private static Map<String, DefensiveSystems> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -289,7 +291,7 @@ public class DefensiveSystems
         return DefensiveSystems.class;
     }
 
-    public static synchronized LinkedHashMap<String, DefensiveSystems> load() {
+    public static synchronized Map<String, DefensiveSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DefensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -297,7 +299,7 @@ public class DefensiveSystems
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

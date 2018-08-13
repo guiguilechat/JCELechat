@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -77,7 +79,7 @@ public class CyberScanning
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberScanning.yaml";
-    private static LinkedHashMap<String, CyberScanning> cache = (null);
+    private static Map<String, CyberScanning> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +137,7 @@ public class CyberScanning
         return CyberScanning.class;
     }
 
-    public static synchronized LinkedHashMap<String, CyberScanning> load() {
+    public static synchronized Map<String, CyberScanning> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberScanning.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -143,7 +145,7 @@ public class CyberScanning
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

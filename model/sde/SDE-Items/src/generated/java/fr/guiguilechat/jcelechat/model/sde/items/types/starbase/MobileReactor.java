@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -84,7 +86,7 @@ public class MobileReactor
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/MobileReactor.yaml";
-    private static LinkedHashMap<String, MobileReactor> cache = (null);
+    private static Map<String, MobileReactor> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +148,7 @@ public class MobileReactor
         return MobileReactor.class;
     }
 
-    public static synchronized LinkedHashMap<String, MobileReactor> load() {
+    public static synchronized Map<String, MobileReactor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileReactor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -154,7 +156,7 @@ public class MobileReactor
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

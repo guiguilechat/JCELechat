@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -127,7 +129,7 @@ public class ShieldHardener
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldHardener.yaml";
-    private static LinkedHashMap<String, ShieldHardener> cache = (null);
+    private static Map<String, ShieldHardener> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -209,7 +211,7 @@ public class ShieldHardener
         return ShieldHardener.class;
     }
 
-    public static synchronized LinkedHashMap<String, ShieldHardener> load() {
+    public static synchronized Map<String, ShieldHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -217,7 +219,7 @@ public class ShieldHardener
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

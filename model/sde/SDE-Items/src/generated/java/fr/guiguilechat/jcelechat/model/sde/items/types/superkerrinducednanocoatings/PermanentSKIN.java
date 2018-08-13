@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.superkerrinducednanocoatings;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.SuperKerrInducedNanocoatings;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class PermanentSKIN
     extends SuperKerrInducedNanocoatings
 {
     public final static String RESOURCE_PATH = "SDE/items/superkerrinducednanocoatings/PermanentSKIN.yaml";
-    private static LinkedHashMap<String, PermanentSKIN> cache = (null);
+    private static Map<String, PermanentSKIN> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class PermanentSKIN
         return PermanentSKIN.class;
     }
 
-    public static synchronized LinkedHashMap<String, PermanentSKIN> load() {
+    public static synchronized Map<String, PermanentSKIN> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PermanentSKIN.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class PermanentSKIN
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

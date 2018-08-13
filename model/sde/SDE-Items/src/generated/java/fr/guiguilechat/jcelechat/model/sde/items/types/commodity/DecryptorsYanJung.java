@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -41,7 +43,7 @@ public class DecryptorsYanJung
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsYanJung.yaml";
-    private static LinkedHashMap<String, DecryptorsYanJung> cache = (null);
+    private static Map<String, DecryptorsYanJung> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +81,7 @@ public class DecryptorsYanJung
         return DecryptorsYanJung.class;
     }
 
-    public static synchronized LinkedHashMap<String, DecryptorsYanJung> load() {
+    public static synchronized Map<String, DecryptorsYanJung> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DecryptorsYanJung.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -87,7 +89,7 @@ public class DecryptorsYanJung
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

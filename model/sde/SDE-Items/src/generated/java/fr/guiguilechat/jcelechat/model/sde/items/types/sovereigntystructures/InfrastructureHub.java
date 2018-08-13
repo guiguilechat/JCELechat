@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.sovereigntystructures;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class InfrastructureHub
     @DefaultIntValue(100000)
     public int PlanetAnchorDistance;
     public final static String RESOURCE_PATH = "SDE/items/sovereigntystructures/InfrastructureHub.yaml";
-    private static LinkedHashMap<String, InfrastructureHub> cache = (null);
+    private static Map<String, InfrastructureHub> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class InfrastructureHub
         return InfrastructureHub.class;
     }
 
-    public static synchronized LinkedHashMap<String, InfrastructureHub> load() {
+    public static synchronized Map<String, InfrastructureHub> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InfrastructureHub.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class InfrastructureHub
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

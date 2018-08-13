@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -233,7 +235,7 @@ public class OutpostConversionRigs
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/OutpostConversionRigs.yaml";
-    private static LinkedHashMap<String, OutpostConversionRigs> cache = (null);
+    private static Map<String, OutpostConversionRigs> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -375,7 +377,7 @@ public class OutpostConversionRigs
         return OutpostConversionRigs.class;
     }
 
-    public static synchronized LinkedHashMap<String, OutpostConversionRigs> load() {
+    public static synchronized Map<String, OutpostConversionRigs> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OutpostConversionRigs.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -383,7 +385,7 @@ public class OutpostConversionRigs
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

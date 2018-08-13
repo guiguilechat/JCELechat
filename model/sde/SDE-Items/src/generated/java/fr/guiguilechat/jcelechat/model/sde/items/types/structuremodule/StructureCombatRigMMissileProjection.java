@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -127,7 +129,7 @@ public class StructureCombatRigMMissileProjection
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileProjection.yaml";
-    private static LinkedHashMap<String, StructureCombatRigMMissileProjection> cache = (null);
+    private static Map<String, StructureCombatRigMMissileProjection> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -213,7 +215,7 @@ public class StructureCombatRigMMissileProjection
         return StructureCombatRigMMissileProjection.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureCombatRigMMissileProjection> load() {
+    public static synchronized Map<String, StructureCombatRigMMissileProjection> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCombatRigMMissileProjection.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -221,7 +223,7 @@ public class StructureCombatRigMMissileProjection
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -162,7 +164,7 @@ public class RemoteTrackingComputer
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/RemoteTrackingComputer.yaml";
-    private static LinkedHashMap<String, RemoteTrackingComputer> cache = (null);
+    private static Map<String, RemoteTrackingComputer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -264,7 +266,7 @@ public class RemoteTrackingComputer
         return RemoteTrackingComputer.class;
     }
 
-    public static synchronized LinkedHashMap<String, RemoteTrackingComputer> load() {
+    public static synchronized Map<String, RemoteTrackingComputer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteTrackingComputer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -272,7 +274,7 @@ public class RemoteTrackingComputer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

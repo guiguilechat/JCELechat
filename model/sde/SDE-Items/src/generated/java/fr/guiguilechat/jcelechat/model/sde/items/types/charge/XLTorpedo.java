@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -199,7 +201,7 @@ public class XLTorpedo
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/XLTorpedo.yaml";
-    private static LinkedHashMap<String, XLTorpedo> cache = (null);
+    private static Map<String, XLTorpedo> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -321,7 +323,7 @@ public class XLTorpedo
         return XLTorpedo.class;
     }
 
-    public static synchronized LinkedHashMap<String, XLTorpedo> load() {
+    public static synchronized Map<String, XLTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(XLTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -329,7 +331,7 @@ public class XLTorpedo
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

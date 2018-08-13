@@ -17,10 +17,16 @@
 		<repository>
 			<id>kimsufi-stable</id>
 			<url>http://91.121.120.36/maven/stable</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
 		</repository>
 		<repository>
 			<id>kimsufi-snapshots</id>
 			<url>http://91.121.120.36/maven/snapshot/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 	<distributionManagement>
@@ -66,7 +72,8 @@
 				<configuration>
 					<release>${java.version}</release>
 					<compilerArgs>
-						<arg>--add-modules</arg><arg>javafx.graphics,jdk.incubator.httpclient</arg>
+						<arg>--add-modules</arg>
+						<arg>javafx.graphics,jdk.incubator.httpclient</arg>
 					</compilerArgs>
 				</configuration>
 			</plugin>

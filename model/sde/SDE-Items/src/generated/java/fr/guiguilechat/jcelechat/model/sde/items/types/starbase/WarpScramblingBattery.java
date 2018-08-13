@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -225,7 +227,7 @@ public class WarpScramblingBattery
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
     public final static String RESOURCE_PATH = "SDE/items/starbase/WarpScramblingBattery.yaml";
-    private static LinkedHashMap<String, WarpScramblingBattery> cache = (null);
+    private static Map<String, WarpScramblingBattery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -363,7 +365,7 @@ public class WarpScramblingBattery
         return WarpScramblingBattery.class;
     }
 
-    public static synchronized LinkedHashMap<String, WarpScramblingBattery> load() {
+    public static synchronized Map<String, WarpScramblingBattery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpScramblingBattery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -371,7 +373,7 @@ public class WarpScramblingBattery
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

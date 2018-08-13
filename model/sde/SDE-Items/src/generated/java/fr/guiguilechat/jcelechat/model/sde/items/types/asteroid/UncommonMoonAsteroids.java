@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class UncommonMoonAsteroids
     @DefaultIntValue(16255)
     public int AsteroidMaxRadius;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/UncommonMoonAsteroids.yaml";
-    private static LinkedHashMap<String, UncommonMoonAsteroids> cache = (null);
+    private static Map<String, UncommonMoonAsteroids> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class UncommonMoonAsteroids
         return UncommonMoonAsteroids.class;
     }
 
-    public static synchronized LinkedHashMap<String, UncommonMoonAsteroids> load() {
+    public static synchronized Map<String, UncommonMoonAsteroids> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(UncommonMoonAsteroids.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class UncommonMoonAsteroids
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

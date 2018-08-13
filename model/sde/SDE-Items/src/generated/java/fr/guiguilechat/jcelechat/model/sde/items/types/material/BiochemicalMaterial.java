@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class BiochemicalMaterial
     @DefaultIntValue(1)
     public int MoonMiningAmount;
     public final static String RESOURCE_PATH = "SDE/items/material/BiochemicalMaterial.yaml";
-    private static LinkedHashMap<String, BiochemicalMaterial> cache = (null);
+    private static Map<String, BiochemicalMaterial> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class BiochemicalMaterial
         return BiochemicalMaterial.class;
     }
 
-    public static synchronized LinkedHashMap<String, BiochemicalMaterial> load() {
+    public static synchronized Map<String, BiochemicalMaterial> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BiochemicalMaterial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class BiochemicalMaterial
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

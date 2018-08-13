@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -104,7 +106,7 @@ public class ArmorCommandBurstCharges
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
     public final static String RESOURCE_PATH = "SDE/items/charge/ArmorCommandBurstCharges.yaml";
-    private static LinkedHashMap<String, ArmorCommandBurstCharges> cache = (null);
+    private static Map<String, ArmorCommandBurstCharges> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -178,7 +180,7 @@ public class ArmorCommandBurstCharges
         return ArmorCommandBurstCharges.class;
     }
 
-    public static synchronized LinkedHashMap<String, ArmorCommandBurstCharges> load() {
+    public static synchronized Map<String, ArmorCommandBurstCharges> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorCommandBurstCharges.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -186,7 +188,7 @@ public class ArmorCommandBurstCharges
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

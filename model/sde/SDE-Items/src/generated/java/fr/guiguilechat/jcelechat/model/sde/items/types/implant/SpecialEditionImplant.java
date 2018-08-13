@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -141,7 +143,7 @@ public class SpecialEditionImplant
     @DefaultIntValue(0)
     public int WillpowerBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/SpecialEditionImplant.yaml";
-    private static LinkedHashMap<String, SpecialEditionImplant> cache = (null);
+    private static Map<String, SpecialEditionImplant> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -235,7 +237,7 @@ public class SpecialEditionImplant
         return SpecialEditionImplant.class;
     }
 
-    public static synchronized LinkedHashMap<String, SpecialEditionImplant> load() {
+    public static synchronized Map<String, SpecialEditionImplant> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SpecialEditionImplant.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -243,7 +245,7 @@ public class SpecialEditionImplant
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

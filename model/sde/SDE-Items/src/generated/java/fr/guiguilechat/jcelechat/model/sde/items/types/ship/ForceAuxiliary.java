@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -519,7 +521,7 @@ public class ForceAuxiliary
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
     public final static String RESOURCE_PATH = "SDE/items/ship/ForceAuxiliary.yaml";
-    private static LinkedHashMap<String, ForceAuxiliary> cache = (null);
+    private static Map<String, ForceAuxiliary> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -825,7 +827,7 @@ public class ForceAuxiliary
         return ForceAuxiliary.class;
     }
 
-    public static synchronized LinkedHashMap<String, ForceAuxiliary> load() {
+    public static synchronized Map<String, ForceAuxiliary> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ForceAuxiliary.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -833,7 +835,7 @@ public class ForceAuxiliary
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

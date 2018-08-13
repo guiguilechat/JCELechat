@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class ConstructionComponentBlueprints
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ConstructionComponentBlueprints.yaml";
-    private static LinkedHashMap<String, ConstructionComponentBlueprints> cache = (null);
+    private static Map<String, ConstructionComponentBlueprints> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class ConstructionComponentBlueprints
         return ConstructionComponentBlueprints.class;
     }
 
-    public static synchronized LinkedHashMap<String, ConstructionComponentBlueprints> load() {
+    public static synchronized Map<String, ConstructionComponentBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ConstructionComponentBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class ConstructionComponentBlueprints
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

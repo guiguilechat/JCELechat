@@ -91,11 +91,23 @@ public class CachedHistory {
 		return weeklyVolume;
 	}
 
+	private SimpleDoubleProperty monthlyAverage = new SimpleDoubleProperty();
+
+	public ObservableDoubleValue monthlyAverage() {
+		return monthlyAverage;
+	}
+
+	private SimpleLongProperty monthlyVolume = new SimpleLongProperty();
+
+	public ObservableLongValue monthlyVolume() {
+		return monthlyVolume;
+	}
+
 	protected void updateAggregates() {
 		R_get_markets_region_id_history daily = cache.get(0);
 		dailyAverage.set(daily.average);
 		dailyVolume.set(daily.volume);
-		int volume = 0;
+		long volume = 0;
 		double isks = 0.0;
 		for (int i = 0; i < 7 && i < cache.size(); i++) {
 			R_get_markets_region_id_history orders = cache.get(i);
@@ -104,5 +116,17 @@ public class CachedHistory {
 		}
 		weeklyVolume.set(volume);
 		weeklyAverage.set(isks / volume);
+		for (int i = 7; i < 30 && i < cache.size(); i++) {
+			R_get_markets_region_id_history orders = cache.get(i);
+			volume += orders.volume;
+			isks += orders.volume * orders.average;
+		}
+		monthlyVolume.set(volume);
+		monthlyAverage.set(isks / volume);
+		// System.err.println("aggregated for " + typeID + " : day=" +
+		// dailyVolume.get() + "*" + dailyAverage.get() + " week="
+		// + weeklyVolume.get() + "*" + weeklyAverage.get() + " month=" +
+		// monthlyVolume.get() + "*"
+		// + monthlyAverage.get());
 	}
 }

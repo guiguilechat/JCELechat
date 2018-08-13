@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -77,7 +79,7 @@ public class Laboratory
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
-    private static LinkedHashMap<String, Laboratory> cache = (null);
+    private static Map<String, Laboratory> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +137,7 @@ public class Laboratory
         return Laboratory.class;
     }
 
-    public static synchronized LinkedHashMap<String, Laboratory> load() {
+    public static synchronized Map<String, Laboratory> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Laboratory.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -143,7 +145,7 @@ public class Laboratory
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

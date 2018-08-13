@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -92,7 +94,7 @@ public class ReactorControlUnit
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
-    private static LinkedHashMap<String, ReactorControlUnit> cache = (null);
+    private static Map<String, ReactorControlUnit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -154,7 +156,7 @@ public class ReactorControlUnit
         return ReactorControlUnit.class;
     }
 
-    public static synchronized LinkedHashMap<String, ReactorControlUnit> load() {
+    public static synchronized Map<String, ReactorControlUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ReactorControlUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -162,7 +164,7 @@ public class ReactorControlUnit
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

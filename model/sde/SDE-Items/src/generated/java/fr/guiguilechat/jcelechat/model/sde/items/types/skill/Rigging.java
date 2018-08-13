@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class Rigging
     @DefaultIntValue(10)
     public int RigDrawbackBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Rigging.yaml";
-    private static LinkedHashMap<String, Rigging> cache = (null);
+    private static Map<String, Rigging> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class Rigging
         return Rigging.class;
     }
 
-    public static synchronized LinkedHashMap<String, Rigging> load() {
+    public static synchronized Map<String, Rigging> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Rigging.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class Rigging
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

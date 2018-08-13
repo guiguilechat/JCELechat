@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -63,7 +65,7 @@ public class TrackingDisruptionScript
     @DefaultIntValue(0)
     public int TrackingSpeedBonusBonus;
     public final static String RESOURCE_PATH = "SDE/items/charge/TrackingDisruptionScript.yaml";
-    private static LinkedHashMap<String, TrackingDisruptionScript> cache = (null);
+    private static Map<String, TrackingDisruptionScript> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +115,7 @@ public class TrackingDisruptionScript
         return TrackingDisruptionScript.class;
     }
 
-    public static synchronized LinkedHashMap<String, TrackingDisruptionScript> load() {
+    public static synchronized Map<String, TrackingDisruptionScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TrackingDisruptionScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -121,7 +123,7 @@ public class TrackingDisruptionScript
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

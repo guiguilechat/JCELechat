@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -217,7 +219,7 @@ public class TacticalDestroyer
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
-    private static LinkedHashMap<String, TacticalDestroyer> cache = (null);
+    private static Map<String, TacticalDestroyer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -355,7 +357,7 @@ public class TacticalDestroyer
         return TacticalDestroyer.class;
     }
 
-    public static synchronized LinkedHashMap<String, TacticalDestroyer> load() {
+    public static synchronized Map<String, TacticalDestroyer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TacticalDestroyer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -363,7 +365,7 @@ public class TacticalDestroyer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

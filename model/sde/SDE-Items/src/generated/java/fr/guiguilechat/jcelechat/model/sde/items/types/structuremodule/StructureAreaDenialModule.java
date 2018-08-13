@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -230,7 +232,7 @@ public class StructureAreaDenialModule
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
-    private static LinkedHashMap<String, StructureAreaDenialModule> cache = (null);
+    private static Map<String, StructureAreaDenialModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -372,7 +374,7 @@ public class StructureAreaDenialModule
         return StructureAreaDenialModule.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureAreaDenialModule> load() {
+    public static synchronized Map<String, StructureAreaDenialModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAreaDenialModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -380,7 +382,7 @@ public class StructureAreaDenialModule
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

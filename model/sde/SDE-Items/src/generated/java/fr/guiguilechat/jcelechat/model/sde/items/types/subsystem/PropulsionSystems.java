@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -98,7 +100,7 @@ public class PropulsionSystems
     @DefaultIntValue(0)
     public int WarpBubbleImmuneModifier;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/PropulsionSystems.yaml";
-    private static LinkedHashMap<String, PropulsionSystems> cache = (null);
+    private static Map<String, PropulsionSystems> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -168,7 +170,7 @@ public class PropulsionSystems
         return PropulsionSystems.class;
     }
 
-    public static synchronized LinkedHashMap<String, PropulsionSystems> load() {
+    public static synchronized Map<String, PropulsionSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PropulsionSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -176,7 +178,7 @@ public class PropulsionSystems
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -84,7 +86,7 @@ public class StructureMoonDrillingServiceModule
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureMoonDrillingServiceModule.yaml";
-    private static LinkedHashMap<String, StructureMoonDrillingServiceModule> cache = (null);
+    private static Map<String, StructureMoonDrillingServiceModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +148,7 @@ public class StructureMoonDrillingServiceModule
         return StructureMoonDrillingServiceModule.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureMoonDrillingServiceModule> load() {
+    public static synchronized Map<String, StructureMoonDrillingServiceModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureMoonDrillingServiceModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -154,7 +156,7 @@ public class StructureMoonDrillingServiceModule
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

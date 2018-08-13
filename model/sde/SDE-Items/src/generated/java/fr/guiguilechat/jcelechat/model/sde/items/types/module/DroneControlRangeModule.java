@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -64,7 +66,7 @@ public class DroneControlRangeModule
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/DroneControlRangeModule.yaml";
-    private static LinkedHashMap<String, DroneControlRangeModule> cache = (null);
+    private static Map<String, DroneControlRangeModule> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -110,7 +112,7 @@ public class DroneControlRangeModule
         return DroneControlRangeModule.class;
     }
 
-    public static synchronized LinkedHashMap<String, DroneControlRangeModule> load() {
+    public static synchronized Map<String, DroneControlRangeModule> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DroneControlRangeModule.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -118,7 +120,7 @@ public class DroneControlRangeModule
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

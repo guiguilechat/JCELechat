@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -70,7 +72,7 @@ public class MissileGuidanceEnhancer
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/module/MissileGuidanceEnhancer.yaml";
-    private static LinkedHashMap<String, MissileGuidanceEnhancer> cache = (null);
+    private static Map<String, MissileGuidanceEnhancer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -124,7 +126,7 @@ public class MissileGuidanceEnhancer
         return MissileGuidanceEnhancer.class;
     }
 
-    public static synchronized LinkedHashMap<String, MissileGuidanceEnhancer> load() {
+    public static synchronized Map<String, MissileGuidanceEnhancer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileGuidanceEnhancer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -132,7 +134,7 @@ public class MissileGuidanceEnhancer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

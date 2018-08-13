@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -43,7 +45,7 @@ public class CyberTargeting
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberTargeting.yaml";
-    private static LinkedHashMap<String, CyberTargeting> cache = (null);
+    private static Map<String, CyberTargeting> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -81,7 +83,7 @@ public class CyberTargeting
         return CyberTargeting.class;
     }
 
-    public static synchronized LinkedHashMap<String, CyberTargeting> load() {
+    public static synchronized Map<String, CyberTargeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberTargeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -89,7 +91,7 @@ public class CyberTargeting
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

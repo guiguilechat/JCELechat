@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -64,7 +66,7 @@ public class ExpandedCargohold
     @DefaultDoubleValue(1.0)
     public double StructureHPMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/ExpandedCargohold.yaml";
-    private static LinkedHashMap<String, ExpandedCargohold> cache = (null);
+    private static Map<String, ExpandedCargohold> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -110,7 +112,7 @@ public class ExpandedCargohold
         return ExpandedCargohold.class;
     }
 
-    public static synchronized LinkedHashMap<String, ExpandedCargohold> load() {
+    public static synchronized Map<String, ExpandedCargohold> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ExpandedCargohold.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -118,7 +120,7 @@ public class ExpandedCargohold
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

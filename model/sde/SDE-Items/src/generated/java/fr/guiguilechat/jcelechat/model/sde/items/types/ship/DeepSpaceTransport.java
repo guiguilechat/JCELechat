@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -231,7 +233,7 @@ public class DeepSpaceTransport
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
     public final static String RESOURCE_PATH = "SDE/items/ship/DeepSpaceTransport.yaml";
-    private static LinkedHashMap<String, DeepSpaceTransport> cache = (null);
+    private static Map<String, DeepSpaceTransport> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -377,7 +379,7 @@ public class DeepSpaceTransport
         return DeepSpaceTransport.class;
     }
 
-    public static synchronized LinkedHashMap<String, DeepSpaceTransport> load() {
+    public static synchronized Map<String, DeepSpaceTransport> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DeepSpaceTransport.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -385,7 +387,7 @@ public class DeepSpaceTransport
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

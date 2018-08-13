@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -63,7 +65,7 @@ public class CorporateHangarArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CorporateHangarArray.yaml";
-    private static LinkedHashMap<String, CorporateHangarArray> cache = (null);
+    private static Map<String, CorporateHangarArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -113,7 +115,7 @@ public class CorporateHangarArray
         return CorporateHangarArray.class;
     }
 
-    public static synchronized LinkedHashMap<String, CorporateHangarArray> load() {
+    public static synchronized Map<String, CorporateHangarArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CorporateHangarArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -121,7 +123,7 @@ public class CorporateHangarArray
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

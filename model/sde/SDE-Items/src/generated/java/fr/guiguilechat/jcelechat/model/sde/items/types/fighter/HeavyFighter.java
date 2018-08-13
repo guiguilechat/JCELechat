@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -309,7 +311,7 @@ public class HeavyFighter
     @DefaultIntValue(0)
     public int MetaGroupID;
     public final static String RESOURCE_PATH = "SDE/items/fighter/HeavyFighter.yaml";
-    private static LinkedHashMap<String, HeavyFighter> cache = (null);
+    private static Map<String, HeavyFighter> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -495,7 +497,7 @@ public class HeavyFighter
         return HeavyFighter.class;
     }
 
-    public static synchronized LinkedHashMap<String, HeavyFighter> load() {
+    public static synchronized Map<String, HeavyFighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -503,7 +505,7 @@ public class HeavyFighter
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

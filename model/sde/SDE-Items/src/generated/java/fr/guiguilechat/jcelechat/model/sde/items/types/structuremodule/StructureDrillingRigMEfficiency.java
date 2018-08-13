@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -85,7 +87,7 @@ public class StructureDrillingRigMEfficiency
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMEfficiency.yaml";
-    private static LinkedHashMap<String, StructureDrillingRigMEfficiency> cache = (null);
+    private static Map<String, StructureDrillingRigMEfficiency> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +149,7 @@ public class StructureDrillingRigMEfficiency
         return StructureDrillingRigMEfficiency.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureDrillingRigMEfficiency> load() {
+    public static synchronized Map<String, StructureDrillingRigMEfficiency> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureDrillingRigMEfficiency.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -155,7 +157,7 @@ public class StructureDrillingRigMEfficiency
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

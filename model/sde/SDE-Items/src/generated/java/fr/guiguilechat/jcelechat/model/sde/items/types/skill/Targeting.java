@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -42,7 +44,7 @@ public class Targeting
     @DefaultIntValue(0)
     public int SensorStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Targeting.yaml";
-    private static LinkedHashMap<String, Targeting> cache = (null);
+    private static Map<String, Targeting> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -80,7 +82,7 @@ public class Targeting
         return Targeting.class;
     }
 
-    public static synchronized LinkedHashMap<String, Targeting> load() {
+    public static synchronized Map<String, Targeting> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Targeting.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -88,7 +90,7 @@ public class Targeting
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

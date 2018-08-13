@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -133,7 +135,7 @@ public class StructureAntiSubcapitalMissile
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
-    private static LinkedHashMap<String, StructureAntiSubcapitalMissile> cache = (null);
+    private static Map<String, StructureAntiSubcapitalMissile> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -223,7 +225,7 @@ public class StructureAntiSubcapitalMissile
         return StructureAntiSubcapitalMissile.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureAntiSubcapitalMissile> load() {
+    public static synchronized Map<String, StructureAntiSubcapitalMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureAntiSubcapitalMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -231,7 +233,7 @@ public class StructureAntiSubcapitalMissile
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

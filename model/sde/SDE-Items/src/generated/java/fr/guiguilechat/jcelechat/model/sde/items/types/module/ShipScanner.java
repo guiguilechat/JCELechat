@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -84,7 +86,7 @@ public class ShipScanner
     @DefaultIntValue(1)
     public int Slots;
     public final static String RESOURCE_PATH = "SDE/items/module/ShipScanner.yaml";
-    private static LinkedHashMap<String, ShipScanner> cache = (null);
+    private static Map<String, ShipScanner> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +148,7 @@ public class ShipScanner
         return ShipScanner.class;
     }
 
-    public static synchronized LinkedHashMap<String, ShipScanner> load() {
+    public static synchronized Map<String, ShipScanner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShipScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -154,7 +156,7 @@ public class ShipScanner
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

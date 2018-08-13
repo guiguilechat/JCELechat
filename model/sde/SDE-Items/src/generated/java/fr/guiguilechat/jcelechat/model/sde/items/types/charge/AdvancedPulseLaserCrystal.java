@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -163,7 +165,7 @@ public class AdvancedPulseLaserCrystal
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
-    private static LinkedHashMap<String, AdvancedPulseLaserCrystal> cache = (null);
+    private static Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -269,7 +271,7 @@ public class AdvancedPulseLaserCrystal
         return AdvancedPulseLaserCrystal.class;
     }
 
-    public static synchronized LinkedHashMap<String, AdvancedPulseLaserCrystal> load() {
+    public static synchronized Map<String, AdvancedPulseLaserCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedPulseLaserCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -277,7 +279,7 @@ public class AdvancedPulseLaserCrystal
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

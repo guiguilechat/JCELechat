@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -84,7 +86,7 @@ public class CompressionArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
-    private static LinkedHashMap<String, CompressionArray> cache = (null);
+    private static Map<String, CompressionArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -146,7 +148,7 @@ public class CompressionArray
         return CompressionArray.class;
     }
 
-    public static synchronized LinkedHashMap<String, CompressionArray> load() {
+    public static synchronized Map<String, CompressionArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CompressionArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -154,7 +156,7 @@ public class CompressionArray
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

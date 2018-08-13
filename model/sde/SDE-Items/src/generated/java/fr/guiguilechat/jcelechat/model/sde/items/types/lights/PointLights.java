@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.lights;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Lights;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class PointLights
     extends Lights
 {
     public final static String RESOURCE_PATH = "SDE/items/lights/PointLights.yaml";
-    private static LinkedHashMap<String, PointLights> cache = (null);
+    private static Map<String, PointLights> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class PointLights
         return PointLights.class;
     }
 
-    public static synchronized LinkedHashMap<String, PointLights> load() {
+    public static synchronized Map<String, PointLights> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(PointLights.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class PointLights
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

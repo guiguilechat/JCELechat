@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -27,7 +29,7 @@ public class AbyssalFilaments
     @DefaultIntValue(0)
     public int WeatherID;
     public final static String RESOURCE_PATH = "SDE/items/commodity/AbyssalFilaments.yaml";
-    private static LinkedHashMap<String, AbyssalFilaments> cache = (null);
+    private static Map<String, AbyssalFilaments> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -57,7 +59,7 @@ public class AbyssalFilaments
         return AbyssalFilaments.class;
     }
 
-    public static synchronized LinkedHashMap<String, AbyssalFilaments> load() {
+    public static synchronized Map<String, AbyssalFilaments> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AbyssalFilaments.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -65,7 +67,7 @@ public class AbyssalFilaments
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class Bottoms
     @DefaultIntValue(0)
     public int ClothingAlsoCoversCategory;
     public final static String RESOURCE_PATH = "SDE/items/apparel/Bottoms.yaml";
-    private static LinkedHashMap<String, Bottoms> cache = (null);
+    private static Map<String, Bottoms> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class Bottoms
         return Bottoms.class;
     }
 
-    public static synchronized LinkedHashMap<String, Bottoms> load() {
+    public static synchronized Map<String, Bottoms> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Bottoms.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class Bottoms
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -64,7 +66,7 @@ public class CyberResourceProcessing
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberResourceProcessing.yaml";
-    private static LinkedHashMap<String, CyberResourceProcessing> cache = (null);
+    private static Map<String, CyberResourceProcessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -114,7 +116,7 @@ public class CyberResourceProcessing
         return CyberResourceProcessing.class;
     }
 
-    public static synchronized LinkedHashMap<String, CyberResourceProcessing> load() {
+    public static synchronized Map<String, CyberResourceProcessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -122,7 +124,7 @@ public class CyberResourceProcessing
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

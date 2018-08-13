@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -41,7 +43,7 @@ public class DataInterfaces
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
     public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
-    private static LinkedHashMap<String, DataInterfaces> cache = (null);
+    private static Map<String, DataInterfaces> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,7 +81,7 @@ public class DataInterfaces
         return DataInterfaces.class;
     }
 
-    public static synchronized LinkedHashMap<String, DataInterfaces> load() {
+    public static synchronized Map<String, DataInterfaces> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DataInterfaces.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -87,7 +89,7 @@ public class DataInterfaces
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

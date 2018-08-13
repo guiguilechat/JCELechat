@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -203,7 +205,7 @@ public class ElectronicAttackShip
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/ElectronicAttackShip.yaml";
-    private static LinkedHashMap<String, ElectronicAttackShip> cache = (null);
+    private static Map<String, ElectronicAttackShip> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -333,7 +335,7 @@ public class ElectronicAttackShip
         return ElectronicAttackShip.class;
     }
 
-    public static synchronized LinkedHashMap<String, ElectronicAttackShip> load() {
+    public static synchronized Map<String, ElectronicAttackShip> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ElectronicAttackShip.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -341,7 +343,7 @@ public class ElectronicAttackShip
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

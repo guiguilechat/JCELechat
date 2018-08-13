@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -29,7 +31,7 @@ public class WeaponDisruptorBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/WeaponDisruptorBlueprint.yaml";
-    private static LinkedHashMap<String, WeaponDisruptorBlueprint> cache = (null);
+    private static Map<String, WeaponDisruptorBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +61,7 @@ public class WeaponDisruptorBlueprint
         return WeaponDisruptorBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, WeaponDisruptorBlueprint> load() {
+    public static synchronized Map<String, WeaponDisruptorBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WeaponDisruptorBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -67,7 +69,7 @@ public class WeaponDisruptorBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -28,7 +30,7 @@ public class StructureRigBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StructureRigBlueprint.yaml";
-    private static LinkedHashMap<String, StructureRigBlueprint> cache = (null);
+    private static Map<String, StructureRigBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +60,7 @@ public class StructureRigBlueprint
         return StructureRigBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureRigBlueprint> load() {
+    public static synchronized Map<String, StructureRigBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureRigBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -66,7 +68,7 @@ public class StructureRigBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

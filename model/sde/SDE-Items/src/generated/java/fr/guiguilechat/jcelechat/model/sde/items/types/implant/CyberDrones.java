@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -49,7 +51,7 @@ public class CyberDrones
     @DefaultDoubleValue(0.0)
     public double ShieldCapacityBonus;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberDrones.yaml";
-    private static LinkedHashMap<String, CyberDrones> cache = (null);
+    private static Map<String, CyberDrones> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +93,7 @@ public class CyberDrones
         return CyberDrones.class;
     }
 
-    public static synchronized LinkedHashMap<String, CyberDrones> load() {
+    public static synchronized Map<String, CyberDrones> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberDrones.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -99,7 +101,7 @@ public class CyberDrones
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

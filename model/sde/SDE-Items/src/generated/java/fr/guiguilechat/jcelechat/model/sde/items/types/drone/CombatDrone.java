@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -247,7 +249,7 @@ public class CombatDrone
     @DefaultDoubleValue(0.0)
     public double TrackingSpeed;
     public final static String RESOURCE_PATH = "SDE/items/drone/CombatDrone.yaml";
-    private static LinkedHashMap<String, CombatDrone> cache = (null);
+    private static Map<String, CombatDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -397,7 +399,7 @@ public class CombatDrone
         return CombatDrone.class;
     }
 
-    public static synchronized LinkedHashMap<String, CombatDrone> load() {
+    public static synchronized Map<String, CombatDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CombatDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -405,7 +407,7 @@ public class CombatDrone
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

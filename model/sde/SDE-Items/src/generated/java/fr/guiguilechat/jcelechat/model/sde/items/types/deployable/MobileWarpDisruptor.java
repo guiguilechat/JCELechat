@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -85,7 +87,7 @@ public class MobileWarpDisruptor
     @DefaultIntValue(0)
     public int WarpScrambleRange;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
-    private static LinkedHashMap<String, MobileWarpDisruptor> cache = (null);
+    private static Map<String, MobileWarpDisruptor> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -143,7 +145,7 @@ public class MobileWarpDisruptor
         return MobileWarpDisruptor.class;
     }
 
-    public static synchronized LinkedHashMap<String, MobileWarpDisruptor> load() {
+    public static synchronized Map<String, MobileWarpDisruptor> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileWarpDisruptor.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -151,7 +153,7 @@ public class MobileWarpDisruptor
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

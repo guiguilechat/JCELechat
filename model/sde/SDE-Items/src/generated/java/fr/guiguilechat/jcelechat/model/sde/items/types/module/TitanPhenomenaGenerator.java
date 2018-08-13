@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -203,7 +205,7 @@ public class TitanPhenomenaGenerator
     @DefaultDoubleValue(0.0)
     public double WarfareBuff4Value;
     public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
-    private static LinkedHashMap<String, TitanPhenomenaGenerator> cache = (null);
+    private static Map<String, TitanPhenomenaGenerator> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -333,7 +335,7 @@ public class TitanPhenomenaGenerator
         return TitanPhenomenaGenerator.class;
     }
 
-    public static synchronized LinkedHashMap<String, TitanPhenomenaGenerator> load() {
+    public static synchronized Map<String, TitanPhenomenaGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TitanPhenomenaGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -341,7 +343,7 @@ public class TitanPhenomenaGenerator
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

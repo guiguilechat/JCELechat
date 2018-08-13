@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -105,7 +107,7 @@ public class Gunnery
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
-    private static LinkedHashMap<String, Gunnery> cache = (null);
+    private static Map<String, Gunnery> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -179,7 +181,7 @@ public class Gunnery
         return Gunnery.class;
     }
 
-    public static synchronized LinkedHashMap<String, Gunnery> load() {
+    public static synchronized Map<String, Gunnery> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Gunnery.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -187,7 +189,7 @@ public class Gunnery
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

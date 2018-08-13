@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -55,7 +57,7 @@ public class CorporationManagement
     @DefaultIntValue(0)
     public int SkillAllyCostModifierBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/CorporationManagement.yaml";
-    private static LinkedHashMap<String, CorporationManagement> cache = (null);
+    private static Map<String, CorporationManagement> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -101,7 +103,7 @@ public class CorporationManagement
         return CorporationManagement.class;
     }
 
-    public static synchronized LinkedHashMap<String, CorporationManagement> load() {
+    public static synchronized Map<String, CorporationManagement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CorporationManagement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -109,7 +111,7 @@ public class CorporationManagement
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

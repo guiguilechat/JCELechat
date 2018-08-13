@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -113,7 +115,7 @@ public class StructureBiochemicalReactorRigMME
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureBiochemicalReactorRigMME.yaml";
-    private static LinkedHashMap<String, StructureBiochemicalReactorRigMME> cache = (null);
+    private static Map<String, StructureBiochemicalReactorRigMME> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -191,7 +193,7 @@ public class StructureBiochemicalReactorRigMME
         return StructureBiochemicalReactorRigMME.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureBiochemicalReactorRigMME> load() {
+    public static synchronized Map<String, StructureBiochemicalReactorRigMME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureBiochemicalReactorRigMME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -199,7 +201,7 @@ public class StructureBiochemicalReactorRigMME
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

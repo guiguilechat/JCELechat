@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -148,7 +150,7 @@ public class WarpScrambler
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
     public final static String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
-    private static LinkedHashMap<String, WarpScrambler> cache = (null);
+    private static Map<String, WarpScrambler> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -242,7 +244,7 @@ public class WarpScrambler
         return WarpScrambler.class;
     }
 
-    public static synchronized LinkedHashMap<String, WarpScrambler> load() {
+    public static synchronized Map<String, WarpScrambler> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(WarpScrambler.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -250,7 +252,7 @@ public class WarpScrambler
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

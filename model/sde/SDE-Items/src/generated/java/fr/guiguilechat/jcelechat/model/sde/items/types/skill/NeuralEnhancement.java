@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -69,7 +71,7 @@ public class NeuralEnhancement
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
     public final static String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
-    private static LinkedHashMap<String, NeuralEnhancement> cache = (null);
+    private static Map<String, NeuralEnhancement> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -123,7 +125,7 @@ public class NeuralEnhancement
         return NeuralEnhancement.class;
     }
 
-    public static synchronized LinkedHashMap<String, NeuralEnhancement> load() {
+    public static synchronized Map<String, NeuralEnhancement> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NeuralEnhancement.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -131,7 +133,7 @@ public class NeuralEnhancement
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

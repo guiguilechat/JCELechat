@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -344,7 +346,7 @@ public class Cruiser
     @DefaultIntValue(0)
     public int WarpBubbleImmune;
     public final static String RESOURCE_PATH = "SDE/items/ship/Cruiser.yaml";
-    private static LinkedHashMap<String, Cruiser> cache = (null);
+    private static Map<String, Cruiser> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -550,7 +552,7 @@ public class Cruiser
         return Cruiser.class;
     }
 
-    public static synchronized LinkedHashMap<String, Cruiser> load() {
+    public static synchronized Map<String, Cruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Cruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -558,7 +560,7 @@ public class Cruiser
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

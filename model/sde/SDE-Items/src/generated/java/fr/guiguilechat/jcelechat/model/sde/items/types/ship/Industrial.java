@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -259,7 +261,7 @@ public class Industrial
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/Industrial.yaml";
-    private static LinkedHashMap<String, Industrial> cache = (null);
+    private static Map<String, Industrial> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -421,7 +423,7 @@ public class Industrial
         return Industrial.class;
     }
 
-    public static synchronized LinkedHashMap<String, Industrial> load() {
+    public static synchronized Map<String, Industrial> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Industrial.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -429,7 +431,7 @@ public class Industrial
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -28,7 +30,7 @@ public class DreadnoughtBlueprint
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DreadnoughtBlueprint.yaml";
-    private static LinkedHashMap<String, DreadnoughtBlueprint> cache = (null);
+    private static Map<String, DreadnoughtBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +60,7 @@ public class DreadnoughtBlueprint
         return DreadnoughtBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, DreadnoughtBlueprint> load() {
+    public static synchronized Map<String, DreadnoughtBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DreadnoughtBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -66,7 +68,7 @@ public class DreadnoughtBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

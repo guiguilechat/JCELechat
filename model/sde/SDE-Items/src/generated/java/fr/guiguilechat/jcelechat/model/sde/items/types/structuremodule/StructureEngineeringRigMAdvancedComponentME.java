@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -163,7 +165,7 @@ public class StructureEngineeringRigMAdvancedComponentME
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedComponentME.yaml";
-    private static LinkedHashMap<String, StructureEngineeringRigMAdvancedComponentME> cache = (null);
+    private static Map<String, StructureEngineeringRigMAdvancedComponentME> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -265,7 +267,7 @@ public class StructureEngineeringRigMAdvancedComponentME
         return StructureEngineeringRigMAdvancedComponentME.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureEngineeringRigMAdvancedComponentME> load() {
+    public static synchronized Map<String, StructureEngineeringRigMAdvancedComponentME> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureEngineeringRigMAdvancedComponentME.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -273,7 +275,7 @@ public class StructureEngineeringRigMAdvancedComponentME
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -65,7 +67,7 @@ public class StructureArmorReinforcer
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
-    private static LinkedHashMap<String, StructureArmorReinforcer> cache = (null);
+    private static Map<String, StructureArmorReinforcer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -115,7 +117,7 @@ public class StructureArmorReinforcer
         return StructureArmorReinforcer.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureArmorReinforcer> load() {
+    public static synchronized Map<String, StructureArmorReinforcer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureArmorReinforcer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -123,7 +125,7 @@ public class StructureArmorReinforcer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

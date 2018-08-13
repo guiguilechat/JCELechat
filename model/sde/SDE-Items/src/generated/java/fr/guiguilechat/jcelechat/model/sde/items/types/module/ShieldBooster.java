@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -113,7 +115,7 @@ public class ShieldBooster
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldBooster.yaml";
-    private static LinkedHashMap<String, ShieldBooster> cache = (null);
+    private static Map<String, ShieldBooster> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -187,7 +189,7 @@ public class ShieldBooster
         return ShieldBooster.class;
     }
 
-    public static synchronized LinkedHashMap<String, ShieldBooster> load() {
+    public static synchronized Map<String, ShieldBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ShieldBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -195,7 +197,7 @@ public class ShieldBooster
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

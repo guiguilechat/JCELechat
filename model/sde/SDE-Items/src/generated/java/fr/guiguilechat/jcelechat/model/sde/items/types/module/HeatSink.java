@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -71,7 +73,7 @@ public class HeatSink
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/HeatSink.yaml";
-    private static LinkedHashMap<String, HeatSink> cache = (null);
+    private static Map<String, HeatSink> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -121,7 +123,7 @@ public class HeatSink
         return HeatSink.class;
     }
 
-    public static synchronized LinkedHashMap<String, HeatSink> load() {
+    public static synchronized Map<String, HeatSink> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeatSink.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -129,7 +131,7 @@ public class HeatSink
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

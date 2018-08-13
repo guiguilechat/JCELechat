@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -85,7 +87,7 @@ public class CyberMissile
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberMissile.yaml";
-    private static LinkedHashMap<String, CyberMissile> cache = (null);
+    private static Map<String, CyberMissile> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -147,7 +149,7 @@ public class CyberMissile
         return CyberMissile.class;
     }
 
-    public static synchronized LinkedHashMap<String, CyberMissile> load() {
+    public static synchronized Map<String, CyberMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CyberMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -155,7 +157,7 @@ public class CyberMissile
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

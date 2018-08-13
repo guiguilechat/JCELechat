@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -29,7 +31,7 @@ public class RemoteArmorRepairerBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteArmorRepairerBlueprint.yaml";
-    private static LinkedHashMap<String, RemoteArmorRepairerBlueprint> cache = (null);
+    private static Map<String, RemoteArmorRepairerBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -59,7 +61,7 @@ public class RemoteArmorRepairerBlueprint
         return RemoteArmorRepairerBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, RemoteArmorRepairerBlueprint> load() {
+    public static synchronized Map<String, RemoteArmorRepairerBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteArmorRepairerBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -67,7 +69,7 @@ public class RemoteArmorRepairerBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

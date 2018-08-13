@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -190,7 +192,7 @@ public class RemoteSensorBooster
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
-    private static LinkedHashMap<String, RemoteSensorBooster> cache = (null);
+    private static Map<String, RemoteSensorBooster> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -308,7 +310,7 @@ public class RemoteSensorBooster
         return RemoteSensorBooster.class;
     }
 
-    public static synchronized LinkedHashMap<String, RemoteSensorBooster> load() {
+    public static synchronized Map<String, RemoteSensorBooster> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RemoteSensorBooster.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -316,7 +318,7 @@ public class RemoteSensorBooster
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

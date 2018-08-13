@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -182,7 +184,7 @@ public class AttackBattlecruiser
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/AttackBattlecruiser.yaml";
-    private static LinkedHashMap<String, AttackBattlecruiser> cache = (null);
+    private static Map<String, AttackBattlecruiser> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -300,7 +302,7 @@ public class AttackBattlecruiser
         return AttackBattlecruiser.class;
     }
 
-    public static synchronized LinkedHashMap<String, AttackBattlecruiser> load() {
+    public static synchronized Map<String, AttackBattlecruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AttackBattlecruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -308,7 +310,7 @@ public class AttackBattlecruiser
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

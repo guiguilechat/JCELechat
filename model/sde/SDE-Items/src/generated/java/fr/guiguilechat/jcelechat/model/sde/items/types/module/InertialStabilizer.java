@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -57,7 +59,7 @@ public class InertialStabilizer
     @DefaultDoubleValue(0.0)
     public double SignatureRadiusBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/InertialStabilizer.yaml";
-    private static LinkedHashMap<String, InertialStabilizer> cache = (null);
+    private static Map<String, InertialStabilizer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -99,7 +101,7 @@ public class InertialStabilizer
         return InertialStabilizer.class;
     }
 
-    public static synchronized LinkedHashMap<String, InertialStabilizer> load() {
+    public static synchronized Map<String, InertialStabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(InertialStabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -107,7 +109,7 @@ public class InertialStabilizer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

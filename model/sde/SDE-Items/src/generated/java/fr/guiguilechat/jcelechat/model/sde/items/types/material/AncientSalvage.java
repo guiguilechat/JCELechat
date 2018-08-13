@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class AncientSalvage
     @DefaultIntValue(0)
     public int Hp;
     public final static String RESOURCE_PATH = "SDE/items/material/AncientSalvage.yaml";
-    private static LinkedHashMap<String, AncientSalvage> cache = (null);
+    private static Map<String, AncientSalvage> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class AncientSalvage
         return AncientSalvage.class;
     }
 
-    public static synchronized LinkedHashMap<String, AncientSalvage> load() {
+    public static synchronized Map<String, AncientSalvage> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AncientSalvage.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class AncientSalvage
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -7,10 +7,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -36,6 +38,7 @@ import com.helger.jcodemodel.JOp;
 import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
+import com.helger.jcodemodel.JTypeVar;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
@@ -332,6 +335,29 @@ public class SDECompiler {
 			// valueDoubleMeth = attr
 		} catch (JClassAlreadyExistsException e2) {
 			throw new UnsupportedOperationException("catch this", e2);
+		}
+
+		// metainf category and group
+
+		JDefinedClass metaCatClass;
+		JDefinedClass metaGroupClass;
+		JMethod groupGetCat;
+		JMethod catGetGroups;
+		JMethod groupGetItems;
+
+		try {
+			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "MetaCategory");
+			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "MetaGroup");
+			JTypeVar paramMetaCat = metaCatClass.generify("T");
+			JTypeVar paramMetaGroup = metaGroupClass.generify("T");
+
+			catGetGroups = metaCatClass.method(JMod.PUBLIC,
+					cm.ref(List.class).narrow(metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
+			groupGetCat = metaGroupClass.method(JMod.PUBLIC, metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
+					"category");
+			groupGetItems = metaGroupClass.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(paramMetaGroup), "items");
+		} catch (JClassAlreadyExistsException e) {
+			throw new UnsupportedOperationException(e);
 		}
 
 		// create all categories

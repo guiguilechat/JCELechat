@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -28,7 +30,7 @@ public class CargoContainer
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/celestial/CargoContainer.yaml";
-    private static LinkedHashMap<String, CargoContainer> cache = (null);
+    private static Map<String, CargoContainer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -58,7 +60,7 @@ public class CargoContainer
         return CargoContainer.class;
     }
 
-    public static synchronized LinkedHashMap<String, CargoContainer> load() {
+    public static synchronized Map<String, CargoContainer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CargoContainer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -66,7 +68,7 @@ public class CargoContainer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

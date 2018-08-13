@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -212,7 +214,7 @@ public class AdvancedHeavyMissile
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedHeavyMissile.yaml";
-    private static LinkedHashMap<String, AdvancedHeavyMissile> cache = (null);
+    private static Map<String, AdvancedHeavyMissile> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -346,7 +348,7 @@ public class AdvancedHeavyMissile
         return AdvancedHeavyMissile.class;
     }
 
-    public static synchronized LinkedHashMap<String, AdvancedHeavyMissile> load() {
+    public static synchronized Map<String, AdvancedHeavyMissile> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedHeavyMissile.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -354,7 +356,7 @@ public class AdvancedHeavyMissile
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

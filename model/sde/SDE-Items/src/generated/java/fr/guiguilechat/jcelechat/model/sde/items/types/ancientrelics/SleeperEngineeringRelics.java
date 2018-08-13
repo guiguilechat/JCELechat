@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ancientrelics;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.AncientRelics;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class SleeperEngineeringRelics
     extends AncientRelics
 {
     public final static String RESOURCE_PATH = "SDE/items/ancientrelics/SleeperEngineeringRelics.yaml";
-    private static LinkedHashMap<String, SleeperEngineeringRelics> cache = (null);
+    private static Map<String, SleeperEngineeringRelics> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class SleeperEngineeringRelics
         return SleeperEngineeringRelics.class;
     }
 
-    public static synchronized LinkedHashMap<String, SleeperEngineeringRelics> load() {
+    public static synchronized Map<String, SleeperEngineeringRelics> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SleeperEngineeringRelics.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class SleeperEngineeringRelics
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -91,7 +93,7 @@ public class ReprocessingArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
-    private static LinkedHashMap<String, ReprocessingArray> cache = (null);
+    private static Map<String, ReprocessingArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -157,7 +159,7 @@ public class ReprocessingArray
         return ReprocessingArray.class;
     }
 
-    public static synchronized LinkedHashMap<String, ReprocessingArray> load() {
+    public static synchronized Map<String, ReprocessingArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ReprocessingArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -165,7 +167,7 @@ public class ReprocessingArray
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

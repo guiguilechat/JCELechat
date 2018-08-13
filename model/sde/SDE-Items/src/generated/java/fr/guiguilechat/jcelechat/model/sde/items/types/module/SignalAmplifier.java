@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -106,7 +108,7 @@ public class SignalAmplifier
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
-    private static LinkedHashMap<String, SignalAmplifier> cache = (null);
+    private static Map<String, SignalAmplifier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -176,7 +178,7 @@ public class SignalAmplifier
         return SignalAmplifier.class;
     }
 
-    public static synchronized LinkedHashMap<String, SignalAmplifier> load() {
+    public static synchronized Map<String, SignalAmplifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SignalAmplifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -184,7 +186,7 @@ public class SignalAmplifier
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

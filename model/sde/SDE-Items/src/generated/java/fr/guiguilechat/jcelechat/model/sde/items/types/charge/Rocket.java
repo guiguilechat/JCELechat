@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -234,7 +236,7 @@ public class Rocket
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     public final static String RESOURCE_PATH = "SDE/items/charge/Rocket.yaml";
-    private static LinkedHashMap<String, Rocket> cache = (null);
+    private static Map<String, Rocket> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -376,7 +378,7 @@ public class Rocket
         return Rocket.class;
     }
 
-    public static synchronized LinkedHashMap<String, Rocket> load() {
+    public static synchronized Map<String, Rocket> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Rocket.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -384,7 +386,7 @@ public class Rocket
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

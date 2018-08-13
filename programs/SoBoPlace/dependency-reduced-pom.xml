@@ -7,10 +7,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>fr.guiguilechat.jcelechat.programs</groupId>
-  <artifactId>OreWorth</artifactId>
-  <name>OreWorth</name>
-  <description>show the price  of ore in chosen region.
-Also is a training for javafx ui</description>
+  <artifactId>SoBoPlace</artifactId>
+  <name>SoBoPlace</name>
+  <description>list orders on the market by volume, so, bo, and volume*(so-bo)gain</description>
   <build>
     <plugins>
       <plugin>

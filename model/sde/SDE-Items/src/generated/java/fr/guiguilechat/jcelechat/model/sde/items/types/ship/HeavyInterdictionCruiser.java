@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -239,7 +241,7 @@ public class HeavyInterdictionCruiser
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
     public final static String RESOURCE_PATH = "SDE/items/ship/HeavyInterdictionCruiser.yaml";
-    private static LinkedHashMap<String, HeavyInterdictionCruiser> cache = (null);
+    private static Map<String, HeavyInterdictionCruiser> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -385,7 +387,7 @@ public class HeavyInterdictionCruiser
         return HeavyInterdictionCruiser.class;
     }
 
-    public static synchronized LinkedHashMap<String, HeavyInterdictionCruiser> load() {
+    public static synchronized Map<String, HeavyInterdictionCruiser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HeavyInterdictionCruiser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -393,7 +395,7 @@ public class HeavyInterdictionCruiser
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

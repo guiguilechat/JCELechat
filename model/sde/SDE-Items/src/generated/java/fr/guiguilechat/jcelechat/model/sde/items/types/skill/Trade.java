@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -48,7 +50,7 @@ public class Trade
     @DefaultIntValue(0)
     public int TradePremiumBonus;
     public final static String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
-    private static LinkedHashMap<String, Trade> cache = (null);
+    private static Map<String, Trade> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -90,7 +92,7 @@ public class Trade
         return Trade.class;
     }
 
-    public static synchronized LinkedHashMap<String, Trade> load() {
+    public static synchronized Map<String, Trade> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Trade.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -98,7 +100,7 @@ public class Trade
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

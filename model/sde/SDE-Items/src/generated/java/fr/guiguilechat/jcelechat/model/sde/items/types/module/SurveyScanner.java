@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -77,7 +79,7 @@ public class SurveyScanner
     @DefaultIntValue(0)
     public int TargetGroup;
     public final static String RESOURCE_PATH = "SDE/items/module/SurveyScanner.yaml";
-    private static LinkedHashMap<String, SurveyScanner> cache = (null);
+    private static Map<String, SurveyScanner> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -135,7 +137,7 @@ public class SurveyScanner
         return SurveyScanner.class;
     }
 
-    public static synchronized LinkedHashMap<String, SurveyScanner> load() {
+    public static synchronized Map<String, SurveyScanner> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyScanner.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -143,7 +145,7 @@ public class SurveyScanner
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

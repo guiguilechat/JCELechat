@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -154,7 +156,7 @@ public class FrequencyMiningLaser
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/FrequencyMiningLaser.yaml";
-    private static LinkedHashMap<String, FrequencyMiningLaser> cache = (null);
+    private static Map<String, FrequencyMiningLaser> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -256,7 +258,7 @@ public class FrequencyMiningLaser
         return FrequencyMiningLaser.class;
     }
 
-    public static synchronized LinkedHashMap<String, FrequencyMiningLaser> load() {
+    public static synchronized Map<String, FrequencyMiningLaser> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FrequencyMiningLaser.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -264,7 +266,7 @@ public class FrequencyMiningLaser
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

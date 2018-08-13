@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -112,7 +114,7 @@ public class TractorBeam
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/TractorBeam.yaml";
-    private static LinkedHashMap<String, TractorBeam> cache = (null);
+    private static Map<String, TractorBeam> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -190,7 +192,7 @@ public class TractorBeam
         return TractorBeam.class;
     }
 
-    public static synchronized LinkedHashMap<String, TractorBeam> load() {
+    public static synchronized Map<String, TractorBeam> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(TractorBeam.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -198,7 +200,7 @@ public class TractorBeam
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

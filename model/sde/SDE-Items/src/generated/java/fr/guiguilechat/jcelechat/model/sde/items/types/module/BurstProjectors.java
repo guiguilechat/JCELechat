@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -339,7 +341,7 @@ public class BurstProjectors
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
-    private static LinkedHashMap<String, BurstProjectors> cache = (null);
+    private static Map<String, BurstProjectors> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -545,7 +547,7 @@ public class BurstProjectors
         return BurstProjectors.class;
     }
 
-    public static synchronized LinkedHashMap<String, BurstProjectors> load() {
+    public static synchronized Map<String, BurstProjectors> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(BurstProjectors.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -553,7 +555,7 @@ public class BurstProjectors
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

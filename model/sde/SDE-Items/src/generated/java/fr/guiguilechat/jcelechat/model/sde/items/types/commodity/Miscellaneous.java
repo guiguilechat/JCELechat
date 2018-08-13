@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -34,7 +36,7 @@ public class Miscellaneous
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
-    private static LinkedHashMap<String, Miscellaneous> cache = (null);
+    private static Map<String, Miscellaneous> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -68,7 +70,7 @@ public class Miscellaneous
         return Miscellaneous.class;
     }
 
-    public static synchronized LinkedHashMap<String, Miscellaneous> load() {
+    public static synchronized Map<String, Miscellaneous> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Miscellaneous.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -76,7 +78,7 @@ public class Miscellaneous
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

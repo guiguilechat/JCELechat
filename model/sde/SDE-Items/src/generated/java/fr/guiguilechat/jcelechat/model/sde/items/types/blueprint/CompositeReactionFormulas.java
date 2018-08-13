@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class CompositeReactionFormulas
     extends Blueprint
 {
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CompositeReactionFormulas.yaml";
-    private static LinkedHashMap<String, CompositeReactionFormulas> cache = (null);
+    private static Map<String, CompositeReactionFormulas> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class CompositeReactionFormulas
         return CompositeReactionFormulas.class;
     }
 
-    public static synchronized LinkedHashMap<String, CompositeReactionFormulas> load() {
+    public static synchronized Map<String, CompositeReactionFormulas> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CompositeReactionFormulas.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class CompositeReactionFormulas
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -561,7 +563,7 @@ public class Supercarrier
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
     public final static String RESOURCE_PATH = "SDE/items/ship/Supercarrier.yaml";
-    private static LinkedHashMap<String, Supercarrier> cache = (null);
+    private static Map<String, Supercarrier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -891,7 +893,7 @@ public class Supercarrier
         return Supercarrier.class;
     }
 
-    public static synchronized LinkedHashMap<String, Supercarrier> load() {
+    public static synchronized Map<String, Supercarrier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Supercarrier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -899,7 +901,7 @@ public class Supercarrier
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

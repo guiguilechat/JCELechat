@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.entity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class IrregularFrigate
     extends Entity
 {
     public final static String RESOURCE_PATH = "SDE/items/entity/IrregularFrigate.yaml";
-    private static LinkedHashMap<String, IrregularFrigate> cache = (null);
+    private static Map<String, IrregularFrigate> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class IrregularFrigate
         return IrregularFrigate.class;
     }
 
-    public static synchronized LinkedHashMap<String, IrregularFrigate> load() {
+    public static synchronized Map<String, IrregularFrigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(IrregularFrigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class IrregularFrigate
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

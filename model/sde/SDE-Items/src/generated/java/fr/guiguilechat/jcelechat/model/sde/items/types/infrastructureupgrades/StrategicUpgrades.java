@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -27,7 +29,7 @@ public class StrategicUpgrades
     @DefaultIntValue(0)
     public int SovBillSystemCost;
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/StrategicUpgrades.yaml";
-    private static LinkedHashMap<String, StrategicUpgrades> cache = (null);
+    private static Map<String, StrategicUpgrades> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -57,7 +59,7 @@ public class StrategicUpgrades
         return StrategicUpgrades.class;
     }
 
-    public static synchronized LinkedHashMap<String, StrategicUpgrades> load() {
+    public static synchronized Map<String, StrategicUpgrades> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StrategicUpgrades.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -65,7 +67,7 @@ public class StrategicUpgrades
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

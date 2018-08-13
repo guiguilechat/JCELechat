@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -238,7 +240,7 @@ public class OffensiveSystems
     @DefaultIntValue(0)
     public int WarfareLinkCPUPenalty;
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
-    private static LinkedHashMap<String, OffensiveSystems> cache = (null);
+    private static Map<String, OffensiveSystems> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -388,7 +390,7 @@ public class OffensiveSystems
         return OffensiveSystems.class;
     }
 
-    public static synchronized LinkedHashMap<String, OffensiveSystems> load() {
+    public static synchronized Map<String, OffensiveSystems> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(OffensiveSystems.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -396,7 +398,7 @@ public class OffensiveSystems
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

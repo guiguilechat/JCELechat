@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -134,7 +136,7 @@ public class HullRepairUnit
     @DefaultIntValue(0)
     public int StructureDamageAmount;
     public final static String RESOURCE_PATH = "SDE/items/module/HullRepairUnit.yaml";
-    private static LinkedHashMap<String, HullRepairUnit> cache = (null);
+    private static Map<String, HullRepairUnit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -220,7 +222,7 @@ public class HullRepairUnit
         return HullRepairUnit.class;
     }
 
-    public static synchronized LinkedHashMap<String, HullRepairUnit> load() {
+    public static synchronized Map<String, HullRepairUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(HullRepairUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -228,7 +230,7 @@ public class HullRepairUnit
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -34,7 +36,7 @@ public class Kernite
     @DefaultIntValue(0)
     public int CompressionTypeID;
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
-    private static LinkedHashMap<String, Kernite> cache = (null);
+    private static Map<String, Kernite> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -68,7 +70,7 @@ public class Kernite
         return Kernite.class;
     }
 
-    public static synchronized LinkedHashMap<String, Kernite> load() {
+    public static synchronized Map<String, Kernite> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Kernite.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -76,7 +78,7 @@ public class Kernite
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

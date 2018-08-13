@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -56,7 +58,7 @@ public class RigResourceProcessing
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
-    private static LinkedHashMap<String, RigResourceProcessing> cache = (null);
+    private static Map<String, RigResourceProcessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -102,7 +104,7 @@ public class RigResourceProcessing
         return RigResourceProcessing.class;
     }
 
-    public static synchronized LinkedHashMap<String, RigResourceProcessing> load() {
+    public static synchronized Map<String, RigResourceProcessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigResourceProcessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -110,7 +112,7 @@ public class RigResourceProcessing
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

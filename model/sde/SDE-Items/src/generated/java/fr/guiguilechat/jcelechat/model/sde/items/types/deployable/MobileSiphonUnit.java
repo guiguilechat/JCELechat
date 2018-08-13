@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -112,7 +114,7 @@ public class MobileSiphonUnit
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileSiphonUnit.yaml";
-    private static LinkedHashMap<String, MobileSiphonUnit> cache = (null);
+    private static Map<String, MobileSiphonUnit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -190,7 +192,7 @@ public class MobileSiphonUnit
         return MobileSiphonUnit.class;
     }
 
-    public static synchronized LinkedHashMap<String, MobileSiphonUnit> load() {
+    public static synchronized Map<String, MobileSiphonUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileSiphonUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -198,7 +200,7 @@ public class MobileSiphonUnit
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

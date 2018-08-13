@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structure;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -34,7 +36,7 @@ public class EngineeringComplex
     @DefaultDoubleValue(1.0)
     public double StrEngTimeBonus;
     public final static String RESOURCE_PATH = "SDE/items/structure/EngineeringComplex.yaml";
-    private static LinkedHashMap<String, EngineeringComplex> cache = (null);
+    private static Map<String, EngineeringComplex> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -68,7 +70,7 @@ public class EngineeringComplex
         return EngineeringComplex.class;
     }
 
-    public static synchronized LinkedHashMap<String, EngineeringComplex> load() {
+    public static synchronized Map<String, EngineeringComplex> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(EngineeringComplex.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -76,7 +78,7 @@ public class EngineeringComplex
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

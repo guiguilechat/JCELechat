@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class ResearchData
     extends Commodity
 {
     public final static String RESOURCE_PATH = "SDE/items/commodity/ResearchData.yaml";
-    private static LinkedHashMap<String, ResearchData> cache = (null);
+    private static Map<String, ResearchData> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class ResearchData
         return ResearchData.class;
     }
 
-    public static synchronized LinkedHashMap<String, ResearchData> load() {
+    public static synchronized Map<String, ResearchData> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ResearchData.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class ResearchData
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

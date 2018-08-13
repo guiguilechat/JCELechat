@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -142,7 +144,7 @@ public class MercoxitMiningCrystal
     @DefaultIntValue(0)
     public int UnfitCapCost;
     public final static String RESOURCE_PATH = "SDE/items/charge/MercoxitMiningCrystal.yaml";
-    private static LinkedHashMap<String, MercoxitMiningCrystal> cache = (null);
+    private static Map<String, MercoxitMiningCrystal> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -236,7 +238,7 @@ public class MercoxitMiningCrystal
         return MercoxitMiningCrystal.class;
     }
 
-    public static synchronized LinkedHashMap<String, MercoxitMiningCrystal> load() {
+    public static synchronized Map<String, MercoxitMiningCrystal> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MercoxitMiningCrystal.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -244,7 +246,7 @@ public class MercoxitMiningCrystal
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

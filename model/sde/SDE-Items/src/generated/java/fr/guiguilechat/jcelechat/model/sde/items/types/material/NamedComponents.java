@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Material;
 import org.yaml.snakeyaml.Yaml;
 
@@ -9,7 +11,7 @@ public class NamedComponents
     extends Material
 {
     public final static String RESOURCE_PATH = "SDE/items/material/NamedComponents.yaml";
-    private static LinkedHashMap<String, NamedComponents> cache = (null);
+    private static Map<String, NamedComponents> cache = (null);
 
     @Override
     public int getGroupId() {
@@ -21,7 +23,7 @@ public class NamedComponents
         return NamedComponents.class;
     }
 
-    public static synchronized LinkedHashMap<String, NamedComponents> load() {
+    public static synchronized Map<String, NamedComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(NamedComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -29,7 +31,7 @@ public class NamedComponents
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

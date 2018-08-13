@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -197,7 +199,7 @@ public class LogisticDrone
     @DefaultIntValue(0)
     public int StructureDamageAmount;
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
-    private static LinkedHashMap<String, LogisticDrone> cache = (null);
+    private static Map<String, LogisticDrone> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -323,7 +325,7 @@ public class LogisticDrone
         return LogisticDrone.class;
     }
 
-    public static synchronized LinkedHashMap<String, LogisticDrone> load() {
+    public static synchronized Map<String, LogisticDrone> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(LogisticDrone.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -331,7 +333,7 @@ public class LogisticDrone
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

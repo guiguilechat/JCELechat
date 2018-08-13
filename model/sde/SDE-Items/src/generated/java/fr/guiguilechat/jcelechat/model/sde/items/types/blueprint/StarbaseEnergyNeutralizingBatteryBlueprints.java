@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class StarbaseEnergyNeutralizingBatteryBlueprints
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseEnergyNeutralizingBatteryBlueprints.yaml";
-    private static LinkedHashMap<String, StarbaseEnergyNeutralizingBatteryBlueprints> cache = (null);
+    private static Map<String, StarbaseEnergyNeutralizingBatteryBlueprints> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class StarbaseEnergyNeutralizingBatteryBlueprints
         return StarbaseEnergyNeutralizingBatteryBlueprints.class;
     }
 
-    public static synchronized LinkedHashMap<String, StarbaseEnergyNeutralizingBatteryBlueprints> load() {
+    public static synchronized Map<String, StarbaseEnergyNeutralizingBatteryBlueprints> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StarbaseEnergyNeutralizingBatteryBlueprints.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class StarbaseEnergyNeutralizingBatteryBlueprints
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

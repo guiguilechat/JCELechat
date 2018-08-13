@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -112,7 +114,7 @@ public class ScannerArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
-    private static LinkedHashMap<String, ScannerArray> cache = (null);
+    private static Map<String, ScannerArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -190,7 +192,7 @@ public class ScannerArray
         return ScannerArray.class;
     }
 
-    public static synchronized LinkedHashMap<String, ScannerArray> load() {
+    public static synchronized Map<String, ScannerArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -198,7 +200,7 @@ public class ScannerArray
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -133,7 +135,7 @@ public class CynosuralGeneratorArray
     @DefaultDoubleValue(0.0)
     public double Uniformity;
     public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
-    private static LinkedHashMap<String, CynosuralGeneratorArray> cache = (null);
+    private static Map<String, CynosuralGeneratorArray> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -223,7 +225,7 @@ public class CynosuralGeneratorArray
         return CynosuralGeneratorArray.class;
     }
 
-    public static synchronized LinkedHashMap<String, CynosuralGeneratorArray> load() {
+    public static synchronized Map<String, CynosuralGeneratorArray> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CynosuralGeneratorArray.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -231,7 +233,7 @@ public class CynosuralGeneratorArray
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

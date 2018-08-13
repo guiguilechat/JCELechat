@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -36,7 +38,7 @@ public class CruiserBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CruiserBlueprint.yaml";
-    private static LinkedHashMap<String, CruiserBlueprint> cache = (null);
+    private static Map<String, CruiserBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -70,7 +72,7 @@ public class CruiserBlueprint
         return CruiserBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, CruiserBlueprint> load() {
+    public static synchronized Map<String, CruiserBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CruiserBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -78,7 +80,7 @@ public class CruiserBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

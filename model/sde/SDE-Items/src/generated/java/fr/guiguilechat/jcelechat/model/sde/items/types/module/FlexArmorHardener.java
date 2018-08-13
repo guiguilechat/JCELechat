@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -169,7 +171,7 @@ public class FlexArmorHardener
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
-    private static LinkedHashMap<String, FlexArmorHardener> cache = (null);
+    private static Map<String, FlexArmorHardener> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -275,7 +277,7 @@ public class FlexArmorHardener
         return FlexArmorHardener.class;
     }
 
-    public static synchronized LinkedHashMap<String, FlexArmorHardener> load() {
+    public static synchronized Map<String, FlexArmorHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(FlexArmorHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -283,7 +285,7 @@ public class FlexArmorHardener
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

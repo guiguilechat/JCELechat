@@ -266,7 +266,7 @@ public class ItemsTranslater {
 		}
 
 		// create the load method
-		AbstractJClass retType = container ? cm.ref(LinkedHashMap.class).narrow(cm.ref(String.class), clazz) : clazz;
+		AbstractJClass retType = container ? cm.ref(Map.class).narrow(cm.ref(String.class), clazz) : clazz;
 		// the cache of the load
 		JVar cache = clazz.field(JMod.PRIVATE | JMod.STATIC, retType, "cache").init(JExpr.direct("null"));
 		// body method for load
@@ -285,7 +285,12 @@ public class ItemsTranslater {
 		JCatchBlock catchblk = tryblock._catch(cm.ref(Exception.class));
 		catchblk.body()._throw(JExpr._new(cm.ref(UnsupportedOperationException.class)).arg(JExpr.lit("catch this"))
 				.arg(catchblk.param("exception")));
-		load.body()._return(JExpr.direct("cache"));
+
+		if (container) {
+			load.body()._return(cm.ref(Collections.class).staticInvoke("unmodifiableMap").arg(cache));
+		} else {
+			load.body()._return(cache);
+		}
 
 	}
 }

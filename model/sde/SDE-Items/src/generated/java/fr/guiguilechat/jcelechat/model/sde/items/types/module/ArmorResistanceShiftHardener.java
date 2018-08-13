@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -133,7 +135,7 @@ public class ArmorResistanceShiftHardener
     @DefaultIntValue(0)
     public int ResistanceShiftAmount;
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorResistanceShiftHardener.yaml";
-    private static LinkedHashMap<String, ArmorResistanceShiftHardener> cache = (null);
+    private static Map<String, ArmorResistanceShiftHardener> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -223,7 +225,7 @@ public class ArmorResistanceShiftHardener
         return ArmorResistanceShiftHardener.class;
     }
 
-    public static synchronized LinkedHashMap<String, ArmorResistanceShiftHardener> load() {
+    public static synchronized Map<String, ArmorResistanceShiftHardener> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ArmorResistanceShiftHardener.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -231,7 +233,7 @@ public class ArmorResistanceShiftHardener
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

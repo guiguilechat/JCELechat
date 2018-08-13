@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -20,7 +22,7 @@ public class CapitalConstructionComponents
     @DefaultIntValue(1)
     public int MoonMiningAmount;
     public final static String RESOURCE_PATH = "SDE/items/commodity/CapitalConstructionComponents.yaml";
-    private static LinkedHashMap<String, CapitalConstructionComponents> cache = (null);
+    private static Map<String, CapitalConstructionComponents> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -46,7 +48,7 @@ public class CapitalConstructionComponents
         return CapitalConstructionComponents.class;
     }
 
-    public static synchronized LinkedHashMap<String, CapitalConstructionComponents> load() {
+    public static synchronized Map<String, CapitalConstructionComponents> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CapitalConstructionComponents.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -54,7 +56,7 @@ public class CapitalConstructionComponents
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

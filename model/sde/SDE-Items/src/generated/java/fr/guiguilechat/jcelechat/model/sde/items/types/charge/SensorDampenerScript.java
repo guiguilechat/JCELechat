@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -56,7 +58,7 @@ public class SensorDampenerScript
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/SensorDampenerScript.yaml";
-    private static LinkedHashMap<String, SensorDampenerScript> cache = (null);
+    private static Map<String, SensorDampenerScript> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -102,7 +104,7 @@ public class SensorDampenerScript
         return SensorDampenerScript.class;
     }
 
-    public static synchronized LinkedHashMap<String, SensorDampenerScript> load() {
+    public static synchronized Map<String, SensorDampenerScript> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SensorDampenerScript.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -110,7 +112,7 @@ public class SensorDampenerScript
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

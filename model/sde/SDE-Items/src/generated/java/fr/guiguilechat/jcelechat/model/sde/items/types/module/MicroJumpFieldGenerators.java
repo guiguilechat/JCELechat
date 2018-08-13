@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -133,7 +135,7 @@ public class MicroJumpFieldGenerators
     @DefaultIntValue(0)
     public int SignatureRadiusBonusPercent;
     public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
-    private static LinkedHashMap<String, MicroJumpFieldGenerators> cache = (null);
+    private static Map<String, MicroJumpFieldGenerators> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -223,7 +225,7 @@ public class MicroJumpFieldGenerators
         return MicroJumpFieldGenerators.class;
     }
 
-    public static synchronized LinkedHashMap<String, MicroJumpFieldGenerators> load() {
+    public static synchronized Map<String, MicroJumpFieldGenerators> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MicroJumpFieldGenerators.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -231,7 +233,7 @@ public class MicroJumpFieldGenerators
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

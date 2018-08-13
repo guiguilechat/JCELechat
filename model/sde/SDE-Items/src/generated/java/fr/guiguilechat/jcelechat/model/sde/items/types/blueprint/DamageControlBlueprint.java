@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -44,7 +46,7 @@ public class DamageControlBlueprint
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DamageControlBlueprint.yaml";
-    private static LinkedHashMap<String, DamageControlBlueprint> cache = (null);
+    private static Map<String, DamageControlBlueprint> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -78,7 +80,7 @@ public class DamageControlBlueprint
         return DamageControlBlueprint.class;
     }
 
-    public static synchronized LinkedHashMap<String, DamageControlBlueprint> load() {
+    public static synchronized Map<String, DamageControlBlueprint> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(DamageControlBlueprint.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -86,7 +88,7 @@ public class DamageControlBlueprint
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

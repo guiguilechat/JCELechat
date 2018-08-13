@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -414,7 +416,7 @@ public class Frigate
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
     public final static String RESOURCE_PATH = "SDE/items/ship/Frigate.yaml";
-    private static LinkedHashMap<String, Frigate> cache = (null);
+    private static Map<String, Frigate> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -660,7 +662,7 @@ public class Frigate
         return Frigate.class;
     }
 
-    public static synchronized LinkedHashMap<String, Frigate> load() {
+    public static synchronized Map<String, Frigate> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Frigate.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -668,7 +670,7 @@ public class Frigate
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

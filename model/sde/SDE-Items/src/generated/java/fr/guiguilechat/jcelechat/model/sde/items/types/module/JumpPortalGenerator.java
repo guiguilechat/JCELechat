@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -154,7 +156,7 @@ public class JumpPortalGenerator
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
     public final static String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
-    private static LinkedHashMap<String, JumpPortalGenerator> cache = (null);
+    private static Map<String, JumpPortalGenerator> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -256,7 +258,7 @@ public class JumpPortalGenerator
         return JumpPortalGenerator.class;
     }
 
-    public static synchronized LinkedHashMap<String, JumpPortalGenerator> load() {
+    public static synchronized Map<String, JumpPortalGenerator> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(JumpPortalGenerator.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -264,7 +266,7 @@ public class JumpPortalGenerator
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

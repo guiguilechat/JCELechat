@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -78,7 +80,7 @@ public class MobileDecoyUnit
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDecoyUnit.yaml";
-    private static LinkedHashMap<String, MobileDecoyUnit> cache = (null);
+    private static Map<String, MobileDecoyUnit> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -136,7 +138,7 @@ public class MobileDecoyUnit
         return MobileDecoyUnit.class;
     }
 
-    public static synchronized LinkedHashMap<String, MobileDecoyUnit> load() {
+    public static synchronized Map<String, MobileDecoyUnit> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MobileDecoyUnit.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -144,7 +146,7 @@ public class MobileDecoyUnit
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

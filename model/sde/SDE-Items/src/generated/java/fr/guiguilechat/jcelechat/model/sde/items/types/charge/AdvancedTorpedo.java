@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -226,7 +228,7 @@ public class AdvancedTorpedo
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedTorpedo.yaml";
-    private static LinkedHashMap<String, AdvancedTorpedo> cache = (null);
+    private static Map<String, AdvancedTorpedo> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -368,7 +370,7 @@ public class AdvancedTorpedo
         return AdvancedTorpedo.class;
     }
 
-    public static synchronized LinkedHashMap<String, AdvancedTorpedo> load() {
+    public static synchronized Map<String, AdvancedTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(AdvancedTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -376,7 +378,7 @@ public class AdvancedTorpedo
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

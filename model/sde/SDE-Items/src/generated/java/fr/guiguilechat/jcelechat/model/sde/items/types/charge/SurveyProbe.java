@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -120,7 +122,7 @@ public class SurveyProbe
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
-    private static LinkedHashMap<String, SurveyProbe> cache = (null);
+    private static Map<String, SurveyProbe> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -202,7 +204,7 @@ public class SurveyProbe
         return SurveyProbe.class;
     }
 
-    public static synchronized LinkedHashMap<String, SurveyProbe> load() {
+    public static synchronized Map<String, SurveyProbe> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SurveyProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -210,7 +212,7 @@ public class SurveyProbe
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

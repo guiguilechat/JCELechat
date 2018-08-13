@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -49,7 +51,7 @@ public class CommandCenters
     @DefaultIntValue(0)
     public int PowerOutput;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/CommandCenters.yaml";
-    private static LinkedHashMap<String, CommandCenters> cache = (null);
+    private static Map<String, CommandCenters> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -91,7 +93,7 @@ public class CommandCenters
         return CommandCenters.class;
     }
 
-    public static synchronized LinkedHashMap<String, CommandCenters> load() {
+    public static synchronized Map<String, CommandCenters> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CommandCenters.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -99,7 +101,7 @@ public class CommandCenters
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

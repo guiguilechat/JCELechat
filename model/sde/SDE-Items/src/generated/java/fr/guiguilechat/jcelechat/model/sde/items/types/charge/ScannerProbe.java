@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -142,7 +144,7 @@ public class ScannerProbe
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
-    private static LinkedHashMap<String, ScannerProbe> cache = (null);
+    private static Map<String, ScannerProbe> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -232,7 +234,7 @@ public class ScannerProbe
         return ScannerProbe.class;
     }
 
-    public static synchronized LinkedHashMap<String, ScannerProbe> load() {
+    public static synchronized Map<String, ScannerProbe> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ScannerProbe.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -240,7 +242,7 @@ public class ScannerProbe
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

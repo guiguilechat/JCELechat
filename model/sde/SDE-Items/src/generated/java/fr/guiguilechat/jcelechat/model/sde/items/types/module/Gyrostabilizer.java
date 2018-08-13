@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -71,7 +73,7 @@ public class Gyrostabilizer
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
     public final static String RESOURCE_PATH = "SDE/items/module/Gyrostabilizer.yaml";
-    private static LinkedHashMap<String, Gyrostabilizer> cache = (null);
+    private static Map<String, Gyrostabilizer> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -121,7 +123,7 @@ public class Gyrostabilizer
         return Gyrostabilizer.class;
     }
 
-    public static synchronized LinkedHashMap<String, Gyrostabilizer> load() {
+    public static synchronized Map<String, Gyrostabilizer> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(Gyrostabilizer.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -129,7 +131,7 @@ public class Gyrostabilizer
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -176,7 +178,7 @@ public class MissileLauncherRapidTorpedo
     @DefaultIntValue(0)
     public int TypeColorScheme;
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherRapidTorpedo.yaml";
-    private static LinkedHashMap<String, MissileLauncherRapidTorpedo> cache = (null);
+    private static Map<String, MissileLauncherRapidTorpedo> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -286,7 +288,7 @@ public class MissileLauncherRapidTorpedo
         return MissileLauncherRapidTorpedo.class;
     }
 
-    public static synchronized LinkedHashMap<String, MissileLauncherRapidTorpedo> load() {
+    public static synchronized Map<String, MissileLauncherRapidTorpedo> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(MissileLauncherRapidTorpedo.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -294,7 +296,7 @@ public class MissileLauncherRapidTorpedo
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

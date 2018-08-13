@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -127,7 +129,7 @@ public class StructureResourceRigLReprocessing
     @DefaultIntValue(0)
     public int UpgradeCost;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigLReprocessing.yaml";
-    private static LinkedHashMap<String, StructureResourceRigLReprocessing> cache = (null);
+    private static Map<String, StructureResourceRigLReprocessing> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -213,7 +215,7 @@ public class StructureResourceRigLReprocessing
         return StructureResourceRigLReprocessing.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureResourceRigLReprocessing> load() {
+    public static synchronized Map<String, StructureResourceRigLReprocessing> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureResourceRigLReprocessing.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -221,7 +223,7 @@ public class StructureResourceRigLReprocessing
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

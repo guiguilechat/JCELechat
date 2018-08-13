@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -112,7 +114,7 @@ public class RigNavigation
     @DefaultIntValue(0)
     public int WarpCapacitorNeedBonus;
     public final static String RESOURCE_PATH = "SDE/items/module/RigNavigation.yaml";
-    private static LinkedHashMap<String, RigNavigation> cache = (null);
+    private static Map<String, RigNavigation> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -190,7 +192,7 @@ public class RigNavigation
         return RigNavigation.class;
     }
 
-    public static synchronized LinkedHashMap<String, RigNavigation> load() {
+    public static synchronized Map<String, RigNavigation> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(RigNavigation.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -198,7 +200,7 @@ public class RigNavigation
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

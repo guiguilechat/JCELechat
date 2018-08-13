@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -156,7 +158,7 @@ public class StructureStasisWebifier
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureStasisWebifier.yaml";
-    private static LinkedHashMap<String, StructureStasisWebifier> cache = (null);
+    private static Map<String, StructureStasisWebifier> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -258,7 +260,7 @@ public class StructureStasisWebifier
         return StructureStasisWebifier.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureStasisWebifier> load() {
+    public static synchronized Map<String, StructureStasisWebifier> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureStasisWebifier.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -266,7 +268,7 @@ public class StructureStasisWebifier
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

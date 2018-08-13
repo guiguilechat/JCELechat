@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -76,7 +78,7 @@ public class ExtractorControlUnits
     @DefaultIntValue(0)
     public int PowerLoad;
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/ExtractorControlUnits.yaml";
-    private static LinkedHashMap<String, ExtractorControlUnits> cache = (null);
+    private static Map<String, ExtractorControlUnits> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -134,7 +136,7 @@ public class ExtractorControlUnits
         return ExtractorControlUnits.class;
     }
 
-    public static synchronized LinkedHashMap<String, ExtractorControlUnits> load() {
+    public static synchronized Map<String, ExtractorControlUnits> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(ExtractorControlUnits.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -142,7 +144,7 @@ public class ExtractorControlUnits
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

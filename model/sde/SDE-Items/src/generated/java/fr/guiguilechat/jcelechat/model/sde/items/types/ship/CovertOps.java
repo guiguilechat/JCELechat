@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -337,7 +339,7 @@ public class CovertOps
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
     public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
-    private static LinkedHashMap<String, CovertOps> cache = (null);
+    private static Map<String, CovertOps> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -539,7 +541,7 @@ public class CovertOps
         return CovertOps.class;
     }
 
-    public static synchronized LinkedHashMap<String, CovertOps> load() {
+    public static synchronized Map<String, CovertOps> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(CovertOps.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -547,7 +549,7 @@ public class CovertOps
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

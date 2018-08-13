@@ -55,6 +55,6 @@ public class MetaInf {
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return cache;
     }
 }

@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -189,7 +191,7 @@ public class SupportFighter
     @DefaultIntValue(0)
     public int FighterSquadronIsSupport;
     public final static String RESOURCE_PATH = "SDE/items/fighter/SupportFighter.yaml";
-    private static LinkedHashMap<String, SupportFighter> cache = (null);
+    private static Map<String, SupportFighter> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -311,7 +313,7 @@ public class SupportFighter
         return SupportFighter.class;
     }
 
-    public static synchronized LinkedHashMap<String, SupportFighter> load() {
+    public static synchronized Map<String, SupportFighter> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(SupportFighter.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -319,7 +321,7 @@ public class SupportFighter
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {

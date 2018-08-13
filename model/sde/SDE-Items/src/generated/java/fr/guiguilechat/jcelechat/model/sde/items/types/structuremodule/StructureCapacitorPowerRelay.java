@@ -1,7 +1,9 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
@@ -80,7 +82,7 @@ public class StructureCapacitorPowerRelay
     @DefaultIntValue(1)
     public int TechLevel;
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCapacitorPowerRelay.yaml";
-    private static LinkedHashMap<String, StructureCapacitorPowerRelay> cache = (null);
+    private static Map<String, StructureCapacitorPowerRelay> cache = (null);
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -134,7 +136,7 @@ public class StructureCapacitorPowerRelay
         return StructureCapacitorPowerRelay.class;
     }
 
-    public static synchronized LinkedHashMap<String, StructureCapacitorPowerRelay> load() {
+    public static synchronized Map<String, StructureCapacitorPowerRelay> load() {
         if (cache == null) {
             try {
                 cache = new Yaml().loadAs(new InputStreamReader(StructureCapacitorPowerRelay.class.getClassLoader().getResourceAsStream((RESOURCE_PATH))), (Container.class)).items;
@@ -142,7 +144,7 @@ public class StructureCapacitorPowerRelay
                 throw new UnsupportedOperationException("catch this", exception);
             }
         }
-        return (cache);
+        return Collections.unmodifiableMap(cache);
     }
 
     private static class Container {
