@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -213,6 +215,7 @@ public class Bomb
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static Bomb.MetaGroup METAGROUP = new Bomb.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/Bomb.yaml";
     private static Map<String, Bomb> cache = (null);
 
@@ -344,8 +347,8 @@ public class Bomb
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Bomb.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Bomb> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Bomb> load() {
@@ -361,5 +364,25 @@ public class Bomb
 
     private static class Container {
         public LinkedHashMap<String, Bomb> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Bomb>
+    {
+
+        @Override
+        public MetaCategory<? super Bomb> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Bomb";
+        }
+
+        @Override
+        public Collection<Bomb> items() {
+            return (load().values());
+        }
     }
 }

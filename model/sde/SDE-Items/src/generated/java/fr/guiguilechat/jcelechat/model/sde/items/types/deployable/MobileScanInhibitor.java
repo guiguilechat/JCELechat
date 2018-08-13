@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -79,6 +81,7 @@ public class MobileScanInhibitor
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static MobileScanInhibitor.MetaGroup METAGROUP = new MobileScanInhibitor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileScanInhibitor.yaml";
     private static Map<String, MobileScanInhibitor> cache = (null);
 
@@ -134,8 +137,8 @@ public class MobileScanInhibitor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileScanInhibitor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileScanInhibitor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileScanInhibitor> load() {
@@ -151,5 +154,25 @@ public class MobileScanInhibitor
 
     private static class Container {
         public LinkedHashMap<String, MobileScanInhibitor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileScanInhibitor>
+    {
+
+        @Override
+        public MetaCategory<? super MobileScanInhibitor> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileScanInhibitor";
+        }
+
+        @Override
+        public Collection<MobileScanInhibitor> items() {
+            return (load().values());
+        }
     }
 }

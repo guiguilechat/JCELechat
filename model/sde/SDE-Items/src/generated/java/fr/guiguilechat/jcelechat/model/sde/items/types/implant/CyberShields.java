@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -93,6 +95,7 @@ public class CyberShields
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
+    public final static CyberShields.MetaGroup METAGROUP = new CyberShields.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberShields.yaml";
     private static Map<String, CyberShields> cache = (null);
 
@@ -156,8 +159,8 @@ public class CyberShields
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberShields.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberShields> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberShields> load() {
@@ -173,5 +176,25 @@ public class CyberShields
 
     private static class Container {
         public LinkedHashMap<String, CyberShields> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberShields>
+    {
+
+        @Override
+        public MetaCategory<? super CyberShields> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberShields";
+        }
+
+        @Override
+        public Collection<CyberShields> items() {
+            return (load().values());
+        }
     }
 }

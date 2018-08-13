@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -277,6 +279,7 @@ public class ControlTower
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/ControlTower.yaml";
     private static Map<String, ControlTower> cache = (null);
 
@@ -440,8 +443,8 @@ public class ControlTower
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ControlTower.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ControlTower> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ControlTower> load() {
@@ -457,5 +460,25 @@ public class ControlTower
 
     private static class Container {
         public LinkedHashMap<String, ControlTower> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ControlTower>
+    {
+
+        @Override
+        public MetaCategory<? super ControlTower> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ControlTower";
+        }
+
+        @Override
+        public Collection<ControlTower> items() {
+            return (load().values());
+        }
     }
 }

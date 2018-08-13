@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class Composite
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
+    public final static Composite.MetaGroup METAGROUP = new Composite.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/material/Composite.yaml";
     private static Map<String, Composite> cache = (null);
 
@@ -44,8 +47,8 @@ public class Composite
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Composite.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Composite> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Composite> load() {
@@ -61,5 +64,25 @@ public class Composite
 
     private static class Container {
         public LinkedHashMap<String, Composite> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Composite>
+    {
+
+        @Override
+        public MetaCategory<? super Composite> category() {
+            return Material.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Composite";
+        }
+
+        @Override
+        public Collection<Composite> items() {
+            return (load().values());
+        }
     }
 }

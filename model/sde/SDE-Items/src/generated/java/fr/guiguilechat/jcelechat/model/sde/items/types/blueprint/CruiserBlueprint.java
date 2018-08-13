@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -37,6 +39,7 @@ public class CruiserBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CruiserBlueprint.MetaGroup METAGROUP = new CruiserBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CruiserBlueprint.yaml";
     private static Map<String, CruiserBlueprint> cache = (null);
 
@@ -68,8 +71,8 @@ public class CruiserBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CruiserBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CruiserBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CruiserBlueprint> load() {
@@ -85,5 +88,25 @@ public class CruiserBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CruiserBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CruiserBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CruiserBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CruiserBlueprint";
+        }
+
+        @Override
+        public Collection<CruiserBlueprint> items() {
+            return (load().values());
+        }
     }
 }

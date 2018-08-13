@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -218,6 +220,7 @@ public class TacticalDestroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static TacticalDestroyer.MetaGroup METAGROUP = new TacticalDestroyer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/TacticalDestroyer.yaml";
     private static Map<String, TacticalDestroyer> cache = (null);
 
@@ -353,8 +356,8 @@ public class TacticalDestroyer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TacticalDestroyer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TacticalDestroyer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TacticalDestroyer> load() {
@@ -370,5 +373,25 @@ public class TacticalDestroyer
 
     private static class Container {
         public LinkedHashMap<String, TacticalDestroyer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TacticalDestroyer>
+    {
+
+        @Override
+        public MetaCategory<? super TacticalDestroyer> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TacticalDestroyer";
+        }
+
+        @Override
+        public Collection<TacticalDestroyer> items() {
+            return (load().values());
+        }
     }
 }

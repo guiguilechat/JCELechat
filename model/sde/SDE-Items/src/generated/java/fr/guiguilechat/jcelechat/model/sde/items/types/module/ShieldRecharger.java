@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class ShieldRecharger
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
+    public final static ShieldRecharger.MetaGroup METAGROUP = new ShieldRecharger.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldRecharger.yaml";
     private static Map<String, ShieldRecharger> cache = (null);
 
@@ -108,8 +111,8 @@ public class ShieldRecharger
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldRecharger.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRecharger> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldRecharger> load() {
@@ -125,5 +128,25 @@ public class ShieldRecharger
 
     private static class Container {
         public LinkedHashMap<String, ShieldRecharger> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRecharger>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldRecharger> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldRecharger";
+        }
+
+        @Override
+        public Collection<ShieldRecharger> items() {
+            return (load().values());
+        }
     }
 }

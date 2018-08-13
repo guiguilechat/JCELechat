@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class CloakingDeviceBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CloakingDeviceBlueprint.MetaGroup METAGROUP = new CloakingDeviceBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CloakingDeviceBlueprint.yaml";
     private static Map<String, CloakingDeviceBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class CloakingDeviceBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CloakingDeviceBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloakingDeviceBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CloakingDeviceBlueprint> load() {
@@ -74,5 +77,25 @@ public class CloakingDeviceBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CloakingDeviceBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloakingDeviceBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CloakingDeviceBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CloakingDeviceBlueprint";
+        }
+
+        @Override
+        public Collection<CloakingDeviceBlueprint> items() {
+            return (load().values());
+        }
     }
 }

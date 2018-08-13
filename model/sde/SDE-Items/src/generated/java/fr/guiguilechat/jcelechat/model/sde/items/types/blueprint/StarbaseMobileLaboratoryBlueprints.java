@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseMobileLaboratoryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseMobileLaboratoryBlueprints.MetaGroup METAGROUP = new StarbaseMobileLaboratoryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMobileLaboratoryBlueprints.yaml";
     private static Map<String, StarbaseMobileLaboratoryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseMobileLaboratoryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseMobileLaboratoryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMobileLaboratoryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseMobileLaboratoryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseMobileLaboratoryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseMobileLaboratoryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMobileLaboratoryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseMobileLaboratoryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseMobileLaboratoryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseMobileLaboratoryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

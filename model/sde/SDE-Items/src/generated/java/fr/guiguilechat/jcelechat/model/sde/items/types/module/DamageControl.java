@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -233,6 +235,7 @@ public class DamageControl
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
+    public final static DamageControl.MetaGroup METAGROUP = new DamageControl.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/DamageControl.yaml";
     private static Map<String, DamageControl> cache = (null);
 
@@ -372,8 +375,8 @@ public class DamageControl
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DamageControl.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DamageControl> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DamageControl> load() {
@@ -389,5 +392,25 @@ public class DamageControl
 
     private static class Container {
         public LinkedHashMap<String, DamageControl> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DamageControl>
+    {
+
+        @Override
+        public MetaCategory<? super DamageControl> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DamageControl";
+        }
+
+        @Override
+        public Collection<DamageControl> items() {
+            return (load().values());
+        }
     }
 }

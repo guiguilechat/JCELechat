@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -204,6 +206,7 @@ public class TitanPhenomenaGenerator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WarfareBuff4Value;
+    public final static TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/TitanPhenomenaGenerator.yaml";
     private static Map<String, TitanPhenomenaGenerator> cache = (null);
 
@@ -331,8 +334,8 @@ public class TitanPhenomenaGenerator
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TitanPhenomenaGenerator.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TitanPhenomenaGenerator> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TitanPhenomenaGenerator> load() {
@@ -348,5 +351,25 @@ public class TitanPhenomenaGenerator
 
     private static class Container {
         public LinkedHashMap<String, TitanPhenomenaGenerator> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TitanPhenomenaGenerator>
+    {
+
+        @Override
+        public MetaCategory<? super TitanPhenomenaGenerator> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TitanPhenomenaGenerator";
+        }
+
+        @Override
+        public Collection<TitanPhenomenaGenerator> items() {
+            return (load().values());
+        }
     }
 }

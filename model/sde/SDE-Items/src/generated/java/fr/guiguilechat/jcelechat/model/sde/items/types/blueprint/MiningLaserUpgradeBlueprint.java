@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class MiningLaserUpgradeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static MiningLaserUpgradeBlueprint.MetaGroup METAGROUP = new MiningLaserUpgradeBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MiningLaserUpgradeBlueprint.yaml";
     private static Map<String, MiningLaserUpgradeBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class MiningLaserUpgradeBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MiningLaserUpgradeBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningLaserUpgradeBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MiningLaserUpgradeBlueprint> load() {
@@ -74,5 +77,25 @@ public class MiningLaserUpgradeBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MiningLaserUpgradeBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningLaserUpgradeBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MiningLaserUpgradeBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MiningLaserUpgradeBlueprint";
+        }
+
+        @Override
+        public Collection<MiningLaserUpgradeBlueprint> items() {
+            return (load().values());
+        }
     }
 }

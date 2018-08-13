@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class ShieldRechargerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ShieldRechargerBlueprint.MetaGroup METAGROUP = new ShieldRechargerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldRechargerBlueprint.yaml";
     private static Map<String, ShieldRechargerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class ShieldRechargerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldRechargerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRechargerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldRechargerBlueprint> load() {
@@ -74,5 +77,25 @@ public class ShieldRechargerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ShieldRechargerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldRechargerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldRechargerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldRechargerBlueprint";
+        }
+
+        @Override
+        public Collection<ShieldRechargerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

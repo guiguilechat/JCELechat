@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -92,6 +94,7 @@ public class RigEnergyWeapon
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static RigEnergyWeapon.MetaGroup METAGROUP = new RigEnergyWeapon.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RigEnergyWeapon.yaml";
     private static Map<String, RigEnergyWeapon> cache = (null);
 
@@ -155,8 +158,8 @@ public class RigEnergyWeapon
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigEnergyWeapon.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigEnergyWeapon> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigEnergyWeapon> load() {
@@ -172,5 +175,25 @@ public class RigEnergyWeapon
 
     private static class Container {
         public LinkedHashMap<String, RigEnergyWeapon> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigEnergyWeapon>
+    {
+
+        @Override
+        public MetaCategory<? super RigEnergyWeapon> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigEnergyWeapon";
+        }
+
+        @Override
+        public Collection<RigEnergyWeapon> items() {
+            return (load().values());
+        }
     }
 }

@@ -58,7 +58,7 @@ public class LootAnalysis {
 				totalDrop.put(id, totalDrop.getOrDefault(id, 0) + nb);
 				Item t = MetaInf.getItem(id);
 				if (t != null) {
-					if (t.getCategory().equals(Blueprint.class)) {
+					if (t.getCategory().equals(Blueprint.METACAT)) {
 						containsBP.add(null);
 						bps.add(t.name);
 					}

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.fighter;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -310,6 +312,7 @@ public class HeavyFighter
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
+    public final static HeavyFighter.MetaGroup METAGROUP = new HeavyFighter.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/fighter/HeavyFighter.yaml";
     private static Map<String, HeavyFighter> cache = (null);
 
@@ -493,8 +496,8 @@ public class HeavyFighter
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HeavyFighter.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyFighter> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HeavyFighter> load() {
@@ -510,5 +513,25 @@ public class HeavyFighter
 
     private static class Container {
         public LinkedHashMap<String, HeavyFighter> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyFighter>
+    {
+
+        @Override
+        public MetaCategory<? super HeavyFighter> category() {
+            return Fighter.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HeavyFighter";
+        }
+
+        @Override
+        public Collection<HeavyFighter> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -114,6 +116,7 @@ public class ShieldBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
+    public final static ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldBooster.yaml";
     private static Map<String, ShieldBooster> cache = (null);
 
@@ -185,8 +188,8 @@ public class ShieldBooster
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldBooster.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBooster> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldBooster> load() {
@@ -202,5 +205,25 @@ public class ShieldBooster
 
     private static class Container {
         public LinkedHashMap<String, ShieldBooster> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBooster>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldBooster> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldBooster";
+        }
+
+        @Override
+        public Collection<ShieldBooster> items() {
+            return (load().values());
+        }
     }
 }

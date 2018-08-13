@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class SpecialEditionCommodityBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static SpecialEditionCommodityBlueprints.MetaGroup METAGROUP = new SpecialEditionCommodityBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/SpecialEditionCommodityBlueprints.yaml";
     private static Map<String, SpecialEditionCommodityBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class SpecialEditionCommodityBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SpecialEditionCommodityBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpecialEditionCommodityBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SpecialEditionCommodityBlueprints> load() {
@@ -61,5 +64,25 @@ public class SpecialEditionCommodityBlueprints
 
     private static class Container {
         public LinkedHashMap<String, SpecialEditionCommodityBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpecialEditionCommodityBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super SpecialEditionCommodityBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SpecialEditionCommodityBlueprints";
+        }
+
+        @Override
+        public Collection<SpecialEditionCommodityBlueprints> items() {
+            return (load().values());
+        }
     }
 }

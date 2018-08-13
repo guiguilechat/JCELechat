@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class CapacitorRecharger
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static CapacitorRecharger.MetaGroup METAGROUP = new CapacitorRecharger.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CapacitorRecharger.yaml";
     private static Map<String, CapacitorRecharger> cache = (null);
 
@@ -108,8 +111,8 @@ public class CapacitorRecharger
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CapacitorRecharger.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorRecharger> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CapacitorRecharger> load() {
@@ -125,5 +128,25 @@ public class CapacitorRecharger
 
     private static class Container {
         public LinkedHashMap<String, CapacitorRecharger> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorRecharger>
+    {
+
+        @Override
+        public MetaCategory<? super CapacitorRecharger> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CapacitorRecharger";
+        }
+
+        @Override
+        public Collection<CapacitorRecharger> items() {
+            return (load().values());
+        }
     }
 }

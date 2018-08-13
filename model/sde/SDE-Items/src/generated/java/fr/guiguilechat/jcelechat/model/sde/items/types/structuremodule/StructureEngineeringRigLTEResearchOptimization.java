@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigLTEResearchOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLTEResearchOptimization.MetaGroup METAGROUP = new StructureEngineeringRigLTEResearchOptimization.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLTEResearchOptimization.yaml";
     private static Map<String, StructureEngineeringRigLTEResearchOptimization> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigLTEResearchOptimization
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLTEResearchOptimization.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLTEResearchOptimization> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLTEResearchOptimization> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigLTEResearchOptimization
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLTEResearchOptimization> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLTEResearchOptimization>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLTEResearchOptimization> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLTEResearchOptimization";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLTEResearchOptimization> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -200,6 +202,7 @@ public class XLTorpedo
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static XLTorpedo.MetaGroup METAGROUP = new XLTorpedo.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/XLTorpedo.yaml";
     private static Map<String, XLTorpedo> cache = (null);
 
@@ -319,8 +322,8 @@ public class XLTorpedo
     }
 
     @Override
-    public Class<?> getGroup() {
-        return XLTorpedo.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<XLTorpedo> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, XLTorpedo> load() {
@@ -336,5 +339,25 @@ public class XLTorpedo
 
     private static class Container {
         public LinkedHashMap<String, XLTorpedo> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<XLTorpedo>
+    {
+
+        @Override
+        public MetaCategory<? super XLTorpedo> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "XLTorpedo";
+        }
+
+        @Override
+        public Collection<XLTorpedo> items() {
+            return (load().values());
+        }
     }
 }

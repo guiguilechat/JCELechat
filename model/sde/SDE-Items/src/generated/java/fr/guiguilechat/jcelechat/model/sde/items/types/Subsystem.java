@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -88,6 +92,7 @@ public abstract class Subsystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -145,11 +150,27 @@ public abstract class Subsystem
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Subsystem.class;
+    public MetaCategory<Subsystem> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Subsystem> loadCategory() {
         return Stream.of(CoreSystems.load(), DefensiveSystems.load(), OffensiveSystems.load(), PropulsionSystems.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Subsystem>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Subsystem> [] groups = new MetaGroup[] {DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Subsystem";
+        }
+
+        public Collection<MetaGroup<? extends Subsystem>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

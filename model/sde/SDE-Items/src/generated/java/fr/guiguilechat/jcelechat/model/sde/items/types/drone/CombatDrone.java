@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -248,6 +250,7 @@ public class CombatDrone
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeed;
+    public final static CombatDrone.MetaGroup METAGROUP = new CombatDrone.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/drone/CombatDrone.yaml";
     private static Map<String, CombatDrone> cache = (null);
 
@@ -395,8 +398,8 @@ public class CombatDrone
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CombatDrone.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatDrone> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CombatDrone> load() {
@@ -412,5 +415,25 @@ public class CombatDrone
 
     private static class Container {
         public LinkedHashMap<String, CombatDrone> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatDrone>
+    {
+
+        @Override
+        public MetaCategory<? super CombatDrone> category() {
+            return Drone.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CombatDrone";
+        }
+
+        @Override
+        public Collection<CombatDrone> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -94,6 +96,7 @@ public class StructureFittingModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureFittingModule.MetaGroup METAGROUP = new StructureFittingModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureFittingModule.yaml";
     private static Map<String, StructureFittingModule> cache = (null);
 
@@ -157,8 +160,8 @@ public class StructureFittingModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureFittingModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureFittingModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureFittingModule> load() {
@@ -174,5 +177,25 @@ public class StructureFittingModule
 
     private static class Container {
         public LinkedHashMap<String, StructureFittingModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureFittingModule>
+    {
+
+        @Override
+        public MetaCategory<? super StructureFittingModule> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureFittingModule";
+        }
+
+        @Override
+        public Collection<StructureFittingModule> items() {
+            return (load().values());
+        }
     }
 }

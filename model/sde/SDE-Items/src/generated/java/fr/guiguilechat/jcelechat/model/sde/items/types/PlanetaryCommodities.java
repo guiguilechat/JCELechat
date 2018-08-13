@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -30,6 +34,7 @@ public abstract class PlanetaryCommodities
     @Stackable(true)
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
+    public final static PlanetaryCommodities.MetaCat METACAT = new PlanetaryCommodities.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -55,11 +60,27 @@ public abstract class PlanetaryCommodities
     }
 
     @Override
-    public Class<?> getCategory() {
-        return PlanetaryCommodities.class;
+    public MetaCategory<PlanetaryCommodities> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends PlanetaryCommodities> loadCategory() {
         return Stream.of(AdvancedCommoditiesTier4 .load(), BasicCommoditiesTier1 .load(), RefinedCommoditiesTier2 .load(), SpecializedCommoditiesTier3 .load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<PlanetaryCommodities>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends PlanetaryCommodities> [] groups = new MetaGroup[] {RefinedCommoditiesTier2 .METAGROUP, SpecializedCommoditiesTier3 .METAGROUP, AdvancedCommoditiesTier4 .METAGROUP, BasicCommoditiesTier1 .METAGROUP };
+
+        @Override
+        public String getName() {
+            return "PlanetaryCommodities";
+        }
+
+        public Collection<MetaGroup<? extends PlanetaryCommodities>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

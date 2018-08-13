@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -163,6 +165,7 @@ public class MissileLauncherHeavyAssault
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static MissileLauncherHeavyAssault.MetaGroup METAGROUP = new MissileLauncherHeavyAssault.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherHeavyAssault.yaml";
     private static Map<String, MissileLauncherHeavyAssault> cache = (null);
 
@@ -262,8 +265,8 @@ public class MissileLauncherHeavyAssault
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileLauncherHeavyAssault.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherHeavyAssault> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileLauncherHeavyAssault> load() {
@@ -279,5 +282,25 @@ public class MissileLauncherHeavyAssault
 
     private static class Container {
         public LinkedHashMap<String, MissileLauncherHeavyAssault> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherHeavyAssault>
+    {
+
+        @Override
+        public MetaCategory<? super MissileLauncherHeavyAssault> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileLauncherHeavyAssault";
+        }
+
+        @Override
+        public Collection<MissileLauncherHeavyAssault> items() {
+            return (load().values());
+        }
     }
 }

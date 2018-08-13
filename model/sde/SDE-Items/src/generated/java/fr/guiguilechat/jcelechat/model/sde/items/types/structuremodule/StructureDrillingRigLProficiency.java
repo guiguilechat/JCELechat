@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -107,6 +109,7 @@ public class StructureDrillingRigLProficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureDrillingRigLProficiency.MetaGroup METAGROUP = new StructureDrillingRigLProficiency.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigLProficiency.yaml";
     private static Map<String, StructureDrillingRigLProficiency> cache = (null);
 
@@ -178,8 +181,8 @@ public class StructureDrillingRigLProficiency
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureDrillingRigLProficiency.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigLProficiency> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureDrillingRigLProficiency> load() {
@@ -195,5 +198,25 @@ public class StructureDrillingRigLProficiency
 
     private static class Container {
         public LinkedHashMap<String, StructureDrillingRigLProficiency> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigLProficiency>
+    {
+
+        @Override
+        public MetaCategory<? super StructureDrillingRigLProficiency> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureDrillingRigLProficiency";
+        }
+
+        @Override
+        public Collection<StructureDrillingRigLProficiency> items() {
+            return (load().values());
+        }
     }
 }

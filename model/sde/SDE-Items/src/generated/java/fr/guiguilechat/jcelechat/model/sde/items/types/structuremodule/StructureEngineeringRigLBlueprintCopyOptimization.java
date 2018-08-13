@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup METAGROUP = new StructureEngineeringRigLBlueprintCopyOptimization.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBlueprintCopyOptimization.yaml";
     private static Map<String, StructureEngineeringRigLBlueprintCopyOptimization> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLBlueprintCopyOptimization.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBlueprintCopyOptimization> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLBlueprintCopyOptimization> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigLBlueprintCopyOptimization
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLBlueprintCopyOptimization> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBlueprintCopyOptimization>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLBlueprintCopyOptimization> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLBlueprintCopyOptimization";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLBlueprintCopyOptimization> items() {
+            return (load().values());
+        }
     }
 }

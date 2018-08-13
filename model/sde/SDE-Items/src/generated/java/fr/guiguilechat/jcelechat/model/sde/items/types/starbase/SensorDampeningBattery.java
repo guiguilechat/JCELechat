@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -233,6 +235,7 @@ public class SensorDampeningBattery
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static SensorDampeningBattery.MetaGroup METAGROUP = new SensorDampeningBattery.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/SensorDampeningBattery.yaml";
     private static Map<String, SensorDampeningBattery> cache = (null);
 
@@ -372,8 +375,8 @@ public class SensorDampeningBattery
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SensorDampeningBattery.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorDampeningBattery> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SensorDampeningBattery> load() {
@@ -389,5 +392,25 @@ public class SensorDampeningBattery
 
     private static class Container {
         public LinkedHashMap<String, SensorDampeningBattery> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorDampeningBattery>
+    {
+
+        @Override
+        public MetaCategory<? super SensorDampeningBattery> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SensorDampeningBattery";
+        }
+
+        @Override
+        public Collection<SensorDampeningBattery> items() {
+            return (load().values());
+        }
     }
 }

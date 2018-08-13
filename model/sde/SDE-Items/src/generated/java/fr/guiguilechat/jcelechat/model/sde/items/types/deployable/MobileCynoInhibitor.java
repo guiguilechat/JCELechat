@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -79,6 +81,7 @@ public class MobileCynoInhibitor
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static MobileCynoInhibitor.MetaGroup METAGROUP = new MobileCynoInhibitor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileCynoInhibitor.yaml";
     private static Map<String, MobileCynoInhibitor> cache = (null);
 
@@ -134,8 +137,8 @@ public class MobileCynoInhibitor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileCynoInhibitor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileCynoInhibitor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileCynoInhibitor> load() {
@@ -151,5 +154,25 @@ public class MobileCynoInhibitor
 
     private static class Container {
         public LinkedHashMap<String, MobileCynoInhibitor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileCynoInhibitor>
+    {
+
+        @Override
+        public MetaCategory<? super MobileCynoInhibitor> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileCynoInhibitor";
+        }
+
+        @Override
+        public Collection<MobileCynoInhibitor> items() {
+            return (load().values());
+        }
     }
 }

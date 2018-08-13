@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class StructureAntiSubcapitalMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static StructureAntiSubcapitalMissile.MetaGroup METAGROUP = new StructureAntiSubcapitalMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiSubcapitalMissile.yaml";
     private static Map<String, StructureAntiSubcapitalMissile> cache = (null);
 
@@ -221,8 +224,8 @@ public class StructureAntiSubcapitalMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureAntiSubcapitalMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiSubcapitalMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureAntiSubcapitalMissile> load() {
@@ -238,5 +241,25 @@ public class StructureAntiSubcapitalMissile
 
     private static class Container {
         public LinkedHashMap<String, StructureAntiSubcapitalMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiSubcapitalMissile>
+    {
+
+        @Override
+        public MetaCategory<? super StructureAntiSubcapitalMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureAntiSubcapitalMissile";
+        }
+
+        @Override
+        public Collection<StructureAntiSubcapitalMissile> items() {
+            return (load().values());
+        }
     }
 }

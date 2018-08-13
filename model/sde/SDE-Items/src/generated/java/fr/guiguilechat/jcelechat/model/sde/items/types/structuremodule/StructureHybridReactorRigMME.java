@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -114,6 +116,7 @@ public class StructureHybridReactorRigMME
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureHybridReactorRigMME.MetaGroup METAGROUP = new StructureHybridReactorRigMME.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureHybridReactorRigMME.yaml";
     private static Map<String, StructureHybridReactorRigMME> cache = (null);
 
@@ -189,8 +192,8 @@ public class StructureHybridReactorRigMME
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureHybridReactorRigMME.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureHybridReactorRigMME> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureHybridReactorRigMME> load() {
@@ -206,5 +209,25 @@ public class StructureHybridReactorRigMME
 
     private static class Container {
         public LinkedHashMap<String, StructureHybridReactorRigMME> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureHybridReactorRigMME>
+    {
+
+        @Override
+        public MetaCategory<? super StructureHybridReactorRigMME> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureHybridReactorRigMME";
+        }
+
+        @Override
+        public Collection<StructureHybridReactorRigMME> items() {
+            return (load().values());
+        }
     }
 }

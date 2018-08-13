@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -240,6 +242,7 @@ public class HeavyInterdictionCruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static HeavyInterdictionCruiser.MetaGroup METAGROUP = new HeavyInterdictionCruiser.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/HeavyInterdictionCruiser.yaml";
     private static Map<String, HeavyInterdictionCruiser> cache = (null);
 
@@ -383,8 +386,8 @@ public class HeavyInterdictionCruiser
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HeavyInterdictionCruiser.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyInterdictionCruiser> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HeavyInterdictionCruiser> load() {
@@ -400,5 +403,25 @@ public class HeavyInterdictionCruiser
 
     private static class Container {
         public LinkedHashMap<String, HeavyInterdictionCruiser> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyInterdictionCruiser>
+    {
+
+        @Override
+        public MetaCategory<? super HeavyInterdictionCruiser> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HeavyInterdictionCruiser";
+        }
+
+        @Override
+        public Collection<HeavyInterdictionCruiser> items() {
+            return (load().values());
+        }
     }
 }

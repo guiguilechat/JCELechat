@@ -81,8 +81,20 @@ public class ClassBridge {
 
 		try {
 			swaggerItf = cm._class(rootPackage + "." + "G_ITransfer", EClassType.INTERFACE);
-			swaggerCOClass = cm._class(rootPackage + "." + "G_ICOAccess", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerItf.javadoc().add(
+					"interface for the basic capacities to<br />"
+							+ "<ul><li>send GET|PUT|POST|DELETE requests</li>"
+							+ "<li>convert a string into a class</li>"
+							+ "<li>flatten object into url parameter</li></ul>");
+
 			swaggerDCClass = cm._class(rootPackage + "." + "G_IDCAccess", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerDCClass.javadoc().add("interface to access the ESI without an account.<br />"
+					+ "This gives access to static data, eg items, markets, etc.");
+
+			swaggerCOClass = cm._class(rootPackage + "." + "G_ICOAccess", EClassType.INTERFACE)._extends(swaggerItf);
+			swaggerCOClass.javadoc().add("interface to access the ESI with a connected account.<br />"
+					+ "This typically gives access to the character information, corporation, etc.");
+
 		} catch (JClassAlreadyExistsException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
@@ -196,8 +208,11 @@ public class ClassBridge {
 	}
 
 	/**
-	 * get the {@link ObjectProperty} at first or second level. Some responses
-	 * return an object, other an array : in both case we return the object.
+	 * get the {@link ObjectProperty} at first or second level from a property. If
+	 * the property defines an object, return it ; if the property defines an
+	 * array, return the item type fo the array.<br />
+	 * So pasing as parameters a property which defines int[] or one which defines
+	 * int will both return int.
 	 *
 	 * @param s
 	 * @return the corresponding object property, or null.

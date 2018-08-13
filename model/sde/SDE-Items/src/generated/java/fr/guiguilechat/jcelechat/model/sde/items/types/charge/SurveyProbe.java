@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -121,6 +123,7 @@ public class SurveyProbe
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static SurveyProbe.MetaGroup METAGROUP = new SurveyProbe.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/SurveyProbe.yaml";
     private static Map<String, SurveyProbe> cache = (null);
 
@@ -200,8 +203,8 @@ public class SurveyProbe
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SurveyProbe.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbe> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SurveyProbe> load() {
@@ -217,5 +220,25 @@ public class SurveyProbe
 
     private static class Container {
         public LinkedHashMap<String, SurveyProbe> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbe>
+    {
+
+        @Override
+        public MetaCategory<? super SurveyProbe> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SurveyProbe";
+        }
+
+        @Override
+        public Collection<SurveyProbe> items() {
+            return (load().values());
+        }
     }
 }

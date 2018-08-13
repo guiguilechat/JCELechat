@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class FueledArmorRepairerBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static FueledArmorRepairerBlueprint.MetaGroup METAGROUP = new FueledArmorRepairerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/FueledArmorRepairerBlueprint.yaml";
     private static Map<String, FueledArmorRepairerBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class FueledArmorRepairerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FueledArmorRepairerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FueledArmorRepairerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FueledArmorRepairerBlueprint> load() {
@@ -61,5 +64,25 @@ public class FueledArmorRepairerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, FueledArmorRepairerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FueledArmorRepairerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super FueledArmorRepairerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FueledArmorRepairerBlueprint";
+        }
+
+        @Override
+        public Collection<FueledArmorRepairerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

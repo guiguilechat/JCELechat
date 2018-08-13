@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -50,6 +54,7 @@ public abstract class SovereigntyStructures
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
+    public final static SovereigntyStructures.MetaCat METACAT = new SovereigntyStructures.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -87,11 +92,27 @@ public abstract class SovereigntyStructures
     }
 
     @Override
-    public Class<?> getCategory() {
-        return SovereigntyStructures.class;
+    public MetaCategory<SovereigntyStructures> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends SovereigntyStructures> loadCategory() {
         return Stream.of(InfrastructureHub.load(), TerritorialClaimUnit.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<SovereigntyStructures>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends SovereigntyStructures> [] groups = new MetaGroup[] {TerritorialClaimUnit.METAGROUP, InfrastructureHub.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "SovereigntyStructures";
+        }
+
+        public Collection<MetaGroup<? extends SovereigntyStructures>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
 public class MaterialsAndCompounds
     extends Commodity
 {
+    public final static MaterialsAndCompounds.MetaGroup METAGROUP = new MaterialsAndCompounds.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/MaterialsAndCompounds.yaml";
     private static Map<String, MaterialsAndCompounds> cache = (null);
 
@@ -19,8 +22,8 @@ public class MaterialsAndCompounds
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MaterialsAndCompounds.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MaterialsAndCompounds> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MaterialsAndCompounds> load() {
@@ -36,5 +39,25 @@ public class MaterialsAndCompounds
 
     private static class Container {
         public LinkedHashMap<String, MaterialsAndCompounds> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MaterialsAndCompounds>
+    {
+
+        @Override
+        public MetaCategory<? super MaterialsAndCompounds> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MaterialsAndCompounds";
+        }
+
+        @Override
+        public Collection<MaterialsAndCompounds> items() {
+            return (load().values());
+        }
     }
 }

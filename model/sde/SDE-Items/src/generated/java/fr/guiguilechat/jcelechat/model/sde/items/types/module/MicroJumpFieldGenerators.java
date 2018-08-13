@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class MicroJumpFieldGenerators
     @Stackable(false)
     @DefaultIntValue(0)
     public int SignatureRadiusBonusPercent;
+    public final static MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpFieldGenerators.yaml";
     private static Map<String, MicroJumpFieldGenerators> cache = (null);
 
@@ -221,8 +224,8 @@ public class MicroJumpFieldGenerators
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MicroJumpFieldGenerators.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpFieldGenerators> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MicroJumpFieldGenerators> load() {
@@ -238,5 +241,25 @@ public class MicroJumpFieldGenerators
 
     private static class Container {
         public LinkedHashMap<String, MicroJumpFieldGenerators> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpFieldGenerators>
+    {
+
+        @Override
+        public MetaCategory<? super MicroJumpFieldGenerators> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MicroJumpFieldGenerators";
+        }
+
+        @Override
+        public Collection<MicroJumpFieldGenerators> items() {
+            return (load().values());
+        }
     }
 }

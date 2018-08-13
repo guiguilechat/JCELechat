@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -84,6 +86,7 @@ public class Production
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill3Level;
+    public final static Production.MetaGroup METAGROUP = new Production.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Production.yaml";
     private static Map<String, Production> cache = (null);
 
@@ -143,8 +146,8 @@ public class Production
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Production.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Production> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Production> load() {
@@ -160,5 +163,25 @@ public class Production
 
     private static class Container {
         public LinkedHashMap<String, Production> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Production>
+    {
+
+        @Override
+        public MetaCategory<? super Production> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Production";
+        }
+
+        @Override
+        public Collection<Production> items() {
+            return (load().values());
+        }
     }
 }

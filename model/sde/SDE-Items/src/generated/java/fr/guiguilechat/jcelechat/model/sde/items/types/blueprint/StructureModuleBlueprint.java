@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StructureModuleBlueprint
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    public final static StructureModuleBlueprint.MetaGroup METAGROUP = new StructureModuleBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StructureModuleBlueprint.yaml";
     private static Map<String, StructureModuleBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class StructureModuleBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureModuleBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureModuleBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureModuleBlueprint> load() {
@@ -61,5 +64,25 @@ public class StructureModuleBlueprint
 
     private static class Container {
         public LinkedHashMap<String, StructureModuleBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureModuleBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super StructureModuleBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureModuleBlueprint";
+        }
+
+        @Override
+        public Collection<StructureModuleBlueprint> items() {
+            return (load().values());
+        }
     }
 }

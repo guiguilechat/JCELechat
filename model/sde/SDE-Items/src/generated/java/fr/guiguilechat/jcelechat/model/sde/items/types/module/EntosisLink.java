@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -162,6 +164,7 @@ public class EntosisLink
     @Stackable(true)
     @DefaultIntValue(1000000)
     public int SpeedLimit;
+    public final static EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/EntosisLink.yaml";
     private static Map<String, EntosisLink> cache = (null);
 
@@ -265,8 +268,8 @@ public class EntosisLink
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EntosisLink.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EntosisLink> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EntosisLink> load() {
@@ -282,5 +285,25 @@ public class EntosisLink
 
     private static class Container {
         public LinkedHashMap<String, EntosisLink> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EntosisLink>
+    {
+
+        @Override
+        public MetaCategory<? super EntosisLink> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EntosisLink";
+        }
+
+        @Override
+        public Collection<EntosisLink> items() {
+            return (load().values());
+        }
     }
 }

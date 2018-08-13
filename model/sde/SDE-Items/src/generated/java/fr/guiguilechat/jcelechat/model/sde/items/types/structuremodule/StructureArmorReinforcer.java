@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -66,6 +68,7 @@ public class StructureArmorReinforcer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureArmorReinforcer.MetaGroup METAGROUP = new StructureArmorReinforcer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureArmorReinforcer.yaml";
     private static Map<String, StructureArmorReinforcer> cache = (null);
 
@@ -113,8 +116,8 @@ public class StructureArmorReinforcer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureArmorReinforcer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureArmorReinforcer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureArmorReinforcer> load() {
@@ -130,5 +133,25 @@ public class StructureArmorReinforcer
 
     private static class Container {
         public LinkedHashMap<String, StructureArmorReinforcer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureArmorReinforcer>
+    {
+
+        @Override
+        public MetaCategory<? super StructureArmorReinforcer> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureArmorReinforcer";
+        }
+
+        @Override
+        public Collection<StructureArmorReinforcer> items() {
+            return (load().values());
+        }
     }
 }

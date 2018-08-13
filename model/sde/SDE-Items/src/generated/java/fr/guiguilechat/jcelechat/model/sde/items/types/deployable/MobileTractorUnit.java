@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -100,6 +102,7 @@ public class MobileTractorUnit
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static MobileTractorUnit.MetaGroup METAGROUP = new MobileTractorUnit.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileTractorUnit.yaml";
     private static Map<String, MobileTractorUnit> cache = (null);
 
@@ -167,8 +170,8 @@ public class MobileTractorUnit
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileTractorUnit.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileTractorUnit> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileTractorUnit> load() {
@@ -184,5 +187,25 @@ public class MobileTractorUnit
 
     private static class Container {
         public LinkedHashMap<String, MobileTractorUnit> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileTractorUnit>
+    {
+
+        @Override
+        public MetaCategory<? super MobileTractorUnit> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileTractorUnit";
+        }
+
+        @Override
+        public Collection<MobileTractorUnit> items() {
+            return (load().values());
+        }
     }
 }

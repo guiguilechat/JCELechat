@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -225,6 +227,7 @@ public class Interdictor
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static Interdictor.MetaGroup METAGROUP = new Interdictor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/Interdictor.yaml";
     private static Map<String, Interdictor> cache = (null);
 
@@ -364,8 +367,8 @@ public class Interdictor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Interdictor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Interdictor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Interdictor> load() {
@@ -381,5 +384,25 @@ public class Interdictor
 
     private static class Container {
         public LinkedHashMap<String, Interdictor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Interdictor>
+    {
+
+        @Override
+        public MetaCategory<? super Interdictor> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Interdictor";
+        }
+
+        @Override
+        public Collection<Interdictor> items() {
+            return (load().values());
+        }
     }
 }

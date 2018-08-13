@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -93,6 +95,7 @@ public class ReactorControlUnit
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
+    public final static ReactorControlUnit.MetaGroup METAGROUP = new ReactorControlUnit.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ReactorControlUnit.yaml";
     private static Map<String, ReactorControlUnit> cache = (null);
 
@@ -152,8 +155,8 @@ public class ReactorControlUnit
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ReactorControlUnit.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReactorControlUnit> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ReactorControlUnit> load() {
@@ -169,5 +172,25 @@ public class ReactorControlUnit
 
     private static class Container {
         public LinkedHashMap<String, ReactorControlUnit> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReactorControlUnit>
+    {
+
+        @Override
+        public MetaCategory<? super ReactorControlUnit> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ReactorControlUnit";
+        }
+
+        @Override
+        public Collection<ReactorControlUnit> items() {
+            return (load().values());
+        }
     }
 }

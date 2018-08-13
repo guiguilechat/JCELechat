@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Scordite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
+    public final static Scordite.MetaGroup METAGROUP = new Scordite.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Scordite.yaml";
     private static Map<String, Scordite> cache = (null);
 
@@ -66,8 +69,8 @@ public class Scordite
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Scordite.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scordite> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Scordite> load() {
@@ -83,5 +86,25 @@ public class Scordite
 
     private static class Container {
         public LinkedHashMap<String, Scordite> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Scordite>
+    {
+
+        @Override
+        public MetaCategory<? super Scordite> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Scordite";
+        }
+
+        @Override
+        public Collection<Scordite> items() {
+            return (load().values());
+        }
     }
 }

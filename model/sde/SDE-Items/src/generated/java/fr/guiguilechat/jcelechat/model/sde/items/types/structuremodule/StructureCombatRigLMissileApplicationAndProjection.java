@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StructureCombatRigLMissileApplicationAndProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigLMissileApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLMissileApplicationAndProjection.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLMissileApplicationAndProjection.yaml";
     private static Map<String, StructureCombatRigLMissileApplicationAndProjection> cache = (null);
 
@@ -222,8 +225,8 @@ public class StructureCombatRigLMissileApplicationAndProjection
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigLMissileApplicationAndProjection.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLMissileApplicationAndProjection> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigLMissileApplicationAndProjection> load() {
@@ -239,5 +242,25 @@ public class StructureCombatRigLMissileApplicationAndProjection
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigLMissileApplicationAndProjection> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLMissileApplicationAndProjection>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigLMissileApplicationAndProjection> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigLMissileApplicationAndProjection";
+        }
+
+        @Override
+        public Collection<StructureCombatRigLMissileApplicationAndProjection> items() {
+            return (load().values());
+        }
     }
 }

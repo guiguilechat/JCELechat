@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -212,6 +214,7 @@ public class CombatBattlecruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static CombatBattlecruiser.MetaGroup METAGROUP = new CombatBattlecruiser.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/CombatBattlecruiser.yaml";
     private static Map<String, CombatBattlecruiser> cache = (null);
 
@@ -339,8 +342,8 @@ public class CombatBattlecruiser
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CombatBattlecruiser.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatBattlecruiser> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CombatBattlecruiser> load() {
@@ -356,5 +359,25 @@ public class CombatBattlecruiser
 
     private static class Container {
         public LinkedHashMap<String, CombatBattlecruiser> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatBattlecruiser>
+    {
+
+        @Override
+        public MetaCategory<? super CombatBattlecruiser> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CombatBattlecruiser";
+        }
+
+        @Override
+        public Collection<CombatBattlecruiser> items() {
+            return (load().values());
+        }
     }
 }

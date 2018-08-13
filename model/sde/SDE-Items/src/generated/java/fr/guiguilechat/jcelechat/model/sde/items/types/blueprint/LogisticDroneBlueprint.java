@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class LogisticDroneBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static LogisticDroneBlueprint.MetaGroup METAGROUP = new LogisticDroneBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/LogisticDroneBlueprint.yaml";
     private static Map<String, LogisticDroneBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class LogisticDroneBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return LogisticDroneBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LogisticDroneBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, LogisticDroneBlueprint> load() {
@@ -74,5 +77,25 @@ public class LogisticDroneBlueprint
 
     private static class Container {
         public LinkedHashMap<String, LogisticDroneBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LogisticDroneBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super LogisticDroneBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "LogisticDroneBlueprint";
+        }
+
+        @Override
+        public Collection<LogisticDroneBlueprint> items() {
+            return (load().values());
+        }
     }
 }

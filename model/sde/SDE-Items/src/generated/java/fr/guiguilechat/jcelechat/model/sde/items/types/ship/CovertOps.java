@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -338,6 +340,7 @@ public class CovertOps
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
+    public final static CovertOps.MetaGroup METAGROUP = new CovertOps.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/CovertOps.yaml";
     private static Map<String, CovertOps> cache = (null);
 
@@ -537,8 +540,8 @@ public class CovertOps
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CovertOps.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CovertOps> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CovertOps> load() {
@@ -554,5 +557,25 @@ public class CovertOps
 
     private static class Container {
         public LinkedHashMap<String, CovertOps> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CovertOps>
+    {
+
+        @Override
+        public MetaCategory<? super CovertOps> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CovertOps";
+        }
+
+        @Override
+        public Collection<CovertOps> items() {
+            return (load().values());
+        }
     }
 }

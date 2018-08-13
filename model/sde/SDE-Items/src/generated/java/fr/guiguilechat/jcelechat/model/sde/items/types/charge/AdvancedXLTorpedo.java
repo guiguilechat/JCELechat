@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -199,6 +201,7 @@ public class AdvancedXLTorpedo
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static AdvancedXLTorpedo.MetaGroup METAGROUP = new AdvancedXLTorpedo.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedXLTorpedo.yaml";
     private static Map<String, AdvancedXLTorpedo> cache = (null);
 
@@ -322,8 +325,8 @@ public class AdvancedXLTorpedo
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedXLTorpedo.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedXLTorpedo> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedXLTorpedo> load() {
@@ -339,5 +342,25 @@ public class AdvancedXLTorpedo
 
     private static class Container {
         public LinkedHashMap<String, AdvancedXLTorpedo> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedXLTorpedo>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedXLTorpedo> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedXLTorpedo";
+        }
+
+        @Override
+        public Collection<AdvancedXLTorpedo> items() {
+            return (load().values());
+        }
     }
 }

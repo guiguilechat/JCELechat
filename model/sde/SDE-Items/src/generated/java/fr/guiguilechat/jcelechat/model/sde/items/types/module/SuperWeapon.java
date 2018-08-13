@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -361,6 +363,7 @@ public class SuperWeapon
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/SuperWeapon.yaml";
     private static Map<String, SuperWeapon> cache = (null);
 
@@ -576,8 +579,8 @@ public class SuperWeapon
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SuperWeapon.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SuperWeapon> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SuperWeapon> load() {
@@ -593,5 +596,25 @@ public class SuperWeapon
 
     private static class Container {
         public LinkedHashMap<String, SuperWeapon> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SuperWeapon>
+    {
+
+        @Override
+        public MetaCategory<? super SuperWeapon> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SuperWeapon";
+        }
+
+        @Override
+        public Collection<SuperWeapon> items() {
+            return (load().values());
+        }
     }
 }

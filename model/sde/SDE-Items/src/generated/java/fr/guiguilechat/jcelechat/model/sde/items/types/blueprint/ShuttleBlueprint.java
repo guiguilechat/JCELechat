@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class ShuttleBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static ShuttleBlueprint.MetaGroup METAGROUP = new ShuttleBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ShuttleBlueprint.yaml";
     private static Map<String, ShuttleBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class ShuttleBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShuttleBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShuttleBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShuttleBlueprint> load() {
@@ -61,5 +64,25 @@ public class ShuttleBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ShuttleBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShuttleBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ShuttleBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShuttleBlueprint";
+        }
+
+        @Override
+        public Collection<ShuttleBlueprint> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Apparel;
 import org.yaml.snakeyaml.Yaml;
 
 public class Eyewear
     extends Apparel
 {
+    public final static Eyewear.MetaGroup METAGROUP = new Eyewear.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/apparel/Eyewear.yaml";
     private static Map<String, Eyewear> cache = (null);
 
@@ -19,8 +22,8 @@ public class Eyewear
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Eyewear.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Eyewear> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Eyewear> load() {
@@ -36,5 +39,25 @@ public class Eyewear
 
     private static class Container {
         public LinkedHashMap<String, Eyewear> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Eyewear>
+    {
+
+        @Override
+        public MetaCategory<? super Eyewear> category() {
+            return Apparel.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Eyewear";
+        }
+
+        @Override
+        public Collection<Eyewear> items() {
+            return (load().values());
+        }
     }
 }

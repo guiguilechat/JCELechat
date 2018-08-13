@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class AdvancedBlasterCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static AdvancedBlasterCharge.MetaGroup METAGROUP = new AdvancedBlasterCharge.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBlasterCharge.yaml";
     private static Map<String, AdvancedBlasterCharge> cache = (null);
 
@@ -234,8 +237,8 @@ public class AdvancedBlasterCharge
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedBlasterCharge.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBlasterCharge> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedBlasterCharge> load() {
@@ -251,5 +254,25 @@ public class AdvancedBlasterCharge
 
     private static class Container {
         public LinkedHashMap<String, AdvancedBlasterCharge> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBlasterCharge>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedBlasterCharge> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedBlasterCharge";
+        }
+
+        @Override
+        public Collection<AdvancedBlasterCharge> items() {
+            return (load().values());
+        }
     }
 }

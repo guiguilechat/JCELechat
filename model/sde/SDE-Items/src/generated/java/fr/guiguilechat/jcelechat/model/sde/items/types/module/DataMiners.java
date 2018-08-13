@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrength;
+    public final static DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/DataMiners.yaml";
     private static Map<String, DataMiners> cache = (null);
 
@@ -207,8 +210,8 @@ public class DataMiners
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DataMiners.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataMiners> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DataMiners> load() {
@@ -224,5 +227,25 @@ public class DataMiners
 
     private static class Container {
         public LinkedHashMap<String, DataMiners> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataMiners>
+    {
+
+        @Override
+        public MetaCategory<? super DataMiners> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DataMiners";
+        }
+
+        @Override
+        public Collection<DataMiners> items() {
+            return (load().values());
+        }
     }
 }

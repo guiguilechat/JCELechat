@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -247,6 +249,7 @@ public class EnergyWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyWeapon.yaml";
     private static Map<String, EnergyWeapon> cache = (null);
 
@@ -394,8 +397,8 @@ public class EnergyWeapon
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EnergyWeapon.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyWeapon> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EnergyWeapon> load() {
@@ -411,5 +414,25 @@ public class EnergyWeapon
 
     private static class Container {
         public LinkedHashMap<String, EnergyWeapon> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyWeapon>
+    {
+
+        @Override
+        public MetaCategory<? super EnergyWeapon> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EnergyWeapon";
+        }
+
+        @Override
+        public Collection<EnergyWeapon> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class TacticalDestroyerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static TacticalDestroyerBlueprint.MetaGroup METAGROUP = new TacticalDestroyerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/TacticalDestroyerBlueprint.yaml";
     private static Map<String, TacticalDestroyerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class TacticalDestroyerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TacticalDestroyerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TacticalDestroyerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TacticalDestroyerBlueprint> load() {
@@ -74,5 +77,25 @@ public class TacticalDestroyerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, TacticalDestroyerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TacticalDestroyerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super TacticalDestroyerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TacticalDestroyerBlueprint";
+        }
+
+        @Override
+        public Collection<TacticalDestroyerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

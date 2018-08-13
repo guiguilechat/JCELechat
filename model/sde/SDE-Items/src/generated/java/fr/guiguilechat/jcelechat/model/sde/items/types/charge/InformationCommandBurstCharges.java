@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -105,6 +107,7 @@ public class InformationCommandBurstCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
+    public final static InformationCommandBurstCharges.MetaGroup METAGROUP = new InformationCommandBurstCharges.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/InformationCommandBurstCharges.yaml";
     private static Map<String, InformationCommandBurstCharges> cache = (null);
 
@@ -176,8 +179,8 @@ public class InformationCommandBurstCharges
     }
 
     @Override
-    public Class<?> getGroup() {
-        return InformationCommandBurstCharges.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InformationCommandBurstCharges> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, InformationCommandBurstCharges> load() {
@@ -193,5 +196,25 @@ public class InformationCommandBurstCharges
 
     private static class Container {
         public LinkedHashMap<String, InformationCommandBurstCharges> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<InformationCommandBurstCharges>
+    {
+
+        @Override
+        public MetaCategory<? super InformationCommandBurstCharges> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "InformationCommandBurstCharges";
+        }
+
+        @Override
+        public Collection<InformationCommandBurstCharges> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.apparel;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Apparel;
 import org.yaml.snakeyaml.Yaml;
 
 public class Augmentations
     extends Apparel
 {
+    public final static Augmentations.MetaGroup METAGROUP = new Augmentations.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/apparel/Augmentations.yaml";
     private static Map<String, Augmentations> cache = (null);
 
@@ -19,8 +22,8 @@ public class Augmentations
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Augmentations.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Augmentations> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Augmentations> load() {
@@ -36,5 +39,25 @@ public class Augmentations
 
     private static class Container {
         public LinkedHashMap<String, Augmentations> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Augmentations>
+    {
+
+        @Override
+        public MetaCategory<? super Augmentations> category() {
+            return Apparel.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Augmentations";
+        }
+
+        @Override
+        public Collection<Augmentations> items() {
+            return (load().values());
+        }
     }
 }

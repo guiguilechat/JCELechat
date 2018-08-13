@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -45,6 +47,7 @@ public class PropulsionModuleBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static PropulsionModuleBlueprint.MetaGroup METAGROUP = new PropulsionModuleBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/PropulsionModuleBlueprint.yaml";
     private static Map<String, PropulsionModuleBlueprint> cache = (null);
 
@@ -76,8 +79,8 @@ public class PropulsionModuleBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PropulsionModuleBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModuleBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PropulsionModuleBlueprint> load() {
@@ -93,5 +96,25 @@ public class PropulsionModuleBlueprint
 
     private static class Container {
         public LinkedHashMap<String, PropulsionModuleBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModuleBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super PropulsionModuleBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PropulsionModuleBlueprint";
+        }
+
+        @Override
+        public Collection<PropulsionModuleBlueprint> items() {
+            return (load().values());
+        }
     }
 }

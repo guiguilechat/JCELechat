@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -92,6 +94,7 @@ public class RemoteHullRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
+    public final static RemoteHullRepairer.MetaGroup METAGROUP = new RemoteHullRepairer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RemoteHullRepairer.yaml";
     private static Map<String, RemoteHullRepairer> cache = (null);
 
@@ -155,8 +158,8 @@ public class RemoteHullRepairer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RemoteHullRepairer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RemoteHullRepairer> load() {
@@ -172,5 +175,25 @@ public class RemoteHullRepairer
 
     private static class Container {
         public LinkedHashMap<String, RemoteHullRepairer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairer>
+    {
+
+        @Override
+        public MetaCategory<? super RemoteHullRepairer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RemoteHullRepairer";
+        }
+
+        @Override
+        public Collection<RemoteHullRepairer> items() {
+            return (load().values());
+        }
     }
 }

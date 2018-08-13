@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class MicroJumpDrive
     @Stackable(false)
     @DefaultIntValue(0)
     public int SignatureRadiusBonusPercent;
+    public final static MicroJumpDrive.MetaGroup METAGROUP = new MicroJumpDrive.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/MicroJumpDrive.yaml";
     private static Map<String, MicroJumpDrive> cache = (null);
 
@@ -221,8 +224,8 @@ public class MicroJumpDrive
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MicroJumpDrive.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDrive> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MicroJumpDrive> load() {
@@ -238,5 +241,25 @@ public class MicroJumpDrive
 
     private static class Container {
         public LinkedHashMap<String, MicroJumpDrive> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDrive>
+    {
+
+        @Override
+        public MetaCategory<? super MicroJumpDrive> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MicroJumpDrive";
+        }
+
+        @Override
+        public Collection<MicroJumpDrive> items() {
+            return (load().values());
+        }
     }
 }

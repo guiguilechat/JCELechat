@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +74,7 @@ public class CapacitorFluxCoil
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static CapacitorFluxCoil.MetaGroup METAGROUP = new CapacitorFluxCoil.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CapacitorFluxCoil.yaml";
     private static Map<String, CapacitorFluxCoil> cache = (null);
 
@@ -119,8 +122,8 @@ public class CapacitorFluxCoil
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CapacitorFluxCoil.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorFluxCoil> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CapacitorFluxCoil> load() {
@@ -136,5 +139,25 @@ public class CapacitorFluxCoil
 
     private static class Container {
         public LinkedHashMap<String, CapacitorFluxCoil> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorFluxCoil>
+    {
+
+        @Override
+        public MetaCategory<? super CapacitorFluxCoil> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CapacitorFluxCoil";
+        }
+
+        @Override
+        public Collection<CapacitorFluxCoil> items() {
+            return (load().values());
+        }
     }
 }

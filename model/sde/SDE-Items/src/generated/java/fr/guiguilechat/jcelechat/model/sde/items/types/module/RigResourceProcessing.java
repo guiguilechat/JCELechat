@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -57,6 +59,7 @@ public class RigResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RigResourceProcessing.yaml";
     private static Map<String, RigResourceProcessing> cache = (null);
 
@@ -100,8 +103,8 @@ public class RigResourceProcessing
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigResourceProcessing.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigResourceProcessing> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigResourceProcessing> load() {
@@ -117,5 +120,25 @@ public class RigResourceProcessing
 
     private static class Container {
         public LinkedHashMap<String, RigResourceProcessing> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigResourceProcessing>
+    {
+
+        @Override
+        public MetaCategory<? super RigResourceProcessing> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigResourceProcessing";
+        }
+
+        @Override
+        public Collection<RigResourceProcessing> items() {
+            return (load().values());
+        }
     }
 }

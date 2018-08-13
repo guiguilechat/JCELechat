@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -597,6 +599,7 @@ public class Titan
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
+    public final static Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/Titan.yaml";
     private static Map<String, Titan> cache = (null);
 
@@ -944,8 +947,8 @@ public class Titan
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Titan.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Titan> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Titan> load() {
@@ -961,5 +964,25 @@ public class Titan
 
     private static class Container {
         public LinkedHashMap<String, Titan> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Titan>
+    {
+
+        @Override
+        public MetaCategory<? super Titan> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Titan";
+        }
+
+        @Override
+        public Collection<Titan> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,9 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.AbyssalFilaments;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.AccelerationGateKeys;
 import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.AdvancedCapitalConstructionComponents;
@@ -50,6 +54,7 @@ import fr.guiguilechat.jcelechat.model.sde.items.types.commodity.UnknownComponen
 public abstract class Commodity
     extends Item
 {
+    public final static Commodity.MetaCat METACAT = new Commodity.MetaCat();
 
     @Override
     public int getCategoryId() {
@@ -57,11 +62,27 @@ public abstract class Commodity
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Commodity.class;
+    public MetaCategory<Commodity> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Commodity> loadCategory() {
         return Stream.of(AbyssalFilaments.load(), AccelerationGateKeys.load(), AdvancedCapitalConstructionComponents.load(), ArtifactsAndPrototypes.load(), Biohazard.load(), CapitalConstructionComponents.load(), Commodities.load(), ConstructionComponents.load(), CriminalTags.load(), DataInterfaces.load(), Datacores.load(), DecryptorsSleepers.load(), DecryptorsTakmahl.load(), DecryptorsTalocan.load(), DecryptorsYanJung.load(), Drugs.load(), EmpireBountyReimbursementTags.load(), EmpireInsigniaDrops.load(), Frozen.load(), General.load(), HybridTechComponents.load(), Identification.load(), Lease.load(), Livestock.load(), MaterialsAndCompounds.load(), Miscellaneous.load(), Mutaplasmids.load(), ObsoleteBooks.load(), OverseerPersonalEffects.load(), Radioactive.load(), Refinables.load(), ResearchData.load(), SecurityTags.load(), ShipLogs.load(), SlaveReception.load(), SleeperComponents.load(), StationComponents.load(), StrongBoxes.load(), TechnicalDataChips.load(), Tool.load(), TriglavianData.load(), UnknownComponents.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Commodity>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Commodity> [] groups = new MetaGroup[] {ObsoleteBooks.METAGROUP, General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StationComponents.METAGROUP, Lease.METAGROUP, DataInterfaces.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, CapitalConstructionComponents.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, EmpireBountyReimbursementTags.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, TriglavianData.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Commodity";
+        }
+
+        public Collection<MetaGroup<? extends Commodity>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

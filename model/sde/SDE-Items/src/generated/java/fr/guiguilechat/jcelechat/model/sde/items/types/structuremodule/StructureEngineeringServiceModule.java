@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -209,6 +211,7 @@ public class StructureEngineeringServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    public final static StructureEngineeringServiceModule.MetaGroup METAGROUP = new StructureEngineeringServiceModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringServiceModule.yaml";
     private static Map<String, StructureEngineeringServiceModule> cache = (null);
 
@@ -332,8 +335,8 @@ public class StructureEngineeringServiceModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringServiceModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringServiceModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringServiceModule> load() {
@@ -349,5 +352,25 @@ public class StructureEngineeringServiceModule
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringServiceModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringServiceModule>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringServiceModule> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringServiceModule";
+        }
+
+        @Override
+        public Collection<StructureEngineeringServiceModule> items() {
+            return (load().values());
+        }
     }
 }

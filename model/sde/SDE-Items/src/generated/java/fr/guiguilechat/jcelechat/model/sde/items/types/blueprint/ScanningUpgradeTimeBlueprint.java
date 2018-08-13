@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class ScanningUpgradeTimeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ScanningUpgradeTimeBlueprint.MetaGroup METAGROUP = new ScanningUpgradeTimeBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanningUpgradeTimeBlueprint.yaml";
     private static Map<String, ScanningUpgradeTimeBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class ScanningUpgradeTimeBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ScanningUpgradeTimeBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgradeTimeBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ScanningUpgradeTimeBlueprint> load() {
@@ -74,5 +77,25 @@ public class ScanningUpgradeTimeBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ScanningUpgradeTimeBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanningUpgradeTimeBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ScanningUpgradeTimeBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ScanningUpgradeTimeBlueprint";
+        }
+
+        @Override
+        public Collection<ScanningUpgradeTimeBlueprint> items() {
+            return (load().values());
+        }
     }
 }

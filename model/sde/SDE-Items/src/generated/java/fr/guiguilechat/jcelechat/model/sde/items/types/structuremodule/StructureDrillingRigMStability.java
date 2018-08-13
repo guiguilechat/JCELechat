@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -99,6 +101,7 @@ public class StructureDrillingRigMStability
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureDrillingRigMStability.MetaGroup METAGROUP = new StructureDrillingRigMStability.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureDrillingRigMStability.yaml";
     private static Map<String, StructureDrillingRigMStability> cache = (null);
 
@@ -166,8 +169,8 @@ public class StructureDrillingRigMStability
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureDrillingRigMStability.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigMStability> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureDrillingRigMStability> load() {
@@ -183,5 +186,25 @@ public class StructureDrillingRigMStability
 
     private static class Container {
         public LinkedHashMap<String, StructureDrillingRigMStability> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureDrillingRigMStability>
+    {
+
+        @Override
+        public MetaCategory<? super StructureDrillingRigMStability> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureDrillingRigMStability";
+        }
+
+        @Override
+        public Collection<StructureDrillingRigMStability> items() {
+            return (load().values());
+        }
     }
 }

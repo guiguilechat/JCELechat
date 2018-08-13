@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StasisWeb
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static StasisWeb.MetaGroup METAGROUP = new StasisWeb.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/StasisWeb.yaml";
     private static Map<String, StasisWeb> cache = (null);
 
@@ -218,8 +221,8 @@ public class StasisWeb
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StasisWeb.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWeb> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StasisWeb> load() {
@@ -235,5 +238,25 @@ public class StasisWeb
 
     private static class Container {
         public LinkedHashMap<String, StasisWeb> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWeb>
+    {
+
+        @Override
+        public MetaCategory<? super StasisWeb> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StasisWeb";
+        }
+
+        @Override
+        public Collection<StasisWeb> items() {
+            return (load().values());
+        }
     }
 }

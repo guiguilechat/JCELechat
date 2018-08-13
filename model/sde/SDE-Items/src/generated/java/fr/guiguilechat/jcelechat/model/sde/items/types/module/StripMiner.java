@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -114,6 +116,7 @@ public class StripMiner
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static StripMiner.MetaGroup METAGROUP = new StripMiner.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/StripMiner.yaml";
     private static Map<String, StripMiner> cache = (null);
 
@@ -185,8 +188,8 @@ public class StripMiner
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StripMiner.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StripMiner> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StripMiner> load() {
@@ -202,5 +205,25 @@ public class StripMiner
 
     private static class Container {
         public LinkedHashMap<String, StripMiner> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StripMiner>
+    {
+
+        @Override
+        public MetaCategory<? super StripMiner> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StripMiner";
+        }
+
+        @Override
+        public Collection<StripMiner> items() {
+            return (load().values());
+        }
     }
 }

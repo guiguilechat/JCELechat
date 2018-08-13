@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -115,6 +117,7 @@ public class StructureMultiroleMissileLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureMultiroleMissileLauncher.MetaGroup METAGROUP = new StructureMultiroleMissileLauncher.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureMultiroleMissileLauncher.yaml";
     private static Map<String, StructureMultiroleMissileLauncher> cache = (null);
 
@@ -190,8 +193,8 @@ public class StructureMultiroleMissileLauncher
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureMultiroleMissileLauncher.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureMultiroleMissileLauncher> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureMultiroleMissileLauncher> load() {
@@ -207,5 +210,25 @@ public class StructureMultiroleMissileLauncher
 
     private static class Container {
         public LinkedHashMap<String, StructureMultiroleMissileLauncher> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureMultiroleMissileLauncher>
+    {
+
+        @Override
+        public MetaCategory<? super StructureMultiroleMissileLauncher> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureMultiroleMissileLauncher";
+        }
+
+        @Override
+        public Collection<StructureMultiroleMissileLauncher> items() {
+            return (load().values());
+        }
     }
 }

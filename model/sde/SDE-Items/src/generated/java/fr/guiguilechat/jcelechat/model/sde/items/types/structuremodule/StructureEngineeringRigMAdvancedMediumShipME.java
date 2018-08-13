@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigMAdvancedMediumShipME
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMAdvancedMediumShipME.MetaGroup METAGROUP = new StructureEngineeringRigMAdvancedMediumShipME.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedMediumShipME.yaml";
     private static Map<String, StructureEngineeringRigMAdvancedMediumShipME> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigMAdvancedMediumShipME
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMAdvancedMediumShipME.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedMediumShipME> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMAdvancedMediumShipME> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigMAdvancedMediumShipME
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMAdvancedMediumShipME> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedMediumShipME>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMAdvancedMediumShipME> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMAdvancedMediumShipME";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMAdvancedMediumShipME> items() {
+            return (load().values());
+        }
     }
 }

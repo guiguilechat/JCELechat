@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -211,6 +213,7 @@ public class BlockadeRunner
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStatus;
+    public final static BlockadeRunner.MetaGroup METAGROUP = new BlockadeRunner.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/BlockadeRunner.yaml";
     private static Map<String, BlockadeRunner> cache = (null);
 
@@ -342,8 +345,8 @@ public class BlockadeRunner
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BlockadeRunner.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BlockadeRunner> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BlockadeRunner> load() {
@@ -359,5 +362,25 @@ public class BlockadeRunner
 
     private static class Container {
         public LinkedHashMap<String, BlockadeRunner> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BlockadeRunner>
+    {
+
+        @Override
+        public MetaCategory<? super BlockadeRunner> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BlockadeRunner";
+        }
+
+        @Override
+        public Collection<BlockadeRunner> items() {
+            return (load().values());
+        }
     }
 }

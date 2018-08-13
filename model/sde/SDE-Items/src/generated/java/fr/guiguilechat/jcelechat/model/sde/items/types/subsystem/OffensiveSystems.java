@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -239,6 +241,7 @@ public class OffensiveSystems
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareLinkCPUPenalty;
+    public final static OffensiveSystems.MetaGroup METAGROUP = new OffensiveSystems.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/subsystem/OffensiveSystems.yaml";
     private static Map<String, OffensiveSystems> cache = (null);
 
@@ -386,8 +389,8 @@ public class OffensiveSystems
     }
 
     @Override
-    public Class<?> getGroup() {
-        return OffensiveSystems.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OffensiveSystems> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, OffensiveSystems> load() {
@@ -403,5 +406,25 @@ public class OffensiveSystems
 
     private static class Container {
         public LinkedHashMap<String, OffensiveSystems> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OffensiveSystems>
+    {
+
+        @Override
+        public MetaCategory<? super OffensiveSystems> category() {
+            return Subsystem.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "OffensiveSystems";
+        }
+
+        @Override
+        public Collection<OffensiveSystems> items() {
+            return (load().values());
+        }
     }
 }

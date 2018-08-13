@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class RigBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static RigBlueprint.MetaGroup METAGROUP = new RigBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/RigBlueprint.yaml";
     private static Map<String, RigBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class RigBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigBlueprint> load() {
@@ -74,5 +77,25 @@ public class RigBlueprint
 
     private static class Container {
         public LinkedHashMap<String, RigBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super RigBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigBlueprint";
+        }
+
+        @Override
+        public Collection<RigBlueprint> items() {
+            return (load().values());
+        }
     }
 }

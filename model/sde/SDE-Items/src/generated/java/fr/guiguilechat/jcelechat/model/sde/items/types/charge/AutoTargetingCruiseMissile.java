@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -213,6 +215,7 @@ public class AutoTargetingCruiseMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static AutoTargetingCruiseMissile.MetaGroup METAGROUP = new AutoTargetingCruiseMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AutoTargetingCruiseMissile.yaml";
     private static Map<String, AutoTargetingCruiseMissile> cache = (null);
 
@@ -340,8 +343,8 @@ public class AutoTargetingCruiseMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AutoTargetingCruiseMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutoTargetingCruiseMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AutoTargetingCruiseMissile> load() {
@@ -357,5 +360,25 @@ public class AutoTargetingCruiseMissile
 
     private static class Container {
         public LinkedHashMap<String, AutoTargetingCruiseMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutoTargetingCruiseMissile>
+    {
+
+        @Override
+        public MetaCategory<? super AutoTargetingCruiseMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AutoTargetingCruiseMissile";
+        }
+
+        @Override
+        public Collection<AutoTargetingCruiseMissile> items() {
+            return (load().values());
+        }
     }
 }

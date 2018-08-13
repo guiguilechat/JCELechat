@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileTractorUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileTractorUnitBlueprint.MetaGroup METAGROUP = new MobileTractorUnitBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileTractorUnitBlueprint.yaml";
     private static Map<String, MobileTractorUnitBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileTractorUnitBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileTractorUnitBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileTractorUnitBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileTractorUnitBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileTractorUnitBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileTractorUnitBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileTractorUnitBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileTractorUnitBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileTractorUnitBlueprint";
+        }
+
+        @Override
+        public Collection<MobileTractorUnitBlueprint> items() {
+            return (load().values());
+        }
     }
 }

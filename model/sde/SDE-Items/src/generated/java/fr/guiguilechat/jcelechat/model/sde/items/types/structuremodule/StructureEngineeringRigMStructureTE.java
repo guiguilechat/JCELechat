@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigMStructureTE
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMStructureTE.MetaGroup METAGROUP = new StructureEngineeringRigMStructureTE.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMStructureTE.yaml";
     private static Map<String, StructureEngineeringRigMStructureTE> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigMStructureTE
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMStructureTE.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMStructureTE> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMStructureTE> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigMStructureTE
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMStructureTE> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMStructureTE>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMStructureTE> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMStructureTE";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMStructureTE> items() {
+            return (load().values());
+        }
     }
 }

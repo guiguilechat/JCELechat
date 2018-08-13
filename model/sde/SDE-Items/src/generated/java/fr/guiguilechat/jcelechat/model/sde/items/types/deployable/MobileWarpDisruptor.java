@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -86,6 +88,7 @@ public class MobileWarpDisruptor
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRange;
+    public final static MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileWarpDisruptor.yaml";
     private static Map<String, MobileWarpDisruptor> cache = (null);
 
@@ -141,8 +144,8 @@ public class MobileWarpDisruptor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileWarpDisruptor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileWarpDisruptor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileWarpDisruptor> load() {
@@ -158,5 +161,25 @@ public class MobileWarpDisruptor
 
     private static class Container {
         public LinkedHashMap<String, MobileWarpDisruptor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileWarpDisruptor>
+    {
+
+        @Override
+        public MetaCategory<? super MobileWarpDisruptor> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileWarpDisruptor";
+        }
+
+        @Override
+        public Collection<MobileWarpDisruptor> items() {
+            return (load().values());
+        }
     }
 }

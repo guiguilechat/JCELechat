@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -156,6 +158,7 @@ public class SensorDampener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
+    public final static SensorDampener.MetaGroup METAGROUP = new SensorDampener.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/SensorDampener.yaml";
     private static Map<String, SensorDampener> cache = (null);
 
@@ -251,8 +254,8 @@ public class SensorDampener
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SensorDampener.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorDampener> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SensorDampener> load() {
@@ -268,5 +271,25 @@ public class SensorDampener
 
     private static class Container {
         public LinkedHashMap<String, SensorDampener> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorDampener>
+    {
+
+        @Override
+        public MetaCategory<? super SensorDampener> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SensorDampener";
+        }
+
+        @Override
+        public Collection<SensorDampener> items() {
+            return (load().values());
+        }
     }
 }

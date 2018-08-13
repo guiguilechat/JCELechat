@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class AntiWarpScramblerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static AntiWarpScramblerBlueprint.MetaGroup METAGROUP = new AntiWarpScramblerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AntiWarpScramblerBlueprint.yaml";
     private static Map<String, AntiWarpScramblerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class AntiWarpScramblerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AntiWarpScramblerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AntiWarpScramblerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AntiWarpScramblerBlueprint> load() {
@@ -74,5 +77,25 @@ public class AntiWarpScramblerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, AntiWarpScramblerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AntiWarpScramblerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super AntiWarpScramblerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AntiWarpScramblerBlueprint";
+        }
+
+        @Override
+        public Collection<AntiWarpScramblerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

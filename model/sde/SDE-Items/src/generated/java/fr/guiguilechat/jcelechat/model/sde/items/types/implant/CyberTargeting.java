@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -44,6 +46,7 @@ public class CyberTargeting
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CyberTargeting.MetaGroup METAGROUP = new CyberTargeting.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberTargeting.yaml";
     private static Map<String, CyberTargeting> cache = (null);
 
@@ -79,8 +82,8 @@ public class CyberTargeting
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberTargeting.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberTargeting> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberTargeting> load() {
@@ -96,5 +99,25 @@ public class CyberTargeting
 
     private static class Container {
         public LinkedHashMap<String, CyberTargeting> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberTargeting>
+    {
+
+        @Override
+        public MetaCategory<? super CyberTargeting> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberTargeting";
+        }
+
+        @Override
+        public Collection<CyberTargeting> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -37,6 +39,7 @@ public class BattleshipBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static BattleshipBlueprint.MetaGroup METAGROUP = new BattleshipBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/BattleshipBlueprint.yaml";
     private static Map<String, BattleshipBlueprint> cache = (null);
 
@@ -68,8 +71,8 @@ public class BattleshipBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BattleshipBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BattleshipBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BattleshipBlueprint> load() {
@@ -85,5 +88,25 @@ public class BattleshipBlueprint
 
     private static class Container {
         public LinkedHashMap<String, BattleshipBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BattleshipBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super BattleshipBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BattleshipBlueprint";
+        }
+
+        @Override
+        public Collection<BattleshipBlueprint> items() {
+            return (load().values());
+        }
     }
 }

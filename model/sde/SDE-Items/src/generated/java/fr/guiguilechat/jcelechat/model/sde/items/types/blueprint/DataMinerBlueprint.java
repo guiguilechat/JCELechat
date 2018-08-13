@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class DataMinerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static DataMinerBlueprint.MetaGroup METAGROUP = new DataMinerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DataMinerBlueprint.yaml";
     private static Map<String, DataMinerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class DataMinerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DataMinerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataMinerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DataMinerBlueprint> load() {
@@ -74,5 +77,25 @@ public class DataMinerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, DataMinerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataMinerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super DataMinerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DataMinerBlueprint";
+        }
+
+        @Override
+        public Collection<DataMinerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

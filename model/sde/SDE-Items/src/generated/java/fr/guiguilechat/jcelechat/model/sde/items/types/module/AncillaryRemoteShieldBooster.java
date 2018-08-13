@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -169,6 +171,7 @@ public class AncillaryRemoteShieldBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ShieldBonus;
+    public final static AncillaryRemoteShieldBooster.MetaGroup METAGROUP = new AncillaryRemoteShieldBooster.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteShieldBooster.yaml";
     private static Map<String, AncillaryRemoteShieldBooster> cache = (null);
 
@@ -276,8 +279,8 @@ public class AncillaryRemoteShieldBooster
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AncillaryRemoteShieldBooster.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteShieldBooster> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AncillaryRemoteShieldBooster> load() {
@@ -293,5 +296,25 @@ public class AncillaryRemoteShieldBooster
 
     private static class Container {
         public LinkedHashMap<String, AncillaryRemoteShieldBooster> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteShieldBooster>
+    {
+
+        @Override
+        public MetaCategory<? super AncillaryRemoteShieldBooster> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AncillaryRemoteShieldBooster";
+        }
+
+        @Override
+        public Collection<AncillaryRemoteShieldBooster> items() {
+            return (load().values());
+        }
     }
 }

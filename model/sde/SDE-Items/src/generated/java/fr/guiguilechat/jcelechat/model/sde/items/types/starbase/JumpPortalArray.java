@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -148,6 +150,7 @@ public class JumpPortalArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/JumpPortalArray.yaml";
     private static Map<String, JumpPortalArray> cache = (null);
 
@@ -243,8 +246,8 @@ public class JumpPortalArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return JumpPortalArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, JumpPortalArray> load() {
@@ -260,5 +263,25 @@ public class JumpPortalArray
 
     private static class Container {
         public LinkedHashMap<String, JumpPortalArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalArray>
+    {
+
+        @Override
+        public MetaCategory<? super JumpPortalArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "JumpPortalArray";
+        }
+
+        @Override
+        public Collection<JumpPortalArray> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -63,6 +65,7 @@ public class StructureManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    public final static StructureManagement.MetaGroup METAGROUP = new StructureManagement.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/StructureManagement.yaml";
     private static Map<String, StructureManagement> cache = (null);
 
@@ -110,8 +113,8 @@ public class StructureManagement
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureManagement.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureManagement> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureManagement> load() {
@@ -127,5 +130,25 @@ public class StructureManagement
 
     private static class Container {
         public LinkedHashMap<String, StructureManagement> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureManagement>
+    {
+
+        @Override
+        public MetaCategory<? super StructureManagement> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureManagement";
+        }
+
+        @Override
+        public Collection<StructureManagement> items() {
+            return (load().values());
+        }
     }
 }

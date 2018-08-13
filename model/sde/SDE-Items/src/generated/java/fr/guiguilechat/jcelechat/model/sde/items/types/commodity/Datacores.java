@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -28,6 +30,7 @@ public class Datacores
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static Datacores.MetaGroup METAGROUP = new Datacores.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Datacores.yaml";
     private static Map<String, Datacores> cache = (null);
 
@@ -55,8 +58,8 @@ public class Datacores
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Datacores.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Datacores> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Datacores> load() {
@@ -72,5 +75,25 @@ public class Datacores
 
     private static class Container {
         public LinkedHashMap<String, Datacores> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Datacores>
+    {
+
+        @Override
+        public MetaCategory<? super Datacores> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Datacores";
+        }
+
+        @Override
+        public Collection<Datacores> items() {
+            return (load().values());
+        }
     }
 }

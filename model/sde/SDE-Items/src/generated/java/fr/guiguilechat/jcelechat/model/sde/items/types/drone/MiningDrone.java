@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class MiningDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
+    public final static MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/drone/MiningDrone.yaml";
     private static Map<String, MiningDrone> cache = (null);
 
@@ -230,8 +233,8 @@ public class MiningDrone
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MiningDrone.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningDrone> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MiningDrone> load() {
@@ -247,5 +250,25 @@ public class MiningDrone
 
     private static class Container {
         public LinkedHashMap<String, MiningDrone> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningDrone>
+    {
+
+        @Override
+        public MetaCategory<? super MiningDrone> category() {
+            return Drone.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MiningDrone";
+        }
+
+        @Override
+        public Collection<MiningDrone> items() {
+            return (load().values());
+        }
     }
 }

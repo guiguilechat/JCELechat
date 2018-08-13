@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -100,6 +102,7 @@ public class ResourceProcessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    public final static ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/ResourceProcessing.yaml";
     private static Map<String, ResourceProcessing> cache = (null);
 
@@ -167,8 +170,8 @@ public class ResourceProcessing
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ResourceProcessing.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ResourceProcessing> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ResourceProcessing> load() {
@@ -184,5 +187,25 @@ public class ResourceProcessing
 
     private static class Container {
         public LinkedHashMap<String, ResourceProcessing> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ResourceProcessing>
+    {
+
+        @Override
+        public MetaCategory<? super ResourceProcessing> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ResourceProcessing";
+        }
+
+        @Override
+        public Collection<ResourceProcessing> items() {
+            return (load().values());
+        }
     }
 }

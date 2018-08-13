@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class StructureCombatRigMEWCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigMEWCapReduction.MetaGroup METAGROUP = new StructureCombatRigMEWCapReduction.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWCapReduction.yaml";
     private static Map<String, StructureCombatRigMEWCapReduction> cache = (null);
 
@@ -211,8 +214,8 @@ public class StructureCombatRigMEWCapReduction
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigMEWCapReduction.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEWCapReduction> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigMEWCapReduction> load() {
@@ -228,5 +231,25 @@ public class StructureCombatRigMEWCapReduction
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigMEWCapReduction> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEWCapReduction>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigMEWCapReduction> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigMEWCapReduction";
+        }
+
+        @Override
+        public Collection<StructureCombatRigMEWCapReduction> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -235,6 +237,7 @@ public class Rocket
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
+    public final static Rocket.MetaGroup METAGROUP = new Rocket.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/Rocket.yaml";
     private static Map<String, Rocket> cache = (null);
 
@@ -374,8 +377,8 @@ public class Rocket
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Rocket.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Rocket> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Rocket> load() {
@@ -391,5 +394,25 @@ public class Rocket
 
     private static class Container {
         public LinkedHashMap<String, Rocket> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Rocket>
+    {
+
+        @Override
+        public MetaCategory<? super Rocket> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Rocket";
+        }
+
+        @Override
+        public Collection<Rocket> items() {
+            return (load().values());
+        }
     }
 }

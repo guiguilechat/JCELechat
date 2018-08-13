@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -170,6 +172,7 @@ public class FlexArmorHardener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
+    public final static FlexArmorHardener.MetaGroup METAGROUP = new FlexArmorHardener.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/FlexArmorHardener.yaml";
     private static Map<String, FlexArmorHardener> cache = (null);
 
@@ -273,8 +276,8 @@ public class FlexArmorHardener
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FlexArmorHardener.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexArmorHardener> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FlexArmorHardener> load() {
@@ -290,5 +293,25 @@ public class FlexArmorHardener
 
     private static class Container {
         public LinkedHashMap<String, FlexArmorHardener> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexArmorHardener>
+    {
+
+        @Override
+        public MetaCategory<? super FlexArmorHardener> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FlexArmorHardener";
+        }
+
+        @Override
+        public Collection<FlexArmorHardener> items() {
+            return (load().values());
+        }
     }
 }

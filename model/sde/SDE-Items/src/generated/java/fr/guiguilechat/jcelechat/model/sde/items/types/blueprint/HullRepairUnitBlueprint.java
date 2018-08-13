@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class HullRepairUnitBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static HullRepairUnitBlueprint.MetaGroup METAGROUP = new HullRepairUnitBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/HullRepairUnitBlueprint.yaml";
     private static Map<String, HullRepairUnitBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class HullRepairUnitBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HullRepairUnitBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HullRepairUnitBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HullRepairUnitBlueprint> load() {
@@ -74,5 +77,25 @@ public class HullRepairUnitBlueprint
 
     private static class Container {
         public LinkedHashMap<String, HullRepairUnitBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HullRepairUnitBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super HullRepairUnitBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HullRepairUnitBlueprint";
+        }
+
+        @Override
+        public Collection<HullRepairUnitBlueprint> items() {
+            return (load().values());
+        }
     }
 }

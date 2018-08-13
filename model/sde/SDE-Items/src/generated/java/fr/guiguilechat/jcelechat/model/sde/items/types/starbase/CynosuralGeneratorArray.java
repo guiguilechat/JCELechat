@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class CynosuralGeneratorArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static CynosuralGeneratorArray.MetaGroup METAGROUP = new CynosuralGeneratorArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/CynosuralGeneratorArray.yaml";
     private static Map<String, CynosuralGeneratorArray> cache = (null);
 
@@ -221,8 +224,8 @@ public class CynosuralGeneratorArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CynosuralGeneratorArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralGeneratorArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CynosuralGeneratorArray> load() {
@@ -238,5 +241,25 @@ public class CynosuralGeneratorArray
 
     private static class Container {
         public LinkedHashMap<String, CynosuralGeneratorArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralGeneratorArray>
+    {
+
+        @Override
+        public MetaCategory<? super CynosuralGeneratorArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CynosuralGeneratorArray";
+        }
+
+        @Override
+        public Collection<CynosuralGeneratorArray> items() {
+            return (load().values());
+        }
     }
 }

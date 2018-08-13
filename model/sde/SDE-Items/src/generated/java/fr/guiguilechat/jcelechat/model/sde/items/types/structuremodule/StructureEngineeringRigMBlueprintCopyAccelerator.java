@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMBlueprintCopyAccelerator.MetaGroup METAGROUP = new StructureEngineeringRigMBlueprintCopyAccelerator.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBlueprintCopyAccelerator.yaml";
     private static Map<String, StructureEngineeringRigMBlueprintCopyAccelerator> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMBlueprintCopyAccelerator.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBlueprintCopyAccelerator> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMBlueprintCopyAccelerator> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigMBlueprintCopyAccelerator
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMBlueprintCopyAccelerator> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBlueprintCopyAccelerator>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMBlueprintCopyAccelerator> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMBlueprintCopyAccelerator";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMBlueprintCopyAccelerator> items() {
+            return (load().values());
+        }
     }
 }

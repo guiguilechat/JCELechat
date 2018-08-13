@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -56,6 +58,7 @@ public class JumpDriveEconomizer
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static JumpDriveEconomizer.MetaGroup METAGROUP = new JumpDriveEconomizer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/JumpDriveEconomizer.yaml";
     private static Map<String, JumpDriveEconomizer> cache = (null);
 
@@ -99,8 +102,8 @@ public class JumpDriveEconomizer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return JumpDriveEconomizer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpDriveEconomizer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, JumpDriveEconomizer> load() {
@@ -116,5 +119,25 @@ public class JumpDriveEconomizer
 
     private static class Container {
         public LinkedHashMap<String, JumpDriveEconomizer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpDriveEconomizer>
+    {
+
+        @Override
+        public MetaCategory<? super JumpDriveEconomizer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "JumpDriveEconomizer";
+        }
+
+        @Override
+        public Collection<JumpDriveEconomizer> items() {
+            return (load().values());
+        }
     }
 }

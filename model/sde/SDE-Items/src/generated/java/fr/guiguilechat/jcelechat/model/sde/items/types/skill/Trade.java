@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -49,6 +51,7 @@ public class Trade
     @Stackable(true)
     @DefaultIntValue(0)
     public int TradePremiumBonus;
+    public final static Trade.MetaGroup METAGROUP = new Trade.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Trade.yaml";
     private static Map<String, Trade> cache = (null);
 
@@ -88,8 +91,8 @@ public class Trade
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Trade.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Trade> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Trade> load() {
@@ -105,5 +108,25 @@ public class Trade
 
     private static class Container {
         public LinkedHashMap<String, Trade> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Trade>
+    {
+
+        @Override
+        public MetaCategory<? super Trade> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Trade";
+        }
+
+        @Override
+        public Collection<Trade> items() {
+            return (load().values());
+        }
     }
 }

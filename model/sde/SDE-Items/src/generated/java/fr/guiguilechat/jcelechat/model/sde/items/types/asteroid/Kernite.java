@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Kernite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
+    public final static Kernite.MetaGroup METAGROUP = new Kernite.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Kernite.yaml";
     private static Map<String, Kernite> cache = (null);
 
@@ -66,8 +69,8 @@ public class Kernite
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Kernite.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Kernite> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Kernite> load() {
@@ -83,5 +86,25 @@ public class Kernite
 
     private static class Container {
         public LinkedHashMap<String, Kernite> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Kernite>
+    {
+
+        @Override
+        public MetaCategory<? super Kernite> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Kernite";
+        }
+
+        @Override
+        public Collection<Kernite> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +74,7 @@ public class CyberXSpecials
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
+    public final static CyberXSpecials.MetaGroup METAGROUP = new CyberXSpecials.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberXSpecials.yaml";
     private static Map<String, CyberXSpecials> cache = (null);
 
@@ -123,8 +126,8 @@ public class CyberXSpecials
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberXSpecials.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberXSpecials> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberXSpecials> load() {
@@ -140,5 +143,25 @@ public class CyberXSpecials
 
     private static class Container {
         public LinkedHashMap<String, CyberXSpecials> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberXSpecials>
+    {
+
+        @Override
+        public MetaCategory<? super CyberXSpecials> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberXSpecials";
+        }
+
+        @Override
+        public Collection<CyberXSpecials> items() {
+            return (load().values());
+        }
     }
 }

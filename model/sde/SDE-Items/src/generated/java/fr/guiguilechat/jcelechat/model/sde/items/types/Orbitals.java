@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -175,6 +179,7 @@ public abstract class Orbitals
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static Orbitals.MetaCat METACAT = new Orbitals.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -284,11 +289,27 @@ public abstract class Orbitals
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Orbitals.class;
+    public MetaCategory<Orbitals> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Orbitals> loadCategory() {
         return Stream.of(OrbitalConstructionPlatform.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Orbitals>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Orbitals> [] groups = new MetaGroup[] {OrbitalConstructionPlatform.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Orbitals";
+        }
+
+        public Collection<MetaGroup<? extends Orbitals>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

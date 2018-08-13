@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -164,6 +166,7 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLBasicCapitalComponentEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLBasicCapitalComponentEfficiency.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBasicCapitalComponentEfficiency.yaml";
     private static Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> cache = (null);
 
@@ -263,8 +266,8 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLBasicCapitalComponentEfficiency.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> load() {
@@ -280,5 +283,25 @@ public class StructureEngineeringRigLBasicCapitalComponentEfficiency
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLBasicCapitalComponentEfficiency> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicCapitalComponentEfficiency>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLBasicCapitalComponentEfficiency> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLBasicCapitalComponentEfficiency";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLBasicCapitalComponentEfficiency> items() {
+            return (load().values());
+        }
     }
 }

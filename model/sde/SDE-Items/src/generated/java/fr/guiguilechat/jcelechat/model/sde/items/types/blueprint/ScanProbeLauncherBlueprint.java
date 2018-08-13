@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class ScanProbeLauncherBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ScanProbeLauncherBlueprint.MetaGroup METAGROUP = new ScanProbeLauncherBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ScanProbeLauncherBlueprint.yaml";
     private static Map<String, ScanProbeLauncherBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class ScanProbeLauncherBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ScanProbeLauncherBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanProbeLauncherBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ScanProbeLauncherBlueprint> load() {
@@ -74,5 +77,25 @@ public class ScanProbeLauncherBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ScanProbeLauncherBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScanProbeLauncherBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ScanProbeLauncherBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ScanProbeLauncherBlueprint";
+        }
+
+        @Override
+        public Collection<ScanProbeLauncherBlueprint> items() {
+            return (load().values());
+        }
     }
 }

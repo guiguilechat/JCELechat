@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -282,6 +286,7 @@ public abstract class Fighter
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
+    public final static Fighter.MetaCat METACAT = new Fighter.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -447,11 +452,27 @@ public abstract class Fighter
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Fighter.class;
+    public MetaCategory<Fighter> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Fighter> loadCategory() {
         return Stream.of(HeavyFighter.load(), LightFighter.load(), SupportFighter.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Fighter>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Fighter> [] groups = new MetaGroup[] {SupportFighter.METAGROUP, LightFighter.METAGROUP, HeavyFighter.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Fighter";
+        }
+
+        public Collection<MetaGroup<? extends Fighter>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -107,6 +109,7 @@ public class SignalAmplifier
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
+    public final static SignalAmplifier.MetaGroup METAGROUP = new SignalAmplifier.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/SignalAmplifier.yaml";
     private static Map<String, SignalAmplifier> cache = (null);
 
@@ -174,8 +177,8 @@ public class SignalAmplifier
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SignalAmplifier.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SignalAmplifier> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SignalAmplifier> load() {
@@ -191,5 +194,25 @@ public class SignalAmplifier
 
     private static class Container {
         public LinkedHashMap<String, SignalAmplifier> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SignalAmplifier>
+    {
+
+        @Override
+        public MetaCategory<? super SignalAmplifier> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SignalAmplifier";
+        }
+
+        @Override
+        public Collection<SignalAmplifier> items() {
+            return (load().values());
+        }
     }
 }

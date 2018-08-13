@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class RemoteHullRepairerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static RemoteHullRepairerBlueprint.MetaGroup METAGROUP = new RemoteHullRepairerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteHullRepairerBlueprint.yaml";
     private static Map<String, RemoteHullRepairerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class RemoteHullRepairerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RemoteHullRepairerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RemoteHullRepairerBlueprint> load() {
@@ -74,5 +77,25 @@ public class RemoteHullRepairerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, RemoteHullRepairerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteHullRepairerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super RemoteHullRepairerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RemoteHullRepairerBlueprint";
+        }
+
+        @Override
+        public Collection<RemoteHullRepairerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

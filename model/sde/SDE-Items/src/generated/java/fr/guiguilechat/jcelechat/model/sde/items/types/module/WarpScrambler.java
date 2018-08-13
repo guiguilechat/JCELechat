@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -149,6 +151,7 @@ public class WarpScrambler
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
+    public final static WarpScrambler.MetaGroup METAGROUP = new WarpScrambler.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/WarpScrambler.yaml";
     private static Map<String, WarpScrambler> cache = (null);
 
@@ -240,8 +243,8 @@ public class WarpScrambler
     }
 
     @Override
-    public Class<?> getGroup() {
-        return WarpScrambler.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScrambler> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, WarpScrambler> load() {
@@ -257,5 +260,25 @@ public class WarpScrambler
 
     private static class Container {
         public LinkedHashMap<String, WarpScrambler> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScrambler>
+    {
+
+        @Override
+        public MetaCategory<? super WarpScrambler> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "WarpScrambler";
+        }
+
+        @Override
+        public Collection<WarpScrambler> items() {
+            return (load().values());
+        }
     }
 }

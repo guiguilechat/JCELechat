@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -156,6 +158,7 @@ public class ECM
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrengthBonus;
+    public final static ECM.MetaGroup METAGROUP = new ECM.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ECM.yaml";
     private static Map<String, ECM> cache = (null);
 
@@ -251,8 +254,8 @@ public class ECM
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ECM.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ECM> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ECM> load() {
@@ -268,5 +271,25 @@ public class ECM
 
     private static class Container {
         public LinkedHashMap<String, ECM> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ECM>
+    {
+
+        @Override
+        public MetaCategory<? super ECM> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ECM";
+        }
+
+        @Override
+        public Collection<ECM> items() {
+            return (load().values());
+        }
     }
 }

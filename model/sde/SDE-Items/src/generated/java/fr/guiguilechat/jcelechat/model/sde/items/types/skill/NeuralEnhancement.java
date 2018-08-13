@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -70,6 +72,7 @@ public class NeuralEnhancement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    public final static NeuralEnhancement.MetaGroup METAGROUP = new NeuralEnhancement.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/NeuralEnhancement.yaml";
     private static Map<String, NeuralEnhancement> cache = (null);
 
@@ -121,8 +124,8 @@ public class NeuralEnhancement
     }
 
     @Override
-    public Class<?> getGroup() {
-        return NeuralEnhancement.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<NeuralEnhancement> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, NeuralEnhancement> load() {
@@ -138,5 +141,25 @@ public class NeuralEnhancement
 
     private static class Container {
         public LinkedHashMap<String, NeuralEnhancement> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<NeuralEnhancement>
+    {
+
+        @Override
+        public MetaCategory<? super NeuralEnhancement> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "NeuralEnhancement";
+        }
+
+        @Override
+        public Collection<NeuralEnhancement> items() {
+            return (load().values());
+        }
     }
 }

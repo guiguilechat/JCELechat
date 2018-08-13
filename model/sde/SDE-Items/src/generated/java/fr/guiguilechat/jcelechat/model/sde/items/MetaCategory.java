@@ -1,8 +1,10 @@
 package fr.guiguilechat.jcelechat.model.sde.items;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface MetaCategory<T> {
 
-    public List<MetaGroup<? extends T>> groups();
+    public Collection<MetaGroup<? extends T>> groups();
+
+    public String getName();
 }

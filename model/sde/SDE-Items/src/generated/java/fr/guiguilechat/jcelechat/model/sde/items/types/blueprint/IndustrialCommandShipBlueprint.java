@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -29,6 +31,7 @@ public class IndustrialCommandShipBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
+    public final static IndustrialCommandShipBlueprint.MetaGroup METAGROUP = new IndustrialCommandShipBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/IndustrialCommandShipBlueprint.yaml";
     private static Map<String, IndustrialCommandShipBlueprint> cache = (null);
 
@@ -56,8 +59,8 @@ public class IndustrialCommandShipBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return IndustrialCommandShipBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialCommandShipBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, IndustrialCommandShipBlueprint> load() {
@@ -73,5 +76,25 @@ public class IndustrialCommandShipBlueprint
 
     private static class Container {
         public LinkedHashMap<String, IndustrialCommandShipBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialCommandShipBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super IndustrialCommandShipBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "IndustrialCommandShipBlueprint";
+        }
+
+        @Override
+        public Collection<IndustrialCommandShipBlueprint> items() {
+            return (load().values());
+        }
     }
 }

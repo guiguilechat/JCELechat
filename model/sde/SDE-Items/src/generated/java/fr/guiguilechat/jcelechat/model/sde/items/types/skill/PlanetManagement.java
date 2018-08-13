@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class PlanetManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill2Level;
+    public final static PlanetManagement.MetaGroup METAGROUP = new PlanetManagement.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/PlanetManagement.yaml";
     private static Map<String, PlanetManagement> cache = (null);
 
@@ -66,8 +69,8 @@ public class PlanetManagement
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PlanetManagement.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetManagement> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PlanetManagement> load() {
@@ -83,5 +86,25 @@ public class PlanetManagement
 
     private static class Container {
         public LinkedHashMap<String, PlanetManagement> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetManagement>
+    {
+
+        @Override
+        public MetaCategory<? super PlanetManagement> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PlanetManagement";
+        }
+
+        @Override
+        public Collection<PlanetManagement> items() {
+            return (load().values());
+        }
     }
 }

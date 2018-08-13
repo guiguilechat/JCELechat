@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -93,6 +95,7 @@ public class ShieldResistanceAmplifier
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
+    public final static ShieldResistanceAmplifier.MetaGroup METAGROUP = new ShieldResistanceAmplifier.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldResistanceAmplifier.yaml";
     private static Map<String, ShieldResistanceAmplifier> cache = (null);
 
@@ -152,8 +155,8 @@ public class ShieldResistanceAmplifier
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldResistanceAmplifier.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldResistanceAmplifier> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldResistanceAmplifier> load() {
@@ -169,5 +172,25 @@ public class ShieldResistanceAmplifier
 
     private static class Container {
         public LinkedHashMap<String, ShieldResistanceAmplifier> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldResistanceAmplifier>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldResistanceAmplifier> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldResistanceAmplifier";
+        }
+
+        @Override
+        public Collection<ShieldResistanceAmplifier> items() {
+            return (load().values());
+        }
     }
 }

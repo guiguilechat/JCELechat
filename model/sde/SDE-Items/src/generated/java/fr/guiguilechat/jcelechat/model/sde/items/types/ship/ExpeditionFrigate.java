@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -232,6 +234,7 @@ public class ExpeditionFrigate
     @Stackable(true)
     @DefaultIntValue(0)
     public int VelocityPenaltyReduction;
+    public final static ExpeditionFrigate.MetaGroup METAGROUP = new ExpeditionFrigate.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/ExpeditionFrigate.yaml";
     private static Map<String, ExpeditionFrigate> cache = (null);
 
@@ -375,8 +378,8 @@ public class ExpeditionFrigate
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ExpeditionFrigate.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ExpeditionFrigate> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ExpeditionFrigate> load() {
@@ -392,5 +395,25 @@ public class ExpeditionFrigate
 
     private static class Container {
         public LinkedHashMap<String, ExpeditionFrigate> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ExpeditionFrigate>
+    {
+
+        @Override
+        public MetaCategory<? super ExpeditionFrigate> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ExpeditionFrigate";
+        }
+
+        @Override
+        public Collection<ExpeditionFrigate> items() {
+            return (load().values());
+        }
     }
 }

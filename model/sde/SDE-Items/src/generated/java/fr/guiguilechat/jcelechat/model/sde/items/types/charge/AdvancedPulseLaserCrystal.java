@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -164,6 +166,7 @@ public class AdvancedPulseLaserCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static AdvancedPulseLaserCrystal.MetaGroup METAGROUP = new AdvancedPulseLaserCrystal.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedPulseLaserCrystal.yaml";
     private static Map<String, AdvancedPulseLaserCrystal> cache = (null);
 
@@ -267,8 +270,8 @@ public class AdvancedPulseLaserCrystal
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedPulseLaserCrystal.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedPulseLaserCrystal> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedPulseLaserCrystal> load() {
@@ -284,5 +287,25 @@ public class AdvancedPulseLaserCrystal
 
     private static class Container {
         public LinkedHashMap<String, AdvancedPulseLaserCrystal> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedPulseLaserCrystal>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedPulseLaserCrystal> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedPulseLaserCrystal";
+        }
+
+        @Override
+        public Collection<AdvancedPulseLaserCrystal> items() {
+            return (load().values());
+        }
     }
 }

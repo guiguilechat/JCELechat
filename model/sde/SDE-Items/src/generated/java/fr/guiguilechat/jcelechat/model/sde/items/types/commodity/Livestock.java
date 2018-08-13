@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
 public class Livestock
     extends Commodity
 {
+    public final static Livestock.MetaGroup METAGROUP = new Livestock.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Livestock.yaml";
     private static Map<String, Livestock> cache = (null);
 
@@ -19,8 +22,8 @@ public class Livestock
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Livestock.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Livestock> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Livestock> load() {
@@ -36,5 +39,25 @@ public class Livestock
 
     private static class Container {
         public LinkedHashMap<String, Livestock> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Livestock>
+    {
+
+        @Override
+        public MetaCategory<? super Livestock> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Livestock";
+        }
+
+        @Override
+        public Collection<Livestock> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigMInventionCostOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMInventionCostOptimization.MetaGroup METAGROUP = new StructureEngineeringRigMInventionCostOptimization.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMInventionCostOptimization.yaml";
     private static Map<String, StructureEngineeringRigMInventionCostOptimization> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigMInventionCostOptimization
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMInventionCostOptimization.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMInventionCostOptimization> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMInventionCostOptimization> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigMInventionCostOptimization
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMInventionCostOptimization> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMInventionCostOptimization>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMInventionCostOptimization> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMInventionCostOptimization";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMInventionCostOptimization> items() {
+            return (load().values());
+        }
     }
 }

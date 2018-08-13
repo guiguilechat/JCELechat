@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class BurstProjectorBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static BurstProjectorBlueprint.MetaGroup METAGROUP = new BurstProjectorBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/BurstProjectorBlueprint.yaml";
     private static Map<String, BurstProjectorBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class BurstProjectorBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BurstProjectorBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstProjectorBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BurstProjectorBlueprint> load() {
@@ -61,5 +64,25 @@ public class BurstProjectorBlueprint
 
     private static class Container {
         public LinkedHashMap<String, BurstProjectorBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstProjectorBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super BurstProjectorBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BurstProjectorBlueprint";
+        }
+
+        @Override
+        public Collection<BurstProjectorBlueprint> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class AutomatedTargetingSystemBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static AutomatedTargetingSystemBlueprint.MetaGroup METAGROUP = new AutomatedTargetingSystemBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AutomatedTargetingSystemBlueprint.yaml";
     private static Map<String, AutomatedTargetingSystemBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class AutomatedTargetingSystemBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AutomatedTargetingSystemBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystemBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AutomatedTargetingSystemBlueprint> load() {
@@ -74,5 +77,25 @@ public class AutomatedTargetingSystemBlueprint
 
     private static class Container {
         public LinkedHashMap<String, AutomatedTargetingSystemBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystemBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super AutomatedTargetingSystemBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AutomatedTargetingSystemBlueprint";
+        }
+
+        @Override
+        public Collection<AutomatedTargetingSystemBlueprint> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLPointDefenseBatteryApplicationAndProjection.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLPointDefenseBatteryApplicationAndProjection.yaml";
     private static Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> cache = (null);
 
@@ -222,8 +225,8 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigLPointDefenseBatteryApplicationAndProjection.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLPointDefenseBatteryApplicationAndProjection> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> load() {
@@ -239,5 +242,25 @@ public class StructureCombatRigLPointDefenseBatteryApplicationAndProjection
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigLPointDefenseBatteryApplicationAndProjection> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLPointDefenseBatteryApplicationAndProjection>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigLPointDefenseBatteryApplicationAndProjection> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigLPointDefenseBatteryApplicationAndProjection";
+        }
+
+        @Override
+        public Collection<StructureCombatRigLPointDefenseBatteryApplicationAndProjection> items() {
+            return (load().values());
+        }
     }
 }

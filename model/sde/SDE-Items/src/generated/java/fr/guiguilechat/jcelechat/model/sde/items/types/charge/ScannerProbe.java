@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class ScannerProbe
     @Stackable(false)
     @DefaultDoubleValue(3.0)
     public double WarpSpeedMultiplier;
+    public final static ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/ScannerProbe.yaml";
     private static Map<String, ScannerProbe> cache = (null);
 
@@ -230,8 +233,8 @@ public class ScannerProbe
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ScannerProbe.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerProbe> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ScannerProbe> load() {
@@ -247,5 +250,25 @@ public class ScannerProbe
 
     private static class Container {
         public LinkedHashMap<String, ScannerProbe> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerProbe>
+    {
+
+        @Override
+        public MetaCategory<? super ScannerProbe> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ScannerProbe";
+        }
+
+        @Override
+        public Collection<ScannerProbe> items() {
+            return (load().values());
+        }
     }
 }

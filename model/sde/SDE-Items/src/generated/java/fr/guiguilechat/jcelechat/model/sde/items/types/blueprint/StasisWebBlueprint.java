@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class StasisWebBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StasisWebBlueprint.MetaGroup METAGROUP = new StasisWebBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StasisWebBlueprint.yaml";
     private static Map<String, StasisWebBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class StasisWebBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StasisWebBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StasisWebBlueprint> load() {
@@ -74,5 +77,25 @@ public class StasisWebBlueprint
 
     private static class Container {
         public LinkedHashMap<String, StasisWebBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super StasisWebBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StasisWebBlueprint";
+        }
+
+        @Override
+        public Collection<StasisWebBlueprint> items() {
+            return (load().values());
+        }
     }
 }

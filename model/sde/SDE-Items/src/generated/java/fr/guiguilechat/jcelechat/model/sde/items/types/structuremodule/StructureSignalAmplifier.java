@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -101,6 +103,7 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureSignalAmplifier.yaml";
     private static Map<String, StructureSignalAmplifier> cache = (null);
 
@@ -168,8 +171,8 @@ public class StructureSignalAmplifier
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureSignalAmplifier.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureSignalAmplifier> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureSignalAmplifier> load() {
@@ -185,5 +188,25 @@ public class StructureSignalAmplifier
 
     private static class Container {
         public LinkedHashMap<String, StructureSignalAmplifier> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureSignalAmplifier>
+    {
+
+        @Override
+        public MetaCategory<? super StructureSignalAmplifier> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureSignalAmplifier";
+        }
+
+        @Override
+        public Collection<StructureSignalAmplifier> items() {
+            return (load().values());
+        }
     }
 }

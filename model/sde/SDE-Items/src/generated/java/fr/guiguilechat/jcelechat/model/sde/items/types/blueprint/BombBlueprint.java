@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class BombBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static BombBlueprint.MetaGroup METAGROUP = new BombBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/BombBlueprint.yaml";
     private static Map<String, BombBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class BombBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BombBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BombBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BombBlueprint> load() {
@@ -61,5 +64,25 @@ public class BombBlueprint
 
     private static class Container {
         public LinkedHashMap<String, BombBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BombBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super BombBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BombBlueprint";
+        }
+
+        @Override
+        public Collection<BombBlueprint> items() {
+            return (load().values());
+        }
     }
 }

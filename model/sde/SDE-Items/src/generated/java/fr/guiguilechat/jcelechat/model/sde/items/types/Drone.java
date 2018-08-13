@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -238,6 +242,7 @@ public abstract class Drone
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static Drone.MetaCat METACAT = new Drone.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -379,11 +384,27 @@ public abstract class Drone
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Drone.class;
+    public MetaCategory<Drone> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Drone> loadCategory() {
         return Stream.of(CombatDrone.load(), ElectronicWarfareDrone.load(), EnergyNeutralizerDrone.load(), LogisticDrone.load(), MiningDrone.load(), SalvageDrone.load(), StasisWebifyingDrone.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Drone>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Drone> [] groups = new MetaGroup[] {CombatDrone.METAGROUP, MiningDrone.METAGROUP, EnergyNeutralizerDrone.METAGROUP, ElectronicWarfareDrone.METAGROUP, LogisticDrone.METAGROUP, StasisWebifyingDrone.METAGROUP, SalvageDrone.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Drone";
+        }
+
+        public Collection<MetaGroup<? extends Drone>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

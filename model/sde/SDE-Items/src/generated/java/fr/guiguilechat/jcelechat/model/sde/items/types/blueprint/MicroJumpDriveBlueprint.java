@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MicroJumpDriveBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MicroJumpDriveBlueprint.MetaGroup METAGROUP = new MicroJumpDriveBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MicroJumpDriveBlueprint.yaml";
     private static Map<String, MicroJumpDriveBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MicroJumpDriveBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MicroJumpDriveBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDriveBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MicroJumpDriveBlueprint> load() {
@@ -61,5 +64,25 @@ public class MicroJumpDriveBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MicroJumpDriveBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MicroJumpDriveBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MicroJumpDriveBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MicroJumpDriveBlueprint";
+        }
+
+        @Override
+        public Collection<MicroJumpDriveBlueprint> items() {
+            return (load().values());
+        }
     }
 }

@@ -12,11 +12,11 @@ public abstract class Item {
 
     public abstract int getCategoryId();
 
-    public abstract Class<?> getCategory();
+    public abstract MetaCategory<?> getCategory();
 
     public abstract int getGroupId();
 
-    public abstract Class<?> getGroup();
+    public abstract MetaGroup<?> getGroup();
 
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {

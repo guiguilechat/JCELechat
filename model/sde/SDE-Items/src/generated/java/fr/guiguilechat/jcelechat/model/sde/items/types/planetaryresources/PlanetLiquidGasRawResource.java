@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryresources;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.PlanetaryResources;
 import org.yaml.snakeyaml.Yaml;
 
 public class PlanetLiquidGasRawResource
     extends PlanetaryResources
 {
+    public final static PlanetLiquidGasRawResource.MetaGroup METAGROUP = new PlanetLiquidGasRawResource.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/planetaryresources/PlanetLiquidGasRawResource.yaml";
     private static Map<String, PlanetLiquidGasRawResource> cache = (null);
 
@@ -19,8 +22,8 @@ public class PlanetLiquidGasRawResource
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PlanetLiquidGasRawResource.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetLiquidGasRawResource> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PlanetLiquidGasRawResource> load() {
@@ -36,5 +39,25 @@ public class PlanetLiquidGasRawResource
 
     private static class Container {
         public LinkedHashMap<String, PlanetLiquidGasRawResource> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetLiquidGasRawResource>
+    {
+
+        @Override
+        public MetaCategory<? super PlanetLiquidGasRawResource> category() {
+            return PlanetaryResources.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PlanetLiquidGasRawResource";
+        }
+
+        @Override
+        public Collection<PlanetLiquidGasRawResource> items() {
+            return (load().values());
+        }
     }
 }

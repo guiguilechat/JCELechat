@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
 public class ShieldResistanceShiftHardenerBlueprint
     extends Blueprint
 {
+    public final static ShieldResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ShieldResistanceShiftHardenerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldResistanceShiftHardenerBlueprint.yaml";
     private static Map<String, ShieldResistanceShiftHardenerBlueprint> cache = (null);
 
@@ -19,8 +22,8 @@ public class ShieldResistanceShiftHardenerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldResistanceShiftHardenerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldResistanceShiftHardenerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldResistanceShiftHardenerBlueprint> load() {
@@ -36,5 +39,25 @@ public class ShieldResistanceShiftHardenerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ShieldResistanceShiftHardenerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldResistanceShiftHardenerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldResistanceShiftHardenerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldResistanceShiftHardenerBlueprint";
+        }
+
+        @Override
+        public Collection<ShieldResistanceShiftHardenerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

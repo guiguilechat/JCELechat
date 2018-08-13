@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -58,6 +60,7 @@ public class OverdriveInjectorSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/OverdriveInjectorSystem.yaml";
     private static Map<String, OverdriveInjectorSystem> cache = (null);
 
@@ -97,8 +100,8 @@ public class OverdriveInjectorSystem
     }
 
     @Override
-    public Class<?> getGroup() {
-        return OverdriveInjectorSystem.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OverdriveInjectorSystem> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, OverdriveInjectorSystem> load() {
@@ -114,5 +117,25 @@ public class OverdriveInjectorSystem
 
     private static class Container {
         public LinkedHashMap<String, OverdriveInjectorSystem> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OverdriveInjectorSystem>
+    {
+
+        @Override
+        public MetaCategory<? super OverdriveInjectorSystem> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "OverdriveInjectorSystem";
+        }
+
+        @Override
+        public Collection<OverdriveInjectorSystem> items() {
+            return (load().values());
+        }
     }
 }

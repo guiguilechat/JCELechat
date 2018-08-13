@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -71,6 +73,7 @@ public class TrackingArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static TrackingArray.MetaGroup METAGROUP = new TrackingArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/TrackingArray.yaml";
     private static Map<String, TrackingArray> cache = (null);
 
@@ -122,8 +125,8 @@ public class TrackingArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TrackingArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TrackingArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TrackingArray> load() {
@@ -139,5 +142,25 @@ public class TrackingArray
 
     private static class Container {
         public LinkedHashMap<String, TrackingArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TrackingArray>
+    {
+
+        @Override
+        public MetaCategory<? super TrackingArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TrackingArray";
+        }
+
+        @Override
+        public Collection<TrackingArray> items() {
+            return (load().values());
+        }
     }
 }

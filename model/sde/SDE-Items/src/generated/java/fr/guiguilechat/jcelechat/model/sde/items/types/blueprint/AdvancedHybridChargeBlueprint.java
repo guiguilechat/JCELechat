@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class AdvancedHybridChargeBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static AdvancedHybridChargeBlueprint.MetaGroup METAGROUP = new AdvancedHybridChargeBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedHybridChargeBlueprint.yaml";
     private static Map<String, AdvancedHybridChargeBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class AdvancedHybridChargeBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedHybridChargeBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHybridChargeBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedHybridChargeBlueprint> load() {
@@ -74,5 +77,25 @@ public class AdvancedHybridChargeBlueprint
 
     private static class Container {
         public LinkedHashMap<String, AdvancedHybridChargeBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHybridChargeBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedHybridChargeBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedHybridChargeBlueprint";
+        }
+
+        @Override
+        public Collection<AdvancedHybridChargeBlueprint> items() {
+            return (load().values());
+        }
     }
 }

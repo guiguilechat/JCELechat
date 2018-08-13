@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class TargetPainter
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double SignatureRadiusBonus;
+    public final static TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/TargetPainter.yaml";
     private static Map<String, TargetPainter> cache = (null);
 
@@ -207,8 +210,8 @@ public class TargetPainter
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TargetPainter.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetPainter> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TargetPainter> load() {
@@ -224,5 +227,25 @@ public class TargetPainter
 
     private static class Container {
         public LinkedHashMap<String, TargetPainter> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetPainter>
+    {
+
+        @Override
+        public MetaCategory<? super TargetPainter> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TargetPainter";
+        }
+
+        @Override
+        public Collection<TargetPainter> items() {
+            return (load().values());
+        }
     }
 }

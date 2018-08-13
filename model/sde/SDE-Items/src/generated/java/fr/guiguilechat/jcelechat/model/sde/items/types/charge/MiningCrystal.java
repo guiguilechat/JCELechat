@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class MiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int UnfitCapCost;
+    public final static MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/MiningCrystal.yaml";
     private static Map<String, MiningCrystal> cache = (null);
 
@@ -234,8 +237,8 @@ public class MiningCrystal
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MiningCrystal.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningCrystal> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MiningCrystal> load() {
@@ -251,5 +254,25 @@ public class MiningCrystal
 
     private static class Container {
         public LinkedHashMap<String, MiningCrystal> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningCrystal>
+    {
+
+        @Override
+        public MetaCategory<? super MiningCrystal> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MiningCrystal";
+        }
+
+        @Override
+        public Collection<MiningCrystal> items() {
+            return (load().values());
+        }
     }
 }

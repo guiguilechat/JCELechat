@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class MercoxitMiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int UnfitCapCost;
+    public final static MercoxitMiningCrystal.MetaGroup METAGROUP = new MercoxitMiningCrystal.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/MercoxitMiningCrystal.yaml";
     private static Map<String, MercoxitMiningCrystal> cache = (null);
 
@@ -234,8 +237,8 @@ public class MercoxitMiningCrystal
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MercoxitMiningCrystal.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MercoxitMiningCrystal> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MercoxitMiningCrystal> load() {
@@ -251,5 +254,25 @@ public class MercoxitMiningCrystal
 
     private static class Container {
         public LinkedHashMap<String, MercoxitMiningCrystal> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MercoxitMiningCrystal>
+    {
+
+        @Override
+        public MetaCategory<? super MercoxitMiningCrystal> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MercoxitMiningCrystal";
+        }
+
+        @Override
+        public Collection<MercoxitMiningCrystal> items() {
+            return (load().values());
+        }
     }
 }

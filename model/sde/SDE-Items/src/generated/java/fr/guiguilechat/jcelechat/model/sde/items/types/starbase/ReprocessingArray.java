@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -92,6 +94,7 @@ public class ReprocessingArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static ReprocessingArray.MetaGroup METAGROUP = new ReprocessingArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/ReprocessingArray.yaml";
     private static Map<String, ReprocessingArray> cache = (null);
 
@@ -155,8 +158,8 @@ public class ReprocessingArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ReprocessingArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReprocessingArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ReprocessingArray> load() {
@@ -172,5 +175,25 @@ public class ReprocessingArray
 
     private static class Container {
         public LinkedHashMap<String, ReprocessingArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReprocessingArray>
+    {
+
+        @Override
+        public MetaCategory<? super ReprocessingArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ReprocessingArray";
+        }
+
+        @Override
+        public Collection<ReprocessingArray> items() {
+            return (load().values());
+        }
     }
 }

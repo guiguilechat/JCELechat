@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
 public class ResearchData
     extends Commodity
 {
+    public final static ResearchData.MetaGroup METAGROUP = new ResearchData.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/ResearchData.yaml";
     private static Map<String, ResearchData> cache = (null);
 
@@ -19,8 +22,8 @@ public class ResearchData
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ResearchData.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ResearchData> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ResearchData> load() {
@@ -36,5 +39,25 @@ public class ResearchData
 
     private static class Container {
         public LinkedHashMap<String, ResearchData> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ResearchData>
+    {
+
+        @Override
+        public MetaCategory<? super ResearchData> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ResearchData";
+        }
+
+        @Override
+        public Collection<ResearchData> items() {
+            return (load().values());
+        }
     }
 }

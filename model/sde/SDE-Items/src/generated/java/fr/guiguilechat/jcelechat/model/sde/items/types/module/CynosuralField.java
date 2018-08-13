@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -239,6 +241,7 @@ public class CynosuralField
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static CynosuralField.MetaGroup METAGROUP = new CynosuralField.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CynosuralField.yaml";
     private static Map<String, CynosuralField> cache = (null);
 
@@ -386,8 +389,8 @@ public class CynosuralField
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CynosuralField.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralField> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CynosuralField> load() {
@@ -403,5 +406,25 @@ public class CynosuralField
 
     private static class Container {
         public LinkedHashMap<String, CynosuralField> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CynosuralField>
+    {
+
+        @Override
+        public MetaCategory<? super CynosuralField> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CynosuralField";
+        }
+
+        @Override
+        public Collection<CynosuralField> items() {
+            return (load().values());
+        }
     }
 }

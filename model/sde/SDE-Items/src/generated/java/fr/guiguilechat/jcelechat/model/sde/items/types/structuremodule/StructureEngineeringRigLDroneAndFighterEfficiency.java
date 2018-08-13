@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLDroneAndFighterEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLDroneAndFighterEfficiency.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLDroneAndFighterEfficiency.yaml";
     private static Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLDroneAndFighterEfficiency.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLDroneAndFighterEfficiency> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigLDroneAndFighterEfficiency
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLDroneAndFighterEfficiency> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLDroneAndFighterEfficiency>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLDroneAndFighterEfficiency> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLDroneAndFighterEfficiency";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLDroneAndFighterEfficiency> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -340,6 +342,7 @@ public class BurstProjectors
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
+    public final static BurstProjectors.MetaGroup METAGROUP = new BurstProjectors.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/BurstProjectors.yaml";
     private static Map<String, BurstProjectors> cache = (null);
 
@@ -543,8 +546,8 @@ public class BurstProjectors
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BurstProjectors.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstProjectors> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BurstProjectors> load() {
@@ -560,5 +563,25 @@ public class BurstProjectors
 
     private static class Container {
         public LinkedHashMap<String, BurstProjectors> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstProjectors>
+    {
+
+        @Override
+        public MetaCategory<? super BurstProjectors> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BurstProjectors";
+        }
+
+        @Override
+        public Collection<BurstProjectors> items() {
+            return (load().values());
+        }
     }
 }

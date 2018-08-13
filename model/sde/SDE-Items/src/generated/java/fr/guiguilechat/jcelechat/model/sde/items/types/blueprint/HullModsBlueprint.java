@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -37,6 +39,7 @@ public class HullModsBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static HullModsBlueprint.MetaGroup METAGROUP = new HullModsBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/HullModsBlueprint.yaml";
     private static Map<String, HullModsBlueprint> cache = (null);
 
@@ -68,8 +71,8 @@ public class HullModsBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HullModsBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HullModsBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HullModsBlueprint> load() {
@@ -85,5 +88,25 @@ public class HullModsBlueprint
 
     private static class Container {
         public LinkedHashMap<String, HullModsBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HullModsBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super HullModsBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HullModsBlueprint";
+        }
+
+        @Override
+        public Collection<HullModsBlueprint> items() {
+            return (load().values());
+        }
     }
 }

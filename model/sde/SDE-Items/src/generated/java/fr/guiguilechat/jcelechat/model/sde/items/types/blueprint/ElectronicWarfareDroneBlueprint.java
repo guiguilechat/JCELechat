@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class ElectronicWarfareDroneBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static ElectronicWarfareDroneBlueprint.MetaGroup METAGROUP = new ElectronicWarfareDroneBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ElectronicWarfareDroneBlueprint.yaml";
     private static Map<String, ElectronicWarfareDroneBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class ElectronicWarfareDroneBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ElectronicWarfareDroneBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDroneBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ElectronicWarfareDroneBlueprint> load() {
@@ -61,5 +64,25 @@ public class ElectronicWarfareDroneBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ElectronicWarfareDroneBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ElectronicWarfareDroneBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ElectronicWarfareDroneBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ElectronicWarfareDroneBlueprint";
+        }
+
+        @Override
+        public Collection<ElectronicWarfareDroneBlueprint> items() {
+            return (load().values());
+        }
     }
 }

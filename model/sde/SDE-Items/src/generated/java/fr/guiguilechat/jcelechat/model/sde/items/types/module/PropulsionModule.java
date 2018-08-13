@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -198,6 +200,7 @@ public class PropulsionModule
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static PropulsionModule.MetaGroup METAGROUP = new PropulsionModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/PropulsionModule.yaml";
     private static Map<String, PropulsionModule> cache = (null);
 
@@ -317,8 +320,8 @@ public class PropulsionModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PropulsionModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PropulsionModule> load() {
@@ -334,5 +337,25 @@ public class PropulsionModule
 
     private static class Container {
         public LinkedHashMap<String, PropulsionModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PropulsionModule>
+    {
+
+        @Override
+        public MetaCategory<? super PropulsionModule> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PropulsionModule";
+        }
+
+        @Override
+        public Collection<PropulsionModule> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.specialeditionassets;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class FestivalChargesExpired
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static FestivalChargesExpired.MetaGroup METAGROUP = new FestivalChargesExpired.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/specialeditionassets/FestivalChargesExpired.yaml";
     private static Map<String, FestivalChargesExpired> cache = (null);
 
@@ -222,8 +225,8 @@ public class FestivalChargesExpired
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FestivalChargesExpired.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FestivalChargesExpired> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FestivalChargesExpired> load() {
@@ -239,5 +242,25 @@ public class FestivalChargesExpired
 
     private static class Container {
         public LinkedHashMap<String, FestivalChargesExpired> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FestivalChargesExpired>
+    {
+
+        @Override
+        public MetaCategory<? super FestivalChargesExpired> category() {
+            return SpecialEditionAssets.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FestivalChargesExpired";
+        }
+
+        @Override
+        public Collection<FestivalChargesExpired> items() {
+            return (load().values());
+        }
     }
 }

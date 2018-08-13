@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
 public class PolymerReactionFormulas
     extends Blueprint
 {
+    public final static PolymerReactionFormulas.MetaGroup METAGROUP = new PolymerReactionFormulas.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/PolymerReactionFormulas.yaml";
     private static Map<String, PolymerReactionFormulas> cache = (null);
 
@@ -19,8 +22,8 @@ public class PolymerReactionFormulas
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PolymerReactionFormulas.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PolymerReactionFormulas> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PolymerReactionFormulas> load() {
@@ -36,5 +39,25 @@ public class PolymerReactionFormulas
 
     private static class Container {
         public LinkedHashMap<String, PolymerReactionFormulas> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PolymerReactionFormulas>
+    {
+
+        @Override
+        public MetaCategory<? super PolymerReactionFormulas> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PolymerReactionFormulas";
+        }
+
+        @Override
+        public Collection<PolymerReactionFormulas> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -42,6 +44,7 @@ public class DecryptorsTakmahl
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
+    public final static DecryptorsTakmahl.MetaGroup METAGROUP = new DecryptorsTakmahl.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/DecryptorsTakmahl.yaml";
     private static Map<String, DecryptorsTakmahl> cache = (null);
 
@@ -77,8 +80,8 @@ public class DecryptorsTakmahl
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DecryptorsTakmahl.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DecryptorsTakmahl> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DecryptorsTakmahl> load() {
@@ -94,5 +97,25 @@ public class DecryptorsTakmahl
 
     private static class Container {
         public LinkedHashMap<String, DecryptorsTakmahl> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DecryptorsTakmahl>
+    {
+
+        @Override
+        public MetaCategory<? super DecryptorsTakmahl> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DecryptorsTakmahl";
+        }
+
+        @Override
+        public Collection<DecryptorsTakmahl> items() {
+            return (load().values());
+        }
     }
 }

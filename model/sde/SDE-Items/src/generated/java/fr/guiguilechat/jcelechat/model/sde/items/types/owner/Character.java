@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.owner;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Owner;
 import org.yaml.snakeyaml.Yaml;
 
 public class Character
     extends Owner
 {
+    public final static Character.MetaGroup METAGROUP = new Character.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/owner/Character.yaml";
     private static Map<String, Character> cache = (null);
 
@@ -19,8 +22,8 @@ public class Character
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Character.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Character> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Character> load() {
@@ -36,5 +39,25 @@ public class Character
 
     private static class Container {
         public LinkedHashMap<String, Character> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Character>
+    {
+
+        @Override
+        public MetaCategory<? super Character> category() {
+            return Owner.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Character";
+        }
+
+        @Override
+        public Collection<Character> items() {
+            return (load().values());
+        }
     }
 }

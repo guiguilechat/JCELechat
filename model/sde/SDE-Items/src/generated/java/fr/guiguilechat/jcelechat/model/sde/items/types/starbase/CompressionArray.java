@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -85,6 +87,7 @@ public class CompressionArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static CompressionArray.MetaGroup METAGROUP = new CompressionArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/CompressionArray.yaml";
     private static Map<String, CompressionArray> cache = (null);
 
@@ -144,8 +147,8 @@ public class CompressionArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CompressionArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CompressionArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CompressionArray> load() {
@@ -161,5 +164,25 @@ public class CompressionArray
 
     private static class Container {
         public LinkedHashMap<String, CompressionArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CompressionArray>
+    {
+
+        @Override
+        public MetaCategory<? super CompressionArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CompressionArray";
+        }
+
+        @Override
+        public Collection<CompressionArray> items() {
+            return (load().values());
+        }
     }
 }

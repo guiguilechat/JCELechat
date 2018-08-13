@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -91,6 +93,7 @@ public class IndustrialUpgrades
     @Stackable(true)
     @DefaultIntValue(0)
     public int SovUpgradeRequiredUpgradeID;
+    public final static IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/infrastructureupgrades/IndustrialUpgrades.yaml";
     private static Map<String, IndustrialUpgrades> cache = (null);
 
@@ -154,8 +157,8 @@ public class IndustrialUpgrades
     }
 
     @Override
-    public Class<?> getGroup() {
-        return IndustrialUpgrades.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialUpgrades> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, IndustrialUpgrades> load() {
@@ -171,5 +174,25 @@ public class IndustrialUpgrades
 
     private static class Container {
         public LinkedHashMap<String, IndustrialUpgrades> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<IndustrialUpgrades>
+    {
+
+        @Override
+        public MetaCategory<? super IndustrialUpgrades> category() {
+            return InfrastructureUpgrades.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "IndustrialUpgrades";
+        }
+
+        @Override
+        public Collection<IndustrialUpgrades> items() {
+            return (load().values());
+        }
     }
 }

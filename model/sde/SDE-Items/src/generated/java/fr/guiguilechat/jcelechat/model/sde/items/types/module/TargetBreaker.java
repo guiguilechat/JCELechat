@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -127,6 +129,7 @@ public class TargetBreaker
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
+    public final static TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/TargetBreaker.yaml";
     private static Map<String, TargetBreaker> cache = (null);
 
@@ -210,8 +213,8 @@ public class TargetBreaker
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TargetBreaker.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetBreaker> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TargetBreaker> load() {
@@ -227,5 +230,25 @@ public class TargetBreaker
 
     private static class Container {
         public LinkedHashMap<String, TargetBreaker> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TargetBreaker>
+    {
+
+        @Override
+        public MetaCategory<? super TargetBreaker> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TargetBreaker";
+        }
+
+        @Override
+        public Collection<TargetBreaker> items() {
+            return (load().values());
+        }
     }
 }

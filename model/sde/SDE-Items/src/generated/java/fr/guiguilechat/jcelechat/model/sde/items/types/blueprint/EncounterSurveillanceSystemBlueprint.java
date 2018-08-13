@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class EncounterSurveillanceSystemBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static EncounterSurveillanceSystemBlueprint.MetaGroup METAGROUP = new EncounterSurveillanceSystemBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/EncounterSurveillanceSystemBlueprint.yaml";
     private static Map<String, EncounterSurveillanceSystemBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class EncounterSurveillanceSystemBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EncounterSurveillanceSystemBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EncounterSurveillanceSystemBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EncounterSurveillanceSystemBlueprint> load() {
@@ -61,5 +64,25 @@ public class EncounterSurveillanceSystemBlueprint
 
     private static class Container {
         public LinkedHashMap<String, EncounterSurveillanceSystemBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EncounterSurveillanceSystemBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super EncounterSurveillanceSystemBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EncounterSurveillanceSystemBlueprint";
+        }
+
+        @Override
+        public Collection<EncounterSurveillanceSystemBlueprint> items() {
+            return (load().values());
+        }
     }
 }

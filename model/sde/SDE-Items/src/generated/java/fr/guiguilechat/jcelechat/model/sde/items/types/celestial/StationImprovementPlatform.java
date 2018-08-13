@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -64,6 +66,7 @@ public class StationImprovementPlatform
     @Stackable(true)
     @DefaultIntValue(0)
     public int StationTypeID;
+    public final static StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/StationImprovementPlatform.yaml";
     private static Map<String, StationImprovementPlatform> cache = (null);
 
@@ -111,8 +114,8 @@ public class StationImprovementPlatform
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StationImprovementPlatform.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationImprovementPlatform> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StationImprovementPlatform> load() {
@@ -128,5 +131,25 @@ public class StationImprovementPlatform
 
     private static class Container {
         public LinkedHashMap<String, StationImprovementPlatform> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationImprovementPlatform>
+    {
+
+        @Override
+        public MetaCategory<? super StationImprovementPlatform> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StationImprovementPlatform";
+        }
+
+        @Override
+        public Collection<StationImprovementPlatform> items() {
+            return (load().values());
+        }
     }
 }

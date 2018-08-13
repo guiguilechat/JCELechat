@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -122,6 +124,7 @@ public class HybridCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static HybridCharge.MetaGroup METAGROUP = new HybridCharge.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/HybridCharge.yaml";
     private static Map<String, HybridCharge> cache = (null);
 
@@ -197,8 +200,8 @@ public class HybridCharge
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HybridCharge.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridCharge> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HybridCharge> load() {
@@ -214,5 +217,25 @@ public class HybridCharge
 
     private static class Container {
         public LinkedHashMap<String, HybridCharge> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridCharge>
+    {
+
+        @Override
+        public MetaCategory<? super HybridCharge> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HybridCharge";
+        }
+
+        @Override
+        public Collection<HybridCharge> items() {
+            return (load().values());
+        }
     }
 }

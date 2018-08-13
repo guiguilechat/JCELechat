@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class ArmorHardener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
+    public final static ArmorHardener.MetaGroup METAGROUP = new ArmorHardener.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorHardener.yaml";
     private static Map<String, ArmorHardener> cache = (null);
 
@@ -207,8 +210,8 @@ public class ArmorHardener
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ArmorHardener.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorHardener> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ArmorHardener> load() {
@@ -224,5 +227,25 @@ public class ArmorHardener
 
     private static class Container {
         public LinkedHashMap<String, ArmorHardener> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorHardener>
+    {
+
+        @Override
+        public MetaCategory<? super ArmorHardener> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ArmorHardener";
+        }
+
+        @Override
+        public Collection<ArmorHardener> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -45,6 +47,7 @@ public class WarpScramblerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static WarpScramblerBlueprint.MetaGroup METAGROUP = new WarpScramblerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/WarpScramblerBlueprint.yaml";
     private static Map<String, WarpScramblerBlueprint> cache = (null);
 
@@ -76,8 +79,8 @@ public class WarpScramblerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return WarpScramblerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScramblerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, WarpScramblerBlueprint> load() {
@@ -93,5 +96,25 @@ public class WarpScramblerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, WarpScramblerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpScramblerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super WarpScramblerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "WarpScramblerBlueprint";
+        }
+
+        @Override
+        public Collection<WarpScramblerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

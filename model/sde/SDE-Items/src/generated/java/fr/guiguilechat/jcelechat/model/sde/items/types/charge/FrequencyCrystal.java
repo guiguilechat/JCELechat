@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -157,6 +159,7 @@ public class FrequencyCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/FrequencyCrystal.yaml";
     private static Map<String, FrequencyCrystal> cache = (null);
 
@@ -252,8 +255,8 @@ public class FrequencyCrystal
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FrequencyCrystal.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FrequencyCrystal> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FrequencyCrystal> load() {
@@ -269,5 +272,25 @@ public class FrequencyCrystal
 
     private static class Container {
         public LinkedHashMap<String, FrequencyCrystal> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FrequencyCrystal>
+    {
+
+        @Override
+        public MetaCategory<? super FrequencyCrystal> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FrequencyCrystal";
+        }
+
+        @Override
+        public Collection<FrequencyCrystal> items() {
+            return (load().values());
+        }
     }
 }

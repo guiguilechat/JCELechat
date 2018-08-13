@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -78,6 +80,7 @@ public class Laboratory
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ShieldUniformity;
+    public final static Laboratory.MetaGroup METAGROUP = new Laboratory.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/Laboratory.yaml";
     private static Map<String, Laboratory> cache = (null);
 
@@ -133,8 +136,8 @@ public class Laboratory
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Laboratory.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Laboratory> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Laboratory> load() {
@@ -150,5 +153,25 @@ public class Laboratory
 
     private static class Container {
         public LinkedHashMap<String, Laboratory> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Laboratory>
+    {
+
+        @Override
+        public MetaCategory<? super Laboratory> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Laboratory";
+        }
+
+        @Override
+        public Collection<Laboratory> items() {
+            return (load().values());
+        }
     }
 }

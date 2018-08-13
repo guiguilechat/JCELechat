@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -99,6 +101,7 @@ public class EncounterSurveillanceSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleStrength;
+    public final static EncounterSurveillanceSystem.MetaGroup METAGROUP = new EncounterSurveillanceSystem.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/EncounterSurveillanceSystem.yaml";
     private static Map<String, EncounterSurveillanceSystem> cache = (null);
 
@@ -166,8 +169,8 @@ public class EncounterSurveillanceSystem
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EncounterSurveillanceSystem.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EncounterSurveillanceSystem> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EncounterSurveillanceSystem> load() {
@@ -183,5 +186,25 @@ public class EncounterSurveillanceSystem
 
     private static class Container {
         public LinkedHashMap<String, EncounterSurveillanceSystem> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EncounterSurveillanceSystem>
+    {
+
+        @Override
+        public MetaCategory<? super EncounterSurveillanceSystem> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EncounterSurveillanceSystem";
+        }
+
+        @Override
+        public Collection<EncounterSurveillanceSystem> items() {
+            return (load().values());
+        }
     }
 }

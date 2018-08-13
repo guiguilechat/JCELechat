@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +74,7 @@ public class ShieldFluxCoil
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
+    public final static ShieldFluxCoil.MetaGroup METAGROUP = new ShieldFluxCoil.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldFluxCoil.yaml";
     private static Map<String, ShieldFluxCoil> cache = (null);
 
@@ -119,8 +122,8 @@ public class ShieldFluxCoil
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldFluxCoil.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldFluxCoil> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldFluxCoil> load() {
@@ -136,5 +139,25 @@ public class ShieldFluxCoil
 
     private static class Container {
         public LinkedHashMap<String, ShieldFluxCoil> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldFluxCoil>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldFluxCoil> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldFluxCoil";
+        }
+
+        @Override
+        public Collection<ShieldFluxCoil> items() {
+            return (load().values());
+        }
     }
 }

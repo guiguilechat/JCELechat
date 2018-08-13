@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -77,6 +81,7 @@ public abstract class Skill
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillTimeConstant;
+    public final static Skill.MetaCat METACAT = new Skill.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -118,11 +123,27 @@ public abstract class Skill
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Skill.class;
+    public MetaCategory<Skill> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Skill> loadCategory() {
         return Stream.of(Armor.load(), CorporationManagement.load(), Drones.load(), ElectronicSystems.load(), Engineering.load(), FleetSupport.load(), Gunnery.load(), Missiles.load(), Navigation.load(), NeuralEnhancement.load(), PlanetManagement.load(), Production.load(), ResourceProcessing.load(), Rigging.load(), Scanning.load(), Science.load(), Shields.load(), Social.load(), SpaceshipCommand.load(), StructureManagement.load(), Subsystems.load(), Targeting.load(), Trade.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Skill>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Skill> [] groups = new MetaGroup[] {Gunnery.METAGROUP, Missiles.METAGROUP, SpaceshipCommand.METAGROUP, FleetSupport.METAGROUP, CorporationManagement.METAGROUP, Production.METAGROUP, Rigging.METAGROUP, Science.METAGROUP, ElectronicSystems.METAGROUP, Drones.METAGROUP, Trade.METAGROUP, Navigation.METAGROUP, Social.METAGROUP, Shields.METAGROUP, Armor.METAGROUP, Targeting.METAGROUP, Engineering.METAGROUP, Scanning.METAGROUP, ResourceProcessing.METAGROUP, NeuralEnhancement.METAGROUP, Subsystems.METAGROUP, PlanetManagement.METAGROUP, StructureManagement.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Skill";
+        }
+
+        public Collection<MetaGroup<? extends Skill>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

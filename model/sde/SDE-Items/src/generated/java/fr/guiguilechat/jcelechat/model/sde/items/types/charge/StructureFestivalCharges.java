@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class StructureFestivalCharges
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureFestivalCharges.MetaGroup METAGROUP = new StructureFestivalCharges.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureFestivalCharges.yaml";
     private static Map<String, StructureFestivalCharges> cache = (null);
 
@@ -211,8 +214,8 @@ public class StructureFestivalCharges
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureFestivalCharges.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureFestivalCharges> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureFestivalCharges> load() {
@@ -228,5 +231,25 @@ public class StructureFestivalCharges
 
     private static class Container {
         public LinkedHashMap<String, StructureFestivalCharges> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureFestivalCharges>
+    {
+
+        @Override
+        public MetaCategory<? super StructureFestivalCharges> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureFestivalCharges";
+        }
+
+        @Override
+        public Collection<StructureFestivalCharges> items() {
+            return (load().values());
+        }
     }
 }

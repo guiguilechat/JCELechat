@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -113,6 +115,7 @@ public class ScannerArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/ScannerArray.yaml";
     private static Map<String, ScannerArray> cache = (null);
 
@@ -188,8 +191,8 @@ public class ScannerArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ScannerArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ScannerArray> load() {
@@ -205,5 +208,25 @@ public class ScannerArray
 
     private static class Container {
         public LinkedHashMap<String, ScannerArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ScannerArray>
+    {
+
+        @Override
+        public MetaCategory<? super ScannerArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ScannerArray";
+        }
+
+        @Override
+        public Collection<ScannerArray> items() {
+            return (load().values());
+        }
     }
 }

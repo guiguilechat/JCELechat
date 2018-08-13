@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileCynosuralInhibitorBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileCynosuralInhibitorBlueprint.MetaGroup METAGROUP = new MobileCynosuralInhibitorBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileCynosuralInhibitorBlueprint.yaml";
     private static Map<String, MobileCynosuralInhibitorBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileCynosuralInhibitorBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileCynosuralInhibitorBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileCynosuralInhibitorBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileCynosuralInhibitorBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileCynosuralInhibitorBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileCynosuralInhibitorBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileCynosuralInhibitorBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileCynosuralInhibitorBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileCynosuralInhibitorBlueprint";
+        }
+
+        @Override
+        public Collection<MobileCynosuralInhibitorBlueprint> items() {
+            return (load().values());
+        }
     }
 }

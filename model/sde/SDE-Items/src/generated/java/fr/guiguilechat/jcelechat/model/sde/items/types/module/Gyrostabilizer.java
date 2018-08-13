@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +74,7 @@ public class Gyrostabilizer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double SpeedMultiplier;
+    public final static Gyrostabilizer.MetaGroup METAGROUP = new Gyrostabilizer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/Gyrostabilizer.yaml";
     private static Map<String, Gyrostabilizer> cache = (null);
 
@@ -119,8 +122,8 @@ public class Gyrostabilizer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Gyrostabilizer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gyrostabilizer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Gyrostabilizer> load() {
@@ -136,5 +139,25 @@ public class Gyrostabilizer
 
     private static class Container {
         public LinkedHashMap<String, Gyrostabilizer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gyrostabilizer>
+    {
+
+        @Override
+        public MetaCategory<? super Gyrostabilizer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Gyrostabilizer";
+        }
+
+        @Override
+        public Collection<Gyrostabilizer> items() {
+            return (load().values());
+        }
     }
 }

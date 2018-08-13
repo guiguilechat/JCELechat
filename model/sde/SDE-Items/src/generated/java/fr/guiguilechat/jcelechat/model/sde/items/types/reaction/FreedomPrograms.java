@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.reaction;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Reaction;
 import org.yaml.snakeyaml.Yaml;
 
 public class FreedomPrograms
     extends Reaction
 {
+    public final static FreedomPrograms.MetaGroup METAGROUP = new FreedomPrograms.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/reaction/FreedomPrograms.yaml";
     private static Map<String, FreedomPrograms> cache = (null);
 
@@ -19,8 +22,8 @@ public class FreedomPrograms
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FreedomPrograms.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FreedomPrograms> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FreedomPrograms> load() {
@@ -36,5 +39,25 @@ public class FreedomPrograms
 
     private static class Container {
         public LinkedHashMap<String, FreedomPrograms> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FreedomPrograms>
+    {
+
+        @Override
+        public MetaCategory<? super FreedomPrograms> category() {
+            return Reaction.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FreedomPrograms";
+        }
+
+        @Override
+        public Collection<FreedomPrograms> items() {
+            return (load().values());
+        }
     }
 }

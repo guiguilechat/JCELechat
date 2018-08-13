@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class CloneVatBay
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CloneVatBay.yaml";
     private static Map<String, CloneVatBay> cache = (null);
 
@@ -221,8 +224,8 @@ public class CloneVatBay
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CloneVatBay.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloneVatBay> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CloneVatBay> load() {
@@ -238,5 +241,25 @@ public class CloneVatBay
 
     private static class Container {
         public LinkedHashMap<String, CloneVatBay> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloneVatBay>
+    {
+
+        @Override
+        public MetaCategory<? super CloneVatBay> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CloneVatBay";
+        }
+
+        @Override
+        public Collection<CloneVatBay> items() {
+            return (load().values());
+        }
     }
 }

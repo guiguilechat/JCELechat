@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigLEWProjectionAndCapReduction.MetaGroup METAGROUP = new StructureCombatRigLEWProjectionAndCapReduction.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigLEWProjectionAndCapReduction.yaml";
     private static Map<String, StructureCombatRigLEWProjectionAndCapReduction> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigLEWProjectionAndCapReduction.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLEWProjectionAndCapReduction> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigLEWProjectionAndCapReduction> load() {
@@ -250,5 +253,25 @@ public class StructureCombatRigLEWProjectionAndCapReduction
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigLEWProjectionAndCapReduction> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigLEWProjectionAndCapReduction>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigLEWProjectionAndCapReduction> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigLEWProjectionAndCapReduction";
+        }
+
+        @Override
+        public Collection<StructureCombatRigLEWProjectionAndCapReduction> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -29,6 +31,7 @@ public class StrongBoxes
     @Stackable(true)
     @DefaultIntValue(0)
     public int MetaGroupID;
+    public final static StrongBoxes.MetaGroup METAGROUP = new StrongBoxes.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/StrongBoxes.yaml";
     private static Map<String, StrongBoxes> cache = (null);
 
@@ -52,8 +55,8 @@ public class StrongBoxes
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StrongBoxes.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StrongBoxes> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StrongBoxes> load() {
@@ -69,5 +72,25 @@ public class StrongBoxes
 
     private static class Container {
         public LinkedHashMap<String, StrongBoxes> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StrongBoxes>
+    {
+
+        @Override
+        public MetaCategory<? super StrongBoxes> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StrongBoxes";
+        }
+
+        @Override
+        public Collection<StrongBoxes> items() {
+            return (load().values());
+        }
     }
 }

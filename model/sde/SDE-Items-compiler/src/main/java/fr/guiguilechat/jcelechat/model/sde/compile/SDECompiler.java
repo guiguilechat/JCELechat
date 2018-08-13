@@ -7,12 +7,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -22,6 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.AbstractJClass;
+import com.helger.jcodemodel.JArray;
 import com.helger.jcodemodel.JBlock;
 import com.helger.jcodemodel.JCatchBlock;
 import com.helger.jcodemodel.JClassAlreadyExistsException;
@@ -29,6 +30,7 @@ import com.helger.jcodemodel.JCodeModel;
 import com.helger.jcodemodel.JConditional;
 import com.helger.jcodemodel.JDefinedClass;
 import com.helger.jcodemodel.JExpr;
+import com.helger.jcodemodel.JFieldRef;
 import com.helger.jcodemodel.JFieldVar;
 import com.helger.jcodemodel.JForEach;
 import com.helger.jcodemodel.JMethod;
@@ -277,15 +279,43 @@ public class SDECompiler {
 
 		// build
 
+		// metainf category and group
+
+		JDefinedClass metaCatClass;
+		JDefinedClass metaGroupClass;
+		JMethod groupGetCat;
+		JMethod catGetGroups;
+		JMethod groupGetItems;
+
+		try {
+			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "MetaCategory");
+			JTypeVar paramMetaCat = metaCatClass.generify("T");
+			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "MetaGroup");
+			JTypeVar paramMetaGroup = metaGroupClass.generify("T");
+
+			catGetGroups = metaCatClass.method(JMod.PUBLIC,
+					cm.ref(Collection.class).narrow(metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
+			metaCatClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+
+			groupGetCat = metaGroupClass.method(JMod.PUBLIC, metaCatClass.narrow(paramMetaGroup.wildcardSuper()), "category");
+			groupGetItems = metaGroupClass.method(JMod.PUBLIC | JMod.DEFAULT, cm.ref(Collection.class).narrow(paramMetaGroup),
+					"items");
+			groupGetItems.body()._return(JExpr._null());
+
+			metaGroupClass.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+		} catch (JClassAlreadyExistsException e) {
+			throw new UnsupportedOperationException(e);
+		}
+
 		// root class is abstract
 
 		JDefinedClass typeClass;
 		try {
 			typeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Item");
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getCategoryId");
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.ref(Class.class).narrow(cm.wildcard()), "getCategory");
+			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaCatClass.narrow(cm.wildcard()), "getCategory");
 			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getGroupId");
-			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.ref(Class.class).narrow(cm.wildcard()), "getGroup");
+			typeClass.method(JMod.PUBLIC | JMod.ABSTRACT, metaGroupClass.narrow(cm.wildcard()), "getGroup");
 			typeClass.field(JMod.PUBLIC, cm.INT, "id");
 			typeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 			typeClass.field(JMod.PUBLIC, strRef, "name");
@@ -337,33 +367,12 @@ public class SDECompiler {
 			throw new UnsupportedOperationException("catch this", e2);
 		}
 
-		// metainf category and group
-
-		JDefinedClass metaCatClass;
-		JDefinedClass metaGroupClass;
-		JMethod groupGetCat;
-		JMethod catGetGroups;
-		JMethod groupGetItems;
-
-		try {
-			metaCatClass = rootPackage()._interface(JMod.PUBLIC, "MetaCategory");
-			metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "MetaGroup");
-			JTypeVar paramMetaCat = metaCatClass.generify("T");
-			JTypeVar paramMetaGroup = metaGroupClass.generify("T");
-
-			catGetGroups = metaCatClass.method(JMod.PUBLIC,
-					cm.ref(List.class).narrow(metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
-			groupGetCat = metaGroupClass.method(JMod.PUBLIC, metaCatClass.narrow(paramMetaGroup.wildcardSuper()),
-					"category");
-			groupGetItems = metaGroupClass.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(paramMetaGroup), "items");
-		} catch (JClassAlreadyExistsException e) {
-			throw new UnsupportedOperationException(e);
-		}
-
 		// create all categories
 		// categories are abstract classes.
 
 		HashMap<Integer, JDefinedClass> catIDToClass = new HashMap<>();
+		HashMap<Integer, JArray> catIDToGroupMetaClasses = new HashMap<>();
+		HashMap<Integer, JFieldRef> catIDToMetaInstance = new HashMap<>();
 
 		for (Entry<Integer, EcategoryIDs> cate : catids.entrySet()) {
 			String newName = formatName(cate.getValue().enName());
@@ -374,11 +383,42 @@ public class SDECompiler {
 				JMethod catID = catClass.method(JMod.PUBLIC, cm.INT, "getCategoryId");
 				catID.body()._return(JExpr.lit(cate.getKey()));
 				catID.annotate(Override.class);
-				JMethod catMeth = catClass.method(JMod.PUBLIC, cm.ref(Class.class).narrow(cm.wildcard()), "getCategory");
-				catMeth.body()._return(JExpr.dotclass(catClass));
-				catMeth.annotate(Override.class);
 				catIDToClass.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
+
+				// meta class management
+
+				// create corresponding metaclass class
+				JDefinedClass metaCat = catClass._class(JMod.PUBLIC | JMod.STATIC, "MetaCat");
+				metaCat._implements(metaCatClass.narrow(catClass));
+
+				// create the returned instance
+				JVar metaInstance = catClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaCat, "METACAT")
+						.init(JExpr._new(metaCat));
+				JMethod catGetMeta = catClass.method(JMod.PUBLIC, metaCatClass.narrow(catClass), "getCategory");
+				catGetMeta.body()._return(metaInstance);
+				catGetMeta.annotate(Override.class);
+				catIDToMetaInstance.put(cate.getKey(), catClass.staticRef(metaInstance));
+
+				// meetaClass.getName return the category name
+				JMethod getName = metaCat.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+				getName.annotate(Override.class);
+				getName.body()._return(JExpr.lit(newName));
+
+				JNarrowedClass subGroupsClass = metaGroupClass.narrow(catClass.wildcardExtends());
+
+				// which has a static field of the children groups
+				JArray groupsArr = JExpr.newArray(subGroupsClass);
+				JVar groupsf = metaCat.field(JMod.PRIVATE | JMod.STATIC | JMod.FINAL, subGroupsClass.array(), "groups")
+						.init(groupsArr);
+				groupsf.annotate(SuppressWarnings.class).param("value", "unchecked");
+				// we will build it after, with the groups
+				catIDToGroupMetaClasses.put(cate.getKey(), groupsArr);
+
+				// we return it in the getgroups method
+				JMethod getGroupsMethod = metaCat.method(JMod.PUBLIC,
+						cm.ref(Collection.class).narrow(subGroupsClass), catGetGroups.name());
+				getGroupsMethod.body()._return(cm.ref(Arrays.class).staticInvoke("asList").arg(groupsf));
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}
@@ -405,11 +445,6 @@ public class SDECompiler {
 			}
 			try {
 				String name = formatName(newName);
-				// System.err
-				// .println("creating typeid group " + catClass.name().toLowerCase() +
-				// "." + name + "(" + groupEntry.getKey()
-				// + ") for cat " + name + "(" + groupEntry.getValue().categoryID +
-				// ")");
 				JDefinedClass groupClass = itemPackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupAttributes.get(groupEntry.getKey()), attributesWithFloatValue);
@@ -418,12 +453,36 @@ public class SDECompiler {
 				groupID.body()._return(JExpr.lit(groupEntry.getKey()));
 				groupID.annotate(Override.class);
 
-				JMethod groupMeth = groupClass.method(JMod.PUBLIC, cm.ref(Class.class).narrow(cm.wildcard()), "getGroup");
-				groupMeth.body()._return(JExpr.dotclass(groupClass));
-				groupMeth.annotate(Override.class);
-
 				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
 				ret.cat2Groups.get(catClass).add(groupClass);
+
+				// meta class management
+
+				// create corresponding metaGroup class
+				JDefinedClass metaGroup = groupClass._class(JMod.PUBLIC | JMod.STATIC, "MetaGroup");
+				metaGroup._implements(metaGroupClass.narrow(groupClass));
+
+				// with one instance that is returned
+				JVar metaInstance = groupClass.field(JMod.PUBLIC | JMod.STATIC | JMod.FINAL, metaGroup, "METAGROUP")
+						.init(JExpr._new(metaGroup));
+				JMethod groupGetMeta = groupClass.method(JMod.PUBLIC, metaGroupClass.narrow(groupClass), "getGroup");
+				groupGetMeta.annotate(Override.class);
+				groupGetMeta.body()._return(metaInstance);
+
+				// link with parent MetaCat
+				catIDToGroupMetaClasses.get(group.categoryID).add(groupClass.staticRef(metaInstance));
+
+				// meta group refers to meta category
+				JMethod getCat = metaGroup.method(JMod.PUBLIC, metaCatClass.narrow(groupClass.wildcardSuper()),
+						groupGetCat.name());
+				getCat.body()._return(catIDToMetaInstance.get(group.categoryID));
+				getCat.annotate(Override.class);
+
+				// metaGroup.getName return the group name
+				JMethod getName = metaGroup.method(JMod.PUBLIC, cm.ref(String.class), "getName");
+				getName.annotate(Override.class);
+				getName.body()._return(JExpr.lit(newName));
+
 			} catch (JClassAlreadyExistsException e1) {
 				throw new UnsupportedOperationException("catch this " + e1.getExistingClass(), e1);
 			}

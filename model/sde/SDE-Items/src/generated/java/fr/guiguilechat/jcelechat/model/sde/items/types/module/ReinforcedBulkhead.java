@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -79,6 +81,7 @@ public class ReinforcedBulkhead
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureHPMultiplier;
+    public final static ReinforcedBulkhead.MetaGroup METAGROUP = new ReinforcedBulkhead.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ReinforcedBulkhead.yaml";
     private static Map<String, ReinforcedBulkhead> cache = (null);
 
@@ -130,8 +133,8 @@ public class ReinforcedBulkhead
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ReinforcedBulkhead.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReinforcedBulkhead> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ReinforcedBulkhead> load() {
@@ -147,5 +150,25 @@ public class ReinforcedBulkhead
 
     private static class Container {
         public LinkedHashMap<String, ReinforcedBulkhead> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ReinforcedBulkhead>
+    {
+
+        @Override
+        public MetaCategory<? super ReinforcedBulkhead> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ReinforcedBulkhead";
+        }
+
+        @Override
+        public Collection<ReinforcedBulkhead> items() {
+            return (load().values());
+        }
     }
 }

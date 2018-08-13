@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -71,6 +73,7 @@ public class RigAnchor
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpBubbleImmuneModifier;
+    public final static RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RigAnchor.yaml";
     private static Map<String, RigAnchor> cache = (null);
 
@@ -122,8 +125,8 @@ public class RigAnchor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigAnchor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigAnchor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigAnchor> load() {
@@ -139,5 +142,25 @@ public class RigAnchor
 
     private static class Container {
         public LinkedHashMap<String, RigAnchor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigAnchor>
+    {
+
+        @Override
+        public MetaCategory<? super RigAnchor> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigAnchor";
+        }
+
+        @Override
+        public Collection<RigAnchor> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -64,6 +66,7 @@ public class CyberLearning
     @Stackable(true)
     @DefaultIntValue(0)
     public int WillpowerBonus;
+    public final static CyberLearning.MetaGroup METAGROUP = new CyberLearning.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberLearning.yaml";
     private static Map<String, CyberLearning> cache = (null);
 
@@ -111,8 +114,8 @@ public class CyberLearning
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberLearning.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberLearning> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberLearning> load() {
@@ -128,5 +131,25 @@ public class CyberLearning
 
     private static class Container {
         public LinkedHashMap<String, CyberLearning> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberLearning>
+    {
+
+        @Override
+        public MetaCategory<? super CyberLearning> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberLearning";
+        }
+
+        @Override
+        public Collection<CyberLearning> items() {
+            return (load().values());
+        }
     }
 }

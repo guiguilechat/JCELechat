@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -122,6 +124,7 @@ public class StructureWeaponUpgrade
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureWeaponUpgrade.MetaGroup METAGROUP = new StructureWeaponUpgrade.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureWeaponUpgrade.yaml";
     private static Map<String, StructureWeaponUpgrade> cache = (null);
 
@@ -201,8 +204,8 @@ public class StructureWeaponUpgrade
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureWeaponUpgrade.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWeaponUpgrade> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureWeaponUpgrade> load() {
@@ -218,5 +221,25 @@ public class StructureWeaponUpgrade
 
     private static class Container {
         public LinkedHashMap<String, StructureWeaponUpgrade> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWeaponUpgrade>
+    {
+
+        @Override
+        public MetaCategory<? super StructureWeaponUpgrade> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureWeaponUpgrade";
+        }
+
+        @Override
+        public Collection<StructureWeaponUpgrade> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class ShieldBoostAmplifierBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ShieldBoostAmplifierBlueprint.MetaGroup METAGROUP = new ShieldBoostAmplifierBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ShieldBoostAmplifierBlueprint.yaml";
     private static Map<String, ShieldBoostAmplifierBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class ShieldBoostAmplifierBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldBoostAmplifierBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBoostAmplifierBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldBoostAmplifierBlueprint> load() {
@@ -74,5 +77,25 @@ public class ShieldBoostAmplifierBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ShieldBoostAmplifierBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldBoostAmplifierBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldBoostAmplifierBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldBoostAmplifierBlueprint";
+        }
+
+        @Override
+        public Collection<ShieldBoostAmplifierBlueprint> items() {
+            return (load().values());
+        }
     }
 }

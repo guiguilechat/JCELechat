@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -64,6 +66,7 @@ public class FlexShieldHardenerScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int ThermalDamageResistanceBonusBonus;
+    public final static FlexShieldHardenerScript.MetaGroup METAGROUP = new FlexShieldHardenerScript.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/FlexShieldHardenerScript.yaml";
     private static Map<String, FlexShieldHardenerScript> cache = (null);
 
@@ -111,8 +114,8 @@ public class FlexShieldHardenerScript
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FlexShieldHardenerScript.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexShieldHardenerScript> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FlexShieldHardenerScript> load() {
@@ -128,5 +131,25 @@ public class FlexShieldHardenerScript
 
     private static class Container {
         public LinkedHashMap<String, FlexShieldHardenerScript> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FlexShieldHardenerScript>
+    {
+
+        @Override
+        public MetaCategory<? super FlexShieldHardenerScript> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FlexShieldHardenerScript";
+        }
+
+        @Override
+        public Collection<FlexShieldHardenerScript> items() {
+            return (load().values());
+        }
     }
 }

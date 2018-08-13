@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -156,6 +158,7 @@ public class StructureEngineeringRigMBasicMediumShipTE
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMBasicMediumShipTE.MetaGroup METAGROUP = new StructureEngineeringRigMBasicMediumShipTE.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMBasicMediumShipTE.yaml";
     private static Map<String, StructureEngineeringRigMBasicMediumShipTE> cache = (null);
 
@@ -255,8 +258,8 @@ public class StructureEngineeringRigMBasicMediumShipTE
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMBasicMediumShipTE.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicMediumShipTE> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMBasicMediumShipTE> load() {
@@ -272,5 +275,25 @@ public class StructureEngineeringRigMBasicMediumShipTE
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMBasicMediumShipTE> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMBasicMediumShipTE>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMBasicMediumShipTE> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMBasicMediumShipTE";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMBasicMediumShipTE> items() {
+            return (load().values());
+        }
     }
 }

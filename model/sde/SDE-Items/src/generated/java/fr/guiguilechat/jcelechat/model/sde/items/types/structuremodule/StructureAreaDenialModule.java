@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -231,6 +233,7 @@ public class StructureAreaDenialModule
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureAreaDenialModule.yaml";
     private static Map<String, StructureAreaDenialModule> cache = (null);
 
@@ -370,8 +373,8 @@ public class StructureAreaDenialModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureAreaDenialModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAreaDenialModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureAreaDenialModule> load() {
@@ -387,5 +390,25 @@ public class StructureAreaDenialModule
 
     private static class Container {
         public LinkedHashMap<String, StructureAreaDenialModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAreaDenialModule>
+    {
+
+        @Override
+        public MetaCategory<? super StructureAreaDenialModule> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureAreaDenialModule";
+        }
+
+        @Override
+        public Collection<StructureAreaDenialModule> items() {
+            return (load().values());
+        }
     }
 }

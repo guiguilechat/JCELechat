@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -157,6 +159,7 @@ public class AdvancedBeamLaserCrystal
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static AdvancedBeamLaserCrystal.MetaGroup METAGROUP = new AdvancedBeamLaserCrystal.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedBeamLaserCrystal.yaml";
     private static Map<String, AdvancedBeamLaserCrystal> cache = (null);
 
@@ -256,8 +259,8 @@ public class AdvancedBeamLaserCrystal
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedBeamLaserCrystal.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBeamLaserCrystal> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedBeamLaserCrystal> load() {
@@ -273,5 +276,25 @@ public class AdvancedBeamLaserCrystal
 
     private static class Container {
         public LinkedHashMap<String, AdvancedBeamLaserCrystal> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedBeamLaserCrystal>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedBeamLaserCrystal> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedBeamLaserCrystal";
+        }
+
+        @Override
+        public Collection<AdvancedBeamLaserCrystal> items() {
+            return (load().values());
+        }
     }
 }

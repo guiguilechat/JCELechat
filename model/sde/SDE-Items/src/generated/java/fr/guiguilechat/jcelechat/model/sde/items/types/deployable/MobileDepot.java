@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class MobileDepot
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static MobileDepot.MetaGroup METAGROUP = new MobileDepot.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDepot.yaml";
     private static Map<String, MobileDepot> cache = (null);
 
@@ -112,8 +115,8 @@ public class MobileDepot
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileDepot.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepot> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileDepot> load() {
@@ -129,5 +132,25 @@ public class MobileDepot
 
     private static class Container {
         public LinkedHashMap<String, MobileDepot> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepot>
+    {
+
+        @Override
+        public MetaCategory<? super MobileDepot> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileDepot";
+        }
+
+        @Override
+        public Collection<MobileDepot> items() {
+            return (load().values());
+        }
     }
 }

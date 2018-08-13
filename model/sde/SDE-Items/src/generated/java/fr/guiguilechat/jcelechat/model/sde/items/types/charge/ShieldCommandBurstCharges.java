@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -105,6 +107,7 @@ public class ShieldCommandBurstCharges
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareBuff4Multiplier;
+    public final static ShieldCommandBurstCharges.MetaGroup METAGROUP = new ShieldCommandBurstCharges.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/ShieldCommandBurstCharges.yaml";
     private static Map<String, ShieldCommandBurstCharges> cache = (null);
 
@@ -176,8 +179,8 @@ public class ShieldCommandBurstCharges
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldCommandBurstCharges.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldCommandBurstCharges> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldCommandBurstCharges> load() {
@@ -193,5 +196,25 @@ public class ShieldCommandBurstCharges
 
     private static class Container {
         public LinkedHashMap<String, ShieldCommandBurstCharges> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldCommandBurstCharges>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldCommandBurstCharges> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldCommandBurstCharges";
+        }
+
+        @Override
+        public Collection<ShieldCommandBurstCharges> items() {
+            return (load().values());
+        }
     }
 }

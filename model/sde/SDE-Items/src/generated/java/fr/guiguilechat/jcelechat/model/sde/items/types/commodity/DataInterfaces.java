@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -42,6 +44,7 @@ public class DataInterfaces
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/DataInterfaces.yaml";
     private static Map<String, DataInterfaces> cache = (null);
 
@@ -77,8 +80,8 @@ public class DataInterfaces
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DataInterfaces.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataInterfaces> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DataInterfaces> load() {
@@ -94,5 +97,25 @@ public class DataInterfaces
 
     private static class Container {
         public LinkedHashMap<String, DataInterfaces> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DataInterfaces>
+    {
+
+        @Override
+        public MetaCategory<? super DataInterfaces> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DataInterfaces";
+        }
+
+        @Override
+        public Collection<DataInterfaces> items() {
+            return (load().values());
+        }
     }
 }

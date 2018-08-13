@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigLBasicMediumShipEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLBasicMediumShipEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLBasicMediumShipEfficiency.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLBasicMediumShipEfficiency.yaml";
     private static Map<String, StructureEngineeringRigLBasicMediumShipEfficiency> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigLBasicMediumShipEfficiency
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLBasicMediumShipEfficiency.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicMediumShipEfficiency> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLBasicMediumShipEfficiency> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigLBasicMediumShipEfficiency
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLBasicMediumShipEfficiency> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLBasicMediumShipEfficiency>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLBasicMediumShipEfficiency> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLBasicMediumShipEfficiency";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLBasicMediumShipEfficiency> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -134,6 +136,7 @@ public class StructureAntiCapitalMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static StructureAntiCapitalMissile.MetaGroup METAGROUP = new StructureAntiCapitalMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureAntiCapitalMissile.yaml";
     private static Map<String, StructureAntiCapitalMissile> cache = (null);
 
@@ -221,8 +224,8 @@ public class StructureAntiCapitalMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureAntiCapitalMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiCapitalMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureAntiCapitalMissile> load() {
@@ -238,5 +241,25 @@ public class StructureAntiCapitalMissile
 
     private static class Container {
         public LinkedHashMap<String, StructureAntiCapitalMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureAntiCapitalMissile>
+    {
+
+        @Override
+        public MetaCategory<? super StructureAntiCapitalMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureAntiCapitalMissile";
+        }
+
+        @Override
+        public Collection<StructureAntiCapitalMissile> items() {
+            return (load().values());
+        }
     }
 }

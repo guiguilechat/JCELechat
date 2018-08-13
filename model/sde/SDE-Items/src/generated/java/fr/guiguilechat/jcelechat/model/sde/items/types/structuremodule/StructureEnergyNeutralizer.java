@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -158,6 +160,7 @@ public class StructureEnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEnergyNeutralizer.yaml";
     private static Map<String, StructureEnergyNeutralizer> cache = (null);
 
@@ -253,8 +256,8 @@ public class StructureEnergyNeutralizer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEnergyNeutralizer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEnergyNeutralizer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEnergyNeutralizer> load() {
@@ -270,5 +273,25 @@ public class StructureEnergyNeutralizer
 
     private static class Container {
         public LinkedHashMap<String, StructureEnergyNeutralizer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEnergyNeutralizer>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEnergyNeutralizer> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEnergyNeutralizer";
+        }
+
+        @Override
+        public Collection<StructureEnergyNeutralizer> items() {
+            return (load().values());
+        }
     }
 }

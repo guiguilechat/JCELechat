@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -225,6 +227,7 @@ public class Marauder
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/Marauder.yaml";
     private static Map<String, Marauder> cache = (null);
 
@@ -364,8 +367,8 @@ public class Marauder
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Marauder.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Marauder> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Marauder> load() {
@@ -381,5 +384,25 @@ public class Marauder
 
     private static class Container {
         public LinkedHashMap<String, Marauder> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Marauder>
+    {
+
+        @Override
+        public MetaCategory<? super Marauder> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Marauder";
+        }
+
+        @Override
+        public Collection<Marauder> items() {
+            return (load().values());
+        }
     }
 }

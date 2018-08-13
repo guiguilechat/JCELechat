@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -50,6 +52,7 @@ public class SecureCargoContainer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static SecureCargoContainer.MetaGroup METAGROUP = new SecureCargoContainer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/SecureCargoContainer.yaml";
     private static Map<String, SecureCargoContainer> cache = (null);
 
@@ -89,8 +92,8 @@ public class SecureCargoContainer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SecureCargoContainer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SecureCargoContainer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SecureCargoContainer> load() {
@@ -106,5 +109,25 @@ public class SecureCargoContainer
 
     private static class Container {
         public LinkedHashMap<String, SecureCargoContainer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SecureCargoContainer>
+    {
+
+        @Override
+        public MetaCategory<? super SecureCargoContainer> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SecureCargoContainer";
+        }
+
+        @Override
+        public Collection<SecureCargoContainer> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Miscellaneous
     @Stackable(true)
     @DefaultIntValue(1)
     public int ImportTaxMultiplier;
+    public final static Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Miscellaneous.yaml";
     private static Map<String, Miscellaneous> cache = (null);
 
@@ -66,8 +69,8 @@ public class Miscellaneous
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Miscellaneous.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Miscellaneous> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Miscellaneous> load() {
@@ -83,5 +86,25 @@ public class Miscellaneous
 
     private static class Container {
         public LinkedHashMap<String, Miscellaneous> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Miscellaneous>
+    {
+
+        @Override
+        public MetaCategory<? super Miscellaneous> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Miscellaneous";
+        }
+
+        @Override
+        public Collection<Miscellaneous> items() {
+            return (load().values());
+        }
     }
 }

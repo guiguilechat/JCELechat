@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -183,6 +185,7 @@ public class StasisWebifyingDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static StasisWebifyingDrone.MetaGroup METAGROUP = new StasisWebifyingDrone.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/drone/StasisWebifyingDrone.yaml";
     private static Map<String, StasisWebifyingDrone> cache = (null);
 
@@ -298,8 +301,8 @@ public class StasisWebifyingDrone
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StasisWebifyingDrone.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebifyingDrone> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StasisWebifyingDrone> load() {
@@ -315,5 +318,25 @@ public class StasisWebifyingDrone
 
     private static class Container {
         public LinkedHashMap<String, StasisWebifyingDrone> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StasisWebifyingDrone>
+    {
+
+        @Override
+        public MetaCategory<? super StasisWebifyingDrone> category() {
+            return Drone.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StasisWebifyingDrone";
+        }
+
+        @Override
+        public Collection<StasisWebifyingDrone> items() {
+            return (load().values());
+        }
     }
 }

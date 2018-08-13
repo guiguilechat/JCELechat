@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Spodumain
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
+    public final static Spodumain.MetaGroup METAGROUP = new Spodumain.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Spodumain.yaml";
     private static Map<String, Spodumain> cache = (null);
 
@@ -66,8 +69,8 @@ public class Spodumain
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Spodumain.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spodumain> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Spodumain> load() {
@@ -83,5 +86,25 @@ public class Spodumain
 
     private static class Container {
         public LinkedHashMap<String, Spodumain> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spodumain>
+    {
+
+        @Override
+        public MetaCategory<? super Spodumain> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Spodumain";
+        }
+
+        @Override
+        public Collection<Spodumain> items() {
+            return (load().values());
+        }
     }
 }

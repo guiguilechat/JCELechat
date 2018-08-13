@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -37,6 +39,7 @@ public class MissileBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static MissileBlueprint.MetaGroup METAGROUP = new MissileBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MissileBlueprint.yaml";
     private static Map<String, MissileBlueprint> cache = (null);
 
@@ -68,8 +71,8 @@ public class MissileBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileBlueprint> load() {
@@ -85,5 +88,25 @@ public class MissileBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MissileBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MissileBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileBlueprint";
+        }
+
+        @Override
+        public Collection<MissileBlueprint> items() {
+            return (load().values());
+        }
     }
 }

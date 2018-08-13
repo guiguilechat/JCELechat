@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -113,6 +115,7 @@ public class Shields
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double UniformityBonus;
+    public final static Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Shields.yaml";
     private static Map<String, Shields> cache = (null);
 
@@ -188,8 +191,8 @@ public class Shields
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Shields.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Shields> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Shields> load() {
@@ -205,5 +208,25 @@ public class Shields
 
     private static class Container {
         public LinkedHashMap<String, Shields> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Shields>
+    {
+
+        @Override
+        public MetaCategory<? super Shields> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Shields";
+        }
+
+        @Override
+        public Collection<Shields> items() {
+            return (load().values());
+        }
     }
 }

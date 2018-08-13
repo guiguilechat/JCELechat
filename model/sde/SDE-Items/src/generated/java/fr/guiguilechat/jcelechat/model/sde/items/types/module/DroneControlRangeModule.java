@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class DroneControlRangeModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static DroneControlRangeModule.MetaGroup METAGROUP = new DroneControlRangeModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/DroneControlRangeModule.yaml";
     private static Map<String, DroneControlRangeModule> cache = (null);
 
@@ -108,8 +111,8 @@ public class DroneControlRangeModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DroneControlRangeModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DroneControlRangeModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DroneControlRangeModule> load() {
@@ -125,5 +128,25 @@ public class DroneControlRangeModule
 
     private static class Container {
         public LinkedHashMap<String, DroneControlRangeModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DroneControlRangeModule>
+    {
+
+        @Override
+        public MetaCategory<? super DroneControlRangeModule> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DroneControlRangeModule";
+        }
+
+        @Override
+        public Collection<DroneControlRangeModule> items() {
+            return (load().values());
+        }
     }
 }

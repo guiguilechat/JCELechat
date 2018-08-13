@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class StructureCombatRigMMissileProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigMMissileProjection.MetaGroup METAGROUP = new StructureCombatRigMMissileProjection.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMMissileProjection.yaml";
     private static Map<String, StructureCombatRigMMissileProjection> cache = (null);
 
@@ -211,8 +214,8 @@ public class StructureCombatRigMMissileProjection
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigMMissileProjection.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMMissileProjection> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigMMissileProjection> load() {
@@ -228,5 +231,25 @@ public class StructureCombatRigMMissileProjection
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigMMissileProjection> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMMissileProjection>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigMMissileProjection> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigMMissileProjection";
+        }
+
+        @Override
+        public Collection<StructureCombatRigMMissileProjection> items() {
+            return (load().values());
+        }
     }
 }

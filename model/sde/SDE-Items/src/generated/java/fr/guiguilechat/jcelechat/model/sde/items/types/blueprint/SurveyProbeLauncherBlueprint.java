@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class SurveyProbeLauncherBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static SurveyProbeLauncherBlueprint.MetaGroup METAGROUP = new SurveyProbeLauncherBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/SurveyProbeLauncherBlueprint.yaml";
     private static Map<String, SurveyProbeLauncherBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class SurveyProbeLauncherBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SurveyProbeLauncherBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbeLauncherBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SurveyProbeLauncherBlueprint> load() {
@@ -74,5 +77,25 @@ public class SurveyProbeLauncherBlueprint
 
     private static class Container {
         public LinkedHashMap<String, SurveyProbeLauncherBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SurveyProbeLauncherBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super SurveyProbeLauncherBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SurveyProbeLauncherBlueprint";
+        }
+
+        @Override
+        public Collection<SurveyProbeLauncherBlueprint> items() {
+            return (load().values());
+        }
     }
 }

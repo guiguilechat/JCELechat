@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseProjectileBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseProjectileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseProjectileBatteryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseProjectileBatteryBlueprints.yaml";
     private static Map<String, StarbaseProjectileBatteryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseProjectileBatteryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseProjectileBatteryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseProjectileBatteryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseProjectileBatteryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseProjectileBatteryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseProjectileBatteryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseProjectileBatteryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseProjectileBatteryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseProjectileBatteryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseProjectileBatteryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

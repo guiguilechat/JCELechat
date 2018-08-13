@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -157,6 +159,7 @@ public class AdvancedExoticPlasmaCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static AdvancedExoticPlasmaCharge.MetaGroup METAGROUP = new AdvancedExoticPlasmaCharge.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedExoticPlasmaCharge.yaml";
     private static Map<String, AdvancedExoticPlasmaCharge> cache = (null);
 
@@ -252,8 +255,8 @@ public class AdvancedExoticPlasmaCharge
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedExoticPlasmaCharge.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedExoticPlasmaCharge> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedExoticPlasmaCharge> load() {
@@ -269,5 +272,25 @@ public class AdvancedExoticPlasmaCharge
 
     private static class Container {
         public LinkedHashMap<String, AdvancedExoticPlasmaCharge> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedExoticPlasmaCharge>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedExoticPlasmaCharge> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedExoticPlasmaCharge";
+        }
+
+        @Override
+        public Collection<AdvancedExoticPlasmaCharge> items() {
+            return (load().values());
+        }
     }
 }

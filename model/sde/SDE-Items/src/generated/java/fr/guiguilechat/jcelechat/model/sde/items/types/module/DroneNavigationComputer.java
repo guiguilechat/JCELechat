@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class DroneNavigationComputer
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static DroneNavigationComputer.MetaGroup METAGROUP = new DroneNavigationComputer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/DroneNavigationComputer.yaml";
     private static Map<String, DroneNavigationComputer> cache = (null);
 
@@ -108,8 +111,8 @@ public class DroneNavigationComputer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DroneNavigationComputer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DroneNavigationComputer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DroneNavigationComputer> load() {
@@ -125,5 +128,25 @@ public class DroneNavigationComputer
 
     private static class Container {
         public LinkedHashMap<String, DroneNavigationComputer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DroneNavigationComputer>
+    {
+
+        @Override
+        public MetaCategory<? super DroneNavigationComputer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DroneNavigationComputer";
+        }
+
+        @Override
+        public Collection<DroneNavigationComputer> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class MissileGuidanceComputerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static MissileGuidanceComputerBlueprint.MetaGroup METAGROUP = new MissileGuidanceComputerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MissileGuidanceComputerBlueprint.yaml";
     private static Map<String, MissileGuidanceComputerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class MissileGuidanceComputerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileGuidanceComputerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileGuidanceComputerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileGuidanceComputerBlueprint> load() {
@@ -74,5 +77,25 @@ public class MissileGuidanceComputerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MissileGuidanceComputerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileGuidanceComputerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MissileGuidanceComputerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileGuidanceComputerBlueprint";
+        }
+
+        @Override
+        public Collection<MissileGuidanceComputerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

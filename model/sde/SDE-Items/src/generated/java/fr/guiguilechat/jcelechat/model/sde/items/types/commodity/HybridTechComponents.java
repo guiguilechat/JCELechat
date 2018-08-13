@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class HybridTechComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
+    public final static HybridTechComponents.MetaGroup METAGROUP = new HybridTechComponents.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/HybridTechComponents.yaml";
     private static Map<String, HybridTechComponents> cache = (null);
 
@@ -44,8 +47,8 @@ public class HybridTechComponents
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HybridTechComponents.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridTechComponents> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HybridTechComponents> load() {
@@ -61,5 +64,25 @@ public class HybridTechComponents
 
     private static class Container {
         public LinkedHashMap<String, HybridTechComponents> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridTechComponents>
+    {
+
+        @Override
+        public MetaCategory<? super HybridTechComponents> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HybridTechComponents";
+        }
+
+        @Override
+        public Collection<HybridTechComponents> items() {
+            return (load().values());
+        }
     }
 }

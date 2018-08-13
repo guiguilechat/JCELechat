@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -214,6 +216,7 @@ public class HeavyAssaultMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
+    public final static HeavyAssaultMissile.MetaGroup METAGROUP = new HeavyAssaultMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/HeavyAssaultMissile.yaml";
     private static Map<String, HeavyAssaultMissile> cache = (null);
 
@@ -341,8 +344,8 @@ public class HeavyAssaultMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HeavyAssaultMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyAssaultMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HeavyAssaultMissile> load() {
@@ -358,5 +361,25 @@ public class HeavyAssaultMissile
 
     private static class Container {
         public LinkedHashMap<String, HeavyAssaultMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyAssaultMissile>
+    {
+
+        @Override
+        public MetaCategory<? super HeavyAssaultMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HeavyAssaultMissile";
+        }
+
+        @Override
+        public Collection<HeavyAssaultMissile> items() {
+            return (load().values());
+        }
     }
 }

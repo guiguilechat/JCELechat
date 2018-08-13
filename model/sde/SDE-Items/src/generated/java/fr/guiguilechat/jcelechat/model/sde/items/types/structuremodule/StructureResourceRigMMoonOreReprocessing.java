@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class StructureResourceRigMMoonOreReprocessing
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureResourceRigMMoonOreReprocessing.MetaGroup METAGROUP = new StructureResourceRigMMoonOreReprocessing.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureResourceRigMMoonOreReprocessing.yaml";
     private static Map<String, StructureResourceRigMMoonOreReprocessing> cache = (null);
 
@@ -211,8 +214,8 @@ public class StructureResourceRigMMoonOreReprocessing
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureResourceRigMMoonOreReprocessing.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureResourceRigMMoonOreReprocessing> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureResourceRigMMoonOreReprocessing> load() {
@@ -228,5 +231,25 @@ public class StructureResourceRigMMoonOreReprocessing
 
     private static class Container {
         public LinkedHashMap<String, StructureResourceRigMMoonOreReprocessing> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureResourceRigMMoonOreReprocessing>
+    {
+
+        @Override
+        public MetaCategory<? super StructureResourceRigMMoonOreReprocessing> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureResourceRigMMoonOreReprocessing";
+        }
+
+        @Override
+        public Collection<StructureResourceRigMMoonOreReprocessing> items() {
+            return (load().values());
+        }
     }
 }

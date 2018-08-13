@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileDecoyUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileDecoyUnitBlueprint.MetaGroup METAGROUP = new MobileDecoyUnitBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileDecoyUnitBlueprint.yaml";
     private static Map<String, MobileDecoyUnitBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileDecoyUnitBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileDecoyUnitBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnitBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileDecoyUnitBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileDecoyUnitBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileDecoyUnitBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnitBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileDecoyUnitBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileDecoyUnitBlueprint";
+        }
+
+        @Override
+        public Collection<MobileDecoyUnitBlueprint> items() {
+            return (load().values());
+        }
     }
 }

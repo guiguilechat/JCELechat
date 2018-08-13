@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -143,6 +145,7 @@ public class ExoticPlasmaCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponRangeMultiplier;
+    public final static ExoticPlasmaCharge.MetaGroup METAGROUP = new ExoticPlasmaCharge.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/ExoticPlasmaCharge.yaml";
     private static Map<String, ExoticPlasmaCharge> cache = (null);
 
@@ -230,8 +233,8 @@ public class ExoticPlasmaCharge
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ExoticPlasmaCharge.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ExoticPlasmaCharge> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ExoticPlasmaCharge> load() {
@@ -247,5 +250,25 @@ public class ExoticPlasmaCharge
 
     private static class Container {
         public LinkedHashMap<String, ExoticPlasmaCharge> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ExoticPlasmaCharge>
+    {
+
+        @Override
+        public MetaCategory<? super ExoticPlasmaCharge> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ExoticPlasmaCharge";
+        }
+
+        @Override
+        public Collection<ExoticPlasmaCharge> items() {
+            return (load().values());
+        }
     }
 }

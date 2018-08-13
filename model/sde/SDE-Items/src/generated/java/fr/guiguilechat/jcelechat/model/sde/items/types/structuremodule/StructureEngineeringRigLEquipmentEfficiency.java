@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -156,6 +158,7 @@ public class StructureEngineeringRigLEquipmentEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigLEquipmentEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLEquipmentEfficiency.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigLEquipmentEfficiency.yaml";
     private static Map<String, StructureEngineeringRigLEquipmentEfficiency> cache = (null);
 
@@ -255,8 +258,8 @@ public class StructureEngineeringRigLEquipmentEfficiency
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigLEquipmentEfficiency.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLEquipmentEfficiency> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigLEquipmentEfficiency> load() {
@@ -272,5 +275,25 @@ public class StructureEngineeringRigLEquipmentEfficiency
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigLEquipmentEfficiency> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigLEquipmentEfficiency>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigLEquipmentEfficiency> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigLEquipmentEfficiency";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigLEquipmentEfficiency> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class RemoteCapacitorTransmitterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static RemoteCapacitorTransmitterBlueprint.MetaGroup METAGROUP = new RemoteCapacitorTransmitterBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/RemoteCapacitorTransmitterBlueprint.yaml";
     private static Map<String, RemoteCapacitorTransmitterBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class RemoteCapacitorTransmitterBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RemoteCapacitorTransmitterBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteCapacitorTransmitterBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RemoteCapacitorTransmitterBlueprint> load() {
@@ -74,5 +77,25 @@ public class RemoteCapacitorTransmitterBlueprint
 
     private static class Container {
         public LinkedHashMap<String, RemoteCapacitorTransmitterBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteCapacitorTransmitterBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super RemoteCapacitorTransmitterBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RemoteCapacitorTransmitterBlueprint";
+        }
+
+        @Override
+        public Collection<RemoteCapacitorTransmitterBlueprint> items() {
+            return (load().values());
+        }
     }
 }

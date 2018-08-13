@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -79,6 +81,7 @@ public class MobileDecoyUnit
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static MobileDecoyUnit.MetaGroup METAGROUP = new MobileDecoyUnit.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/deployable/MobileDecoyUnit.yaml";
     private static Map<String, MobileDecoyUnit> cache = (null);
 
@@ -134,8 +137,8 @@ public class MobileDecoyUnit
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileDecoyUnit.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnit> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileDecoyUnit> load() {
@@ -151,5 +154,25 @@ public class MobileDecoyUnit
 
     private static class Container {
         public LinkedHashMap<String, MobileDecoyUnit> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDecoyUnit>
+    {
+
+        @Override
+        public MetaCategory<? super MobileDecoyUnit> category() {
+            return Deployable.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileDecoyUnit";
+        }
+
+        @Override
+        public Collection<MobileDecoyUnit> items() {
+            return (load().values());
+        }
     }
 }

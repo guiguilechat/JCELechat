@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -55,6 +57,7 @@ public class AuditLogSecureContainer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static AuditLogSecureContainer.MetaGroup METAGROUP = new AuditLogSecureContainer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/AuditLogSecureContainer.yaml";
     private static Map<String, AuditLogSecureContainer> cache = (null);
 
@@ -94,8 +97,8 @@ public class AuditLogSecureContainer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AuditLogSecureContainer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuditLogSecureContainer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AuditLogSecureContainer> load() {
@@ -111,5 +114,25 @@ public class AuditLogSecureContainer
 
     private static class Container {
         public LinkedHashMap<String, AuditLogSecureContainer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuditLogSecureContainer>
+    {
+
+        @Override
+        public MetaCategory<? super AuditLogSecureContainer> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AuditLogSecureContainer";
+        }
+
+        @Override
+        public Collection<AuditLogSecureContainer> items() {
+            return (load().values());
+        }
     }
 }

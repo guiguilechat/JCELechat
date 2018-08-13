@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -213,6 +215,7 @@ public class AdvancedLightMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
+    public final static AdvancedLightMissile.MetaGroup METAGROUP = new AdvancedLightMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedLightMissile.yaml";
     private static Map<String, AdvancedLightMissile> cache = (null);
 
@@ -344,8 +347,8 @@ public class AdvancedLightMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedLightMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedLightMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedLightMissile> load() {
@@ -361,5 +364,25 @@ public class AdvancedLightMissile
 
     private static class Container {
         public LinkedHashMap<String, AdvancedLightMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedLightMissile>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedLightMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedLightMissile";
+        }
+
+        @Override
+        public Collection<AdvancedLightMissile> items() {
+            return (load().values());
+        }
     }
 }

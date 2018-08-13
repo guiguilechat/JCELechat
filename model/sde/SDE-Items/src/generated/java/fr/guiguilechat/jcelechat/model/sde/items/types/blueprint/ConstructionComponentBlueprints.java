@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class ConstructionComponentBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static ConstructionComponentBlueprints.MetaGroup METAGROUP = new ConstructionComponentBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ConstructionComponentBlueprints.yaml";
     private static Map<String, ConstructionComponentBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class ConstructionComponentBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ConstructionComponentBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ConstructionComponentBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ConstructionComponentBlueprints> load() {
@@ -61,5 +64,25 @@ public class ConstructionComponentBlueprints
 
     private static class Container {
         public LinkedHashMap<String, ConstructionComponentBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ConstructionComponentBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super ConstructionComponentBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ConstructionComponentBlueprints";
+        }
+
+        @Override
+        public Collection<ConstructionComponentBlueprints> items() {
+            return (load().values());
+        }
     }
 }

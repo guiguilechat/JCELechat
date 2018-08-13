@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
 public class Frozen
     extends Commodity
 {
+    public final static Frozen.MetaGroup METAGROUP = new Frozen.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Frozen.yaml";
     private static Map<String, Frozen> cache = (null);
 
@@ -19,8 +22,8 @@ public class Frozen
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Frozen.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Frozen> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Frozen> load() {
@@ -36,5 +39,25 @@ public class Frozen
 
     private static class Container {
         public LinkedHashMap<String, Frozen> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Frozen>
+    {
+
+        @Override
+        public MetaCategory<? super Frozen> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Frozen";
+        }
+
+        @Override
+        public Collection<Frozen> items() {
+            return (load().values());
+        }
     }
 }

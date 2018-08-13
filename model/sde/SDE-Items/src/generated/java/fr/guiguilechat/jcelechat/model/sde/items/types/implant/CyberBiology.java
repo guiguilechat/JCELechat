@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -50,6 +52,7 @@ public class CyberBiology
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CyberBiology.MetaGroup METAGROUP = new CyberBiology.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberBiology.yaml";
     private static Map<String, CyberBiology> cache = (null);
 
@@ -89,8 +92,8 @@ public class CyberBiology
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberBiology.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberBiology> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberBiology> load() {
@@ -106,5 +109,25 @@ public class CyberBiology
 
     private static class Container {
         public LinkedHashMap<String, CyberBiology> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberBiology>
+    {
+
+        @Override
+        public MetaCategory<? super CyberBiology> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberBiology";
+        }
+
+        @Override
+        public Collection<CyberBiology> items() {
+            return (load().values());
+        }
     }
 }

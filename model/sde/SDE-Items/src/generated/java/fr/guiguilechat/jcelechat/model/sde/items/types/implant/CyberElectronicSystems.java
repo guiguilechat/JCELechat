@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -43,6 +45,7 @@ public class CyberElectronicSystems
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberElectronicSystems.yaml";
     private static Map<String, CyberElectronicSystems> cache = (null);
 
@@ -78,8 +81,8 @@ public class CyberElectronicSystems
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberElectronicSystems.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberElectronicSystems> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberElectronicSystems> load() {
@@ -95,5 +98,25 @@ public class CyberElectronicSystems
 
     private static class Container {
         public LinkedHashMap<String, CyberElectronicSystems> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberElectronicSystems>
+    {
+
+        @Override
+        public MetaCategory<? super CyberElectronicSystems> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberElectronicSystems";
+        }
+
+        @Override
+        public Collection<CyberElectronicSystems> items() {
+            return (load().values());
+        }
     }
 }

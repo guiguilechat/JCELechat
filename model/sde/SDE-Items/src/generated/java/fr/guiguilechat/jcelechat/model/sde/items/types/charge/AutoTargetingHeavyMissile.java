@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -206,6 +208,7 @@ public class AutoTargetingHeavyMissile
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static AutoTargetingHeavyMissile.MetaGroup METAGROUP = new AutoTargetingHeavyMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AutoTargetingHeavyMissile.yaml";
     private static Map<String, AutoTargetingHeavyMissile> cache = (null);
 
@@ -329,8 +332,8 @@ public class AutoTargetingHeavyMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AutoTargetingHeavyMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutoTargetingHeavyMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AutoTargetingHeavyMissile> load() {
@@ -346,5 +349,25 @@ public class AutoTargetingHeavyMissile
 
     private static class Container {
         public LinkedHashMap<String, AutoTargetingHeavyMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutoTargetingHeavyMissile>
+    {
+
+        @Override
+        public MetaCategory<? super AutoTargetingHeavyMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AutoTargetingHeavyMissile";
+        }
+
+        @Override
+        public Collection<AutoTargetingHeavyMissile> items() {
+            return (load().values());
+        }
     }
 }

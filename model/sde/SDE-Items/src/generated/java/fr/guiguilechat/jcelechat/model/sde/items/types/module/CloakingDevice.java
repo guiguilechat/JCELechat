@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -177,6 +179,7 @@ public class CloakingDevice
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionMultiplier;
+    public final static CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CloakingDevice.yaml";
     private static Map<String, CloakingDevice> cache = (null);
 
@@ -284,8 +287,8 @@ public class CloakingDevice
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CloakingDevice.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloakingDevice> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CloakingDevice> load() {
@@ -301,5 +304,25 @@ public class CloakingDevice
 
     private static class Container {
         public LinkedHashMap<String, CloakingDevice> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CloakingDevice>
+    {
+
+        @Override
+        public MetaCategory<? super CloakingDevice> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CloakingDevice";
+        }
+
+        @Override
+        public Collection<CloakingDevice> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StructureCombatRigMEnergyNeutralizerProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigMEnergyNeutralizerProjection.MetaGroup METAGROUP = new StructureCombatRigMEnergyNeutralizerProjection.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEnergyNeutralizerProjection.yaml";
     private static Map<String, StructureCombatRigMEnergyNeutralizerProjection> cache = (null);
 
@@ -222,8 +225,8 @@ public class StructureCombatRigMEnergyNeutralizerProjection
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigMEnergyNeutralizerProjection.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEnergyNeutralizerProjection> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigMEnergyNeutralizerProjection> load() {
@@ -239,5 +242,25 @@ public class StructureCombatRigMEnergyNeutralizerProjection
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigMEnergyNeutralizerProjection> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEnergyNeutralizerProjection>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigMEnergyNeutralizerProjection> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigMEnergyNeutralizerProjection";
+        }
+
+        @Override
+        public Collection<StructureCombatRigMEnergyNeutralizerProjection> items() {
+            return (load().values());
+        }
     }
 }

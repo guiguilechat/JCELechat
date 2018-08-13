@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -101,7 +102,13 @@ public class ItemsTranslater {
 			if (m == null) {
 				m = new LinkedHashMap<>();
 				exportItems.put(fileName, m);
-				makeLoadMethod(cm._getClass(className), cm, resFolder + fileName, true);
+				JDefinedClass groupclass = cm._getClass(className);
+				makeLoadMethod(groupclass, cm, resFolder + fileName, true);
+				JDefinedClass metagroup = groupclass.classes().stream().filter(jc -> jc.name().equals("MetaGroup")).findFirst()
+						.get();
+				JMethod getItems = metagroup.method(JMod.PUBLIC, cm.ref(Collection.class).narrow(groupclass), "items");
+				getItems.annotate(Override.class);
+				getItems.body()._return(JExpr.direct("load().values()"));
 			}
 			m.put(type.enName(), item);
 			builtItems.put(e.getKey(), item);
@@ -291,6 +298,7 @@ public class ItemsTranslater {
 		} else {
 			load.body()._return(cache);
 		}
+
 
 	}
 }

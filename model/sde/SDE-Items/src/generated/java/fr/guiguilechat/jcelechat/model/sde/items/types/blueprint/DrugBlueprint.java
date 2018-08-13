@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class DrugBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static DrugBlueprint.MetaGroup METAGROUP = new DrugBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DrugBlueprint.yaml";
     private static Map<String, DrugBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class DrugBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DrugBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DrugBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DrugBlueprint> load() {
@@ -61,5 +64,25 @@ public class DrugBlueprint
 
     private static class Container {
         public LinkedHashMap<String, DrugBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DrugBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super DrugBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DrugBlueprint";
+        }
+
+        @Override
+        public Collection<DrugBlueprint> items() {
+            return (load().values());
+        }
     }
 }

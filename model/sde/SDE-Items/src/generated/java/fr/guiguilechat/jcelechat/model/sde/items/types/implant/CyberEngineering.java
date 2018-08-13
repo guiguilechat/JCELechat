@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -79,6 +81,7 @@ public class CyberEngineering
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CyberEngineering.MetaGroup METAGROUP = new CyberEngineering.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/implant/CyberEngineering.yaml";
     private static Map<String, CyberEngineering> cache = (null);
 
@@ -134,8 +137,8 @@ public class CyberEngineering
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CyberEngineering.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberEngineering> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CyberEngineering> load() {
@@ -151,5 +154,25 @@ public class CyberEngineering
 
     private static class Container {
         public LinkedHashMap<String, CyberEngineering> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CyberEngineering>
+    {
+
+        @Override
+        public MetaCategory<? super CyberEngineering> category() {
+            return Implant.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CyberEngineering";
+        }
+
+        @Override
+        public Collection<CyberEngineering> items() {
+            return (load().values());
+        }
     }
 }

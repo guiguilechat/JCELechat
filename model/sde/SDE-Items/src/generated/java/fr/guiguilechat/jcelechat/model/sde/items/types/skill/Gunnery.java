@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -106,6 +108,7 @@ public class Gunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int TurretSpeeBonus;
+    public final static Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Gunnery.yaml";
     private static Map<String, Gunnery> cache = (null);
 
@@ -177,8 +180,8 @@ public class Gunnery
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Gunnery.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gunnery> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Gunnery> load() {
@@ -194,5 +197,25 @@ public class Gunnery
 
     private static class Container {
         public LinkedHashMap<String, Gunnery> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Gunnery>
+    {
+
+        @Override
+        public MetaCategory<? super Gunnery> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Gunnery";
+        }
+
+        @Override
+        public Collection<Gunnery> items() {
+            return (load().values());
+        }
     }
 }

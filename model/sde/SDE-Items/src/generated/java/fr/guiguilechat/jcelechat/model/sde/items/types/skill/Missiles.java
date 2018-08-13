@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -85,6 +87,7 @@ public class Missiles
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static Missiles.MetaGroup METAGROUP = new Missiles.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Missiles.yaml";
     private static Map<String, Missiles> cache = (null);
 
@@ -144,8 +147,8 @@ public class Missiles
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Missiles.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Missiles> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Missiles> load() {
@@ -161,5 +164,25 @@ public class Missiles
 
     private static class Container {
         public LinkedHashMap<String, Missiles> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Missiles>
+    {
+
+        @Override
+        public MetaCategory<? super Missiles> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Missiles";
+        }
+
+        @Override
+        public Collection<Missiles> items() {
+            return (load().values());
+        }
     }
 }

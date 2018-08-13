@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StructureCombatRigMBoostedSensors
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigMBoostedSensors.MetaGroup METAGROUP = new StructureCombatRigMBoostedSensors.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMBoostedSensors.yaml";
     private static Map<String, StructureCombatRigMBoostedSensors> cache = (null);
 
@@ -222,8 +225,8 @@ public class StructureCombatRigMBoostedSensors
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigMBoostedSensors.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMBoostedSensors> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigMBoostedSensors> load() {
@@ -239,5 +242,25 @@ public class StructureCombatRigMBoostedSensors
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigMBoostedSensors> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMBoostedSensors>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigMBoostedSensors> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigMBoostedSensors";
+        }
+
+        @Override
+        public Collection<StructureCombatRigMBoostedSensors> items() {
+            return (load().values());
+        }
     }
 }

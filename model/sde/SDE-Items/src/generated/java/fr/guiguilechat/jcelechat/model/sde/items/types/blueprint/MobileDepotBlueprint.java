@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileDepotBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileDepotBlueprint.MetaGroup METAGROUP = new MobileDepotBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileDepotBlueprint.yaml";
     private static Map<String, MobileDepotBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileDepotBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileDepotBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepotBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileDepotBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileDepotBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileDepotBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileDepotBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileDepotBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileDepotBlueprint";
+        }
+
+        @Override
+        public Collection<MobileDepotBlueprint> items() {
+            return (load().values());
+        }
     }
 }

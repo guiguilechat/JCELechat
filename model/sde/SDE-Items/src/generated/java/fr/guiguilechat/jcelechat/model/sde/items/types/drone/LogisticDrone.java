@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -198,6 +200,7 @@ public class LogisticDrone
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureDamageAmount;
+    public final static LogisticDrone.MetaGroup METAGROUP = new LogisticDrone.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/drone/LogisticDrone.yaml";
     private static Map<String, LogisticDrone> cache = (null);
 
@@ -321,8 +324,8 @@ public class LogisticDrone
     }
 
     @Override
-    public Class<?> getGroup() {
-        return LogisticDrone.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LogisticDrone> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, LogisticDrone> load() {
@@ -338,5 +341,25 @@ public class LogisticDrone
 
     private static class Container {
         public LinkedHashMap<String, LogisticDrone> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LogisticDrone>
+    {
+
+        @Override
+        public MetaCategory<? super LogisticDrone> category() {
+            return Drone.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "LogisticDrone";
+        }
+
+        @Override
+        public Collection<LogisticDrone> items() {
+            return (load().values());
+        }
     }
 }

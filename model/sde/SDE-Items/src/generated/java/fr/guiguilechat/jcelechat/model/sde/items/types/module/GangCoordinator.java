@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -169,6 +171,7 @@ public class GangCoordinator
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarfareLinkCPUAdd;
+    public final static GangCoordinator.MetaGroup METAGROUP = new GangCoordinator.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/GangCoordinator.yaml";
     private static Map<String, GangCoordinator> cache = (null);
 
@@ -276,8 +279,8 @@ public class GangCoordinator
     }
 
     @Override
-    public Class<?> getGroup() {
-        return GangCoordinator.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<GangCoordinator> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, GangCoordinator> load() {
@@ -293,5 +296,25 @@ public class GangCoordinator
 
     private static class Container {
         public LinkedHashMap<String, GangCoordinator> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<GangCoordinator>
+    {
+
+        @Override
+        public MetaCategory<? super GangCoordinator> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "GangCoordinator";
+        }
+
+        @Override
+        public Collection<GangCoordinator> items() {
+            return (load().values());
+        }
     }
 }

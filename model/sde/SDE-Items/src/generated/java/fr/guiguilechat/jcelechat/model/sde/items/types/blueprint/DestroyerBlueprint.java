@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -37,6 +39,7 @@ public class DestroyerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static DestroyerBlueprint.MetaGroup METAGROUP = new DestroyerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DestroyerBlueprint.yaml";
     private static Map<String, DestroyerBlueprint> cache = (null);
 
@@ -68,8 +71,8 @@ public class DestroyerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DestroyerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DestroyerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DestroyerBlueprint> load() {
@@ -85,5 +88,25 @@ public class DestroyerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, DestroyerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DestroyerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super DestroyerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DestroyerBlueprint";
+        }
+
+        @Override
+        public Collection<DestroyerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class FestivalCharges
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double ThermalDamage;
+    public final static FestivalCharges.MetaGroup METAGROUP = new FestivalCharges.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/FestivalCharges.yaml";
     private static Map<String, FestivalCharges> cache = (null);
 
@@ -222,8 +225,8 @@ public class FestivalCharges
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FestivalCharges.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FestivalCharges> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FestivalCharges> load() {
@@ -239,5 +242,25 @@ public class FestivalCharges
 
     private static class Container {
         public LinkedHashMap<String, FestivalCharges> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FestivalCharges>
+    {
+
+        @Override
+        public MetaCategory<? super FestivalCharges> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FestivalCharges";
+        }
+
+        @Override
+        public Collection<FestivalCharges> items() {
+            return (load().values());
+        }
     }
 }

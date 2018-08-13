@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -22,6 +24,7 @@ public class MissileGuidanceEnhancerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static MissileGuidanceEnhancerBlueprint.MetaGroup METAGROUP = new MissileGuidanceEnhancerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MissileGuidanceEnhancerBlueprint.yaml";
     private static Map<String, MissileGuidanceEnhancerBlueprint> cache = (null);
 
@@ -45,8 +48,8 @@ public class MissileGuidanceEnhancerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileGuidanceEnhancerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileGuidanceEnhancerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileGuidanceEnhancerBlueprint> load() {
@@ -62,5 +65,25 @@ public class MissileGuidanceEnhancerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MissileGuidanceEnhancerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileGuidanceEnhancerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MissileGuidanceEnhancerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileGuidanceEnhancerBlueprint";
+        }
+
+        @Override
+        public Collection<MissileGuidanceEnhancerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

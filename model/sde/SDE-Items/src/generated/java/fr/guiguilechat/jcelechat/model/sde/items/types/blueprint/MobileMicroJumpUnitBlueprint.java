@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileMicroJumpUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileMicroJumpUnitBlueprint.MetaGroup METAGROUP = new MobileMicroJumpUnitBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileMicroJumpUnitBlueprint.yaml";
     private static Map<String, MobileMicroJumpUnitBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileMicroJumpUnitBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileMicroJumpUnitBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileMicroJumpUnitBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileMicroJumpUnitBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileMicroJumpUnitBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileMicroJumpUnitBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileMicroJumpUnitBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileMicroJumpUnitBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileMicroJumpUnitBlueprint";
+        }
+
+        @Override
+        public Collection<MobileMicroJumpUnitBlueprint> items() {
+            return (load().values());
+        }
     }
 }

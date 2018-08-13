@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StationComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
+    public final static StationComponents.MetaGroup METAGROUP = new StationComponents.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/StationComponents.yaml";
     private static Map<String, StationComponents> cache = (null);
 
@@ -44,8 +47,8 @@ public class StationComponents
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StationComponents.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationComponents> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StationComponents> load() {
@@ -61,5 +64,25 @@ public class StationComponents
 
     private static class Container {
         public LinkedHashMap<String, StationComponents> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StationComponents>
+    {
+
+        @Override
+        public MetaCategory<? super StationComponents> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StationComponents";
+        }
+
+        @Override
+        public Collection<StationComponents> items() {
+            return (load().values());
+        }
     }
 }

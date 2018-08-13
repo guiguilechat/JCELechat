@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class HeatSinkBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static HeatSinkBlueprint.MetaGroup METAGROUP = new HeatSinkBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/HeatSinkBlueprint.yaml";
     private static Map<String, HeatSinkBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class HeatSinkBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HeatSinkBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeatSinkBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HeatSinkBlueprint> load() {
@@ -74,5 +77,25 @@ public class HeatSinkBlueprint
 
     private static class Container {
         public LinkedHashMap<String, HeatSinkBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeatSinkBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super HeatSinkBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HeatSinkBlueprint";
+        }
+
+        @Override
+        public Collection<HeatSinkBlueprint> items() {
+            return (load().values());
+        }
     }
 }

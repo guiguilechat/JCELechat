@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -29,6 +31,7 @@ public class CapitalIndustrialShipBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int IndustryJobCostMultiplier;
+    public final static CapitalIndustrialShipBlueprint.MetaGroup METAGROUP = new CapitalIndustrialShipBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CapitalIndustrialShipBlueprint.yaml";
     private static Map<String, CapitalIndustrialShipBlueprint> cache = (null);
 
@@ -56,8 +59,8 @@ public class CapitalIndustrialShipBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CapitalIndustrialShipBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapitalIndustrialShipBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CapitalIndustrialShipBlueprint> load() {
@@ -73,5 +76,25 @@ public class CapitalIndustrialShipBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CapitalIndustrialShipBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapitalIndustrialShipBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CapitalIndustrialShipBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CapitalIndustrialShipBlueprint";
+        }
+
+        @Override
+        public Collection<CapitalIndustrialShipBlueprint> items() {
+            return (load().values());
+        }
     }
 }

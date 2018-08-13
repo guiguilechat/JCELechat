@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class AuxiliaryPowerCore
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static AuxiliaryPowerCore.MetaGroup METAGROUP = new AuxiliaryPowerCore.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/AuxiliaryPowerCore.yaml";
     private static Map<String, AuxiliaryPowerCore> cache = (null);
 
@@ -108,8 +111,8 @@ public class AuxiliaryPowerCore
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AuxiliaryPowerCore.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCore> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AuxiliaryPowerCore> load() {
@@ -125,5 +128,25 @@ public class AuxiliaryPowerCore
 
     private static class Container {
         public LinkedHashMap<String, AuxiliaryPowerCore> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCore>
+    {
+
+        @Override
+        public MetaCategory<? super AuxiliaryPowerCore> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AuxiliaryPowerCore";
+        }
+
+        @Override
+        public Collection<AuxiliaryPowerCore> items() {
+            return (load().values());
+        }
     }
 }

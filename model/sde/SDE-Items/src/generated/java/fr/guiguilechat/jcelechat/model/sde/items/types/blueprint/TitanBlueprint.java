@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class TitanBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static TitanBlueprint.MetaGroup METAGROUP = new TitanBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/TitanBlueprint.yaml";
     private static Map<String, TitanBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class TitanBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TitanBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TitanBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TitanBlueprint> load() {
@@ -61,5 +64,25 @@ public class TitanBlueprint
 
     private static class Container {
         public LinkedHashMap<String, TitanBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TitanBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super TitanBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TitanBlueprint";
+        }
+
+        @Override
+        public Collection<TitanBlueprint> items() {
+            return (load().values());
+        }
     }
 }

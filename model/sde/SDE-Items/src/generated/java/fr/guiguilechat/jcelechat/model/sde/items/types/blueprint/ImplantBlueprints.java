@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class ImplantBlueprints
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ImplantBlueprints.MetaGroup METAGROUP = new ImplantBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ImplantBlueprints.yaml";
     private static Map<String, ImplantBlueprints> cache = (null);
 
@@ -57,8 +60,8 @@ public class ImplantBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ImplantBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ImplantBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ImplantBlueprints> load() {
@@ -74,5 +77,25 @@ public class ImplantBlueprints
 
     private static class Container {
         public LinkedHashMap<String, ImplantBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ImplantBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super ImplantBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ImplantBlueprints";
+        }
+
+        @Override
+        public Collection<ImplantBlueprints> items() {
+            return (load().values());
+        }
     }
 }

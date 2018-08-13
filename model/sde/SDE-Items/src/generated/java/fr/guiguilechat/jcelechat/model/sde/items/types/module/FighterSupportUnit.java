@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -114,6 +116,7 @@ public class FighterSupportUnit
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static FighterSupportUnit.MetaGroup METAGROUP = new FighterSupportUnit.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/FighterSupportUnit.yaml";
     private static Map<String, FighterSupportUnit> cache = (null);
 
@@ -185,8 +188,8 @@ public class FighterSupportUnit
     }
 
     @Override
-    public Class<?> getGroup() {
-        return FighterSupportUnit.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FighterSupportUnit> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, FighterSupportUnit> load() {
@@ -202,5 +205,25 @@ public class FighterSupportUnit
 
     private static class Container {
         public LinkedHashMap<String, FighterSupportUnit> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<FighterSupportUnit>
+    {
+
+        @Override
+        public MetaCategory<? super FighterSupportUnit> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "FighterSupportUnit";
+        }
+
+        @Override
+        public Collection<FighterSupportUnit> items() {
+            return (load().values());
+        }
     }
 }

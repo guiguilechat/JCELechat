@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class AdvancedCapitalConstructionComponents
     @Stackable(true)
     @DefaultIntValue(1)
     public int MoonMiningAmount;
+    public final static AdvancedCapitalConstructionComponents.MetaGroup METAGROUP = new AdvancedCapitalConstructionComponents.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/AdvancedCapitalConstructionComponents.yaml";
     private static Map<String, AdvancedCapitalConstructionComponents> cache = (null);
 
@@ -44,8 +47,8 @@ public class AdvancedCapitalConstructionComponents
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedCapitalConstructionComponents.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedCapitalConstructionComponents> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedCapitalConstructionComponents> load() {
@@ -61,5 +64,25 @@ public class AdvancedCapitalConstructionComponents
 
     private static class Container {
         public LinkedHashMap<String, AdvancedCapitalConstructionComponents> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedCapitalConstructionComponents>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedCapitalConstructionComponents> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedCapitalConstructionComponents";
+        }
+
+        @Override
+        public Collection<AdvancedCapitalConstructionComponents> items() {
+            return (load().values());
+        }
     }
 }

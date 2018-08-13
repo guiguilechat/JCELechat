@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class SalvagedMaterials
     @Stackable(true)
     @DefaultIntValue(0)
     public int Hp;
+    public final static SalvagedMaterials.MetaGroup METAGROUP = new SalvagedMaterials.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/material/SalvagedMaterials.yaml";
     private static Map<String, SalvagedMaterials> cache = (null);
 
@@ -44,8 +47,8 @@ public class SalvagedMaterials
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SalvagedMaterials.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SalvagedMaterials> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SalvagedMaterials> load() {
@@ -61,5 +64,25 @@ public class SalvagedMaterials
 
     private static class Container {
         public LinkedHashMap<String, SalvagedMaterials> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SalvagedMaterials>
+    {
+
+        @Override
+        public MetaCategory<? super SalvagedMaterials> category() {
+            return Material.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SalvagedMaterials";
+        }
+
+        @Override
+        public Collection<SalvagedMaterials> items() {
+            return (load().values());
+        }
     }
 }

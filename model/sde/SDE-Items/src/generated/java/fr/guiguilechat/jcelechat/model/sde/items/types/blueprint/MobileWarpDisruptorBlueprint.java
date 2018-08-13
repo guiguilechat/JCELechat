@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class MobileWarpDisruptorBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static MobileWarpDisruptorBlueprint.MetaGroup METAGROUP = new MobileWarpDisruptorBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileWarpDisruptorBlueprint.yaml";
     private static Map<String, MobileWarpDisruptorBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class MobileWarpDisruptorBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileWarpDisruptorBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileWarpDisruptorBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileWarpDisruptorBlueprint> load() {
@@ -74,5 +77,25 @@ public class MobileWarpDisruptorBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileWarpDisruptorBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileWarpDisruptorBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileWarpDisruptorBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileWarpDisruptorBlueprint";
+        }
+
+        @Override
+        public Collection<MobileWarpDisruptorBlueprint> items() {
+            return (load().values());
+        }
     }
 }

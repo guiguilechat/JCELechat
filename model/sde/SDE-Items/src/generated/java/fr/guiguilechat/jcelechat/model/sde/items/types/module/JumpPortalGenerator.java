@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -155,6 +157,7 @@ public class JumpPortalGenerator
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double SpeedFactor;
+    public final static JumpPortalGenerator.MetaGroup METAGROUP = new JumpPortalGenerator.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/JumpPortalGenerator.yaml";
     private static Map<String, JumpPortalGenerator> cache = (null);
 
@@ -254,8 +257,8 @@ public class JumpPortalGenerator
     }
 
     @Override
-    public Class<?> getGroup() {
-        return JumpPortalGenerator.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalGenerator> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, JumpPortalGenerator> load() {
@@ -271,5 +274,25 @@ public class JumpPortalGenerator
 
     private static class Container {
         public LinkedHashMap<String, JumpPortalGenerator> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<JumpPortalGenerator>
+    {
+
+        @Override
+        public MetaCategory<? super JumpPortalGenerator> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "JumpPortalGenerator";
+        }
+
+        @Override
+        public Collection<JumpPortalGenerator> items() {
+            return (load().values());
+        }
     }
 }

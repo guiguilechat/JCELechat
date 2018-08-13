@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -213,6 +215,7 @@ public class AdvancedHeavyAssaultMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
+    public final static AdvancedHeavyAssaultMissile.MetaGroup METAGROUP = new AdvancedHeavyAssaultMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/AdvancedHeavyAssaultMissile.yaml";
     private static Map<String, AdvancedHeavyAssaultMissile> cache = (null);
 
@@ -344,8 +347,8 @@ public class AdvancedHeavyAssaultMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedHeavyAssaultMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHeavyAssaultMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedHeavyAssaultMissile> load() {
@@ -361,5 +364,25 @@ public class AdvancedHeavyAssaultMissile
 
     private static class Container {
         public LinkedHashMap<String, AdvancedHeavyAssaultMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedHeavyAssaultMissile>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedHeavyAssaultMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedHeavyAssaultMissile";
+        }
+
+        @Override
+        public Collection<AdvancedHeavyAssaultMissile> items() {
+            return (load().values());
+        }
     }
 }

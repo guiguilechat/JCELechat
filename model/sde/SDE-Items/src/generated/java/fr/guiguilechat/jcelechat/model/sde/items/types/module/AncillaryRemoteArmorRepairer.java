@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -169,6 +171,7 @@ public class AncillaryRemoteArmorRepairer
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
+    public final static AncillaryRemoteArmorRepairer.MetaGroup METAGROUP = new AncillaryRemoteArmorRepairer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/AncillaryRemoteArmorRepairer.yaml";
     private static Map<String, AncillaryRemoteArmorRepairer> cache = (null);
 
@@ -276,8 +279,8 @@ public class AncillaryRemoteArmorRepairer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AncillaryRemoteArmorRepairer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteArmorRepairer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AncillaryRemoteArmorRepairer> load() {
@@ -293,5 +296,25 @@ public class AncillaryRemoteArmorRepairer
 
     private static class Container {
         public LinkedHashMap<String, AncillaryRemoteArmorRepairer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AncillaryRemoteArmorRepairer>
+    {
+
+        @Override
+        public MetaCategory<? super AncillaryRemoteArmorRepairer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AncillaryRemoteArmorRepairer";
+        }
+
+        @Override
+        public Collection<AncillaryRemoteArmorRepairer> items() {
+            return (load().values());
+        }
     }
 }

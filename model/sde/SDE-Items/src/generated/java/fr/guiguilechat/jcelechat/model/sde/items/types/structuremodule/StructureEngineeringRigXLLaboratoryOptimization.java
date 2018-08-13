@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -149,6 +151,7 @@ public class StructureEngineeringRigXLLaboratoryOptimization
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigXLLaboratoryOptimization.MetaGroup METAGROUP = new StructureEngineeringRigXLLaboratoryOptimization.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigXLLaboratoryOptimization.yaml";
     private static Map<String, StructureEngineeringRigXLLaboratoryOptimization> cache = (null);
 
@@ -244,8 +247,8 @@ public class StructureEngineeringRigXLLaboratoryOptimization
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigXLLaboratoryOptimization.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigXLLaboratoryOptimization> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigXLLaboratoryOptimization> load() {
@@ -261,5 +264,25 @@ public class StructureEngineeringRigXLLaboratoryOptimization
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigXLLaboratoryOptimization> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigXLLaboratoryOptimization>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigXLLaboratoryOptimization> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigXLLaboratoryOptimization";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigXLLaboratoryOptimization> items() {
+            return (load().values());
+        }
     }
 }

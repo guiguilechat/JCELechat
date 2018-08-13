@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class LightFighterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static LightFighterBlueprint.MetaGroup METAGROUP = new LightFighterBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/LightFighterBlueprint.yaml";
     private static Map<String, LightFighterBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class LightFighterBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return LightFighterBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LightFighterBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, LightFighterBlueprint> load() {
@@ -74,5 +77,25 @@ public class LightFighterBlueprint
 
     private static class Container {
         public LinkedHashMap<String, LightFighterBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<LightFighterBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super LightFighterBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "LightFighterBlueprint";
+        }
+
+        @Override
+        public Collection<LightFighterBlueprint> items() {
+            return (load().values());
+        }
     }
 }

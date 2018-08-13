@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -191,6 +193,7 @@ public class RemoteSensorBooster
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanResolutionBonus;
+    public final static RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RemoteSensorBooster.yaml";
     private static Map<String, RemoteSensorBooster> cache = (null);
 
@@ -306,8 +309,8 @@ public class RemoteSensorBooster
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RemoteSensorBooster.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteSensorBooster> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RemoteSensorBooster> load() {
@@ -323,5 +326,25 @@ public class RemoteSensorBooster
 
     private static class Container {
         public LinkedHashMap<String, RemoteSensorBooster> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RemoteSensorBooster>
+    {
+
+        @Override
+        public MetaCategory<? super RemoteSensorBooster> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RemoteSensorBooster";
+        }
+
+        @Override
+        public Collection<RemoteSensorBooster> items() {
+            return (load().values());
+        }
     }
 }

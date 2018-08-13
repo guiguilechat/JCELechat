@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -99,6 +101,7 @@ public class RigArmor
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static RigArmor.MetaGroup METAGROUP = new RigArmor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RigArmor.yaml";
     private static Map<String, RigArmor> cache = (null);
 
@@ -166,8 +169,8 @@ public class RigArmor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigArmor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigArmor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigArmor> load() {
@@ -183,5 +186,25 @@ public class RigArmor
 
     private static class Container {
         public LinkedHashMap<String, RigArmor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigArmor>
+    {
+
+        @Override
+        public MetaCategory<? super RigArmor> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigArmor";
+        }
+
+        @Override
+        public Collection<RigArmor> items() {
+            return (load().values());
+        }
     }
 }

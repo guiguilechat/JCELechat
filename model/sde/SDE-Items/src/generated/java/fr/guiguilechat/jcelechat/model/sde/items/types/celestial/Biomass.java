@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -28,6 +30,7 @@ public class Biomass
     @Stackable(false)
     @DefaultIntValue(100)
     public int SignatureRadius;
+    public final static Biomass.MetaGroup METAGROUP = new Biomass.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/Biomass.yaml";
     private static Map<String, Biomass> cache = (null);
 
@@ -55,8 +58,8 @@ public class Biomass
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Biomass.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Biomass> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Biomass> load() {
@@ -72,5 +75,25 @@ public class Biomass
 
     private static class Container {
         public LinkedHashMap<String, Biomass> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Biomass>
+    {
+
+        @Override
+        public MetaCategory<? super Biomass> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Biomass";
+        }
+
+        @Override
+        public Collection<Biomass> items() {
+            return (load().values());
+        }
     }
 }

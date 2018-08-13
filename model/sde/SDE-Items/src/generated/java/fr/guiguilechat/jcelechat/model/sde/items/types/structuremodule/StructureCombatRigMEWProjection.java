@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class StructureCombatRigMEWProjection
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureCombatRigMEWProjection.MetaGroup METAGROUP = new StructureCombatRigMEWProjection.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureCombatRigMEWProjection.yaml";
     private static Map<String, StructureCombatRigMEWProjection> cache = (null);
 
@@ -222,8 +225,8 @@ public class StructureCombatRigMEWProjection
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureCombatRigMEWProjection.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEWProjection> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureCombatRigMEWProjection> load() {
@@ -239,5 +242,25 @@ public class StructureCombatRigMEWProjection
 
     private static class Container {
         public LinkedHashMap<String, StructureCombatRigMEWProjection> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureCombatRigMEWProjection>
+    {
+
+        @Override
+        public MetaCategory<? super StructureCombatRigMEWProjection> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureCombatRigMEWProjection";
+        }
+
+        @Override
+        public Collection<StructureCombatRigMEWProjection> items() {
+            return (load().values());
+        }
     }
 }

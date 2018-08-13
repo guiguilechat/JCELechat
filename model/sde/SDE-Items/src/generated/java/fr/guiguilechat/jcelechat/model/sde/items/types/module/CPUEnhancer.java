@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -65,6 +67,7 @@ public class CPUEnhancer
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static CPUEnhancer.MetaGroup METAGROUP = new CPUEnhancer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/CPUEnhancer.yaml";
     private static Map<String, CPUEnhancer> cache = (null);
 
@@ -108,8 +111,8 @@ public class CPUEnhancer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CPUEnhancer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CPUEnhancer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CPUEnhancer> load() {
@@ -125,5 +128,25 @@ public class CPUEnhancer
 
     private static class Container {
         public LinkedHashMap<String, CPUEnhancer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CPUEnhancer>
+    {
+
+        @Override
+        public MetaCategory<? super CPUEnhancer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CPUEnhancer";
+        }
+
+        @Override
+        public Collection<CPUEnhancer> items() {
+            return (load().values());
+        }
     }
 }

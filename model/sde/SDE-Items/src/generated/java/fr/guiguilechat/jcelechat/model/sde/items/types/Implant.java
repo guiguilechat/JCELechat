@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -46,6 +50,7 @@ public abstract class Implant
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static Implant.MetaCat METACAT = new Implant.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -71,11 +76,27 @@ public abstract class Implant
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Implant.class;
+    public MetaCategory<Implant> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Implant> loadCategory() {
         return Stream.of(Booster.load(), CyberArmor.load(), CyberBiology.load(), CyberDrones.load(), CyberElectronicSystems.load(), CyberEngineering.load(), CyberGunnery.load(), CyberLeadership.load(), CyberLearning.load(), CyberMissile.load(), CyberNavigation.load(), CyberProduction.load(), CyberResourceProcessing.load(), CyberScanning.load(), CyberScience.load(), CyberShields.load(), CyberTargeting.load(), CyberXSpecials.load(), Cyberimplant.load(), SpecialEditionImplant.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Implant>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Implant> [] groups = new MetaGroup[] {Cyberimplant.METAGROUP, Booster.METAGROUP, CyberArmor.METAGROUP, CyberDrones.METAGROUP, CyberElectronicSystems.METAGROUP, CyberEngineering.METAGROUP, CyberGunnery.METAGROUP, CyberProduction.METAGROUP, CyberLeadership.METAGROUP, CyberLearning.METAGROUP, CyberMissile.METAGROUP, CyberNavigation.METAGROUP, CyberScience.METAGROUP, CyberShields.METAGROUP, CyberXSpecials.METAGROUP, CyberTargeting.METAGROUP, CyberResourceProcessing.METAGROUP, CyberScanning.METAGROUP, CyberBiology.METAGROUP, SpecialEditionImplant.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Implant";
+        }
+
+        public Collection<MetaGroup<? extends Implant>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

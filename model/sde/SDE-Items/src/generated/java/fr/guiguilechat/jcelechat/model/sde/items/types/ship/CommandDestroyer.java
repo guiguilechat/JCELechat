@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -246,6 +248,7 @@ public class CommandDestroyer
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static CommandDestroyer.MetaGroup METAGROUP = new CommandDestroyer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/CommandDestroyer.yaml";
     private static Map<String, CommandDestroyer> cache = (null);
 
@@ -397,8 +400,8 @@ public class CommandDestroyer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CommandDestroyer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CommandDestroyer> load() {
@@ -414,5 +417,25 @@ public class CommandDestroyer
 
     private static class Container {
         public LinkedHashMap<String, CommandDestroyer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyer>
+    {
+
+        @Override
+        public MetaCategory<? super CommandDestroyer> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CommandDestroyer";
+        }
+
+        @Override
+        public Collection<CommandDestroyer> items() {
+            return (load().values());
+        }
     }
 }

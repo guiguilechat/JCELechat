@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +74,7 @@ public class ShieldExtender
     @Stackable(true)
     @DefaultIntValue(0)
     public int SignatureRadiusAdd;
+    public final static ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldExtender.yaml";
     private static Map<String, ShieldExtender> cache = (null);
 
@@ -119,8 +122,8 @@ public class ShieldExtender
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldExtender.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldExtender> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldExtender> load() {
@@ -136,5 +139,25 @@ public class ShieldExtender
 
     private static class Container {
         public LinkedHashMap<String, ShieldExtender> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldExtender>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldExtender> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldExtender";
+        }
+
+        @Override
+        public Collection<ShieldExtender> items() {
+            return (load().values());
+        }
     }
 }

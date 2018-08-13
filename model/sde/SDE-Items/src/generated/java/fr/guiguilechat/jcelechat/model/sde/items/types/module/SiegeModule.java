@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -547,6 +549,7 @@ public class SiegeModule
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WeaponDisruptionResistanceBonus;
+    public final static SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/SiegeModule.yaml";
     private static Map<String, SiegeModule> cache = (null);
 
@@ -870,8 +873,8 @@ public class SiegeModule
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SiegeModule.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SiegeModule> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SiegeModule> load() {
@@ -887,5 +890,25 @@ public class SiegeModule
 
     private static class Container {
         public LinkedHashMap<String, SiegeModule> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SiegeModule>
+    {
+
+        @Override
+        public MetaCategory<? super SiegeModule> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SiegeModule";
+        }
+
+        @Override
+        public Collection<SiegeModule> items() {
+            return (load().values());
+        }
     }
 }

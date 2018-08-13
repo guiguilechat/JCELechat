@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class CommonMoonAsteroids
     @Stackable(true)
     @DefaultIntValue(16255)
     public int AsteroidMaxRadius;
+    public final static CommonMoonAsteroids.MetaGroup METAGROUP = new CommonMoonAsteroids.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/CommonMoonAsteroids.yaml";
     private static Map<String, CommonMoonAsteroids> cache = (null);
 
@@ -44,8 +47,8 @@ public class CommonMoonAsteroids
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CommonMoonAsteroids.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommonMoonAsteroids> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CommonMoonAsteroids> load() {
@@ -61,5 +64,25 @@ public class CommonMoonAsteroids
 
     private static class Container {
         public LinkedHashMap<String, CommonMoonAsteroids> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommonMoonAsteroids>
+    {
+
+        @Override
+        public MetaCategory<? super CommonMoonAsteroids> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CommonMoonAsteroids";
+        }
+
+        @Override
+        public Collection<CommonMoonAsteroids> items() {
+            return (load().values());
+        }
     }
 }

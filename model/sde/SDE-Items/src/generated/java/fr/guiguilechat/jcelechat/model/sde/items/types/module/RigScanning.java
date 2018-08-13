@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -113,6 +115,7 @@ public class RigScanning
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusCoherenceBonus;
+    public final static RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/RigScanning.yaml";
     private static Map<String, RigScanning> cache = (null);
 
@@ -188,8 +191,8 @@ public class RigScanning
     }
 
     @Override
-    public Class<?> getGroup() {
-        return RigScanning.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigScanning> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, RigScanning> load() {
@@ -205,5 +208,25 @@ public class RigScanning
 
     private static class Container {
         public LinkedHashMap<String, RigScanning> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<RigScanning>
+    {
+
+        @Override
+        public MetaCategory<? super RigScanning> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "RigScanning";
+        }
+
+        @Override
+        public Collection<RigScanning> items() {
+            return (load().values());
+        }
     }
 }

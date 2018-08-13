@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.material;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Material;
 import org.yaml.snakeyaml.Yaml;
 
 public class HybridPolymers
     extends Material
 {
+    public final static HybridPolymers.MetaGroup METAGROUP = new HybridPolymers.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/material/HybridPolymers.yaml";
     private static Map<String, HybridPolymers> cache = (null);
 
@@ -19,8 +22,8 @@ public class HybridPolymers
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HybridPolymers.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridPolymers> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HybridPolymers> load() {
@@ -36,5 +39,25 @@ public class HybridPolymers
 
     private static class Container {
         public LinkedHashMap<String, HybridPolymers> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridPolymers>
+    {
+
+        @Override
+        public MetaCategory<? super HybridPolymers> category() {
+            return Material.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HybridPolymers";
+        }
+
+        @Override
+        public Collection<HybridPolymers> items() {
+            return (load().values());
+        }
     }
 }

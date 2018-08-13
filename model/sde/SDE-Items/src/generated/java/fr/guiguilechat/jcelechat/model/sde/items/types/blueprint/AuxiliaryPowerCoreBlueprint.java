@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class AuxiliaryPowerCoreBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static AuxiliaryPowerCoreBlueprint.MetaGroup METAGROUP = new AuxiliaryPowerCoreBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AuxiliaryPowerCoreBlueprint.yaml";
     private static Map<String, AuxiliaryPowerCoreBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class AuxiliaryPowerCoreBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AuxiliaryPowerCoreBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCoreBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AuxiliaryPowerCoreBlueprint> load() {
@@ -74,5 +77,25 @@ public class AuxiliaryPowerCoreBlueprint
 
     private static class Container {
         public LinkedHashMap<String, AuxiliaryPowerCoreBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AuxiliaryPowerCoreBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super AuxiliaryPowerCoreBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AuxiliaryPowerCoreBlueprint";
+        }
+
+        @Override
+        public Collection<AuxiliaryPowerCoreBlueprint> items() {
+            return (load().values());
+        }
     }
 }

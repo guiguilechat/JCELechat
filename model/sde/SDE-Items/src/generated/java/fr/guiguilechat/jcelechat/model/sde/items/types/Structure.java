@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -478,6 +482,7 @@ public abstract class Structure
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double WeaponDisruptionResistance;
+    public final static Structure.MetaCat METACAT = new Structure.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -759,11 +764,27 @@ public abstract class Structure
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Structure.class;
+    public MetaCategory<Structure> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Structure> loadCategory() {
         return Stream.of(Citadel.load(), EngineeringComplex.load(), Refinery.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Structure>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Structure> [] groups = new MetaGroup[] {EngineeringComplex.METAGROUP, Refinery.METAGROUP, Citadel.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Structure";
+        }
+
+        public Collection<MetaGroup<? extends Structure>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

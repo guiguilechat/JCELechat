@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -184,6 +186,7 @@ public class WeaponDisruptor
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
+    public final static WeaponDisruptor.MetaGroup METAGROUP = new WeaponDisruptor.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/WeaponDisruptor.yaml";
     private static Map<String, WeaponDisruptor> cache = (null);
 
@@ -295,8 +298,8 @@ public class WeaponDisruptor
     }
 
     @Override
-    public Class<?> getGroup() {
-        return WeaponDisruptor.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WeaponDisruptor> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, WeaponDisruptor> load() {
@@ -312,5 +315,25 @@ public class WeaponDisruptor
 
     private static class Container {
         public LinkedHashMap<String, WeaponDisruptor> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WeaponDisruptor>
+    {
+
+        @Override
+        public MetaCategory<? super WeaponDisruptor> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "WeaponDisruptor";
+        }
+
+        @Override
+        public Collection<WeaponDisruptor> items() {
+            return (load().values());
+        }
     }
 }

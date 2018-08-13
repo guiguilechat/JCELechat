@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -183,6 +185,7 @@ public class MiningBarge
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeSlotsLeft;
+    public final static MiningBarge.MetaGroup METAGROUP = new MiningBarge.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/MiningBarge.yaml";
     private static Map<String, MiningBarge> cache = (null);
 
@@ -298,8 +301,8 @@ public class MiningBarge
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MiningBarge.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningBarge> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MiningBarge> load() {
@@ -315,5 +318,25 @@ public class MiningBarge
 
     private static class Container {
         public LinkedHashMap<String, MiningBarge> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MiningBarge>
+    {
+
+        @Override
+        public MetaCategory<? super MiningBarge> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MiningBarge";
+        }
+
+        @Override
+        public Collection<MiningBarge> items() {
+            return (load().values());
+        }
     }
 }

@@ -91,6 +91,10 @@ import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_characters_
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_created;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_fleets_fleet_id_wings_wing_id_squads_created;
 
+
+/**
+ * interface to access the ESI with a connected account.<br />This typically gives access to the character information, corporation, etc.
+ */
 public interface G_ICOAccess
     extends G_ITransfer
 {

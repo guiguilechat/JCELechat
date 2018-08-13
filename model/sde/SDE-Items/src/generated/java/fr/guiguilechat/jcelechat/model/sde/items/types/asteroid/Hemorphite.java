@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Hemorphite
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
+    public final static Hemorphite.MetaGroup METAGROUP = new Hemorphite.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Hemorphite.yaml";
     private static Map<String, Hemorphite> cache = (null);
 
@@ -66,8 +69,8 @@ public class Hemorphite
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Hemorphite.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Hemorphite> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Hemorphite> load() {
@@ -83,5 +86,25 @@ public class Hemorphite
 
     private static class Container {
         public LinkedHashMap<String, Hemorphite> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Hemorphite>
+    {
+
+        @Override
+        public MetaCategory<? super Hemorphite> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Hemorphite";
+        }
+
+        @Override
+        public Collection<Hemorphite> items() {
+            return (load().values());
+        }
     }
 }

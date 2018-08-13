@@ -16,8 +16,6 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.fasterxml.jackson.databind.Module;
-
 import fr.guiguilechat.jcelechat.esi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.esi.disconnected.modeled.market.RegionalMarket;
@@ -27,6 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
 import fr.guiguilechat.jcelechat.model.sde.items.MetaInf;
+import fr.guiguilechat.jcelechat.model.sde.items.types.Module;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Ship;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -214,8 +213,8 @@ public class ProdEval {
 		return false;
 	}
 
-	public static final Predicate<Item> isShip = t -> t != null && Ship.class.equals(t.getCategory());
-	public static final Predicate<Item> isModule = t -> t != null && Module.class.equals(t.getCategory());
+	public static final Predicate<Item> isShip = t -> t != null && Ship.METACAT.equals(t.getCategory());
+	public static final Predicate<Item> isModule = t -> t != null && Module.METACAT.equals(t.getCategory());
 
 	private static final HashMap<String, Predicate<Item>> filters = new HashMap<>();
 	static {

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -289,6 +291,7 @@ public class Battleship
     @Stackable(true)
     @DefaultIntValue(0)
     public int VirusStrengthBonus;
+    public final static Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/ship/Battleship.yaml";
     private static Map<String, Battleship> cache = (null);
 
@@ -460,8 +463,8 @@ public class Battleship
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Battleship.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Battleship> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Battleship> load() {
@@ -477,5 +480,25 @@ public class Battleship
 
     private static class Container {
         public LinkedHashMap<String, Battleship> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Battleship>
+    {
+
+        @Override
+        public MetaCategory<? super Battleship> category() {
+            return Ship.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Battleship";
+        }
+
+        @Override
+        public Collection<Battleship> items() {
+            return (load().values());
+        }
     }
 }

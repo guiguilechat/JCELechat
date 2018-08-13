@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class CombatDroneBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CombatDroneBlueprint.MetaGroup METAGROUP = new CombatDroneBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CombatDroneBlueprint.yaml";
     private static Map<String, CombatDroneBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class CombatDroneBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CombatDroneBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatDroneBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CombatDroneBlueprint> load() {
@@ -74,5 +77,25 @@ public class CombatDroneBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CombatDroneBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CombatDroneBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CombatDroneBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CombatDroneBlueprint";
+        }
+
+        @Override
+        public Collection<CombatDroneBlueprint> items() {
+            return (load().values());
+        }
     }
 }

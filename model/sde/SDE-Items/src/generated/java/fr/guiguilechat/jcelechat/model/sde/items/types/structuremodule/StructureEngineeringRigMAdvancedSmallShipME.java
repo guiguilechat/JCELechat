@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class StructureEngineeringRigMAdvancedSmallShipME
     @Stackable(true)
     @DefaultIntValue(0)
     public int UpgradeCost;
+    public final static StructureEngineeringRigMAdvancedSmallShipME.MetaGroup METAGROUP = new StructureEngineeringRigMAdvancedSmallShipME.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/structuremodule/StructureEngineeringRigMAdvancedSmallShipME.yaml";
     private static Map<String, StructureEngineeringRigMAdvancedSmallShipME> cache = (null);
 
@@ -233,8 +236,8 @@ public class StructureEngineeringRigMAdvancedSmallShipME
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureEngineeringRigMAdvancedSmallShipME.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedSmallShipME> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureEngineeringRigMAdvancedSmallShipME> load() {
@@ -250,5 +253,25 @@ public class StructureEngineeringRigMAdvancedSmallShipME
 
     private static class Container {
         public LinkedHashMap<String, StructureEngineeringRigMAdvancedSmallShipME> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureEngineeringRigMAdvancedSmallShipME>
+    {
+
+        @Override
+        public MetaCategory<? super StructureEngineeringRigMAdvancedSmallShipME> category() {
+            return StructureModule.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureEngineeringRigMAdvancedSmallShipME";
+        }
+
+        @Override
+        public Collection<StructureEngineeringRigMAdvancedSmallShipME> items() {
+            return (load().values());
+        }
     }
 }

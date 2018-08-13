@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -85,6 +87,7 @@ public class ShipMaintenanceArray
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static ShipMaintenanceArray.MetaGroup METAGROUP = new ShipMaintenanceArray.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/ShipMaintenanceArray.yaml";
     private static Map<String, ShipMaintenanceArray> cache = (null);
 
@@ -144,8 +147,8 @@ public class ShipMaintenanceArray
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShipMaintenanceArray.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipMaintenanceArray> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShipMaintenanceArray> load() {
@@ -161,5 +164,25 @@ public class ShipMaintenanceArray
 
     private static class Container {
         public LinkedHashMap<String, ShipMaintenanceArray> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipMaintenanceArray>
+    {
+
+        @Override
+        public MetaCategory<? super ShipMaintenanceArray> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShipMaintenanceArray";
+        }
+
+        @Override
+        public Collection<ShipMaintenanceArray> items() {
+            return (load().values());
+        }
     }
 }

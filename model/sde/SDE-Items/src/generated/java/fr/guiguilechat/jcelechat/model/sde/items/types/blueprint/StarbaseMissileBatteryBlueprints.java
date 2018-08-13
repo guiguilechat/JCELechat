@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseMissileBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseMissileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseMissileBatteryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseMissileBatteryBlueprints.yaml";
     private static Map<String, StarbaseMissileBatteryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseMissileBatteryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseMissileBatteryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMissileBatteryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseMissileBatteryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseMissileBatteryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseMissileBatteryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseMissileBatteryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseMissileBatteryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseMissileBatteryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseMissileBatteryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

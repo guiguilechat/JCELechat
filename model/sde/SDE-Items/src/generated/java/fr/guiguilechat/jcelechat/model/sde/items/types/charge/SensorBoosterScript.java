@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -71,6 +73,7 @@ public class SensorBoosterScript
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static SensorBoosterScript.MetaGroup METAGROUP = new SensorBoosterScript.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/SensorBoosterScript.yaml";
     private static Map<String, SensorBoosterScript> cache = (null);
 
@@ -122,8 +125,8 @@ public class SensorBoosterScript
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SensorBoosterScript.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorBoosterScript> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SensorBoosterScript> load() {
@@ -139,5 +142,25 @@ public class SensorBoosterScript
 
     private static class Container {
         public LinkedHashMap<String, SensorBoosterScript> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SensorBoosterScript>
+    {
+
+        @Override
+        public MetaCategory<? super SensorBoosterScript> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SensorBoosterScript";
+        }
+
+        @Override
+        public Collection<SensorBoosterScript> items() {
+            return (load().values());
+        }
     }
 }

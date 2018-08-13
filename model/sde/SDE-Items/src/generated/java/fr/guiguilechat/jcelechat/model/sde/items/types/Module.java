@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -176,6 +180,7 @@ public abstract class Module
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static Module.MetaCat METACAT = new Module.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -205,11 +210,27 @@ public abstract class Module
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Module.class;
+    public MetaCategory<Module> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Module> loadCategory() {
         return Stream.of(AncillaryArmorRepairer.load(), AncillaryRemoteArmorRepairer.load(), AncillaryRemoteShieldBooster.load(), AncillaryShieldBooster.load(), ArmorCoating.load(), ArmorHardener.load(), ArmorPlatingEnergized.load(), ArmorReinforcer.load(), ArmorRepairUnit.load(), ArmorResistanceShiftHardener.load(), AutomatedTargetingSystem.load(), AuxiliaryPowerCore.load(), BallisticControlSystem.load(), BurstJammer.load(), BurstProjectors.load(), CPUEnhancer.load(), CapacitorBattery.load(), CapacitorBooster.load(), CapacitorFluxCoil.load(), CapacitorPowerRelay.load(), CapacitorRecharger.load(), CapitalSensorArray.load(), CargoScanner.load(), CloakingDevice.load(), CloneVatBay.load(), CommandBurst.load(), CynosuralField.load(), DamageControl.load(), DataMiners.load(), DroneControlRangeModule.load(), DroneDamageModules.load(), DroneNavigationComputer.load(), DroneTrackingEnhancer.load(), DroneTrackingModules.load(), ECM.load(), ECMStabilizer.load(), EnergyNeutralizer.load(), EnergyNosferatu.load(), EnergyWeapon.load(), EntosisLink.load(), EntropicRadiationSink.load(), ExpandedCargohold.load(), FestivalLauncher.load(), FighterSupportUnit.load(), FlexArmorHardener.load(), FlexShieldHardener.load(), FrequencyMiningLaser.load(), GangCoordinator.load(), GasCloudHarvester.load(), Gyrostabilizer.load(), HeatSink.load(), HullRepairUnit.load(), HybridWeapon.load(), InertialStabilizer.load(), InterdictionSphereLauncher.load(), JumpDriveEconomizer.load(), JumpPortalGenerator.load(), MagneticFieldStabilizer.load(), MicroJumpDrive.load(), MicroJumpFieldGenerators.load(), MiningLaser.load(), MiningUpgrade.load(), MissileGuidanceComputer.load(), MissileGuidanceEnhancer.load(), MissileLauncherBomb.load(), MissileLauncherCruise.load(), MissileLauncherDefender.load(), MissileLauncherHeavy.load(), MissileLauncherHeavyAssault.load(), MissileLauncherLight.load(), MissileLauncherRapidHeavy.load(), MissileLauncherRapidLight.load(), MissileLauncherRapidTorpedo.load(), MissileLauncherRocket.load(), MissileLauncherTorpedo.load(), MissileLauncherXLCruise.load(), MissileLauncherXLTorpedo.load(), NanofiberInternalStructure.load(), OverdriveInjectorSystem.load(), PassiveTargetingSystem.load(), PowerDiagnosticSystem.load(), PrecursorWeapon.load(), ProjectileWeapon.load(), PropulsionModule.load(), ReactorControlUnit.load(), ReinforcedBulkhead.load(), RemoteArmorRepairer.load(), RemoteCapacitorTransmitter.load(), RemoteHullRepairer.load(), RemoteSensorBooster.load(), RemoteShieldBooster.load(), RemoteTrackingComputer.load(), RigAnchor.load(), RigArmor.load(), RigCore.load(), RigDrones.load(), RigElectronicSystems.load(), RigEnergyWeapon.load(), RigHybridWeapon.load(), RigLauncher.load(), RigNavigation.load(), RigProjectileWeapon.load(), RigResourceProcessing.load(), RigScanning.load(), RigShield.load(), RigTargeting.load(), Salvager.load(), ScanProbeLauncher.load(), ScanningUpgrade.load(), ScanningUpgradeTime.load(), SensorBooster.load(), SensorDampener.load(), ShieldBoostAmplifier.load(), ShieldBooster.load(), ShieldExtender.load(), ShieldFluxCoil.load(), ShieldHardener.load(), ShieldPowerRelay.load(), ShieldRecharger.load(), ShieldResistanceAmplifier.load(), ShipScanner.load(), SiegeModule.load(), SignalAmplifier.load(), SmartBomb.load(), StasisGrappler.load(), StasisWeb.load(), StripMiner.load(), SuperWeapon.load(), SurveyProbeLauncher.load(), SurveyScanner.load(), TargetBreaker.load(), TargetPainter.load(), TitanPhenomenaGenerator.load(), TrackingComputer.load(), TrackingEnhancer.load(), TractorBeam.load(), WarpAccelerator.load(), WarpCoreStabilizer.load(), WarpDisruptFieldGenerator.load(), WarpScrambler.load(), WeaponDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Module>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Module> [] groups = new MetaGroup[] {ShieldExtender.METAGROUP, ShieldRecharger.METAGROUP, ShieldBooster.METAGROUP, RemoteShieldBooster.METAGROUP, CapacitorRecharger.METAGROUP, PropulsionModule.METAGROUP, CargoScanner.METAGROUP, ShipScanner.METAGROUP, SurveyScanner.METAGROUP, WarpScrambler.METAGROUP, EnergyWeapon.METAGROUP, MiningLaser.METAGROUP, ProjectileWeapon.METAGROUP, ShieldPowerRelay.METAGROUP, Gyrostabilizer.METAGROUP, DamageControl.METAGROUP, CapacitorBattery.METAGROUP, ArmorRepairUnit.METAGROUP, HullRepairUnit.METAGROUP, StasisWeb.METAGROUP, RemoteCapacitorTransmitter.METAGROUP, EnergyNosferatu.METAGROUP, EnergyNeutralizer.METAGROUP, SmartBomb.METAGROUP, HybridWeapon.METAGROUP, CapacitorBooster.METAGROUP, ShieldHardener.METAGROUP, ReinforcedBulkhead.METAGROUP, BurstJammer.METAGROUP, PassiveTargetingSystem.METAGROUP, AutomatedTargetingSystem.METAGROUP, ArmorCoating.METAGROUP, ECM.METAGROUP, HeatSink.METAGROUP, SensorDampener.METAGROUP, RemoteTrackingComputer.METAGROUP, SignalAmplifier.METAGROUP, TrackingEnhancer.METAGROUP, SensorBooster.METAGROUP, TrackingComputer.METAGROUP, CPUEnhancer.METAGROUP, RemoteSensorBooster.METAGROUP, WeaponDisruptor.METAGROUP, ShieldResistanceAmplifier.METAGROUP, MagneticFieldStabilizer.METAGROUP, WarpCoreStabilizer.METAGROUP, GangCoordinator.METAGROUP, RemoteArmorRepairer.METAGROUP, ArmorPlatingEnergized.METAGROUP, ArmorHardener.METAGROUP, ArmorReinforcer.METAGROUP, CloakingDevice.METAGROUP, ShieldBoostAmplifier.METAGROUP, AuxiliaryPowerCore.METAGROUP, BallisticControlSystem.METAGROUP, TargetPainter.METAGROUP, FighterSupportUnit.METAGROUP, StripMiner.METAGROUP, ScanProbeLauncher.METAGROUP, FrequencyMiningLaser.METAGROUP, FestivalLauncher.METAGROUP, MissileLauncherCruise.METAGROUP, MissileLauncherRocket.METAGROUP, MissileLauncherTorpedo.METAGROUP, MissileLauncherLight.METAGROUP, MissileLauncherHeavy.METAGROUP, MissileLauncherRapidLight.METAGROUP, MissileLauncherDefender.METAGROUP, ECMStabilizer.METAGROUP, SiegeModule.METAGROUP, MissileLauncherXLTorpedo.METAGROUP, DataMiners.METAGROUP, MiningUpgrade.METAGROUP, RemoteHullRepairer.METAGROUP, SuperWeapon.METAGROUP, InterdictionSphereLauncher.METAGROUP, JumpPortalGenerator.METAGROUP, DroneNavigationComputer.METAGROUP, DroneDamageModules.METAGROUP, DroneTrackingModules.METAGROUP, DroneControlRangeModule.METAGROUP, TractorBeam.METAGROUP, CynosuralField.METAGROUP, GasCloudHarvester.METAGROUP, InertialStabilizer.METAGROUP, NanofiberInternalStructure.METAGROUP, OverdriveInjectorSystem.METAGROUP, ExpandedCargohold.METAGROUP, PowerDiagnosticSystem.METAGROUP, CapacitorPowerRelay.METAGROUP, CapacitorFluxCoil.METAGROUP, ReactorControlUnit.METAGROUP, ShieldFluxCoil.METAGROUP, MissileLauncherHeavyAssault.METAGROUP, RigArmor.METAGROUP, RigShield.METAGROUP, RigEnergyWeapon.METAGROUP, RigHybridWeapon.METAGROUP, RigProjectileWeapon.METAGROUP, RigDrones.METAGROUP, RigLauncher.METAGROUP, RigCore.METAGROUP, RigNavigation.METAGROUP, RigElectronicSystems.METAGROUP, CloneVatBay.METAGROUP, BurstProjectors.METAGROUP, MissileLauncherBomb.METAGROUP, WarpDisruptFieldGenerator.METAGROUP, Salvager.METAGROUP, ArmorResistanceShiftHardener.METAGROUP, TargetBreaker.METAGROUP, AncillaryShieldBooster.METAGROUP, MicroJumpDrive.METAGROUP, AncillaryArmorRepairer.METAGROUP, ScanningUpgrade.METAGROUP, SurveyProbeLauncher.METAGROUP, RigResourceProcessing.METAGROUP, RigScanning.METAGROUP, RigTargeting.METAGROUP, ScanningUpgradeTime.METAGROUP, MissileLauncherRapidHeavy.METAGROUP, WarpAccelerator.METAGROUP, DroneTrackingEnhancer.METAGROUP, JumpDriveEconomizer.METAGROUP, RigAnchor.METAGROUP, EntosisLink.METAGROUP, MissileGuidanceEnhancer.METAGROUP, MissileGuidanceComputer.METAGROUP, MicroJumpFieldGenerators.METAGROUP, StasisGrappler.METAGROUP, MissileLauncherRapidTorpedo.METAGROUP, MissileLauncherXLCruise.METAGROUP, AncillaryRemoteShieldBooster.METAGROUP, AncillaryRemoteArmorRepairer.METAGROUP, FlexArmorHardener.METAGROUP, FlexShieldHardener.METAGROUP, CapitalSensorArray.METAGROUP, CommandBurst.METAGROUP, TitanPhenomenaGenerator.METAGROUP, PrecursorWeapon.METAGROUP, EntropicRadiationSink.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Module";
+        }
+
+        public Collection<MetaGroup<? extends Module>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

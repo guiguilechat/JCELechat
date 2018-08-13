@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -64,6 +66,7 @@ public class Silo
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double Uniformity;
+    public final static Silo.MetaGroup METAGROUP = new Silo.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/starbase/Silo.yaml";
     private static Map<String, Silo> cache = (null);
 
@@ -111,8 +114,8 @@ public class Silo
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Silo.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Silo> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Silo> load() {
@@ -128,5 +131,25 @@ public class Silo
 
     private static class Container {
         public LinkedHashMap<String, Silo> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Silo>
+    {
+
+        @Override
+        public MetaCategory<? super Silo> category() {
+            return Starbase.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Silo";
+        }
+
+        @Override
+        public Collection<Silo> items() {
+            return (load().values());
+        }
     }
 }

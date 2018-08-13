@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.orbitals;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Orbitals;
 import org.yaml.snakeyaml.Yaml;
 
 public class OrbitalConstructionPlatform
     extends Orbitals
 {
+    public final static OrbitalConstructionPlatform.MetaGroup METAGROUP = new OrbitalConstructionPlatform.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/orbitals/OrbitalConstructionPlatform.yaml";
     private static Map<String, OrbitalConstructionPlatform> cache = (null);
 
@@ -19,8 +22,8 @@ public class OrbitalConstructionPlatform
     }
 
     @Override
-    public Class<?> getGroup() {
-        return OrbitalConstructionPlatform.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OrbitalConstructionPlatform> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, OrbitalConstructionPlatform> load() {
@@ -36,5 +39,25 @@ public class OrbitalConstructionPlatform
 
     private static class Container {
         public LinkedHashMap<String, OrbitalConstructionPlatform> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<OrbitalConstructionPlatform>
+    {
+
+        @Override
+        public MetaCategory<? super OrbitalConstructionPlatform> category() {
+            return Orbitals.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "OrbitalConstructionPlatform";
+        }
+
+        @Override
+        public Collection<OrbitalConstructionPlatform> items() {
+            return (load().values());
+        }
     }
 }

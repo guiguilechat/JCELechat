@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -63,6 +65,7 @@ public class StructureECMScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int StructureItemVisualFlag;
+    public final static StructureECMScript.MetaGroup METAGROUP = new StructureECMScript.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureECMScript.yaml";
     private static Map<String, StructureECMScript> cache = (null);
 
@@ -110,8 +113,8 @@ public class StructureECMScript
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureECMScript.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureECMScript> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureECMScript> load() {
@@ -127,5 +130,25 @@ public class StructureECMScript
 
     private static class Container {
         public LinkedHashMap<String, StructureECMScript> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureECMScript>
+    {
+
+        @Override
+        public MetaCategory<? super StructureECMScript> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureECMScript";
+        }
+
+        @Override
+        public Collection<StructureECMScript> items() {
+            return (load().values());
+        }
     }
 }

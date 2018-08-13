@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class CapacitorBoosterBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CapacitorBoosterBlueprint.MetaGroup METAGROUP = new CapacitorBoosterBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CapacitorBoosterBlueprint.yaml";
     private static Map<String, CapacitorBoosterBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class CapacitorBoosterBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CapacitorBoosterBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorBoosterBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CapacitorBoosterBlueprint> load() {
@@ -74,5 +77,25 @@ public class CapacitorBoosterBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CapacitorBoosterBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CapacitorBoosterBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CapacitorBoosterBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CapacitorBoosterBlueprint";
+        }
+
+        @Override
+        public Collection<CapacitorBoosterBlueprint> items() {
+            return (load().values());
+        }
     }
 }

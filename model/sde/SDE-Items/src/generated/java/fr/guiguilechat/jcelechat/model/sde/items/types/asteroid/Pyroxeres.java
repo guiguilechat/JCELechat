@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -35,6 +37,7 @@ public class Pyroxeres
     @Stackable(true)
     @DefaultIntValue(0)
     public int CompressionTypeID;
+    public final static Pyroxeres.MetaGroup METAGROUP = new Pyroxeres.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/Pyroxeres.yaml";
     private static Map<String, Pyroxeres> cache = (null);
 
@@ -66,8 +69,8 @@ public class Pyroxeres
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Pyroxeres.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Pyroxeres> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Pyroxeres> load() {
@@ -83,5 +86,25 @@ public class Pyroxeres
 
     private static class Container {
         public LinkedHashMap<String, Pyroxeres> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Pyroxeres>
+    {
+
+        @Override
+        public MetaCategory<? super Pyroxeres> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Pyroxeres";
+        }
+
+        @Override
+        public Collection<Pyroxeres> items() {
+            return (load().values());
+        }
     }
 }

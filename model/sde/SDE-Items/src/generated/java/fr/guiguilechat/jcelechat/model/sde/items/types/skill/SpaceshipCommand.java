@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -106,6 +108,7 @@ public class SpaceshipCommand
     @Stackable(true)
     @DefaultIntValue(0)
     public int SubSystemSlot;
+    public final static SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/SpaceshipCommand.yaml";
     private static Map<String, SpaceshipCommand> cache = (null);
 
@@ -177,8 +180,8 @@ public class SpaceshipCommand
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SpaceshipCommand.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpaceshipCommand> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SpaceshipCommand> load() {
@@ -194,5 +197,25 @@ public class SpaceshipCommand
 
     private static class Container {
         public LinkedHashMap<String, SpaceshipCommand> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SpaceshipCommand>
+    {
+
+        @Override
+        public MetaCategory<? super SpaceshipCommand> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SpaceshipCommand";
+        }
+
+        @Override
+        public Collection<SpaceshipCommand> items() {
+            return (load().values());
+        }
     }
 }

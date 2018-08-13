@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -57,6 +59,7 @@ public class StructureWarpDisruptorScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRangeBonus;
+    public final static StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/StructureWarpDisruptorScript.yaml";
     private static Map<String, StructureWarpDisruptorScript> cache = (null);
 
@@ -100,8 +103,8 @@ public class StructureWarpDisruptorScript
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StructureWarpDisruptorScript.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWarpDisruptorScript> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StructureWarpDisruptorScript> load() {
@@ -117,5 +120,25 @@ public class StructureWarpDisruptorScript
 
     private static class Container {
         public LinkedHashMap<String, StructureWarpDisruptorScript> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StructureWarpDisruptorScript>
+    {
+
+        @Override
+        public MetaCategory<? super StructureWarpDisruptorScript> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StructureWarpDisruptorScript";
+        }
+
+        @Override
+        public Collection<StructureWarpDisruptorScript> items() {
+            return (load().values());
+        }
     }
 }

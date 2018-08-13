@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class SupercarrierBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static SupercarrierBlueprints.MetaGroup METAGROUP = new SupercarrierBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/SupercarrierBlueprints.yaml";
     private static Map<String, SupercarrierBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class SupercarrierBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return SupercarrierBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SupercarrierBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, SupercarrierBlueprints> load() {
@@ -61,5 +64,25 @@ public class SupercarrierBlueprints
 
     private static class Container {
         public LinkedHashMap<String, SupercarrierBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<SupercarrierBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super SupercarrierBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "SupercarrierBlueprints";
+        }
+
+        @Override
+        public Collection<SupercarrierBlueprints> items() {
+            return (load().values());
+        }
     }
 }

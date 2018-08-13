@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -56,6 +58,7 @@ public class CorporationManagement
     @Stackable(true)
     @DefaultIntValue(0)
     public int SkillAllyCostModifierBonus;
+    public final static CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/CorporationManagement.yaml";
     private static Map<String, CorporationManagement> cache = (null);
 
@@ -99,8 +102,8 @@ public class CorporationManagement
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CorporationManagement.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CorporationManagement> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CorporationManagement> load() {
@@ -116,5 +119,25 @@ public class CorporationManagement
 
     private static class Container {
         public LinkedHashMap<String, CorporationManagement> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CorporationManagement>
+    {
+
+        @Override
+        public MetaCategory<? super CorporationManagement> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CorporationManagement";
+        }
+
+        @Override
+        public Collection<CorporationManagement> items() {
+            return (load().values());
+        }
     }
 }

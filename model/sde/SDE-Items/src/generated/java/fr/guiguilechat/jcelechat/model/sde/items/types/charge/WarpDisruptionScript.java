@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -99,6 +101,7 @@ public class WarpDisruptionScript
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpScrambleRangeBonus;
+    public final static WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/WarpDisruptionScript.yaml";
     private static Map<String, WarpDisruptionScript> cache = (null);
 
@@ -166,8 +169,8 @@ public class WarpDisruptionScript
     }
 
     @Override
-    public Class<?> getGroup() {
-        return WarpDisruptionScript.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpDisruptionScript> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, WarpDisruptionScript> load() {
@@ -183,5 +186,25 @@ public class WarpDisruptionScript
 
     private static class Container {
         public LinkedHashMap<String, WarpDisruptionScript> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpDisruptionScript>
+    {
+
+        @Override
+        public MetaCategory<? super WarpDisruptionScript> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "WarpDisruptionScript";
+        }
+
+        @Override
+        public Collection<WarpDisruptionScript> items() {
+            return (load().values());
+        }
     }
 }

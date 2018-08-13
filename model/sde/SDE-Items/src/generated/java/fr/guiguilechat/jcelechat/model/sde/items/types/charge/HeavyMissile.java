@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -214,6 +216,7 @@ public class HeavyMissile
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ThermalDamageResonance;
+    public final static HeavyMissile.MetaGroup METAGROUP = new HeavyMissile.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/charge/HeavyMissile.yaml";
     private static Map<String, HeavyMissile> cache = (null);
 
@@ -341,8 +344,8 @@ public class HeavyMissile
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HeavyMissile.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyMissile> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HeavyMissile> load() {
@@ -358,5 +361,25 @@ public class HeavyMissile
 
     private static class Container {
         public LinkedHashMap<String, HeavyMissile> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HeavyMissile>
+    {
+
+        @Override
+        public MetaCategory<? super HeavyMissile> category() {
+            return Charge.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HeavyMissile";
+        }
+
+        @Override
+        public Collection<HeavyMissile> items() {
+            return (load().values());
+        }
     }
 }

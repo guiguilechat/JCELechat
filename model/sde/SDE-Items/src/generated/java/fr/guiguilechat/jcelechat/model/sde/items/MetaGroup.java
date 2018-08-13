@@ -6,5 +6,9 @@ public interface MetaGroup<T> {
 
     public MetaCategory<? super T> category();
 
-    public Collection<T> items();
+    public default Collection<T> items() {
+        return null;
+    }
+
+    public String getName();
 }

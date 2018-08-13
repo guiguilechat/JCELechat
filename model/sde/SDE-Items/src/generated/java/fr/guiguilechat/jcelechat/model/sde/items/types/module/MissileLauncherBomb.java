@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -162,6 +164,7 @@ public class MissileLauncherBomb
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static MissileLauncherBomb.MetaGroup METAGROUP = new MissileLauncherBomb.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherBomb.yaml";
     private static Map<String, MissileLauncherBomb> cache = (null);
 
@@ -265,8 +268,8 @@ public class MissileLauncherBomb
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileLauncherBomb.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherBomb> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileLauncherBomb> load() {
@@ -282,5 +285,25 @@ public class MissileLauncherBomb
 
     private static class Container {
         public LinkedHashMap<String, MissileLauncherBomb> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherBomb>
+    {
+
+        @Override
+        public MetaCategory<? super MissileLauncherBomb> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileLauncherBomb";
+        }
+
+        @Override
+        public Collection<MissileLauncherBomb> items() {
+            return (load().values());
+        }
     }
 }

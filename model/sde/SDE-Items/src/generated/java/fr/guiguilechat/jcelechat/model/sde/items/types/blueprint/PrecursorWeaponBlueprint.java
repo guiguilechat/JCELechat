@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
 public class PrecursorWeaponBlueprint
     extends Blueprint
 {
+    public final static PrecursorWeaponBlueprint.MetaGroup METAGROUP = new PrecursorWeaponBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/PrecursorWeaponBlueprint.yaml";
     private static Map<String, PrecursorWeaponBlueprint> cache = (null);
 
@@ -19,8 +22,8 @@ public class PrecursorWeaponBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PrecursorWeaponBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrecursorWeaponBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PrecursorWeaponBlueprint> load() {
@@ -36,5 +39,25 @@ public class PrecursorWeaponBlueprint
 
     private static class Container {
         public LinkedHashMap<String, PrecursorWeaponBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrecursorWeaponBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super PrecursorWeaponBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PrecursorWeaponBlueprint";
+        }
+
+        @Override
+        public Collection<PrecursorWeaponBlueprint> items() {
+            return (load().values());
+        }
     }
 }

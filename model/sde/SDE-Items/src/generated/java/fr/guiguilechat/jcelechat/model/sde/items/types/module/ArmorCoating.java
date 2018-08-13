@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -93,6 +95,7 @@ public class ArmorCoating
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
+    public final static ArmorCoating.MetaGroup METAGROUP = new ArmorCoating.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ArmorCoating.yaml";
     private static Map<String, ArmorCoating> cache = (null);
 
@@ -152,8 +155,8 @@ public class ArmorCoating
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ArmorCoating.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorCoating> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ArmorCoating> load() {
@@ -169,5 +172,25 @@ public class ArmorCoating
 
     private static class Container {
         public LinkedHashMap<String, ArmorCoating> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ArmorCoating>
+    {
+
+        @Override
+        public MetaCategory<? super ArmorCoating> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ArmorCoating";
+        }
+
+        @Override
+        public Collection<ArmorCoating> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class DefenderMissileBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static DefenderMissileBlueprint.MetaGroup METAGROUP = new DefenderMissileBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/DefenderMissileBlueprint.yaml";
     private static Map<String, DefenderMissileBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class DefenderMissileBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return DefenderMissileBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DefenderMissileBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, DefenderMissileBlueprint> load() {
@@ -61,5 +64,25 @@ public class DefenderMissileBlueprint
 
     private static class Container {
         public LinkedHashMap<String, DefenderMissileBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<DefenderMissileBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super DefenderMissileBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "DefenderMissileBlueprint";
+        }
+
+        @Override
+        public Collection<DefenderMissileBlueprint> items() {
+            return (load().values());
+        }
     }
 }

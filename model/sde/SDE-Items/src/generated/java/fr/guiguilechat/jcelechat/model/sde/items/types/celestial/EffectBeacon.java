@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -295,6 +297,7 @@ public class EffectBeacon
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double TrackingSpeedMultiplier;
+    public final static EffectBeacon.MetaGroup METAGROUP = new EffectBeacon.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/EffectBeacon.yaml";
     private static Map<String, EffectBeacon> cache = (null);
 
@@ -474,8 +477,8 @@ public class EffectBeacon
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EffectBeacon.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EffectBeacon> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EffectBeacon> load() {
@@ -491,5 +494,25 @@ public class EffectBeacon
 
     private static class Container {
         public LinkedHashMap<String, EffectBeacon> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EffectBeacon>
+    {
+
+        @Override
+        public MetaCategory<? super EffectBeacon> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EffectBeacon";
+        }
+
+        @Override
+        public Collection<EffectBeacon> items() {
+            return (load().values());
+        }
     }
 }

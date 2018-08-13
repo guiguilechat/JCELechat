@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class MobileSiphonUnitBlueprint
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static MobileSiphonUnitBlueprint.MetaGroup METAGROUP = new MobileSiphonUnitBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/MobileSiphonUnitBlueprint.yaml";
     private static Map<String, MobileSiphonUnitBlueprint> cache = (null);
 
@@ -44,8 +47,8 @@ public class MobileSiphonUnitBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MobileSiphonUnitBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileSiphonUnitBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MobileSiphonUnitBlueprint> load() {
@@ -61,5 +64,25 @@ public class MobileSiphonUnitBlueprint
 
     private static class Container {
         public LinkedHashMap<String, MobileSiphonUnitBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MobileSiphonUnitBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super MobileSiphonUnitBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MobileSiphonUnitBlueprint";
+        }
+
+        @Override
+        public Collection<MobileSiphonUnitBlueprint> items() {
+            return (load().values());
+        }
     }
 }

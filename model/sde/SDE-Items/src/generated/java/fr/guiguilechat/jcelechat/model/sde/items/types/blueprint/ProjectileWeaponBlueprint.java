@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -45,6 +47,7 @@ public class ProjectileWeaponBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static ProjectileWeaponBlueprint.MetaGroup METAGROUP = new ProjectileWeaponBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/ProjectileWeaponBlueprint.yaml";
     private static Map<String, ProjectileWeaponBlueprint> cache = (null);
 
@@ -76,8 +79,8 @@ public class ProjectileWeaponBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ProjectileWeaponBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ProjectileWeaponBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ProjectileWeaponBlueprint> load() {
@@ -93,5 +96,25 @@ public class ProjectileWeaponBlueprint
 
     private static class Container {
         public LinkedHashMap<String, ProjectileWeaponBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ProjectileWeaponBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super ProjectileWeaponBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ProjectileWeaponBlueprint";
+        }
+
+        @Override
+        public Collection<ProjectileWeaponBlueprint> items() {
+            return (load().values());
+        }
     }
 }

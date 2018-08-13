@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -72,6 +76,7 @@ public abstract class Deployable
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static Deployable.MetaCat METACAT = new Deployable.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -117,11 +122,27 @@ public abstract class Deployable
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Deployable.class;
+    public MetaCategory<Deployable> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Deployable> loadCategory() {
         return Stream.of(EncounterSurveillanceSystem.load(), MobileCynoInhibitor.load(), MobileDecoyUnit.load(), MobileDepot.load(), MobileMicroJumpUnit.load(), MobileScanInhibitor.load(), MobileSiphonUnit.load(), MobileTractorUnit.load(), MobileWarpDisruptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Deployable>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Deployable> [] groups = new MetaGroup[] {MobileWarpDisruptor.METAGROUP, MobileDepot.METAGROUP, MobileSiphonUnit.METAGROUP, MobileCynoInhibitor.METAGROUP, MobileTractorUnit.METAGROUP, EncounterSurveillanceSystem.METAGROUP, MobileDecoyUnit.METAGROUP, MobileScanInhibitor.METAGROUP, MobileMicroJumpUnit.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Deployable";
+        }
+
+        public Collection<MetaGroup<? extends Deployable>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

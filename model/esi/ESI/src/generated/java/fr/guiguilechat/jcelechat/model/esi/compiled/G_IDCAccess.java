@@ -61,6 +61,10 @@ import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_characters_
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_universe_ids;
 import fr.guiguilechat.jcelechat.model.esi.compiled.responses.R_post_universe_names;
 
+
+/**
+ * interface to access the ESI without an account.<br />This gives access to static data, eg items, markets, etc.
+ */
 public interface G_IDCAccess
     extends G_ITransfer
 {

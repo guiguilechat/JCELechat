@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class HybridComponentBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static HybridComponentBlueprints.MetaGroup METAGROUP = new HybridComponentBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/HybridComponentBlueprints.yaml";
     private static Map<String, HybridComponentBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class HybridComponentBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return HybridComponentBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridComponentBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, HybridComponentBlueprints> load() {
@@ -61,5 +64,25 @@ public class HybridComponentBlueprints
 
     private static class Container {
         public LinkedHashMap<String, HybridComponentBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<HybridComponentBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super HybridComponentBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "HybridComponentBlueprints";
+        }
+
+        @Override
+        public Collection<HybridComponentBlueprints> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -50,6 +52,7 @@ public class Spaceports
     @Stackable(true)
     @DefaultIntValue(0)
     public int PowerLoad;
+    public final static Spaceports.MetaGroup METAGROUP = new Spaceports.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/Spaceports.yaml";
     private static Map<String, Spaceports> cache = (null);
 
@@ -89,8 +92,8 @@ public class Spaceports
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Spaceports.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spaceports> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Spaceports> load() {
@@ -106,5 +109,25 @@ public class Spaceports
 
     private static class Container {
         public LinkedHashMap<String, Spaceports> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Spaceports>
+    {
+
+        @Override
+        public MetaCategory<? super Spaceports> category() {
+            return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Spaceports";
+        }
+
+        @Override
+        public Collection<Spaceports> items() {
+            return (load().values());
+        }
     }
 }

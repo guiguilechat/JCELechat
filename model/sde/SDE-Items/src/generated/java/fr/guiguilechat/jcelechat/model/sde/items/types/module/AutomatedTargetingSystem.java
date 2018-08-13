@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -71,6 +73,7 @@ public class AutomatedTargetingSystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int TargetHostileRange;
+    public final static AutomatedTargetingSystem.MetaGroup METAGROUP = new AutomatedTargetingSystem.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/AutomatedTargetingSystem.yaml";
     private static Map<String, AutomatedTargetingSystem> cache = (null);
 
@@ -122,8 +125,8 @@ public class AutomatedTargetingSystem
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AutomatedTargetingSystem.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystem> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AutomatedTargetingSystem> load() {
@@ -139,5 +142,25 @@ public class AutomatedTargetingSystem
 
     private static class Container {
         public LinkedHashMap<String, AutomatedTargetingSystem> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AutomatedTargetingSystem>
+    {
+
+        @Override
+        public MetaCategory<? super AutomatedTargetingSystem> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AutomatedTargetingSystem";
+        }
+
+        @Override
+        public Collection<AutomatedTargetingSystem> items() {
+            return (load().values());
+        }
     }
 }

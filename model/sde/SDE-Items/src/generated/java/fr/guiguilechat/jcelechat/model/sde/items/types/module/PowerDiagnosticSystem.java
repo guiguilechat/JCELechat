@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -93,6 +95,7 @@ public class PowerDiagnosticSystem
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double ShieldRechargeRateMultiplier;
+    public final static PowerDiagnosticSystem.MetaGroup METAGROUP = new PowerDiagnosticSystem.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/PowerDiagnosticSystem.yaml";
     private static Map<String, PowerDiagnosticSystem> cache = (null);
 
@@ -152,8 +155,8 @@ public class PowerDiagnosticSystem
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PowerDiagnosticSystem.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PowerDiagnosticSystem> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PowerDiagnosticSystem> load() {
@@ -169,5 +172,25 @@ public class PowerDiagnosticSystem
 
     private static class Container {
         public LinkedHashMap<String, PowerDiagnosticSystem> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PowerDiagnosticSystem>
+    {
+
+        @Override
+        public MetaCategory<? super PowerDiagnosticSystem> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PowerDiagnosticSystem";
+        }
+
+        @Override
+        public Collection<PowerDiagnosticSystem> items() {
+            return (load().values());
+        }
     }
 }

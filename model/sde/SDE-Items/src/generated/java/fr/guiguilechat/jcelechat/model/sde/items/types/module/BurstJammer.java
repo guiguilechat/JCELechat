@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class BurstJammer
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ScanRadarStrengthBonus;
+    public final static BurstJammer.MetaGroup METAGROUP = new BurstJammer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/BurstJammer.yaml";
     private static Map<String, BurstJammer> cache = (null);
 
@@ -229,8 +232,8 @@ public class BurstJammer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BurstJammer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstJammer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BurstJammer> load() {
@@ -246,5 +249,25 @@ public class BurstJammer
 
     private static class Container {
         public LinkedHashMap<String, BurstJammer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstJammer>
+    {
+
+        @Override
+        public MetaCategory<? super BurstJammer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BurstJammer";
+        }
+
+        @Override
+        public Collection<BurstJammer> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class CommandDestroyerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static CommandDestroyerBlueprint.MetaGroup METAGROUP = new CommandDestroyerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/CommandDestroyerBlueprint.yaml";
     private static Map<String, CommandDestroyerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class CommandDestroyerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CommandDestroyerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CommandDestroyerBlueprint> load() {
@@ -74,5 +77,25 @@ public class CommandDestroyerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, CommandDestroyerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CommandDestroyerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super CommandDestroyerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CommandDestroyerBlueprint";
+        }
+
+        @Override
+        public Collection<CommandDestroyerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

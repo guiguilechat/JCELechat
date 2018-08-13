@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -64,6 +66,7 @@ public class PlanetaryLinks
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double PowerLoadPerKm;
+    public final static PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/planetaryinteraction/PlanetaryLinks.yaml";
     private static Map<String, PlanetaryLinks> cache = (null);
 
@@ -111,8 +114,8 @@ public class PlanetaryLinks
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PlanetaryLinks.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetaryLinks> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PlanetaryLinks> load() {
@@ -128,5 +131,25 @@ public class PlanetaryLinks
 
     private static class Container {
         public LinkedHashMap<String, PlanetaryLinks> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PlanetaryLinks>
+    {
+
+        @Override
+        public MetaCategory<? super PlanetaryLinks> category() {
+            return PlanetaryInteraction.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PlanetaryLinks";
+        }
+
+        @Override
+        public Collection<PlanetaryLinks> items() {
+            return (load().values());
+        }
     }
 }

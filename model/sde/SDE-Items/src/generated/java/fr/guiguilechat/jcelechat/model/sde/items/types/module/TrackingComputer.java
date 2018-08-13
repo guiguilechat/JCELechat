@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -142,6 +144,7 @@ public class TrackingComputer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double TrackingSpeedBonus;
+    public final static TrackingComputer.MetaGroup METAGROUP = new TrackingComputer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/TrackingComputer.yaml";
     private static Map<String, TrackingComputer> cache = (null);
 
@@ -229,8 +232,8 @@ public class TrackingComputer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return TrackingComputer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TrackingComputer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, TrackingComputer> load() {
@@ -246,5 +249,25 @@ public class TrackingComputer
 
     private static class Container {
         public LinkedHashMap<String, TrackingComputer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<TrackingComputer>
+    {
+
+        @Override
+        public MetaCategory<? super TrackingComputer> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "TrackingComputer";
+        }
+
+        @Override
+        public Collection<TrackingComputer> items() {
+            return (load().values());
+        }
     }
 }

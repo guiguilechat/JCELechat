@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseWarpScramblingBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseWarpScramblingBatteryBlueprints.MetaGroup METAGROUP = new StarbaseWarpScramblingBatteryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseWarpScramblingBatteryBlueprints.yaml";
     private static Map<String, StarbaseWarpScramblingBatteryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseWarpScramblingBatteryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseWarpScramblingBatteryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseWarpScramblingBatteryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseWarpScramblingBatteryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseWarpScramblingBatteryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseWarpScramblingBatteryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseWarpScramblingBatteryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseWarpScramblingBatteryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseWarpScramblingBatteryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseWarpScramblingBatteryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -89,6 +93,7 @@ public abstract class Asteroid
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StasisWebifierResistance;
+    public final static Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -134,11 +139,27 @@ public abstract class Asteroid
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Asteroid.class;
+    public MetaCategory<Asteroid> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Asteroid> loadCategory() {
         return Stream.of(Arkonor.load(), Bistot.load(), CommonMoonAsteroids.load(), Crokite.load(), DarkOchre.load(), ExceptionalMoonAsteroids.load(), Gneiss.load(), Hedbergite.load(), Hemorphite.load(), Ice.load(), Jaspet.load(), Kernite.load(), Mercoxit.load(), Omber.load(), Plagioclase.load(), Pyroxeres.load(), RareMoonAsteroids.load(), Scordite.load(), Spodumain.load(), UbiquitousMoonAsteroids.load(), UncommonMoonAsteroids.load(), Veldspar.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Asteroid>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Asteroid> [] groups = new MetaGroup[] {Arkonor.METAGROUP, Bistot.METAGROUP, Crokite.METAGROUP, DarkOchre.METAGROUP, Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP, Ice.METAGROUP, Gneiss.METAGROUP, Mercoxit.METAGROUP, Omber.METAGROUP, UbiquitousMoonAsteroids.METAGROUP, CommonMoonAsteroids.METAGROUP, UncommonMoonAsteroids.METAGROUP, RareMoonAsteroids.METAGROUP, ExceptionalMoonAsteroids.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Asteroid";
+        }
+
+        public Collection<MetaGroup<? extends Asteroid>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

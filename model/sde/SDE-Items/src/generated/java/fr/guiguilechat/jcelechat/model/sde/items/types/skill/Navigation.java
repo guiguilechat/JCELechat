@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -120,6 +122,7 @@ public class Navigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int WarpCapacitorNeedBonus;
+    public final static Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/skill/Navigation.yaml";
     private static Map<String, Navigation> cache = (null);
 
@@ -199,8 +202,8 @@ public class Navigation
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Navigation.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Navigation> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Navigation> load() {
@@ -216,5 +219,25 @@ public class Navigation
 
     private static class Container {
         public LinkedHashMap<String, Navigation> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Navigation>
+    {
+
+        @Override
+        public MetaCategory<? super Navigation> category() {
+            return Skill.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Navigation";
+        }
+
+        @Override
+        public Collection<Navigation> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -50,6 +52,7 @@ public class WarpAccelerator
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double WarpSpeedAdd;
+    public final static WarpAccelerator.MetaGroup METAGROUP = new WarpAccelerator.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/WarpAccelerator.yaml";
     private static Map<String, WarpAccelerator> cache = (null);
 
@@ -89,8 +92,8 @@ public class WarpAccelerator
     }
 
     @Override
-    public Class<?> getGroup() {
-        return WarpAccelerator.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpAccelerator> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, WarpAccelerator> load() {
@@ -106,5 +109,25 @@ public class WarpAccelerator
 
     private static class Container {
         public LinkedHashMap<String, WarpAccelerator> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<WarpAccelerator>
+    {
+
+        @Override
+        public MetaCategory<? super WarpAccelerator> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "WarpAccelerator";
+        }
+
+        @Override
+        public Collection<WarpAccelerator> items() {
+            return (load().values());
+        }
     }
 }

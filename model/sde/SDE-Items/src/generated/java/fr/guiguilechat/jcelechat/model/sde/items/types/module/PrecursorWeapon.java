@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -233,6 +235,7 @@ public class PrecursorWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static PrecursorWeapon.MetaGroup METAGROUP = new PrecursorWeapon.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/PrecursorWeapon.yaml";
     private static Map<String, PrecursorWeapon> cache = (null);
 
@@ -372,8 +375,8 @@ public class PrecursorWeapon
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PrecursorWeapon.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrecursorWeapon> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PrecursorWeapon> load() {
@@ -389,5 +392,25 @@ public class PrecursorWeapon
 
     private static class Container {
         public LinkedHashMap<String, PrecursorWeapon> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PrecursorWeapon>
+    {
+
+        @Override
+        public MetaCategory<? super PrecursorWeapon> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PrecursorWeapon";
+        }
+
+        @Override
+        public Collection<PrecursorWeapon> items() {
+            return (load().values());
+        }
     }
 }

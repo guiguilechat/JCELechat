@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class AdvancedCapitalConstructionComponentBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static AdvancedCapitalConstructionComponentBlueprints.MetaGroup METAGROUP = new AdvancedCapitalConstructionComponentBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedCapitalConstructionComponentBlueprints.yaml";
     private static Map<String, AdvancedCapitalConstructionComponentBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class AdvancedCapitalConstructionComponentBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedCapitalConstructionComponentBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedCapitalConstructionComponentBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedCapitalConstructionComponentBlueprints> load() {
@@ -61,5 +64,25 @@ public class AdvancedCapitalConstructionComponentBlueprints
 
     private static class Container {
         public LinkedHashMap<String, AdvancedCapitalConstructionComponentBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedCapitalConstructionComponentBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedCapitalConstructionComponentBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedCapitalConstructionComponentBlueprints";
+        }
+
+        @Override
+        public Collection<AdvancedCapitalConstructionComponentBlueprints> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -71,6 +73,7 @@ public class Commodities
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredSkill1Level;
+    public final static Commodities.MetaGroup METAGROUP = new Commodities.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Commodities.yaml";
     private static Map<String, Commodities> cache = (null);
 
@@ -122,8 +125,8 @@ public class Commodities
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Commodities.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Commodities> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Commodities> load() {
@@ -139,5 +142,25 @@ public class Commodities
 
     private static class Container {
         public LinkedHashMap<String, Commodities> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Commodities>
+    {
+
+        @Override
+        public MetaCategory<? super Commodities> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Commodities";
+        }
+
+        @Override
+        public Collection<Commodities> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.drone;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -183,6 +185,7 @@ public class EnergyNeutralizerDrone
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double ShieldThermalDamageResonance;
+    public final static EnergyNeutralizerDrone.MetaGroup METAGROUP = new EnergyNeutralizerDrone.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/drone/EnergyNeutralizerDrone.yaml";
     private static Map<String, EnergyNeutralizerDrone> cache = (null);
 
@@ -298,8 +301,8 @@ public class EnergyNeutralizerDrone
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EnergyNeutralizerDrone.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNeutralizerDrone> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EnergyNeutralizerDrone> load() {
@@ -315,5 +318,25 @@ public class EnergyNeutralizerDrone
 
     private static class Container {
         public LinkedHashMap<String, EnergyNeutralizerDrone> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNeutralizerDrone>
+    {
+
+        @Override
+        public MetaCategory<? super EnergyNeutralizerDrone> category() {
+            return Drone.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EnergyNeutralizerDrone";
+        }
+
+        @Override
+        public Collection<EnergyNeutralizerDrone> items() {
+            return (load().values());
+        }
     }
 }

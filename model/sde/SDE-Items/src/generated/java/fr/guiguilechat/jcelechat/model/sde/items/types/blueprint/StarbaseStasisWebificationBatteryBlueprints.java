@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseStasisWebificationBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseStasisWebificationBatteryBlueprints.MetaGroup METAGROUP = new StarbaseStasisWebificationBatteryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseStasisWebificationBatteryBlueprints.yaml";
     private static Map<String, StarbaseStasisWebificationBatteryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseStasisWebificationBatteryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseStasisWebificationBatteryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseStasisWebificationBatteryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseStasisWebificationBatteryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseStasisWebificationBatteryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseStasisWebificationBatteryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseStasisWebificationBatteryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseStasisWebificationBatteryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseStasisWebificationBatteryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseStasisWebificationBatteryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

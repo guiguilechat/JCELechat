@@ -1,15 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.commodity;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
 public class Refinables
     extends Commodity
 {
+    public final static Refinables.MetaGroup METAGROUP = new Refinables.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/commodity/Refinables.yaml";
     private static Map<String, Refinables> cache = (null);
 
@@ -19,8 +22,8 @@ public class Refinables
     }
 
     @Override
-    public Class<?> getGroup() {
-        return Refinables.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Refinables> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, Refinables> load() {
@@ -36,5 +39,25 @@ public class Refinables
 
     private static class Container {
         public LinkedHashMap<String, Refinables> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<Refinables>
+    {
+
+        @Override
+        public MetaCategory<? super Refinables> category() {
+            return Commodity.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "Refinables";
+        }
+
+        @Override
+        public Collection<Refinables> items() {
+            return (load().values());
+        }
     }
 }

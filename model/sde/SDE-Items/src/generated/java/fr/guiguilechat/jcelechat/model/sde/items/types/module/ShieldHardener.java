@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -128,6 +130,7 @@ public class ShieldHardener
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double ThermalDamageResistanceBonus;
+    public final static ShieldHardener.MetaGroup METAGROUP = new ShieldHardener.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShieldHardener.yaml";
     private static Map<String, ShieldHardener> cache = (null);
 
@@ -207,8 +210,8 @@ public class ShieldHardener
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShieldHardener.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldHardener> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShieldHardener> load() {
@@ -224,5 +227,25 @@ public class ShieldHardener
 
     private static class Container {
         public LinkedHashMap<String, ShieldHardener> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShieldHardener>
+    {
+
+        @Override
+        public MetaCategory<? super ShieldHardener> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShieldHardener";
+        }
+
+        @Override
+        public Collection<ShieldHardener> items() {
+            return (load().values());
+        }
     }
 }

@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class PassiveTargetingSystemBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static PassiveTargetingSystemBlueprint.MetaGroup METAGROUP = new PassiveTargetingSystemBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/PassiveTargetingSystemBlueprint.yaml";
     private static Map<String, PassiveTargetingSystemBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class PassiveTargetingSystemBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return PassiveTargetingSystemBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PassiveTargetingSystemBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, PassiveTargetingSystemBlueprint> load() {
@@ -74,5 +77,25 @@ public class PassiveTargetingSystemBlueprint
 
     private static class Container {
         public LinkedHashMap<String, PassiveTargetingSystemBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<PassiveTargetingSystemBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super PassiveTargetingSystemBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "PassiveTargetingSystemBlueprint";
+        }
+
+        @Override
+        public Collection<PassiveTargetingSystemBlueprint> items() {
+            return (load().values());
+        }
     }
 }

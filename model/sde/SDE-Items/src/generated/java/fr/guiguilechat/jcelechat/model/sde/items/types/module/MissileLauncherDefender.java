@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -162,6 +164,7 @@ public class MissileLauncherDefender
     @Stackable(false)
     @DefaultIntValue(0)
     public int TypeColorScheme;
+    public final static MissileLauncherDefender.MetaGroup METAGROUP = new MissileLauncherDefender.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/MissileLauncherDefender.yaml";
     private static Map<String, MissileLauncherDefender> cache = (null);
 
@@ -265,8 +268,8 @@ public class MissileLauncherDefender
     }
 
     @Override
-    public Class<?> getGroup() {
-        return MissileLauncherDefender.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherDefender> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, MissileLauncherDefender> load() {
@@ -282,5 +285,25 @@ public class MissileLauncherDefender
 
     private static class Container {
         public LinkedHashMap<String, MissileLauncherDefender> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<MissileLauncherDefender>
+    {
+
+        @Override
+        public MetaCategory<? super MissileLauncherDefender> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "MissileLauncherDefender";
+        }
+
+        @Override
+        public Collection<MissileLauncherDefender> items() {
+            return (load().values());
+        }
     }
 }

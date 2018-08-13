@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class StarbaseLaserBatteryBlueprints
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double IndustryBlueprintRank;
+    public final static StarbaseLaserBatteryBlueprints.MetaGroup METAGROUP = new StarbaseLaserBatteryBlueprints.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/StarbaseLaserBatteryBlueprints.yaml";
     private static Map<String, StarbaseLaserBatteryBlueprints> cache = (null);
 
@@ -44,8 +47,8 @@ public class StarbaseLaserBatteryBlueprints
     }
 
     @Override
-    public Class<?> getGroup() {
-        return StarbaseLaserBatteryBlueprints.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseLaserBatteryBlueprints> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, StarbaseLaserBatteryBlueprints> load() {
@@ -61,5 +64,25 @@ public class StarbaseLaserBatteryBlueprints
 
     private static class Container {
         public LinkedHashMap<String, StarbaseLaserBatteryBlueprints> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<StarbaseLaserBatteryBlueprints>
+    {
+
+        @Override
+        public MetaCategory<? super StarbaseLaserBatteryBlueprints> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "StarbaseLaserBatteryBlueprints";
+        }
+
+        @Override
+        public Collection<StarbaseLaserBatteryBlueprints> items() {
+            return (load().values());
+        }
     }
 }

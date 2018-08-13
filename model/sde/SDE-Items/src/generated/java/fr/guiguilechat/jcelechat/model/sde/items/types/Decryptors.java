@@ -1,10 +1,14 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -46,6 +50,7 @@ public abstract class Decryptors
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double InventionTEModifier;
+    public final static Decryptors.MetaCat METACAT = new Decryptors.MetaCat();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -79,11 +84,27 @@ public abstract class Decryptors
     }
 
     @Override
-    public Class<?> getCategory() {
-        return Decryptors.class;
+    public MetaCategory<Decryptors> getCategory() {
+        return METACAT;
     }
 
     public static Map<String, ? extends Decryptors> loadCategory() {
         return Stream.of(DecryptorsAmarr.load(), DecryptorsCaldari.load(), DecryptorsGallente.load(), DecryptorsHybrid.load(), DecryptorsMinmatar.load(), GenericDecryptor.load()).flatMap((m -> m.entrySet().stream())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+    }
+
+    public static class MetaCat
+        implements MetaCategory<Decryptors>
+    {
+        @SuppressWarnings("unchecked")
+        private final static MetaGroup<? extends Decryptors> [] groups = new MetaGroup[] {DecryptorsAmarr.METAGROUP, DecryptorsMinmatar.METAGROUP, DecryptorsGallente.METAGROUP, DecryptorsCaldari.METAGROUP, DecryptorsHybrid.METAGROUP, GenericDecryptor.METAGROUP };
+
+        @Override
+        public String getName() {
+            return "Decryptors";
+        }
+
+        public Collection<MetaGroup<? extends Decryptors>> groups() {
+            return Arrays.asList(groups);
+        }
     }
 }

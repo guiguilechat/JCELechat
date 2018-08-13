@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class BurstJammerBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static BurstJammerBlueprint.MetaGroup METAGROUP = new BurstJammerBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/BurstJammerBlueprint.yaml";
     private static Map<String, BurstJammerBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class BurstJammerBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return BurstJammerBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstJammerBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, BurstJammerBlueprint> load() {
@@ -74,5 +77,25 @@ public class BurstJammerBlueprint
 
     private static class Container {
         public LinkedHashMap<String, BurstJammerBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<BurstJammerBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super BurstJammerBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "BurstJammerBlueprint";
+        }
+
+        @Override
+        public Collection<BurstJammerBlueprint> items() {
+            return (load().values());
+        }
     }
 }

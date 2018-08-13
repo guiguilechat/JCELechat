@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.Stackable;
@@ -21,6 +23,7 @@ public class UncommonMoonAsteroids
     @Stackable(true)
     @DefaultIntValue(16255)
     public int AsteroidMaxRadius;
+    public final static UncommonMoonAsteroids.MetaGroup METAGROUP = new UncommonMoonAsteroids.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/asteroid/UncommonMoonAsteroids.yaml";
     private static Map<String, UncommonMoonAsteroids> cache = (null);
 
@@ -44,8 +47,8 @@ public class UncommonMoonAsteroids
     }
 
     @Override
-    public Class<?> getGroup() {
-        return UncommonMoonAsteroids.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<UncommonMoonAsteroids> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, UncommonMoonAsteroids> load() {
@@ -61,5 +64,25 @@ public class UncommonMoonAsteroids
 
     private static class Container {
         public LinkedHashMap<String, UncommonMoonAsteroids> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<UncommonMoonAsteroids>
+    {
+
+        @Override
+        public MetaCategory<? super UncommonMoonAsteroids> category() {
+            return Asteroid.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "UncommonMoonAsteroids";
+        }
+
+        @Override
+        public Collection<UncommonMoonAsteroids> items() {
+            return (load().values());
+        }
     }
 }

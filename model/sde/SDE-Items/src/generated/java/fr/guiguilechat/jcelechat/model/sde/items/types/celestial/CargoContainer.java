@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.celestial;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -29,6 +31,7 @@ public class CargoContainer
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double StructureUniformity;
+    public final static CargoContainer.MetaGroup METAGROUP = new CargoContainer.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/celestial/CargoContainer.yaml";
     private static Map<String, CargoContainer> cache = (null);
 
@@ -56,8 +59,8 @@ public class CargoContainer
     }
 
     @Override
-    public Class<?> getGroup() {
-        return CargoContainer.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CargoContainer> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, CargoContainer> load() {
@@ -73,5 +76,25 @@ public class CargoContainer
 
     private static class Container {
         public LinkedHashMap<String, CargoContainer> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<CargoContainer>
+    {
+
+        @Override
+        public MetaCategory<? super CargoContainer> category() {
+            return Celestial.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "CargoContainer";
+        }
+
+        @Override
+        public Collection<CargoContainer> items() {
+            return (load().values());
+        }
     }
 }

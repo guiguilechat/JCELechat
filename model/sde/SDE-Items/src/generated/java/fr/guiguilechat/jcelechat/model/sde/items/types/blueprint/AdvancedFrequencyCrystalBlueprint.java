@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.blueprint;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -30,6 +32,7 @@ public class AdvancedFrequencyCrystalBlueprint
     @Stackable(true)
     @DefaultIntValue(1)
     public int TechLevel;
+    public final static AdvancedFrequencyCrystalBlueprint.MetaGroup METAGROUP = new AdvancedFrequencyCrystalBlueprint.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/blueprint/AdvancedFrequencyCrystalBlueprint.yaml";
     private static Map<String, AdvancedFrequencyCrystalBlueprint> cache = (null);
 
@@ -57,8 +60,8 @@ public class AdvancedFrequencyCrystalBlueprint
     }
 
     @Override
-    public Class<?> getGroup() {
-        return AdvancedFrequencyCrystalBlueprint.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedFrequencyCrystalBlueprint> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, AdvancedFrequencyCrystalBlueprint> load() {
@@ -74,5 +77,25 @@ public class AdvancedFrequencyCrystalBlueprint
 
     private static class Container {
         public LinkedHashMap<String, AdvancedFrequencyCrystalBlueprint> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<AdvancedFrequencyCrystalBlueprint>
+    {
+
+        @Override
+        public MetaCategory<? super AdvancedFrequencyCrystalBlueprint> category() {
+            return Blueprint.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "AdvancedFrequencyCrystalBlueprint";
+        }
+
+        @Override
+        public Collection<AdvancedFrequencyCrystalBlueprint> items() {
+            return (load().values());
+        }
     }
 }

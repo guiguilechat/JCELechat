@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -85,6 +87,7 @@ public class ShipScanner
     @Stackable(true)
     @DefaultIntValue(1)
     public int Slots;
+    public final static ShipScanner.MetaGroup METAGROUP = new ShipScanner.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/ShipScanner.yaml";
     private static Map<String, ShipScanner> cache = (null);
 
@@ -144,8 +147,8 @@ public class ShipScanner
     }
 
     @Override
-    public Class<?> getGroup() {
-        return ShipScanner.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipScanner> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, ShipScanner> load() {
@@ -161,5 +164,25 @@ public class ShipScanner
 
     private static class Container {
         public LinkedHashMap<String, ShipScanner> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<ShipScanner>
+    {
+
+        @Override
+        public MetaCategory<? super ShipScanner> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "ShipScanner";
+        }
+
+        @Override
+        public Collection<ShipScanner> items() {
+            return (load().values());
+        }
     }
 }

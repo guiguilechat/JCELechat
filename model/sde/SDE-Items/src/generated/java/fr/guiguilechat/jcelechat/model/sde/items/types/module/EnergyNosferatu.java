@@ -1,10 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.items.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
+import fr.guiguilechat.jcelechat.model.sde.items.MetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.items.annotations.HighIsGood;
@@ -135,6 +137,7 @@ public class EnergyNosferatu
     @Stackable(true)
     @DefaultIntValue(0)
     public int RequiredThermoDynamicsSkill;
+    public final static EnergyNosferatu.MetaGroup METAGROUP = new EnergyNosferatu.MetaGroup();
     public final static String RESOURCE_PATH = "SDE/items/module/EnergyNosferatu.yaml";
     private static Map<String, EnergyNosferatu> cache = (null);
 
@@ -218,8 +221,8 @@ public class EnergyNosferatu
     }
 
     @Override
-    public Class<?> getGroup() {
-        return EnergyNosferatu.class;
+    public fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNosferatu> getGroup() {
+        return METAGROUP;
     }
 
     public static synchronized Map<String, EnergyNosferatu> load() {
@@ -235,5 +238,25 @@ public class EnergyNosferatu
 
     private static class Container {
         public LinkedHashMap<String, EnergyNosferatu> items;
+    }
+
+    public static class MetaGroup
+        implements fr.guiguilechat.jcelechat.model.sde.items.MetaGroup<EnergyNosferatu>
+    {
+
+        @Override
+        public MetaCategory<? super EnergyNosferatu> category() {
+            return Module.METACAT;
+        }
+
+        @Override
+        public String getName() {
+            return "EnergyNosferatu";
+        }
+
+        @Override
+        public Collection<EnergyNosferatu> items() {
+            return (load().values());
+        }
     }
 }
