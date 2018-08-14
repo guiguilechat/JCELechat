@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
@@ -26,8 +24,6 @@ public abstract class SuperKerrInducedNanocoatings
     public static class MetaCat
         implements IMetaCategory<SuperKerrInducedNanocoatings>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends SuperKerrInducedNanocoatings> [] groups = new IMetaGroup[] {PermanentSKIN.METAGROUP, Max7DaySKIN.METAGROUP, Max30DaySKIN.METAGROUP, Max90DaySKIN.METAGROUP, Max1YearSKIN.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -41,14 +37,7 @@ public abstract class SuperKerrInducedNanocoatings
 
         @Override
         public Collection<IMetaGroup<? extends SuperKerrInducedNanocoatings>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, SuperKerrInducedNanocoatings> load() {
-            HashMap<String, SuperKerrInducedNanocoatings> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(PermanentSKIN.METAGROUP, Max7DaySKIN.METAGROUP, Max30DaySKIN.METAGROUP, Max90DaySKIN.METAGROUP, Max1YearSKIN.METAGROUP);
         }
     }
 }

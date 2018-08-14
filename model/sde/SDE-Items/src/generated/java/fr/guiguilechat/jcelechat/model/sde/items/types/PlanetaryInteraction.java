@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
@@ -28,8 +26,6 @@ public abstract class PlanetaryInteraction
     public static class MetaCat
         implements IMetaCategory<PlanetaryInteraction>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends PlanetaryInteraction> [] groups = new IMetaGroup[] {Extractors.METAGROUP, CommandCenters.METAGROUP, Processors.METAGROUP, StorageFacilities.METAGROUP, Spaceports.METAGROUP, PlanetaryLinks.METAGROUP, ExtractorControlUnits.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -43,14 +39,7 @@ public abstract class PlanetaryInteraction
 
         @Override
         public Collection<IMetaGroup<? extends PlanetaryInteraction>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, PlanetaryInteraction> load() {
-            HashMap<String, PlanetaryInteraction> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(Extractors.METAGROUP, CommandCenters.METAGROUP, Processors.METAGROUP, StorageFacilities.METAGROUP, Spaceports.METAGROUP, PlanetaryLinks.METAGROUP, ExtractorControlUnits.METAGROUP);
         }
     }
 }

@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -59,8 +57,6 @@ public abstract class Apparel
     public static class MetaCat
         implements IMetaCategory<Apparel>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Apparel> [] groups = new IMetaGroup[] {Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -74,14 +70,7 @@ public abstract class Apparel
 
         @Override
         public Collection<IMetaGroup<? extends Apparel>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Apparel> load() {
-            HashMap<String, Apparel> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(Eyewear.METAGROUP, Tattoos.METAGROUP, Outer.METAGROUP, Tops.METAGROUP, Bottoms.METAGROUP, Footwear.METAGROUP, Headwear.METAGROUP, Prosthetics.METAGROUP, Augmentations.METAGROUP);
         }
     }
 }

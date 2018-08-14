@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -774,8 +772,6 @@ public abstract class Ship
     public static class MetaCat
         implements IMetaCategory<Ship>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Ship> [] groups = new IMetaGroup[] {Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Industrial.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -789,14 +785,7 @@ public abstract class Ship
 
         @Override
         public Collection<IMetaGroup<? extends Ship>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Ship> load() {
-            HashMap<String, Ship> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(Frigate.METAGROUP, Cruiser.METAGROUP, Battleship.METAGROUP, Industrial.METAGROUP, Titan.METAGROUP, Shuttle.METAGROUP, Corvette.METAGROUP, AssaultFrigate.METAGROUP, HeavyAssaultCruiser.METAGROUP, DeepSpaceTransport.METAGROUP, CombatBattlecruiser.METAGROUP, Destroyer.METAGROUP, MiningBarge.METAGROUP, Dreadnought.METAGROUP, Freighter.METAGROUP, CommandShip.METAGROUP, Interdictor.METAGROUP, Exhumer.METAGROUP, Carrier.METAGROUP, Supercarrier.METAGROUP, CovertOps.METAGROUP, Interceptor.METAGROUP, Logistics.METAGROUP, ForceReconShip.METAGROUP, StealthBomber.METAGROUP, CapitalIndustrialShip.METAGROUP, ElectronicAttackShip.METAGROUP, HeavyInterdictionCruiser.METAGROUP, BlackOps.METAGROUP, Marauder.METAGROUP, JumpFreighter.METAGROUP, CombatReconShip.METAGROUP, IndustrialCommandShip.METAGROUP, StrategicCruiser.METAGROUP, PrototypeExplorationShip.METAGROUP, AttackBattlecruiser.METAGROUP, BlockadeRunner.METAGROUP, ExpeditionFrigate.METAGROUP, TacticalDestroyer.METAGROUP, LogisticsFrigate.METAGROUP, CommandDestroyer.METAGROUP, ForceAuxiliary.METAGROUP, FlagCruiser.METAGROUP);
         }
     }
 }

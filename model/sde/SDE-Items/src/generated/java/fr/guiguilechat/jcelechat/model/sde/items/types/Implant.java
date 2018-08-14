@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -77,8 +75,6 @@ public abstract class Implant
     public static class MetaCat
         implements IMetaCategory<Implant>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Implant> [] groups = new IMetaGroup[] {Cyberimplant.METAGROUP, Booster.METAGROUP, CyberArmor.METAGROUP, CyberDrones.METAGROUP, CyberElectronicSystems.METAGROUP, CyberEngineering.METAGROUP, CyberGunnery.METAGROUP, CyberProduction.METAGROUP, CyberLeadership.METAGROUP, CyberLearning.METAGROUP, CyberMissile.METAGROUP, CyberNavigation.METAGROUP, CyberScience.METAGROUP, CyberShields.METAGROUP, CyberXSpecials.METAGROUP, CyberTargeting.METAGROUP, CyberResourceProcessing.METAGROUP, CyberScanning.METAGROUP, CyberBiology.METAGROUP, SpecialEditionImplant.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -92,14 +88,7 @@ public abstract class Implant
 
         @Override
         public Collection<IMetaGroup<? extends Implant>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Implant> load() {
-            HashMap<String, Implant> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(Cyberimplant.METAGROUP, Booster.METAGROUP, CyberArmor.METAGROUP, CyberDrones.METAGROUP, CyberElectronicSystems.METAGROUP, CyberEngineering.METAGROUP, CyberGunnery.METAGROUP, CyberProduction.METAGROUP, CyberLeadership.METAGROUP, CyberLearning.METAGROUP, CyberMissile.METAGROUP, CyberNavigation.METAGROUP, CyberScience.METAGROUP, CyberShields.METAGROUP, CyberXSpecials.METAGROUP, CyberTargeting.METAGROUP, CyberResourceProcessing.METAGROUP, CyberScanning.METAGROUP, CyberBiology.METAGROUP, SpecialEditionImplant.METAGROUP);
         }
     }
 }

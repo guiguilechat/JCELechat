@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -151,8 +149,6 @@ public abstract class Subsystem
     public static class MetaCat
         implements IMetaCategory<Subsystem>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Subsystem> [] groups = new IMetaGroup[] {DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -166,14 +162,7 @@ public abstract class Subsystem
 
         @Override
         public Collection<IMetaGroup<? extends Subsystem>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Subsystem> load() {
-            HashMap<String, Subsystem> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(DefensiveSystems.METAGROUP, OffensiveSystems.METAGROUP, PropulsionSystems.METAGROUP, CoreSystems.METAGROUP);
         }
     }
 }

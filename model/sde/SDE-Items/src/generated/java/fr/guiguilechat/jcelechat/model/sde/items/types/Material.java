@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
@@ -34,8 +32,6 @@ public abstract class Material
     public static class MetaCat
         implements IMetaCategory<Material>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Material> [] groups = new IMetaGroup[] {Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -49,14 +45,7 @@ public abstract class Material
 
         @Override
         public Collection<IMetaGroup<? extends Material>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Material> load() {
-            HashMap<String, Material> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP);
         }
     }
 }

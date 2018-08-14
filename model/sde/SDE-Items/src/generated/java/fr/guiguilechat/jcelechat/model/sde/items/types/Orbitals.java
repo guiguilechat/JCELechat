@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -290,8 +288,6 @@ public abstract class Orbitals
     public static class MetaCat
         implements IMetaCategory<Orbitals>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Orbitals> [] groups = new IMetaGroup[] {OrbitalConstructionPlatform.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -305,14 +301,7 @@ public abstract class Orbitals
 
         @Override
         public Collection<IMetaGroup<? extends Orbitals>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Orbitals> load() {
-            HashMap<String, Orbitals> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(OrbitalConstructionPlatform.METAGROUP);
         }
     }
 }

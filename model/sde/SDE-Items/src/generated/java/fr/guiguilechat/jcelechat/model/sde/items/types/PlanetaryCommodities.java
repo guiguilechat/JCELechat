@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
@@ -61,8 +59,6 @@ public abstract class PlanetaryCommodities
     public static class MetaCat
         implements IMetaCategory<PlanetaryCommodities>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends PlanetaryCommodities> [] groups = new IMetaGroup[] {RefinedCommoditiesTier2 .METAGROUP, SpecializedCommoditiesTier3 .METAGROUP, AdvancedCommoditiesTier4 .METAGROUP, BasicCommoditiesTier1 .METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -76,14 +72,7 @@ public abstract class PlanetaryCommodities
 
         @Override
         public Collection<IMetaGroup<? extends PlanetaryCommodities>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, PlanetaryCommodities> load() {
-            HashMap<String, PlanetaryCommodities> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(RefinedCommoditiesTier2 .METAGROUP, SpecializedCommoditiesTier3 .METAGROUP, AdvancedCommoditiesTier4 .METAGROUP, BasicCommoditiesTier1 .METAGROUP);
         }
     }
 }

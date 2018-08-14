@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
@@ -31,8 +29,6 @@ public abstract class Celestial
     public static class MetaCat
         implements IMetaCategory<Celestial>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends Celestial> [] groups = new IMetaGroup[] {CargoContainer.METAGROUP, Biomass.METAGROUP, LargeCollidableObject.METAGROUP, SecureCargoContainer.METAGROUP, AuditLogSecureContainer.METAGROUP, FreightContainer.METAGROUP, HarvestableCloud.METAGROUP, StationImprovementPlatform.METAGROUP, EffectBeacon.METAGROUP, OrbitalTarget.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -46,14 +42,7 @@ public abstract class Celestial
 
         @Override
         public Collection<IMetaGroup<? extends Celestial>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, Celestial> load() {
-            HashMap<String, Celestial> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(CargoContainer.METAGROUP, Biomass.METAGROUP, LargeCollidableObject.METAGROUP, SecureCargoContainer.METAGROUP, AuditLogSecureContainer.METAGROUP, FreightContainer.METAGROUP, HarvestableCloud.METAGROUP, StationImprovementPlatform.METAGROUP, EffectBeacon.METAGROUP, OrbitalTarget.METAGROUP);
         }
     }
 }

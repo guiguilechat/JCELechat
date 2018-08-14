@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde.items;
 
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
 
 public interface IMetaCategory<T> {
@@ -11,5 +12,9 @@ public interface IMetaCategory<T> {
 
     public String getName();
 
-    public Map<String, T> load();
+    public default Map<String, T> load() {
+        HashMap<String, T> ret = new HashMap<>();
+        groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
+        return ret;
+    }
 }

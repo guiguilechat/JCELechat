@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.items.types;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.items.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.items.Item;
@@ -25,8 +23,6 @@ public abstract class SpecialEditionAssets
     public static class MetaCat
         implements IMetaCategory<SpecialEditionAssets>
     {
-        @SuppressWarnings("unchecked")
-        private final static IMetaGroup<? extends SpecialEditionAssets> [] groups = new IMetaGroup[] {FestivalChargesExpired.METAGROUP, SpecialEditionCommodities.METAGROUP, TournamentCardsNewEdenOpenYC114 .METAGROUP, TournamentCardsAllianceTournamentAllStars.METAGROUP };
 
         @Override
         public int getCategoryId() {
@@ -40,14 +36,7 @@ public abstract class SpecialEditionAssets
 
         @Override
         public Collection<IMetaGroup<? extends SpecialEditionAssets>> groups() {
-            return Arrays.asList(groups);
-        }
-
-        @Override
-        public Map<String, SpecialEditionAssets> load() {
-            HashMap<String, SpecialEditionAssets> ret = new HashMap<>();
-            groups().stream().flatMap(img -> img.load().entrySet().stream()).forEach(e -> ret.put(e.getKey(), e.getValue()));
-            return ret;
+            return Arrays.asList(FestivalChargesExpired.METAGROUP, SpecialEditionCommodities.METAGROUP, TournamentCardsNewEdenOpenYC114 .METAGROUP, TournamentCardsAllianceTournamentAllStars.METAGROUP);
         }
     }
 }

@@ -30,6 +30,15 @@ public class TestLoad {
 		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
 	}
 
+	@Test
+	public void testShipsNoNull() {
+		Ship.METACAT.groups().forEach(img -> {
+			Assert.assertNotNull(img);
+			Assert.assertFalse(img.load().containsKey(null), img.getName() + " has null key");
+			Assert.assertFalse(img.load().containsValue(null), img.getName() + " has null value");
+		});
+	}
+
 	@Test(dependsOnMethods = "testLoadAtronFromFrigates")
 	public void testLoadAtronFromShips() {
 		Ship atron = Ship.METACAT.load().get("Atron");
